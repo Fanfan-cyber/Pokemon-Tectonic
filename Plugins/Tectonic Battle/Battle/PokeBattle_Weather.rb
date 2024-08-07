@@ -131,27 +131,27 @@ class PokeBattle_Battle
         when :HarshSun
             if !pbCheckGlobalAbility(:DESOLATELAND) && @field.defaultWeather != :HarshSun
                 @field.weatherDuration = PRIMORDIAL_WEATHER_LINGER_TURNS
-                pbDisplay("The harsh sunlight began to fade!")
+                pbDisplay(_INTL("The harsh sunlight began to fade!"))
             end
         when :HeavyRain
             if !pbCheckGlobalAbility(:PRIMORDIALSEA) && @field.defaultWeather != :HeavyRain
                 @field.weatherDuration = PRIMORDIAL_WEATHER_LINGER_TURNS
-                pbDisplay("The heavy rain began to lift!")
+                pbDisplay(_INTL("The heavy rain began to lift!"))
             end
         when :StrongWinds
             if !pbCheckGlobalAbility(:DELTASTREAM) && @field.defaultWeather != :StrongWinds
                 @field.weatherDuration = PRIMORDIAL_WEATHER_LINGER_TURNS
-                pbDisplay("The mysterious air current began to dissipate!")
+                pbDisplay(_INTL("The mysterious air current began to dissipate!"))
             end
         when :RingEclipse
             if !pbCheckGlobalAbility(:SATURNALSKY) && @field.defaultWeather != :RingEclipse
                 @field.weatherDuration = PRIMORDIAL_WEATHER_LINGER_TURNS
-                pbDisplay("The planetary ring begins to lose its grip!")
+                pbDisplay(_INTL("The planetary ring begins to lose its grip!"))
             end
         when :BloodMoon
             if !pbCheckGlobalAbility(:STYGIANNIGHT) && @field.defaultWeather != :BloodMoon
                 @field.weatherDuration = PRIMORDIAL_WEATHER_LINGER_TURNS
-                pbDisplay("The nightmare moon begins to retreat!")
+                pbDisplay(_INTL("The nightmare moon begins to retreat!"))
             end
         end
 
