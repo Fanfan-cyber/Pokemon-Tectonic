@@ -540,8 +540,8 @@ end
 #===============================================================================
 def pbExtractText(untranslatedOnly = false)
     msgwindow = pbCreateMessageWindow
-    if safeExists?("intl.txt") &&
-       !pbConfirmMessageSerious(_INTL("intl.txt already exists. Overwrite it?"))
+    if safeExists?("intl_.txt") &&
+       !pbConfirmMessageSerious(_INTL("intl_.txt already exists. Overwrite it?"))
         pbDisposeMessageWindow(msgwindow)
         return
     end
