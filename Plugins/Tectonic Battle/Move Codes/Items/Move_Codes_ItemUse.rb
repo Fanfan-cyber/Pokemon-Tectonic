@@ -233,6 +233,16 @@ class PokeBattle_Move_Fling < PokeBattle_Move
     def resetMoveUsageState
         @chosenItem = nil
     end
+
+    def getDetailsForMoveDex(detailsList = [])
+        detailsList << _INTL("<u>150 BP</u>: Pearl of Fate, Iron Ball")
+        detailsList << _INTL("<u>100 BP</u>: Choice Items, Weather Rocks, Life Orb")
+        detailsList << _INTL("<u>75 BP</u>: Everything else")
+        detailsList << _INTL("<u>Poison</u>: Poison Orb")
+        detailsList << _INTL("<u>Burn</u>: Burn Orb")
+        detailsList << _INTL("<u>Frostbite</u>: Frost Orb")
+        detailsList << _INTL("<u>Leech</u>: Big Root, Binding Band")
+    end
 end
 
 #===============================================================================
@@ -351,6 +361,17 @@ class PokeBattle_Move_NaturalGift < PokeBattle_Move
 
     def resetMoveUsageState
         @chosenItem = nil
+    end
+
+    def getDetailsForMoveDex(detailsList = [])
+        @typeArray.each_pair do |typeID, berryList|
+            lineText = "<u>#{GameData::Type.get(typeID).name}</u>: "
+            berryList.each_with_index do |berryID,index|
+                lineText += GameData::Item.get(berryID).name
+                lineText += ", " unless index == berryList.length - 1
+            end
+            detailsList << lineText
+        end
     end
 end
 

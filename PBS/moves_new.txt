@@ -3255,7 +3255,7 @@ Target = NearOther
 FunctionCode = TwoTurnAttackChargeStartSunshine5
 Flags = CanProtect,CanMirrorMove
 Description = Summons sun for five turns on the first turn, then overwhelms the foe with fiery light on the second.
-Animation = SURF
+Animation = FIREBLAST
 #-------------------------------
 [BLAZINGSPEED]
 Name = Blazing Speed
@@ -3355,9 +3355,9 @@ Category = Status
 Accuracy = 0
 TotalPP = 10
 Target = User
-FunctionCode = RaiseUserSpAtk2StartUserAttacksSpread
+FunctionCode = RaiseUserSpAtk3StartUserAttacksSpread
 Flags = CanSnatch
-Description = Raises Sp. Atk by two steps. Until switch out, the user's attacks spread to hit all nearby foes.
+Description = Raises Sp. Atk by three steps. Until switch out, the user's attacks spread to hit all nearby foes.
 #-------------------------------
 [HEARTHFIREHULA]
 Name = Hearthfire Hula
@@ -3617,7 +3617,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = AlliesActNext
 Flags = CanProtect,CanMirrorMove
-Description = A distinguished attack that motivates nearby allies to follow, letting them act immediately after
+Description = A distinguished attack that motivates nearby allies to follow, letting them act immediately after.
 #-------------------------------
 #		WATER MOVES
 #-------------------------------
@@ -3683,7 +3683,7 @@ TotalPP = 15
 Target = NearAlly
 FunctionCode = TargetTakesHalfDamageNextAttackAttackerTakesRecoil
 Flags = CanMirrorMove
-Description = The user creates a bubble to shield their ally. The next time they’re hit, 50% of the move damage is instead dealt back as recoil.
+Description = The user creates a bubble to shield their ally. The next time they're hit, 50% of the move damage is instead dealt back as recoil.
 Animation = AQUARING
 #-------------------------------
 [BUBBLEBLASTER]
@@ -5607,7 +5607,7 @@ Accuracy = 0
 TotalPP = 5
 Target = User
 FunctionCode = UseTwoRandomDragonThemedMoves
-Description = Invokes the aspects of multiple dragons, striking with two fitting moves in a row.
+Description = Invokes the aspects of multiple dragons, striking with a physical move and a special move.
 #-------------------------------
 [AXETOGRIND]
 Name = Axe to Grind
@@ -6624,6 +6624,7 @@ Target = NearOther
 FunctionCode = ScalesSlowerThanTarget
 Flags = CanProtect,CanMirrorMove
 Description = The user spins sugar into a ball launched at the target. The slower the user, the greater the damage.
+Animation = GYROBALL
 #-------------------------------
 [TANTRUM]
 Name = Tantrum

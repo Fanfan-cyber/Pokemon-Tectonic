@@ -218,7 +218,7 @@ sp.form) && !Settings::DEX_SHOWS_ALL_FORMS
         when 4 then drawPageMatchups
         when 5 then drawPageMatchups2
         when 6 then drawPageLevelUpMoves
-        when 7 then drawPageTutorMoves
+        when 7 then drawPageOtherMoves
         when 8 then drawPageEvolution
         when 9 then drawPageArea
         when 10 then drawPageForms
@@ -733,7 +733,7 @@ sp.form) && !Settings::DEX_SHOWS_ALL_FORMS
         drawMoveInfo(selected_move)
     end
 
-    def drawPageTutorMoves
+    def drawPageOtherMoves
         bg_path = "Graphics/Pictures/Pokedex/bg_moves_tutor"
         bg_path += "_dark" if darkMode?
         @sprites["background"].setBitmap(_INTL(bg_path))
@@ -1091,7 +1091,7 @@ sp.form) && !Settings::DEX_SHOWS_ALL_FORMS
         while newindex > 0
             newindex -= 1
             newSpecies = @dexlist[newindex][:species]
-            if !GameData::Species.get(newSpecies).isLegendary? || $Trainer.seen?(newSpecies)
+            if speciesInfoViewable?(newSpecies)
                 @index = newindex
                 break
             end
@@ -1103,7 +1103,7 @@ sp.form) && !Settings::DEX_SHOWS_ALL_FORMS
         while newindex < @dexlist.length - 1
             newindex += 1
             newSpecies = @dexlist[newindex][:species]
-            if !GameData::Species.get(newSpecies).isLegendary? || $Trainer.seen?(newSpecies)
+            if speciesInfoViewable?(newSpecies)
                 @index = newindex
                 break
             end

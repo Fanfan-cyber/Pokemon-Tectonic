@@ -15,11 +15,16 @@ module GameData
       attr_reader :flags
       attr_reader :real_description
       attr_reader :animation_move
-      attr_reader :signature_of
+      
       attr_reader :primeval
       attr_reader :zmove
       attr_reader :cut
       attr_reader :tectonic_new
+
+      # Metadata
+      attr_accessor :signature_of
+      attr_accessor :level_up_learners
+      attr_accessor :other_learners
   
       DATA = {}
       DATA_FILENAME = "moves.dat"
@@ -109,13 +114,8 @@ module GameData
         return !damaging?
       end
 
-      # The highest evolution of a line
-      def signature_of=(val)
-        @signature_of = val
-      end
-
-      def is_signature?()
-        return !@signature_of.nil?
+      def is_signature?
+        return !@signature_of.nil? || avatarSignature?
       end
 
       def empoweredMove?
@@ -135,39 +135,40 @@ module GameData
         return priorityLabel
       end
 
+      def self.moveTags
+        return {
+            "Biting"    => _INTL("Bite"),
+            "Punch"     => _INTL("Punch"),
+            "Sound"     => _INTL("Sound"),
+            "Pulse"     => _INTL("Pulse"),
+            "Dance"     => _INTL("Dance"),
+            "Blade"     => _INTL("Blade"),
+            "Wind"      => _INTL("Wind"),
+            "Kicking"   => _INTL("Kick"),
+        }
+      end
+
       def tagLabel
-        category = nil
         @flags.each do |flag|
-          case flag
-          when "Biting"
-              category = _INTL("Bite")
-          when "Punch"
-              category = _INTL("Punch")
-          when "Sound"
-              category = _INTL("Sound")
-          when "Pulse"
-              category = _INTL("Pulse")
-          when "Dance"
-              category = _INTL("Dance")
-          when "Blade"
-              category = _INTL("Blade")
-          when "Wind"
-              category = _INTL("Wind")
-          when "Kicking"
-              category = _INTL("Kick")
-          end
+          next unless GameData::Move.moveTags.key?(flag)
+          return GameData::Move.moveTags[flag]
         end
-        return category
+        return nil
       end
 
       def can_be_forced?
         return !@flags.include?("CantForce")
       end
 
+      def avatarSignature?
+        return @flags.include?("AvatarSignature")
+      end
+
       def learnable?
         return false if @cut
         return false if @primeval
         return false if @zmove
+        return false if avatarSignature?
         return true
       end
 

@@ -931,7 +931,7 @@ BattleBack = cave1
 Environment = Volcano
 #-------------------------------
 [126]
-# Vibrant Cave
+# Carnation Stockpile
 Outdoor = false
 ShowArea = false
 Bicycle = false
@@ -1071,6 +1071,8 @@ Bicycle = false
 Outdoor = false
 ShowArea = true
 Bicycle = false
+BattleBack = wcave
+WildBattleBGM = BATTLEDIALGAPALKIA.ogg
 #-------------------------------
 [144]
 # Artist's House
@@ -2148,7 +2150,7 @@ Bicycle = false
 Outdoor = false
 ShowArea = false
 Bicycle = false
-HealingSpot = 59,28,19
+HealingSpot = 59,37,19
 BattleBack = field
 Environment = Grass
 #-------------------------------

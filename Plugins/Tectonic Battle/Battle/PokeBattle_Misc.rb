@@ -191,7 +191,7 @@ class PokeBattle_Battle
         if forcedMoveUser.asleep?
             forcedMoveUser.pbContinueStatus(:SLEEP)
             unless fakeMove.usableWhenAsleep? # Snore/Sleep Talk
-                forcedMoveUser.onMoveFailed(move,false)
+                forcedMoveUser.onMoveFailed(fakeMove,false)
                 cantForceMove = true
             end
         end
@@ -374,4 +374,8 @@ def getMoveName(move)
     moveData = GameData::Move.try_get(move)
     return "ERROR" if moveData.nil?
     return moveData.name
+end
+
+def getBattleMoveInstanceFromID(move_id)
+    return PokeBattle_Move.from_pokemon_move(nil, Pokemon::Move.new(move_id))
 end
