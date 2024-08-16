@@ -1,4 +1,4 @@
-﻿Name     = Chinese Language Text Processing
+﻿Name     = Chinese Text Processing
 Requires = Tectonic Modding Base
 Version  = 1.3.6.1
 Link     = https://bbs.pokefans.cn/threads/20-1-21-11-1-6.223/
