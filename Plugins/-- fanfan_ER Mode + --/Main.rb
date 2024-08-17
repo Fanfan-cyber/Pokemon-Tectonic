@@ -30,6 +30,19 @@ class Pokemon
   def addInnateSet
     innateSet&.each { |ability| addExtraAbility(ability) } 
   end
+
+  def abilities
+    ([ability_id] | extraAbilities).compact
+  end
+
+  def hasAbility?(check_ability = nil)
+    return !ability.nil? if check_ability.nil?
+	return abilities.include?(check_ability) if check_ability.is_a?(Symbol)
+	abilities.each do |ability_id|
+      return true if check_ability.id == ability_id
+	end
+	false
+  end
 end
 
 class PokeBattle_Battler
@@ -38,7 +51,7 @@ class PokeBattle_Battler
 	@pokemon.addSpeciesAbility # old save compatibility
 	@pokemon.addInnateSet # old save compatibility
     fanfan_resetAbilities
-	@addedAbilities.concat(@pokemon.speciesAbility).uniq! # for displaying abilities
+	@addedAbilities.concat(@pokemon.abilities).uniq! # for displaying abilities
   end
 end
 
@@ -50,8 +63,7 @@ class PokeBattle_Battle
 	echoln("===PLAYER KNOWN ABILITIES===")
     #@knownAbilities = Hash.new { |hash, key| hash[key] = [] }
     @party1.each do |pokemon|
-	  abilityToKnow = [pokemon.ability_id] | pokemon.extraAbilities
-	  abilityToKnow.compact.each do |ability|
+	  pokemon.abilities.each do |ability|
 	    next if @knownAbilities[pokemon.personalID].include?(ability)
 	    @knownAbilities[pokemon.personalID].push(ability)
 		echoln("Player's side pokemon #{pokemon.name}'s ability #{ability} is known by the AI.")
