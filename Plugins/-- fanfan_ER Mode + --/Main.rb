@@ -10,12 +10,16 @@ class Pokemon
     @extraAbilities ||= []
   end
 
+  def abilities
+    ([ability_id] | extraAbilities).compact
+  end
+
   def addExtraAbility(ability)
     extraAbilities.push(ability) if !extraAbilities.include?(ability) && ability_id != ability
   end
 
   def speciesAbility
-	species_data.abilities.map { |ability| ability }.compact
+	species_data.legalAbilities
   end
 
   def addSpeciesAbility
@@ -23,16 +27,20 @@ class Pokemon
   end
 
   def innateSet
-    return # TO-DO
-    INNATE_SET[@species]&.sample
+    return [] # TO-DO
+    INNATE_SET[@species]&.sample || []
   end
 
   def addInnateSet
-    innateSet&.each { |ability| addExtraAbility(ability) } 
+    innateSet.each { |ability| addExtraAbility(ability) } 
   end
 
-  def abilities
-    ([ability_id] | extraAbilities).compact
+  def legalAbilities
+    speciesAbility | innateSet | [ability_id]
+  end
+
+  def removeIllegalAbilities
+    extraAbilities.delete_if { |ability| !legalAbilities.include?(ability) }
   end
 
   def hasAbility?(check_ability = nil)
@@ -48,8 +56,12 @@ end
 class PokeBattle_Battler
   alias fanfan_resetAbilities resetAbilities
   def resetAbilities(initialization = false)
-	@pokemon.addSpeciesAbility # old save compatibility
-	@pokemon.addInnateSet # old save compatibility
+    if pbOwnedByPlayer?
+	  @pokemon.addSpeciesAbility # old save compatibility
+	  @pokemon.addInnateSet # old save compatibility
+	  @pokemon.removeIllegalAbilities # legality check
+	  @battle.learnPlayerAllAbility(self) # ai update abilities
+	end
     fanfan_resetAbilities
 	@addedAbilities.concat(@pokemon.abilities).uniq! # for displaying abilities
   end
@@ -59,16 +71,26 @@ class PokeBattle_Battle
   alias fanfan_initialize initialize
   def initialize(scene, p1, p2, player, opponent)
     fanfan_initialize(scene, p1, p2, player, opponent)
-    # System for learning the player's abilities
-	echoln("===PLAYER KNOWN ABILITIES===")
-    #@knownAbilities = Hash.new { |hash, key| hash[key] = [] }
-    @party1.each do |pokemon|
-	  pokemon.abilities.each do |ability|
-	    next if @knownAbilities[pokemon.personalID].include?(ability)
-	    @knownAbilities[pokemon.personalID].push(ability)
-		echoln("Player's side pokemon #{pokemon.name}'s ability #{ability} is known by the AI.")
+    learnPlayerAllAbility
+  end
+
+  def learnPlayerAllAbility(battler = nil)
+    if !battler
+	  echoln("===AI KNOWN ABILITIES===")
+      @party1.each do |pokemon|
+	    pokemon.abilities.each do |ability|
+	      @knownAbilities[pokemon.personalID].push(ability)
+		  echoln("Player's side pokemon #{pokemon.name}'s ability #{ability} is known by the AI.")
+		  @knownAbilities[pokemon.personalID].uniq!
+	    end
+      end
+	else
+	  battler.pokemon.abilities.each do |ability|
+	    @knownAbilities[battler.pokemon.personalID] = []
+	    @knownAbilities[battler.pokemon.personalID].push(ability)
+	    echoln("[ABILITY UPDATE] Player's side pokemon #{battler.pokemon.name}'s ability #{ability} is known by the AI.")
 	  end
-    end
+	end
   end
 
   def initializeKnownMoves(pokemon)
