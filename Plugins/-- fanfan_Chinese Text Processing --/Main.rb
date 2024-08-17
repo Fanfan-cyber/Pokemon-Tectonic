@@ -1,3 +1,4 @@
+=begin # disable this plugin
 module Settings
   #字体垂直偏移量（默认为8，值越小越向下）
   Y_OFFSET_OF_TEXT = 0
@@ -708,3 +709,4 @@ def getFormattedTextFast(bitmap, xDst, yDst, widthDst, heightDst, text, lineheig
   end
   return characters
 end
+=end
