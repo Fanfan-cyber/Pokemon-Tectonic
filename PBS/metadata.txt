@@ -3096,3 +3096,9 @@ Bicycle = true
 Outdoor = false
 ShowArea = false
 Bicycle = true
+#-------------------------------
+[931]
+# Illusory Paradise
+Outdoor = true
+ShowArea = false
+Bicycle = true

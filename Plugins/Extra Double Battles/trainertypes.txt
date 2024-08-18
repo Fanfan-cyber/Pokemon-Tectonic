@@ -1,0 +1,19 @@
+#-------------------------------
+[SELFINSERTJOAN]
+Name = Radar Technician
+Gender = Female
+BaseMoney = 100
+BattleBGM = Battle joan
+#-------------------------------
+[SELFINSERTLUNA]
+Name = Modder
+Gender = Female
+BaseMoney = 100
+BattleBGM = Battle luna
+#-------------------------------
+[SELFINSERTVICE]
+Name = Beast
+Gender = Unknown
+BaseMoney = 100
+BattleBGM = Battle vice
+#-------------------------------
