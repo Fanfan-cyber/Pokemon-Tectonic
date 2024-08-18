@@ -84,17 +84,14 @@ class PokeBattle_Battler
     if pbOwnedByPlayer?
 	  @pokemon.addSpeciesAbilityandInnates
 	  @pokemon.removeIllegalAbilities # legality check
-	  @battle.aiUpdateAbility(self) # ai update abilities
 	end
     fanfan_resetAbilities
+	@battle.aiUpdateAbility(self) if pbOwnedByPlayer? # ai update abilities
 	addAbilitiesDisplayInfo # for displaying abilities
   end
 
-  def addAbilitiesDisplayInfo(abil_ids = nil)
-    return if !Settings::ER_MODE
-    return @addedAbilities.concat(@pokemon.abilities).uniq! if !abil_ids
-	abil_ids = [abil_ids] if !abil_ids.is_a?(Array)
-	@addedAbilities.concat(abil_ids).uniq!
+  def addAbilitiesDisplayInfo
+    @addedAbilities.concat(@pokemon.abilities).uniq! if Settings::ER_MODE
   end
 end
 

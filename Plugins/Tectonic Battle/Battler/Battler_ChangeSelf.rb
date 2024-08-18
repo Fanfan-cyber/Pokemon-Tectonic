@@ -618,8 +618,13 @@ class PokeBattle_Battler
         refreshDataBox
         @battle.pbDisplay(_INTL("{1} transformed into a {2}!", pbThis, newSpeciesData.name))
         legalAbilities = newSpeciesData.legalAbilities
-        newAbility = legalAbilities[@pokemon.ability_index] || legalAbilities[0]
-        replaceAbility(newAbility) unless hasAbility?(newAbility)
+
+        if Settings::ER_MODE
+          setAbility(legalAbilities)
+		else
+          newAbility = legalAbilities[@pokemon.ability_index] || legalAbilities[0]
+          replaceAbility(newAbility) unless hasAbility?(newAbility)
+		end
 
         newStats = @pokemon.getCalculatedStats(newSpecies)
         @attack  = newStats[:ATTACK]
@@ -669,7 +674,7 @@ class PokeBattle_Battler
         else
             hasLocket = hasActiveItem?(:FRAGILELOCKET)
         end
-        if hasLocket || (@battle.curseActive?(:CURSE_DOUBLE_ABILITIES) && index.odd?)
+        if hasLocket || (@battle.curseActive?(:CURSE_DOUBLE_ABILITIES) && index.odd?) || Settings::ER_MODE
             eachLegalAbility do |legalAbility|
                 next if @ability_ids.include?(legalAbility)
                 @ability_ids.push(legalAbility)
@@ -710,7 +715,7 @@ class PokeBattle_Battler
             @battle.pbDisplay(_INTL("{1} gained the Ability {2}!", pbThis, getAbilityName(newAbility)))
             hideMyAbilitySplash
         end
-		@battle.aiUpdateAbility(self, abilities: ability_ids) # ai update abilities
+		@battle.aiUpdateAbility(self, abilities: @ability_ids) # ai update abilities
     end
 
     def replaceAbility(newAbility, showSplashes = true, swapper = nil, replacementMsg: nil)
