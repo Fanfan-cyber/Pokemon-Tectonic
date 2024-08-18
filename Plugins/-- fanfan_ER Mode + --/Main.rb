@@ -1,9 +1,21 @@
+module Settings
+  ER_MODE = true
+end
+
 class Pokemon
   alias fanfan_initialize initialize
   def initialize(species, level, owner = $Trainer, withMoves = true, recheck_form = true)
     fanfan_initialize(species, level, owner, withMoves, recheck_form)
-	addSpeciesAbility
-	addInnateSet
+    addSpeciesAbilityandInnates
+  end
+
+  def ability_id # it could be nil
+    recalculateAbilityFromIndex if @ability.nil?
+    @ability
+  end
+
+  def ability
+    GameData::Ability.try_get(ability_id)
   end
 
   def extraAbilities
@@ -22,6 +34,12 @@ class Pokemon
 	species_data.legalAbilities
   end
 
+  def getSpeciesAbilityName(index = nil)
+    ability_names = speciesAbility.map { |ability_id| GameData::Ability.get(ability_id).name }
+	return ability_names[index] if index && index.between?(0, ability_names.length - 1)
+    "#{ability_names[0..-1].join(", ")}"
+  end
+
   def addSpeciesAbility
     speciesAbility.each { |ability| addExtraAbility(ability) }
   end
@@ -35,8 +53,15 @@ class Pokemon
     innateSet.each { |ability| addExtraAbility(ability) } 
   end
 
+  def addSpeciesAbilityandInnates
+    return if !Settings::ER_MODE
+	addSpeciesAbility
+	addInnateSet
+  end
+
   def legalAbilities
-    speciesAbility | innateSet | [ability_id]
+    return speciesAbility | innateSet | [ability_id] if Settings::ER_MODE
+	[ability_id]
   end
 
   def removeIllegalAbilities
@@ -57,13 +82,19 @@ class PokeBattle_Battler
   alias fanfan_resetAbilities resetAbilities
   def resetAbilities(initialization = false)
     if pbOwnedByPlayer?
-	  @pokemon.addSpeciesAbility # old save compatibility
-	  @pokemon.addInnateSet # old save compatibility
+	  @pokemon.addSpeciesAbilityandInnates
 	  @pokemon.removeIllegalAbilities # legality check
-	  @battle.learnPlayerAllAbility(self) # ai update abilities
+	  @battle.aiUpdateAbility(self) # ai update abilities
 	end
     fanfan_resetAbilities
-	@addedAbilities.concat(@pokemon.abilities).uniq! # for displaying abilities
+	addAbilitiesDisplayInfo # for displaying abilities
+  end
+
+  def addAbilitiesDisplayInfo(abil_ids = nil)
+    return if !Settings::ER_MODE
+    return @addedAbilities.concat(@pokemon.abilities).uniq! if !abil_ids
+	abil_ids = [abil_ids] if !abil_ids.is_a?(Array)
+	@addedAbilities.concat(abil_ids).uniq!
   end
 end
 
@@ -71,10 +102,11 @@ class PokeBattle_Battle
   alias fanfan_initialize initialize
   def initialize(scene, p1, p2, player, opponent)
     fanfan_initialize(scene, p1, p2, player, opponent)
-    learnPlayerAllAbility
+    aiUpdateAbility
   end
 
-  def learnPlayerAllAbility(battler = nil)
+  def aiUpdateAbility(battler = nil, abilities: nil)
+    return if !Settings::ER_MODE
     if !battler
 	  echoln("===AI KNOWN ABILITIES===")
       @party1.each do |pokemon|
@@ -84,8 +116,15 @@ class PokeBattle_Battle
 		  @knownAbilities[pokemon.personalID].uniq!
 	    end
       end
-	else
+	elsif !abilities
 	  battler.pokemon.abilities.each do |ability|
+	    @knownAbilities[battler.pokemon.personalID] = []
+	    @knownAbilities[battler.pokemon.personalID].push(ability)
+	    echoln("[ABILITY UPDATE] Player's side pokemon #{battler.pokemon.name}'s ability #{ability} is known by the AI.")
+	  end
+	else
+	  abilities = [abilities] if !abilities.is_a?(Array)
+	  abilities.each do |ability|
 	    @knownAbilities[battler.pokemon.personalID] = []
 	    @knownAbilities[battler.pokemon.personalID].push(ability)
 	    echoln("[ABILITY UPDATE] Player's side pokemon #{battler.pokemon.name}'s ability #{ability} is known by the AI.")
@@ -96,6 +135,7 @@ class PokeBattle_Battle
   def initializeKnownMoves(pokemon)
     pokemon.moves.each do |move|
 	  @knownMoves[pokemon.personalID] = []
+	  next if !pokemon.boss? && !aiAutoKnowsMove?(move, pokemon) && !Settings::ER_MODE
       @knownMoves[pokemon.personalID].push(move.id)
       echoln("Pokemon #{pokemon.name}'s move #{move.name} is known by the AI")
     end

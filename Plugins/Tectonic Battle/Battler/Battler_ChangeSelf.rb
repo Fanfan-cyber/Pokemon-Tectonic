@@ -575,7 +575,7 @@ class PokeBattle_Battler
         applyEffect(:Transform)
         applyEffect(:TransformSpecies, target.species)
         pbChangeTypes(target)
-        if hasActiveItem?(:FRAGILELOCKET)
+        if hasActiveItem?(:FRAGILELOCKET) || Settings::ER_MODE
             setAbility(target.abilities)
         else
             setAbility(target.firstAbility)
@@ -697,6 +697,7 @@ class PokeBattle_Battler
             @ability_ids = newability ? [newability.id] : []
             @addedAbilities = @ability_ids.clone
         end
+		@battle.aiUpdateAbility(self, abilities: value) # ai update abilities
     end
 
     def addAbility(newAbility,showcase = false)
@@ -709,6 +710,7 @@ class PokeBattle_Battler
             @battle.pbDisplay(_INTL("{1} gained the Ability {2}!", pbThis, getAbilityName(newAbility)))
             hideMyAbilitySplash
         end
+		@battle.aiUpdateAbility(self, abilities: ability_ids) # ai update abilities
     end
 
     def replaceAbility(newAbility, showSplashes = true, swapper = nil, replacementMsg: nil)
