@@ -96,7 +96,7 @@ module GameData
 
       def adaptive?
         return false if @base_damage == 0
-        return @category == 2
+        return @category == 3
       end
   
       def hidden_move?
@@ -120,6 +120,10 @@ module GameData
 
       def empoweredMove?
         return @flags.include?("Empowered")
+      end
+
+      def testMove?
+        return @flags.include?("Test")
       end
 
       def categoryLabel
