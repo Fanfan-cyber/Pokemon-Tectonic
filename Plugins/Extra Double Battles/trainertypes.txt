@@ -17,3 +17,9 @@ Gender = Unknown
 BaseMoney = 100
 BattleBGM = Battle vice
 #-------------------------------
+[LEGACYCYNTHIA]
+Name = Champion
+Gender = Female
+BaseMoney = 100
+BattleBGM = Battle cynthia
+#-------------------------------

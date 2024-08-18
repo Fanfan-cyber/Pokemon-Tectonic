@@ -287,3 +287,42 @@ Pokemon = GRIMMSNARL,70
     Item = FOCUSSASH
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,20,20,0
+#-------------------------------
+[LEGACYCYNTHIA,Cynthia]
+Flags = NoPerfect
+Pokemon = SPIRITOMB,70
+    Moves = SPITEFULCHANT,WILLOWISP,SNARL,ICYWIND
+    AbilityIndex = 0 # Bad Influence
+    Item = SITRUSBERRY
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,0,20,0,0,20
+Pokemon = ROSERADE,70
+    Moves = CRUELWHIPBLADE,GUNKSHOT,POWERWHIP,FIRELASH
+    AbilityIndex = 1 # Merciless
+    Item = WIDELENS
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,0,20,20,0
+Pokemon = TOGEKISS,70
+    Moves = MANYBLESSINGS,AIRSLASH,DAZZLINGGLEAM,WISH
+    AbilityIndex = 1 # Serene Grace
+    Item = LUCKHERB
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,0,20,0,0,20
+Pokemon = RIOJIN,70
+    Moves = SECRETTECHNIQUE,FLASHCANNON,DREAMDANCE,DARKALLURE
+    AbilityIndex = 1 # Inner Focus
+    Item = WHITEHERB
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,0,20,20,0
+Pokemon = MILOTIC,70
+    Moves = EBBFLOW,MENDINGSPRING,DRAGONPULSE,LIFEDEW
+    AbilityIndex = 1 # Competitive
+    Item = LEFTOVERS
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,0,20,0,0,20
+Pokemon = GARCHOMP,70
+    Moves = TRAMPLE,OUTRAGE,HUNTDOWN,MACHFLIGHT
+    AbilityIndex = 0 # Rough Skin
+    Item = YACHEBERRY
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,0,20,20,0
