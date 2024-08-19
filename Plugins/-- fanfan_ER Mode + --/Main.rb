@@ -66,15 +66,13 @@ class Pokemon
 
   def removeIllegalAbilities
     extraAbilities.delete_if { |ability| !legalAbilities.include?(ability) }
+	extraAbilities.delete(ability_id)
   end
 
   def hasAbility?(check_ability = nil)
     return !ability.nil? if check_ability.nil?
 	return abilities.include?(check_ability) if check_ability.is_a?(Symbol)
-	abilities.each do |ability_id|
-      return true if check_ability.id == ability_id
-	end
-	false
+	abilities.any? { |ability_id| check_ability.id == ability_id }
   end
 end
 
@@ -106,23 +104,24 @@ class PokeBattle_Battle
     return if !Settings::ER_MODE
     if !battler
 	  echoln("===AI KNOWN ABILITIES===")
+	  @knownAbilities = {}
       @party1.each do |pokemon|
+	    @knownAbilities[pokemon.personalID] = []
 	    pokemon.abilities.each do |ability|
 	      @knownAbilities[pokemon.personalID].push(ability)
 		  echoln("Player's side pokemon #{pokemon.name}'s ability #{ability} is known by the AI.")
-		  @knownAbilities[pokemon.personalID].uniq!
 	    end
       end
 	elsif !abilities
+	  @knownAbilities[battler.pokemon.personalID] = []
 	  battler.pokemon.abilities.each do |ability|
-	    @knownAbilities[battler.pokemon.personalID] = []
 	    @knownAbilities[battler.pokemon.personalID].push(ability)
 	    echoln("[ABILITY UPDATE] Player's side pokemon #{battler.pokemon.name}'s ability #{ability} is known by the AI.")
 	  end
 	else
 	  abilities = [abilities] if !abilities.is_a?(Array)
+	  @knownAbilities[battler.pokemon.personalID] = []
 	  abilities.each do |ability|
-	    @knownAbilities[battler.pokemon.personalID] = []
 	    @knownAbilities[battler.pokemon.personalID].push(ability)
 	    echoln("[ABILITY UPDATE] Player's side pokemon #{battler.pokemon.name}'s ability #{ability} is known by the AI.")
 	  end
@@ -145,5 +144,41 @@ class AbilitySplashAppearAnimation < PokeBattle_Animation
     fanfan_createProcesses
 	bar = addSprite(@sprites["abilityBar_#{@side}"])
     bar.setSE(0, "Battle ability")
+  end
+end
+
+class PokemonSummary_Scene
+  def pbAbilitiesSelection
+    pbMessage(_INTL("Warning: The Innate System doesn't work now."))
+    commands = {}
+    @pokemon.speciesAbility.each do |ability|
+      ability_name = GameData::Ability.try_get(ability)&.name || _INTL("#{ability.to_s.capitalize} (Unimplemented)")
+      commands[ability] = _INTL("Ability: {1}", ability_name)
+    end
+    @pokemon.innateSet.each do |innate|
+      innate_name = GameData::Ability.try_get(innate)&.name || _INTL("#{innate.to_s.capitalize} (Unimplemented)")
+      commands[innate] = _INTL("Innate: {1}", innate_name)
+    end
+    commands[:cancel] = _INTL("Cancel")
+    command = pbShowCommands(commands.values)
+    command_list = commands.clone.to_a
+    @pokemon.speciesAbility.each_with_index do |ability, index|
+      next if command_list[command][0] != ability
+      ability_obj = GameData::Ability.try_get(ability)
+      ability_description = ability_obj&.description || _INTL("This ability is unimplemented now.")
+      pbMessage(ability_description)
+      next if !ability_obj || @pokemon.ability_id == ability
+      if pbConfirm(_INTL("Do you want to change the displaying ability to {1}?", ability_obj.name))
+        @pokemon.ability_index = index
+        @pokemon.ability = nil
+        pbMessage(_INTL("{1}'s displaying ability now is {2}.", @pokemon.speciesName, ability_obj.name))
+      end
+    end
+    @pokemon.innateSet.each do |innate|
+      next if command_list[command][0] != innate
+      ability_obj = GameData::Ability.try_get(innate)
+      innate_description = ability_obj&.description || _INTL("This innate is unimplemented now.")
+      pbMessage(innate_description)
+    end
   end
 end

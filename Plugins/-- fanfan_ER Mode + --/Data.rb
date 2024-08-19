@@ -1,7 +1,7 @@
 INNATE_SET = {
   :DEFAULT       => [   [:PUREHEART,         :FORTIFICATION,   :SUPERLUCK,       ],   [      ],   ],
 
-  :BULBASAUR     => [   [:OVERGROW,          :THICKFAT,          ],   [      ],   ], # 妙蛙种子
+  :BULBASAUR     => [   [:OVERGROW,          :THICKFAT,        :POISONENGULF,    ],   [      ],   ], # 妙蛙种子
   :IVYSAUR       => [   [:OVERGROW,          :THICKFAT,        :POISONENGULF,    ],   [      ],   ],
   :VENUSAUR      => [   [:OVERGROW,          :THICKFAT,        :POISONENGULF,    ],   [      ],   ],
   :VENUSAUR_1    => [   [:FORESTRAGE,        :THICKFAT,        :POISONENGULF,    ],   [      ],   ],
