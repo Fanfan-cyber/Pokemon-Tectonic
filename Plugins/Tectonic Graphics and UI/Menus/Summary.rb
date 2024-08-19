@@ -843,8 +843,12 @@ class PokemonSummary_Scene
         if ability
             ability_base   = MessageConfig.pbDefaultTextMainColor
             ability_shadow = MessageConfig.pbDefaultTextShadowColor
-            textpos.push([ability.name, 138, 278, 0, ability_base, ability_shadow])
-            drawTextEx(overlay, 8, 320, Graphics.width, 2, ability.description, ability_base, ability_shadow)
+			if Settings::ER_MODE
+			  textpos.push([_INTL("#{ability.name} (USE: Check more)"), 138, 278, 0, ability_base, ability_shadow])
+			else
+              textpos.push([ability.name, 138, 278, 0, ability_base, ability_shadow])
+            end
+			drawTextEx(overlay, 8, 320, Graphics.width, 2, ability.description, ability_base, ability_shadow)
         end
         # Draw all text
         pbDrawTextPositions(overlay, textpos)
@@ -1308,7 +1312,9 @@ class PokemonSummary_Scene
     end
 
     def pbOptions
-        return pbMarking(@pokemon)
+	    return pbMarking(@pokemon) if !Settings::ER_MODE
+	    return if !pbConfirm(_INTL("Do you want to check {1} in MasterDex?", @pokemon.name))
+	    openSingleDexScreen(@pokemon)
     end
 
     def pbChooseMoveToForget(move_to_learn)
@@ -1456,6 +1462,10 @@ class PokemonSummary_Scene
                 elsif @page == 5
                     pbPlayDecisionSE
                     pbRibbonSelection
+                    dorefresh = true
+                elsif @page == 3 && Settings::ER_MODE
+                    pbPlayDecisionSE
+                    pbAbilitiesSelection
                     dorefresh = true
                 elsif @battle.nil?
                     pbPlayDecisionSE
