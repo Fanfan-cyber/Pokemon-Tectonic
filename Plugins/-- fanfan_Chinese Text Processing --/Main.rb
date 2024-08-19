@@ -1,19 +1,20 @@
-=begin # disable this plugin
+if Settings::CHINESE_TEXT
+
 module Settings
+
   #字体垂直偏移量（默认为8，值越小越向下）
   Y_OFFSET_OF_TEXT = 0
   #命令纠正偏移量(默认为8，值越小越向下)
   Y_OFFSET_OF_ORDER_CORRCETION = 0
   
   #引号中填写自已使用的字体即可
-  #GLOBAL_FONT_NAME = ""
   GLOBAL_FONT_NAME = "FusionPixelMonoPatched"
 end
 
 module MessageConfig
-  #FONT_NAME                 = Settings::GLOBAL_FONT_NAME
-  #SMALL_FONT_NAME           = Settings::GLOBAL_FONT_NAME
-  #NARROW_FONT_NAME          = Settings::GLOBAL_FONT_NAME
+  FONT_NAME                 = Settings::GLOBAL_FONT_NAME
+  SMALL_FONT_NAME           = Settings::GLOBAL_FONT_NAME
+  NARROW_FONT_NAME          = Settings::GLOBAL_FONT_NAME
   
   #FONT_Y_OFFSET             = Settings::Y_OFFSET_OF_TEXT
   #SMALL_FONT_Y_OFFSET       = Settings::Y_OFFSET_OF_TEXT
@@ -709,4 +710,5 @@ def getFormattedTextFast(bitmap, xDst, yDst, widthDst, heightDst, text, lineheig
   end
   return characters
 end
-=end
+
+end

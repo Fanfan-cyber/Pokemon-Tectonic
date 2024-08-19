@@ -1,5 +1,5 @@
 ﻿Name     = Chinese Text Processing
-Requires = Tectonic Modding Base
+Requires = ER Mode +
 Version  = 1.3.6.1
 Link     = https://bbs.pokefans.cn/threads/20-1-21-11-1-6.223/
 Credits  = 木亦会枯, 楠楠楠小鸟, Fanfan(19.1)

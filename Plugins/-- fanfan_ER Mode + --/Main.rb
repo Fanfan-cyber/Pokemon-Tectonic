@@ -1,5 +1,6 @@
 module Settings
   ER_MODE = true
+  CHINESE_TEXT = false # please dont touch this if eng is yer native
 end
 
 class Pokemon
@@ -9,12 +10,12 @@ class Pokemon
     addSpeciesAbilityandInnates
   end
 
-  def ability_id # it could be nil
+  def ability_id # it may be a nil, so be careful
     recalculateAbilityFromIndex if @ability.nil?
     @ability
   end
 
-  def ability
+  def ability # an abil obj
     GameData::Ability.try_get(ability_id)
   end
 
@@ -46,7 +47,7 @@ class Pokemon
 
   def innateSet
     return [] # TO-DO
-    INNATE_SET[@species]&.sample || []
+    #INNATE_SET[@species]&.sample || []
   end
 
   def addInnateSet
@@ -66,7 +67,7 @@ class Pokemon
 
   def removeIllegalAbilities
     extraAbilities.delete_if { |ability| !legalAbilities.include?(ability) }
-	extraAbilities.delete(ability_id)
+	extraAbilities.delete(ability_id) # prevent an abil from triggering twice
   end
 
   def hasAbility?(check_ability = nil)
@@ -84,8 +85,8 @@ class PokeBattle_Battler
 	  @pokemon.removeIllegalAbilities # legality check
 	end
     fanfan_resetAbilities
-	@battle.aiUpdateAbility(self) if pbOwnedByPlayer? # ai update abilities
-	addAbilitiesDisplayInfo # for displaying abilities
+	@battle.aiUpdateAbility(self) if pbOwnedByPlayer? # ai update ablis
+	addAbilitiesDisplayInfo # for displaying ablis
   end
 
   def addAbilitiesDisplayInfo
@@ -97,7 +98,7 @@ class PokeBattle_Battle
   alias fanfan_initialize initialize
   def initialize(scene, p1, p2, player, opponent)
     fanfan_initialize(scene, p1, p2, player, opponent)
-    aiUpdateAbility
+    aiUpdateAbility # ai knows all abils
   end
 
   def aiUpdateAbility(battler = nil, abilities: nil)
