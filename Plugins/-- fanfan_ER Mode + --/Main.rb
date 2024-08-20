@@ -37,8 +37,8 @@ class Pokemon
 
   def getSpeciesAbilityName(index = nil)
     ability_names = speciesAbility.map { |ability_id| GameData::Ability.get(ability_id).name }
-	return ability_names[index] if index && index.between?(0, ability_names.length - 1)
-    "#{ability_names[0..-1].join(", ")}"
+	return "#{ability_names[0..-1].join(", ")}" if !index
+	ability_names[index] #if index && index.between?(0, ability_names.length - 1)
   end
 
   def addSpeciesAbility
@@ -169,17 +169,41 @@ class PokemonSummary_Scene
       ability_description = ability_obj&.description || _INTL("This ability is unimplemented now.")
       pbMessage(ability_description)
       next if !ability_obj || @pokemon.ability_id == ability
-      if pbConfirm(_INTL("Do you want to change the displaying ability to {1}?", ability_obj.name))
-        @pokemon.ability_index = index
-        @pokemon.ability = nil
-        pbMessage(_INTL("{1}'s displaying ability now is {2}.", @pokemon.speciesName, ability_obj.name))
+      if pbConfirm(_INTL("Do you want to use an Ability Capsule to change the displaying ability to {1}?", ability_obj.name))
+	    if $PokemonBag.pbHasItem?(:ABILITYCAPSULE)
+		  $PokemonBag.pbDeleteItem(:ABILITYCAPSULE)
+          @pokemon.ability_index = index
+          @pokemon.ability = nil
+          pbMessage(_INTL("{1}'s displaying ability now is {2}.", @pokemon.speciesName, ability_obj.name))
+		else
+		  pbMessage(_INTL("You don't have any Ability Capsule in your bag."))
+		end
       end
+	  break
     end
     @pokemon.innateSet.each do |innate|
       next if command_list[command][0] != innate
       ability_obj = GameData::Ability.try_get(innate)
       innate_description = ability_obj&.description || _INTL("This innate is unimplemented now.")
       pbMessage(innate_description)
+	  break
     end
   end
+end
+
+if Settings::ER_MODE
+
+def battleGuideAbilitiesHash
+    return {
+        _INTL("What are abilities?") => _INTL("Abilities are special powers that Pokémon can have based on their species. Most Pokémon can have 2 possible abilities. All abilities activate."),
+        _INTL("Ability Effects") => _INTL("Abilities do a wide variety of different things. Understanding your team's abilities is important to winning."),
+        _INTL("Checking Abilities") => _INTL("Check your Pokémon's summary to see what displaying ability they have. Use the MasterDex to read about the abilities of enemy Pokémon during battle."),
+        _INTL("Choosing Abilities") => _INTL("A Pokémon's displaying ability is one of the two its species can have, randomly chosen when you get it. You can use Ability Capsules to swap to the other."),
+        _INTL("Conditional Abilities") => _INTL("Many abilities only do things under certain circumstances. Building around Weather and Room-synergy abilities is a common strategy."),
+        _INTL("Effect Of Evolution") => _INTL("A Pokémon's ability tends to stay the same when evolving, but can change. When this happens, the game will alert you."),
+        _INTL("Defeating Abilities") => _INTL("An enemy Trainer's ability too much? Abilities like Neutralizing Gas, and moves like Gastro Acid, can suppress abilities in battle."),
+        _INTL("Swapping Abilities") => _INTL("Moves like Skill Swap can be used to give a new ability to Pokémon during battle, enabling unique and creative team synergies."),
+    }
+end
+
 end
