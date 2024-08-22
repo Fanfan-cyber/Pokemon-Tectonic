@@ -2060,7 +2060,7 @@ Pokemon = SWAMPERT,42
     AbilityIndex = 1 # Boulder Nest
 Pokemon = BOUFFALANT,44
     Moves = DOUBLEEDGE,BEDROCKBREAKER,TAUNT,POISONJAB
-    AbilityIndex = 1 # Sap Sipper
+    AbilityIndex = 0 # Afrotection
 Pokemon = REUNICLUS,42
     Moves = SLUDGEWAVE,MINDWARP,RECOVER,CALMMIND
     AbilityIndex = 1 # Magic Guard
@@ -7242,11 +7242,13 @@ Flags = NoPerfect
 Pokemon = KLEFKI,40
     Moves = PLAYROUGH,LIGHTSCREEN,REFLECT,FLASHCANNON
     AbilityIndex = 0 # Prankster
-Pokemon = SAURENAID,40
-    AbilityIndex = 0 # Arctic Ariette
-Pokemon = GOLEM,40
-    AbilityIndex = 0 # Unbreakable
+Pokemon = CARRACOSTA,40
+    AbilityIndex = 1 # Tough
+Pokemon = DUGTRIO,40
+    Moves = DIG,ROCKSLIDE,TAUNT,EARTHQUAKE
+    AbilityIndex = 1 # Sapper
 Pokemon = ARAICHU,40
+    Moves = SURF,SEERSTRIKE,THUNDERBOLT
     AbilityIndex = 1 # Surf's Up
 #-------------------------------
 [CHALLENGER_Vanya,Vanya,5]
@@ -7257,20 +7259,19 @@ Pokemon = SLOWBRO,45
     AbilityIndex = 0 # Delayed Reaction
 Pokemon = KABUTOPS,45
     AbilityIndex = 0 # Super Luck
-Pokemon = INCINEROAR,45
-    AbilityIndex = 0 # Intimidate
+Pokemon = HTYPHLOSION,45
+    AbilityIndex = 1 # Exorcist
 #-------------------------------
 [CHALLENGER_Vanya,Vanya,6]
 Flags = NoPerfect
 Pokemon = TORTERRA,55
-    AbilityIndex = 0 # Refuge
-Pokemon = DONSTER,55
-    Moves = SLAG,MIASMA,PAINSPLIT,AUTOTOMIZE
-    AbilityIndex = 0 # Aggravate
-Pokemon = SCARODON,55
-    AbilityIndex = 0 # Schadenfreude
-Pokemon = MDUSTOX,55
-    AbilityIndex = 1 # Follow Through
+    AbilityIndex = 1 # Living Armor
+Pokemon = TOXICROAK,55
+    AbilityIndex = 1 # Dry Skin
+Pokemon = MASQUERAIN,55
+    AbilityIndex = 0 # Hyper Speed
+Pokemon = METAGROSS,55
+    AbilityIndex = 1 # Optimized Alloy
 #-------------------------------
 [CHALLENGER_Vanya,Vanya,7]
 Flags = NoPerfect
@@ -7280,8 +7281,8 @@ Pokemon = WIGGLYTUFF,60
     AbilityIndex = 1 # Maestro
 Pokemon = DRAGAPULT,60
     AbilityIndex = 0 # Clear Body
-Pokemon = SWANNA,60
-    AbilityIndex = 0 # Intimidate
+Pokemon = CORVIKNIGHT,60
+    AbilityIndex = 1 # Expertise
 #-------------------------------
 [CHALLENGER_Vanya,Vanya,8]
 Flags = NoPerfect
@@ -8176,47 +8177,47 @@ Pokemon = MILTANK,70
     AbilityIndex = 0 # Thick Fat
     Item = LEFTOVERS
 #-------------------------------
-[OFFICEWORKER_M,JOSH]
+[OFFICEWORKER_M,Kurt]
 Pokemon = MEOWSTIC,70
     Moves = REFLECT,HELPINGHAND,HEALBELL,LIGHTSCREEN
-    AbilityIndex = 1 # Liminal
+    AbilityIndex = 0 # Prankster
     Item = LIGHTCLAY
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,0,20,0,0,20
 Pokemon = LUXRAY,70
     Moves = PHOTONEDGE,REST,FIREFANG,HOWL
-    AbilityIndex = 2 # Night Vision
+    AbilityIndex = 1 # Intimidate
     Item = LUMBERAXE
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,5,0,20,15
 Pokemon = TORKOAL,70
     Moves = BURNINGJEALOUSY,IGNITE,EARTHPOWER,CLEARSMOG
-    AbilityIndex = 1 # Drought
+    AbilityIndex = 0 # Pressure Valve
     Item = HIVISJACKET
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,10,15,0,10,15
 #-------------------------------
-[VETERANM_3,PEARCE]
+[VETERANM_3,Pearce]
 Pokemon = ROSERADE,70
     Moves = SLAY,SYNTHESIS,LEAFBLADE,ENVENOM
-    AbilityIndex = 1 # Merciless
+    AbilityIndex = 0 # Swordplay
     Item = WHETSTONE
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,7,6,20,7
 Pokemon = GLISCOR,70
     Moves = LEECHLIFE,ADAMANTINEPRESS,UNDERMINE,INFINITEWING
-    AbilityIndex = 1 # Sand Shroud
+    AbilityIndex = 0 # Grotesque Vitals
     Item = STRIKEVEST
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 12,8,15,0,8,15
 Pokemon = EMPOLEON,70
     Moves = RUPTURESPRING,ADRENALASH,FARADAYCAGE,SCALD
-    AbilityIndex = 2 # Imperious
+    AbilityIndex = 1 # Self-Sufficient
     Item = WATERBALLOON
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,11,0,20,9
 #-------------------------------
-[DELINQUENT,NORA]
+[SEEKER_Nora,Nora]
 Pokemon = COALOSSAL,70
     Name = Certainty
     Moves = ROLLINGBOULDER,FLAREUP,RAPIDSPIN,FLAMESPIKES
@@ -8246,8 +8247,9 @@ Pokemon = JUMPLUFF,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,20,20,0
 #-------------------------------
-[DELINQUENT,NORA,1]
+[SEEKER_Nora,Nora,1]
 ExtendsVersion = 0
+Policies = CURSE_NO_MERCY_3
 Pokemon = HARIYAMA,70
     Name = Tenacity
     Moves = PROTECT,BELLYDRUM,STORMTHROW,LIQUIDATION

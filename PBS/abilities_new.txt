@@ -20,6 +20,10 @@ Description = Grants immunity to Flying-type moves and raises Speed if hit by on
 Name = Aeroshell
 Description = After using a wind move, raises both of the Pokémon's defensive stats.
 #-------------------------------
+[AFROTECTION]
+Name = Afrotection
+Description = Protects the Pokémon from recoil damage. The Pokémon doesn't trigger items, abilities, or effects of targets it hits.
+#-------------------------------
 [AFTERIMAGE]
 Name = Afterimage
 Description = Slips past all types of spikes. Deals 50% more damage to targets that switched in this turn.
@@ -761,6 +765,10 @@ Description = Moves that bind the opponent deal 50% more damage (on the initial 
 [GRIT]
 Name = Grit
 Description = Boosts Sp. Def by two steps when hit by an attack.
+#-------------------------------
+[GROOVY]
+Name = Groovy
+Description = Raises Attack whenever any Pokémon uses a dance move.
 #-------------------------------
 [GROTESQUEVITALS]
 Name = Grotesque Vitals
@@ -1812,11 +1820,6 @@ Description = Powers up Water-type moves by 50%.
 Name = Survivalist
 Description = It avoids hazards and can't be knocked out with one hit.
 Flags = HazardImmunity
-#-------------------------------
-[SUSTAINABLE]
-Name = Sustainable
-Description = Upon entry in sunshine, regenerates its used berry.
-Flags = SunSynergy
 #-------------------------------
 [SWIFTSTOMPS]
 Name = Swift Stomps
