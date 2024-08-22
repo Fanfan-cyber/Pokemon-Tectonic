@@ -359,7 +359,8 @@ class PokeBattle_Battler
             @battle.pbEndPrimordialWeather
         end
 
-	    return if !@battle.trainerBattle? || !pbOwnedByPlayer? || !Settings::ER_MODE
+        return if @first_faint || !@battle.trainerBattle? || !pbOwnedByPlayer? || !Settings::ER_MODE
+		@first_faint = true
         return if !@battle.pbDisplayConfirmSerious(_INTL("You literally can't finish the perfect. \nWould you like to quit now?"))
         pbSEPlay("Battle flee")
 	    @battle.decision = 3
