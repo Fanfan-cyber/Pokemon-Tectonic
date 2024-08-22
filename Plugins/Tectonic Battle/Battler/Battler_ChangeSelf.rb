@@ -358,6 +358,13 @@ class PokeBattle_Battler
             # Check for end of primordial weather
             @battle.pbEndPrimordialWeather
         end
+
+	    return if !@battle.trainerBattle? || !pbOwnedByPlayer? || !Settings::ER_MODE
+        return if !@battle.pbDisplayConfirmSerious(_INTL("You literally can't finish the perfect. \nWould you like to quit now?"))
+        pbSEPlay("Battle flee")
+	    @battle.decision = 3
+        @battle.decision = 2 if @battle.internalBattle
+
     end
 
     #=============================================================================

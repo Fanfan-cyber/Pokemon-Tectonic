@@ -7,7 +7,7 @@ class Pokemon
   alias fanfan_initialize initialize
   def initialize(species, level, owner = $Trainer, withMoves = true, recheck_form = true)
     fanfan_initialize(species, level, owner, withMoves, recheck_form)
-    addSpeciesAbilityandInnates
+    addAnotherAbilityAndInnates
   end
 
   def ability_id # it may be a nil, so be careful
@@ -28,46 +28,52 @@ class Pokemon
   end
 
   def addExtraAbility(ability)
-    extraAbilities.push(ability) if !extraAbilities.include?(ability) && ability_id != ability
+    extraAbilities.push(ability) if !abilities.include?(ability)
   end
 
   def speciesAbility
 	species_data.legalAbilities
   end
 
+  def anotherAbility
+    speciesAbility.select { |ability| ability != ability_id }
+  end
+
   def getSpeciesAbilityName(index = nil)
     ability_names = speciesAbility.map { |ability_id| GameData::Ability.get(ability_id).name }
 	return "#{ability_names[0..-1].join(", ")}" if !index
-	ability_names[index] #if index && index.between?(0, ability_names.length - 1)
+	ability_names[index]
   end
 
-  def addSpeciesAbility
-    speciesAbility.each { |ability| addExtraAbility(ability) }
+  def addAnotherAbility
+    anotherAbility.each { |ability| addExtraAbility(ability) }
   end
 
   def innateSet
     return [] # TO-DO
-    #INNATE_SET[@species]&.sample || []
   end
 
   def addInnateSet
     innateSet.each { |ability| addExtraAbility(ability) } 
   end
 
-  def addSpeciesAbilityandInnates
+  def addAnotherAbilityAndInnates
     return if !Settings::ER_MODE
-	addSpeciesAbility
+	addAnotherAbility
 	addInnateSet
   end
 
   def legalAbilities
-    return speciesAbility | innateSet | [ability_id] if Settings::ER_MODE
+    return (speciesAbility | innateSet | [ability_id]) if Settings::ER_MODE
 	[ability_id]
   end
 
   def removeIllegalAbilities
     extraAbilities.delete_if { |ability| !legalAbilities.include?(ability) }
-	extraAbilities.delete(ability_id) # prevent an abil from triggering twice
+  end
+
+  def removeDupAbility
+    extraAbilities.delete(ability_id)
   end
 
   def hasAbility?(check_ability = nil)
@@ -81,16 +87,17 @@ class PokeBattle_Battler
   alias fanfan_resetAbilities resetAbilities
   def resetAbilities(initialization = false)
     if pbOwnedByPlayer?
-	  @pokemon.addSpeciesAbilityandInnates
+      @pokemon.addAnotherAbilityAndInnates
 	  @pokemon.removeIllegalAbilities # legality check
 	end
-    fanfan_resetAbilities
+	@pokemon.removeDupAbility # prevent an abil from triggering twice
+    fanfan_resetAbilities(initialization)
 	@battle.aiUpdateAbility(self) if pbOwnedByPlayer? # ai update ablis
-	addAbilitiesDisplayInfo # for displaying ablis
+	addAbilitiesDisplayInfo # for displaying all ablis
   end
 
   def addAbilitiesDisplayInfo
-    @addedAbilities.concat(@pokemon.abilities).uniq! if Settings::ER_MODE
+    @addedAbilities.concat(abilities).uniq! if Settings::ER_MODE
   end
 end
 
@@ -115,9 +122,9 @@ class PokeBattle_Battle
       end
 	elsif !abilities
 	  @knownAbilities[battler.pokemon.personalID] = []
-	  battler.pokemon.abilities.each do |ability|
+	  battler.abilities.each do |ability|
 	    @knownAbilities[battler.pokemon.personalID].push(ability)
-	    echoln("[ABILITY UPDATE] Player's side pokemon #{battler.pokemon.name}'s ability #{ability} is known by the AI.")
+	    echoln("[ABILITY UPDATE] Player's side pokemon #{battler.name}'s ability #{ability} is known by the AI.")
 	  end
 	else
 	  abilities = [abilities] if !abilities.is_a?(Array)
