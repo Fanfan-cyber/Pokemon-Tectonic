@@ -1204,6 +1204,12 @@ No
 No
 Yes
 Sí
+The Growlithe is cowering from everything.
+El Growlithe está temblando.
+You notice a tag on its collar. Though it's moving around, you can just make out what's written on it.
+Notas una etiqueta en su collar. Aunque se está moviendo, apenas puedes notar lo que está escrito en ella.
+Its owner apparently lives in Novo Apartments, in Novo Town.
+Su dueño aparentemente vive en los Apartamentos Novo, en Pueblo Novo.
 [Map8]
 Hey there. Miss me?
 Buenas. ¿Me extrañabas?
@@ -3521,7 +3527,68 @@ What could have caused such an abnormal change in temperature in such a concentr
 ¿Que podría haber causado un anormal cambio en la temperatura concentrado en esta área?
 If you do go in, you legally absolve the Rangers and the Svait Rescue Operation of responsibility.
 Si entras, legalmente absuelves a los Rangers y a la Operación de Rescate Svait de toda responsabilidad.
-
+There you are.
+Ahí estás.
+I’ve had a chance to look more at the data on that USB.
+Tuve la oportunidad de ver más datos en ese USB.
+The people you got this from really didn’t bother to scrub anything off of it, huh?
+La gente de la que obtuviste esto ni se molestó en limpiar nada de esto, ¿eh?
+I feel a little silly for spending all that time in the stacks.
+Me siento algo tonta por pasar tanto tiempo en la biblioteca.
+All these findings and life's work worth of knowledge makes you feel very, very, small.
+Todos estos descubrimientos y el equivalente a una vida de conocimiento te hace sentir muy, muy, pequeño.
+Are they satisfied to just, never act on the knowledge that they’ve obtained?
+¿Acaso están satisfechos en simplemente, no hacer nada con todo el conocimiento que han obtenido?
+Hey. This might be an odd question, but…
+Hey. Esta pregunta podrá parecer extraña, pero...
+Could you come and talk to me again when you have 4 or less Pokemon in your party?
+¿Podrías regresar y hablar conmigo de nuevo cuando tengas 4 o menos Pokémon en tu equipo?
+I think it’d be best if you come back when you have 4 or less Pokemon in your party.
+Creo que sería mejor su regresaras cuando tengas 4 o menos Pokémon en tu equipo.
+Great. Sorry.
+Genial. Lo siento.
+Most trainers I’ve seen around the region only use parties of 4, so I felt a bit… Intimidated by your overwhelming strength.
+La mayoría de entrenadores que he visto en esta región sólo usan equipos de 4, así que me sentí algo... intimidada por tu fuerza abrumadora.
+I have another possibly odd question for you.
+Tengo otra pregunta posiblemente rara para tí.
+Have you ever caught a Legendary Pokemon before?
+¿Alguna vez has atrapado a un Pokémon Legendario?
+I was dreading that.
+Temía eso.
+I don’t think I have it in me to let you become a hoarder like Team Chasm was.
+No creo que pueda dejarte convertirte en un acaparador como lo fue el Team Chasm.
+These are forces of nature you’re messing with. And they need to be respected as such.
+Estás jugando con fuerzas de la naturaleza. Y tienen que ser respetadas como tales.
+You need to know where you stand.
+Tienes que saber dónde estás parado.
+You need to know your place.
+Tienes que conocer tu lugar.
+Oh, good. Right, yeah!
+Oh, bien. Cierto, ¡seh!
+That’d be ridiculous if you did. It’d be like owning an Avatar.
+Sería ridículo si lo hicieras. Sería como atrapar un Avatar.
+But… The Seekers were able to work with The Crafter to attain some sort of harmony with those.
+Pero... Los Buscadores fueron capaces de trabajar con El Escultor para tener algún tipo de armonía con ellos.
+Even if I can find beauty in the primalness… Somehow, humanity managed to take control.
+Incluso si puedo encontrar belleza en lo primigenio... De algún modo, la humanidad logró tomar control.
+…If anyone should be worthy of inheriting the legacy of the Seekers, it's me.
+…Si alguien es merecedor de heredar el legado de los Buscadores, soy yo.
+I’m the one who put in all the time reading the research here.
+Yo soy quien pasó todo ese tiempo leyendo las investigaciones allí.
+I’m the one who picked their bones clean.
+Yo soy quien meditó sobre ellas.
+If anyone should be worthy of inheriting the legacy of the Seekers, it's me.
+Si alguien es merecedor de heredar el legado de los Buscadores, soy yo.
+I’m so sorry.
+Lo siento tanto.
+I don’t know what came over me, I really lost myself for a moment.
+No sé que me pasó, realmente me perdí a mí misma por un momento.
+Shows how easy it could’ve been for the Seekers and Team Chasm to let this go to their heads.
+Es una buena demostración de lo fácil que se les pudo haber subido esto a la cabeza los Buscadores y al Team Chasm.
+Here, let me heal your team up.
+Ok, déjame curar a tu equipo.
+Let’s go find what we came here for together.
+Busquemos juntos lo que vinimos a encontrar aquí.
 [Map38]
 
 Okay, now just to dig the moat!
@@ -10623,7 +10690,7 @@ Tengo un par de sobra ahora que los usuarios originales fueron... empleados en o
 It’s a way to <imp>read up on an opponent’s team</imp> before trying to take them on.
 Es una forma de <imp>leer el equipo de un oponente</imp> antes de ir a por ellos.
 Please do not ask me why it’s called the Poké X-Ray. It doesn’t even use x-rays.
-Por favor no me preguntes por qué se llama Poké Rayos X. Ni siquiera usa rayos x.
+Por favor no me preguntes por qué se llama Poké-Rayos X. Ni siquiera usa rayos x.
 I – you know what, just don’t ask questions and appreciate the damn thing.
 Yo - sabes qué, sólo no hagas preguntas y aprecia la maldita cosa.
 The point is, in the future, maybe you help me out and I keep giving you free stuff, OK?
@@ -22120,6 +22187,10 @@ Now it's basically my own waterfront apartment, with the Rangers paying the rent
 Ahora es básicamente mi propio apartamento costero, con los Rangers pagando el alquiler por mi.
 Got a good deal for myself, if I do say so myself.
 Toda una ganga, diría.
+I've got a Figment for your contribution.
+Tengo una Fantasía por tu contribución.
+It's made of magic. I'm sure you want it.
+Está hecha de magia. Seguramente la quieres.
 [Map323]
 
 Fossil records show that Pokemon in ancient times were significantly more powerful than they are today.
@@ -26542,9 +26613,172 @@ East: Battle Plaza Underground
 Este: Plaza Batalla Subterránea
 South-East: Exit to Eleig River Crossing
 Sureste: Salida a Cruce del Río Eleig
+The insurance business is all about predicting the future.
+El trabajo de una aseguradora es predecir el futuro.
+Too bad I'm completely unpredictable!
+¡Qué mal que soy completamente impredecible!
+Well, I definitely didn't predict that.
+Bueno, definitivamente no predije eso.
+Excuse me, I've got to update my mathematical models...
+Discúlpame, tengo que actualizar mis modelos matemáticos...
+No matter. Even a loss is just more data to feed to the algorithm.
+No importa. Incluso una derrota es sólo más información para alimentar al algoritmo.
+[Map427]
+An old, beaten up laptop. A couple dozen windows are open all at once.
+Una vieja laptop algo destartalada. Un par de docenas de ventanas están abiertas a la vez.
+Something is being researched, but it's impossible to tell what specifically.
+Algo está siendo investigado, pero es imposible decir qué específicamente.
+It's Nora's laptop. She must have forgotten it in her hurry to get to Svait.
+Es la laptop de Nora. Debió haberla olvidado en su apuro para llegar a Svait.
+A map displayed on the screen shows a path to the west of the Ranger Station there.
+Una mapa mostrado en el mapa muestra un camino al oeste de la Estación Ranger allí.
+“Over 2500 years ago, there existed a sect of itinerant priests who worshipped a Legendary Carver of Clay.
+"Hace más de 2500 años, existía una secta de sacerdotes nómadas que adoraban al Legendario Escultor de Arcilla. 
+And by its hand, people were able to claim dominion over inhospitable lands high and low.
+Y por su mano, la gente fue capaz de reclamar dominio sobre las tierras inhóspitas en cada rincón de la región. 
+Yet, despite their efforts, humanity was cast out from the lands where the primal forces of this world worked.
+Aún así, a pesar de sus esfuerzos, la humanidad fue desterrada de las tierras donde las fuerzas primigenias de este mundo funcionaban.
+Back to the caves; which their species used to call home. Now the caverns would be their tombs…"
+De vuelta a las cuevas; las que su especie solía llamar hogar. Ahora las cavernas serían sus tumbas..."
+Guess I forgot to keep the door locked.
+Supongo que olvidé dejar la puerta cerrada.
+You don’t look like staff, so...you’re searching for something, like me.
+No pareces parte del personal, así que... estás buscando algo, como yo.
+Name’s Nora. I like to think of myself as a seeker of knowledge.
+Me llamo Nora. Me gusta pensar que soy una buscadora del conocimiento.
+I took up a job as a janitor here to gain access to this library, since it’s sealed off to the public.
+Tomé un trabajo de conserje aquí para ganar acceso a esta biblioteca, ya que está cerrada al público.
+It’s not trespassing if they’re paying you to be here.
+No es allanamiento si te pagan por estar aquí.
+Team Chasm apparently had roots in anthropology, based on all the records they’ve shoved away here.
+El Team Chasm aparentemente tuvo raíces en la antropología, basado en todos los registros que dejaron aquí.
+Translated passages with way too many sticky notes go over all kinds of myths and legends.
+Pasajes traducidos con una cantidad exagerada de notas mencionan todo tipo de mitos y leyendas.
+One that caught my eye involves the Seekers, those ancient priests I mentioned earlier.
+Una que me llamó la atención implica a los Buscadores, aquellos sacerdotes antiguos que mencioné anteriormente.
+They were ultimately destroyed by a great darkness that some protector deity was apparently equipped to handle.
+Fueron finalmente destruídos por una gran oscuridad que algún tipo de deidad protectora estaba aparentemente equipada para manejar.
+But, based on the fact that the Seekers disappeared, the guardian must have failed in its duty.
+Pero, basándome en el hecho de que los Buscadores desaparecieron, el guardián debió haber fallado en su labor.
+Why? I don’t know.
+¿Por qué? No lo sé.
+The notes here make reference to materials that I can’t find anywhere in this room.
+Las notas aquí hacen referencia a materiales que no puedo encontrar en ninguna parte de esta habitación.
+I’m thinking that these records have to exist elsewhere.
+Pienso que estos registros deben existir en alguna otra parte.
+And I’m going to assume that they must have been saved digitally, as there’s nowhere else in the region with this much literature.
+Y voy a a sumir que debieron haber sido guardados digitalmente, ya que no hay ninguna otra parte en la región con esta cantidad de literatura.
+Do you think you can search LuxTech for any servers hosting data from before Team Chasm was established?
+¿Puedes buscar en LuxTech cualquier tipo de servidores que guarden información de antes que el Team Chasm se estableciera?
+I’ll keep on searching here in the meantime for something hidden in the stacks.
+Por mientras seguiré buscando aquí por algo oculto entre las pilas.
+Let me know if you find something over at LuxTech.
+Hazme saber si encuentras algo en LuxTech.
+I’ve only been finding fun facts, the kind you’d see on a moving truck.
+Sólo he estado encontrado datos curiosos, del tipo que encontrarías en un camión de mudanzas.
+Did you know that hexagons were an important symbols of the Seekers?
+¿Sabías que los hexágonos eran uno de los símbolos importantes de los Buscadores?
+That’s apparently what inspired Team Chasm’s logo.
+Aparentemente eso fue lo que inspiró el logo del Team Chasm.
+You’re back! Excellent.
+¡Regresaste! Excelente.
+I managed to make a breakthrough while you were away.
+Logré hacer un descubrimiento mientras estabas fuera.
+Would you mind showing me what you’ve found first?
+Pero antes, ¿te importaría mostrarme lo que encontraste?
+You hand over the Old USB Drive.
+Le alcanzas la Vieja Unidad USB.
+Nora loads the device on her laptop.
+Nora carga el aparato en su laptop.
+Fascinating.
+Fascinante.
+This one file, Project Chrysopoeia Albedo, goes into great detail of a large volcanic eruption thousands of years ago which heavily impacted the region.
+Este archivo, el Proyecto Crisopea Albedo, entra en gran detalle sobre una gran erupción volcánica hacer miles de años que impactó gravemente en la región.
+It makes sense that the large clouds of ash would be devastating to a civilization in its technological infancy.
+Tiene sentido que grandes nubes de ceniza serían desvastadoras para una civilización con bajo nivel de tecnología.
+This must be the "great darkness" that the Seekers mentioned.
+Quizás esta sea la "gran oscuridad" que los Buscadores mencionaron.
+Perhaps that’s also why they built what would become the underground ruins; like those found in Mt. Kilna?
+Quizá también es por eso que construyeron lo que se terminarían convirtiendo en las ruinas subterráneas; ¿cómo aquellas encontradas en el Mt. Kilna?
+Maybe those places were meant to be safe spaces from the smog?
+¿Quizás se suponía que esos lugares eran espacios seguros del humo?
+Wait, no. Why would they have built shelters if they had the guardian?
+Espera, no. ¿Por qué construirían refugios si tenían al guardián?
+Hahaha. This is the rush I’ve been seeking.
+Jajaja. Esta es la emoción que estaba buscando.
+Questions whose answers are more questions.
+Preguntas cuyas respuestas llevan a más preguntas.
+As for my own findings: I found references to an aboveground ruins site which might lead to what we’re after.
+Respecto a lo que encontré: encontré referencias a unas ruinas sobre las tierras que podrían llevarnos a lo que estamos buscandos.
+I’ll be waiting for you in <imp>Svait, on the upper level</imp>.
+Estaré esperando por tí en <imp>Svait, en el nivel superior</imp>.
 [Map428]
 Wow! It's a Volcanion, trapped inside a large boulder!
 ¡Wow! ¡Es un Volcanion, atrapado dentro de un pedrusco!
+Hey, \PN! Come around to the front.
+¡Hey, \PN! Ven hacia el frente.
+It’s still so striking to me that at any time, Team Chasm could’ve added this protector of the region to its arsenal.
+Todavía me sorprende que en cualquier momento, el Team Chasm pudo haber añadido a este protector de la región a su arsenal.
+Sure, they managed to capture Heatran, the Titans, and other oddities I still need to comb that USB about.
+Seguro, pudieron atrapar a Heatran, los Titanes, y otras rarezas que todavía tengo que investigar en ese USB.
+But… It all seems so short sighted.
+Pero... todo parece tan cortoplacista.
+Anyway, ready?
+Como sea, ¿listo?
+Nora brings out a small MP3 player, and presses a button.
+Nora toma un pequeño reproductor MP3, y presiona un botón.
+A soothing recording of an ancient flute fills the air.
+Una relajante grabación de una flauta antigua llena el aire.
+Ah. I realize now that, while I patched your team up after our battle, I’m out of supplies to heal my own.
+Ah. Ahora me doy cuenta, luego de sanar a tu equipo luego de nuestro combate, me quedé sin suministros para curar al mío.
+I’ll be counting on you!
+¡Cuento contigo!
+What a painful cry…
+Qué grito doloroso…
+I can’t imagine how it must feel to wake up thousands of years after the disappearance of the people you were meant to protect.
+No puedo imaginar lo que se debe sentir despertar luego de miles de años de la desaparición de la gente que se supone debías proteger.
+I realize now that I’ve only thought about how others would USE Volcanion.
+Ahora me doy cuenta de que sólo he estado pensando en cómo otros USARÍAN a Volcanion.
+As a tool, a reward, or something in that vein…
+Como una herramienta, una recompensa, o algo de ese estilo...
+I haven't been seeing this creature as a living being.
+No he estado viendo a esta criatura como un ser vivo.
+I saw it as words on a page.
+Si no como palabras en una página.
+Volcanion seems to be looking to you for guidance.
+Volcanion parece que te mira buscando guianza.
+Take Volcanion with you?
+¿Te llevas a Volcanion contigo?
+Nora, seeing your intent, comes over and hands you a PokeBall.
+Nora, viendo tus intenciones, se acerca y te alcanza una Poké Ball.
+The Volcanion seems to sigh in relief as it enters the ball.
+El Volcanion parece suspirar de alivio mientras entra a la ball.
+Wonderful.
+Maravilloso.
+I hope you don’t mind, but I’m going to keep the USB you gave me.
+Espero que no te importe, pero me voy a quedar con el USB que me diste.
+Turning away from it all now would be to live a life knowing what passion is, but never permitting myself to experience it.
+Abandonarlo ahora sería vivir una vida sabiendo lo que es la pasión, pero nunca permitirme experimentarla.
+There are other loose ends left behind by Team Chasm, the Seekers, and who knows what else on it that I want to see through.
+Hay otros cabos sueltos dejados atrás por el Team Chasm, los Buscadores, y quién sabe qué más que quiero conocer.
+Volcanion nods. It will wait for you.
+Volcanion asiente. Estará esperando por tí.
+I still think it’d be for the best if you took Volcanion with you.
+Todavía pienso que sería mejor que te llevaras a Volcanion contigo.
+I’ve spent so much time looking towards the past for answers.
+He pasado demasiado tiempo buscando hacia el pasado por respuestas.
+Though, I guess I can keep them company for the time being…
+Pero, supongo que le puedo hacer compañía por el momento...
+The snow here seems to be heating up directly into steam.
+La nieve aquí parece calentarse directamente hacia vapor.
+Is this what Svait looked like before Team Chasm did what it did…?
+¿Es esto como se veía Svait antes de que el Team Chasm hiciera lo que hizo...?
+The sublimation seems to be a different effect from the subthermal vents in the Svait Sauna.
+La sublimación parece ser un efecto diverente al de los conductos subtermales en el Sauna Svait.
+But maybe… The sources of those phenomena are the same?
+Pero quizás... ¿La fuente de estos fenómenos es la misma?
+Yes
+Sí
 [Map429]
 Multiple copies of the same sign, all advertising an insurance package deal that will be available in the future.
 Múltiples copias del mismo cartel, todos publicitando un paquete de seguros que será disponible en el futuro.
@@ -26664,6 +26898,103 @@ You see a few photos of Bence with a Hoppip and Alolan Geodude.
 Ves algunas fotos de Bence con un Hoppip y un Geoduded Alola.
 It seems like they lost a lot of Pokemon battles back then...
 Parece que perdían muchos combates Pokémon en ese entonces...
+[Map443]
+Man, that battle really tuckered me out.
+Uff, ese combate sí que me hizo polvo.
+I'm not a stranger to hard work, mind you.
+Eso sí, no creas que soy un extraño al trabajo duro.
+I went through so much coffee when I was an architect.
+Bebí demasiado café cuando era un arquitecto.
+I’m the one who came up with the designs for the Ranger Outposts you see all over.
+Soy quien diseñó los diseños de los Puestos Rangers que ves por todos lados.
+Bless Bogdan Cement for their cheap prices.
+Bendito sea Cemento Bogdan por sus bajos precios.
+A dusty, ancient computer terminal.
+Una terminal de computadora vieja y polvorienta.
+"EARLY PROJECTS ARCHIVE" is displayed in big block letters at the top of the screen.
+Puedes leer "ARCHIVO PROYECTOS TEMPRANOS" en grandes letras en la parte superior de la pantalla. 
+Below that, it prompts you to enter a password.
+Debajo de eso, te pide escribir una contraseña.
+A dusty, old logbook. "Archive Catalogue" is written on front in black marker.
+Un viejo y polvoriento registro. "Catálogo de Archivo" está escrito al frente con marcador negro.
+As you approach, you overhear the men talking back and forth, complaining about the cold and the difficulty of their task.
+Mientras te acerchas, puedes escuchar a los hombres conversando, quejándose sobre el frío y la dificultad de sus tareas.
+Apparently these are Kurt and Pearce, LuxTech employees.
+Aparentemente ellos son Kurt y Pearce, empleados de LuxTech.
+Jeez, this stuff really is ancient.
+Vaya, estas cosas sí que son antiguas.
+Whose idea was it to let Tamarind name the Projects and Operation files for internal use?
+¿Quién tuvo la idea de dejar que Tamarind nombre a los archivos de Proyectos y Operaciones para uso interno?
+Her naming conventions require a thesaurus to decipher.
+Hace falta un tesauro para descifrar estos nombres.
+She always was kind of a slob. Lambert was always cleaning up her messes.
+Siempre fue algo desaliñada. Lambert siempre estaba limpiando sus desastres.
+Speaking of, I do wonder how the chop off the old block is doing these days.
+Hablando de, me pregunto cómo le va a los antiguos miembros estos días.
+Yeah, we should reach out to him sometime. Rafael too.
+Seh, deberíamos ir a hablarle alguno de estos días. También a Rafael.
+We’ve both accrued too much PTO, after all. Haha.
+Acumulamos demasiados vacaciones pagas después de todo. Jaja.
+…Don’t you think it’s kinda odd that those two ended up as Gym Leaders?
+¿...No te parece algo raro que esos dos hayan terminado como Líderes de Gimnasio?
+I mean, Lambert, I kinda understand. But Rafael was primarily a scientist.
+Osea, Lambert, algo lo entiendo. Pero Rafael era principalmente un científico.
+And that’s not even mentioning Noel. Who is. Noel.
+Y eso sin mencionar a Noel. Quién es. Noel.
+And we’re… here.
+Y nosotros... estamos aquí.
+And it seems we’re not the only ones here. You got something to say, or…?
+Y parece que no somos los únicos aquí. ¿Tienes algo que decir, o...?
+What? No!
+¿Qué? ¡No!
+This is a sensitive piece of machinery!
+¡Estas son piezas de maquinaria sensibles!
+There was a whole scrum ceremony covering this.
+Hubo toda una ceremonia cubriendo esto.
+We can’t just give it away!
+¡No podemos simplemente darlo!
+Forget the ceremony, Josh. It’s Mavis’ kid.
+Olvida la ceremonia, Josh. Es el hijo de Mavis.
+So? Helena has been on our behinds for a while and we’ve already pushed this back again and again.
+¿Y qué? Helena ha estado detrás de nosotros por un tiempo y ya hemos postergado esto una y otra vez.
+If we don’t do this now, she’ll have someone else do it.
+Si no hacemos esto ahora, ella hará que alguien más lo haga.
+And I guess that makes you our "someone else."
+Y supongo que eso te hace nuestro "alguien más."
+If there’s something you want in this life, you have to take it.
+Si hay algo que quieres en esta vida, tienes que tomarlo.
+Using your own overwhelming strength.
+Usando tu fuerza abrumadora.
+So, you want us to hand the archive data over to you, huh?
+Entonces, ¿quieres que te demos la información del archivo, eh?
+If there’s something you want in this life, you have to take it. Using your own overwhelming strength.
+SI hay algo que quieres en esta vida, tienes que tormalo. Usando tu propia fuerza abrumadora.
+Losing a fight like that reminds you of the good old days, dont’cha think, Kurt?
+Perder un combate de este modo me recuerda a los buenos viejos días, ¿no lo crees, Kurt?
+You mean having to trudge through the lava filled chambers of an active volcano?
+¿Te refieres a tener que atravesar cámaras llenas de lava dentro de un volcán activo?
+Yeah, no. I’ll take my cushy office job with air conditioning any day.
+Seh, no. Tomaré mi cómodo trabajo de oficina con aire acondicionado cualquier otro día.
+But, a win’s a win, so here ya go…
+Pero, una victoria es una victoria, así que aquí tienes...
+This thing is filled with early Chasm data.
+Esta cosa está llena con información temprana del Chasm.
+When you get the chance, take a look at "Project Chrysopoeia Albedo".
+Cuando tengas la oportunidad, ojea el "Proyecto Crisopea Albedo".
+I remember that one causing the eggheads a lot of pain.
+Recuerdo que ese le dió jaquecas a nuestros intelectuales.
+The ritual to capture the target required a flute that was excavated much later on, in a place no one would ever think to find it.
+El ritual para atrapar al objetivo requería una flaura que fue excavada mucho después, en un lugar donde ninguno pensaría encontrarla.
+And by that time, there wasn’t really a pressing need for another mythical fire type on our team’s roster, y’know?
+Y para ese entonces, realmente no había mucha necesidad para otro singular tipo fuego enter las filas de nuestro equipo, ¿sabes?
+You really gave it your all in that battle.
+Sí que lo diste todo en ese combate.
+It made me realize that I haven’t been giving mine here.
+Me hizo darme cuenta de que no he estado dando lo mío.
+Think I’m going to give my two weeks’ notice to Helena. Try my hand at being a Pro Trainer.
+Creo que voy a dar mi aviso a Helena. Intentaré ser un Profesional.
+Can you give me that?
+¿Podrías darme eso?
 [1]
 29
 Nidoran-F
@@ -41376,6 +41707,22 @@ Soothe Charm
 Amuleto Alivio
 Magnetic Gauntlet
 Guante Magnético
+Fairy Feather
+Pluma Feérica
+Reveal Glass
+Espejo Veraz
+Prison Bottle
+Vasija Castigo
+Figment
+Fantasía
+Flora Sceptre
+Cetro Floral
+Poké X-Ray
+Poké-Rayos X
+Space-time Shard
+Fragmento Espaciotiempo
+Old USB Drive
+Unidad USB Antigua
 [8]
 Repels
 Repelentes
@@ -42091,8 +42438,12 @@ Tart Apples
 Manzanas Ácidas
 Noise Machines
 Máquinas de Ruido
-Cell Boosters
-Refuerzos de Células
+Figments
+Fantasías
+Fairy Feathers
+Plumas Feathers
+Space-time Shard
+Fragmentos Espaciotiempo
 [9]
 An item that prevents wild Pokémon from appearing for 100 steps after its use.
 Un objeto que impide que Pokémon salvajes aparezcan por 100 pasos.
@@ -42842,6 +43193,60 @@ A comforting charm which doubles the happiness your Pokémon gain from being clo
 Un amuleto reconfortarte que duplica la felicidad que tus Pokémon ganan al estar cerca a ti.
 A wisp of ideas with infinite potential. Use it on a Pokemon to teach any one of their legal moves.
 Un puñado de ideas con un potencial infinito. Úselo en un Pokémon para enseñarle cualquiera de sus movimientos legales.
+A very tasty tail of something. It can be sold to shops for $4000.
+Una cola sabrosa de algo. Puede venderse en tiendas por $4000.
+When held by a Pokémon who can still evolve, reduces move damage taken by 33%. Prevents evolution.
+Cuando la sostiene un Pokémon que puede evolucionar, reduce el daño de ataques 33%. Impide la evolución.
+A Pokémon held item. When the holder summons rainstorm, it lasts twice as long.
+Un objeto equipable. Cuando el portador invoca tormenta de lluvia, esta dura el doble.
+A held item. The holder recovers 30% more HP from draining moves, Ingrain, Aqua Ring, and leech.
+Un objeto equipable. El portador recupera un 30% más de PS de parte de movimientos que drenan, Arraigo, Acua Aro y la infección.
+A sinister, eerie tag that boosts the holder's Ghost-type moves by 20%.
+Un amuleto espeluzante que potencia un 20% los ataques Fantasma del portador.
+A gleaming feather that boosts the holder's Fairy-type moves by 20%.
+Una ala brillante que potencia un 20% los ataques Hada del portador.
+A spray-type medicine for wounds. It restores the HP of one Pokémon, fainted or able, by 40 points.
+Una medicina en forma de spray. Restaura los PS de un Pokémon, incluso debilitado, 40 puntos.
+A spray-type medicine for wounds. It restores the HP of one Pokémon, fainted or able, by 80 points.
+Una medicina en forma de spray. Restaura los PS de un Pokémon, incluso debilitado, 80 puntos.
+A spray-type medicine for wounds. It restores the HP of one Pokémon, fainted or able, by 120 points.
+Una medicina en forma de spray. Restaura los PS de un Pokémon, incluso debilitado, 120 puntos.
+A spray-type medicine for wounds. It completely restores the HP of a single Pokémon, fainted or able.
+Una medicina en forma de spray. Restaura completamente los PS de un Pokémon, incluso debilitado.
+A medicine that fully restores the HP and heals any status problems of a single Pokémon, fainted or able.
+Una medicina en forma de spray. Restaura completamente los PS y estado de un Pokémon, incluso debilitado.
+Very sweet chocolate. It restores the HP of one Pokémon by 40 points and makes it happier.
+Chocolate muy dulce. Restaura 40 puntos los PS de un Pokémon y lo hace más feliz.
+Fried dough dipped in vanilla syrup. Heals a single Pokémon by 100 HP, and grants it 4000 Experience points.
+Masa frita llena de jarabe de vainilla. Cura a un Pokémon 100 PS y le da 4000 puntos de Experiencia.
+A mentally disrupting Poké Ball that disables the Pokémon's last used move for 10 turns if it fails to catch it.
+Una Poké Ball que anula el último movimiento usado por el Pokémon por 10 turnos si no llega a atraparlo.
+If held by a Pokémon, it raises its accuracy by four steps in a pinch.
+Al ser sostenida por un Pokémon, aumenta su precisión cuatro grados en un apuro.
+If held by a Pokémon and a physical attack hits it, the attacker takes 1/4th HP damage.
+Al ser sostenida por un Pokémon, quita 1/4 de los PS de un Pokémon que le ataque físicamente.
+A glass that reveals the truth. It is a mysterious glass that returns a Pokémon back to its original shape.
+Un espejo que revela la verdad. Es un espejo misterioso que regresa a Pokémon a su forma original.
+A bottle believed to have been used to seal away the power of a certain Pokémon long, long ago.
+Una botella la cual se cree fue usada para sellar el poder de cierto Pokémon hace mucho, mucho tiempo.
+A candy that is packed with energy. When consumed, it will grant a single Pokémon 64,000 Exp. Points.
+Un caramelo rebosante de energía. Al ser consumido, el Pokémon ganará 64000 Puntos de Experiencia.
+An ancient kingly rod. You can use it to make certain plants grow.
+Un antiguo cetro real. Puedes usarlos para hacer crecer ciertas plantas.
+An advanced transporter which allows you to access your Pokémon Storage to withdraw or deposit Pokémon.
+Un transportador avanzada que te permite acceder a tu Almacenamiento para sacar o depositar Pokémon.
+A small, versatile machine that can be used to repel wild Pokémon, or draw them near.
+Una pequeña máquina versátil que puedes usar para repeler Pokémon salvajes, o acercarlos.
+A high tech surveillance device. Use it to scout out the teams of nearby trainers.
+Un dispositivo de vigilancia de alta tecnología. Puedes usarlo para observar el equipo de entrenadores cercanos.
+A hi-tech recording device which creates a Battle Report by analyzing the results of momentous battles.
+Un dispositivo de alta tecnología que crea un Reporte de Combate al analizar los resultados de combates importantes.
+An upgraded, hi-tech recording device. It increases experience earned from battles by 10%.
+Un dispositivo de alta tecnología mejorda. Aumenta la experiencia ganada por combates un 10%.
+A sliver of the fragment of the universe. Highly unstable.
+Un trozo de fragmento del universo. Muy inestable.
+A USB containing data from a Team Chasm's early days.
+Un USB que contiene datos de los días tempranos del Team Chasm.
 [10]
 Shell Armor
 Caparazón
@@ -54882,11 +55287,189 @@ Cada PokéCenter y cada Estaciones de Ranger contendrá los 3 PNJ del personaliz
 Speak to them to learn how they can upgrade your team!
 ¡Habla con ellos para saber cómo pueden mejorar tu equipo!
 Game State
-Estado Juego
+Est. Juego
 Documents
-Documentos
+Document.
 Achievements
 Logros
+Some Avatars have Empowered attacks, which are powered-up versions of other attacks. They take up both of an Avatar's moves on that turn.
+Algunos Avatares tienen ataques Empoderos, versiones más fuertes de otros ataques. Estos usan los dos movimientos del Avatar en ese turno.
+{1} is ruinous! Everyone deals 40 percent more damage!
+¡{1} es ruinoso! ¡Todos lidian un 40 por ciento más de daño!
+Oh no! The avatar of {1} appeared!
+¡Oh no! ¡El avatar de {1} apareció!
+Oh no! The avatars of {1} and {2} appeared!
+¡Oh no! ¡Los avatares de {1} y {2} aparecieron!
+Oh no! The avatars of {1}, {2} and {3} appeared!
+¡Oh no! ¡Los avatares de {1}, {2} y {3} aparecieron!
+But it failed, since #{user.pbThis(true)}'s roots are already planted and all foes are already cursed!
+¡Pero falló, ya que las raíces #{user.pbThis(true)}'s roots are already planted and all foes are already cursed!
+A tall metal tree. One side has been notched by something sharp.
+Un alto árbol de metal. Un lado ha sido golpeado por algo filoso
+Finish chopping it down?
+¿Terminas de cortarlo?
+You get the sense that you shouldn't teleport away right now.
+Tienes la sensación de que no deberías teletransportarte ahora mismo.
+Name on Showcase
+Nombre en Muestra
+#{battler.pbThis} also heals #{healTarget.name}!
+¡#{battler.pbThis} también cura a #{healTarget.name}!
+{1} is pained!
+¡{1} está adolorido!
+{1} survived the hit!
+¡{1} sobrevivió el golpe!
+But it failed, since #{target.pbThis(true)} can't be leeched or have either of its attacking stats lowered!
+¡Pero falló, ya que #{target.pbThis(true)} no puede ser infectado ni puede tener ninguno de sus ataques reducidos!
+\db[#{badgeNum}]\me[Badge get]You've earned the {1} Badge!\wtnp[120]
+\db[#{badgeNum}]\me[Badge get]¡Ganaste la Medalla {1}!\wtnp[120]
+Screenshot saved to folder #{DIR_SCREENSHOTS}<<1>>
+Captura de pantalla guardada en la carpeta #{DIR_SCREENSHOTS}<<1>>
+With a touch, the crystal reservoir activates!
+¡Con un toque, la reserva de cristal es activada!
+The crystal reservoir has already spent its energy.
+La reserve de cristal ya gastó su energía.
+Budding crystals. They're much too weak to climb on.
+Cristales en cierne. Son muy débiles como para ser escalados.
+Champion, huh? You got the gumption to face my surprises?
+¿Campeón, eh? ¿Tienes las agallas para enfrentar mis sorpresas?
+{1} is interfering! No one gets same-type damage bonus!
+¡{1} da interferencias! ¡Nadie obtiene el bonus del mismo tipo!
+{1} is a bad influence! No one can heal!
+¡{1} es una mala influencia! No one can heal!
+{1} worsens {2}'s failure!
+¡{1} empeora la falla de {2}!
+The pain caught up to {1}!
+¡El dolor le llegó a {1}!
+#{user.pbThis} has already mutated!
+¡#{user.pbThis} ya ha mutado!
+But {1} has already mutated!
+¡Pero {1} ya ha mutado!
+{1} reforms its genes with space energy!
+¡{1} reforma sus genes con energía espacial!
+Ring Eclipse
+Eclipse de Anillo
+Blood Moon
+Luna de Sangre
+But it failed, since #{target.pbThis(true)} is already Steel-type and its Speed can't be lowered!
+¡Pero falló, ya que #{target.pbThis(true)} ya es tipo Acero y su Velocidad no puede ser disminuida!
+But it failed, since #{target.pbThis(true)} can't have its type changed and its Speed can't be lowered!
+¡Pero falló, ya que #{target.pbThis(true)} no puede tener su tipo cambiado y su Velocidad no puede ser disminuida!
+Your party is not legal for this challenge.
+Tu equipo no es legal para este desafío.
+But it failed, since #{target.pbThis(true)}'s #{statName} can't go any higher!
+¡Pero falló, ya que #{target.pbThis(true)}'s #{statName} ya está al máximo!
+But it failed, since #{target.pbThis(true)}'s #{statName} can't go any lower!
+¡Pero falló, ya que #{target.pbThis(true)}'s #{statName} ya está al mínimo!
+{1} became trapped!
+¡{1} fue atrapado!
+Use Item
+Usar Objeto
+Which form shall the Pokemon take?
+¿Qué forma debería tomar el Pokémon?
+Cannot use this item on that Pokemon.
+No puedes usar este objeto en ese Pokémon.
+Congratulations on your victory!
+¡Felicidades en tu victoria!
+Better luck next time.
+Te deseamos suerte para la próxima.
+\me[Earn battle points]\ptYou've earned #{battlePointsAdded} battle points.\wtnp[30]
+\me[Earn battle points]\Ganaste #{battlePointsAdded} puntos de batalla.\wtnp[30]
+{1} speeds up the music!
+¡{1} acelera la música!
+{1} is up to no good!
+¡{1} está tramando algo!
+{1} is flying quickly!
+¡{1} vuela rápidamente!
+{1} is barging through!
+¡{1} se abre paso!
+{1} has a huge ego!
+¡{1} tiene un gran ego!
+{1} prioritizes healing!
+¡{1} prioriza la curación!
+{1} really enjoyed the chocolate!
+¡{1} disfrutó el chocolate!
+{1} changes its cloak to fit its next move!
+¡{1} cambia su tronco para usar su siguiente movimiento!
+{1} is finished chewing on the {2}!
+¡{1} terminó de masticar la {2}!
+{1} is chewing on the {2}!
+¡{1} está masticando la {2}!
+{1} gained a Sweet-Tooth boosted {2} Exp. Points!
+¡{1} ganó {2} Puntos de Experiencia, aumentado por el Diente Suerte!
+There's no trainers nearby to use the Stink Bomb on.
+No hay entrenadores cercanos para usar la Bomba Apestosa.
+#{eventsToRemove.count} trainers fled from the stench!
+¡#{eventsToRemove.count} entrenadores escaparon del hedor!
+A nearby trainer fled from the stench!
+¡Un entrenador cercano escapó del hedor!
+Oh, a strange item was left behind!
+¡Oh, un extraño objeto fue dejado atrás!
+Oh, some strange items were left behind!
+¡Oh, algunos extraños objetos fueron dejados atrás!
+Welcome to Sweetrock Candy Outlet! How may I serve you?
+¡Bienvenido a la Tienda de Caramelos Sweetrock! ¿Cómo puedo servirte?
+You can now boat to Tri Island.
+Ahora puedes viajar a la Isla Elemental en tu bote.
+Which option?
+¿Qué opción?
+Search
+Buscar
+Search how?
+¿Buscar cómo?
+Pokemon Name?
+¿Nombre Pokémon?
+This box is locked!
+¡Esta caja está bloqueada!
+"#{search}" is not a valid type.
+"#{search}" no es un tipo válido.
+"#{search}" is not a valid tribe.
+"#{search}" no es un clan válido.
+The current box contains the only match.
+La caja actual contiene la única coincidencia.
+Multiple matches. Jump to which box?
+Múltiples coincidencias. ¿Saltar a cuál caja?
+Can't sort while you have a Pokémon in your hand!
+¡No puedes ordenar mientras sostienes a un Pokémon!
+The box is sort locked!
+¡La caja está bloqueada!
+The box is empty.
+La caja está vacía.
+Each Pokémon is already in the right place!
+¡Cada Pokémon ya está en el lugar correcto!
+No boxes were sorted.
+Ninguna caja fue ordenada.
+Only one box was sorted.
+Sólo una caja fue ordenada.
+#{boxesSorted} boxes were sorted!
+¡#{boxesSorted} cajas fueron ordenadas!
+But it failed, since {1} doesn't have any positive stat steps!
+¡Pero falló, ya que {1} no tienen ningún cambio de stats positivos!
+But it failed, since {1} and {2} can't raise the other's highest stat step!
+¡Pero falló, ya que {1} y {2} no puede aumentar la stat más alta de otro!
+{1} and {2} shared their highest stat steps!
+¡{1} y {2} compartieron sus stats más altas!
+{1} was frostbitten by the {2}! {3}!
+¡{1} fue helado por el {2}! ¡{3}!
+{1} was burned by the {2}! {3}!
+¡{1} fue quemado por el {2}! ¡{3}!
+#{@pkmn.name} changed its #{getItemName(typeSettingItem)} to #{typeCommands[chosenNumber]}-type!
+¡#{@pkmn.name} cambió su #{getItemName(typeSettingItem)} al tipo #{typeCommands[chosenNumber]}!
+Total points
+Puntos totales
+New points
+Nuevos puntos
+\me[Voltorb Flip game over]Oh no! You get 0 Points!\wtnp[50]
+\me[Voltorb Flip game over]¡Oh no! ¡Obtienes 0 Puntos!\wtnp[50]
+\se[Voltorb Flip gain coins]{1} received {2} Points!
+\se[Voltorb Flip gain coins]¡{1} recibió {2} Puntos!
+Professor Tamarind called you, requesting your urgent help dealing with a problem in the Prizca Catacombs. The Catacombs can be found in the Sewers underneath Prizca East.
+La Profesora Tamarind te llamó, pidiéndote ayudar urgente para lidiar con un problema en las Catacumbas de Prizcas. Las Catacumbas pueden ser encontradas en las Alcantarillas debajo de Prizca Oriental.
+Go with Professor Tamarind to confront the thieves inside of the Catacombs. The Catacombs can be found in the Sewers underneath Prizca East.
+Ve con la Profesora Tamarind antes de confrontar a los ladrones dentro de las Catacumbas. Las Catacumbas pueden ser encontradas en las Alcantarillas debajo de Prizca Oriental.
+Confront Yezera, who appears to be leading a small group to steal Regidrago. The Catacombs can be found in the Sewers underneath Prizca East.
+Enfrenta a Yezera, quien parece estar liderando un pequeño grupo para robar a Regidrago. Las Catacumbas pueden ser encontrados en las Alcantarillas debajo de Prizca Oriental.
+Continue to delve into the Chamber of Regigigas, so you can finally put a stop to Yezera's plan. The Chamber of Regigias is behind a large door in the eastern side of the Hollowed Layer.
+Continua indagando en la Cámara de Regigigas, así finalmente puedes parar el plan de Yezera. La Cámara de Regigigas está detrás de una gran puerta en el lado este de la Capa Hueca. 
 [26]
 [27]
 [27]
