@@ -1,5 +1,3 @@
-TRIPLE_BATTLE_SHIFT_ENABLED = false
-
 class PokeBattle_Scene
     #=============================================================================
     # The player chooses a main command for a Pokémon
@@ -133,7 +131,7 @@ class PokeBattle_Scene
       if battler.getMoves[@lastMove[idxBattler]] && battler.getMoves[@lastMove[idxBattler]].id
         moveIndex = @lastMove[idxBattler]
       end
-      cw.shiftMode = (@battle.pbCanShift?(idxBattler) && TRIPLE_BATTLE_SHIFT_ENABLED) ? 1 : 0
+      cw.shiftMode = (@battle.pbCanShift?(idxBattler) && @battle.shiftEnabled) ? 1 : 0
       cw.setIndexAndMode(moveIndex,0)
       needFullRefresh = true
       needRefresh = false
@@ -186,7 +184,7 @@ class PokeBattle_Scene
           cw.toggleExtraInfo()
           needRefresh = true
         elsif Input.trigger?(Input::SPECIAL)   # Shift
-          if cw.shiftMode > 0 && TRIPLE_BATTLE_SHIFT_ENABLED
+          if cw.shiftMode > 0 && @battle.doubleShift
             pbPlayDecisionSE
             break if yield -3
             needRefresh = true
@@ -541,8 +539,8 @@ class PokeBattle_Scene
         end
       when :NearFoe, :NearOther
         indices = @battle.pbGetOpposingIndicesInOrder(idxBattler)
-        indices.each { |i| return i if @battle.nearBattlers?(i,idxBattler) && !@battle.battlers[i].fainted? }
-        indices.each { |i| return i if @battle.nearBattlers?(i,idxBattler) }
+        indices.each { |i| return i if @battle.nearEnoughForMoveTargeting?(i,idxBattler) && !@battle.battlers[i].fainted? }
+        indices.each { |i| return i if @battle.nearEnoughForMoveTargeting?(i,idxBattler) }
       when :Foe, :Other, :UserOrOther, :UserOrNearOther
         indices = @battle.pbGetOpposingIndicesInOrder(idxBattler)
         indices.each { |i| return i if !@battle.battlers[i].fainted? }
