@@ -314,11 +314,12 @@ class PokeBattle_StatUpMove < PokeBattle_Move
     end
 
     def pbEffectGeneral(user)
-        return if damagingMove?
+        return if damagingMove? && !spreadMove?
         user.tryRaiseStat(@statUp[0], user, increment: @statUp[1], move: self)
     end
 
     def pbAdditionalEffect(user, _target)
+        return if spreadMove?
         user.tryRaiseStat(@statUp[0], user, increment: @statUp[1], move: self)
     end
 
@@ -348,11 +349,12 @@ class PokeBattle_MultiStatUpMove < PokeBattle_Move
     end
 
     def pbEffectGeneral(user)
-        return if damagingMove?
+        return if damagingMove? && !spreadMove?
         user.pbRaiseMultipleStatSteps(@statUp, user, move: self)
     end
 
     def pbAdditionalEffect(user, _target)
+        return if spreadMove?
         user.pbRaiseMultipleStatSteps(@statUp, user, move: self)
     end
 
@@ -657,10 +659,11 @@ module Recoilable
     end
 
     def finalRecoilFactor(user, checkingForAI = false)
-        return 0 if user.shouldAbilityApply?(:ROCKHEAD, checkingForAI)
+        return 0 unless user.takesRecoilDamage?(checkingForAI)
         factor = recoilFactor
-        factor /= 2 if user.shouldAbilityApply?(:UNBREAKABLE, checkingForAI)
-        factor *= 2 if user.shouldAbilityApply?(:LINEBACKER, checkingForAI)
+        if checkingForAI
+            factor * user.recoilDamageMult
+        end
         return factor
     end
 

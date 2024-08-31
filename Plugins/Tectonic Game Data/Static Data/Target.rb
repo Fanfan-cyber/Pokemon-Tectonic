@@ -81,6 +81,10 @@ module GameData
           end
           return _INTL("Error")
       end
+
+      def spread?
+        return @num_targets > 1
+      end
   end
 end
 
@@ -247,6 +251,7 @@ GameData::Target.register({
   :name             => _INTL("Both Sides"),
   :affects_foe_side => true,
   :affects_user_side => true,
+  :targeting_label  => "Field",
 })
 
 GameData::Target.register({
