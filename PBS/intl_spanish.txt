@@ -616,6 +616,12 @@ The <imp>What Next?</imp> feature tells you what to do to progress the main stor
 La función <imp>¿Qué Sigue?</imp> te dice lo que debes hacer para progresar en la historia principal, si lo olvidaste o te pierdes.
 The <imp>Battle Guide</imp> explains the battle mechanics as well as battling strategy.
 La <imp>Guía de Combate</imp> explica las mecánicas de combate así como estrategias en este.
+Pokemon Tectonic has features to help you make sense of its open world, and its many mechanical changes.
+Pokémon Tectonic tienen funciones para ayudarte a darle sentido a su mundo abierto, y a sus muchos cambios mecánicos.
+It can be found in the <imp>Game State</imp> menu.
+Pueden ser encontradas en el menú <imp>Estado Juego</imp>.
+It can be found in the <imp>Documents</imp> menu.
+Puede ser encontrado en el menú <imp>Documentos</imp>.
 [Map2]
 You got to wonder where all this circuitry came from... It feels natural, but it obviously isn't.
 Me pregunto de dónde vinieron todos estos circuitos… se sienten naturales, pero obviamente no lo son.
@@ -1091,6 +1097,8 @@ Even worse, I had to go down into the Cold Storage basement level to do the deed
 Aún peor, tuve que bajar al sótano de la Refrigeración para hacer el trabajo.
 LuxTech Condos
 Apartamentos LuxTech 
+Healing centers uhh... to the west. So go off and do that now.
+Los Centros Pokémon aah... al oeste. Así que ve y haz eso ahora.
 [Map7]
 The Growlithe seems to be cowering from everything.
 Este Growlithe parece acobardarse por todo.
@@ -1178,7 +1186,7 @@ He crafted something mighty gross outta my failed harvest.
 Hizo algo bien asqueroso con mi cosecha fallida.
 So, you gots one of them mushroom 'mons?
 Entonces, ¿Tienes uno de esos 'mons hongos?
-It's called <i>my</i>cology because <i>i</i> need it!
+It's called <i>my</i>cology because <i>I</i> need it!
 ¡Se llama <i>mi</i>cología porque <i>yo</i> la necesito!
 Just what the Nurse Joy ordered!
 ¡Justo lo que la Enfermera Joy ordenó!
@@ -1369,7 +1377,7 @@ Rafael may have a layer of earth protecting him from the surface, but it doesn't
 Rafael podrá tener una capa de tierra protegiéndolo de la superficie, pero no lo protege de mi proyección astral.
 I've been watching his battles with some fervor. I wish to grasp the essence of his strategy.
 He estado observando sus combates con algo de fevor. Deseo captar la esencia de su estrategia.
-It is, at it's core, about dancing.
+It is, at its core, about dancing.
 Es, en su núcleo, sobre el baile.
 His Oricorio and Alolan Marowak both gain power from dancing done by their allies.
 Su Oricorio y Marowak de Alola ambos ganan poder con el baile hecho por sus aliados.
@@ -1606,7 +1614,7 @@ For the absolute steal of $200,000, I'll let you get your hands on one. And gues
 Por el absoluto robo de $200.000, te dejaré en tus manos uno. Y adivina qué – es variocolor.
 Show that to your... mom? Dad? No, definitely mom. Probably a sibling in there as well, huh?
 Muestrale esto a tu… ¿Madre? ¿Padre? No, definitivamente madre. Probablemente un hermano de por medio, ¿eh?
-I'm sure you'll get at least a week's worth of self- worth flaunting that to them. All that quality time for just $200,000.
+I'm sure you'll get at least a week's worth of self-worth flaunting that to them. All that quality time for just $200,000.
 Estoy seguro que conseguirás al menos una semana para presumir de esto. Todo ese tiempo de calidad por sólo $200.000.
 Hah! That's what they all say. You'll be back, sooner or later.
 ¡Ja! Eso es lo que todos dicen. Volverás, más pronto que tarde.
@@ -2092,7 +2100,7 @@ That's why she's focused her gym around Electric-type and Water-type Pokemon!
 ¡Por eso su gimnasio usa Pokémon tipo Agua y Eléctrico!
 They're a strong pair in battles, sharing no weaknesses.
 Son un fuerte par en combate, al no compartir ninguna debilidad.
-Firstly, Grass-type Pokemon are your best bet against her, since they're strong against Water-types, and resist Electric.
+Firstly, Grass-type Pokemon are your best bet against her, since they're strong against Water- types, and resist Electric.
 Primero, Pokémon tipo Planta son tu mejor apuesta contra ella, ya que son fuertes contra los tipo Agua, y resisten Eléctrico.
 Secondarily, Dragon-type Pokemon will resist both Water and Electric.
 Segundo, Pokémon tipo Dragón resisten tanto Agua como Eléctrico.
@@ -3469,9 +3477,9 @@ I wouldn't put it past them to be behind it, they got their hands in everything.
 No descartaría que ellos estuvieron detrás de ello, tienen sus manos en todo.
 I've been trying to learn every sport lately.
 Últimamente estuve intentando aprender todos los deportes.
-Judo, baseball, tennis, even lacross. I've managed to hold my own against players in each of them.
+Judo, baseball, tennis, even lacrosse. I've managed to hold my own against players in each of them.
 Judo, baseball, tennis, incluso lacross. Logré ir frente a frente contra jugadores de cada uno.
-It's a long but reward process. My next project is figure skating.
+It's a long but rewarding process. My next project is figure skating.
 Es un largo proceso pero compensa. Mi siguiente proyecto es aprender a patinar.
 That lady over there is killing it, so I'm trying to copy her movements.
 Esa señorita lo está rompiendo, así que intento copiar sus movimientos.
@@ -3589,6 +3597,20 @@ Here, let me heal your team up.
 Ok, déjame curar a tu equipo.
 Let’s go find what we came here for together.
 Busquemos juntos lo que vinimos a encontrar aquí.
+Even when I pull out all the stops, when I try my best to defang you, you bite down anyway.
+Incluso cuando opuse toda mi resistencia, cuando realmente intento descolmillarte, muerdes de todos modos.
+You’re not human… You know, for a moment, it really flashed in my mind that maybe I could do something with all of this.
+No eres humano... Sabes, por un momento, realmente se me vino a la cabeza que podría hacer algo con todo esto.
+That I could attain my own facsimile of overwhelming power...
+Que podría alcanzar mi propio facsímil de fuerza abrumante...
+But you’re just too strong.
+Pero simplemente eres demasiado fuerte.
+I’m all bark and no bite…
+Muerdo pero no ladro...
+I don’t know what came over me, \PN. I really lost myself for a moment.
+No sé qué me pasó, \PN. Me perdí a mí misma por un momento.
+Yes
+Sí
 [Map38]
 
 Okay, now just to dig the moat!
@@ -6815,7 +6837,7 @@ Your effect seems to be an aura of fear, based on what I'm feeling right now.
 Tu efecto parece ser un aura de miedo, basado en lo que estoy sintiendo ahora.
 Great test, but I need more data.
 Genial prueba, pero necesito más información.
-It looks releived to no longer be floating!
+It looks relieved to no longer be floating!
 ¡Parece aliviado que ya no esté flotando!
 One of the scientists here gave me a batch of weird rocks, and told me to give some to my Mudsdale.
 Uno de los científicos me dió un puñado de rocas extrañas, y me dijo que le dieron algunas a mi Mudsdale.
@@ -9063,6 +9085,14 @@ South: Exit to LuxTech Rec Center
 Sur: Salida a Centro Recreativo LuxTech
 Train people’s Pokémon for money. We had a scuffle back in Novo… which ya won.
 Entreno a los Pokémon de la gente por dinero. Tuvimos un enfrentamiento en Novo... el cual ganaste.
+You're a LuxTech employee, aren't you?!
+¡¿Eres un empleado de LuxTech, me equivoco?!
+I'm gonna steal your TMs!
+¡Voy a robar tus MTs!
+Silver Ninjask isn't going to be happy...
+Silver Ninjask no va a estar feliz...
+Now this job's gone completely sideways. Thanks a lot.
+Ahora este trabajo se fue por los suelos. Te lo agradezco.
 [Map123]
 
 I brought some family heirlooms with me from Galar.
@@ -9742,20 +9772,20 @@ No--That's a living Pokemon! Its body is partially covered in stone!
 No–¡Eso es un Pokémon vivo! ¡Su cuerpo está parcialmente cubierto por piedra!
 The Lillipup is unable to move, and in obvious distress.
 El Lillipup es incapaz de moverse, y está obviamente estresado.
-You could use a Status Heal or a Full Restore to heal its partial petrification.
-Podrías usar una Cura Total o un Restaurar Todo para curar su petrificación parcial.
+You could use a Moomoo Milk or a Full Restore to heal its partial petrification.
+Podrías usar una Leche Mu-mu o un Restaurar Todo para curar su petrificación parcial.
 What would you like to do?
 ¿Qué quieres hacer?
 You leave the Pokemon here for now.
 Dejas al Pokémon aquí por ahora.
-You apply the Status Heal to the Lillipup. In an instant, it breaks free, shaking off bits of stone.
-Aplicas la Cura Total al Lillipup. En un instante, se libera, sacudiéndose pezados de piedra.
+You apply the Moomoo Milk to the Lillipup. In an instant, it breaks free, shaking off bits of stone.
+Aplicas la Leche Mu-mu al Lillipup. En un instante, se libera, sacudiéndose pezados de piedra.
 You notice a Pokeball wedged into the nearby boulder.
 Notas una Pokéball entre un peñasco cercano.
 Lillipup brings over the Pokeball and enters it in front of you.
 Lillipup trae la Poké Ball y entra en ella en frente tuyo.
-You don't have a Status Heal to use.
-No tienes una Cura Total para usar.
+You don't have a Moomoo Milk to use.
+No tienes una Leche Mu-mu para usar.
 You apply the Full Restore to the Lillipup. In an instant, it breaks free, shaking off bits of stone.
 Aplicas el Restaurar Todo al Lillipup. En un instante, se libera, sacudiendose pezados de piedra.
 You don't have a Full Restore to use.
@@ -9766,8 +9796,8 @@ North: Velenz
 Norte: Velenz
 Leave it
 Dejarlo
-Use a Status Heal
-Usar una Cura Total
+Use a Moomoo Milk
+Usar una Leche Mu-mu
 Use a Fresh
 Usar un Restaurar Todo
 I'm a consultant for the government, sent to review this station for improper activity.
@@ -11562,7 +11592,7 @@ La gente no les presta mucha atención, y están cruzando por donde quieren.
 [Map158]
 Thanks to my Swoobat's ability, it's completely code compliant for construction!
 ¡Gracias a la habilidad de mi Swoobat, cumple al pie de la letra el código para la construcción!
-Thanks to it's ability, Swoobat can wear two pieces of saftey gear! It can work on construction sites!
+Thanks to its ability, Swoobat can wear two pieces of saftey gear! It can work on construction sites!
 ¡Gracias a su habilidad, Swoobat puede usar dos piezas de equipo de seguridad! ¡Puede trabajar en la obra!
 I'll take your Pokémon for a few seconds.
 Tomaré tus Pokémon por un par de segundos.
@@ -12857,7 +12887,7 @@ You see the name "Yezera" carved onto the table.
 Ves el nombre "Yezera" tallado en la mesa.
 You see the name "Tamarind" carved onto the table.
 Ves el nombre "Tamarind" tallado en la mesa.
-A vase filled with flowers lays delicately on the floor.
+A vase filled with flowers sits delicately on the floor.
 Una maceta llena de flores se encuentra en el suelo.
 You could totally smash this thing, if you wanted to.
 Podrías destruir esta cosa, si lo quisieras.
@@ -14654,8 +14684,8 @@ You may have bested me in battle, but you'll still struggle against Noel.
 Podrás haberme ganado en combate, pero no será tan fácil contra Noel.
 Leave me be, you nincompoop.
 Déjame estar, bobo.
-Hey, sorry champ, but Noel's policy here is that everybody's gotta move through the gym clockwise.
-Hey, lo siento campeón, pero la política de Noel es que todos deben moverse por el gimnasio en el sentido de las agujas del reloj.
+Hey, sorry champ, but Noel's policy here is that everybody's gotta move through the gym counter-clockwise.
+Hey, lo siento campeón, pero la política de Noel es que todos deben moverse por el gimnasio en el sentido contrario de las agujas del reloj.
 I'm assuming its got some artsy-fartsy reason.
 Asumo que es por algún motivo artístico o algo.
 So, come on over this way, yeah?
@@ -18946,6 +18976,42 @@ An ancient grandfather clock.
 Es un reloj antiguo.
 It's in pristine condition, probably due to careful maintenance.
 Está en una condición impecable, probablemente debido a un mantenimiento cuidadoso.
+Oh, goodness...
+Oh, vaya...
+You've got a truly amazing apricorn in your posession.
+Tienes una bonguri verdaderamente impresionante en tus manos.
+It's been my life's dream to work with such a fine specimen.
+Un sueño que tuve toda mi vida ha sido trabajar con tal espécimen.
+Where did you find it?
+¿Dónde la encontraste?
+Nevermind that. I'll respect your privacy.
+Olvídalo. Respetaré tu privacidad.
+But still, I implore you, let me craft a Poke Ball from that beautiful fruit.
+Pero aún así, te lo imploro, déjame fabricar una Poké Ball con esa maravillosa fruta.
+Mmmm... exercise some self-restraint, now.
+Mmmm... ejercita tu autocontrol, ahora.
+Well, if you feel differently later on, I'll be right here.
+Bueno, si luego cambias de opinión, estaré justo aquí.
+I've been praying for you to change your mind about that Gilded Apricorn.
+He estado rezando a que cambies de opinión respecto a esa Bonguri Dorada.
+*sigh*
+*sigh*
+Wish I didn't get my hopes up.
+Ojalá no me hubiera hecho ilusiones.
+I'm giddy with excitement!
+¡No sabes cómo me emociona!
+To work I go...
+A trabajar voy yo...
+Crafting Poke Balls from Apricorns is an old art, but not an exact science.
+Crear Poké Balls a base de Bonguris es un viejo arte, pero no una ciencia exacta.
+But I can already tell that this ball has wonderous properties.
+Pero ya puedo decirte que esta ball tiene propiedades maravillosas.
+Please, go out and use it on something special.
+Por favor, ve y úsala en algo especial.
+That Radiant Ball is my crowning achievement.
+Esa Refulge Ball es un logro supremo.
+Haven't felt this good in 3 decades.
+No me había sentido así en 3 décadas.
 [Map268]
 
 My husband is always so busy with work. He leaves trash everywhere and is rarely home.
@@ -19851,7 +19917,7 @@ Dar café.
 
 Me and sister are much better battlers than our parents.
 Yo y mi hermana somos mucho mejores que nuestros padres.
-Our Pokemon couldn't beat your's?!
+Our Pokemon couldn't beat yours?!
 ¡¿Nuestros Pokémon no derrotar a los tuyos?!
 That was fun, we should battle again soon.
 Eso fue divertido, deberíamos combatir luego pronto.
@@ -23151,7 +23217,11 @@ Trainers always come through here. The lady with the Combees sometimes asks as w
 Siempre pasan entrenadores por aquí. Y la señora con los Combees a veces también lo pide, así que practican seguido.
 They're always so cool when they're battlin'. I wanna be like them when I'm older.
 Siempre es genial cuando combaten. Quiero ser como ellas cuando sea mayor.
-
+[Map333]
+A beautifully carved statue of the legendary king Calyrex.
+Una estatua maravillosamante escuplida del legendario rey Calyrex.
+Oh? There's something hanging from the statue!
+¿Oh? ¡Hay algo colgado de la estatua!
 [Map334]
 I'm an out-of-towner visiting family.
 Soy alguien de afuera visitando a mi familia.
@@ -25588,7 +25658,7 @@ What a mess.
 Vaya desastre.
 Svait Lodge is one of the most popular tourist spots in Makya.
 El Alojamiento Svait es uno de los destinos turísticos más populares de Makya.
-In the winter, skiiers will even double up on rooms to make sure they get the chance to visit the nearby hills.
+In the winter, skiers will even double up on rooms to make sure they get the chance to visit the nearby hills.
 En el invierno, los esquiadores incluso comparten sus habitacinoes para asegurarse de tener la oportunidad de visitar las colinas cercanas.
 Apparently, the snow is very high quality!
 ¡Aparentemente, la nieve es de muy alta calidad!
@@ -25694,7 +25764,7 @@ A group of rangers set up a rest stop to help out trainers such as yourself.
 Un grupo de rangers pusieron una parada para ayudar a entrenadores como tú.
 The Velenz Menagerie was built by a very eccentric woman over 100 years ago.
 La Muestra de Velenz fue construida por una mujer muy excéntrica hace 100 años.
-Since then, it's been passed down to her great- great-granddaughter.
+Since then, it's been passed down to her great-great-granddaughter.
 Con el pasar de los años, este fue heredado a su tataranieta.
 She shares her ancestor's love for the world, and is every bit as unusual.
 Ella tiene el mismo amor por el mundo que tenía su ancestra, al igual que sus peculiaridades.
@@ -26712,6 +26782,10 @@ As for my own findings: I found references to an aboveground ruins site which mi
 Respecto a lo que encontré: encontré referencias a unas ruinas sobre las tierras que podrían llevarnos a lo que estamos buscandos.
 I’ll be waiting for you in <imp>Svait, on the upper level</imp>.
 Estaré esperando por tí en <imp>Svait, en el nivel superior</imp>.
+Guess I forgot to keep the door locked… but I can’t really turn away the esteemed Champion \PN, now can I?
+Supongo que olvidé mantener la puerta cerrada... pero realmente no puedo echar al estimado Campeón \PN, ¿me equivoco?
+I don’t know why you’re here but, if I had to make a guess… you’re searching for something; like I am.
+No sé por qué estás aquí pero, si tengo que adivinar... estás buscando algo; como yo.
 [Map428]
 Wow! It's a Volcanion, trapped inside a large boulder!
 ¡Wow! ¡Es un Volcanion, atrapado dentro de un pedrusco!
@@ -26779,9 +26853,32 @@ But maybe… The sources of those phenomena are the same?
 Pero quizás... ¿La fuente de estos fenómenos es la misma?
 Yes
 Sí
+But were they so dominated by Yezera that they thought Volcanion wouldn’t make a difference?
+¿Pero fueron tan dominados por Yezera que pensaron que Volcanion no haría la diferencia?
+It makes me realize how terrifying going against a single person with overwhelming power can be.
+Me hace pensar lo terrorífico que puede ser enfrentarse a una sola persona poder abrumador.
+...as you showed me, \PN.
+...como me mostraste, \PN.
+Ah. Seems like we have unwanted guests at this once private concert.
+Ah. Parece que tenemos invitados indeseados en este concierto una vez privado.
+Awesome. At least they look in the mood to dance.
+Asombroso. Al menos parecen estar de humor para bailar
+I guess we can crack some heads open, show them a genuine mosh pit experience.
+Supngo que podemos abrir algunas cabezas, mostrarles la genuina experiencia de la olla. 
+What do you think, \PN?
+¿Qué piensas, \PN?
+Well, I guess this is where we go our separate ways, \PN.
+Bueno, supongo que aquí es donde nuestros caminos se separan, \PN.
+There are other loose ends left behind by Team Chasm, the Seekers, and who knows what else that I want to see through.
+Hay otros cabos sueltos dejados atrás por el Team Chasm, los Buscadores, y quién sabe qué mas que quiero averiguar.
+Toodles.
+Adiós.
 [Map429]
 Multiple copies of the same sign, all advertising an insurance package deal that will be available in the future.
 Múltiples copias del mismo cartel, todos publicitando un paquete de seguros que será disponible en el futuro.
+[Map430]
+A golden fruit glistens in a space atop the tree.
+Una fruta dorada brilla en una espacio sobre el árbol.
 [Map433]
 Cabin Room 2
 Cabina Número 2
@@ -26995,6 +27092,22 @@ Think I’m going to give my two weeks’ notice to Helena. Try my hand at being
 Creo que voy a dar mi aviso a Helena. Intentaré ser un Profesional.
 Can you give me that?
 ¿Podrías darme eso?
+My body’s shaking. I… How did you…?
+Mi cuerpo está temblando. Cómo... ¿Cómo pudiste...?
+I guess it really shows that you aren’t just Mavis’ kid anymore.
+Supongo que esto realmente muestra que ya no eres el niño de 
+You’re a champion. Through and through.
+Eres un campeón. De la caveza a los pies.
+I’m just glad Team Chasm’s gone.
+Simplemente me alegra que el Team Chasm ya no exista.
+Imagine if we somehow managed to win back then?
+¿Imagina si de algún modo hubiéramos podido ganar en ese entonce?
+You’d come around years later and tear what we built down. That’s horrifying.
+Habrías llegado años después y hubieras destrozado lo que habríamos construido. Eso es terorífico.
+By that time, there wasn’t a pressing need for that whole song and dance.
+Para ese entonces, no había mucha mucha necesidad de toda esa historia.
+Not with something like Yezera keeping us on our toes.
+No con alguien como Yezera manteniéndonos a raya.
 [1]
 29
 Nidoran-F
@@ -54252,7 +54365,7 @@ La mente de {1} parece estar en otra parte.
 {1} observa a la distancia.
 {1} seems to be carefully examining {2}'s face.
 {1} parece examinar con cuidado la cara de {2}.
-{1} seems to be trying to communicate with its' eyes.
+{1} seems to be trying to communicate with its' eye(s).
 {1} parece intentar comunicarse con sus ojos..
 ...{1} seems to have sneezed!
 ¡...{1} parece haber estornudado!
@@ -54662,7 +54775,7 @@ when traded holding an {1}
 cuando es intercambiado sosteniendo {1}
 when leveled up while a {1} is also in the party
 cuando es subido de nivel mientras un {1} está también en el equipo.
-also if you have an empty pokeball and party slot
+also if you have an empty Poké Ball and party slot
 también si tienes una poké ball y un espacio de equipo vacío
 when a {1} is used on it at level {1}
 cuando un {1} es usado al nivel {1}
