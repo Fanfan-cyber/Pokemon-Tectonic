@@ -323,7 +323,7 @@ Description = When hit with a special move, hits back instantly with Breach.
 #-------------------------------
 [CURSEDTAIL]
 Name = Cursed Tail
-Description = When a foe hits the Pokémon, they are warned. If they hit the Pokémon again, they become Cursed.
+Description = When a foe hits the Pokémon, they are warned. If they do it again, they become Cursed, taking 25% HP damage per turn.
 #-------------------------------
 [DARING]
 Name = Daring
@@ -1100,7 +1100,7 @@ Description = Prevents foes whose Sp. Atk is less than its from fleeing.
 #-------------------------------
 [MALICE]
 Name = Malice
-Description = If an attack lowers its HP to half or less, curses the attacker.
+Description = If an attack lowers its HP to half or less, they become Cursed, taking 25% HP damage per turn.
 #-------------------------------
 [MALICIOUSGLOW]
 Name = Malicious Glow
@@ -1712,7 +1712,7 @@ Description = Sets a Light Screen for 4 turns upon entering the battle.
 #-------------------------------
 [STARSALIGN]
 Name = Stars Align
-Description = During eclipse, can't miss and always activates its moves random added effects.
+Description = During eclipse, its move can't miss and always activates their random effects.
 Flags = EclipseSynergy
 #-------------------------------
 [STEAMPOWER]
