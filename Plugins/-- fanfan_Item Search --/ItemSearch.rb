@@ -1,4 +1,4 @@
-if Settings::ER_MODE
+if erMode?
 
 #CONFIG
 #search uses either this key or "Special"

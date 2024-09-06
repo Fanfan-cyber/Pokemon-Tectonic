@@ -1,4 +1,4 @@
-if Settings::CHINESE_TEXT
+if chinese?
 
 module Settings
 

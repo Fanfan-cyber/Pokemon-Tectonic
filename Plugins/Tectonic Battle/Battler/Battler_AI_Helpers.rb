@@ -339,9 +339,33 @@ class PokeBattle_Battler
         return false
     end
 
+    def hasKickMove?
+        eachAIKnownMove do |m|
+            next unless m.kickingMove?
+            return true
+        end
+        return false
+    end
+
     def hasRecoilMove?
         eachAIKnownMove do |m|
             next unless m.recoilMove?
+            return true
+        end
+        return false
+    end
+
+    def hasSoundMove?
+        eachAIKnownMove do |m|
+            next unless m.soundMove?
+            return true
+        end
+        return false
+    end
+
+    def hasMoveType?(check_type)
+        eachAIKnownMove do |m|
+            next unless m.type == check_type
             return true
         end
         return false
