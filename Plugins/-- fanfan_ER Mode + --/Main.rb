@@ -1,6 +1,6 @@
 module Settings
   ER_MODE = true
-  CHINESE_TEXT = false # please dont touch this if eng is yer native
+  CHINESE_TEXT = true # please dont touch this if eng is yer native
 end
 
 def erMode?
