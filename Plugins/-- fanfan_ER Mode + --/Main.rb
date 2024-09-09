@@ -165,7 +165,7 @@ end
 
 class PokemonSummary_Scene
   def pbAbilitiesSelection
-    pbMessage(_INTL("Warning: The Innate System doesn't work now."))
+    pbMessage(_INTL("Warning: The Innate System doesn't work now.")) if !chinese?
     commands = {}
     @pokemon.speciesAbility.each do |ability|
       ability_name = GameData::Ability.try_get(ability)&.name || _INTL("#{ability.to_s.capitalize} (Unimplemented)")
@@ -184,6 +184,7 @@ class PokemonSummary_Scene
       ability_description = ability_obj&.description || _INTL("This ability is unimplemented now.")
       pbMessage(ability_description)
       next if !ability_obj || @pokemon.ability_id == ability
+	  next if chinese? # || !$PokemonBag.pbHasItem?(:ABILITYCAPSULE)
       if pbConfirm(_INTL("Do you want to use an Ability Capsule to change the displaying ability to {1}?", ability_obj.name))
 	    if $PokemonBag.pbHasItem?(:ABILITYCAPSULE)
 		  $PokemonBag.pbDeleteItem(:ABILITYCAPSULE)
