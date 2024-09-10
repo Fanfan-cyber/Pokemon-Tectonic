@@ -1,6 +1,6 @@
 module Settings
   ER_MODE = true
-  CHINESE_TEXT = true # please dont touch this if eng is yer native
+  CHINESE_TEXT = false # please dont touch this if eng is yer native
 end
 
 def erMode?
@@ -165,7 +165,7 @@ end
 
 class PokemonSummary_Scene
   def pbAbilitiesSelection
-    pbMessage(_INTL("Warning: The Innate System doesn't work now.")) if !chinese?
+    pbMessage(_INTL("Warning: The Innate System doesn't work now."))
     commands = {}
     @pokemon.speciesAbility.each do |ability|
       ability_name = GameData::Ability.try_get(ability)&.name || _INTL("#{ability.to_s.capitalize} (Unimplemented)")
