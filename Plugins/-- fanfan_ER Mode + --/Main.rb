@@ -222,3 +222,17 @@ def battleGuideAbilitiesHash
 end
 
 end
+
+def has_species_party?(species, form = -1)
+  $Trainer.has_species?(species, form)
+end
+
+def has_species_pc?(species, form = -1)
+  pbEachNonEggPokemon do |pkmn, box|
+    return true if pkmn.isSpecies?(species) && (form < 0 || pkmn.form == form)
+  end
+end
+
+def has_species?
+  has_species_party?(species, form) || has_species_pc?(species, form)
+end
