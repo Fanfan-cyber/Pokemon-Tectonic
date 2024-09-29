@@ -182,6 +182,7 @@ class PokemonSummary_Scene
       next if command_list[command][0] != ability
       ability_obj = GameData::Ability.try_get(ability)
       ability_description = ability_obj&.description || _INTL("This ability is unimplemented now.")
+      ability_description = ability_obj&.details || _INTL("This ability is unimplemented now.") if ability_obj.has_details?
       pbMessage(ability_description)
       next if !ability_obj || @pokemon.ability_id == ability
       if pbConfirm(_INTL("Do you want to change the displaying ability to {1}?", ability_obj.name))

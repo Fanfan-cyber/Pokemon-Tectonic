@@ -9,20 +9,38 @@ module Compiler
         schema = GameData::Ability::SCHEMA
         ability_names        = []
         ability_descriptions = []
-        baseFiles = ["PBS/abilities.txt", "PBS/abilities_new.txt", "PBS/abilities_primeval.txt", "PBS/abilities_cut.txt"]
-        abilityTextFiles = []
-        abilityTextFiles.concat(baseFiles)
+        ability_details      = []
+
+        baseFiles = Dir.glob("PBS/abilities*.txt")
+        known_base_files = ["PBS/abilities.txt", "PBS/abilities_new.txt", "PBS/abilities_primeval.txt", "PBS/abilities_cut.txt"]
+        unknown_base_files = baseFiles - known_base_files
         abilityExtensions = Compiler.get_extensions("abilities")
-        abilityTextFiles.concat(abilityExtensions)
+
+        ordered_files = ["PBS/abilities.txt", "PBS/abilities_new.txt", "PBS/abilities_primeval.txt", unknown_base_files, abilityExtensions, "PBS/abilities_cut.txt"].flatten
+        abilityTextFiles = ordered_files
+
+        #abilityTextFiles = []
+        #abilityTextFiles.concat(baseFiles)
+        #abilityTextFiles.concat(abilityExtensions)
+
         abilityTextFiles.each do |path|
             cutAbility = path == "PBS/abilities_cut.txt"
             primevalAbility = path == "PBS/abilities_primeval.txt"
-            newAbility = ["PBS/abilities_new.txt", "PBS/abilities_primeval.txt"].include?(path) || abilityExtensions.include?(path)
+            newAbility = !known_base_files.include?(path) || ["PBS/abilities_new.txt", "PBS/abilities_primeval.txt"].include?(path)
+
             baseFile = baseFiles.include?(path)
-            
-            ability_hash         = nil
+            known_base_file = known_base_files.include?(path)
+            unknown_base_file = unknown_base_files.include?(path)
+
+            unknown_file_path = nil
+            unknown_file_path = path if unknown_base_file
+
+            ability_hash = nil
             pbCompilerEachPreppedLine(path) { |line, line_no|
                 if line[/^\s*\[\s*(.+)\s*\]\s*$/]   # New section [ability_id]
+                    @ability_count ||= 1
+                    ability_count = @ability_count
+					ability_count = -1 if path == "PBS/abilities_cut.txt"
                     # Add previous ability's data to records
                     GameData::Ability.register(ability_hash) if ability_hash
                     # Parse ability ID
@@ -33,11 +51,14 @@ module Compiler
                     # Construct ability hash
                     ability_hash = {
                         :id                     => ability_id,
+                        :id_number              => ability_count,
                         :cut                    => cutAbility,
                         :tectonic_new           => newAbility,
                         :primeval               => primevalAbility,
+                        :file_path              => unknown_file_path,
                         :defined_in_extension   => !baseFile,
                     }
+                    @ability_count += 1
                 elsif line[/^\s*(\w+)\s*=\s*(.*)\s*$/]   # XXX=YYY lines
                     if !ability_hash
                         raise _INTL("Expected a section at the beginning of the file.\r\n{1}", FileLineData.linereport)
@@ -54,17 +75,20 @@ module Compiler
                         ability_names.push(ability_hash[:name])
                     when "Description"
                         ability_descriptions.push(ability_hash[:description])
+                    when "Details"
+                        ability_details.push(ability_hash[:details])
                     end
                 end
             }
             # Add last ability's data to records
             GameData::Ability.register(ability_hash) if ability_hash
         end
-
+        @ability_count = nil
         # Save all data
         GameData::Ability.save
         MessageTypes.setMessagesAsHash(MessageTypes::Abilities, ability_names)
         MessageTypes.setMessagesAsHash(MessageTypes::AbilityDescs, ability_descriptions)
+        MessageTypes.addMessagesAsHash(MessageTypes::AbilityDescs, ability_details)											 
         Graphics.update
 
         BattleHandlers::LoadDataDependentAbilityHandlers.trigger
@@ -77,21 +101,14 @@ module Compiler
         File.open("PBS/abilities.txt", "wb") do |f|
             add_PBS_header_to_file(f)
             GameData::Ability.each_base do |a|
-                next if a.cut || a.primeval || a.tectonic_new
+                next if a.cut || a.tectonic_new
                 write_ability(f, a)
             end
         end
         File.open("PBS/abilities_new.txt", "wb") do |f|
             add_PBS_header_to_file(f)
             GameData::Ability.each_base do |a|
-                next unless a.tectonic_new && !a.primeval
-                write_ability(f, a)
-            end
-        end
-        File.open("PBS/abilities_cut.txt", "wb") do |f|
-            add_PBS_header_to_file(f)
-            GameData::Ability.each_base do |a|
-                next unless a.cut
+                next if !a.tectonic_new || a.primeval || !a.file_path.nil?
                 write_ability(f, a)
             end
         end
@@ -102,25 +119,52 @@ module Compiler
                 write_ability(f, a)
             end
         end
+        file_paths = {}
+        GameData::Ability.each_base do |a|
+            next if a.file_path.nil?
+            file_paths[a.file_path] ||= []
+            file_paths[a.file_path] << a
+        end
+        file_paths.each do |file_path, abilities|
+            File.open(file_path, "wb") do |f|
+                add_PBS_header_to_file(f)
+                abilities.each { |a| write_ability(f, a) }
+            end
+        end
+        File.open("PBS/abilities_cut.txt", "wb") do |f|
+            add_PBS_header_to_file(f)
+            recount = true
+            GameData::Ability.each_base do |a|
+                next unless a.cut
+                write_ability(f, a, recount)
+                recount = false
+            end
+        end
+        @ability_count = nil
         Graphics.update
     end
 
-    def write_ability(f, ability)
+    def write_ability(f, ability, recount = false)
+        @ability_count ||= 1
+        @ability_count = 1 if recount
         f.write("\#-------------------------------\r\n")
-        f.write("[#{ability.id}]\r\n")
+        #f.write("[#{ability.id}]\r\n")
+        f.write(sprintf("[#{ability.id}] # %04d\r\n", @ability_count))
         f.write("Name = #{ability.real_name}\r\n")
         f.write("Description = #{ability.real_description}\r\n")
+        f.write("Details = #{ability.detail_description}\r\n") if !ability.detail_description.empty?
         f.write(sprintf("Flags = %s\r\n", ability.flags.join(","))) if ability.flags.length > 0
+        @ability_count += 1
     end
 end
 
 module GameData
     class Ability
-        attr_reader :signature_of, :cut, :primeval, :tectonic_new
+        attr_reader :signature_of, :cut, :primeval, :tectonic_new, :file_path
         attr_reader :id
         attr_reader :id_number
         attr_reader :real_name
-        attr_reader :real_description
+        attr_reader :real_description, :detail_description
         attr_reader :flags
 
         DATA = {}
@@ -135,6 +179,7 @@ module GameData
         SCHEMA = {
             "Name"         => [:name,        "s"],
             "Description"  => [:description, "q"],
+            "Details"      => [:details,     "q"],
             "Flags"        => [:flags,       "*s"]
         }
         
@@ -143,10 +188,12 @@ module GameData
             @id_number              = hash[:id_number]    || -1
             @real_name              = hash[:name]         || "Unnamed"
             @real_description       = hash[:description]  || "???"
-            @flags                  = hash[:flags]       || []
+            @detail_description     = hash[:details]      || ""
+            @flags                  = hash[:flags]        || []
             @cut                    = hash[:cut]          || false
             @primeval               = hash[:primeval]     || false
             @tectonic_new           = hash[:tectonic_new] || false
+            @file_path              = hash[:file_path]
             @defined_in_extension   = hash[:defined_in_extension] || false
 
             @flags.each do |flag|
@@ -166,6 +213,18 @@ module GameData
         # @return [String] the translated description of this ability
         def description
             return pbGetMessageFromHash(MessageTypes::AbilityDescs, @real_description)
+        end
+
+        def has_description?
+            description != "???"
+        end
+
+        def details
+            return pbGetMessageFromHash(MessageTypes::AbilityDescs, @detail_description)
+        end
+
+        def has_details?
+            !details.empty?
         end
 
         # The highest evolution of a line
