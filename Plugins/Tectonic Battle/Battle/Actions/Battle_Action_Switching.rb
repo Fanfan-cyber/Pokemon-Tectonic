@@ -385,6 +385,8 @@ class PokeBattle_Battle
     def pbOnActiveOne(battler)
         return false if battler.fainted?
 
+        apply_field_effect(:switch_in, battler)
+
         # Trigger enter the field curses
         curses.each do |curse|
             triggerBattlerEnterCurseEffect(curse, battler, self)

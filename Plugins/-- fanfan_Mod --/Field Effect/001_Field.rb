@@ -1,42 +1,53 @@
-class Battle
+class PokeBattle_Battle
   attr_reader :stacked_fields 
   attr_reader :current_field
 
   alias field_initialize initialize
   def initialize(scene, p1, p2, player, opponent)
     field_initialize(scene, p1, p2, player, opponent)
-	@stacked_fields = []
-	create_new_field(:None, true)
+    @stacked_fields = []
+    create_new_field(:None, begin_battle: true)
+    #create_new_field(:Electric)
+  end
+
+  def create_new_field(id, *args, begin_battle: false)
+    formatted_name = id.to_s.downcase.gsub(/_/, '')
+    field_class_name = "PokeBattle_Battle::Field_#{formatted_name}"
+    return if !Object.const_defined?(field_class_name)
+
+    new_field = Object.const_get(field_class_name).new(self, *args)
+    return if !begin_battle && new_field.is_base?
+
+    remove_field(true) if new_field.infinite?
+
+    add_field(new_field)
+    set_current_field(new_field)
+
+    echoln("[Field set] #{new_field.name} was set! [#{stacked_fields_name}]") if !new_field.is_base?
   end
 
   def add_field(new_field)
     @stacked_fields.push(new_field)
   end
 
-  def remove_field(all = false)
-    if all
-	  @stacked_fields.keep_if(&:is_none?)
-	else
-	  @stacked_fields.delete_if(&:is_end?)
-	end
+  def remove_field(remove_all = false)
+    if remove_all
+      @stacked_fields.keep_if(&:is_base?)
+    else
+      @stacked_fields.delete_if(&:end?)
+    end
   end
 
   def set_current_field(new_field)
     @current_field = new_field
   end
 
-  def create_new_field(id, *args, start_battle = false)
-    formatted_name = id.to_s.downcase.gsub(/_/, '')
-    field_class_name = "Battle::Field_#{formatted_name}"
-    return if !Object.const_defined?(field_class_name)
-
-	new_field = Object.const_get(field_class_name).new(self, *args)
-	return if !start_battle && new_field.is_none?
-
-    remove_field(true) if new_field.is_infinite_duration?
-
-	add_field(new_field)
-	set_current_field(new_field)
+  def apply_field_effect(key, *args, apply_all: false)
+    if apply_all
+      @stacked_fields.each { |field| field.apply_field_effect(key, *args) }
+    else
+      @current_field.apply_field_effect(key, *args)
+    end
   end
 
   def field_id
@@ -51,42 +62,52 @@ class Battle
     @current_field.duration
   end
 
+  def stacked_fields_name
+    @stacked_fields.map(&:name).join(", ")
+  end
+
   def has_field?
     @stacked_fields.length >= 2
   end
 
-  def has_infinite_field?
-    has_field? && @current_field.is_infinite_duration?
+  def is_infinite_field?
+    has_field? && @current_field.infinite?
   end
 
-  def has_electric_field?
+  def is_electric_field?
     @current_field.is_electric?
   end
 
-  def has_grassy_field?
+  def is_grassy_field?
     @current_field.is_grassy?
   end
 
-  def has_misty_field?
+  def is_misty_field?
     @current_field.is_misty?
   end
 
-  def has_psychic_field?
+  def is_psychic_field?
     @current_field.is_psychic?
   end
 end
 
-class Battle::Field
+class PokeBattle_Battle::Field
   attr_reader :battle
   attr_reader :id
   attr_reader :name
   attr_reader :duration
+  attr_reader :effects
 
   def initialize(battle)
-    @battle = battle
+    @battle  = battle
+    @effects = {}
   end
 
-  def is_none?
+  def apply_field_effect(key, *args)
+    @effects[key]&.call(*args)
+  end
+
+  def is_base?
     @id == :None
   end
 
@@ -110,56 +131,85 @@ class Battle::Field
     @duration == 5
   end
 
-  def is_infinite_duration?
+  def infinite?
     @duration == -1
   end
 
-  def is_end?
+  def end?
     @duration == 0
   end
 end
 
-class Battle::Field_none < Battle::Field
+class PokeBattle_Battle::Field_none < PokeBattle_Battle::Field
   def initialize(battle)
     super(battle)
-	@id       = :None
-	@name     = _INTL("None")
-	@duration = -1
+    @id       = :None
+    @name     = _INTL("None")
+    @duration = -1
   end
 end
 
-class Battle::Field_electric < Battle::Field
+class PokeBattle_Battle::Field_electric < PokeBattle_Battle::Field
   def initialize(battle, duration = 5, *args)
-    super(battle)
-	@id       = :Electric
-	@name     = _INTL("Electric Field")
-	@duration = duration
+  super(battle)
+    @id       = :Electric
+    @name     = _INTL("Electric Field")
+    @duration = duration
+
+    @effects[:begin_battle] = proc {
+      effect_name = "骤降"
+      @battle.pbDisplay(_INTL("{1}让温度急速变低！", effect_name))
+      @battle.pbStartWeather(nil, :Hail) if !@battle.primevalWeatherPresent?
+    }
+
+    @effects[:switch_in] = proc { |battler|
+      effect_name = "盛气凌人"
+      buffable_stats = []
+      GameData::Stat.each_battle do |stat|
+        next if !battler.pbCanRaiseStatStep?(stat.id, battler)
+        buffable_stats.push(stat.id)
+      end
+      next if buffable_stats.empty?
+      if buffable_stats.length == 1
+        msg = _INTL("{1}增加了{2}的一项随机能力！", effect_name, battler.pbThis)
+      else
+        msg = _INTL("{1}增加了{2}的两项随机能力！", effect_name, battler.pbThis)
+      end
+      @battle.pbDisplay(msg)
+      stats_to_buff = buffable_stats.sample(2)
+      anim = true
+      stats_to_buff.each do |stat|
+        battler.pbRaiseStatStep(stat, 1, battler, anim)
+        anim = false
+      end
+    }
+
   end
 end
 
-class Battle::Field_grassy < Battle::Field
+class PokeBattle_Battle::Field_grassy < PokeBattle_Battle::Field
   def initialize(battle, duration = 5, *args)
     super(battle)
-	@id       = :Grassy
-	@name     = _INTL("Grassy Field")
-	@duration = duration
+    @id       = :Grassy
+    @name     = _INTL("Grassy Field")
+    @duration = duration
   end
 end
 
-class Battle::Field_misty < Battle::Field
+class PokeBattle_Battle::Field_misty < PokeBattle_Battle::Field
   def initialize(battle, duration = 5, *args)
     super(battle)
-	@id       = :Misty
-	@name     = _INTL("Misty Field")
-	@duration = duration
+    @id       = :Misty
+    @name     = _INTL("Misty Field")
+    @duration = duration
   end
 end
 
-class Battle::Field_psychic < Battle::Field
+class PokeBattle_Battle::Field_psychic < PokeBattle_Battle::Field
   def initialize(battle, duration = 5, *args)
     super(battle)
-	@id       = :Psychic
-	@name     = _INTL("Psychic Field")
-	@duration = duration
+    @id       = :Psychic
+    @name     = _INTL("Psychic Field")
+    @duration = duration
   end
 end

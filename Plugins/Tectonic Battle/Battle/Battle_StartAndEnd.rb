@@ -402,6 +402,9 @@ class PokeBattle_Battle
                 autoTestingBattlerSpeciesChange(b)
             end
         end
+
+        apply_field_effect(:begin_battle)
+
         # Abilities upon entering battle
         pbOnActiveAll
         # Exit the pre-battle phase
