@@ -347,7 +347,7 @@ class BattleInfoDisplay < SpriteWrapper
 
         # List abilities that were added by effects
         battler.addedAbilities.each do |abilityID|
-		    if erMode?
+		    if er_mode?
 			  battlerEffects.push(_INTL("A/I: #{getAbilityName(abilityID)}"))
 			else
 			  battlerEffects.push(_INTL("Ability: #{getAbilityName(abilityID)}"))

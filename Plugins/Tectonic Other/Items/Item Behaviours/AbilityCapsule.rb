@@ -16,7 +16,7 @@ ItemHandlers::UseOnPokemon.add(:ABILITYCAPSULE,proc { |item,pkmn,scene|
     newabilindex = (pkmn.ability_index + 1) % 2
     newabil = GameData::Ability.get((newabilindex==0) ? abil1 : abil2)
     newabilname = newabil.name
-	if erMode?
+	if er_mode?
 	  msg = _INTL("Would you like to change {1}'s displaying ability to {2}?", pkmn.name, newabilname)
 	else
 	  msg = _INTL("Would you like to change {1}'s ability to {2}?", pkmn.name, newabilname)
@@ -25,7 +25,7 @@ ItemHandlers::UseOnPokemon.add(:ABILITYCAPSULE,proc { |item,pkmn,scene|
       pkmn.ability_index = newabilindex
       pkmn.ability = newabil
       scene&.pbRefresh
-	  if erMode?
+	  if er_mode?
 	    msg = _INTL("{1}'s displaying ability changed to {2}!", pkmn.name, newabilname)
 	  else
 	    msg = _INTL("{1}'s ability changed to {2}!", pkmn.name, newabilname)

@@ -1,14 +1,5 @@
-module Settings
-  ER_MODE = true
-  CHINESE_TEXT = false # please dont touch this if eng is yer native
-end
-
-def erMode?
+def er_mode?
   Settings::ER_MODE
-end
-
-def chinese?
-  Settings::CHINESE_TEXT
 end
 
 class Pokemon
@@ -66,13 +57,13 @@ class Pokemon
   end
 
   def addAnotherAbilityAndInnates
-    return if !erMode?
+    return if !er_mode?
 	addAnotherAbility
 	addInnateSet
   end
 
   def legalAbilities
-    return (speciesAbility | innateSet | [ability_id]) if erMode?
+    return (speciesAbility | innateSet | [ability_id]) if er_mode?
 	[ability_id]
   end
 
@@ -105,7 +96,7 @@ class PokeBattle_Battler
   end
 
   def addAbilitiesDisplayInfo
-    @addedAbilities.concat(abilities).uniq! if erMode?
+    @addedAbilities.concat(abilities).uniq! if er_mode?
   end
 end
 
@@ -117,7 +108,7 @@ class PokeBattle_Battle
   end
 
   def aiUpdateAbility(battler = nil, abilities: nil)
-    return if !erMode?
+    return if !er_mode?
     if !battler
 	  echoln("===AI KNOWN ABILITIES===")
 	  @knownAbilities = {}
@@ -147,7 +138,7 @@ class PokeBattle_Battle
   def initializeKnownMoves(pokemon)
     @knownMoves[pokemon.personalID] = []
     pokemon.moves.each do |move|
-	  next if !pokemon.boss? && !aiAutoKnowsMove?(move, pokemon) && !erMode?
+	  next if !pokemon.boss? && !aiAutoKnowsMove?(move, pokemon) && !er_mode?
       @knownMoves[pokemon.personalID].push(move.id)
       echoln("Pokemon #{pokemon.name}'s move #{move.name} is known by the AI")
     end
@@ -207,7 +198,7 @@ class PokemonSummary_Scene
   end
 end
 
-if erMode?
+if er_mode?
 
 def battleGuideAbilitiesHash
     return {

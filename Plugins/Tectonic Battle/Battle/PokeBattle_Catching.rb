@@ -32,7 +32,7 @@ class PokeBattle_Battle
             pbPlayer.pokedex.register(pkmn) # In case the form changed upon leaving battle
 
             # Let the player know info about the individual pokemon they caught
-			if erMode?
+			if er_mode?
 			  if pkmn.speciesAbility.length == 1
                 pbDisplayWithFormatting(_INTL("You check {1}, and discover that its ability is <imp>{2}</imp>!", pkmn.name, pkmn.getSpeciesAbilityName(0)))
 			  else

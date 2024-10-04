@@ -366,7 +366,7 @@ class PokeBattle_Battler
             @battle.pbEndPrimordialWeather
         end
 
-        return if @first_faint || !@battle.trainerBattle? || !pbOwnedByPlayer? || !erMode?
+        return if @first_faint || !@battle.trainerBattle? || !pbOwnedByPlayer? || !er_mode?
 		@first_faint = true
         return if !@battle.pbDisplayConfirmSerious(_INTL("You literally can't finish the perfect. \nWould you like to quit now?"))
         pbSEPlay("Battle flee")
@@ -590,7 +590,7 @@ class PokeBattle_Battler
         applyEffect(:Transform)
         applyEffect(:TransformSpecies, target.species)
         pbChangeTypes(target)
-        if hasActiveItem?(:FRAGILELOCKET) || erMode?
+        if hasActiveItem?(:FRAGILELOCKET) || er_mode?
             setAbility(target.abilities)
         else
             setAbility(target.firstAbility)
@@ -634,7 +634,7 @@ class PokeBattle_Battler
         @battle.pbDisplay(_INTL("{1} transformed into a {2}!", pbThis, newSpeciesData.name))
         legalAbilities = newSpeciesData.legalAbilities
 
-        if erMode?
+        if er_mode?
           setAbility(legalAbilities)
 		else
           newAbility = legalAbilities[@pokemon.ability_index] || legalAbilities[0]
@@ -689,7 +689,7 @@ class PokeBattle_Battler
         else
             hasLocket = hasActiveItem?(:FRAGILELOCKET)
         end
-        if hasLocket || (@battle.curseActive?(:CURSE_DOUBLE_ABILITIES) && index.odd?) || erMode?
+        if hasLocket || (@battle.curseActive?(:CURSE_DOUBLE_ABILITIES) && index.odd?) || er_mode?
             eachLegalAbility do |legalAbility|
                 next if @ability_ids.include?(legalAbility)
                 @ability_ids.push(legalAbility)

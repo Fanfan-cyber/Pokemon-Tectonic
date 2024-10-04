@@ -105,7 +105,7 @@ def discoverPokemon(pkmn)
     pbMessage(_INTL("It's a <imp>shiny</imp> Pokémon!", pkmn.name))
   end
 
-  if erMode?
+  if er_mode?
     if pkmn.speciesAbility.length == 1
       pbMessage(_INTL("You check {1}, and discover that its ability is <imp>{2}</imp>!", pkmn.name, pkmn.getSpeciesAbilityName(0)))
     else

@@ -1,11 +1,10 @@
 module Settings
-  DIETY = true
   NO_TRIBE = false
   COPY_TRIBE = false
 end
 
 def diety?
-  return false if !Settings::DIETY
+  return false if !Settings::DIETY_Mode
   set_money
   true
 end

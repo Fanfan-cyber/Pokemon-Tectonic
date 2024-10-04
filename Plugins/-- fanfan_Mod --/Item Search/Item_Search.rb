@@ -1,5 +1,3 @@
-if erMode?
-
 #CONFIG
 #search uses either this key or "Special"
 SEARCHKEY = :TAB
@@ -253,5 +251,3 @@ end#module
 		# @move_speed_real = @move_speed_real * 3 if $speed_up
 		 
     # end
-
-end

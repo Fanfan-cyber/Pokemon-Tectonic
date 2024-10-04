@@ -1,3 +1,5 @@
+=begin
+
 INNATE_SET = {
   :DEFAULT       => [   [:PUREHEART,         :FORTIFICATION,   :SUPERLUCK,       ],   [      ],   ],
 
@@ -1814,3 +1816,5 @@ INNATE_SET = {
 
   :IRONOBSERVER  => [   [:QUARKDRIVE,        :MYSTICPOWER,     :LIGHTNINGROD,    ],   [      ],   ], # 铁浮游
 }
+
+=end
