@@ -31,7 +31,7 @@ class Pokemon
   end
 
   def speciesAbility
-	  species_data.legalAbilities
+    species_data.legalAbilities
   end
 
   def anotherAbility
@@ -40,8 +40,8 @@ class Pokemon
 
   def getSpeciesAbilityName(index = nil)
     ability_names = speciesAbility.map { |ability_id| GameData::Ability.get(ability_id).name }
-	  return "#{ability_names[0..-1].join(", ")}" if !index
-	  ability_names[index]
+    return "#{ability_names[0..-1].join(", ")}" if !index
+    ability_names[index]
   end
 
   def addAnotherAbility
@@ -58,13 +58,13 @@ class Pokemon
 
   def addAnotherAbilityAndInnates
     return if !er_mode?
-	  addAnotherAbility
-	  addInnateSet
+    addAnotherAbility
+    addInnateSet
   end
 
   def legalAbilities
     return (speciesAbility | innateSet | [ability_id]) if er_mode?
-	  [ability_id]
+    [ability_id]
   end
 
   def removeIllegalAbilities
@@ -77,8 +77,8 @@ class Pokemon
 
   def hasAbility?(check_ability = nil)
     return !ability.nil? if check_ability.nil?
-	  return abilities.include?(check_ability) if check_ability.is_a?(Symbol)
-	  abilities.any? { |ability_id| check_ability.id == ability_id }
+    return abilities.include?(check_ability) if check_ability.is_a?(Symbol)
+    abilities.any? { |ability_id| check_ability.id == ability_id }
   end
 end
 
@@ -87,12 +87,12 @@ class PokeBattle_Battler
   def resetAbilities(initialization = false)
     if pbOwnedByPlayer?
       @pokemon.addAnotherAbilityAndInnates
-	    @pokemon.removeIllegalAbilities # legality check
-	  end
-	  @pokemon.removeDupAbility # prevent an abil from triggering twice
+      @pokemon.removeIllegalAbilities # legality check
+    end
+    @pokemon.removeDupAbility # prevent an abil from triggering twice
     fanfan_resetAbilities(initialization)
-	  @battle.aiUpdateAbility(self) if pbOwnedByPlayer? # ai update ablis
-	  addAbilitiesDisplayInfo # for displaying all ablis
+    @battle.aiUpdateAbility(self) if pbOwnedByPlayer? # ai update ablis
+    addAbilitiesDisplayInfo # for displaying all ablis
   end
 
   def addAbilitiesDisplayInfo
@@ -110,35 +110,35 @@ class PokeBattle_Battle
   def aiUpdateAbility(battler = nil, abilities: nil)
     return if !er_mode?
     if !battler
-	    echoln("===AI KNOWN ABILITIES===")
-	    @knownAbilities = {}
+      echoln("===AI KNOWN ABILITIES===")
+      @knownAbilities = {}
       @party1.each do |pokemon|
-	      @knownAbilities[pokemon.personalID] = []
-	      pokemon.abilities.each do |ability|
-	        @knownAbilities[pokemon.personalID].push(ability)
-		      echoln("Player's side pokemon #{pokemon.name}'s ability #{ability} is known by the AI.")
-	      end
+        @knownAbilities[pokemon.personalID] = []
+        pokemon.abilities.each do |ability|
+          @knownAbilities[pokemon.personalID].push(ability)
+          echoln("Player's side pokemon #{pokemon.name}'s ability #{ability} is known by the AI.")
+        end
       end
     elsif !abilities
-	    @knownAbilities[battler.pokemon.personalID] = []
-	    battler.abilities.each do |ability|
-	      @knownAbilities[battler.pokemon.personalID].push(ability)
-	      echoln("[ABILITY UPDATE] Player's side pokemon #{battler.name}'s ability #{ability} is known by the AI.")
-	    end
-	  else
-	    abilities = [abilities] if !abilities.is_a?(Array)
-	    @knownAbilities[battler.pokemon.personalID] = []
-	    abilities.each do |ability|
-	      @knownAbilities[battler.pokemon.personalID].push(ability)
-	      echoln("[ABILITY UPDATE] Player's side pokemon #{battler.pokemon.name}'s ability #{ability} is known by the AI.")
-	    end
-	  end
+      @knownAbilities[battler.pokemon.personalID] = []
+      battler.abilities.each do |ability|
+        @knownAbilities[battler.pokemon.personalID].push(ability)
+        echoln("[ABILITY UPDATE] Player's side pokemon #{battler.name}'s ability #{ability} is known by the AI.")
+      end
+    else
+      abilities = [abilities] if !abilities.is_a?(Array)
+      @knownAbilities[battler.pokemon.personalID] = []
+      abilities.each do |ability|
+        @knownAbilities[battler.pokemon.personalID].push(ability)
+        echoln("[ABILITY UPDATE] Player's side pokemon #{battler.pokemon.name}'s ability #{ability} is known by the AI.")
+      end
+    end
   end
 
   def initializeKnownMoves(pokemon)
     @knownMoves[pokemon.personalID] = []
     pokemon.moves.each do |move|
-	    next if !pokemon.boss? && !aiAutoKnowsMove?(move, pokemon) && !er_mode?
+      next if !pokemon.boss? && !aiAutoKnowsMove?(move, pokemon) && !er_mode?
       @knownMoves[pokemon.personalID].push(move.id)
       echoln("Pokemon #{pokemon.name}'s move #{move.name} is known by the AI")
     end
@@ -149,7 +149,7 @@ class AbilitySplashAppearAnimation < PokeBattle_Animation
   alias fanfan_createProcesses createProcesses
   def createProcesses
     fanfan_createProcesses
-	  bar = addSprite(@sprites["abilityBar_#{@side}"])
+    bar = addSprite(@sprites["abilityBar_#{@side}"])
     bar.setSE(0, "Battle ability")
   end
 end
@@ -177,23 +177,23 @@ class PokemonSummary_Scene
       pbMessage(ability_description)
       next if !ability_obj || @pokemon.ability_id == ability
       if pbConfirm(_INTL("Do you want to change the displaying ability to {1}?", ability_obj.name))
-	      if $PokemonBag.pbHasItem?(:ABILITYCAPSULE)
-		      $PokemonBag.pbDeleteItem(:ABILITYCAPSULE)
+        if $PokemonBag.pbHasItem?(:ABILITYCAPSULE)
+          $PokemonBag.pbDeleteItem(:ABILITYCAPSULE)
           @pokemon.ability_index = index
           @pokemon.ability = nil
           pbMessage(_INTL("{1}'s displaying ability now is {2}.", @pokemon.speciesName, ability_obj.name))
-		    else
-		      pbMessage(_INTL("You don't have any Ability Capsule in your bag."))
-		    end
+        else
+          pbMessage(_INTL("You don't have any Ability Capsule in your bag."))
+        end
       end
-	    break
+      break
     end
     @pokemon.innateSet.each do |innate|
       next if command_list[command][0] != innate
       ability_obj = GameData::Ability.try_get(innate)
       innate_description = ability_obj&.description || _INTL("This innate is unimplemented now.")
       pbMessage(innate_description)
-	    break
+      break
     end
   end
 end

@@ -96,8 +96,8 @@ class TribalBonus
   def updateTribeCount
     diety_update_tribe_count
     add_all_tribe_bonus if @trainer.is_player? && diety?
-	  copy_player_tribe_bonus if @trainer.copy_tribes?
-	  romove_all_tribe_bonus if @trainer.tribe_disabled?
+    copy_player_tribe_bonus if @trainer.copy_tribes?
+    romove_all_tribe_bonus if @trainer.tribe_disabled?
   end
   alias update_tribe_count updateTribeCount
 
