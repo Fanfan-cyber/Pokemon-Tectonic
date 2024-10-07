@@ -364,6 +364,9 @@ class PokeBattle_Battler
 
             # Check for end of primordial weather
             @battle.pbEndPrimordialWeather
+
+            # Trigger avatar AI
+            @bossAI.onDestroyed(self, battle) if boss?
         end
 
         return if @first_faint || !@battle.trainerBattle? || !pbOwnedByPlayer? || !er_mode?
