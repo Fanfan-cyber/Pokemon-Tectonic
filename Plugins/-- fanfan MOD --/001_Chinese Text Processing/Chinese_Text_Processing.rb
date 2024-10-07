@@ -5,7 +5,7 @@ module Settings
   Y_OFFSET_OF_TEXT = 0
   #命令纠正偏移量(默认为8，值越小越向下)
   Y_OFFSET_OF_ORDER_CORRCETION = 0
-  
+
   #引号中填写自已使用的字体即可
   GLOBAL_FONT_NAME = "FusionPixelMonoPatched"
 end
@@ -14,7 +14,7 @@ module MessageConfig
   FONT_NAME            = Settings::GLOBAL_FONT_NAME
   SMALL_FONT_NAME      = Settings::GLOBAL_FONT_NAME
   NARROW_FONT_NAME     = Settings::GLOBAL_FONT_NAME
-  
+
   #FONT_Y_OFFSET        = Settings::Y_OFFSET_OF_TEXT
   #SMALL_FONT_Y_OFFSET  = Settings::Y_OFFSET_OF_TEXT
   #NARROW_FONT_Y_OFFSET = Settings::Y_OFFSET_OF_TEXT
@@ -41,42 +41,42 @@ def getLineBrokenChunks(bitmap, value, width, dims, plain = false)
       y += 32
       next
     end
-	  textcols = []
+    textcols = []
     if ccheck[/</] && !plain
       ccheck.scan(re) { textcols.push(rgbToColor($1)) }
       words = ccheck.split(reNoMatch) # must have no matches because split can include match
-	    words = words.map { |s| s.chars } # it is a little bit difficult to make this perfect, so I just ignore it
+      words = words.map { |s| s.chars } # it is a little bit difficult to make this perfect, so I just ignore it
       textcols = textcols.map { |c| Array.new(words.size, c) }
       words = word.flatten
-	    textcols = textcols.flatten
+      textcols = textcols.flatten
     else
-	    words = split_text(ccheck)
+      words = split_text(ccheck)
     end
-	  words.each_with_index do |w, i|
+    words.each_with_index do |w, i|
       textSize = bitmap.text_size(w)
       textwidth = textSize.width
-	    if x > 0 && x + textwidth > width #&& w !~ /[[:punct:]]/
-	      if w =~ /\p{Han}/
+      if x > 0 && x + textwidth > width #&& w !~ /[[:punct:]]/
+        if w =~ /\p{Han}/
           x = 0
           y += 32
-	      else
+        else
           minTextSize = bitmap.text_size(w.gsub(/\s*/,""))
           if x > 0 && x + minTextSize.width > width
             x = 0
             y += 32
           end
-		    end
-	    end
+        end
+      end
       ret.push([w, x, y, textwidth, 32, color])
       x += textwidth
       dims[0] = x if dims && dims[0] < x
-	    color = textcols[i] if textcols[i]
+      color = textcols[i] if textcols[i]
     end
   end
   dims[1] = y + 32 if dims
   return ret
 end
-		
+
 def split_text(text)
   words = []
   word = ""
@@ -89,7 +89,7 @@ def split_text(text)
     end
   end
   words << word unless word.empty?
-  return words
+  words
 end
 
 def getLineBrokenText(bitmap, value, width, dims)
