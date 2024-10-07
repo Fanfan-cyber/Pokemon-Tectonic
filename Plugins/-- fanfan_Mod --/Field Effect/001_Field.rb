@@ -157,13 +157,11 @@ class PokeBattle_Battle::Field_electric < PokeBattle_Battle::Field
     @duration = duration
 
     @effects[:begin_battle] = proc {
-      effect_name = "骤降"
-      @battle.pbDisplay(_INTL("{1}让温度急速变低！", effect_name))
+      @battle.pbDisplay(_INTL("场地上的气温骤降！"))
       @battle.pbStartWeather(nil, :Hail) if !@battle.primevalWeatherPresent?
     }
 
     @effects[:switch_in] = proc { |battler|
-      effect_name = "盛气凌人"
       buffable_stats = []
       GameData::Stat.each_battle do |stat|
         next if !battler.pbCanRaiseStatStep?(stat.id, battler)
@@ -171,9 +169,9 @@ class PokeBattle_Battle::Field_electric < PokeBattle_Battle::Field
       end
       next if buffable_stats.empty?
       if buffable_stats.length == 1
-        msg = _INTL("{1}增加了{2}的一项随机能力！", effect_name, battler.pbThis)
+        msg = _INTL("场地上的电流随机增加了{1}的一项能力！", battler.pbThis)
       else
-        msg = _INTL("{1}增加了{2}的两项随机能力！", effect_name, battler.pbThis)
+        msg = _INTL("场地上的电流随机增加了{1}的两项能力！", battler.pbThis)
       end
       @battle.pbDisplay(msg)
       stats_to_buff = buffable_stats.sample(2)

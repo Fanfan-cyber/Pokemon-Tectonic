@@ -40,7 +40,7 @@ module Compiler
                 if line[/^\s*\[\s*(.+)\s*\]\s*$/]   # New section [ability_id]
                     @ability_count ||= 1
                     ability_count = @ability_count
-					ability_count = -1 if path == "PBS/abilities_cut.txt"
+                    ability_count = -1 if path == "PBS/abilities_cut.txt"
                     # Add previous ability's data to records
                     GameData::Ability.register(ability_hash) if ability_hash
                     # Parse ability ID
