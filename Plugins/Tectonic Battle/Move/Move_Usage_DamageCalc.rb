@@ -424,6 +424,9 @@ class PokeBattle_Move
     end
       
     def pbCalcDamageMultipliers(user,target,numTargets,type,baseDmg,multipliers,aiCheck=false)
+
+        @battle.apply_field_effect(:calc_damage, user, target, numTargets, self, type, baseDmg, multipliers, aiCheck)
+
         pbCalcAbilityDamageMultipliers(user,target,type,baseDmg,multipliers,aiCheck)
         pbCalcWeatherDamageMultipliers(user,target,type,multipliers,aiCheck)
         pbCalcStatusesDamageMultipliers(user,target,multipliers,aiCheck)

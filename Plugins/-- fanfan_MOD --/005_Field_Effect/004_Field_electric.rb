@@ -5,6 +5,18 @@ class PokeBattle_Battle::Field_electric < PokeBattle_Battle::Field
     @name     = _INTL("Electric Field")
     @duration = duration
 
+    @multipliers = {
+      [:base_damage_multiplier, 1.5, _INTL("T-T-Tada!")] => proc { |user, target, numTargets, move, type, power, mults, aiCheck| 
+        if user.pbOwnedByPlayer?
+          next true
+        end
+        },
+      [:attack_multiplier, 1.5] => proc { |user, target, numTargets, move, type, power, mults, aiCheck| },
+      [:defense_multiplier, 10.5] => proc { |user, target, numTargets, move, type, power, mults, aiCheck| },
+      [:final_damage_multiplier, 1.0]  => proc { |user, target, numTargets, move, type, power, mults, aiCheck| },
+    }
+
+=begin
     @effects[:begin_battle] = proc {
       @battle.pbDisplay(_INTL("场地上的气温骤降！"))
       @battle.pbStartWeather(nil, :Hail) if !@battle.primevalWeatherPresent?
@@ -30,6 +42,7 @@ class PokeBattle_Battle::Field_electric < PokeBattle_Battle::Field
         anim = false
       end
     }
+=end
 
   end
 end
