@@ -389,6 +389,9 @@ class PokeBattle_Battle
         when :RingEclipse then pbDisplay(_INTL("A planetary ring dominates the skyline."))
         when :Bloodmoon   then pbDisplay(_INTL("The moon is taken by a nightmare."))
         end
+
+        set_default_field
+
         # Change avatars for auto-testing
         if @autoTesting
             eachBattler do |b|

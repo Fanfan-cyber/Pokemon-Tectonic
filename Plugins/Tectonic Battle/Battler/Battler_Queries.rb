@@ -443,6 +443,10 @@ class PokeBattle_Battler
 
     def canHeal?(overheal = false)
         return false if fainted?
+
+        ret = @battle.apply_field_effect(:block_heal, self, overheal)
+        return false if ret
+
         if overheal
             return false if @hp >= @totalhp * 2
         else
@@ -780,6 +784,10 @@ class PokeBattle_Battler
 
     def ownerParty
         return @battle.pbParty(@index)
+    end
+
+    def ownerPartyAllFainted?
+        return @battle.pbParty(@index).all?(&:fainted?)
     end
 
     def ownerLevelCap

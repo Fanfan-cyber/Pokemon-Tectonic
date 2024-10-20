@@ -117,6 +117,10 @@ user.pbThis(true)))
     # Effects after all hits (i.e. at end of move usage)
     #=============================================================================
     def pbEffectsAfterMove(user, targets, move, numHits)
+
+        @battle.apply_field_effect(:end_of_move_universal, user, targets, move, numHits)
+        @battle.apply_field_effect(:end_of_move, user, targets, move, numHits)
+
         # Destiny Bond
         # NOTE: Although Destiny Bond is similar to Grudge, they don't apply at
         #       the same time (although Destiny Bond does check whether it's going

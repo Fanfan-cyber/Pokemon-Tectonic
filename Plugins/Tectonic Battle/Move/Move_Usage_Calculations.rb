@@ -4,6 +4,10 @@ class PokeBattle_Move
     #=============================================================================
     def pbBaseType(user)
         ret = @type
+
+        ret_type = @battle.apply_field_effect(:base_type_change, user, self)
+        ret = ret_type if ret_type
+
         if ret
             user.eachActiveAbility do |ability|
                 ret = BattleHandlers.triggerMoveBaseTypeModifierAbility(ability, user, self, ret)
@@ -152,6 +156,9 @@ class PokeBattle_Move
 
     def pbCalcAccuracyModifiers(user, target, modifiers, aiCheck = false, aiType = nil)
         typeToUse = aiCheck ? aiType : @calcType
+
+        @battle.apply_field_effect(:accuracy_modify, user, target, self, modifiers, typeToUse, aiCheck)
+
         # Ability effects that alter accuracy calculation
         user.eachAbilityShouldApply(aiCheck) do |ability|
             BattleHandlers.triggerAccuracyCalcUserAbility(ability, modifiers, user, target, self, typeToUse)

@@ -543,12 +543,17 @@ BattleHandlers::AbilityOnSwitchIn.add(:CLOVERSONG,
 
 BattleHandlers::AbilityOnSwitchIn.add(:ONTHEWIND,
   proc { |ability, battler, battle, aiCheck|
+
+      tailwind_duration = 4
+      ret = battle.apply_field_effect(:tailwind_duration, battler)
+      tailwind_duration += ret if ret
+
       if aiCheck
-          next getTailwindEffectScore(battler, 4)
+          next getTailwindEffectScore(battler, tailwind_duration)
       else
           battle.pbShowAbilitySplash(battler, ability)
           battle.pbAnimation(:TAILWIND, battler, nil, 0)
-          battler.pbOwnSide.applyEffect(:Tailwind, 4)
+          battler.pbOwnSide.applyEffect(:Tailwind, tailwind_duration)
           battle.pbHideAbilitySplash(battler)
       end
   }

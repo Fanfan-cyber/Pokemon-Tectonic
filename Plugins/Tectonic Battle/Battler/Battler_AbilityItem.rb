@@ -247,16 +247,28 @@ class PokeBattle_Battler
     # Held item consuming/removing
     #=============================================================================
     def canConsumeBerry?
+
+        ret = @battle.apply_field_effect(:block_berry, self)
+        return false if ret
+
         return false if @battle.pbCheckOpposingAbility(%i[UNNERVE ASONEICE ASONEGHOST], @index)
         return true
     end
 
     def canLeftovers?
+
+        ret = @battle.apply_field_effect(:block_leftovers, self)
+        return false if ret
+
         return false if @battle.pbCheckOpposingAbility(%i[UNNERVE ASONEICE ASONEGHOST], @index)
         return true
     end
 
     def canConsumeGem?
+
+        ret = @battle.apply_field_effect(:block_gem, self)
+        return false if ret
+
         return true
     end
 

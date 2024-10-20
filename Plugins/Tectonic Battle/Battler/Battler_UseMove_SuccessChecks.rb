@@ -174,7 +174,7 @@ GameData::Move.get(@effects[:GorillaTactics]).name)
     #=============================================================================
     def pbTryUseMove(move, specialUsage, skipAccuracyCheck, aiCheck = false)
         return true if move.empoweredMove? && boss? && move.statusMove?
-        
+
         # Check whether it's possible for self to use the given move
         # NOTE: Encore has already changed the move being used, no need to have a
         #       check for it here.
@@ -314,8 +314,11 @@ target.pbThis(true)))
         # Two-turn attacks can't fail here in the charging turn
         return true if user.effectActive?(:TwoTurnAttack)
 
-        # Move-specific failures
+        priority = battle.choices[user.index][4] || move.priority
+        ret = @battle.apply_field_effect(:block_move, move, user, target, typeMod, show_message, priority, aiCheck)
+        return false if ret
 
+        # Move-specific failures
         if aiCheck
             return false if move.pbFailsAgainstTargetAI?(user, target)
         elsif move.pbFailsAgainstTarget?(user, target, show_message)

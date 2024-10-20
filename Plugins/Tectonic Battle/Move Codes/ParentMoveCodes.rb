@@ -603,7 +603,11 @@ class PokeBattle_TwoTurnMove < PokeBattle_Move
         return score
     end
 
-    def skipChargingTurn?(user); return false; end
+    def skipChargingTurn?(user)
+        ret = @battle.apply_field_effect(:no_charging, user, self)
+        return true if ret
+        return false
+    end
 
     def skipChargingTurn
         @powerHerb = false

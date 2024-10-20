@@ -281,6 +281,16 @@ class PokeBattle_Battler
         speed = statAfterStep(:SPEED, step)
         speedMult = 1.0
 
+        ret = @battle.apply_field_effect(:calc_speed, self, speed, speedMult, aiCheck)
+        speedMult = ret if ret
+
+        if !aiCheck
+            if @field_speed_modifier
+                speedMult *= @field_speed_modifier
+                @field_speed_modifier = nil
+            end
+        end
+
         eachActiveAbility do |ability|
             next if ignoreAbilityInAI?(ability,aiCheck) && !AI_CHEATS_FOR_STAT_ABILITIES
             speedMult = BattleHandlers.triggerSpeedCalcAbility(ability, self, speedMult)
@@ -315,6 +325,13 @@ class PokeBattle_Battler
 
     def applySpeedTriggers(move = nil,aiCheck = false)
         aiSpeedMult = 1.0
+
+        if move
+            targets = pbFindTargets(@battle.choices[@index][3], move, self)
+            ret = @battle.apply_field_effect(:speed_modify, self, targets, move, aiCheck)
+            @field_speed_modifier = ret
+            aiSpeedMult *= ret if ret && aiCheck
+        end
 
         if shouldItemApply?(:AGILITYHERB,aiCheck)
             if aiCheck

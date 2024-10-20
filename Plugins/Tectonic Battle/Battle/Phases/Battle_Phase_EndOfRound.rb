@@ -62,6 +62,8 @@ class PokeBattle_Battle
 
         processTriggersEOR(priority)
 
+        end_of_round_field_process
+
         pbGainExp
 
         return if @decision > 0

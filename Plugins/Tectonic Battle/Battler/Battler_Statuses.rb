@@ -120,6 +120,10 @@ class PokeBattle_Battler
         return false if fainted?
         selfInflicted = (user && user.index == @index)
         statusDoublingCurse = pbOwnedByPlayer? && @battle.curseActive?(:CURSE_STATUS_DOUBLED)
+
+        ret = @battle.apply_field_effect(:status_immunity, self, newStatus, false, user, showMessages, selfInflicted, move, ignoreStatus)
+        return false if ret
+
         # Already have that status problem
         if getStatuses.include?(newStatus) && !ignoreStatus
             if showMessages
@@ -242,6 +246,10 @@ immuneTypeRealName))
 
     def pbCanSynchronizeStatus?(newStatus, applicator)
         return false if fainted?
+
+        ret = @battle.apply_field_effect(:status_immunity, self, newStatus, false, applicator)
+        return false if ret
+
         # Trying to replace a status problem with another one
         return false unless hasSpotsForStatus
         # Already has that status
@@ -421,6 +429,10 @@ immuneTypeRealName))
     end
 
     def canSleepYawn?
+
+        ret = @battle.apply_field_effect(:status_immunity, self, nil, true)
+        return false if ret
+
         return false unless hasSpotsForStatus
         unless hasActiveAbility?(:SOUNDPROOF)
             @battle.eachBattler do |b|

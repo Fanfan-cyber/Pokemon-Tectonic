@@ -8,6 +8,10 @@ class PokeBattle_Move_StartUserSideDoubleSpeed4 < PokeBattle_Move
     end
 
     def pbEffectGeneral(user)
+
+        ret = @battle.apply_field_effect(:tailwind_duration, user)
+        @tailwindDuration += ret if ret && !%i[SUSTAINEDWIND JETSTREAM].include?(@id)
+
         user.pbOwnSide.applyEffect(:Tailwind, @tailwindDuration)
     end
 
@@ -21,7 +25,11 @@ class PokeBattle_Move_EmpoweredTailwind < PokeBattle_Move_StartUserSideDoubleSpe
     include EmpoweredMove
 
     def pbEffectGeneral(user)
-        user.pbOwnSide.applyEffect(:Tailwind, 4)
+
+        ret = @battle.apply_field_effect(:tailwind_duration, user)
+        @tailwindDuration += ret if ret
+
+        user.pbOwnSide.applyEffect(:Tailwind, @tailwindDuration)
         @battle.eachSameSideBattler(user) do |b|
             b.applyEffect(:ExtraTurns, 1)
         end

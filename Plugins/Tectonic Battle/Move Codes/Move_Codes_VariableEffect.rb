@@ -7,6 +7,13 @@ class PokeBattle_Move_EffectDependsOnEnvironment < PokeBattle_Move
     def pbOnStartUse(_user, _targets)
         # NOTE: This is Gen 7's list plus some of Gen 6 plus a bit of my own.
         @secretPower = 0 # Body Slam, numb
+
+        ret = @battle.apply_field_effect(:secret_power_effect, _user, _targets, self)
+        if ret
+            @secretPower = ret
+            return
+        end
+
         case @battle.environment
         when :Grass, :TallGrass, :Forest, :ForestGrass
             @secretPower = 2    # (Same as Grassy Terrain)
@@ -102,6 +109,10 @@ class PokeBattle_Move_UseMoveDependingOnEnvironment < PokeBattle_Move
 
     def calculateNaturePower
         npMove = :RUIN
+
+        ret = @battle.apply_field_effect(:nature_power_change, self)
+        return ret if ret && GameData::Move.exists?(ret)
+
         case @battle.environment
         when :Grass, :TallGrass, :Forest, :ForestGrass
             npMove = :ENERGYBALL if GameData::Move.exists?(:ENERGYBALL)
