@@ -207,6 +207,11 @@ class PokeBattle_Scene
       playerBase = "Graphics/Battlebacks/"+baseFilename+"_base0"
       enemyBase  = "Graphics/Battlebacks/"+baseFilename+"_base1"
       messageBG  = "Graphics/Battlebacks/"+messageFilename+"_message"
+
+      @environment_battleBG   = battleBG
+      @environment_playerBase = playerBase
+      @environment_enemyBase  = enemyBase
+
       # Apply graphics
       bg = pbAddSprite("battle_bg",0,0,battleBG,@viewport)
       bg.z = 0
