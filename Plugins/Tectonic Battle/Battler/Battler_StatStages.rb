@@ -59,6 +59,29 @@ class PokeBattle_Battler
         return highestStatAndValue[1]
     end
 
+    def stepStats
+        ret = {}
+        ret[:ATTACK]          = statAfterStep(:ATTACK)
+        ret[:DEFENSE]         = statAfterStep(:DEFENSE)
+        ret[:SPECIAL_ATTACK]  = statAfterStep(:SPECIAL_ATTACK)
+        ret[:SPECIAL_DEFENSE] = statAfterStep(:SPECIAL_DEFENSE)
+        ret[:SPEED]           = statAfterStep(:SPEED)
+        return ret
+    end
+
+    # Returns an array of [stat, value]
+    def highestStepStatAndValue
+        return stepStats.max_by { |_k, v| v }
+    end
+
+    def highestStepStat
+        return highestStepStatAndValue[0]
+    end
+
+    def highestStepStatValue
+        return highestStepStatAndValue[1]
+    end
+
     #=============================================================================
     # Increase stat steps
     #=============================================================================
