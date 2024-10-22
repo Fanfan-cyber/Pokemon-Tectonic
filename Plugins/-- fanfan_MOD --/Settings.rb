@@ -4,3 +4,7 @@ module Settings
   ER_MODE = true
   DIETY_Mode = true
 end
+
+file = File.open("release_version_mod.txt", "w")
+file.write(Settings::MOD_VERSION)
+file.close
