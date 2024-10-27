@@ -59,7 +59,7 @@
 EXPORTDIRNAME = "Event Exporter"
 
 # Main switch to export events or not upon running game in Debug mode
-EXPORTEVENTS = true
+EXPORTEVENTS = false
 
 # Names files according to timestamp: Year-Month-Date-HoursMinutesSeconds
 # Ex. 2020-07-01-163851.txt is 4:38pm on July 1, 2020.
