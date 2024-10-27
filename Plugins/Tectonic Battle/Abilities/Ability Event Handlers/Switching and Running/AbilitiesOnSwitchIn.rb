@@ -604,13 +604,13 @@ BattleHandlers::AbilityOnSwitchIn.add(:FITTOSURVIVE,
 
 BattleHandlers::AbilityOnSwitchIn.add(:KLEPTOMANIAC,
   proc { |ability, battler, battle, aiCheck|
-      next battle.forceUseMove(battler, :SNATCH, -1, ability: ability, aiCheck: aiCheck)
+      next battle.forceUseMove(battler, :SNATCH, ability: ability, aiCheck: aiCheck)
   }
 )
 
 BattleHandlers::AbilityOnSwitchIn.add(:ASSISTANT,
   proc { |ability, battler, battle, aiCheck|
-      next battle.forceUseMove(battler, :ASSIST, -1, ability: ability, aiCheck: aiCheck)
+      next battle.forceUseMove(battler, :ASSIST, ability: ability, aiCheck: aiCheck)
   }
 )
 
@@ -618,7 +618,7 @@ BattleHandlers::AbilityOnSwitchIn.add(:ASSISTANT,
 BattleHandlers::AbilityOnSwitchIn.add(:SUDDENTURN,
   proc { |ability, battler, battle, aiCheck|
     if aiCheck
-      next battle.forceUseMove(battler, :RAPIDSPIN, -1, ability: ability, aiCheck: true)
+      next battle.forceUseMove(battler, :RAPIDSPIN, ability: ability, aiCheck: true)
     else
       next 0
     end
@@ -627,7 +627,7 @@ BattleHandlers::AbilityOnSwitchIn.add(:SUDDENTURN,
 
 BattleHandlers::AbilityOnSwitchIn.add(:WIBBLEWOBBLE,
   proc { |ability, battler, battle, aiCheck|
-      next battle.forceUseMove(battler, :POWERSPLIT, -1, ability: ability, aiCheck: aiCheck)
+      next battle.forceUseMove(battler, :POWERSPLIT, ability: ability, aiCheck: aiCheck)
   }
 )
 
