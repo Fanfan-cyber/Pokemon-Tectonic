@@ -58,13 +58,37 @@ module GameData
         keys.each { |key| yield self::DATA[key] if !key.is_a?(Integer) }
       end
 
+      def map
+        result = []
+        each { |data| result << yield(data) }
+        result
+      end
+
+      def all_id
+        result = []
+        each { |data| result << data.id }
+        result
+      end
+
+      def all_name
+        result = []
+        each { |data| result << data.name }
+        result
+      end
+
       def each_base
         each do |data|
           next if data.respond_to?("defined_in_extension") && data.defined_in_extension
           yield data
         end
       end
-  
+
+      def map_base
+        result = []
+        each_base { |data| result << yield(data) }
+        result
+      end
+
       def load
         const_set(:DATA, load_data("Data/#{self::DATA_FILENAME}"))
       end
@@ -127,13 +151,37 @@ module GameData
         keys.each { |key| yield self::DATA[key] }
       end
 
+      def map
+        result = []
+        each { |data| result << yield(data) }
+        result
+      end
+
+      def all_id
+        result = []
+        each { |data| result << data.id }
+        result
+      end
+
+      def all_name
+        result = []
+        each { |data| result << data.name }
+        result
+      end
+
       def each_base
         each do |data|
           next if data.respond_to?("defined_in_extension") && data.defined_in_extension
           yield data
         end
       end
-  
+
+      def map_base
+        result = []
+        each_base { |data| result << yield(data) }
+        result
+      end
+
       def load
         const_set(:DATA, load_data("Data/#{self::DATA_FILENAME}"))
       end
@@ -191,13 +239,37 @@ module GameData
         keys.each { |key| yield self::DATA[key] }
       end
 
+      def map
+        result = []
+        each { |data| result << yield(data) }
+        result
+      end
+
+      def all_id
+        result = []
+        each { |data| result << data.id }
+        result
+      end
+
+      def all_name
+        result = []
+        each { |data| result << data.name }
+        result
+      end
+
       def each_base
         self.each do |data|
           next if data.respond_to?("defined_in_extension") && data.defined_in_extension
           yield data
         end
       end
-  
+
+      def map_base
+        result = []
+        each_base { |data| result << yield(data) }
+        result
+      end
+
       def load
         const_set(:DATA, load_data("Data/#{self::DATA_FILENAME}"))
       end
