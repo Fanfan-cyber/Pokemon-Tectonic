@@ -62,11 +62,11 @@ class Array
 end
 
 class Hash
-  def set_value_to(new_value)
+  def set_values_to(new_value)
     self.dup.transform_values! { new_value }
   end
 
-  def set_value_to!(new_value)
+  def set_values_to!(new_value)
     self.transform_values! { new_value }
   end
 
