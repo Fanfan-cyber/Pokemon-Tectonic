@@ -8,9 +8,9 @@ class Array
   alias random sample
 
   def swap(index_1, index_2)
-    new = self.clone
-    new[index_1], new[index_2] = new[index_2], new[index_1]
-    new
+    new_array = self.dup
+    new_array[index_1], new_array[index_2] = new_array[index_2], new_array[index_1]
+    new_array
   end
 
   def swap!(index_1, index_2)
@@ -36,8 +36,8 @@ class Array
   end
 
   def average
-    total = self.compact.sum
-    total / self.compact.size.to_f
+    array = self.compact
+    array.sum / array.size.to_f
   end
 
   def elements_count
@@ -63,7 +63,7 @@ end
 
 class Hash
   def set_values_to(new_value)
-    self.dup.transform_values! { new_value }
+    self.transform_values { new_value }
   end
 
   def set_values_to!(new_value)
