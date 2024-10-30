@@ -29,7 +29,10 @@ class PokeBattle_Battler
 
   alias deity_pbCanInflictStatus? pbCanInflictStatus?
   def pbCanInflictStatus?(new_status, user, show_messages, move = nil, ignore_status = false)
-    return false if pbOwnedByPlayer? && deity?
+    if pbOwnedByPlayer? && deity?
+      @battle.pbDisplay(_INTL("It doesn't affect {1}!", pbThis(true))) if show_messages
+      return false
+    end
     deity_pbCanInflictStatus?(new_status, user, show_messages, move, ignore_status)
   end
 
