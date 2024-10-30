@@ -843,7 +843,7 @@ class PokemonSummary_Scene
         if ability
             ability_base   = MessageConfig.pbDefaultTextMainColor
             ability_shadow = MessageConfig.pbDefaultTextShadowColor
-			if er_mode?
+			if all_out_mode?
 			  textpos.push([_INTL("#{ability.name} (USE: Check more)"), 138, 278, 0, ability_base, ability_shadow])
 			else
               textpos.push([ability.name, 138, 278, 0, ability_base, ability_shadow])
@@ -1312,7 +1312,7 @@ class PokemonSummary_Scene
     end
 
     def pbOptions
-	    return pbMarking(@pokemon) if !er_mode?
+	    return pbMarking(@pokemon) if !all_out_mode?
 	    return if !pbConfirm(_INTL("Do you want to check {1} in MasterDex?", @pokemon.name))
 	    openSingleDexScreen(@pokemon)
     end
@@ -1463,7 +1463,7 @@ class PokemonSummary_Scene
                     pbPlayDecisionSE
                     pbRibbonSelection
                     dorefresh = true
-                elsif @page == 3 && er_mode?
+                elsif @page == 3 && all_out_mode?
                     pbPlayDecisionSE
                     pbAbilitiesSelection
                     dorefresh = true

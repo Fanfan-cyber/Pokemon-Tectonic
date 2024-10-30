@@ -1,5 +1,5 @@
-def er_mode?
-  Settings::ER_MODE
+def all_out_mode?
+  Settings::ALL_OUT_MODE
 end
 
 class Pokemon
@@ -57,13 +57,13 @@ class Pokemon
   end
 
   def addAnotherAbilityAndInnates
-    return if !er_mode?
+    return if !all_out_mode?
     addAnotherAbility
     addInnateSet
   end
 
   def legalAbilities
-    return (speciesAbility | innateSet | [ability_id]) if er_mode?
+    return (speciesAbility | innateSet | [ability_id]) if all_out_mode?
     [ability_id]
   end
 
@@ -96,7 +96,7 @@ class PokeBattle_Battler
   end
 
   def addAbilitiesDisplayInfo
-    @addedAbilities.concat(abilities).uniq! if er_mode?
+    @addedAbilities.concat(abilities).uniq! if all_out_mode?
   end
 end
 
@@ -108,7 +108,7 @@ class PokeBattle_Battle
   end
 
   def aiUpdateAbility(battler = nil, abilities: nil)
-    return if !er_mode?
+    return if !all_out_mode?
     if !battler
       echoln("===AI KNOWN ABILITIES===")
       @knownAbilities = {}
@@ -138,7 +138,7 @@ class PokeBattle_Battle
   def initializeKnownMoves(pokemon)
     @knownMoves[pokemon.personalID] = []
     pokemon.moves.each do |move|
-      next if !pokemon.boss? && !aiAutoKnowsMove?(move, pokemon) && !er_mode?
+      next if !pokemon.boss? && !aiAutoKnowsMove?(move, pokemon) && !all_out_mode?
       @knownMoves[pokemon.personalID].push(move.id)
       echoln("Pokemon #{pokemon.name}'s move #{move.name} is known by the AI")
     end
@@ -198,7 +198,7 @@ class PokemonSummary_Scene
   end
 end
 
-if er_mode?
+if all_out_mode?
   def battleGuideAbilitiesHash
     { _INTL("What are abilities?")   => _INTL("Abilities are special powers that Pokémon can have based on their species. Most Pokémon can have 2 possible abilities. All abilities activate."),
       _INTL("Ability Effects")       => _INTL("Abilities do a wide variety of different things. Understanding your team's abilities is important to winning."),

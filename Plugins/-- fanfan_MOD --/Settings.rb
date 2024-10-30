@@ -1,8 +1,8 @@
 module Settings
   MOD_VERSION = "0.0.1"
 
-  ER_MODE = true
-  DIETY_Mode = true
+  ALL_OUT_MODE = true
+  DEITY_Mode = true
 end
 
 file = File.open("release_version.txt", "w")
