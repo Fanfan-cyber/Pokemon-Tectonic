@@ -113,13 +113,13 @@ ENLS
 Generation 8 Project
 
 Battler Sprites
-Gen 1-5 Pokemon Sprites
+Gen 1-5 Pokémon Sprites
 veekun
-Gen 6 Pokemon Sprites
+Gen 6 Pokémon Sprites
 Smogon X/Y Sprite Project
-Gen 7 Pokemon Sprites
+Gen 7 Pokémon Sprites
 Smogon Sun/Moon Sprite Project
-Gen 8 Pokemon Sprites
+Gen 8 Pokémon Sprites
 Smogon Sword/Shield Sprite Project
 
 Overworld Sprites
@@ -127,7 +127,7 @@ princess-pheonix<s>LunarDusk
 Wolfang62<s>TintjeMadelintje101
 piphybuilder88<s>Larry Turbo
 SageDeoxys
-Gen 1-5 Pokemon Overworlds
+Gen 1-5 Pokémon Overworlds
 MissingLukey<s>help-14
 Kymoyonian<s>cSc-A7X
 2and2makes5<s>Pokegirl4ever
@@ -170,7 +170,7 @@ Eskiss
 PBS for Gen 9:
 Caruban<s>PorousMist
 DJChaos<s>Futuresushi
-Pokemon Gen 9 Battler Sprites:
+Pokémon Gen 9 Battler Sprites:
 KingOfThe-X-Roads<s>Mak
 Caruban<s>jinxed
 leParagon<s>Sopita_Yorita
@@ -179,22 +179,22 @@ JordanosArt<s>Abnayami
 OldSoulja<s>Katten
 Divaruta 666<s>Clara
 Skyflyer<s>AshnixsLaw
-Pokemon Gen 9 icons:
+Pokémon Gen 9 icons:
 ezerart, JordanosArt
-Pokemon Gen 9 Followers:
+Pokémon Gen 9 Followers:
 Azria<s>DarkusShadow
 EduarPokeN<s>Carmanekko
 StarWolff<s>Caruban
 PLA and Gen 9 Footprints
 Caruban
-Pokemon Gen 9 Cries:
+Pokémon Gen 9 Cries:
 Lightblade Absol<s>HeroLinik
 Gen 9 item icons:
 lichenprincess<s>Caruban
 PLA item icons:
 AztecCroc<s>3DJackArt
 Caruban<s>lichenprincess
-Pokemon cries ripped:
+Pokémon cries ripped:
 Morningdew
 PLA Icons:
 LuigiTKO
@@ -212,7 +212,7 @@ Castform Sandy
 Jumpy<s>Noel
 The FnF Showdown community
 
-Spanish PokeDex Translations
+Spanish Pokédex Translations
 Everson
 
 "Pokémon Essentials" was created by:

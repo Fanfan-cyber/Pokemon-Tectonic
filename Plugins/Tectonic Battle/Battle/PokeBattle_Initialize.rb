@@ -175,7 +175,7 @@ class PokeBattle_Battle
             next unless pokemon.getAbilityList.length == 1
             abilityToKnow = pokemon.getAbilityList[0][0]
             @knownAbilities[pokemon.personalID].push(abilityToKnow)
-            echoln("Player's side pokemon #{pokemon.name}'s ability #{abilityToKnow} is known by the AI, since species only has one legal ability.")
+            echoln("Player's side Pokémon #{pokemon.name}'s ability #{abilityToKnow} is known by the AI, since species only has one legal ability.")
         end
 
         # System for learning the player's moves
@@ -206,7 +206,7 @@ class PokeBattle_Battle
         pokemon.moves.each do |move|
             next unless pokemon.boss? || aiAutoKnowsMove?(move,pokemon)
             knownMovesArray.push(move.id)
-            echoln("Pokemon #{pokemon.name}'s move #{move.name} is known by the AI")
+            echoln("Pokémon #{pokemon.name}'s move #{move.name} is known by the AI")
         end
     end
 
@@ -216,7 +216,7 @@ class PokeBattle_Battle
         pokemon.items.each do |item|
             next # TO DO
             knownItemsArray.push(item)
-            echoln("Pokemon #{pokemon.name}'s item #{getItemName(item)} is known by the AI")
+            echoln("Pokémon #{pokemon.name}'s item #{getItemName(item)} is known by the AI")
         end
     end
 

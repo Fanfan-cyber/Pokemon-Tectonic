@@ -6,7 +6,7 @@ PokeBattle_Battle::BattleStartApplyCurse.add(:CURSE_DELEVELED,
     proc { |curse_policy, battle, curses_array|
         battle.amuletActivates(
             _INTL("Forevers Traversed yet Ever No Better"),
-            _INTL("Your Pokemon lose 10 levels for this fight. EXP goes to the Dispenser.")
+            _INTL("Your Pokémon lose 10 levels for this fight. EXP goes to the Dispenser.")
         )
 
         battle.expCapped = true

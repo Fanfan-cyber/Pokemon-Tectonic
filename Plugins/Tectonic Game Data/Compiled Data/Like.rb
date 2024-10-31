@@ -9,7 +9,7 @@ module Compiler
 			line = pbGetCsvRecord(line, line_no, [0, "*ns"])
 			like_symbol = line[0].to_sym
 			if GameData::Like::DATA[like_symbol]
-				raise _INTL("Pokemon like ID '{1}' is used twice.\r\n{2}", like_symbol, FileLineData.linereport)
+				raise _INTL("Pokémon like ID '{1}' is used twice.\r\n{2}", like_symbol, FileLineData.linereport)
 			end
 			like_hash = {
 				:id          => like_symbol,

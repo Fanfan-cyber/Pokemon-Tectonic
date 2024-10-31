@@ -2426,7 +2426,7 @@ Pocket = 8
 Price = 0
 FieldUse = Direct
 Flags = KeyItem
-Description = Heals your whole team a limited number of times. Restocked at PokeCenters and after resting.
+Description = Heals your whole team a limited number of times. Restocked at PokéCenters and after resting.
 #-------------------------------
 [KITEXPANSION]
 Name = Kit Expansion
@@ -2460,7 +2460,7 @@ NamePlural = Figments
 Pocket = 1
 Price = 8000
 FieldUse = OnPokemon
-Description = A wisp of ideas with infinite potential. Use it on a Pokemon to teach any one of their legal moves.
+Description = A wisp of ideas with infinite potential. Use it on a Pokémon to teach any one of their legal moves.
 #-------------------------------
 [SURFBOARD]
 Name = Surf Board

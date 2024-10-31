@@ -21,6 +21,6 @@ Events.onWildPokemonCreate += proc { |_sender,e|
   if defined?($PokemonGlobal.next_shiny_guaranteed) && $PokemonGlobal.next_shiny_guaranteed
     pokemon.shiny = true
     $PokemonGlobal.next_shiny_guaranteed = false
-    pbMessage(_INTL("The scent of the Gleam Powder pulls a shiny Pokemon towards you!"))
+    pbMessage(_INTL("The scent of the Gleam Powder pulls a shiny Pokémon towards you!"))
   end
 }

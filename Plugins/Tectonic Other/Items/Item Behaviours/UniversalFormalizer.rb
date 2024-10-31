@@ -12,7 +12,7 @@ ItemHandlers::UseOnPokemon.add(:UNIVERSALFORMALIZER,proc { |item,pkmn,scene|
 			possibleFormNames.push(species_data.form_name)
 		end
 		possibleFormNames.push(_INTL("Cancel"))
-		choice = pbMessage(_INTL("Which form shall the Pokemon take?"),possibleFormNames,possibleFormNames.length)
+		choice = pbMessage(_INTL("Which form shall the Pokémon take?"),possibleFormNames,possibleFormNames.length)
 		if choice < possibleForms.length
 			pbSceneDefaultDisplay(_INTL("#{pkmn.name} swapped to #{possibleFormNames[choice]}!"),scene)
 			
@@ -22,7 +22,7 @@ ItemHandlers::UseOnPokemon.add(:UNIVERSALFORMALIZER,proc { |item,pkmn,scene|
 		end
 		next true
 	else
-		pbSceneDefaultDisplay(_INTL("Cannot use this item on that Pokemon."),scene)
+		pbSceneDefaultDisplay(_INTL("Cannot use this item on that Pokémon."),scene)
 		next false
 	end
 })
@@ -48,7 +48,7 @@ ItemHandlers::UseOnPokemon.add(:ZYGARDECUBE,proc { |item,pkmn,scene|
 		pbSceneDefaultDisplay(_INTL("{1}'s Ability changed to {2}!",pkmn.name,GameData::Ability.get(pkmn.ability).name),scene)
 		next true
 	else
-		pbSceneDefaultDisplay(_INTL("Cannot use this item on that Pokemon."),scene)
+		pbSceneDefaultDisplay(_INTL("Cannot use this item on that Pokémon."),scene)
 		next false
 	end
 })

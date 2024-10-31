@@ -476,7 +476,7 @@ Events.onWildPokemonCreate += proc {|sender,e|
 			encounterable = false
 		end
 		if encounterable
-			echoln("Overwriting the discovered wild pokemon with a #{species}!")
+			echoln("Overwriting the discovered wild Pokémon with a #{species}!")
 			overwriteWildPokemonSpecies(pokemon,species)
 			pokemon.ability_index = $PokemonTemp.currentDexSearch[2]
 			pokemon.form = species_data.form

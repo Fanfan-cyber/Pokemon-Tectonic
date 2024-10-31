@@ -45,9 +45,9 @@ def purchaseStarters(type,price=0)
 	pbMessage(_INTL("Hello, and welcome to the Starters Store!",typeName))
 	pbMessage(_INTL("I'm the {1}-type starters salesperson!",typeName))
 	if price > 0
-		pbMessage(_INTL("You can buy a {1}-type starter Pokemon from me if you have ${2} and a {3}.",typeName,price,tokenName))
+		pbMessage(_INTL("You can buy a {1}-type starter Pokémon from me if you have ${2} and a {3}.",typeName,price,tokenName))
 	else
-		pbMessage(_INTL("You can buy a {1}-type starter Pokemon from me if you have a {2}.",typeName,tokenName))
+		pbMessage(_INTL("You can buy a {1}-type starter Pokémon from me if you have a {2}.",typeName,tokenName))
 	end
 	if $Trainer.money < price
 		pbMessage(_INTL("I'm sorry, but it seems as though you don't have that much money."))
@@ -57,7 +57,7 @@ def purchaseStarters(type,price=0)
 		pbMessage(_INTL("I'm sorry, but it seems as though you don't have a {1}.",tokenName))
 		return
 	end
-	pbMessage(_INTL("Which {1}-type starter Pokemon would you like to look at?",typeName))
+	pbMessage(_INTL("Which {1}-type starter Pokémon would you like to look at?",typeName))
 	
 	starterArray = []
 	case type
@@ -75,13 +75,13 @@ def purchaseStarters(type,price=0)
 		result = pbShowCommands(nil,starterArray,0)
 
 		if result == 0
-			pbMessage(_INTL("Understood, please come back if there's a {1}-type starter Pokemon you'd like to purchase!",typeName))
+			pbMessage(_INTL("Understood, please come back if there's a {1}-type starter Pokémon you'd like to purchase!",typeName))
 			break
 		else
 			starterChosenName = starterArray[result]
 			starterSpecies = starterChosenName.upcase.to_sym
 
-			choicesArray = [_INTL("View MasterDex"), _INTL("Buy Pokemon"), _INTL("Cancel")]
+			choicesArray = [_INTL("View MasterDex"), _INTL("Buy Pokémon"), _INTL("Cancel")]
 			secondResult = pbShowCommands(nil,choicesArray,3)
 			case secondResult
 			when 1
@@ -144,7 +144,7 @@ def reviveFossil(fossil)
 		$PokemonBag.pbDeleteItem(fossil)
 	}
 	
-	pbMessage(_INTL("It's done! Here is your newly revived Pokemon!"))
+	pbMessage(_INTL("It's done! Here is your newly revived Pokémon!"))
 	
 	pbAddPokemon(species,15)
 end
@@ -182,7 +182,7 @@ def reviveMixFossils(fossil1,fossil2)
 		$PokemonBag.pbDeleteItem(fossil2)
 	}
 	
-	pbMessage(_INTL("It's done! Here is your newly revived Pokemon!"))
+	pbMessage(_INTL("It's done! Here is your newly revived Pokémon!"))
 	
 	pbAddPokemon(chosenSpecies,15)
 end
@@ -278,7 +278,7 @@ def createHisuian
 		else
 			chosenSpecies = actualSpecies[result]
 
-			choicesArray = [_INTL("View MasterDex"), _INTL("Buy Pokemon"), _INTL("Cancel")]
+			choicesArray = [_INTL("View MasterDex"), _INTL("Buy Pokémon"), _INTL("Cancel")]
 			secondResult = pbShowCommands(nil,choicesArray,3)
 			case secondResult
 			when 1
@@ -357,7 +357,7 @@ def cloneMinorLegend
 
 	unless boxPokemonChosen?
 		setSpeaker(HISUIAN_WITCH)
-		pbMessage(_INTL("Ah, no suitable Pokemon exists within your collection?"))
+		pbMessage(_INTL("Ah, no suitable Pokémon exists within your collection?"))
 		pbMessage(_INTL("Return to me if you encounter any in your travels."))
 		return
 	end
@@ -701,7 +701,7 @@ def evoStoneVendor(expanded = false)
 	stock = expandedStock.concat(stock) if expanded
 
 	if expanded
-		message = _INTL("How can we help to empower your Pokemon?")
+		message = _INTL("How can we help to empower your Pokémon?")
 	else
 		message = _INTL("Regrettably, you are restricted from purchasing any Shiny Stones. Otherwise, how may I serve you?")
 	end

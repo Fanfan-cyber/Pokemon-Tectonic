@@ -102,7 +102,7 @@ Hidden = true
 #-------------------------------
 [CAPTURE_LEGENDARY_BASIC_BALL]
 Name = Back to Basics
-Description = Capture a legendary Pokemon in a regular Poké Ball (thrown normally or created by the Ball Launcher.)
+Description = Capture a legendary Pokémon in a regular Poké Ball (thrown normally or created by the Ball Launcher.)
 Page = 4
 #-------------------------------
 [CAPTURE_WITH_ALL_AESTHETIC_BALLS]

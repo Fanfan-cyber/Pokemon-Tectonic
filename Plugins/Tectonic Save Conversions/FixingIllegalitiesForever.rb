@@ -69,12 +69,12 @@ end
         if pokemon.ability.nil?
           pokemon.recalculateAbilityFromIndex
           newAbilityName = pokemon.ability.name
-          pbMessage(_INTL("\\l[4]Pokemon #{name} in #{location} has no ability. Switching to #{newAbilityName}.")) unless skipLegalityMessages?
+          pbMessage(_INTL("\\l[4]Pokémon #{name} in #{location} has no ability. Switching to #{newAbilityName}.")) unless skipLegalityMessages?
         else
           oldAbilityName = pokemon.ability.name
           pokemon.recalculateAbilityFromIndex
           newAbilityName = pokemon.ability.name
-          pbMessage(_INTL("\\l[4]Pokemon #{name} in #{location} has ability #{oldAbilityName}. That ability is not legal for its species. Switching to #{newAbilityName}.")) unless skipLegalityMessages?
+          pbMessage(_INTL("\\l[4]Pokémon #{name} in #{location} has ability #{oldAbilityName}. That ability is not legal for its species. Switching to #{newAbilityName}.")) unless skipLegalityMessages?
         end
         anyPokemonChanged = true
       end

@@ -37,7 +37,7 @@ class CatchingMinigame
             enableHazardPokemon
             transferPlayerToEvent(@cutSceneLocation[0],@cutSceneLocation[1],@cutSceneLocation[2])
         }
-        pbMessage(_INTL("Catch the best Pokemon you can in {1} turns of battle!",turnsGiven))
+        pbMessage(_INTL("Catch the best Pokémon you can in {1} turns of battle!",turnsGiven))
     end
 
     def active?
@@ -83,7 +83,7 @@ class CatchingMinigame
         }
         pbWait(20)
         if @currentMaxScorePokemon.nil?
-            pbMessage(_INTL("You caught no Pokemon worth any points."))
+            pbMessage(_INTL("You caught no Pokémon worth any points."))
         else
             speciesName = GameData::Species.get(currentMaxScorePokemon.species).name
             pbMessage(_INTL("Your best catch was a level {1} {2}, which gives you a score of {3}.",@currentMaxScorePokemon.level,speciesName,@currentMaxScore))

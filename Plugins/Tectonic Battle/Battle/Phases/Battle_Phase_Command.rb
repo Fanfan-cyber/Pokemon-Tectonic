@@ -488,7 +488,7 @@ class PokeBattle_Battle
                     chooseDexTarget(@battlers[idxBattler])
                 when 2    # Ball
                     if trainerBattle?
-                        pbDisplay(_INTL("You can't catch trainers' Pokemon!"))
+                        pbDisplay(_INTL("You can't catch trainers' Pokémon!"))
                         next
                     end
                     if bossBattle?

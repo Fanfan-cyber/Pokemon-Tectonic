@@ -2,7 +2,7 @@
 #-------------------------------
 [PRIMEVALDISGUISE] # 0659
 Name = Primeval Disguise
-Description = The Pokemon starts as a very convincing Pikachu!
+Description = The Pokémon starts as a very convincing Pikachu!
 Flags = Uncopyable,Immutable
 #-------------------------------
 [PRIMEVALIMPOSTER] # 0660

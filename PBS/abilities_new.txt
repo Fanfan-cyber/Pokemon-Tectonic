@@ -637,7 +637,7 @@ Flags = Immutable
 #-------------------------------
 [FLUSTERFLOCK] # 0322
 Name = Fluster Flock
-Description = Doubles Attack, but the Pokemon becomes dizzy after attacking.
+Description = Doubles Attack, but the Pokémon becomes dizzy after attacking.
 #-------------------------------
 [FLUTTERTOTEM] # 0323
 Name = Flutter Totem
@@ -806,7 +806,7 @@ Description = The Pokémon is also Ghost-type.
 #-------------------------------
 [HEADACHE] # 0363
 Name = Headache
-Description = Doubles Sp. Atk, but the Pokemon becomes dizzy after attacking.
+Description = Doubles Sp. Atk, but the Pokémon becomes dizzy after attacking.
 #-------------------------------
 [HEARTLESS] # 0364
 Name = Heartless
@@ -843,7 +843,7 @@ Flags = MultipleItems
 #-------------------------------
 [HERDING] # 0371
 Name = Herding
-Description = Wild Pokemon are more likely to hold items and to be species you've never caught before.
+Description = Wild Pokémon are more likely to hold items and to be species you've never caught before.
 #-------------------------------
 [HEROICFINALE] # 0372
 Name = Heroic Finale
@@ -1122,7 +1122,7 @@ Flags = EclipseSynergy
 #-------------------------------
 [MENTALBLOCK] # 0437
 Name = Mental Block
-Description = The Pokemon can't be Taunted, Encored, Tormented, Heal Blocked, Disabled, Barred, Dizzied, or Flinched.
+Description = The Pokémon can't be Taunted, Encored, Tormented, Heal Blocked, Disabled, Barred, Dizzied, or Flinched.
 Flags = FlinchImmunity
 #-------------------------------
 [MENTALDAMAGE] # 0438
@@ -1329,7 +1329,7 @@ Description = Whenever a foe raises their stats, the Pokémon follows suit.
 #-------------------------------
 [PHASESHIFT] # 0485
 Name = Phase Shift
-Description = The Pokemon's moves deal 50% more damage if they're a different type than last.
+Description = The Pokémon's moves deal 50% more damage if they're a different type than last.
 #-------------------------------
 [PLACIDITY] # 0486
 Name = Placidity
@@ -1426,7 +1426,7 @@ Flags = MoldBreaking
 #-------------------------------
 [RATTLEEM] # 0508
 Name = Rattle 'Em
-Description = Moves that can flinch are 50% more likely. Deals 50% more damage to Pokemon with flinch immunity.
+Description = Moves that can flinch are 50% more likely. Deals 50% more damage to Pokémon with flinch immunity.
 #-------------------------------
 [RAZORSEDGE] # 0509
 Name = Razor's Edge
@@ -1725,7 +1725,7 @@ Description = Immune to Steel-type moves and restores HP if hit by one.
 #-------------------------------
 [STEELYSHELL] # 0579
 Name = Steely Shell
-Description = Steel-type attacks deal 50% more damage, and the Pokemon is protected from critical hits.
+Description = Steel-type attacks deal 50% more damage, and the Pokémon is protected from critical hits.
 #-------------------------------
 [STEEPFLYING] # 0580
 Name = Steep Flying

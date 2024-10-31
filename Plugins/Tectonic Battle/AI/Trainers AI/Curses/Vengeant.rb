@@ -2,7 +2,7 @@ PokeBattle_Battle::BattleStartApplyCurse.add(:CURSE_VENGEANT,
     proc { |curse_policy, battle, curses_array|
         battle.amuletActivates(
             _INTL("O Agonal Ecstasies, Spare Us Not Our Agonies"),
-            _INTL("When enemy Pokemon faint, they deal a quarter of their HP as damage to their last attacker.")
+            _INTL("When enemy Pokémon faint, they deal a quarter of their HP as damage to their last attacker.")
         )
         curses_array.push(curse_policy)
         next curses_array

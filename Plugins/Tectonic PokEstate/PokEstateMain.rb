@@ -180,9 +180,9 @@ class PokEstate
 			pbMessage(_INTL("Greetings, young master. I have good news."))
 
 			if newAwards.length == 1
-				pbMessage(_INTL("\\ME[Bug catching 2nd]You've earned a new PokéDex completion reward!\\wtnp[60]"))
+				pbMessage(_INTL("\\ME[Bug catching 2nd]You've earned a new Pokédex completion reward!\\wtnp[60]"))
 			else
-				pbMessage(_INTL("\\ME[Bug catching 2nd]You've earned {1} new PokéDex completion rewards!\\wtnp[60]",newAwards.length))
+				pbMessage(_INTL("\\ME[Bug catching 2nd]You've earned {1} new Pokédex completion rewards!\\wtnp[60]",newAwards.length))
 			end
 			
 			if newAwards.length == 1
@@ -549,7 +549,7 @@ class PokEstate
 		return unless isInEstate?()
 		
 		if $Trainer.able_pokemon_count == 1 && !pokemon.fainted?
-			pbMessage(_INTL("Can't set down your last able Pokemon!"))
+			pbMessage(_INTL("Can't set down your last able Pokémon!"))
 			return false
 		end
 	
@@ -624,7 +624,7 @@ class PokEstate
  
 	def tryHearStory()
 		if currentEstateBox.empty?
-			pbMessage(_INTL("There are no Pokemon in this plot to share stories about."))
+			pbMessage(_INTL("There are no Pokémon in this plot to share stories about."))
 		elsif @stories_count[@estate_box] <= 0
 			pbMessage(_INTL("I regret to say that I have no stories to share about this plot. Please come back later."))
 		else

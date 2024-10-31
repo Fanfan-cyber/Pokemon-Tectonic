@@ -699,7 +699,7 @@ class Pokemon
     def removeItem(item)
         itemIndex = items.index(item)
         unless itemIndex
-            raise _INTL("Error: Asked to remove item #{item} from Pokemon #{name}, but it doesn't have that item")
+            raise _INTL("Error: Asked to remove item #{item} from Pokémon #{name}, but it doesn't have that item")
         end
         items.delete_at(itemIndex)
     end

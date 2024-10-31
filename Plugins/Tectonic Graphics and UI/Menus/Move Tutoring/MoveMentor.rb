@@ -30,10 +30,10 @@ def mentorCoordinator
             end
         end
     elsif choice == cmdExplainMentorMoves
-        pbMessage(_INTL("I help your Pokemon to teach each other moves!"))
-        pbMessage(_INTL("Pokemon can teach moves they know, moves they used to know, and moves earlier on their level up learnset."))
-        pbMessage(_INTL("Any Pokemon in your party or in your PC can be a mentor."))
-        pbMessage(_INTL("Pokemon can be taught any moves on their Other Moves list."))
+        pbMessage(_INTL("I help your Pokémon to teach each other moves!"))
+        pbMessage(_INTL("Pokémon can teach moves they know, moves they used to know, and moves earlier on their level up learnset."))
+        pbMessage(_INTL("Any Pokémon in your party or in your PC can be a mentor."))
+        pbMessage(_INTL("Pokémon can be taught any moves on their Other Moves list."))
     end
 end
 

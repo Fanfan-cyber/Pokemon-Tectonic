@@ -2,9 +2,9 @@ def playWildEXPTutorial
     $PokemonGlobal.noWildEXPTutorialized = true
     tutorialMessages = 
     [
-        _INTL("Wild Pokemon don't give experience in Pokemon Tectonic."),
+        _INTL("Wild Pokémon don't give experience in Pokémon Tectonic."),
         _INTL("Don't worry, there's an abundance of experience to gain in other ways."),
-        _INTL("If you encounter a Pokemon you don't want, run away. It's guaranteed!")
+        _INTL("If you encounter a Pokémon you don't want, run away. It's guaranteed!")
     ]
     playTutorial(tutorialMessages)
 end
@@ -13,7 +13,7 @@ def playRespawningTutorial
     tutorialMessages = 
     [
         _INTL("After a full party heal, defeated enemy trainers will be battle ready again!"),
-        _INTL("For example, healing at a Pokemon Center triggers this."),
+        _INTL("For example, healing at a Pokémon Center triggers this."),
         _INTL("Trainers who fled won't come back, however.")
     ]
     playTutorial(tutorialMessages)
@@ -32,9 +32,9 @@ def playTraitsTutorial
     $PokemonGlobal.traitsTutorialized = true
     tutorialMessages = 
     [
-        _INTL("Individual Pokemon have unique Traits, Likes, and Dislikes."),
+        _INTL("Individual Pokémon have unique Traits, Likes, and Dislikes."),
         _INTL("These have no effect on battle. They're just for fun!"),
-        _INTL("To customize your stats, adjust Style Points in any PokeCenter.")
+        _INTL("To customize your stats, adjust Style Points in any PokéCenter.")
     ]
     playTutorial(tutorialMessages)
 end
@@ -75,9 +75,9 @@ def playTypeChartChangesTutorial
     $PokemonGlobal.typeChartChangesTutorialized = true
     tutorialMessages = 
     [
-        _INTL("Many type matchups were changed in Pokemon Tectonic."),
+        _INTL("Many type matchups were changed in Pokémon Tectonic."),
         _INTL("To strengthen some types, we had to weaken others."),
-        _INTL("Check the Masterdex or the Battle Guide to learn these changes.")
+        _INTL("Check the MasterDex or the Battle Guide to learn these changes.")
     ]
     playTutorial(tutorialMessages)
 end

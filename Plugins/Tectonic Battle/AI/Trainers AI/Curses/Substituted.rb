@@ -2,7 +2,7 @@ PokeBattle_Battle::BattleStartApplyCurse.add(:CURSE_SUBSTITUTED,
     proc { |curse_policy, battle, curses_array|
         battle.amuletActivates(
             _INTL("Shall Our Truth Lay Asunder Thy Masque and Thee?"),
-            _INTL("Whenever an enemy Pokemon enters at full health, it forms a substitute.")
+            _INTL("Whenever an enemy Pokémon enters at full health, it forms a substitute.")
         )
         curses_array.push(curse_policy)
         next curses_array

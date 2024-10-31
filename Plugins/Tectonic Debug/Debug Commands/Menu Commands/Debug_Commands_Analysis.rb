@@ -652,7 +652,7 @@ end
   DebugMenuCommands.register("listhelditems", {
     "parent"      => "analysis",
     "name"        => _INTL("List held items"),
-    "description" => _INTL("List all items that the player's Pokemon can hold for use in battle."),
+    "description" => _INTL("List all items that the player's Pokémon can hold for use in battle."),
     "effect"      => proc { |sprites, viewport|
       
       itemDataSorted = []
@@ -716,7 +716,7 @@ end
   DebugMenuCommands.register("counttribes", {
     "parent"      => "analysis",
     "name"        => _INTL("Count tribes"),
-    "description" => _INTL("Count how many pokemon are in each tribe."),
+    "description" => _INTL("Count how many Pokémon are in each tribe."),
     "effect"      => proc { |sprites, viewport|
       tribeCount = {}
       GameData::Tribe.each do |tribe|

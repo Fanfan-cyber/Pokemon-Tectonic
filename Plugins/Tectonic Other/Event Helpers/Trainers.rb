@@ -147,7 +147,7 @@ end
 
 def rejectTooFewPokemon(dialogue,movePlayer=true)
 	if $Trainer.able_pokemon_count <= 1
-		dialogue = "Unable to start double battle with only 1 able Pokemon." unless dialogue
+		dialogue = "Unable to start double battle with only 1 able Pokémon." unless dialogue
 		pbMessage(dialogue)
 		forcePlayerBackwards if movePlayer
 		command_end # Exit event processing
@@ -156,7 +156,7 @@ end
 
 def rejectTooFewPokemonTriple(dialogue,movePlayer=true)
 	if $Trainer.able_pokemon_count <= 2
-		dialogue = "Unable to start triple battle without 3 able Pokemon." unless dialogue
+		dialogue = "Unable to start triple battle without 3 able Pokémon." unless dialogue
 		pbMessage(dialogue)
 		forcePlayerBackwards if movePlayer
 		command_end # Exit event processing
@@ -182,7 +182,7 @@ end
 def setFollowerInactive(eventId=0,switch='A')
 	followers = getFollowerPokemon(eventId)
 	if followers.nil? || followers.length == 0
-		pbMessage(_INTL("ERROR: Could not find follower Pokemon!")) if $DEBUG
+		pbMessage(_INTL("ERROR: Could not find follower Pokémon!")) if $DEBUG
 		return
 	end
 	followers.each do |follower|
@@ -195,7 +195,7 @@ end
 def setFollowerGone(eventId=0)
 	followers = getFollowerPokemon(eventId)
 	if followers.nil? || followers.length == 0
-		pbMessage(_INTL("ERROR: Could not find follower Pokemon!")) if $DEBUG
+		pbMessage(_INTL("ERROR: Could not find follower Pokémon!")) if $DEBUG
 		return
 	end
 	followers.each do |follower|

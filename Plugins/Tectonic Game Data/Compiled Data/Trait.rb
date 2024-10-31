@@ -9,7 +9,7 @@ module Compiler
 			line = pbGetCsvRecord(line, line_no, [0, "*ns"])
 			trait_symbol = line[0].to_sym
 			if GameData::Trait::DATA[trait_symbol]
-				raise _INTL("Pokemon trait ID '{1}' is used twice.\r\n{2}", trait_symbol, FileLineData.linereport)
+				raise _INTL("Pokémon trait ID '{1}' is used twice.\r\n{2}", trait_symbol, FileLineData.linereport)
 			end
 			trait_hash = {
 				:id          => trait_symbol,

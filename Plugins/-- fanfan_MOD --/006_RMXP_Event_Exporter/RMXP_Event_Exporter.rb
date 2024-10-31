@@ -45,7 +45,7 @@
 #   see that it stopped in the middle of trying to write map data or event
 #   data or something else, then make sure that the data isn't corrupted on your
 #   end. Of course, if you're sure your data is valid, then feel free to report
-#   the error wherever you found this script (like Relic Castle or
+#   the error wherever you found this script (like Eevee Expo or
 #   Pokecommunity).
 # 
 #-------------------------------------------------------------------------------

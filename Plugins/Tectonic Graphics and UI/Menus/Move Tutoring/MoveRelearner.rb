@@ -28,7 +28,7 @@ def moveRelearner
     elsif choice == cmdExplainMoveRelearning
         pbMessage(_INTL("I can teach moves to your Pokémon -- at no cost!"))
         pbMessage(_INTL("I know every single move that Pokémon learn while leveling up or evolving."))
-        pbMessage(_INTL("I can also help Pokemon to relearn moves they learned through TMs, Mentoring, or Sketching!"))
+        pbMessage(_INTL("I can also help Pokémon to relearn moves they learned through TMs, Mentoring, or Sketching!"))
     end
 end
 

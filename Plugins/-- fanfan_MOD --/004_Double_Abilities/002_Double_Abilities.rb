@@ -116,21 +116,21 @@ class PokeBattle_Battle
         @knownAbilities[pokemon.personalID] = []
         pokemon.abilities.each do |ability|
           @knownAbilities[pokemon.personalID].push(ability)
-          echoln("Player's side pokemon #{pokemon.name}'s ability #{ability} is known by the AI.")
+          echoln("Player's side Pokémon #{pokemon.name}'s ability #{ability} is known by the AI.")
         end
       end
     elsif !abilities
       @knownAbilities[battler.pokemon.personalID] = []
       battler.abilities.each do |ability|
         @knownAbilities[battler.pokemon.personalID].push(ability)
-        echoln("[ABILITY UPDATE] Player's side pokemon #{battler.name}'s ability #{ability} is known by the AI.")
+        echoln("[ABILITY UPDATE] Player's side Pokémon #{battler.name}'s ability #{ability} is known by the AI.")
       end
     else
       abilities = [abilities] if !abilities.is_a?(Array)
       @knownAbilities[battler.pokemon.personalID] = []
       abilities.each do |ability|
         @knownAbilities[battler.pokemon.personalID].push(ability)
-        echoln("[ABILITY UPDATE] Player's side pokemon #{battler.pokemon.name}'s ability #{ability} is known by the AI.")
+        echoln("[ABILITY UPDATE] Player's side Pokémon #{battler.pokemon.name}'s ability #{ability} is known by the AI.")
       end
     end
   end
@@ -140,7 +140,7 @@ class PokeBattle_Battle
     pokemon.moves.each do |move|
       next if !pokemon.boss? && !aiAutoKnowsMove?(move, pokemon) && !all_out_mode?
       @knownMoves[pokemon.personalID].push(move.id)
-      echoln("Pokemon #{pokemon.name}'s move #{move.name} is known by the AI")
+      echoln("Pokémon #{pokemon.name}'s move #{move.name} is known by the AI")
     end
   end
 end

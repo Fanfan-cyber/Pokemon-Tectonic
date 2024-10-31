@@ -363,6 +363,6 @@ def runCaptureTest(species = :MEWTWO,level = 50,hpPercentile = 0.2,status = :SLE
     end
 
     percentile = ((successes.to_f / trialCount.to_f) * 100).truncate(1)
-    echoln("The pokemon was captured #{percentile} percent of the time in #{trialCount} trials.")
+    echoln("The Pokémon was captured #{percentile} percent of the time in #{trialCount} trials.")
     echoln("=========================================================================")
 end

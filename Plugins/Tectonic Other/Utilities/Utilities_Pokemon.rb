@@ -23,7 +23,7 @@ def pbStorePokemon(pkmn)
   if $Trainer.party_full?
       storingPokemon = pkmn
       if pbConfirmMessageSerious(_INTL("Would you like to add {1} to your party?", pkmn.name))
-          pbMessage(_INTL("Choose which Pokemon will be sent back to the PC."))
+          pbMessage(_INTL("Choose which Pokémon will be sent back to the PC."))
           # if Y, select pokemon to store instead
           pbChoosePokemon(1, 3)
           chosen = $game_variables[1]

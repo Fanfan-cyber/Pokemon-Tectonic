@@ -329,7 +329,7 @@ module Compiler
         shiny = true if shinyText.downcase.include?("true")
     end
     
-    echoln("Converting overworld pokemon event: #{species},#{form},#{direction},#{shiny}")
+    echoln("Converting overworld Pokémon event: #{species},#{form},#{direction},#{shiny}")
     
     ret = RPG::Event.new(event.x,event.y)
     ret.name = "Overworld " + speciesData.real_name

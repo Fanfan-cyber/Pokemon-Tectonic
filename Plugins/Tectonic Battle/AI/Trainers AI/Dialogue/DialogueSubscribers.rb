@@ -30,7 +30,7 @@ PokeBattle_AI::PlayerChoseMoveDialogue.add(:DEBUG,
 PokeBattle_AI::TrainerPokemonFaintedDialogue.add(:DEBUG,
   proc { |_policy, _battler, trainer_speaking, dialogue_array|
       unless trainer_speaking.policyStates[:TrainerPokemonFaintedDEBUG]
-          dialogue_array.push("My Pokemon fainted!")
+          dialogue_array.push("My Pokémon fainted!")
           trainer_speaking.policyStates[:TrainerPokemonFaintedDEBUG] = true
       end
       next dialogue_array
@@ -43,7 +43,7 @@ PokeBattle_AI::TrainerPokemonFaintedDialogue.add(:DEBUG,
 PokeBattle_AI::PlayerPokemonFaintedDialogue.add(:DEBUG,
   proc { |_policy, _battler, trainer_speaking, dialogue_array|
       unless trainer_speaking.policyStates[:PlayerPokemonFaintedDEBUG]
-          dialogue_array.push("Your Pokemon fainted!")
+          dialogue_array.push("Your Pokémon fainted!")
           trainer_speaking.policyStates[:PlayerPokemonFaintedDEBUG] = true
       end
       next dialogue_array
@@ -56,7 +56,7 @@ PokeBattle_AI::PlayerPokemonFaintedDialogue.add(:DEBUG,
 PokeBattle_AI::TrainerSendsOutPokemonDialogue.add(:DEBUG,
   proc { |_policy, _battler, trainer_speaking, dialogue_array|
       unless trainer_speaking.policyStates[:TrainerSendsOutPokemonDEBUG]
-          dialogue_array.push("I sent out a Pokemon!")
+          dialogue_array.push("I sent out a Pokémon!")
           trainer_speaking.policyStates[:TrainerSendsOutPokemonDEBUG] = true
       end
       next dialogue_array
@@ -69,7 +69,7 @@ PokeBattle_AI::TrainerSendsOutPokemonDialogue.add(:DEBUG,
 PokeBattle_AI::PlayerSendsOutPokemonDialogue.add(:DEBUG,
   proc { |_policy, _battler, trainer_speaking, dialogue_array|
       unless trainer_speaking.policyStates[:PlayerSendsOutPokemonDEBUG]
-          dialogue_array.push("You sent out a Pokemon!")
+          dialogue_array.push("You sent out a Pokémon!")
           trainer_speaking.policyStates[:PlayerSendsOutPokemonDEBUG] = true
       end
       next dialogue_array
@@ -80,7 +80,7 @@ PokeBattle_AI::PlayerSendsOutPokemonDialogue.add(:REMARKONSTARTER,
   proc { |_policy, battler, trainer_speaking, dialogue_array|
       next dialogue_array unless %i[BOUNSWEET NUMEL KRABBY].include?(battler.species)
       unless trainer_speaking.policyStates[:RemarkedOnStarter]
-          dialogue_array.push("Wow, I've never seen that Pokemon before!")
+          dialogue_array.push("Wow, I've never seen that Pokémon before!")
           dialogue_array.push("I'm gonna check my MasterDex!")
           case battler.species
           when :BOUNSWEET
@@ -102,7 +102,7 @@ PokeBattle_AI::PlayerSendsOutPokemonDialogue.add(:REMARKONSTARTER,
 PokeBattle_AI::TrainerPokemonTookMoveDamageDialogue.add(:DEBUG,
   proc { |_policy, _dealer, _taker, _move, trainer_speaking, dialogue_array|
       unless trainer_speaking.policyStates[:TrainerPokemonTookMoveDamageDEBUG]
-          dialogue_array.push("My Pokemon took move damage!")
+          dialogue_array.push("My Pokémon took move damage!")
           trainer_speaking.policyStates[:TrainerPokemonTookMoveDamageDEBUG] = true
       end
       next dialogue_array
@@ -115,7 +115,7 @@ PokeBattle_AI::TrainerPokemonTookMoveDamageDialogue.add(:DEBUG,
 PokeBattle_AI::PlayerPokemonTookMoveDamageDialogue.add(:DEBUG,
   proc { |_policy, _dealer, _taker, _move, trainer_speaking, dialogue_array|
       unless trainer_speaking.policyStates[:PlayerPokemonTookMoveDamageDEBUG]
-          dialogue_array.push("Your Pokemon took move damage!")
+          dialogue_array.push("Your Pokémon took move damage!")
           trainer_speaking.policyStates[:PlayerPokemonTookMoveDamageDEBUG] = true
       end
       next dialogue_array

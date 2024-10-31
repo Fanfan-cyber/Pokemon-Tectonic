@@ -2,7 +2,7 @@ PokeBattle_Battle::BattleStartApplyCurse.add(:CURSE_TYPE_FRAGILE,
     proc { |curse_policy, battle, curses_array|
         battle.amuletActivates(
             _INTL("TODO"),
-            _INTL("Neutral attacks against your Pokemon are instead Super Effective.")
+            _INTL("Neutral attacks against your Pokémon are instead Super Effective.")
         )
         curses_array.push(curse_policy)
         next curses_array
