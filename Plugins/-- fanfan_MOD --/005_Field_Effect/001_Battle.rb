@@ -1,3 +1,11 @@
+def set_field(new_field = nil)
+  $field = new_field
+end
+
+def default_field
+  $field
+end
+
 class PokeBattle_Battle
   attr_reader :stacked_fields 
   attr_reader :current_field
@@ -14,50 +22,45 @@ class PokeBattle_Battle
   end
 
   def set_default_field
-    if $field
-      create_new_field($field, PokeBattle_Battle::Field::INFINITE_FIELD_DURATION)
-      $field = nil
+    if default_field
+      create_new_field(default_field, PokeBattle_Battle::Field::INFINITE_FIELD_DURATION)
+      set_field
     else
-      PokeBattle_Battle::Field::DEFAULT_FIELD.each do |field, data| # trainer field
+      all_fields_data.each do |field, data| # trainer field
         next if !trainerBattle?
         trainer_field = @opponent.map(&:name) & data[1]
-        if !trainer_field.empty?
-          create_new_field(field, PokeBattle_Battle::Field::INFINITE_FIELD_DURATION)
-          return
-        end
+        next if trainer_field.empty?
+        create_new_field(field, PokeBattle_Battle::Field::INFINITE_FIELD_DURATION)
+        return
       end
 
-      PokeBattle_Battle::Field::DEFAULT_FIELD.each do |field, data| # map field
+      all_fields_data.each do |field, data| # map field
         next if !data[0].include?($game_map.map_id)
         create_new_field(field, PokeBattle_Battle::Field::INFINITE_FIELD_DURATION)
         return
       end
 
-      return if !PokeBattle_Battle::Field::OPPOSING_ADVANTAGE_TYPE_FIELD
-      all_types = pbParty(1).map(&:types).flatten
-      if trainerBattle?
-        type_counts = all_types.each_with_object(Hash.new(0)) { |type, counts| counts[type] += 1 }
-        puts type_counts
-        max_count = type_counts.values.max
-        opposingAdvantageType = type_counts.select { |_type, count| count == max_count }.keys
-      else
-        opposingAdvantageType = all_types
+      return if !PokeBattle_Battle::Field::OPPOSING_ADVANTAGEOUS_TYPE_FIELD
+      all_types = all_opposing_types.dup
+      opposing_advantageous_types = trainerBattle? ? all_types.most_elements : all_types
+
+      advantageous_fields = []
+      all_fields_data.each do |field, data| # type field
+        type_fields = opposing_advantageous_types & data[2]
+        next if type_fields.empty?
+        advantageous_fields << field
       end
 
-      advantage_field = []
-      PokeBattle_Battle::Field::DEFAULT_FIELD.each do |field, data| # type field
-        type_field = opposingAdvantageType & data[2]
-        next if type_field.empty?
-        advantage_field << field
-      end
+      advantageous_fields = all_fields if advantageous_fields.empty?
 
-      if advantage_field.empty?
-        advantage_field = PokeBattle_Battle::Field::DEFAULT_FIELD.keys
-      end
-
-      create_new_field(advantage_field.sample, PokeBattle_Battle::Field::INFINITE_FIELD_DURATION)
+      create_new_field(advantageous_fields.sample, PokeBattle_Battle::Field::INFINITE_FIELD_DURATION)
     end
-    #create_new_field(:Psychic, 3)
+
+    set_test_field if $DEBUG && MInput.press?(:C)
+  end
+
+  def set_test_field
+    create_new_field(:Psychic, 3)
   end
 
   def create_new_field(id, *args)
@@ -75,7 +78,7 @@ class PokeBattle_Battle
         set_field_duration(PokeBattle_Battle::Field::INFINITE_FIELD_DURATION)
         add_field(@current_field)
         pbDisplay(_INTL("The field will exist forever!"))
-        echoln("[Field set] #{field_name} was set! [#{stacked_fields_stat}]")
+        #echoln("[Field set] #{field_name} was set! [#{stacked_fields_stat}]")
       else
         if duration && duration > PokeBattle_Battle::Field::FIELD_DURATION_EXPANDED
           add_field_duration(PokeBattle_Battle::Field::FIELD_DURATION_EXPANDED)
@@ -104,7 +107,7 @@ class PokeBattle_Battle
 
     set_fieldback if has_field?
     field_announcement(:start) if has_field?
-    echoln("[Field set] #{field_name} was set! [#{stacked_fields_stat}]") if has_field?
+    #echoln("[Field set] #{field_name} was set! [#{stacked_fields_stat}]") if has_field?
 
     apply_field_effect(:set_field_battle)
     eachBattler { |battler| apply_field_effect(:set_field_battler_universal, battler) }
@@ -153,7 +156,7 @@ class PokeBattle_Battle
     set_fieldback
     field_announcement(:start)
 
-    echoln("[Field set] #{field_name} was set! [#{stacked_fields_stat}]") if has_field?
+    #echoln("[Field set] #{field_name} was set! [#{stacked_fields_stat}]") if has_field?
 
     apply_field_effect(:set_field_battle)
     eachBattler { |battler| apply_field_effect(:set_field_battler_universal, battler) }
@@ -228,13 +231,13 @@ class PokeBattle_Battle
 
     if remove_all
       @stacked_fields.keep_if(&:is_base?)
-      echoln("[Field remove] All fields were removed!")
+      #echoln("[Field remove] All fields were removed!")
     else
       @stacked_fields.delete_if(&:end?)
       if stacked_fields_stat.empty?
-        echoln("[Field remove] All ended fields were removed!")
+        #echoln("[Field remove] All ended fields were removed!")
       else
-        echoln("[Field remove] All ended fields were removed! [#{stacked_fields_stat}]")
+        #echoln("[Field remove] All ended fields were removed! [#{stacked_fields_stat}]")
       end
     end
   end
@@ -289,6 +292,14 @@ class PokeBattle_Battle
     message = @current_field.field_announcement[2]
     pbDisplay(message) if message && !message.empty?
     end
+  end
+
+  def all_fields
+    PokeBattle_Battle::Field::DEFAULT_FIELD.keys
+  end
+
+  def all_fields_data
+    PokeBattle_Battle::Field::DEFAULT_FIELD
   end
 
   def field_id
@@ -382,6 +393,14 @@ class PokeBattle_Battle
 
   def is_frozen_field?
     @current_field.is_frozen?
+  end
+
+  def all_own_types
+    pbParty(0).map(&:types).flatten
+  end
+
+  def all_opposing_types
+    pbParty(1).map(&:types).flatten
   end
 end
 

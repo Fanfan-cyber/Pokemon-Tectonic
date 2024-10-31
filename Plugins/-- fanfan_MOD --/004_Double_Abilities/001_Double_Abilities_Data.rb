@@ -1817,4 +1817,12 @@ INNATE_SET = {
   :IRONOBSERVER  => [   [:QUARKDRIVE,        :MYSTICPOWER,     :LIGHTNINGROD,    ],   [      ],   ], # 铁浮游
 }
 
+all_id = GameData::Ability.all_id
+INNATE_SET.each do |species, sets|
+  sets.map! do |set|
+    set.reject! { |innate| !all_id.include?(innate) }
+    set
+  end
+end
+
 =end

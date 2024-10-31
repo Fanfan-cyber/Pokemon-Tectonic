@@ -9,7 +9,7 @@ class PokeBattle_Battle::Field
   FIELD_DURATION_EXPANDED = 3
   INFINITE_FIELD_DURATION = -1
 
-  OPPOSING_ADVANTAGE_TYPE_FIELD = true
+  OPPOSING_ADVANTAGEOUS_TYPE_FIELD = true
 
   BASE_KEYS = %i[set_field_battler_universal]
 
@@ -18,9 +18,9 @@ class PokeBattle_Battle::Field
                    end_field_battle end_field_battler]
 
   DEFAULT_FIELD = {
-    :Electric => [[],
-                %w[],
-                %i[ELECTRIC]],
+    :Electric => [[],           # map ids
+                %w[],           # trainer names
+                %i[ELECTRIC]],  # advantageous types
     :Grassy   => [[],
                 %w[],
                 %i[GRASS]],
@@ -68,7 +68,7 @@ class PokeBattle_Battle::Field
         ret = calc_proc&.call(user, target, numTargets, move, type, power, mults, aiCheck)
         next if !ret
         mults[mult[0]] *= mult[1]
-        echoln(mults)
+        #echoln(mults)
         next if aiCheck
         multiplier = (mult[0] == :defense_multiplier) ? (1.0 / mult[1]) : mult[1]
         if mult[2] && !mult[2].empty?
@@ -105,27 +105,35 @@ class PokeBattle_Battle::Field
 
   end
 
+  def self.method_missing(method_name, *args, &block)
+    echoln("Undefined class method #{method_name} is called with args: #{args.inspect}")
+  end
+
+  def method_missing(method_name, *args, &block)
+    echoln("Undefined instance method #{method_name} is called with args: #{args.inspect}")
+  end
+
   def apply_field_effect(key, *args)
     return if is_base? && !PokeBattle_Battle::Field::BASE_KEYS.include?(key)
-    echoln("[Field effect apply] #{@name}'s key #{key.upcase} applied!")
+    #echoln("[Field effect apply] #{@name}'s key #{key.upcase} applied!")
     @effects[key]&.call(*args)
   end
 
   def add_duration(amount = 0)
     return if infinite?
     @duration += amount
-    echoln("[Field duration change] #{@name}'s duration is now #{@duration}!")
+    #echoln("[Field duration change] #{@name}'s duration is now #{@duration}!")
   end
 
   def reduce_duration(amount = 0)
     return if infinite?
     @duration -= amount
-    echoln("[Field duration change] #{@name}'s duration is now #{@duration}!")
+    #echoln("[Field duration change] #{@name}'s duration is now #{@duration}!")
   end
 
   def set_duration(amount = 0)
     @duration = amount
-    echoln("[Field duration change] #{@name}'s duration is now #{@duration}!")
+    #echoln("[Field duration change] #{@name}'s duration is now #{@duration}!")
   end
 
   def ==(another_field)

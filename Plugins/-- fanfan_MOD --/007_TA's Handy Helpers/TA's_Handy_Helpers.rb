@@ -45,19 +45,19 @@ class Array
   end
 
   def most_elements
-    elements_count.select { |_element, count| count == most_elements_count }.keys
+    self.elements_count.select { |_element, count| count == most_elements_count }.keys
   end
 
   def most_elements_count
-    elements_count.values.max
+    self.elements_count.values.max
   end
 
   def least_elements
-    elements_count.select { |_element, count| count == least_elements_count }.keys
+    self.elements_count.select { |_element, count| count == least_elements_count }.keys
   end
 
   def least_elements_count
-    elements_count.values.min
+    self.elements_count.values.min
   end
 end
 
@@ -83,7 +83,7 @@ class Hash
   end
 
   def sorted_values_reverse
-    sorted_values.reverse
+    self.values.sort.reverse
   end
 
   def highest_keys
