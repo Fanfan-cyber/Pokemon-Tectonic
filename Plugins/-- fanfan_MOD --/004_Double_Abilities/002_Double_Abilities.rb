@@ -1,3 +1,7 @@
+module Settings
+  ALL_OUT_MODE = true
+end
+
 def all_out_mode?
   Settings::ALL_OUT_MODE
 end

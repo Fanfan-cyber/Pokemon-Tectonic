@@ -56,7 +56,7 @@ class PokeBattle_Battle
       create_new_field(advantageous_fields.sample, PokeBattle_Battle::Field::INFINITE_FIELD_DURATION)
     end
 
-    set_test_field if $DEBUG && MInput.press?(:C)
+    set_test_field if debugControl
   end
 
   def set_test_field
