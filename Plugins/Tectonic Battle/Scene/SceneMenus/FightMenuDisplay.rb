@@ -51,8 +51,9 @@ class FightMenuDisplay < BattleMenuBase
             buttonY = self.y + 6 + (((i/2)==0) ? 0 : BUTTON_HEIGHT-4)
             createButton(buttonX,buttonY,i)
           end
-          createButton(self.x + 4,self.y - BUTTON_HEIGHT,Pokemon::MAX_MOVES)
-          
+          # Extra moves
+          Pokemon::MAX_MOVES.times { |i| createButton(self.x + 4, self.y - BUTTON_HEIGHT * (i + 1), Pokemon::MAX_MOVES + i) }
+
           # Create overlay for buttons (shows move names)
           @overlay = BitmapSprite.new(Graphics.width,Graphics.height,viewport)
           pbSetNarrowFont(@overlay.bitmap)

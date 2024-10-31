@@ -442,7 +442,15 @@ class PokeBattle_Battle
 
         battler.pbCheckForm
         triggerBattlerEnterDialogue(battler)
+
+        registerExtraMoves(battler)
+
         return true
+    end
+
+    # None, currently
+    def registerExtraMoves(battler, aiCheck = false)
+        #%i[AFTERYOU ROLLINGKICK SHADOWSNEAK BOLTSTRIKE].each { |move_id| battler.moves.push(getBattleMoveInstanceFromID(move_id)) }
     end
 
     def applyHazards(battler, aiCheck = false)
