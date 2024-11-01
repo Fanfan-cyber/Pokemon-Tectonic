@@ -262,6 +262,7 @@ class PokeBattle_Battle
     # Start a battle
     #=============================================================================
     def pbStartBattle
+        pbDisallowSpeedup
         # Spit out lots of debug information
         PBDebug.log("")
         PBDebug.log("******************************************")
@@ -758,6 +759,8 @@ class PokeBattle_Battle
             pkmn.boss?
         }
         pbParty(0).compact!
+
+        pbAllowSpeedup
 
         return @decision
     end

@@ -6,10 +6,6 @@ end
 class Trainer
   attr_reader :is_player
 
-  def is_player
-    @is_player ||= false
-  end
-
   def is_player?
     is_player
   end
@@ -19,7 +15,7 @@ class Player
   attr_reader :deity
 
   def is_player
-    is_player ||= true
+    @is_player ||= true
   end
 
   def money
@@ -36,16 +32,17 @@ class Player
     @deity 
   end
 
+  def all_deity
+    deity.keys
+  end
+
   def add_deity(keys)
-    return if !keys
     keys = [keys] if !keys.is_a?(Array)
-    keys.each { |key| deity[key] = true if !deity[key] }
+    keys.each { |key| deity[key] = true }
   end
 
   def remove_deity(keys)
-    return if !keys
-    keys = [keys] if !keys.is_a?(Array)
-    keys.each { |key| deity.delete(key) if deity[key] }
+    deity.remove(keys)
   end
 
   def romove_all_deity
@@ -141,14 +138,16 @@ class TribalBonus
   end
   alias update_tribe_count updateTribeCount
 
-  def add_tribe_bonus(tribe_ids)
-    return if !tribe_ids
-    tribe_ids = [tribe_ids] if !tribe_ids.is_a?(Array)
-    tribe_ids.each { |tribe_id| @tribesGivingBonus << tribe_id if !@tribesGivingBonus.has?(tribe_id) }
+  def add_tribe(tribe_ids)
+    @tribesGivingBonus.add(tribe_ids, false)
+  end
+
+  def remove_tribe(tribe_ids)
+    @tribesGivingBonus.remove(tribe_ids)
   end
 
   def add_all_tribes
-    add_tribe_bonus(GameData::Tribe.all_id)
+    add_tribe(all_tribe_ids)
   end
 
   def romove_all_tribes
@@ -156,6 +155,14 @@ class TribalBonus
   end
 
   def copy_player_tribes
-    add_tribe_bonus($Trainer&.tribalBonus.tribesGivingBonus)
+    add_tribe(player_tribes)
+  end
+
+  def player_tribes
+    $Trainer&.tribalBonus.tribesGivingBonus || []
+  end
+
+  def all_tribe_ids
+    GameData::Tribe.all_id
   end
 end

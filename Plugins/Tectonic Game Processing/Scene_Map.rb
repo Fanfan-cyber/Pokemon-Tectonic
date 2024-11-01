@@ -248,7 +248,7 @@ class Scene_Map
 
             if Input.trigger?(Input::USE)
                 $PokemonTemp.hiddenMoveEventCalling = true
-            elsif Input.trigger?(Input::BACK)
+            elsif MInput.trigger?(:Z) # Input.trigger?(Input::BACK)
                 unless $game_system.menu_disabled || $game_player.moving?
                     $game_temp.menu_calling = true
                     $game_temp.menu_beep = true
@@ -261,7 +261,7 @@ class Scene_Map
                 unless $game_player.lock?
                     $PokemonTemp.bicycleCalling = true
                 end
-            elsif Input.trigger?(Input::AUX1)
+            elsif MInput.trigger?(:W) # Input.trigger?(Input::AUX1)
                 unless $game_system.menu_disabled or $game_player.moving?
                     if savingAllowed?
                         $game_temp.save_calling = true

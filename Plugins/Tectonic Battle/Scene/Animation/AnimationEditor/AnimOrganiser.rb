@@ -1,3 +1,11 @@
+def export_move_anim_list(list)
+  all_entries = ""
+  list.each_with_index { |entry, index| all_entries += "#{index} #{entry.name}\r\n" }
+  Dir.mkdir("PBS") if !safeExists?("PBS")
+  file = File.open("PBS/move_anim_list.txt", "w")
+  file.write(all_entries)
+  file.close
+end
 
 def pbAnimationsOrganiser
   list = pbLoadBattleAnimations
@@ -5,6 +13,7 @@ def pbAnimationsOrganiser
     pbMessage(_INTL("No animations exist."))
     return
   end
+  export_move_anim_list(list)
   viewport = Viewport.new(0,0,Graphics.width,Graphics.height)
   viewport.z = 99999
   cmdwin = pbListWindow([])

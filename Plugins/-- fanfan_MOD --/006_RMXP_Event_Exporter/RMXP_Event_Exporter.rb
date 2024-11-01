@@ -56,7 +56,7 @@
 
 # Folder to export event text file to
 # If more than one level deep, must create folders yourself
-EXPORTDIRNAME = "Event Exporter"
+EXPORTDIRNAME = "PBS"
 
 # Main switch to export events or not upon running game in Debug mode
 EXPORTEVENTS = false
@@ -66,7 +66,7 @@ EXPORTEVENTS = false
 USEDATEANDTIME = false
 
 # Custom file name if not using timestamp
-EXPORTFILENAME = "Event_Text_Dump"
+EXPORTFILENAME = "event_text"
 
 module EventExport
   def self.export

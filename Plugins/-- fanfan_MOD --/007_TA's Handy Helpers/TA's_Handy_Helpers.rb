@@ -2,10 +2,24 @@ module Enumerable
   alias has? include?
   alias includes? include?
   alias contains? include?
+
+  def remove(items)
+    items = [items] if !items.is_a?(Array)
+    items.each { |item| self.delete(item) }
+  end
 end
 
 class Array
   alias random sample
+
+  def add(elements, ignore = true)
+    elements = [elements] if !elements.is_a?(Array)
+    if ignore
+      self.concat(elements)
+    else
+      elements.each { |element| self << element if !self.has?(element) }
+    end
+  end
 
   def swap(index_1, index_2)
     new_array = self.dup
