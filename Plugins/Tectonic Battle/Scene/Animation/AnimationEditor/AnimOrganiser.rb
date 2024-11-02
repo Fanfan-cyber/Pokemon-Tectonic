@@ -2,7 +2,7 @@ def export_move_anim_list(list)
   all_entries = ""
   list.each_with_index { |entry, index| all_entries += "#{index} #{entry.name}\r\n" }
   Dir.mkdir("PBS") rescue nil
-  file = File.open("PBS/move_anim_list.txt", "w")
+  file = File.open("PBS/move_anim_list.txt", "wb")
   file.write(all_entries)
   file.close
 end

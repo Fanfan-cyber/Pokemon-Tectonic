@@ -20,29 +20,11 @@ module MInput
   @@RepeatCalls = {}
   @@TriggerCalls = {}
 
-  def self.RepeatCalls; @@RepeatCalls; end
-  def self.TriggerCalls; @@TriggerCalls; end
-
-  # Updates all intervals/countdowns
-  def self.update
-    @@RepeatCalls.keys.each do |e|
-      @@RepeatCalls[e] -= 1
-      if @@RepeatCalls[e] == -1
-        @@RepeatCalls.delete(e)
-      end
-    end
-    @@TriggerCalls.keys.each do |e|
-      @@TriggerCalls[e] = nil unless MInput.press?(*e)
-    end
-  end
-
   # Let's say you pass .repeat? an interval of 8
   # The first time you hit the button, it returns true
   # You then have to wait 'DefaultWaitTimeForInteval' amount of frames
   # It then returns true based on your interval.
   DefaultWaitTimeForInteval = 20
-
-  class MInputError < StandardError; end
 
   # Creates shortcuts methods for these keys
   # e.g:
@@ -62,6 +44,22 @@ module MInput
     :extra_move_3? => [:NUMPAD3, :NUM3, :N3, :THREE],
     :extra_move_4? => [:NUMPAD4, :NUM4, :N4, :FOUR]
   }
+
+  def self.RepeatCalls; @@RepeatCalls; end
+  def self.TriggerCalls; @@TriggerCalls; end
+
+  # Updates all intervals/countdowns
+  def self.update
+    @@RepeatCalls.keys.each do |e|
+      @@RepeatCalls[e] -= 1
+      @@RepeatCalls.delete(e) if @@RepeatCalls[e] == -1
+    end
+    @@TriggerCalls.keys.each do |e|
+      @@TriggerCalls[e] = nil unless MInput.press?(*e)
+    end
+  end
+
+  class MInputError < StandardError; end
 
   # Standard keys that can be used in .trigger?, .press?, .repeat?
   STD = {
