@@ -299,7 +299,7 @@ module Settings
     LANGUAGES = [
       ["English", "english.dat"],
       ["Español", "spanish.dat"],
-      ["Francais", "french.dat"],
+      #["Francais", "french.dat"],
       ["Simplified Chinese", "chinese.dat"]
     ]
   

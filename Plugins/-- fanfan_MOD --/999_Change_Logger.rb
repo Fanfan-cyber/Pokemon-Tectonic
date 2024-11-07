@@ -14,6 +14,8 @@ v0.0.1
 2.
 LOGGER
 
+CHANGE_LOG.gsub!("\n", "\r\n")
+
 file = File.open("release_version.txt", "wb")
 file.write(Settings::GAME_VERSION)
 file.close
