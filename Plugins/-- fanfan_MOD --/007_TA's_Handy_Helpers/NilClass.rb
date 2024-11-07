@@ -5,7 +5,7 @@ class NilClass
   end
 
   # nil视为非数字
-  def numeric?
+  def number?
     false
   end
 end

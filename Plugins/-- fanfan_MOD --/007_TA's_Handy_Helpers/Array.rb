@@ -5,9 +5,9 @@ class Array
   # 为values_at添加了别名
   alias choose values_at
 
-  # 数组视为非数字
-  def numeric?
-    false
+  # 检查数组是否是数字数组
+  def number?
+    self.all? { |element| element.is_a?(Numeric) }
   end
 
   # 检查数组里面是否包含数组
@@ -20,7 +20,12 @@ class Array
     self.none? { |element| element.is_a?(Array) }
   end
 
-  # 向数组中添加一个或者多个可重复或者不可重复的元素
+  # 检查数组中是否有重复的元素
+  def dup?
+    self.length != self.uniq.length
+  end
+
+  # 向数组末尾添加一个或者多个可重复或者不可重复的元素
   def add(*elements, ignore: true)
     elements.flatten!
     if ignore
@@ -28,6 +33,18 @@ class Array
     else
       elements.each { |element| self << element if !self.has?(element) }
     end
+    self
+  end
+
+  # 向数组开头添加一个或者多个可重复或者不可重复的元素
+  def add_to_start(*elements, ignore: true)
+    elements.flatten!
+    if ignore
+      elements.reverse_each { |element| self.unshift(element) }
+    else
+      elements.reverse_each { |element| self.unshift(element) if !self.has?(element) }
+    end
+    self
   end
 
   # 交换数组中两个元素的位置
@@ -40,6 +57,35 @@ class Array
   def swap!(index_1, index_2)
     self[index_1], self[index_2] = self[index_2], self[index_1]
     self
+  end
+
+  # 将某个索引的元素移到任意位置
+  def move_to(index, new_index)
+    return self if index < 0 || index >= self.length || new_index < 0
+    element = self[index]
+    self.delete_at(index)
+    self.insert(new_index, element)
+  end
+
+  # 将某个索引的元素移到首位
+  def move_to_start(index)
+    return self if index < 0 || index > self.length
+    element = self[index]
+    self.delete_at(index)
+    self.unshift(element)
+  end
+
+  # 将某个索引的元素移到末尾
+  def move_to_end(index)
+    return self if index < 0 || index > self.length
+    element = self[index]
+    self.delete_at(index)
+    self.add(element)
+  end
+
+  # 快速连接数组里的所有元素
+  def quick_join(joiner = ", ", ender = " and ")
+    self.length <= 1 ? self.join(joiner) : "#{self[0..-2].join(joiner)}#{ender}#{self[-1]}"
   end
 
   # 获取数组中位于中间的那个元素
@@ -143,6 +189,34 @@ class Array
       self.map do |element|
         element.is_a?(Array) ? element : element.to_f
       end
+    end
+  end
+
+  # 按照中文排列特性数组
+  def sort_abil!
+    self.sort_by! do |abil|
+      abil.is_a?(Array) ? get_pos(abil[0], :Ability) : get_pos(abil, :Ability)
+    end
+  end
+
+  # 按照中文排列物品数组
+  def sort_item!
+    self.sort_by! do |item|
+      item.is_a?(Array) ? get_pos(item[0], :Item) : get_pos(item, :Item)
+    end
+  end
+
+  # 按照中文排列技能数组
+  def sort_move!
+    self.sort_by! do |move|
+      move.is_a?(Array) ? get_pos(move[0], :Move) : get_pos(move, :Move)
+    end
+  end
+
+  # 按照中文排列精灵的物种数组
+  def sort_pkmn!
+    self.sort_by! do |pkmn|
+      pkmn.is_a?(Array) ? get_pos(pkmn[0], :Pokemon) : get_pos(pkmn, :Pokemon)
     end
   end
 end

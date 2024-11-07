@@ -26,6 +26,16 @@ class Trainer
     @party.each_with_index { |pkmn, index| yield pkmn, index if pkmn && pkmn.egg? }
   end
 
+  # 获取队伍中所有精灵携带的物品
+  def party_items
+    @party.map(&:items).flatten
+  end
+
+  # 检查队伍是否有携带重复物品
+  def party_dup_item?
+    party_items.dup?
+  end
+
   # 获取队伍中某只精灵的索引
   def pbGetPartyIndex(species, form = 0)
     each_pkmn { |pkmn, index| return index if pkmn.isSpecies?(species) && pkmn.form == form }

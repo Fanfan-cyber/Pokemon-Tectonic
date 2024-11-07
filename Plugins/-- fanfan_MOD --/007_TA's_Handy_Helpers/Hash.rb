@@ -1,6 +1,6 @@
 class Hash
   # 哈希视为非数字
-  def numeric?
+  def number?
     false
   end
 
