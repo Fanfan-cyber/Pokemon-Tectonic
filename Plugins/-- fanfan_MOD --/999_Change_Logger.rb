@@ -1,3 +1,4 @@
+CHANGE_LOG = <<-LOGGER
 #==============================================================================#
 Pokémon Tectonic: Earthquake
 by Fanfan
@@ -11,3 +12,12 @@ v0.0.1
 v0.0.1
 1.同步官方更新，每一次更新时都会同步官方更新，后续将不再单独列出
 2.
+LOGGER
+
+file = File.open("release_version.txt", "wb")
+file.write(Settings::GAME_VERSION)
+file.close
+
+file = File.open("release_version_mod.txt", "wb")
+file.write(CHANGE_LOG)
+file.close

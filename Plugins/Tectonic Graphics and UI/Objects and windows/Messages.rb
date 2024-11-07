@@ -762,7 +762,7 @@ def pbMessageDisplay(msgwindow, message, letterbyletter = true, commandProc = ni
         end
 
         # Text Skipping
-        if MInput.press?(Settings::TEXT_SKIP_BUTTON)
+        if MInput.press?(Settings::TEXT_SKIP_KEY)
             msgwindow.textspeed = -999
             msgwindow.update
             if msgwindow.busy?

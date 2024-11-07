@@ -1,6 +1,6 @@
 #CONFIG
 #search uses either this key or "Special"
-SEARCHKEY = :TAB
+#SEARCHKEY = :TAB
 #if true, a search with only results will be automatically confirmed instead of just selecting it in the list
 ItemsSearch_Autoconfirm = true
 
@@ -111,8 +111,8 @@ module Input
                 return itemwindow.item
 				
 			  ##NEW CODE STARTS HERE
-              elsif Input.trigger?(Input::SPECIAL) || Input.triggerex?(SEARCHKEY)   # Search form
-			   searchText = pbEnterText("Search by description!",0,999)
+              elsif Input.trigger?(Input::SPECIAL) || Input.triggerex?(Settings::ITEM_SEARCH_KEY)   # Search form
+			   searchText = pbEnterText(_INTL("Search by description!"), 0, 999)
 			   thispocket = @bag.pockets[itemwindow.pocket]
 			   if searchText != ""
 				  searchText = searchText.downcase
@@ -157,7 +157,7 @@ module Input
 						end
 				  end
     			  if matchedIndexes.length > 1
-					  itemId = pbChooseItemFromListWithoutVar("Search Results",*matchedItems)
+					  itemId = pbChooseItemFromListWithoutVar(_INTL("Search Results:"), *matchedItems)
 					  if itemId != nil #output like :PECHABERRY
 						thispocket.each_with_index do |potentialItem, potentialIndex|
 							if potentialItem[0] == itemId 
@@ -216,7 +216,7 @@ end
 
   def self.update
     old_update_method
-    if triggerex?(SEARCHKEY)   
+    if triggerex?(Settings::ITEM_SEARCH_KEY)   
 	
 	#DOCK_LOCATIONS[:BONGOLAND] = {
     #    :map_name => "Bongo Land",
