@@ -167,7 +167,7 @@ module Input
                   pbMessage(_INTL("Found nothing!"))
                 end
               end
-            elsif MInput.trigger?(:R) # Input.triggerex?(:R)
+            elsif MInput.trigger?(:R) && thispocket == @bag.pockets.last # Input.triggerex?(:R)
               if !@choosing
                 if @bag.pbIsRegistered?(itemwindow.item)
                   pbPlayDecisionSE
