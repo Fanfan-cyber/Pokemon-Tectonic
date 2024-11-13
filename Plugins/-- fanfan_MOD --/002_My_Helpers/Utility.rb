@@ -48,6 +48,27 @@ def pbSwapPartyPosition(species, new_index = 0, form = 0)
   $Trainer&.pbSwapPartyPosition(species, new_index, form)
 end
 
+# 从物品列表中选择物品
+def pbChooseItemFromListEX(message, item_ids, must_choose = false)
+  names = []
+  ids = []
+  item_ids.each do |item_id|
+    next if !GameData::Item.exists?(item_id)
+    item = GameData::Item.get(item_id)
+    names.push(item.name)
+    ids.push(item.id)
+  end
+  return if names.empty?
+  if !must_choose
+    names.push(_INTL("Cancel"))
+    ids.push(nil)
+    ret = pbMessage(message, names, -1)
+  else
+    ret = pbMessage(message, names, 0)
+  end
+  ids[ret]
+end
+
 # 按照中文重新排序背包的所有口袋
 def sort_bag
   $bag&.pockets.each { |pocket| pocket.sort_item! }

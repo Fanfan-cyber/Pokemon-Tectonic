@@ -4,7 +4,4 @@ module Settings
 
   # Button used for Fast Forward (Default = :F)
   FAST_FORWARD_KEY = :Q
-
-  # Button used for Item Search (Default = :TAB)
-  ITEM_SEARCH_KEY = :TAB
 end
