@@ -1,11 +1,3 @@
-module Settings
-  ALL_OUT_MODE = true
-end
-
-def all_out_mode?
-  Settings::ALL_OUT_MODE
-end
-
 class Pokemon
   alias fanfan_initialize initialize
   def initialize(species, level, owner = $Trainer, withMoves = true, recheck_form = true)
@@ -44,7 +36,7 @@ class Pokemon
 
   def getSpeciesAbilityName(index = nil)
     ability_names = speciesAbility.map { |ability_id| GameData::Ability.get(ability_id).name }
-    return "#{ability_names[0..-1].join(", ")}" if !index
+    return "#{ability_names.quick_join}" if !index
     ability_names[index]
   end
 
@@ -61,14 +53,12 @@ class Pokemon
   end
 
   def addAnotherAbilityAndInnates
-    return if !all_out_mode?
     addAnotherAbility
     addInnateSet
   end
 
   def legalAbilities
-    return (speciesAbility | innateSet | [ability_id]) if all_out_mode?
-    [ability_id]
+    speciesAbility | innateSet | [ability_id]
   end
 
   def removeIllegalAbilities
@@ -100,7 +90,7 @@ class PokeBattle_Battler
   end
 
   def addAbilitiesDisplayInfo
-    @addedAbilities.concat(abilities).uniq! if all_out_mode?
+    @addedAbilities.concat(abilities).uniq!
   end
 end
 
@@ -112,7 +102,6 @@ class PokeBattle_Battle
   end
 
   def aiUpdateAbility(battler = nil, abilities: nil)
-    return if !all_out_mode?
     if !battler
       echoln("===AI KNOWN ABILITIES===")
       @knownAbilities = {}
@@ -142,7 +131,6 @@ class PokeBattle_Battle
   def initializeKnownMoves(pokemon)
     @knownMoves[pokemon.personalID] = []
     pokemon.moves.each do |move|
-      next if !pokemon.boss? && !aiAutoKnowsMove?(move, pokemon) && !all_out_mode?
       @knownMoves[pokemon.personalID].push(move.id)
       echoln("Pokémon #{pokemon.name}'s move #{move.name} is known by the AI")
     end
@@ -202,17 +190,15 @@ class PokemonSummary_Scene
   end
 end
 
-if all_out_mode?
-  def battleGuideAbilitiesHash
-    { _INTL("What are abilities?")   => _INTL("Abilities are special powers that Pokémon can have based on their species. Most Pokémon can have 2 possible abilities. All abilities activate."),
-      _INTL("Ability Effects")       => _INTL("Abilities do a wide variety of different things. Understanding your team's abilities is important to winning."),
-      _INTL("Checking Abilities")    => _INTL("Check your Pokémon's summary to see what displaying ability they have. Use the MasterDex to read about the abilities of enemy Pokémon during battle."),
-      _INTL("Choosing Abilities")    => _INTL("A Pokémon's displaying ability is one of the two its species can have, randomly chosen when you get it. You can use Ability Capsules to swap to the other."),
-      _INTL("Conditional Abilities") => _INTL("Many abilities only do things under certain circumstances. Building around Weather and Room-synergy abilities is a common strategy."),
-      _INTL("Effect Of Evolution")   => _INTL("A Pokémon's ability tends to stay the same when evolving, but can change. When this happens, the game will alert you."),
-      _INTL("Defeating Abilities")   => _INTL("An enemy Trainer's ability too much? Abilities like Neutralizing Gas, and moves like Gastro Acid, can suppress abilities in battle."),
-      _INTL("Swapping Abilities")    => _INTL("Moves like Skill Swap can be used to give a new ability to Pokémon during battle, enabling unique and creative team synergies.") }
-  end
+def battleGuideAbilitiesHash
+  { _INTL("What are abilities?")   => _INTL("Abilities are special powers that Pokémon can have based on their species. Most Pokémon can have 2 possible abilities. All abilities activate."),
+    _INTL("Ability Effects")       => _INTL("Abilities do a wide variety of different things. Understanding your team's abilities is important to winning."),
+    _INTL("Checking Abilities")    => _INTL("Check your Pokémon's summary to see what displaying ability they have. Use the MasterDex to read about the abilities of enemy Pokémon during battle."),
+    _INTL("Choosing Abilities")    => _INTL("A Pokémon's displaying ability is one of the two its species can have, randomly chosen when you get it. You can use Ability Capsules to swap to the other."),
+    _INTL("Conditional Abilities") => _INTL("Many abilities only do things under certain circumstances. Building around Weather and Room-synergy abilities is a common strategy."),
+    _INTL("Effect Of Evolution")   => _INTL("A Pokémon's ability tends to stay the same when evolving, but can change. When this happens, the game will alert you."),
+    _INTL("Defeating Abilities")   => _INTL("An enemy Trainer's ability too much? Abilities like Neutralizing Gas, and moves like Gastro Acid, can suppress abilities in battle."),
+    _INTL("Swapping Abilities")    => _INTL("Moves like Skill Swap can be used to give a new ability to Pokémon during battle, enabling unique and creative team synergies.") }
 end
 
 def has_species_party?(species, form = -1)

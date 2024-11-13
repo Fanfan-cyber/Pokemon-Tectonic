@@ -347,11 +347,7 @@ class BattleInfoDisplay < SpriteWrapper
 
         # List abilities that were added by effects
         battler.addedAbilities.each do |abilityID|
-		    if all_out_mode?
-			  battlerEffects.push(_INTL("A/I: #{getAbilityName(abilityID)}"))
-			else
-			  battlerEffects.push(_INTL("Ability: #{getAbilityName(abilityID)}"))
-			end
+            battlerEffects.push(_INTL("A: #{getAbilityName(abilityID)}"))
         end
 
         scrolling = true if battlerEffects.length > 8

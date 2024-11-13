@@ -32,14 +32,10 @@ class PokeBattle_Battle
             pbPlayer.pokedex.register(pkmn) # In case the form changed upon leaving battle
 
             # Let the player know info about the individual pokemon they caught
-			if all_out_mode?
-			  if pkmn.speciesAbility.length == 1
+            if pkmn.speciesAbility.length == 1
                 pbDisplayWithFormatting(_INTL("You check {1}, and discover that its ability is <imp>{2}</imp>!", pkmn.name, pkmn.getSpeciesAbilityName(0)))
-			  else
-			    pbDisplayWithFormatting(_INTL("You check {1}, and discover that its abilities are <imp>{2}</imp> and <imp>{3}</imp>!", pkmn.name, pkmn.getSpeciesAbilityName(0), pkmn.getSpeciesAbilityName(1)))
-			  end
-            else
-			  pbDisplayWithFormatting(_INTL("You check {1}, and discover that its ability is <imp>{2}</imp>!", pkmn.name, pkmn.ability.name))
+            elsif pkmn.speciesAbility.length > 1
+                pbDisplayWithFormatting(_INTL("You check {1}, and discover that its abilities are <imp>{2}</imp> and <imp>{3}</imp>!", pkmn.name, pkmn.getSpeciesAbilityName(0), pkmn.getSpeciesAbilityName(1)))
             end
 
             itemsToRemove = []

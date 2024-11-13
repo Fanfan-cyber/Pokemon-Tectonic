@@ -397,14 +397,14 @@ def showPokemonChanges(pokemon, &block)
           pokemon.totalhp, pokemon.attack, pokemon.defense, pokemon.spatk, pokemon.spdef, pokemon.speed), nil, 198)
   end
   # Show new ability if any
-  if pokemon.ability != oldAbility
-      ability_name = GameData::Ability.get(pokemon.ability).name
-	  if all_out_mode?
-	    msg = _INTL("{1}'s displaying ability was changed to {2}.", pokemon.name, ability_name)
-	  else
-	    msg = _INTL("{1}'s ability was changed to {2}.", pokemon.name, ability_name)
-	  end
-      pbMessage(msg)
+  # if pokemon.ability != oldAbility
+      # ability_name = GameData::Ability.get(pokemon.ability).name
+      # msg = _INTL("{1}'s displaying ability was changed to {2}.", pokemon.name, ability_name)
+      # pbMessage(msg)
+  # end
+  if pokemon.speciesAbility.length == 1
+      pbMessage(_INTL("{1}'s ability now is <imp>{2}</imp>!", pokemon.name, pokemon.getSpeciesAbilityName(0)))
+  elsif pokemon.speciesAbility.length > 1
+      pbMessage(_INTL("{1}'s abilities now are <imp>{2}</imp> and <imp>{3}</imp>!", pokemon.name, pokemon.getSpeciesAbilityName(0), pokemon.getSpeciesAbilityName(1)))
   end
 end
-

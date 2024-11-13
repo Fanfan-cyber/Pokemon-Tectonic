@@ -105,18 +105,14 @@ def discoverPokemon(pkmn)
     pbMessage(_INTL("It's a <imp>shiny</imp> Pokémon!", pkmn.name))
   end
 
-  if all_out_mode?
-    if pkmn.speciesAbility.length == 1
-      pbMessage(_INTL("You check {1}, and discover that its ability is <imp>{2}</imp>!", pkmn.name, pkmn.getSpeciesAbilityName(0)))
-    else
-      pbMessage(_INTL("You check {1}, and discover that its abilities are <imp>{2}</imp> and <imp>{3}</imp>!", pkmn.name, pkmn.getSpeciesAbilityName(0), pkmn.getSpeciesAbilityName(1)))
-	end
-  else
-    pbMessage(_INTL("You check {1}, and discover that its ability is <imp>{2}</imp>!", pkmn.name, pkmn.ability.name))
+  if pkmn.speciesAbility.length == 1
+    pbMessage(_INTL("You check {1}, and discover that its ability is <imp>{2}</imp>!", pkmn.name, pkmn.getSpeciesAbilityName(0)))
+  elsif pkmn.speciesAbility.length > 1
+    pbMessage(_INTL("You check {1}, and discover that its abilities are <imp>{2}</imp> and <imp>{3}</imp>!", pkmn.name, pkmn.getSpeciesAbilityName(0), pkmn.getSpeciesAbilityName(1)))
   end
 
   pkmn.items.each do |item|
-      pbMessage(_INTL("The {1} is holding an {2}!", pkmn.name, getItemName(item)))
+    pbMessage(_INTL("The {1} is holding an {2}!", pkmn.name, getItemName(item)))
   end
 end
 

@@ -49,10 +49,10 @@ def pbSwapPartyPosition(species, new_index = 0, form = 0)
 end
 
 # 从物品列表中选择物品
-def pbChooseItemFromListEX(message, item_ids, must_choose = false)
+def pbChooseItemFromListEX(message, input_ids, must_choose = false)
   names = []
   ids = []
-  item_ids.each do |item_id|
+  input_ids.each do |item_id|
     next if !GameData::Item.exists?(item_id)
     item = GameData::Item.get(item_id)
     names.push(item.name)

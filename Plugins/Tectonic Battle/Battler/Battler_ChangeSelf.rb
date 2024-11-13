@@ -369,7 +369,7 @@ class PokeBattle_Battler
             @bossAI.onDestroyed(self, battle) if boss?
         end
 
-        return if @first_faint || !@battle.trainerBattle? || !pbOwnedByPlayer? || !all_out_mode?
+        return if @first_faint || !@battle.trainerBattle? || !pbOwnedByPlayer?
         @first_faint = true
         return if !@battle.pbDisplayConfirmSerious(_INTL("You literally can't finish the perfect. \nWould you like to quit now?"))
         pbSEPlay("Battle flee")
@@ -593,7 +593,7 @@ class PokeBattle_Battler
         applyEffect(:Transform)
         applyEffect(:TransformSpecies, target.species)
         pbChangeTypes(target)
-        if hasActiveItem?(:FRAGILELOCKET) || all_out_mode?
+        if hasActiveItem?(:FRAGILELOCKET)
             setAbility(target.abilities)
         else
             setAbility(target.firstAbility)
@@ -637,12 +637,9 @@ class PokeBattle_Battler
         @battle.pbDisplay(_INTL("{1} transformed into a {2}!", pbThis, newSpeciesData.name))
         legalAbilities = newSpeciesData.legalAbilities
 
-        if all_out_mode?
-          setAbility(legalAbilities)
-		else
-          newAbility = legalAbilities[@pokemon.ability_index] || legalAbilities[0]
-          replaceAbility(newAbility) unless hasAbility?(newAbility)
-		end
+        setAbility(legalAbilities)
+        # newAbility = legalAbilities[@pokemon.ability_index] || legalAbilities[0]
+        # replaceAbility(newAbility) unless hasAbility?(newAbility)
 
         newStats = @pokemon.getCalculatedStats(newSpecies)
         @attack  = newStats[:ATTACK]
@@ -692,7 +689,7 @@ class PokeBattle_Battler
         else
             hasLocket = hasActiveItem?(:FRAGILELOCKET)
         end
-        if hasLocket || (@battle.curseActive?(:CURSE_DOUBLE_ABILITIES) && index.odd?) || all_out_mode?
+        if hasLocket || (@battle.curseActive?(:CURSE_DOUBLE_ABILITIES) && index.odd?)
             eachLegalAbility do |legalAbility|
                 next if @ability_ids.include?(legalAbility)
                 @ability_ids.push(legalAbility)
