@@ -20,6 +20,7 @@ class PokeBattle_Battle
         pbEORWeather(priority)
 
         if @field.effectActive?(:EmotionRoom)
+=begin
             priority.each { |b|
                 next if b.fainted?
                 next if b.immutableAbility?
@@ -33,6 +34,7 @@ class PokeBattle_Battle
                 pbDisplay(_INTL("{1} was overwhelmed with emotion!", b.pbThis))
                 b.replaceAbility(newAbility)
             }
+=end
         end
 
         pbEORStatusDamage(priority)

@@ -669,7 +669,7 @@ Name = Fragile Locket
 NamePlural = Fragile Lockets
 Pocket = 5
 Price = 12000
-Description = An item to be held by a Pokémon. The user get both of its legal abilities, but its stats are cut by 10%.
+Description = An item to be held by a Pokémon. The user gets three abilities, but its stats are cut by 10%.
 #-------------------------------
 [BIGROOT]
 Name = Big Root

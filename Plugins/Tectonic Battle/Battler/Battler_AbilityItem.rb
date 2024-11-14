@@ -7,8 +7,11 @@ class PokeBattle_Battler
         @battle.pbOnActiveOne(self) if switchIn
         # Primal Revert upon entering battle
         @battle.pbPrimalReversion(@index) unless fainted?
+
         # Ending primordial weather, checking Trace
-        pbContinualAbilityChecks(true)
+        # pbContinualAbilityChecks(true)
+        @battle.eachBattler { |b| b.pbContinualAbilityChecks(true) } # Trace, end primordial weathers
+
         # Abilities that trigger upon switching in
         eachAbility do |ability|
             next unless (!fainted? && GameData::Ability.get(ability).is_immutable_ability?) || abilityActive?
@@ -108,7 +111,7 @@ class PokeBattle_Battler
         return ret # Whether self has switched out
     end
 
-    # Called when a Pokémon (self) enters battle, at the end of each move used,
+    # Called when a Pokémon enters battle, at the end of each move used,
     # and at the end of each round.
     def pbContinualAbilityChecks(onSwitchIn = false)
         # Check for end of primordial weather
@@ -141,7 +144,7 @@ class PokeBattle_Battler
                 copiableAbilities = []
                 b.eachLegalAbility do |abilityID|
                     next if GameData::Ability.get(abilityID).is_uncopyable_ability?
-                    copiableAbilities.push(abilityID)
+                    copiableAbilities.push(abilityID) if !@ability_ids.include?(abilityID)
                 end
                 next if copiableAbilities.empty?
                 choices[b] = copiableAbilities
@@ -152,13 +155,14 @@ class PokeBattle_Battler
                 showMyAbilitySplash(:PLURIPOTENCE)
                 @battle.pbDisplay(_INTL("{2}? {1} can be that, if it wishes.", pbThis, GameData::Species.get(battlerCopying.species).name))
                 echoln("Abilities that Pluripotence is copying: #{abilitiesCopying.to_s}")
-                setAbility(abilitiesCopying)
+                # setAbility(abilitiesCopying)
                 abilitiesCopying.each do |legalAbility|
+                    addAbility(legalAbility)
                     @battle.pbDisplay(_INTL("{1} imitated the Ability {2}!", pbThis, getAbilityName(legalAbility)))
                 end
                 hideMyAbilitySplash
                 if !onSwitchIn && (immutableAbility? || abilityActive?)
-                    eachAbility do |ability|
+                    abilitiesCopying.each do |ability|
                         BattleHandlers.triggerAbilityOnSwitchIn(ability, self, @battle)
                     end
                 end

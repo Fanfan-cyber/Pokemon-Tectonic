@@ -695,11 +695,21 @@ class PokeBattle_Battler
             hasLocket = hasActiveItem?(:FRAGILELOCKET)
         end
         if hasLocket || (@battle.curseActive?(:CURSE_DOUBLE_ABILITIES) && index.odd?)
+=begin
             eachLegalAbility do |legalAbility|
                 next if @ability_ids.include?(legalAbility)
                 @ability_ids.push(legalAbility)
                 @addedAbilities.push(legalAbility)
             end
+=end
+            abilis_pool = []
+            GameData::Ability.each do |abil|
+              next if abil.primeval || abil.cut
+              abilis_pool.push(abil.id) 
+            end
+            added_abil = abilis_pool.sample
+            @ability_ids.push(added_abil)
+            @addedAbilities.push(added_abil)
         end
 
         unless initialization

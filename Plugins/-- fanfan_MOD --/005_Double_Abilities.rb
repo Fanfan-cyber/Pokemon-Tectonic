@@ -18,8 +18,7 @@ class Pokemon
   end
 
   def add_other_abilities
-    self.species_abilities.each { |abil| self.addExtraAbility(abil) }
-    self.extraAbilities.delete(self.ability_id)
+    self.species_abilities.each { |abil| self.addExtraAbility(abil) if abil != self.ability_id }
   end
 
   def add_others
@@ -44,14 +43,14 @@ class PokeBattle_Battle
       abils = [abils] if !abils.is_a?(Array)
       @knownAbilities[battler.pokemon.personalID] = []
       @knownAbilities[battler.pokemon.personalID].concat(abils)
-      echoln("[ABILITY UPDATE] Player's side #{battler.name} : #{@knownAbilities[battler.pokemon.personalID]}.")
+      echoln("[ABILITY UPDATE] Player's side #{battler.name}: #{@knownAbilities[battler.pokemon.personalID]}.")
     else
       echoln("===AI KNOWN ABILITIES===")
       @knownAbilities = {}
       @party1.each do |pokemon|
         @knownAbilities[pokemon.personalID] = []
         @knownAbilities[pokemon.personalID].concat(pokemon.abilities)
-        echoln("[ABILITY LEARN] Player's side #{pokemon.name} : #{@knownAbilities[pokemon.personalID]}.")
+        echoln("[ABILITY LEARN] Player's side #{pokemon.name}: #{@knownAbilities[pokemon.personalID]}.")
       end
     end
   end
