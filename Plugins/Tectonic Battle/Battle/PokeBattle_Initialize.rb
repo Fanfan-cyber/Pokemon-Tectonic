@@ -167,28 +167,28 @@ class PokeBattle_Battle
         else
             @struggle = PokeBattle_Struggle.new(self, nil)
         end
+
+        @stacked_fields = []
+        create_base_field
+
         # System for learning the player's abilities
+        ai_update_abilities
+
+=begin
         @knownAbilities = {}
         @party1.each do |pokemon|
             @knownAbilities[pokemon.personalID] = []
-
             next unless pokemon.getAbilityList.length == 1
             abilityToKnow = pokemon.getAbilityList[0][0]
             @knownAbilities[pokemon.personalID].push(abilityToKnow)
             echoln("Player's side Pokémon #{pokemon.name}'s ability #{abilityToKnow} is known by the AI, since species only has one legal ability.")
         end
+=end
 
         # System for learning the player's moves
-        @knownMoves = {}
-        echoln("===PARTY 1 KNOWN MOVES===")
-        @party1.each do |pokemon|
-            initializeKnownMoves(pokemon)
-        end
-        echoln("===PARTY 2 KNOWN MOVES===")
-        @party2.each do |pokemon|
-            initializeKnownMoves(pokemon)
-        end
+        ai_update_moves
 
+        # System for learning the player's moves
         @knownItems = {}
         echoln("===PARTY 1 KNOWN ITEMS===")
         @party1.each do |pokemon|
@@ -200,12 +200,23 @@ class PokeBattle_Battle
         end
     end
 
+    def ai_update_moves
+        @knownMoves = {}
+        echoln("===PARTY 1 KNOWN MOVES===")
+        @party1.each do |pokemon|
+            initializeKnownMoves(pokemon)
+        end
+        echoln("===PARTY 2 KNOWN MOVES===")
+        @party2.each do |pokemon|
+            initializeKnownMoves(pokemon)
+        end
+    end
+
     def initializeKnownMoves(pokemon)
-        knownMovesArray = []
-        @knownMoves[pokemon.personalID] = knownMovesArray
+        @knownMoves[pokemon.personalID] = []
         pokemon.moves.each do |move|
-            next unless pokemon.boss? || aiAutoKnowsMove?(move,pokemon)
-            knownMovesArray.push(move.id)
+            # next if !pokemon.boss? && aiAutoKnowsMove?(move,pokemon)
+            @knownMoves[pokemon.personalID].push(move.id)
             echoln("Pokémon #{pokemon.name}'s move #{move.name} is known by the AI")
         end
     end

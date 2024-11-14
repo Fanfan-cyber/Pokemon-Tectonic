@@ -33,6 +33,23 @@ def party_dup_item?
   $Trainer&.party_dup_item?
 end
 
+# 检查队伍中是否有某个精灵
+def has_species_party?(species, form = -1)
+  $Trainer.has_species?(species, form)
+end
+
+# 检查电脑中是否有某个精灵
+def has_species_pc?(species, form = -1)
+  pbEachNonEggPokemon do |pkmn, box|
+    return true if pkmn.isSpecies?(species) && (form < 0 || pkmn.form == form)
+  end
+end
+
+# 检查队伍和电脑中是否有某个精灵
+def has_species?(species, form = -1)
+  has_species_party?(species, form) || has_species_pc?(species, form)
+end
+
 # 获取队伍中某只精灵的索引
 def pbGetPartyIndex(species, form = 0)
   $Trainer&.pbGetPartyIndex(species, form)

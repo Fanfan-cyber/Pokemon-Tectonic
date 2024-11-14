@@ -87,6 +87,10 @@ class PokeBattle_Battler
         return @ability_ids
     end
 
+    def removeIllegalAbilities
+      @ability_ids.delete_if { |abil_id| !legalAbilities.include?(abil_id) } if !$DEBUG
+    end
+
     def firstAbility
         return @ability_ids.empty? ? nil : @ability_ids[0]
     end
@@ -912,7 +916,7 @@ class PokeBattle_Battler
     end
 
     def legalAbilities
-        return @pokemon.species_data.legalAbilities
+        return @pokemon.legal_abilities
     end
 
     def eachLegalAbility

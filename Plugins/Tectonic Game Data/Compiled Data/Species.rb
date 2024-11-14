@@ -489,6 +489,16 @@ module GameData
             return legalAbilities
         end
 
+        def hasMultiAbilities?
+            legalAbilities.length >= 2
+        end
+
+        def legalAbilitiesNames(index = nil)
+            abilities_names = legalAbilities.map { |abil_id| getAbilityName(abil_id) }
+            return "#{abilities_names.quick_join}" if !index
+            abilities_names[index]
+        end
+
         def wildHeldItemsWithRarities
             itemsAndRarities = {}
             itemsAndRarities[@wild_item_common] = WILD_ITEM_CHANCE_COMMON if @wild_item_common

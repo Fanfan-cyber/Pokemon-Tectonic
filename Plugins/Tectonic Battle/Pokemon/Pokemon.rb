@@ -549,6 +549,8 @@ class Pokemon
 
     def extraAbilities
         @extraAbilities = [] if @extraAbilities.nil?
+        @extraAbilities.compact!
+        @extraAbilities.uniq!
         return @extraAbilities
     end
 
@@ -1524,6 +1526,8 @@ class Pokemon
             regeneratePersonalID
             @shiny = nil
         end
+
+        add_all_other_abilities
     end
 
     def aestheticsID

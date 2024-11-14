@@ -402,9 +402,9 @@ def showPokemonChanges(pokemon, &block)
       # msg = _INTL("{1}'s displaying ability was changed to {2}.", pokemon.name, ability_name)
       # pbMessage(msg)
   # end
-  if pokemon.speciesAbility.length == 1
-      pbMessage(_INTL("{1}'s ability now is <imp>{2}</imp>!", pokemon.name, pokemon.getSpeciesAbilityName(0)))
-  elsif pokemon.speciesAbility.length > 1
-      pbMessage(_INTL("{1}'s abilities now are <imp>{2}</imp> and <imp>{3}</imp>!", pokemon.name, pokemon.getSpeciesAbilityName(0), pokemon.getSpeciesAbilityName(1)))
+  if pokemon.species_abilities.length == 1
+      pbMessage(_INTL("{1}'s ability now is <imp>{2}</imp>!", pokemon.name, pokemon.species_abilities_names(0)))
+  elsif pokemon.species_abilities.length > 1
+      pbMessage(_INTL("{1}'s abilities now are <imp>{2}</imp> and <imp>{3}</imp>!", pokemon.name, pokemon.species_abilities_names(0), pokemon.species_abilities_names(1)))
   end
 end

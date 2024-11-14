@@ -4,8 +4,6 @@ def game_start_tribe_update_trigger
 end
 
 class Player
-  attr_reader :deity
-
   def money
     set_max_money if infinite_money?
     @money

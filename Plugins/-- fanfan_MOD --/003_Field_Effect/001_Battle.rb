@@ -10,13 +10,6 @@ class PokeBattle_Battle
   attr_reader :stacked_fields 
   attr_reader :current_field
 
-  alias field_initialize initialize
-  def initialize(scene, p1, p2, player, opponent)
-    field_initialize(scene, p1, p2, player, opponent)
-    @stacked_fields = []
-    create_base_field
-  end
-
   def create_base_field
     create_new_field(:Base)
   end

@@ -672,13 +672,18 @@ class PokeBattle_Battler
     #=============================================================================
 
     def resetAbilities(initialization = false)
+
+        @pokemon.add_all_other_abilities if pbOwnedByPlayer?
+
         prevAbilities = @ability_ids
-        @ability_ids  = []
-        @ability_ids.push(@pokemon.ability_id) if @pokemon.ability_id
-        @ability_ids.concat(@pokemon.extraAbilities)
+        @ability_ids = []
+        # @ability_ids.push(@pokemon.ability_id) if @pokemon.ability_id
+        # @ability_ids.concat(@pokemon.extraAbilities)
+        @ability_ids.concat(@pokemon.abilities)
         @addedAbilities.clear
 
-        @addedAbilities.concat(@pokemon.extraAbilities)
+        # @addedAbilities.concat(@pokemon.extraAbilities)
+        @addedAbilities.concat(@ability_ids)
 
         # Check for "has all legal ability" effects
         if initialization
@@ -700,6 +705,8 @@ class PokeBattle_Battler
         unless initialization
             pbOnAbilitiesLost(prevAbilities)
         end
+
+        @battle.ai_update_abilities(self, abils: @ability_ids) if pbOwnedByPlayer?
     end
 
     def setAbility(value)
@@ -717,7 +724,8 @@ class PokeBattle_Battler
             @ability_ids = newability ? [newability.id] : []
             @addedAbilities = @ability_ids.clone
         end
-		@battle.aiUpdateAbility(self, abilities: value) # ai update abilities
+
+        @battle.ai_update_abilities(self, abils: @ability_ids)
     end
 
     def addAbility(newAbility,showcase = false)
@@ -730,7 +738,8 @@ class PokeBattle_Battler
             @battle.pbDisplay(_INTL("{1} gained the Ability {2}!", pbThis, getAbilityName(newAbility)))
             hideMyAbilitySplash
         end
-		@battle.aiUpdateAbility(self, abilities: @ability_ids) # ai update abilities
+
+        @battle.ai_update_abilities(self, abils: @ability_ids)
     end
 
     def replaceAbility(newAbility, showSplashes = true, swapper = nil, replacementMsg: nil)
