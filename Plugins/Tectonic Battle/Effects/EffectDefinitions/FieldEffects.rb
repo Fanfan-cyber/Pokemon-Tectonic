@@ -194,7 +194,7 @@ GameData::BattleEffect.register_effect(:Field, {
     :ticks_down => true,
     :is_room => true,
     :apply_proc => proc do |battle, _value|
-        battle.pbDisplay(_INTL("An emotional area appeared! Everyone switches ability every turn!"))
+        battle.pbDisplay(_INTL("An emotional area appeared! Everyone gets an ability every turn!"))
     end,
     :disable_proc => proc do |battle, _battler|
         battle.pbDisplay(_INTL("The emotional area was dispelled!"))

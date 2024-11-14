@@ -704,8 +704,8 @@ class PokeBattle_Battler
 =end
             abilis_pool = []
             GameData::Ability.each do |abil|
-              next if abil.primeval || abil.cut
-              abilis_pool.push(abil.id) 
+              next if abil.primeval || abil.cut || abil.is_uncopyable_ability?
+              abilis_pool.push(abil.id) if !@ability_ids.include?(abil.id)
             end
             added_abil = abilis_pool.sample
             @ability_ids.push(added_abil)
@@ -743,13 +743,14 @@ class PokeBattle_Battler
         newAbility = GameData::Ability.try_get(newAbility).id
         @ability_ids.push(newAbility)
         @addedAbilities.push(newAbility)
+
+        @battle.ai_update_abilities(self, abils: @ability_ids)
+
         if showcase
             showMyAbilitySplash(newAbility)
             @battle.pbDisplay(_INTL("{1} gained the Ability {2}!", pbThis, getAbilityName(newAbility)))
             hideMyAbilitySplash
         end
-
-        @battle.ai_update_abilities(self, abils: @ability_ids)
     end
 
     def replaceAbility(newAbility, showSplashes = true, swapper = nil, replacementMsg: nil)

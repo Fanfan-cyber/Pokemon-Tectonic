@@ -482,7 +482,7 @@ Description = Uses Lightning Dance if an attack lowers its HP to half or below.
 #-------------------------------
 [EMOTIONAURA] # 0285
 Name = Emotion Aura
-Description = Upon entry, creates an Emotion Room for five turns, switching Abilities every turn.
+Description = Upon entry, creates an Emotion Room for five turns, everyone gets an ability every turn.
 #-------------------------------
 [ENERGETIC] # 0286
 Name = Energetic

@@ -20,9 +20,16 @@ class PokeBattle_Battle
         pbEORWeather(priority)
 
         if @field.effectActive?(:EmotionRoom)
-=begin
             priority.each { |b|
                 next if b.fainted?
+                abilis_pool = []
+                GameData::Ability.each do |abil|
+                  next if abil.primeval || abil.cut || abil.is_uncopyable_ability?
+                  abilis_pool.push(abil.id) if !b.ability_ids.include?(abil.id)
+                end
+                added_abil = abilis_pool.sample
+                b.addAbility(added_abil, true)
+=begin
                 next if b.immutableAbility?
                 possibleAbilitySwitches = []
                 b.legalAbilities.each do |abil|
@@ -33,8 +40,8 @@ class PokeBattle_Battle
                 newAbility = possibleAbilitySwitches.sample
                 pbDisplay(_INTL("{1} was overwhelmed with emotion!", b.pbThis))
                 b.replaceAbility(newAbility)
-            }
 =end
+            }
         end
 
         pbEORStatusDamage(priority)
