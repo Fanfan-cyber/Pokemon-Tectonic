@@ -15,10 +15,6 @@ class PokeBattle_Battle
 
         checkBattleStateAchievements(self)
 
-        pbEORHealing(priority)
-
-        pbEORWeather(priority)
-
         if @field.effectActive?(:EmotionRoom)
             priority.each { |b|
                b.add_random_ability(true)
@@ -36,6 +32,10 @@ class PokeBattle_Battle
 =end
             }
         end
+
+        pbEORHealing(priority)
+
+        pbEORWeather(priority)
 
         pbEORStatusDamage(priority)
 

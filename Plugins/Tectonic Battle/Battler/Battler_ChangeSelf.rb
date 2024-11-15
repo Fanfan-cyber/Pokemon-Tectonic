@@ -702,7 +702,7 @@ class PokeBattle_Battler
                 @addedAbilities.push(legalAbility)
             end
 =end
-            self.add_random_ability
+            self.add_random_ability(false, false)
         end
 
         unless initialization
@@ -731,7 +731,7 @@ class PokeBattle_Battler
         @battle.ai_update_abilities(self, abils: @ability_ids)
     end
 
-    def addAbility(newAbility,showcase = false)
+    def addAbility(newAbility, showcase = false, trigger = false)
         return if @ability_ids.include?(newAbility)
         newAbility = GameData::Ability.try_get(newAbility).id
         @ability_ids.push(newAbility)
@@ -744,6 +744,8 @@ class PokeBattle_Battler
             @battle.pbDisplay(_INTL("{1} gained the Ability {2}!", pbThis, getAbilityName(newAbility)))
             hideMyAbilitySplash
         end
+
+        BattleHandlers.triggerAbilityOnSwitchIn(newAbility, self, @battle) if trigger && abilityActive?
     end
 
     def replaceAbility(newAbility, showSplashes = true, swapper = nil, replacementMsg: nil)

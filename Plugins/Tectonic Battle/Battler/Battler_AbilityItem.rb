@@ -9,8 +9,8 @@ class PokeBattle_Battler
         @battle.pbPrimalReversion(@index) unless fainted?
 
         # Ending primordial weather, checking Trace
-        # pbContinualAbilityChecks(true)
-        @battle.eachBattler { |b| b.pbContinualAbilityChecks(true) } # Trace, end primordial weathers
+        pbContinualAbilityChecks(true)
+        @battle.eachOtherSideBattler(@index) { |b| b.pbContinualAbilityChecks(true) }
 
         # Abilities that trigger upon switching in
         eachAbility do |ability|
@@ -150,17 +150,17 @@ class PokeBattle_Battler
                 choices[b] = copiableAbilities
             end
             unless choices.empty?
-                battlerCopying = choices.keys.sample
-                abilitiesCopying = choices[battlerCopying]
                 showMyAbilitySplash(:PLURIPOTENCE)
-                @battle.pbDisplay(_INTL("{2}? {1} can be that, if it wishes.", pbThis, GameData::Species.get(battlerCopying.species).name))
-                echoln("Abilities that Pluripotence is copying: #{abilitiesCopying.to_s}")
-                # setAbility(abilitiesCopying)
-                abilitiesCopying.each do |legalAbility|
-                    addAbility(legalAbility)
-                    @battle.pbDisplay(_INTL("{1} imitated the Ability {2}!", pbThis, getAbilityName(legalAbility)))
+                choices.each do |battlerCopying, abilitiesCopying|
+                    @battle.pbDisplay(_INTL("{2}? {1} can be that, if it wishes.", pbThis, GameData::Species.get(battlerCopying.species).name))
+                    echoln("Abilities that Pluripotence is copying: #{abilitiesCopying.to_s}")
+                    abilitiesCopying.each do |legalAbility|
+                        addAbility(legalAbility)
+                        @battle.pbDisplay(_INTL("{1} imitated the Ability {2}!", pbThis, getAbilityName(legalAbility)))
+                  end
                 end
                 hideMyAbilitySplash
+                
                 if !onSwitchIn && (immutableAbility? || abilityActive?)
                     abilitiesCopying.each do |ability|
                         BattleHandlers.triggerAbilityOnSwitchIn(ability, self, @battle)
