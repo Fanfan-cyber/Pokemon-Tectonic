@@ -65,6 +65,19 @@ def pbSwapPartyPosition(species, new_index = 0, form = 0)
   $Trainer&.pbSwapPartyPosition(species, new_index, form)
 end
 
+# 从特性库中随机选择一个特性
+def choose_random_ability(battler = nil)
+  return if battler&.fainted?
+  abilis_pool = []
+  GameData::Ability.each do |abil|
+    next if abil.primeval || abil.cut
+    next if abil.is_uncopyable_ability?
+    next if battler&.abilities.include?(abil.id)
+    abilis_pool.push(abil.id)
+  end
+  abilis_pool.sample
+end
+
 # 从物品列表中选择物品
 def pbChooseItemFromListEX(message, input_ids, must_choose = false)
   names = []

@@ -702,14 +702,7 @@ class PokeBattle_Battler
                 @addedAbilities.push(legalAbility)
             end
 =end
-            abilis_pool = []
-            GameData::Ability.each do |abil|
-              next if abil.primeval || abil.cut || abil.is_uncopyable_ability?
-              abilis_pool.push(abil.id) if !@ability_ids.include?(abil.id)
-            end
-            added_abil = abilis_pool.sample
-            @ability_ids.push(added_abil)
-            @addedAbilities.push(added_abil)
+            self.add_random_ability
         end
 
         unless initialization

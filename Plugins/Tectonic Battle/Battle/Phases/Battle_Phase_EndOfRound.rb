@@ -21,14 +21,7 @@ class PokeBattle_Battle
 
         if @field.effectActive?(:EmotionRoom)
             priority.each { |b|
-                next if b.fainted?
-                abilis_pool = []
-                GameData::Ability.each do |abil|
-                  next if abil.primeval || abil.cut || abil.is_uncopyable_ability?
-                  abilis_pool.push(abil.id) if !b.ability_ids.include?(abil.id)
-                end
-                added_abil = abilis_pool.sample
-                b.addAbility(added_abil, true)
+               b.add_random_ability(true)
 =begin
                 next if b.immutableAbility?
                 possibleAbilitySwitches = []
