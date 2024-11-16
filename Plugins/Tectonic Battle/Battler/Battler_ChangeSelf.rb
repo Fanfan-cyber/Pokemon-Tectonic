@@ -742,8 +742,11 @@ class PokeBattle_Battler
             @battle.pbDisplay(_INTL("{1} gained the Ability {2}!", pbThis, getAbilityName(newAbility)))
             hideMyAbilitySplash
         end
-
-        BattleHandlers.triggerAbilityOnSwitchIn(newAbility, self, @battle) if trigger && abilityActive?
+        
+        if trigger && abilityActive?
+            BattleHandlers.triggerAbilityOnSwitchIn(newAbility, self, @battle)
+            BattleHandlers.triggerStatusCureAbility(newAbility, self)
+        end
         newAbility
     end
 

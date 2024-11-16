@@ -1,39 +1,39 @@
 class Pokemon
   def legal_abilities
-    self.species_data.legalAbilities
+    species_data.legalAbilities
   end
   alias species_abilities legal_abilities
 
   def species_abilities_names(index = nil)
-    self.species_data.legalAbilitiesNames(index)
+    species_data.legalAbilitiesNames(index)
   end
 
   def has_multi_abilities?
-    self.species_data.hasMultiAbilities?
+    species_data.hasMultiAbilities?
   end
 
   def add_all_other_abilities
-    self.add_other_abilities
-    self.add_others
+    add_other_abilities
+    add_others
   end
 
   def add_other_abilities
-    self.species_abilities.each { |abil| self.addExtraAbility(abil) if abil != self.ability_id }
+    species_abilities.each { |abil| addExtraAbility(abil) if abil != ability_id }
   end
 
   def add_others
   end
 
   def abilities
-    @abilities = ([self.ability_id] | self.extraAbilities).compact
-    @abilities.delete_if { |abil_id| !self.legal_abilities.include?(abil_id) } if !$DEBUG
+    @abilities = ([ability_id] | extraAbilities).compact
+    @abilities.delete_if { |abil_id| !legal_abilities.include?(abil_id) } if !$DEBUG
     @abilities
   end
 
   def hasAbility?(check_ability = nil)
-    return !self.ability.nil? if check_ability.nil?
-    return self.abilities.include?(check_ability) if check_ability.is_a?(Symbol)
-    self.abilities.any? { |abil_id| check_ability.id == abil_id }
+    return !ability.nil? if check_ability.nil?
+    return abilities.include?(check_ability) if check_ability.is_a?(Symbol)
+    abilities.any? { |abil_id| check_ability.id == abil_id }
   end
 end
 

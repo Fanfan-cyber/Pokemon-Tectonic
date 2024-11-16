@@ -164,6 +164,7 @@ class PokeBattle_Battler
                 if !onSwitchIn && (immutableAbility? || abilityActive?)
                     abilitiesCopying.each do |ability|
                         BattleHandlers.triggerAbilityOnSwitchIn(ability, self, @battle)
+                        BattleHandlers.triggerStatusCureAbility(ability, self)
                     end
                 end
             end
