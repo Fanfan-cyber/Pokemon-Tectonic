@@ -695,6 +695,7 @@ class PokeBattle_Battler
             hasLocket = hasActiveItem?(:FRAGILELOCKET)
         end
         if hasLocket || (@battle.curseActive?(:CURSE_DOUBLE_ABILITIES) && index.odd?)
+            add_random_ability(false, false)
 =begin
             eachLegalAbility do |legalAbility|
                 next if @ability_ids.include?(legalAbility)
@@ -702,14 +703,11 @@ class PokeBattle_Battler
                 @addedAbilities.push(legalAbility)
             end
 =end
-            self.add_random_ability(false, false)
         end
 
         unless initialization
             pbOnAbilitiesLost(prevAbilities)
         end
-
-        @battle.ai_update_abilities(self, abils: @ability_ids) if pbOwnedByPlayer?
     end
 
     def setAbility(value)
@@ -746,6 +744,7 @@ class PokeBattle_Battler
         end
 
         BattleHandlers.triggerAbilityOnSwitchIn(newAbility, self, @battle) if trigger && abilityActive?
+        newAbility
     end
 
     def replaceAbility(newAbility, showSplashes = true, swapper = nil, replacementMsg: nil)

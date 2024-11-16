@@ -39,8 +39,8 @@ end
 
 class PokeBattle_Battle
   def ai_update_abilities(battler = nil, abils: nil)
-    if battler && abils
-      abils = [abils] if !abils.is_a?(Array)
+    if battler&.pbOwnedByPlayer?
+      abils = [abils].compact if !abils.is_a?(Array)
       @knownAbilities[battler.pokemon.personalID] = []
       @knownAbilities[battler.pokemon.personalID].concat(abils)
       echoln("[ABILITY UPDATE] Player's side #{battler.name}: #{@knownAbilities[battler.pokemon.personalID]}.")
