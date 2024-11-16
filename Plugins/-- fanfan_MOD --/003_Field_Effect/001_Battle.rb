@@ -34,7 +34,7 @@ class PokeBattle_Battle
       end
 
       return if !PokeBattle_Battle::Field::OPPOSING_ADVANTAGEOUS_TYPE_FIELD
-      opposing_types = all_opposing_types.dup
+      opposing_types = party2_able_pkmn_types.dup
       opposing_advantageous_types = trainerBattle? ? opposing_types.most_elements : opposing_types
 
       advantageous_fields = []
@@ -386,38 +386,6 @@ class PokeBattle_Battle
 
   def is_frozen_field?
     @current_field.is_frozen?
-  end
-
-  def all_own_types
-    own_types = []
-    @party1.each { |pkmn| own_types.add(pkmn.types) if !pkmn.fainted? }
-    own_types
-  end
-
-  def all_opposing_types
-    opposing_types = []
-    @party2.each { |pkmn| opposing_types.add(pkmn.types) if !pkmn.fainted? }
-    opposing_types
-  end
-
-  def all_types
-    living_type = []
-    eachBattler { |b| living_type.add(b.pbTypes) }
-    battler_ids = @battlers.compact.map { |b| b.pokemon.personalID }
-    (@party1 + @party2).each do |pkmn|
-      next if pkmn.fainted?
-      next if battler_ids.has?(pkmn.personalID)
-      living_type.add(pkmn.types)
-    end
-    living_type
-  end
-
-  def most_type
-    all_types.most_element
-  end
-
-  def least_type
-    all_types.least_element
   end
 end
 
