@@ -110,20 +110,20 @@ class UI_Custom
   end
 
   def to_center(sprite)
-   @sprites[sprite].x = (Graphics.width - @sprites[sprite].bitmap.width) / 2
-   @sprites[sprite].y = (Graphics.height - @sprites[sprite].bitmap.height) / 2
+    @sprites[sprite].x = (Graphics.width - @sprites[sprite].bitmap.width) / 2
+    @sprites[sprite].y = (Graphics.height - @sprites[sprite].bitmap.height) / 2
   end
 
   def to_center_x(sprite)
-   @sprites[sprite].x = (Graphics.width - @sprites[sprite].bitmap.width) / 2
+    @sprites[sprite].x = (Graphics.width - @sprites[sprite].bitmap.width) / 2
   end
 
   def to_center_y(sprite)
-   @sprites[sprite].y = (Graphics.height - @sprites[sprite].bitmap.height) / 2
+    @sprites[sprite].y = (Graphics.height - @sprites[sprite].bitmap.height) / 2
   end
 
   def set_opacity(sprite, opacity = 255)
-   @sprites[sprite].opacity = opacity
+    @sprites[sprite].opacity = opacity
   end
 end
 

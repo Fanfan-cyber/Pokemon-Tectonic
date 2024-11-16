@@ -11,7 +11,7 @@ class Numeric
 
   # 在数字前填充0
   def to_digits(n = 3)
-    self.to_s.rjust(n, "0")
+    to_s.rjust(n, "0")
   end
 
   # 计算开方
