@@ -34,8 +34,8 @@ class PokeBattle_Battle
       end
 
       return if !PokeBattle_Battle::Field::OPPOSING_ADVANTAGEOUS_TYPE_FIELD
-      all_types = all_opposing_types.dup
-      opposing_advantageous_types = trainerBattle? ? all_types.most_elements : all_types
+      opposing_types = all_opposing_types.dup
+      opposing_advantageous_types = trainerBattle? ? opposing_types.most_elements : opposing_types
 
       advantageous_fields = []
       all_fields_data.each do |field, data| # type field
@@ -389,11 +389,35 @@ class PokeBattle_Battle
   end
 
   def all_own_types
-    pbParty(0).map(&:types).flatten
+    own_types = []
+    @party1.each { |pkmn| own_types.add(pkmn.types) if !pkmn.fainted? }
+    own_types
   end
 
   def all_opposing_types
-    pbParty(1).map(&:types).flatten
+    opposing_types = []
+    @party2.each { |pkmn| opposing_types.add(pkmn.types) if !pkmn.fainted? }
+    opposing_types
+  end
+
+  def all_types
+    living_type = []
+    eachBattler { |b| living_type.add(b.pbTypes) }
+    battler_ids = @battlers.compact.map { |b| b.pokemon.personalID }
+    (@party1 + @party2).each do |pkmn|
+      next if pkmn.fainted?
+      next if battler_ids.has?(pkmn.personalID)
+      living_type.add(pkmn.types)
+    end
+    living_type
+  end
+
+  def most_type
+    all_types.most_element
+  end
+
+  def least_type
+    all_types.least_element
   end
 end
 

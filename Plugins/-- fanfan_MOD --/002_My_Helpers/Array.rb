@@ -122,6 +122,11 @@ class Array
     elements_count.select { |_element, count| count == most_elements_count }.keys
   end
 
+  # 获取数组中出现的次数最多的唯一元素
+  def most_element
+    most_elements.sample
+  end
+
   # 获取数组中出现的次数最多的元素出现的次数
   def most_elements_count
     elements_count.values.max
@@ -130,6 +135,11 @@ class Array
   # 获取数组中出现的次数最少的元素
   def least_elements
     elements_count.select { |_element, count| count == least_elements_count }.keys
+  end
+
+  # 获取数组中出现的次数最少的唯一元素
+  def least_element
+    least_elements.sample
   end
 
   # 获取数组中出现的次数最少的元素出现的次数
