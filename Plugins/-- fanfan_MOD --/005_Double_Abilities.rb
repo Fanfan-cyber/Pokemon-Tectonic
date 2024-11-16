@@ -48,10 +48,12 @@ class PokeBattle_Battle
       echoln("===AI KNOWN ABILITIES===")
       @knownAbilities = {}
       @party1.each do |pokemon|
+        pokemon.add_all_other_abilities
         @knownAbilities[pokemon.personalID] = []
         @knownAbilities[pokemon.personalID].concat(pokemon.abilities)
         echoln("[ABILITY LEARN] Player's side #{pokemon.name}: #{@knownAbilities[pokemon.personalID]}.")
       end
+      @party2.each { |pokemon| pokemon.add_all_other_abilities }
     end
   end
 end

@@ -672,9 +672,6 @@ class PokeBattle_Battler
     #=============================================================================
 
     def resetAbilities(initialization = false)
-
-        @pokemon.add_all_other_abilities if pbOwnedByPlayer?
-
         prevAbilities = @ability_ids
         @ability_ids = []
         # @ability_ids.push(@pokemon.ability_id) if @pokemon.ability_id

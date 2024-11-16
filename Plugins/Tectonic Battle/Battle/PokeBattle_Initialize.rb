@@ -173,7 +173,6 @@ class PokeBattle_Battle
 
         # System for learning the player's abilities
         ai_update_abilities
-
 =begin
         @knownAbilities = {}
         @party1.each do |pokemon|

@@ -38,6 +38,7 @@ BattleHandlers::ItemOnSwitchIn.add(:LUMBERAXE,
 BattleHandlers::ItemOnSwitchIn.add(:FRAGILELOCKET,
     proc { |item, battler, battle|
         battle.pbDisplay(_INTL("{1} holds a {2} close!", battler.pbThis, getItemName(item)))
+        #battle.pbDisplay(_INTL("{1} gets a new ability {2}!", battler.pbThis, getAbilityName(battler.abilities[-1])))
         battler.aiLearnsItem(item)
     }
 )
