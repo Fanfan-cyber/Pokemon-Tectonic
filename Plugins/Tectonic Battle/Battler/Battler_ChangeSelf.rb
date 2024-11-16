@@ -743,7 +743,7 @@ class PokeBattle_Battler
             hideMyAbilitySplash
         end
         
-        if trigger && abilityActive?
+        if trigger && (immutableAbility? || abilityActive?)
             BattleHandlers.triggerAbilityOnSwitchIn(newAbility, self, @battle)
             BattleHandlers.triggerStatusCureAbility(newAbility, self)
         end
