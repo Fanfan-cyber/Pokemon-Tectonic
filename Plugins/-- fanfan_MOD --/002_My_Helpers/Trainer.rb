@@ -26,6 +26,22 @@ class Trainer
     @party.each_with_index { |pkmn, index| yield pkmn, index if pkmn && pkmn.egg? }
   end
 
+  # 获取队伍中的最高等级
+  def party_highest_level
+    able_party.map(&:level).max
+  end
+
+  # 获取队伍中的最低等级
+  def party_lowest_level
+    able_party.map(&:level).min
+  end
+
+  # 随机获取一只队伍里的精灵
+  def party_random_pkmn(able = true, clone = false)
+    pkmn = able ? able_party.sample : pokemon_party.sample
+    clone ? pkmn.clone : pkmn
+  end
+
   # 获取队伍中所有精灵携带的物品
   def party_items
     @party.map(&:items).flatten

@@ -270,20 +270,20 @@ class PokeBattle_Battle
   def field_announcement(announcement_type)
     case announcement_type
     when :start
-    message = @current_field.field_announcement[0]
-    pbDisplay(message) if message && !message.empty?
-    if is_infinite_field?
-      pbDisplay(_INTL("The field will exist forever!"))
-    else
-      pbDisplay(_INTL("The field will last for {1} more turns!", field_duration))
-    end
+      message = @current_field.field_announcement[0]
+      pbDisplay(message) if message && !message.empty?
+      if is_infinite_field?
+        pbDisplay(_INTL("The field will exist forever!"))
+      else
+        pbDisplay(_INTL("The field will last for {1} more turns!", field_duration))
+      end
     when :continue
-    message = @current_field.field_announcement[1] || @current_field.field_announcement[0]
-    pbDisplay(message) if message && !message.empty?
-    pbDisplay(_INTL("The field will last for {1} more turns!", field_duration)) if !is_infinite_field?
+      message = @current_field.field_announcement[1] || @current_field.field_announcement[0]
+      pbDisplay(message) if message && !message.empty?
+      pbDisplay(_INTL("The field will last for {1} more turns!", field_duration)) if !is_infinite_field?
     when :end
-    message = @current_field.field_announcement[2]
-    pbDisplay(message) if message && !message.empty?
+      message = @current_field.field_announcement[2]
+      pbDisplay(message) if message && !message.empty?
     end
   end
 
