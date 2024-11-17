@@ -41,17 +41,17 @@ class PokeBattle_Battle
   def ai_update_abilities(battler = nil, abils: nil)
     if battler&.pbOwnedByPlayer?
       abils = [abils].compact if !abils.is_a?(Array)
-      @knownAbilities[battler.pokemon.personalID] = []
-      @knownAbilities[battler.pokemon.personalID].concat(abils)
-      echoln("[ABILITY UPDATE] Player's side #{battler.name}: #{@knownAbilities[battler.pokemon.personalID]}.")
+      @knownAbilities[battler.unique_id] = []
+      @knownAbilities[battler.unique_id].concat(abils)
+      echoln("[ABILITY UPDATE] Player's side #{battler.name}: #{@knownAbilities[battler.unique_id]}.")
     else
       echoln("===AI KNOWN ABILITIES===")
       @knownAbilities = {}
       @party1.each do |pokemon|
         pokemon.add_all_other_abilities
-        @knownAbilities[pokemon.personalID] = []
-        @knownAbilities[pokemon.personalID].concat(pokemon.abilities)
-        echoln("[ABILITY LEARN] Player's side #{pokemon.name}: #{@knownAbilities[pokemon.personalID]}.")
+        @knownAbilities[pokemon.unique_id] = []
+        @knownAbilities[pokemon.unique_id].concat(pokemon.abilities)
+        echoln("[ABILITY LEARN] Player's side #{pokemon.name}: #{@knownAbilities[pokemon.unique_id]}.")
       end
       @party2.each { |pokemon| pokemon.add_all_other_abilities }
     end

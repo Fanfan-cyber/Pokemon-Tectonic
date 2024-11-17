@@ -99,6 +99,13 @@ def pbChooseItemFromListEX(message, input_ids, must_choose = false)
   ids[ret]
 end
 
+# 生成一个独特的ID
+def generate_unique_id(digits = 8)
+  random_ints = ("0".."9").to_a.sample(digits)
+  random_letters = ("a".."z").to_a.sample(digits) + ("A".."Z").to_a.sample(digits)
+  (random_ints + random_letters).shuffle!.join
+end
+
 # 按照中文重新排序背包的所有口袋
 def sort_bag
   $bag&.pockets.each { |pocket| pocket.sort_item! }

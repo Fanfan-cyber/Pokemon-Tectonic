@@ -244,14 +244,14 @@ class PokeBattle_Battle
 
     def aiLearnsAbility(battler, ability)
         return unless battler.pbOwnedByPlayer?
-        return if @knownAbilities[battler.pokemon.personalID].include?(ability)
-        @knownAbilities[battler.pokemon.personalID].push(ability)
+        return if @knownAbilities[battler.unique_id].include?(ability)
+        @knownAbilities[battler.unique_id].push(ability)
         echoln("[AI LEARNING] The AI is now aware of #{battler.pbThis(true)}'s ability #{ability}")
     end
 
     # If given an array, returns true if the AI knows of ANY of the listed abilities
     def aiKnowsAbility?(pokemon,checkAbility)
-        knownAbilitiesOfMon = @knownAbilities[pokemon.personalID]
+        knownAbilitiesOfMon = @knownAbilities[pokemon.unique_id]
         return false if knownAbilitiesOfMon.nil?
         if checkAbility.is_a?(Array)
             checkAbility.each do |specificAbility|

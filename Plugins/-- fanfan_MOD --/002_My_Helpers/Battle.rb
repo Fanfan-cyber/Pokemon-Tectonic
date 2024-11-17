@@ -47,20 +47,20 @@ class PokeBattle_Battle
     fainted_pkmn
   end
 
-  def both_party
+  def both_party_pkmn
     @party1 + @party2
   end
 
   def each_both_party_pkmn
-    both_party.each { |pkmn| yield pkmn if !pkmn.egg? }
+    both_party_pkmn.each { |pkmn| yield pkmn if !pkmn.egg? }
   end
 
   def each_both_party_able_pkmn
-    both_party.each { |pkmn| yield pkmn if !pkmn.egg? && !pkmn.fainted? }
+    both_party_pkmn.each { |pkmn| yield pkmn if !pkmn.egg? && !pkmn.fainted? }
   end
 
   def each_both_party_fainted_pkmn
-    both_party.each { |pkmn| yield pkmn if !pkmn.egg? && pkmn.fainted? }
+    both_party_pkmn.each { |pkmn| yield pkmn if !pkmn.egg? && pkmn.fainted? }
   end
 
   def both_party_able_pkmn
@@ -75,68 +75,32 @@ class PokeBattle_Battle
     fainted_pkmn
   end
 
-  def party1_pkmn_types
-    @party1.map(&:types).flatten
-  end
-
-  def party1_able_pkmn_types
-    party1_types = []
-    each_party1_able_pkmn { |pkmn| party1_types.add(pkmn.types) }
-    party1_types
-  end
-
-  def party2_pkmn_types
-    @party2.map(&:types).flatten
-  end
-
-  def party2_able_pkmn_types
-    party2_types = []
-    each_party2_able_pkmn { |pkmn| party2_types.add(pkmn.types) }
-    party2_types
-  end
-
-  def both_party_pkmn_types
-    both_party.map(&:types).flatten
-  end
-
-  def both_party_able_pkmn_types
-    all_able_types = []
-    each_both_party_able_pkmn { |pkmn| all_able_types.add(pkmn.types) }
-    all_able_types
-  end
-
   def all_battlers
     @battlers.compact
   end
 
-  def all_battlers_types
-    current_types = []
-    eachBattler { |b| current_types.add(b.pbTypes) }
-    current_types = []
-  end
-
   def party1_battlers_ids
     party1_ids = []
-    eachSameSideBattler { |b| party1_ids.push(b.pokemon.personalID) }
+    eachSameSideBattler { |b| party1_ids.push(b.unique_id) }
     party1_ids
   end
 
   def party2_battlers_ids
     party2_ids = []
-    eachOtherSideBattler { |b| party2_ids.push(b.pokemon.personalID) }
+    eachOtherSideBattler { |b| party2_ids.push(b.unique_id) }
     party2_ids
   end
 
   def all_battlers_ids
-    all_battlers.map { |b| b.pokemon.personalID }
+    all_battlers.map { |b| b.unique_id }
   end
 
   def each_party1_back_pkmn
-    each_party1_pkmn { |pkmn| yield pkmn if !party1_battlers_ids.has?(pkmn.personalID) }
+    each_party1_pkmn { |pkmn| yield pkmn if !party1_battlers_ids.has?(pkmn.unique_id) }
   end
 
   def each_party1_back_able_pkmn
-    each_party1_able_pkmn { |pkmn| yield pkmn if !party1_battlers_ids.has?(pkmn.personalID) }
+    each_party1_able_pkmn { |pkmn| yield pkmn if !party1_battlers_ids.has?(pkmn.unique_id) }
   end
 
   def party1_back_pkmn
@@ -152,11 +116,11 @@ class PokeBattle_Battle
   end
 
   def each_party2_back_pkmn
-    each_party2_pkmn { |pkmn| yield pkmn if !party2_battlers_ids.has?(pkmn.personalID) }
+    each_party2_pkmn { |pkmn| yield pkmn if !party2_battlers_ids.has?(pkmn.unique_id) }
   end
 
   def each_party2_back_able_pkmn
-    each_party2_able_pkmn { |pkmn| yield pkmn if !party2_battlers_ids.has?(pkmn.personalID) }
+    each_party2_able_pkmn { |pkmn| yield pkmn if !party2_battlers_ids.has?(pkmn.unique_id) }
   end
 
   def party2_back_pkmn
@@ -171,47 +135,109 @@ class PokeBattle_Battle
     party2_able_pkmn
   end
 
-  def each_back_pkmn
+  def each_both_party_back_pkmn
+    each_both_party_pkmn { |pkmn| yield pkmn if !all_battlers_ids.has?(pkmn.unique_id) }
   end
 
-  def all_back_pkmn
-    back_pkmn = []
-    each_both_party_pkmn do |pkmn|
-      back_pkmn.add(pkmn) if !all_battlers_ids.has?(pkmn.personalID)
-    end
-    back_pkmn
+  def each_both_party_back_able_pkmn
+    each_both_party_able_pkmn { |pkmn| yield pkmn if !all_battlers_ids.has?(pkmn.unique_id) }
   end
 
-  def all_back_able_pkmn
-    back_pkmn = []
-    each_both_party_able_pkmn do |pkmn|
-      back_pkmn.add(pkmn) if !all_battlers_ids.has?(pkmn.personalID)
-    end
-    back_pkmn
+  def both_party_back_pkmn
+    party_back_pkmn = []
+    each_both_party_back_pkmn { |pkmn| party_back_pkmn.push(pkmn) }
+    party_back_pkmn
   end
 
-  def each_back_pkmn
-    all_back_pkmn.each { |pkmn| yield pkmn }
+  def both_party_back_able_pkmn
+    party_back_able_pkmn = []
+    each_both_party_back_able_pkmn { |pkmn| party_back_able_pkmn.push(pkmn) }
+    party_back_able_pkmn
   end
 
-  def each_back_able_pkmn
-    all_back_able_pkmn.each { |pkmn| yield pkmn }
+  def all_battlers_types
+    current_types = []
+    eachBattler { |b| current_types.add(b.pbTypes(true)) }
+    current_types
+  end
+
+  def party1_pkmn_types
+    @party1.map(&:types).flatten
+  end
+
+  def party1_able_pkmn_types
+    party1_types = []
+    each_party1_able_pkmn { |pkmn| party1_types.add(pkmn.types) }
+    party1_types
+  end
+
+  def party1_back_pkmn_types
+    party1_types = []
+    each_party1_back_pkmn { |pkmn| party1_types.add(pkmn.types) }
+    party1_types
+  end
+
+  def party1_back_able_pkmn_types
+    party1_types = []
+    each_party1_back_able_pkmn { |pkmn| party1_types.add(pkmn.types) }
+    party1_types
+  end
+
+  def party2_pkmn_types
+    @party2.map(&:types).flatten
+  end
+
+  def party2_able_pkmn_types
+    party2_types = []
+    each_party2_able_pkmn { |pkmn| party2_types.add(pkmn.types) }
+    party2_types
+  end
+
+  def party2_back_pkmn_types
+    party2_types = []
+    each_party2_back_pkmn { |pkmn| party2_types.add(pkmn.types) }
+    party2_types
+  end
+
+  def party2_back_able_pkmn_types
+    party2_types = []
+    each_party2_back_able_pkmn { |pkmn| party2_types.add(pkmn.types) }
+    party2_types
+  end
+
+  def both_party_pkmn_types
+    both_party_pkmn.map(&:types).flatten
+  end
+
+  def both_party_able_pkmn_types
+    all_able_types = []
+    each_both_party_able_pkmn { |pkmn| all_able_types.add(pkmn.types) }
+    all_able_types
+  end
+
+  def both_party_back_pkmn_types
+    both_party_types = []
+    each_both_party_back_pkmn { |pkmn| both_party_types.add(pkmn.types) }
+    both_party_types
+  end
+
+  def both_party_back_able_pkmn_types
+    both_party_types = []
+    each_both_party_back_able_pkmn { |pkmn| both_party_types.add(pkmn.types) }
+    both_party_types
   end
 
   def all_current_types
     current_types = []
-    current_types.add(all_battlers_types)
-    each_both_party_able_pkmn do |pkmn|
-      current_types.add(pkmn.types) if !all_battlers_ids.has?(pkmn.personalID)
-    end
+    current_types.add(all_battlers_types, both_party_back_able_pkmn_types)
     current_types
   end
 
-  def most_type
-    all_types.most_element
+  def most_current_type
+    all_current_types.most_element
   end
 
-  def least_type
-    all_types.least_element
+  def least_current_type
+    all_current_types.least_element
   end
 end

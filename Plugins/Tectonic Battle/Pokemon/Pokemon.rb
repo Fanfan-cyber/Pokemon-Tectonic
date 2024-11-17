@@ -1431,6 +1431,7 @@ class Pokemon
         ret.first_moves = @first_moves.clone
         ret.owner       = @owner.clone
         ret.ribbons     = @ribbons.clone
+        ret.regeneratePersonalID # I think it should regenerate
         return ret
     end
 
@@ -1539,7 +1540,8 @@ class Pokemon
     end
 
     def regeneratePersonalID
-        @personalID = rand(2**16) | rand(2**16) << 16
+        regenerate_unique_id
+        @personalID = rand(2 ** 16) | rand(2 ** 16) << 16
     end
 
     def poke_ball
