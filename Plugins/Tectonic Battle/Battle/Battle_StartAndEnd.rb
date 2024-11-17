@@ -643,6 +643,8 @@ class PokeBattle_Battle
     end
 
     def pbEndOfBattle
+        @decision = 2 if trainerBattle? && !battlePerfected? 
+
         oldDecision = @decision
         @decision = 4 if @decision == 1 && wildBattle? && @caughtPokemon.length > 0
         case oldDecision

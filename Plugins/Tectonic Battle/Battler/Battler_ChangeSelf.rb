@@ -368,14 +368,6 @@ class PokeBattle_Battler
             # Trigger avatar AI
             @bossAI.onDestroyed(self, battle) if boss?
         end
-
-        return if @first_faint || !@battle.trainerBattle? || !pbOwnedByPlayer?
-        @first_faint = true
-        return if !@battle.pbDisplayConfirmSerious(_INTL("You literally can't finish the perfect. \nWould you like to quit now?"))
-        pbSEPlay("Battle flee")
-        @battle.decision = 3
-        @battle.decision = 2 if @battle.internalBattle
-
     end
 
     #=============================================================================

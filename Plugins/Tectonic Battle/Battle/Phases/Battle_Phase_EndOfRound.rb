@@ -17,6 +17,7 @@ class PokeBattle_Battle
 
         if @field.effectActive?(:EmotionRoom)
             priority.each { |b|
+               next if b.fainted?
                b.add_random_ability(true)
 =begin
                 next if b.immutableAbility?

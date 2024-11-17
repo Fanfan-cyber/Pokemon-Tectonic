@@ -21,6 +21,11 @@ class Trainer
     @party.each_with_index { |pkmn, index| yield pkmn, index if pkmn && !pkmn.egg? && pkmn.fainted? }
   end
 
+  # 检查队伍里是否有濒死的精灵
+  def has_fainted_pkmn?
+    pokemon_party.any?(&:fainted?)
+  end
+
   # 遍历每一个精灵蛋
   def each_egg
     @party.each_with_index { |pkmn, index| yield pkmn, index if pkmn && pkmn.egg? }
