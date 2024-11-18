@@ -112,7 +112,7 @@ class PokeBattle_Battle
     apply_field_effect(:EOR_field_battle)
     eachBattler do |battler|
       apply_field_effect(:EOR_field_battler, battler)
-      return if battler.ownerPartyAllFainted? # end of battle
+      return if battler.owner_party_all_fainted? # end of battle
     end
 
     field_duration_countdown

@@ -303,7 +303,7 @@ class PokeBattle_Battle
 
         pbEnsureParticipants
         begin
-            pbStartBattleCore
+            pbStartBattleCore(ableBeforeFight)
         rescue BattleAbortedException
             @decision = 0
             @scene.pbEndBattle(@decision)
@@ -357,7 +357,7 @@ class PokeBattle_Battle
         end
     end
 
-    def pbStartBattleCore
+    def pbStartBattleCore(ableBeforeFight = nil)
         # Set up the battlers on each side
         sendOuts = pbSetUpSides
         # Create all the sprites and play the battle intro animation
@@ -414,13 +414,13 @@ class PokeBattle_Battle
         # Exit the pre-battle phase
         @preBattle = false
         # Main battle loop
-        pbBattleLoop
+        pbBattleLoop(ableBeforeFight)
     end
 
     #=============================================================================
     # Main battle loop
     #=============================================================================
-    def pbBattleLoop
+    def pbBattleLoop(ableBeforeFight = nil)
         @turnCount = 0
         loop do # Now begin the battle loop
             PBDebug.log("")
@@ -517,7 +517,7 @@ class PokeBattle_Battle
                 @turnCount += 1
             end
         end
-        pbEndOfBattle
+        pbEndOfBattle(ableBeforeFight)
     end
 
     def pbStartOfRoundPhase
@@ -642,8 +642,8 @@ class PokeBattle_Battle
         end
     end
 
-    def pbEndOfBattle
-        @decision = 2 if trainerBattle? && !battlePerfected? 
+    def pbEndOfBattle(ableBeforeFight = nil)
+        @decision = 2 if ableBeforeFight && trainerBattle? && $Trainer.able_pokemon_count < ableBeforeFight && !$DEBUG
 
         oldDecision = @decision
         @decision = 4 if @decision == 1 && wildBattle? && @caughtPokemon.length > 0

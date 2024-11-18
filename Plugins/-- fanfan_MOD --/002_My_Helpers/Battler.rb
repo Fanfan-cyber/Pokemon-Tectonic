@@ -10,4 +10,9 @@ class PokeBattle_Battler
   def unique_id
     @pokemon.unique_id
   end
+
+  # 检查精灵所在的一方是否已经全部濒死
+  def owner_party_all_fainted?
+    @battle.pbParty(@index).all?(&:fainted?)
+  end
 end

@@ -1,6 +1,10 @@
 def game_start_tribe_update_trigger
   $Trainer&.romove_all_deity
-  $Trainer&.add_deity(%i[hp status pp catch tribe money]) # copy no_tribe
+  $Trainer&.add_deity(%i[power hp status pp catch tribe money]) # copy no_tribe
+end
+
+module Deity
+  HUGE_POWER_RATIO = 10.0
 end
 
 class Player
@@ -11,7 +15,6 @@ class Player
 
   def deity
     @deity ||= {}
-    @deity 
   end
 
   def all_deity
@@ -34,6 +37,10 @@ class Player
   def has_deity?(key = nil)
     return deity.has?(key) if key
     deity.any?
+  end
+
+  def huge_power?
+    deity[:power]
   end
 
   def infinite_hp?
@@ -66,6 +73,14 @@ class Player
 
   def infinite_money?
     deity[:money]
+  end
+end
+
+class PokeBattle_Move
+  alias deity_pbCalcDamageMultipliers pbCalcDamageMultipliers
+  def pbCalcDamageMultipliers(user, target, numTargets, type, baseDmg, multipliers, aiCheck = false)
+    multipliers[:final_damage_multiplier] *= Deity::HUGE_POWER_RATIO if user.pbOwnedByPlayer? && $Trainer&.huge_power?
+    deity_pbCalcDamageMultipliers(user, target, numTargets, type, baseDmg, multipliers, aiCheck)
   end
 end
 

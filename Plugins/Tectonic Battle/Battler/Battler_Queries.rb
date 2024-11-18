@@ -813,10 +813,6 @@ class PokeBattle_Battler
         return @battle.pbParty(@index)
     end
 
-    def ownerPartyAllFainted?
-        return @battle.pbParty(@index).all?(&:fainted?)
-    end
-
     def ownerLevelCap
         if pbOwnedByPlayer?
             return getLevelCap
