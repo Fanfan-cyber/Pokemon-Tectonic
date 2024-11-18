@@ -42,6 +42,8 @@ class PokeBattle_Battler
     # Ability effects
     #=============================================================================
     def pbAbilitiesOnSwitchOut
+        pbRecoverHP(@totalhp / Settings::SWITCH_HEALING_NUM.to_f, false, false, false) if !fainted?
+
         eachActiveAbility do |ability|
             BattleHandlers.triggerAbilityOnSwitchOut(ability, self, @battle, false)
         end

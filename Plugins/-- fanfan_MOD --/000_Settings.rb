@@ -4,4 +4,7 @@ module Settings
 
   # Button used for Fast Forward (Default = :F)
   FAST_FORWARD_KEY = :Q
+
+  FAINT_HEALING_TURN = 7
+  SWITCH_HEALING_NUM = 10
 end

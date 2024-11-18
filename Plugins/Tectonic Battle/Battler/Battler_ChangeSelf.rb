@@ -298,6 +298,16 @@ class PokeBattle_Battler
         end
         
         unless @dummy
+            if can_faint_healing?
+                healing_turn = Settings::FAINT_HEALING_TURN
+                @battle.pbDisplay(_INTL("{1} will revive in {2} turns!", pbThis, healing_turn))
+                if pbOwnSide.effectActive?(:FaintHealing)
+                    pbOwnSide.effects[:FaintHealing][@pokemonIndex] = healing_turn + 1
+                else
+                    pbOwnSide.effects[:FaintHealing] = { @pokemonIndex => healing_turn + 1 }
+                end
+            end
+
             PBDebug.log("[Pokémon fainted] #{pbThis} (#{@index})") unless showMessage
             @battle.scene.pbFaintBattler(self) unless @battle.autoTesting
 
@@ -368,6 +378,12 @@ class PokeBattle_Battler
             # Trigger avatar AI
             @bossAI.onDestroyed(self, battle) if boss?
         end
+    end
+
+    def can_faint_healing?
+        return true if !pbOwnSide.effectActive?(:PerennialPayload)
+        return true if !pbOwnSide.effects[:PerennialPayload][@pokemonIndex]
+        return false
     end
 
     #=============================================================================
