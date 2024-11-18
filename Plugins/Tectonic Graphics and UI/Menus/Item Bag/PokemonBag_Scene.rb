@@ -312,7 +312,7 @@ class PokemonBag_Scene
 
             # Item search
             elsif Input.trigger?(Input::SPECIAL) && !thispocket.empty?
-              searchText = pbEnterText(_INTL("Type name / description!"), 0, 999)
+              searchText = pbEnterText(_INTL("Enter name / description!"), 0, 30)
               if !searchText.empty?
                 # pocket contents look like [[:SEVENLEAGUEBOOTS, 1], [:AGILITYHERB, 1], [:CHERIBERRY, 1]...
                 matchedIndexes = []
