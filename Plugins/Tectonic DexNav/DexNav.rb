@@ -200,12 +200,27 @@ class NewDexNav
 				@navigationColumn += 1
 				pbPlayCursorSE
 			end
+		  elsif Input.trigger?(Input::ACTION)
+        if pbConfirmMessage(_INTL("Would you like to obtain all these Pokémon?"))
+          displaySpecies.each do |group|
+            group.each do |species_data|
+              pbAddPokemonSilent(species_data, getLevelCap - 5, dexnav: true)
+            end
+          end
+          pbMessage(_INTL("Enjoy your new pokemon!\\me[Pkmn get]\\wtnp[80]\1"))
+          break
+        end
 		  elsif Input.trigger?(Input::USE)
 			if $catching_minigame.active?
 				pbPlayBuzzerSE
 				pbMessage(_INTL("This feature of the DexNav is unavailable during this minigame."))
 				next
 			end
+      if pbConfirmMessage(_INTL("Would you like to obtain this Pokémon?"))
+        pbAddPokemon(highlightedSpeciesData, getLevelCap - 5, dexnav: true)
+        break
+      end
+=begin
 			if !($Trainer.pokedex.owned?(highlightedSpecies) || debugControl)
 			    pbMessage(_INTL("You cannot search for this Pokémon, because you haven't owned one yet!"))
 			    next
@@ -228,6 +243,7 @@ class NewDexNav
 				$search_overlay = DexNav_SearchOverlay.new
 				break
 			end
+=end
 		  elsif Input.trigger?(Input::BACK)
 			break
 		  else
@@ -309,7 +325,8 @@ class NewDexNav
     shadow     = MessageConfig.pbDefaultTextShadowColor
 	
 	xLeft = 40
-	textpos = [[_INTL("DexNav: #{$game_map.name}"),40,-4,0,Color.new(248, 248, 248),Color.new(0, 0, 0)]]
+	textpos = [[_INTL("DexNav: #{$game_map.name}"), 40 - 20, -4, 0, Color.new(248, 248, 248), Color.new(0, 0, 0)],
+             [_INTL("Get All: ACTION/Z"), Graphics.width - 20, -4, 1, Color.new(248, 248, 248), Color.new(0, 0, 0)], ]
 
 	caughtCount = 0
 	if $PokemonGlobal.caughtCountsPerMap && $PokemonGlobal.caughtCountsPerMap.has_key?($game_map.map_id)

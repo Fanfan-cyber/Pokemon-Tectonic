@@ -76,19 +76,20 @@ def pbStorePokemonInPC(pkmn)
   end
 end
 
-def pbNicknameAndStore(pkmn,nickname = true)
+def pbNicknameAndStore(pkmn,nickname = true, dexnav: false)
   if pbBoxesFull?
       pbMessage(_INTL("There's no more room for Pokémon!\1"))
       pbMessage(_INTL("The Pokémon Boxes are full and can't accept any more!"))
       return
   end
+
   $Trainer.pokedex.set_seen(pkmn.species)
   $Trainer.pokedex.set_owned(pkmn.species)
   
   discoverPokemon(pkmn)
 
   # Increase the caught count for the global metadata
-  incrementDexNavCounts(false) if defined?(incrementDexNavCounts)
+  incrementDexNavCounts(dexnav) if defined?(incrementDexNavCounts)
 
   if $PokemonSystem.nicknaming_prompt == 0 && nickname
       pbNickname(pkmn)
@@ -119,7 +120,7 @@ end
 #===============================================================================
 # Giving Pokémon to the player (will send to storage if party is full)
 #===============================================================================
-def pbAddPokemon(pkmn, level = 1)
+def pbAddPokemon(pkmn, level = 1, dexnav: false)
   return false if !pkmn
   if pbBoxesFull?
     pbMessage(_INTL("There's no more room for Pokémon!\1"))
@@ -130,15 +131,18 @@ def pbAddPokemon(pkmn, level = 1)
   pkmn = Pokemon.new(pkmn, level) if !pkmn.is_a?(Pokemon)
   species_name = pkmn.speciesName
   pbMessage(_INTL("{1} obtained {2}!\\me[Pkmn get]\\wtnp[80]\1", $Trainer.name, species_name))
-  pbNicknameAndStore(pkmn)
+  pbNicknameAndStore(pkmn, dexnav: dexnav)
   return true
 end
 
-def pbAddPokemonSilent(pkmn, level = 1)
+def pbAddPokemonSilent(pkmn, level = 1, dexnav: false)
   return false if !pkmn || pbBoxesFull?
   pkmn = randomizeSpecies(pkmn, false, true)
   pkmn = Pokemon.new(pkmn, level) if !pkmn.is_a?(Pokemon)
+  $Trainer.pokedex.set_seen(pkmn.species)
   $Trainer.pokedex.set_owned(pkmn.species)
+  # Increase the caught count for the global metadata
+  incrementDexNavCounts(dexnav) if defined?(incrementDexNavCounts)
   pkmn.record_first_moves
   if $Trainer.party_full?
     $PokemonStorage.pbStoreCaught(pkmn)
@@ -172,11 +176,14 @@ def pbAddToParty(pkmn, level = 1, see_form = true)
   return true
 end
 
-def pbAddToPartySilent(pkmn, level = nil, see_form = true)
+def pbAddToPartySilent(pkmn, level = nil, see_form = true, dexnav: false)
   return false if !pkmn || $Trainer.party_full?
   pkmn = Pokemon.new(pkmn, level) if !pkmn.is_a?(Pokemon)
   $Trainer.pokedex.register(pkmn) if see_form
+  $Trainer.pokedex.set_seen(pkmn.species)
   $Trainer.pokedex.set_owned(pkmn.species)
+  # Increase the caught count for the global metadata
+  incrementDexNavCounts(dexnav) if defined?(incrementDexNavCounts)
   pkmn.record_first_moves
   $Trainer.party[$Trainer.party.length] = pkmn
   return true
@@ -198,6 +205,7 @@ def pbAddForeignPokemon(pkmn, level = 1, owner_name = nil, nickname = nil, owner
   end
   pbStorePokemon(pkmn)
   $Trainer.pokedex.register(pkmn) if see_form
+  $Trainer.pokedex.set_seen(pkmn.species)
   $Trainer.pokedex.set_owned(pkmn.species)
   return true
 end
