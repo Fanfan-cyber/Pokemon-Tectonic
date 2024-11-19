@@ -13,11 +13,11 @@ class Pokemon
   end
 
   def add_all_other_abilities
-    add_other_abilities
+    add_species_abilities
     add_others
   end
 
-  def add_other_abilities
+  def add_species_abilities
     species_abilities.each { |abil| addExtraAbility(abil) if abil != ability_id }
   end
 
