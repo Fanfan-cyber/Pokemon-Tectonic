@@ -20,4 +20,14 @@ class Player
   def set_max_money
     @money = Settings::MAX_MONEY
   end
+
+  # 获取玩家已经使用的礼物码
+  def gift_code
+    @gift_code ||= { :pkmn => [], :item => [] }
+  end
+
+  # 获取玩家储存在Dimension D中的精灵
+  def dimension_d
+    @dimension_d ||= []
+  end
 end

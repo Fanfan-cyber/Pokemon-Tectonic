@@ -35,7 +35,7 @@ end
 
 # 检查队伍中是否有某个精灵
 def has_species_party?(species, form = -1)
-  $Trainer.has_species?(species, form)
+  $Trainer&.has_species?(species, form)
 end
 
 # 检查电脑中是否有某个精灵

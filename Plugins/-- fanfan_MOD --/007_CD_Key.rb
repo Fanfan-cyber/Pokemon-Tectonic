@@ -36,16 +36,6 @@ module CDKey
   end
 end
 
-class Player
-  def gift_code
-    @gift_code ||= { :pkmn => [], :item => [] }
-  end
-end
-
-def cdk
-  CDKey.enter_cd_key
-end
-
 CDKey.register_pkmn_key("hyena1", :PIKACHU)
 CDKey.register_pkmn_key("psyduck10", :PORYGON, 10)
 CDKey.register_item_key("pokeball5", :POKEBALL, 5)
