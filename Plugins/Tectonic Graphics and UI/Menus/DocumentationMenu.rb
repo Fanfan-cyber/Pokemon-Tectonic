@@ -81,20 +81,7 @@ class PokemonDocumentationMenu < PokemonPauseMenu
       elsif cmdBattleGuide > -1 && infoCommand == cmdBattleGuide
           showBattleGuide
       elsif cmdDimensionD > -1 && infoCommand == cmdDimensionD
-          pkmns = $Trainer.dimension_d
-          msg = _INTL("You don't have any Pokémon can be retrieved!")
-          if pkmns.empty?
-              pbMessage(msg)
-          else
-              allowed = []
-              pkmns.each { |pkmn| allowed << pkmn if !has_species?(pkmn.species, pkmn.form) }
-              if allowed.empty?
-                  pbMessage(msg)
-              else
-                  pkmn = pbChoosePkmnFromListEX(_INTL("Which Pokémon would you like to retrieve?"), allowed)
-                  pbAddPokemon(pkmn)
-              end
-          end
+          DimensionD.open_dimension_d
       elsif cmdGiftCode > -1 && infoCommand == cmdGiftCode
           CDKey.enter_cd_key
       else

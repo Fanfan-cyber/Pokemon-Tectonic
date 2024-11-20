@@ -81,52 +81,57 @@ class PokeBattle_Battle
                 pkmn.name = nickname
             end
 
-            # Check Party Size
-            if $Trainer.party_full?
-                # Y/N option to store newly caught
-                if pbDisplayConfirmSerious(_INTL("Would you like to add {1} to your party?", pkmn.name))
-                    pbDisplay(_INTL("Choose which Pokemon will be sent back to the PC."))
-                    # if Y, select pokemon to store instead
-                    pbChoosePokemon(1, 3)
-                    chosenIndex = $game_variables[1]
-                    # Didn't cancel
-                    if chosenIndex != -1
-                        chosenPokemon = $Trainer.party[chosenIndex]
-                        @peer.pbOnLeavingBattle(self, chosenPokemon, @usedInBattle[0][chosenIndex], true) # Reset form
+            if has_species?(pkmn.species, pkmn.form)
+                pbMessage(_INTL("{1} already has {2}!\n{2} has been sent to Dimension D!", $Trainer.name, pkmn.speciesName))
+                $Trainer.dimension_d << pkmn
+            else
+                # Check Party Size
+                if $Trainer.party_full?
+                    # Y/N option to store newly caught
+                    if pbDisplayConfirmSerious(_INTL("Would you like to add {1} to your party?", pkmn.name))
+                        pbDisplay(_INTL("Choose which Pokemon will be sent back to the PC."))
+                        # if Y, select pokemon to store instead
+                        pbChoosePokemon(1, 3)
+                        chosenIndex = $game_variables[1]
+                        # Didn't cancel
+                        if chosenIndex != -1
+                            chosenPokemon = $Trainer.party[chosenIndex]
+                            @peer.pbOnLeavingBattle(self, chosenPokemon, @usedInBattle[0][chosenIndex], true) # Reset form
 
-                        # Find the battler which matches with the chosen pokemon
-                        chosenBattler = nil
-                        eachSameSideBattler do |battler|
-                            next unless battler.pokemon == chosenPokemon
-                            chosenBattler = battler
-                            break
-                        end
-
-                        # Handle the chosen pokemon leaving battle, if it was in battle
-                        if !chosenBattler.nil?
-                            chosenBattler.eachActiveAbility do |ability|
-                                BattleHandlers.triggerAbilityOnSwitchOut(ability, chosenBattler, self, true)
+                            # Find the battler which matches with the chosen pokemon
+                            chosenBattler = nil
+                            eachSameSideBattler do |battler|
+                                next unless battler.pokemon == chosenPokemon
+                                chosenBattler = battler
+                                break
                             end
+
+                            # Handle the chosen pokemon leaving battle, if it was in battle
+                            if !chosenBattler.nil?
+                                chosenBattler.eachActiveAbility do |ability|
+                                    BattleHandlers.triggerAbilityOnSwitchOut(ability, chosenBattler, self, true)
+                                end
+                            end
+
+                            chosenPokemon.setItems(@initialItems[0][chosenIndex])
+                            @initialItems[0][chosenIndex] = pkmn.items
+
+                            promptToTakeItems(chosenPokemon)
+
+                            pbStorePokemon(chosenPokemon)
+                            $Trainer.party[chosenIndex] = pkmn
+                        else
+                            # Store caught Pokémon if cancelled
+                            pbStorePokemon(pkmn)
                         end
-
-                        chosenPokemon.setItems(@initialItems[0][chosenIndex])
-                        @initialItems[0][chosenIndex] = pkmn.items
-
-                        promptToTakeItems(chosenPokemon)
-
-                        pbStorePokemon(chosenPokemon)
-                        $Trainer.party[chosenIndex] = pkmn
                     else
-                        # Store caught Pokémon if cancelled
+                        # Store caught Pokémon
                         pbStorePokemon(pkmn)
                     end
                 else
                     # Store caught Pokémon
                     pbStorePokemon(pkmn)
                 end
-            else
-                # Store caught Pokémon
-                pbStorePokemon(pkmn)
             end
 
             evolutionButtonCheck(pkmn)
