@@ -24,6 +24,7 @@ DebugMenuCommands.register("addpokemon", {
         if trainerdata
             trainer = pbLoadTrainer(*trainerdata)
             $Trainer.party = trainer.party.clone
+            $Trainer.party.each { |pkmn| pkmn.add_species_abilities }
             pbMessage(_INTL("Copied the party of {1}.", trainer.full_name))
         end
         next false

@@ -3,6 +3,7 @@ class PokeBattle_Battle
     # Store caught Pokémon
     #=============================================================================
     def pbStorePokemon(pkmn)
+        pkmn.add_species_abilities
         # Store the Pokémon
         currentBox = @peer.pbCurrentBox
         storedBox = @peer.pbStorePokemon(pbPlayer, pkmn)
