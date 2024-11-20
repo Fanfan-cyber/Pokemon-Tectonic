@@ -40,9 +40,10 @@ end
 
 # 检查电脑中是否有某个精灵
 def has_species_pc?(species, form = -1)
-  pbEachNonEggPokemon do |pkmn, box|
+  pbEachPokemon do |pkmn, _box|
     return true if pkmn.isSpecies?(species) && (form < 0 || pkmn.form == form)
   end
+  return false
 end
 
 # 检查队伍和电脑中是否有某个精灵
@@ -76,6 +77,32 @@ def choose_random_ability(battler = nil)
     abilis_pool.push(abil.id)
   end
   abilis_pool.sample
+end
+
+# 从精灵列表中选择精灵
+def pbChoosePkmnFromListEX(message, input_ids, must_choose = false)
+  names = []
+  ids = []
+  input_ids.each do |pkmn_id|
+    if pkmn_id.is_a?(Pokemon)
+      names.push(pkmn_id.name)
+      ids.push(pkmn_id)
+    else
+      next if !GameData::Pokemon.exists?(pkmn_id)
+      pkmn = GameData::Pokemon.get(pkmn_id)
+      names.push(pkmn.name)
+      ids.push(pkmn.id)
+    end
+  end
+  return if names.empty?
+  if !must_choose
+    names.push(_INTL("Cancel"))
+    ids.push(nil)
+    ret = pbMessage(message, names, -1)
+  else
+    ret = pbMessage(message, names, 0)
+  end
+  ids[ret]
 end
 
 # 从物品列表中选择物品
