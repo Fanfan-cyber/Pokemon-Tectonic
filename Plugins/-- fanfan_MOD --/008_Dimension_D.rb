@@ -10,9 +10,20 @@ module DimensionD
       if allowed.empty?
         pbMessage(msg)
       else
-        pkmn = pbChoosePkmnFromListEX(_INTL("Which Pokémon would you like to retrieve?"), allowed)
-        pbAddPokemon(pkmn)
+        data = pbChoosePkmnFromListEX(_INTL("Which Pokémon would you like to retrieve?"), allowed)
+        pbAddPokemon(data[0])
+        pkmns.delete_at(data[1])
       end
+=begin
+      pkmn = pbChoosePkmnFromListEX(_INTL("Which Pokémon would you like to retrieve?"), pkmns)
+      return if !pkmn
+      if has_species?(pkmn.species, pkmn.form)
+        pbMessage(_INTL("You can't retrieve this Pokémon!"))
+      else
+        pbAddPokemon(data[0])
+        pkmns.delete_at(data[1])
+      end
+=end
     end
   end
 end

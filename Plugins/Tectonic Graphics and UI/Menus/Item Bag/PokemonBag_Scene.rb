@@ -333,10 +333,10 @@ class PokemonBag_Scene
                   pbPlayDecisionSE
                   return itemwindow.item
                 elsif matchedIndexes.length > 1
-                  itemId = pbChooseItemFromListEX(_INTL("Which item?"), matchedItems)
-                  if itemId # like :PECHABERRY
+                  item_data = pbChooseItemFromListEX(_INTL("Which item?"), matchedItems)
+                  if item_data
                     thispocket.each_with_index do |potentialItem, potentialIndex|
-                      if potentialItem[0] == itemId
+                      if potentialItem[0] == item_data[0]
                         itemwindow.index = potentialIndex
                         @bag.setChoice(itemwindow.pocket, potentialIndex)
                         pbRefresh

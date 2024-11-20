@@ -102,7 +102,7 @@ def pbChoosePkmnFromListEX(message, input_ids, must_choose = false)
   else
     ret = pbMessage(message, names, 0)
   end
-  ids[ret]
+  return ids[ret], ret
 end
 
 # 从物品列表中选择物品
@@ -123,7 +123,7 @@ def pbChooseItemFromListEX(message, input_ids, must_choose = false)
   else
     ret = pbMessage(message, names, 0)
   end
-  ids[ret]
+  return ids[ret], ret
 end
 
 # 生成一个独特的ID
