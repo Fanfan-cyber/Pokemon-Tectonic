@@ -60,12 +60,14 @@ class PokemonDocumentationMenu < PokemonPauseMenu
     cmdMoveDex     = -1
     cmdBattleGuide = -1
     cmdDimensionD  = -1
+    cmdTimeCapsule = -1
     cmdGiftCode    = -1
     infoCommands = []
     infoCommands[cmdMasterDex   = infoCommands.length] = _INTL("MasterDex")
     infoCommands[cmdMoveDex     = infoCommands.length] = _INTL("MoveDex")
     infoCommands[cmdBattleGuide = infoCommands.length] = _INTL("Battle Guide")
     infoCommands[cmdDimensionD  = infoCommands.length] = _INTL("Dimension D")
+    infoCommands[cmdTimeCapsule = infoCommands.length] = _INTL("Time Capsule")
     infoCommands[cmdGiftCode    = infoCommands.length] = _INTL("Gift Receiver")
     infoCommands.push(_INTL("Cancel"))
     loop do
@@ -82,6 +84,8 @@ class PokemonDocumentationMenu < PokemonPauseMenu
           showBattleGuide
       elsif cmdDimensionD > -1 && infoCommand == cmdDimensionD
           DimensionD.open_dimension_d
+      elsif cmdTimeCapsule > -1 && infoCommand == cmdTimeCapsule
+          TimeCapsule.open_time_capsule
       elsif cmdGiftCode > -1 && infoCommand == cmdGiftCode
           CDKey.enter_cd_key
       else

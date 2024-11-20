@@ -101,6 +101,20 @@ class TilingCardsPokemonMenu_Scene < TilingCardsMenu_Scene
                           end
                       end,
                   },
+                  :SEND_TC => {
+                      :label => _INTL("Send to TC"),
+                      :active_proc => proc do
+                          @party.length > 1 && ($Trainer.able_pokemon_count > 1 || !@pkmn.able?)
+                      end,
+                      :press_proc => proc do |_scene|
+                          TimeCapsule.add_to_time_capsule(@pkmn)
+                          @party[@pkmnid] = nil
+                          @party.compact!
+                          pbSEPlay("PC close")
+                          @partyScene.pbHardRefresh
+                          next true
+                      end,
+                  },
                 }
 
         if $DEBUG

@@ -123,6 +123,7 @@ module Game
       begin
         SaveData.save_to_file(save_file)
         Graphics.frame_reset
+        TimeCapsule.update_time_capsule # update time capsule
       rescue IOError, SystemCallError
         $game_system.save_count -= 1
         return false
