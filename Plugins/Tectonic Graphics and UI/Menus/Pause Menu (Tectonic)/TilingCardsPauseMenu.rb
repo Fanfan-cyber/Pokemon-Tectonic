@@ -21,7 +21,7 @@ class TilingCardsPauseMenu_Scene < TilingCardsMenu_Scene
 				},
 			},
 			:DOCUMENTATION =>  {
-				:label => _INTL("Documents"),
+				:label => _INTL("Tools"),
 				:press_proc => Proc.new { |scene|
                     storedLastMenuChoice = $PokemonTemp.menuLastChoice
                     $PokemonTemp.menuLastChoice = 0
