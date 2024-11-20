@@ -54,35 +54,56 @@ class PokemonDocumentationMenu < PokemonPauseMenu
 			end
 			return
 		end
-		@scene.pbStartScene
-		endscene = true
-		cmdMasterDex = -1
-        cmdMoveDex = -1
-        cmdBattleGuide = -1
-        infoCommands = []
-        infoCommands[cmdMasterDex = infoCommands.length] = _INTL("MasterDex")
-        infoCommands[cmdMoveDex = infoCommands.length] = _INTL("MoveDex")
-        infoCommands[cmdBattleGuide = infoCommands.length] = _INTL("Battle Guide")
-        infoCommands.push(_INTL("Cancel"))
-		loop do
-			infoCommand = @scene.pbShowCommands(infoCommands)
-			if cmdMasterDex > -1 && infoCommand == cmdMasterDex
-                pbFadeOutIn {
-                    dexScene = PokemonPokedex_Scene.new
-                    screen = PokemonPokedexScreen.new(dexScene)
-                    screen.pbStartScreen
-                }
-            elsif cmdMoveDex > -1 && infoCommand == cmdMoveDex
-                openMoveDex
-            elsif cmdBattleGuide > -1 && infoCommand == cmdBattleGuide
-                showBattleGuide
-            else
-				pbPlayCloseMenuSE
-				break
-			end
-		end
-		@scene.pbEndScene if endscene
-	end
+    @scene.pbStartScene
+    endscene = true
+    cmdMasterDex   = -1
+    cmdMoveDex     = -1
+    cmdBattleGuide = -1
+    cmdDimensionD  = -1
+    cmdGiftCode    = -1
+    infoCommands = []
+    infoCommands[cmdMasterDex   = infoCommands.length] = _INTL("MasterDex")
+    infoCommands[cmdMoveDex     = infoCommands.length] = _INTL("MoveDex")
+    infoCommands[cmdBattleGuide = infoCommands.length] = _INTL("Battle Guide")
+    infoCommands[cmdDimensionD  = infoCommands.length] = _INTL("Dimension D")
+    infoCommands[cmdGiftCode    = infoCommands.length] = _INTL("Gift Receiver")
+    infoCommands.push(_INTL("Cancel"))
+    loop do
+      infoCommand = @scene.pbShowCommands(infoCommands)
+      if cmdMasterDex > -1 && infoCommand == cmdMasterDex
+          pbFadeOutIn {
+              dexScene = PokemonPokedex_Scene.new
+              screen = PokemonPokedexScreen.new(dexScene)
+              screen.pbStartScreen
+          }
+      elsif cmdMoveDex > -1 && infoCommand == cmdMoveDex
+          openMoveDex
+      elsif cmdBattleGuide > -1 && infoCommand == cmdBattleGuide
+          showBattleGuide
+      elsif cmdDimensionD > -1 && infoCommand == cmdDimensionD
+          pkmns = $Trainer.dimension_d
+          msg = _INTL("You don't have any Pokémon can be retrieved!")
+          if pkmns.empty?
+              pbMessage(msg)
+          else
+              allowed = []
+              pkmns.each { |pkmn| allowed << pkmn if !has_species?(pkmn.species, pkmn.form) }
+              if allowed.empty?
+                  pbMessage(msg)
+              else
+                  pkmn = pbChoosePkmnFromListEX(_INTL("Which Pokémon would you like to retrieve?"), allowed)
+                  pbAddPokemon(pkmn)
+              end
+          end
+      elsif cmdGiftCode > -1 && infoCommand == cmdGiftCode
+          CDKey.enter_cd_key
+      else
+        pbPlayCloseMenuSE
+        break
+      end
+    end
+    @scene.pbEndScene if endscene
+  end
 end
 
 def showDocumentationMenu
