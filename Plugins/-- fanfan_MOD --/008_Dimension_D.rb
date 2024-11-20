@@ -15,9 +15,9 @@ module DimensionD
         pkmns.delete_at(data[1])
       end
 =begin
-      pkmn = pbChoosePkmnFromListEX(_INTL("Which Pokémon would you like to retrieve?"), pkmns)
-      return if !pkmn
-      if has_species?(pkmn.species, pkmn.form)
+      data = pbChoosePkmnFromListEX(_INTL("Which Pokémon would you like to retrieve?"), pkmns)
+      return if !data
+      if has_species?(data[0].species, data[0].form)
         pbMessage(_INTL("You can't retrieve this Pokémon!"))
       else
         pbAddPokemon(data[0])

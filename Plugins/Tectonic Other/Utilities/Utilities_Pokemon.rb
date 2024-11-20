@@ -64,26 +64,21 @@ def promptToTakeItems(pkmn)
 end
 
 def pbStorePokemonInPC(pkmn)
-  if has_species?(pkmn.species, pkmn.form)
-      pbMessage(_INTL("{1} already has {2}!\n{2} has been sent to Dimension D!", $Trainer.name, pkmn.speciesName))
-      $Trainer.dimension_d << pkmn
-  else
-      oldcurbox = $PokemonStorage.currentBox
-      storedbox = $PokemonStorage.pbStoreCaught(pkmn)
-      curboxname = $PokemonStorage[oldcurbox].name
-      boxname = $PokemonStorage[storedbox].name
-      if storedbox != oldcurbox
-          if $PokemonStorage[oldcurbox].isDonationBox?
-            pbMessage(_INTL("Box \"{1}\" on the Pokémon Storage PC is a donation box.\1", curboxname))
-          else
-            pbMessage(_INTL("Box \"{1}\" on the Pokémon Storage PC was full.\1", curboxname))
-          end
-          pbMessage(_INTL("{1} was transferred to box \"{2}.\"", pkmn.name, boxname))
-      else
-          pbMessage(_INTL("{1} was transferred to the Pokémon Storage PC.\1", pkmn.name))
-          pbMessage(_INTL("It was stored in box \"{1}.\"", boxname))
-      end
-  end
+    oldcurbox = $PokemonStorage.currentBox
+    storedbox = $PokemonStorage.pbStoreCaught(pkmn)
+    curboxname = $PokemonStorage[oldcurbox].name
+    boxname = $PokemonStorage[storedbox].name
+    if storedbox != oldcurbox
+        if $PokemonStorage[oldcurbox].isDonationBox?
+          pbMessage(_INTL("Box \"{1}\" on the Pokémon Storage PC is a donation box.\1", curboxname))
+        else
+          pbMessage(_INTL("Box \"{1}\" on the Pokémon Storage PC was full.\1", curboxname))
+        end
+        pbMessage(_INTL("{1} was transferred to box \"{2}.\"", pkmn.name, boxname))
+    else
+        pbMessage(_INTL("{1} was transferred to the Pokémon Storage PC.\1", pkmn.name))
+        pbMessage(_INTL("It was stored in box \"{1}.\"", boxname))
+    end
 end
 
 def pbNicknameAndStore(pkmn, nickname = true, dexnav: false)
