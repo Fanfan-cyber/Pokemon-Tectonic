@@ -14,33 +14,38 @@ def pbNickname(pkmn)
 end
 
 def pbStorePokemon(pkmn)
-  if pbBoxesFull?
-      pbMessage(_INTL("There's no more room for Pokémon!\1"))
-      pbMessage(_INTL("The Pokémon Boxes are full and can't accept any more!"))
-      return
-  end
   pkmn.record_first_moves
-  if $Trainer.party_full?
-      storingPokemon = pkmn
-      if pbConfirmMessageSerious(_INTL("Would you like to add {1} to your party?", pkmn.name))
-          pbMessage(_INTL("Choose which Pokémon will be sent back to the PC."))
-          # if Y, select pokemon to store instead
-          pbChoosePokemon(1, 3)
-          chosen = $game_variables[1]
-          # Didn't cancel
-          if chosen != -1
-              storingPokemon = $Trainer.party[chosen]
-
-              promptToTakeItems(storingPokemon)
-
-              $Trainer.party[chosen] = pkmn
-
-              refreshFollow
-          end
-      end
-      pbStorePokemonInPC(storingPokemon)
+  if has_species?(pkmn.species, pkmn.form)
+      pbMessage(_INTL("{1} already has {2}!\n{2} has been sent to Dimension D!", $Trainer.name, pkmn.speciesName))
+      $Trainer.dimension_d << pkmn
   else
-      $Trainer.party[$Trainer.party.length] = pkmn
+      if pbBoxesFull?
+          pbMessage(_INTL("There's no more room for Pokémon!\1"))
+          pbMessage(_INTL("The Pokémon Boxes are full and can't accept any more!"))
+          return
+      end
+      if $Trainer.party_full?
+          storingPokemon = pkmn
+          if pbConfirmMessageSerious(_INTL("Would you like to add {1} to your party?", pkmn.name))
+              pbMessage(_INTL("Choose which Pokémon will be sent back to the PC."))
+              # if Y, select pokemon to store instead
+              pbChoosePokemon(1, 3)
+              chosen = $game_variables[1]
+              # Didn't cancel
+              if chosen != -1
+                  storingPokemon = $Trainer.party[chosen]
+
+                  promptToTakeItems(storingPokemon)
+
+                  $Trainer.party[chosen] = pkmn
+
+                  refreshFollow
+              end
+          end
+          pbStorePokemonInPC(storingPokemon)
+      else
+          $Trainer.party[$Trainer.party.length] = pkmn
+      end
   end
 end
 
@@ -59,24 +64,29 @@ def promptToTakeItems(pkmn)
 end
 
 def pbStorePokemonInPC(pkmn)
-  oldcurbox = $PokemonStorage.currentBox
-  storedbox = $PokemonStorage.pbStoreCaught(pkmn)
-  curboxname = $PokemonStorage[oldcurbox].name
-  boxname = $PokemonStorage[storedbox].name
-  if storedbox != oldcurbox
-      if $PokemonStorage[oldcurbox].isDonationBox?
-        pbMessage(_INTL("Box \"{1}\" on the Pokémon Storage PC is a donation box.\1", curboxname))
-      else
-        pbMessage(_INTL("Box \"{1}\" on the Pokémon Storage PC was full.\1", curboxname))
-      end
-      pbMessage(_INTL("{1} was transferred to box \"{2}.\"", pkmn.name, boxname))
+  if has_species?(pkmn.species, pkmn.form)
+      pbMessage(_INTL("{1} already has {2}!\n{2} has been sent to Dimension D!", $Trainer.name, pkmn.speciesName))
+      $Trainer.dimension_d << pkmn
   else
-      pbMessage(_INTL("{1} was transferred to the Pokémon Storage PC.\1", pkmn.name))
-      pbMessage(_INTL("It was stored in box \"{1}.\"", boxname))
+      oldcurbox = $PokemonStorage.currentBox
+      storedbox = $PokemonStorage.pbStoreCaught(pkmn)
+      curboxname = $PokemonStorage[oldcurbox].name
+      boxname = $PokemonStorage[storedbox].name
+      if storedbox != oldcurbox
+          if $PokemonStorage[oldcurbox].isDonationBox?
+            pbMessage(_INTL("Box \"{1}\" on the Pokémon Storage PC is a donation box.\1", curboxname))
+          else
+            pbMessage(_INTL("Box \"{1}\" on the Pokémon Storage PC was full.\1", curboxname))
+          end
+          pbMessage(_INTL("{1} was transferred to box \"{2}.\"", pkmn.name, boxname))
+      else
+          pbMessage(_INTL("{1} was transferred to the Pokémon Storage PC.\1", pkmn.name))
+          pbMessage(_INTL("It was stored in box \"{1}.\"", boxname))
+      end
   end
 end
 
-def pbNicknameAndStore(pkmn,nickname = true, dexnav: false)
+def pbNicknameAndStore(pkmn, nickname = true, dexnav: false)
   pkmn.add_species_abilities
 
   if pbBoxesFull?
@@ -131,8 +141,7 @@ def pbAddPokemon(pkmn, level = 1, dexnav: false)
   end
   pkmn = randomizeSpecies(pkmn, false, true)
   pkmn = Pokemon.new(pkmn, level) if !pkmn.is_a?(Pokemon)
-  species_name = pkmn.speciesName
-  pbMessage(_INTL("{1} obtained {2}!\\me[Pkmn get]\\wtnp[80]\1", $Trainer.name, species_name))
+  pbMessage(_INTL("{1} obtained {2}!\\me[Pkmn get]\\wtnp[80]\1", $Trainer.name, pkmn.speciesName))
   pbNicknameAndStore(pkmn, dexnav: dexnav)
   return true
 end
@@ -147,10 +156,14 @@ def pbAddPokemonSilent(pkmn, level = 1, dexnav: false)
   incrementDexNavCounts(dexnav) if defined?(incrementDexNavCounts)
   pkmn.record_first_moves
   pkmn.add_species_abilities
-  if $Trainer.party_full?
-    $PokemonStorage.pbStoreCaught(pkmn)
+  if has_species?(pkmn.species, pkmn.form)
+    $Trainer.dimension_d << pkmn
   else
-    $Trainer.party[$Trainer.party.length] = pkmn
+    if $Trainer.party_full?
+      $PokemonStorage.pbStoreCaught(pkmn)
+    else
+      $Trainer.party[$Trainer.party.length] = pkmn
+    end
   end
   return true
 end
@@ -189,7 +202,11 @@ def pbAddToPartySilent(pkmn, level = nil, see_form = true, dexnav: false)
   incrementDexNavCounts(dexnav) if defined?(incrementDexNavCounts)
   pkmn.record_first_moves
   pkmn.add_species_abilities
-  $Trainer.party[$Trainer.party.length] = pkmn
+  if has_species?(pkmn.species, pkmn.form)
+    $Trainer.dimension_d << pkmn
+  else
+    $Trainer.party[$Trainer.party.length] = pkmn
+  end
   return true
 end
 

@@ -4,26 +4,31 @@ class PokeBattle_Battle
     #=============================================================================
     def pbStorePokemon(pkmn)
         pkmn.add_species_abilities
-        # Store the Pokémon
-        currentBox = @peer.pbCurrentBox
-        storedBox = @peer.pbStorePokemon(pbPlayer, pkmn)
-        if storedBox < 0
-            pbDisplayPaused(_INTL("{1} has been added to your party.", pkmn.name))
-            @initialItems[0][pbPlayer.party.length - 1] = pkmn.items.clone if @initialItems
-            return
-        end
-        # Messages saying the Pokémon was stored in a PC box
-        curBoxName = @peer.pbBoxName(currentBox)
-        boxName    = @peer.pbBoxName(storedBox)
-        if $PokemonStorage[currentBox].isDonationBox?
-            pbDisplayPaused(_INTL("Box \"{1}\" on the Pokémon Storage PC is a donation box.", curBoxName))
-            pbDisplayPaused(_INTL("{1} was transferred to box \"{2}\".", pkmn.name, boxName))
-        elsif storedBox != currentBox
-            pbDisplayPaused(_INTL("Box \"{1}\" on the Pokémon Storage PC was full.", curBoxName))
-            pbDisplayPaused(_INTL("{1} was transferred to box \"{2}\".", pkmn.name, boxName))
+        if has_species?(pkmn.species, pkmn.form)
+            pbMessage(_INTL("{1} already has {2}!\n{2} has been sent to Dimension D!", $Trainer.name, pkmn.speciesName))
+            $Trainer.dimension_d << pkmn
         else
-            pbDisplayPaused(_INTL("{1} was transferred to the Pokémon Storage PC.", pkmn.name))
-            pbDisplayPaused(_INTL("It was stored in box \"{1}\".", boxName))
+            # Store the Pokémon
+            currentBox = @peer.pbCurrentBox
+            storedBox = @peer.pbStorePokemon(pbPlayer, pkmn)
+            if storedBox < 0
+                pbDisplayPaused(_INTL("{1} has been added to your party.", pkmn.name))
+                @initialItems[0][pbPlayer.party.length - 1] = pkmn.items.clone if @initialItems
+                return
+            end
+            # Messages saying the Pokémon was stored in a PC box
+            curBoxName = @peer.pbBoxName(currentBox)
+            boxName    = @peer.pbBoxName(storedBox)
+            if $PokemonStorage[currentBox].isDonationBox?
+                pbDisplayPaused(_INTL("Box \"{1}\" on the Pokémon Storage PC is a donation box.", curBoxName))
+                pbDisplayPaused(_INTL("{1} was transferred to box \"{2}\".", pkmn.name, boxName))
+            elsif storedBox != currentBox
+                pbDisplayPaused(_INTL("Box \"{1}\" on the Pokémon Storage PC was full.", curBoxName))
+                pbDisplayPaused(_INTL("{1} was transferred to box \"{2}\".", pkmn.name, boxName))
+            else
+                pbDisplayPaused(_INTL("{1} was transferred to the Pokémon Storage PC.", pkmn.name))
+                pbDisplayPaused(_INTL("It was stored in box \"{1}\".", boxName))
+            end
         end
     end
 
