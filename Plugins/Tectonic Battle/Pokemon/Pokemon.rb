@@ -278,7 +278,6 @@ class Pokemon
     end
 
     # Heals this Pokemon's HP by an amount
-    # Heals this Pokemon's HP by an amount
     def healBy(amount)
         return if egg?
         @hp += amount

@@ -257,7 +257,7 @@ class Scene_Map
                 unless $game_system.menu_disabled || $game_player.moving?
                     $PokemonTemp.keyItemCalling = true
                 end
-            elsif Input.trigger?(Input::AUX2)
+            elsif MInput.trigger?(:F) # Input.trigger?(Input::AUX2)
                 unless $game_player.lock?
                     $PokemonTemp.bicycleCalling = true
                 end

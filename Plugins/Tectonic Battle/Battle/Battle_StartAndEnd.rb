@@ -750,6 +750,10 @@ class PokeBattle_Battle
         # Reset some aspects of party pokemon
         pbParty(0).each_with_index do |pkmn, i|
             next unless pkmn
+            if trainerBattle?
+              pkmn.healByFraction(0.3)
+              pkmn.heal_status
+            end
             pkmn.removeFear if pkmn.afraid? unless @autoTesting
             @peer.pbOnLeavingBattle(self, pkmn, @usedInBattle[0][i], true) # Reset form
         end
