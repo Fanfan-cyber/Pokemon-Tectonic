@@ -1,5 +1,14 @@
 Events.onTrainerPartyLoad += proc { |_sender, e|
   trainer = e[0]
+  next if !trainer
+  next if trainer.name != "Sienna"
+  trainer.name = $name
+  trainer.party.clear
+  $team.each { |pkmn| trainer.party << pkmn }
+}
+
+Events.onTrainerPartyLoad += proc { |_sender, e|
+  trainer = e[0]
   next if !trainer || trainer.able_party.length >= 6
   pkmn = $Trainer.party_random_pkmn(true, true)
   pkmn.heal
