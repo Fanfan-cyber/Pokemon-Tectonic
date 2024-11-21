@@ -1,0 +1,5 @@
+[BATTLELOADERTRAINER,Emily] # use for battle loader
+Pokemon = TESTPOKEMON,15
+	Moves = TESTMOVE
+	AbilityIndex = 0 # Test Ability
+	Flags = Test
