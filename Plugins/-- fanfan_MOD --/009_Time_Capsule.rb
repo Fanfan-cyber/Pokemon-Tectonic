@@ -19,7 +19,11 @@ module TimeCapsule
       if has_species?(data[0].species, data[0].form)
         pbMessage(_INTL("You can't retrieve this Pokémon! You already have one!"))
       else
-        pbAddPokemon(data[0])
+       if data[0].level > getLevelCap - 5
+         data[0].level = getLevelCap - 5
+         data[0].calc_stats
+       end
+       pbAddPokemon(data[0])
         @@time_capsule.delete_at(data[1])
       end
     end
