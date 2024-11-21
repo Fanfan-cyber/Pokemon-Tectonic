@@ -83,13 +83,13 @@ end
 def pbChoosePkmnFromListEX(message, input_ids, must_choose = false)
   names = []
   ids = []
-  input_ids.each do |pkmn_id|
-    if pkmn_id.is_a?(Pokemon)
-      names.push(pkmn_id.name)
-      ids.push(pkmn_id)
+  input_ids.each do |id|
+    if id.is_a?(Pokemon)
+      names.push(id.name)
+      ids.push(id)
     else
-      next if !GameData::Pokemon.exists?(pkmn_id)
-      pkmn = GameData::Pokemon.get(pkmn_id)
+      next if !GameData::Pokemon.exists?(id)
+      pkmn = GameData::Pokemon.get(id)
       names.push(pkmn.name)
       ids.push(pkmn.id)
     end
@@ -102,18 +102,23 @@ def pbChoosePkmnFromListEX(message, input_ids, must_choose = false)
   else
     ret = pbMessage(message, names, 0)
   end
-  return ids[ret], ret
+  return ids[ret], ret, names[ret]
 end
 
-# 从物品列表中选择物品
+# 从特性列表中选择特性
 def pbChooseItemFromListEX(message, input_ids, must_choose = false)
   names = []
   ids = []
-  input_ids.each do |item_id|
-    next if !GameData::Item.exists?(item_id)
-    item = GameData::Item.get(item_id)
-    names.push(item.name)
-    ids.push(item.id)
+  input_ids.each do |id|
+    if id.is_a?(GameData::Ability)
+      names.push(id.name)
+      ids.push(id)
+    else
+      next if !GameData::Ability.exists?(id)
+      abil = GameData::Ability.get(id)
+      names.push(abil.name)
+      ids.push(abil.id)
+    end
   end
   return if names.empty?
   if !must_choose
@@ -123,7 +128,33 @@ def pbChooseItemFromListEX(message, input_ids, must_choose = false)
   else
     ret = pbMessage(message, names, 0)
   end
-  return ids[ret], ret
+  return ids[ret], ret, names[ret]
+end
+
+# 从物品列表中选择物品
+def pbChooseItemFromListEX(message, input_ids, must_choose = false)
+  names = []
+  ids = []
+  input_ids.each do |id|
+    if id.is_a?(GameData::Item)
+      names.push(id.name)
+      ids.push(id)
+    else
+      next if !GameData::Item.exists?(id)
+      item = GameData::Item.get(id)
+      names.push(item.name)
+      ids.push(item.id)
+    end
+  end
+  return if names.empty?
+  if !must_choose
+    names.push(_INTL("Cancel"))
+    ids.push(nil)
+    ret = pbMessage(message, names, -1)
+  else
+    ret = pbMessage(message, names, 0)
+  end
+  return ids[ret], ret, names[ret]
 end
 
 # 生成一个独特的ID
