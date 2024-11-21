@@ -7,4 +7,5 @@ module Settings
 
   FAINT_HEALING_TURN = 7
   SWITCH_HEALING_NUM = 10
+  BATTLE_ENDING_NUBM = 30
 end

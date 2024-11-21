@@ -1,6 +1,0 @@
-#-------------------------------
-[BATTLELOADERTRAINER]
-Name = Elite Trainer
-Gender = Female
-BaseMoney = 24
-BattleBGM = POKEFAN

@@ -751,7 +751,7 @@ class PokeBattle_Battle
         pbParty(0).each_with_index do |pkmn, i|
             next unless pkmn
             if trainerBattle?
-              pkmn.healByFraction(0.3)
+              pkmn.healByFraction(Settings::BATTLE_ENDING_NUBM * 0.01)
               pkmn.heal_status
             end
             pkmn.removeFear if pkmn.afraid? unless @autoTesting
