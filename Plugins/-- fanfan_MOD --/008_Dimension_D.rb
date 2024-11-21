@@ -12,8 +12,9 @@ module DimensionD
       else
         data = pbChoosePkmnFromListEX(_INTL("Which Pokémon would you like to retrieve?"), allowed)
         return if !data[0]
-        pbAddPokemon(data[0])
+        pbAddPokemonSilent(data[0], count: false)
         pkmns.delete_at(data[1])
+        pbMessage(_INTL("You retrieved {1}!", data[0].name))
       end
 =begin
       data = pbChoosePkmnFromListEX(_INTL("Which Pokémon would you like to retrieve?"), pkmns)
@@ -21,8 +22,9 @@ module DimensionD
       if has_species?(data[0].species, data[0].form)
         pbMessage(_INTL("You can't retrieve this Pokémon!"))
       else
-        pbAddPokemon(data[0])
+        pbAddPokemonSilent(data[0])
         pkmns.delete_at(data[1])
+        pbMessage(_INTL("You retrieved {1}!", data[0].name))
       end
 =end
     end
