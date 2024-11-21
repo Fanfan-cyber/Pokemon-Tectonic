@@ -106,7 +106,7 @@ def pbChoosePkmnFromListEX(message, input_ids, must_choose = false)
 end
 
 # 从特性列表中选择特性
-def pbChooseItemFromListEX(message, input_ids, must_choose = false)
+def pbChooseAbilityFromListEX(message, input_ids, must_choose = false)
   names = []
   ids = []
   input_ids.each do |id|
