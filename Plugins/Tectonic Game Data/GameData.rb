@@ -51,7 +51,11 @@ module GameData
       def keys
         return self::DATA.keys
       end
-  
+
+      def values
+        return self::DATA.values
+      end
+
       # Yields all data in order of their id_number.
       def each
         keys = self::DATA.keys.sort { |a, b| self::DATA[a].id_number <=> self::DATA[b].id_number }
@@ -144,7 +148,11 @@ module GameData
       def keys
         return self::DATA.keys
       end
-  
+
+      def values
+        return self::DATA.values
+      end
+
       # Yields all data in alphabetical order.
       def each
         keys = self::DATA.keys.sort { |a, b| self::DATA[a].id <=> self::DATA[b].id }
@@ -232,7 +240,11 @@ module GameData
       def keys
         return self::DATA.keys
       end
-  
+
+      def values
+        return self::DATA.values
+      end
+
       # Yields all data in numberical order.
       def each
         keys = self::DATA.keys.sort
