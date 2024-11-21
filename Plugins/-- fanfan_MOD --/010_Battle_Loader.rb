@@ -15,9 +15,8 @@ module BattleLoader
   end
 
   def self.add_data(rule, name = "", team = nil)
-    name = $Trainer.name if name.empty?
     unique_id = generate_unique_id
-    new_team = [rule, name, team || $Trainer.party, unique_id]
+    new_team = [rule, name.empty? ? $Trainer.name : name, team || $Trainer.party, unique_id]
     encrypted_data = [Zlib::Deflate.deflate(Marshal.dump(new_team))].pack("m")
     File.open("Team Data/#{rule}_#{name}_#{unique_id}.txt", "wb") do |file|
       file.write(encrypted_data)
@@ -46,11 +45,25 @@ module BattleLoader
         team.each { |pkmn| pkmn.heal }
         if pbConfirmMessage(_INTL("Would you like to give it a name?"))
           name = pbEnterText(_INTL("What name?"), 0, 30)
-          self.add_data(rules[ret], name, team)
+          if name.empty?
+            self.add_data(rules[ret], battle.opponent.sample.name, team)
+          else
+            self.add_data(rules[ret], name, team)
+          end
         else
-          self.add_data(rules[ret], battle.opponent.sample.name, team)
+          if battle.opponent.size > 1
+            names = battle.opponent.map(&:name)
+            choose = pbMessage(_INTL("Which default name you want to use?"), names, -1)
+            if choose >= 0
+              self.add_data(rules[ret], battle.opponent[choose].name, team)
+            else
+              self.add_data(rules[ret], battle.opponent.sample.name, team)
+            end
+          else
+            self.add_data(rules[ret], battle.opponent[0].name, team)
+          end
         end
-        pbMessage(_INTL("The team registered!"))
+        pbMessage(_INTL("The team has been registered!"))
       end
     end
   end
@@ -69,7 +82,14 @@ module BattleLoader
         if index >= 0
           rule = @@battle_loader[index][0]
           team = @@battle_loader[index][2]
-          self.start_battle(rule, team)
+          rules = [_INTL("1v1"), _INTL("2v2"), _INTL("1v2"), _INTL("2v1")]
+          rules.reject! {|other_rule| other_rule == rule }
+          ret = pbMessage(_INTL("Do you want to use other battle rules?"), rules, -1)
+          if ret >= 0
+            self.start_battle(rules[ret], team)
+          else
+            self.start_battle(rule, team)
+          end
         end
       end
     when 1
@@ -92,8 +112,8 @@ module BattleLoader
       else
         names = @@battle_loader.map { |team_info| "#{team_info[0]} #{team_info[1]}" }
         index = pbMessage(_INTL("Which team do you want to delete?"), names, -1)
-        unique_id = @@battle_loader[index][3]
-        if index >= 0
+        if index >= 0 && pbConfirmMessage(_INTL("Do you really want to delete it?"))
+          unique_id = @@battle_loader[index][3]
           self.delete_data(unique_id)
           pbMessage(_INTL("This team has been deleted!"))
         end
@@ -104,13 +124,18 @@ module BattleLoader
   def self.start_battle(rule, team)
     setBattleRule(rule)
     $Trainer.set_ta(:battle_loader, true)
-    name_list = rand(1) == 0 ? BOY_NAMES : GIRL_NAMES
-    $Trainer.set_ta(:name, name_list.sample)
     $Trainer.set_ta(:team, team)
-    trainer_type = GameData::TrainerType.keys.sample
-    trainer_name = nil
-    GameData::Trainer.each { |trainer| trainer_name = trainer.name if trainer.trainer_type == trainer_type }
-    pbTrainerBattle(trainer_type, trainer_name, nil, false, 0, true)
+    trainer = GameData::Trainer.values.sample
+    trainer_type = trainer.trainer_type
+    trainer_type_data = GameData::TrainerType.get(trainer_type)
+    if trainer_type_data.male?
+      $Trainer.set_ta(:name, BOY_NAMES.sample)
+    elsif trainer_type_data.female?
+      $Trainer.set_ta(:name, GIRL_NAMES.sample)
+    else
+      $Trainer.set_ta(:name, _INTL("Unknown"))
+    end
+    pbTrainerBattle(trainer_type, trainer.name, nil, false, trainer.version, true)
     $Trainer.set_ta(:battle_loader, false)
   end
 end
