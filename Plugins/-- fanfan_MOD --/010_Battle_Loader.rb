@@ -15,8 +15,9 @@ module BattleLoader
   end
 
   def self.add_data(rule, name = "", team = nil)
+    name = $Trainer.name if name.empty?
     unique_id = generate_unique_id
-    new_team = [rule, name.empty? ? $Trainer.name : name, team || $Trainer.party, unique_id]
+    new_team = [rule, name, team || $Trainer.party, unique_id]
     encrypted_data = [Zlib::Deflate.deflate(Marshal.dump(new_team))].pack("m")
     File.open("Team Data/#{rule}_#{name}_#{unique_id}.txt", "wb") do |file|
       file.write(encrypted_data)
