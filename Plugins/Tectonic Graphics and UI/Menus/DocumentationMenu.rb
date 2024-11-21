@@ -93,7 +93,7 @@ class PokemonDocumentationMenu < PokemonPauseMenu
       elsif cmdBattleLoader > -1 && infoCommand == cmdBattleLoader
           BattleLoader.open_battle_loader
       elsif cmdTeamSwitcher > -1 && infoCommand == cmdTeamSwitcher
-          BattleLoader.open_team_switcher
+          TeamSwitcher.open_team_switcher
       elsif cmdGiftCode > -1 && infoCommand == cmdGiftCode
           CDKey.enter_cd_key
       else
