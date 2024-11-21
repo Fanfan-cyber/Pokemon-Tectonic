@@ -141,14 +141,14 @@ def pbAddPokemon(pkmn, level = 1, dexnav: false)
   return true
 end
 
-def pbAddPokemonSilent(pkmn, level = 1, dexnav: false)
+def pbAddPokemonSilent(pkmn, level = 1, dexnav: false, count: true)
   return false if !pkmn || pbBoxesFull?
   pkmn = randomizeSpecies(pkmn, false, true)
   pkmn = Pokemon.new(pkmn, level) if !pkmn.is_a?(Pokemon)
   $Trainer.pokedex.set_seen(pkmn.species)
   $Trainer.pokedex.set_owned(pkmn.species)
   # Increase the caught count for the global metadata
-  incrementDexNavCounts(dexnav) if defined?(incrementDexNavCounts)
+  incrementDexNavCounts(dexnav) if defined?(incrementDexNavCounts) && count
   pkmn.record_first_moves
   pkmn.add_species_abilities
   if has_species?(pkmn.species, pkmn.form)
