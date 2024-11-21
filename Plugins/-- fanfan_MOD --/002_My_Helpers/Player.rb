@@ -30,4 +30,9 @@ class Player
   def dimension_d
     @dimension_d ||= []
   end
+
+  # 获取玩家的储存在Team Switcher中的队伍
+  def team_switcher
+    @team_switcher ||= []
+  end
 end
