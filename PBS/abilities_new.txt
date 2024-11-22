@@ -753,7 +753,7 @@ Description = Immune to Fire-type moves and raises both defensive stats if hit b
 #-------------------------------
 [GNAWING] # 0350
 Name = Gnawing
-Description = Random added effects of bite attacks are +50% more likely likely to occur.
+Description = Random added effects of bite attacks are +50% more likely to occur.
 #-------------------------------
 [GORGING] # 0351
 Name = Gorging

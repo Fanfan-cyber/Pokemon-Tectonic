@@ -10,7 +10,7 @@ module DimensionD
         pkmn = data[0]
         return if !pkmn
         loop do
-          choice = [_INTL("Take"), _INTL("Release"), _INTL("Cancle")]
+          choice = [_INTL("Take"), _INTL("Release"), _INTL("Cancel")]
           choose = pbMessage(_INTL("What do you want to do?"), choice, -1)
           case choose
           when -1, 2
