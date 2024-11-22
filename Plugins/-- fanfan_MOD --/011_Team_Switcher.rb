@@ -15,7 +15,7 @@ module TeamSwitcher
           index = pbMessage(_INTL("Which team would you like to check?"), names, -1)
           if index >= 0
             # to-do
-            return pbMessage(_INTL("Sorry, unfinished yet!"))
+            pbMessage(_INTL("Sorry, unfinished yet!"))
           end
         end
       when 1 # Shot Team
@@ -33,7 +33,7 @@ module TeamSwitcher
           index = pbMessage(_INTL("Which team do you want to use?"), names, -1)
           if index >= 0 && pbConfirmMessage(_INTL("Do you really want to use it?"))
             # to-do
-            return pbMessage(_INTL("Sorry, unfinished yet!"))
+            pbMessage(_INTL("Sorry, unfinished yet!"))
           end
         end
       when 3 # Delete Team
