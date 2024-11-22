@@ -1,5 +1,5 @@
 def game_start_tribe_update_trigger
-  retuurn if !$DEBUG
+  return if !$DEBUG
   $Trainer&.romove_all_deity
   $Trainer&.add_deity(%i[power hp status pp catch tribe money]) # copy no_tribe
 end
