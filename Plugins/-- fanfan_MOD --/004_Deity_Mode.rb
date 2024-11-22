@@ -1,11 +1,11 @@
 def game_start_tribe_update_trigger
   return if !$DEBUG
   $Trainer&.romove_all_deity
-  $Trainer&.add_deity(%i[power hp status pp catch tribe money]) # copy no_tribe
+  $Trainer&.add_deity(%i[power hp status catch tribe]) # copy no_tribe money pp
 end
 
 module Deity
-  HUGE_POWER_RATIO = 10.0
+  HUGE_POWER_RATIO = 2.0
 end
 
 class Player
