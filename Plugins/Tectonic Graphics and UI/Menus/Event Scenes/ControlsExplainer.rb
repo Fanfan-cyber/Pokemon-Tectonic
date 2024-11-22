@@ -22,16 +22,16 @@ class ButtonEventScene < EventScene
       addImageForScreen(2, 16, 106, addLanguageSuffix("Graphics/Pictures/Controls help/help_usekey"))
       addImageForScreen(2, 16, 236, addLanguageSuffix("Graphics/Pictures/Controls help/help_backkey"))
       addLabelForScreen(2, 134, 84, 352, _INTL("Used to confirm a choice, interact with people and things, and move through text. (Default: C)"))
-      addLabelForScreen(2, 134, 212, 352, _INTL("Used to exit, cancel a choice, and cancel a mode. Also used to open the Pause Menu. (Default: X)"))
+      addLabelForScreen(2, 134, 212, 352, _INTL("Used to exit, cancel a choice, and cancel a mode. While moving around, hold to move at a different speed. (Default: X)"))
   
       addImageForScreen(3, 16, 90, addLanguageSuffix("Graphics/Pictures/Controls help/help_actionkey"))
       addImageForScreen(3, 16, 252, addLanguageSuffix("Graphics/Pictures/Controls help/help_specialkey"))
-      addLabelForScreen(3, 134, 52, 352, _INTL("Has various functions depending on context. While moving around, hold to move at a different speed. (Default: Z)"))
+      addLabelForScreen(3, 134, 52, 352, _INTL("Has various functions depending on context. Also used to open the Pause Menu. (Default: Z)"))
       addLabelForScreen(3, 134, 212, 352, _INTL("Press to open the Ready Menu, where registered items and available field moves can be used. (Default: D)"))
   
       addImageForScreen(4, 44, 90, "Graphics/Pictures/Controls help/help_q")
       addImageForScreen(4, 24, 252, "Graphics/Pictures/Controls help/help_space")
-      addLabelForScreen(4, 134, 84, 352, _INTL("Press to quicksave while in the overworld."))
+      addLabelForScreen(4, 134, 84, 352, _INTL("Press to speed up while in the overworld."))
       addLabelForScreen(4, 134, 244, 352, _INTL("Press to instantly mount the Bicycle while in the overworld."))
 
       addImageForScreen(5, 44, 122, "Graphics/Pictures/Controls help/help_f1")
