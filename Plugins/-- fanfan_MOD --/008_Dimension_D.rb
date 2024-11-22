@@ -1,10 +1,11 @@
 module DimensionD
   def self.open_dimension_d
     pkmns = $Trainer.dimension_d
-    if pkmns.empty?
-      pbMessage(_INTL("You don't have any Pokémon in Dimension D!"))
-    else
-      loop do
+    loop do
+      if pkmns.empty?
+        pbMessage(_INTL("You don't have any Pokémon in Dimension D!"))
+        return
+      else
         data = pbChoosePkmnFromListEX(_INTL("Choose a Pokémon!"), pkmns)
         pkmn = data[0]
         return if !pkmn
