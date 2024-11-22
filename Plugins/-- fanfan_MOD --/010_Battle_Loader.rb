@@ -27,12 +27,11 @@ module BattleLoader
 
   def self.delete_data(unique_id)
     teams = Dir.glob("#{BATTLE_LOADER_PATH}/*.txt")
-    file = nil
     teams.each do |info|
-      file = info if info.include?(unique_id)
+      next if !info.include?(unique_id)
+      File.delete(info)
       break
     end
-    File.delete(file) if file
     self.load_data
   end
 
@@ -119,7 +118,7 @@ module BattleLoader
           if index >= 0 && pbConfirmMessage(_INTL("Do you really want to delete it?"))
             unique_id = @@battle_loader[index][3]
             self.delete_data(unique_id)
-            pbMessage(_INTL("This team has been deleted!"))
+            pbMessage(_INTL("Team {1} has been deleted!", unique_id))
           end
         end
       end
