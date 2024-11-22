@@ -93,6 +93,7 @@ module BattleLoader
             else
               self.start_battle(rule, team)
             end
+            break
           end
         end
       when 1
