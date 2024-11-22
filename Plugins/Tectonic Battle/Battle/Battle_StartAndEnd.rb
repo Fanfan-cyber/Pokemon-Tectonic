@@ -766,7 +766,7 @@ class PokeBattle_Battle
         }
         pbParty(0).compact!
 
-        BattleLoader.add_trainer_data(self) if !$Trainer.get_ta(:battle_loader)
+        BattleLoader.add_trainer_data(self) if !$Trainer.get_ta(:battle_loader) && trainerBattle?
 
         pbAllowSpeedup
 
