@@ -1,34 +1,37 @@
 module DimensionD
   def self.open_dimension_d
     pkmns = $Trainer.dimension_d
-    msg = _INTL("You don't have any Pokémon can be retrieved!")
     if pkmns.empty?
-      pbMessage(msg)
+      pbMessage(_INTL("You don't have any Pokémon in Dimension D!"))
     else
-      allowed = []
-      pkmns.each { |pkmn| allowed << pkmn if !has_species?(pkmn.species, pkmn.form) }
-      if allowed.empty?
-        pbMessage(msg)
-      else
-        data = pbChoosePkmnFromListEX(_INTL("Which Pokémon would you like to retrieve?"), allowed)
+      loop do
+        data = pbChoosePkmnFromListEX(_INTL("Choose a Pokémon!"), pkmns)
         pkmn = data[0]
         return if !pkmn
-        pbAddPokemonSilent(pkmn, count: false)
-        pkmns.delete_at(data[1])
-        pbMessage(_INTL("You retrieved {1}!", pkmn.name))
+        loop do
+          choice = [_INTL("Take"), _INTL("Release"), _INTL("Cancle")]
+          choose = pbMessage(_INTL("What do you want to do?"), choice, -1)
+          case choose
+          when -1, 2
+            break
+          when 0
+            if has_species?(pkmn.species, pkmn.form)
+              pbMessage(_INTL("You can't retrieve this Pokémon! You already have one!"))
+            else
+              pbAddPokemonSilent(pkmn, count: false)
+              pkmns.delete_at(data[1])
+              pbMessage(_INTL("You retrieved {1}!", pkmn.name))
+              break
+            end
+          when 1
+            if pbConfirmMessage(_INTL("Do you want to release {1}?", pkmn.name))
+              pkmns.delete_at(data[1])
+              pbMessage(_INTL("You released {1}!", pkmn.name))
+              break
+            end
+          end
+        end
       end
-=begin
-      data = pbChoosePkmnFromListEX(_INTL("Which Pokémon would you like to retrieve?"), pkmns)
-      pkmn = data[0]
-      return if !pkmn
-      if has_species?(pkmn.species, pkmn.form)
-        pbMessage(_INTL("You can't retrieve this Pokémon!"))
-      else
-        pbAddPokemonSilent(pkmn)
-        pkmns.delete_at(data[1])
-        pbMessage(_INTL("You retrieved {1}!", pkmn.name))
-      end
-=end
     end
   end
 end
