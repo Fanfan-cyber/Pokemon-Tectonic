@@ -156,6 +156,10 @@ class PokeBattle_Battle::Field
     @duration == 0
   end
 
+  def is_field?(field)
+    @id == field
+  end
+
   def is_base?
     @id == :Base
   end

@@ -340,6 +340,10 @@ class PokeBattle_Battle
     has_field? && @current_field.infinite?
   end
 
+  def is_field?(field)
+    @current_field.is_field?(field)
+  end
+
   def is_base_field?
     @current_field.is_base?
   end
