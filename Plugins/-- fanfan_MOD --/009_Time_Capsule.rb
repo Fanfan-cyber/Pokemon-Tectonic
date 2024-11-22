@@ -11,10 +11,11 @@ module TimeCapsule
   end
 
   def self.open_time_capsule
-    if @@time_capsule.empty?
-      pbMessage(_INTL("There isn't any Pokémon in Time Capsule!"))
-    else
-      loop do
+    loop do
+      if @@time_capsule.empty?
+        pbMessage(_INTL("There isn't any Pokémon in Time Capsule!"))
+        return
+      else
         data = pbChoosePkmnFromListEX(_INTL("Which Pokémon would you like to retrieve?"), @@time_capsule)
         pkmn = data[0]
         return if !pkmn
