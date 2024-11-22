@@ -90,7 +90,7 @@ class PokemonStorageScreen
                 else
                     case selected[0]
                     when -2   # Party Pokémon
-                        pbDisplay(_INTL("Which one will you take?"))
+                        # pbDisplay(_INTL("Which one will you take?"))
                         next
                     when -3   # Close box
                         if pbConfirm(_INTL("Exit from the Box?"))
