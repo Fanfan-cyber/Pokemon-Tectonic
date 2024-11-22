@@ -70,53 +70,57 @@ module BattleLoader
   end
 
   def self.open_battle_loader
-    choice = [_INTL("Battle"), _INTL("Export Team"), _INTL("Delete Team"), _INTL("Cancel")]
-    choose = pbMessage(_INTL("What do you want to do?"), choice, -1)
-    case choose
-    when 0
-      self.load_data
-      if @@battle_loader.empty?
-        pbMessage(_INTL("There isn't any teams in Battle Loader!"))
-      else
-        names = @@battle_loader.map { |team_info| "#{team_info[0]} #{team_info[1]}" }
-        index = pbMessage(_INTL("Which team do you want to challenge?"), names, -1)
-        if index >= 0
-          rule = @@battle_loader[index][0]
-          team = @@battle_loader[index][2]
-          rules = [_INTL("1v1"), _INTL("2v2"), _INTL("1v2"), _INTL("2v1")]
-          rules.reject! {|other_rule| other_rule == rule }
-          ret = pbMessage(_INTL("Do you want to use other battle rules?"), rules, -1)
-          if ret >= 0
-            self.start_battle(rules[ret], team)
-          else
-            self.start_battle(rule, team)
+    loop do
+      choice = [_INTL("Battle"), _INTL("Export Team"), _INTL("Delete Team"), _INTL("Cancel")]
+      choose = pbMessage(_INTL("What do you want to do?"), choice, -1)
+      case choose
+      when -1, 3
+        break
+      when 0
+        self.load_data
+        if @@battle_loader.empty?
+          pbMessage(_INTL("There isn't any teams in Battle Loader!"))
+        else
+          names = @@battle_loader.map { |team_info| "#{team_info[0]} #{team_info[1]}" }
+          index = pbMessage(_INTL("Which team do you want to challenge?"), names, -1)
+          if index >= 0
+            rule = @@battle_loader[index][0]
+            team = @@battle_loader[index][2]
+            rules = [_INTL("1v1"), _INTL("2v2"), _INTL("1v2"), _INTL("2v1")]
+            rules.reject! {|other_rule| other_rule == rule }
+            ret = pbMessage(_INTL("Do you want to use other battle rules?"), rules, -1)
+            if ret >= 0
+              self.start_battle(rules[ret], team)
+            else
+              self.start_battle(rule, team)
+            end
           end
         end
-      end
-    when 1
-      self.load_data
-      rules = [_INTL("1v1"), _INTL("2v2"), _INTL("1v2"), _INTL("2v1")]
-      ret = pbMessage(_INTL("Which battle rule do you want?"), rules, -1)
-      if ret >= 0
-        if pbConfirmMessage(_INTL("Would you like to give it a name?"))
-          name = pbEnterText(_INTL("What name?"), 0, 30)
-          self.add_data(rules[ret], name)
-        else
-          self.add_data(rules[ret])
+      when 1
+        self.load_data
+        rules = [_INTL("1v1"), _INTL("2v2"), _INTL("1v2"), _INTL("2v1")]
+        ret = pbMessage(_INTL("Which battle rule do you want?"), rules, -1)
+        if ret >= 0
+          if pbConfirmMessage(_INTL("Would you like to give it a name?"))
+            name = pbEnterText(_INTL("What name?"), 0, 30)
+            self.add_data(rules[ret], name)
+          else
+            self.add_data(rules[ret])
+          end
+          pbMessage(_INTL("Your team exported!"))
         end
-        pbMessage(_INTL("Your team exported!"))
-      end
-    when 2
-      self.load_data
-      if @@battle_loader.empty?
-        pbMessage(_INTL("There isn't any teams in Battle Loader!"))
-      else
-        names = @@battle_loader.map { |team_info| "#{team_info[0]} #{team_info[1]}" }
-        index = pbMessage(_INTL("Which team do you want to delete?"), names, -1)
-        if index >= 0 && pbConfirmMessage(_INTL("Do you really want to delete it?"))
-          unique_id = @@battle_loader[index][3]
-          self.delete_data(unique_id)
-          pbMessage(_INTL("This team has been deleted!"))
+      when 2
+        self.load_data
+        if @@battle_loader.empty?
+          pbMessage(_INTL("There isn't any teams in Battle Loader!"))
+        else
+          names = @@battle_loader.map { |team_info| "#{team_info[0]} #{team_info[1]}" }
+          index = pbMessage(_INTL("Which team do you want to delete?"), names, -1)
+          if index >= 0 && pbConfirmMessage(_INTL("Do you really want to delete it?"))
+            unique_id = @@battle_loader[index][3]
+            self.delete_data(unique_id)
+            pbMessage(_INTL("This team has been deleted!"))
+          end
         end
       end
     end
