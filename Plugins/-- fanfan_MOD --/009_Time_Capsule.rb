@@ -14,19 +14,21 @@ module TimeCapsule
     if @@time_capsule.empty?
       pbMessage(_INTL("There isn't any Pokémon in Time Capsule!"))
     else
-      data = pbChoosePkmnFromListEX(_INTL("Which Pokémon would you like to retrieve?"), @@time_capsule)
-      pkmn = data[0]
-      return if !pkmn
-      if has_species?(pkmn.species, pkmn.form)
-        pbMessage(_INTL("You can't retrieve this Pokémon! You already have one!"))
-      else
-        if pkmn.level > getLevelCap - 5
-          pkmn.level = getLevelCap - 5
-          pkmn.calc_stats
+      loop do
+        data = pbChoosePkmnFromListEX(_INTL("Which Pokémon would you like to retrieve?"), @@time_capsule)
+        pkmn = data[0]
+        return if !pkmn
+        if has_species?(pkmn.species, pkmn.form)
+          pbMessage(_INTL("You can't retrieve this Pokémon! You already have one!"))
+        else
+          if pkmn.level > getLevelCap - 5
+            pkmn.level = getLevelCap - 5
+            pkmn.calc_stats
+          end
+          pkmn.ownedByPlayer? ? pbAddPokemonSilent(pkmn, count: false) : pbAddPokemonSilent(pkmn)
+          @@time_capsule.delete_at(data[1])
+          pbMessage(_INTL("You retrieved {1}!", pkmn.name))
         end
-        pkmn.ownedByPlayer? ? pbAddPokemonSilent(pkmn, count: false) : pbAddPokemonSilent(pkmn)
-        @@time_capsule.delete_at(data[1])
-        pbMessage(_INTL("You retrieved {1}!", pkmn.name))
       end
     end
   end
