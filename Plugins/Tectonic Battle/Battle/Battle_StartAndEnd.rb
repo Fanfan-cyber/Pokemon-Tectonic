@@ -753,6 +753,7 @@ class PokeBattle_Battle
             if trainerBattle?
               pkmn.healByFraction(Settings::BATTLE_ENDING_NUBM * 0.01)
               pkmn.heal_status
+              pkmn.heal_pp
             end
             pkmn.removeFear if pkmn.afraid? unless @autoTesting
             @peer.pbOnLeavingBattle(self, pkmn, @usedInBattle[0][i], true) # Reset form

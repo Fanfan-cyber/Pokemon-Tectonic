@@ -28,7 +28,7 @@ end
 
 def battleGuideBasicsHash
     return {
-        _INTL("Winning Battles") => _INTL("You win a battle when all enemy Pokémon faint: reach 0 health points. You lose a battle if that happens to your Pokémon."),
+        _INTL("Winning Battles") => _INTL("You win a battle when all enemy Pokémon faint: reach 0 health points. You lose a battle if that happens to any of your Pokémon."),
         _INTL("Basic Strategy") => _INTL("1. Have as many Pokémon as you can. 2. Level up your Pokémon as much as you can. 3. Abuse type matchups. 4. Start battles with healthy Pokémon."),
         _INTL("Team Size") => _INTL("You can have a maximum of 6 Pokémon with you at any time. This is known as your 'Team'. You can store extra Pokémon using the PC in any PokéCenter."),
         _INTL("Levels") => _INTL("Each Pokémon has a level from 1 to 70. A Pokémon's level determines its stats as well as what moves it could learn. Reaching high enough levels also unlocks Evolution."),
@@ -50,7 +50,7 @@ def battleGuideMovesHash
         _INTL("Learning Moves") => _INTL("Pokémon learn new moves as they level up. They can also learn moves from the 'Move Tutors' who sit in the left side of every PokéCenter."),
         _INTL("Base Power") => _INTL("Moves with higher Base Power deal more damage. Some moves deal variable Base Power depending on the situation. Status moves have no base power."),
         _INTL("Accuracy") => _INTL("Accuracy is a move's chance of hitting. Most moves have 100% accuracy. Some effects can raise accuracy to let you use low-accuracy moves consistently."),
-        _INTL("Power Points") => _INTL("Power Points, or PP, is a number which limits how many times a move can be used. Healing at a PokéCenter or with the Aid Kit restores PP."),
+        _INTL("Power Points") => _INTL("Power Points, or PP, is a number which limits how many times a move can be used. Healing at a PokéCenter, after a trainer battle or with the Aid Kit restores PP."),
     }
 end
 
@@ -82,11 +82,11 @@ end
 def battleGuideAquiringPokemonHash
     return {
         _INTL("Why Get More?") => _INTL("Having choices of Pokémon is important when facing challenges. A team of six is a bare minimum--it's best to catch more and pull them from the PC as needed."),
-        _INTL("Methods of Aquiring") => _INTL("The two main methods of acquiring Pokémon are catching them from the wild, and receiving them from other Trainers through gifts or trades."),
+        _INTL("Methods of Aquiring") => _INTL("The three main methods of acquiring Pokémon are using DexNav, catching them from the wild, and receiving them from other Trainers through gifts or trades."),
         _INTL("Catching Basics") => _INTL("Wild Pokémon will attack you if you walk through patches of grass, dark ground in caves, or other wild terrain. You can catch these Pokémon by throwing Poké Balls at them."),
         _INTL("Increase Catch Chance pt. 1") => _INTL("Catching a Pokémon isn't guaranteed. It's easier to catch Pokémon when their health has been lowered by your attacks, or when they have a status ailment."),
         _INTL("Increase Catch Chance pt. 2") => _INTL("Every time a Pokémon breaks out of a ball, it'll be slightly easier to catch for the rest of the battle. You can check what your current catch chance is in the Poké Ball menu."),
-        _INTL("Finding Wild Pokémon") => _INTL("Use the DexNav to get information on which Pokémon are available where you are. You can also use it to find more Pokémon of a species that you've already caught one of."),
+        _INTL("Finding Wild Pokémon") => _INTL("Use the DexNav to get information on which Pokémon are available where you are."),
         _INTL("Trades") => _INTL("Throughout the world there will be people offering trades for Pokémon. Usually they want a different Pokémon, but sometimes they want money."),
     }
 end
@@ -101,14 +101,14 @@ def battleGuideStatsHash
         _INTL("Leveling and Evolution") => _INTL("Your Pokémon's stats will increase every time they level up. When Pokémon evolve, their stats change (almost always they increase)."),
         _INTL("Accuracy and Evasion") => _INTL("Accuracy and Evasion are two stats which are only active in battle, starting at 100% each. They are only modified by in-battle changing effects."),
         _INTL("Stat Steps") => _INTL("Effects can modify a Pokémon's stats during battle. These are called 'stat steps'. Stat steps multiply or divide the Pokémon's listed stat value."),
-        _INTL("Bounds of Stat Steps") => _INTL("Stat steps start at 0, and can increase up to +12 (4x) and down to -12 (.25x). Stat steps are reset if you swap the Pokémon out or it faints."),
+        _INTL("Bounds of Stat Steps") => _INTL("Stat steps start at 0, and can increase up to +12 (4x) and down to -12 (.25x). Stat steps usually are reset if you swap the Pokémon out or it faints."),
         _INTL("Checking Stat Steps") => _INTL("You can check the current stat steps of each Pokémon on the battlefield using the Info button. It lists the numerical step as well as resultant multiplier."),
     }
 end
 
 def battleGuideAbilitiesHash
     return  {
-        _INTL("What are abilities?")   => _INTL("Abilities are special powers that Pokémon can have based on their species. Most Pokémon can have 2 possible abilities. All abilities activate."),
+        _INTL("What are abilities?")   => _INTL("Abilities are special powers that Pokémon can have based on their species. Most Pokémon can have 2 possible abilities. All abilities activate in battle or on field."),
         _INTL("Ability Effects")       => _INTL("Abilities do a wide variety of different things. Understanding your team's abilities is important to winning."),
         _INTL("Checking Abilities")    => _INTL("Check your Pokémon's summary to see what displaying ability they have. Use the MasterDex to read about the abilities of enemy Pokémon during battle."),
         _INTL("Choosing Abilities")    => _INTL("A Pokémon's displaying ability is one of the two its species can have, randomly chosen when you get it. You can use Ability Capsules to swap to the other."),
@@ -134,7 +134,7 @@ end
 def battleGuideStatusConditionsHash
     return {
         _INTL("What are Status Conditions?") => _INTL("Status Conditions are ailments a Pokémon can have which hurt or restrict them. They remain after swapping out, and even between battles."),
-        _INTL("Healing Status Conditions") => _INTL("Status Conditions are removed when you heal at the PokéCenter or when you use the Aid Kit."),
+        _INTL("Healing Status Conditions") => _INTL("Status Conditions are removed when you heal at the PokéCenter, after a trainer battle or when you use the Aid Kit."),
         _INTL("Status Immunity") => _INTL("Type immunities do not prevent status moves. However, some types give immunities to certain status conditions. Don't confuse these two!"),
         _INTL("Burn") => _INTL("When burned, a Pokémon's Attack is reduced by 33%, and loses 1/8th HP every turn. Fire- and Ghost-types do the most burning. Fire is immune."),
         _INTL("Frostbite") => _INTL("When frostbitten, a Pokémon's Sp. Atk is reduced by 33%, and loses 1/8th HP every turn. Ice- and Flying-types do the most frostbiting. Ice is immune."),
@@ -170,7 +170,7 @@ def battleGuideTrainersHash
         _INTL("What are Enemy Trainers?") => _INTL("Enemy Trainers are the Pokémon Trainers you will battle throughout the game. Some block your path forwards (like Gym Leaders), others are optional."),
         _INTL("Detecting Trainers") => _INTL("Trainers are people who have a companion Pokémon next to them. If a person doesn't have that, they either aren't a Trainer, or are an inactive one."),
         _INTL("Avoiding Trainers") => _INTL("Trainers will challenge you if they see you within 4 tiles of them. Avoid them by going out of that distance, sneaking around them, or waiting until they move."),
-        _INTL("Trainer Inactivity") => _INTL("When you defeat a Trainer, they will become inactive until the next time you heal at a PokéCenter. This is indicated by them returning their companion Pokémon to its Poké Ball."),
+        _INTL("How to win?") => _INTL("If you defeat a Trainer, but have not 'perfected' the fight, you've lost. Only a perfected fight counts a win."),
         _INTL("Perfecting Fights") => _INTL("If you defeat a Trainer without any of your Pokémon fainting, you've 'perfected' the fight. They will leave forever and drop experience candy as a reward."),
         _INTL("Enemy Teams") => _INTL("Enemy Trainers have their own teams of Pokémon with their own moves and held items. It's important to pay attention to these possibilities to win battles."),
         _INTL("Differences") => _INTL("The typical trainer has 3 Pokémon, but Gym Leaders will have more. Trainers with more Pokémon also have more move variety and more items on their Pokémon."),
@@ -182,7 +182,7 @@ end
 def battleGuideAvatarsHash
     return {
         _INTL("What are Avatars?") => _INTL("Avatars are powerful enemy Pokémon with unique properties that you will fight and destroy during your adventure. They cannot be caught."),
-        _INTL("Avatars are Healthy") => _INTL("Avatars have two health bars, which means they have a lot of health. Much more than double the normal amount!"),
+        _INTL("Avatars are Healthy") => _INTL("Avatars have at least two health bars, which means they have a lot of health. Much more than double the normal amount!"),
         _INTL("Multi-Move") => _INTL("Avatars can move twice each turn. Their second move will happen after every battler has used their regular move for the turn."),
         _INTL("Two Statuses") => _INTL("Avatars are large, and have room for up to two status conditions at a time. They can't have two of the same condition."),
         _INTL("HP-Based Effects") => _INTL("Effects that damage based on a fraction of total HP are only one-sixth as powerful against avatars, compared to normal Pokémon."),
@@ -190,7 +190,7 @@ def battleGuideAvatarsHash
         _INTL("Clean Slate") => _INTL("Before an Avatar uses a Primeval Move, they will also heal from any status conditions and reset any of their stat steps that have been lowered."),
         _INTL("Shields") => _INTL("The top of Avatars health bars starts Shielded. Shielded bars take 75% less damage. A shield is removed when the Avatar uses a Primeval Move."),
         _INTL("Attack Choice") => _INTL("Avatars usually only have a few moves to choose from. They usually alternate between their moves on successive attacks."),
-        _INTL("Target Choice") => _INTL("A targeting reticle shows which of your battles the Avatar wants to attack. It will switch to another battler, however, if their attack is made impossible."),
+        _INTL("Target Choice") => _INTL("A targeting reticle shows which of your battlers the Avatar wants to attack. It will switch to another battler, however, if their attack is made impossible."),
         _INTL("Empowered Moves") => _INTL("Some Avatars have Empowered attacks, which are powered-up versions of other attacks. They take up both of an Avatar's moves on that turn."),
         _INTL("Experience Reward") => _INTL("When an Avatar is destroyed, every Pokémon on your team is given experience, even those that are fainted."),
         _INTL("Legendary Avatars") => _INTL("Legendary Avatars are unique. You fight them with 3 Pokémon, they have 3 HP bars, and they have more moves with more smarts about how to use them."),
