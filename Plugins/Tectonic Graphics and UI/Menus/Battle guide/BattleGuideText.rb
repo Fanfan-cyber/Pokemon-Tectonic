@@ -28,12 +28,12 @@ end
 
 def battleGuideBasicsHash
     return {
-        _INTL("Winning Battles") => _INTL("You win a battle when all enemy Pokémon faint: reach 0 health points. You lose a battle if that happens to any of your Pokémon."),
+        _INTL("Winning Battles") => _INTL("You win a battle when all enemy Pokémon faint: reach 0 health points. You lose a battle if that happens to any of your Pokémon. Fainted Pokémon will revive in 7 turns."),
         _INTL("Basic Strategy") => _INTL("1. Have as many Pokémon as you can. 2. Level up your Pokémon as much as you can. 3. Abuse type matchups. 4. Start battles with healthy Pokémon."),
         _INTL("Team Size") => _INTL("You can have a maximum of 6 Pokémon with you at any time. This is known as your 'Team'. You can store extra Pokémon using the PC in any PokéCenter."),
         _INTL("Levels") => _INTL("Each Pokémon has a level from 1 to 70. A Pokémon's level determines its stats as well as what moves it could learn. Reaching high enough levels also unlocks Evolution."),
         _INTL("Type Matchups") => _INTL("Types are strong or weak against other types. Having a variety of different types on your team helps you take advantage of these relationships."),
-        _INTL("Healing your Pokémon") => _INTL("Heal your Pokémon at PokéCenters between battles. You can often use the Aid Kit instead to save on traveling time."),
+        _INTL("Healing your Pokémon") => _INTL("Pokémon are healed after a trainer battlr. You can heal your Pokémon at PokéCenters between battles. You can often use the Aid Kit instead to save on traveling time."),
         _INTL("Who goes first?") => _INTL("In battle, the Pokémon with the higher speed stat gets to use their move first. Some moves modify this. Speed ties are decided randomly."),
     }
 end
@@ -170,7 +170,7 @@ def battleGuideTrainersHash
         _INTL("What are Enemy Trainers?") => _INTL("Enemy Trainers are the Pokémon Trainers you will battle throughout the game. Some block your path forwards (like Gym Leaders), others are optional."),
         _INTL("Detecting Trainers") => _INTL("Trainers are people who have a companion Pokémon next to them. If a person doesn't have that, they either aren't a Trainer, or are an inactive one."),
         _INTL("Avoiding Trainers") => _INTL("Trainers will challenge you if they see you within 4 tiles of them. Avoid them by going out of that distance, sneaking around them, or waiting until they move."),
-        _INTL("How to win?") => _INTL("If you defeat a Trainer, but have not 'perfected' the fight, you've lost. Only a perfected fight counts a win."),
+        _INTL("How to win?") => _INTL("If you defeat a Trainer, but have not 'perfected' the fight, you've lost. Only a perfected fight counts a win. Use Switch frequently is the key to win, switching also heal the Pokémon 10% HP."),
         _INTL("Perfecting Fights") => _INTL("If you defeat a Trainer without any of your Pokémon fainting, you've 'perfected' the fight. They will leave forever and drop experience candy as a reward."),
         _INTL("Enemy Teams") => _INTL("Enemy Trainers have their own teams of Pokémon with their own moves and held items. It's important to pay attention to these possibilities to win battles."),
         _INTL("Differences") => _INTL("The typical trainer has 3 Pokémon, but Gym Leaders will have more. Trainers with more Pokémon also have more move variety and more items on their Pokémon."),
