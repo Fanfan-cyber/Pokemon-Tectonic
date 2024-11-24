@@ -1,4 +1,9 @@
 module AbilityDex
+  @@abilis_canon    = nil
+  @@abilis_new      = nil
+  @@abilis_cut      = nil
+  @@abilis_primeval = nil
+
   def self.open_abilitydex
     listIndex = 0
     loop do
@@ -27,38 +32,51 @@ module AbilityDex
   end
 
   def self.abilityCanon
-    abilis_pool = {}
+    return @@abilis_canon if @@abilis_canon
+    @@abilis_canon = {}
+    count = 0
     GameData::Ability.each do |abil|
       next if abil.cut || abil.tectonic_new
-      abilis_pool[abil.name] = abil.description
+      count += 1
+      @@abilis_canon["#{count} #{abil.name}"] = "#{abil.description}\n#{abil.details}"
     end
-    abilis_pool
+    @@abilis_canon
   end
 
   def self.abilityNew
-    abilis_pool = {}
+    return @@abilis_new if @@abilis_new
+    @@abilis_new = {}
+    count = 0
     GameData::Ability.each do |abil|
       next if !abil.tectonic_new || abil.primeval || abil.cut
-      abilis_pool[abil.name] = abil.description
+      next if abil.is_test?
+      count += 1
+      @@abilis_new["#{count} #{abil.name}"] = "#{abil.description}\n#{abil.details}"
     end
-    abilis_pool
+    @@abilis_new
   end
 
   def self.abilityCut
-    abilis_pool = {}
+    return @@abilis_cut if @@abilis_cut
+    @@abilis_cut = {}
+    count = 0
     GameData::Ability.each do |abil|
       next if !abil.cut
-      abilis_pool[abil.name] = abil.description
+      count += 1
+      @@abilis_cut["#{count} #{abil.name}"] = "#{abil.description}\n#{abil.details}"
     end
-    abilis_pool
+    @@abilis_cut
   end
 
   def self.abilityPrimeval
-    abilis_pool = {}
+    return @@abilis_primeval if @@abilis_primeval
+    @@abilis_primeval = {}
+    count = 0
     GameData::Ability.each do |abil|
       next if !abil.primeval
-      abilis_pool[abil.name] = abil.description
+      count += 1
+      @@abilis_primeval["#{count} #{abil.name}"] = "#{abil.description}\n#{abil.details}"
     end
-    abilis_pool
+    @@abilis_primeval
   end
 end
