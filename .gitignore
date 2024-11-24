@@ -3,7 +3,6 @@
 !english.dat
 !chinese.dat
 !french.dat
-!time_capsule.dat
 *.bak
 Data/debuglog.txt
 Data/Actors.rxdata
@@ -18,6 +17,7 @@ Save Game/
 Screenshots/
 Changelogs/
 Analysis/
+Team Data/
 *_backup*
 *.lnk
 Game.ini

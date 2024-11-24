@@ -43,9 +43,7 @@ module TimeCapsule
 
   def self.update_time_capsule
     encrypted_data = [Zlib::Deflate.deflate(Marshal.dump(@@time_capsule))].pack("m")
-    File.open(PATH, "wb") do |file|
-      file.write(encrypted_data)
-    end
+    File.open(PATH, "wb") { |file| file.write(encrypted_data) }
   end
 end
 
