@@ -72,6 +72,7 @@ def choose_random_ability(battler = nil)
   abilis_pool = []
   GameData::Ability.each do |abil|
     next if abil.primeval || abil.cut
+    next if abil.is_test?
     next if abil.is_uncopyable_ability?
     next if battler&.abilities.include?(abil.id)
     abilis_pool.push(abil.id)
