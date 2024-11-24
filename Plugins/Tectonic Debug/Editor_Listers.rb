@@ -225,6 +225,7 @@ def pbListScreenGuide(title,lister,breakOnUse = true)
 	  elsif Input.trigger?(Input::USE) && breakOnUse
 		  break
 	  end
+    index = searchListWindow(list) if Input.trigger?(Input::ACTION)
 	end
 	value = lister.value(selectedmap)
 	finalListIndex = list.index
