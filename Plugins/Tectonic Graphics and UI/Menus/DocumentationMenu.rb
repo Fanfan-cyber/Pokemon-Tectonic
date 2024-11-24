@@ -58,6 +58,7 @@ class PokemonDocumentationMenu < PokemonPauseMenu
     endscene = true
     cmdMasterDex   = -1
     cmdMoveDex     = -1
+    cmdAbilityDex  = -1
     cmdBattleGuide = -1
     cmdDimensionD  = -1
     cmdTimeCapsule = -1
@@ -67,6 +68,7 @@ class PokemonDocumentationMenu < PokemonPauseMenu
     infoCommands = []
     infoCommands[cmdMasterDex   = infoCommands.length] = _INTL("MasterDex")
     infoCommands[cmdMoveDex     = infoCommands.length] = _INTL("MoveDex")
+    infoCommands[cmdAbilityDex  = infoCommands.length] = _INTL("AbilityDex")
     infoCommands[cmdBattleGuide = infoCommands.length] = _INTL("Battle Guide")
     infoCommands[cmdDimensionD  = infoCommands.length] = _INTL("Dimension D")
     infoCommands[cmdTimeCapsule = infoCommands.length] = _INTL("Time Capsule")
@@ -84,6 +86,8 @@ class PokemonDocumentationMenu < PokemonPauseMenu
           }
       elsif cmdMoveDex > -1 && infoCommand == cmdMoveDex
           openMoveDex
+      elsif cmdAbilityDex > -1 && infoCommand == cmdAbilityDex
+          AbilityDex.open_abilitydex
       elsif cmdBattleGuide > -1 && infoCommand == cmdBattleGuide
           showBattleGuide
       elsif cmdDimensionD > -1 && infoCommand == cmdDimensionD
