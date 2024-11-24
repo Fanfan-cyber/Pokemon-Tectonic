@@ -7,7 +7,7 @@ module AbilityDex
   def self.open_abilitydex
     listIndex = 0
     loop do
-      id, listIndex = pbListScreenGuide(_INTL("AbilityDex"), BattleGuideLister.new(abilityDexMainHash, listIndex))
+      id, listIndex = pbListScreenGuide(_INTL("AbilityDex (Search: Z)"), BattleGuideLister.new(abilityDexMainHash, listIndex))
       break if id.nil?
       sectionLabel = abilityDexMainDirectory.keys[listIndex]
       directoryEntry = abilityDexMainDirectory.values[listIndex]
