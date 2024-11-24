@@ -108,7 +108,7 @@ module Compiler
         File.open("PBS/abilities_new.txt", "wb") do |f|
             add_PBS_header_to_file(f)
             GameData::Ability.each_base do |a|
-                next if !a.tectonic_new || a.primeval || !a.file_path.nil?
+                next if !a.tectonic_new || a.primeval || a.cut || !a.file_path.nil?
                 write_ability(f, a)
             end
         end
