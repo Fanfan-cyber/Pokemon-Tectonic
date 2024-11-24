@@ -236,6 +236,10 @@ module GameData
             return !@signature_of.nil?
         end
 
+        def is_test?
+            return @flags.include?("Test")
+        end
+
         def legal?(isBoss = false)
             return false if @cut
             return false if @primeval && !isBoss
