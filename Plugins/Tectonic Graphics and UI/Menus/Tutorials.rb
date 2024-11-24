@@ -22,7 +22,7 @@ end
 def playBicycleShortcutTutorial
     tutorialMessages = 
     [
-        _INTL("There's a shortcut key to instantly mount the bicycle while walking."),
+        _INTL("There's a shortcut key(F) to instantly mount the bicycle while walking."),
         _INTL("Access your control setttings with <imp>F1</imp> to customize it.")
     ]
     playTutorial(tutorialMessages)
