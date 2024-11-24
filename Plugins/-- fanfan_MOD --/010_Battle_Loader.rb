@@ -22,7 +22,7 @@ module BattleLoader
     File.open("Team Data/#{rule}_#{name}_#{unique_id}.txt", "wb") do |file|
       file.write(encrypted_data)
     end
-    self.load_data
+    load_data
   end
 
   def self.delete_data(unique_id)
@@ -32,12 +32,12 @@ module BattleLoader
       File.delete(info)
       break
     end
-    self.load_data
+    load_data
   end
 
   def self.add_trainer_data(battle)
     if pbConfirmMessage(_INTL("Do you want to add the opponent team into Battle Loader?"))
-      self.load_data
+      load_data
       rules = [_INTL("1v1"), _INTL("2v2"), _INTL("1v2"), _INTL("2v1")]
       ret = pbMessage(_INTL("Which battle rule do you want?"), rules, 0)
       if ret >= 0
@@ -46,21 +46,21 @@ module BattleLoader
         if pbConfirmMessage(_INTL("Would you like to give it a name?"))
           name = pbEnterText(_INTL("What name?"), 0, 30)
           if name.empty?
-            self.add_data(rules[ret], battle.opponent.sample.name, team)
+            add_data(rules[ret], battle.opponent.sample.name, team)
           else
-            self.add_data(rules[ret], name, team)
+            add_data(rules[ret], name, team)
           end
         else
           if battle.opponent.size > 1
             names = battle.opponent.map(&:name)
             choose = pbMessage(_INTL("Which default name you want to use?"), names, -1)
             if choose >= 0
-              self.add_data(rules[ret], battle.opponent[choose].name, team)
+              add_data(rules[ret], battle.opponent[choose].name, team)
             else
-              self.add_data(rules[ret], battle.opponent.sample.name, team)
+              add_data(rules[ret], battle.opponent.sample.name, team)
             end
           else
-            self.add_data(rules[ret], battle.opponent[0].name, team)
+            add_data(rules[ret], battle.opponent[0].name, team)
           end
         end
         pbMessage(_INTL("The team has been registered!"))
@@ -76,7 +76,7 @@ module BattleLoader
       when -1, 3
         break
       when 0
-        self.load_data
+        load_data
         if @@battle_loader.empty?
           pbMessage(_INTL("There isn't any teams in Battle Loader!"))
         else
@@ -89,28 +89,28 @@ module BattleLoader
             rules.reject! {|other_rule| other_rule == rule }
             ret = pbMessage(_INTL("Do you want to use other battle rules?"), rules, -1)
             if ret >= 0
-              self.start_battle(rules[ret], team)
+              start_battle(rules[ret], team)
             else
-              self.start_battle(rule, team)
+              start_battle(rule, team)
             end
             break
           end
         end
       when 1
-        self.load_data
+        load_data
         rules = [_INTL("1v1"), _INTL("2v2"), _INTL("1v2"), _INTL("2v1")]
         ret = pbMessage(_INTL("Which battle rule do you want?"), rules, -1)
         if ret >= 0
           if pbConfirmMessage(_INTL("Would you like to give it a name?"))
             name = pbEnterText(_INTL("What name?"), 0, 30)
-            self.add_data(rules[ret], name)
+            add_data(rules[ret], name)
           else
-            self.add_data(rules[ret])
+            add_data(rules[ret])
           end
           pbMessage(_INTL("Your team exported!"))
         end
       when 2
-        self.load_data
+        load_data
         if @@battle_loader.empty?
           pbMessage(_INTL("There isn't any teams in Battle Loader!"))
         else
@@ -118,7 +118,7 @@ module BattleLoader
           index = pbMessage(_INTL("Which team do you want to delete?"), names, -1)
           if index >= 0 && pbConfirmMessage(_INTL("Do you really want to delete it?"))
             unique_id = @@battle_loader[index][3]
-            self.delete_data(unique_id)
+            delete_data(unique_id)
             pbMessage(_INTL("Team {1} has been deleted!", unique_id))
           end
         end
