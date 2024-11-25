@@ -598,15 +598,19 @@ class PokeBattle_Battler
     def pbTransform(target)
         @battle.scene.pbChangePokemon(self, target.pokemon)
 
-        oldAbilities = abilities.clone
+        #oldAbilities = abilities.clone
+        lost_abilities = abilities - target.abilities
         applyEffect(:Transform)
         applyEffect(:TransformSpecies, target.species)
         pbChangeTypes(target)
+=begin
         if hasActiveItem?(:FRAGILELOCKET)
             setAbility(target.abilities)
         else
             setAbility(target.firstAbility)
         end
+=end
+        setAbility(target.abilities)
         @attack = target.attack
         @defense = target.defense
         @spatk = target.spatk
@@ -629,7 +633,7 @@ class PokeBattle_Battler
         @effects[:WeightChange] = target.effects[:WeightChange]
         refreshDataBox
         @battle.pbDisplay(_INTL("{1} transformed into {2}!", pbThis, target.pbThis(true)))
-        pbOnAbilitiesLost(oldAbilities)
+        pbOnAbilitiesLost(lost_abilities)
 
         # Trigger abilities
         pbEffectsOnSwitchIn
@@ -646,6 +650,7 @@ class PokeBattle_Battler
         @battle.pbDisplay(_INTL("{1} transformed into a {2}!", pbThis, newSpeciesData.name))
         legalAbilities = newSpeciesData.legalAbilities
 
+        lost_abilities = abilities - legalAbilities
         setAbility(legalAbilities)
         # newAbility = legalAbilities[@pokemon.ability_index] || legalAbilities[0]
         # replaceAbility(newAbility) unless hasAbility?(newAbility)
@@ -657,6 +662,10 @@ class PokeBattle_Battler
         @spdef   = newStats[:SPECIAL_DEFENSE]
         @speed   = newStats[:SPEED]
         disableBaseStatEffects
+
+        pbOnAbilitiesLost(lost_abilities)
+        # Trigger abilities
+        pbEffectsOnSwitchIn
     end
 
     def pbHyperMode; end
