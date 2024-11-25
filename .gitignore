@@ -3,6 +3,7 @@
 !english.dat
 !chinese.dat
 !french.dat
+!time_capsule.dat
 *.bak
 Data/debuglog.txt
 Data/Actors.rxdata
