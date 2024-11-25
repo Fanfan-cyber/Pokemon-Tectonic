@@ -358,6 +358,8 @@ class PokeBattle_Battle
     end
 
     def pbStartBattleCore(ableBeforeFight = nil)
+        AntiAbuse.debug_check
+
         # Set up the battlers on each side
         sendOuts = pbSetUpSides
         # Create all the sprites and play the battle intro animation

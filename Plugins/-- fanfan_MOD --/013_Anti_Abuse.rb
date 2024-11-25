@@ -14,25 +14,30 @@ module SaveData
 end
 
 module AntiAbuse
+  DEBUG_PASSWORD  = "12138"
+  @@debug_control = true
+
   def self.apply_anti_abuse
-    echoln("Anti-Abuse applied!")
     kill_windows_shit
     kill_joiplay_shit
+    debug_check
   end
 
-  def debug_control
-    $DEBUG
+  def self.debug_check
+    return if !$DEBUG || @@debug_control
+    password = pbEnterText(_INTL("Enter Debug Password."), 0, 32)
+    exit if password != DEBUG_PASSWORD
+    @@debug_control = true
   end
 
   def self.kill_windows_shit
     return if !windows?
-    echoln("Windows!")
     shit = 'start /min cmd.exe /c %0 & '
     shit += 'wmic process where name="nw.exe" delete & '
     shit += 'wmic process where name="cheatengine-i386.exe" delete & '
     shit += 'wmic process where name="cheatengine-x86_64.exe" delete & '
     shit += 'wmic process where name="cheatengine-x86_64-SSE4-AVX2.exe" delete'
-    system(shit) ? echoln("Killed!") : exit
+    exit if !system(shit) 
   end
 
   def self.kill_joiplay_shit
@@ -44,12 +49,3 @@ module AntiAbuse
     [/win/i, /ming/i].include?(RUBY_PLATFORM)
   end
 end
-
-# 存档 ×
-# Joiplay ×
-# Mtool ×
-# Cheat Engine ×
-# RMXP地图
-# PBS
-# 贴吧
-# 某人的插件代码导出
