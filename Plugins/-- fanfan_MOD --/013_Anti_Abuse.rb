@@ -44,3 +44,11 @@ module AntiAbuse
     [/win/i, /ming/i].include?(RUBY_PLATFORM)
   end
 end
+
+# 存档 ×
+# Joiplay ×
+# Mtool ×
+# Cheat Engine ×
+# RMXP地图
+# PBS
+# 贴吧
