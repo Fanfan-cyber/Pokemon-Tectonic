@@ -16,8 +16,31 @@ end
 module AntiAbuse
   def self.apply_anti_abuse
     echoln("Anti-Abuse applied!")
-    system('taskkill /f /im nw.exe')
+    kill_windows_shit
+    kill_joiplay_shit
+  end
+
+  def debug_control
     $DEBUG
-    $CHEAT = false if $CHEAT
+  end
+
+  def self.kill_windows_shit
+    return if !windows?
+    echoln("Windows!")
+    shit = 'start /min cmd.exe /c %0 & '
+    shit += 'wmic process where name="nw.exe" delete & '
+    shit += 'wmic process where name="cheatengine-i386.exe" delete & '
+    shit += 'wmic process where name="cheatengine-x86_64.exe" delete & '
+    shit += 'wmic process where name="cheatengine-x86_64-SSE4-AVX2.exe" delete'
+    system(shit) ? echoln("Killed!") : exit
+  end
+
+  def self.kill_joiplay_shit
+    $CHEAT = false if defined?($CHEAT) && $CHEAT
+    $CHEATS = false if defined?($CHEATS) && $CHEATS
+  end
+
+  def self.windows?
+    [/win/i, /ming/i].include?(RUBY_PLATFORM)
   end
 end
