@@ -135,6 +135,7 @@ class PokeBattle_Scene
       cw.setIndexAndMode(moveIndex,0)
       needFullRefresh = true
       needRefresh = false
+      #moves_length = battler.getMoves.length
       loop do
         # Refresh view if necessary
         if needFullRefresh
@@ -150,32 +151,23 @@ class PokeBattle_Scene
         pbUpdate(cw)
         # Update selected command
         if Input.trigger?(Input::LEFT)
-          cw.index -= 1 if (cw.index & 1) == 1
+          cw.index -= 1 if [1, 3].include?(cw.index) #(cw.index & 1) == 1
         elsif Input.trigger?(Input::RIGHT)
-          if battler.getMoves[cw.index + 1] && battler.getMoves[cw.index + 1].id
-            cw.index += 1 if (cw.index & 1) == 0
-          end
+          cw.index += 1 if [0, 2].include?(cw.index) && battler.getMoves[cw.index + 1] && battler.getMoves[cw.index + 1].id #(cw.index & 1) == 0 
         elsif Input.trigger?(Input::UP)
-          moves_length = battler.getMoves.length
-          if (cw.index & 2) == 2 && cw.index <= 3
+          if [2, 3].include?(cw.index) #(cw.index & 2) == 2 
             cw.index -= 2
-          elsif moves_length >= 5 && cw.index == 0
+          elsif cw.index == 0 && battler.getMoves[cw.index + 4] && battler.getMoves[cw.index + 4].id
             cw.index = 4
-          elsif cw.index == 4
-            cw.index = 5 if moves_length >= 6
-          elsif cw.index == 5
-            cw.index = moves_length >= 7 ? 6 : 4
-          elsif cw.index == 6
-            cw.index = moves_length >= 8 ? 7 : 4
-          elsif cw.index == 7
-            cw.index = 4
+          elsif cw.index >= 4 && battler.getMoves[cw.index + 1] && battler.getMoves[cw.index + 1].id
+            cw.index += 1
           end
         elsif Input.trigger?(Input::DOWN)
-          if battler.getMoves[cw.index + 2] && battler.getMoves[cw.index + 2].id && cw.index <= 3
-            cw.index += 2 if (cw.index & 2) == 0
+          if [0, 1].include?(cw.index) && battler.getMoves[cw.index + 2] && battler.getMoves[cw.index + 2].id #(cw.index & 2) == 0 
+            cw.index += 2
           elsif cw.index == 4
             cw.index = 0
-          else
+          elsif cw.index > 4
             cw.index -= 1
           end
         end
