@@ -87,6 +87,7 @@ class PokemonLoadScreen
     end
 
     def pbStartLoadScreen
+        AntiAbuse.apply_anti_abuse
         commands = []
         cmd_continue        = -1
         cmd_load_game       = -1
