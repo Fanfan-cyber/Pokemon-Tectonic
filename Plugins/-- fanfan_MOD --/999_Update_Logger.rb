@@ -150,7 +150,6 @@ v0.0.1
 79.增加了新功能特性图鉴，现在可以在特性图鉴中查看游戏中所有的特性了
 80.增加了新功能特性图鉴，现在可以在特性图鉴中查看游戏中所有的特性了
 81.
-
 LOGGER
 
 =begin
@@ -183,12 +182,10 @@ ROWE的STAB机制，使用的技能与我方队伍里其他精灵相同属性，
 完善反作弊机制(RMXP地图/PBS/贴吧/某人的插件代码导出)
 =end
 
-CHANGE_LOG.gsub!("\n", "\r\n")
-
 file = File.open("release_version.txt", "wb")
 file.write(Settings::GAME_VERSION)
 file.close
 
 file = File.open("release_version_mod.txt", "wb")
-file.write(CHANGE_LOG)
+file.write(CHANGE_LOG.gsub("\n", "\r\n"))
 file.close
