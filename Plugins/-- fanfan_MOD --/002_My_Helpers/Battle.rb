@@ -157,7 +157,7 @@ class PokeBattle_Battle
 
   def all_battlers_types
     current_types = []
-    eachBattler { |b| current_types.add(b.pbTypes(true)) }
+    eachBattler { |b| current_types.concat(b.pbTypes(true)) }
     current_types
   end
 
@@ -167,19 +167,19 @@ class PokeBattle_Battle
 
   def party1_able_pkmn_types
     party1_types = []
-    each_party1_able_pkmn { |pkmn| party1_types.add(pkmn.types) }
+    each_party1_able_pkmn { |pkmn| party1_types.concat(pkmn.types) }
     party1_types
   end
 
   def party1_back_pkmn_types
     party1_types = []
-    each_party1_back_pkmn { |pkmn| party1_types.add(pkmn.types) }
+    each_party1_back_pkmn { |pkmn| party1_types.concat(pkmn.types) }
     party1_types
   end
 
   def party1_back_able_pkmn_types
     party1_types = []
-    each_party1_back_able_pkmn { |pkmn| party1_types.add(pkmn.types) }
+    each_party1_back_able_pkmn { |pkmn| party1_types.concat(pkmn.types) }
     party1_types
   end
 
@@ -189,19 +189,19 @@ class PokeBattle_Battle
 
   def party2_able_pkmn_types
     party2_types = []
-    each_party2_able_pkmn { |pkmn| party2_types.add(pkmn.types) }
+    each_party2_able_pkmn { |pkmn| party2_types.concat(pkmn.types) }
     party2_types
   end
 
   def party2_back_pkmn_types
     party2_types = []
-    each_party2_back_pkmn { |pkmn| party2_types.add(pkmn.types) }
+    each_party2_back_pkmn { |pkmn| party2_types.concat(pkmn.types) }
     party2_types
   end
 
   def party2_back_able_pkmn_types
     party2_types = []
-    each_party2_back_able_pkmn { |pkmn| party2_types.add(pkmn.types) }
+    each_party2_back_able_pkmn { |pkmn| party2_types.concat(pkmn.types) }
     party2_types
   end
 
@@ -211,25 +211,25 @@ class PokeBattle_Battle
 
   def both_party_able_pkmn_types
     all_able_types = []
-    each_both_party_able_pkmn { |pkmn| all_able_types.add(pkmn.types) }
+    each_both_party_able_pkmn { |pkmn| all_able_types.concat(pkmn.types) }
     all_able_types
   end
 
   def both_party_back_pkmn_types
     both_party_types = []
-    each_both_party_back_pkmn { |pkmn| both_party_types.add(pkmn.types) }
+    each_both_party_back_pkmn { |pkmn| both_party_types.concat(pkmn.types) }
     both_party_types
   end
 
   def both_party_back_able_pkmn_types
     both_party_types = []
-    each_both_party_back_able_pkmn { |pkmn| both_party_types.add(pkmn.types) }
+    each_both_party_back_able_pkmn { |pkmn| both_party_types.concat(pkmn.types) }
     both_party_types
   end
 
   def all_current_types
     current_types = []
-    current_types.add(all_battlers_types, both_party_back_able_pkmn_types)
+    current_types.concat(all_battlers_types, both_party_back_able_pkmn_types)
     current_types
   end
 
