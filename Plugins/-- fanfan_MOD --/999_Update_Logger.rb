@@ -180,6 +180,7 @@ ROWE的STAB机制，使用的技能与我方队伍里其他精灵相同属性，
 无限离洞绳
 全异常状态应用睡眠条款
 完善反作弊机制(RMXP地图/PBS/贴吧/某人的插件代码导出)
+中文换行
 =end
 
 file = File.open("release_version.txt", "wb")
