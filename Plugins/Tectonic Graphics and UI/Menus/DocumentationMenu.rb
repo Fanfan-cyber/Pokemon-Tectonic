@@ -107,10 +107,53 @@ class PokemonDocumentationMenu < PokemonPauseMenu
     end
     @scene.pbEndScene if endscene
   end
+
+  def pbStartPokemonMenuInBattle
+    $PokemonTemp.menuLastChoice = 0
+		if !$Trainer
+			if $DEBUG
+			  pbMessage(_INTL("The player trainer was not defined, so the pause menu can't be displayed."))
+			  pbMessage(_INTL("Please see the documentation to learn how to set up the trainer player."))
+			end
+			return
+		end
+    @scene.pbStartScene
+    endscene = true
+    cmdMasterDex   = -1
+    cmdMoveDex     = -1
+    cmdAbilityDex  = -1
+    cmdBattleGuide = -1
+    infoCommands = []
+    infoCommands[cmdMasterDex   = infoCommands.length] = _INTL("MasterDex")
+    infoCommands[cmdMoveDex     = infoCommands.length] = _INTL("MoveDex")
+    infoCommands[cmdAbilityDex  = infoCommands.length] = _INTL("AbilityDex")
+    infoCommands[cmdBattleGuide = infoCommands.length] = _INTL("Battle Guide")
+    infoCommands.push(_INTL("Cancel"))
+    loop do
+      infoCommand = @scene.pbShowCommands(infoCommands)
+      if cmdMasterDex > -1 && infoCommand == cmdMasterDex
+          pbFadeOutIn {
+              dexScene = PokemonPokedex_Scene.new
+              screen = PokemonPokedexScreen.new(dexScene)
+              screen.pbStartScreen
+          }
+      elsif cmdMoveDex > -1 && infoCommand == cmdMoveDex
+          openMoveDex
+      elsif cmdAbilityDex > -1 && infoCommand == cmdAbilityDex
+          AbilityDex.open_abilitydex
+      elsif cmdBattleGuide > -1 && infoCommand == cmdBattleGuide
+          showBattleGuide
+      else
+        pbPlayCloseMenuSE
+        break
+      end
+    end
+    @scene.pbEndScene if endscene
+  end
 end
 
 def showDocumentationMenu
     docsMenuScene = PokemonDocumentationMenu_Scene.new
     docsMenuScreen = PokemonDocumentationMenu.new(docsMenuScene)
-    docsMenuScreen.pbStartPokemonMenu
+    docsMenuScreen.pbStartPokemonMenuInBattle
 end
