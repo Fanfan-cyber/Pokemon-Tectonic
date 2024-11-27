@@ -432,8 +432,34 @@ class PokeBattle_Battler
                 b.damageState.reset
                 b.damageState.initialHP = b.hp
 
-                typeMod = move.pbCalcTypeMod(move.calcType, user, b)
-                b.damageState.typeMod = typeMod
+                #typeMod = move.pbCalcTypeMod(move.calcType, user, b)
+                #b.damageState.typeMod = typeMod
+
+                if user.hasActiveAbility?(:ADAPTIVEAI)
+                    #old_move_move_calc_type = move.calcType
+                    offense_types = Hash.new { |hash, key| hash[key] = [] }
+                    GameData::Type.each do |offense_type|
+                      type_id = offense_type.id
+                      move.calcType = offense_type.id
+                      effective = move.pbCalcTypeMod(type_id, user, b)
+                      effective = 0 if !pbSuccessCheckAgainstTarget(move, user, b, effective, false)
+                      next if effective <= 8
+                      calc_damage = (effective == 0) ? 0 : move.calculateDamageForHitAI(user, b, move.calcType, move.pbBaseDamage(move.baseDamage, user, b), move.pbTarget(user).num_targets)
+                      offense_types[calc_damage] << [type_id, effective]
+                    end
+                    #move.calcType = old_move_move_calc_type
+                    typeMod1 = offense_types.keys.max
+                    which = offense_types[typeMod1].sample
+                    move.calcType = which[0]
+                    typeMod = which[1]
+                    b.damageState.typeMod = typeMod
+                    puts typeMod
+                    puts move.calcType
+                    puts offense_types.inspect
+                else
+                    typeMod = move.pbCalcTypeMod(move.calcType, user, b)
+                    b.damageState.typeMod = typeMod
+                end
 
                 showFailMessages = move.pbShowFailMessages?(targets)
                 unless pbSuccessCheckAgainstTarget(move, user, b, typeMod, showFailMessages)
