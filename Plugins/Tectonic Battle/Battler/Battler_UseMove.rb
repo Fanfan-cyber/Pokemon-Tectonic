@@ -158,6 +158,35 @@ class PokeBattle_Battler
         user.pbEffectsOnSwitchIn(true) if user.pbAbilitiesOnDamageTaken(oldHP)
     end
 
+    def getTypeModBeforeSuccessCheck(user, target, move)
+        if user.hasActiveAbility?(:ADAPTIVEAIV1)
+            move.pbCalcTypeMod(move.calcType, user, target)
+        elsif user.hasActiveAbility?(:ADAPTIVEAIV2)
+            move.pbCalcTypeMod(move.calcType, user, target)
+        elsif user.hasActiveAbility?(:ADAPTIVEAIV3)
+            move.pbCalcTypeMod(move.calcType, user, target)
+      elsif user.hasActiveAbility?(:ADAPTIVEAIV4)
+          #old_move_move_calc_type = move.calcType
+          calc_type_damage = Hash.new { |hash, key| hash[key] = [] }
+          GameData::Type.each do |offense_type|
+              type_id       = offense_type.id
+              move.calcType = type_id
+              typeMod = move.pbCalcTypeMod(type_id, user, target)
+              next if Effectiveness.ineffective?(typeMod)
+              next if !pbSuccessCheckAgainstTarget(move, user, target, typeMod, false)
+              calc_damage = move.calculateDamageForHitAI(user, target, type_id, move.pbBaseDamage(move.baseDamage, user, target), move.pbTarget(user).num_targets)
+              calc_type_damage[calc_damage] << [type_id, typeMod]
+          end
+          #move.calcType = old_move_move_calc_type
+          max_damage      = calc_type_damage.keys.max
+          max_damage_data = calc_type_damage[max_damage].sample
+          move.calcType   = max_damage_data[0]
+          max_damage_data[1]
+      else
+          move.pbCalcTypeMod(move.calcType, user, target)
+      end
+    end
+
     #=============================================================================
     # Simple "use move" method, used when a move calls another move and for Future
     # Sight's attack
@@ -432,34 +461,8 @@ class PokeBattle_Battler
                 b.damageState.reset
                 b.damageState.initialHP = b.hp
 
-                #typeMod = move.pbCalcTypeMod(move.calcType, user, b)
-                #b.damageState.typeMod = typeMod
-
-                if user.hasActiveAbility?(:ADAPTIVEAI)
-                    #old_move_move_calc_type = move.calcType
-                    offense_types = Hash.new { |hash, key| hash[key] = [] }
-                    GameData::Type.each do |offense_type|
-                      type_id = offense_type.id
-                      move.calcType = offense_type.id
-                      effective = move.pbCalcTypeMod(type_id, user, b)
-                      effective = 0 if !pbSuccessCheckAgainstTarget(move, user, b, effective, false)
-                      next if effective <= 8
-                      calc_damage = (effective == 0) ? 0 : move.calculateDamageForHitAI(user, b, move.calcType, move.pbBaseDamage(move.baseDamage, user, b), move.pbTarget(user).num_targets)
-                      offense_types[calc_damage] << [type_id, effective]
-                    end
-                    #move.calcType = old_move_move_calc_type
-                    typeMod1 = offense_types.keys.max
-                    which = offense_types[typeMod1].sample
-                    move.calcType = which[0]
-                    typeMod = which[1]
-                    b.damageState.typeMod = typeMod
-                    puts typeMod
-                    puts move.calcType
-                    puts offense_types.inspect
-                else
-                    typeMod = move.pbCalcTypeMod(move.calcType, user, b)
-                    b.damageState.typeMod = typeMod
-                end
+                typeMod = getTypeModBeforeSuccessCheck(user, b, move) #move.pbCalcTypeMod(move.calcType, user, b)
+                b.damageState.typeMod = typeMod
 
                 showFailMessages = move.pbShowFailMessages?(targets)
                 unless pbSuccessCheckAgainstTarget(move, user, b, typeMod, showFailMessages)
@@ -595,7 +598,7 @@ class PokeBattle_Battler
                 success = false
                 unless move.pbMoveFailed?(b, newTargets, true)
                     newTargets.each_with_index do |newTarget, idx|
-                        typeMod = move.pbCalcTypeMod(move.calcType, user, b)
+                        typeMod = getTypeModBeforeSuccessCheck(user, b, move) #move.pbCalcTypeMod(move.calcType, user, b)
                         b.damageState.typeMod = typeMod
 
                         showFailMessages = move.pbShowFailMessages?(targets)
