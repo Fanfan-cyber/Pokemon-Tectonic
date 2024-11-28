@@ -10,7 +10,7 @@ Description = Adapts the move's type to ensure it is truly super-effective again
 #-------------------------------
 [ADAPTIVEAIV3] # 0665
 Name = Adaptive AI v3
-Description = Adapts the move's type to maximize super-effectiveness while accounting for the target's immunities.
+Description = Adapts the move's type to maximize effectiveness while accounting for the immunities.
 #-------------------------------
 [ADAPTIVEAIV4] # 0666
 Name = Adaptive AI v4
