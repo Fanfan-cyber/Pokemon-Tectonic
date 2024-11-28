@@ -1,7 +1,7 @@
 def game_start_tribe_update_trigger
   return if !$DEBUG
   $Trainer&.romove_all_deity
-  $Trainer&.add_deity(%i[power hp status catch tribe]) # copy no_tribe money pp
+  $Trainer&.add_deity(%i[power hp status catch tribe]) # no_tribe money pp
 end
 
 module Deity
@@ -62,10 +62,6 @@ class Player
 
   def all_tribe?
     deity[:tribe]
-  end
-
-  def copy_player_tribes?
-    deity[:copy]
   end
 
   def no_tribe?
@@ -131,7 +127,7 @@ class TribalBonus
     deity_update_tribe_count
 
     add_all_tribes if @trainer.is_player? && $Trainer&.all_tribe?
-    copy_player_tribes if !@trainer.is_player? && $Trainer&.copy_player_tribes?
+    copy_player_tribes if !@trainer.is_player?
     romove_all_tribes if $Trainer&.no_tribe?
   end
   alias update_tribe_count updateTribeCount
