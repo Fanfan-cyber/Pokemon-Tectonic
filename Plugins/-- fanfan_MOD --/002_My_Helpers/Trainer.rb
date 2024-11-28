@@ -6,6 +6,11 @@ class Trainer
     is_player
   end
 
+  # 检查队伍中是否有精灵
+  def has_pokemon?
+    @party.length >= 1
+  end
+
   # 遍历每一只精灵
   def each_pkmn
     @party.each_with_index { |pkmn, index| yield pkmn, index if pkmn && !pkmn.egg? }

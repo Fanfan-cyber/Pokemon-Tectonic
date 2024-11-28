@@ -69,6 +69,10 @@ module BattleLoader
   end
 
   def self.open_battle_loader
+    if !$Trainer.has_pokemon?
+      pbMessage(_INTL("You can't start a battle now since you don't have any Pokémon!"))
+      return
+    end
     loop do
       choice = [_INTL("Battle"), _INTL("Export Team"), _INTL("Delete Team"), _INTL("Cancel")]
       choose = pbMessage(_INTL("What do you want to do?"), choice, -1)
