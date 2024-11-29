@@ -158,6 +158,32 @@ def pbChooseItemFromListEX(message, input_ids, must_choose = false)
   return ids[ret], ret, names[ret]
 end
 
+# 从技能列表中选择物品
+def pbChooseMoveFromListEX(message, input_ids, must_choose = false)
+  names = []
+  ids = []
+  input_ids.each do |id|
+    if id.is_a?(PokeBattle_Move)
+      names.push(id.name)
+      ids.push(id)
+    else
+      next if !GameData::Move.exists?(id)
+      move = GameData::Move.get(id)
+      names.push(move.name)
+      ids.push(move.id)
+    end
+  end
+  return if names.empty?
+  if !must_choose
+    names.push(_INTL("Cancel"))
+    ids.push(nil)
+    ret = pbMessage(message, names, -1)
+  else
+    ret = pbMessage(message, names, 0)
+  end
+  return ids[ret], ret, names[ret]
+end
+
 # 计算最好的进攻属性
 def calculate_best_offense_type(target)
   offense_types = Hash.new { |hash, key| hash[key] = [] }
