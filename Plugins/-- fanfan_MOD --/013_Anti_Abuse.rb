@@ -15,7 +15,7 @@ end
 
 module AntiAbuse
   DEBUG_PASSWORD  = "12138"
-  @@debug_control = true
+  @@debug_control = false
 
   def self.apply_anti_abuse
     kill_windows_shit
