@@ -158,6 +158,29 @@ def pbChooseItemFromListEX(message, input_ids, must_choose = false)
   return ids[ret], ret, names[ret]
 end
 
+# 计算最好的进攻属性
+def calculate_best_offense_type(target)
+  offense_types = Hash.new { |hash, key| hash[key] = [] }
+  defense_types = target.pbTypes(true)
+
+  GameData::Type.each do |offense_type|
+    type_id       = offense_type.id
+    type_matchups = Array.new(3, Effectiveness::NORMAL_EFFECTIVE_ONE)
+
+    defense_types.each_with_index do |defense_type, i|
+      type_matchup = Effectiveness.calculate_one(type_id, defense_type)
+      type_matchups[i] = type_matchup
+    end
+
+    effective = type_matchups.reduce(1, :*)
+    next if Effectiveness.ineffective?(effective)
+    offense_types[effective] << type_id
+  end
+
+  best_matchup = offense_types.keys.max
+  offense_types[best_matchup][0]
+end
+
 # 生成一个独特的ID
 def generate_unique_id(digits = 8)
   random_ints = ("0".."9").to_a.sample(digits)

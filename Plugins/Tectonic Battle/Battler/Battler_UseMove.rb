@@ -160,26 +160,14 @@ class PokeBattle_Battler
 
     def getTypeModBeforeSuccessCheck(user, target, move)
         if user.hasActiveAbility?(:ADAPTIVEAIV1)
-            offense_types = Hash.new { |hash, key| hash[key] = [] }
-            defense_types = target.pbTypes(true)
-            GameData::Type.each do |offense_type|
-                type_id       = offense_type.id
-                type_matchups = [Effectiveness::NORMAL_EFFECTIVE_ONE] * 3 # 3 types max
-                defense_types.each_with_index do |defense_type, i|
-                    type_matchup     = Effectiveness.calculate_one(type_id, defense_type)
-                    type_matchups[i] = type_matchup
-                end
-                effective = 1
-                type_matchups.each { |type_matchup| effective *= type_matchup }
-                next if Effectiveness.ineffective?(effective)
-                offense_types[effective] << type_id
+            old_move_calc_type = move.calcType
+            calc_type = calculate_best_offense_type(target)
+            if calc_type != old_move_calc_type
+                @battle.pbShowAbilitySplash(user, :ADAPTIVEAIV1)
+                move.display_type_change_message(calc_type)
+                move.calcType = calc_type
+                @battle.pbHideAbilitySplash(user)
             end
-            best_matchup  = offense_types.keys.max
-            calc_type     = offense_types[best_matchup].sample
-            move.calcType = calc_type
-            type_name     = GameData::Type.get(calc_type).name
-            @battle.pbDisplay(_INTL("{1} change to {2} type!", move.name, type_name))
-            #puts offense_types.inspect
             move.pbCalcTypeMod(calc_type, user, target)
         elsif user.hasActiveAbility?(:ADAPTIVEAIV2)
             offense_types = Hash.new { |hash, key| hash[key] = [] }
@@ -215,7 +203,7 @@ class PokeBattle_Battler
             #puts offense_types.inspect
             typeMod
         elsif user.hasActiveAbility?(:ADAPTIVEAIV4)
-            #old_move_move_calc_type = move.calcType
+            #old_move_calc_type = move.calcType
             calc_type_damage = Hash.new { |hash, key| hash[key] = [] }
             GameData::Type.each do |offense_type|
                 type_id       = offense_type.id
@@ -226,7 +214,7 @@ class PokeBattle_Battler
                 calc_damage = move.calculateDamageForHitAI(user, target, type_id, move.pbBaseDamage(move.baseDamage, user, target), move.pbTarget(user).num_targets)
                 calc_type_damage[calc_damage] << [type_id, typeMod]
             end
-            #move.calcType = old_move_move_calc_type
+            #move.calcType = old_move_calc_type
             max_damage      = calc_type_damage.keys.max
             max_damage_data = calc_type_damage[max_damage].sample
             calc_type       = max_damage_data[0]

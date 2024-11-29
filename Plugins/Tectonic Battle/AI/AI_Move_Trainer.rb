@@ -292,7 +292,7 @@ class PokeBattle_AI
 
         # Modify the effect score by the move's additional effect chance if it has one
         if move.randomEffect?
-            type = pbRoughType(move, user)
+            type = pbRoughType(move, user, target)
             realProcChance = move.pbAdditionalEffectChance(user, target, type, 0, true)
             realProcChance = 0 unless move.canApplyRandomAddedEffects?(user,target,false,true)
             factor = (realProcChance / 100.0)

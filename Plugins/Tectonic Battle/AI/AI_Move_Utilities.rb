@@ -84,7 +84,7 @@ class PokeBattle_AI
 
         # Check for ineffective because of abilities or effects on the target
         if !fails && user.index != target.index
-            type = pbRoughType(move, user)
+            type = pbRoughType(move, user, target)
             typeMod = pbCalcTypeModAI(type, user, target, move)
             unless user.pbSuccessCheckAgainstTarget(move, user, target, typeMod, false, true)
                 fails = true
@@ -127,7 +127,7 @@ class PokeBattle_AI
     #=============================================================================
     def pbTotalDamageAI(move, user, target, numTargets = 1)
         # Get the move's type
-        type = pbRoughType(move, user)
+        type = pbRoughType(move, user, target)
 
         baseDmg = pbMoveBaseDamageAI(move, user, target)
 
@@ -170,7 +170,7 @@ class PokeBattle_AI
         baseAcc = move.pbBaseAccuracy(user, target)
         return 100 if baseAcc == 0
         # Get the move's type
-        type = pbRoughType(move, user)
+        type = pbRoughType(move, user, target)
         # Calculate all modifier effects
         modifiers = {}
         modifiers[:base_accuracy]  = baseAcc
