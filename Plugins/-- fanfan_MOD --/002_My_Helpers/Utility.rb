@@ -185,26 +185,69 @@ def pbChooseMoveFromListEX(message, input_ids, must_choose = false)
 end
 
 # 计算最好的进攻属性
-def calculate_best_offense_type(target)
+def calc_best_offense_types(target)
   offense_types = Hash.new { |hash, key| hash[key] = [] }
   defense_types = target.pbTypes(true)
 
   GameData::Type.each do |offense_type|
-    type_id       = offense_type.id
+    calc_type     = offense_type.id
     type_matchups = Array.new(3, Effectiveness::NORMAL_EFFECTIVE_ONE)
 
     defense_types.each_with_index do |defense_type, i|
-      type_matchup = Effectiveness.calculate_one(type_id, defense_type)
+      type_matchup     = Effectiveness.calculate_one(calc_type, defense_type)
       type_matchups[i] = type_matchup
     end
 
     effective = type_matchups.reduce(1, :*)
     next if Effectiveness.ineffective?(effective)
-    offense_types[effective] << type_id
+    offense_types[effective] << calc_type
   end
+  #puts offense_types.inspect
 
   best_matchup = offense_types.keys.max
-  offense_types[best_matchup][0]
+  offense_types[best_matchup]
+end
+
+def calc_best_offense_types_typeMod(move, user, target, ignore_immunity = false)
+  offense_types      = Hash.new { |hash, key| hash[key] = [] }
+  old_move_calc_type = move.calcType
+
+  GameData::Type.each do |offense_type|
+    calc_type     = offense_type.id
+    move.calcType = calc_type
+    typeMod       = move.pbCalcTypeMod(calc_type, user, target)
+    next if Effectiveness.ineffective?(typeMod)
+    next if ignore_immunity && !user.pbSuccessCheckAgainstTarget(move, user, target, typeMod, false)
+    offense_types[typeMod] << calc_type
+  end
+  #puts offense_types.inspect
+
+  move.calcType = old_move_calc_type
+  typeMod       = offense_types.keys.max
+  calc_types    = offense_types[typeMod]
+  [typeMod, calc_types]
+end
+
+def calc_adaptive_ai_type_mod(battle, user, target, move, ability_id, ignore_immunity = false)
+  old_move_calc_type = move.calcType
+  calc_data          = calc_best_offense_types_typeMod(move, user, target, ignore_immunity)
+  typeMod            = calc_data[0]
+  calc_types         = calc_data[1]
+  change_calc_type(calc_types, old_move_calc_type, battle, user, move, ability_id)
+  typeMod
+end
+
+def change_calc_type(calc_types, old_move_calc_type, battle, user, move, ability_id)
+  if calc_types.include?(old_move_calc_type)
+    old_move_calc_type
+  else
+    battle.pbShowAbilitySplash(user, ability_id)
+    calc_type = calc_types[0] # use the first best type
+    move.display_type_change_message(calc_type)
+    move.calcType = calc_type
+    battle.pbHideAbilitySplash(user)
+    calc_type
+  end
 end
 
 # 生成一个独特的ID
