@@ -162,7 +162,7 @@ class PokeBattle_Battler
         old_move_calc_type = move.calcType
         if user.hasActiveAbility?(:ADAPTIVEAIV1)
             calc_types = calc_best_offense_types(target)
-            calc_type  = change_calc_type(calc_types, old_move_calc_type, battle, user, move, :ADAPTIVEAIV1)
+            calc_type  = change_calc_type(calc_types, battle, user, move, :ADAPTIVEAIV1)
             move.pbCalcTypeMod(calc_type, user, target)
         elsif user.hasActiveAbility?(:ADAPTIVEAIV2)
             calc_adaptive_ai_type_mod(@battle, user, target, move, :ADAPTIVEAIV2)

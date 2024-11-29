@@ -229,15 +229,15 @@ def calc_best_offense_types_typeMod(move, user, target, ignore_immunity = false)
 end
 
 def calc_adaptive_ai_type_mod(battle, user, target, move, ability_id, ignore_immunity = false)
-  old_move_calc_type = move.calcType
   calc_data          = calc_best_offense_types_typeMod(move, user, target, ignore_immunity)
   typeMod            = calc_data[0]
   calc_types         = calc_data[1]
-  change_calc_type(calc_types, old_move_calc_type, battle, user, move, ability_id)
+  change_calc_type(calc_types, battle, user, move, ability_id)
   typeMod
 end
 
-def change_calc_type(calc_types, old_move_calc_type, battle, user, move, ability_id)
+def change_calc_type(calc_types, battle, user, move, ability_id)
+  old_move_calc_type = move.calcType
   if calc_types.include?(old_move_calc_type)
     old_move_calc_type
   else
