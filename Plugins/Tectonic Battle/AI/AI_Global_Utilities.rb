@@ -2,8 +2,15 @@
 # Get approximate properties for a battler
 #=============================================================================
 def pbRoughType(move, user, target)
-    ret = user.hasActiveAbility?(:ADAPTIVEAIV1) ? calc_best_offense_types(target)[0] : move.pbCalcType(user)
-    return ret
+    if user.hasActiveAbility?(:ADAPTIVEAIV3)
+        calc_best_offense_typeMod_types(move, user, target, true, true)[1][0]
+    elsif user.hasActiveAbility?(:ADAPTIVEAIV2)
+        calc_best_offense_typeMod_types(move, user, target, false, true)[0]
+    elsif user.hasActiveAbility?(:ADAPTIVEAIV1)
+        calc_best_offense_types(target)[0]
+    else
+        move.pbCalcType(user)
+    end
 end
 
 #=============================================================================

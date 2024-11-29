@@ -208,16 +208,16 @@ def calc_best_offense_types(target)
   offense_types[best_matchup]
 end
 
-def calc_best_offense_types_typeMod(move, user, target, ignore_immunity = false)
+def calc_best_offense_typeMod_types(move, user, target, consider_immunity = false, aiCheck = false)
   offense_types      = Hash.new { |hash, key| hash[key] = [] }
   old_move_calc_type = move.calcType
 
   GameData::Type.each do |offense_type|
     calc_type     = offense_type.id
     move.calcType = calc_type
-    typeMod       = move.pbCalcTypeMod(calc_type, user, target)
+    typeMod       = aiCheck ? old_pbCalcTypeModAI(calc_type, user, target, move) : move.pbCalcTypeMod(calc_type, user, target)
     next if Effectiveness.ineffective?(typeMod)
-    next if ignore_immunity && !user.pbSuccessCheckAgainstTarget(move, user, target, typeMod, false)
+    next if consider_immunity && !user.pbSuccessCheckAgainstTarget(move, user, target, typeMod, false, aiCheck)
     offense_types[typeMod] << calc_type
   end
   #puts offense_types.inspect
@@ -228,10 +228,10 @@ def calc_best_offense_types_typeMod(move, user, target, ignore_immunity = false)
   [typeMod, calc_types]
 end
 
-def calc_adaptive_ai_type_mod(battle, user, target, move, ability_id, ignore_immunity = false)
-  calc_data          = calc_best_offense_types_typeMod(move, user, target, ignore_immunity)
-  typeMod            = calc_data[0]
-  calc_types         = calc_data[1]
+def calc_adaptive_ai_type_mod(battle, user, target, move, ability_id, consider_immunity = false)
+  calc_data  = calc_best_offense_typeMod_types(move, user, target, consider_immunity)
+  typeMod    = calc_data[0]
+  calc_types = calc_data[1]
   change_calc_type(calc_types, battle, user, move, ability_id)
   typeMod
 end

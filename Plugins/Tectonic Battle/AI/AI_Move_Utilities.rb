@@ -41,6 +41,17 @@ class PokeBattle_AI
         ret = Effectiveness.modify_boss_effectiveness(ret, user, target)
         return ret
     end
+    alias old_pbCalcTypeModAI pbCalcTypeModAI
+
+    def pbCalcTypeModAI(moveType, user, target, move)
+        if user.hasActiveAbility?(:ADAPTIVEAIV3)
+            calc_best_offense_typeMod_types(move, user, target, true, true)[0]
+        elsif user.hasActiveAbility?(:ADAPTIVEAIV2)
+            calc_best_offense_typeMod_types(move, user, target, false, true)[0]
+        else
+            old_pbCalcTypeModAI(moveType, user, target, move)
+        end
+    end
 
     #=============================================================================
     # Move failure
