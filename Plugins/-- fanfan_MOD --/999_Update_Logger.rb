@@ -135,6 +135,7 @@ v0.0.1
 LOGGER
 
 =begin
+优化第四版Adaptive AI，优化Adaptive AI的AI计算
 获胜和失败计数
 队伍切换器
 Dimension D/时间胶囊/战斗模拟器/队伍切换器/教程
