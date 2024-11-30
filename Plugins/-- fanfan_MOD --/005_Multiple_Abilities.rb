@@ -75,16 +75,18 @@ class PokemonSummary_Scene
     abil_des = abil_obj&.description || _INTL("This ability has not been implemented.")
     abil_des = abil_obj&.details if abil_obj.has_details?
     pbMessage(abil_des)
+=begin
     return if @battle || !abil_obj || @pokemon.ability_id == abil || !@pokemon.has_multi_abilities?
     if pbConfirm(_INTL("Changes the displaying ability to {1}?", abil_obj.name))
       if $PokemonBag.pbHasItem?(:ABILITYCAPSULE)
         $PokemonBag.pbDeleteItem(:ABILITYCAPSULE)
-        @pokemon.ability_index = i
+        @pokemon.ability_index = i # This is incorrect
         @pokemon.ability = nil
-        pbMessage(_INTL("{1}'s displaying ability now is {2}.", @pokemon.speciesName, abil_obj.name))
+        pbMessage(_INTL("{1}'s displaying ability now is {2}.", @pokemon.name, abil_obj.name))
       else
         pbMessage(_INTL("You don't have any Ability Capsule in your bag."))
       end
     end
+=end
   end
 end
