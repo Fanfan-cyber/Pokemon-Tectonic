@@ -381,7 +381,7 @@ class PokeBattle_Battler
     end
 
     def can_faint_healing?
-        return false if owner_party_all_fainted?
+        return false if owner_side_all_fainted?
         return true if !pbOwnSide.effectActive?(:PerennialPayload)
         return true if !pbOwnSide.effects[:PerennialPayload][@pokemonIndex]
         return false
