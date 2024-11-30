@@ -21,7 +21,7 @@ class PokeBattle_AI
         return num_targets > 1
     end
 
-    def pbCalcTypeModAI(moveType, user, target, move)
+    def pbCalcTypeModAI_origin(moveType, user, target, move)
         return Effectiveness::NORMAL_EFFECTIVE unless moveType
         if moveType == :GROUND && target.pbHasTypeAI?(:FLYING) && target.hasActiveItemAI?(:IRONBALL)
             return Effectiveness::NORMAL_EFFECTIVE
@@ -41,15 +41,14 @@ class PokeBattle_AI
         ret = Effectiveness.modify_boss_effectiveness(ret, user, target)
         return ret
     end
-    alias old_pbCalcTypeModAI pbCalcTypeModAI
 
     def pbCalcTypeModAI(moveType, user, target, move)
-        if user.hasActiveAbility?(:ADAPTIVEAIV3)
+        if user.should_apply_adaptive_ai_v3?
             calc_best_offense_typeMod_types(move, user, target, true, true)[0]
-        elsif user.hasActiveAbility?(:ADAPTIVEAIV2)
+        elsif user.should_apply_adaptive_ai_v2?
             calc_best_offense_typeMod_types(move, user, target, false, true)[0]
         else
-            old_pbCalcTypeModAI(moveType, user, target, move)
+            pbCalcTypeModAI_origin(moveType, user, target, move)
         end
     end
 

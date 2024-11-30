@@ -215,7 +215,7 @@ def calc_best_offense_typeMod_types(move, user, target, consider_immunity = fals
   GameData::Type.each do |offense_type|
     calc_type     = offense_type.id
     move.calcType = calc_type
-    typeMod       = aiCheck ? old_pbCalcTypeModAI(calc_type, user, target, move) : move.pbCalcTypeMod(calc_type, user, target)
+    typeMod       = aiCheck ? pbCalcTypeModAI_origin(calc_type, user, target, move) : move.pbCalcTypeMod(calc_type, user, target)
     next if Effectiveness.ineffective?(typeMod)
     next if consider_immunity && !user.pbSuccessCheckAgainstTarget(move, user, target, typeMod, false, aiCheck)
     offense_types[typeMod] << calc_type
