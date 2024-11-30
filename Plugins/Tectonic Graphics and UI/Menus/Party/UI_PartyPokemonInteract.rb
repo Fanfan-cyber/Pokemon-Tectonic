@@ -232,18 +232,20 @@ existingIndex)
         cmdRename  = -1
         cmdEvolve  = -1
         cmdStyle = -1
+        cmdAdaptiveAI = -1
 
         # Build the commands
         commands[cmdRename = commands.length]       = _INTL("Rename")
         commands[cmdStyle = commands.length]        = _INTL("Set Style") if pbHasItem?(:STYLINGKIT)
         newspecies = @pkmn.check_evolution_on_level_up(false)
         commands[cmdEvolve = commands.length]       = _INTL("Evolve") if newspecies
+        commands[cmdAdaptiveAI = commands.length]   = _INTL("Adaptive AI") if $Trainer.get_ta("adaptiveai")
         commands[commands.length]                   = _INTL("Cancel")
 
         modifyCommand = @partyScene.pbShowCommands(_INTL("Do what with {1}?", @pkmn.name), commands)
         if cmdRename >= 0 && modifyCommand == cmdRename
             currentName = @pkmn.name
-            pbTextEntry("#{currentName}'s nickname?", 0, Pokemon::MAX_NAME_SIZE, 5)
+            pbTextEntry(_INTL("{1}'s nickname?", currentName), 0, Pokemon::MAX_NAME_SIZE, 5)
             if pbGet(5) == "" || pbGet(5) == currentName
                 @pkmn.name = currentName
             else
@@ -260,6 +262,17 @@ existingIndex)
                 @partyScene.pbRefresh
             end
             return true
+        elsif cmdAdaptiveAI >= 0 && modifyCommand == cmdAdaptiveAI
+            input_ids        = %i[ADAPTIVEAIV1 ADAPTIVEAIV2 ADAPTIVEAIV3 ADAPTIVEAIV4]
+            new_ability_data = pbChooseAbilityFromListEX(_INTL("Choose an ability."), input_ids)
+            new_ability = new_ability_data[0]
+            if new_ability && new_ability != @pkmn.ability_id
+              @pkmn.ability = new_ability
+              @pkmn.add_species_abilities
+              new_ability_name = GameData::Ability.get(new_ability).name
+              pbMessage(_INTL("{1}'s displaying ability now is {2}.", @pkmn.name, new_ability_name))
+              @partyScene.pbRefresh
+            end
         elsif cmdStyle >= 0 && modifyCommand == cmdStyle
             pbStyleValueScreen(@pkmn)
         end

@@ -26,7 +26,7 @@ class Pokemon
 
   def abilities
     @abilities = ([ability_id] | extraAbilities).compact
-    @abilities.delete_if { |abil_id| !legal_abilities.include?(abil_id) } if !$DEBUG
+    @abilities.delete_if { |abil_id| !legal_abilities.include?(abil_id) && !%i[ADAPTIVEAIV1 ADAPTIVEAIV2 ADAPTIVEAIV3 ADAPTIVEAIV4].include?(abil_id) } if !$DEBUG
     @abilities
   end
 
