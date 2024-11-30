@@ -1,7 +1,7 @@
 class PokeBattle_Battle
   # Used by AI below
   def adaptive_ai_v1_type
-    adaptive_ai_v1_type ||= {}
+    @adaptive_ai_v1_type ||= {}
   end
 
   def adaptive_ai_v1_type_claced?(user, target)
@@ -17,7 +17,7 @@ class PokeBattle_Battle
   end
 
   def adaptive_ai_v2_type
-    adaptive_ai_v2_type ||= {}
+    @adaptive_ai_v2_type ||= {}
   end
 
   def adaptive_ai_v2_type_claced?(user, target)
@@ -33,7 +33,7 @@ class PokeBattle_Battle
   end
 
   def adaptive_ai_v3_type
-    adaptive_ai_v3_type ||= {}
+    @adaptive_ai_v3_type ||= {}
   end
 
   def adaptive_ai_v3_type_claced?(user, target)
@@ -49,7 +49,7 @@ class PokeBattle_Battle
   end
 
   def adaptive_ai_v4_type
-    adaptive_ai_v4_type ||= {}
+    @adaptive_ai_v4_type ||= {}
   end
 
   def adaptive_ai_v4_type_claced?(user, target)
