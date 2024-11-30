@@ -98,6 +98,5 @@ class PokeBattle_Battler
         @lastRoundMove 			= @lastMoveUsed
         @lastRoundMoveType	    = @lastMoveUsedType
         @lastRoundMoveCategory	= @lastMoveUsedCategory
-        clear_adaptive_ai_data
     end
 end
