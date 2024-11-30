@@ -89,6 +89,7 @@ class PokemonLoadScreen
     def pbStartLoadScreen
         AntiAbuse.apply_anti_abuse
         commands = []
+        cmd_update          = -1
         cmd_continue        = -1
         cmd_load_game       = -1
         cmd_new_game        = -1
@@ -98,6 +99,7 @@ class PokemonLoadScreen
         cmd_survey          = -1
         cmd_quit            = -1
         lastModifiedSaveName = FileSave.lastModifiedSaveName
+        commands[cmd_update = commands.length]          = _INTL("Update") if Updater.need_update?
         if FileSave.count > 0
             commands[cmd_continue = commands.length]    = _INTL("Continue") unless lastModifiedSaveName.nil?
             commands[cmd_load_game = commands.length]   = _INTL("Load Game")
@@ -113,6 +115,12 @@ class PokemonLoadScreen
             command = @scene.pbChoose(commands)
             pbPlayDecisionSE if command != cmd_quit
             case command
+            when cmd_update
+                Updater.update
+                pbPlayCloseMenuSE
+                @scene.pbEndScene
+                $scene = nil
+                return
             when cmd_continue
                 $current_save_file_name = lastModifiedSaveName
                 Game.set_up_system
