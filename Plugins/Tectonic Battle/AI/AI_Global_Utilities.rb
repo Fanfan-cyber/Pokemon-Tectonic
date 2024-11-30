@@ -3,11 +3,35 @@
 #=============================================================================
 def pbRoughType(move, user, target)
     if user.should_apply_adaptive_ai_v3?
-        calc_best_offense_typeMod_types(move, user, target, true, true)[1][0]
+        #return calc_best_offense_typeMod_types(move, user, target, true, true)[1][0]
+        battle = user.battle
+        if battle.adaptive_ai_v3_type_claced?(user, target)
+            battle.get_adaptive_ai_v3_type(user, target)[1][0]
+        else
+            calc_data = calc_best_offense_typeMod_types(move, user, target, true, true)
+            battle.record_adaptive_ai_v3_type(user, target, calc_data)
+            calc_data[1][0]
+        end
     elsif user.should_apply_adaptive_ai_v2?
-        calc_best_offense_typeMod_types(move, user, target, false, true)[1][0]
+        #return calc_best_offense_typeMod_types(move, user, target, false, true)[1][0]
+        battle = user.battle
+        if battle.adaptive_ai_v2_type_claced?(user, target)
+            battle.get_adaptive_ai_v2_type(user, target)[1][0]
+        else
+            calc_data = calc_best_offense_typeMod_types(move, user, target, false, true)
+            battle.record_adaptive_ai_v2_type(user, target, calc_data)
+            calc_data[1][0]
+        end
     elsif user.should_apply_adaptive_ai_v1?
-        calc_best_offense_types(target)[0]
+        #return calc_best_offense_types(target)[0]
+        battle = user.battle
+        if battle.adaptive_ai_v1_type_claced?(user, target)
+            battle.get_adaptive_ai_v1_type(user, target)
+        else
+            calc_type = calc_best_offense_types(target)[0]
+            battle.record_adaptive_ai_v1_type(user, target, calc_type)
+            calc_type
+        end
     else
         move.pbCalcType(user)
     end
