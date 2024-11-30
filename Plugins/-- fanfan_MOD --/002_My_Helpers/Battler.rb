@@ -15,4 +15,20 @@ class PokeBattle_Battler
   def owner_party_all_fainted?
     @battle.pbParty(@index).all?(&:fainted?)
   end
+
+  def should_apply_adaptive_ai_v4?
+    hasActiveAbility?(:ADAPTIVEAIV4)
+  end
+
+  def should_apply_adaptive_ai_v3?
+    hasActiveAbility?(:ADAPTIVEAIV3)
+  end
+
+  def should_apply_adaptive_ai_v2?
+    hasActiveAbility?(:ADAPTIVEAIV2)
+  end
+
+  def should_apply_adaptive_ai_v1?
+    hasActiveAbility?(:ADAPTIVEAIV1)
+  end
 end
