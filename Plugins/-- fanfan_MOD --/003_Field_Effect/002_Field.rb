@@ -9,7 +9,7 @@ class PokeBattle_Battle::Field
   FIELD_DURATION_EXPANDED = 3
   INFINITE_FIELD_DURATION = -1
 
-  OPPOSING_ADVANTAGEOUS_TYPE_FIELD = true
+  OPPOSING_ADVANTAGEOUS_TYPE_FIELD = false
 
   BASE_KEYS = %i[set_field_battler_universal]
 
