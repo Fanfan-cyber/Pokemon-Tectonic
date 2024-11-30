@@ -1,4 +1,76 @@
 class PokeBattle_Battle
+  # Used by AI below
+  def adaptive_ai_v1_type
+    adaptive_ai_v1_type ||= {}
+  end
+
+  def adaptive_ai_v1_type_claced?(user, target)
+    adaptive_ai_v1_type.key?([user.unique_id, target.unique_id])
+  end
+
+  def get_adaptive_ai_v1_type(user, target)
+    adaptive_ai_v1_type[[user.unique_id, target.unique_id]]
+  end
+
+  def record_adaptive_ai_v1_type(user, target, type)
+    adaptive_ai_v1_type[[user.unique_id, target.unique_id]] = type
+  end
+
+  def adaptive_ai_v2_type
+    adaptive_ai_v2_type ||= {}
+  end
+
+  def adaptive_ai_v2_type_claced?(user, target)
+    adaptive_ai_v2_type.key?([user.unique_id, target.unique_id])
+  end
+
+  def get_adaptive_ai_v2_type(user, target)
+    adaptive_ai_v2_type[[user.unique_id, target.unique_id]]
+  end
+
+  def record_adaptive_ai_v2_type(user, target, calc_data)
+    adaptive_ai_v2_type[[user.unique_id, target.unique_id]] = calc_data
+  end
+
+  def adaptive_ai_v3_type
+    adaptive_ai_v3_type ||= {}
+  end
+
+  def adaptive_ai_v3_type_claced?(user, target)
+    adaptive_ai_v3_type.key?([user.unique_id, target.unique_id])
+  end
+
+  def get_adaptive_ai_v3_type(user, target)
+    adaptive_ai_v3_type[[user.unique_id, target.unique_id]]
+  end
+
+  def record_adaptive_ai_v3_type(user, target, calc_data)
+    adaptive_ai_v3_type[[user.unique_id, target.unique_id]] = calc_data
+  end
+
+  def adaptive_ai_v4_type
+    adaptive_ai_v4_type ||= {}
+  end
+
+  def adaptive_ai_v4_type_claced?(user, target)
+    adaptive_ai_v4_type.key?([user.unique_id, target.unique_id])
+  end
+
+  def get_adaptive_ai_v4_type(user, target)
+    adaptive_ai_v4_type[[user.unique_id, target.unique_id]]
+  end
+
+  def record_adaptive_ai_v4_type(user, target, type)
+    adaptive_ai_v4_type[[user.unique_id, target.unique_id]] = type
+  end
+
+  def clear_adaptive_ai_data(battler)
+    adaptive_ai_v1_type.each_key { |key| adaptive_ai_v1_type.delete(key) if key.include?(battler.unique_id) }
+    adaptive_ai_v2_type.each_key { |key| adaptive_ai_v2_type.delete(key) if key.include?(battler.unique_id) }
+    adaptive_ai_v3_type.each_key { |key| adaptive_ai_v3_type.delete(key) if key.include?(battler.unique_id) }
+    adaptive_ai_v4_type.each_key { |key| adaptive_ai_v4_type.delete(key) if key.include?(battler.unique_id) }
+  end
+
   def each_party1_pkmn
     @party1.each { |pkmn| yield pkmn if !pkmn.egg? }
   end
