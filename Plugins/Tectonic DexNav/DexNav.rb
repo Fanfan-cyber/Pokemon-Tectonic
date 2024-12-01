@@ -164,8 +164,9 @@ class NewDexNav
 
 		  thisRowLength = displaySpecies[@navigationRow].length
 		  
-		  highlightedSpeciesData = displaySpecies[@navigationRow][@navigationColumn]
-		  highlightedSpecies = highlightedSpeciesData.species
+      highlightedSpeciesData = displaySpecies[@navigationRow][@navigationColumn]
+      highlightedSpecies     = highlightedSpeciesData.species
+      highlightedSpeciesForm = highlightedSpeciesData.form
 		  if Input.repeat?(Input::DOWN)
 			highestUpRepeat = 0
 			if @navigationRow < @totalRows - 1
@@ -210,23 +211,50 @@ class NewDexNav
 			end
 		  elsif Input.trigger?(Input::ACTION)
         if pbConfirmMessage(_INTL("Would you like to obtain all these Pokémon?"))
+          obtained = false
           displaySpecies.each do |group|
             group.each do |species_data|
+              next if has_species?(species_data.species, species_data.form)
               pbAddPokemonSilent(species_data, getLevelCap - 5, dexnav: true)
+              obtained = true
             end
           end
-          pbMessage(_INTL("Enjoy your new pokemon!\\me[Pkmn get]\\wtnp[80]\1"))
+          if obtained
+            pbMessage(_INTL("Enjoy your new pokemon!\\me[Pkmn get]\\wtnp[80]\1"))
+          else
+            pbMessage(_INTL("You can't get any of these Pokémon!"))
+          end
           break
         end
+		  elsif MInput.trigger?(:R)
+        if pbConfirmMessage(_INTL("Would you like to obtain a random Pokémon?"))
+          can_obtain = []
+          displaySpecies.each do |group|
+            group.each do |species_data|
+              next if has_species?(species_data.species, species_data.form)
+              can_obtain << species_data
+            end
+          end
+          if can_obtain.empty?
+            pbMessage(_INTL("You can't get anyone of these Pokémon!"))
+          else
+            pbAddPokemon(can_obtain.sample, getLevelCap - 5, dexnav: true)
+            break
+          end
+        end
 		  elsif Input.trigger?(Input::USE)
-			if $catching_minigame.active?
-				pbPlayBuzzerSE
-				pbMessage(_INTL("This feature of the DexNav is unavailable during this minigame."))
-				next
-			end
+      if $catching_minigame.active?
+        pbPlayBuzzerSE
+        pbMessage(_INTL("This feature of the DexNav is unavailable during this minigame."))
+        next
+      end
       if pbConfirmMessage(_INTL("Would you like to obtain this Pokémon?"))
-        pbAddPokemon(highlightedSpeciesData, getLevelCap - 5, dexnav: true)
-        break
+        if has_species?(highlightedSpecies, highlightedSpeciesForm)
+          pbMessage(_INTL("You can't get this Pokémon! You already have one!"))
+        else
+          pbAddPokemon(highlightedSpeciesData, getLevelCap - 5, dexnav: true)
+          break
+        end
       end
 =begin
 			if !($Trainer.pokedex.owned?(highlightedSpecies) || debugControl)
@@ -378,7 +406,7 @@ class NewDexNav
 	
 	xLeft = 40
 	textpos = [[_INTL("DexNav: #{$game_map.name}"), 40 - 20, -4, 0, Color.new(248, 248, 248), Color.new(0, 0, 0)],
-             [_INTL("Get All: ACTION/Z"), Graphics.width - 20, -4, 1, Color.new(248, 248, 248), Color.new(0, 0, 0)], ]
+             [_INTL("Get New: ACTION/Z"), Graphics.width - 20, -4, 1, Color.new(248, 248, 248), Color.new(0, 0, 0)], ]
 
 	# caughtCount = 0
 	# if $PokemonGlobal.caughtCountsPerMap && $PokemonGlobal.caughtCountsPerMap.has_key?($game_map.map_id)
