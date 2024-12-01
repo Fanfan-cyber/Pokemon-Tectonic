@@ -451,7 +451,7 @@ class PokeBattle_Battler
         disableEffect(:Sublimate)
         disableEffect(:Roost)
         refreshDataBox
-        @battle.clear_adaptive_ai_data(battler) # recalc if type changed
+        @battle.clear_adaptive_ai_data(self) # recalc if type changed
     end
 
     #=============================================================================
