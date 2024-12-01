@@ -120,8 +120,6 @@ class PokeBattle_Battle
 end
 
 class TribalBonus
-  ENABLE_COPY_PLAYER_TRIBES = false
-
   alias deity_update_tribe_count updateTribeCount
   def updateTribeCount
     game_start_tribe_update_trigger
@@ -129,7 +127,7 @@ class TribalBonus
     deity_update_tribe_count
 
     add_all_tribes if @trainer.is_player? && $Trainer&.all_tribe?
-    copy_player_tribes if !@trainer.is_player? && ENABLE_COPY_PLAYER_TRIBES
+    copy_player_tribes if !@trainer.is_player? && $Trainer && !Trainer.get_ta("nocopytribe")
     romove_all_tribes if $Trainer&.no_tribe?
   end
   alias update_tribe_count updateTribeCount

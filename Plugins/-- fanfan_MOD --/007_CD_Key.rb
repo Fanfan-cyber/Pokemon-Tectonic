@@ -48,5 +48,6 @@ end
 CDKey.register_pkmn_key("hyena1", :PIKACHU)
 CDKey.register_pkmn_key("psyduck10", :PORYGON, 10)
 CDKey.register_item_key("pokeball5", :POKEBALL, 5)
+CDKey.register_other_key("nocopytribe")
 CDKey.register_other_key("adaptiveai")
 CDKey.register_other_key("rocket")
