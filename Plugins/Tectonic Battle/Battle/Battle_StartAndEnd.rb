@@ -644,8 +644,25 @@ class PokeBattle_Battle
         end
     end
 
+    def pbRobPkmn
+        return if !$Trainer.get_ta("rocket") || $Trainer.get_ta(:battle_loader)
+        can_choose = []
+        pbParty(1).each_with_index do |pkmn, i|
+            next if !pkmn || pkmn.egg? || has_species?(pkmn.species, pkmn.form)
+            @peer.pbOnLeavingBattle(self, pkmn, @usedInBattle[1][i], true)
+            can_choose << pkmn
+        end
+        return if can_choose.empty?
+        if pbConfirmMessage(_INTL("Do you want to take a Pokémon from the opposing party?"))
+            data       = pbChoosePkmnFromListEX(_INTL("Which Pokémon do you want to take?"), can_choose, true)
+            pkmn       = data[0]
+            pkmn.level = getLevelCap - 5
+            pbAddPokemon(pkmn, dexnav: true)
+        end
+    end
+
     def pbEndOfBattle(ableBeforeFight = nil)
-        @decision = 2 if ableBeforeFight && trainerBattle? && $Trainer.able_pokemon_count < ableBeforeFight && !$DEBUG
+        @decision = 2 if ableBeforeFight && trainerBattle? && $Trainer.able_pokemon_count < ableBeforeFight && !debugControl
 
         oldDecision = @decision
         @decision = 4 if @decision == 1 && wildBattle? && @caughtPokemon.length > 0
@@ -674,7 +691,10 @@ class PokeBattle_Battle
                 end
             end
             # Gain money from winning a trainer battle, and from Pay Day
-            pbGainMoney if @decision != 4
+            if @decision != 4
+                pbGainMoney
+                pbRobPkmn
+            end
             # Hide remaining trainer
             @scene.pbShowOpponent(@opponent.length) if trainerBattle? && @caughtPokemon.length > 0
         #### WIN FROM TIMEOUT ####
