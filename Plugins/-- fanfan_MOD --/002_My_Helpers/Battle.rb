@@ -65,9 +65,9 @@ class PokeBattle_Battle
   end
 
   def clear_adaptive_ai_data(battler)
-    adaptive_ai_v1_type.each_key { |key| adaptive_ai_v1_type.delete(key) if key.include?(battler.unique_id) }
-    adaptive_ai_v2_type.each_key { |key| adaptive_ai_v2_type.delete(key) if key.include?(battler.unique_id) }
-    adaptive_ai_v3_type.each_key { |key| adaptive_ai_v3_type.delete(key) if key.include?(battler.unique_id) }
+    adaptive_ai_v1_type.each_key { |key| adaptive_ai_v1_type.delete(key) if key[1] == battler.unique_id }
+    adaptive_ai_v2_type.each_key { |key| adaptive_ai_v2_type.delete(key) if key[1] == battler.unique_id }
+    adaptive_ai_v3_type.each_key { |key| adaptive_ai_v3_type.delete(key) if key[1] == battler.unique_id }
     adaptive_ai_v4_type.each_key { |key| adaptive_ai_v4_type.delete(key) if key.include?(battler.unique_id) }
   end
 
