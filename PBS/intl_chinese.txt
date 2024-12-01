@@ -49043,7 +49043,7 @@ Deals more damage to targets the faster it is than them. Up to a 50% bonus at do
 Your Poké Balls are 50% more effective.
 所有宝可梦球的捕捉率提高50%。
 Sets a Reflect for 4 turns upon entering the battle.
-入场时制造持续4回合的光墙。
+出场时，开启4回合的反射壁。
 Raises Def and Sp. Def by three steps each when its HP is lowered below half.
 HP低于一半时，更大幅度提升双防。
 Special attacks against the Pokémon have a 30% chance to dizzy the attacker.
@@ -49171,7 +49171,7 @@ Physical attacks against the Pokémon have a 30% chance to dizzy the attacker.
 After knocking out any Pokémon, raises its Attack and Defense.
 击败任意宝可梦后，提升攻击和防御。
 Reduces move damage taken by 50% when HP is full. Can't be dizzied.
-满HP时招式伤害降低50%，但不会被混 乱。
+满HP时，受到的伤害减少50%； 不会陷入混乱。
 Deals 50% more damage to targets who have already taken damage this turn.
 本回合受到伤害的目标提升50%伤害。
 Reduces the damage of each hit against it by an amount equal to its level.
@@ -49225,7 +49225,7 @@ Boosts Speed by 50% but the user is locked into the first move they use.
 At low health, eats other battlers' low-health triggered berries.
 在低HP的状态下，会吃掉其他宝可梦 低HP触发的树果。
 Upon entry, the Pokémon heals itself for 1/4th max HP. This can overheal.
-进入战斗后治疗25%最大HP，但有一定 概率过热。
+出场时，回复1/4HP； 能够过量回复。
 Increases Attack by 50%, but the Pokémon is hurt for 1/10th HP each turn.
 攻击力提高50%，但每回合受到10%最 大HP的伤害。
 Increases Sp. Atk by 50%, but the Pokémon is hurt for 1/10th HP each turn.
@@ -49245,7 +49245,7 @@ After attacking any foe, the Pokémon immediately uses Rest.
 Takes half damage from Ice- and Flying-type attacks.
 受到冰、飞行属性攻击时，伤害减半。
 When attacked with a special move, inflicts 1/8th max HP damage on the attacker.
-使用特殊类招式时，额外造成对方1/8 最大HP的伤害。
+当被特殊类技能攻击时，攻击方 的HP减少1/8。
 Boosts Attack by 75%, but the Pokémon becomes burned after attacking.
 提升75%攻击力，但发动攻击后会烧伤 自己。
 During eclipse, gets a 30% boost to Sp. Atk.
@@ -49421,7 +49421,7 @@ Immune to Steel-type moves and raises Speed if hit by one.
 Pokémon take damage from status conditions even while switched out.
 宝可梦切换时会受到负面状态的伤害。
 Also Grass in addition to its other types. When hit by a physical move, the attacker is also infected.
-同时被视为草属性，被物理招式攻击后 ，一定概率使对方被寄生。
+自身增加草属性；被物理类技能攻击后， 对方的特性变成感染者。
 Summons sunshine for four turns when hit by an attack.
 受到攻击后释放大晴天，持续四回合。
 Upon entry, creates an Insight Room for five turns, giving everyone a fifth move.
@@ -49903,11 +49903,11 @@ Deals 30% more damage to targets that have an item. After attacking a foe, destr
 Powers up moves different than the last move by 50%.
 若与上回合使用招式不同，则威力提升 50%。
 After an attack reduces its HP to half or less, deals 1/4 of the attacker's HP back to the attacker.
-当一次攻击使对手HP降到一半以下时 ，恢复此次伤害1/4的HP。
+当被对手攻击使得HP低于一半时， 攻击方的HP减少1/4。
 Immune to Poison-type moves, and raises both attacking stats if hit by one.
 受到毒属性招式攻击时，免疫攻击并大 幅度提升双攻。
 Whenever a foe's poison worsens, the Pokémon heals for 25% max HP.
-当对手受到中毒伤害时，自身恢复HP。
+当对手中毒每次恶化时，自身 恢复1/4的HP。
 Powers up Grass-type moves of itself and its allies by 50%.
 自身和同伴的草属性招式威力提升50% 。
 Heals status conditions and resets stat changes after knocking out any Pokémon.
