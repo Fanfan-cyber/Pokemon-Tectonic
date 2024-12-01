@@ -1504,7 +1504,7 @@ TotalPP = 12
 Target = NearOther
 FunctionCode = AttacksWithTargetsStats
 Flags = CanProtect,CanMirrorMove
-Description = Turns the foe's power against it, dealing damage using the target's Sp. Attack stat.
+Description = Turns the foe's power against it, dealing damage using the target's Sp. Atk stat.
 Animation = VENOSHOCK
 #-------------------------------
 [VENOMGUARD]
@@ -2625,6 +2625,18 @@ FunctionCode = UserOrTargetMakesSubstitute
 Flags = CanProtect,CanMagicCoat
 Description = The user forces itself or the target to make a substitute by turning it into a doll.
 #-------------------------------
+[DRIFTOFF]
+Name = Drift Off
+Type = GHOST
+Category = Status
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = LowerTargetSpd4DrowsyIfHail
+Flags = CanProtect,CanMagicCoat,CanMirrorMove
+Description = The user soothes the target, lowering its Speed by 4 steps. If in hail, they also become drowsy.
+Animation = YAWN
+#-------------------------------
 [DROWN]
 Name = Drown
 Type = GHOST
@@ -3281,7 +3293,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = TwoTurnAttackChargeStartSunshine5
 Flags = CanProtect,CanMirrorMove
-Description = Summons Sunshine for five turns on the first turn, then overwhelms the foe with fiery light on the second.
+Description = Summons sunshine for five turns on the first turn, then overwhelms the foe with fiery light on the second.
 Animation = FIREBLAST
 #-------------------------------
 [BLAZINGSPEED]
@@ -4696,6 +4708,17 @@ Flags = CanProtect,CanMirrorMove
 Description = Shoots a damaging spear at enemies, or a 4-step Speed-increasing electric charge at allies.
 Animation = THUNDERBOLT
 #-------------------------------
+[LIVEWIRE]
+Name = Live Wire
+Type = ELECTRIC
+Category = Status
+Accuracy = 0
+TotalPP = 15
+Target = FoeSide
+FunctionCode = LiveWire
+Flags = CanMagicCoat
+Description = The user lays an electrical hazard which hurts foes that switch into battle. It deals double damage in rainstorm.
+#-------------------------------
 [LUCKYCHEER]
 Name = Lucky Cheer
 Type = ELECTRIC
@@ -4863,7 +4886,7 @@ Target = NearOther
 FunctionCode = LowerTargetSpDef1
 Flags = CanProtect,CanMirrorMove
 EffectChance = 100
-Description = The user fires a dimensional mote, lowering the target's Sp. Defense.
+Description = The user fires a dimensional mote, lowering the target's Sp. Def.
 Animation = LUSTERPURGE
 #-------------------------------
 [ANATMAN]
@@ -4963,7 +4986,7 @@ Accuracy = 0
 TotalPP = 10
 Target = BothSides
 FunctionCode = StartEclipse8
-Description = Summons eclipse for eight turns, boosting Psychic-type attacks and heralding the Total Eclipse.
+Description = Summons eclipse for eight turns, boosting Psychic-type attacks and heralding the total eclipse.
 #-------------------------------
 [ENERGYTRICK]
 Name = Energy Trick
@@ -5778,7 +5801,7 @@ TotalPP = 3
 Target = User
 Priority = 4
 FunctionCode = ProtectUserExtendEclipse1Turn
-Description = Protects the user from attacks. If an eclipse is active, extends it by 1 turn.
+Description = Protects the user from attacks. If an eclipse is active, extends it by 1 turn. Fails if used in succession.
 Animation = PROTECT
 #-------------------------------
 [LOOMOVER]
