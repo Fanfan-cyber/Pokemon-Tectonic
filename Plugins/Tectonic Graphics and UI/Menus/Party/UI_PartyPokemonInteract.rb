@@ -263,8 +263,7 @@ existingIndex)
             end
             return true
         elsif cmdAdaptiveAI >= 0 && modifyCommand == cmdAdaptiveAI
-            input_ids        = %i[ADAPTIVEAIV1 ADAPTIVEAIV2 ADAPTIVEAIV3 ADAPTIVEAIV4]
-            new_ability_data = pbChooseAbilityFromListEX(_INTL("Choose an ability."), input_ids)
+            new_ability_data = pbChooseAbilityFromListEX(_INTL("Choose an ability."), Pokemon::ADAPTIVE_AI)
             new_ability = new_ability_data[0]
             if new_ability && new_ability != @pkmn.ability_id
               @pkmn.ability = new_ability

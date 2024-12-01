@@ -1,4 +1,6 @@
 class Pokemon
+  ADAPTIVE_AI = %i[ADAPTIVEAIV1 ADAPTIVEAIV2 ADAPTIVEAIV3 ADAPTIVEAIV4]
+
   def legal_abilities
     species_data.legalAbilities
   end
@@ -26,7 +28,7 @@ class Pokemon
 
   def abilities
     @abilities = ([ability_id] | extraAbilities).compact
-    @abilities.delete_if { |abil_id| !legal_abilities.include?(abil_id) && !%i[ADAPTIVEAIV1 ADAPTIVEAIV2 ADAPTIVEAIV3 ADAPTIVEAIV4].include?(abil_id) } if !$DEBUG
+    @abilities.delete_if { |abil_id| !legal_abilities.include?(abil_id) && !ADAPTIVE_AI.include?(abil_id) } if !$DEBUG
     @abilities
   end
 
@@ -75,18 +77,5 @@ class PokemonSummary_Scene
     abil_des = abil_obj&.description || _INTL("This ability has not been implemented.")
     abil_des = abil_obj&.details if abil_obj.has_details?
     pbMessage(abil_des)
-=begin
-    return if @battle || !abil_obj || @pokemon.ability_id == abil || !@pokemon.has_multi_abilities?
-    if pbConfirm(_INTL("Changes the displaying ability to {1}?", abil_obj.name))
-      if $PokemonBag.pbHasItem?(:ABILITYCAPSULE)
-        $PokemonBag.pbDeleteItem(:ABILITYCAPSULE)
-        @pokemon.ability_index = i # This is incorrect
-        @pokemon.ability = nil
-        pbMessage(_INTL("{1}'s displaying ability now is {2}.", @pokemon.name, abil_obj.name))
-      else
-        pbMessage(_INTL("You don't have any Ability Capsule in your bag."))
-      end
-    end
-=end
   end
 end
