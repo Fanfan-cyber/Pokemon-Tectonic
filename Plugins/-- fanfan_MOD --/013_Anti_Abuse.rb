@@ -41,8 +41,8 @@ module AntiAbuse
   end
 
   def self.kill_joiplay_shit
-    $CHEAT = false if defined?($CHEAT) && $CHEAT
-    $CHEATS = false if defined?($CHEATS) && $CHEATS
+    $CHEAT  = false
+    $CHEATS = false
   end
 
   def self.windows?

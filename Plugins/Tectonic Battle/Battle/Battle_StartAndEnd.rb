@@ -645,7 +645,7 @@ class PokeBattle_Battle
     end
 
     def pbRobPkmn
-        return if !$Trainer.get_ta("rocket") || $Trainer.get_ta(:battle_loader)
+        return if !$Trainer.get_ta(:rocket) || $Trainer.get_ta(:battle_loader)
         can_choose = []
         pbParty(1).each_with_index do |pkmn, i|
             next if !pkmn || pkmn.egg? || has_species?(pkmn.species, pkmn.form)

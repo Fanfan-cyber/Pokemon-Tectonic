@@ -4,19 +4,20 @@ module CDKey
   @@other_key   = {}
 
   def self.register_pkmn_key(key, pkmn, level = 1)
-    @@pkmn_cd_key[key.downcase] = proc { pbAddPokemon(pkmn, level) }
+    @@pkmn_cd_key[key.downcase.to_sym] = proc { pbAddPokemon(pkmn, level) }
   end
 
   def self.register_item_key(key, item, quantity = 1)
-    @@item_cd_key[key.downcase] = proc { pbReceiveItem(item, quantity) }
+    @@item_cd_key[key.downcase.to_sym] = proc { pbReceiveItem(item, quantity) }
   end
 
   def self.register_other_key(key)
-    @@other_key[key.downcase] = proc { $Trainer.set_ta(key, true) }
+    key = key.downcase.to_sym
+    @@other_key[key] = proc { $Trainer.set_ta(key, true) }
   end
 
   def self.enter_cd_key
-    text = pbEnterText("Enter a gift code.", 0, 30).downcase
+    text = pbEnterText(_INTL("Enter a gift code."), 0, 30).downcase.to_sym
     return if text.empty?
     valid_code = false
     if @@pkmn_cd_key.key?(text)
@@ -45,9 +46,17 @@ module CDKey
   end
 end
 
-CDKey.register_pkmn_key("hyena1", :PIKACHU)
-CDKey.register_pkmn_key("psyduck10", :PORYGON, 10)
-CDKey.register_item_key("pokeball5", :POKEBALL, 5)
-CDKey.register_other_key("nocopytribe")
-CDKey.register_other_key("adaptiveai")
-CDKey.register_other_key("rocket")
+CDKey.register_pkmn_key(:hyena1, :PIKACHU)
+
+CDKey.register_pkmn_key(:psyduck10, :PORYGON, 10)
+CDKey.register_item_key(:pokeball5, :POKEBALL, 5)
+
+CDKey.register_other_key(:maxmoney)
+CDKey.register_other_key(:infinitehp)
+CDKey.register_other_key(:immunestatus)
+CDKey.register_other_key(:hugepower)
+CDKey.register_other_key(:alltribes)
+CDKey.register_other_key(:notribecopy)
+
+CDKey.register_other_key(:adaptiveai)
+CDKey.register_other_key(:rocket)
