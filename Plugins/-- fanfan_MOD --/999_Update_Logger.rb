@@ -27,6 +27,7 @@ ROWE的STAB机制，使用的技能与我方队伍里其他精灵相同属性，
 中文换行
 中文拼音输入法
 更改自动保存的格式
+Petrifying Impetuous
 =end
 MOD_VERSION = "0.0.6"
 
