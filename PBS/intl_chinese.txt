@@ -49409,7 +49409,7 @@ Raises Speed by four steps when a stat is lowered by a foe.
 Protects from critical hits and from enemies lowering Defense or Sp. Def.
 对手的攻击不会击中要害，且无法降低 双防。
 Special attacks against the Pokémon raise its Speed by two steps but lower its Sp. Def.
-使用特殊招式攻击时，大幅度降低对手 速度，但会提升对手的特防。
+被特殊类技能攻击时，速度增加2级， 特防减少1级。
 Its same-type attack bonus is based on its party members rather than itself.
 使用本系招式攻击时，根据队内同属性 成员获得加成。
 When this Pokémon becomes statused, its Sp. Atk is raised by four steps.
@@ -49599,7 +49599,7 @@ At the end of each of its turns, Speed is lowered but every other stat is raised
 While the Pokémon is below half health, its attacks leech those hit.
 半血时攻击将会寄生对手。
 Special attacks against the Pokémon have a 30% chance to cause numbing.
-特殊攻击30%概率麻痹对手。
+被特殊类技能攻击时，有30%的概率 使对手麻痹。
 Whenever a foe raises their stats, the Pokémon follows suit.
 对手提高能力时，自身能力也跟着提高 。
 The Pokemon's moves deal 50% more damage if they're a different type than last.
