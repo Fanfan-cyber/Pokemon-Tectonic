@@ -526,6 +526,7 @@ def getDexNavEncounterDataForMap(mapid = -1)
 		allEncounters = []
 		encounters.types.keys.each do |encounter_type|
 			next if encounter_type == :Special
+      next if encounter_type != $PokemonEncounters.encounter_type
 			encounterList = encounter_tables[encounter_type]
 			next if !encounterList
 			encounterList.each do |encounter|
@@ -535,7 +536,7 @@ def getDexNavEncounterDataForMap(mapid = -1)
 				allEncounters.push([encounter_type,species_data])
 			end
 		end
-	  
+
     allEncounters.uniq!
     allEncounters.compact!
     allEncounters.sort!{ |a,b|
