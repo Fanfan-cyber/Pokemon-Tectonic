@@ -49067,7 +49067,7 @@ Move damage that's decreased by sunshine is decreased twice as much.
 Increase the EXP gained from battles in which it participates by 50%.
 战斗获得的经验提升50%。
 Lays a trap of levitating stones around the opponent when its HP is lowered below half.
-对手的HP低于一半时，在其周围洒下岩 钉。
+HP低于一半时，设置隐形岩。
 Has a 30% chance to dizzy targets when using special moves.
 使用特殊招式时，30%几率使其混乱。
 Slips past hazards. On the first turn, its attacks are always critical.
