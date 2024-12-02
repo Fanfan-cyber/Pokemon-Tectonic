@@ -266,11 +266,11 @@ existingIndex)
             new_ability_data = pbChooseAbilityFromListEX(_INTL("Choose an ability."), Pokemon::ADAPTIVE_AI)
             new_ability = new_ability_data[0]
             if new_ability && new_ability != @pkmn.ability_id
-              @pkmn.ability = new_ability
-              @pkmn.add_species_abilities
-              new_ability_name = GameData::Ability.get(new_ability).name
-              pbMessage(_INTL("{1}'s displaying ability now is {2}.", @pkmn.name, new_ability_name))
-              @partyScene.pbRefresh
+                @pkmn.ability = new_ability
+                @pkmn.add_species_abilities
+                new_ability_name = GameData::Ability.get(new_ability).name
+                pbMessage(_INTL("{1}'s displaying ability now is {2}.", @pkmn.name, new_ability_name))
+                @partyScene.pbRefresh
             end
         elsif cmdStyle >= 0 && modifyCommand == cmdStyle
             pbStyleValueScreen(@pkmn)

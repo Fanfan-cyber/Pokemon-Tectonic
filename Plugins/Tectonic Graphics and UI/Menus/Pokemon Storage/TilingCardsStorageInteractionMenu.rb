@@ -256,6 +256,7 @@ class TilingCardsStorageInteractionMenu_Scene < TilingCardsMenu_Scene
 		cmdEvolve  = -1
 		cmdStyle = -1
 		cmdOmnitutor = -1
+    cmdAdaptiveAI = -1
 	
 		# Build the commands
 		commands[cmdStyle = commands.length]        = _INTL("Set Style") if pbHasItem?(:STYLINGKIT)
@@ -265,11 +266,12 @@ class TilingCardsStorageInteractionMenu_Scene < TilingCardsMenu_Scene
 		commands[cmdRename = commands.length]       = _INTL("Rename")
 		newspecies = @pkmn.check_evolution_on_level_up(false)
 		commands[cmdEvolve = commands.length]       = _INTL("Evolve") if newspecies
+    commands[cmdAdaptiveAI = commands.length]   = _INTL("Adaptive AI") if $Trainer.get_ta(:adaptiveai)
 		commands[commands.length]                   = _INTL("Cancel")
 		modifyCommand = pbShowCommands(_INTL("Do what with {1}?",@pkmn.name),commands)
 		if cmdRename >= 0 && modifyCommand == cmdRename
 			currentName = @pkmn.name
-			pbTextEntry("#{currentName}'s nickname?",0,Pokemon::MAX_NAME_SIZE,5)
+			pbTextEntry(_INTL("{1}'s nickname?", currentName), 0, Pokemon::MAX_NAME_SIZE, 5)
 			if pbGet(5) == "" || pbGet(5) == currentName
 				@pkmn.name = currentName
 			else
@@ -286,6 +288,16 @@ class TilingCardsStorageInteractionMenu_Scene < TilingCardsMenu_Scene
 				pbRefreshSingle(@selected)
 			end
 			return true
+    elsif cmdAdaptiveAI >= 0 && modifyCommand == cmdAdaptiveAI
+      new_ability_data = pbChooseAbilityFromListEX(_INTL("Choose an ability."), Pokemon::ADAPTIVE_AI)
+      new_ability = new_ability_data[0]
+      if new_ability && new_ability != @pkmn.ability_id
+        @pkmn.ability = new_ability
+        @pkmn.add_species_abilities
+        new_ability_name = GameData::Ability.get(new_ability).name
+        pbMessage(_INTL("{1}'s displaying ability now is {2}.", @pkmn.name, new_ability_name))
+        pbRefreshSingle(@selected)
+      end
 		elsif cmdStyle >= 0 && modifyCommand == cmdStyle
 			pbStyleValueScreen(@pkmn)
 		elsif cmdOmnitutor >= 0 && modifyCommand == cmdOmnitutor
