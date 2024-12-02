@@ -9,6 +9,7 @@ Events.onTrainerPartyLoad += proc { |_sender, e|
 
 Events.onTrainerPartyLoad += proc { |_sender, e|
   next if $Trainer.get_ta(:battle_loader)
+  next if $Trainer.get_ta(:nocopymon)
   trainer = e[0]
   next if !trainer || trainer.able_party.length >= 6
   pkmn = $Trainer.party_random_pkmn(true, true)
@@ -31,6 +32,7 @@ Events.onTrainerPartyLoad += proc { |_sender, e|
 GameData::BattleEffect.register_effect(:Side, {
   :id => :FaintHealing,
   :real_name => "Faint Healing",
+  :info_displayed => false,
   :type => :Hash,
   :eor_proc => proc do |battle, side, _teamName, value|
     value.each_key do |key|
