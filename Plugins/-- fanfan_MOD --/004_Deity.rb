@@ -1,5 +1,5 @@
 module Deity
-  HUGE_POWER_RATIO = 3.0
+  HUGE_POWER_RATIO = 2.0
 end
 
 class Player
@@ -14,6 +14,18 @@ class PokeBattle_Move
   def pbCalcDamageMultipliers(user, target, numTargets, type, baseDmg, multipliers, aiCheck = false)
     multipliers[:final_damage_multiplier] *= Deity::HUGE_POWER_RATIO if user.pbOwnedByPlayer? && $Trainer.get_ta(:hugepower)
     deity_pbCalcDamageMultipliers(user, target, numTargets, type, baseDmg, multipliers, aiCheck)
+  end
+
+  alias deity_pbAdditionalEffectChance pbAdditionalEffectChance
+  def pbAdditionalEffectChance(user, target, type, effectChance = 0, aiCheck = false)
+    return 100 if user.pbOwnedByPlayer? && $Trainer.get_ta(:guaranteedeffects)
+    deity_pbAdditionalEffectChance(user, target, type, effectChance, aiCheck)
+  end
+
+  alias deity_isRandomCrit? isRandomCrit?
+  def isRandomCrit?(user, _target, rate)
+    return true if user.pbOwnedByPlayer? && $Trainer.get_ta(:guaranteedcrit)
+    deity_isRandomCrit?(user, _target, rate)
   end
 end
 

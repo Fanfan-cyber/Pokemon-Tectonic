@@ -51,6 +51,8 @@ CDKey.register_other_key(:immunestatus)
 CDKey.register_other_key(:hugepower)
 CDKey.register_other_key(:alltribes)
 CDKey.register_other_key(:notribecopy)
+CDKey.register_other_key(:guaranteedeffects)
+CDKey.register_other_key(:guaranteedcrit)
 
 CDKey.register_other_key(:adaptiveai)
 CDKey.register_other_key(:rocket)
