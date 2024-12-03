@@ -112,6 +112,11 @@ class Array
     array.sum / array.size.to_f
   end
 
+  # 计算数字数组的乘积
+  def mul(default = 1.0)
+    reduce(default , :*)
+  end
+
   # 统计数组中各元素出现的次数
   def elements_count
     each_with_object(Hash.new(0)) { |element, counts| counts[element] += 1 }
