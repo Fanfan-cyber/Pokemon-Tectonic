@@ -15,6 +15,11 @@ class PokeBattle_Battle
   end
 
   def set_default_field
+    if debugControl
+      set_test_field 
+      return
+    end
+
     if default_field
       create_new_field(default_field, PokeBattle_Battle::Field::INFINITE_FIELD_DURATION)
       set_field
@@ -48,8 +53,6 @@ class PokeBattle_Battle
 
       create_new_field(advantageous_fields.sample, PokeBattle_Battle::Field::INFINITE_FIELD_DURATION)
     end
-
-    set_test_field if debugControl
   end
 
   def set_test_field

@@ -53,6 +53,13 @@ class PokeBattle_Move
         if user&.hasActiveAbility?(:BREAKTHROUGH) && Effectiveness.ineffective_type?(moveType, defType)
             ret = Effectiveness::NORMAL_EFFECTIVE_ONE
         end
+
+        ret_type = @battle&.apply_field_effect(:move_second_type, ret, moveType, defType, user, target)
+        if ret_type && GameData::Type.exists?(ret_type)
+            ret_eff = Effectiveness.calculate_one(ret_type, defType)
+            ret *= ret_eff.to_f / Effectiveness::NORMAL_EFFECTIVE_ONE
+        end
+
         return ret
     end
 
