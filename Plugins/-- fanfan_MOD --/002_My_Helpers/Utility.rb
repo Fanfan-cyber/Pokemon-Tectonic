@@ -249,7 +249,7 @@ def calc_best_offense_typeMod_types_damage(move, user, target, aiCheck = false)
   move.calcType   = old_move_calc_type
   max_damage      = calc_type_damage.keys.max
   max_damage_data = calc_type_damage[max_damage][0] # use the first max damage data
-  [max_damage_data[0], [max_damage_data[1]], max_damage]
+  [max_damage_data[0], [max_damage_data[1]]]
 end
 
 def calc_adaptive_ai_type_mod(battle, user, target, move, ability_id, consider_immunity = false, consider_damage = false)
