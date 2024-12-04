@@ -3,7 +3,6 @@
 #=============================================================================
 def pbRoughType(move, user, target)
     if user.should_apply_adaptive_ai_v3?
-        #return calc_best_offense_typeMod_types(move, user, target, true, true)[1][0]
         battle = user.battle
         if battle.adaptive_ai_v3_type_claced?(user, target)
             battle.get_adaptive_ai_v3_type(user, target)[1][0]
@@ -13,7 +12,6 @@ def pbRoughType(move, user, target)
             calc_data[1][0]
         end
     elsif user.should_apply_adaptive_ai_v2?
-        #return calc_best_offense_typeMod_types(move, user, target, false, true)[1][0]
         battle = user.battle
         if battle.adaptive_ai_v2_type_claced?(user, target)
             battle.get_adaptive_ai_v2_type(user, target)[1][0]
@@ -23,7 +21,6 @@ def pbRoughType(move, user, target)
             calc_data[1][0]
         end
     elsif user.should_apply_adaptive_ai_v1?
-        #return calc_best_offense_types(target)[0]
         battle = user.battle
         if battle.adaptive_ai_v1_type_claced?(user, target)
             battle.get_adaptive_ai_v1_type(user, target)
