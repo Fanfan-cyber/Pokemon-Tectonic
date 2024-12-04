@@ -161,26 +161,7 @@ class PokeBattle_Battler
     def getTypeModBeforeSuccessCheck(user, target, move)
         old_move_calc_type = move.calcType
         if user.should_apply_adaptive_ai_v4?
-            #old_move_calc_type = move.calcType
-            calc_type_damage = Hash.new { |hash, key| hash[key] = [] }
-            GameData::Type.each do |offense_type|
-                type_id       = offense_type.id
-                move.calcType = type_id
-                typeMod       = move.pbCalcTypeMod(type_id, user, target)
-                next if Effectiveness.ineffective?(typeMod)
-                next if !pbSuccessCheckAgainstTarget(move, user, target, typeMod, false)
-                calc_damage = move.calculateDamageForHitAI(user, target, type_id, move.pbBaseDamage(move.baseDamage, user, target), move.pbTarget(user).num_targets)
-                calc_type_damage[calc_damage] << [type_id, typeMod]
-            end
-            #move.calcType = old_move_calc_type
-            max_damage      = calc_type_damage.keys.max
-            max_damage_data = calc_type_damage[max_damage].sample
-            calc_type       = max_damage_data[0]
-            move.calcType   = calc_type
-            type_name       = GameData::Type.get(calc_type).name
-            @battle.pbDisplay(_INTL("{1} change to {2} type!", move.name, type_name))
-            #puts calc_type_damage.inspect
-            max_damage_data[1]
+            calc_adaptive_ai_type_mod(@battle, user, target, move, :ADAPTIVEAIV4, true, true)
         elsif user.should_apply_adaptive_ai_v3?
             calc_adaptive_ai_type_mod(@battle, user, target, move, :ADAPTIVEAIV3, true)
         elsif user.should_apply_adaptive_ai_v2?

@@ -190,6 +190,7 @@ def calc_best_offense_types(target)
   defense_types = target.pbTypes(true)
 
   GameData::Type.each do |offense_type|
+    next if offense_type.pseudo_type
     calc_type     = offense_type.id
     type_matchups = Array.new(3, Effectiveness::NORMAL_EFFECTIVE_ONE)
 
@@ -213,9 +214,10 @@ def calc_best_offense_typeMod_types(move, user, target, consider_immunity = fals
   old_move_calc_type = move.calcType
 
   GameData::Type.each do |offense_type|
+    next if offense_type.pseudo_type
     calc_type     = offense_type.id
     move.calcType = calc_type
-    typeMod       = aiCheck ? pbCalcTypeModAI_origin(calc_type, user, target, move) : move.pbCalcTypeMod(calc_type, user, target)
+    typeMod       = aiCheck ? user.battle.battleAI.pbCalcTypeModAI_origin(calc_type, user, target, move) : move.pbCalcTypeMod(calc_type, user, target)
     next if Effectiveness.ineffective?(typeMod)
     next if consider_immunity && !user.pbSuccessCheckAgainstTarget(move, user, target, typeMod, false, aiCheck)
     offense_types[typeMod] << calc_type
@@ -228,8 +230,30 @@ def calc_best_offense_typeMod_types(move, user, target, consider_immunity = fals
   [typeMod, calc_types]
 end
 
-def calc_adaptive_ai_type_mod(battle, user, target, move, ability_id, consider_immunity = false)
-  calc_data  = calc_best_offense_typeMod_types(move, user, target, consider_immunity)
+def calc_best_offense_typeMod_types_damage(move, user, target, aiCheck = false)
+  calc_type_damage   = Hash.new { |hash, key| hash[key] = [] }
+  old_move_calc_type = move.calcType
+
+  GameData::Type.each do |offense_type|
+    next if offense_type.pseudo_type
+    type_id       = offense_type.id
+    move.calcType = type_id
+    typeMod       = aiCheck ? user.battle.battleAI.pbCalcTypeModAI_origin(type_id, user, target, move) : move.pbCalcTypeMod(type_id, user, target)
+    next if Effectiveness.ineffective?(typeMod)
+    next if !user.pbSuccessCheckAgainstTarget(move, user, target, typeMod, false, aiCheck)
+    calc_damage = move.calculateDamageForHitAI(user, target, type_id, move.pbBaseDamage(move.baseDamage, user, target), move.pbTarget(user).num_targets)
+    calc_type_damage[calc_damage] << [typeMod, type_id]
+  end
+  #puts calc_type_damage.inspect
+
+  move.calcType   = old_move_calc_type
+  max_damage      = calc_type_damage.keys.max
+  max_damage_data = calc_type_damage[max_damage][0] # use the first max damage data
+  [max_damage_data[0], [max_damage_data[1]], max_damage]
+end
+
+def calc_adaptive_ai_type_mod(battle, user, target, move, ability_id, consider_immunity = false, consider_damage = false)
+  calc_data  = consider_damage ? calc_best_offense_typeMod_types_damage(move, user, target) : calc_best_offense_typeMod_types(move, user, target, consider_immunity)
   typeMod    = calc_data[0]
   calc_types = calc_data[1]
   change_calc_type(calc_types, battle, user, move, ability_id)
