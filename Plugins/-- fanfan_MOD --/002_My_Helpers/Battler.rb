@@ -16,15 +16,19 @@ class PokeBattle_Battler
     @battle.pbParty(@index).all?(&:fainted?)
   end
 
-  def should_apply_adaptive_ai_v3?
-    hasActiveAbility?([:ADAPTIVEAIV3, :ADAPTIVEAIV4])
+  def should_apply_adaptive_ai_v4?(target, move)
+    hasActiveAbility?(:ADAPTIVEAIV4) && move.damagingMove?
   end
 
-  def should_apply_adaptive_ai_v2?
-    hasActiveAbility?(:ADAPTIVEAIV2)
+  def should_apply_adaptive_ai_v3?(target, move)
+    hasActiveAbility?([:ADAPTIVEAIV3, :ADAPTIVEAIV4]) && move.damagingMove?
   end
 
-  def should_apply_adaptive_ai_v1?
-    hasActiveAbility?(:ADAPTIVEAIV1)
+  def should_apply_adaptive_ai_v2?(target, move)
+    hasActiveAbility?(:ADAPTIVEAIV2) && move.damagingMove?
+  end
+
+  def should_apply_adaptive_ai_v1?(target, move)
+    hasActiveAbility?(:ADAPTIVEAIV1) && move.damagingMove?
   end
 end

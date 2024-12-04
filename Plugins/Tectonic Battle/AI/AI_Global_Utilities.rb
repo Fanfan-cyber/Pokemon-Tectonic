@@ -2,7 +2,7 @@
 # Get approximate properties for a battler
 #=============================================================================
 def pbRoughType(move, user, target)
-    if user.should_apply_adaptive_ai_v3?
+    if user.should_apply_adaptive_ai_v3?(target, move)
         battle = user.battle
         if battle.adaptive_ai_v3_type_claced?(user, target)
             battle.get_adaptive_ai_v3_type(user, target)[1][0]
@@ -11,7 +11,7 @@ def pbRoughType(move, user, target)
             battle.record_adaptive_ai_v3_type(user, target, calc_data)
             calc_data[1][0]
         end
-    elsif user.should_apply_adaptive_ai_v2?
+    elsif user.should_apply_adaptive_ai_v2?(target, move)
         battle = user.battle
         if battle.adaptive_ai_v2_type_claced?(user, target)
             battle.get_adaptive_ai_v2_type(user, target)[1][0]
@@ -20,7 +20,7 @@ def pbRoughType(move, user, target)
             battle.record_adaptive_ai_v2_type(user, target, calc_data)
             calc_data[1][0]
         end
-    elsif user.should_apply_adaptive_ai_v1?
+    elsif user.should_apply_adaptive_ai_v1?(target, move)
         battle = user.battle
         if battle.adaptive_ai_v1_type_claced?(user, target)
             battle.get_adaptive_ai_v1_type(user, target)

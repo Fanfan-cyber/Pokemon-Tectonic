@@ -43,7 +43,7 @@ class PokeBattle_AI
     end
 
     def pbCalcTypeModAI(moveType, user, target, move)
-        if user.should_apply_adaptive_ai_v3?
+        if user.should_apply_adaptive_ai_v3?(target, move)
             if @battle.adaptive_ai_v3_type_claced?(user, target)
                  @battle.get_adaptive_ai_v3_type(user, target)[0]
             else
@@ -51,7 +51,7 @@ class PokeBattle_AI
                 @battle.record_adaptive_ai_v3_type(user, target, calc_data)
                 calc_data[0]
             end
-        elsif user.should_apply_adaptive_ai_v2?
+        elsif user.should_apply_adaptive_ai_v2?(target, move)
             if @battle.adaptive_ai_v2_type_claced?(user, target)
                 @battle.get_adaptive_ai_v2_type(user, target)[0]
             else

@@ -230,7 +230,7 @@ def calc_best_offense_typeMod_types(move, user, target, consider_immunity = fals
   [typeMod, calc_types]
 end
 
-def calc_best_offense_typeMod_types_damage(move, user, target, aiCheck = false)
+def calc_best_offense_typeMod_types_damage(move, user, target, aiCheck = false) # AI doesn't use this
   calc_type_damage   = Hash.new { |hash, key| hash[key] = [] }
   old_move_calc_type = move.calcType
 

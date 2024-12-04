@@ -160,13 +160,13 @@ class PokeBattle_Battler
 
     def getTypeModBeforeSuccessCheck(user, target, move)
         old_move_calc_type = move.calcType
-        if user.should_apply_adaptive_ai_v4?
+        if user.should_apply_adaptive_ai_v4?(target, move)
             calc_adaptive_ai_type_mod(@battle, user, target, move, :ADAPTIVEAIV4, true, true)
-        elsif user.should_apply_adaptive_ai_v3?
+        elsif user.should_apply_adaptive_ai_v3?(target, move)
             calc_adaptive_ai_type_mod(@battle, user, target, move, :ADAPTIVEAIV3, true)
-        elsif user.should_apply_adaptive_ai_v2?
+        elsif user.should_apply_adaptive_ai_v2?(target, move)
             calc_adaptive_ai_type_mod(@battle, user, target, move, :ADAPTIVEAIV2)
-        elsif user.should_apply_adaptive_ai_v1?
+        elsif user.should_apply_adaptive_ai_v1?(target, move)
             calc_types = calc_best_offense_types(target)
             calc_type  = change_calc_type(calc_types, battle, user, move, :ADAPTIVEAIV1)
             move.pbCalcTypeMod(calc_type, user, target)
