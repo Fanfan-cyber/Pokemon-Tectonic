@@ -45,14 +45,18 @@ module CDKey
     pbMessage(_INTL("Please enter a valid gift code!")) if !valid_code
   end
 end
-CDKey.register_other_key(:maxmoney)
+
 CDKey.register_other_key(:infinitehp)
 CDKey.register_other_key(:immunestatus)
 CDKey.register_other_key(:hugepower)
-CDKey.register_other_key(:alltribes)
-CDKey.register_other_key(:notribecopy)
 CDKey.register_other_key(:guaranteedeffects)
 CDKey.register_other_key(:guaranteedcrit)
+
+CDKey.register_other_key(:maxmoney)
+CDKey.register_other_key(:alltribes)
+CDKey.register_other_key([:disablealltribes, :alltribes], false)
+CDKey.register_other_key(:notribecopy)
+CDKey.register_other_key([:disablenotribecopy, :notribecopy], false)
 
 CDKey.register_other_key(:adaptiveai)
 CDKey.register_other_key(:rocket)
