@@ -304,7 +304,7 @@ Pokemon = BELDUM,17
 Policies = PRIORITIZEDOTS
 Pokemon = GRIMER,20
     Moves = POISONGAS,SLUDGE,DISABLE,MUDSHOT
-    AbilityIndex = 0 # Toxin Tax
+    AbilityIndex = 0 # Corrosion
 Pokemon = CHARMELEON,20
     Moves = IGNITE,SQUALLDART,FIREFANG,TWISTER
     AbilityIndex = 0 # Flame Body
@@ -709,7 +709,7 @@ Pokemon = SHELLOS,15
     EV = 19,11,11,0,11,9
 Pokemon = GULPIN,15
     Moves = POISONGAS,ACID,STOCKPILE,SPITUP
-    AbilityIndex = 1 # Corrosion
+    AbilityIndex = 1 # Toxin Tax
     Item = CADOBERRY
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 13,20,17,0,20,0
@@ -1999,7 +1999,7 @@ Pokemon = CENTISKORCH,39
 Pokemon = TROPIUS,38
     AbilityIndex = 0 # Mental Block
 Pokemon = SWALOT,39
-    AbilityIndex = 1 # Corrosion
+    AbilityIndex = 1 # Toxin Tax
 #-------------------------------
 [CEO,Beatrice]
 Flags = NoPerfect
@@ -2909,7 +2909,7 @@ Pokemon = EMBOAR,37
 [SWIMMER_F2,Astrid]
 Pokemon = OVERQWIL,51
     Moves = POISONSPIKES,TRICKYTOXINS,CRUNCH,ENVENOM
-    AbilityIndex = 1 # Venom Gorger
+    AbilityIndex = 0 # Poison Point
     Item = BLACKSLUDGE
 Pokemon = GSLOWBRO,52
     Moves = ENVENOM,PSYCHOBOOST,VENOSHOCK,SHELLSIDEARM
@@ -3309,7 +3309,7 @@ Pokemon = GLIGAR,27
 Flags = NoPerfect
 Pokemon = GRIMER,30
     Moves = POISONGAS,SLUDGE,FIREPULSE,DISSOLUTION
-    AbilityIndex = 0 # Toxin Tax
+    AbilityIndex = 0 # Corrosion
     Item = EVIOLITE
 Pokemon = MIGHTYENA,30
     Moves = ASSURANCE,FAIRPLAY,PLANTDOUBT,MIDNIGHTHUNT
@@ -3512,7 +3512,7 @@ Pokemon = WIGGLYTUFF,39
     Item = THROATSPRAY
 Pokemon = SWALOT,40
     Moves = POISONGAS,ACIDSPRAY,STELLARATE
-    AbilityIndex = 1 # Corrosion
+    AbilityIndex = 1 # Toxin Tax
 Pokemon = HELIOLISK,40
     Moves = LIGHTNINGSPEAR,WEATHERBURST,VOLTSWITCH,BURNINGJEALOUSY
     AbilityIndex = 1 # Water Absorb
@@ -5873,7 +5873,7 @@ Pokemon = PALMANTRA,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,20,20,0
 Pokemon = DRAGONITE,70
-    Moves = TAILWIND,DRAGONDANCE,OUTRAGE,INFINITEWING
+    Moves = TAILWIND,DRAGONDANCE,OUTRAGE,DIVEBOMB
     AbilityIndex = 1 # Multiscale
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,20,0,10,20,0
@@ -5882,7 +5882,7 @@ Pokemon = DRAGONITE,70
 ExtendsVersion = 2
 Policies = CURSE_SUPER_ITEMS
 Pokemon = ARCHEOPS,70
-    Moves = EARTHQUAKE,ADAMANTINEPRESS,INFINITEWING,UTURN
+    Moves = EARTHQUAKE,ADAMANTINEPRESS,DIVEBOMB,UTURN
     Item = CHOICECROWN
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 0,20,0,20,20,10
@@ -5896,7 +5896,7 @@ Pokemon = HAWLUCHA,70
 Pokemon = PALMANTRA,70
     Item = BUGRING
 Pokemon = DRAGONITE,70
-    Moves = ROOST,DRAGONDANCE,OUTRAGE,INFINITEWING
+    Moves = ROOST,DRAGONDANCE,OUTRAGE,DIVEBOMB
     Item = LUNCHBOX
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,10,0,20,10,0
@@ -8096,7 +8096,7 @@ Pokemon = XATU,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,0,15,0,0,15
 Pokemon = DRAGONITE,70
-    Moves = DRAGONRIDE,INFINITEWING,ROOST,POWERUPPUNCH
+    Moves = DRAGONRIDE,DIVEBOMB,ROOST,POWERUPPUNCH
     AbilityIndex = 1 # Multiscale
     Item = YACHEBERRY
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -8244,7 +8244,7 @@ Pokemon = GLACEON,70
     AbilityIndex = 1 # Brilliant Flurry
     Item = LEFTOVERS
 Pokemon = MUK,70
-    AbilityIndex = 0 # Toxin Tax
+    AbilityIndex = 0 # Corrosion
     Item = SITRUSBERRY
 #-------------------------------
 [TOURISTM,Francois]
@@ -8288,7 +8288,7 @@ Pokemon = ROSERADE,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,7,6,20,7
 Pokemon = GLISCOR,70
-    Moves = LEECHLIFE,ADAMANTINEPRESS,UNDERMINE,INFINITEWING
+    Moves = LEECHLIFE,ADAMANTINEPRESS,UNDERMINE,DIVEBOMB
     AbilityIndex = 0 # Grotesque Vitals
     Item = STRIKEVEST
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -8629,3 +8629,69 @@ Pokemon = LEDIAN,70
     AbilityIndex = 1 # Star Guardian
 Pokemon = HZOROARK,70
     AbilityIndex = 1 # Mental Block
+#-------------------------------
+[ARTIFICIALTRAINER,Solitaire]
+Policies = MATCH_LEVEL_CAP
+Pokemon = STOUTLAND,70
+    Moves = MIMIC,ANGELSKISS,CHARM,SLACKOFF
+    AbilityIndex = 1 # Herding
+Pokemon = BLISSEY,70
+    Moves = COPYCAT,NERVEBLOCK,EERIEIMPULSE,SOFTBOILED
+    AbilityIndex = 1 # Bliss
+Pokemon = SHUCKLE,70
+    Moves = STRUGGLEBUG,POWERSPLIT,GUARDSPLIT,REST
+    AbilityIndex = 0 # Ripen
+    Item = CADOBERRY
+Pokemon = SHEDINJA,70
+    Moves = KNOCKOFF,TRICK,UTURN,ENDURE
+    AbilityIndex = 0 # Wonder Guard
+Pokemon = PASSIMIAN,70
+    Moves = UTURN,SNATCH,QUICKGUARD,SKILLSWAP
+    AbilityIndex = 0 # Long Receiver
+Pokemon = DITTO,70
+    Moves = TRANSFORM
+    AbilityIndex = 0 # Imposter
+#-------------------------------
+[ARTIFICIALTRAINER,Doppel]
+Policies = MATCH_LEVEL_CAP
+Pokemon = PYUKUMUKU,70
+    Moves = LIFEDEW,SYMBIOSIS,STANDTOGETHER,RECYCLE
+    AbilityIndex = 1 # Realist
+    Item = LEPPABERRY
+Pokemon = CRYOGONAL,70
+    Moves = LIGHTSCREEN,RECOVER,MIRRORSHIELD,ICENINEWALL
+    AbilityIndex = 1 # Magic Bounce
+Pokemon = CLEFABLE,70
+    Moves = METRONOME,HEALPULSE,COSMICPOWER,BATONPASS
+    AbilityIndex = 0 # Magic Guard
+Pokemon = TYRANITAR,70
+    Moves = REND,STEALTHROCK,IRONDEFENSE,SWEETSELENE
+    AbilityIndex = 1 # Stressful
+Pokemon = DRAGAPULT,70
+    Moves = UTURN,CRUELTY,SUCKERPUNCH,PROTECT
+    AbilityIndex = 0 # Clear Body
+Pokemon = PACHIRISU,70
+    Moves = NUZZLE,BESTOW,AMPUP,ANGELSKISS
+    AbilityIndex = 0 # Bad Luck
+    Item = SITRUSBERRY
+#-------------------------------
+[ARTIFICIALTRAINER,Trinity]
+Policies = MATCH_LEVEL_CAP
+Pokemon = WAILORD,70
+    Moves = NOBLEROAR,WHALESONG,AMNESIA,REST
+    AbilityIndex = 1 # Gargantuan
+Pokemon = AEGISLASH,70
+    Moves = SUBSTITUTE,IRONDEFENSE,SHINESHOT,KINGSSHIELD
+    AbilityIndex = 0 # Stance Change
+Pokemon = RILLABOOM,70
+    Moves = KNOCKOFF,HELPINGHAND,ENDURE,ENCORE
+    AbilityIndex = 1 # Vital Rhythm
+Pokemon = OBSTAGOON,70
+    Moves = SLACKOFF,TAUNT,ASSURANCE,HYPERVOICE
+    AbilityIndex = 1 # Frustrate
+Pokemon = DELIBIRD,70
+    Moves = LIFEDEW,REFLECT,LIGHTSCREEN,PACKAGE
+    AbilityIndex = 1 # Holiday Cheer
+Pokemon = STONJOURNER,70
+    Moves = HELPINGHAND,NERVEBLOCK,WIDEGUARD
+    AbilityIndex = 0 # Power Spot

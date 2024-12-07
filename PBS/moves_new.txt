@@ -902,7 +902,7 @@ Name = Stand Together
 Type = FIGHTING
 Category = Status
 Accuracy = 0
-TotalPP = 30
+TotalPP = 5
 Target = User
 FunctionCode = RaiseUserAndAlliesDef3
 Flags = CanSnatch
@@ -1067,20 +1067,6 @@ Target = NearOther
 FunctionCode = ScalesFasterThanTarget
 Flags = CanProtect,CanMirrorMove
 Description = The user chases the target and strikes it from above. It does more damage the faster the user is.
-#-------------------------------
-[INFINITEWING]
-Name = Infinite Wing
-Type = FLYING
-Category = Physical
-Power = 130
-Accuracy = 100
-TotalPP = 5
-Target = NearOther
-FunctionCode = TwoTurnAttackChargeRaiseUserspDef1
-Flags = CanProtect,CanMirrorMove
-EffectChance = 30
-Description = The user flies up to raise its Sp. Def by four steps in the first turn, then rams the foe on the second.
-Animation = SKYATTACK
 #-------------------------------
 [JETSTREAM]
 Name = Jet Stream
@@ -4453,7 +4439,7 @@ Name = Symbiosis
 Type = GRASS
 Category = Status
 Accuracy = 0
-TotalPP = 30
+TotalPP = 5
 Target = User
 FunctionCode = RaiseUserAndAlliesSpDef3
 Flags = CanSnatch
@@ -5056,7 +5042,7 @@ Name = Mind Link
 Type = PSYCHIC
 Category = Status
 Accuracy = 0
-TotalPP = 30
+TotalPP = 5
 Target = User
 FunctionCode = RaiseUserAndAlliesSpAtk2
 Flags = CanSnatch

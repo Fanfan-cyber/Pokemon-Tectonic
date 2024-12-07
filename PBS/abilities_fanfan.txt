@@ -1,17 +1,17 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-[ADAPTIVEAIV1] # 0668
+[ADAPTIVEAIV1] # 0669
 Name = Adaptive AI v1
 Description = Adapts the move's type to ensure it is super-effective against the target.
 #-------------------------------
-[ADAPTIVEAIV2] # 0669
+[ADAPTIVEAIV2] # 0670
 Name = Adaptive AI v2
 Description = Adapts the move's type to ensure it is truly super-effective against the target.
 #-------------------------------
-[ADAPTIVEAIV3] # 0670
+[ADAPTIVEAIV3] # 0671
 Name = Adaptive AI v3
 Description = Adapts the move's type to maximize effectiveness while accounting for the immunities.
 #-------------------------------
-[ADAPTIVEAIV4] # 0671
+[ADAPTIVEAIV4] # 0672
 Name = Adaptive AI v4
 Description = Adapts the move's type to maximize damage against the target.
