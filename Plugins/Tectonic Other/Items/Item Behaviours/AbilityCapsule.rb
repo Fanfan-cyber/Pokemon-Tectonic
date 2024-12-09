@@ -16,12 +16,12 @@ ItemHandlers::UseOnPokemon.add(:ABILITYCAPSULE,proc { |item,pkmn,scene|
     newabilindex = (pkmn.ability_index + 1) % 2
     newabil = GameData::Ability.get((newabilindex==0) ? abil1 : abil2)
     newabilname = newabil.name
-	  msg = _INTL("Would you like to change {1}'s displaying ability to {2}?", pkmn.name, newabilname)
+	  msg = _INTL("Would you like to change {1}'s main ability to {2}?", pkmn.name, newabilname)
     if pbSceneDefaultConfirm(msg, scene)
       pkmn.ability_index = newabilindex
       pkmn.ability = newabil
       scene&.pbRefresh
-	    msg = _INTL("{1}'s displaying ability changed to {2}!", pkmn.name, newabilname)
+	    msg = _INTL("{1}'s main ability changed to {2}!", pkmn.name, newabilname)
       pbSceneDefaultDisplay(msg, scene)
       pkmn.calc_stats
       next true

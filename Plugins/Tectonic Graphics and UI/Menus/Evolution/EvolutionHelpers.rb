@@ -399,7 +399,7 @@ def showPokemonChanges(pokemon, &block)
   # Show new ability if any
   # if pokemon.ability != oldAbility
       # ability_name = GameData::Ability.get(pokemon.ability).name
-      # msg = _INTL("{1}'s displaying ability was changed to {2}.", pokemon.name, ability_name)
+      # msg = _INTL("{1}'s main ability was changed to {2}.", pokemon.name, ability_name)
       # pbMessage(msg)
   # end
   if pokemon.species_abilities.length == 1
