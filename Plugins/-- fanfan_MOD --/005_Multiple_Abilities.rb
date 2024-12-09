@@ -28,7 +28,6 @@ class Pokemon
 
   def abilities
     @abilities = ([ability_id] | extraAbilities).compact
-    @abilities.delete_if { |abil_id| !legal_abilities.include?(abil_id) && !ADAPTIVE_AI.include?(abil_id) } if !$DEBUG
     @abilities
   end
 
