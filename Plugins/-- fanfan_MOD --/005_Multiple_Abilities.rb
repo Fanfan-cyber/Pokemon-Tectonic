@@ -20,15 +20,14 @@ class Pokemon
   end
 
   def add_species_abilities
-    species_abilities.each { |abil| addExtraAbility(abil) if abil != ability_id }
+    species_abilities.each { |abil| addExtraAbility(abil) }
   end
 
   def add_others
   end
 
   def abilities
-    @abilities = ([ability_id] | extraAbilities).compact
-    @abilities
+    ([ability_id] | extraAbilities).compact
   end
 
   def hasAbility?(check_ability = nil)
