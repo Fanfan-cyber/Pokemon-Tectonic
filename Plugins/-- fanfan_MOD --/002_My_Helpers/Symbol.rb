@@ -4,11 +4,6 @@ class Symbol
     is_what.is_a?(Symbol) ? self == is_what : false
   end
 
-  # 检查自身是否是Adaptive AI
-  def is_adaptive_ai?
-    Pokemon::ADAPTIVE_AI.include?(self)
-  end
-
   # 检查自身是否包括某一部分
   def include?(symbol)
     to_s.include?(symbol.to_s)
