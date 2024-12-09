@@ -58,10 +58,10 @@ CDKey.register_other_key([:disablealltribes, :alltribes], false)
 CDKey.register_other_key(:notribecopy)
 CDKey.register_other_key([:disablenotribecopy, :notribecopy], false)
 
-CDKey.register_other_key(:adaptiveai)
 CDKey.register_other_key(:rocket)
-CDKey.register_other_key(:nocopymon)
-CDKey.register_other_key([:copymonagain, :nocopymon], false)
+#CDKey.register_other_key(:adaptiveai)
+#CDKey.register_other_key(:nocopymon)
+#CDKey.register_other_key([:copymonagain, :nocopymon], false)
 
 CDKey.register_pkmn_key(:hyena1, :PIKACHU)
 
