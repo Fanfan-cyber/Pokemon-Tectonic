@@ -459,6 +459,7 @@ class PokeBattle_Battler
     #=============================================================================
     def pbChangeForm(newForm, msg)
         return if fainted? || effectActive?(:Transform) || @form == newForm
+        old_abilities = abilities.clone
         oldForm = @form
         oldDmg = @totalhp - @hp
         self.form = newForm
@@ -473,6 +474,16 @@ class PokeBattle_Battler
         @battle.pbDisplay(msg) if msg && msg != ""
         PBDebug.log("[Form changed] #{pbThis} changed from form #{oldForm} to form #{newForm}")
         @battle.pbSetSeen(self)
+
+        lost_abilities = old_abilities - abilities
+        new_abilities = abilities - old_abilities
+        pbOnAbilitiesLost(lost_abilities)
+        new_abilities.each do |ability|
+            if immutableAbility?(ability) || abilityActive?
+                BattleHandlers.triggerAbilityOnSwitchIn(ability, self, @battle)
+                BattleHandlers.triggerStatusCureAbility(ability, self)
+            end
+        end
     end
 
     def pbCheckFormOnStatusChange

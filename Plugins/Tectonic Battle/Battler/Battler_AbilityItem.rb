@@ -135,6 +135,7 @@ class PokeBattle_Battler
                 hideMyAbilitySplash
                 if !onSwitchIn && abilityActive?
                     BattleHandlers.triggerAbilityOnSwitchIn(stolenAbility, self, @battle)
+                    BattleHandlers.triggerStatusCureAbility(stolenAbility, self)
                 end
                 return
             end
@@ -163,10 +164,12 @@ class PokeBattle_Battler
                 end
                 hideMyAbilitySplash
                 
-                if !onSwitchIn && (immutableAbility? || abilityActive?)
+                if !onSwitchIn# && (immutableAbility? || abilityActive?)
                     abilitiesCopying.each do |ability|
-                        BattleHandlers.triggerAbilityOnSwitchIn(ability, self, @battle)
-                        BattleHandlers.triggerStatusCureAbility(ability, self)
+                        if immutableAbility?(ability) || abilityActive?
+                            BattleHandlers.triggerAbilityOnSwitchIn(ability, self, @battle)
+                            BattleHandlers.triggerStatusCureAbility(ability, self)
+                        end
                     end
                 end
             end

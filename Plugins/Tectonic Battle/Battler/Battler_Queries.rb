@@ -137,7 +137,8 @@ class PokeBattle_Battler
 
     # Returns whether the user has an immutable ability or not
     # and, if so, which ability it is
-    def immutableAbility?
+    def immutableAbility?(ability = nil)
+        return GameData::Ability.get(ability).is_immutable_ability? if ability
         eachAbility do |ability|
             return ability if GameData::Ability.get(ability).is_immutable_ability?
         end
