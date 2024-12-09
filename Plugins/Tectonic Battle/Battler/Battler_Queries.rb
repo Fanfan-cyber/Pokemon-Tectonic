@@ -912,7 +912,7 @@ class PokeBattle_Battler
     end
 
     def legalAbilities
-        return @pokemon.legal_abilities
+        return @pokemon.species_data.legalAbilities
     end
 
     def eachLegalAbility

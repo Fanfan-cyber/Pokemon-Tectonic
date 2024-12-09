@@ -1,10 +1,10 @@
 class Pokemon
   ADAPTIVE_AI = %i[ADAPTIVEAIV1 ADAPTIVEAIV2 ADAPTIVEAIV3 ADAPTIVEAIV4]
 
-  def legal_abilities
+  def species_abilities
     species_data.legalAbilities
   end
-  alias species_abilities legal_abilities
+  alias legal_abilities species_abilities
 
   def species_abilities_names(index = nil)
     species_data.legalAbilitiesNames(index)
