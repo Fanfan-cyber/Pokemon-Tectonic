@@ -349,8 +349,6 @@ def randomizeSpecies(species, static = false, gift = false)
     species = Randomizer.getRandomizedData(species, :GIFTS, species) if gift
     unless pokemon.nil?
         pokemon.species = species
-        pokemon.recalc_species_abilities
-        pokemon.calc_stats
         pokemon.reset_moves
     end
     return pokemon.nil? ? species : pokemon

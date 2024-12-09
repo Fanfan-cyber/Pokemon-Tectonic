@@ -595,7 +595,6 @@ Events.onWildPokemonCreate += proc {|sender,e|
 def overwriteWildPokemonSpecies(pokemon,species)
     level = pokemon.level
     pokemon.species = species
-    pokemon.recalc_species_abilities
     pokemon.level = level # Level is reset on species change
     pokemon.name = GameData::Species.get(pokemon.species).name
 end

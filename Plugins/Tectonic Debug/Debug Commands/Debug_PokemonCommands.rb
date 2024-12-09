@@ -661,8 +661,6 @@ module PokemonDebugMenuCommands
           species = pbChooseSpeciesList(pkmn.species)
           if species && species != pkmn.species
             pkmn.species = species
-            pkmn.recalc_species_abilities
-            pkmn.calc_stats
             $Trainer.pokedex.register(pkmn) if !settingUpBattle
             screen.pbRefreshSingle(pkmnid)
           end
