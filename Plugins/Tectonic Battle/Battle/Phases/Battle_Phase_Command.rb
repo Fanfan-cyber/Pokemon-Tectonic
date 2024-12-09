@@ -373,6 +373,7 @@ class PokeBattle_Battle
                     next unless pokemon&.able?
                     next if pbFindBattler(i, partyIndex) # Skip Pokémon in battle
                     pokemon.species = GameData::Species::DATA.keys.sample
+                    pokemon.recalc_species_abilities
                     pokemon.name = nil
                     pokemon.level = 1 + pbRandom(69).ceil
                     pokemon.calc_stats
@@ -385,6 +386,7 @@ class PokeBattle_Battle
         @battlers.each do |b|
             next if b.nil? || b.pokemon.nil? || b.boss?
             b.pokemon.species = GameData::Species::DATA.keys.sample
+            b.pokemon.recalc_species_abilities
             autoTestingBattlerSpeciesChange(b)
         end
 

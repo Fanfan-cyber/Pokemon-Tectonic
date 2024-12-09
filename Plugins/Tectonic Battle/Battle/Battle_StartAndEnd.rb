@@ -411,6 +411,7 @@ class PokeBattle_Battle
                 next unless b.boss?
                 loop do
                     b.pokemon.species = GameData::Avatar::DATA.values.sample.id[0]
+                    b.pokemon.recalc_species_abilities
                     break if GameData::Avatar::DATA.has_key?(b.pokemon.species)
                 end
                 setAvatarProperties(b.pokemon)

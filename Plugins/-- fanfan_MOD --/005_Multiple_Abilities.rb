@@ -26,6 +26,11 @@ class Pokemon
   def add_others
   end
 
+  def recalc_species_abilities
+    @extraAbilities.clear
+    species_abilities.each { |abil| addExtraAbility(abil) }
+  end
+
   def abilities
     ([ability_id] | extraAbilities).compact
   end
@@ -48,12 +53,10 @@ class PokeBattle_Battle
       echoln("===AI KNOWN ABILITIES===")
       @knownAbilities = {}
       @party1.each do |pokemon|
-        pokemon.add_all_other_abilities
         @knownAbilities[pokemon.unique_id] = []
         @knownAbilities[pokemon.unique_id].concat(pokemon.abilities)
         echoln("[ABILITY LEARN] Player's side #{pokemon.name}: #{@knownAbilities[pokemon.unique_id]}.")
       end
-      @party2.each { |pokemon| pokemon.add_all_other_abilities }
     end
   end
 end

@@ -265,6 +265,7 @@ class PokemonEvolutionScene
         showPokemonChanges(@pokemon) do
             @pokemon.species = @newspecies
             @pokemon.form    = 0 if @pokemon.isSpecies?(:MOTHIM)
+            @pokemon.recalc_species_abilities
             @pokemon.calc_stats
         end
 
