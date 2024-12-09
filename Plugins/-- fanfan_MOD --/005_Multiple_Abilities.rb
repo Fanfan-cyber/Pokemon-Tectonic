@@ -15,15 +15,6 @@ class Pokemon
   end
 
   def add_all_other_abilities
-    add_species_abilities
-    add_others
-  end
-
-  def add_species_abilities
-    species_abilities.each { |abil| addExtraAbility(abil) }
-  end
-
-  def add_others
   end
 
   def recalc_species_abilities
@@ -32,7 +23,7 @@ class Pokemon
   end
 
   def abilities
-    ([ability_id] | extraAbilities).compact
+    ([ability_id] | species_abilities | extraAbilities).compact
   end
 
   def hasAbility?(check_ability = nil)

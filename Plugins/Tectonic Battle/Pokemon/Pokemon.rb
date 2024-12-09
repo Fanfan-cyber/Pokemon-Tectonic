@@ -132,8 +132,7 @@ class Pokemon
         @form        = new_species_data.form if new_species_data.form != 0
         @forced_form = nil
         @level       = nil # In case growth rate is different for the new species
-        @ability     = nil
-        recalc_species_abilities
+        #@ability     = nil
         calc_stats
     end
 
@@ -159,9 +158,8 @@ class Pokemon
     def form=(value)
         oldForm = @form
         @form = value
-        @ability = nil
+        #@ability = nil
         MultipleForms.call("onSetForm", self, value, oldForm)
-        recalc_species_abilities
         calc_stats
         $Trainer.pokedex.register(self) if $Trainer
     end
