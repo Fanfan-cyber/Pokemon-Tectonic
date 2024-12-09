@@ -265,7 +265,6 @@ class PokemonBox
     end
   
     def pbStoreCaught(pkmn)
-      pkmn.add_species_abilities
       if @currentBox >= 0
         pkmn.time_form_set = nil
         pkmn.heal

@@ -3,7 +3,6 @@ class PokeBattle_Battle
     # Store caught Pokémon
     #=============================================================================
     def pbStorePokemon(pkmn)
-        pkmn.add_species_abilities
         if has_species?(pkmn.species, pkmn.form)
             pbMessage(_INTL("{1} already has {2}!\n{2} has been sent to Dimension D!", $Trainer.name, pkmn.speciesName))
             $Trainer.dimension_d << pkmn

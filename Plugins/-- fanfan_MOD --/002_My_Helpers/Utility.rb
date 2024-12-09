@@ -137,7 +137,6 @@ def change_ability_choose_from_list(pkmn, ability_list)
   new_ability = new_ability_data[0]
   if new_ability && new_ability != pkmn.ability_id
     pkmn.ability = new_ability
-    pkmn.add_species_abilities
     new_ability_name = GameData::Ability.get(new_ability).name
     pbMessage(_INTL("{1}'s displaying ability now is {2}.", pkmn.name, new_ability_name))
     return true

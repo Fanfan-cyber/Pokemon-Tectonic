@@ -592,7 +592,6 @@ module PokemonDebugMenuCommands
           new_ability = pbChooseAbilityList(pkmn.ability_id)
           if new_ability && new_ability != pkmn.ability_id
             pkmn.ability = new_ability
-            pkmn.add_species_abilities
             screen.pbRefreshSingle(pkmnid)
           end
         when 2   # Reset

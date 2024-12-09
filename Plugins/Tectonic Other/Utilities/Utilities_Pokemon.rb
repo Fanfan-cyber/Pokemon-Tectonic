@@ -82,7 +82,6 @@ def pbStorePokemonInPC(pkmn)
 end
 
 def pbNicknameAndStore(pkmn, nickname = true, dexnav: false)
-  pkmn.add_species_abilities
 
   if pbBoxesFull?
       pbMessage(_INTL("There's no more room for Pokémon!\1"))
@@ -150,7 +149,6 @@ def pbAddPokemonSilent(pkmn, level = 1, dexnav: false, count: true)
   # Increase the caught count for the global metadata
   incrementDexNavCounts(dexnav) if defined?(incrementDexNavCounts) && count
   pkmn.record_first_moves
-  pkmn.add_species_abilities
   if has_species?(pkmn.species, pkmn.form)
     $Trainer.dimension_d << pkmn
   else
@@ -196,7 +194,6 @@ def pbAddToPartySilent(pkmn, level = nil, see_form = true, dexnav: false)
   # Increase the caught count for the global metadata
   incrementDexNavCounts(dexnav) if defined?(incrementDexNavCounts)
   pkmn.record_first_moves
-  pkmn.add_species_abilities
   if has_species?(pkmn.species, pkmn.form)
     $Trainer.dimension_d << pkmn
   else
