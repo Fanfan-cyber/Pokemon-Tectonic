@@ -743,9 +743,16 @@ class Pokemon
         return nil
     end
 
+=begin
     def canHaveMultipleItems?(inBattle = false)
         return true if @ability == :STICKYFINGERS && inBattle
         return GameData::Ability.get(@ability).is_multiple_item_ability?
+    end
+=end
+
+    def canHaveMultipleItems?(inBattle = false)
+        return true if hasAbility?(:STICKYFINGERS) && inBattle
+        hasMultipleItemAbility?
     end
 
     def canHaveItem?(itemCheck, showMessages = false)
@@ -774,7 +781,7 @@ class Pokemon
         return true unless itemSet.length > 1
 
         # Only pokemon with multiple item abilities can hold more than 1 item
-        return false unless GameData::Ability.get(@ability).is_multiple_item_ability?
+        return false unless hasMultipleItemAbility?
 
         # Item sets cannot contain duplicates
         if itemSet.length != itemSet.uniq.length
