@@ -495,7 +495,7 @@ module GameData
 
         def legalAbilitiesNames(index = nil)
             abilities_names = legalAbilities.map { |abil_id| getAbilityName(abil_id) }
-            return "#{abilities_names.quick_join}" if !index
+            return abilities_names.quick_join if !index
             abilities_names[index]
         end
 
