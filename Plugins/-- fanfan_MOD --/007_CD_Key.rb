@@ -59,6 +59,8 @@ CDKey.register_other_key(:notribecopy)
 CDKey.register_other_key([:disablenotribecopy, :notribecopy], false)
 
 CDKey.register_other_key(:rocket)
+CDKey.register_other_key(:customabil)
+CDKey.register_other_key([:nocustomabil, :customabil], false)
 #CDKey.register_other_key(:adaptiveai)
 #CDKey.register_other_key(:nocopymon)
 #CDKey.register_other_key([:copymonagain, :nocopymon], false)
