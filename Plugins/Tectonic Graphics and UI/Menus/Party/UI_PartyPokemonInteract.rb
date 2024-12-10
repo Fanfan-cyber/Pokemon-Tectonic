@@ -228,17 +228,19 @@ existingIndex)
     end
 
     def modifyCommandMenu
-        commands   = []
-        cmdRename  = -1
-        cmdEvolve  = -1
-        cmdStyle = -1
+        commands      = []
+        cmdRename     = -1
+        cmdEvolve     = -1
+        cmdStyle      = -1
         cmdAdaptiveAI = -1
+        cmdOpenAR     = -1
 
         # Build the commands
         commands[cmdRename = commands.length]       = _INTL("Rename")
         commands[cmdStyle = commands.length]        = _INTL("Set Style") if pbHasItem?(:STYLINGKIT)
         newspecies = @pkmn.check_evolution_on_level_up(false)
         commands[cmdEvolve = commands.length]       = _INTL("Evolve") if newspecies
+        commands[cmdOpenAR = commands.length]       = _INTL("Open AR") if AbilityRecorder.has_ability_recorded?
         commands[cmdAdaptiveAI = commands.length]   = _INTL("Adaptive AI") if $Trainer.get_ta(:adaptiveai)
         commands[commands.length]                   = _INTL("Cancel")
 
@@ -262,6 +264,9 @@ existingIndex)
                 @partyScene.pbRefresh
             end
             return true
+          elsif cmdOpenAR >= 0 && modifyCommand == cmdOpenAR
+            changed = AbilityRecorder.oppen_ability_recorder(@pkmn)
+            @partyScene.pbRefresh if changed
         elsif cmdAdaptiveAI >= 0 && modifyCommand == cmdAdaptiveAI
             changed = change_ability_choose_from_list(@pkmn, Pokemon::ADAPTIVE_AI)
             @partyScene.pbRefresh if changed

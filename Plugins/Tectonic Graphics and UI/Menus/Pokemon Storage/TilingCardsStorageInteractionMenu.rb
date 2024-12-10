@@ -251,13 +251,14 @@ class TilingCardsStorageInteractionMenu_Scene < TilingCardsMenu_Scene
     end
   
     def modifyCommandMenu
-		commands   = []
-		cmdRename  = -1
-		cmdEvolve  = -1
-		cmdStyle = -1
-		cmdOmnitutor = -1
+		commands      = []
+		cmdRename     = -1
+		cmdEvolve     = -1
+		cmdStyle      = -1
+		cmdOmnitutor  = -1
     cmdAdaptiveAI = -1
-	
+    cmdOpenAR     = -1
+
 		# Build the commands
 		commands[cmdStyle = commands.length]        = _INTL("Set Style") if pbHasItem?(:STYLINGKIT)
 		if $PokemonGlobal.omnitutor_active && !getOmniMoves(@pkmn).empty?
@@ -266,6 +267,7 @@ class TilingCardsStorageInteractionMenu_Scene < TilingCardsMenu_Scene
 		commands[cmdRename = commands.length]       = _INTL("Rename")
 		newspecies = @pkmn.check_evolution_on_level_up(false)
 		commands[cmdEvolve = commands.length]       = _INTL("Evolve") if newspecies
+    commands[cmdOpenAR = commands.length]       = _INTL("Open AR") if AbilityRecorder.has_ability_recorded?
     commands[cmdAdaptiveAI = commands.length]   = _INTL("Adaptive AI") if $Trainer.get_ta(:adaptiveai)
 		commands[commands.length]                   = _INTL("Cancel")
 		modifyCommand = pbShowCommands(_INTL("Do what with {1}?",@pkmn.name),commands)
@@ -288,15 +290,16 @@ class TilingCardsStorageInteractionMenu_Scene < TilingCardsMenu_Scene
 				pbRefreshSingle(@selected)
 			end
 			return true
+    elsif cmdOpenAR >= 0 && modifyCommand == cmdOpenAR
+      AbilityRecorder.oppen_ability_recorder(@pkmn)
     elsif cmdAdaptiveAI >= 0 && modifyCommand == cmdAdaptiveAI
-      changed = change_ability_choose_from_list(@pkmn, Pokemon::ADAPTIVE_AI)
-      pbRefreshSingle(@selected) if changed
+      change_ability_choose_from_list(@pkmn, Pokemon::ADAPTIVE_AI)
 		elsif cmdStyle >= 0 && modifyCommand == cmdStyle
 			pbStyleValueScreen(@pkmn)
 		elsif cmdOmnitutor >= 0 && modifyCommand == cmdOmnitutor
 			omniTutorScreen(@pkmn)
 		end
-	
+
 		return false
     end
   
