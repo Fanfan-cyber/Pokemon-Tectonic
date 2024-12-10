@@ -78,6 +78,7 @@ end
 
 module AbilityRecorder
   def self.check_ability_recorder(battle, battler)
+    return if $Trainer.get_ta(:battle_loader)
     return if !battle.trainerBattle?
     return if battler.pbOwnedByPlayer?
     abils = $Trainer.ability_recorder
@@ -92,7 +93,15 @@ module AbilityRecorder
     battle.pbDisplay(_INTL("Ability Recorder recorded {1}'s {2}!", battler.pbThis(true), abilities_names.quick_join))
   end
 
-  def self.oppen_ability_recorder
+  def self.oppen_ability_recorder(pkmn)
     abils = $Trainer.ability_recorder
+    chose = change_ability_choose_from_list(pkmn, abils)
+    return false if !chose
+    abils.delete(chose)
+    return true
+  end
+
+  def self.has_ability_recorded?
+    $Trainer.ability_recorder.length > 0
   end
 end
