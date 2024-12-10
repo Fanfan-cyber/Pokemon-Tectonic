@@ -23,7 +23,8 @@ class Pokemon
   end
 
   def abilities
-    ([ability_id] | species_abilities | extraAbilities).compact
+    main_abil = $Trainer.get_ta(:customabil) ? [ability_id] : []
+    (main_abil | species_abilities | extraAbilities).compact
   end
 
   def hasAbility?(check_ability = nil)
@@ -106,7 +107,7 @@ module AbilityRecorder
   end
 
   def self.has_ability_recorded?
-    return false if $Trainer.get_ta(:customabil)
+    return false if !$Trainer.get_ta(:customabil)
     $Trainer.ability_recorder.length > 0
   end
 end
