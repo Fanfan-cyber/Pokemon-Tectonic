@@ -298,6 +298,8 @@ class PokeBattle_Battler
         end
         
         unless @dummy
+            AbilityRecorder.check_ability_recorder(@battle, self)
+
             if can_faint_healing?
                 healing_turn = Settings::FAINT_HEALING_TURN
                 @battle.pbDisplay(_INTL("{1} will revive in {2} turns!", pbThis, healing_turn))
