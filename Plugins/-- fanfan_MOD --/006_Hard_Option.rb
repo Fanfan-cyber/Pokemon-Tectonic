@@ -20,6 +20,17 @@ Events.onTrainerPartyLoad += proc { |_sender, e|
 Events.onTrainerPartyLoad += proc { |_sender, e|
   trainer = e[0]
   next if !trainer
+  trainer.party.each do |pkmn|
+    next if pkmn.has_main_ability?
+    #pkmn.ability = choose_random_ability
+    possible_abil = choose_random_ability_from_player(pkmn)
+    pkmn.ability = possible_abil if possible_abil
+  end
+}
+
+Events.onTrainerPartyLoad += proc { |_sender, e|
+  trainer = e[0]
+  next if !trainer
   target_level = $Trainer.party_highest_level
   trainer.each_able_pkmn do |pkmn|
     if pkmn.level < target_level

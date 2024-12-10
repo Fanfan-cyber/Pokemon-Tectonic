@@ -35,6 +35,10 @@ class Pokemon
   def hasMultipleItemAbility?
     abilities.any? { |abil_id| GameData::Ability.get(abil_id).is_multiple_item_ability? && abil_id != :STICKYFINGERS }
   end
+
+  def has_main_ability?
+    !species_abilities.has?(ability_id)
+  end
 end
 
 class PokeBattle_Battle

@@ -68,14 +68,31 @@ end
 
 # 从特性库中随机选择一个特性
 def choose_random_ability(battler = nil)
-  return if battler&.fainted?
+  return if battler && battler.fainted?
   abilis_pool = []
   GameData::Ability.each do |abil|
     next if abil.primeval || abil.cut
     next if abil.is_test?
     next if abil.is_uncopyable_ability?
-    next if battler&.abilities.include?(abil.id)
+    next if battler && battler.abilities.include?(abil.id)
     abilis_pool.push(abil.id)
+  end
+  abilis_pool.sample
+end
+
+# 从玩家队伍的所有物种特性中随机选择一个特性
+def choose_random_ability_from_player(battler = nil)
+  return if battler && battler.fainted?
+  abilis_pool = []
+  $Trainer.each_pkmn do |pkmn|
+    pkmn.species_abilities.each do |abil_id|
+      abil = GameData::Ability.get(abil_id)
+      next if abil.primeval || abil.cut
+      next if abil.is_test?
+      next if abil.is_uncopyable_ability?
+      next if battler && battler.abilities.include?(abil_id)
+      abilis_pool.push(abil_id)
+    end
   end
   abilis_pool.sample
 end
@@ -135,13 +152,20 @@ end
 def change_ability_choose_from_list(pkmn, ability_list)
   new_ability_data = pbChooseAbilityFromListEX(_INTL("Choose an ability."), ability_list)
   new_ability = new_ability_data[0]
-  if new_ability && new_ability != pkmn.ability_id
-    pkmn.ability = new_ability
+  return false if !new_ability
+  if new_ability != pkmn.ability_id
     new_ability_name = GameData::Ability.get(new_ability).name
-    pbMessage(_INTL("{1}'s main ability now is {2}.", pkmn.name, new_ability_name))
-    return new_ability
+    if pbConfirmMessage(_INTL("Change {1}'s main ability to {2}?", pkmn.name, new_ability_name))
+      pkmn.ability = new_ability
+      pbMessage(_INTL("{1}'s main ability now is {2}.", pkmn.name, new_ability_name))
+      return new_ability
+    else
+      return false
+    end
+  else
+    pbMessage(_INTL("{1}'s main ability did't change.", pkmn.name))
+    return false
   end
-  return false
 end
 
 # 从物品列表中选择物品
