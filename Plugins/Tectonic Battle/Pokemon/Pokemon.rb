@@ -743,13 +743,6 @@ class Pokemon
         return nil
     end
 
-=begin
-    def canHaveMultipleItems?(inBattle = false)
-        return true if @ability == :STICKYFINGERS && inBattle
-        return GameData::Ability.get(@ability).is_multiple_item_ability?
-    end
-=end
-
     def canHaveMultipleItems?
         hasMultipleItemAbility?
     end
