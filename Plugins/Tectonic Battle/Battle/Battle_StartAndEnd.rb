@@ -262,7 +262,9 @@ class PokeBattle_Battle
     # Start a battle
     #=============================================================================
     def pbStartBattle
+        $battle = self
         pbDisallowSpeedup
+
         # Spit out lots of debug information
         PBDebug.log("")
         PBDebug.log("******************************************")
@@ -347,6 +349,8 @@ class PokeBattle_Battle
         # Return the speaker box to being visible if it was hidden by the battle
         showSpeaker if reshowSpeakerWindow
 
+        pbAllowSpeedup
+        $battle = nil
         return @decision
     end
 
@@ -800,8 +804,6 @@ class PokeBattle_Battle
         pbParty(0).compact!
 
         BattleLoader.add_trainer_data(self) if !$Trainer.get_ta(:battle_loader) && trainerBattle?
-
-        pbAllowSpeedup
 
         return @decision
     end
