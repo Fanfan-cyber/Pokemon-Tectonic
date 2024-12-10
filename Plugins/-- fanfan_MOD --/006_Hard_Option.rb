@@ -18,6 +18,7 @@ Events.onTrainerPartyLoad += proc { |_sender, e|
 }
 
 Events.onTrainerPartyLoad += proc { |_sender, e|
+  next if $Trainer.get_ta(:nocustomabil)
   trainer = e[0]
   next if !trainer
   trainer.party.each do |pkmn|

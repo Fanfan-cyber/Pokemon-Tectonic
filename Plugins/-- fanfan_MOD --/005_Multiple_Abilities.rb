@@ -106,6 +106,7 @@ module AbilityRecorder
   end
 
   def self.has_ability_recorded?
+    return false if $Trainer.get_ta(:nocustomabil)
     $Trainer.ability_recorder.length > 0
   end
 end
