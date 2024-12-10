@@ -352,7 +352,7 @@ class PokeBattle_Battle
 
         $battle = nil
         pbAllowSpeedup
-        BattleLoader.add_trainer_data(self) if !$Trainer.get_ta(:battle_loader) && trainerBattle?
+        BattleLoader.add_trainer_data(self)
         return @decision
     end
 

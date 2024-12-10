@@ -36,6 +36,8 @@ module BattleLoader
   end
 
   def self.add_trainer_data(battle)
+    return if $Trainer.get_ta(:battle_loader)
+    return if !battle.trainerBattle?
     if pbConfirmMessage(_INTL("Do you want to add the opponent team into Battle Loader?"))
       load_data
       rules = [_INTL("1v1"), _INTL("2v2"), _INTL("1v2"), _INTL("2v1")]
