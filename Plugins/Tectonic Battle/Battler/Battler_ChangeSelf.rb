@@ -712,7 +712,7 @@ class PokeBattle_Battler
         @addedAbilities.clear
 
         # @addedAbilities.concat(@pokemon.extraAbilities)
-        @addedAbilities.concat(@ability_ids)
+        @addedAbilities.concat(@ability_ids - @pokemon.species_abilities)
 
         # Check for "has all legal ability" effects
         if initialization

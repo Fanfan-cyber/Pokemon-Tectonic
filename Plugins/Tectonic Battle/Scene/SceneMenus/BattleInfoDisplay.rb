@@ -349,6 +349,14 @@ class BattleInfoDisplay < SpriteWrapper
         battler.addedAbilities.each do |abilityID|
             battlerEffects.push(_INTL("A: #{getAbilityName(abilityID)}"))
         end
+        if battler.illusion?# && !battler.pbOwnedByPlayer?
+            species_abils = battler.disguisedAs.species_abilities
+        else
+            species_abils = battler.legalAbilities
+        end
+        species_abils.each do |abilityID|
+            battlerEffects.push(_INTL("A: #{getAbilityName(abilityID)}"))
+        end
 
         scrolling = true if battlerEffects.length > 8
 
