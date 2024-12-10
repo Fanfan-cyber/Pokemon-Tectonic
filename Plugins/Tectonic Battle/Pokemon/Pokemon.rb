@@ -750,8 +750,7 @@ class Pokemon
     end
 =end
 
-    def canHaveMultipleItems?(inBattle = false)
-        return true if hasAbility?(:STICKYFINGERS) && inBattle
+    def canHaveMultipleItems?
         hasMultipleItemAbility?
     end
 
