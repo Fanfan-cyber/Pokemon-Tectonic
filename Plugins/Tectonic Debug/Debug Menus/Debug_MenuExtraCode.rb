@@ -540,18 +540,19 @@ end
 #===============================================================================
 def pbExtractText(untranslatedOnly = false)
     msgwindow = pbCreateMessageWindow
-    if safeExists?("intl_.txt") &&
-       !pbConfirmMessageSerious(_INTL("intl_.txt already exists. Overwrite it?"))
+    file_name = untranslatedOnly ? "intl_untranslated.txt" : "intl_.txt"
+    if safeExists?("PBS\\#{file_name}") &&
+       !pbConfirmMessageSerious(_INTL("{1} already exists. Overwrite it?", file_name))
         pbDisposeMessageWindow(msgwindow)
         return
     end
     pbMessageDisplay(msgwindow, _INTL("Please wait.\\wtnp[0]"))
     if untranslatedOnly
-        MessageTypes.extractUntranslated("PBS\\intl_.txt")
+        MessageTypes.extractUntranslated("PBS\\#{file_name}")
     else
-        MessageTypes.extract("PBS\\intl_.txt")
+        MessageTypes.extract("PBS\\#{file_name}")
     end
-    pbMessageDisplay(msgwindow, _INTL("All text in the game was extracted and saved to PBS\\intl_.txt.\1"))
+    pbMessageDisplay(msgwindow, _INTL("All text in the game was extracted and saved to PBS\\{1}.\1", file_name))
     pbMessageDisplay(msgwindow,
         _INTL("To localize the text for a particular language, translate every second line in the file.\1"))
     pbMessageDisplay(msgwindow,

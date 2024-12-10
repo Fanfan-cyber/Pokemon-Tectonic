@@ -27,6 +27,22 @@ Healing center's uhh... to the west. So go off and do that now.
 [Map14]
 [Map15]
 [Map16]
+I got some extra dynamite. Want it for $5000?
+I got some extra dynamite. Want it for $5000?
+Eh, I can't blame ya. It's dangerous stuff.
+Eh, I can't blame ya. It's dangerous stuff.
+Hey, I'll be glad to be done with it.
+Hey, I'll be glad to be done with it.
+You hand over $5000 in exchange.
+You hand over $5000 in exchange.
+Well, the clock waits for no one. Work calls!
+Well, the clock waits for no one. Work calls!
+You playing at something?
+You playing at something?
+No
+No
+Yes
+Yes
 [Map17]
 [Map18]
 ...
@@ -49,8 +65,6 @@ I've just got one left. I'll sell it to you for $6,000. Fair market value.
 [Map28]
 [Map29]
 [Map30]
-Well, time to head back to the mainland. I gotta remember to bring my MasterDex next time.
-Well, time to head back to the mainland. I gotta remember to bring my MasterDex next time.
 [Map31]
 [Map32]
 Room 101\nCurrent Residents: Kaylee, Aisha
@@ -64,18 +78,40 @@ Room 104\nCurrent Residents: Manuel, Anja
 ...
 ...
 [Map35]
-This Poké Ball contains Bounsweet!
-This Poké Ball contains Bounsweet!
-This Poké Ball contains Numel!
-This Poké Ball contains Numel!
-This Poké Ball contains Krabby!
-This Poké Ball contains Krabby!
+It also comes along with a <imp>MoveDex</imp> and a <imp>DexNav</imp>.
+It also comes along with a <imp>MoveDex</imp> and a <imp>DexNav</imp>.
+Both useful resources that I'm sure you can figure out on your own.
+Both useful resources that I'm sure you can figure out on your own.
 [Map36]
 [Map37]
 [Map38]
 [Map39]
-Oh, you're new to Makya, aren't you?
-Oh, you're new to Makya, aren't you?
+Oh, a trainer are you?
+Oh, a trainer are you?
+Would you be interested in taking my Sandshrew?
+Would you be interested in taking my Sandshrew?
+I brought it here from Alola, but I'm far too old to travel now, and it's getting restless.
+I brought it here from Alola, but I'm far too old to travel now, and it's getting restless.
+I'd need $5000 in return. Sorry, but I've got to survive somehow!
+I'd need $5000 in return. Sorry, but I've got to survive somehow!
+What do you say?
+What do you say?
+I understand. That's fine, dear.
+I understand. That's fine, dear.
+You won't regret this.
+You won't regret this.
+\PN hands over $5000 in exchange.
+\PN hands over $5000 in exchange.
+Now to find my wife, wherever she's run off to.
+Now to find my wife, wherever she's run off to.
+Toodaloo!
+Toodaloo!
+Oh my, you don't have enough money.
+Oh my, you don't have enough money.
+No
+No
+Yes
+Yes
 [Map40]
 .....
 .....
@@ -93,6 +129,24 @@ Room 204\nCurrent Resident: Noah
 [Map49]
 [Map50]
 [Map51]
+You have absconded with my fungus.
+You have absconded with my fungus.
+Nevermind my meditations upon its structure, sustenance, and provenance - surely your whims trump any of my concerns.
+Nevermind my meditations upon its structure, sustenance, and provenance - surely your whims trump any of my concerns.
+I shall remain here and contemplate the impermanence of... well, fungi, I suppose.
+I shall remain here and contemplate the impermanence of... well, fungi, I suppose.
+We ran out of sweets at the resort, so we're turning to desperate measures.
+We ran out of sweets at the resort, so we're turning to desperate measures.
+The blue mineral over there is edible. And quite energizing, if my coworkers are to be believed.
+The blue mineral over there is edible. And quite energizing, if my coworkers are to be believed.
+Except... I don't think I can bring myself to serve rocks to our guests.
+Except... I don't think I can bring myself to serve rocks to our guests.
+So, I decided to give my mining tool away to the first trainer to pass through.
+So, I decided to give my mining tool away to the first trainer to pass through.
+Here.
+Here.
+Wish me luck facing my boss.
+Wish me luck facing my boss.
 [Map52]
 [Map53]
 ...
@@ -101,8 +155,34 @@ Room 204\nCurrent Resident: Noah
 [Map55]
 [Map56]
 [Map57]
+The Aether Foundation, from Alola, is looking to establish a branch in Makya.
+The Aether Foundation, from Alola, is looking to establish a branch in Makya.
+I'm here to do some location research for that, but I also have a secret project of my own.
+I'm here to do some location research for that, but I also have a secret project of my own.
+To help me along, think you'd like to buy this Alolan Meowth?
+To help me along, think you'd like to buy this Alolan Meowth?
+For a low, low price of $5000, you could help me along.
+For a low, low price of $5000, you could help me along.
+Sure, I'm certain another Alolan Meowth will just stumble into your hands.
+Sure, I'm certain another Alolan Meowth will just stumble into your hands.
+Why thank you, stranger. Rest well knowing that you are a patron of science.
+Why thank you, stranger. Rest well knowing that you are a patron of science.
+\PN hands over $5000 in exchange.
+\PN hands over $5000 in exchange.
+Well, not gonna waste any more time here. I've got science to do.
+Well, not gonna waste any more time here. I've got science to do.
+Hm? Pay? With what cash?
+Hm? Pay? With what cash?
+No thanks.
+No thanks.
+Sure, I'll pay.
+Sure, I'll pay.
 [Map58]
 [Map59]
+Hey, you!
+Hey, you!
+Yeah, you, get over here!
+Yeah, you, get over here!
 [Map60]
 [Map61]
 [Map62]
@@ -123,6 +203,42 @@ Room 204\nCurrent Resident: Noah
 ...
 ...
 [Map79]
+Begin a doubles battle against the Artificial Trainer?
+Begin a doubles battle against the Artificial Trainer?
+Strategic Battling Testing Room
+Strategic Battling Testing Room
+Begin a triple battle against the Artificial Trainer?
+Begin a triple battle against the Artificial Trainer?
+Artificial Battlers Testing Room
+Artificial Battlers Testing Room
+Truly, nothing fires my neurons quite like coding.
+Truly, nothing fires my neurons quite like coding.
+It is for this reason that I embarked on my quest--to construct the perfect artificially intelligent trainers!
+It is for this reason that I embarked on my quest--to construct the perfect artificially intelligent trainers!
+I beg you, please battle them!
+I beg you, please battle them!
+There's no reward to earn by defeating them, and your Pokemon will learn nothing from the experience...
+There's no reward to earn by defeating them, and your Pokemon will learn nothing from the experience...
+But you and I both, well, we'll gain terrabytes of wisdom about battling.
+But you and I both, well, we'll gain terrabytes of wisdom about battling.
+Need I remind you--knowledge is it's own reward.
+Need I remind you--knowledge is it's own reward.
+If you're worried about difficulty, note that the battlers automatically adjust their levels to match your skill level.
+If you're worried about difficulty, note that the battlers automatically adjust their levels to match your skill level.
+I am sure you will learn a lot from the experience of battling my Artificial Trainers.
+I am sure you will learn a lot from the experience of battling my Artificial Trainers.
+In fact, I'm betting on these being an excellent training tool.
+In fact, I'm betting on these being an excellent training tool.
+My government contract depends on it.
+My government contract depends on it.
+If my project succeeds, it'll be implemented in some tourist attraction they're building off the southern coast.
+If my project succeeds, it'll be implemented in some tourist attraction they're building off the southern coast.
+Begin a singles battle against the Artificial Trainer?
+Begin a singles battle against the Artificial Trainer?
+No
+No
+Yes
+Yes
 [Map80]
 I'm a berry farmer now, but I used to be a Team Chasm grunt.
 I'm a berry farmer now, but I used to be a Team Chasm grunt.
@@ -198,10 +314,6 @@ receiveOminousEgg
 [Map134]
 [Map135]
 [Map136]
-It's a really fun way to see what Pokémon in a new area.
-It's a really fun way to see what Pokémon in a new area.
-You can also use it to get new Pokémon!
-You can also use it to get new Pokémon!
 ...
 ...
 [Map137]
@@ -228,6 +340,36 @@ You can also use it to get new Pokémon!
 [Map156]
 [Map157]
 [Map158]
+Trainer, have you ever punched a bird?
+Trainer, have you ever punched a bird?
+It's impossible. How can I ever spar with it properly?
+It's impossible. How can I ever spar with it properly?
+This Pokemon I have, a Farfetch'd from the faraway region of Galar.
+This Pokemon I have, a Farfetch'd from the faraway region of Galar.
+It refused to take a hit, like a real Pokemon would.
+It refused to take a hit, like a real Pokemon would.
+It is a coward, a complete disgrace to the Ironclad Dojo.
+It is a coward, a complete disgrace to the Ironclad Dojo.
+I offer it to you for a mere $5000, as I need to atone for the money I wasted on its room and board.
+I offer it to you for a mere $5000, as I need to atone for the money I wasted on its room and board.
+I understand. Who would want such a disgrace on their team?
+I understand. Who would want such a disgrace on their team?
+Very well, perhaps a new master shall bring our its potential.
+Very well, perhaps a new master shall bring our its potential.
+Though I doubt it.
+Though I doubt it.
+\PN hands over $5000 in exchange.
+\PN hands over $5000 in exchange.
+I shall now resume my journey, free of such a burden.
+I shall now resume my journey, free of such a burden. 
+Farewell.
+Farewell.
+You have not the financial requirements.
+You have not the financial requirements.
+No
+No
+Yes
+Yes
 [Map159]
 ...
 ...
@@ -252,8 +394,9 @@ You can also use it to get new Pokémon!
 [Map176]
 [Map177]
 [Map178]
+You've found Pria, a designer, audio engineer and video producer.
+You've found Pria, a designer, audio engineer and video producer.
 [Map179]
-[Map180]
 [Map181]
 [Map182]
 [Map183]
@@ -273,7 +416,26 @@ You can also use it to get new Pokémon!
 ...
 [Map190]
 [Map191]
-[Map192]
+I smuggled some dynamite into the city, but I think the cops are onto me.
+I smuggled some dynamite into the city, but I think the cops are onto me.
+Take it off my hands for $5000?
+Take it off my hands for $5000?
+You'd be doin' me a solid.
+You'd be doin' me a solid.
+Some days you just can't get rid of a bomb.
+Some days you just can't get rid of a bomb.
+My worryin' will soon be over.
+My worryin' will soon be over.
+You hand over $5000 in exchange.
+You hand over $5000 in exchange.
+I'm outta here--gotta store this cash.
+I'm outta here--gotta store this cash.
+Quit yankin' my chain.
+Quit yankin' my chain.
+No
+No
+Yes
+Yes
 [Map193]
 [Map194]
 ...
@@ -318,8 +480,28 @@ Trail Interchange
 ...
 ...
 [Map224]
+It's a business show.
+It's a business show.
+A gentleman with thick glasses faces the camera, explaining the impact the Avatar attack is having on stock prices.
+A gentleman with thick glasses faces the camera, explaining the impact the Avatar attack is having on stock prices.
+Two refrigerators!
+Two refrigerators!
+The freezer compartments are overflowing with frozen meat products.
+The freezer compartments are overflowing with frozen meat products.
+You even spot a large fish with a label attached: "For Purrcy."
+You even spot a large fish with a label attached: "For Purrcy."
 [Map225]
 [Map226]
+Crumpled paper notes fill the bin. They smell vaguely sweet.
+Crumpled paper notes fill the bin. They smell vaguely sweet.
+You select one and go to grab it, but it's stuck to the rest of the pile.
+You select one and go to grab it, but it's stuck to the rest of the pile.
+An email client is open. The font size has been set to extra large.
+An email client is open. The font size has been set to extra large.
+An email is being drafted to a gardener named Bud.
+An email is being drafted to a gardener named Bud.
+Sofia is asking him to volunteer to help her with planting more flowers, "for science and sweetness."
+Sofia is asking him to volunteer to help her with planting more flowers, "for science and sweetness."
 [Map227]
 [Map228]
 ...
@@ -359,7 +541,28 @@ Trail Interchange
 [Map261]
 [Map262]
 [Map263]
-[Map264]
+The shipment of fruit from Frostflow got done without a hitch.
+The shipment of fruit from Frostflow got done without a hitch.
+Or so I thought. This here Bounsweet tagged along, the rascal, and now I don't know what to do with it.
+Or so I thought. This here Bounsweet tagged along, the rascal, and now I don't know what to do with it.
+It may be cute, but I'm raising enough Pokemon back at the farm as is.
+It may be cute, but I'm raising enough Pokemon back at the farm as is.
+That's why I'll offer 'em to you for $5000.
+That's why I'll offer 'em to you for $5000.
+'S alright. I'll cultivate some patience.
+'S alright. I'll cultivate some patience.
+Hoooyaaaahhh!
+Hoooyaaaahhh!
+\PN hands over $5000 in exchange.
+\PN hands over $5000 in exchange.
+Time I be moseyin' on.
+Time I be moseyin' on.
+Er, ya alright? I don't see that much on ya.
+Er, ya alright? I don't see that much on ya.
+No
+No
+Yes
+Yes
 [Map265]
 [Map266]
 [Map267]
@@ -1398,8 +1601,16 @@ Harvest
 White-Striped
 White-Striped
 [5]
+Agonize
+Agonize
+Irritate
+Irritate
+Stinging Jab
+Stinging Jab
 Drift Off
 Drift Off
+Lightning Slam
+Lightning Slam
 Live Wire
 Live Wire
 Heliopause
@@ -1827,6 +2038,8 @@ Test Move
 [6]
 The user drains the target's blood. The user's HP is restored by 50% of the damage dealt.
 The user drains the target's blood. The user's HP is restored by 50% of the damage dealt.
+The user focuses intensely. For the next three turns, its attacks will be guarenteed critical hits.
+The user focuses intensely. For the next three turns, its attacks will be guarenteed critical hits.
 A nutrient-draining attack. The user's HP is restored by 50% of the damage dealt.
 A nutrient-draining attack. The user's HP is restored by 50% of the damage dealt.
 The user's body grows all at once, raising Atk and Sp. Atk by two steps each, or 4 in sunshine.
@@ -1841,10 +2054,18 @@ The user attacks everything around it. The user's HP is restored by 50% of the d
 The user attacks everything around it. The user's HP is restored by 50% of the damage dealt.
 Turns the foe's power against it, dealing damage using the target's Sp. Atk stat.
 Turns the foe's power against it, dealing damage using the target's Sp. Atk stat.
+The user injects the target with an extremely painful bio-chemical. It has a 10% chance to poison.
+The user injects the target with an extremely painful bio-chemical. It has a 10% chance to poison.
+The user applies a painful chemical to the target with a smack. It has a 10% chance to poison.
+The user applies a painful chemical to the target with a smack. It has a 10% chance to poison.
+The user stabs the target, injecting a painful chemical. It has a 30% chance to poison.
+The user stabs the target, injecting a painful chemical. It has a 30% chance to poison.
 The user soothes the target, lowering its Speed by 4 steps. If in hail, they also become drowsy.
 The user soothes the target, lowering its Speed by 4 steps. If in hail, they also become drowsy.
 Summons sunshine for five turns on the first turn, then overwhelms the foe with fiery light on the second.
 Summons sunshine for five turns on the first turn, then overwhelms the foe with fiery light on the second.
+The user slams down into the target with electricity. It has a 10% chance to numb.
+The user slams down into the target with electricity. It has a 10% chance to numb.
 The user lays an electrical hazard which hurts foes that switch into battle. It deals double damage in rainstorm.
 The user lays an electrical hazard which hurts foes that switch into battle. It deals double damage in rainstorm.
 The user fires a dimensional mote, lowering the target's Sp. Def.
@@ -2044,6 +2265,8 @@ Attacks nearby enemies. Deals 50% more in moonglow. User loses 50% max HP.
 This move exists just to showcase the PBS Extensions system.
 This move exists just to showcase the PBS Extensions system.
 [7]
+Saccharite Pick
+Saccharite Pick
 Chroma Clarion
 Chroma Clarion
 VIP Card
@@ -2559,6 +2782,8 @@ Moomoo Milks
 Moomoo Milks
 Fossilized Fishes
 Fossilized Fishes
+Saccharite Picks
+Saccharite Picks
 Chroma Clarions
 Chroma Clarions
 VIP Cards
@@ -3252,10 +3477,14 @@ An item to be held by a Pokémon. The user gets three abilities, but its stats a
 An item to be held by a Pokémon. The user gets three abilities, but its stats are cut by 10%.
 A held item. When a foe raises their stats, the herb is consumed to reset their stats.
 A held item. When a foe raises their stats, the herb is consumed to reset their stats.
+A charm in the shape of a tooth. It increases the EXP. gained from EXP Candy by 15%.
+A charm in the shape of a tooth. It increases the EXP. gained from EXP Candy by 15%.
 Heals your whole team a limited number of times. Restocked at PokéCenters and after resting.
 Heals your whole team a limited number of times. Restocked at PokéCenters and after resting.
 A wisp of ideas with infinite potential. Use it on a Pokémon to teach any one of their legal moves.
 A wisp of ideas with infinite potential. Use it on a Pokémon to teach any one of their legal moves.
+A food grade mining tool. Allows you to extract EXP. Candy from saccharite deposits.
+A food grade mining tool. Allows you to extract EXP. Candy from saccharite deposits.
 An ancient horn. Sound it to call 3 rare Pokémon to battle you. Recharged by walking in encounter zones.
 An ancient horn. Sound it to call 3 rare Pokémon to battle you. Recharged by walking in encounter zones.
 A glamorous steel card. While holding it, all vendors cost 10% less and Poké Marts have extra items.
@@ -3747,8 +3976,10 @@ Ferrofluid
 Ferrofluid
 Offensive
 Offensive
-Safe Instinct
-Safe Instinct
+Puff Up
+Puff Up
+Safe Passage
+Safe Passage
 Silver Lining
 Silver Lining
 Waterfall Conditioning
@@ -4184,6 +4415,8 @@ Raises each stat by two steps when a total eclipse happens.
 Raises each stat by two steps when a total eclipse happens.
 On the first turn, its attacks cause the target to flinch.
 On the first turn, its attacks cause the target to flinch.
+Deals 25% more damage per stockpile.
+Deals 25% more damage per stockpile.
 Doubles Defense in rainstorm.
 Doubles Defense in rainstorm.
 Changes the weather to ring eclipse, which heralds the total ring eclipse. Lingers for 3 turns after leaving.
@@ -4257,8 +4490,8 @@ Aroma Lady
 Aroma Lady
 Aroma Lady
 9
-Artist
-Artist
+Artificial Trainer
+Artificial Trainer
 10
 Artist
 Artist
@@ -4269,23 +4502,23 @@ Artist
 Artist
 Artist
 13
-Backers
-Backers
+Artist
+Artist
 14
 Backers
 Backers
 15
-Backpacker
-Backpacker
+Backers
+Backers
 16
 Backpacker
 Backpacker
 17
-Baker
-Baker
+Backpacker
+Backpacker
 18
-Battle Girl
-Battle Girl
+Baker
+Baker
 19
 Battle Girl
 Battle Girl
@@ -4296,8 +4529,8 @@ Battle Girl
 Battle Girl
 Battle Girl
 22
-Beauty
-Beauty
+Battle Girl
+Battle Girl
 23
 Beauty
 Beauty
@@ -4314,17 +4547,17 @@ Beauty
 Beauty
 Beauty
 28
-Belle & Pa
-Belle & Pa
+Beauty
+Beauty
 29
-Biker
-Biker
+Belle & Pa
+Belle & Pa
 30
 Biker
 Biker
 31
-Bird Keeper
-Bird Keeper
+Biker
+Biker
 32
 Bird Keeper
 Bird Keeper
@@ -4332,8 +4565,8 @@ Bird Keeper
 Bird Keeper
 Bird Keeper
 34
-Black Belt
-Black Belt
+Bird Keeper
+Bird Keeper
 35
 Black Belt
 Black Belt
@@ -4344,11 +4577,11 @@ Black Belt
 Black Belt
 Black Belt
 38
-Boarder
-Boarder
+Black Belt
+Black Belt
 39
-Bug Catcher
-Bug Catcher
+Boarder
+Boarder
 40
 Bug Catcher
 Bug Catcher
@@ -4356,20 +4589,20 @@ Bug Catcher
 Bug Catcher
 Bug Catcher
 42
-Burglar
-Burglar
+Bug Catcher
+Bug Catcher
 43
-Butler
-Butler
+Burglar
+Burglar
 44
-Cameraman
-Cameraman
+Butler
+Butler
 45
 Cameraman
 Cameraman
 46
-Camper
-Camper
+Cameraman
+Cameraman
 47
 Camper
 Camper
@@ -4377,23 +4610,23 @@ Camper
 Camper
 Camper
 49
-CEO
-CEO
+Camper
+Camper
 50
-Challenger
-Challenger
+CEO
+CEO
 51
-Champion
-Champion
+Challenger
+Challenger
 52
 Champion
 Champion
 53
-Chef
-Chef
+Champion
+Champion
 54
-Clerk
-Clerk
+Chef
+Chef
 55
 Clerk
 Clerk
@@ -4401,17 +4634,17 @@ Clerk
 Clerk
 Clerk
 57
-Clown
-Clown
+Clerk
+Clerk
 58
-Collector
-Collector
+Clown
+Clown
 59
-Cool Squad
-Cool Squad
+Collector
+Collector
 60
-Cooltrainer
-Cooltrainer
+Cool Squad
+Cool Squad
 61
 Cooltrainer
 Cooltrainer
@@ -4422,11 +4655,11 @@ Cooltrainer
 Cooltrainer
 Cooltrainer
 64
-Pro Trainer
-Pro Trainer
+Cooltrainer
+Cooltrainer
 65
-Cooltrainer
-Cooltrainer
+Pro Trainer
+Pro Trainer
 66
 Cooltrainer
 Cooltrainer
@@ -4437,17 +4670,17 @@ Cooltrainer
 Cooltrainer
 Cooltrainer
 69
-Pro Trainer
-Pro Trainer
+Cooltrainer
+Cooltrainer
 70
-Cowgirl
-Cowgirl
+Pro Trainer
+Pro Trainer
 71
-Criminal Team
-Criminal Team
+Cowgirl
+Cowgirl
 72
-Cyclist
-Cyclist
+Criminal Team
+Criminal Team
 73
 Cyclist
 Cyclist
@@ -4458,74 +4691,74 @@ Cyclist
 Cyclist
 Cyclist
 76
-Dancer
-Dancer
+Cyclist
+Cyclist
 77
-Dandy
-Dandy
+Dancer
+Dancer
 78
-Delinquent
-Delinquent
+Dandy
+Dandy
 79
-Depot Agent
-Depot Agent
+Delinquent
+Delinquent
 80
-Developer
-Developer
+Depot Agent
+Depot Agent
 81
-Aroma Lady
-Aroma Lady
+Developer
+Developer
 82
-Camper
-Camper
+Aroma Lady
+Aroma Lady
 83
-Hiker
-Hiker
+Camper
+Camper
 84
-Pro Trainer
-Pro Trainer
+Hiker
+Hiker
 85
-Pokémon Ranger
-Pokémon Ranger
+Pro Trainer
+Pro Trainer
 86
-Doctor
-Doctor
+Pokémon Ranger
+Pokémon Ranger
 87
-Double Team
-Double Team
+Doctor
+Doctor
 88
 Double Team
 Double Team
 89
-Dragon Tamer
-Dragon Tamer
+Double Team
+Double Team
 90
 Dragon Tamer
 Dragon Tamer
 91
-Elder
-Elder
+Dragon Tamer
+Dragon Tamer
 92
-Expert
-Expert
+Elder
+Elder
 93
 Expert
 Expert
 94
-Fairy Tale Girl
-Fairy Tale Girl
+Expert
+Expert
 95
-Firebreather
-Firebreather
+Fairy Tale Girl
+Fairy Tale Girl
 96
-Fisherman
-Fisherman
+Firebreather
+Firebreather
 97
 Fisherman
 Fisherman
 98
-Former Champion
-Former Champion
+Fisherman
+Fisherman
 99
 Former Champion
 Former Champion
@@ -4545,14 +4778,14 @@ Former Champion
 Former Champion
 Former Champion
 105
-Gambler
-Gambler
+Former Champion
+Former Champion
 106
-Gardener
-Gardener
+Gambler
+Gambler
 107
-Gentleman
-Gentleman
+Gardener
+Gardener
 108
 Gentleman
 Gentleman
@@ -4560,8 +4793,8 @@ Gentleman
 Gentleman
 Gentleman
 110
-Guitarist
-Guitarist
+Gentleman
+Gentleman
 111
 Guitarist
 Guitarist
@@ -4569,14 +4802,14 @@ Guitarist
 Guitarist
 Guitarist
 113
-Harlequin
-Harlequin
+Guitarist
+Guitarist
 114
-Hex Maniac
-Hex Maniac
+Harlequin
+Harlequin
 115
-Hiker
-Hiker
+Hex Maniac
+Hex Maniac
 116
 Hiker
 Hiker
@@ -4584,41 +4817,41 @@ Hiker
 Hiker
 Hiker
 118
-Hooligans
-Hooligans
+Hiker
+Hiker
 119
-Hoopster
-Hoopster
+Hooligans
+Hooligans
 120
-Ideal Trainer
-Ideal Trainer
+Hoopster
+Hoopster
 121
-Idol
-Idol
+Ideal Trainer
+Ideal Trainer
 122
-Infielder
-Infielder
+Idol
+Idol
 123
-Interviewers
-Interviewers
+Infielder
+Infielder
 124
-Cosplayer
-Cosplayer
+Interviewers
+Interviewers
 125
-Janitor
-Janitor
+Cosplayer
+Cosplayer
 126
-Jogger
-Jogger
+Janitor
+Janitor
 127
-Juggler
-Juggler
+Jogger
+Jogger
 128
-Kimono Girl
-Kimono Girl
+Juggler
+Juggler
 129
-Lady
-Lady
+Kimono Girl
+Kimono Girl
 130
 Lady
 Lady
@@ -4629,8 +4862,8 @@ Lady
 Lady
 Lady
 133
-Lass
-Lass
+Lady
+Lady
 134
 Lass
 Lass
@@ -4647,8 +4880,8 @@ Lass
 Lass
 Lass
 139
-Gym Leader
-Gym Leader
+Lass
+Lass
 140
 Gym Leader
 Gym Leader
@@ -4701,11 +4934,11 @@ Gym Leader
 Gym Leader
 Gym Leader
 157
-Linebacker
-Linebacker
+Gym Leader
+Gym Leader
 158
-Pokémon Ranger
-Pokémon Ranger
+Linebacker
+Linebacker
 159
 Pokémon Ranger
 Pokémon Ranger
@@ -4713,68 +4946,68 @@ Pokémon Ranger
 Pokémon Ranger
 Pokémon Ranger
 161
-Maid
-Maid
+Pokémon Ranger
+Pokémon Ranger
 162
 Maid
 Maid
 163
-Masked Villain
-Masked Villain
+Maid
+Maid
 164
 Masked Villain
 Masked Villain
 165
-Masked Villains
-Masked Villains
+Masked Villain
+Masked Villain
 166
 Masked Villains
 Masked Villains
 167
-Masked Villain
-Masked Villain
+Masked Villains
+Masked Villains
 168
-Medium
-Medium
+Masked Villain
+Masked Villain
 169
-Neckbeard
-Neckbeard
+Medium
+Medium
 170
-Nightmare Queen
-Nightmare Queen
+Neckbeard
+Neckbeard
 171
-Nightmare of
-Nightmare of
+Nightmare Queen
+Nightmare Queen
 172
-Ninja Boy
-Ninja Boy
+Nightmare of
+Nightmare of
 173
-Nurse
-Nurse
+Ninja Boy
+Ninja Boy
 174
-Nursery Aide
-Nursery Aide
+Nurse
+Nurse
 175
-Office Worker
-Office Worker
+Nursery Aide
+Nursery Aide
 176
 Office Worker
 Office Worker
 177
-Parasol Lady
-Parasol Lady
+Office Worker
+Office Worker
 178
 Parasol Lady
 Parasol Lady
 179
-Picnicker
-Picnicker
+Parasol Lady
+Parasol Lady
 180
-Pilot
-Pilot
+Picnicker
+Picnicker
 181
-Poké Fan
-Poké Fan
+Pilot
+Pilot
 182
 Poké Fan
 Poké Fan
@@ -4788,14 +5021,14 @@ Poké Fan
 Poké Fan
 Poké Fan
 186
-Poké Kid
-Poké Kid
+Poké Fan
+Poké Fan
 187
-Poké Maniac
-Poké Maniac
+Poké Kid
+Poké Kid
 188
-Pokémon Breeder
-Pokémon Breeder
+Poké Maniac
+Poké Maniac
 189
 Pokémon Breeder
 Pokémon Breeder
@@ -4818,11 +5051,11 @@ Pokémon Breeder
 Pokémon Breeder
 Pokémon Breeder
 196
-Pokémon Master
-Pokémon Master
+Pokémon Breeder
+Pokémon Breeder
 197
-Pokémon Ranger
-Pokémon Ranger
+Pokémon Master
+Pokémon Master
 198
 Pokémon Ranger
 Pokémon Ranger
@@ -4845,8 +5078,8 @@ Pokémon Ranger
 Pokémon Ranger
 Pokémon Ranger
 205
-Pokémon Trainer
-Pokémon Trainer
+Pokémon Ranger
+Pokémon Ranger
 206
 Pokémon Trainer
 Pokémon Trainer
@@ -4863,23 +5096,23 @@ Pokémon Trainer
 Pokémon Trainer
 Pokémon Trainer
 211
-Policeman
-Policeman
+Pokémon Trainer
+Pokémon Trainer
 212
 Policeman
 Policeman
 213
-Preschooler
-Preschooler
+Policeman
+Policeman
 214
 Preschooler
 Preschooler
 215
-Professor
-Professor
+Preschooler
+Preschooler
 216
-Psychic
-Psychic
+Professor
+Professor
 217
 Psychic
 Psychic
@@ -4899,23 +5132,23 @@ Psychic
 Psychic
 Psychic
 223
-Punk
-Punk
+Psychic
+Psychic
 224
 Punk
 Punk
 225
-Rancher
-Rancher
+Punk
+Punk
 226
-Reporter
-Reporter
+Rancher
+Rancher
 227
 Reporter
 Reporter
 228
-Rich Boy
-Rich Boy
+Reporter
+Reporter
 229
 Rich Boy
 Rich Boy
@@ -4926,11 +5159,11 @@ Rich Boy
 Rich Boy
 Rich Boy
 232
-Rich Couple
-Rich Couple
+Rich Boy
+Rich Boy
 233
-Rising Star
-Rising Star
+Rich Couple
+Rich Couple
 234
 Rising Star
 Rising Star
@@ -4941,35 +5174,35 @@ Rising Star
 Rising Star
 Rising Star
 237
-Roller Skater
-Roller Skater
+Rising Star
+Rising Star
 238
 Roller Skater
 Roller Skater
 239
-Roughneck
-Roughneck
+Roller Skater
+Roller Skater
 240
 Roughneck
 Roughneck
 241
-Ruin Maniac
-Ruin Maniac
+Roughneck
+Roughneck
 242
 Ruin Maniac
 Ruin Maniac
 243
-Sage
-Sage
+Ruin Maniac
+Ruin Maniac
 244
-Sailor
-Sailor
+Sage
+Sage
 245
 Sailor
 Sailor
 246
-School Kid
-School Kid
+Sailor
+Sailor
 247
 School Kid
 School Kid
@@ -4989,8 +5222,8 @@ School Kid
 School Kid
 School Kid
 253
-Scientist
-Scientist
+School Kid
+School Kid
 254
 Scientist
 Scientist
@@ -5010,17 +5243,17 @@ Scientist
 Scientist
 Scientist
 260
-Seeker
-Seeker
+Scientist
+Scientist
 261
-Shadow
-Shadow
+Seeker
+Seeker
 262
-Sis and Bro
-Sis and Bro
+Shadow
+Shadow
 263
-Skier
-Skier
+Sis and Bro
+Sis and Bro
 264
 Skier
 Skier
@@ -5028,17 +5261,17 @@ Skier
 Skier
 Skier
 266
-Smasher
-Smasher
+Skier
+Skier
 267
-Socialite
-Socialite
+Smasher
+Smasher
 268
 Socialite
 Socialite
 269
-Spirit Guardian
-Spirit Guardian
+Socialite
+Socialite
 270
 Spirit Guardian
 Spirit Guardian
@@ -5049,17 +5282,17 @@ Spirit Guardian
 Spirit Guardian
 Spirit Guardian
 273
-Striker
-Striker
+Spirit Guardian
+Spirit Guardian
 274
-Super Nerd
-Super Nerd
+Striker
+Striker
 275
-Suspicious Man
-Suspicious Man
+Super Nerd
+Super Nerd
 276
-Swimmer
-Swimmer
+Suspicious Man
+Suspicious Man
 277
 Swimmer
 Swimmer
@@ -5094,8 +5327,8 @@ Swimmer
 Swimmer
 Swimmer
 288
-Guardian Deity
-Guardian Deity
+Swimmer
+Swimmer
 289
 Guardian Deity
 Guardian Deity
@@ -5106,23 +5339,23 @@ Guardian Deity
 Guardian Deity
 Guardian Deity
 292
-Teacher
-Teacher
+Guardian Deity
+Guardian Deity
 293
-Teenager
-Teenager
+Teacher
+Teacher
 294
 Teenager
 Teenager
 295
-Tourist
-Tourist
+Teenager
+Teenager
 296
 Tourist
 Tourist
 297
-Pokémon Trainer
-Pokémon Trainer
+Tourist
+Tourist
 298
 Pokémon Trainer
 Pokémon Trainer
@@ -5151,11 +5384,11 @@ Pokémon Trainer
 Pokémon Trainer
 Pokémon Trainer
 307
-Your Brother
-Your Brother
+Pokémon Trainer
+Pokémon Trainer
 308
-Tuber
-Tuber
+Your Brother
+Your Brother
 309
 Tuber
 Tuber
@@ -5166,8 +5399,8 @@ Tuber
 Tuber
 Tuber
 312
-Twins
-Twins
+Tuber
+Tuber
 313
 Twins
 Twins
@@ -5175,11 +5408,11 @@ Twins
 Twins
 Twins
 315
-Ultra
-Ultra
+Twins
+Twins
 316
-Veteran
-Veteran
+Ultra
+Ultra
 317
 Veteran
 Veteran
@@ -5193,11 +5426,11 @@ Veteran
 Veteran
 Veteran
 321
-Wild
-Wild
+Veteran
+Veteran
 322
-Waiter
-Waiter
+Wild
+Wild
 323
 Waiter
 Waiter
@@ -5205,8 +5438,8 @@ Waiter
 Waiter
 Waiter
 325
-Waitress
-Waitress
+Waiter
+Waiter
 326
 Waitress
 Waitress
@@ -5214,11 +5447,11 @@ Waitress
 Waitress
 Waitress
 328
-Wild Pack
-Wild Pack
+Waitress
+Waitress
 329
-Wild Party
-Wild Party
+Wild Pack
+Wild Pack
 330
 Wild Party
 Wild Party
@@ -5229,8 +5462,8 @@ Wild Party
 Wild Party
 Wild Party
 333
-Worker
-Worker
+Wild Party
+Wild Party
 334
 Worker
 Worker
@@ -5247,14 +5480,14 @@ Worker
 Worker
 Worker
 339
-Young Couple
-Young Couple
+Worker
+Worker
 340
 Young Couple
 Young Couple
 341
-Youngster
-Youngster
+Young Couple
+Young Couple
 342
 Youngster
 Youngster
@@ -5262,6 +5495,9 @@ Youngster
 Youngster
 Youngster
 344
+Youngster
+Youngster
+345
 Test Trainer
 Test Trainer
 [14]
@@ -5275,8 +5511,8 @@ Zeu
 Zeu
 Agentbla
 Agentbla
-Divock
-Divock
+Pria
+Pria
 IgnitedxSoul
 IgnitedxSoul
 Drawingbox
@@ -5317,6 +5553,12 @@ Riptide
 Riptide
 X
 X
+Solitaire
+Solitaire
+Doppel
+Doppel
+Trinity
+Trinity
 Test Trainer
 Test Trainer
 BRADY
@@ -9027,6 +9269,12 @@ Pokémon placed in these boxes can never be withdrawn.
 Pokémon placed in these boxes can never be withdrawn.
 In repayment, you get candy equal to their lifetime EXP earnings.
 In repayment, you get candy equal to their lifetime EXP earnings.
+Individual Pokémon have individual appearances.
+Individual Pokémon have individual appearances.
+They differ in hue and brightness!
+They differ in hue and brightness!
+If you wish, you can turn this off in the options.
+If you wish, you can turn this off in the options.
 \wm#{tutorialMessage}\wtnp<<[>>#{tutorialMessageDuration}<<]>><<1>>
 \wm#{tutorialMessage}\wtnp<<[>>#{tutorialMessageDuration}<<]>><<1>>
 x{1:03d}
@@ -9059,10 +9307,10 @@ Abilities are special powers that Pokémon can have based on their species. Most
 Abilities are special powers that Pokémon can have based on their species. Most Pokémon can have 2 possible abilities. All abilities activate in battle or on field.
 Abilities do a wide variety of different things. Understanding your team's abilities is important to winning.
 Abilities do a wide variety of different things. Understanding your team's abilities is important to winning.
-Check your Pokémon's summary to see what displaying ability they have. Use the MasterDex to read about the abilities of enemy Pokémon during battle.
-Check your Pokémon's summary to see what displaying ability they have. Use the MasterDex to read about the abilities of enemy Pokémon during battle.
-A Pokémon's displaying ability is one of the two its species can have, randomly chosen when you get it. You can use Ability Capsules to swap to the other.
-A Pokémon's displaying ability is one of the two its species can have, randomly chosen when you get it. You can use Ability Capsules to swap to the other.
+Check your Pokémon's summary to see what main ability they have. Use the MasterDex to read about the abilities of enemy Pokémon during battle.
+Check your Pokémon's summary to see what main ability they have. Use the MasterDex to read about the abilities of enemy Pokémon during battle.
+A Pokémon's default main ability is one of the two its species can have, randomly chosen when you get it. You can use Ability Capsules to swap to the other.
+A Pokémon's default main ability is one of the two its species can have, randomly chosen when you get it. You can use Ability Capsules to swap to the other.
 Status Conditions are removed when you heal at the PokéCenter, after a trainer battle or when you use the Aid Kit.
 Status Conditions are removed when you heal at the PokéCenter, after a trainer battle or when you use the Aid Kit.
 Certain abilities prevent critical hits against that Pokémon. The Lucky Chant effect and the Strategist tribe bonus also protect their side from critical hits.
@@ -9081,8 +9329,8 @@ Has various functions depending on context. Also used to open the Pause Menu. (D
 Has various functions depending on context. Also used to open the Pause Menu. (Default: Z)
 Press to speed up while in the overworld.
 Press to speed up while in the overworld.
-{1}'s displaying ability was changed to {2}.
-{1}'s displaying ability was changed to {2}.
+{1}'s main ability was changed to {2}.
+{1}'s main ability was changed to {2}.
 {1}'s ability now is <imp>{2}</imp>!
 {1}'s ability now is <imp>{2}</imp>!
 {1}'s abilities now are <imp>{2}</imp> and <imp>{3}</imp>!
@@ -9167,12 +9415,10 @@ A
 {1} (PP: {2}/{3})
 Send to TC
 Send to TC
+Open AR
+Open AR
 Adaptive AI
 Adaptive AI
-Choose an ability.
-Choose an ability.
-{1}'s displaying ability now is {2}.
-{1}'s displaying ability now is {2}.
 Game State
 Game State
 Welcome, VIP! I hope you are satisfied with our services.
@@ -9191,6 +9437,10 @@ Field {1} is not a positive integer
 Field {1} is not a positive integer
 ???
 ???
+Discord
+Discord
+Wiki
+Wiki
 <ac><c3={1}>{2}</c3></ac>
 <ac><c3={1}>{2}</c3></ac>
 #{saveIDThisSlot}: #{trainer.name} / #{mapname}
@@ -10119,6 +10369,10 @@ Badge Number #{badgeNum} is above the total number of badges.
 \db[Pictures/Trainer Card/DISPLAY_BADGE_{1}]\me[Badge get]You've earned the {2} Badge!\wtnp[120]
 Badge #{badgeNum} Team
 Badge #{badgeNum} Team
+\i[SACCHARITEPICK]Using your pick-axe, you extract the saccharite.
+\i[SACCHARITEPICK]Using your pick-axe, you extract the saccharite.
+A deposit of saccharite. You might be able to extract it with the proper tool.
+A deposit of saccharite. You might be able to extract it with the proper tool.
 Player cannot receive a Super Item!
 Player cannot receive a Super Item!
 You combine the #{getItemName(:SIGILLEFTHALF)} and the #{getItemName(:SIGILRIGHTHALF)}.
@@ -10229,10 +10483,10 @@ Took the {1} from {2} and gave it the {3}.
 Took the {1} from {2} and gave it the {3}.
 Could't re-store deleted item in Bag somehow
 Could't re-store deleted item in Bag somehow
-Would you like to change {1}'s displaying ability to {2}?
-Would you like to change {1}'s displaying ability to {2}?
-{1}'s displaying ability changed to {2}!
-{1}'s displaying ability changed to {2}!
+Would you like to change {1}'s main ability to {2}?
+Would you like to change {1}'s main ability to {2}?
+{1}'s main ability changed to {2}!
+{1}'s main ability changed to {2}!
 Walk
 Walk
 The Tower
@@ -10865,6 +11119,8 @@ Ability is {1} (index {2}).
 Ability is {1} (index {2}).
 No ability (index {1}).
 No ability (index {1}).
+Choose an ability.
+Choose an ability.
 Set gender
 Set gender
 {1} is single-gendered or genderless.
@@ -12375,6 +12631,8 @@ Ability: {1}
 Ability: {1}
 This ability has not been implemented.
 This ability has not been implemented.
+Ability Recorder recorded {1}'s {2}!
+Ability Recorder recorded {1}'s {2}!
 {1} is coming back to life!
 {1} is coming back to life!
 Enter a gift code.
@@ -12493,6 +12751,12 @@ GF
 GF
 Game Freak
 Game Freak
+Change {1}'s main ability to {2}?
+Change {1}'s main ability to {2}?
+{1}'s main ability now is {2}.
+{1}'s main ability now is {2}.
+{1}'s main ability did't change.
+{1}'s main ability did't change.
 The field will exist forever!
 The field will exist forever!
 The field has already existed!
