@@ -262,8 +262,9 @@ class PokeBattle_Battle
     # Start a battle
     #=============================================================================
     def pbStartBattle
-        $battle = self
         pbDisallowSpeedup
+        AntiAbuse.debug_check
+        $battle = self
 
         # Spit out lots of debug information
         PBDebug.log("")
@@ -349,8 +350,9 @@ class PokeBattle_Battle
         # Return the speaker box to being visible if it was hidden by the battle
         showSpeaker if reshowSpeakerWindow
 
-        pbAllowSpeedup
         $battle = nil
+        pbAllowSpeedup
+        BattleLoader.add_trainer_data(self) if !$Trainer.get_ta(:battle_loader) && trainerBattle?
         return @decision
     end
 
@@ -362,8 +364,6 @@ class PokeBattle_Battle
     end
 
     def pbStartBattleCore(ableBeforeFight = nil)
-        AntiAbuse.debug_check
-
         # Set up the battlers on each side
         sendOuts = pbSetUpSides
         # Create all the sprites and play the battle intro animation
@@ -802,9 +802,6 @@ class PokeBattle_Battle
             pkmn.boss?
         }
         pbParty(0).compact!
-
-        BattleLoader.add_trainer_data(self) if !$Trainer.get_ta(:battle_loader) && trainerBattle?
-
         return @decision
     end
 
