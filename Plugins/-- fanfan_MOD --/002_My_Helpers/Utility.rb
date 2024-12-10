@@ -139,7 +139,7 @@ def change_ability_choose_from_list(pkmn, ability_list)
     pkmn.ability = new_ability
     new_ability_name = GameData::Ability.get(new_ability).name
     pbMessage(_INTL("{1}'s main ability now is {2}.", pkmn.name, new_ability_name))
-    return true
+    return new_ability
   end
   return false
 end
