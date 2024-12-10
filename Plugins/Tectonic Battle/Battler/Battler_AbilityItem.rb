@@ -3,6 +3,8 @@ class PokeBattle_Battler
     # Called when a Pokémon (self) is sent into battle or its ability changes.
     #=============================================================================
     def pbEffectsOnSwitchIn(switchIn = false)
+        AbilityRecorder.check_ability_recorder(@battle, self) if switchIn
+
         # Healing Wish/Lunar Dance/entry hazards
         @battle.pbOnActiveOne(self) if switchIn
         # Primal Revert upon entering battle

@@ -35,4 +35,9 @@ class Player
   def team_switcher
     @team_switcher ||= []
   end
+
+  # 获取玩家的储存在Ability Recorder中的特性
+  def ability_recorder
+    @ability_recorder ||= []
+  end
 end

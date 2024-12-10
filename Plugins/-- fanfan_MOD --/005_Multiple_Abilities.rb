@@ -75,3 +75,24 @@ class PokemonSummary_Scene
     pbMessage(abil_des)
   end
 end
+
+module AbilityRecorder
+  def self.check_ability_recorder(battle, battler)
+    return if !battle.trainerBattle?
+    return if battler.pbOwnedByPlayer?
+    abils = $Trainer.ability_recorder
+    abils_recorded = []
+    battler.legalAbilities.each do |abil|
+      next if abils.has?(abil)
+      abils << abil
+      abils_recorded << abil
+    end
+    return if abils_recorded.empty?
+    abilities_names = abils_recorded.map { |abil_id| getAbilityName(abil_id) }
+    battle.pbDisplay(_INTL("Ability Recorder recorded {1}'s {2}!", battler.pbThis(true), abilities_names.quick_join))
+  end
+
+  def self.oppen_ability_recorder
+    abils = $Trainer.ability_recorder
+  end
+end
