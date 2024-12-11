@@ -1,4 +1,6 @@
 module Settings
+  NUM_STORAGE_BOXES = 200
+
   # Button used for Text Skipping (Default = :X)
   TEXT_SKIP_KEY = :V
 
