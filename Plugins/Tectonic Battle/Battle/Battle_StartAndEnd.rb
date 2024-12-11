@@ -329,6 +329,7 @@ class PokeBattle_Battle
                 trackPerfectBattle(true)
                 if trainerBattle? && @decision == 1 && !skipPerfecting
                     pbMessage(_INTL("\\me[Battle perfected]You perfected the fight!"))
+                    RocketMode.pbRobPokemon(self)
                 end
             end
             # Update each of the player's pokemon's battling streak
@@ -688,10 +689,7 @@ class PokeBattle_Battle
                 end
             end
             # Gain money from winning a trainer battle, and from Pay Day
-            if @decision != 4
-                pbGainMoney
-                RocketMode.pbRobPokemon(self)
-            end
+            pbGainMoney if @decision != 4
             # Hide remaining trainer
             @scene.pbShowOpponent(@opponent.length) if trainerBattle? && @caughtPokemon.length > 0
         #### WIN FROM TIMEOUT ####
