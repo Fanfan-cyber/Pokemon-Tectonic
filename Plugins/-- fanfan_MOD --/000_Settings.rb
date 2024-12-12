@@ -11,3 +11,8 @@ module Settings
   SWITCH_HEALING_NUM = 10
   BATTLE_ENDING_NUBM = 30
 end
+
+def load_refresh
+  load './Plugins/-- fanfan_MOD --/998_Hot_Test.rb'
+  pbMessage(_INTL("Reloaded!"))
+end
