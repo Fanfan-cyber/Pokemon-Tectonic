@@ -1,5 +1,5 @@
 module Input
-  class << Input
+  class << self
     alias hot_test_update update
   end
 
@@ -14,7 +14,7 @@ module Input
 end
 
 module HotTest
-  FILENAME = './Plugins/-- fanfan_MOD --/998_Test_Content.rb'
+  FILENAME = './Test_Content.rb'
   def self.load_refresh
     begin
       load FILENAME
