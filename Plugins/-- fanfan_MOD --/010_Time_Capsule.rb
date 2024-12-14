@@ -34,8 +34,8 @@ module TimeCapsule
     end
   end
 
-  def self.add_to_time_capsule(pkmn)
-    if pbConfirmMessage(_INTL("Do you want to put {1} in Time Capsule?", pkmn.name))
+  def self.add_to_time_capsule(pkmn, ignore_confirm = false)
+    if ignore_confirm || pbConfirmMessage(_INTL("Do you want to put {1} in Time Capsule?", pkmn.name))
       @@time_capsule << pkmn
       pbMessage(_INTL("{1} is now in Time Capsule!", pkmn.name))
     end
