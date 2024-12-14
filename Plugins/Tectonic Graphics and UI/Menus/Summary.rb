@@ -839,13 +839,13 @@ class PokemonSummary_Scene
         end
 
         # Draw ability name and description
-        ability = @pokemon.ability
-        if ability
+        abil = @pokemon.ability
+        if abil
             ability_base   = MessageConfig.pbDefaultTextMainColor
             ability_shadow = MessageConfig.pbDefaultTextShadowColor
             if @pokemon.has_main_ability?
-                abil_name = ability.name
-                abil_desc = $Trainer.get_ta(:customabil) ? ability.description : _INTL("Main Ability is disabled.")
+                abil_name = abil.name
+                abil_desc = $Trainer.get_ta(:customabil) ? abil.description : _INTL("Main Ability is disabled.")
             else
                 abil_name = _INTL("None")
                 abil_desc = _INTL("{1} doesn't have Main Ability.", @pokemon.name)
