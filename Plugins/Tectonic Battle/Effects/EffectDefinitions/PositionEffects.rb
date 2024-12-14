@@ -225,3 +225,13 @@ GameData::BattleEffect.register_effect(:Position, {
         position.disableEffect(:GaussAftershock)
     end,
 })
+
+GameData::BattleEffect.register_effect(:Position, {
+    :id => :Omnipresent,
+    :real_name => "Omnipresent",
+    :entry_proc => proc do |battle, _index, position, battler|
+        battler.applyEffect(:OmnipresentReceiver)
+        battle.pbDisplay(_INTL("{1} has a free turn!", battler.pbThis))
+        position.disableEffect(:Omnipresent)
+    end,
+})

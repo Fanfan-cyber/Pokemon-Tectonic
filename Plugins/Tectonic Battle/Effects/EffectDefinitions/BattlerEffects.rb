@@ -2086,3 +2086,9 @@ GameData::BattleEffect.register_effect(:Battler, {
         raise _INTL("Last Gasp was disabled somehow.")
     end,
 })
+
+GameData::BattleEffect.register_effect(:Battler, {
+    :id => :OmnipresentReceiver,
+    :real_name => "Omnipresent Receiver",
+    :resets_eor => true,
+})

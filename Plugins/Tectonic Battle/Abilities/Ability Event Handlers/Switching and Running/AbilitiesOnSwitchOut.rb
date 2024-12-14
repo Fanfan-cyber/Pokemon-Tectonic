@@ -80,3 +80,13 @@ BattleHandlers::AbilityOnSwitchOut.add(:CLUMSYKINESIS,
       battle.pbHideAbilitySplash(battler)
   }
 )
+
+BattleHandlers::AbilityOnSwitchOut.add(:OMNIPRESENT,
+  proc { |ability, battler, battle, endOfBattle|
+      next if endOfBattle
+      battle.pbShowAbilitySplash(battler, ability)
+      battle.pbDisplay(_INTL("Transcending time and space, a cost-free switch!"))
+      battler.position.applyEffect(:Omnipresent)
+      battle.pbHideAbilitySplash(battler)
+  }
+)

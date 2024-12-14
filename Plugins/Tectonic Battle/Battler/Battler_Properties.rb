@@ -93,8 +93,17 @@ class PokeBattle_Battler
 
     def extraMovesPerTurn
         return 0 if @pokemon.nil?
-        return 0 if effectActive?(:SwitchedIn)
+        #return 0 if effectActive?(:SwitchedIn)
         val = @pokemon.extraMovesPerTurn || 0
+
+        if effectActive?(:SwitchedIn)
+            if effectActive?(:OmnipresentReceiver)
+                val += 1
+            else
+                return 0
+            end
+        end
+
         val += @effects[:ExtraTurns]
         val += 1 if effectActive?(:GreaterGlories)
         val += 1 if hasActiveAbility?(:HEAVENSCROWN) && @battle.totalEclipse?
