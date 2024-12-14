@@ -327,8 +327,14 @@ class PokeBattle_Battle
             # Record if the fight was perfected
             if $Trainer.able_pokemon_count >= ableBeforeFight
                 trackPerfectBattle(true)
-                if trainerBattle? && @decision == 1 && !skipPerfecting
+                if trainerBattle? && @decision == 1 && !skipPerfecting && !$Trainer.get_ta(:battle_loader)
                     pbMessage(_INTL("\\me[Battle perfected]You perfected the fight!"))
+                    victory = $Trainer.get_ta(:victory)
+                    if victory
+                        $Trainer.set_ta(:victory, victory + 1)
+                    else
+                        $Trainer.set_ta(:victory, 1)
+                    end
                     RocketMode.pbRobPokemon(self)
                 end
             end
@@ -606,7 +612,7 @@ class PokeBattle_Battle
     # End of battle
     #=============================================================================
     def pbGainMoney
-        return if !@internalBattle || !@moneyGain
+        return if !@internalBattle || !@moneyGain || $Trainer.get_ta(:battle_loader)
 
         moneyMult = 1
         moneyMult *= 2 if @field.effectActive?(:AmuletCoin)
@@ -732,6 +738,12 @@ class PokeBattle_Battle
                     when 3
                         pbDisplayPaused(_INTL("You lost against {1}, {2} and {3}!",
                           @opponent[0].full_name, @opponent[1].full_name, @opponent[2].full_name))
+                    end
+                    lost = $Trainer.get_ta(:lost)
+                    if lost
+                        $Trainer.set_ta(:lost, lost + 1)
+                    else
+                        $Trainer.set_ta(:lost, 1)
                     end
                 end
             elsif @decision == 2
