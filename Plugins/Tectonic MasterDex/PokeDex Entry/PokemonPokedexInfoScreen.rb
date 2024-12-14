@@ -10,7 +10,7 @@ class PokemonPokedexInfoScreen
     return ret   #  Last species viewed in dexlist
   end
 
-  def pbStartSceneSingle(species,battle=false)   # For use from a Pokémon's summary screen
+  def pbStartSceneSingle(species, battle = false, move_to_page = nil)   # For use from a Pokémon's summary screen
 		region = -1
 		if Settings::USE_CURRENT_REGION_DEX
 		  region = pbGetCurrentRegion
@@ -56,6 +56,10 @@ class PokemonPokedexInfoScreen
 
     # Start the scene
 		@scene.pbStartScene(dexlist,mainSpeciesIndex,region,battle,true)
+    if move_to_page
+      @scene.moveToPage(move_to_page)
+      @scene.drawPage(move_to_page)
+    end
 		ret = @scene.pbScene
 		@scene.pbEndScene
     return ret   # Last species viewed in dexlist

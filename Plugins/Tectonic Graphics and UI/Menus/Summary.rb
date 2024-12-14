@@ -1309,7 +1309,10 @@ class PokemonSummary_Scene
     end
 
     def pbOptions
-	    # return pbMarking(@pokemon)
+	      return pbMarking(@pokemon)
+    end
+
+    def pbOpenMasterDex
 	    return if !pbConfirm(_INTL("Do you want to check {1} in MasterDex?", @pokemon.name))
 	    openSingleDexScreen(@pokemon)
     end
@@ -1466,8 +1469,13 @@ class PokemonSummary_Scene
                     dorefresh = true
                 elsif @battle.nil?
                     pbPlayDecisionSE
-                    dorefresh = pbOptions
+                    #dorefresh = pbOptions
+                    dorefresh = pbOpenMasterDex
                 end
+            elsif MInput.trigger?(:A)
+                openSingleDexScreen(@pokemon, 2) if @page == 3
+            elsif MInput.trigger?(:S)
+                openSingleDexScreen(@pokemon, 3) if @page == 3
             elsif Input.trigger?(Input::UP) && !@party.nil? && @partyindex > 0
                 oldindex = @partyindex
                 pbGoToPrevious
