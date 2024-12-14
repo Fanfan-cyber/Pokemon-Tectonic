@@ -32,9 +32,8 @@ module DimensionD
               break
             end
           when 2
-            if pbConfirmMessage(_INTL("Do you want to put {1} in Time Capsule?", pkmn.name))
+            if TimeCapsule.add_to_time_capsule(pkmn)
               pkmns.delete_at(pkmn_index)
-              TimeCapsule.add_to_time_capsule(pkmn, true)
               break
             end
           end

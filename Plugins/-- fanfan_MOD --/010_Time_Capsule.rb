@@ -38,7 +38,9 @@ module TimeCapsule
     if ignore_confirm || pbConfirmMessage(_INTL("Do you want to put {1} in Time Capsule?", pkmn.name))
       @@time_capsule << pkmn
       pbMessage(_INTL("{1} is now in Time Capsule!", pkmn.name))
+      return true
     end
+    return false
   end
 
   def self.update_time_capsule
