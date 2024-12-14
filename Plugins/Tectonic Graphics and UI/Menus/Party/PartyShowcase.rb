@@ -80,6 +80,8 @@ class PokemonPartyShowcase_Scene
 
         unless npcTrainer
             # Show game version
+            victory_lost = _INTL("V:{1}  L:{2}", $Trainer.get_ta(:victory) || 0, $Trainer.get_ta(:lost) || 0)
+            drawFormattedTextEx(@overlay, Graphics.width / 2 - 130, bottomBarY, 160, victory_lost, base, shadow)
             settingsLabel = "v#{Settings::GAME_VERSION}"
             settingsLabel += "-dev" if Settings::DEV_VERSION
             drawFormattedTextEx(@overlay, Graphics.width / 2 + 60, bottomBarY, 160, settingsLabel, base, shadow)
