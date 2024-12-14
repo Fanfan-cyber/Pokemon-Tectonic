@@ -209,7 +209,7 @@ class PokemonPartyShowcase_Scene
         # Display ability name
         #abilityName = pokemon.ability&.name || _INTL("No Ability")
         abil = pokemon.ability
-        abilityName = abil && pokemon.has_main_ability? && $Trainer.get_ta(:customabil) ? abil.name : _INTL("No Ability")
+        abilityName = abil && pokemon.has_main_ability? && $Trainer.get_ta(:customabil) ? abil.name : _INTL("None")
         drawTextEx(@overlay, displayX + 4, mainIconY + POKEMON_ICON_SIZE + 8, 200, 1, abilityName, base, shadow)
     
         # Display Style Points
