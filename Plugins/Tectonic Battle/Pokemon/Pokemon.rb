@@ -1525,8 +1525,6 @@ class Pokemon
             regeneratePersonalID
             @shiny = nil
         end
-
-        add_all_other_abilities
     end
 
     def aestheticsID

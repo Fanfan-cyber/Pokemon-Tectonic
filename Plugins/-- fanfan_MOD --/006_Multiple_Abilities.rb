@@ -14,14 +14,6 @@ class Pokemon
     species_data.hasMultiAbilities?
   end
 
-  def add_all_other_abilities
-  end
-
-  def recalc_species_abilities
-    @extraAbilities.clear
-    species_abilities.each { |abil| addExtraAbility(abil) }
-  end
-
   def abilities
     main_abil = $Trainer.get_ta(:customabil) ? [ability_id] : []
     (main_abil | species_abilities | extraAbilities).compact
