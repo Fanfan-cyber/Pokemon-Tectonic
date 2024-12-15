@@ -14,6 +14,10 @@ class Pokemon
     species_data.hasMultiAbilities?
   end
 
+  def has_main_ability?
+    !species_abilities.has?(ability_id)
+  end
+
   def abilities
     main_abil = $Trainer.get_ta(:customabil) ? [ability_id] : []
     (main_abil | species_abilities | extraAbilities).compact
@@ -27,10 +31,6 @@ class Pokemon
 
   def hasMultipleItemAbility?
     abilities.any? { |abil_id| GameData::Ability.get(abil_id).is_multiple_item_ability? && abil_id != :STICKYFINGERS }
-  end
-
-  def has_main_ability?
-    !species_abilities.has?(ability_id)
   end
 end
 
