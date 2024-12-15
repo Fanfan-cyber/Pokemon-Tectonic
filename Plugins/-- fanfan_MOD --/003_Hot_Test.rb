@@ -5,9 +5,8 @@ module Input
 
   def self.update
     hot_test_update
-    if triggerex?(:H) && $DEBUG
+    if MInput.hot_reloaded? && $DEBUG #triggerex?(:H)
       HotTest.load_refresh
-    #elsif triggerex?(:L) && $DEBUG
       #pbMapInterpreter.execute_script("HotTest.load_refresh")
     end
   end

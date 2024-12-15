@@ -42,7 +42,9 @@ module MInput
     :extra_move_1? => [:NUMPAD1, :NUM1, :N1, :ONE],
     :extra_move_2? => [:NUMPAD2, :NUM2, :N2, :TWO],
     :extra_move_3? => [:NUMPAD3, :NUM3, :N3, :THREE],
-    :extra_move_4? => [:NUMPAD4, :NUM4, :N4, :FOUR]
+    :extra_move_4? => [:NUMPAD4, :NUM4, :N4, :FOUR],
+
+    :hot_reloaded? => :HOME,
   }
 
   def self.RepeatCalls; @@RepeatCalls; end
