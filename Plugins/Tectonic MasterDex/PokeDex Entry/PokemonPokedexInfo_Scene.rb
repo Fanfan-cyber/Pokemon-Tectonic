@@ -297,7 +297,7 @@ sp.form) && !Settings::DEX_SHOWS_ALL_FORMS
         for i in @available
             next unless i[2] == @form
             fSpecies = GameData::Species.get_species_form(@species, i[2])
-            abilities = fSpecies.abilities
+            abilities = fSpecies.legalAbilities
             # ability 1
             abilityTextX = 30
             abilityIDLabelX = 380
