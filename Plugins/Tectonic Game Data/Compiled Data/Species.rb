@@ -480,12 +480,17 @@ module GameData
             return -1
         end
 
+        def new_abilities
+            abils = SPECIES_ABILITY_SEQUENCE[[@species, @form]] || []
+            abils.reject! { |abil| !GameData::Ability.exists?(abil) }
+            abils
+        end
+
         def legalAbilities
-            new_abil = SPECIES_ABILITY_SEQUENCE[[@species, @form]] || []
             legalAbilities = []
             legalAbilities.concat(@abilities)
             legalAbilities.concat(@hidden_abilities)
-            legalAbilities.concat(new_abil)
+            legalAbilities.concat(new_abilities)
             legalAbilities.uniq!
             legalAbilities.compact!
             return legalAbilities.last(2)
