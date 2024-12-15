@@ -481,7 +481,7 @@ module GameData
         end
 
         def legalAbilities
-            new_abil = NEW_ABILITY_SEQUENCE[[@species, @form]] || []
+            new_abil = SPECIES_ABILITY_SEQUENCE[[@species, @form]] || []
             legalAbilities = []
             legalAbilities.concat(@abilities)
             legalAbilities.concat(@hidden_abilities)
