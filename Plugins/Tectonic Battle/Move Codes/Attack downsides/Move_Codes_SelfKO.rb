@@ -31,7 +31,7 @@ class PokeBattle_Move_UserFaintsExplosive < PokeBattle_Move
             @battle.pbHideAbilitySplash(user) if unbreakable
             if user.hasActiveAbility?(:PERENNIALPAYLOAD, true)
                 @battle.pbShowAbilitySplash(user, :PERENNIALPAYLOAD)
-                healing_turn = 4
+                healing_turn = 6
                 @battle.pbDisplay(_INTL("{1} will revive in {2} turns!", user.pbThis, healing_turn))
                 if user.pbOwnSide.effectActive?(:PerennialPayload)
                     user.pbOwnSide.effects[:PerennialPayload][user.pokemonIndex] = healing_turn + 1
