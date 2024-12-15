@@ -6,8 +6,8 @@ class Hash
 
   # 选择哈希中的一个或者多个键值对
   def choose(*keys)
-    items.flatten!
-    select { |key, _value| keys.has?(key) }
+    flattened_keys = keys.flatten
+    select { |key, _value| flattened_keys.has?(key) }
   end
 
   # 将所有键设置为某一个值

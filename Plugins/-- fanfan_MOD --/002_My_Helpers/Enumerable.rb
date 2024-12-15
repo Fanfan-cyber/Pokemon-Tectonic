@@ -6,7 +6,6 @@ module Enumerable
 
   # 从数组或者哈希中删除一个或者多个元素或者键值对
   def remove(*items)
-    items.flatten!
-    items.each { |item| delete(item) }
+    items.flatten.each { |item| delete(item) }
   end
 end

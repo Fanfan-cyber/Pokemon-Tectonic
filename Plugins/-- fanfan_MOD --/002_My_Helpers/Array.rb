@@ -27,22 +27,22 @@ class Array
 
   # 向数组末尾添加一个或者多个可重复或者不可重复的元素
   def add(*elements, ignore: true)
-    elements.flatten!
+    flatten_elements = elements.flatten
     if ignore
-      concat(elements)
+      concat(flatten_elements)
     else
-      elements.each { |element| self << element if !has?(element) }
+      flatten_elements.each { |element| self << element if !has?(element) }
     end
     self
   end
 
   # 向数组开头添加一个或者多个可重复或者不可重复的元素
   def add_to_start(*elements, ignore: true)
-    elements.flatten!
+    flatten_elements = elements.flatten
     if ignore
-      elements.reverse_each { |element| unshift(element) }
+      flatten_elements.reverse_each { |element| unshift(element) }
     else
-      elements.reverse_each { |element| unshift(element) if !has?(element) }
+      flatten_elements.reverse_each { |element| unshift(element) if !has?(element) }
     end
     self
   end
