@@ -17,18 +17,10 @@ GameData::BattleEffect.register_effect(:Battler, {
         healMessage = _INTL("The ring of water restored {1}'s HP!", battler.pbThis(true))
         battler.applyFractionalHealing(fraction, customMessage: healMessage)
     end,
-})
-
-GameData::BattleEffect.register_effect(:Battler, {
-    :id => :Attract,
-    :real_name => "Attract",
-    :type => :Position,
-    :others_lose_track => true,
-    :is_mental => true,
-    :swaps_with_battlers => true,
-    :apply_proc => proc do |battle, battler, _value|
-        battle.pbDisplay(_INTL("{1} fell in love!", battler.pbThis))
-    end,
+    :stay_in_rating_proc => proc do |battle, battler, value, stay_in_rating|
+        stay_in_rating += 15
+        next stay_in_rating
+    end
 })
 
 GameData::BattleEffect.register_effect(:Battler, {
@@ -123,22 +115,6 @@ GameData::BattleEffect.register_effect(:Battler, {
 })
 
 GameData::BattleEffect.register_effect(:Battler, {
-    :id => :Confusion,
-    :real_name => "Confusion Turns",
-    :type => :Integer,
-    :baton_passed => true,
-    :is_mental => true,
-    :apply_proc => proc do |battle, battler, _value|
-        battle.pbCommonAnimation("Confusion", battler)
-        battle.pbDisplay(_INTL("{1} became confused! It will hit itself with its own Attack!", battler.pbThis))
-    end,
-    :disable_proc => proc do |battle, battler|
-        battle.pbDisplay(_INTL("{1} snapped out of its confusion.", battler.pbThis))
-    end,
-    :sub_effects => [:ConfusionChance],
-})
-
-GameData::BattleEffect.register_effect(:Battler, {
     :id => :Counter,
     :real_name => "Counter Damage",
     :type => :Integer,
@@ -180,6 +156,10 @@ GameData::BattleEffect.register_effect(:Battler, {
             battler.applyFractionalDamage(CURSE_DAMAGE_FRACTION, false)
         end
     end,
+    :stay_in_rating_proc => proc do |battle, battler, value, stay_in_rating|
+        stay_in_rating -= 25
+        next stay_in_rating
+    end
 })
 
 GameData::BattleEffect.register_effect(:Battler, {
@@ -360,7 +340,7 @@ GameData::BattleEffect.register_effect(:Battler, {
 })
 
 GameData::BattleEffect.register_effect(:Battler, {
-    :id => :GastroAcid,
+    :id => :AbilitySupressed,
     :real_name => "Ability Surpressed",
     :baton_passed => true,
     :pass_value_proc => proc do |battler, value|
@@ -1339,6 +1319,10 @@ GameData::BattleEffect.register_effect(:Battler, {
     :apply_proc => proc do |battle, battler, _value|
         battle.pbDisplay(_INTL("{1} became drowsy!", battler.pbThis))
     end,
+    :stay_in_rating_proc => proc do |battle, battler, value, stay_in_rating|
+        stay_in_rating -= 25
+        next stay_in_rating
+    end
 })
 
 GameData::BattleEffect.register_effect(:Battler, {
@@ -2085,6 +2069,37 @@ GameData::BattleEffect.register_effect(:Battler, {
     :disable_proc => proc do |battle, battler|
         raise _INTL("Last Gasp was disabled somehow.")
     end,
+})
+
+GameData::BattleEffect.register_effect(:Battler, {
+    :id => :OmnipresentReceiver,
+    :real_name => "Omnipresent Receiver",
+    :resets_eor => true,
+    :id => :Jinxed,
+    :real_name => "Jinxed",
+    :baton_passed => true,
+    :avatars_purge => true,
+    :apply_proc => proc do |battle, battler, _value|
+        battle.pbDisplay(_INTL("{1} is jinxed!", battler.pbThis))
+    end,
+    :stay_in_rating_proc => proc do |battle, battler, value, stay_in_rating|
+        stay_in_rating -= 20
+        next stay_in_rating
+    end
+})
+
+GameData::BattleEffect.register_effect(:Battler, {
+    :id => :Fracture,
+    :real_name => "Fractured",
+    :baton_passed => true,
+    :avatars_purge => true,
+    :apply_proc => proc do |battle, battler, _value|
+        battle.pbDisplay(_INTL("{1} is fractured!", battler.pbThis))
+    end,
+    :stay_in_rating_proc => proc do |battle, battler, value, stay_in_rating|
+        stay_in_rating -= 20
+        next stay_in_rating
+    end
 })
 
 GameData::BattleEffect.register_effect(:Battler, {
