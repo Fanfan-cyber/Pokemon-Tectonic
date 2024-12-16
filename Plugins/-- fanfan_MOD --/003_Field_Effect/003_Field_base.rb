@@ -23,7 +23,7 @@ class PokeBattle_Battle::Field_base < PokeBattle_Battle::Field
     :EOR_field_battle
     :EOR_field_battler
     :move_priority_change
-    :move_second_type
+    :move_second_type_on_calc
     :nature_power_change
     :no_charging
     :secret_power_effect
