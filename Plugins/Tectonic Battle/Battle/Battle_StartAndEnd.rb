@@ -461,15 +461,13 @@ class PokeBattle_Battle
             PBDebug.logonerr { pbStartOfRoundPhase }
             break if @decision > 0
 
-#=================================================================
-            # Calculate if there is a pre phase
+            # Calculate if there is a pre switch phase
             if has_pre_switch_phase?
                 PBDebug.logonerr { pbExtraCommandPhase(true) }
                 break if @decision > 0
                 PBDebug.logonerr { pbPreSwitchPhase }
                 break if @decision > 0
             end
-#=================================================================
 
             @commandPhasesThisRound = 0
 
@@ -551,6 +549,11 @@ class PokeBattle_Battle
             end
         end
         pbEndOfBattle(ableBeforeFight)
+    end
+
+    def has_pre_switch_phase?
+        eachBattler { |b| return b if b.has_pre_free_switch? }
+        return false
     end
 
     def pbStartOfRoundPhase
