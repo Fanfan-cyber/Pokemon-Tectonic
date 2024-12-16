@@ -9,10 +9,10 @@ class Integer
 end
 
 class PokeBattle_AI
-    def pbEnemyShouldWithdraw?(idxBattler)
+    def pbEnemyShouldWithdraw?(idxBattler, is_pre_switch = false)
         return false if @battleArena
         return battlePalaceWithdraw?(idxBattler) if @battleArena
-        chosenPartyIndex = pbDetermineSwitch(idxBattler)
+        chosenPartyIndex = pbDetermineSwitch(idxBattler, is_pre_switch)
         if chosenPartyIndex >= 0
             @battle.pbRegisterSwitch(idxBattler, chosenPartyIndex)
             return true
@@ -80,7 +80,7 @@ class PokeBattle_AI
         return false
     end
 
-    def pbDetermineSwitch(idxBattler)
+    def pbDetermineSwitch(idxBattler, is_pre_switch = false)
         battler = @battle.battlers[idxBattler]
         owner = @battle.pbGetOwnerFromBattlerIndex(idxBattler)
 
@@ -116,7 +116,7 @@ class PokeBattle_AI
 
         # Determine who to swap into if at all
         PBDebug.log("[AI SWITCH] #{battler.pbThis} (#{battler.index}) is trying to find a switch. Staying in is rated: #{stayInRating}.")
-        list = pbGetPartyWithSwapRatings(idxBattler,urgency)
+        list = pbGetPartyWithSwapRatings(idxBattler, is_pre_switch, urgency)
         listSwapOutCandidates(battler, list)
 
         # Only considers swapping into pokemon whose rating would be at least a +30 upgrade

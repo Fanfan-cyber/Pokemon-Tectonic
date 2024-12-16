@@ -461,6 +461,16 @@ class PokeBattle_Battle
             PBDebug.logonerr { pbStartOfRoundPhase }
             break if @decision > 0
 
+#=================================================================
+            # Calculate if there is a pre phase
+            if has_pre_switch_phase?
+                PBDebug.logonerr { pbExtraCommandPhase(true) }
+                break if @decision > 0
+                PBDebug.logonerr { pbPreSwitchPhase }
+                break if @decision > 0
+            end
+#=================================================================
+
             @commandPhasesThisRound = 0
 
             resetMoveUsageState

@@ -299,7 +299,7 @@ class PokeBattle_Battle
         end
     end
 
-    def pbExtraCommandPhase
+    def pbExtraCommandPhase(is_pre_switch = false)
         @scene.pbBeginCommandPhase
         # Reset choices if commands can be shown
         @battlers.each_with_index do |b, i|
@@ -313,9 +313,9 @@ class PokeBattle_Battle
             end
         end
         # Choose actions for the round (AI first, then player)
-        pbCommandPhaseLoop(false) # AI chooses their actions
+        pbCommandPhaseLoop(false, is_pre_switch) # AI chooses their actions
         return if @decision != 0 # Battle ended, stop choosing actions
-        pbCommandPhaseLoop(true) # Player chooses their actions
+        pbCommandPhaseLoop(true, is_pre_switch) # Player chooses their actions
     end
 
     def chooseAutoTesting(idxBattler)
@@ -391,7 +391,7 @@ class PokeBattle_Battle
         updateTribeCounts
     end
 
-    def pbCommandPhaseLoop(isPlayer)
+    def pbCommandPhaseLoop(isPlayer, is_pre_switch = false)
         # NOTE: Doing some things (e.g. running, throwing a Poké Ball) takes up all
         #       your actions in a round.
 
@@ -437,6 +437,7 @@ class PokeBattle_Battle
             break if idxBattler >= @battlers.length
             battler = @battlers[idxBattler]
             next if battler.nil?
+            next if is_pre_switch && !battler.has_pre_free_switch?
             next if pbOwnedByPlayer?(idxBattler) != isPlayer
             next if @commandPhasesThisRound > battler.extraMovesPerTurn
             next if @choices[idxBattler][0] != :None # Action is forced, can't choose one
@@ -459,7 +460,7 @@ class PokeBattle_Battle
                 end
 
                 # Have the AI choose an action
-                @battleAI.pbDefaultChooseEnemyCommand(idxBattler)
+                @battleAI.pbDefaultChooseEnemyCommand(idxBattler, is_pre_switch)
 
                 # Go to the next battler
                 next
@@ -478,6 +479,10 @@ class PokeBattle_Battle
                 cmd = pbCommandMenu(idxBattler, actioned.length == 1)
                 case cmd
                 when 0    # Fight
+                    if is_pre_switch
+                        break if pbDisplayConfirmSerious(_INTL("You only can Switch, do you want to skip it?"))
+                        next
+                    end
                     break if pbFightMenu(idxBattler)
                 when 1    # Dex
                     chooseDexTarget(@battlers[idxBattler])

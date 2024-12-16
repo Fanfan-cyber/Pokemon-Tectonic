@@ -232,4 +232,27 @@ class PokeBattle_Battle
             battler.pbProcessTurn(@choices[battler.index])
         end
     end
+
+    def pbPreSwitchPhase
+        @scene.pbBeginAttackPhase
+        PBDebug.log("")
+        # Calculate move order for this round
+        pbCalculatePriority(true)
+        # Perform actions
+        return if attackPhaseNonMoveActions
+    end
+end
+
+class PokeBattle_Battle
+    def has_pre_switch_phase?
+      eachBattler { |b| return b if b.has_pre_free_switch? }
+      return false
+    end
+end
+
+class PokeBattle_Battler
+    def has_pre_free_switch?
+        #return true if !pbOwnedByPlayer?
+        return false
+    end
 end

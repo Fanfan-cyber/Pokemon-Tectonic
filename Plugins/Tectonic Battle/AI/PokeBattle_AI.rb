@@ -40,7 +40,7 @@ class PokeBattle_AI
     #=============================================================================
     # Choose an action
     #=============================================================================
-    def pbDefaultChooseEnemyCommand(idxBattler)
+    def pbDefaultChooseEnemyCommand(idxBattler, is_pre_switch = false)
         return if @battle.pbAutoFightMenu(idxBattler) # Battle palace shenanigans
         battler = @battle.battlers[idxBattler]
 
@@ -49,7 +49,8 @@ class PokeBattle_AI
         elsif @battle.wildBattle? && @battle.opposes?(idxBattler) # Checks for opposing because it could be an partner trainer's pokemon
             pbChooseMovesWild(idxBattler)
         else
-            return if !battler.effectActive?(:AutoPilot) && pbEnemyShouldWithdraw?(idxBattler)
+            return if !battler.effectActive?(:AutoPilot) && pbEnemyShouldWithdraw?(idxBattler, is_pre_switch)
+            return if is_pre_switch
             defensiveMatchupRating,killInfoArray = worstDefensiveMatchupAgainstActiveFoes(battler)
             bestMoveChoices,killInfo = pbGetBestTrainerMoveChoices(battler, killInfoArray: killInfoArray)
             pbChooseMovesTrainer(idxBattler, bestMoveChoices)
