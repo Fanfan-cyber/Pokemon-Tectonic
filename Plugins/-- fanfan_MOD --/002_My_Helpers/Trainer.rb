@@ -47,9 +47,9 @@ class Trainer
   end
 
   # 随机获取一只队伍里的精灵
-  def party_random_pkmn(able = true, clone = false)
+  def party_random_pkmn(able = true, pkmn_clone = false)
     pkmn = able ? able_party.sample : pokemon_party.sample
-    clone ? pkmn.deep_clone : pkmn
+    pkmn_clone ? pkmn.clone_pkmn : pkmn
   end
 
   # 获取队伍中所有精灵携带的物品

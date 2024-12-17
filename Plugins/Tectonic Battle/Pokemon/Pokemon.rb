@@ -1433,6 +1433,12 @@ class Pokemon
         return ret
     end
 
+    def clone_pkmn
+        ret = Marshal.load(Marshal.dump(self))
+        ret.regeneratePersonalID
+        ret
+    end
+
     # Creates a new Pokémon object.
     # @param species [Symbol, String, Integer] Pokémon species
     # @param level [Integer] Pokémon level
