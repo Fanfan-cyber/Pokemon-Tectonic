@@ -28,7 +28,7 @@ module AbilityDex
   def self.abilityDexMainDirectory
     {_INTL("Ability Canon")    => [_INTL("Abilities that GF made."), :abilityCanon],
      _INTL("Ability New")      => [_INTL("Abilities that is new in Pokémon Tectonic."), :abilityNew],
-     _INTL("Ability Fanfan")      => [_INTL("Abilities that made by Fanfan."), :abilityFanfan],
+     _INTL("Ability Fanfan")   => [_INTL("Abilities that made by Fanfan."), :abilityFanfan],
      _INTL("Ability Primeval") => [_INTL("Abilities that Avatars possess only."), :abilityPrimeval],
      _INTL("Ability Cut")      => [_INTL("Abilities that have been cut."), :abilityCut], }
   end
