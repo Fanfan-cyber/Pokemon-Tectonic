@@ -19,13 +19,13 @@ def export_script
 end
 
 # 导出Plugin的代码到txt
-def export_plugin
-  TA.write_all_plugins_in_txt
+def export_plugin(encrypted = false)
+  TA.write_all_plugins_in_txt(encrypted)
 end
 
 # 导出Plugin的代码
-def export_plugin_ex
-  TA.write_all_plugins
+def export_plugin_ex(encrypted = false)
+  TA.write_all_plugins(encrypted)
 end
 
 # 检查队伍是否有携带重复物品

@@ -47,11 +47,16 @@ module TA
   end
 
   # 导出Plugin的代码到txt
-  def self.write_all_plugins_in_txt
+  def self.write_all_plugins_in_txt(encrypted = false)
     path = "Outputs/"
     Dir.mkdir(path) rescue nil
 
-    plugin_scripts = load_data("Data/PluginScripts.rxdata")
+    if encrypted
+      encrypted_data = File.read("Data/PluginScripts.rxdata")
+      plugin_scripts = Marshal.restore(Zlib::Inflate.inflate(encrypted_data.unpack("m")[0]))
+    else
+      plugin_scripts = load_data("Data/PluginScripts.rxdata")
+    end
 
     File.open("#{path}Plugin_Scripts.txt", "wb") { |file|
       plugin_scripts.each do |plugin|
@@ -73,10 +78,16 @@ module TA
   @@script_counter = 1
 
   # 导出Plugin的代码
-  def self.write_all_plugins
+  def self.write_all_plugins(encrypted = false)
     path = "Outputs/"
     Dir.mkdir(path) rescue nil
-    plugin_scripts = load_data("Data/PluginScripts.rxdata")
+    
+    if encrypted
+      encrypted_data = File.read("Data/PluginScripts.rxdata")
+      plugin_scripts = Marshal.restore(Zlib::Inflate.inflate(encrypted_data.unpack("m")[0]))
+    else
+      plugin_scripts = load_data("Data/PluginScripts.rxdata")
+    end
 
     plugin_scripts.each do |plugin|
       plugin_name = plugin[0].gsub("/", "_").gsub(":", "_").gsub("：", "_").gsub(" ", "_")
