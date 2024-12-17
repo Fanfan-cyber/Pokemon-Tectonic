@@ -16,6 +16,7 @@ module HotTest
   FILENAME = './Test_Content.rb'
   def self.load_refresh
     begin
+      Dir["./Test/**/*.rb"].each { |file| load File.expand_path(file) }
       load FILENAME
       pbMessage(_INTL("Reloaded successfully!"))
     rescue LoadError
