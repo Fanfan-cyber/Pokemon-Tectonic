@@ -461,17 +461,38 @@ class PokeBattle_Battle
             PBDebug.logonerr { pbStartOfRoundPhase }
             break if @decision > 0
 
-            # Calculate if there is a pre switch phase
+            @commandPhasesThisRound = 0
+
+            resetMoveUsageState
+
+            # Calculate if there is a Pre Switch phase
             if has_pre_switch_phase?
+                echoln("Pre Switch phase begins.")
                 PBDebug.logonerr { pbExtraCommandPhase(true) }
                 break if @decision > 0
                 PBDebug.logonerr { pbPreSwitchPhase }
                 break if @decision > 0
+            else
+                echoln("No Pre Switch phase needed.")
             end
-
-            @commandPhasesThisRound = 0
-
-            resetMoveUsageState
+            # Calculate how many extra pre phases to add
+            @commandPrePhasesThisRound = 1
+            numExtraPrePhasesThisTurn = 0
+            eachBattler do |b|
+                echoln("#{b.pbThis} gets #{b.extraPreMovesPerTurn} extra pre moves this turn.")
+                numExtraPrePhasesThisTurn = b.extraPreMovesPerTurn if b.extraPreMovesPerTurn > numExtraPrePhasesThisTurn
+            end
+            numExtraPrePhasesThisTurn.times do |i|
+                echoln("Extra Pre phase #{i + 1} begins.")
+                PBDebug.logonerr { pbExtraCommandPhase }
+                break if @decision > 0
+                @commandPrePhasesThisRound += 1
+                PBDebug.logonerr { pbExtraAttackPhase }
+                break if @decision > 0
+                @battlers.each { |b| b.lastRoundMoved = -1 if b }
+                resetMoveUsageState
+            end
+            @commandPrePhasesThisRound = 0
 
             # Command phase
             PBDebug.logonerr { pbCommandPhase }

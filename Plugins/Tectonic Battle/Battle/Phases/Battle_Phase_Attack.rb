@@ -228,7 +228,8 @@ class PokeBattle_Battle
         pbPriority.each do |battler|
             next if battler.fainted?
             next unless @choices[battler.index][0] == :UseMove
-            next if @commandPhasesThisRound - 1 > battler.extraMovesPerTurn
+            next if @commandPhasesThisRound - 1 > battler.extraMovesPerTurn ||
+                 @commandPrePhasesThisRound - 1 > battler.extraPreMovesPerTurn
             battler.pbProcessTurn(@choices[battler.index])
         end
     end
@@ -239,6 +240,6 @@ class PokeBattle_Battle
         # Calculate move order for this round
         pbCalculatePriority(true)
         # Perform actions
-        return if attackPhaseNonMoveActions
+        attackPhaseNonMoveActions
     end
 end

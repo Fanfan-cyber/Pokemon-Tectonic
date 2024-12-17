@@ -91,6 +91,16 @@ class PokeBattle_Battler
         refreshDataBox
     end
 
+    def has_pre_free_switch?
+        return false
+    end
+
+    def extraPreMovesPerTurn
+        return 0 if @pokemon.nil?
+        val = 0
+        return val
+    end
+
     def extraMovesPerTurn
         return 0 if @pokemon.nil?
         #return 0 if effectActive?(:SwitchedIn)

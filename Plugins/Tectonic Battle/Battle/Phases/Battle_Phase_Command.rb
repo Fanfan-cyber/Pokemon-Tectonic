@@ -439,7 +439,8 @@ class PokeBattle_Battle
             next if battler.nil?
             next if is_pre_switch && !battler.has_pre_free_switch?
             next if pbOwnedByPlayer?(idxBattler) != isPlayer
-            next if @commandPhasesThisRound > battler.extraMovesPerTurn
+            next if @commandPhasesThisRound > battler.extraMovesPerTurn ||
+                 @commandPrePhasesThisRound > battler.extraPreMovesPerTurn
             next if @choices[idxBattler][0] != :None # Action is forced, can't choose one
             next unless pbCanShowCommands?(idxBattler) # Action is forced, can't choose one
             # AI controls this battler

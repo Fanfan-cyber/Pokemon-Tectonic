@@ -31,10 +31,4 @@ class PokeBattle_Battler
   def should_apply_adaptive_ai_v1?(target, move)
     hasActiveAbility?(:ADAPTIVEAIV1) && move.damagingMove?
   end
-
-  # 检查精灵是否可以在Pre Switch阶段行动
-  def has_pre_free_switch?
-    #return true if !pbOwnedByPlayer?
-    return false
-  end
 end
