@@ -66,6 +66,6 @@ CDKey.register_other_key([:nocustomabil, :customabil], false)
 #CDKey.register_other_key([:copymonagain, :nocopymon], false)
 
 CDKey.register_pkmn_key(:hyena1, :PIKACHU)
-
 CDKey.register_pkmn_key(:psyduck10, :PORYGON, 10)
+
 CDKey.register_item_key(:pokeball5, :POKEBALL, 5)
