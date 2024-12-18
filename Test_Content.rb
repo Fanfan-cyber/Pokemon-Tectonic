@@ -1,6 +1,11 @@
 # This is a newly created file.
-require './gems/chinese_pinyin-1.1.0/lib/chinese_pinyin'
+class Array
+  def sort_by_chs
+    sort_by { |s| Pinyin.t(s, tone: true) }
+  end
+end
+
 def ddd
-  aaa = Pinyin.t("爱而不得", tone: true)
-  pbMessage(_INTL("Failed to reload: An error occurred.\n({1})", aaa))
+  aaa = ["傻B", "白痴", "笨蛋", "猪头", "天才"]
+  pbMessage(_INTL("{1}", aaa.sort_by_chs.join(" ")))
 end

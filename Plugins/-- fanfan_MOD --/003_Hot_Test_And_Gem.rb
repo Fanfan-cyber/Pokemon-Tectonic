@@ -1,3 +1,11 @@
+module LoadGem
+  def self.load_gem
+    require './gems/chinese_pinyin-1.1.0/lib/chinese_pinyin'
+  end
+end
+
+LoadGem.load_gem
+
 module Input
   class << self
     alias hot_test_update update
@@ -26,15 +34,13 @@ module HotTest
         end
         load FILENAME
         pbMessage(_INTL("File was not found, but it has been created and loaded."))
-      rescue StandardError => e
+      rescue => e
         pbMessage(_INTL("Failed to create or load the file.\n({1})", e.message))
       ensure
       end
-    rescue StandardError => e
+    rescue => e
       pbMessage(_INTL("Failed to reload: An error occurred.\n({1})", e.message))
     ensure
     end
   end
 end
-
-require './gems/chinese_pinyin-1.1.0/lib/chinese_pinyin'
