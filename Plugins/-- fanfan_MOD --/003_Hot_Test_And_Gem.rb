@@ -36,3 +36,5 @@ module HotTest
     end
   end
 end
+
+require './gems/chinese_pinyin-1.1.0/lib/chinese_pinyin'
