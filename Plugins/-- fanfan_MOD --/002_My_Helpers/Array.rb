@@ -207,6 +207,11 @@ class Array
     end
   end
 
+  # 按照中文拼音排列数组
+  def sort_by_chs
+    sort_by { |s| Pinyin.t(s, tone: true) }
+  end
+
   # 按照中文排列特性数组
   def sort_abil!
     sort_by! do |abil|
