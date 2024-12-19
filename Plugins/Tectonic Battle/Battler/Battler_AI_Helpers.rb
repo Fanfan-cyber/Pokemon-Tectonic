@@ -148,6 +148,22 @@ class PokeBattle_Battler
         return false
     end
 
+    def hasSoundMove?
+        eachAIKnownMove do |m|
+            next unless m.soundMove?
+            return true
+        end
+        return false
+    end
+
+    def hasBladeMove?
+        eachAIKnownMove do |m|
+            next unless m.bladeMove?
+            return true
+        end
+        return false
+    end
+
     def hasStatusPunishMove?
         return pbHasMoveFunction?("DoubleDamageTargetStatused") # Hex, Cruelty
     end
