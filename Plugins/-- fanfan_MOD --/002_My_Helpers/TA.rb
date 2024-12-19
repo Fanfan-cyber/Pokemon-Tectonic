@@ -26,6 +26,21 @@ module TA
     file.close
   end
 
+  # 可允许被随机获得的精灵的精灵池
+  BLACK_LIST = []
+  @@pkmn_pool = []
+  def self.all_available_species
+    return @@pkmn_pool if !@@pkmn_pool.empty?
+    GameData::Species.each do |species|
+      next if BLACK_LIST.include?(species)
+      next if species.mega_stone
+      next if species.flags.include?("Legendary")
+      next if species.flags.include?("Test")
+      @@pkmn_pool.push(species.id)
+    end
+    @@pkmn_pool
+  end
+
   # 导出Script的代码到txt
   def self.write_all_scripts_in_txt
     path = "Outputs/"
