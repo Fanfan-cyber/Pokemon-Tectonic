@@ -654,8 +654,9 @@ class PokeBattle_Battler
         # Trigger abilities
         pbEffectsOnSwitchIn
     end
-
-    def transformSpecies(newSpecies)
+    
+    def transformSpecies(newSpecies, newForm = nil)
+        self.form = newForm if newForm
         @battle.scene.pbChangePokemon(self, @pokemon, newSpecies)
 
         newSpeciesData = GameData::Species.get(newSpecies)
@@ -663,7 +664,7 @@ class PokeBattle_Battler
         applyEffect(:TransformSpecies, newSpecies)
         pbChangeTypes(newSpecies)
         refreshDataBox
-        @battle.pbDisplay(_INTL("{1} transformed into a {2}!", pbThis, newSpeciesData.name))
+        @battle.pbDisplay(_INTL("{1} transformed into {2}!", pbThis, newSpeciesData.name))
         legalAbilities = newSpeciesData.legalAbilities
 
         lost_abilities = abilities - legalAbilities
@@ -714,7 +715,7 @@ class PokeBattle_Battler
         @addedAbilities.clear
 
         # @addedAbilities.concat(@pokemon.extraAbilities)
-        @addedAbilities.concat(@ability_ids - @pokemon.species_abilities)
+        @addedAbilities.concat(@ability_ids)
 
         # Check for "has all legal ability" effects
         if initialization
