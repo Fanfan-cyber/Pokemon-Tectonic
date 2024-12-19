@@ -164,6 +164,30 @@ class PokeBattle_Battler
         return false
     end
 
+    def hasMoveType?(check_type)
+        eachAIKnownMove do |m|
+            next unless m.type == check_type
+            return true
+        end
+        return false
+    end
+
+    def hasKickMove?
+        eachAIKnownMove do |m|
+            next unless m.kickingMove?
+            return true
+        end
+        return false
+    end
+
+    def hasRecoilMove?
+        eachAIKnownMove do |m|
+            next unless m.recoilMove?
+            return true
+        end
+        return false
+    end
+
     def hasStatusPunishMove?
         return pbHasMoveFunction?("DoubleDamageTargetStatused") # Hex, Cruelty
     end
@@ -334,38 +358,6 @@ class PokeBattle_Battler
             next unless @battle.pbCanChooseMove?(index, i, false)
             target_data = move.pbTarget(self)
             next unless target_data.id == :AllNearOthers
-            return true
-        end
-        return false
-    end
-
-    def hasKickMove?
-        eachAIKnownMove do |m|
-            next unless m.kickingMove?
-            return true
-        end
-        return false
-    end
-
-    def hasRecoilMove?
-        eachAIKnownMove do |m|
-            next unless m.recoilMove?
-            return true
-        end
-        return false
-    end
-
-    def hasSoundMove?
-        eachAIKnownMove do |m|
-            next unless m.soundMove?
-            return true
-        end
-        return false
-    end
-
-    def hasMoveType?(check_type)
-        eachAIKnownMove do |m|
-            next unless m.type == check_type
             return true
         end
         return false
