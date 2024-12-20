@@ -3,11 +3,7 @@ BattleHandlers::AbilityOnSwitchIn.add(:SWIFTSTOMPS,
   proc { |ability, battler, battle, aiCheck|
     next 0 if aiCheck
     battle.pbShowAbilitySplash(battler, ability)
-    species = GameData::Species.keys.sample
-    species_data = GameData::Species.get(species)
-    battler.transformSpecies(species, species_data.form)
-    battler.abilities << :SWIFTSTOMPS
-    battler.addedAbilities << :SWIFTSTOMPS
+    battler.transformSpeciesRandom(ability)
     battle.pbHideAbilitySplash(battler)
   }
 )
@@ -15,33 +11,35 @@ BattleHandlers::AbilityOnSwitchIn.add(:SWIFTSTOMPS,
 BattleHandlers::EOREffectAbility.add(:SWIFTSTOMPS,
   proc { |ability, battler, battle|
     battle.pbShowAbilitySplash(battler, ability)
-    species = GameData::Species.keys.sample
-    battler.transformSpecies(species)
-    battler.abilities << :SWIFTSTOMPS
-    battler.addedAbilities << :SWIFTSTOMPS
+    battler.transformSpeciesRandom(ability)
     battle.pbHideAbilitySplash(battler)
   }
 )
 
 class PokeBattle_Battler
-  def transformSpecies(newSpecies, newForm = nil)
-    self.form = newForm if newForm
-    @battle.scene.pbChangePokemon(self, @pokemon, newSpecies)
+  def transformSpeciesRandom(ability_id = nil)
+    species_list = GameData::Species.keys.shuffle
+    species_data = nil
+    species_list.each do |species|
+      species_data = GameData::Species.get(species)
+      next if self.form == species_data.form
+      break
+    end
+    species_id = species_data.id
 
-    newSpeciesData = GameData::Species.get(newSpecies)
+    @battle.scene.pbChangePokemon(self, @pokemon, species_id)
+
     applyEffect(:Transform)
-    applyEffect(:TransformSpecies, newSpecies)
-    pbChangeTypes(newSpecies)
+    applyEffect(:TransformSpecies, species_id)
+    pbChangeTypes(species_id)
     refreshDataBox
-    @battle.pbDisplay(_INTL("{1} transformed into {2}!", pbThis, newSpeciesData.name))
-    legalAbilities = newSpeciesData.legalAbilities
+    @battle.pbDisplay(_INTL("{1} transformed into {2}!", pbThis, species_data.name))
 
-    lost_abilities = abilities - legalAbilities
-    setAbility(legalAbilities)
-    # newAbility = legalAbilities[@pokemon.ability_index] || legalAbilities[0]
-    # replaceAbility(newAbility) unless hasAbility?(newAbility)
+    old_abilities = abilities.clone
+    setAbility(species_data.legalAbilities)
+    lost_abilities = old_abilities - abilities
 
-    newStats = @pokemon.getCalculatedStats(newSpecies)
+    newStats = @pokemon.getCalculatedStats(species_id)
     @attack  = newStats[:ATTACK]
     @defense = newStats[:DEFENSE]
     @spatk   = newStats[:SPECIAL_ATTACK]
@@ -52,5 +50,10 @@ class PokeBattle_Battler
     pbOnAbilitiesLost(lost_abilities)
     # Trigger abilities
     pbEffectsOnSwitchIn
+    if ability_id
+      @ability_ids << ability_id
+      @addedAbilities << ability_id
+    end
+    @battle.ai_update_abilities(self, abils: @ability_ids)
   end
 end

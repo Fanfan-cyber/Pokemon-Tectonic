@@ -90,21 +90,26 @@ module GameData
       end
   
       def self.sprite_bitmap_from_pokemon(pkmn, back = false, species = nil)
-        species = pkmn.species if !species
+        if species
+          form = GameData::Species.get(species).form
+        else
+          species = pkmn.species
+          form = pkmn.form
+        end
         species = GameData::Species.get(species).species   # Just to be sure it's a symbol
         return self.egg_sprite_bitmap(species, pkmn.form) if pkmn.egg?
         
         if pkmn.boss?
           if back
-            ret = GameData::Avatar.back_sprite_bitmap(species, pkmn.bossVersion, pkmn.form, pkmn.bossType)
+            ret = GameData::Avatar.back_sprite_bitmap(species, pkmn.bossVersion, form, pkmn.bossType)
           else
-            ret = GameData::Avatar.front_sprite_bitmap(species, pkmn.bossVersion, pkmn.form, pkmn.bossType)
+            ret = GameData::Avatar.front_sprite_bitmap(species, pkmn.bossVersion, form, pkmn.bossType)
           end
         else
           if back
-            ret = self.back_sprite_bitmap(species, pkmn.form, pkmn.gender, pkmn.shiny?, false)
+            ret = self.back_sprite_bitmap(species, form, pkmn.gender, pkmn.shiny?, false)
           else
-            ret = self.front_sprite_bitmap(species, pkmn.form, pkmn.gender, pkmn.shiny?, false)
+            ret = self.front_sprite_bitmap(species, form, pkmn.gender, pkmn.shiny?, false)
           end
         end
         
