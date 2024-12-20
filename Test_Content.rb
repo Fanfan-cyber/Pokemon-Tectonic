@@ -22,3 +22,35 @@ BattleHandlers::EOREffectAbility.add(:SWIFTSTOMPS,
     battle.pbHideAbilitySplash(battler)
   }
 )
+
+class PokeBattle_Battler
+  def transformSpecies(newSpecies, newForm = nil)
+    self.form = newForm if newForm
+    @battle.scene.pbChangePokemon(self, @pokemon, newSpecies)
+
+    newSpeciesData = GameData::Species.get(newSpecies)
+    applyEffect(:Transform)
+    applyEffect(:TransformSpecies, newSpecies)
+    pbChangeTypes(newSpecies)
+    refreshDataBox
+    @battle.pbDisplay(_INTL("{1} transformed into {2}!", pbThis, newSpeciesData.name))
+    legalAbilities = newSpeciesData.legalAbilities
+
+    lost_abilities = abilities - legalAbilities
+    setAbility(legalAbilities)
+    # newAbility = legalAbilities[@pokemon.ability_index] || legalAbilities[0]
+    # replaceAbility(newAbility) unless hasAbility?(newAbility)
+
+    newStats = @pokemon.getCalculatedStats(newSpecies)
+    @attack  = newStats[:ATTACK]
+    @defense = newStats[:DEFENSE]
+    @spatk   = newStats[:SPECIAL_ATTACK]
+    @spdef   = newStats[:SPECIAL_DEFENSE]
+    @speed   = newStats[:SPEED]
+    disableBaseStatEffects
+
+    pbOnAbilitiesLost(lost_abilities)
+    # Trigger abilities
+    pbEffectsOnSwitchIn
+  end
+end

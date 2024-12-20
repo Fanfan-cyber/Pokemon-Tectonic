@@ -655,8 +655,7 @@ class PokeBattle_Battler
         pbEffectsOnSwitchIn
     end
     
-    def transformSpecies(newSpecies, newForm = nil)
-        self.form = newForm if newForm
+    def transformSpecies(newSpecies)
         @battle.scene.pbChangePokemon(self, @pokemon, newSpecies)
 
         newSpeciesData = GameData::Species.get(newSpecies)
