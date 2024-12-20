@@ -50,6 +50,7 @@ class PokeBattle_Battler
     pbOnAbilitiesLost(lost_abilities)
     # Trigger abilities
     pbEffectsOnSwitchIn
+
     if ability_id
       @ability_ids << ability_id
       @addedAbilities << ability_id

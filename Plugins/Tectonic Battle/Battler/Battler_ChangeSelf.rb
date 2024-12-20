@@ -656,17 +656,18 @@ class PokeBattle_Battler
     end
     
     def transformSpecies(newSpecies)
+        newSpeciesData = GameData::Species.get(newSpecies)
+        newSpecies = newSpeciesData.id
+
         @battle.scene.pbChangePokemon(self, @pokemon, newSpecies)
 
-        newSpeciesData = GameData::Species.get(newSpecies)
         applyEffect(:Transform)
         applyEffect(:TransformSpecies, newSpecies)
         pbChangeTypes(newSpecies)
         refreshDataBox
         @battle.pbDisplay(_INTL("{1} transformed into {2}!", pbThis, newSpeciesData.name))
-        legalAbilities = newSpeciesData.legalAbilities
 
-        lost_abilities = abilities - legalAbilities
+        lost_abilities = abilities - newSpeciesData.legalAbilities
         setAbility(legalAbilities)
         # newAbility = legalAbilities[@pokemon.ability_index] || legalAbilities[0]
         # replaceAbility(newAbility) unless hasAbility?(newAbility)
