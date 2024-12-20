@@ -36,7 +36,8 @@ end
 
 class PokeBattle_Battle
   def ai_update_abilities(battler = nil, abils: nil)
-    if battler&.pbOwnedByPlayer?
+    return if battler && !battler.pbOwnedByPlayer?
+    if battler
       abils = [abils].compact if !abils.is_a?(Array)
       @knownAbilities[battler.unique_id] = []
       @knownAbilities[battler.unique_id].concat(abils)
