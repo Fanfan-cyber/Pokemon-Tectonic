@@ -251,6 +251,10 @@ module GameData
             return pbGetMessage(MessageTypes::Entries, @id_number)
         end
 
+        def base_stat_total
+            return @base_stats.values.sum
+        end
+
         def apply_metrics_to_sprite(sprite, index, shadow = false)
             metrics_data = GameData::SpeciesMetrics.get_species_form(@species, @form)
             metrics_data.apply_metrics_to_sprite(sprite, index, shadow)
