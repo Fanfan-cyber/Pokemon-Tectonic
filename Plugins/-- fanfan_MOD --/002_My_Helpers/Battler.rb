@@ -25,6 +25,7 @@ class PokeBattle_Battler
     species_list.each do |species|
       species_data = GameData::Species.get(species)
       next if species_data.base_stat_total < self.species_data.base_stat_total
+      next if species == self.species_data.id
       break
     end
     species_id = species_data.id
