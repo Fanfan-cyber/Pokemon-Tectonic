@@ -16,6 +16,60 @@ class PokeBattle_Battler
     @battle.pbParty(@index).all?(&:fainted?)
   end
 
+  # 将精灵变为其他随机的一只精灵
+  def transformSpeciesRandom(abil_id = nil, stats = false)
+    @battle.pbShowAbilitySplash(self, abil_id) if abil_id
+
+    species_list = GameData::Species.keys.shuffle
+    species_data = nil
+    species_list.each do |species|
+      species_data = GameData::Species.get(species)
+      next if species_data.base_stat_total < self.species_data.base_stat_total
+      break
+    end
+    species_id = species_data.id
+
+    @battle.scene.pbChangePokemon(self, @pokemon, species_id)
+
+    applyEffect(:Transform)
+    applyEffect(:TransformSpecies, species_id)
+    pbChangeTypes(species_id)
+    refreshDataBox
+    @battle.pbDisplay(_INTL("{1} transformed into {2}!", pbThis, species_data.name))
+
+    old_abilities = abilities.clone
+    setAbility(species_data.legalAbilities)
+    lost_abilities = old_abilities - abilities
+
+    newStats = @pokemon.getCalculatedStats(species_id)
+    if stats
+      @attack  = newStats[:ATTACK] if newStats[:ATTACK] > @attack
+      @defense = newStats[:DEFENSE] if newStats[:DEFENSE] > @defense
+      @spatk   = newStats[:SPECIAL_ATTACK] if newStats[:SPECIAL_ATTACK] > @spatk
+      @spdef   = newStats[:SPECIAL_DEFENSE] if newStats[:SPECIAL_DEFENSE] > @spdef
+      @speed   = newStats[:SPEED] if newStats[:SPEED] > @speed
+    else
+      @attack  = newStats[:ATTACK]
+      @defense = newStats[:DEFENSE]
+      @spatk   = newStats[:SPECIAL_ATTACK]
+      @spdef   = newStats[:SPECIAL_DEFENSE]
+      @speed   = newStats[:SPEED]
+    end
+    disableBaseStatEffects
+
+    pbOnAbilitiesLost(lost_abilities)
+    # Trigger abilities
+    pbEffectsOnSwitchIn
+
+    if abil_id
+      @ability_ids << abil_id
+      @addedAbilities << abil_id
+      @battle.pbHideAbilitySplash(self)
+    end
+
+    @battle.ai_update_abilities(self, abils: @ability_ids)
+  end
+
   def should_apply_adaptive_ai_v4?(target, move)
     hasActiveAbility?(:ADAPTIVEAIV4) && move.damagingMove?
   end
