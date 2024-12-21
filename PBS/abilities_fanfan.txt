@@ -19,3 +19,7 @@ Description = Adapts the move's type to maximize damage against the target.
 [OMNIPRESENT] # 0673
 Name = Omnipresent
 Description = Can switch out of battle without wasting a turn.
+#-------------------------------
+[SEVENTYTWOTRANSFORMATIONS] # 0674
+Name = 72 Transformations
+Description = Changes to a random Pokémon at the end of each turn.
