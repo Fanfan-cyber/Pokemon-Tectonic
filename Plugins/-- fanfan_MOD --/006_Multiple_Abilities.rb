@@ -65,13 +65,15 @@ class PokemonSummary_Scene
       abil_name = GameData::Ability.try_get(abil)&.name || _INTL("(Unimplemented)")
       commands << _INTL("Ability: {1}", abil_name)
     end
-    index = pbShowCommands(commands)
-    return if index < 0
-    abil = abil_list[index]
-    abil_obj = GameData::Ability.try_get(abil)
-    abil_des = abil_obj&.description || _INTL("This ability has not been implemented.")
-    abil_des = abil_obj&.details if abil_obj.has_details?
-    pbMessage(abil_des)
+    loop do
+      index = pbShowCommands(commands)
+      return if index < 0
+      abil = abil_list[index]
+      abil_obj = GameData::Ability.try_get(abil)
+      abil_des = abil_obj&.description || _INTL("This ability has not been implemented.")
+      abil_des = abil_obj&.details if abil_obj.has_details?
+      pbMessage(abil_des)
+    end
   end
 end
 

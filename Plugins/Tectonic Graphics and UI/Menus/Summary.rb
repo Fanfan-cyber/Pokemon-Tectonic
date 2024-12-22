@@ -1542,13 +1542,15 @@ class PokemonSummary_Scene
             item_name = GameData::Item.try_get(item)&.name || _INTL("(Unimplemented)")
             commands << _INTL("Item: {1}", item_name)
         end
-        index = pbShowCommands(commands)
-        return if index < 0
-        item = item_list[index]
-        item_obj = GameData::Item.try_get(item)
-        item_des = item_obj&.description || _INTL("This Item has not been implemented.")
-        #item_des = item_obj&.details if item_obj.has_details?
-        pbMessage(item_des)
+        loop do
+            index = pbShowCommands(commands)
+            return if index < 0
+            item = item_list[index]
+            item_obj = GameData::Item.try_get(item)
+            item_des = item_obj&.description || _INTL("This Item has not been implemented.")
+            #item_des = item_obj&.details if item_obj.has_details?
+            pbMessage(item_des)
+        end
     end
 end
 
