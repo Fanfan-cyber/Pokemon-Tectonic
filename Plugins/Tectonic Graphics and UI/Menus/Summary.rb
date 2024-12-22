@@ -1474,6 +1474,10 @@ class PokemonSummary_Scene
                     pbPlayDecisionSE
                     pbAbilitiesSelection
                     dorefresh = true
+                elsif @page == 2
+                    pbPlayDecisionSE
+                    pbDisplayItemsDesc
+                    dorefresh = true
                 elsif @battle.nil?
                     pbPlayDecisionSE
                     #dorefresh = pbOptions
@@ -1523,6 +1527,28 @@ class PokemonSummary_Scene
             drawPage(@page) if dorefresh
         end
         return @partyindex
+    end
+
+    def pbDisplayItemsDesc
+        commands = []
+        battler = nil
+        @battle&.eachSameSideBattler { |b| battler = b if b.pokemonIndex == @partyindex }
+        item_list = battler ? battler.items : @pokemon.items
+        if item_list.empty?
+            pbMessage(_INTL("No items been given."))
+            return
+        end
+        item_list.each do |item|
+            item_name = GameData::Item.try_get(item)&.name || _INTL("(Unimplemented)")
+            commands << _INTL("Item: {1}", item_name)
+        end
+        index = pbShowCommands(commands)
+        return if index < 0
+        item = item_list[index]
+        item_obj = GameData::Item.try_get(item)
+        item_des = item_obj&.description || _INTL("This Item has not been implemented.")
+        #item_des = item_obj&.details if item_obj.has_details?
+        pbMessage(item_des)
     end
 end
 
