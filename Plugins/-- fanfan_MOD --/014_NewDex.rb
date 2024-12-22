@@ -95,3 +95,6 @@ module AbilityDex
     @@abilis_cut
   end
 end
+
+module ItemDex
+end
