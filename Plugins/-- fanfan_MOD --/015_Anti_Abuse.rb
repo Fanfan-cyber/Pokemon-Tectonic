@@ -15,6 +15,8 @@ end
 
 module AntiAbuse
   DEBUG_PASSWORD  = "12138"
+  GAME_OFFICIAL   = %w[宝可饭堂 pokefans 地震啦！！！ 493645591]
+  OFFICIAL_SITE   = "https://bbs.pokefans.xyz/threads/598/"
   @@debug_control = false
 
   def self.apply_anti_abuse
@@ -28,6 +30,17 @@ module AntiAbuse
     password = pbEnterText(_INTL("Enter Debug Password."), 0, 32)
     exit if password != DEBUG_PASSWORD
     @@debug_control = true
+  end
+
+  def self.check_claim
+    if pbConfirmMessageSerious(_INTL("Did you download the game from the official source?"))
+      pbMessage(_INTL("Please enter the forum where you downloaded the game. (Website or QQ group)"))
+      forum = pbEnterText(_INTL("Enter the right source."), 0, 32)
+      exit if !GAME_OFFICIAL.include?(forum)
+      return
+    end
+    System.launch(OFFICIAL_SITE) if pbConfirmMessage(_INTL("Would you like to re-download the game from the official source?"))
+    exit
   end
 
   def self.kill_windows_shit

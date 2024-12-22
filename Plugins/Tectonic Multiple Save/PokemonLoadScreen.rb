@@ -131,6 +131,7 @@ class PokemonLoadScreen
                 end
             when cmd_new_game
                 @scene.pbEndScene
+                AntiAbuse.check_claim
                 Game.start_new
                 return
             when cmd_achievements
