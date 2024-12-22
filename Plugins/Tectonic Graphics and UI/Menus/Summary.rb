@@ -1535,7 +1535,7 @@ class PokemonSummary_Scene
         @battle&.eachSameSideBattler { |b| battler = b if b.pokemonIndex == @partyindex }
         item_list = battler ? battler.items : @pokemon.items
         if item_list.empty?
-            pbMessage(_INTL("No items been given."))
+            pbMessage(_INTL("No items be given."))
             return
         end
         item_list.each do |item|
