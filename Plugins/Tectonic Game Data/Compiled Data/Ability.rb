@@ -212,7 +212,7 @@ module GameData
 
         # @return [String] the translated description of this ability
         def description
-            return pbGetMessageFromHash(MessageTypes::AbilityDescs, @real_description)
+            return ABILITY_DATA[@id]&.[](:desc) || pbGetMessageFromHash(MessageTypes::AbilityDescs, @real_description)
         end
 
         def has_description?
@@ -220,7 +220,7 @@ module GameData
         end
 
         def details
-            return pbGetMessageFromHash(MessageTypes::AbilityDescs, @detail_description)
+            return ABILITY_DATA[@id]&.[](:details) || pbGetMessageFromHash(MessageTypes::AbilityDescs, @detail_description)
         end
 
         def has_details?

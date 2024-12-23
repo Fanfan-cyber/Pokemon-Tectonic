@@ -1,3 +1,3 @@
 SPECIES_ABILITY_SEQUENCE = {
-  [:MEW, 0] => %i[]
+  #[:MEW, 0] => %i[ABOVEITALL],
 }
