@@ -59,6 +59,7 @@ class PokemonDocumentationMenu < PokemonPauseMenu
     cmdMasterDex   = -1
     cmdMoveDex     = -1
     cmdAbilityDex  = -1
+    cmdItemDex     = -1
     cmdBattleGuide = -1
     cmdDimensionD  = -1
     cmdTimeCapsule = -1
@@ -69,6 +70,7 @@ class PokemonDocumentationMenu < PokemonPauseMenu
     infoCommands[cmdMasterDex   = infoCommands.length] = _INTL("MasterDex")
     infoCommands[cmdMoveDex     = infoCommands.length] = _INTL("MoveDex")
     infoCommands[cmdAbilityDex  = infoCommands.length] = _INTL("AbilityDex")
+    infoCommands[cmdItemDex     = infoCommands.length] = _INTL("ItemDex")
     infoCommands[cmdBattleGuide = infoCommands.length] = _INTL("Battle Guide")
     infoCommands[cmdDimensionD  = infoCommands.length] = _INTL("Dimension D")
     infoCommands[cmdTimeCapsule = infoCommands.length] = _INTL("Time Capsule")
@@ -88,6 +90,8 @@ class PokemonDocumentationMenu < PokemonPauseMenu
           openMoveDex
       elsif cmdAbilityDex > -1 && infoCommand == cmdAbilityDex
           AbilityDex.open_abilitydex
+      elsif cmdItemDex > -1 && infoCommand == cmdItemDex
+          ItemDex.open_itemdex
       elsif cmdBattleGuide > -1 && infoCommand == cmdBattleGuide
           showBattleGuide
       elsif cmdDimensionD > -1 && infoCommand == cmdDimensionD
@@ -122,11 +126,13 @@ class PokemonDocumentationMenu < PokemonPauseMenu
     cmdMasterDex   = -1
     cmdMoveDex     = -1
     cmdAbilityDex  = -1
+    cmdItemDex     = -1
     cmdBattleGuide = -1
     infoCommands = []
     infoCommands[cmdMasterDex   = infoCommands.length] = _INTL("MasterDex")
     infoCommands[cmdMoveDex     = infoCommands.length] = _INTL("MoveDex")
     infoCommands[cmdAbilityDex  = infoCommands.length] = _INTL("AbilityDex")
+    infoCommands[cmdItemDex     = infoCommands.length] = _INTL("ItemDex")
     infoCommands[cmdBattleGuide = infoCommands.length] = _INTL("Battle Guide")
     infoCommands.push(_INTL("Cancel"))
     loop do
@@ -141,6 +147,8 @@ class PokemonDocumentationMenu < PokemonPauseMenu
           openMoveDex
       elsif cmdAbilityDex > -1 && infoCommand == cmdAbilityDex
           AbilityDex.open_abilitydex
+      elsif cmdItemDex > -1 && infoCommand == cmdItemDex
+          ItemDex.open_itemdex
       elsif cmdBattleGuide > -1 && infoCommand == cmdBattleGuide
           showBattleGuide
       else

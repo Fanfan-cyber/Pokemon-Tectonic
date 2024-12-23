@@ -10,9 +10,9 @@ module AbilityDex
     loop do
       id, listIndex = pbListScreenGuide(_INTL("AbilityDex (Search: Z)"), BattleGuideLister.new(abilityDexMainHash, listIndex))
       break if id.nil?
-      sectionLabel = abilityDexMainDirectory.keys[listIndex]
+      sectionLabel   = abilityDexMainDirectory.keys[listIndex]
       directoryEntry = abilityDexMainDirectory.values[listIndex]
-      guideListHash = send directoryEntry[1]
+      guideListHash  = send directoryEntry[1]
       pbListScreenGuide(+ sectionLabel, BattleGuideLister.new(guideListHash), false)
 	  end
   end
@@ -97,4 +97,76 @@ module AbilityDex
 end
 
 module ItemDex
+  @@held_item  = nil
+  @@berry_item = nil
+  @@gem_item   = nil
+
+  def self.open_itemdex
+    listIndex = 0
+    loop do
+      id, listIndex = pbListScreenGuide(_INTL("ItemDex (Search: Z)"), BattleGuideLister.new(itemDexMainHash, listIndex))
+      break if id.nil?
+      sectionLabel   = itemDexMainDirectory.keys[listIndex]
+      directoryEntry = itemDexMainDirectory.values[listIndex]
+      guideListHash  = send directoryEntry[1]
+      pbListScreenGuide(+ sectionLabel, BattleGuideLister.new(guideListHash), false)
+	  end
+  end
+
+  def self.itemDexMainHash
+    mainHash = {}
+    itemDexMainDirectory.each do |key, value|
+      mainHash[key] = value[0]
+    end
+    mainHash
+  end
+
+  def self.itemDexMainDirectory
+    { _INTL("Held Item") => [_INTL("The whole items that can be held."), :heldItem],
+      _INTL("Berry")     => [_INTL("Berries that can be held."), :berryItem],
+      _INTL("Gem")       => [_INTL("Gems that can be held."), :gemItem], }
+  end
+
+  def self.heldItem
+    return @@held_item if @@held_item
+    @@held_item = {}
+    count = 0
+    GameData::Item.each do |item|
+      next if item.cut
+      next if item.super
+      next if !item.can_hold?
+      next if item.is_mega_stone?
+      count += 1
+      @@held_item["#{count} #{item.name}"] = "#{item.description}"
+    end
+    @@held_item
+  end
+
+  def self.berryItem
+    return @@berry_item if @@berry_item
+    @@berry_item = {}
+    count = 0
+    GameData::Item.each do |item|
+      next if item.cut
+      next if item.super
+      next if !item.is_berry?
+      count += 1
+      @@berry_item["#{count} #{item.name}"] = "#{item.description}"
+    end
+    @@berry_item
+  end
+
+  def self.gemItem
+    return @@gem_item if @@gem_item
+    @@gem_item = {}
+    count = 0
+    GameData::Item.each do |item|
+      next if item.cut
+      next if item.super
+      next if !item.is_gem?
+      count += 1
+      @@gem_item["#{count} #{item.name}"] = "#{item.description}"
+    end
+    @@gem_item
+  end
 end
