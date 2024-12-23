@@ -677,9 +677,9 @@ Moves2 = WOODHAMMER,BRICKBREAK
 #-------------------------------
 [SAURENAID]
 Ability = ARCTICARIETTE
-Item = WATERBALLOON
 Moves1 = HYPERVOICE,SURF,PRIMEVALCURSEDOATH
 Moves2 = EBBFLOW,SHADOWBALL
+Item = WATERBALLOON
 #-------------------------------
 [DARKRAI]
 Ability = STYGIANNIGHT
