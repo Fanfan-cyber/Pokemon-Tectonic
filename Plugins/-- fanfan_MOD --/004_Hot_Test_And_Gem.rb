@@ -1,6 +1,6 @@
 module LoadGem
   def self.load_gem
-    require './gems/chinese_pinyin-1.1.0/lib/chinese_pinyin'
+    require './Data/gems/chinese_pinyin-1.1.0/lib/chinese_pinyin'
   end
 end
 
