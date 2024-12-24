@@ -2113,6 +2113,12 @@ GameData::BattleEffect.register_effect(:Battler, {
 })
 
 GameData::BattleEffect.register_effect(:Battler, {
+    :id => :RefugeDamageReduction,
+    :real_name => "Refuge",
+    :resets_battlers_eot => true,
+})
+
+GameData::BattleEffect.register_effect(:Battler, {
     :id => :OmnipresentReceiver,
     :real_name => "Omnipresent Receiver",
     :resets_eor => true,
