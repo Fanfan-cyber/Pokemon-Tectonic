@@ -97,9 +97,12 @@ module AbilityDex
 end
 
 module ItemDex
-  @@held_item  = nil
-  @@berry_item = nil
-  @@gem_item   = nil
+  @@machine_item  = nil
+  @@held_item     = nil
+  @@berry_item    = nil
+  @@clothing_item = nil
+  @@gem_item      = nil
+  @@herb_item     = nil
 
   def self.open_itemdex
     listIndex = 0
@@ -122,9 +125,26 @@ module ItemDex
   end
 
   def self.itemDexMainDirectory
-    { _INTL("Held Item") => [_INTL("The whole items that can be held."), :heldItem],
-      _INTL("Berry")     => [_INTL("Berries that can be held."), :berryItem],
-      _INTL("Gem")       => [_INTL("Gems that can be held."), :gemItem], }
+    { _INTL("TM Machine") => [_INTL("The whole TMs."), :machineItem],
+      _INTL("Held Item")  => [_INTL("The whole items that can be held."), :heldItem],
+      _INTL("Berry")      => [_INTL("Berries that can be held."), :berryItem],
+      _INTL("Clothing")   => [_INTL("Clothes that can be held."), :clothingItem],
+      _INTL("Gem")        => [_INTL("Gems that can be held."), :gemItem],
+      _INTL("Herb")       => [_INTL("Herbs that can be held."), :herbItem], }
+  end
+
+  def self.machineItem
+    return @@machine_item if @@machine_item
+    @@machine_item = {}
+    count = 0
+    GameData::Item.each do |item|
+      next if item.cut
+      next if item.super
+      next if !item.is_machine?
+      count += 1
+      @@machine_item["#{count} #{item.name}"] = "#{item.description}"
+    end
+    @@machine_item
   end
 
   def self.heldItem
@@ -156,6 +176,20 @@ module ItemDex
     @@berry_item
   end
 
+  def self.clothingItem
+    return @@clothing_item if @@clothing_item
+    @@clothing_item = {}
+    count = 0
+    GameData::Item.each do |item|
+      next if item.cut
+      next if item.super
+      next if !item.is_clothing?
+      count += 1
+      @@clothing_item["#{count} #{item.name}"] = "#{item.description}"
+    end
+    @@clothing_item
+  end
+
   def self.gemItem
     return @@gem_item if @@gem_item
     @@gem_item = {}
@@ -168,5 +202,19 @@ module ItemDex
       @@gem_item["#{count} #{item.name}"] = "#{item.description}"
     end
     @@gem_item
+  end
+
+  def self.herbItem
+    return @@herb_item if @@herb_item
+    @@herb_item = {}
+    count = 0
+    GameData::Item.each do |item|
+      next if item.cut
+      next if item.super
+      next if !item.is_herb?
+      count += 1
+      @@herb_item["#{count} #{item.name}"] = "#{item.description}"
+    end
+    @@herb_item
   end
 end
