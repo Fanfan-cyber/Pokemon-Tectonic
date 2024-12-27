@@ -713,18 +713,6 @@ def getCurseEffectScore(user, target)
 end
 
 def getFractureEffectScore(user, target)
-    return 0 unless target.hasDamagingAttack?
-    score = 100
-    if user.battle.pbCanSwitch?(target.index)
-	    score += getForceOutEffectScore(user, target) # Encouraging target to switch might be benefical
-        score = score * 0.70
-    else
-        score += statStepsValueScore(target)
-	end
-    return score
-end
-
-def getFractureEffectScore(user, target)
     score = 50
     score += 30 if user.hasDamagingAttack?
     score += 30 if user.canChooseProtect?

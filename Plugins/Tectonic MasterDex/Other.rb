@@ -40,7 +40,6 @@ def openPartyDexScreen(pokemon,index)
 		openSingleDexScreen(ret)
 	end
 end
-alias speciesEntry openSingleDexScreen
 
 def unlockDex(showMessage = false)
 	$Trainer.has_pokedex = true

@@ -1432,8 +1432,15 @@ class PokemonSummary_Scene
         # Draw ability name and description
         ability = @pokemon.ability
         if ability
-            textpos.push([ability.name, 138, 278, 0, MessageConfig::DARK_TEXT_MAIN_COLOR, MessageConfig::DARK_TEXT_SHADOW_COLOR])
-            abilityDescription = addDescriptionKeywordHighlighting(ability.description)
+            if @pokemon.has_main_ability?
+                ability_name = ability.name
+                ability_desc = $Trainer.get_ta(:customabil) ? ability.description : _INTL("Main Ability is disabled.")
+            else
+                ability_name = _INTL("None")
+                ability_desc = _INTL("{1} doesn't have Main Ability.", @pokemon.name)
+            end
+            textpos.push([_INTL("{1} (USE: Check more)", ability_name), 138, 278, 0, MessageConfig::DARK_TEXT_MAIN_COLOR, MessageConfig::DARK_TEXT_SHADOW_COLOR])
+            abilityDescription = addDescriptionKeywordHighlighting(ability_desc)
             drawFormattedTextEx(overlay, 8, 320, Graphics.width - 12, abilityDescription, MessageConfig::DARK_TEXT_MAIN_COLOR, MessageConfig::DARK_TEXT_SHADOW_COLOR)
         end
         # Draw Pokémon's type icon(s)
