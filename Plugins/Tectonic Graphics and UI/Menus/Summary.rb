@@ -839,20 +839,23 @@ class PokemonSummary_Scene
         end
 
         # Draw ability name and description
-        abil = @pokemon.ability
-        if abil
+        ability = @pokemon.ability
+        if ability
             ability_base   = MessageConfig.pbDefaultTextMainColor
             ability_shadow = MessageConfig.pbDefaultTextShadowColor
+
             if @pokemon.has_main_ability?
-                abil_name = abil.name
-                abil_desc = $Trainer.get_ta(:customabil) ? abil.description : _INTL("Main Ability is disabled.")
+                ability_name = ability.name
+                ability_desc = $Trainer.get_ta(:customabil) ? ability.description : _INTL("Main Ability is disabled.")
             else
-                abil_name = _INTL("None")
-                abil_desc = _INTL("{1} doesn't have Main Ability.", @pokemon.name)
+                ability_name = _INTL("None")
+                ability_desc = _INTL("{1} doesn't have Main Ability.", @pokemon.name)
             end
             #textpos.push([ability.name, 138, 278, 0, ability_base, ability_shadow])
-            textpos.push([_INTL("{1} (USE: Check more)", abil_name), 138, 278, 0, ability_base, ability_shadow])
-            drawTextEx(overlay, 8, 320, Graphics.width, 2, abil_desc, ability_base, ability_shadow)
+            #drawTextEx(overlay, 8, 320, Graphics.width, 2, ability_desc, ability_base, ability_shadow)
+            textpos.push([_INTL("{1} (USE: Check more)", ability_name), 138, 278, 0, ability_base, ability_shadow])
+            abilityDescription = addDescriptionKeywordHighlighting(ability_desc)
+            drawFormattedTextEx(overlay, 8, 320, Graphics.width, abilityDescription, ability_base, ability_shadow)
         end
         # Draw all text
         pbDrawTextPositions(overlay, textpos)
@@ -1430,8 +1433,8 @@ class PokemonSummary_Scene
         ability = @pokemon.ability
         if ability
             textpos.push([ability.name, 138, 278, 0, MessageConfig::DARK_TEXT_MAIN_COLOR, MessageConfig::DARK_TEXT_SHADOW_COLOR])
-            drawTextEx(overlay, 8, 320, Graphics.width - 12, 2, ability.description, MessageConfig::DARK_TEXT_MAIN_COLOR,
-  MessageConfig::DARK_TEXT_SHADOW_COLOR)
+            abilityDescription = addDescriptionKeywordHighlighting(ability.description)
+            drawFormattedTextEx(overlay, 8, 320, Graphics.width - 12, abilityDescription, MessageConfig::DARK_TEXT_MAIN_COLOR, MessageConfig::DARK_TEXT_SHADOW_COLOR)
         end
         # Draw Pokémon's type icon(s)
         type1_number = GameData::Type.get(@pokemon.type1).id_number

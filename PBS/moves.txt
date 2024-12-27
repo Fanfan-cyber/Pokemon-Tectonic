@@ -5858,7 +5858,7 @@ TotalPP = 15
 Target = UserSide
 FunctionCode = StartWeakenDamageAgainstUserSideIfInHail5
 Flags = CanSnatch
-Description = This move reduces damage from attacks for five turns. This can be used only in a hailstorm.
+Description = This move reduces damage from attacks for five turns. This can be used only in hail.
 #-------------------------------
 [AVALANCHE]
 Name = Avalanche
@@ -7049,7 +7049,7 @@ EffectChance = 30
 Description = The user attacks the target by emitting steam. It has a 30% chance to dizzy.
 #-------------------------------
 [SWEETKISS]
-Name = Sweet
+Name = Sweet Kiss
 Type = FAIRY
 Category = Status
 Accuracy = 100
