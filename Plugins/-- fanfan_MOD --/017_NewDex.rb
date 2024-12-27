@@ -27,7 +27,7 @@ module AbilityDex
 
   def self.abilityDexMainDirectory
     {_INTL("Ability Canon")    => [_INTL("Abilities that GF made."), :abilityCanon],
-     _INTL("Ability New")      => [_INTL("Abilities that is new in Pokémon Tectonic."), :abilityNew],
+     _INTL("Ability New")      => [_INTL("Abilities that are new-made in Pokémon Tectonic."), :abilityNew],
      _INTL("Ability Fanfan")   => [_INTL("Abilities that made by Fanfan."), :abilityFanfan],
      _INTL("Ability Primeval") => [_INTL("Abilities that Avatars possess only."), :abilityPrimeval],
      _INTL("Ability Cut")      => [_INTL("Abilities that have been cut."), :abilityCut], }
@@ -38,9 +38,10 @@ module AbilityDex
     @@abilis_canon = {}
     count = 0
     GameData::Ability.each do |abil|
-      next if abil.cut || abil.tectonic_new
+      next if abil.cut || abil.tectonic_new || abil.primeval
+      next if abil.is_test?
       count += 1
-      @@abilis_canon["#{count} #{abil.name}"] = "#{abil.description}\n#{abil.details}"
+      @@abilis_canon["#{count} #{abil.name}"] = addDescriptionKeywordHighlighting("#{abil.description}\n#{abil.details}")
     end
     @@abilis_canon
   end
@@ -50,10 +51,10 @@ module AbilityDex
     @@abilis_new = {}
     count = 0
     GameData::Ability.each do |abil|
-      next if !abil.tectonic_new || abil.primeval || abil.cut
+      next if !abil.tectonic_new || abil.primeval || abil.cut || abil.file_path
       next if abil.is_test?
       count += 1
-      @@abilis_new["#{count} #{abil.name}"] = "#{abil.description}\n#{abil.details}"
+      @@abilis_new["#{count} #{abil.name}"] = addDescriptionKeywordHighlighting("#{abil.description}\n#{abil.details}")
     end
     @@abilis_new
   end
@@ -66,7 +67,7 @@ module AbilityDex
       next if !abil.file_path
       next if abil.is_test?
       count += 1
-      @@abilis_fanfan["#{count} #{abil.name}"] = "#{abil.description}\n#{abil.details}"
+      @@abilis_fanfan["#{count} #{abil.name}"] = addDescriptionKeywordHighlighting("#{abil.description}\n#{abil.details}")
     end
     @@abilis_fanfan
   end
@@ -77,8 +78,9 @@ module AbilityDex
     count = 0
     GameData::Ability.each do |abil|
       next if !abil.primeval
+      next if abil.is_test?
       count += 1
-      @@abilis_primeval["#{count} #{abil.name}"] = "#{abil.description}\n#{abil.details}"
+      @@abilis_primeval["#{count} #{abil.name}"] = addDescriptionKeywordHighlighting("#{abil.description}\n#{abil.details}")
     end
     @@abilis_primeval
   end
@@ -89,8 +91,9 @@ module AbilityDex
     count = 0
     GameData::Ability.each do |abil|
       next if !abil.cut
+      next if abil.is_test?
       count += 1
-      @@abilis_cut["#{count} #{abil.name}"] = "#{abil.description}\n#{abil.details}"
+      @@abilis_cut["#{count} #{abil.name}"] = addDescriptionKeywordHighlighting("#{abil.description}\n#{abil.details}")
     end
     @@abilis_cut
   end
@@ -142,7 +145,7 @@ module ItemDex
       next if item.super
       next if !item.is_machine?
       count += 1
-      @@machine_item["#{count} #{item.name}"] = "#{item.description}"
+      @@machine_item["#{count} #{item.name}"] = addDescriptionKeywordHighlighting(item.description)
     end
     @@machine_item
   end
@@ -157,7 +160,7 @@ module ItemDex
       next if !item.can_hold?
       next if item.is_mega_stone?
       count += 1
-      @@held_item["#{count} #{item.name}"] = "#{item.description}"
+      @@held_item["#{count} #{item.name}"] = addDescriptionKeywordHighlighting(item.description)
     end
     @@held_item
   end
@@ -171,7 +174,7 @@ module ItemDex
       next if item.super
       next if !item.is_berry?
       count += 1
-      @@berry_item["#{count} #{item.name}"] = "#{item.description}"
+      @@berry_item["#{count} #{item.name}"] = addDescriptionKeywordHighlighting(item.description)
     end
     @@berry_item
   end
@@ -185,7 +188,7 @@ module ItemDex
       next if item.super
       next if !item.is_clothing?
       count += 1
-      @@clothing_item["#{count} #{item.name}"] = "#{item.description}"
+      @@clothing_item["#{count} #{item.name}"] = addDescriptionKeywordHighlighting(item.description)
     end
     @@clothing_item
   end
@@ -199,7 +202,7 @@ module ItemDex
       next if item.super
       next if !item.is_gem?
       count += 1
-      @@gem_item["#{count} #{item.name}"] = "#{item.description}"
+      @@gem_item["#{count} #{item.name}"] = addDescriptionKeywordHighlighting(item.description)
     end
     @@gem_item
   end
@@ -213,7 +216,7 @@ module ItemDex
       next if item.super
       next if !item.is_herb?
       count += 1
-      @@herb_item["#{count} #{item.name}"] = "#{item.description}"
+      @@herb_item["#{count} #{item.name}"] = addDescriptionKeywordHighlighting(item.description)
     end
     @@herb_item
   end
