@@ -78,7 +78,7 @@ Description = Makes stat changes have an opposite effect.
 #-------------------------------
 [CORROSION] # 0019
 Name = Corrosion
-Description = Can poison the target even if it's a Steel or Poison type.
+Description = Can poison the target even if it's a Steel or Poison-type.
 #-------------------------------
 [COTTONDOWN] # 0020
 Name = Cotton Down
