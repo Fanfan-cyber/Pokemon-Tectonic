@@ -57,10 +57,16 @@ end
 class PokemonSummary_Scene
   def pbAbilitiesSelection
     commands = []
-    battler = nil
-    @battle&.eachSameSideBattler { |b| battler = b if b.pokemonIndex == @partyindex }
-    abil_list = battler ? battler.abilities : @pokemon.abilities
-    return if abil_list.empty?
+    abil_list = @pokemon.abilities
+    @battle&.eachSameSideBattler do |battler|
+      next if battler.pokemonIndex != @partyindex
+      abil_list = battler.abilities
+      break
+    end
+    if abil_list.empty?
+      pbMessage(_INTL("The Pokémon don't have any abilities."))
+      return
+    end
     abil_list.each do |abil|
       abil_name = GameData::Ability.try_get(abil)&.name || _INTL("(Unimplemented)")
       commands << _INTL("Ability: {1}", abil_name)
