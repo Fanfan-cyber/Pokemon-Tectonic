@@ -157,10 +157,16 @@ class PokeBattle_Battler
                 choices.each do |battlerCopying, abilitiesCopying|
                     @battle.pbDisplay(_INTL("{2}? {1} can be that, if it wishes.", pbThis, GameData::Species.get(battlerCopying.species).name))
                     echoln("Abilities that Pluripotence is copying: #{abilitiesCopying.to_s}")
+                    abils_name = []
                     abilitiesCopying.each do |legalAbility|
                         addAbility(legalAbility)
-                        @battle.pbDisplay(_INTL("{1} imitated the Ability {2}!", pbThis, getAbilityName(legalAbility)))
-                  end
+                        abils_name << getAbilityName(legalAbility)
+                    end
+                    if abilitiesCopying.length == 1
+                        @battle.pbDisplay(_INTL("{1} imitated the Ability {2}!", pbThis, abils_name[0]))
+                    else
+                        @battle.pbDisplay(_INTL("{1} imitated the abilities {2}!", pbThis, abils_name.quick_join))
+                    end
                 end
                 hideMyAbilitySplash
                 
