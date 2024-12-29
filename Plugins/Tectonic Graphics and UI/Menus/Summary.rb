@@ -1541,9 +1541,12 @@ class PokemonSummary_Scene
 
     def pbDisplayItemsDesc
         commands = []
-        battler = nil
-        @battle&.eachSameSideBattler { |b| battler = b if b.pokemonIndex == @partyindex }
-        item_list = battler ? battler.items : @pokemon.items
+        item_list = @pokemon.items
+        @battle&.eachSameSideBattler do |battler|
+            next if battler.pokemonIndex != @partyindex
+            item_list = battler.items
+            break
+        end
         if item_list.empty?
             pbMessage(_INTL("No items were given."))
             return
