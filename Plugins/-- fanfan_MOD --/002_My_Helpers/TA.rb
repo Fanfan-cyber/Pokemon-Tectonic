@@ -211,4 +211,15 @@ module TA
     col = color[key.upcase.to_sym] || color[:BLACK]
     Color.new(*col, opacity)
   end
+
+  # 应用正态分布获取随机数
+  def gaussian(mean, standard_deviation)
+    loop do
+      z = Math.sqrt(-2.0 * Math.log(rand)) * Math.cos(2.0 * Math::PI * rand)
+      random_number = mean + standard_deviation * z
+      if random_number >= mean - standard_deviation && random_number <= mean + standard_deviation
+        return random_number.round
+      end
+    end
+  end
 end
