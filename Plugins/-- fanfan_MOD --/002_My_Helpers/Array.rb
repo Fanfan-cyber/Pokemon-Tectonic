@@ -25,6 +25,11 @@ class Array
     length != uniq.length
   end
 
+  # 返回不包括最后n个元素的新数组
+  def drop_last(n = 1)
+    self[0..-(n + 1)]
+  end
+
   # 向数组末尾添加一个或者多个可重复或者不可重复的元素
   def add(*elements, ignore: true)
     flatten_elements = elements.flatten
@@ -45,6 +50,19 @@ class Array
       flatten_elements.reverse_each { |element| unshift(element) if !has?(element) }
     end
     self
+  end
+
+  # 随机删除数组中的元素
+  def delete_random(count = 1)
+    return self if empty? || count <= 0
+
+    deleted_elements = []
+    count.times do
+      index = rand(length)
+      deleted_elements << delete_at(index)
+    end
+
+    deleted_elements
   end
 
   # 交换数组中两个元素的位置
