@@ -206,7 +206,7 @@ Description = Normal-type moves become Electric-type and power up by 30%.
 #-------------------------------
 [GLUTTONY] # 0049
 Name = Gluttony
-Description = Eats pinch berries earlier than normal.
+Description = Will eat berries normally eaten at 25% HP (in a pinch) at 50% instead.
 #-------------------------------
 [GOOEY] # 0050
 Name = Gooey
@@ -542,7 +542,7 @@ Flags = Immutable
 #-------------------------------
 [SIMPLE] # 0127
 Name = Simple
-Description = Stat changes in the Pokemon are doubled.
+Description = Stat changes in the Pokémon are doubled.
 #-------------------------------
 [SKILLLINK] # 0128
 Name = Skill Link
