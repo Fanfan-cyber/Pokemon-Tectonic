@@ -347,6 +347,23 @@ class PokeBattle_Move
             multipliers[:final_damage_multiplier] *= stab
         end
 
+        # ROWE
+        offe = 0.0
+        user.ownerParty.each do |partyMember|
+            next unless partyMember
+            next if partyMember.personalID == user.personalID
+            next unless type && partyMember.hasType?(type)
+            offe += partyMember.mono_type? ? 0.1 : 0.05
+        end
+        defe = 0.0
+        target.ownerParty.each do |partyMember|
+            next unless partyMember
+            next if partyMember.personalID == target.personalID
+            next unless type && partyMember.hasType?(type)
+            defe += partyMember.mono_type? ? 0.1 : 0.05
+        end
+        multipliers[:base_damage_multiplier] *= 1.0 + offe - defe
+
         # Type effectiveness
         typeMod = target.typeMod(type,target,self,checkingForAI)
         effectiveness = @battle.typeEffectivenessMult(typeMod)
