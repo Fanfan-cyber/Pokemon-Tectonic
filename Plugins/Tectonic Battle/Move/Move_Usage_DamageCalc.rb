@@ -311,32 +311,34 @@ class PokeBattle_Move
         end
     end
 
-    def pbCalcTypeBasedDamageMultipliers(user,target,type,multipliers,checkingForAI=false)
-        stabActive = false
-        if user.shouldAbilityApply?(:IMPRESSIONABLE,checkingForAI)
-            anyPartyMemberHasType = false
+    def stabActive?(user, target, type, multipliers, checkingForAI = false)
+        return false if user.pbOwnedByPlayer? && @battle.curses.include?(:DULLED)
+        return false if @battle.pbCheckGlobalAbility(:SIGNALJAM)
+
+        if user.shouldAbilityApply?(:IMPRESSIONABLE, checkingForAI)
             user.ownerParty.each do |partyMember|
                 next unless partyMember
                 next if partyMember.personalID == user.personalID
                 next unless type && partyMember.hasType?(type)
-                anyPartyMemberHasType = true
-                break
+                return true
             end
-            stabActive = true if anyPartyMemberHasType
-        else
-            stabActive = true if type && user.pbHasType?(type)
-            if checkingForAI
-                stabActive = true if user.hasActiveAbilityAI?(%i[PROTEAN FREESTYLE])
-                stabActive = true if user.hasActiveAbilityAI?(:MUTABLE) && !user.effectActive?(:Mutated)
-                stabActive = true if user.hasActiveAbilityAI?(:SHAKYCODE) && @battle.eclipsed?
-            end
+            return false
         end
-        stabActive = false if user.pbOwnedByPlayer? && @battle.curses.include?(:DULLED)
-        stabActive = false if @battle.pbCheckGlobalAbility(:SIGNALJAM)
 
+        return true if type && user.pbHasType?(type)
+        if checkingForAI
+            return true if user.hasActiveAbilityAI?(%i[PROTEAN FREESTYLE])
+            return true if user.hasActiveAbilityAI?(:MUTABLE) && !user.effectActive?(:Mutated)
+            return true if user.hasActiveAbilityAI?(:SHAKYCODE) && @battle.eclipsed?
+        end
+
+        return false
+    end
+
+    def pbCalcTypeBasedDamageMultipliers(user,target,type,multipliers,checkingForAI=false)
         # STAB
-        if stabActive
-            stab = 1.5
+        if stabActive?(user, target, type, multipliers, checkingForAI)
+            stab = user.mono_type? ? 1.5 : 1.25
             if user.shouldAbilityApply?(:ADAPTED,checkingForAI)
                 stab *= 4.0/3.0
             elsif user.shouldAbilityApply?(:ULTRAADAPTED,checkingForAI)

@@ -16,6 +16,11 @@ class PokeBattle_Battler
     @battle.pbParty(@index).all?(&:fainted?)
   end
 
+  # 检查精灵是否是只有一种属性
+  def mono_type?
+    pbTypes.length < 2 
+  end
+
   # 将精灵变为其他随机的一只精灵
   def transformSpeciesRandom(abil_id = nil, stats = false)
     @battle.pbShowAbilitySplash(self, abil_id) if abil_id
