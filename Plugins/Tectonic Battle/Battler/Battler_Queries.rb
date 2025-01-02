@@ -677,7 +677,7 @@ class PokeBattle_Battler
         ret = baseDuration
         ret += 3 if shouldItemApply?(:LIGHTCLAY,aiCheck)
         ret += 6 if shouldItemApply?(:BRIGHTCLAY,aiCheck)
-        ret *= 2 if shouldAbilityApply?(:PLANARVEIL,aiCheck) && @battle.eclipsed?
+        ret += 2 if shouldAbilityApply?(:PLANARVEIL,aiCheck)
         return ret
     end
 
@@ -702,6 +702,11 @@ class PokeBattle_Battler
         raise _INTL("#{@name} isn't an avatar, but something is requesting its Phase Lower Health Bound!") unless boss?
         hpFraction = 1 - (@avatarPhase / avatarData.num_phases.to_f)
         return (@totalhp * hpFraction).floor
+    end
+
+    def avatarHealthPerPhase
+        raise _INTL("#{@name} isn't an avatar, but something is requesting its Health Per Phase!") unless boss?
+        return (@totalhp / avatarData.num_phases.to_f).ceil
     end
 
     #=============================================================================

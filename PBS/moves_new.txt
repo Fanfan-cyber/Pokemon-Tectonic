@@ -148,7 +148,7 @@ TotalPP = 4
 Target = User
 FunctionCode = RaiseUserDefSpDef2CurlsUp
 Flags = CanSnatch
-Description = The user curls up to conceal weak spots and raise both of its defensive stats.
+Description = The user curls up to conceal weak spots and raise both of its defensive stats by two steps.
 Animation = DEFENSECURL
 #-------------------------------
 [DAZZLE]
@@ -566,17 +566,6 @@ FunctionCode = AlwaysHits
 Flags = CanProtect,CanMirrorMove
 Description = A barrage of star-shaped rays are shot at the opposing team, never missing.
 Animation = SWIFT
-#-------------------------------
-[SWAGGER]
-Name = Swagger
-Type = NORMAL
-Category = Status
-Accuracy = 100
-TotalPP = 12
-Target = NearOther
-FunctionCode = RaiseTargetAtk3TargetHitsSelfPhysical
-Flags = CanProtect,CanMagicCoat,CanMirrorMove
-Description = The target's Attack stat is raised by three steps. It then hits itself in a rage.
 #-------------------------------
 [THIEVINGSPREE]
 Name = Thieving Spree
@@ -1266,7 +1255,7 @@ Category = Status
 Accuracy = 0
 TotalPP = 10
 Target = User
-FunctionCode = StartResetAllBattlersStatStepsEachRound5
+FunctionCode = StartGreyMist5
 Description = A Grey Mist covers the battlefield. For five turns, stats are reset at the end of each turn.
 Animation = MIST
 #-------------------------------
@@ -2316,16 +2305,6 @@ Target = NearAlly
 FunctionCode = RaiseTargetWorstThreeStats1
 Description = The user raises all of the target's attacking and defensive stats.
 Animation = AROMATICMIST
-#-------------------------------
-[HIVEMIND]
-Name = Hive Mind
-Type = BUG
-Category = Status
-Accuracy = 0
-TotalPP = 10
-Target = NearAlly
-FunctionCode = TargetUsesMoveInUserFirstSlot
-Description = The user makes its ally perform the move in the user's first slot.
 #-------------------------------
 [IRRITATE]
 Name = Irritate
@@ -4066,18 +4045,6 @@ Flags = CanSnatch
 Description = The user rests in a riverbed, restoring its HP by half of max, and forming an Aqua Ring around themselves, healing 10% HP per turn.
 Animation = REST
 #-------------------------------
-[SHELLTER]
-Name = Shellter
-Type = WATER
-Category = Status
-Accuracy = 0
-TotalPP = 4
-Target = User
-FunctionCode = RaiseUserDefSpDef2GainsShellArmor
-Flags = CanSnatch
-Description = The user withdraws its body into its hard shell, raising both defensive stats by two steps and gaining Shell Armor.
-Animation = WITHDRAW
-#-------------------------------
 [SILTSURGE]
 Name = Silt Surge
 Type = WATER
@@ -5470,6 +5437,18 @@ EffectChance = 10
 Description = The user grabs the target in a chilly embrace. It has a 10% chance to frostbite.
 Animation = ICEHAMMER
 #-------------------------------
+[DIAMONDDUST]
+Name = Diamond Dust
+Type = ICE
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = FoeSide
+FunctionCode = StartGreyMist5StartHail5
+Flags = CanMagicCoat
+Description = The user covers the field with an fog of ice crystals, summoning hail and creating grey mist for 5 turns.
+Animation = HAIL
+#-------------------------------
 [FRIGIDFLURRY]
 Name = Frigid Flurry
 Type = ICE
@@ -5749,17 +5728,17 @@ FunctionCode = ScalesWithLostHP
 Flags = CanProtect,CanMirrorMove
 Description = The user flips, flaps, fumbles, then flounders. It becomes more powerful the less HP the user has.
 #-------------------------------
-[SILVERSTORM]
-Name = Silver Storm
+[SNOWSPILL]
+Name = Snow Spill
 Type = ICE
-Category = Special
+Category = Physical
 Power = 50
 Accuracy = 100
 TotalPP = 10
 Target = NearFoe
 FunctionCode = StartHail8
 Flags = CanProtect,CanMirrorMove
-Description = The user creates a nascent ice storm, attacking and causing hail for eight turns.
+Description = The user makes the target to trip into a huge pile of snow, damaging them and summoning hail for eight turns.
 Animation = HAIL
 #-------------------------------
 [SNOWYSORROWS]
@@ -6130,10 +6109,22 @@ Power = 75
 Accuracy = 100
 TotalPP = 12
 Target = AllNearOthers
-FunctionCode = StartResetAllBattlersStatStepsEachRound5
+FunctionCode = StartGreyMist5
 Flags = CanProtect,CanMirrorMove
 Description = Darkness rolls over the field, damaging all other Pokémon and setting Grey Mist for 5 turns.
 Animation = GREYMIST
+#-------------------------------
+[BACKHAND]
+Name = Backhand
+Type = DARK
+Category = Status
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = RaiseTargetAtkSpAtk3TargetHitsSelfAdaptive
+Flags = CanProtect,CanMagicCoat,CanMirrorMove
+Description = The user insults the target using a compliment. The target's attacking stats are raised by 3 steps, but they hurt themselves in confusion.
+Animation = FLATTER
 #-------------------------------
 [BLACKOUT]
 Name = Blackout
@@ -6275,17 +6266,6 @@ Target = NearOther
 FunctionCode = RaiseUserSpAtk5IfTargetFaints
 Flags = CanProtect,CanMirrorMove
 Description = When the user knocks out a target with this move, the user's Sp. Atk stat rises by five steps.
-#-------------------------------
-[FLATTER]
-Name = Flatter
-Type = DARK
-Category = Status
-Accuracy = 100
-TotalPP = 12
-Target = NearOther
-FunctionCode = RaiseTargetSpAtk3TargetHitsSelfSpecial
-Flags = CanProtect,CanMagicCoat,CanMirrorMove
-Description = The target's Sp. Atk stat is raised by three steps. It then hurts itself in its mental turmoil.
 #-------------------------------
 [GLEEFULGRASP]
 Name = Gleeful Grasp
