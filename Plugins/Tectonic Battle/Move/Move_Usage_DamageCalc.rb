@@ -351,6 +351,7 @@ class PokeBattle_Move
         offe = 0.0
         user.ownerParty.each do |partyMember|
             next unless partyMember
+            next if partyMember.fainted?
             next if partyMember.personalID == user.personalID
             next unless type && partyMember.hasType?(type)
             offe += partyMember.mono_type? ? 0.1 : 0.05
@@ -358,6 +359,7 @@ class PokeBattle_Move
         defe = 0.0
         target.ownerParty.each do |partyMember|
             next unless partyMember
+            next if partyMember.fainted?
             next if partyMember.personalID == target.personalID
             next unless type && partyMember.hasType?(type)
             defe += partyMember.mono_type? ? 0.1 : 0.05
