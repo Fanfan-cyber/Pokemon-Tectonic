@@ -136,10 +136,29 @@ class PokemonBoxSprite < SpriteWrapper
                     sprite.x = xval
                     sprite.y = yval
                     sprite.z = 0
+                    draw_evo_level(j, k, sprite.pokemon)
                 end
                 xval += 48
             end
             yval += 48
+        end
+    end
+
+    def draw_evo_level(j, k, pokemon)
+        return if !pokemon
+        xScaled = 10 + 48 * k + 5
+        yScaled = 30 + 48 * j + 5
+        @contents.font.size = 18
+        evo_level = "*"
+        text_color = Color.new(248, 248, 248)
+        pokemon.species_data.get_evolutions(true).each do |e|
+            evo_method_data = GameData::Evolution.get(e[1])
+            if evo_method_data.level_up_proc
+                param = e[2]
+                evo_level = param.to_s
+                text_color = Color.new(124, 124, 124) if param > getLevelCap
+            end
+            pbDrawShadowText(@contents, xScaled, yScaled, 12, 12, evo_level, text_color, Color.new(20, 24, 24))
         end
     end
 
