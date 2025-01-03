@@ -47,10 +47,15 @@ module CDKey
 end
 
 CDKey.register_other_key(:infinitehp)
+CDKey.register_other_key([:noinfinitehp, :infinitehp], false)
 CDKey.register_other_key(:immunestatus)
+CDKey.register_other_key([:noimmunestatus, :immunestatus], false)
 CDKey.register_other_key(:hugepower)
+CDKey.register_other_key([:nohugepower, :hugepower], false)
 CDKey.register_other_key(:guaranteedeffects)
+CDKey.register_other_key([:noguaranteedeffects, :guaranteedeffects], false)
 CDKey.register_other_key(:guaranteedcrit)
+CDKey.register_other_key([:noguaranteedcrit, :guaranteedcrit], false)
 
 CDKey.register_other_key(:maxmoney)
 CDKey.register_other_key(:alltribes)
