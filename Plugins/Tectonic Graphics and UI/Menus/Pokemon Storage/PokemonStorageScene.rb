@@ -988,8 +988,10 @@ class PokemonStorageScene
             lv_path = addLanguageSuffix(lv_path)
             imagepos.push([lv_path, 6, 246])
             textstrings.push([pokemon.level.to_s, 28, 228, false, base, shadow])
-            if pokemon.ability
-                textstrings.push([pokemon.ability.name, 86, 300, 2, base, shadow])
+            ability = pokemon.ability
+            if ability
+                ability_name = pokemon.has_main_ability? ? ability.name : _INTL("None")
+                textstrings.push([ability_name, 86, 300, 2, base, shadow])
             else
                 textstrings.push([_INTL("No ability"), 86, 300, 2, nonbase, nonshadow])
             end
