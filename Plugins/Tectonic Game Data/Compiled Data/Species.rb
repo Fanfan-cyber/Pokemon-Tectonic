@@ -485,7 +485,7 @@ module GameData
         end
 
         def new_abilities
-            abils = SPECIES_ABILITY_SEQUENCE[[@species, @form]] || []
+            abils = SPECIES_ABILITY_DATA[[@species, @form]] || []
             abils.reject! { |abil| !GameData::Ability.exists?(abil) }
             abils
         end
