@@ -131,7 +131,7 @@ class PokeBattle_Battle
         @recycleItems      = [Array.new(@party1.length, nil),   Array.new(@party2.length, nil)]
         @belch             = [Array.new(@party1.length, false), Array.new(@party2.length, false)]
         @luster            = [Array.new(@party1.length, false), Array.new(@party2.length, false)]
-        @moveUsageCount    = [Array.new(@party1.length, {}),   Array.new(@party2.length, {})]
+        @moveUsageCount    = [Array.new(@party1.length) { {} }, Array.new(@party2.length) { {} }]
         @usedInBattle      = [Array.new(@party1.length, false), Array.new(@party2.length, false)]
         @battle_count      = [Array.new(@party1.length) { PokeBattle_BattleCount.new }, Array.new(@party1.length) { PokeBattle_BattleCount.new }]
         @successStates     = []

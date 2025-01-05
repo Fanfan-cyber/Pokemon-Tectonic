@@ -41,7 +41,7 @@ module AbilityDex
       next if abil.cut || abil.tectonic_new || abil.primeval
       next if abil.is_test?
       count += 1
-      @@abilis_canon["#{count} #{abil.name}"] = addDescriptionKeywordHighlighting("#{abil.description}\n#{abil.details}")
+      @@abilis_canon["#{count} #{abil.name}"] = addBattleKeywordHighlighting("#{abil.description}\n#{abil.details}")
     end
     @@abilis_canon
   end
@@ -54,7 +54,7 @@ module AbilityDex
       next if !abil.tectonic_new || abil.primeval || abil.cut || abil.file_path
       next if abil.is_test?
       count += 1
-      @@abilis_new["#{count} #{abil.name}"] = addDescriptionKeywordHighlighting("#{abil.description}\n#{abil.details}")
+      @@abilis_new["#{count} #{abil.name}"] = addBattleKeywordHighlighting("#{abil.description}\n#{abil.details}")
     end
     @@abilis_new
   end
@@ -67,7 +67,7 @@ module AbilityDex
       next if !abil.file_path
       next if abil.is_test?
       count += 1
-      @@abilis_fanfan["#{count} #{abil.name}"] = addDescriptionKeywordHighlighting("#{abil.description}\n#{abil.details}")
+      @@abilis_fanfan["#{count} #{abil.name}"] = addBattleKeywordHighlighting("#{abil.description}\n#{abil.details}")
     end
     @@abilis_fanfan
   end
@@ -80,7 +80,7 @@ module AbilityDex
       next if !abil.primeval
       next if abil.is_test?
       count += 1
-      @@abilis_primeval["#{count} #{abil.name}"] = addDescriptionKeywordHighlighting("#{abil.description}\n#{abil.details}")
+      @@abilis_primeval["#{count} #{abil.name}"] = addBattleKeywordHighlighting("#{abil.description}\n#{abil.details}")
     end
     @@abilis_primeval
   end
@@ -93,7 +93,7 @@ module AbilityDex
       next if !abil.cut
       next if abil.is_test?
       count += 1
-      @@abilis_cut["#{count} #{abil.name}"] = addDescriptionKeywordHighlighting("#{abil.description}\n#{abil.details}")
+      @@abilis_cut["#{count} #{abil.name}"] = addBattleKeywordHighlighting("#{abil.description}\n#{abil.details}")
     end
     @@abilis_cut
   end
@@ -145,7 +145,7 @@ module ItemDex
       next if item.super
       next if !item.is_machine?
       count += 1
-      @@machine_item["#{count} #{item.name}"] = addDescriptionKeywordHighlighting(item.description)
+      @@machine_item["#{count} #{item.name}"] = addBattleKeywordHighlighting(item.description)
     end
     @@machine_item
   end
@@ -160,7 +160,7 @@ module ItemDex
       next if !item.can_hold?
       next if item.is_mega_stone?
       count += 1
-      @@held_item["#{count} #{item.name}"] = addDescriptionKeywordHighlighting(item.description)
+      @@held_item["#{count} #{item.name}"] = addBattleKeywordHighlighting(item.description)
     end
     @@held_item
   end
@@ -174,7 +174,7 @@ module ItemDex
       next if item.super
       next if !item.is_berry?
       count += 1
-      @@berry_item["#{count} #{item.name}"] = addDescriptionKeywordHighlighting(item.description)
+      @@berry_item["#{count} #{item.name}"] = addBattleKeywordHighlighting(item.description)
     end
     @@berry_item
   end
@@ -188,7 +188,7 @@ module ItemDex
       next if item.super
       next if !item.is_clothing?
       count += 1
-      @@clothing_item["#{count} #{item.name}"] = addDescriptionKeywordHighlighting(item.description)
+      @@clothing_item["#{count} #{item.name}"] = addBattleKeywordHighlighting(item.description)
     end
     @@clothing_item
   end
@@ -202,7 +202,7 @@ module ItemDex
       next if item.super
       next if !item.is_gem?
       count += 1
-      @@gem_item["#{count} #{item.name}"] = addDescriptionKeywordHighlighting(item.description)
+      @@gem_item["#{count} #{item.name}"] = addBattleKeywordHighlighting(item.description)
     end
     @@gem_item
   end
@@ -216,7 +216,7 @@ module ItemDex
       next if item.super
       next if !item.is_herb?
       count += 1
-      @@herb_item["#{count} #{item.name}"] = addDescriptionKeywordHighlighting(item.description)
+      @@herb_item["#{count} #{item.name}"] = addBattleKeywordHighlighting(item.description)
     end
     @@herb_item
   end
