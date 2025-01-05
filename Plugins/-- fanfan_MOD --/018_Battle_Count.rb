@@ -4,6 +4,29 @@ class PokeBattle_BattleCount
     @being_hits = 0
     @hits_dealt = 0
     @hits_taken = 0
+
+    @crits_dealt = 0
+    @crits_taken = 0
+
+    @moves_in_progress = 0
+    @moves_used = 0
+    @status_moves_in_progress = 0
+    @status_moves_used = 0
+    @damage_moves_in_progress = 0
+    @damage_moves_used = 0
+    @physical_moves_in_progress = 0
+    @physical_moves_used = 0
+    @special_moves_in_progress = 0
+    @special_moves_used = 0
+    # each type
+
+    @status_inflict = 0
+    @status_be_inflicted = 0
+
+    @stat_stages_up = 0
+    @stat_stages_down = 0
+
+    @abilities_triggered = 0
   end
 end
 
