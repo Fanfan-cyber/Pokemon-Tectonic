@@ -843,7 +843,6 @@ class PokemonSummary_Scene
         if ability
             ability_base   = MessageConfig.pbDefaultTextMainColor
             ability_shadow = MessageConfig.pbDefaultTextShadowColor
-
             if @pokemon.has_main_ability?
                 ability_name = ability.name
                 ability_desc = $Trainer.get_ta(:customabil) ? ability.description : _INTL("Main Ability is disabled.")
@@ -854,7 +853,7 @@ class PokemonSummary_Scene
             #textpos.push([ability.name, 138, 278, 0, ability_base, ability_shadow])
             #drawTextEx(overlay, 8, 320, Graphics.width, 2, ability_desc, ability_base, ability_shadow)
             textpos.push([_INTL("{1} (USE: Check more)", ability_name), 138, 278, 0, ability_base, ability_shadow])
-            abilityDescription = addDescriptionKeywordHighlighting(ability_desc)
+            abilityDescription = addBattleKeywordHighlighting(ability_desc)
             drawFormattedTextEx(overlay, 8, 320, Graphics.width, abilityDescription, ability_base, ability_shadow)
         end
         # Draw all text
@@ -1440,7 +1439,7 @@ class PokemonSummary_Scene
                 ability_desc = _INTL("{1} doesn't have Main Ability.", @pokemon.name)
             end
             textpos.push([_INTL("{1} (USE: Check more)", ability_name), 138, 278, 0, MessageConfig::DARK_TEXT_MAIN_COLOR, MessageConfig::DARK_TEXT_SHADOW_COLOR])
-            abilityDescription = addDescriptionKeywordHighlighting(ability_desc)
+            abilityDescription = addBattleKeywordHighlighting(ability_desc)
             drawFormattedTextEx(overlay, 8, 320, Graphics.width - 12, abilityDescription, MessageConfig::DARK_TEXT_MAIN_COLOR, MessageConfig::DARK_TEXT_SHADOW_COLOR)
         end
         # Draw Pokémon's type icon(s)
