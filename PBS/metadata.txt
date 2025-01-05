@@ -514,6 +514,7 @@ ShowArea = true
 Bicycle = false
 #-------------------------------
 [067]
+# Old Ice Cream Shop
 Outdoor = false
 ShowArea = false
 Bicycle = false

@@ -73,7 +73,9 @@ module SaveData
 	def self.save_backup(file_path)
 		validate file_path => String
 		save_data = self.compile_save_hash
-		File.open(file_path + ".bak", 'wb') { |file| Marshal.dump(save_data, file) }
+		#File.open(file_path + ".bak", 'wb') { |file| Marshal.dump(save_data, file) }
+    encrypted_data = [Zlib::Deflate.deflate(Marshal.dump(save_data))].pack("m")
+    File.open(file_path + ".bak", 'wb') { |file| file.write(encrypted_data) }
 	end
 
   def self.delete_file(file = FILE_PATH)
