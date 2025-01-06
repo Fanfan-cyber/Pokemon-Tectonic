@@ -245,6 +245,8 @@ module Randomizer
     # randomizes all data and toggles on randomizer
     #-----------------------------------------------------------------------------
     def self.start(skip = false)
+        pbMessage(_INTL("Randomizer has been disabled!\nPlease play the Normal mode."))
+        return
         ret = $PokemonGlobal && $PokemonGlobal.isRandomizer
         ret, cmd = randomizerSelection unless skip
         @@randomizer = true
