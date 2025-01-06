@@ -708,10 +708,18 @@ GameData::BattleEffect.register_effect(:Side, {
                     # Revive the pokemon
                     pkmn.heal_HP
                     pkmn.heal_status
-                    battle.pbDisplay(_INTL("{1} recovered all the way to full health!", pkmn.name))
+                    if side.index == 0
+                      battle.pbDisplay(_INTL("{1} recovered all the way to full health!", pkmn.name))
+                    else
+                      battle.pbDisplay(_INTL("The opposing {1} recovered all the way to full health!", pkmn.name))
+                    end
                     value[key] = nil
                 elsif value[key] == 1
-                    battle.pbDisplay(_INTL("{1} is coming back to life!", pkmn.name))
+                    if side.index == 0
+                      battle.pbDisplay(_INTL("{1} is coming back to life!", pkmn.name))
+                    else
+                      battle.pbDisplay(_INTL("The opposing {1} is coming back to life!", pkmn.name))
+                    end
                 end
             end
         end
