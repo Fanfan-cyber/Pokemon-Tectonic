@@ -35,7 +35,7 @@ class ButtonEventScene < EventScene
       #addLabelForScreen(4, 134, 244, 352, _INTL("Press to instantly mount the Bicycle while in the overworld."))
 
       addImageForScreen(5, 44, 122, "Graphics/Pictures/Controls help/help_f1")
-      addLabelForScreen(5, 134, 84, 352, _INTL("Opens the Key Bindings window, where you can choose which keyboard keys to use for each control."))
+      addLabelForScreen(5, 134, 84, 352, _INTL("Opens the Key Bindings window, where you can choose which keyboard keys to use for each control.\n(Please don't do that, it may cause bugs!)"))
 
       addImageForScreen(6, 44, 90, "Graphics/Pictures/Controls help/help_f12")
       addImageForScreen(6, 44, 252, "Graphics/Pictures/Controls help/help_f8")
