@@ -14,7 +14,7 @@ module AbilityDex
       directoryEntry = abilityDexMainDirectory.values[listIndex]
       guideListHash  = send directoryEntry[1]
       pbListScreenGuide(+ sectionLabel, BattleGuideLister.new(guideListHash), false)
-	  end
+    end
   end
 
   def self.abilityDexMainHash
@@ -116,7 +116,7 @@ module ItemDex
       directoryEntry = itemDexMainDirectory.values[listIndex]
       guideListHash  = send directoryEntry[1]
       pbListScreenGuide(+ sectionLabel, BattleGuideLister.new(guideListHash), false)
-	  end
+    end
   end
 
   def self.itemDexMainHash

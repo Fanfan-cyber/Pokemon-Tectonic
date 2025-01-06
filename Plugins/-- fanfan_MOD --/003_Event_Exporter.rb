@@ -102,7 +102,7 @@ module EventExport
       f.write("#==============================================================================\n")
       for n in 1..999
         map_name = sprintf("Data/Map%03d.rxdata", n)
-		next if !File.exist?(map_name)
+        next if !File.exist?(map_name)
         map = load_data(map_name)
         f.write(sprintf("Map ID: %03d\n", n))
         f.write("Map Name: " + @@mapinfos[n].name + "\n")
@@ -124,7 +124,7 @@ module EventExport
         f.write("\n#------------------------------------------------------------------------------\n") if map.events.keys.length > 0
         @@events = map.events
         for i in map.events.keys.sort
-		  pbSetWindowText("Exporting map #{n} event #{i}") if defined?(pbSetWindowText)
+          pbSetWindowText("Exporting map #{n} event #{i}") if defined?(pbSetWindowText)
           event = map.events[i]
           f.write(sprintf("Event ID: %03d\n", event.id))
           f.write("Event Name: " + event.name + "\n")
