@@ -1,7 +1,9 @@
 ItemHandlers::UseOnPokemon.add(:ABILITYCAPSULE,proc { |item,pkmn,scene|
+    pbMessage(_INTL("Ability Capsule can't be used in Earthquake!"))
+    next false
     unless teamEditingAllowed?
         showNoTeamEditingMessage
-        return
+        next false
     end
     abils = pkmn.getAbilityList
     abil1 = nil; abil2 = nil
