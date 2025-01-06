@@ -516,8 +516,8 @@ Bicycle = false
 [067]
 # Old Ice Cream Shop
 Outdoor = false
-ShowArea = false
-Bicycle = false
+ShowArea = true
+Bicycle = true
 #-------------------------------
 [068]
 # Room 104
