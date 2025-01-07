@@ -1,6 +1,6 @@
 module RocketMode
   def self.pbRobPokemon(battle)
-    return if !$Trainer.get_ta(:rocket) || $Trainer.get_ta(:battle_loader)
+    return if !$Trainer.get_ta(:rocket) || !battle.trainerBattle? || $Trainer.get_ta(:battle_loader)
     can_choose = []
     battle.pbParty(1).each_with_index do |pkmn, i|
       next if !pkmn || pkmn.egg? || has_species?(pkmn.species, pkmn.form)
@@ -13,6 +13,11 @@ module RocketMode
       pkmn         = data[0]
       pkmn.level   = getLevelCap - 5
       pkmn.ability = nil
+      pkmn.reset_moves
+      pkmn.items.clear
+      pkmn.extraTypes.clear
+      pkmn.extraAbilities.clear
+      pkmn.calc_stats
       pbAddPokemon(pkmn, dexnav: true)
     end
   end
