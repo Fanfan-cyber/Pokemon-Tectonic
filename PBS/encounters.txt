@@ -848,7 +848,7 @@ Land,20
 Special
     1,BOUNSWEET,10
 #-------------------------------
-[264] # Storm Sound
+[264] # Thunder Point
 Land,20
     20,DEDENNE,62,64
     20,EMOLGA,62,64
