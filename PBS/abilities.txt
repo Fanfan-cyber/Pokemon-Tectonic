@@ -357,7 +357,7 @@ Flags = Immutable
 #-------------------------------
 [MUMMY] # 0084
 Name = Mummy
-Description = Physical moves against the Pokémon spread this Ability.
+Description = When the Pokémon is hit by an attack, the attacker's ability becomes Mummy.
 #-------------------------------
 [NATURALCURE] # 0085
 Name = Natural Cure
@@ -691,7 +691,7 @@ Description = Immune to Electric-type moves and restores 25% of max HP when hit 
 #-------------------------------
 [WANDERINGSPIRIT] # 0163
 Name = Wandering Spirit
-Description = Taking a physical hit exchanges Abilities.
+Description = When the Pokémon is hit by an attack, the Pokémon and the attacker switch abilities.
 #-------------------------------
 [WATERABSORB] # 0164
 Name = Water Absorb
