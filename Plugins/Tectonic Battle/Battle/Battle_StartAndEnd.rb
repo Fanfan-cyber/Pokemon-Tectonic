@@ -327,7 +327,7 @@ class PokeBattle_Battle
             # Record if the fight was perfected
             if $Trainer.able_pokemon_count >= ableBeforeFight
                 trackPerfectBattle(true)
-                if trainerBattle? && @decision == 1 && !skipPerfecting && !$Trainer.get_ta(:battle_loader)
+                if trainerBattle? && @decision == 1 && !$Trainer.get_ta(:battle_loader) #&& !skipPerfecting
                     pbMessage(_INTL("\\me[Battle perfected]You perfected the fight!"))
                     victory = $Trainer.get_ta(:victory)
                     if victory
