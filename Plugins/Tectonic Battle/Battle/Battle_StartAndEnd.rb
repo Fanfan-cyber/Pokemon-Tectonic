@@ -814,7 +814,7 @@ class PokeBattle_Battle
         pbParty(0).each_with_index do |pkmn, i|
             next if !pkmn || pkmn.egg?
             if trainerBattle?
-                pkmn.healByFraction(Settings::BATTLE_ENDING_NUBM * 0.01)
+                pkmn.healByFraction(Settings::BATTLE_ENDING_NUMB * 0.01)
                 pkmn.heal_status
                 pkmn.heal_PP
             end

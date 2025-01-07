@@ -348,23 +348,23 @@ class PokeBattle_Move
         end
 
         # ROWE
-        offe = 0.0
+        offe = 0
         user.ownerParty.each do |partyMember|
             next unless partyMember
             next if partyMember.fainted?
             next if partyMember.personalID == user.personalID
             next unless type && partyMember.hasType?(type)
-            offe += partyMember.mono_type? ? 0.1 : 0.05
+            offe += partyMember.mono_type? ? Settings::ROWE_STAB_OFF_MONO : Settings::ROWE_STAB_OFF
         end
-        defe = 0.0
+        defe = 0
         target.ownerParty.each do |partyMember|
             next unless partyMember
             next if partyMember.fainted?
             next if partyMember.personalID == target.personalID
             next unless type && partyMember.hasType?(type)
-            defe += partyMember.mono_type? ? 0.1 : 0.05
+            defe += partyMember.mono_type? ? Settings::ROWE_STAB_DEF_MONO : Settings::ROWE_STAB_DEF
         end
-        multipliers[:base_damage_multiplier] *= 1.0 + offe - defe
+        multipliers[:base_damage_multiplier] *= (offe - defe) * 0.01 + 1.0
 
         # Type effectiveness
         typeMod = target.typeMod(type,target,self,checkingForAI)
