@@ -4,7 +4,7 @@ Events.onTrainerPartyLoad += proc { |_sender, e|
   next if !trainer
   trainer.name = $Trainer.get_ta(:name)
   trainer.party.clear
-  $Trainer.get_ta(:team).each { |pkmn| trainer.party << pkmn }
+  $Trainer.get_ta(:team).each { |pkmn| trainer.party << pkmn.clone_pkmn }
 }
 
 Events.onTrainerPartyLoad += proc { |_sender, e|
@@ -13,7 +13,6 @@ Events.onTrainerPartyLoad += proc { |_sender, e|
   trainer = e[0]
   next if !trainer || trainer.able_party.length >= 6
   pkmn = $Trainer.party_random_pkmn(true, true)
-  pkmn.heal
   trainer.party << pkmn
 }
 
@@ -33,10 +32,11 @@ Events.onTrainerPartyLoad += proc { |_sender, e|
   trainer = e[0]
   next if !trainer
   target_level = $Trainer.party_highest_level
-  trainer.each_able_pkmn do |pkmn|
+  trainer.party.each do |pkmn|
     if pkmn.level < target_level
       pkmn.level = target_level
       pkmn.calc_stats
     end
+    pkmn.heal
   end
 }
