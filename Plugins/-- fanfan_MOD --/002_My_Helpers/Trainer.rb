@@ -63,7 +63,7 @@ class Trainer
   end
 
   # 检查队伍中是否已经有精灵携带了某个物品
-  def party_already_item?(item)
+  def party_item_already?(item)
     party_items.include?(item)
   end
 
@@ -78,7 +78,7 @@ class Trainer
   end
 
   # 检查队伍中是否已经有精灵有某个异常状态
-  def party_already_status?(status)
+  def party_status_already?(status)
     party_statuses.include?(status)
   end
 

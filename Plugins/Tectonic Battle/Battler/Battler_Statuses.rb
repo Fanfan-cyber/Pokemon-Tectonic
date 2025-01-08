@@ -120,8 +120,8 @@ class PokeBattle_Battler
     def pbCanInflictStatus?(newStatus, user, showMessages, move = nil, ignoreStatus = false)
         return false if fainted?
 
-        if owned_trainer && owned_trainer.party_already_status?(newStatus)
-          @battle.pbDisplay(_INTL("It doesn't affect {1} since another Pokémon has this Status already!", pbThis(true))) if showMessages
+        if owned_trainer && owned_trainer.party_status_already?(newStatus) # status clause
+          @battle.pbDisplay(_INTL("It doesn't affect {1} since another Pokémon has the Status already!", pbThis(true))) if showMessages
           return false
         end
 

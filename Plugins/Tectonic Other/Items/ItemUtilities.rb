@@ -4,7 +4,7 @@
 def pbGiveItemToPokemon(item,pkmn,scene,fromBag=true)
     newitemname = GameData::Item.get(item).name
 
-    if $Trainer.party_already_item?(item) # item clause
+    if $Trainer.party_item_already?(item) # item clause
         scene.pbDisplay(_INTL("You can't give {1} {2} since another Pokémon is holding the same item.", pkmn.name, newitemname))
         return false
     end
