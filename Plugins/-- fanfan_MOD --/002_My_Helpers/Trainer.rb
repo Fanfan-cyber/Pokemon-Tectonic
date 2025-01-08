@@ -67,6 +67,21 @@ class Trainer
     party_items.include?(item)
   end
 
+  # 获取队伍中所有精灵的异常状态
+  def party_statuses
+    @party.map(&:status).delete_if { |status| status == :NONE }
+  end
+
+  # 检查队伍中的精灵是否有重复的异常状态
+  def party_dup_status?
+    party_statuses.dup?
+  end
+
+  # 检查队伍中是否已经有精灵有某个异常状态
+  def party_already_status?(status)
+    party_statuses.include?(status)
+  end
+
   # 获取队伍中某只精灵的索引
   def pbGetPartyIndex(species, form = 0)
     each_pkmn { |pkmn, index| return index if pkmn.isSpecies?(species) && pkmn.form == form }

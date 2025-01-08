@@ -21,6 +21,14 @@ class PokeBattle_Battler
     pbTypes.length < 2 
   end
 
+  def owned_trainer
+    all_trainers = [@battle.player, @battle.opponent].flatten.compact
+    all_trainers.each do |trainer|
+      return trainer if trainer.party.any? { |pkmn| pkmn.unique_id == unique_id }
+    end
+    return nil
+  end
+
   # 将精灵变为其他随机的一只精灵
   def transformSpeciesRandom(abil_id = nil, stats = false)
     @battle.pbShowAbilitySplash(self, abil_id) if abil_id
