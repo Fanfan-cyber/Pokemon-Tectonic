@@ -132,6 +132,11 @@ module BattleLoader
     end
   end
 
+  def self.get_all_teams
+    load_data
+    @@battle_loader.map { |team_data| team_data[2] }
+  end
+
   def self.start_battle(rule, team)
     setBattleRule(rule)
     $Trainer.set_ta(:battle_loader, true)
@@ -146,7 +151,8 @@ module BattleLoader
     else
       $Trainer.set_ta(:name, _INTL("Unknown"))
     end
-    pbTrainerBattle(trainer_type, trainer.name, nil, false, trainer.version, true)
+    #pbTrainerBattle(:LEADER_Lambert, "Lambert", nil, false, 0, true)
+    pbTrainerBattle(trainer_type, trainer.name, nil, false, 0, true)
     $Trainer.set_ta(:battle_loader, false)
   end
 end
