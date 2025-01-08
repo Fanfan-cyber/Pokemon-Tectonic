@@ -54,12 +54,17 @@ class Trainer
 
   # 获取队伍中所有精灵携带的物品
   def party_items
-    @party.map(&:items).flatten
+    @party.map(&:items).flatten.compact
   end
 
   # 检查队伍是否有携带重复物品
   def party_dup_item?
     party_items.dup?
+  end
+
+  # 检查队伍中是否已经有精灵携带了某个物品
+  def party_already_item?(item)
+    party_items.include?(item)
   end
 
   # 获取队伍中某只精灵的索引
