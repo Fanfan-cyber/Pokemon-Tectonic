@@ -278,18 +278,18 @@ def select_from_all_types(species_id = nil)
 end
 
 # 从物品列表中随机选择一个物品
-def random_item_from_list(list_name, use_weight = true)
-  selected_list = ItemLists.const_get(list_name.to_s.upcase)
+def random_choose_from_list(list_name, use_weight = true)
+  selected_list = AllLists.const_get(list_name.to_s.upcase)
   return if !selected_list
-  return selected_list.sample[:item] if !use_weight
+  return selected_list.sample[:name] if !use_weight
 
-  total_weight = selected_list.sum { |item| item[:weight] }
+  total_weight = selected_list.sum { |i| i[:weight] }
   random_value = rand(total_weight)
   current_weight = 0
 
-  selected_list.each do |item|
-    current_weight += item[:weight]
-    return item[:item] if random_value < current_weight
+  selected_list.each do |i|
+    current_weight += i[:weight]
+    return i[:name] if random_value < current_weight
   end
 end
 
