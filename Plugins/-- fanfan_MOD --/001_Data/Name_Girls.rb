@@ -999,4 +999,4 @@ GIRL_NAMES = [
   "Zora",
   "Zoya",
   "Zuri",
-]
+].freeze

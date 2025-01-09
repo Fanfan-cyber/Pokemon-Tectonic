@@ -1344,4 +1344,4 @@ ITEM_SEQUENCE = {
   "诅咒娃娃进化石" => "Banettite",
   "诅咒之符" => "Spell Tag",
   "诅咒之铠" => "Malicious Armor",
-}
+}.freeze

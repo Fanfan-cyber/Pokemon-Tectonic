@@ -310,4 +310,4 @@ ABILITY_SEQUENCE = {
   "自信过度" => "Moxie",
   "自由者" => "Libero",
   "诅咒之躯" => "Cursed Body",
-}
+}.freeze

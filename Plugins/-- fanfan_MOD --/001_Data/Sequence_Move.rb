@@ -951,4 +951,4 @@ MOVE_SEQUENCE = {
   "鬃岩狼人Ｚ狼啸石牙飓风暴" => "Splintered Stormshards",
   "诅咒" => "Curse",
   "钻石风暴" => "Diamond Storm",
-}
+}.freeze

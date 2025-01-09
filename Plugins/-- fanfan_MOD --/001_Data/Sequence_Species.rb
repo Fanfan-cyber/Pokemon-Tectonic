@@ -1024,4 +1024,4 @@ SPECIES_SEQUENCE = {
   "钻角犀兽" => "Rhydon",
   "坐骑山羊" => "Gogoat",
   "坐骑小羊" => "Skiddo",
-}
+}.freeze

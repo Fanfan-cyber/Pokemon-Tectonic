@@ -999,4 +999,4 @@ BOY_NAMES = [
   "Zyair",
   "Zyaire",
   "Zyon",
-]
+].freeze

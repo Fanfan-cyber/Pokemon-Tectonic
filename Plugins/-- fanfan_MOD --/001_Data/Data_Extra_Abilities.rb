@@ -1887,4 +1887,4 @@
   :PANDAMONIUM        => [:HYPNOTIST,         :HYPERAGGRESSIVE, :PREDATOR,        "自定义"], # 月桂熊猫
 
   :SERAPAVO           => [:BEASTBOOST,        :FEARMONGER,      :SERENEGRACE,     "自定义"], # 塞拉帕沃
-}
+}.freeze
