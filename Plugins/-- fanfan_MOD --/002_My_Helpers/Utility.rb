@@ -220,6 +220,63 @@ def pbChooseMoveFromListEX(message, input_ids, must_choose = false)
   return ids[ret], ret, names[ret]
 end
 
+# 猜某一个精灵的属性
+def guess_pkmn_type(species_id = nil)
+  if species_id
+    species_data = GameData::Species.try_get(species_id)
+    return if !species_data
+  else
+    random_species = GameData::Species.keys.sample
+    species_data = GameData::Species.get(random_species)
+  end
+
+  species_id = species_data.id
+  species_name = species_data.name
+  species_types = species_data.types
+
+  pbMessage(_INTL("Do you know the Type of {1}?", species_name))
+
+  type_data = select_from_all_types(species_id)
+  return if !type_data
+  chosen_type_id, chosen_type_name = type_data
+
+  if species_types.include?(chosen_type_id)
+    pbMessage(_INTL("Congratulations, you got it right!\n{1}'s Type includes {2}!", species_name, chosen_type_name))
+    return true
+  else
+    species_type_name = species_types.map { |species_type| GameData::Type.get(species_type).name }
+
+    pbMessage(_INTL("Sorry, you got it wrong!\n{1}'s Type does not include {2}!", species_name, chosen_type_name))
+    pbMessage(_INTL("{1}'s Type is {2}.", species_name, species_type_name.quick_join))
+    return false
+  end
+end
+
+# 从全属性中选择一个属性
+def select_from_all_types(species_id = nil)
+  msg = _INTL("Which type do you want to choose?")
+  if species_id
+    species_name = GameData::Species.get(species_id).name
+    msg = _INTL("Which type does {1} have?", species_name)
+  end
+
+  all_types_id = []
+  all_types_name = []
+  GameData::Type.each do |type|
+    next if type.pseudo_type
+    all_types_id << type.id
+    all_types_name << type.name
+  end
+
+  index = pbMessage(msg, all_types_name, -1)
+  return if index == -1
+
+  chosen_type_id = all_types_id[index]
+  chosen_type_name = all_types_name[index]
+
+  return chosen_type_id, chosen_type_name
+end
+
 # 计算最好的进攻属性
 def calc_best_offense_types(target)
   offense_types = Hash.new { |hash, key| hash[key] = [] }

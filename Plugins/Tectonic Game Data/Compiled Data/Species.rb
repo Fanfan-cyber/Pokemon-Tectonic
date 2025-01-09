@@ -246,6 +246,10 @@ module GameData
             return pbGetMessage(MessageTypes::Kinds, @id_number)
         end
 
+        def types
+            [@type1, @type2].uniq
+        end
+
         # @return [String] the translated Pokédex entry of this species
         def pokedex_entry
             return pbGetMessage(MessageTypes::Entries, @id_number)
