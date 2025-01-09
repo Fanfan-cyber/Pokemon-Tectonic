@@ -277,6 +277,22 @@ def select_from_all_types(species_id = nil)
   return chosen_type_id, chosen_type_name
 end
 
+# 从物品列表中随机选择一个物品
+def random_item_from_list(list_name, use_weight = true)
+  selected_list = ItemLists.const_get(list_name.to_s.upcase)
+  return if !selected_list
+  return selected_list.sample[:item] if !use_weight
+
+  total_weight = selected_list.sum { |item| item[:weight] }
+  random_value = rand(total_weight)
+  current_weight = 0
+
+  selected_list.each do |item|
+    current_weight += item[:weight]
+    return item[:item] if random_value < current_weight
+  end
+end
+
 # 计算最好的进攻属性
 def calc_best_offense_types(target)
   offense_types = Hash.new { |hash, key| hash[key] = [] }
