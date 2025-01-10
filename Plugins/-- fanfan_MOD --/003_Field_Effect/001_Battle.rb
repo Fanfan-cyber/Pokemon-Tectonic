@@ -1,4 +1,4 @@
-def set_field(new_field = nil)
+def set_field(new_field = nil) # used for event
   $field = new_field
 end
 
@@ -14,27 +14,32 @@ class PokeBattle_Battle
     create_new_field(:Base)
   end
 
+  def set_test_field(test_field = :Misty, duration = 3)
+    create_new_field(test_field, duration)
+  end
+
   def set_default_field
     if debugControl
-      set_test_field 
+      set_test_field
       return
     end
 
+    duration = PokeBattle_Battle::Field::INFINITE_FIELD_DURATION
     if default_field
-      create_new_field(default_field, PokeBattle_Battle::Field::INFINITE_FIELD_DURATION)
-      set_field
+      create_new_field(default_field, duration)
+      set_field # clear $field
     else
       all_fields_data.each do |field, data| # trainer field
         next if !trainerBattle?
         trainer_field = @opponent.map(&:name) & data[1]
         next if trainer_field.empty?
-        create_new_field(field, PokeBattle_Battle::Field::INFINITE_FIELD_DURATION)
+        create_new_field(field, duration)
         return
       end
 
       all_fields_data.each do |field, data| # map field
         next if !data[0].include?($game_map.map_id)
-        create_new_field(field, PokeBattle_Battle::Field::INFINITE_FIELD_DURATION)
+        create_new_field(field, duration)
         return
       end
 
@@ -51,12 +56,8 @@ class PokeBattle_Battle
 
       advantageous_fields = all_fields if advantageous_fields.empty?
 
-      create_new_field(advantageous_fields.sample, PokeBattle_Battle::Field::INFINITE_FIELD_DURATION)
+      create_new_field(advantageous_fields.sample, duration)
     end
-  end
-
-  def set_test_field
-    create_new_field(:Psychic, 3)
   end
 
   def create_new_field(id, *args)
