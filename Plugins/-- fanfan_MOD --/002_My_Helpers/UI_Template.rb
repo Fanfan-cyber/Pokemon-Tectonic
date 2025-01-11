@@ -27,7 +27,7 @@ class UI_Custom
     # PokemonSpeciesIconSprite(species, @viewport)
     # ItemIconSprite.new(0, 0, item, @viewport)
     # HeldItemIconSprite.new(0, 0, item, @viewport)
-    # PokemonSprite
+    # PokemonSprite.new(@viewport) setSpeciesBitmap(species)
 
     @sprites["sprite_1"] = IconSprite.new(0, 0, @viewport)
     @sprites["sprite_1"].setBitmap("Graphics/UI/a")
