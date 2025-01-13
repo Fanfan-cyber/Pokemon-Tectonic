@@ -1,19 +1,20 @@
 class Player
   attr_reader :ta
 
+  def check_ta
+    @ta ||= TA::TA_Player.new
+  end
+
   def get_ta(var, default = nil)
-    @ta ||= TA::TA_Vars.new
-    @ta.get(var, default)
+    check_ta.get(var, default)
   end
 
   def set_ta(var, value)
-    @ta ||= TA::TA_Vars.new
-    @ta.set(var, value)
+    check_ta.set(var, value)
   end
 
   def increase_ta(var, increment = 1)
-    @ta ||= TA::TA_Vars.new
-    @ta.increase(var, increment)
+    check_ta.increase(var, increment)
   end
 
   def is_player
