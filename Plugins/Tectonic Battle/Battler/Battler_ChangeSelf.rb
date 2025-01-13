@@ -396,12 +396,7 @@ class PokeBattle_Battler
 
     def increase_kill_count
         return if @battle.trainerBattle? || @battle.bossBattle?
-        kill_count = $Trainer.get_ta(:kill_count)
-        if kill_count
-            $Trainer.set_ta(:kill_count, kill_count + 1)
-        else
-            $Trainer.set_ta(:kill_count, 1)
-        end
+        $Trainer.increase_ta(:kill_count)
     end
 
     #=============================================================================

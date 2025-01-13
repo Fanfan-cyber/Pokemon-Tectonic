@@ -329,12 +329,7 @@ class PokeBattle_Battle
                 trackPerfectBattle(true)
                 if trainerBattle? && @decision == 1 && !$Trainer.get_ta(:battle_loader) #&& !skipPerfecting
                     pbMessage(_INTL("\\me[Battle perfected]You perfected the fight!"))
-                    victory = $Trainer.get_ta(:victory)
-                    if victory
-                        $Trainer.set_ta(:victory, victory + 1)
-                    else
-                        $Trainer.set_ta(:victory, 1)
-                    end
+                    $Trainer.increase_ta(:victory)
                     RocketMode.pbRobPokemon(self)
                 end
             end
@@ -773,12 +768,7 @@ class PokeBattle_Battle
                         pbDisplayPaused(_INTL("You lost against {1}, {2} and {3}!",
                           @opponent[0].full_name, @opponent[1].full_name, @opponent[2].full_name))
                     end
-                    lost = $Trainer.get_ta(:lost)
-                    if lost
-                        $Trainer.set_ta(:lost, lost + 1)
-                    else
-                        $Trainer.set_ta(:lost, 1)
-                    end
+                    $Trainer.increase_ta(:lost)
                 end
             elsif @decision == 2
                 if @opponent
