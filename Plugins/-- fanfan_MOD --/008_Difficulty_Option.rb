@@ -37,6 +37,7 @@ Events.onTrainerPartyLoad += proc { |_sender, e|
       pkmn.level = target_level
       pkmn.calc_stats
     end
+    pkmn.level += $Trainer.get_ta(:kill_count) || 0
     pkmn.heal
   end
 }

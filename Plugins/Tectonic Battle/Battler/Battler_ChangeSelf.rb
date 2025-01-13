@@ -297,10 +297,11 @@ class PokeBattle_Battler
                 @battle.pbDisplayBrief(_INTL("{1} fainted!", pbThis))
             end
         end
-        
+
         unless @dummy
             AbilityRecorder.check_ability_recorder(@battle, self)
             apply_faint_healing
+            increase_kill_count
 
             PBDebug.log("[Pokémon fainted] #{pbThis} (#{@index})") unless showMessage
             @battle.scene.pbFaintBattler(self) unless @battle.autoTesting
@@ -390,6 +391,16 @@ class PokeBattle_Battler
             pbOwnSide.effects[:FaintHealing][@pokemonIndex] = healing_turn + 1
         else
             pbOwnSide.effects[:FaintHealing] = { @pokemonIndex => healing_turn + 1 }
+        end
+    end
+
+    def increase_kill_count
+        return if @battle.trainerBattle? || @battle.bossBattle?
+        kill_count = $Trainer.get_ta(:kill_count)
+        if kill_count
+            $Trainer.set_ta(:kill_count, kill_count + 1)
+        else
+            $Trainer.set_ta(:kill_count, 1)
         end
     end
 
