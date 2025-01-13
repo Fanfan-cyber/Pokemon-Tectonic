@@ -1,5 +1,7 @@
 module TA
   class TA_Vars
+    include Enumerable
+
     attr_reader :vars
 
     def initialize
@@ -10,8 +12,19 @@ module TA
       @vars[var] = value
     end
 
-    def get(var)
-      @vars[var]
+    def get(var, default = nil)
+      @vars.fetch(var, default)
+    end
+
+    def increase(var, increment = 1)
+      current_value = get(var, 0)
+      set(var, current_value + increment)
+    end
+
+    def each
+      @vars.each do |key, value|
+        yield(key, value)
+      end
     end
   end
 
