@@ -328,6 +328,11 @@ target.pbThis(true)))
         # Two-turn attacks can't fail here in the charging turn
         return true if user.effectActive?(:TwoTurnAttack)
 
+        if $Trainer.get_ta(:whosyourdaddy) && target.pbOwnedByPlayer?
+            @battle.pbDisplay(_INTL("It doesn't affect {1}...", target.pbThis(true))) if show_message
+            return false
+        end
+
         priority = battle.choices[user.index][4] || move.priority
         ret = @battle.apply_field_effect(:block_move, move, user, target, typeMod, show_message, priority, aiCheck)
         return false if ret
