@@ -120,6 +120,7 @@ class PokemonLoadScreen
                 Game.set_up_system
                 Game.load(SaveData.read_from_file(lastModifiedSaveName, true))
                 @scene.pbEndScene
+                AntiAbuse.kill_all_cheats
                 return
             when cmd_load_game
                 pbFadeOutIn do
@@ -127,12 +128,14 @@ class PokemonLoadScreen
                     file.movePanel(1)
                     @scene.pbEndScene unless file.staymenu
                     file.endScene
+                    AntiAbuse.kill_all_cheats
                     return unless file.staymenu
                 end
             when cmd_new_game
                 @scene.pbEndScene
                 AntiAbuse.check_claim
                 Game.start_new
+                AntiAbuse.kill_all_cheats
                 return
             when cmd_achievements
                 pbFadeOutIn do
