@@ -17,7 +17,8 @@ module AntiAbuse
   DEBUG_PASSWORD  = "12138"
   GAME_OFFICIAL   = %w[宝可饭堂 pokefans 地震啦！！！ 493645591]
   OFFICIAL_SITE   = "https://bbs.pokefans.xyz/threads/598/"
-  CHEAT_CLASS     = [:CheatItemsAdapter, :ScreenCheat_Items, :SceneCheat_Items, :Scene_Cheat, :Window_GetItem]
+  CHEAT_CLASS     = [:CheatItemsAdapter, :ScreenCheat_Items, :SceneCheat_Items, :Scene_Cheat, :Window_GetItem, :PokemonLoad]
+  CHEAT_METHOD    = [:pbenabledebug, :pbDebugMenu]
   @@debug_control = false
 
   def self.apply_anti_abuse
@@ -60,7 +61,7 @@ module AntiAbuse
   end
 
   def self.kill_all_cheats
-    rewrite_cheat_klass
+    rewrite_cheat_method
     CHEAT_CLASS.each { |klass| kill_cheat_klass(klass) }
     $wtw = false
   end
@@ -70,12 +71,13 @@ module AntiAbuse
     Object.send(:remove_const, klass_name)
   end
 
-  def self.rewrite_cheat_klass
+  def self.rewrite_cheat_method
     CHEAT_CLASS.each do |klass_name|
       next if !Object.const_defined?(klass_name)
       klass = Object.const_get(klass_name)
       klass.define_method(:initialize) { exit }
     end
+    CHEAT_METHOD.each { |method| define_method(method) { exit } }
   end
 
   def self.windows?
