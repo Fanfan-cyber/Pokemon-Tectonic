@@ -2,7 +2,7 @@ class Player
   attr_reader :ta
 
   def check_ta
-    @ta ||= TA::TA_Player.new
+    @ta ||= TA::TA_Vars.new
   end
 
   def get_ta(var, default = nil)
