@@ -19,6 +19,7 @@ module AntiAbuse
   OFFICIAL_SITE   = "https://bbs.pokefans.xyz/threads/598/"
   CHEAT_CLASS     = [:CheatItemsAdapter, :ScreenCheat_Items, :SceneCheat_Items, :Scene_Cheat, :Window_GetItem, :PokemonLoad]
   CHEAT_METHOD    = [:pbenabledebug, :pbDebugMenu]
+  CHEAT_PROCESS   = %w[nw.exe cheatengine-i386.exe cheatengine-x86_64.exe cheatengine-x86_64-SSE4-AVX2.exe]
   @@debug_control = false
 
   def self.apply_anti_abuse
@@ -47,12 +48,15 @@ module AntiAbuse
 
   def self.kill_windows_shit
     return if !windows?
-    shit = 'start /min cmd.exe /c %0 & '
-    shit += 'wmic process where name="nw.exe" delete & '
-    shit += 'wmic process where name="cheatengine-i386.exe" delete & '
-    shit += 'wmic process where name="cheatengine-x86_64.exe" delete & '
-    shit += 'wmic process where name="cheatengine-x86_64-SSE4-AVX2.exe" delete'
-    exit if !system(shit) 
+    CHEAT_PROCESS.each do |process|
+      next if !process_exists?(process)
+      exit if !system("taskkill /F /IM #{process}")
+    end
+  end
+
+  def self.process_exists?(process_name)
+    result = `tasklist /FI "IMAGENAME eq #{process_name}" /FO CSV /NH`
+    result.include?(process_name)
   end
 
   def self.kill_joiplay_shit
@@ -81,6 +85,6 @@ module AntiAbuse
   end
 
   def self.windows?
-    [/win/i, /ming/i].include?(RUBY_PLATFORM)
+    [/win/i, /mingw/i, /mswin/i].any? { |regex| regex.match?(RUBY_PLATFORM) }
   end
 end
