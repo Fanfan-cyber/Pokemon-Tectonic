@@ -85,6 +85,6 @@ module AntiAbuse
   end
 
   def self.windows?
-    [/win/i, /ming/i].include?(RUBY_PLATFORM)
+    [/win/i, /mingw/i, /mswin/i].any? { |regex| regex.match?(RUBY_PLATFORM) }
   end
 end
