@@ -1,19 +1,19 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-[PRIMEVALDISGUISE] # 0678
+[PRIMEVALDISGUISE] # 0680
 Name = Primeval Disguise
 Description = The Pokémon starts as a very convincing Pikachu!
 Flags = Uncopyable,Immutable
 #-------------------------------
-[PRIMEVALIMPOSTER] # 0679
+[PRIMEVALIMPOSTER] # 0681
 Name = Primeval Imposter
 Description = Transforms into the entire enemy team, except buffed!
 Flags = Uncopyable
 #-------------------------------
-[PRIMEVALREGENERATOR] # 0680
+[PRIMEVALREGENERATOR] # 0682
 Name = Primeval Regenerator
 Description = Heals for 1/4th of its HP at the end of every turn.
 #-------------------------------
-[PRIMEVALSLOWSTART] # 0681
+[PRIMEVALSLOWSTART] # 0683
 Name = Primeval Slow Start
 Description = Attack and Speed are halved.
