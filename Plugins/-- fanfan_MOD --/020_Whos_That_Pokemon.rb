@@ -12,12 +12,7 @@ class WhoAmI_Scene
     @sprites["bg"].setBitmap("Graphics/Pictures/Who am I")
     
     @player = $Trainer
-    @language = Settings::LANGUAGES[$PokemonSystem.language][0]
     @all_species = GameData::Species.keys
-  end
-
-  def chinese?
-    @language == "Simplified Chinese"
   end
 
   def pbStartScreen
@@ -31,7 +26,7 @@ class WhoAmI_Scene
   end
 
   def setup_game
-    if chinese?
+    if is_chinese?
       pbMEPlay("Who am I Q")
     else
       pbMEPlay("Who am I Q")
@@ -73,7 +68,7 @@ class WhoAmI_Scene
       [_INTL("? ? ? ?"), 380, 120, 2, YELLOW, BROWN, 1],
       [_INTL("[←]: Move Left   [→]: Move Right   [C]: Confirm"), Graphics.width / 2, Graphics.height - 42, 2, WHITE, SHADOW, 1]
     ]
-    if chinese?
+    if is_chinese?
       infopos.push([_INTL("Who am I ?"), 380, 150, 2, YELLOW, BROWN, 1])
     else
       infopos.push([_INTL("Who's that Pokémon?"), 380, 150, 2, YELLOW, BROWN, 1])
@@ -140,7 +135,7 @@ class WhoAmI_Scene
   end
 
   def display_results
-    if chinese?
+    if is_chinese?
       pbMEPlay("Who am I A")
     else
       pbMEPlay("Who am I A")
