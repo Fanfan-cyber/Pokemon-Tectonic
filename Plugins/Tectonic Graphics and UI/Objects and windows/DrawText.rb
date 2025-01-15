@@ -814,6 +814,7 @@ def ctag(color)
   # Draw text and images on a bitmap
   #===============================================================================
   def getLineBrokenText(bitmap,value,width,dims)
+    return getLineBrokenText_chinese if is_chinese?
     x=0
     y=0
     textheight=0
@@ -1075,7 +1076,7 @@ def ctag(color)
     return if !bitmap || !string
     width=(width<0) ? bitmap.text_size(string).width+1 : width
     height=(height<0) ? bitmap.text_size(string).height+1 : height
-    y += 4
+    y = y + 4 + MessageConfig::SHADOW_TEXT_Y_OFFSET
     if shadowColor && shadowColor.alpha>0
       bitmap.font.color=shadowColor
       bitmap.draw_text(x+2,y,width,height,string,align)
