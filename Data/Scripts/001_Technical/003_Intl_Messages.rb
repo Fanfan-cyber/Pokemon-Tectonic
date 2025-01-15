@@ -33,7 +33,6 @@ def pbSetTextMessages
       pbAddRgssScriptTexts(texts,scr)
     end
     if safeExists?("Data/PluginScripts.rxdata")
-      #plugin_scripts = load_data("Data/PluginScripts.rxdata")
       encrypted_data = File.read("Data/PluginScripts.rxdata")
       plugin_scripts = Marshal.restore(Zlib::Inflate.inflate(encrypted_data.unpack("m")[0]))
       plugin_scripts.each do |plugin|
@@ -84,13 +83,16 @@ def pbSetTextMessages
             neednewline=true
           elsif list.code == 355 || list.code == 655
             pbAddScriptTexts(items,list.parameters[0])
+            pbAddRgssScriptTexts(items,list.parameters[0])
           elsif list.code == 111 && list.parameters[0]==12
             pbAddScriptTexts(items,list.parameters[1])
+            pbAddRgssScriptTexts(items,list.parameters[1])
           elsif list.code == 209
             route=list.parameters[1]
             for k in 0...route.list.size
               if route.list[k].code == 45
                 pbAddScriptTexts(items,route.list[k].parameters[0])
+                pbAddRgssScriptTexts(items,route.list[k].parameters[0])
               end
             end
           end
@@ -160,13 +162,16 @@ def pbSetTextMessages
                 neednewline=true
               elsif list.code == 355 || list.code==655
                 pbAddScriptTexts(items,list.parameters[0])
+                pbAddRgssScriptTexts(items,list.parameters[0])
               elsif list.code == 111 && list.parameters[0]==12
                 pbAddScriptTexts(items,list.parameters[1])
+                pbAddRgssScriptTexts(items,list.parameters[1])
               elsif list.code==209
                 route=list.parameters[1]
                 for k in 0...route.list.size
                   if route.list[k].code==45
                     pbAddScriptTexts(items,route.list[k].parameters[0])
+                    pbAddRgssScriptTexts(items,route.list[k].parameters[0])
                   end
                 end
               end

@@ -746,7 +746,6 @@ module PluginManager
       end
     end
     # save to main `PluginScripts.rxdata` file
-    #File.open("Data/PluginScripts.rxdata", 'wb') { |f| Marshal.dump(scripts, f) }
     encrypted_data = [Zlib::Deflate.deflate(Marshal.dump(scripts))].pack("m")
     File.open("Data/PluginScripts.rxdata", 'wb') { |file| file.write(encrypted_data) }
     # save to main `PBSExtensions.rxdata` file
@@ -767,7 +766,6 @@ module PluginManager
     # compile if necessary
     self.compilePlugins(order, plugins) if self.needCompiling?(order, plugins)
     # load plugin scripts
-    #scripts = load_data("Data/PluginScripts.rxdata")
     encrypted_data = File.read("Data/PluginScripts.rxdata")
     scripts = Marshal.restore(Zlib::Inflate.inflate(encrypted_data.unpack("m")[0]))
     echoed_plugins = []
