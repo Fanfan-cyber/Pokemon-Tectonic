@@ -28,10 +28,14 @@ def export_plugin_ex(encrypted = false)
   TA.write_all_plugins(encrypted)
 end
 
+# 获取当前游戏使用的语言
+def get_language
+  Settings::LANGUAGES[$PokemonSystem.language || 0][0]
+end
+
 # 检查游戏当前使用的语言是否为简体中文
 def is_chinese?
-  language_index = $PokemonSystem.language || 0
-  Settings::LANGUAGES[language_index][0] == "Simplified Chinese"
+  Settings::LANGUAGES[$PokemonSystem.language || 0][0] == "Simplified Chinese"
 end
 
 # 检查队伍是否有携带重复物品

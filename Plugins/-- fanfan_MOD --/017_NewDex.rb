@@ -4,8 +4,31 @@ module AbilityDex
   @@abilis_primeval = nil
   @@abilis_cut      = nil
   @@abilis_fanfan   = nil
+  @@old_language    = "English"
+  @@new_language    = "English"
+
+  def self.language_changed?
+    @@new_language != @@old_language
+  end
+
+  def self.set_language
+    @@new_language = get_language
+    if language_changed?
+      @@old_language = get_language
+      clear_memory
+    end
+  end
+
+  def self.clear_memory
+    @@abilis_canon    = nil
+    @@abilis_new      = nil
+    @@abilis_primeval = nil
+    @@abilis_cut      = nil
+    @@abilis_fanfan   = nil
+  end
 
   def self.open_abilitydex
+    set_language
     listIndex = 0
     loop do
       id, listIndex = pbListScreenGuide(_INTL("AbilityDex (Search: Z)"), BattleGuideLister.new(abilityDexMainHash, listIndex))
@@ -106,8 +129,32 @@ module ItemDex
   @@clothing_item = nil
   @@gem_item      = nil
   @@herb_item     = nil
+  @@old_language    = "English"
+  @@new_language    = "English"
+
+  def self.language_changed?
+    @@new_language != @@old_language
+  end
+
+  def self.set_language
+    @@new_language = get_language
+    if language_changed?
+      @@old_language = get_language
+      clear_memory
+    end
+  end
+
+  def self.clear_memory
+    @@machine_item  = nil
+    @@held_item     = nil
+    @@berry_item    = nil
+    @@clothing_item = nil
+    @@gem_item      = nil
+    @@herb_item     = nil
+  end
 
   def self.open_itemdex
+    set_language
     listIndex = 0
     loop do
       id, listIndex = pbListScreenGuide(_INTL("ItemDex (Search: Z)"), BattleGuideLister.new(itemDexMainHash, listIndex))
