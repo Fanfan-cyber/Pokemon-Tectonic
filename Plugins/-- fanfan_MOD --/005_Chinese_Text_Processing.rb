@@ -90,3 +90,13 @@ def modify_textchunks(textchunks)
   end
   textchunks
 end
+
+def _MAPINTL(mapid, *arg)
+  string = MessageTypes.getFromMapHash(mapid, arg[0])
+  string = string.clone
+  (1...arg.length).each do |i|
+    string.gsub!(/\{#{i}\}/, arg[i].to_s) 
+  end
+  string = string.gsub(/([\p{Han}\p{P}])\s+([\p{Han}\p{P}])/, '\1\2') if is_chinese?
+  return string
+end
