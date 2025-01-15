@@ -43,6 +43,37 @@ def getLineBrokenText_chinese(bitmap, value, width, dims)
   ret
 end
 
+def getLineBrokenChunks_chinese(bitmap, value, width, dims, plain = false)
+  x = 0
+  y = 0
+  ret = []
+  if dims
+    dims[0] = 0
+    dims[1] = 0
+  end
+  return ret if !bitmap || bitmap.disposed? || width <= 0
+  textmsg = value.clone
+  color = Font.default_color
+  textmsg.each_char do |ch|
+    if ch == "\n"
+      x = 0
+      y += 32
+      next
+    end
+    textSize = bitmap.text_size(ch)
+    textwidth = textSize.width
+    if x > 0 && x + textwidth > width && ch !~ /[[:punct:]]/
+      x = 0
+      y += 32
+    end
+    ret.push([ch, x, y, textwidth, 32, color])
+    x += textwidth
+    dims[0] = x if dims && dims[0] < x
+  end
+  dims[1] = y + 32 if dims
+  ret
+end
+
 def is_chinese_char?(char)
   char.ord >= 0x4e00 && char.ord <= 0x9fa5
 end

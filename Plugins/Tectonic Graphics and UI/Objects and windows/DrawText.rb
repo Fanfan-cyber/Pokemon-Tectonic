@@ -814,7 +814,7 @@ def ctag(color)
   # Draw text and images on a bitmap
   #===============================================================================
   def getLineBrokenText(bitmap,value,width,dims)
-    return getLineBrokenText_chinese if is_chinese?
+    return getLineBrokenText_chinese(bitmap, value, width, dims) if is_chinese?
     x=0
     y=0
     textheight=0
@@ -873,6 +873,7 @@ def ctag(color)
   end
   
   def getLineBrokenChunks(bitmap,value,width,dims,plain=false)
+    return getLineBrokenChunks_chinese(bitmap, value, width, dims, plain) if is_chinese?
     x=0
     y=0
     ret=[]
