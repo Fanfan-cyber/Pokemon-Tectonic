@@ -168,6 +168,7 @@ def ctag(color)
   
   def getFormattedTextFast(bitmap,xDst,yDst,widthDst,heightDst,text,lineheight,
                            newlineBreaks=true,explicitBreaksOnly=false)
+    return getFormattedTextFast_chinese(bitmap, xDst, yDst, widthDst, heightDst, text, lineheight, newlineBreaks, explicitBreaksOnly) if is_chinese?
     x=y=0
     characters=[]
     textchunks=[]

@@ -498,3 +498,124 @@ def getFormattedText_chinese(bitmap, xDst, yDst, widthDst, heightDst, text, line
   dummybitmap&.dispose
   return characters
 end
+
+def getFormattedTextFast_chinese(bitmap, xDst, yDst, widthDst, heightDst, text, lineheight,
+                         newlineBreaks = true, explicitBreaksOnly = false)
+  x = y = 0
+  characters = []
+  textchunks = []
+  textchunks.push(text)
+  text = textchunks.join
+  textchars = text.scan(/./m)
+  lastword = [0, 0] # position of last word
+  hadspace = false
+  hadnonspace = false
+  bold = bitmap.font.bold
+  italic = bitmap.font.italic
+  colorclone = bitmap.font.color
+  defaultfontname = bitmap.font.name
+  if defaultfontname.is_a?(Array)
+    defaultfontname = defaultfontname.find { |i| Font.exist?(i) } || "Arial"
+  elsif !Font.exist?(defaultfontname)
+    defaultfontname = "Arial"
+  end
+  defaultfontname = defaultfontname.clone
+  havenl = false
+  position = 0
+  while position < textchars.length
+    yStart = 0
+    xStart = 0
+    width = isWaitChar(textchars[position]) ? 0 : bitmap.text_size(textchars[position]).width
+    if textchars[position] == "\n"
+      if newlineBreaks   # treat newline as break
+        havenl = true
+        characters.push(["\n", x, (y * lineheight) + yDst, 0, lineheight, false, false,
+                         false, colorclone, nil, false, false, "", 8, position, nil, 0])
+        y += 1
+        x = 0
+        hadspace = true
+        hadnonspace = false
+        position += 1
+        next
+      else   # treat newline as space
+        textchars[position] = " "
+      end
+    end
+    if !is_chinese_char?(textchars[position])
+      isspace = (textchars[position][/\s/] || isWaitChar(textchars[position])) ? true : false
+      if hadspace && !isspace
+        # set last word to here
+        lastword[0] = characters.length
+        lastword[1] = x
+        hadspace = false
+        hadnonspace = true
+      elsif isspace
+        hadspace = true
+      end
+    else
+      lastword[0] = characters.length
+      lastword[1] = x
+    end
+    texty = (lineheight * y) + yDst + yStart
+    # Push character
+    if heightDst < 0 || yStart < yDst + heightDst
+      havenl = true if isWaitChar(textchars[position])
+      characters.push([textchars[position],
+                       x + xStart, texty, width + 2, lineheight,
+                       false, bold, italic, colorclone, nil, false, false,
+                       defaultfontname, bitmap.font.size, position, nil, 0])
+    end
+    x += width
+    if !explicitBreaksOnly && x + 2 > widthDst && lastword[1] != 0 &&
+       (!hadnonspace || !hadspace)
+      havenl = true
+      characters.insert(lastword[0], ["\n", x, (y * lineheight) + yDst, 0, lineheight,
+                                      false, false, false, colorclone, nil, false, false, "", 8, position])
+      lastword[0] += 1
+      y += 1
+      x = 0
+      (lastword[0]...characters.length).each do |i|
+        characters[i][2] += lineheight
+        charwidth = characters[i][3] - 2
+        characters[i][1] = x
+        x += charwidth
+      end
+      lastword[1] = 0
+    end
+    position += 1
+  end
+  # Eliminate spaces before newlines and pause character
+  if havenl
+    firstspace = -1
+    characters.length.times do |i|
+      if characters[i][5] != false # If not a character
+        firstspace = -1
+      elsif (characters[i][0] == "\n" || isWaitChar(characters[i][0])) &&
+            firstspace >= 0
+        (firstspace...i).each do |j|
+          characters[j] = nil
+        end
+        firstspace = -1
+      elsif characters[i][0][/[ \r\t]/]
+        firstspace = i if firstspace < 0
+      else
+        firstspace = -1
+      end
+    end
+    if firstspace > 0
+      (firstspace...characters.length).each do |j|
+        characters[j] = nil
+      end
+    end
+    characters.compact!
+  end
+  characters.each { |char| char[1] = xDst + char[1] }
+  # Remove all characters with Y greater or equal to _yDst_+_heightDst_
+  if heightDst >= 0
+    characters.each_with_index do |char, i|
+      characters[i] = nil if char[2] >= yDst + heightDst
+    end
+    characters.compact!
+  end
+  return characters
+end
