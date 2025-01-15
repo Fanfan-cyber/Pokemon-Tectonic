@@ -389,6 +389,7 @@ def ctag(color)
   def getFormattedText(bitmap,xDst,yDst,widthDst,heightDst,text,lineheight=32,
                        newlineBreaks=true,explicitBreaksOnly=false,
                        collapseAlignments=false)
+    return getFormattedText_chinese(bitmap, xDst, yDst, widthDst, heightDst, text, lineheight, newlineBreaks, explicitBreaksOnly, collapseAlignments) if is_chinese?
     dummybitmap=nil
     if !bitmap || bitmap.disposed?   # allows function to be called with nil bitmap
       dummybitmap=Bitmap.new(1,1)
