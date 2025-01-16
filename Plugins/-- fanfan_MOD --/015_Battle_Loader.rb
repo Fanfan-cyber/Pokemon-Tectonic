@@ -40,8 +40,8 @@ module BattleLoader
     return if !battle.trainerBattle?
     if pbConfirmMessage(_INTL("Do you want to add the opponent team into Battle Loader?"))
       load_data
-      rules = [_INTL("1v1"), _INTL("2v2"), _INTL("1v2"), _INTL("2v1")]
-      ret = pbMessage(_INTL("Which battle rule do you want?"), rules, 0)
+      rules = ["1v1", "2v2", "1v2", "2v1"]
+      ret = pbMessage(_INTL("Which battle rule do you want to use?"), rules, 0)
       if ret >= 0
         team = battle.pbParty(1)
         team.each { |pkmn| pkmn.heal }
@@ -55,7 +55,7 @@ module BattleLoader
         else
           if battle.opponent.size > 1
             names = battle.opponent.map(&:name)
-            choose = pbMessage(_INTL("Which default name you want to use?"), names, -1)
+            choose = pbMessage(_INTL("Which default name do you want to use?"), names, -1)
             if choose >= 0
               add_data(rules[ret], battle.opponent[choose].name, team)
             else
@@ -76,35 +76,64 @@ module BattleLoader
       return
     end
     loop do
-      choice = [_INTL("Battle"), _INTL("Export Team"), _INTL("Delete Team"), _INTL("Cancel")]
+      choice = [_INTL("Battle"), _INTL("Export Team"), _INTL("Delete Team"), _INTL("Check Stats"), _INTL("Cancel")]
       choose = pbMessage(_INTL("What do you want to do?"), choice, -1)
       case choose
-      when -1, 3
+      when -1, 4 # Cancel
         break
-      when 0
+      when 3 # Check Stats
+        pbMessage(_INTL("Your Victory count is {1}!\nYour Lost count is {2}!", $Trainer.get_ta(:battle_win, 0), $Trainer.get_ta(:battle_lost, 0)))
+      when 0 # Battle
         load_data
         if @@battle_loader.empty?
-          pbMessage(_INTL("There isn't any teams in Battle Loader!"))
+          pbMessage(_INTL("There aren't any teams in Battle Loader!"))
         else
-          names = @@battle_loader.map { |team_info| "#{team_info[0]} #{team_info[1]}" }
-          index = pbMessage(_INTL("Which team do you want to challenge?"), names, -1)
-          if index >= 0
-            rule = @@battle_loader[index][0]
-            team = @@battle_loader[index][2]
-            rules = [_INTL("1v1"), _INTL("2v2"), _INTL("1v2"), _INTL("2v1")]
-            rules.reject! {|other_rule| other_rule == rule }
-            ret = pbMessage(_INTL("Do you want to use other battle rules?"), rules, -1)
-            if ret >= 0
-              start_battle(rules[ret], team)
-            else
-              start_battle(rule, team)
+          loop do
+            battle_mode = [_INTL("Team"), _INTL("Random Team"), _INTL("Random Pokémon Team"), _INTL("Cancel")]
+            mode_chosen = pbMessage(_INTL("What do you want to do?"), battle_mode, -1)
+            case mode_chosen
+            when -1, 3 # Cancel
+              break
+            when 0 # Team
+              names = @@battle_loader.map { |team_info| "#{team_info[0]} #{team_info[1]}" }
+              index = pbMessage(_INTL("Which team do you want to challenge?"), names, -1)
+              if index >= 0
+                rule = @@battle_loader[index][0]
+                team = @@battle_loader[index][2]
+                rules = ["1v1", "2v2", "1v2", "2v1"]
+                rules.reject! {|other_rule| other_rule == rule }
+                ret = pbMessage(_INTL("Do you want to use other battle rules?"), rules, -1)
+                if ret >= 0
+                  start_battle(rules[ret], team)
+                else
+                  start_battle(rule, team)
+                end
+              end
+            when 1 # Random Team
+              random_chosen = @@battle_loader.sample
+              team = random_chosen[2]
+              rules = ["1v1", "2v2", "1v2", "2v1"]
+              ret = pbMessage(_INTL("Which battle rule do you want to use?"), rules, -1)
+              if ret >= 0
+                start_battle(rules[ret], team)
+              else
+                start_battle(rules[0], team)
+              end
+            when 2 # Random Pokémon Team
+              team = get_random_pkmn_team
+              rules = ["1v1", "2v2", "1v2", "2v1"]
+              ret = pbMessage(_INTL("Which battle rule do you want to use?"), rules, -1)
+              if ret >= 0
+                start_battle(rules[ret], team)
+              else
+                start_battle(rules[0], team)
+              end
             end
-            break
           end
         end
-      when 1
+      when 1 # Export Team
         load_data
-        rules = [_INTL("1v1"), _INTL("2v2"), _INTL("1v2"), _INTL("2v1")]
+        rules = ["1v1", "2v2", "1v2", "2v1"]
         ret = pbMessage(_INTL("Which battle rule do you want?"), rules, -1)
         if ret >= 0
           if pbConfirmMessage(_INTL("Would you like to give it a name?"))
@@ -113,9 +142,9 @@ module BattleLoader
           else
             add_data(rules[ret])
           end
-          pbMessage(_INTL("Your team exported!"))
+          pbMessage(_INTL("Your team has been exported!"))
         end
-      when 2
+      when 2 # Delete Team
         load_data
         if @@battle_loader.empty?
           pbMessage(_INTL("There isn't any teams in Battle Loader!"))
@@ -137,6 +166,14 @@ module BattleLoader
     @@battle_loader.map { |team_data| team_data[2] }
   end
 
+  def self.get_all_pkmn
+    get_all_teams.flatten
+  end
+
+  def self.get_random_pkmn_team
+    get_all_pkmn.sample(6)
+  end
+
   def self.start_battle(rule, team)
     setBattleRule(rule)
     $Trainer.set_ta(:battle_loader, true)
@@ -152,7 +189,8 @@ module BattleLoader
       $Trainer.set_ta(:name, _INTL("Unknown"))
     end
     #pbTrainerBattle(:LEADER_Lambert, "Lambert", nil, false, 0, true)
-    pbTrainerBattle(trainer_type, trainer.name, nil, false, 0, true)
+    results = pbTrainerBattle(trainer_type, trainer.real_name, nil, false, 0, true)
+    results ? $Trainer.increase_ta(:battle_win) : $Trainer.increase_ta(:battle_lost)
     $Trainer.set_ta(:battle_loader, false)
   end
 end
