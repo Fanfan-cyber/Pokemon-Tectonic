@@ -85,6 +85,7 @@ def choose_random_ability(battler = nil)
     next if abil.is_test?
     next if abil.is_uncopyable_ability?
     next if battler && battler.abilities.include?(abil.id)
+    next if abilis_pool.include?(abil.id)
     abilis_pool.push(abil.id)
   end
   abilis_pool.sample
@@ -101,6 +102,7 @@ def choose_random_ability_from_player(battler = nil)
       next if abil.is_test?
       next if abil.is_uncopyable_ability?
       next if battler && battler.abilities.include?(abil_id)
+      next if abilis_pool.include?(abil_id)
       abilis_pool.push(abil_id)
     end
   end
