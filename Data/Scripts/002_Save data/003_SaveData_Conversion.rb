@@ -195,7 +195,6 @@ module SaveData
 		conversions_to_run = self.get_conversions(save_data)
 		return false if conversions_to_run.none?
 		filePath = SaveData::FILE_PATH unless filePath
-		#File.open(filePath + '.bak', 'wb') { |f| Marshal.dump(save_data, f) }
     encrypted_data = [Zlib::Deflate.deflate(Marshal.dump(save_data))].pack("m")
     File.open(filePath + '.bak', 'wb') { |file| file.write(encrypted_data) }
     echoln "Running #{conversions_to_run.length} conversions..."
