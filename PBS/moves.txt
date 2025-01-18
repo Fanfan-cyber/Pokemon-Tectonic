@@ -1614,19 +1614,6 @@ FunctionCode = ScalesWithLostHP
 Flags = CanProtect,CanMirrorMove
 Description = An all-out attack that becomes more powerful the less HP the user has.
 #-------------------------------
-[ROLLINGKICK]
-Name = Rolling Kick
-Type = FIGHTING
-Category = Physical
-Power = 60
-Accuracy = 100
-TotalPP = 12
-Target = NearOther
-FunctionCode = Flinch
-Flags = CanProtect,CanMirrorMove,Kicking
-EffectChance = 40
-Description = The user lashes out with a quick, spinning kick. It has a 40% chance to make the target flinch.
-#-------------------------------
 [SACREDSWORD]
 Name = Sacred Sword
 Type = FIGHTING
@@ -1964,12 +1951,12 @@ Description = The user absorbs its target's HP. The user's HP is restored by 75%
 Name = Peck
 Type = FLYING
 Category = Physical
-Power = 45
+Power = 40
 Accuracy = 100
 TotalPP = 30
 Target = NearOther
 FunctionCode = Basic
-Flags = CanProtect,CanMirrorMove
+Flags = CanProtect,CanMirrorMove,HighCriticalHitRate
 Description = The target is jabbed with a sharply pointed beak or horn.
 #-------------------------------
 [PLUCK]
@@ -2307,19 +2294,6 @@ Flags = CanProtect,CanMirrorMove
 Description = The user drenches the foe in a special poisonous liquid. Its power doubles if the target is poisoned.
 #-------------------------------
 #		GROUND MOVES
-#-------------------------------
-[BONECLUB]
-Name = Bone Club
-Type = GROUND
-Category = Physical
-Power = 65
-Accuracy = 100
-TotalPP = 15
-Target = NearOther
-FunctionCode = Flinch
-Flags = CanProtect,CanMirrorMove
-EffectChance = 50
-Description = The user clubs the target with a bone. It has a 50% chance to make the target flinch.
 #-------------------------------
 [BONEMERANG]
 Name = Bonemerang
@@ -4713,19 +4687,6 @@ FunctionCode = HealUserByHalfOfDamageDone
 Flags = CanProtect,CanMirrorMove
 Description = A nutrient-draining attack. The user's HP is restored by 50% of the damage dealt.
 #-------------------------------
-[NEEDLEARM]
-Name = Needle Arm
-Type = GRASS
-Category = Physical
-Power = 60
-Accuracy = 100
-TotalPP = 12
-Target = NearOther
-FunctionCode = Flinch
-Flags = CanProtect,CanMirrorMove
-EffectChance = 50
-Description = The user attacks by wildly swinging its thorny arms. It has a 50% chance to make the target flinch.
-#-------------------------------
 [PETALDANCE]
 Name = Petal Dance
 Type = GRASS
@@ -6492,13 +6453,13 @@ Description = Prevents the user and target from switching out until either of th
 Name = Knock Off
 Type = DARK
 Category = Physical
-Power = 65
+Power = 75
 Accuracy = 100
 TotalPP = 15
 Target = NearOther
-FunctionCode = RemovesTargetItemDamageBoost50Percent
+FunctionCode = RemovesTargetItem
 Flags = CanProtect,CanMirrorMove
-Description = The user slaps the target to knock off their item. If they have an item, this deals 50% more damage.
+Description = The user slaps the target to knock off their item.
 #-------------------------------
 [LASHOUT]
 Name = Lash Out

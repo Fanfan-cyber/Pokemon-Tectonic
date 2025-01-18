@@ -1096,18 +1096,6 @@ Flags = CanSnatch
 Description = The user takes off at sonic speeds, raising its Speed by four steps and gaining the Flying type.
 Animation = AGILITY
 #-------------------------------
-[MIRAGEFLARE]
-Name = Mirage Flare
-Type = FLYING
-Category = Special
-Power = 120
-Accuracy = 100
-TotalPP = 5
-Target = AllNearOthers
-FunctionCode = Basic
-Flags = CanProtect,CanMirrorMove
-Description = The user creates a storm using its flaming body, damaging everything around it.
-#-------------------------------
 [SKYFALL]
 Name = Sky Fall
 Type = FLYING
@@ -1385,7 +1373,7 @@ Animation = TOXICSPIKES
 Name = Slimeball
 Type = POISON
 Category = Special
-Power = 80
+Power = 85
 Accuracy = 100
 TotalPP = 12
 Target = NearOther
@@ -1899,7 +1887,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = FractureTarget
 Flags = CanProtect,CanMagicCoat,CanMirrorMove
-Description = The user weakens the target's bones, making them fracture. They deal 50% less damage.
+Description = The user weakens the target's bones, making them fracture. They deal 33% less damage.
 Animation = TARSHOT
 #-------------------------------
 [GLIMMERPULSE]
@@ -3747,6 +3735,18 @@ FunctionCode = AlliesActNext
 Flags = CanProtect,CanMirrorMove
 Description = A distinguished attack that motivates nearby allies to follow, letting them act immediately after.
 #-------------------------------
+[WILDFIREMELT]
+Name = Wildfire Melt
+Type = FIRE
+Category = Special
+Power = 90
+Accuracy = 100
+TotalPP = 10
+Target = AllNearOthers
+FunctionCode = RemovesHazardsBothSides
+Flags = CanProtect,CanMirrorMove
+Description = The user creates a storm using its flaming body, damaging everything around it and melting away hazards in both sides.
+#-------------------------------
 #		WATER MOVES
 #-------------------------------
 [ARCHEANDELUGE]
@@ -4546,7 +4546,7 @@ Animation = HOLDHANDS
 Name = Sinister Spines
 Type = GRASS
 Category = Physical
-Power = 70
+Power = 90
 Accuracy = 100
 TotalPP = 5
 Target = NearOther

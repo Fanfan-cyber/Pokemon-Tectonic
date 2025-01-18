@@ -806,6 +806,19 @@ Flags = CanProtect,CanMirrorMove
 EffectChance = 50
 Description = The user attacks with a punch that can shatter a rock. It may also lower the foe's Defense stat.
 #-------------------------------
+[ROLLINGKICK]
+Name = Rolling Kick
+Type = FIGHTING
+Category = Physical
+Power = 60
+Accuracy = 100
+TotalPP = 12
+Target = NearOther
+FunctionCode = Invalid
+Flags = CanProtect,CanMirrorMove,Kicking
+EffectChance = 40
+Description = The user lashes out with a quick, spinning kick. It has a 40% chance to make the target flinch.
+#-------------------------------
 [SEISMICTOSS]
 Name = Seismic Toss
 Type = FIGHTING
@@ -920,6 +933,18 @@ Flags = CanProtect,CanMirrorMove
 EffectChance = 30
 Description = The user flies up to raise its Sp. Def by four steps in the first turn, then rams the foe on the second.
 Animation = SKYATTACK
+#-------------------------------
+[MIRAGEFLARE]
+Name = Mirage Flare
+Type = FLYING
+Category = Special
+Power = 120
+Accuracy = 100
+TotalPP = 5
+Target = AllNearOthers
+FunctionCode = Invalid
+Flags = CanProtect,CanMirrorMove
+Description = The user creates a storm using its flaming body, damaging everything around it.
 #-------------------------------
 [MIRRORMOVE]
 Name = Mirror Move
@@ -1098,6 +1123,19 @@ Description = Turns the foe's power against it, dealing damage using the target'
 Animation = VENOSHOCK
 #-------------------------------
 #		GROUND MOVES
+#-------------------------------
+[BONECLUB]
+Name = Bone Club
+Type = GROUND
+Category = Physical
+Power = 65
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = Invalid
+Flags = CanProtect,CanMirrorMove
+EffectChance = 50
+Description = The user clubs the target with a bone. It has a 50% chance to make the target flinch.
 #-------------------------------
 [DUSTFORCE]
 Name = Dust Force
@@ -1937,6 +1975,19 @@ FunctionCode = Invalid
 Flags = CanProtect,CanMirrorMove
 EffectChance = 50
 Description = The user attacks its foe by encircling it in sharp leaves. It has a 50% chance to lower accuracy.
+#-------------------------------
+[NEEDLEARM]
+Name = Needle Arm
+Type = GRASS
+Category = Physical
+Power = 60
+Accuracy = 100
+TotalPP = 12
+Target = NearOther
+FunctionCode = Invalid
+Flags = CanProtect,CanMirrorMove
+EffectChance = 50
+Description = The user attacks by wildly swinging its thorny arms. It has a 50% chance to make the target flinch.
 #-------------------------------
 [PETALBLIZZARD]
 Name = Petal Blizzard

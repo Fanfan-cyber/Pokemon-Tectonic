@@ -2,6 +2,9 @@ class MoveDex_Entry_Scene
     attr_reader :sprites
     attr_reader :viewport
 
+    POKEMON_IN_BOX_COLOR_BASE = Color.new(150, 180, 202)
+    POKEMON_IN_BOX_COLOR_SHADOW = Color.new(57, 118, 191)
+
     MAX_LENGTH_SPECIES_LIST = 10
 	SPECIES_LIST_Y_INIT = 52
     SPECIES_LIST_COLUMN_1_X_LEFT = 20
@@ -212,19 +215,21 @@ class MoveDex_Entry_Scene
 		# render the moves lists
         @selected_species = nil
         if @currentSpeciesList[0].empty?
-            drawSpeciesColumn(overlay,[_INTL("None")], [], 0)
+            drawSpeciesColumn(overlay,[_INTL("None")], [],[], 0)
 		else
             count = 0
             [0,1].each do |columnIndex|
                 speciesColumn = @currentSpeciesList[columnIndex]
                 next if speciesColumn.empty?
                 speciesLabelList = []
+                speciesDataList = []
                 levelLabelList = []
                 listIndex = -1
                 speciesColumn.each do |learnableEntry|
 
                     speciesID = learnableEntry[0]
                     speciesLabelList.push(GameData::Species.get(speciesID).name)
+                    speciesDataList.push(GameData::Species.get(speciesID))
 
                     level = learnableEntry[1]
                     level = level == 0 ? _INTL("E") : level.to_s
@@ -235,7 +240,7 @@ class MoveDex_Entry_Scene
                         @selected_species = speciesID
                     end
                 end
-                drawSpeciesColumn(overlay,speciesLabelList,levelLabelList,columnIndex)
+                drawSpeciesColumn(overlay,speciesLabelList,speciesDataList,levelLabelList,columnIndex)
                 
                 count += speciesColumn.length
             end
@@ -257,23 +262,25 @@ class MoveDex_Entry_Scene
 		# render the moves lists
         @selected_species = nil
         if @currentSpeciesList[0].empty?
-            drawSpeciesColumn(overlay,[_INTL("None")], [], 0)
+            drawSpeciesColumn(overlay,[_INTL("None")],[], [], 0)
 		else
             count = 0
             [0,1].each do |columnIndex|
                 speciesColumn = @currentSpeciesList[columnIndex]
                 next if speciesColumn.empty?
                 speciesLabelList = []
+                speciesDataList = []
                 listIndex = -1
                 speciesColumn.each do |speciesID|
                     speciesLabelList.push(GameData::Species.get(speciesID).name)
+                    speciesDataList.push(GameData::Species.get(speciesID))
 
                     listIndex += 1
                     if listIndex == @scroll && columnIndex == @columnSelected
                         @selected_species = speciesID
                     end
                 end
-                drawSpeciesColumn(overlay,speciesLabelList, [], columnIndex)
+                drawSpeciesColumn(overlay,speciesLabelList,speciesDataList, [], columnIndex)
 
                 count += speciesColumn.length
             end
@@ -284,17 +291,39 @@ class MoveDex_Entry_Scene
         updateSpeciesPageScrollArrows
     end
 
-    def drawSpeciesColumn(overlay,speciesLabelList,levelLabelsList,columnIndex)
+    def drawSpeciesColumn(overlay,speciesLabelList,speciesDataList,levelLabelsList,columnIndex)
         base   = MessageConfig.pbDefaultTextMainColor
-        shadow = MessageConfig.pbDefaultTextShadowColor
+        
+        #store all caught species for coloring the results. might be faster to do it once per scene?
+        ownedPokemonSpecies = {}
+        eachPokemonInPartyOrStorage do |pkmn|
+            ownedPokemonSpecies[pkmn.species] = true;
+        end
 
+        base = MessageConfig.pbDefaultTextMainColor
+        shadow = MessageConfig.pbDefaultTextShadowColor
+        
         displayIndex = 0
 		listIndex = -1
         speciesLabelList.each_with_index do |speciesLabel, index|
+
+            #determine text color. default for unowned, blue for box, light green for party
+            species_base = base
+            species_shadow = shadow
+
+            #species data can be empty for the "None" page. In this case skipping custom coloring is fine
+            if index < speciesDataList.length
+                speciesData = speciesDataList[index]
+                if ownedPokemonSpecies.include?speciesData.id
+                    species_base = darkMode? ? POKEMON_IN_BOX_COLOR_BASE : POKEMON_IN_BOX_COLOR_SHADOW
+                    species_shadow = darkMode? ? POKEMON_IN_BOX_COLOR_SHADOW : POKEMON_IN_BOX_COLOR_BASE
+                end                
+            end
+
             listIndex += 1
             next if listIndex < @scroll
             speciesDrawX, speciesDrawY = getSpeciesDisplayCoordinates(displayIndex,columnIndex)
-            drawFormattedTextEx(overlay, speciesDrawX , speciesDrawY, 450, speciesLabel, base, shadow)
+            drawFormattedTextEx(overlay, speciesDrawX , speciesDrawY, 450, speciesLabel, species_base, species_shadow)
             if levelLabelsList[index]
                 levelDrawX = 212 + (columnIndex * 260)
                 levelLabel = levelLabelsList[index]

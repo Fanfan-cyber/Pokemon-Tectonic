@@ -314,9 +314,19 @@ class PokeBattle_Battler
                 end
                 return false
             end
+            if hasActiveItem?(:CLEARAMULET)
+                if showFailMsg
+                    @battle.pbDisplay(_INTL("{1} is protected by its Clear Amulet!", pbThis))
+                end
+                return false
+            end
         elsif effectActive?(:EmpoweredFlowState)
             @battle.pbDisplay(_INTL("{1} is in a state of total focus!", pbThis)) if showFailMsg
             return false
+        else # Block self-inflicted drops
+            eachActiveAbility do |ability|
+                return false if BattleHandlers.triggerStatLossImmunitySelfAbility(ability, self, stat, @battle, showFailMsg)
+            end
         end
         # Check the stat step
         if statStepAtMin?(stat)

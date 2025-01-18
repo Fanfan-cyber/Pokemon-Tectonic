@@ -547,7 +547,7 @@ Pokemon = MONFERNO,22
     Moves = MACHPUNCH,KNOCKOFF,FIREPUNCH,TAUNT
     AbilityIndex = 0 # Mystic Fist
 Pokemon = CACNEA,21
-    Moves = LEECHSEED,NEEDLEARM,FEINTATTACK,CAUSTICPUNCH
+    Moves = LEECHSEED,RAZORLEAF,FEINTATTACK,CAUSTICPUNCH
     AbilityIndex = 0 # Heartless
     Item = SITRUSBERRY
 Pokemon = KROKOROK,22
@@ -678,7 +678,7 @@ Pokemon = BRAIXEN,26
     Moves = FIRESPIN,PSYBEAM,EERIEIMPULSE,WILLOWISP
     AbilityIndex = 1 # Fascinate
 Pokemon = QUILLADIN,26
-    Moves = BULKUP,FORCEPALM,NEEDLEARM,LEECHSEED
+    Moves = BULKUP,FORCEPALM,RAZORLEAF,LEECHSEED
     AbilityIndex = 1 # Aggravate
     Item = SITRUSBERRY
 #-------------------------------
@@ -912,7 +912,7 @@ Pokemon = BLASTOISE,65
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,20,0,0,20,10
 Pokemon = CHARIZARD,65
-    Moves = OVERHEAT,DRACOMETEOR,MIRAGEFLARE,CRUELTY
+    Moves = OVERHEAT,DRACOMETEOR,WILDFIREMELT,CRUELTY
     AbilityIndex = 0 # Pure Rage
     Item = WHITEHERB
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -1312,7 +1312,7 @@ Pokemon = BANETTE,28
     Moves = SHADOWCLAW,SLASH,WILLOWISP,SHADOWSNEAK
     AbilityIndex = 1 # Razor's Edge
 Pokemon = CUBONE,26
-    Moves = SHADOWPUNCH,BONECLUB,DROPKICK,IGNITE
+    Moves = SHADOWPUNCH,STAMPDOWN,DROPKICK,IGNITE
     AbilityIndex = 1 # Break Through
 #-------------------------------
 [POKEFAN_F2,Tsveta]
@@ -1626,7 +1626,7 @@ Pokemon = QUILLADIN,30
 Pokemon = AMAROWAK,30
     Name = Apotropaia
     Gender = female
-    Moves = BONECLUB,SHADOWPUNCH,FIRELASH,BREAKDANCE
+    Moves = BULLDOZE,SHADOWPUNCH,FIRELASH,BREAKDANCE
     AbilityIndex = 1 # Ancestral Dance
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,12,9,0,12,9
@@ -1673,7 +1673,7 @@ Pokemon = WHIMSICOTT,30
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,20,20,0
 Pokemon = AMAROWAK,30
-    Moves = BONECLUB,SHADOWPUNCH,FIRELASH,SWORDSDANCE
+    Moves = BULLDOZE,SHADOWPUNCH,FIRELASH,SWORDSDANCE
 Pokemon = ORICORIO,30
     Moves = FEATHERDANCE,LIGHTNINGDANCE,SQUALLDART,SMOLDERRAVE
 RemovePokemon = QUILLADIN,30
@@ -2903,7 +2903,7 @@ Pokemon = ELECTIVIRE,35
     AbilityIndex = 1 # Adrenaline Rush
     Item = LIECHIBERRY
 Pokemon = CACTURNE,36
-    Moves = SUCKERPUNCH,NEEDLEARM,PAYBACK,LEECHSEED
+    Moves = SUCKERPUNCH,LEAFBLADE,PAYBACK,LEECHSEED
     AbilityIndex = 0 # Heartless
 #-------------------------------
 [POKEMONRANGER_M2,Martel]
@@ -4405,7 +4405,7 @@ Pokemon = SCARAPACE,60
     Moves = SUPERPOWER,XSCISSOR,MACHPUNCH,DIVEBOMB
     AbilityIndex = 1 # Juggernaut
 Pokemon = CHARIZARD,60
-    Moves = DRACOMETEOR,MIRAGEFLARE,FLAMETHROWER,OVERHEAT
+    Moves = DRACOMETEOR,WILDFIREMELT,FLAMETHROWER,OVERHEAT
     AbilityIndex = 0 # Pure Rage
     Item = FIREGEM
 #-------------------------------
