@@ -1210,7 +1210,7 @@ Pokemon = INFERNAPE,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 0,20,10,20,20,0
 Pokemon = NIDOKING,70
-    Moves = VOLATILETOXIN,EARTHSPLITTER,BEDROCKBREAKER,BRICKBREAK
+    Moves = POISONJAB,EARTHSPLITTER,BEDROCKBREAKER,BRICKBREAK
     AbilityIndex = 1 # Stressful
     Item = STRIKEVEST
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -1648,7 +1648,7 @@ Pokemon = HAEROBIC,70
 #-------------------------------
 [VETERAN_F,Iva]
 Pokemon = GALVANTULA,70
-    Moves = STICKYWEB,THUNDER,SIGNALOVERLOAD,VOLTSWITCH
+    Moves = STICKYWEB,THUNDER,SCALESTORM,VOLTSWITCH
     AbilityIndex = 0 # Ocular
     Item = FOCUSSASH
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def

@@ -94,7 +94,7 @@ GameData::BattleEffect.register_effect(:Battler, {
 })
 
 GameData::BattleEffect.register_effect(:Battler, {
-    :id => :Charge,
+    :id => :EnergyCharge,
     :real_name => "Charged",
     :apply_proc => proc do |battle, battler, _value|
         battle.pbDisplay(_INTL("{1} began charging power!", battler.pbThis))
@@ -102,7 +102,7 @@ GameData::BattleEffect.register_effect(:Battler, {
 })
 
 GameData::BattleEffect.register_effect(:Battler, {
-    :id => :ChargeExpended,
+    :id => :EnergyChargeExpended,
     :real_name => "Charge Expended",
     :resets_battlers_eot => true,
 })
@@ -1778,15 +1778,6 @@ GameData::BattleEffect.register_effect(:Battler, {
 })
 
 GameData::BattleEffect.register_effect(:Battler, {
-    :id => :VolatileToxin,
-    :real_name => "Volatile Toxin",
-    :apply_proc => proc do |battle, battler, _value|
-        battle.pbDisplay(_INTL("The next Ground-type attack against {1} will deal double damage!",
-battler.pbThis(true)))
-    end,
-})
-
-GameData::BattleEffect.register_effect(:Battler, {
     :id => :Indestructible,
     :real_name => "Indestructible",
     :type => :Type,
@@ -1968,15 +1959,6 @@ GameData::BattleEffect.register_effect(:Battler, {
     :real_name => "Heliopause",
     :resets_eor	=> true,
     :protection_effect => true,
-})
-
-GameData::BattleEffect.register_effect(:Battler, {
-    :id => :VolatileToxin,
-    :real_name => "Volatile Toxin",
-    :apply_proc => proc do |battle, battler, _value|
-        battle.pbDisplay(_INTL("The next Ground-type attack against {1} will deal double damage!",
-battler.pbThis(true)))
-    end,
 })
 
 GameData::BattleEffect.register_effect(:Battler, {

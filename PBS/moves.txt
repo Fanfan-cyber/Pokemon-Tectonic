@@ -1957,7 +1957,7 @@ TotalPP = 30
 Target = NearOther
 FunctionCode = Basic
 Flags = CanProtect,CanMirrorMove,HighCriticalHitRate
-Description = The target is jabbed with a sharply pointed beak or horn.
+Description = The target is jabbed with a sharply pointed beak or horn. Critical hits twice as often.
 #-------------------------------
 [PLUCK]
 Name = Pluck
@@ -4912,7 +4912,7 @@ TotalPP = 15
 Target = User
 FunctionCode = RaiseUserDefSpDef2EmpowersNextElectricAttack
 Flags = CanSnatch
-Description = The user becomes charged, doubling its next Electric-type attack. Also raises the user's defensive stats by two steps each.
+Description = The user becomes energy charged, doubling its next Electric-type attack. Also raises the user's defensive stats by two steps each.
 #-------------------------------
 [CHARGEBEAM]
 Name = Charge Beam
@@ -5309,19 +5309,6 @@ Flags = CanProtect,CanMirrorMove
 EffectChance = 100
 Description = The user slashes the target with aura-enriched wings. This boosts the user's Speed by two steps.
 Animation = SKYATTACK
-#-------------------------------
-[EXTRASENSORY]
-Name = Extrasensory
-Type = PSYCHIC
-Category = Special
-Power = 80
-Accuracy = 100
-TotalPP = 15
-Target = NearOther
-FunctionCode = Flinch
-Flags = CanProtect,CanMirrorMove
-EffectChance = 40
-Description = The user attacks with an odd, unseeable power. It has a 40% chance to make the target flinch.
 #-------------------------------
 [FREEZINGGLARE]
 Name = Freezing Glare
