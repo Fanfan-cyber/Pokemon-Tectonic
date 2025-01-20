@@ -23,7 +23,7 @@ TotalPP = 25
 Target = User
 FunctionCode = MaxUserAcc
 Flags = CanSnatch
-Description = The user steadies its eyes, mind, and body in order to maximize its accuracy.
+Description = The user steadies its eyes, mind, and body in order to maximize its Accuracy.
 Animation = MINDREADER
 #-------------------------------
 [BEDFELLOWS]
@@ -320,7 +320,7 @@ TotalPP = 12
 Target = User
 FunctionCode = RaiseUserSpAtkAcc3
 Flags = CanSnatch
-Description = The user focuses its aim to raise its Sp. Atk and accuracy by three steps each.
+Description = The user focuses its aim to raise its Sp. Atk and Accuracy by three steps each.
 Animation = LASERFOCUS
 #-------------------------------
 [LATHER]
@@ -1041,9 +1041,9 @@ Category = Status
 Accuracy = 0
 TotalPP = 12
 Target = AllNearFoes
-FunctionCode = LowerTargetDefEvasion2
+FunctionCode = CantMissLowerTargetDefSpDefEvasion3
 Flags = CanMagicCoat,CanMirrorMove,Sound
-Description = Lowers the target's Defense and evasion by two steps each. Can't miss and skips protections.
+Description = A high pitched screech lowers the target's Defense, Sp. Def, and Evasion by three steps each. Can't miss and skips protections.
 Animation = SUPERSONIC
 #-------------------------------
 [HOP]
@@ -2053,7 +2053,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = RaiseUserAccIfMisses
 Flags = CanProtect,CanMirrorMove
-Description = The user throws a large rock at the target. If it misses, the user's accuracy is raised.
+Description = The user throws a large rock at the target. If it misses, the user's Accuracy is raised.
 Animation = ROCKTHROW
 #-------------------------------
 [ROCKOUT]
@@ -2217,7 +2217,7 @@ Target = NearOther
 Priority = 1
 FunctionCode = Basic
 Flags = CanProtect,CanMirrorMove
-Description = The user shoots out a quick flash of light energy. This move always goes first.
+Description = The user shoots out a quick flash of bioluminescence to damage the target. This move always goes first.
 Animation = SIGNALBEAM
 #-------------------------------
 [CARAPACECRUSH]
@@ -2464,9 +2464,10 @@ Power = 110
 Accuracy = 0
 TotalPP = 10
 Target = NearOther
-FunctionCode = CantMissLowerUserSpeedDef1
+FunctionCode = CantMissLowerUserSpeedSpDef1
 Flags = CanProtect,CanMirrorMove,Wind
-Description = The user sheds and launches a volley of scales at the target. Lands without fail and lowers the user's Defense and Speed.
+Description = The user sheds a huge volley of scales at the target. Lands without fail and lowers the user's Sp. Def and Speed.
+Animation = SILVERWIND
 #-------------------------------
 [SEDATINGDUST]
 Name = Sedating Dust
@@ -3708,7 +3709,7 @@ TotalPP = 15
 Target = User
 FunctionCode = RaiseUserSpAtkSpDefAcc2
 Flags = CanSnatch
-Description = The user conserves for future attacks. This raises its Sp. Atk, Sp. Def, and accuracy by two steps each.
+Description = The user conserves for future attacks. This raises its Sp. Atk, Sp. Def, and Accuracy by two steps each.
 #-------------------------------
 [TARVOLLEY]
 Name = Tar Volley
@@ -6660,7 +6661,7 @@ TotalPP = 15
 Target = NearAlly
 Priority = 5
 FunctionCode = PowerUpAndIncreaseAccOfAllyMove
-Description = The user assists an ally by boosting the power and accuracy of its next attack by 50%.
+Description = The user assists an ally by boosting the power and Accuracy of its next attack by 50%.
 #-------------------------------
 [STAREDOWN]
 Name = Stare Down
