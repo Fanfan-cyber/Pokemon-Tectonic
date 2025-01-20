@@ -171,7 +171,8 @@ module BattleLoader
   end
 
   def self.get_random_pkmn_team
-    get_all_pkmn.sample(6)
+    pkmn_data_base = PokemonDataBase.get_pkmn_data_base.clone
+    pkmn_data_base.concat(get_all_pkmn).sample(6)
   end
 
   def self.start_battle(rule, team)
@@ -194,3 +195,45 @@ module BattleLoader
     $Trainer.set_ta(:battle_loader, false)
   end
 end
+
+module PokemonDataBase
+  PKMN_DATA_AMOUNT  = 1000
+  LOWEST_PKMN_BST   = 450
+  LOWEST_MOVE_POWER = 60
+
+  @@pkmn_data = []
+
+  def self.create_pkmn
+    species_list = GameData::Species.keys.shuffle
+    p species_list.size
+    species_list.each do |species|
+      species_data = GameData::Species.get(species)
+      next if species_data.base_stat_total < LOWEST_PKMN_BST
+      pkmn = Pokemon.new(species_data.id, 1)
+
+      pkmn.forget_all_moves
+      legal_moves = species_data.learnable_moves.shuffle
+      4.times do
+        legal_moves.each do |move|
+          move_data = GameData::Move.get(move)
+          next if move_data.base_damage < LOWEST_MOVE_POWER
+          pkmn.learn_move(move_data)
+          break
+        end
+      end
+      pkmn.calc_stats
+      @@pkmn_data << pkmn
+      return pkmn
+    end
+  end
+
+  def self.create_mass
+    PKMN_DATA_AMOUNT.times { create_pkmn } if @@pkmn_data.empty?
+  end
+
+  def self.get_pkmn_data_base
+    @@pkmn_data
+  end
+end
+
+PokemonDataBase.create_mass
