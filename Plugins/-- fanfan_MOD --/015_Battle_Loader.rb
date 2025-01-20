@@ -12,6 +12,7 @@ module BattleLoader
       @@battle_loader.push(team_info) # [rule, name, team, unique_id]
       @@battle_loader.sort_by! { |team_info| team_info[0] }
     end
+    PokemonDataBase.create_mass
   end
 
   def self.add_data(rule, name = "", team = nil)
@@ -120,6 +121,7 @@ module BattleLoader
                 start_battle(rules[0], team)
               end
             when 2 # Random Pokémon Team
+              PokemonDataBase.create_mass
               team = get_random_pkmn_team
               rules = ["1v1", "2v2", "1v2", "2v1"]
               ret = pbMessage(_INTL("Which battle rule do you want to use?"), rules, -1)
@@ -128,6 +130,7 @@ module BattleLoader
               else
                 start_battle(rules[0], team)
               end
+              PokemonDataBase.create_mass
             end
           end
         end
@@ -171,7 +174,9 @@ module BattleLoader
   end
 
   def self.get_random_pkmn_team
-    get_all_pkmn.sample(6)
+    battle_loader_data = @@battle_loader.map { |team_data| team_data[2] }
+    pkmn_data_base = PokemonDataBase.get_pkmn_data_base
+    battle_loader_data.concat(pkmn_data_base).flatten!.sample(6)
   end
 
   def self.start_battle(rule, team)
@@ -188,9 +193,52 @@ module BattleLoader
     else
       $Trainer.set_ta(:name, _INTL("Unknown"))
     end
-    #pbTrainerBattle(:LEADER_Lambert, "Lambert", nil, false, 0, true)
-    results = pbTrainerBattle(trainer_type, trainer.real_name, nil, false, 0, true)
-    results ? $Trainer.increase_ta(:battle_win) : $Trainer.increase_ta(:battle_lost)
+    begin
+      #pbTrainerBattle(:LEADER_Lambert, "Lambert", nil, false, 0, true)
+      results = pbTrainerBattle(trainer_type, trainer.real_name, nil, false, 0, true)
+      results ? $Trainer.increase_ta(:battle_win) : $Trainer.increase_ta(:battle_lost)
+    rescue
+      pbMessage(_INTL("An error occurred.\nPlease, try again!"))
+    end
     $Trainer.set_ta(:battle_loader, false)
+  end
+end
+
+module PokemonDataBase
+  PKMN_DATA_AMOUNT  = 10
+  LOWEST_PKMN_BST   = 450
+  LOWEST_MOVE_POWER = 65
+
+  @@pkmn_data = []
+
+  def self.create_pkmn
+    species_list = GameData::Species.keys.shuffle
+    species_list.each do |species|
+      species_data = GameData::Species.get(species)
+      next if species_data.base_stat_total < LOWEST_PKMN_BST
+      pkmn = Pokemon.new(species_data.id, 1)
+
+      pkmn.forget_all_moves
+      legal_moves = species_data.learnable_moves.shuffle
+      4.times do
+        legal_moves.each do |move|
+          move_data = GameData::Move.get(move)
+          next if move_data.base_damage < LOWEST_MOVE_POWER
+          pkmn.learn_move(move_data)
+          break
+        end
+      end
+      pkmn.calc_stats
+      @@pkmn_data << pkmn
+      return pkmn
+    end
+  end
+
+  def self.create_mass
+    PKMN_DATA_AMOUNT.times { create_pkmn }
+  end
+
+  def self.get_pkmn_data_base
+    @@pkmn_data
   end
 end
