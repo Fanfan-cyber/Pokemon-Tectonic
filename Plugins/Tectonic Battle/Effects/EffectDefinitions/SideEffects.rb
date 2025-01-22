@@ -695,6 +695,31 @@ GameData::BattleEffect.register_effect(:Side, {
 })
 
 GameData::BattleEffect.register_effect(:Side, {
+    :id => :Empowered,
+    :real_name => "Empowered",
+    :info_displayed => false,
+    :type => :Hash,
+    :entry_proc => proc do |battle, battlerIndex, side, battler, value|
+        echoln(value.to_s)
+        if value.key?(battler.pokemonIndex)
+            statHash = value[battler.pokemonIndex]
+            echoln(statHash.to_s)
+            statUp = []
+            statHash.each do |key, value|
+                next unless value > 0
+                statUp.push(key)
+                statUp.push(value)
+            end
+            echoln(statUp.to_s)
+            unless statUp.empty?
+                battle.pbDisplay(_INTL("#{battler.pbThis} remembers its honor!"))
+                battler.pbRaiseMultipleStatSteps(statUp, nil)
+            end
+        end
+    end,
+})
+
+GameData::BattleEffect.register_effect(:Side, {
     :id => :FaintHealing,
     :real_name => "Faint Healing",
     :info_displayed => false,
