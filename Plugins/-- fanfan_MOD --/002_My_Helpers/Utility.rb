@@ -109,6 +109,25 @@ def choose_random_ability_from_player(battler = nil)
   abilis_pool.sample
 end
 
+# 从队伍中选择一只精灵
+def pbChoosePokemonEX(ableProc = nil, allowIneligible = false)
+	index = 0
+	pbFadeOutIn {
+		scene = PokemonParty_Scene.new
+		screen = PokemonPartyScreen.new(scene, $Trainer.party)
+		if ableProc
+		  index = screen.pbChooseAblePokemon(ableProc, allowIneligible)
+		else
+      screen.pbStartScene(_INTL("Choose a Pokémon."), false)
+      index = screen.pbChoosePokemon
+      screen.pbEndScene
+		end
+	}
+  pkmn = $Trainer.party[index]
+  pkmn = nil if index == -1
+  return pkmn, index, pkmn&.name
+end
+
 # 从精灵列表中选择精灵
 def pbChoosePkmnFromListEX(message, input_ids, must_choose = false)
   names = []

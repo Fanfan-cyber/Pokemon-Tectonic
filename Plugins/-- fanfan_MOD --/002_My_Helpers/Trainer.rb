@@ -37,13 +37,13 @@ class Trainer
   end
 
   # 获取队伍中的最高等级
-  def party_highest_level
-    able_party.map(&:level).max
+  def party_highest_level(able = true)
+    able ? able_party.map(&:level).max : pokemon_party.map(&:level).max
   end
 
   # 获取队伍中的最低等级
-  def party_lowest_level
-    able_party.map(&:level).min
+  def party_lowest_level(able = true)
+    able ? able_party.map(&:level).min : pokemon_party.map(&:level).min
   end
 
   # 随机获取一只队伍里的精灵
@@ -85,6 +85,7 @@ class Trainer
   # 获取队伍中某只精灵的索引
   def pbGetPartyIndex(species, form = 0)
     each_pkmn { |pkmn, index| return index if pkmn.isSpecies?(species) && pkmn.form == form }
+    return nil
   end
 
   # 把队伍中的某只精灵移动到某一个位置
@@ -92,5 +93,27 @@ class Trainer
     old_index = pbGetPartyIndex(species, form)
     return if !old_index || old_index == new_index
     @party.swap!(old_index, new_index)
+  end
+
+  # 删除队伍中的某只精灵
+  def remove_pokemon_by_index(species, form = 0)
+    index = pbGetPartyIndex(species, form)
+    return if !index
+    remove_pokemon_at_index(index)
+  end
+
+  def remove_pokemon_by_selection(show_message = true)
+    selection_data = pbChoosePokemonEX
+    pkmn = selection_data[0]
+    index = selection_data[1]
+    pkmn_name = selection_data[2]
+    return if !pkmn
+    ret = remove_pokemon_at_index(index)
+    return if !show_message
+    if ret
+      pbMessage(_INTL("{1} has been removed!", pkmn_name))
+    else
+      pbMessage(_INTL("{1} can't be removed!", pkmn_name))
+    end
   end
 end

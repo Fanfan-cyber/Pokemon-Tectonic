@@ -1,6 +1,7 @@
 class String
-  # 为include?增加了别名
-  alias has? include?
+  alias_method :has?, :include?
+  alias_method :push, :<< # 在自身末尾增加某一部分
+  alias_method :add, :<< # 在自身末尾增加某一部分
 
   # 检查自身是否是数字字符串
   def number?
@@ -10,11 +11,6 @@ class String
   # 检查自身的第一个字符是否是数字
   def start_with_number?
     match?(/^\d/)
-  end
-
-  # 在自身末尾增加某一部分
-  def add(pushing)
-    "#{self}#{pushing}"
   end
 
   # 在自身开头增加某一部分
