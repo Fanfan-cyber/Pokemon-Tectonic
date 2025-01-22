@@ -220,7 +220,7 @@ class NewDexNav
             end
           end
           if obtained
-            pbMessage(_INTL("Enjoy your new pokemon!\\me[Pkmn get]\\wtnp[80]\1"))
+            pbMessage(_INTL("Enjoy your new Pokémon!\\me[Pkmn get]\\wtnp[80]\1"))
           else
             pbMessage(_INTL("You can't get any of these Pokémon!"))
           end
