@@ -24,6 +24,12 @@ class PokeBattle_Battle
     def pbPursuit(idxSwitcher)
         @switching = true
         pbPriority.each do |b|
+            next unless b.hasActiveAbility?(:TAG)
+            next if b.fainted? || !b.opposes?(idxSwitcher) # Shouldn't hit an ally
+            forceUseMove(b, :PURSUIT, idxSwitcher, ability: :TAG)
+            return if @decision > 0 || @battlers[idxSwitcher].fainted?
+        end
+        pbPriority.each do |b|
             next if b.fainted? || !b.opposes?(idxSwitcher) # Shouldn't hit an ally
             next if b.movedThisRound? || !pbChoseMoveFunctionCode?(b.index, "PursueSwitchingFoe") # Pursuit
             # Check whether Pursuit can be used
