@@ -162,13 +162,13 @@ module MessageConfig
 
     def self.pbGetSmallFontName
         #@@smallFont ||= pbDefaultSmallFontName
-        @@systemFont = pbDefaultSmallFontName
+        @@smallFont ||= pbDefaultSmallFontName
         return @@smallFont
     end
 
     def self.pbGetNarrowFontName
         #@@narrowFont ||= pbDefaultNarrowFontName
-        @@systemFont = pbDefaultNarrowFontName
+        @@narrowFont = pbDefaultNarrowFontName
         return @@narrowFont
     end
 
