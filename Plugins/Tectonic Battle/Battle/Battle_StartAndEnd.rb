@@ -695,7 +695,11 @@ class PokeBattle_Battle
     end
 
     def pbEndOfBattle(ableBeforeFight = nil)
-        @decision = 2 if ableBeforeFight && trainerBattle? && $Trainer.able_pokemon_count < ableBeforeFight && !debugControl
+        not_perfect = ""
+        if @decision != 2 && ableBeforeFight && trainerBattle? && $Trainer.able_pokemon_count < ableBeforeFight && !debugControl
+          @decision = 2
+          not_perfect = _INTL("\n Some of your Pokémon fainted in battle.")
+        end
 
         oldDecision = @decision
         @decision = 4 if @decision == 1 && wildBattle? && @caughtPokemon.length > 0
@@ -760,13 +764,13 @@ class PokeBattle_Battle
                 if trainerBattle?
                     case @opponent.length
                     when 1
-                        pbDisplayPaused(_INTL("You lost against {1}!", @opponent[0].full_name))
+                        pbDisplayPaused(_INTL("You lost against {1}!{2}", @opponent[0].full_name, not_perfect))
                     when 2
-                        pbDisplayPaused(_INTL("You lost against {1} and {2}!",
-                          @opponent[0].full_name, @opponent[1].full_name))
+                        pbDisplayPaused(_INTL("You lost against {1} and {2}!{3}",
+                          @opponent[0].full_name, @opponent[1].full_name, not_perfect))
                     when 3
-                        pbDisplayPaused(_INTL("You lost against {1}, {2} and {3}!",
-                          @opponent[0].full_name, @opponent[1].full_name, @opponent[2].full_name))
+                        pbDisplayPaused(_INTL("You lost against {1}, {2} and {3}!{4}",
+                          @opponent[0].full_name, @opponent[1].full_name, @opponent[2].full_name, not_perfect))
                     end
                     $Trainer.increase_ta(:lost) if !$Trainer.get_ta(:battle_loader)
                 end
