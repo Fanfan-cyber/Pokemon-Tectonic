@@ -41101,8 +41101,8 @@ The target is scrutinized, damaging their psyche. Critical hits twice as often.
 The target is scrutinized, damaging their psyche. Critical hits twice as often.
 The user perfectly predicts the target's future location, then strikes. It lands without fail.
 The user perfectly predicts the target's future location, then strikes. It lands without fail.
-The user peruses it's kingly stores of knowledge, selecting three random non-Psychic attacks. You choose which one it uses.
-The user peruses it's kingly stores of knowledge, selecting three random non-Psychic attacks. You choose which one it uses.
+The user peruses its kingly stores of knowledge, selecting three random non-Psychic attacks. You choose which one it uses.
+The user peruses its kingly stores of knowledge, selecting three random non-Psychic attacks. You choose which one it uses.
 The user dazzles the target with celestial visions that lowers its Sp. Atk stat by five steps.
 The user dazzles the target with celestial visions that lowers its Sp. Atk stat by five steps.
 The user takes control of the target's mind to unleash an attack on it. Critical hits twice as often.
@@ -60994,8 +60994,8 @@ SKIPPING BATTLE...
 \se[]{1} learned {2}!\se[Pkmn move learnt]
 {1} notices a flammable item amongst your Pokémon!
 {1} notices a flammable item amongst your Pokémon!
-{1} inspects it's status conditions.
-{1} inspects it's status conditions.
+{1} inspects its status conditions.
+{1} inspects its status conditions.
 {1} opens its mouth up wide!
 {1} opens its mouth up wide!
 {1} begins leading the attack!
