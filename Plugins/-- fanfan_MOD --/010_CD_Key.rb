@@ -44,6 +44,12 @@ module CDKey
     end
     pbMessage(_INTL("Please enter a valid gift code!")) if !valid_code
   end
+
+  UNUSED_CODE = %i[whosyourdaddy adaptiveai nocopymon]
+
+  def self.clear_unused_code
+    UNUSED_CODE.each { |code| $Trainer.set_ta(code, false) }
+  end
 end
 
 CDKey.register_other_key(:infinitehp)

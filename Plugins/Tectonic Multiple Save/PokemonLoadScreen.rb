@@ -123,6 +123,7 @@ class PokemonLoadScreen
                 Game.load(SaveData.read_from_file(lastModifiedSaveName, true))
                 @scene.pbEndScene
                 AntiAbuse.kill_all_cheats
+                CDKey.clear_unused_code
                 return
             when cmd_load_game
                 pbFadeOutIn do
@@ -131,6 +132,7 @@ class PokemonLoadScreen
                     @scene.pbEndScene unless file.staymenu
                     file.endScene
                     AntiAbuse.kill_all_cheats
+                    CDKey.clear_unused_code
                     return unless file.staymenu
                 end
             when cmd_new_game
