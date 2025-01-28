@@ -1,8 +1,8 @@
 class PokeBattle_Battler
-  # 为精灵从特性库中随机添加一个特性
+  # 为精灵从特性池中随机添加一个特性
   def add_random_ability(showcase = false, trigger = true)
     return if fainted?
-    added_abil = choose_random_ability(self)
+    added_abil = TA.choose_random_ability(self)
     addAbility(added_abil, showcase, trigger)
   end
 
@@ -82,6 +82,10 @@ class PokeBattle_Battler
     end
 
     @battle.ai_update_abilities(self, abils: @ability_ids)
+  end
+
+  def has_all_abils?
+    TA.all_available_abilities.all? { |abil| abilities.include?(abil) }
   end
 
   def should_apply_adaptive_ai_v4?(target, move)

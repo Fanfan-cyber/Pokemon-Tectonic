@@ -1316,7 +1316,7 @@ def pbAnimationEditor
   end
   Graphics.resize_screen(Settings::SCREEN_WIDTH + 288, Settings::SCREEN_HEIGHT + 288)
   pbSetResizeFactor(1)
-  export_anim_list
+  TA.export_move_anim_list
   animationEditorMain(animation)
   Graphics.resize_screen(Settings::SCREEN_WIDTH, Settings::SCREEN_HEIGHT)
   pbSetResizeFactor($PokemonSystem.screensize)

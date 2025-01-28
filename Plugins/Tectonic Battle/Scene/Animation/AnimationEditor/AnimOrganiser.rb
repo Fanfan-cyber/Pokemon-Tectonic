@@ -4,7 +4,7 @@ def pbAnimationsOrganiser
     pbMessage(_INTL("No animations exist."))
     return
   end
-  export_anim_list
+  TA.export_move_anim_list
   viewport = Viewport.new(0,0,Graphics.width,Graphics.height)
   viewport.z = 99999
   cmdwin = pbListWindow([])

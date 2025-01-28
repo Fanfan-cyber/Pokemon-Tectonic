@@ -17,18 +17,6 @@ Events.onTrainerPartyLoad += proc { |_sender, e|
 }
 
 Events.onTrainerPartyLoad += proc { |_sender, e|
-  next if !$Trainer.get_ta(:customabil)
-  trainer = e[0]
-  next if !trainer
-  trainer.party.each do |pkmn|
-    next if pkmn.has_main_ability?
-    #pkmn.ability = choose_random_ability
-    possible_abil = choose_random_ability_from_player(pkmn)
-    pkmn.ability = possible_abil if possible_abil
-  end
-}
-
-Events.onTrainerPartyLoad += proc { |_sender, e|
   trainer = e[0]
   next if !trainer
   player_level = $Trainer.party_highest_level
@@ -39,5 +27,17 @@ Events.onTrainerPartyLoad += proc { |_sender, e|
     pkmn.level += $Trainer.get_ta(:kill_count, 0)
     pkmn.calc_stats
     pkmn.heal
+  end
+}
+
+Events.onTrainerPartyLoad += proc { |_sender, e|
+  next if !$Trainer.get_ta(:customabil)
+  trainer = e[0]
+  next if !trainer
+  trainer.party.each do |pkmn|
+    next if pkmn.has_main_ability?
+    #pkmn.ability = TA.choose_random_ability(pkmn)
+    possible_abil = TA.choose_random_ability_from_player(pkmn)
+    pkmn.ability = possible_abil if possible_abil
   end
 }

@@ -28,6 +28,129 @@ module TA
     end
   end
 
+  def self.get(var, default = nil)
+    $Trainer&.get_ta(var, default)
+  end
+
+  def self.set(var, value)
+    $Trainer&.set_ta(var, value)
+  end
+
+  def self.increase(var, increment = 1)
+    $Trainer&.increase_ta(var, increment)
+  end
+
+  def self.find_pkmn(species: nil, form: 0, shiny: false, place: :party)
+    return unless species
+    case place
+    when :party
+      each_party_pkmn do |pkmn|
+        return pkmn if pkmn&.match_criteria?(species: species, form: form, shiny: shiny)
+      end
+      return
+    when :pc
+      each_pc_pkmn do |pkmn|
+        return pkmn if pkmn&.match_criteria?(species: species, form: form, shiny: shiny)
+      end
+      return
+    when :all
+      each_available_pkmn do |pkmn|
+        return pkmn if pkmn&.match_criteria?(species: species, form: form, shiny: shiny)
+      end
+      return
+    end
+  end
+
+  def self.each_party_pkmn
+    $Trainer.party.each_with_index { |pkmn, i| yield(pkmn, i) if pkmn }
+  end
+
+  def self.each_pc_pkmn
+    Settings::NUM_STORAGE_BOXES.times do |box_index|
+      $PokemonStorage.maxPokemon(box_index).times do |pokemon_index|
+        pkmn = $PokemonStorage[box_index][pokemon_index]
+        yield(pkmn, box_index, pokemon_index) if pkmn
+      end
+    end
+  end
+
+  def self.each_available_pkmn(party: -1)
+    (party...Settings::NUM_STORAGE_BOXES).each do |box_index| # -1 is party
+      $PokemonStorage.maxPokemon(box_index).times do |pokemon_index|
+        pkmn = $PokemonStorage[box_index][pokemon_index]
+        yield(pkmn, box_index, pokemon_index) if pkmn
+      end
+    end
+  end
+
+  # 可允许被随机获得的精灵的精灵池
+  BLACK_LIST_PKMN = []
+  @@pkmn_pool = []
+  def self.all_available_species
+    return @@pkmn_pool unless @@pkmn_pool.empty?
+    GameData::Species.each do |species|
+      next if BLACK_LIST_PKMN.include?(species.id)
+      next if species.mega_stone
+      next if species.flags.include?("Legendary")
+      next if species.flags.include?("Test")
+      @@pkmn_pool.push(species.id)
+    end
+    @@pkmn_pool
+  end
+
+  # 可允许被随机获得的特性的特性池
+  BLACK_LIST_ABILS = []
+  @@abils_pool = []
+  def self.all_available_abilities
+    return @@abils_pool unless @@abils_pool.empty?
+    GameData::Ability.each do |abil|
+      next if BLACK_LIST_ABILS.include?(abil.id)
+      next if abil.primeval || abil.cut
+      next if abil.is_test?
+      next if abil.is_uncopyable_ability?
+      @@abils_pool.push(abil.id)
+    end
+    @@abils_pool
+  end
+
+  # 从特性库中随机选择一个特性
+  def self.choose_random_ability(pkmn_battler = nil)
+    return if pkmn_battler && pkmn_battler.has_all_abils?
+    loop do
+      random_abil = all_available_abilities.sample
+      next if pkmn_battler && pkmn_battler.abilities.include?(random_abil)
+      return random_abil
+    end
+  end
+
+  # 从玩家队伍的所有物种特性中随机选择一个特性
+  def self.choose_random_ability_from_player(pkmn_battler = nil)
+    abilis_pool = []
+    each_party_pkmn do |pkmn|
+      pkmn.species_abilities.each do |abil_id|
+        abil = GameData::Ability.get(abil_id)
+        next if abil.primeval || abil.cut
+        next if abil.is_test?
+        next if abil.is_uncopyable_ability?
+        next if pkmn_battler && pkmn_battler.abilities.include?(abil_id)
+        next if abilis_pool.include?(abil_id)
+        abilis_pool.push(abil_id)
+      end
+    end
+    abilis_pool.sample
+  end
+
+  # 应用正态分布获取随机数
+  def self.gaussian(mean, standard_deviation)
+    loop do
+      z = Math.sqrt(-2.0 * Math.log(rand)) * Math.cos(2.0 * Math::PI * rand)
+      random_number = mean + standard_deviation * z
+      if random_number >= mean - standard_deviation && random_number <= mean + standard_deviation
+        return random_number.round
+      end
+    end
+  end
+
   # 导出技能的动画列表
   def self.export_move_anim_list
     list = pbLoadBattleAnimations
@@ -37,21 +160,6 @@ module TA
     file = File.open("PBS/move_anim_list.txt", "wb")
     file.write(all_entries)
     file.close
-  end
-
-  # 可允许被随机获得的精灵的精灵池
-  BLACK_LIST = []
-  @@pkmn_pool = []
-  def self.all_available_species
-    return @@pkmn_pool if !@@pkmn_pool.empty?
-    GameData::Species.each do |species|
-      next if BLACK_LIST.include?(species)
-      next if species.mega_stone
-      next if species.flags.include?("Legendary")
-      next if species.flags.include?("Test")
-      @@pkmn_pool.push(species.id)
-    end
-    @@pkmn_pool
   end
 
   # 导出Script的代码到txt
@@ -65,9 +173,9 @@ module TA
 
     File.open("#{path}Essentials_Scripts.txt", "wb") { |file|
       essentials_scripts.each do |script|
-        file.write("#{self.bigline}\n")
+        file.write("#{bigline}\n")
         file.write("# Script Page: #{script[1]}\n")
-        file.write("#{self.bigline}\n")
+        file.write("#{bigline}\n")
         code = Zlib::Inflate.inflate(script[2]).force_encoding(Encoding::UTF_8)
         file.write("#{code.gsub("\t", "    ")}\n\n")
       end
@@ -92,9 +200,9 @@ module TA
         scripts = plugin[2]
         scripts.each do |script|
           script_path = script[0]
-          file.write("#{self.bigline}\n")
+          file.write("#{bigline}\n")
           file.write("# Plugin Page: #{plugin_name}/#{script_path}\n")
-          file.write("#{self.bigline}\n")
+          file.write("#{bigline}\n")
           code = Zlib::Inflate.inflate(script[1]).force_encoding(Encoding::UTF_8)
           file.write("#{code.gsub("\t", "    ")}\n\n")
         end
@@ -223,16 +331,5 @@ module TA
     }
     col = color[key.upcase.to_sym] || color[:BLACK]
     Color.new(*col, opacity)
-  end
-
-  # 应用正态分布获取随机数
-  def gaussian(mean, standard_deviation)
-    loop do
-      z = Math.sqrt(-2.0 * Math.log(rand)) * Math.cos(2.0 * Math::PI * rand)
-      random_number = mean + standard_deviation * z
-      if random_number >= mean - standard_deviation && random_number <= mean + standard_deviation
-        return random_number.round
-      end
-    end
   end
 end

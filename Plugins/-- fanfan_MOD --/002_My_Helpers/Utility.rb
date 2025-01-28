@@ -1,33 +1,3 @@
-# 获取TA的某个变量值
-def get_ta(var)
-  $Trainer&.get_ta(var)
-end
-
-# 设置TA的某个变量的值
-def set_ta(var, value)
-  $Trainer&.set_ta(var, value)
-end
-
-# 导出技能的动画列表
-def export_anim_list
-  TA.export_move_anim_list
-end
-
-# 导出Script的代码到txt
-def export_script
-  TA.write_all_scripts_in_txt
-end
-
-# 导出Plugin的代码到txt
-def export_plugin(encrypted = false)
-  TA.write_all_plugins_in_txt(encrypted)
-end
-
-# 导出Plugin的代码
-def export_plugin_ex(encrypted = false)
-  TA.write_all_plugins(encrypted)
-end
-
 # 获取当前游戏使用的语言
 def get_language
   Settings::LANGUAGES[$PokemonSystem.language || 0][0]
@@ -74,39 +44,6 @@ end
 # 把队伍中的某只精灵移动到另一个位置
 def pbSwapPartyPosition(species, new_index = 0, form = 0)
   $Trainer&.pbSwapPartyPosition(species, new_index, form)
-end
-
-# 从特性库中随机选择一个特性
-def choose_random_ability(battler = nil)
-  return if battler && battler.fainted?
-  abilis_pool = []
-  GameData::Ability.each do |abil|
-    next if abil.primeval || abil.cut
-    next if abil.is_test?
-    next if abil.is_uncopyable_ability?
-    next if battler && battler.abilities.include?(abil.id)
-    next if abilis_pool.include?(abil.id)
-    abilis_pool.push(abil.id)
-  end
-  abilis_pool.sample
-end
-
-# 从玩家队伍的所有物种特性中随机选择一个特性
-def choose_random_ability_from_player(battler = nil)
-  return if battler && battler.fainted?
-  abilis_pool = []
-  $Trainer.each_pkmn do |pkmn|
-    pkmn.species_abilities.each do |abil_id|
-      abil = GameData::Ability.get(abil_id)
-      next if abil.primeval || abil.cut
-      next if abil.is_test?
-      next if abil.is_uncopyable_ability?
-      next if battler && battler.abilities.include?(abil_id)
-      next if abilis_pool.include?(abil_id)
-      abilis_pool.push(abil_id)
-    end
-  end
-  abilis_pool.sample
 end
 
 # 从队伍中选择一只精灵

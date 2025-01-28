@@ -770,6 +770,7 @@ class PokeBattle_Battler
     end
 
     def addAbility(newAbility, showcase = false, trigger = false)
+        return unless newAbility
         return if @ability_ids.include?(newAbility)
         newAbility = GameData::Ability.try_get(newAbility).id
         @ability_ids.push(newAbility)
