@@ -1062,6 +1062,8 @@ class PokemonOptionMenu < PokemonPauseMenu
                     loadLanguage
                     languageName = Settings::LANGUAGES[$PokemonSystem.language][0]
                     pbMessage(_INTL("Game language changed to {1}!",languageName))
+                    TA.set(:language_changed, true)
+                    break
                 end
                 next
             elsif cmdControlsMapping > 0 && infoCommand == cmdControlsMapping

@@ -236,7 +236,10 @@ class TilingCardsMenu_Scene
 				else
 					@buttonSelectionIndex += (@columnCount - 1)
 				end
-			end
+      elsif TA.get(:language_changed)
+        closeMenu = true
+        TA.set(:language_changed, false)
+      end
 
 			buttonCount = @cardButtons.keys.length
 			if @buttonSelectionIndex >= buttonCount
