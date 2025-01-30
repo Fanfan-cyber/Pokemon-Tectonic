@@ -270,7 +270,8 @@ $Trainer.name))
                         pbLoadMessages("Data/" + Settings::LANGUAGES[$PokemonSystem.language][1])
                         saveData = fileLoad(true)
                         saveData[:pokemon_system] = $PokemonSystem
-                        File.open(FileSave.name(@position + 1), "wb") { |file| Marshal.dump(saveData, file) }
+                        encrypted_data = [Zlib::Deflate.deflate(Marshal.dump(saveData))].pack("m")
+                        File.open(FileSave.name(@position + 1), "wb") { |file| file.write(encrypted_data) }
                         @posinfor = 0
                         @qinfor = 0
                         @mysgif = false
