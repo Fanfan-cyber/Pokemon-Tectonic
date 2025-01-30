@@ -1,33 +1,33 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-[ADAPTIVEAIV1] # 0687
+[ADAPTIVEAIV1] # 0689
 Name = Adaptive AI v1
 Description = Adapts the move's type to ensure it is super-effective against the target.
 #-------------------------------
-[ADAPTIVEAIV2] # 0688
+[ADAPTIVEAIV2] # 0690
 Name = Adaptive AI v2
 Description = Adapts the move's type to ensure it is truly super-effective against the target.
 #-------------------------------
-[ADAPTIVEAIV3] # 0689
+[ADAPTIVEAIV3] # 0691
 Name = Adaptive AI v3
 Description = Adapts the move's type to maximize effectiveness while accounting for the immunities.
 #-------------------------------
-[ADAPTIVEAIV4] # 0690
+[ADAPTIVEAIV4] # 0692
 Name = Adaptive AI v4
 Description = Adapts the move's type to maximize damage against the target.
 #-------------------------------
-[EMPOWERING] # 0691
+[EMPOWERING] # 0693
 Name = Empowering
 Description = Stats that the Pokémon raises remain raised even after switching.
 #-------------------------------
-[OMNIPRESENT] # 0692
+[OMNIPRESENT] # 0694
 Name = Omnipresent
 Description = Can switch out of battle without wasting a turn.
 #-------------------------------
-[SEVENTYTWOTRANSFORMATIONS] # 0693
+[SEVENTYTWOTRANSFORMATIONS] # 0695
 Name = 72 Transformations
 Description = Changes to a random Pokémon at the end of each turn.
 #-------------------------------
-[TAG] # 0694
+[TAG] # 0696
 Name = Tag
 Description = Attacks switching opponents with Pursuit.
