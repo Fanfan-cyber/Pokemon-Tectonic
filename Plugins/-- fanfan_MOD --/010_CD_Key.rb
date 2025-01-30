@@ -48,7 +48,7 @@ module CDKey
   UNUSED_CODE = %i[whosyourdaddy adaptiveai nocopymon]
 
   def self.clear_unused_code
-    UNUSED_CODE.each { |code| $Trainer.set_ta(code, false) }
+    UNUSED_CODE.each { |code| $Trainer&.set_ta(code, false) }
   end
 end
 
