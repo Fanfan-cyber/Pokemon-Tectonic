@@ -23,6 +23,7 @@ end
 module AntiAbuse
   DEBUG_PASSWORD  = "12138"
   GAME_OFFICIAL   = %w[宝可饭堂 pokefans 地震啦！！！ 493645591]
+  GO_SOURCE_CHECK = false
   OFFICIAL_SITE   = "https://bbs.pokefans.xyz/threads/598/"
   CHEAT_CLASS     = [:CheatItemsAdapter, :ScreenCheat_Items, :SceneCheat_Items, :Scene_Cheat, :Window_GetItem, :PokemonLoad]
   CHEAT_METHOD    = [:pbenabledebug, :pbDebugMenu]
@@ -43,6 +44,11 @@ module AntiAbuse
   end
 
   def self.check_claim
+    unless GO_SOURCE_CHECK
+      pbMessage(_INTL("This mod is created by Fanfan.\nIf you paid for it, you've been duped!"))
+      pbMessage(_INTL("Have a good one!"))
+      return
+    end
     if pbConfirmMessageSerious(_INTL("Did you download the game from the official source?"))
       pbMessage(_INTL("Please enter the forum where you downloaded the game. (Website or QQ group)"))
       forum = pbEnterText(_INTL("Enter the right source."), 0, 32)
