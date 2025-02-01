@@ -7,7 +7,7 @@ def default_field
 end
 
 class PokeBattle_Battle
-  attr_reader :stacked_fields 
+  attr_reader :stacked_fields
   attr_reader :current_field
 
   def create_base_field

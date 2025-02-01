@@ -1,6 +1,7 @@
 module Enumerable
   # 为include?添加了一些别名
   alias has? include?
+  alias contain? include?
   alias includes? include?
   alias contains? include?
 

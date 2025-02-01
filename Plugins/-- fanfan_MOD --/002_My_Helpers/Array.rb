@@ -55,13 +55,11 @@ class Array
   # 随机删除数组中的元素
   def delete_random(count = 1)
     return self if empty? || count <= 0
-
     deleted_elements = []
     count.times do
       index = rand(length)
       deleted_elements << delete_at(index)
     end
-
     deleted_elements
   end
 
