@@ -335,7 +335,7 @@ target.pbThis(true)))
             return false
         end
 
-        priority = battle.choices[user.index][4] || move.priority
+        priority = @battle.choices[user.index][4] || move.priority
         ret = @battle.apply_field_effect(:block_move, move, user, target, typeMod, show_message, priority, aiCheck)
         return false if ret
 
