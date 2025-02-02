@@ -29,14 +29,16 @@ SaveData.register(:game_system) do
   from_old_format { |old_format| old_format[2] }
 end
 
+=begin
 SaveData.register(:pokemon_system) do
   load_in_bootup
-  ensure_class :PokemonSystem
-  save_value { $PokemonSystem }
-  load_value { |value| $PokemonSystem = value }
-  new_game_value { PokemonSystem.new }
+  ensure_class :Options
+  save_value { $Options }
+  load_value { |value| $Options = value }
+  new_game_value { Options.new }
   from_old_format { |old_format| old_format[3] }
 end
+=end
 
 SaveData.register(:switches) do
   ensure_class :Game_Switches
