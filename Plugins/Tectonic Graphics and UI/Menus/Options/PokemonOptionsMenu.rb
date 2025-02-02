@@ -38,6 +38,7 @@ class PokemonOptionMenu < PokemonPauseMenu
               languageName = Settings::LANGUAGES[$Options.language][0]
               pbMessage(_INTL("Game language changed to {1}!",languageName))
               TA.set(:language_changed, true)
+              $Options.storeOptions
               break
           end
           next
