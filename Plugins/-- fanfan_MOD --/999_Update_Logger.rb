@@ -8,7 +8,6 @@
 同一边可以同时显示多个特性条
 永久喷雾
 无限离洞绳
-修复存档的语言无法被保存的问题（SaveData.register(:pokemon_system）
 =end
 MOD_VERSION = "0.1.7"
 
