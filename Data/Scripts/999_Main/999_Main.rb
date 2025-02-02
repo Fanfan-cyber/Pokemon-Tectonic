@@ -28,6 +28,7 @@ def mainFunctionDebug
     Compiler.main
     Game.initialize
     Game.set_up_system
+    pbSetResizeFactor($Options.screensize)
     Graphics.update
     Graphics.freeze
     $scene = pbCallTitle
