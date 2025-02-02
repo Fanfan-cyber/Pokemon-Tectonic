@@ -106,7 +106,7 @@ class PokemonLoadScreen
             commands[cmd_load_game = commands.length]   = _INTL("Load Game")
         end
         commands[cmd_new_game = commands.length]        = _INTL("New Game")
-        commands[cmd_options = commands.length]         = _INTL("Options")
+        #commands[cmd_options = commands.length]         = _INTL("Options")
         commands[cmd_achievements = commands.length]    = _INTL("Achievements")
         commands[cmd_check_update = commands.length]    = _INTL("Check Update") if is_chinese?
         commands[cmd_website = commands.length]         = _INTL("Website")
