@@ -1,11 +1,11 @@
 # 获取当前游戏使用的语言
 def get_language
-  Settings::LANGUAGES[$PokemonSystem.language || 0][0]
+  Settings::LANGUAGES[$Options.language || 0][0]
 end
 
 # 检查游戏当前使用的语言是否为简体中文
 def is_chinese?
-  Settings::LANGUAGES[$PokemonSystem.language || 0][0] == "Simplified Chinese"
+  Settings::LANGUAGES[$Options.language || 0][0] == "Simplified Chinese"
 end
 
 # 检查队伍是否有携带重复物品

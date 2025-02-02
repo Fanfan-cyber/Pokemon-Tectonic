@@ -902,11 +902,11 @@ def _MAPISPRINTF(mapid,*arg)
 end
 
 def currentLanguageName
-    return Settings::LANGUAGES[$PokemonSystem.language][1][0..-5]
+    return Settings::LANGUAGES[$Options.language][1][0..-5]
 end
 
 def addLanguageSuffix(fileName)
-    return fileName if $PokemonSystem.language == 0 # Add nothing for English
+    return fileName if $Options.language == 0 # Add nothing for English
     potentialFileName = fileName + "_" + currentLanguageName
     fileNameToTest = potentialFileName
     fileNameToTest += ".png" unless fileNameToTest.end_with?(".png")
@@ -918,7 +918,7 @@ def addLanguageSuffix(fileName)
 end
 
 def languageDataFileName
-  return 'Data/' + Settings::LANGUAGES[$PokemonSystem.language][1]
+  return 'Data/' + Settings::LANGUAGES[$Options.language][1]
 end
 
 def loadLanguage

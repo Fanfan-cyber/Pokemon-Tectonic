@@ -47,12 +47,10 @@ module SaveData
 		# Updating to a new version
 		if convert && !save_data.empty? && PluginManager.compare_versions(save_data[:game_version], Settings::GAME_VERSION) < 0
 			if run_conversions(save_data, file_path)
-        encrypted_data = [Zlib::Deflate.deflate(Marshal.dump(save_data))].pack("m")
-        File.open(file_path, "wb") { |file| file.write(encrypted_data) }
+				File.open(file_path, 'wb') { |file| Marshal.dump(save_data, file) }
 			end
 			if removeIllegalElementsFromAllPokemon(save_data)
-        encrypted_data = [Zlib::Deflate.deflate(Marshal.dump(save_data))].pack("m")
-        File.open(file_path, "wb") { |file| file.write(encrypted_data) }
+				File.open(file_path, 'wb') { |file| Marshal.dump(save_data, file) }
 			end
 		end
 		return save_data

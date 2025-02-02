@@ -298,6 +298,60 @@ class PokemonBag_Scene
               elsif Input.trigger?(Input::USE)   # Choose selected item
                 (itemwindow.item) ? pbPlayDecisionSE : pbPlayCloseMenuSE
                 return itemwindow.item
+
+              # Quick register/unregister
+              elsif MInput.trigger?(:R)
+                if !@choosing && pbCanRegisterItem?(itemwindow.item)
+                    if @bag.pbIsRegistered?(itemwindow.item)
+                      pbPlayDecisionSE
+                      @bag.pbUnregisterItem(itemwindow.item)
+                    else
+                      pbPlayDecisionSE
+                      @bag.pbRegisterItem(itemwindow.item)
+                    end
+                    pbRefresh
+                end
+
+              # Item search
+              elsif Input.trigger?(Input::SPECIAL) && !thispocket.empty?
+                searchText = pbEnterText(_INTL("Search what?"), 0, 30)
+                if !searchText.empty?
+                  # pocket contents look like [[:SEVENLEAGUEBOOTS, 1], [:AGILITYHERB, 1], [:CHERIBERRY, 1]...
+                  matchedIndexes = []
+                  matchedItems = []
+                  thispocket.each_with_index do |potentialItem, potentialIndex|
+                    item = GameData::Item.get(potentialItem[0])
+                    description = "#{item.name}#{item.description}"
+                    if description.downcase.include?(searchText.downcase)
+                      matchedIndexes.push(potentialIndex)
+                      matchedItems.push(potentialItem[0])
+                    end
+                  end
+
+                  if matchedIndexes.length == 1
+                    itemwindow.index = matchedIndexes[0]
+                    @bag.setChoice(itemwindow.pocket, matchedIndexes[0])
+                    pbRefresh
+                    pbPlayDecisionSE
+                    return itemwindow.item
+                  elsif matchedIndexes.length > 1
+                    item_data = pbChooseItemFromListEX(_INTL("Which item?"), matchedItems)
+                    if item_data
+                      thispocket.each_with_index do |potentialItem, potentialIndex|
+                        if potentialItem[0] == item_data[0]
+                          itemwindow.index = potentialIndex
+                          @bag.setChoice(itemwindow.pocket, potentialIndex)
+                          pbRefresh
+                          pbPlayDecisionSE
+                          return itemwindow.item
+                        end
+                      end
+                    end
+                  else
+                    pbMessage(_INTL("Found nothing!"))
+                  end
+                end
+
               end
             end
           end

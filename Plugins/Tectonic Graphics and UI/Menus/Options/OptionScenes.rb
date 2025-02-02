@@ -312,7 +312,7 @@ class PokemonOption_Scene_UserInterface < PokemonOption_Scene_Base
 			),
 			EnumOption.new(
                 _INTL("Text Entry"),
-                _INTL("Which method you want to use to enter text."),
+                _INTL("Which method you want to use to enter text. (Use Cursor for Chinese)"),
                 [_INTL("Cursor"), _INTL("Keyboard")],
 				proc { $Options.textinput },
 				proc { |value| $Options.textinput = value }

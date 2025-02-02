@@ -50,7 +50,7 @@ class Game_System
 
   def bgm_play_internal2(name,volume,pitch,position) # :nodoc:
     vol = volume
-    vol *= $PokemonSystem.bgmvolume/100.0
+    vol *= $Options.bgmvolume/100.0
     vol = vol.to_i
     begin
       Audio.bgm_play(name,vol,pitch,position)
@@ -149,7 +149,7 @@ class Game_System
     if me!=nil && me.name!=""
       if FileTest.audio_exist?("Audio/ME/"+me.name)
         vol = me.volume
-        vol *= $PokemonSystem.bgmvolume/100.0
+        vol *= $Options.bgmvolume/100.0
         vol = vol.to_i
         Audio.me_play("Audio/ME/"+me.name,vol,me.pitch)
       end
@@ -166,7 +166,7 @@ class Game_System
     if bgs!=nil && bgs.name!=""
       if FileTest.audio_exist?("Audio/BGS/"+bgs.name)
         vol = bgs.volume
-        vol *= $PokemonSystem.sevolume/100.0
+        vol *= $Options.sevolume/100.0
         vol = vol.to_i
         Audio.bgs_play("Audio/BGS/"+bgs.name,vol,bgs.pitch)
       end
@@ -232,7 +232,7 @@ class Game_System
     se = RPG::AudioFile.new(se) if se.is_a?(String)
     if se!=nil && se.name!="" && FileTest.audio_exist?("Audio/SE/"+se.name)
       vol = se.volume
-      vol *= $PokemonSystem.sevolume/100.0
+      vol *= $Options.sevolume/100.0
       vol = vol.to_i
       Audio.se_play("Audio/SE/"+se.name,vol,se.pitch)
     end
