@@ -207,154 +207,102 @@ class PokemonBag_Scene
   
     # Called when the item screen wants an item to be chosen from the screen
     def pbChooseItem
-      @sprites["helpwindow"].visible = false
-      itemwindow = @sprites["itemlist"]
-      thispocket = @bag.pockets[itemwindow.pocket]
-      swapinitialpos = -1
-      pbActivateWindow(@sprites, "itemlist") {
-        loop do
-          oldindex = itemwindow.index
-          Graphics.update
-          Input.update
-          pbUpdate
-          if itemwindow.sorting && itemwindow.index >= thispocket.length
-            itemwindow.index = (oldindex == thispocket.length - 1) ? 0 : thispocket.length - 1
-          end
-          if itemwindow.index != oldindex
-            # Move the item being switched
+        @sprites["helpwindow"].visible = false
+        itemwindow = @sprites["itemlist"]
+        thispocket = @bag.pockets[itemwindow.pocket]
+        swapinitialpos = -1
+        pbActivateWindow(@sprites,"itemlist") {
+          loop do
+            oldindex = itemwindow.index
+            Graphics.update
+            Input.update
+            pbUpdate
+            if itemwindow.sorting && itemwindow.index>=thispocket.length
+              itemwindow.index = (oldindex==thispocket.length-1) ? 0 : thispocket.length-1
+            end
+            if itemwindow.index!=oldindex
+              # Move the item being switched
+              if itemwindow.sorting
+                thispocket.insert(itemwindow.index,thispocket.delete_at(oldindex))
+              end
+              # Update selected item for current pocket
+              @bag.setChoice(itemwindow.pocket,itemwindow.index)
+              pbRefresh
+            end
             if itemwindow.sorting
-              thispocket.insert(itemwindow.index, thispocket.delete_at(oldindex))
-            end
-            # Update selected item for current pocket
-            @bag.setChoice(itemwindow.pocket, itemwindow.index)
-            pbRefresh
-          end
-          if itemwindow.sorting
-            if Input.trigger?(Input::ACTION) || Input.trigger?(Input::USE)
-              itemwindow.sorting = false
-              pbPlayDecisionSE
-              pbRefresh
-            elsif Input.trigger?(Input::BACK)
-              thispocket.insert(swapinitialpos, thispocket.delete_at(itemwindow.index))
-              itemwindow.index = swapinitialpos
-              itemwindow.sorting = false
-              pbPlayCancelSE
-              pbRefresh
-            end
-          else
-            # Change pockets
-            if Input.trigger?(Input::LEFT)
-              newpocket = itemwindow.pocket
-              loop do
-                newpocket = (newpocket == 1) ? PokemonBag.numPockets : newpocket - 1
-                break if !@choosing || newpocket == itemwindow.pocket
-                if @filterlist
-                  break if @filterlist[newpocket].length > 0
-                else
-                  break if @bag.pockets[newpocket].length > 0
-                end
-              end
-              if itemwindow.pocket != newpocket
-                itemwindow.pocket = newpocket
-                @bag.lastpocket = itemwindow.pocket
-                thispocket = @bag.pockets[itemwindow.pocket]
-                pbPlayCursorSE
+              if Input.trigger?(Input::ACTION) ||
+                 Input.trigger?(Input::USE)
+                itemwindow.sorting = false
+                pbPlayDecisionSE
+                pbRefresh
+              elsif Input.trigger?(Input::BACK)
+                thispocket.insert(swapinitialpos,thispocket.delete_at(itemwindow.index))
+                itemwindow.index = swapinitialpos
+                itemwindow.sorting = false
+                pbPlayCancelSE
                 pbRefresh
               end
-            elsif Input.trigger?(Input::RIGHT)
-              newpocket = itemwindow.pocket
-              loop do
-                newpocket = (newpocket == PokemonBag.numPockets) ? 1 : newpocket + 1
-                break if !@choosing || newpocket == itemwindow.pocket
-                if @filterlist
-                  break if @filterlist[newpocket].length > 0
-                else
-                  break if @bag.pockets[newpocket].length > 0
-                end
-              end
-              if itemwindow.pocket != newpocket
-                itemwindow.pocket = newpocket
-                @bag.lastpocket = itemwindow.pocket
-                thispocket = @bag.pockets[itemwindow.pocket]
-                pbPlayCursorSE
-                pbRefresh
-              end
-            elsif Input.trigger?(Input::ACTION)   # Start switching the selected item
-              if !@choosing
-                if thispocket.length > 1 && itemwindow.index < thispocket.length && $PokemonSystem.bag_sorting == 0
-                  itemwindow.sorting = true
-                  swapinitialpos = itemwindow.index
-                  pbPlayDecisionSE
-                  pbRefresh
-                else
-                  pbPlayBuzzerSE
-                end
-              end
-            elsif Input.trigger?(Input::BACK)   # Cancel the item screen
-              pbPlayCloseMenuSE
-              return nil
-            elsif Input.trigger?(Input::USE)   # Choose selected item
-              (itemwindow.item) ? pbPlayDecisionSE : pbPlayCloseMenuSE
-              return itemwindow.item
-
-            # Quick register/unregister
-            elsif MInput.trigger?(:R)
-              if !@choosing && pbCanRegisterItem?(itemwindow.item)
-                  if @bag.pbIsRegistered?(itemwindow.item)
-                    pbPlayDecisionSE
-                    @bag.pbUnregisterItem(itemwindow.item)
+            else
+              # Change pockets
+              if Input.trigger?(Input::LEFT)
+                newpocket = itemwindow.pocket
+                loop do
+                  newpocket = (newpocket==1) ? PokemonBag.numPockets : newpocket-1
+                  break if !@choosing || newpocket==itemwindow.pocket
+                  if @filterlist
+                    break if @filterlist[newpocket].length>0
                   else
+                    break if @bag.pockets[newpocket].length>0
+                  end
+                end
+                if itemwindow.pocket!=newpocket
+                  itemwindow.pocket = newpocket
+                  @bag.lastpocket   = itemwindow.pocket
+                  thispocket = @bag.pockets[itemwindow.pocket]
+                  pbPlayCursorSE
+                  pbRefresh
+                end
+              elsif Input.trigger?(Input::RIGHT)
+                newpocket = itemwindow.pocket
+                loop do
+                  newpocket = (newpocket==PokemonBag.numPockets) ? 1 : newpocket+1
+                  break if !@choosing || newpocket==itemwindow.pocket
+                  if @filterlist
+                    break if @filterlist[newpocket].length>0
+                  else
+                    break if @bag.pockets[newpocket].length>0
+                  end
+                end
+                if itemwindow.pocket!=newpocket
+                  itemwindow.pocket = newpocket
+                  @bag.lastpocket   = itemwindow.pocket
+                  thispocket = @bag.pockets[itemwindow.pocket]
+                  pbPlayCursorSE
+                  pbRefresh
+                end
+              elsif Input.trigger?(Input::ACTION)   # Start switching the selected item
+                if !@choosing
+                  if thispocket.length>1 && itemwindow.index < thispocket.length &&
+                      $Options.bag_sorting == 0
+                    itemwindow.sorting = true
+                    swapinitialpos = itemwindow.index
                     pbPlayDecisionSE
-                    @bag.pbRegisterItem(itemwindow.item)
-                  end
-                  pbRefresh
-              end
-
-            # Item search
-            elsif Input.trigger?(Input::SPECIAL) && !thispocket.empty?
-              searchText = pbEnterText(_INTL("Search what?"), 0, 30)
-              if !searchText.empty?
-                # pocket contents look like [[:SEVENLEAGUEBOOTS, 1], [:AGILITYHERB, 1], [:CHERIBERRY, 1]...
-                matchedIndexes = []
-                matchedItems = []
-                thispocket.each_with_index do |potentialItem, potentialIndex|
-                  item = GameData::Item.get(potentialItem[0])
-                  description = "#{item.name}#{item.description}"
-                  if description.downcase.include?(searchText.downcase)
-                    matchedIndexes.push(potentialIndex)
-                    matchedItems.push(potentialItem[0])
+                    pbRefresh
+                  else
+                    pbPlayBuzzerSE
                   end
                 end
-
-                if matchedIndexes.length == 1
-                  itemwindow.index = matchedIndexes[0]
-                  @bag.setChoice(itemwindow.pocket, matchedIndexes[0])
-                  pbRefresh
-                  pbPlayDecisionSE
-                  return itemwindow.item
-                elsif matchedIndexes.length > 1
-                  item_data = pbChooseItemFromListEX(_INTL("Which item?"), matchedItems)
-                  if item_data
-                    thispocket.each_with_index do |potentialItem, potentialIndex|
-                      if potentialItem[0] == item_data[0]
-                        itemwindow.index = potentialIndex
-                        @bag.setChoice(itemwindow.pocket, potentialIndex)
-                        pbRefresh
-                        pbPlayDecisionSE
-                        return itemwindow.item
-                      end
-                    end
-                  end
-                else
-                  pbMessage(_INTL("Found nothing!"))
-                end
+              elsif Input.trigger?(Input::BACK)   # Cancel the item screen
+                pbPlayCloseMenuSE
+                return nil
+              elsif Input.trigger?(Input::USE)   # Choose selected item
+                (itemwindow.item) ? pbPlayDecisionSE : pbPlayCloseMenuSE
+                return itemwindow.item
               end
-
             end
           end
-        end
-      }
-    end
+        }
+      end
 
-    def supportsFusion?; return true; end
-end
+      def supportsFusion?; return true; end
+  end

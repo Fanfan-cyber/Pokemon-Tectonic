@@ -266,10 +266,10 @@ $Trainer.name))
                         end
                     # Language
                     elsif Settings::LANGUAGES.length >= 2 && (@posinfor == 2 || (@posinfor == 1 && !@mysgif)) && $DEBUG
-                        $PokemonSystem.language = pbChooseLanguage
-                        pbLoadMessages("Data/" + Settings::LANGUAGES[$PokemonSystem.language][1])
+                        $Options.language = pbChooseLanguage
+                        pbLoadMessages("Data/" + Settings::LANGUAGES[$Options.language][1])
                         saveData = fileLoad(true)
-                        saveData[:pokemon_system] = $PokemonSystem
+                        saveData[:pokemon_system] = $Options
                         encrypted_data = [Zlib::Deflate.deflate(Marshal.dump(saveData))].pack("m")
                         File.open(FileSave.name(@position + 1), "wb") { |file| file.write(encrypted_data) }
                         @posinfor = 0
@@ -492,7 +492,7 @@ $Trainer.name))
         exit unless pbConfirmMessageSerious(_INTL("Do you want to delete this save file?"))
         deleteFile
         $game_system   = Game_System.new
-        $PokemonSystem = PokemonSystem.new
+        $Options = Options.new
     end
 
     def fileLoad(convert = false)

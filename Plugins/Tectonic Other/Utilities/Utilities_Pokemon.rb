@@ -97,7 +97,7 @@ def pbNicknameAndStore(pkmn, nickname = true, dexnav: false)
   # Increase the caught count for the global metadata
   incrementDexNavCounts(dexnav) if defined?(incrementDexNavCounts)
 
-  if $PokemonSystem.nicknaming_prompt == 0 && nickname
+  if $Options.nicknaming_prompt == 0 && nickname
       pbNickname(pkmn)
   end
 

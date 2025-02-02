@@ -1319,6 +1319,6 @@ def pbAnimationEditor
   TA.export_move_anim_list
   animationEditorMain(animation)
   Graphics.resize_screen(Settings::SCREEN_WIDTH, Settings::SCREEN_HEIGHT)
-  pbSetResizeFactor($PokemonSystem.screensize)
+  pbSetResizeFactor($Options.screensize)
   $game_map.autoplay if $game_map
 end

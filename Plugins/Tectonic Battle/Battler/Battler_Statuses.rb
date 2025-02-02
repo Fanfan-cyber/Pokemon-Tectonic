@@ -353,7 +353,7 @@ immuneTypeRealName))
             if msg && !msg.empty?
                 @battle.pbDisplay(msg)
             else
-                if $PokemonSystem.status_effect_messages.zero?
+                if $Options.status_effect_messages.zero?
                     case newStatus
                     when :SLEEP
                         @battle.pbDisplay(_INTL("{1} fell asleep! {2}!", pbThis, getSleepExplanation))
@@ -649,7 +649,7 @@ immuneTypeRealName))
             poisonCount = getStatusCount(:POISON)
             yield if block_given?
 
-            showMessages = $PokemonSystem.status_effect_messages.zero?
+            showMessages = $Options.status_effect_messages.zero?
             
             case oneStatus
             when :SLEEP
