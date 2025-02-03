@@ -188,6 +188,46 @@ def pbChooseMoveFromListEX(message, input_ids, must_choose = false)
   return ids[ret], ret, names[ret]
 end
 
+def guess_effective(off_type = nil) # to-do def_types
+  # offensive
+  if off_type
+    offensive_type = GameData::Type.try_get(off_type)
+    return unless offensive_type
+    offensive_type_id = offensive_type.id
+    offensive_type_name = offensive_type.name
+  else
+    offensive_type = select_from_all_types(auto: true)
+    offensive_type_id, offensive_type_name = offensive_type
+  end
+  # defensive
+  defensive_types = []
+  defensive_types_id = []
+  defensive_types_name = []
+  defensive_types_amount = 1 + rand(3)
+  defensive_types_amount.times do
+    defensive_type = select_from_all_types(auto: true)
+    next if defensive_types.include?(defensive_type)
+    defensive_types << defensive_type
+    defensive_types_id << defensive_type[0]
+    defensive_types_name << defensive_type[1]
+  end
+  # calc_effective
+  effective = Effectiveness.calculate(offensive_type_id, defensive_types_id[0], defensive_types_id[1], defensive_types_id[2]) / Effectiveness::NORMAL_EFFECTIVE.to_f
+
+  effective_option = ["0", "0.125", "0.25", "0.5", "1", "2", "4", "8"]
+  index = pbMessage(_INTL("Do you know the effectiveness?\n{1} => {2}", offensive_type_name, defensive_types_name.join(", ")), effective_option, -1)
+  return if index == -1
+  effective_choosen = effective_option[index].to_f
+
+  if effective_choosen == effective
+    pbMessage(_INTL("Congratulations, you got it right!"))
+    return true
+  else
+    pbMessage(_INTL("Sorry, you got it wrong!"))
+    return false
+  end
+end
+
 # 猜某一个精灵的属性
 def guess_pkmn_type(species_id = nil)
   if species_id
@@ -221,7 +261,7 @@ def guess_pkmn_type(species_id = nil)
 end
 
 # 从全属性中选择一个属性
-def select_from_all_types(species_id = nil)
+def select_from_all_types(species_id = nil, auto: false)
   msg = _INTL("Which type do you want to choose?")
   if species_id
     species_name = GameData::Species.get(species_id).name
@@ -236,12 +276,15 @@ def select_from_all_types(species_id = nil)
     all_types_name << type.name
   end
 
-  index = pbMessage(msg, all_types_name, -1)
-  return if index == -1
+  if auto
+    index = rand(all_types_id.size)
+  else
+    index = pbMessage(msg, all_types_name, -1)
+    return if index == -1
+  end
 
   chosen_type_id = all_types_id[index]
   chosen_type_name = all_types_name[index]
-
   return chosen_type_id, chosen_type_name
 end
 
