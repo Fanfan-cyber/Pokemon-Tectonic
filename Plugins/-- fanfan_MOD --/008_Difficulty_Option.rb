@@ -21,10 +21,11 @@ Events.onTrainerPartyLoad += proc { |_sender, e|
   next if !trainer
   player_level = $Trainer.party_highest_level
   trainer_level = trainer.party_highest_level
+  punish_level = $Trainer.get_ta(:kill_count, 0)
   trainer.party.each do |pkmn|
     pkmn.level = player_level if pkmn.level < player_level
     pkmn.level = trainer_level if pkmn.level < trainer_level
-    pkmn.level += $Trainer.get_ta(:kill_count, 0)
+    pkmn.level += punish_level - 1 if punish_level > 1
     pkmn.calc_stats
     pkmn.heal
   end
