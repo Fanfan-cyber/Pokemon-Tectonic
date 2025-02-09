@@ -168,6 +168,7 @@ class PokeBattle_Battle
         else
             @struggle = PokeBattle_Struggle.new(self, nil)
         end
+        BattleHandlers.loadDataDependentHandlers
 
         @stacked_fields = []
         create_base_field
