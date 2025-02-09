@@ -1,3 +1,13 @@
+=begin
+ABC.class_eval do
+  define_singleton_method("abc") do
+  end
+
+  define_method("abc") do
+  end
+end
+=end
+
 module TA
   class TA_Vars
     include Enumerable
