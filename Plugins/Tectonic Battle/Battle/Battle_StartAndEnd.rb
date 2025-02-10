@@ -431,6 +431,10 @@ class PokeBattle_Battle
         pbOnActiveAll
         # Exit the pre-battle phase
         @preBattle = false
+
+        pbDisplay(_INTL("You can skip the battle, and treat it as a win by FORFEIT!")) if bossBattle?
+        pbDisplay(_INTL("You have to win the battle PERFECTLY, or you LOSE!")) if trainerBattle? #&& !$Trainer.get_ta(:battle_loader)
+
         # Main battle loop
         pbBattleLoop(ableBeforeFight)
     end
