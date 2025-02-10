@@ -120,11 +120,6 @@ class PokeBattle_Battler
     def pbCanInflictStatus?(newStatus, user, showMessages, move = nil, ignoreStatus = false)
         return false if fainted?
 
-        if owned_trainer && owned_trainer.party_status_already?(newStatus) # status clause
-          @battle.pbDisplay(_INTL("It doesn't affect {1} since another Pokémon has the Status already!", pbThis(true))) if showMessages
-          return false
-        end
-
         selfInflicted = (user && user.index == @index)
         statusDoublingCurse = pbOwnedByPlayer? && @battle.curseActive?(:CURSE_STATUS_DOUBLED)
 
@@ -250,6 +245,12 @@ immuneTypeRealName))
             @battle.pbDisplay(_INTL("{1}'s team is protected by Safeguard!", pbThis)) if showMessages
             return false
         end
+
+        if owned_trainer && owned_trainer.party_status_already?(newStatus) # status clause
+          @battle.pbDisplay(_INTL("It doesn't affect {1} since another Pokémon has the Status already!", pbThis(true))) if showMessages
+          return false
+        end
+
         return true
     end
 
