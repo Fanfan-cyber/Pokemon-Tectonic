@@ -658,7 +658,7 @@ class DependentEvents
                 else
                     anim = FollowerSettings::Animation_Come_In
                 end
-                $scene.spriteset.addUserAnimation(anim, @realEvents[i].x, @realEvents[i].y)
+                $scene.spriteset&.addUserAnimation(anim, @realEvents[i].x, @realEvents[i].y)
                 pbWait(Graphics.frame_rate / 10)
             end
         end

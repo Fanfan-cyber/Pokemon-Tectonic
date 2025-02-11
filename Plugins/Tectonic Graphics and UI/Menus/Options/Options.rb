@@ -79,7 +79,7 @@ class Options
         @bike_bgm                       = 0 # (0=true, 1=false)
         @textinput   		            = System.platform.downcase[/android/] ? 0 : 1 # Text input mode (0=cursor, 1=keyboard)
         @followers   		            = 0	# Follower Pokemon enabled (0=true, 1=false)
-        @autosave	 		            = 0	# Autosave enabled (0=true, 1=false)
+        @autosave	 		            = 1	# Autosave enabled (0=true, 1=false)
         @color_shifts                   = 0 # (0=true, 1=false)
         @particle_effects               = 0 # (0=true, 1=false)
         @overworld_weather              = 0 # (0=true, 1=false)
