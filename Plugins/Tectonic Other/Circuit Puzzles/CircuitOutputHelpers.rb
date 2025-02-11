@@ -11,12 +11,37 @@ def electricFenceActivates
 end
 
 def switchCurrent(eventIDs,toggleSelf=true)
-    blackFadeOutIn {
-        pbSEPlay("Anim/PRSFX- Waterfall1", 100, 120)
-        eventIDs = [eventIDs] unless eventIDs.is_a?(Array)
-        toggleSwitches(eventIDs)
-        toggleSwitch(get_self.id) if toggleSelf
-    }
+    eventIDs = [eventIDs] unless eventIDs.is_a?(Array)  
+    mainEvent = eventIDs[0]
+
+    if toggleSelf
+        pbSEPlay("GUI storage put down", 140, 70)
+        toggleSwitch(get_self.id)
+        pbWait(40)
+    end
+
+    slideCameraToEvent(mainEvent,5)
+
+    255.downto(0) do |i|
+        next if i % 3 != 0
+        eventIDs.each do |eventID|
+            get_character(eventID).opacity = i
+        end
+        pbWait(1)
+    end
+
+    pbSEPlay("Anim/PRSFX- Waterfall1", 100, 120)
+    toggleSwitches(eventIDs)
+
+    0.upto(255) do |i|
+        next if i % 3 != 0
+        eventIDs.each do |eventID|
+            get_character(eventID).opacity = i
+        end
+        pbWait(1)
+    end
+    pbWait(20)
+    slideCameraToPlayer(5)
 end
 
 ##########################################################
@@ -63,7 +88,7 @@ def circuitWaveLengthExit(mapEventIDs,oasisEventIDs)
 end
 
 def circuitWaveLengthPrison(mapEventIDs,integrationEventIDs)
-    solved = circuitPuzzle(:WL_EXIT)
+    solved = circuitPuzzle(:WL_PRISON)
 
     if solved
         setSwitchesAll(mapEventIDs,'A',true)
