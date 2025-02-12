@@ -38,6 +38,17 @@ BattleHandlers::AbilityOnSwitchIn.add(:MOONGAZE,
   }
 )
 
+BattleHandlers::AbilityOnSwitchIn.add(:ANCIENTRADIANCE,
+  proc { |ability, battler, battle, aiCheck|
+      next unless %i[Sunshine Rainstorm].include?(battle.field.weather)
+      case battle.field.weather
+      when :Sunshine;  newWeather = :HeavyRain
+      when :Rainstorm; newWeather = :HarshSun
+      end
+      pbBattleWeatherAbility(ability, newWeather, battler, battle, false, true, aiCheck, baseDuration: battle.field.weatherDuration)
+  }
+)
+
 BattleHandlers::AbilityOnSwitchIn.add(:PRIMORDIALSEA,
   proc { |ability, battler, battle, aiCheck|
       pbBattleWeatherAbility(ability, :HeavyRain, battler, battle, true, true, aiCheck, baseDuration: -1)
