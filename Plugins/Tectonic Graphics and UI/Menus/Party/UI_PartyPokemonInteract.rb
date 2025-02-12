@@ -107,11 +107,12 @@ class TilingCardsPokemonMenu_Scene < TilingCardsMenu_Scene
                           @party.length > 1 && ($Trainer.able_pokemon_count > 1 || !@pkmn.able?)
                       end,
                       :press_proc => proc do |_scene|
-                          TimeCapsule.add_to_time_capsule(@pkmn)
-                          @party[@pkmnid] = nil
-                          @party.compact!
-                          pbSEPlay("PC close")
-                          @partyScene.pbHardRefresh
+                          if TimeCapsule.add_to_time_capsule(@pkmn)
+                              @party[@pkmnid] = nil
+                              @party.compact!
+                              pbSEPlay("PC close")
+                              @partyScene.pbHardRefresh
+                          end
                           next true
                       end,
                   },
