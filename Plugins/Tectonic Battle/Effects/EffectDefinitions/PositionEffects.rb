@@ -227,11 +227,11 @@ GameData::BattleEffect.register_effect(:Position, {
 })
 
 GameData::BattleEffect.register_effect(:Position, {
-    :id => :Omnipresent,
-    :real_name => "Omnipresent",
+    :id => :TemporalShift,
+    :real_name => "TemporalShift",
     :entry_proc => proc do |battle, _index, position, battler|
-        battler.applyEffect(:OmnipresentReceiver)
+        battler.applyEffect(:TemporalShiftReceiver)
         battle.pbDisplay(_INTL("{1} has a free turn!", battler.pbThis))
-        position.disableEffect(:Omnipresent)
+        position.disableEffect(:TemporalShift)
     end,
 })

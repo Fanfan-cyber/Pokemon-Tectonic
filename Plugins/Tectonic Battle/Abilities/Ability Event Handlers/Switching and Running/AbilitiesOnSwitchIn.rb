@@ -38,7 +38,7 @@ BattleHandlers::AbilityOnSwitchIn.add(:MOONGAZE,
   }
 )
 
-BattleHandlers::AbilityOnSwitchIn.add(:ANCIENTRADIANCE,
+BattleHandlers::AbilityOnSwitchIn.add(:TIDEWEAVERSREVERSAL,
   proc { |ability, battler, battle, aiCheck|
       next unless %i[Sunshine Rainstorm].include?(battle.field.weather)
       case battle.field.weather

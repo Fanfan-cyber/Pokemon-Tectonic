@@ -1,38 +1,46 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-[ADAPTIVEAIV1] # 0690
+[ADAPTIVEAIV1] # 0689
 Name = Adaptive AI v1
 Description = Adapts the move's type to ensure it is super-effective against the target.
+Flags = Test
 #-------------------------------
-[ADAPTIVEAIV2] # 0691
+[ADAPTIVEAIV2] # 0690
 Name = Adaptive AI v2
 Description = Adapts the move's type to ensure it is truly super-effective against the target.
+Flags = Test
 #-------------------------------
-[ADAPTIVEAIV3] # 0692
+[ADAPTIVEAIV3] # 0691
 Name = Adaptive AI v3
 Description = Adapts the move's type to maximize effectiveness while accounting for the immunities.
+Flags = Test
 #-------------------------------
-[ADAPTIVEAIV4] # 0693
+[ADAPTIVEAIV4] # 0692
 Name = Adaptive AI v4
 Description = Adapts the move's type to maximize damage against the target.
+Flags = Test
 #-------------------------------
-[ANCIENTRADIANCE] # 0694
-Name = Ancient Radiance
-Description = Turns rainstorm into Harsh Sunlight, sunshine into Heavy Rain.
-Flags = RainstormSynergy,SunshineSynergy
+[RELENTLESSPURSUIT] # 0693
+Name = Relentless Pursuit
+Description = Attacks switching opponents with Pursuit.
+Flags = Test
 #-------------------------------
-[EMPOWERING] # 0695
-Name = Empowering
-Description = Stats that the Pokémon raises remain raised even after switching.
-#-------------------------------
-[OMNIPRESENT] # 0696
-Name = Omnipresent
-Description = Can switch out of battle without wasting a turn.
-#-------------------------------
-[SEVENTYTWOTRANSFORMATIONS] # 0697
+[SEVENTYTWOTRANSFORMATIONS] # 0694
 Name = 72 Transformations
 Description = Changes to a random Pokémon at the end of each turn.
+Flags = Test
 #-------------------------------
-[TAG] # 0698
-Name = Tag
-Description = Attacks switching opponents with Pursuit.
+[TEMPORALSHIFT] # 0695
+Name = Temporal Shift
+Description = Can switch out of battle without wasting a turn.
+Flags = Test
+#-------------------------------
+[TIDEWEAVERSREVERSAL] # 0696
+Name = Tideweaver's Reversal
+Description = Turns rainstorm into Harsh Sunlight, sunshine into Heavy Rain.
+Flags = Test
+#-------------------------------
+[UNWAVERINGVALOR] # 0697
+Name = Unwavering Valor
+Description = Stats that the Pokémon raises remain raised even after switching.
+Flags = Test

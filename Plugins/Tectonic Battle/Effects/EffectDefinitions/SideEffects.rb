@@ -687,7 +687,7 @@ GameData::BattleEffect.register_effect(:Side, {
             end
             echoln(statDown.to_s)
             unless statDown.empty?
-                battle.pbDisplay(_INTL("#{battler.pbThis} remembers its fears!"))
+                battle.pbDisplay(_INTL("{1} remembers its fears!", battler.pbThis))
                 battler.pbLowerMultipleStatSteps(statDown, nil)
             end
         end
@@ -695,8 +695,8 @@ GameData::BattleEffect.register_effect(:Side, {
 })
 
 GameData::BattleEffect.register_effect(:Side, {
-    :id => :Empowered,
-    :real_name => "Empowered",
+    :id => :UnwaveringValor,
+    :real_name => "Unwavering Valor",
     :info_displayed => false,
     :type => :Hash,
     :entry_proc => proc do |battle, battlerIndex, side, battler, value|
@@ -712,7 +712,7 @@ GameData::BattleEffect.register_effect(:Side, {
             end
             echoln(statUp.to_s)
             unless statUp.empty?
-                battle.pbDisplay(_INTL("#{battler.pbThis} remembers its honor!"))
+                battle.pbDisplay(_INTL("{1} remembers its honor!", battler.pbThis))
                 battler.pbRaiseMultipleStatSteps(statUp, nil)
             end
         end

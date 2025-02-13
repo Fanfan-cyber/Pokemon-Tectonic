@@ -162,33 +162,33 @@ class PokeBattle_Battler
         increment = pbRaiseStatStepBasic(stat, increment)
         return false if increment <= 0
         # Stat up animation and message
-        empower = user&.hasActiveAbility?(:EMPOWERING) && user.index == @index
-        @battle.pbShowAbilitySplash(user, :EMPOWERING) if empower && showMessages
+        unwavering_valor = user&.hasActiveAbility?(:UNWAVERINGVALOR) && user.index == @index
+        @battle.pbShowAbilitySplash(user, :UNWAVERINGVALOR) if unwavering_valor && showMessages
         @battle.pbCommonAnimation("StatUp", self) if showAnim
         increment /= 2.0 if boss? && AVATAR_DILUTED_STAT_STEPS
 
         showStatChangeMessage(stat, increment, lowering: false) if showMessages
 
-        # Empowering
-        if empower
+        # Unwavering Valor
+        if unwavering_valor
             @battle.pbDisplay(_INTL("It'll last the whole battle!")) if showMessages
 
             # Initialize entire hash if needed
-            pbOwnSide.applyEffect(:Empowered, {}) unless pbOwnSide.effectActive?(:Empowered)
+            pbOwnSide.applyEffect(:UnwaveringValor, {}) unless pbOwnSide.effectActive?(:UnwaveringValor)
 
             # Initialize individual pokemon array if needed
-            unless pbOwnSide.effects[:Empowered].key?(@pokemonIndex)
+            unless pbOwnSide.effects[:UnwaveringValor].key?(@pokemonIndex)
                 newStatHash = {}
-                pbOwnSide.effects[:Empowered][@pokemonIndex] = newStatHash
+                pbOwnSide.effects[:UnwaveringValor][@pokemonIndex] = newStatHash
                 GameData::Stat.each_battle do |statData|
                     newStatHash[statData.id] = 0
                 end
             end
 
             # Increment relevant array element
-            existingValue = pbOwnSide.effects[:Empowered][@pokemonIndex][stat]
+            existingValue = pbOwnSide.effects[:UnwaveringValor][@pokemonIndex][stat]
             newValue = [STAT_STEP_BOUND, existingValue + increment].min
-            pbOwnSide.effects[:Empowered][@pokemonIndex][stat] = newValue
+            pbOwnSide.effects[:UnwaveringValor][@pokemonIndex][stat] = newValue
 
             @battle.pbHideAbilitySplash(user) if showMessages
         end

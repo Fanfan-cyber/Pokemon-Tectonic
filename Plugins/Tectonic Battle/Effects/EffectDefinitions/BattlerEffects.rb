@@ -2059,9 +2059,6 @@ GameData::BattleEffect.register_effect(:Battler, {
 })
 
 GameData::BattleEffect.register_effect(:Battler, {
-    :id => :OmnipresentReceiver,
-    :real_name => "Omnipresent Receiver",
-    :resets_eor => true,
     :id => :Jinxed,
     :real_name => "Jinxed",
     :baton_passed => true,
@@ -2096,7 +2093,7 @@ GameData::BattleEffect.register_effect(:Battler, {
 })
 
 GameData::BattleEffect.register_effect(:Battler, {
-    :id => :OmnipresentReceiver,
-    :real_name => "Omnipresent Receiver",
+    :id => :TemporalShiftReceiver,
+    :real_name => "Temporal Shift Receiver",
     :resets_eor => true,
 })

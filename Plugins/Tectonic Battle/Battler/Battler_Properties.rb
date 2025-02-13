@@ -107,7 +107,7 @@ class PokeBattle_Battler
         val = @pokemon.extraMovesPerTurn || 0
 
         if effectActive?(:SwitchedIn)
-            if effectActive?(:OmnipresentReceiver)
+            if effectActive?(:TemporalShiftReceiver)
                 val += 1
             else
                 return 0

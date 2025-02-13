@@ -22,7 +22,7 @@ class PokeBattle_Battle
 
     # Used for causing weather by a move or by an ability.
     def pbStartWeather(user, newWeather, duration = -1, showAnim = true, ignoreFainted = false, ability = nil)
-        weather_changer = pbCheckGlobalAbility(:ANCIENTRADIANCE)
+        weather_changer = pbCheckGlobalAbility(:TIDEWEAVERSREVERSAL)
         suitable_weather = %i[Sunshine Rainstorm].include?(newWeather)
         if weather_changer && suitable_weather
             case newWeather
@@ -56,7 +56,7 @@ class PokeBattle_Battle
             pbShowAbilitySplash(user, ability) if user && ability
 
             if weather_changer && suitable_weather
-                pbShowAbilitySplash(weather_changer, :ANCIENTRADIANCE)
+                pbShowAbilitySplash(weather_changer, :TIDEWEAVERSREVERSAL)
                 pbDisplay(_INTL("{1} disturbed the air currents!", weather_changer.pbThis))
                 pbHideAbilitySplash(weather_changer)
             end
