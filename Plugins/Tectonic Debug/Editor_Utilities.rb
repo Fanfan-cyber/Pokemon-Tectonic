@@ -199,7 +199,7 @@ def pbGetLegalMoves(species)
   # sorting between numerical and alphabetical.
   def pbChooseAbilityList(default = nil)
     commands = []
-    GameData::Ability.each { |a| commands.push([a.id_number, a.name, a.id]) }
+    GameData::Ability.each { |a| commands.push([a.id_number, a.name, a.id]) unless a.cut || a.primeval }
     return pbChooseList(commands, default, nil, -1)
   end
   
