@@ -13,7 +13,11 @@ Events.onTrainerPartyLoad += proc { |_sender, e|
   trainer = e[0]
   next if !trainer || trainer.able_party.length >= 6
   pkmn = $Trainer.party_random_pkmn(true, true)
-  trainer.party << pkmn
+  if trainer.trainer_type == :LEADER_Lambert && rand(100) < 50
+    trainer.party.unshift(pkmn)
+  else
+    trainer.party << pkmn
+  end
 }
 
 Events.onTrainerPartyLoad += proc { |_sender, e|

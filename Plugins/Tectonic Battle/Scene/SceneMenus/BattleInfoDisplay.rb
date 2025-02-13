@@ -350,8 +350,9 @@ class BattleInfoDisplay < SpriteWrapper
             battler.addedAbilities.remove(battler.pokemon.species_abilities)
             battler.addedAbilities.concat(battler.disguisedAs.species_abilities)
         end
+        battler.addedAbilities.uniq!
         battler.addedAbilities.each do |abilityID|
-            battlerEffects.push(_INTL("A: #{getAbilityName(abilityID)}"))
+            battlerEffects.push(_INTL("A: {1}", getAbilityName(abilityID)))
         end
 
         scrolling = true if battlerEffects.length > 8
