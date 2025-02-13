@@ -15,7 +15,7 @@ class Pokemon
   end
 
   def has_main_ability?
-    !species_abilities.has?(ability_id)
+    ability_id && !species_abilities.has?(ability_id)
   end
 
   def abilities
