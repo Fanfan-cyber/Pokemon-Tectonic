@@ -186,11 +186,13 @@ class PokeBattle_AI
                 PBDebug.log("[STAY-IN RATING] #{battler.pbThis} (#{battler.index}) has an opponent that can force swaps (+10)")
             end
 
-            pursuitMove = b.canChoosePursuit?(battler)
+            has_relentless_pursuit = b.hasActiveAbilityAI?(:RELENTLESSPURSUIT)
+            pursuitMove = has_relentless_pursuit ? PokeBattle_Move.from_pokemon_move(@battle, Pokemon::Move.new(:PURSUIT)) : b.canChoosePursuit?(battler)
             if pursuitMove
                 pursuitScore, pursuitKillInfo = pbGetMoveScore(pursuitMove, b, battler)
                 pursuitScore = (pursuitScore / PokeBattle_AI::EFFECT_SCORE_TO_SWITCH_SCORE_CONVERSION_RATIO).ceil
                 stayInRating += pursuitScore
+                stayInRating += 5 if has_relentless_pursuit
                 PBDebug.log("[STAY-IN RATING] #{battler.pbThis} (#{battler.index}) has an opponent that can target it with pursuit (#{pursuitScore.to_change})")
             end
         end
