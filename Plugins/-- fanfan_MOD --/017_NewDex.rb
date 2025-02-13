@@ -49,11 +49,12 @@ module AbilityDex
   end
 
   def self.abilityDexMainDirectory
-    {_INTL("Ability Canon")    => [_INTL("Abilities that GF made."), :abilityCanon],
-     _INTL("Ability New")      => [_INTL("Abilities that are new-made in Pokémon Tectonic."), :abilityNew],
-     _INTL("Ability Fanfan")   => [_INTL("Abilities that made by Fanfan."), :abilityFanfan],
-     _INTL("Ability Primeval") => [_INTL("Abilities that Avatars possess only."), :abilityPrimeval],
-     _INTL("Ability Cut")      => [_INTL("Abilities that have been cut."), :abilityCut], }
+    { _INTL("Ability Canon")    => [_INTL("Abilities that GF made."), :abilityCanon],
+      _INTL("Ability New")      => [_INTL("Abilities that are new-made in Pokémon Tectonic."), :abilityNew],
+      _INTL("Ability Fanfan")   => [_INTL("Abilities that made by Fanfan."), :abilityFanfan],
+     #_INTL("Ability Primeval") => [_INTL("Abilities that Avatars possess only."), :abilityPrimeval],
+     #_INTL("Ability Cut")      => [_INTL("Abilities that have been cut."), :abilityCut],
+    }
   end
 
   def self.abilityCanon
@@ -180,7 +181,8 @@ module ItemDex
       _INTL("Berry")      => [_INTL("Berries that can be held."), :berryItem],
       _INTL("Clothing")   => [_INTL("Clothes that can be held."), :clothingItem],
       _INTL("Gem")        => [_INTL("Gems that can be held."), :gemItem],
-      _INTL("Herb")       => [_INTL("Herbs that can be held."), :herbItem], }
+      _INTL("Herb")       => [_INTL("Herbs that can be held."), :herbItem],
+    }
   end
 
   def self.machineItem

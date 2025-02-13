@@ -23,7 +23,6 @@ Flags = Test
 [RELENTLESSPURSUIT] # 0693
 Name = Relentless Pursuit
 Description = Attacks switching opponents with Pursuit.
-Flags = Test
 #-------------------------------
 [SEVENTYTWOTRANSFORMATIONS] # 0694
 Name = 72 Transformations
