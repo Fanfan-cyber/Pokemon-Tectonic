@@ -99,7 +99,7 @@ class PokeBattle_Move_UserFaintsExplosiveScalesWithEnemySideSpikes < PokeBattle_
     def pbBaseDamage(baseDmg, _user, target)
         target.pbOwnSide.eachEffect(true) do |effect, value, effectData|
             next unless effectData.is_spike?
-            baseDmg += 50 * value
+            baseDmg += 30 * value
         end
         return baseDmg
     end

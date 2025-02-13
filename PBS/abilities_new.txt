@@ -1855,7 +1855,7 @@ Description = Upon entry, summons a Turbulent Sky on the Pokémon's side for 6 t
 [STRAIGHTAHEAD] # 0607
 Name = Straight Ahead
 Description = Ignores Abilities that would affect its moves. Its attacks can't be redirected to new targets.
-Flags = MoldBreaking
+Flags = MoldBreaking,RedirectionImmunity
 #-------------------------------
 [STRATAGEM] # 0608
 Name = Stratagem

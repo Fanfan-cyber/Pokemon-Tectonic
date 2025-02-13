@@ -2562,7 +2562,7 @@ Animation = LEECHLIFE
 Name = Swarm Burst
 Type = BUG
 Category = Physical
-Power = 300
+Power = 350
 Accuracy = 100
 TotalPP = 5
 Target = AllNearOthers
@@ -6761,7 +6761,7 @@ TotalPP = 5
 Target = AllNearOthers
 FunctionCode = UserFaintsExplosiveScalesWithEnemySideSpikes
 Flags = CanProtect,CanMirrorMove
-Description = Explodes, dealing an extra 50 base power to all foes for each layer of spikes underneath them. The user faints.
+Description = Explodes, dealing an extra 30 base power to all foes for each layer of spikes underneath them. The user faints.
 Animation = EXPLOSION
 #-------------------------------
 [SPOTTING]

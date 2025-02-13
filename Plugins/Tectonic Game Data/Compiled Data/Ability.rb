@@ -280,6 +280,10 @@ module GameData
             return @flags.include?("FlinchImmunity")
         end
 
+        def is_redirection_immunity_ability?
+            return @flags.include?("RedirectionImmunity")
+        end
+
         def is_uncopyable_ability?
             return true if is_immutable_ability?
             return @flags.include?("Uncopyable")

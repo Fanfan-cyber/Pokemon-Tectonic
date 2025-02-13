@@ -294,6 +294,9 @@ sp.form) && !Settings::DEX_SHOWS_ALL_FORMS
         formname = ""
         base   = MessageConfig.pbDefaultTextMainColor
         shadow = MessageConfig.pbDefaultTextShadowColor
+
+        mutabilityLabelsX = Graphics.width/2 - 60
+
         for i in @available
             next unless i[2] == @form
             fSpecies = GameData::Species.get_species_form(@species, i[2])
@@ -301,7 +304,7 @@ sp.form) && !Settings::DEX_SHOWS_ALL_FORMS
             # ability 1
             abilityTextX = 30
             abilityIDLabelX = 380
-            ability1Y = 76
+            ability1Y = 52
             drawTextEx(overlay, abilityIDLabelX, ability1Y, 450, 1, _INTL("Ability 1"), base, shadow)
             if abilities[0]
                 ability1 = GameData::Ability.get(abilities[0])
@@ -317,12 +320,19 @@ sp.form) && !Settings::DEX_SHOWS_ALL_FORMS
               abilityNameShadow)
 
                 ability1Description = addBattleKeywordHighlighting(ability1.description)
-                drawFormattedTextEx(overlay, abilityTextX, ability1Y + 32, 450, ability1Description, base, shadow)
+                drawFormattedTextEx(overlay, abilityTextX, ability1Y + 34, 450, ability1Description, base, shadow)
+                
+                # add mutability labels
+                if ability1.is_immutable_ability?
+                    drawFormattedTextEx(overlay, mutabilityLabelsX, ability1Y + 134, 450, "Immutable", base, shadow)
+                elsif ability1.is_uncopyable_ability?
+                    drawFormattedTextEx(overlay, mutabilityLabelsX, ability1Y + 134, 450, "Uncopyable", base, shadow)
+                end
             else
                 drawTextEx(overlay, abilityTextX, 128, 450, 1, _INTL("None"), base, shadow)
             end
             # ability 2
-            ability2Y = 236
+            ability2Y = 219
             drawTextEx(overlay, abilityIDLabelX, ability2Y, 450, 1, _INTL("Ability 2"), base, shadow)
             if abilities[1]
                 ability2 = GameData::Ability.get(abilities[1])
@@ -338,7 +348,14 @@ sp.form) && !Settings::DEX_SHOWS_ALL_FORMS
               abilityNameShadow)
 
                 ability2Description = addBattleKeywordHighlighting(ability2.description)
-                drawFormattedTextEx(overlay, abilityTextX, ability2Y + 32, 450, ability2Description, base, shadow)
+                drawFormattedTextEx(overlay, abilityTextX, ability2Y + 34, 450, ability2Description, base, shadow)
+                
+                # add mutability labels
+                if ability2.is_immutable_ability?
+                    drawFormattedTextEx(overlay, mutabilityLabelsX, ability2Y + 134, 450, "Immutable", base, shadow)
+                elsif ability2.is_uncopyable_ability?
+                    drawFormattedTextEx(overlay, mutabilityLabelsX, ability2Y + 134, 450, "Uncopyable", base, shadow)
+                end
             else
                 drawTextEx(overlay, abilityTextX, ability2Y, 450, 1, _INTL("None"), base, shadow)
             end
