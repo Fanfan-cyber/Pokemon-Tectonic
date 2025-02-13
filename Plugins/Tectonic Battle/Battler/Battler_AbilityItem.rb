@@ -155,7 +155,7 @@ class PokeBattle_Battler
             unless choices.empty?
                 showMyAbilitySplash(:PLURIPOTENCE)
                 choices.each do |battlerCopying, abilitiesCopying|
-                    @battle.pbDisplay(_INTL("{2}? {1} can be that, if it wishes.", pbThis, GameData::Species.get(battlerCopying.species).name))
+                    @battle.pbDisplay(_INTL("{1}? {2} can be that, if it wishes.", GameData::Species.get(battlerCopying.species).name, pbThis))
                     echoln("Abilities that Pluripotence is copying: #{abilitiesCopying.to_s}")
                     abils_name = []
                     abilitiesCopying.each do |legalAbility|
@@ -170,8 +170,8 @@ class PokeBattle_Battler
                 end
                 hideMyAbilitySplash
                 
-                if !onSwitchIn# && (immutableAbility? || abilityActive?)
-                    abilitiesCopying.each do |ability|
+                if !onSwitchIn # && (immutableAbility? || abilityActive?)
+                    choices.values.flatten.each do |ability|
                         if immutableAbility?(ability) || abilityActive?
                             BattleHandlers.triggerAbilityOnSwitchIn(ability, self, @battle)
                             BattleHandlers.triggerStatusCureAbility(ability, self)

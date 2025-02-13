@@ -346,7 +346,9 @@ class BattleInfoDisplay < SpriteWrapper
         pushEffectDescriptorsToArray(@battle.positions[battler.index], battlerEffects)
 
         # List abilities that were added by effects
-        if battler.illusion?# && !battler.pbOwnedByPlayer?
+        battler.addedAbilities.clear
+        battler.addedAbilities.concat(battler.abilities)
+        if battler.illusion? # && !battler.pbOwnedByPlayer?
             battler.addedAbilities.remove(battler.pokemon.species_abilities)
             battler.addedAbilities.concat(battler.disguisedAs.species_abilities)
         end

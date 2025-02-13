@@ -286,7 +286,7 @@ class PokeBattle_Battle
     def pbMessagesOnReplace(idxBattler, idxParty)
         party = pbParty(idxBattler)
         newPkmnName = party[idxParty].name
-        if party[idxParty].ability == :ILLUSION
+        if party[idxParty].abilities.include?(:ILLUSION)
             new_index = pbLastInTeam(idxBattler)
             newPkmnName = party[new_index].name if new_index >= 0 && new_index != idxParty
         end

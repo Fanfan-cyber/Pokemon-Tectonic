@@ -651,7 +651,9 @@ immuneTypeRealName))
             yield if block_given?
 
             showMessages = $Options.status_effect_messages.zero?
-            
+
+            return if fainted?
+
             case oneStatus
             when :SLEEP
                 @battle.pbDisplay(_INTL("{1} is fast asleep.", pbThis)) if showMessages
@@ -690,6 +692,7 @@ immuneTypeRealName))
             when :LEECHED
                 @battle.pbDisplay(_INTL("{1}'s health was sapped!", pbThis)) if showMessages
             end
+            #yield if block_given? # may put it here
             PBDebug.log("[Status continues] #{pbThis}'s sleep count is #{@statusCount}") if oneStatus == :SLEEP
         end
     end
