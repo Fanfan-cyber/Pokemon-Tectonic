@@ -4738,7 +4738,7 @@ Pokemon = AEGISLASH,57
 #-------------------------------
 [SWIMMER_F6,Kiana]
 Pokemon = JELLICENT,58
-    Moves = RECOVER,HEX,SHIVER,RECOVER
+    Moves = RECOVER,HEX,SHIVER
     AbilityIndex = 1 # Sentry
     Item = LEFTOVERS
 Pokemon = WORMADAM,59
