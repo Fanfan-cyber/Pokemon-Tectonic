@@ -1622,7 +1622,7 @@ Pokemon = PARASECT,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,10,0,20,10
 Pokemon = TOXAPEX,70
-    Moves = SLUDGEBOMB,SCALD,ICEBEAM,EBBFLOW
+    Moves = SLUDGEBOMB,SCALD,ICEBEAM,RECOVER
     AbilityIndex = 1 # Regenerator
     Item = ENERGYLOCK
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -1698,7 +1698,7 @@ Pokemon = HELECTRODE,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 0,20,20,10,20,0
 Pokemon = TOXAPEX,70
-    Moves = SLUDGEBOMB,SCALD,ICEBEAM,EBBFLOW
+    Moves = SLUDGEBOMB,SCALD,ICEBEAM,RECOVER
     AbilityIndex = 1 # Regenerator
     Item = ENERGYLOCK
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -2411,7 +2411,7 @@ Pokemon = ATLACROSS,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,20,0,3,20,7
 Pokemon = WALREIN,70
-    Moves = EBBFLOW,ICEBEAM,GEYSER,POWERGEM
+    Moves = BULLETTRAIN,ICEBEAM,GEYSER,POWERGEM
     AbilityIndex = 0 # Full Blubber
     Item = ASSAULTVEST
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def

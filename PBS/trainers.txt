@@ -3863,7 +3863,7 @@ Pokemon = DRACOVISH,53
     Moves = PSYCHICFANGS,FISHIOUSREND,GALLINGSPIT,CRUNCH
     AbilityIndex = 0 # Live Fast
 Pokemon = ARCTOVISH,52
-    Moves = PRESSUREBURST,EBBFLOW,SUBLIMATE,REVENGE
+    Moves = PRESSUREBURST,MINDWARP,SUBLIMATE,REVENGE
     AbilityIndex = 0 # Burdened
     Item = CADOBERRY
 #-------------------------------
@@ -4738,7 +4738,7 @@ Pokemon = AEGISLASH,57
 #-------------------------------
 [SWIMMER_F6,Kiana]
 Pokemon = JELLICENT,58
-    Moves = EBBFLOW,HEX,SHIVER,RECOVER
+    Moves = RECOVER,HEX,SHIVER,RECOVER
     AbilityIndex = 1 # Sentry
     Item = LEFTOVERS
 Pokemon = WORMADAM,59
@@ -5838,12 +5838,12 @@ Pokemon = PINCURCHIN,70
 Pokemon = WAILORD,70
     Name = Hannibal
     Gender = male
-    Moves = WATERSPOUT,EBBFLOW,COLDFRONT,ICEBEAM
+    Moves = WATERSPOUT,HYDROCANNON,COLDFRONT,ICEBEAM
     AbilityIndex = 0 # Pressure
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 0,20,15,0,20,15
 Pokemon = LANTURN,70
-    Moves = VOLTSWITCH,EBBFLOW,SCALD,MOONBLAST
+    Moves = VOLTSWITCH,RECOVER,SCALD,MOONBLAST
     AbilityIndex = 1 # Radiate
     Item = CHOICESPECS
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -8240,7 +8240,7 @@ Pokemon = SAURENAID,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,0,15,0,0,15
 Pokemon = PELIPPER,70
-    Moves = RAINSTORM,EBBFLOW,HYDROPUMP,UTURN
+    Moves = RAINSTORM,ROOST,HYDROPUMP,UTURN
     AbilityIndex = 1 # Dreary Clouds
     Item = DAMPROCK
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
