@@ -82,8 +82,8 @@ module AntiAbuse
 
   def self.check_claim
     unless GO_SOURCE_CHECK
-      pbMessage(_INTL("This mod is created by Fanfan.\nIf you paid for it, you've been duped!"))
-      pbMessage(_INTL("Have a good one!"))
+      pbMessage(_INTL("This mod was created by Fanfan.\nIf you paid for it, you've been duped!"))
+      pbMessage(_INTL("Have a good run!"))
       return
     end
     if pbConfirmMessageSerious(_INTL("Did you download the game from the official source?"))
