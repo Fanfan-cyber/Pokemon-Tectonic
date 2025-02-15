@@ -26,16 +26,16 @@ class ButtonEventScene < EventScene
   
       addImageForScreen(3, 16, 90, addLanguageSuffix("Graphics/Pictures/Controls help/help_actionkey"))
       addImageForScreen(3, 16, 252, addLanguageSuffix("Graphics/Pictures/Controls help/help_specialkey"))
-      addLabelForScreen(3, 134, 52, 352, _INTL("Has various functions depending on context. Also used to open the Pause Menu. (Default: Z)"))
+      addLabelForScreen(3, 134, 52, 352, _INTL("Has various functions depending on context. Also opens the Pause Menu. (Default: Z)"))
       addLabelForScreen(3, 134, 212, 352, _INTL("Press to open the Ready Menu, where registered items and available field moves can be used. (Default: D)"))
 
       addImageForScreen(4, 44, 90, "Graphics/Pictures/Controls help/help_q")
       #addImageForScreen(4, 24, 252, "Graphics/Pictures/Controls help/help_space")
-      addLabelForScreen(4, 134, 84, 352, _INTL("Press to speed up while in the overworld."))
+      addLabelForScreen(4, 134, 84, 352, _INTL("Press to speed up the game."))
       #addLabelForScreen(4, 134, 244, 352, _INTL("Press to instantly mount the Bicycle while in the overworld."))
 
       addImageForScreen(5, 44, 122, "Graphics/Pictures/Controls help/help_f1")
-      addLabelForScreen(5, 134, 84, 352, _INTL("Opens the Key Bindings window, where you can choose which keyboard keys to use for each control.\n(Please don't do that, it may cause bugs!)"))
+      addLabelForScreen(5, 134, 84, 352, _INTL("Opens the Key Bindings window, where you can choose which keyboard keys to use for each control.\nWarning: Remapping controls may cause unexpected bugs!"))
 
       addImageForScreen(6, 44, 90, "Graphics/Pictures/Controls help/help_f12")
       addImageForScreen(6, 44, 252, "Graphics/Pictures/Controls help/help_f8")

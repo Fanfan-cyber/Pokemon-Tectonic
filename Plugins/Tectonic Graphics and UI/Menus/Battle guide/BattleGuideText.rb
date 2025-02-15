@@ -28,12 +28,12 @@ end
 
 def battleGuideBasicsHash
     return {
-        _INTL("Winning Battles") => _INTL("You win a battle when all enemy Pokémon faint: reach 0 health points. You lose a battle if that happens to any of your Pokémon. Fainted Pokémon will revive in 7 turns."),
+        _INTL("Winning Battles") => _INTL("You win a battle when all enemy Pokémon faint: reach 0 health points. You lose a battle if any of your Pokémon faints. Fainted Pokémon will revive in several turns."),
         _INTL("Basic Strategy") => _INTL("1. Have as many Pokémon as you can. 2. Level up your Pokémon as much as you can. 3. Abuse type matchups. 4. Start battles with healthy Pokémon."),
         _INTL("Team Size") => _INTL("You can have a maximum of 6 Pokémon with you at any time. This is known as your 'Team'. You can store extra Pokémon using the PC in any PokéCenter."),
         _INTL("Levels") => _INTL("Each Pokémon has a level from 1 to 70. A Pokémon's level determines its stats as well as what moves it could learn. Reaching high enough levels also unlocks Evolution."),
         _INTL("Type Matchups") => _INTL("Types are strong or weak against other types. Having a variety of different types on your team helps you take advantage of these relationships."),
-        _INTL("Healing your Pokémon") => _INTL("Pokémon are healed after a trainer battlr. You can heal your Pokémon at PokéCenters between battles. You can often use the Aid Kit instead to save on traveling time."),
+        _INTL("Healing your Pokémon") => _INTL("Pokémon are healed after a trainer battle. You can heal your Pokémon at PokéCenters between battles. You can often use the Aid Kit instead to save on traveling time."),
         _INTL("Who goes first?") => _INTL("In battle, the Pokémon with the higher speed stat gets to use their move first. Some moves modify this. Speed ties are decided randomly."),
     }
 end
@@ -101,21 +101,21 @@ def battleGuideStatsHash
         _INTL("Leveling and Evolution") => _INTL("Your Pokémon's stats will increase every time they level up. When Pokémon evolve, their stats change (almost always they increase)."),
         _INTL("Accuracy and Evasion") => _INTL("Accuracy and Evasion are two stats which are only active in battle, starting at 100% each. They are only modified by in-battle changing effects."),
         _INTL("Stat Steps") => _INTL("Effects can modify a Pokémon's stats during battle. These are called 'stat steps'. Stat steps multiply or divide the Pokémon's listed stat value."),
-        _INTL("Bounds of Stat Steps") => _INTL("Stat steps start at 0, and can increase up to +12 (4x) and down to -12 (.25x). Stat steps usually are reset if you swap the Pokémon out or it faints."),
+        _INTL("Bounds of Stat Steps") => _INTL("Stat steps start at 0, and can increase up to +12 (4x) and down to -12 (.25x). Stat steps are usually reset if you swap the Pokémon out or it faints."),
         _INTL("Checking Stat Steps") => _INTL("You can check the current stat steps of each Pokémon on the battlefield using the Info button. It lists the numerical step as well as resultant multiplier."),
     }
 end
 
 def battleGuideAbilitiesHash
     return  {
-        _INTL("What are abilities?")   => _INTL("Abilities are special powers that Pokémon can have based on their species. Most Pokémon can have 2 possible abilities. All abilities activate in battle or on field."),
+        _INTL("What are abilities?")   => _INTL("Abilities are special powers that Pokémon can have based on their species. Most Pokémon can have 2 possible abilities. All abilities activate in battle or in the field."),
         _INTL("Ability Effects")       => _INTL("Abilities do a wide variety of different things. Understanding your team's abilities is important to winning."),
         _INTL("Checking Abilities")    => _INTL("Check your Pokémon's summary to see what main ability they have. Use the MasterDex to read about the abilities of enemy Pokémon during battle."),
-        _INTL("Choosing Abilities")    => _INTL("A Pokémon's default main ability is one of the two its species can have, randomly chosen when you get it. You can use Ability Capsules to swap to the other."),
+        #_INTL("Choosing Abilities")    => _INTL("A Pokémon's default main ability is one of the two its species can have, randomly chosen when you get it. You can use Ability Capsules to swap to the other."),
         _INTL("Conditional Abilities") => _INTL("Many abilities only do things under certain circumstances. Building around Weather and Room-synergy abilities is a common strategy."),
         _INTL("Effect Of Evolution")   => _INTL("A Pokémon's ability tends to stay the same when evolving, but can change. When this happens, the game will alert you."),
         _INTL("Defeating Abilities")   => _INTL("An enemy Trainer's ability too much? Abilities like Neutralizing Gas, and moves like Gastro Acid, can suppress abilities in battle."),
-        _INTL("Swapping Abilities")    => _INTL("Moves like Skill Swap can be used to give a new ability to Pokémon during battle, enabling unique and creative team synergies.")
+        _INTL("Swapping Abilities")    => _INTL("Moves like Skill Swap can be used to give a new ability to Pokémon during battle, enabling unique and creative team synergies."),
     }
 end
 
@@ -171,7 +171,7 @@ def battleGuideTrainersHash
         _INTL("What are Enemy Trainers?") => _INTL("Enemy Trainers are the Pokémon Trainers you will battle throughout the game. Some block your path forwards (like Gym Leaders), others are optional."),
         _INTL("Detecting Trainers") => _INTL("Trainers are people who have a companion Pokémon next to them. If a person doesn't have that, they either aren't a Trainer, or are an inactive one."),
         _INTL("Avoiding Trainers") => _INTL("Trainers will challenge you if they see you within 4 tiles of them. Avoid them by going out of that distance, sneaking around them, or waiting until they move."),
-        _INTL("How to win?") => _INTL("If you defeat a Trainer, but have not 'perfected' the fight, you've lost. Only a perfected fight counts a win. Use Switch frequently is the key to win, switching also heal the Pokémon 10% HP."),
+        _INTL("How to win?") => _INTL("If you defeat a Trainer but have not 'perfected' the fight, it doesn't count as a win. Frequently using Switch is the key to winning, as switching also restores some HP."),
         _INTL("Perfecting Fights") => _INTL("If you defeat a Trainer without any of your Pokémon fainting, you've 'perfected' the fight. They will leave forever and drop experience candy as a reward."),
         _INTL("Enemy Teams") => _INTL("Enemy Trainers have their own teams of Pokémon with their own moves and held items. It's important to pay attention to these possibilities to win battles."),
         _INTL("Differences") => _INTL("The typical trainer has 3 Pokémon, but Gym Leaders will have more. Trainers with more Pokémon also have more move variety and more items on their Pokémon."),

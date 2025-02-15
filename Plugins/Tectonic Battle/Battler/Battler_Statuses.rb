@@ -119,7 +119,6 @@ class PokeBattle_Battler
 
     def pbCanInflictStatus?(newStatus, user, showMessages, move = nil, ignoreStatus = false)
         return false if fainted?
-
         selfInflicted = (user && user.index == @index)
         statusDoublingCurse = pbOwnedByPlayer? && @battle.curseActive?(:CURSE_STATUS_DOUBLED)
 
@@ -247,7 +246,7 @@ immuneTypeRealName))
         end
 
         if owned_trainer && owned_trainer.party_status_already?(newStatus) # status clause
-          @battle.pbDisplay(_INTL("It doesn't affect {1} since another Pokémon has the Status already!", pbThis(true))) if showMessages
+          @battle.pbDisplay(_INTL("It doesn't affect {1} because another Pokémon is already under this status!", pbThis(true))) if showMessages
           return false
         end
 
