@@ -1318,6 +1318,7 @@ class PokeBattle_PartyAttackMove < PokeBattle_Move
 
     def pbBaseDamageAI(_baseDmg, user, _target)
         calculatePartyAttackerList(user) if listEmpty?
+        return 0 if listEmpty?
         totalBaseStat = 0
         @partyAttackerList.each do |i|
             totalBaseStat += @battle.pbParty(user.index)[i].baseStats[@statUsed]

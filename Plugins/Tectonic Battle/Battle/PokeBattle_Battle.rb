@@ -173,6 +173,15 @@ class PokeBattle_Battle
         return ret
     end
 
+    # Returns whether the given battler's team is all defeated
+    # but able battlers yet remain on other teams on the same side
+    def pbTeamExhaustedButSideAlive?(idxBattler = 0)
+        return false if pbAllFainted?(idxBattler)
+        ableTeamCounts = pbAbleTeamCounts(idxBattler)
+        ableTeamCount = ableTeamCounts[idxBattler / 2]
+        return ableTeamCount.nil? || ableTeamCount == 0
+    end
+
     #=============================================================================
     # Get team information (a team is only the Pokémon owned by a particular
     # trainer)

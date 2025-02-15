@@ -376,6 +376,7 @@ class PokeBattle_Battler
         # Check for berry filching
         unless item_to_use
             eachActiveItem do |item|
+                next if items_to_skip.include?(item)
                 next unless GameData::Item.get(item).is_berry?
                 filcher = nil
 
@@ -387,7 +388,7 @@ class PokeBattle_Battler
                 }
     
                 # If the berry is being filched
-                if filcher && BattleHandlers.triggerHPHealItem(item, filcher, @battle, false, self, :EXTORTER)
+                if filcher && BattleHandlers.triggerHPHealItem(item, filcher, @battle, false, self, :EXTORTER, items_to_skip)
                     filcher.pbHeldItemTriggered(item, false)
                     consumeItem(item)
                 end
