@@ -1,9 +1,8 @@
 class String
   alias_method :has?, :include?
-  alias_method :push, :<< # 在自身末尾增加某一部分
-  alias_method :add, :<< # 在自身末尾增加某一部分
+  alias_method :push, :<<
+  alias_method :add, :<<
 
-  # 检查自身是否是数字字符串
   def number?
     match?(/\A[+-]?(\d+_*\d)*\.*\d+([eE][+-]?\d+)?\z/)
   end
