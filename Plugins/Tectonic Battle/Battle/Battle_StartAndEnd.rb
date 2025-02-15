@@ -701,8 +701,8 @@ class PokeBattle_Battle
     def pbEndOfBattle(ableBeforeFight = nil)
         lost_extra_text = ""
         if @decision != 2 && ableBeforeFight && trainerBattle? && $Trainer.able_pokemon_count < ableBeforeFight && !debugControl
-          @decision = 2
-          lost_extra_text = _INTL("\n Some of your Pokémon fainted in battle.")
+            @decision = 2
+            lost_extra_text = _INTL("\n Some of your Pokémon fainted in battle.")
         end
 
         oldDecision = @decision
@@ -827,6 +827,7 @@ class PokeBattle_Battle
             pkmn.boss?
         }
         pbParty(0).compact!
+
         return @decision
     end
 

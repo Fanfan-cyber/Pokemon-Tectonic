@@ -231,7 +231,7 @@ GameData::BattleEffect.register_effect(:Position, {
     :real_name => "Temporal Shift",
     :entry_proc => proc do |battle, _index, position, battler|
         battler.applyEffect(:TemporalShiftReceiver)
-        battle.pbDisplay(_INTL("{1} has a free turn!", battler.pbThis))
+        battle.pbDisplay(_INTL("{1} gets a free turn!", battler.pbThis))
         position.disableEffect(:TemporalShift)
     end,
 })

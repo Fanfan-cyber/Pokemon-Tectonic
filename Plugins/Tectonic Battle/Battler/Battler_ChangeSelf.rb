@@ -376,15 +376,15 @@ class PokeBattle_Battler
     end
 
     def can_faint_healing?
-        return false if !@battle.trainerBattle?
+        return false unless @battle.trainerBattle?
         return false if owner_side_all_fainted?
-        return true if !pbOwnSide.effectActive?(:PerennialPayload)
-        return true if !pbOwnSide.effects[:PerennialPayload][@pokemonIndex]
+        return true unless pbOwnSide.effectActive?(:PerennialPayload)
+        return true unless pbOwnSide.effects[:PerennialPayload][@pokemonIndex]
         return false
     end
 
     def apply_faint_healing
-        return if !can_faint_healing?
+        return unless can_faint_healing?
         healing_turn = Settings::FAINT_HEALING_TURN
         @battle.pbDisplay(_INTL("{1} will revive in {2} turns!", pbThis, healing_turn))
         if pbOwnSide.effectActive?(:FaintHealing)
@@ -396,6 +396,7 @@ class PokeBattle_Battler
 
     def increase_kill_count
         return if @battle.trainerBattle? || @battle.bossBattle?
+        return if pbOwnedByPlayer?
         $Trainer.increase_ta(:kill_count)
     end
 
@@ -491,10 +492,9 @@ class PokeBattle_Battler
         new_abilities = abilities - old_abilities
         pbOnAbilitiesLost(lost_abilities)
         new_abilities.each do |ability|
-            if immutableAbility?(ability) || abilityActive?
-                BattleHandlers.triggerAbilityOnSwitchIn(ability, self, @battle)
-                BattleHandlers.triggerStatusCureAbility(ability, self)
-            end
+            next unless immutableAbility?(ability) || abilityActive?
+            BattleHandlers.triggerAbilityOnSwitchIn(ability, self, @battle)
+            BattleHandlers.triggerStatusCureAbility(ability, self)
         end
     end
 
@@ -662,7 +662,7 @@ class PokeBattle_Battler
         # Trigger abilities
         pbEffectsOnSwitchIn
     end
-    
+
     def transformSpecies(newSpecies)
         newSpeciesData = GameData::Species.get(newSpecies)
         newSpecies = newSpeciesData.id

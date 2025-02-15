@@ -69,7 +69,7 @@ class PokemonBag
       rearrange
       return @pockets
     end
-
+  
     def maxPocketSize(pocket)
       maxsize = Settings::BAG_MAX_POCKET_SIZE[pocket]
       return -1 if !maxsize

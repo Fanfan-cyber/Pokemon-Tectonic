@@ -37,7 +37,7 @@ DebugMenuCommands.register("changelog", {
 DebugMenuCommands.register("generatechangelogrange", {
   "parent"      => "changelog",
   "name"        => _INTL("Generate species changelog between ids"),
-  "description" => _INTL("See the changelog for each species between the Old and New Pokémon.txt files for a specific range of IDs."),
+  "description" => _INTL("See the changelog for each species between the Old and New pokemon.txt files for a specific range of IDs."),
   "effect"      => proc { |sprites, viewport|
 	firstNumberInput = pbEnterText("First ID number", 0, 3)
 	if firstNumberInput.blank?
@@ -58,7 +58,7 @@ DebugMenuCommands.register("generatechangelogrange", {
 DebugMenuCommands.register("generatechangelog", {
   "parent"      => "changelog",
   "name"        => _INTL("Generate species changelog"),
-  "description" => _INTL("See the changelog for each species between the Old and New Pokémon.txt files."),
+  "description" => _INTL("See the changelog for each species between the Old and New pokemon.txt files."),
   "effect"      => proc { |sprites, viewport|
   	createChangeLog
   }

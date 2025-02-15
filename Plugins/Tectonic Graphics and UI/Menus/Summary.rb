@@ -1322,7 +1322,7 @@ class PokemonSummary_Scene
     end
 
     def pbOpenMasterDex
-	    return if !pbConfirm(_INTL("Do you want to check {1} in MasterDex?", @pokemon.name))
+	    return unless pbConfirm(_INTL("Do you want to check {1} in the MasterDex?", @pokemon.name))
 	    openSingleDexScreen(@pokemon)
     end
 

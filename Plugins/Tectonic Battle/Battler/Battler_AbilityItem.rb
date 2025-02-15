@@ -42,7 +42,7 @@ class PokeBattle_Battler
     # Ability effects
     #=============================================================================
     def pbAbilitiesOnSwitchOut
-        pbRecoverHP(@totalhp / Settings::SWITCH_HEALING_NUM.to_f, false, false, false) if !fainted?
+        pbRecoverHP(@totalhp / Settings::SWITCH_HEALING_NUM.to_f, false, false, false) unless fainted?
 
         eachActiveAbility do |ability|
             BattleHandlers.triggerAbilityOnSwitchOut(ability, self, @battle, false)
@@ -147,7 +147,7 @@ class PokeBattle_Battler
                 copiableAbilities = []
                 b.eachLegalAbility do |abilityID|
                     next if GameData::Ability.get(abilityID).is_uncopyable_ability?
-                    copiableAbilities.push(abilityID) if !@ability_ids.include?(abilityID)
+                    copiableAbilities.push(abilityID) unless @ability_ids.include?(abilityID)
                 end
                 next if copiableAbilities.empty?
                 choices[b] = copiableAbilities
@@ -170,12 +170,11 @@ class PokeBattle_Battler
                 end
                 hideMyAbilitySplash
                 
-                if !onSwitchIn # && (immutableAbility? || abilityActive?)
+                unless onSwitchIn
                     choices.values.flatten.each do |ability|
-                        if immutableAbility?(ability) || abilityActive?
-                            BattleHandlers.triggerAbilityOnSwitchIn(ability, self, @battle)
-                            BattleHandlers.triggerStatusCureAbility(ability, self)
-                        end
+                        next unless immutableAbility?(ability) || abilityActive?
+                        BattleHandlers.triggerAbilityOnSwitchIn(ability, self, @battle)
+                        BattleHandlers.triggerStatusCureAbility(ability, self)
                     end
                 end
             end

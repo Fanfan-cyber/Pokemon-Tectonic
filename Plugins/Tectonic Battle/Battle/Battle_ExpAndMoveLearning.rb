@@ -140,9 +140,7 @@ class PokeBattle_Battle
         if pkmn.onHotStreak? && HOT_STREAKS_ACTIVE
             exp = (exp * 1.3).floor
         end
-
         exp *= 2 # earthquake bonus
-
         exp = (exp * 1.1).floor if playerTribalBonus.hasTribeBonus?(:LOYAL)
         exp = (exp * 1.5).floor if @field.effectActive?(:Bliss)
         exp = (exp * (1 + 0.1 * pbQuantity(:EXPCHARM))).floor # Extra 10 percent per EXP charm

@@ -284,7 +284,7 @@ class PokeBattle_Battler
         ret = @battle.apply_field_effect(:calc_speed, self, speed, speedMult, aiCheck)
         speedMult = ret if ret
 
-        if !aiCheck
+        unless aiCheck
             if @field_speed_modifier
                 speedMult *= @field_speed_modifier
                 @field_speed_modifier = nil

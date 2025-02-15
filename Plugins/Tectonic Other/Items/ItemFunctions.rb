@@ -354,7 +354,7 @@ def pbLearnMove(pkmn,move,ignoreifknown=false,bymachine=false,addfirstmove=false
       pbMessage(_INTL("\\se[]{1} learned {2}!\\se[Pkmn move learnt]",pkmnname,movename),&block)
       pkmn.add_first_move(move) if addfirstmove
       return true
-    else
+  else
       return false
     end
   end

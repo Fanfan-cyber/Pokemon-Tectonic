@@ -269,7 +269,7 @@ existingIndex)
                 @partyScene.pbRefresh
             end
             return true
-          elsif cmdOpenAR >= 0 && modifyCommand == cmdOpenAR
+        elsif cmdOpenAR >= 0 && modifyCommand == cmdOpenAR
             changed = AbilityRecorder.oppen_ability_recorder(@pkmn)
             @partyScene.pbRefresh if changed
         elsif cmdAdaptiveAI >= 0 && modifyCommand == cmdAdaptiveAI

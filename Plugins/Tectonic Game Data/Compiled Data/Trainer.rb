@@ -142,11 +142,11 @@ module GameData
                 moveData = GameData::Move.get(moveID)
                 begin
                     unless moveData.learnable?
-                      raise _INTL("Illegal move #{moveID} learnable by a party member of trainer #{trainerName}!")
+                      raise _INTL("Illegal move #{moveID} learnable by a party member of trainer #{trainerName}! This move will be removed.")
                     end
 
                     unless speciesData.learnable_moves.include?(moveID)
-                      raise _INTL("Trainer #{trainerName}'s #{speciesData.species} can't learn the move #{moveID} assigned to it!")
+                      raise _INTL("Trainer #{trainerName}'s #{speciesData.species} can't learn the move #{moveID} assigned to it! This move will be removed.")
                     end
                 rescue
                     pbPrintException($!)

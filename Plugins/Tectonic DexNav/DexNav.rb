@@ -210,7 +210,7 @@ class NewDexNav
 				pbPlayCursorSE
 			end
 		  elsif Input.trigger?(Input::ACTION)
-        if pbConfirmMessage(_INTL("Would you like to obtain all these Pokémon?"))
+        if pbConfirmMessage(_INTL("Would you like to get all these Pokémon?"))
           obtained = false
           displaySpecies.each do |group|
             group.each do |species_data|
@@ -227,7 +227,7 @@ class NewDexNav
           break
         end
 		  elsif MInput.trigger?(:R)
-        if pbConfirmMessage(_INTL("Would you like to obtain a random Pokémon?"))
+        if pbConfirmMessage(_INTL("Would you like to get a random Pokémon?"))
           can_obtain = []
           displaySpecies.each do |group|
             group.each do |species_data|
@@ -236,7 +236,7 @@ class NewDexNav
             end
           end
           if can_obtain.empty?
-            pbMessage(_INTL("You can't get anyone of these Pokémon!"))
+            pbMessage(_INTL("You can't get any of these Pokémon!"))
           else
             pbAddPokemon(can_obtain.sample, getLevelCap - 5, dexnav: true)
             break
@@ -248,7 +248,7 @@ class NewDexNav
         pbMessage(_INTL("This feature of the DexNav is unavailable during this minigame."))
         next
       end
-      if pbConfirmMessage(_INTL("Would you like to obtain this Pokémon?"))
+      if pbConfirmMessage(_INTL("Would you like to get this Pokémon?"))
         if has_species?(highlightedSpecies, highlightedSpeciesForm)
           pbMessage(_INTL("You can't get this Pokémon! You already have one!"))
         else

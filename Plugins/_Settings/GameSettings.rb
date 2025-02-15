@@ -300,7 +300,7 @@ module Settings
       ["English", "english.dat"],
       ["Español", "spanish.dat"],
       #["Francais", "french.dat"],
-      ["Simplified Chinese", "chinese.dat"]
+      ["Simplified Chinese", "chinese.dat"],
     ]
   
     #=============================================================================

@@ -23,7 +23,7 @@ ItemHandlers::UseOnPokemon.add(:ABILITYCAPSULE,proc { |item,pkmn,scene|
       pkmn.ability_index = newabilindex
       pkmn.ability = newabil
       scene&.pbRefresh
-	    msg = _INTL("{1}'s main ability changed to {2}!", pkmn.name, newabilname)
+	    msg = _INTL("{1}'s main ability has been changed to {2}!", pkmn.name, newabilname)
       pbSceneDefaultDisplay(msg, scene)
       pkmn.calc_stats
       next true

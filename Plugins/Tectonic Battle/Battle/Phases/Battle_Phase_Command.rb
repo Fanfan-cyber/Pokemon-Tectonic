@@ -481,7 +481,7 @@ class PokeBattle_Battle
                 case cmd
                 when 0    # Fight
                     if is_pre_switch
-                        break if pbDisplayConfirmSerious(_INTL("You only can Switch, do you want to skip it?"))
+                        break if pbDisplayConfirmSerious(_INTL("You can only Switch. Do you want to skip?"))
                         next
                     end
                     break if pbFightMenu(idxBattler)

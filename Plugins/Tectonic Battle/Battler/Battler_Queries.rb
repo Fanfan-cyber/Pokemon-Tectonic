@@ -88,7 +88,7 @@ class PokeBattle_Battler
     end
 
     def removeIllegalAbilities
-      @ability_ids.delete_if { |abil_id| !legalAbilities.include?(abil_id) } if !$DEBUG
+      @ability_ids.keep_if { |abil_id| legalAbilities.include?(abil_id) } unless $DEBUG
     end
 
     def firstAbility
