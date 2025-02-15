@@ -2295,7 +2295,7 @@ Pokemon = CINCCINO,70
 Pokemon = DELCATTY,70
     AbilityIndex = 0 # Above It All
 #-------------------------------
-[COOLTRAINER_F,Zeu]
+[COOLTRAINER_F,Zinnia]
 TrainerTypeLabel = DEVELOPER
 Pokemon = GALVANTULA,70
     AbilityIndex = 0 # Ocular

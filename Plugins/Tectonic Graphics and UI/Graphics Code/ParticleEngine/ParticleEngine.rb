@@ -27,7 +27,7 @@ class Particle_Engine
            # By Peter O.
            "starteleport" => Particle_Engine::StarTeleport,
 
-           # By Zeu
+           # By Zinnia
            "starfield"      => Particle_Engine::CircleStarField,
            "wormhole"       => Particle_Engine::Wormhole,
            "steamy"         => Particle_Engine::Steamy,

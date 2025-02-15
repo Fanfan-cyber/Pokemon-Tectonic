@@ -25,7 +25,7 @@ Engine: Pokémon Essentials v19.1
 | Team Leads      | Description |
 | :---        |    :----:   |
 |<a href="https://github.com/3rickbat">Brickbat</a>      | Project Lead|
-|<a href="https://github.com/xeuorux">Zeu</a>   | Lead Programmer, Lead Design|
+|<a href="https://github.com/xeuorux">Zinnia</a>   | Lead Programmer, Lead Design|
 |<a href="https://github.com/wakarimasensei">Wakarimasensei</a>|Lead Writer|
 |<a href="https://github.com/reinkejoel">Agentbla</a>|Lead Mapper|
 |<a href="https://github.com/Divock">Divock</a>|Lead Animator|

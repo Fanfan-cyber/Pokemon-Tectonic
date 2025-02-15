@@ -1,7 +1,7 @@
 CHASM_CREDITs = <<_END_
 
 Major Contributors
-Brickbat<s>Zeu
+Brickbat<s>Zinnia
 Divock<s>Agentbla
 Wakarimasensei<s>Drawingbox
 IgnitedxSoul<s>LucaSantosSims
@@ -29,7 +29,7 @@ princessroxie<s>Joaquín Arellano
 M1ntyFr3shD4n<s>pechapanda
 zombygoast<s>Riptidecord
 LunaFlare<s>elusivestowaway
-Kei<s>
+Kei<s>Atteathesilly
 
 {INSERTS_PLUGIN_CREDITS_DO_NOT_REMOVE}
 
