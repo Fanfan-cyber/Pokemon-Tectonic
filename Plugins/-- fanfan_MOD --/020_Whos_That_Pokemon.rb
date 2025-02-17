@@ -10,8 +10,7 @@ class WhoAmI_Scene
     @sprites       = {}
     @sprites["bg"] = IconSprite.new(0, 0, @viewport)
     @sprites["bg"].setBitmap("Graphics/Pictures/Who am I")
-    
-    @player = $Trainer
+
     @all_species = GameData::Species.keys
   end
 
@@ -62,9 +61,9 @@ class WhoAmI_Scene
 
   def draw_info_text
     infopos = [
-      [_INTL("Money: {1}", @player.money), 8, 0, false, WHITE, SHADOW, 1],
-      #[_INTL("Pokédex Seen: {1}", @player.pokedex.seen_count), Graphics.width - 18, 0, true, WHITE, SHADOW, 1],
-      [_INTL("Correct: {1}   Incorrect: {2}", @player.get_ta(:who_am_i_correct, 0), @player.get_ta(:who_am_i_incorrect, 0)), Graphics.width - 18, 0, true, WHITE, SHADOW, 1],
+      [_INTL("Money: {1}", $Trainer.money), 8, 0, false, WHITE, SHADOW, 1],
+      #[_INTL("Pokédex Seen: {1}", $Trainer.pokedex.seen_count), Graphics.width - 18, 0, true, WHITE, SHADOW, 1],
+      [_INTL("Correct: {1}   Incorrect: {2}", TA.get(:who_am_i_correct, 0), TA.get(:who_am_i_incorrect, 0)), Graphics.width - 18, 0, true, WHITE, SHADOW, 1],
       [_INTL("? ? ? ?"), 380, 120, 2, YELLOW, BROWN, 1],
       [_INTL("[←]: Move Left   [→]: Move Right   [C]: Confirm"), Graphics.width / 2, Graphics.height - 42, 2, WHITE, SHADOW, 1]
     ]
@@ -88,7 +87,7 @@ class WhoAmI_Scene
   end
 
   def check_entering_limit
-    if @player.money < LEAST_MONEY
+    if $Trainer.money < LEAST_MONEY
       pbMessage(_INTL("You don't have enough money to play the game!"))
       return false
     end
@@ -153,9 +152,9 @@ class WhoAmI_Scene
     @press_back = false
     infopos = [
       [_INTL("{1}", @name), 380, 120, 2, YELLOW, BROWN, 1],
-      [_INTL("Money: {1}", @player.money), 8, 0, false, WHITE, SHADOW, 1],
-      #[_INTL("Pokédex Seen: {1}", @player.pokedex.seen_count), Graphics.width - 18, 0, true, WHITE, SHADOW, 1],
-      [_INTL("Correct: {1}   Incorrect: {2}", @player.get_ta(:who_am_i_correct), @player.get_ta(:who_am_i_incorrect)), Graphics.width - 18, 0, true, WHITE, SHADOW, 1],
+      [_INTL("Money: {1}", $Trainer.money), 8, 0, false, WHITE, SHADOW, 1],
+      #[_INTL("Pokédex Seen: {1}", $Trainer.pokedex.seen_count), Graphics.width - 18, 0, true, WHITE, SHADOW, 1],
+      [_INTL("Correct: {1}   Incorrect: {2}", TA.get(:who_am_i_correct), TA.get(:who_am_i_incorrect)), Graphics.width - 18, 0, true, WHITE, SHADOW, 1],
       [_INTL("{1}", msg), 380, 192, 2, WHITE, SHADOW, 1],
       [_INTL("[C]: Continue   [X]: Exit"), Graphics.width / 2, Graphics.height - 42, 2, WHITE, SHADOW, 1]
     ]
@@ -170,13 +169,13 @@ class WhoAmI_Scene
 
   def apply_award(correct = true)
     if correct 
-      @player.money += AWARD_MONEY
-      @player.increase_ta(:who_am_i_correct)
+      $Trainer.money += AWARD_MONEY
+      TA.increase(:who_am_i_correct)
     else
-      @player.money = [0, @player.money - LOST_MONEY].max
-      @player.increase_ta(:who_am_i_incorrect)
+      $Trainer.money = [0, $Trainer.money - LOST_MONEY].max
+      TA.increase(:who_am_i_incorrect)
     end
-    #@player.pokedex.set_seen(@species)
+    #$Trainer.pokedex.set_seen(@species)
   end
 
   def animate_reveal

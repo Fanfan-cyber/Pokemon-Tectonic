@@ -95,8 +95,8 @@ module AbilityRecorder
       abils << abil
       abils_recorded << abil
     end
-    return if abils_recorded.empty?
     return if TA.get(:customabil)
+    return if abils_recorded.empty?
     abilities_names = abils_recorded.map { |abil_id| getAbilityName(abil_id) }
     battle.pbDisplay(_INTL("Ability Recorder recorded {1}'s {2}!", battler.pbThis(true), abilities_names.quick_join))
   end

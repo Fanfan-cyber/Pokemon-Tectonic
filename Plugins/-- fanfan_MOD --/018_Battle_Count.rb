@@ -36,7 +36,7 @@ end
 
 class PokeBattle_Battler
   def get_battler_battle_count
-    if !@battle.battle_count[@index & 1][@pokemonIndex]
+    unless @battle.battle_count[@index & 1][@pokemonIndex]
       @battle.battle_count[@index & 1][@pokemonIndex] = PokeBattle_BattleCount.new
     end
     @battle.battle_count[@index & 1][@pokemonIndex]

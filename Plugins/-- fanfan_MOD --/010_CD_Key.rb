@@ -17,7 +17,7 @@ module CDKey
   end
 
   def self.enter_cd_key
-    text = pbEnterText(_INTL("Enter a gift code."), 0, 30).to_sym
+    text = pbEnterText(_INTL("Enter a code."), 0, 30).to_sym
     return if text.empty?
     valid_code = false
     if @@pkmn_cd_key.key?(text)
@@ -42,7 +42,7 @@ module CDKey
       valid_code = true
       @@other_key[text]&.call
     end
-    pbMessage(_INTL("Please enter a valid gift code!")) if !valid_code
+    pbMessage(_INTL("Please enter a valid code!")) if !valid_code
   end
 
   UNUSED_CODE = %i[whosyourdaddy adaptiveai nocopymon]

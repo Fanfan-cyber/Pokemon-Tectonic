@@ -3,6 +3,7 @@ def playWildEXPTutorial
     tutorialMessages = 
     [
         _INTL("Wild Pokémon don't give experience in Pokémon Tectonic."),
+        _INTL("Please don't kill too many Pokémon, or you'll be punished!"),
         _INTL("Don't worry, there's an abundance of experience to gain in other ways."),
         _INTL("If you encounter a Pokémon you don't want, run away. It's guaranteed!")
     ]

@@ -39,7 +39,7 @@ module BattleLoader
   def self.add_trainer_data(battle)
     return if TA.get(:battle_loader)
     return unless battle.trainerBattle?
-    if pbConfirmMessage(_INTL("Do you want to add the opponent team into Battle Loader?"))
+    if pbConfirmMessage(_INTL("Do you want to add the opposing team to the Battle Loader?"))
       load_data
       rules = ["1v1", "2v2", "1v2", "2v1"]
       ret = pbMessage(_INTL("Which battle rule do you want to use?"), rules, 0)
@@ -73,7 +73,7 @@ module BattleLoader
 
   def self.open_battle_loader
     unless $Trainer.has_pokemon?
-      pbMessage(_INTL("You can't start a battle now since you don't have any Pokémon!"))
+      pbMessage(_INTL("You can't start a battle now because you don't have any Pokémon!"))
       return
     end
     loop do
@@ -87,7 +87,7 @@ module BattleLoader
       when 0 # Battle
         load_data
         if @@battle_loader.empty?
-          pbMessage(_INTL("There aren't any teams in Battle Loader!"))
+          pbMessage(_INTL("There aren't any teams in the Battle Loader!"))
         else
           loop do
             battle_mode = [_INTL("Team"), _INTL("Random Team"), _INTL("Random Pokémon Team"), _INTL("Cancel")]
@@ -150,7 +150,7 @@ module BattleLoader
       when 2 # Delete Team
         load_data
         if @@battle_loader.empty?
-          pbMessage(_INTL("There isn't any teams in Battle Loader!"))
+          pbMessage(_INTL("There aren't any teams in the Battle Loader!"))
         else
           names = @@battle_loader.map { |team_info| "#{team_info[0]} #{team_info[1]}" }
           index = pbMessage(_INTL("Which team do you want to delete?"), names, -1)
@@ -198,7 +198,7 @@ module BattleLoader
       results = pbTrainerBattle(trainer_type, trainer.real_name, nil, false, 0, true)
       results ? TA.increase(:battle_win) : TA.increase(:battle_lost)
     rescue
-      pbMessage(_INTL("An error occurred.\nPlease, try again!"))
+      pbMessage(_INTL("An error occurred.\nPlease try again!"))
     end
     TA.set(:battle_loader, false)
   end

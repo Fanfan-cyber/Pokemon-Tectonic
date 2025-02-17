@@ -9,7 +9,7 @@ module TeamSwitcher
         break
       when 0 # Check Team
         if team_shots.empty?
-          pbMessage(_INTL("You don't have any teamshots in Team Switcher!"))
+          pbMessage(_INTL("You don't have any teamshots in the Team Switcher!"))
         else
           names = team_shots.map { |team| team[0] } # [ [ name, [ team ] ], ]
           index = pbMessage(_INTL("Which team would you like to check?"), names, -1)
@@ -27,7 +27,7 @@ module TeamSwitcher
         pbMessage(_INTL("Your team has been shot!"))
       when 2 # Switch Team
         if team_shots.empty?
-          pbMessage(_INTL("You don't have any teamshots in Team Switcher!"))
+          pbMessage(_INTL("You don't have any teamshots in the Team Switcher!"))
         else
           names = team_shots.map { |team| team[0] } # [ [ name, [ team ] ], ]
           index = pbMessage(_INTL("Which team do you want to use?"), names, -1)
@@ -38,7 +38,7 @@ module TeamSwitcher
         end
       when 3 # Delete Team
         if team_shots.empty?
-          pbMessage(_INTL("You don't have any teamshots in Team Switcher!"))
+          pbMessage(_INTL("You don't have any teamshots in the Team Switcher!"))
         else
           names = team_shots.map { |team| team[0] } # [ [ name, [ team ] ], ]
           index = pbMessage(_INTL("Which team do you want to delete?"), names, -1)

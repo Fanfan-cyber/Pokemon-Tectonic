@@ -13,7 +13,7 @@ module TimeCapsule
   def self.open_time_capsule
     loop do
       if @@time_capsule.empty?
-        pbMessage(_INTL("There isn't any Pokémon in Time Capsule!"))
+        pbMessage(_INTL("There isn't any Pokémon in the Time Capsule!"))
         return
       else
         data = pbChoosePkmnFromListEX(_INTL("Which Pokémon would you like to retrieve?"), @@time_capsule)
@@ -35,9 +35,9 @@ module TimeCapsule
   end
 
   def self.add_to_time_capsule(pkmn, ignore_confirm = false)
-    if ignore_confirm || pbConfirmMessage(_INTL("Do you want to put {1} in Time Capsule?", pkmn.name))
+    if ignore_confirm || pbConfirmMessage(_INTL("Do you want to put {1} in the Time Capsule?", pkmn.name))
       @@time_capsule << pkmn
-      pbMessage(_INTL("{1} is now in Time Capsule!", pkmn.name))
+      pbMessage(_INTL("{1} is in the Time Capsule now!", pkmn.name))
       return true
     end
     return false

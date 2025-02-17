@@ -648,6 +648,7 @@ class PokeBattle_Battle
         return if !@internalBattle || !@moneyGain || TA.get(:battle_loader)
 
         moneyMult = 1
+        moneyMult *= 2 # earthquake
         moneyMult *= 2 if @field.effectActive?(:AmuletCoin)
         moneyMult *= 2 if @field.effectActive?(:HappyHour)
         moneyMult *= 2 if @field.effectActive?(:Fortune)
@@ -679,7 +680,7 @@ class PokeBattle_Battle
     end
 
     def pbLoseMoney
-        return if !@internalBattle || !@moneyGain
+        return if !@internalBattle || !@moneyGain || Settings::BATTLE_NO_MONEY_LOSS
         return if $game_switches[Settings::NO_MONEY_LOSS]
         maxLevel = pbMaxLevelInTeam(0, 0) # Player's Pokémon only, not partner's
         multiplier = [8, 16, 24, 36, 48, 64, 80, 100, 120]

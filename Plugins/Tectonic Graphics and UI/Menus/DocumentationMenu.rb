@@ -75,7 +75,7 @@ class PokemonDocumentationMenu < PokemonPauseMenu
     infoCommands[cmdDimensionD  = infoCommands.length] = _INTL("Dimension D")
     infoCommands[cmdTimeCapsule = infoCommands.length] = _INTL("Time Capsule")
     infoCommands[cmdBattleLoader = infoCommands.length] = _INTL("Battle Loader")
-    infoCommands[cmdTeamSwitcher = infoCommands.length] = _INTL("Team Switcher")
+    #infoCommands[cmdTeamSwitcher = infoCommands.length] = _INTL("Team Switcher")
     infoCommands[cmdGiftCode    = infoCommands.length] = _INTL("Gift Receiver")
     infoCommands.push(_INTL("Cancel"))
     loop do

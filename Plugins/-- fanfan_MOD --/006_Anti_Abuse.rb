@@ -86,21 +86,21 @@ module AntiAbuse
       pbMessage(_INTL("Have a good run!"))
       return
     end
-    if pbConfirmMessageSerious(_INTL("Did you download the game from the official source?"))
-      pbMessage(_INTL("Please enter the forum where you downloaded the game. (Website or QQ group)"))
-      forum = pbEnterText(_INTL("Enter the right source."), 0, 32)
-      exit if !GAME_OFFICIAL.include?(forum)
+    if pbConfirmMessageSerious(_INTL("Did you download the game from the official post?"))
+      pbMessage(_INTL("Please enter the post where you downloaded the game. (Website or QQ group)"))
+      forum = pbEnterText(_INTL("Enter the right post."), 0, 32)
+      exit unless GAME_OFFICIAL.include?(forum)
       return
     end
-    System.launch(OFFICIAL_SITE) if pbConfirmMessage(_INTL("Would you like to re-download the game from the official source?"))
+    System.launch(OFFICIAL_SITE) if pbConfirmMessage(_INTL("Would you like to re-download the game from the official post?"))
     exit
   end
 
   def self.kill_windows_shit
-    return if !windows?
+    return unless windows?
     CHEAT_PROCESS.each do |process|
-      next if !process_exists?(process)
-      exit if !system("taskkill /F /IM #{process}")
+      next unless process_exists?(process)
+      exit unless system("taskkill /F /IM #{process}")
     end
   end
 
@@ -121,13 +121,13 @@ module AntiAbuse
   end
 
   def self.kill_cheat_klass(klass_name)
-    return if !Object.const_defined?(klass_name)
+    return unless Object.const_defined?(klass_name)
     Object.send(:remove_const, klass_name)
   end
 
   def self.rewrite_cheat_method
     CHEAT_CLASS.each do |klass_name|
-      next if !Object.const_defined?(klass_name)
+      next unless Object.const_defined?(klass_name)
       klass = Object.const_get(klass_name)
       klass.define_method(:initialize) { exit }
     end

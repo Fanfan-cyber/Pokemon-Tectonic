@@ -16,5 +16,10 @@ module Settings
   ROWE_STAB_DEF      = 5
   ROWE_STAB_DEF_MONO = 10
 
-  ITEM_CLAUSE = false
+  KILL_PUNNISHMENT = 10
+
+  CATCH_RATE_BOOST = 3
+
+  ITEM_CLAUSE          = false
+  BATTLE_NO_MONEY_LOSS = true
 end

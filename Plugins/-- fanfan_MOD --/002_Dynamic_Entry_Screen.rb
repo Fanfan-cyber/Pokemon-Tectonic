@@ -40,7 +40,7 @@ class PokemonEntryScene
     @maxlength = maxlength
     @symtype = 0
     @sprites["entry"].maxlength = maxlength
-    if !USEKEYBOARD
+    unless USEKEYBOARD
       @sprites["entry2"] = Window_CharacterEntry.new(@@Characters[@symtype][0])
       @sprites["entry2"].setOtherCharset(@@Characters[@symtype][1])
       @sprites["entry2"].viewport = @viewport
@@ -166,7 +166,7 @@ class PokemonEntryScene
   
 #-------------------------------
   def update_text_box
-    return unless !@prev_text || (@prev_text != @sprites["entry"].text)
+    return if @prev_text && (@prev_text == @sprites["entry"].text)
     review_restrict
     n_cmds = []
     for cmd in @full_commands

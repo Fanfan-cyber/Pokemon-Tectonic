@@ -88,7 +88,7 @@ module AbilityDex
     @@abilis_fanfan = {}
     count = 0
     GameData::Ability.each do |abil|
-      next if !abil.file_path
+      next unless abil.file_path
       next if abil.is_test?
       count += 1
       @@abilis_fanfan["#{count} #{abil.name}"] = addBattleKeywordHighlighting("#{abil.description}\n#{abil.details}")
@@ -101,7 +101,7 @@ module AbilityDex
     @@abilis_primeval = {}
     count = 0
     GameData::Ability.each do |abil|
-      next if !abil.primeval
+      next unless abil.primeval
       next if abil.is_test?
       count += 1
       @@abilis_primeval["#{count} #{abil.name}"] = addBattleKeywordHighlighting("#{abil.description}\n#{abil.details}")
@@ -114,7 +114,7 @@ module AbilityDex
     @@abilis_cut = {}
     count = 0
     GameData::Ability.each do |abil|
-      next if !abil.cut
+      next unless abil.cut
       next if abil.is_test?
       count += 1
       @@abilis_cut["#{count} #{abil.name}"] = addBattleKeywordHighlighting("#{abil.description}\n#{abil.details}")
@@ -176,8 +176,8 @@ module ItemDex
   end
 
   def self.itemDexMainDirectory
-    { _INTL("TM Machine") => [_INTL("The whole TMs."), :machineItem],
-      _INTL("Held Item")  => [_INTL("The whole items that can be held."), :heldItem],
+    { _INTL("TM Machine") => [_INTL("TMs."), :machineItem],
+      _INTL("Held Item")  => [_INTL("Items that can be held."), :heldItem],
       _INTL("Berry")      => [_INTL("Berries that can be held."), :berryItem],
       _INTL("Clothing")   => [_INTL("Clothes that can be held."), :clothingItem],
       _INTL("Gem")        => [_INTL("Gems that can be held."), :gemItem],
@@ -192,7 +192,7 @@ module ItemDex
     GameData::Item.each do |item|
       next if item.cut
       next if item.super
-      next if !item.is_machine?
+      next unless item.is_machine?
       count += 1
       @@machine_item["#{count} #{item.name}"] = addBattleKeywordHighlighting(item.description)
     end
@@ -206,7 +206,7 @@ module ItemDex
     GameData::Item.each do |item|
       next if item.cut
       next if item.super
-      next if !item.can_hold?
+      next unless item.can_hold?
       next if item.is_mega_stone?
       count += 1
       @@held_item["#{count} #{item.name}"] = addBattleKeywordHighlighting(item.description)
@@ -221,7 +221,7 @@ module ItemDex
     GameData::Item.each do |item|
       next if item.cut
       next if item.super
-      next if !item.is_berry?
+      next unless item.is_berry?
       count += 1
       @@berry_item["#{count} #{item.name}"] = addBattleKeywordHighlighting(item.description)
     end
@@ -235,7 +235,7 @@ module ItemDex
     GameData::Item.each do |item|
       next if item.cut
       next if item.super
-      next if !item.is_clothing?
+      next unless item.is_clothing?
       count += 1
       @@clothing_item["#{count} #{item.name}"] = addBattleKeywordHighlighting(item.description)
     end
@@ -249,7 +249,7 @@ module ItemDex
     GameData::Item.each do |item|
       next if item.cut
       next if item.super
-      next if !item.is_gem?
+      next unless item.is_gem?
       count += 1
       @@gem_item["#{count} #{item.name}"] = addBattleKeywordHighlighting(item.description)
     end
@@ -263,7 +263,7 @@ module ItemDex
     GameData::Item.each do |item|
       next if item.cut
       next if item.super
-      next if !item.is_herb?
+      next unless item.is_herb?
       count += 1
       @@herb_item["#{count} #{item.name}"] = addBattleKeywordHighlighting(item.description)
     end

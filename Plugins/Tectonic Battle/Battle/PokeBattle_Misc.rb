@@ -353,6 +353,7 @@ class PokeBattle_Battle
 
     def typeEffectivenessMult(typeMod)
         mult = typeMod / Effectiveness::NORMAL_EFFECTIVE.to_f
+        mult = Math.log(mult, 2) + 1 if mult >= 4 # earthquake 2/4/8/16/32 etc => 2/3/4/5/6 etc
         if @field.effectActive?(:PolarizedRoom)
             if Effectiveness.super_effective?(typeMod)
                 mult *= 1.25

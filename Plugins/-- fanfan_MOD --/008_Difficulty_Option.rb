@@ -29,7 +29,7 @@ Events.onTrainerPartyLoad += proc { |_sender, e|
   trainer.party.each do |pkmn|
     pkmn.level = player_level if pkmn.level < player_level
     pkmn.level = trainer_level if pkmn.level < trainer_level
-    pkmn.level += punish_level - 1 if punish_level > 1
+    pkmn.level += punish_level - Settings::KILL_PUNNISHMENT if punish_level > Settings::KILL_PUNNISHMENT
     pkmn.calc_stats
     pkmn.heal
   end
