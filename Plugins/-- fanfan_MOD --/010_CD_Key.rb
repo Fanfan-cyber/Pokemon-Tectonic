@@ -3,21 +3,29 @@ module CDKey
   @@item_cd_key = {}
   @@other_key   = {}
 
-  def self.register_pkmn_key(key, pkmn, level = 1)
-    @@pkmn_cd_key[key.to_sym] = proc { pbAddPokemon(pkmn, level) }
+  def self.register_pkmn_key(key, pkmn_hash)
+    @@pkmn_cd_key[key.to_s.downcase] = proc {
+      pkmn_hash.each do |pkmn, level|
+        pbAddPokemon(pkmn, level)
+      end
+    }
   end
 
-  def self.register_item_key(key, item, quantity = 1)
-    @@item_cd_key[key.to_sym] = proc { pbReceiveItem(item, quantity) }
+  def self.register_item_key(key, items_hash)
+    @@item_cd_key[key.to_s.downcase] = proc {
+      items_hash.each do |item, quantity|
+        pbReceiveItem(item, quantity)
+      end
+    }
   end
 
   def self.register_other_key(key, value = true)
-    key = [key.to_sym] if !key.is_a?(Array)
+    key = [key.to_s.downcase] unless key.is_a?(Array)
     @@other_key[key[0]] = proc { TA.set(key[-1], value) }
   end
 
   def self.enter_cd_key
-    text = pbEnterText(_INTL("Enter a code."), 0, 30).to_sym
+    text = pbEnterText(_INTL("Enter a code."), 0, 30).downcase
     return if text.empty?
     valid_code = false
     if @@pkmn_cd_key.key?(text)
@@ -79,7 +87,11 @@ CDKey.register_other_key([:nocustomabil, :customabil], false)
 #CDKey.register_other_key(:nocopymon)
 #CDKey.register_other_key([:copymonagain, :nocopymon], false)
 
-CDKey.register_pkmn_key(:hyena1, :PIKACHU)
-CDKey.register_pkmn_key(:psyduck10, :PORYGON, 10)
+CDKey.register_pkmn_key(:hyena1,    { :PIKACHU => 1  })
+CDKey.register_pkmn_key(:psyduck10, { :PORYGON => 10 })
 
-CDKey.register_item_key(:pokeball5, :POKEBALL, 5)
+CDKey.register_item_key(:pokeball5, { :POKEBALL => 5 })
+
+CDKey.register_item_key(:boxlink,   { :BOXLINK   => 1 })
+CDKey.register_item_key(:omnidrive, { :OMNIDRIVE => 1 })
+CDKey.register_item_key(:allpack,   { :BOXLINK   => 1, :OMNIDRIVE => 1 })
