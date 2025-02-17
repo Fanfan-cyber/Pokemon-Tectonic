@@ -91,6 +91,7 @@ CDKey.register_pkmn_key(:psyduck10, { :PORYGON => 10 })
 
 CDKey.register_item_key(:pokeball5, { :POKEBALL => 5 })
 
-CDKey.register_item_key(:boxlink,   { :BOXLINK   => 1 })
-CDKey.register_item_key(:omnidrive, { :OMNIDRIVE => 1 })
-CDKey.register_item_key(:packed,    { :BOXLINK   => 1, :OMNIDRIVE => 1 })
+CDKey.register_item_key(:boxlink,      { :BOXLINK      => 1 })
+CDKey.register_item_key(:omnidrive,    { :OMNIDRIVE    => 1 })
+CDKey.register_item_key(:noisemachine, { :NOISEMACHINE => 1 })
+CDKey.register_item_key(:packed,       { :BOXLINK      => 1, :OMNIDRIVE => 1, :NOISEMACHINE => 1 })
