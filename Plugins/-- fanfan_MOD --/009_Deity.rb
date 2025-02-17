@@ -57,7 +57,7 @@ class TribalBonus
   def updateTribeCount
     deity_update_tribe_count
     add_all_tribes if @trainer.is_player? && TA.get(:alltribes)
-    copy_player_tribes if !@trainer.is_player? && $Trainer && !TA.get(:notribecopy)
+    copy_player_tribes if !@trainer.is_player? && $Trainer && !TA.get(:notribecopy) && Settings::COPY_PLAYER_TRIBE
   end
 
   def add_tribe(tribe_ids)
@@ -69,7 +69,7 @@ class TribalBonus
   end
 
   def add_all_tribes
-    add_tribe(GameData::Tribe.all_id)
+    add_tribe(GameData::Tribe.keys)
   end
 
   def copy_player_tribes

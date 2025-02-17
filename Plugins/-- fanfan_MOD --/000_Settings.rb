@@ -22,4 +22,5 @@ module Settings
 
   ITEM_CLAUSE          = false
   BATTLE_NO_MONEY_LOSS = true
+  COPY_PLAYER_TRIBE    = false
 end

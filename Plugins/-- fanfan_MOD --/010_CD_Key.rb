@@ -4,7 +4,7 @@ module CDKey
   @@other_key   = {}
 
   def self.register_pkmn_key(key, pkmn_hash)
-    @@pkmn_cd_key[key.to_s.downcase] = proc {
+    @@pkmn_cd_key[key.to_s.downcase.to_sym] = proc {
       pkmn_hash.each do |pkmn, level|
         pbAddPokemon(pkmn, level)
       end
@@ -12,7 +12,7 @@ module CDKey
   end
 
   def self.register_item_key(key, items_hash)
-    @@item_cd_key[key.to_s.downcase] = proc {
+    @@item_cd_key[key.to_s.downcase.to_sym] = proc {
       items_hash.each do |item, quantity|
         pbReceiveItem(item, quantity)
       end
@@ -20,12 +20,12 @@ module CDKey
   end
 
   def self.register_other_key(key, value = true)
-    key = [key.to_s.downcase] unless key.is_a?(Array)
+    key = [key.to_s.downcase.to_sym] unless key.is_a?(Array)
     @@other_key[key[0]] = proc { TA.set(key[-1], value) }
   end
 
   def self.enter_cd_key
-    text = pbEnterText(_INTL("Enter a code."), 0, 30).downcase
+    text = pbEnterText(_INTL("Enter a code."), 0, 30).downcase.to_sym
     return if text.empty?
     valid_code = false
     if @@pkmn_cd_key.key?(text)
