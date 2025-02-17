@@ -87,14 +87,14 @@ class PokeBattle_Move_EmpoweredSandstorm < PokeBattle_Move_StartSandstorm8
 end
 
 #===============================================================================
-# Dizzies the target and sets Sandstorm
+# Numbs the target and sets Sandstorm
 #===============================================================================
-class PokeBattle_Move_DizzyTargetStartSandstorm8 < PokeBattle_InviteMove
+class PokeBattle_Move_NumbTargetStartSandstorm8 < PokeBattle_InviteMove
     def initialize(battle, move)
         super
         @weatherType = :Sandstorm
         @durationSet = 8
-        @statusToApply = :DIZZY
+        @statusToApply = :NUMB
     end
 end
 
@@ -155,6 +155,18 @@ class PokeBattle_Move_EmpoweredEclipse < PokeBattle_Move_StartEclipse8
 end
 
 #===============================================================================
+# Dizzies the target and sets Eclipse
+#===============================================================================
+class PokeBattle_Move_DizzyTargetStartEclipse8 < PokeBattle_InviteMove
+    def initialize(battle, move)
+        super
+        @weatherType = :Eclipse
+        @durationSet = 8
+        @statusToApply = :DIZZY
+    end
+end
+
+#===============================================================================
 # Starts moonlight weather. (Moonglow)
 #===============================================================================
 class PokeBattle_Move_StartMoonglow8 < PokeBattle_WeatherMove
@@ -176,5 +188,17 @@ class PokeBattle_Move_EmpoweredMoonglow < PokeBattle_Move_StartMoonglow8
         end
 
         transformType(user, :FAIRY)
+    end
+end
+
+#===============================================================================
+# Leeches the target and sets Moonglow
+#===============================================================================
+class PokeBattle_Move_LeechTargetStartMoonglow8 < PokeBattle_InviteMove
+    def initialize(battle, move)
+        super
+        @weatherType = :Moonglow
+        @durationSet = 8
+        @statusToApply = :LEECHED
     end
 end

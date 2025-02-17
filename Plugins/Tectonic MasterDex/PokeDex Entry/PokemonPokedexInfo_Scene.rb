@@ -946,9 +946,12 @@ sp.form) && !Settings::DEX_SHOWS_ALL_FORMS
     def getEncounterableAreas(species)
         areas = []
         GameData::Encounter.each_of_version($PokemonGlobal.encounter_version) do |enc_data|
+            map_is_hidden = false
             if hidden_map_encounter_switch_hash.key?(enc_data.map)
                 switchID = hidden_map_encounter_switch_hash[enc_data.map]
-                next unless $game_switches[switchID]
+                if !$game_switches[switchID] then
+                    map_is_hidden = true
+                end
             end
 
             enc_data.types.each do |type, slots|
@@ -965,7 +968,15 @@ sp.form) && !Settings::DEX_SHOWS_ALL_FORMS
                         pbGetMessage(MessageTypes::MapNames, enc_data.map)
                     rescue StandardError
                         nil
-                    end || "???"
+                    end || "???" # This line doesn't seem to work as intended but I don't want to mess with it unnecessarily
+                    # Handle errors with missing maps
+                    if mapName == nil then
+                        mapName = _INTL("Unknown Map")
+                    end
+                    # Obscure map name if secret map is undiscovered
+                    if map_is_hidden then
+                        mapName = "???"
+                    end
                     encounterTypeName = getNameForEncounterType(type)
 
                     encounterChance = "%g" % (100 * (slot[0] / totalEncounterWeight.to_f)).round(1)
