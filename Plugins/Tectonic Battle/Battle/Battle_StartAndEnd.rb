@@ -327,9 +327,9 @@ class PokeBattle_Battle
             # Record if the fight was perfected
             if $Trainer.able_pokemon_count >= ableBeforeFight
                 trackPerfectBattle(true)
-                if trainerBattle? && @decision == 1 && !$Trainer.get_ta(:battle_loader) #&& !skipPerfecting
+                if trainerBattle? && @decision == 1 && !TA.get(:battle_loader) #&& !skipPerfecting
                     pbMessage(_INTL("\\me[Battle perfected]You perfected the fight!"))
-                    $Trainer.increase_ta(:victory)
+                    TA.increase(:victory)
                     RocketMode.pbRobPokemon(self)
                 end
             end
@@ -433,7 +433,7 @@ class PokeBattle_Battle
         @preBattle = false
 
         pbDisplay(_INTL("You can skip the battle and treat it as a win by FORFEIT!")) if bossBattle?
-        pbDisplay(_INTL("You have to win the battle PERFECTLY, or you LOSE!")) if trainerBattle? #&& !$Trainer.get_ta(:battle_loader)
+        pbDisplay(_INTL("You have to win the battle PERFECTLY, or you LOSE!")) if trainerBattle? #&& !TA.get(:battle_loader)
 
         # Main battle loop
         pbBattleLoop(ableBeforeFight)
@@ -645,7 +645,7 @@ class PokeBattle_Battle
     # End of battle
     #=============================================================================
     def pbGainMoney
-        return if !@internalBattle || !@moneyGain || $Trainer.get_ta(:battle_loader)
+        return if !@internalBattle || !@moneyGain || TA.get(:battle_loader)
 
         moneyMult = 1
         moneyMult *= 2 if @field.effectActive?(:AmuletCoin)
@@ -776,7 +776,7 @@ class PokeBattle_Battle
                         pbDisplayPaused(_INTL("You lost against {1}, {2} and {3}!{4}",
                           @opponent[0].full_name, @opponent[1].full_name, @opponent[2].full_name, lost_extra_text))
                     end
-                    $Trainer.increase_ta(:lost) if !$Trainer.get_ta(:battle_loader)
+                    TA.increase(:lost) unless TA.get(:battle_loader)
                 end
             elsif @decision == 2
                 if @opponent

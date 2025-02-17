@@ -19,7 +19,7 @@ class Pokemon
   end
 
   def abilities
-    main_abil = $Trainer.get_ta(:customabil) ? [ability_id] : []
+    main_abil = TA.get(:customabil) ? [ability_id] : []
     (main_abil | species_abilities | extraAbilities).compact
   end
 
@@ -38,7 +38,7 @@ class PokeBattle_Battle
   def ai_update_abilities(battler = nil, abils: nil)
     return if battler && !battler.pbOwnedByPlayer?
     if battler
-      abils = [abils].compact if !abils.is_a?(Array)
+      abils = [abils].compact unless abils.is_a?(Array)
       @knownAbilities[battler.unique_id] = []
       @knownAbilities[battler.unique_id].concat(abils)
       echoln("[ABILITY UPDATE] Player's side #{battler.name}: #{@knownAbilities[battler.unique_id]}.")
@@ -85,8 +85,8 @@ end
 
 module AbilityRecorder
   def self.check_ability_recorder(battle, battler)
-    return if $Trainer.get_ta(:battle_loader)
-    return if !battle.trainerBattle?
+    return if TA.get(:battle_loader)
+    return unless battle.trainerBattle?
     return if battler.pbOwnedByPlayer?
     abils = $Trainer.ability_recorder
     abils_recorded = []
@@ -96,6 +96,7 @@ module AbilityRecorder
       abils_recorded << abil
     end
     return if abils_recorded.empty?
+    return if TA.get(:customabil)
     abilities_names = abils_recorded.map { |abil_id| getAbilityName(abil_id) }
     battle.pbDisplay(_INTL("Ability Recorder recorded {1}'s {2}!", battler.pbThis(true), abilities_names.quick_join))
   end
@@ -103,13 +104,13 @@ module AbilityRecorder
   def self.oppen_ability_recorder(pkmn)
     abils = $Trainer.ability_recorder
     chose = change_ability_choose_from_list(pkmn, abils)
-    return false if !chose
+    return false unless chose
     abils.delete(chose)
     return true
   end
 
   def self.has_ability_recorded?
-    return false if !$Trainer.get_ta(:customabil)
+    return false unless TA.get(:customabil)
     $Trainer.ability_recorder.length > 0
   end
 end

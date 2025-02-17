@@ -244,7 +244,7 @@ existingIndex)
         newspecies = @pkmn.check_evolution_on_level_up(false)
         commands[cmdEvolve = commands.length]       = _INTL("Evolve") if newspecies
         commands[cmdOpenAR = commands.length]       = _INTL("Open AR") if AbilityRecorder.has_ability_recorded?
-        commands[cmdAdaptiveAI = commands.length]   = _INTL("Adaptive AI") if $Trainer.get_ta(:adaptiveai)
+        commands[cmdAdaptiveAI = commands.length]   = _INTL("Adaptive AI") if TA.get(:adaptiveai)
         commands[commands.length]                   = _INTL("Cancel")
 
         modifyCommand = @partyScene.pbShowCommands(_INTL("Do what with {1}?", @pkmn.name), commands)

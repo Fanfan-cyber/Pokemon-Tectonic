@@ -1,6 +1,6 @@
 module RocketMode
   def self.pbRobPokemon(battle)
-    return if !$Trainer.get_ta(:rocket) || !battle.trainerBattle? || $Trainer.get_ta(:battle_loader)
+    return if !TA.get(:rocket) || !battle.trainerBattle? || TA.get(:battle_loader)
     can_choose = []
     battle.pbParty(1).each_with_index do |pkmn, i|
       next if !pkmn || pkmn.egg? || has_species?(pkmn.species, pkmn.form)

@@ -1,15 +1,15 @@
 Events.onTrainerPartyLoad += proc { |_sender, e|
-  next if !$Trainer.get_ta(:battle_loader)
+  next unless TA.get(:battle_loader)
   trainer = e[0]
-  next if !trainer
-  trainer.name = $Trainer.get_ta(:name)
+  next unless trainer
+  trainer.name = TA.get(:name)
   trainer.party.clear
-  $Trainer.get_ta(:team).each { |pkmn| trainer.party << pkmn.clone_pkmn }
+  TA.get(:team).each { |pkmn| trainer.party << pkmn.clone_pkmn }
 }
 
 Events.onTrainerPartyLoad += proc { |_sender, e|
-  next if $Trainer.get_ta(:battle_loader)
-  next if $Trainer.get_ta(:nocopymon)
+  next if TA.get(:battle_loader)
+  next if TA.get(:nocopymon)
   trainer = e[0]
   next if !trainer || trainer.able_party.length >= 6
   pkmn = $Trainer.party_random_pkmn(true, true)
@@ -22,10 +22,10 @@ Events.onTrainerPartyLoad += proc { |_sender, e|
 
 Events.onTrainerPartyLoad += proc { |_sender, e|
   trainer = e[0]
-  next if !trainer
+  next unless trainer
   player_level = $Trainer.party_highest_level
   trainer_level = trainer.party_highest_level
-  punish_level = $Trainer.get_ta(:kill_count, 0)
+  punish_level = TA.get(:kill_count, 0)
   trainer.party.each do |pkmn|
     pkmn.level = player_level if pkmn.level < player_level
     pkmn.level = trainer_level if pkmn.level < trainer_level
@@ -36,9 +36,9 @@ Events.onTrainerPartyLoad += proc { |_sender, e|
 }
 
 Events.onTrainerPartyLoad += proc { |_sender, e|
-  next if !$Trainer.get_ta(:customabil)
+  next unless TA.get(:customabil)
   trainer = e[0]
-  next if !trainer
+  next unless trainer
   trainer.party.each do |pkmn|
     next if pkmn.has_main_ability?
     #pkmn.ability = TA.choose_random_ability(pkmn)

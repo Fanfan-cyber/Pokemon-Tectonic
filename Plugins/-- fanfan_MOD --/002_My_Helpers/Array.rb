@@ -100,7 +100,7 @@ class Array
   end
 
   # 快速连接数组里的所有元素
-  def quick_join(joiner = ", ", ender = " and ")
+  def quick_join(joiner = _INTL(", "), ender = _INTL(" and "))
     length <= 1 ? join(joiner) : "#{self[0..-2].join(joiner)}#{ender}#{self[-1]}"
   end
 

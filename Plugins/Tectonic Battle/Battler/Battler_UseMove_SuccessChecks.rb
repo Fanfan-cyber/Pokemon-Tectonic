@@ -330,7 +330,7 @@ target.pbThis(true)))
         # Two-turn attacks can't fail here in the charging turn
         return true if user.effectActive?(:TwoTurnAttack)
 
-        if $Trainer.get_ta(:whosyourdaddy) && target.pbOwnedByPlayer?
+        if TA.get(:whosyourdaddy) && target.pbOwnedByPlayer?
             @battle.pbDisplay(_INTL("It doesn't affect {1}...", target.pbThis(true))) if show_message
             return false
         end

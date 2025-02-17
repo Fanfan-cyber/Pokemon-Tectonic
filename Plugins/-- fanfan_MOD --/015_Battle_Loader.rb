@@ -29,7 +29,7 @@ module BattleLoader
   def self.delete_data(unique_id)
     teams = Dir.glob("#{BATTLE_LOADER_PATH}/*.txt")
     teams.each do |info|
-      next if !info.include?(unique_id)
+      next unless info.include?(unique_id)
       File.delete(info)
       break
     end
@@ -37,8 +37,8 @@ module BattleLoader
   end
 
   def self.add_trainer_data(battle)
-    return if $Trainer.get_ta(:battle_loader)
-    return if !battle.trainerBattle?
+    return if TA.get(:battle_loader)
+    return unless battle.trainerBattle?
     if pbConfirmMessage(_INTL("Do you want to add the opponent team into Battle Loader?"))
       load_data
       rules = ["1v1", "2v2", "1v2", "2v1"]
@@ -72,7 +72,7 @@ module BattleLoader
   end
 
   def self.open_battle_loader
-    if !$Trainer.has_pokemon?
+    unless $Trainer.has_pokemon?
       pbMessage(_INTL("You can't start a battle now since you don't have any Pokémon!"))
       return
     end
@@ -83,7 +83,7 @@ module BattleLoader
       when -1, 4 # Cancel
         break
       when 3 # Check Stats
-        pbMessage(_INTL("Your Victory count is {1}!\nYour Lost count is {2}!", $Trainer.get_ta(:battle_win, 0), $Trainer.get_ta(:battle_lost, 0)))
+        pbMessage(_INTL("Your Victory count is {1}!\nYour Lost count is {2}!", TA.get(:battle_win, 0), TA.get(:battle_lost, 0)))
       when 0 # Battle
         load_data
         if @@battle_loader.empty?
@@ -181,26 +181,26 @@ module BattleLoader
 
   def self.start_battle(rule, team)
     setBattleRule(rule)
-    $Trainer.set_ta(:battle_loader, true)
-    $Trainer.set_ta(:team, team)
+    TA.set(:battle_loader, true)
+    TA.set(:team, team)
     trainer = GameData::Trainer.values.sample
     trainer_type = trainer.trainer_type
     trainer_type_data = GameData::TrainerType.get(trainer_type)
     if trainer_type_data.male?
-      $Trainer.set_ta(:name, BOY_NAMES.sample)
+      TA.set(:name, BOY_NAMES.sample)
     elsif trainer_type_data.female?
-      $Trainer.set_ta(:name, GIRL_NAMES.sample)
+      TA.set(:name, GIRL_NAMES.sample)
     else
-      $Trainer.set_ta(:name, _INTL("Unknown"))
+      TA.set(:name, _INTL("Unknown"))
     end
     begin
       #pbTrainerBattle(:LEADER_Lambert, "Lambert", nil, false, 0, true)
       results = pbTrainerBattle(trainer_type, trainer.real_name, nil, false, 0, true)
-      results ? $Trainer.increase_ta(:battle_win) : $Trainer.increase_ta(:battle_lost)
+      results ? TA.increase(:battle_win) : TA.increase(:battle_lost)
     rescue
       pbMessage(_INTL("An error occurred.\nPlease, try again!"))
     end
-    $Trainer.set_ta(:battle_loader, false)
+    TA.set(:battle_loader, false)
   end
 end
 

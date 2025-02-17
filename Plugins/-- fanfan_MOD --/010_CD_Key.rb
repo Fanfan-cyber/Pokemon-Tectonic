@@ -13,7 +13,7 @@ module CDKey
 
   def self.register_other_key(key, value = true)
     key = [key.to_sym] if !key.is_a?(Array)
-    @@other_key[key[0]] = proc { $Trainer.set_ta(key[-1], value) }
+    @@other_key[key[0]] = proc { TA.set(key[-1], value) }
   end
 
   def self.enter_cd_key
@@ -48,7 +48,7 @@ module CDKey
   UNUSED_CODE = %i[whosyourdaddy adaptiveai nocopymon]
 
   def self.clear_unused_code
-    UNUSED_CODE.each { |code| $Trainer&.set_ta(code, false) }
+    UNUSED_CODE.each { |code| TA.set(code, false) }
   end
 end
 
