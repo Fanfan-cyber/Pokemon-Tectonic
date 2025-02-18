@@ -1,45 +1,45 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-[ADAPTIVEAIV1] # 0689
+[ADAPTIVEAIV1] # 0688
 Name = Adaptive AI v1
 Description = Adapts the move's type to ensure it is super-effective against the target.
 Flags = Test
 #-------------------------------
-[ADAPTIVEAIV2] # 0690
+[ADAPTIVEAIV2] # 0689
 Name = Adaptive AI v2
 Description = Adapts the move's type to ensure it is truly super-effective against the target.
 Flags = Test
 #-------------------------------
-[ADAPTIVEAIV3] # 0691
+[ADAPTIVEAIV3] # 0690
 Name = Adaptive AI v3
 Description = Adapts the move's type to maximize effectiveness while accounting for the immunities.
 Flags = Test
 #-------------------------------
-[ADAPTIVEAIV4] # 0692
+[ADAPTIVEAIV4] # 0691
 Name = Adaptive AI v4
 Description = Adapts the move's type to maximize damage against the target.
 Flags = Test
 #-------------------------------
-[RELENTLESSPURSUIT] # 0693
+[RELENTLESSPURSUIT] # 0692
 Name = Relentless Pursuit
 Description = Attacks switching opponents with Pursuit.
 #-------------------------------
-[SEVENTYTWOTRANSFORMATIONS] # 0694
+[SEVENTYTWOTRANSFORMATIONS] # 0693
 Name = 72 Transformations
 Description = Changes to a random Pokémon at the end of each turn.
 Flags = Test
 #-------------------------------
-[TEMPORALSHIFT] # 0695
+[TEMPORALSHIFT] # 0694
 Name = Temporal Shift
 Description = Can switch out of battle without wasting a turn.
 Flags = Test
 #-------------------------------
-[TIDEWEAVERSREVERSAL] # 0696
+[TIDEWEAVERSREVERSAL] # 0695
 Name = Tideweaver's Reversal
 Description = Turns rainstorm into Harsh Sunlight, sunshine into Heavy Rain.
 Flags = Test
 #-------------------------------
-[UNWAVERINGVALOR] # 0697
+[UNWAVERINGVALOR] # 0696
 Name = Unwavering Valor
 Description = Stats that the Pokémon raises remain raised even after switching.
 Flags = Test
