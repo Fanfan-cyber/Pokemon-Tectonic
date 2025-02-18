@@ -203,6 +203,12 @@ class Pokemon
         @level = value
     end
 
+    def set_starting_level(value)
+        self.level = value
+        @obtain_level = value
+        calc_stats
+    end
+
     # Sets this Pokémon's Exp. Points.
     # @param value [Integer] new experience points
     def exp=(value)

@@ -573,7 +573,7 @@ Pokemon = SHELLOS,19
 [LEADER_Helena,Helena]
 Policies = HELENA,PRIORITIZEUTURN
 Flags = NoPerfect
-Pokemon = LANTURN,25
+Pokemon = CHINCHOU,25
     Moves = VOLTSWITCH,BUBBLEBEAM,BALEFULBOP,CONFUSERAY
     AbilityIndex = 0 # Volt Absorb
     Item = CADOBERRY
@@ -1789,7 +1789,7 @@ Pokemon = AGOLEM,35
     Item = SITRUSBERRY
 Pokemon = EXEGGUTOR,35
     Moves = DIAMETRICBREATH,PSYCHIC,SYNTHESIS,GRASSKNOT
-    AbilityIndex = 0 # Arcane
+    AbilityIndex = 0 # Radiate
 Pokemon = MANDIBUZZ,35
     Moves = DRILLPECK,KNOCKOFF,CULL,PLANTDOUBT
     AbilityIndex = 0 # Impervious
@@ -8807,7 +8807,7 @@ Pokemon = ADUGTRIO,60
     AbilityIndex = 0 # Tangling Hair
     Item = ASSAULTVEST
 Pokemon = EXEGGUTOR,60
-    AbilityIndex = 0 # Arcane
+    AbilityIndex = 0 # Radiate
     Item = CHOICESCARF
 #-------------------------------
 [POKEMONRANGER_M2,Mason]

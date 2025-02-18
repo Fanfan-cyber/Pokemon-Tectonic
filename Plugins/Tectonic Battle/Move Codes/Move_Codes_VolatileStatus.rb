@@ -467,8 +467,6 @@ end
 # User curses the target.
 #===============================================================================
 class PokeBattle_Move_CurseTarget < PokeBattle_Move
-    def ignoresSubstitute?(_user); return true; end
-
     def pbFailsAgainstTarget?(user, target, show_message)
         if target.effectActive?(:Curse)
             @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} is already cursed!")) if show_message
@@ -772,8 +770,6 @@ end
 # User fractures the target.
 #===============================================================================
 class PokeBattle_Move_FractureTarget < PokeBattle_Move
-    def ignoresSubstitute?(_user); return true; end
-
     def pbFailsAgainstTarget?(user, target, show_message)
         return false if damagingMove?
         if target.effectActive?(:Fracture)
@@ -803,8 +799,6 @@ end
 # User jinxes the target.
 #===============================================================================
 class PokeBattle_Move_JinxTarget < PokeBattle_Move
-    def ignoresSubstitute?(_user); return true; end
-
     def pbFailsAgainstTarget?(user, target, show_message)
         return false if damagingMove?
         if target.effectActive?(:Jinxed)

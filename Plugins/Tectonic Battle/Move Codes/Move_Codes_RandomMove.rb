@@ -178,6 +178,7 @@ class PokeBattle_Move_UseRandomNonSignatureMove < PokeBattle_Move
             move_data = GameData::Move.get(move_id)
             next unless move_data.learnable?
             next unless move_data.can_be_forced?
+            next if move_data.is_signature?
             next if @moveBlacklist.include?(move_data.function_code)
             next if move_data.empoweredMove?
             if battle

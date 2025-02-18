@@ -57,7 +57,7 @@ Name = Center
 Type = NORMAL
 Category = Status
 Accuracy = 0
-TotalPP = 15
+TotalPP = 4
 Target = User
 FunctionCode = RaiseUserSpDef3
 Flags = CanSnatch
@@ -144,7 +144,7 @@ Name = Curl Up
 Type = NORMAL
 Category = Status
 Accuracy = 0
-TotalPP = 4
+TotalPP = 3
 Target = User
 FunctionCode = RaiseUserDefSpDef2CurlsUp
 Flags = CanSnatch
@@ -423,8 +423,8 @@ Accuracy = 100
 TotalPP = 12
 Target = NearOther
 FunctionCode = Basic
-Flags = CanProtect,CanMirrorMove,VeryHighCriticalHitRate,Blade
-Description = The target is cut by a clean slice. Critical hits four times as often.
+Flags = CanProtect,CanMirrorMove,CanRandomCrit,DoubleCritChance,Blade
+Description = The target is cut by a clean slice. Can random critical hit, and does so twice as often.
 Animation = SLASH
 #-------------------------------
 [PARTICLEPULSE]
@@ -771,7 +771,7 @@ TotalPP = 15
 Target = User
 FunctionCode = RaiseUserSpd2CriticalHitRate2
 Flags = CanSnatch
-Description = The user breathes deeply, raising its Speed by two steps and quadrupling its critical hit chance.
+Description = Enables random critical hits for the user, quadruples its critical hit chance, and raises its Speed by 2 steps.
 Animation = FOCUSENERGY
 #-------------------------------
 [DETACHMENT]
@@ -921,8 +921,8 @@ Accuracy = 100
 TotalPP = 15
 Target = NearOther
 FunctionCode = HitThreeTimes
-Flags = CanProtect,CanMirrorMove,HighCriticalHitRate
-Description = The user shoots three arrows made of Aura with extreme precision. Critical hits twice as often.
+Flags = CanProtect,CanMirrorMove,CanRandomCrit
+Description = The user shoots three arrows made of Aura with extreme precision. Can random critical hit.
 Animation = AURASPHERE
 #-------------------------------
 [VALORBOLT]
@@ -948,8 +948,8 @@ Accuracy = 100
 TotalPP = 10
 Target = NearOther
 FunctionCode = Rampage
-Flags = CanProtect,CanMirrorMove,HighCriticalHitRate
-Description = The user relentlessly attacks with its whip-like hands for three turns. Critical hits twice as often.
+Flags = CanProtect,CanMirrorMove,CanRandomCrit
+Description = The user relentlessly attacks with its whip-like hands for three turns. Can random critical hit.
 #-------------------------------
 #		FLYING MOVES
 #-------------------------------
@@ -1055,8 +1055,8 @@ Accuracy = 100
 TotalPP = 15
 Target = NearOther
 FunctionCode = HitTwoToFiveTimes
-Flags = CanProtect,CanMirrorMove,HighCriticalHitRate
-Description = The target is jabbed repeatedly with a horn or beak two to five times in a row. Critical hits twice as often.
+Flags = CanProtect,CanMirrorMove,CanRandomCrit
+Description = The target is jabbed repeatedly with a horn or beak two to five times in a row. Can random critical hit.
 #-------------------------------
 [HOP]
 Name = Hop
@@ -1243,7 +1243,7 @@ Name = Dissolution
 Type = POISON
 Category = Status
 Accuracy = 0
-TotalPP = 10
+TotalPP = 4
 Target = User
 FunctionCode = RaiseUserSpDef5
 Flags = CanSnatch
@@ -1849,8 +1849,8 @@ Accuracy = 100
 TotalPP = 15
 Target = NearOther
 FunctionCode = Basic
-Flags = CanProtect,CanMirrorMove,HighCriticalHitRate
-Description = The user attacks with the bright glint of crystals. Critical hits twice as often.
+Flags = CanProtect,CanMirrorMove,CanRandomCrit
+Description = The user attacks with the bright glint of crystals. Can random critical hit.
 #-------------------------------
 [DIAMONDFIELD]
 Name = Diamond Field
@@ -1873,8 +1873,8 @@ Accuracy = 100
 TotalPP = 12
 Target = NearOther
 FunctionCode = Basic
-Flags = CanProtect,CanMirrorMove,HighCriticalHitRate
-Description = The user calls up spikes of diamond. Critical hits twice as often.
+Flags = CanProtect,CanMirrorMove,CanRandomCrit
+Description = The user calls up spikes of diamond. Can random critical hit.
 Animation = DIAMONDSTORM
 #-------------------------------
 [EMBRITTLE]
@@ -2502,8 +2502,8 @@ Accuracy = 100
 TotalPP = 5
 Target = NearOther
 FunctionCode = LowerUserAtk4
-Flags = CanProtect,CanMirrorMove,HighCriticalHitRate,Blade
-Description = The user slashes using woven silk, lowering the user's Attack by four steps. Critical hits twice as often.
+Flags = CanProtect,CanMirrorMove,CanRandomCrit,Blade
+Description = The user slashes using woven silk, lowering the user's Attack by four steps. Can random critical hit.
 Animation = XSCISSOR
 #-------------------------------
 [SMUSH]
@@ -2925,8 +2925,8 @@ Accuracy = 100
 TotalPP = 15
 Target = NearOther
 FunctionCode = Basic
-Flags = CanProtect,CanMirrorMove,HighCriticalHitRate,Wind
-Description = The user suffocates the target by sucking the air from their lungs. Critical hits twice as often.
+Flags = CanProtect,CanMirrorMove,CanRandomCrit,Wind
+Description = The user suffocates the target by sucking the air from their lungs. Can random critical hit.
 Animation = OMINOUSWIND
 #-------------------------------
 [SUNDERFATE]
@@ -2950,8 +2950,8 @@ Accuracy = 100
 TotalPP = 30
 Target = NearOther
 FunctionCode = Basic
-Flags = CanProtect,CanMirrorMove,HighCriticalHitRate,Wind
-Description = The user thins the air around the target, depriving them of oxygen. Critical hits twice as often.
+Flags = CanProtect,CanMirrorMove,CanRandomCrit,Wind
+Description = The user thins the air around the target, depriving them of oxygen. Can random critical hit.
 Animation = OMINOUSWIND
 #-------------------------------
 [TONGUETWISTER]
@@ -3165,8 +3165,8 @@ Accuracy = 100
 TotalPP = 30
 Target = NearOther
 FunctionCode = Basic
-Flags = CanProtect,CanMirrorMove,HighCriticalHitRate
-Description = The target is pierced with a sharp iron arrow. Critical hits twice as often.
+Flags = CanProtect,CanMirrorMove,CanRandomCrit
+Description = The target is pierced with a sharp iron arrow. Can random critical hit.
 Animation = SPIKECANNON
 #-------------------------------
 [JAVELIN]
@@ -3178,8 +3178,8 @@ Accuracy = 100
 TotalPP = 15
 Target = NearOther
 FunctionCode = Basic
-Flags = CanProtect,CanMirrorMove,HighCriticalHitRate
-Description = The target is pierced with a pointed metal javelin. Critical hits twice as often.
+Flags = CanProtect,CanMirrorMove,CanRandomCrit
+Description = The target is pierced with a pointed metal javelin. Can random critical hit.
 Animation = SPIKECANNON
 #-------------------------------
 [MAGNETIZE]
@@ -3405,7 +3405,7 @@ Name = Vanguard
 Type = STEEL
 Category = Status
 Accuracy = 0
-TotalPP = 15
+TotalPP = 6
 Target = User
 FunctionCode = RaiseUserSpAtkDef2
 Flags = CanSnatch
@@ -3705,9 +3705,9 @@ Accuracy = 100
 TotalPP = 5
 Target = NearOther
 FunctionCode = LowerTargetSpAtk1
-Flags = CanProtect,CanMirrorMove,VeryHighCriticalHitRate
+Flags = CanProtect,CanMirrorMove,CanRandomCrit,DoubleCritChance
 EffectChance = 100
-Description = A lance of fire pierces the target from above, lowering their Sp. Atk. Critical hits four times as often.
+Description = A lance of fire pierces the target from above, lowering their Sp. Atk. Can random critical hit, and does so twice as often.
 Animation = SEARINGSHOT
 #-------------------------------
 [PROPELLANT]
@@ -3835,8 +3835,8 @@ Accuracy = 100
 TotalPP = 15
 Target = NearOther
 FunctionCode = Basic
-Flags = CanProtect,CanMirrorMove,HighCriticalHitRate
-Description = The user launches a concentrated ball of searing white flame. Critical hits twice as often.
+Flags = CanProtect,CanMirrorMove,CanRandomCrit
+Description = The user launches a concentrated ball of searing white flame. Can random critical hit.
 #-------------------------------
 [WILDFIREMELT]
 Name = Wildfire Melt
@@ -3989,7 +3989,7 @@ Name = Flow State
 Type = WATER
 Category = Status
 Accuracy = 0
-TotalPP = 15
+TotalPP = 6
 Target = User
 FunctionCode = RaiseUserAtkSpDef
 Flags = CanSnatch
@@ -4241,8 +4241,8 @@ Accuracy = 100
 TotalPP = 12
 Target = NearOther
 FunctionCode = Basic
-Flags = CanProtect,CanMirrorMove,HighCriticalHitRate,Blade
-Description = The user uses a jet of water like a sword and attacks by slashing. Critical hits twice as often.
+Flags = CanProtect,CanMirrorMove,CanRandomCrit,Blade
+Description = The user uses a jet of water like a sword and attacks by slashing. Can random critical hit.
 Animation = LIQUIDATION
 #-------------------------------
 [WATERLOG]
@@ -4823,8 +4823,8 @@ Accuracy = 100
 TotalPP = 15
 Target = NearOther
 FunctionCode = Basic
-Flags = CanProtect,CanMirrorMove,HighCriticalHitRate,Blade
-Description = The user harnesses a blade of lightning and slices at the target. Critical hits twice as often.
+Flags = CanProtect,CanMirrorMove,CanRandomCrit,Blade
+Description = The user harnesses a blade of lightning and slices at the target. Can random critical hit.
 #-------------------------------
 [FROMTHEBLUE]
 Name = From the Blue
@@ -5014,9 +5014,9 @@ Accuracy = 100
 TotalPP = 15
 Target = NearOther
 FunctionCode = Numb
-Flags = CanProtect,CanMirrorMove,HighCriticalHitRate
+Flags = CanProtect,CanMirrorMove,CanRandomCrit
 EffectChance = 50
-Description = The user slices with claws of light that have a 50% chance to numb. Critical hits twice as often.
+Description = The user slices with claws of light that have a 50% chance to numb. Can random critical hit.
 #-------------------------------
 [QUARANTINE]
 Name = Quarantine
@@ -5269,8 +5269,8 @@ Accuracy = 100
 TotalPP = 15
 Target = NearOther
 FunctionCode = Basic
-Flags = CanProtect,CanMirrorMove,VeryHighCriticalHitRate
-Description = The user psychically exploits weak points in the target's mind. Critical hits four times as often.
+Flags = CanProtect,CanMirrorMove,CanRandomCrit,DoubleCritChance
+Description = The user psychically exploits weak points in the target's mind. Can random critical hit, and does so twice as often.
 Animation = CONFUSION
 #-------------------------------
 [GENOTHEOSIS]
@@ -5484,8 +5484,8 @@ Accuracy = 100
 TotalPP = 10
 Target = NearOther
 FunctionCode = Basic
-Flags = CanProtect,CanMirrorMove,HighCriticalHitRate,Blade
-Description = The user cuts using scissor-like blades of psychic energy. Critical hits twice as often.
+Flags = CanProtect,CanMirrorMove,CanRandomCrit,Blade
+Description = The user cuts using scissor-like blades of psychic energy. Can random critical hit.
 Animation = PSYCHOCUT
 #-------------------------------
 [PSYPIERCE]
@@ -5536,9 +5536,9 @@ Accuracy = 100
 TotalPP = 30
 Target = NearOther
 FunctionCode = Basic
-Flags = CanProtect,CanMirrorMove,HighCriticalHitRate
+Flags = CanProtect,CanMirrorMove,CanRandomCrit
 EffectChance = 10
-Description = The target is scrutinized, damaging their psyche. Critical hits twice as often.
+Description = The target is scrutinized, damaging their psyche. Can random critical hit.
 Animation = CONFUSION
 #-------------------------------
 [SEERSTRIKE]
@@ -5587,8 +5587,8 @@ Accuracy = 100
 TotalPP = 15
 Target = NearOther
 FunctionCode = Basic
-Flags = CanProtect,CanMirrorMove,HighCriticalHitRate
-Description = The user takes control of the target's mind to unleash an attack on it. Critical hits twice as often.
+Flags = CanProtect,CanMirrorMove,CanRandomCrit
+Description = The user takes control of the target's mind to unleash an attack on it. Can random critical hit.
 Animation = PSYCHOCUT
 #-------------------------------
 [TUTELAGE]
@@ -5929,7 +5929,7 @@ Name = Shiver Dance
 Type = ICE
 Category = Status
 Accuracy = 0
-TotalPP = 15
+TotalPP = 6
 Target = User
 FunctionCode = RaiseUserAtkDef2Spd1
 Flags = CanSnatch,Dance
@@ -6020,8 +6020,8 @@ Accuracy = 100
 TotalPP = 10
 Target = NearOther
 FunctionCode = HitOncePerUserTeamMemberPhysical
-Flags = CanProtect,CanMirrorMove,HighCriticalHitRate
-Description = The user hunts with its allies. The more party Pokémon, the more damage. Critical hits twice as often.
+Flags = CanProtect,CanMirrorMove,CanRandomCrit
+Description = The user hunts with its allies. The more party Pokémon, the more damage. Can random critical hit.
 Animation = ICEPUNCH
 #-------------------------------
 #		DRAGON MOVES
@@ -6668,7 +6668,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = CantMissIfInMoonglow
 Flags = CanProtect,CanMirrorMove
-Description = The user tries to surprise-attack the target. Cannot miss in moonglow. Critical hits twice as often.
+Description = The user tries to surprise-attack the target. Cannot miss in moonglow. Can random critical hit.
 Animation = NIGHTSLASH
 #-------------------------------
 [PILFER]
@@ -6759,8 +6759,8 @@ Accuracy = 100
 TotalPP = 10
 Target = NearOther
 FunctionCode = Basic
-Flags = CanProtect,CanMirrorMove,HighCriticalHitRate,Blade
-Description = The user hacks at the target with great violence. Critical hits twice as often.
+Flags = CanProtect,CanMirrorMove,CanRandomCrit,Blade
+Description = The user hacks at the target with great violence. Can random critical hit.
 Animation = NIGHTSLASH
 #-------------------------------
 [SPIKYBURST]
@@ -6967,8 +6967,8 @@ Accuracy = 100
 TotalPP = 15
 Target = NearOther
 FunctionCode = Basic
-Flags = CanProtect,CanMirrorMove,HighCriticalHitRate
-Description = The user shoots a magical arrow which seeks out the target's weak points. Critical hits twice as often.
+Flags = CanProtect,CanMirrorMove,CanRandomCrit
+Description = The user shoots a magical arrow which seeks out the target's weak points. Can random critical hit.
 Animation = MAGICALLEAF
 #-------------------------------
 [ENCHANTINGSONG]
