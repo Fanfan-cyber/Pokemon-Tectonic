@@ -126,6 +126,7 @@ end
 
 class Scene_Intro
   def main
+    AntiAbuse.print_update_log
     Graphics.transition(0)
     @eventscene = IntroEventScene.new
     @eventscene.main

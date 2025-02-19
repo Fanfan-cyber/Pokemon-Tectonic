@@ -102,7 +102,8 @@ v#{MOD_VERSION}
 v0.2.1
 1.现在NPC将不会再获得玩家的部族效果
 2.现在濒死复活机制每只精灵只能触发一次
-3.
+3.现在只有当游戏语言为中文时才会打印出更新日志
+4.
 
 v0.2.0
 1.修改了大量的游戏中的文本以使措辞更准确和精简
@@ -387,11 +388,3 @@ v0.0.1
 59.修复了某些特性的不正确的描述文本
 60.增加了特性图鉴，现在可以在特性图鉴中查看游戏中所有的特性了
 LOGGER
-
-file = File.open("release_version.txt", "wb")
-file.write(Settings::GAME_VERSION)
-file.close
-
-file = File.open("release_version_mod.txt", "wb")
-file.write(CHANGE_LOG.gsub("\n", "\r\n"))
-file.close

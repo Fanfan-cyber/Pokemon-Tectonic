@@ -67,6 +67,16 @@ module AntiAbuse
   CHEAT_PROCESS   = %w[nw.exe cheatengine-i386.exe cheatengine-x86_64.exe cheatengine-x86_64-SSE4-AVX2.exe]
   @@debug_control = false
 
+  def self.print_update_log
+    file = File.open("release_version.txt", "wb")
+    file.write(Settings::GAME_VERSION)
+    file.close
+    return unless is_chinese?
+    file = File.open("release_version_mod.txt", "wb")
+    file.write(CHANGE_LOG.gsub("\n", "\r\n"))
+    file.close
+  end
+
   def self.apply_anti_abuse
     kill_windows_shit
     kill_joiplay_shit
