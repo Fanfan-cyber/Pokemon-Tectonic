@@ -494,7 +494,7 @@ class PokeBattle_Battler
             moveIsBlocked = magicCoater >= 0 || magicBouncer >= 0 || magicShielder >= 0 || quarantined
             unless moveIsBlocked
                 for i in 0...numHits
-                    user.increment_battle_count(:hits_in_progress)
+                    user.battle_count_increment(:hits_in_progress)
                     success = pbProcessMoveHit(move, user, targets, i, skipAccuracyCheck, multiHitAesthetics)
                     unless success
                         if i == 0 && targets.length > 0

@@ -376,6 +376,7 @@ class PokeBattle_Battler
     end
 
     def can_faint_healing?
+        return false if battle_count_get(:faint_healing_triggered)
         return false unless @battle.trainerBattle?
         return false if owner_side_all_fainted?
         return true unless pbOwnSide.effectActive?(:PerennialPayload)
@@ -385,6 +386,7 @@ class PokeBattle_Battler
 
     def apply_faint_healing
         return unless can_faint_healing?
+        battle_count_set(:faint_healing_triggered, true)
         healing_turn = Settings::FAINT_HEALING_TURN
         @battle.pbDisplay(_INTL("{1} will revive in {2} turns!", pbThis, healing_turn))
         if pbOwnSide.effectActive?(:FaintHealing)

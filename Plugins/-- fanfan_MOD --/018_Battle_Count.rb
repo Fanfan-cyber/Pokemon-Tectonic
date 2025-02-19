@@ -1,5 +1,7 @@
 class PokeBattle_BattleCount
   def initialize
+    @faint_healing_triggered = false
+
     @hits_in_progress = 0 # Only done this
     @being_hits = 0
     @hits_dealt = 0
@@ -35,30 +37,41 @@ class PokeBattle_Battle
 end
 
 class PokeBattle_Battler
-  def get_battler_battle_count
+  def battler_battle_count_get
     unless @battle.battle_count[@index & 1][@pokemonIndex]
       @battle.battle_count[@index & 1][@pokemonIndex] = PokeBattle_BattleCount.new
     end
     @battle.battle_count[@index & 1][@pokemonIndex]
   end
 
-  def get_battle_count(type)
-    get_battler_battle_count.instance_variable_get("@#{type}")
+  def battle_count_get(type)
+    battler_battle_count_get.instance_variable_get("@#{type}")
   end
 
-  def set_battle_count(type, value)
-    get_battler_battle_count.instance_variable_set("@#{type}", value)
+  def battle_count_set(type, value)
+    battler_battle_count_get.instance_variable_set("@#{type}", value)
   end
 
-  def increment_battle_count(type, value = 1)
-    set_battle_count(type, get_battle_count(type) + value)
+  def battle_count_increment(type, value = 1)
+    battle_count_set(type, battle_count_get(type) + value)
   end
 
-  def multiply_battle_count(type, multiplier = 1)
-    set_battle_count(type, get_battle_count(type) * multiplier)
+  def battle_count_multiply(type, multiplier = 1)
+    battle_count_set(type, battle_count_get(type) * multiplier)
   end
 
-  def clear_battle_count(type, value = 0)
-    set_battle_count(type, value)
+  def battle_count_clear(type)
+    case type
+    when Numeric
+      battle_count_set(type, 0)
+    when TrueClass
+      battle_count_set(type, false)
+    when Array
+      battle_count_set(type, [])
+    when Hash
+      battle_count_set(type, {})
+    else
+      battle_count_set(type, nil)
+    end
   end
 end
