@@ -505,6 +505,17 @@ Flags = CanProtect,CanMagicCoat,CanMirrorMove
 Description = The user adorns itself or the target with precious stones, changing it to your choice of Fairy, Dragon, or Steel-type.
 Animation = LUCKYCHANT
 #-------------------------------
+[RETREAT]
+Name = Retreat
+Type = NORMAL
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+Priority = -6
+FunctionCode = SwitchOutUserStatusMove
+Description = The user switches out to a party Pokémon in waiting. Always goes last.
+#-------------------------------
 [RISINGPOWER]
 Name = Rising Power
 Type = NORMAL

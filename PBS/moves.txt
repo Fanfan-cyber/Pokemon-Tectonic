@@ -22,17 +22,6 @@ Target = User
 FunctionCode = UseRandomMoveFromUserParty
 Description = The user hurriedly and randomly uses a move among those known by other Pokémon in the party.
 #-------------------------------
-[BATONPASS]
-Name = Baton Pass
-Type = NORMAL
-Category = Status
-Accuracy = 0
-TotalPP = 5
-Target = User
-Priority = -6
-FunctionCode = SwitchOutUserPassOnEffects
-Description = The user switches places with a party Pokémon in waiting, passing along any stat step changes. Always goes last.
-#-------------------------------
 [BELLYDRUM]
 Name = Belly Drum
 Type = NORMAL
@@ -5635,17 +5624,6 @@ Target = NearOther
 FunctionCode = UserTargetSwapAbilities
 Flags = CanProtect,CanMirrorMove
 Description = The user employs its psychic power to exchange Abilities with the target.
-#-------------------------------
-[TELEPORT]
-Name = Teleport
-Type = PSYCHIC
-Category = Status
-Accuracy = 0
-TotalPP = 15
-Target = User
-Priority = -6
-FunctionCode = SwitchOutUserStatusMove
-Description = The user switches out to a party Pokémon in waiting. Always goes last.
 #-------------------------------
 [TRICK]
 Name = Trick

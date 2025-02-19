@@ -35,6 +35,17 @@ FunctionCode = Invalid
 Flags = CanProtect,CanMirrorMove
 Description = Round objects are hurled at the target to strike two to five times in a row.
 #-------------------------------
+[BATONPASS]
+Name = Baton Pass
+Type = NORMAL
+Category = Status
+Accuracy = 0
+TotalPP = 5
+Target = User
+Priority = -6
+FunctionCode = Invalid
+Description = The user switches places with a party Pokémon in waiting, passing along any stat step changes. Always goes last.
+#-------------------------------
 [BIND]
 Name = Bind
 Type = NORMAL
@@ -2582,6 +2593,17 @@ Target = NearOther
 FunctionCode = Invalid
 Flags = CanProtect,CanMagicCoat,CanMirrorMove
 Description = The user makes the target float with its psychic power. The target is easier to hit for three turns.
+#-------------------------------
+[TELEPORT]
+Name = Teleport
+Type = PSYCHIC
+Category = Status
+Accuracy = 0
+TotalPP = 15
+Target = User
+Priority = -6
+FunctionCode = Invalid
+Description = The user switches out to a party Pokémon in waiting. Always goes last.
 #-------------------------------
 [TRICKROOM]
 Name = Trick Room
