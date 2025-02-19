@@ -144,6 +144,13 @@ class PokeBattle_Move
         if @battle.pbCheckGlobalAbility(:RUINOUS)
             multipliers[:base_damage_multiplier] *= 1.4
         end
+
+        if user.hasActiveAbility?(:BACKLASH)
+            target.eachAbilityShouldApply(aiCheck) do |ability|
+                BattleHandlers.triggerDamageCalcUserAbility(ability,user,target,self,multipliers,baseDmg,type,aiCheck,true)
+            end
+        end
+
         # User or user ally ability effects that alter damage
         user.eachAbilityShouldApply(aiCheck) do |ability|
             BattleHandlers.triggerDamageCalcUserAbility(ability,user,target,self,multipliers,baseDmg,type,aiCheck)

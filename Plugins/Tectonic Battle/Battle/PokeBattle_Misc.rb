@@ -250,6 +250,7 @@ class PokeBattle_Battle
     end
 
     def aiLearnsAbility(battler, ability)
+        return # dont need to learn anymore
         return unless battler.pbOwnedByPlayer?
         return if @knownAbilities[battler.unique_id].include?(ability)
         @knownAbilities[battler.unique_id].push(ability)

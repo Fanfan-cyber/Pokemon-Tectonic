@@ -350,8 +350,8 @@ module BattleHandlers
 
     #=============================================================================
 
-    def self.triggerDamageCalcUserAbility(ability, user, target, move, mults, baseDmg, type, aiCheck = false)
-        DamageCalcUserAbility.trigger(ability, user, target, move, mults, baseDmg, type, aiCheck)
+    def self.triggerDamageCalcUserAbility(ability, user, target, move, mults, baseDmg, type, aiCheck = false, backlash = false)
+        DamageCalcUserAbility.trigger(ability, user, target, move, mults, baseDmg, type, aiCheck, backlash)
     end
 
     def self.triggerDamageCalcUserAllyAbility(ability, user, target, move, mults, baseDmg, type, aiCheck = false)
