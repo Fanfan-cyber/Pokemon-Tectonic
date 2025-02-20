@@ -36,6 +36,14 @@ Events.onTrainerPartyLoad += proc { |_sender, e|
 }
 
 Events.onTrainerPartyLoad += proc { |_sender, e|
+  trainer = e[0]
+  next unless trainer
+  trainer.party.each do |pkmn|
+    pkmn.items << :SITRUSBERRY if pkmn.items.empty?
+  end
+}
+
+Events.onTrainerPartyLoad += proc { |_sender, e|
   next unless TA.get(:customabil)
   trainer = e[0]
   next unless trainer

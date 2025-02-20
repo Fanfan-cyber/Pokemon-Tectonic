@@ -118,7 +118,7 @@ module BattleLoader
               if ret >= 0
                 start_battle(rules[ret], team)
               else
-                start_battle(rules[0], team)
+                #start_battle(rules[0], team)
               end
             when 2 # Random Pokémon Team
               PokemonDataBase.create_mass
@@ -128,7 +128,7 @@ module BattleLoader
               if ret >= 0
                 start_battle(rules[ret], team)
               else
-                start_battle(rules[0], team)
+                #start_battle(rules[0], team)
               end
               PokemonDataBase.create_mass
             end
@@ -205,8 +205,8 @@ module BattleLoader
 end
 
 module PokemonDataBase
-  PKMN_DATA_AMOUNT  = 10
-  LOWEST_PKMN_BST   = 450
+  PKMN_DATA_AMOUNT  = 30
+  LOWEST_PKMN_BST   = 400
   LOWEST_MOVE_POWER = 65
 
   @@pkmn_data = []

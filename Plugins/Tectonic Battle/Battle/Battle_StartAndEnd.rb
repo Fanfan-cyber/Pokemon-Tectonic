@@ -813,9 +813,18 @@ class PokeBattle_Battle
         pbParty(0).each_with_index do |pkmn, i|
             next if !pkmn || pkmn.egg?
             if trainerBattle?
-                pkmn.healByFraction(Settings::BATTLE_ENDING_NUMB * 0.01)
-                pkmn.heal_status
-                pkmn.heal_PP
+                chance = pbRandom(100)
+                if chance < 50
+                  pkmn.healByFraction(Settings::BATTLE_ENDING_NUMB * 0.01)
+                  pkmn.heal_status
+                  pkmn.heal_PP
+                elsif chance < 80
+                  pkmn.healByFraction(Settings::BATTLE_ENDING_PLUS * 0.01)
+                  pkmn.heal_status
+                  pkmn.heal_PP
+                else
+                  pkmn.heal
+                end
             end
             pkmn.removeFear if pkmn.afraid? unless @autoTesting
             @peer.pbOnLeavingBattle(self, pkmn, @usedInBattle[0][i], true) # Reset form
