@@ -235,7 +235,9 @@ module GameData
         end
 
         def is_test?
-            return @flags.include?("Test")
+            return true if @flags.include?("Test")
+            return true if @flags.include?("Unassigned")
+            return false
         end
 
         def legal?(isBoss = false)

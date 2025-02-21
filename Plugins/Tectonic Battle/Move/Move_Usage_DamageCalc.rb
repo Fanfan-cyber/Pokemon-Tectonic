@@ -145,15 +145,15 @@ class PokeBattle_Move
             multipliers[:base_damage_multiplier] *= 1.4
         end
 
-        if user.hasActiveAbility?(:BACKLASH)
-            target.eachAbilityShouldApply(aiCheck) do |ability|
-                BattleHandlers.triggerDamageCalcUserAbility(ability,user,target,self,multipliers,baseDmg,type,aiCheck,true)
-            end
-        end
-
         # User or user ally ability effects that alter damage
         user.eachAbilityShouldApply(aiCheck) do |ability|
-            BattleHandlers.triggerDamageCalcUserAbility(ability,user,target,self,multipliers,baseDmg,type,aiCheck)
+            if ability == :BACKFIRE
+                target.eachAbilityShouldApply(aiCheck) do |backfire_ability|
+                    BattleHandlers.triggerDamageCalcUserAbility(backfire_ability,user,target,self,multipliers,baseDmg,type,aiCheck,true)
+                end
+            else
+                BattleHandlers.triggerDamageCalcUserAbility(ability,user,target,self,multipliers,baseDmg,type,aiCheck)
+            end
         end
         user.eachAlly do |b|
             b.eachAbilityShouldApply(aiCheck) do |ability|
