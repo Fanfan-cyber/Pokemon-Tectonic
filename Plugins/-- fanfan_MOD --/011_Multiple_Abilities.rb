@@ -58,11 +58,13 @@ class PokemonSummary_Scene
   def pbAbilitiesSelection
     commands = []
     abil_list = @pokemon.abilities
+
     @battle&.eachSameSideBattler do |battler|
-      next if battler.pokemonIndex != @partyindex
+      next if battler.unique_id != @pokemon.unique_id
       abil_list = battler.abilities
       break
     end
+
     if abil_list.empty?
       pbMessage(_INTL("The Pokémon don't have any abilities."))
       return
