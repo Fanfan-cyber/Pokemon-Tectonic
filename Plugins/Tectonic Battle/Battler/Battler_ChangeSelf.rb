@@ -672,6 +672,7 @@ class PokeBattle_Battler
         newSpecies = newSpeciesData.id
 
         @battle.scene.pbChangePokemon(self, @pokemon, newSpecies)
+        @battle.pbAnimation(:TRANSFORM, self, self)
 
         applyEffect(:Transform)
         applyEffect(:TransformSpecies, newSpecies)
@@ -695,6 +696,8 @@ class PokeBattle_Battler
         pbOnAbilitiesLost(lost_abilities)
         # Trigger abilities
         pbEffectsOnSwitchIn
+
+        @battle.pbCalculatePriority(false, [@index])
     end
 
     def pbHyperMode; end

@@ -1,4 +1,19 @@
 class PokeBattle_Battle
+  def apply_eevee_bioengineering
+    @battlers.each_with_index do |battler, i|
+      next unless battler
+      next if @choices[i][0] != :UseMove
+      next unless battler.isSpecies?(:EEVEE)
+      next unless battler.hasActiveAbility?(:BIOENGINEERING)
+      move = @choices[i][2]
+      move_type = move.pbCalcType(battler)
+      newSpecies = EEVEE_FAMILY[move_type]
+      next unless newSpecies
+      next if battler.technicalSpecies == newSpecies
+      battler.transformSpeciesEX(newSpecies, :BIOENGINEERING)
+    end
+  end
+
   # Used by AI below
   def adaptive_ai_v1_type
     @adaptive_ai_v1_type ||= {}

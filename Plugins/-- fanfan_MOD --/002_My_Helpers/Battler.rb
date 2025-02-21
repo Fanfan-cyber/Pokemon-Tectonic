@@ -29,39 +29,44 @@ class PokeBattle_Battler
     return nil
   end
 
-  # 将精灵变为其他随机的一只精灵
-  def transformSpeciesRandom(abil_id = nil, stats = false)
+  def transformSpeciesEX(newSpecies = nil, abil_id = nil, base_stat = false, stats = false)
     @battle.pbShowAbilitySplash(self, abil_id) if abil_id
 
-    species_list = GameData::Species.keys.shuffle
-    species_data = nil
-    species_list.each do |species|
-      species_data = GameData::Species.get(species)
-      next if species_data.base_stat_total < self.species_data.base_stat_total
-      next if species == self.species_data.id
-      break
+    if newSpecies
+      newSpeciesData = GameData::Species.get(newSpecies)
+    else
+      species_list = GameData::Species.keys.shuffle
+      newSpeciesData = nil
+      species_list.each do |species_id|
+        newSpeciesData = GameData::Species.get(species_id)
+        next if newSpeciesData.id == self.species_data.id
+        next if base_stat && newSpeciesData.base_stat_total < self.species_data.base_stat_total
+        break
+      end
     end
-    species_id = species_data.id
 
-    @battle.scene.pbChangePokemon(self, @pokemon, species_id)
+    newSpecies = newSpeciesData.id
+
+    @battle.scene.pbChangePokemon(self, @pokemon, newSpecies)
+    @battle.pbAnimation(:TRANSFORM, self, self)
 
     applyEffect(:Transform)
-    applyEffect(:TransformSpecies, species_id)
-    pbChangeTypes(species_id)
+    applyEffect(:TransformSpecies, newSpecies)
+    pbChangeTypes(newSpecies)
     refreshDataBox
-    @battle.pbDisplay(_INTL("{1} transformed into {2}!", pbThis, species_data.name))
+    @battle.pbDisplay(_INTL("{1} transformed into {2}!", pbThis, newSpeciesData.name))
 
     old_abilities = abilities.clone
-    setAbility(species_data.legalAbilities)
+    setAbility(newSpeciesData.legalAbilities)
     lost_abilities = old_abilities - abilities
 
-    newStats = @pokemon.getCalculatedStats(species_id)
+    newStats = @pokemon.getCalculatedStats(newSpecies)
     if stats
-      @attack  = newStats[:ATTACK] if newStats[:ATTACK] > @attack
-      @defense = newStats[:DEFENSE] if newStats[:DEFENSE] > @defense
-      @spatk   = newStats[:SPECIAL_ATTACK] if newStats[:SPECIAL_ATTACK] > @spatk
+      @attack  = newStats[:ATTACK]          if newStats[:ATTACK] > @attack
+      @defense = newStats[:DEFENSE]         if newStats[:DEFENSE] > @defense
+      @spatk   = newStats[:SPECIAL_ATTACK]  if newStats[:SPECIAL_ATTACK] > @spatk
       @spdef   = newStats[:SPECIAL_DEFENSE] if newStats[:SPECIAL_DEFENSE] > @spdef
-      @speed   = newStats[:SPEED] if newStats[:SPEED] > @speed
+      @speed   = newStats[:SPEED]           if newStats[:SPEED] > @speed
     else
       @attack  = newStats[:ATTACK]
       @defense = newStats[:DEFENSE]
@@ -80,6 +85,8 @@ class PokeBattle_Battler
       @addedAbilities << abil_id
       @battle.pbHideAbilitySplash(self)
     end
+
+    @battle.pbCalculatePriority(false, [@index])
 
     @battle.ai_update_abilities(self, abils: @ability_ids)
   end

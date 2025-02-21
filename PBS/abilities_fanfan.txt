@@ -25,26 +25,31 @@ Name = Backlash
 Description = When hitting a target with an offensive damage-modifying ability, ignores the conditions and triggers for the Pokémon.
 Flags = Test
 #-------------------------------
-[RELENTLESSPURSUIT] # 0690
+[BIOENGINEERING] # 0690
+Name = Bioengineering
+Description = The Pokémon will transform into a member of its family based on the move it is about to use.
+Flags = Immutable
+#-------------------------------
+[RELENTLESSPURSUIT] # 0691
 Name = Relentless Pursuit
 Description = Attacks switching opponents with Pursuit.
 #-------------------------------
-[SEVENTYTWOTRANSFORMATIONS] # 0691
+[SEVENTYTWOTRANSFORMATIONS] # 0692
 Name = 72 Transformations
 Description = Changes to a random Pokémon at the end of each turn.
 Flags = Test
 #-------------------------------
-[TEMPORALSHIFT] # 0692
+[TEMPORALSHIFT] # 0693
 Name = Temporal Shift
 Description = Can switch out of battle without wasting a turn.
 Flags = Test
 #-------------------------------
-[TIDEWEAVERSREVERSAL] # 0693
+[TIDEWEAVERSREVERSAL] # 0694
 Name = Tideweaver's Reversal
 Description = Turns rainstorm into Harsh Sunlight, sunshine into Heavy Rain.
 Flags = Test
 #-------------------------------
-[UNWAVERINGVALOR] # 0694
+[UNWAVERINGVALOR] # 0695
 Name = Unwavering Valor
 Description = Stats that the Pokémon raises remain raised even after switching.
 Flags = Test

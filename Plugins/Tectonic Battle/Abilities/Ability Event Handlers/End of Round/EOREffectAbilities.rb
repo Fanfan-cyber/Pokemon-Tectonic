@@ -308,6 +308,6 @@ BattleHandlers::EOREffectAbility.add(:DIRECTCURRENT,
 
 BattleHandlers::EOREffectAbility.add(:SEVENTYTWOTRANSFORMATIONS,
   proc { |ability, battler, battle|
-    battler.transformSpeciesRandom(ability, true)
+    battler.transformSpeciesEX(nil, ability, true, true)
   }
 )

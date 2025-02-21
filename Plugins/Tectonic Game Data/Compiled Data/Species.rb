@@ -475,13 +475,13 @@ module GameData
         end
 
         def legalAbilities
+            return new_abilities unless new_abilities.empty?
             legal_abilities = []
             legal_abilities.concat(@abilities)
             legal_abilities.concat(@hidden_abilities)
             legal_abilities.uniq!
             legal_abilities.compact!
-            legal_abilities.concat(new_abilities)
-            return legal_abilities.last(2)
+            return legal_abilities
         end
 
         def hasMultiAbilities?

@@ -268,6 +268,7 @@ class PokeBattle_Battle
             end
         else
             pbCommandPhaseLoop(true) # Player chooses their actions
+            apply_eevee_bioengineering
         end
 
         triggerAllChoicesDialogue
@@ -316,6 +317,7 @@ class PokeBattle_Battle
         pbCommandPhaseLoop(false, is_pre_switch) # AI chooses their actions
         return if @decision != 0 # Battle ended, stop choosing actions
         pbCommandPhaseLoop(true, is_pre_switch) # Player chooses their actions
+        apply_eevee_bioengineering
     end
 
     def chooseAutoTesting(idxBattler)
