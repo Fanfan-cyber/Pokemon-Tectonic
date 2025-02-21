@@ -122,6 +122,7 @@ class PokeBattle_Battle
                         next unless data.avatars_purge
                         b.disableEffect(effect)
                     end
+                    b.battle_count_avatars_purge
                 end
                 pbDisplaySlower(_INTL("A great energy rises up from inside {1}!", b.pbThis(true))) if showMessages
                 b.lastRoundMoved = 0

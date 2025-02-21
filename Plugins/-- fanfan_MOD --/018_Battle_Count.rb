@@ -1,8 +1,10 @@
 class PokeBattle_BattleCount
   def initialize
     @faint_healing_triggered = false
+    @warned                  = false # used for Cursed Tail
 
     @hits_in_progress = 0 # Only done this
+
     @being_hits = 0
     @hits_dealt = 0
     @hits_taken = 0
@@ -73,5 +75,9 @@ class PokeBattle_Battler
     else
       battle_count_set(type, nil)
     end
+  end
+
+  def battle_count_avatars_purge
+    battle_count_set(:warned, false)
   end
 end

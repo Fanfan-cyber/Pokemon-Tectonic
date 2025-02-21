@@ -245,6 +245,7 @@ BattleHandlers::TargetAbilityOnHit.copy(:IRONBARBS, :ROUGHSKIN)
 
 BattleHandlers::TargetAbilityOnHit.add(:FEEDBACK,
     proc { |ability, user, target, move, battle, aiCheck, aiNumHits|
+        next if user.fainted?
         next unless move.specialMove?(user)
         if aiCheck
             next -10 * aiNumHits if user.takesIndirectDamage?
@@ -490,20 +491,25 @@ BattleHandlers::TargetAbilityOnHit.add(:BACKWASH,
 
 BattleHandlers::TargetAbilityOnHit.add(:CURSEDTAIL,
     proc { |ability, user, target, move, battle, aiCheck, aiNumHits|
+        next if user.fainted?
         next unless move.physicalMove?
         next if user.effectActive?(:Curse)
         if aiCheck
-            if user.effectActive?(:Warned) || aiNumHits > 1
+            #if user.effectActive?(:Warned) || aiNumHits > 1
+            if user.battle_count_get(:warned) || aiNumHits > 1
                 next -30
             else
                 next -10
             end
         end
         battle.pbShowAbilitySplash(target, ability)
-        if user.effectActive?(:Warned)
+        #if user.effectActive?(:Warned)
+        if user.battle_count_get(:warned)
             user.applyEffect(:Curse)
         else
-            user.applyEffect(:Warned)
+            #user.applyEffect(:Warned)
+            user.battle_count_set(:warned, true)
+            battle.pbDisplay(_INTL("{1} was warned not to attack it again!", user.pbThis))
         end
         battle.pbHideAbilitySplash(target)
     }
