@@ -83,7 +83,7 @@ module BattleLoader
       when -1, 4 # Cancel
         break
       when 3 # Check Stats
-        pbMessage(_INTL("Your Victory count is {1}!\nYour Lost count is {2}!", TA.get(:battle_win, 0), TA.get(:battle_lost, 0)))
+        pbMessage(_INTL("Your Victory count is {1}!\nYour Defeat count is {2}!", TA.get(:battle_victory, 0), TA.get(:battle_defeat, 0)))
       when 0 # Battle
         load_data
         if @@battle_loader.empty?
@@ -196,7 +196,7 @@ module BattleLoader
     begin
       #pbTrainerBattle(:LEADER_Lambert, "Lambert", nil, false, 0, true)
       results = pbTrainerBattle(trainer_type, trainer.real_name, nil, false, 0, true)
-      results ? TA.increase(:battle_win) : TA.increase(:battle_lost)
+      results ? TA.increase(:battle_victory) : TA.increase(:battle_defeat)
     rescue
       pbMessage(_INTL("An error occurred.\nPlease try again!"))
     end

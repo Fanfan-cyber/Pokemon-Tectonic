@@ -1,9 +1,9 @@
 ######################################################
 # Mart vendors
 ######################################################
-BASIC_MART_STOCK = %i[POKEBALL ABILITYCAPSULE REPEL]
+BASIC_MART_STOCK = %i[POKEBALL ABILITYCAPSULE REPEL SITRUSBERRY]
 
-VIP_CARD_EXTRA_STOCK = %i[REPEATBALL ROYALBALL LUXURYBALL SITRUSBERRY EXPCANDYXS]
+VIP_CARD_EXTRA_STOCK = %i[REPEATBALL ROYALBALL LUXURYBALL EXPCANDYXS]
 
 def vipCardActive?
     return false unless $PokemonBag

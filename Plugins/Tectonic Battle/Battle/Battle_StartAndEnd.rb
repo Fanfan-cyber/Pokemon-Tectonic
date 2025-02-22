@@ -329,7 +329,7 @@ class PokeBattle_Battle
                 trackPerfectBattle(true)
                 if trainerBattle? && @decision == 1 && !TA.get(:battle_loader) #&& !skipPerfecting
                     pbMessage(_INTL("\\me[Battle perfected]You perfected the fight!"))
-                    TA.increase(:victory)
+                    TA.increase(:win)
                     RocketMode.pbRobPokemon(self)
                 end
             end
