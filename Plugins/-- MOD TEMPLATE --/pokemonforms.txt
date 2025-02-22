@@ -1,0 +1,5 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[TESTPOKEMON,1]
+FormName = Test Form
+Pokedex = This form also exists to test the PBS Extensions feature.

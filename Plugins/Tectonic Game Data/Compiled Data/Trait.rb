@@ -5,21 +5,31 @@ module Compiler
 		GameData::Trait::DATA.clear
 		traitNames = []
 		traitNumber = 0
-		pbCompilerEachCommentedLine(path) { |line, line_no|
-			line = pbGetCsvRecord(line, line_no, [0, "*ns"])
-			trait_symbol = line[0].to_sym
-			if GameData::Trait::DATA[trait_symbol]
-				raise _INTL("Pokémon trait ID '{1}' is used twice.\r\n{2}", trait_symbol, FileLineData.linereport)
-			end
-			trait_hash = {
-				:id          => trait_symbol,
-				:id_number	 => traitNumber,
-				:real_name	 => line[1],
+
+		baseFiles = [path]
+		traitTextFiles = []
+		traitTextFiles.concat(baseFiles)
+		traitExtensions = Compiler.get_extensions("traits")
+		traitTextFiles.concat(traitExtensions)
+		traitTextFiles.each do |path|
+			baseFile = baseFiles.include?(path)
+			pbCompilerEachCommentedLine(path) { |line, line_no|
+				line = pbGetCsvRecord(line, line_no, [0, "*ns"])
+				trait_symbol = line[0].to_sym
+				if GameData::Trait::DATA[trait_symbol]
+					raise _INTL("Pokemon trait ID '{1}' is used twice.\r\n{2}", trait_symbol, FileLineData.linereport)
+				end
+				trait_hash = {
+					:id          => trait_symbol,
+					:id_number	 => traitNumber,
+					:real_name	 => line[1],
+					:defined_in_extension => !baseFile,
+				}
+				GameData::Trait.register(trait_hash)
+				traitNames[traitNumber] = trait_hash[:real_name]
+				traitNumber += 1
 			}
-			GameData::Trait.register(trait_hash)
-			traitNames[traitNumber] = trait_hash[:real_name]
-			traitNumber += 1
-		}
+		end
 		# Save all data
 		GameData::Trait.save
 		MessageTypes.setMessages(MessageTypes::Traits, traitNames)
@@ -43,6 +53,7 @@ module GameData
 			@id = hash[:id]
 			@id_number = hash[:id_number]
 			@real_name = hash[:real_name]
+			@defined_in_extension = hash[:defined_in_extension] || false
 		end
 
 		def name
@@ -50,7 +61,12 @@ module GameData
 		end
 
 		def self.getRandomTrait
-			return DATA.values.sample
+			trait = DATA.values.sample
+			return trait if $DEBUG
+			while trait.id.start_with?("DEBUG_") do
+				trait = DATA.values.sample
+			end
+			return trait
 		end
 	end
 end

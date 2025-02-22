@@ -13,6 +13,7 @@ class TribalBonus
         @tribesGivingBonus = []
         # Reset all counts
         GameData::Tribe.each do |tribe|
+            next if !$DEBUG and tribe.id.start_with?("DEBUG_") # skip debug tribes if not in debug mode
             @tribeCounts[tribe.id] = 0
         end
     end
@@ -30,6 +31,7 @@ class TribalBonus
         }
         
         GameData::Tribe.each do |tribeData|
+            next if !$DEBUG and tribeData.id.start_with?("DEBUG_") # don't check skipped tribes to avoid key errors
             next unless @tribeCounts[tribeData.id] >= tribeData.threshold
             @tribesGivingBonus.push(tribeData.id)
         end

@@ -970,7 +970,7 @@ sp.form) && !Settings::DEX_SHOWS_ALL_FORMS
                         nil
                     end || "???" # This line doesn't seem to work as intended but I don't want to mess with it unnecessarily
                     # Handle errors with missing maps
-                    if mapName == nil then
+                    if mapName == nil || mapName == "" then
                         mapName = _INTL("Unknown Map")
                     end
                     # Obscure map name if secret map is undiscovered

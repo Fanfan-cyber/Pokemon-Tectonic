@@ -1,0 +1,5 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[998] # Test Map
+Land,20
+    100,TESTPOKEMON,5,65

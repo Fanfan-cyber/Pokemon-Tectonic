@@ -717,160 +717,169 @@ module Compiler
         GameData::Species.each do |species|
             form_number = species.id_number if form_number < species.id_number
         end
-        # Read from PBS file
-        File.open(path, "rb") do |f|
-            FileLineData.file = path # For error reporting
-            # Read a whole section's lines at once, then run through this code.
-            # contents is a hash containing all the XXX=YYY lines in that section, where
-            # the keys are the XXX and the values are the YYY (as unprocessed strings).
-            schema = GameData::Species.schema(true)
-            pbEachFileSection2(f) do |contents, section_name|
-                FileLineData.setSection(section_name, "header", nil) # For error reporting
-                # Split section_name into a species number and form number
-                split_section_name = section_name.split(/[-,\s]/)
-                if split_section_name.length != 2
-                    raise _INTL(
-                        "Section name {1} is invalid ({2}). Expected syntax like [XXX,Y] (XXX=internal name, Y=form number).", sectionName, path)
-                end
-                species_symbol = csvEnumField!(split_section_name[0], :Species, nil, nil)
-                form           = csvPosInt!(split_section_name[1])
-                # Raise an error if a species is undefined, the form number is invalid or
-                # a species/form combo is used twice
-                if !GameData::Species.exists?(species_symbol)
-                    raise _INTL("Species ID '{1}' is not defined in {2}.\r\n{3}", species_symbol, path,
-      FileLineData.linereport)
-                elsif form == 0
-                    raise _INTL("A form cannot be defined with a form number of 0.\r\n{1}", FileLineData.linereport)
-                elsif used_forms[species_symbol] && used_forms[species_symbol].include?(form)
-                    raise _INTL("Form {1} for species ID {2} is defined twice.\r\n{3}", form, species_symbol,
+        baseFiles = [path]
+        formTextFiles = []
+		formTextFiles.concat(baseFiles)
+		formExtensions = Compiler.get_extensions("pokemonforms")
+		formTextFiles.concat(formExtensions)
+		formTextFiles.each do |path|
+            baseFile = baseFiles.include?(path)
+            # Read from PBS file
+            File.open(path, "rb") do |f|
+                FileLineData.file = path # For error reporting
+                # Read a whole section's lines at once, then run through this code.
+                # contents is a hash containing all the XXX=YYY lines in that section, where
+                # the keys are the XXX and the values are the YYY (as unprocessed strings).
+                schema = GameData::Species.schema(true)
+                pbEachFileSection2(f) do |contents, section_name|
+                    FileLineData.setSection(section_name, "header", nil) # For error reporting
+                    # Split section_name into a species number and form number
+                    split_section_name = section_name.split(/[-,\s]/)
+                    if split_section_name.length != 2
+                        raise _INTL(
+                            "Section name {1} is invalid ({2}). Expected syntax like [XXX,Y] (XXX=internal name, Y=form number).", sectionName, path)
+                    end
+                    species_symbol = csvEnumField!(split_section_name[0], :Species, nil, nil)
+                    form           = csvPosInt!(split_section_name[1])
+                    # Raise an error if a species is undefined, the form number is invalid or
+                    # a species/form combo is used twice
+                    if !GameData::Species.exists?(species_symbol)
+                        raise _INTL("Species ID '{1}' is not defined in {2}.\r\n{3}", species_symbol, path,
         FileLineData.linereport)
-                end
-                used_forms[species_symbol] = [] unless used_forms[species_symbol]
-                used_forms[species_symbol].push(form)
-                form_number += 1
-                base_data = GameData::Species.get(species_symbol)
-                # Go through schema hash of compilable data and compile this section
-                for key in schema.keys
-                    # Skip empty properties (none are required)
-                    if nil_or_empty?(contents[key])
-                        contents[key] = nil
-                        next
+                    elsif form == 0
+                        raise _INTL("A form cannot be defined with a form number of 0.\r\n{1}", FileLineData.linereport)
+                    elsif used_forms[species_symbol] && used_forms[species_symbol].include?(form)
+                        raise _INTL("Form {1} for species ID {2} is defined twice.\r\n{3}", form, species_symbol,
+            FileLineData.linereport)
                     end
-                    FileLineData.setSection(section_name, key, contents[key]) # For error reporting
-                    # Compile value for key
-                    value = pbGetCsvRecord(contents[key], key, schema[key])
-                    value = nil if value.is_a?(Array) && value.length == 0
-                    contents[key] = value
-                    # Sanitise data
-                    case key
-                    when "BaseStats"
-                        value_hash = {}
-                        GameData::Stat.each_main do |s|
-                            value_hash[s.id] = value[s.pbs_order] if s.pbs_order >= 0
+                    used_forms[species_symbol] = [] unless used_forms[species_symbol]
+                    used_forms[species_symbol].push(form)
+                    form_number += 1
+                    base_data = GameData::Species.get(species_symbol)
+                    # Go through schema hash of compilable data and compile this section
+                    for key in schema.keys
+                        # Skip empty properties (none are required)
+                        if nil_or_empty?(contents[key])
+                            contents[key] = nil
+                            next
                         end
-                        contents[key] = value_hash
-                    when "Height", "Weight"
-                        # Convert height/weight to 1 decimal place and multiply by 10
-                        value = (value * 10).round
-                        if value <= 0
-                            raise _INTL("Value for '{1}' can't be less than or close to 0 (section {2}, {3})", key, section_name,
-            path)
-                        end
+                        FileLineData.setSection(section_name, key, contents[key]) # For error reporting
+                        # Compile value for key
+                        value = pbGetCsvRecord(contents[key], key, schema[key])
+                        value = nil if value.is_a?(Array) && value.length == 0
                         contents[key] = value
-                    when "Moves"
-                        move_array = []
-                        for i in 0...value.length / 2
-                            move_array.push([value[i * 2], value[i * 2 + 1], i])
-                        end
-                        move_array.sort! { |a, b| (a[0] == b[0]) ? a[2] <=> b[2] : a[0] <=> b [0] }
-                        move_array.each { |arr| arr.pop }
-                        contents[key] = move_array
-                    when "TutorMoves", "EggMoves", "LineMoves", "Abilities", "HiddenAbility"
-                        contents[key] = [contents[key]] unless contents[key].is_a?(Array)
-                        contents[key].compact!
-                    when "Evolutions"
-                        evo_array = []
-                        for i in 0...value.length / 3
-                            param_type = GameData::Evolution.get(value[i * 3 + 1]).parameter
-                            param = value[i * 3 + 2]
-                            if param_type.nil?
-                                param = nil
-                            elsif param_type == Integer
-                                param = csvPosInt!(param)
-                            else
-                                param = csvEnumField!(param, param_type, "Evolutions", section_name)
+                        # Sanitise data
+                        case key
+                        when "BaseStats"
+                            value_hash = {}
+                            GameData::Stat.each_main do |s|
+                                value_hash[s.id] = value[s.pbs_order] if s.pbs_order >= 0
                             end
-                            evo_array.push([value[i * 3], value[i * 3 + 1], param, false])
+                            contents[key] = value_hash
+                        when "Height", "Weight"
+                            # Convert height/weight to 1 decimal place and multiply by 10
+                            value = (value * 10).round
+                            if value <= 0
+                                raise _INTL("Value for '{1}' can't be less than or close to 0 (section {2}, {3})", key, section_name,
+                path)
+                            end
+                            contents[key] = value
+                        when "Moves"
+                            move_array = []
+                            for i in 0...value.length / 2
+                                move_array.push([value[i * 2], value[i * 2 + 1], i])
+                            end
+                            move_array.sort! { |a, b| (a[0] == b[0]) ? a[2] <=> b[2] : a[0] <=> b [0] }
+                            move_array.each { |arr| arr.pop }
+                            contents[key] = move_array
+                        when "TutorMoves", "EggMoves", "LineMoves", "Abilities", "HiddenAbility"
+                            contents[key] = [contents[key]] unless contents[key].is_a?(Array)
+                            contents[key].compact!
+                        when "Evolutions"
+                            evo_array = []
+                            for i in 0...value.length / 3
+                                param_type = GameData::Evolution.get(value[i * 3 + 1]).parameter
+                                param = value[i * 3 + 2]
+                                if param_type.nil?
+                                    param = nil
+                                elsif param_type == Integer
+                                    param = csvPosInt!(param)
+                                else
+                                    param = csvEnumField!(param, param_type, "Evolutions", section_name)
+                                end
+                                evo_array.push([value[i * 3], value[i * 3 + 1], param, false])
+                            end
+                            contents[key] = evo_array
                         end
-                        contents[key] = evo_array
                     end
+                    # Construct species hash
+                    form_symbol = format("%s_%d", species_symbol.to_s, form).to_sym
+                    moves = contents["Moves"]
+                    unless moves
+                        moves = []
+                        base_data.moves.each { |m| moves.push(m.clone) }
+                    end
+                    evolutions = contents["Evolutions"]
+                    unless evolutions
+                        evolutions = []
+                        base_data.evolutions.each { |e| evolutions.push(e.clone) }
+                    end
+                    species_hash = {
+                    :id                    => form_symbol,
+                    :id_number             => form_number,
+                    :species               => species_symbol,
+                    :form                  => form,
+                    :name                  => base_data.real_name,
+                    :form_name             => contents["FormName"],
+                    :category              => contents["Kind"] || base_data.real_category,
+                    :pokedex_entry         => contents["Pokedex"] || base_data.real_pokedex_entry,
+                    :pokedex_form          => contents["PokedexForm"],
+                    :type1                 => contents["Type1"] || base_data.type1,
+                    :type2                 => contents["Type2"] || base_data.type2,
+                    :base_stats            => contents["BaseStats"] || base_data.base_stats,
+                    :base_exp              => contents["BaseEXP"] || base_data.base_exp,
+                    :growth_rate           => base_data.growth_rate,
+                    :gender_ratio          => base_data.gender_ratio,
+                    :catch_rate            => contents["Rareness"] || base_data.catch_rate,
+                    :happiness             => contents["Happiness"] || base_data.happiness,
+                    :moves                 => moves,
+                    :tutor_moves           => contents["TutorMoves"] || base_data.tutor_moves.clone,
+                    :egg_moves             => contents["EggMoves"] || base_data.egg_moves.clone,
+                    :line_moves            => contents["LineMoves"] || base_data.egg_moves.clone,
+                    :abilities             => contents["Abilities"] || base_data.abilities.clone,
+                    :hidden_abilities      => contents["HiddenAbility"] || base_data.hidden_abilities.clone,
+                    :wild_item_common      => contents["WildItemCommon"] || base_data.wild_item_common,
+                    :wild_item_uncommon    => contents["WildItemUncommon"] || base_data.wild_item_uncommon,
+                    :wild_item_rare        => contents["WildItemRare"] || base_data.wild_item_rare,
+                    :hatch_steps           => contents["StepsToHatch"] || base_data.hatch_steps,
+                    :evolutions            => evolutions,
+                    :height                => contents["Height"] || base_data.height,
+                    :weight                => contents["Weight"] || base_data.weight,
+                    :generation            => contents["Generation"] || base_data.generation,
+                    :flags                 => contents["Flags"] || base_data.flags,
+                    :mega_stone            => contents["MegaStone"],
+                    :mega_move             => contents["MegaMove"],
+                    :unmega_form           => contents["UnmegaForm"],
+                    :mega_message          => contents["MegaMessage"],
+                    :notes                 => contents["Notes"],
+                    :tribes                => contents["Tribes"] || base_data.tribes,
+                    :defined_in_extension  => !baseFile
+                    }
+                    # If form is single-typed, ensure it remains so if base species is dual-typed
+                    species_hash[:type2] = contents["Type1"] if contents["Type1"] && !contents["Type2"]
+                    # If form has any wild items, ensure none are inherited from base species
+                    if contents["WildItemCommon"] || contents["WildItemUncommon"] || contents["WildItemRare"]
+                        species_hash[:wild_item_common] = contents["WildItemCommon"]
+                        species_hash[:wild_item_uncommon] = contents["WildItemUncommon"]
+                        species_hash[:wild_item_rare]     = contents["WildItemRare"]
+                    end
+                    # Add form's data to records
+                    GameData::Species.register(species_hash)
+                    species_names[form_number]           = species_hash[:name]
+                    species_form_names[form_number]      = species_hash[:form_name]
+                    species_categories[form_number]      = species_hash[:category]
+                    species_pokedex_entries[form_number] = species_hash[:pokedex_entry]
                 end
-                # Construct species hash
-                form_symbol = format("%s_%d", species_symbol.to_s, form).to_sym
-                moves = contents["Moves"]
-                unless moves
-                    moves = []
-                    base_data.moves.each { |m| moves.push(m.clone) }
-                end
-                evolutions = contents["Evolutions"]
-                unless evolutions
-                    evolutions = []
-                    base_data.evolutions.each { |e| evolutions.push(e.clone) }
-                end
-                species_hash = {
-                  :id                    => form_symbol,
-                  :id_number             => form_number,
-                  :species               => species_symbol,
-                  :form                  => form,
-                  :name                  => base_data.real_name,
-                  :form_name             => contents["FormName"],
-                  :category              => contents["Kind"] || base_data.real_category,
-                  :pokedex_entry         => contents["Pokedex"] || base_data.real_pokedex_entry,
-                  :pokedex_form          => contents["PokedexForm"],
-                  :type1                 => contents["Type1"] || base_data.type1,
-                  :type2                 => contents["Type2"] || base_data.type2,
-                  :base_stats            => contents["BaseStats"] || base_data.base_stats,
-                  :base_exp              => contents["BaseEXP"] || base_data.base_exp,
-                  :growth_rate           => base_data.growth_rate,
-                  :gender_ratio          => base_data.gender_ratio,
-                  :catch_rate            => contents["Rareness"] || base_data.catch_rate,
-                  :happiness             => contents["Happiness"] || base_data.happiness,
-                  :moves                 => moves,
-                  :tutor_moves           => contents["TutorMoves"] || base_data.tutor_moves.clone,
-                  :egg_moves             => contents["EggMoves"] || base_data.egg_moves.clone,
-                  :line_moves            => contents["LineMoves"] || base_data.egg_moves.clone,
-                  :abilities             => contents["Abilities"] || base_data.abilities.clone,
-                  :hidden_abilities      => contents["HiddenAbility"] || base_data.hidden_abilities.clone,
-                  :wild_item_common      => contents["WildItemCommon"] || base_data.wild_item_common,
-                  :wild_item_uncommon    => contents["WildItemUncommon"] || base_data.wild_item_uncommon,
-                  :wild_item_rare        => contents["WildItemRare"] || base_data.wild_item_rare,
-                  :hatch_steps           => contents["StepsToHatch"] || base_data.hatch_steps,
-                  :evolutions            => evolutions,
-                  :height                => contents["Height"] || base_data.height,
-                  :weight                => contents["Weight"] || base_data.weight,
-                  :generation            => contents["Generation"] || base_data.generation,
-                  :flags                 => contents["Flags"] || base_data.flags,
-                  :mega_stone            => contents["MegaStone"],
-                  :mega_move             => contents["MegaMove"],
-                  :unmega_form           => contents["UnmegaForm"],
-                  :mega_message          => contents["MegaMessage"],
-                  :notes                 => contents["Notes"],
-                  :tribes                => contents["Tribes"] || base_data.tribes,
-                }
-                # If form is single-typed, ensure it remains so if base species is dual-typed
-                species_hash[:type2] = contents["Type1"] if contents["Type1"] && !contents["Type2"]
-                # If form has any wild items, ensure none are inherited from base species
-                if contents["WildItemCommon"] || contents["WildItemUncommon"] || contents["WildItemRare"]
-                    species_hash[:wild_item_common] = contents["WildItemCommon"]
-                    species_hash[:wild_item_uncommon] = contents["WildItemUncommon"]
-                    species_hash[:wild_item_rare]     = contents["WildItemRare"]
-                end
-                # Add form's data to records
-                GameData::Species.register(species_hash)
-                species_names[form_number]           = species_hash[:name]
-                species_form_names[form_number]      = species_hash[:form_name]
-                species_categories[form_number]      = species_hash[:category]
-                species_pokedex_entries[form_number] = species_hash[:pokedex_entry]
             end
         end
         # Add prevolution "evolution" entry for all evolved forms that define their
@@ -1236,6 +1245,7 @@ FileLineData.linereport)
         File.open("PBS/pokemonforms.txt", "wb") do |f|
             add_PBS_header_to_file(f)
             GameData::Species.each_base do |species|
+                next if species.defined_in_extension
                 next if species.form == 0
                 pbSetWindowText(_INTL("Writing species {1}...", species.id_number))
                 Graphics.update if species.id_number % 50 == 0
