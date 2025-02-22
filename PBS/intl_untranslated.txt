@@ -1052,8 +1052,24 @@ Things are going to be different from now on.
 [Map412]
 [Map413]
 [Map414]
+Darkrai looks at you confused.
+Darkrai looks at you confused.
+Suddenly, it seems like it recognized you.
+Suddenly, it seems like it recognized you.
+In a way, you can feel a sense of shame in its eyes.
+In a way, you can feel a sense of shame in its eyes.
+It will likely join you, if given the chance.
+It will likely join you, if given the chance.
+It continues to stare away at the nothingness.
+It continues to stare away at the nothingness.
+You hold a Poké Ball in front of it, Darkrai stares at it for a few seconds, until it slowly raises an arm and presses the button at its center, accepting your offer.
+You hold a Poké Ball in front of it, Darkrai stares at it for a few seconds, until it slowly raises an arm and presses the button at its center, accepting your offer.
 ...
 ...
+Leave Darkrai for now.
+Leave Darkrai for now.
+Catch Darkrai.
+Catch Darkrai.
 [Map415]
 [Map416]
 [Map417]
@@ -1105,6 +1121,15 @@ Test Pokemon
 5001
 Test Pokemon 2
 Test Pokemon 2
+5219
+M. Aromatisse
+M. Aromatisse
+5220
+Basculin
+Basculin
+5221
+Test Pokemon
+Test Pokemon
 [2]
 386
 DNA
@@ -1121,15 +1146,18 @@ Test
 5001
 Test 2
 Test 2
-5047
-DNA
-DNA
-5048
-DNA
-DNA
 5049
 DNA
 DNA
+5219
+Harvest
+Harvest
+5220
+Mellow
+Mellow
+5221
+Test
+Test
 [3]
 2533
 Born in pristine waters, they escape detection by blending in seamlessly with underwater plants.
@@ -1143,6 +1171,15 @@ This Pokemon exists just to test the PBS Extensions system.
 5001
 This Pokemon exists just to test the PBS Extensions system. Again!
 This Pokemon exists just to test the PBS Extensions system. Again!
+5219
+It uses both white and black magic. It harvests the flowers that grow on witches who regularly walk between life and death.
+It uses both white and black magic. It harvests the flowers that grow on witches who regularly walk between life and death.
+5220
+It differs from other Basculin in several respects, including demeanor. It is much gentler than other color variants.
+It differs from other Basculin in several respects, including demeanor. It is much gentler than other color variants.
+5221
+This form also exists to test the PBS Extensions feature.
+This form also exists to test the PBS Extensions feature.
 [4]
 201
 A
@@ -1420,501 +1457,36 @@ Hail
 5046
 Sand
 Sand
-5047
-Attack
-Attack
-5048
-Defense
-Defense
-5049
-Speed
-Speed
-5050
-Sand
-Sand
-5051
-Trash
-Trash
 5052
 Sand
 Sand
 5053
 Trash
 Trash
-5054
-Sun
-Sun
-5055
-East Sea
-East Sea
-5056
-East Sea
-East Sea
-5057
-Heat
-Heat
-5058
-Wash
-Wash
-5059
-Frost
-Frost
-5060
-Fan
-Fan
-5061
-Mow
-Mow
-5062
-Origin
-Origin
-5063
-Sky
-Sky
-5064
-Fighting Type
-Fighting Type
-5065
-Flying Type
-Flying Type
-5066
-Poison Type
-Poison Type
-5067
-Ground Type
-Ground Type
-5068
-Rock Type
-Rock Type
-5069
-Bug Type
-Bug Type
-5070
-Ghost Type
-Ghost Type
-5071
-Steel Type
-Steel Type
-5072
-Unknown Type
-Unknown Type
-5073
-Fire Type
-Fire Type
-5074
-Water Type
-Water Type
-5075
-Grass Type
-Grass Type
-5076
-Electric Type
-Electric Type
-5077
-Psychic Type
-Psychic Type
-5078
-Ice Type
-Ice Type
-5079
-Dragon Type
-Dragon Type
-5080
-Dark Type
-Dark Type
-5081
-Fairy Type
-Fairy Type
-5082
-Blue-Striped
-Blue-Striped
-5083
-Summer
-Summer
-5084
-Autumn
-Autumn
-5085
-Winter
-Winter
-5086
-Summer
-Summer
-5087
-Autumn
-Autumn
-5088
-Winter
-Winter
-5089
-Therian
-Therian
-5090
-Therian
-Therian
 5091
 Therian
 Therian
-5092
+5094
 White
 White
-5093
+5095
 Black
 Black
-5096
-Resolute
-Resolute
-5097
-Pirouette
-Pirouette
-5098
-Shock Drive
-Shock Drive
-5099
-Burn Drive
-Burn Drive
-5100
-Chill Drive
-Chill Drive
-5101
-Douse Drive
-Douse Drive
-5102
-Continental Pattern
-Continental Pattern
-5103
-Elegant Pattern
-Elegant Pattern
-5104
-Garden Pattern
-Garden Pattern
-5105
-High Plains Pattern
-High Plains Pattern
-5106
-Icy Snow Pattern
-Icy Snow Pattern
-5107
-Jungle Pattern
-Jungle Pattern
-5108
-Marine Pattern
-Marine Pattern
-5109
-Archipelago Pattern
-Archipelago Pattern
-5110
-Modern Pattern
-Modern Pattern
-5111
-Monsoon Pattern
-Monsoon Pattern
-5112
-Ocean Pattern
-Ocean Pattern
-5113
-Polar Pattern
-Polar Pattern
-5114
-River Pattern
-River Pattern
-5115
-Sandstorm Pattern
-Sandstorm Pattern
-5116
-Savanna Pattern
-Savanna Pattern
-5117
-Sun Pattern
-Sun Pattern
-5118
-Tundra Pattern
-Tundra Pattern
-5119
-Fancy Pattern
-Fancy Pattern
-5120
-Poké Ball Pattern
-Poké Ball Pattern
-5121
-Yellow Flower
-Yellow Flower
-5122
-Orange Flower
-Orange Flower
-5123
-Blue Flower
-Blue Flower
-5124
-White Flower
-White Flower
-5125
-Yellow Flower
-Yellow Flower
-5126
-Orange Flower
-Orange Flower
-5127
-Blue Flower
-Blue Flower
-5128
-White Flower
-White Flower
-5129
-Yellow Flower
-Yellow Flower
-5130
-Orange Flower
-Orange Flower
-5131
-Blue Flower
-Blue Flower
-5132
-White Flower
-White Flower
-5133
-Heart Trim
-Heart Trim
-5134
-Star Trim
-Star Trim
-5135
-Diamond Trim
-Diamond Trim
-5136
-Debutante Trim
-Debutante Trim
-5137
-Matron Trim
-Matron Trim
-5138
-Dandy Trim
-Dandy Trim
-5139
-La Reine Trim
-La Reine Trim
-5140
-Kabuki Trim
-Kabuki Trim
-5141
-Pharaoh Trim
-Pharaoh Trim
-5143
-Blade
-Blade
-5144
-Average Size
-Average Size
-5145
-Large Size
-Large Size
-5146
-Super Size
-Super Size
-5147
-Average Size
-Average Size
-5148
-Large Size
-Large Size
-5149
-Super Size
-Super Size
-5150
-Active Mode
-Active Mode
-5151
+5153
 10%
 10%
-5152
-Complete
-Complete
-5154
-Unbound
-Unbound
-5155
-Pom-Pom Style
-Pom-Pom Style
-5156
-Pa'u Style
-Pa'u Style
-5157
-Sensu Style
-Sensu Style
-5158
-Midnight
-Midnight
-5159
-Dusk
-Dusk
-5160
-School
-School
-5161
-Type: Fighting
-Type: Fighting
-5162
-Type: Flying
-Type: Flying
-5163
-Type: Poison
-Type: Poison
-5164
-Type: Ground
-Type: Ground
-5165
-Type: Rock
-Type: Rock
-5166
-Type: Bug
-Type: Bug
-5167
-Type: Ghost
-Type: Ghost
-5168
-Type: Steel
-Type: Steel
-5169
-Type: Unknown
-Type: Unknown
-5170
-Type: Fire
-Type: Fire
-5171
-Type: Water
-Type: Water
-5172
-Type: Grass
-Type: Grass
-5173
-Type: Electric
-Type: Electric
-5174
-Type: Psychic
-Type: Psychic
-5175
-Type: Ice
-Type: Ice
-5176
-Type: Dragon
-Type: Dragon
-5177
-Type: Dark
-Type: Dark
-5178
-Type: Fairy
-Type: Fairy
-5179
-Red
-Red
-5180
-Orange
-Orange
-5181
-Yellow
-Yellow
-5182
-Green
-Green
-5183
-Blue
-Blue
-5184
-Indigo
-Indigo
-5185
-Violet
-Violet
-5186
-Busted
-Busted
-5187
-Dusk Mane
-Dusk Mane
-5188
+5190
 Dawn Wings
 Dawn Wings
-5189
-Ultra
-Ultra
-5191
-Original Color
-Original Color
-5192
-Gulping
-Gulping
-5193
-Gorging
-Gorging
-5195
-Antique
-Antique
-5196
-Antique
-Antique
-5198
-Hangry
-Hangry
-5199
-Crowned
-Crowned
-5200
-Crowned
-Crowned
-5201
-Rapid Strike
-Rapid Strike
-5202
-Ice
-Ice
-5203
-Shadow
-Shadow
-5204
-Primal
-Primal
-5205
-Primal
-Primal
-5206
-Delta
-Delta
-5207
-Zen
-Zen
-5208
-Zen
-Zen
-5209
-Ascended
-Ascended
-5210
-Reaper
-Reaper
-5211
-Rampage
-Rampage
-5212
-Finale
-Finale
-5213
-Finale
-Finale
-5214
-Overmatter
-Overmatter
-5215
-Overmind
-Overmind
-5216
-Therian
-Therian
-5217
+5219
 Harvest
 Harvest
-5218
+5220
 White-Striped
 White-Striped
+5221
+Test Form
+Test Form
 [5]
 Sweet Kiss
 Sweet Kiss
@@ -1922,6 +1494,8 @@ Lather
 Lather
 Launder
 Launder
+Retreat
+Retreat
 Blunt Force
 Blunt Force
 Embrittle
@@ -1988,6 +1562,8 @@ Surge Snare
 Surge Snare
 Exploit
 Exploit
+Invite Eclipse
+Invite Eclipse
 Memory Removal
 Memory Removal
 Scrutinize
@@ -2026,6 +1602,8 @@ Frolic
 Frolic
 Ill Wishes
 Ill Wishes
+Invite Moonglow
+Invite Moonglow
 Misadventure
 Misadventure
 Mishap
@@ -2463,12 +2041,20 @@ Test Move
 [6]
 The target is hit with rhythmically launched punches that have a 30% chance to dizzy.
 The target is hit with rhythmically launched punches that have a 30% chance to dizzy.
+Enables random critical hits for the user, and quadruples its critical hit chance.
+Enables random critical hits for the user, and quadruples its critical hit chance.
 The user draws attention to itself, making all targets take aim only at the user this turn.
 The user draws attention to itself, making all targets take aim only at the user this turn.
+The target is raked two to five times. Can random critical hit.
+The target is raked two to five times. Can random critical hit.
 The user sticks out its head and attacks by charging into the foe. It has a 50% chance to numb.
 The user sticks out its head and attacks by charging into the foe. It has a 50% chance to numb.
 The foe is forced to switch out to a random ally. Always goes last.
 The foe is forced to switch out to a random ally. Always goes last.
+Hard, pointed, and sharp claws rake the target to inflict damage. Can random critical hit.
+Hard, pointed, and sharp claws rake the target to inflict damage. Can random critical hit.
+The target is attacked with a slash of claws or blades. Can random critical hit.
+The target is attacked with a slash of claws or blades. Can random critical hit.
 An attack that can be used only if the user is asleep.
 An attack that can be used only if the user is asleep.
 A barrage of two to five star-shaped rays are shot at the opposing team. Can't miss and skips protections.
@@ -2477,16 +2063,28 @@ Used only if the user has no PP. It also hurts the user.
 Used only if the user has no PP. It also hurts the user.
 The user consumes its Stockpile to heal for 50% max HP per charge. This can overheal.
 The user consumes its Stockpile to heal for 50% max HP per charge. This can overheal.
+The user delivers a double chop with its forearms crossed. Can random critical hit.
+The user delivers a double chop with its forearms crossed. Can random critical hit.
+The target is attacked with a sharp chop. Can random critical hit.
+The target is attacked with a sharp chop. Can random critical hit.
 Attacks wildly with swords or fists. The user must rest on the next turn, however.
 Attacks wildly with swords or fists. The user must rest on the next turn, however.
-The target is jabbed with a sharply pointed beak or horn. Critical hits twice as often.
-The target is jabbed with a sharply pointed beak or horn. Critical hits twice as often.
+A vortex of air is shot at the target to inflict damage. Can random critical hit.
+A vortex of air is shot at the target to inflict damage. Can random critical hit.
+A corkscrewing attack with the sharp beak acting as a drill. Can random critical hit.
+A corkscrewing attack with the sharp beak acting as a drill. Can random critical hit.
+The target is jabbed with a sharply pointed beak or horn. Can random critical hit.
+The target is jabbed with a sharply pointed beak or horn. Can random critical hit.
 The user coils up and concentrates. This raises its Attack, Defense, and Accuracy by two steps each.
 The user coils up and concentrates. This raises its Attack, Defense, and Accuracy by two steps each.
-A slashing attack with a poisonous blade. Critical hits twice as often.
-A slashing attack with a poisonous blade. Critical hits twice as often.
-The user hits the target with its tail. Critical hits twice as often.
-The user hits the target with its tail. Critical hits twice as often.
+A slashing attack with a poisonous blade. Can random critical hit.
+A slashing attack with a poisonous blade. Can random critical hit.
+The user lashes out with its claws. 50% chance to poison. Can random critical hit.
+The user lashes out with its claws. 50% chance to poison. Can random critical hit.
+The user hits the target with its tail. Can random critical hit.
+The user hits the target with its tail. Can random critical hit.
+The user crashes into its target while rotating its body like a drill. Can random critical hit.
+The user crashes into its target while rotating its body like a drill. Can random critical hit.
 Gravity is intensified for five turns, forcing Pokémon down from the air and doubling all move Accuracy.
 Gravity is intensified for five turns, forcing Pokémon down from the air and doubling all move Accuracy.
 The user whips up a storm of diamonds to damage foes, raising its Defense and Sp. Def.
@@ -2501,16 +2099,22 @@ The user attacks with a beam of light. It has a 30% chance to dizzy.
 The user attacks with a beam of light. It has a 30% chance to dizzy.
 The user rolls over its foes, crushing them. It has a 30% chance to reduce the target's Defense.
 The user rolls over its foes, crushing them. It has a 30% chance to reduce the target's Defense.
+The user slashes at the foe by crossing its scythes or claws. Can random critical hit.
+The user slashes at the foe by crossing its scythes or claws. Can random critical hit.
+The user slashes with a sharp claw made from shadows. Can random critical hit.
+The user slashes with a sharp claw made from shadows. Can random critical hit.
 The user focuses intensely. For the next three turns, its attacks will be guarenteed critical hits.
 The user focuses intensely. For the next three turns, its attacks will be guarenteed critical hits.
 The user launches a fiery kick. It has a 10% chance to burn.
 The user launches a fiery kick. It has a 10% chance to burn.
-The target is struck with a supersonic water blast. Critical hits twice as often.
-The target is struck with a supersonic water blast. Critical hits twice as often.
+The target is hammered with a large pincer. Can random critical hit.
+The target is hammered with a large pincer. Can random critical hit.
+The target is struck with a supersonic water blast. Can random critical hit.
+The target is struck with a supersonic water blast. Can random critical hit.
 It swamps the area with a giant wave, hitting every battler nearby. Has a 10% chance to waterlog.
 It swamps the area with a giant wave, hitting every battler nearby. Has a 10% chance to waterlog.
-The target is blasted with a forceful shot of water. Critical hits twice as often.
-The target is blasted with a forceful shot of water. Critical hits twice as often.
+The target is blasted with a forceful shot of water. Can random critical hit.
+The target is blasted with a forceful shot of water. Can random critical hit.
 The user attacks the target with a pulsing blast of water. It has a 30% chance to dizzy.
 The user attacks the target with a pulsing blast of water. It has a 30% chance to dizzy.
 The user hits the target with throwing stars 2 to 5 times in a row. This move always goes first.
@@ -2519,6 +2123,12 @@ A nutrient-draining attack. The user's HP is restored by 50% of the damage dealt
 A nutrient-draining attack. The user's HP is restored by 50% of the damage dealt.
 The user's body grows all at once, raising Atk and Sp. Atk by two steps each, or 4 in sunshine.
 The user's body grows all at once, raising Atk and Sp. Atk by two steps each, or 4 in sunshine.
+The user attacks by pelting the target with leaves. Can random critical hit.
+The user attacks by pelting the target with leaves. Can random critical hit.
+The user handles a sharp leaf like a sword and attacks by slashing. Can random critical hit.
+The user handles a sharp leaf like a sword and attacks by slashing. Can random critical hit.
+Sharp-edged leaves are launched to slash at the opposing team. Can random critical hit.
+Sharp-edged leaves are launched to slash at the opposing team. Can random critical hit.
 The user charges, then attacks on the second turn. Charges instantly in sunshine.
 The user charges, then attacks on the second turn. Charges instantly in sunshine.
 Attacks by gliding on the ground. This move always goes first in sunshine.
@@ -2531,12 +2141,14 @@ The user attacks everything around it. The user's HP is restored by 50% of the d
 The user attacks everything around it. The user's HP is restored by 50% of the damage dealt.
 The target is attacked with a peculiar ray. It has a 30% chance to dizzy.
 The target is attacked with a peculiar ray. It has a 30% chance to dizzy.
-The user switches out to a party Pokémon in waiting. Always goes last.
-The user switches out to a party Pokémon in waiting. Always goes last.
+The user tears at the target with blades formed by psychic power. Can random critical hit.
+The user tears at the target with blades formed by psychic power. Can random critical hit.
 This move reduces damage from attacks for five turns. This can be used only in hail.
 This move reduces damage from attacks for five turns. This can be used only in hail.
 The user forces the target to switch out, to be replaced at random. Always goes last.
 The user forces the target to switch out, to be replaced at random. Always goes last.
+The user tears the target along with the space around it. Can random critical hit.
+The user tears the target along with the space around it. Can random critical hit.
 A small tornado hits the target. It has a 30% chance to make targets flinch.
 A small tornado hits the target. It has a 30% chance to make targets flinch.
 The target is bitten with viciously sharp fangs. It has a 20% chance to lower Defense.
@@ -2545,6 +2157,8 @@ The user sharpens its claws to raise its Attack and Accuracy by three steps each
 The user sharpens its claws to raise its Attack and Accuracy by three steps each.
 The user slaps the target to knock off their item.
 The user slaps the target to knock off their item.
+The user slashes the target the instant an opportunity arises. Can random critical hit.
+The user slashes the target the instant an opportunity arises. Can random critical hit.
 The user stirs up a fairy wind and strikes the target with it.
 The user stirs up a fairy wind and strikes the target with it.
 The user attacks the target by emitting steam. It has a 30% chance to dizzy.
@@ -2563,12 +2177,20 @@ The user spins the target with a cleansing vortex. It has a 30% chance to waterl
 The user spins the target with a cleansing vortex. It has a 30% chance to waterlog.
 The target is struck by a pulse of negative energy. This resets the target's stat changes.
 The target is struck by a pulse of negative energy. This resets the target's stat changes.
-The user breathes deeply, raising its Speed by two steps and quadrupling its critical hit chance.
-The user breathes deeply, raising its Speed by two steps and quadrupling its critical hit chance.
+The target is cut by a clean slice. Can random critical hit, and does so twice as often.
+The target is cut by a clean slice. Can random critical hit, and does so twice as often.
+The user switches out to a party Pokémon in waiting. Always goes last.
+The user switches out to a party Pokémon in waiting. Always goes last.
+Enables random critical hits for the user, quadruples its critical hit chance, and raises its Speed by 2 steps.
+Enables random critical hits for the user, quadruples its critical hit chance, and raises its Speed by 2 steps.
+The user shoots three arrows made of Aura with extreme precision. Can random critical hit.
+The user shoots three arrows made of Aura with extreme precision. Can random critical hit.
+The user relentlessly attacks with its whip-like hands for three turns. Can random critical hit.
+The user relentlessly attacks with its whip-like hands for three turns. Can random critical hit.
 A high pitched screech lowers the target's Defense, Sp. Def, and Evasion by three steps each. Can't miss and skips protections.
 A high pitched screech lowers the target's Defense, Sp. Def, and Evasion by three steps each. Can't miss and skips protections.
-The target is jabbed repeatedly with a horn or beak two to five times in a row. Critical hits twice as often.
-The target is jabbed repeatedly with a horn or beak two to five times in a row. Critical hits twice as often.
+The target is jabbed repeatedly with a horn or beak two to five times in a row. Can random critical hit.
+The target is jabbed repeatedly with a horn or beak two to five times in a row. Can random critical hit.
 The user hops high up to land on the target's head. It has a 10% chance to numb.
 The user hops high up to land on the target's head. It has a 10% chance to numb.
 Wind rapidly spins the target in place to hit them two to five times.
@@ -2577,8 +2199,14 @@ The user gives off a terrible stench towards the target. It has a 30% chance to 
 The user gives off a terrible stench towards the target. It has a 30% chance to dizzy.
 The user bludgeons the target's arms and legs with a large rock. This has a 50% chance to fracture it.
 The user bludgeons the target's arms and legs with a large rock. This has a 50% chance to fracture it.
+The user attacks with the bright glint of crystals. Can random critical hit.
+The user attacks with the bright glint of crystals. Can random critical hit.
+The user calls up spikes of diamond. Can random critical hit.
+The user calls up spikes of diamond. Can random critical hit.
 The user weakens the target's bones, making them fracture. They deal 33% less damage.
 The user weakens the target's bones, making them fracture. They deal 33% less damage.
+The user numbs the target, then summons sandstorm for eight turns.
+The user numbs the target, then summons sandstorm for eight turns.
 The user drops a single piece of solid bedrock on the target, fracturing them.
 The user drops a single piece of solid bedrock on the target, fracturing them.
 The user afflicts the target by turning their skin into stone. This has a 30% chance to fracture it.
@@ -2613,46 +2241,54 @@ The user makes a plea for survival, halving the damage their side takes from non
 The user makes a plea for survival, halving the damage their side takes from non-attack sources for 8 turns.
 The user sheds a huge volley of scales at the target. Lands without fail and lowers the user's Sp. Def and Speed.
 The user sheds a huge volley of scales at the target. Lands without fail and lowers the user's Sp. Def and Speed.
+The user slashes using woven silk, lowering the user's Attack by four steps. Can random critical hit.
+The user slashes using woven silk, lowering the user's Attack by four steps. Can random critical hit.
 The user stabs the target, injecting a painful chemical. It has a 30% chance to poison.
 The user stabs the target, injecting a painful chemical. It has a 30% chance to poison.
 The user soothes the target, lowering its Speed by 4 steps. If in hail, they also become drowsy.
 The user soothes the target, lowering its Speed by 4 steps. If in hail, they also become drowsy.
 The user opens its soul to unleash massive energy. This lowers the user's Sp. Atk and Sp. Def by two steps.
 The user opens its soul to unleash massive energy. This lowers the user's Sp. Atk and Sp. Def by two steps.
-The user suffocates the target by sucking the air from their lungs. Critical hits twice as often.
-The user suffocates the target by sucking the air from their lungs. Critical hits twice as often.
+The user suffocates the target by sucking the air from their lungs. Can random critical hit.
+The user suffocates the target by sucking the air from their lungs. Can random critical hit.
 The user snips the target's connection to life in order to curse them, damaging their HP by 25% each turn.
 The user snips the target's connection to life in order to curse them, damaging their HP by 25% each turn.
-The user thins the air around the target, depriving them of oxygen. Critical hits twice as often.
-The user thins the air around the target, depriving them of oxygen. Critical hits twice as often.
+The user thins the air around the target, depriving them of oxygen. Can random critical hit.
+The user thins the air around the target, depriving them of oxygen. Can random critical hit.
 The user headbutts the target with a metal head. It has a 20% chance to make the target flinch.
 The user headbutts the target with a metal head. It has a 20% chance to make the target flinch.
-The target is pierced with a sharp iron arrow. Critical hits twice as often.
-The target is pierced with a sharp iron arrow. Critical hits twice as often.
-The target is pierced with a pointed metal javelin. Critical hits twice as often.
-The target is pierced with a pointed metal javelin. Critical hits twice as often.
+The target is pierced with a sharp iron arrow. Can random critical hit.
+The target is pierced with a sharp iron arrow. Can random critical hit.
+The target is pierced with a pointed metal javelin. Can random critical hit.
+The target is pierced with a pointed metal javelin. Can random critical hit.
 The user shoots a massive metal object at the target. The user must rest on the next turn to regain its energy.
 The user shoots a massive metal object at the target. The user must rest on the next turn to regain its energy.
 The user drags the target into the water with a heavy anchor. They become waterlogged.
 The user drags the target into the water with a heavy anchor. They become waterlogged.
 Summons sunshine for five turns on the first turn, then overwhelms the foe with fiery light on the second.
 Summons sunshine for five turns on the first turn, then overwhelms the foe with fiery light on the second.
+The user burns the target, then welcomes in sunshine for eight turns.
+The user burns the target, then welcomes in sunshine for eight turns.
+A lance of fire pierces the target from above, lowering their Sp. Atk. Can random critical hit, and does so twice as often.
+A lance of fire pierces the target from above, lowering their Sp. Atk. Can random critical hit, and does so twice as often.
 The user conserves for future attacks. This raises its Sp. Atk, Sp. Def, and Accuracy by two steps each.
 The user conserves for future attacks. This raises its Sp. Atk, Sp. Def, and Accuracy by two steps each.
-The user launches a concentrated ball of searing white flame. Critical hits twice as often.
-The user launches a concentrated ball of searing white flame. Critical hits twice as often.
+The user launches a concentrated ball of searing white flame. Can random critical hit.
+The user launches a concentrated ball of searing white flame. Can random critical hit.
 The user creates a storm using its flaming body, damaging everything around it and melting away hazards in both sides.
 The user creates a storm using its flaming body, damaging everything around it and melting away hazards in both sides.
 The user pulls the target under the waves with crushing force. This has a 10% chance to waterlog.
 The user pulls the target under the waves with crushing force. This has a 10% chance to waterlog.
-The user waterlogs the target, then welcomes in rainstorm for four turns.
-The user waterlogs the target, then welcomes in rainstorm for four turns.
+The user waterlogs the target, then welcomes in rainstorm for eight turns.
+The user waterlogs the target, then welcomes in rainstorm for eight turns.
 The user crashes into the target on a ripping current. This waterlogs the target.
 The user crashes into the target on a ripping current. This waterlogs the target.
 The user rams the target while splashing up a lot of water. This has a 30% chance to waterlog.
 The user rams the target while splashing up a lot of water. This has a 30% chance to waterlog.
 The user wields tidal power to grab at the target. This has a 10% chance to waterlog.
 The user wields tidal power to grab at the target. This has a 10% chance to waterlog.
+The user uses a jet of water like a sword and attacks by slashing. Can random critical hit.
+The user uses a jet of water like a sword and attacks by slashing. Can random critical hit.
 The target is doused with water in order to waterlog it.
 The target is doused with water in order to waterlog it.
 The user crashes into the target with the force of a large wave. This has a 30% chance to lower Defense.
@@ -2661,10 +2297,14 @@ The target is inundated with a wave of seaweater. This has a 30% chance to water
 The target is inundated with a wave of seaweater. This has a 30% chance to waterlog.
 The user breaks down all insulation to send a barrage of electricity for three turns.
 The user breaks down all insulation to send a barrage of electricity for three turns.
+The user harnesses a blade of lightning and slices at the target. Can random critical hit.
+The user harnesses a blade of lightning and slices at the target. Can random critical hit.
 The user slams down into the target with electricity. It has a 10% chance to numb.
 The user slams down into the target with electricity. It has a 10% chance to numb.
 The user lays an electrical hazard which hurts foes that switch into battle. It deals double damage in rainstorm.
 The user lays an electrical hazard which hurts foes that switch into battle. It deals double damage in rainstorm.
+The user slices with claws of light that have a 50% chance to numb. Can random critical hit.
+The user slices with claws of light that have a 50% chance to numb. Can random critical hit.
 Turns the foe's power against it, dealing damage using the target's Sp. Atk stat.
 Turns the foe's power against it, dealing damage using the target's Sp. Atk stat.
 The user creates an electric fueled cage, trapping and damaging it for three turns.
@@ -2675,8 +2315,10 @@ By sacrificing half its total HP, the user makes the target fall asleep.
 By sacrificing half its total HP, the user makes the target fall asleep.
 Summons eclipse for eight turns, boosting Psychic-type attacks and heralding the total eclipse.
 Summons eclipse for eight turns, boosting Psychic-type attacks and heralding the total eclipse.
-The user psychically exploits weak points in the target's mind. Critical hits four times as often.
-The user psychically exploits weak points in the target's mind. Critical hits four times as often.
+The user psychically exploits weak points in the target's mind. Can random critical hit, and does so twice as often.
+The user psychically exploits weak points in the target's mind. Can random critical hit, and does so twice as often.
+The user dizzies the target, then welcomes in eclipse for eight turns.
+The user dizzies the target, then welcomes in eclipse for eight turns.
 The user psychically alters the target's brain to forget. This move disables the target's last move.
 The user psychically alters the target's brain to forget. This move disables the target's last move.
 The target's psyche is attacked directly. It has a 30% chance to lower the target's Attack and Sp. Atk.
@@ -2685,20 +2327,26 @@ The target is hit by a weak telekinetic force. It has a 10% chance to lower the 
 The target is hit by a weak telekinetic force. It has a 10% chance to lower the target's Sp. Def.
 Unveiling its ears, the released psychic power causes the user to attack 2 to 5 times each for three turns.
 Unveiling its ears, the released psychic power causes the user to attack 2 to 5 times each for three turns.
-The target is scrutinized, damaging their psyche. Critical hits twice as often.
-The target is scrutinized, damaging their psyche. Critical hits twice as often.
+The user cuts using scissor-like blades of psychic energy. Can random critical hit.
+The user cuts using scissor-like blades of psychic energy. Can random critical hit.
+The target is scrutinized, damaging their psyche. Can random critical hit.
+The target is scrutinized, damaging their psyche. Can random critical hit.
 The user peruses its kingly stores of knowledge, selecting three random non-Psychic attacks. You choose which one it uses.
 The user peruses its kingly stores of knowledge, selecting three random non-Psychic attacks. You choose which one it uses.
-The user takes control of the target's mind to unleash an attack on it. Critical hits twice as often.
-The user takes control of the target's mind to unleash an attack on it. Critical hits twice as often.
+The user takes control of the target's mind to unleash an attack on it. Can random critical hit.
+The user takes control of the target's mind to unleash an attack on it. Can random critical hit.
 The target is put to sleep via a deep freeze. The user must rest on the next turn to regain its energy.
 The target is put to sleep via a deep freeze. The user must rest on the next turn to regain its energy.
 The user covers the field with an fog of ice crystals, summoning hail and creating grey mist for 5 turns.
 The user covers the field with an fog of ice crystals, summoning hail and creating grey mist for 5 turns.
 For the rest of the round, the target's healing is reversed.
 For the rest of the round, the target's healing is reversed.
+The user frostbites the target, then welcomes in hail for eight turns.
+The user frostbites the target, then welcomes in hail for eight turns.
 The user makes the target to trip into a huge pile of snow, damaging them and summoning hail for eight turns.
 The user makes the target to trip into a huge pile of snow, damaging them and summoning hail for eight turns.
+The user hunts with its allies. The more party Pokémon, the more damage. Can random critical hit.
+The user hunts with its allies. The more party Pokémon, the more damage. Can random critical hit.
 Protects the user from attacks. If an eclipse is active, extends it by one turn. Fails if used in succession.
 Protects the user from attacks. If an eclipse is active, extends it by one turn. Fails if used in succession.
 The user whips up a tornado to tear at the target. It has a 30% chance to make them flinch.
@@ -2717,6 +2365,10 @@ For the rest of the round, the healing of all damaged Pokémon is reversed.
 For the rest of the round, the healing of all damaged Pokémon is reversed.
 The target is dragged viciously through water. This has a 30% chance to waterlog.
 The target is dragged viciously through water. This has a 30% chance to waterlog.
+The user tries to surprise-attack the target. Cannot miss in moonglow. Can random critical hit.
+The user tries to surprise-attack the target. Cannot miss in moonglow. Can random critical hit.
+The user hacks at the target with great violence. Can random critical hit.
+The user hacks at the target with great violence. Can random critical hit.
 Explodes, dealing an extra 30 base power to all foes for each layer of spikes underneath them. The user faints.
 Explodes, dealing an extra 30 base power to all foes for each layer of spikes underneath them. The user faints.
 The user assists an ally by boosting the power and Accuracy of its next attack by 50%.
@@ -2729,8 +2381,8 @@ The target is pranked with a huge bucket of water. This has a 50% chance to wate
 The target is pranked with a huge bucket of water. This has a 50% chance to waterlog it.
 The target's mind is overloaded with emotion. Applies Torment to the target.
 The target's mind is overloaded with emotion. Applies Torment to the target.
-The user shoots a magical arrow which seeks out the target's weak points. Critical hits twice as often.
-The user shoots a magical arrow which seeks out the target's weak points. Critical hits twice as often.
+The user shoots a magical arrow which seeks out the target's weak points. Can random critical hit.
+The user shoots a magical arrow which seeks out the target's weak points. Can random critical hit.
 An enchanting outcry. This attack never misses and skips protections.
 An enchanting outcry. This attack never misses and skips protections.
 The user makes a fool out of the target. This has a 50% chance of jinxing them.
@@ -2739,6 +2391,8 @@ The user plays with the target with unneccessary force. It has a 50% chance to l
 The user plays with the target with unneccessary force. It has a 50% chance to lower Attack.
 The user hopes for bad luck, jinxing the target. Attacks against them crit and pierce protection.
 The user hopes for bad luck, jinxing the target. Attacks against them crit and pierce protection.
+The user leeches the target, then welcomes in moonglow for eight turns.
+The user leeches the target, then welcomes in moonglow for eight turns.
 The user causes an accident, damaging the target. This has a 30% chance of jinxing them.
 The user causes an accident, damaging the target. This has a 30% chance of jinxing them.
 The user causes the target to trip and fall. This has a 50% chance of jinxing them.
@@ -2849,6 +2503,10 @@ It enables the user to evade all attacks. It always fails if it is used in succe
 It enables the user to evade all attacks. It always fails if it is used in succession.
 The user unleashes a vital energy wave. The lower the user's HP, the less powerful it becomes.
 The user unleashes a vital energy wave. The lower the user's HP, the less powerful it becomes.
+The user launches razor-like wind to slash the opposing team. Can random critical hit.
+The user launches razor-like wind to slash the opposing team. Can random critical hit.
+A two-turn attack. Blades of wind hit the foe on the second turn. Can random critical hit.
+A two-turn attack. Blades of wind hit the foe on the second turn. Can random critical hit.
 The user expels strong stomache acid to corrode the target. Super effective against Steel-types.
 The user expels strong stomache acid to corrode the target. Super effective against Steel-types.
 The user surrounds everything around it with highly acidic gas and melts away items they hold.
@@ -4689,6 +4347,8 @@ A spray-type medicine. It heals all the status problems of a single Pokémon.
 An item to test the PBS Extensions feature. It can be sold to shops for $1.
 An item to test the PBS Extensions feature. It can be sold to shops for $1.
 [10]
+Astral Harvest
+Astral Harvest
 Backwash
 Backwash
 Cynic
@@ -4761,6 +4421,10 @@ Adaptive AI v3
 Adaptive AI v3
 Adaptive AI v4
 Adaptive AI v4
+Backfire
+Backfire
+Bioengineering
+Bioengineering
 Relentless Pursuit
 Relentless Pursuit
 72 Transformations
@@ -5218,6 +4882,8 @@ Takes 30% less damage in eclipse, except in total eclipse.
 Takes 30% less damage in eclipse, except in total eclipse.
 Takes 40% less damage from attacks by Pokémon who have a status condition.
 Takes 40% less damage from attacks by Pokémon who have a status condition.
+During eclipse, it restores its HP by half the damage it deals with attacks.
+During eclipse, it restores its HP by half the damage it deals with attacks.
 Special attacks against the Pokémon have a 30% chance to waterlog the attacker.
 Special attacks against the Pokémon have a 30% chance to waterlog the attacker.
 Raises Defense and Sp. Def by three steps each when its HP is lowered below half.
@@ -5260,8 +4926,6 @@ Immune to Fairy-type moves and restores 25% of max HP if hit by one. This can ov
 Immune to Fairy-type moves and restores 25% of max HP if hit by one. This can overheal.
 Doubles Sp. Def in sunshine.
 Doubles Sp. Def in sunshine.
-If the Pokémon witnesses a total eclipse, it gets to move twice that turn.
-If the Pokémon witnesses a total eclipse, it gets to move twice that turn.
 Wild Pokémon are more likely to appear in pairs and to be species you've never caught before.
 Wild Pokémon are more likely to appear in pairs and to be species you've never caught before.
 Prevents stat steps from being lowered (except when self-inflicted). Protects from critical hits.
@@ -5276,8 +4940,6 @@ If an attack lowers the Pokémon's HP to half or less, the attacker becomes curs
 If an attack lowers the Pokémon's HP to half or less, the attacker becomes cursed.
 Physical moves have a 30% chance to waterlog targets.
 Physical moves have a 30% chance to waterlog targets.
-Raises each stat by two steps when a total eclipse happens.
-Raises each stat by two steps when a total eclipse happens.
 The Pokémon can't be Taunted, Encored, Tormented, Heal Blocked, Disabled, Barred, Dizzied, or Flinched.
 The Pokémon can't be Taunted, Encored, Tormented, Heal Blocked, Disabled, Barred, Dizzied, or Flinched.
 If an attack lowers its HP to half or less, waterlogs the attacker.
@@ -5362,8 +5024,6 @@ By sacrificing a held item the Pokémon didn't start with, it can negate one att
 By sacrificing a held item the Pokémon didn't start with, it can negate one attack against it.
 Becomes energy charged when hit by an attack, doubling the power of its next Electric-type attack.
 Becomes energy charged when hit by an attack, doubling the power of its next Electric-type attack.
-When a total eclipse occurs, heals for 50% max HP and uses Heal Bell.
-When a total eclipse occurs, heals for 50% max HP and uses Heal Bell.
 Prevents the foe from escaping during eclipse.
 Prevents the foe from escaping during eclipse.
 Boosts Speed by 50% in rainstorm. Can't miss during rainstorm.
@@ -5382,6 +5042,10 @@ Adapts the move's type to maximize effectiveness while accounting for the immuni
 Adapts the move's type to maximize effectiveness while accounting for the immunities.
 Adapts the move's type to maximize damage against the target.
 Adapts the move's type to maximize damage against the target.
+When hitting a target with an ability that has an offensive damage-modifying effect, ignores the conditions and triggers the effect for the Pokémon.
+When hitting a target with an ability that has an offensive damage-modifying effect, ignores the conditions and triggers the effect for the Pokémon.
+The Pokémon will transform into a member of its family based on the move it is about to use.
+The Pokémon will transform into a member of its family based on the move it is about to use.
 Attacks switching opponents with Pursuit.
 Attacks switching opponents with Pursuit.
 Changes to a random Pokémon at the end of each turn.
@@ -5396,6 +5060,10 @@ This ability exists just to showcase the PBS Extensions system.
 This ability exists just to showcase the PBS Extensions system.
 Makes foes unable to use priority attacks.
 Makes foes unable to use priority attacks.
+If the Pokémon witnesses a total eclipse, it gets to move twice that turn.
+If the Pokémon witnesses a total eclipse, it gets to move twice that turn.
+Raises each stat by two steps when a total eclipse happens.
+Raises each stat by two steps when a total eclipse happens.
 Sets Fairy Terrain for five turns when hit by an attack.
 Sets Fairy Terrain for five turns when hit by an attack.
 Doubles the Speed of kicking moves.
@@ -5406,6 +5074,8 @@ Sets Grassy Terrain for five turns when hit by an attack.
 Sets Grassy Terrain for five turns when hit by an attack.
 Upon entry in sunshine, regenerates its used berry.
 Upon entry in sunshine, regenerates its used berry.
+When a total eclipse occurs, heals for 50% max HP and uses Heal Bell.
+When a total eclipse occurs, heals for 50% max HP and uses Heal Bell.
 [12]
 9
 ???
@@ -9344,8 +9014,8 @@ Cannot get machine index of item {1} ID. It either doesn't exist or isn't a mach
 Cannot get machine index of item {1} ID. It either doesn't exist or isn't a machine!
 Item ID '{1}' is used twice.<<n>>{2}
 Item ID '{1}' is used twice.<<r>><<n>>{2}
-Pokémon like ID '{1}' is used twice.<<n>>{2}
-Pokémon like ID '{1}' is used twice.<<r>><<n>>{2}
+Pokemon like ID '{1}' is used twice.<<n>>{2}
+Pokemon like ID '{1}' is used twice.<<r>><<n>>{2}
 Warning: Map {1}, as mentioned in the map connection data, was not found.<<n>>{2}
 Warning: Map {1}, as mentioned in the map connection data, was not found.<<r>><<n>>{2}
 North side of first map must connect with south side of second map<<n>>{1}
@@ -9526,10 +9196,10 @@ Bad line syntax (expected syntax like XXX=YYY)<<n>>{1}
 Bad line syntax (expected syntax like XXX=YYY)<<r>><<n>>{1}
 Unnamed
 Unnamed
-Illegal move #{moveID} learnable by a party member of trainer #{trainerName}!
-Illegal move #{moveID} learnable by a party member of trainer #{trainerName}!
-Trainer #{trainerName}'s #{speciesData.species} can't learn the move #{moveID} assigned to it!
-Trainer #{trainerName}'s #{speciesData.species} can't learn the move #{moveID} assigned to it!
+Illegal move #{moveID} learnable by a party member of trainer #{trainerName}! This move will be removed.
+Illegal move #{moveID} learnable by a party member of trainer #{trainerName}! This move will be removed.
+Trainer #{trainerName}'s #{speciesData.species} can't learn the move #{moveID} assigned to it! This move will be removed.
+Trainer #{trainerName}'s #{speciesData.species} can't learn the move #{moveID} assigned to it! This move will be removed.
 Illegal item #{itemID} assigned to a party member of trainer #{trainerName}!
 Illegal item #{itemID} assigned to a party member of trainer #{trainerName}!
 WARNING: When trying to contruct trainer #{@id.to_s} as an extension of trainer #{parentTrainer.id.to_s}, the resultant party is larger than the maximum party size!
@@ -9564,8 +9234,8 @@ No trainer data file given in section {1}.<<n>>{2}
 No trainer data file given in section {1}.<<r>><<n>>{2}
 Trainer Type ID '{1}' is used twice.<<n>>{2}
 Trainer Type ID '{1}' is used twice.<<r>><<n>>{2}
-Pokémon trait ID '{1}' is used twice.<<n>>{2}
-Pokémon trait ID '{1}' is used twice.<<r>><<n>>{2}
+Pokemon trait ID '{1}' is used twice.<<n>>{2}
+Pokemon trait ID '{1}' is used twice.<<r>><<n>>{2}
 Tribe ID '{1}' is used twice.<<n>>{2}
 Tribe ID '{1}' is used twice.<<r>><<n>>{2}
 '{1}' is not a defined type ({2}, section {3}, Weaknesses).
@@ -9776,8 +9446,8 @@ Enter {1}'s name.
 \se[]{1} saved the game.\me[GUI save game]
 \se[]Save failed.\wtnp[30]
 \se[]Save failed.\wtnp[30]
-Randomizer has been disabled in this mod!<<n>>Please play the Normal mode.
-Randomizer has been disabled in this mod!<<n>>Please play the Normal mode.
+Randomizer has been disabled in Earthquake!<<n>>Please play in Normal mode.
+Randomizer has been disabled in Earthquake!<<n>>Please play in Normal mode.
 Frame width is 0
 Frame width is 0
 Frame height is 0
@@ -10058,8 +9728,8 @@ Mark {1}
 Mark {1}
 OK
 OK
-Do you want to check {1} in MasterDex?
-Do you want to check {1} in MasterDex?
+Do you want to check {1} in the MasterDex?
+Do you want to check {1} in the MasterDex?
 No items were given.
 No items were given.
 (Unimplemented)
@@ -10094,6 +9764,8 @@ ${1}
 {1}m
 Wild Pokémon don't give experience in Pokémon Tectonic.
 Wild Pokémon don't give experience in Pokémon Tectonic.
+Please don't kill too many Pokémon, or you'll be punished!
+Please don't kill too many Pokémon, or you'll be punished!
 If you encounter a Pokémon you don't want, run away. It's guaranteed!
 If you encounter a Pokémon you don't want, run away. It's guaranteed!
 For example, healing at a Pokémon Center triggers this.
@@ -10136,20 +9808,20 @@ A mystical Avatar Totem. You sense it has some purpose, long lost to time.
 A mystical Avatar Totem. You sense it has some purpose, long lost to time.
 \i[SPANNINGBAND]The Spanning Band glows in sync with the totem. You sense that some sort of connection has been created.
 \i[SPANNINGBAND]The Spanning Band glows in sync with the totem. You sense that some sort of connection has been created.
-You win a battle when all enemy Pokémon faint: reach 0 health points. You lose a battle if that happens to any of your Pokémon. Fainted Pokémon will revive in 7 turns.
-You win a battle when all enemy Pokémon faint: reach 0 health points. You lose a battle if that happens to any of your Pokémon. Fainted Pokémon will revive in 7 turns.
-Pokémon are healed after a trainer battlr. You can heal your Pokémon at PokéCenters between battles. You can often use the Aid Kit instead to save on traveling time.
-Pokémon are healed after a trainer battlr. You can heal your Pokémon at PokéCenters between battles. You can often use the Aid Kit instead to save on traveling time.
+You win a battle when all enemy Pokémon faint: reach 0 health points. You lose a battle if any of your Pokémon faints. Fainted Pokémon will revive in several turns.
+You win a battle when all enemy Pokémon faint: reach 0 health points. You lose a battle if any of your Pokémon faints. Fainted Pokémon will revive in several turns.
+Pokémon are healed after a trainer battle. You can heal your Pokémon at PokéCenters between battles. You can often use the Aid Kit instead to save on traveling time.
+Pokémon are healed after a trainer battle. You can heal your Pokémon at PokéCenters between battles. You can often use the Aid Kit instead to save on traveling time.
 Power Points, or PP, is a number which limits how many times a move can be used. Healing at a PokéCenter, after a trainer battle or with the Aid Kit restores PP.
 Power Points, or PP, is a number which limits how many times a move can be used. Healing at a PokéCenter, after a trainer battle or with the Aid Kit restores PP.
 The three main methods of acquiring Pokémon are using DexNav, catching them from the wild, and receiving them from other Trainers through gifts or trades.
 The three main methods of acquiring Pokémon are using DexNav, catching them from the wild, and receiving them from other Trainers through gifts or trades.
 Use the DexNav to get information on which Pokémon are available where you are.
 Use the DexNav to get information on which Pokémon are available where you are.
-Stat steps start at 0, and can increase up to +12 (4x) and down to -12 (.25x). Stat steps usually are reset if you swap the Pokémon out or it faints.
-Stat steps start at 0, and can increase up to +12 (4x) and down to -12 (.25x). Stat steps usually are reset if you swap the Pokémon out or it faints.
-Abilities are special powers that Pokémon can have based on their species. Most Pokémon can have 2 possible abilities. All abilities activate in battle or on field.
-Abilities are special powers that Pokémon can have based on their species. Most Pokémon can have 2 possible abilities. All abilities activate in battle or on field.
+Stat steps start at 0, and can increase up to +12 (4x) and down to -12 (.25x). Stat steps are usually reset if you swap the Pokémon out or it faints.
+Stat steps start at 0, and can increase up to +12 (4x) and down to -12 (.25x). Stat steps are usually reset if you swap the Pokémon out or it faints.
+Abilities are special powers that Pokémon can have based on their species. Most Pokémon can have 2 possible abilities. All abilities activate in battle or in the field.
+Abilities are special powers that Pokémon can have based on their species. Most Pokémon can have 2 possible abilities. All abilities activate in battle or in the field.
 Abilities do a wide variety of different things. Understanding your team's abilities is important to winning.
 Abilities do a wide variety of different things. Understanding your team's abilities is important to winning.
 Check your Pokémon's summary to see what main ability they have. Use the MasterDex to read about the abilities of enemy Pokémon during battle.
@@ -10162,24 +9834,28 @@ Waterlog
 Waterlog
 When waterlogged, a Pokémon's Speed is halved, and it takes 25% more attack damage. Water- and Dark-types do the most waterlogging. Water is immune.
 When waterlogged, a Pokémon's Speed is halved, and it takes 25% more attack damage. Water- and Dark-types do the most waterlogging. Water is immune.
+A critical hit deals 50% more damage than a regular hit. Certain moves are able to randomly critical hit.
+A critical hit deals 50% more damage than a regular hit. Certain moves are able to randomly critical hit.
+For moves that can random crit, the chance is 1/8. This chance can be raised by abilities, items, or special effects.
+For moves that can random crit, the chance is 1/8. This chance can be raised by abilities, items, or special effects.
 Certain abilities prevent critical hits against that Pokémon. The Lucky Chant effect and the Strategist tribe bonus also protect their side from critical hits.
 Certain abilities prevent critical hits against that Pokémon. The Lucky Chant effect and the Strategist tribe bonus also protect their side from critical hits.
 How to win?
 How to win?
-If you defeat a Trainer, but have not 'perfected' the fight, you've lost. Only a perfected fight counts a win. Use Switch frequently is the key to win, switching also heal the Pokémon 10% HP.
-If you defeat a Trainer, but have not 'perfected' the fight, you've lost. Only a perfected fight counts a win. Use Switch frequently is the key to win, switching also heal the Pokémon 10% HP.
+If you defeat a Trainer but have not 'perfected' the fight, it doesn't count as a win. Frequently using Switch is the key to winning, as switching also restores some HP.
+If you defeat a Trainer but have not 'perfected' the fight, it doesn't count as a win. Frequently using Switch is the key to winning, as switching also restores some HP.
 Avatars have at least two health bars, which means they have a lot of health. Much more than double the normal amount!
 Avatars have at least two health bars, which means they have a lot of health. Much more than double the normal amount!
 A targeting reticle shows which of your battlers the Avatar wants to attack. It will switch to another battler, however, if their attack is made impossible.
 A targeting reticle shows which of your battlers the Avatar wants to attack. It will switch to another battler, however, if their attack is made impossible.
 Used to exit, cancel a choice, and cancel a mode. While moving around, hold to move at a different speed. (Default: X)
 Used to exit, cancel a choice, and cancel a mode. While moving around, hold to move at a different speed. (Default: X)
-Has various functions depending on context. Also used to open the Pause Menu. (Default: Z)
-Has various functions depending on context. Also used to open the Pause Menu. (Default: Z)
-Press to speed up while in the overworld.
-Press to speed up while in the overworld.
-Opens the Key Bindings window, where you can choose which keyboard keys to use for each control.<<n>>(Please don't do that, it may cause bugs!)
-Opens the Key Bindings window, where you can choose which keyboard keys to use for each control.<<n>>(Please don't do that, it may cause bugs!)
+Has various functions depending on context. Also opens the Pause Menu. (Default: Z)
+Has various functions depending on context. Also opens the Pause Menu. (Default: Z)
+Press to speed up the game.
+Press to speed up the game.
+Opens the Key Bindings window, where you can choose which keyboard keys to use for each control.<<n>>Warning: Remapping controls may cause unexpected bugs!
+Opens the Key Bindings window, where you can choose which keyboard keys to use for each control.<<n>>Warning: Remapping controls may cause unexpected bugs!
 {1}'s main ability was changed to {2}.
 {1}'s main ability was changed to {2}.
 {1}'s ability now is <imp>{2}</imp>!
@@ -10546,6 +10222,10 @@ Field {1} is not a positive integer
 Field {1} is not a positive integer
 ???
 ???
+Apollyon
+Apollyon
+Snow Whip
+Snow Whip
 Deleting all data. Don't turn off the power.\wtnp[30]
 Deleting all data. Don't turn off the power.\wtnp[30]
 You have at least one file that can't delete and have error!
@@ -10730,6 +10410,8 @@ E
 <b>{1}</b> {2}
 <u>Evolutions</u>
 <u>Evolutions</u>
+Unknown Map
+Unknown Map
 {1}: {2} ({3}\%)
 {1}: {2} ({3}\%)
 Faster than #{fasterThanPercentOfMetaGame}% of final evos
@@ -11006,8 +10688,8 @@ Your Pokémon lose 10 levels for this fight. EXP goes to the Dispenser.
 Your Pokémon lose 10 levels for this fight. EXP goes to the Dispenser.
 Ought Not the Foxtrot to Triple Aught of What We Sought?
 Ought Not the Foxtrot to Triple Aught of What We Sought?
-Enemy Pokémon will have an extra ability!
-Enemy Pokémon will have an extra ability!
+Enemy Pokémon all have an extra ability!
+Enemy Pokémon all have an extra ability!
 Your Pokémon don't get extra damage on their same-type attacks.
 Your Pokémon don't get extra damage on their same-type attacks.
 Enemy Pokémon all have an extra item.
@@ -11034,6 +10716,34 @@ Neutral attacks against your Pokémon are instead Super Effective.
 Neutral attacks against your Pokémon are instead Super Effective.
 When enemy Pokémon faint, they deal a quarter of their HP as damage to their last attacker.
 When enemy Pokémon faint, they deal a quarter of their HP as damage to their last attacker.
+I chose a move!
+I chose a move!
+You chose a move!
+You chose a move!
+My Pokémon fainted!
+My Pokémon fainted!
+Your Pokémon fainted!
+Your Pokémon fainted!
+I sent out a Pokémon!
+I sent out a Pokémon!
+You sent out a Pokémon!
+You sent out a Pokémon!
+Wow, I've never seen that Pokémon before!
+Wow, I've never seen that Pokémon before!
+I'm gonna check my !
+I'm gonna check my !
+Bounsweet, it says. Playful, but a little dangerous!
+Bounsweet, it says. Playful, but a little dangerous!
+Numel, huh? Fire-type--hope I don't get burned!
+Numel, huh? Fire-type--hope I don't get burned!
+Krabby... a Water-type... with massive attack power, wow!
+Krabby... a Water-type... with massive attack power, wow!
+My Pokémon took move damage!
+My Pokémon took move damage!
+Your Pokémon took move damage!
+Your Pokémon took move damage!
+...!
+...!
 Healing
 Healing
 But {1} is already charged...
@@ -11076,12 +10786,12 @@ Battler index {1} already exists
 #{pkmn.name} is on a Hot Streak!
 It is storming.
 It is storming.
-You can skip the battle, and treat it as a win by FORFEIT!
-You can skip the battle, and treat it as a win by FORFEIT!
+You can skip the battle and treat it as a win by FORFEIT!
+You can skip the battle and treat it as a win by FORFEIT!
 You have to win the battle PERFECTLY, or you LOSE!
 You have to win the battle PERFECTLY, or you LOSE!
 Some of your Pokémon fainted in battle.
-<<n>> Some of your Pokémon fainted in battle.
+<<n>>Some of your Pokémon fainted in battle.
 You lost against {1}!{2}
 You lost against {1}!{2}
 You lost against {1} and {2}!{3}
@@ -11128,8 +10838,8 @@ layer
 3 layers
 {1} was zapped by the exposed wiring!
 {1} was zapped by the exposed wiring!
-You only can Switch, do you want to skip it?
-You only can Switch, do you want to skip it?
+You can only Switch. Do you want to skip?
+You can only Switch. Do you want to skip?
 You can't catch trainers' Pokémon!
 You can't catch trainers' Pokémon!
 Effect "#{effectData.name}" is not a defined effect.
@@ -11198,8 +10908,8 @@ Its Speed is halved, and it'll take more damage
 {1} is already waterlogged!
 {1} cannot be waterlogged!
 {1} cannot be waterlogged!
-It doesn't affect {1} since another Pokémon has the Status already!
-It doesn't affect {1} since another Pokémon has the Status already!
+It doesn't affect {1} because another Pokémon is already under this status!
+It doesn't affect {1} because another Pokémon is already under this status!
 {1} fell asleep! {2}!
 {1} fell asleep! {2}!
 {1} is waterlogged! {2}!
@@ -11224,6 +10934,8 @@ Battle effect #{@id} defines an entry proc when its not a position or side effec
 Battle effect #{@id} defines an entry proc when its not a position or side effect.
 Value #{name} cannot check if the value #{value} is active because its value #{value} is invalid}
 Value #{name} cannot check if the value #{value} is active because its value #{value} is invalid}
+Also, critical hits are now possible on all of {1}'s attacks!
+Also, critical hits are now possible on all of {1}'s attacks!
 {1} heard the Perish Song! It will take massive damage in {2} turns!
 {1} heard the Perish Song! It will take massive damage in {2} turns!
 {1} can't use blade-based moves for the next #{value - 1} turns!
@@ -11240,8 +10952,8 @@ The warped gravity was forced back to normal!
 The warped gravity was forced back to normal!
 An emotional area appeared! Everyone gets an ability every turn!
 An emotional area appeared! Everyone gets an ability every turn!
-{1} has a free turn!
-{1} has a free turn!
+{1} gets a free turn!
+{1} gets a free turn!
 The sea of fire on {1}'s side was sent away!
 The sea of fire on {1}'s side was sent away!
 The sea of fire on {1}'s side dissapeared.
@@ -11254,12 +10966,14 @@ The live wire near {1} was removed!
 {1} remembers its fears!
 {1} remembers its honor!
 {1} remembers its honor!
-The opposing {1} recovered all the way to full health!
-The opposing {1} recovered all the way to full health!
-{1} is coming back to life!
-{1} is coming back to life!
-The opposing {1} is coming back to life!
-The opposing {1} is coming back to life!
+{1} was restored to full health!
+{1} was restored to full health!
+The opposing {1} was restored to full health!
+The opposing {1} was restored to full health!
+{1} is reviving!
+{1} is reviving!
+The opposing {1} is reviving!
+The opposing {1} is reviving!
 {1}'s {2} reversed its waterlogging!
 {1}'s {2} reversed its waterlogging!
 {1} gets a new ability {2}!
@@ -11736,8 +11450,8 @@ Eggs can't be taught any moves.
 Eggs can't be taught any moves.
 {1} gained a Sweet-Tooth boosted {2} Exp. Points!
 {1} gained a Sweet-Tooth boosted {2} Exp. Points!
-You can't give {1} {2} since another Pokémon is holding the same item.
-You can't give {1} {2} since another Pokémon is holding the same item.
+You can't give {1} {2} because another Pokémon is holding the same item.
+You can't give {1} {2} because another Pokémon is holding the same item.
 Eggs can't hold items.
 Eggs can't hold items.
 Swap its items with the #{newitemname}?
@@ -11752,8 +11466,8 @@ Ability Capsule can't be used in Earthquake!
 Ability Capsule can't be used in Earthquake!
 Would you like to change {1}'s main ability to {2}?
 Would you like to change {1}'s main ability to {2}?
-{1}'s main ability changed to {2}!
-{1}'s main ability changed to {2}!
+{1}'s main ability has been changed to {2}!
+{1}'s main ability has been changed to {2}!
 Walk
 Walk
 The Tower
@@ -12030,20 +11744,18 @@ beach
 #{pokename} put the {1} away\<<n>>in the <icon=bagPocket{2}>\c<<[>>1<<]>>{3} Pocket\c<<[>>0<<]>>.
 Converting Pokémon overworlds {1}/{2}...
 Converting Pokémon overworlds {1}/{2}...
-Would you like to obtain all these Pokémon?
-Would you like to obtain all these Pokémon?
+Would you like to get all these Pokémon?
+Would you like to get all these Pokémon?
 Enjoy your new Pokémon!\me<<[>>Pkmn get<<]>>\wtnp<<[>>80<<]>><<1>>
 Enjoy your new Pokémon!\me<<[>>Pkmn get<<]>>\wtnp<<[>>80<<]>><<1>>
 You can't get any of these Pokémon!
 You can't get any of these Pokémon!
-Would you like to obtain a random Pokémon?
-Would you like to obtain a random Pokémon?
-You can't get anyone of these Pokémon!
-You can't get anyone of these Pokémon!
+Would you like to get a random Pokémon?
+Would you like to get a random Pokémon?
 This feature of the DexNav is unavailable during this minigame.
 This feature of the DexNav is unavailable during this minigame.
-Would you like to obtain this Pokémon?
-Would you like to obtain this Pokémon?
+Would you like to get this Pokémon?
+Would you like to get this Pokémon?
 You can't get this Pokémon! You already have one!
 You can't get this Pokémon! You already have one!
 Added #{highlightedSpeciesData.species}
@@ -12518,12 +12230,12 @@ Generate species changelogs of various types.
 Generate species changelogs of various types.
 Generate species changelog between ids
 Generate species changelog between ids
-See the changelog for each species between the Old and New Pokémon.txt files for a specific range of IDs.
-See the changelog for each species between the Old and New Pokémon.txt files for a specific range of IDs.
+See the changelog for each species between the Old and New pokemon.txt files for a specific range of IDs.
+See the changelog for each species between the Old and New pokemon.txt files for a specific range of IDs.
 Generate species changelog
 Generate species changelog
-See the changelog for each species between the Old and New Pokémon.txt files.
-See the changelog for each species between the Old and New Pokémon.txt files.
+See the changelog for each species between the Old and New pokemon.txt files.
+See the changelog for each species between the Old and New pokemon.txt files.
 Generate changelog per generation
 Generate changelog per generation
 Generate a species changelog per generation of Pokémon
@@ -13370,6 +13082,108 @@ Little Cup
 Little Cup
 Light Cup
 Light Cup
+It's open to a battling guide written by someone with the username "apolLyon."
+It's open to a battling guide written by someone with the username "apolLyon."
+1.1 Roles/Cores
+1.1 Roles/Cores
+2.1 Leads
+2.1 Leads
+3.2 Hazards
+3.2 Hazards
+Which entry would you like to read?
+Which entry would you like to read?
+Everything on your team needs a point. Every Pokémon needs a purpose.
+Everything on your team needs a point. Every Pokémon needs a purpose.
+If you can't sum up its role on your team in a sentence, keep it in the PC.
+If you can't sum up its role on your team in a sentence, keep it in the PC.
+Every bit of that Pokémon should reinforce its role. Moves, items, everything.
+Every bit of that Pokémon should reinforce its role. Moves, items, everything.
+All six Pokémon on your team need a role, narrow or broad.
+All six Pokémon on your team need a role, narrow or broad.
+Two Pokémon with synergistic roles are called a "core."
+Two Pokémon with synergistic roles are called a "core."
+If the two of them can take hits from a whole bunch of things, that's a defensive core.
+If the two of them can take hits from a whole bunch of things, that's a defensive core.
+If together they threaten lots of Pokémon and deal with each others' counters, that's an offensive core.
+If together they threaten lots of Pokémon and deal with each others' counters, that's an offensive core.
+Combine both and you have a balanced core. Good cores make for powerful teams.
+Combine both and you have a balanced core. Good cores make for powerful teams.
+You don't need them, but they're a surefire way to give your team some bite.
+You don't need them, but they're a surefire way to give your team some bite.
+The Pokémon you start a fight with is your "lead."
+The Pokémon you start a fight with is your "lead."
+Start every fight with it and it's a "dedicated lead." Make it a good one.
+Start every fight with it and it's a "dedicated lead." Make it a good one.
+Its job is to kick things off in your favor from round one.
+Its job is to kick things off in your favor from round one.
+Usually that's by vomiting up a whole bunch of hazards. Sometimes it sets screens and explodes.
+Usually that's by vomiting up a whole bunch of hazards. Sometimes it sets screens and explodes.
+A few just try to delete whatever's on the other side, usually with short-term power boosts like Gems.
+A few just try to delete whatever's on the other side, usually with short-term power boosts like Gems.
+Speaking of which, your opponent is going to have their own lead.
+Speaking of which, your opponent is going to have their own lead.
+Stop it. Taunt it, put it to sleep, or put it in the ground.
+Stop it. Taunt it, put it to sleep, or put it in the ground.
+The arena is going to very rapidly fill up with nasty pointy things.
+The arena is going to very rapidly fill up with nasty pointy things.
+That's because wasting a turn setting them up in the short term pays off big in the long term when they chew up a few Pokémon worth of health over the course of the match.
+That's because wasting a turn setting them up in the short term pays off big in the long term when they chew up a few Pokémon worth of health over the course of the match.
+If you like being alive, pack something that can clean up hazards – Defog, Terraform, or Rapid Spin, usually.
+If you like being alive, pack something that can clean up hazards – Defog, Terraform, or Rapid Spin, usually.
+Stealth Rocks are the most common hazard, so prioritize hazard removal if you've got lots of Rock-weak Pokémon.
+Stealth Rocks are the most common hazard, so prioritize hazard removal if you've got lots of Rock-weak Pokémon.
+Remember: if your favorite little gremlin is switching out nine times a match or is cripplingly weak to funny pebbles, put Heavy-Duty Boots on it.
+Remember: if your favorite little gremlin is switching out nine times a match or is cripplingly weak to funny pebbles, put Heavy-Duty Boots on it.
+They're cute and effective.
+They're cute and effective.
+You exit the PC.
+You exit the PC.
+It's open to a battling guide written by someone with the username "snowwhip401."
+It's open to a battling guide written by someone with the username "snowwhip401."
+Even keel
+Even keel
+Best foot forward
+Best foot forward
+Rolling with the punches
+Rolling with the punches
+All the little pieces of your team need their own role.
+All the little pieces of your team need their own role.
+Use whatever you want; just ensure that it's got something to do and the best odds of doing it.
+Use whatever you want; just ensure that it's got something to do and the best odds of doing it.
+Give bulky Pokémon Leftovers and healing moves.
+Give bulky Pokémon Leftovers and healing moves.
+Give strong, slow Pokémon Focus Sashes, Vests, or ways to speed up.
+Give strong, slow Pokémon Focus Sashes, Vests, or ways to speed up.
+You get the idea.
+You get the idea.
+If you can, try to have all kinds of Pokémon on your team, so you have answers to anything.
+If you can, try to have all kinds of Pokémon on your team, so you have answers to anything.
+Physical and special bulk and power, type matchups, speed profiles – a diverse team is a diverse toolbox.
+Physical and special bulk and power, type matchups, speed profiles – a diverse team is a diverse toolbox.
+Send out the Pokémon that helps everything else on your team first.
+Send out the Pokémon that helps everything else on your team first.
+If you have a weather or a Room to set up, get to it.
+If you have a weather or a Room to set up, get to it.
+If you don't have a clear, clean gameplan, ruin your opponent's.
+If you don't have a clear, clean gameplan, ruin your opponent's.
+A dedicated lead's worst fear is usually a strong multi-hitting move. Neither Sturdy nor Sash can help them there.
+A dedicated lead's worst fear is usually a strong multi-hitting move. Neither Sturdy nor Sash can help them there.
+As opposed to simply trading hazards, outspeeding and KOing a lead before it gets going can give you an early advantage.
+As opposed to simply trading hazards, outspeeding and KOing a lead before it gets going can give you an early advantage.
+Each Pokémon's utility is defined by the opponent.
+Each Pokémon's utility is defined by the opponent.
+If your opponent has several Fire-type Pokémon, your Primarina is far more valuable.
+If your opponent has several Fire-type Pokémon, your Primarina is far more valuable.
+Conserve its health and leverage its power.
+Conserve its health and leverage its power.
+In the same match, an Aegislash may be far less valuable – be willing to sacrifice it.
+In the same match, an Aegislash may be far less valuable – be willing to sacrifice it.
+There's no shame in letting a Pokémon fall in order to get a safe switch to another.
+There's no shame in letting a Pokémon fall in order to get a safe switch to another.
+While they may seem drastic, moves such as Healing Wish or Explosion can turn the tide of a match in a single turn.
+While they may seem drastic, moves such as Healing Wish or Explosion can turn the tide of a match in a single turn.
+Fainting the user can, if used with finesse, be an advantage – think of them as the ultimate U-Turn.
+Fainting the user can, if used with finesse, be an advantage – think of them as the ultimate U-Turn.
 \wm\ss<i>{1}</i>
 \wm\ss<i>{1}</i>
 At the end of each turn, it heals Pokémon on its side by 1/8th of their max HP.
@@ -13446,26 +13260,26 @@ Failed to reload: An error occurred.<<n>>({1})
 Failed to reload: An error occurred.<<n>>({1})
 Enter Debug Password.
 Enter Debug Password.
-This mod is created by Fanfan.<<n>>If you paid for it, you've been duped!
-This mod is created by Fanfan.<<n>>If you paid for it, you've been duped!
-Have a good one!
-Have a good one!
-Did you download the game from the official source?
-Did you download the game from the official source?
-Please enter the forum where you downloaded the game. (Website or QQ group)
-Please enter the forum where you downloaded the game. (Website or QQ group)
-Enter the right source.
-Enter the right source.
-Would you like to re-download the game from the official source?
-Would you like to re-download the game from the official source?
+This mod was created by Fanfan.<<n>>If you paid for it, you've been duped!
+This mod was created by Fanfan.<<n>>If you paid for it, you've been duped!
+Have a good run!
+Have a good run!
+Did you download the game from the official post?
+Did you download the game from the official post?
+Please enter the post where you downloaded the game. (Website or QQ group)
+Please enter the post where you downloaded the game. (Website or QQ group)
+Enter the right post.
+Enter the right post.
+Would you like to re-download the game from the official post?
+Would you like to re-download the game from the official post?
 {1} cannot have any status!
 {1} cannot have any status!
-Enter a gift code.
-Enter a gift code.
+Enter a code.
+Enter a code.
 The code has been used!
 The code has been used!
-Please enter a valid gift code!
-Please enter a valid gift code!
+Please enter a valid code!
+Please enter a valid code!
 The Pokémon don't have any abilities.
 The Pokémon don't have any abilities.
 Ability: {1}
@@ -13494,8 +13308,8 @@ Shot Team
 Shot Team
 Switch Team
 Switch Team
-You don't have any teamshots in Team Switcher!
-You don't have any teamshots in Team Switcher!
+You don't have any teamshots in the Team Switcher!
+You don't have any teamshots in the Team Switcher!
 Which team would you like to check?
 Which team would you like to check?
 Sorry, unfinished yet!
@@ -13516,16 +13330,16 @@ Do you really want to delete it?
 Do you really want to delete it?
 This team has been deleted!
 This team has been deleted!
-There isn't any Pokémon in Time Capsule!
-There isn't any Pokémon in Time Capsule!
+There isn't any Pokémon in the Time Capsule!
+There isn't any Pokémon in the Time Capsule!
 Which Pokémon would you like to retrieve?
 Which Pokémon would you like to retrieve?
-Do you want to put {1} in Time Capsule?
-Do you want to put {1} in Time Capsule?
-{1} is now in Time Capsule!
-{1} is now in Time Capsule!
-Do you want to add the opponent team into Battle Loader?
-Do you want to add the opponent team into Battle Loader?
+Do you want to put {1} in the Time Capsule?
+Do you want to put {1} in the Time Capsule?
+{1} is in the Time Capsule now!
+{1} is in the Time Capsule now!
+Do you want to add the opposing team to the Battle Loader?
+Do you want to add the opposing team to the Battle Loader?
 Which battle rule do you want to use?
 Which battle rule do you want to use?
 Would you like to give it a name?
@@ -13534,16 +13348,16 @@ Which default name do you want to use?
 Which default name do you want to use?
 The team has been registered!
 The team has been registered!
-You can't start a battle now since you don't have any Pokémon!
-You can't start a battle now since you don't have any Pokémon!
+You can't start a battle now because you don't have any Pokémon!
+You can't start a battle now because you don't have any Pokémon!
 Export Team
 Export Team
 Check Stats
 Check Stats
 Your Victory count is {1}!<<n>>Your Lost count is {2}!
 Your Victory count is {1}!<<n>>Your Lost count is {2}!
-There aren't any teams in Battle Loader!
-There aren't any teams in Battle Loader!
+There aren't any teams in the Battle Loader!
+There aren't any teams in the Battle Loader!
 Team
 Team
 Random Team
@@ -13558,12 +13372,10 @@ Which battle rule do you want?
 Which battle rule do you want?
 Your team has been exported!
 Your team has been exported!
-There isn't any teams in Battle Loader!
-There isn't any teams in Battle Loader!
 Team {1} has been deleted!
 Team {1} has been deleted!
-An error occurred.<<n>>Please, try again!
-An error occurred.<<n>>Please, try again!
+An error occurred.<<n>>Please try again!
+An error occurred.<<n>>Please try again!
 Do you want to take a Pokémon from the opposing party?
 Do you want to take a Pokémon from the opposing party?
 Which Pokémon do you want to take?
@@ -13594,12 +13406,12 @@ ItemDex (Search: Z)
 ItemDex (Search: Z)
 TM Machine
 TM Machine
-The whole TMs.
-The whole TMs.
+TMs.
+TMs.
 Held Item
 Held Item
-The whole items that can be held.
-The whole items that can be held.
+Items that can be held.
+Items that can be held.
 Berry
 Berry
 Berries that can be held.
@@ -13652,8 +13464,14 @@ Sorry, you got it wrong!
 1111111
 2222222
 2222222
-Upon entry, creates an Emotion Room for five turns, adding Ability every turn.
-Upon entry, creates an Emotion Room for five turns, adding Ability every turn.
+Upon entry, creates an Emotion Room for five turns, adding an ability every turn.
+Upon entry, creates an Emotion Room for five turns, adding an ability every turn.
+Copies opponents' species' legal Abilities.
+Copies opponents' species' legal Abilities.
+,
+, 
+and
+ and 
 {1} change to {2} type!
 {1} change to {2} type!
 {1} has been removed!
@@ -14270,13 +14088,28 @@ Pokémon World Championships National Champion Ribbon.
 Pokémon World Championships World Champion Ribbon.
 Pokémon World Championships World Champion Ribbon.
 [27]
+22
+Test Tribe
+Test Tribe
 [28]
+22
+This tribe exists to test the PBS extensions system
+This tribe exists to test the PBS extensions system
 [29]
+137
+Test Trait
+Test Trait
 [30]
 248
 ASMR
 ASMR
+299
+Debugging
+Debugging
 [31]
+106
+Code Errors
+Code Errors
 [32]
 Beak Blast
 Beak Blast

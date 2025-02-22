@@ -580,7 +580,6 @@ module PluginManager
     end
     # ensure no duplicate script files are queued
     meta[:pbs_extensions].uniq!
-    
     # Register the graphics extension folders if they exist
     meta[:graphics_extensions] = [] if !meta[:graphics_extensions]
     graphicsDirFilePath = "#{dir}/Graphics"

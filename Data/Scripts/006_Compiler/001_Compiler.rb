@@ -822,7 +822,8 @@ module Compiler
             "trainers.dat",
             "types.dat",
             "policies.dat",
-            "avatars.dat"
+            "avatars.dat",
+            "tribes.dat"
         ]
       end
       
@@ -851,6 +852,10 @@ module Compiler
             "policies.txt",
             "avatars.txt",
             "achievements.txt",
+            "tribes.txt",
+            "traits.txt",
+            "likes.txt",
+            "dislikes.txt"
         ]
     end
   
