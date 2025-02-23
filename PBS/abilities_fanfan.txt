@@ -29,26 +29,31 @@ Name = Bioengineering
 Description = The Pokémon will transform into a member of its family based on the move it is about to use.
 Flags = Immutable
 #-------------------------------
-[RELENTLESSPURSUIT] # 0691
+[CHRONOREWIND] # 0691
+Name = Chrono Rewind
+Description = When the Pokémon faints, it rewinds itself to 3 turns ago.
+Flags = Test
+#-------------------------------
+[RELENTLESSPURSUIT] # 0692
 Name = Relentless Pursuit
 Description = Attacks switching opponents with Pursuit.
 #-------------------------------
-[SEVENTYTWOTRANSFORMATIONS] # 0692
+[SEVENTYTWOTRANSFORMATIONS] # 0693
 Name = 72 Transformations
 Description = Changes to a random Pokémon at the end of each turn.
 Flags = Unassigned
 #-------------------------------
-[TEMPORALSHIFT] # 0693
+[TEMPORALSHIFT] # 0694
 Name = Temporal Shift
 Description = Can switch out of battle without wasting a turn.
 Flags = Unassigned
 #-------------------------------
-[TIDEWEAVERSREVERSAL] # 0694
+[TIDEWEAVERSREVERSAL] # 0695
 Name = Tideweaver's Reversal
 Description = Turns rainstorm into Harsh Sunlight, sunshine into Heavy Rain.
 Flags = Unassigned
 #-------------------------------
-[UNWAVERINGVALOR] # 0695
+[UNWAVERINGVALOR] # 0696
 Name = Unwavering Valor
 Description = Stats that the Pokémon raises remain raised even after switching.
 Flags = Unassigned

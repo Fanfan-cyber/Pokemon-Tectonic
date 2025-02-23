@@ -1,32 +1,26 @@
 class Array
-  # 为sample添加了别名
-  alias random sample
+  alias_method :random, :sample
+  alias_method :choose, :values_at
+  alias_method :drop_first, :drop
 
-  # 为values_at添加了别名
-  alias choose values_at
-
-  # 检查数组是否是数字数组
   def number?
     all? { |element| element.is_a?(Numeric) }
   end
 
-  # 检查数组里面是否包含数组
   def nested?
     any? { |element| element.is_a?(Array) }
   end
 
-  # 检查数组里面是否不包含数组
   def pure?
     none? { |element| element.is_a?(Array) }
   end
 
-  # 检查数组中是否有重复的元素
   def dup?
     length != uniq.length
   end
 
-  # 返回不包括最后n个元素的新数组
   def drop_last(n = 1)
+    return self if n <= 0
     self[0..-(n + 1)]
   end
 

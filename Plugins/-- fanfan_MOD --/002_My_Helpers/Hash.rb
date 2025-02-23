@@ -1,9 +1,4 @@
 class Hash
-  # 哈希视为非数字
-  def number?
-    false
-  end
-
   # 选择哈希中的一个或者多个键值对
   def choose(*keys)
     flattened_keys = keys.flatten
