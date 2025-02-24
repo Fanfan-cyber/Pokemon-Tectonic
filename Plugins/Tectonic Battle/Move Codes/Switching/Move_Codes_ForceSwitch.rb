@@ -8,7 +8,7 @@ class PokeBattle_Move_SwitchOutTargetStatusMove < PokeBattle_Move
     def ignoresSubstitute?(_user); return true; end
 
     def pbFailsAgainstTarget?(user, target, show_message)
-        if target.effectActive?(:Ingrain)
+        if target.effectActive?(:Ingrain) || target.effectActive?(:EvilRoots)
             @battle.pbDisplay(_INTL("{1} anchored itself with its roots!", target.pbThis)) if show_message
             return true
         end

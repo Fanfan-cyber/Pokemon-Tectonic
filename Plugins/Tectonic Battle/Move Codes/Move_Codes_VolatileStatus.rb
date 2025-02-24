@@ -551,23 +551,13 @@ class PokeBattle_Move_NumbTargetOrCurseIfNumb < PokeBattle_Move
 end
 
 #===============================================================================
-# User cuts its own HP by 25% to curse all foes and also to set Ingrain. (Cursed Roots)
+# User applies a evil version of Ingrain. (Evil Roots)
 #===============================================================================
-class PokeBattle_Move_CurseAllFoesUserPaysQuarterOfTotalHPStartsIngrain < PokeBattle_Move_StartHealUserEachTurnTrapUser
+class PokeBattle_Move_StartsCursedIngrain < PokeBattle_Move_StartHealUserEachTurnTrapUser
     def pbMoveFailed?(user, _targets, show_message)
-        if user.hp <= (user.totalhp / 4)
-            @battle.pbDisplay(_INTL("But it failed, since #{user.pbThis(true)}'s HP is too low!")) if show_message
-            return true
-        end
-        allCursed = true
-        user.eachOpposing do |b|
-            next if b.effectActive?(:Curse)
-            allCursed = false
-            break
-        end
-        if user.effectActive?(:Ingrain) && allCursed
+        if user.effectActive?(:Ingrain) || user.effectActive?(:EvilRoots)
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{user.pbThis(true)}'s roots are already planted and all foes are already cursed!"))
+                @battle.pbDisplay(_INTL("But it failed, since #{user.pbThis(true)}'s roots are already planted!"))
             end
             return true
         end
@@ -575,20 +565,12 @@ class PokeBattle_Move_CurseAllFoesUserPaysQuarterOfTotalHPStartsIngrain < PokeBa
     end
 
     def pbEffectGeneral(user)
-        @battle.pbDisplay(_INTL("{1} cut its own HP!", user.pbThis))
-        user.applyFractionalDamage(1.0 / 4.0, false)
-
-        user.eachOpposing do |b|
-            next if b.effectActive?(:Curse)
-            b.applyEffect(:Curse)
-        end
-
-        super
+        user.applyEffect(:EvilRoots)
     end
 
     def getEffectScore(user, _target)
         score = super
-        score += getHPLossEffectScore(user, 0.25)
+        score += 60
         return score
     end
 end

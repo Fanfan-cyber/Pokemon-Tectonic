@@ -221,7 +221,7 @@ end
 #===============================================================================
 class PokeBattle_Move_StartHealUserEachTurnTrapUser < PokeBattle_Move
     def pbMoveFailed?(user, _targets, show_message)
-        if user.effectActive?(:Ingrain)
+        if user.effectActive?(:Ingrain) || user.effectActive?(:EvilRoots)
             if show_message
                 @battle.pbDisplay(_INTL("But it failed, since #{user.pbThis(true)}'s roots are already planted!"))
             end

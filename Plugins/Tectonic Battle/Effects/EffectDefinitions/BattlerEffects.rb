@@ -511,7 +511,7 @@ GameData::BattleEffect.register_effect(:Battler, {
 })
 
 def ingrainHealingFraction(battler)
-    fraction = 1.0 / 6.0
+    fraction = 1.0 / 8.0
     fraction *= 1.3 if battler.hasActiveItem?(:BIGROOT)
     return fraction
 end
@@ -529,6 +529,28 @@ GameData::BattleEffect.register_effect(:Battler, {
         fraction = ingrainHealingFraction(battler)
         healMessage = _INTL("{1} absorbed nutrients with its roots!", battler.pbThis)
         battler.applyFractionalHealing(fraction, customMessage: healMessage)
+    end,
+})
+
+GameData::BattleEffect.register_effect(:Battler, {
+    :id => :EvilRoots,
+    :real_name => "Evil Roots",
+    :baton_passed => true,
+    :trapping => true,
+    :apply_proc => proc do |battle, battler, _value|
+        battle.pbDisplay(_INTL("{1} firmly planted its evil roots! It can't be moved!", battler.pbThis))
+        battle.pbDisplay(_INTL("The evil roots will sap foe health each turn!", battler.pbThis))
+    end,
+    :eor_proc => proc do |_battle, battler, _value|
+        next unless battler.canHeal?
+
+        battler.eachOpposing do |b|
+            if b.takesIndirectDamage?(true)
+                battle.pbDisplay(_INTL("{1} is sapped by the evil roots!", b.pbThis))
+                damageDealt = b.applyFractionalDamage(1.0 / 8.0, false)
+                battler.pbRecoverHPFromDrain(damageDealt, b)
+            end 
+        end
     end,
 })
 

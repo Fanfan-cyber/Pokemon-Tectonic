@@ -1959,16 +1959,16 @@ Flags = CanProtect,CanMirrorMove
 EffectChance = 100
 Description = Attacks with an acidic liquid created from tart apples. Lowers the target's Sp. Def stat.
 #-------------------------------
-[CURSEDROOTS]
-Name = Cursed Roots
+[FORESTSCURSE]
+Name = Forest's Curse
 Type = GRASS
 Category = Status
-Accuracy = 0
+Accuracy = 100
 TotalPP = 15
-Target = User
+Target = NearOther
 FunctionCode = Invalid
-Flags = CanSnatch
-Description = The user spends 25% HP to lay down evil roots. This curses all foes. The user becomes trapped, but heals by 1/8th HP every turn.
+Flags = CanProtect,CanMagicCoat,CanMirrorMove
+Description = The user puts a forest curse on the target. The target is now Grass type as well.
 #-------------------------------
 [GRASSWHISTLE]
 Name = Grass Whistle
@@ -2209,6 +2209,19 @@ Target = BothSides
 Priority = 1
 FunctionCode = Invalid
 Description = The user disperses electrically charged particles. Normal-type moves become Electric-type.
+#-------------------------------
+[LIGHTNINGSPEAR]
+Name = Lightning Spear
+Type = ELECTRIC
+Category = Special
+Power = 90
+Accuracy = 100
+TotalPP = 12
+Target = NearOther
+FunctionCode = Invalid
+Flags = CanProtect,CanMirrorMove
+Description = Shoots a damaging spear at enemies, or a 4-step Speed-increasing electric charge at allies.
+Animation = THUNDERBOLT
 #-------------------------------
 [MAGNETICFLUX]
 Name = Magnetic Flux

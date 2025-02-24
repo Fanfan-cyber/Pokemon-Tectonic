@@ -283,7 +283,7 @@ class PokeBattle_Move
                 next if b.damageState.unaffected
             end
             next if switchedBattlers.include?(b.index)
-            next if b.effectActive?(:Ingrain)
+            next if b.effectActive?(:Ingrain) || b.effectActive?(:EvilRoots)
             next if substituteBlocks && b.damageState.substitute
             next unless @battle.pbCanChooseNonActive?(b.index)
             @battle.pbShowAbilitySplash(user, ability) if ability

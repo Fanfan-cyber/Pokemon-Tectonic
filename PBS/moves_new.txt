@@ -4620,6 +4620,17 @@ FunctionCode = UserTakesHalfDamageThisTurnLeechAttackers
 Description = Halves attack damage taken this turn. Leeches any attackers. Fails if used successively.
 Animation = VINEBIND
 #-------------------------------
+[ROOTSOFEVIL]
+Name = Roots of Evil
+Type = GRASS
+Category = Status
+Accuracy = 0
+TotalPP = 8
+Target = User
+FunctionCode = StartsCursedIngrain
+Flags = CanSnatch
+Description = Lays roots that heal the user by absorbing 1/8th HP from foes each turn. The user becomes trapped.
+#-------------------------------
 [ROOTWRACK]
 Name = Rootwrack
 Type = GRASS
@@ -4774,6 +4785,20 @@ Flags = CanProtect,CanMirrorMove
 EffectChance = 100
 Description = For the rest of the round, the target's healing is reversed. Always goes first.
 Animation = SPARK
+#-------------------------------
+[BEAMSTRUGGLE]
+Name = Beam Struggle
+Type = ELECTRIC
+Category = Special
+Power = 95
+Accuracy = 100
+TotalPP = 12
+Target = NearOther
+FunctionCode = TargetsSpAtkDefends
+Flags = CanProtect,CanMirrorMove
+EffectChance = 20
+Description = The user and the target pit their energy against one another. The damage is based on the target's Sp. Atk rather than their Sp. Def.
+Animation = HYPERBEAM
 #-------------------------------
 [CAPACITYBURST]
 Name = Capacity Burst
@@ -4943,19 +4968,6 @@ Flags = CanProtect,CanMirrorMove
 EffectChance = 10
 Description = The user slams down into the target with electricity. It has a 10% chance to numb.
 Animation = SPARK
-#-------------------------------
-[LIGHTNINGSPEAR]
-Name = Lightning Spear
-Type = ELECTRIC
-Category = Special
-Power = 90
-Accuracy = 100
-TotalPP = 12
-Target = NearOther
-FunctionCode = RaiseAllySpd4OrDamageFoe
-Flags = CanProtect,CanMirrorMove
-Description = Shoots a damaging spear at enemies, or a 4-step Speed-increasing electric charge at allies.
-Animation = THUNDERBOLT
 #-------------------------------
 [LIVEWIRE]
 Name = Live Wire

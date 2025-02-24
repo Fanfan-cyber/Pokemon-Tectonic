@@ -25,6 +25,8 @@ POOL_2 = [
 
 CHAMPION = [:TRAINER_Zain,"Zain",2,3,11]
 
+FINAL_ROUND = 5
+
 class RandomTournament
     attr_reader :matches
     attr_reader :matchesWon
@@ -109,7 +111,7 @@ class RandomTournament
     end
 
     def tournamentWon?
-        return @matchesWon >= 5
+        return @matchesWon >= FINAL_ROUND
     end
 
     def tournamentActive?
@@ -197,8 +199,8 @@ def displayCurrentOdds()
 end
 
 def displayRoundOdds(round)
-    return if round < 1 || round > 6
-    if round == 6
+    return if round < 1 || round > FINAL_ROUND
+    if round == FINAL_ROUND
         pbMessage(_INTL("Odds are displayed for the grand final, gathered from a spectator poll."))
         pbMessage(_INTL("Only 20 percent of respondents expect you to win against your brother."))
     else

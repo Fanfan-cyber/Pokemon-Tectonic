@@ -817,7 +817,7 @@ def predictedEOTHealing(battle,battler)
 
     # Aqua Ring, Ingrain
     healing += battler.getFractionalHealingAmount(aquaRingHealingFraction(battler)) if battler.effectActive?(:AquaRing)
-    healing += battler.getFractionalHealingAmount(ingrainHealingFraction(battler)) if battler.effectActive?(:Ingrain)
+    healing += battler.getFractionalHealingAmount(ingrainHealingFraction(battler)) if battler.effectActive?(:Ingrain) || battler.effectActive?(:EvilRoots)
     
     # Wish
     if battler.position.effectActive?(:Wish) && battler.position.effects[:Wish] == 1

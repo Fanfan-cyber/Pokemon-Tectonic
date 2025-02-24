@@ -4477,17 +4477,6 @@ Flags = CanProtect,CanMirrorMove
 EffectChance = 100
 Description = The user controls the drum's roots to attack the target. This also lowers the target's Speed stat by two steps.
 #-------------------------------
-[FORESTSCURSE]
-Name = Forest's Curse
-Type = GRASS
-Category = Status
-Accuracy = 100
-TotalPP = 15
-Target = NearOther
-FunctionCode = AddGrassTypeToTarget
-Flags = CanProtect,CanMagicCoat,CanMirrorMove
-Description = The user puts a forest curse on the target. The target is now Grass type as well.
-#-------------------------------
 [FRENZYPLANT]
 Name = Frenzy Plant
 Type = GRASS

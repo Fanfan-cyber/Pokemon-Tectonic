@@ -5,7 +5,7 @@ class PokeBattle_Move_StartUserAirborne5 < PokeBattle_Move
     def unusableInGravity?; return true; end
 
     def pbMoveFailed?(user, _targets, show_message)
-        if user.effectActive?(:Ingrain)
+        if user.effectActive?(:Ingrain) || user.effectActive?(:EvilRoots)
             if show_message
                 @battle.pbDisplay(_INTL("But it failed, since #{user.pbThis(true)}'s roots keep it stuck in the ground!"))
             end
