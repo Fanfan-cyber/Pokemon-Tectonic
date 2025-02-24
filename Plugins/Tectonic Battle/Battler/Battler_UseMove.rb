@@ -381,6 +381,17 @@ class PokeBattle_Battler
             return
         end
 
+        # Forced Engagement
+        if user.hasActiveAbility?(:FORCEDENGAGEMENT) && @battle.trainerBattle? && user.forced_engagement && user.forced_engagement >= 0
+            current_target = targets[0]
+            if current_target && current_target.pokemonIndex != user.forced_engagement
+                @battle.pbShowAbilitySplash(user, :FORCEDENGAGEMENT)
+                @battle.pbDisplay(_INTL("{1} was forced into battle!", @battle.pbThisEx(current_target.index, user.forced_engagement)))
+                @battle.pbHideAbilitySplash(user)
+                @battle.pbRecallAndReplace(current_target.index, user.forced_engagement)
+            end
+        end
+
         # Perform set-up actions
         move.pbOnStartUse(user, targets)
 

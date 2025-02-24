@@ -195,6 +195,8 @@ class PokeBattle_AI
                 stayInRating += 5 if has_relentless_pursuit
                 PBDebug.log("[STAY-IN RATING] #{battler.pbThis} (#{battler.index}) has an opponent that can target it with pursuit (#{pursuitScore.to_change})")
             end
+
+            stayInRating += 15 if b.hasActiveAbilityAI?(:FORCEDENGAGEMENT)
         end
 
         # Less likely to switch when has perrenial payload
