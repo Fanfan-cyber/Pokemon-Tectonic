@@ -93,7 +93,6 @@ module TA
     end
   end
 
-  # 可允许被随机获得的精灵的精灵池
   BLACK_LIST_PKMN = []
   @@pkmn_pool = []
   def self.all_available_species
@@ -108,7 +107,6 @@ module TA
     @@pkmn_pool
   end
 
-  # 可允许被随机获得的特性的特性池
   BLACK_LIST_ABILS = []
   @@abils_pool = []
   def self.all_available_abilities
@@ -123,7 +121,6 @@ module TA
     @@abils_pool
   end
 
-  # 从特性库中随机选择一个特性
   def self.choose_random_ability(pkmn_battler = nil)
     return if pkmn_battler && pkmn_battler.has_all_abils?
     loop do
@@ -133,7 +130,6 @@ module TA
     end
   end
 
-  # 从玩家队伍的所有物种特性中随机选择一个特性
   def self.choose_random_ability_from_player(pkmn_battler = nil)
     abilis_pool = []
     each_party_pkmn do |pkmn|
@@ -150,7 +146,6 @@ module TA
     abilis_pool.sample
   end
 
-  # 应用正态分布获取随机数
   def self.gaussian(mean, standard_deviation)
     loop do
       z = Math.sqrt(-2.0 * Math.log(rand)) * Math.cos(2.0 * Math::PI * rand)
@@ -161,7 +156,6 @@ module TA
     end
   end
 
-  # 导出技能的动画列表
   def self.export_move_anim_list
     list = pbLoadBattleAnimations
     all_entries = ""
@@ -172,7 +166,6 @@ module TA
     file.close
   end
 
-  # 导出Script的代码到txt
   def self.write_all_scripts_in_txt
     path = "Outputs/"
     Dir.mkdir(path) rescue nil
@@ -192,7 +185,6 @@ module TA
     }
   end
 
-  # 导出Plugin的代码到txt
   def self.write_all_plugins_in_txt(encrypted = false)
     path = "Outputs/"
     Dir.mkdir(path) rescue nil
@@ -223,7 +215,6 @@ module TA
   @@plugin_counter = 1
   @@script_counter = 1
 
-  # 导出Plugin的代码
   def self.write_all_plugins(encrypted = false)
     path = "Outputs/"
     Dir.mkdir(path) rescue nil
@@ -262,7 +253,6 @@ module TA
     "#==============================================================================="
   end
 
-  # 快速获取颜色
   def self.get_color(key = :BLACK, opacity = 255)
     color = {
       # Grayscale

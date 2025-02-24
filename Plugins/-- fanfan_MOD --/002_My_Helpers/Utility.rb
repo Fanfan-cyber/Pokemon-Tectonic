@@ -1,24 +1,19 @@
-# 获取当前游戏使用的语言
 def get_language
   Settings::LANGUAGES[$Options.language || 0][0]
 end
 
-# 检查游戏当前使用的语言是否为简体中文
 def is_chinese?
   Settings::LANGUAGES[$Options.language || 0][0] == "Simplified Chinese"
 end
 
-# 检查队伍是否有携带重复物品
 def party_dup_item?
   $Trainer&.party_dup_item?
 end
 
-# 检查队伍中是否有某个精灵
 def has_species_party?(species, form = -1)
   $Trainer&.has_species?(species, form)
 end
 
-# 检查电脑中是否有某个精灵
 def has_species_pc?(species, form = -1)
   pbEachPokemon do |pkmn, _box|
     return true if pkmn.isSpecies?(species) && (form < 0 || pkmn.form == form)
@@ -26,27 +21,22 @@ def has_species_pc?(species, form = -1)
   return false
 end
 
-# 检查队伍和电脑中是否有某个精灵
 def has_species?(species, form = -1)
   has_species_party?(species, form) || has_species_pc?(species, form)
 end
 
-# 获取队伍中某只精灵的索引
 def pbGetPartyIndex(species, form = 0)
   $Trainer&.pbGetPartyIndex(species, form)
 end
 
-# 获取队伍中的某只精灵
 def pbGetPartyPokemon(index)
   $Trainer&.party[index]
 end
 
-# 把队伍中的某只精灵移动到另一个位置
 def pbSwapPartyPosition(species, new_index = 0, form = 0)
   $Trainer&.pbSwapPartyPosition(species, new_index, form)
 end
 
-# 从队伍中选择一只精灵
 def pbChoosePokemonEX(ableProc = nil, allowIneligible = false)
 	index = 0
 	pbFadeOutIn {
@@ -65,7 +55,6 @@ def pbChoosePokemonEX(ableProc = nil, allowIneligible = false)
   return pkmn, index, pkmn&.name
 end
 
-# 从精灵列表中选择精灵
 def pbChoosePkmnFromListEX(message, input_ids, must_choose = false)
   names = []
   ids = []
@@ -91,7 +80,6 @@ def pbChoosePkmnFromListEX(message, input_ids, must_choose = false)
   return ids[ret], ret, names[ret]
 end
 
-# 从特性列表中选择特性
 def pbChooseAbilityFromListEX(message, input_ids, must_choose = false)
   names = []
   ids = []
@@ -136,7 +124,6 @@ def change_ability_choose_from_list(pkmn, ability_list)
   end
 end
 
-# 从物品列表中选择物品
 def pbChooseItemFromListEX(message, input_ids, must_choose = false)
   names = []
   ids = []
@@ -162,7 +149,6 @@ def pbChooseItemFromListEX(message, input_ids, must_choose = false)
   return ids[ret], ret, names[ret]
 end
 
-# 从技能列表中选择物品
 def pbChooseMoveFromListEX(message, input_ids, must_choose = false)
   names = []
   ids = []
@@ -228,7 +214,6 @@ def guess_effective(off_type = nil) # to-do def_types
   end
 end
 
-# 猜某一个精灵的属性
 def guess_pkmn_type(species_id = nil)
   if species_id
     species_data = GameData::Species.try_get(species_id)
@@ -260,7 +245,6 @@ def guess_pkmn_type(species_id = nil)
   end
 end
 
-# 从全属性中选择一个属性
 def select_from_all_types(species_id = nil, auto: false)
   msg = _INTL("Which type do you want to choose?")
   if species_id
@@ -288,7 +272,6 @@ def select_from_all_types(species_id = nil, auto: false)
   return chosen_type_id, chosen_type_name
 end
 
-# 从物品列表中随机选择一个物品
 def random_choose_from_list(list_name, use_weight = true)
   selected_list = AllLists.const_get(list_name.to_s.upcase)
   return if !selected_list
@@ -304,7 +287,6 @@ def random_choose_from_list(list_name, use_weight = true)
   end
 end
 
-# 计算最好的进攻属性
 def calc_best_offense_types(target)
   offense_types = Hash.new { |hash, key| hash[key] = [] }
   defense_types = target.pbTypes(true)
@@ -394,19 +376,16 @@ def change_calc_type(calc_types, battle, user, move, ability_id)
   end
 end
 
-# 生成一个独特的ID
 def generate_unique_id(digits = 8)
   random_ints = ("0".."9").to_a.sample(digits)
   random_letters = ("a".."z").to_a.sample(digits) + ("A".."Z").to_a.sample(digits)
   (random_ints + random_letters).shuffle!.join
 end
 
-# 按照中文重新排序背包的所有口袋
 def sort_bag
   $bag&.pockets.each { |pocket| pocket.sort_item! }
 end
 
-# 获取某个对象在中文序列中的位置
 def get_pos(object_id, objct_class)
   case objct_class
   when :Ability
@@ -420,28 +399,24 @@ def get_pos(object_id, objct_class)
   end
 end
 
-# 获取某个特性在中文序列中的位置
 def get_abil_pos(abil)
   name = GameData::Ability.try_get(abil)&.real_name
   index = ABILITY_SEQUENCE.values.index(name)
   name && index ? index : 9999
 end
 
-# 获取某个物品在中文序列中的位置
 def get_item_pos(item_id)
   name = GameData::Item.try_get(item_id)&.real_name
   index = ITEM_SEQUENCE.values.index(name)
   name && index ? index : 9999
 end
 
-# 获取某个技能在中文序列中的位置
 def get_move_pos(move_id)
   name = GameData::Move.try_get(move_id)&.real_name
   index = MOVE_SEQUENCE.values.index(name)
   name && index ? index : 9999
 end
 
-# 获取某个精灵物种在中文序列中的位置
 def get_pkmn_pos(species)
   name = GameData::Species.try_get(species)&.real_name
   index = SPECIES_SEQUENCE.values.index(name)
