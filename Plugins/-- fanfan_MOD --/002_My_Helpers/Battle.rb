@@ -15,7 +15,6 @@ class PokeBattle_Battle
     end
   end
 
-  # Used by AI below
   def adaptive_ai_v1_type
     @adaptive_ai_v1_type ||= {}
   end

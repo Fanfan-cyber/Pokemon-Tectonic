@@ -1,22 +1,18 @@
 class PokeBattle_Battler
-  # 为精灵从特性池中随机添加一个特性
   def add_random_ability(showcase = false, trigger = true)
     return if fainted?
     added_abil = TA.choose_random_ability(self)
     addAbility(added_abil, showcase, trigger)
   end
 
-  # 精灵的ID
   def unique_id
     @pokemon.unique_id
   end
 
-  # 检查精灵所在的一方是否已经全部濒死
   def owner_side_all_fainted?
     @battle.pbParty(@index).all?(&:fainted?)
   end
 
-  # 检查精灵是否是只有一种属性
   def mono_type?
     pbTypes.length < 2 
   end

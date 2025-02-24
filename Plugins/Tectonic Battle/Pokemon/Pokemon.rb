@@ -540,11 +540,19 @@ class Pokemon
 
     # @return [Array<Array<Symbol,Integer>>] the abilities this Pokémon's species can have,
     #   where every element is [ability ID, ability index]
+=begin
     def getAbilityList
         ret = []
         sp_data = species_data
         sp_data.abilities.each_with_index { |a, i| ret.push([a, i]) if a }
         sp_data.hidden_abilities.each_with_index { |a, i| ret.push([a, i + 2]) if a }
+        return ret
+    end
+=end
+
+    def getAbilityList
+        ret = []
+        species_data.legalAbilities.each_with_index { |a, i| ret << [a, i] }
         return ret
     end
 

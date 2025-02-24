@@ -1,5 +1,4 @@
 class Object
-  # 检查某个对象是否在数组或者哈希中
   def is_in?(collection)
     case collection
     when Array
