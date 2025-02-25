@@ -28,6 +28,7 @@ module GameData
   
       DATA = {}
       DATA_FILENAME = "moves.dat"
+      ALL_MOVES_LIST = [] # Filled out later to wait for Species compilation
 
       SCHEMA = {
       "Name"         => [:name,           "s"],
@@ -197,6 +198,18 @@ module GameData
             end
         }
         keys.each { |key| yield self::DATA[key] if !key.is_a?(Integer) }
+      end
+
+      def self.all_non_signature_moves
+        if self::ALL_MOVES_LIST.length == 0
+          self.each do |moveData|
+              next unless moveData.learnable?
+              next if moveData.testMove?
+              next if moveData.is_signature?
+              self::ALL_MOVES_LIST.push(moveData.id)
+          end
+        end
+        return self::ALL_MOVES_LIST
       end
     end
 end

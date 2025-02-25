@@ -380,7 +380,11 @@ module GameData
             end
 
             learnableMoves.concat(firstSpecies.egg_moves)
-            learnableMoves.concat(@tutor_moves)
+            if firstSpecies.canTutorAny?
+                learnableMoves.concat(GameData::Move.all_non_signature_moves)
+            else
+                learnableMoves.concat(@tutor_moves)
+            end
             learnableMoves.concat(form_specific_moves)
             @moves.each do |learnset_entry|
                 m = learnset_entry[1]
@@ -522,6 +526,10 @@ module GameData
 
         def isTest?
             return @flags.include?("Test")
+        end
+
+        def canTutorAny?
+            return @flags.include?("TutorAny")
         end
     end
 end
