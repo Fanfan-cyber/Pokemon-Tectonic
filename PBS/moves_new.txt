@@ -1585,7 +1585,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = IncreasedPriorityInSandstorm
 Flags = CanProtect,CanMirrorMove
-Description = Attacks by blasting sand. This move always goes first in sandstorm.
+Description = Attacks by blasting dirt and debris at the target. This move always goes first in sandstorm.
 Animation = SANDATTACK
 #-------------------------------
 [LEYLINEBURST]
@@ -1693,6 +1693,19 @@ FunctionCode = HitsDiggers
 Flags = CanProtect,CanMirrorMove
 Description = The user causes the earth to rumble, striking every Pokémon around it and underground.
 Animation = EARTHQUAKE
+#-------------------------------
+[SANDBLASTING]
+Name = Sandblasting
+Type = GROUND
+Category = Special
+Power = 90
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = Basic
+Flags = CanProtect,CanMirrorMove,CanRandomCrit
+Description = The user blasts the target with highly pressurized sand. Can random critical hit.
+Animation = SANDATTACK
 #-------------------------------
 [SANDTOSS]
 Name = Sand Toss
