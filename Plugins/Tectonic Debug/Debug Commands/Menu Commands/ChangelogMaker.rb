@@ -246,6 +246,11 @@ def createChangeLog(generationNumber = nil,fileName = "Changelogs/changelog.txt"
 				end
 
 				unless addedMoves.empty?
+					# special case for mons with TutorAny flag
+					if newSpeciesData.canTutorAny?
+						changeLog.push("")
+						changeLog.push("Added Moves: All non-signature moves")
+					else
 						str = "Added Move#{addedMoves.length > 1 ? "s" : ""}: "
 						addedMoves.each_with_index do |move,index|
 								str += GameData::Move.get(move).real_name
@@ -255,6 +260,7 @@ def createChangeLog(generationNumber = nil,fileName = "Changelogs/changelog.txt"
 						end
 						changeLog.push("")
 						changeLog.push(str)
+					end
 				end
 			end
 
@@ -432,10 +438,14 @@ def generateFullDexDoc(generationNumber = nil,fileName = "fulldexdoc.txt")
 
 			# Tutor moves
 			tutorStr = "Tutor moves: "
-			tutorOnlyMoves = species_data.learnable_moves - allLevelMoves
-			tutorOnlyMoves.each_with_index do |moveID, index|
-				tutorStr += GameData::Move.get(moveID).real_name
-				tutorStr += ", " unless index == tutorOnlyMoves.length - 1
+			if species_data.canTutorAny? 
+				tutorStr += "All non-signature moves"
+			else
+				tutorOnlyMoves = species_data.learnable_moves - allLevelMoves
+				tutorOnlyMoves.each_with_index do |moveID, index|
+					tutorStr += GameData::Move.get(moveID).real_name
+					tutorStr += ", " unless index == tutorOnlyMoves.length - 1
+				end
 			end
 			dexListing.push(tutorStr)
 
