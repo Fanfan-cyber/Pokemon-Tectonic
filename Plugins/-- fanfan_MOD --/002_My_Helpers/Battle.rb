@@ -2,7 +2,7 @@ class PokeBattle_Battle
   def apply_eevee_bioengineering
     @battlers.each_with_index do |battler, i|
       next unless battler
-      next unless battler.level >= 25
+      next unless battler.level >= 30
       next if @choices[i][0] != :UseMove
       next unless battler.isSpecies?(:EEVEE)
       next unless battler.hasActiveAbility?(:BIOENGINEERING)

@@ -18,4 +18,28 @@ class Pokemon
   def has_all_abils?
     TA.all_available_abilities.all? { |abil| abilities.include?(abil) }
   end
+
+  def attack_higher?
+    @attack > @spatk
+  end
+
+  def attack_lower?
+    @attack < @spatk
+  end
+
+  def attack_equal?
+    @attack == @spatk
+  end
+
+  def defense_higher?
+    @defense > @spdef
+  end
+
+  def move_matched?(move)
+    move_data = GameData::Move.get(move)
+    return true if move_data.adaptive? || attack_equal?
+    return true if move_data.physical? && attack_higher?
+    return true if move_data.special? && attack_lower?
+    return false
+  end
 end
