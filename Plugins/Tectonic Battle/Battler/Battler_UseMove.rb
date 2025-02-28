@@ -382,13 +382,15 @@ class PokeBattle_Battler
         end
 
         # Forced Engagement
-        if user.hasActiveAbility?(:FORCEDENGAGEMENT) && @battle.trainerBattle? && user.forced_engagement && user.forced_engagement >= 0
+        forced_engagement = user.tracker_get(:forced_engagement)
+        if user.hasActiveAbility?(:FORCEDENGAGEMENT) && @battle.trainerBattle? && forced_engagement && forced_engagement >= 0
             current_target = targets[0]
-            if current_target && current_target.pokemonIndex != user.forced_engagement
+            if current_target && current_target.pokemonIndex != forced_engagement
                 @battle.pbShowAbilitySplash(user, :FORCEDENGAGEMENT)
-                @battle.pbDisplay(_INTL("{1} was forced into battle!", @battle.pbThisEx(current_target.index, user.forced_engagement)))
+                @battle.pbDisplay(_INTL("{1} was forced into battle!", @battle.pbThisEx(current_target.index, forced_engagement)))
                 @battle.pbHideAbilitySplash(user)
-                @battle.pbRecallAndReplace(current_target.index, user.forced_engagement)
+                @battle.pbRecallAndReplace(current_target.index, forced_engagement)
+                current_target.pbEffectsOnSwitchIn(true)
             end
         end
 
@@ -505,7 +507,7 @@ class PokeBattle_Battler
             moveIsBlocked = magicCoater >= 0 || magicBouncer >= 0 || magicShielder >= 0 || quarantined
             unless moveIsBlocked
                 for i in 0...numHits
-                    user.battle_count_increment(:hits_in_progress)
+                    user.battle_tracker_increment(:hits_in_progress)
                     success = pbProcessMoveHit(move, user, targets, i, skipAccuracyCheck, multiHitAesthetics)
                     unless success
                         if i == 0 && targets.length > 0

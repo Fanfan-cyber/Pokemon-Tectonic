@@ -1,6 +1,4 @@
 class PokeBattle_Battler
-  attr_accessor :forced_engagement
-
   def add_random_ability(showcase = false, trigger = true)
     return if fainted?
     added_abil = TA.choose_random_ability(self)

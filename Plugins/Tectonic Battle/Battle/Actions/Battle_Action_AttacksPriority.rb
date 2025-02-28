@@ -95,7 +95,7 @@ class PokeBattle_Battle
     end
 
     def pbRegisterTarget(idxBattler, idxTarget)
-        @battlers[idxBattler].forced_engagement = @battlers[idxTarget]&.pokemonIndex
+        @battlers[idxBattler].tracker_set(:forced_engagement, @battlers[idxTarget]&.pokemonIndex)
         @choices[idxBattler][3] = idxTarget # Set target of move
     end
 

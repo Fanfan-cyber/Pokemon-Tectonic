@@ -496,7 +496,7 @@ BattleHandlers::TargetAbilityOnHit.add(:CURSEDTAIL,
         next if user.effectActive?(:Curse)
         if aiCheck
             #if user.effectActive?(:Warned) || aiNumHits > 1
-            if user.battle_count_get(:warned) || aiNumHits > 1
+            if user.battle_tracker_get(:warned) || aiNumHits > 1
                 next -30
             else
                 next -10
@@ -504,11 +504,11 @@ BattleHandlers::TargetAbilityOnHit.add(:CURSEDTAIL,
         end
         battle.pbShowAbilitySplash(target, ability)
         #if user.effectActive?(:Warned)
-        if user.battle_count_get(:warned)
+        if user.battle_tracker_get(:warned)
             user.applyEffect(:Curse)
         else
             #user.applyEffect(:Warned)
-            user.battle_count_set(:warned, true)
+            user.battle_tracker_set(:warned, true)
             battle.pbDisplay(_INTL("{1} was warned not to attack it again!", user.pbThis))
         end
         battle.pbHideAbilitySplash(target)

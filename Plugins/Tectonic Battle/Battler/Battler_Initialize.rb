@@ -257,6 +257,7 @@ class PokeBattle_Battler
         @lastRoundMoveFailed   = false
         @movesUsed             = []
         @turnCount             = 0
+        @battler_tracker       = PokeBattle_BattlerTracker.new
 
         # Boss stuff
         @avatarPhase           = 1

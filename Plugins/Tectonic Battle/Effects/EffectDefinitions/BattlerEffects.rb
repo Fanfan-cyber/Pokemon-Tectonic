@@ -1107,7 +1107,7 @@ GameData::BattleEffect.register_effect(:Battler, {
     :type => :Integer,
     :baton_passed => true,
     :apply_proc => proc do |battle, battler, _value|
-        battle.pbDisplaySlower(_INTL("{1} put up a substitute!", battler.pbThis))
+        battle.pbDisplay(_INTL("{1} put up a substitute!", battler.pbThis))
     end,
 })
 
