@@ -2630,6 +2630,19 @@ FunctionCode = Invalid
 Flags = CanMirrorMove
 Description = The user creates a bizarre area in which slower Pokémon get to move first for five turns.
 #-------------------------------
+[TWINBEAM]
+Name = Twin Beam
+Type = PSYCHIC
+Category = Special
+Power = 50
+Accuracy = 100
+TotalPP = 12
+Target = NearOther
+FunctionCode = Invalid
+Flags = CanProtect,CanMirrorMove
+Description = The user shoots mystical beams from its eyes to inflict damage. The target is hit twice in a row.
+Animation = PARTICLEPULSE
+#-------------------------------
 [WONDERROOM]
 Name = Wonder Room
 Type = PSYCHIC

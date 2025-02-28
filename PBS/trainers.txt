@@ -1808,7 +1808,7 @@ Pokemon = SALAZZLE,35
     Moves = FLAMETHROWER,DREAMDANCE,VENOSHOCK,SNARL
     AbilityIndex = 0 # Expertise
 Pokemon = FARIGIRAF,35
-    Moves = TWINBEAM,CRUNCH,BULKUP,ZENHEADBUTT
+    Moves = PSYCHIC,CRUNCH,BULKUP,ZENHEADBUTT
     AbilityIndex = 1 # Phase Shift
 #-------------------------------
 [PSYCHIC_M3,Boban]
@@ -3094,7 +3094,7 @@ Pokemon = BRONZONG,45
 #-------------------------------
 [ARTIST3,Frida]
 Pokemon = FARIGIRAF,45
-    Moves = TWINBEAM,CRUNCH,SCAM,ZENHEADBUTT
+    Moves = PSYCHIC,CRUNCH,SCAM,ZENHEADBUTT
     AbilityIndex = 0 # Cud Chew
     Item = SITRUSBERRY
 Pokemon = BEARTIC,45

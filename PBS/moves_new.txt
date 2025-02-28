@@ -6381,6 +6381,18 @@ Flags = CanProtect,CanMagicCoat,CanMirrorMove
 Description = The user insults the target using a compliment. Their attacking stats are raised by three steps, but they hurt themselves in confusion.
 Animation = FLATTER
 #-------------------------------
+[BLACKHOLE]
+Name = Black Hole
+Type = DARK
+Category = Physical
+Power = 75
+Accuracy = 0
+TotalPP = 5
+Target = AllNearFoes
+FunctionCode = StartGravity5
+Description = Damages all near foes by summoning a miniature black hole. Gravity is intensified for five turns.
+Animation = BLACKHOLEECLIPSE
+#-------------------------------
 [BLACKOUT]
 Name = Blackout
 Type = DARK

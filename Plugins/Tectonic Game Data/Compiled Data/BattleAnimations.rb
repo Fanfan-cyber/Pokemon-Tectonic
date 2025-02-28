@@ -14,13 +14,13 @@ module Compiler
       move2anim = [[],[]]
       for i in 0...pbanims.length
         next if !pbanims[i]
-        if pbanims[i].name[/^OppMove\:\s*(.*)$/]
+        if pbanims[i].name[/^OppZ?Move\:\s*(.*)$/]
           if GameData::Move.exists?($~[1])
             moveid = GameData::Move.get($~[1]).id_number
             changed = true if !move2anim[0][moveid] || move2anim[1][moveid] != i
             move2anim[1][moveid] = i
           end
-        elsif pbanims[i].name[/^Move\:\s*(.*)$/]
+        elsif pbanims[i].name[/^Z?Move\:\s*(.*)$/]
           if GameData::Move.exists?($~[1])
             moveid = GameData::Move.get($~[1]).id_number
             changed = true if !move2anim[0][moveid] || move2anim[0][moveid] != i
