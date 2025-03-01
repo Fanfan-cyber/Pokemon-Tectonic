@@ -159,6 +159,7 @@ class PokemonTrade_Scene
       delay = picturePoke.totalDuration
       picturePoke.moveColor(delay,5,Color.new(31*8,22*8,30*8,0))
       cry = GameData::Species.cry_filename_from_pokemon(@pokemon2)
+      pbBGMStop
       picturePoke.setSE(delay,cry) if cry
       # Play animation
       pbRunPictures(
@@ -166,6 +167,7 @@ class PokemonTrade_Scene
          [@sprites["rsprite2"],spriteBall]
       )
       spriteBall.dispose
+      pbMEPlay("Evolution success")
     end
   
     def pbEndScreen
@@ -193,6 +195,8 @@ class PokemonTrade_Scene
          @pokemon.name,@pokemon.owner.public_id,@pokemon.owner.name)) { pbUpdate }
       pbMessageWaitForInput(@sprites["msgwindow"],50,true) { pbUpdate }
       pbPlayDecisionSE
+      pbMEPlay("Evolution start")
+      pbBGMPlay("Evolution")
       pbScene1
       pbMessageDisplay(@sprites["msgwindow"],
          _INTL("For {1}'s {2},\r\n{3} sends {4}.\1",@trader1,speciesname1,@trader2,speciesname2)) { pbUpdate }
