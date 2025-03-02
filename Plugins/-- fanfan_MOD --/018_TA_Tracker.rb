@@ -1,7 +1,7 @@
 class PokeBattle_BattleTracker
   def initialize
     @faint_healing_triggered = false
-    @warned                  = false # used for Cursed Tail
+    @warned                  = [] # used for Cursed Tail
 
     @hits_in_progress = 0 # Only done this
 
@@ -46,12 +46,18 @@ class PokeBattle_Battler
     @battle.battle_tracker[@index & 1][@pokemonIndex]
   end
 
-  def battle_tracker_get(tracker)
-    battler_battle_tracker_get.instance_variable_get("@#{tracker}")
+  def battle_tracker_get(tracker, target = nil)
+    tracked_data = battler_battle_tracker_get.instance_variable_get("@#{tracker}")
+    return tracked_data[target.pokemonIndex] if target
+    return tracked_data
   end
 
-  def battle_tracker_set(tracker, value)
-    battler_battle_tracker_get.instance_variable_set("@#{tracker}", value)
+  def battle_tracker_set(tracker, value, target = nil)
+    if target
+      battle_tracker_get(tracker)[target.pokemonIndex] = value
+    else
+      battler_battle_tracker_get.instance_variable_set("@#{tracker}", value)
+    end
   end
 
   def battle_tracker_increment(tracker, value = 1)
@@ -78,7 +84,7 @@ class PokeBattle_Battler
   end
 
   def battle_tracker_avatars_purge
-    battle_tracker_set(:warned, false)
+    battle_tracker_set(:warned, [])
   end
 end
 

@@ -387,7 +387,7 @@ TotalPP = 1
 Target = User
 FunctionCode = EmpoweredHealOrder
 Flags = Empowered
-Description = The user restores 1/8th of its HP, summons an allied Combee, and becomes Bug-type
+Description = The user restores 1/8th of its HP, summons an allied Combee, and becomes Bug-type.
 Animation = HEALORDER
 #-------------------------------
 [PRIMEVALQUIVERDANCE]
