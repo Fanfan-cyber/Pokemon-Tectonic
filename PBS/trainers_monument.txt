@@ -280,7 +280,7 @@ Pokemon = SAWSBUCK,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 5,20,5,20,20,0
 Pokemon = LURANTIS,70
-    Moves = AUTUMNBLAST,LEAFSTORM,OVERHEAT,POLLENPUFF
+    Moves = SUPERPOWER,LEAFSTORM,STRAFE,POLLENPUFF
     AbilityIndex = 0 # Contrary
     Item = ASSAULTVEST
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -636,7 +636,7 @@ Pokemon = HBRAVIARY,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 0,20,20,10,20,0
 Pokemon = SNEASLER,70
-    Moves = DIRECLAW,CROSSCHOP,SWORDSDANCE,XSCISSOR
+    Moves = CROSSPOISON,CROSSCHOP,SWORDSDANCE,XSCISSOR
     AbilityIndex = 1 # Frustrate
     Item = FIGHTINGGEM
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -1242,7 +1242,7 @@ Pokemon = SERPERIOR,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,10,0,0,10,20
 Pokemon = SNEASLER,70
-    Moves = DIRECLAW,CROSSCHOP,ADAMANTINEPRESS,XSCISSOR
+    Moves = CROSSPOISON,CROSSCHOP,ADAMANTINEPRESS,XSCISSOR
     AbilityIndex = 1 # Frustrate
     Item = ROCKGEM
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -2311,7 +2311,7 @@ Pokemon = ARAQUANID,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,20,10,0,20,0
 Pokemon = SNEASLER,70
-    Moves = DIRECLAW,CROSSCHOP,ADAMANTINEPRESS,XSCISSOR
+    Moves = CROSSPOISON,CROSSCHOP,ADAMANTINEPRESS,XSCISSOR
     AbilityIndex = 1 # Frustrate
     Item = STRIKEVEST
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -2399,7 +2399,7 @@ Pokemon = BLASFEMMIE,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,20,0,0,20,10
 Pokemon = SNEASLER,70
-    Moves = DIRECLAW,CROSSCHOP,ADAMANTINEPRESS,SWORDSDANCE
+    Moves = CROSSPOISON,CROSSCHOP,ADAMANTINEPRESS,SWORDSDANCE
     AbilityIndex = 1 # Frustrate
     Item = POISONGEM
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def

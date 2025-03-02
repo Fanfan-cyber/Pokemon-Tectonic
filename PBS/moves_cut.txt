@@ -1088,6 +1088,20 @@ Target = AllNearOthers
 FunctionCode = Invalid
 Description = The user surrounds everything around it with highly acidic gas and melts away items they hold.
 #-------------------------------
+[DIRECLAW]
+Name = Dire Claw
+Type = POISON
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = Invalid
+Flags = CanProtect,CanMirrorMove,CanRandomCrit
+EffectChance = 50
+Description = The user lashes out with its claws. 50% chance to poison. Can random critical hit.
+Animation = CROSSPOISON
+#-------------------------------
 [GASTROACID]
 Name = Gastro Acid
 Type = POISON
@@ -2296,6 +2310,17 @@ Description = This turn, all Enemies attacks becomes Electric-type and can only 
 Animation = GROWL
 #-------------------------------
 #		PSYCHIC MOVES
+#-------------------------------
+[ALLYSWITCH]
+Name = Ally Switch
+Type = PSYCHIC
+Category = Status
+Accuracy = 0
+TotalPP = 12
+Target = User
+Priority = 2
+FunctionCode = Invalid
+Description = The user teleports using a strange power and switches its place with one of its allies.
 #-------------------------------
 [BARRIER]
 Name = Barrier

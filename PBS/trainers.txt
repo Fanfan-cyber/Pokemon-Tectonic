@@ -7165,7 +7165,7 @@ Pokemon = TENTACRUEL,60
 #-------------------------------
 [TECHWIZARD_JOVAN,Jovan]
 Pokemon = LURANTIS,60
-    Moves = HOLLYCHARM,LEECHSEED,AROMATHERAPY
+    Moves = HOLLYCHARM,LEECHSEED,AROMATHERAPY,STRAFE
     AbilityIndex = 1 # Polarizing
     Item = REINFORCINGROD
 Pokemon = DURANT,60
@@ -7936,7 +7936,7 @@ Pokemon = MANIKLAW,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,20,20,0
 Pokemon = SNEASLER,70
-    Moves = DIRECLAW,CROSSCHOP,ADAMANTINEPRESS,ACROBATICS
+    Moves = CROSSPOISON,CROSSCHOP,ADAMANTINEPRESS,ACROBATICS
     AbilityIndex = 1 # Frustrate
     Item = AIRBALLOON
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -8520,7 +8520,7 @@ Pokemon = KLEAVOR,70
     Item = LUCKHERB
 Pokemon = INDEEDEE,70
     Form = 1 # Female Form
-    Moves = KICKSTART,BRAINFREEZE,ENERGYBALL,ALLYSWITCH
+    Moves = KICKSTART,BRAINFREEZE,ENERGYBALL,HELPINGHAND
     AbilityIndex = 1 # Mental Block
 #-------------------------------
 [SAILOR,Dom]

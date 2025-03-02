@@ -2058,20 +2058,6 @@ Flags = CanProtect,CanMirrorMove,CanRandomCrit,Blade
 EffectChance = 20
 Description = A slashing attack with a poisonous blade. Can random critical hit.
 #-------------------------------
-[DIRECLAW]
-Name = Dire Claw
-Type = POISON
-Category = Physical
-Power = 80
-Accuracy = 100
-TotalPP = 15
-Target = NearOther
-FunctionCode = Poison
-Flags = CanProtect,CanMirrorMove,CanRandomCrit
-EffectChance = 50
-Description = The user lashes out with its claws. 50% chance to poison. Can random critical hit.
-Animation = CROSSPOISON
-#-------------------------------
 [GUNKSHOT]
 Name = Gunk Shot
 Type = POISON
@@ -5168,17 +5154,6 @@ Target = User
 FunctionCode = RaiseUserSpd4
 Flags = CanSnatch
 Description = The user relaxes and lightens its body to move faster, raising its Speed by four steps.
-#-------------------------------
-[ALLYSWITCH]
-Name = Ally Switch
-Type = PSYCHIC
-Category = Status
-Accuracy = 0
-TotalPP = 12
-Target = User
-Priority = 2
-FunctionCode = UserSwapsPositionsWithAlly
-Description = The user teleports using a strange power and switches its place with one of its allies.
 #-------------------------------
 [AMNESIA]
 Name = Amnesia
