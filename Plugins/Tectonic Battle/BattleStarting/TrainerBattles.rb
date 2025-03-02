@@ -166,7 +166,7 @@ def pbTrainerBattle(trainerID, trainerName, endSpeech = nil,
     # Set some battle rules
     setBattleRule("outcomeVar", outcomeVar) if outcomeVar != 1
     setBattleRule("canLose") if canLose
-    setBattleRule("double") if doubleBattle || $PokemonTemp.waitingTrainer
+    setBattleRule("double") if doubleBattle || $PokemonTemp.waitingTrainer || TA.get(:doublebattle)
     setBattleRule("randomOrder") if random
     # Perform the battle
     if $PokemonTemp.waitingTrainer
