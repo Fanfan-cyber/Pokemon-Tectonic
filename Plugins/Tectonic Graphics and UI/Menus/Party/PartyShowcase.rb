@@ -161,6 +161,19 @@ class PokemonPartyShowcase_Scene
 
                 itemX += pixelsBetweenItems
             end
+        elsif @npcTrainer
+            pixelsBetweenItems = 20
+            itemX = displayX + POKEMON_ICON_SIZE - 8 - pixelsBetweenItems * (Settings::DEFAULT_ITEMS.length - 1)
+            itemY = mainIconY + POKEMON_ICON_SIZE - 8
+            Settings::DEFAULT_ITEMS.each_with_index do |item, itemIndex|
+                newItemIcon = ItemIconSprite.new(itemX,itemY,item,@viewport)
+                newItemIcon.zoom_x = 0.5
+                newItemIcon.zoom_y = 0.5
+                newItemIcon.type = pokemon.itemTypeChosen
+                @sprites["item_#{index}_#{itemIndex}"] = newItemIcon
+
+                itemX += pixelsBetweenItems
+            end
         end
 
         unless @npcTrainer

@@ -39,7 +39,7 @@ Events.onTrainerPartyLoad += proc { |_sender, e|
   trainer = e[0]
   next unless trainer
   trainer.party.each do |pkmn|
-    pkmn.items << :SITRUSBERRY if pkmn.items.empty?
+    pkmn.items.concat(Settings::DEFAULT_ITEMS) unless pkmn.hasItem?
   end
 }
 
