@@ -13,6 +13,7 @@ Target = NearOther
 FunctionCode = RemoveProtections
 Flags = CanMirrorMove
 Description = An attack empowered by the might of a lazy king. It skips and destroys protections.
+Animation = BODYSLAM
 #-------------------------------
 [AIMTRUE]
 Name = Aim True
@@ -1210,7 +1211,7 @@ Target = NearOther
 FunctionCode = LowerUserDefSpDef2
 Flags = CanProtect,CanMirrorMove
 Description = The user and target bathe in acid. Lowers the user's Defense and Sp. Def by two steps each.
-Animation = ACIDSPRAY
+Animation = ACIDDOWNPOUR
 #-------------------------------
 [BLIGHT]
 Name = Blight
@@ -1899,7 +1900,6 @@ Target = NearOther
 FunctionCode = Basic
 Flags = CanProtect,CanMirrorMove,CanRandomCrit
 Description = The user calls up spikes of diamond. Can random critical hit.
-Animation = DIAMONDSTORM
 #-------------------------------
 [EMBRITTLE]
 Name = Embrittle
@@ -2026,6 +2026,7 @@ Target = NearOther
 FunctionCode = FractureTarget
 Flags = CanProtect,CanMirrorMove
 Description = The user drops a single piece of solid bedrock on the target, fracturing them.
+Animation = CONTINENTALCRUSH
 #-------------------------------
 [OMNISHELTER]
 Name = Omnishelter
@@ -3873,6 +3874,7 @@ Target = AllNearOthers
 FunctionCode = RemovesHazardsBothSides
 Flags = CanProtect,CanMirrorMove
 Description = The user creates a storm using its flaming body, damaging everything around it and melting away hazards in both sides.
+Animation = INFERNOOVERDRIVE
 #-------------------------------
 #		WATER MOVES
 #-------------------------------
@@ -4503,7 +4505,7 @@ Target = NearOther
 FunctionCode = SuperEffectiveAgainstGhost
 Flags = CanProtect,CanMirrorMove
 Description = The user attacks the target with the power of a warding charm. Super effective vs Ghost-types.
-Animation = MAGICALLEAF
+Animation = BLOOMDOOM
 #-------------------------------
 [MASQUERBLADE]
 Name = Masquerblade
@@ -4643,6 +4645,7 @@ Target = User
 FunctionCode = StartsCursedIngrain
 Flags = CanSnatch
 Description = Lays roots that heal the user by absorbing 1/8th HP from foes each turn. The user becomes trapped.
+Animation = INGRAIN
 #-------------------------------
 [ROOTWRACK]
 Name = Rootwrack
@@ -4861,7 +4864,7 @@ Target = ClosestNearFoe
 FunctionCode = Rampage
 Flags = CanProtect,CanMirrorMove
 Description = The user breaks down all insulation to send a barrage of electricity for three turns.
-Animation = ZAPCANNON
+Animation = GIGAVOLTHAVOC
 #-------------------------------
 [ELECTROSLASH]
 Name = Electroslash
@@ -5383,6 +5386,7 @@ Target = NearOther
 FunctionCode = DisableTargetLastMoveUsed
 Flags = CanProtect,CanMirrorMove
 Description = The user psychically alters the target's brain to forget. This move disables the target's last move.
+Animation = DISABLE
 #-------------------------------
 [MINDLINK]
 Name = Mind Link
@@ -5835,7 +5839,7 @@ FunctionCode = LowerTargetDef1
 Flags = CanProtect,CanMirrorMove,Blade
 EffectChance = 30
 Description = The user slashes the target with ice like a sword. It has a 30% chance to lower Defense.
-Animation = ICESHARD
+Animation = SUBZEROSLAMMER
 #-------------------------------
 [ICEDUNGEON]
 Name = Ice Dungeon
@@ -7147,7 +7151,7 @@ Target = NearOther
 FunctionCode = LowerUserAtk4
 Flags = CanProtect,CanMirrorMove
 Description = The user wields an exaggerated power to strike the target. Lowers the user's Attack by four steps.
-Animation = SPIRITBREAK
+Animation = TWINKLETACKLE
 #-------------------------------
 [INNOCENTMASQUE]
 Name = Innocent Masque

@@ -8767,6 +8767,11 @@ Pokemon = STONJOURNER,70
 #-------------------------------
 [POKEMONRANGER_F,Mina]
 TrainerTypeLabel = CHASMGANG
+Flags = NoPerfect
+Pokemon = SHUCKLE,60
+    Moves = STEALTHROCK
+    AbilityIndex = 0 # Ripen
+    Item = CADOBERRY
 Pokemon = URSALUNA,60
     AbilityIndex = 1 # Tough
     Item = SALACBERRY
@@ -8782,6 +8787,7 @@ Pokemon = INTELEON,60
 #-------------------------------
 [POKEMONRANGER_F2,Amber]
 TrainerTypeLabel = CHASMGANG
+Flags = NoPerfect
 Pokemon = KROOKODILE,60
     AbilityIndex = 1 # Regenerator
     Item = LEFTOVERS
@@ -8794,49 +8800,53 @@ Pokemon = SENSIBELLE,60
 Pokemon = TOXAPEX,60
     AbilityIndex = 1 # Regenerator
     Item = BLACKSLUDGE
+Pokemon = AMOONGUSS,60
+    AbilityIndex = 0 # Regenerator
+    Item = LEFTOVERS
 #-------------------------------
 [POKEMONRANGER_M,Terrance]
 TrainerTypeLabel = CHASMGANG
-Pokemon = ARATICATE,60
-    AbilityIndex = 1 # Gourmand
-    Item = FOCUSSASH
+Flags = NoPerfect
+Pokemon = ACCELGOR,60
+    AbilityIndex = 0 # Water Absorb
+    Item = LIFEORB
+Pokemon = CROBAT,60
+    AbilityIndex = 1 # Infiltrator
+    Item = FLYINGGEM
 Pokemon = MZANGOOSE,60
     AbilityIndex = 1 # Mental Damage
     Item = SPELLTAG
 Pokemon = ADUGTRIO,60
     AbilityIndex = 0 # Tangling Hair
     Item = ASSAULTVEST
-Pokemon = EXEGGUTOR,60
-    AbilityIndex = 0 # Radiate
-    Item = CHOICESCARF
-#-------------------------------
-[POKEMONRANGER_M2,Mason]
-TrainerTypeLabel = CHASMGANG
-Pokemon = SHUCKLE,60
-    Moves = STEALTHROCK
-    AbilityIndex = 0 # Ripen
-    Item = CADOBERRY
-Pokemon = EXCADRILL,60
-    AbilityIndex = 1 # Juggernaut
-    Item = STEELGEM
-Pokemon = HONCHKROW,60
-    AbilityIndex = 0 # Rattle 'Em
-    Item = DARKGEM
-Pokemon = AMOONGUSS,60
-    AbilityIndex = 0 # Regenerator
-    Item = LEFTOVERS
+Pokemon = JUMPLUFF,60
+    AbilityIndex = 0 # Aerodynamic
+    Item = CHOICESPECS
 #-------------------------------
 [POKEMONRANGER_M3,Micah]
 TrainerTypeLabel = CHASMGANG
+Flags = NoPerfect
 Pokemon = CLAYDOL,60
-    AbilityIndex = 1 # Magic Bounce
+    Moves = LIGHTSCREEN,REFLECT,RETREAT,LEYLINEBURST
+    AbilityIndex = 0 # Planar Veil
     Item = LIGHTCLAY
-Pokemon = FEAROW,60
-    AbilityIndex = 0 # Tough
-    Item = FOCUSSASH
 Pokemon = KINGAMBIT,60
+    Moves = PURSUIT,BULLETPUNCH,BRICKBREAK,SUCKERPUNCH
     AbilityIndex = 0 # Defiant
     Item = LIFEORB
 Pokemon = KINGDRA,60
+    Moves = MURKYFOG,DRACOMETEOR,SNIPESHOT,PROTECT
     AbilityIndex = 1 # Gyre Spinner
     Item = LEFTOVERS
+Pokemon = FEAROW,60
+    Moves = JETSTREAM,DRILLPECK,DRILLRUN,UTURN
+    AbilityIndex = 0 # Tough
+    Item = FOCUSSASH
+Pokemon = ZANGOOSE,60
+    Moves = FURYSWIPES,DEEPBREATHING,PSYCHICFANGS,QUICKATTACK
+    AbilityIndex = 1 # Rending Claws
+    Item = FRAGILELOCKET
+Pokemon = GENGAR,60
+    Moves = SPECTRALTONGUE,SHADOWBALL,SLUDGEWAVE,ICYWIND
+    AbilityIndex = 0 # Levitate
+    Item = LIFEORB
