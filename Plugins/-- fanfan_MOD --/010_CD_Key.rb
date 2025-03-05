@@ -77,6 +77,8 @@ CDKey.register_other_key(:alltribes, true)
 CDKey.register_other_key([:disablealltribes, :alltribes], false)
 CDKey.register_other_key(:notribecopy, true)
 CDKey.register_other_key([:disablenotribecopy, :notribecopy], false)
+CDKey.register_other_key(:zeroexp, true)
+CDKey.register_other_key([:disablezeroexp, :zeroexp], false)
 
 CDKey.register_other_key(:rocket, true)
 CDKey.register_other_key([:norocket, :rocket], false)
