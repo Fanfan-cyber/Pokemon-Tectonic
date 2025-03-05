@@ -1,1 +1,0 @@
-These three fonts combine English font of Power Green and Chinese font of Zpix.

@@ -1,6 +1,6 @@
 module MessageConfig
   FONT_NAME        = "Power Green"
-  CHN_FONT_NAME    = "FusionPixelMonoPatched" #"Zpix"
+  CHN_FONT_NAME    = "FusionPixelMonoPatched"
   SMALL_FONT_NAME  = "Power Green Small"
   NARROW_FONT_NAME = "Power Green Narrow"
 
