@@ -520,6 +520,8 @@ class PokEstate
 		cmdEvolve  = -1
 		cmdStyle = -1
 		cmdOmnitutor = -1
+    cmdAdaptiveAI = -1
+    cmdOpenAR     = -1
 		cmdCancel = -1
 
 		commands[cmdRename = commands.length] 	= _INTL("Rename") unless donationBox
@@ -531,6 +533,8 @@ class PokEstate
 		if $PokemonGlobal.omnitutor_active && !getOmniMoves(pokemon).empty?
 			commands[cmdOmnitutor = commands.length]	= _INTL("OmniTutor")
 		end
+    commands[cmdOpenAR = commands.length]       = _INTL("Open AR") if TA.get(:customabil)
+    commands[cmdAdaptiveAI = commands.length]   = _INTL("Adaptive AI") if TA.get(:adaptiveai)
 		commands[cmdCancel = commands.length] = _INTL("Cancel")
 
 		modifyCommand = 0
@@ -558,6 +562,10 @@ class PokEstate
 				eventCalling.turn_toward_player
 				return true
 			end
+    elsif cmdOpenAR >= 0 && modifyCommand == cmdOpenAR
+      AbilityRecorder.oppen_ability_recorder(pokemon)
+    elsif cmdAdaptiveAI >= 0 && modifyCommand == cmdAdaptiveAI
+      change_ability_choose_from_list(pokemon, Pokemon::ADAPTIVE_AI)
 		elsif cmdStyle >= 0 && modifyCommand == cmdStyle
 			pbStyleValueScreen(pokemon)
 		elsif cmdOmnitutor >= 0 && modifyCommand == cmdOmnitutor

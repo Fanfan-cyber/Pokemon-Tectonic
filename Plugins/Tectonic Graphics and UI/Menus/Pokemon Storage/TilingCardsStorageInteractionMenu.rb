@@ -269,7 +269,7 @@ class TilingCardsStorageInteractionMenu_Scene < TilingCardsMenu_Scene
 		commands[cmdSwapPokeBall = commands.length]   = _INTL("Swap Ball")
 		newspecies = @pkmn.check_evolution_on_level_up(false)
 		commands[cmdEvolve = commands.length]       = _INTL("Evolve") if newspecies
-    commands[cmdOpenAR = commands.length]       = _INTL("Open AR") if AbilityRecorder.has_ability_recorded?
+    commands[cmdOpenAR = commands.length]       = _INTL("Open AR") if TA.get(:customabil)
     commands[cmdAdaptiveAI = commands.length]   = _INTL("Adaptive AI") if TA.get(:adaptiveai)
 		commands[commands.length]                   = _INTL("Cancel")
 		modifyCommand = pbShowCommands(_INTL("Do what with {1}?",@pkmn.name),commands)
