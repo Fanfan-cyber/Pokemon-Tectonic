@@ -777,7 +777,7 @@ class PokeBattle_Battle
                         pbDisplayPaused(_INTL("You lost against {1}, {2} and {3}!{4}",
                           @opponent[0].full_name, @opponent[1].full_name, @opponent[2].full_name, lost_extra_text))
                     end
-                    TA.increase(:lost) unless TA.get(:battle_loader)
+                    TA.increase(:lose) unless TA.get(:battle_loader)
                 end
             elsif @decision == 2
                 if @opponent
