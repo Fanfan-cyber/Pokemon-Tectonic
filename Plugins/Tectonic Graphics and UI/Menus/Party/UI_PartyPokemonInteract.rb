@@ -237,6 +237,7 @@ existingIndex)
         cmdAdaptiveAI = -1
         cmdOpenAR     = -1
         cmdChangeHP   = -1
+        cmdSetStatus  = -1
 
         newspecies = @pkmn.check_evolution_on_level_up(false)
         # Build the commands
@@ -245,6 +246,7 @@ existingIndex)
         commands[cmdEvolve = commands.length]       = _INTL("Evolve") if newspecies
         commands[cmdOpenAR = commands.length]       = _INTL("Open AR") if TA.get(:customabil)
         commands[cmdRename = commands.length]       = _INTL("Rename")
+        commands[cmdSetStatus = commands.length]    = _INTL("Set Status")
         commands[cmdStyle = commands.length]        = _INTL("Set Style") if pbHasItem?(:STYLINGKIT)
         commands[cmdSwapPokeBall = commands.length] = _INTL("Swap Ball")
         commands[commands.length]                   = _INTL("Cancel")
@@ -263,13 +265,54 @@ existingIndex)
               pbDisplay(_INTL("{1} is an egg.", @pkmn.name))
             else
               params = ChooseNumberParams.new
-              params.setRange(0, @pkmn.hp)
+              params.setRange(1, @pkmn.hp)
               params.setDefaultValue(@pkmn.hp)
               newhp = pbMessageChooseNumber(
                  _INTL("Set {1}'s HP (max. {2}).", @pkmn.name, @pkmn.hp), params) { pbUpdate }
               unless newhp == @pkmn.hp
                 @pkmn.hp = newhp
                 @partyScene.pbRefresh
+              end
+            end
+        elsif cmdSetStatus >= 0 && modifyCommand == cmdSetStatus
+            if @pkmn.egg?
+              pbDisplay(_INTL("{1} is an egg.", @pkmn.name))
+            elsif @pkmn.hp <= 0
+              pbDisplay(_INTL("{1} is fainted, can't change status.", @pkmn.name))
+            else
+              cmd = 0
+              commands = [_INTL("[Cure]")]
+              ids = [:NONE]
+              GameData::Status.each do |s|
+                next if s.id == :NONE
+                commands.push(s.name)
+                ids.push(s.id)
+              end
+              loop do
+                cmd = pbShowCommands(_INTL("Set {1}'s status.", @pkmn.name), commands, cmd)
+                break if cmd < 0
+                case cmd
+                when 0   # Cure
+                  @pkmn.heal_status
+                  pbDisplay(_INTL("{1} has no status now.", @pkmn.name))
+                  @partyScene.pbRefresh
+                else   # Give status problem
+                  count = 0
+                  cancel = false
+                  if ids[cmd] == :SLEEP
+                    params = ChooseNumberParams.new
+                    params.setRange(0, 9)
+                    params.setDefaultValue(3)
+                    count = pbMessageChooseNumber(
+                       _INTL("Set the Pokémon's sleep count."), params) { pbUpdate }
+                    cancel = true if count <= 0
+                  end
+                  if !cancel
+                    @pkmn.status      = ids[cmd]
+                    @pkmn.statusCount = count
+                    @partyScene.pbRefresh
+                  end
+                end
               end
             end
         elsif cmdSwapPokeBall >= 0 && modifyCommand == cmdSwapPokeBall
