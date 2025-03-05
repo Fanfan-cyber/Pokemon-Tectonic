@@ -424,6 +424,18 @@ module PokemonDebugMenuCommands
     }
   })
   
+  PokemonDebugMenuCommands.register("forgetallmoves", {
+    "parent"      => "moves",
+    "name"        => _INTL("Forget all moves"),
+    "always_show" => true,
+    "effect"      => proc { |pkmn, pkmnid, heldpoke, settingUpBattle, screen|
+      pkmn.forget_all_moves
+      screen.pbDisplay(_INTL("{1} has forgot all moves.", pkmn.name))
+      screen.pbRefreshSingle(pkmnid)
+      next false
+    }
+  })
+
   PokemonDebugMenuCommands.register("resetmoves", {
     "parent"      => "moves",
     "name"        => _INTL("Reset moves"),
