@@ -236,15 +236,17 @@ existingIndex)
         cmdStyle      = -1
         cmdAdaptiveAI = -1
         cmdOpenAR     = -1
+        cmdChangeHP   = -1
 
-        # Build the commands
-        commands[cmdRename = commands.length]       = _INTL("Rename")
-        commands[cmdSwapPokeBall = commands.length]   = _INTL("Swap Ball")
-        commands[cmdStyle = commands.length]        = _INTL("Set Style") if pbHasItem?(:STYLINGKIT)
         newspecies = @pkmn.check_evolution_on_level_up(false)
+        # Build the commands
+        commands[cmdAdaptiveAI = commands.length]   = _INTL("Adaptive AI") if TA.get(:adaptiveai)
+        commands[cmdChangeHP = commands.length]     = _INTL("Change HP")
         commands[cmdEvolve = commands.length]       = _INTL("Evolve") if newspecies
         commands[cmdOpenAR = commands.length]       = _INTL("Open AR") if TA.get(:customabil)
-        commands[cmdAdaptiveAI = commands.length]   = _INTL("Adaptive AI") if TA.get(:adaptiveai)
+        commands[cmdRename = commands.length]       = _INTL("Rename")
+        commands[cmdStyle = commands.length]        = _INTL("Set Style") if pbHasItem?(:STYLINGKIT)
+        commands[cmdSwapPokeBall = commands.length] = _INTL("Swap Ball")
         commands[commands.length]                   = _INTL("Cancel")
 
         modifyCommand = @partyScene.pbShowCommands(_INTL("Do what with {1}?", @pkmn.name), commands)
@@ -255,6 +257,20 @@ existingIndex)
                 @pkmn.name = currentName
             else
                 @pkmn.name = pbGet(5)
+            end
+        elsif cmdChangeHP >= 0 && modifyCommand == cmdChangeHP
+            if @pkmn.egg?
+              pbDisplay(_INTL("{1} is an egg.", @pkmn.name))
+            else
+              params = ChooseNumberParams.new
+              params.setRange(0, @pkmn.hp)
+              params.setDefaultValue(@pkmn.hp)
+              newhp = pbMessageChooseNumber(
+                 _INTL("Set {1}'s HP (max. {2}).", @pkmn.name, @pkmn.hp), params) { pbUpdate }
+              unless newhp == @pkmn.hp
+                @pkmn.hp = newhp
+                @partyScene.pbRefresh
+              end
             end
         elsif cmdSwapPokeBall >= 0 && modifyCommand == cmdSwapPokeBall
 			@pkmn.switchBall
