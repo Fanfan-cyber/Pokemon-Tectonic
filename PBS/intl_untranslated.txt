@@ -11771,6 +11771,8 @@ Healing
 Healing
 But {1} is already charged...
 But {1} is already charged...
+{1} was warned not to attack {2} again!
+{1} was warned not to attack {2} again!
 But a live wire already sits near {1}!
 But a live wire already sits near {1}!
 {1} forces its moves to be physical!
@@ -11783,6 +11785,10 @@ Transcending time and space, a cost-free switch!
 {1}'s new level is less than its<<r>><<n>>current level, which shouldn't happen.<<r>><<n>><<[>>Debug: {2}<<]>>
 {1}'s new level is greater than the level cap, which shouldn't happen.<<n>><<[>>Debug: {2}<<]>>
 {1}'s new level is greater than the level cap, which shouldn't happen.<<r>><<n>><<[>>Debug: {2}<<]>>
+{1} wants to learn {2}{4}, but it already knows {3} moves.
+{1} wants to learn {2}{4}, but it already knows {3} moves.
+<imp>(matched)</imp>
+<imp>(matched)</imp>
 Error: def pbGetOwnerIndexFromBattlerIndex gives invalid owner index ({1} for battle type {2}v{3}, trainers {4}v{5})
 Error: def pbGetOwnerIndexFromBattlerIndex gives invalid owner index ({1} for battle type {2}v{3}, trainers {4}v{5})
 Player-side trainer {1} has no battler position for their Pokémon to go (trying {2}v{3} battle)
@@ -11931,8 +11937,8 @@ Its Speed is halved, and it'll take more damage
 {1} is already waterlogged!
 {1} cannot be waterlogged!
 {1} cannot be waterlogged!
-It doesn't affect {1} because another Pokémon is already under this status!
-It doesn't affect {1} because another Pokémon is already under this status!
+It doesn't affect {1} because another Pokémon in the party is already under this status!
+It doesn't affect {1} because another Pokémon in the party is already under this status!
 {1} fell asleep! {2}!
 {1} fell asleep! {2}!
 {1} is waterlogged! {2}!
@@ -11941,6 +11947,8 @@ It doesn't affect {1} because another Pokémon is already under this status!
 {1} is waterlogged!
 {1} is no longer waterlogged.
 {1} is no longer waterlogged.
+{1} was forced into battle!
+{1} was forced into battle!
 {1} can't use {2} because of Disarming Shot!
 {1} can't use {2} because of Disarming Shot!
 {1} is jinxed! {2} failed to protect it!
@@ -11959,6 +11967,12 @@ Value #{name} cannot check if the value #{value} is active because its value #{v
 Value #{name} cannot check if the value #{value} is active because its value #{value} is invalid}
 Also, critical hits are now possible on all of {1}'s attacks!
 Also, critical hits are now possible on all of {1}'s attacks!
+{1} firmly planted its evil roots! It can't be moved!
+{1} firmly planted its evil roots! It can't be moved!
+The evil roots will sap foe health each turn!
+The evil roots will sap foe health each turn!
+{1} is sapped by the evil roots!
+{1} is sapped by the evil roots!
 {1} heard the Perish Song! It will take massive damage in {2} turns!
 {1} heard the Perish Song! It will take massive damage in {2} turns!
 {1} can't use blade-based moves for the next #{value - 1} turns!
@@ -12471,6 +12485,8 @@ You can't dismount your Bike here.
 You can't dismount your Bike here.
 Eggs can't be taught any moves.
 Eggs can't be taught any moves.
+{1} wants to learn {2}{4}, but it already knows {3} moves.<<1>>
+{1} wants to learn {2}{4}, but it already knows {3} moves.<<1>>
 {1} gained a Sweet-Tooth boosted {2} Exp. Points!
 {1} gained a Sweet-Tooth boosted {2} Exp. Points!
 You can't give {1} {2} because another Pokémon is holding the same item.
@@ -13697,6 +13713,10 @@ Extract Untranslated Text
 Extract Untranslated Text
 Extract all text in the game that isn't translated for the current language.
 Extract all text in the game that isn't translated for the current language.
+Extract Combined Text
+Extract Combined Text
+Extract all text in the game, including both translated and untranslated text.
+Extract all text in the game, including both translated and untranslated text.
 Compile Text
 Compile Text
 Import text and converts it into a language file.
@@ -14487,8 +14507,8 @@ Sorry, you got it wrong!
 1111111
 2222222
 2222222
-Upon entry, creates an Emotion Room for five turns, adding an ability every turn.
-Upon entry, creates an Emotion Room for five turns, adding an ability every turn.
+Upon entry, creates an Emotion Room for 5 turns, adding an ability every turn.
+Upon entry, creates an Emotion Room for 5 turns, adding an ability every turn.
 Copies opponents' species' legal Abilities.
 Copies opponents' species' legal Abilities.
 ,
@@ -14631,30 +14651,6 @@ The ice disappeared from the field!
 {1} slipped!
 It hurt itself!
 It hurt itself!
-{1} firmly planted its evil roots! It can't be moved!
-{1} firmly planted its evil roots! It can't be moved!
-The evil roots will sap foe health each turn!
-The evil roots will sap foe health each turn!
-{1} is sapped by the evil roots!
-{1} is sapped by the evil roots!
-{1} forced into battle!
-{1} forced into battle!
-{1} was forced into battle!
-{1} was forced into battle!
-{1} wants to learn {2}{4}, but it already knows {3} moves.
-{1} wants to learn {2}{4}, but it already knows {3} moves.
-(matched)
-(matched)
-{1} wants to learn {2}{4}, but it already knows {3} moves.<<1>>
-{1} wants to learn {2}{4}, but it already knows {3} moves.<<1>>
-<imp>(matched)</imp>
-<imp>(matched)</imp>
-Upon entry, creates an Emotion Room for 5 turns, adding an ability every turn.
-Upon entry, creates an Emotion Room for 5 turns, adding an ability every turn.
-{1} was warned not to attack {2} again!
-{1} was warned not to attack {2} again!
-It doesn't affect {1} because another Pokémon in the party is already under this status!
-It doesn't affect {1} because another Pokémon in the party is already under this status!
 [25]
 1
 Cool Ribbon

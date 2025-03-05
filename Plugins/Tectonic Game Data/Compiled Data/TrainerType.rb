@@ -104,6 +104,7 @@ module GameData
   
       # @return [String] the translated name of this trainer type
       def name
+        return @real_name # earthquake need to fix for translation
         return pbGetMessageFromHash(MessageTypes::TrainerTypes, @real_name)
       end
   

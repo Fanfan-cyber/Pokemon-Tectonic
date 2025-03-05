@@ -28,6 +28,16 @@ DebugMenuCommands.register("mysterygift", {
     }
   })
   
+  DebugMenuCommands.register("extractcombinedtext", {
+    "parent"      => "othermenu",
+    "name"        => _INTL("Extract Combined Text"),
+    "description" => _INTL("Extract all text in the game, including both translated and untranslated text."),
+    "always_show" => true,
+    "effect"      => proc {
+      pbExtractText(true, true)
+    }
+  })
+
   DebugMenuCommands.register("compiletext", {
     "parent"      => "othermenu",
     "name"        => _INTL("Compile Text"),

@@ -514,6 +514,60 @@ class Messages
     end
   end
 
+  def self.writeObjectCombined(f, msgs, sectionKey, secname, translatedMsgs)
+    return unless msgs
+    if msgs.is_a?(Array)
+      f.write("[#{secname}]\r\n")
+      msgs.each_with_index do |msg, j|
+        next if nil_or_empty?(msg)
+        origValue = Messages.normalizeValue(msg)
+        translatedValue = translatedMsgs.get(sectionKey, j)
+        translatedValue = Messages.normalizeValue(translatedValue) unless nil_or_empty?(translatedValue)
+        finalValue = (!nil_or_empty?(translatedValue) && translatedValue != origValue) ? translatedValue : origValue
+        f.write("#{j}\r\n")
+        f.write("#{origValue}\r\n")
+        f.write("#{finalValue}\r\n")
+      end
+    elsif msgs.is_a?(OrderedHash)
+      f.write("[#{secname}]\r\n")
+      keys = msgs.keys
+      for key in keys
+        next if nil_or_empty?(msgs[key])
+        origKey = Messages.normalizeValue(key)
+        origValue = Messages.normalizeValue(msgs[key])
+        translatedValue = nil
+        if translatedMsgs.messages[sectionKey]
+          id = Messages.stringToKey(key)
+          translatedValue = translatedMsgs.messages[sectionKey][id]
+        end
+        translatedValue = Messages.normalizeValue(translatedValue) unless nil_or_empty?(translatedValue)
+        finalValue = (!nil_or_empty?(translatedValue) && translatedValue != origValue) ? translatedValue : origValue
+        f.write("#{origKey}\r\n")
+        f.write("#{finalValue}\r\n")
+      end
+    end
+  end
+
+  def self.writeMapObjectCombined(f, msgs, mapNumber, secname, translatedMsgs)
+    return unless msgs
+    f.write("[#{secname}]\r\n")
+    keys = msgs.keys
+    for key in keys
+      next if nil_or_empty?(msgs[key])
+      origKey = Messages.normalizeValue(key)
+      origValue = Messages.normalizeValue(msgs[key])
+      translatedValue = nil
+      if translatedMsgs.messages[0][mapNumber]
+        id = Messages.stringToKey(key)
+        translatedValue = translatedMsgs.messages[0][mapNumber][id]
+      end
+      translatedValue = Messages.normalizeValue(translatedValue) unless nil_or_empty?(translatedValue)
+      finalValue = (!nil_or_empty?(translatedValue) && translatedValue != origValue) ? translatedValue : origValue
+      f.write("#{origKey}\r\n")
+      f.write("#{finalValue}\r\n")
+    end
+  end
+
   def messages
     return @messages || []
   end
@@ -542,7 +596,7 @@ class Messages
     }
   end
   
-  def extractUntranslated(outfile)
+  def extractUntranslated(outfile, combined = false)
     origMessages=Messages.new("Data/messages.dat")
     translatedMessages = Messages.new(languageDataFileName)
     File.open(outfile,"wb") { |f|
@@ -555,13 +609,21 @@ class Messages
       if origMessages.messages[0]
         for i in 0...origMessages.messages[0].length
           msgs=origMessages.messages[0][i]
-          Messages.writeMapObjectUntranslated(f,msgs,i,"Map#{i}",translatedMessages)
+          if combined
+            Messages.writeMapObjectCombined(f,msgs,i,"Map#{i}",translatedMessages)
+          else
+            Messages.writeMapObjectUntranslated(f,msgs,i,"Map#{i}",translatedMessages)
+          end
         end
       end
       # Other sections
       for i in 1...origMessages.messages.length
         msgs=origMessages.messages[i]
-        Messages.writeObjectUntranslated(f,msgs,i,i.to_s,translatedMessages)
+        if combined
+          Messages.writeObjectCombined(f,msgs,i,i.to_s,translatedMessages)
+        else
+          Messages.writeObjectUntranslated(f,msgs,i,i.to_s,translatedMessages)
+        end
       end
     }
   end
@@ -759,8 +821,8 @@ module MessageTypes
     @@messages.extract(outfile)
   end
   
-  def self.extractUntranslated(outfile)
-    @@messages.extractUntranslated(outfile)
+  def self.extractUntranslated(outfile, combined = false)
+    @@messages.extractUntranslated(outfile, combined)
   end
 
   def self.setMessages(type,array)

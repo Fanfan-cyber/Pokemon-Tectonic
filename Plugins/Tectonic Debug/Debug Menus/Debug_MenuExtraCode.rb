@@ -538,13 +538,14 @@ end
 #===============================================================================
 # Text import/export for localisation
 #===============================================================================
-def pbExtractText(untranslatedOnly = false)
+def pbExtractText(untranslatedOnly = false, combined = false)
     if untranslatedOnly && $Options.language == 0
         pbMessage(_INTL("Can only run this command when the game language isn't set to the default!"))
         return
     end
     msgwindow = pbCreateMessageWindow
     file_name = untranslatedOnly ? "intl_untranslated.txt" : "intl_.txt"
+    file_name = "intl_combined.txt" if combined
     if safeExists?("PBS\\#{file_name}") &&
        !pbConfirmMessageSerious(_INTL("{1} already exists. Overwrite it?", file_name))
         pbDisposeMessageWindow(msgwindow)
@@ -552,7 +553,7 @@ def pbExtractText(untranslatedOnly = false)
     end
     pbMessageDisplay(msgwindow, _INTL("Please wait.\\wtnp[0]"))
     if untranslatedOnly
-        MessageTypes.extractUntranslated("PBS\\#{file_name}")
+        MessageTypes.extractUntranslated("PBS\\#{file_name}", combined)
     else
         MessageTypes.extract("PBS\\#{file_name}")
     end
