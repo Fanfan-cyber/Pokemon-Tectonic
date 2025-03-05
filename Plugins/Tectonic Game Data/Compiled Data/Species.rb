@@ -209,6 +209,7 @@ module GameData
 
         # @return [String] the translated name of this species
         def name
+            return pbGetMessageFromHash(MessageTypes::SPECIES_HASH, @real_name) if is_chinese?
             return pbGetMessage(MessageTypes::Species, @id_number)
         end
 
@@ -705,6 +706,7 @@ module Compiler
         # Save all data
         GameData::Species.save
         MessageTypes.setMessages(MessageTypes::Species, species_names)
+        MessageTypes.setMessagesAsHash(MessageTypes::SPECIES_HASH, species_names)
         MessageTypes.setMessages(MessageTypes::FormNames, species_form_names)
         MessageTypes.setMessages(MessageTypes::Kinds, species_categories)
         MessageTypes.setMessages(MessageTypes::Entries, species_pokedex_entries)
@@ -906,6 +908,7 @@ module Compiler
         # Save all data
         GameData::Species.save
         MessageTypes.addMessages(MessageTypes::Species, species_names)
+        MessageTypes.addMessagesAsHash(MessageTypes::SPECIES_HASH, species_names)
         MessageTypes.addMessages(MessageTypes::FormNames, species_form_names)
         MessageTypes.addMessages(MessageTypes::Kinds, species_categories)
         MessageTypes.addMessages(MessageTypes::Entries, species_pokedex_entries)

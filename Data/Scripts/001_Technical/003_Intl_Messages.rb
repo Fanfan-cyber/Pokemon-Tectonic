@@ -435,6 +435,7 @@ class Messages
   def self.writeObject(f,msgs,secname,origMessages=nil)
     return if !msgs
     if msgs.is_a?(Array)
+      return if MessageTypes::NOT_NEED_OUTPUT.include?(secname.to_s)
       f.write("[#{secname}]\r\n")
       for j in 0...msgs.length
         next if nil_or_empty?(msgs[j])
@@ -465,7 +466,8 @@ class Messages
   
   def self.writeObjectUntranslated(f,msgs,sectionKey,secname,translatedMsgs)
     return if !msgs
-    if msgs.is_a?(Array)     
+    if msgs.is_a?(Array)
+      return if MessageTypes::NOT_NEED_OUTPUT.include?(sectionKey.to_s)
       f.write("[#{secname}]\r\n")
       for j in 0...msgs.length
         next if nil_or_empty?(msgs[j])
@@ -517,6 +519,7 @@ class Messages
   def self.writeObjectCombined(f, msgs, sectionKey, secname, translatedMsgs)
     return unless msgs
     if msgs.is_a?(Array)
+      return if MessageTypes::NOT_NEED_OUTPUT.include?(sectionKey.to_s)
       f.write("[#{secname}]\r\n")
       msgs.each_with_index do |msg, j|
         next if nil_or_empty?(msg)
@@ -757,8 +760,10 @@ end
 
 
 module MessageTypes
+  NOT_NEED_OUTPUT    = %w[1]
   # Value 0 is used for common event and map event text
   Species            = 1
+  SPECIES_HASH       = 111
   Kinds              = 2
   Entries            = 3
   FormNames          = 4

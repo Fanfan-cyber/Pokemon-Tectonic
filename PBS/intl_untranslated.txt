@@ -640,8 +640,6 @@ Do you wish to battle?
 Do you wish to battle?
 You've found Pria, a designer, audio engineer and video producer.
 You've found Pria, a designer, audio engineer and video producer.
-You've found Zinnia, Lead Designer and Lead Programmer.
-You've found Zinnia, Lead Designer and Lead Programmer.
 [Map179]
 Do you wish to battle?
 Do you wish to battle?
@@ -1232,322 +1230,6 @@ Return the Flora Sceptre and Reins of Unity?
 Return the Flora Sceptre and Reins of Unity?
 [Map445]
 [Map446]
-[1]
-935
-Guzzlord
-Guzzlord
-936
-Poipole
-Poipole
-937
-Naganadel
-Naganadel
-938
-Stakataka
-Stakataka
-939
-Blacephalon
-Blacephalon
-940
-Magearna
-Magearna
-941
-Marshadow
-Marshadow
-942
-Zeraora
-Zeraora
-943
-Meltan
-Meltan
-944
-Melmetal
-Melmetal
-945
-Grookey
-Grookey
-946
-Thwackey
-Thwackey
-947
-Rillaboom
-Rillaboom
-948
-Scorbunny
-Scorbunny
-949
-Raboot
-Raboot
-950
-Cinderace
-Cinderace
-951
-Sobble
-Sobble
-952
-Drizzile
-Drizzile
-953
-Inteleon
-Inteleon
-954
-Skwovet
-Skwovet
-955
-Greedent
-Greedent
-956
-Rookidee
-Rookidee
-957
-Corvisquire
-Corvisquire
-958
-Corviknight
-Corviknight
-959
-Blipbug
-Blipbug
-960
-Dottler
-Dottler
-961
-Orbeetle
-Orbeetle
-962
-Nickit
-Nickit
-963
-Thievul
-Thievul
-964
-Gossifleur
-Gossifleur
-965
-Eldegoss
-Eldegoss
-966
-Wooloo
-Wooloo
-967
-Dubwool
-Dubwool
-968
-Chewtle
-Chewtle
-969
-Drednaw
-Drednaw
-970
-Seismaw
-Seismaw
-971
-Yamper
-Yamper
-972
-Boltund
-Boltund
-973
-Rolycoly
-Rolycoly
-974
-Carkol
-Carkol
-975
-Coalossal
-Coalossal
-976
-Applin
-Applin
-977
-Flapple
-Flapple
-978
-Appletun
-Appletun
-979
-Silicobra
-Silicobra
-980
-Sandaconda
-Sandaconda
-981
-Saharicane
-Saharicane
-982
-Cramorant
-Cramorant
-983
-Arrokuda
-Arrokuda
-984
-Barraskewda
-Barraskewda
-985
-Toxel
-Toxel
-986
-Toxtricity
-Toxtricity
-987
-Arclamor
-Arclamor
-988
-Sizzlipede
-Sizzlipede
-989
-Centiskorch
-Centiskorch
-990
-Milliblaze
-Milliblaze
-991
-Clobbopus
-Clobbopus
-992
-Grapploct
-Grapploct
-993
-Sinistea
-Sinistea
-994
-Polteageist
-Polteageist
-995
-M. Sinistea
-M. Sinistea
-996
-M. Polteageist
-M. Polteageist
-997
-Hatenna
-Hatenna
-998
-Hattrem
-Hattrem
-999
-Hatterene
-Hatterene
-1000
-Impidimp
-Impidimp
-1001
-Morgrem
-Morgrem
-1002
-Grimmsnarl
-Grimmsnarl
-1003
-Milcery
-Milcery
-1004
-Alcremie
-Alcremie
-1005
-Blasfemmie
-Blasfemmie
-1006
-Falinks
-Falinks
-1007
-Pincurchin
-Pincurchin
-1008
-Snom
-Snom
-1009
-Frosmoth
-Frosmoth
-1010
-Stonjourner
-Stonjourner
-1011
-Eiscue
-Eiscue
-1012
-Indeedee
-Indeedee
-1013
-Morpeko
-Morpeko
-1014
-Cufant
-Cufant
-1015
-Copperajah
-Copperajah
-1016
-Digniphite
-Digniphite
-1017
-Dracozolt
-Dracozolt
-1018
-Arctozolt
-Arctozolt
-1019
-Dracovish
-Dracovish
-1020
-Arctovish
-Arctovish
-1021
-Duraludon
-Duraludon
-1022
-Towerpoda
-Towerpoda
-1023
-Dreepy
-Dreepy
-1024
-Drakloak
-Drakloak
-1025
-Dragapult
-Dragapult
-1026
-Zacian
-Zacian
-1027
-Zamazenta
-Zamazenta
-1028
-Eternatus
-Eternatus
-1029
-Kubfu
-Kubfu
-1030
-Urshifu
-Urshifu
-1031
-Zarude
-Zarude
-1032
-Glastrier
-Glastrier
-1033
-Spectrier
-Spectrier
-1034
-Calyrex
-Calyrex
-5000
-Test Pokemon
-Test Pokemon
-5001
-Test Pokemon 2
-Test Pokemon 2
-5219
-M. Aromatisse
-M. Aromatisse
-5220
-Basculin
-Basculin
-5221
-Test Pokemon
-Test Pokemon
 [2]
 935
 Junkivore
@@ -3050,16 +2732,10 @@ Enables random critical hits for the user, and quadruples its critical hit chanc
 Enables random critical hits for the user, and quadruples its critical hit chance.
 The user draws attention to itself, making all targets take aim only at the user this turn.
 The user draws attention to itself, making all targets take aim only at the user this turn.
-The target is raked two to five times. Can random critical hit.
-The target is raked two to five times. Can random critical hit.
 The user sticks out its head and attacks by charging into the foe. It has a 50% chance to numb.
 The user sticks out its head and attacks by charging into the foe. It has a 50% chance to numb.
 The foe is forced to switch out to a random ally. Always goes last.
 The foe is forced to switch out to a random ally. Always goes last.
-Hard, pointed, and sharp claws rake the target to inflict damage. Can random critical hit.
-Hard, pointed, and sharp claws rake the target to inflict damage. Can random critical hit.
-The target is attacked with a slash of claws or blades. Can random critical hit.
-The target is attacked with a slash of claws or blades. Can random critical hit.
 An attack that can be used only if the user is asleep.
 An attack that can be used only if the user is asleep.
 A barrage of two to five star-shaped rays are shot at the opposing team. Can't miss and skips protections.
@@ -3068,16 +2744,8 @@ Used only if the user has no PP. It also hurts the user.
 Used only if the user has no PP. It also hurts the user.
 The user consumes its Stockpile to heal for 50% max HP per charge. This can overheal.
 The user consumes its Stockpile to heal for 50% max HP per charge. This can overheal.
-The user delivers a double chop with its forearms crossed. Can random critical hit.
-The user delivers a double chop with its forearms crossed. Can random critical hit.
-The target is attacked with a sharp chop. Can random critical hit.
-The target is attacked with a sharp chop. Can random critical hit.
 Attacks wildly with swords or fists. The user must rest on the next turn, however.
 Attacks wildly with swords or fists. The user must rest on the next turn, however.
-A vortex of air is shot at the target to inflict damage. Can random critical hit.
-A vortex of air is shot at the target to inflict damage. Can random critical hit.
-A corkscrewing attack with the sharp beak acting as a drill. Can random critical hit.
-A corkscrewing attack with the sharp beak acting as a drill. Can random critical hit.
 The target is jabbed with a sharply pointed beak or horn. Can random critical hit.
 The target is jabbed with a sharply pointed beak or horn. Can random critical hit.
 The user coils up and concentrates. This raises its Attack, Defense, and Accuracy by two steps each.
@@ -3086,8 +2754,6 @@ A slashing attack with a poisonous blade. Can random critical hit.
 A slashing attack with a poisonous blade. Can random critical hit.
 The user hits the target with its tail. Can random critical hit.
 The user hits the target with its tail. Can random critical hit.
-The user crashes into its target while rotating its body like a drill. Can random critical hit.
-The user crashes into its target while rotating its body like a drill. Can random critical hit.
 Gravity is intensified for five turns, forcing Pokémon down from the air and doubling all move Accuracy.
 Gravity is intensified for five turns, forcing Pokémon down from the air and doubling all move Accuracy.
 The user whips up a storm of diamonds to damage foes, raising its Defense and Sp. Def.
@@ -3102,16 +2768,10 @@ The user attacks with a beam of light. It has a 30% chance to dizzy.
 The user attacks with a beam of light. It has a 30% chance to dizzy.
 The user rolls over its foes, crushing them. It has a 30% chance to reduce the target's Defense.
 The user rolls over its foes, crushing them. It has a 30% chance to reduce the target's Defense.
-The user slashes at the foe by crossing its scythes or claws. Can random critical hit.
-The user slashes at the foe by crossing its scythes or claws. Can random critical hit.
-The user slashes with a sharp claw made from shadows. Can random critical hit.
-The user slashes with a sharp claw made from shadows. Can random critical hit.
 The user focuses intensely. For the next three turns, its attacks will be guarenteed critical hits.
 The user focuses intensely. For the next three turns, its attacks will be guarenteed critical hits.
 The user launches a fiery kick. It has a 10% chance to burn.
 The user launches a fiery kick. It has a 10% chance to burn.
-The target is hammered with a large pincer. Can random critical hit.
-The target is hammered with a large pincer. Can random critical hit.
 The target is struck with a supersonic water blast. Can random critical hit.
 The target is struck with a supersonic water blast. Can random critical hit.
 It swamps the area with a giant wave, hitting every battler nearby. Has a 10% chance to waterlog.
@@ -3126,12 +2786,6 @@ A nutrient-draining attack. The user's HP is restored by 50% of the damage dealt
 A nutrient-draining attack. The user's HP is restored by 50% of the damage dealt.
 The user's body grows all at once, raising Atk and Sp. Atk by two steps each, or 4 in sunshine.
 The user's body grows all at once, raising Atk and Sp. Atk by two steps each, or 4 in sunshine.
-The user attacks by pelting the target with leaves. Can random critical hit.
-The user attacks by pelting the target with leaves. Can random critical hit.
-The user handles a sharp leaf like a sword and attacks by slashing. Can random critical hit.
-The user handles a sharp leaf like a sword and attacks by slashing. Can random critical hit.
-Sharp-edged leaves are launched to slash at the opposing team. Can random critical hit.
-Sharp-edged leaves are launched to slash at the opposing team. Can random critical hit.
 The user charges, then attacks on the second turn. Charges instantly in sunshine.
 The user charges, then attacks on the second turn. Charges instantly in sunshine.
 Attacks by gliding on the ground. This move always goes first in sunshine.
@@ -3144,14 +2798,10 @@ The user attacks everything around it. The user's HP is restored by 50% of the d
 The user attacks everything around it. The user's HP is restored by 50% of the damage dealt.
 The target is attacked with a peculiar ray. It has a 30% chance to dizzy.
 The target is attacked with a peculiar ray. It has a 30% chance to dizzy.
-The user tears at the target with blades formed by psychic power. Can random critical hit.
-The user tears at the target with blades formed by psychic power. Can random critical hit.
 This move reduces damage from attacks for five turns. This can be used only in hail.
 This move reduces damage from attacks for five turns. This can be used only in hail.
 The user forces the target to switch out, to be replaced at random. Always goes last.
 The user forces the target to switch out, to be replaced at random. Always goes last.
-The user tears the target along with the space around it. Can random critical hit.
-The user tears the target along with the space around it. Can random critical hit.
 A small tornado hits the target. It has a 30% chance to make targets flinch.
 A small tornado hits the target. It has a 30% chance to make targets flinch.
 The target is bitten with viciously sharp fangs. It has a 20% chance to lower Defense.
@@ -3160,8 +2810,6 @@ The user sharpens its claws to raise its Attack and Accuracy by three steps each
 The user sharpens its claws to raise its Attack and Accuracy by three steps each.
 The user slaps the target to knock off their item.
 The user slaps the target to knock off their item.
-The user slashes the target the instant an opportunity arises. Can random critical hit.
-The user slashes the target the instant an opportunity arises. Can random critical hit.
 The user stirs up a fairy wind and strikes the target with it.
 The user stirs up a fairy wind and strikes the target with it.
 The user attacks the target by emitting steam. It has a 30% chance to dizzy.
@@ -3180,16 +2828,10 @@ The user spins the target with a cleansing vortex. It has a 30% chance to waterl
 The user spins the target with a cleansing vortex. It has a 30% chance to waterlog.
 The target is struck by a pulse of negative energy. This resets the target's stat changes.
 The target is struck by a pulse of negative energy. This resets the target's stat changes.
-The target is cut by a clean slice. Can random critical hit, and does so twice as often.
-The target is cut by a clean slice. Can random critical hit, and does so twice as often.
 The user switches out to a party Pokémon in waiting. Always goes last.
 The user switches out to a party Pokémon in waiting. Always goes last.
 Enables random critical hits for the user, quadruples its critical hit chance, and raises its Speed by 2 steps.
 Enables random critical hits for the user, quadruples its critical hit chance, and raises its Speed by 2 steps.
-The user shoots three arrows made of Aura with extreme precision. Can random critical hit.
-The user shoots three arrows made of Aura with extreme precision. Can random critical hit.
-The user relentlessly attacks with its whip-like hands for three turns. Can random critical hit.
-The user relentlessly attacks with its whip-like hands for three turns. Can random critical hit.
 A high pitched screech lowers the target's Defense, Sp. Def, and Evasion by three steps each. Can't miss and skips protections.
 A high pitched screech lowers the target's Defense, Sp. Def, and Evasion by three steps each. Can't miss and skips protections.
 The target is jabbed repeatedly with a horn or beak two to five times in a row. Can random critical hit.
@@ -3206,10 +2848,6 @@ The user blasts the target with highly pressurized sand. Can random critical hit
 The user blasts the target with highly pressurized sand. Can random critical hit.
 The user bludgeons the target's arms and legs with a large rock. This has a 50% chance to fracture it.
 The user bludgeons the target's arms and legs with a large rock. This has a 50% chance to fracture it.
-The user attacks with the bright glint of crystals. Can random critical hit.
-The user attacks with the bright glint of crystals. Can random critical hit.
-The user calls up spikes of diamond. Can random critical hit.
-The user calls up spikes of diamond. Can random critical hit.
 The user weakens the target's bones, making them fracture. They deal 33% less damage.
 The user weakens the target's bones, making them fracture. They deal 33% less damage.
 The user numbs the target, then summons sandstorm for eight turns.
@@ -3248,8 +2886,6 @@ The user makes a plea for survival, halving the damage their side takes from non
 The user makes a plea for survival, halving the damage their side takes from non-attack sources for 8 turns.
 The user sheds a huge volley of scales at the target. Lands without fail and lowers the user's Sp. Def and Speed.
 The user sheds a huge volley of scales at the target. Lands without fail and lowers the user's Sp. Def and Speed.
-The user slashes using woven silk, lowering the user's Attack by four steps. Can random critical hit.
-The user slashes using woven silk, lowering the user's Attack by four steps. Can random critical hit.
 The user stabs the target, injecting a painful chemical. It has a 30% chance to poison.
 The user stabs the target, injecting a painful chemical. It has a 30% chance to poison.
 The user soothes the target, lowering its Speed by 4 steps. If in hail, they also become drowsy.
@@ -3276,8 +2912,6 @@ Summons sunshine for five turns on the first turn, then overwhelms the foe with 
 Summons sunshine for five turns on the first turn, then overwhelms the foe with fiery light on the second.
 The user burns the target, then welcomes in sunshine for eight turns.
 The user burns the target, then welcomes in sunshine for eight turns.
-A lance of fire pierces the target from above, lowering their Sp. Atk. Can random critical hit, and does so twice as often.
-A lance of fire pierces the target from above, lowering their Sp. Atk. Can random critical hit, and does so twice as often.
 The user conserves for future attacks. This raises its Sp. Atk, Sp. Def, and Accuracy by two steps each.
 The user conserves for future attacks. This raises its Sp. Atk, Sp. Def, and Accuracy by two steps each.
 The user launches a concentrated ball of searing white flame. Can random critical hit.
@@ -3294,8 +2928,6 @@ The user rams the target while splashing up a lot of water. This has a 30% chanc
 The user rams the target while splashing up a lot of water. This has a 30% chance to waterlog.
 The user wields tidal power to grab at the target. This has a 10% chance to waterlog.
 The user wields tidal power to grab at the target. This has a 10% chance to waterlog.
-The user uses a jet of water like a sword and attacks by slashing. Can random critical hit.
-The user uses a jet of water like a sword and attacks by slashing. Can random critical hit.
 The target is doused with water in order to waterlog it.
 The target is doused with water in order to waterlog it.
 The user crashes into the target with the force of a large wave. This has a 30% chance to lower Defense.
@@ -3308,14 +2940,10 @@ The user and the target pit their energy against one another. The damage is base
 The user and the target pit their energy against one another. The damage is based on the target's Sp. Atk rather than their Sp. Def.
 The user breaks down all insulation to send a barrage of electricity for three turns.
 The user breaks down all insulation to send a barrage of electricity for three turns.
-The user harnesses a blade of lightning and slices at the target. Can random critical hit.
-The user harnesses a blade of lightning and slices at the target. Can random critical hit.
 The user slams down into the target with electricity. It has a 10% chance to numb.
 The user slams down into the target with electricity. It has a 10% chance to numb.
 The user lays an electrical hazard which hurts foes that switch into battle. It deals double damage in rainstorm.
 The user lays an electrical hazard which hurts foes that switch into battle. It deals double damage in rainstorm.
-The user slices with claws of light that have a 50% chance to numb. Can random critical hit.
-The user slices with claws of light that have a 50% chance to numb. Can random critical hit.
 Turns the foe's power against it, dealing damage using the target's Sp. Atk stat.
 Turns the foe's power against it, dealing damage using the target's Sp. Atk stat.
 The user creates an electric fueled cage, trapping and damaging it for three turns.
@@ -3338,12 +2966,8 @@ The target is hit by a weak telekinetic force. It has a 10% chance to lower the 
 The target is hit by a weak telekinetic force. It has a 10% chance to lower the target's Sp. Def.
 Unveiling its ears, the released psychic power causes the user to attack 2 to 5 times each for three turns.
 Unveiling its ears, the released psychic power causes the user to attack 2 to 5 times each for three turns.
-The user cuts using scissor-like blades of psychic energy. Can random critical hit.
-The user cuts using scissor-like blades of psychic energy. Can random critical hit.
 The target is scrutinized, damaging their psyche. Can random critical hit.
 The target is scrutinized, damaging their psyche. Can random critical hit.
-The user peruses its kingly stores of knowledge, selecting three random non-Psychic attacks. You choose which one it uses.
-The user peruses its kingly stores of knowledge, selecting three random non-Psychic attacks. You choose which one it uses.
 The user takes control of the target's mind to unleash an attack on it. Can random critical hit.
 The user takes control of the target's mind to unleash an attack on it. Can random critical hit.
 The target is put to sleep via a deep freeze. The user must rest on the next turn to regain its energy.
@@ -3356,8 +2980,6 @@ The user frostbites the target, then welcomes in hail for eight turns.
 The user frostbites the target, then welcomes in hail for eight turns.
 The user makes the target to trip into a huge pile of snow, damaging them and summoning hail for eight turns.
 The user makes the target to trip into a huge pile of snow, damaging them and summoning hail for eight turns.
-The user hunts with its allies. The more party Pokémon, the more damage. Can random critical hit.
-The user hunts with its allies. The more party Pokémon, the more damage. Can random critical hit.
 Protects the user from attacks. If an eclipse is active, extends it by one turn. Fails if used in succession.
 Protects the user from attacks. If an eclipse is active, extends it by one turn. Fails if used in succession.
 The user whips up a tornado to tear at the target. It has a 30% chance to make them flinch.
@@ -3378,10 +3000,6 @@ For the rest of the round, the healing of all damaged Pokémon is reversed.
 For the rest of the round, the healing of all damaged Pokémon is reversed.
 The target is dragged viciously through water. This has a 30% chance to waterlog.
 The target is dragged viciously through water. This has a 30% chance to waterlog.
-The user tries to surprise-attack the target. Cannot miss in moonglow. Can random critical hit.
-The user tries to surprise-attack the target. Cannot miss in moonglow. Can random critical hit.
-The user hacks at the target with great violence. Can random critical hit.
-The user hacks at the target with great violence. Can random critical hit.
 Explodes, dealing an extra 30 base power to all foes for each layer of spikes underneath them. The user faints.
 Explodes, dealing an extra 30 base power to all foes for each layer of spikes underneath them. The user faints.
 The user assists an ally by boosting the power and Accuracy of its next attack by 50%.
@@ -3518,16 +3136,10 @@ It enables the user to evade all attacks. It always fails if it is used in succe
 It enables the user to evade all attacks. It always fails if it is used in succession.
 The user unleashes a vital energy wave. The lower the user's HP, the less powerful it becomes.
 The user unleashes a vital energy wave. The lower the user's HP, the less powerful it becomes.
-The user launches razor-like wind to slash the opposing team. Can random critical hit.
-The user launches razor-like wind to slash the opposing team. Can random critical hit.
-A two-turn attack. Blades of wind hit the foe on the second turn. Can random critical hit.
-A two-turn attack. Blades of wind hit the foe on the second turn. Can random critical hit.
 The user expels strong stomache acid to corrode the target. Super effective against Steel-types.
 The user expels strong stomache acid to corrode the target. Super effective against Steel-types.
 The user surrounds everything around it with highly acidic gas and melts away items they hold.
 The user surrounds everything around it with highly acidic gas and melts away items they hold.
-The user lashes out with its claws. 50% chance to poison. Can random critical hit.
-The user lashes out with its claws. 50% chance to poison. Can random critical hit.
 The user hurls up its stomach acids on the foe. The fluid negates the effect of the target's Ability.
 The user hurls up its stomach acids on the foe. The fluid negates the effect of the target's Ability.
 The user scatters a cloud of poisonous dust on the target. It poisons the target.
@@ -11057,12 +10669,46 @@ W:{1}  L:{2}
 {1} (PP: {2}/{3})
 Send to TC
 Send to TC
-Swap Ball
-Swap Ball
-Open AR
-Open AR
 Adaptive AI
 Adaptive AI
+Open AR
+Open AR
+Set Gender
+Set Gender
+Set HP
+Set HP
+Set Status
+Set Status
+Swap Ball
+Swap Ball
+{1} is an egg.
+{1} is an egg.
+Set {1}'s HP (max. {2}).
+Set {1}'s HP (max. {2}).
+{1} is single-gendered or genderless.
+{1} is single-gendered or genderless.
+Gender is male.
+Gender is male.
+Gender is female.
+Gender is female.
+Make male
+Make male
+Make female
+Make female
+Reset
+Reset
+{1}'s gender couldn't be changed.
+{1}'s gender couldn't be changed.
+{1} is fainted, can't change status.
+{1} is fainted, can't change status.
+<<[>>Cure<<]>>
+<<[>>Cure<<]>>
+Set {1}'s status.
+Set {1}'s status.
+{1} has no status now.
+{1} has no status now.
+Set the Pokémon's sleep count.
+Set the Pokémon's sleep count.
 Game State
 Game State
 Welcome, VIP! I hope you are satisfied with our services.
@@ -11449,8 +11095,6 @@ Order
 Order
 Shape
 Shape
-Reset
-Reset
 Start
 Start
 Store Search and Exit
@@ -11611,8 +11255,6 @@ Sort by what?
 Sort by what?
 <c3=F8F8F8,C02028>SEEN<r>OBTAINED</c3>
 <c3=F8F8F8,C02028>SEEN<r>OBTAINED</c3>
-Defeat Bence and Zoé, leaders of Prizca West gym. Prizca West is north of the Eleig River Crossing. Their Gym is found in the southern of the two central blocks.
-Defeat Bence and Zoé, leaders of Prizca West gym. Prizca West is north of the Eleig River Crossing. Their Gym is found in the southern of the two central blocks.
 BY LEVEL
 BY LEVEL
 BY OTHER
@@ -11701,8 +11343,6 @@ But it failed, since #{target.pbThis(true)} is already being helped!
 But it failed, since #{target.pbThis(true)} is already being helped!
 \ts[]<c3=4C0D0D,FFFFFF22><b><outln2><ac><fs={1}>\w[]\wu\l[12]{2}</fs></ac></outln2></b></c3>\wt[{3}]
 \ts[]<c3=4C0D0D,FFFFFF22><b><outln2><ac><fs={1}>\w[]\wu\l[12]{2}</fs></ac></outln2></b></c3>\wt[{3}]
-{1} inspects its status conditions.
-{1} inspects its status conditions.
 {1} is getting used to the harsh conditions!
 {1} is getting used to the harsh conditions!
 TODO
@@ -13009,24 +12649,10 @@ Mystery Gifts, translations, compile data, etc.
 Mystery Gifts, translations, compile data, etc.
 HP/Status...
 HP/Status...
-Set HP
-Set HP
-{1} is an egg.
-{1} is an egg.
-Set {1}'s HP (max. {2}).
-Set {1}'s HP (max. {2}).
 Set status
 Set status
-{1} is fainted, can't change status.
-{1} is fainted, can't change status.
-<<[>>Cure<<]>>
-<<[>>Cure<<]>>
-Set {1}'s status.
-Set {1}'s status.
 {1}'s status was cured.
 {1}'s status was cured.
-Set the Pokémon's sleep count.
-Set the Pokémon's sleep count.
 Fully heal
 Fully heal
 {1} was fully healed.
@@ -13095,6 +12721,10 @@ Forget move
 Forget move
 {1} forgot {2}.
 {1} forgot {2}.
+Forget all moves
+Forget all moves
+{1} has forgot all moves.
+{1} has forgot all moves.
 Reset moves
 Reset moves
 {1}'s moves were reset.
@@ -13149,18 +12779,6 @@ Choose an ability.
 Choose an ability.
 Set gender
 Set gender
-{1} is single-gendered or genderless.
-{1} is single-gendered or genderless.
-Gender is male.
-Gender is male.
-Gender is female.
-Gender is female.
-Make male
-Make male
-Make female
-Make female
-{1}'s gender couldn't be changed.
-{1}'s gender couldn't be changed.
 Species/form...
 Species/form...
 Species {1}, form {2}.
@@ -15660,3 +15278,2076 @@ Capture a legendary Pokémon in a regular Poké Ball (thrown normally or created
 Capture a legendary Pokémon in a regular Poké Ball (thrown normally or created by the Ball Launcher.)
 After being crowned champion, defeat Pokémon Master Vanya with a full team of genderless Pokémon.
 After being crowned champion, defeat Pokémon Master Vanya with a full team of genderless Pokémon.
+[111]
+Bulbasaur
+Bulbasaur
+Ivysaur
+Ivysaur
+Venusaur
+Venusaur
+Charmander
+Charmander
+Charmeleon
+Charmeleon
+Charizard
+Charizard
+Squirtle
+Squirtle
+Wartortle
+Wartortle
+Blastoise
+Blastoise
+Caterpie
+Caterpie
+Metapod
+Metapod
+Butterfree
+Butterfree
+Papellumen
+Papellumen
+Weedle
+Weedle
+Kakuna
+Kakuna
+Beedrill
+Beedrill
+Wornet
+Wornet
+Pidgey
+Pidgey
+Pidgeotto
+Pidgeotto
+Pidgeot
+Pidgeot
+Rattata
+Rattata
+Raticate
+Raticate
+A. Rattata
+A. Rattata
+A. Raticate
+A. Raticate
+Spearow
+Spearow
+Fearow
+Fearow
+Ekans
+Ekans
+Arbok
+Arbok
+Pichu
+Pichu
+Pikachu
+Pikachu
+Raichu
+Raichu
+Gigachu
+Gigachu
+A. Raichu
+A. Raichu
+Sandshrew
+Sandshrew
+Sandslash
+Sandslash
+A. Sandshrew
+A. Sandshrew
+A. Sandslash
+A. Sandslash
+Nidoran-F
+Nidoran-F
+Nidorina
+Nidorina
+Nidoqueen
+Nidoqueen
+Nidoran-M
+Nidoran-M
+Nidorino
+Nidorino
+Nidoking
+Nidoking
+Cleffa
+Cleffa
+Clefairy
+Clefairy
+Clefable
+Clefable
+Vulpix
+Vulpix
+Ninetales
+Ninetales
+A. Vulpix
+A. Vulpix
+A. Ninetales
+A. Ninetales
+M. Vulpix
+M. Vulpix
+M. Ninetales
+M. Ninetales
+Igglybuff
+Igglybuff
+Jigglypuff
+Jigglypuff
+Wigglytuff
+Wigglytuff
+Zubat
+Zubat
+Golbat
+Golbat
+Crobat
+Crobat
+Oddish
+Oddish
+Gloom
+Gloom
+Vileplume
+Vileplume
+Bellossom
+Bellossom
+Paras
+Paras
+Parasect
+Parasect
+Venonat
+Venonat
+Venomoth
+Venomoth
+Diglett
+Diglett
+Dugtrio
+Dugtrio
+A. Diglett
+A. Diglett
+A. Dugtrio
+A. Dugtrio
+Meowth
+Meowth
+Persian
+Persian
+Nibelong
+Nibelong
+A. Meowth
+A. Meowth
+A. Persian
+A. Persian
+G. Meowth
+G. Meowth
+Perrserker
+Perrserker
+Psyduck
+Psyduck
+Golduck
+Golduck
+Mankey
+Mankey
+Primeape
+Primeape
+Annihilape
+Annihilape
+Growlithe
+Growlithe
+Arcanine
+Arcanine
+H. Growlithe
+H. Growlithe
+H. Arcanine
+H. Arcanine
+Poliwag
+Poliwag
+Poliwhirl
+Poliwhirl
+Poliwrath
+Poliwrath
+Politoed
+Politoed
+Abra
+Abra
+Kadabra
+Kadabra
+Alakazam
+Alakazam
+Machop
+Machop
+Machoke
+Machoke
+Machamp
+Machamp
+Bellsprout
+Bellsprout
+Weepinbell
+Weepinbell
+Victreebel
+Victreebel
+Tentacool
+Tentacool
+Tentacruel
+Tentacruel
+Geodude
+Geodude
+Graveler
+Graveler
+Golem
+Golem
+A. Geodude
+A. Geodude
+A. Graveler
+A. Graveler
+A. Golem
+A. Golem
+Ponyta
+Ponyta
+Rapidash
+Rapidash
+G. Ponyta
+G. Ponyta
+G. Rapidash
+G. Rapidash
+Slowpoke
+Slowpoke
+Slowbro
+Slowbro
+Slowking
+Slowking
+G. Slowpoke
+G. Slowpoke
+G. Slowbro
+G. Slowbro
+G. Slowking
+G. Slowking
+Magnemite
+Magnemite
+Magneton
+Magneton
+Magnezone
+Magnezone
+Farfetch'd
+Farfetch'd
+G. Farfetch'd
+G. Farfetch'd
+Sirfetch'd
+Sirfetch'd
+Doduo
+Doduo
+Dodrio
+Dodrio
+Seel
+Seel
+Dewgong
+Dewgong
+Grimer
+Grimer
+Muk
+Muk
+A. Grimer
+A. Grimer
+A. Muk
+A. Muk
+Shellder
+Shellder
+Cloyster
+Cloyster
+Gastly
+Gastly
+Haunter
+Haunter
+Gengar
+Gengar
+Onix
+Onix
+Steelix
+Steelix
+Titanix
+Titanix
+Drowzee
+Drowzee
+Hypno
+Hypno
+Krabby
+Krabby
+Kingler
+Kingler
+Klawsar
+Klawsar
+Voltorb
+Voltorb
+Electrode
+Electrode
+H. Voltorb
+H. Voltorb
+H. Electrode
+H. Electrode
+Exeggcute
+Exeggcute
+Exeggutor
+Exeggutor
+A. Exeggutor
+A. Exeggutor
+Cubone
+Cubone
+Marowak
+Marowak
+A. Marowak
+A. Marowak
+Tyrogue
+Tyrogue
+Hitmonlee
+Hitmonlee
+Hitmonchan
+Hitmonchan
+Hitmontop
+Hitmontop
+Lickitung
+Lickitung
+Lickilicky
+Lickilicky
+Koffing
+Koffing
+Weezing
+Weezing
+G. Weezing
+G. Weezing
+Rhyhorn
+Rhyhorn
+Rhydon
+Rhydon
+Rhyperior
+Rhyperior
+Happiny
+Happiny
+Chansey
+Chansey
+Blissey
+Blissey
+Tangela
+Tangela
+Tangrowth
+Tangrowth
+M. Tangela
+M. Tangela
+M. Tangrowth
+M. Tangrowth
+Kangaskhan
+Kangaskhan
+Teamujin
+Teamujin
+Horsea
+Horsea
+Seadra
+Seadra
+Kingdra
+Kingdra
+Goldeen
+Goldeen
+Seaking
+Seaking
+M. Goldeen
+M. Goldeen
+M. Seaking
+M. Seaking
+Staryu
+Staryu
+Starmie
+Starmie
+Mime Jr.
+Mime Jr.
+Mr. Mime
+Mr. Mime
+G. Mr. Mime
+G. Mr. Mime
+Mr. Rime
+Mr. Rime
+Scyther
+Scyther
+Scizor
+Scizor
+Reavor
+Reavor
+Kleavor
+Kleavor
+Smoochum
+Smoochum
+Jynx
+Jynx
+Elekid
+Elekid
+Electabuzz
+Electabuzz
+Electivire
+Electivire
+Magby
+Magby
+Magmar
+Magmar
+Magmortar
+Magmortar
+Pinsir
+Pinsir
+Scarapace
+Scarapace
+Heracross
+Heracross
+Atlacross
+Atlacross
+Tauros
+Tauros
+Miltank
+Miltank
+Magikarp
+Magikarp
+Gyarados
+Gyarados
+Lapras
+Lapras
+Saurenaid
+Saurenaid
+Ditto
+Ditto
+Eevee
+Eevee
+Vaporeon
+Vaporeon
+Jolteon
+Jolteon
+Flareon
+Flareon
+Espeon
+Espeon
+Umbreon
+Umbreon
+Leafeon
+Leafeon
+Glaceon
+Glaceon
+Sylveon
+Sylveon
+Giganteon
+Giganteon
+Porygon
+Porygon
+Porygon2
+Porygon2
+Porygon-Z
+Porygon-Z
+Porygon-MAV
+Porygon-MAV
+Omanyte
+Omanyte
+Omastar
+Omastar
+Kabuto
+Kabuto
+Kabutops
+Kabutops
+Aerodactyl
+Aerodactyl
+Pteroflyte
+Pteroflyte
+Munchlax
+Munchlax
+Snorlax
+Snorlax
+Dratini
+Dratini
+Dragonair
+Dragonair
+Dragonite
+Dragonite
+Articuno
+Articuno
+Zapdos
+Zapdos
+Moltres
+Moltres
+G. Articuno
+G. Articuno
+G. Zapdos
+G. Zapdos
+G. Moltres
+G. Moltres
+Mewtwo
+Mewtwo
+Mew
+Mew
+Chikorita
+Chikorita
+Bayleef
+Bayleef
+Meganium
+Meganium
+Cyndaquil
+Cyndaquil
+Quilava
+Quilava
+Typhlosion
+Typhlosion
+H. Typhlosion
+H. Typhlosion
+Totodile
+Totodile
+Croconaw
+Croconaw
+Feraligatr
+Feraligatr
+Sentret
+Sentret
+Furret
+Furret
+M. Sentret
+M. Sentret
+M. Furret
+M. Furret
+Hoothoot
+Hoothoot
+Noctowl
+Noctowl
+M. Hoothoot
+M. Hoothoot
+M. Noctowl
+M. Noctowl
+Ledyba
+Ledyba
+Ledian
+Ledian
+Spinarak
+Spinarak
+Ariados
+Ariados
+Chinchou
+Chinchou
+Lanturn
+Lanturn
+Togepi
+Togepi
+Togetic
+Togetic
+Togekiss
+Togekiss
+Natu
+Natu
+Xatu
+Xatu
+Mareep
+Mareep
+Flaaffy
+Flaaffy
+Ampharos
+Ampharos
+Azurill
+Azurill
+Marill
+Marill
+Azumarill
+Azumarill
+Bonsly
+Bonsly
+Sudowoodo
+Sudowoodo
+Hoppip
+Hoppip
+Skiploom
+Skiploom
+Jumpluff
+Jumpluff
+Aipom
+Aipom
+Ambipom
+Ambipom
+Sunkern
+Sunkern
+Sunflora
+Sunflora
+Yanma
+Yanma
+Yanmega
+Yanmega
+Wooper
+Wooper
+Quagsire
+Quagsire
+Murkrow
+Murkrow
+Honchkrow
+Honchkrow
+Misdreavus
+Misdreavus
+Mismagius
+Mismagius
+Unown
+Unown
+Wynaut
+Wynaut
+Wobbuffet
+Wobbuffet
+Girafarig
+Girafarig
+Farigiraf
+Farigiraf
+Pineco
+Pineco
+Forretress
+Forretress
+Dunsparce
+Dunsparce
+Dudunsparce
+Dudunsparce
+Dududunsparce
+Dududunsparce
+Gligar
+Gligar
+Gliscor
+Gliscor
+Snubbull
+Snubbull
+Granbull
+Granbull
+Qwilfish
+Qwilfish
+H. Qwilfish
+H. Qwilfish
+Overqwil
+Overqwil
+Shuckle
+Shuckle
+Sneasel
+Sneasel
+Weavile
+Weavile
+H. Sneasel
+H. Sneasel
+Sneasler
+Sneasler
+Teddiursa
+Teddiursa
+Ursaring
+Ursaring
+Ursaluna
+Ursaluna
+Slugma
+Slugma
+Magcargo
+Magcargo
+Swinub
+Swinub
+Piloswine
+Piloswine
+Mamoswine
+Mamoswine
+Corsola
+Corsola
+G. Corsola
+G. Corsola
+Cursola
+Cursola
+Remoraid
+Remoraid
+Octillery
+Octillery
+Mantine
+Mantine
+Mantyke
+Mantyke
+Delibird
+Delibird
+Skarmory
+Skarmory
+Houndour
+Houndour
+Houndoom
+Houndoom
+Houndominus
+Houndominus
+Phanpy
+Phanpy
+Donphan
+Donphan
+Stantler
+Stantler
+Wyrdeer
+Wyrdeer
+Smeargle
+Smeargle
+Larvitar
+Larvitar
+Pupitar
+Pupitar
+Tyranitar
+Tyranitar
+Raikou
+Raikou
+Entei
+Entei
+Suicune
+Suicune
+Lugia
+Lugia
+Ho-Oh
+Ho-Oh
+Celebi
+Celebi
+Treecko
+Treecko
+Grovyle
+Grovyle
+Sceptile
+Sceptile
+Torchic
+Torchic
+Combusken
+Combusken
+Blaziken
+Blaziken
+Mudkip
+Mudkip
+Marshtomp
+Marshtomp
+Swampert
+Swampert
+Poochyena
+Poochyena
+Mightyena
+Mightyena
+Zigzagoon
+Zigzagoon
+Linoone
+Linoone
+G. Zigzagoon
+G. Zigzagoon
+G. Linoone
+G. Linoone
+Obstagoon
+Obstagoon
+Wurmple
+Wurmple
+Silcoon
+Silcoon
+Beautifly
+Beautifly
+Cascoon
+Cascoon
+Dustox
+Dustox
+M. Wurmple
+M. Wurmple
+M. Silcoon
+M. Silcoon
+M. Beautifly
+M. Beautifly
+M. Cascoon
+M. Cascoon
+M. Dustox
+M. Dustox
+Lotad
+Lotad
+Lombre
+Lombre
+Ludicolo
+Ludicolo
+Seedot
+Seedot
+Nuzleaf
+Nuzleaf
+Shiftry
+Shiftry
+Taillow
+Taillow
+Swellow
+Swellow
+Wingull
+Wingull
+Pelipper
+Pelipper
+Ralts
+Ralts
+Kirlia
+Kirlia
+Gardevoir
+Gardevoir
+Gallade
+Gallade
+Surskit
+Surskit
+Masquerain
+Masquerain
+Shroomish
+Shroomish
+Breloom
+Breloom
+Slakoth
+Slakoth
+Vigoroth
+Vigoroth
+Slaking
+Slaking
+Nincada
+Nincada
+Ninjask
+Ninjask
+Shedinja
+Shedinja
+Whismur
+Whismur
+Loudred
+Loudred
+Exploud
+Exploud
+Makuhita
+Makuhita
+Hariyama
+Hariyama
+Nosepass
+Nosepass
+Probopass
+Probopass
+Skitty
+Skitty
+Delcatty
+Delcatty
+Sableye
+Sableye
+Rubarior
+Rubarior
+Mawile
+Mawile
+Deceat
+Deceat
+Aron
+Aron
+Lairon
+Lairon
+Aggron
+Aggron
+Meditite
+Meditite
+Medicham
+Medicham
+Palmantra
+Palmantra
+Electrike
+Electrike
+Manectric
+Manectric
+Manergetic
+Manergetic
+Plusle
+Plusle
+Minun
+Minun
+Volbeat
+Volbeat
+Illumise
+Illumise
+Budew
+Budew
+Roselia
+Roselia
+Roserade
+Roserade
+Gulpin
+Gulpin
+Swalot
+Swalot
+Carvanha
+Carvanha
+Sharpedo
+Sharpedo
+Scarodon
+Scarodon
+Wailmer
+Wailmer
+Wailord
+Wailord
+Numel
+Numel
+Camerupt
+Camerupt
+Dromerupt
+Dromerupt
+Torkoal
+Torkoal
+Spoink
+Spoink
+Grumpig
+Grumpig
+Spinda
+Spinda
+Trapinch
+Trapinch
+Vibrava
+Vibrava
+Flygon
+Flygon
+Cacnea
+Cacnea
+Cacturne
+Cacturne
+Swablu
+Swablu
+Altaria
+Altaria
+Hymnus
+Hymnus
+Zangoose
+Zangoose
+Seviper
+Seviper
+M. Zangoose
+M. Zangoose
+M. Seviper
+M. Seviper
+Lunatone
+Lunatone
+Solrock
+Solrock
+Barboach
+Barboach
+Whiscash
+Whiscash
+Corphish
+Corphish
+Crawdaunt
+Crawdaunt
+Baltoy
+Baltoy
+Claydol
+Claydol
+Lileep
+Lileep
+Cradily
+Cradily
+Anorith
+Anorith
+Armaldo
+Armaldo
+Feebas
+Feebas
+Milotic
+Milotic
+Castform
+Castform
+Kecleon
+Kecleon
+Shuppet
+Shuppet
+Banette
+Banette
+Maniklaw
+Maniklaw
+Duskull
+Duskull
+Dusclops
+Dusclops
+Dusknoir
+Dusknoir
+Tropius
+Tropius
+Chingling
+Chingling
+Chimecho
+Chimecho
+Absol
+Absol
+Absolus
+Absolus
+Snorunt
+Snorunt
+Glalie
+Glalie
+Grimice
+Grimice
+Froslass
+Froslass
+Spheal
+Spheal
+Sealeo
+Sealeo
+Walrein
+Walrein
+Clamperl
+Clamperl
+Huntail
+Huntail
+Gorebyss
+Gorebyss
+Relicanth
+Relicanth
+Luvdisc
+Luvdisc
+Alomomola
+Alomomola
+Bagon
+Bagon
+Shelgon
+Shelgon
+Salamence
+Salamence
+Beldum
+Beldum
+Metang
+Metang
+Metagross
+Metagross
+Regirock
+Regirock
+Regice
+Regice
+Registeel
+Registeel
+Regieleki
+Regieleki
+Regidrago
+Regidrago
+Regigigas
+Regigigas
+Latias
+Latias
+Latios
+Latios
+Kyogre
+Kyogre
+Groudon
+Groudon
+Rayquaza
+Rayquaza
+Jirachi
+Jirachi
+Deoxys
+Deoxys
+Turtwig
+Turtwig
+Grotle
+Grotle
+Torterra
+Torterra
+Chimchar
+Chimchar
+Monferno
+Monferno
+Infernape
+Infernape
+Piplup
+Piplup
+Prinplup
+Prinplup
+Empoleon
+Empoleon
+Starly
+Starly
+Staravia
+Staravia
+Staraptor
+Staraptor
+Bidoof
+Bidoof
+Bibarel
+Bibarel
+Kricketot
+Kricketot
+Kricketune
+Kricketune
+Shinx
+Shinx
+Luxio
+Luxio
+Luxray
+Luxray
+Cranidos
+Cranidos
+Rampardos
+Rampardos
+Shieldon
+Shieldon
+Bastiodon
+Bastiodon
+Burmy
+Burmy
+Wormadam
+Wormadam
+Mothim
+Mothim
+Combee
+Combee
+Vespiquen
+Vespiquen
+Pachirisu
+Pachirisu
+Buizel
+Buizel
+Floatzel
+Floatzel
+Cherubi
+Cherubi
+Cherrim
+Cherrim
+Shellos
+Shellos
+Gastrodon
+Gastrodon
+Drifloon
+Drifloon
+Drifblim
+Drifblim
+Buneary
+Buneary
+Lopunny
+Lopunny
+Haerobic
+Haerobic
+Glameow
+Glameow
+Purugly
+Purugly
+Stunky
+Stunky
+Skuntank
+Skuntank
+Bronzor
+Bronzor
+Bronzong
+Bronzong
+Chatot
+Chatot
+Spiritomb
+Spiritomb
+Gible
+Gible
+Gabite
+Gabite
+Garchomp
+Garchomp
+Riolu
+Riolu
+Lucario
+Lucario
+Riojin
+Riojin
+Hippopotas
+Hippopotas
+Hippowdon
+Hippowdon
+Skorupi
+Skorupi
+Drapion
+Drapion
+Croagunk
+Croagunk
+Toxicroak
+Toxicroak
+Carnivine
+Carnivine
+M. Carnivine
+M. Carnivine
+Finneon
+Finneon
+Lumineon
+Lumineon
+Snover
+Snover
+Abomasnow
+Abomasnow
+Conifear
+Conifear
+Rotom
+Rotom
+Uxie
+Uxie
+Mesprit
+Mesprit
+Azelf
+Azelf
+Dialga
+Dialga
+Palkia
+Palkia
+Heatran
+Heatran
+Giratina
+Giratina
+Cresselia
+Cresselia
+Phione
+Phione
+Manaphy
+Manaphy
+Darkrai
+Darkrai
+Shaymin
+Shaymin
+Arceus
+Arceus
+Snivy
+Snivy
+Servine
+Servine
+Serperior
+Serperior
+Tepig
+Tepig
+Pignite
+Pignite
+Emboar
+Emboar
+Oshawott
+Oshawott
+Dewott
+Dewott
+Samurott
+Samurott
+H. Samurott
+H. Samurott
+Patrat
+Patrat
+Watchog
+Watchog
+Lillipup
+Lillipup
+Herdier
+Herdier
+Stoutland
+Stoutland
+Purrloin
+Purrloin
+Liepard
+Liepard
+Pansage
+Pansage
+Simisage
+Simisage
+Pansear
+Pansear
+Simisear
+Simisear
+Panpour
+Panpour
+Simipour
+Simipour
+Munna
+Munna
+Musharna
+Musharna
+M. Munna
+M. Munna
+M. Musharna
+M. Musharna
+Pidove
+Pidove
+Tranquill
+Tranquill
+Unfezant
+Unfezant
+Blitzle
+Blitzle
+Zebstrika
+Zebstrika
+Roggenrola
+Roggenrola
+Boldore
+Boldore
+Gigalith
+Gigalith
+M. Roggenrola
+M. Roggenrola
+M. Boldore
+M. Boldore
+M. Gigalith
+M. Gigalith
+Woobat
+Woobat
+Swoobat
+Swoobat
+Drilbur
+Drilbur
+Excadrill
+Excadrill
+Audino
+Audino
+Sensibelle
+Sensibelle
+Timburr
+Timburr
+Gurdurr
+Gurdurr
+Conkeldurr
+Conkeldurr
+Tympole
+Tympole
+Palpitoad
+Palpitoad
+Seismitoad
+Seismitoad
+Throh
+Throh
+Sawk
+Sawk
+Sewaddle
+Sewaddle
+Swadloon
+Swadloon
+Leavanny
+Leavanny
+Venipede
+Venipede
+Whirlipede
+Whirlipede
+Scolipede
+Scolipede
+Cottonee
+Cottonee
+Whimsicott
+Whimsicott
+Petilil
+Petilil
+Lilligant
+Lilligant
+H. Lilligant
+H. Lilligant
+M. Petilil
+M. Petilil
+M. Lilligant
+M. Lilligant
+Basculin
+Basculin
+Basculegion
+Basculegion
+Sandile
+Sandile
+Krokorok
+Krokorok
+Krookodile
+Krookodile
+Darumaka
+Darumaka
+Darmanitan
+Darmanitan
+G. Darumaka
+G. Darumaka
+G. Darmanitan
+G. Darmanitan
+Maractus
+Maractus
+Dwebble
+Dwebble
+Crustle
+Crustle
+Scraggy
+Scraggy
+Scrafty
+Scrafty
+Sigilyph
+Sigilyph
+Yamask
+Yamask
+Cofagrigus
+Cofagrigus
+G. Yamask
+G. Yamask
+Runerigus
+Runerigus
+Tirtouga
+Tirtouga
+Carracosta
+Carracosta
+Archen
+Archen
+Archeops
+Archeops
+Trubbish
+Trubbish
+Garbodor
+Garbodor
+Donster
+Donster
+Zorua
+Zorua
+Zoroark
+Zoroark
+H. Zorua
+H. Zorua
+H. Zoroark
+H. Zoroark
+Minccino
+Minccino
+Cinccino
+Cinccino
+Gothita
+Gothita
+Gothorita
+Gothorita
+Gothitelle
+Gothitelle
+Solosis
+Solosis
+Duosion
+Duosion
+Reuniclus
+Reuniclus
+Ducklett
+Ducklett
+Swanna
+Swanna
+Vanillite
+Vanillite
+Vanillish
+Vanillish
+Vanilluxe
+Vanilluxe
+Deerling
+Deerling
+Sawsbuck
+Sawsbuck
+Emolga
+Emolga
+Karrablast
+Karrablast
+Escavalier
+Escavalier
+Foongus
+Foongus
+Amoonguss
+Amoonguss
+Frillish
+Frillish
+Jellicent
+Jellicent
+M. Frillish
+M. Frillish
+M. Jellicent
+M. Jellicent
+Joltik
+Joltik
+Galvantula
+Galvantula
+Ferroseed
+Ferroseed
+Ferrothorn
+Ferrothorn
+Klink
+Klink
+Klang
+Klang
+Klinklang
+Klinklang
+Tynamo
+Tynamo
+Eelektrik
+Eelektrik
+Eelektross
+Eelektross
+Elgyem
+Elgyem
+Beheeyem
+Beheeyem
+Litwick
+Litwick
+Lampent
+Lampent
+Chandelure
+Chandelure
+Axew
+Axew
+Fraxure
+Fraxure
+Haxorus
+Haxorus
+Cubchoo
+Cubchoo
+Beartic
+Beartic
+Cryogonal
+Cryogonal
+Shelmet
+Shelmet
+Accelgor
+Accelgor
+Stunfisk
+Stunfisk
+G. Stunfisk
+G. Stunfisk
+Mienfoo
+Mienfoo
+Mienshao
+Mienshao
+Druddigon
+Druddigon
+Golett
+Golett
+Golurk
+Golurk
+Pawniard
+Pawniard
+Bisharp
+Bisharp
+Kingambit
+Kingambit
+Bouffalant
+Bouffalant
+Rufflet
+Rufflet
+Braviary
+Braviary
+H. Braviary
+H. Braviary
+Vullaby
+Vullaby
+Mandibuzz
+Mandibuzz
+M. Vullaby
+M. Vullaby
+M. Mandibuzz
+M. Mandibuzz
+Heatmor
+Heatmor
+Durant
+Durant
+Deino
+Deino
+Zweilous
+Zweilous
+Hydreigon
+Hydreigon
+Larvesta
+Larvesta
+Volcarona
+Volcarona
+Cobalion
+Cobalion
+Terrakion
+Terrakion
+Virizion
+Virizion
+Keldeo
+Keldeo
+Tornadus
+Tornadus
+Thundurus
+Thundurus
+Landorus
+Landorus
+Enamorus
+Enamorus
+Reshiram
+Reshiram
+Zekrom
+Zekrom
+Kyurem
+Kyurem
+Meloetta
+Meloetta
+Genesect
+Genesect
+Victini
+Victini
+Chespin
+Chespin
+Quilladin
+Quilladin
+Chesnaught
+Chesnaught
+Fennekin
+Fennekin
+Braixen
+Braixen
+Delphox
+Delphox
+Froakie
+Froakie
+Frogadier
+Frogadier
+Greninja
+Greninja
+Bunnelby
+Bunnelby
+Diggersby
+Diggersby
+Fletchling
+Fletchling
+Fletchinder
+Fletchinder
+Talonflame
+Talonflame
+Scatterbug
+Scatterbug
+Spewpa
+Spewpa
+Vivillon
+Vivillon
+Litleo
+Litleo
+Pyroar
+Pyroar
+Flabébé
+Flabébé
+Floette
+Floette
+Florges
+Florges
+Skiddo
+Skiddo
+Gogoat
+Gogoat
+Pancham
+Pancham
+Pangoro
+Pangoro
+Furfrou
+Furfrou
+Espurr
+Espurr
+Meowstic
+Meowstic
+Honedge
+Honedge
+Doublade
+Doublade
+Aegislash
+Aegislash
+Spritzee
+Spritzee
+Aromatisse
+Aromatisse
+M. Aromatisse
+M. Aromatisse
+Swirlix
+Swirlix
+Slurpuff
+Slurpuff
+Inkay
+Inkay
+Malamar
+Malamar
+Binacle
+Binacle
+Barbaracle
+Barbaracle
+Skrelp
+Skrelp
+Dragalge
+Dragalge
+M. Skrelp
+M. Skrelp
+M. Dragalge
+M. Dragalge
+Clauncher
+Clauncher
+Clawitzer
+Clawitzer
+Helioptile
+Helioptile
+Heliolisk
+Heliolisk
+Tyrunt
+Tyrunt
+Tyrantrum
+Tyrantrum
+Amaura
+Amaura
+Aurorus
+Aurorus
+Hawlucha
+Hawlucha
+Dedenne
+Dedenne
+Carbink
+Carbink
+Diancie
+Diancie
+Goomy
+Goomy
+Sliggoo
+Sliggoo
+Goodra
+Goodra
+H. Sliggoo
+H. Sliggoo
+H. Goodra
+H. Goodra
+Klefki
+Klefki
+Phantump
+Phantump
+Trevenant
+Trevenant
+Pumpkaboo
+Pumpkaboo
+Gourgeist
+Gourgeist
+Bergmite
+Bergmite
+Avalugg
+Avalugg
+H. Avalugg
+H. Avalugg
+Noibat
+Noibat
+Noivern
+Noivern
+Xerneas
+Xerneas
+Yveltal
+Yveltal
+Zygarde
+Zygarde
+Hoopa
+Hoopa
+Volcanion
+Volcanion
+Rowlet
+Rowlet
+Dartrix
+Dartrix
+Decidueye
+Decidueye
+H. Decidueye
+H. Decidueye
+Litten
+Litten
+Torracat
+Torracat
+Incineroar
+Incineroar
+Popplio
+Popplio
+Brionne
+Brionne
+Primarina
+Primarina
+Pikipek
+Pikipek
+Trumbeak
+Trumbeak
+Toucannon
+Toucannon
+Yungoos
+Yungoos
+Gumshoos
+Gumshoos
+Grubbin
+Grubbin
+Charjabug
+Charjabug
+Vikavolt
+Vikavolt
+Crabrawler
+Crabrawler
+Crabominable
+Crabominable
+Oricorio
+Oricorio
+Cutiefly
+Cutiefly
+Ribombee
+Ribombee
+Rockruff
+Rockruff
+Lycanroc
+Lycanroc
+Wishiwashi
+Wishiwashi
+Mareanie
+Mareanie
+Toxapex
+Toxapex
+Mudbray
+Mudbray
+Mudsdale
+Mudsdale
+Dewpider
+Dewpider
+Araquanid
+Araquanid
+Fomantis
+Fomantis
+Lurantis
+Lurantis
+Morelull
+Morelull
+Shiinotic
+Shiinotic
+Salandit
+Salandit
+Salazzle
+Salazzle
+Stufful
+Stufful
+Bewear
+Bewear
+Bounsweet
+Bounsweet
+Steenee
+Steenee
+Tsareena
+Tsareena
+Comfey
+Comfey
+Oranguru
+Oranguru
+Passimian
+Passimian
+Wimpod
+Wimpod
+Golisopod
+Golisopod
+Sandygast
+Sandygast
+Palossand
+Palossand
+Pyukumuku
+Pyukumuku
+Type: Null
+Type: Null
+Silvally
+Silvally
+Minior
+Minior
+Komala
+Komala
+Turtonator
+Turtonator
+Togedemaru
+Togedemaru
+Mimikyu
+Mimikyu
+Bruxish
+Bruxish
+Drampa
+Drampa
+Dhelmise
+Dhelmise
+Jangmo-o
+Jangmo-o
+Hakamo-o
+Hakamo-o
+Kommo-o
+Kommo-o
+Tapu Koko
+Tapu Koko
+Tapu Lele
+Tapu Lele
+Tapu Bulu
+Tapu Bulu
+Tapu Fini
+Tapu Fini
+Cosmog
+Cosmog
+Cosmoem
+Cosmoem
+Solgaleo
+Solgaleo
+Lunala
+Lunala
+Necrozma
+Necrozma
+Nihilego
+Nihilego
+Buzzwole
+Buzzwole
+Pheromosa
+Pheromosa
+Xurkitree
+Xurkitree
+Celesteela
+Celesteela
+Kartana
+Kartana
+Guzzlord
+Guzzlord
+Poipole
+Poipole
+Naganadel
+Naganadel
+Stakataka
+Stakataka
+Blacephalon
+Blacephalon
+Magearna
+Magearna
+Marshadow
+Marshadow
+Zeraora
+Zeraora
+Meltan
+Meltan
+Melmetal
+Melmetal
+Grookey
+Grookey
+Thwackey
+Thwackey
+Rillaboom
+Rillaboom
+Scorbunny
+Scorbunny
+Raboot
+Raboot
+Cinderace
+Cinderace
+Sobble
+Sobble
+Drizzile
+Drizzile
+Inteleon
+Inteleon
+Skwovet
+Skwovet
+Greedent
+Greedent
+Rookidee
+Rookidee
+Corvisquire
+Corvisquire
+Corviknight
+Corviknight
+Blipbug
+Blipbug
+Dottler
+Dottler
+Orbeetle
+Orbeetle
+Nickit
+Nickit
+Thievul
+Thievul
+Gossifleur
+Gossifleur
+Eldegoss
+Eldegoss
+Wooloo
+Wooloo
+Dubwool
+Dubwool
+Chewtle
+Chewtle
+Drednaw
+Drednaw
+Seismaw
+Seismaw
+Yamper
+Yamper
+Boltund
+Boltund
+Rolycoly
+Rolycoly
+Carkol
+Carkol
+Coalossal
+Coalossal
+Applin
+Applin
+Flapple
+Flapple
+Appletun
+Appletun
+Silicobra
+Silicobra
+Sandaconda
+Sandaconda
+Saharicane
+Saharicane
+Cramorant
+Cramorant
+Arrokuda
+Arrokuda
+Barraskewda
+Barraskewda
+Toxel
+Toxel
+Toxtricity
+Toxtricity
+Arclamor
+Arclamor
+Sizzlipede
+Sizzlipede
+Centiskorch
+Centiskorch
+Milliblaze
+Milliblaze
+Clobbopus
+Clobbopus
+Grapploct
+Grapploct
+Sinistea
+Sinistea
+Polteageist
+Polteageist
+M. Sinistea
+M. Sinistea
+M. Polteageist
+M. Polteageist
+Hatenna
+Hatenna
+Hattrem
+Hattrem
+Hatterene
+Hatterene
+Impidimp
+Impidimp
+Morgrem
+Morgrem
+Grimmsnarl
+Grimmsnarl
+Milcery
+Milcery
+Alcremie
+Alcremie
+Blasfemmie
+Blasfemmie
+Falinks
+Falinks
+Pincurchin
+Pincurchin
+Snom
+Snom
+Frosmoth
+Frosmoth
+Stonjourner
+Stonjourner
+Eiscue
+Eiscue
+Indeedee
+Indeedee
+Morpeko
+Morpeko
+Cufant
+Cufant
+Copperajah
+Copperajah
+Digniphite
+Digniphite
+Dracozolt
+Dracozolt
+Arctozolt
+Arctozolt
+Dracovish
+Dracovish
+Arctovish
+Arctovish
+Duraludon
+Duraludon
+Towerpoda
+Towerpoda
+Dreepy
+Dreepy
+Drakloak
+Drakloak
+Dragapult
+Dragapult
+Zacian
+Zacian
+Zamazenta
+Zamazenta
+Eternatus
+Eternatus
+Kubfu
+Kubfu
+Urshifu
+Urshifu
+Zarude
+Zarude
+Glastrier
+Glastrier
+Spectrier
+Spectrier
+Calyrex
+Calyrex
+Test Pokemon
+Test Pokemon
+Test Pokemon 2
+Test Pokemon 2

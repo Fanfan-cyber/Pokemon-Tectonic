@@ -10511,7 +10511,7 @@ You've found Agentbla, Lead Mapper and tileset arranger.
 You've found Pria, a designer, audio engineer and video producer.
 You've found Pria, a designer, audio engineer and video producer.
 You've found Zinnia, Lead Designer and Lead Programmer.
-You've found Zinnia, Lead Designer and Lead Programmer.
+你即将挑战\n首席设计师和首席程序员Zinnia
 [Map179]
 Estás a punto de enfrentar a Valrex, traductor al Español.
 你即将挑战\n西班牙语翻译Valrex
@@ -24270,3775 +24270,6 @@ You recover the relics you returned.
 It hurriedly gestures for you to enter the chamber ahead.
 它连忙示意你进入面前的密室。
 [Map446]
-[1]
-1
-Bulbasaur
-妙蛙种子
-2
-Ivysaur
-妙蛙草
-3
-Venusaur
-妙蛙花
-4
-Charmander
-小火龙
-5
-Charmeleon
-火恐龙
-6
-Charizard
-喷火龙
-7
-Squirtle
-杰尼龟
-8
-Wartortle
-卡咪龟
-9
-Blastoise
-水箭龟
-10
-Caterpie
-绿毛虫
-11
-Metapod
-铁甲蛹
-12
-Butterfree
-巴大蝶
-13
-Papellumen
-独角虫
-14
-Weedle
-铁壳蛹
-15
-Kakuna
-大针蜂
-16
-Beedrill
-波波
-17
-Wornet
-比比鸟
-18
-Pidgey
-大比鸟
-19
-Pidgeotto
-小拉达
-20
-Pidgeot
-拉达
-21
-Rattata
-烈雀
-22
-Raticate
-大嘴雀
-23
-A. Rattata
-阿柏蛇
-24
-A. Raticate
-阿柏怪
-25
-Spearow
-皮卡丘
-26
-Fearow
-雷丘
-27
-Ekans
-穿山鼠
-28
-Arbok
-穿山王
-29
-Pichu
-尼多兰
-30
-Pikachu
-尼多娜
-31
-Raichu
-尼多后
-32
-Gigachu
-尼多朗
-33
-A. Raichu
-尼多力诺
-34
-Sandshrew
-尼多王
-35
-Sandslash
-皮皮
-36
-A. Sandshrew
-皮可西
-37
-A. Sandslash
-六尾
-38
-Nidoran-F
-九尾
-39
-Nidorina
-胖丁
-40
-Nidoqueen
-胖可丁
-41
-Nidoran-M
-超音蝠
-42
-Nidorino
-大嘴蝠
-43
-Nidoking
-走路草
-44
-Cleffa
-臭臭花
-45
-Clefairy
-霸王花
-46
-Clefable
-派拉斯
-47
-Vulpix
-派拉斯特
-48
-Ninetales
-毛球
-49
-A. Vulpix
-摩鲁蛾
-50
-A. Ninetales
-地鼠
-51
-M. Vulpix
-三地鼠
-52
-M. Ninetales
-喵喵
-53
-Igglybuff
-猫老大
-54
-Jigglypuff
-可达鸭
-55
-Wigglytuff
-哥达鸭
-56
-Zubat
-猴怪
-57
-Golbat
-火爆猴
-58
-Crobat
-卡蒂狗
-59
-Oddish
-风速狗
-60
-Gloom
-蚊香蝌蚪
-61
-Vileplume
-蚊香君
-62
-Bellossom
-蚊香泳士
-63
-Paras
-凯西
-64
-Parasect
-勇基拉
-65
-Venonat
-胡地
-66
-Venomoth
-腕力
-67
-Diglett
-豪力
-68
-Dugtrio
-怪力
-69
-A. Diglett
-喇叭芽
-70
-A. Dugtrio
-口呆花
-71
-Meowth
-大食花
-72
-Persian
-玛瑙水母
-73
-Nibelong
-毒刺水母
-74
-A. Meowth
-小拳石
-75
-A. Persian
-隆隆石
-76
-G. Meowth
-隆隆岩
-77
-Perrserker
-小火马
-78
-Psyduck
-烈焰马
-79
-Golduck
-呆呆兽
-80
-Mankey
-呆壳兽
-81
-Primeape
-小磁怪
-82
-Annihilape
-三合一磁怪
-83
-Growlithe
-大葱鸭
-84
-Arcanine
-嘟嘟
-85
-H. Growlithe
-嘟嘟利
-86
-H. Arcanine
-小海狮
-87
-Poliwag
-白海狮
-88
-Poliwhirl
-臭泥
-89
-Poliwrath
-臭臭泥
-90
-Politoed
-大舌贝
-91
-Abra
-刺甲贝
-92
-Kadabra
-鬼斯
-93
-Alakazam
-鬼斯通
-94
-Machop
-耿鬼
-95
-Machoke
-大岩蛇
-96
-Machamp
-催眠貘
-97
-Bellsprout
-引梦貘人
-98
-Weepinbell
-大钳蟹
-99
-Victreebel
-巨钳蟹
-100
-Tentacool
-霹雳电球
-101
-Tentacruel
-顽皮雷弹
-102
-Geodude
-蛋蛋
-103
-Graveler
-椰蛋树
-104
-Golem
-卡拉卡拉
-105
-A. Geodude
-嘎啦嘎啦
-106
-A. Graveler
-飞腿郎
-107
-A. Golem
-快拳郎
-108
-Ponyta
-大舌头
-109
-Rapidash
-瓦斯弹
-110
-G. Ponyta
-双弹瓦斯
-111
-G. Rapidash
-独角犀牛
-112
-Slowpoke
-钻角犀兽
-113
-Slowbro
-吉利蛋
-114
-Slowking
-蔓藤怪
-115
-G. Slowpoke
-袋兽
-116
-G. Slowbro
-墨海马
-117
-G. Slowking
-海刺龙
-118
-Magnemite
-角金鱼
-119
-Magneton
-金鱼王
-120
-Magnezone
-海星星
-121
-Farfetch'd
-宝石海星
-122
-G. Farfetch'd
-魔墙人偶
-123
-Sirfetch'd
-飞天螳螂
-124
-Doduo
-迷唇姐
-125
-Dodrio
-电击兽
-126
-Seel
-鸭嘴火兽
-127
-Dewgong
-凯罗斯
-128
-Grimer
-肯泰罗
-129
-Muk
-鲤鱼王
-130
-A. Grimer
-暴鲤龙
-131
-A. Muk
-拉普拉斯
-132
-Shellder
-百变怪
-133
-Cloyster
-伊布
-134
-Gastly
-水伊布
-135
-Haunter
-雷伊布
-136
-Gengar
-火伊布
-137
-Onix
-多边兽
-138
-Steelix
-菊石兽
-139
-Titanix
-多刺菊石兽
-140
-Drowzee
-化石盔
-141
-Hypno
-镰刀盔
-142
-Krabby
-化石翼龙
-143
-Kingler
-卡比兽
-144
-Klawsar
-急冻鸟
-145
-Voltorb
-闪电鸟
-146
-Electrode
-火焰鸟
-147
-H. Voltorb
-迷你龙
-148
-H. Electrode
-哈克龙
-149
-Exeggcute
-快龙
-150
-Exeggutor
-超梦
-151
-A. Exeggutor
-梦幻
-152
-Cubone
-菊草叶
-153
-Marowak
-月桂叶
-154
-A. Marowak
-大竺葵
-155
-Tyrogue
-火球鼠
-156
-Hitmonlee
-火岩鼠
-157
-Hitmonchan
-火暴兽
-158
-Hitmontop
-小锯鳄
-159
-Lickitung
-蓝鳄
-160
-Lickilicky
-大力鳄
-161
-Koffing
-尾立
-162
-Weezing
-大尾立
-163
-G. Weezing
-咕咕
-164
-Rhyhorn
-猫头夜鹰
-165
-Rhydon
-芭瓢虫
-166
-Rhyperior
-安瓢虫
-167
-Happiny
-圆丝蛛
-168
-Chansey
-阿利多斯
-169
-Blissey
-叉字蝠
-170
-Tangela
-灯笼鱼
-171
-Tangrowth
-电灯怪
-172
-M. Tangela
-皮丘
-173
-M. Tangrowth
-皮宝宝
-174
-Kangaskhan
-宝宝丁
-175
-Teamujin
-波克比
-176
-Horsea
-波克基古
-177
-Seadra
-天然雀
-178
-Kingdra
-天然鸟
-179
-Goldeen
-咩利羊
-180
-Seaking
-茸茸羊
-181
-M. Goldeen
-电龙
-182
-M. Seaking
-美丽花
-183
-Staryu
-玛力露
-184
-Starmie
-玛力露丽
-185
-Mime Jr.
-树才怪
-186
-Mr. Mime
-蚊香蛙皇
-187
-G. Mr. Mime
-毽子草
-188
-Mr. Rime
-毽子花
-189
-Scyther
-毽子棉
-190
-Scizor
-长尾怪手
-191
-Reavor
-向日种子
-192
-Kleavor
-向日花怪
-193
-Smoochum
-蜻蜻蜓
-194
-Jynx
-乌波
-195
-Elekid
-沼王
-196
-Electabuzz
-太阳伊布
-197
-Electivire
-月亮伊布
-198
-Magby
-黑暗鸦
-199
-Magmar
-呆呆王
-200
-Magmortar
-梦妖
-201
-Pinsir
-未知图腾
-202
-Scarapace
-果然翁
-203
-Heracross
-麒麟奇
-204
-Atlacross
-榛果球
-205
-Tauros
-佛烈托斯
-206
-Miltank
-土龙弟弟
-207
-Magikarp
-天蝎
-208
-Gyarados
-大钢蛇
-209
-Lapras
-布鲁
-210
-Saurenaid
-布鲁皇
-211
-Ditto
-千针鱼
-212
-Eevee
-巨钳螳螂
-213
-Vaporeon
-壶壶
-214
-Jolteon
-赫拉克罗斯
-215
-Flareon
-狃拉
-216
-Espeon
-熊宝宝
-217
-Umbreon
-圈圈熊
-218
-Leafeon
-熔岩虫
-219
-Glaceon
-熔岩蜗牛
-220
-Sylveon
-小山猪
-221
-Giganteon
-长毛猪
-222
-Porygon
-太阳珊瑚
-223
-Porygon2
-铁炮鱼
-224
-Porygon-Z
-章鱼桶
-225
-Porygon-MAV
-信使鸟
-226
-Omanyte
-巨翅飞鱼
-227
-Omastar
-盔甲鸟
-228
-Kabuto
-戴鲁比
-229
-Kabutops
-黑鲁加
-230
-Aerodactyl
-刺龙王
-231
-Pteroflyte
-小小象
-232
-Munchlax
-顿甲
-233
-Snorlax
-多边兽2
-234
-Dratini
-惊角鹿
-235
-Dragonair
-图图犬
-236
-Dragonite
-无畏小子
-237
-Articuno
-战舞郎
-238
-Zapdos
-迷唇娃
-239
-Moltres
-电击怪
-240
-G. Articuno
-鸭嘴宝宝
-241
-G. Zapdos
-大奶罐
-242
-G. Moltres
-幸福蛋
-243
-Mewtwo
-雷公
-244
-Mew
-炎帝
-245
-Chikorita
-水君
-246
-Bayleef
-幼基拉斯
-247
-Meganium
-沙基拉斯
-248
-Cyndaquil
-班基拉斯
-249
-Quilava
-洛奇亚
-250
-Typhlosion
-凤王
-251
-H. Typhlosion
-时拉比
-252
-Totodile
-木守宫
-253
-Croconaw
-森林蜥蜴
-254
-Feraligatr
-蜥蜴王
-255
-Sentret
-火稚鸡
-256
-Furret
-力壮鸡
-257
-M. Sentret
-火焰鸡
-258
-M. Furret
-水跃鱼
-259
-Hoothoot
-沼跃鱼
-260
-Noctowl
-巨沼怪
-261
-M. Hoothoot
-土狼犬
-262
-M. Noctowl
-大狼犬
-263
-Ledyba
-蛇纹熊
-264
-Ledian
-直冲熊
-265
-Spinarak
-刺尾虫
-266
-Ariados
-甲壳茧
-267
-Chinchou
-狩猎凤蝶
-268
-Lanturn
-盾甲茧
-269
-Togepi
-毒粉蛾
-270
-Togetic
-莲叶童子
-271
-Togekiss
-莲帽小童
-272
-Natu
-乐天河童
-273
-Xatu
-橡实果
-274
-Mareep
-长鼻叶
-275
-Flaaffy
-狡猾天狗
-276
-Ampharos
-傲骨燕
-277
-Azurill
-大王燕
-278
-Marill
-长翅鸥
-279
-Azumarill
-大嘴鸥
-280
-Bonsly
-拉鲁拉丝
-281
-Sudowoodo
-奇鲁莉安
-282
-Hoppip
-沙奈朵
-283
-Skiploom
-溜溜糖球
-284
-Jumpluff
-雨翅蛾
-285
-Aipom
-蘑蘑菇
-286
-Ambipom
-斗笠菇
-287
-Sunkern
-懒人獭
-288
-Sunflora
-过动猿
-289
-Yanma
-请假王
-290
-Yanmega
-土居忍士
-291
-Wooper
-铁面忍者
-292
-Quagsire
-脱壳忍者
-293
-Murkrow
-咕妞妞
-294
-Honchkrow
-吼爆弹
-295
-Misdreavus
-爆音怪
-296
-Mismagius
-幕下力士
-297
-Unown
-铁掌力士
-298
-Wynaut
-露力丽
-299
-Wobbuffet
-朝北鼻
-300
-Girafarig
-向尾喵
-301
-Farigiraf
-优雅猫
-302
-Pineco
-勾魂眼
-303
-Forretress
-大嘴娃
-304
-Dunsparce
-可可多拉
-305
-Dudunsparce
-可多拉
-306
-Dududunsparce
-波士可多拉
-307
-Gligar
-玛沙那
-308
-Gliscor
-恰雷姆
-309
-Snubbull
-落雷兽
-310
-Granbull
-雷电兽
-311
-Qwilfish
-正电拍拍
-312
-H. Qwilfish
-负电拍拍
-313
-Overqwil
-电萤虫
-314
-Shuckle
-甜甜萤
-315
-Sneasel
-毒蔷薇
-316
-Weavile
-溶食兽
-317
-H. Sneasel
-吞食兽
-318
-Sneasler
-利牙鱼
-319
-Teddiursa
-巨牙鲨
-320
-Ursaring
-吼吼鲸
-321
-Ursaluna
-吼鲸王
-322
-Slugma
-呆火驼
-323
-Magcargo
-喷火驼
-324
-Swinub
-煤炭龟
-325
-Piloswine
-跳跳猪
-326
-Mamoswine
-噗噗猪
-327
-Corsola
-晃晃斑
-328
-G. Corsola
-大颚蚁
-329
-Cursola
-超音波幼虫
-330
-Remoraid
-沙漠蜻蜓
-331
-Octillery
-刺球仙人掌
-332
-Mantine
-梦歌仙人掌
-333
-Mantyke
-青绵鸟
-334
-Delibird
-七夕青鸟
-335
-Skarmory
-猫鼬斩
-336
-Houndour
-饭匙蛇
-337
-Houndoom
-月石
-338
-Houndominus
-太阳岩
-339
-Phanpy
-泥泥鳅
-340
-Donphan
-鲶鱼王
-341
-Stantler
-龙虾小兵
-342
-Wyrdeer
-铁螯龙虾
-343
-Smeargle
-天秤偶
-344
-Larvitar
-念力土偶
-345
-Pupitar
-触手百合
-346
-Tyranitar
-摇篮百合
-347
-Raikou
-太古羽虫
-348
-Entei
-太古盔甲
-349
-Suicune
-丑丑鱼
-350
-Lugia
-美纳斯
-351
-Ho-Oh
-漂浮泡泡
-352
-Celebi
-变隐龙
-353
-Treecko
-怨影娃娃
-354
-Grovyle
-诅咒娃娃
-355
-Sceptile
-夜巡灵
-356
-Torchic
-彷徨夜灵
-357
-Combusken
-热带龙
-358
-Blaziken
-风铃铃
-359
-Mudkip
-阿勃梭鲁
-360
-Marshtomp
-小果然
-361
-Swampert
-雪童子
-362
-Poochyena
-冰鬼护
-363
-Mightyena
-海豹球
-364
-Zigzagoon
-海魔狮
-365
-Linoone
-帝牙海狮
-366
-G. Zigzagoon
-珍珠贝
-367
-G. Linoone
-猎斑鱼
-368
-Obstagoon
-樱花鱼
-369
-Wurmple
-古空棘鱼
-370
-Silcoon
-爱心鱼
-371
-Beautifly
-宝贝龙
-372
-Cascoon
-甲壳龙
-373
-Dustox
-暴飞龙
-374
-M. Wurmple
-铁哑铃
-375
-M. Silcoon
-金属怪
-376
-M. Beautifly
-巨金怪
-377
-M. Cascoon
-雷吉洛克
-378
-M. Dustox
-雷吉艾斯
-379
-Lotad
-雷吉斯奇鲁
-380
-Lombre
-拉帝亚斯
-381
-Ludicolo
-拉帝欧斯
-382
-Seedot
-盖欧卡
-383
-Nuzleaf
-固拉多
-384
-Shiftry
-烈空坐
-385
-Taillow
-基拉祈
-386
-Swellow
-代欧奇希斯
-387
-Wingull
-草苗龟
-388
-Pelipper
-树林龟
-389
-Ralts
-土台龟
-390
-Kirlia
-小火焰猴
-391
-Gardevoir
-猛火猴
-392
-Gallade
-烈焰猴
-393
-Surskit
-波加曼
-394
-Masquerain
-波皇子
-395
-Shroomish
-帝王拿波
-396
-Breloom
-姆克儿
-397
-Slakoth
-姆克鸟
-398
-Vigoroth
-姆克鹰
-399
-Slaking
-大牙狸
-400
-Nincada
-大尾狸
-401
-Ninjask
-圆法师
-402
-Shedinja
-音箱蟀
-403
-Whismur
-小猫怪
-404
-Loudred
-勒克猫
-405
-Exploud
-伦琴猫
-406
-Makuhita
-含羞苞
-407
-Hariyama
-罗丝雷朵
-408
-Nosepass
-头盖龙
-409
-Probopass
-战槌龙
-410
-Skitty
-盾甲龙
-411
-Delcatty
-护城龙
-412
-Sableye
-结草儿
-413
-Rubarior
-结草贵妇
-414
-Mawile
-绅士蛾
-415
-Deceat
-三蜜蜂
-416
-Aron
-蜂女王
-417
-Lairon
-帕奇利兹
-418
-Aggron
-泳圈鼬
-419
-Meditite
-浮潜鼬
-420
-Medicham
-樱花宝
-421
-Palmantra
-樱花儿
-422
-Electrike
-无壳海兔
-423
-Manectric
-海兔兽
-424
-Manergetic
-双尾怪兽
-425
-Plusle
-飘飘球
-426
-Minun
-随风球
-427
-Volbeat
-卷卷耳
-428
-Illumise
-长耳兔
-429
-Budew
-梦妖魔
-430
-Roselia
-乌鸦头头
-431
-Roserade
-魅力猫
-432
-Gulpin
-东施猫
-433
-Swalot
-铃铛响
-434
-Carvanha
-臭鼬噗
-435
-Sharpedo
-坦克臭鼬
-436
-Scarodon
-铜镜怪
-437
-Wailmer
-青铜钟
-438
-Wailord
-盆才怪
-439
-Numel
-魔尼尼
-440
-Camerupt
-小福蛋
-441
-Dromerupt
-聒噪鸟
-442
-Torkoal
-花岩怪
-443
-Spoink
-圆陆鲨
-444
-Grumpig
-尖牙陆鲨
-445
-Spinda
-烈咬陆鲨
-446
-Trapinch
-小卡比兽
-447
-Vibrava
-利欧路
-448
-Flygon
-路卡利欧
-449
-Cacnea
-沙河马
-450
-Cacturne
-河马兽
-451
-Swablu
-钳尾蝎
-452
-Altaria
-龙王蝎
-453
-Hymnus
-不良蛙
-454
-Zangoose
-毒骷蛙
-455
-Seviper
-尖牙笼
-456
-M. Zangoose
-荧光鱼
-457
-M. Seviper
-霓虹鱼
-458
-Lunatone
-小球飞鱼
-459
-Solrock
-雪笠怪
-460
-Barboach
-暴雪王
-461
-Whiscash
-玛狃拉
-462
-Corphish
-自爆磁怪
-463
-Crawdaunt
-大舌舔
-464
-Baltoy
-超甲狂犀
-465
-Claydol
-巨蔓藤
-466
-Lileep
-电击魔兽
-467
-Cradily
-鸭嘴炎兽
-468
-Anorith
-波克基斯
-469
-Armaldo
-远古巨蜓
-470
-Feebas
-叶伊布
-471
-Milotic
-冰伊布
-472
-Castform
-天蝎王
-473
-Kecleon
-象牙猪
-474
-Shuppet
-多边兽乙型
-475
-Banette
-艾路雷朵
-476
-Maniklaw
-大朝北鼻
-477
-Duskull
-黑夜魔灵
-478
-Dusclops
-雪妖女
-479
-Dusknoir
-洛托姆
-480
-Tropius
-由克希
-481
-Chingling
-艾姆利多
-482
-Chimecho
-亚克诺姆
-483
-Absol
-帝牙卢卡
-484
-Absolus
-帕路奇亚
-485
-Snorunt
-席多蓝恩
-486
-Glalie
-雷吉奇卡斯
-487
-Grimice
-骑拉帝纳
-488
-Froslass
-克雷色利亚
-489
-Spheal
-霏欧纳
-490
-Sealeo
-玛纳霏
-491
-Walrein
-达克莱伊
-492
-Clamperl
-谢米
-493
-Huntail
-阿尔宙斯
-494
-Gorebyss
-比克提尼
-495
-Relicanth
-藤藤蛇
-496
-Luvdisc
-青藤蛇
-497
-Alomomola
-君主蛇
-498
-Bagon
-暖暖猪
-499
-Shelgon
-炒炒猪
-500
-Salamence
-炎武王
-501
-Beldum
-水水獭
-502
-Metang
-双刃丸
-503
-Metagross
-大剑鬼
-504
-Regirock
-探探鼠
-505
-Regice
-步哨鼠
-506
-Registeel
-小约克
-507
-Regieleki
-哈约克
-508
-Regidrago
-长毛狗
-509
-Regigigas
-扒手猫
-510
-Latias
-酷豹
-511
-Latios
-花椰猴
-512
-Kyogre
-花椰猿
-513
-Groudon
-爆香猴
-514
-Rayquaza
-爆香猿
-515
-Jirachi
-冷水猴
-516
-Deoxys
-冷水猿
-517
-Turtwig
-食梦梦
-518
-Grotle
-梦梦蚀
-519
-Torterra
-豆豆鸽
-520
-Chimchar
-咕咕鸽
-521
-Monferno
-高傲雉鸡
-522
-Infernape
-斑斑马
-523
-Piplup
-雷电斑马
-524
-Prinplup
-石丸子
-525
-Empoleon
-地幔岩
-526
-Starly
-庞岩怪
-527
-Staravia
-滚滚蝙蝠
-528
-Staraptor
-心蝙蝠
-529
-Bidoof
-螺钉地鼠
-530
-Bibarel
-龙头地鼠
-531
-Kricketot
-差不多娃娃
-532
-Kricketune
-搬运小匠
-533
-Shinx
-铁骨土人
-534
-Luxio
-修建老匠
-535
-Luxray
-圆蝌蚪
-536
-Cranidos
-蓝蟾蜍
-537
-Rampardos
-蟾蜍王
-538
-Shieldon
-投摔鬼
-539
-Bastiodon
-打击鬼
-540
-Burmy
-虫宝包
-541
-Wormadam
-宝包茧
-542
-Mothim
-保姆虫
-543
-Combee
-百足蜈蚣
-544
-Vespiquen
-车轮球
-545
-Pachirisu
-蜈蚣王
-546
-Buizel
-木棉球
-547
-Floatzel
-风妖精
-548
-Cherubi
-百合根娃娃
-549
-Cherrim
-裙儿小姐
-550
-Shellos
-野蛮鲈鱼
-551
-Gastrodon
-黑眼鳄
-552
-Drifloon
-混混鳄
-553
-Drifblim
-流氓鳄
-554
-Buneary
-火红不倒翁
-555
-Lopunny
-达摩狒狒
-556
-Haerobic
-沙铃仙人掌
-557
-Glameow
-石居蟹
-558
-Purugly
-岩殿居蟹
-559
-Stunky
-滑滑小子
-560
-Skuntank
-头巾混混
-561
-Bronzor
-象征鸟
-562
-Bronzong
-哭哭面具
-563
-Chatot
-迭失棺
-564
-Spiritomb
-原盖海龟
-565
-Gible
-肋骨海龟
-566
-Gabite
-始祖小鸟
-567
-Garchomp
-始祖大鸟
-568
-Riolu
-破破袋
-569
-Lucario
-灰尘山
-570
-Riojin
-索罗亚
-571
-Hippopotas
-索罗亚克
-572
-Hippowdon
-泡沫栗鼠
-573
-Skorupi
-奇诺栗鼠
-574
-Drapion
-哥德宝宝
-575
-Croagunk
-哥德小童
-576
-Toxicroak
-哥德小姐
-577
-Carnivine
-单卵细胞球
-578
-M. Carnivine
-双卵细胞球
-579
-Finneon
-人造细胞卵
-580
-Lumineon
-鸭宝宝
-581
-Snover
-舞天鹅
-582
-Abomasnow
-迷你冰
-583
-Conifear
-多多冰
-584
-Rotom
-双倍多多冰
-585
-Uxie
-四季鹿
-586
-Mesprit
-萌芽鹿
-587
-Azelf
-电飞鼠
-588
-Dialga
-盖盖虫
-589
-Palkia
-骑士蜗牛
-590
-Heatran
-哎呀球菇
-591
-Giratina
-败露球菇
-592
-Cresselia
-轻飘飘
-593
-Phione
-胖嘟嘟
-594
-Manaphy
-保姆曼波
-595
-Darkrai
-电电虫
-596
-Shaymin
-电蜘蛛
-597
-Arceus
-种子铁球
-598
-Snivy
-坚果哑铃
-599
-Servine
-齿轮儿
-600
-Serperior
-齿轮组
-601
-Tepig
-齿轮怪
-602
-Pignite
-麻麻小鱼
-603
-Emboar
-麻麻鳗
-604
-Oshawott
-麻麻鳗鱼王
-605
-Dewott
-小灰怪
-606
-Samurott
-大宇怪
-607
-H. Samurott
-烛光灵
-608
-Patrat
-灯火幽灵
-609
-Watchog
-水晶灯火灵
-610
-Lillipup
-牙牙
-611
-Herdier
-斧牙龙
-612
-Stoutland
-双斧战龙
-613
-Purrloin
-喷嚏熊
-614
-Liepard
-冻原熊
-615
-Pansage
-几何雪花
-616
-Simisage
-小嘴蜗
-617
-Pansear
-敏捷虫
-618
-Simisear
-泥巴鱼
-619
-Panpour
-功夫鼬
-620
-Simipour
-师父鼬
-621
-Munna
-赤面龙
-622
-Musharna
-泥偶小人
-623
-M. Munna
-泥偶巨人
-624
-M. Musharna
-驹刀小兵
-625
-Pidove
-劈斩司令
-626
-Tranquill
-爆炸头水牛
-627
-Unfezant
-毛头小鹰
-628
-Blitzle
-勇士雄鹰
-629
-Zebstrika
-秃鹰丫头
-630
-Roggenrola
-秃鹰娜
-631
-Boldore
-熔蚁兽
-632
-Gigalith
-铁蚁
-633
-M. Roggenrola
-单首龙
-634
-M. Boldore
-双首暴龙
-635
-M. Gigalith
-三首恶龙
-636
-Woobat
-燃烧虫
-637
-Swoobat
-火神蛾
-638
-Drilbur
-勾帕路翁
-639
-Excadrill
-代拉基翁
-640
-Audino
-毕力吉翁
-641
-Sensibelle
-龙卷云
-642
-Timburr
-雷电云
-643
-Gurdurr
-莱希拉姆
-644
-Conkeldurr
-捷克罗姆
-645
-Tympole
-土地云
-646
-Palpitoad
-酋雷姆
-647
-Seismitoad
-凯路迪欧
-648
-Throh
-美洛耶塔
-649
-Sawk
-盖诺赛克特
-650
-Sewaddle
-哈力栗
-651
-Swadloon
-胖胖哈力
-652
-Leavanny
-布里卡隆
-653
-Venipede
-火狐狸
-654
-Whirlipede
-长尾火狐
-655
-Scolipede
-妖火红狐
-656
-Cottonee
-呱呱泡蛙
-657
-Whimsicott
-呱头蛙
-658
-Petilil
-甲贺忍蛙
-659
-Lilligant
-掘掘兔
-660
-H. Lilligant
-掘地兔
-661
-M. Petilil
-小箭雀
-662
-M. Lilligant
-火箭雀
-663
-Basculin
-烈箭鹰
-664
-Basculegion
-粉蝶虫
-665
-Sandile
-粉蝶蛹
-666
-Krokorok
-彩粉蝶
-667
-Krookodile
-小狮狮
-668
-Darumaka
-火炎狮
-669
-Darmanitan
-花蓓蓓
-670
-G. Darumaka
-花叶蒂
-671
-G. Darmanitan
-花洁夫人
-672
-Maractus
-坐骑小羊
-673
-Dwebble
-坐骑山羊
-674
-Crustle
-顽皮熊猫
-675
-Scraggy
-霸道熊猫
-676
-Scrafty
-多丽米亚
-677
-Sigilyph
-妙喵
-678
-Yamask
-超能妙喵
-679
-Cofagrigus
-独剑鞘
-680
-G. Yamask
-双剑鞘
-681
-Runerigus
-坚盾剑怪
-682
-Tirtouga
-粉香香
-683
-Carracosta
-芳香精
-684
-Archen
-绵绵泡芙
-685
-Archeops
-胖甜妮
-686
-Trubbish
-好啦鱿
-687
-Garbodor
-乌贼王
-688
-Donster
-龟脚脚
-689
-Zorua
-龟足巨铠
-690
-Zoroark
-垃垃藻
-691
-H. Zorua
-毒藻龙
-692
-H. Zoroark
-铁臂枪虾
-693
-Minccino
-钢炮臂虾
-694
-Cinccino
-伞电蜥
-695
-Gothita
-光电伞蜥
-696
-Gothorita
-宝宝暴龙
-697
-Gothitelle
-怪颚龙
-698
-Solosis
-冰雪龙
-699
-Duosion
-冰雪巨龙
-700
-Reuniclus
-仙子伊布
-701
-Ducklett
-摔角鹰人
-702
-Swanna
-咚咚鼠
-703
-Vanillite
-小碎钻
-704
-Vanillish
-黏黏宝
-705
-Vanilluxe
-黏美儿
-706
-Deerling
-黏美龙
-707
-Sawsbuck
-钥圈儿
-708
-Emolga
-小木灵
-709
-Karrablast
-朽木妖
-710
-Escavalier
-南瓜精
-711
-Foongus
-南瓜怪人
-712
-Amoonguss
-冰宝
-713
-Frillish
-冰岩怪
-714
-Jellicent
-嗡蝠
-715
-M. Frillish
-音波龙
-716
-M. Jellicent
-哲尔尼亚斯
-717
-Joltik
-伊裴尔塔尔
-718
-Galvantula
-基格尔德
-719
-Ferroseed
-蒂安希
-720
-Ferrothorn
-胡帕
-721
-Klink
-波尔凯尼恩
-722
-Klang
-木木枭
-723
-Klinklang
-投羽枭
-724
-Tynamo
-狙射树枭
-725
-Eelektrik
-火斑喵
-726
-Eelektross
-炎热喵
-727
-Elgyem
-炽焰咆哮虎
-728
-Beheeyem
-球球海狮
-729
-Litwick
-花漾海狮
-730
-Lampent
-西狮海壬
-731
-Chandelure
-小笃儿
-732
-Axew
-喇叭啄鸟
-733
-Fraxure
-铳嘴大鸟
-734
-Haxorus
-猫鼬少
-735
-Cubchoo
-猫鼬探长
-736
-Beartic
-强颚鸡母虫
-737
-Cryogonal
-虫电宝
-738
-Shelmet
-锹农炮虫
-739
-Accelgor
-好胜蟹
-740
-Stunfisk
-好胜毛蟹
-741
-G. Stunfisk
-花舞鸟
-742
-Mienfoo
-萌虻
-743
-Mienshao
-蝶结萌虻
-744
-Druddigon
-岩狗狗
-745
-Golett
-鬃岩狼人
-746
-Golurk
-弱丁鱼
-747
-Pawniard
-好坏星
-748
-Bisharp
-超坏星
-749
-Kingambit
-泥驴仔
-750
-Bouffalant
-重泥挽马
-751
-Rufflet
-滴蛛
-752
-Braviary
-滴蛛霸
-753
-H. Braviary
-伪螳草
-754
-Vullaby
-兰螳花
-755
-Mandibuzz
-睡睡菇
-756
-M. Vullaby
-灯罩夜菇
-757
-M. Mandibuzz
-夜盗火蜥
-758
-Heatmor
-焰后蜥
-759
-Durant
-童偶熊
-760
-Deino
-穿着熊
-761
-Zweilous
-甜竹竹
-762
-Hydreigon
-甜舞妮
-763
-Larvesta
-甜冷美后
-764
-Volcarona
-花疗环环
-765
-Cobalion
-智挥猩
-766
-Terrakion
-投掷猴
-767
-Virizion
-胆小虫
-768
-Keldeo
-具甲武者
-769
-Tornadus
-沙丘娃
-770
-Thundurus
-噬沙堡爷
-771
-Landorus
-拳海参
-772
-Enamorus
-属性：空
-773
-Reshiram
-银伴战兽
-774
-Zekrom
-小陨星
-775
-Kyurem
-树枕尾熊
-776
-Meloetta
-爆焰龟兽
-777
-Genesect
-托戈德玛尔
-778
-Victini
-谜拟丘
-779
-Chespin
-磨牙彩皮鱼
-780
-Quilladin
-老翁龙
-781
-Chesnaught
-破破舵轮
-782
-Fennekin
-心鳞宝
-783
-Braixen
-鳞甲龙
-784
-Delphox
-杖尾鳞甲龙
-785
-Froakie
-卡璞・鸣鸣
-786
-Frogadier
-卡璞・蝶蝶
-787
-Greninja
-卡璞・哞哞
-788
-Bunnelby
-卡璞・鳍鳍
-789
-Diggersby
-科斯莫古
-790
-Fletchling
-科斯莫姆
-791
-Fletchinder
-索尔迦雷欧
-792
-Talonflame
-露奈雅拉
-793
-Scatterbug
-虚吾伊德
-794
-Spewpa
-爆肌蚊
-795
-Vivillon
-费洛美螂
-796
-Litleo
-电束木
-797
-Pyroar
-铁火辉夜
-798
-Flabébé
-纸御剑
-799
-Floette
-恶食大王
-800
-Florges
-奈克洛兹玛
-801
-Skiddo
-玛机雅娜
-802
-Gogoat
-玛夏多
-803
-Pancham
-毒贝比
-804
-Pangoro
-四颚针龙
-805
-Furfrou
-垒磊石
-806
-Espurr
-砰头小丑
-807
-Meowstic
-捷拉奥拉
-808
-Honedge
-美录坦
-809
-Doublade
-美录梅塔
-810
-Aegislash
-敲音猴
-811
-Spritzee
-啪咚猴
-812
-Aromatisse
-轰擂金刚猩
-813
-M. Aromatisse
-炎兔儿
-814
-Swirlix
-腾蹴小将
-815
-Slurpuff
-闪焰王牌
-816
-Inkay
-泪眼蜥
-817
-Malamar
-变涩蜥
-818
-Binacle
-千面避役
-819
-Barbaracle
-贪心栗鼠
-820
-Skrelp
-藏饱栗鼠
-821
-Dragalge
-雉山雀
-822
-M. Skrelp
-蓝鸦
-823
-M. Dragalge
-钢铠鸦
-824
-Clauncher
-索侦虫
-825
-Clawitzer
-天罩虫
-826
-Helioptile
-以欧路普
-827
-Heliolisk
-狡小狐
-828
-Tyrunt
-狐大盗
-829
-Tyrantrum
-幼棉棉
-830
-Amaura
-白蓬蓬
-831
-Aurorus
-毛辨羊
-832
-Hawlucha
-毛毛角羊
-833
-Dedenne
-咬咬龟
-834
-Carbink
-暴噬龟
-835
-Diancie
-来电汪
-836
-Goomy
-逐电犬
-837
-Sliggoo
-小炭仔
-838
-Goodra
-大炭车
-839
-H. Sliggoo
-巨炭山
-840
-H. Goodra
-啃果虫
-841
-Klefki
-苹裹龙
-842
-Phantump
-丰蜜龙
-843
-Trevenant
-沙包蛇
-844
-Pumpkaboo
-沙螺蟒
-845
-Gourgeist
-古月鸟
-846
-Bergmite
-刺梭鱼
-847
-Avalugg
-戽斗尖梭
-848
-H. Avalugg
-电音婴
-849
-Noibat
-颤弦蝾螈
-850
-Noivern
-烧火蚣
-851
-Xerneas
-焚焰蚣
-852
-Yveltal
-拳拳蛸
-853
-Zygarde
-八爪武师
-854
-Hoopa
-来悲茶
-855
-Volcanion
-怖思壶
-856
-Rowlet
-迷布莉姆
-857
-Dartrix
-提布莉姆
-858
-Decidueye
-布莉姆温
-859
-H. Decidueye
-捣蛋小妖
-860
-Litten
-诈唬魔
-861
-Torracat
-长毛巨魔
-862
-Incineroar
-堵拦熊
-863
-Popplio
-喵头目
-864
-Brionne
-魔灵珊瑚
-865
-Primarina
-葱游兵
-866
-Pikipek
-踏冰人偶
-867
-Trumbeak
-迭失板
-868
-Toucannon
-小仙奶
-869
-Yungoos
-霜奶仙
-870
-Gumshoos
-列阵兵
-871
-Grubbin
-啪嚓海胆
-872
-Charjabug
-雪吞虫
-873
-Vikavolt
-雪绒蛾
-874
-Crabrawler
-巨石丁
-875
-Crabominable
-冰砌鹅
-876
-Oricorio
-爱管侍
-877
-Cutiefly
-莫鲁贝可
-878
-Ribombee
-铜象
-879
-Rockruff
-大王铜象
-880
-Lycanroc
-雷鸟龙
-881
-Wishiwashi
-雷鸟海兽
-882
-Mareanie
-鳃鱼龙
-883
-Toxapex
-鳃鱼海兽
-884
-Mudbray
-铝钢龙
-885
-Mudsdale
-多龙梅西亚
-886
-Dewpider
-多龙奇
-887
-Araquanid
-多龙巴鲁托
-888
-Fomantis
-苍响
-889
-Lurantis
-藏玛然特
-890
-Morelull
-无极汰那
-891
-Shiinotic
-熊徒弟
-892
-Salandit
-武道熊师
-893
-Salazzle
-萨戮德
-894
-Stufful
-雷吉艾勒奇
-895
-Bewear
-雷吉铎拉戈
-896
-Bounsweet
-雪暴马
-897
-Steenee
-灵幽马
-898
-Tsareena
-蕾冠王
-899
-Comfey
-巨针蜂
-900
-Oranguru
-闪芒蝶
-901
-Passimian
-亲子袋兽
-902
-Wimpod
-黑堕弥
-903
-Golisopod
-宝石眼
-904
-Sandygast
-狂噬娃
-905
-Palossand
-曼忒陀
-906
-Pyukumuku
-雷霆兽
-907
-Type: Null
-凶牙鲨
-908
-Silvally
-熔火驼
-909
-Minior
-颂神青鸟
-910
-Komala
-怨灵娃娃
-911
-Turtonator
-厄珀梭鲁
-912
-Togedemaru
-矫身兔
-913
-Mimikyu
-暴雪山神
-914
-Bruxish
-仙知娃娃
-915
-Drampa
-沙暴蟒
-916
-Dhelmise
-巨螯蟹
-917
-Jangmo-o
-垒壳龟
-918
-Hakamo-o
-噪波蝾螈
-919
-Kommo-o
-糕奶仙
-920
-Tapu Koko
-萨凯帕切
-921
-Tapu Lele
-擎天克罗斯
-922
-Tapu Bulu
-绍尔纳德
-923
-Tapu Fini
-溶毒山
-924
-Cosmog
-吉拔喵
-925
-Cosmoem
-巨型伊布
-926
-Solgaleo
-巨卡丘
-927
-Lunala
-百足焚焰蚣
-928
-Necrozma
-雷加利欧
-929
-Nihilego
-泰坦蛇
-930
-Buzzwole
-帝王铜象
-931
-Pheromosa
-塔钢龙
-932
-Xurkitree
-掠岩翼龙
-933
-Celesteela
-钢钳螳螂
-934
-Kartana
-冰魔首
-935
-Guzzlord
-Guzzlord
-936
-Poipole
-Poipole
-937
-Naganadel
-Naganadel
-938
-Stakataka
-Stakataka
-939
-Blacephalon
-Blacephalon
-940
-Magearna
-Magearna
-941
-Marshadow
-Marshadow
-942
-Zeraora
-Zeraora
-943
-Meltan
-Meltan
-944
-Melmetal
-Melmetal
-945
-Grookey
-Grookey
-946
-Thwackey
-Thwackey
-947
-Rillaboom
-Rillaboom
-948
-Scorbunny
-Scorbunny
-949
-Raboot
-Raboot
-950
-Cinderace
-Cinderace
-951
-Sobble
-Sobble
-952
-Drizzile
-Drizzile
-953
-Inteleon
-Inteleon
-954
-Skwovet
-Skwovet
-955
-Greedent
-Greedent
-956
-Rookidee
-Rookidee
-957
-Corvisquire
-Corvisquire
-958
-Corviknight
-Corviknight
-959
-Blipbug
-Blipbug
-960
-Dottler
-Dottler
-961
-Orbeetle
-Orbeetle
-962
-Nickit
-Nickit
-963
-Thievul
-Thievul
-964
-Gossifleur
-Gossifleur
-965
-Eldegoss
-Eldegoss
-966
-Wooloo
-Wooloo
-967
-Dubwool
-Dubwool
-968
-Chewtle
-Chewtle
-969
-Drednaw
-Drednaw
-970
-Seismaw
-Seismaw
-971
-Yamper
-Yamper
-972
-Boltund
-Boltund
-973
-Rolycoly
-Rolycoly
-974
-Carkol
-Carkol
-975
-Coalossal
-Coalossal
-976
-Applin
-Applin
-977
-Flapple
-Flapple
-978
-Appletun
-Appletun
-979
-Silicobra
-Silicobra
-980
-Sandaconda
-Sandaconda
-981
-Saharicane
-Saharicane
-982
-Cramorant
-Cramorant
-983
-Arrokuda
-Arrokuda
-984
-Barraskewda
-Barraskewda
-985
-Toxel
-Toxel
-986
-Toxtricity
-Toxtricity
-987
-Arclamor
-Arclamor
-988
-Sizzlipede
-Sizzlipede
-989
-Centiskorch
-Centiskorch
-990
-Milliblaze
-Milliblaze
-991
-Clobbopus
-Clobbopus
-992
-Grapploct
-Grapploct
-993
-Sinistea
-Sinistea
-994
-Polteageist
-Polteageist
-995
-M. Sinistea
-M. Sinistea
-996
-M. Polteageist
-M. Polteageist
-997
-Hatenna
-Hatenna
-998
-Hattrem
-Hattrem
-999
-Hatterene
-Hatterene
-1000
-Impidimp
-Impidimp
-1001
-Morgrem
-Morgrem
-1002
-Grimmsnarl
-Grimmsnarl
-1003
-Milcery
-Milcery
-1004
-Alcremie
-Alcremie
-1005
-Blasfemmie
-Blasfemmie
-1006
-Falinks
-Falinks
-1007
-Pincurchin
-Pincurchin
-1008
-Snom
-Snom
-1009
-Frosmoth
-Frosmoth
-1010
-Stonjourner
-Stonjourner
-1011
-Eiscue
-Eiscue
-1012
-Indeedee
-Indeedee
-1013
-Morpeko
-Morpeko
-1014
-Cufant
-Cufant
-1015
-Copperajah
-Copperajah
-1016
-Digniphite
-Digniphite
-1017
-Dracozolt
-Dracozolt
-1018
-Arctozolt
-Arctozolt
-1019
-Dracovish
-Dracovish
-1020
-Arctovish
-Arctovish
-1021
-Duraludon
-Duraludon
-1022
-Towerpoda
-Towerpoda
-1023
-Dreepy
-Dreepy
-1024
-Drakloak
-Drakloak
-1025
-Dragapult
-Dragapult
-1026
-Zacian
-Zacian
-1027
-Zamazenta
-Zamazenta
-1028
-Eternatus
-Eternatus
-1029
-Kubfu
-Kubfu
-1030
-Urshifu
-Urshifu
-1031
-Zarude
-Zarude
-1032
-Glastrier
-Glastrier
-1033
-Spectrier
-Spectrier
-1034
-Calyrex
-Calyrex
-5000
-Test Pokemon
-Test Pokemon
-5001
-Test Pokemon 2
-Test Pokemon 2
-5002
-Pikachu
-皮卡丘
-5003
-Pikachu
-皮卡丘
-5004
-Pikachu
-皮卡丘
-5005
-Pikachu
-皮卡丘
-5006
-Pikachu
-皮卡丘
-5007
-Pikachu
-皮卡丘
-5008
-Pikachu
-皮卡丘
-5009
-Pikachu
-皮卡丘
-5010
-Pikachu
-皮卡丘
-5011
-Pikachu
-皮卡丘
-5012
-Pikachu
-皮卡丘
-5013
-Pikachu
-皮卡丘
-5014
-Pikachu
-皮卡丘
-5015
-Pikachu
-皮卡丘
-5016
-Unown
-未知图腾
-5017
-Unown
-未知图腾
-5018
-Unown
-未知图腾
-5019
-Unown
-未知图腾
-5020
-Unown
-未知图腾
-5021
-Unown
-未知图腾
-5022
-Unown
-未知图腾
-5023
-Unown
-未知图腾
-5024
-Unown
-未知图腾
-5025
-Unown
-未知图腾
-5026
-Unown
-未知图腾
-5027
-Unown
-未知图腾
-5028
-Unown
-未知图腾
-5029
-Unown
-未知图腾
-5030
-Unown
-未知图腾
-5031
-Unown
-未知图腾
-5032
-Unown
-未知图腾
-5033
-Unown
-未知图腾
-5034
-Unown
-未知图腾
-5035
-Unown
-未知图腾
-5036
-Unown
-未知图腾
-5037
-Unown
-未知图腾
-5038
-Unown
-未知图腾
-5039
-Unown
-未知图腾
-5040
-Unown
-未知图腾
-5041
-Unown
-未知图腾
-5042
-Unown
-未知图腾
-5043
-Castform
-飘浮泡泡
-5044
-Castform
-飘浮泡泡
-5045
-Castform
-飘浮泡泡
-5046
-Castform
-飘浮泡泡
-5047
-Castform
-代欧奇希斯
-5048
-Castform
-代欧奇希斯
-5049
-Deoxys
-代欧奇希斯
-5050
-Deoxys
-结草儿
-5051
-Deoxys
-结草儿
-5052
-Burmy
-结草贵妇
-5053
-Burmy
-结草贵妇
-5054
-Wormadam
-樱花儿
-5055
-Wormadam
-无壳海兔
-5056
-Cherrim
-海兔兽
-5057
-Shellos
-洛托姆
-5058
-Gastrodon
-洛托姆
-5059
-Rotom
-洛托姆
-5060
-Rotom
-洛托姆
-5061
-Rotom
-洛托姆
-5062
-Rotom
-骑拉帝纳
-5063
-Rotom
-谢米
-5064
-Giratina
-阿尔宙斯
-5065
-Shaymin
-阿尔宙斯
-5066
-Arceus
-阿尔宙斯
-5067
-Arceus
-阿尔宙斯
-5068
-Arceus
-阿尔宙斯
-5069
-Arceus
-阿尔宙斯
-5070
-Arceus
-阿尔宙斯
-5071
-Arceus
-阿尔宙斯
-5072
-Arceus
-阿尔宙斯
-5073
-Arceus
-阿尔宙斯
-5074
-Arceus
-阿尔宙斯
-5075
-Arceus
-阿尔宙斯
-5076
-Arceus
-阿尔宙斯
-5077
-Arceus
-阿尔宙斯
-5078
-Arceus
-阿尔宙斯
-5079
-Arceus
-阿尔宙斯
-5080
-Arceus
-阿尔宙斯
-5081
-Arceus
-阿尔宙斯
-5082
-Arceus
-野蛮鲈鱼
-5083
-Arceus
-四季鹿
-5084
-Basculin
-四季鹿
-5085
-Deerling
-四季鹿
-5086
-Deerling
-萌芽鹿
-5087
-Deerling
-萌芽鹿
-5088
-Sawsbuck
-萌芽鹿
-5089
-Sawsbuck
-龙卷云
-5090
-Sawsbuck
-雷电云
-5091
-Tornadus
-土地云
-5092
-Thundurus
-酋雷姆
-5093
-Landorus
-酋雷姆
-5094
-Kyurem
-酋雷姆
-5095
-Kyurem
-酋雷姆
-5096
-Kyurem
-凯路迪欧
-5097
-Kyurem
-美洛耶塔
-5098
-Keldeo
-盖诺赛克特
-5099
-Meloetta
-盖诺赛克特
-5100
-Genesect
-盖诺赛克特
-5101
-Genesect
-盖诺赛克特
-5102
-Genesect
-彩粉蝶
-5103
-Genesect
-彩粉蝶
-5104
-Vivillon
-彩粉蝶
-5105
-Vivillon
-彩粉蝶
-5106
-Vivillon
-彩粉蝶
-5107
-Vivillon
-彩粉蝶
-5108
-Vivillon
-彩粉蝶
-5109
-Vivillon
-彩粉蝶
-5110
-Vivillon
-彩粉蝶
-5111
-Vivillon
-彩粉蝶
-5112
-Vivillon
-彩粉蝶
-5113
-Vivillon
-彩粉蝶
-5114
-Vivillon
-彩粉蝶
-5115
-Vivillon
-彩粉蝶
-5116
-Vivillon
-彩粉蝶
-5117
-Vivillon
-彩粉蝶
-5118
-Vivillon
-彩粉蝶
-5119
-Vivillon
-彩粉蝶
-5120
-Vivillon
-彩粉蝶
-5121
-Vivillon
-花蓓蓓
-5122
-Vivillon
-花蓓蓓
-5123
-Flabébé
-花蓓蓓
-5124
-Flabébé
-花蓓蓓
-5125
-Flabébé
-花叶蒂
-5126
-Flabébé
-花叶蒂
-5127
-Floette
-花叶蒂
-5128
-Floette
-花叶蒂
-5129
-Floette
-花洁夫人
-5130
-Floette
-花洁夫人
-5131
-Florges
-花洁夫人
-5132
-Florges
-花洁夫人
-5133
-Florges
-多丽米亚
-5134
-Florges
-多丽米亚
-5135
-Furfrou
-多丽米亚
-5136
-Furfrou
-多丽米亚
-5137
-Furfrou
-多丽米亚
-5138
-Furfrou
-多丽米亚
-5139
-Furfrou
-多丽米亚
-5140
-Furfrou
-多丽米亚
-5141
-Furfrou
-多丽米亚
-5142
-Furfrou
-超能妙喵
-5143
-Furfrou
-坚盾剑怪
-5144
-Meowstic
-南瓜精
-5145
-Aegislash
-南瓜精
-5146
-Pumpkaboo
-南瓜精
-5147
-Pumpkaboo
-南瓜怪人
-5148
-Pumpkaboo
-南瓜怪人
-5149
-Gourgeist
-南瓜怪人
-5150
-Gourgeist
-哲尔尼亚斯
-5151
-Gourgeist
-基格尔德
-5152
-Xerneas
-基格尔德
-5153
-Zygarde
-基格尔德
-5154
-Zygarde
-胡帕
-5155
-Zygarde
-花舞鸟
-5156
-Hoopa
-花舞鸟
-5157
-Oricorio
-花舞鸟
-5158
-Oricorio
-鬃岩狼人
-5159
-Oricorio
-鬃岩狼人
-5160
-Lycanroc
-弱丁鱼
-5161
-Lycanroc
-银伴战兽
-5162
-Wishiwashi
-银伴战兽
-5163
-Silvally
-银伴战兽
-5164
-Silvally
-银伴战兽
-5165
-Silvally
-银伴战兽
-5166
-Silvally
-银伴战兽
-5167
-Silvally
-银伴战兽
-5168
-Silvally
-银伴战兽
-5169
-Silvally
-银伴战兽
-5170
-Silvally
-银伴战兽
-5171
-Silvally
-银伴战兽
-5172
-Silvally
-银伴战兽
-5173
-Silvally
-银伴战兽
-5174
-Silvally
-银伴战兽
-5175
-Silvally
-银伴战兽
-5176
-Silvally
-银伴战兽
-5177
-Silvally
-银伴战兽
-5178
-Silvally
-银伴战兽
-5179
-Silvally
-小陨星
-5180
-Silvally
-小陨星
-5181
-Minior
-小陨星
-5182
-Minior
-小陨星
-5183
-Minior
-小陨星
-5184
-Minior
-小陨星
-5185
-Minior
-小陨星
-5186
-Minior
-谜拟丘
-5187
-Minior
-奈克洛兹玛
-5188
-Mimikyu
-奈克洛兹玛
-5189
-Necrozma
-奈克洛兹玛
-5190
-Necrozma
-奈克洛兹玛
-5191
-Necrozma
-玛机雅娜
-5192
-Necrozma
-古月鸟
-5193
-Magearna
-古月鸟
-5194
-Cramorant
-冰砌鹅
-5195
-Cramorant
-来悲茶
-5196
-Eiscue
-怖思壶
-5197
-Sinistea
-爱管侍
-5198
-Polteageist
-莫鲁贝可
-5199
-Indeedee
-苍响
-5200
-Morpeko
-藏玛然特
-5201
-Zacian
-武道熊师
-5202
-Zamazenta
-蕾冠王
-5203
-Urshifu
-蕾冠王
-5204
-Calyrex
-盖欧卡
-5205
-Calyrex
-固拉多
-5206
-Kyogre
-烈空坐
-5207
-Groudon
-达摩狒狒
-5208
-Rayquaza
-达摩狒狒
-5209
-Darmanitan
-电龙
-5210
-G. Darmanitan
-烈咬陆鲨
-5211
-Ampharos
-暴鲤龙
-5212
-Garchomp
-沙奈朵
-5213
-Gyarados
-艾路雷朵
-5214
-Gardevoir
-超梦
-5215
-Gallade
-超梦
-5216
-Mewtwo
-眷恋云
-5217
-Mewtwo
-芳香精
-5218
-Enamorus
-野蛮鲈鱼
-5219
-M. Aromatisse
-M. Aromatisse
-5220
-Basculin
-Basculin
-5221
-Test Pokemon
-Test Pokemon
 [2]
 1
 Seed
@@ -39416,7 +35647,7 @@ Enables random critical hits for the user, and quadruples its critical hit chanc
 The user draws attention to itself, making all targets take aim only at the user this turn.
 The user draws attention to itself, making all targets take aim only at the user this turn.
 The target is raked two to five times. Can random critical hit.
-The target is raked two to five times. Can random critical hit.
+用爪子或镰刀等抓对手进行攻击。连续攻 击２～５次。容易击中要害。
 The user charges at the target using every bit of its power. The user must rest on the next turn.
 使出自己浑身力量突击对手。下一回合自 己将无法动弹。
 The user intimidates the target by staring at it to cause numbing.
@@ -39492,7 +35723,7 @@ The foe is forced to switch out to a random ally. Always goes last.
 The user attacks with a song. Others can join in the Round and make the attack do greater damage.
 用歌声攻击对手。同伴还可以接着使出轮 唱招式，威力也会提高。
 Hard, pointed, and sharp claws rake the target to inflict damage. Can random critical hit.
-Hard, pointed, and sharp claws rake the target to inflict damage. Can random critical hit.
+用坚硬且无比锋利的爪子抓对手进行攻击  。容易击中要害。
 The user's earsplitting screech reduces the target's Defense stat by four steps.
 发出不由自主想要捂起耳朵的刺耳声，从 而低对手的防 御四级。
 The user attacks with a secret power. Its added effects vary depending on the user's environment.
@@ -39512,7 +35743,7 @@ The user tucks in to raise its Defense by four steps in the first turn, then ram
 The user slacks off, restoring its own HP by up to half of its maximum HP.
 偷懒休息。回复自己最大ＨＰ的一半。
 The target is attacked with a slash of claws or blades. Can random critical hit.
-The target is attacked with a slash of claws or blades. Can random critical hit.
+用爪子或镰刀等劈开对手进行攻击。容易 击中要害。
 While it is asleep, the user randomly uses one of the moves it knows.
 从自己已学会的招式中任意使出１个。只 能在自己睡觉时使用。
 This attack inflicts double damage on a numbed foe. It also cures the target's numbing, however.
@@ -39588,7 +35819,7 @@ The user coaches its ally Pokémon, raising their Attack and Defense by two step
 A retaliation move that counters any physical attack, inflicting double the damage taken.
 从对手那里受到物理攻击的伤害将以２倍 返还给同一个对手。
 The user delivers a double chop with its forearms crossed. Can random critical hit.
-The user delivers a double chop with its forearms crossed. Can random critical hit.
+用两手呈十字劈打对手进行攻击。容易击 中要害。
 The target is quickly kicked twice in succession using both feet.
 用２只脚踢飞对手进行攻击。连续２次给 予伤害。
 An energy-draining punch. The user's HP is restored by 33% of the damage dealt.
@@ -39608,7 +35839,7 @@ The target is attacked with a shock wave. It has a 30% chance to numb.
 The target is attacked with a knee kick from a jump. If it misses, the user is hurt instead.
 跳起后用膝盖撞对手进行攻击。如果撞偏 则自己会受到伤害。
 The target is attacked with a sharp chop. Can random critical hit.
-The target is attacked with a sharp chop. Can random critical hit.
+用锋利的手刀劈向对手进行攻击。容易击 中要害。
 A powerful low kick that makes the foe fall over. It inflicts greater damage on heavier foes.
 用力踢对手的脚，使其摔倒进行攻击。对 手越重，威力越大。
 The user attacks the target's legs swiftly, reducing the target's Speed stat by two steps.
@@ -39654,7 +35885,7 @@ The user nimbly strikes the foe. Doubles in damage if the user has no item when 
 The user confounds the foe with speed, then slashes. Can't miss and skips protections.
 以敏捷的动作戏弄对手后进行切斩。攻击 必定会命中，且无视保护类招式。
 A vortex of air is shot at the target to inflict damage. Can random critical hit.
-A vortex of air is shot at the target to inflict damage. Can random critical hit.
+发射空气旋涡进行攻击。容易击中要害。
 The user attacks with a blade of air that slices even the sky. It has a 40% chance to flinch the target.
 用连天空也能劈开的空气之刃进行攻击。 40%几率会使对手畏缩。
 The user heats up its beak before attacking. Physically attacking in this time results in a burn.
@@ -39672,7 +35903,7 @@ The user whips up a wind to blow away the target's protective screens. Also remo
 The user soars upward and drops at high speeds. This lowers the user's defensive stats.
 从天空中急速下降攻击对手。自己的防御 会降低。
 A corkscrewing attack with the sharp beak acting as a drill. Can random critical hit.
-A corkscrewing attack with the sharp beak acting as a drill. Can random critical hit.
+一边旋转，一边将尖喙刺入对手进行攻击 ，共容易击中要害。
 The user slams the target with its wings. The target is hit twice in a row.
 将翅膀撞向对手进行攻击。连续２次给予 伤害。
 The user covers the target's body with a mass of down that lowers its Attack stat by five steps.
@@ -39742,7 +35973,7 @@ The user strikes everything around it by stomping on the ground. It reduces hit 
 The user burrows, becoming invulnerable, then attacks on the second turn.
 第１回合钻入地下并免疫伤害，第２回合 攻击对手。
 The user crashes into its target while rotating its body like a drill. Can random critical hit.
-The user crashes into its target while rotating its body like a drill. Can random critical hit.
+像钢钻一样，一边旋转身体一边撞击对手 。容易击中要害。
 The user makes the ground under the foe erupt with power. It has a 20% chance to lower Sp. Def.
 向对手脚下释放出大地之力。20%概率降 低对手的特防。
 The user sets off an earthquake that strikes every Pokémon around it and underground.
@@ -39850,7 +36081,7 @@ The user stares at flashing lights to focus its mind, raising its Sp. Atk stat b
 After making its attack, the user rushes back to switch places with a party Pokémon in waiting.
 在攻击之后急速返回，和后备宝可梦进行 替换。
 The user slashes at the foe by crossing its scythes or claws. Can random critical hit.
-The user slashes at the foe by crossing its scythes or claws. Can random critical hit.
+将镰刀或爪子像剪刀般地交叉，顺势劈开 对手。容易击中要害。
 The user attacks the target while shouting in a startling fashion. It has a 40% chance to flinch.
 用尖叫声等突然惊吓对手进行攻击。40% 的几率时会使对手畏缩。
 The user attacks by sending a frightful amount of small ghosts at opposing Pokémon.
@@ -39884,7 +36115,7 @@ The user hurls a shadowy blob at the target. It has a 20% chance to lower Sp. De
 The user beats the target with a bone containing a spirit. This lowers their Defense by three steps.
 用附有灵魂的骨头殴打对手进行攻击。降 低对手防御三级 。
 The user slashes with a sharp claw made from shadows. Can random critical hit.
-The user slashes with a sharp claw made from shadows. Can random critical hit.
+以影子做成的锐爪，劈开对手。容易击中 要害。
 The user disappears, becoming invulnerable, then strikes the foe on the second turn. It hits even if the foe protects itself.
 第１回合消失踪影并免疫伤害，第２回合 攻击对手。即使对手正受保护，也能击中 。
 The user throws a punch from the shadows. The punch lands without fail.
@@ -40024,7 +36255,7 @@ A spray of bubbles is forcefully ejected at the target. It also lowers the foe's
 The user clamps onto the target, trapping and damaging it for three turns.
 用非常坚固且厚实的贝壳，在3回合内夹 住对手进行攻击 。
 The target is hammered with a large pincer. Can random critical hit.
-The target is hammered with a large pincer. Can random critical hit.
+用大钳子敲打对手进行攻击。容易击中要 害。
 Diving on the first turn, becoming invulnerable, the user rises and hits from below water on the next turn.
 第１回合潜入并免疫伤害，第２回合浮上 来进行攻击。
 Rends the target with its hard gills. Deals 50% more damage unless the target has moved this turn.
@@ -40102,9 +36333,9 @@ The user lays roots that restore 1/8th HP on every turn. Because it is rooted, i
 Restores HP and heals status of itself and its ally Pokémon in battle by using Jungle Powers.
 与丛林融为一体，回复自己和场上同伴的 ＨＰ和状态。
 The user attacks by pelting the target with leaves. Can random critical hit.
-The user attacks by pelting the target with leaves. Can random critical hit.
+将叶片打向对手，进行攻击。容易击中要 害。
 The user handles a sharp leaf like a sword and attacks by slashing. Can random critical hit.
-The user handles a sharp leaf like a sword and attacks by slashing. Can random critical hit.
+像用剑一般操纵叶片切斩对手进行攻击。 容易击中要害。
 A storm of sharp leaves is whipped up. Lowers the user's Sp. Atk by four steps.
 用尖尖的叶片向对手卷起风暴。使用之后 因为反作用力自己的特攻降低四级。
 A seed is planted on the target, causing it to become leeched.
@@ -40116,7 +36347,7 @@ The user attacks by scattering petals for three turns.
 The user violently whirls to lash the target. Can't miss if the target has already attacked this turn.
 激烈地挥舞青藤或触手摔打对手进行攻击 。如果对手在本回合已经发动过攻击，则 此攻击必定命中。
 Sharp-edged leaves are launched to slash at the opposing team. Can random critical hit.
-Sharp-edged leaves are launched to slash at the opposing team. Can random critical hit.
+飞出叶片，切斩对手进行攻击。容易击中 要害。
 The user slams a barrage of hard-shelled seeds down on the target from above.
 将外壳坚硬的大种子，从上方砸下攻击对 手。
 The user generates a shock wave from within its body. This lower's the target's Sp. Def.
@@ -40254,7 +36485,7 @@ The target is hit by a strong telekinetic force. It has a 20% chance to lower Sp
 The user bites the target using psychic capabilities. Also breaks anys Screens protecting the target's side.
 利用精神力量咬住对手进行攻击。还可以 破坏光墙和反射壁等 。
 The user tears at the target with blades formed by psychic power. Can random critical hit.
-The user tears at the target with blades formed by psychic power. Can random critical hit.
+用实体化的心之利刃劈开对手。容易击中 要害。
 Using its psychic power of suggestion, the user transfers its status problems to the target.
 利用超能力施以暗示，从而将自己受到的 异常状态转移给对手。
 The user hypnotizes itself into copying any stat change made by the target.
@@ -40340,7 +36571,7 @@ Eternatus's most powerful attack in its original form. The user can't move on th
 The user blasts the target with power that distorts even time. The user must rest on the next turn.
 释放出扭曲时间般的强大力量攻击对手。 下一回合自己将无法动弹。
 The user tears the target along with the space around it. Can random critical hit.
-The user tears the target along with the space around it. Can random critical hit.
+将对手连同周围的空间一起撕裂并给予伤 害。容易击中要害。
 A small tornado hits the target. It has a 30% chance to make targets flinch.
 A small tornado hits the target. It has a 30% chance to make targets flinch.
 If the target has already taken some damage in the same turn, this attack's power is doubled.
@@ -40392,7 +36623,7 @@ The user pins the target with a dark, arresting look. The target becomes unable 
 The user faints in order to lower the target's Attack and Sp. Atk by five steps each.
 自身失去战斗力后，降低对方的攻击和特 攻五级。
 The user slashes the target the instant an opportunity arises. Can random critical hit.
-The user slashes the target the instant an opportunity arises. Can random critical hit.
+抓住瞬间的空隙切斩对手。容易击中要害 。
 Protects the user from damage this turn. It also lowers the Defense of physical attackers by four steps.
 完全抵挡对手的攻击。一旦触碰，防御就 会降低四级。
 The user lowers the target's Attack and Sp. Atk by two steps each. Then, the user switches out.
@@ -40528,7 +36759,7 @@ The target is hit two to five times in a row.
 The target is struck by a pulse of negative energy. This resets the target's stat changes.
 The target is struck by a pulse of negative energy. This resets the target's stat changes.
 The target is cut by a clean slice. Can random critical hit, and does so twice as often.
-The target is cut by a clean slice. Can random critical hit, and does so twice as often.
+干净利落地斩击对手，极其容易击中要害 。
 The user shoots a pulse of uncharged particles at the target.
 向对手发射一束明亮的白色能量。
 The user pranks the target, surprising it and reducing its Sp. Atk and Sp. Def by two steps each.
@@ -40606,11 +36837,11 @@ The user attacks with a burst of inner energy. Lowers the user's Sp. Atk by four
 The user holds fast with its teammates, raising the Defense of itself and its allies by three steps.
 使自己和队友紧密团结，提升自己和同伴 的防御三级。
 The user shoots three arrows made of Aura with extreme precision. Can random critical hit.
-The user shoots three arrows made of Aura with extreme precision. Can random critical hit.
+以极高的精度射出三支气场制成的箭。容 易击中要害。
 The user manifests a bolt of pure courage. This has a 10% chance of raising the user's Sp. Atk.
 迸发了纯粹的勇气波。10%几率提高自己 的特攻。
 The user relentlessly attacks with its whip-like hands for three turns. Can random critical hit.
-The user relentlessly attacks with its whip-like hands for three turns. Can random critical hit.
+像鞭子一样挥舞其手，连续不断地攻击三 回合。容易击中要害。
 A reckless charge attack from the air. It also damages the user by 25% of the damage dealt.
 鲁莽地从空中发起冲锋，会受到25%的反 作用力伤害。
 The user fires a stormy gust at the target. This also raises the user's Sp. Atk by two steps.
@@ -40750,11 +36981,11 @@ The user bludgeons the target's arms and legs with a large rock. This has a 50% 
 Protects the user from damage this turn. The user will counter with Granite Head if attacked.
 保护自身本回合免受伤害，如果受到攻击 ，将以花岗岩突击进行反击。
 The user attacks with the bright glint of crystals. Can random critical hit.
-The user attacks with the bright glint of crystals. Can random critical hit.
+以水晶闪耀地光芒发动攻击，容易命中要 害。
 A diamond-tough force-field protects the user's side for 5 turns from critical hits, and reduces move damage taken.
 释放金刚石般坚韧的立场，在五回合内保 护自身与同伴不会被集中要害，且减少受 到的招式伤害。
 The user calls up spikes of diamond. Can random critical hit.
-The user calls up spikes of diamond. Can random critical hit.
+召唤出钻石尖刺。容易击中要害。
 The user weakens the target's bones, making them fracture. They deal 33% less damage.
 The user weakens the target's bones, making them fracture. They deal 33% less damage.
 The user harms the target with gemlike light. Deals double damage if the user has used a gem this battle.
@@ -40850,7 +37081,7 @@ The user sheds a huge volley of scales at the target. Lands without fail and low
 If the user is faster than the target, puts the target to sleep, then minimizes the user's Speed stat.
 若自己的速度高于对手，则会使对手陷入 睡眠状态，并最小化自己的速度。
 The user slashes using woven silk, lowering the user's Attack by four steps. Can random critical hit.
-The user slashes using woven silk, lowering the user's Attack by four steps. Can random critical hit.
+利用编织的丝绸进行挥斩，会降低自身的 攻击四级。容易击中要害。
 Avenging bugs everywhere, the user crushes the target. It has a 20% chance to lower their Defense stat.
 为无处不在的虫子复仇，20%几率降低对 手的防御。
 The user stabs the target, injecting a painful chemical. It has a 30% chance to poison.
@@ -41032,7 +37263,7 @@ The user launches up high, becoming invulnerable, then explodes down on the seco
 The user roars with the force of a volcano, raising the Attack of itself and allies.
 发出了犹如火山喷发般的咆哮，提升自己 和同伴的攻击。
 A lance of fire pierces the target from above, lowering their Sp. Atk. Can random critical hit, and does so twice as often.
-A lance of fire pierces the target from above, lowering their Sp. Atk. Can random critical hit, and does so twice as often.
+使用一柄火矛从上方刺穿目标，降低对方 的特攻，极其容易命中要害。
 The user explodes itself into the target. The target is harmed, but also their Speed is raised.
 向火箭一样冲向对手然后爆炸，但会提升 对方的速度。
 Protects the user from attacks. Also burns any attacker who specially attacks the user.
@@ -41114,7 +37345,7 @@ The user rams the target while splashing up a lot of water. This has a 30% chanc
 The user wields tidal power to grab at the target. This has a 10% chance to waterlog.
 The user wields tidal power to grab at the target. This has a 10% chance to waterlog.
 The user uses a jet of water like a sword and attacks by slashing. Can random critical hit.
-The user uses a jet of water like a sword and attacks by slashing. Can random critical hit.
+利用水流的力量形成剑刃形状向对手发起 攻击，容易击中要害。
 The target is doused with water in order to waterlog it.
 The target is doused with water in order to waterlog it.
 The user crashes into the target with the force of a large wave. This has a 30% chance to lower Defense.
@@ -41206,7 +37437,7 @@ Restores a fainted party member to 1 HP. Only one use per battle.
 The user breaks down all insulation to send a barrage of electricity for three turns.
 The user breaks down all insulation to send a barrage of electricity for three turns.
 The user harnesses a blade of lightning and slices at the target. Can random critical hit.
-The user harnesses a blade of lightning and slices at the target. Can random critical hit.
+使用闪电刃向对手劈去。容易击中要害。
 The user lets out an electric roar, raising the user's Speed by four steps.
 发出一声电吼，提高自己的速度四级。
 The user attacks with courage. Sets spikes if Full. If Hangry, deals double damage and is Dark-type.
@@ -41234,7 +37465,7 @@ The user finds the highest base power move among your able party members, and us
 A weak electric charge is launched to numb the target.
 发射一个微弱电荷麻痹对手。
 The user slices with claws of light that have a 50% chance to numb. Can random critical hit.
-The user slices with claws of light that have a 50% chance to numb. Can random critical hit.
+利用光之爪进行斩击，50%几率使对手麻 痹。容易击中要害。
 Protects the user's side from status moves this turn. It disables any moves blocked for three turns.
 保护自身和同伴此回合免疫变化招式，此 回合阻挡成功的招式，将在三回合内无法 使用。
 The target is hit with an electric current two to five times in quick succession. Has a 10% chance to numb.
@@ -41308,7 +37539,7 @@ Psychic energy assaults the foe and darkens the sky, summoning eclipse for 8 tur
 The user overloads its mind to attack for three turns.
 在3回合内，透支其意念攻击对手。
 The user cuts using scissor-like blades of psychic energy. Can random critical hit.
-The user cuts using scissor-like blades of psychic energy. Can random critical hit.
+运用精神能量凝聚成的剑刃劈向对手。容 易击中要害。
 The user manifests a piercing bolt of psychic energy. It has a 50% chance to lower Sp. Def.
 凝聚出一道具有穿透性的精神能量束，50 %几率降低对手的特防。
 The user sends two to five waves of cosmic energy to overwhelm the target's senses.
@@ -41320,7 +37551,7 @@ The target is scrutinized, damaging their psyche. Can random critical hit.
 The user perfectly predicts the target's future location, then strikes. It lands without fail.
 完美地预测出对手的位置并发起攻击。攻 击必定会命中。
 The user peruses its kingly stores of knowledge, selecting three random non-Psychic attacks. You choose which one it uses.
-The user peruses its kingly stores of knowledge, selecting three random non-Psychic attacks. You choose which one it uses.
+浏览自身的知识宝库，随机出现三种超能 属性攻击招式，并选择其中一种使用。
 The user dazzles the target with celestial visions that lowers its Sp. Atk stat by five steps.
 利用天象视觉眩晕目标，降低对方特攻五 级。
 The user takes control of the target's mind to unleash an attack on it. Can random critical hit.
@@ -41392,7 +37623,7 @@ The user overwhelmes the target with a frigid ray, frostbiting it.
 Drains the heat from the target. The user's HP is restored by 50% the damage dealt.
 一股吸力十足的冰之冲击。回复造成伤害 的50%HP。
 The user hunts with its allies. The more party Pokémon, the more damage. Can random critical hit.
-The user hunts with its allies. The more party Pokémon, the more damage. Can random critical hit.
+与同伴们一同狩猎，队伍中携带越多的宝 可梦，则威力越高。容易击中要害。
 Invokes the aspects of multiple dragons, striking with a physical move and a special move.
 显现多条真龙的面貌，连续使用物理和特 殊招式进行攻击。
 The user attacks fueled by ire. Deals double damage if it's a critical hit.
@@ -41494,7 +37725,7 @@ The user chomps hard, cutting the target's HP by 50%, and the user's HP is resto
 Damages the target's life force directly. During moonglow, the target also becomes frostbitten.
 直接伤害对手的HP。在月光期间，对手还 会陷入冻伤状态。
 The user tries to surprise-attack the target. Cannot miss in moonglow. Can random critical hit.
-The user tries to surprise-attack the target. Cannot miss in moonglow. Can random critical hit.
+突袭对手发起攻击。在月光下该招式时必 定命中，而且更容易击中要害。
 The user attacks and steals the foe's held Berry or Gem. It can't steal if the user holds an item.
 窃取对手携带的树果或宝石。如果自身持 有道具，就无法窃取。
 The user entangles the target's mind with dark thoughts, leeching it.
@@ -41508,7 +37739,7 @@ The user steals the target's stat boosts, and then attacks. Goes last.
 The user slashes all around them, creating deep scars. This lowers each target's Attack.
 在对方周围砍来砍去，留下深深的伤疤。 降低对方全体的攻击。
 The user hacks at the target with great violence. Can random critical hit.
-The user hacks at the target with great violence. Can random critical hit.
+猛烈地砍击对手，容易击中要害。
 Explodes, dealing an extra 30 base power to all foes for each layer of spikes underneath them. The user faints.
 Explodes, dealing an extra 30 base power to all foes for each layer of spikes underneath them. The user faints.
 The user assists an ally by boosting the power and Accuracy of its next attack by 50%.
@@ -41938,7 +38169,7 @@ The user unleashes a vital energy wave. The lower the user's HP, the less powerf
 The user attacks last. In return, it's guaranteed not to miss and bypasses protections.
 必中
 The user launches razor-like wind to slash the opposing team. Can random critical hit.
-The user launches razor-like wind to slash the opposing team. Can random critical hit.
+CT几率翻倍.
 Can't miss in rain. It has a 30% chance to dizzy. Can hit targets flying high up.
 Can't miss in rain. It has a 30% 概率混乱. Can hit targets flying high up.
 The user flies up to raise its Sp. Def by four steps in the first turn, then rams the foe on the second.
@@ -41948,7 +38179,7 @@ The user creates a storm using its flaming body, damaging everything around it.
 The user counters the target by mimicking the target's last move.
 模仿对手使用的招式，自己也使用相同招 式。
 A two-turn attack. Blades of wind hit the foe on the second turn. Can random critical hit.
-A two-turn attack. Blades of wind hit the foe on the second turn. Can random critical hit.
+准备一回合后攻击 CT几率翻倍.
 A second-turn attack move where critical hits land more easily. It may also make the target flinch.
 准备一回合后攻击 CT率增加 畏缩
 The user takes the foe into the sky, then drops it on the next turn. The foe cannot attack while airborne.
@@ -41964,7 +38195,7 @@ The user expels strong stomache acid to corrode the target. Super effective agai
 The user surrounds everything around it with highly acidic gas and melts away items they hold.
 The user surrounds everything around it with highly acidic gas and melts away items they hold.
 The user lashes out with its claws. 50% chance to poison. Can random critical hit.
-The user lashes out with its claws. 50% chance to poison. Can random critical hit.
+使用爪子攻击对手，更容易击中要害，并 且有50%概率使对手中毒。
 The user hurls up its stomach acids on the foe. The fluid negates the effect of the target's Ability.
 The user hurls up its stomach acids on the foe. The fluid negates the effect of the target's Ability.
 The user scatters a cloud of poisonous dust on the target. It poisons the target.
@@ -59586,20 +55817,54 @@ What type should #{@pkmn.name} become?
 要将 #{@pkmn.name} 变为哪种属性？
 #{@pkmn.name} changed its #{getItemName(typeSettingItem)} to #{typeCommands[chosenNumber]}-type!
 #{@pkmn.name} 将 #{getItemName(typeSettingItem)} 变为 #{typeCommands[chosenNumber]}属性
-Rename
-重命名
-Swap Ball
-Swap Ball
-Set Style
-设置风格点
+Adaptive AI
+Adaptive AI
 Evolve
 进化
 Open AR
 Open AR
-Adaptive AI
-Adaptive AI
+Rename
+重命名
+Set Gender
+Set Gender
+Set HP
+Set HP
+Set Status
+Set Status
+Set Style
+设置风格点
+Swap Ball
+Swap Ball
 {1}'s nickname?
 {1}的昵称
+{1} is an egg.
+{1} is an egg.
+Set {1}'s HP (max. {2}).
+Set {1}'s HP (max. {2}).
+{1} is single-gendered or genderless.
+{1} is single-gendered or genderless.
+Gender is male.
+Gender is male.
+Gender is female.
+Gender is female.
+Make male
+Make male
+Make female
+Make female
+Reset
+Reset
+{1}'s gender couldn't be changed.
+{1}'s gender couldn't be changed.
+{1} is fainted, can't change status.
+{1} is fainted, can't change status.
+<<[>>Cure<<]>>
+<<[>>Cure<<]>>
+Set {1}'s status.
+Set {1}'s status.
+{1} has no status now.
+{1} has no status now.
+Set the Pokémon's sleep count.
+Set the Pokémon's sleep count.
 Item Bag
 道具背包
 DexNav
@@ -60660,8 +56925,6 @@ Color
 颜色
 Shape
 Shape
-Reset
-Reset
 Start
 Start
 Choose a Search
@@ -61019,7 +57282,7 @@ Find the fifth gym leader, located in Prizca West. Prizca West is north of the E
 Defeat Prizca West Gym
 挑战西宏礼道馆
 Defeat Bence and Zoé, leaders of Prizca West gym. Prizca West is north of the Eleig River Crossing. Their Gym is found in the southern of the two central blocks.
-Defeat Bence and Zoé, leaders of Prizca West gym. Prizca West is north of the Eleig River Crossing. Their Gym is found in the southern of the two central blocks.
+打败西宏礼道馆的本斯或佐伊，当 然也可以同时挑战他们两个
 Find Prizca East Gym
 寻找东宏礼道馆
 Find the sixth gym leader, located in Prizca East. Prizca East is east of the Battle Plaza, which is east of Prizca West.
@@ -61283,7 +57546,7 @@ SKIPPING BATTLE...
 {1} notices a flammable item amongst your Pokémon!
 {1} 察觉到你的宝可梦中 有易燃道具！
 {1} inspects its status conditions.
-{1} inspects its status conditions.
+{1} 检查它的异常状态。
 {1} opens its mouth up wide!
 {1} 张开了大嘴!
 {1} begins leading the attack!
@@ -66856,24 +63119,10 @@ Mystery Gifts, translations, compile data, etc.
 Mystery Gifts, translations, compile data, etc.
 HP/Status...
 HP/Status...
-Set HP
-Set HP
-{1} is an egg.
-{1} is an egg.
-Set {1}'s HP (max. {2}).
-Set {1}'s HP (max. {2}).
 Set status
 Set status
-{1} is fainted, can't change status.
-{1} is fainted, can't change status.
-<<[>>Cure<<]>>
-<<[>>Cure<<]>>
-Set {1}'s status.
-Set {1}'s status.
 {1}'s status was cured.
 {1}'s status was cured.
-Set the Pokémon's sleep count.
-Set the Pokémon's sleep count.
 Fully heal
 Fully heal
 {1} was fully healed.
@@ -66942,6 +63191,10 @@ Forget move
 Forget move
 {1} forgot {2}.
 {1} forgot {2}.
+Forget all moves
+Forget all moves
+{1} has forgot all moves.
+{1} has forgot all moves.
 Reset moves
 Reset moves
 {1}'s moves were reset.
@@ -66996,18 +63249,6 @@ Choose an ability.
 Choose an ability.
 Set gender
 Set gender
-{1} is single-gendered or genderless.
-{1} is single-gendered or genderless.
-Gender is male.
-Gender is male.
-Gender is female.
-Gender is female.
-Make male
-Make male
-Make female
-Make female
-{1}'s gender couldn't be changed.
-{1}'s gender couldn't be changed.
 Species/form...
 Species/form...
 Species {1}, form {2}.
@@ -72003,3 +68244,2076 @@ Have more than 1,000,000 experience stored in the EXP-EZ Dispenser at once.
 在经验分配器中储存超过1,000,000点 经验值。
 Achieve the top prize at Aquatopia Menagerie's Ocean Fishing Contest.
 在水世界的海钓比赛中拔得头筹。
+[111]
+Bulbasaur
+Bulbasaur
+Ivysaur
+Ivysaur
+Venusaur
+Venusaur
+Charmander
+Charmander
+Charmeleon
+Charmeleon
+Charizard
+Charizard
+Squirtle
+Squirtle
+Wartortle
+Wartortle
+Blastoise
+Blastoise
+Caterpie
+Caterpie
+Metapod
+Metapod
+Butterfree
+Butterfree
+Papellumen
+Papellumen
+Weedle
+Weedle
+Kakuna
+Kakuna
+Beedrill
+Beedrill
+Wornet
+Wornet
+Pidgey
+Pidgey
+Pidgeotto
+Pidgeotto
+Pidgeot
+Pidgeot
+Rattata
+Rattata
+Raticate
+Raticate
+A. Rattata
+A. Rattata
+A. Raticate
+A. Raticate
+Spearow
+Spearow
+Fearow
+Fearow
+Ekans
+Ekans
+Arbok
+Arbok
+Pichu
+Pichu
+Pikachu
+Pikachu
+Raichu
+Raichu
+Gigachu
+Gigachu
+A. Raichu
+A. Raichu
+Sandshrew
+Sandshrew
+Sandslash
+Sandslash
+A. Sandshrew
+A. Sandshrew
+A. Sandslash
+A. Sandslash
+Nidoran-F
+Nidoran-F
+Nidorina
+Nidorina
+Nidoqueen
+Nidoqueen
+Nidoran-M
+Nidoran-M
+Nidorino
+Nidorino
+Nidoking
+Nidoking
+Cleffa
+Cleffa
+Clefairy
+Clefairy
+Clefable
+Clefable
+Vulpix
+Vulpix
+Ninetales
+Ninetales
+A. Vulpix
+A. Vulpix
+A. Ninetales
+A. Ninetales
+M. Vulpix
+M. Vulpix
+M. Ninetales
+M. Ninetales
+Igglybuff
+Igglybuff
+Jigglypuff
+Jigglypuff
+Wigglytuff
+Wigglytuff
+Zubat
+Zubat
+Golbat
+Golbat
+Crobat
+Crobat
+Oddish
+Oddish
+Gloom
+Gloom
+Vileplume
+Vileplume
+Bellossom
+Bellossom
+Paras
+Paras
+Parasect
+Parasect
+Venonat
+Venonat
+Venomoth
+Venomoth
+Diglett
+Diglett
+Dugtrio
+Dugtrio
+A. Diglett
+A. Diglett
+A. Dugtrio
+A. Dugtrio
+Meowth
+Meowth
+Persian
+Persian
+Nibelong
+Nibelong
+A. Meowth
+A. Meowth
+A. Persian
+A. Persian
+G. Meowth
+G. Meowth
+Perrserker
+Perrserker
+Psyduck
+Psyduck
+Golduck
+Golduck
+Mankey
+Mankey
+Primeape
+Primeape
+Annihilape
+Annihilape
+Growlithe
+Growlithe
+Arcanine
+Arcanine
+H. Growlithe
+H. Growlithe
+H. Arcanine
+H. Arcanine
+Poliwag
+Poliwag
+Poliwhirl
+Poliwhirl
+Poliwrath
+Poliwrath
+Politoed
+Politoed
+Abra
+Abra
+Kadabra
+Kadabra
+Alakazam
+Alakazam
+Machop
+Machop
+Machoke
+Machoke
+Machamp
+Machamp
+Bellsprout
+Bellsprout
+Weepinbell
+Weepinbell
+Victreebel
+Victreebel
+Tentacool
+Tentacool
+Tentacruel
+Tentacruel
+Geodude
+Geodude
+Graveler
+Graveler
+Golem
+Golem
+A. Geodude
+A. Geodude
+A. Graveler
+A. Graveler
+A. Golem
+A. Golem
+Ponyta
+Ponyta
+Rapidash
+Rapidash
+G. Ponyta
+G. Ponyta
+G. Rapidash
+G. Rapidash
+Slowpoke
+Slowpoke
+Slowbro
+Slowbro
+Slowking
+Slowking
+G. Slowpoke
+G. Slowpoke
+G. Slowbro
+G. Slowbro
+G. Slowking
+G. Slowking
+Magnemite
+Magnemite
+Magneton
+Magneton
+Magnezone
+Magnezone
+Farfetch'd
+Farfetch'd
+G. Farfetch'd
+G. Farfetch'd
+Sirfetch'd
+Sirfetch'd
+Doduo
+Doduo
+Dodrio
+Dodrio
+Seel
+Seel
+Dewgong
+Dewgong
+Grimer
+Grimer
+Muk
+Muk
+A. Grimer
+A. Grimer
+A. Muk
+A. Muk
+Shellder
+Shellder
+Cloyster
+Cloyster
+Gastly
+Gastly
+Haunter
+Haunter
+Gengar
+Gengar
+Onix
+Onix
+Steelix
+Steelix
+Titanix
+Titanix
+Drowzee
+Drowzee
+Hypno
+Hypno
+Krabby
+Krabby
+Kingler
+Kingler
+Klawsar
+Klawsar
+Voltorb
+Voltorb
+Electrode
+Electrode
+H. Voltorb
+H. Voltorb
+H. Electrode
+H. Electrode
+Exeggcute
+Exeggcute
+Exeggutor
+Exeggutor
+A. Exeggutor
+A. Exeggutor
+Cubone
+Cubone
+Marowak
+Marowak
+A. Marowak
+A. Marowak
+Tyrogue
+Tyrogue
+Hitmonlee
+Hitmonlee
+Hitmonchan
+Hitmonchan
+Hitmontop
+Hitmontop
+Lickitung
+Lickitung
+Lickilicky
+Lickilicky
+Koffing
+Koffing
+Weezing
+Weezing
+G. Weezing
+G. Weezing
+Rhyhorn
+Rhyhorn
+Rhydon
+Rhydon
+Rhyperior
+Rhyperior
+Happiny
+Happiny
+Chansey
+Chansey
+Blissey
+Blissey
+Tangela
+Tangela
+Tangrowth
+Tangrowth
+M. Tangela
+M. Tangela
+M. Tangrowth
+M. Tangrowth
+Kangaskhan
+Kangaskhan
+Teamujin
+Teamujin
+Horsea
+Horsea
+Seadra
+Seadra
+Kingdra
+Kingdra
+Goldeen
+Goldeen
+Seaking
+Seaking
+M. Goldeen
+M. Goldeen
+M. Seaking
+M. Seaking
+Staryu
+Staryu
+Starmie
+Starmie
+Mime Jr.
+Mime Jr.
+Mr. Mime
+Mr. Mime
+G. Mr. Mime
+G. Mr. Mime
+Mr. Rime
+Mr. Rime
+Scyther
+Scyther
+Scizor
+Scizor
+Reavor
+Reavor
+Kleavor
+Kleavor
+Smoochum
+Smoochum
+Jynx
+Jynx
+Elekid
+Elekid
+Electabuzz
+Electabuzz
+Electivire
+Electivire
+Magby
+Magby
+Magmar
+Magmar
+Magmortar
+Magmortar
+Pinsir
+Pinsir
+Scarapace
+Scarapace
+Heracross
+Heracross
+Atlacross
+Atlacross
+Tauros
+Tauros
+Miltank
+Miltank
+Magikarp
+Magikarp
+Gyarados
+Gyarados
+Lapras
+Lapras
+Saurenaid
+Saurenaid
+Ditto
+Ditto
+Eevee
+Eevee
+Vaporeon
+Vaporeon
+Jolteon
+Jolteon
+Flareon
+Flareon
+Espeon
+Espeon
+Umbreon
+Umbreon
+Leafeon
+Leafeon
+Glaceon
+Glaceon
+Sylveon
+Sylveon
+Giganteon
+Giganteon
+Porygon
+Porygon
+Porygon2
+Porygon2
+Porygon-Z
+Porygon-Z
+Porygon-MAV
+Porygon-MAV
+Omanyte
+Omanyte
+Omastar
+Omastar
+Kabuto
+Kabuto
+Kabutops
+Kabutops
+Aerodactyl
+Aerodactyl
+Pteroflyte
+Pteroflyte
+Munchlax
+Munchlax
+Snorlax
+Snorlax
+Dratini
+Dratini
+Dragonair
+Dragonair
+Dragonite
+Dragonite
+Articuno
+Articuno
+Zapdos
+Zapdos
+Moltres
+Moltres
+G. Articuno
+G. Articuno
+G. Zapdos
+G. Zapdos
+G. Moltres
+G. Moltres
+Mewtwo
+Mewtwo
+Mew
+Mew
+Chikorita
+Chikorita
+Bayleef
+Bayleef
+Meganium
+Meganium
+Cyndaquil
+Cyndaquil
+Quilava
+Quilava
+Typhlosion
+Typhlosion
+H. Typhlosion
+H. Typhlosion
+Totodile
+Totodile
+Croconaw
+Croconaw
+Feraligatr
+Feraligatr
+Sentret
+Sentret
+Furret
+Furret
+M. Sentret
+M. Sentret
+M. Furret
+M. Furret
+Hoothoot
+Hoothoot
+Noctowl
+Noctowl
+M. Hoothoot
+M. Hoothoot
+M. Noctowl
+M. Noctowl
+Ledyba
+Ledyba
+Ledian
+Ledian
+Spinarak
+Spinarak
+Ariados
+Ariados
+Chinchou
+Chinchou
+Lanturn
+Lanturn
+Togepi
+Togepi
+Togetic
+Togetic
+Togekiss
+Togekiss
+Natu
+Natu
+Xatu
+Xatu
+Mareep
+Mareep
+Flaaffy
+Flaaffy
+Ampharos
+Ampharos
+Azurill
+Azurill
+Marill
+Marill
+Azumarill
+Azumarill
+Bonsly
+Bonsly
+Sudowoodo
+Sudowoodo
+Hoppip
+Hoppip
+Skiploom
+Skiploom
+Jumpluff
+Jumpluff
+Aipom
+Aipom
+Ambipom
+Ambipom
+Sunkern
+Sunkern
+Sunflora
+Sunflora
+Yanma
+Yanma
+Yanmega
+Yanmega
+Wooper
+Wooper
+Quagsire
+Quagsire
+Murkrow
+Murkrow
+Honchkrow
+Honchkrow
+Misdreavus
+Misdreavus
+Mismagius
+Mismagius
+Unown
+Unown
+Wynaut
+Wynaut
+Wobbuffet
+Wobbuffet
+Girafarig
+Girafarig
+Farigiraf
+Farigiraf
+Pineco
+Pineco
+Forretress
+Forretress
+Dunsparce
+Dunsparce
+Dudunsparce
+Dudunsparce
+Dududunsparce
+Dududunsparce
+Gligar
+Gligar
+Gliscor
+Gliscor
+Snubbull
+Snubbull
+Granbull
+Granbull
+Qwilfish
+Qwilfish
+H. Qwilfish
+H. Qwilfish
+Overqwil
+Overqwil
+Shuckle
+Shuckle
+Sneasel
+Sneasel
+Weavile
+Weavile
+H. Sneasel
+H. Sneasel
+Sneasler
+Sneasler
+Teddiursa
+Teddiursa
+Ursaring
+Ursaring
+Ursaluna
+Ursaluna
+Slugma
+Slugma
+Magcargo
+Magcargo
+Swinub
+Swinub
+Piloswine
+Piloswine
+Mamoswine
+Mamoswine
+Corsola
+Corsola
+G. Corsola
+G. Corsola
+Cursola
+Cursola
+Remoraid
+Remoraid
+Octillery
+Octillery
+Mantine
+Mantine
+Mantyke
+Mantyke
+Delibird
+Delibird
+Skarmory
+Skarmory
+Houndour
+Houndour
+Houndoom
+Houndoom
+Houndominus
+Houndominus
+Phanpy
+Phanpy
+Donphan
+Donphan
+Stantler
+Stantler
+Wyrdeer
+Wyrdeer
+Smeargle
+Smeargle
+Larvitar
+Larvitar
+Pupitar
+Pupitar
+Tyranitar
+Tyranitar
+Raikou
+Raikou
+Entei
+Entei
+Suicune
+Suicune
+Lugia
+Lugia
+Ho-Oh
+Ho-Oh
+Celebi
+Celebi
+Treecko
+Treecko
+Grovyle
+Grovyle
+Sceptile
+Sceptile
+Torchic
+Torchic
+Combusken
+Combusken
+Blaziken
+Blaziken
+Mudkip
+Mudkip
+Marshtomp
+Marshtomp
+Swampert
+Swampert
+Poochyena
+Poochyena
+Mightyena
+Mightyena
+Zigzagoon
+Zigzagoon
+Linoone
+Linoone
+G. Zigzagoon
+G. Zigzagoon
+G. Linoone
+G. Linoone
+Obstagoon
+Obstagoon
+Wurmple
+Wurmple
+Silcoon
+Silcoon
+Beautifly
+Beautifly
+Cascoon
+Cascoon
+Dustox
+Dustox
+M. Wurmple
+M. Wurmple
+M. Silcoon
+M. Silcoon
+M. Beautifly
+M. Beautifly
+M. Cascoon
+M. Cascoon
+M. Dustox
+M. Dustox
+Lotad
+Lotad
+Lombre
+Lombre
+Ludicolo
+Ludicolo
+Seedot
+Seedot
+Nuzleaf
+Nuzleaf
+Shiftry
+Shiftry
+Taillow
+Taillow
+Swellow
+Swellow
+Wingull
+Wingull
+Pelipper
+Pelipper
+Ralts
+Ralts
+Kirlia
+Kirlia
+Gardevoir
+Gardevoir
+Gallade
+Gallade
+Surskit
+Surskit
+Masquerain
+Masquerain
+Shroomish
+Shroomish
+Breloom
+Breloom
+Slakoth
+Slakoth
+Vigoroth
+Vigoroth
+Slaking
+Slaking
+Nincada
+Nincada
+Ninjask
+Ninjask
+Shedinja
+Shedinja
+Whismur
+Whismur
+Loudred
+Loudred
+Exploud
+Exploud
+Makuhita
+Makuhita
+Hariyama
+Hariyama
+Nosepass
+Nosepass
+Probopass
+Probopass
+Skitty
+Skitty
+Delcatty
+Delcatty
+Sableye
+Sableye
+Rubarior
+Rubarior
+Mawile
+Mawile
+Deceat
+Deceat
+Aron
+Aron
+Lairon
+Lairon
+Aggron
+Aggron
+Meditite
+Meditite
+Medicham
+Medicham
+Palmantra
+Palmantra
+Electrike
+Electrike
+Manectric
+Manectric
+Manergetic
+Manergetic
+Plusle
+Plusle
+Minun
+Minun
+Volbeat
+Volbeat
+Illumise
+Illumise
+Budew
+Budew
+Roselia
+Roselia
+Roserade
+Roserade
+Gulpin
+Gulpin
+Swalot
+Swalot
+Carvanha
+Carvanha
+Sharpedo
+Sharpedo
+Scarodon
+Scarodon
+Wailmer
+Wailmer
+Wailord
+Wailord
+Numel
+Numel
+Camerupt
+Camerupt
+Dromerupt
+Dromerupt
+Torkoal
+Torkoal
+Spoink
+Spoink
+Grumpig
+Grumpig
+Spinda
+Spinda
+Trapinch
+Trapinch
+Vibrava
+Vibrava
+Flygon
+Flygon
+Cacnea
+Cacnea
+Cacturne
+Cacturne
+Swablu
+Swablu
+Altaria
+Altaria
+Hymnus
+Hymnus
+Zangoose
+Zangoose
+Seviper
+Seviper
+M. Zangoose
+M. Zangoose
+M. Seviper
+M. Seviper
+Lunatone
+Lunatone
+Solrock
+Solrock
+Barboach
+Barboach
+Whiscash
+Whiscash
+Corphish
+Corphish
+Crawdaunt
+Crawdaunt
+Baltoy
+Baltoy
+Claydol
+Claydol
+Lileep
+Lileep
+Cradily
+Cradily
+Anorith
+Anorith
+Armaldo
+Armaldo
+Feebas
+Feebas
+Milotic
+Milotic
+Castform
+Castform
+Kecleon
+Kecleon
+Shuppet
+Shuppet
+Banette
+Banette
+Maniklaw
+Maniklaw
+Duskull
+Duskull
+Dusclops
+Dusclops
+Dusknoir
+Dusknoir
+Tropius
+Tropius
+Chingling
+Chingling
+Chimecho
+Chimecho
+Absol
+Absol
+Absolus
+Absolus
+Snorunt
+Snorunt
+Glalie
+Glalie
+Grimice
+Grimice
+Froslass
+Froslass
+Spheal
+Spheal
+Sealeo
+Sealeo
+Walrein
+Walrein
+Clamperl
+Clamperl
+Huntail
+Huntail
+Gorebyss
+Gorebyss
+Relicanth
+Relicanth
+Luvdisc
+Luvdisc
+Alomomola
+Alomomola
+Bagon
+Bagon
+Shelgon
+Shelgon
+Salamence
+Salamence
+Beldum
+Beldum
+Metang
+Metang
+Metagross
+Metagross
+Regirock
+Regirock
+Regice
+Regice
+Registeel
+Registeel
+Regieleki
+Regieleki
+Regidrago
+Regidrago
+Regigigas
+Regigigas
+Latias
+Latias
+Latios
+Latios
+Kyogre
+Kyogre
+Groudon
+Groudon
+Rayquaza
+Rayquaza
+Jirachi
+Jirachi
+Deoxys
+Deoxys
+Turtwig
+Turtwig
+Grotle
+Grotle
+Torterra
+Torterra
+Chimchar
+Chimchar
+Monferno
+Monferno
+Infernape
+Infernape
+Piplup
+Piplup
+Prinplup
+Prinplup
+Empoleon
+Empoleon
+Starly
+Starly
+Staravia
+Staravia
+Staraptor
+Staraptor
+Bidoof
+Bidoof
+Bibarel
+Bibarel
+Kricketot
+Kricketot
+Kricketune
+Kricketune
+Shinx
+Shinx
+Luxio
+Luxio
+Luxray
+Luxray
+Cranidos
+Cranidos
+Rampardos
+Rampardos
+Shieldon
+Shieldon
+Bastiodon
+Bastiodon
+Burmy
+Burmy
+Wormadam
+Wormadam
+Mothim
+Mothim
+Combee
+Combee
+Vespiquen
+Vespiquen
+Pachirisu
+Pachirisu
+Buizel
+Buizel
+Floatzel
+Floatzel
+Cherubi
+Cherubi
+Cherrim
+Cherrim
+Shellos
+Shellos
+Gastrodon
+Gastrodon
+Drifloon
+Drifloon
+Drifblim
+Drifblim
+Buneary
+Buneary
+Lopunny
+Lopunny
+Haerobic
+Haerobic
+Glameow
+Glameow
+Purugly
+Purugly
+Stunky
+Stunky
+Skuntank
+Skuntank
+Bronzor
+Bronzor
+Bronzong
+Bronzong
+Chatot
+Chatot
+Spiritomb
+Spiritomb
+Gible
+Gible
+Gabite
+Gabite
+Garchomp
+Garchomp
+Riolu
+Riolu
+Lucario
+Lucario
+Riojin
+Riojin
+Hippopotas
+Hippopotas
+Hippowdon
+Hippowdon
+Skorupi
+Skorupi
+Drapion
+Drapion
+Croagunk
+Croagunk
+Toxicroak
+Toxicroak
+Carnivine
+Carnivine
+M. Carnivine
+M. Carnivine
+Finneon
+Finneon
+Lumineon
+Lumineon
+Snover
+Snover
+Abomasnow
+Abomasnow
+Conifear
+Conifear
+Rotom
+Rotom
+Uxie
+Uxie
+Mesprit
+Mesprit
+Azelf
+Azelf
+Dialga
+Dialga
+Palkia
+Palkia
+Heatran
+Heatran
+Giratina
+Giratina
+Cresselia
+Cresselia
+Phione
+Phione
+Manaphy
+Manaphy
+Darkrai
+Darkrai
+Shaymin
+Shaymin
+Arceus
+Arceus
+Snivy
+Snivy
+Servine
+Servine
+Serperior
+Serperior
+Tepig
+Tepig
+Pignite
+Pignite
+Emboar
+Emboar
+Oshawott
+Oshawott
+Dewott
+Dewott
+Samurott
+Samurott
+H. Samurott
+H. Samurott
+Patrat
+Patrat
+Watchog
+Watchog
+Lillipup
+Lillipup
+Herdier
+Herdier
+Stoutland
+Stoutland
+Purrloin
+Purrloin
+Liepard
+Liepard
+Pansage
+Pansage
+Simisage
+Simisage
+Pansear
+Pansear
+Simisear
+Simisear
+Panpour
+Panpour
+Simipour
+Simipour
+Munna
+Munna
+Musharna
+Musharna
+M. Munna
+M. Munna
+M. Musharna
+M. Musharna
+Pidove
+Pidove
+Tranquill
+Tranquill
+Unfezant
+Unfezant
+Blitzle
+Blitzle
+Zebstrika
+Zebstrika
+Roggenrola
+Roggenrola
+Boldore
+Boldore
+Gigalith
+Gigalith
+M. Roggenrola
+M. Roggenrola
+M. Boldore
+M. Boldore
+M. Gigalith
+M. Gigalith
+Woobat
+Woobat
+Swoobat
+Swoobat
+Drilbur
+Drilbur
+Excadrill
+Excadrill
+Audino
+Audino
+Sensibelle
+Sensibelle
+Timburr
+Timburr
+Gurdurr
+Gurdurr
+Conkeldurr
+Conkeldurr
+Tympole
+Tympole
+Palpitoad
+Palpitoad
+Seismitoad
+Seismitoad
+Throh
+Throh
+Sawk
+Sawk
+Sewaddle
+Sewaddle
+Swadloon
+Swadloon
+Leavanny
+Leavanny
+Venipede
+Venipede
+Whirlipede
+Whirlipede
+Scolipede
+Scolipede
+Cottonee
+Cottonee
+Whimsicott
+Whimsicott
+Petilil
+Petilil
+Lilligant
+Lilligant
+H. Lilligant
+H. Lilligant
+M. Petilil
+M. Petilil
+M. Lilligant
+M. Lilligant
+Basculin
+Basculin
+Basculegion
+Basculegion
+Sandile
+Sandile
+Krokorok
+Krokorok
+Krookodile
+Krookodile
+Darumaka
+Darumaka
+Darmanitan
+Darmanitan
+G. Darumaka
+G. Darumaka
+G. Darmanitan
+G. Darmanitan
+Maractus
+Maractus
+Dwebble
+Dwebble
+Crustle
+Crustle
+Scraggy
+Scraggy
+Scrafty
+Scrafty
+Sigilyph
+Sigilyph
+Yamask
+Yamask
+Cofagrigus
+Cofagrigus
+G. Yamask
+G. Yamask
+Runerigus
+Runerigus
+Tirtouga
+Tirtouga
+Carracosta
+Carracosta
+Archen
+Archen
+Archeops
+Archeops
+Trubbish
+Trubbish
+Garbodor
+Garbodor
+Donster
+Donster
+Zorua
+Zorua
+Zoroark
+Zoroark
+H. Zorua
+H. Zorua
+H. Zoroark
+H. Zoroark
+Minccino
+Minccino
+Cinccino
+Cinccino
+Gothita
+Gothita
+Gothorita
+Gothorita
+Gothitelle
+Gothitelle
+Solosis
+Solosis
+Duosion
+Duosion
+Reuniclus
+Reuniclus
+Ducklett
+Ducklett
+Swanna
+Swanna
+Vanillite
+Vanillite
+Vanillish
+Vanillish
+Vanilluxe
+Vanilluxe
+Deerling
+Deerling
+Sawsbuck
+Sawsbuck
+Emolga
+Emolga
+Karrablast
+Karrablast
+Escavalier
+Escavalier
+Foongus
+Foongus
+Amoonguss
+Amoonguss
+Frillish
+Frillish
+Jellicent
+Jellicent
+M. Frillish
+M. Frillish
+M. Jellicent
+M. Jellicent
+Joltik
+Joltik
+Galvantula
+Galvantula
+Ferroseed
+Ferroseed
+Ferrothorn
+Ferrothorn
+Klink
+Klink
+Klang
+Klang
+Klinklang
+Klinklang
+Tynamo
+Tynamo
+Eelektrik
+Eelektrik
+Eelektross
+Eelektross
+Elgyem
+Elgyem
+Beheeyem
+Beheeyem
+Litwick
+Litwick
+Lampent
+Lampent
+Chandelure
+Chandelure
+Axew
+Axew
+Fraxure
+Fraxure
+Haxorus
+Haxorus
+Cubchoo
+Cubchoo
+Beartic
+Beartic
+Cryogonal
+Cryogonal
+Shelmet
+Shelmet
+Accelgor
+Accelgor
+Stunfisk
+Stunfisk
+G. Stunfisk
+G. Stunfisk
+Mienfoo
+Mienfoo
+Mienshao
+Mienshao
+Druddigon
+Druddigon
+Golett
+Golett
+Golurk
+Golurk
+Pawniard
+Pawniard
+Bisharp
+Bisharp
+Kingambit
+Kingambit
+Bouffalant
+Bouffalant
+Rufflet
+Rufflet
+Braviary
+Braviary
+H. Braviary
+H. Braviary
+Vullaby
+Vullaby
+Mandibuzz
+Mandibuzz
+M. Vullaby
+M. Vullaby
+M. Mandibuzz
+M. Mandibuzz
+Heatmor
+Heatmor
+Durant
+Durant
+Deino
+Deino
+Zweilous
+Zweilous
+Hydreigon
+Hydreigon
+Larvesta
+Larvesta
+Volcarona
+Volcarona
+Cobalion
+Cobalion
+Terrakion
+Terrakion
+Virizion
+Virizion
+Keldeo
+Keldeo
+Tornadus
+Tornadus
+Thundurus
+Thundurus
+Landorus
+Landorus
+Enamorus
+Enamorus
+Reshiram
+Reshiram
+Zekrom
+Zekrom
+Kyurem
+Kyurem
+Meloetta
+Meloetta
+Genesect
+Genesect
+Victini
+Victini
+Chespin
+Chespin
+Quilladin
+Quilladin
+Chesnaught
+Chesnaught
+Fennekin
+Fennekin
+Braixen
+Braixen
+Delphox
+Delphox
+Froakie
+Froakie
+Frogadier
+Frogadier
+Greninja
+Greninja
+Bunnelby
+Bunnelby
+Diggersby
+Diggersby
+Fletchling
+Fletchling
+Fletchinder
+Fletchinder
+Talonflame
+Talonflame
+Scatterbug
+Scatterbug
+Spewpa
+Spewpa
+Vivillon
+Vivillon
+Litleo
+Litleo
+Pyroar
+Pyroar
+Flabébé
+Flabébé
+Floette
+Floette
+Florges
+Florges
+Skiddo
+Skiddo
+Gogoat
+Gogoat
+Pancham
+Pancham
+Pangoro
+Pangoro
+Furfrou
+Furfrou
+Espurr
+Espurr
+Meowstic
+Meowstic
+Honedge
+Honedge
+Doublade
+Doublade
+Aegislash
+Aegislash
+Spritzee
+Spritzee
+Aromatisse
+Aromatisse
+M. Aromatisse
+M. Aromatisse
+Swirlix
+Swirlix
+Slurpuff
+Slurpuff
+Inkay
+Inkay
+Malamar
+Malamar
+Binacle
+Binacle
+Barbaracle
+Barbaracle
+Skrelp
+Skrelp
+Dragalge
+Dragalge
+M. Skrelp
+M. Skrelp
+M. Dragalge
+M. Dragalge
+Clauncher
+Clauncher
+Clawitzer
+Clawitzer
+Helioptile
+Helioptile
+Heliolisk
+Heliolisk
+Tyrunt
+Tyrunt
+Tyrantrum
+Tyrantrum
+Amaura
+Amaura
+Aurorus
+Aurorus
+Hawlucha
+Hawlucha
+Dedenne
+Dedenne
+Carbink
+Carbink
+Diancie
+Diancie
+Goomy
+Goomy
+Sliggoo
+Sliggoo
+Goodra
+Goodra
+H. Sliggoo
+H. Sliggoo
+H. Goodra
+H. Goodra
+Klefki
+Klefki
+Phantump
+Phantump
+Trevenant
+Trevenant
+Pumpkaboo
+Pumpkaboo
+Gourgeist
+Gourgeist
+Bergmite
+Bergmite
+Avalugg
+Avalugg
+H. Avalugg
+H. Avalugg
+Noibat
+Noibat
+Noivern
+Noivern
+Xerneas
+Xerneas
+Yveltal
+Yveltal
+Zygarde
+Zygarde
+Hoopa
+Hoopa
+Volcanion
+Volcanion
+Rowlet
+Rowlet
+Dartrix
+Dartrix
+Decidueye
+Decidueye
+H. Decidueye
+H. Decidueye
+Litten
+Litten
+Torracat
+Torracat
+Incineroar
+Incineroar
+Popplio
+Popplio
+Brionne
+Brionne
+Primarina
+Primarina
+Pikipek
+Pikipek
+Trumbeak
+Trumbeak
+Toucannon
+Toucannon
+Yungoos
+Yungoos
+Gumshoos
+Gumshoos
+Grubbin
+Grubbin
+Charjabug
+Charjabug
+Vikavolt
+Vikavolt
+Crabrawler
+Crabrawler
+Crabominable
+Crabominable
+Oricorio
+Oricorio
+Cutiefly
+Cutiefly
+Ribombee
+Ribombee
+Rockruff
+Rockruff
+Lycanroc
+Lycanroc
+Wishiwashi
+Wishiwashi
+Mareanie
+Mareanie
+Toxapex
+Toxapex
+Mudbray
+Mudbray
+Mudsdale
+Mudsdale
+Dewpider
+Dewpider
+Araquanid
+Araquanid
+Fomantis
+Fomantis
+Lurantis
+Lurantis
+Morelull
+Morelull
+Shiinotic
+Shiinotic
+Salandit
+Salandit
+Salazzle
+Salazzle
+Stufful
+Stufful
+Bewear
+Bewear
+Bounsweet
+Bounsweet
+Steenee
+Steenee
+Tsareena
+Tsareena
+Comfey
+Comfey
+Oranguru
+Oranguru
+Passimian
+Passimian
+Wimpod
+Wimpod
+Golisopod
+Golisopod
+Sandygast
+Sandygast
+Palossand
+Palossand
+Pyukumuku
+Pyukumuku
+Type: Null
+Type: Null
+Silvally
+Silvally
+Minior
+Minior
+Komala
+Komala
+Turtonator
+Turtonator
+Togedemaru
+Togedemaru
+Mimikyu
+Mimikyu
+Bruxish
+Bruxish
+Drampa
+Drampa
+Dhelmise
+Dhelmise
+Jangmo-o
+Jangmo-o
+Hakamo-o
+Hakamo-o
+Kommo-o
+Kommo-o
+Tapu Koko
+Tapu Koko
+Tapu Lele
+Tapu Lele
+Tapu Bulu
+Tapu Bulu
+Tapu Fini
+Tapu Fini
+Cosmog
+Cosmog
+Cosmoem
+Cosmoem
+Solgaleo
+Solgaleo
+Lunala
+Lunala
+Necrozma
+Necrozma
+Nihilego
+Nihilego
+Buzzwole
+Buzzwole
+Pheromosa
+Pheromosa
+Xurkitree
+Xurkitree
+Celesteela
+Celesteela
+Kartana
+Kartana
+Guzzlord
+Guzzlord
+Poipole
+Poipole
+Naganadel
+Naganadel
+Stakataka
+Stakataka
+Blacephalon
+Blacephalon
+Magearna
+Magearna
+Marshadow
+Marshadow
+Zeraora
+Zeraora
+Meltan
+Meltan
+Melmetal
+Melmetal
+Grookey
+Grookey
+Thwackey
+Thwackey
+Rillaboom
+Rillaboom
+Scorbunny
+Scorbunny
+Raboot
+Raboot
+Cinderace
+Cinderace
+Sobble
+Sobble
+Drizzile
+Drizzile
+Inteleon
+Inteleon
+Skwovet
+Skwovet
+Greedent
+Greedent
+Rookidee
+Rookidee
+Corvisquire
+Corvisquire
+Corviknight
+Corviknight
+Blipbug
+Blipbug
+Dottler
+Dottler
+Orbeetle
+Orbeetle
+Nickit
+Nickit
+Thievul
+Thievul
+Gossifleur
+Gossifleur
+Eldegoss
+Eldegoss
+Wooloo
+Wooloo
+Dubwool
+Dubwool
+Chewtle
+Chewtle
+Drednaw
+Drednaw
+Seismaw
+Seismaw
+Yamper
+Yamper
+Boltund
+Boltund
+Rolycoly
+Rolycoly
+Carkol
+Carkol
+Coalossal
+Coalossal
+Applin
+Applin
+Flapple
+Flapple
+Appletun
+Appletun
+Silicobra
+Silicobra
+Sandaconda
+Sandaconda
+Saharicane
+Saharicane
+Cramorant
+Cramorant
+Arrokuda
+Arrokuda
+Barraskewda
+Barraskewda
+Toxel
+Toxel
+Toxtricity
+Toxtricity
+Arclamor
+Arclamor
+Sizzlipede
+Sizzlipede
+Centiskorch
+Centiskorch
+Milliblaze
+Milliblaze
+Clobbopus
+Clobbopus
+Grapploct
+Grapploct
+Sinistea
+Sinistea
+Polteageist
+Polteageist
+M. Sinistea
+M. Sinistea
+M. Polteageist
+M. Polteageist
+Hatenna
+Hatenna
+Hattrem
+Hattrem
+Hatterene
+Hatterene
+Impidimp
+Impidimp
+Morgrem
+Morgrem
+Grimmsnarl
+Grimmsnarl
+Milcery
+Milcery
+Alcremie
+Alcremie
+Blasfemmie
+Blasfemmie
+Falinks
+Falinks
+Pincurchin
+Pincurchin
+Snom
+Snom
+Frosmoth
+Frosmoth
+Stonjourner
+Stonjourner
+Eiscue
+Eiscue
+Indeedee
+Indeedee
+Morpeko
+Morpeko
+Cufant
+Cufant
+Copperajah
+Copperajah
+Digniphite
+Digniphite
+Dracozolt
+Dracozolt
+Arctozolt
+Arctozolt
+Dracovish
+Dracovish
+Arctovish
+Arctovish
+Duraludon
+Duraludon
+Towerpoda
+Towerpoda
+Dreepy
+Dreepy
+Drakloak
+Drakloak
+Dragapult
+Dragapult
+Zacian
+Zacian
+Zamazenta
+Zamazenta
+Eternatus
+Eternatus
+Kubfu
+Kubfu
+Urshifu
+Urshifu
+Zarude
+Zarude
+Glastrier
+Glastrier
+Spectrier
+Spectrier
+Calyrex
+Calyrex
+Test Pokemon
+Test Pokemon
+Test Pokemon 2
+Test Pokemon 2
