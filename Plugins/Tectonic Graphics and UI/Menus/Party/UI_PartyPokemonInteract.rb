@@ -236,16 +236,18 @@ existingIndex)
         cmdStyle      = -1
         cmdAdaptiveAI = -1
         cmdOpenAR     = -1
-        cmdChangeHP   = -1
+        cmdSetHP      = -1
         cmdSetStatus  = -1
+        cmdSetGender  = -1
 
         newspecies = @pkmn.check_evolution_on_level_up(false)
         # Build the commands
         commands[cmdAdaptiveAI = commands.length]   = _INTL("Adaptive AI") if TA.get(:adaptiveai)
-        commands[cmdChangeHP = commands.length]     = _INTL("Change HP")
         commands[cmdEvolve = commands.length]       = _INTL("Evolve") if newspecies
         commands[cmdOpenAR = commands.length]       = _INTL("Open AR") if TA.get(:customabil)
         commands[cmdRename = commands.length]       = _INTL("Rename")
+        commands[cmdSetGender = commands.length]    = _INTL("Set Gender")
+        commands[cmdSetHP = commands.length]        = _INTL("Set HP")
         commands[cmdSetStatus = commands.length]    = _INTL("Set Status")
         commands[cmdStyle = commands.length]        = _INTL("Set Style") if pbHasItem?(:STYLINGKIT)
         commands[cmdSwapPokeBall = commands.length] = _INTL("Swap Ball")
@@ -260,7 +262,7 @@ existingIndex)
             else
                 @pkmn.name = pbGet(5)
             end
-        elsif cmdChangeHP >= 0 && modifyCommand == cmdChangeHP
+        elsif cmdSetHP >= 0 && modifyCommand == cmdSetHP
             if @pkmn.egg?
               pbDisplay(_INTL("{1} is an egg.", @pkmn.name))
             else
@@ -271,6 +273,36 @@ existingIndex)
                  _INTL("Set {1}'s HP (max. {2}).", @pkmn.name, @pkmn.hp), params) { pbUpdate }
               unless newhp == @pkmn.hp
                 @pkmn.hp = newhp
+                @partyScene.pbRefresh
+              end
+            end
+        elsif cmdSetGender >= 0 && modifyCommand == cmdSetGender
+            if @pkmn.singleGendered?
+              pbDisplay(_INTL("{1} is single-gendered or genderless.", @pkmn.speciesName))
+            else
+              cmd = 0
+              loop do
+                msg = [_INTL("Gender is male."), _INTL("Gender is female.")][@pkmn.male? ? 0 : 1]
+                cmd = pbShowCommands(msg, [
+                   _INTL("Make male"),
+                   _INTL("Make female"),
+                   _INTL("Reset")], cmd)
+                break if cmd < 0
+                case cmd
+                when 0   # Make male
+                  @pkmn.makeMale
+                  unless @pkmn.male?
+                    pbDisplay(_INTL("{1}'s gender couldn't be changed.", @pkmn.name))
+                  end
+                when 1   # Make female
+                  @pkmn.makeFemale
+                  unless @pkmn.female?
+                    pbDisplay(_INTL("{1}'s gender couldn't be changed.", @pkmn.name))
+                  end
+                when 2   # Reset
+                  @pkmn.gender = nil
+                end
+                $Trainer.pokedex.register(@pkmn)
                 @partyScene.pbRefresh
               end
             end
@@ -301,7 +333,7 @@ existingIndex)
                   cancel = false
                   if ids[cmd] == :SLEEP
                     params = ChooseNumberParams.new
-                    params.setRange(0, 9)
+                    params.setRange(1, 9)
                     params.setDefaultValue(3)
                     count = pbMessageChooseNumber(
                        _INTL("Set the Pokémon's sleep count."), params) { pbUpdate }
