@@ -110,7 +110,7 @@ class PokemonLoadScreen
         commands[cmd_achievements = commands.length]    = _INTL("Achievements")
         commands[cmd_check_update = commands.length]    = _INTL("Check Update") if is_chinese?
         commands[cmd_website = commands.length]         = _INTL("Website")
-        commands[cmd_discord = commands.length]         = _INTL("Discord")
+        commands[cmd_discord = commands.length]         = _INTL("Discord") unless is_chinese?
         commands[cmd_wiki = commands.length]            = _INTL("Wiki")
         commands[cmd_quit = commands.length]            = _INTL("Quit Game")
         @scene.pbStartScene(commands, false, nil, 0, 0)
