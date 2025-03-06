@@ -1,114 +1,14 @@
 ﻿# To localize this text for a particular language, please
 # translate every second line of this file.
 [Map0]
-Heard about this place called the <imp>Battle Monument</imp>.
-Heard about this place called the <imp>Battle Monument</imp>.
-The whole idea is that you can fight through a gauntlet of AI trainers. Neat, right?
-The whole idea is that you can fight through a gauntlet of AI trainers. Neat, right?
-Anyways, I'll be hanging around the Battle Monument for the foreseeable future, so meet me here, ya hear?
-Anyways, I'll be hanging around the Battle Monument for the foreseeable future, so meet me here, ya hear?
-I've got some new team configurations I really wanna try against you.
-I've got some new team configurations I really wanna try against you.
-...
-...
 [Map1]
-Enable randomizer? This will disable some achievements.
-Enable randomizer? This will disable some achievements.
-.....\ts[10]
-.....\ts[10]
 [Map2]
 [Map3]
 [Map4]
 [Map5]
 [Map6]
-A Shiny Corviknight!
-A Shiny Corviknight!
-It's too busy watching the campus to notice you.
-It's too busy watching the campus to notice you.
-Healing center's uhh... to the west. So go off and do that now.
-Healing center's uhh... to the west. So go off and do that now.
-I'm enjoying my little Rufflet immensely!
-I'm enjoying my little Rufflet immensely!
 [Map7]
 [Map8]
-My cousin and I like to hang out here. Take in the cool atmosphere and the night sky.
-My cousin and I like to hang out here. Take in the cool atmosphere and the night sky.
-We still battle people, but like... in a chill way...
-We still battle people, but like... in a chill way...
-I'm gonna leave now. Don't like your vibes.
-I'm gonna leave now. Don't like your vibes.
-Can you feel the energy given off by those evolution stones?
-Can you feel the energy given off by those evolution stones?
-It's doing wonders for my stress.
-It's doing wonders for my stress.
-Is life worth living if you can't take time to be transfixed by the beauty of nature?
-Is life worth living if you can't take time to be transfixed by the beauty of nature?
-...
-...
-Don't tell the others, but I'm getting bored of waiting.
-Don't tell the others, but I'm getting bored of waiting.
-Well, might as well battle you before <i>they</i> arrive.
-Well, might as well battle you before <i>they</i> arrive.
-I saw a light come down from the sky and land west of Velenz.
-I saw a light come down from the sky and land west of Velenz.
-I was hoping these stones would draw the aliens out, but it's been a week and nothing.
-I was hoping these stones would draw the aliens out, but it's been a week and nothing.
-Since that failed, you can just take them. Good luck.
-Since that failed, you can just take them. Good luck.
-Losing? Now that's an alien feeling.
-Losing? Now that's an alien feeling.
-That mansion near the menagerie must have something to do with the light I saw.
-That mansion near the menagerie must have something to do with the light I saw.
-My cousin says I'm paranoid, but I definitely saw the place glowing last night.
-My cousin says I'm paranoid, but I definitely saw the place glowing last night.
-No earthlings allowed: that's the rule.
-No earthlings allowed: that's the rule.
-By the power of the Moon Stone, I will punish you!
-By the power of the Moon Stone, I will punish you!
-What? Friendship wasn't enough!?
-What? Friendship wasn't enough!?
-You're really gonna invade our special space like this?
-You're really gonna invade our special space like this?
-I haven't been a real sailor since they scuttled my ship.
-I haven't been a real sailor since they scuttled my ship.
-I just like the clothes.
-I just like the clothes.
-Hey again. Bet you didn't expect to see me in a place like this, eh?
-Hey again. Bet you didn't expect to see me in a place like this, eh?
-I'm good at battling, less so at cryptic riddles and haunted towns.
-I'm good at battling, less so at cryptic riddles and haunted towns.
-But, let's not let my failures go to waste.
-But, let's not let my failures go to waste.
-Put the searching on hold for now, and engage in a little sparring.
-Put the searching on hold for now, and engage in a little sparring.
-Talk to me again when you see the value in that idea.
-Talk to me again when you see the value in that idea.
-Fighting me's better than fighting any of those Avatars, I'd wager. Prove me right?
-Fighting me's better than fighting any of those Avatars, I'd wager. Prove me right?
-Understood.
-Understood.
-I'll be here until you wish to battle.
-I'll be here until you wish to battle.
-Boo!
-Boo!
-I bow to thee, oh masterful one.
-I bow to thee, oh masterful one.
-Eh, that was pretty good, I guess.
-Eh, that was pretty good, I guess.
-Some rangers set up a rest spot in the southern part of Velenz.
-Some rangers set up a rest spot in the southern part of Velenz.
-Check it out, heal up your party, get back to me.
-Check it out, heal up your party, get back to me.
-Some rangers set up a rest spot to the south.
-Some rangers set up a rest spot to the south.
-You unlocked Rafael's front door?! That sure saves me the time and frustration.
-You unlocked Rafael's front door?! That sure saves me the time and frustration.
-Much appreciated, fellow trainer! Off I go!
-Much appreciated, fellow trainer! Off I go!
-Maybe later.
-Maybe later.
-Sure, let's go.
-Sure, let's go.
 [Map9]
 [Map10]
 [Map11]
@@ -117,213 +17,51 @@ Sure, let's go.
 [Map14]
 [Map15]
 [Map16]
-I got some extra dynamite. Want it for $5000?
-I got some extra dynamite. Want it for $5000?
-Eh, I can't blame ya. It's dangerous stuff.
-Eh, I can't blame ya. It's dangerous stuff.
-Hey, I'll be glad to be done with it.
-Hey, I'll be glad to be done with it.
-You hand over $5000 in exchange.
-You hand over $5000 in exchange.
-Well, the clock waits for no one. Work calls!
-Well, the clock waits for no one. Work calls!
-You playing at something?
-You playing at something?
-No
-No
-Yes
-Yes
 [Map17]
 [Map18]
-...
-...
 [Map19]
-...
-...
 [Map20]
 [Map21]
 [Map22]
 [Map23]
 [Map24]
 [Map25]
-I've just got one left. I'll sell it to you for $6,000. Fair market value.
-I've just got one left. I'll sell it to you for $6,000. Fair market value.
-\PN hands over $6000 in exchange.
-\PN hands over $6000 in exchange.
 [Map26]
 [Map27]
 [Map28]
 [Map29]
-Now my furniture can rest in peace.
-Now my furniture can rest in peace.
 [Map30]
-Well, time to head back to the mainland. I gotta remember to bring my MasterDex next time.
-Well, time to head back to the mainland. I gotta remember to bring my MasterDex next time.
 [Map31]
 [Map32]
-Room 101\nCurrent Residents: Kaylee, Aisha
-Room 101\nCurrent Residents: Kaylee, Aisha
-Room 102\nCurrent Residents: Iseul, Galina
-Room 102\nCurrent Residents: Iseul, Galina
-Room 104\nCurrent Residents: Manuel, Anja
-Room 104\nCurrent Residents: Manuel, Anja
 [Map33]
 [Map34]
-...
-...
-Any non-Trainers who walk through this Plaza, by accident of course, is in for a shock once they realize where they are.
-Any non-Trainers who walk through this Plaza, by accident of course, is in for a shock once they realize where they are.
 [Map35]
-It also comes along with a <imp>MoveDex</imp> and a <imp>DexNav</imp>.
-It also comes along with a <imp>MoveDex</imp> and a <imp>DexNav</imp>.
-Both useful resources that I'm sure you can figure out on your own.
-Both useful resources that I'm sure you can figure out on your own.
 [Map36]
 [Map37]
 [Map38]
-Wow, you got here fast!
-Wow, you got here fast!
-It's me again, with another sweet invention.
-It's me again, with another sweet invention.
-This one goes back to the Team Chasm days.
-This one goes back to the Team Chasm days.
-Found a bunch in an old storage container.
-Found a bunch in an old storage container.
-It’s a way to <imp>read up on an opponent’s team</imp> before trying to take them on.
-It’s a way to <imp>read up on an opponent’s team</imp> before trying to take them on.
-I know, I know... the name is a bit silly. The thing doesn't even use X-rays.
-I know, I know... the name is a bit silly. The thing doesn't even use X-rays.
-Anyways... my next stop will be on the mainland.
-Anyways... my next stop will be on the mainland.
-Here's hoping we run into each other there.
-Here's hoping we run into each other there.
-See ya.
-See ya.
 [Map39]
-Oh, a trainer are you?
-Oh, a trainer are you?
-Would you be interested in taking my Sandshrew?
-Would you be interested in taking my Sandshrew?
-I brought it here from Alola, but I'm far too old to travel now, and it's getting restless.
-I brought it here from Alola, but I'm far too old to travel now, and it's getting restless.
-I'd need $5000 in return. Sorry, but I've got to survive somehow!
-I'd need $5000 in return. Sorry, but I've got to survive somehow!
-What do you say?
-What do you say?
-I understand. That's fine, dear.
-I understand. That's fine, dear.
-You won't regret this.
-You won't regret this.
-\PN hands over $5000 in exchange.
-\PN hands over $5000 in exchange.
-Now to find my wife, wherever she's run off to.
-Now to find my wife, wherever she's run off to.
-Toodaloo!
-Toodaloo!
-Oh my, you don't have enough money.
-Oh my, you don't have enough money.
-No
-No
-Yes
-Yes
 [Map40]
-.....
-.....
 [Map41]
 [Map42]
 [Map43]
-Room 204\nCurrent Resident: Noah
-Room 204\nCurrent Resident: Noah
 [Map44]
 [Map45]
 [Map47]
 [Map48]
-...
-...
 [Map49]
 [Map50]
 [Map51]
-You have absconded with my fungus.
-You have absconded with my fungus.
-Nevermind my meditations upon its structure, sustenance, and provenance - surely your whims trump any of my concerns.
-Nevermind my meditations upon its structure, sustenance, and provenance - surely your whims trump any of my concerns.
-I shall remain here and contemplate the impermanence of... well, fungi, I suppose.
-I shall remain here and contemplate the impermanence of... well, fungi, I suppose.
-We ran out of sweets at the resort, so we're turning to desperate measures.
-We ran out of sweets at the resort, so we're turning to desperate measures.
-The blue mineral over there is edible. And quite energizing, if my coworkers are to be believed.
-The blue mineral over there is edible. And quite energizing, if my coworkers are to be believed.
-Except... I don't think I can bring myself to serve rocks to our guests.
-Except... I don't think I can bring myself to serve rocks to our guests.
-So, I decided to give my mining tool away to the first trainer to pass through.
-So, I decided to give my mining tool away to the first trainer to pass through.
-Here.
-Here.
-Wish me luck facing my boss.
-Wish me luck facing my boss.
 [Map52]
 [Map53]
-...
-...
 [Map54]
 [Map55]
 [Map56]
-A Shiny Corviknight!
-A Shiny Corviknight!
-It's too busy watching the town to notice you.
-It's too busy watching the town to notice you.
-I hiked up to the top earlier to capture it, but it wouldn't even battle me.
-I hiked up to the top earlier to capture it, but it wouldn't even battle me.
-Beats me.
-Beats me.
-I was so excited by the idea of moving to a smaller town, away from the hustle and bustle of Prizca.
-I was so excited by the idea of moving to a smaller town, away from the hustle and bustle of Prizca.
-Away from my parents, too.
-Away from my parents, too.
-The privacy, the freedom, the agency, it's all been great.
-The privacy, the freedom, the agency, it's all been great.
-It's just...
-It's just...
-I can't get used to how quiet it is all the time.
-I can't get used to how quiet it is all the time.
 [Map57]
-The Aether Foundation, from Alola, is looking to establish a branch in Makya.
-The Aether Foundation, from Alola, is looking to establish a branch in Makya.
-I'm here to do some location research for that, but I also have a secret project of my own.
-I'm here to do some location research for that, but I also have a secret project of my own.
-To help me along, think you'd like to buy this Alolan Meowth?
-To help me along, think you'd like to buy this Alolan Meowth?
-For a low, low price of $5000, you could help me along.
-For a low, low price of $5000, you could help me along.
-Sure, I'm certain another Alolan Meowth will just stumble into your hands.
-Sure, I'm certain another Alolan Meowth will just stumble into your hands.
-Why thank you, stranger. Rest well knowing that you are a patron of science.
-Why thank you, stranger. Rest well knowing that you are a patron of science.
-\PN hands over $5000 in exchange.
-\PN hands over $5000 in exchange.
-Well, not gonna waste any more time here. I've got science to do.
-Well, not gonna waste any more time here. I've got science to do.
-Hm? Pay? With what cash?
-Hm? Pay? With what cash?
-No thanks.
-No thanks.
-Sure, I'll pay.
-Sure, I'll pay.
 [Map58]
 [Map59]
-Hey, you!
-Hey, you!
-Yeah, you, get over here!
-Yeah, you, get over here!
 [Map60]
-Try to break into the house by force?
-Try to break into the house by force?
-Cross the river into <imp>Prizca</imp>, the big city, and I'll be there to give you a 4th and final invention.
-Cross the river into <imp>Prizca</imp>, the big city, and I'll be there to give you a 4th and final invention.
 [Map61]
 [Map62]
-There are <imp>vending machines</imp> in all PokéCenters and Ranger Stations.
-There are <imp>vending machines</imp> in all PokéCenters and Ranger Stations.
 [Map63]
 [Map64]
 [Map65]
@@ -340,62 +78,8 @@ There are <imp>vending machines</imp> in all PokéCenters and Ranger Stations.
 [Map76]
 [Map77]
 [Map78]
-...
-...
 [Map79]
-Begin a doubles battle against the Artificial Trainer?
-Begin a doubles battle against the Artificial Trainer?
-Strategic Battling Testing Room
-Strategic Battling Testing Room
-Begin a triple battle against the Artificial Trainer?
-Begin a triple battle against the Artificial Trainer?
-Artificial Battlers Testing Room
-Artificial Battlers Testing Room
-Truly, nothing fires my neurons quite like coding.
-Truly, nothing fires my neurons quite like coding.
-It is for this reason that I embarked on my quest--to construct the perfect artificially intelligent trainers!
-It is for this reason that I embarked on my quest--to construct the perfect artificially intelligent trainers!
-I beg you, please battle them!
-I beg you, please battle them!
-There's no reward to earn by defeating them, and your Pokemon will learn nothing from the experience...
-There's no reward to earn by defeating them, and your Pokemon will learn nothing from the experience...
-But you and I both, well, we'll gain terabytes of wisdom about battling.
-But you and I both, well, we'll gain terabytes of wisdom about battling.
-Need I remind you--knowledge is it's own reward.
-Need I remind you--knowledge is it's own reward.
-If you're worried about difficulty, note that the battlers automatically adjust their levels to match your skill level.
-If you're worried about difficulty, note that the battlers automatically adjust their levels to match your skill level.
-I am sure you will learn a lot from the experience of battling my Artificial Trainers.
-I am sure you will learn a lot from the experience of battling my Artificial Trainers.
-In fact, I'm betting on these being an excellent training tool.
-In fact, I'm betting on these being an excellent training tool.
-My government contract depends on it.
-My government contract depends on it.
-If my project succeeds, it'll be implemented in some tourist attraction they're building off the southern coast.
-If my project succeeds, it'll be implemented in some tourist attraction they're building off the southern coast.
-Begin a singles battle against the Artificial Trainer?
-Begin a singles battle against the Artificial Trainer?
-No
-No
-Yes
-Yes
 [Map80]
-I'm a berry farmer now, but I used to be a Team Chasm grunt.
-I'm a berry farmer now, but I used to be a Team Chasm grunt.
-Been feeling nostalgic, lately. Looking at photos of me and my old team.
-Been feeling nostalgic, lately. Looking at photos of me and my old team.
-My Pokemon were all adorable. Course, they're all grown up now.
-My Pokemon were all adorable. Course, they're all grown up now.
-Hey, that gives me an idea!
-Hey, that gives me an idea!
-If you round up my old team and bring 'em here for me to look at, I'll give you this Catching Charm I've been holdin' on to.
-If you round up my old team and bring 'em here for me to look at, I'll give you this Catching Charm I've been holdin' on to.
-A Bergmite, a Klink, a Dreepy, a Makyan Tangela, and an Elekid. Bring me these five and it'll make my year.
-A Bergmite, a Klink, a Dreepy, a Makyan Tangela, and an Elekid. Bring me these five and it'll make my year.
-A Bergmite, a Klink, a Dreepy, a Makyan Tangela, and an Elekid. You have 'em?
-A Bergmite, a Klink, a Dreepy, a Makyan Tangela, and an Elekid. You have 'em?
-Here's the charm I promised.
-Here's the charm I promised.
 [Map81]
 [Map82]
 [Map83]
@@ -436,134 +120,24 @@ Here's the charm I promised.
 [Map118]
 [Map119]
 [Map120]
-You’re here. I’m here. I have more Pokémon to train. A duel? Doubles.
-You’re here. I’m here. I have more Pokémon to train. A duel? Doubles.
-So? I’m not moving until I get a double battle out of you.
-So? I’m not moving until I get a double battle out of you.
 [Map121]
 [Map122]
 [Map123]
-In collaboration with Eko, Novo Town's Gym Leader, Novo College is developing new pain-relief medication for Pokemon.
-In collaboration with Eko, Novo Town's Gym Leader, Novo College is developing new pain-relief medication for Pokemon.
 [Map124]
 [Map125]
 [Map126]
-Open the crate?
-Open the crate?
 [Map127]
-It's strange to consider what biological differences might have caused this discrepancy
-It's strange to consider what biological differences might have caused this discrepancy
 [Map128]
-Accessorize! Every Pokémon NEEDS an item!
-Accessorize! Every Pokémon NEEDS an item!
-If you can’t decide, give them Leftovers or a shiny new Gem and watch them strut their stuff.
-If you can’t decide, give them Leftovers or a shiny new Gem and watch them strut their stuff.
-There are dozens and dozens of items to pick from, so I’m sure you can find something to match your Pokémon!
-There are dozens and dozens of items to pick from, so I’m sure you can find something to match your Pokémon!
-Setting up with something like Dragon Dance can turn a Pokémon into an unstoppable juggernaut.
-Setting up with something like Dragon Dance can turn a Pokémon into an unstoppable juggernaut.
-But be patient. Pick the right time and place.
-But be patient. Pick the right time and place.
-Wait for something you can set up on without being humbled, and make sure there’s no nasty surprises waiting in the wings.
-Wait for something you can set up on without being humbled, and make sure there’s no nasty surprises waiting in the wings.
-Remember to check the Info tab in battle.
-Remember to check the Info tab in battle.
-That’ll give you the nitty-gritty on your opponent’s stats – or yours.
-That’ll give you the nitty-gritty on your opponent’s stats – or yours.
-You can also check the MasterDex to see what kinds of moves your opponent learns.
-You can also check the MasterDex to see what kinds of moves your opponent learns.
-Otherwise you might find out something learns Ice Shard the hard way.
-Otherwise you might find out something learns Ice Shard the hard way.
-And, hey, you can use it after the fight to find potential team members. Just filter and search.
-And, hey, you can use it after the fight to find potential team members. Just filter and search.
-Hello again, champion.
-Hello again, champion.
-Don't pay me any mind.
-Don't pay me any mind.
-I'm just here to discuss some possible changes to the monument with Jovan.
-I'm just here to discuss some possible changes to the monument with Jovan.
-You've met, I believe?
-You've met, I believe?
-Offensive Pokémon need offensive moves.
-Offensive Pokémon need offensive moves.
-Most of the time you’ve got more moves than types.
-Most of the time you’ve got more moves than types.
-That means you’re going to want some attacking moves that complement the moves that match your types.
-That means you’re going to want some attacking moves that complement the moves that match your types.
-Think long and hard about those.
-Think long and hard about those.
-A Normal-type might want a Dark or Ground move.
-A Normal-type might want a Dark or Ground move.
-If your team’s weak to Ice, maybe here’s where you slip in a Mach Punch or a Flamethrower.
-If your team’s weak to Ice, maybe here’s where you slip in a Mach Punch or a Flamethrower.
-Think about it.
-Think about it.
-Heyo, \PN. Want some guaranteed one-hundred- percent success rate advice?
-Heyo, \PN. Want some guaranteed one-hundred- percent success rate advice?
-Never be afraid to bring, like, five Pokémon that all do the same thing.
-Never be afraid to bring, like, five Pokémon that all do the same thing.
-They can’t counter all of them.
-They can’t counter all of them.
-No, but seriously, doubling or tripling or quadrupling down can overwhelm your opponent’s answers.
-No, but seriously, doubling or tripling or quadrupling down can overwhelm your opponent’s answers.
-How many Water resists can they really have?
-How many Water resists can they really have?
-And, hey, if you’ve got a spare team slot, bring something hyper-focused on countering what counters you.
-And, hey, if you’ve got a spare team slot, bring something hyper-focused on countering what counters you.
-Aww. Well, at least read what I’ve written. It’s up on one of the computers.
-Aww. Well, at least read what I’ve written. It’s up on one of the computers.
-Champion. Good seeing you.
-Champion. Good seeing you.
-Do you need some advice?
-Do you need some advice?
-Take a second draft. Running your team into the Monument without hours of research can feel like feeding them into a meat grinder.
-Take a second draft. Running your team into the Monument without hours of research can feel like feeding them into a meat grinder.
-But don’t discount the value of practice and iteration.
-But don’t discount the value of practice and iteration.
-Take note of what you couldn’t answer.
-Take note of what you couldn’t answer.
-Even swapping out a few moves or items can make a night-and-day difference.
-Even swapping out a few moves or items can make a night-and-day difference.
-Even the most hopeless of teams can be honed into something usable with enough work.
-Even the most hopeless of teams can be honed into something usable with enough work.
-Good to hear! I’ll refrain from wishing you good luck, then.
-Good to hear! I’ll refrain from wishing you good luck, then.
-If said luck does begin to turn, though, I encourage you to read my guide.
-If said luck does begin to turn, though, I encourage you to read my guide.
-It’s up on one of the computers.
-It’s up on one of the computers.
-Sure?
-Sure?
-No thanks.
-No thanks.
-Yeah.
-Yeah.
-Not really.
-Not really.
 [Map129]
 [Map130]
 [Map131]
 [Map132]
 [Map133]
-Everybody knows about the small white totems that are common throughout the region.
-Everybody knows about the small white totems that are common throughout the region.
-The archeological consensus was that they were religious artifacts from an ancient race that worshipped Regigigas.
-The archeological consensus was that they were religious artifacts from an ancient race that worshipped Regigigas.
-After years of studying them, we moved on to other subjects.
-After years of studying them, we moved on to other subjects.
-But then the totems suddently started <i>glowing</i>!
-But then the totems suddently started <i>glowing</i>!
-Nobody has been able to figure out how that happened, or what it means.
-Nobody has been able to figure out how that happened, or what it means.
 [Map134]
 [Map135]
 [Map136]
-...
-...
 [Map137]
 [Map138]
-Since you're such a good sport about it, I have another treat for you if you find me on the beach.
-Since you're such a good sport about it, I have another treat for you if you find me on the beach.
 [Map139]
 [Map140]
 [Map141]
@@ -581,46 +155,10 @@ Since you're such a good sport about it, I have another treat for you if you fin
 [Map153]
 [Map154]
 [Map155]
-...
-...
-A Shiny Corviknight!
-A Shiny Corviknight!
-It's too busy watching the city to notice you.
-It's too busy watching the city to notice you.
 [Map156]
 [Map157]
 [Map158]
-Trainer, have you ever punched a bird?
-Trainer, have you ever punched a bird?
-It's impossible. How can I ever spar with it properly?
-It's impossible. How can I ever spar with it properly?
-This Pokemon I have, a Farfetch'd from the faraway region of Galar.
-This Pokemon I have, a Farfetch'd from the faraway region of Galar.
-It refused to take a hit, like a real Pokemon would.
-It refused to take a hit, like a real Pokemon would.
-It is a coward, a complete disgrace to the Ironclad Dojo.
-It is a coward, a complete disgrace to the Ironclad Dojo.
-I offer it to you for a mere $5000, as I need to atone for the money I wasted on its room and board.
-I offer it to you for a mere $5000, as I need to atone for the money I wasted on its room and board.
-I understand. Who would want such a disgrace on their team?
-I understand. Who would want such a disgrace on their team?
-Very well, perhaps a new master shall bring our its potential.
-Very well, perhaps a new master shall bring our its potential.
-Though I doubt it.
-Though I doubt it.
-\PN hands over $5000 in exchange.
-\PN hands over $5000 in exchange.
-Farewell.
-Farewell.
-You have not the financial requirements.
-You have not the financial requirements.
-No
-No
-Yes
-Yes
 [Map159]
-...
-...
 [Map160]
 [Map161]
 [Map162]
@@ -637,8 +175,6 @@ Here to reminisce with me about your best catch?
 Whatd'ya say?
 Whatd'ya say?
 [Map167]
-...
-...
 [Map168]
 [Map169]
 [Map170]
@@ -687,18 +223,10 @@ I know what I saw!
 I know what I saw!
 Just because I can't remember his name doesn't mean you shouldn't believe me...
 Just because I can't remember his name doesn't mean you shouldn't believe me...
-...
-...
 [Map188]
 I normally just run things around here at the castle. Not too unlike my anscestors of old, minus the whole royalty deal.
 I normally just run things around here at the castle.  Not too unlike my anscestors of old, minus the whole royalty deal.
 [Map189]
-\PN…
-\PN…
-…
-…
-...
-...
 [Map190]
 [Map191]
 I smuggled some dynamite into the city, but I think the cops are onto me.
@@ -724,8 +252,6 @@ Yes
 [Map192]
 [Map193]
 [Map194]
-...
-...
 [Map195]
 [Map196]
 [Map197]
@@ -752,12 +278,8 @@ Trail Interchange
 [Map212]
 Had a Hymnus to try out against you, too. Shame.
 Had a Hymnus to try out against you, too. Shame.
-...
-...
 [Map213]
 [Map214]
-...
-...
 [Map215]
 [Map216]
 How are you... here? This isn't even the right map... I don't actually exist. Sort of, at least... Please... don't cheat when we fight...
@@ -766,8 +288,6 @@ Stop that
 Stop that
 Try to force yourself in?
 Try to force yourself in?
-...
-...
 [Map217]
 [Map218]
 Jump onto rumbling platform?
@@ -777,8 +297,6 @@ Jump onto rumbling platform?
 [Map221]
 [Map222]
 [Map223]
-...
-...
 [Map224]
 It's a business show.
 It's a business show.
@@ -804,8 +322,6 @@ Sofia is asking him to volunteer to help her with planting more flowers, "for sc
 Sofia is asking him to volunteer to help her with planting more flowers, "for science and sweetness."
 [Map227]
 [Map228]
-...
-...
 [Map229]
 [Map230]
 [Map231]
@@ -916,8 +432,6 @@ I hope my next piece will impress the Prizcan Artists Guild.
 Our Pokemon couldn't beat yours?!
 Our Pokemon couldn't beat yours?!
 [Map294]
-...
-...
 [Map295]
 [Map296]
 [Map297]
@@ -996,8 +510,6 @@ Humanity
 Humanity
 Deception
 Deception
-...
-...
 [Map327]
 [Map328]
 [Map329]
@@ -1017,8 +529,6 @@ It yearns, this one I have. 'Twould cry but for its lack.
 [Map341]
 [Map342]
 [Map343]
-...
-...
 [Map344]
 [Map345]
 Whaddya say to $10,000 for renter's rights?
@@ -1140,12 +650,6 @@ You explain to Dr. Hekata about how Yezera nearly reshaped the world using an an
 [Map360]
 [Map361]
 [Map362]
-.........
-.........
-...
-...
-....
-....
 [Map363]
 [Map364]
 [Map365]
@@ -1187,8 +691,6 @@ Things are going to be different from now on.
 [Map399]
 [Map400]
 [Map401]
-...
-...
 [Map402]
 [Map403]
 [Map404]
@@ -1222,8 +724,6 @@ It continues to stare away at the nothingness.
 It continues to stare away at the nothingness.
 You hold a Poké Ball in front of it, Darkrai stares at it for a few seconds, until it slowly raises an arm and presses the button at its center, accepting your offer.
 You hold a Poké Ball in front of it, Darkrai stares at it for a few seconds, until it slowly raises an arm and presses the button at its center, accepting your offer.
-...
-...
 Leave Darkrai for now.
 Leave Darkrai for now.
 Catch Darkrai.
@@ -5122,406 +4622,6 @@ Unwavering Valor
 Unwavering Valor
 Test Ability
 Test Ability
-Acclimatize
-Acclimatize
-Adamantite
-Adamantite
-Adaptability
-Adaptability
-Aftermath
-Aftermath
-Aloof
-Aloof
-Anger Point
-Anger Point
-Anticipation
-Anticipation
-Apathetic
-Apathetic
-Aqua Propulsion
-Aqua Propulsion
-Aroma Veil
-Aroma Veil
-Astral Body
-Astral Body
-Audacity
-Audacity
-Ball Fetch
-Ball Fetch
-Battle Armor
-Battle Armor
-Beast Boost
-Beast Boost
-Big Pecks
-Big Pecks
-Blade Trained
-Blade Trained
-Blaze
-Blaze
-Brooding
-Brooding
-Bulletproof
-Bulletproof
-Burn Heal
-Burn Heal
-Burrower
-Burrower
-Calamity
-Calamity
-Cautionary
-Cautionary
-Cleaving
-Cleaving
-Cloud Nine
-Cloud Nine
-Cold Proof
-Cold Proof
-Color Change
-Color Change
-Compound Eyes
-Compound Eyes
-Conviction
-Conviction
-Crag Terror
-Crag Terror
-Cursed Body
-Cursed Body
-Cute Charm
-Cute Charm
-Damp
-Damp
-Danger Sense
-Danger Sense
-Dazzling
-Dazzling
-Dragon Scales
-Dragon Scales
-Early Bird
-Early Bird
-Effect Spore
-Effect Spore
-Egoist
-Egoist
-Electric Surge
-Electric Surge
-Energy Up
-Energy Up
-Engorging
-Engorging
-Epic Hero
-Epic Hero
-Erosion Cycle
-Erosion Cycle
-Evo-Armor
-Evo-Armor
-Exo-Adaption
-Exo-Adaption
-Fairy Surge
-Fairy Surge
-Fauxliage
-Fauxliage
-Flare Boost
-Flare Boost
-Flash Fire
-Flash Fire
-Flourish Pelt
-Flourish Pelt
-Forewarn
-Forewarn
-Frisk
-Frisk
-Frost Heal
-Frost Heal
-Fungal Flurry
-Fungal Flurry
-Grass Pelt
-Grass Pelt
-Grassy Spirit
-Grassy Spirit
-Grassy Surge
-Grassy Surge
-Gravitational
-Gravitational
-Greedy Guts
-Greedy Guts
-Grow Up
-Grow Up
-Guts
-Guts
-Harsh Training
-Harsh Training
-Harvest
-Harvest
-Healing Hope
-Healing Hope
-Heartening Aroma
-Heartening Aroma
-Heatproof
-Heatproof
-Huge Power
-Huge Power
-Hyper Cutter
-Hyper Cutter
-Ice Face
-Ice Face
-Illuminate
-Illuminate
-Immunity
-Immunity
-Infinite Source
-Infinite Source
-Insomnia
-Insomnia
-Jasper Charge
-Jasper Charge
-Justified
-Justified
-Keen Eye
-Keen Eye
-Klutz
-Klutz
-Leg Strength
-Leg Strength
-Libero
-Libero
-Light Metal
-Light Metal
-Lightning Ride
-Lightning Ride
-Lightning Rod
-Lightning Rod
-Limber
-Limber
-Lingering Daze
-Lingering Daze
-Liquid Ooze
-Liquid Ooze
-Liquid Voice
-Liquid Voice
-Locomotion
-Locomotion
-Long Reach
-Long Reach
-Loose Shell
-Loose Shell
-Lunar Cleansing
-Lunar Cleansing
-Lunar Loyalty
-Lunar Loyalty
-Magma Armor
-Magma Armor
-Magnet Pull
-Magnet Pull
-Malingering
-Malingering
-Marvel Scale
-Marvel Scale
-Marvel Skin
-Marvel Skin
-Mending Tones
-Mending Tones
-Minus
-Minus
-Mistcraft
-Mistcraft
-Misty Surge
-Misty Surge
-Mold Breaker
-Mold Breaker
-Moon Bubble
-Moon Bubble
-Morphing Guard
-Morphing Guard
-Ne'er-do-well
-Ne'er-do-well
-Night Light
-Night Light
-Night-line
-Night-line
-Ninjutsu
-Ninjutsu
-Oblivious
-Oblivious
-Odd Aura
-Odd Aura
-Over Acting
-Over Acting
-Overcoat
-Overcoat
-Overgrow
-Overgrow
-Own Tempo
-Own Tempo
-Pain Delay
-Pain Delay
-Pastel Veil
-Pastel Veil
-Pickup
-Pickup
-Pitting
-Pitting
-Pixilate
-Pixilate
-Plasma Ball
-Plasma Ball
-Plus
-Plus
-Poison Heal
-Poison Heal
-Pouring Heart
-Pouring Heart
-Power Up
-Power Up
-Pre-Charged
-Pre-Charged
-Propeller Tail
-Propeller Tail
-Psychic Surge
-Psychic Surge
-Punk Rock
-Punk Rock
-Pure Power
-Pure Power
-Puzzling Aura
-Puzzling Aura
-Quality Aura
-Quality Aura
-Queenly Majesty
-Queenly Majesty
-Quick Draw
-Quick Draw
-Quick Feet
-Quick Feet
-Quick Kicks
-Quick Kicks
-Ramming Speed
-Ramming Speed
-Rattled
-Rattled
-Receiver
-Receiver
-Refrigerate
-Refrigerate
-Rivalry
-Rivalry
-Robust
-Robust
-Roll In
-Roll In
-Royal Voice
-Royal Voice
-Run Away
-Run Away
-Rushed
-Rushed
-Rusty Anchor
-Rusty Anchor
-Sand Demon
-Sand Demon
-Sand Drilling
-Sand Drilling
-Sand Force
-Sand Force
-Sand Spit
-Sand Spit
-Scrappy
-Scrappy
-Sea Lord
-Sea Lord
-Seed Scatter
-Seed Scatter
-Shattering
-Shattering
-Shell Armor
-Shell Armor
-Snake Pit
-Snake Pit
-Snoring
-Snoring
-Snow Veil
-Snow Veil
-Soundproof
-Soundproof
-Stakeout
-Stakeout
-Stall
-Stall
-Steadfast
-Steadfast
-Steam Engine
-Steam Engine
-Sticky Hold
-Sticky Hold
-Storm Drain
-Storm Drain
-Stout
-Stout
-Suction Cups
-Suction Cups
-Super Fist
-Super Fist
-Surge Surfer
-Surge Surfer
-Sustainable
-Sustainable
-Swarm
-Swarm
-Sweet Veil
-Sweet Veil
-Symbiosis
-Symbiosis
-Taiga Trecker
-Taiga Trecker
-Tangled Feet
-Tangled Feet
-Tendril Trap
-Tendril Trap
-Teravolt
-Teravolt
-Time Stretch
-Time Stretch
-Torrent
-Torrent
-Total Mirror
-Total Mirror
-Toxic Boost
-Toxic Boost
-Toxic Spirit
-Toxic Spirit
-Trace
-Trace
-Trickster
-Trickster
-Trickster Aura
-Trickster Aura
-Tricky Aura
-Tricky Aura
-Turboblaze
-Turboblaze
-Unconcerned
-Unconcerned
-Water Compaction
-Water Compaction
-Water Veil
-Water Veil
-Weak Spirit
-Weak Spirit
-Weather Senses
-Weather Senses
-Werewolf
-Werewolf
-Whirler
-Whirler
-Wind Buffer
-Wind Buffer
-Windy
-Windy
-Wonder Skin
-Wonder Skin
-Wondrous Aura
-Wondrous Aura
-Zen Mode
-Zen Mode
 [11]
 Reduces a sleeping foe's HP by 1/8th at the end of a round.
 Reduces a sleeping foe's HP by 1/8th at the end of a round.
@@ -5751,24 +4851,6 @@ Stats that the Pokémon raises remain raised even after switching.
 Stats that the Pokémon raises remain raised even after switching.
 This ability exists just to showcase the PBS Extensions system.
 This ability exists just to showcase the PBS Extensions system.
-Makes foes unable to use priority attacks.
-Makes foes unable to use priority attacks.
-If the Pokémon witnesses a total eclipse, it gets to move twice that turn.
-If the Pokémon witnesses a total eclipse, it gets to move twice that turn.
-Raises each stat by two steps when a total eclipse happens.
-Raises each stat by two steps when a total eclipse happens.
-Sets Fairy Terrain for five turns when hit by an attack.
-Sets Fairy Terrain for five turns when hit by an attack.
-Doubles the Speed of kicking moves.
-Doubles the Speed of kicking moves.
-Doubles the speed of recoil moves.
-Doubles the speed of recoil moves.
-Sets Grassy Terrain for five turns when hit by an attack.
-Sets Grassy Terrain for five turns when hit by an attack.
-Upon entry in sunshine, regenerates its used berry.
-Upon entry in sunshine, regenerates its used berry.
-When a total eclipse occurs, heals for 50% max HP and uses Heal Bell.
-When a total eclipse occurs, heals for 50% max HP and uses Heal Bell.
 [12]
 9
 ???

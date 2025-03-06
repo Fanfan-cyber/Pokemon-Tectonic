@@ -210,7 +210,7 @@ Not that it ever is – thanks, by the way – but this one should be especially
 That’s what I like to hear. This ain’t gonna be an easy operation, but I trust in your abilities.
 我就喜欢听你这么说，\n这次行动不会轻松，\n但我相信你的能力。
 Mostly in committing violence. Lots of violence. Though, actually, maybe try talking this one out?
-主要是得用暴力解决...\n一次接着一次地用暴力解决。\n当然，如果能说服他们最好不是吗？
+主要是得用暴力解决...一次接着一次地用暴力解决。当然，如果能说服他们最好不是吗？
 You’re gonna want to hear this one. Trust me.
 我觉得你想听我接下来的话。
 I mean, you’ve got a minute before the Championship anyways. This op is... it’s pretty dire, importance- wise.
@@ -234,9 +234,9 @@ Hey-o! Been a lil' bit but I managed to pry your number from Zain.
 Sucks that I couldn't face you in the Tournament, but I've got a surprise to make up for it!
 很遗憾没能在竞技大会上与你对决，\n但我这里有个惊喜可以弥补。
 Heard about this place called the <imp>Battle Monument</imp>.
-Heard about this place called the <imp>Battle Monument</imp>.
+听说有个叫<imp>对战纪念碑</imp>的地方。
 The whole idea is that you can fight through a gauntlet of AI trainers. Neat, right?
-The whole idea is that you can fight through a gauntlet of AI trainers. Neat, right?
+核心玩法是让你挑战一连串AI训练师。挺酷的，对吧？
 They're weird about directly inviting people, but you're a champion so you should just waltz right in. It'll be fine.
 他们邀请的人都是一些高手，\n而且你是冠军，\n所以可以大摇大摆地进去。
 I'll send the GPS coordinates to you so you can sail on over and give it a looksie.
@@ -246,11 +246,11 @@ Oh yeah, guess I didn't say before, but the Battle Monument is a big tower in th
 If I didn't know better, I'd think it was some evil villainous lair.
 如果不是事先了解的话，\n我会误以为那里是什么邪恶巢穴。
 Anyways, I'll be hanging around the Battle Monument for the foreseeable future, so meet me here, ya hear?
-Anyways, I'll be hanging around the Battle Monument for the foreseeable future, so meet me here, ya hear?
+总之，我接下来会一直待在<imp>对战纪念碑</imp>附近，记得来找我，听到了吗？
 I've got some new team configurations I really wanna try against you.
-I've got some new team configurations I really wanna try against you.
+我组了些新队伍配置，真想找你试试看。
 ...
-...
+。。。
 ...Ok yeah someone here just asked to battle me, and I'm not gonna turn that down, so I gotta end the call now.
 ...呃...有人来跟我对战了，\n我不可能拒绝这个机会，\n所以我要挂断了。
 Hope you're doing well, be safe, make good choices, have fun, et cetera. Bye bye!
@@ -483,7 +483,7 @@ Not this again.
 最好别
 [Map1]
 Enable randomizer? This will disable some achievements.
-Enable randomizer? This will disable some achievements.
+启用随机模式？这会禁用部分成就。
 Pokemon Tectonic has features to help you make sense of its open world, and its many mechanical changes.
 《精灵构造》中新添加了很多系统，\n也同时包含很多帮助信息。
 The <imp>What Next?</imp> feature tells you what to do to progress the main story, if you forgot or got lost.
@@ -497,7 +497,7 @@ It can be found in the <imp>Documents</imp> menu.
 What sort of look would you prefer? You can change this later.
 你喜欢什么样的造型？\n你可以稍后更换。
 .....\ts[10]
-.....\ts[10]
+。。。。。\ts[10]
 ...Of course, of course. I can arrange for a ship to take you.
 …那没问题。\n我可以安排一艘船来接你。
 What was your name, again?
@@ -784,9 +784,9 @@ I'd love to ask, but, well, I need this job more than I need to satisfy my curio
 Either way, that was a great battle!
 不管怎样，\n那都是一场精彩的战斗！
 A Shiny Corviknight!
-A Shiny Corviknight!
+是闪光钢铠鸦！
 It's too busy watching the campus to notice you.
-It's too busy watching the campus to notice you.
+它忙着巡视校园，根本没注意到你。
 It’s hard to get promoted when the top level talent here are former Team Chasm lieutenants.
 这里的高级人才\n都是前裂隙队的干部，\n一般人很难得到晋升。
 They're such good battlers. It makes one jealous.
@@ -822,7 +822,7 @@ A knack for tactics, that's what you got. Helena'll be impressed, I know it.
 Healing centers uhh... to the west. So go off and do that now.
 治疗中心呃...在西边，\n现在就去吧。
 Healing center's uhh... to the west. So go off and do that now.
-Healing center's uhh... to the west. So go off and do that now.
+治疗中心呃…在西边。现在赶紧去治疗吧。
 She just switches around a lot? That's the "tactics" everyone around here's been hyping up?
 她只是在频繁的换精灵？\n这就是他们鼓吹的“战术”？
 I'm a bit dissapointed. Well, let's avoid getting too cocky. I should actually make my attempt before judging.
@@ -952,7 +952,7 @@ Splendid!
 Appreciated!
 非常感谢！
 I'm enjoying my little Rufflet immensely!
-I'm enjoying my little Rufflet immensely!
+我的毛头小鹰超——级可爱！
 Get your lunches, imported premium from sunny Alola!
 进口自阳光明媚的阿罗拉的\n优质午餐盒饭！
 All of my test materials got stolen mid-shipment. Again.
@@ -1084,17 +1084,17 @@ Yes
 找到了
 [Map8]
 My cousin and I like to hang out here. Take in the cool atmosphere and the night sky.
-My cousin and I like to hang out here. Take in the cool atmosphere and the night sky.
+我和表弟常在这儿发呆，感受清凉夜风和星空。
 We still battle people, but like... in a chill way...
-We still battle people, but like... in a chill way...
+我们也会对战，不过…主打一个佛系…
 I'm gonna leave now. Don't like your vibes.
-I'm gonna leave now. Don't like your vibes.
+我要走了。你气场好怪。
 Can you feel the energy given off by those evolution stones?
-Can you feel the energy given off by those evolution stones?
+能感受到进化石散发的能量吗？
 It's doing wonders for my stress.
-It's doing wonders for my stress.
+对缓解焦虑有奇效。
 Is life worth living if you can't take time to be transfixed by the beauty of nature?
-Is life worth living if you can't take time to be transfixed by the beauty of nature?
+如果连驻足感受自然之美的时间都没有，活着还有啥意思？
 Hey there. Miss me?
 嘿，想我了吗？
 I finally got here – all thanks to you. I have to say, you don’t look a mite worse for wear considering how much wilderness you trekked through.
@@ -1186,7 +1186,7 @@ Velenz Gym
 Leader: Rafael
 馆主：拉斐尔
 ...
-...
+。。。
 It seems like the Gym Leader was supposed to write a title here, but the space has been left blank.
 按照惯例，\n馆主应该在最后一行写些什么，\n但这里被空出来了。
 A notice about the Makyan Regional Tournament has been hastily scribbled over.
@@ -1194,21 +1194,21 @@ A notice about the Makyan Regional Tournament has been hastily scribbled over.
 A note added below reads "Not Taking Challengers"
 下面增加了一行注释：\n"不接受挑战者"
 Don't tell the others, but I'm getting bored of waiting.
-Don't tell the others, but I'm getting bored of waiting.
+别告诉其他人，但我等得有点无聊了。
 Well, might as well battle you before <i>they</i> arrive.
-Well, might as well battle you before <i>they</i> arrive.
+算了，在<i>他们</i>来之前，不如和你打一场。
 I saw a light come down from the sky and land west of Velenz.
-I saw a light come down from the sky and land west of Velenz.
+我看到一道光从天而降，落在了维伦兹的西边。
 I was hoping these stones would draw the aliens out, but it's been a week and nothing.
-I was hoping these stones would draw the aliens out, but it's been a week and nothing.
+我本来指望这些石头能引出外星人，但一周过去了，啥也没有。
 Since that failed, you can just take them. Good luck.
-Since that failed, you can just take them. Good luck.
+既然失败了，你就拿走吧。祝你好运。
 Losing? Now that's an alien feeling.
-Losing? Now that's an alien feeling.
+输掉？这还真是种陌生的感觉。
 That mansion near the menagerie must have something to do with the light I saw.
-That mansion near the menagerie must have something to do with the light I saw.
+那座靠近动物园的豪宅一定和我看到的光有关。
 My cousin says I'm paranoid, but I definitely saw the place glowing last night.
-My cousin says I'm paranoid, but I definitely saw the place glowing last night.
+我表弟说我多疑，但我昨晚确实看到那地方在发光。
 "Velenz, proud home of-"
 "夜幽市，我骄傲的故..."
 Claw marks on the sign render the text unreadable.
@@ -1232,17 +1232,17 @@ Got some rare things on sale, stranger!
 Come back anytime.
 随时再来哦。
 No earthlings allowed: that's the rule.
-No earthlings allowed: that's the rule.
+地球人禁止入内：这是规矩。
 By the power of the Moon Stone, I will punish you!
-By the power of the Moon Stone, I will punish you!
+以月之石的力量，我将惩罚你！
 What? Friendship wasn't enough!?
-What? Friendship wasn't enough!?
+什么？友情还不够吗！？
 You're really gonna invade our special space like this?
-You're really gonna invade our special space like this?
+你真要这样闯入我们的专属空间吗？
 I haven't been a real sailor since they scuttled my ship.
-I haven't been a real sailor since they scuttled my ship.
+自从他们凿沉了我的船，我就不算真正的船员了。
 I just like the clothes.
-I just like the clothes.
+我只是喜欢这身衣服。
 East: Repora Forest
 东：枯槁森林
 South: Barren Crater
@@ -1272,37 +1272,37 @@ If one was feeling particularly devilish, one could aquire a Hattrem.
 That witch has a special ability which can prevent Pokemon from utilizing dance.
 而这种精灵有一种特殊能力，\n可以阻止精灵使用舞蹈。
 Hey again. Bet you didn't expect to see me in a place like this, eh?
-Hey again. Bet you didn't expect to see me in a place like this, eh?
+又见面了。没想到会在这儿见到我吧？
 I'm good at battling, less so at cryptic riddles and haunted towns.
-I'm good at battling, less so at cryptic riddles and haunted towns.
+我擅长对战，但对解谜和闹鬼小镇可不在行。
 But, let's not let my failures go to waste.
-But, let's not let my failures go to waste.
+不过，别让我的失败白费了。
 Put the searching on hold for now, and engage in a little sparring.
-Put the searching on hold for now, and engage in a little sparring.
+先把搜索放一放，来场小对战吧。
 Talk to me again when you see the value in that idea.
-Talk to me again when you see the value in that idea.
+等你觉得这主意不错时，再来找我。
 Fighting me's better than fighting any of those Avatars, I'd wager. Prove me right?
-Fighting me's better than fighting any of those Avatars, I'd wager. Prove me right?
+我敢说，和我打比和那些化身打有意思多了。证明我说得对吧？
 Understood.
-Understood.
+明白了。
 I'll be here until you wish to battle.
-I'll be here until you wish to battle.
+我会一直在这里，直到你想对战。
 Boo!
-Boo!
+吓一跳吧！
 I bow to thee, oh masterful one.
-I bow to thee, oh masterful one.
+向您鞠躬，哦，大师。
 Eh, that was pretty good, I guess.
-Eh, that was pretty good, I guess.
+嗯，还不错吧。
 Some rangers set up a rest spot in the southern part of Velenz.
-Some rangers set up a rest spot in the southern part of Velenz.
+一些巡护员在维伦兹南部设了个休息点。
 Check it out, heal up your party, get back to me.
-Check it out, heal up your party, get back to me.
+去看看，治疗你的队伍，然后回来找我。
 Some rangers set up a rest spot to the south.
-Some rangers set up a rest spot to the south.
+一些巡护员在南边设了个休息点。
 You unlocked Rafael's front door?! That sure saves me the time and frustration.
-You unlocked Rafael's front door?! That sure saves me the time and frustration.
+你打开了拉斐尔家的前门？！这可省了我不少时间和麻烦。
 Much appreciated, fellow trainer! Off I go!
-Much appreciated, fellow trainer! Off I go!
+非常感谢，训练家朋友！我走啦！
 Why are you here?
 你为什么在这？
 Is this going somewhere?
@@ -1322,9 +1322,9 @@ Here you go.
 Why do you want it?
 为什么要这个？
 Maybe later.
-Maybe later.
+也许晚点吧。
 Sure, let's go.
-Sure, let's go.
+当然，走吧。
 [Map9]
 STAY AWAY FROM MY PLANTS!
 离我的花草远点!
@@ -1572,17 +1572,17 @@ Sure, I'll pay for that.
 [Map15]
 [Map16]
 I got some extra dynamite. Want it for $5000?
-I got some extra dynamite. Want it for $5000?
+我有些多余的炸药。5000美元要吗？
 Eh, I can't blame ya. It's dangerous stuff.
-Eh, I can't blame ya. It's dangerous stuff.
+呃，我不怪你。这东西确实危险。
 Hey, I'll be glad to be done with it.
-Hey, I'll be glad to be done with it.
+嘿，能处理掉它我就很高兴了。
 You hand over $5000 in exchange.
-You hand over $5000 in exchange.
+你递出了5000美元作为交换。
 Well, the clock waits for no one. Work calls!
-Well, the clock waits for no one. Work calls!
+时间不等人啊。工作来了！
 You playing at something?
-You playing at something?
+你在打什么主意吗？
 Walking through Makya really makes me appreciate the drive of some folk.
 在逛完马凯亚之后，\n我是真的欣赏某些人的决心。
 They basically looked at a spot, decided they wanted to build an entire tech campus over it, and they did it.
@@ -1590,9 +1590,9 @@ They basically looked at a spot, decided they wanted to build an entire tech cam
 Wild stuff.
 太疯狂了。
 No
-No
+没有
 Yes
-Yes
+是的
 [Map17]
 A home review show is playing on the television.
 电视上正在播放家庭节目。
@@ -1682,7 +1682,7 @@ LET'S GOOOOOOOOOOOOO!!!!
 I'm down but not out. You can't ever put me down.
 虽然输了，但我不会气馁，\n我永远都不会放弃！
 ...
-...
+。。。
 Get lost kid.
 小孩别挡道
 Sure.
@@ -1781,7 +1781,7 @@ He constantly talks about super weird stuff like "darkness" and "crushing pressu
 I'm not gonna rain on his his parade. It's just really weird that --
 我不想泼他冷水，\n但这也太古怪了，毕竟...
 ...
-...
+。。。
 Did I just use a water metaphor? Ugh, maybe it's rubbing off on me...
 我刚刚是不是也用了水的比喻？\n我也要变奇怪了吗...
 Hundreds of comic books, magazines, and graphic novels line the shelves.
@@ -2073,13 +2073,13 @@ I used to use a lot of Life Orbs. Didn't care if my Pokemon got hurt so long as 
 But I'm not that kind of person any more. I'm looking to rid myself of them.
 但我现在变了，\n我不想再那样做了。
 I've just got one left. I'll sell it to you for $6,000. Fair market value.
-I've just got one left. I'll sell it to you for $6,000. Fair market value.
+我只有一个了。6000美元卖给你，市场价。
 Sounds good. I'll be on patrol for awhile now, so hit me up if you change your mind.
 好的，如果你改变主意了，\n可以再联系我。\n我现在要进行巡逻了。
 Here ya go, pleasure doing business.
 很高兴能与你达成这笔交易。
 \PN hands over $6000 in exchange.
-\PN hands over $6000 in exchange.
+\PN递出了6000美元作为交换。
 Guess I'll go back on patrol now.
 我要回去巡逻了。
 Looks like you're a bit short on cash.
@@ -2447,7 +2447,7 @@ I'll be here if you change your mind.
 Ah, thanks. Hopefully you're a better fit than I was.
 啊，谢谢。\n希望你比我更合适它。
 Now my furniture can rest in peace.
-Now my furniture can rest in peace.
+现在我的家具可以安息了。
 My cats and my furnature thank you.
 我的猫和家具都要谢谢你。
 The Skitty is resting comfortably on the couch.
@@ -2524,7 +2524,7 @@ I just know there's got to be one somewhere on this island!
 My collection grows!
 收藏增加！
 Well, time to head back to the mainland. I gotta remember to bring my MasterDex next time.
-Well, time to head back to the mainland. I gotta remember to bring my MasterDex next time.
+好了，是时候回大陆了。下次得记得带上我的大师图鉴。
 Thanks for the help.
 非常感谢你的帮助。
 Makya has so much to offer a nature enthusiast like me.
@@ -2600,7 +2600,7 @@ Yes.
 准备好了
 [Map32]
 Room 101\nCurrent Residents: Kaylee, Aisha
-Room 101\nCurrent Residents: Kaylee, Aisha
+101号房\n当前住户：凯莉、艾莎
 Room 103\nCurrent Resident: Eric
 103 房\n当前住户：埃里克
 Hello, welcome to Novo Apartments.
@@ -2632,7 +2632,7 @@ I'm having a lot of fun with your Pokemon.
 I hope my Vulpix is having fun with you.
 也希望你和六尾也能好好相处。
 Room 102\nCurrent Residents: Iseul, Galina
-Room 102\nCurrent Residents: Iseul, Galina
+102号房\n当前住户：伊瑟尔、加琳娜
 Hey, you're a Trainer right? Please, I need your help.
 嘿，你是个训练家对吧？\n拜托我，我需要你的帮助。
 My Growlithe got spooked when I was talking it for a walk.
@@ -2664,7 +2664,7 @@ Maybe the Rangers that are stationed here will help me get stronger!
 They fought tons of battles back when Team Chasm was around. They must be total vets!
 裂隙队还在的时候，\n他们打了无数场仗，\n个个都是战斗好手！
 Room 104\nCurrent Residents: Manuel, Anja
-Room 104\nCurrent Residents: Manuel, Anja
+104号房\n当前住户：曼努埃尔、安雅
 No
 不换
 Yes
@@ -2722,7 +2722,7 @@ I've been stationed here to help in case of injury.
 Oh, I'm finally getting paged!
 哦，有人呼叫我了！
 ...
-...
+。。。
 Alright, I've gotta go, there's been an injury.
 好吧，我得走了，\n有人受伤了。
 Something about a Bisharp.
@@ -2820,7 +2820,7 @@ However, it got seriously large and respected once LuxTech started pumped in a b
 Wow, a wallhacker! #content
 哇哦，穿墙哥！ #content
 Any non-Trainers who walk through this Plaza, by accident of course, is in for a shock once they realize where they are.
-Any non-Trainers who walk through this Plaza, by accident of course, is in for a shock once they realize where they are.
+任何非训练家误入这个广场，一旦意识到自己在哪儿，肯定会大吃一惊。
 Most Pokemon who wander through here are caught by Trainers unless they were already part of another Trainer's party.
 如果是野生精灵出现在这里，\n那它很快就会被抓住。
 Evolution Market
@@ -2969,9 +2969,9 @@ The <imp>MasterDex</imp> is a Pokédex, but it comes preloaded with data on ever
 Moves, Abilities, stats, evolutions - it's all in there.
 技能，特性，数据，进化型等等，\n这里面都能查到。
 It also comes along with a <imp>MoveDex</imp> and a <imp>DexNav</imp>.
-It also comes along with a <imp>MoveDex</imp> and a <imp>DexNav</imp>.
+它还附带了一个<imp>技能图鉴</imp>和一个<imp>图鉴导航</imp>。
 Both useful resources that I'm sure you can figure out on your own.
-Both useful resources that I'm sure you can figure out on your own.
+这两个都是很有用的工具，我相信你能自己搞明白。
 Now go pick out your first starter. I ain't got all day.
 现在快去挑你的第一只精灵吧，\n我还有其他事情要忙。
 OK, next is the Normal-types.
@@ -3238,23 +3238,23 @@ A loss is a loss, I guess I owe you that second TM now.
 I'll head back to town now. That was a fun game. I'm pretty worked up, hehe.
 真好玩！嘿嘿！\n不过现在我要回去了，\n今天好开心！
 Wow, you got here fast!
-Wow, you got here fast!
+哇，你来得真快！
 It's me again, with another sweet invention.
-It's me again, with another sweet invention.
+又是我，带着另一个酷炫的发明。
 This one goes back to the Team Chasm days.
-This one goes back to the Team Chasm days.
+这东西可以追溯到裂谷队的时代。
 Found a bunch in an old storage container.
-Found a bunch in an old storage container.
+我在一个旧储物箱里找到了一堆。
 It’s a way to <imp>read up on an opponent’s team</imp> before trying to take them on.
-It’s a way to <imp>read up on an opponent’s team</imp> before trying to take them on.
+它可以在挑战对手之前<imp>查看对手的队伍</imp>。
 I know, I know... the name is a bit silly. The thing doesn't even use X-rays.
-I know, I know... the name is a bit silly. The thing doesn't even use X-rays.
+我知道，我知道……名字有点傻。这东西甚至不用X光。
 Anyways... my next stop will be on the mainland.
-Anyways... my next stop will be on the mainland.
+总之……我的下一站是大陆。
 Here's hoping we run into each other there.
-Here's hoping we run into each other there.
+希望我们能在那里再见面。
 See ya.
-See ya.
+再见。
 Yes
 学
 No
@@ -3287,35 +3287,35 @@ Thank you for your patience while I explained all of that.
 I will resume my normal duties now.
 接下来我会继续我的本职工作。
 Oh, a trainer are you?
-Oh, a trainer are you?
+哦，你是训练家吗？
 Would you be interested in taking my Sandshrew?
-Would you be interested in taking my Sandshrew?
+你有兴趣收下我的穿山鼠吗？
 I brought it here from Alola, but I'm far too old to travel now, and it's getting restless.
-I brought it here from Alola, but I'm far too old to travel now, and it's getting restless.
+我从阿罗拉带来了它，但现在我年纪太大没法旅行了，它也开始焦躁不安。
 I'd need $5000 in return. Sorry, but I've got to survive somehow!
-I'd need $5000 in return. Sorry, but I've got to survive somehow!
+我需要5000美元作为回报。抱歉，但我得想办法活下去！
 What do you say?
-What do you say?
+你觉得怎么样？
 I understand. That's fine, dear.
-I understand. That's fine, dear.
+我理解。没关系，亲爱的。
 You won't regret this.
-You won't regret this.
+你不会后悔的。
 \PN hands over $5000 in exchange.
-\PN hands over $5000 in exchange.
+\PN递出了5000美元作为交换。
 Now to find my wife, wherever she's run off to.
-Now to find my wife, wherever she's run off to.
+现在我得去找我妻子，不管她跑到哪儿去了。
 Toodaloo!
-Toodaloo!
+再见啦！
 Oh my, you don't have enough money.
-Oh my, you don't have enough money.
+哦天哪，你的钱不够。
 After beating the seventh gym, I decided that me and the team needed a vacation.
 击败了第七个道馆后，\n我和我的队伍都需要放松一下。
 Need to be rested up before the championship, right?
 正所谓养精蓄锐，以逸待劳！
 No
-No
+没有
 Yes
-Yes
+是的
 [Map40]
 North: County Park
 北：国立公园
@@ -3398,7 +3398,7 @@ Won’t forget it. See you around!
 AGHHH!!!
 啊啊啊！！！
 .....
-.....
+。。。。。
 Sorry, I thought you were an Avatar!
 抱歉，我还以为是化身...
 I was so stupid, I thought I could win against the Beartic that's blocking the way down there.
@@ -3567,7 +3567,7 @@ Let’s go.
 [Map42]
 [Map43]
 Room 204\nCurrent Resident: Noah
-Room 204\nCurrent Resident: Noah
+204号房\n当前住户：诺亚
 1, 2, 3, 4!
 强身健体，立志成才！
 Lets go, lets go!
@@ -3785,7 +3785,7 @@ You see a book titled "Dealing with Retirement."
 Hello, hello! I am the official Name Rater! Want me to rate the nicknames of your Pokémon?
 你好你好！\n我是一名职业的姓名鉴定师！\n想让我评估你的精灵昵称吗?
 ...
-...
+。。。
 Is what I would say. In the modern day my services are no longer needed by trainers.
 也对，在这个时代，\n训练家们已经不需要我的服务了。
 People started realizing that you could just rename your Pokemon at any point by calling them a different name. No need for a middleman.
@@ -3898,9 +3898,9 @@ Please avoid them if you aren't ready to fend off wild Pokémon!
 The berry plant is growing.
 树果还在生长中。
 You have absconded with my fungus.
-You have absconded with my fungus.
+你偷走了我的真菌。
 Nevermind my meditations upon its structure, sustenance, and provenance - surely your whims trump any of my concerns.
-Nevermind my meditations upon its structure, sustenance, and provenance - surely your whims trump any of my concerns.
+别管我对它的结构、营养和来源的冥想了——显然你的突发奇想比我的任何担忧都重要。
 Must I entertain strangers even now? We are waiting for a sudden serendipitous arrival.
 我现在还得负责招待陌生人？\n就算要等那个神乎其神的邂逅...
 By no idea of mine, let me make myself clear.
@@ -3914,21 +3914,21 @@ Would you speak with my companion, perchance?
 She is resting to the south.
 她正在南边休息。
 I shall remain here and contemplate the impermanence of... well, fungi, I suppose.
-I shall remain here and contemplate the impermanence of... well, fungi, I suppose.
+我会留在这里，思考……嗯，真菌的无常吧。
 If you would take your leave, this mushroom demands my full attention.
 现在你可以走了吗？\n我得集中精力处理这个蘑菇。
 We ran out of sweets at the resort, so we're turning to desperate measures.
-We ran out of sweets at the resort, so we're turning to desperate measures.
+度假村的甜点用完了，所以我们只能采取极端措施。
 The blue mineral over there is edible. And quite energizing, if my coworkers are to be believed.
-The blue mineral over there is edible. And quite energizing, if my coworkers are to be believed.
+那边的蓝色矿物是可以食用的。而且据我的同事说，它还能提神。
 Except... I don't think I can bring myself to serve rocks to our guests.
-Except... I don't think I can bring myself to serve rocks to our guests.
+只是……我觉得我没法把石头端给客人。
 So, I decided to give my mining tool away to the first trainer to pass through.
-So, I decided to give my mining tool away to the first trainer to pass through.
+所以，我决定把它送给第一个路过的训练家。
 Here.
-Here.
+给你。
 Wish me luck facing my boss.
-Wish me luck facing my boss.
+祝我面对老板时好运吧。
 [Map52]
 [Map53]
 My friend invited me to Makya. She failed to mention how untamed the region is. I presume you're another ruffian.
@@ -3950,7 +3950,7 @@ South-West: Barren Crater
 Does that girl over there have a Johtoan Furret? I've never seen one myself, only the ones here in Makya.
 那边那个女孩是不是\n有一只成都地区的大尾立？\n我之前只见过马凯亚的那种。
 ...
-...
+。。。
 I should steal that Furret. I used to do that all the time.
 我应该偷走她的大尾立...\n就像以前做的那样。
 I wonder if Johtoan Furrets are sought after...
@@ -4361,9 +4361,9 @@ Oh, what an exciting fight! Excellent, excellent.
 Oh my, what an impressive battler you are. Keep at it, I'm sure you'll be great.
 你真是位优秀的训练家，\n继续努力前进吧，\n我相信你会变得更优秀。
 A Shiny Corviknight!
-A Shiny Corviknight!
+是闪光钢铠鸦！
 It's too busy watching the town to notice you.
-It's too busy watching the town to notice you.
+它正忙着巡视小镇，根本没注意到你。
 I wish they let me Bike on the grass.
 我希望他们能让我在草地上骑车。
 It's not like anyone is using it, so its wide open.
@@ -4495,9 +4495,9 @@ I may not tame dragons, but I tame DRAGONS!
 You see that Corviknight up on top of that building?
 你看到楼顶上的钢铠鸦了吗？
 I hiked up to the top earlier to capture it, but it wouldn't even battle me.
-I hiked up to the top earlier to capture it, but it wouldn't even battle me.
+我之前爬到山顶想抓它，但它连对战都不肯。
 Beats me.
-Beats me.
+我搞不懂。
 Name Rater's House
 名字专家 宅
 Ohoho, so you've beat everyone in the club have you?
@@ -4565,15 +4565,15 @@ Ah, you got me. Good fight. Let's see if the next person could put up a better c
 I'm not able to heal your Pokemon since I don't have my machine or my tools. Sorry.
 抱歉，这里没有治疗机或工具，\n我也没办法帮你的精灵治疗。
 I was so excited by the idea of moving to a smaller town, away from the hustle and bustle of Prizca.
-I was so excited by the idea of moving to a smaller town, away from the hustle and bustle of Prizca.
+我曾对搬到一个远离宏礼市喧嚣的小镇感到无比兴奋。
 Away from my parents, too.
-Away from my parents, too.
+也远离了我的父母。
 The privacy, the freedom, the agency, it's all been great.
-The privacy, the freedom, the agency, it's all been great.
+隐私、自由、自主权，这一切都很棒。
 It's just...
-It's just...
+只是……
 I can't get used to how quiet it is all the time.
-I can't get used to how quiet it is all the time.
+我始终无法适应这里的安静。
 NO MOTOR VEHICLES
 禁止机动车通行
 Oh, wow! You've grown so much! You've absolutely blossomed as a Trainer!
@@ -4724,23 +4724,23 @@ And maybe I’m gonna have a talk with Andris and the rest of them, about what h
 And about sticking me in a cave for a few years to deal with the consequences...
 还有把我关在山洞里\n处理了几年烂摊子的事…
 The Aether Foundation, from Alola, is looking to establish a branch in Makya.
-The Aether Foundation, from Alola, is looking to establish a branch in Makya.
+来自阿罗拉的以太基金会正计划在马凯亚设立分部。
 I'm here to do some location research for that, but I also have a secret project of my own.
-I'm here to do some location research for that, but I also have a secret project of my own.
+我来这里是为了做选址调研，不过我还有个秘密项目。
 To help me along, think you'd like to buy this Alolan Meowth?
-To help me along, think you'd like to buy this Alolan Meowth?
+为了帮我一把，你想买下这只阿罗拉喵喵吗？
 For a low, low price of $5000, you could help me along.
-For a low, low price of $5000, you could help me along.
+只需5000美元的低价，你就能帮我大忙。
 Sure, I'm certain another Alolan Meowth will just stumble into your hands.
-Sure, I'm certain another Alolan Meowth will just stumble into your hands.
+当然，我相信另一只阿罗拉喵喵会自己跑到你手里的。
 Why thank you, stranger. Rest well knowing that you are a patron of science.
-Why thank you, stranger. Rest well knowing that you are a patron of science.
+太感谢了，陌生人。安心休息吧，你可是科学的赞助者。
 \PN hands over $5000 in exchange.
-\PN hands over $5000 in exchange.
+\PN递出了5000美元作为交换。
 Well, not gonna waste any more time here. I've got science to do.
-Well, not gonna waste any more time here. I've got science to do.
+好了，不在这儿浪费时间了。我还有科学要搞。
 Hm? Pay? With what cash?
-Hm? Pay? With what cash?
+嗯？付钱？用什么现金？
 Oh, sorry about the wait, I was just preparing to go back on duty.
 哦，不好意思久等了，\n我正准备回去值班呢。
 I've been investigating a group of thieves.
@@ -4756,9 +4756,9 @@ No need to worry--the trainers there aren't too strong.
 Have a good one!
 不多说了，再见！
 No thanks.
-No thanks.
+不了，谢谢。
 Sure, I'll pay.
-Sure, I'll pay.
+当然，我付。
 [Map58]
 [Map59]
 A Bicycle. It looks slightly dinged up.
@@ -4828,9 +4828,9 @@ Make a real sick collection of Bug-types, ya?
 Good on ya for catching this 'mon, its a real beauty.
 我很喜欢这只精灵，\n它真是漂亮极了。
 Hey, you!
-Hey, you!
+嘿，你！
 Yeah, you, get over here!
-Yeah, you, get over here!
+对，就是你，过来！
 I picked up this bike in Novo Town. The people up there are crazy for bikes, so it was easy to find one.
 我之前在望新镇捡了辆自行车，\n那里的人几乎人手一辆，\n所以满大街都是。
 For the same reason, though, everyone already got one, so I wasn't able to sell.
@@ -4919,7 +4919,7 @@ Outsmarted and outmatched...for now.
 The door is locked with an old rusty padlock.
 这扇门上锁了一把生锈的锁头。
 Try to break into the house by force?
-Try to break into the house by force?
+想强行闯进房子吗？
 You press against the door, and the padlock snaps in half!
 你稍微用力一推，\n它就分崩离析了！
 Hey, good to see you again!
@@ -4929,7 +4929,7 @@ I just created this invention, and I need testers.
 Anyways, I'm traveling up north to the big city for the Battle Festival!
 对了，我正打算去北边的大城市，\n参加\c[2]战斗节庆典\c[0]！
 Cross the river into <imp>Prizca</imp>, the big city, and I'll be there to give you a 4th and final invention.
-Cross the river into <imp>Prizca</imp>, the big city, and I'll be there to give you a 4th and final invention.
+过河到<imp>宏礼市</imp>，那座大城市，我会在那儿给你第四个也是最后一个发明。
 See ya!
 回头见！
 Hey, give me some practice, won't'cha? I'm gonna need it to become one of Eko's gym trainers!
@@ -5111,7 +5111,7 @@ I can't leave my post, so blocking the gym entrance is my only leverage.
 I'm plopping down here until a challenger like yourself grabs me a <imp>Fresh Water</imp>.
 我只能等在这里，期盼着那些...\n训练家带来的<imp>美味之水</imp>。
 There are <imp>vending machines</imp> in all PokéCenters and Ranger Stations.
-There are <imp>vending machines</imp> in all PokéCenters and Ranger Stations.
+所有宝可梦中心和义军站都有<imp>自动售货机</imp>。
 I hope you won't find this cruel. The suffering I'm about to inflict is strictly necessary.
 我希望你不会觉得这残忍，\n因为这些是必须承受之痛。
 ...Noted. Please avail yourself of this teleporter. Taking the long way may subject any afflicted Pokemon to undue injury.
@@ -5495,7 +5495,7 @@ I can't even begin to fathom what travelling through the net like that would eve
 You could be anywhere, anytime, at will.
 你可以随时随地自由穿梭，\n想去哪去哪。
 ...
-...
+。。。
 I should clear my browser history.
 我应该先清除我的浏览器历史记录。
 We're here on correspondence about LuxTech's sponsorship of the upcoming League Tournament.
@@ -5602,7 +5602,7 @@ He isn't relevant.
 跟他无关
 [Map79]
 Begin a doubles battle against the Artificial Trainer?
-Begin a doubles battle against the Artificial Trainer?
+要开始与人工训练家的双打对战吗？
 Sketch is an amazing move! We're still trying to find the limits of Smeargle biology.
 写生是一种神奇的技能！\n我们一直在探索图图犬的极限。
 Help me find it!
@@ -5630,9 +5630,9 @@ Go back and fight them all, then come back to me.
 I have no more to offer you, I'm afraid. Your battling data was excellent, so it's a shame.
 恐怕我拿不出什么奖品了，\n你的战斗数据非常优秀，\n所以很遗憾。
 Strategic Battling Testing Room
-Strategic Battling Testing Room
+策略对战测试室
 Begin a triple battle against the Artificial Trainer?
-Begin a triple battle against the Artificial Trainer?
+要开始与人工训练家的三打对战吗？
 It looks relieved to no longer be floating!
 看起来它很高兴能重新回到地面上！
 One of the scientists here gave me a batch of weird rocks, and told me to give some to my Mudsdale.
@@ -5650,7 +5650,7 @@ Phew. One of the scientists was able to help reverse the effects of the Float St
 Crisis averted!
 危机解除了！
 Artificial Battlers Testing Room
-Artificial Battlers Testing Room
+人工对战者测试室
 You aced that test, Swadloon!
 宝包茧，你通过测试了！
 You're the best!
@@ -5724,27 +5724,27 @@ Sorry about the tricks.
 It's really hard to repeat this one, but I'll try my best.
 这个实验很难重复进行，\n但我会尽力的。
 Truly, nothing fires my neurons quite like coding.
-Truly, nothing fires my neurons quite like coding.
+说实话，没有什么比编程更能激发我的神经了。
 It is for this reason that I embarked on my quest--to construct the perfect artificially intelligent trainers!
-It is for this reason that I embarked on my quest--to construct the perfect artificially intelligent trainers!
+正因如此，我开始了我的追求——构建完美的人工智能训练家！
 I beg you, please battle them!
-I beg you, please battle them!
+我恳求你，请与他们对战！
 There's no reward to earn by defeating them, and your Pokemon will learn nothing from the experience...
-There's no reward to earn by defeating them, and your Pokemon will learn nothing from the experience...
+击败他们不会有任何奖励，你的宝可梦也不会从中学到什么……
 But you and I both, well, we'll gain terabytes of wisdom about battling.
-But you and I both, well, we'll gain terabytes of wisdom about battling.
+但你和我，我们都会从中获得海量的对战智慧。
 Need I remind you--knowledge is it's own reward.
-Need I remind you--knowledge is it's own reward.
+需要我提醒你吗——知识本身就是回报。
 If you're worried about difficulty, note that the battlers automatically adjust their levels to match your skill level.
-If you're worried about difficulty, note that the battlers automatically adjust their levels to match your skill level.
+如果你担心难度，请注意对战者会自动调整等级以匹配你的技能水平。
 I am sure you will learn a lot from the experience of battling my Artificial Trainers.
-I am sure you will learn a lot from the experience of battling my Artificial Trainers.
+我相信你会从与我的AI训练家对战的经历中学到很多。
 In fact, I'm betting on these being an excellent training tool.
-In fact, I'm betting on these being an excellent training tool.
+事实上，我打赌这会是一个绝佳的训练工具。
 My government contract depends on it.
-My government contract depends on it.
+我的政府合同可全靠它了。
 If my project succeeds, it'll be implemented in some tourist attraction they're building off the southern coast.
-If my project succeeds, it'll be implemented in some tourist attraction they're building off the southern coast.
+如果我的项目成功，它将被应用在他们正在南部海岸建造的某个旅游景点中。
 The area up ahead is the battle testing site.
 前方是战斗试验场。
 It's where LuxTech scientists observe the capabilities of Pokemon in test battles.
@@ -5764,7 +5764,7 @@ My dad brings me to work every day after school since I like to watch the Pokemo
 You get to see all sorts of Pokemon here. Sometimes the Trainers let me pet them!
 在这里能看到很多种精灵，\n有时训练家还会让我摸摸它们!
 Begin a singles battle against the Artificial Trainer?
-Begin a singles battle against the Artificial Trainer?
+要开始与人工训练家的单打对战吗？
 Pokemon defense mechanisms are amazing!
 精灵的防御机制真是太神奇啦！
 Time to see them in action!
@@ -5780,32 +5780,32 @@ Your effect seems to be an aura of fear, based on what I'm feeling right now.
 Great test, but I need more data.
 这次测试非常有效，\n但我还需要更多的数据。
 No
-No
+不
 Yes
-Yes
+是的
 [Map80]
 I'm a berry farmer now, but I used to be a Team Chasm grunt.
-I'm a berry farmer now, but I used to be a Team Chasm grunt.
+我现在是个树果农，但我曾经是裂谷队的小兵。
 Been feeling nostalgic, lately. Looking at photos of me and my old team.
-Been feeling nostalgic, lately. Looking at photos of me and my old team.
+最近有点怀旧，翻看我和老队友的照片。
 My Pokemon were all adorable. Course, they're all grown up now.
-My Pokemon were all adorable. Course, they're all grown up now.
+我的宝可梦们都很可爱。当然，它们现在都长大了。
 Wouldn't it be nice to see 'em all again like they were...
 要是能再见到它们，\n看看它们的样子…\n那该多好啊…
 Hey, that gives me an idea!
-Hey, that gives me an idea!
+嘿，这让我有了个主意！
 If you round up my old team and bring 'em here for me to look at, I'll give you this Catching Charm I've been holdin' on to.
-If you round up my old team and bring 'em here for me to look at, I'll give you this Catching Charm I've been holdin' on to.
+如果你能把我以前的队伍找齐并带到这里给我看看，我就把这个我一直留着的捕捉护符送给你。
 Sound good? I'm not askin' to take 'em, just lookin'.
 听起来不错吧？\n我并不是想要它们，\n只是看一眼而已。
 A Bergmite, a Klink, a Dreepy, a Makyan Tangela, and an Elekid. Bring me these five and it'll make my year.
-A Bergmite, a Klink, a Dreepy, a Makyan Tangela, and an Elekid. Bring me these five and it'll make my year.
+一只冰宝、一只齿轮儿、一只多龙梅西亚、一只马凯亚藤蔓怪和一只电击怪。把这五只带来，我会高兴一整年。
 A Bergmite, a Klink, a Dreepy, a Makyan Tangela, and an Elekid. You have 'em?
-A Bergmite, a Klink, a Dreepy, a Makyan Tangela, and an Elekid. You have 'em?
+一只冰宝、一只齿轮儿、一只多龙梅西亚、一只马凯亚藤蔓怪和一只电击怪。你有它们吗？
 Amazing, there they all are!
 太棒了，它们都在！
 Here's the charm I promised.
-Here's the charm I promised.
+这是我答应给你的护符。
 I see that you don't. No problem, I've got things I can do while waiting.
 你没有去摘果子？\n没事，我可以等你一会儿。
 What a wonderful feeling this is.
@@ -7061,7 +7061,7 @@ You? I... I remember... outside of Novo Town.
 You aren’t – I mean, you are – it doesn’t matter.
 你不是...不对，我是说，你是...\n算了，别在意。
 You’re here. I’m here. I have more Pokémon to train. A duel? Doubles.
-You’re here. I’m here. I have more Pokémon to train. A duel? Doubles.
+你在这儿，我也在这儿。我还有宝可梦要训练。来场对战？双打。
 W-well, I could ask you the same thing. Can we start?
 我...我...\n不能来一场吗？
 Then go! Don’t bother me and then not even – whatever.
@@ -7077,7 +7077,7 @@ If you’re looking deeper in the caves, then I -- I mean, if you don’t mind, 
 I have healing items for the both of us. It’s dangerous and we -- I’d like to talk. And that’s... that’s not very common for me.
 我这里有治疗用品...\n里面很危险，而且...我...\n我想...跟你谈谈...\n我...很少会出现这种想法...
 So? I’m not moving until I get a double battle out of you.
-So? I’m not moving until I get a double battle out of you.
+所以？你不跟我双打，我就不走了。
 I need to... oh, just fight me already!
 我需要...\n来对战吧！
 That was – you’re... yeah, you are, aren’t you?
@@ -7848,7 +7848,7 @@ Another theory is the Makyan environmental policy is particularly effective.
 For both theories, the counterargument is that fossil records show that Makya has had this biodiversity before human settlements were even founded.
 但根据古生物研究，\n早在有人类定居之前，\n马凯亚地区的生物种群数量\n就已经达到了一个很高的数值。
 In collaboration with Eko, Novo Town's Gym Leader, Novo College is developing new pain-relief medication for Pokemon.
-In collaboration with Eko, Novo Town's Gym Leader, Novo College is developing new pain-relief medication for Pokemon.
+与诺沃镇的道馆馆主Eko合作，诺沃学院正在开发新的宝可梦止痛药。
 While status-relieving medicine serves a purpose, its main flaw is that it is reactive rather than proactive.
 目前市面上的状态类药物，\n虽也有一定的止痛效果，\n但一直无法解决\n不能由精灵自主使用的缺点。
 As a response to this issue, the College has been working to develop a new ointment, which can be applied to Pokemon once a day.
@@ -8123,7 +8123,7 @@ Lo! We hast finally found the treasure we hast been seeking!
 A heavy crate. Its front side lock has been broken off.
 一个沉重的板条箱，\n锁头已经被保利拆解掉了。
 Open the crate?
-Open the crate?
+要打开箱子吗？
 There are items inside!
 里面好像有些东西！
 No
@@ -8164,7 +8164,7 @@ Avatars, on the other hand, have no such defenses.
 You can have an avatar that's burned and numbed simultaneously!
 你可以让一个化身同时被麻痹和烧伤。
 It's strange to consider what biological differences might have caused this discrepancy
-It's strange to consider what biological differences might have caused this discrepancy
+想想是什么生物差异导致了这种差异，真是奇怪。
 A ranger buddy of mine told me about the Avatars of Entei, Raikou, and Suicune.
 我有个义军朋友跟我说，\n他曾面对过炎帝、雷公和水君的化身。
 He fought them, but won't tell me where at, the coward.
@@ -8185,35 +8185,35 @@ Apparently a lot of stinky flowers bloomed nearby after it appeared. Gross!
 在它出现之后，\n附近开出了很多散发着臭味的花！
 [Map128]
 Accessorize! Every Pokémon NEEDS an item!
-Accessorize! Every Pokémon NEEDS an item!
+装饰起来！每只宝可梦都需要一个道具！
 If you can’t decide, give them Leftovers or a shiny new Gem and watch them strut their stuff.
-If you can’t decide, give them Leftovers or a shiny new Gem and watch them strut their stuff.
+如果你拿不定主意，给它们剩饭或闪亮的新宝石，然后看它们大显身手。
 There are dozens and dozens of items to pick from, so I’m sure you can find something to match your Pokémon!
-There are dozens and dozens of items to pick from, so I’m sure you can find something to match your Pokémon!
+有几十种道具可供选择，我相信你能找到适合你宝可梦的东西！
 Setting up with something like Dragon Dance can turn a Pokémon into an unstoppable juggernaut.
-Setting up with something like Dragon Dance can turn a Pokémon into an unstoppable juggernaut.
+用龙舞之类的技能强化，可以把宝可梦变成不可阻挡的巨兽。
 But be patient. Pick the right time and place.
-But be patient. Pick the right time and place.
+但要耐心。选对时机和地点。
 Wait for something you can set up on without being humbled, and make sure there’s no nasty surprises waiting in the wings.
-Wait for something you can set up on without being humbled, and make sure there’s no nasty surprises waiting in the wings.
+等到你能安全强化的机会，并确保没有意外的威胁在等着你。
 Remember to check the Info tab in battle.
-Remember to check the Info tab in battle.
+记得在战斗中查看信息栏。
 That’ll give you the nitty-gritty on your opponent’s stats – or yours.
-That’ll give you the nitty-gritty on your opponent’s stats – or yours.
+它会告诉你对手（或你自己）的详细数据。
 You can also check the MasterDex to see what kinds of moves your opponent learns.
-You can also check the MasterDex to see what kinds of moves your opponent learns.
+你也可以查看MasterDex，了解对手可能学会的技能。
 Otherwise you might find out something learns Ice Shard the hard way.
-Otherwise you might find out something learns Ice Shard the hard way.
+否则，你可能会在吃亏后才发现对手会冰砾。
 And, hey, you can use it after the fight to find potential team members. Just filter and search.
-And, hey, you can use it after the fight to find potential team members. Just filter and search.
+而且，嘿，你可以在战斗后用MasterDex寻找潜在的队伍成员。只需筛选和搜索。
 Hello again, champion.
-Hello again, champion.
+又见面了，冠军。
 Don't pay me any mind.
-Don't pay me any mind.
+别管我。
 I'm just here to discuss some possible changes to the monument with Jovan.
-I'm just here to discuss some possible changes to the monument with Jovan.
+我只是来和Jovan讨论纪念碑的一些可能的改动。
 You've met, I believe?
-You've met, I believe?
+你们见过，对吧？
 I'll take your Pokémon for a few seconds.
 请允许我暂时拿走您的精灵。
 First, you should restore your Pokémon to full health.
@@ -8221,33 +8221,33 @@ First, you should restore your Pokémon to full health.
 We hope you excel!
 祝您一路顺风！
 Offensive Pokémon need offensive moves.
-Offensive Pokémon need offensive moves.
+攻击型宝可梦需要攻击技能。
 Most of the time you’ve got more moves than types.
-Most of the time you’ve got more moves than types.
+大多数时候，你的技能比属性多。
 That means you’re going to want some attacking moves that complement the moves that match your types.
-That means you’re going to want some attacking moves that complement the moves that match your types.
+这意味着你需要一些攻击技能来补充与属性匹配的技能。
 Think long and hard about those.
-Think long and hard about those.
+仔细考虑这些。
 A Normal-type might want a Dark or Ground move.
-A Normal-type might want a Dark or Ground move.
+普通系宝可梦可能会想要恶系或地面系技能。
 If your team’s weak to Ice, maybe here’s where you slip in a Mach Punch or a Flamethrower.
-If your team’s weak to Ice, maybe here’s where you slip in a Mach Punch or a Flamethrower.
+如果你的队伍弱冰，也许可以在这里加入音速拳或喷射火焰。
 Think about it.
-Think about it.
+好好想想。
 Heyo, \PN. Want some guaranteed one-hundred- percent success rate advice?
-Heyo, \PN. Want some guaranteed one-hundred- percent success rate advice?
+嘿，\PN。想要一些百分百成功的建议吗？
 Never be afraid to bring, like, five Pokémon that all do the same thing.
-Never be afraid to bring, like, five Pokémon that all do the same thing.
+别害怕带上五只功能相同的宝可梦。
 They can’t counter all of them.
-They can’t counter all of them.
+他们不可能全部防住。
 No, but seriously, doubling or tripling or quadrupling down can overwhelm your opponent’s answers.
-No, but seriously, doubling or tripling or quadrupling down can overwhelm your opponent’s answers.
+不，说真的，双倍、三倍甚至四倍的投入可以压倒对手的应对手段。
 How many Water resists can they really have?
-How many Water resists can they really have?
+他们真的能有那么多抗水的宝可梦吗？
 And, hey, if you’ve got a spare team slot, bring something hyper-focused on countering what counters you.
-And, hey, if you’ve got a spare team slot, bring something hyper-focused on countering what counters you.
+而且，如果你有空余的队伍位置，带一些专门针对你弱点的宝可梦。
 Aww. Well, at least read what I’ve written. It’s up on one of the computers.
-Aww. Well, at least read what I’ve written. It’s up on one of the computers.
+啊，好吧，至少读读我写的东西。它在一台电脑上。
 \PN! Nice to see you.
 \PN！能见到你真好。
 I mean, you're the champion, now, so I suppose its only natural that you'd try take on the Battle Monument.
@@ -8257,33 +8257,33 @@ I did some consulting work on the trainer AI, so I'm very aware that its quite a
 Good luck!
 祝你好运！
 Champion. Good seeing you.
-Champion. Good seeing you.
+冠军，很高兴见到你。
 Do you need some advice?
-Do you need some advice?
+你需要一些建议吗？
 Take a second draft. Running your team into the Monument without hours of research can feel like feeding them into a meat grinder.
-Take a second draft. Running your team into the Monument without hours of research can feel like feeding them into a meat grinder.
+再考虑一下。不经过充分研究就把队伍带进纪念碑，感觉就像把它们送进绞肉机。
 But don’t discount the value of practice and iteration.
-But don’t discount the value of practice and iteration.
+但不要忽视练习和调整的价值。
 Take note of what you couldn’t answer.
-Take note of what you couldn’t answer.
+记下你无法应对的情况。
 Even swapping out a few moves or items can make a night-and-day difference.
-Even swapping out a few moves or items can make a night-and-day difference.
+即使只是更换几个技能或道具，也能带来天壤之别。
 Even the most hopeless of teams can be honed into something usable with enough work.
-Even the most hopeless of teams can be honed into something usable with enough work.
+即使是最无望的队伍，经过足够的努力也能变得可用。
 Good to hear! I’ll refrain from wishing you good luck, then.
-Good to hear! I’ll refrain from wishing you good luck, then.
+很高兴听你这么说！那我就不祝你好运了。
 If said luck does begin to turn, though, I encourage you to read my guide.
-If said luck does begin to turn, though, I encourage you to read my guide.
+但如果运气真的开始变差，我建议你读读我的指南。
 It’s up on one of the computers.
-It’s up on one of the computers.
+它在一台电脑上。
 Sure?
-Sure?
+确定吗？
 No thanks.
-No thanks.
+不了，谢谢。
 Yeah.
-Yeah.
+是的。
 Not really.
-Not really.
+不太需要。
 [Map129]
 A dark stone in the shape of a Nincada.
 一块铁面忍者形状的深色石头。
@@ -8534,15 +8534,15 @@ Hm? Be sure to check how much money you have before you answer in the affirmativ
 Specimens of Aerodactyl's evolved form, Pteroflyte, were only found recently in Makya.
 拥有翼膜的化石翼龙化石，\n最近才在马凯亚发现。
 Everybody knows about the small white totems that are common throughout the region.
-Everybody knows about the small white totems that are common throughout the region.
+大家都知道遍布整个地区的小白色图腾。
 The archeological consensus was that they were religious artifacts from an ancient race that worshipped Regigigas.
-The archeological consensus was that they were religious artifacts from an ancient race that worshipped Regigigas.
+考古学界的共识是，它们是崇拜雷吉奇卡斯的古代种族的宗教文物。
 After years of studying them, we moved on to other subjects.
-After years of studying them, we moved on to other subjects.
+经过多年的研究，我们转向了其他课题。
 But then the totems suddently started <i>glowing</i>!
-But then the totems suddently started <i>glowing</i>!
+但后来这些图腾突然开始<i>发光</i>了！
 Nobody has been able to figure out how that happened, or what it means.
-Nobody has been able to figure out how that happened, or what it means.
+至今没人能弄清楚这是怎么发生的，或者这意味着什么。
 Oh? Tyrantrum has something in its mouth.
 嗯？怪颚龙嘴里好像有些东西。
 Tyrantrum has a big smile for you! Its teeth are very large!
@@ -9087,7 +9087,7 @@ Who knew explosives could be so useful?
 We'll see.
 走着瞧
 ...
-...
+。。。
 Oh, shut up.
 闭嘴！
 Sure.
@@ -9159,7 +9159,7 @@ Once you train your Pokemon enough, this thing will start popping out candies.
 Have your Pokemon eat them. It'll let them grow stronger.
 喂给那些还不够强的精灵，\n就能让它们快速形成战力。
 Since you're such a good sport about it, I have another treat for you if you find me on the beach.
-Since you're such a good sport about it, I have another treat for you if you find me on the beach.
+既然你这么配合，如果你在海滩上找到我，我还有一份礼物给你。
 See ya then.
 拜~
 [Map139]
@@ -9514,7 +9514,7 @@ Farewell Trainer, the Rangers owe you one.
 Any luck?
 有什么进展吗？
 ...
-...
+。。。
 Nothing? Nothing?!
 什么都没有？什么都没有？
 What did she do? How could there be nothing there?
@@ -9740,9 +9740,9 @@ You’re insufferable some times, you know that?
 That last one was… real close.
 那最后一次真的很接近。
 A Shiny Corviknight!
-A Shiny Corviknight!
+是闪光钢铠鸦！
 It's too busy watching the city to notice you.
-It's too busy watching the city to notice you.
+它正忙着巡视城市，根本没注意到你。
 It's weird seeing the streets here so empty.
 在这里看到街道如此空旷真是奇怪。
 It's a combination of the road closure, and the Battle Festival happening right nearby.
@@ -9879,31 +9879,31 @@ People aren't paying them much attention, and are crossing wherever they wish.
 人们现在根本不用管车辆了，\n想从哪儿走从哪儿走。
 [Map158]
 Trainer, have you ever punched a bird?
-Trainer, have you ever punched a bird?
+训练家，你打过鸟吗？
 It's impossible. How can I ever spar with it properly?
-It's impossible. How can I ever spar with it properly?
+这不可能。我怎么能和它好好对战呢？
 This Pokemon I have, a Farfetch'd from the faraway region of Galar.
-This Pokemon I have, a Farfetch'd from the faraway region of Galar.
+我有一只宝可梦，是来自遥远伽勒尔地区的大葱鸭。
 It refused to take a hit, like a real Pokemon would.
-It refused to take a hit, like a real Pokemon would.
+它拒绝挨打，不像一只真正的宝可梦。
 It is a coward, a complete disgrace to the Ironclad Dojo.
-It is a coward, a complete disgrace to the Ironclad Dojo.
+它是个懦夫，简直是铁拳道馆的耻辱。
 I offer it to you for a mere $5000, as I need to atone for the money I wasted on its room and board.
-I offer it to you for a mere $5000, as I need to atone for the money I wasted on its room and board.
+我以5000美元的价格把它卖给你，就当是为我浪费在它身上的食宿费赎罪。
 I understand. Who would want such a disgrace on their team?
-I understand. Who would want such a disgrace on their team?
+我理解。谁会想要这样的耻辱加入队伍呢？
 Very well, perhaps a new master shall bring our its potential.
-Very well, perhaps a new master shall bring our its potential.
+好吧，也许新主人能激发出它的潜力。
 Though I doubt it.
-Though I doubt it.
+虽然我对此表示怀疑。
 \PN hands over $5000 in exchange.
-\PN hands over $5000 in exchange.
+\PN递出了5000美元作为交换。
 I shall now resume my journey, free of such a burden.
 I shall now resume my journey, free of such a burden.
 Farewell.
-Farewell.
+再见。
 You have not the financial requirements.
-You have not the financial requirements.
+你的资金不足。
 Thanks to its ability, Swoobat can wear two pieces of saftey gear! It can work on construction sites!
 多亏了心蝙蝠\n可以携带两种物品的特性，\n使得它可以在建筑工地工作！
 Thanks to my Swoobat's ability, it's completely code compliant for construction!
@@ -9931,9 +9931,9 @@ Take good care of that Corsola, Trainer.
 You can check online for tips on caring for it.
 你可以在网上查找\n有关它们的情报。
 No
-No
+不
 Yes
-Yes
+是的
 Not interested.
 没兴趣
 Sure, I'll adopt it.
@@ -9966,7 +9966,7 @@ Alola! Welcome to the Alolan Travel Agency!
 Here we can get you set up with a...
 在这里，我们可以为您安排...
 ...
-...
+。。。
 Hey, is that surfboard? You surf?
 嘿，那是冲浪板吗？\n你会冲浪吗？
 Hey! Parker! C'mere, this dude surfs!
@@ -10342,7 +10342,7 @@ Don't cause any trouble.
 Tell the client that he needs those documents or I can't help him!
 告诉那个客户都需要哪些文件，\n否则我们没办法帮他！
 ...
-...
+。。。
 What? No, some idiot is staring at me.
 什么？\n没事，有个白痴在盯着我看。
 I don't know! Must be some new intern or something.
@@ -11736,7 +11736,7 @@ Sculptor, Battler, Artist.
 I'll take your Pokémon for a --
 请允许我暂时拿走你的...
 ...
-...
+。。。
 Wow, you have no idea how easy it is to slip into that habit.
 所以说，职业病真的是\n人类摆脱不掉的威胁。
 I'm just here to have a smoke before I have to go back to work.
@@ -12124,7 +12124,7 @@ Yeah, let's go.
 来吧
 [Map189]
 \PN…
-\PN…
+\PN。。。
 I’m not a very good liar, so I won’t try. You three, continue with extraction – please. I – I’ll buy you time.
 我不会撒谎，\n所以我也不会试着这样做。\n你们三个继续执行任务，\n我会为你们争取时间。
 \PN, you… do what you have to. I don’t… why…?
@@ -12132,7 +12132,7 @@ I’m not a very good liar, so I won’t try. You three, continue with extractio
 I – I guess we’re alone.
 我…我想现在只剩下我们了。
 …
-…
+。。。
 No.
 不。
 I have faith that they’ll – that they can deal with Tamarind. But you’re different.
@@ -12234,7 +12234,7 @@ Very well.
 I'm looking forward to this.
 我很期待这个
 ...
-...
+。。。
 This is a lot.
 这很困难
 Why should I help?
@@ -12457,7 +12457,7 @@ Hearing her name.
 Lainie.
 兰妮...
 ...
-...
+。。。
 ...huh? What are you staring at me like that for?
 ...啊？你这是什么眼神？
 You're creeping me out, I'm leaving.
@@ -13477,7 +13477,7 @@ Yeah.
 No.
 （摇头）
 ...
-...
+。。。
 That's not true.
 不是
 Then stop it.
@@ -13735,7 +13735,7 @@ Careful!
 If you've got a scheduled visit, I'm authorized to help you get down the ledge.
 如果你想前往道馆，\n我可以带你从这里下去。
 ...
-...
+。。。
 You look like a Trainer.
 你看起来是个训练家对吧？
 *sigh*
@@ -14065,7 +14065,7 @@ All I wanted was to experience the legend...
 Take this item, I'm clearly not worthy of it...
 把这个拿走吧，我不配...
 ...
-...
+。。。
 You're cheating, right?
 你在作弊！
 I'm just here to play my guitar. No idea who the other guy is...
@@ -14994,7 +14994,7 @@ But now I've got people I want to support.
 Yes! The kids will love this.
 嘿嘿，孩子们一定会喜欢它的。
 ...
-...
+。。。
 THINK FAST!
 反应测试！
 Nice catch!
@@ -15213,7 +15213,7 @@ Damn, I thought I had gotten better. Guess all that work never really mattered.
 I...
 我…
 ...
-...
+。。。
 Please. Don't.
 求你了，不要...
 No! We can't let a child ruin our plans!
@@ -17637,7 +17637,7 @@ I don’t wanna be that. I don’t want... what I want.
 ...It hurts. Everything hurts. I feel sick. But... yeah.
 …很痛，一切都很痛，\n我感觉很难受，但是…好吧。
 ...
-...
+。。。
 I’m sorry. I shouldn’t have gone that far.
 对不起，我错得太离谱了。
 I... it's different, hurting someone you know like that. I don’t like it.
@@ -20029,7 +20029,7 @@ What did you see?
 Where's the other one?
 另一个在哪里？
 ...
-...
+。。。
 I'm so sorry.
 抱歉
 How?
@@ -21086,7 +21086,7 @@ That seems excessive.
 Fair enough.
 有道理。
 ...
-...
+。。。
 No.
 不
 ...Alright.
@@ -21865,7 +21865,7 @@ These catacombs are ancient, but there is hardly any mention of them in written 
 I might just be the first ever artist down here...
 我或许是第一个到这里的艺术家…
 .........
-.........
+。。。。。。。。
 3rd Larper
 第三个拉佩尔
 Does though knowst the proximation of mine companions?
@@ -21905,9 +21905,9 @@ It should come at no surprise that our new friend wishes to meet you.
 Pack it up gentlemen! Our quest into the dark catacombs has reached its end!
 收拾行装，先生们！\n黑暗地下墓穴的探险已经结束了！
 ...
-...
+。。。
 ....
-....
+。。。。
 What serendipity!
 多么巧合啊
 The Trainer yond did prove themselves worthy hast hath found our merry band again!
@@ -22974,7 +22974,7 @@ Oh dearie, your Pokemon are nice! Just... not legendary.
 Oh! A legendary Pokemon in the flesh!
 哦，我看到传说中的精灵了！
 ...
-...
+。。。
 Could I pet it?
 我能摸摸它吗？
 The lady spends a few moments admiring your Pokemon.
@@ -23365,7 +23365,7 @@ You grab a Pokeball from your bag. Something seems strange about it.
 Cresselia gives you a curt bow before entering its ball.
 克雷色利亚在进到球里前，\n给了你一段简单的讯息。
 ...
-...
+。。。
 Hmph.
 哼。
 Leave Darkrai for now.
@@ -45448,430 +45448,6 @@ Unwavering Valor
 Unwavering Valor
 Test Ability
 Test Ability
-Acclimatize
-Acclimatize
-Adamantite
-Adamantite
-Adaptability
-Adaptability
-Aftermath
-Aftermath
-Aloof
-Aloof
-Anger Point
-Anger Point
-Anticipation
-Anticipation
-Apathetic
-Apathetic
-Aqua Propulsion
-Aqua Propulsion
-Arcane
-辐射
-Aroma Veil
-Aroma Veil
-Astral Body
-Astral Body
-Audacity
-Audacity
-Ball Fetch
-Ball Fetch
-Battle Armor
-Battle Armor
-Beast Boost
-Beast Boost
-Big Pecks
-Big Pecks
-Blade Trained
-Blade Trained
-Blaze
-Blaze
-Brooding
-Brooding
-Bulletproof
-Bulletproof
-Burn Heal
-Burn Heal
-Burrower
-Burrower
-Calamity
-Calamity
-Cautionary
-Cautionary
-Cleaving
-Cleaving
-Cloud Nine
-Cloud Nine
-Cold Proof
-Cold Proof
-Color Change
-Color Change
-Compound Eyes
-Compound Eyes
-Conviction
-Conviction
-Crag Terror
-Crag Terror
-Cursed Body
-Cursed Body
-Cute Charm
-Cute Charm
-Damp
-Damp
-Danger Sense
-Danger Sense
-Dazzling
-Dazzling
-Dragon Scales
-Dragon Scales
-Early Bird
-Early Bird
-Effect Spore
-Effect Spore
-Egoist
-Egoist
-Electric Surge
-Electric Surge
-Energy Up
-Energy Up
-Engorging
-Engorging
-Epic Hero
-Epic Hero
-Erosion Cycle
-Erosion Cycle
-Evo-Armor
-Evo-Armor
-Exo-Adaption
-Exo-Adaption
-Fairy Surge
-Fairy Surge
-Fauxliage
-Fauxliage
-Flare Boost
-Flare Boost
-Flash Fire
-Flash Fire
-Flourish Pelt
-Flourish Pelt
-Forewarn
-Forewarn
-Frisk
-Frisk
-Frost Heal
-Frost Heal
-Fungal Flurry
-Fungal Flurry
-Garland Guardian
-花环守护
-Grass Pelt
-Grass Pelt
-Grassy Spirit
-Grassy Spirit
-Grassy Surge
-Grassy Surge
-Gravitational
-Gravitational
-Greedy Guts
-Greedy Guts
-Grow Up
-Grow Up
-Guts
-Guts
-Harsh Training
-Harsh Training
-Harvest
-Harvest
-Healing Hope
-Healing Hope
-Heartening Aroma
-Heartening Aroma
-Heatproof
-Heatproof
-Heaven's Crown
-天堂之冠
-Hooligan
-古惑仔
-Huge Power
-Huge Power
-Hyper Cutter
-Hyper Cutter
-Ice Face
-Ice Face
-Illuminate
-Illuminate
-Immunity
-Immunity
-Infinite Source
-Infinite Source
-Insomnia
-Insomnia
-Jasper Charge
-Jasper Charge
-Justified
-Justified
-Keen Eye
-Keen Eye
-Klutz
-Klutz
-Leg Strength
-Leg Strength
-Libero
-Libero
-Light Metal
-Light Metal
-Lightning Ride
-Lightning Ride
-Lightning Rod
-Lightning Rod
-Limber
-Limber
-Lingering Daze
-Lingering Daze
-Liquid Ooze
-Liquid Ooze
-Liquid Voice
-Liquid Voice
-Locomotion
-Locomotion
-Long Reach
-Long Reach
-Loose Shell
-Loose Shell
-Lunar Cleansing
-Lunar Cleansing
-Lunar Loyalty
-Lunar Loyalty
-Luring
-引诱
-Magma Armor
-Magma Armor
-Magnet Pull
-Magnet Pull
-Malingering
-Malingering
-Marvel Scale
-Marvel Scale
-Marvel Skin
-Marvel Skin
-Master Plan
-大师计划
-Mending Tones
-Mending Tones
-Minus
-Minus
-Mistcraft
-Mistcraft
-Misty Surge
-Misty Surge
-Mold Breaker
-Mold Breaker
-Moon Bubble
-Moon Bubble
-Morphing Guard
-Morphing Guard
-Ne'er-do-well
-Ne'er-do-well
-Night Light
-Night Light
-Night-line
-Night-line
-Ninjutsu
-Ninjutsu
-Oblivious
-Oblivious
-Odd Aura
-Odd Aura
-Over Acting
-Over Acting
-Overcoat
-Overcoat
-Overgrow
-Overgrow
-Own Tempo
-Own Tempo
-Pain Delay
-Pain Delay
-Pastel Veil
-Pastel Veil
-Pearl Seeker
-寻珠者
-Pickpocket
-顺手牵羊
-Pickup
-Pickup
-Pitting
-Pitting
-Pixilate
-Pixilate
-Plasma Ball
-Plasma Ball
-Plus
-Plus
-Poison Heal
-Poison Heal
-Pouring Heart
-Pouring Heart
-Power Up
-Power Up
-Pre-Charged
-Pre-Charged
-Propeller Tail
-Propeller Tail
-Psychic Surge
-Psychic Surge
-Punk Rock
-Punk Rock
-Pure Power
-Pure Power
-Puzzling Aura
-Puzzling Aura
-Quality Aura
-Quality Aura
-Queenly Majesty
-Queenly Majesty
-Quick Draw
-Quick Draw
-Quick Feet
-Quick Feet
-Quick Kicks
-Quick Kicks
-Ramming Speed
-Ramming Speed
-Rattled
-Rattled
-Receiver
-Receiver
-Refrigerate
-Refrigerate
-Rivalry
-Rivalry
-Robust
-Robust
-Roll In
-Roll In
-Royal Voice
-Royal Voice
-Run Away
-Run Away
-Rushed
-Rushed
-Rusty Anchor
-Rusty Anchor
-Sand Demon
-Sand Demon
-Sand Drilling
-Sand Drilling
-Sand Force
-Sand Force
-Sand Spit
-Sand Spit
-Scrappy
-Scrappy
-Sea Lord
-Sea Lord
-Seed Scatter
-Seed Scatter
-Shaky Code
-不稳定代码
-Shattering
-Shattering
-Shell Armor
-Shell Armor
-Snake Pit
-Snake Pit
-Snoring
-Snoring
-Snow Veil
-Snow Veil
-Soundproof
-Soundproof
-Stakeout
-Stakeout
-Stall
-Stall
-Stalwart
-坚毅
-Steadfast
-Steadfast
-Steam Engine
-Steam Engine
-Stench
-恶臭
-Sticky Hold
-Sticky Hold
-Storm Drain
-Storm Drain
-Stout
-Stout
-Suction Cups
-Suction Cups
-Super Fist
-Super Fist
-Surge Surfer
-Surge Surfer
-Sustainable
-Sustainable
-Swarm
-Swarm
-Sweet Veil
-Sweet Veil
-Symbiosis
-Symbiosis
-Taiga Trecker
-Taiga Trecker
-Tangled Feet
-Tangled Feet
-Tendril Trap
-Tendril Trap
-Teravolt
-Teravolt
-Time Stretch
-Time Stretch
-Toll Danger
-危险缴获
-Torrent
-Torrent
-Total Mirror
-Total Mirror
-Toxic Boost
-Toxic Boost
-Toxic Spirit
-Toxic Spirit
-Trace
-Trace
-Trickster
-Trickster
-Trickster Aura
-Trickster Aura
-Tricky Aura
-Tricky Aura
-Turboblaze
-Turboblaze
-Unconcerned
-Unconcerned
-Water Compaction
-Water Compaction
-Water Veil
-Water Veil
-Weak Spirit
-Weak Spirit
-Weather Senses
-Weather Senses
-Werewolf
-Werewolf
-Whirler
-Whirler
-Wind Buffer
-Wind Buffer
-Windy
-Windy
-Wonder Skin
-Wonder Skin
-Wondrous Aura
-Wondrous Aura
-Zen Mode
-Zen Mode
 [11]
 Powers up moves of the same type by 33%.
 与自身同属性的技能威力提高33%。
@@ -47255,300 +46831,6 @@ Stats that the Pokémon raises remain raised even after switching.
 Stats that the Pokémon raises remain raised even after switching.
 This ability exists just to showcase the PBS Extensions system.
 This ability exists just to showcase the PBS Extensions system.
-Powers up moves of the same type.
-同属性技能威力增加。
-Damages the attacker if it knocks out the Pokémon with a move that makes direct contact.
-被接触类技能攻击时会造成反伤。
-The Pokémon is angered when it takes a critical hit, and that maxes its Attack stat.
-受到攻击后会被激怒，最大提升攻击力 。
-Senses a foe's dangerous moves.
-可以察觉到对手拥有的危险技能。
-Boosts Sp. Atk and Speed by 25% in rain.
-雨天时提升25%特攻和速度。
-Protects against attacks that limit move choices.
-可以防住向自己和同伴发出的心灵攻击。
-Heals by 1/8th of its max HP each turn if in moonglow.
-在月辉下时，每回合回复1/8的 最大HP。
-Boosts Sp. Atk by 33% if has a status condition. Ignores frostbite special damage reduction.
-处于异常状态时，特攻提升33%。无视 冻伤的特攻减半效果。
-Fetches the Poké Ball from the first failed throw.
-没有携带物品时，会拾取第1个投出 后捕捉失败的精灵球。
-The Pokémon is protected against critical hits.
-被坚硬的甲壳守护着，不会被对手的攻 击击中要害。
-Boosts its best stat each time it deals a KO.
-打倒对手的时候，自己最高的那项 能力会提高。
-Protects from Def-lowering or Sp. Def-lowering.
-不会受到防守能力降低的效果 。
-Blade moves turn Fighting-type and are boosted by 50%.
-劈砍类技能视为格斗属性，并提升其威力。
-Powers up Fire-type moves in a pinch.
-HP减少的时候，火属性的技能威力 会提高。
-Boosts Attack by 30% in hailstorms.
-在冰雹天气时，提升30%的攻击。
-Deals 5% more damage and takes 5% less damage for each other Dragon on team.
-队伍中每有一只龙系精灵，增加5% 造成的伤害，并减少5%受到的伤害。
-Protects the Pokémon from some ball and bomb moves.
-可以防住对手的球和弹类技能。
-Restores 1/12th HP each turn if burned. Ignores burn physical damage reduction.
-若处于烧伤状态时，则每回合回复1/12的HP， 且无视其副作用。
-Dig and Undermine hit instantly.
-挖洞和暗地袭击会立即生效。
-Raises Def and Sp. Def by three steps each when its HP is lowered below half.
-HP低于一半时，更大幅度提升双防。
-Eliminates the effects of weather.
-任何天气的影响都会消失 。
-Takes 50% less damage from Ice-type moves.
-受到冰属性技能伤害降低50%。
-Changes the Pokémon's type to the foe's move.
-自己的属性会变为从对手处所受技能的属性。
-The Pokémon's accuracy is boosted.
-因为拥有复眼，技能的命中率会提高。
-Upon entry, uses the move Endure on itself.
-入场时，对自身使用挺住。
-Moves used on the Pokémon are disabled for 3 turns.
-受到攻击时，会把对手的技能变为定身法 状态 。
-Physical moves against the Pokémon have a 30% chance to cause infatuation.
-有时会让接触到自己的对手着迷。
-Prevents the use of self-destructing moves.
-通过把周围都弄湿，使谁都无法使用自爆 等爆炸类的技能。
-Makes foes unable to use priority attacks.
-Makes foes unable to use priority attacks.
-The Pokémon awakens quickly from sleep.
-即使变为睡眠状态，也能以2倍的速度 提早醒来。
-Contact with the Pokémon may inflict poison, sleep, or paralysis on the attacker.
-与对手接触时，有几率使对方中毒、睡 着或麻痹。
-Fighting-type moves have +1 priority.
-格斗属性技能的优先级提升。
-Turns the ground into Electric Terrain for 5 turns when entering battle.
-出场时，会布下电气场地 。
-Draws in moves from foes with base power 100 or more.
-会吸引对手威力为100或以上的技能。
-User heals by 25% after taking a special attack.
-受到特殊攻击后提升治疗能力。
-Turns the ground into Fairy Terrain for 5 turns when entering battle.
-进入战斗后制造持续五回合的妖精场地 。
-Gain priority with Grass-type moves.
-可以率先使用草属性技能。
-Boosts Sp. Atk by 50% attacks when burned.
-变为烧伤状态时，特殊技能的威力会提 高。
-Immunity to Fire-type moves and powers up Fire-type attacks if hit by one.
-受到火属性技能攻击时，免疫伤害并增 加火属性技能的伤害。
-Doubles Defense in sunshine.
-晴朗天气时，防御翻倍。
-Determines what moves a foe has.
-出场时，只读取1个对手拥有的技能。
-The Pokémon can check a foe's held item. Makes wild Pokémon have items more often.
-出场时，可以察觉对手的持有物，并提 高其物品持有率。
-Restores 1/12th HP each turn if frostbitten. Ignores frostbite special damage reduction.
-若处于冻伤状态时，则每回合回复 1/12的HP，且无视其副作用。
-Creates a Safeguard upon entry, protecting from status conditions for 10 turns.
-创造一个持续十回合，保护自己免受异 常状态影响的防护罩。
-Whenever it uses a status move, becomes charged, doubling the power of its next Electric-type attack.
-使用变化类技能时会同时使用充电。
-Boosts the Pokémon's Defense stat on Grassy Terrain.
-提升在青草场地上的防御力。
-Turns the ground into Grassy Terrain for 5 turns when entering battle.
-出场时，会布下青草场地 。
-Boosts Attack by 33% if has a status condition. Ignores burn physical damage reduction.
-如果变为异常状态，会拿出毅力，攻击 会提高。
-At end of turn, 50% chance to regenerate used berry. 100% in sunshine.
-回合结束时，50%概率再生用过的树果。 晴朗天气时，再生概率提升至100%。
-Takes 50% less damage from Fire-type moves.
-耐热的体质会让火属性的技能威力减半。
-If the Pokémon witnesses a total eclipse, it gets to move twice that turn.
-If the Pokémon witnesses a total eclipse, it gets to move twice that turn.
-Powers up recoil and sound moves by 30%.
-声音和反伤类技能威力提升30%。
-Raises the Pokémon's Attack stat.
-提升自身的攻击力。
-Prevents other Pokémon from lowering its Attack or Sp. Atk stat.
-因为拥有以力量自豪的钳子，不会被对手 降低攻击 。
-Prevents a physical attack. Restored if its hailing when it enters, or when hail begins.
-头部的冰会代替自己承受物理攻击。 下冰雹时，冰会恢复原状。
-Prevents other Pokémon from lowering accuracy.
-自身命中率不会被对手降低。
-Prevents the Pokémon from getting poisoned.
-因为体内拥有免疫能力，不会变为 中毒状态。
-Raises Attack when hit by a Dark-type move.
-当受到恶属性技能攻击时，提升攻击。
-The Pokémon can't use any held items.
-无法使用持有的物品。
-The Pokémon changes type to that of the move it's about to use.
-根据即将使用的技能改变自身的能力。
-Halves the Pokémon's weight.
-自身的重量会减半。
-Doubled Speed while charged.
-充电时速度加倍。
-Draws in Electric-type moves, is immune to them, and boosts Sp. Atk when hit.
-将电属性的技能吸引到自 己身上， 不会受到伤害，而是会提高特攻。
-The Pokémon is protected from numbing.
-因为身体柔软，不会变为麻痹状态。
-Enemies which wake up have all their stats lowered by two steps.
-对手醒来后全能力大幅度降低。
-Damages attackers using any draining move.
-吸收了污泥浆的对手会因强烈的恶臭而 受到伤害， 减少HP。
-Its sound-based moves become Water-type.
-所有的声音的技能都变为水属性。
-Special attacks against the Pokémon has a 30% chance to cause numbing.
-受到特殊攻击时有30%几率让对手陷入 麻痹。
-Uses moves without making contact with the target.
-可以不接触对手就使出所有的技能。
-Upon entry in sandstorm, turns its shell into a levitating stone trap.
-在沙暴天气入场时，将外壳变为悬浮 的岩石陷阱。
-Its attacks are critical against dizzy targets.
-对眩晕的对手总能击中要害。
-Prevents the Pokémon from becoming frozen.
-可以免疫冻伤。
-Prevents Steel-type Pokémon from escaping.
-用磁力吸住钢属性的精灵，使其 无法逃走。
-Boosts Defense by 50% if has a status condition. Ignores dizzy defenses reduction.
-如果变为异常状态，神奇鳞片会发生反应， 防御会提高。
-Boosts Sp. Def by 50% if has a status condition. Ignores dizzy defenses reduction.
-有异常状态时，提高其 50%的特防。 并且不受眩晕下特防降低的影响。
-Raises each stat by two steps when a total eclipse happens.
-Raises each stat by two steps when a total eclipse happens.
-Prevents other Pokémon from lowering its stat steps. Immune to weather downsides.
-不会被其他精灵降低能力，免疫天气 的负面影响。
-Ups Sp. Atk if another Pokémon has Plus or Minus.
-出场的伙伴之间如果有正电或负电特性的 精灵，自己的特攻会提高。
-Sets Fairy Terrain for five turns when hit by an attack.
-Sets Fairy Terrain for five turns when hit by an attack.
-Ignores Abilities that would affect its moves.
-无视会影响其技能的特性。
-Gives priority to status moves in moonglow.
-在月辉下时，可以率先使用变化技能。
-At the end of each turn in moonglow, heals self by 1/12th of its max HP, and a party member alongside.
-在月辉天气下，每回合恢复1/12HP，并 治疗同伴。
-Prevents it from becoming infatuated.
-因为感觉迟钝，不会变为着迷和被挑衅状态。
-Protects the Pokémon from damage from weather.
-不会受到沙暴或冰雹等的伤害。
-Powers up Grass-type moves in a pinch.
-HP减少的时候，草属性的技能威力 会提高。
-Prevents the Pokémon from becoming confused.
-因为我行我素，不会变为眩晕状态。
-Protects it and ally Pokémon from being poisoned.
-自己和同伴都不会陷入中毒的异常状态。
-Upon entry during eclipse, if it has no item, finds and equips the Pearl of Fate.
-在日食时入场，如果自身没有物品，则 会寻找并携带上命运珍珠。
-Steals an item when hit by another Pokémon.
-盗取接触到自己的对手的物品。
-The Pokémon may pick up items.
-有时会捡来对手用过的物品，冒险过程中 也会捡到 。
-Normal-type moves become Fairy-type and power up by 30%.
-一般属性的技能会变为妖精属性。 威力会少量提高 。
-Before taking damage from poison, heal 1/4th HP.
-在受到中毒伤害前，回复1/4 HP。
-Becomes charged upon entry, doubling the power of its next Electric-type attack.
-进入战斗后会立即充电。
-Ignores effects changing the target of a move.
-能无视具有吸引对手技能效果的特性或 技能的影响 。
-Turns the ground into Psychic Terrain for 5 turns when entering battle.
-出场时，会布下精神场地 。
-Boosts power and resistance of sound moves.
-提升声音类技能的威力和效果。
-Raises the Pokémon's Attack stat by 50%.
-因瑜伽的力量，物理攻击的威力提高50 %。
-Upon entry, creates a Quality Room for five turns, exaggerating type matchups.
-进入战斗后，创造一个持续五回合的质 量空间。
-Enables the Pokémon to move first occasionally.
-有时能比对手先一步行动 。
-Doubles Speed if there is a status problem. Ignores numb Speed reduction.
-异常状态时速度翻倍，且无视麻痹状态 的减速效果。
-Doubles the Speed of kicking moves.
-Doubles the Speed of kicking moves.
-Doubles the speed of recoil moves.
-Doubles the speed of recoil moves.
-Bug-, Dark- and Ghost-type moves scare it and boost its Speed.
-受到恶、幽灵和虫属性的技能攻击时， 会因胆怯而速度提高。
-Copies the Ability of a defeated ally.
-继承被打倒的同伴的特性 ，变为 相同的特性。
-Normal-type moves become Ice-type and power up by 30%.
-一般属性的技能会变为冰属性。威力 会少量提高。
-Sets screens for twice as long during eclipse.
-日食期间，屏障类技能持续时间翻倍。
-Deals more damage to a foe of the same gender.
-面对性别相同的对手，会燃起斗争心， 变得更强。
-Double the Pokémon's weight, and boost its Attack by 20%.
-重量增加一倍，攻击力提高20%。
-Enables a sure getaway from wild Pokémon.
-一定能从野生精灵那儿逃走。
-Boosts the power of Rock-, Ground-, and Steel-type moves in a sandstorm.
-沙暴天气中，岩石、地面、钢属性技能 威力提升。
-Summons a sandstorm for 4 turns when hit by an attack.
-受到攻击时，会刮起沙暴 。
-Enables moves to hit Ghost-type Pokémon.
-一般属性和格斗属性的技能可以击中幽灵 属性的精灵。
-After knocking out any Pokémon with Waterfall, transforms into its Hullbreaker form. Ability becomes Mold Breaker.
-当使用攀瀑击败对手后，将变为无壳者形态，特性更改为破格。
-Sets Grassy Terrain for five turns when hit by an attack.
-Sets Grassy Terrain for five turns when hit by an attack.
-After fainting from exploding, revives after three turns.
-因为自爆而昏厥后，三回合后苏醒。
-During eclipse, changes the Pokémon's type to the type of the move it's using.
-日食天气时，变为与自己使出的技能 相同的属性。
-Grassy Terrain harms opponents rather than healing them.
-青草场地变成伤害对手。
-Takes 25% less damage in a hailstorm.
-冰雹天气时，降低25%的所受伤害。
-Gives full immunity to all sound-based moves.
-通过屏蔽声音，不受到声音的技能 的攻击。
-Deals double damage to a target's replacement.
-可以对替换出场的对手以2倍的 伤害进行攻击。
-The Pokémon moves after all other Pokémon do.
-使出技能的顺序必定会变为最后。
-Raises Speed each time the Pokémon flinches.
-每次畏缩时，不屈之心就会燃起，速度 也会提高。
-Maximizes Speed when hit by a Fire- or Water-type move.
-被水、火属性技能命中后，最大幅度提 升速度。
-Attacks have a 50% chance to cause the target to flinch.
-攻击有50%的几率使对手畏缩。
-Protects the Pokémon from item theft.
-因为物品是粘在黏性身体上的，所以不会 被对手夺走。
-Draws in Water-type moves, is immune to them, and boosts Sp. Atk when hit.
-将水属性的技能引到自己身上，不会受到 伤害，而是会提高特攻。
-Immune to weather downsides, and 20% less damage from attacks during weather.
-免疫天气带来的副作用，在天气影响下 受到的攻击伤害减少20%。
-Can't be forced to switch out. Boosts accuracy when hit.
-不能被替换下场。提高技能命中。
-Doubles Speed on Electric Terrain.
-电气场地时，速度会变为2倍。
-Upon entry in sunshine, regenerates its used berry.
-Upon entry in sunshine, regenerates its used berry.
-Powers up Bug-type moves in a pinch.
-HP减少的时候，虫属性的技能威力 会提高。
-Prevents itself and allies from falling asleep.
-我方的精灵不会变为睡眠状态。
-Copies its held item to an ally that has used theirs.
-将其持有的物品复制给自己的同伴。
-Raises evasion if the Pokémon is confused.
-在魅惑状态下提升闪避。
-Moves can be used regardless of Abilities.
-可以不受对手特性的干扰，向对手使出 技能。
-When a total eclipse occurs, heals for 50% max HP and uses Heal Bell.
-When a total eclipse occurs, heals for 50% max HP and uses Heal Bell.
-Powers up Water-type moves in a pinch.
-HP减少的时候，水属性的技能威力 会提高。
-Raises each stat by two steps when a Total Eclipse happens.
-日全食时，全能力大幅度提升。
-Boosts Attack by 50% when poisoned.
-变为中毒状态时，物理技能的威力会提高。
-The Pokémon copies a foe's Ability.
-出场时，复制对手的特性 ，变为与之 相同的特性。
-Creates a Trick Room for five turns when its HP is lowered below half.
-HP低于一半时，召唤一个持续五回合 的戏法空间。
-Boosts the Defense stat sharply when the Pokémon is hit by a Water-type move.
-被水系技能击中时，大幅度提升防御力。
-Prevents the Pokémon from getting a burn.
-将水幕裹在身上，不会变为烧伤状态。
-Takes 7% less move damage for each turn remaining on the current weather.
-场上天气剩余的回合数越多，受到的 伤害就会多减少7%。
-Makes status-changing moves more likely to miss.
-成为不易受到变化技能攻击的身体。
-Upon entry, creates a Wonder Room for five turns, swapping base Defense and Sp. Def.
-进入战斗后，召唤一个持续五回合的 奇妙空间。
-Changes the Pokémon's shape when HP is halved.
-HP变为一半以下时，样子会改变。
 [12]
 0
 Normal

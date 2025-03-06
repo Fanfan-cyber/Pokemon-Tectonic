@@ -70,6 +70,7 @@ module Compiler
                     property_value = pbGetCsvRecord($~[2], line_no, line_schema)
                     # Record XXX=YYY setting
                     ability_hash[line_schema[0]] = property_value
+                    next if cutAbility
                     case property_name
                     when "Name"
                         ability_names.push(ability_hash[:name])
