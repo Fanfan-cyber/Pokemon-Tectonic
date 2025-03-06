@@ -806,3 +806,38 @@ class PokeBattle_Move_FailsIfUserNotAsleep < PokeBattle_Move
         return pbMoveFailed?(user, targets, false)
     end
 end
+
+#===============================================================================
+# Uses each other Sound move the Pokemon knows. (Broadcast Blast)
+#===============================================================================
+class PokeBattle_Move_UseAllOtherSoundMoves < PokeBattle_Move
+    def callsAnotherMove?; return true; end
+
+    def getAllOtherSoundMoves(user)
+        moves = []
+        user.moves.each do |m|
+            next if m.callsAnotherMove?
+            next unless m.soundMove?
+            next if m.is_a?(PokeBattle_Move_UseAllOtherSoundMoves)
+            moves.push(m.id)
+        end
+        return moves
+    end
+
+    def pbMoveFailed?(user, _targets, show_message)
+        if getAllOtherSoundMoves(user).length == 0
+            if show_message
+                @battle.pbDisplay(_INTL("But it failed, since #{user.pbThis(true)} knows no other sound-based moves!"))
+            end
+            return true
+        end
+        return false
+    end
+
+    def pbEffectGeneral(user)
+        moves = getAllOtherSoundMoves(user)
+        moves.each do |sound_move|
+            user.pbUseMoveSimple(sound_move)
+        end
+    end
+end

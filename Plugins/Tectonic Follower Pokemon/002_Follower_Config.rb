@@ -60,7 +60,7 @@ Events.OnTalkToFollower += proc {|pkmn,event,random_val|
   when :FROSTBITE
     $scene.spriteset.addUserAnimation(FollowerSettings::Emo_Hate, event.x, event.y)
     pbWait(72)
-    pbMessage(_INTL("{1} frostbite looks painful.",pkmn.name))
+    pbMessage(_INTL("{1}'s frostbite looks painful.",pkmn.name))
   when :SLEEP
     $scene.spriteset.addUserAnimation(FollowerSettings::Emo_Normal, event.x, event.y)
     pbWait(72)

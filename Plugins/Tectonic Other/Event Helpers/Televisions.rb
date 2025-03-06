@@ -120,7 +120,7 @@ def getWeatherDescriptor(weatherSymbol, strength)
     when :Dusty
         return _INTL("sunny skies with dry, dusty air")
     when :Sun
-        return _INTL("sunny skies and hot tempuratures")
+        return _INTL("sunny skies and hot temperatures")
     when :Overcast
         return _INTL("overcast skies with high ambient humidity")
     when :Storm,:HeavyRain

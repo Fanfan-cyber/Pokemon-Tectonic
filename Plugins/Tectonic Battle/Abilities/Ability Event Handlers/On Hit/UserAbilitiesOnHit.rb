@@ -102,6 +102,13 @@ BattleHandlers::UserAbilityOnHit.add(:SHOCKWINGS,
   }
 )
 
+BattleHandlers::UserAbilityOnHit.add(:DISCONNECTION,
+  proc { |ability, user, target, move, battle, aiCheck, aiNumHits|
+    next unless user.firstTurn?
+    randomStatusProcUserAbility(ability, :NUMB, 100, user, target, move, battle, aiCheck, aiNumHits)
+  }
+)
+
 #########################################
 # Waterlog abilities
 #########################################

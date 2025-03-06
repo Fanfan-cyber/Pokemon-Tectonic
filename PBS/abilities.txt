@@ -661,7 +661,7 @@ Description = Every other turn, the Pokémon can't use any move but Slack Off.
 #-------------------------------
 [UNAWARE] # 0155
 Name = Unaware
-Description = Ignores defensive stat changes in opponents it's hitting, and offensive stat stages in foes hitting it.
+Description = Ignores defensive stat changes in opponents it's hitting, and offensive stat steps in foes hitting it.
 #-------------------------------
 [UNBURDEN] # 0156
 Name = Unburden

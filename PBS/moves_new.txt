@@ -91,19 +91,6 @@ EffectChance = 45
 Description = The user thrashes while infused with elements. It has a 15% chance each to poison, leech, or waterlog.
 Animation = FIERYWRATH
 #-------------------------------
-[CLAMOR]
-Name = Clamor
-Type = NORMAL
-Category = Special
-Power = 90
-Accuracy = 100
-TotalPP = 10
-Target = ClosestNearFoe
-FunctionCode = RampagePreventSleeping
-Flags = CanProtect,CanMirrorMove,Sound
-Description = The user attacks in an uproar for three turns. Over that time, no one can fall asleep.
-Animation = UPROAR
-#-------------------------------
 [CLOUDBREAK]
 Name = Cloudbreak
 Type = NORMAL
@@ -1457,7 +1444,7 @@ Target = NearFoe
 Priority = -6
 FunctionCode = SwitchOutTargetAndUserStatusMove
 Flags = CanMagicCoat,CanMirrorMove,Sound
-Description = The foe is forced is forced to switch out by a stinky cloud, then the user also switches. Always goes last.
+Description = The foe is forced to switch out by a stinky cloud, then the user also switches. Always goes last.
 Animation = STINKCLOUD
 #-------------------------------
 [TOXICTASTE]
@@ -4816,6 +4803,18 @@ EffectChance = 20
 Description = The user and the target pit their energy against one another. The damage is based on the target's Sp. Atk rather than their Sp. Def.
 Animation = HYPERBEAM
 #-------------------------------
+[BROADCASTBLAST]
+Name = Broadcast Blast
+Type = ELECTRIC
+Category = Status
+Accuracy = 0
+TotalPP = 1
+Target = User
+FunctionCode = UseAllOtherSoundMoves
+Flags = Sound
+Description = The user rocks out by using each Sound-based move they know. Only one use per battle.
+Animation = UPROAR
+#-------------------------------
 [CAPACITYBURST]
 Name = Capacity Burst
 Type = ELECTRIC
@@ -6433,7 +6432,7 @@ Target = NearFoe
 FunctionCode = SwitchOutUserSetSpikes
 Flags = CanProtect,CanMirrorMove
 EffectChance = 100
-Description = Defly sets a layer of damaging Spikes around the foe, then switches out.
+Description = Deftly sets a layer of damaging Spikes around the foe, then switches out.
 Animation = PARTINGSHOT
 #-------------------------------
 [CHECKMATE]
@@ -6471,10 +6470,10 @@ Accuracy = 100
 TotalPP = 15
 Target = NearOther
 FunctionCode = Leech
-Flags = CanProtect,CanMirrorMove
+Flags = CanProtect,CanMirrorMove,Sound
 EffectChance = 10
-Description = The user strikes the target with dark energy. It has a 10% chance to leech.
-Animation = SNARL
+Description = The user burrows into the target's subconscious with emotional manipulation. It has a 10% chance to leech.
+Animation = TEASE
 #-------------------------------
 [DISARMINGSHOT]
 Name = Disarming Shot
@@ -6745,7 +6744,7 @@ Accuracy = 100
 TotalPP = 15
 Target = NearOther
 FunctionCode = Leech
-Flags = CanProtect,CanMirrorMove
+Flags = CanProtect,CanMirrorMove,Sound
 EffectChance = 100
 Description = The user entangles the target's mind with dark thoughts, leeching it.
 #-------------------------------

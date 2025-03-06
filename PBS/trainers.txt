@@ -655,8 +655,8 @@ Pokemon = SEALEO,24
     AbilityIndex = 0 # Full Blubber
 Pokemon = MFRILLISH,23
     Gender = female
-    Moves = WILLOWISP,SPARK,JOLT,ASTONISH
-    AbilityIndex = 0 # Ruinous
+    Moves = NASTYNIP,SPARK,ASTONISH
+    AbilityIndex = 0 # Disconnection
     Item = SITRUSBERRY
 #-------------------------------
 [PSYCHIC_F2,Ludmila]
@@ -1019,7 +1019,7 @@ Pokemon = DUCKLETT,20
     AbilityIndex = 0 # Intimidate
     Item = EJECTBUTTON
 Pokemon = ELECTRIKE,20
-    AbilityIndex = 0 # Inner Focus
+    AbilityIndex = 1 # Fascinate
 Pokemon = STUFFUL,20
     AbilityIndex = 0 # Intimidate
 Pokemon = FERROSEED,20
@@ -1538,7 +1538,7 @@ Pokemon = AERODACTYL,30
     Item = FLYINGGEM
 Pokemon = MANECTRIC,30
     Moves = FIREPULSE,SHOCKWAVE,SHOUT,NUMB
-    AbilityIndex = 0 # Inner Focus
+    AbilityIndex = 0 # Ruinous
 Pokemon = DURALUDON,30
     Moves = TAKESHELTER,DRAGONBREATH,SHINESHOT,LOOMOVER
     AbilityIndex = 0 # Stubborn
@@ -2933,9 +2933,9 @@ Pokemon = GRIMMSNARL,38
     Moves = FALSESURRENDER,FAKEOUT,PLAYROUGH,SUCKERPUNCH
     AbilityIndex = 1 # Ruinous
     Item = EJECTBUTTON
-Pokemon = MJELLICENT,36
+Pokemon = MANECTRIC,36
     Gender = female
-    Moves = BADENDING,BLIGHT,LIGHTNINGSLAM,SHADOWCLAW
+    Moves = THUNDERBOLT,WHITEFLAME,SHOUT,NUMB
     AbilityIndex = 0 # Ruinous
 #-------------------------------
 [GARDENER,Jacek]
@@ -3894,7 +3894,7 @@ Pokemon = CONKELDURR,52
     Moves = ADAMANTINEPRESS,WOODHAMMER,DRAINPUNCH,METEORMASH
     AbilityIndex = 0 # Expertise
 Pokemon = ARCLAMOR,52
-    Moves = DISCHARGE,GRUNGE,LIGHTNINGDANCE,HYPERVOICE
+    Moves = DISCHARGE,MIASMA,LIGHTNINGDANCE,HYPERVOICE
     AbilityIndex = 0 # Loud
 Pokemon = MFURRET,53
     Moves = STOMPINGTANTRUM,PSYCHICFANGS,IGNITE,KICKSTART
@@ -5860,7 +5860,7 @@ Pokemon = FEAROW,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,10,0,0,10,20
 Pokemon = ARCLAMOR,70
-    Moves = DISCHARGE,GRUNGE,LIGHTNINGDANCE,RISINGPOWER
+    Moves = DISCHARGE,MIASMA,LIGHTNINGDANCE,RISINGPOWER
     AbilityIndex = 1 # Thunderstruck
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,20,20,0
@@ -7516,7 +7516,7 @@ Pokemon = RIOJIN,70
 Pokemon = MCARNIVINE,70
     AbilityIndex = 1 # Pestilent
 Pokemon = MANERGETIC,70
-    AbilityIndex = 0 # Inner Focus
+    AbilityIndex = 0 # Ruinous
 #-------------------------------
 [POKEMONMASTER_Vanya,Vanya,4]
 Flags = NoPerfect
@@ -8612,7 +8612,7 @@ Pokemon = HYMNUS,70
 Pokemon = FLYGON,70
     AbilityIndex = 1 # Siren Song
 Pokemon = MANERGETIC,70
-    AbilityIndex = 0 # Inner Focus
+    AbilityIndex = 0 # Ruinous
 #-------------------------------
 [IDEALTRAINER,of Riches]
 Pokemon = ROTOM,70

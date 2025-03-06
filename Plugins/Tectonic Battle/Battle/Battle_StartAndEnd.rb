@@ -376,7 +376,6 @@ class PokeBattle_Battle
         if $Options.color_shifts == 0 && !$PokemonGlobal.colorationDifferencesTutorialized
             eachOtherSideBattler do |b|
                 totalColorationDiff = b.pokemon.hueShift.abs + (b.pokemon.shadeShift.abs) / 4
-                echoln("Total coloration diff: #{totalColorationDiff}")
                 next unless totalColorationDiff >= 16
                 playColorationDifferencesTutorial
                 break

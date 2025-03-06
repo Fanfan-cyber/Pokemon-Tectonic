@@ -678,7 +678,7 @@ Name = Fragile Locket
 NamePlural = Fragile Lockets
 Pocket = 5
 Price = 12000
-Description = An item to be held by a Pokémon. The user gets three abilities, but its stats are cut by 10%.
+Description = An item to be held by a Pokémon. The user gets both of its legal abilities, but its stats are cut by 10%.
 #-------------------------------
 [BIGROOT]
 Name = Big Root
@@ -2452,7 +2452,7 @@ Pocket = 8
 Price = 0
 FieldUse = Direct
 Flags = KeyItem
-Description = Heals your whole team a limited number of times. Restocked at PokéCenters and after resting.
+Description = Heals your whole team a limited number of times. Restocked at PokeCenters and after resting.
 #-------------------------------
 [KITEXPANSION]
 Name = Kit Expansion
@@ -2648,7 +2648,7 @@ NamePlural = Magnetic Gauntlets
 Pocket = 8
 Price = 0
 Flags = KeyItem
-Description = An electrified glove with a claw-like shape. Allows you to recover the first failed Poké Ball thrown in a wild battle.
+Description = An electrified glove with a claw-like shape. Recovers the first failed Poké Ball thrown in a wild battle.
 #-------------------------------
 [CHROMACLARION]
 Name = Chroma Clarion

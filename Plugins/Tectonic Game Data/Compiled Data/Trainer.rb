@@ -22,34 +22,34 @@ module GameData
       DATA_FILENAME = "trainers.dat"
   
       SCHEMA = {
-        "Items"        		=> [:items,             "*e",   :Item],
-        "LoseText"     		=> [:lose_text,         "s"],
-        "Policies"	 		=> [:policies,		    "*e",   :Policy],
+        "Items"        		  => [:items,             "*e",   :Item],
+        "LoseText"     		  => [:lose_text,         "s"],
+        "Policies"	 		    => [:policies,		    "*e",   :Policy],
         "Flags"             => [:flags,             "*s"],
-        "Pokemon"      		=> [:pokemon,           "ev",   :Species],   # Species, level
-        "RemovePokemon"		=> [:removed_pokemon,   "ev",   :Species],   # Species, level
-        "Form"         		=> [:form,              "u"],
-        "Name"         		=> [:name,              "s"],
+        "Pokemon"      		  => [:pokemon,           "ev",   :Species],   # Species, level
+        "RemovePokemon"		  => [:removed_pokemon,   "ev",   :Species],   # Species, level
+        "Form"         		  => [:form,              "u"],
+        "Name"         		  => [:name,              "s"],
         "NameForHashing"    => [:name_for_hashing,  "s"],
         "TrainerTypeLabel"  => [:trainer_type_label,"e",    :TrainerType],
-        "Moves"        		=> [:moves,             "*e",   :Move],
-        "Ability"      		=> [:ability,           "s"],
-        "AbilityIndex" 		=> [:ability_index,     "u"],
-        "ExtraAbilities" 	=> [:extra_abilities,   "*s"],
-        "Item"         		=> [:item,              "*e",   :Item],
+        "Moves"        		  => [:moves,             "*e",   :Move],
+        "Ability"      		  => [:ability,           "s"],
+        "AbilityIndex" 		  => [:ability_index,     "u"],
+        "ExtraAbilities" 	  => [:extra_abilities,   "*s"],
+        "Item"         		  => [:item,              "*e",   :Item],
         "ItemType"          => [:item_type,         "e",    :Type],
-        "ExtraItems" 	    => [:extra_items,       "*s"],
-        "Gender"       		=> [:gender,            "e", { "M" => 0, "m" => 0, "Male" => 0, "male" => 0, "0" => 0,
+        "ExtraItems" 	      => [:extra_items,       "*e",   :Item],
+        "Gender"       		  => [:gender,            "e", { "M" => 0, "m" => 0, "Male" => 0, "male" => 0, "0" => 0,
                                                       "F" => 1, "f" => 1, "Female" => 1, "female" => 1, "1" => 1 }],
-        "Nature"       		=> [:nature,            "e",    :Nature],
-        "EV"           		=> [:ev,                "uUUUUU"],
-        "Happiness"   		=> [:happiness,         "u"],
-        "Shiny"        		=> [:shininess,         "b"],
-        "Shadow"       		=> [:shadowness,        "b"],
-        "Ball"         		=> [:poke_ball,         "s"],
-        "ExtendsVersion" 	=> [:extends_version,   "u"],
-        "Extends"		    => [:extends,		    "esu",  :TrainerType],
-        "Position"	 		=> [:assigned_position, "u"],
+        "Nature"       		  => [:nature,            "e",    :Nature],
+        "EV"           		  => [:ev,                "uUUUUU"],
+        "Happiness"   		  => [:happiness,         "u"],
+        "Shiny"        		  => [:shininess,         "b"],
+        "Shadow"       		  => [:shadowness,        "b"],
+        "Ball"         		  => [:poke_ball,         "s"],
+        "ExtendsVersion"  	=> [:extends_version,   "u"],
+        "Extends"		        => [:extends,		    "esu",  :TrainerType],
+        "Position"	 		    => [:assigned_position, "u"],
         "ExtraTypes"        => [:extra_types,       "*e",   :Type]
       }
   

@@ -91,6 +91,19 @@ FunctionCode = Invalid
 Flags = CanProtect,CanMirrorMove
 Description = Seeking an opening, the user strikes continually. Ignores the target's stat step changes.
 #-------------------------------
+[CLAMOR]
+Name = Clamor
+Type = NORMAL
+Category = Special
+Power = 90
+Accuracy = 100
+TotalPP = 10
+Target = ClosestNearFoe
+FunctionCode = Invalid
+Flags = CanProtect,CanMirrorMove,Sound
+Description = The user attacks in an uproar for three turns. Over that time, no one can fall asleep.
+Animation = UPROAR
+#-------------------------------
 [COMETPUNCH]
 Name = Comet Punch
 Type = NORMAL
