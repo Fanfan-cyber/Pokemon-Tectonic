@@ -295,7 +295,7 @@ module Compiler
           property_value = pbGetCsvRecord($~[2], line_no, line_schema)
           # Record XXX=YYY setting
           move_hash[line_schema[0]] = property_value
-          next if path == "PBS/moves_cut.txt"
+          next if cut || zmove
           case property_name
             when "Name"
               move_names.push(move_hash[:name])

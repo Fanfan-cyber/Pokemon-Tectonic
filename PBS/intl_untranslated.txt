@@ -447,150 +447,6 @@
 [Map445]
 [Map446]
 [5]
-Sweet Kiss
-Sweet Kiss
-Lather
-Lather
-Launder
-Launder
-Retreat
-Retreat
-Sandblasting
-Sandblasting
-Blunt Force
-Blunt Force
-Embrittle
-Embrittle
-Monolith Drop
-Monolith Drop
-Rockalanche
-Rockalanche
-Sling Shot
-Sling Shot
-Agonize
-Agonize
-Bio Flash
-Bio Flash
-Carapace Crush
-Carapace Crush
-Irritate
-Irritate
-Lumin Burst
-Lumin Burst
-Scale Storm
-Scale Storm
-Stinging Jab
-Stinging Jab
-Bind Fate
-Bind Fate
-Drift Off
-Drift Off
-Suffocate
-Suffocate
-Sunder Fate
-Sunder Fate
-Thin Air
-Thin Air
-Helmbutt
-Helmbutt
-Iron Arrow
-Iron Arrow
-Javelin
-Javelin
-Rail Cannon
-Rail Cannon
-White Flame
-White Flame
-Wildfire Melt
-Wildfire Melt
-Tide Pull
-Tide Pull
-Waterlog
-Waterlog
-Wavebreak
-Wavebreak
-Whelm
-Whelm
-Roots of Evil
-Roots of Evil
-Beam Struggle
-Beam Struggle
-Broadcast Blast
-Broadcast Blast
-Dielectric Breakdown
-Dielectric Breakdown
-Lightning Slam
-Lightning Slam
-Live Wire
-Live Wire
-Short Circuit
-Short Circuit
-Surge Snare
-Surge Snare
-Exploit
-Exploit
-Invite Eclipse
-Invite Eclipse
-Memory Removal
-Memory Removal
-Scrutinize
-Scrutinize
-Total Control
-Total Control
-Cryo Sleep
-Cryo Sleep
-Diamond Dust
-Diamond Dust
-Snow Spill
-Snow Spill
-Heliopause
-Heliopause
-Backhand
-Backhand
-Black Hole
-Black Hole
-Disarming Shot
-Disarming Shot
-Dunk
-Dunk
-Keelhaul
-Keelhaul
-Wet Work
-Wet Work
-Bash and Borrow
-Bash and Borrow
-Bucket Drop
-Bucket Drop
-Emotional Deluge
-Emotional Deluge
-Enchanted Arrow
-Enchanted Arrow
-Fool
-Fool
-Frolic
-Frolic
-Ill Wishes
-Ill Wishes
-Invite Moonglow
-Invite Moonglow
-Misadventure
-Misadventure
-Mishap
-Mishap
-Superstition
-Superstition
-True Name
-True Name
-Primeval Role Play
-Primeval Role Play
-Empowered Bullet Train
-Empowered Bullet Train
-Empowered Bubble Beam
-Empowered Bubble Beam
-Primeval Waterlog
-Primeval Waterlog
-Test Move
-Test Move
 [6]
 The target is hit with rhythmically launched punches that have a 30% chance to dizzy.
 The target is hit with rhythmically launched punches that have a 30% chance to dizzy.
@@ -920,375 +776,13 @@ The user inflicts waterlog on all nearby foes. User becomes a Water-type.
 The user inflicts waterlog on all nearby foes. User becomes a Water-type.
 A nutrient-draining attack. The user's HP is restored by all the damage taken by the target.
 A nutrient-draining attack. The user's HP is restored by all the damage taken by the target.
-The user builds up its momentum using its Z-Power and crashes into the target at full speed.
-The user builds up its momentum using its Z-Power and crashes into the target at full speed.
-The user rams an energy orb created by its Z-Power into the target with full force.
-The user rams an energy orb created by its Z-Power into the target with full force.
-The user soars up with its Z-Power and plummets toward the target at full speed.
-The user soars up with its Z-Power and plummets toward the target at full speed.
-The user creates a poisonous swamp using its Z-Power and sinks the target into it at full force.
-The user creates a poisonous swamp using its Z-Power and sinks the target into it at full force.
-The user burrows deep into the ground and slams into the target with the full force of its Z-Power.
-The user burrows deep into the ground and slams into the target with the full force of its Z-Power.
-The user summons a huge rock mountain using its Z-Power and drops it onto the target with full force.
-The user summons a huge rock mountain using its Z-Power and drops it onto the target with full force.
-The user binds the target with full force with threads of silk that the user spits using its Z-Power.
-The user binds the target with full force with threads of silk that the user spits using its Z-Power.
-Deep-seated grudges summoned by the user's Z-Power trap the target.
-Deep-seated grudges summoned by the user's Z-Power trap the target.
-The user spins very fast and rams into the target with the full force of its Z-Power.
-The user spins very fast and rams into the target with the full force of its Z-Power.
-The user breathes a stream of intense fire toward the target with the full force of its Z-Power.
-The user breathes a stream of intense fire toward the target with the full force of its Z-Power.
-The user creates a huge whirling current using its Z-Power to swallow the target with full force.
-The user creates a huge whirling current using its Z-Power to swallow the target with full force.
-The user collects energy from plants using its Z-Power and attacks the target with full force.
-The user collects energy from plants using its Z-Power and attacks the target with full force.
-The user hits the target with a powerful electric current collected by its Z-Power.
-The user hits the target with a powerful electric current collected by its Z-Power.
-The user controls the target with its Z-Power and hurts the target with full force.
-The user controls the target with its Z-Power and hurts the target with full force.
-The user dramatically drops the temperature using its Z-Power and freezes the target with full force.
-The user dramatically drops the temperature using its Z-Power and freezes the target with full force.
-The user materializes its aura using its Z-Power and attacks the target with full force.
-The user materializes its aura using its Z-Power and attacks the target with full force.
-The user gathers dark energy using its Z-Power and sucks the target into it.
-The user gathers dark energy using its Z-Power and sucks the target into it.
-The user creates a very charming space using its Z-Power and totally toys with the target.
-The user creates a very charming space using its Z-Power and totally toys with the target.
 This move exists just to showcase the PBS Extensions system.
 This move exists just to showcase the PBS Extensions system.
 [7]
-Prism Stone
-Prism Stone
-Courage Badge
-Courage Badge
-Clear Amulet
-Clear Amulet
-Saccharite Pick
-Saccharite Pick
-Spanning Band
-Spanning Band
-Chroma Clarion
-Chroma Clarion
-VIP Card
-VIP Card
-Ominous Egg
-Ominous Egg
-Test Item
-Test Item
 [8]
-Prism Stones
-Prism Stones
-Courage Badges
-Courage Badges
-Clear Amulets
-Clear Amulets
-Rage Candy Bars
-Rage Candy Bars
-Sweet Hearts
-Sweet Hearts
-Fresh Waters
-Fresh Waters
-Soda Pops
-Soda Pops
-Lemonades
-Lemonades
-Moomoo Milks
-Moomoo Milks
-Fossilized Fishes
-Fossilized Fishes
-Saccharite Picks
-Saccharite Picks
-Spanning Bands
-Spanning Bands
-Chroma Clarions
-Chroma Clarions
-VIP Cards
-VIP Cards
-Ominous Eggs
-Ominous Eggs
-Unnamed
-Unnamed
-Test Items
-Test Items
 [9]
-A many-colored stone that makes a lot of Pokémon evolve. Can be used in place of any evolution stone.
-A many-colored stone that makes a lot of Pokémon evolve. Can be used in place of any evolution stone.
-An item to be held by a Pokémon. It doubles the duration of Rooms created by the holder.
-An item to be held by a Pokémon. It doubles the duration of Rooms created by the holder.
-A held item. It makes multi-hit attacks consistently hit 4 or 5 times.
-A held item. It makes multi-hit attacks consistently hit 4 or 5 times.
-An item to be held by a Pokémon. The user gets both of its legal abilities, but its stats are cut by 10%.
-An item to be held by a Pokémon. The user gets both of its legal abilities, but its stats are cut by 10%.
-An item to be held by a Pokémon. The holder restores 1/5th HP of the damage it deals with moves.
-An item to be held by a Pokémon. The holder restores 1/5th HP of the damage it deals with moves.
-A held item. When a foe raises their stats, the herb is consumed to reset their stats.
-A held item. When a foe raises their stats, the herb is consumed to reset their stats.
-A held item. It is a magnifying lens that boosts the Accuracy of moves by 35%.
-A held item. It is a magnifying lens that boosts the Accuracy of moves by 35%.
-A held item. The holder is protected from the random added effects and takes 10% less move damage.
-A held item. The holder is protected from the random added effects and takes 10% less move damage.
-A held item. The holder is protected from flinching.
-A held item. The holder is protected from flinching.
-A held item. The holder is protected from stat drops (except when self-inflicted).
-A held item. The holder is protected from stat drops (except when self-inflicted).
-It may be held by a Pokémon to recover from being waterlogged.
-It may be held by a Pokémon to recover from being waterlogged.
-If held by a Pokémon, it raises its Accuracy by four steps in a pinch.
-If held by a Pokémon, it raises its Accuracy by four steps in a pinch.
-A charm in the shape of a tooth. It increases the EXP. gained from EXP Candy by 15%.
-A charm in the shape of a tooth. It increases the EXP. gained from EXP Candy by 15%.
-Heals your whole team a limited number of times. Restocked at PokeCenters and after resting.
-Heals your whole team a limited number of times. Restocked at PokeCenters and after resting.
-A wisp of ideas with infinite potential. Use it on a Pokémon to teach any one of their legal moves.
-A wisp of ideas with infinite potential. Use it on a Pokémon to teach any one of their legal moves.
-A food grade mining tool. Allows you to extract EXP. Candy from saccharite deposits.
-A food grade mining tool. Allows you to extract EXP. Candy from saccharite deposits.
-An ancient ceramic ring. Unlocks the ability to teleport between Avatar Totems.
-An ancient ceramic ring. Unlocks the ability to teleport between Avatar Totems.
-An electrified glove with a claw-like shape. Recovers the first failed Poké Ball thrown in a wild battle.
-An electrified glove with a claw-like shape. Recovers the first failed Poké Ball thrown in a wild battle.
-An ancient horn. Sound it to start a 3v3 wild battle. Foes will be higher level and likely to have rare moves.
-An ancient horn. Sound it to start a 3v3 wild battle. Foes will be higher level and likely to have rare moves.
-A mysterious data storage device. Plug it into any PC to unlock The Omnitutor.
-A mysterious data storage device. Plug it into any PC to unlock The Omnitutor.
-A glamorous steel card. While holding it, all vendors cost 10% less and Poké Marts have extra items.
-A glamorous steel card. While holding it, all vendors cost 10% less and Poké Marts have extra items.
-A vessel for negative emotions. Perfectly defeat enough trainers to earn its rewards.
-A vessel for negative emotions. Perfectly defeat enough trainers to earn its rewards.
-An item to test the PBS Extensions feature. It can be sold to shops for $1.
-An item to test the PBS Extensions feature. It can be sold to shops for $1.
 [10]
-Astral Harvest
-Astral Harvest
-Backwash
-Backwash
-Cynic
-Cynic
-Disconnection
-Disconnection
-Dynamic Entrance
-Dynamic Entrance
-Ferrofluid
-Ferrofluid
-Flexible
-Flexible
-Hard As
-Hard As
-Hasty
-Hasty
-Karma
-Karma
-Marine
-Marine
-Moist Skin
-Moist Skin
-Monkey Mischief
-Monkey Mischief
-Offensive
-Offensive
-Palace Guard
-Palace Guard
-Perfectionist
-Perfectionist
-Puff Up
-Puff Up
-Pure Rage
-Pure Rage
-Resolute
-Resolute
-Rugged
-Rugged
-Safe Passage
-Safe Passage
-Saturater
-Saturater
-Severe
-Severe
-Silver Lining
-Silver Lining
-Silver Sense
-Silver Sense
-Sinking Feeling
-Sinking Feeling
-Sopping
-Sopping
-Spectrum Vision
-Spectrum Vision
-Stone Mane
-Stone Mane
-Thief's Diversion
-Thief's Diversion
-Tractor Beam
-Tractor Beam
-Waterfall Conditioning
-Waterfall Conditioning
-Live Wire
-Live Wire
-Wreak Havoc
-Wreak Havoc
-Adaptive AI v1
-Adaptive AI v1
-Adaptive AI v2
-Adaptive AI v2
-Adaptive AI v3
-Adaptive AI v3
-Adaptive AI v4
-Adaptive AI v4
-Backfire
-Backfire
-Bioengineering
-Bioengineering
-Chrono Rewind
-Chrono Rewind
-Forced Engagement
-Forced Engagement
-Relentless Pursuit
-Relentless Pursuit
-72 Transformations
-72 Transformations
-Temporal Shift
-Temporal Shift
-Tideweaver's Reversal
-Tideweaver's Reversal
-Unwavering Valor
-Unwavering Valor
-Test Ability
-Test Ability
 [11]
-Reduces a sleeping foe's HP by 1/8th at the end of a round.
-Reduces a sleeping foe's HP by 1/8th at the end of a round.
-Raises Attack and Sp. Atk by two steps each when its HP is lowered below half.
-Raises Attack and Sp. Atk by two steps each when its HP is lowered below half.
-Prevents stat steps from being lowered (except when self-inflicted).
-Prevents stat steps from being lowered (except when self-inflicted).
-Can poison the target even if it's a Steel or Poison-type.
-Can poison the target even if it's a Steel or Poison-type.
-Protects Grass-type allies from status conditions or stat lowering (except self-inflicted).
-Protects Grass-type allies from status conditions or stat lowering (except self-inflicted).
-Will eat berries normally eaten at 25% HP (in a pinch) at 50% instead.
-Will eat berries normally eaten at 25% HP (in a pinch) at 50% instead.
-Boosts move damage by 50%, but lowers Accuracy by 20%.
-Boosts move damage by 50%, but lowers Accuracy by 20%.
-Heals 1/8th of its max HP each turn in a hail.
-Heals 1/8th of its max HP each turn in a hail.
-Immune to Ground-type moves. Immune to grounded hazards.
-Immune to Ground-type moves. Immune to grounded hazards.
-When the Pokémon is hit by an attack, the attacker's ability becomes Mummy.
-When the Pokémon is hit by an attack, the attacker's ability becomes Mummy.
-Attacks by or against the Pokémon can't miss.
-Attacks by or against the Pokémon can't miss.
-At the end of each turn, heals from every non-volatile status (except Sleep).
-At the end of each turn, heals from every non-volatile status (except Sleep).
-Stat changes in the Pokémon are doubled.
-Stat changes in the Pokémon are doubled.
-Doubles the Pokémon's Speed stat in a hail.
-Doubles the Pokémon's Speed stat in a hail.
-Summons a hail for 4 turns when it enters battle.
-Summons a hail for 4 turns when it enters battle.
-Ignores defensive stat changes in opponents it's hitting, and offensive stat steps in foes hitting it.
-Ignores defensive stat changes in opponents it's hitting, and offensive stat steps in foes hitting it.
-Doubles the Accuracy of its allies and itself.
-Doubles the Accuracy of its allies and itself.
-Immune to Electric-type moves and restores 25% of max HP when hit by one.
-Immune to Electric-type moves and restores 25% of max HP when hit by one.
-When the Pokémon is hit by an attack, the Pokémon and the attacker switch abilities.
-When the Pokémon is hit by an attack, the Pokémon and the attacker switch abilities.
-Immune to Water-type moves and restores 25% of max HP when hit by one.
-Immune to Water-type moves and restores 25% of max HP when hit by one.
-At the end of each turn, if in rainstorm, each Pokémon not immune to rainstorm has their defensive stats lowered by 1 step.
-At the end of each turn, if in rainstorm, each Pokémon not immune to rainstorm has their defensive stats lowered by 1 step.
-Takes 30% less damage in eclipse, except in total eclipse.
-Takes 30% less damage in eclipse, except in total eclipse.
-Takes 40% less damage from attacks by Pokémon who have a status condition.
-Takes 40% less damage from attacks by Pokémon who have a status condition.
-During eclipse, it restores its HP by half the damage it deals with attacks.
-During eclipse, it restores its HP by half the damage it deals with attacks.
-Special attacks against the Pokémon have a 30% chance to waterlog the attacker.
-Special attacks against the Pokémon have a 30% chance to waterlog the attacker.
-Raises Defense and Sp. Def by three steps each when its HP is lowered below half.
-Raises Defense and Sp. Def by three steps each when its HP is lowered below half.
-Causes hail to deal double damage and increase Defense of Ice-types by 2.0x instead of 1.5x.
-Causes hail to deal double damage and increase Defense of Ice-types by 2.0x instead of 1.5x.
-Prevents itself and allies from being poisoned, leeched, or waterlogged.
-Prevents itself and allies from being poisoned, leeched, or waterlogged.
-When a foe hits the Pokémon, they are warned. If they do it again, they become cursed.
-When a foe hits the Pokémon, they are warned. If they do it again, they become cursed.
-Immune to Dragon-type, Fairy-type and Ghost-type attacks.
-Immune to Dragon-type, Fairy-type and Ghost-type attacks.
-When this Pokémon becomes statused, its Attack is raised by three steps.
-When this Pokémon becomes statused, its Attack is raised by three steps.
-Immune to Ground-type moves. Takes 20% less damage in sandstorm.
-Immune to Ground-type moves. Takes 20% less damage in sandstorm.
-On the first turn, its attacks numb the target.
-On the first turn, its attacks numb the target.
-Speed is doubled on the first turn.
-Speed is doubled on the first turn.
-Whenever it uses a status move, becomes energy charged, doubling the power of its next Electric-type attack.
-Whenever it uses a status move, becomes energy charged, doubling the power of its next Electric-type attack.
-Can't be numbed, waterlogged, or have its Speed reduced.
-Can't be numbed, waterlogged, or have its Speed reduced.
-Takes 25% less damage in a rainstorm.
-Takes 25% less damage in a rainstorm.
-Heals 1/12th HP every turn. Protected from being numbed or waterlogged.
-Heals 1/12th HP every turn. Protected from being numbed or waterlogged.
-Attacks this Pokémon uses that don't share a type with it are boosted by 30%.
-Attacks this Pokémon uses that don't share a type with it are boosted by 30%.
-Doubles Attack, but the Pokémon becomes dizzy after attacking.
-Doubles Attack, but the Pokémon becomes dizzy after attacking.
-Summons a hail for four turns when hit by an attack.
-Summons a hail for four turns when hit by an attack.
-If an attack lowers the Pokémon's HP to half or less, the attacker becomes fractured.
-If an attack lowers the Pokémon's HP to half or less, the attacker becomes fractured.
-When this Pokémon becomes statused, its Speed is raised by three steps.
-When this Pokémon becomes statused, its Speed is raised by three steps.
-Doubles Sp. Atk, but the Pokémon becomes dizzy after attacking.
-Doubles Sp. Atk, but the Pokémon becomes dizzy after attacking.
-Immune to Fairy-type moves and restores 25% of max HP if hit by one. This can overheal.
-Immune to Fairy-type moves and restores 25% of max HP if hit by one. This can overheal.
-Doubles Sp. Def in sunshine.
-Doubles Sp. Def in sunshine.
-Wild Pokémon are more likely to appear in pairs and to be species you've never caught before.
-Wild Pokémon are more likely to appear in pairs and to be species you've never caught before.
-Prevents stat steps from being lowered (except when self-inflicted). Protects from critical hits.
-Prevents stat steps from being lowered (except when self-inflicted). Protects from critical hits.
-The Pokémon is also Grass-type. When hit by an attack, the attacker's ability becomes Infected.
-The Pokémon is also Grass-type. When hit by an attack, the attacker's ability becomes Infected.
-Causes sandstorm to deal double damage and increase Sp. Def of Rock-types by 2.0x instead of 1.5x.
-Causes sandstorm to deal double damage and increase Sp. Def of Rock-types by 2.0x instead of 1.5x.
-If an attack lowers the Pokémon's HP to half or less, the attacker becomes jinxed.
-If an attack lowers the Pokémon's HP to half or less, the attacker becomes jinxed.
-If an attack lowers the Pokémon's HP to half or less, the attacker becomes cursed.
-If an attack lowers the Pokémon's HP to half or less, the attacker becomes cursed.
-Physical moves have a 30% chance to waterlog targets.
-Physical moves have a 30% chance to waterlog targets.
-The Pokémon can't be Taunted, Encored, Tormented, Heal Blocked, Disabled, Barred, Dizzied, or Flinched.
-The Pokémon can't be Taunted, Encored, Tormented, Heal Blocked, Disabled, Barred, Dizzied, or Flinched.
-If an attack lowers its HP to half or less, waterlogs the attacker.
-If an attack lowers its HP to half or less, waterlogs the attacker.
-When hit by another Pokémon, destroys one of the their items.
-When hit by another Pokémon, destroys one of the their items.
-Boosts the Accuracy of its allies and itself by 50%.
-Boosts the Accuracy of its allies and itself by 50%.
-On the first turn, its attacks cause the target to flinch.
-On the first turn, its attacks cause the target to flinch.
-Prevents stat steps from being lowered (except when self-inflicted). The Pokémon's weight is doubled.
-Prevents stat steps from being lowered (except when self-inflicted). The Pokémon's weight is doubled.
-Receives 33% less move damage if there is an active Room.
-Receives 33% less move damage if there is an active Room.
-The Pokémon's hits deal half damage unless they are critical.
-The Pokémon's hits deal half damage unless they are critical.
-The Pokémon's moves deal 50% more damage if they're a different type than last.
-The Pokémon's moves deal 50% more damage if they're a different type than last.
-Sets screens for two more turns.
-Sets screens for two more turns.
-During eclipse, immune to status conditions and having its stats lowered.
-During eclipse, immune to status conditions and having its stats lowered.
-Immune to Poison-type moves and restores 25% of max HP if hit by one.
-Immune to Poison-type moves and restores 25% of max HP if hit by one.
-Deals 25% more damage per stockpile.
-Deals 25% more damage per stockpile.
 The Pokémon's Dragon-type hits deal additional damage equal to half the Pokémon's level.
 The Pokémon's Dragon-type hits deal additional damage equal to half the Pokémon's level.
 Moves that can flinch are 50% more likely. Deals 50% more damage to Pokémon with flinch immunity.
@@ -1386,13 +880,7 @@ Stats that the Pokémon raises remain raised even after switching.
 This ability exists just to showcase the PBS Extensions system.
 This ability exists just to showcase the PBS Extensions system.
 [12]
-9
-???
-???
 [13]
-0
-Wild
-Wild
 1
 Ancient Priest
 Ancient Priest
@@ -4902,12 +4390,6 @@ IT'S HARD TO BELIEVE BUT CONGRATS
 [19]
 [20]
 [21]
-1
-Intro - Alpha
-Intro - Alpha
-5
-Secret Location
-Secret Location
 10
 Six Spire Cave
 Six Spire Cave
@@ -4932,24 +4414,9 @@ Bluepoint Beach
 42
 Zeraora's Chamber
 Zeraora's Chamber
-45
-Secret Room
-Secret Room
-46
-Secret Room 2
-Secret Room 2
-50
-Casaba Buildings
-Casaba Buildings
-63
-Novo Buildings
-Novo Buildings
 64
 M. Munna Den
 M. Munna Den
-69
-Novo Apartments
-Novo Apartments
 84
 Meloetta's Chamber
 Meloetta's Chamber
@@ -5234,26 +4701,6 @@ Guess what happened the other day. I missed catching \TE again.\mMaybe I'm not v
 Guess what happened the other day.  I missed catching \TE again.\mMaybe I'm not very good at this.
 [23]
 [24]
-Bill
-Bill
-National Pokédex
-National Pokédex
-Collection
-Collection
-Exploration
-Exploration
-Sidequests
-Sidequests
-Battle
-Battle
-Other
-Other
-Area
-Area
-{1} {2}
-{1} {2}
-Mysterious Trainer
-Mysterious Trainer
 Ability ID '{1}' is used twice.<<n>>{2}
 Ability ID '{1}' is used twice.<<r>><<n>>{2}
 Expected a section at the beginning of the file.<<n>>{1}
@@ -9104,8 +8551,6 @@ Fully heal the HP/status/PP of all Pokémon in the party.
 Fully heal the HP/status/PP of all Pokémon in the party.
 Your Pokémon were fully healed.
 Your Pokémon were fully healed.
-Delete Team
-Delete Team
 Delete the entirety of the player's team.
 Delete the entirety of the player's team.
 Deleted your entire team.
@@ -9754,21 +9199,9 @@ It hurt itself!
 It hurt itself!
 [27]
 [28]
-22
-This tribe exists to test the PBS extensions system
-This tribe exists to test the PBS extensions system
 [29]
 [30]
-248
-ASMR
-ASMR
-299
-Debugging
-Debugging
 [31]
-106
-Code Errors
-Code Errors
 [32]
 Beak Blast
 Beak Blast
@@ -10270,10 +9703,6 @@ Faint Healing
 Faint Healing
 [33]
 [34]
-Capture a legendary Pokémon in a regular Poké Ball (thrown normally or created by the Ball Launcher.)
-Capture a legendary Pokémon in a regular Poké Ball (thrown normally or created by the Ball Launcher.)
-After being crowned champion, defeat Pokémon Master Vanya with a full team of genderless Pokémon.
-After being crowned champion, defeat Pokémon Master Vanya with a full team of genderless Pokémon.
 [111]
 [222]
 DNA
@@ -10285,40 +9714,6 @@ Kelp
 King
 King
 [333]
-It can read others' minds and will RETREAT away when danger approaches. You must clear your mind if you want to catch it.
-It can read others' minds and will RETREAT away when danger approaches. You must clear your mind if you want to catch it.
-In ancient times, this Pokémon was an apex predator. It has the strength to fly with a Tyrantrum in its claws.
-In ancient times, this Pokémon was an apex predator. It has the strength to fly with a Tyrantrum in its claws.
-This Pokémon is very cautious. It stands on its tail in order to see enemies from far away. If it does then it alert its pack by thumping its tail on the ground.
-This Pokémon is very cautious. It stands on its tail in order to see enemies from far away. If it does then it alert its pack by thumping its tail on the ground.
-Now that the brain waves from the head and tail are synced up, the psychic power of this Pokémon is 10 times stronger than Girafarig's.
-Now that the brain waves from the head and tail are synced up, the psychic power of this Pokémon is 10 times stronger than Girafarig's.
-In water, Mudkip breathes using the gills on its cheeks. If it is faced with a tight situation in battle, this Pokémon will unleash its amazing power.
-In water, Mudkip breathes using the gills on its cheeks. If it is faced with a tight situation in battle, this Pokémon will unleash its amazing power.
-The surface of Marshtomp's body is enveloped by a thin, sticky film that enables it to live on land. This Pokémon plays in mud on beaches.
-The surface of Marshtomp's body is enveloped by a thin, sticky film that enables it to live on land. This Pokémon plays in mud on beaches.
-This Pokémon is very gutsy and will fight powerful opponents without backing down. On the other hand, when it is hungry it will weaken and cry loudly.
-This Pokémon is very gutsy and will fight powerful opponents without backing down. On the other hand, when it is hungry it will weaken and cry loudly.
-Born in pristine waters, they escape detection by blending in seamlessly with underwater plants.
-Born in pristine waters, they escape detection by blending in seamlessly with underwater plants.
-They gallop on the ocean floor, cleaning it by collecting algae on their hooves.
-They gallop on the ocean floor, cleaning it by collecting algae on their hooves.
-It gathers things it likes and passes them through its loop to RETREAT them to a secret place.
-It gathers things it likes and passes them through its loop to RETREAT them to a secret place.
-When it gets wet, its skin changes color, and this Pokémon becomes invisible as if it were camouflaged.
-When it gets wet, its skin changes color, and this Pokémon becomes invisible as if it were camouflaged.
-Calyrex is a merciful Pokémon, capable of providing healing and blessings. It has the power to cause hearts to mend and plants to spring forth.
-Calyrex is a merciful Pokémon, capable of providing healing and blessings. It has the power to cause hearts to mend and plants to spring forth.
-This Pokemon exists just to test the PBS Extensions system.
-This Pokemon exists just to test the PBS Extensions system.
-This Pokemon exists just to test the PBS Extensions system. Again!
-This Pokemon exists just to test the PBS Extensions system. Again!
-This is the form Castform takes when the moon rises. The particles in its body take on mystical fae-like properties.
-This is the form Castform takes when the moon rises. The particles in its body take on mystical fae-like properties.
-This is the form Castform takes when an eclipse covers the sky. It moves around using its hands made of pure psychic energy.
-This is the form Castform takes when an eclipse covers the sky. It moves around using its hands made of pure psychic energy.
-This form also exists to test the PBS Extensions feature.
-This form also exists to test the PBS Extensions feature.
 [444]
 A
 A
@@ -10766,5 +10161,3 @@ Harvest
 Harvest
 White-Striped
 White-Striped
-Test Form
-Test Form
