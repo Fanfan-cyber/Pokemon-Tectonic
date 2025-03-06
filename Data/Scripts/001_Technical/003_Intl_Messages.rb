@@ -760,13 +760,16 @@ end
 
 
 module MessageTypes
-  NOT_NEED_OUTPUT    = %w[1]
+  NOT_NEED_OUTPUT    = %w[1 2 3 4 25 26]
   # Value 0 is used for common event and map event text
-  Species            = 1
+  Species            = 1 # don't need
   SPECIES_HASH       = 111
-  Kinds              = 2
-  Entries            = 3
-  FormNames          = 4
+  Kinds              = 2 # don't need
+  KINDS_HASH         = 222
+  Entries            = 3 # don't need
+  ENTRIES_HASH       = 333
+  FormNames          = 4 # don't need
+  FORMNAMES_HASH     = 444
   Moves              = 5
   MoveDescriptions   = 6
   Items              = 7
@@ -787,8 +790,8 @@ module MessageTypes
   PhoneMessages      = 22
   TrainerLoseText    = 23
   ScriptTexts        = 24
-  RibbonNames        = 25
-  RibbonDescriptions = 26
+  RibbonNames        = 25 # don't need
+  RibbonDescriptions = 26 # don't need
   Tribes             = 27
   TribeDescriptions  = 28
   Traits             = 29
