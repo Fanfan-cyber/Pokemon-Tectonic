@@ -161,7 +161,7 @@ module GameData
         if is_machine?
             return pbGetMessageFromHash(MessageTypes::MoveDescriptions, GameData::Move.get(@move).real_description)
         else
-            return pbGetMessageFromHash(MessageTypes::ItemDescriptions, @real_description)
+            return ITEM_DATA[@id]&.[](:desc) || pbGetMessageFromHash(MessageTypes::ItemDescriptions, @real_description)
         end
       end
   

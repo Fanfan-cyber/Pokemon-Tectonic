@@ -1,7 +1,8 @@
 module TimeCapsule
-  TIME_CAPSULE_PATH = "Data"
-  TIME_CAPSULE_FILE = "time_capsule.dat"
-  PATH = "#{TIME_CAPSULE_PATH}/#{TIME_CAPSULE_FILE}"
+  #TIME_CAPSULE_PATH = "Data"
+  TIME_CAPSULE_FILE = "Time Capsule.dat"
+  #PATH = "#{TIME_CAPSULE_PATH}/#{TIME_CAPSULE_FILE}"
+  PATH = "#{TIME_CAPSULE_FILE}"
   @@time_capsule = []
 
   def self.read_time_capsule
