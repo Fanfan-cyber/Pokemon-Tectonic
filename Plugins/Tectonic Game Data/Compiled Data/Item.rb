@@ -413,6 +413,7 @@ module Compiler
           property_value = pbGetCsvRecord($~[2], line_no, line_schema)
           # Record XXX=YYY setting
           item_hash[line_schema[0]] = property_value
+          next if path == "PBS/items_cut.txt"
           case property_name
           when "Name"
             item_names.push(item_hash[:name])
