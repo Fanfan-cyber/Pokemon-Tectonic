@@ -13,11 +13,9 @@ Data/Skills.rxdata
 Data/States.rxdata
 Data/Weapons.rxdata
 Data/PluginScripts.rxdata
-Save Game/
 Screenshots/
 Changelogs/
 Analysis/
-Team Data/
 *_backup*
 *.lnk
 Game.ini
@@ -26,6 +24,5 @@ towersingleteams.rxdata
 towersingle.rxdata
 Data/PBSExtensions.rxdata
 Data/GraphicsExtensions.rxdata
-Data/time_capsule.dat
 !gems/**
 release_version_mod.txt
