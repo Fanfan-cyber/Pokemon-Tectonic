@@ -245,7 +245,7 @@ immuneTypeRealName))
             return false
         end
 
-        if owned_trainer && owned_trainer.party_status_already?(newStatus) # status clause
+        if owned_trainer && owned_trainer.party_status_already?(newStatus) && !statusDoublingCurse # Status Clause
           @battle.pbDisplay(_INTL("It doesn't affect {1} because another Pokémon in the party is already under this status!", pbThis(true))) if showMessages
           return false
         end
