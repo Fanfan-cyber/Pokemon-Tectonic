@@ -104,7 +104,7 @@ module GameData
   
       # @return [String] the translated name of this trainer type
       def name
-        return @real_name # earthquake need to fix for translation
+        return pbGetMessageFromHash(MessageTypes::TRAINERTYPES_HASH, @real_name) || "" if is_chinese?
         return pbGetMessageFromHash(MessageTypes::TrainerTypes, @real_name)
       end
   
@@ -168,6 +168,7 @@ module Compiler
         # Save all data
         GameData::TrainerType.save
         MessageTypes.setMessages(MessageTypes::TrainerTypes, tr_type_names)
+        MessageTypes.setMessagesAsHash(MessageTypes::TRAINERTYPES_HASH, tr_type_names)
         Graphics.update
     end
 

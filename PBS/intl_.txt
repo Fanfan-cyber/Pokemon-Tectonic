@@ -34391,8 +34391,8 @@ Adapts the move's type to maximize effectiveness while accounting for the immuni
 Adapts the move's type to maximize effectiveness while accounting for the immunities.
 Adapts the move's type to maximize damage against the target.
 Adapts the move's type to maximize damage against the target.
-When hitting a target with an ability that has an offensive damage-modifying effect, ignores the conditions and triggers the effect for the Pokémon.
-When hitting a target with an ability that has an offensive damage-modifying effect, ignores the conditions and triggers the effect for the Pokémon.
+When hitting a target that has an ability with an offensive damage-modifying effect, the Pokémon ignores the conditions and triggers the effect.
+When hitting a target that has an ability with an offensive damage-modifying effect, the Pokémon ignores the conditions and triggers the effect.
 When the Pokémon's level is 30 or higher, it transforms into a member of its family depending on the type of the move it is about to use.
 When the Pokémon's level is 30 or higher, it transforms into a member of its family depending on the type of the move it is about to use.
 When the Pokémon faints, it rewinds itself to 3 turns ago.
@@ -34472,1051 +34472,6 @@ Fairy
 19
 Mutant
 Mutant
-[13]
-0
-Wild
-Wild
-1
-Ancient Priest
-Ancient Priest
-2
-Another Possible
-Another Possible
-3
-Another Possible
-Another Possible
-4
-Another Possible
-Another Possible
-5
-Archfriend
-Archfriend
-6
-Aroma Lady
-Aroma Lady
-7
-Aroma Lady
-Aroma Lady
-8
-Aroma Lady
-Aroma Lady
-9
-Artificial Trainer
-Artificial Trainer
-10
-Artist
-Artist
-11
-Artist
-Artist
-12
-Artist
-Artist
-13
-Artist
-Artist
-14
-Backers
-Backers
-15
-Backers
-Backers
-16
-Backpacker
-Backpacker
-17
-Backpacker
-Backpacker
-18
-Baker
-Baker
-19
-Battle Girl
-Battle Girl
-20
-Battle Girl
-Battle Girl
-21
-Battle Girl
-Battle Girl
-22
-Battle Girl
-Battle Girl
-23
-Beauty
-Beauty
-24
-Beauty
-Beauty
-25
-Beauty
-Beauty
-26
-Beauty
-Beauty
-27
-Beauty
-Beauty
-28
-Beauty
-Beauty
-29
-Belle & Pa
-Belle & Pa
-30
-Biker
-Biker
-31
-Biker
-Biker
-32
-Bird Keeper
-Bird Keeper
-33
-Bird Keeper
-Bird Keeper
-34
-Bird Keeper
-Bird Keeper
-35
-Black Belt
-Black Belt
-36
-Black Belt
-Black Belt
-37
-Black Belt
-Black Belt
-38
-Black Belt
-Black Belt
-39
-Boarder
-Boarder
-40
-Bug Catcher
-Bug Catcher
-41
-Bug Catcher
-Bug Catcher
-42
-Bug Catcher
-Bug Catcher
-43
-Burglar
-Burglar
-44
-Butler
-Butler
-45
-Cameraman
-Cameraman
-46
-Cameraman
-Cameraman
-47
-Camper
-Camper
-48
-Camper
-Camper
-49
-Camper
-Camper
-50
-CEO
-CEO
-51
-Challenger
-Challenger
-52
-Champion
-Champion
-53
-Champion
-Champion
-54
-Driller
-Driller
-55
-Chef
-Chef
-56
-Clerk
-Clerk
-57
-Clerk
-Clerk
-58
-Clerk
-Clerk
-59
-Clown
-Clown
-60
-Collector
-Collector
-61
-Cool Squad
-Cool Squad
-62
-Cooltrainer
-Cooltrainer
-63
-Cooltrainer
-Cooltrainer
-64
-Cooltrainer
-Cooltrainer
-65
-Cooltrainer
-Cooltrainer
-66
-Pro Trainer
-Pro Trainer
-67
-Cooltrainer
-Cooltrainer
-68
-Cooltrainer
-Cooltrainer
-69
-Cooltrainer
-Cooltrainer
-70
-Cooltrainer
-Cooltrainer
-71
-Pro Trainer
-Pro Trainer
-72
-Cowgirl
-Cowgirl
-73
-Criminal Team
-Criminal Team
-74
-Cyclist
-Cyclist
-75
-Cyclist
-Cyclist
-76
-Cyclist
-Cyclist
-77
-Cyclist
-Cyclist
-78
-Dancer
-Dancer
-79
-Dandy
-Dandy
-80
-Delinquent
-Delinquent
-81
-Depot Agent
-Depot Agent
-82
-Developer
-Developer
-83
-Aroma Lady
-Aroma Lady
-84
-Camper
-Camper
-85
-Hiker
-Hiker
-86
-Pro Trainer
-Pro Trainer
-87
-Pokémon Ranger
-Pokémon Ranger
-88
-Doctor
-Doctor
-89
-Double Team
-Double Team
-90
-Double Team
-Double Team
-91
-Dragon Tamer
-Dragon Tamer
-92
-Dragon Tamer
-Dragon Tamer
-93
-Elder
-Elder
-94
-Expert
-Expert
-95
-Expert
-Expert
-96
-Fairy Tale Girl
-Fairy Tale Girl
-97
-Firebreather
-Firebreather
-98
-Fisherman
-Fisherman
-99
-Fisherman
-Fisherman
-100
-Former Champion
-Former Champion
-101
-Former Champion
-Former Champion
-102
-Former Champion
-Former Champion
-103
-Former Champion
-Former Champion
-104
-Former Champion
-Former Champion
-105
-Former Champion
-Former Champion
-106
-Former Champion
-Former Champion
-107
-Gambler
-Gambler
-108
-Gardener
-Gardener
-109
-Gentleman
-Gentleman
-110
-Gentleman
-Gentleman
-111
-Gentleman
-Gentleman
-112
-Guitarist
-Guitarist
-113
-Guitarist
-Guitarist
-114
-Guitarist
-Guitarist
-115
-Harlequin
-Harlequin
-116
-Hex Maniac
-Hex Maniac
-117
-Hiker
-Hiker
-118
-Hiker
-Hiker
-119
-Hiker
-Hiker
-120
-Hooligans
-Hooligans
-121
-Hoopster
-Hoopster
-122
-Ideal Trainer
-Ideal Trainer
-123
-Idol
-Idol
-124
-Infielder
-Infielder
-125
-Interviewers
-Interviewers
-126
-Cosplayer
-Cosplayer
-127
-Janitor
-Janitor
-128
-Jogger
-Jogger
-129
-Juggler
-Juggler
-130
-Kimono Girl
-Kimono Girl
-131
-Lady
-Lady
-132
-Lady
-Lady
-133
-Lady
-Lady
-134
-Lady
-Lady
-135
-Lass
-Lass
-136
-Lass
-Lass
-137
-Lass
-Lass
-138
-Lass
-Lass
-139
-Lass
-Lass
-140
-Lass
-Lass
-141
-Gym Leader
-Gym Leader
-142
-Gym Leader
-Gym Leader
-143
-Gym Leader
-Gym Leader
-144
-Gym Leader
-Gym Leader
-145
-Gym Leader
-Gym Leader
-146
-Gym Leader
-Gym Leader
-147
-Gym Leader
-Gym Leader
-148
-Gym Leader
-Gym Leader
-149
-Gym Leader
-Gym Leader
-150
-Gym Leader
-Gym Leader
-151
-Gym Leader
-Gym Leader
-152
-Gym Leader
-Gym Leader
-153
-Gym Leader
-Gym Leader
-154
-Gym Leader
-Gym Leader
-155
-Gym Leader
-Gym Leader
-156
-Gym Leader
-Gym Leader
-157
-Gym Leader
-Gym Leader
-158
-Gym Leader
-Gym Leader
-159
-Linebacker
-Linebacker
-160
-Pokémon Ranger
-Pokémon Ranger
-161
-Pokémon Ranger
-Pokémon Ranger
-162
-Pokémon Ranger
-Pokémon Ranger
-163
-Maid
-Maid
-164
-Maid
-Maid
-165
-Masked Villain
-Masked Villain
-166
-Masked Villain
-Masked Villain
-167
-Masked Villains
-Masked Villains
-168
-Masked Villains
-Masked Villains
-169
-Masked Villain
-Masked Villain
-170
-Medium
-Medium
-171
-Neckbeard
-Neckbeard
-172
-Nightmare Queen
-Nightmare Queen
-173
-Nightmare of
-Nightmare of
-174
-Ninja Boy
-Ninja Boy
-175
-Nurse
-Nurse
-176
-Nursery Aide
-Nursery Aide
-177
-Office Worker
-Office Worker
-178
-Office Worker
-Office Worker
-179
-Parasol Lady
-Parasol Lady
-180
-Parasol Lady
-Parasol Lady
-181
-Picnicker
-Picnicker
-182
-Pilot
-Pilot
-183
-Poké Fan
-Poké Fan
-184
-Poké Fan
-Poké Fan
-185
-Poké Fan
-Poké Fan
-186
-Poké Fan
-Poké Fan
-187
-Poké Fan
-Poké Fan
-188
-Poké Kid
-Poké Kid
-189
-Poké Maniac
-Poké Maniac
-190
-Pokémon Breeder
-Pokémon Breeder
-191
-Pokémon Breeder
-Pokémon Breeder
-192
-Pokémon Breeder
-Pokémon Breeder
-193
-Pokémon Breeder
-Pokémon Breeder
-194
-Pokémon Breeder
-Pokémon Breeder
-195
-Pokémon Breeder
-Pokémon Breeder
-196
-Pokémon Breeder
-Pokémon Breeder
-197
-Pokémon Breeder
-Pokémon Breeder
-198
-Pokémon Master
-Pokémon Master
-199
-Pokémon Ranger
-Pokémon Ranger
-200
-Pokémon Ranger
-Pokémon Ranger
-201
-Pokémon Ranger
-Pokémon Ranger
-202
-Pokémon Ranger
-Pokémon Ranger
-203
-Pokémon Ranger
-Pokémon Ranger
-204
-Pokémon Ranger
-Pokémon Ranger
-205
-Pokémon Ranger
-Pokémon Ranger
-206
-Pokémon Ranger
-Pokémon Ranger
-207
-Androgynous
-Androgynous
-208
-Feminine
-Feminine
-209
-Masculine
-Masculine
-210
-Pokémon Trainer
-Pokémon Trainer
-211
-Pokémon Trainer
-Pokémon Trainer
-212
-Pokémon Trainer
-Pokémon Trainer
-213
-Policeman
-Policeman
-214
-Policeman
-Policeman
-215
-Preschooler
-Preschooler
-216
-Preschooler
-Preschooler
-217
-Professor
-Professor
-218
-Psychic
-Psychic
-219
-Psychic
-Psychic
-220
-Psychic
-Psychic
-221
-Psychic
-Psychic
-222
-Psychic
-Psychic
-223
-Psychic
-Psychic
-224
-Psychic
-Psychic
-225
-Punk
-Punk
-226
-Punk
-Punk
-227
-Rancher
-Rancher
-228
-Reporter
-Reporter
-229
-Reporter
-Reporter
-230
-Rich Boy
-Rich Boy
-231
-Rich Boy
-Rich Boy
-232
-Rich Boy
-Rich Boy
-233
-Rich Boy
-Rich Boy
-234
-Rich Couple
-Rich Couple
-235
-Rising Star
-Rising Star
-236
-Rising Star
-Rising Star
-237
-Rising Star
-Rising Star
-238
-Rising Star
-Rising Star
-239
-Roller Skater
-Roller Skater
-240
-Roller Skater
-Roller Skater
-241
-Roughneck
-Roughneck
-242
-Roughneck
-Roughneck
-243
-Ruin Maniac
-Ruin Maniac
-244
-Ruin Maniac
-Ruin Maniac
-245
-Sage
-Sage
-246
-Sailor
-Sailor
-247
-Sailor
-Sailor
-248
-School Kid
-School Kid
-249
-School Kid
-School Kid
-250
-School Kid
-School Kid
-251
-School Kid
-School Kid
-252
-School Kid
-School Kid
-253
-School Kid
-School Kid
-254
-School Kid
-School Kid
-255
-Scientist
-Scientist
-256
-Scientist
-Scientist
-257
-Scientist
-Scientist
-258
-Scientist
-Scientist
-259
-Scientist
-Scientist
-260
-Scientist
-Scientist
-261
-Scientist
-Scientist
-262
-Seeker
-Seeker
-263
-Shadow
-Shadow
-264
-Sis and Bro
-Sis and Bro
-265
-Skier
-Skier
-266
-Skier
-Skier
-267
-Skier
-Skier
-268
-Smasher
-Smasher
-269
-Socialite
-Socialite
-270
-Socialite
-Socialite
-271
-Spirit Guardian
-Spirit Guardian
-272
-Spirit Guardian
-Spirit Guardian
-273
-Spirit Guardian
-Spirit Guardian
-274
-Spirit Guardian
-Spirit Guardian
-275
-Striker
-Striker
-276
-Super Nerd
-Super Nerd
-277
-Suspicious Man
-Suspicious Man
-278
-Swimmer
-Swimmer
-279
-Swimmer
-Swimmer
-280
-Swimmer
-Swimmer
-281
-Swimmer
-Swimmer
-282
-Swimmer
-Swimmer
-283
-Swimmer
-Swimmer
-284
-Swimmer
-Swimmer
-285
-Swimmer
-Swimmer
-286
-Swimmer
-Swimmer
-287
-Swimmer
-Swimmer
-288
-Swimmer
-Swimmer
-289
-Swimmer
-Swimmer
-290
-Guardian Deity
-Guardian Deity
-291
-Guardian Deity
-Guardian Deity
-292
-Guardian Deity
-Guardian Deity
-293
-Guardian Deity
-Guardian Deity
-294
-Teacher
-Teacher
-295
-Tech Wizard
-Tech Wizard
-296
-Teenager
-Teenager
-297
-Teenager
-Teenager
-298
-Tourist
-Tourist
-299
-Tourist
-Tourist
-300
-Pokémon Trainer
-Pokémon Trainer
-301
-Pokémon Trainer
-Pokémon Trainer
-302
-Pokémon Trainer
-Pokémon Trainer
-303
-Pokémon Trainer
-Pokémon Trainer
-304
-Pokémon Trainer
-Pokémon Trainer
-305
-Pokémon Trainer
-Pokémon Trainer
-306
-Pokémon Trainer
-Pokémon Trainer
-307
-Pokémon Trainer
-Pokémon Trainer
-308
-Pokémon Trainer
-Pokémon Trainer
-309
-Pokémon Trainer
-Pokémon Trainer
-310
-Your Brother
-Your Brother
-311
-Tuber
-Tuber
-312
-Tuber
-Tuber
-313
-Tuber
-Tuber
-314
-Tuber
-Tuber
-315
-Twins
-Twins
-316
-Twins
-Twins
-317
-Twins
-Twins
-318
-Ultra
-Ultra
-319
-Veteran
-Veteran
-320
-Veteran
-Veteran
-321
-Veteran
-Veteran
-322
-Veteran
-Veteran
-323
-Veteran
-Veteran
-324
-Wild
-Wild
-325
-Waiter
-Waiter
-326
-Waiter
-Waiter
-327
-Waiter
-Waiter
-328
-Waitress
-Waitress
-329
-Waitress
-Waitress
-330
-Waitress
-Waitress
-331
-Wild Pack
-Wild Pack
-332
-Wild Party
-Wild Party
-333
-Wild Party
-Wild Party
-334
-Wild Party
-Wild Party
-335
-Wild Party
-Wild Party
-336
-Worker
-Worker
-337
-Worker
-Worker
-338
-Worker
-Worker
-339
-Worker
-Worker
-340
-Worker
-Worker
-341
-Worker
-Worker
-342
-Young Couple
-Young Couple
-343
-Young Couple
-Young Couple
-344
-Youngster
-Youngster
-345
-Youngster
-Youngster
-346
-Youngster
-Youngster
-347
-Test Trainer
-Test Trainer
 [14]
 Tester
 Tester
@@ -60870,3 +59825,288 @@ White-Striped
 White-Striped
 Test Form
 Test Form
+[1313]
+Wild
+Wild
+Ancient Priest
+Ancient Priest
+Another Possible
+Another Possible
+Archfriend
+Archfriend
+Aroma Lady
+Aroma Lady
+Artificial Trainer
+Artificial Trainer
+Artist
+Artist
+Backers
+Backers
+Backpacker
+Backpacker
+Baker
+Baker
+Battle Girl
+Battle Girl
+Beauty
+Beauty
+Belle & Pa
+Belle & Pa
+Biker
+Biker
+Bird Keeper
+Bird Keeper
+Black Belt
+Black Belt
+Boarder
+Boarder
+Bug Catcher
+Bug Catcher
+Burglar
+Burglar
+Butler
+Butler
+Cameraman
+Cameraman
+Camper
+Camper
+CEO
+CEO
+Challenger
+Challenger
+Champion
+Champion
+Driller
+Driller
+Chef
+Chef
+Clerk
+Clerk
+Clown
+Clown
+Collector
+Collector
+Cool Squad
+Cool Squad
+Cooltrainer
+Cooltrainer
+Pro Trainer
+Pro Trainer
+Cowgirl
+Cowgirl
+Criminal Team
+Criminal Team
+Cyclist
+Cyclist
+Dancer
+Dancer
+Dandy
+Dandy
+Delinquent
+Delinquent
+Depot Agent
+Depot Agent
+Developer
+Developer
+Hiker
+Hiker
+Pokémon Ranger
+Pokémon Ranger
+Doctor
+Doctor
+Double Team
+Double Team
+Dragon Tamer
+Dragon Tamer
+Elder
+Elder
+Expert
+Expert
+Fairy Tale Girl
+Fairy Tale Girl
+Firebreather
+Firebreather
+Fisherman
+Fisherman
+Former Champion
+Former Champion
+Gambler
+Gambler
+Gardener
+Gardener
+Gentleman
+Gentleman
+Guitarist
+Guitarist
+Harlequin
+Harlequin
+Hex Maniac
+Hex Maniac
+Hooligans
+Hooligans
+Hoopster
+Hoopster
+Ideal Trainer
+Ideal Trainer
+Idol
+Idol
+Infielder
+Infielder
+Interviewers
+Interviewers
+Cosplayer
+Cosplayer
+Janitor
+Janitor
+Jogger
+Jogger
+Juggler
+Juggler
+Kimono Girl
+Kimono Girl
+Lady
+Lady
+Lass
+Lass
+Gym Leader
+Gym Leader
+Linebacker
+Linebacker
+Maid
+Maid
+Masked Villain
+Masked Villain
+Masked Villains
+Masked Villains
+Medium
+Medium
+Neckbeard
+Neckbeard
+Nightmare Queen
+Nightmare Queen
+Nightmare of
+Nightmare of
+Ninja Boy
+Ninja Boy
+Nurse
+Nurse
+Nursery Aide
+Nursery Aide
+Office Worker
+Office Worker
+Parasol Lady
+Parasol Lady
+Picnicker
+Picnicker
+Pilot
+Pilot
+Poké Fan
+Poké Fan
+Poké Kid
+Poké Kid
+Poké Maniac
+Poké Maniac
+Pokémon Breeder
+Pokémon Breeder
+Pokémon Master
+Pokémon Master
+Androgynous
+Androgynous
+Feminine
+Feminine
+Masculine
+Masculine
+Pokémon Trainer
+Pokémon Trainer
+Policeman
+Policeman
+Preschooler
+Preschooler
+Professor
+Professor
+Psychic
+Psychic
+Punk
+Punk
+Rancher
+Rancher
+Reporter
+Reporter
+Rich Boy
+Rich Boy
+Rich Couple
+Rich Couple
+Rising Star
+Rising Star
+Roller Skater
+Roller Skater
+Roughneck
+Roughneck
+Ruin Maniac
+Ruin Maniac
+Sage
+Sage
+Sailor
+Sailor
+School Kid
+School Kid
+Scientist
+Scientist
+Seeker
+Seeker
+Shadow
+Shadow
+Sis and Bro
+Sis and Bro
+Skier
+Skier
+Smasher
+Smasher
+Socialite
+Socialite
+Spirit Guardian
+Spirit Guardian
+Striker
+Striker
+Super Nerd
+Super Nerd
+Suspicious Man
+Suspicious Man
+Swimmer
+Swimmer
+Guardian Deity
+Guardian Deity
+Teacher
+Teacher
+Tech Wizard
+Tech Wizard
+Teenager
+Teenager
+Tourist
+Tourist
+Your Brother
+Your Brother
+Tuber
+Tuber
+Twins
+Twins
+Ultra
+Ultra
+Veteran
+Veteran
+Waiter
+Waiter
+Waitress
+Waitress
+Wild Pack
+Wild Pack
+Wild Party
+Wild Party
+Worker
+Worker
+Young Couple
+Young Couple
+Youngster
+Youngster
+Test Trainer
+Test Trainer

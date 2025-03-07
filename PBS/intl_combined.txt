@@ -27517,7 +27517,7 @@ The user faints. In return, the Pokémon taking its place will have its status a
 The user lets loose a damaging burst of light. It also lowers the target's Sp. Def by two steps.
 释放耀眼的光芒进行攻击。20%概率降低对手的特防。
 Until end of turn, reflects status moves that target the user or create hazards around it.
-当对手使出会变成异常状态的技能或寄生种子等时，会将对手的技能反射回去。
+当对手使出会变成异常状态的技能或陷阱等时，会将对手的技能反射回去。
 A retaliation move that counters any special attack, inflicting double the damage taken.
 从对手那里受到特殊攻击的伤害将以2倍返还给同一个对手。
 A mistlike flurry of down envelops and damages the target. It also lowers the target's Sp. Atk by two steps.
@@ -27879,7 +27879,7 @@ The user raises all of their stats by two steps. Fails unless a foe fainted last
 The user strikes the target's pressure points, numbing it.
 使用技能击打对手的气穴，使其麻痹。
 A kick that can also eliminate trapping and hazard moves. Also raises user's Speed.
-这是一记可以清除束缚和陷阱类技能的踢击，使用后还会提高自己的速度。
+这是一记可以清除束缚和陷阱的踢击，使用后还会提高自己的速度。
 The user grabs the target, slamming both of them into the ground. The user takes 20% recoil.
 抓起对手，一同冲向地面。自己也会受到20%的伤害。
 The user kicks the target with a powerful, arcing technique.
@@ -30161,7 +30161,7 @@ Memory Sets
 Prismatic Plates
 棱镜板
 Wild Cards
-野生卡
+万能卡
 Proxy Fists
 替身之拳
 Covert Cloaks
@@ -33172,7 +33172,7 @@ Immune to status conditions while in sunshine.
 Immune to Ground-type moves. Immune to grounded hazards.
 免疫地面系技能。免疫地面上的各种陷阱。
 Reflects enemy status moves that target the Pokémon or create hazards around it.
-可以不受到由对手使出的变化技能影响，并将其反弹。
+可以不受到由对手使出的变化技能或者陷阱的影响，并将其反弹。
 The Pokémon only takes damage from attacks.
 不会受到攻击以外的伤害。
 Steals the held item of a Pokémon it hits.
@@ -33452,7 +33452,7 @@ Lays a trap of levitating stones around the opponent when its HP is lowered belo
 Has a 30% chance to dizzy targets when using special moves.
 使用特殊技能时，30%几率使其混乱。
 Slips past hazards. On the first turn, its attacks are always critical.
-无视钉类技能，第一回合时必定击中要害。
+无视陷阱，第一回合时必定击中要害。
 Moves ignore immunities due to typing.
 技能无视属性免疫效果。
 If an attack lowers its HP to half or less, lowers all of the attacker's stats.
@@ -33764,7 +33764,7 @@ Heals by 1/8th of its max HP each turn if in sunshine.
 Doubles Sp. Def in sunshine.
 晴天时，特防翻倍。
 Boosts the power of kicking moves by 30%. Immune to hazards.
-踢击类技能威力提升30%，并免疫因此触发的各种危险。
+踢击类技能威力提升30%，并免疫各种陷阱。
 Can hold two different items, if both are Herbs.
 可同时携带两个香草类物品。
 Wild Pokémon are more likely to appear in pairs and to be species you've never caught before.
@@ -33884,7 +33884,7 @@ Transforms into Midnight Form at the Full Moon. Ability becomes No Guard.
 The user's Speed is doubled while using Sound-based moves.
 使用声音类技能时的速度翻倍。
 Negates enemy status moves that target the Pokémon or create hazards around it.
-可以使自身为目标或在其周围布置阱陷的变化技能无效。
+可以使对手的以自身为目标或在其周围布置阱陷的变化技能无效。
 Prevents foes whose Sp. Atk is less than its from fleeing.
 特攻低于自身的对手无法逃跑。
 If an attack lowers the Pokémon's HP to half or less, the attacker becomes cursed.
@@ -34066,13 +34066,13 @@ Before using a status move against a single foe, lowers their Sp. Def by two ste
 Upon entry during sunshine, heals the lowest HP ally or self by 50%.
 在晴天进场时，回复同伴或自身50%的HP。
 Pokémon that swap in for this have their status effects healed, and take 30% less damage that turn.
-替换上场的精灵会恢复其异常状态，并且在当回合受到的伤害减少30%。
+替换该精灵上场的精灵会恢复其异常状态，并且在当回合受到的伤害减少30%。
 When hit with a physical move, hits back instantly with Leafage.
 受到物理攻击时，会立刻以树叶反击。
 Critical hits lower all of the victim's stats.
 击中要害时，降低其全能力。
 Immune to Dark-type and Bug-type moves.
-免疫黑暗系和虫系技能。
+免疫恶系和虫系技能。
 Moves that hit multiple targets deal 25% more damage instead of 25% less.
 能够攻击多个目标的技能，不会减少而会增加25%的威力。
 When the Pokémon eats a Berry, it raises its attacking stats by two steps each.
@@ -34090,11 +34090,11 @@ Protected from random added effects. Takes 30% less damage from moves with rando
 All Pokémon deal 40% more move damage.
 所有精灵提升40%技能伤害。
 Can't be numbed, waterlogged, trapped, or have its Speed lowered.
-不会麻痹、浸水、陷入束缚状态，速度也不会降低。
+不会被麻痹、浸水和无法逃走，速度也不会降低。
 The Pokémon is also Steel-type, but it takes 15% more damage from moves.
 同时被视为钢系，但受到的技能伤害增加15%。
 Doubles Defense in rainstorm.
-在暴雨天气中，防御翻倍。
+在雨天时，物防翻倍。
 Summons a sandstorm for four turns when hit by an attack.
 受到攻击后召唤持续四回合的沙暴。
 When it attacks from underground in sandstorm, it'll transform into Reaper form.
@@ -34108,7 +34108,7 @@ Upon entry, traps each opponent in a sand tomb for two turns.
 Special moves have a 30% chance to waterlog targets.
 特殊技能有30%的几率使目标浸水。
 Changes the weather to ring eclipse, which heralds the total ring eclipse. Lingers for 3 turns after leaving.
-将天气变为环形日食，预示着日全食的到来。离场后天气持续3回合。
+将天气变为环形日食，并预示着环形日全食的到来。离场后天气持续3回合。
 Powers up Poison-type moves by 50%.
 毒属性技能的威力提升50%。
 Boosts all of the Pokémon's move damage by 25% during eclipse.
@@ -34130,9 +34130,9 @@ Heals 1/12th HP every turn. Protected from being burned or frostbitten.
 Takes 25% less damage while using a status move.
 在使用变化技能时受到的伤害降低25%。
 Boosts Attack by 20% in hail, or 40% if also below half health.
-在冰雹天气中，攻击提升20%，若同时生命值低于一半则提升40%。
+在冰雹天气中，物攻提升20%，若同时生命值低于一半则提升40%。
 Its attacks are critical against numbed targets.
-对麻痹的目标发动攻击时必定暴击。
+对麻痹的目标发动攻击时必定会命中要害。
 Its physical attacks reduce the target's Defense.
 物理伤害会降低对手的防御。
 Takes 50% less damage from hyper-effective attacks.
@@ -34148,11 +34148,11 @@ Special moves against it lower the attacker's Speed and Sp. Atk.
 The Pokémon and other battlers don't benefit from same-type attacking bonus.
 全体失去本系技能加成。
 Boosts Speed by 50% in rainstorm. Doubles random added effect chance in rainstorm.
-在暴雨天气中，速度提升50%。在暴雨天气中，随机附加效果的几率翻倍。
+在暴雨天气中，速度提升50%，技能的附加效果的触发几率翻倍。
 Twice as likely for moves to be critical. Restores HP for half the damage it does with critical hits.
-技能暴击几率翻倍。暴击时恢复造成伤害一半的HP。
+技能命中要害几率翻倍。命中要害时恢复造成伤害一半的HP。
 At the end of each round, lowers other waterlogged Pokémon's Attack and Sp. Atk by two steps.
-在每回合结束时，降低其他处于浸水状态的精灵的攻击和特攻两级。
+在每回合结束时，降低其他处于浸水状态的精灵的物击和特攻两级。
 On the first turn, its attacks leech the target.
 第一回合的攻击会寄生对手。
 After using a sound move, lowers one of each foe's attacking stats, whichever is higher.
@@ -34160,7 +34160,7 @@ After using a sound move, lowers one of each foe's attacking stats, whichever is
 Whenever a foe fails or misses, they take 1/8th HP damage.
 对手的技能失败或没命中时，将受到1/8最大HP的伤害。
 Boosts Attack by 30% in hail.
-在冰雹天气中，攻击提升30%。
+在冰雹天气中，物攻提升30%。
 Can't be leeched, drained, or trapped.
 无法被寄生、吸取或困住。
 Two-turn retreat moves such as Dig skip the retreat turn.
@@ -34180,7 +34180,7 @@ In sunshine, gets a 25% boost to Sp. Atk and Sp. Def.
 Doubles Defense in moonglow.
 在月辉下防御翻倍。
 Physical attacks against the Pokémon have a 30% chance to waterlog the attacker.
-对该精灵发动的物理攻击有30%的几率使攻击者浸水。
+被物理技能攻击时，有30%的几率使攻击者浸水。
 Double damage to targets who don't share a type with their last-used move.
 连续使用不同属性技能时伤害提升。
 After using a sound move, raises both of the Pokémon's defensive stats.
@@ -34190,17 +34190,17 @@ Attacks hit twice for half damage, drain 25% of damage dealt and become special.
 Raises defenses after using a Grass-, Ground-, or Steel-type move.
 使用草、地面、钢属性技能后提升防御。
 The Pokémon and its allies' moves are twice as likely to be critical.
-该精灵和其队友的技能暴击几率翻倍。
+该精灵和其队友的技能的命中要害几率翻倍。
 Leaves two layers of spikes after it self-destructs.
 自爆后留下两层地菱。
 Speed is raised each turn. Speed is reset when hit, but the attacker takes 1/8th HP damage for each step lost.
 每回合提升速度，被攻击后降低速度，速度每次降低给对手造成1/8HP伤害。
 Can't be afflicted with any non-volatile status condition.
-不会陷入任何非挥发性异常状态。
+不会陷入任何非回合类异常状态。
 Has a 30% chance to dizzy targets when using physical moves.
 使用物理技能时有30%的几率混乱对手。
 Prevents stat steps from being lowered (except when self-inflicted). Immune to weather downsides.
-防止属性等级下降（自身造成的除外）。免疫天气的负面效果。
+防止能力等级下降效果（自身造成的除外）。免疫天气的负面效果。
 The user's critical hit chance raises or lowers with its Speed.
 自身暴击率随着其速度而提高或降低。
 Sets a Light Screen for 4 turns upon entering the battle.
@@ -34212,7 +34212,7 @@ Takes 50% less damage from Water-type moves. Raises Speed by four steps when hit
 Immune to Steel-type moves and restores 25% of max HP if hit by one.
 免疫钢系技能，并且受到钢系技能攻击时会恢复最大HP的25%。
 Steel-type attacks deal 50% more damage, and the Pokémon is protected from critical hits.
-钢系攻击造成的伤害提升50%，并且该精灵受到的攻击不会暴击。
+钢系攻击造成的伤害提升50%，并且该精灵受到的攻击不会命中要害。
 Fly and Dive Bomb deal 50% more damage.
 飞翔和俯冲轰炸的伤害提升50%。
 Can hold a second item by stealing it.
@@ -34220,7 +34220,7 @@ Can hold a second item by stealing it.
 If an attack lowers its HP to half or less, leeches the attacker.
 如果被攻击将自身HP降至50%或以下，就会寄生攻击者。
 Prevents half the self-damage from recoil. Powers up moves that have recoil damage by 20%.
-防止一半的自伤。提升具有自伤效果的技能的威力20%。
+提升具有反伤效果的技能的威力20%，并且技能的反伤伤害减半。
 Summons rainstorm for four turns when hit by an attack.
 受到攻击时，召唤持续四回合的暴雨。
 Upon entry, summons a Turbulent Sky on the Pokémon's side for 6 turns.
@@ -34250,7 +34250,7 @@ Uses Rapid Spin after its first attack to clear hazards, raise Speed, and deal d
 Boosts Sp. Atk by 30% in hail.
 冰雹天气时，提高30%的特攻。
 At the end of each turn, if in sunshine, each Pokémon not immune to sunshine has their defensive stats lowered by 1 step.
-在每回合结束时，如果处于阳光天气，每个非免疫阳光的精灵的防御属性会下降1级。
+在每回合结束时，如果处于晴天，所有不免疫阳光负面效果的精灵的双防会下降1级。
 Boosts Attack by 30% in sunshine.
 晴朗天气下提高30%攻击。
 Summons eclipse for four turns when hit by an attack.
@@ -34258,7 +34258,7 @@ Summons eclipse for four turns when hit by an attack.
 Powers up Water-type moves by 50%.
 水属性技能的威力提升50%。
 It avoids hazards and can't be knocked out with one hit.
-不会被持续伤害击倒。
+免疫陷阱，并且不会被一击打倒。
 The user's Speed is doubled while using kicking moves.
 使用踢击类技能时速度翻倍。
 Boosts the power of blade moves by 30%.
@@ -34274,13 +34274,13 @@ At the end of each round, lowers other numbed Pokémon's Defense and Sp. Def by 
 Boosts damage by 20% if there is a weather. Immune to weather downsides.
 在天气下增加20%的伤害。免疫天气的不利影响。
 Flinching moves always activate their random effects.
-使目标畏缩的技能总会触发其随机效果。
+能使目标畏缩的技能总会触发其附加效果。
 Becomes energy charged upon entry, doubling the power of its next Electric-type attack.
-入场时获得能量充电状态，其下一次电系攻击的威力翻倍。
+入场时获得充电状态，其下一次电系攻击的威力翻倍。
 By sacrificing a held item the Pokémon didn't start with, it can negate one attack against it.
 通过牺牲一个精灵入场时未携带的物品，它可以抵消一次针对它的攻击。
 Becomes energy charged when hit by an attack, doubling the power of its next Electric-type attack.
-被攻击命中时获得能量充电状态，其下一次电系攻击的威力翻倍。
+被攻击时获得充电状态，其下一次电系攻击的威力翻倍。
 Its attacks have priority, deal 25% less damage and become special.
 可以率先发起攻击，伤害降低25%，并变成特殊技能。
 Between each turn there's another turn where no one moves.
@@ -34348,7 +34348,7 @@ The Pokémon's attacks are always critical if there is an active Room.
 Double Sp. Def in eclipse.
 日食天气时，特防翻倍。
 Boosts Speed by 50% in rainstorm. Can't miss during rainstorm.
-在暴雨天气中，速度提升50%。在暴雨天气中，攻击必定命中。
+在暴雨天气中，速度提升50%，且攻击必定命中。
 Immune to weather downsides, and takes 20% less damage from attacks during weather.
 免疫天气的负面效果，在天气变化时降低受到的伤害。
 Takes 50% less damage from not-very-effective or barely-effective attacks.
@@ -34364,7 +34364,7 @@ Upon entry, creates a Willful Room for five turns, reducing all hits by 30 damag
 During hail, immune to Fire- and Electric-type moves.
 冰雹天气时，免疫火和电属性技能。
 Lays an electrical hazard around the opponent when its HP is lowered below half.
-当其HP降至一半以下时，在对手周围布置一个电击陷阱。
+当其HP降至一半以下时，在对手周围布置电击陷阱。
 After knocking out any Pokémon, raises its Sp. Atk and Sp. Def.
 击倒任意精灵后提升特攻特防。
 The random added effects of moves by all battlers always activate.
@@ -34376,7 +34376,7 @@ Uses Dragon Dance if an attack lowers its HP to half or below.
 Boosts the power of rampaging moves by 30%, and makes them physical or special based on which would be more effective.
 将暴走类技能的威力提升30%，并根据哪种更有效将其变为物理或特殊技能。
 The Pokémon starts as a very convincing Pikachu!
-精灵一开始是一只非常逼真的皮卡丘！
+精灵将作为一只非常逼真的皮卡丘开始战斗！
 Transforms into the entire enemy team, except buffed!
 变身为对方的队伍，并获得加成！
 Heals for 1/4th of its HP at the end of every turn.
@@ -34384,31 +34384,31 @@ Heals for 1/4th of its HP at the end of every turn.
 Attack and Speed are halved.
 攻击和速度减半。
 Adapts the move's type to ensure it is super-effective against the target.
-调整技能的类型，以确保其对目标具有超级效果。
+调整技能的类型，以确保其对目标具有效果拔群效果。
 Adapts the move's type to ensure it is truly super-effective against the target.
-调整技能的类型，以确保其对目标具有真正的超级效果。
+调整技能的类型，以确保其对目标具有真正的效果拔群效果。
 Adapts the move's type to maximize effectiveness while accounting for the immunities.
-调整技能的类型，以考虑免疫因素来最大化效果。
+调整技能的类型，以考虑免疫因素来最大化伤害。
 Adapts the move's type to maximize damage against the target.
-调整技能的类型，以对目标造成最大伤害。
-When hitting a target with an ability that has an offensive damage-modifying effect, ignores the conditions and triggers the effect for the Pokémon.
-当用具有攻击伤害调整效果的特性击中目标时，无视条件并为精灵触发该效果。
+调整技能的类型，以对目标造成绝对最大伤害。
+When hitting a target that has an ability with an offensive damage-modifying effect, the Pokémon ignores the conditions and triggers the effect.
+当攻击的对手具有它自己在攻击时改变伤害的效果的特性时（如猛火），无视那个特性的发动条件并为自身触发该效果。
 When the Pokémon's level is 30 or higher, it transforms into a member of its family depending on the type of the move it is about to use.
 当精灵等级达到30级或以上时，它会根据即将使用的技能的类型变为其家族的成员。
 When the Pokémon faints, it rewinds itself to 3 turns ago.
-当精灵失去意识时，它会倒回到3回合前。
+当精灵失去意识时，它会回到3回合前的状态。
 The targets cannot avoid facing the attack by the Pokémon.
-目标无法躲避精灵的攻击。
+目标必须面对该精灵的攻击。
 Attacks switching opponents with Pursuit.
-用追击攻击替换对手。
+会自动使用追击攻击进行替换的对手。
 Changes to a random Pokémon at the end of each turn.
 在每个回合结束时，随机变为一只精灵。
 Can switch out of battle without wasting a turn.
-可以不浪费回合地切换出战斗。
+可以和队伍里的其他精灵进行替换，替换的上场的精灵依然可以使用技能。
 Turns rainstorm into Harsh Sunlight, sunshine into Heavy Rain.
-将暴雨变为强烈阳光，将阳光变为暴雨。
+将雨天改为大晴天，将晴天改为大雨天。
 Stats that the Pokémon raises remain raised even after switching.
-精灵提升的属性即使在切换后仍保持提升状态。
+精灵提升的能力等级即使在替换下场后仍会保持。
 This ability exists just to showcase the PBS Extensions system.
 这个特性只是为了展示PBS扩展系统。
 [12]
@@ -34472,1051 +34472,6 @@ Fairy
 19
 Mutant
 基因
-[13]
-0
-Wild
-野生的
-1
-Ancient Priest
-Ancient Priest
-2
-Another Possible
-Another Possible
-3
-Another Possible
-Another Possible
-4
-Another Possible
-Another Possible
-5
-Archfriend
-Archfriend
-6
-Aroma Lady
-Aroma Lady
-7
-Aroma Lady
-Aroma Lady
-8
-Aroma Lady
-Aroma Lady
-9
-Artificial Trainer
-Artificial Trainer
-10
-Artist
-Artist
-11
-Artist
-Artist
-12
-Artist
-Artist
-13
-Artist
-Artist
-14
-Backers
-Backers
-15
-Backers
-Backers
-16
-Backpacker
-Backpacker
-17
-Backpacker
-Backpacker
-18
-Baker
-Baker
-19
-Battle Girl
-Battle Girl
-20
-Battle Girl
-Battle Girl
-21
-Battle Girl
-Battle Girl
-22
-Battle Girl
-Battle Girl
-23
-Beauty
-Beauty
-24
-Beauty
-Beauty
-25
-Beauty
-Beauty
-26
-Beauty
-Beauty
-27
-Beauty
-Beauty
-28
-Beauty
-Beauty
-29
-Belle & Pa
-Belle & Pa
-30
-Biker
-Biker
-31
-Biker
-Biker
-32
-Bird Keeper
-Bird Keeper
-33
-Bird Keeper
-Bird Keeper
-34
-Bird Keeper
-Bird Keeper
-35
-Black Belt
-Black Belt
-36
-Black Belt
-Black Belt
-37
-Black Belt
-Black Belt
-38
-Black Belt
-Black Belt
-39
-Boarder
-Boarder
-40
-Bug Catcher
-Bug Catcher
-41
-Bug Catcher
-Bug Catcher
-42
-Bug Catcher
-Bug Catcher
-43
-Burglar
-Burglar
-44
-Butler
-Butler
-45
-Cameraman
-Cameraman
-46
-Cameraman
-Cameraman
-47
-Camper
-Camper
-48
-Camper
-Camper
-49
-Camper
-Camper
-50
-CEO
-CEO
-51
-Challenger
-Challenger
-52
-Champion
-Champion
-53
-Champion
-Champion
-54
-Driller
-Driller
-55
-Chef
-Chef
-56
-Clerk
-Clerk
-57
-Clerk
-Clerk
-58
-Clerk
-Clerk
-59
-Clown
-Clown
-60
-Collector
-Collector
-61
-Cool Squad
-Cool Squad
-62
-Cooltrainer
-Cooltrainer
-63
-Cooltrainer
-Cooltrainer
-64
-Cooltrainer
-Cooltrainer
-65
-Cooltrainer
-Cooltrainer
-66
-Pro Trainer
-Pro Trainer
-67
-Cooltrainer
-Cooltrainer
-68
-Cooltrainer
-Cooltrainer
-69
-Cooltrainer
-Cooltrainer
-70
-Cooltrainer
-Cooltrainer
-71
-Pro Trainer
-Pro Trainer
-72
-Cowgirl
-Cowgirl
-73
-Criminal Team
-Criminal Team
-74
-Cyclist
-Cyclist
-75
-Cyclist
-Cyclist
-76
-Cyclist
-Cyclist
-77
-Cyclist
-Cyclist
-78
-Dancer
-Dancer
-79
-Dandy
-Dandy
-80
-Delinquent
-Delinquent
-81
-Depot Agent
-Depot Agent
-82
-Developer
-Developer
-83
-Aroma Lady
-Aroma Lady
-84
-Camper
-Camper
-85
-Hiker
-Hiker
-86
-Pro Trainer
-Pro Trainer
-87
-Pokémon Ranger
-Pokémon Ranger
-88
-Doctor
-Doctor
-89
-Double Team
-Double Team
-90
-Double Team
-Double Team
-91
-Dragon Tamer
-Dragon Tamer
-92
-Dragon Tamer
-Dragon Tamer
-93
-Elder
-Elder
-94
-Expert
-Expert
-95
-Expert
-Expert
-96
-Fairy Tale Girl
-Fairy Tale Girl
-97
-Firebreather
-Firebreather
-98
-Fisherman
-Fisherman
-99
-Fisherman
-Fisherman
-100
-Former Champion
-Former Champion
-101
-Former Champion
-Former Champion
-102
-Former Champion
-Former Champion
-103
-Former Champion
-Former Champion
-104
-Former Champion
-Former Champion
-105
-Former Champion
-Former Champion
-106
-Former Champion
-Former Champion
-107
-Gambler
-Gambler
-108
-Gardener
-Gardener
-109
-Gentleman
-Gentleman
-110
-Gentleman
-Gentleman
-111
-Gentleman
-Gentleman
-112
-Guitarist
-Guitarist
-113
-Guitarist
-Guitarist
-114
-Guitarist
-Guitarist
-115
-Harlequin
-Harlequin
-116
-Hex Maniac
-Hex Maniac
-117
-Hiker
-Hiker
-118
-Hiker
-Hiker
-119
-Hiker
-Hiker
-120
-Hooligans
-Hooligans
-121
-Hoopster
-Hoopster
-122
-Ideal Trainer
-Ideal Trainer
-123
-Idol
-Idol
-124
-Infielder
-Infielder
-125
-Interviewers
-Interviewers
-126
-Cosplayer
-Cosplayer
-127
-Janitor
-Janitor
-128
-Jogger
-Jogger
-129
-Juggler
-Juggler
-130
-Kimono Girl
-Kimono Girl
-131
-Lady
-Lady
-132
-Lady
-Lady
-133
-Lady
-Lady
-134
-Lady
-Lady
-135
-Lass
-Lass
-136
-Lass
-Lass
-137
-Lass
-Lass
-138
-Lass
-Lass
-139
-Lass
-Lass
-140
-Lass
-Lass
-141
-Gym Leader
-Gym Leader
-142
-Gym Leader
-Gym Leader
-143
-Gym Leader
-Gym Leader
-144
-Gym Leader
-Gym Leader
-145
-Gym Leader
-Gym Leader
-146
-Gym Leader
-Gym Leader
-147
-Gym Leader
-Gym Leader
-148
-Gym Leader
-Gym Leader
-149
-Gym Leader
-Gym Leader
-150
-Gym Leader
-Gym Leader
-151
-Gym Leader
-Gym Leader
-152
-Gym Leader
-Gym Leader
-153
-Gym Leader
-Gym Leader
-154
-Gym Leader
-Gym Leader
-155
-Gym Leader
-Gym Leader
-156
-Gym Leader
-Gym Leader
-157
-Gym Leader
-Gym Leader
-158
-Gym Leader
-Gym Leader
-159
-Linebacker
-Linebacker
-160
-Pokémon Ranger
-Pokémon Ranger
-161
-Pokémon Ranger
-Pokémon Ranger
-162
-Pokémon Ranger
-Pokémon Ranger
-163
-Maid
-Maid
-164
-Maid
-Maid
-165
-Masked Villain
-Masked Villain
-166
-Masked Villain
-Masked Villain
-167
-Masked Villains
-Masked Villains
-168
-Masked Villains
-Masked Villains
-169
-Masked Villain
-Masked Villain
-170
-Medium
-Medium
-171
-Neckbeard
-Neckbeard
-172
-Nightmare Queen
-Nightmare Queen
-173
-Nightmare of
-Nightmare of
-174
-Ninja Boy
-Ninja Boy
-175
-Nurse
-Nurse
-176
-Nursery Aide
-Nursery Aide
-177
-Office Worker
-Office Worker
-178
-Office Worker
-Office Worker
-179
-Parasol Lady
-Parasol Lady
-180
-Parasol Lady
-Parasol Lady
-181
-Picnicker
-Picnicker
-182
-Pilot
-Pilot
-183
-Poké Fan
-Poké Fan
-184
-Poké Fan
-Poké Fan
-185
-Poké Fan
-Poké Fan
-186
-Poké Fan
-Poké Fan
-187
-Poké Fan
-Poké Fan
-188
-Poké Kid
-Poké Kid
-189
-Poké Maniac
-Poké Maniac
-190
-Pokémon Breeder
-Pokémon Breeder
-191
-Pokémon Breeder
-Pokémon Breeder
-192
-Pokémon Breeder
-Pokémon Breeder
-193
-Pokémon Breeder
-Pokémon Breeder
-194
-Pokémon Breeder
-Pokémon Breeder
-195
-Pokémon Breeder
-Pokémon Breeder
-196
-Pokémon Breeder
-Pokémon Breeder
-197
-Pokémon Breeder
-Pokémon Breeder
-198
-Pokémon Master
-Pokémon Master
-199
-Pokémon Ranger
-Pokémon Ranger
-200
-Pokémon Ranger
-Pokémon Ranger
-201
-Pokémon Ranger
-Pokémon Ranger
-202
-Pokémon Ranger
-Pokémon Ranger
-203
-Pokémon Ranger
-Pokémon Ranger
-204
-Pokémon Ranger
-Pokémon Ranger
-205
-Pokémon Ranger
-Pokémon Ranger
-206
-Pokémon Ranger
-Pokémon Ranger
-207
-Androgynous
-Androgynous
-208
-Feminine
-Feminine
-209
-Masculine
-Masculine
-210
-Pokémon Trainer
-Pokémon Trainer
-211
-Pokémon Trainer
-Pokémon Trainer
-212
-Pokémon Trainer
-Pokémon Trainer
-213
-Policeman
-Policeman
-214
-Policeman
-Policeman
-215
-Preschooler
-Preschooler
-216
-Preschooler
-Preschooler
-217
-Professor
-Professor
-218
-Psychic
-Psychic
-219
-Psychic
-Psychic
-220
-Psychic
-Psychic
-221
-Psychic
-Psychic
-222
-Psychic
-Psychic
-223
-Psychic
-Psychic
-224
-Psychic
-Psychic
-225
-Punk
-Punk
-226
-Punk
-Punk
-227
-Rancher
-Rancher
-228
-Reporter
-Reporter
-229
-Reporter
-Reporter
-230
-Rich Boy
-Rich Boy
-231
-Rich Boy
-Rich Boy
-232
-Rich Boy
-Rich Boy
-233
-Rich Boy
-Rich Boy
-234
-Rich Couple
-Rich Couple
-235
-Rising Star
-Rising Star
-236
-Rising Star
-Rising Star
-237
-Rising Star
-Rising Star
-238
-Rising Star
-Rising Star
-239
-Roller Skater
-Roller Skater
-240
-Roller Skater
-Roller Skater
-241
-Roughneck
-Roughneck
-242
-Roughneck
-Roughneck
-243
-Ruin Maniac
-Ruin Maniac
-244
-Ruin Maniac
-Ruin Maniac
-245
-Sage
-Sage
-246
-Sailor
-Sailor
-247
-Sailor
-Sailor
-248
-School Kid
-School Kid
-249
-School Kid
-School Kid
-250
-School Kid
-School Kid
-251
-School Kid
-School Kid
-252
-School Kid
-School Kid
-253
-School Kid
-School Kid
-254
-School Kid
-School Kid
-255
-Scientist
-Scientist
-256
-Scientist
-Scientist
-257
-Scientist
-Scientist
-258
-Scientist
-Scientist
-259
-Scientist
-Scientist
-260
-Scientist
-Scientist
-261
-Scientist
-Scientist
-262
-Seeker
-Seeker
-263
-Shadow
-Shadow
-264
-Sis and Bro
-Sis and Bro
-265
-Skier
-Skier
-266
-Skier
-Skier
-267
-Skier
-Skier
-268
-Smasher
-Smasher
-269
-Socialite
-Socialite
-270
-Socialite
-Socialite
-271
-Spirit Guardian
-Spirit Guardian
-272
-Spirit Guardian
-Spirit Guardian
-273
-Spirit Guardian
-Spirit Guardian
-274
-Spirit Guardian
-Spirit Guardian
-275
-Striker
-Striker
-276
-Super Nerd
-Super Nerd
-277
-Suspicious Man
-Suspicious Man
-278
-Swimmer
-Swimmer
-279
-Swimmer
-Swimmer
-280
-Swimmer
-Swimmer
-281
-Swimmer
-Swimmer
-282
-Swimmer
-Swimmer
-283
-Swimmer
-Swimmer
-284
-Swimmer
-Swimmer
-285
-Swimmer
-Swimmer
-286
-Swimmer
-Swimmer
-287
-Swimmer
-Swimmer
-288
-Swimmer
-Swimmer
-289
-Swimmer
-Swimmer
-290
-Guardian Deity
-Guardian Deity
-291
-Guardian Deity
-Guardian Deity
-292
-Guardian Deity
-Guardian Deity
-293
-Guardian Deity
-Guardian Deity
-294
-Teacher
-Teacher
-295
-Tech Wizard
-Tech Wizard
-296
-Teenager
-Teenager
-297
-Teenager
-Teenager
-298
-Tourist
-Tourist
-299
-Tourist
-Tourist
-300
-Pokémon Trainer
-Pokémon Trainer
-301
-Pokémon Trainer
-Pokémon Trainer
-302
-Pokémon Trainer
-Pokémon Trainer
-303
-Pokémon Trainer
-Pokémon Trainer
-304
-Pokémon Trainer
-Pokémon Trainer
-305
-Pokémon Trainer
-Pokémon Trainer
-306
-Pokémon Trainer
-Pokémon Trainer
-307
-Pokémon Trainer
-Pokémon Trainer
-308
-Pokémon Trainer
-Pokémon Trainer
-309
-Pokémon Trainer
-Pokémon Trainer
-310
-Your Brother
-Your Brother
-311
-Tuber
-Tuber
-312
-Tuber
-Tuber
-313
-Tuber
-Tuber
-314
-Tuber
-Tuber
-315
-Twins
-Twins
-316
-Twins
-Twins
-317
-Twins
-Twins
-318
-Ultra
-Ultra
-319
-Veteran
-Veteran
-320
-Veteran
-Veteran
-321
-Veteran
-Veteran
-322
-Veteran
-Veteran
-323
-Veteran
-Veteran
-324
-Wild
-Wild
-325
-Waiter
-Waiter
-326
-Waiter
-Waiter
-327
-Waiter
-Waiter
-328
-Waitress
-Waitress
-329
-Waitress
-Waitress
-330
-Waitress
-Waitress
-331
-Wild Pack
-Wild Pack
-332
-Wild Party
-Wild Party
-333
-Wild Party
-Wild Party
-334
-Wild Party
-Wild Party
-335
-Wild Party
-Wild Party
-336
-Worker
-Worker
-337
-Worker
-Worker
-338
-Worker
-Worker
-339
-Worker
-Worker
-340
-Worker
-Worker
-341
-Worker
-Worker
-342
-Young Couple
-Young Couple
-343
-Young Couple
-Young Couple
-344
-Youngster
-Youngster
-345
-Youngster
-Youngster
-346
-Youngster
-Youngster
-347
-Test Trainer
-Test Trainer
 [14]
 Tester
 泰斯特
@@ -42558,9 +41513,9 @@ The Mail was returned to the Bag with its message erased.
 The Bag is full.
 背包满了。
 \se[PC open]{1} booted up the PC.
-\se[PC open]{1} 启动了电脑。
+\se[PC open]{1}启动了电脑。
 What do you want to do?
-你打算？
+你想要做什么？
 Item Storage
 物品储存
 Mailbox
@@ -43164,7 +42119,7 @@ Battle Points:<<n>><ar>{1}</ar>
 Not sure
 不确定
 ???
-???
+？？？
 Tamarind
 塔玛琳
 Yezera
@@ -43270,11 +42225,11 @@ other
 Sprite set already has a particle engine, cannot add another!
 无法再次添加！
 Badges:
-徽章:
+徽章：
 Pokédex:
-图鉴:
+图鉴：
 Time:
-时间:
+时间：
 The save file is corrupt. A backup will be loaded.
 存档文件已损坏，请加载备份。
 The save file is corrupt, or is incompatible with this game.
@@ -45022,33 +43977,33 @@ Oh no! The avatars of {1} and {2} appeared!
 Oh! A wild {1} and {2} appeared!
 野生的{1}和{2}出现了！
 Oh no! The avatars of {1}, {2} and {3} appeared!
-化身{1}, {2}和{3}出现了！
+化身{1}、{2}和{3}出现了！
 Oh! A wild {1}, {2} and {3} appeared!
 野生的{1}, {2}和{3}出现了！
 You are challenged by {1}!
-接到了 {1} 的挑战!
+接到了{1}的挑战！
 You are challenged by {1} and {2}!
-接到了 {1} 和 {2} 的挑战!
+接到了{1}和{2}的挑战！
 You are challenged by {1}, {2} and {3}!
-接到了 {1}, {2} 和 {3} 的挑战!
+接到了{1}、{2}和{3}的挑战！
 {1} sent out {2}!
-{1} 放出了 {2}!
+{1}放出了{2}！
 {1} sent out {2} and {3}!
-{1} 放出了 {2} 和 {3}!
+{1}放出了{2}和{3}！
 {1} sent out {2}, {3} and {4}!
-{1} 放出了 {2}, {3} 和 {4}!
+{1}放出了{2}、{3}和{4}！
 The {1} joined the battle!
-{1} 加入了战局
+{1}加入了战局！
 {1} and {2} joined the battle!
-{1} 和 {2} 加入了战局
+{1}和{2}加入了战局！
 {1}, {2} and {3} joined the battle!
-{1}, {2} 和 {3} 加入了战局
+{1}、{2}和{3}加入了战局！
 Go! {1}!
-去吧 {1}!
+去吧，{1}！
 Go! {1} and {2}!
-去吧 {1} 和 {2}!
+去吧，{1}和{2}！
 Go! {1}, {2} and {3}!
-去吧 {1}, {2} 和 {3}!
+去吧，{1}、{2}和{3}！
 \wmA major error has occured! Please screen-shot the following error message and share it in our bug channel.
 \wmA major error has occured! Please screen-shot the following error message and share it in our bug channel.
 \wmRather than crashing, we will give the victory to you.
@@ -51796,9 +50751,9 @@ Enter the right post.
 Would you like to re-download the game from the official post?
 Would you like to re-download the game from the official post?
 {1} cannot have any status!
-{1} cannot have any status!
+{1}不能陷入任何异常状态！
 Enter a code.
-输入一个密码。
+输入密码。
 The code has been used!
 此密码已经被使用过了！
 Please enter a valid code!
@@ -51808,7 +50763,7 @@ The Pokémon don't have any abilities.
 Ability: {1}
 特性：{1}
 This ability has not been implemented.
-This ability has not been implemented.
+这个特性还没有完成。
 Ability Recorder recorded {1}'s {2}!
 特性记录器记录下了{1}的{2}！
 You don't have any Pokémon in Dimension D!
@@ -60870,3 +59825,288 @@ White-Striped
 White-Striped
 Test Form
 测试形态
+[1313]
+Wild
+野生的
+Ancient Priest
+Ancient Priest
+Another Possible
+Another Possible
+Archfriend
+Archfriend
+Aroma Lady
+Aroma Lady
+Artificial Trainer
+Artificial Trainer
+Artist
+Artist
+Backers
+Backers
+Backpacker
+Backpacker
+Baker
+Baker
+Battle Girl
+Battle Girl
+Beauty
+Beauty
+Belle & Pa
+Belle & Pa
+Biker
+Biker
+Bird Keeper
+Bird Keeper
+Black Belt
+Black Belt
+Boarder
+Boarder
+Bug Catcher
+Bug Catcher
+Burglar
+Burglar
+Butler
+Butler
+Cameraman
+Cameraman
+Camper
+Camper
+CEO
+CEO
+Challenger
+Challenger
+Champion
+Champion
+Driller
+Driller
+Chef
+Chef
+Clerk
+Clerk
+Clown
+Clown
+Collector
+Collector
+Cool Squad
+Cool Squad
+Cooltrainer
+Cooltrainer
+Pro Trainer
+Pro Trainer
+Cowgirl
+Cowgirl
+Criminal Team
+Criminal Team
+Cyclist
+Cyclist
+Dancer
+Dancer
+Dandy
+Dandy
+Delinquent
+Delinquent
+Depot Agent
+Depot Agent
+Developer
+Developer
+Hiker
+Hiker
+Pokémon Ranger
+Pokémon Ranger
+Doctor
+Doctor
+Double Team
+Double Team
+Dragon Tamer
+Dragon Tamer
+Elder
+Elder
+Expert
+Expert
+Fairy Tale Girl
+Fairy Tale Girl
+Firebreather
+Firebreather
+Fisherman
+Fisherman
+Former Champion
+Former Champion
+Gambler
+Gambler
+Gardener
+Gardener
+Gentleman
+Gentleman
+Guitarist
+Guitarist
+Harlequin
+Harlequin
+Hex Maniac
+Hex Maniac
+Hooligans
+Hooligans
+Hoopster
+Hoopster
+Ideal Trainer
+Ideal Trainer
+Idol
+Idol
+Infielder
+Infielder
+Interviewers
+Interviewers
+Cosplayer
+Cosplayer
+Janitor
+Janitor
+Jogger
+Jogger
+Juggler
+Juggler
+Kimono Girl
+Kimono Girl
+Lady
+Lady
+Lass
+Lass
+Gym Leader
+Gym Leader
+Linebacker
+Linebacker
+Maid
+Maid
+Masked Villain
+Masked Villain
+Masked Villains
+Masked Villains
+Medium
+Medium
+Neckbeard
+Neckbeard
+Nightmare Queen
+Nightmare Queen
+Nightmare of
+Nightmare of
+Ninja Boy
+Ninja Boy
+Nurse
+Nurse
+Nursery Aide
+Nursery Aide
+Office Worker
+Office Worker
+Parasol Lady
+Parasol Lady
+Picnicker
+Picnicker
+Pilot
+Pilot
+Poké Fan
+Poké Fan
+Poké Kid
+Poké Kid
+Poké Maniac
+Poké Maniac
+Pokémon Breeder
+Pokémon Breeder
+Pokémon Master
+Pokémon Master
+Androgynous
+Androgynous
+Feminine
+Feminine
+Masculine
+Masculine
+Pokémon Trainer
+Pokémon Trainer
+Policeman
+Policeman
+Preschooler
+Preschooler
+Professor
+Professor
+Psychic
+Psychic
+Punk
+Punk
+Rancher
+Rancher
+Reporter
+Reporter
+Rich Boy
+Rich Boy
+Rich Couple
+Rich Couple
+Rising Star
+Rising Star
+Roller Skater
+Roller Skater
+Roughneck
+Roughneck
+Ruin Maniac
+Ruin Maniac
+Sage
+Sage
+Sailor
+Sailor
+School Kid
+School Kid
+Scientist
+Scientist
+Seeker
+Seeker
+Shadow
+Shadow
+Sis and Bro
+Sis and Bro
+Skier
+Skier
+Smasher
+Smasher
+Socialite
+Socialite
+Spirit Guardian
+Spirit Guardian
+Striker
+Striker
+Super Nerd
+Super Nerd
+Suspicious Man
+Suspicious Man
+Swimmer
+Swimmer
+Guardian Deity
+Guardian Deity
+Teacher
+Teacher
+Tech Wizard
+Tech Wizard
+Teenager
+Teenager
+Tourist
+Tourist
+Your Brother
+Your Brother
+Tuber
+Tuber
+Twins
+Twins
+Ultra
+Ultra
+Veteran
+Veteran
+Waiter
+Waiter
+Waitress
+Waitress
+Wild Pack
+Wild Pack
+Wild Party
+Wild Party
+Worker
+Worker
+Young Couple
+Young Couple
+Youngster
+Youngster
+Test Trainer
+Test Trainer

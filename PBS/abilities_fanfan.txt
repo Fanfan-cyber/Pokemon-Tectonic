@@ -22,7 +22,7 @@ Flags = Unassigned
 #-------------------------------
 [BACKFIRE] # 0690
 Name = Backfire
-Description = When hitting a target with an ability that has an offensive damage-modifying effect, ignores the conditions and triggers the effect for the Pokémon.
+Description = When hitting a target that has an ability with an offensive damage-modifying effect, the Pokémon ignores the conditions and triggers the effect.
 #-------------------------------
 [BIOENGINEERING] # 0691
 Name = Bioengineering
