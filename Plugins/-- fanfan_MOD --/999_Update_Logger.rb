@@ -13,7 +13,6 @@ EndSpeechLose  = 17
 FORMNAMES_HASH = 444
 TrainerNames   = 14
 BattleEffects  = 32
-ScriptTexts    = 24
 =end
 MOD_VERSION = "0.2.4"
 
@@ -120,7 +119,8 @@ v0.2.4
 9.完成了绝大部分内容的翻译工作
 10.完成了技能的描述部分的翻译工作
 11.完成了特性的描述部分的翻译工作
-12.
+12.完成了代码部分中的文本的翻译工作
+13.
 
 v0.2.3
 1.添加了无经验模式，现在可以输入密码zeroexp开启
