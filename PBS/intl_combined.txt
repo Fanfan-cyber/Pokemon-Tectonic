@@ -37892,7 +37892,7 @@ House of Leaves
 绿叶之家
 10
 Six Spire Cave
-Six Spire Cave
+六尖塔洞窟
 11
 Eleig River Crossing
 埃利格渡口
@@ -37904,7 +37904,7 @@ Frost Station 1032
 霜皑站
 14
 LuxTech Buildings
-LuxTech Buildings
+光华建筑
 15
 LuxTech Mart
 光华商店
@@ -37916,7 +37916,7 @@ Mine Head's House
 矿工之家
 18
 Mine Head's House F2
-矿工之家
+矿工之家 F2
 19
 Reading Ribombee Café
 阅蜂咖啡厅
@@ -37928,13 +37928,13 @@ LuxTech Gym
 光华道馆
 22
 False-Front House
-False-Front House
+假面屋
 23
 Testing Map
-Testing Map
+测试地图
 24
 Shaymin's Chamber
-Shaymin's Chamber
+谢米的圣殿
 25
 Grouz
 古治镇
@@ -37943,16 +37943,16 @@ Bluepoint Grotto
 蓝莹洞窟
 27
 The Catacombs B4
-甜瓜商店
+甜瓜商店 B4
 28
 Professor's House
 教授之家
 29
 Full Blast Records F2
-王炸唱片公司F2
+王炸唱片公司 F2
 30
 Windy Way
-Windy Way
+北风路
 31
 Path to Paradise
 天堂之路
@@ -37976,7 +37976,7 @@ Svait
 霜皑镇
 38
 Bluepoint Beach
-Bluepoint Beach
+蓝莹海滩
 39
 Casaba Center
 甜瓜中心
@@ -37988,10 +37988,10 @@ Casaba Gym
 甜瓜道馆
 42
 Zeraora's Chamber
-Zeraora's Chamber
+捷拉奥拉的圣殿
 43
 Novo Apartments F2
-望新公寓
+望新公寓 F2
 44
 Lambert's House
 兰伯特家
@@ -38054,10 +38054,10 @@ Novo Buildings
 望新建筑
 64
 M. Munna Den
-M. Munna Den
+梦梦蚀巢穴
 65
 Goomy Den 3
-望新商店
+黏黏宝巢穴 3
 66
 Apartment Attic
 公寓阁楼
@@ -38066,40 +38066,40 @@ Old Ice Cream Shop
 老冰淇淋店
 68
 Room 104
-公寓104
+公寓 104
 69
 Novo Apartments
 望新公寓
 70
 Room 101
-公寓101
+公寓 101
 71
 Room 103
-公寓103
+公寓 103
 72
 Room 102
-公寓102
+公寓 102
 73
 Room 204
-公寓204
+公寓 204
 74
 Room 202
-公寓203
+公寓 202
 75
 Mirror Reality
-公寓204
+镜像现实
 76
 Room 201
-公寓201
+公寓 201
 77
 Room 203
-公寓202
+公寓 203
 78
 LuxTech Main
 光华大楼
 79
 LuxTech Battle Labs
-光华大楼
+光华对战实验室
 80
 Berry Farmer's House
 果农之家
@@ -38108,13 +38108,13 @@ East Tunnel
 东部隧道
 82
 Alloy Station 531
-古治站
+古治站 531
 83
 Operating Station 913
-裂隙基站
+裂隙基站 913
 84
 Meloetta's Chamber
-Meloetta's Chamber
+美洛耶特的圣殿
 85
 Worried Man's House
 公园民宅
@@ -38135,19 +38135,19 @@ Employees' House
 霜皑民居
 91
 Svait Lodge F2
-霜皑旅店
+霜皑旅店 F2
 92
 Svait Lodge Room 2
-霜皑旅店
+霜皑旅店 2
 93
 Rescue Operations Center
 救援队中心
 94
 Svait Lodge Room 1
-霜皑旅店
+霜皑旅店 1
 95
 Snowbird's House F2
-雪鸟之家F2
+雪鸟之家 F2
 96
 LuxTech Cold Storage
 光华冷库
@@ -38159,13 +38159,13 @@ LuxTech Cold Storage Basement
 光华冷库
 99
 Velenz Buildings
-Velenz Buildings
+夜幽建筑
 100
 Rearranged Building
 翻新过的建筑
 101
 Dream Space
-Dream Space
+梦境空间
 102
 Velenz Center
 夜幽中心
@@ -38177,10 +38177,10 @@ Rafael's House
 拉斐尔家
 105
 Burnt-Out Sinkhole
-Burnt-Out Sinkhole
+烧毁的天坑
 106
 Yveltal's Chamber
-Yveltal's Chamber
+伊裴尔塔尔的圣殿
 107
 Connor's Yard
 夜幽道馆
@@ -38189,7 +38189,7 @@ Sunken House Yard
 陷落之屋
 109
 Candle-Lit House
-Candle-Lit House
+烛光屋
 110
 Velenz Underground West
 西部夜幽地道
@@ -38207,7 +38207,7 @@ Velenz Underground East
 东部夜幽地道
 115
 Snowy Sinkhole
-Snowy Sinkhole
+积雪的天坑
 116
 East Cave House
 有地道的房子
@@ -38216,7 +38216,7 @@ Ice Cave
 冰之洞窟
 118
 Svait Buildings
-Svait Buildings
+霜皑建筑
 119
 Ranger Hangout
 义军救助站
@@ -38234,10 +38234,10 @@ Novo College
 望新大学
 124
 Clearwater Cave
-Clearwater Cave
+清水洞窟
 125
 Volcanic Cave
-Volcanic Cave
+火山洞窟
 126
 Carnation Stockpile
 康乃馨地道
@@ -38267,16 +38267,16 @@ Prizca West Gym
 西宏礼道馆
 135
 Nebula Ruins
-Nebula Ruins
+星云遗迹
 136
 Casaba Villa
 甜瓜度假区
 137
 Svait Lodge Room 3
-霜皑旅店
+霜皑旅店 3
 138
 Scenic Trail
-Scenic Trail
+景致小径
 139
 Starters Store
 初行商店
@@ -38300,37 +38300,37 @@ Fancy House
 精致的房子
 146
 Fancy House F2
-精致的房子
+精致的房子 F2
 147
 PokEstate
-PokEstate
+庄园
 148
 PokEstate 1 - Forest
-PokEstate 1 - Forest
+庄园 1 - 森林
 149
 PokEstate Base
-PokEstate Base
+庄园 基础
 150
 PokEstate 2 - City
-PokEstate 2 - City
+庄园 2 - 城市
 151
 PokEstate 3 - Desert
-PokEstate 3 - Desert
+庄园 3 - 沙漠
 152
 PokEstate 4 - Scrubland
-PokEstate 4 - Scrubland
+庄园 4 - 稀树林
 153
 PokEstate 5 - Crag
-PokEstate 5 - Crag
+庄园 5 - 峭壁
 154
 PokEstate 6 - Volcano
-PokEstate 6 - Volcano
+庄园 6 - 火山
 155
 Prizca West
 西宏礼市
 156
 Prizca West Buildings
-Prizca West Buildings
+西宏礼建筑
 157
 Traffic Control
 收费站
@@ -38342,19 +38342,19 @@ Travel Agency
 航空旅社
 160
 PokEstate 7 - Snowy
-PokEstate 7 - Snowy
+庄园 7 - 积雪
 161
 PokEstate 8 - Cave
-PokEstate 8 - Cave
+庄园 8 - 洞穴
 162
 PokEstate 9 - Beach
-PokEstate 9 - Beach
+庄园 9 - 海滩
 163
 PokEstate 10 - Seafloor
-PokEstate 10 - Seafloor
+庄园 10 - 海床
 164
 PokEstate 11 - River
-PokEstate 11 - River
+庄园 11 - 河流
 165
 Aquatopia Menagerie
 水世界
@@ -38363,22 +38363,22 @@ Aegis Insurance
 宙斯盾安保
 167
 Aegislash Insurance F2
-宙斯盾安保F2
+宙斯盾安保 F2
 168
 Aegislash Insurance F3
-宙斯盾安保F3
+宙斯盾安保 F3
 169
 PokEstate 14 - Simple
-PokEstate 14 - Simple
+庄园 14 - 简单
 170
 PokEstate 13 - Machine
-PokEstate 13 - Machine
+庄园 13 - 机械
 171
 Dingy Office
 宙斯盾安保
 172
 PokEstate 12 - Sky
-PokEstate 12 - Sky
+庄园 12 - 天空
 173
 Full Blast Records
 王炸唱片公司
@@ -38390,7 +38390,7 @@ Worn Shed Basement
 棚屋地下室
 176
 Heroes' Chamber
-Heroes' Chamber
+英雄的圣殿
 177
 Evolution Market
 进化石商店
@@ -38399,13 +38399,13 @@ Tectonic Development
 构造开发
 179
 Tectonic Development F2
-构造开发
+构造开发 F2
 180
 Blustery Bosk
 西宏礼商店
 181
 Casaba Island
-Casaba Island
+甜瓜岛屿
 182
 Spirit Atoll
 圣灵环礁
@@ -38432,7 +38432,7 @@ Catacombs Antechamber
 地下墓穴前厅
 190
 Prizca East Buildings
-Prizca East Buildings
+东宏礼建筑
 191
 Prizca East Center
 东宏礼中心
@@ -38441,7 +38441,7 @@ Field of Spires
 东宏礼商店
 193
 Volcanic Shore
-Volcanic Shore
+火山海岸
 194
 Makyan Capitol Building
 马凯亚行政大楼
@@ -38456,10 +38456,10 @@ Noel's House
 诺埃尔家
 198
 Hidden Room
-Hidden Room
+隐藏房间
 199
 Xerneas's Chamber
-Xerneas's Chamber
+哲尔尼亚斯的圣殿
 200
 Emma's Empolorium
 艾玛的商店
@@ -38486,13 +38486,13 @@ The Tunes
 乐之家咖啡
 208
 Ironclad Dojo Mid-Fight
-Ironclad Dojo Mid-Fight
+铁甲道馆激战
 209
 Jesters' House
 小丑之家
 210
 Crater Hermit's House
-Crater Hermit's House
+陨坑隐士的家
 211
 Split Peaks
 嵌口峰
@@ -38507,7 +38507,7 @@ Team Chasm HQ
 裂隙队基地
 215
 Tempest Realm
-Tempest Realm
+暴风领域
 216
 Highland Lake
 云上湖
@@ -38525,7 +38525,7 @@ Ancient Sewers
 老旧下水道
 221
 Sewers
-Sewers
+下水道
 222
 Sewer Junction
 下水道连接处
@@ -38537,19 +38537,19 @@ Farmer's House
 农夫之家
 225
 Farmer's House F2
-农夫之家
+农夫之家 F2
 226
 Beekeeper's House
 养蜂之家
 227
 Yezera's House F2
-叶泽拉家
+叶泽拉家 F2
 228
 Hidden Laboratory
 神秘实验室
 229
 Circuit Station 232
-沙漠站
+沙漠站 232
 230
 Galarian Fan's House
 蛇纹熊之家
@@ -38582,34 +38582,34 @@ Ocean Fishing Contest
 海钓区
 240
 County Park Burrow
-County Park Burrow
+国立公园
 241
 Grouz Mine Sinkhole
 古治矿场
 242
 Goomy Den
-Goomy Den
+黏黏宝巢穴
 243
 Chasm Base Mess Hall
 裂隙餐厅
 244
 Gible Den
-Gible Den
+圆陆鲨巢穴
 245
 Deino Den
-Deino Den
+单首龙巢穴
 246
 Jangmo-o Den
-Jangmo-o Den
+心鳞宝巢穴
 247
 Dreepy Den
-Dreepy Den
+多龙梅西亚巢穴
 248
 Bagon Den
-Bagon Den
+宝贝龙巢穴
 249
 Dratini Den
-Dratini Den
+迷你龙巢穴
 250
 Chasm Base Lab
 裂隙基础实验室
@@ -38618,16 +38618,16 @@ Samorn's House
 赛蒙家
 252
 Jangmo-o Den 2
-Jangmo-o Den 2
+心鳞宝巢穴 2
 253
 Bagon Den 2
-Bagon Den 2
+宝贝龙巢穴 2
 254
 Old Restaurant
 老饭馆
 255
 Old Restaurant F2
-老饭馆
+老饭馆 F2
 256
 Waterfall Secret
 水帘洞
@@ -38645,10 +38645,10 @@ Underpeak Tunnels B1
 嵌口洞穴B1
 261
 Dratini Den 2
-Dratini Den 2
+迷你龙巢穴 2
 262
 Sweetrock Harbor Buildings
-Sweetrock Harbor Buildings
+蜜岩建筑
 263
 Sweetrock Harbor Center
 蜜岩中心
@@ -38675,13 +38675,13 @@ Casey's Basement
 凯斯家
 271
 Lightkeeper's House F2
-灯塔守护之家
+灯塔守护之家 F2
 272
 Underpeak Tunnels B2
-嵌口洞穴B2
+嵌口洞穴 B2
 273
 Impact Station 722
-荒莽站
+荒莽站 722
 274
 Sweetrock Harbor Gym
 蜜岩道馆
@@ -38708,7 +38708,7 @@ Sweetrock Harbor Gym Assembly Line
 蜜岩道馆
 282
 The Catacombs B1
-地下墓穴B1
+地下墓穴 B1
 283
 Pokéball Depot
 精灵球仓库
@@ -38720,10 +38720,10 @@ Sweetrock Elementary
 蜜岩小学
 286
 Pokeball Crafter's House F2
-精灵球之家
+精灵球之家 F2
 287
 Couples House F2
-情侣之家F2
+情侣之家 F2
 288
 Underground River
 地下河流
@@ -38732,13 +38732,13 @@ Sweetrock Candy Outlet
 蜜岩糖果店
 290
 Sweetrock Lighthouse F1
-蜜岩灯塔
+蜜岩灯塔 F1
 291
 Deoxys's Chamber
-Deoxys's Chamber
+代欧奇希斯的圣殿
 292
 Crescent Island Secret
-Crescent Island Secret
+新月岛密岛
 293
 Chasm Vacation Home
 裂隙度假屋
@@ -38750,13 +38750,13 @@ Chasm Vacation Home
 裂隙度假屋
 296
 South
-South
+南
 297
 North
-North
+北
 298
 Feebas' Fin Buildings
-Feebas' Fin Buildings
+鱼鳍建筑
 299
 Fin Center
 鱼鳍中心
@@ -38771,10 +38771,10 @@ Sewage Maintenance
 污水处理站
 303
 Zygarde's Chamber
-Zygarde's Chamber
+基格尔德的圣殿
 304
 Ruined Tower F1
-废弃之塔
+废弃之塔 F1
 305
 Dock Warehouse
 码头仓库
@@ -38783,13 +38783,13 @@ Alessa's House
 阿莱莎家
 307
 Alessa's House F2
-阿莱莎家
+阿莱莎家 F2
 308
 Gible Den 2
-Gible Den 2
+圆陆鲨巢穴 2
 309
 Cave of Hatching F2
-启明之窟
+启明之窟 F2
 310
 Old Lab
 老实验室
@@ -38798,13 +38798,13 @@ Togepi Breeder's House
 育种之家
 312
 Togepi Breeder's House F2
-育种之家
+育种之家 F2
 313
 Wren's House
 冉冉家
 314
 Wren's House F2
-冉冉家
+冉冉家 F2
 315
 Uplifted Abysm
 深渊
@@ -38858,13 +38858,13 @@ Frostflow Farms Center
 农场中心
 332
 Frostflow Farms Buildings
-Frostflow Farms Buildings
+花卉建筑
 333
 Floral Maze
 花卉迷宫
 334
 The Present
-The Present
+当下之地
 335
 Svait Sauna Underground
 霜皑站
@@ -38876,25 +38876,25 @@ Deep Station Backroom
 深渊站
 338
 Chasm Station 000
-深渊站
+深渊站 000
 339
 Underpeak Escape B1
-嵌口洞穴B1
+嵌口洞穴 B1
 340
 Illuminant Helix
 光耀螺旋
 341
 Underpeak Escape B2
-嵌口洞穴B2
+嵌口洞穴 B2
 342
 Carnation Tower F1
-康乃馨之塔F1
+康乃馨之塔 F1
 343
 Basement Access
 地下通道
 344
 Eleig Stretch Buildings
-Eleig Stretch Buildings
+渔泊建筑
 345
 Eleig Boating and Fishing
 渔泊之家
@@ -38909,7 +38909,7 @@ UB Containment
 异界隔离室
 349
 UB Portal
-UB Portal
+究极之洞
 350
 Forgotten Grave Site
 被遗忘的墓穴
@@ -38918,10 +38918,10 @@ Lainie's Mansion
 兰妮家
 352
 Lainie's Mansion F2
-兰妮家
+兰妮家 F2
 353
 Crumbling Canyon B4
-荒莽火山B4
+荒莽火山 B4
 354
 Chamber of Regirock
 巨人岩墓
@@ -38939,49 +38939,49 @@ Dr. Hekata's House
 经方博士家
 359
 Ruined Tower F2
-废弃之塔
+废弃之塔 F2
 360
 Velenz Caves
-Velenz Caves
+夜幽洞穴
 361
 The Catacombs B2
-地下墓穴B2
+地下墓穴 B2
 362
 The Catacombs B3
-地下墓穴B3
+地下墓穴 B3
 363
 Carnation Tower F2
-康乃馨之塔F2
+康乃馨之塔 F2
 364
 Carnation Tower F3
-康乃馨之塔F3
+康乃馨之塔 F3
 365
 Ruined Tower F3
-废弃之塔
+废弃之塔 F3
 366
 M. Munna Den 2
-M. Munna Den 2
+M. 梦梦蚀巢穴 2
 367
 Prizca Great Hall
 宏礼城堡
 368
 Crumbling Canyon B1
-荒莽火山B1
+荒莽火山 B1
 369
 Crumbling Canyon B2 - B
-荒莽火山B2
+荒莽火山 B2-B
 370
 Crumbling Canyon B3
-荒莽火山B3
+荒莽火山 B3
 371
 Crumbling Canyon B2 - A
-荒莽火山B2
+荒莽火山 B2-A
 372
 Latent Grove
 隐秘树林
 373
 Crumbling Canyon B2 - C
-荒莽火山B2
+荒莽火山 B2-C
 374
 Stone Nest
 石巢
@@ -38990,7 +38990,7 @@ Cavern of Knowledge
 知识之窟
 376
 Islands
-Islands
+岛屿
 377
 Guardian Island
 靖守岛
@@ -39014,7 +39014,7 @@ Mirror Tundra
 镜像冰原
 384
 Casaba-Bluepoint Gatehouse
-Casaba-Bluepoint Gatehouse
+甜瓜-蓝莹门房
 385
 Abandoned Lodge
 废弃小屋
@@ -39032,43 +39032,43 @@ Cave of Hope
 希冀之窟
 390
 Novo-Turf Gatehouse
-Novo-Turf Gatehouse
+望新-草径门房
 391
 Shelf-Novo Gatehouse
-Shelf-Novo Gatehouse
+潺流-望新门房
 392
 Turf-Grouz Gatehouse
-Turf-Grouz Gatehouse
+草径-古治门房
 393
 LuxTech-Delta Gatehouse
-LuxTech-Delta Gatehouse
+光华-德尔塔门房
 394
 Park-LuxTech Gatehouse
-Park-LuxTech Gatehouse
+公园-光华门房
 395
 Svait-Park Gatehouse
-Svait-Park Gatehouse
+霜皑-公园门房
 396
 Crater-Shelf Gatehouse
-Crater-Shelf Gatehouse
+荒莽-潺流门房
 397
 Menagerie-Velenz Gatehouse
-Menagerie-Velenz Gatehouse
+生态园-夜幽门房
 398
 Velenz-Repora Gatehouse
-Velenz-Repora Gatehouse
+夜幽-枯槁门房
 399
 West-Plaza Gatehouse
-West-Plaza Gatehouse
+西-区门房
 400
 Plaza-East Gatehouse
-Plaza-East Gatehouse
+区-东门房
 401
 East-Peaks Gatehouse
-East-Peaks Gatehouse
+东-峰门房
 402
 Peaks-Harbor Gatehouse
-Peaks-Harbor Gatehouse
+峰-港口门房
 403
 Frozen Lake
 冰封湖泊
@@ -39086,7 +39086,7 @@ Wave Lengths
 波纹沙路
 408
 Tournament Grounds EQ
-竞技广场
+竞技广场 EQ
 409
 Read Only
 砂岩洞窟
@@ -39116,7 +39116,7 @@ Crackling Cave
 烈之窟
 418
 M. Munna Den 3
-M. Munna Den 3
+梦梦蚀巢穴 3
 419
 Cavern of Emotion
 情感之窟
@@ -39134,7 +39134,7 @@ Herbert's Herbs
 赫伯特香草店
 424
 Tectonic Development F3
-构造开发
+构造开发 F3
 425
 Shimmer Haven
 砂岩洞窟
@@ -39200,7 +39200,7 @@ Battle Monument Secret
 对战纪念碑密室
 446
 Goomy Den 2
-Goomy Den 2
+黏黏宝巢穴 2
 [22]
 How are your Pokémon doing?\mMy \TP's really energetic. It's a handful!\mOh yeah, I managed to beat a tough \TE.\mI need to make my party stronger.
 How are your Pokémon doing?\mMy \TP's really energetic.  It's a handful!\mOh yeah, I managed to beat a tough \TE.\mI need to make my party stronger.
@@ -42997,7 +42997,7 @@ No assistance is available yet. This feature will be implemented in the future!
 Starting Your Adventure
 开始你的旅程
 Receive your first starter and your crucial starting items from Professor Tamarind.
-从塔玛琳博士那里获得第一个精灵和其他重要物品
+从塔玛琳博士那里获得第一个精灵和其他重要物品。
 Find the First Gym Leader
 寻找第一个道馆馆主
 Search the island for Lambert, the first Makya League Gym Leader. He can be found somewhere in Bluepoint Beach, west of Casaba Villa.
@@ -43009,197 +43009,197 @@ Find a Dynamite Stick to destroy the rock which blocks the way to Bluepoint Beac
 Explore Bluepoint Beach
 探索蓝莹海滩
 Now that you've blown up the rock in front of Bluepoint Beach, you should search there for Lambert, the gym leader of Casaba Villa.
-炸毁通往蓝莹海滩的岩石后，前去 寻找甜瓜道馆馆主兰伯特
+炸毁通往蓝莹海滩的岩石后，前去 寻找甜瓜道馆馆主兰伯特。
 Defeat the Avatar!
 打败化身
 You found Lambert in a small Grotto on the far west end of Bluepoint Beach, defeated by an Avatar of Vigoroth. Defeat the Avatar and free up Lambert.
-你在蓝莹海滩的一个石窟中发现了 兰伯特，他被一个化身打败了，打 败那个化身
+你在蓝莹海滩的一个石窟中发现了 兰伯特，他被一个化身打败了，打 败那个化身。
 Defeat Your First Gym
 挑战第一个道馆
 Defeat Lambert, the first Makya League Gym Leader, inside his gym in Casaba Villa.
-在甜瓜度假区的道馆里找到兰伯特 并击败他，完成第一个道馆挑战
+在甜瓜度假区的道馆里找到兰伯特 并击败他，完成第一个道馆挑战。
 Meet Tamarind at the Docks
 在码头跟塔玛琳见面
 Tamarind is waiting for you at the Casaba Villa dock, where your boat is.
-塔玛琳说要在码头上见一面，你的 船就停在那里
+塔玛琳说要在码头上见一面，你的 船就停在那里。
 Embark to the Mainland
 乘船前往大陆
 Now that you've earned your first badge, you're ready to take your boat to the Makyan mainland.
-现在已经获得第一个徽章了，可以 乘船前往马凯亚大陆了
+现在已经获得第一个徽章了，可以 乘船前往马凯亚大陆了。
 Find the Second Gym
 寻找第二个道馆
 Find the second gym leader, located in Novo Town (north of the Shipping Lane).
-找到第二个道馆馆主，他就在扬帆 路北边的望新镇
+找到第二个道馆馆主，他就在扬帆 路北边的望新镇。
 Defeat the Mysterious Woman
 打败神秘女子
 A mysterious young women blocks your exit from the Shipping Lane. Defeat her to gain access to Novo Town.
-一名神秘的女子堵住了扬帆路的出 口，打败她就能进入望新镇
+一名神秘的女子堵住了扬帆路的出 口，打败她就能进入望新镇。
 Defeat Novo Town Gym
 打败望新道馆
 Defeat Eko, leader of Novo Town gym. Novo Town is north of the Shipping Lane. Eko's gym is in the northeast part of town.
-击败望新镇东北部的道馆馆主，这 里的馆主是艾克
+击败望新镇东北部的道馆馆主，这里的馆主是艾克。
 Find LuxTech Campus
 前往光华市
 Find the third gym leader, located at LuxTech Campus. LuxTech Campus is west of the Lingering Delta and East of the County Park.
-找到位于光华市的
+Find the third gym leader, located at LuxTech Campus. LuxTech Campus is west of the Lingering Delta and East of the County Park.
 Schedule Your Gym Appointment
 预约道馆挑战
 A large sign at the entrance of the LuxTech Campus Gym told you to schedule your gym appointment inside LuxTech main, the large central building of LuxTech campus, to the west of the gym.
-光华市道馆门口的一块牌子上写着 ，请到西侧的光华总部预约挑战时 间
+光华市道馆门口的一块牌子上写着 ，请到西侧的光华总部预约挑战时间。
 Find Helena's Package
 寻找海伦娜的包裹
 Helena will challenge you as a gym leader if you find the LuxTech Shipment, a key package which was last seen in Gigalith's Guts, a cave tunnel inside Mt. Kilna.
-你必须要找到最后一次出现在怪岩 肠道的光华包裹，馆主海伦娜才会 同意你的挑战
+你必须要找到最后一次出现在怪岩 肠道的光华包裹，馆主海伦娜才会 同意你的挑战。
 The mysterious woman from the Shipping Lane blocks your path again, demanding a battle before allowing you further. Defeat her to gain access to the rest of the Hollowed Layer.
-那个扬帆路的神秘女子又一次挡住 了去路，她要求你必须要跟她再来 一场战斗，才能继续前进
+那个扬帆路的神秘女子又一次挡住 了去路，她要求你必须要跟她再来 一场战斗，才能继续前进。
 Defeat the Avatars
 击败化身
 Alongside the mysterious woman, defeat Avatars in the Hollowed Layer which stand in the way of finding the LuxTech Package for Helena.
-与这位神秘的女子一起，打败附近 的化身，并找到海伦娜丢失的包裹
+与这位神秘的女子一起，打败附近 的化身，并找到海伦娜丢失的包裹。
 Collect Helena's Package
 拿到海伦娜的包裹
 Now that the avatar of Linoone has been defeated, you can collect the LuxTech Shipment which it stole.
-周围的化身已经都被击败了，现在 可以拿到光华的货物了
+周围的化身已经都被击败了，现在 可以拿到光华的货物了。
 Return LuxTech Package
 带着包裹回到光华市
 You've found a shipment bound for LuxTech. Go to LuxTech and find whoever the intended recipient was, so that you may return it to them.
-你拿到海伦娜丢失的包裹了，现在 返回光华市将其交给她吧
+你拿到海伦娜丢失的包裹了，现在 返回光华市将其交给她吧。
 Return Helena's Package
 将包裹交给海伦娜
 You've found and collected Helena's missing shipment. Return to LuxTech and hand her the package so that she will challenge you as a Gym Leader.
-你拿到海伦娜丢失的包裹了，现在 她会接受你的道馆挑战了
+你拿到海伦娜丢失的包裹了，现在 她会接受你的道馆挑战了。
 Defeat LuxTech Campus Gym
 挑战光华道馆
 Defeat Helena, leader of LuxTech Campus Gym. LuxTech is west of the Lingering Delta and east of the County Park. Her Gym can be found east of the large central building.
-击败光华道馆的馆主海伦娜吧，可 以在光华市大型建筑东边找到她的 道馆
+击败光华道馆的馆主海伦娜吧，可 以在光华市大型建筑东边找到她的 道馆。
 Find Velenz Gym
 寻找夜幽道馆
 Find the fourth gym leader, located in Velenz. Velenz is west of Repora Forest, which can be found by passing through either Svait or the Shelf.
-找到位于夜幽市的第四个道馆，夜 幽市位于枯槁森林以西，可以通过 霜皑镇或潺流坡前往那里
+找到位于夜幽市的第四个道馆，夜 幽市位于枯槁森林以西，可以通过 霜皑镇或潺流坡前往那里。
 Find Rafael, the Gym Leader
 寻找馆主拉斐尔
 You've arrived in Velenz only to discover that Rafael is in hiding. Search for Rafael in the ruins of the haunted town.
-你发现夜幽道馆的馆主拉斐尔藏起 来了，在这个废弃的城市中寻找他 吧
+你发现夜幽道馆的馆主拉斐尔藏起 来了，在这个废弃的城市中寻找他吧。
 Find 4 Digit Slips
 寻找四位密码
 You found Rafael in the south east of Velenz, down a ladder. To unlock the door to his room, you must find at least four Digit Slips somewhere around Velenz. Velenz is west of Repora Forest.
-要打开拉斐尔的门，必须在夜幽市 找到至少四张密码纸条
+要打开拉斐尔的门，必须在夜幽市 找到至少四张密码纸条。
 Defeat Velenz Gym
 挑战夜幽道馆
 Defeat Rafael, leader of Velenz Gym. Velenz is west of Repora Forest. He can be found down a ladder in the north-west part of the town.
-击败夜幽道馆的馆主拉斐尔吧，拿 到第四个徽章
+击败夜幽道馆的馆主拉斐尔吧，拿 到第四个徽章。
 Defend Grouz from the Avatar!
 击败古治镇的化身
 Professor Tamarind called, informing you of an Avatar of Steelix which is rampaging in the Grouz Mine Yard. She's promised a reward if you can defeat the Avatar.
-塔玛琳博士打来电话，告诉你有个 大钢蛇化身正在古治矿场肆虐，只 要去处理掉它，就能得到一笔奖励
+塔玛琳博士打来电话，告诉你有个 大钢蛇化身正在古治矿场肆虐，只 要去处理掉它，就能得到一笔奖励。
 Visit Tamarind at Helena's House
 去海伦娜家见塔玛琳
 Go to the County Park and find Helena's House, where Professor Tamarind is waiting for you with a reward. Helena's house can be found North West of the lake, very close to it.
-前往国立公园，找到海伦娜的房子 ，塔玛琳博士正带着奖励等在那儿 ，就在湖的西北方
+前往国立公园，找到海伦娜的房子 ，塔玛琳博士正带着奖励等在那儿 ，就在湖的西北方。
 Defeat Yezera in Helena's House
 击败海伦娜家里的叶泽拉
 Professor Tamarind invited you to Helena's House in the County Park, but you found only Yezera there. Fight Yezera to kill some time before Professor Tamarind arrives.
-塔玛琳教授邀请你去海伦娜家，但 那里只见到了叶泽拉，在博士赶来 前，先来一场战斗吧
+塔玛琳教授邀请你去海伦娜家，但 那里只见到了叶泽拉，在博士赶来 前，先来一场战斗吧。
 Find Prizca West Gym
 寻找西宏礼道馆
 Find the fifth gym leader, located in Prizca West. Prizca West is north of the Eleig River Crossing.
-找到西宏礼市的道馆馆主，位于埃 利格河渡口以北
+找到西宏礼市的道馆馆主，位于埃 利格河渡口以北。
 Defeat Prizca West Gym
 挑战西宏礼道馆
 Defeat Bence and Zoé, leaders of Prizca West gym. Prizca West is north of the Eleig River Crossing. Their Gym is found in the southern of the two central blocks.
-打败西宏礼道馆的本斯或佐伊，当 然也可以同时挑战他们两个
+打败西宏礼道馆的本斯或佐伊，当 然也可以同时挑战他们两个。
 Find Prizca East Gym
 寻找东宏礼道馆
 Find the sixth gym leader, located in Prizca East. Prizca East is east of the Battle Plaza, which is east of Prizca West.
-找到东宏礼市的道馆馆主，从西宏 礼市往东走，穿过战斗区就能到达
+找到东宏礼市的道馆馆主，从西宏 礼市往东走，穿过战斗区就能到达。
 Defeat Prizca East Gym
 挑战东宏礼道馆
 Defeat Noel, leader of Prizca East gym. Prizca East is east of the Battle Plaza, which is east of Prizca West. His gym is in the center of town, east of the large Makya Capitol Building.
-打败东宏礼道馆馆主诺埃尔，只要 从西宏礼市往东走，穿过战斗区就 能到达
+打败东宏礼道馆馆主诺埃尔，只要 从西宏礼市往东走，穿过战斗区就 能到达。
 Find the Catacombs
 寻找地下墓穴
 Professor Tamarind called you, requesting your urgent help dealing with a problem in the Prizca Catacombs. The Catacombs can be found in the eastern part of the Prizca Sewers.
-塔玛琳博士打电话给你，请求你帮 忙处理宏礼市地下墓穴的一个紧急 问题，地下墓穴位于东宏礼市的下 水道中
+塔玛琳博士打电话给你，请求你帮 忙处理宏礼市地下墓穴的一个紧急 问题，地下墓穴位于东宏礼市的下 水道中。
 Investigate the Catacombs
 调查地下墓穴
 Go with Professor Tamarind to confront the thieves inside of the Catacombs. The Catacombs can be found in the eastern part of the Prizca Sewers.
-与塔玛琳博士一起去迎战地下墓穴 中的盗贼，地下墓穴位于东宏礼市 的下水道中
+与塔玛琳博士一起去迎战地下墓穴 中的盗贼，地下墓穴位于东宏礼市 的下水道中。
 Defeat Yezera in the Catacombs
 在地下墓穴击败叶泽拉
 Confront Yezera, who appears to be leading a small group to steal Regidrago. The Catacombs can be found in the eastern part of the Prizca Sewers.
-击败叶泽拉，她似乎正率领一队人 ，打算偷走雷吉铎拉戈
+击败叶泽拉，她似乎正率领一队人 ，打算偷走雷吉铎拉戈。
 Defeat the Catacombs Straggler
 在地下墓穴击败徘徊者
 Go further into the Catacombs to confront the fourth member of Yezera's group, who stayed behind while the others fled with Regidrago.
-继续深入地下墓穴，与叶泽拉的一 位同谋对战，他在其他人离开时留 在了后面
+继续深入地下墓穴，与叶泽拉的一 位同谋对战，他在其他人离开时留 在了后面。
 Find Sweetrock Harbor Gym
 寻找蜜岩道馆
 Find the seventh gym leader, located in Sweetrock Harbor. Sweetrock Harbor is east of the Split Peaks, which you can cross with your new Climbing Gear.
-找到位于蜜岩港的第七位道馆馆主 ，但路被某个支持叶泽拉的蒙面人 堵住了
+找到位于蜜岩港的第七位道馆馆主 ，但路被某个支持叶泽拉的蒙面人 堵住了。
 Defeat the Crimson Cultist
 击败深红崇拜者
 The path to the seventh gym is blocked by a disguised supporter of Yezera, with a Crimson eye mask. Defeat this villain to rescue Regirock, and gain access to the seventh gym.
-通往第七个道馆的路被一个戴着深 红色面罩的叶泽拉支持者挡住了， 打败他就能前往第七个道馆
+通往第七个道馆的路被一个戴着深 红色面罩的叶泽拉支持者挡住了， 打败他就能前往第七个道馆。
 Defeat Sweetrock Harbor Gym
 挑战蜜岩道馆
 Defeat Victoire, leader of Sweetrock Harbor Gym. Sweetrock Harbor is east of the Split Peaks. Her gym is in the north part of the town, on the raised earthen platform.
-打败蜜岩道馆馆主薇克特尔，蜜岩 港位于嵌口峰以东，她的道馆就在 港口的最北边
+打败蜜岩道馆馆主薇克特尔，蜜岩 港位于嵌口峰以东，她的道馆就在 港口的最北边。
 Find Team Chasm HQ Gym
 寻找裂隙队总部道馆
 Find the eight gym leader, located in Team Chasm HQ. Team Chasm HQ can be found underneath Gigalith's Guts.
-找到位于裂隙队总部的第八个道馆 馆主，可以在怪岩肠道通过梯子前 往
+找到位于裂隙队总部的第八个道馆 馆主，可以在怪岩肠道通过梯子前往。
 Defeat Team Chasm HQ Gym
 击败裂隙队总部道馆
 Defeat Samorne, leader of Team Chasm HQ Gym. Team Chasm HQ can be found underneath Gigalith's Guts. Her gym is on the southwest part of the HQ, inside a sunken area.
-击败裂隙队总部道馆馆主赛蒙，可 以通过怪岩肠道的梯子前往那里， 她的道馆就在那边的下沉区域
+击败裂隙队总部道馆馆主赛蒙，可 以通过怪岩肠道的梯子前往那里， 她的道馆就在那边的下沉区域。
 Investigate Whitebloom Town
 调查白花镇
 Yezera's been spotted in Whitebloom Town with some of the stolen titans. Find her, and rescue them. From Highland Lake, travel through the Cave of Hatching towards Whitebloom.
-有人发现叶泽拉和那些蒙面人出现 在白花镇了，可以通过云上湖，再 穿过启明之窟前往那里
+有人发现叶泽拉和那些蒙面人出现 在白花镇了，可以通过云上湖，再 穿过启明之窟前往那里。
 Defeat the Teal Cultist
 击败茶色崇拜者
 The path into Whitebloom Town is blocked by a disguised supporter of Yezera, with a Teal eye mask. Defeat this villain to rescue Regice, and gain access to Whitebloom Town.
-进入白花镇的路被一个戴着茶色面 罩的叶泽拉支持者堵住了，打败他 就能进入白花镇
+进入白花镇的路被一个戴着茶色面 罩的叶泽拉支持者堵住了，打败他 就能进入白花镇。
 What was the Teal-Eye-Mask villain doing in the Cave of Hatching? Investigate Whitebloom Town, hometown of the first Makyan champion, Yezera.
-他们到底想要干什么？调查白花镇 ，这里是马凯亚第一位冠军叶泽拉 的故乡
+他们到底想要干什么？调查白花镇 ，这里是马凯亚第一位冠军叶泽拉 的故乡。
 Defeat Yezera in Whitebloom Town
 在白花镇击败叶泽拉
 Yezera has returned to Whitebloom Town, her home town. Confront Yezera at the southern cliff, overlooking the Highland Lake.
-叶泽拉回到了家乡白花镇，就在南 边的悬崖上俯瞰着云上湖
+叶泽拉回到了家乡白花镇，就在南 边的悬崖上俯瞰着云上湖。
 Find the Championship Tournament
 寻找竞技大会举办地
 Find the Tournament Grounds, site of the Makyan Championship. The Grounds can be found north of the Battle Plaza in the center of Prizca.
-找到马凯亚金标大会的比赛场地， 就在宏礼市对战区北边
+找到马凯亚金标大会的比赛场地， 就在宏礼市对战区北边。
 Win the Championship Tournament
 取得竞技大会胜利
 Win the Makyan Championship being hosted in Prizca's Tournament Grounds. Prove that you are the best trainer in Makya!
-赢得在宏礼市举办的马凯亚竞技大 会，证明你就是现在马凯亚最强的 训练家
+赢得在宏礼市举办的马凯亚竞技大 会，证明你就是现在马凯亚最强的 训练家！
 Stop Yezera!
 阻止叶泽拉
 Confront Yezera for the final time in the Chamber of Regigigas, behind a large door in the eastern side of the Hollowed Layer (the cave east of the Team Chasm HQ).
-在雷吉奇卡斯的密室与叶泽拉进行 交锋，就在裂隙队总部东侧的一扇 大门后
+在雷吉奇卡斯的密室与叶泽拉进行 交锋，就在裂隙队总部东侧的一扇 大门后。
 Explore Regigigas' Chamber
 探索巨人的秘室
 Continue to delve into the Chamber of Regigigas, so you can finally put a stop to Yezera's plan. The Chamber of Regigigas is behind a large door in the eastern side of the Hollowed Layer.
 继续深入雷吉奇卡斯的密室，并最 终阻止叶泽拉的计划
 The villain in the Teal-Eye-Mask blocks your path, this time in the first room of the Chamber of Regigigas. The Chamber can be found on the east side of the Hollowed Layer.
-在雷吉奇卡斯密室的第一个房间， 会有一个蒙面人来阻止你，解决他 吧
+在雷吉奇卡斯密室的第一个房间， 会有一个蒙面人来阻止你，解决他吧。
 The villain in the Crimson-Eye-Mask blocks your path, this time in the first room of the Chamber of Regigigas. The Chamber can be found on the east side of the Hollowed Layer.
-在雷吉奇卡斯密室的第一个房间， 会有一个蒙面人来阻止你，解决他 吧
+在雷吉奇卡斯密室的第一个房间， 会有一个蒙面人来阻止你，解决他吧。
 Defeat Sang
 击败阿桑
 Sang, the bad-tempered supporter of Yezera, blocks the exit to the first room of the Chamber of Regigigas. The Chamber can be found on the east side of the Hollowed Layer.
-阿桑也算是叶泽拉的支持者，他堵 住了通往雷吉奇卡斯密室第一个房 间的出口
+阿桑也算是叶泽拉的支持者，他堵 住了通往雷吉奇卡斯密室第一个房间的出口。
 Defeat Regigigas
 击败雷吉奇卡斯
 You found Yezera beyond the abandoned Team Chasm station in the Chamber of Regigigas, accompanied by an avatar of Regigigas. Defeat it!
-你在雷吉奇卡斯的密室里的裂隙队 研究站外找到了叶泽拉，她身边还 有一个雷吉奇卡斯的化身，打败它
+你在雷吉奇卡斯的密室里的裂隙队 研究站外找到了叶泽拉，她身边还 有一个雷吉奇卡斯的化身，打败它！
 Having defeated Regigigas, you can now venture into the full depths of the Chamber of Regigigas. Continue chasing Yezera!
-击败雷吉奇卡斯后，你可以继续往 更深处走，去追赶叶泽拉了
+击败雷吉奇卡斯后，你可以继续往 更深处走，去追赶叶泽拉了！
 Game Won!
 游戏获胜
 You've beaten the game! Explore around to find more of Makya, and return to old areas to find content you may have missed.
-你已经结束了游戏的主线流程，接 下来可以四处探索，寻找更多还没 发现的惊喜
+你已经结束了游戏的主线流程，接 下来可以四处探索，寻找更多还没 发现的惊喜。
 \wmA recoverable error has occured: #{newStage} is an invalid Main Quest Stage key. The "What Next?" will be inaccurate until the next Main Quest update. Please let a programmer know you saw this error, and where.
 \wm出现了一个可恢复的错误： #{newStage}为无效的主线任务阶段，在下次主线任务更新之前， “下一步”的指示将会出现错误， 请向作者或汉化者反馈此错误。
 BY LEVEL
@@ -44035,17 +44035,17 @@ A planetary ring dominates the skyline.
 The moon is taken by a nightmare.
 月亮开始变得妖冶。
 You can skip the battle and treat it as a win by FORFEIT!
-You can skip the battle and treat it as a win by FORFEIT!
+你可以通过逃跑跳过这场战斗！
 You have to win the battle PERFECTLY, or you LOSE!
-You have to win the battle PERFECTLY, or you LOSE!
+对于这场战斗，你必须完胜！
 #{b.pbThis} is blessed by the shattered sky!
-#{b.pbThis} 被破碎的天空祝福了！
+#{b.pbThis}被破碎的天空祝福了！
 Time is dancing to #{stretcher.pbThis}'s tune! This turn is being skipped!
 时间正随着 #{stretcher.pbThis}的旋律起舞， 这个回合被跳过了！
 {1} will arrive next turn!
-{1} 降在下回合到达！
+{1}将在下回合到达！
 {1} pilots into battle!
-{1} 飞行员投入战斗！
+{1}到达了战场！
 You got ${1} for winning!
 你获得了 ${1}
 You picked up ${1}!
@@ -50859,7 +50859,7 @@ Do you want to take a Pokémon from the opposing party?
 Which Pokémon do you want to take?
 Which Pokémon do you want to take?
 AbilityDex (Search: Z)
-特性图鉴（搜索：Z）
+特性图鉴(搜索: Z)
 Ability Canon
 特性 旧
 Abilities that GF made.
@@ -50881,7 +50881,7 @@ Ability Cut
 Abilities that have been cut.
 Abilities that have been cut.
 ItemDex (Search: Z)
-物品图鉴（搜索：Z）
+物品图鉴(搜索: Z)
 TM Machine
 TM
 TMs.
@@ -53602,7 +53602,7 @@ Defeat all 8 Team Chasm-created avatars within the locked chambers.
 Destroy the avatars of Spectrier, Glastrier, and Calyrex in the Crown Chamber.
 击败皇冠之厅的蕾冠王、雪暴马及灵幽马化身。
 Destroy the avatar of Rayquaza in the Tempest Realm.
-击败暴风王国的烈空坐化身。
+击败暴风领域的烈空坐化身。
 Capture a legendary Pokémon in a regular Poké Ball (thrown normally or created by the Ball Launcher.)
 使用普通的精灵球捕捉传说中的精灵。
 Capture at least one Pokémon in a Premier Ball, a Cherish Ball, and a Royal Ball.
@@ -56418,7 +56418,7 @@ Sky High
 Wish
 祈愿
 DNA
-DNA
+基因
 Tiny Leaf
 嫩叶
 Grove
@@ -56884,9 +56884,9 @@ Collective
 Mock Kelp
 拟草
 Lush Kelp
-Lush Kelp
+繁茂海带
 Kelp
-Kelp
+海带
 Water Gun
 水枪
 Howitzer
@@ -57176,7 +57176,7 @@ Wild Horse
 Swift Horse
 骏马
 King
-King
+国王
 Test
 测试
 Test 2

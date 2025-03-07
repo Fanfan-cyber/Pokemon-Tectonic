@@ -4,17 +4,16 @@
 自定义入场/离场提示
 同一边可以同时显示多个特性条
 Adoption Center
-翻译特性和技能效果，修复训练师类型名称Bug
 教程[时间胶囊/战斗模拟器/特性记录器/STAB系统，现在单属性精灵的本系加成为1.5倍，多属性精灵的本系加成为1.25倍，新的技能威力属性加成机制，使用的技能与攻击方队伍里的其他未处于濒死状态的精灵具有相同的属性，就会有加成（每只单属性精灵加成10%，多属性精灵加成5%），新的技能威力属性削减机制，使用的技能与被击方队伍里的其他未处于濒死状态的精灵具有相同的属性，就会有削减（每只单属性精灵削减10%，多属性精灵削减5%）]
 整理002_My_Helpers和003_Field_Effect
+以下是需要翻译的部分：
 BeginSpeech        = 15
 EndSpeechWin       = 16
 EndSpeechLose      = 17
-MapNames           = 21
 PhoneMessages      = 22
-ScriptTexts        = 24
-BattleEffects      = 32
 FORMNAMES_HASH     = 444
+BattleEffects      = 32
+ScriptTexts        = 24
 TrainerTypes       = 1313
 =end
 MOD_VERSION = "0.2.4"

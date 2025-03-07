@@ -455,6 +455,7 @@ class Messages
         f.write(value+"\r\n")
       end
     elsif msgs.is_a?(OrderedHash)
+      return if MessageTypes::NOT_NEED_OUTPUT_HASH.include?(secname.to_s)
       f.write("[#{secname}]\r\n")
       keys=msgs.keys
       for key in keys
@@ -483,6 +484,7 @@ class Messages
         f.write(value+"\r\n")
       end
     elsif msgs.is_a?(OrderedHash)
+      return if MessageTypes::NOT_NEED_OUTPUT_HASH.include?(secname.to_s)
       f.write("[#{secname}]\r\n")
       keys=msgs.keys
       for key in keys
@@ -503,6 +505,7 @@ class Messages
   
   def self.writeMapObjectUntranslated(f,msgs,mapNumber,secname,translatedMsgs)
     return if !msgs
+    return if MessageTypes::NOT_NEED_OUTPUT_HASH.include?(secname.to_s)
     f.write("[#{secname}]\r\n")
     keys=msgs.keys
     for key in keys
@@ -536,6 +539,7 @@ class Messages
         f.write("#{finalValue}\r\n")
       end
     elsif msgs.is_a?(OrderedHash)
+      return if MessageTypes::NOT_NEED_OUTPUT_HASH.include?(secname.to_s)
       f.write("[#{secname}]\r\n")
       keys = msgs.keys
       for key in keys
@@ -557,6 +561,7 @@ class Messages
 
   def self.writeMapObjectCombined(f, msgs, mapNumber, secname, translatedMsgs)
     return unless msgs
+    return if MessageTypes::NOT_NEED_OUTPUT_HASH.include?(secname.to_s)
     f.write("[#{secname}]\r\n")
     keys = msgs.keys
     for key in keys
@@ -764,15 +769,16 @@ end
 
 
 module MessageTypes
-  NOT_NEED_OUTPUT    = %w[1 2 3 4 25 26]
+  NOT_NEED_OUTPUT      = %w[1 2 3 4 13 25 26]
+  NOT_NEED_OUTPUT_HASH = %w[]
   # Value 0 is used for common event and map event text
-  Species            = 1 # don't need
+  Species            = 1 # doesn't need
   SPECIES_HASH       = 111
-  Kinds              = 2 # don't need
+  Kinds              = 2 # doesn't need
   KINDS_HASH         = 222
-  Entries            = 3 # don't need
+  Entries            = 3 # doesn't need
   ENTRIES_HASH       = 333
-  FormNames          = 4 # don't need
+  FormNames          = 4 # doesn need
   FORMNAMES_HASH     = 444
   Moves              = 5
   MoveDescriptions   = 6
@@ -782,7 +788,8 @@ module MessageTypes
   Abilities          = 10
   AbilityDescs       = 11
   Types              = 12
-  TrainerTypes       = 13
+  TrainerTypes       = 13 # doesn't need
+  TRAINERTYPES_HASH  = 1313
   TrainerNames       = 14
   BeginSpeech        = 15
   EndSpeechWin       = 16
@@ -794,8 +801,8 @@ module MessageTypes
   PhoneMessages      = 22
   TrainerLoseText    = 23
   ScriptTexts        = 24
-  RibbonNames        = 25 # don't need
-  RibbonDescriptions = 26 # don't need
+  RibbonNames        = 25 # doesn't need
+  RibbonDescriptions = 26 # doesn't need
   Tribes             = 27
   TribeDescriptions  = 28
   Traits             = 29
