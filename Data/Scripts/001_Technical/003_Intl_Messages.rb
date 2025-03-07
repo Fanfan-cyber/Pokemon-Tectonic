@@ -51,6 +51,7 @@ def pbSetTextMessages
     commonevents = load_data("Data/CommonEvents.rxdata")
     items=[]
     choices=[]
+    intl = []
     for event in commonevents.compact
       if Time.now.to_i - t >= 5
         t = Time.now.to_i
@@ -83,16 +84,16 @@ def pbSetTextMessages
             neednewline=true
           elsif list.code == 355 || list.code == 655
             pbAddScriptTexts(items,list.parameters[0])
-            pbAddRgssScriptTexts(items,list.parameters[0])
+            pbAddRgssScriptTexts(intl,list.parameters[0])
           elsif list.code == 111 && list.parameters[0]==12
             pbAddScriptTexts(items,list.parameters[1])
-            pbAddRgssScriptTexts(items,list.parameters[1])
+            pbAddRgssScriptTexts(intl,list.parameters[1])
           elsif list.code == 209
             route=list.parameters[1]
             for k in 0...route.list.size
               if route.list[k].code == 45
                 pbAddScriptTexts(items,route.list[k].parameters[0])
-                pbAddRgssScriptTexts(items,route.list[k].parameters[0])
+                pbAddRgssScriptTexts(intl,route.list[k].parameters[0])
               end
             end
           end
@@ -113,6 +114,7 @@ def pbSetTextMessages
     choices|=[]
     items.concat(choices)
     MessageTypes.setMapMessagesAsHash(0,items)
+    MessageTypes.addMessagesAsHash(MessageTypes::ScriptTexts,intl)
     mapinfos = pbLoadMapInfos
     mapnames=[]
     for id in mapinfos.keys
@@ -129,6 +131,7 @@ def pbSetTextMessages
       map = load_data(filename)
       items=[]
       choices=[]
+      intl = []
       for event in map.events.values
         if Time.now.to_i - t >= 5
           t = Time.now.to_i
@@ -162,16 +165,16 @@ def pbSetTextMessages
                 neednewline=true
               elsif list.code == 355 || list.code==655
                 pbAddScriptTexts(items,list.parameters[0])
-                pbAddRgssScriptTexts(items,list.parameters[0])
+                pbAddRgssScriptTexts(intl,list.parameters[0])
               elsif list.code == 111 && list.parameters[0]==12
                 pbAddScriptTexts(items,list.parameters[1])
-                pbAddRgssScriptTexts(items,list.parameters[1])
+                pbAddRgssScriptTexts(intl,list.parameters[1])
               elsif list.code==209
                 route=list.parameters[1]
                 for k in 0...route.list.size
                   if route.list[k].code==45
                     pbAddScriptTexts(items,route.list[k].parameters[0])
-                    pbAddRgssScriptTexts(items,route.list[k].parameters[0])
+                    pbAddRgssScriptTexts(intl,route.list[k].parameters[0])
                   end
                 end
               end
@@ -193,6 +196,7 @@ def pbSetTextMessages
       choices|=[]
       items.concat(choices)
       MessageTypes.setMapMessagesAsHash(id,items)
+      MessageTypes.addMessagesAsHash(MessageTypes::ScriptTexts,intl)
       if Time.now.to_i - t >= 5
         t = Time.now.to_i
         Graphics.update

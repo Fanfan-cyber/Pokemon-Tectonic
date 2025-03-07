@@ -482,8 +482,6 @@ Yep!
 Not this again.
 最好别。
 [Map1]
-Enable randomizer? This will disable some achievements.
-启用随机模式？这会禁用部分成就。
 Pokemon Tectonic has features to help you make sense of its open world, and its many mechanical changes.
 《口袋妖怪板块构造》中新添加了很多系统，也同时包含很多帮助信息。
 The <imp>What Next?</imp> feature tells you what to do to progress the main story, if you forgot or got lost.
@@ -4918,8 +4916,6 @@ Outsmarted and outmatched...for now.
 被以智取的方式完胜...不过这只是暂时的。
 The door is locked with an old rusty padlock.
 这扇门上锁了一把生锈的锁头。
-Try to break into the house by force?
-想强行闯进房子吗？
 You press against the door, and the padlock snaps in half!
 你稍微用力一推，它就分崩离析了！
 Hey, good to see you again!
@@ -8122,8 +8118,6 @@ Lo! We hast finally found the treasure we hast been seeking!
 我们终于找到这个宝藏了！
 A heavy crate. Its front side lock has been broken off.
 一个沉重的板条箱，锁头已经被保利拆解掉了。
-Open the crate?
-要打开箱子吗？
 There are items inside!
 里面好像有些东西！
 No
@@ -10167,8 +10161,6 @@ You'll earn a prize depending on the best creature yer capable of haulin' in.
 我们会根据你钓到的最好的精灵，给你一些相应的奖励。
 Only condition is ya' bring your own Pokeballs and ya' pitch in $1000 for fuelin' costs.
 但是需要你们自带精灵球，并缴纳$1000的燃料费用。
-Would you like to purchase an Ocean Fishing Contest trip?
-你想购买海洋钓鱼大赛的参赛资格吗？
 \PN hands over $1000.
 \PN将$1000交给对方。
 You don't have enough for it.
@@ -10306,8 +10298,6 @@ Hey. Wanna play some Voltorb Flip?
 嘿，要玩电球转雷吗？
 I got nothin' to give you for winnin', so it'd be just for the joy of it.
 只是我没有什么能给你的，所以就是单纯的玩玩。
-Whatd'ya say?
-你觉得怎么样？
 Alright, let's get started!
 好了，我们开始吧！
 Oh yeah, a good bit of fun that was.
@@ -10498,8 +10488,6 @@ Don't tell my teacher, but I'm totally skipping on school to attend the Battle F
 [Map178]
 You've found IgnitedxSoul, a design contributor and community manager.
 你即将挑战设计参与及社区管理员IgnitedxSoul
-Do you wish to battle?
-你想对战吗？
 Thank you for playing our game!
 感谢您游玩我们的游戏！
 You've found Brickbat, the Project Lead.
@@ -10513,8 +10501,6 @@ You've found Zinnia, Lead Designer and Lead Programmer.
 [Map179]
 Estás a punto de enfrentar a Valrex, traductor al Español.
 你即将挑战西班牙语翻译Valrex。
-Do you wish to battle?
-你想对战吗？
 Thank you for playing our game!
 感谢您游玩我们的游戏！
 You've found Darlvon, a battle designer and AI programmer.
@@ -14018,8 +14004,6 @@ I write, erase, rewrite. Erase again, and then, my Ditto changes.
 一字一音替，不知不觉日偏西，百变怪作笔。
 You can barely make out the outline of a cave entrance behind the waterfall.
 勉强可以透过瀑布，看到后面洞口的轮廓。
-Try to force yourself in?
-想强行闯入吗？
 My Pokemon love the trees and grass. They also love battling!
 我的精灵们喜欢树木和草丛，也很喜欢战斗！
 What's that, my Pokemon? You want to go to the pub?
@@ -14676,8 +14660,6 @@ Sure, let's go.
 [Map218]
 A cap of rock is holding back a geyser of boiling water.
 一块巨石堵住了沸腾的水。
-Jump onto rumbling platform?
-要跳上震动的平台吗？
 I was once considered a beauty, but the way of the water needed a disciple.
 尽管我拥有着俊朗的相貌，但从水之道也需要虔诚的心。
 I should dry off.
@@ -15575,8 +15557,6 @@ To think, that they would try and pull the wool over our eyes with that scam.
 Clearly they have no respect for treasure hunters!
 寻宝者打交道最多的就是骗子了！
 [Map239]
-Would you like to end the Ocean Fishing Contest now?
-你想现在结束海洋钓鱼大赛吗？
 [Map240]
 [Map241]
 [Map242]
@@ -16559,16 +16539,12 @@ Nevermind that. I'll respect your privacy.
 没关系，我会尊重你的隐私。
 But still, I implore you, let me craft a Poke Ball from that beautiful fruit.
 不过我还是会恳求你，让我用这个漂亮的果子做一个精灵球吧。
-What do you say?
-你觉得怎么样？
 Mmmm... exercise some self-restraint, now.
 嗯...好吧，我自我克制一下。
 Well, if you feel differently later on, I'll be right here.
 如果你改主意了，可以随时来这里找我。
 I've been praying for you to change your mind about that Gilded Apricorn.
 我一直在祈祷，你能改变对镀金球果的想法。
-How's about it? Let an old man live out his dream?
-怎么样？让一个老人实现他的梦想吧？
 *sigh*
 *粗气*
 Wish I didn't get my hopes up.
@@ -19980,16 +19956,6 @@ It leaves the choice to you.
 它把选择权留给了你。
 It winks at you as you catch it.
 当你抓住它的时候，它向你眨了眨眼。
-Macabre
-阴森
-Insightful
-洞察
-Ever-Seeking
-永无止境的追寻
-Humanity
-人性
-Deception
-欺骗
 Sometimes it will go missing, wandering on flights of fancy through landscapes and thoughtscapes alike.
 有时它会失踪，漫游于各种风景和思绪之中。
 Sometimes in the witching hour objects will move on their own.
@@ -21101,8 +21067,6 @@ More like the type to own a boat!
 更像是那种有船一族！
 For a fee I can let ya park your boat on the dock out front.
 只要你肯付费，就可以在这里租一个船位。
-Whaddya say to $10,000 for renter's rights?
-10000美元租用权，你觉得怎么样？
 Alright, just sign here... and, it's legally yours to use.
 谢谢惠顾，在这里签字...现在，这个船位就是你的了。
 Hope your trips on the Eleig are enjoyable!
@@ -21280,16 +21244,6 @@ The Ditto allows itself to be caught without a trace of trepidation.
 百变怪痛痛快快地进入了球里。
 You know that it has the utmost trust in you.
 你知道它对你有着毫无保留的信任。
-Eldritch
-诡异
-Imitative
-模仿
-Ever-Caring
-永恒的关怀
-Humanity
-人性
-Ignorance
-无知
 The Ditto waits patiently for you to catch it, but does not press the issue.
 百变怪正耐心等你捕捉它，但也没有强求。
 It will remain here. It likes it here. It’s always liked graveyards.
@@ -21671,8 +21625,6 @@ I'll part with it for 200 Battle Points.
 只要200战斗积分就可以了。
 Just don't ask where I got the charm or what I'm gonna do with the Battle Points.
 别问我这护符从哪里来，也别问我这些积分会到哪里去。
-So, up to spend 200 Battle Points on a Shiny Charm?
-那么，要花200对战点数买闪耀护符吗？
 I'm glad we could come to an understanding.
 很高兴我们能达成交易。
 Adiue, \PN.
@@ -21742,10 +21694,6 @@ Although, details are scarce.
 哪怕只有一丁点关联，
 I ask you now. Would you let an old witch in on the secret?
 我也希望你能将其告知于我。
-Explain what Yezera was doing inside Mt. Kilna?
-解释一下叶泽拉在基尔纳山内部做了什么？
-You explain to Dr. Hekata about how Yezera nearly reshaped the world using an ancient ritual.
-你向赫卡塔博士解释了叶泽拉如何利用一个古老的仪式几乎重塑了世界。
 Zounds! What a wondrous story.
 这...真是个神奇的故事。
 You've witnessed some very ancient magicks indeed.
@@ -22121,8 +22069,6 @@ But if you ever aren’t fine, I’m here for you. We are.
 但是你也会遇到一些问题，总之，我们都会陪着你。
 Things are gonna be different now.
 现在已经不同于往日了。
-Things are going to be different from now on.
-从现在开始，事情将会变得不同。
 Hey! \PN! Great work!
 嘿！\PN！干的不错！
 I am absolutely STOKED that you got an actual ceremony. I sent Tamarind five letters telling her how disappointed I was that the whole thing got ruined!
@@ -23582,8 +23528,6 @@ Not really.
 [Map424]
 You've found Lichenprincess, a spriter and character designer.
 你即将挑战绘图与角色设计Lichenprincess。
-Do you wish to battle?
-你想对战吗？
 Thank you for playing our game!
 感谢您游玩我们的游戏！
 You've found Dada, a spriting contributor.
@@ -23938,8 +23882,6 @@ Multiple copies of the same sign, all advertising an insurance package deal that
 [Map430]
 A golden fruit glistens in a space atop the tree.
 一颗金色的果实在树顶的空隙中闪闪发光。
-Harvest the golden fruit?
-要收获金色果实吗？
 A gleaming silver tree. The space at the top is empty of any fruit.
 一棵银光闪闪的树木，但上面空空如也，没有果实。
 Behind me stand two sides of a similar coin – An arrogant child and a cowardly elder.
@@ -24250,8 +24192,6 @@ The ephemeral voices of a thousand lost rulers echo in your head.
 <i>我的规则。</i>
 <i>My <b>peace</b>.</i>
 <i>我的<b>领地</b>。</i>
-Return the Flora Sceptre and Reins of Unity?
-要归还花之权杖和团结之缰吗？
 You hand over the Flora Sceptre and the Reins of Unity.
 你交出了花之权杖和团结之缰。
 <i>Good. Now… <b>pray we never meet again.</b></I>
@@ -40347,6 +40287,66 @@ Guess what happened the other day. I missed catching \TE again.\mMaybe I'm not v
 Guess what happened the other day.  I missed catching \TE again.\mMaybe I'm not very good at this.
 [23]
 [24]
+Enable randomizer? This will disable some achievements.
+启用随机模式？这会禁用部分成就。
+Try to break into the house by force?
+想强行闯进房子吗？
+Open the crate?
+要打开箱子吗？
+Would you like to purchase an Ocean Fishing Contest trip?
+你想购买海洋钓鱼大赛的参赛资格吗？
+Whatd'ya say?
+你觉得怎么样？
+Do you wish to battle?
+你想对战吗？
+Do you wish to battle?
+你想对战吗？
+Try to force yourself in?
+想强行闯入吗？
+Jump onto rumbling platform?
+要跳上震动的平台吗？
+Would you like to end the Ocean Fishing Contest now?
+你想现在结束海洋钓鱼大赛吗？
+What do you say?
+你觉得怎么样？
+How's about it? Let an old man live out his dream?
+怎么样？让一个老人实现他的梦想吧？
+Macabre
+阴森
+Insightful
+洞察
+Ever-Seeking
+永无止境的追寻
+Humanity
+人性
+Deception
+欺骗
+Whaddya say to $10,000 for renter's rights?
+10000美元租用权，你觉得怎么样？
+Eldritch
+诡异
+Imitative
+模仿
+Ever-Caring
+永恒的关怀
+Humanity
+人性
+Ignorance
+无知
+So, up to spend 200 Battle Points on a Shiny Charm?
+那么，要花200对战点数买闪耀护符吗？
+Explain what Yezera was doing inside Mt. Kilna?
+解释一下叶泽拉在基尔纳山内部做了什么？
+You explain to Dr. Hekata about how Yezera nearly reshaped the world using an ancient ritual.
+你向赫卡塔博士解释了叶泽拉如何利用一个古老的仪式几乎重塑了世界。
+Things are going to be different from now on.
+从现在开始，事情将会变得不同。
+Do you wish to battle?
+你想对战吗？
+Harvest the golden fruit?
+要收获金色果实吗？
+Return the Flora Sceptre and Reins of Unity?
+要归还花之权杖和团结之缰吗？
 Bill
 比尔
 Items
@@ -52193,6 +52193,60 @@ The ice disappeared from the field!
 {1} slipped!
 It hurt itself!
 It hurt itself!
+Enable randomizer? This will disable some achievements.
+启用随机模式？这会禁用部分成就。
+What do you say?
+What do you say?
+How's about it? Let an old man live out his dream?
+How's about it? Let an old man live out his dream?
+Whaddya say to $10,000 for renter's rights?
+Whaddya say to $10,000 for renter's rights?
+Try to force yourself in?
+Try to force yourself in?
+Jump onto rumbling platform?
+Jump onto rumbling platform?
+Eldritch
+Eldritch
+Imitative
+Imitative
+Ever-Caring
+Ever-Caring
+Humanity
+Humanity
+Ignorance
+Ignorance
+So, up to spend 200 Battle Points on a Shiny Charm?
+So, up to spend 200 Battle Points on a Shiny Charm?
+Explain what Yezera was doing inside Mt. Kilna?
+Explain what Yezera was doing inside Mt. Kilna?
+You explain to Dr. Hekata about how Yezera nearly reshaped the world using an ancient ritual.
+You explain to Dr. Hekata about how Yezera nearly reshaped the world using an ancient ritual.
+Do you wish to battle?
+Do you wish to battle?
+Would you like to purchase an Ocean Fishing Contest trip?
+Would you like to purchase an Ocean Fishing Contest trip?
+Whatd'ya say?
+Whatd'ya say?
+Harvest the golden fruit?
+Harvest the golden fruit?
+Things are going to be different from now on.
+Things are going to be different from now on.
+Would you like to end the Ocean Fishing Contest now?
+Would you like to end the Ocean Fishing Contest now?
+Return the Flora Sceptre and Reins of Unity?
+Return the Flora Sceptre and Reins of Unity?
+Try to break into the house by force?
+Try to break into the house by force?
+Open the crate?
+Open the crate?
+Macabre
+Macabre
+Insightful
+Insightful
+Ever-Seeking
+Ever-Seeking
+Deception
+Deception
 [27]
 0
 Animated

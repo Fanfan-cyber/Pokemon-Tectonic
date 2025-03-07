@@ -7,6 +7,18 @@ Adoption Center
 翻译特性和技能效果，修复训练师类型名称Bug
 教程[时间胶囊/战斗模拟器/特性记录器/STAB系统，现在单属性精灵的本系加成为1.5倍，多属性精灵的本系加成为1.25倍，新的技能威力属性加成机制，使用的技能与攻击方队伍里的其他未处于濒死状态的精灵具有相同的属性，就会有加成（每只单属性精灵加成10%，多属性精灵加成5%），新的技能威力属性削减机制，使用的技能与被击方队伍里的其他未处于濒死状态的精灵具有相同的属性，就会有削减（每只单属性精灵削减10%，多属性精灵削减5%）]
 整理002_My_Helpers和003_Field_Effect
+MoveDescriptions   = 6
+AbilityDescs       = 11
+TrainerTypes       = 13
+TrainerNames       = 14
+BeginSpeech        = 15
+EndSpeechWin       = 16
+EndSpeechLose      = 17
+MapNames           = 21
+PhoneMessages      = 22
+ScriptTexts        = 24
+BattleEffects      = 32
+FORMNAMES_HASH     = 444
 =end
 MOD_VERSION = "0.2.4"
 
@@ -106,7 +118,8 @@ v0.2.4
 2.修复因为官方重排图鉴导致的精灵形态名翻译错位的问题
 3.修复因为官方重排图鉴导致的精灵种类名翻译错位的问题
 4.修复因为官方重排图鉴导致的精灵图鉴条目翻译错位的问题
-5.
+5.修复翻译系统无法正确识别已翻译的文本的Bug
+6.
 
 v0.2.3
 1.添加了无经验模式，现在可以输入密码zeroexp开启
