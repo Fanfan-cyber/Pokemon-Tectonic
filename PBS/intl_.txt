@@ -482,8 +482,6 @@ Yep!
 Not this again.
 Not this again.
 [Map1]
-Enable randomizer? This will disable some achievements.
-Enable randomizer? This will disable some achievements.
 Pokemon Tectonic has features to help you make sense of its open world, and its many mechanical changes.
 Pokemon Tectonic has features to help you make sense of its open world, and its many mechanical changes.
 The <imp>What Next?</imp> feature tells you what to do to progress the main story, if you forgot or got lost.
@@ -4918,8 +4916,6 @@ Outsmarted and outmatched...for now.
 Outsmarted and outmatched...for now.
 The door is locked with an old rusty padlock.
 The door is locked with an old rusty padlock.
-Try to break into the house by force?
-Try to break into the house by force?
 You press against the door, and the padlock snaps in half!
 You press against the door, and the padlock snaps in half!
 Hey, good to see you again!
@@ -8122,8 +8118,6 @@ Lo! We hast finally found the treasure we hast been seeking!
 Lo! We hast finally found the treasure we hast been seeking!
 A heavy crate. Its front side lock has been broken off.
 A heavy crate. Its front side lock has been broken off.
-Open the crate?
-Open the crate?
 There are items inside!
 There are items inside!
 No
@@ -10167,8 +10161,6 @@ You'll earn a prize depending on the best creature yer capable of haulin' in.
 You'll earn a prize depending on the best creature yer capable of haulin' in.
 Only condition is ya' bring your own Pokeballs and ya' pitch in $1000 for fuelin' costs.
 Only condition is ya' bring your own Pokeballs and ya' pitch in $1000 for fuelin' costs.
-Would you like to purchase an Ocean Fishing Contest trip?
-Would you like to purchase an Ocean Fishing Contest trip?
 \PN hands over $1000.
 \PN hands over $1000.
 You don't have enough for it.
@@ -10306,8 +10298,6 @@ Hey. Wanna play some Voltorb Flip?
 Hey. Wanna play some Voltorb Flip?
 I got nothin' to give you for winnin', so it'd be just for the joy of it.
 I got nothin' to give you for winnin', so it'd be just for the joy of it.
-Whatd'ya say?
-Whatd'ya say?
 Alright, let's get started!
 Alright, let's get started!
 Oh yeah, a good bit of fun that was.
@@ -10498,8 +10488,6 @@ Don't tell my teacher, but I'm totally skipping on school to attend the Battle F
 [Map178]
 You've found IgnitedxSoul, a design contributor and community manager.
 You've found IgnitedxSoul, a design contributor and community manager.
-Do you wish to battle?
-Do you wish to battle?
 Thank you for playing our game!
 Thank you for playing our game!
 You've found Brickbat, the Project Lead.
@@ -10513,8 +10501,6 @@ You've found Zinnia, Lead Designer and Lead Programmer.
 [Map179]
 Estás a punto de enfrentar a Valrex, traductor al Español.
 Estás a punto de enfrentar a Valrex, traductor al Español.
-Do you wish to battle?
-Do you wish to battle?
 Thank you for playing our game!
 Thank you for playing our game!
 You've found Darlvon, a battle designer and AI programmer.
@@ -14018,8 +14004,6 @@ I write, erase, rewrite. Erase again, and then, my Ditto changes.
 I write, erase, rewrite. Erase again, and then, my Ditto changes.
 You can barely make out the outline of a cave entrance behind the waterfall.
 You can barely make out the outline of a cave entrance behind the waterfall.
-Try to force yourself in?
-Try to force yourself in?
 My Pokemon love the trees and grass. They also love battling!
 My Pokemon love the trees and grass. They also love battling!
 What's that, my Pokemon? You want to go to the pub?
@@ -14676,8 +14660,6 @@ Sure, let's go.
 [Map218]
 A cap of rock is holding back a geyser of boiling water.
 A cap of rock is holding back a geyser of boiling water.
-Jump onto rumbling platform?
-Jump onto rumbling platform?
 I was once considered a beauty, but the way of the water needed a disciple.
 I was once considered a beauty, but the way of the water needed a disciple. 
 I should dry off.
@@ -15575,8 +15557,6 @@ To think, that they would try and pull the wool over our eyes with that scam.
 Clearly they have no respect for treasure hunters!
 Clearly they have no respect for treasure hunters! 
 [Map239]
-Would you like to end the Ocean Fishing Contest now?
-Would you like to end the Ocean Fishing Contest now?
 [Map240]
 [Map241]
 [Map242]
@@ -16559,16 +16539,12 @@ Nevermind that. I'll respect your privacy.
 Nevermind that. I'll respect your privacy.
 But still, I implore you, let me craft a Poke Ball from that beautiful fruit.
 But still, I implore you, let me craft a Poke Ball from that beautiful fruit.
-What do you say?
-What do you say?
 Mmmm... exercise some self-restraint, now.
 Mmmm... exercise some self-restraint, now.
 Well, if you feel differently later on, I'll be right here.
 Well, if you feel differently later on, I'll be right here.
 I've been praying for you to change your mind about that Gilded Apricorn.
 I've been praying for you to change your mind about that Gilded Apricorn.
-How's about it? Let an old man live out his dream?
-How's about it? Let an old man live out his dream?
 *sigh*
 *sigh*
 Wish I didn't get my hopes up.
@@ -19980,16 +19956,6 @@ It leaves the choice to you.
 It leaves the choice to you.
 It winks at you as you catch it.
 It winks at you as you catch it.
-Macabre
-Macabre
-Insightful
-Insightful
-Ever-Seeking
-Ever-Seeking
-Humanity
-Humanity
-Deception
-Deception
 Sometimes it will go missing, wandering on flights of fancy through landscapes and thoughtscapes alike.
 Sometimes it will go missing, wandering on flights of fancy through landscapes and thoughtscapes alike.
 Sometimes in the witching hour objects will move on their own.
@@ -21101,8 +21067,6 @@ More like the type to own a boat!
 More like the type to own a boat!
 For a fee I can let ya park your boat on the dock out front.
 For a fee I can let ya park your boat on the dock out front.
-Whaddya say to $10,000 for renter's rights?
-Whaddya say to $10,000 for renter's rights?
 Alright, just sign here... and, it's legally yours to use.
 Alright, just sign here... and, it's legally yours to use.
 Hope your trips on the Eleig are enjoyable!
@@ -21280,16 +21244,6 @@ The Ditto allows itself to be caught without a trace of trepidation.
 The Ditto allows itself to be caught without a trace of trepidation.
 You know that it has the utmost trust in you.
 You know that it has the utmost trust in you.
-Eldritch
-Eldritch
-Imitative
-Imitative
-Ever-Caring
-Ever-Caring
-Humanity
-Humanity
-Ignorance
-Ignorance
 The Ditto waits patiently for you to catch it, but does not press the issue.
 The Ditto waits patiently for you to catch it, but does not press the issue.
 It will remain here. It likes it here. It’s always liked graveyards.
@@ -21671,8 +21625,6 @@ I'll part with it for 200 Battle Points.
 I'll part with it for 200 Battle Points.
 Just don't ask where I got the charm or what I'm gonna do with the Battle Points.
 Just don't ask where I got the charm or what I'm gonna do with the Battle Points.
-So, up to spend 200 Battle Points on a Shiny Charm?
-So, up to spend 200 Battle Points on a Shiny Charm?
 I'm glad we could come to an understanding.
 I'm glad we could come to an understanding.
 Adiue, \PN.
@@ -21742,10 +21694,6 @@ Although, details are scarce.
 Although, details are scarce.
 I ask you now. Would you let an old witch in on the secret?
 I ask you now. Would you let an old witch in on the secret?
-Explain what Yezera was doing inside Mt. Kilna?
-Explain what Yezera was doing inside Mt. Kilna?
-You explain to Dr. Hekata about how Yezera nearly reshaped the world using an ancient ritual.
-You explain to Dr. Hekata about how Yezera nearly reshaped the world using an ancient ritual.
 Zounds! What a wondrous story.
 Zounds! What a wondrous story.
 You've witnessed some very ancient magicks indeed.
@@ -22121,8 +22069,6 @@ But if you ever aren’t fine, I’m here for you. We are.
 But if you ever aren’t fine, I’m here for you. We are.
 Things are gonna be different now.
 Things are gonna be different now.
-Things are going to be different from now on.
-Things are going to be different from now on.
 Hey! \PN! Great work!
 Hey! \PN! Great work!
 I am absolutely STOKED that you got an actual ceremony. I sent Tamarind five letters telling her how disappointed I was that the whole thing got ruined!
@@ -23582,8 +23528,6 @@ Not really.
 [Map424]
 You've found Lichenprincess, a spriter and character designer.
 You've found Lichenprincess, a spriter and character designer.
-Do you wish to battle?
-Do you wish to battle?
 Thank you for playing our game!
 Thank you for playing our game!
 You've found Dada, a spriting contributor.
@@ -23938,8 +23882,6 @@ Multiple copies of the same sign, all advertising an insurance package deal that
 [Map430]
 A golden fruit glistens in a space atop the tree.
 A golden fruit glistens in a space atop the tree.
-Harvest the golden fruit?
-Harvest the golden fruit?
 A gleaming silver tree. The space at the top is empty of any fruit.
 A gleaming silver tree. The space at the top is empty of any fruit.
 Behind me stand two sides of a similar coin – An arrogant child and a cowardly elder.
@@ -24250,8 +24192,6 @@ The ephemeral voices of a thousand lost rulers echo in your head.
 <i>My rule.</i>
 <i>My <b>peace</b>.</i>
 <i>My <b>peace</b>.</i>
-Return the Flora Sceptre and Reins of Unity?
-Return the Flora Sceptre and Reins of Unity?
 You hand over the Flora Sceptre and the Reins of Unity.
 You hand over the Flora Sceptre and the Reins of Unity.
 <i>Good. Now… <b>pray we never meet again.</b></I>
@@ -44657,8 +44597,8 @@ You were spared from spikes this turn!
 You were spared from spikes this turn!
 Pyres raised<<n>>Here we meet<<n>>Spirits razed<<n>>Reduced to meat
 Pyres raised<<n>>Here we meet<<n>>Spirits razed<<n>>Reduced to meat
-Status conditions affect your Pokémon twice as much!
-Status conditions affect your Pokémon twice as much!
+Status conditions affect your Pokémon twice as much!<<n>>Foes ignore the Status Clause!
+Status conditions affect your Pokémon twice as much!<<n>>Foes ignore the Status Clause!
 Shall Our Truth Lay Asunder Thy Masque and Thee?
 Shall Our Truth Lay Asunder Thy Masque and Thee?
 Whenever an enemy Pokémon enters at full health, it forms a substitute.
@@ -52193,6 +52133,60 @@ The ice disappeared from the field!
 {1} slipped!
 It hurt itself!
 It hurt itself!
+Enable randomizer? This will disable some achievements.
+Enable randomizer? This will disable some achievements.
+What do you say?
+What do you say?
+How's about it? Let an old man live out his dream?
+How's about it? Let an old man live out his dream?
+Whaddya say to $10,000 for renter's rights?
+Whaddya say to $10,000 for renter's rights?
+Try to force yourself in?
+Try to force yourself in?
+Jump onto rumbling platform?
+Jump onto rumbling platform?
+Eldritch
+Eldritch
+Imitative
+Imitative
+Ever-Caring
+Ever-Caring
+Humanity
+Humanity
+Ignorance
+Ignorance
+So, up to spend 200 Battle Points on a Shiny Charm?
+So, up to spend 200 Battle Points on a Shiny Charm?
+Explain what Yezera was doing inside Mt. Kilna?
+Explain what Yezera was doing inside Mt. Kilna?
+You explain to Dr. Hekata about how Yezera nearly reshaped the world using an ancient ritual.
+You explain to Dr. Hekata about how Yezera nearly reshaped the world using an ancient ritual.
+Do you wish to battle?
+Do you wish to battle?
+Would you like to purchase an Ocean Fishing Contest trip?
+Would you like to purchase an Ocean Fishing Contest trip?
+Whatd'ya say?
+Whatd'ya say?
+Harvest the golden fruit?
+Harvest the golden fruit?
+Things are going to be different from now on.
+Things are going to be different from now on.
+Would you like to end the Ocean Fishing Contest now?
+Would you like to end the Ocean Fishing Contest now?
+Return the Flora Sceptre and Reins of Unity?
+Return the Flora Sceptre and Reins of Unity?
+Try to break into the house by force?
+Try to break into the house by force?
+Open the crate?
+Open the crate?
+Macabre
+Macabre
+Insightful
+Insightful
+Ever-Seeking
+Ever-Seeking
+Deception
+Deception
 [27]
 0
 Animated
