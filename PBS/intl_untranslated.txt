@@ -448,437 +448,107 @@
 [Map446]
 [5]
 [6]
-The target is hit with rhythmically launched punches that have a 30% chance to dizzy.
-The target is hit with rhythmically launched punches that have a 30% chance to dizzy.
-Enables random critical hits for the user, and quadruples its critical hit chance.
-Enables random critical hits for the user, and quadruples its critical hit chance.
-The user draws attention to itself, making all targets take aim only at the user this turn.
-The user draws attention to itself, making all targets take aim only at the user this turn.
-The user sticks out its head and attacks by charging into the foe. It has a 50% chance to numb.
-The user sticks out its head and attacks by charging into the foe. It has a 50% chance to numb.
-The foe is forced to switch out to a random ally. Always goes last.
-The foe is forced to switch out to a random ally. Always goes last.
-An attack that can be used only if the user is asleep.
-An attack that can be used only if the user is asleep.
-A barrage of two to five star-shaped rays are shot at the opposing team. Can't miss and skips protections.
-A barrage of two to five star-shaped rays are shot at the opposing team. Can't miss and skips protections.
-Used only if the user has no PP. It also hurts the user.
-Used only if the user has no PP. It also hurts the user.
-The user consumes its Stockpile to heal for 50% max HP per charge. This can overheal.
-The user consumes its Stockpile to heal for 50% max HP per charge. This can overheal.
-Attacks wildly with swords or fists. The user must rest on the next turn, however.
-Attacks wildly with swords or fists. The user must rest on the next turn, however.
-The target is jabbed with a sharply pointed beak or horn. Can random critical hit.
-The target is jabbed with a sharply pointed beak or horn. Can random critical hit.
-The user coils up and concentrates. This raises its Attack, Defense, and Accuracy by two steps each.
-The user coils up and concentrates. This raises its Attack, Defense, and Accuracy by two steps each.
-A slashing attack with a poisonous blade. Can random critical hit.
-A slashing attack with a poisonous blade. Can random critical hit.
-The user hits the target with its tail. Can random critical hit.
-The user hits the target with its tail. Can random critical hit.
-Gravity is intensified for five turns, forcing Pokémon down from the air and doubling all move Accuracy.
-Gravity is intensified for five turns, forcing Pokémon down from the air and doubling all move Accuracy.
-The user whips up a storm of diamonds to damage foes, raising its Defense and Sp. Def.
-The user whips up a storm of diamonds to damage foes, raising its Defense and Sp. Def.
-The user vibrates its wings to make a damaging sound wave. It has a 20% chance to lower Sp. Def.
-The user vibrates its wings to make a damaging sound wave. It has a 20% chance to lower Sp. Def.
-The user drains the target's blood. The user's HP is restored by 50% of the damage dealt.
-The user drains the target's blood. The user's HP is restored by 50% of the damage dealt.
-The user makes a lunge at the target, attacking with full force. This lowers the target's Attack by one step.
-The user makes a lunge at the target, attacking with full force. This lowers the target's Attack by one step.
-The user attacks with a beam of light. It has a 30% chance to dizzy.
-The user attacks with a beam of light. It has a 30% chance to dizzy.
-The user rolls over its foes, crushing them. It has a 30% chance to reduce the target's Defense.
-The user rolls over its foes, crushing them. It has a 30% chance to reduce the target's Defense.
-The user focuses intensely. For the next three turns, its attacks will be guarenteed critical hits.
-The user focuses intensely. For the next three turns, its attacks will be guarenteed critical hits.
-The user launches a fiery kick. It has a 10% chance to burn.
-The user launches a fiery kick. It has a 10% chance to burn.
-The target is struck with a supersonic water blast. Can random critical hit.
-The target is struck with a supersonic water blast. Can random critical hit.
-It swamps the area with a giant wave, hitting every battler nearby. Has a 10% chance to waterlog.
-It swamps the area with a giant wave, hitting every battler nearby. Has a 10% chance to waterlog.
-The target is blasted with a forceful shot of water. Can random critical hit.
-The target is blasted with a forceful shot of water. Can random critical hit.
-The user attacks the target with a pulsing blast of water. It has a 30% chance to dizzy.
-The user attacks the target with a pulsing blast of water. It has a 30% chance to dizzy.
-The user hits the target with throwing stars 2 to 5 times in a row. This move always goes first.
-The user hits the target with throwing stars 2 to 5 times in a row. This move always goes first.
-A nutrient-draining attack. The user's HP is restored by 50% of the damage dealt.
-A nutrient-draining attack. The user's HP is restored by 50% of the damage dealt.
-The user's body grows all at once, raising Atk and Sp. Atk by two steps each, or 4 in sunshine.
-The user's body grows all at once, raising Atk and Sp. Atk by two steps each, or 4 in sunshine.
-The user charges, then attacks on the second turn. Charges instantly in sunshine.
-The user charges, then attacks on the second turn. Charges instantly in sunshine.
-Attacks by gliding on the ground. This move always goes first in sunshine.
-Attacks by gliding on the ground. This move always goes first in sunshine.
-The user restores 1/2 of its HP, or 2/3rds in sunshine.
-The user restores 1/2 of its HP, or 2/3rds in sunshine.
-The user becomes energy charged, doubling its next Electric-type attack. Also raises the user's defensive stats by two steps each.
-The user becomes energy charged, doubling its next Electric-type attack. Also raises the user's defensive stats by two steps each.
-The user attacks everything around it. The user's HP is restored by 50% of the damage dealt.
-The user attacks everything around it. The user's HP is restored by 50% of the damage dealt.
-The target is attacked with a peculiar ray. It has a 30% chance to dizzy.
-The target is attacked with a peculiar ray. It has a 30% chance to dizzy.
-This move reduces damage from attacks for five turns. This can be used only in hail.
-This move reduces damage from attacks for five turns. This can be used only in hail.
-The user forces the target to switch out, to be replaced at random. Always goes last.
-The user forces the target to switch out, to be replaced at random. Always goes last.
-A small tornado hits the target. It has a 30% chance to make targets flinch.
-A small tornado hits the target. It has a 30% chance to make targets flinch.
-The target is bitten with viciously sharp fangs. It has a 20% chance to lower Defense.
-The target is bitten with viciously sharp fangs. It has a 20% chance to lower Defense.
-The user sharpens its claws to raise its Attack and Accuracy by three steps each.
-The user sharpens its claws to raise its Attack and Accuracy by three steps each.
-The user slaps the target to knock off their item.
-The user slaps the target to knock off their item.
-The user stirs up a fairy wind and strikes the target with it.
-The user stirs up a fairy wind and strikes the target with it.
-The user attacks the target by emitting steam. It has a 30% chance to dizzy.
-The user attacks the target by emitting steam. It has a 30% chance to dizzy.
-The user steadies its eyes, mind, and body in order to maximize its Accuracy.
-The user steadies its eyes, mind, and body in order to maximize its Accuracy.
-The user thrashes while infused with elements. It has a 15% chance each to poison, leech, or waterlog.
-The user thrashes while infused with elements. It has a 15% chance each to poison, leech, or waterlog.
-The user curls up to conceal weak spots and raise both of its defensive stats by two steps.
-The user curls up to conceal weak spots and raise both of its defensive stats by two steps.
-The user focuses its aim to raise its Sp. Atk and Accuracy by three steps each.
-The user focuses its aim to raise its Sp. Atk and Accuracy by three steps each.
-The user cleans the target aggressively with soapy water. It has a 50% chance to waterlog.
-The user cleans the target aggressively with soapy water. It has a 50% chance to waterlog.
-The user spins the target with a cleansing vortex. It has a 30% chance to waterlog.
-The user spins the target with a cleansing vortex. It has a 30% chance to waterlog.
-The target is struck by a pulse of negative energy. This resets the target's stat changes.
-The target is struck by a pulse of negative energy. This resets the target's stat changes.
-The user switches out to a party Pokémon in waiting. Always goes last.
-The user switches out to a party Pokémon in waiting. Always goes last.
-Enables random critical hits for the user, quadruples its critical hit chance, and raises its Speed by 2 steps.
-Enables random critical hits for the user, quadruples its critical hit chance, and raises its Speed by 2 steps.
-A high pitched screech lowers the target's Defense, Sp. Def, and Evasion by three steps each. Can't miss and skips protections.
-A high pitched screech lowers the target's Defense, Sp. Def, and Evasion by three steps each. Can't miss and skips protections.
-The target is jabbed repeatedly with a horn or beak two to five times in a row. Can random critical hit.
-The target is jabbed repeatedly with a horn or beak two to five times in a row. Can random critical hit.
-The user hops high up to land on the target's head. It has a 10% chance to numb.
-The user hops high up to land on the target's head. It has a 10% chance to numb.
-Wind rapidly spins the target in place to hit them two to five times.
-Wind rapidly spins the target in place to hit them two to five times.
-The user gives off a terrible stench towards the target. It has a 30% chance to dizzy.
-The user gives off a terrible stench towards the target. It has a 30% chance to dizzy.
-The foe is forced to switch out by a stinky cloud, then the user also switches. Always goes last.
-The foe is forced to switch out by a stinky cloud, then the user also switches. Always goes last.
-Attacks by blasting dirt and debris at the target. This move always goes first in sandstorm.
-Attacks by blasting dirt and debris at the target. This move always goes first in sandstorm.
-The user blasts the target with highly pressurized sand. Can random critical hit.
-The user blasts the target with highly pressurized sand. Can random critical hit.
-The user bludgeons the target's arms and legs with a large rock. This has a 50% chance to fracture it.
-The user bludgeons the target's arms and legs with a large rock. This has a 50% chance to fracture it.
-The user weakens the target's bones, making them fracture. They deal 33% less damage.
-The user weakens the target's bones, making them fracture. They deal 33% less damage.
-The user numbs the target, then summons sandstorm for eight turns.
-The user numbs the target, then summons sandstorm for eight turns.
-The user drops a single piece of solid bedrock on the target, fracturing them.
-The user drops a single piece of solid bedrock on the target, fracturing them.
-The user afflicts the target by turning their skin into stone. This has a 30% chance to fracture it.
-The user afflicts the target by turning their skin into stone. This has a 30% chance to fracture it.
-Large boulders are hurled at the foes to inflict damage. This has a 30% chance to fracture it.
-Large boulders are hurled at the foes to inflict damage. This has a 30% chance to fracture it.
-The user throws a large rock at the target. If it misses, the user's Accuracy is raised.
-The user throws a large rock at the target. If it misses, the user's Accuracy is raised.
-The user dances wildly while churning rocks towards the target. This raises the user's Attack by two steps.
-The user dances wildly while churning rocks towards the target. This raises the user's Attack by two steps.
-The user grinds stone into shrapnel and sprays it at the target. This has a 50% chance to fracture it.
-The user grinds stone into shrapnel and sprays it at the target. This has a 50% chance to fracture it.
-The user carefully lobs a small stone at high speed.
-The user carefully lobs a small stone at high speed.
-The user injects the target with an extremely painful bio-chemical. It has a 10% chance to poison.
-The user injects the target with an extremely painful bio-chemical. It has a 10% chance to poison.
-The user shoots out a quick flash of bioluminescence to damage the target. This move always goes first.
-The user shoots out a quick flash of bioluminescence to damage the target. This move always goes first.
-The user crushes the target with a hardened carapace. It has a 30% chance to lower the target's Defense stat.
-The user crushes the target with a hardened carapace. It has a 30% chance to lower the target's Defense stat.
-The user attacks with a horrible clattering noise. It has a 20% chance to lower Sp. Def.
-The user attacks with a horrible clattering noise. It has a 20% chance to lower Sp. Def.
-The user vibrates its wings to make a damaging sound wave. It has a 30% chance to lower Sp. Def.
-The user vibrates its wings to make a damaging sound wave. It has a 30% chance to lower Sp. Def.
-The user applies a painful chemical to the target with a smack. It has a 10% chance to poison.
-The user applies a painful chemical to the target with a smack. It has a 10% chance to poison.
-The user attacks with small beams of light. It has a 20% chance to make the target flinch.
-The user attacks with small beams of light. It has a 20% chance to make the target flinch.
-The user attacks with a blinding flash of bioluminscence. It has a 40% chance to make the target flinch.
-The user attacks with a blinding flash of bioluminscence. It has a 40% chance to make the target flinch.
-The user sheds a huge volley of scales at the target. Lands without fail and lowers the user's Sp. Def and Speed.
-The user sheds a huge volley of scales at the target. Lands without fail and lowers the user's Sp. Def and Speed.
-The user stabs the target, injecting a painful chemical. It has a 30% chance to poison.
-The user stabs the target, injecting a painful chemical. It has a 30% chance to poison.
-The user soothes the target, lowering its Speed by 4 steps. If in hail, they also become drowsy.
-The user soothes the target, lowering its Speed by 4 steps. If in hail, they also become drowsy.
-The user opens its soul to unleash massive energy. This lowers the user's Sp. Atk and Sp. Def by two steps.
-The user opens its soul to unleash massive energy. This lowers the user's Sp. Atk and Sp. Def by two steps.
-The user suffocates the target by sucking the air from their lungs. Can random critical hit.
-The user suffocates the target by sucking the air from their lungs. Can random critical hit.
-The user snips the target's connection to life in order to curse them, damaging their HP by 25% each turn.
-The user snips the target's connection to life in order to curse them, damaging their HP by 25% each turn.
-The user thins the air around the target, depriving them of oxygen. Can random critical hit.
-The user thins the air around the target, depriving them of oxygen. Can random critical hit.
-The user headbutts the target with a metal head. It has a 20% chance to make the target flinch.
-The user headbutts the target with a metal head. It has a 20% chance to make the target flinch.
-The target is pierced with a sharp iron arrow. Can random critical hit.
-The target is pierced with a sharp iron arrow. Can random critical hit.
-The target is pierced with a pointed metal javelin. Can random critical hit.
-The target is pierced with a pointed metal javelin. Can random critical hit.
-The user shoots a massive metal object at the target. The user must rest on the next turn to regain its energy.
-The user shoots a massive metal object at the target. The user must rest on the next turn to regain its energy.
-The user drags the target into the water with a heavy anchor. They become waterlogged.
-The user drags the target into the water with a heavy anchor. They become waterlogged.
-Summons sunshine for five turns on the first turn, then overwhelms the foe with fiery light on the second.
-Summons sunshine for five turns on the first turn, then overwhelms the foe with fiery light on the second.
-The user burns the target, then welcomes in sunshine for eight turns.
-The user burns the target, then welcomes in sunshine for eight turns.
-The user conserves for future attacks. This raises its Sp. Atk, Sp. Def, and Accuracy by two steps each.
-The user conserves for future attacks. This raises its Sp. Atk, Sp. Def, and Accuracy by two steps each.
-The user launches a concentrated ball of searing white flame. Can random critical hit.
-The user launches a concentrated ball of searing white flame. Can random critical hit.
-The user creates a storm using its flaming body, damaging everything around it and melting away hazards in both sides.
-The user creates a storm using its flaming body, damaging everything around it and melting away hazards in both sides.
-The user pulls the target under the waves with crushing force. This has a 10% chance to waterlog.
-The user pulls the target under the waves with crushing force. This has a 10% chance to waterlog.
-The user waterlogs the target, then welcomes in rainstorm for eight turns.
-The user waterlogs the target, then welcomes in rainstorm for eight turns.
-The user crashes into the target on a ripping current. This waterlogs the target.
-The user crashes into the target on a ripping current. This waterlogs the target.
-The user rams the target while splashing up a lot of water. This has a 30% chance to waterlog.
-The user rams the target while splashing up a lot of water. This has a 30% chance to waterlog.
-The user wields tidal power to grab at the target. This has a 10% chance to waterlog.
-The user wields tidal power to grab at the target. This has a 10% chance to waterlog.
-The target is doused with water in order to waterlog it.
-The target is doused with water in order to waterlog it.
-The user crashes into the target with the force of a large wave. This has a 30% chance to lower Defense.
-The user crashes into the target with the force of a large wave. This has a 30% chance to lower Defense.
-The target is inundated with a wave of seaweater. This has a 30% chance to waterlog.
-The target is inundated with a wave of seaweater. This has a 30% chance to waterlog.
-Lays roots that heal the user by absorbing 1/8th HP from foes each turn. The user becomes trapped.
-Lays roots that heal the user by absorbing 1/8th HP from foes each turn. The user becomes trapped.
-The user and the target pit their energy against one another. The damage is based on the target's Sp. Atk rather than their Sp. Def.
-The user and the target pit their energy against one another. The damage is based on the target's Sp. Atk rather than their Sp. Def.
-The user rocks out by using each Sound-based move they know. Only one use per battle.
-The user rocks out by using each Sound-based move they know. Only one use per battle.
-The user breaks down all insulation to send a barrage of electricity for three turns.
-The user breaks down all insulation to send a barrage of electricity for three turns.
-The user slams down into the target with electricity. It has a 10% chance to numb.
-The user slams down into the target with electricity. It has a 10% chance to numb.
-The user lays an electrical hazard which hurts foes that switch into battle. It deals double damage in rainstorm.
-The user lays an electrical hazard which hurts foes that switch into battle. It deals double damage in rainstorm.
-Turns the foe's power against it, dealing damage using the target's Sp. Atk stat.
-Turns the foe's power against it, dealing damage using the target's Sp. Atk stat.
-The user creates an electric fueled cage, trapping and damaging it for three turns.
-The user creates an electric fueled cage, trapping and damaging it for three turns.
-The user fires a dimensional mote, lowering the target's Sp. Def.
-The user fires a dimensional mote, lowering the target's Sp. Def.
-By sacrificing half its total HP, the user makes the target fall asleep.
-By sacrificing half its total HP, the user makes the target fall asleep.
-Summons eclipse for eight turns, boosting Psychic-type attacks and heralding the total eclipse.
-Summons eclipse for eight turns, boosting Psychic-type attacks and heralding the total eclipse.
-The user psychically exploits weak points in the target's mind. Can random critical hit, and does so twice as often.
-The user psychically exploits weak points in the target's mind. Can random critical hit, and does so twice as often.
-The user dizzies the target, then welcomes in eclipse for eight turns.
-The user dizzies the target, then welcomes in eclipse for eight turns.
-The user psychically alters the target's brain to forget. This move disables the target's last move.
-The user psychically alters the target's brain to forget. This move disables the target's last move.
-The target's psyche is attacked directly. It has a 30% chance to lower the target's Attack and Sp. Atk.
-The target's psyche is attacked directly. It has a 30% chance to lower the target's Attack and Sp. Atk.
-The target is hit by a weak telekinetic force. It has a 10% chance to lower the target's Sp. Def.
-The target is hit by a weak telekinetic force. It has a 10% chance to lower the target's Sp. Def.
-Unveiling its ears, the released psychic power causes the user to attack 2 to 5 times each for three turns.
-Unveiling its ears, the released psychic power causes the user to attack 2 to 5 times each for three turns.
-The target is scrutinized, damaging their psyche. Can random critical hit.
-The target is scrutinized, damaging their psyche. Can random critical hit.
-The user takes control of the target's mind to unleash an attack on it. Can random critical hit.
-The user takes control of the target's mind to unleash an attack on it. Can random critical hit.
-The target is put to sleep via a deep freeze. The user must rest on the next turn to regain its energy.
-The target is put to sleep via a deep freeze. The user must rest on the next turn to regain its energy.
-The user covers the field with an fog of ice crystals, summoning hail and creating grey mist for 5 turns.
-The user covers the field with an fog of ice crystals, summoning hail and creating grey mist for 5 turns.
-For the rest of the round, the target's healing is reversed.
-For the rest of the round, the target's healing is reversed.
-The user frostbites the target, then welcomes in hail for eight turns.
-The user frostbites the target, then welcomes in hail for eight turns.
-The user makes the target to trip into a huge pile of snow, damaging them and summoning hail for eight turns.
-The user makes the target to trip into a huge pile of snow, damaging them and summoning hail for eight turns.
-Protects the user from attacks. If an eclipse is active, extends it by one turn. Fails if used in succession.
-Protects the user from attacks. If an eclipse is active, extends it by one turn. Fails if used in succession.
-The user whips up a tornado to tear at the target. It has a 30% chance to make them flinch.
-The user whips up a tornado to tear at the target. It has a 30% chance to make them flinch.
-The user insults the target using a compliment. Their attacking stats are raised by three steps, but they hurt themselves in confusion.
-The user insults the target using a compliment. Their attacking stats are raised by three steps, but they hurt themselves in confusion.
-Damages all near foes by summoning a miniature black hole. Gravity is intensified for five turns.
-Damages all near foes by summoning a miniature black hole. Gravity is intensified for five turns.
-This attack deals 50% more damage if the target has any raised or lowered stat steps.
-This attack deals 50% more damage if the target has any raised or lowered stat steps.
-Deftly sets a layer of damaging Spikes around the foe, then switches out.
-Deftly sets a layer of damaging Spikes around the foe, then switches out.
-The user burrows into the target's subconscious with emotional manipulation. It has a 10% chance to leech.
-The user burrows into the target's subconscious with emotional manipulation. It has a 10% chance to leech.
-The user disarms the target's blade. The target cannot use blade-based moves for two turns.
-The user disarms the target's blade. The target cannot use blade-based moves for two turns.
-The target is forced underwater for a brief time, waterlogging it.
-The target is forced underwater for a brief time, waterlogging it.
-The user pushes the target violently into water. This has a 10% chance to waterlog.
-The user pushes the target violently into water. This has a 10% chance to waterlog.
-For the rest of the round, the healing of all damaged Pokémon is reversed.
-For the rest of the round, the healing of all damaged Pokémon is reversed.
-The target is dragged viciously through water. This has a 30% chance to waterlog.
-The target is dragged viciously through water. This has a 30% chance to waterlog.
-Explodes, dealing an extra 30 base power to all foes for each layer of spikes underneath them. The user faints.
-Explodes, dealing an extra 30 base power to all foes for each layer of spikes underneath them. The user faints.
-The user assists an ally by boosting the power and Accuracy of its next attack by 50%.
-The user assists an ally by boosting the power and Accuracy of its next attack by 50%.
-The user submerges the target in water, then bludgeons them repeatedly. This has a 10% chance to waterlog.
-The user submerges the target in water, then bludgeons them repeatedly. This has a 10% chance to waterlog.
-The user smacks the target and steals its item while it is stunned. Items stolen from wild Pokémon are stored.
-The user smacks the target and steals its item while it is stunned. Items stolen from wild Pokémon are stored.
-The target is pranked with a huge bucket of water. This has a 50% chance to waterlog it.
-The target is pranked with a huge bucket of water. This has a 50% chance to waterlog it.
-The target's mind is overloaded with emotion. Applies Torment to the target.
-The target's mind is overloaded with emotion. Applies Torment to the target.
-The user shoots a magical arrow which seeks out the target's weak points. Can random critical hit.
-The user shoots a magical arrow which seeks out the target's weak points. Can random critical hit.
-An enchanting outcry. This attack never misses and skips protections.
-An enchanting outcry. This attack never misses and skips protections.
-The user makes a fool out of the target. This has a 50% chance of jinxing them.
-The user makes a fool out of the target. This has a 50% chance of jinxing them.
-The user plays with the target with unneccessary force. It has a 50% chance to lower Attack.
-The user plays with the target with unneccessary force. It has a 50% chance to lower Attack.
-The user hopes for bad luck, jinxing the target. Attacks against them crit and pierce protection.
-The user hopes for bad luck, jinxing the target. Attacks against them crit and pierce protection.
-The user leeches the target, then welcomes in moonglow for eight turns.
-The user leeches the target, then welcomes in moonglow for eight turns.
-The user causes an accident, damaging the target. This has a 30% chance of jinxing them.
-The user causes an accident, damaging the target. This has a 30% chance of jinxing them.
-The user causes the target to trip and fall. This has a 50% chance of jinxing them.
-The user causes the target to trip and fall. This has a 50% chance of jinxing them.
-The user causes nearby objects to fall onto the target. This has a 30% chance of jinxing them.
-The user causes nearby objects to fall onto the target. This has a 30% chance of jinxing them.
-The user invokes the target's true name as a fae curse, jinxing them.
-The user invokes the target's true name as a fae curse, jinxing them.
-The user copies and gains the first ability of each foe.
-The user copies and gains the first ability of each foe.
-A move that only the avatar of Groudon can use. For the rest of the battle, gravity is intensified and Pokemon have their weight doubled.
-A move that only the avatar of Groudon can use. For the rest of the battle, gravity is intensified and Pokemon have their weight doubled.
-The user restores 1/8th of its HP, summons an allied Combee, and becomes Bug-type.
-The user restores 1/8th of its HP, summons an allied Combee, and becomes Bug-type.
-Attackers against the user suffer recoil for the rest of the battle. User becomes Ghost-type.
-Attackers against the user suffer recoil for the rest of the battle. User becomes Ghost-type.
-The user becomes a pain train. This raises the user's Speed by 2 steps.
-The user becomes a pain train. This raises the user's Speed by 2 steps.
-A spray of bubbles is forcefully ejected at all nearby foes, lowering their Speed by 3 steps.
-A spray of bubbles is forcefully ejected at all nearby foes, lowering their Speed by 3 steps.
-The user inflicts waterlog on all nearby foes. User becomes a Water-type.
-The user inflicts waterlog on all nearby foes. User becomes a Water-type.
-A nutrient-draining attack. The user's HP is restored by all the damage taken by the target.
-A nutrient-draining attack. The user's HP is restored by all the damage taken by the target.
-This move exists just to showcase the PBS Extensions system.
-This move exists just to showcase the PBS Extensions system.
 [7]
 [8]
 [9]
 [10]
 [11]
 The Pokémon's Dragon-type hits deal additional damage equal to half the Pokémon's level.
-The Pokémon's Dragon-type hits deal additional damage equal to half the Pokémon's level.
+精灵的龙系攻击会造成额外伤害，数值等于精灵等级的一半。
 Moves that can flinch are 50% more likely. Deals 50% more damage to Pokémon with flinch immunity.
-Moves that can flinch are 50% more likely. Deals 50% more damage to Pokémon with flinch immunity.
+使目标畏缩的技能发动畏缩效果的几率提升50%。对免疫畏缩效果的精灵造成伤害提升50%。
 Takes half damage from Dragon-, Fairy-, and Ghost-type attacks.
-Takes half damage from Dragon-, Fairy-, and Ghost-type attacks.
+受到龙系、妖精系和幽灵系攻击的伤害减半。
 Pokémon that swap in for this have their status effects healed, and take 30% less damage that turn.
-Pokémon that swap in for this have their status effects healed, and take 30% less damage that turn.
+替换上场的精灵会恢复其异常状态，并且在当回合受到的伤害减少30%。
 Immune to Dark-type and Bug-type moves.
-Immune to Dark-type and Bug-type moves.
+免疫黑暗系和虫系技能。
 Immune to Fighting-type and Rock-type moves. Prevents Stealth Rock damage.
-Immune to Fighting-type and Rock-type moves. Prevents Stealth Rock damage.
+免疫格斗系和岩石系技能。不受隐形岩伤害。
 Can't be numbed, waterlogged, trapped, or have its Speed lowered.
-Can't be numbed, waterlogged, trapped, or have its Speed lowered.
+不会麻痹、浸水、陷入束缚状态，速度也不会降低。
 Doubles Defense in rainstorm.
-Doubles Defense in rainstorm.
+在暴雨天气中，防御翻倍。
 Special moves have a 30% chance to waterlog targets.
-Special moves have a 30% chance to waterlog targets.
+特殊技能有30%的几率使目标浸水。
 Changes the weather to ring eclipse, which heralds the total ring eclipse. Lingers for 3 turns after leaving.
-Changes the weather to ring eclipse, which heralds the total ring eclipse. Lingers for 3 turns after leaving.
+将天气变为环形日食，预示着日全食的到来。离场后天气持续3回合。
 Boosts Attack by 20% in hail, or 40% if also below half health.
-Boosts Attack by 20% in hail, or 40% if also below half health.
+在冰雹天气中，攻击提升20%，若同时生命值低于一半则提升40%。
 Its attacks are critical against numbed targets.
-Its attacks are critical against numbed targets.
+对麻痹的目标发动攻击时必定暴击。
 Boosts Speed by 50% in rainstorm. Doubles random added effect chance in rainstorm.
-Boosts Speed by 50% in rainstorm. Doubles random added effect chance in rainstorm.
+在暴雨天气中，速度提升50%。在暴雨天气中，随机附加效果的几率翻倍。
 Twice as likely for moves to be critical. Restores HP for half the damage it does with critical hits.
-Twice as likely for moves to be critical. Restores HP for half the damage it does with critical hits.
+技能暴击几率翻倍。暴击时恢复造成伤害一半的HP。
 At the end of each round, lowers other waterlogged Pokémon's Attack and Sp. Atk by two steps.
-At the end of each round, lowers other waterlogged Pokémon's Attack and Sp. Atk by two steps.
+在每回合结束时，降低其他处于浸水状态的精灵的攻击和特攻两级。
 Boosts Attack by 30% in hail.
-Boosts Attack by 30% in hail.
+在冰雹天气中，攻击提升30%。
 Takes 25% less damage in a hail.
-Takes 25% less damage in a hail.
+在冰雹天气中，受到的伤害减少25%。
 Physical attacks against the Pokémon have a 30% chance to waterlog the attacker.
-Physical attacks against the Pokémon have a 30% chance to waterlog the attacker.
+对该精灵发动的物理攻击有30%的几率使攻击者浸水。
 The Pokémon and its allies' moves are twice as likely to be critical.
-The Pokémon and its allies' moves are twice as likely to be critical.
+该精灵和其队友的技能暴击几率翻倍。
 Can't be afflicted with any non-volatile status condition.
-Can't be afflicted with any non-volatile status condition.
+不会陷入任何非挥发性异常状态。
 Prevents stat steps from being lowered (except when self-inflicted). Immune to weather downsides.
-Prevents stat steps from being lowered (except when self-inflicted). Immune to weather downsides.
+防止属性等级下降（自身造成的除外）。免疫天气的负面效果。
 Immune to Steel-type moves and restores 25% of max HP if hit by one.
-Immune to Steel-type moves and restores 25% of max HP if hit by one.
+免疫钢系技能，并且受到钢系技能攻击时会恢复最大HP的25%。
 Steel-type attacks deal 50% more damage, and the Pokémon is protected from critical hits.
-Steel-type attacks deal 50% more damage, and the Pokémon is protected from critical hits.
+钢系攻击造成的伤害提升50%，并且该精灵受到的攻击不会暴击。
 Prevents half the self-damage from recoil. Powers up moves that have recoil damage by 20%.
-Prevents half the self-damage from recoil. Powers up moves that have recoil damage by 20%.
+防止一半的自伤。提升具有自伤效果的技能的威力20%。
 At the end of each turn, if in sunshine, each Pokémon not immune to sunshine has their defensive stats lowered by 1 step.
-At the end of each turn, if in sunshine, each Pokémon not immune to sunshine has their defensive stats lowered by 1 step.
+在每回合结束时，如果处于阳光天气，每个非免疫阳光的精灵的防御属性会下降1级。
 Flinching moves always activate their random effects.
-Flinching moves always activate their random effects.
+使目标畏缩的技能总会触发其随机效果。
 Becomes energy charged upon entry, doubling the power of its next Electric-type attack.
-Becomes energy charged upon entry, doubling the power of its next Electric-type attack.
+入场时获得能量充电状态，其下一次电系攻击的威力翻倍。
 By sacrificing a held item the Pokémon didn't start with, it can negate one attack against it.
-By sacrificing a held item the Pokémon didn't start with, it can negate one attack against it.
+通过牺牲一个精灵入场时未携带的物品，它可以抵消一次针对它的攻击。
 Becomes energy charged when hit by an attack, doubling the power of its next Electric-type attack.
-Becomes energy charged when hit by an attack, doubling the power of its next Electric-type attack.
+被攻击命中时获得能量充电状态，其下一次电系攻击的威力翻倍。
 Prevents the foe from escaping during eclipse.
-Prevents the foe from escaping during eclipse.
+在日食期间，阻止敌方逃跑。
 Boosts Speed by 50% in rainstorm. Can't miss during rainstorm.
-Boosts Speed by 50% in rainstorm. Can't miss during rainstorm.
+在暴雨天气中，速度提升50%。在暴雨天气中，攻击必定命中。
 Lays an electrical hazard around the opponent when its HP is lowered below half.
-Lays an electrical hazard around the opponent when its HP is lowered below half.
+当其HP降至一半以下时，在对手周围布置一个电击陷阱。
 Boosts the power of rampaging moves by 30%, and makes them physical or special based on which would be more effective.
-Boosts the power of rampaging moves by 30%, and makes them physical or special based on which would be more effective.
+将暴走类技能的威力提升30%，并根据哪种更有效将其变为物理或特殊技能。
 The Pokémon starts as a very convincing Pikachu!
-The Pokémon starts as a very convincing Pikachu!
+精灵一开始是一只非常逼真的皮卡丘！
 Adapts the move's type to ensure it is super-effective against the target.
-Adapts the move's type to ensure it is super-effective against the target.
+调整技能的类型，以确保其对目标具有超级效果。
 Adapts the move's type to ensure it is truly super-effective against the target.
-Adapts the move's type to ensure it is truly super-effective against the target.
+调整技能的类型，以确保其对目标具有真正的超级效果。
 Adapts the move's type to maximize effectiveness while accounting for the immunities.
-Adapts the move's type to maximize effectiveness while accounting for the immunities.
+调整技能的类型，以考虑免疫因素来最大化效果。
 Adapts the move's type to maximize damage against the target.
-Adapts the move's type to maximize damage against the target.
+调整技能的类型，以对目标造成最大伤害。
 When hitting a target with an ability that has an offensive damage-modifying effect, ignores the conditions and triggers the effect for the Pokémon.
-When hitting a target with an ability that has an offensive damage-modifying effect, ignores the conditions and triggers the effect for the Pokémon.
+当用具有攻击伤害调整效果的特性击中目标时，无视条件并为精灵触发该效果。
 When the Pokémon's level is 30 or higher, it transforms into a member of its family depending on the type of the move it is about to use.
-When the Pokémon's level is 30 or higher, it transforms into a member of its family depending on the type of the move it is about to use.
+当精灵等级达到30级或以上时，它会根据即将使用的技能的类型变为其家族的成员。
 When the Pokémon faints, it rewinds itself to 3 turns ago.
-When the Pokémon faints, it rewinds itself to 3 turns ago.
+当精灵失去意识时，它会倒回到3回合前。
 The targets cannot avoid facing the attack by the Pokémon.
-The targets cannot avoid facing the attack by the Pokémon.
+目标无法躲避精灵的攻击。
 Attacks switching opponents with Pursuit.
-Attacks switching opponents with Pursuit.
+用追击攻击替换对手。
 Changes to a random Pokémon at the end of each turn.
-Changes to a random Pokémon at the end of each turn.
+在每个回合结束时，随机变为一只精灵。
 Can switch out of battle without wasting a turn.
-Can switch out of battle without wasting a turn.
+可以不浪费回合地切换出战斗。
 Turns rainstorm into Harsh Sunlight, sunshine into Heavy Rain.
-Turns rainstorm into Harsh Sunlight, sunshine into Heavy Rain.
+将暴雨变为强烈阳光，将阳光变为暴雨。
 Stats that the Pokémon raises remain raised even after switching.
-Stats that the Pokémon raises remain raised even after switching.
+精灵提升的属性即使在切换后仍保持提升状态。
 This ability exists just to showcase the PBS Extensions system.
-This ability exists just to showcase the PBS Extensions system.
+这个特性只是为了展示PBS扩展系统。
 [12]
 [13]
 1
@@ -6407,8 +6077,8 @@ Enemy Pokemon recycle consumed items at end of turn. Stolen items turn to dust.
 Enemy Pokemon recycle consumed items at end of turn. Stolen items turn to dust.
 After your Pokémon attack, the attacking stat that was used is lowered by 4 steps.
 After your Pokémon attack, the attacking stat that was used is lowered by 4 steps.
-Status conditions affect your Pokémon twice as much!
-Status conditions affect your Pokémon twice as much!
+Status conditions affect your Pokémon twice as much!<<n>>Foes ignore the Status Clause!
+Status conditions affect your Pokémon twice as much!<<n>>Foes ignore the Status Clause!
 Whenever an enemy Pokémon enters at full health, it forms a substitute.
 Whenever an enemy Pokémon enters at full health, it forms a substitute.
 Opposing Pokémon hold super-powerful items. Stolen items turn to dust.
