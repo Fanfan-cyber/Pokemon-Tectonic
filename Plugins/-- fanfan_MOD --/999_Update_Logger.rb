@@ -10,7 +10,6 @@ Adoption Center
 BeginSpeech    = 15
 EndSpeechWin   = 16
 EndSpeechLose  = 17
-PhoneMessages  = 22
 FORMNAMES_HASH = 444
 TrainerNames   = 14
 BattleEffects  = 32
