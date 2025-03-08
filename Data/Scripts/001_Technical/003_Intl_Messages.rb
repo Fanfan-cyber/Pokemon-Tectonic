@@ -770,7 +770,7 @@ end
 
 module MessageTypes
   NOT_NEED_OUTPUT      = %w[1 2 3 4 13 25 26]
-  NOT_NEED_OUTPUT_HASH = %w[]
+  NOT_NEED_OUTPUT_HASH = %w[15 16 17]
   # Value 0 is used for common event and map event text
   Species            = 1 # doesn't need
   SPECIES_HASH       = 111
@@ -790,10 +790,10 @@ module MessageTypes
   Types              = 12
   TrainerTypes       = 13 # doesn't need
   TRAINERTYPES_HASH  = 1313
-  TrainerNames       = 14
-  BeginSpeech        = 15
-  EndSpeechWin       = 16
-  EndSpeechLose      = 17
+  TrainerNames       = 14 # This is partial for Battle Tower
+  BeginSpeech        = 15 # doesn't need, this is for Battle Tower
+  EndSpeechWin       = 16 # doesn't need, this is for Battle Tower
+  EndSpeechLose      = 17 # doesn't need, this is for Battle Tower
   RegionNames        = 18
   PlaceNames         = 19
   PlaceDescriptions  = 20
