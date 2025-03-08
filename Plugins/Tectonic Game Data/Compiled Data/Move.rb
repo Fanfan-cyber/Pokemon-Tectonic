@@ -161,8 +161,8 @@ module GameData
         return nil
       end
 
-      def can_be_forced?
-        return !@flags.include?("CantForce")
+      def uninvocable?
+        return @flags.include?("Uninvocable")
       end
 
       def avatarSignature?

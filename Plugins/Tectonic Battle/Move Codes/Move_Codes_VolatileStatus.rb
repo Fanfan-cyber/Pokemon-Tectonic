@@ -281,26 +281,6 @@ end
 class PokeBattle_Move_DisableTargetUsingDifferentMove4 < PokeBattle_Move
     def ignoresSubstitute?(_user); return true; end
 
-    def initialize(battle, move)
-        super
-        @moveBlacklist = [
-            "DisableTargetUsingDifferentMove4", # Encore
-            # Struggle
-            "Struggle", # Struggle
-            # Moves that affect the moveset
-            "ReplaceMoveThisBattleWithTargetLastMoveUsed",   # Mimic
-            "ReplaceMoveWithTargetLastMoveUsed",   # Sketch
-            "TransformUserIntoTarget",   # Transform
-            # Moves that call other moves
-            "UseLastMoveUsedByTarget", # Mirror Move
-            "UseLastMoveUsed",   # Copycat
-            "UseMoveTargetIsAboutToUse",   # Me First
-            "UseMoveDependingOnEnvironment",   # Nature Power
-            "UseRandomUserMoveIfAsleep",   # Sleep Talk
-            "UseRandomMoveFromUserParty",   # Assist
-            "UseRandomNonSignatureMove", # Metronome
-        ]
-    end
 
     def pbFailsAgainstTarget?(user, target, show_message)
         if target.effectActive?(:Encore)
@@ -311,7 +291,7 @@ class PokeBattle_Move_DisableTargetUsingDifferentMove4 < PokeBattle_Move
             @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} hasn't used a move yet!")) if show_message
             return true
         end
-        if @moveBlacklist.include?(GameData::Move.get(target.lastRegularMoveUsed).function_code)
+        unless @battle.canInvokeMove?(target.lastRegularMoveUsed)
             @battle.pbDisplay(_INTL("But it failed, since {1} can't be locked into {2}!",
                   target.pbThis(true), GameData::Move.get(target.lastRegularMoveUsed).name)) if show_message
             return true

@@ -148,6 +148,8 @@ class PokeBattle_AI
     # Damage calculation
     #=============================================================================
     def pbTotalDamageAI(move, user, target, numTargets = 1)
+        return 0, false if move.damageNegated?(user, target, true)
+
         # Get the move's type
         type = pbRoughType(move, user, target)
 

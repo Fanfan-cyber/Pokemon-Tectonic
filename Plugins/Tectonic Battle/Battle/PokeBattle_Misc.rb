@@ -372,6 +372,26 @@ class PokeBattle_Battle
         return true if @field.effectActive?(:WarpingCore)
         return false
     end
+
+    # Is it allowed to be called from other moves
+    def canInvokeMove?(move)
+        if move.is_a?(PokeBattle_Move)
+            battleMoveInstance = move
+        elsif move.is_a?(Pokemon::Move)
+            battleMoveInstance = getBattleMoveInstanceFromID(move.id)
+        else
+            battleMoveInstance = getBattleMoveInstanceFromID(move)
+        end
+        return false if battleMoveInstance.function == "Invalid"
+        return false if battleMoveInstance.callsAnotherMove?
+        return false if battleMoveInstance.forceSwitchMove?
+        return false if battleMoveInstance.switchOutMove?
+        return false if battleMoveInstance.is_a?(PokeBattle_TwoTurnMove)
+        return false if battleMoveInstance.is_a?(PokeBattle_HelpingMove)
+        return false if battleMoveInstance.is_a?(PokeBattle_ProtectMove)
+        return false if GameData::Move.get(battleMoveInstance.id).uninvocable?
+        return true
+    end
 end
 
 def getAbilityName(ability)

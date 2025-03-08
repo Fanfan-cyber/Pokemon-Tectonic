@@ -309,13 +309,19 @@ target.pbThis(true)))
         end 
     end
 
+    def damageNegated?(user, target, aiCheck = false)
+        return true if target.effectActive?(:LastGasp)
+        return false if aiCheck
+        return true if target.damageState.disguise
+        return true if target.damageState.thiefsDiversion
+    end
+
     def pbReduceDamage(user, target)
         damage = target.damageState.calcDamage
 
         target.damageState.displayedDamage = damage
 
-        # Last Gasp prevents all damage
-        if target.effectActive?(:LastGasp)
+        if damageNegated?(user, target)
             target.damageState.displayedDamage = 0
             return
         end
@@ -328,16 +334,6 @@ target.pbThis(true)))
             target.damageState.totalHPLostCritical += damage if target.damageState.critical
             target.damageState.displayedDamage = damage
             return
-        end
-        # Disguise takes the damage
-        if target.damageState.disguise
-            target.damageState.displayedDamage = 0
-            return
-        end
-
-        # Thief's diversion negates all damage
-        if target.damageState.thiefsDiversion
-            target.damageState.displayedDamage = 0  
         end
 
         # Target takes the damage

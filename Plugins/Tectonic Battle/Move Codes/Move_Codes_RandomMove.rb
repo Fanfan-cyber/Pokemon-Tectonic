@@ -5,31 +5,10 @@ class PokeBattle_Move_UseRandomUserMoveIfAsleep < PokeBattle_Move
     def usableWhenAsleep?; return true; end
     def callsAnotherMove?; return true; end
 
-    def initialize(battle, move)
-        super
-        @moveBlacklist = [
-            # Struggle
-            "Struggle",   # Struggle
-            # Moves that affect the moveset (except Transform)
-            "ReplaceMoveThisBattleWithTargetLastMoveUsed",   # Mimic
-            "ReplaceMoveWithTargetLastMoveUsed",   # Sketch
-            # Moves that start focussing at the start of the round
-            "FailsIfUserDamagedThisTurn",   # Focus Punch
-            "UsedAfterUserTakesPhysicalDamage",   # Shell Trap
-            "UsedAfterUserTakesSpecialDamage",   # Masquerblade
-            "BurnAttackerBeforeUserActs", # Beak Blast
-            "FrostbiteAttackerBeforeUserActs", # Condensate
-        ]
-    end
-
     def getSleepTalkMoves(user)
         sleepTalkMoves = []
         user.eachMoveWithIndex do |m, i|
-            next if @moveBlacklist.include?(m.function)
-            next if m.is_a?(PokeBattle_TwoTurnMove)
-            next if m.callsAnotherMove?
-            battleMoveInstance = @battle.getBattleMoveInstanceFromID(m.id)
-            next if battleMoveInstance.forceSwitchMove?
+            next unless @battle.canInvokeMove?(m)
             next unless @battle.pbCanChooseMove?(user.index, i, false, true)
             sleepTalkMoves.push(i)
         end
@@ -72,52 +51,13 @@ end
 class PokeBattle_Move_UseRandomMoveFromUserParty < PokeBattle_Move
     def callsAnotherMove?; return true; end
 
-    def initialize(battle, move)
-        super
-        @moveBlacklist = [
-            # Struggle
-            "Struggle",   # Struggle
-            # Moves that affect the moveset
-            "ReplaceMoveThisBattleWithTargetLastMoveUsed",   # Mimic
-            "ReplaceMoveWithTargetLastMoveUsed",   # Sketch
-            "TransformUserIntoTarget",   # Transform
-            # Counter moves
-            "CounterPhysicalDamage",   # Counter
-            "CounterSpecialDamage",   # Mirror Coat
-            "CounterDamagePlusHalf",   # Metal Burst
-            # Move-redirecting and stealing moves
-            "BounceBackProblemCausingStatusMoves",   # Magic Coat
-            "StealAndUseBeneficialStatusMove",   # Snatch
-            "RedirectAllMovesToUser",   # Follow Me, Rage Powder
-            "RedirectAllMovesToTarget",   # Spotlight
-            # Set up effects that trigger upon KO
-            "AttackerFaintsIfUserFaints",   # Destiny Bond
-            # Held item-moving moves
-            "StealsItem",   # Covet, Thief
-            "SwapItems",   # Switcheroo, Trick
-            "GiftItem",   # Bestow
-            # Moves that start focussing at the start of the round
-            "FailsIfUserDamagedThisTurn",   # Focus Punch
-            "UsedAfterUserTakesPhysicalDamage",   # Shell Trap
-            "UsedAfterUserTakesSpecialDamage",   # Masquerblade
-            "BurnAttackerBeforeUserActs",   # Beak Blast
-            "FrostbiteAttackerBeforeUserActs", # Condensate
-        ]
-    end
-
     def getAssistMoves(user)
         assistMoves = []
         @battle.pbParty(user.index).each_with_index do |pkmn, i|
             next if !pkmn || i == user.pokemonIndex
             next if pkmn.egg?
             pkmn.moves.each do |move|
-                next if @moveBlacklist.include?(move.function_code)
-                battleMoveInstance = @battle.getBattleMoveInstanceFromID(move.id)
-                next if battleMoveInstance.forceSwitchMove?
-                next if battleMoveInstance.is_a?(PokeBattle_TwoTurnMove)
-                next if battleMoveInstance.is_a?(PokeBattle_HelpingMove)
-                next if battleMoveInstance.is_a?(PokeBattle_ProtectMove)
-                next if battleMoveInstance.callsAnotherMove?
+                next unless @battle.canInvokeMove?(move)
                 assistMoves.push(move.id)
             end
         end
@@ -155,37 +95,17 @@ class PokeBattle_Move_UseRandomNonSignatureMove < PokeBattle_Move
 
     def initialize(battle, move)
         super
-        @moveBlacklist = [
-            "UseRandomNonSignatureMove", # Metronome
-            "FlinchTargetFailsIfUserNotAsleep",   # Snore
-            "TargetActsNext",   # After You
-            "TargetActsLast",   # Quash
-            # Move-redirecting and stealing moves
-            "BounceBackProblemCausingStatusMoves",   # Magic Coat
-            "StealAndUseBeneficialStatusMove",   # Snatch
-            "RedirectAllMovesToUser",   # Follow Me, Rage Powder
-            "RedirectAllMovesToTarget",   # Spotlight
-            # Held item-moving moves
-            "StealsItem",   # Covet, Thief
-            "SwapItems",   # Switcheroo, Trick
-            "GiftItem",   # Bestow
-            # Invalid moves
-            "Invalid",
-        ]
-
         @metronomeMoves = []
         GameData::Move::DATA.keys.each do |move_id|
             move_data = GameData::Move.get(move_id)
             next unless move_data.learnable?
-            next unless move_data.can_be_forced?
+            next if move_data.uninvocable?
             next if move_data.is_signature?
-            next if @moveBlacklist.include?(move_data.function_code)
             next if move_data.empoweredMove?
             if battle
-                moveObject = battle.getBattleMoveInstanceFromID(move_id)
-                next if moveObject.is_a?(PokeBattle_ProtectMove)
-                next if moveObject.is_a?(PokeBattle_HelpingMove)
-                next if moveObject.callsAnotherMove?
+                next unless battle.canInvokeMove?(move)
+            else
+                next if move_data.uninvocable?
             end
             @metronomeMoves.push(move_data.id)
         end
@@ -231,13 +151,11 @@ class PokeBattle_Move_UseChoiceOf3RandomNonSignatureStatusMoves < PokeBattle_Mov
             next if move_data.function_code == "Invalid"
             next if move_data.is_signature?
             next unless move_data.learnable?
-            next unless move_data.can_be_forced?
 
             if battle
-                moveObject = battle.getBattleMoveInstanceFromID(move_id)
-                next if moveObject.is_a?(PokeBattle_ProtectMove)
-                next if moveObject.is_a?(PokeBattle_HelpingMove)
-                next if moveObject.callsAnotherMove?
+                next unless battle.canInvokeMove?(move)
+            else
+                next if move_data.uninvocable?
             end
 
             @discoverableMoves.push(move_data.id)

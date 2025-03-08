@@ -248,10 +248,7 @@ class PokeBattle_Move_UseHighestBasePowerMoveFromUserParty < PokeBattle_Move
             pkmn.moves.each do |move|
                 next if move.category == 2
                 next unless move.base_damage > optimizedBP
-                battleMove = @battle.getBattleMoveInstanceFromID(move.id)
-                next if battleMove.forceSwitchMove?
-                next if battleMove.is_a?(PokeBattle_TwoTurnMove)
-                next if battleMove.is_a?(PokeBattle_HelpingMove)
+                next unless @battle.canInvokeMove?(move)
                 optimizedMove = move.id
                 optimizedBP = move.base_damage
             end
@@ -308,7 +305,7 @@ class PokeBattle_Move_TargetUsesItsLastUsedMoveAgain < PokeBattle_Move
             @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} is focusing!")) if show_message
             return true
         end
-        if !GameData::Move.get(target.lastRegularMoveUsed).can_be_forced?
+        if GameData::Move.get(target.lastRegularMoveUsed).uninvocable?
             if show_message
                 @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)}'s last used move cant be instructed!"))
             end
@@ -344,38 +341,6 @@ class PokeBattle_Move_TargetUsesItsLastUsedMoveAgain < PokeBattle_Move
 
     def getEffectScore(_user, _target)
         return 130 # Score assumes you put Instruct on the team for a reason, do not put Instruct on a team without really thinking about it
-    end
-end
-
-#===============================================================================
-# Target is forced to use this Pokemon's first move slot. (Hivemind)
-#===============================================================================
-class PokeBattle_Move_TargetUsesMoveInUserFirstSlot < PokeBattle_Move
-    def pbMoveFailed?(user, _targets, show_message)
-        unless getFirstSlotMove(user)
-            @battle.pbDisplay(_INTL("But it failed, since #{user.pbThis(true)} has no moves!")) if show_message
-            return true
-        end
-        if !GameData::Move.get(getFirstSlotMove(user).id).can_be_forced? || getFirstSlotMove(user).callsAnotherMove?
-            if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{user.pbThis(true)}'s first slot move can't be shared!"))
-            end
-            return true
-        end
-        return false
-    end
-
-    def getFirstSlotMove(user)
-        return user.getMoves[0] || nil
-    end
-
-    def pbEffectAgainstTarget(user, target)
-        @battle.forceUseMove(target, getFirstSlotMove(user).id)
-    end
-
-    def getScore(_user, _target)
-        echoln("The AI will never use Hivemind.")
-        return -1000
     end
 end
 
@@ -559,6 +524,7 @@ class PokeBattle_Move_RaiseTargetAtkSpAtk3TargetHitsSelfAdaptive < PokeBattle_Mo
     end
 
     def getTargetAffectingEffectScore(user, target)
+        score = 0
         score -= getMultiStatUpEffectScore(ATTACKING_STATS_3, user, target, evaluateThreat: false)
         score -= 70 if target.hasActiveAbilityAI?(:UNAWARE)
         score += getMultiStatUpEffectScore(ATTACKING_STATS_3, user, user, evaluateThreat: false) if user.hasActiveAbilityAI?(:PETTY)
@@ -816,9 +782,8 @@ class PokeBattle_Move_UseAllOtherSoundMoves < PokeBattle_Move
     def getAllOtherSoundMoves(user)
         moves = []
         user.moves.each do |m|
-            next if m.callsAnotherMove?
             next unless m.soundMove?
-            next if m.is_a?(PokeBattle_Move_UseAllOtherSoundMoves)
+            next unless @battle.canInvokeMove?(m)
             moves.push(m.id)
         end
         return moves
