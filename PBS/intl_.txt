@@ -39907,6 +39907,8 @@ Game State
 Game State
 Save/Quit
 Save/Quit
+money
+money
 Welcome!
 Welcome!
 Welcome, VIP! I hope you are satisfied with our services.
@@ -49087,18 +49089,576 @@ The ice disappeared from the field!
 {1} slipped!
 It hurt itself!
 It hurt itself!
+No.
+No.
+Why are you down here?
+Why are you down here?
+Who are you?
+Who are you?
+Whose Pokémon are those?
+Whose Pokémon are those?
+Thanks.
+Thanks.
+How do you know?
+How do you know?
+I doubt it.
+I doubt it.
+You want it gone?
+You want it gone?
+What are they good for?
+What are they good for?
+I'm busy.
+I'm busy.
+Why?
+Why?
+On my way.
+On my way.
+A few badges.
+A few badges.
+Not really.
+Not really.
+Why would I tell you?
+Why would I tell you?
+Just beat Helena.
+Just beat Helena.
+One.
+One.
+Shut up.
+Shut up.
+Making headway.
+Making headway.
+Couldn't be better.
+Couldn't be better.
+There's been trouble.
+There's been trouble.
+More work?
+More work?
+Yep!
+Yep!
+Not this again.
+Not this again.
+Take the Phione.
+Take the Phione.
+Don't take the Phione.
+Don't take the Phione.
+Good.
+Good.
+Poorly.
+Poorly.
+So-so.
+So-so.
+It's complicated.
+It's complicated.
+Same here.
+Same here.
+Hadn't considered that.
+Hadn't considered that.
+You won't win.
+You won't win.
+I hope I don't.
+I hope I don't.
+Oh?
+Oh?
+Something seemed off.
+Something seemed off.
+Can't tell them apart.
+Can't tell them apart.
+Wandered off again?
+Wandered off again?
 Enable randomizer? This will disable some achievements.
 Enable randomizer? This will disable some achievements.
+Masculine Look
+Masculine Look
+Feminine Look
+Feminine Look
+Androgynous Look
+Androgynous Look
+"Val"
+"Val"
+Enter with cursor
+Enter with cursor
+Enter with keyboard
+Enter with keyboard
+No thanks.
+No thanks.
+Sure.
+Sure.
+My Pokémon keep me going.
+My Pokémon keep me going.
+I play better and win more.
+I play better and win more.
+It's easy, to be honest.
+It's easy, to be honest.
+Green lilies sleep tenderly.
+Green lilies sleep tenderly.
+Have a few bulky mons.
+Have a few bulky mons.
+Rush 'em down.
+Rush 'em down.
+Persistence is key.
+Persistence is key.
+I'm fighting my demons.
+I'm fighting my demons.
+I'll win it all for you guys.
+I'll win it all for you guys.
+I'm simply the best.
+I'm simply the best.
+I have fans?
+I have fans?
+Is Kalos a real place?
+Is Kalos a real place?
+Sorry, what?
+Sorry, what?
+I'll make that trade.
+I'll make that trade.
+I won't part from a friend.
+I won't part from a friend.
+Not right now.
+Not right now.
+Yeah, let's go.
+Yeah, let's go.
+Sure, let's go.
+Sure, let's go.
+I promise.
+I promise.
+I'll take it.
+I'll take it.
+Hello.
+Hello.
+Why are you here?
+Why are you here?
+They ARE dangerous.
+They ARE dangerous.
+Pokémon are animals.
+Pokémon are animals.
+True.
+True.
+Hell yeah.
+Hell yeah.
+Give me a sec.
+Give me a sec.
+Yeah, I do.
+Yeah, I do.
 What do you say?
 What do you say?
 How's about it? Let an old man live out his dream?
 How's about it? Let an old man live out his dream?
+We'll see.
+We'll see.
+Oh, shut up.
+Oh, shut up.
+I don't need your help.
+I don't need your help.
+Maybe later.
+Maybe later.
+No way.
+No way.
+Don't give coffee.
+Don't give coffee.
+Give coffee.
+Give coffee.
+Your Pokémon...?
+Your Pokémon...?
+Your friends...?
+Your friends...?
+Please stay.
+Please stay.
+Hug her.
+Hug her.
+Not yet.
+Not yet.
+Yeah.
+Yeah.
+Nah.
+Nah.
+Here you go.
+Here you go.
+No way!
+No way!
+I'll pass.
+I'll pass.
+Sure, I'll take the Zangoose.
+Sure, I'll take the Zangoose.
+Sure, I'll take the Seviper.
+Sure, I'll take the Seviper.
+I've been here.
+I've been here.
+I haven't been here.
+I haven't been here.
+I'm ready.
+I'm ready.
+Sure, I'll pay.
+Sure, I'll pay.
+Is this going somewhere?
+Is this going somewhere?
+Why do you want it?
+Why do you want it?
+Not now.
+Not now.
+Let's go.
+Let's go.
+Maybe some other time.
+Maybe some other time.
+Yes.
+Yes.
+Don't know.
+Don't know.
+City person.
+City person.
+Nature person.
+Nature person.
+Sure, I'll pay for that.
+Sure, I'll pay for that.
+Great.
+Great.
+Fine.
+Fine.
+Could be better.
+Could be better.
+Let me prep.
+Let me prep.
+Aren't Phione strong?
+Aren't Phione strong?
+Of course.
+Of course.
+I guess?
+I guess?
+They make good tools.
+They make good tools.
+Jump in.
+Jump in.
+Are you alright?
+Are you alright?
+Three ghosts ring a bell?
+Three ghosts ring a bell?
+What was your wish?
+What was your wish?
+What Pokemon was it?
+What Pokemon was it?
+The ghosts, man. Ghosts?
+The ghosts, man. Ghosts?
+Sign the waiver.
+Sign the waiver.
+Take the tour again.
+Take the tour again.
+Jump out.
+Jump out.
+Maybe.
+Maybe.
+He isn't relevant.
+He isn't relevant.
+You stopping me?
+You stopping me?
+Get out of my way.
+Get out of my way.
+You think you can?
+You think you can?
+Please, just shut up.
+Please, just shut up.
+Yeah, it does.
+Yeah, it does.
+Don't wanna do this.
+Don't wanna do this.
+"Dolled up?"
+"Dolled up?"
+I'll dance if I want to.
+I'll dance if I want to.
+Not forcing you.
+Not forcing you.
+Yeah, I am.
+Yeah, I am.
+A poem? For me?
+A poem? For me?
+Still creepy, huh?
+Still creepy, huh?
+Not happening.
+Not happening.
+Don't want to fight.
+Don't want to fight.
+Wait, "non-zero?"
+Wait, "non-zero?"
+Talked too long already.
+Talked too long already.
+No, I can't.
+No, I can't.
+This is wrong.
+This is wrong.
+Don't hate yourself.
+Don't hate yourself.
+Just give up.
+Just give up.
+I'm not her lapdog.
+I'm not her lapdog.
+Do we have to?
+Do we have to?
+Sorry.
+Sorry.
+Fine, bring it on.
+Fine, bring it on.
+She's human.
+She's human.
+Good for her.
+Good for her.
+Yeah, she did.
+Yeah, she did.
+Shut up. For good this time.
+Shut up. For good this time.
+I'm good.
+I'm good.
+Don't challenge him.
+Don't challenge him.
+Challenge him.
+Challenge him.
+Makyan forms?
+Makyan forms?
+I have.
+I have.
+And fought with them.
+And fought with them.
+What tasks?
+What tasks?
+Monuments?
+Monuments?
+Samorn OK?
+Samorn OK?
+Thanks for the help.
+Thanks for the help.
+Can I go?
+Can I go?
+Sometimes.
+Sometimes.
+That's not true.
+That's not true.
+Then stop it.
+Then stop it.
+Good luck.
+Good luck.
+You sure?
+You sure?
+Coward.
+Coward.
+I'm with you.
+I'm with you.
+You first.
+You first.
+Not my idea.
+Not my idea.
+Getting answers.
+Getting answers.
+Delivering justice.
+Delivering justice.
+Tyrant.
+Tyrant.
+You seized power.
+You seized power.
+And Velenz?
+And Velenz?
+You don't rule anymore.
+You don't rule anymore.
+Not just violence.
+Not just violence.
+Some hate you.
+Some hate you.
+You did it for yourself.
+You did it for yourself.
+It was their home.
+It was their home.
+That seems excessive.
+That seems excessive.
+Fair enough.
+Fair enough.
+...Alright.
+...Alright.
+I'd tell you anyways.
+I'd tell you anyways.
+Seems unenforceable.
+Seems unenforceable.
+Give me a minute.
+Give me a minute.
+I'm ready now.
+I'm ready now.
+That's true.
+That's true.
+So it was pointless?
+So it was pointless?
+Pride is right.
+Pride is right.
+Don't beat yourself up.
+Don't beat yourself up.
+Traits: Pokemon and You!
+Traits: Pokemon and You!
+Latest Log Entry
+Latest Log Entry
+Sorry, not yet.
+Sorry, not yet.
+Hah, évidemment.
+Hah, évidemment.
+Um, hi?
+Um, hi?
+You're acting different.
+You're acting different.
+Same to you.
+Same to you.
+You're a creep.
+You're a creep.
+Wait, what?
+Wait, what?
+You're into Yezera?
+You're into Yezera?
+Eyes only for me?
+Eyes only for me?
+Um.
+Um.
+Hell no.
+Hell no.
+I feel the same way.
+I feel the same way.
+Can we be friends?
+Can we be friends?
+You kidding me?
+You kidding me?
+Happens a lot.
+Happens a lot.
+Where?
+Where?
 Whaddya say to $10,000 for renter's rights?
 Whaddya say to $10,000 for renter's rights?
+Get lost kid.
+Get lost kid.
 Try to force yourself in?
 Try to force yourself in?
+It was an avatar.
+It was an avatar.
+You're here?
+You're here?
+You're asking me?
+You're asking me?
+It was attacking me.
+It was attacking me.
+Could've. Didn't.
+Could've. Didn't.
+That it was possessed?
+That it was possessed?
+Why are you doing this?
+Why are you doing this?
+Shut up, edgelord.
+Shut up, edgelord.
+Who are they?
+Who are they?
+What do they want?
+What do they want?
+Why Yezera?
+Why Yezera?
+Not my problem.
+Not my problem.
+You wanted power?
+You wanted power?
+You wanted money?
+You wanted money?
+You wanted knowledge?
+You wanted knowledge?
+Why should I care?
+Why should I care?
+Then why is Yezera...
+Then why is Yezera...
+How many Regis are stolen?
+How many Regis are stolen?
+They're opening that door.
+They're opening that door.
+Your point?
+Your point?
+I’ll listen.
+I’ll listen.
+Don't need it.
+Don't need it.
+No, I don't.
+No, I don't.
+That's tenuous.
+That's tenuous.
+I'll think about it.
+I'll think about it.
+I do.
+I do.
+Fine, talk.
+Fine, talk.
+Not interested in talking.
+Not interested in talking.
+I know who you are.
+I know who you are.
+Don't threaten me.
+Don't threaten me.
+Clear.
+Clear.
+Wish that already.
+Wish that already.
+Alright, fine.
+Alright, fine.
+Go away.
+Go away.
+That's insane.
+That's insane.
+Degenerate?
+Degenerate?
+Arceus's bosom?
+Arceus's bosom?
+That's fair.
+That's fair.
+Sure, talk.
+Sure, talk.
+Don't really care.
+Don't really care.
+It isn't worth it.
+It isn't worth it.
+Who cares?
+Who cares?
+Society will crumble.
+Society will crumble.
+Good point.
+Good point.
+I'll listen.
+I'll listen.
+Don't care.
+Don't care.
+You're wrong.
+You're wrong.
+I'm not guilty.
+I'm not guilty.
+Not that simple.
+Not that simple.
+Pokémon would do better?
+Pokémon would do better?
+Let's.
+Let's.
+Leave Darkrai for now.
+Leave Darkrai for now.
+Catch Darkrai.
+Catch Darkrai.
 Jump onto rumbling platform?
 Jump onto rumbling platform?
+Is that...?
+Is that...?
+Tell me about it.
+Tell me about it.
+Creepy, isn't it?
+Creepy, isn't it?
+That's great.
+That's great.
+I'm proud of you.
+I'm proud of you.
+What's a Manaphy?
+What's a Manaphy?
+You're welcome.
+You're welcome.
+It was worth it.
+It was worth it.
+You know what this means.
+You know what this means.
+Let's rock.
+Let's rock.
+Don't get sappy.
+Don't get sappy.
+Coffee sometime?
+Coffee sometime?
 Eldritch
 Eldritch
 Imitative
@@ -49109,30 +49669,856 @@ Humanity
 Humanity
 Ignorance
 Ignorance
+Catch Imogene.
+Catch Imogene.
+Don't catch Imogene.
+Don't catch Imogene.
+Strike a pose and battle him.
+Strike a pose and battle him.
+Take it.
+Take it.
+Don't take it.
+Don't take it.
+I've heard of you.
+I've heard of you.
+Who?
+Who?
+It's an honor.
+It's an honor.
+Uh, I need to go.
+Uh, I need to go.
+Let's do this.
+Let's do this.
+What are you doing here?
+What are you doing here?
+Which one are you?
+Which one are you?
+Oh no. Not this again.
+Oh no. Not this again.
+It's not so bad.
+It's not so bad.
+Pokémon live here too.
+Pokémon live here too.
+Humans need nests too.
+Humans need nests too.
+I agree.
+I agree.
+I don't know.
+I don't know.
+Accept the Corsola.
+Accept the Corsola.
+Refuse the Corsola.
+Refuse the Corsola.
+What can I do?
+What can I do?
+I'm not getting involved.
+I'm not getting involved.
+...Why?
+...Why?
+Duel her.
+Duel her.
+Kiss her.
+Kiss her.
+Refuse to duel or kiss her.
+Refuse to duel or kiss her.
+How did you know?
+How did you know?
+No, I didn't.
+No, I didn't.
+Alright. Let's go.
+Alright. Let's go.
+Just give me a minute.
+Just give me a minute.
+No. I don't care.
+No. I don't care.
+Not interested.
+Not interested.
+One moment.
+One moment.
+Yeah. Let's go.
+Yeah. Let's go.
+Run.
+Run.
+Fight.
+Fight.
+...What?
+...What?
+I'm calling the cops.
+I'm calling the cops.
+...W-what?
+...W-what?
+Please slow down.
+Please slow down.
+Are you insane?
+Are you insane?
+Sure thing.
+Sure thing.
+Really?
+Really?
+You're a pain.
+You're a pain.
+What do you mean?
+What do you mean?
+What else?
+What else?
+...Which one are you?
+...Which one are you?
+The feeling's mutual.
+The feeling's mutual.
+In... what way?
+In... what way?
+Please don't be.
+Please don't be.
+How sure are you?
+How sure are you?
+Any other memories?
+Any other memories?
+Where is she now?
+Where is she now?
+I'll show you one.
+I'll show you one.
+Some other time.
+Some other time.
+Unique?
+Unique?
+Gross?
+Gross?
+Horrifying?
+Horrifying?
+Pretty standard?
+Pretty standard?
+About avatars?
+About avatars?
+I'm doing my part.
+I'm doing my part.
+How bad?
+How bad?
+Catch Mesprit.
+Catch Mesprit.
+Leave Mesprit.
+Leave Mesprit.
+I don't have any right now.
+I don't have any right now.
+Yeah, I've got one for you.
+Yeah, I've got one for you.
+Sure, I'll adopt it.
+Sure, I'll adopt it.
+Catch Azelf.
+Catch Azelf.
+Leave Azelf.
+Leave Azelf.
+Closed Incidents
+Closed Incidents
+Known Incidents
+Known Incidents
+Undefined Incidents
+Undefined Incidents
+Bluepoint Grotto
+Bluepoint Grotto
+Németh Apartments
+Németh Apartments
+Sewers
+Sewers
+Go Back
+Go Back
+Eleig Bridge
+Eleig Bridge
+Gigalith's Guts
+Gigalith's Guts
+Velenz
+Velenz
+Grouz Sightings
+Grouz Sightings
+County Park Sightings
+County Park Sightings
+Don't pet the Lillipup.
+Don't pet the Lillipup.
+Pet the Lillipup.
+Pet the Lillipup.
+I need time to prepare.
+I need time to prepare.
+Is your team six Combee?
+Is your team six Combee?
 So, up to spend 200 Battle Points on a Shiny Charm?
 So, up to spend 200 Battle Points on a Shiny Charm?
 Explain what Yezera was doing inside Mt. Kilna?
 Explain what Yezera was doing inside Mt. Kilna?
 You explain to Dr. Hekata about how Yezera nearly reshaped the world using an ancient ritual.
 You explain to Dr. Hekata about how Yezera nearly reshaped the world using an ancient ritual.
+Neither
+Neither
+Create a Hisuian Pokemon
+Create a Hisuian Pokemon
+Clone a minor legendary
+Clone a minor legendary
 Do you wish to battle?
 Do you wish to battle?
+Leave.
+Leave.
+Battle him.
+Battle him.
+You can.
+You can.
+Please, Yezera.
+Please, Yezera.
+Are you so sure?
+Are you so sure?
+Alessa doesn't want this.
+Alessa doesn't want this.
+You're making it worse.
+You're making it worse.
+I'm stopping this.
+I'm stopping this.
+Mom.
+Mom.
+Mavis.
+Mavis.
+What are you?
+What are you?
+Disappear.
+Disappear.
+Third?
+Third?
+Take me back?
+Take me back?
+Broken in?
+Broken in?
+Leave me be.
+Leave me be.
+It's OK.
+It's OK.
+My mom? Really?
+My mom? Really?
+You are loved.
+You are loved.
+And everyone else?
+And everyone else?
+That isn't love.
+That isn't love.
+Shhh. It's OK.
+Shhh. It's OK.
+It's your choice.
+It's your choice.
+You see now?
+You see now?
+Didn't do it for you.
+Didn't do it for you.
+I love you.
+I love you.
+You don't have to.
+You don't have to.
+Please, don't.
+Please, don't.
 Would you like to purchase an Ocean Fishing Contest trip?
 Would you like to purchase an Ocean Fishing Contest trip?
+Sure, I guess.
+Sure, I guess.
+Yes, to show my darkness.
+Yes, to show my darkness.
+Ready.
+Ready.
+Property?
+Property?
+I'm not interested.
+I'm not interested.
+Sure, I'll take the place.
+Sure, I'll take the place.
+Onwards! Into battle!
+Onwards! Into battle!
 Whatd'ya say?
 Whatd'ya say?
+Not Now
+Not Now
+Skwovet
+Skwovet
+Zigzagoon
+Zigzagoon
+Patrat
+Patrat
+I'll buy.
+I'll buy.
 Harvest the golden fruit?
 Harvest the golden fruit?
+Do Not Buy Tea
+Do Not Buy Tea
+Buy Tea
+Buy Tea
+On second thought…
+On second thought…
+Let’s do this.
+Let’s do this.
 Things are going to be different from now on.
 Things are going to be different from now on.
+One sec.
+One sec.
+Yeah, I'm ready.
+Yeah, I'm ready.
+Zain.
+Zain.
+You made it!
+You made it!
+Jackass.
+Jackass.
+Hey, kiddo.
+Hey, kiddo.
+Sure you aren't.
+Sure you aren't.
+You're dating?
+You're dating?
+Mavis know?
+Mavis know?
+That's where you’ve been?
+That's where you’ve been?
+Hug him.
+Hug him.
+Don't hug him.
+Don't hug him.
+Thanks, Zain.
+Thanks, Zain.
+Love you.
+Love you.
+I'll be fine.
+I'll be fine.
+Good to see you too.
+Good to see you too.
+Two months, twenty days.
+Two months, twenty days.
+Where is it?
+Where is it?
+Use your Aid Kit.
+Use your Aid Kit.
+Give a Fresh Water.
+Give a Fresh Water.
+Sorry, but no.
+Sorry, but no.
+How did you get it?
+How did you get it?
+What is it?
+What is it?
+You trust me?
+You trust me?
+How'd it get hurt?
+How'd it get hurt?
+I'm taking the evidence.
+I'm taking the evidence.
+I'll let you walk.
+I'll let you walk.
+Candy...
+Candy...
+This isn't right.
+This isn't right.
+Give her a chance.
+Give her a chance.
+I'm sorry.
+I'm sorry.
+Candy, calm down.
+Candy, calm down.
+No, I'm not.
+No, I'm not.
+I have my reasons.
+I have my reasons.
+Are you... OK?
+Are you... OK?
+About time.
+About time.
+I hate you too.
+I hate you too.
+Let’s go.
+Let’s go.
 Would you like to end the Ocean Fishing Contest now?
 Would you like to end the Ocean Fishing Contest now?
+I'll choose later.
+I'll choose later.
+I'll take the Corsola.
+I'll take the Corsola.
+I'll take the Shuckle.
+I'll take the Shuckle.
+Let me think.
+Let me think.
+Fire Token.
+Fire Token.
+Water Token.
+Water Token.
+Grass Token.
+Grass Token.
+Let me think some more.
+Let me think some more.
+Let me think more.
+Let me think more.
+No, I don’t.
+No, I don’t.
+Catch Uxie.
+Catch Uxie.
+Leave Uxie.
+Leave Uxie.
+Don't pet the Vulpix.
+Don't pet the Vulpix.
+Pet the Vulpix.
+Pet the Vulpix.
+Can you give me that?
+Can you give me that?
+Winning the Championship.
+Winning the Championship.
+Helping a friend.
+Helping a friend.
+Telling someone to buzz off.
+Telling someone to buzz off.
+Letting go of my past.
+Letting go of my past.
+Yes, when I lost someone.
+Yes, when I lost someone.
+Yes, when I failed someone.
+Yes, when I failed someone.
+Yes, when I upset someone.
+Yes, when I upset someone.
+No, I haven't felt that.
+No, I haven't felt that.
+Yes, to help someone.
+Yes, to help someone.
+Yes, to gain something.
+Yes, to gain something.
+Yes, to avoid my fears.
+Yes, to avoid my fears.
+No, I haven't.
+No, I haven't.
 Return the Flora Sceptre and Reins of Unity?
 Return the Flora Sceptre and Reins of Unity?
+Can I help?
+Can I help?
+Hold up.
+Hold up.
+Don't take the food.
+Don't take the food.
+Take the food.
+Take the food.
+Don't carve.
+Don't carve.
+Carve your name.
+Carve your name.
+Carve Yezera's name.
+Carve Yezera's name.
+Carve Tamarind's name.
+Carve Tamarind's name.
+Good to see you.
+Good to see you.
+Damn it, Tamarind.
+Damn it, Tamarind.
+We gonna fight again?
+We gonna fight again?
+OK.
+OK.
+Use your real team.
+Use your real team.
+No, you're right.
+No, you're right.
+We're very different.
+We're very different.
+I hope I'm not.
+I hope I'm not.
+We've met.
+We've met.
+We're friends.
+We're friends.
+We're rivals.
+We're rivals.
+Unfortunately.
+Unfortunately.
+It's interesting.
+It's interesting.
+Get to the point.
+Get to the point.
+You had a gift?
+You had a gift?
+Actually, I kinda did.
+Actually, I kinda did.
+Don't smash.
+Don't smash.
+Smash.
+Smash.
+Help me.
+Help me.
+For the future.
+For the future.
+You owe me.
+You owe me.
+Catch Regigigas.
+Catch Regigigas.
+Leave Regigigas.
+Leave Regigigas.
+That's it?
+That's it?
+Don't do this.
+Don't do this.
+Doesn't matter.
+Doesn't matter.
+You know me?
+You know me?
+Been better.
+Been better.
+So you know about...
+So you know about...
+She's my rival.
+She's my rival.
+She's my friend.
+She's my friend.
+She's my enemy.
+She's my enemy.
+No, no questions.
+No, no questions.
+Her arm...
+Her arm...
+Her Pokémon...
+Her Pokémon...
+Her anxiety...
+Her anxiety...
+Capisce.
+Capisce.
+You OK?
+You OK?
+Don't know about this.
+Don't know about this.
+What's your plan?
+What's your plan?
+Well...
+Well...
+I'm not so sure.
+I'm not so sure.
+Feel better?
+Feel better?
+Fair.
+Fair.
+You're learning.
+You're learning.
+Really? You?
+Really? You?
+Punch her again for me.
+Punch her again for me.
+No more vigilantism?
+No more vigilantism?
+A tearful farewell?
+A tearful farewell?
+A final duel?
+A final duel?
+A kiss?
+A kiss?
+A forced moral?
+A forced moral?
+My name is...
+My name is...
+You can ask.
+You can ask.
+Almost was.
+Almost was.
+Please leave.
+Please leave.
+Everything is awful.
+Everything is awful.
+Stay out.
+Stay out.
+Enter.
+Enter.
+I know.
+I know.
+So now what?
+So now what?
+You like me?
+You like me?
+My pleasure.
+My pleasure.
+It should be you.
+It should be you.
+Just a moment.
+Just a moment.
+Nope.
+Nope.
+I like you too.
+I like you too.
+Take Heatran.
+Take Heatran.
+Refuse Heatran forever.
+Refuse Heatran forever.
+Pick up.
+Pick up.
+Don't pick up.
+Don't pick up.
+I'm not coming home.
+I'm not coming home.
+That sounds nice.
+That sounds nice.
+It's reliable.
+It's reliable.
+It's lackluster.
+It's lackluster.
+It's my favorite.
+It's my favorite.
+I'm just training it.
+I'm just training it.
+Illusions.
+Illusions.
+Myths made real.
+Myths made real.
+I don't care.
+I don't care.
+Tell her.
+Tell her.
+Don't tell her.
+Don't tell her.
+Yes, please.
+Yes, please.
+No, I'll go myself.
+No, I'll go myself.
+Oh, I care.
+Oh, I care.
+Won't go easy on you.
+Won't go easy on you.
+We don't have to fight.
+We don't have to fight.
+Good idea.
+Good idea.
+Don't.
+Don't.
+Mavis...
+Mavis...
+I want to talk.
+I want to talk.
+Not why I'm here.
+Not why I'm here.
+All I need is you.
+All I need is you.
+More gifts?
+More gifts?
+Let me prepare.
+Let me prepare.
+Very well.
+Very well.
+...No?
+...No?
+You need help.
+You need help.
+Go to hell.
+Go to hell.
+Last bit's a dealbreaker.
+Last bit's a dealbreaker.
+Yes. Let me be yours.
+Yes. Let me be yours.
+Take Jirachi.
+Take Jirachi.
+Refuse Jirachi forever.
+Refuse Jirachi forever.
+Catch Jirachi.
+Catch Jirachi.
+Release Jirachi forever.
+Release Jirachi forever.
+What exactly do you need?
+What exactly do you need?
+My brother.
+My brother.
+Someone.
+Someone.
+You offering?
+You offering?
+So?
+So?
+Don't train them.
+Don't train them.
+Let me fight them.
+Let me fight them.
+Like what?
+Like what?
+Oh, good.
+Oh, good.
+You're a good friend.
+You're a good friend.
+I'm trying.
+I'm trying.
+I get it.
+I get it.
+Kinda?
+Kinda?
+What?
+What?
+Yeah, I've got a batch.
+Yeah, I've got a batch.
+Ignore it.
+Ignore it.
+Make a funny face.
+Make a funny face.
+Take its candy.
+Take its candy.
+You're stealing Pokémon?
+You're stealing Pokémon?
+You're rescuing Pokémon?
+You're rescuing Pokémon?
+Fields of Study
+Fields of Study
+Research Topics
+Research Topics
+Application Information
+Application Information
+Fossil Studies
+Fossil Studies
+Material Studies
+Material Studies
+Makyan Ecology
+Makyan Ecology
+Nociception
+Nociception
+Man-made Pokémon
+Man-made Pokémon
+Depends on the question.
+Depends on the question.
+Do I have to?
+Do I have to?
+Not my strong suit.
+Not my strong suit.
+A few?
+A few?
+Dozens.
+Dozens.
+Hard to say.
+Hard to say.
+Too many...
+Too many...
+Aggressive.
+Aggressive.
+Powerful.
+Powerful.
+Type-changing.
+Type-changing.
+Huh?
+Huh?
+So do I.
+So do I.
+Avatar?
+Avatar?
+Let me pass.
+Let me pass.
+What are you doing?
+What are you doing?
+I'm looking forward to this.
+I'm looking forward to this.
+This is a lot.
+This is a lot.
+Why should I help?
+Why should I help?
+What's the plan?
+What's the plan?
+Leave Tapu Koko for now.
+Leave Tapu Koko for now.
+Catch Tapu Koko.
+Catch Tapu Koko.
+Coincidence.
+Coincidence.
+It isn't random?
+It isn't random?
+Did you call them?
+Did you call them?
+Leave Tapu Lele for now.
+Leave Tapu Lele for now.
+Catch Tapu Lele.
+Catch Tapu Lele.
 Try to break into the house by force?
 Try to break into the house by force?
+A Togekiss?
+A Togekiss?
+Leave Tapu Bulu for now.
+Leave Tapu Bulu for now.
+Catch Tapu Bulu.
+Catch Tapu Bulu.
 Open the crate?
 Open the crate?
+Why Tamarind?
+Why Tamarind?
+Cool. What'd you find?
+Cool. What'd you find?
+Sloppy.
+Sloppy.
+Give it back.
+Give it back.
+That's... horrible.
+That's... horrible.
+Are you sure?
+Are you sure?
+Impressive.
+Impressive.
+I gotta talk to Tamarind.
+I gotta talk to Tamarind.
+Leave Tapu Fini for now.
+Leave Tapu Fini for now.
+Catch Tapu Fini.
+Catch Tapu Fini.
+What does it matter?
+What does it matter?
+What do you want?
+What do you want?
+You're insane.
+You're insane.
+I'm going to stop you.
+I'm going to stop you.
+Avatars are hostile, though.
+Avatars are hostile, though.
+What about humans?
+What about humans?
+What about civilization?
+What about civilization?
+What about you?
+What about you?
+Always.
+Always.
+I don't want to fight.
+I don't want to fight.
+I care about you.
+I care about you.
+I don't care enough.
+I don't care enough.
+It isn't the answer.
+It isn't the answer.
+I can't beat you.
+I can't beat you.
+What's the real reason?
+What's the real reason?
+You're lying.
+You're lying.
+You're scared.
+You're scared.
+I understand.
+I understand.
+That's evil.
+That's evil.
+I agree with you.
+I agree with you.
+You don't have to do this.
+You don't have to do this.
+You knew?
+You knew?
+You in on it?
+You in on it?
+Already am.
+Already am.
+I like her.
+I like her.
+Don't like her.
+Don't like her.
+I love her.
+I love her.
+I hate her.
+I hate her.
+Sure?
+Sure?
+Sure, I'll take one.
+Sure, I'll take one.
+Feebas.
+Feebas.
+Magikarp.
+Magikarp.
+Leave it
+Leave it
+Use a Moomoo Milk
+Use a Moomoo Milk
+Use a Full Restore
+Use a Full Restore
+You bet.
+You bet.
 Macabre
 Macabre
 Insightful
@@ -49141,6 +50527,26 @@ Ever-Seeking
 Ever-Seeking
 Deception
 Deception
+What did you see?
+What did you see?
+Where's the other one?
+Where's the other one?
+I'm so sorry.
+I'm so sorry.
+How?
+How?
+Yeah, I'd guessed...
+Yeah, I'd guessed...
+You have to remember.
+You have to remember.
+Better to know.
+Better to know.
+Then don't remember.
+Then don't remember.
+I'll prepare.
+I'll prepare.
+Release Imogene forever.
+Release Imogene forever.
 [27]
 0
 Animated

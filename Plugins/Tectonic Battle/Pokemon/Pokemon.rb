@@ -1441,6 +1441,8 @@ class Pokemon
 
     def clone_pkmn
         ret = Marshal.load(Marshal.dump(self))
+        ret.name = nil
+        ret.owner = Owner.new(0, "", 2, 2)
         ret.regeneratePersonalID
         ret
     end

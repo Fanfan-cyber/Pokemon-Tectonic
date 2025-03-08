@@ -7810,7 +7810,7 @@ The world is just perfectly balanced, isn't it?
 Now I just need to figure out what's going on with Psychic...
 现在我只需要再搞明白超能的话...
 The door reads "Authorized personnel only!"
-上面写着"无授权不得进入！"
+上面写着“无授权不得进入！”
 Welcome to Novo College!
 欢迎来到望新大学！
 Feel free to check out any of our labs and classrooms to learn what kind of place we are.
@@ -25304,7 +25304,7 @@ Aromatic Mist
 Baby-Doll Eyes
 圆瞳
 Charm
-撅嘴
+撒娇
 Crafty Shield
 戏法防守
 Dazzling Gleam
@@ -28829,7 +28829,7 @@ A patch of medicinal flowers sprouts across the battlefield. This heals every Po
 The user makes a fool out of the target. This has a 50% chance of jinxing them.
 使用者使目标出丑。有50%的几率使目标陷入不幸。
 The user plays with the target with unneccessary force. It has a 50% chance to lower Attack.
-Theuserplayswiththetargetwithunneccessaryforce.Ithasa50%chancetolowerAttack.
+使用者强行和目标玩耍，有50%概率减少目标的物攻一级。
 The user flashes colorful light to damage the target. This move always goes first.
 使用闪烁的七彩光芒攻击对手，总是能先一步出手。
 The user chucks a party favor which explodes in the target's face.
@@ -33156,7 +33156,7 @@ Damages an attacker that lands the finishing hit.
 The Pokémon is protected from flinching, Intimidate, Fascinate, and Frustrate.
 不受惊吓、威吓、震慑和阻挠的影响。
 Upon entry, lowers the foe's Attack stat by two steps.
-出场时威吓对手，让其退缩，降低对手的攻击。
+出场时威吓对手，让其退缩，降低对手2级物攻。
 Raises Attack when the Pokémon enters a battle.
 进入战斗时提升攻击力。
 Physical moves against it inflict 1/8th max HP damage to the foe.
@@ -33264,7 +33264,7 @@ Prevents the foe from escaping.
 Boosts the power of blade moves by 50%.
 使出的切割类技能威力会提高50%。
 At the end of each turn, heals from every non-volatile status (except Sleep).
-回合结束时，回复除睡眠外的非回合类异常状态。
+回合结束时，回复除睡眠外的稳定类异常状态。
 Removes random added effects of attacks to increase their damage by 30%.
 技能的追加效果消失，但因此能以更高的威力使出技能。
 Blocks all random added effects of attacks taken.
@@ -33290,7 +33290,7 @@ Boosts Sp. Atk each time a Pokémon faints.
 Speed is raised by two steps at the end of each of its turns.
 回合结束时，速度大幅度提升。
 Boosts Defense by two steps when hit by an attack.
-受到攻击时，防御会提高。
+受到攻击时，物防提高2级。
 Changes between Blade and Shield Forme with attacks and King's Shield.
 随着使用攻击和王者盾牌技能，在刀剑与盾牌形态之间改变。
 Physical attacks against the Pokémon has a 30% chance to cause numbing.
@@ -33730,7 +33730,7 @@ Upon entry, intensifies gravity for five turns.
 Moves that bind the opponent deal 50% more damage (on the initial hit).
 束缚类技能第一次命中时，伤害增加50%。
 Boosts Sp. Def by two steps when hit by an attack.
-受到攻击时，大幅度提升特防。
+受到攻击时，特防提高2级。
 Raises Attack whenever any Pokémon uses a dance move.
 任何单位使用舞蹈类技能时都会提升攻击力。
 Heals 1/12th HP every turn. Protected from being poisoned.
@@ -34192,13 +34192,13 @@ Leaves two layers of spikes after it self-destructs.
 Speed is raised each turn. Speed is reset when hit, but the attacker takes 1/8th HP damage for each step lost.
 每回合提升速度，被攻击后降低速度，速度每次降低给对手造成1/8HP伤害。
 Can't be afflicted with any non-volatile status condition.
-不会陷入任何非回合类异常状态。
+不会陷入任何稳定类异常状态。
 Has a 30% chance to dizzy targets when using physical moves.
 使用物理技能时有30%的几率混乱对手。
 Prevents stat steps from being lowered (except when self-inflicted). Immune to weather downsides.
 防止能力等级下降效果（自身造成的除外）。免疫天气的负面效果。
 The user's critical hit chance raises or lowers with its Speed.
-自身暴击率随着其速度而提高或降低。
+自身命中要害率随着其速度而提高或降低。
 Sets a Light Screen for 4 turns upon entering the battle.
 进入战斗后释放持续四回合的光墙。
 During eclipse, its moves can't miss and always activate their random effects.
@@ -38262,7 +38262,7 @@ Bitmap's width ({1}) is not a multiple of frame count ({2}) [Bitmap={3}]
 Pokémon
 精灵
 Log Off
-注销
+离开
 \se[PC open]The Pokémon Storage System was opened.
 \se[PC open]精灵存储系统启动
 \ssYou insert the Omnidrive into the PC.
@@ -39146,7 +39146,7 @@ A critical hit deals 50% more damage than a regular hit. Certain moves are able 
 How common are Critical Hits?
 命中要害的概率
 For moves that can random crit, the chance is 1/8. This chance can be raised by abilities, items, or special effects.
-对于能够随机击中要害的招式，其暴击几率为1/8。这个几率可以通过特性、物品或特殊效果提高。
+对于能够随机击中要害的招式，其命中要害几率为1/8。这个几率可以通过特性、物品或特殊效果提高。
 Other Effects
 其他影响
 Critical hits ignore stat steps (on the user or the target) that would lower their damage. They also ignore protective screens like Reflect and Light Screen.
@@ -39907,6 +39907,8 @@ Game State
 状态
 Save/Quit
 存档
+money
+金钱
 Welcome!
 欢迎！
 Welcome, VIP! I hope you are satisfied with our services.
@@ -40350,7 +40352,7 @@ Leave PokÉstate
 What would you like to do?
 你打算做些什么？
 ...
-...
+。。。
 You notice a voice message from {1}, the PokÉstate caretaker.
 你注意到了庄园管理人#{CARETAKER}发来的语音信息。
 Greetings, young master. I have good news.
@@ -41050,7 +41052,7 @@ Defeat Eko, leader of Novo Town gym. Novo Town is north of the Shipping Lane. Ek
 Find LuxTech Campus
 前往光华市
 Find the third gym leader, located at LuxTech Campus. LuxTech Campus is west of the Lingering Delta and East of the County Park.
-找到位于LuxTech校园的第三位道馆馆主。LuxTech校园位于Lingering Delta的西边和County Park的东边。
+找到位于光华市的第三位道馆馆主。光华市位于漫步河原的西边和国立公园的东边。
 Schedule Your Gym Appointment
 预约道馆挑战
 A large sign at the entrance of the LuxTech Campus Gym told you to schedule your gym appointment inside LuxTech main, the large central building of LuxTech campus, to the west of the gym.
@@ -41080,7 +41082,7 @@ You've found and collected Helena's missing shipment. Return to LuxTech and hand
 Defeat LuxTech Campus Gym
 挑战光华道馆
 Defeat Helena, leader of LuxTech Campus Gym. LuxTech is west of the Lingering Delta and east of the County Park. Her Gym can be found east of the large central building.
-击败光华道馆的馆主海伦娜吧，可 以在光华市大型建筑东边找到她的道馆。
+击败光华道馆的馆主海伦娜吧，可以在光华市大型建筑东边找到她的道馆。
 Find Velenz Gym
 寻找夜幽道馆
 Find the fourth gym leader, located in Velenz. Velenz is west of Repora Forest, which can be found by passing through either Svait or the Shelf.
@@ -42794,17 +42796,17 @@ It doesn't affect {1} because another Pokémon in the party is already under thi
 {1} fell asleep! {2}!
 {1}睡着了！{2}！
 {1} was poisoned! {2}!
-{1}中毒了 {2}！
+{1}中毒了！{2}！
 {1} was burned! {2}!
-{1}烧伤了 {2}！
+{1}烧伤了！{2}！
 {1} is numbed! {2}!
-{1}麻痹了 {2}！
+{1}麻痹了！{2}！
 {1} was frostbitten! {2}!
-{1}冻伤了 {2}！
+{1}冻伤了！{2}！
 {1} is dizzy! {2}!
-{1}混乱了 {2}！
+{1}混乱了！{2}！
 {1} became leeched! {2}!
-{1}被寄生了 {2}！
+{1}被寄生了！{2}！
 {1} is waterlogged! {2}!
 {1}浸水了！{2}！
 {1} fell asleep!
@@ -43062,7 +43064,7 @@ It will repeat its move for the next #{value - 1} turns!
 {1}'s is now 16 times more likely to get a crticial hit!
 {1}击中要害的几率提升到了十六倍！
 Also, critical hits are now possible on all of {1}'s attacks!
-此外，{1}的所有攻击现在都有可能暴击！
+此外，{1}的所有攻击现在都有可能命中要害！
 {1} is tightening its focus!
 {1}<<n>>正在集中注意力！
 {1} became the center of attention!
@@ -49087,18 +49089,576 @@ The ice disappeared from the field!
 {1}滑倒了！
 It hurt itself!
 它伤害到了自己！
+No.
+不管
+Why are you down here?
+你为什么在这里？
+Who are you?
+你是谁？
+Whose Pokémon are those?
+这是谁的精灵？
+Thanks.
+谢谢
+How do you know?
+你怎么知道的？
+I doubt it.
+我很怀疑。
+You want it gone?
+你想消灭化身？
+What are they good for?
+那他们有什么用？
+I'm busy.
+我很忙。
+Why?
+为什么？
+On my way.
+我来了。
+A few badges.
+几个徽章。
+Not really.
+不太需要。
+Why would I tell you?
+我为什么告诉你？
+Just beat Helena.
+刚打完海伦娜。
+One.
+一个
+Shut up.
+闭嘴
+Making headway.
+很顺利。
+Couldn't be better.
+不太好。
+There's been trouble.
+有麻烦？
+More work?
+有新工作？
+Yep!
+没错！
+Not this again.
+最好别。
+Take the Phione.
+带上霏欧纳。
+Don't take the Phione.
+不要带霏欧纳。
+Good.
+很好
+Poorly.
+不好。
+So-so.
+一般。
+It's complicated.
+难说。
+Same here.
+我也是
+Hadn't considered that.
+没考虑过。
+You won't win.
+你赢不了。
+I hope I don't.
+算了吧。
+Oh?
+哦？
+Something seemed off.
+不对劲。
+Can't tell them apart.
+我分不清。
+Wandered off again?
+又走丢了？
 Enable randomizer? This will disable some achievements.
 启用随机模式？这会禁用部分成就。
+Masculine Look
+男性造型
+Feminine Look
+女性造型
+Androgynous Look
+中性造型
+"Val"
+威尔
+Enter with cursor
+用光标输入
+Enter with keyboard
+用键盘输入
+No thanks.
+不买
+Sure.
+来吧
+My Pokémon keep me going.
+精灵们让我勇往直前
+I play better and win more.
+我水平高，赢的多
+It's easy, to be honest.
+说实话，这很轻松
+Green lilies sleep tenderly.
+早睡早起，多看美女
+Have a few bulky mons.
+带上强大的精灵
+Rush 'em down.
+冲上去
+Persistence is key.
+坚持不懈是关键
+I'm fighting my demons.
+与化身势不两立
+I'll win it all for you guys.
+我会赢下所有
+I'm simply the best.
+目标只有冠军
+I have fans?
+我有粉丝？
+Is Kalos a real place?
+卡洛斯真实存在吗？
+Sorry, what?
+你说啥子？
+I'll make that trade.
+交易就交易
+I won't part from a friend.
+我不会和朋友分开
+Not right now.
+稍等一下
+Yeah, let's go.
+来吧
+Sure, let's go.
+开就开
+I promise.
+我保证。
+I'll take it.
+我会收下它。
+Hello.
+啊，你好。
+Why are you here?
+你为什么在这？
+They ARE dangerous.
+精灵很危险。
+Pokémon are animals.
+精灵就是动物。
+True.
+同意。
+Hell yeah.
+来吧
+Give me a sec.
+稍等
+Yeah, I do.
+来吧
 What do you say?
 你觉得怎么样？
 How's about it? Let an old man live out his dream?
 怎么样？让一个老人实现他的梦想吧？
+We'll see.
+走着瞧
+Oh, shut up.
+闭嘴！
+I don't need your help.
+谁需要你帮忙？
+Maybe later.
+稍等一下
+No way.
+我拒绝
+Don't give coffee.
+不给咖啡
+Give coffee.
+给咖啡
+Your Pokémon...?
+你的精灵？
+Your friends...?
+你的朋友？
+Please stay.
+请留下来。
+Hug her.
+拥抱她。
+Not yet.
+稍等
+Yeah.
+是的
+Nah.
+不帮
+Here you go.
+给你。
+No way!
+不给！
+I'll pass.
+算了吧。
+Sure, I'll take the Zangoose.
+带走猫鼬斩。
+Sure, I'll take the Seviper.
+带走饭匙蛇。
+I've been here.
+我来过
+I haven't been here.
+第一次来
+I'm ready.
+准备好了
+Sure, I'll pay.
+要了
+Is this going somewhere?
+你来这里干什么？
+Why do you want it?
+为什么要这个？
+Not now.
+现在不行
+Let's go.
+来吧
+Maybe some other time.
+也许以后再说吧。
+Yes.
+帮它
+Don't know.
+不知道
+City person.
+城市人
+Nature person.
+自然人
+Sure, I'll pay for that.
+钱我出了
+Great.
+很好
+Fine.
+好吧
+Could be better.
+不太好
+Let me prep.
+稍等一会儿
+Aren't Phione strong?
+霏欧纳很强吗？
+Of course.
+来吧
+I guess?
+大概吧
+They make good tools.
+工具，好用
+Jump in.
+跳。
+Are you alright?
+你还好吗？
+Three ghosts ring a bell?
+你知道三鬼吗？
+What was your wish?
+你现在打算？
+What Pokemon was it?
+那是什么精灵？
+The ghosts, man. Ghosts?
+你是幽灵吗？
+Sign the waiver.
+签署协议
+Take the tour again.
+再次参观
+Jump out.
+跳出。
+Maybe.
+谁知道呢
+He isn't relevant.
+跟他无关
+You stopping me?
+你要阻止我？
+Get out of my way.
+让开
+You think you can?
+你觉得你能？
+Please, just shut up.
+闭嘴吧
+Yeah, it does.
+那好吧
+Don't wanna do this.
+我不想这样
+"Dolled up?"
+打扮好的？
+I'll dance if I want to.
+能否起舞由我决定
+Not forcing you.
+我没有强迫你
+Yeah, I am.
+对，来吧
+A poem? For me?
+给我的诗？
+Still creepy, huh?
+还是很恶心
+Not happening.
+不可能
+Don't want to fight.
+我不想打架
+Wait, "non-zero?"
+接近于零？
+Talked too long already.
+说够了吧
+No, I can't.
+不行
+This is wrong.
+这是错的
+Don't hate yourself.
+不要自怨自艾
+Just give up.
+放弃吧
+I'm not her lapdog.
+我不是她的手下
+Do we have to?
+必须这样做？
+Sorry.
+对不起。
+Fine, bring it on.
+那就来吧
+She's human.
+她是人类
+Good for her.
+她很棒
+Yeah, she did.
+她做到了
+Shut up. For good this time.
+闭嘴，是时候算账了
+I'm good.
+不需要
+Don't challenge him.
+不挑战
+Challenge him.
+挑战
+Makyan forms?
+马凯亚形态？
+I have.
+我抓到了
+And fought with them.
+我正在训练它们
+What tasks?
+什么任务？
+Monuments?
+纪念碑？
+Samorn OK?
+赛蒙还好吗？
+Thanks for the help.
+多亏有你在
+Can I go?
+我可以走了吗？
+Sometimes.
+偶尔
+That's not true.
+不是
+Then stop it.
+那就停吧
+Good luck.
+祝你好运
+You sure?
+你确定？
+Coward.
+懦夫
+I'm with you.
+我愿意与你同行
+You first.
+你先说。
+Not my idea.
+不是我的主意。
+Getting answers.
+寻找答案。
+Delivering justice.
+追求正义。
+Tyrant.
+暴君。
+You seized power.
+你夺取了权力。
+And Velenz?
+那夜幽市呢？
+You don't rule anymore.
+你不再统治这里了。
+Not just violence.
+不仅仅是暴力。
+Some hate you.
+有些人恨你。
+You did it for yourself.
+你是为自己而做。
+It was their home.
+那是他们的家。
+That seems excessive.
+似乎有些过分。
+Fair enough.
+有道理
+...Alright.
+...好吧。
+I'd tell you anyways.
+本就没打算隐瞒
+Seems unenforceable.
+这办不到
+Give me a minute.
+一分钟
+I'm ready now.
+准备好了
+That's true.
+确实
+So it was pointless?
+所以就没意义？
+Pride is right.
+自信很正常
+Don't beat yourself up.
+不要自责
+Traits: Pokemon and You!
+性情：精灵与人类
+Latest Log Entry
+最新日志记录
+Sorry, not yet.
+抱歉，稍等
+Hah, évidemment.
+那当然
+Um, hi?
+呃...你好？
+You're acting different.
+你咋了？
+Same to you.
+我觉得你也是
+You're a creep.
+你好奇怪...
+Wait, what?
+你在说什么？
+You're into Yezera?
+你喜欢叶泽拉？
+Eyes only for me?
+跟我有关系？
+Um.
+......
+Hell no.
+不可能
+I feel the same way.
+我觉得可以
+Can we be friends?
+成为朋友？
+You kidding me?
+你在开玩笑？
+Happens a lot.
+这种事经常发生
+Where?
+在哪里？
 Whaddya say to $10,000 for renter's rights?
 10000美元租用权，你觉得怎么样？
+Get lost kid.
+小孩别挡道
 Try to force yourself in?
 想强行闯入吗？
+It was an avatar.
+这是个化身
+You're here?
+你也在啊
+You're asking me?
+你问我我问谁
+It was attacking me.
+它也会攻击我
+Could've. Didn't.
+可以但我不这么打算
+That it was possessed?
+你觉得它被附身了
+Why are you doing this?
+为什么这样做？
+Shut up, edgelord.
+闭嘴吧，垃圾
+Who are they?
+他们是谁？
+What do they want?
+他们想要什么？
+Why Yezera?
+为什么是叶泽拉？
+Not my problem.
+不关我事
+You wanted power?
+你想要权力？
+You wanted money?
+你想要钱？
+You wanted knowledge?
+你想要知识？
+Why should I care?
+我为什么要在意？
+Then why is Yezera...
+那为什么叶泽拉…
+How many Regis are stolen?
+有多少巨人被盗了？
+They're opening that door.
+他们在打开那扇门
+Your point?
+你是说？
+I’ll listen.
+可以听
+Don't need it.
+不重要
+No, I don't.
+一派胡言
+That's tenuous.
+很牵强
+I'll think about it.
+我思考一下
+I do.
+确实
+Fine, talk.
+说吧
+Not interested in talking.
+没兴趣
+I know who you are.
+我知道你是谁
+Don't threaten me.
+不要威胁我
+Clear.
+明白了
+Wish that already.
+快点吧
+Alright, fine.
+行吧
+Go away.
+让开
+That's insane.
+神经病
+Degenerate?
+堕落？
+Arceus's bosom?
+阿尔宙斯的怀抱？
+That's fair.
+听起来不错
+Sure, talk.
+说吧
+Don't really care.
+我不在乎
+It isn't worth it.
+不值得
+Who cares?
+谁在乎呢？
+Society will crumble.
+社会会崩溃
+Good point.
+说得好。
+I'll listen.
+听听也行
+Don't care.
+我不在乎
+You're wrong.
+你错了
+I'm not guilty.
+我没有罪
+Not that simple.
+没那么简单
+Pokémon would do better?
+精灵能做得更好？
+Let's.
+来吧
+Leave Darkrai for now.
+暂时离开达克莱伊。
+Catch Darkrai.
+捕捉达克莱伊。
 Jump onto rumbling platform?
 要跳上震动的平台吗？
+Is that...?
+那是...
+Tell me about it.
+跟我说明一下
+Creepy, isn't it?
+这里有些恐怖
+That's great.
+太好了
+I'm proud of you.
+太好了
+What's a Manaphy?
+玛纳霏是？
+You're welcome.
+不用谢
+It was worth it.
+这是值得的
+You know what this means.
+你知道这意味着什么
+Let's rock.
+开始吧
+Don't get sappy.
+别那么感性
+Coffee sometime?
+来杯咖啡？
 Eldritch
 诡异
 Imitative
@@ -49109,30 +49669,856 @@ Humanity
 人性
 Ignorance
 无知
+Catch Imogene.
+带走伊梦珍
+Don't catch Imogene.
+不要带走百变珍。
+Strike a pose and battle him.
+摆好姿势
+Take it.
+拿走。
+Don't take it.
+不拿。
+I've heard of you.
+我知道你。
+Who?
+你谁？
+It's an honor.
+我的荣幸。
+Uh, I need to go.
+呃，我走了。
+Let's do this.
+来吧。
+What are you doing here?
+你在这里做什么？
+Which one are you?
+你是哪一个？
+Oh no. Not this again.
+完，又开始了
+It's not so bad.
+也没那么糟
+Pokémon live here too.
+精灵也住在这里
+Humans need nests too.
+人类也需要巢穴
+I agree.
+我同意
+I don't know.
+不知道。
+Accept the Corsola.
+收下它
+Refuse the Corsola.
+拒绝收下
+What can I do?
+我能做什么？
+I'm not getting involved.
+我不想卷入其中
+...Why?
+…为什么？
+Duel her.
+与她决斗
+Kiss her.
+吻她
+Refuse to duel or kiss her.
+既不决斗也不吻她
+How did you know?
+你怎么知道？
+No, I didn't.
+不在
+Alright. Let's go.
+打就打
+Just give me a minute.
+一分钟
+No. I don't care.
+我不在乎
+Not interested.
+没兴趣
+One moment.
+等一下
+Yeah. Let's go.
+来吧
+Run.
+跑。
+Fight.
+战斗。
+...What?
+...什么？
+I'm calling the cops.
+我要报警。
+...W-what?
+啥？
+Please slow down.
+慢点。
+Are you insane?
+你疯了？
+Sure thing.
+没问题
+Really?
+确定？
+You're a pain.
+你好烦啊
+What do you mean?
+什么意思？
+What else?
+所以？
+...Which one are you?
+会不会你才是？
+The feeling's mutual.
+我也不能忽视你
+In... what way?
+具体...哪方面？
+Please don't be.
+别别别
+How sure are you?
+你有多确定？
+Any other memories?
+你还记得些什么？
+Where is she now?
+她现在在哪儿？
+I'll show you one.
+给你看看
+Some other time.
+回头再说
+Unique?
+很特殊？
+Gross?
+很恶心？
+Horrifying?
+很吓人？
+Pretty standard?
+没什么特殊的？
+About avatars?
+因为化身？
+I'm doing my part.
+我会尽力
+How bad?
+有多糟？
+Catch Mesprit.
+带走。
+Leave Mesprit.
+算了。
+I don't have any right now.
+我现在没有
+Yeah, I've got one for you.
+有了
+Sure, I'll adopt it.
+我来吧
+Catch Azelf.
+带走。
+Leave Azelf.
+算了。
+Closed Incidents
+已解决事件
+Known Incidents
+已探明事件
+Undefined Incidents
+未确定事件
+Bluepoint Grotto
+蓝莹洞穴
+Németh Apartments
+望新公寓
+Sewers
+下水道
+Go Back
+返回
+Eleig Bridge
+埃利格大桥
+Gigalith's Guts
+怪岩肠道
+Velenz
+夜幽市
+Grouz Sightings
+古治镇目击事件
+County Park Sightings
+国立公园目击事件
+Don't pet the Lillipup.
+不摸小约克
+Pet the Lillipup.
+摸小约克
+I need time to prepare.
+需要时间准备。
+Is your team six Combee?
+你的队伍是18蜜蜂？
 So, up to spend 200 Battle Points on a Shiny Charm?
 那么，要花200对战点数买闪耀护符吗？
 Explain what Yezera was doing inside Mt. Kilna?
 解释一下叶泽拉在基尔纳山内部做了什么？
 You explain to Dr. Hekata about how Yezera nearly reshaped the world using an ancient ritual.
 你向赫卡塔博士解释了叶泽拉如何利用一个古老的仪式几乎重塑了世界。
+Neither
+都不用
+Create a Hisuian Pokemon
+创造洗翠精灵
+Clone a minor legendary
+克隆传说精灵
 Do you wish to battle?
 你想对战吗？
+Leave.
+走。
+Battle him.
+揍。
+You can.
+你可以的
+Please, Yezera.
+拜托了，叶泽拉
+Are you so sure?
+你这么确定？
+Alessa doesn't want this.
+阿莱莎在抗拒这个
+You're making it worse.
+你正在让一切变得更糟。
+I'm stopping this.
+我会停下它
+Mom.
+妈妈
+Mavis.
+梅维斯
+What are you?
+你是？
+Disappear.
+消失
+Third?
+第二？
+Take me back?
+带我回去？
+Broken in?
+破坏？
+Leave me be.
+别管我。
+It's OK.
+没关系
+My mom? Really?
+我妈妈是真的吗？
+You are loved.
+你被爱着。
+And everyone else?
+其他人呢？
+That isn't love.
+那不是爱
+Shhh. It's OK.
+嘘，没事
+It's your choice.
+这是你的选择
+You see now?
+你现在明白了？
+Didn't do it for you.
+我不是为了你
+I love you.
+我爱你
+You don't have to.
+你不必如此
+Please, don't.
+不要
 Would you like to purchase an Ocean Fishing Contest trip?
 你想购买海洋钓鱼大赛的参赛资格吗？
+Sure, I guess.
+应该可以
+Yes, to show my darkness.
+来吧
+Ready.
+来吧
+Property?
+房产？
+I'm not interested.
+没兴趣
+Sure, I'll take the place.
+我要了
+Onwards! Into battle!
+冲啊！
 Whatd'ya say?
 你觉得怎么样？
+Not Now
+稍等一下
+Skwovet
+贪心栗鼠
+Zigzagoon
+蛇纹熊
+Patrat
+探探鼠
+I'll buy.
+我买了。
 Harvest the golden fruit?
 要收获金色果实吗？
+Do Not Buy Tea
+不买
+Buy Tea
+买茶
+On second thought…
+稍等…
+Let’s do this.
+来吧
 Things are going to be different from now on.
 从现在开始，事情将会变得不同。
+One sec.
+不急。
+Yeah, I'm ready.
+开始吧。
+Zain.
+赞恩。
+You made it!
+你已经说了！
+Jackass.
+叉出去。
+Hey, kiddo.
+嘿，小鬼。
+Sure you aren't.
+没错。
+You're dating?
+你们在约会？
+Mavis know?
+妈妈知道吗？
+That's where you’ve been?
+我还以为你要说啥？
+Hug him.
+抱他。
+Don't hug him.
+不抱他。
+Thanks, Zain.
+谢谢，赞恩。
+Love you.
+我爱你。
+I'll be fine.
+我不会有事。
+Good to see you too.
+很高兴见到你。
+Two months, twenty days.
+两月零二十天。
+Where is it?
+它在那儿呢？
+Use your Aid Kit.
+使用急救包。
+Give a Fresh Water.
+给他美味之水
+Sorry, but no.
+抱歉，帮不了
+How did you get it?
+你怎么得到它的?
+What is it?
+它到底是什么？
+You trust me?
+你为什么相信我？
+How'd it get hurt?
+它怎么受伤的?
+I'm taking the evidence.
+我要拿走证据
+I'll let you walk.
+你可以离开了
+Candy...
+糖儿…
+This isn't right.
+不能这样
+Give her a chance.
+给她一个机会
+I'm sorry.
+抱歉
+Candy, calm down.
+糖儿，冷静点
+No, I'm not.
+本来就不是
+I have my reasons.
+我有自己的理由
+Are you... OK?
+你...还好吧？
+About time.
+差不多了
+I hate you too.
+我也恨你
+Let’s go.
+来吧
 Would you like to end the Ocean Fishing Contest now?
 你想现在结束海洋钓鱼大赛吗？
+I'll choose later.
+我得想想。
+I'll take the Corsola.
+太阳珊瑚。
+I'll take the Shuckle.
+壶壶。
+Let me think.
+让我想想
+Fire Token.
+猛火代币
+Water Token.
+激流代币
+Grass Token.
+茂盛代币
+Let me think some more.
+让我再想想
+Let me think more.
+让我再想想
+No, I don’t.
+不同意
+Catch Uxie.
+带走。
+Leave Uxie.
+算了。
+Don't pet the Vulpix.
+不摸六尾。
+Pet the Vulpix.
+摸摸六尾。
+Can you give me that?
+能把这个给我吗？
+Winning the Championship.
+获得冠军
+Helping a friend.
+帮助朋友
+Telling someone to buzz off.
+让别人滚蛋
+Letting go of my past.
+放下过去
+Yes, when I lost someone.
+是，当我失去了某人时
+Yes, when I failed someone.
+是，当我辜负了某人时
+Yes, when I upset someone.
+是，当我惹怒了某人时
+No, I haven't felt that.
+不，我没有这种感觉
+Yes, to help someone.
+有，为了帮助某人
+Yes, to gain something.
+有，为了得到某物
+Yes, to avoid my fears.
+有，为了战胜恐惧
+No, I haven't.
+还没有过
 Return the Flora Sceptre and Reins of Unity?
 要归还花之权杖和团结之缰吗？
+Can I help?
+我能帮忙吗？
+Hold up.
+等一下
+Don't take the food.
+不拿走食物
+Take the food.
+拿走食物
+Don't carve.
+不刻了
+Carve your name.
+刻下自己的名字
+Carve Yezera's name.
+刻下叶泽拉的名字
+Carve Tamarind's name.
+刻下塔玛琳的名字
+Good to see you.
+很高兴见到你
+Damn it, Tamarind.
+特么的塔玛琳
+We gonna fight again?
+又要打一场？
+OK.
+来吧
+Use your real team.
+用你自己的队伍吧
+No, you're right.
+我也这么觉得
+We're very different.
+我们很不一样
+I hope I'm not.
+最好不要
+We've met.
+我们见过面
+We're friends.
+我们是朋友
+We're rivals.
+她是我的劲敌
+Unfortunately.
+真不幸
+It's interesting.
+这很有趣
+Get to the point.
+言归正传
+You had a gift?
+不是有礼物吗？
+Actually, I kinda did.
+我还挺感兴趣的
+Don't smash.
+别打碎
+Smash.
+打碎它
+Help me.
+帮帮我
+For the future.
+为了未来
+You owe me.
+你欠我一个人情
+Catch Regigigas.
+捕捉
+Leave Regigigas.
+算了
+That's it?
+就这样？
+Don't do this.
+不要这样做
+Doesn't matter.
+无所谓了
+You know me?
+你知道我？
+Been better.
+还能更好
+So you know about...
+所以你知道...
+She's my rival.
+她是我的劲敌。
+She's my friend.
+她是我的朋友。
+She's my enemy.
+她是我的敌人。
+No, no questions.
+没有问题
+Her arm...
+她的胳膊...
+Her Pokémon...
+她的精灵...
+Her anxiety...
+她的焦虑...
+Capisce.
+明白了
+You OK?
+你还好吗？
+Don't know about this.
+我不确定
+What's your plan?
+你的计划？
+Well...
+嗯...
+I'm not so sure.
+不太确定
+Feel better?
+感觉好些了？
+Fair.
+一般般
+You're learning.
+你学到了很多
+Really? You?
+你真这样想？
+Punch her again for me.
+替我再打她一次
+No more vigilantism?
+不再私自执法了吗？
+A tearful farewell?
+含泪告别？
+A final duel?
+最后的决斗？
+A kiss?
+一个吻？
+A forced moral?
+被迫的道德？
+My name is...
+我是...
+You can ask.
+你可以问
+Almost was.
+差点就成功了
+Please leave.
+请离开
+Everything is awful.
+一切都很糟
+Stay out.
+不进
+Enter.
+进去
+I know.
+我知道
+So now what?
+现在怎么办？
+You like me?
+你喜欢我？
+My pleasure.
+我很高兴
+It should be you.
+应该你去
+Just a moment.
+等一下
+Nope.
+不行
+I like you too.
+我也喜欢你
+Take Heatran.
+带走席多蓝恩
+Refuse Heatran forever.
+永远放走席多蓝恩
+Pick up.
+接电话
+Don't pick up.
+不接电话
+I'm not coming home.
+暂时不回去
+That sounds nice.
+听起来不错
+It's reliable.
+可靠的伙伴
+It's lackluster.
+平庸的家伙
+It's my favorite.
+我很喜欢它
+I'm just training it.
+只是在训练它
+Illusions.
+幻觉。
+Myths made real.
+传说中的东西
+I don't care.
+无所谓。
+Tell her.
+告诉她
+Don't tell her.
+不告诉她
+Yes, please.
+现在去
+No, I'll go myself.
+回头去
+Oh, I care.
+我要赢
+Won't go easy on you.
+我不会手下留情
+We don't have to fight.
+我们未必要打
+Good idea.
+好主意
+Don't.
+别这样
+Mavis...
+梅维斯…
+I want to talk.
+要谈谈？
+Not why I'm here.
+还有别的事？
+All I need is you.
+我只需要你
+More gifts?
+有礼物？
+Let me prepare.
+准备一下
+Very well.
+好的
+...No?
+...不需要吧...
+You need help.
+你需要治疗
+Go to hell.
+下地狱吧
+Last bit's a dealbreaker.
+最后一条不能接受
+Yes. Let me be yours.
+让我成为你的吧
+Take Jirachi.
+带走基拉祈
+Refuse Jirachi forever.
+永远拒绝基拉祈
+Catch Jirachi.
+带走基拉祈
+Release Jirachi forever.
+永远拒绝基拉祈
+What exactly do you need?
+你到底需要什么
+My brother.
+我哥
+Someone.
+的确
+You offering?
+要不你来？
+So?
+那又怎样？
+Don't train them.
+不要帮他
+Let me fight them.
+那我来打倒它们
+Like what?
+比如说？
+Oh, good.
+太好了
+You're a good friend.
+你是个好朋友
+I'm trying.
+我在努力
+I get it.
+懂了
+Kinda?
+或许吧？
+What?
+什么？
+Yeah, I've got a batch.
+我这里有
+Ignore it.
+不理他。
+Make a funny face.
+做个鬼脸。
+Take its candy.
+抢走它的糖果。
+You're stealing Pokémon?
+你在偷精灵？
+You're rescuing Pokémon?
+你在拯救精灵？
+Fields of Study
+学科领域
+Research Topics
+科研专题
+Application Information
+申报信息
+Fossil Studies
+考古学
+Material Studies
+材料科学
+Makyan Ecology
+生物学
+Nociception
+疼痛研究
+Man-made Pokémon
+人造精灵
+Depends on the question.
+那要看你问啥
+Do I have to?
+强制性的？
+Not my strong suit.
+我不想答
+A few?
+几个？
+Dozens.
+十几个
+Hard to say.
+难说
+Too many...
+数不清了
+Aggressive.
+进攻性强
+Powerful.
+实力强大
+Type-changing.
+会变形态
+Huh?
+哈？
+So do I.
+点头
+Avatar?
+化身？
+Let me pass.
+让我过去
+What are you doing?
+你在干什么？
+I'm looking forward to this.
+我很期待这个
+This is a lot.
+这很困难
+Why should I help?
+我为什么要帮忙？
+What's the plan?
+有什么打算？
+Leave Tapu Koko for now.
+暂时先不带它走。
+Catch Tapu Koko.
+带它一起离开。
+Coincidence.
+巧合
+It isn't random?
+不是随机的？
+Did you call them?
+你叫来的？
+Leave Tapu Lele for now.
+暂时先不带它走。
+Catch Tapu Lele.
+带它一起离开。
 Try to break into the house by force?
 想强行闯进房子吗？
+A Togekiss?
+用波克基斯？
+Leave Tapu Bulu for now.
+暂时先不带它走。
+Catch Tapu Bulu.
+带它一起离开。
 Open the crate?
 要打开箱子吗？
+Why Tamarind?
+为什么是塔玛琳？
+Cool. What'd you find?
+你找到什么了？
+Sloppy.
+太马虎了
+Give it back.
+还回去吧
+That's... horrible.
+那太可怕了
+Are you sure?
+你确定吗？
+Impressive.
+令人印象深刻
+I gotta talk to Tamarind.
+我会跟塔玛琳谈谈
+Leave Tapu Fini for now.
+暂时先不带它走。
+Catch Tapu Fini.
+带它一起离开。
+What does it matter?
+那有什么关系呢？
+What do you want?
+你想要什么？
+You're insane.
+你疯了
+I'm going to stop you.
+我会阻止你
+Avatars are hostile, though.
+化身是敌人
+What about humans?
+那人类呢？
+What about civilization?
+那文明呢？
+What about you?
+那你呢？
+Always.
+一直都准备好了
+I don't want to fight.
+我不想打架
+I care about you.
+我在乎你
+I don't care enough.
+我无所谓
+It isn't the answer.
+这不是答案
+I can't beat you.
+我打不过你
+What's the real reason?
+真正的原因是什么？
+You're lying.
+你在撒谎
+You're scared.
+你在害怕
+I understand.
+我能理解
+That's evil.
+邪恶的想法
+I agree with you.
+我同意
+You don't have to do this.
+你不必这样做
+You knew?
+你知道？
+You in on it?
+你也参与了？
+Already am.
+我已经知道了
+I like her.
+我喜欢她
+Don't like her.
+我不喜欢她
+I love her.
+我喜欢上她了
+I hate her.
+我讨厌她
+Sure?
+确定吗？
+Sure, I'll take one.
+我买一个
+Feebas.
+丑丑鱼
+Magikarp.
+鲤鱼王
+Leave it
+离开
+Use a Moomoo Milk
+使用哞哞鲜奶
+Use a Full Restore
+全复药
+You bet.
+来吧
 Macabre
 阴森
 Insightful
@@ -49141,6 +50527,26 @@ Ever-Seeking
 永无止境的追寻
 Deception
 欺骗
+What did you see?
+你看到了什么？
+Where's the other one?
+另一个在哪里？
+I'm so sorry.
+抱歉
+How?
+怎么回事？
+Yeah, I'd guessed...
+嗯，我猜到了…
+You have to remember.
+你必须记起
+Better to know.
+得知总好过未知
+Then don't remember.
+那就不要回忆了
+I'll prepare.
+我准备下
+Release Imogene forever.
+永远地让伊梦珍离开
 [27]
 0
 Animated
@@ -50981,7 +52387,7 @@ First Pledge
 Flinch
 畏缩
 Crit Chance Up
-暴击几率提升
+命中要害几率提升
 Focus Punch
 集中拳
 Follow Me
@@ -51077,7 +52483,7 @@ Parental Bond
 Perish Song Turns
 灭亡之歌回合
 Pickup Item
-拾取道具
+拾取物品
 Pickup Use
 拾取使用
 Pinch
@@ -51105,7 +52511,7 @@ Prankster
 Priority Ability
 优先特性
 Priority Item
-优先道具
+优先物品
 Pursuit
 追击
 Quash
@@ -51165,7 +52571,7 @@ Two Turn Attack
 Added Type
 增加属性
 Item Lost
-失去道具
+失去物品
 Uproar Turns
 喧闹回合
 Weight Changed
@@ -51469,7 +52875,7 @@ Spent Tyrannical Immunity
 Tailwind Turns
 顺风
 Items Supressed
-道具被压制
+物品被压制
 Bulwark
 壁垒
 Eroded Rocks
@@ -57665,7 +59071,7 @@ Tundra Pattern
 Fancy Pattern
 华丽花纹
 Poké Ball Pattern
-宝可梦球花纹
+精灵球花纹
 Yellow Flower
 黄花
 Orange Flower

@@ -113,6 +113,7 @@ def pbSetTextMessages
     items|=[]
     choices|=[]
     items.concat(choices)
+    intl.concat(choices)
     MessageTypes.setMapMessagesAsHash(0,items)
     MessageTypes.addMessagesAsHash(MessageTypes::ScriptTexts,intl)
     mapinfos = pbLoadMapInfos
@@ -195,6 +196,7 @@ def pbSetTextMessages
       items|=[]
       choices|=[]
       items.concat(choices)
+      intl.concat(choices)
       MessageTypes.setMapMessagesAsHash(id,items)
       MessageTypes.addMessagesAsHash(MessageTypes::ScriptTexts,intl)
       if Time.now.to_i - t >= 5

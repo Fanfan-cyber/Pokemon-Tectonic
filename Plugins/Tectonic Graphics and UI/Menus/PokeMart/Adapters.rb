@@ -16,7 +16,7 @@ class PokemonMartAdapter
     end
 
     def getMoneyName(upperCase = false)
-      return upperCase ? "Money" : "money"
+      return upperCase ? _INTL("Money") : _INTL("money")
     end
   
     def setMoney(value)
