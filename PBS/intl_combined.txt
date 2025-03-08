@@ -34470,11 +34470,11 @@ Mutant
 基因
 [14]
 Tester
-泰斯特
+测试者
 Joey
 乔伊
 Lane Tester
-Lane Tester
+Lane测试者
 Caitlyn
 凯特琳
 Harvey
@@ -34658,11 +34658,11 @@ Amanda
 Genevieve
 吉纳维芙
 Veronica
-Veronica
+维罗尼卡
 Alan
-Alan
+艾伦
 Konrad
-Konrad
+康拉德
 Rafael
 拉斐尔
 Lainie
@@ -34736,53 +34736,53 @@ Bryn
 Flavio
 弗拉维奥
 Stella
-Stella
+斯特拉
 Brickbat
-Brickbat
+砖块
 Zinnia
-Zinnia
+紫罗兰
 Agentbla
-Agentbla
+代理布莱
 Pria
-Pria
+普里亚
 IgnitedxSoul
-IgnitedxSoul
+火焰之魂
 Drawingbox
-Drawingbox
+绘图盒
 Dada
-Dada
+达达
 Zufaix
-Zufaix
+祖法克斯
 Lichenprincess
-Lichenprincess
+地衣公主
 Maddie
-Maddie
+麦迪
 Papper
-Papper
+帕珀
 Tiki
-Tiki
+蒂基
 Splitmoon
-Splitmoon
+半月
 Steeb
-Steeb
+斯蒂布
 D
 D
 Jaggedthorn
-Jaggedthorn
+锯齿荆棘
 Darlvon
-Darlvon
+达尔冯
 Minty
-Minty
+薄荷
 LunaFlare
-LunaFlare
+月光火焰
 Valrex
-Valrex
+瓦尔雷克斯
 Jbsundown
-Jbsundown
+JB日落
 ZombyGoast
-ZombyGoast
+僵尸幽灵
 Riptide
-Riptide
+激流
 Bence
 本斯
 Zoé
@@ -35052,7 +35052,7 @@ Kurtis
 Renaldo
 雷纳尔多
 Jovan
-Jovan
+乔万
 Jeralyn
 杰拉林
 Emre
@@ -35204,19 +35204,19 @@ of Conquest
 of Freedom
 的自由
 Solitaire
-Solitaire
+肖勒泰
 Doppel
-Doppel
+多普勒
 Trinity
-Trinity
+崔妮蒂
 Mina
-Mina
+米娜
 Amber
-Amber
+琥珀
 Terrance
-Terrance
+特伦斯
 Micah
-Micah
+米迦
 Airi
 爱莉
 Holly
@@ -35348,7 +35348,7 @@ Rikard
 Finnegan
 菲尼根
 Test Trainer
-Test Trainer
+测试训练师
 BRADY
 BRADY
 CONNER
@@ -52710,419 +52710,419 @@ Code Errors
 Aqua Ring
 水流环
 Beak Blast
-Beak Blast
+鸟嘴加农炮
 Condensate
-Condensate
+冷凝
 Bide Turns
-Bide Turns
+等待回合
 Bide Damage
-Bide Damage
+等待伤害
 Bide Target
-Bide Target
+等待目标
 Burnt Up
-Burnt Up
+燃尽
 Dried Out
-Dried Out
+干涸
 Charged
-Charged
+充电
 Charge Expended
-Charge Expended
+耗尽电荷
 Choice Locked
-Choice Locked
+选择锁定
 Counter Damage
-Counter Damage
+反击伤害
 Counter Target
-Counter Target
+反击目标
 Curse-Warned
-Curse-Warned
+诅咒警告
 Cursed
-Cursed
+被诅咒
 Dancer
-Dancer
+舞者
 Curled Up
-Curled Up
+蜷缩
 Destiny Bond
-Destiny Bond
+命运束缚
 Destiny Bond Previous
-Destiny Bond Previous
+命运束缚前一个
 Destiny Bond Target
-Destiny Bond Target
+命运束缚目标
 Disable Turns
-Disable Turns
+禁用回合
 Disabled Move
-Disabled Move
+禁用的招式
 Electrify
-Electrify
+通电
 Embargoed
-Embargoed
+禁运
 Encore Turns
-Encore Turns
+安可回合
 Must Use
-Must Use
+必须使用
 Endure
-Endure
+忍耐
 Fight Forever
-Fight Forever
+永远战斗
 First Pledge
-First Pledge
+首次承诺
 Flinch
-Flinch
+畏缩
 Crit Chance Up
-Crit Chance Up
+暴击几率提升
 Focus Punch
-Focus Punch
+集中拳
 Follow Me
-Follow Me
+跟随我
 Ability Surpressed
-Ability Surpressed
+特性被压制
 Gem Consumed
-Gem Consumed
+宝石被消耗
 Empowering Herb Consumed
-Empowering Herb Consumed
+力量草药被消耗
 Skill Herb Consumed
-Skill Herb Consumed
+技能草药被消耗
 Luck Herb Consumed
-Luck Herb Consumed
+幸运草药被消耗
 Mirror Herb Consumed
-Mirror Herb Consumed
+镜像草药被消耗
 Mirror Herb Copied Stats
-Mirror Herb Copied Stats
+镜像草药复制了属性
 Paradox Herb Consumed
-Paradox Herb Consumed
+悖论草药被消耗
 Grudge
-Grudge
+怨恨
 Healing Blocked
-Healing Blocked
+治疗被阻止
 Helping Hand
-Helping Hand
+助力
 Lucky Cheer
-Lucky Cheer
+幸运欢呼
 Spotting
-Spotting
+发现
 Recharging
-Recharging
+充电
 Attached
-Attached
+附加
 Attached To
-Attached To
+附加到
 Illusion
-Illusion
+幻象
 Moves Imprisoned
-Moves Imprisoned
+招式被囚禁
 Ingrained
-Ingrained
+根深蒂固
 Evil Roots
-Evil Roots
+邪恶之根
 Deeply Ingrained
-Deeply Ingrained
+深植
 Instruct
-Instruct
+指导
 Instructed
-Instructed
+被指导
 Laser Focus Turns
-Laser Focus Turns
+激光集中回合
 Seeded
-Seeded
+播种
 Locked On
-Locked On
+锁定
 Locked On To
-Locked On To
+锁定到
 Magic Bounce
-Magic Bounce
+魔法反弹
 Magic Coat
-Magic Coat
+魔法斗篷
 Magnet Risen
-Magnet Risen
+磁铁升起
 Cannot Escape
-Cannot Escape
+无法逃脱
 Marked for Death
-Marked for Death
+被标记为死亡
 Imprisoned in ice
-Imprisoned in ice
+被冰囚禁
 Me First
-Me First
+我先
 Metronome Count
-Metronome Count
+节拍器计数
 Micle Berry
-Micle Berry
+米可果
 Minimized
-Minimized
+最小化
 Miracle Eye
-Miracle Eye
+奇迹之眼
 Mirror Coat Damage
-Mirror Coat Damage
+镜像护盾伤害
 Mirror Coat Target
-Mirror Coat Target
+镜像护盾目标
 Will Move Next
-Will Move Next
+将要移动
 Nightmared
-Nightmared
+噩梦
 Rampage Turns
-Rampage Turns
+暴走回合
 Parental Bond
-Parental Bond
+亲子爱
 Perish Song Turns
-Perish Song Turns
+灭亡之歌回合
 Pickup Item
-Pickup Item
+拾取道具
 Pickup Use
-Pickup Use
+拾取使用
 Pinch
-Pinch
+危急
 Powder
-Powder
+粉末
 Power Tricked
-Power Tricked
+力量被戏弄
 Energy Tricked
-Energy Tricked
+能量被戏弄
 Base Attack Set
-Base Attack Set
+基础攻击设置
 Base Sp. Atk Set
-Base Sp. Atk Set
+基础特攻设置
 Base Defense Set
-Base Defense Set
+基础防御设置
 Base Sp. Def Set
-Base Sp. Def Set
+基础特防设置
 Base Speed Set
-Base Speed Set
+基础速度设置
 Agility Herb
-Agility Herb
+敏捷草药
 Prankster
-Prankster
+恶作剧者
 Priority Ability
-Priority Ability
+优先特性
 Priority Item
-Priority Item
+优先道具
 Pursuit
-Pursuit
+追击
 Quash
-Quash
+压制
 Rage
-Rage
+愤怒
 Roosting
-Roosting
+栖息
 Shell Trap
-Shell Trap
+贝壳陷阱
 Masquerblade
-Masquerblade
+假面之刃
 Sky Drop
-Sky Drop
+天空落下
 Slow Start Turns
-Slow Start Turns
+缓慢开始回合
 Smacked Down
-Smacked Down
+被打倒
 Snatch
-Snatch
+抢夺
 Spotlight
-Spotlight
+聚光灯
 Stockpile Charges
-Stockpile Charges
+囤积电量
 Stockpile Def
-Stockpile Def
+囤积防御
 Stockpile Sp Def
-Stockpile Sp Def
+囤积特防
 Substitute Health
-Substitute Health
+替身生命值
 Taunted Turns
-Taunted Turns
+嘲讽回合
 Barred Turns
-Barred Turns
+禁止回合
 Telekinesis Turns
-Telekinesis Turns
+心灵感应回合
 Throat Injured Turns
-Throat Injured Turns
+喉咙受伤回合
 Blade Disarming Turns
-Blade Disarming Turns
+刀片解除武装回合
 Tormented
-Tormented
+折磨
 Transformed
-Transformed
+变形
 Transformed Into
-Transformed Into
+变形为
 Trapping Turns
-Trapping Turns
+陷阱回合
 Trapping Move
-Trapping Move
+陷阱招式
 Trapped By
-Trapped By
+被...困住
 Not Slacking Off
-Not Slacking Off
+没有偷懒
 Two Turn Attack
-Two Turn Attack
+两回合攻击
 Added Type
-Added Type
+增加属性
 Item Lost
-Item Lost
+失去道具
 Uproar Turns
-Uproar Turns
+喧闹回合
 Weight Changed
-Weight Changed
+重量改变
 Weight Halved
-Weight Halved
+重量减半
 Drowsy
-Drowsy
+昏昏欲睡
 Choice Locking
-Choice Locking
+选择锁定
 Stats Raised
-Stats Raised
+属性提升
 Stats Dropped
-Stats Dropped
+属性下降
 Burning Jealousy
-Burning Jealousy
+燃烧的嫉妒
 Jaw Lock
-Jaw Lock
+颚锁
 Jaw Locker
-Jaw Locker
+颚锁者
 Covered In Tar
-Covered In Tar
+覆盖焦油
 Octolocked
-Octolocked
+八爪鱼锁
 Octolocked By
-Octolocked By
+被八爪鱼锁
 Blunder Policy
-Blunder Policy
+失误政策
 Switched Ally
-Switched Ally
+切换盟友
 Chose Status
-Chose Status
+选择状态
 Chose Attack
-Chose Attack
+选择攻击
 Assisting
-Assisting
+协助
 Confusion Chance
-Confusion Chance
+混乱几率
 Flinch Immune
-Flinch Immune
+畏缩免疫
 Sublimate
-Sublimate
+升华
 Weak to Bug
-Weak to Bug
+对虫系弱点
 Charm Turns
-Charm Turns
+魅力回合
 Charm Chance
-Charm Chance
+魅力几率
 No Weaknesses
-No Weaknesses
+无弱点
 No Retreat!!
-No Retreat!!
+不得后退!!
 Healing Reversed
-Healing Reversed
+治疗反转
 Healing Halved
-Healing Halved
+治疗减半
 Fury Cutter Count
-Fury Cutter Count
+愤怒剪刀计数
 Snowball Count
-Snowball Count
+雪球计数
 Rock Roll Count
-Rock Roll Count
+滚石计数
 Heart Rhythm Count
-Heart Rhythm Count
+心跳节奏计数
 Stunning Curl
-Stunning Curl
+眩晕卷曲
 Venom Guard
-Venom Guard
+毒液守卫
 Root Shelter
-Root Shelter
+根庇护所
 Extra Turns
-Extra Turns
+额外回合
 Extra Turn
-Extra Turn
+额外回合
 Stats Swapped Around
-Stats Swapped Around
+属性互换
 Enduring Turns
-Enduring Turns
+持久回合
 Laser Focus
-Laser Focus
+激光集中
 Empowered Bond
-Empowered Bond
+强化羁绊
 Volley Stance
-Volley Stance
+排球姿态
 Carrying
-Carrying
+携带
 Riding Dragon
-Riding Dragon
+骑龙
 Move Speed Doubled
-Move Speed Doubled
+移动速度翻倍
 Shimmering Heat
-Shimmering Heat
+闪烁的热气
 Flare Witch
-Flare Witch
+闪光女巫
 Halving Damage Turns
-Halving Damage Turns
+减半伤害回合
 Echo
-Echo
+回音
 Eroding
-Eroding
+侵蚀
 Total Focus
-Total Focus
+全神贯注
 Indestructible
-Indestructible
+坚不可摧
 Swapping to Cushion
-Swapping to Cushion
+交换为缓冲
 Exhaustion
-Exhaustion
+筋疲力尽
 Protect Will Fail
-Protect Will Fail
+保护将失败
 Protect
-Protect
+保护
 King's Shield
-King's Shield
+国王的盾牌
 Shining Shell
-Shining Shell
+闪亮的壳
 Obstruct
-Obstruct
+堵拦
 Reverb Ward
-Reverb Ward
+回声护盾
 Baneful Bunker
-Baneful Bunker
+有害掩体
 Red-Hot Retreat
-Red-Hot Retreat
+炽热撤退
 Icicle Armor
-Icicle Armor
+冰柱盔甲
 Spiky Shield
-Spiky Shield
+尖刺盾牌
 Mirror Shield
-Mirror Shield
+镜盾
 Cranial Guard
-Cranial Guard
+颅骨护盾
 Heliopause
-Heliopause
+日鞘
 Switched In
-Switched In
+切换进入
 Mutated
-Mutated
+突变
 Delayed Reaction
-Delayed Reaction
+延迟反应
 Bubble Barrier
-Bubble Barrier
+气泡屏障
 Chewing Berry
-Chewing Berry
+咀嚼果实
 Auto-Pilot
-Auto-Pilot
+自动驾驶
 Last Gasp
-Last Gasp
+最后喘息
 Jinxed
-Jinxed
+被诅咒
 Fractured
-Fractured
+破碎
 Refuge
-Refuge
+避难所
 Temporal Shift Receiver
-Temporal Shift Receiver
+时间转移接收器
 Amulet Coin
-Amulet Coin
+护身符硬币
 Fairy Lock
-Fairy Lock
+妖精锁
 Fusion Bolt
-Fusion Bolt
+融合闪电
 Fusion Flare
-Fusion Flare
+融合火焰
 Gravity Turns
-Gravity Turns
+重力回合
 Warped Core
-Warped Core
+扭曲核心
 Happy Hour
-Happy Hour
+快乐时光
 Ion Deluge
 等离子浴
 Money Dropped
@@ -53150,83 +53150,83 @@ Grey Mist Turns
 Bliss
 幸福
 Floral Gramarye
-Floral Gramarye
+花卉语法
 Turns Till Move
-Turns Till Move
+移动前的回合
 Incoming Move
-Incoming Move
+即将到来的招式
 Foretold Move User Index
-Foretold Move User Index
+预言招式的使用者索引
 Foretold Move User Party Index
-Foretold Move User Party Index
+预言招式的使用者队伍索引
 Incoming Move Type
-Incoming Move Type
+即将到来的招式类型
 Healing Wish
-Healing Wish
+治愈愿望
 Lunar Dance
-Lunar Dance
+月之舞
 Turns Till Wish
-Turns Till Wish
+愿望前的回合
 Wish Heal Amount
-Wish Heal Amount
+愿望治疗量
 Wish Maker
-Wish Maker
+愿望制造者
 PassingAbility
-PassingAbility
+传递特性
 PassingStats
-PassingStats
+传递属性
 Kickback
-Kickback
+回击
 Kickback Amount
-Kickback Amount
+回击量
 Gauss Aftershock
-Gauss Aftershock
+高斯余震
 Temporal Shift
-Temporal Shift
+时间转移
 Echoed Voice Counter
-Echoed Voice Counter
+回音计数
 Echoed Voice Used
-Echoed Voice Used
+回音已使用
 Round Singers
-Round Singers
+轮唱歌手
 Reflect
-Reflect
+反射
 Light Screen
-Light Screen
+光之屏
 Aurora Veil
-Aurora Veil
+极光幕
 Repulsion Field
 推力场
 Lucky Chant
-Lucky Chant
+幸运咒语
 Mist
-Mist
+雾
 Safeguard
-Safeguard
+神秘守护
 Diamond Field
 钻石场地
 Natural Protection
 自然防护
 Crafty Shield
-Crafty Shield
+狡猾的盾牌
 Mat Block
-Mat Block
+垫子阻挡
 Quick Guard
-Quick Guard
+快速防护
 Wide Guard
-Wide Guard
+广域防护
 Quarantine
-Quarantine
+隔离
 Rainbow Turns
 彩虹
 Sea of Fire Turns
 火海
 Swamp Turns
-Swamp Turns
+沼泽回合
 Spikes
 尖刺陷阱
 Spikes Removed
-Spikes Removed
+尖刺移除
 Poison Spikes
 毒菱
 Flame Spikes
@@ -53238,7 +53238,7 @@ Stealth Rock
 Feather Ward
 尖锐羽毛
 Live Wire
-Live Wire
+活线
 Sticky Web
 粘粘网
 Misdirecting Fog
@@ -53252,23 +53252,23 @@ Turbulent Sky
 Last Round Fainted
 最后的晕厥
 Spent Tyrannical Immunity
-Spent Tyrannical Immunity
+耗尽的暴君免疫
 Tailwind Turns
 顺风
 Items Supressed
-Items Supressed
+道具被压制
 Bulwark
-Bulwark
+壁垒
 Eroded Rocks
-Eroded Rocks
+侵蚀的岩石
 Perennial Payload
-Perennial Payload
+多年生负载
 Traumatized
-Traumatized
+受创伤
 Unwavering Valor
-Unwavering Valor
+坚定不移的勇气
 Faint Healing
-Faint Healing
+失去意识时恢复
 [33]
 Crowning Achievement
 加冕
@@ -59166,103 +59166,103 @@ This form also exists to test the PBS Extensions feature.
 A
 A
 Normal
-Normal
+普通
 Plant Cloak
-Plant Cloak
+植物斗篷
 Overcast
-Overcast
+阴天
 West Sea
-West Sea
+西海
 Rotom
-Rotom
+洛托姆
 Altered
-Altered
+变形
 Land
-Land
+陆地
 Arceus
-Arceus
+阿尔宙斯
 Red-Striped
-Red-Striped
+红条纹
 Standard Mode
-Standard Mode
+标准模式
 Spring
-Spring
+春天
 Ordinary
-Ordinary
+普通
 Incarnate
-Incarnate
+具象化
 Kyurem
-Kyurem
+酋雷姆
 Aria
-Aria
+咏叹调
 Genesect
-Genesect
+盖诺赛克特
 Meadow Pattern
-Meadow Pattern
+草地花纹
 Red Flower
-Red Flower
+红花
 Natural
-Natural
+自然
 Male
-Male
+雄性
 Shield
-Shield
+盾牌
 Small Size
-Small Size
+小尺寸
 Neutral Mode
-Neutral Mode
+中性模式
 50%
 50%
 Hoopa Confined
-Hoopa Confined
+被束缚的胡帕
 Baile Style
-Baile Style
+芭蕾风格
 Midday
-Midday
+中午
 Solo
-Solo
+独唱
 Type: Normal
-Type: Normal
+类型：普通
 Meteor
-Meteor
+流星
 Disguised
-Disguised
+伪装
 Ice Face
-Ice Face
+冰脸
 Full Belly
-Full Belly
+饱腹
 Hero of Many Battles
-Hero of Many Battles
+战斗的英雄
 Single Strike
-Single Strike
+单次打击
 Cosplay
-Cosplay
+角色扮演
 Cosplay - Belle
-Cosplay - Belle
+角色扮演 - 贝尔
 Cosplay - Libre
-Cosplay - Libre
+角色扮演 - 自由
 Cosplay - Ph.D.
-Cosplay - Ph.D.
+角色扮演 - 博士
 Cosplay - Pop Star
-Cosplay - Pop Star
+角色扮演 - 流行歌星
 Cosplay - Rock Star
-Cosplay - Rock Star
+角色扮演 - 摇滚明星
 Original Cap
-Original Cap
+原始帽子
 Hoenn Cap
-Hoenn Cap
+丰缘帽子
 Sinnoh Cap
-Sinnoh Cap
+神奥帽子
 Unova Cap
-Unova Cap
+合众帽子
 Kalos Cap
-Kalos Cap
+卡洛斯帽子
 Alola Cap
-Alola Cap
+阿罗拉帽子
 Partner Cap
-Partner Cap
+伙伴帽子
 World Cap
-World Cap
+世界帽子
 B
 B
 C
@@ -59318,297 +59318,297 @@ Z
 !
 !
 Sun
-Sun
+太阳
 Rain
-Rain
+雨
 Hail
-Hail
+冰雹
 Sand
-Sand
+沙
 Moonglow
-Moonglow
+月光
 Eclipse
-Eclipse
+日食
 Attack
-Attack
+攻击
 Defense
-Defense
+防御
 Speed
-Speed
+速度
 Trash
-Trash
+垃圾
 East Sea
-East Sea
+东海
 Heat
-Heat
+热量
 Wash
-Wash
+洗涤
 Frost
-Frost
+霜冻
 Fan
-Fan
+风扇
 Mow
-Mow
+割草
 Origin
-Origin
+起源
 Sky
-Sky
+天空
 Fighting Type
-Fighting Type
+格斗系
 Flying Type
-Flying Type
+飞行系
 Poison Type
-Poison Type
+毒系
 Ground Type
-Ground Type
+地面系
 Rock Type
-Rock Type
+岩石系
 Bug Type
-Bug Type
+虫系
 Ghost Type
-Ghost Type
+幽灵系
 Steel Type
-Steel Type
+钢系
 Unknown Type
-Unknown Type
+未知系
 Fire Type
-Fire Type
+火系
 Water Type
-Water Type
+水系
 Grass Type
-Grass Type
+草系
 Electric Type
-Electric Type
+电系
 Psychic Type
-Psychic Type
+超能力系
 Ice Type
-Ice Type
+冰系
 Dragon Type
-Dragon Type
+龙系
 Dark Type
-Dark Type
+恶系
 Fairy Type
-Fairy Type
+妖精系
 Blue-Striped
-Blue-Striped
+蓝条纹
 Summer
-Summer
+夏天
 Autumn
-Autumn
+秋天
 Winter
-Winter
+冬天
 Therian
-Therian
+兽形态
 White
-White
+白色
 Black
-Black
+黑色
 Resolute
-Resolute
+坚定
 Pirouette
-Pirouette
+旋转
 Shock Drive
-Shock Drive
+电击驱动
 Burn Drive
-Burn Drive
+燃烧驱动
 Chill Drive
-Chill Drive
+冷却驱动
 Douse Drive
-Douse Drive
+浇灭驱动
 Continental Pattern
-Continental Pattern
+大陆花纹
 Elegant Pattern
-Elegant Pattern
+优雅花纹
 Garden Pattern
-Garden Pattern
+花园花纹
 High Plains Pattern
-High Plains Pattern
+高地花纹
 Icy Snow Pattern
-Icy Snow Pattern
+冰雪花纹
 Jungle Pattern
-Jungle Pattern
+丛林花纹
 Marine Pattern
-Marine Pattern
+海洋花纹
 Archipelago Pattern
-Archipelago Pattern
+群岛花纹
 Modern Pattern
-Modern Pattern
+现代花纹
 Monsoon Pattern
-Monsoon Pattern
+季风花纹
 Ocean Pattern
-Ocean Pattern
+海洋花纹
 Polar Pattern
-Polar Pattern
+极地花纹
 River Pattern
-River Pattern
+河流花纹
 Sandstorm Pattern
-Sandstorm Pattern
+沙暴花纹
 Savanna Pattern
-Savanna Pattern
+稀树草原花纹
 Sun Pattern
-Sun Pattern
+太阳花纹
 Tundra Pattern
-Tundra Pattern
+苔原花纹
 Fancy Pattern
-Fancy Pattern
+华丽花纹
 Poké Ball Pattern
-Poké Ball Pattern
+宝可梦球花纹
 Yellow Flower
-Yellow Flower
+黄花
 Orange Flower
-Orange Flower
+橙花
 Blue Flower
-Blue Flower
+蓝花
 White Flower
-White Flower
+白花
 Heart Trim
-Heart Trim
+心形装饰
 Star Trim
-Star Trim
+星形装饰
 Diamond Trim
-Diamond Trim
+钻石装饰
 Debutante Trim
-Debutante Trim
+初次登台装饰
 Matron Trim
-Matron Trim
+贵妇装饰
 Dandy Trim
-Dandy Trim
+花花公子装饰
 La Reine Trim
-La Reine Trim
+女王装饰
 Kabuki Trim
-Kabuki Trim
+歌舞伎装饰
 Pharaoh Trim
-Pharaoh Trim
+法老装饰
 Female
-Female
+女性
 Blade
-Blade
+刀片
 Average Size
-Average Size
+平均尺寸
 Large Size
-Large Size
+大尺寸
 Super Size
-Super Size
+超大尺寸
 Active Mode
-Active Mode
+活跃模式
 10%
 10%
 Complete
-Complete
+完整
 Unbound
-Unbound
+无束缚
 Pom-Pom Style
-Pom-Pom Style
+绒球风格
 Pa'u Style
-Pa'u Style
+帕乌风格
 Sensu Style
-Sensu Style
+扇子风格
 Midnight
-Midnight
+午夜
 Dusk
-Dusk
+黄昏
 School
-School
+学校
 Type: Fighting
-Type: Fighting
+类型：格斗
 Type: Flying
-Type: Flying
+类型：飞行
 Type: Poison
-Type: Poison
+类型：毒
 Type: Ground
-Type: Ground
+类型：地面
 Type: Rock
-Type: Rock
+类型：岩石
 Type: Bug
-Type: Bug
+类型：虫
 Type: Ghost
-Type: Ghost
+类型：幽灵
 Type: Steel
-Type: Steel
+类型：钢
 Type: Unknown
-Type: Unknown
+类型：未知
 Type: Fire
-Type: Fire
+类型：火
 Type: Water
-Type: Water
+类型：水
 Type: Grass
-Type: Grass
+类型：草
 Type: Electric
-Type: Electric
+类型：电
 Type: Psychic
-Type: Psychic
+类型：超能力
 Type: Ice
-Type: Ice
+类型：冰
 Type: Dragon
-Type: Dragon
+类型：龙
 Type: Dark
-Type: Dark
+类型：恶
 Type: Fairy
-Type: Fairy
+类型：妖精
 Red
-Red
+红色
 Orange
-Orange
+橙色
 Yellow
-Yellow
+黄色
 Green
-Green
+绿色
 Blue
-Blue
+蓝色
 Indigo
-Indigo
+靛青
 Violet
-Violet
+紫罗兰
 Busted
-Busted
+破损
 Dusk Mane
-Dusk Mane
+黄昏鬃毛
 Dawn Wings
-Dawn Wings
+黎明之翼
 Ultra
-Ultra
+究极
 Original Color
-Original Color
+原始颜色
 Gulping
-Gulping
+吞咽
 Gorging
-Gorging
+狼吞虎咽
 Noice Face
-Noice Face
+酷脸
 Antique
-Antique
+古董
 Hangry
-Hangry
+饿怒
 Crowned
-Crowned
+戴冠
 Rapid Strike
-Rapid Strike
+快速打击
 Ice
-Ice
+冰
 Shadow
-Shadow
+影子
 Primal
-Primal
+原始
 Delta
-Delta
+三角洲
 Zen
-Zen
+达摩模式
 Ascended
-Ascended
+升华
 Reaper
-Reaper
+收割者
 Rampage
-Rampage
+暴走
 Finale
-Finale
+终章
 Overmatter
-Overmatter
+超物质
 Overmind
-Overmind
+超意识
 Harvest
-Harvest
+收获
 White-Striped
-White-Striped
+白条纹
 Test Form
 测试形态
 [1313]

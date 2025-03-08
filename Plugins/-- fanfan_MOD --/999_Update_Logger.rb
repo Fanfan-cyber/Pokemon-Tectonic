@@ -10,9 +10,6 @@ Adoption Center
 BeginSpeech    = 15
 EndSpeechWin   = 16
 EndSpeechLose  = 17
-FORMNAMES_HASH = 444
-TrainerNames   = 14
-BattleEffects  = 32
 =end
 MOD_VERSION = "0.2.4"
 
