@@ -25541,8 +25541,6 @@ Grey Mist
 Grey Mist
 Grime Grapple
 Grime Grapple
-Grunge
-Grunge
 Honorless Sting
 Honorless Sting
 Miasma
@@ -27946,8 +27944,6 @@ A Grey Mist covers the battlefield. For five turns, stats are reset at the end o
 A Grey Mist covers the battlefield. For five turns, stats are reset at the end of each turn.
 The user attacks while slathered in grime. This poisons the user.
 The user attacks while slathered in grime. This poisons the user.
-The user creates distorted guitar sounds to attack the target. It has a 30% chance to dizzy.
-The user creates distorted guitar sounds to attack the target. It has a 30% chance to dizzy.
 The user uses venom that turns the target's body against it. Super effective vs Fighting-types.
 The user uses venom that turns the target's body against it. Super effective vs Fighting-types.
 The user envelops the target in a foul wind. It has a 20% chance to lower Sp. Def.
@@ -41906,206 +41902,6 @@ Save changes?
 Save changes?
 Exit from the map?
 Exit from the map?
-rainstorm
-rainstorm
-sunshine
-sunshine
-sandstorm
-sandstorm
-hail
-hail
-total eclipse
-total eclipse
-eclipse
-eclipse
-full moon
-full moon
-moonglow
-moonglow
-burning
-burning
-burned
-burned
-burns
-burns
-burn
-burn
-frostbiting
-frostbiting
-frostbitten
-frostbitten
-frostbites
-frostbites
-frostbite
-frostbite
-numbing
-numbing
-numbed
-numbed
-numbs
-numbs
-numb
-numb
-poisoning
-poisoning
-poisoned
-poisoned
-poisons
-poisons
-poison
-poison
-leeching
-leeching
-leeched
-leeched
-leeches
-leeches
-leech
-leech
-dizzying
-dizzying
-dizzied
-dizzied
-dizzies
-dizzies
-dizzy
-dizzy
-waterlogging
-waterlogging
-waterlogged
-waterlogged
-waterlogs
-waterlogs
-waterlog
-waterlog
-sleep
-sleep
-asleep
-asleep
-drowsy
-drowsy
-cursing
-cursing
-cursed
-cursed
-curse
-curse
-fracturing
-fracturing
-fractured
-fractured
-fracture
-fracture
-jinxing
-jinxing
-jinxed
-jinxed
-jinx
-jinx
-maximize
-maximize
-minimize
-minimize
-aqua ring
-aqua ring
-energy charged
-energy charged
-energy charge
-energy charge
-recoil
-recoil
-flinch
-flinch
-flinched
-flinched
-flinching
-flinching
-random added effects
-random added effects
-defensive stats
-defensive stats
-offensive stats
-offensive stats
-trapped
-trapped
-traps
-traps
-trap
-trap
-Evasion
-Evasion
-two
-two
-three
-three
-four
-four
-five
-five
-six
-six
-seven
-seven
-eight
-eight
-nine
-nine
-ten
-ten
-eleven
-eleven
-twelve
-twelve
-thirteen
-thirteen
-fourteen
-fourteen
-fifteen
-fifteen
-sixteen
-sixteen
-seventeen
-seventeen
-eighteen
-eighteen
-nineteen
-nineteen
-twenty
-twenty
-twice
-twice
-doubles
-doubles
-double
-double
-three times
-three times
-four times
-four times
-five times
-five times
-half
-half
-one third
-one third
-two thirds
-two thirds
-one quarter
-one quarter
-three quarters
-three quarters
-one fifth
-one fifth
-1/6th
-1/6th
-1/8th
-1/8th
-1/10th
-1/10th
-1/12th
-1/12th
-1/16th
-1/16th
 Invalid quoted field (in: {1})
 Invalid quoted field (in: {1})
 Field {1} is not a positive integer
@@ -46014,16 +45810,12 @@ But {1} can't use it the way it is now!
 But {1} can't use it the way it is now!
 But it failed, since #{user.pbThis(true)} is transformed!
 But it failed, since #{user.pbThis(true)} is transformed!
-But it failed, since #{user.pbThis(true)} doesn't know Mimic!
-But it failed, since #{user.pbThis(true)} doesn't know Mimic!
+But it failed, since #{user.pbThis(true)} doesn't know Sketch!
+But it failed, since #{user.pbThis(true)} doesn't know Sketch!
 But it failed, since #{target.pbThis(true)} hasn't used a move!
 But it failed, since #{target.pbThis(true)} hasn't used a move!
 But it failed, since #{user.pbThis(true)} already knows #{target.pbThis(true)}'s most recent move!
 But it failed, since #{user.pbThis(true)} already knows #{target.pbThis(true)}'s most recent move!
-But it failed, #{target.pbThis(true)}'s most recent move can't be Mimicked!
-But it failed, #{target.pbThis(true)}'s most recent move can't be Mimicked!
-But it failed, since #{user.pbThis(true)} doesn't know Sketch!
-But it failed, since #{user.pbThis(true)} doesn't know Sketch!
 But it failed, #{target.pbThis(true)}'s most recent move can't be Sketched!
 But it failed, #{target.pbThis(true)}'s most recent move can't be Sketched!
 But it failed, since the user is already transformed!
@@ -46032,16 +45824,12 @@ But it failed, since #{target.pbThis(true)} is also transformed!
 But it failed, since #{target.pbThis(true)} is also transformed!
 But it failed, since #{target.pbThis(true)} is disguised by an Illusion!
 But it failed, since #{target.pbThis(true)} is disguised by an Illusion!
-But #{target.pbThis(true)} has no move for #{user.pbThis(true)} to mirror!
-But #{target.pbThis(true)} has no move for #{user.pbThis(true)} to mirror!
-But #{target.pbThis(true)}'s last used move can't be mirrored!
-But #{target.pbThis(true)}'s last used move can't be mirrored!
-But it failed, since there was no move to copy!
-But it failed, since there was no move to copy!
-But it failed, since the last used move can't be copied!
-But it failed, since the last used move can't be copied!
-But it failed!
-But it failed!
+But it failed, since the target didn't choose to use a move!
+But it failed, since the target didn't choose to use a move!
+But it failed, since the target chose to use a status move!
+But it failed, since the target chose to use a status move!
+But it failed, since the target chose a move that can't be copied!
+But it failed, since the target chose a move that can't be copied!
 Which move should #{user.pbThis(true)} use?
 Which move should #{user.pbThis(true)} use?
 But it failed, since no foe has yet used a move!
@@ -46084,10 +45872,6 @@ But it failed, since #{target.pbThis(true)}'s last used move is a two-turn move!
 But it failed, since #{target.pbThis(true)}'s last used move is a two-turn move!
 But it failed, since #{target.pbThis(true)}'s last used move it out of PP!
 But it failed, since #{target.pbThis(true)}'s last used move it out of PP!
-But it failed, since #{user.pbThis(true)} has no moves!
-But it failed, since #{user.pbThis(true)} has no moves!
-But it failed, since #{user.pbThis(true)}'s first slot move can't be shared!
-But it failed, since #{user.pbThis(true)}'s first slot move can't be shared!
 {1} is radiating energy!
 {1} is radiating energy!
 {1} transcended its limits and transformed!
@@ -46148,6 +45932,8 @@ But it failed. since #{target.pbThis(true)} isn't using a move this turn!
 {1} took the kind offer!
 But it failed, since #{target.pbThis(true)} isn't using a move this turn!
 But it failed, since #{target.pbThis(true)} isn't using a move this turn!
+But it failed!
+But it failed!
 But it failed, since #{target.pbThis(true)} was already forced to move last!
 But it failed, since #{target.pbThis(true)} was already forced to move last!
 {1}'s move was postponed!

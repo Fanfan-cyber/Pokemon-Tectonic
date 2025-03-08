@@ -2925,6 +2925,154 @@ IT'S HARD TO BELIEVE BUT CONGRATS
 [22]
 [23]
 [24]
+TM {1}
+TM {1}
+TR {1}
+TR {1}
+HM {1}
+HM {1}
+{1} +{2}
+{1} +{2}
+{1} TMs
+{1} TMs
+{1} TRs
+{1} TRs
+{1} HMs
+{1} HMs
+HP
+HP
+.\|.\|.\|.\|.\|
+.\|.\|.\|.\|.\|
+<u>???</u>
+<u>???</u>
+<<[>>{1}/{2}<<]>>
+<<[>>{1}/{2}<<]>>
+PP
+PP
+{1}/{2}
+{1}/{2}
+>99
+>99
+x{1}
+x{1}
+♂
+♂
+♀
+♀
+<c3=404040,B0B0B0>{1} {2}, {3}
+<c3=404040,B0B0B0>{1} {2}, {3}<<n>>
+<c3=F8F8F8{2},686868>{1}
+<c3=F8F8F8{2},686868>{1}
+<c3=404040{2},B0B0B0>{1}
+<c3=404040{2},B0B0B0>{1}
+{1:s}<<n>>ID: {2:05d} OT: {3:s}\wtnp<<[>>0<<]>>
+{1:s}<<r>><<n>>ID: {2:05d}   OT: {3:s}\wtnp<<[>>0<<]>>
+{1:s}<<n>>ID: {2:05d} OT: {3:s}<<1>>
+{1:s}<<r>><<n>>ID: {2:05d}   OT: {3:s}<<1>>
+{1} {2}, {3}
+{1} {2}, {3}
+${1}
+${1}
+\wm#{tutorialMessage}\wtnp<<[>>#{tutorialMessageDuration}<<]>><<1>>
+\wm#{tutorialMessage}\wtnp<<[>>#{tutorialMessageDuration}<<]>><<1>>
+x{1:03d}
+x{1:03d}
+x{1: 3d}
+x{1: 3d}
+x{1: 2d}
+x{1: 2d}
+1
+1
+2
+2
+3
+3
+4
+4
+5
+5
+6
+6
+12
+12
+18
+18
+24
+24
+#{pokemon.name} Lv. #{pokemon.level.to_s}
+#{pokemon.name} Lv. #{pokemon.level.to_s}
+x{1}<r>{2}
+x{1}<r>{2}
+<ac><c3={1}>{2}</c3></ac>
+<ac><c3={1}>{2}</c3></ac>
+#{title}
+#{title}
+...
+...
+...#{awardDescription}...
+...#{awardDescription}...
+{1}{2} {3}
+{1}{2} {3}
+50/50
+50/50
+{1:d}'{2:02d}"
+{1:d}'{2:02d}"
+{1}: {2}%
+{1}: {2}%<<n>>
+E
+E
+<b>{1}</b> {2}
+<b>{1}</b> {2}
+{1}: {2} ({3}\%)
+{1}: {2} ({3}\%)
+\ts[]<c3=4C0D0D,FFFFFF22><b><outln2><ac><fs={1}>\w[]\wu\l[12]{2}</fs></ac></outln2></b></c3>\wt[{3}]
+\ts[]<c3=4C0D0D,FFFFFF22><b><outln2><ac><fs={1}>\w[]\wu\l[12]{2}</fs></ac></outln2></b></c3>\wt[{3}]
+\ss#{msg}\<<1>>
+\ss#{msg}\<<1>>
+EHP
+EHP
+{1}<<1>>
+{1}<<1>>
+\cl\l[4]\op\wu\i[{1}]\or{2}\wt[30]
+\cl\l[4]\op\wu\i[{1}]\or{2}\wt[30]
+<ac>{1:02d}:{2:02d}
+<ac>{1:02d}:{2:02d}
+\i[{1}]{2}
+\i[{1}]{2}
+{1}{2}<<n>>{3}HP: {4}
+{1}{2}<<r>><<n>>{3}HP: {4}
+{1}: {2}
+{1}: {2}
+{1} x{2}
+{1} x{2}
+{1}-{2}
+{1}-{2}
+{1} - ${2}
+{1} - ${2}
+-
+-
+{1} {2} ({3}) x{4}
+{1} {2} ({3}) x{4}
+{1} {2} x{3}
+{1} {2} x{3}
+All text in the game was extracted and saved to PBS\{1}.<<1>>
+All text in the game was extracted and saved to PBS\{1}.<<1>>
+\wm\ss<i>{1}</i>
+\wm\ss<i>{1}</i>
+\wm#{text}\me<<[>>Slots win<<]>>\wtnp<<[>>80<<]>><<1>>
+\wm#{text}\me<<[>>Slots win<<]>>\wtnp<<[>>80<<]>><<1>>
+\cl\l[2]\op\wu<ac>{1}</ac>\wtnp[{2}]
+\cl\l[2]\op\wu<ac>{1}</ac>\wtnp[{2}]
+? ? ? ?
+? ? ? ?
+{1}
+{1}
+1111111
+1111111
+2222222
+2222222
+GF
+GF
 [27]
 [28]
 [29]

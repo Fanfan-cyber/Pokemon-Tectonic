@@ -24752,7 +24752,7 @@ Spirit Shackle
 Trick-or-Treat
 万圣夜
 Will-O-Wisp
-磷火
+鬼火
 Autotomize
 身体轻量化
 Behemoth Bash
@@ -25541,8 +25541,6 @@ Grey Mist
 灰雾
 Grime Grapple
 污垢爪击
-Grunge
-格调
 Honorless Sting
 阴险毒蛰
 Miasma
@@ -26230,7 +26228,7 @@ Frigid Jealousy
 Frost Barb
 霜刺
 Frost Spikes
-霜菱
+冰菱
 Glacial Ram
 冰河覆盖
 Halting Cold
@@ -27946,8 +27944,6 @@ A Grey Mist covers the battlefield. For five turns, stats are reset at the end o
 在接下来的5个回合内，每回合结束时全体精灵的能力变回原点。
 The user attacks while slathered in grime. This poisons the user.
 在身上涂满污垢后进行攻击。同时，也会使自己中毒。
-The user creates distorted guitar sounds to attack the target. It has a 30% chance to dizzy.
-发出扭曲的吉他声来攻击对方，30%概率使其混乱。
 The user uses venom that turns the target's body against it. Super effective vs Fighting-types.
 用毒液使对手的身体发生异变，对格斗属性的精灵效果绝佳。
 The user envelops the target in a foul wind. It has a 20% chance to lower Sp. Def.
@@ -28329,7 +28325,7 @@ The user conserves for future attacks. This raises its Sp. Atk, Sp. Def, and Acc
 The user attacks twice with tar globs. If two targets, the hits spread. Reduces targets' Speed.
 发射黏稠的沥青攻击两次。如果有两个目标，攻击就会扩散并降低它们的速度。
 The user launches volcanic debris, dealing damage and setting a layer of flame spikes around the target.
-发射火山碎屑，造成伤害并撒下一层火菱。
+发射火山碎屑，造成伤害并撒下一层焰菱。
 The user surrounds the target with fire which also destroys any 'clothing' items it's holding.
 用烈火包围对手，也会烧掉其持有的任何"服饰"物品。
 A distinguished attack that motivates nearby allies to follow, letting them act immediately after.
@@ -28543,7 +28539,7 @@ The user fires a dimensional mote, lowering the target's Sp. Def.
 The user meditates, raising both its Attack and Sp. Atk stats by four steps each.
 进行深度冥想，提升自身攻击特攻四级。
 The user skillfully attacks around the enemy's guard. Can't miss and skips protections.
-技巧娴熟，能够绕开对手防御。不会被闪避，并无视保护类技能。
+技巧娴熟，能够绕开对手防御。不会被回避，并无视保护类技能。
 The user slows the target's mind with a psychically infused blow. This has a 30% chance to frostbite.
 将自身的精神力注入对方的大脑中，并模拟冰冻过程，30%概率使其冻伤。
 Astral energy explodes around the target. This move always goes first. The user also takes 50% recoil.
@@ -39242,694 +39238,6 @@ Guess what happened the other day. I missed catching \TE again.\mMaybe I'm not v
 猜猜前几天发生了什么。我又没抓到\TE。\m也许我不太擅长这个。
 [23]
 [24]
->99
->99
-x{1}
-x{1}
-♂
-♂
-♀
-♀
-<c3=404040,B0B0B0>{1} {2}, {3}
-<c3=404040,B0B0B0>{1} {2}, {3}<<n>>
-<c3=F8F8F8{2},686868>{1}
-<c3=F8F8F8{2},686868>{1}
-<c3=404040{2},B0B0B0>{1}
-<c3=404040{2},B0B0B0>{1}
-{1:s}<<n>>ID: {2:05d} OT: {3:s}\wtnp<<[>>0<<]>>
-{1:s}<<r>><<n>>ID: {2:05d}   OT: {3:s}\wtnp<<[>>0<<]>>
-{1:s}<<n>>ID: {2:05d} OT: {3:s}<<1>>
-{1:s}<<r>><<n>>ID: {2:05d}   OT: {3:s}<<1>>
-{1} {2}, {3}
-{1} {2}, {3}
-${1}
-${1}
-\wm#{tutorialMessage}\wtnp<<[>>#{tutorialMessageDuration}<<]>><<1>>
-\wm#{tutorialMessage}\wtnp<<[>>#{tutorialMessageDuration}<<]>><<1>>
-x{1:03d}
-x{1:03d}
-x{1: 3d}
-x{1: 3d}
-x{1: 2d}
-x{1: 2d}
-1
-1
-2
-2
-3
-3
-4
-4
-5
-5
-Whether to play an animation showing your party being healed by the Aid Kit.
-是否播放显示队伍被急救包治愈的动画。
-6
-6
-12
-12
-18
-18
-24
-24
-#{pokemon.name} Lv. #{pokemon.level.to_s}
-#{pokemon.name} Lv. #{pokemon.level.to_s}
-x{1}<r>{2}
-x{1}<r>{2}
-<ac><c3={1}>{2}</c3></ac>
-<ac><c3={1}>{2}</c3></ac>
-#{title}
-#{title}
-...
-...
-...#{awardDescription}...
-...#{awardDescription}...
-{1}{2} {3}
-{1}{2} {3}
-50/50
-50/50
-{1:d}'{2:02d}"
-{1:d}'{2:02d}"
-{1}: {2}%
-{1}: {2}%<<n>>
-E
-E
-<b>{1}</b> {2}
-<b>{1}</b> {2}
-{1}: {2} ({3}\%)
-{1}: {2} ({3}\%)
-\ts[]<c3=4C0D0D,FFFFFF22><b><outln2><ac><fs={1}>\w[]\wu\l[12]{2}</fs></ac></outln2></b></c3>\wt[{3}]
-\ts[]<c3=4C0D0D,FFFFFF22><b><outln2><ac><fs={1}>\w[]\wu\l[12]{2}</fs></ac></outln2></b></c3>\wt[{3}]
-\ss#{msg}\<<1>>
-\ss#{msg}\<<1>>
-EHP
-EHP
-But it failed, since #{target.pbThis(true)} is already barred!
-但它失败了，因为#{target.pbThis(true)}已经被阻止了！
-{1}<<1>>
-{1}<<1>>
-\cl\l[4]\op\wu\i[{1}]\or{2}\wt[30]
-\cl\l[4]\op\wu\i[{1}]\or{2}\wt[30]
-<ac>{1:02d}:{2:02d}
-<ac>{1:02d}:{2:02d}
-ANNOUNCER: BEEEEEP!
-ANNOUNCER: 哔！
-ANNOUNCER:  BEEEEEP!
-ANNOUNCER:  哔！
-ANNOUNCER: The Bug-Catching Contest is over!
-ANNOUNCER: 虫子捕捉比赛结束了！
-You have #{$catching_minigame.turnsLeft} turns left in the contest.
-你在比赛中还剩下#{catching_minigame.turnsLeft}个回合。
-\i[{1}]{2}
-\i[{1}]{2}
-{1}{2}<<n>>{3}HP: {4}
-{1}{2}<<r>><<n>>{3}HP: {4}
-{1}: {2}
-{1}: {2}
-{1} x{2}
-{1} x{2}
-{1}-{2}
-{1}-{2}
-{1} - ${2}
-{1} - ${2}
-If you quit now, you will recieve {1} Coin(s). Will you quit?
-如果你现在退出，你将获得{1}个代币。你要退出吗？
-#{pokename} put the {1} away<<n>>in the <icon=bagPocket{2}>\c<<[>>1<<]>>{3} Pocket\c<<[>>0<<]>>.
-#{pokename}把{1}放进了<icon=bagPocket{2}>\c<<[>>1<<]>>{3}口袋\c<<[>>0<<]>>。
--
--
-{1} {2} ({3}) x{4}
-{1} {2} ({3}) x{4}
-{1} {2} x{3}
-{1} {2} x{3}
-Find events which have a peice of text in the params of their command list.
-查找命令列表参数中包含某段文本的事件。
-Find events which have a peice of text in the params of their command list, and replace them with a new string.
-查找命令列表参数中包含某段文本的事件，并用新字符串替换它们。
-All text in the game was extracted and saved to PBS{1}.<<1>>
-游戏中的所有文本已提取并保存到PBS{1}。<<1>>
-\wm\ss<i>{1}</i>
-\wm\ss<i>{1}</i>
-\wm#{text}\me<<[>>Slots win<<]>>\wtnp<<[>>80<<]>><<1>>
-\wm#{text}\me<<[>>Slots win<<]>>\wtnp<<[>>80<<]>><<1>>
-\cl\l[2]\op\wu<ac>{1}</ac>\wtnp[{2}]
-\cl\l[2]\op\wu<ac>{1}</ac>\wtnp[{2}]
-? ? ? ?
-? ? ? ?
-{1}
-{1}
-1111111
-1111111
-2222222
-2222222
-GF
-GF
-{1}'s main ability did't change.
-{1}的主特性没有改变。
-Ability ID '{1}' is used twice.<<n>>{2}
-特性ID'{1}'被重复使用了。<<n>>{2}
-Ability ID '{1}' is used twice.<<r>><<n>>{2}
-特性ID'{1}'被重复使用了。<<r>><<n>>{2}
-Expected a section at the beginning of the file.<<n>>{1}
-预期文件开头有一个部分。<<n>>{1}
-Expected a section at the beginning of the file.<<r>><<n>>{1}
-预期文件开头有一个部分。<<r>><<n>>{1}
-Achievement ID '{1}' is used twice.<<n>>{2}
-成就ID'{1}'被重复使用了。<<n>>{2}
-Achievement ID '{1}' is used twice.<<r>><<n>>{2}
-成就ID'{1}'被重复使用了。<<r>><<n>>{2}
-The Avatar definition for #{@id} has no first moves defined!
-#{@id}的化身定义没有定义初始招式！
-Cut ability #{abilityID} is assigned to avatar #{@id}!
-剪切特性#{abilityID}被分配给化身#{@id}！
-Illegal move #{moveID} is assigned to avatar #{@id}!
-非法招式#{moveID}被分配给化身#{@id}！
-An Avatar entry name can't be blank (PBS/avatars.txt).
-化身条目名称不能为空（PBS/avatars.txt）。
-Avatar name '{1}' and version '{2}' is used twice.<<n>>{3}
-化身名称'{1}'和版本'{2}'被重复使用了。<<n>>{3}
-Avatar name '{1}' and version '{2}' is used twice.<<r>><<n>>{3}
-化身名称'{1}'和版本'{2}'被重复使用了。<<r>><<n>>{3}
-The entry {1} is required in PBS/avatars.txt section {2}.
-在PBS/avatars.txt部分{2}中需要{1}条目。
-The entry {1} is required in PBS/avatars.txt section {2}.
-在PBS/avatars.txt部分{2}中需要{1}条目。
-The {1} entry has too many moves in PBS/avatars.txt section {2}.
-在PBS/avatars.txt部分{2}中，{1}条目招式过多。
-The {1} entry has too many moves in PBS/avatars.txt section {2}.
-在PBS/avatars.txt部分{2}中，{1}条目招式过多。
-Ability {1} is not legal for the Avatar defined in PBS/avatars.txt section {2}.
-在PBS/avatars.txt部分{2}中定义的化身，特性{1}是非法的。
-Aggression value {1} is not legal for the Avatar defined in PBS/avatars.txt section {2}. Aggression must be between 0 and {3} (inclusive)
-对于在PBS/avatars.txt部分{2}中定义的化身，攻击性值{1}是非法的。攻击性必须在0到{3}（含）之间
-Aggression value {1} is not legal for the Avatar defined in PBS/avatars.txt section {2}. Aggression must be between 0 and {3} (inclusive)
-对于在PBS/avatars.txt部分{2}中定义的化身，攻击性值{1}是非法的。攻击性必须在0到{3}（含）之间
-Writing avatar {1}...
-正在写入化身{1}...
-Pokemon dislike ID '{1}' is used twice.<<n>>{2}
-宝可梦不喜欢的ID'{1}'被重复使用了。<<n>>{2}
-Pokemon dislike ID '{1}' is used twice.<<r>><<n>>{2}
-宝可梦不喜欢的ID'{1}'被重复使用了。<<r>><<n>>{2}
-Expected a species entry line for encounter type {1} for map '{2}', got "{3}" instead.<<n>>{4}
-预期为地图'{2}'的遭遇类型{1}提供一个种类条目行，但却得到了"{3}"。<<n>>{4}
-Expected a species entry line for encounter type {1} for map '{2}', got "{3}" instead.<<r>><<n>>{4}
-预期为地图'{2}'的遭遇类型{1}提供一个种类条目行，但却得到了"{3}"。<<r>><<n>>{4}
-Level number {1} is not valid (max. {2}).<<n>>{3}
-等级数字{1}无效（最大{2}）。<<n>>{3}
-Level number {1} is not valid (max. {2}).<<r>><<n>>{3}
-等级数字{1}无效（最大{2}）。<<r>><<n>>{3}
-Minimum level is greater than maximum level: {1}<<n>>{2}
-最低等级大于最高等级：{1}<<n>>{2}
-Minimum level is greater than maximum level: {1}<<r>><<n>>{2}
-最低等级大于最高等级：{1}<<r>><<n>>{2}
-Can't mix old and new formats.<<n>>{1}
-不能混合新旧格式。<<n>>{1}
-Can't mix old and new formats.<<r>><<n>>{1}
-不能混合新旧格式。<<r>><<n>>{1}
-Encounters for map '{1}' are defined twice.<<n>>{2}
-地图'{1}'的遭遇被定义了两次。<<n>>{2}
-Encounters for map '{1}' are defined twice.<<r>><<n>>{2}
-地图'{1}'的遭遇被定义了两次。<<r>><<n>>{2}
-Expected a map number, got "{1}" instead.<<n>>{2}
-预期是一个地图编号，但却得到了"{1}"。<<n>>{2}
-Expected a map number, got "{1}" instead.<<r>><<n>>{2}
-预期是一个地图编号，但却得到了"{1}"。<<r>><<n>>{2}
-Encounter densities are defined twice or<<n>>not immediately for map '{1}'.<<n>>{2}
-遭遇密度被定义了两次，或者<<n>>对于地图'{1}'没有立即定义。<<n>>{2}
-Encounter densities are defined twice or<<r>><<n>>not immediately for map '{1}'.<<r>><<n>>{2}
-遭遇密度被定义了两次，或者<<r>><<n>>对于地图'{1}'没有立即定义。<<r>><<n>>{2}
-Undefined encounter type "{1}" for map '{2}'.<<n>>{3}
-地图'{2}'的遭遇类型"{1}"未定义。<<n>>{3}
-Undefined encounter type "{1}" for map '{2}'.<<r>><<n>>{3}
-地图'{2}'的遭遇类型"{1}"未定义。<<r>><<n>>{3}
-Not enough encounter lines given for encounter type {1} for map '{2}' (expected {3}).<<n>>{4}
-地图'{2}'的遭遇类型{1}的遭遇行不足（预期{3}）。<<n>>{4}
-Not enough encounter lines given for encounter type {1} for map '{2}' (expected {3}).<<r>><<n>>{4}
-地图'{2}'的遭遇类型{1}的遭遇行不足（预期{3}）。<<r>><<n>>{4}
-TM {1}
-TM {1}
-TR {1}
-TR {1}
-HM {1}
-HM {1}
-{1} +{2}
-{1} +{2}
-{1} TMs
-{1} TMs
-{1} TRs
-{1} TRs
-{1} HMs
-{1} HMs
-Cannot get machine index of item {1} ID. It either doesn't exist or isn't a machine!
-无法获取道具{1} ID的机器索引。它可能不存在或者不是机器！
-Item ID '{1}' is used twice.<<n>>{2}
-道具ID'{1}'被重复使用了。<<n>>{2}
-Item ID '{1}' is used twice.<<r>><<n>>{2}
-道具ID'{1}'被重复使用了。<<r>><<n>>{2}
-Pokemon like ID '{1}' is used twice.<<n>>{2}
-宝可梦喜欢的ID'{1}'被重复使用了。<<n>>{2}
-Pokemon like ID '{1}' is used twice.<<r>><<n>>{2}
-宝可梦喜欢的ID'{1}'被重复使用了。<<r>><<n>>{2}
-Warning: Map {1}, as mentioned in the map connection data, was not found.<<n>>{2}
-警告：在地图连接数据中提到的地图{1}未找到。<<n>>{2}
-Warning: Map {1}, as mentioned in the map connection data, was not found.<<r>><<n>>{2}
-警告：在地图连接数据中提到的地图{1}未找到。<<r>><<n>>{2}
-North side of first map must connect with south side of second map<<n>>{1}
-第一张地图的北侧必须与第二张地图的南侧相连<<n>>{1}
-North side of first map must connect with south side of second map<<r>><<n>>{1}
-第一张地图的北侧必须与第二张地图的南侧相连<<r>><<n>>{1}
-South side of first map must connect with north side of second map<<n>>{1}
-第一张地图的南侧必须与第二张地图的北侧相连<<n>>{1}
-South side of first map must connect with north side of second map<<r>><<n>>{1}
-第一张地图的南侧必须与第二张地图的北侧相连<<r>><<n>>{1}
-East side of first map must connect with west side of second map<<n>>{1}
-第一张地图的东侧必须与第二张地图的西侧相连<<n>>{1}
-East side of first map must connect with west side of second map<<r>><<n>>{1}
-第一张地图的东侧必须与第二张地图的西侧相连<<r>><<n>>{1}
-West side of first map must connect with east side of second map<<n>>{1}
-第一张地图的西侧必须与第二张地图的东侧相连<<n>>{1}
-West side of first map must connect with east side of second map<<r>><<n>>{1}
-第一张地图的西侧必须与第二张地图的东侧相连<<r>><<n>>{1}
-Map ID and X and Y coordinates of where the player goes if no Pokémon Center was entered after a loss.
-如果在失败后没有进入宝可梦中心，玩家将去往的地点的Map ID以及X和Y坐标。
-Default BGM for wild Pokémon battles.
-野生宝可梦战斗的默认背景音乐。
-Default BGM for Trainer battles.
-训练师战斗的默认背景音乐。
-Default BGM for Avatar battles.
-化身战斗的默认背景音乐。
-Default BGM for Legendary Avatar battles.
-传奇化身战斗的默认背景音乐。
-Default ME played after winning a wild Pokémon battle.
-赢得野生宝可梦战斗后播放的默认音乐效果。
-Default ME played after winning a Trainer battle.
-赢得训练师战斗后播放的默认音乐效果。
-Default ME played after catching a Pokémon.
-捕捉宝可梦后播放的默认音乐效果。
-BGM played while surfing.
-冲浪时播放的背景音乐。
-BGM played while on a bicycle.
-骑自行车时播放的背景音乐。
-Specifies player A.
-指定玩家A。
-Specifies player B.
-指定玩家B。
-Specifies player C.
-指定玩家C。
-Specifies player D.
-指定玩家D。
-Specifies player E.
-指定玩家E。
-Specifies player F.
-指定玩家F。
-Specifies player G.
-指定玩家G。
-Specifies player H.
-指定玩家H。
-If true, this map is an outdoor map and will be tinted according to time of day.
-如果为真，这张地图是户外地图，将根据一天中的时间进行着色。
-If true, the game will display the map's name upon entry.
-如果为真，游戏将在进入时显示地图的名称。
-If true, the bicycle can be used on this map.
-如果为真，这张地图上可以使用自行车。
-If true, the bicycle will be mounted automatically on this map and cannot be dismounted.
-如果为真，这张地图上将自动骑上自行车且无法下车。
-Map ID of this Pokémon Center's town, and X and Y coordinates of its entrance within that town.
-这个宝可梦中心所在城镇的Map ID，以及该城镇内入口的X和Y坐标。
-Weather conditions in effect for this map.
-这张地图生效的天气条件。
-Hot
-炎热
-Cold
-寒冷
-Stable
-稳定
-If no specific weather is set, the average temperature of this map for the timed weather controller.
-如果没有设置特定的天气，这是该地图的平均温度，用于定时天气控制器。
-Wet
-潮湿
-Dry
-干燥
-If no specific weather is set, the average humidity of this map for the timed weather controller.
-如果没有设置特定的天气，这是该地图的平均湿度，用于定时天气控制器。
-Identifies the point on the regional map for this map.
-确定该地图在区域地图上的点。
-Specifies the underwater layer of this map. Use only if this map has deep water.
-指定该地图的水下层。仅当该地图有深水时使用。
-If true, this map is dark and a circle of light appears around the player. Flash can be used to expand the circle.
-如果为真，该地图是黑暗的，并且玩家周围会出现一个光圈。可以使用闪光来扩大光圈。
-If true, this map is part of the Safari Zone (both indoor and outdoor). Not to be used in the reception desk.
-如果为真，这张地图是狩猎区的一部分（包括室内和室外）。不要在接待台使用。
-If true, when the player goes near this map's edge, the game doesn't center the player as usual.
-如果为真，当玩家接近这张地图的边缘时，游戏不会像往常一样将玩家置于中心。
-If true, this map has a randomly generated layout. See the wiki for more information.
-如果为真，这张地图有一个随机生成的布局。更多信息请查看维基。
-PNG files named 'XXX_bg', 'XXX_base0', 'XXX_base1', 'XXX_message' in Battlebacks folder, where XXX is this property's value.
-在Battlebacks文件夹中，名为'XXX_bg'、'XXX_base0'、'XXX_base1'、'XXX_message'的PNG文件，其中XXX是此属性的值。
-Default BGM for wild Pokémon battles on this map.
-这张地图上野生宝可梦战斗的默认背景音乐。
-Default BGM for trainer battles on this map.
-这张地图上训练师战斗的默认背景音乐。
-Default ME played after winning a wild Pokémon battle on this map.
-在这张地图上赢得野生宝可梦战斗后播放的默认音乐效果。
-Default ME played after winning a Trainer battle on this map.
-在这张地图上赢得训练师战斗后播放的默认音乐效果。
-Default ME played after catching a wild Pokémon on this map.
-在这张地图上捕捉野生宝可梦后播放的默认音乐效果。
-The width of the map in Town Map squares, and a string indicating which squares are part of this map.
-这张地图在城镇地图方块中的宽度，以及一个字符串，指示哪些方块是这张地图的一部分。
-The default battle environment for battles on this map.
-这张地图上战斗的默认战斗环境。
-Whether the player is prevented from teleporting out of this map.
-玩家是否被阻止从这张地图传送出。
-Whether the player is prevented from saving the game on this map.
-玩家是否被阻止在这张地图上保存游戏。
-Whether the player is prevented from editing their team on this map.
-玩家是否被阻止在这张地图上编辑他们的队伍。
-The name to give the map if it's missing in MapInfos.rxdata.
-如果MapInfos.rxdata中缺少这张地图，要给它的名称。
-The entry {1} is required in {2} section 0.
-在{2}部分0中需要{1}条目。
-Move {1} is defined as a Status move with a non-zero base damage.<<n>>{2}
-招式{1}被定义为具有非零基础伤害的状态招式。<<n>>{2}
-Move {1} is defined as a Status move with a non-zero base damage.<<r>><<n>>{2}
-招式{1}被定义为具有非零基础伤害的状态招式。<<r>><<n>>{2}
-Warning: Move {1} was defined as a Damaging move but had a base damage of 0. Changing it to a Status move.<<n>>{2}
-警告：招式{1}被定义为伤害招式，但基础伤害为0。正在将其更改为状态招式。<<n>>{2}
-Warning: Move {1} was defined as a Damaging move but had a base damage of 0. Changing it to a Status move.<<r>><<n>>{2}
-警告：招式{1}被定义为伤害招式，但基础伤害为0。正在将其更改为状态招式。<<r>><<n>>{2}
-Move ID '{1}' is used twice.<<n>>{2}
-招式ID'{1}'被重复使用了。<<n>>{2}
-Move ID '{1}' is used twice.<<r>><<n>>{2}
-招式ID'{1}'被重复使用了。<<r>><<n>>{2}
-A class for the move function code #{moveFunction} given for move #{move_hash<<[>>:id<<]>>}<<n>>does not exist!<<n>>{1}
-为招式#{move_hash<<[>>:id<<]>>}提供的移动功能代码#{moveFunction}的类<<n>>不存在！<<n>>{1}
-A class for the move function code #{moveFunction} given for move #{move_hash<<[>>:id<<]>>}<<r>><<n>>                  does not exist!<<r>><<n>>{1}
-为招式#{move_hash<<[>>:id<<]>>}提供的移动功能代码#{moveFunction}的类<<r>><<n>>                  不存在！<<r>><<n>>{1}
-Move ID '{1}' was assigned an Animation Move property {2} that doesn't match with any other move.
-招式ID'{1}'被分配了一个与任何其他招式都不匹配的动画招式属性{2}。
-Move ID '{1}' was assigned an Animation Move property {2} that doesn't match with any other move.<<r>><<n>>
-招式ID'{1}'被分配了一个与任何其他招式都不匹配的动画招式属性{2}。<<r>><<n>>
-Trainer policy ID '{1}' is used twice.<<n>>{2}
-训练师政策ID'{1}'被重复使用了。<<n>>{2}
-Trainer policy ID '{1}' is used twice.<<r>><<n>>{2}
-训练师政策ID'{1}'被重复使用了。<<r>><<n>>{2}
-Dex list number {1} is defined at least twice.<<n>>{2}
-图鉴列表编号{1}至少被定义了两次。<<n>>{2}
-Dex list number {1} is defined at least twice.<<r>><<n>>{2}
-图鉴列表编号{1}至少被定义了两次。<<r>><<n>>{2}
-Processing {1} section [{2}]
-正在处理{1}部分[{2}]
-Dex list number {1} has species {2} listed twice.<<n>>{3}
-图鉴列表编号{1}中种类{2}被列出了两次。<<n>>{3}
-Dex list number {1} has species {2} listed twice.<<r>><<n>>{3}
-图鉴列表编号{1}中种类{2}被列出了两次。<<r>><<n>>{3}
-Ribbon ID number '{1}' is used twice.<<n>>{2}
-绶带ID编号'{1}'被重复使用了。<<n>>{2}
-Ribbon ID number '{1}' is used twice.<<r>><<n>>{2}
-绶带ID编号'{1}'被重复使用了。<<r>><<n>>{2}
-Ribbon ID '{1}' is used twice.<<n>>{2}
-绶带ID'{1}'被重复使用了。<<n>>{2}
-Ribbon ID '{1}' is used twice.<<r>><<n>>{2}
-绶带ID'{1}'被重复使用了。<<r>><<n>>{2}
-Illegal move #{moveID} is learnable by species #{@id}!
-非法招式#{moveID}可以被种类#{@id}学会！
-Illegal item #{itemID} is a wild item of species #{@id}!
-非法道具#{itemID}是种类#{@id}的野生道具！
-Illegal ability #{abilityID} is a defined ability of species #{@id}!
-非法特性#{abilityID}是种类#{@id}的已定义特性！
-Illegal ability #{abilityID} is a defined hidden ability of species #{@id}!
-非法特性#{abilityID}是种类#{@id}的已定义隐藏特性！
-{1} ({2})
-{1}（{2}）
-A Pokémon species can't be numbered 0 (PBS/pokemon.txt).
-宝可梦种类不能编号为0（PBS/pokemon.txt）。
-Species ID number '{1}' is used twice.<<n>>{2}
-种类ID编号'{1}'被重复使用了。<<n>>{2}
-Species ID number '{1}' is used twice.<<r>><<n>>{2}
-种类ID编号'{1}'被重复使用了。<<r>><<n>>{2}
-The entry {1} is required in PBS/pokemon.txt section {2}.
-在PBS/pokemon.txt部分{2}中需要{1}条目。
-The entry {1} is required in PBS/pokemon.txt section {2}.
-在PBS/pokemon.txt部分{2}中需要{1}条目。
-Species ID '{1}' is used twice.<<n>>{2}
-种类ID'{1}'被重复使用了。<<n>>{2}
-Species ID '{1}' is used twice.<<r>><<n>>{2}
-种类ID'{1}'被重复使用了。<<r>><<n>>{2}
-Value for '{1}' can't be less than or close to 0 (section {2}, PBS/pokemon.txt)
-'{1}'的值不能小于或接近0（部分{2}，PBS/pokemon.txt）
-Value for '{1}' can't be less than or close to 0 (section {2}, PBS/pokemon.txt)
-'{1}'的值不能小于或接近0（部分{2}，PBS/pokemon.txt）
-Processing {1} evolution line {2}
-正在处理{1}进化线{2}
-Section name {1} is invalid ({2}). Expected syntax like [XXX,Y] (XXX=internal name, Y=form number).
-部分名称{1}无效（{2}）。预期的语法为[XXX,Y]（XXX=内部名称，Y=形态编号）。
-Species ID '{1}' is not defined in {2}.<<n>>{3}
-种类ID'{1}'在{2}中未定义。<<n>>{3}
-Species ID '{1}' is not defined in {2}.<<r>><<n>>{3}
-种类ID'{1}'在{2}中未定义。<<r>><<n>>{3}
-A form cannot be defined with a form number of 0.<<n>>{1}
-不能使用形态编号0定义形态。<<n>>{1}
-A form cannot be defined with a form number of 0.<<r>><<n>>{1}
-不能使用形态编号0定义形态。<<r>><<n>>{1}
-Form {1} for species ID {2} is defined twice.<<n>>{3}
-种类ID{2}的形态{1}被定义了两次。<<n>>{3}
-Form {1} for species ID {2} is defined twice.<<r>><<n>>{3}
-种类ID{2}的形态{1}被定义了两次。<<r>><<n>>{3}
-Value for '{1}' can't be less than or close to 0 (section {2}, {3})
-'{1}'的值不能小于或接近0（部分{2}，{3}）
-Value for '{1}' can't be less than or close to 0 (section {2}, {3})
-'{1}'的值不能小于或接近0（部分{2}，{3}）
-A Pokémon species can't be numbered 0 ({1}).
-宝可梦种类不能编号为0（{1}）。
-A Pokémon species can't be numbered 0 ({1}).
-宝可梦种类不能编号为0（{1}）。
-The entry {1} is required in {2} section {3}.
-在{2}部分{3}中需要{1}条目。
-The entry {1} is required in {2} section {3}.
-在{2}部分{3}中需要{1}条目。
-Writing species {1}...
-正在写入种类{1}...
-Writing species {1}...
-正在写入种类{1}...
-Undefined species {1}.
-未定义的种类{1}。
-Section name {1} is invalid ({2}). Expected syntax like [XXX] or [XXX,Y] (XXX=species ID, Y=form number).
-部分名称{1}无效（{2}）。预期的语法为[XXX]或[XXX,Y]（XXX=种类ID，Y=形态编号）。
-Expected a section at the beginning of the file<<n>>{1}
-预期文件开头有一个部分<<n>>{1}
-Expected a section at the beginning of the file<<r>><<n>>{1}
-预期文件开头有一个部分<<r>><<n>>{1}
-Bad line syntax (expected syntax like XXX=YYY)<<n>>{1}
-行语法错误（预期的语法为XXX=YYY）<<n>>{1}
-Bad line syntax (expected syntax like XXX=YYY)<<r>><<n>>{1}
-行语法错误（预期的语法为XXX=YYY）<<r>><<n>>{1}
-Unnamed
-未命名
-Illegal move #{moveID} learnable by a party member of trainer #{trainerName}! This move will be removed.
-训练师#{trainerName}的队伍成员学会的招式#{moveID}是非法的！这个招式将被移除。
-Trainer #{trainerName}'s #{speciesData.species} can't learn the move #{moveID} assigned to it! This move will be removed.
-训练师#{trainerName}的#{speciesData.species}无法学会分配给它的招式#{moveID}！这个招式将被移除。
-Illegal item #{itemID} assigned to a party member of trainer #{trainerName}!
-分配给训练师#{trainerName}的队伍成员的道具#{itemID}是非法的！
-WARNING: When trying to contruct trainer #{@id.to_s} as an extension of trainer #{parentTrainer.id.to_s}, the resultant party is larger than the maximum party size!
-警告：在尝试将训练师#{@id.to_s}作为训练师#{parentTrainer.id.to_s}的扩展构建时，结果队伍大于最大队伍规模！
-Started new trainer while previous trainer has no Pokémon.<<n>>{1}
-在前一个训练师没有宝可梦时开始了一个新的训练师。<<n>>{1}
-Started new trainer while previous trainer has no Pokémon.<<r>><<n>>{1}
-在前一个训练师没有宝可梦时开始了一个新的训练师。<<r>><<n>>{1}
-Bad level: {1} (must be 1-{2}).<<n>>{3}
-等级错误：{1}（必须是1-{2}）。<<n>>{3}
-Bad level: {1} (must be 1-{2}).<<r>><<n>>{3}
-等级错误：{1}（必须是1-{2}）。<<r>><<n>>{3}
-Bad nickname: {1} (must be 1-{2} characters).<<n>>{3}
-昵称错误：{1}（必须是1-{2}个字符）。<<n>>{3}
-Bad nickname: {1} (must be 1-{2} characters).<<r>><<n>>{3}
-昵称错误：{1}（必须是1-{2}个字符）。<<r>><<n>>{3}
-Bad EV: {1} (must be 0-{2}).<<n>>{3}
-努力值错误：{1}（必须是0-{2}）。<<n>>{3}
-Bad EV: {1} (must be 0-{2}).<<r>><<n>>{3}
-努力值错误：{1}（必须是0-{2}）。<<r>><<n>>{3}
-Total EVs are greater than allowed ({1}).<<n>>{2}
-总努力值超过了允许的最大值（{1}）。<<n>>{2}
-Total EVs are greater than allowed ({1}).<<r>><<n>>{2}
-总努力值超过了允许的最大值（{1}）。<<r>><<n>>{2}
-Total EVs are less than required ({1}).<<n>>{2}
-总努力值低于所需值（{1}）。<<n>>{2}
-Total EVs are less than required ({1}).<<r>><<n>>{2}
-总努力值低于所需值（{1}）。<<r>><<n>>{2}
-Bad happiness: {1} (must be 0-255).<<n>>{2}
-亲密度错误：{1}（必须是0-255）。<<n>>{2}
-Bad happiness: {1} (must be 0-255).<<r>><<n>>{2}
-亲密度错误：{1}（必须是0-255）。<<r>><<n>>{2}
-Bad party position: {1} (must be 0-{2}).<<n>>{3}
-队伍位置错误：{1}（必须是0-{2}）。<<n>>{3}
-Bad party position: {1} (must be 0-{2}).<<r>><<n>>{3}
-队伍位置错误：{1}（必须是0-{2}）。<<r>><<n>>{3}
-A trainer definition cannot extend itself: {1}
-训练师定义不能扩展自身：{1}
-Pokémon hasn't been defined yet!<<n>>{1}
-宝可梦尚未定义！<<n>>{1}
-Pokémon hasn't been defined yet!<<r>><<n>>{1}
-宝可梦尚未定义！<<r>><<n>>{1}
-Value {1} isn't a defined Ability.<<n>>{2}
-值{1}不是一个已定义的特性。<<n>>{2}
-Value {1} isn't a defined Ability.<<r>><<n>>{2}
-值{1}不是一个已定义的特性。<<r>><<n>>{2}
-Value {1} isn't a defined Poké Ball.<<n>>{2}
-值{1}不是一个已定义的宝可梦球。<<n>>{2}
-Value {1} isn't a defined Poké Ball.<<r>><<n>>{2}
-值{1}不是一个已定义的宝可梦球。<<r>><<n>>{2}
-Writing trainer {1}...
-正在写入训练师{1}...
-No trainer data file given in section {1}.<<n>>{2}
-部分{1}中未给出训练师数据文件。<<n>>{2}
-No trainer data file given in section {1}.<<r>><<n>>{2}
-部分{1}中未给出训练师数据文件。<<r>><<n>>{2}
-Trainer Type ID '{1}' is used twice.<<n>>{2}
-训练师类型ID'{1}'被重复使用了。<<n>>{2}
-Trainer Type ID '{1}' is used twice.<<r>><<n>>{2}
-训练师类型ID'{1}'被重复使用了。<<r>><<n>>{2}
-Pokemon trait ID '{1}' is used twice.<<n>>{2}
-宝可梦特性ID'{1}'被重复使用了。<<n>>{2}
-Pokemon trait ID '{1}' is used twice.<<r>><<n>>{2}
-宝可梦特性ID'{1}'被重复使用了。<<r>><<n>>{2}
-Tribe ID '{1}' is used twice.<<n>>{2}
-族群ID'{1}'被重复使用了。<<n>>{2}
-Tribe ID '{1}' is used twice.<<r>><<n>>{2}
-族群ID'{1}'被重复使用了。<<r>><<n>>{2}
-'{1}' is not a defined type ({2}, section {3}, Weaknesses).
-'{1}'不是已定义的类型（{2}，部分{3}，弱点）。
-'{1}' is not a defined type ({2}, section {3}, Resistances).
-'{1}'不是已定义的类型（{2}，部分{3}，抗性）。
-'{1}' is not a defined type ({2}, section {3}, Immunities).
-'{1}'不是已定义的类型（{2}，部分{3}，免疫）。
-Processing map {1} ({2})
-处理地图{1}（{2}）
-Processing common events
-处理通用事件
-HP
-HP
-The player is not on a map, so the region could not be determined.
-玩家不在地图上，因此无法确定地区。
-The current map has no region set. Please set the MapPosition metadata setting for this map.
-当前地图未设置地区。请为此地图设置MapPosition元数据。
-Set the level for {1} (max. #{params.maxNumber}).
-设置{1}的等级（最大#{params.maxNumber}）。
-This trainer must have at least 1 Pokémon!
-这个训练师至少需要有1只宝可梦！
-The Trainer's data was added to the list of battles and in PBS/trainers.txt.
-训练师的数据已添加到战斗列表和PBS/trainers.txt中。
-Add new trainer type {1}?
-添加新的训练师类型{1}？
-Add new trainer variant {1} (of {2}) for {3} {4}?
-为{3} {4}添加新的训练师变体{1}（共{2}种）？
-Trainer type {1} does not exist.
-训练师类型{1}不存在。
-Can't find trainer ({1}, {2}, ID {3})
-找不到训练师（{1}，{2}，ID {3}）
-Add new trainer ({1}, {2}, ID {3})?
-添加新的训练师（{1}，{2}，ID {3}）？
-Add new trainer ({1}, {2})?
-添加新的训练师（{1}，{2}）？
-\l[4]Pokémon #{name} in #{location} has no ability. Switching to #{newAbilityName}.
-\l[4]位于#{location}的宝可梦#{name}没有特性。正在切换为#{newAbilityName}。
-\l[4]Pokémon #{name} in #{location} has ability #{oldAbilityName}. That ability is not legal for its species. Switching to #{newAbilityName}.
-\l[4]位于#{location}的宝可梦#{name}拥有特性#{oldAbilityName}。该特性对于其种类是非法的。正在切换为#{newAbilityName}。
-Frame width is 0
-帧宽为0
-Frame height is 0
-帧高为0
-Bitmap's width ({1}) is not a multiple of frame width ({2}) [Bitmap={3}]
-位图的宽度（{1}）不是帧宽（{2}）的倍数 [位图={3}]
-Bitmap's height ({1}) is not a multiple of frame height ({2}) [Bitmap={3}]
-位图的高度（{1}）不是帧高（{2}）的倍数 [位图={3}]
-Bitmap's width ({1}) is not a multiple of frame count ({2}) [Bitmap={3}]
-位图的宽度（{1}）不是帧数（{2}）的倍数 [位图={3}]
-.\|.\|.\|.\|.\|
-.\|.\|.\|.\|.\|
-The player trainer was not defined, so the pause menu can't be displayed.
-玩家训练师未定义，因此无法显示暂停菜单。
-Please see the documentation to learn how to set up the trainer player.
-请参阅文档了解如何设置训练师玩家。
-<u>???</u>
-<u>???</u>
-<<[>>{1}/{2}<<]>>
-<<[>>{1}/{2}<<]>>
-League champion!<<n>>Congratulations!^
-联盟冠军！<<n>>恭喜你！^
-PP
-PP
-{1}/{2}
-{1}/{2}
-Mystery Gift
-神秘礼物
-Faraway place
-远方之地
-<<[>>Custom<<]>>
-<<[>>自定义<<]>>
-Choose a phrase to be where the gift Pokémon was obtained from.
-选择一个短语作为礼物宝可梦的来源。
-Stop editing this gift?
-停止编辑这个礼物？
-Enter a phrase.
-输入一个短语。
-Choose a quantity of {1}.
-选择{1}的数量。
-Choose a unique ID for this gift.
-为这个礼物选择一个唯一的ID。
-That ID is already used by a Mystery Gift.
-这个ID已经被一个神秘礼物使用了。
-Enter a name for the gift.
-输入礼物的名称。
-Couldn't edit the gift.
-无法编辑礼物。
-Didn't create a gift.
-未创建礼物。
-The gift was saved to MysteryGiftMaster.txt.
-礼物已保存到MysteryGiftMaster.txt。
-Couldn't save the gift to MysteryGiftMaster.txt.
-无法将礼物保存到MysteryGiftMaster.txt。
-There are no Mystery Gifts defined.
-未定义任何神秘礼物。
-Searching for online gifts...\wtnp[0]
-正在搜索在线礼物...\wtnp[0]
-No online Mystery Gifts found.\wtnp[20]
-未找到在线神秘礼物。\wtnp[20]
-Online Mystery Gifts found.\wtnp[20]
-找到在线神秘礼物。\wtnp[20]
-\ts[]Manage Mystery Gifts (X=online).
-\ts[]管理神秘礼物（X=在线）。
-The gifts were saved to MysteryGift.txt.
-礼物已保存到MysteryGift.txt。
-Upload MysteryGift.txt to the Internet.
-将MysteryGift.txt上传到互联网。
-Couldn't save the gifts to MysteryGift.txt.
-无法将礼物保存到MysteryGift.txt。
-Toggle on/offline
-切换在线/离线
-Edit
-编辑
-Receive
-接收
-There is no save file loaded. Cannot receive any gifts.
-未加载存档文件。无法接收任何礼物。
-Are you sure you want to delete this gift?
-你确定要删除这个礼物吗？
-{1} {2}: {3} ({4})
-{1} {2}：{3}（{4}）
-Export selected to file
-将选定项导出到文件
-Searching for a gift.<<n>>Please wait...\wtnp<<[>>0<<]>>
-正在搜索礼物。<<n>>请稍候...\wtnp<<[>>0<<]>>
-No new gifts are available.
-没有新的礼物可用。
-Choose the gift you want to receive.\wtnp[0]
-选择你想要接收的礼物。\wtnp[0]
-The gift has been received!
-礼物已接收！
-Please pick up your gift from the deliveryman in any Poké Mart.
-请在任何宝可梦商店的送货员那里领取你的礼物。
 Bill
 比尔
 Items
@@ -39981,51 +39289,51 @@ Generation
 Mysterious Trainer
 神秘训练师
 Ability ID '{1}' is used twice.<<n>>{2}
-Ability ID '{1}' is used twice.<<r>><<n>>{2}
+特性ID'{1}'被重复使用了。<<n>>{2}
 Expected a section at the beginning of the file.<<n>>{1}
-Expected a section at the beginning of the file.<<r>><<n>>{1}
+预期文件开头有一个部分。<<n>>{1}
 Achievement ID '{1}' is used twice.<<n>>{2}
-Achievement ID '{1}' is used twice.<<r>><<n>>{2}
+成就ID'{1}'被重复使用了。<<n>>{2}
 The Avatar definition for #{@id} has no first moves defined!
-The Avatar definition for #{@id} has no first moves defined!
+#{@id}的化身定义没有定义初始招式！
 Cut ability #{abilityID} is assigned to avatar #{@id}!
-Cut ability #{abilityID} is assigned to avatar #{@id}!
+剪切特性#{abilityID}被分配给化身#{@id}！
 Illegal move #{moveID} is assigned to avatar #{@id}!
-Illegal move #{moveID} is assigned to avatar #{@id}!
+非法招式#{moveID}被分配给化身#{@id}！
 An Avatar entry name can't be blank (PBS/avatars.txt).
-An Avatar entry name can't be blank (PBS/avatars.txt).
+化身条目名称不能为空（PBS/avatars.txt）。
 Avatar name '{1}' and version '{2}' is used twice.<<n>>{3}
-Avatar name '{1}' and version '{2}' is used twice.<<r>><<n>>{3}
+化身名称'{1}'和版本'{2}'被重复使用了。<<n>>{3}
 The entry {1} is required in PBS/avatars.txt section {2}.
-The entry {1} is required in PBS/avatars.txt section {2}.
+在PBS/avatars.txt部分{2}中需要{1}条目。
 The {1} entry has too many moves in PBS/avatars.txt section {2}.
-The {1} entry has too many moves in PBS/avatars.txt section {2}.
+在PBS/avatars.txt部分{2}中，{1}条目招式过多。
 Ability {1} is not legal for the Avatar defined in PBS/avatars.txt section {2}.
-Ability {1} is not legal for the Avatar defined in PBS/avatars.txt section {2}.
+在PBS/avatars.txt部分{2}中定义的化身，特性{1}是非法的。
 Aggression value {1} is not legal for the Avatar defined in PBS/avatars.txt section {2}. Aggression must be between 0 and {3} (inclusive)
-Aggression value {1} is not legal for the Avatar defined in PBS/avatars.txt section {2}. Aggression must be between 0 and {3} (inclusive)
+对于在PBS/avatars.txt部分{2}中定义的化身，攻击性值{1}是非法的。攻击性必须在0到{3}（含）之间
 Writing avatar {1}...
-Writing avatar {1}...
+正在写入化身{1}...
 Pokemon dislike ID '{1}' is used twice.<<n>>{2}
-Pokemon dislike ID '{1}' is used twice.<<r>><<n>>{2}
+精灵不喜欢的ID'{1}'被重复使用了。<<n>>{2}
 Expected a species entry line for encounter type {1} for map '{2}', got "{3}" instead.<<n>>{4}
-Expected a species entry line for encounter type {1} for map '{2}', got "{3}" instead.<<r>><<n>>{4}
+预期为地图'{2}'的遭遇类型{1}提供一个种类条目行，但却得到了"{3}"。<<n>>{4}
 Level number {1} is not valid (max. {2}).<<n>>{3}
-Level number {1} is not valid (max. {2}).<<r>><<n>>{3}
+等级数字{1}无效（最大{2}）。<<n>>{3}
 Minimum level is greater than maximum level: {1}<<n>>{2}
-Minimum level is greater than maximum level: {1}<<r>><<n>>{2}
+最低等级大于最高等级：{1}<<n>>{2}
 Can't mix old and new formats.<<n>>{1}
-Can't mix old and new formats.<<r>><<n>>{1}
+不能混合新旧格式。<<n>>{1}
 Encounters for map '{1}' are defined twice.<<n>>{2}
-Encounters for map '{1}' are defined twice.<<r>><<n>>{2}
+地图'{1}'的遭遇被定义了两次。<<n>>{2}
 Expected a map number, got "{1}" instead.<<n>>{2}
-Expected a map number, got "{1}" instead.<<r>><<n>>{2}
+预期是一个地图编号，但却得到了"{1}"。<<n>>{2}
 Encounter densities are defined twice or<<n>>not immediately for map '{1}'.<<n>>{2}
-Encounter densities are defined twice or<<r>><<n>>not immediately for map '{1}'.<<r>><<n>>{2}
+遭遇密度被定义了两次，或者<<n>>对于地图'{1}'没有立即定义。<<n>>{2}
 Undefined encounter type "{1}" for map '{2}'.<<n>>{3}
-Undefined encounter type "{1}" for map '{2}'.<<r>><<n>>{3}
+地图'{2}'的遭遇类型"{1}"未定义。<<n>>{3}
 Not enough encounter lines given for encounter type {1} for map '{2}' (expected {3}).<<n>>{4}
-Not enough encounter lines given for encounter type {1} for map '{2}' (expected {3}).<<r>><<n>>{4}
+地图'{2}'的遭遇类型{1}的遭遇行不足（预期{3}）。<<n>>{4}
 TM {1}
 TM {1}
 TR {1}
@@ -40041,121 +39349,121 @@ HM {1}
 {1} HMs
 {1} HMs
 Cannot get machine index of item {1} ID. It either doesn't exist or isn't a machine!
-Cannot get machine index of item {1} ID. It either doesn't exist or isn't a machine!
+无法获取物品{1} ID的机器索引。它可能不存在或者不是机器！
 Item ID '{1}' is used twice.<<n>>{2}
-Item ID '{1}' is used twice.<<r>><<n>>{2}
+物品ID'{1}'被重复使用了。<<n>>{2}
 Pokemon like ID '{1}' is used twice.<<n>>{2}
-Pokemon like ID '{1}' is used twice.<<r>><<n>>{2}
+精灵喜欢的ID'{1}'被重复使用了。<<n>>{2}
 Warning: Map {1}, as mentioned in the map connection data, was not found.<<n>>{2}
-Warning: Map {1}, as mentioned in the map connection data, was not found.<<r>><<n>>{2}
+警告：在地图连接数据中提到的地图{1}未找到。<<n>>{2}
 North side of first map must connect with south side of second map<<n>>{1}
-North side of first map must connect with south side of second map<<r>><<n>>{1}
+第一张地图的北侧必须与第二张地图的南侧相连<<n>>{1}
 South side of first map must connect with north side of second map<<n>>{1}
-South side of first map must connect with north side of second map<<r>><<n>>{1}
+第一张地图的南侧必须与第二张地图的北侧相连<<n>>{1}
 East side of first map must connect with west side of second map<<n>>{1}
-East side of first map must connect with west side of second map<<r>><<n>>{1}
+第一张地图的东侧必须与第二张地图的西侧相连<<n>>{1}
 West side of first map must connect with east side of second map<<n>>{1}
-West side of first map must connect with east side of second map<<r>><<n>>{1}
+第一张地图的西侧必须与第二张地图的东侧相连<<n>>{1}
 Map ID and X and Y coordinates of where the player goes if no Pokémon Center was entered after a loss.
-Map ID and X and Y coordinates of where the player goes if no Pokémon Center was entered after a loss.
+如果在失败后没有进入精灵中心，玩家将去往的地点的Map ID以及X和Y坐标。
 Default BGM for wild Pokémon battles.
-Default BGM for wild Pokémon battles.
+野生精灵战斗的默认背景音乐。
 Default BGM for Trainer battles.
-Default BGM for Trainer battles.
+训练师战斗的默认背景音乐。
 Default BGM for Avatar battles.
-Default BGM for Avatar battles.
+化身战斗的默认背景音乐。
 Default BGM for Legendary Avatar battles.
-Default BGM for Legendary Avatar battles.
+传奇化身战斗的默认背景音乐。
 Default ME played after winning a wild Pokémon battle.
-Default ME played after winning a wild Pokémon battle.
+赢得野生精灵战斗后播放的默认音乐效果。
 Default ME played after winning a Trainer battle.
-Default ME played after winning a Trainer battle.
+赢得训练师战斗后播放的默认音乐效果。
 Default ME played after catching a Pokémon.
-Default ME played after catching a Pokémon.
+捕捉精灵后播放的默认音乐效果。
 BGM played while surfing.
-BGM played while surfing.
+冲浪时播放的背景音乐。
 BGM played while on a bicycle.
-BGM played while on a bicycle.
+骑自行车时播放的背景音乐。
 Specifies player A.
-Specifies player A.
+指定玩家A。
 Specifies player B.
-Specifies player B.
+指定玩家B。
 Specifies player C.
-Specifies player C.
+指定玩家C。
 Specifies player D.
-Specifies player D.
+指定玩家D。
 Specifies player E.
-Specifies player E.
+指定玩家E。
 Specifies player F.
-Specifies player F.
+指定玩家F。
 Specifies player G.
-Specifies player G.
+指定玩家G。
 Specifies player H.
-Specifies player H.
+指定玩家H。
 If true, this map is an outdoor map and will be tinted according to time of day.
-If true, this map is an outdoor map and will be tinted according to time of day.
+如果为真，这张地图是户外地图，将根据一天中的时间进行着色。
 If true, the game will display the map's name upon entry.
-If true, the game will display the map's name upon entry.
+如果为真，游戏将在进入时显示地图的名称。
 If true, the bicycle can be used on this map.
-If true, the bicycle can be used on this map.
+如果为真，这张地图上可以使用自行车。
 If true, the bicycle will be mounted automatically on this map and cannot be dismounted.
-If true, the bicycle will be mounted automatically on this map and cannot be dismounted.
+如果为真，这张地图上将自动骑上自行车且无法下车。
 Map ID of this Pokémon Center's town, and X and Y coordinates of its entrance within that town.
-Map ID of this Pokémon Center's town, and X and Y coordinates of its entrance within that town.
+这个精灵中心所在城镇的Map ID，以及该城镇内入口的X和Y坐标。
 Weather conditions in effect for this map.
-Weather conditions in effect for this map.
+这张地图生效的天气条件。
 Hot
-Hot
+炎热
 Cold
-Cold
+寒冷
 Stable
-Stable
+稳定
 If no specific weather is set, the average temperature of this map for the timed weather controller.
-If no specific weather is set, the average temperature of this map for the timed weather controller.
+如果没有设置特定的天气，这是该地图的平均温度，用于定时天气控制器。
 Wet
-Wet
+潮湿
 Dry
-Dry
+干燥
 If no specific weather is set, the average humidity of this map for the timed weather controller.
-If no specific weather is set, the average humidity of this map for the timed weather controller.
+如果没有设置特定的天气，这是该地图的平均湿度，用于定时天气控制器。
 Identifies the point on the regional map for this map.
-Identifies the point on the regional map for this map.
+确定该地图在区域地图上的点。
 Specifies the underwater layer of this map. Use only if this map has deep water.
-Specifies the underwater layer of this map. Use only if this map has deep water.
+指定该地图的水下层。仅当该地图有深水时使用。
 If true, this map is dark and a circle of light appears around the player. Flash can be used to expand the circle.
-If true, this map is dark and a circle of light appears around the player. Flash can be used to expand the circle.
+如果为真，该地图是黑暗的，并且玩家周围会出现一个光圈。可以使用闪光来扩大光圈。
 If true, this map is part of the Safari Zone (both indoor and outdoor). Not to be used in the reception desk.
-If true, this map is part of the Safari Zone (both indoor and outdoor). Not to be used in the reception desk.
+如果为真，这张地图是狩猎区的一部分（包括室内和室外）。不要在接待台使用。
 If true, when the player goes near this map's edge, the game doesn't center the player as usual.
-If true, when the player goes near this map's edge, the game doesn't center the player as usual.
+如果为真，当玩家接近这张地图的边缘时，游戏不会像往常一样将玩家置于中心。
 If true, this map has a randomly generated layout. See the wiki for more information.
-If true, this map has a randomly generated layout. See the wiki for more information.
+如果为真，这张地图有一个随机生成的布局。更多信息请查看维基。
 PNG files named 'XXX_bg', 'XXX_base0', 'XXX_base1', 'XXX_message' in Battlebacks folder, where XXX is this property's value.
-PNG files named 'XXX_bg', 'XXX_base0', 'XXX_base1', 'XXX_message' in Battlebacks folder, where XXX is this property's value.
+在Battlebacks文件夹中，名为'XXX_bg'、'XXX_base0'、'XXX_base1'、'XXX_message'的PNG文件，其中XXX是此属性的值。
 Default BGM for wild Pokémon battles on this map.
-Default BGM for wild Pokémon battles on this map.
+这张地图上野生精灵战斗的默认背景音乐。
 Default BGM for trainer battles on this map.
-Default BGM for trainer battles on this map.
+这张地图上训练师战斗的默认背景音乐。
 Default ME played after winning a wild Pokémon battle on this map.
-Default ME played after winning a wild Pokémon battle on this map.
+在这张地图上赢得野生精灵战斗后播放的默认音乐效果。
 Default ME played after winning a Trainer battle on this map.
-Default ME played after winning a Trainer battle on this map.
+在这张地图上赢得训练师战斗后播放的默认音乐效果。
 Default ME played after catching a wild Pokémon on this map.
-Default ME played after catching a wild Pokémon on this map.
+在这张地图上捕捉野生精灵后播放的默认音乐效果。
 The width of the map in Town Map squares, and a string indicating which squares are part of this map.
-The width of the map in Town Map squares, and a string indicating which squares are part of this map.
+这张地图在城镇地图方块中的宽度，以及一个字符串，指示哪些方块是这张地图的一部分。
 The default battle environment for battles on this map.
-The default battle environment for battles on this map.
+这张地图上战斗的默认战斗环境。
 Whether the player is prevented from teleporting out of this map.
-Whether the player is prevented from teleporting out of this map.
+玩家是否被阻止从这张地图传送出。
 Whether the player is prevented from saving the game on this map.
-Whether the player is prevented from saving the game on this map.
+玩家是否被阻止在这张地图上保存游戏。
 Whether the player is prevented from editing their team on this map.
-Whether the player is prevented from editing their team on this map.
+玩家是否被阻止在这张地图上编辑他们的队伍。
 The name to give the map if it's missing in MapInfos.rxdata.
-The name to give the map if it's missing in MapInfos.rxdata.
+如果MapInfos.rxdata中缺少这张地图，要给它的名称。
 The entry {1} is required in {2} section 0.
-The entry {1} is required in {2} section 0.
+在{2}部分0中需要{1}条目。
 Physical
 物理
 Special
@@ -40181,127 +39489,127 @@ Wind
 Kick
 踢
 Move {1} is defined as a Status move with a non-zero base damage.<<n>>{2}
-Move {1} is defined as a Status move with a non-zero base damage.<<r>><<n>>{2}
+招式{1}被定义为具有非零基础伤害的状态招式。<<n>>{2}
 Warning: Move {1} was defined as a Damaging move but had a base damage of 0. Changing it to a Status move.<<n>>{2}
-Warning: Move {1} was defined as a Damaging move but had a base damage of 0. Changing it to a Status move.<<r>><<n>>{2}
+警告：招式{1}被定义为伤害招式，但基础伤害为0。正在将其更改为状态招式。<<n>>{2}
 Move ID '{1}' is used twice.<<n>>{2}
-Move ID '{1}' is used twice.<<r>><<n>>{2}
+招式ID'{1}'被重复使用了。<<n>>{2}
 A class for the move function code #{moveFunction} given for move #{move_hash<<[>>:id<<]>>}<<n>>does not exist!<<n>>{1}
-A class for the move function code #{moveFunction} given for move #{move_hash<<[>>:id<<]>>}<<r>><<n>>                  does not exist!<<r>><<n>>{1}
+为招式#{move_hash<<[>>:id<<]>>}提供的移动功能代码#{moveFunction}的类<<n>>不存在！<<n>>{1}
 Move ID '{1}' was assigned an Animation Move property {2} that doesn't match with any other move.
-Move ID '{1}' was assigned an Animation Move property {2} that doesn't match with any other move.<<r>><<n>>
+招式ID'{1}'被分配了一个与任何其他招式都不匹配的动画招式属性{2}。
 Trainer policy ID '{1}' is used twice.<<n>>{2}
-Trainer policy ID '{1}' is used twice.<<r>><<n>>{2}
+训练师政策ID'{1}'被重复使用了。<<n>>{2}
 Dex list number {1} is defined at least twice.<<n>>{2}
-Dex list number {1} is defined at least twice.<<r>><<n>>{2}
+图鉴列表编号{1}至少被定义了两次。<<n>>{2}
 Processing {1} section [{2}]
-Processing {1} section [{2}]
+正在处理{1}部分[{2}]
 Dex list number {1} has species {2} listed twice.<<n>>{3}
-Dex list number {1} has species {2} listed twice.<<r>><<n>>{3}
+图鉴列表编号{1}中种类{2}被列出了两次。<<n>>{3}
 Ribbon ID number '{1}' is used twice.<<n>>{2}
-Ribbon ID number '{1}' is used twice.<<r>><<n>>{2}
+绶带ID编号'{1}'被重复使用了。<<n>>{2}
 Ribbon ID '{1}' is used twice.<<n>>{2}
-Ribbon ID '{1}' is used twice.<<r>><<n>>{2}
+绶带ID'{1}'被重复使用了。<<n>>{2}
 Illegal move #{moveID} is learnable by species #{@id}!
-Illegal move #{moveID} is learnable by species #{@id}!
+非法招式#{moveID}可以被种类#{@id}学会！
 Illegal item #{itemID} is a wild item of species #{@id}!
-Illegal item #{itemID} is a wild item of species #{@id}!
+非法物品#{itemID}是种类#{@id}的野生物品！
 Illegal ability #{abilityID} is a defined ability of species #{@id}!
-Illegal ability #{abilityID} is a defined ability of species #{@id}!
+非法特性#{abilityID}是种类#{@id}的已定义特性！
 Illegal ability #{abilityID} is a defined hidden ability of species #{@id}!
-Illegal ability #{abilityID} is a defined hidden ability of species #{@id}!
+非法特性#{abilityID}是种类#{@id}的已定义隐藏特性！
 {1} ({2})
-{1} ({2})
+{1}（{2}）
 A Pokémon species can't be numbered 0 (PBS/pokemon.txt).
-A Pokémon species can't be numbered 0 (PBS/pokemon.txt).
+精灵种类不能编号为0（PBS/pokemon.txt）。
 Species ID number '{1}' is used twice.<<n>>{2}
-Species ID number '{1}' is used twice.<<r>><<n>>{2}
+种类ID编号'{1}'被重复使用了。<<n>>{2}
 The entry {1} is required in PBS/pokemon.txt section {2}.
-The entry {1} is required in PBS/pokemon.txt section {2}.
+在PBS/pokemon.txt部分{2}中需要{1}条目。
 Species ID '{1}' is used twice.<<n>>{2}
-Species ID '{1}' is used twice.<<r>><<n>>{2}
+种类ID'{1}'被重复使用了。<<n>>{2}
 Value for '{1}' can't be less than or close to 0 (section {2}, PBS/pokemon.txt)
-Value for '{1}' can't be less than or close to 0 (section {2}, PBS/pokemon.txt)
+'{1}'的值不能小于或接近0（部分{2}，PBS/pokemon.txt）
 Processing {1} evolution line {2}
-Processing {1} evolution line {2}
+正在处理{1}进化线{2}
 Section name {1} is invalid ({2}). Expected syntax like [XXX,Y] (XXX=internal name, Y=form number).
-Section name {1} is invalid ({2}). Expected syntax like [XXX,Y] (XXX=internal name, Y=form number).
+部分名称{1}无效（{2}）。预期的语法为[XXX,Y]（XXX=内部名称，Y=形态编号）。
 Species ID '{1}' is not defined in {2}.<<n>>{3}
-Species ID '{1}' is not defined in {2}.<<r>><<n>>{3}
+种类ID'{1}'在{2}中未定义。<<n>>{3}
 A form cannot be defined with a form number of 0.<<n>>{1}
-A form cannot be defined with a form number of 0.<<r>><<n>>{1}
+不能使用形态编号0定义形态。<<n>>{1}
 Form {1} for species ID {2} is defined twice.<<n>>{3}
-Form {1} for species ID {2} is defined twice.<<r>><<n>>{3}
+种类ID{2}的形态{1}被定义了两次。<<n>>{3}
 Value for '{1}' can't be less than or close to 0 (section {2}, {3})
-Value for '{1}' can't be less than or close to 0 (section {2}, {3})
+'{1}'的值不能小于或接近0（部分{2}，{3}）
 A Pokémon species can't be numbered 0 ({1}).
-A Pokémon species can't be numbered 0 ({1}).
+精灵种类不能编号为0（{1}）。
 The entry {1} is required in {2} section {3}.
-The entry {1} is required in {2} section {3}.
+在{2}部分{3}中需要{1}条目。
 Writing species {1}...
-Writing species {1}...
+正在写入种类{1}...
 Undefined species {1}.
-Undefined species {1}.
+未定义的种类{1}。
 Section name {1} is invalid ({2}). Expected syntax like [XXX] or [XXX,Y] (XXX=species ID, Y=form number).
-Section name {1} is invalid ({2}). Expected syntax like [XXX] or [XXX,Y] (XXX=species ID, Y=form number).
+部分名称{1}无效（{2}）。预期的语法为[XXX]或[XXX,Y]（XXX=种类ID，Y=形态编号）。
 Expected a section at the beginning of the file<<n>>{1}
-Expected a section at the beginning of the file<<r>><<n>>{1}
+预期文件开头有一个部分<<n>>{1}
 Bad line syntax (expected syntax like XXX=YYY)<<n>>{1}
-Bad line syntax (expected syntax like XXX=YYY)<<r>><<n>>{1}
+行语法错误（预期的语法为XXX=YYY）<<n>>{1}
 Unnamed
-Unnamed
+未命名
 Illegal move #{moveID} learnable by a party member of trainer #{trainerName}! This move will be removed.
-Illegal move #{moveID} learnable by a party member of trainer #{trainerName}! This move will be removed.
+训练师#{trainerName}的队伍成员学会的招式#{moveID}是非法的！这个招式将被移除。
 Trainer #{trainerName}'s #{speciesData.species} can't learn the move #{moveID} assigned to it! This move will be removed.
-Trainer #{trainerName}'s #{speciesData.species} can't learn the move #{moveID} assigned to it! This move will be removed.
+训练师#{trainerName}的#{speciesData.species}无法学会分配给它的招式#{moveID}！这个招式将被移除。
 Illegal item #{itemID} assigned to a party member of trainer #{trainerName}!
-Illegal item #{itemID} assigned to a party member of trainer #{trainerName}!
+分配给训练师#{trainerName}的队伍成员的物品#{itemID}是非法的！
 WARNING: When trying to contruct trainer #{@id.to_s} as an extension of trainer #{parentTrainer.id.to_s}, the resultant party is larger than the maximum party size!
-WARNING: When trying to contruct trainer #{@id.to_s} as an extension of trainer #{parentTrainer.id.to_s}, the resultant party is larger than the maximum party size!
+警告：在尝试将训练师#{@id.to_s}作为训练师#{parentTrainer.id.to_s}的扩展构建时，结果队伍大于最大队伍规模！
 Started new trainer while previous trainer has no Pokémon.<<n>>{1}
-Started new trainer while previous trainer has no Pokémon.<<r>><<n>>{1}
+在前一个训练师没有精灵时开始了一个新的训练师。<<n>>{1}
 Bad level: {1} (must be 1-{2}).<<n>>{3}
-Bad level: {1} (must be 1-{2}).<<r>><<n>>{3}
+等级错误：{1}（必须是1-{2}）。<<n>>{3}
 Bad nickname: {1} (must be 1-{2} characters).<<n>>{3}
-Bad nickname: {1} (must be 1-{2} characters).<<r>><<n>>{3}
+昵称错误：{1}（必须是1-{2}个字符）。<<n>>{3}
 Bad EV: {1} (must be 0-{2}).<<n>>{3}
-Bad EV: {1} (must be 0-{2}).<<r>><<n>>{3}
+努力值错误：{1}（必须是0-{2}）。<<n>>{3}
 Total EVs are greater than allowed ({1}).<<n>>{2}
-Total EVs are greater than allowed ({1}).<<r>><<n>>{2}
+总努力值超过了允许的最大值（{1}）。<<n>>{2}
 Total EVs are less than required ({1}).<<n>>{2}
-Total EVs are less than required ({1}).<<r>><<n>>{2}
+总努力值低于所需值（{1}）。<<n>>{2}
 Bad happiness: {1} (must be 0-255).<<n>>{2}
-Bad happiness: {1} (must be 0-255).<<r>><<n>>{2}
+亲密度错误：{1}（必须是0-255）。<<n>>{2}
 Bad party position: {1} (must be 0-{2}).<<n>>{3}
-Bad party position: {1} (must be 0-{2}).<<r>><<n>>{3}
+队伍位置错误：{1}（必须是0-{2}）。<<n>>{3}
 A trainer definition cannot extend itself: {1}
-A trainer definition cannot extend itself: {1}
+训练师定义不能扩展自身：{1}
 Pokémon hasn't been defined yet!<<n>>{1}
-Pokémon hasn't been defined yet!<<r>><<n>>{1}
+精灵尚未定义！<<n>>{1}
 Value {1} isn't a defined Ability.<<n>>{2}
-Value {1} isn't a defined Ability.<<r>><<n>>{2}
+值{1}不是一个已定义的特性。<<n>>{2}
 Value {1} isn't a defined Poké Ball.<<n>>{2}
-Value {1} isn't a defined Poké Ball.<<r>><<n>>{2}
+值{1}不是一个已定义的精灵球。<<n>>{2}
 Writing trainer {1}...
-Writing trainer {1}...
+正在写入训练师{1}...
 No trainer data file given in section {1}.<<n>>{2}
-No trainer data file given in section {1}.<<r>><<n>>{2}
+部分{1}中未给出训练师数据文件。<<n>>{2}
 Trainer Type ID '{1}' is used twice.<<n>>{2}
-Trainer Type ID '{1}' is used twice.<<r>><<n>>{2}
+训练师类型ID'{1}'被重复使用了。<<n>>{2}
 Pokemon trait ID '{1}' is used twice.<<n>>{2}
-Pokemon trait ID '{1}' is used twice.<<r>><<n>>{2}
+精灵特性ID'{1}'被重复使用了。<<n>>{2}
 Tribe ID '{1}' is used twice.<<n>>{2}
-Tribe ID '{1}' is used twice.<<r>><<n>>{2}
+族群ID'{1}'被重复使用了。<<n>>{2}
 '{1}' is not a defined type ({2}, section {3}, Weaknesses).
-'{1}' is not a defined type ({2}, section {3}, Weaknesses).
+'{1}'不是已定义的类型（{2}，部分{3}，弱点）。
 '{1}' is not a defined type ({2}, section {3}, Resistances).
-'{1}' is not a defined type ({2}, section {3}, Resistances).
+'{1}'不是已定义的类型（{2}，部分{3}，抗性）。
 '{1}' is not a defined type ({2}, section {3}, Immunities).
-'{1}' is not a defined type ({2}, section {3}, Immunities).
+'{1}'不是已定义的类型（{2}，部分{3}，免疫）。
 Processing map {1} ({2})
-Processing map {1} ({2})
+处理地图{1}（{2}）
 Processing common events
-Processing common events
+处理通用事件
 {1} cries out!
 {1}的叫声！
 Wow, it's a shiny Pokémon!
@@ -40661,31 +39969,31 @@ Machine
 Simple
 简单
 The player is not on a map, so the region could not be determined.
-The player is not on a map, so the region could not be determined.
+玩家不在地图上，因此无法确定地区。
 The current map has no region set. Please set the MapPosition metadata setting for this map.
-The current map has no region set. Please set the MapPosition metadata setting for this map.
+当前地图未设置地区。请为此地图设置MapPosition元数据。
 Please enter the first Pokémon.
-请输入第一个宝可梦。
+请输入第一个精灵。
 Add another Pokémon?
-再添加一个宝可梦？
+再添加一个精灵？
 Set the level for {1} (max. #{params.maxNumber}).
-Set the level for {1} (max. #{params.maxNumber}).
+设置{1}的等级（最大#{params.maxNumber}）。
 This trainer must have at least 1 Pokémon!
-This trainer must have at least 1 Pokémon!
+这个训练师至少需要有1只精灵！
 The Trainer's data was added to the list of battles and in PBS/trainers.txt.
-The Trainer's data was added to the list of battles and in PBS/trainers.txt.
+训练师的数据已添加到战斗列表和PBS/trainers.txt中。
 Add new trainer type {1}?
-Add new trainer type {1}?
+添加新的训练师类型{1}？
 Add new trainer variant {1} (of {2}) for {3} {4}?
-Add new trainer variant {1} (of {2}) for {3} {4}?
+为{3} {4}添加新的训练师变体{1}（共{2}种）？
 Trainer type {1} does not exist.
-Trainer type {1} does not exist.
+训练师类型{1}不存在。
 Can't find trainer ({1}, {2}, ID {3})
-Can't find trainer ({1}, {2}, ID {3})
+找不到训练师（{1}，{2}，ID {3}）
 Add new trainer ({1}, {2}, ID {3})?
-Add new trainer ({1}, {2}, ID {3})?
+添加新的训练师（{1}，{2}，ID {3}）？
 Add new trainer ({1}, {2})?
-Add new trainer ({1}, {2})?
+添加新的训练师（{1}，{2}）？
 Yes
 是
 No
@@ -40695,9 +40003,9 @@ No
 \l[4]Pokemon #{name} in #{location} has move #{moveData.name} in its move list. That move is not legal for its species. Removing now.
 \l[4]在#{moveData.name}#{location}的#{name}的#{moveData.name}技能已经出现变动，对其进行删除。
 \l[4]Pokémon #{name} in #{location} has no ability. Switching to #{newAbilityName}.
-\l[4]Pokémon #{name} in #{location} has no ability. Switching to #{newAbilityName}.
+\l[4]位于#{location}的精灵#{name}没有特性。正在切换为#{newAbilityName}。
 \l[4]Pokémon #{name} in #{location} has ability #{oldAbilityName}. That ability is not legal for its species. Switching to #{newAbilityName}.
-\l[4]Pokémon #{name} in #{location} has ability #{oldAbilityName}. That ability is not legal for its species. Switching to #{newAbilityName}.
+\l[4]位于#{location}的精灵#{name}拥有特性#{oldAbilityName}。该特性对于其种类是非法的。正在切换为#{newAbilityName}。
 \l[4]Pokemon #{name} in #{location} has item #{itemData.name}. That item has been cut from the game or is not legal to own. Removing now.
 \l[4]在#{location}的#{name}所携带的物品 #{itemData.name}已无正常途径获得， 对其进行删除。
 An error occured while checking for the legality of your party.
@@ -40731,15 +40039,15 @@ Select the Randomizer Modes you wish to apply.
 Done
 确定
 Frame width is 0
-Frame width is 0
+帧宽为0
 Frame height is 0
-Frame height is 0
+帧高为0
 Bitmap's width ({1}) is not a multiple of frame width ({2}) [Bitmap={3}]
-Bitmap's width ({1}) is not a multiple of frame width ({2}) [Bitmap={3}]
+位图的宽度（{1}）不是帧宽（{2}）的倍数 [位图={3}]
 Bitmap's height ({1}) is not a multiple of frame height ({2}) [Bitmap={3}]
-Bitmap's height ({1}) is not a multiple of frame height ({2}) [Bitmap={3}]
+位图的高度（{1}）不是帧高（{2}）的倍数 [位图={3}]
 Bitmap's width ({1}) is not a multiple of frame count ({2}) [Bitmap={3}]
-Bitmap's width ({1}) is not a multiple of frame count ({2}) [Bitmap={3}]
+位图的宽度（{1}）不是帧数（{2}）的倍数 [位图={3}]
 Pokémon
 精灵
 Log Off
@@ -40773,9 +40081,9 @@ Your party is full!
 Can't deposit the last Pokémon!
 无法存入最后一只精灵！
 The player trainer was not defined, so the pause menu can't be displayed.
-The player trainer was not defined, so the pause menu can't be displayed.
+玩家训练师未定义，因此无法显示暂停菜单。
 Please see the documentation to learn how to set up the trainer player.
-Please see the documentation to learn how to set up the trainer player.
+请参阅文档了解如何设置训练师玩家。
 Pokédex
 图鉴
 Bag
@@ -40867,9 +40175,9 @@ IDNo.<r>{1}<br>
 Time<r>{1:02d}:{2:02d}<br>
 时间<r>{1:02d}:{2:02d}<br>
 Pokédex<r>{1}/{2}<br>
-宝可梦图鉴<r>{1}/{2}<br>
+精灵图鉴<r>{1}/{2}<br>
 League champion!<<n>>Congratulations!\^
-League champion!<<n>>Congratulations!\^
+联盟冠军！<<n>>恭喜！\^
 Egg
 蛋
 No. ???
@@ -40921,75 +40229,75 @@ TARGET
 {1}/{2}
 {1}/{2}
 Mystery Gift
-Mystery Gift
+神秘礼物
 Faraway place
-Faraway place
+远方之地
 <<[>>Custom<<]>>
-<<[>>Custom<<]>>
+<<[>>自定义<<]>>
 Choose a phrase to be where the gift Pokémon was obtained from.
-Choose a phrase to be where the gift Pokémon was obtained from.
+选择一个短语作为礼物精灵的来源。
 Stop editing this gift?
-Stop editing this gift?
+停止编辑这个礼物？
 Enter a phrase.
-Enter a phrase.
+输入一个短语。
 Choose a quantity of {1}.
-Choose a quantity of {1}.
+选择{1}的数量。
 Choose a unique ID for this gift.
-Choose a unique ID for this gift.
+为这个礼物选择一个唯一的ID。
 That ID is already used by a Mystery Gift.
-That ID is already used by a Mystery Gift.
+这个ID已经被一个神秘礼物使用了。
 Enter a name for the gift.
-Enter a name for the gift.
+输入礼物的名称。
 Couldn't edit the gift.
-Couldn't edit the gift.
+无法编辑礼物。
 Didn't create a gift.
-Didn't create a gift.
+未创建礼物。
 The gift was saved to MysteryGiftMaster.txt.
-The gift was saved to MysteryGiftMaster.txt.
+礼物已保存到MysteryGiftMaster.txt。
 Couldn't save the gift to MysteryGiftMaster.txt.
-Couldn't save the gift to MysteryGiftMaster.txt.
+无法将礼物保存到MysteryGiftMaster.txt。
 There are no Mystery Gifts defined.
-There are no Mystery Gifts defined.
+未定义任何神秘礼物。
 Searching for online gifts...\wtnp[0]
-Searching for online gifts...\wtnp[0]
+正在搜索在线礼物...\wtnp[0]
 No online Mystery Gifts found.\wtnp[20]
-No online Mystery Gifts found.\wtnp[20]
+未找到在线神秘礼物。\wtnp[20]
 Online Mystery Gifts found.\wtnp[20]
-Online Mystery Gifts found.\wtnp[20]
+找到在线神秘礼物。\wtnp[20]
 \ts[]Manage Mystery Gifts (X=online).
-\ts[]Manage Mystery Gifts (X=online).
+\ts[]管理神秘礼物（X=在线）。
 The gifts were saved to MysteryGift.txt.
-The gifts were saved to MysteryGift.txt.
+礼物已保存到MysteryGift.txt。
 Upload MysteryGift.txt to the Internet.
-Upload MysteryGift.txt to the Internet.
+将MysteryGift.txt上传到互联网。
 Couldn't save the gifts to MysteryGift.txt.
-Couldn't save the gifts to MysteryGift.txt.
+无法将礼物保存到MysteryGift.txt。
 Toggle on/offline
-Toggle on/offline
+切换在线/离线
 Edit
-Edit
+编辑
 Receive
-Receive
+接收
 Delete
 删除
 There is no save file loaded. Cannot receive any gifts.
-There is no save file loaded. Cannot receive any gifts.
+未加载存档文件。无法接收任何礼物。
 Are you sure you want to delete this gift?
-Are you sure you want to delete this gift?
+你确定要删除这个礼物吗？
 {1} {2}: {3} ({4})
-{1} {2}: {3} ({4})
+{1} {2}：{3}（{4}）
 Export selected to file
-Export selected to file
+将选定项导出到文件
 Searching for a gift.<<n>>Please wait...\wtnp<<[>>0<<]>>
-Searching for a gift.<<n>>Please wait...\wtnp<<[>>0<<]>>
+正在搜索礼物。<<n>>请稍候...\wtnp<<[>>0<<]>>
 No new gifts are available.
-No new gifts are available.
+没有新的礼物可用。
 Choose the gift you want to receive.\wtnp[0]
-Choose the gift you want to receive.\wtnp[0]
+选择你想要接收的礼物。\wtnp[0]
 The gift has been received!
-The gift has been received!
+礼物已接收！
 Please pick up your gift from the deliveryman in any Poké Mart.
-Please pick up your gift from the deliveryman in any Poké Mart.
+请在任何精灵商店的送货员那里领取你的礼物。
 Couldn't find an unclaimed Mystery Gift with ID {1}.
 未找到ID为{1}的未领取神秘礼物。
 \me[Pkmn get]{1} received {2}!
@@ -41019,7 +40327,7 @@ Map
 x{1}
 x{1}
 An item in the Bag can be registered to this key for instant use.
-背包中的道具可以注册到这个键上以便立即使用。
+背包中的物品可以注册到这个键上以便立即使用。
 INFO
 信息
 PERSONALITY
@@ -41057,9 +40365,9 @@ STORY
 <c3=404040,B0B0B0>{1} {2}, {3}
 <c3=404040,B0B0B0>{1} {2}, {3}<<n>>
 <c3=404040,B0B0B0>A mysterious Pokémon Egg received from <c3=F83820,E09890>{1}<c3=404040,B0B0B0>.
-<c3=404040,B0B0B0>从<c3=F83820,E09890>{1}<c3=404040,B0B0B0>那里收到的神秘宝可梦蛋。
+<c3=404040,B0B0B0>从<c3=F83820,E09890>{1}<c3=404040,B0B0B0>那里收到的神秘精灵蛋。
 <c3=404040,B0B0B0>A mysterious Pokémon Egg.
-<c3=404040,B0B0B0>神秘宝可梦蛋。<<n>>
+<c3=404040,B0B0B0>神秘精灵蛋。<<n>>
 <c3=404040,B0B0B0>"The Egg Watch"
 <c3=404040,B0B0B0>"蛋观察器"
 It looks like this Egg will take a long time to hatch.
@@ -41123,7 +40431,7 @@ No items were given.
 Item: {1}
 物品：{1}
 This Item has not been implemented.
-这个道具尚未实现。
+这个物品尚未实现。
 HM moves can't be forgotten now.
 现在无法忘记HM招式。
 You must choose a move!
@@ -41169,7 +40477,7 @@ If you encounter a Pokémon you don't want, run away. It's guaranteed!
 After a full party heal, defeated enemy trainers will be battle ready again!
 在恢复全队精灵状态后， 比如说在精灵中心恢复，
 For example, healing at a Pokémon Center triggers this.
-例如，在宝可梦中心治疗会触发这个。
+例如，在精灵中心治疗会触发这个。
 Trainers who fled won't come back, however.
 不过已经离开的训练家， 就不会再回来了。
 There's a shortcut key(F) to instantly mount the bicycle while walking.
@@ -41177,11 +40485,11 @@ There's a shortcut key(F) to instantly mount the bicycle while walking.
 Access your control setttings with <imp>F1</imp> to customize it.
 按<imp>F1</imp>后可以自行将键位调整为你习惯的方案。
 Individual Pokémon have unique Traits, Likes, and Dislikes.
-每只宝可梦都有独特的性情、喜好和不喜欢。
+每只精灵都有独特的性情、喜好和不喜欢。
 These have no effect on battle. They're just for fun!
 这些内容对对战没有影响， 只是单纯为了好玩^_^。
 To customize your stats, adjust Style Points in any PokéCenter.
-要定制你的能力风格，可以在任何宝可梦中心调整风格点数。
+要定制你的能力风格，可以在任何精灵中心调整风格点数。
 Stats can be changed during battle by 'stat steps'.
 战斗中可通过“变化技能”改变能力等级。
 A step is a small change! At +1 steps, only 25% is added to the stat.
@@ -41229,11 +40537,11 @@ Speak to them to learn how they can upgrade your team!
 The last 5 boxes of the PC are donation boxes.
 电脑的最后5个箱子是捐赠箱，这些箱子里的精灵无法再取出使用。
 Pokémon placed in these boxes can never be withdrawn.
-放入这些箱子中的宝可梦永远无法取出。
+放入这些箱子中的精灵永远无法取出。
 In repayment, you get candy equal to their lifetime EXP earnings.
 作为补偿，你会得到相当于它们一生中获得的经验值的糖果。
 Individual Pokémon have individual appearances.
-每只宝可梦都有独特的外观。
+每只精灵都有独特的外观。
 They differ in hue and brightness!
 它们在色调和亮度上有所不同！
 If you wish, you can turn this off in the options.
@@ -41337,7 +40645,7 @@ What are Tribes and what do they do?
 Winning Battles
 赢得战斗
 You win a battle when all enemy Pokémon faint: reach 0 health points. You lose a battle if any of your Pokémon faints. Fainted Pokémon will revive in several turns.
-当你使所有敌方宝可梦失去意识：达到0生命点时，你赢得战斗。如果你的任何宝可梦失去意识，你就输掉战斗。失去意识的宝可梦将在10个回合后复活。
+当你使所有敌方精灵失去意识：达到0生命点时，你赢得战斗。如果你的任何精灵失去意识，你就输掉战斗。失去意识的精灵将在10个回合后复活。
 1. Have as many Pokémon as you can. 2. Level up your Pokémon as much as you can. 3. Abuse type matchups. 4. Start battles with healthy Pokémon.
 多抓精灵，多升级，多用不同属性，用满HP精灵开 始战斗。
 Team Size
@@ -41353,7 +40661,7 @@ Types are strong or weak against other types. Having a variety of different type
 Healing your Pokémon
 治疗精灵
 Pokémon are healed after a trainer battle. You can heal your Pokémon at PokéCenters between battles. You can often use the Aid Kit instead to save on traveling time.
-训练师战斗后，宝可梦会恢复健康。你可以在战斗之间的宝可梦中心治疗你的宝可梦。你通常也可以使用急救包来节省旅行时间。
+训练师战斗后，精灵会恢复健康。你可以在战斗之间的精灵中心治疗你的精灵。你通常也可以使用急救包来节省旅行时间。
 Who goes first?
 先后手
 In battle, the Pokémon with the higher speed stat gets to use their move first. Some moves modify this. Speed ties are decided randomly.
@@ -41399,7 +40707,7 @@ Accuracy is a move's chance of hitting. Most moves have 100% accuracy. Some effe
 Power Points
 PP
 Power Points, or PP, is a number which limits how many times a move can be used. Healing at a PokéCenter, after a trainer battle or with the Aid Kit restores PP.
-技能点数（PP）是一个限制招式使用次数的数字。在宝可梦中心治疗、训练师战斗后或使用急救包可以恢复PP。
+技能点数（PP）是一个限制招式使用次数的数字。在精灵中心治疗、训练师战斗后或使用急救包可以恢复PP。
 Each Pokémon has type weakness and type resistances based on its own type. eg. Water deals double damage to Fire, and Fire deals half damage to Water.
 每种精灵都有基于自身属性的弱点 和抗性，如火弱水 ，水抗火。
 Type Combinations
@@ -41465,7 +40773,7 @@ Having choices of Pokémon is important when facing challenges. A team of six is
 Methods of Aquiring
 精灵获取
 The three main methods of acquiring Pokémon are using DexNav, catching them from the wild, and receiving them from other Trainers through gifts or trades.
-获取宝可梦的三种主要方法是使用导航、从野外捕捉以及通过礼物或交易从其他训练师那里接收。
+获取精灵的三种主要方法是使用导航、从野外捕捉以及通过礼物或交易从其他训练师那里接收。
 Catching Basics
 捕捉常识
 Wild Pokémon will attack you if you walk through patches of grass, dark ground in caves, or other wild terrain. You can catch these Pokémon by throwing Poké Balls at them.
@@ -41481,7 +40789,7 @@ Every time a Pokémon breaks out of a ball, it'll be slightly easier to catch fo
 Finding Wild Pokémon
 寻找野生精灵
 Use the DexNav to get information on which Pokémon are available where you are.
-使用导航获取你所在位置可用的宝可梦信息。
+使用导航获取你所在位置可用的精灵信息。
 Trades
 交换
 Throughout the world there will be people offering trades for Pokémon. Usually they want a different Pokémon, but sometimes they want money.
@@ -41521,7 +40829,7 @@ Effects can modify a Pokémon's stats during battle. These are called 'stat step
 Bounds of Stat Steps
 统计升降范围
 Stat steps start at 0, and can increase up to +12 (4x) and down to -12 (.25x). Stat steps are usually reset if you swap the Pokémon out or it faints.
-能力等级从0开始，可以上升到+12（4倍）和下降到-12（0.25倍）。如果交换宝可梦或它失去意识，能力等级通常会重置。
+能力等级从0开始，可以上升到+12（4倍）和下降到-12（0.25倍）。如果交换精灵或它失去意识，能力等级通常会重置。
 Checking Stat Steps
 检查当前升降
 You can check the current stat steps of each Pokémon on the battlefield using the Info button. It lists the numerical step as well as resultant multiplier.
@@ -41529,7 +40837,7 @@ You can check the current stat steps of each Pokémon on the battlefield using t
 What are abilities?
 特性是什么
 Abilities are special powers that Pokémon can have based on their species. Most Pokémon can have 2 possible abilities. All abilities activate in battle or in the field.
-特性是宝可梦根据其种类可以拥有的特殊能力。大多数宝可梦可以有2种可能的特性。所有特性在战斗或野外都会激活。
+特性是精灵根据其种类可以拥有的特殊能力。大多数精灵可以有2种可能的特性。所有特性在战斗或野外都会激活。
 Ability Effects
 特性效果
 Abilities do a wide variety of different things. Understanding your team's abilities is important to winning.
@@ -41537,11 +40845,11 @@ Abilities do a wide variety of different things. Understanding your team's abili
 Checking Abilities
 查看特性
 Check your Pokémon's summary to see what main ability they have. Use the MasterDex to read about the abilities of enemy Pokémon during battle.
-查看你的宝可梦的摘要，看看它们的主特性是什么。在战斗中使用大师图鉴了解敌方宝可梦的特性。
+查看你的精灵的摘要，看看它们的主特性是什么。在战斗中使用大师图鉴了解敌方精灵的特性。
 Choosing Abilities
 选择特性
 A Pokémon's default main ability is one of the two its species can have, randomly chosen when you get it. You can use Ability Capsules to swap to the other.
-宝可梦的默认主特性是其种类可以拥有的两种特性之一，在你获得它时随机选择。你可以使用特性胶囊来切换到另一种。
+精灵的默认主特性是其种类可以拥有的两种特性之一，在你获得它时随机选择。你可以使用特性胶囊来切换到另一种。
 Conditional Abilities
 条件限制特性
 Many abilities only do things under certain circumstances. Building around Weather and Room-synergy abilities is a common strategy.
@@ -41593,7 +40901,7 @@ Status Conditions are ailments a Pokémon can have which hurt or restrict them. 
 Healing Status Conditions
 治愈异常状态
 Status Conditions are removed when you heal at the PokéCenter, after a trainer battle or when you use the Aid Kit.
-在宝可梦中心治疗、训练师战斗后或使用急救包时，会移除异常状态。
+在精灵中心治疗、训练师战斗后或使用急救包时，会移除异常状态。
 Status Immunity
 免疫异常状态
 Type immunities do not prevent status moves. However, some types give immunities to certain status conditions. Don't confuse these two!
@@ -41611,7 +40919,7 @@ When numbed, a Pokémon's Speed is halved, and it deals 25% less damage. Electri
 Waterlog
 浸水
 When waterlogged, a Pokémon's Speed is halved, and it takes 25% more attack damage. Water- and Dark-types do the most waterlogging. Water is immune.
-当宝可梦浸水时，其速度减半，并且受到的攻击伤害增加25%。水系和恶系宝可梦最容易使其他宝可梦浸水。水系宝可梦免疫浸水。
+当精灵浸水时，其速度减半，并且受到的攻击伤害增加25%。水系和恶系精灵最容易使其他精灵浸水。水系精灵免疫浸水。
 When dizzied, a Pokémon takes 25% more attack damage, and its ability doesn't function. Psychic- and Fairy-types do the most dizzying.
 被混乱的精灵攻击伤害增加25%，但特性会失效，超能系和妖精系最擅长混乱对手。
 When leeched, a Pokémon loses 1/10th HP every turn, and its opponent(s) split that health. Bug- and Dark-types do the most leeching. Grass is immune.
@@ -41625,7 +40933,7 @@ A critical hit deals 50% more damage than a regular hit. Certain moves are able 
 How common are Critical Hits?
 命中要害的概率
 For moves that can random crit, the chance is 1/8. This chance can be raised by abilities, items, or special effects.
-对于能够随机击中要害的招式，其暴击几率为1/8。这个几率可以通过特性、道具或特殊效果提高。
+对于能够随机击中要害的招式，其暴击几率为1/8。这个几率可以通过特性、物品或特殊效果提高。
 Other Effects
 其他影响
 Critical hits ignore stat steps (on the user or the target) that would lower their damage. They also ignore protective screens like Reflect and Light Screen.
@@ -41633,7 +40941,7 @@ Critical hits ignore stat steps (on the user or the target) that would lower the
 Preventing Criticals
 防止被击中要害
 Certain abilities prevent critical hits against that Pokémon. The Lucky Chant effect and the Strategist tribe bonus also protect their side from critical hits.
-某些特性可以防止该宝可梦被击中要害。幸运之歌的效果和策略家族群奖励也能保护其一方免受被击中要害。
+某些特性可以防止该精灵被击中要害。幸运之歌的效果和策略家族群奖励也能保护其一方免受被击中要害。
 Guaranteed Criticals
 确保击中要害
 Some moves or abilities are not random, but guarantee a critical hit under certain conditions. Otherwise, these act the same as random critical hits.
@@ -41727,9 +41035,9 @@ Target Choice
 A targeting reticle shows which of your battlers the Avatar wants to attack. It will switch to another battler, however, if their attack is made impossible.
 一个瞄准框显示化身想要攻击你的哪个精灵。然而，如果他们的攻击变得不可能，它会切换到另一个精灵。
 Empowered Moves
-赋能技能
+赋权技能
 Some Avatars have Empowered attacks, which are powered-up versions of other attacks. They take up both of an Avatar's moves on that turn.
-有些化身还拥有赋能技能，这些技能效果更强，但使用后化身将失去此回合第二次行动能力。
+有些化身还拥有赋权技能，这些技能效果更强，但使用后化身将失去此回合第二次行动能力。
 Experience Reward
 经验
 When an Avatar is destroyed, every Pokémon on your team is given experience, even those that are fainted.
@@ -41853,7 +41161,7 @@ Close bag.
 Search what?
 搜索什么？
 Which item?
-哪个道具？
+哪个物品？
 Found nothing!
 什么也没找到！
 Use
@@ -41925,13 +41233,13 @@ I'm the Mentor Coordinator. How can I help?
 Sorry, it doesn't appear that 1 can have any moves mentored to it at the moment..
 抱歉它现在看起来不能接受指导。。
 I help your Pokémon to teach each other moves!
-我帮助你的宝可梦互相学习招式！
+我帮助你的精灵互相学习招式！
 Pokémon can teach moves they know, moves they used to know, and moves earlier on their level up learnset.
-宝可梦可以教授它们已知的招式、曾经知道的招式以及它们等级提升学习集中更早的招式。
+精灵可以教授它们已知的招式、曾经知道的招式以及它们等级提升学习集中更早的招式。
 Any Pokémon in your party or in your PC can be a mentor.
-你的队伍中的任何宝可梦或电脑中的宝可梦都可以成为导师。
+你的队伍中的任何精灵或电脑中的精灵都可以成为导师。
 Pokémon can be taught any moves on their Other Moves list.
-宝可梦可以学习它们的其他招式列表上的任何招式。
+精灵可以学习它们的其他招式列表上的任何招式。
 Relearn Moves
 重新学习招式
 What is Move Relearning?
@@ -41941,11 +41249,11 @@ I'm the Move Relearner. How can I help?
 Sorry, it doesn't appear as if I have any move I can teach to your \v[3].
 抱歉，我这里什么技能可以教给你的\v[3]。
 I can teach moves to your Pokémon -- at no cost!
-我可以免费教你的宝可梦招式！
+我可以免费教你的精灵招式！
 I know every single move that Pokémon learn while leveling up or evolving.
 我知道精灵在升级或进化时学习的所有技能。
 I can also help Pokémon to relearn moves they learned through TMs, Mentoring, or Sketching!
-我还可以帮助宝可梦重新学习它们通过技能机器、导师或素描学习的招式！
+我还可以帮助精灵重新学习它们通过技能机器、导师或素描学习的招式！
 Speech frame {1}.
 文字框 {1}。
 Audio Options
@@ -41985,19 +41293,19 @@ How quickly to display text in message boxes.
 Nicknaming Prompt
 昵称提示
 Whether the game should ask you to set nicknames for newly caught Pokémon.
-游戏是否应该询问你为新捕获的宝可梦设置昵称。
+游戏是否应该询问你为新捕获的精灵设置昵称。
 Dex Register Popup
 图鉴弹窗
 Whether to show a species' MasterDex entry when you first catch one.
-当你首次捕获一种宝可梦时，是否显示其主图鉴条目。
+当你首次捕获一种精灵时，是否显示其主图鉴条目。
 Item Popups
-道具弹出窗口
+物品弹出窗口
 Whether to show an item's description when you acquire one for the first time.
-当你首次获得一个道具时，是否显示其描述。
+当你首次获得一个物品时，是否显示其描述。
 Trait Unlock Popups
 个性解锁弹窗
 Whether to alert you when one of your Pokémon reveals personality traits.
-当你的宝可梦之一透露个性特征时，是否提醒你。
+当你的精灵之一透露个性特征时，是否提醒你。
 Team Snapshots
 队伍快照
 Whether to automatically take screenshots of your Party Showcase after major victories.
@@ -42005,15 +41313,15 @@ Whether to automatically take screenshots of your Party Showcase after major vic
 Prompt Level Moves
 提示等级技能
 Whether to let your Pokémon learn new moves when leveling up.
-是否允许你的宝可梦在升级时学习新招式。
+是否允许你的精灵在升级时学习新招式。
 Aid Kit Animation
 急救包动画
 Whether to play ananimation showing your party being healed by the Aid Kit.
-Whether to play ananimation showing your party being healed by the Aid Kit.
+是否播放动画来显示队伍正在被急救包治疗。
 Quick Evolution
 快速进化
 Whether to shorten the cutscene that plays when a Pokémon evolves.
-是否缩短宝可梦进化时播放的动画。
+是否缩短精灵进化时播放的动画。
 User Interface Options
 用户界面选择
 Screen Size
@@ -42053,7 +41361,7 @@ Keyboard
 Bag Sorting
 背包分类
 How should items in your bag be sorted? Automatic.
-你的背包中的道具应该如何排序？自动。
+你的背包中的物品应该如何排序？自动。
 Name on Showcase
 展示名称
 Whether or not to put your player name on Party Showcases.
@@ -42077,7 +41385,7 @@ Whether to speed up animations like starting battle or switching battlers.
 Damage Numbers
 伤害数字
 Whether to display how much damage an attack did over the Pokémon's head.
-是否显示攻击对宝可梦造成的伤害值。
+是否显示攻击对精灵造成的伤害值。
 Effect. Messages
 效果信息
 Whether to state how effective a move was.
@@ -42113,9 +41421,9 @@ Autosave
 Whether the game should save when healing and every 40 steps taken.
 游戏是否应在治疗和每走40步时自动保存。
 Pokémon Follow
-宝可梦跟随
+精灵跟随
 Whether your first Pokémon follows behind you.
-你的第一只宝可梦是否跟随在你身后。
+你的第一只精灵是否跟随在你身后。
 World Weather
 世界天气
 Whether overworld areas experience random weathers.
@@ -42141,7 +41449,7 @@ Advanced Graphics Options
 Color Shifts
 色彩切换
 Whether Pokémon have unique appearances. Disable if laggy.
-宝可梦是否具有独特的外观。如果出现延迟，请禁用。
+精灵是否具有独特的外观。如果出现延迟，请禁用。
 Particles
 粒子效果
 Whether to display particle effects. Disable if laggy.
@@ -42377,7 +41685,7 @@ Set {1}'s status.
 {1} has no status now.
 {1}目前没有状态。
 Set the Pokémon's sleep count.
-设置宝可梦的睡眠计数。
+设置精灵的睡眠计数。
 Item Bag
 背包
 DexNav
@@ -42417,7 +41725,7 @@ You've selected {1}. Choose the amount.
 Total cost: {3}. Confirm?
 总共：{3}。怎样？
 Failed to delete stored items
-未能删除存储的道具
+未能删除存储的物品
 You have no more room in the Bag.
 背包满了。
 Here you are! Thank you!
@@ -42511,7 +41819,7 @@ Position {1},{2} is empty...
 You can't release an Egg.
 你不能放生一个蛋。
 Are you sure you want to release this Pokémon?
-你确定要释放这只宝可梦吗？
+你确定要释放这只精灵吗？
 They will be gone forever. Are you sure?
 它们将永远消失，你确定吗？
 {1} was released.
@@ -42594,206 +41902,6 @@ Save changes?
 要保存更改吗？
 Exit from the map?
 要退出地图？
-rainstorm
-暴雨
-sunshine
-阳光
-sandstorm
-沙暴
-hail
-冰雹
-total eclipse
-日全食
-eclipse
-日食
-full moon
-满月
-moonglow
-月辉
-burning
-烧伤
-burned
-烧伤
-burns
-烧伤
-burn
-烧伤
-frostbiting
-冻伤
-frostbitten
-冻伤
-frostbites
-冻伤
-frostbite
-冻伤
-numbing
-麻痹
-numbed
-麻痹
-numbs
-麻痹
-numb
-麻痹
-poisoning
-中毒
-poisoned
-中毒
-poisons
-中毒
-poison
-中毒
-leeching
-寄生
-leeched
-寄生
-leeches
-寄生
-leech
-寄生
-dizzying
-混乱
-dizzied
-混乱
-dizzies
-混乱
-dizzy
-混乱
-waterlogging
-浸水
-waterlogged
-浸水
-waterlogs
-浸水
-waterlog
-浸水
-sleep
-睡眠
-asleep
-睡着了
-drowsy
-昏昏欲睡
-cursing
-诅咒
-cursed
-诅咒
-curse
-诅咒
-fracturing
-破碎
-fractured
-破碎
-fracture
-破碎
-jinxing
-不幸
-jinxed
-不幸
-jinx
-不幸
-maximize
-最大化
-minimize
-最小化
-aqua ring
-水流环
-energy charged
-充电
-energy charge
-充电
-recoil
-反伤
-flinch
-畏缩
-flinched
-畏缩
-flinching
-畏缩
-random added effects
-随机附加效果
-defensive stats
-双防
-offensive stats
-双攻
-trapped
-困住
-traps
-困住
-trap
-困住
-Evasion
-闪避
-two
-2
-three
-3
-four
-4
-five
-5
-six
-6
-seven
-7
-eight
-8
-nine
-9
-ten
-10
-eleven
-11
-twelve
-12
-thirteen
-13
-fourteen
-14
-fifteen
-15
-sixteen
-16
-seventeen
-17
-eighteen
-18
-nineteen
-19
-twenty
-20
-twice
-两次
-doubles
-加倍
-double
-加倍
-three times
-三倍
-four times
-四倍
-five times
-五倍
-half
-一半
-one third
-三分之一
-two thirds
-三分之二
-one quarter
-四分之一
-three quarters
-四分之三
-one fifth
-五分之一
-1/6th
-六分之一
-1/8th
-八分之一
-1/10th
-十分之一
-1/12th
-十二分之一
-1/16th
-十六分之一
 Invalid quoted field (in: {1})
 无效引用字段 (in: {1})
 Field {1} is not a positive integer
@@ -43075,13 +42183,13 @@ You pick #{pokemon.name} up and add it to your party.
 And place #{chosenPokemon.name} down into the Estate.
 然后将#{chosenPokemon.name}放入庄园之中。
 Can't set down your last able Pokémon!
-不能放下你最后一只能够战斗的宝可梦！
+不能放下你最后一只能够战斗的精灵！
 Can't set #{pokemon.name} down into the current Estate plot because it is full.
 无法将#{pokemon.name}放入其中，因为已经满了。
 Can't set #{pokemon.name} down, the spot in front of you is blocked.
 无法将#{pokemon.name}放入其中，因为位置被占用了。
 There are no Pokémon in this plot to share stories about.
-这个剧情中没有宝可梦可以分享故事。
+这个剧情中没有精灵可以分享故事。
 I regret to say that I have no stories to share about this plot. Please come back later.
 很遗憾，我没有可以分享的故事。
 Story here involving {1}!
@@ -43611,7 +42719,7 @@ Has Signature Ability
 Has Signature
 有专属
 Search item name...
-搜索道具名称...
+搜索物品名称...
 Search map name...
 搜索地图名称...
 Non-4-Tempo
@@ -43951,11 +43059,11 @@ No Target
 Not Signature
 非专属
 Move learnable by?
-可学习该招式的宝可梦？
+可学习该招式的精灵？
 Party Pokemon
-队伍中的宝可梦
+队伍中的精灵
 Caught Pokemon
-已捕获的宝可梦
+已捕获的精灵
 Which sort
 哪种排序
 Value must be provided when applying effect #{effectData.name} (it's not a boolean)
@@ -44183,21 +43291,21 @@ The battle begins with sandstorm. The effects of sandstorm are doubled.
 Forevers Traversed yet Ever No Better
 前路已尽无处走，笑谈归去再从头。
 Your Pokémon lose 10 levels for this fight. EXP goes to the Dispenser.
-你的宝可梦在这场战斗中会失去10个等级。经验值会进入分配器。
+你的精灵在这场战斗中会失去10个等级。经验值会进入分配器。
 Ought Not the Foxtrot to Triple Aught of What We Sought?
 难道狐步舞不是我们所寻求的三倍零吗？
 Enemy Pokémon all have an extra ability!
-敌方宝可梦都有一个额外的特性！
+敌方精灵都有一个额外的特性！
 Your Pokémon don't get extra damage on their same-type attacks.
-你的宝可梦失去本系加成。
+你的精灵失去本系加成。
 forge a blade<<n>>from gold/<<n>>pluck out its<<n>>silhouette and/<<n>>wield the<<n>>shadow too!
 金铁交鸣铸其形，锋芒尽出不见影。
 Enemy Pokémon all have an extra item.
-敌方宝可梦都有一个额外的道具。
+敌方精灵都有一个额外的物品。
 A Portrait of the Opposition in Radiant Ulfire and Stygian Blue
 幽蓝璀焰焚不灭，一闪一绘照邪心。
 Enemy Pokémon all have an extra type.
-敌方宝可梦都有一个额外的属性。
+敌方精灵都有一个额外的属性。
 The Visitation of the Illusive Inevitable: Landfall
 万恶尽行终受戮，凡躯岂敢蒙上苍。
 Yezera won't leave the battle early. This is a true fight!
@@ -44223,15 +43331,15 @@ Enemy attacks always activate their additional effects.
 A Litany of Lullabies, Seldom Sung
 曲终收拨当心画，四弦一声如裂帛。
 Your Pokémon gain the "Perish Song" status when they enter battle.
-你的宝可梦在进入战斗时会获得“灭亡之歌”状态。
+你的精灵在进入战斗时会获得“灭亡之歌”状态。
 Enemy Pokemon recycle consumed items at end of turn. Stolen items turn to dust.
-敌方宝可梦在回合结束时回收消耗的道具。被盗的道具会消失。
+敌方精灵在回合结束时回收消耗的物品。被盗的物品会消失。
 The battle begins with sandstorm. The foe has extra sandstorm abilities!
 战斗从沙暴中开始， 对方拥有了额外的沙暴特性！
 Every Beat Betrays the Beast's Burden
 钿头银篦击节碎，血色罗裙翻酒污。
 After your Pokémon attack, the attacking stat that was used is lowered by 4 steps.
-你的宝可梦攻击后，使用的使用的那一项攻击会降低4级。
+你的精灵攻击后，使用的使用的那一项攻击会降低4级。
 Gored Upon the Horns of the Dilemma - Boredom or the Path of Thorns?
 四面群山皆囹圄，何方归去见青天？
 Your side gains spikes each turn, except if removed that turn.
@@ -44241,21 +43349,21 @@ You were spared from spikes this turn!
 Pyres raised<<n>>Here we meet<<n>>Spirits razed<<n>>Reduced to meat
 粉身碎骨浑不怕，要留清白在人间。
 Status conditions affect your Pokémon twice as much!<<n>>Foes ignore the Status Clause!
-异常状态对你的宝可梦影响加倍！<<n>>敌方无视全状态睡眠条款！
+异常状态对你的精灵影响加倍！<<n>>敌方无视全状态睡眠条款！
 Shall Our Truth Lay Asunder Thy Masque and Thee?
 追寻半生尽得志，破去虚妄洗新城。
 Whenever an enemy Pokémon enters at full health, it forms a substitute.
-每当敌方宝可梦以满血进入时，它会生成一个替身。
+每当敌方精灵以满血进入时，它会生成一个替身。
 Bedecked with Iron, Bedighted with Venom, Bewinged with Vaults Open and Weapons Free
 角声满天秋色里，塞上燕脂凝夜紫。
 Opposing Pokémon hold super-powerful items. Stolen items turn to dust.
-对方宝可梦持有超强道具。被盗的道具会消失。
+对方精灵持有超强物品。被盗的物品会消失。
 Lucid? Lose it. Lunacy looms lucent. Let loose.
 尽兴一杯忘忧愁，纵欢纵情纵美酒。
 Your Pokémon are Tormented on entry.
-你的宝可梦在出场时会受到无理取闹。
+你的精灵在出场时会受到无理取闹。
 Neutral attacks against your Pokémon are instead Super Effective.
-对你宝可梦的效果一般的攻击反而会变得效果拔群。
+对你精灵的效果一般的攻击反而会变得效果拔群。
 Thy Inimitability, Incapable Imposture. My Immanence, Inconceivable Immaculacy.
 君生高洁涤凡尘，妾意灼灼不敢言。
 Your Super Effective attacks become Not Very Effective.
@@ -44263,7 +43371,7 @@ Your Super Effective attacks become Not Very Effective.
 O Agonal Ecstasies, Spare Us Not Our Agonies
 行至终末须尽欢，今生苦短莫为难。
 When enemy Pokémon faint, they deal a quarter of their HP as damage to their last attacker.
-当敌方宝可梦失去意识时，它们会对最后的攻击者造成其HP四分之一的伤害。
+当敌方精灵失去意识时，它们会对最后的攻击者造成其HP四分之一的伤害。
 #{battler.pbThis} takes its vengeance!
 #{battler.pbThis}正在报仇雪恨！
 I chose a move!
@@ -44271,27 +43379,27 @@ I chose a move!
 You chose a move!
 你选择了一个招式！
 My Pokémon fainted!
-我的宝可梦失去意识了！
+我的精灵失去意识了！
 Your Pokémon fainted!
-你的宝可梦失去意识了！
+你的精灵失去意识了！
 I sent out a Pokémon!
-我派出了一只宝可梦！
+我派出了一只精灵！
 You sent out a Pokémon!
-你派出了一只宝可梦！
+你派出了一只精灵！
 Wow, I've never seen that Pokémon before!
-哇，我以前从没见过这种宝可梦！
+哇，我以前从没见过这种精灵！
 I'm gonna check my !
 我要去查一下我的！
 Bounsweet, it says. Playful, but a little dangerous!
 它说这是甜栗鼠。顽皮，但有点危险！
 Numel, huh? Fire-type--hope I don't get burned!
-是熔岩熊猫吗？火系宝可梦——希望我不会被烧到！
+是熔岩熊猫吗？火系精灵——希望我不会被烧到！
 Krabby... a Water-type... with massive attack power, wow!
 大钳蟹……水系……攻击力惊人，哇！
 My Pokémon took move damage!
-我的宝可梦受到了招式的伤害！
+我的精灵受到了招式的伤害！
 Your Pokémon took move damage!
-你的宝可梦受到了招式的伤害！
+你的精灵受到了招式的伤害！
 Thought ya'd be better than that, honestly.
 我本以为你会更强。
 Had to commit a few choice sins ta catch this fella, but it was well worth it.
@@ -44645,13 +43753,13 @@ Can't have battles larger than 2v2 where both sides have multiple trainers
 Error: def pbGetOwnerIndexFromBattlerIndex gives invalid owner index ({1} for battle type {2}v{3}, trainers {4}v{5})
 错误：def pbGetOwnerIndexFromBattlerIndex给出了无效的所有者索引（{1}，战斗类型为{2}对{3}，训练师为{4}对{5}）
 Player-side trainer {1} has no battler position for their Pokémon to go (trying {2}v{3} battle)
-玩家方训练师{1}没有为他们的宝可梦设置战斗位置（尝试进行{2}对{3}的战斗）
+玩家方训练师{1}没有为他们的精灵设置战斗位置（尝试进行{2}对{3}的战斗）
 Opposing trainer {1} has no battler position for their Pokémon to go (trying {2}v{3} battle)
-对手训练师{1}没有为他们的宝可梦设置战斗位置（尝试进行{2}对{3}的战斗）
+对手训练师{1}没有为他们的精灵设置战斗位置（尝试进行{2}对{3}的战斗）
 Player-side trainer {1} has no able Pokémon
-玩家方训练师{1}没有能够战斗的宝可梦
+玩家方训练师{1}没有能够战斗的精灵
 Opposing trainer {1} has no able Pokémon
-对手训练师{1}没有能够战斗的宝可梦
+对手训练师{1}没有能够战斗的精灵
 Couldn't lower either side's size any further, battle isn't possible
 无法进一步降低双方的规模，战斗无法进行
 Battler index {1} already exists
@@ -44743,7 +43851,7 @@ You gave ${1} to the winner...
 You panicked and dropped ${1}...
 你不小心掉了<<n>>${1}...
 Some of your Pokémon fainted in battle.
-你的一些宝可梦在战斗中濒死了。
+你的一些精灵在战斗中濒死了。
 You defeated {1}!
 你打败了<<n>>{1}！
 You defeated {1} and {2}!
@@ -44827,9 +43935,9 @@ Gotcha! {1} was caught!
 \ss#{msg}\<<1>>
 \ss#{msg}\<<1>>
 Party 1 has no Pokémon.
-队伍1没有宝可梦。
+队伍1没有精灵。
 Party 2 has no Pokémon.
-队伍2没有宝可梦。
+队伍2没有精灵。
 {1} wiped the slate clean.
 {1}的能力等级被清空了。
 A great energy rises up from inside {1}!
@@ -45111,7 +44219,7 @@ You were <imp>ambushed</imp>! The foe gets a free turn!
 You can only Switch. Do you want to skip?
 你只能切换。你想跳过吗？
 You can't catch trainers' Pokémon!
-你不能捕捉训练师的宝可梦！
+你不能捕捉训练师的精灵！
 You can't catch Avatars!
 你不能抓化身！
 {1} was overwhelmed with emotion!
@@ -45185,7 +44293,7 @@ Run
 You already caught a {1}.
 你捕获了{1}。
 STOCK POKéMON:<<n>>{1} Lv.{2} MaxHP: {3}<<n>>THIS POKéMON:<<n>>{4} Lv.{5} MaxHP: {6}
-库存宝可梦：<<n>>{1} Lv.{2} 最大HP：{3}<<n>>当前宝可梦：<<n>>{4} Lv.{5} 最大HP：{6}
+库存精灵：<<n>>{1} Lv.{2} 最大HP：{3}<<n>>当前精灵：<<n>>{4} Lv.{5} 最大HP：{6}
 Switch Pokémon?
 更换精灵吗？
 Caught {1}!
@@ -45255,7 +44363,7 @@ Expected a level after being given {1}, but one wasn't found.
 {1} recycled one {2}!
 {1}回收了一个{2}！
 Error: Asked to remove item #{item} from #{pbThis(true)}, but it doesn't have that item
-错误：要求从#{pbThis(true)}中移除道具#{item}，但它并没有那个道具
+错误：要求从#{pbThis(true)}中移除物品#{item}，但它并没有那个物品
 HP less than 0
 HP小于0
 HP greater than total HP
@@ -45315,7 +44423,7 @@ You sense the presence of many!
 {1}'s Ability became {2}!
 {1}的特性变成了{2}！
 An egg can't be an active Pokémon.
-蛋不是能活跃的宝可梦。
+蛋不是能活跃的精灵。
 the opposing {1}
 对手的{1}
 the avatar of {1}
@@ -45467,7 +44575,7 @@ It doesn't affect {1} since it's an {2}-type...
 {1}'s team is protected by Safeguard!
 {1}的队伍被神秘守护保护着！
 It doesn't affect {1} because another Pokémon in the party is already under this status!
-这不会影响{1}，因为队伍中的另一只宝可梦已经处于这种状态！
+这不会影响{1}，因为队伍中的另一只精灵已经处于这种状态！
 {1} refuses to gain a status condition!
 {1}没有获得异常状态！
 {1} fell asleep! {2}!
@@ -46161,11 +45269,11 @@ Poison Spikes were scattered all around {1}'s feet!
 The Poison Spikes around {1}'s feet were swept aside!
 {1}脚下周围的毒菱<<n>>被扫开了！
 Flame Spikes were scattered all around {1}'s feet!
-火菱<<n>>撒在了{1}周围！
+焰菱<<n>>撒在了{1}周围！
 {1} layers of Flame Spikes were scattered all around {2}'s feet!
-{2}脚下周围散落着<<n>>{1}层火菱！
+{2}脚下周围散落着<<n>>{1}层焰菱！
 The Flame Spikes around {1}'s feet were swept aside!
-{1}脚下周围的火菱<<n>>被扫开了！
+{1}脚下周围的焰菱<<n>>被扫开了！
 Frost Spikes were scattered all around {1}'s feet!
 冰菱<<n>>撒在了{1}周围！
 {1} layers of Frost Spikes were scattered all around {2}'s feet!
@@ -46465,9 +45573,9 @@ What are Style Points?
 I'm the Style Points adjuster. How can I help?
 我是风格点数调节器。我能帮到你什么？
 Style Points are numbers which have an effect on your Pokemon's stats.
-风格点数是影响你宝可梦属性的数字。
+风格点数是影响你精灵属性的数字。
 Pokemon start with 10 Style Points in each of their stats.
-宝可梦的每个属性都从10风格点数开始。
+精灵的每个属性都从10风格点数开始。
 To add Style Points to a stat, you have to remove them from another.
 要为一个属性增加风格点数，你必须从另一个属性中移除它们。
 Investing into Attack and Sp. Atk is extra efficient: they go up at the same time!
@@ -46475,7 +45583,7 @@ Investing into Attack and Sp. Atk is extra efficient: they go up at the same tim
 Each stat's Style Points value can go as low as 0, and can go as high as 20.
 每个属性的风格点数可以低至0，高至20。
 A Pokemon's Style Point total never changes, but Style Points give bigger stat bonuses at higher levels.
-宝可梦的风格点数总数永远不会改变，但在更高等级时，风格点数会给予更大的属性加成。
+精灵的风格点数总数永远不会改变，但在更高等级时，风格点数会给予更大的属性加成。
 If you need to move quickly, try using the Quick Set option!
 如果你需要快速移动，试试使用快速设置选项！
 {1}'s {2} cannot be removed!
@@ -46561,7 +45669,7 @@ Its disguise served it as a decoy!
 {1} lets out an arrogant laugh!
 {1}发出了傲慢的笑声！
 {1} blocked the hit with its item!
-{1}用它的道具挡住了攻击！
+{1}用它的物品挡住了攻击！
 Near the avatar, immunities are resistances!
 在化身附近，<<n>>免疫属性将视作抵抗属性！
 The Empowered attack pierced the immunity!
@@ -46702,16 +45810,12 @@ But {1} can't use it the way it is now!
 但是{1}<<n>>使用失败了！
 But it failed, since #{user.pbThis(true)} is transformed!
 但是失败了，因为#{user.pbThis(true)}已经被转换了！
-But it failed, since #{user.pbThis(true)} doesn't know Mimic!
-但是失败了，因为#{user.pbThis(true)}无法模仿！
+But it failed, since #{user.pbThis(true)} doesn't know Sketch!
+但是失败了，因为#{user.pbThis(true)}无法写生！
 But it failed, since #{target.pbThis(true)} hasn't used a move!
 但是失败了，因为#{target.pbThis(true)}不能使用技能！
 But it failed, since #{user.pbThis(true)} already knows #{target.pbThis(true)}'s most recent move!
 但是失败了，因为#{user.pbThis(true)}已经知道#{target.pbThis(true)}最近的技能了！
-But it failed, #{target.pbThis(true)}'s most recent move can't be Mimicked!
-但是失败了，#{target.pbThis(true)}最近的技能无法被模仿！
-But it failed, since #{user.pbThis(true)} doesn't know Sketch!
-但是失败了，因为#{user.pbThis(true)}无法写生！
 But it failed, #{target.pbThis(true)}'s most recent move can't be Sketched!
 但是失败了，#{target.pbThis(true)}最近的技能无法被写生！
 But it failed, since the user is already transformed!
@@ -46720,16 +45824,12 @@ But it failed, since #{target.pbThis(true)} is also transformed!
 但是失败了，因为#{target.pbThis(true)}也进行了转换！
 But it failed, since #{target.pbThis(true)} is disguised by an Illusion!
 但是失败了，因为 #{target.pbThis(true)} 是幻象伪装的！
-But #{target.pbThis(true)} has no move for #{user.pbThis(true)} to mirror!
-但是#{target.pbThis(true)}没有<<n>>#{user.pbThis(true)}可以仿效的技能！
-But #{target.pbThis(true)}'s last used move can't be mirrored!
-但是#{target.pbThis(true)}<<n>>最后使用的技能不能被效仿！
-But it failed, since there was no move to copy!
-但是它失败了，<<n>>因为没有可供复制的技能！
-But it failed, since the last used move can't be copied!
-但是它失败了，<<n>>因为最后使用的技能不能被复制！
-But it failed!
-但是失败了！
+But it failed, since the target didn't choose to use a move!
+但它失败了，因为目标没有选择使用招式！
+But it failed, since the target chose to use a status move!
+但它失败了，因为目标选择了使用状态招式！
+But it failed, since the target chose a move that can't be copied!
+但它失败了，因为目标选择了一个无法复制的招式！
 Which move should #{user.pbThis(true)} use?
 #{user.pbThis(true)}要用哪一招呢？
 But it failed, since no foe has yet used a move!
@@ -46772,10 +45872,6 @@ But it failed, since #{target.pbThis(true)}'s last used move is a two-turn move!
 但是它失败了，<<n>>因为#{target.pbThis(true)}最近使用的是<<n>>两回合的技能！
 But it failed, since #{target.pbThis(true)}'s last used move it out of PP!
 但是它失败了，<<n>>因为#{target.pbThis(true)}最近使用的<<n>>技能PP已用完！
-But it failed, since #{user.pbThis(true)} has no moves!
-但是它失败了，<<n>>因为#{user.pbThis(true)}没有技能！
-But it failed, since #{user.pbThis(true)}'s first slot move can't be shared!
-但是它失败了，<<n>>因为#{user.pbThis(true)}的第一栏技能<<n>>不能共享！
 {1} is radiating energy!
 {1}正在散发能量！
 {1} transcended its limits and transformed!
@@ -46836,6 +45932,8 @@ But it failed. since #{target.pbThis(true)} isn't using a move this turn!
 {1}<<n>>接受了好意！
 But it failed, since #{target.pbThis(true)} isn't using a move this turn!
 但是失败了，因为#{target.pbThis(true)}这个回合已经用过技能了！
+But it failed!
+但是失败了！
 But it failed, since #{target.pbThis(true)} was already forced to move last!
 但是失败了，因为#{target.pbThis(true)}已经被迫在最后出手了！
 {1}'s move was postponed!
@@ -47057,7 +46155,7 @@ But it failed, since #{target.pbThis(true)} is hiding a Masquerblade!
 But it failed, since #{target.pbThis(true)} last used move has no more PP!
 但是它失败了，<<n>>因为#{target.pbThis(true)}最后使用<<n>>的技能PP已经为0！
 But it failed, since #{target.pbThis(true)} is already barred!
-But it failed, since #{target.pbThis(true)} is already barred!
+但它失败了，因为#{target.pbThis(true)}已经被阻止了！
 But it failed, since #{target.pbThis(true)} isn't asleep!
 但是它失败了，<<n>>因为#{target.pbThis(true)}没有睡着！
 But it failed, since #{target.pbThis(true)} is already afflicted by a Nightmare!
@@ -47317,13 +46415,13 @@ But it failed, since #{user.pbThis(true)} has no party members to replace it!
 The level number ({1}) is invalid.
 等级数字（{1}）无效。
 Attempted to set {1} as Pokémon status
-尝试将{1}设置为宝可梦状态
+尝试将{1}设置为精灵状态
 #{name} is no longer Afraid. It was restored to half health!
 #{name}不再恐惧，恢复到半健康状态！
 #{name} is no longer Afraid!
 #{name}不再恐惧！
 Error: Asked to remove item #{item} from Pokémon #{name}, but it doesn't have that item
-错误：要求从宝可梦#{name}中移除道具#{item}，但它并没有那个道具
+错误：要求从精灵#{name}中移除物品#{item}，但它并没有那个物品
 #{name} can't hold a #{getItemName(:CRYSTALVEIL)}!
 #{name}无法携带 #{getItemName(:CRYSTALVEIL)}!
 #{name} can't hold two of the same item!
@@ -47345,7 +46443,7 @@ If you switch {1}'s ball, its current {2} will be thrown away.
 Are you okay with throwing away the {1}?
 你确定要扔掉{1}吗？
 Choose the Poké Ball to put {1} into.
-选择要将{1}放入的宝可梦球。
+选择要将{1}放入的精灵球。
 {1} is already inside of a {2}!
 {1}已经在{2}里面了！
 A {1} is too special to swap {2} into.
@@ -47675,7 +46773,7 @@ Hyper
 ERROR
 错误
 Receiving every major tool item.
-接收每一个主要工具道具。
+接收每一个主要工具物品。
 Circuit puzzle with ID #{circuitPuzzleID} not found. Aborting.
 未找到ID为#{circuitPuzzleID}的电路谜题。正在中止。
 Circuit puzzle with ID #{circuitPuzzleID} somehow loaded in illegal state.
@@ -47875,7 +46973,7 @@ But your Bag is full...
 A deposit of saccharite. You might be able to extract it with the proper tool.
 一处糖精矿床。你可能可以用合适的工具提取它。
 Player cannot receive a Super Item!
-玩家无法接收超级道具！
+玩家无法接收超级物品！
 \me[{1}]You obtained some \c[1]{2}\c[0]!\wtnp[30]
 \me[{1}]获得了一些\c[1]{2}\c[0]！\wtnp[30]
 \me[{1}]You obtained {2} \c[1]{3}\c[0]!\wtnp[30]
@@ -48031,7 +47129,7 @@ The fleeing trainer dropped some candies!
 Unassigned level passed to pbTrainerDropsItem: #{maxTrainerLevel}
 未分配的等级传递给pbTrainerDropsItem：#{maxTrainerLevel}
 ERROR: Could not find follower Pokémon!
-错误：找不到跟随的宝可梦！
+错误：找不到跟随的精灵！
 It's holding a {1} and a {2}!
 它携带了一个{1}和一个{2}！
 It's holding a {1}!
@@ -48061,19 +47159,19 @@ Too few bug catching contestants
 <ac>{1:02d}:{2:02d}
 <ac>{1:02d}:{2:02d}
 ANNOUNCER: BEEEEEP!
-ANNOUNCER:  BEEEEEP!
+ANNOUNCER: 哔！
 Time's up!
 时间到！
 ANNOUNCER: The Bug-Catching Contest is over!
-ANNOUNCER:  The Bug-Catching Contest is over!
+ANNOUNCER: 虫子捕捉比赛结束了！
 Catch the best Pokémon you can in {1} turns of battle!
-在{1}回合的战斗中捕捉最好的宝可梦！
+在{1}回合的战斗中捕捉最好的精灵！
 Your {1} is rated at {2}.
 你的{1}评分为{2}。
 That's a new high score!
 这是一个新的高分！
 You caught no Pokémon worth any points.
-你没有捕捉到任何值得积分的宝可梦。
+你没有捕捉到任何值得积分的精灵。
 Your best catch was a level {1} {2}, which gives you a score of {3}.
 你最好的捕获是一只等级{1}的{2}，这给你带来了{3}分的得分。
 Returning to {1}.
@@ -48085,7 +47183,7 @@ Unfortunately, that's not enough to earn a reward.
 You've run out of turns!
 你的回合用完了！
 You have #{$catching_minigame.turnsLeft} turns left in the contest.
-You have #{$catching_minigame.turnsLeft} turns left in the contest.
+你在比赛中还剩下#{catching_minigame.turnsLeft}个回合。
 It was a {1}, right? At level {2}?
 那是一只{1}，对吧？等级{2}？
 That one earned you a whoppin' {1} points.
@@ -48147,17 +47245,17 @@ How many {1} do you want to use?
 {1} gained {2} Exp. Points!
 {1}获得了{2}经验！
 You can't give {1} {2} because another Pokémon is holding the same item.
-你不能给{1} {2}，因为另一只宝可梦正在持有相同的道具。
+你不能给{1} {2}，因为另一只精灵正在持有相同的物品。
 Eggs can't hold items.
-蛋不能携带道具。
+蛋不能携带物品。
 Swap its items with the #{newitemname}?
-将其道具与#{newitemname}交换？
+将其物品与#{newitemname}交换？
 Would you like to switch the two items?
-你想交换这两个道具吗？
+你想交换这两个物品吗？
 Took the {1} from {2} and gave it the {3}.
 从{2}那里拿走了{1}并给了它{3}。
 Could't re-store deleted item in Bag somehow
-不知为何无法将删除的道具重新存入背包
+不知为何无法将删除的物品重新存入背包
 The Bag is full. The Pokémon's item could not be removed.
 背包满了，无法取出这个物品。
 {1} is now holding the {2}.
@@ -48227,7 +47325,7 @@ Where would you like to go?
 The Chroma Clarion cannot be used here!
 彩鸣号角在这里无法使用！
 You must have at least 3 able Pokémon to use the Chroma Clarion!
-使用彩鸣号角至少需要有3只能够战斗的宝可梦！
+使用彩鸣号角至少需要有3只能够战斗的精灵！
 The Chroma Clarion is silent. Traverse wild areas to recharge it.
 彩鸣号角沉默了。穿越野生区域以重新充电。
 The Chroma Clarion goes silent.
@@ -48247,7 +47345,7 @@ Want to escape from here and return to {1}?
 It has no effect on Pokémon other than Shaymin.
 对谢米之外的精灵无影响。
 This can't be used on the fainted Pokémon.
-这个不能用于失去意识的宝可梦。
+这个不能用于失去意识的精灵。
 {1} changed Forme!
 {1}改变了形态！
 It has no effect on Pokémon other than Tornadus, Thundurus, Landorus, or Enamorus.
@@ -48259,17 +47357,17 @@ You cannot use this item in this menu.
 It has no effect on Pokémon other than Kyurem.
 对酋雷姆之外的精灵无效。
 Fuse with which Pokémon?
-与哪只宝可梦融合？
+与哪只精灵融合？
 It cannot be fused with itself.
 它不能与自己融合。
 It cannot be fused with an Egg.
 它不能与蛋融合。
 It cannot be fused with that fainted Pokémon.
-它不能与那只失去意识的宝可梦融合。
+它不能与那只失去意识的精灵融合。
 It cannot be fused with that Pokémon.
-它不能与那只宝可梦融合。
+它不能与那只精灵融合。
 You have no room to separate the Pokémon.
-你没有空间来分开宝可梦。
+你没有空间来分开精灵。
 It has no effect on Pokémon other than Necrozma.
 对奈克洛兹玛之外的精灵无效。
 It has no effect on Pokémon other than Calyrex.
@@ -48279,7 +47377,7 @@ Disperse the Gleam Powder?
 You disperse the Gleam Powder.
 你散布了闪光粉。
 The scent of the Gleam Powder pulls a shiny Pokémon towards you!
-闪光粉的气味吸引了一只闪光宝可梦向你靠近！
+闪光粉的气味吸引了一只闪光精灵向你靠近！
 ... \wt[10]... \wt[10]... \wt[10]...\wt[10]Nope! There's no response.
 ... \wt[10]... \wt[10]... \wt[10]...\wt[10]没有！没有一点回应！
 The {1}'s indicating something right underfoot!
@@ -48311,7 +47409,7 @@ The Noise Machine is now off.
 The Noise Machine begins playing a high-pitched noise.
 噪声机械开始播放高音噪音。
 Wild Pokémon are now repelled!
-野生宝可梦现在被驱赶了！
+野生精灵现在被驱赶了！
 The Noise Machine begins playing soothing sounds.
 噪音机器开始播放舒缓的声音。
 Wild Pokémon are now drawn to you!
@@ -48333,11 +47431,11 @@ There is no room left in the PC!
 It's impossible to aim without being focused!
 如果不集中注意力，就不可能瞄准！
 It's no good! It's impossible to aim at a Pokémon that's not in sight!
-没用的！不可能瞄准看不见的宝可梦！
+没用的！不可能瞄准看不见的精灵！
 It's no good! It's impossible to aim when there are two Pokémon!
-没用的！当有两只宝可梦时，不可能瞄准！
+没用的！当有两只精灵时，不可能瞄准！
 It's no good! It's impossible to aim when there are more than one Pokémon!
-没用的！当有多于一只宝可梦时，不可能瞄准！
+没用的！当有多于一只精灵时，不可能瞄准！
 There's no one near by to use the Poké X-Ray on!
 附近没有可以使用宝可检测的人！
 Point the Poké X-Ray at which trainer?
@@ -48483,11 +47581,11 @@ Oh, some strange items were left behind!
 \db[Items/TAROTAMULET]You turn the Tarot Amulet to its back face. It is now disabled.\wtnp[60]
 \db<<[>>Items/TAROTAMULET<<]>>你把塔罗牌护符翻到了背面。<<n>>它现在被禁用了。\wtnp<<[>>60<<]>>
 Which form shall the Pokémon take?
-宝可梦将采取哪种形态？
+精灵将采取哪种形态？
 #{pkmn.name} swapped to #{possibleFormNames[choice]}!
 #{pkmn.name}更改为#{possibleFormNames[choice]}！
 Cannot use this item on that Pokémon.
-不能在这个宝可梦上使用这个道具。
+不能在这个精灵上使用这个物品。
 {1}'s Ability changed to {2}!
 {1}的特性变成了{2}！
 {1}{2}<<n>>{3}HP: {4}
@@ -48657,7 +47755,7 @@ Congratulations!
 You can receive even more Coins in the next game!
 你可以在下一局游戏中获得更多的代币！
 If you quit now, you will recieve {1} Coin(s). Will you quit?
-If you quit now, you will recieve {1} Coin(s). Will you quit?
+如果你现在退出，你将获得{1}个代币。你要退出吗？
 {1} received {2} Coin(s)!
 {1}获得了{2}个代币！
 You can't play unless you have a Coin Case.
@@ -48675,7 +47773,7 @@ The game has detected that the battery is low. You should save soon to avoid los
 {1} survived the frostbite.\<<n>>The frostbite faded away!<<1>>
 {1}撑住了冻伤。\<<n>>冻伤消失了！<<1>>
 You have no more Pokémon that can fight!<<1>>
-你没有更多可以战斗的宝可梦了！<<1>>
+你没有更多可以战斗的精灵了！<<1>>
 You blacked out!
 你失去意识了！
 The repellent's effect wore off! Would you like to use another one?
@@ -48763,19 +47861,19 @@ Teach which Pokémon?
 Screenshot saved to folder {1}<<1>>
 截图已保存到文件夹{1}<<1>>
 There's no more room for Pokémon!<<1>>
-没有更多空间放置宝可梦了！<<1>>
+没有更多空间放置精灵了！<<1>>
 The Pokémon Boxes are full and can't accept any more!
-宝可梦箱子已满，无法再接受更多！
+精灵箱子已满，无法再接受更多！
 Choose which Pokémon will be sent back to the PC.
-选择哪只宝可梦将被送回电脑。
+选择哪只精灵将被送回电脑。
 {1} is holding multiple items. Take them before transferring?
 {1}正携带着多个物品，要将它们取下来吗？
 {1} is holding an {2}. Would you like to take it before transferring?
 {1}正携带着 {2}，要将其取下来吗？
 Box "{1}" on the Pokémon Storage PC is a donation box.<<1>>
-宝可梦存储电脑中的"{1}"箱是一个捐赠箱。<<1>>
+精灵存储电脑中的"{1}"箱是一个捐赠箱。<<1>>
 Box "{1}" on the Pokémon Storage PC was full.<<1>>
-宝可梦存储电脑中的"{1}"箱已满。<<1>>
+精灵存储电脑中的"{1}"箱已满。<<1>>
 {1} was transferred to box "{2}."
 {1}被存放在箱子"{2}"中。
 {1} was transferred to the Pokémon Storage PC.<<1>>
@@ -48789,9 +47887,9 @@ It's a <imp>shiny</imp> Pokémon!
 {1} obtained {2}!\me<<[>>Pkmn get<<]>>\wtnp<<[>>80<<]>><<1>>
 {1}获得了{2}！\me<<[>>Pkmn get<<]>>\wtnp<<[>>80<<]>><<1>>
 \me<<[>>Pkmn get<<]>>{1} received a Pokémon from {2}.<<1>>
-\me<<[>>Pkmn get<<]>>{1}从{2}那里收到了一只宝可梦。<<1>>
+\me<<[>>Pkmn get<<]>>{1}从{2}那里收到了一只精灵。<<1>>
 \me<<[>>Pkmn get<<]>>{1} received a Pokémon.<<1>>
-\me<<[>>Pkmn get<<]>>{1}收到了一只宝可梦。<<1>>
+\me<<[>>Pkmn get<<]>>{1}收到了一只精灵。<<1>>
 Encounter type {1} does not exist
 遭遇类型{1}不存在
 Trial complete.
@@ -49389,7 +48487,7 @@ Woah! {1} suddenly hugged {2}.
 \me[{1}]#{pokename} found a \c[1]{2}\c[0]!\wtnp[30]
 \me[{1}]#{pokename}得到一个\c[1]{2}\c[0]！\wtnp[30]
 #{pokename} put the {1} away\<<n>>in the <icon=bagPocket{2}>\c<<[>>1<<]>>{3} Pocket\c<<[>>0<<]>>.
-#{pokename} put the {1} away\<<n>>in the <icon=bagPocket{2}>\c<<[>>1<<]>>{3} Pocket\c<<[>>0<<]>>.
+#{pokename}将{1}放进了\<<n>><icon=bagPocket{2}>\c<<[>>1<<]>>{3}口袋\c<<[>>0<<]>>。
 #{pokename} found some \c[1]{1}\c[0]!\wtnp[30]
 #{pokename}得到一些\c[1]{1}\c[0]！\wtnp[30]
 #{pokename} found \c[1]{1} {2}\c[0]!\wtnp[30]
@@ -49401,7 +48499,7 @@ Woah! {1} suddenly hugged {2}.
 #{pokename} found a \c[1]{1}\c[0]!\wtnp[30]
 #{pokename}得到一个\c[1]{1}\c[0]！\wtnp[30]
 Converting Pokémon overworlds {1}/{2}...
-正在转换宝可梦的世界地图{1}/{2}...
+正在转换精灵的世界地图{1}/{2}...
 There are no encounters on this map.
 这张地图没有野生精灵。
 Would you like to get all these Pokémon?
@@ -49447,9 +48545,9 @@ Couldn't find class {1} in module GameData.
 -
 -
 Individual values for the Pokémon's {1} stat (0-{2}).
-宝可梦的{1}属性的个体值（0-{2}）。
+精灵的{1}属性的个体值（0-{2}）。
 Effort values for the Pokémon's {1} stat (0-{2}).
-宝可梦的{1}属性的努力值（0-{2}）。
+精灵的{1}属性的努力值（0-{2}）。
 Total EVs ({1}) are greater than allowed ({2}). Please reduce them.
 总努力值（{1}）超过了允许的最大值（{2}）。请减少它们。
 Trainer Type
@@ -49509,17 +48607,17 @@ Choose a weather effect.
 Set the probability of the weather.
 设置天气的概率。
 Choose a pocket for this item.
-选择这个道具的口袋。
+选择这个物品的口袋。
 No Pocket
 无口袋
 Base {1}
 基础{1}
 Base {1} stat of the Pokémon.
-宝可梦的基础{1}属性。
+精灵的基础{1}属性。
 {1} EVs
 {1}努力值
 Number of {1} Effort Value points gained from the Pokémon.
-从宝可梦获得的{1}努力值点数。
+从精灵获得的{1}努力值点数。
 <<[>>ADD MOVE<<]>>
 <<[>>添加招式<<]>>
 Choose a level.
@@ -49557,7 +48655,7 @@ Probability
 Relative probability of choosing this slot.
 选择这个槽的相对概率。
 A Pokémon species/form.
-一个宝可梦种类/形态。
+一个精灵种类/形态。
 Minimum level
 最低等级
 Minimum level of this species (1-{1}).
@@ -49577,7 +48675,7 @@ There are no files.
 <<[>>NEW SPECIES<<]>>
 <<[>>新种类<<]>>
 <<[>>NEW ITEM<<]>>
-<<[>>新道具<<]>>
+<<[>>新物品<<]>>
 <<[>>NEW TRAINER TYPE<<]>>
 <<[>>新训练师类型<<]>>
 <<[>>NEW TRAINER BATTLE<<]>>
@@ -49597,17 +48695,17 @@ Battle options...
 Start battles, reset this map's trainers, ready rematches, edit roamers, etc.
 开始战斗，重置这张地图的训练师，准备重赛，编辑漫游者等。
 Pokémon options...
-宝可梦选项...
+精灵选项...
 Give Pokémon, heal party, fill/empty PC storage, etc.
-给予宝可梦，治愈队伍，填满/清空电脑存储等。
+给予精灵，治愈队伍，填满/清空电脑存储等。
 Item options...
-道具选项...
+物品选项...
 Give and take items.
-给予和取回道具。
+给予和取回物品。
 Player options...
 玩家选项...
 Set money, badges, Pokédexes, player's appearance and name, etc.
-设置金钱，徽章，宝可梦图鉴，玩家的外观和名字等。
+设置金钱，徽章，精灵图鉴，玩家的外观和名字等。
 Information editors...
 信息编辑器...
 Edit information in the PBS files, terrain tags, battle animations, etc.
@@ -49649,13 +48747,13 @@ Level/stats...
 Set level
 设置等级
 Set the Pokémon's level (max. {1}).
-设置宝可梦的等级（最大{1}）。
+设置精灵的等级（最大{1}）。
 Set Exp
 设置经验值
 {1} is at the maximum level.
 {1}已达到最高等级。
 Set the Pokémon's Exp (range {1}-{2}).
-设置宝可梦的经验值（范围{1}-{2}）。
+设置精灵的经验值（范围{1}-{2}）。
 Randomize PID
 随机化个人ID
 Personal ID is {1}.
@@ -49665,7 +48763,7 @@ Randomise pID
 Set happiness
 设置亲密度
 Set the Pokémon's happiness (max. 255).
-设置宝可梦的亲密度（最大255）。
+设置精灵的亲密度（最大255）。
 Reset Personality
 重置性格
 Reset {1}'s personality.
@@ -49675,27 +48773,27 @@ Contest stats...
 Set Beauty
 设置美丽度
 Set the Pokémon's Beauty (max. 255).
-设置宝可梦的美丽度（最大255）。
+设置精灵的美丽度（最大255）。
 Set Cool
 设置酷炫度
 Set the Pokémon's Cool (max. 255).
-设置宝可梦的酷炫度（最大255）。
+设置精灵的酷炫度（最大255）。
 Set Cute
 设置可爱度
 Set the Pokémon's Cute (max. 255).
-设置宝可梦的可爱度（最大255）。
+设置精灵的可爱度（最大255）。
 Set Smart
 设置智慧度
 Set the Pokémon's Smart (max. 255).
-设置宝可梦的智慧度（最大255）。
+设置精灵的智慧度（最大255）。
 Set Tough
 设置坚韧度
 Set the Pokémon's Tough (max. 255).
-设置宝可梦的坚韧度（最大255）。
+设置精灵的坚韧度（最大255）。
 Set Sheen
 设置光泽度
 Set the Pokémon's Sheen (max. 255).
-设置宝可梦的光泽度（最大255）。
+设置精灵的光泽度（最大255）。
 Moves...
 招式...
 Teach move
@@ -49739,17 +48837,17 @@ Reset initial moves
 {1}'s moves were set as its first-known moves.
 {1}的招式被设置为其最初学会的招式。
 Set item
-设置道具
+设置物品
 Replace items
-替换道具
+替换物品
 Remove items
-移除道具
+移除物品
 Add item
-添加道具
+添加物品
 {1}: {2}.
 {1}：{2}。
 No item.
-无道具。
+无物品。
 Set ability
 设置特性
 Set possible ability
@@ -49781,7 +48879,7 @@ Unnamed form
 Species {1} only has one form.
 种类{1}只有一种形态。
 Set the Pokémon's form.
-设置宝可梦的形态。
+设置精灵的形态。
 This species decides its own form. Override?
 这个种类自己决定形态。要覆盖吗？
 Cosmetic info...
@@ -49797,7 +48895,7 @@ Make shiny
 Make normal
 使其普通
 Set Poké Ball
-设置宝可梦球
+设置精灵球
 {1} used.
 已使用{1}。
 Set ribbons
@@ -49819,9 +48917,9 @@ Set {1}'s Shade Shift (Gameplay range is {2} to {3}).
 Ownership...
 所有权...
 Player's Pokémon<<n>>{1}<<n>>{2}<<n>>{3} ({4})
-玩家的宝可梦<<n>>{1}<<n>>{2}<<n>>{3} ({4})
+玩家的精灵<<n>>{1}<<n>>{2}<<n>>{3} ({4})
 Foreign Pokémon<<n>>{1}<<n>>{2}<<n>>{3} ({4})
-外国宝可梦<<n>>{1}<<n>>{2}<<n>>{3} ({4})
+外国精灵<<n>>{1}<<n>>{2}<<n>>{3} ({4})
 Make player's
 使其成为玩家的
 Set OT's name
@@ -49847,7 +48945,7 @@ Egg (hatches in {1} steps).
 Make egg
 制作蛋
 Make Pokémon
-制作宝可梦
+制作精灵
 Set steps left to 1
 将剩余步数设置为1
 {1} cannot legally be an egg. Make egg anyway?
@@ -49855,17 +48953,17 @@ Set steps left to 1
 Duplicate
 复制
 Are you sure you want to copy this Pokémon?
-你确定要复制这只宝可梦吗？
+你确定要复制这只精灵吗？
 The Pokémon was duplicated.
-宝可梦已复制。
+精灵已复制。
 The duplicated Pokémon was moved to your party.
-复制的宝可梦已移至你的队伍。
+复制的精灵已移至你的队伍。
 All boxes are full.
 所有箱子都满了。
 The duplicated Pokémon was moved to box "{1}."
-复制的宝可梦已被移至"{1}"箱。
+复制的精灵已被移至"{1}"箱。
 Are you sure you want to delete this Pokémon?
-你确定要删除这只宝可梦吗？
+你确定要删除这只精灵吗？
 Changelogs...
 变更日志...
 Generate species changelogs of various types.
@@ -49881,15 +48979,15 @@ See the changelog for each species between the Old and New pokemon.txt files.
 Generate changelog per generation
 按世代生成变更日志
 Generate a species changelog per generation of Pokémon
-按宝可梦世代生成物种变更日志
+按精灵世代生成物种变更日志
 Generate dex doc
 生成图鉴文档
 Generate a document that describes all current species details like a dex
-生成一份描述所有当前宝可梦种类细节的文档，类似于图鉴
+生成一份描述所有当前精灵种类细节的文档，类似于图鉴
 Generate dex doc by generation
 按世代生成图鉴文档
 Generate a series document that describes all current species details like a dex, split by generation
-生成一系列文档，按世代划分，描述所有当前宝可梦种类的细节，类似于图鉴
+生成一系列文档，按世代划分，描述所有当前精灵种类的细节，类似于图鉴
 Species changelog written to #{fileName}
 物种变更日志已写入#{fileName}
 Evolves from {1} {2}
@@ -49899,19 +48997,19 @@ Evolves into {1} {2}
 Find Text In Events
 在事件中查找文本
 Find events which have a peice of text in the params of their command list.
-Find events which have a peice of text in the params of their command list.
+查找命令列表参数中包含某段文本的事件。
 Results printed to console.
 结果已打印到控制台。
 Replace Text In Events
 在事件中替换文本
 Find events which have a peice of text in the params of their command list, and replace them with a new string.
-Find events which have a peice of text in the params of their command list, and replace them with a new string.
+查找命令列表参数中包含某段文本的事件，并用新字符串替换它们。
 Analyze item distribution
-分析道具分布
+分析物品分布
 Find the locations of all item distributions.
-查找所有道具分布的位置。
+查找所有物品分布的位置。
 Item distribution analysis written to Analysis/item_distribution.txt
-道具分布分析已写入Analysis/item_distribution.txt
+物品分布分析已写入Analysis/item_distribution.txt
 Count smashable rocks
 统计可破坏的岩石
 Find the locations of all smashable rocks.
@@ -49989,21 +49087,21 @@ List all primeval moves.
 Primeval moves information written to Analysis/primeval_moves.txt
 远古招式信息已写入Analysis/primeval_moves.txt
 List held items
-列出携带道具
+列出携带物品
 List all items that the player's Pokémon can hold for use in battle.
-列出玩家的宝可梦在战斗中可以携带的所有道具。
+列出玩家的精灵在战斗中可以携带的所有物品。
 Held item information written to Analysis/held_items.txt
-携带道具信息已写入Analysis/held_items.txt
+携带物品信息已写入Analysis/held_items.txt
 List super items
-列出超级道具
+列出超级物品
 List all super items used in curses.
-列出在诅咒中使用的全部超级道具。
+列出在诅咒中使用的全部超级物品。
 Held item information written to Analysis/held_items_super.txt
-携带道具信息已写入Analysis/held_items_super.txt
+携带物品信息已写入Analysis/held_items_super.txt
 Count tribes
 统计族群
 Count how many Pokémon are in each tribe.
-统计每个族群中有多少宝可梦。
+统计每个族群中有多少精灵。
 Output the tribes count to the console.
 将族群数量输出到控制台。
 Check Battle Legality
@@ -50015,29 +49113,29 @@ Any legality errors written into the console.
 Test Wild Battle
 测试野生战斗
 Start a single battle against a wild Pokémon. You choose the species/level.
-开始一场与野生宝可梦的单人战斗。你选择种类/等级。
+开始一场与野生精灵的单人战斗。你选择种类/等级。
 Set the wild {1}'s level.
 设置野生{1}的等级。
 Test Wild Battle Advanced
 高级测试野生战斗
 Start a battle against 1 or more wild Pokémon. Battle size is your choice.
-开始一场与1个或多个野生宝可梦的战斗。战斗规模由你选择。
+开始一场与1个或多个野生精灵的战斗。战斗规模由你选择。
 <<[>>Add Pokémon<<]>>
-<<[>>添加宝可梦<<]>>
+<<[>>添加精灵<<]>>
 <<[>>Set player side size<<]>>
 <<[>>设置玩家方规模<<]>>
 <<[>>Start {1}v{2} battle<<]>>
 <<[>>开始{1}对{2}的战斗<<]>>
 No Pokémon were chosen, cannot start battle.
-未选择宝可梦，无法开始战斗。
+未选择精灵，无法开始战斗。
 You only have one Pokémon.
-你只有一只宝可梦。
+你只有一只精灵。
 Choose the number of battlers on the player's side (max. {1}).
 选择玩家方的战斗者数量（最多{1}）。
 Change this Pokémon?
-更改这只宝可梦？
+更改这只精灵？
 Delete this Pokémon?
-删除这只宝可梦？
+删除这只精灵？
 Test Trainer Battle
 测试训练师战斗
 Start a single battle against a trainer of your choice.
@@ -50057,9 +49155,9 @@ No trainers were chosen, cannot start battle.
 Opposing side size is invalid. It should be at least {1}.
 对手方规模无效。它至少应该是{1}。
 Opposing side size cannot be {1}, as that requires the first trainer to have 2 or more Pokémon, which they don't.
-对手方规模不能是{1}，因为这要求第一个训练师拥有2只或更多的宝可梦，但他们没有。
+对手方规模不能是{1}，因为这要求第一个训练师拥有2只或更多的精灵，但他们没有。
 No trainers were chosen or trainer only has one Pokémon.
-未选择训练师或训练师只有一只宝可梦。
+未选择训练师或训练师只有一只精灵。
 Choose the number of battlers on the opponent's side (max. {1}).
 选择对手方的战斗者数量（最多{1}）。
 CHOOSE A TRAINER
@@ -50093,9 +49191,9 @@ There are no trainers in the Phone.
 All trainers in the Phone are now ready to rebattle.
 电话中的所有训练师现在都准备好重新对战了。
 Roaming Pokémon
-漫游宝可梦
+漫游精灵
 Toggle and edit all roaming Pokémon.
-切换并编辑所有漫游宝可梦。
+切换并编辑所有漫游精灵。
 Set Encounters Version
 设置遭遇版本
 Choose which version of wild encounters should be used.
@@ -50137,11 +49235,11 @@ Which switch would you like to swap?
 Use PC
 使用电脑
 Use a PC to access Pokémon storage and player's PC.
-使用电脑访问宝可梦存储和玩家的电脑。
+使用电脑访问精灵存储和玩家的电脑。
 Toggle Storage Wallpapers
 切换存储壁纸
 Unlock and lock special wallpapers used in Pokémon storage.
-解锁和锁定宝可梦存储中使用的特殊壁纸。
+解锁和锁定精灵存储中使用的特殊壁纸。
 There are no special wallpapers defined.
 没有定义特殊壁纸。
 Unlock all
@@ -50151,15 +49249,15 @@ Lock all
 Day Care
 托儿所
 View Pokémon in the Day Care and edit them.
-查看托儿所中的宝可梦并编辑它们。
+查看托儿所中的精灵并编辑它们。
 Use Relic Stone
 使用遗迹之石
 Shadow Pokémon. Choose a Pokémon to show to the Relic Stone for purification.
-暗影宝可梦。选择一只宝可梦给遗迹之石进行净化。
+暗影精灵。选择一只精灵给遗迹之石进行净化。
 Use Purify Chamber
 使用净化室
 Shadow Pokémon. Open the Purify Chamber for purification.
-暗影宝可梦。打开净化室进行净化。
+暗影精灵。打开净化室进行净化。
 Turn off Self Switches A and D for all events with "Trainer" in their name.
 关闭所有名称中有“Trainer”的事件的自我开关A和D。
 Print Global Metadata
@@ -50197,7 +49295,7 @@ Edit the terrain tags of tiles in tilesets. Required for tags 8+.
 Edit Wild Encounters
 编辑野生遭遇
 Edit the wild Pokémon that can be found on maps, and how they are encountered.
-编辑地图上可以找到的野生宝可梦，以及它们是如何遭遇的。
+编辑地图上可以找到的野生精灵，以及它们是如何遭遇的。
 Edit Trainer Types
 编辑训练师类型
 Edit the properties of trainer types.
@@ -50205,27 +49303,27 @@ Edit the properties of trainer types.
 Edit Individual Trainers
 编辑个别训练师
 Edit individual trainers, their Pokémon and items.
-编辑个别训练师，他们的宝可梦和道具。
+编辑个别训练师，他们的精灵和物品。
 Edit Items
-编辑道具
+编辑物品
 Edit item data.
-编辑道具数据。
+编辑物品数据。
 Edit Pokémon
-编辑宝可梦
+编辑精灵
 Edit Pokémon species data.
-编辑宝可梦种类数据。
+编辑精灵种类数据。
 Edit Regional Dexes
 编辑地区图鉴
 Create, rearrange and delete Regional Pokédex lists.
-创建、重新排列和删除地区宝可梦图鉴列表。
+创建、重新排列和删除地区精灵图鉴列表。
 Edit Pokémon Sprite Positions
-编辑宝可梦精灵图像位置
+编辑精灵精灵图像位置
 Reposition Pokémon sprites in battle.
-重新定位战斗中的宝可梦精灵图像。
+重新定位战斗中的精灵精灵图像。
 Auto-Position All Sprites
 自动定位所有精灵图像
 Automatically reposition all Pokémon sprites in battle. Don't use lightly.
-自动重新定位战斗中的所有宝可梦精灵图像。不要轻易使用。
+自动重新定位战斗中的所有精灵精灵图像。不要轻易使用。
 Are you sure you want to reposition all sprites?
 你确定要重新定位所有精灵图像吗？
 Repositioning all sprites. Please wait.
@@ -50249,7 +49347,7 @@ Export all battle animations individually to the "Animations" folder.
 Consolidate Egg Moves
 整合蛋招式
 For every tutor move that a whole line shares, move it into the egg moves list of the lowest stage pokemon instead.
-对于整个进化线共享的每个辅导招式，将其移至最低阶段宝可梦的蛋招式列表中。
+对于整个进化线共享的每个辅导招式，将其移至最低阶段精灵的蛋招式列表中。
 Tutor moves consolidated!
 辅导招式已整合！
 Create bossified graphics
@@ -50277,11 +49375,11 @@ Enter name to put in.
 Rearrange tiles in tilesets.
 重新排列贴图集中的瓦片。
 Add Item
-添加道具
+添加物品
 Choose an item and a quantity of it to add to the Bag.
-选择一个道具及其数量添加到背包中。
+选择一个物品及其数量添加到背包中。
 ADD ITEM
-添加道具
+添加物品
 Add how many {1}?
 添加多少个{1}？
 Gave {1}x {2}.
@@ -50289,25 +49387,25 @@ Gave {1}x {2}.
 Fill Bag
 填满背包
 Add a certain number of every item to the Bag.
-将每种道具的特定数量添加到背包中。
+将每种物品的特定数量添加到背包中。
 Choose the number of items.
-选择道具的数量。
+选择物品的数量。
 The Bag was filled with {1} of each item.
-背包被每种道具的{1}个填满。
+背包被每种物品的{1}个填满。
 Empty Bag
 清空背包
 Remove all items from the Bag.
-从背包中移除所有道具。
+从背包中移除所有物品。
 The Bag was cleared.
 背包已被清空。
 Fix item pockets
-修复道具口袋
+修复物品口袋
 Remove all items from the bag, then put them back in, to reset pocket location
-从背包中移除所有道具，然后将它们放回去，以重置口袋位置
+从背包中移除所有物品，然后将它们放回去，以重置口袋位置
 Fixing item pockets.
-正在修复道具口袋。
+正在修复物品口袋。
 All items reassigned.
-所有道具已重新分配。
+所有物品已重新分配。
 Manage Mystery Gifts
 管理神秘礼物
 Edit and enable/disable Mystery Gifts.
@@ -50345,7 +49443,7 @@ File written.
 Rename Old Sprites
 重命名旧精灵图像
 Renames and moves Pokémon/item/trainer sprites from their old places.
-重命名并移动宝可梦/道具/训练师精灵图像到它们的旧位置。
+重命名并移动精灵/物品/训练师精灵图像到它们的旧位置。
 Fix Invalid Tiles
 修复无效瓦片
 Scans all maps and erases non-existent tiles.
@@ -50445,11 +49543,11 @@ Gave Pokégear.
 Lost Pokégear.
 失去宝可计。
 Toggle Pokédex and Dexes
-切换宝可梦图鉴和图鉴
+切换精灵图鉴和图鉴
 Toggle possession of the Pokédex, and edit Regional Dex accessibility.
-切换宝可梦图鉴的持有状态，并编辑地区图鉴的可访问性。
+切换精灵图鉴的持有状态，并编辑地区图鉴的可访问性。
 Have Pokédex: {1}
-拥有宝可梦图鉴：{1}
+拥有精灵图鉴：{1}
 Set Player Character
 设置玩家角色
 Edit the player's character, as defined in "metadata.txt".
@@ -50485,11 +49583,11 @@ Generate a random new ID for the player.
 The player's ID was changed to {1} (full ID: {2}).
 玩家的ID被改为了{1}（完整ID：{2}）。
 Clear Pokédex
-清空宝可梦图鉴
+清空精灵图鉴
 Clear all data from the player's Pokédex.
-清除玩家宝可梦图鉴中的所有数据。
+清除玩家精灵图鉴中的所有数据。
 The Pokédex was cleared.
-宝可梦图鉴已被清空。
+精灵图鉴已被清空。
 Set Stage
 设置阶段
 Set which Main Quest Stage the player is considered to be on.
@@ -50497,11 +49595,11 @@ Set which Main Quest Stage the player is considered to be on.
 Changed the player's main quest stage to #{MainQuestTracker.getNiceNameForStageSymbol(MAIN_QUEST_STAGES.keys[stageCmd])}.
 将玩家的主线任务阶段改为了#{MainQuestTracker.getNiceNameForStageSymbol(MAIN_QUEST_STAGES.keys[stageCmd])}。
 Add Pokémon
-添加宝可梦
+添加精灵
 Give yourself a Pokémon of a chosen species/level. Goes to PC if party is full.
-给自己一只选定种类/等级的宝可梦。如果队伍已满，则放入电脑。
+给自己一只选定种类/等级的精灵。如果队伍已满，则放入电脑。
 Set the Pokémon's level.
-设置宝可梦的等级。
+设置精灵的等级。
 Copy Trainer Party
 复制训练家队伍
 Give yourself the same party as a given trainer.
@@ -50511,13 +49609,13 @@ Copied the party of {1}.
 Heal Party
 治愈队伍
 Fully heal the HP/status/PP of all Pokémon in the party.
-完全治愈队伍中所有宝可梦的HP/状态/PP。
+完全治愈队伍中所有精灵的HP/状态/PP。
 Your Pokémon were fully healed.
-你的宝可梦已完全治愈。
+你的精灵已完全治愈。
 Delete Team
 删除队伍
 Delete the entirety of the player's team.
-删除玩家队伍中的所有宝可梦。
+删除玩家队伍中的所有精灵。
 Deleted your entire team.
 你的整个队伍已被删除。
 Quick Hatch
@@ -50529,21 +49627,21 @@ All eggs in your party now require one step to hatch.
 Fill Storage Boxes
 填满存储箱
 Add one Pokémon of each species (at Level 50) to storage.
-将每种宝可梦（等级50）各一只添加到存储中。
+将每种精灵（等级50）各一只添加到存储中。
 Storage boxes were filled with one Pokémon of each species.
-存储箱已被每种宝可梦各一只填满。
+存储箱已被每种精灵各一只填满。
 Note: The number of storage spaces ({1} boxes of {2}) is less than the number of species.
-注意：存储空间的数量（{1}个{2}盒）少于宝可梦种类的数量。
+注意：存储空间的数量（{1}个{2}盒）少于精灵种类的数量。
 Clear Storage Boxes
 清空存储箱
 Remove all Pokémon in storage.
-移除存储中的所有宝可梦。
+移除存储中的所有精灵。
 The storage boxes were cleared.
 存储箱已被清空。
 Access Pokémon Storage
-访问宝可梦存储
+访问精灵存储
 Opens the Pokémon storage boxes in Organize Boxes mode.
-以整理箱子模式打开宝可梦存储箱。
+以整理箱子模式打开精灵存储箱。
 Start the Randomizer
 启动随机器
 Starts the Randomizer
@@ -50575,9 +49673,9 @@ WARP TO MAP
 Set variable {1}.
 设置变量{1}。
 Withdraw Pokémon 1
-取出宝可梦1
+取出精灵1
 Withdraw Pokémon 2
-取出宝可梦2
+取出精灵2
 Generate egg
 生成蛋
 Collect egg
@@ -50585,15 +49683,15 @@ Collect egg
 Discard egg
 丢弃蛋
 Pokémon {1}
-宝可梦 {1}
+精灵 {1}
 Male ♂
 雄性 ♂
 Female ♀
 雌性 ♀
 Party is full, can't withdraw Pokémon.
-队伍已满，无法取出宝可梦。
+队伍已满，无法取出精灵。
 Party is empty, can't deposit Pokémon.
-队伍为空，无法存入宝可梦。
+队伍为空，无法存入精灵。
 Party is full, can't collect the egg.
 队伍已满，无法收集蛋。
 Collected the {1} egg.
@@ -50637,19 +49735,19 @@ No invalid tiles were found.
 Close RPG Maker XP to ensure the changes are applied properly.
 关闭RPG Maker XP以确保更改正确应用。
 Species {1} is not defined (trying to rename Pokémon graphic {2}).
-种类{1}未定义（尝试重命名宝可梦图像{2}）。
+种类{1}未定义（尝试重命名精灵图像{2}）。
 Converting Pokémon sprites {1}/{2}...
-正在转换宝可梦精灵图像{1}/{2}...
+正在转换精灵精灵图像{1}/{2}...
 Converting Pokémon icons {1}/{2}...
-正在转换宝可梦图标{1}/{2}...
+正在转换精灵图标{1}/{2}...
 Converting footprints {1}/{2}...
 正在转换脚印{1}/{2}...
 Converting item icons {1}/{2}...
-正在转换道具图标{1}/{2}...
+正在转换物品图标{1}/{2}...
 Item {1} is not defined (trying to rename item icon {2}).
-道具{1}未定义（尝试重命名道具图标{2}）。
+物品{1}未定义（尝试重命名物品图标{2}）。
 Converting Pokémon cries {1}/{2}...
-正在转换宝可梦叫声{1}/{2}...
+正在转换精灵叫声{1}/{2}...
 Species {1} is not defined (trying to rename species cry {2}).
 种类{1}未定义（尝试重命名种类叫声{2}）。
 Converting trainer sprites {1}/{2}...
@@ -50841,51 +49939,51 @@ It's open to a battling guide written by someone with the username "apolLyon."
 1.1 Roles/Cores
 1.1 角色/核心
 2.1 Leads
-2.1 首发宝可梦
+2.1 首发精灵
 3.2 Hazards
 3.2 场地不利因素
 Which entry would you like to read?
 你想阅读哪一项？
 Everything on your team needs a point. Every Pokémon needs a purpose.
-你队伍中的每一只宝可梦都需要一个目标。每一只宝可梦都需要一个存在的意义。
+你队伍中的每一只精灵都需要一个目标。每一只精灵都需要一个存在的意义。
 If you can't sum up its role on your team in a sentence, keep it in the PC.
 如果你不能用一句话概括它在队伍中的角色，就把它留在电脑里。
 Every bit of that Pokémon should reinforce its role. Moves, items, everything.
-那只宝可梦的每一个方面都应该强化它的角色。招式、道具，一切。
+那只精灵的每一个方面都应该强化它的角色。招式、物品，一切。
 All six Pokémon on your team need a role, narrow or broad.
-你队伍中的六只宝可梦都需要一个角色，无论这个角色是狭窄还是宽泛。
+你队伍中的六只精灵都需要一个角色，无论这个角色是狭窄还是宽泛。
 Two Pokémon with synergistic roles are called a "core."
-两只具有协同作用的宝可梦被称为一个“核心”。
+两只具有协同作用的精灵被称为一个“核心”。
 If the two of them can take hits from a whole bunch of things, that's a defensive core.
 如果它们能够承受来自许多不同攻击的伤害，这就是一个防御核心。
 If together they threaten lots of Pokémon and deal with each others' counters, that's an offensive core.
-如果它们一起对许多宝可梦构成威胁并处理彼此的对策，这就是一个进攻核心。
+如果它们一起对许多精灵构成威胁并处理彼此的对策，这就是一个进攻核心。
 Combine both and you have a balanced core. Good cores make for powerful teams.
 将两者结合，你就有了一个平衡的核心。强大的核心造就强大的队伍。
 You don't need them, but they're a surefire way to give your team some bite.
 你不需要它们，但它们是让你的队伍更具攻击力的可靠方法。
 The Pokémon you start a fight with is your "lead."
-你开始战斗时使用的宝可梦就是你的“首发宝可梦”。
+你开始战斗时使用的精灵就是你的“首发精灵”。
 Start every fight with it and it's a "dedicated lead." Make it a good one.
-如果你每次都用它来开始战斗，那么它就是一个“专用首发宝可梦”。让它成为一个好的首发宝可梦。
+如果你每次都用它来开始战斗，那么它就是一个“专用首发精灵”。让它成为一个好的首发精灵。
 Its job is to kick things off in your favor from round one.
 它的任务是从第一回合开始就为你创造有利的局面。
 Usually that's by vomiting up a whole bunch of hazards. Sometimes it sets screens and explodes.
 通常这是通过吐出一大堆场地不利因素来实现的。有时候它会设置屏幕然后自爆。
 A few just try to delete whatever's on the other side, usually with short-term power boosts like Gems.
-有些则试图直接消灭对方的宝可梦，通常会使用像宝石这样的短期力量提升。
+有些则试图直接消灭对方的精灵，通常会使用像宝石这样的短期力量提升。
 Speaking of which, your opponent is going to have their own lead.
-说到这个，你的对手也会有自己的首发宝可梦。
+说到这个，你的对手也会有自己的首发精灵。
 Stop it. Taunt it, put it to sleep, or put it in the ground.
 阻止它。嘲讽它，让它入睡，或者让它陷入地面。
 The arena is going to very rapidly fill up with nasty pointy things.
 竞技场很快就会布满讨厌的尖锐物体。
 That's because wasting a turn setting them up in the short term pays off big in the long term when they chew up a few Pokémon worth of health over the course of the match.
-这是因为，从长远来看，当这些场地不利因素在比赛中消耗掉几只宝可梦的健康时，前期花费一回合来设置它们是非常值得的。
+这是因为，从长远来看，当这些场地不利因素在比赛中消耗掉几只精灵的健康时，前期花费一回合来设置它们是非常值得的。
 If you like being alive, pack something that can clean up hazards – Defog, Terraform, or Rapid Spin, usually.
 如果你喜欢保持健康，那就带上一些能够清除场地不利因素的东西——通常是除雾、搅土翻壤或高速旋转。
 Stealth Rocks are the most common hazard, so prioritize hazard removal if you've got lots of Rock-weak Pokémon.
-隐形岩是最常见的场地不利因素，所以如果你有很多岩石系弱点的宝可梦，就优先清除场地不利因素。
+隐形岩是最常见的场地不利因素，所以如果你有很多岩石系弱点的精灵，就优先清除场地不利因素。
 Remember: if your favorite little gremlin is switching out nine times a match or is cripplingly weak to funny pebbles, put Heavy-Duty Boots on it.
 记住：如果你最喜欢的那只小妖精在一场比赛中切换了九次，或者对那些奇怪的小石头异常脆弱，就给它穿上重型靴子。
 They're cute and effective.
@@ -50905,35 +50003,35 @@ All the little pieces of your team need their own role.
 Use whatever you want; just ensure that it's got something to do and the best odds of doing it.
 使用任何你想要的；只要确保它有事情要做，并且有最好的机会去做。
 Give bulky Pokémon Leftovers and healing moves.
-给耐久型宝可梦携带剩饭和治疗招式。
+给耐久型精灵携带剩饭和治疗招式。
 Give strong, slow Pokémon Focus Sashes, Vests, or ways to speed up.
-给强大但速度慢的宝可梦携带焦点披带、护符或加速的方法。
+给强大但速度慢的精灵携带焦点披带、护符或加速的方法。
 You get the idea.
 你明白我的意思。
 If you can, try to have all kinds of Pokémon on your team, so you have answers to anything.
-如果可以的话，尽量让你的队伍中有各种各样的宝可梦，这样你就能应对任何情况。
+如果可以的话，尽量让你的队伍中有各种各样的精灵，这样你就能应对任何情况。
 Physical and special bulk and power, type matchups, speed profiles – a diverse team is a diverse toolbox.
 物理和特殊耐久、力量、属性克制、速度配置——一个多样化的队伍就是一个多样化的工具箱。
 Send out the Pokémon that helps everything else on your team first.
-先派出能帮助队伍中其他宝可梦的宝可梦。
+先派出能帮助队伍中其他精灵的精灵。
 If you have a weather or a Room to set up, get to it.
 如果你有天气或场地要设置，那就去做吧。
 If you don't have a clear, clean gameplan, ruin your opponent's.
 如果你没有一个清晰、干净的游戏计划，那就破坏对手的。
 A dedicated lead's worst fear is usually a strong multi-hitting move. Neither Sturdy nor Sash can help them there.
-一个专注的首发宝可梦最害怕的通常是强力的多段攻击招式。坚固和披带都无法帮助他们。
+一个专注的首发精灵最害怕的通常是强力的多段攻击招式。坚固和披带都无法帮助他们。
 As opposed to simply trading hazards, outspeeding and KOing a lead before it gets going can give you an early advantage.
-与简单地交换场地不利因素相比，在首发宝可梦开始行动之前，通过速度优势将其击倒可以给你带来早期优势。
+与简单地交换场地不利因素相比，在首发精灵开始行动之前，通过速度优势将其击倒可以给你带来早期优势。
 Each Pokémon's utility is defined by the opponent.
-每只宝可梦的实用性都是由对手定义的。
+每只精灵的实用性都是由对手定义的。
 If your opponent has several Fire-type Pokémon, your Primarina is far more valuable.
-如果对手有几只火系宝可梦，你的西施海壬就更有价值了。
+如果对手有几只火系精灵，你的西施海壬就更有价值了。
 Conserve its health and leverage its power.
 保存它的体力并发挥它的力量。
 In the same match, an Aegislash may be far less valuable – be willing to sacrifice it.
 在同一场比赛中，阿罗拉盾甲龙可能就没那么有价值了——要愿意牺牲它。
 There's no shame in letting a Pokémon fall in order to get a safe switch to another.
-为了安全地切换到另一只宝可梦，让一只宝可梦倒下并没有什么可耻的。
+为了安全地切换到另一只精灵，让一只精灵倒下并没有什么可耻的。
 While they may seem drastic, moves such as Healing Wish or Explosion can turn the tide of a match in a single turn.
 虽然它们看起来很极端，但像治愈愿望或自爆这样的招式可以在一回合内扭转比赛的局面。
 Fainting the user can, if used with finesse, be an advantage – think of them as the ultimate U-Turn.
@@ -51071,25 +50169,25 @@ Which section would you like to read?
 Tapu Lele's ability "Flutter Totem" creates a "Cruel Cocoon" upon entry that only affects its side and lasts for 6 turns.
 卡璞 · 蝶蝶的特性“翩翩图腾”，会在进入战斗时制造一个持续六回合，且只影响己方的“残酷之茧”。
 At the end of each turn, it heals Pokémon on its side by 1/8th of their max HP.
-在每个回合结束时，它会恢复其同侧宝可梦最大HP的1/8。
+在每个回合结束时，它会恢复其同侧精灵最大HP的1/8。
 However, they also lose 1 PP from each of their moves. Cruel indeed.
 但这也会让所有技能的PP降低，这就是其残酷的地方。
 Tapu Koko's ability "Storm Totem" creates a "Turbulent Sky" upon entry that only affects its side and lasts for 6 turns.
 卡璞 · 鸣鸣的特性“暴风图腾”，会在进入战斗时制造一个持续六回合，且只影响己方的“乱流高空”。
 Pokémon on its side get a 30% move damage boost, but they are prevented from using moves that are the same type as the move they most recently used.
-其同侧的宝可梦获得30%的招式伤害提升，但他们无法使用与最近使用的招式相同属性的招式。
+其同侧的精灵获得30%的招式伤害提升，但他们无法使用与最近使用的招式相同属性的招式。
 Or, to state it another way, they can't use the same move type twice in a row.
 只要上回合使用了某种属性的技能，下回合同属性就会被禁止。
 Tapu Bulu's ability "Wild Totem" creates a "Primal Forest" upon entry that only affects its side and lasts for 6 turns.
 卡璞 · 哞哞的特性“荒野图腾”，会在进入战斗时制造一个持续六回合，且只影响己方的“原始森林”。
 Whenever a Pokémon on its side is hit by an offensive attack, it becomes enraged.
-每当其同侧的宝可梦被攻击命中时，它会陷入狂暴状态。
+每当其同侧的精灵被攻击命中时，它会陷入狂暴状态。
 Thereby, its defense stats are both lowered by 1 step and its attack stats are both raised by 1 step.
 这会使其降低自身的防御和特防， 但提升自身的攻击和特攻。
 Tapu Fini's ability "Fog Totem" creates a "Misdirecting Fog" upon entry that only affects its side and lasts for 6 turns.
 卡璞 · 鳍鳍的特性“迷雾图腾”，会在进入战斗时制造一个持续六回合，且只影响己方的“迷惑之雾”。
 Whenever a foe finishes attacking a Pokémon on its side, the attacker is forced to switch out of battle.
-每当敌方攻击其同侧的宝可梦后，攻击者会被迫替换出战斗。
+每当敌方攻击其同侧的精灵后，攻击者会被迫替换出战斗。
 Unlike moves such as Roar or Whirlwind, however, the trainer has enough time to select the replacement themselves.
 不过跟吼叫之类的技能不同，对方可以自行选择要上场的精灵。
 You put down the book.
@@ -51117,7 +50215,7 @@ Hark! Brace yourself for a battle of wonder, where victory is uncertain!
 Well, well, well! Fancy a sparring session, with a dash of unpredictability?
 好，好，好！要不要来一场搏击比赛？
 Hey, you! Up for a surprise Pokémon battle? Or are you too scared?
-嘿，你！想来一场惊喜的宝可梦战斗吗？还是你太害怕了？
+嘿，你！想来一场惊喜的精灵战斗吗？还是你太害怕了？
 Champion, huh? You got the gumption to face my surprises?
 冠军？哈哈哈！你有勇气面对我带来的惊喜吗？
 Get ready to unravel the enigma of my team. Will it be a treat or a trick?
@@ -51179,7 +50277,7 @@ A loss? How unexpected! It's not like I meticulously planned for this scenario.
 Well, at least I lost in style.
 好吧，起码输得有模有样。
 Hats off to you, my friend. You battled like a true Pokémon virtuoso.
-向你致敬，我的朋友。你就像一位真正的宝可梦大师一样战斗。
+向你致敬，我的朋友。你就像一位真正的精灵大师一样战斗。
 Bravo! Your battle strategy was truly a work of art.
 太棒了，你就是战斗的艺术家！
 Ah, my dear Pokémon, we were so close to achieving flawless victory. Alas...
@@ -51263,21 +50361,21 @@ Hello, and welcome to the Starters Store!
 I'm the {1}-type starters salesperson!
 我是{1}属性的初行专员！
 You can buy a {1}-type starter Pokémon from me if you have ${2} and a {3}.
-如果你有${2}和一个{3}，你可以从我这里购买一只{1}系的起始宝可梦。
+如果你有${2}和一个{3}，你可以从我这里购买一只{1}系的起始精灵。
 You can buy a {1}-type starter Pokémon from me if you have a {2}.
-如果你有一个{2}，你可以从我这里购买一只{1}系的起始宝可梦。
+如果你有一个{2}，你可以从我这里购买一只{1}系的起始精灵。
 I'm sorry, but it seems as though you don't have that much money.
 抱歉，你钱好像不太够。
 I'm sorry, but it seems as though you don't have a {1}.
 抱歉，你没有 {1}。
 Which {1}-type starter Pokémon would you like to look at?
-你想查看哪只{1}系的起始宝可梦？
+你想查看哪只{1}系的起始精灵？
 Understood, please come back if there's a {1}-type starter Pokémon you'd like to purchase!
-明白了，请在你想购买{1}系的起始宝可梦时再回来！
+明白了，请在你想购买{1}系的起始精灵时再回来！
 View MasterDex
 查看大师图鉴
 Buy Pokémon
-购买宝可梦
+购买精灵
 \PN handed over ${1} and a {2} in exchange.
 \PN交出了${1}和一个{2}。
 \PN handed over a {1} in exchange.
@@ -51293,7 +50391,7 @@ Error! Could not determine how to revive the given fossil.
 The procedure has started, now just to wait...
 正在启动...
 It's done! Here is your newly revived Pokémon!
-完成了！这是你新复活的宝可梦！
+完成了！这是你新复活的精灵！
 The fossils can't be the same!
 两块化石不能相同！
 Error! Could not determine how to revive the given fossils.
@@ -51331,7 +50429,7 @@ No need to thank me, its beauty is reward enough.
 The money isn't bad either...
 当然钱也不差...
 Ah, no suitable Pokémon exists within your collection?
-啊，你的收藏中没有合适的宝可梦？
+啊，你的收藏中没有合适的精灵？
 Return to me if you encounter any in your travels.
 如果你在旅途中遇到问题了，请及时向我反馈。
 My hopes go with you. Live the legend!
@@ -51365,7 +50463,7 @@ Welcome to the Poké Ball Depot! How may I serve you?
 Custom Pokéballs, made to order! You won't find these in a mart!
 定制精灵球，仅此一家！这可是在商店里买不到的！
 How can we help to empower your Pokémon?
-我们如何帮助增强你的宝可梦？
+我们如何帮助增强你的精灵？
 Care to buy some of our extra berry harvest?
 想买一些额外的树果吗？
 Some of these are illegal to import. Don't get me caught.
@@ -51515,7 +50613,7 @@ Which default name do you want to use?
 The team has been registered!
 该队伍已注册成册！
 You can't start a battle now because you don't have any Pokémon!
-你现在无法开始战斗，因为你没有任何宝可梦！
+你现在无法开始战斗，因为你没有任何精灵！
 Export Team
 导出队伍
 Check Stats
@@ -51543,9 +50641,9 @@ Team {1} has been deleted!
 An error occurred.<<n>>Please try again!
 发生错误。<<n>>请再试一次！
 Do you want to take a Pokémon from the opposing party?
-你想从对方队伍中带走一只宝可梦吗？
+你想从对方队伍中带走一只精灵吗？
 Which Pokémon do you want to take?
-你想带走哪只宝可梦？
+你想带走哪只精灵？
 AbilityDex (Search: Z)
 特性图鉴(搜索: Z)
 Ability Canon
@@ -51603,7 +50701,7 @@ Symbols
 Money: {1}
 金钱：{1}
 Pokédex Seen: {1}
-宝可梦图鉴已见：{1}
+精灵图鉴已见：{1}
 Correct: {1} Incorrect: {2}
 正确：{1} 错误：{2}
 ? ? ? ?
@@ -51613,7 +50711,7 @@ Correct: {1} Incorrect: {2}
 Who am I ?
 我是谁？
 Who's that Pokémon?
-那是谁的宝可梦？
+那是谁的精灵？
 You don't have enough money to play the game!
 你没有足够的钱来玩游戏！
 Are you sure you want to select {1}?
@@ -51633,9 +50731,9 @@ Sorry, you got it wrong!
 Upon entry, creates an Emotion Room for 5 turns, adding an ability every turn.
 入场时创建一个持续5回合的情感房间，每回合增加一个特性。
 Copies opponents' species' legal Abilities.
-复制对手宝可梦种类的合法特性。
+复制对手精灵种类的合法特性。
 An item to be held by a Pokémon. The user gets three abilities, but its stats are cut by 10%.
-一种可以携带的道具。携带者获得三个特性，但其能力会降低10%。
+一种可以携带的物品。携带者获得三个特性，但其能力会降低10%。
 ,
 ,
 and
@@ -51655,7 +50753,7 @@ Change {1}'s main ability to {2}?
 {1}'s main ability now is {2}.
 {1}的主要特性现在是{2}。
 {1}'s main ability did't change.
-{1}'s main ability did't change.
+{1}的主特性没有改变。
 Do you know the effectiveness?<<n>>{1} => {2}
 你知道效果吗？<<n>>{1} => {2}
 Congratulations, you got it right!
@@ -54132,7 +53230,7 @@ Spikes Removed
 Poison Spikes
 毒菱
 Flame Spikes
-火菱
+焰菱
 Frost Spikes
 冰菱
 Stealth Rock
