@@ -84,7 +84,7 @@ class TribeSplashBar < SpriteWrapper
       textPos.push([_INTL("{1}'s",@trainerName),textX,-4,@side==1,
         TEXT_BASE_COLOR,TEXT_SHADOW_COLOR,true])
       # Draw Pokémon's ability
-      textPos.push([_INTL("#{@tribeName} Tribe Bonus"),textX,26,@side==1,
+      textPos.push([_INTL("{1}", @tribeName),textX,26,@side==1,
           TEXT_BASE_COLOR,TEXT_SHADOW_COLOR,true])
       pbDrawTextPositions(self.bitmap,textPos)
     end

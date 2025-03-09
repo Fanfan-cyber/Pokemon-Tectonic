@@ -1170,6 +1170,8 @@ EHP
 EHP
 {1}<<1>>
 {1}<<1>>
+{1}
+{1}
 \cl\l[4]\op\wu\i[{1}]\or{2}\wt[30]
 \cl\l[4]\op\wu\i[{1}]\or{2}\wt[30]
 <ac>{1:02d}:{2:02d}
@@ -1202,8 +1204,6 @@ All text in the game was extracted and saved to PBS\{1}.<<1>>
 \cl\l[2]\op\wu<ac>{1}</ac>\wtnp[{2}]
 ? ? ? ?
 ? ? ? ?
-{1}
-{1}
 1111111
 1111111
 2222222

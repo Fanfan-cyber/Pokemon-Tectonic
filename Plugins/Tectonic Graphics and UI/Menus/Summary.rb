@@ -591,8 +591,7 @@ class PokemonSummary_Scene
         # Write the Pokemon's original map and level of obtaining
         obtainText = _INTL("Obtained at level {1} in", @pokemon.obtain_level)
         textpos.push([obtainText, infoTextLabelX, infoLabelBaseY + 32 * 5 + 2, 0, blackBase, blackShadow])
-        #mapname = pbGetMapNameFromId(@pokemon.obtain_map)
-        mapname = pbGetMessage(MessageTypes::MapNames, @pokemon.obtain_map)
+        mapname = pbGetMapNameFromId(@pokemon.obtain_map)
         mapname = @pokemon.obtain_text if @pokemon.obtain_text && !@pokemon.obtain_text.empty?
         mapname = _INTL("a faraway place") if nil_or_empty?(mapname)
         met_base = darkMode? ? Color.new(136, 168, 208) : Color.new(24, 112, 216)

@@ -30888,7 +30888,7 @@ An item to be held by a Pokémon. It raises Defense by 50% but prevents the use 
 An item to be held by a Pokémon. Its Attack and Sp. Atk raise by four steps if hit by a move it's weak to.
 被针对弱点时，攻击和特攻就会大幅提高。
 When held, it boosts Speed by two steps when intimidated, fascinated, or frustrated once per battle.
-使用后会容易呼唤伙伴，但使用后会消失。携带后，在受到威吓时速度会提高。
+使用后会容易呼唤伙伴，但使用后会消失。携带后，在受到威吓、震慑或阻挠时速度会提高。
 Damages attackers for 1/6th of their HP when they hit the holder with physical attacks.
 让精灵携带后，在受到物理技能攻击时，能给予对手伤害。
 Damages attackers for 1/6th of their HP when they hit the holder with special attacks.
@@ -32149,7 +32149,7 @@ Desert Spirit
 Desiccate
 干燥脱水
 Deterrent
-震慑
+威慑
 Direct Current
 直流电
 Dire Diversion
@@ -32163,7 +32163,7 @@ Dominating
 Domineering
 霸气侧漏
 Double Check
-复查
+恶意打击
 Dragon's Blood
 龙之血
 Dragon Slayer
@@ -33554,7 +33554,7 @@ After knocking out any Pokémon, raises its Attack and Defense.
 Reduces move damage taken by 50% when HP is full. Can't be dizzied.
 满HP时受到技能伤害降低50%，且不会陷入混乱。
 Deals 50% more damage to targets who have already taken damage this turn.
-本回合受到伤害的目标提升50%伤害。
+对于本回合受到过伤害的目标，造成的伤害增加50%。
 Reduces the damage of each hit against it by an amount equal to its level.
 降低等同于等级数的每次受到的伤害。
 Immune to Dragon-type moves. Deals double damage to Dragon-types.
@@ -33584,7 +33584,7 @@ Repeats another Pokémon's sound moves immediately at 75% power.
 Restores HP based on damage from hail.
 根据冰雹造成的伤害恢复HP。
 The Pokémon and its allies are protected from flinching, Intimidate, Fascinate, and Frustrate.
-自身及其同伴受到保护，不会受到畏缩、威吓、诱惑和阻挠的影响。
+自身及其同伴受到保护，不会受到畏缩、威吓、震慑和阻挠的影响。
 Uses Lightning Dance if an attack lowers its HP to half or below.
 如果攻击使对方HP降到一半或更低，会同时使用闪电舞。
 Upon entry, creates an Emotion Room for five turns, switching Abilities every turn.
@@ -43212,7 +43212,7 @@ No moves barred! {1} can use off-type moves again!
 {1} is now afraid of Bug-type moves!
 {1}<<n>>现在害怕虫属性的技能！
 {1} became charmed! It will hit itself with its own Sp. Atk!
-{1}被迷惑了！<<n>>它会特攻攻击自己！
+{1}被迷惑了！<<n>>它会以特攻攻击自己！
 {1} was released from the charm.
 {1}解除了诅咒。
 {1} shed its weaknesses!
@@ -44933,8 +44933,8 @@ Data saved.
 数据已保存。
 {1}'s
 {1}的
-#{@tribeName} Tribe Bonus
-#{@tribeName}族群奖励
+{1}
+{1}
 Turns Left: #{@turnCount}
 剩余回合：#{@turnCount}
 BATTLE INFO
@@ -46881,6 +46881,8 @@ Maximum level of this species (1-{1}).
 这个种类的最高等级（1-{1}）。
 Reset the setting {1}?
 重置设置{1}？
+Enter selection.
+输入选择。
 Could not find a command entry matching that input.
 找不到与该输入匹配的命令条目。
 There are no files.
@@ -48935,8 +48937,6 @@ You got it right!
 你答对了！
 Sorry, you got it wrong!
 很抱歉，你答错了！
-{1}
-{1}
 <<[>>C<<]>>: Continue <<[>>X<<]>>: Exit
 <<[>>C<<]>>: 继续 <<[>>X<<]>>: 退出
 1111111
@@ -50650,13 +50650,13 @@ You gain 10% more money from battles. If you have more than $100,000, your team 
 战斗得金钱加10%。资金超十万，双攻双防提升。与等级上限相关，目前{b1}。
 10
 Your team members gain 10% more EXP in battles. They also get a small boost to Attack, Defense, Sp. Atk, and Sp. Def (before modifiers). This bonus scales with the level cap and is currently {b}.
-战斗得额外10%经验，小幅度提升双攻双防。与等级上限相关，目前为{b}。
+战斗获得额外10%经验，小幅度提升双攻双防。与等级上限相关，目前为{b}。
 11
 Whenever a member of your team uses a status move, they'll deal 25% more move damage next turn.
-全员使用变化类技能后，下回合技能造 成的伤害提升25%。
+精灵使用变化类技能后，下回合技能造成的伤害提升25%。
 12
 Your team members take 12% less move damage if they're using a status move this turn.
-全员使用变化类技能的同回合，减少12%受到的技能伤害。
+精灵使用变化类技能的回合，减少12%受到的技能伤害。
 13
 Your team has 20% increased Sp. Def. Foes can't lower your team's Sp. Def.
 全员获得20%额外特防，且特防不会下降。

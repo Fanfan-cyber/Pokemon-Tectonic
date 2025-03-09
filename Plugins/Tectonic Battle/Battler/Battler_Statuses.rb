@@ -304,7 +304,7 @@ immuneTypeRealName))
         when :LEECHED
             immuneType = :GRASS if pbHasType?(:GRASS)
         when :WATERLOG
-            immuneType = :ELECTRIC if pbHasType?(:WATER)
+            immuneType = :WATER if pbHasType?(:WATER)
         end
         return immuneType
     end

@@ -44933,8 +44933,8 @@ Data saved.
 Data saved.
 {1}'s
 {1}'s
-#{@tribeName} Tribe Bonus
-#{@tribeName} Tribe Bonus
+{1}
+{1}
 Turns Left: #{@turnCount}
 Turns Left: #{@turnCount}
 BATTLE INFO
@@ -46881,6 +46881,8 @@ Maximum level of this species (1-{1}).
 Maximum level of this species (1-{1}).
 Reset the setting {1}?
 Reset the setting {1}?
+Enter selection.
+Enter selection.
 Could not find a command entry matching that input.
 Could not find a command entry matching that input.
 There are no files.
@@ -48935,8 +48937,6 @@ You got it right!
 You got it right!
 Sorry, you got it wrong!
 Sorry, you got it wrong!
-{1}
-{1}
 <<[>>C<<]>>: Continue <<[>>X<<]>>: Exit
 <<[>>C<<]>>: Continue   <<[>>X<<]>>: Exit
 1111111

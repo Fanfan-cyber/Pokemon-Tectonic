@@ -271,6 +271,7 @@ rescue StandardError
 end
 
 def pbGetMapNameFromId(id)
+    return pbGetMessage(MessageTypes::MapNames, id) # earthquake
     map = pbGetBasicMapNameFromId(id)
     map.gsub!(/\\PN/, $Trainer.name) if $Trainer
     return map
