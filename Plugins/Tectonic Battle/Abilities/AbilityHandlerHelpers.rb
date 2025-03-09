@@ -50,14 +50,17 @@ end
 def randomStatusProcUserAbility(ability, status, chance, user, target, move, battle, aiCheck = false, aiNumHits = 1)
     return if target.pbHasStatus?(status)
     return if target.fainted?
+    
     if aiCheck
-        chanceOfActivating = 1 - (((100 - chance) / 100)**aiNumHits)
+        chanceOfActivating = chance #1 - (((100 - chance) / 100)**aiNumHits)
         ret = getStatusSettingEffectScore(status, target, user)
         ret *= chanceOfActivating
         ret = ret.round(-1)
         return ret
     else
-        return if battle.pbRandom(100) >= chance
+        normalize_chance = TA.calculate_single_probability(user.tracker_get(:hits_amount), chance)
+        p normalize_chance
+        return if battle.pbRandom(100) >= normalize_chance
         return unless move.canApplyRandomAddedEffects?(user, target, true)
         battle.pbShowAbilitySplash(user, ability)
         target.pbInflictStatus(status, 0, nil, user) if target.pbCanInflictStatus?(status, user, true, move)

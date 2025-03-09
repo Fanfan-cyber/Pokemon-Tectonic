@@ -92,6 +92,19 @@ module TA
       end
     end
   end
+  
+  def self.calculate_single_probability(n, total_probability)
+    return 0 if n <= 0
+    return 0 if total_probability <= 0
+    if total_probability > 1
+      total_probability = [total_probability, 100].min
+      total_probability /= 100.0
+    end
+    return 100 if total_probability == 1
+    return total_probability * 100 if n == 1
+    p = 1 - Math.exp(Math.log(1 - total_probability) / n)
+    (p * 100).ceil
+  end
 
   BLACK_LIST_PKMN = []
   @@pkmn_pool = []

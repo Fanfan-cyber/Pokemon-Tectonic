@@ -91,6 +91,7 @@ end
 class PokeBattle_BattlerTracker
   def initialize
     @forced_engagement = nil
+    @hits_amount       = 0
   end
 end
 
