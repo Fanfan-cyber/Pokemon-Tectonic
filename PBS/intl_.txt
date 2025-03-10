@@ -26083,6 +26083,8 @@ Whip Kick
 Whip Kick
 Amp Up
 Amp Up
+Atomic Breath
+Atomic Breath
 Bad Ending
 Bad Ending
 Beam Struggle
@@ -28480,6 +28482,8 @@ The user whips their legs into the target like a plant. This has a 10% chance of
 The user whips their legs into the target like a plant. This has a 10% chance of leeching.
 The user assists an ally's next move, boosting its power by 50% and letting it move right after the user.
 The user assists an ally's next move, boosting its power by 50% and letting it move right after the user.
+The user charges, can used instantly for half of its power.
+The user charges, can used instantly for half of its power.
 For the rest of the round, the target's healing is reversed. Always goes first.
 For the rest of the round, the target's healing is reversed. Always goes first.
 The user and the target pit their energy against one another. The damage is based on the target's Sp. Atk rather than their Sp. Def.
@@ -33020,12 +33024,16 @@ Chrono Rewind
 Chrono Rewind
 Forced Engagement
 Forced Engagement
+Impenetrable Shell
+Impenetrable Shell
 Relentless Pursuit
 Relentless Pursuit
 72 Transformations
 72 Transformations
 Temporal Shift
 Temporal Shift
+Thunderstorm
+Thunderstorm
 Tideweaver's Reversal
 Tideweaver's Reversal
 Unwavering Valor
@@ -34403,12 +34411,16 @@ When the Pokémon faints, it rewinds itself to 3 turns ago.
 When the Pokémon faints, it rewinds itself to 3 turns ago.
 The targets cannot avoid facing the attack by the Pokémon.
 The targets cannot avoid facing the attack by the Pokémon.
+Immune to Bug-type moves and raises Speed if hit by one.
+Immune to Bug-type moves and raises Speed if hit by one.
 Attacks switching opponents with Pursuit.
 Attacks switching opponents with Pursuit.
 Changes to a random Pokémon at the end of each turn.
 Changes to a random Pokémon at the end of each turn.
 Can switch out of battle without wasting a turn.
 Can switch out of battle without wasting a turn.
+Once per switch-in, Charges in sandstorm, doubling the power of its next Electric-type move.
+Once per switch-in, Charges in sandstorm, doubling the power of its next Electric-type move.
 Turns rainstorm into Harsh Sunlight, sunshine into Heavy Rain.
 Turns rainstorm into Harsh Sunlight, sunshine into Heavy Rain.
 Stats that the Pokémon raises remain raised even after switching.
@@ -41375,8 +41387,8 @@ SKIPPING BATTLE...
 SKIPPING BATTLE...
 {1} forgot {2}...
 {1} forgot {2}...
-{1} forgot how to use {2}.\<<n>>And...<<1>>
-{1} forgot how to use {2}.\<<n>>And...<<1>>
+{1} forgot how to use {2}.<<n>>And...
+{1} forgot how to use {2}.<<n>>And...
 \se[]{1} learned {2}!\se[Pkmn move learnt]
 \se[]{1} learned {2}!\se[Pkmn move learnt]
 {1} notices a flammable item amongst your Pokémon!
@@ -44287,6 +44299,10 @@ The Reaper appears!
 {1} lost its focus and couldn't move!
 {1} is absorbing power!
 {1} is absorbing power!
+Charge
+Charge
+Should #{user.pbThis(true)} charge the attack?
+Should #{user.pbThis(true)} charge the attack?
 But it failed, since #{user.pbThis(true)} can't have its type changed!
 But it failed, since #{user.pbThis(true)} can't have its type changed!
 But it failed, since there are no valid types for it to choose!
@@ -52744,6 +52760,8 @@ Refuge
 Refuge
 Temporal Shift Receiver
 Temporal Shift Receiver
+Thunderstorm
+Thunderstorm
 Amulet Coin
 Amulet Coin
 Fairy Lock
@@ -53759,6 +53777,8 @@ Pupitar
 Pupitar
 Tyranitar
 Tyranitar
+Mechanitar
+Mechanitar
 Raikou
 Raikou
 Entei
@@ -57297,6 +57317,8 @@ Its shell is as hard as sheet rock, and it is also very strong. Its thrashing ca
 Its shell is as hard as sheet rock, and it is also very strong. Its thrashing can topple a mountain.
 If it rampages, it knocks down mountains and buries rivers. Maps must be redrawn afterward.
 If it rampages, it knocks down mountains and buries rivers. Maps must be redrawn afterward.
+Mechanitar is highly intelligent and non-confrontational, tending to avoid battle if possible.
+Mechanitar is highly intelligent and non-confrontational, tending to avoid battle if possible.
 Raikou embodies the speed of lightning. The roars of this Pokémon send shock waves shuddering through the air and shake the ground as if lightning bolts had come crashing down.
 Raikou embodies the speed of lightning. The roars of this Pokémon send shock waves shuddering through the air and shake the ground as if lightning bolts had come crashing down.
 Entei embodies the passion of magma. This Pokémon is thought to have been born in the eruption of a volcano. It sends up massive bursts of fire that utterly consume all that they touch.

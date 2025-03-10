@@ -26083,6 +26083,8 @@ Whip Kick
 右鞭腿
 Amp Up
 鼎力相助
+Atomic Breath
+原子吐息
 Bad Ending
 悲惨结局
 Beam Struggle
@@ -28480,6 +28482,8 @@ The user whips their legs into the target like a plant. This has a 10% chance of
 像植物一样将腿伸向对方，10%概率使其被寄生。
 The user assists an ally's next move, boosting its power by 50% and letting it move right after the user.
 协助同伴进行行动，提升其50%的威力，并使其立即进行行动。
+The user charges, can used instantly for half of its power.
+使用者蓄力一回合，下一回合发动攻击，或者以一半的威力立刻发动攻击。
 For the rest of the round, the target's healing is reversed. Always goes first.
 在本回合剩余时间内，会逆转对手受到的治疗效果，总是先手出击。
 The user and the target pit their energy against one another. The damage is based on the target's Sp. Atk rather than their Sp. Def.
@@ -33020,12 +33024,16 @@ Chrono Rewind
 时间倒流
 Forced Engagement
 强制交战
+Impenetrable Shell
+机械装甲
 Relentless Pursuit
 无情追击
 72 Transformations
 七十二变
 Temporal Shift
 时空转移
+Thunderstorm
+沙之暴充
 Tideweaver's Reversal
 潮汐编织者的逆转
 Unwavering Valor
@@ -34403,12 +34411,16 @@ When the Pokémon faints, it rewinds itself to 3 turns ago.
 当精灵失去意识时，它会回到3回合前的状态。
 The targets cannot avoid facing the attack by the Pokémon.
 目标必须面对该精灵的攻击。
+Immune to Bug-type moves and raises Speed if hit by one.
+对虫系技能免疫，被虫系技能攻击时，提升速度1级。
 Attacks switching opponents with Pursuit.
 会自动使用追击攻击进行替换的对手。
 Changes to a random Pokémon at the end of each turn.
 在每个回合结束时，随机变为一只精灵。
 Can switch out of battle without wasting a turn.
 可以和队伍里的其他精灵进行替换，替换的上场的精灵依然可以使用技能。
+Once per switch-in, Charges in sandstorm, doubling the power of its next Electric-type move.
+使用技能后，如果天气为沙暴，会立刻使自身进入充电状态。（每次出场只会发动一次）
 Turns rainstorm into Harsh Sunlight, sunshine into Heavy Rain.
 将雨天改为大晴天，将晴天改为大雨天。
 Stats that the Pokémon raises remain raised even after switching.
@@ -37514,11 +37526,11 @@ Expected a section at the beginning of the file.<<n>>{1}
 Achievement ID '{1}' is used twice.<<n>>{2}
 成就ID'{1}'被重复使用了。<<n>>{2}
 The Avatar definition for #{@id} has no first moves defined!
-#{@id}的化身定义没有定义初始招式！
+#{@id}的化身定义没有定义初始技能！
 Cut ability #{abilityID} is assigned to avatar #{@id}!
 剪切特性#{abilityID}被分配给化身#{@id}！
 Illegal move #{moveID} is assigned to avatar #{@id}!
-非法招式#{moveID}被分配给化身#{@id}！
+非法技能#{moveID}被分配给化身#{@id}！
 An Avatar entry name can't be blank (PBS/avatars.txt).
 化身条目名称不能为空（PBS/avatars.txt）。
 Avatar name '{1}' and version '{2}' is used twice.<<n>>{3}
@@ -37526,7 +37538,7 @@ Avatar name '{1}' and version '{2}' is used twice.<<n>>{3}
 The entry {1} is required in PBS/avatars.txt section {2}.
 在PBS/avatars.txt部分{2}中需要{1}条目。
 The {1} entry has too many moves in PBS/avatars.txt section {2}.
-在PBS/avatars.txt部分{2}中，{1}条目招式过多。
+在PBS/avatars.txt部分{2}中，{1}条目技能过多。
 Ability {1} is not legal for the Avatar defined in PBS/avatars.txt section {2}.
 在PBS/avatars.txt部分{2}中定义的化身，特性{1}是非法的。
 Aggression value {1} is not legal for the Avatar defined in PBS/avatars.txt section {2}. Aggression must be between 0 and {3} (inclusive)
@@ -37708,15 +37720,15 @@ Wind
 Kick
 踢
 Move {1} is defined as a Status move with a non-zero base damage.<<n>>{2}
-招式{1}被定义为具有非零基础伤害的状态招式。<<n>>{2}
+技能{1}被定义为具有非零基础伤害的状态技能。<<n>>{2}
 Warning: Move {1} was defined as a Damaging move but had a base damage of 0. Changing it to a Status move.<<n>>{2}
-警告：招式{1}被定义为伤害招式，但基础伤害为0。正在将其更改为状态招式。<<n>>{2}
+警告：技能{1}被定义为伤害技能，但基础伤害为0。正在将其更改为状态技能。<<n>>{2}
 Move ID '{1}' is used twice.<<n>>{2}
-招式ID'{1}'被重复使用了。<<n>>{2}
+技能ID'{1}'被重复使用了。<<n>>{2}
 A class for the move function code #{moveFunction} given for move #{move_hash<<[>>:id<<]>>}<<n>>does not exist!<<n>>{1}
-为招式#{move_hash<<[>>:id<<]>>}提供的移动功能代码#{moveFunction}的类<<n>>不存在！<<n>>{1}
+为技能#{move_hash<<[>>:id<<]>>}提供的移动功能代码#{moveFunction}的类<<n>>不存在！<<n>>{1}
 Move ID '{1}' was assigned an Animation Move property {2} that doesn't match with any other move.
-招式ID'{1}'被分配了一个与任何其他招式都不匹配的动画招式属性{2}。
+技能ID'{1}'被分配了一个与任何其他技能都不匹配的动画技能属性{2}。
 Trainer policy ID '{1}' is used twice.<<n>>{2}
 训练师政策ID'{1}'被重复使用了。<<n>>{2}
 Dex list number {1} is defined at least twice.<<n>>{2}
@@ -37730,7 +37742,7 @@ Ribbon ID number '{1}' is used twice.<<n>>{2}
 Ribbon ID '{1}' is used twice.<<n>>{2}
 绶带ID'{1}'被重复使用了。<<n>>{2}
 Illegal move #{moveID} is learnable by species #{@id}!
-非法招式#{moveID}可以被种类#{@id}学会！
+非法技能#{moveID}可以被种类#{@id}学会！
 Illegal item #{itemID} is a wild item of species #{@id}!
 非法物品#{itemID}是种类#{@id}的野生物品！
 Illegal ability #{abilityID} is a defined ability of species #{@id}!
@@ -37768,9 +37780,9 @@ Bad line syntax (expected syntax like XXX=YYY)<<n>>{1}
 Unnamed
 未命名
 Illegal move #{moveID} learnable by a party member of trainer #{trainerName}! This move will be removed.
-训练师#{trainerName}的队伍成员学会的招式#{moveID}是非法的！这个招式将被移除。
+训练师#{trainerName}的队伍成员学会的技能#{moveID}是非法的！这个技能将被移除。
 Trainer #{trainerName}'s #{speciesData.species} can't learn the move #{moveID} assigned to it! This move will be removed.
-训练师#{trainerName}的#{speciesData.species}无法学会分配给它的招式#{moveID}！这个招式将被移除。
+训练师#{trainerName}的#{speciesData.species}无法学会分配给它的技能#{moveID}！这个技能将被移除。
 Illegal item #{itemID} assigned to a party member of trainer #{trainerName}!
 分配给训练师#{trainerName}的队伍成员的物品#{itemID}是非法的！
 WARNING: When trying to contruct trainer #{@id.to_s} as an extension of trainer #{parentTrainer.id.to_s}, the resultant party is larger than the maximum party size!
@@ -38274,7 +38286,7 @@ Log Off
 \ssOmniTutor now engaged.
 \ss全能导师已启动。
 \ssThe OmniTutor can teach any move available through move reminding, move mentorship, and TMs you own.
-\ss全能导师可以精灵让精灵学习回忆招式、教授招式以及TM招式。
+\ss全能导师可以精灵让精灵学习回忆技能、教授技能以及TM技能。
 Organize Boxes
 查看箱子
 Withdraw Pokémon
@@ -38646,7 +38658,7 @@ Item: {1}
 This Item has not been implemented.
 这个物品尚未实现。
 HM moves can't be forgotten now.
-现在无法忘记HM招式。
+现在无法忘记HM技能。
 You must choose a move!
 你必须选择一个技能！
 {1:s}<<n>>ID: {2:05d} OT: {3:s}\wtnp<<[>>0<<]>>
@@ -38920,7 +38932,7 @@ Accuracy is a move's chance of hitting. Most moves have 100% accuracy. Some effe
 Power Points
 PP
 Power Points, or PP, is a number which limits how many times a move can be used. Healing at a PokéCenter, after a trainer battle or with the Aid Kit restores PP.
-技能点数（PP）是一个限制招式使用次数的数字。在精灵中心治疗、训练师战斗后或使用急救包可以恢复PP。
+技能点数（PP）是一个限制技能使用次数的数字。在精灵中心治疗、训练师战斗后或使用急救包可以恢复PP。
 Each Pokémon has type weakness and type resistances based on its own type. eg. Water deals double damage to Fire, and Fire deals half damage to Water.
 每种精灵都有基于自身属性的弱点 和抗性，如火弱水 ，水抗火。
 Type Combinations
@@ -39142,11 +39154,11 @@ A rarer status that causes a Pokémon to be unable to do anything for 2 turns. P
 What are Critical Hits?
 什么是命中要害
 A critical hit deals 50% more damage than a regular hit. Certain moves are able to randomly critical hit.
-击中要害造成的伤害比普通命中多50%。某些招式能够随机击中要害。
+击中要害造成的伤害比普通命中多50%。某些技能能够随机击中要害。
 How common are Critical Hits?
 命中要害的概率
 For moves that can random crit, the chance is 1/8. This chance can be raised by abilities, items, or special effects.
-对于能够随机击中要害的招式，其命中要害几率为1/8。这个几率可以通过特性、物品或特殊效果提高。
+对于能够随机击中要害的技能，其命中要害几率为1/8。这个几率可以通过特性、物品或特殊效果提高。
 Other Effects
 其他影响
 Critical hits ignore stat steps (on the user or the target) that would lower their damage. They also ignore protective screens like Reflect and Light Screen.
@@ -39438,35 +39450,35 @@ x{1: 2d}
 Teach which move?
 教哪个？
 Mentor Moves
-导师招式
+导师技能
 What is Move Mentoring?
-什么是招式导师？
+什么是技能导师？
 I'm the Mentor Coordinator. How can I help?
 我是导师协调员。我能帮到你什么？
 Sorry, it doesn't appear that 1 can have any moves mentored to it at the moment..
 抱歉它现在看起来不能接受指导。。
 I help your Pokémon to teach each other moves!
-我帮助你的精灵互相学习招式！
+我帮助你的精灵互相学习技能！
 Pokémon can teach moves they know, moves they used to know, and moves earlier on their level up learnset.
-精灵可以教授它们已知的招式、曾经知道的招式以及它们等级提升学习集中更早的招式。
+精灵可以教授它们已知的技能、曾经知道的技能以及它们等级提升学习集中更早的技能。
 Any Pokémon in your party or in your PC can be a mentor.
 你的队伍中的任何精灵或电脑中的精灵都可以成为导师。
 Pokémon can be taught any moves on their Other Moves list.
-精灵可以学习它们的其他招式列表上的任何招式。
+精灵可以学习它们的其他技能列表上的任何技能。
 Relearn Moves
-重新学习招式
+重新学习技能
 What is Move Relearning?
-什么是招式重新学习？
+什么是技能重新学习？
 I'm the Move Relearner. How can I help?
-我是招式重新学习者。我能帮到你什么？
+我是技能重新学习者。我能帮到你什么？
 Sorry, it doesn't appear as if I have any move I can teach to your \v[3].
 抱歉，我这里什么技能可以教给你的\v[3]。
 I can teach moves to your Pokémon -- at no cost!
-我可以免费教你的精灵招式！
+我可以免费教你的精灵技能！
 I know every single move that Pokémon learn while leveling up or evolving.
 我知道精灵在升级或进化时学习的所有技能。
 I can also help Pokémon to relearn moves they learned through TMs, Mentoring, or Sketching!
-我还可以帮助精灵重新学习它们通过技能机器、导师或素描学习的招式！
+我还可以帮助精灵重新学习它们通过技能机器、导师或素描学习的技能！
 Speech frame {1}.
 文字框 {1}。
 Audio Options
@@ -39526,7 +39538,7 @@ Whether to automatically take screenshots of your Party Showcase after major vic
 Prompt Level Moves
 提示等级技能
 Whether to let your Pokémon learn new moves when leveling up.
-是否允许你的精灵在升级时学习新招式。
+是否允许你的精灵在升级时学习新技能。
 Aid Kit Animation
 急救包动画
 Whether to play ananimation showing your party being healed by the Aid Kit.
@@ -39588,7 +39600,7 @@ Battle Options
 Battle Effects
 战斗效果
 How to treat move and effect animations. Fast is 2x speed.
-如何处理招式和效果动画。快速是2倍速度。
+如何处理技能和效果动画。快速是2倍速度。
 Standard
 标准
 Battle Transitions
@@ -39602,7 +39614,7 @@ Whether to display how much damage an attack did over the Pokémon's head.
 Effect. Messages
 效果信息
 Whether to state how effective a move was.
-是否说明招式的效果。
+是否说明技能的效果。
 Weather Messages
 天气信息
 Whether to show messages about weather mechanics.
@@ -39612,9 +39624,9 @@ Status Messages
 Whether to show messages about status condition mechanics.
 是否显示有关状态条件机制的信息。
 Move Messages
-招式信息
+技能信息
 Whether to show messages when moves change base power or category.
-当招式的基础威力或类别发生变化时，是否显示信息。
+当技能的基础威力或类别发生变化时，是否显示信息。
 Avatar Messages
 化身信息
 Whether to show messages about avatar mechanics.
@@ -40564,9 +40576,9 @@ when leveled up while it has maximum happiness
 when leveled up while it has maximum beauty
 当它拥有最大美丽值时升级
 when leveled up while it knows the move {1}
-当它知道招式{1}时升级
+当它知道技能{1}时升级
 when leveled up while it knows a move of the {1} type
-当它知道一个{1}类型的招式时升级
+当它知道一个{1}类型的技能时升级
 when leveled up near a special location
 当它在特殊地点附近升级
 by using a {1}
@@ -40816,7 +40828,7 @@ Line
 Tutor
 教学
 #{speciesEdited} species tutorable movesets edited!
-#{speciesEdited}种可辅导的招式集已编辑！
+#{speciesEdited}种可辅导的技能集已编辑！
 Search species...
 搜索种类...
 Which search?
@@ -40844,7 +40856,7 @@ Invalid level input.
 Enter type...
 输入类型...
 Move name...
-招式名称...
+技能名称...
 Either
 任一
 Either type or full typing?
@@ -40908,7 +40920,7 @@ Map Found
 Legendary
 传说
 Moveset Noncomfority (D)
-招式不兼容性（D）
+技能不兼容性（D）
 No Monument Uses (D)
 无纪念物使用（D）
 One Ability (D)
@@ -40926,7 +40938,7 @@ Multiple Forms
 Invert Current
 反转
 Has Signature Move
-有专属招式
+有专属技能
 Doesn't
 没有
 Has Signature Ability
@@ -40952,11 +40964,11 @@ No 16-31 Stab
 No 32-44 Stab
 无32-44级的本系攻击
 Duplicate Moves
-重复招式
+重复技能
 Which rulebreakers?
 哪些违规者？
 Pick final intended moveset level...
-选择最终预期的招式集等级...
+选择最终预期的技能集等级...
 Not Legendary
 非传说
 Search generation number...
@@ -41224,15 +41236,15 @@ DETAILS
 ANIMATION
 动画
 {1} Moves
-{1}的招式
+{1}的技能
 Category
 类别
 Text
 文本
 Attempted to do a combined search, but no matching moves were found.
-尝试进行组合搜索，但未找到匹配的招式。
+尝试进行组合搜索，但未找到匹配的技能。
 No matching moves were found.
-未找到匹配的招式。
+未找到匹配的技能。
 Search name...
 搜索名称...
 Not Status
@@ -41240,7 +41252,7 @@ Not Status
 Which category?
 哪一类？
 Search move desc...
-搜索招式描述...
+搜索技能描述...
 Tag
 标签
 Effect Chance
@@ -41274,7 +41286,7 @@ No Target
 Not Signature
 非专属
 Move learnable by?
-可学习该招式的精灵？
+可学习该技能的精灵？
 Party Pokemon
 队伍中的精灵
 Caught Pokemon
@@ -41300,7 +41312,7 @@ Invalid operation for non-integer effect #{effect}
 Invalid operation for non-position effect #{effect}
 对非位置效果#{effect}执行了无效操作
 Invalid operation for non-move effect #{effect}
-对非招式效果#{effect}执行了无效操作
+对非技能效果#{effect}执行了无效操作
 But it failed, since the move isn't implemented in the code!
 但是失败了, 因为这个技能代码中不存在！
 Struggle
@@ -41375,8 +41387,8 @@ SKIPPING BATTLE...
 跳过战斗...
 {1} forgot {2}...
 {1}忘记了 {2}...
-{1} forgot how to use {2}.\<<n>>And...<<1>>
-{1}忘记了{2}。\<<n>>并且...<<1>>
+{1} forgot how to use {2}.<<n>>And...
+{1}忘记了{2}。<<n>>并且...
 \se[]{1} learned {2}!\se[Pkmn move learnt]
 \se[]{1}学会了{2}！\se[Pkmn move learnt]
 {1} notices a flammable item amongst your Pokémon!
@@ -41590,9 +41602,9 @@ When enemy Pokémon faint, they deal a quarter of their HP as damage to their la
 #{battler.pbThis} takes its vengeance!
 #{battler.pbThis}正在报仇雪恨！
 I chose a move!
-我选择了一个招式！
+我选择了一个技能！
 You chose a move!
-你选择了一个招式！
+你选择了一个技能！
 My Pokémon fainted!
 我的精灵失去意识了！
 Your Pokémon fainted!
@@ -41612,9 +41624,9 @@ Numel, huh? Fire-type--hope I don't get burned!
 Krabby... a Water-type... with massive attack power, wow!
 大钳蟹……水系……攻击力惊人，哇！
 My Pokémon took move damage!
-我的精灵受到了招式的伤害！
+我的精灵受到了技能的伤害！
 Your Pokémon took move damage!
-你的精灵受到了招式的伤害！
+你的精灵受到了技能的伤害！
 Thought ya'd be better than that, honestly.
 我本以为你会更强。
 Had to commit a few choice sins ta catch this fella, but it was well worth it.
@@ -41918,9 +41930,9 @@ But a live wire already sits near {1}!
 {1} is haunted!
 {1}周围闹鬼了！
 {1} forces its moves to be physical!
-{1}强迫其招式变为物理招式！
+{1}强迫其技能变为物理技能！
 {1} is an interloper! All its moves are special!
-{1}是个入侵者！它的所有招式都是特殊招式！
+{1}是个入侵者！它的所有技能都是特殊技能！
 {1} can't get it going!
 {1}运行迟缓！
 The effects of the weather disappeared.
@@ -41956,7 +41968,7 @@ Your party Pokémon in waiting also got Exp. Points!
 {1} learned {2}!
 {1}学会了{2}！
 {1} wants to learn {2}{4}, but it already knows {3} moves.
-{1}想学习{2}{4}，但它已经学会了{3}个招式。
+{1}想学习{2}{4}，但它已经学会了{3}个技能。
 <imp>(matched)</imp>
 <imp>(匹配)</imp>
 Which move should be forgotten?
@@ -42060,19 +42072,19 @@ Time is dancing to #{stretcher.pbThis}'s tune! This turn is being skipped!
 You got ${1} for winning!
 你获得了${1}！
 You picked up ${1}!
-你捡到了<<n>>${1}！
+你捡到了${1}！
 You gave ${1} to the winner...
-你给了获胜者<<n>>${1}...
+你给了获胜者${1}...
 You panicked and dropped ${1}...
-你不小心掉了<<n>>${1}...
+你不小心掉了${1}...
 Some of your Pokémon fainted in battle.
 你的一些精灵在战斗中濒死了。
 You defeated {1}!
-你打败了<<n>>{1}！
+你打败了{1}！
 You defeated {1} and {2}!
-你打败了<<n>>{1}和{2}！
+你打败了{1}和{2}！
 You defeated {1}, {2} and {3}!
-你打败了<<n>>{1}、{2}和{3}！
+你打败了{1}、{2}和{3}！
 You outlasted {1}.
 你获得了{1}。
 You outlasted {1} and {2}.
@@ -42086,7 +42098,7 @@ You lost against {1} and {2}!{3}
 You lost against {1}, {2} and {3}!{4}
 你输给了{1}、{2}和{3}！{4}
 \i[EXPEZDISPENSER]{1} exp was stored in the EXP-EZ Dispenser this battle.
-\i<<[>>EXPEZDISPENSER<<]>>这场战斗中，<<n>>{1}点经验值已存入经验分配器。
+\i[EXPEZDISPENSER]这场战斗中，{1}点经验值已存入经验分配器。
 The opposing {1}
 对方{1}
 The wild {1}
@@ -43172,7 +43184,7 @@ No moves barred! {1} can use off-type moves again!
 {1} can't use sound-based moves for the next #{value - 1} turns!
 {1}接下来的#{value - 1}回合内<<n>>无法使用声音类技能！
 {1} can't use blade-based moves for the next #{value - 1} turns!
-{1}在接下来的#{value - 1}回合内无法使用切割类招式！
+{1}在接下来的#{value - 1}回合内无法使用切割类技能！
 {1} was subjected to torment!
 {1}<<n>>受到了无理取闹！
 {1} was freed from {2}!
@@ -44040,11 +44052,11 @@ But it failed, since #{target.pbThis(true)} is also transformed!
 But it failed, since #{target.pbThis(true)} is disguised by an Illusion!
 但是失败了，因为 #{target.pbThis(true)} 是幻象伪装的！
 But it failed, since the target didn't choose to use a move!
-但它失败了，因为目标没有选择使用招式！
+但它失败了，因为目标没有选择使用技能！
 But it failed, since the target chose to use a status move!
-但它失败了，因为目标选择了使用状态招式！
+但它失败了，因为目标选择了使用状态技能！
 But it failed, since the target chose a move that can't be copied!
-但它失败了，因为目标选择了一个无法复制的招式！
+但它失败了，因为目标选择了一个无法复制的技能！
 Which move should #{user.pbThis(true)} use?
 #{user.pbThis(true)}要用哪一招呢？
 But it failed, since no foe has yet used a move!
@@ -44124,7 +44136,7 @@ But it failed, since ions already shower the field!
 But it failed, since #{user.pbThis(true)} isn't asleep!
 但是失败了，因为#{user.pbThis(true)}没有睡着！
 But it failed, since #{user.pbThis(true)} knows no other sound-based moves!
-但它失败了，因为#{user.pbThis(true)}不知道其他基于声音的招式！
+但它失败了，因为#{user.pbThis(true)}不知道其他基于声音的技能！
 But it failed, since #{user.pbThis(true)}'s roots keep it stuck in the ground!
 但是它失败了，<<n>>因为#{user.pbThis(true)}的树根<<n>>使其无法离开土地！
 But it failed, since #{user.pbThis(true)} was smacked down to the ground!
@@ -44190,11 +44202,11 @@ Can't call moves that affect the moveset, moves that redirect or steal moves,
 Can't call Signature moves, moves that affect the moveset,
 不能使用这类技能，
 Physical moves that can be called:
-可以唤起的物理招式：
+可以唤起的物理技能：
 Special moves that can be called:
-可以唤起的特殊招式：
+可以唤起的特殊技能：
 Moves that can be rolled:
-可以被选择的招式：
+可以被选择的技能：
 {1} recovered to 1 HP!
 {1}恢复至1点HP！
 {1} can't stockpile any more!
@@ -44287,6 +44299,10 @@ The Reaper appears!
 {1}<<n>>无法集中注意力和行动！
 {1} is absorbing power!
 {1}<<n>>正在吸收力量！
+Charge
+充电
+Should #{user.pbThis(true)} charge the attack?
+#{user.pbThis(true)}应该充电攻击吗？
 But it failed, since #{user.pbThis(true)} can't have its type changed!
 但是失败了，因为#{user.pbThis(true)}不能改变其属性！
 But it failed, since there are no valid types for it to choose!
@@ -45436,11 +45452,11 @@ It can't be used when you have someone with you.
 You can't dismount your Bike here.
 你不能在这里下车。
 Eggs can't be taught any moves.
-蛋不能学习任何招式。
+蛋不能学习任何技能。
 {1} already knows {2}.
-{1}想要学会{2}。
+{1}已经学会{2}了。
 {1} wants to learn {2}{4}, but it already knows {3} moves.<<1>>
-{1}想学习{2}{4}，但它已经学会了{3}个招式。<<1>>
+{1}想学习{2}{4}，但它已经学会了{3}个技能。<<1>>
 Please choose a move that will be replaced with {1}.
 请选择{1}要替换的技能。
 You used your last {1}.
@@ -46790,9 +46806,9 @@ Fishing
 Fishing character sprite.
 钓鱼角色精灵图像。
 Field Move
-场地招式
+场地技能
 Using a field move character sprite.
-使用场地招式角色精灵图像。
+使用场地技能角色精灵图像。
 Width
 宽度
 The width of this map in Region Map squares.
@@ -46834,15 +46850,15 @@ Base {1} stat of the Pokémon.
 Number of {1} Effort Value points gained from the Pokémon.
 从精灵获得的{1}努力值点数。
 <<[>>ADD MOVE<<]>>
-<<[>>添加招式<<]>>
+<<[>>添加技能<<]>>
 Choose a level.
 选择一个等级。
 \ts[]Do what with this move?
-\ts[]对这个招式做什么？
+\ts[]对这个技能做什么？
 Change level
 更改等级
 Change move
-更改招式
+更改技能
 Choose a new level.
 选择一个新等级。
 Choose a parameter.
@@ -47012,29 +47028,29 @@ Set Sheen
 Set the Pokémon's Sheen (max. 255).
 设置精灵的光泽度（最大255）。
 Moves...
-招式...
+技能...
 Teach move
-教授招式
+教授技能
 Teach legal move
-教授合法招式
+教授合法技能
 Forget move
-遗忘招式
+遗忘技能
 {1} forgot {2}.
 {1}忘记了{2}。
 Forget all moves
-遗忘所有招式
+遗忘所有技能
 {1} has forgot all moves.
-{1}已经忘记了所有招式。
+{1}已经忘记了所有技能。
 Reset moves
-重置招式
+重置技能
 {1}'s moves were reset.
-{1}的招式被重置了。
+{1}的技能被重置了。
 Set move PP
-设置招式PP
+设置技能PP
 Restore all PP
 恢复所有PP
 Alter PP of which move?
-要改变哪个招式的PP？
+要改变哪个技能的PP？
 {1} has infinite PP.
 {1}拥有无限PP。
 {1}: PP {2}/{3} (PP Up {4}/3)
@@ -47050,9 +47066,9 @@ Set PP of {1} (max. {2}).
 Set PP Up of {1} (max. 3).
 设置{1}的PP提升（最大3）。
 Reset initial moves
-重置初始招式
+重置初始技能
 {1}'s moves were set as its first-known moves.
-{1}的招式被设置为其最初学会的招式。
+{1}的技能被设置为其最初学会的技能。
 Set item
 设置物品
 Replace items
@@ -47246,11 +47262,11 @@ Find the events which affect events on other maps through pbSetSelfSwitch
 Code instance analysis written to #{fileName}
 代码实例分析已写入#{fileName}
 Analyze move distribution
-分析招式分布
+分析技能分布
 See the total distribution of each move.
-查看每个招式的总分布情况。
+查看每个技能的总分布情况。
 Move distribution analysis written to Analysis/move_distribution.txt
-招式分布分析已写入Analysis/move_distribution.txt
+技能分布分析已写入Analysis/move_distribution.txt
 Count ability use
 统计特性使用次数
 Count the number of uses of each ability by fully evolved base forms.
@@ -47276,41 +47292,41 @@ List all new abilities added to the game.
 New ability information written to Analysis/new_abilities.txt
 新特性信息已写入Analysis/new_abilities.txt
 Count move use
-统计招式使用次数
+统计技能使用次数
 Count the number of uses of each move by fully evolved base forms.
-统计每种招式被完全进化的基础形态使用次数。
+统计每种技能被完全进化的基础形态使用次数。
 Printed out move counts to the console.
-已将招式使用次数打印到控制台。
+已将技能使用次数打印到控制台。
 List signature moves
-列出标志性招式
+列出标志性技能
 List each move that is only used by one fully evolved base form.
-列出仅由一种完全进化的基础形态使用的每个招式。
+列出仅由一种完全进化的基础形态使用的每个技能。
 Printed out signature moves to Analysis/signature_moves.txt.
-已将标志性招式打印到Analysis/signature_moves.txt。
+已将标志性技能打印到Analysis/signature_moves.txt。
 List canon moves
-列出正典招式
+列出正典技能
 List all moves maintained from canon.
-列出所有从正典保留的招式。
+列出所有从正典保留的技能。
 Canon moves information written to Analysis/canon_moves.txt
-正典招式信息已写入Analysis/canon_moves.txt
+正典技能信息已写入Analysis/canon_moves.txt
 List new moves
-列出新招式
+列出新技能
 List all new moves added to the game.
-列出游戏中添加的所有新招式。
+列出游戏中添加的所有新技能。
 New moves information written to Analysis/new_moves.txt
-新招式信息已写入Analysis/new_moves.txt
+新技能信息已写入Analysis/new_moves.txt
 List cut moves
-列出被移除的招式
+列出被移除的技能
 List all moves cut from canon.
-列出所有从正典中移除的招式。
+列出所有从正典中移除的技能。
 Cut moves information written to Analysis/cut_moves.txt
-被移除的招式信息已写入Analysis/cut_moves.txt
+被移除的技能信息已写入Analysis/cut_moves.txt
 List primeval moves
-列出远古招式
+列出远古技能
 List all primeval moves.
-列出所有远古招式。
+列出所有远古技能。
 Primeval moves information written to Analysis/primeval_moves.txt
-远古招式信息已写入Analysis/primeval_moves.txt
+远古技能信息已写入Analysis/primeval_moves.txt
 List held items
 列出携带物品
 List all items that the player's Pokémon can hold for use in battle.
@@ -47570,11 +47586,11 @@ Export All Battle Animations
 Export all battle animations individually to the "Animations" folder.
 将所有战斗动画分别导出到"Animations"文件夹。
 Consolidate Egg Moves
-整合蛋招式
+整合蛋技能
 For every tutor move that a whole line shares, move it into the egg moves list of the lowest stage pokemon instead.
-对于整个进化线共享的每个辅导招式，将其移至最低阶段精灵的蛋招式列表中。
+对于整个进化线共享的每个辅导技能，将其移至最低阶段精灵的蛋技能列表中。
 Tutor moves consolidated!
-辅导招式已整合！
+辅导技能已整合！
 Create bossified graphics
 创建强化版图形
 Create bossified graphics for a given species
@@ -47686,21 +47702,21 @@ Get rid of any partner trainer joining your battles.
 De-Registered partner.
 已注销伙伴。
 Rename Move From Input
-从输入重命名招式
+从输入重命名技能
 Rename an existing move in moves, species, forms, and trainers PBS files based on user input.
-根据用户输入在招式、种类、形态和训练师PBS文件中重命名现有招式。
+根据用户输入在技能、种类、形态和训练师PBS文件中重命名现有技能。
 Enter move internal name.
-输入招式的内部名称。
+输入技能的内部名称。
 Enter the move's new internal name.
-输入招式的新内部名称。
+输入技能的新内部名称。
 Enter the move's new display name.
-输入招式的新显示名称。
+输入技能的新显示名称。
 Rename completed.
 重命名完成。
 Rename Moves From File
-从文件重命名招式
+从文件重命名技能
 Rename an existing move in moves, species, forms, and trainers PBS files based on PBS/move_renames.txt.
-根据PBS/move_renames.txt在招式、种类、形态和训练师PBS文件中重命名现有招式。
+根据PBS/move_renames.txt在技能、种类、形态和训练师PBS文件中重命名现有技能。
 Mass rename completed.
 批量重命名完成。
 Or tell a programmer to do it for you :)
@@ -48174,7 +48190,7 @@ Everything on your team needs a point. Every Pokémon needs a purpose.
 If you can't sum up its role on your team in a sentence, keep it in the PC.
 如果你不能用一句话概括它在队伍中的角色，就把它留在电脑里。
 Every bit of that Pokémon should reinforce its role. Moves, items, everything.
-那只精灵的每一个方面都应该强化它的角色。招式、物品，一切。
+那只精灵的每一个方面都应该强化它的角色。技能、物品，一切。
 All six Pokémon on your team need a role, narrow or broad.
 你队伍中的六只精灵都需要一个角色，无论这个角色是狭窄还是宽泛。
 Two Pokémon with synergistic roles are called a "core."
@@ -48228,7 +48244,7 @@ All the little pieces of your team need their own role.
 Use whatever you want; just ensure that it's got something to do and the best odds of doing it.
 使用任何你想要的；只要确保它有事情要做，并且有最好的机会去做。
 Give bulky Pokémon Leftovers and healing moves.
-给耐久型精灵携带剩饭和治疗招式。
+给耐久型精灵携带剩饭和治疗技能。
 Give strong, slow Pokémon Focus Sashes, Vests, or ways to speed up.
 给强大但速度慢的精灵携带焦点披带、护符或加速的方法。
 You get the idea.
@@ -48244,7 +48260,7 @@ If you have a weather or a Room to set up, get to it.
 If you don't have a clear, clean gameplan, ruin your opponent's.
 如果你没有一个清晰、干净的游戏计划，那就破坏对手的。
 A dedicated lead's worst fear is usually a strong multi-hitting move. Neither Sturdy nor Sash can help them there.
-一个专注的首发精灵最害怕的通常是强力的多段攻击招式。坚固和披带都无法帮助他们。
+一个专注的首发精灵最害怕的通常是强力的多段攻击技能。坚固和披带都无法帮助他们。
 As opposed to simply trading hazards, outspeeding and KOing a lead before it gets going can give you an early advantage.
 与简单地交换场地不利因素相比，在首发精灵开始行动之前，通过速度优势将其击倒可以给你带来早期优势。
 Each Pokémon's utility is defined by the opponent.
@@ -48258,7 +48274,7 @@ In the same match, an Aegislash may be far less valuable – be willing to sacri
 There's no shame in letting a Pokémon fall in order to get a safe switch to another.
 为了安全地切换到另一只精灵，让一只精灵倒下并没有什么可耻的。
 While they may seem drastic, moves such as Healing Wish or Explosion can turn the tide of a match in a single turn.
-虽然它们看起来很极端，但像治愈愿望或自爆这样的招式可以在一回合内扭转比赛的局面。
+虽然它们看起来很极端，但像治愈愿望或自爆这样的技能可以在一回合内扭转比赛的局面。
 Fainting the user can, if used with finesse, be an advantage – think of them as the ultimate U-Turn.
 如果使用得当，让使用者失去意识可以是一个优势——把它们当作终极的极速折返。
 The Corviknight stares at you intently.
@@ -48400,7 +48416,7 @@ However, they also lose 1 PP from each of their moves. Cruel indeed.
 Tapu Koko's ability "Storm Totem" creates a "Turbulent Sky" upon entry that only affects its side and lasts for 6 turns.
 卡璞 · 鸣鸣的特性“暴风图腾”，会在进入战斗时制造一个持续六回合，且只影响己方的“乱流高空”。
 Pokémon on its side get a 30% move damage boost, but they are prevented from using moves that are the same type as the move they most recently used.
-其同侧的精灵获得30%的招式伤害提升，但他们无法使用与最近使用的招式相同属性的招式。
+其同侧的精灵获得30%的技能伤害提升，但他们无法使用与最近使用的技能相同属性的技能。
 Or, to state it another way, they can't use the same move type twice in a row.
 只要上回合使用了某种属性的技能，下回合同属性就会被禁止。
 Tapu Bulu's ability "Wild Totem" creates a "Primal Forest" upon entry that only affects its side and lasts for 6 turns.
@@ -52385,7 +52401,7 @@ Destiny Bond Target
 Disable Turns
 禁用回合
 Disabled Move
-禁用的招式
+禁用的技能
 Electrify
 通电
 Embargoed
@@ -52443,7 +52459,7 @@ Attached To
 Illusion
 幻象
 Moves Imprisoned
-招式被囚禁
+技能被囚禁
 Ingrained
 根深蒂固
 Evil Roots
@@ -52577,7 +52593,7 @@ Transformed Into
 Trapping Turns
 陷阱回合
 Trapping Move
-陷阱招式
+陷阱技能
 Trapped By
 被...困住
 Not Slacking Off
@@ -52744,6 +52760,8 @@ Refuge
 避难所
 Temporal Shift Receiver
 时间转移接收器
+Thunderstorm
+雷暴
 Amulet Coin
 护身符硬币
 Fairy Lock
@@ -52789,13 +52807,13 @@ Floral Gramarye
 Turns Till Move
 移动前的回合
 Incoming Move
-即将到来的招式
+即将到来的技能
 Foretold Move User Index
-预言招式的使用者索引
+预言技能的使用者索引
 Foretold Move User Party Index
-预言招式的使用者队伍索引
+预言技能的使用者队伍索引
 Incoming Move Type
-即将到来的招式类型
+即将到来的技能类型
 Healing Wish
 治愈愿望
 Lunar Dance
@@ -53759,6 +53777,8 @@ Pupitar
 沙基拉
 Tyranitar
 班基拉
+Mechanitar
+班机拉
 Raikou
 雷皇
 Entei
@@ -57297,6 +57317,8 @@ Its shell is as hard as sheet rock, and it is also very strong. Its thrashing ca
 会到处胡闹，相当危险的蛹。在岩盘一样的外壳内，新的身体正在逐渐成形。
 If it rampages, it knocks down mountains and buries rivers. Maps must be redrawn afterward.
 会在山中徘徊以寻求战斗对手。但如果遇到的是比自己弱小的对手，它就会视若无睹地离开。
+Mechanitar is highly intelligent and non-confrontational, tending to avoid battle if possible.
+班机拉非常聪明且不具攻击性，它尽可能避免战斗。
 Raikou embodies the speed of lightning. The roars of this Pokémon send shock waves shuddering through the air and shake the ground as if lightning bolts had come crashing down.
 体内蕴藏着雷电般速度的精灵。它的长嚎会如同天雷落地时一样震动空气，摇撼大地。
 Entei embodies the passion of magma. This Pokémon is thought to have been born in the eruption of a volcano. It sends up massive bursts of fire that utterly consume all that they touch.

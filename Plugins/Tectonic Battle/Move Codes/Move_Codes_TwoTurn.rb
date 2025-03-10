@@ -472,3 +472,42 @@ class PokeBattle_Move_TwoTurnMoveHealTargetHalfOfTotalHP < PokeBattle_Move_TwoTu
         return score
     end
 end
+
+#===============================================================================
+# Two turn attack. Can be used in one turn with half its power (Atomic Breath)
+#===============================================================================
+class PokeBattle_Move_TwoTurnAttackCanChooseOne < PokeBattle_TwoTurnMove
+    def initialize(battle, move)
+        super
+        @choice = rand(1)
+        @chose  = false
+    end
+
+    def resolutionChoice(user)
+        return if @chose
+        @chose = true
+        if user.pbOwnedByPlayer?
+            choices = [_INTL("Charge"), _INTL("Attack")]
+            @choice = @battle.scene.pbShowCommands(_INTL("Should #{user.pbThis(true)} charge the attack?"), choices, 0)
+        end
+    end
+
+    def skipChargingTurn?(user)
+        return @choice == 1
+    end
+
+    def pbBaseDamage(baseDmg, _user, target)
+        baseDmg *= 0.5 if @choice == 1
+        return baseDmg
+    end
+
+    def resetMoveUsageState
+        @choice = rand(1)
+        @chose  = false
+    end
+
+    def getEffectScore(_user, _target)
+        score += super if @choice == 0
+        return score
+    end
+end

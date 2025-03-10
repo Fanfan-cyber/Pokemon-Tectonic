@@ -603,3 +603,16 @@ BattleHandlers::UserAbilityEndOfMove.add(:OFFENSIVE,
     end
   }
 )
+
+BattleHandlers::UserAbilityEndOfMove.add(:THUNDERSTORM,
+  proc { |ability, user, _targets, move, battle, _switchedBattlers|
+    next if battle.futureSight
+    next unless battle.sandy?
+    next if user.effectActive?(:Charge)
+    next if user.effectActive?(:Thunderstorm)
+    battle.pbShowAbilitySplash(user, ability)
+    user.applyEffect(:Charge)
+    user.applyEffect(:Thunderstorm)
+    battle.pbHideAbilitySplash(user)
+  }
+)

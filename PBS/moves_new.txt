@@ -4757,6 +4757,19 @@ FunctionCode = TargetActsNextBoostsTheirDamage
 Description = The user assists an ally's next move, boosting its power by 50% and letting it move right after the user.
 Animation = HELPINGHAND
 #-------------------------------
+[ATOMICBREATH]
+Name = Atomic Breath
+Type = ELECTRIC
+Category = Special
+Power = 140
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = TwoTurnAttackCanChooseOne
+Flags = CanProtect
+Description = The user charges, can used instantly for half of its power.
+Animation = HYPERBEAM
+#-------------------------------
 [BADENDING]
 Name = Bad Ending
 Type = ELECTRIC

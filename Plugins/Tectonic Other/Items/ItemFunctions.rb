@@ -350,7 +350,7 @@ def pbLearnMove(pkmn,move,ignoreifknown=false,bymachine=false,addfirstmove=false
       if bymachine && Settings::TAUGHT_MACHINES_KEEP_OLD_PP
         pkmn.moves[forgetmove].pp = [oldmovepp,pkmn.moves[forgetmove].total_pp].min
       end
-      pbMessage(_INTL("{1} forgot how to use {2}.\\nAnd...\1",pkmnname,oldmovename),&block)
+      pbMessage(_INTL("{1} forgot how to use {2}.\nAnd...",pkmnname,oldmovename),&block)
       pbMessage(_INTL("\\se[]{1} learned {2}!\\se[Pkmn move learnt]",pkmnname,movename),&block)
       pkmn.add_first_move(move) if addfirstmove
       return true

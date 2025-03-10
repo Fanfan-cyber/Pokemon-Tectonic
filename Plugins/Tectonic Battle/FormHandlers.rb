@@ -223,7 +223,7 @@ MultipleForms.register(:ROTOM,{
         if GameData::Move.exists?(new_move_id)
           pkmn.moves[move_index].id = new_move_id
           new_move_name = pkmn.moves[move_index].name
-          pbMessage(_INTL("{1} forgot how to use {2}.\\nAnd...\1", pkmn.name, old_move_name))
+          pbMessage(_INTL("{1} forgot how to use {2}.\nAnd...", pkmn.name, old_move_name))
           pbMessage(_INTL("\\se[]{1} learned {2}!\\se[Pkmn move learnt]", pkmn.name, new_move_name))
         else
           pkmn.forget_move_at_index(move_index)
@@ -534,7 +534,7 @@ MultipleForms.register(:URSHIFU,{
       old_move_name = pkmn.moves[move_index].name
       pkmn.moves[move_index].id = new_move_id
       new_move_name = pkmn.moves[move_index].name
-      pbMessage(_INTL("{1} forgot how to use {2}.\\nAnd...\1", pkmn.name, old_move_name))
+      pbMessage(_INTL("{1} forgot how to use {2}.\nAnd...", pkmn.name, old_move_name))
       pbMessage(_INTL("\\se[]{1} learned {2}!\\se[Pkmn move learnt]", pkmn.name, new_move_name))
     else
       # Just try to learn this form's unique move
