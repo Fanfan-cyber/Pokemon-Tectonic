@@ -147,11 +147,11 @@ module Compiler
         @ability_count ||= 1
         @ability_count = 1 if recount
         f.write("\#-------------------------------\r\n")
-        #f.write("[#{ability.id}]\r\n")
-        f.write(sprintf("[#{ability.id}] # %04d\r\n", @ability_count))
+        f.write("[#{ability.id}]\r\n")
+        #f.write(sprintf("[#{ability.id}] # %04d\r\n", @ability_count))
         f.write("Name = #{ability.real_name}\r\n")
         f.write("Description = #{ability.real_description}\r\n")
-        f.write("Details = #{ability.detail_description}\r\n") if !ability.detail_description.empty?
+        f.write("Details = #{ability.detail_description}\r\n") unless ability.detail_description.empty?
         f.write(sprintf("Flags = %s\r\n", ability.flags.join(","))) if ability.flags.length > 0
         @ability_count += 1
     end

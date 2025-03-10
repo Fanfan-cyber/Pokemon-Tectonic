@@ -1,64 +1,64 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-[ADAPTIVEAIV1] # 0686
+[ADAPTIVEAIV1]
 Name = Adaptive AI v1
 Description = Adapts the move's type to ensure it is super-effective against the target.
 Flags = Unassigned
 #-------------------------------
-[ADAPTIVEAIV2] # 0687
+[ADAPTIVEAIV2]
 Name = Adaptive AI v2
 Description = Adapts the move's type to ensure it is truly super-effective against the target.
 Flags = Unassigned
 #-------------------------------
-[ADAPTIVEAIV3] # 0688
+[ADAPTIVEAIV3]
 Name = Adaptive AI v3
 Description = Adapts the move's type to maximize effectiveness while accounting for the immunities.
 Flags = Unassigned
 #-------------------------------
-[ADAPTIVEAIV4] # 0689
+[ADAPTIVEAIV4]
 Name = Adaptive AI v4
 Description = Adapts the move's type to maximize damage against the target.
 Flags = Unassigned
 #-------------------------------
-[BACKFIRE] # 0690
+[BACKFIRE]
 Name = Backfire
 Description = When hitting a target that has an ability with an offensive damage-modifying effect, the Pokémon ignores the conditions and triggers the effect.
 #-------------------------------
-[BIOENGINEERING] # 0691
+[BIOENGINEERING]
 Name = Bioengineering
 Description = When the Pokémon's level is 30 or higher, it transforms into a member of its family depending on the type of the move it is about to use.
 Flags = Immutable
 #-------------------------------
-[CHRONOREWIND] # 0692
+[CHRONOREWIND]
 Name = Chrono Rewind
 Description = When the Pokémon faints, it rewinds itself to 3 turns ago.
 Flags = Test
 #-------------------------------
-[FORCEDENGAGEMENT] # 0693
+[FORCEDENGAGEMENT]
 Name = Forced Engagement
 Description = The targets cannot avoid facing the attack by the Pokémon.
 Flags = RedirectionImmunity,Unassigned
 #-------------------------------
-[RELENTLESSPURSUIT] # 0694
+[RELENTLESSPURSUIT]
 Name = Relentless Pursuit
 Description = Attacks switching opponents with Pursuit.
 #-------------------------------
-[SEVENTYTWOTRANSFORMATIONS] # 0695
+[SEVENTYTWOTRANSFORMATIONS]
 Name = 72 Transformations
 Description = Changes to a random Pokémon at the end of each turn.
 Flags = Unassigned
 #-------------------------------
-[TEMPORALSHIFT] # 0696
+[TEMPORALSHIFT]
 Name = Temporal Shift
 Description = Can switch out of battle without wasting a turn.
 Flags = Unassigned
 #-------------------------------
-[TIDEWEAVERSREVERSAL] # 0697
+[TIDEWEAVERSREVERSAL]
 Name = Tideweaver's Reversal
 Description = Turns rainstorm into Harsh Sunlight, sunshine into Heavy Rain.
 Flags = Unassigned
 #-------------------------------
-[UNWAVERINGVALOR] # 0698
+[UNWAVERINGVALOR]
 Name = Unwavering Valor
 Description = Stats that the Pokémon raises remain raised even after switching.
 Flags = Unassigned

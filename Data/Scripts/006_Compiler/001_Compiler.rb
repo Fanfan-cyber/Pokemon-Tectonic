@@ -719,8 +719,6 @@ module Compiler
         compile_pokemon_forms          # Depends on Species, Move, Item, Type, Ability
         yield(_INTL("Compiling Pokémon metrics data"))
         compile_pokemon_metrics        # No dependencies
-        yield(_INTL("Compiling Old Pokémon data"))
-        compile_pokemon_old            # Depends on Move, Item, Type, Ability
         yield(_INTL("Compiling battle metadata"))
         compile_battle_metadata        # Depends on Species, Move, Ability
         yield(_INTL("Compiling Regional Dexes"))

@@ -15488,6 +15488,14 @@ You take some swings at the punching bag.
 你打了几下沙袋。
 You're pumped up! Experience gain from battles is boosted until the next time you heal.
 你感到精力充沛，在下次治疗前能得到更多经验。
+Styles Value Adjuster
+风格点调整师
+Mentor Coordinator
+技能协调员
+Move Reminder
+技能回忆者
+Cancel
+取消
 [Map237]
 Anyone who wants to help with the avatar threat can join the Rangers.
 任何愿意帮忙应对化身危机的人都可以加入义军。
@@ -27890,8 +27898,8 @@ The user shoots three arrows made of Aura with extreme precision. Can random cri
 以极高的精度射出三支气场制成的箭。容易击中要害。
 The user manifests a bolt of pure courage. This has a 10% chance of raising the user's Sp. Atk.
 迸发了纯粹的勇气波。10%几率提高自己的特攻。
-The user relentlessly attacks with its whip-like hands for three turns. Can random critical hit.
-像鞭子一样挥舞其手，连续不断地攻击三回合。容易击中要害。
+The user relentlessly attacks with its whip-like hands for three turns. Each hit will always be critical.
+使用者用其鞭状的手连续攻击三回合。每次攻击都会命中要害。
 A reckless charge attack from the air. It also damages the user by 25% of the damage dealt.
 鲁莽地从空中发起冲锋，会受到25%的反作用力伤害。
 The user fires a stormy gust at the target. This also raises the user's Sp. Atk by two steps.
@@ -28912,8 +28920,8 @@ The user slashes all near foes with with poisonous blades or edges. Will be crit
 使用含有剧毒的刀刃砍击附近所有对手，对已经中毒的目标必定击中要害。
 It swamps the area around the user with a giant sludge wave, poisoning everyone struck.
 使用大量的污泥淹没周围的区域，使所有被击中的对手中毒。
-The user resets all stats, prevents stat changes, increases their defenses, and becomes Poison-type.
-重置自身的能力变化，并免疫能力变化类技能，并使自身变为毒属性。
+The user sets Grey Mist for 8 turns, gives themselves a Black Sludge, and becomes Poison-type.
+使用者设置灰色薄雾持续8回合，给自己一个黑色污泥，并变成毒系。
 A cloud of poison gas is sprayed at all nearby foes, poisoning them. User becomes a Poison-type.
 向附近所有对手喷射毒气云，使其中毒，并使自身变为毒属性。
 The user intensifies gravity for five turns, damages all enemies for 1/4th of their max HP, and becomes Ground-type.
@@ -37731,12 +37739,6 @@ Illegal ability #{abilityID} is a defined hidden ability of species #{@id}!
 非法特性#{abilityID}是种类#{@id}的已定义隐藏特性！
 {1} ({2})
 {1}（{2}）
-A Pokémon species can't be numbered 0 (PBS/pokemon.txt).
-精灵种类不能编号为0（PBS/pokemon.txt）。
-Species ID number '{1}' is used twice.<<n>>{2}
-种类ID编号'{1}'被重复使用了。<<n>>{2}
-The entry {1} is required in PBS/pokemon.txt section {2}.
-在PBS/pokemon.txt部分{2}中需要{1}条目。
 Species ID '{1}' is used twice.<<n>>{2}
 种类ID'{1}'被重复使用了。<<n>>{2}
 Value for '{1}' can't be less than or close to 0 (section {2}, PBS/pokemon.txt)
@@ -37753,10 +37755,6 @@ Form {1} for species ID {2} is defined twice.<<n>>{3}
 种类ID{2}的形态{1}被定义了两次。<<n>>{3}
 Value for '{1}' can't be less than or close to 0 (section {2}, {3})
 '{1}'的值不能小于或接近0（部分{2}，{3}）
-A Pokémon species can't be numbered 0 ({1}).
-精灵种类不能编号为0（{1}）。
-The entry {1} is required in {2} section {3}.
-在{2}部分{3}中需要{1}条目。
 Writing species {1}...
 正在写入种类{1}...
 Undefined species {1}.
@@ -37811,6 +37809,8 @@ Pokemon trait ID '{1}' is used twice.<<n>>{2}
 精灵特性ID'{1}'被重复使用了。<<n>>{2}
 Tribe ID '{1}' is used twice.<<n>>{2}
 族群ID'{1}'被重复使用了。<<n>>{2}
+The entry {1} is required in {2} section {3}.
+在{2}部分{3}中需要{1}条目。
 '{1}' is not a defined type ({2}, section {3}, Weaknesses).
 '{1}'不是已定义的类型（{2}，部分{3}，弱点）。
 '{1}' is not a defined type ({2}, section {3}, Resistances).
@@ -47185,6 +47185,12 @@ Changelogs...
 变更日志...
 Generate species changelogs of various types.
 生成各种类型的物种变更日志。
+Load Comparison Data
+加载对比数据
+Load species_old.dat to prime the changelog generator.
+加载species_old.dat以启动变更日志生成器。
+Comparison data loaded! You may now run the other changelog commands.
+对比数据已加载！你现在可以运行其他变更日志命令。
 Generate species changelog between ids
 在ID之间生成物种变更日志
 See the changelog for each species between the Old and New pokemon.txt files for a specific range of IDs.
@@ -47205,6 +47211,8 @@ Generate dex doc by generation
 按世代生成图鉴文档
 Generate a series document that describes all current species details like a dex, split by generation
 生成一系列文档，按世代划分，描述所有当前精灵种类的细节，类似于图鉴
+You must run the load command before creating a changelog!
+在创建变更日志之前，你必须运行加载命令！
 Species changelog written to #{fileName}
 物种变更日志已写入#{fileName}
 Evolves from {1} {2}
@@ -49985,6 +49993,12 @@ Good to see you too.
 很高兴见到你。
 Two months, twenty days.
 两月零二十天。
+Styles Value Adjuster
+风格点调整师
+Mentor Coordinator
+技能协调员
+Move Reminder
+技能回忆者
 Where is it?
 它在那儿呢？
 Use your Aid Kit.

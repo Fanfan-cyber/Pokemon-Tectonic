@@ -36,9 +36,8 @@ end
 
 class PokeBattle_Battle
   attr_reader :battle_tracker
-  attr_reader :battled_battlers # used for Switch Healing
 
-  def battled_battlers
+  def battled_battlers # used for Switch Healing
     @battled_battlers ||= []
   end
 end
