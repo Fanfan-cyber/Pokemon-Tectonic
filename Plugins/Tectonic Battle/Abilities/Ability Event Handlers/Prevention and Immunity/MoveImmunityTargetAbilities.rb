@@ -304,3 +304,9 @@ BattleHandlers::MoveImmunityTargetAbility.add(:MUPROTOCOL,
       next true
   }
 )
+
+BattleHandlers::MoveImmunityTargetAbility.add(:IMPENETRABLESHELL,
+  proc { |ability, user, target, move, type, battle, showMessages, aiCheck|
+    next pbBattleMoveImmunityStatAbility(ability, user, target, move, type, :BUG, :SPEED, 1, battle, showMessages, aiCheck)
+  }
+)

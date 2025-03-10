@@ -39,6 +39,10 @@ Name = Forced Engagement
 Description = The targets cannot avoid facing the attack by the Pokémon.
 Flags = RedirectionImmunity,Unassigned
 #-------------------------------
+[IMPENETRABLESHELL]
+Name = Impenetrable Shell
+Description = Immune to Bug-type moves and raises Speed if hit by one.
+#-------------------------------
 [RELENTLESSPURSUIT]
 Name = Relentless Pursuit
 Description = Attacks switching opponents with Pursuit.
@@ -52,6 +56,11 @@ Flags = Unassigned
 Name = Temporal Shift
 Description = Can switch out of battle without wasting a turn.
 Flags = Unassigned
+#-------------------------------
+[THUNDERSTORM]
+Name = Thunderstorm
+Description = Once per switch-in, Charges in sandstorm, doubling the power of its next Electric-type move.
+Flags = SandSynergy
 #-------------------------------
 [TIDEWEAVERSREVERSAL]
 Name = Tideweaver's Reversal

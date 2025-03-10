@@ -3780,6 +3780,12 @@ FrontSprite = 0,16
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
+[MECHANITAR]
+BackSprite = 0,5
+FrontSprite = 5,14
+ShadowX = -3
+ShadowSize = 3
+#-------------------------------
 [MEDICHAM]
 BackSprite = 0,15
 FrontSprite = 2,9

@@ -2123,3 +2123,8 @@ GameData::BattleEffect.register_effect(:Battler, {
     :real_name => "Temporal Shift Receiver",
     :resets_eor => true,
 })
+
+GameData::BattleEffect.register_effect(:Battler, {
+    :id => :Thunderstorm,
+    :real_name => "Thunderstorm",
+})

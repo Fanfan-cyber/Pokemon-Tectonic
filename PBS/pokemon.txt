@@ -6980,7 +6980,7 @@ Kind = Hard Shell
 Pokedex = Its shell is as hard as sheet rock, and it is also very strong. Its thrashing can topple a mountain.
 Generation = 2
 WildItemUncommon = SMOOTHROCK
-Evolutions = TYRANITAR,Level,47
+Evolutions = TYRANITAR,Level,47,MECHANITAR,Item,THUNDERSTONE
 #-------------------------------
 [TYRANITAR]
 Name = Tyranitar
@@ -7001,6 +7001,27 @@ Kind = Armor
 Pokedex = If it rampages, it knocks down mountains and buries rivers. Maps must be redrawn afterward.
 Generation = 2
 WildItemUncommon = SMOOTHROCK
+#-------------------------------
+[MECHANITAR]
+Name = Mechanitar
+Type1 = ROCK
+Type2 = ELECTRIC
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 90,74,96,72,134,110
+# Total = 576
+BaseEXP = 144
+Rareness = 60
+Happiness = 35
+Abilities = THUNDERSTORM,IMPENETRABLESHELL
+Moves = 1,ROCKTHROW,1,IRONDEFENSE,4,BITE,8,RUMBLE,12,RISINGPOWER,16,ROCKTOMB,20,TREMOR,24,BULKUP,28,PAYBACK,32,ROCKPOLISH,36,ROCKALANCHE,40,CRUNCH,44,EARTHQUAKE,48,DIAMONDFORCE,52,THUNDERBOLT,56,EARTHPOWER,60,ATOMICBREATH
+TutorMoves = CHARGEBEAM,METEORBEAM
+StepsToHatch = 10455
+Height = 1.6
+Weight = 303.0
+Kind = Hard Shell
+Pokedex = Mechanitar is highly intelligent and non-confrontational, tending to avoid battle if possible.
+Generation = 9
+Flags = Paradox
 #-------------------------------
 [RAIKOU]
 Name = Raikou
