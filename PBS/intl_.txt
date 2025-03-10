@@ -42573,8 +42573,8 @@ Expected an array of trainer data, got {1}.
 Expected an array of trainer data, got {1}.
 Expected a level after being given {1}, but one wasn't found.
 Expected a level after being given {1}, but one wasn't found.
-#{trainerName}'s team takes joy in #{pbThis(true)}'s pain!
-#{trainerName}'s team takes joy in #{pbThis(true)}'s pain!
+{1}'s team takes joy in {2}'s pain!
+{1}'s team takes joy in {2}'s pain!
 {1} traced {2}'s {3}!
 {1} traced {2}'s {3}!
 {1}? {2} can be that, if it wishes.
@@ -44299,10 +44299,8 @@ The Reaper appears!
 {1} lost its focus and couldn't move!
 {1} is absorbing power!
 {1} is absorbing power!
-Charge
-Charge
-Should #{user.pbThis(true)} charge the attack?
-Should #{user.pbThis(true)} charge the attack?
+Should {1} charge the attack?
+Should {1} charge the attack?
 But it failed, since #{user.pbThis(true)} can't have its type changed!
 But it failed, since #{user.pbThis(true)} can't have its type changed!
 But it failed, since there are no valid types for it to choose!
