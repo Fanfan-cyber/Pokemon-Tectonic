@@ -479,17 +479,20 @@ end
 class PokeBattle_Move_TwoTurnAttackCanChooseOne < PokeBattle_TwoTurnMove
     def initialize(battle, move)
         super
-        @choice = rand(1)
-        @chose  = false
+        @choice = 1
     end
 
     def resolutionChoice(user)
-        return if @chose
-        @chose = true
-        if user.pbOwnedByPlayer?
-            choices = [_INTL("Charge"), _INTL("Attack")]
-            @choice = @battle.scene.pbShowCommands(_INTL("Should #{user.pbThis(true)} charge the attack?"), choices, 0)
+        if user.effectActive?(:TwoTurnAttack)
+          @choice = 0
+          return
         end
+        if user.pbOwnedByPlayer?
+            choices = [_INTL("Yes"), _INTL("No")]
+            @choice = @battle.scene.pbShowCommands(_INTL("Should {1} charge the attack?", user.pbThis(true)), choices, -1)
+            return
+        end
+        @choice = 1
     end
 
     def skipChargingTurn?(user)
@@ -501,13 +504,7 @@ class PokeBattle_Move_TwoTurnAttackCanChooseOne < PokeBattle_TwoTurnMove
         return baseDmg
     end
 
-    def resetMoveUsageState
-        @choice = rand(1)
-        @chose  = false
-    end
-
     def getEffectScore(_user, _target)
-        score += super if @choice == 0
-        return score
+        return 0
     end
 end

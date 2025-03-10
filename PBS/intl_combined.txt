@@ -42573,8 +42573,8 @@ Expected an array of trainer data, got {1}.
 期望得到一个训练师数据的数组，但得到了{1}。
 Expected a level after being given {1}, but one wasn't found.
 在给出{1}后，期望得到一个等级，但未找到。
-#{trainerName}'s team takes joy in #{pbThis(true)}'s pain!
-#{trainerName}的队伍在#{pbThis(true)}的痛苦中感到快乐！
+{1}'s team takes joy in {2}'s pain!
+{1}的队伍在{2}的痛苦中感到快乐！
 {1} traced {2}'s {3}!
 {1}复制了<<n>>{2}的{3}！
 {1}? {2} can be that, if it wishes.
@@ -42602,15 +42602,15 @@ But it couldn't swap into anybody!
 Told to recover a negative amount
 被要求恢复一个负数的量
 {1}'s HP was restored.
-{1}的HP已经恢复。
+{1}的HP恢复了。
 {1}'s lost HP.
 {1}失去了HP。
 {1} is loaded up with fluids!
 {1}装满了液体！
 {1} restored a little HP using its {2}!
-{1}使用{2}<<n>>回复了HP！
+{1}使用{2}回复了HP！
 {1} restored its health using its {2}!
-{1}使用{2}<<n>>回复了HP！
+{1}使用{2}回复了HP！
 {1} was defeated!
 {1}被打败了！
 {1} was destroyed!
@@ -42622,7 +42622,7 @@ Told to recover a negative amount
 {1} fell to the ground!
 {1}倒在了地上！
 {1}'s scattered its {2} when fainting.
-{1}在倒下时<<n>>分散了它的{2}。
+{1}在倒下时分散了它的{2}。
 But there was no one to revive!
 但是没有精灵可以复活！
 Its allied #{reviver.name} was revived to full health!
@@ -42642,9 +42642,9 @@ Its allied #{reviver.name} was revived to full health!
 You sense the presence of many!
 你感受到了一股强大的力量！
 {1} transformed into its Complete Forme!
-{1}<<n>>变成了完全体形态！
+{1}变成了完全体形态！
 {1} transformed into {2}!
-{1}<<n>>变成了{2}！
+{1}变成了{2}！
 {1} gained the Ability {2}!
 {1}获得了{2}特性！
 {1}'s Ability became {2}!
@@ -42672,7 +42672,7 @@ Your team
 But #{pbThis(false)} hold's tightly onto its #{getItemName(checkitem)}!
 但是#{pbThis(false)}<<n>>紧紧抓着它的#{getItemName(checkitem)}！
 {1} is unaffected!
-{1}<<n>>没有受到影响！
+{1}没有受到影响！
 nthTurnThisRound checks for turns 1 or above!
 nthTurnThisRound检查的是1回合或以上！
 #{@name} isn't an avatar, but something is requesting its Phase Lower Health Bound!
@@ -42804,7 +42804,7 @@ It doesn't affect {1} since it's an {2}-type...
 It doesn't affect {1} because another Pokémon in the party is already under this status!
 这不会影响{1}，因为队伍中的另一只精灵已经处于这种状态！
 {1} refuses to gain a status condition!
-{1}没有获得异常状态！
+{1}拒绝陷入异常状态！
 {1} fell asleep! {2}!
 {1}睡着了！{2}！
 {1} was poisoned! {2}!
@@ -44254,55 +44254,53 @@ Neither Pokémon can escape!
 But it failed, since #{target.pbThis(true)} is already trapped and can't be frostbitten!
 但是失败了，因为#{target.pbThis(true)}不会被冻伤！
 But it failed, since a Fairy Lock is already active!
-但是它失败了，<<n>>因为妖精之锁已经启用！
+但是它失败了，因为妖精之锁已经启用！
 No one will be able to run away during the next turn!
 下回合结束前双方均不可交换！
 But it failed, since the target is already marked for death!
-但是它失败了，<<n>>因为对象已经被标注死亡！
+但是它失败了，因为对象已经被标注死亡！
 {1} skipped exhaustion due to its Energy Herb!
 {1}因为香草而不需要休息！
 {1} took in sunlight!
-{1}<<n>>吸收了阳光！
+{1}吸收了阳光！
 {1} took in electricity!
 {1}接收了电力！
 {1} became cloaked in a freezing light!
-{1}<<n>>被寒冷的电光笼罩！
+{1}被寒冷的电光笼罩！
 {1} became cloaked in freezing air!
-{1}<<n>>被冻结的空气笼罩！
+{1}被冻结的空气笼罩！
 {1} is overflowing with power!
 {1}充满了力量！
 {1} is overflowing with space power!
-{1}<<n>>充满了场地的力量！
+{1}充满了空间的力量！
 {1} tucked in its head!
-{1}<<n>>将头缩回去了！
+{1}将头缩回去了！
 {1}'s wings start glowing!
 {1}的翅膀开始发光了！
 {1} flew up high!
-{1}<<n>>飞上了高空！
+{1}飞上了高空！
 {1} burrowed its way under the ground!
-{1}<<n>>钻入了地下！
+{1}钻入了地下！
 The ground rumbles violently underneath {1}!
 {1}所在的地面剧烈颤动着！
 The Reaper appears!
 收割者出现了！
 {1} hid underwater!
-{1}<<n>>潜入了水下！
+{1}潜入了水下！
 {1} sprang up!
-{1}<<n>>跃上了高空！
+{1}跃上了高空！
 {1} vanished instantly!
-{1}<<n>>突然消失了！
+{1}突然消失了！
 {1} petitions the sun!
 {1}向太阳请愿！
 {1} begins the flood!
 {1}开始引发洪水了！
 {1} lost its focus and couldn't move!
-{1}<<n>>无法集中注意力和行动！
+{1}无法集中注意力和行动！
 {1} is absorbing power!
-{1}<<n>>正在吸收力量！
-Charge
-充电
-Should #{user.pbThis(true)} charge the attack?
-#{user.pbThis(true)}应该充电攻击吗？
+{1}正在吸收力量！
+Should {1} charge the attack?
+你想要让{1}为这次攻击蓄力吗？
 But it failed, since #{user.pbThis(true)} can't have its type changed!
 但是失败了，因为#{user.pbThis(true)}不能改变其属性！
 But it failed, since there are no valid types for it to choose!

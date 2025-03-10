@@ -85,8 +85,8 @@ class PokeBattle_Battler
         trainerGroup&.each do |trainer|
             trainerName = trainer.name
             if trainer.tribalBonus.hasTribeBonus?(:SCOURGE)
-                healingMessage = _INTL("#{trainerName}'s team takes joy in #{pbThis(true)}'s pain!")
-                healingMessage = "The opposing #{healingMessage}" if opposingIndex == 1
+                healingMessage = _INTL("{1}'s team takes joy in {2}'s pain!", trainerName, pbThis(true))
+                healingMessage = _INTL("The opposing {1}", healingMessage) if opposingIndex == 1
                 @battle.pbShowTribeSplash(opposingSide, :SCOURGE, trainerName: trainerName)
                 @battle.pbDisplay(healingMessage)
                 trainer.party.each_with_index do |partyMember, index|
