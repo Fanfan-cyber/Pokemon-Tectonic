@@ -48,3 +48,10 @@ class PokeBattle_Move_RampageKOsRaiseSpeed1 < PokeBattle_Move
         return getMultiStatUpEffectScore([:SPEED, 1], user, user)
     end
 end
+
+#===============================================================================
+# User must use this move for 2 more rounds. This attack is always a critical hit. (Whip Trance)
+#===============================================================================
+class PokeBattle_Move_RampageAlwaysCriticalHit < PokeBattle_Move_Rampage
+    def pbCriticalOverride(_user, _target); return 1; end
+end

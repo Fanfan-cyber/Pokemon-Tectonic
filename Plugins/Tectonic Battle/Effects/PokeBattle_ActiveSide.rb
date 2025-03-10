@@ -2,6 +2,7 @@ class PokeBattle_ActiveSide
     include EffectHolder
 
     attr_accessor :effects
+    attr_reader :battle
     attr_reader :index
 
     def initialize(battle, index)

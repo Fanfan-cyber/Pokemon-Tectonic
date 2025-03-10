@@ -941,13 +941,13 @@ Animation = AURASPHERE
 Name = Whip Trance
 Type = FIGHTING
 Category = Special
-Power = 120
+Power = 90
 Accuracy = 100
 TotalPP = 10
 Target = NearOther
-FunctionCode = Rampage
-Flags = CanProtect,CanRandomCrit
-Description = The user relentlessly attacks with its whip-like hands for three turns. Can random critical hit.
+FunctionCode = RampageAlwaysCriticalHit
+Flags = CanProtect
+Description = The user relentlessly attacks with its whip-like hands for three turns. Each hit will always be critical.
 #-------------------------------
 #		FLYING MOVES
 #-------------------------------

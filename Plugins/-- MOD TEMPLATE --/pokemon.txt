@@ -1,7 +1,6 @@
 #-------------------------------
-[5000]
+[TESTPOKEMON]
 Name = Test Pokemon
-InternalName = TESTPOKEMON
 Type1 = NORMAL
 # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
 BaseStats = 60,60,60,60,60,60
@@ -27,9 +26,8 @@ Evolutions = TESTPOKEMON2,Level,30
 # Makes it not appear in game except in DEBUG mode
 Flags = Test
 #-------------------------------
-[5001]
+[TESTPOKEMON2]
 Name = Test Pokemon 2
-InternalName = TESTPOKEMON2
 Type1 = NORMAL
 # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
 BaseStats = 80,80,80,80,80,80

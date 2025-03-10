@@ -232,7 +232,7 @@ TotalPP = 1
 Target = User
 FunctionCode = EmpoweredGreyMist
 Flags = Empowered
-Description = The user resets all stats, prevents stat changes, increases their defenses, and becomes Poison-type.
+Description = The user sets Grey Mist for 8 turns, gives themselves a Black Sludge, and becomes Poison-type.
 Animation = MIST
 #-------------------------------
 [PRIMEVALPOISONGAS]

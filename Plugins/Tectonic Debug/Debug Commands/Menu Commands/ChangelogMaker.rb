@@ -2,7 +2,6 @@ MOVE_RENAMES =
 {
 	:ROCKSMASH => :SMASH,
 	:SMARTSTRIKE => :SMARTHORN,
-	:SWEETKISS => :ANGELSKISS,
 	:DREAMEATER => :DREAMABSORB,
 	:TOXICSPIKES => :POISONSPIKES,
 	:SUNNYDAY => :SUNSHINE,
@@ -34,24 +33,38 @@ DebugMenuCommands.register("changelog", {
   "description" => _INTL("Generate species changelogs of various types."),
 })
 
+DebugMenuCommands.register("loadspeciesold", {
+  "parent"      => "changelog",
+  "name"        => _INTL("Load Comparison Data"),
+  "description" => _INTL("Load species_old.dat to prime the changelog generator."),
+  "effect"      => proc { |sprites, viewport|
+		begin
+			GameData::SpeciesOld.load
+			pbMessage(_INTL("Comparison data loaded! You may now run the other changelog commands."))
+		rescue Exception
+			pbPrintException($!)
+	end
+  }
+})
+
 DebugMenuCommands.register("generatechangelogrange", {
   "parent"      => "changelog",
   "name"        => _INTL("Generate species changelog between ids"),
   "description" => _INTL("See the changelog for each species between the Old and New pokemon.txt files for a specific range of IDs."),
   "effect"      => proc { |sprites, viewport|
-	firstNumberInput = pbEnterText("First ID number", 0, 3)
-	if firstNumberInput.blank?
-		next
-	end
-	firstNumberAttempt = firstNumberInput.to_i
-	return nil if firstNumberAttempt == 0
-	lastNumberInput = pbEnterText("Last ID number", 0, 3)
-	if lastNumberInput.blank?
-		next
-	end
-	lastNumberAttempt = lastNumberInput.to_i
-	return nil if lastNumberAttempt == 0
-	createChangeLog(firstNumberAttempt,lastNumberAttempt)
+		firstNumberInput = pbEnterText("First ID number", 0, 3)
+		if firstNumberInput.blank?
+			next
+		end
+		firstNumberAttempt = firstNumberInput.to_i
+		return nil if firstNumberAttempt == 0
+		lastNumberInput = pbEnterText("Last ID number", 0, 3)
+		if lastNumberInput.blank?
+			next
+		end
+		lastNumberAttempt = lastNumberInput.to_i
+		return nil if lastNumberAttempt == 0
+		createChangeLog(firstNumberAttempt,lastNumberAttempt)
   }
 })
 
@@ -69,9 +82,9 @@ DebugMenuCommands.register("generatechangelogpergen", {
   "name"        => _INTL("Generate changelog per generation"),
   "description" => _INTL("Generate a species changelog per generation of Pokémon"),
   "effect"      => proc { |sprites, viewport|
-	for index in 1...9
-		createChangeLog(index,"Changelogs/changelog_gen#{index.to_s}.txt")
-	end
+		for index in 1...9
+			createChangeLog(index,"Changelogs/changelog_gen#{index.to_s}.txt")
+		end
   }
 })
 
@@ -99,6 +112,11 @@ DebugMenuCommands.register("generatedexdocpergen", {
 })
 
 def createChangeLog(generationNumber = nil,fileName = "Changelogs/changelog.txt")
+	unless GameData::SpeciesOld.loaded?
+		pbMessage(_INTL("You must run the load command before creating a changelog!"))
+		return
+	end
+
 	unchanged = []
 		
 	File.open(fileName,"wb") { |f|
@@ -107,7 +125,10 @@ def createChangeLog(generationNumber = nil,fileName = "Changelogs/changelog.txt"
 			next if generationNumber && species_data.generation != generationNumber
 			
 			newSpeciesData = GameData::Species.get(species_data.id) || nil
-			next if newSpeciesData.nil?
+			if newSpeciesData.nil?
+				echoln("No match for #{species_data.id} found in the current species data.")
+				next
+			end
 			changeLog = []
 			
 			# Check for type changes
@@ -323,10 +344,8 @@ def createChangeLog(generationNumber = nil,fileName = "Changelogs/changelog.txt"
 			end
 			
 			# Print out the changelog
-			if changeLog.length == 0
+			if changeLog.length <= 1
 				unchanged.push(species_data.id)
-				# f.write("#{species_data.real_name}: Unchanged!\r\n")
-				# f.write("--------------------------------------------\r\n")
 			else
 				f.write("#{species_data.real_name}:\r\n")
 				changeLog.each do |change|

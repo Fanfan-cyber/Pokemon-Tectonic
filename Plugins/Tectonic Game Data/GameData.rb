@@ -322,7 +322,6 @@ module GameData
         Move.load
         Item.load
         Species.load
-        SpeciesOld.load
         SpeciesMetrics.load
         Ribbon.load
         Encounter.load

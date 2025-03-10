@@ -107,8 +107,13 @@ end
 # Resets all stat steps at end of turn and at the end of the next four turns. (Grey Mist)
 #===============================================================================
 class PokeBattle_Move_StartGreyMist5 < PokeBattle_Move
+    def initialize(battle, move)
+        super
+        @greyMistDuration = 5
+    end
+
     def pbEffectGeneral(_user)
-        @battle.field.applyEffect(:GreyMist, 5) unless @battle.field.effectActive?(:GreyMist)
+        @battle.field.applyEffect(:GreyMist, @greyMistDuration) unless @battle.field.effectActive?(:GreyMist)
     end
 
     def pbMoveFailed?(_user, _targets, show_message)
@@ -123,13 +128,18 @@ class PokeBattle_Move_StartGreyMist5 < PokeBattle_Move
     end
 
     def getEffectScore(user, _target)
-        return getGreyMistSettingEffectScore(user,5)
+        return getGreyMistSettingEffectScore(user,@greyMistDuration)
     end
 end
 
 # Empowered Grey Mist
 class PokeBattle_Move_EmpoweredGreyMist < PokeBattle_Move_StartGreyMist5
     include EmpoweredMove
+
+    def initialize(battle, move)
+        super
+        @greyMistDuration = 8
+    end
 
     def pbEffectGeneral(user)
         super
