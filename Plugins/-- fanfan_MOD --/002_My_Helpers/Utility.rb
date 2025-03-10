@@ -88,7 +88,7 @@ def pbChooseAbilityFromListEX(message, input_ids, must_choose = false)
       names.push(id.name)
       ids.push(id)
     else
-      next if !GameData::Ability.exists?(id)
+      next unless GameData::Ability.exists?(id)
       abil = GameData::Ability.get(id)
       names.push(abil.name)
       ids.push(abil.id)
@@ -106,9 +106,13 @@ def pbChooseAbilityFromListEX(message, input_ids, must_choose = false)
 end
 
 def change_ability_choose_from_list(pkmn, ability_list)
+  if ability_list.empty?
+    pbMessage(_INTL("There aren't any abilities in the list!"))
+    return false 
+  end
   new_ability_data = pbChooseAbilityFromListEX(_INTL("Choose an ability."), ability_list)
   new_ability = new_ability_data[0]
-  return false if !new_ability
+  return false unless new_ability
   if new_ability != pkmn.ability_id
     new_ability_name = GameData::Ability.get(new_ability).name
     if pbConfirmMessage(_INTL("Change {1}'s main ability to {2}?", pkmn.name, new_ability_name))

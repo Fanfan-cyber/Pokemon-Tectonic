@@ -206,11 +206,11 @@ class PokeBattle_Battle
   end
 
   def each_both_party_back_pkmn
-    each_both_party_pkmn { |pkmn| yield pkmn if !all_battlers_ids.has?(pkmn.unique_id) }
+    each_both_party_pkmn { |pkmn| yield pkmn unless all_battlers_ids.has?(pkmn.unique_id) }
   end
 
   def each_both_party_back_able_pkmn
-    each_both_party_able_pkmn { |pkmn| yield pkmn if !all_battlers_ids.has?(pkmn.unique_id) }
+    each_both_party_able_pkmn { |pkmn| yield pkmn unless all_battlers_ids.has?(pkmn.unique_id) }
   end
 
   def both_party_back_pkmn

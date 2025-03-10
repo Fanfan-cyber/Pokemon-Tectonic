@@ -244,7 +244,7 @@ existingIndex)
         # Build the commands
         commands[cmdAdaptiveAI = commands.length]   = _INTL("Adaptive AI") if TA.get(:adaptiveai)
         commands[cmdEvolve = commands.length]       = _INTL("Evolve") if newspecies
-        commands[cmdOpenAR = commands.length]       = _INTL("Open AR") if TA.get(:customabil)
+        commands[cmdOpenAR = commands.length]       = _INTL("Open AR") if TA.get(:customabil) && !$Trainer.ability_recorder.empty?
         commands[cmdRename = commands.length]       = _INTL("Rename")
         commands[cmdSetGender = commands.length]    = _INTL("Set Gender")
         commands[cmdSetHP = commands.length]        = _INTL("Set HP")

@@ -3,6 +3,7 @@ class PokeBattle_Battler
     # Called when a Pokémon (self) is sent into battle or its ability changes.
     #=============================================================================
     def pbEffectsOnSwitchIn(switchIn = false)
+        @battle.battled_battlers << unique_id
         # Healing Wish/Lunar Dance/entry hazards
         @battle.pbOnActiveOne(self) if switchIn
         # Primal Revert upon entering battle
@@ -42,7 +43,8 @@ class PokeBattle_Battler
     # Ability effects
     #=============================================================================
     def pbAbilitiesOnSwitchOut
-        pbRecoverHP(@totalhp / Settings::SWITCH_HEALING_NUM.to_f, false, false, false) unless fainted?
+        # Switch Healing Switch part
+        pbRecoverHP(@totalhp * Settings::SWITCH_HEALING_NUM / 100.0, false, false, false) unless fainted?
 
         eachActiveAbility do |ability|
             BattleHandlers.triggerAbilityOnSwitchOut(ability, self, @battle, false)

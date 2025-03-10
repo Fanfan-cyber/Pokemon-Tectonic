@@ -33154,7 +33154,7 @@ Ignores screens and other barriers, Substitute, and boosted defensive stats.
 Damages an attacker that lands the finishing hit.
 被对手打倒的时候，会给予对手相当于HP剩余量的伤害。
 The Pokémon is protected from flinching, Intimidate, Fascinate, and Frustrate.
-不受惊吓、威吓、震慑和阻挠的影响。
+不会畏缩，不受威吓、震慑和阻挠的影响。
 Upon entry, lowers the foe's Attack stat by two steps.
 出场时威吓对手，让其退缩，降低对手2级物攻。
 Raises Attack when the Pokémon enters a battle.
@@ -42168,7 +42168,7 @@ It'll last for #{moreTurns} more turns.
 It'll last indefinitely!
 它会无限期持续下去！
 It'll last for {1} more turns!
-它还会再持续 {1} 回合！
+它还会再持续{1}回合！
 The sunshine continues!
 阳光仍然刺眼！
 The rainstorm shows no sign of stopping!
@@ -43364,43 +43364,43 @@ The grey mist dissipated.
 {1} was healed by the field of flowers!
 {1}被花儿治愈了！
 {1} took the {2} attack!
-{1}<<n>>承受了{2}的攻击！
+{1}承受了{2}的攻击！
 The healing wish came true for {1}!
 治愈之愿降临在了{1}！
 {1}'s wish came true!
-{1}的祈愿<<n>>成真了！
+{1}的祈愿成真了！
 {1}'s refuge comforts {2}!
-{1}的庇护让<<n>>{2}很安心！
+{1}的庇护让{2}很安心！
 {1} passes its ability to {2}!
 {1}将自己的特性传递给 {2}！
 {2} reads {1}'s heart and gains its stats!
 {2}读取了{1}的心，并获得了它的状态！
 {1}'s cushions the blow for {2}!
-{1}替{2}<<n>>缓冲了攻击！
+{1}替{2}缓冲了攻击！
 {1} was energized by the aftershock!
-{1}被余震激发！
+{1}被余震激发了！
 {1}'s PP was restored!
 {1}的PP恢复了!
 {1} gets a free turn!
-{1}获得一个免费回合！
-{1}'s Defense is raised! This will last for #{value - 1} more turns!
-{1}的防御提高了！<<n>>持续#{value - 1}个回合！
+{1}获得了一个免费的行动次数！
+{1}'s Defense is raised! This will last for {2} more turns!
+{1}的物防提高了！这将持续{2}个回合！
 {1}'s Reflect was broken!
-{1}的反射壁<<n>>被打破了！
+{1}的反射壁被打破了！
 {1}'s Reflect wore off.
-{1}的反射壁<<n>>消失了！
-{1}'s Sp. Def is raised! This will last for #{value - 1} more turns!
-{1}的特防提高了！<<n>>持续#{value - 1}个回合！
+{1}的反射壁消失了！
+{1}'s Sp. Def is raised! This will last for {2} more turns!
+{1}的特防提高了！这将持续{2}个回合！
 {1}'s Light Screen was broken!
-{1}的光墙<<n>>被打破了！
+{1}的光墙被打破了！
 {1}'s Light Screen wore off.
-{1}的光墙<<n>>消失了！
-{1}'s Defense and Sp. Def are raised! This will last for #{value - 1} more turns!
-{1}的防御和特防提高了！<<n>>持续#{value - 1}个回合！
+{1}的光墙消失了！
+{1}'s Defense and Sp. Def are raised! This will last for {2} more turns!
+{1}的物防提高了！这将持续{2}个回合！
 {1}'s Aurora Veil was broken!
-{1}的极光幕<<n>>被打破了！
+{1}的极光幕被打破了！
 {1}'s Aurora Veil wore off!
-{1}的极光幕<<n>>消失了！
+{1}的极光幕消失了！
 {1} takes less damage from moves with 100+ base power! This will last for #{value - 1} more turns!
 {1}受到基础威力大于100的技能时，受到的伤害会更少！这将持续#{value - 1}个回合！
 {1}'s Repulsion Field was broken!
@@ -45446,7 +45446,7 @@ Please choose a move that will be replaced with {1}.
 You used your last {1}.
 你用完了最后一个{1}。
 {1} can't learn {2}.
-{1} 不能学习{2}。
+{1}不能学习{2}。
 You used an {1}.
 你使用了一个{1}。
 You used a {1}.
@@ -48946,13 +48946,13 @@ Sorry, you got it wrong!
 Upon entry, creates an Emotion Room for 5 turns, adding an ability every turn.
 入场时创建一个持续5回合的情感房间，每回合增加一个特性。
 Copies opponents' species' legal Abilities.
-复制对手精灵种类的合法特性。
+复制对手精灵物种的合法特性。
 An item to be held by a Pokémon. The user gets three abilities, but its stats are cut by 10%.
 一种可以携带的物品。携带者获得三个特性，但其能力会降低10%。
 ,
 ,
 and
- and
+和
 {1} change to {2} type!
 {1}变为{2}属性！
 {1} has been removed!
@@ -48963,6 +48963,8 @@ GF
 GF
 Game Freak
 游戏狂想家
+There aren't any abilities in the list!
+列表中没有任何特性！
 Change {1}'s main ability to {2}?
 将{1}的主要特性改为{2}？
 {1}'s main ability now is {2}.

@@ -43383,20 +43383,20 @@ The healing wish came true for {1}!
 {1}'s PP was restored!
 {1} gets a free turn!
 {1} gets a free turn!
-{1}'s Defense is raised! This will last for #{value - 1} more turns!
-{1}'s Defense is raised! This will last for #{value - 1} more turns!
+{1}'s Defense is raised! This will last for {2} more turns!
+{1}'s Defense is raised! This will last for {2} more turns!
 {1}'s Reflect was broken!
 {1}'s Reflect was broken!
 {1}'s Reflect wore off.
 {1}'s Reflect wore off.
-{1}'s Sp. Def is raised! This will last for #{value - 1} more turns!
-{1}'s Sp. Def is raised! This will last for #{value - 1} more turns!
+{1}'s Sp. Def is raised! This will last for {2} more turns!
+{1}'s Sp. Def is raised! This will last for {2} more turns!
 {1}'s Light Screen was broken!
 {1}'s Light Screen was broken!
 {1}'s Light Screen wore off.
 {1}'s Light Screen wore off.
-{1}'s Defense and Sp. Def are raised! This will last for #{value - 1} more turns!
-{1}'s Defense and Sp. Def are raised! This will last for #{value - 1} more turns!
+{1}'s Defense and Sp. Def are raised! This will last for {2} more turns!
+{1}'s Defense and Sp. Def are raised! This will last for {2} more turns!
 {1}'s Aurora Veil was broken!
 {1}'s Aurora Veil was broken!
 {1}'s Aurora Veil wore off!
@@ -48963,6 +48963,8 @@ GF
 GF
 Game Freak
 Game Freak
+There aren't any abilities in the list!
+There aren't any abilities in the list!
 Change {1}'s main ability to {2}?
 Change {1}'s main ability to {2}?
 {1}'s main ability now is {2}.

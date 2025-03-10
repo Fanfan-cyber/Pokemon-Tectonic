@@ -533,7 +533,7 @@ class PokEstate
 		if $PokemonGlobal.omnitutor_active && !getOmniMoves(pokemon).empty?
 			commands[cmdOmnitutor = commands.length]	= _INTL("OmniTutor")
 		end
-    commands[cmdOpenAR = commands.length]       = _INTL("Open AR") if TA.get(:customabil)
+    commands[cmdOpenAR = commands.length]       = _INTL("Open AR") if TA.get(:customabil) && !$Trainer.ability_recorder.empty?
     commands[cmdAdaptiveAI = commands.length]   = _INTL("Adaptive AI") if TA.get(:adaptiveai)
 		commands[cmdCancel = commands.length] = _INTL("Cancel")
 

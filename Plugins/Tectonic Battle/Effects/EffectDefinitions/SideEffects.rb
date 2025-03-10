@@ -31,7 +31,7 @@ GameData::BattleEffect.register_effect(:Side, {
     :ticks_down => true,
     :is_screen => true,
     :apply_proc => proc do |battle, _side, teamName, value|
-        battle.pbDisplay(_INTL("{1}'s Defense is raised! This will last for #{value - 1} more turns!", teamName))
+        battle.pbDisplay(_INTL("{1}'s Defense is raised! This will last for {2} more turns!", teamName, value - 1))
     end,
     :disable_proc => proc do |battle, _side, teamName|
         battle.pbDisplay(_INTL("{1}'s Reflect was broken!", teamName))
@@ -48,7 +48,7 @@ GameData::BattleEffect.register_effect(:Side, {
     :ticks_down => true,
     :is_screen => true,
     :apply_proc => proc do |battle, _side, teamName, value|
-        battle.pbDisplay(_INTL("{1}'s Sp. Def is raised! This will last for #{value - 1} more turns!", teamName))
+        battle.pbDisplay(_INTL("{1}'s Sp. Def is raised! This will last for {2} more turns!", teamName, value - 1))
     end,
     :disable_proc => proc do |battle, _side, teamName|
         battle.pbDisplay(_INTL("{1}'s Light Screen was broken!", teamName))
@@ -65,8 +65,8 @@ GameData::BattleEffect.register_effect(:Side, {
     :ticks_down => true,
     :is_screen => true,
     :apply_proc => proc do |battle, _side, teamName, value|
-        battle.pbDisplay(_INTL("{1}'s Defense and Sp. Def are raised! This will last for #{value - 1} more turns!",
-teamName))
+        battle.pbDisplay(_INTL("{1}'s Defense and Sp. Def are raised! This will last for {2} more turns!",
+teamName, value - 1))
     end,
     :disable_proc => proc do |battle, _side, teamName|
         battle.pbDisplay(_INTL("{1}'s Aurora Veil was broken!", teamName))

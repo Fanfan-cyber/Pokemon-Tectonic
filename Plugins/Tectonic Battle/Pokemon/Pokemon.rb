@@ -267,6 +267,10 @@ class Pokemon
         @status = new_status.id
     end
 
+    def has_status?
+        return @status != :NONE
+    end
+
     # @return [Boolean] whether the Pokémon is not fainted and not an egg
     def able?
         return !egg? && @hp > 0 && !@afraid
@@ -275,6 +279,10 @@ class Pokemon
     # @return [Boolean] whether the Pokémon is fainted
     def fainted?
         return !egg? && @hp <= 0 || @afraid
+    end
+
+    def pinch?
+        return able? && @hp <= (@totalhp * 1 / 3.0).ceil
     end
 
     # Heals all HP of this Pokémon.
