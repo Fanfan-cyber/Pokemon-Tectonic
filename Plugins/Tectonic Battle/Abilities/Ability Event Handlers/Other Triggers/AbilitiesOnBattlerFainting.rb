@@ -7,6 +7,7 @@ BattleHandlers::AbilityOnBattlerFainting.add(:SOULHEART,
 BattleHandlers::AbilityOnBattlerFainting.add(:ARCANEFINALE,
     proc { |ability, battler, fainted, battle|
         next if battler.opposes?(fainted)
+        next unless battler.isSpecies?(%i[GARDEVOIR GALLADE])
         next unless battler.isLastAlive?
         next unless battler.form == 0
         battle.pbShowAbilitySplash(battler, ability)

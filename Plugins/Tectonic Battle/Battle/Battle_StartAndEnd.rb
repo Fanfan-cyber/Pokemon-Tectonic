@@ -325,9 +325,9 @@ class PokeBattle_Battle
         end
         unless @autoTesting
             # Record if the fight was perfected
-            if $Trainer.able_pokemon_count >= ableBeforeFight
+            if @decision == 1 && ($Trainer.able_pokemon_count >= ableBeforeFight || ignore_imperfect?)
                 trackPerfectBattle(true)
-                if trainerBattle? && @decision == 1 && !TA.get(:battle_loader) #&& !skipPerfecting
+                if trainerBattle? && !TA.get(:battle_loader) #&& !skipPerfecting
                     pbMessage(_INTL("\\me[Battle perfected]You perfected the fight!"))
                     TA.increase(:win)
                     RocketMode.pbRobPokemon(self)
@@ -700,7 +700,7 @@ class PokeBattle_Battle
 
     def pbEndOfBattle(ableBeforeFight = nil)
         lost_extra_text = ""
-        if @decision != 2 && ableBeforeFight && trainerBattle? && $Trainer.able_pokemon_count < ableBeforeFight && !debugControl
+        if @decision != 2 && ableBeforeFight && trainerBattle? && $Trainer.able_pokemon_count < ableBeforeFight && !debugControl && !ignore_imperfect?
             @decision = 2
             lost_extra_text = _INTL("\nSome of your Pokémon fainted in battle.")
         end

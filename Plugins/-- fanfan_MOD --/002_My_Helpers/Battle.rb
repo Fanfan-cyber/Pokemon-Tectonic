@@ -15,6 +15,14 @@ class PokeBattle_Battle
     end
   end
 
+  def ignore_imperfect?
+    if $Trainer.able_pokemon_count == 1
+      able_pokemon = $Trainer.first_able_pokemon
+      return true if able_pokemon.isSpecies?(%i[GARDEVOIR GALLADE]) && able_pokemon.form == 1
+    end
+    return false
+  end
+
   def adaptive_ai_v1_type
     @adaptive_ai_v1_type ||= {}
   end

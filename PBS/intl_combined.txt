@@ -41824,19 +41824,19 @@ For #{pokemon.name} to have two items, only one can be Clothing!
 But {1} is already charged...
 但{1}已经充电了……
 {1}'s fur is standing sharp! {2} is hurt!
-{1}的毛竖起来了{2} 受伤了！
+{1}的毛竖起来了{2}受伤了！
 {1} is hurt!
 {1}受到了伤害！
 {1}'s stat changes were eliminated!
 {1}的能力变化恢复正常了！
-#{user.pbThis} catches the full force of #{target.pbThis(true)}'s Speed!
-#{user.pbThis}承受了#{target.pbThis(true)}全速冲击!
+{1} catches the full force of {2}'s Speed!
+{1}承受了{2}的全速冲击!
 {1} was warned not to attack {2} again!
 {1}被警告不要再攻击{2}！
 {1} ate {2}'s {3}!
 {1}吃掉了{2}的{3}！
 {1} is the team's finale!
-{1}是队伍的制胜王牌!
+{1}是队伍的最终王牌!
 But there were already pointed stones floating around {1}!
 但是已经有尖锐的岩石漂浮在{1}周围了！
 But a live wire already sits near {1}!
@@ -42063,8 +42063,8 @@ You have to win the battle PERFECTLY, or you LOSE!
 对于这场战斗，你必须完胜！
 #{b.pbThis} is blessed by the shattered sky!
 #{b.pbThis}被破碎的天空祝福了！
-Time is dancing to #{stretcher.pbThis}'s tune! This turn is being skipped!
-时间正随着#{stretcher.pbThis}的旋律起舞，这个回合被跳过了！
+Time is dancing to {1}'s tune! This turn is being skipped!
+时间正随着{1}的旋律起舞！这个回合被跳过了！
 {1} will arrive next turn!
 {1}将在下回合到达！
 {1} pilots into battle!
@@ -42078,7 +42078,7 @@ You gave ${1} to the winner...
 You panicked and dropped ${1}...
 你不小心掉了${1}...
 Some of your Pokémon fainted in battle.
-你的一些精灵在战斗中濒死了。
+因为你有精灵在战斗中濒死了。
 You defeated {1}!
 你打败了{1}！
 You defeated {1} and {2}!
@@ -48969,6 +48969,8 @@ Upon entry, creates an Emotion Room for 5 turns, adding an ability every turn.
 入场时创建一个持续5回合的情感房间，每回合增加一个特性。
 Copies opponents' species' legal Abilities.
 复制对手精灵物种的合法特性。
+Turns to Finale Form when only unfainted on team. Ignores the condition of a perfect battle.
+当队伍只剩下自己后，将变为终结形态。若在终结形态取得了胜利，依然视为完胜。
 An item to be held by a Pokémon. The user gets three abilities, but its stats are cut by 10%.
 一种可以携带的物品。携带者获得三个特性，但其能力会降低10%。
 ,

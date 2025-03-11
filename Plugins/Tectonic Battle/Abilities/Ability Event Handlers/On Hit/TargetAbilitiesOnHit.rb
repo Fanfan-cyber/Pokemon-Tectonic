@@ -284,7 +284,7 @@ BattleHandlers::TargetAbilityOnHit.add(:SPINTENSITY,
             next 0
         end
         battle.pbShowAbilitySplash(target, ability)
-        battle.pbDisplay(_INTL("#{user.pbThis} catches the full force of #{target.pbThis(true)}'s Speed!"))
+        battle.pbDisplay(_INTL("{1} catches the full force of {2}'s Speed!", user.pbThis, target.pbThis(true)))
         oldStep = target.steps[:SPEED]
         user.applyFractionalDamage(oldStep / 8.0)
         battle.pbCommonAnimation("StatDown", target)

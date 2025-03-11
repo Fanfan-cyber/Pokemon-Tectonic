@@ -725,6 +725,7 @@ BattleHandlers::AbilityOnSwitchIn.add(:FREERIDE,
 
 BattleHandlers::AbilityOnSwitchIn.add(:ARCANEFINALE,
   proc { |ability, battler, battle, aiCheck|
+      next -100 unless battler.isSpecies?(%i[GARDEVOIR GALLADE])
       next -100 unless battler.isLastAlive?
       next 0 unless battler.form == 0
       next 100 if aiCheck
