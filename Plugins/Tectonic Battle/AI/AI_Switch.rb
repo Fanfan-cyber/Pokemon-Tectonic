@@ -255,6 +255,7 @@ class PokeBattle_AI
             else
                 currentHP = battler.hp.to_f
                 currentHP += battler.totalhp * 0.25 if battler.hasActiveAbilityAI?(:REGENERATOR) || battler.hasActiveAbilityAI?(:HOLIDAYCHEER)
+                currentHP += battler.totalhp * 0.1 # Switch Healing
                 currentHP += battler.totalhp * 0.1 if battler.hasTribeBonus?(:CARETAKER)
                 currentHP += battler.totalhp * 0.5 if battler.hasActiveAbilityAI?(:REFRESHMENTS) && battler.ownersPolicies.include?(:SUN_TEAM)
                 currentHP += battler.totalhp * 0.5 if battler.hasActiveAbilityAI?(:TOLLTHEBELLS) && battler.ownersPolicies.include?(:ECLIPSE_TEAM)

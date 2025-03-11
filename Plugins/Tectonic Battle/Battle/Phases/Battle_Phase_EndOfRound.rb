@@ -79,11 +79,12 @@ class PokeBattle_Battle
         (@party1 + @party2).each do |pkmn|
             next unless pkmn
             next unless battled_battlers.include?(pkmn.unique_id)
+            next if turn_switched[pkmn.unique_id] == @turnCount
             next if pkmn.fainted?
             next if pkmn.pinch?
             next if pkmn.has_status?
             next if field_battlers.include?(pkmn.unique_id)
-            pkmn.healByFraction(Settings::SWITCH_HEALING_NUM / 100.0)
+            pkmn.healByFraction(Settings::REST_HEALING_NUM / 100.0)
         end
 
         # Switch Pokémon in if possible

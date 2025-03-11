@@ -40,6 +40,10 @@ class PokeBattle_Battle
   def battled_battlers # used for Switch Healing
     @battled_battlers ||= []
   end
+
+  def turn_switched # used for recording the turnCount when a Pokemon switches out
+    @turn_switched ||= {}
+  end
 end
 
 class PokeBattle_Battler
@@ -95,7 +99,6 @@ end
 class PokeBattle_BattlerTracker
   def initialize
     @forced_engagement = nil
-    @hits_amount       = 0
   end
 end
 

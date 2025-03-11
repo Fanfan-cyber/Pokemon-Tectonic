@@ -556,7 +556,7 @@ class PokeBattle_Battle
             stretcher = pbCheckGlobalAbility(:TIMESKIP)
             if stretcher
                 pbShowAbilitySplash(stretcher, :TIMESKIP)
-                pbDisplay(_INTL("Time is dancing to #{stretcher.pbThis}'s tune! This turn is being skipped!"))
+                pbDisplay(_INTL("Time is dancing to {1}'s tune! This turn is being skipped!", stretcher.pbThis))
                 pbHideAbilitySplash(stretcher)
                 # Start of round phase
                 PBDebug.logonerr { pbStartOfRoundPhase }
