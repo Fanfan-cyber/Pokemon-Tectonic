@@ -38243,8 +38243,8 @@ Enter {1}'s name.
 \se[]{1} saved the game.\me[GUI save game]
 \se[]Save failed.\wtnp[30]
 \se[]Save failed.\wtnp[30]
-Randomizer has been disabled in Earthquake!<<n>>Please play in Normal mode.
-Randomizer has been disabled in Earthquake!<<n>>Please play in Normal mode.
+Randomizer has been disabled in TectoQuake!<<n>>Please play in Normal mode.
+Randomizer has been disabled in TectoQuake!<<n>>Please play in Normal mode.
 Your selected Randomizer rules have been applied.
 Your selected Randomizer rules have been applied.
 No Randomizer rules have been applied.
@@ -45505,8 +45505,8 @@ The Bag is full. The Pokémon's {1} could not be removed.
 The Bag is full. The Pokémon's {1} could not be removed.
 Received the {1} from {2}.
 Received the {1} from {2}.
-Ability Capsule can't be used in Earthquake!
-Ability Capsule can't be used in Earthquake!
+Ability Capsule can't be used in TectoQuake!
+Ability Capsule can't be used in TectoQuake!
 Would you like to change {1}'s main ability to {2}?
 Would you like to change {1}'s main ability to {2}?
 {1}'s main ability has been changed to {2}!

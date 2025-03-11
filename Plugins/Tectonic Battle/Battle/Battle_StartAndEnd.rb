@@ -647,7 +647,7 @@ class PokeBattle_Battle
         return if !@internalBattle || !@moneyGain || TA.get(:battle_loader)
 
         moneyMult = 1
-        moneyMult *= 3 # earthquake
+        moneyMult *= 2 # TectoQuake
         moneyMult *= 2 if @field.effectActive?(:AmuletCoin)
         moneyMult *= 2 if @field.effectActive?(:HappyHour)
         moneyMult *= 2 if @field.effectActive?(:Fortune)

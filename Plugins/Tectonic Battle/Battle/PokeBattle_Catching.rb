@@ -302,7 +302,7 @@ class PokeBattle_Battle
         else
             catch_rate = BallHandlers.modifyCatchRate(ball, catch_rate, self, battler, ultraBeast)
         end
-        catch_rate *= Settings::CATCH_RATE_BOOST # earthquake
+        catch_rate *= Settings::CATCH_RATE_BOOST # TectoQuake
         catch_rate = (catch_rate * 1.5).floor if ballMimicActive?
         return PokeBattle_Battle.captureThresholdCalcInternals(battler.status, battler.hp, battler.totalhp, catch_rate)
     end

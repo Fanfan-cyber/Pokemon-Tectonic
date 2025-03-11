@@ -1,5 +1,5 @@
 ItemHandlers::UseOnPokemon.add(:ABILITYCAPSULE,proc { |item,pkmn,scene|
-    pbMessage(_INTL("Ability Capsule can't be used in Earthquake!"))
+    pbMessage(_INTL("Ability Capsule can't be used in TectoQuake!"))
     next false
     unless teamEditingAllowed?
         showNoTeamEditingMessage

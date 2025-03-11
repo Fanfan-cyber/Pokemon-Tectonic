@@ -38243,7 +38243,7 @@ Enter {1}'s name.
 \se[]{1}保存了游戏。\me[GUI save game]
 \se[]Save failed.\wtnp[30]
 \se[]保存失败。\wtnp[30]
-Randomizer has been disabled in Earthquake!<<n>>Please play in Normal mode.
+Randomizer has been disabled in TectoQuake!<<n>>Please play in Normal mode.
 随机模式已被禁用！<<n>>请在普通模式下进行游戏。
 Your selected Randomizer rules have been applied.
 你选择的随机设定已生效。
@@ -45498,14 +45498,14 @@ You put the {1} away\<<n>>in the <icon=bagPocket{2}>\c<<[>>1<<]>>{3} Pocket\c<<[
 {1} is already holding a {2}.
 {1}现在拿着一个{2}。
 {1} isn't holding anything.
-{1}什么也没拿。
+{1}什么也没携带。
 Take which item?
 选择哪个物品？
 The Bag is full. The Pokémon's {1} could not be removed.
 背包满了，无法取出精灵的{1}。
 Received the {1} from {2}.
 从{2}那里取出了{1}。
-Ability Capsule can't be used in Earthquake!
+Ability Capsule can't be used in TectoQuake!
 特性胶囊在地震中无法使用！
 Would you like to change {1}'s main ability to {2}?
 你想把{1}的主特性改为{2}吗？
