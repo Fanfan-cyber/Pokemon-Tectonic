@@ -64,7 +64,7 @@ module AntiAbuse
   OFFICIAL_SITE   = "https://bbs.pokefans.xyz/threads/598/"
   CHEAT_CLASS     = [:CheatItemsAdapter, :ScreenCheat_Items, :SceneCheat_Items, :Scene_Cheat, :Window_GetItem, :PokemonLoad]
   CHEAT_METHOD    = [:pbenabledebug, :pbDebugMenu]
-  CHEAT_PROCESS   = %w[nw.exe cheatengine-i386.exe cheatengine-x86_64.exe cheatengine-x86_64-SSE4-AVX2.exe]
+  CHEAT_PROCESS   = %w[nw.exe cheatengine-i386.exe cheatengine-x86_64.exe cheatengine-x86_64-SSE4-AVX2.exe GearNT.exe]
   @@debug_control = false
 
   def self.print_update_log
@@ -78,12 +78,12 @@ module AntiAbuse
   end
 
   def self.apply_anti_abuse
-    kill_windows_shit
     kill_joiplay_shit
     debug_check
   end
 
   def self.debug_check
+    kill_windows_shit
     return if !$DEBUG || @@debug_control
     password = pbEnterText(_INTL("Enter Debug Password."), 0, 32)
     exit if password != DEBUG_PASSWORD
@@ -108,15 +108,19 @@ module AntiAbuse
 
   def self.kill_windows_shit
     return unless windows?
-    CHEAT_PROCESS.each do |process|
-      next unless process_exists?(process)
-      exit unless system("taskkill /F /IM #{process}")
+    CHEAT_PROCESS.each do |process_name|
+      next unless process_exists?(process_name)
+      #exit unless system("taskkill /IM #{process_name} /F")
+      exit
     end
   end
 
+  require 'win32ole'
   def self.process_exists?(process_name)
-    result = `tasklist /FI "IMAGENAME eq #{process_name}" /FO CSV /NH`
-    result.include?(process_name)
+    #result = `tasklist /FI "IMAGENAME eq #{process_name}" /FO CSV /NH | findstr /i "#{process_name}"`
+    wmi = WIN32OLE.connect("winmgmts://")
+    processes = wmi.ExecQuery("SELECT * FROM Win32_Process WHERE Name = '#{process_name}'")
+    return processes.count != 0
   end
 
   def self.kill_joiplay_shit
