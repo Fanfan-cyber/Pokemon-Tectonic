@@ -32453,7 +32453,7 @@ Irrefutable
 Joyous Sorrow
 欢乐忧伤
 Juggernaut
-巨山超力霸
+主宰
 Karma
 因果
 Kelp Link
@@ -33108,7 +33108,7 @@ Boosts one Attacking stat by two steps according to the foe's defenses.
 Powers up Dragon-type moves by 50%.
 龙属性的技能威力提高50%。
 Summons rainstorm for 4 turns when it enters battle.
-受到攻击时召唤四回合的暴雨。
+出场时，召唤持续四回合的暴雨。
 Turns the weather to sunshine for 4 turns when it enters battle.
 出场时，将天气变为晴朗，持续四回合。
 Heals 1/8 HP in rainstorm, 1/4 when hit by Water-type moves. Loses 1/8 in sunshine, takes 25% more from Fire-type moves.
@@ -33396,7 +33396,7 @@ Doubles Speed in eclipse.
 Raises both defensive stats whenever any Pokémon uses a dance move.
 任何精灵使用舞蹈类技能时，都会提升其双防。
 Takes 30% less damage in eclipse, except in total eclipse.
-日食时，受到的伤害减少30%。（不包括月全食）
+日食时，受到的伤害减少30%。（不包括日全食）
 Takes 40% less damage from attacks by Pokémon who have a status condition.
 被处于异常状态的对手攻击时，伤害减少40%。
 Turns to Finale Form when only unfainted on team. Ability becomes Synchronize.
@@ -33848,7 +33848,7 @@ Raises Attack by two steps after dealing not-very-effective or barely-effective 
 Uses Wish after knocking out any Pokémon.
 击倒任意精灵后使用祈愿。
 Ignores Abilities that would affect its moves or activate after hitting the target.
-无视影响技能和被击中后触发的特性。
+攻击时，无视对手的特性。
 If an attack lowers the Pokémon's HP to half or less, the attacker becomes jinxed.
 被攻击到HP低于一半时，使攻击者陷入不幸状态。
 Physical moves against the Pokémon have a 30% chance to leech the attacker.
@@ -42173,12 +42173,12 @@ Party 2 has no Pokémon.
 {1}的能力等级被清空了。
 A great energy rises up from inside {1}!
 一股巨大的能量从{1}体内升起！
-The #{effectName} stayed the same.
-#{effectName}保持不变。
-The #{effectName} was refreshed!
-#{effectName}已经改变了！
-It'll last for #{moreTurns} more turns.
-它会再多持续#{moreTurns}回合。
+The {1} stayed the same.
+{1}保持不变。
+The {1} was refreshed!
+{1}已经改变了！
+It'll last for {1} more turns.
+它会再多持续{1}回合。
 {1} disturbed the air currents!
 {1}扰乱了气流！
 It'll last indefinitely!
@@ -42200,7 +42200,7 @@ The bright moon doesn't wane!
 The planetary ring tightens its grip!
 昏暗的日环仿佛要抓住人心！
 The nightmarish moon is unending!
-噩梦般的月亮永无止境！
+噩梦般的月光永无止境！
 The sun is shining in the sky!
 阳光变得刺眼起来！
 A rainstorm covers the sky!
@@ -42232,7 +42232,7 @@ The sandstorm subsided.
 The hail stopped.
 冰雹停了。
 The eclipse ended.
-太阳恢复了正常。
+日食结束了。
 The moonlight faded.
 月光恢复了正常。
 The heavy rain has lifted!
