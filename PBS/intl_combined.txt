@@ -38395,10 +38395,14 @@ The current level cap is {1}.
 目前的等级上限为{1}。
 Once at level {1}, your Pokémon cannot gain experience or have Candies used on them.
 到达{1}级后，你的精灵就不能再获得经验或使用糖果了。
+The level cap can be raised by reading Battle Reports (a consumable item).
+通过阅读战斗报告（一种消耗品）可以提高等级上限。
+You'll earn Battle Reports after defeating Gym Leaders and major story battles.
+击败道馆馆主和主要剧情战斗后，你将获得战斗报告。
 Name<r>{1}<br>
 名字<r>{1}<br>
 IDNo.<r>{1}<br>
-编号<r>{1}<br>
+IDNo.<r>{1}<br>
 Time<r>{1:02d}:{2:02d}<br>
 时间<r>{1:02d}:{2:02d}<br>
 Pokédex<r>{1}/{2}<br>
@@ -45535,14 +45539,14 @@ You don't have a Aid Kit to upgrade.
 你没有急救包可以升级。
 Your Aid Kit already has the maximum number of charges.
 你的急救包已经最大充能了。
-Your Aid Kit has been increased to #{charges+1} charges.
-你的急救包使用次数<<n>>提高至#{charges+1}次。
+Your Aid Kit has been increased to {1} charges.
+你的急救包使用次数提高至{1}次。
 Your Aid Kit already has the maximum healing amount.
 你的急救包已经满了。
-Your Aid Kit now heals an additional #{HEALING_UPGRADE_AMOUNT} HP per charge.
-你的急救包现在每使用1次<<n>>额外恢复#{HEALING_UPGRADE_AMOUNT}点体力。
+Your Aid Kit now heals an additional {1} HP per charge.
+你的急救包现在会额外恢复{1}点体力。
 You are too skilled to learn any more from a battle report.
-你现已登峰造极，<<n>>没法从战斗报告中再学到更多了。
+你现已登峰造极，没法从战斗报告中再学到更多了。
 Walk
 步行
 It won't have any effect due to the level cap at #{getLevelCap}.

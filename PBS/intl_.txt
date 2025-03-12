@@ -38395,6 +38395,10 @@ The current level cap is {1}.
 The current level cap is {1}.
 Once at level {1}, your Pokémon cannot gain experience or have Candies used on them.
 Once at level {1}, your Pokémon cannot gain experience or have Candies used on them.
+The level cap can be raised by reading Battle Reports (a consumable item).
+The level cap can be raised by reading Battle Reports (a consumable item).
+You'll earn Battle Reports after defeating Gym Leaders and major story battles.
+You'll earn Battle Reports after defeating Gym Leaders and major story battles.
 Name<r>{1}<br>
 Name<r>{1}<br>
 IDNo.<r>{1}<br>
@@ -45535,12 +45539,12 @@ You don't have a Aid Kit to upgrade.
 You don't have a Aid Kit to upgrade.
 Your Aid Kit already has the maximum number of charges.
 Your Aid Kit already has the maximum number of charges.
-Your Aid Kit has been increased to #{charges+1} charges.
-Your Aid Kit has been increased to #{charges+1} charges.
+Your Aid Kit has been increased to {1} charges.
+Your Aid Kit has been increased to {1} charges.
 Your Aid Kit already has the maximum healing amount.
 Your Aid Kit already has the maximum healing amount.
-Your Aid Kit now heals an additional #{HEALING_UPGRADE_AMOUNT} HP per charge.
-Your Aid Kit now heals an additional #{HEALING_UPGRADE_AMOUNT} HP per charge.
+Your Aid Kit now heals an additional {1} HP per charge.
+Your Aid Kit now heals an additional {1} HP per charge.
 You are too skilled to learn any more from a battle report.
 You are too skilled to learn any more from a battle report.
 Walk
