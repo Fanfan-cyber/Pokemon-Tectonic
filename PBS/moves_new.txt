@@ -947,7 +947,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = RampageAlwaysCriticalHit
 Flags = CanProtect
-Description = The user relentlessly attacks with its whip-like hands for three turns. Each hit will always be critical.
+Description = The user relentlessly rampages with its whip-like hands for three turns. Each hit will always be critical.
 #-------------------------------
 #		FLYING MOVES
 #-------------------------------
@@ -4858,7 +4858,7 @@ TotalPP = 10
 Target = ClosestNearFoe
 FunctionCode = Rampage
 Flags = CanProtect
-Description = The user breaks down all insulation to send a barrage of electricity for three turns.
+Description = The user breaks down all insulation to send a barrage of electricity to rampage for three turns.
 Animation = GIGAVOLTHAVOC
 #-------------------------------
 [ELECTROSLASH]
@@ -5479,7 +5479,7 @@ TotalPP = 10
 Target = ClosestNearFoe
 FunctionCode = Rampage3HitTwoToFiveTimes
 Flags = CanProtect
-Description = Unveiling its ears, the released psychic power causes the user to attack 2 to 5 times each for three turns.
+Description = Unveiling its ears, the released psychic power causes the user to rampage 2 to 5 times each for three turns.
 Animation = FURYSWIPES
 #-------------------------------
 [PENUMBRA]
@@ -5505,7 +5505,7 @@ TotalPP = 10
 Target = ClosestNearFoe
 FunctionCode = Rampage
 Flags = CanProtect
-Description = The user overloads its mind to attack for three turns.
+Description = The user overloads its mind to rampage for three turns.
 Animation = PSYCHOBOOST
 #-------------------------------
 [PSYCHOSCISSION]
@@ -6323,7 +6323,7 @@ TotalPP = 10
 Target = ClosestNearFoe
 FunctionCode = RampageKOsRaiseSpeed1
 Flags = CanProtect
-Description = The user throws a royal fit for three turns. Raises Speed if a target is knocked out by this move.
+Description = The user throws a royal fit to rampage for three turns. Raises Speed if a target is knocked out by this move.
 Animation = OUTRAGE
 #-------------------------------
 [WINGSPANECLIPSE]
@@ -7321,7 +7321,7 @@ TotalPP = 10
 Target = ClosestNearFoe
 FunctionCode = Rampage
 Flags = CanProtect
-Description = The user goes on a wild tantrum for three turns.
+Description = The user goes on a wild tantrum, going on a rampage for three turns.
 Animation = THRASH
 #-------------------------------
 [TRANQUILTUNE]

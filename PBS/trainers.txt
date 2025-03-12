@@ -7664,7 +7664,7 @@ Pokemon = DECIDUEYE,70
     AbilityIndex = 1 # Siphon Sniper
     Item = MENTALHERB
 Pokemon = TAUROS,70
-    AbilityIndex = 0 # Intimidate
+    AbilityIndex = 0 # Wreak Havoc
     Item = LANSATBERRY
 #-------------------------------
 [TAPU_BULU,Tapu Bulu]

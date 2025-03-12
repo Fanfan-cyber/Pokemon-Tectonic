@@ -892,6 +892,10 @@ Description = When entering battle, heals self and allies for 25% of their max h
 Name = Honorable
 Description = Lowers priority of status moves used by any Pokémon.
 #-------------------------------
+[HOOLIGAN]
+Name = Hooligan
+Description = Powers up recoil and sound moves by 30%.
+#-------------------------------
 [HUBRIS]
 Name = Hubris
 Description = Raises Sp. Atk after knocking out any Pokémon.
