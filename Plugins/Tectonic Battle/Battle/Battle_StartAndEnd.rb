@@ -263,6 +263,7 @@ class PokeBattle_Battle
     #=============================================================================
     def pbStartBattle
         pbDisallowSpeedup
+        pbAllowSpeedup if TA.get(:speedup)
         AntiAbuse.debug_check
         $battle = self
 

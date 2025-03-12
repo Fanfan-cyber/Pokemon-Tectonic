@@ -312,6 +312,7 @@ class PokeBattle_Battler
     # Also handles SCAVENGE
     #=========================================
     def consumeItem(item, recoverable: true, belch: true)
+        recoverable = false if Settings::UNRECOVERABLE.include?(item)
         if item.nil?
             PBDebug.log("[Item not consumed] #{pbThis} could not consume a #{item} because it was already missing")
             return
@@ -324,7 +325,7 @@ class PokeBattle_Battler
         itemName = itemData.name
         PBDebug.log("[Item consumed] #{pbThis} consumed its held #{itemName}")
         @battle.triggerBattlerConsumedItemDialogue(self, item)
-        if recoverable && !Settings::UNRECOVERABLE.include?(item)
+        if recoverable
             setRecycleItem(item)
             if itemData.is_berry? && hasActiveAbility?(:CUDCHEW)
                 applyEffect(:CudChew, 2)
