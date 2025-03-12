@@ -39,7 +39,7 @@ module BattleLoader
   def self.add_trainer_data(battle)
     return if TA.get(:battle_loader)
     return unless battle.trainerBattle?
-    if pbConfirmMessage(_INTL("Do you want to add the opposing team to the Battle Loader?"))
+    if pbConfirmMessageSerious(_INTL("Do you want to add the opposing team to the Battle Loader?"))
       load_data
       rules = ["1v1", "2v2", "1v2", "2v1"]
       ret = pbMessage(_INTL("Which battle rule do you want to use?"), rules, 0)

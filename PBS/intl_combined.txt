@@ -38280,7 +38280,7 @@ Pokémon
 Log Off
 离开
 \se[PC open]The Pokémon Storage System was opened.
-\se[PC open]精灵存储系统启动
+\se[PC open]精灵存储系统启动。
 \ssYou insert the Omnidrive into the PC.
 \ss你将全驱插入了电脑。
 \ssLoading Omni-Tutor...
@@ -48896,11 +48896,9 @@ GF制作的特性。
 Ability New
 特性 新
 Abilities that are new-made in Pokémon Tectonic.
-在新制作的特性。
-Ability Fanfan
-特性 芳芳
-Abilities that made by Fanfan.
-由芳芳制作的特性。
+新制作的特性。
+Ability New 2
+特性 新 2
 Ability Primeval
 特性 始原
 Abilities that Avatars possess only.
@@ -48969,12 +48967,12 @@ Sorry, you got it wrong!
 1111111
 2222222
 2222222
+Turns to Finale Form when only unfainted on team. Ignores the condition of a perfect battle.
+当队伍只剩下自己后，将变为终结形态。若在终结形态取得了胜利，依然视为完胜。
 Upon entry, creates an Emotion Room for 5 turns, adding an ability every turn.
 入场时创建一个持续5回合的情感房间，每回合增加一个特性。
 Copies opponents' species' legal Abilities.
 复制对手精灵物种的合法特性。
-Turns to Finale Form when only unfainted on team. Ignores the condition of a perfect battle.
-当队伍只剩下自己后，将变为终结形态。若在终结形态取得了胜利，依然视为完胜。
 An item to be held by a Pokémon. The user gets three abilities, but its stats are cut by 10%.
 一种可以携带的物品。携带者获得三个特性，但其能力会降低10%。
 ,
