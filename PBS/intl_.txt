@@ -45481,8 +45481,8 @@ You can't give {1} {2} because another Pokémon is holding the same item.
 You can't give {1} {2} because another Pokémon is holding the same item.
 Eggs can't hold items.
 Eggs can't hold items.
-Swap its items with the #{newitemname}?
-Swap its items with the #{newitemname}?
+Swap its items with the {1}?
+Swap its items with the {1}?
 Would you like to switch the two items?
 Would you like to switch the two items?
 Took the {1} from {2} and gave it the {3}.
@@ -45493,8 +45493,8 @@ The Bag is full. The Pokémon's item could not be removed.
 The Bag is full. The Pokémon's item could not be removed.
 {1} is now holding the {2}.
 {1} is now holding the {2}.
-You put the {1} away\<<n>>in the <icon=bagPocket{2}>\c<<[>>1<<]>>{3} Pocket\c<<[>>0<<]>>.
-You put the {1} away\<<n>>in the <icon=bagPocket{2}>\c<<[>>1<<]>>{3} Pocket\c<<[>>0<<]>>.
+You put the <imp>{1}</imp> away in the <icon=bagPocket{2}>\c[1]{3} Pocket\c[0].
+You put the <imp>{1}</imp> away in the <icon=bagPocket{2}>\c[1]{3} Pocket\c[0].
 {1} is already holding some {2}.
 {1} is already holding some {2}.
 {1} is already holding an {2}.
@@ -45815,8 +45815,8 @@ Oh, some strange items were left behind!
 \db[Items/TAROTAMULET]You turn the Tarot Amulet to its back face. It is now disabled.\wtnp[60]
 Which form shall the Pokémon take?
 Which form shall the Pokémon take?
-#{pkmn.name} swapped to #{possibleFormNames[choice]}!
-#{pkmn.name} swapped to #{possibleFormNames[choice]}!
+{1} swapped to {2}!
+{1} swapped to {2}!
 Cannot use this item on that Pokémon.
 Cannot use this item on that Pokémon.
 {1}'s Ability changed to {2}!

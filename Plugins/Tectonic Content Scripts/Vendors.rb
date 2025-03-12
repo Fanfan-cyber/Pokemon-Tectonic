@@ -221,7 +221,7 @@ def styleFurfrou
 	pbMessage(_INTL("What style would you like me to give it?"))
 	choice = pbShowCommands(nil,possibleFormNames,possibleFormNames.length+1)
 	if choice < possibleForms.length
-		pbMessage(_INTL("#{pkmn.name} swapped to #{possibleFormNames[choice]}!"))
+		pbMessage(_INTL("{1} swapped to {2}!", pkmn.name, possibleFormNames[choice]))
 		
 		pkmn.form = possibleForms[choice].form
 		pkmn.changeHappiness("groom")
@@ -243,7 +243,7 @@ def styleVivillon
 	pbMessage(_INTL("What pattern would you like me to give it?"))
 	choice = pbShowCommands(nil,possibleFormNames,possibleFormNames.length+1)
 	if choice < possibleForms.length
-		pbMessage(_INTL("#{pkmn.name} swapped to #{possibleFormNames[choice]}!"))
+		pbMessage(_INTL("{1} swapped to {2}!", pkmn.name, possibleFormNames[choice]))
 		
 		pkmn.form = possibleForms[choice].form
 		#pkmn.changeHappiness("groom")

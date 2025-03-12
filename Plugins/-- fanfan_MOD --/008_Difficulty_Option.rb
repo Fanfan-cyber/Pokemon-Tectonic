@@ -11,7 +11,8 @@ Events.onTrainerPartyLoad += proc { |_sender, e|
   next if TA.get(:battle_loader)
   next if TA.get(:nocopymon)
   trainer = e[0]
-  next if !trainer
+  next unless trainer
+  next if trainer.trainer_type == :ABSOL
   if trainer.able_party.length >= 6
     trainer.party.swap!(0, -1) if trainer.trainer_type == :LEADER_Lambert && rand(100) < 50
   else

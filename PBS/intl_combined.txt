@@ -483,7 +483,7 @@ Not this again.
 最好别。
 [Map1]
 Pokemon Tectonic has features to help you make sense of its open world, and its many mechanical changes.
-《口袋妖怪板块构造》中新添加了很多系统，也同时包含很多帮助信息。
+《口袋妖怪 地震》中新添加了很多系统，也同时包含很多帮助信息。
 The <imp>What Next?</imp> feature tells you what to do to progress the main story, if you forgot or got lost.
 比如<imp>下一步</imp>功能， 如果你忘记任务或迷路了，这个功能会告诉你如何推进主线。
 It can be found in the <imp>Game State</imp> menu.
@@ -7047,11 +7047,11 @@ It’s Mavis. You have to answer.
 ...No, you don’t.
 但也未必。
 Thanks for completing Pokemon Tectonic!
-感谢您游玩《精灵构造》！
+感谢您游玩《口袋妖怪 地震》！
 Please consider filling out the Playtest Survey that is linked on the main menu.
-如果对游戏有任何意见，可以找汉化负责人@圣羽风 反馈，你的意见将会被传递给游戏制作组。
+如果对游戏有任何意见，可以找芳芳反馈，你的合理建议将会被接受。
 Your feedback helps a lot to continue to improve the game.
-当然你也可以直接联系制作组。最后额外感谢耿鬼汉化组，解散前针对2.7版本的汉化工作。
+中文版翻译由耿鬼汉化组、圣羽风和芳芳共同完成，我在此对耿鬼汉化组和圣羽风表示感谢。
 You? I... I remember... outside of Novo Town.
 你是？我…我记得…在望新镇那边...
 You aren’t – I mean, you are – it doesn’t matter.
@@ -9470,7 +9470,7 @@ Now that there's no cars on the road, there's nobody gonna stop me from tearing 
 Gym Sector
 <-- 道馆区
 Pokemon Tectonic Development Team
-精灵构造开发团队
+游戏开发团队
 Full Blast Records
 王炸唱片公司
 Pssst....
@@ -36627,10 +36627,10 @@ Evolution Market
 进化石商店
 178
 Tectonic Development
-构造开发
+游戏开发
 179
 Tectonic Development F2
-构造开发 F2
+游戏开发 F2
 180
 Blustery Bosk
 西宏礼商店
@@ -37365,7 +37365,7 @@ Herbert's Herbs
 赫伯特香草店
 424
 Tectonic Development F3
-构造开发 F3
+游戏开发 F3
 425
 Shimmer Haven
 砂岩洞窟
@@ -42062,7 +42062,7 @@ A planetary ring dominates the skyline.
 The moon is taken by a nightmare.
 月亮开始变得妖冶。
 You can skip the battle and treat it as a win by FORFEIT!
-你可以通过逃跑跳过这场战斗！
+你可以通过逃跑跳过这场战斗！这是芳芳的仁慈。
 You have to win the battle PERFECTLY, or you LOSE!
 对于这场战斗，你必须完胜！
 #{b.pbThis} is blessed by the shattered sky!
@@ -45481,8 +45481,8 @@ You can't give {1} {2} because another Pokémon is holding the same item.
 你不能给{1} {2}，因为另一只精灵正在持有相同的物品。
 Eggs can't hold items.
 蛋不能携带物品。
-Swap its items with the #{newitemname}?
-将其物品与#{newitemname}交换？
+Swap its items with the {1}?
+将其物品与{1}交换？
 Would you like to switch the two items?
 你想交换这两个物品吗？
 Took the {1} from {2} and gave it the {3}.
@@ -45493,8 +45493,8 @@ The Bag is full. The Pokémon's item could not be removed.
 背包满了，无法取出这个物品。
 {1} is now holding the {2}.
 {1}现在拿着{2}。
-You put the {1} away\<<n>>in the <icon=bagPocket{2}>\c<<[>>1<<]>>{3} Pocket\c<<[>>0<<]>>.
-你将{1}\<<n>>放进了<icon=bagPocket{2}>\c<<[>>1<<]>>{3}口袋\c<<[>>0<<]>>。
+You put the <imp>{1}</imp> away in the <icon=bagPocket{2}>\c[1]{3} Pocket\c[0].
+你将<imp>{1}</imp>放进了<icon=bagPocket{2}>\c[1]{3}口袋\c[0]。
 {1} is already holding some {2}.
 {1}现在拿着一些{2}。
 {1} is already holding an {2}.
@@ -45815,14 +45815,14 @@ Oh, some strange items were left behind!
 \db<<[>>Items/TAROTAMULET<<]>>你把塔罗牌护符翻到了背面。<<n>>它现在被禁用了。\wtnp<<[>>60<<]>>
 Which form shall the Pokémon take?
 精灵将采取哪种形态？
-#{pkmn.name} swapped to #{possibleFormNames[choice]}!
-#{pkmn.name}更改为#{possibleFormNames[choice]}！
+{1} swapped to {2}!
+{1}更改为{2}！
 Cannot use this item on that Pokémon.
 不能在这个精灵上使用这个物品。
 {1}'s Ability changed to {2}!
 {1}的特性变成了{2}！
 {1}{2}<<n>>{3}HP: {4}
-{1}{2}<<r>><<n>>{3}HP: {4}
+{1}{2}<<r>>{3}HP: {4}
 {1}: {2}
 {1}: {2}
 DEFEND

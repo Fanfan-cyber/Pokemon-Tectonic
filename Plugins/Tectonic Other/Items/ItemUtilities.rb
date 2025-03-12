@@ -23,7 +23,7 @@ def pbGiveItemToPokemon(item,pkmn,scene,fromBag=true)
     elsif pkmn.canHaveMultipleItems?
         if pkmn.canHaveSecondItem?(item, true)
             giveItem = true
-        elsif scene.pbConfirm(_INTL("Swap its items with the #{newitemname}?"))
+        elsif scene.pbConfirm(_INTL("Swap its items with the {1}?", newitemname))
             pbTakeItemsFromPokemon(pkmn)
             giveItem = !pkmn.hasItem? # If somehow one of the items couldn't be taken
         end
@@ -59,7 +59,7 @@ end
 def pocketAlert(item)
     itemData = GameData::Item.get(item)
     return unless itemData.show_pocket_message?
-    pbMessage(_INTL("You put the {1} away\\nin the <icon=bagPocket{2}>\\c[1]{3} Pocket\\c[0].",
+    pbMessage(_INTL("You put the <imp>{1}</imp> away in the <icon=bagPocket{2}>\\c[1]{3} Pocket\\c[0].",
         itemData.name,itemData.pocket,PokemonBag.pocketNames[itemData.pocket]))
 end
 

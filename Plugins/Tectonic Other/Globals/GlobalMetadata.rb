@@ -169,7 +169,7 @@ class PokemonGlobalMetadata
         @teamHealerMaxUses	  = 1
         @teamHealerCurrentUses= 1
         # Tarot Amulet
-        @tarot_amulet_active  = false
+        @tarot_amulet_active  = true
         # Ragged Journal
         @ragged_journal_pages_collected  = []
         # Ominous egg
