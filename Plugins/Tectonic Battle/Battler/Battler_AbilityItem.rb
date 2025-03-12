@@ -324,7 +324,7 @@ class PokeBattle_Battler
         itemName = itemData.name
         PBDebug.log("[Item consumed] #{pbThis} consumed its held #{itemName}")
         @battle.triggerBattlerConsumedItemDialogue(self, item)
-        if recoverable
+        if recoverable && !Settings::UNRECOVERABLE.include?(item)
             setRecycleItem(item)
             if itemData.is_berry? && hasActiveAbility?(:CUDCHEW)
                 applyEffect(:CudChew, 2)

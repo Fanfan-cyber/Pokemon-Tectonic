@@ -29,4 +29,5 @@ module Settings
   COPY_PLAYER_TRIBE    = false
 
   DEFAULT_ITEMS = %i[SITRUSBERRY]
+  UNRECOVERABLE = %i[LEPPABERRY]
 end
