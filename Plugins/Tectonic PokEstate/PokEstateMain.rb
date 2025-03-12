@@ -187,7 +187,7 @@ class PokEstate
 			
 			if newAwards.length == 1
 				awardDescription = newAwards[0][:description]
-				pbMessage(_INTL("For collecting #{awardDescription}, please take this."))
+				pbMessage(_INTL("For collecting {1}, please take this.", awardDescription))
 			elsif newAwards.length <= 5
 				pbMessage(_INTL("I'll list the feats you've accomplished:"))
 				newAwards.each_with_index do |newAwardInfo, index|
@@ -195,11 +195,11 @@ class PokEstate
 					awardDescription = newAwardInfo[:description]
 					
 					if index == 0
-						pbMessage(_INTL("You've collected #{awardDescription}..."))
+						pbMessage(_INTL("You've collected {1}...", awardDescription))
 					elsif index == newAwards.length - 1
-						pbMessage(_INTL("...and #{awardDescription}."))
+						pbMessage(_INTL("...and {1}.", awardDescription))
 					else
-						pbMessage(_INTL("...#{awardDescription}..."))
+						pbMessage(_INTL("...{1}...", awardDescription))
 					end
 				end
 			else

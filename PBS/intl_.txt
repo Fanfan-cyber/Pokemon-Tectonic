@@ -26854,8 +26854,8 @@ The user strikes with a simultaneous three-beam attack. It has a 15% chance each
 The user strikes with a simultaneous three-beam attack. It has a 15% chance each to numb, burn, or frostbite.
 The user unleashes its ultimate move. Can't miss and skips protections. Only one use per battle.
 The user unleashes its ultimate move. Can't miss and skips protections. Only one use per battle.
-The user attacks in an uproar for three turns. Over that time, no one can fall asleep.
-The user attacks in an uproar for three turns. Over that time, no one can fall asleep.
+The user attacks in an uproar, going on a rampage for three turns. Over that time, no one can fall asleep.
+The user attacks in an uproar, going on a rampage for three turns. Over that time, no one can fall asleep.
 One turn after this move is used, the target's HP is restored by half the user's maximum HP.
 One turn after this move is used, the target's HP is restored by half the user's maximum HP.
 The user is roused, raising its Attack and Sp. Atk by two steps each.
@@ -27402,8 +27402,8 @@ A seed is planted on the target, causing it to become leeched.
 A seed is planted on the target, causing it to become leeched.
 The user scatters leaves that chase the target. Can't miss and skips protections.
 The user scatters leaves that chase the target. Can't miss and skips protections.
-The user attacks by scattering petals for three turns.
-The user attacks by scattering petals for three turns.
+The user attacks by scattering petals in a rampage for three turns.
+The user attacks by scattering petals in a rampage for three turns.
 The user violently whirls to lash the target. Can't miss if the target has already attacked this turn.
 The user violently whirls to lash the target. Can't miss if the target has already attacked this turn.
 Sharp-edged leaves are launched to slash at the opposing team. Can random critical hit.
@@ -27900,8 +27900,8 @@ The user shoots three arrows made of Aura with extreme precision. Can random cri
 The user shoots three arrows made of Aura with extreme precision. Can random critical hit.
 The user manifests a bolt of pure courage. This has a 10% chance of raising the user's Sp. Atk.
 The user manifests a bolt of pure courage. This has a 10% chance of raising the user's Sp. Atk.
-The user relentlessly attacks with its whip-like hands for three turns. Each hit will always be critical.
-The user relentlessly attacks with its whip-like hands for three turns. Each hit will always be critical.
+The user relentlessly rampages with its whip-like hands for three turns. Each hit will always be critical.
+The user relentlessly rampages with its whip-like hands for three turns. Each hit will always be critical.
 A reckless charge attack from the air. It also damages the user by 25% of the damage dealt.
 A reckless charge attack from the air. It also damages the user by 25% of the damage dealt.
 The user fires a stormy gust at the target. This also raises the user's Sp. Atk by two steps.
@@ -28496,8 +28496,8 @@ The user wraps their body in electricity and crashes into the target. The user a
 The user wraps their body in electricity and crashes into the target. The user also takes 20% recoil.
 Restores a fainted party member to 1 HP. Only one use per battle.
 Restores a fainted party member to 1 HP. Only one use per battle.
-The user breaks down all insulation to send a barrage of electricity for three turns.
-The user breaks down all insulation to send a barrage of electricity for three turns.
+The user breaks down all insulation to send a barrage of electricity to rampage for three turns.
+The user breaks down all insulation to send a barrage of electricity to rampage for three turns.
 The user harnesses a blade of lightning and slices at the target. Can random critical hit.
 The user harnesses a blade of lightning and slices at the target. Can random critical hit.
 The user lets out an electric roar, raising the user's Speed by four steps.
@@ -28594,12 +28594,12 @@ This move raises all the user's stats by two steps. Can only be used while aslee
 This move raises all the user's stats by two steps. Can only be used while asleep.
 The user employs hypnotic suggestion to make a dizzy target fall into a deep sleep.
 The user employs hypnotic suggestion to make a dizzy target fall into a deep sleep.
-Unveiling its ears, the released psychic power causes the user to attack 2 to 5 times each for three turns.
-Unveiling its ears, the released psychic power causes the user to attack 2 to 5 times each for three turns.
+Unveiling its ears, the released psychic power causes the user to rampage 2 to 5 times each for three turns.
+Unveiling its ears, the released psychic power causes the user to rampage 2 to 5 times each for three turns.
 Psychic energy assaults the foe and darkens the sky, summoning eclipse for 8 turns.
 Psychic energy assaults the foe and darkens the sky, summoning eclipse for 8 turns.
-The user overloads its mind to attack for three turns.
-The user overloads its mind to attack for three turns.
+The user overloads its mind to rampage for three turns.
+The user overloads its mind to rampage for three turns.
 The user cuts using scissor-like blades of psychic energy. Can random critical hit.
 The user cuts using scissor-like blades of psychic energy. Can random critical hit.
 The user manifests a piercing bolt of psychic energy. It has a 50% chance to lower Sp. Def.
@@ -28726,8 +28726,8 @@ A two-turn move. The user channels insane amounts of energy the first turn, then
 A two-turn move. The user channels insane amounts of energy the first turn, then transforms.
 The user strikes with a simultaneous three-beam attack. It has a 20% chance each to numb, burn, or frostbite.
 The user strikes with a simultaneous three-beam attack. It has a 20% chance each to numb, burn, or frostbite.
-The user throws a royal fit for three turns. Raises Speed if a target is knocked out by this move.
-The user throws a royal fit for three turns. Raises Speed if a target is knocked out by this move.
+The user throws a royal fit to rampage for three turns. Raises Speed if a target is knocked out by this move.
+The user throws a royal fit to rampage for three turns. Raises Speed if a target is knocked out by this move.
 The Pokémon blots out the sky, summoning eclipse for eight turns and lowering each opponent's Attack by two steps.
 The Pokémon blots out the sky, summoning eclipse for eight turns and lowering each opponent's Attack by two steps.
 The user roots itself, then strikes at the target with serpentine strength. This has a 30% chance to leech.
@@ -28880,8 +28880,8 @@ The user spins sugar into a ball launched at the target. The slower the user, th
 The user spins sugar into a ball launched at the target. The slower the user, the greater the damage.
 The user causes nearby objects to fall onto the target. This has a 30% chance of jinxing them.
 The user causes nearby objects to fall onto the target. This has a 30% chance of jinxing them.
-The user goes on a wild tantrum for three turns.
-The user goes on a wild tantrum for three turns.
+The user goes on a wild tantrum, going on a rampage for three turns.
+The user goes on a wild tantrum, going on a rampage for three turns.
 The target is put to sleep, and the user's Attack is raised. Fails unless the target is at or below half health.
 The target is put to sleep, and the user's Attack is raised. Fails unless the target is at or below half health.
 The user invokes the target's true name as a fae curse, jinxing them.
@@ -32396,6 +32396,8 @@ Holiday Cheer
 Holiday Cheer
 Honorable
 Honorable
+Hooligan
+Hooligan
 Hubris
 Hubris
 Huggable
@@ -33789,6 +33791,8 @@ When entering battle, heals self and allies for 25% of their max health.
 When entering battle, heals self and allies for 25% of their max health.
 Lowers priority of status moves used by any Pokémon.
 Lowers priority of status moves used by any Pokémon.
+Powers up recoil and sound moves by 30%.
+Powers up recoil and sound moves by 30%.
 Raises Sp. Atk after knocking out any Pokémon.
 Raises Sp. Atk after knocking out any Pokémon.
 When hit by a move with 95 or more base power, hits back instantly with Nuzzle.
@@ -40373,16 +40377,16 @@ Greetings, young master. I have good news.
 \ME[Bug catching 2nd]You've earned a new Pokédex completion reward!\wtnp[60]
 \ME[Bug catching 2nd]You've earned {1} new Pokédex completion rewards!\wtnp[60]
 \ME[Bug catching 2nd]You've earned {1} new Pokédex completion rewards!\wtnp[60]
-For collecting #{awardDescription}, please take this.
-For collecting #{awardDescription}, please take this.
+For collecting {1}, please take this.
+For collecting {1}, please take this.
 I'll list the feats you've accomplished:
 I'll list the feats you've accomplished:
-You've collected #{awardDescription}...
-You've collected #{awardDescription}...
-...and #{awardDescription}.
-...and #{awardDescription}.
-...#{awardDescription}...
-...#{awardDescription}...
+You've collected {1}...
+You've collected {1}...
+...and {1}.
+...and {1}.
+...{1}...
+...{1}...
 That's so many! I'll just give you all the rewards at once.
 That's so many! I'll just give you all the rewards at once.
 That's a lot, so I've lumped all the rewards together.

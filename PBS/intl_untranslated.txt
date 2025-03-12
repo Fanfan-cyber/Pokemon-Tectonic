@@ -1086,6 +1086,14 @@ HP
 <u>???</u>
 <<[>>{1}/{2}<<]>>
 <<[>>{1}/{2}<<]>>
+No. ???
+No. ???
+No. {1:03d}
+No. {1:03d}
+Lv. {1}
+Lv. {1}
+IDNo.{1}
+IDNo.{1}
 PP
 PP
 {1}/{2}
@@ -1112,6 +1120,10 @@ x{1}
 {1} {2}, {3}
 ${1}
 ${1}
+{1}h {2}m
+{1}h {2}m
+{1}m
+{1}m
 \wm#{tutorialMessage}\wtnp<<[>>#{tutorialMessageDuration}<<]>><<1>>
 \wm#{tutorialMessage}\wtnp<<[>>#{tutorialMessageDuration}<<]>><<1>>
 x{1:03d}
@@ -1140,22 +1152,34 @@ x{1: 2d}
 24
 #{pokemon.name} Lv. #{pokemon.level.to_s}
 #{pokemon.name} Lv. #{pokemon.level.to_s}
+{1} (PP: ---)
+{1} (PP: ---)
+{1} (PP: {2}/{3})
+{1} (PP: {2}/{3})
 x{1}<r>{2}
 x{1}<r>{2}
 <ac><c3={1}>{2}</c3></ac>
 <ac><c3={1}>{2}</c3></ac>
 #{title}
 #{title}
-...#{awardDescription}...
-...#{awardDescription}...
+...
+...
+...{1}...
+...{1}...
 {1}{2} {3}
 {1}{2} {3}
 50/50
 50/50
+Flux
+Flux
 {1:d}'{2:02d}"
 {1:d}'{2:02d}"
-{1}: {2}%
-{1}: {2}%<<n>>
+{1:4.1f} lbs.
+{1:4.1f} lbs.
+{1:.1f} m
+{1:.1f} m
+{1:.1f} kg
+{1:.1f} kg
 E
 E
 <b>{1}</b> {2}
