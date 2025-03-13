@@ -83,7 +83,7 @@ BattleHandlers::EOREffectAbility.add(:LUXURYTASTE,
   proc { |ability, battler, battle|
       next unless battler.hasActiveItem?(GameData::Item.getByFlag("Clothing"))
       healingMessage = _INTL("{1} luxuriated in its fine clothing.", battler.pbThis)
-      battler.applyFractionalHealing(1.0 / 8.0, ability: ability, customMessage: healingMessage)
+      battler.applyFractionalHealing(1.0 / 12.0, ability: ability, customMessage: healingMessage)
   }
 )
 
@@ -165,7 +165,7 @@ BattleHandlers::EOREffectAbility.add(:FLOURISHING,
   }
 )
 
-EOT_ABILITY_HEALING_FRACTION = 1.0 / 12.0
+EOT_ABILITY_HEALING_FRACTION = 1.0 / 16.0
 
 BattleHandlers::EOREffectAbility.add(:FIGHTINGVIGOR,
   proc { |ability, battler, _battle|

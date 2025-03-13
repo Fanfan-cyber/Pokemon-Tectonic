@@ -1064,7 +1064,7 @@ Pokemon = DRAGONITE,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,20,0,10,20,0
 Pokemon = MNINETALES,70
-    Moves = WILLOWISP,HEX,SLAG,ENERGYBALL
+    Moves = REFLECT,HEX,SLAG,ENERGYBALL
     AbilityIndex = 1 # Luxury Taste
     Item = ROCKYHELMET
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def

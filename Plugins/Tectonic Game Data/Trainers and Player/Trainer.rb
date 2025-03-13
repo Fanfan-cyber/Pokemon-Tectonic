@@ -225,6 +225,7 @@ class Trainer
 
     def full_name
       return _INTL("Mysterious Trainer") if is_hide_name?
+      return @name if is_hide_trainer_class?
       return super
     end
 
@@ -236,9 +237,14 @@ class Trainer
       return @flags.include?("HideIdentity")
     end
 
+    def is_hide_trainer_class?
+      return @flags.include?("HideClass")
+    end
+
     def self.cloneFromPlayer(playerObject,deepClone)
       trainerClone = NPCTrainer.new("Clone of " + playerObject.name, playerObject.trainer_type)
       trainerClone.id = playerObject.id
+      trainerClone.flags.push("HideClass")
 
       playerObject.party.each do |partyMember|
           trainerClone.party.push(partyMember.deep_clone)

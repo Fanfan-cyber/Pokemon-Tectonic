@@ -781,7 +781,7 @@ class PokeBattle_Move_UseAllOtherSoundMoves < PokeBattle_Move
 
     def getAllOtherSoundMoves(user)
         moves = []
-        user.moves.each do |m|
+        user.getMoves.each do |m|
             next unless m.soundMove?
             next unless @battle.canInvokeMove?(m)
             moves.push(m.id)
