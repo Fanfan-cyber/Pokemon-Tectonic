@@ -88,7 +88,7 @@ class PokeBattle_Battle
       return
     end
 
-    return if !Object.const_defined?(field_class_name)
+    return unless Object.const_defined?(field_class_name)
     new_field = Object.const_get(field_class_name).new(self, *args)
 
     end_field if has_field?
@@ -112,7 +112,7 @@ class PokeBattle_Battle
   end
 
   def end_of_round_field_process
-    return if !has_field?
+    return unless has_field?
     apply_field_effect(:EOR_field_battle)
     eachBattler do |battler|
       apply_field_effect(:EOR_field_battler, battler)
