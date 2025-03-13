@@ -1,0 +1,3 @@
+class AbilitySystem
+
+end
