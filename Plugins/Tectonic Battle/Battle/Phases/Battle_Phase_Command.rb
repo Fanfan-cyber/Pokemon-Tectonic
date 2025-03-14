@@ -67,7 +67,7 @@ class PokeBattle_Battle
     def pbFightMenu(idxBattler)
         battler = @battlers[idxBattler]
         unless canChooseAnyMove?(idxBattler)
-            if pbDisplayConfirmSerious(_INTL("#{battler.pbThis} cannot use any of its moves, and will Struggle if it fights. Go ahead?"))
+            if pbDisplayConfirmSerious(_INTL("{1} cannot use any of its moves, and will Struggle if it fights. Go ahead?", battler.pbThis))
                 return pbAutoChooseMove(idxBattler)
             else
                 return false
@@ -75,7 +75,7 @@ class PokeBattle_Battle
         end
         if battler.effectActive?(:Encore)
             encoreMove = battler.getMoves[battler.pbEncoredMoveIndex]
-            if pbDisplayConfirm(_INTL("#{battler.pbThis} must use #{encoreMove.name} if it fights. Go ahead?"))
+            if pbDisplayConfirm(_INTL("{1} must use {2} if it fights. Go ahead?", battler.pbThis, encoreMove.name))
                 return pbAutoChooseMove(idxBattler)
             else
                 return false

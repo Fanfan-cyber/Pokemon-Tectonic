@@ -651,7 +651,7 @@ class PokeBattle_AI_RUBARIOR < PokeBattle_AI_Boss
                 next target.hasRaisedStatSteps?
             },
             :warning => proc { |_move, user, targets, _battle|
-                _INTL("{1} is jealous of #{targets[0]}'s good fortune!",user.pbThis)
+                _INTL("{1} is jealous of {2}'s good fortune!",user.pbThis, targets[0])
             },
         })
     end
@@ -966,7 +966,7 @@ class PokeBattle_AI_MAGNEZONE < PokeBattle_AI_Boss
                 next facingGroundType
             },
             :warning => proc { |_move, user, _targets, _battle|
-                _INTL("#{user.pbThis} is wary of the ground!")
+                _INTL("{1} is wary of the ground!", user.pbThis)
             },
         })
 
@@ -982,7 +982,7 @@ class PokeBattle_AI_DRIFBLIM < PokeBattle_AI_Boss
                 next target.fullHealth?
             },
             :warning => proc { |_move, user, _targets, _battle|
-                _INTL("#{user.pbThis} gathers toxic gas!")
+                _INTL("{1} gathers toxic gas!", user.pbThis)
             },
         })
     end
@@ -996,7 +996,7 @@ class PokeBattle_AI_MAROMATISSE < PokeBattle_AI_Boss
                 next user.form == 0
             },
             :warning => proc { |_move, user, _targets, _battle|
-                _INTL("#{user.pbThis} is warming up its haunting voice!")
+                _INTL("{1} is warming up its haunting voice!", user.pbThis)
             },
         })
     end

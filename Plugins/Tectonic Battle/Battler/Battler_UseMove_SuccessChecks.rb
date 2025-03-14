@@ -265,7 +265,7 @@ GameData::Move.get(@effects[:GorillaTactics]).name)
                 end
             else
                 if effectActive?(:FlinchImmunity)
-                    @battle.pbDisplay("#{pbThis} would have flinched, but it's immune now!")
+                    @battle.pbDisplay(_INTL("{1} would have flinched, but it's immune now!", pbThis))
                     disableEffect(:Flinch)
                 elsif hasTribeBonus?(:TYRANNICAL) && !pbOwnSide.effectActive?(:TyrannicalImmunity)
                     @battle.pbShowTribeSplash(self,:TYRANNICAL)
@@ -273,7 +273,7 @@ GameData::Move.get(@effects[:GorillaTactics]).name)
                     @battle.pbHideTribeSplash(self)
                     pbOwnSide.applyEffect(:TyrannicalImmunity)
                 elsif hasActiveItem?(:COURAGEBADGE)
-                    @battle.pbDisplay("#{pbThis} would have flinched, but it holds a Courage Badge!")    
+                    @battle.pbDisplay(_INTL("{1} would have flinched, but it holds a Courage Badge!", pbThis))
                 else
                     @battle.pbDisplay(_INTL("{1} flinched and couldn't move!", pbThis))
                     eachActiveAbility do |ability|

@@ -249,7 +249,7 @@ GameData::BattleEffect.register_effect(:Battler, {
     :apply_proc => proc do |battle, battler, value|
         battler.applyEffect(:EncoreMove, battler.lastRegularMoveUsed)
         battle.pbDisplay(_INTL("{1} received an encore!", battler.pbThis))
-        battle.pbDisplay(_INTL("It will repeat its move for the next #{value - 1} turns!"))
+        battle.pbDisplay(_INTL("It will repeat its move for the next {1} turns!", value - 1))
     end,
     :eor_proc => proc do |_battle, battler, _value|
         next if battler.fainted?
@@ -1169,7 +1169,7 @@ GameData::BattleEffect.register_effect(:Battler, {
     :type => :Integer,
     :ticks_down => true,
     :apply_proc => proc do |battle, battler, value|
-        battle.pbDisplay(_INTL("{1} can't use sound-based moves for the next #{value - 1} turns!", battler.pbThis))
+        battle.pbDisplay(_INTL("{1} can't use sound-based moves for the next {2} turns!", battler.pbThis, value - 1))
     end,
 })
 
@@ -1179,7 +1179,7 @@ GameData::BattleEffect.register_effect(:Battler, {
     :type => :Integer,
     :ticks_down => true,
     :apply_proc => proc do |battle, battler, value|
-        battle.pbDisplay(_INTL("{1} can't use blade-based moves for the next #{value - 1} turns!", battler.pbThis))
+        battle.pbDisplay(_INTL("{1} can't use blade-based moves for the next {2} turns!", battler.pbThis, value - 1))
     end,
 })
 
@@ -1691,7 +1691,7 @@ GameData::BattleEffect.register_effect(:Battler, {
     :type => :Integer,
     :apply_proc => proc do |battle, battler, value|
         battle.pbDisplay(_INTL("{1} braced itself!", battler.pbThis))
-        battle.pbDisplay(_INTL("It will endure the next #{value} hits which would faint it!", battler.pbThis))
+        battle.pbDisplay(_INTL("It will endure the next {1} hits which would faint it!", value))
     end,
 })
 
@@ -1770,7 +1770,7 @@ GameData::BattleEffect.register_effect(:Battler, {
     :ticks_down => true,
     :apply_proc => proc do |battle, battler, value|
         battle.pbDisplay(_INTL("{1} sees everything!", battler.pbThis))
-        battle.pbDisplay(_INTL("It's protected from half of all attack damage for #{value} turns!", battler.pbThis))
+        battle.pbDisplay(_INTL("It's protected from half of all attack damage for {1} turns!", value))
     end,
     :disable_proc => proc do |battle, battler|
         battle.pbDisplay(_INTL("{1}'s Primeval Detect wore off!", battler.pbThis))

@@ -158,9 +158,9 @@ BattleHandlers::EOREffectAbility.add(:FLOURISHING,
       next unless %i[PUMPKABOO GOURGEIST].include?(battler.species)
       next if battler.form == 3
       battle.pbShowAbilitySplash(battler, ability)
-      formChangeMessage = _INTL("#{battler.pbThis} grows one size bigger!")
+      formChangeMessage = _INTL("{1} grows one size bigger!", battler.pbThis)
       battler.pbChangeForm(battler.form + 1, formChangeMessage)
-      battle.pbDisplay(_INTL("#{battler.pbThis} is fully grown!")) if battler.form == 3
+      battle.pbDisplay(_INTL("{1} is fully grown!", battler.pbThis)) if battler.form == 3
       battle.pbHideAbilitySplash(battler)
   }
 )
@@ -214,7 +214,7 @@ BattleHandlers::EOREffectAbility.add(:LIFELINE,
         end
         unless potentialHeals.empty?
             healTarget = potentialHeals.sample
-            battle.pbDisplay(_INTL("#{battler.pbThis} also heals #{healTarget.name}!"))
+            battle.pbDisplay(_INTL("{1} also heals {2}!", battler.pbThis, healTarget.name))
             healTarget.healBy(healingAmount)
         end
     end

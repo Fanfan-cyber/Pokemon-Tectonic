@@ -13,7 +13,7 @@ PokeBattle_Battle::BattlerFaintedCurseEffect.add(:CURSE_VENGEANT,
     proc { |_curse_policy, battler, battle|
         next unless battler.opposes?
         next if battler.lastFoeAttacker.length == 0
-        battle.pbDisplay(_INTL("#{battler.pbThis} takes its vengeance!"))
+        battle.pbDisplay(_INTL("{1} takes its vengeance!", battler.pbThis))
         hpLoss = battler.totalhp / 4
         battler.lastFoeAttacker.each do |battler_index|
             affected = battle.battlers[battler_index]

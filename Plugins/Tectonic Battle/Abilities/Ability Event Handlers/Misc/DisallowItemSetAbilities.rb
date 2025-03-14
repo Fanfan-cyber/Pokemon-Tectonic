@@ -9,7 +9,7 @@ BattleHandlers::DisallowItemSetAbility.add(:ALLTHATGLITTERS,
             break
         end
         unless allGems
-            pbMessage(_INTL("For #{pokemon.name} to have two items, both must be Gems!")) if showMessages
+            pbMessage(_INTL("For {1} to have two items, both must be Gems!", pokemon.name)) if showMessages
             next true
         end
         next false
@@ -25,7 +25,7 @@ BattleHandlers::DisallowItemSetAbility.add(:BERRYBUNCH,
             break
         end
         unless allBerries
-            pbMessage(_INTL("For #{pokemon.name} to have two items, both must be Berries!")) if showMessages
+            pbMessage(_INTL("For {1} to have two items, both must be Berries!", pokemon.name)) if showMessages
             next true
         end
         next false
@@ -41,7 +41,7 @@ BattleHandlers::DisallowItemSetAbility.add(:HERBALIST,
             break
         end
         unless allHerbs
-            pbMessage(_INTL("For #{pokemon.name} to have two items, both must be Herbs!")) if showMessages
+            pbMessage(_INTL("For {1} to have two items, both must be Herbs!", pokemon.name)) if showMessages
             next true
         end
         next false
@@ -56,11 +56,11 @@ BattleHandlers::DisallowItemSetAbility.add(:FASHIONABLE,
             clothingCount += 1
         end
         if clothingCount == 0
-            pbMessage(_INTL("For #{pokemon.name} to have two items, at least one must be Clothing!")) if showMessages
+            pbMessage(_INTL("For {1} to have two items, at least one must be Clothing!", pokemon.name)) if showMessages
             next true
         end
         if clothingCount > 1
-            pbMessage(_INTL("For #{pokemon.name} to have two items, only one can be Clothing!")) if showMessages
+            pbMessage(_INTL("For {1} to have two items, only one can be Clothing!", pokemon.name)) if showMessages
             next true
         end
         next false

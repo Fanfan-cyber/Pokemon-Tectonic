@@ -220,7 +220,7 @@ class PokeBattle_Battler
         # TODO: replace this check with an event-subscription
         # also use that same event trigger in the Pokemon class
         if itemCheck == :CRYSTALVEIL && hasActiveAbility?(:WONDERGUARD)
-            pbMessage(_INTL("#{pbThis} can't hold a #{getItemName(:CRYSTALVEIL)}!")) if showMessages
+            pbMessage(_INTL("{1} can't hold a {2}!", pbThis, getItemName(:CRYSTALVEIL))) if showMessages
             return true
         end
         return false
@@ -350,7 +350,7 @@ class PokeBattle_Battler
             end
         end
         if %i[FRAGILELOCKET LUNCHBOX].include?(checkitem)
-            @battle.pbDisplay(_INTL("But #{pbThis(false)} hold's tightly onto its #{getItemName(checkitem)}!")) if showMessages
+            @battle.pbDisplay(_INTL("But {1} hold's tightly onto its {2}!", pbThis(false), getItemName(checkitem))) if showMessages
             return true
         end
         # Other unlosable items

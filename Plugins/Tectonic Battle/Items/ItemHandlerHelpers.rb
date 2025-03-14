@@ -2,14 +2,14 @@ def healFromBerry(battler, ratio, item, forced = false, filchedFrom = nil, filch
     if filchedFrom
         battler.battle.pbShowAbilitySplash(battler, filchingAbility)
         itemName = GameData::Item.get(item).name
-        battler.battle.pbDisplay(_INTL("#{battler.pbThis} filched #{filchedFrom.pbThis(true)}'s #{itemName}!"))
+        battler.battle.pbDisplay(_INTL("{1} filched {2}'s {3}!", battler.pbThis, filchedFrom.pbThis(true), itemName))
     end
     battler.battle.pbCommonAnimation("Nom", battler) unless forced
     ratio *= 2.0 if battler.hasActiveAbility?(:RIPEN)
     if battler.hasTribeBonus?(:SCAVENGER)
         ratio *= 1.25
         battler.battle.pbShowTribeSplash(battler,:SCAVENGER)
-        battler.battle.pbDisplay(_INTL("#{battler.pbThis} got a bit extra out of their #{getItemName(item)}!"))
+        battler.battle.pbDisplay(_INTL("{1} got a bit extra out of their {2}!", battler.pbThis, getItemName(item)))
         battler.battle.pbHideTribeSplash(battler)
     end
     itemToPass = forced ? nil : item
@@ -24,7 +24,7 @@ def pbBattleStatIncreasingBerry(battler, battle, item, forced, stat, increment =
     if filchedFrom
         battle.pbShowAbilitySplash(battler, filchingAbility)
         itemName = GameData::Item.get(item).name
-        battle.pbDisplay(_INTL("#{battler.pbThis} filched #{filchedFrom.pbThis(true)}'s #{itemName}!"))
+        battle.pbDisplay(_INTL("{1} filched {2}'s {3}!", battler.pbThis, filchedFrom.pbThis(true), itemName))
     end
     itemName = GameData::Item.get(item).name
     increment *= 2 if battler.hasActiveAbility?(:RIPEN)

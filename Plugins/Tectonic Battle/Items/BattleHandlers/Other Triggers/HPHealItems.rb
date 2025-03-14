@@ -5,7 +5,7 @@ BattleHandlers::HPHealItem.add(:BERRYJUICE,
       if filchedFrom
         battle.pbShowAbilitySplash(battler, filchingAbility)
         itemName = GameData::Item.get(item).name
-        battle.pbDisplay(_INTL("#{battler.pbThis} filched #{filchedFrom.pbThis(true)}'s #{itemName}!"))
+        battle.pbDisplay(_INTL("{1} filched {2}'s {3}!", battler.pbThis, filchedFrom.pbThis(true), itemName))
       end
       itemName = GameData::Item.get(item).name
       battle.pbCommonAnimation("UseItem", battler) unless forced
@@ -65,7 +65,7 @@ BattleHandlers::HPHealItem.add(:LANSATBERRY,
       if filchedFrom
         battle.pbShowAbilitySplash(battler, filchingAbility)
         itemName = GameData::Item.get(item).name
-        battle.pbDisplay(_INTL("#{battler.pbThis} filched #{filchedFrom.pbThis(true)}'s #{itemName}!"))
+        battle.pbDisplay(_INTL("{1} filched {2}'s {3}!", battler.pbThis, filchedFrom.pbThis(true), itemName))
       end
       battle.pbCommonAnimation("Nom", battler) unless forced
       battler.incrementEffect(:RaisedCritChance, 2)

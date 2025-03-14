@@ -190,7 +190,7 @@ class PokeBattle_Battle
             end
         end
         if newLevel < curLevel
-            debugInfo = "Levels: #{curLevel}->#{newLevel} | Exp: #{pkmn.exp}->#{expFinal} | gain: #{expGained}"
+            debugInfo = _INTL("Levels: {1}->{2} | Exp: {3}->{4} | gain: {5}", curLevel, newLevel, pkmn.exp, expFinal, expGained)
             pbDisplayPaused(_INTL("{1}'s new level is less than its\r\ncurrent level, which shouldn't happen.\r\n[Debug: {2}]",
                 pkmn.name, debugInfo))
         end

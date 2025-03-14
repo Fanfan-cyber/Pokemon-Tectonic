@@ -71,7 +71,7 @@ BattleHandlers::AbilityOnSwitchOut.add(:CLUMSYKINESIS,
               battler.loseableItems.each do |itemID|
                   itemNames.push(getItemName(itemID))
               end
-              chosenIndex = battle.scene.pbShowCommands(_INTL("Which item should #{battler.pbThis(true)} drop?"),itemNames,0)
+              chosenIndex = battle.scene.pbShowCommands(_INTL("Which item should {1} drop?", battler.pbThis(true)),itemNames,0)
               chosenItem = battler.loseableItems[chosenIndex]
           end
       end
