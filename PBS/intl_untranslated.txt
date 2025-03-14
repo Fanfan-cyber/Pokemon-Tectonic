@@ -127,6 +127,8 @@
 [Map125]
 [Map126]
 [Map127]
+It's strange to consider what biological differences might have caused this discrepancy.
+It's strange to consider what biological differences might have caused this discrepancy.
 [Map128]
 [Map129]
 [Map130]
@@ -453,6 +455,16 @@
 [9]
 [10]
 [11]
+Heals 1/16th HP every turn. Protected from being numbed or waterlogged.
+Heals 1/16th HP every turn. Protected from being numbed or waterlogged.
+Heals 1/16th HP every turn. Protected from being poisoned.
+Heals 1/16th HP every turn. Protected from being poisoned.
+Heals 1/16th HP every turn. Protected against critical hits.
+Heals 1/16th HP every turn. Protected against critical hits.
+At end of turn, heals 1/12th HP if holding a clothing item.
+At end of turn, heals 1/12th HP if holding a clothing item.
+Heals 1/16th HP every turn. Protected from being burned or frostbitten.
+Heals 1/16th HP every turn. Protected from being burned or frostbitten.
 [12]
 [14]
 D
@@ -1144,6 +1156,8 @@ x{1: 2d}
 4
 5
 5
+Whether to play an animation showing your party being healed by the Aid Kit.
+Whether to play an animation showing your party being healed by the Aid Kit.
 6
 6
 12
@@ -1190,6 +1204,8 @@ E
 {1}: {2} ({3}\%)
 \ts[]<c3=4C0D0D,FFFFFF22><b><outln2><ac><fs={1}>\w[]\wu\l[12]{2}</fs></ac></outln2></b></c3>\wt[{3}]
 \ts[]<c3=4C0D0D,FFFFFF22><b><outln2><ac><fs={1}>\w[]\wu\l[12]{2}</fs></ac></outln2></b></c3>\wt[{3}]
+Bence and Zoé are using 5 battlers each. This is a big battle!
+Bence and Zoé are using 5 battlers each. This is a big battle!
 \ss#{msg}\<<1>>
 \ss#{msg}\<<1>>
 EHP

@@ -16,9 +16,8 @@ Events.onTrainerPartyLoad += proc { |_sender, e|
   if trainer.able_party.length >= 6
     trainer.party.swap!(0, -1) if trainer.trainer_type == :LEADER_Lambert && rand(100) < 50
   else
+    next unless trainer.policies.empty?
     pkmn = $Trainer.party_random_pkmn(false, true)
-    #copy_index = TA.get(:win, 0) % $Trainer.pokemon_party.length
-    #pkmn = $Trainer.party[copy_index].clone_pkmn
     if trainer.trainer_type == :LEADER_Lambert && rand(100) < 50
       trainer.party.unshift(pkmn)
     else

@@ -8157,8 +8157,8 @@ Avatars, on the other hand, have no such defenses.
 Avatars, on the other hand, have no such defenses.
 You can have an avatar that's burned and numbed simultaneously!
 You can have an avatar that's burned and numbed simultaneously!
-It's strange to consider what biological differences might have caused this discrepancy
-It's strange to consider what biological differences might have caused this discrepancy
+It's strange to consider what biological differences might have caused this discrepancy.
+It's strange to consider what biological differences might have caused this discrepancy.
 A ranger buddy of mine told me about the Avatars of Entei, Raikou, and Suicune.
 A ranger buddy of mine told me about the Avatars of Entei, Raikou, and Suicune.
 He fought them, but won't tell me where at, the coward.
@@ -33659,8 +33659,8 @@ Special moves against the Pokémon have a 30% chance to burn the attacker.
 Special moves against the Pokémon have a 30% chance to burn the attacker.
 Heals by 1/8th HP whenever any Pokémon uses a dance or sound move.
 Heals by 1/8th HP whenever any Pokémon uses a dance or sound move.
-Heals 1/12th HP every turn. Protected from being numbed or waterlogged.
-Heals 1/12th HP every turn. Protected from being numbed or waterlogged.
+Heals 1/16th HP every turn. Protected from being numbed or waterlogged.
+Heals 1/16th HP every turn. Protected from being numbed or waterlogged.
 Immune to Poison-type moves, and boosts both defensive stats when hit by one.
 Immune to Poison-type moves, and boosts both defensive stats when hit by one.
 Restores 1/8 HP in sunshine, 1/4 when hit by Fire-type moves. Loses 1/8 in rainstorm, takes 25% more from Water-type moves.
@@ -33751,8 +33751,8 @@ Boosts Sp. Def by two steps when hit by an attack.
 Boosts Sp. Def by two steps when hit by an attack.
 Raises Attack whenever any Pokémon uses a dance move.
 Raises Attack whenever any Pokémon uses a dance move.
-Heals 1/12th HP every turn. Protected from being poisoned.
-Heals 1/12th HP every turn. Protected from being poisoned.
+Heals 1/16th HP every turn. Protected from being poisoned.
+Heals 1/16th HP every turn. Protected from being poisoned.
 Upon entry, traps each opponent in a whirlpool for two turns.
 Upon entry, traps each opponent in a whirlpool for two turns.
 Summons eclipse for four turns when it enters battle.
@@ -33879,8 +33879,8 @@ Doubles the damage and recoil of recoil moves.
 Doubles the damage and recoil of recoil moves.
 Boosts Speed by 50%, but the Pokémon is hurt for 1/10th HP each turn.
 Boosts Speed by 50%, but the Pokémon is hurt for 1/10th HP each turn.
-Heals 1/12th HP every turn. Protected against critical hits.
-Heals 1/12th HP every turn. Protected against critical hits.
+Heals 1/16th HP every turn. Protected against critical hits.
+Heals 1/16th HP every turn. Protected against critical hits.
 Multi-hit moves can hit up to twice as many times.
 Multi-hit moves can hit up to twice as many times.
 Copies the Ability of the Pokémon it switches in to replace.
@@ -33893,8 +33893,8 @@ Summons moonglow for four turns when hit by an attack.
 Summons moonglow for four turns when hit by an attack.
 Boosts Attack by 30% in moonglow.
 Boosts Attack by 30% in moonglow.
-At end of turn, heals 1/8th HP if holding a clothing item.
-At end of turn, heals 1/8th HP if holding a clothing item.
+At end of turn, heals 1/12th HP if holding a clothing item.
+At end of turn, heals 1/12th HP if holding a clothing item.
 Transforms into Midnight Form at the Full Moon. Ability becomes No Guard.
 Transforms into Midnight Form at the Full Moon. Ability becomes No Guard.
 The user's Speed is doubled while using Sound-based moves.
@@ -34141,8 +34141,8 @@ Special moves have a 30% chance to leech targets.
 Special moves have a 30% chance to leech targets.
 Boosts one defending stat by two steps according to the foe's attacking stats.
 Boosts one defending stat by two steps according to the foe's attacking stats.
-Heals 1/12th HP every turn. Protected from being burned or frostbitten.
-Heals 1/12th HP every turn. Protected from being burned or frostbitten.
+Heals 1/16th HP every turn. Protected from being burned or frostbitten.
+Heals 1/16th HP every turn. Protected from being burned or frostbitten.
 Takes 25% less damage while using a status move.
 Takes 25% less damage while using a status move.
 Boosts Attack by 20% in hail, or 40% if also below half health.
@@ -39549,8 +39549,8 @@ Whether to let your Pokémon learn new moves when leveling up.
 Whether to let your Pokémon learn new moves when leveling up.
 Aid Kit Animation
 Aid Kit Animation
-Whether to play ananimation showing your party being healed by the Aid Kit.
-Whether to play ananimation showing your party being healed by the Aid Kit.
+Whether to play an animation showing your party being healed by the Aid Kit.
+Whether to play an animation showing your party being healed by the Aid Kit.
 Quick Evolution
 Quick Evolution
 Whether to shorten the cutscene that plays when a Pokémon evolves.
@@ -41547,8 +41547,8 @@ Yezera won't leave the battle early. This is a true fight!
 Yezera won't leave the battle early. This is a true fight!
 In Our Equality, Disparity; from Injustice Settled Scales
 In Our Equality, Disparity; from Injustice Settled Scales
-Bence and Zoé are using 6 battlers each. This is a big battle!
-Bence and Zoé are using 6 battlers each. This is a big battle!
+Bence and Zoé are using 5 battlers each. This is a big battle!
+Bence and Zoé are using 5 battlers each. This is a big battle!
 A Fool's Errand
 A Fool's Errand
 Yezera and Shadow Mavis are using 6 battlers each. This is a huge battle!

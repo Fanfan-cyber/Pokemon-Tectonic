@@ -8157,8 +8157,8 @@ Avatars, on the other hand, have no such defenses.
 但是，化身并不在此列。
 You can have an avatar that's burned and numbed simultaneously!
 你可以让一个化身同时被麻痹和烧伤。
-It's strange to consider what biological differences might have caused this discrepancy
-想想是什么生物差异导致了这种差异，真是奇怪。
+It's strange to consider what biological differences might have caused this discrepancy.
+It's strange to consider what biological differences might have caused this discrepancy.
 A ranger buddy of mine told me about the Avatars of Entei, Raikou, and Suicune.
 我有个义军朋友跟我说，他曾面对过炎帝、雷皇和水君的化身。
 He fought them, but won't tell me where at, the coward.
@@ -33659,8 +33659,8 @@ Special moves against the Pokémon have a 30% chance to burn the attacker.
 受到特殊类技能攻击时，30%概率使对方烧伤。
 Heals by 1/8th HP whenever any Pokémon uses a dance or sound move.
 任何精灵使用舞蹈或声音技能时，恢复1/8最大HP。
-Heals 1/12th HP every turn. Protected from being numbed or waterlogged.
-每回合恢复1/12的HP，并且不会陷入麻痹和浸水。
+Heals 1/16th HP every turn. Protected from being numbed or waterlogged.
+Heals 1/16th HP every turn. Protected from being numbed or waterlogged.
 Immune to Poison-type moves, and boosts both defensive stats when hit by one.
 受到毒属性技能攻击时，免疫伤害并提高双防。
 Restores 1/8 HP in sunshine, 1/4 when hit by Fire-type moves. Loses 1/8 in rainstorm, takes 25% more from Water-type moves.
@@ -33751,8 +33751,8 @@ Boosts Sp. Def by two steps when hit by an attack.
 受到攻击时，特防提高2级。
 Raises Attack whenever any Pokémon uses a dance move.
 任何单位使用舞蹈类技能时都会提升攻击力。
-Heals 1/12th HP every turn. Protected from being poisoned.
-不会中毒，每回合恢复1/12HP。
+Heals 1/16th HP every turn. Protected from being poisoned.
+Heals 1/16th HP every turn. Protected from being poisoned.
 Upon entry, traps each opponent in a whirlpool for two turns.
 进入战斗后，将所有对手困在漩涡中两回合。
 Summons eclipse for four turns when it enters battle.
@@ -33879,8 +33879,8 @@ Doubles the damage and recoil of recoil moves.
 使用反伤技能时，伤害和反伤都会翻倍。
 Boosts Speed by 50%, but the Pokémon is hurt for 1/10th HP each turn.
 提升50%速度，但每回合受到1/10伤害。
-Heals 1/12th HP every turn. Protected against critical hits.
-每回合恢复1/12HP，且不会被击中要害。
+Heals 1/16th HP every turn. Protected against critical hits.
+Heals 1/16th HP every turn. Protected against critical hits.
 Multi-hit moves can hit up to twice as many times.
 多次攻击的技能可攻击更多次数。
 Copies the Ability of the Pokémon it switches in to replace.
@@ -33893,8 +33893,8 @@ Summons moonglow for four turns when hit by an attack.
 受到攻击后召唤持续四回合的月辉。
 Boosts Attack by 30% in moonglow.
 在月辉下提高30%的攻击。
-At end of turn, heals 1/8th HP if holding a clothing item.
-在回合结束时，若持有服装物品，会回复1/8的HP。
+At end of turn, heals 1/12th HP if holding a clothing item.
+At end of turn, heals 1/12th HP if holding a clothing item.
 Transforms into Midnight Form at the Full Moon. Ability becomes No Guard.
 在满月时会化身黑夜形态。特性变为无防守。
 The user's Speed is doubled while using Sound-based moves.
@@ -34141,8 +34141,8 @@ Special moves have a 30% chance to leech targets.
 特殊技能30%概率使对方被寄生。
 Boosts one defending stat by two steps according to the foe's attacking stats.
 根据对方的能力自适应大幅度提升防御或特防。
-Heals 1/12th HP every turn. Protected from being burned or frostbitten.
-每回合恢复1/12HP，免疫烧伤和冻伤。
+Heals 1/16th HP every turn. Protected from being burned or frostbitten.
+Heals 1/16th HP every turn. Protected from being burned or frostbitten.
 Takes 25% less damage while using a status move.
 在使用变化技能时受到的伤害降低25%。
 Boosts Attack by 20% in hail, or 40% if also below half health.
@@ -39549,8 +39549,8 @@ Whether to let your Pokémon learn new moves when leveling up.
 是否允许你的精灵在升级时学习新技能。
 Aid Kit Animation
 急救包动画
-Whether to play ananimation showing your party being healed by the Aid Kit.
-是否播放动画来显示队伍正在被急救包治疗。
+Whether to play an animation showing your party being healed by the Aid Kit.
+Whether to play an animation showing your party being healed by the Aid Kit.
 Quick Evolution
 快速进化
 Whether to shorten the cutscene that plays when a Pokémon evolves.
@@ -41547,8 +41547,8 @@ Yezera won't leave the battle early. This is a true fight!
 叶泽拉不会提前离开战斗。 这将是一场真正的对决!
 In Our Equality, Disparity; from Injustice Settled Scales
 昨日胜负天意定，今朝成败未可知。
-Bence and Zoé are using 6 battlers each. This is a big battle!
-Bence和Zoé各自使用6个战斗者。这是一场大规模的战斗！
+Bence and Zoé are using 5 battlers each. This is a big battle!
+Bence and Zoé are using 5 battlers each. This is a big battle!
 A Fool's Errand
 愚人自怜不自知，焚躯为烬行君令。
 Yezera and Shadow Mavis are using 6 battlers each. This is a huge battle!
