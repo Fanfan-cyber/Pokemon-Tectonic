@@ -2969,6 +2969,18 @@ FunctionCode = Invalid
 Flags = CanProtect
 Description = The user boasts of its strength. Power increases the more the user's stats are raised.
 #-------------------------------
+[PUNISHMENT]
+Name = Punishment
+Type = DARK
+Category = Physical
+Power = 30
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = Invalid
+Flags = CanProtect
+Description = This attack's power increases by 10 for every one of the target's positive stat steps.
+#-------------------------------
 #		FAIRY MOVES
 #-------------------------------
 [ANGELSKISS]

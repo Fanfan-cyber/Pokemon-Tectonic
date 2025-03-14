@@ -29,9 +29,8 @@ BattleHandlers::ItemOnSwitchIn.add(:ALLOYEDLUMP,
 
 BattleHandlers::ItemOnSwitchIn.add(:LUMBERAXE,
     proc { |item, battler, battle|
-        if battler.tryLowerStat(:SPEED, battler, item: item, ignoreContrary: true)
-            battler.aiLearnsItem(item)
-        end
+        battle.pbDisplay(_INTL("{1}'s {2} slows it down!", battler.pbThis, getItemName(item)))
+        battler.aiLearnsItem(item)
     }
 )
 

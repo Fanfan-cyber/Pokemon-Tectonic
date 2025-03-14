@@ -588,7 +588,7 @@ Name = Lumber Axe
 NamePlural = Lumber Axes
 Pocket = 5
 Price = 8000
-Description = Held item which boosts move damage by 25%, but lowers the user's Speed by 1 step on entry.
+Description = Held item which boosts move damage by 25%, but lowers the user's Speed by 15%.
 #-------------------------------
 [HEATROCK]
 Name = Heat Rock

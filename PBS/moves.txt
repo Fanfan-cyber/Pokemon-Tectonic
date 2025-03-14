@@ -6252,7 +6252,7 @@ Description = The user transforms its wrath into a fire-like aura to attack. It 
 [FLING]
 Name = Fling
 Type = DARK
-Category = Physical
+Category = Adaptive
 Power = 75
 Accuracy = 100
 TotalPP = 10
@@ -6333,7 +6333,7 @@ Description = The user slaps the target to knock off their item.
 [LASHOUT]
 Name = Lash Out
 Type = DARK
-Category = Physical
+Category = Adaptive
 Power = 75
 Accuracy = 100
 TotalPP = 5
@@ -6411,18 +6411,6 @@ Target = NearOther
 FunctionCode = DoubleDamageTargetMoved
 Flags = CanProtect
 Description = If the user moves after the target, this attack's power will be doubled.
-#-------------------------------
-[PUNISHMENT]
-Name = Punishment
-Type = DARK
-Category = Physical
-Power = 30
-Accuracy = 100
-TotalPP = 5
-Target = NearOther
-FunctionCode = ScalesTargetsPositiveStatSteps
-Flags = CanProtect
-Description = This attack's power increases by 10 for every one of the target's positive stat steps.
 #-------------------------------
 [PURSUIT]
 Name = Pursuit

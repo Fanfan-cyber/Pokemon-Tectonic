@@ -34,3 +34,9 @@ BattleHandlers::SpeedCalcItem.add(:FRAGILELOCKET,
     next mult
   }
 )
+
+BattleHandlers::SpeedCalcItem.add(:LUMBERAXE,
+  proc { |item, battler, mult|
+    next mult * 0.85
+  }
+)
