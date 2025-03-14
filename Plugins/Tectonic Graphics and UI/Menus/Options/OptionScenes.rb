@@ -237,7 +237,7 @@ class PokemonOption_Scene_Speed < PokemonOption_Scene_Base
 			),
             EnumOption.new(
                 _INTL("Aid Kit Animation"),
-                _INTL("Whether to play ananimation showing your party being healed by the Aid Kit."),
+                _INTL("Whether to play an animation showing your party being healed by the Aid Kit."),
                 [_INTL("On"), _INTL("Off")],
 				proc { $Options.aid_kit_animation },
 				proc { |value| $Options.aid_kit_animation = value }

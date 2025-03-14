@@ -46203,7 +46203,6 @@ Sharpness
 Cortante
 Astral Harvest
 Cosecha Astral
-Bully
 Disconnection
 Desconexión
 Monkey Mischief
@@ -54169,7 +54168,7 @@ Híper
 {1} sufre los efectos de estar envenenado.
 {1}'s burn looks painful.
 La quemadura de {1} se ve dolorosa.
-{1} frostbite looks painful.
+{1}'s frostbite looks painful.
 {1} sufre los efectos de estar helado.
 {1} seems really tired.
 {1} parece muy cansado.
@@ -58319,7 +58318,7 @@ Un Avatar Tótem místico. Sientes que tiene algún propósito, perdido con el t
 \i[SPANNINGBAND]La Balda Alcance brilla en sincronía con el tótem. Sientes que algún tipo de conexión fue creada.
 Waterlog
 Embeber
-When waterlogged, a Pokémon's Speed is halved, and it takes 25% more attack damage. Water- and Dark-types do the most waterlogged. Water is immune.
+When waterlogged, a Pokémon's Speed is halved, and it takes 25% more attack damage. Water- and Dark-types do the most waterlogging. Water is immune.
 Al ser embebido, la Velocidad de un Pokémon, es reducida a la mitad, y reciben un 25% menos de daño. Agua y Siniestro embeben más seguidos. Agua es inmune.
 The loudness of background music, fanfares, and jingles.
 El volumen de música de fondo, fanfarría, y canciones.
@@ -58449,6 +58448,354 @@ But it failed, since #{target.pbThis(true)} is already fractured!
 ¡Pero falló, ya que #{target.pbThis(true)} ya está fracturado!
 But it failed, since #{target.pbThis(true)} is already jinxed!
 ¡Pero falló, ya que #{target.pbThis(true)} ya está embrujado!
+Choose the Poké Ball to put {1} into.
+Elige la Poké Ball en la que colocarás a {1}.
+A {1} is too special to swap {2} into.
+Una {1} es demasiado especial como para colocar a {2} en ella.
+You remove {1} from the {2}, and throw it away.
+Quitas a {1} de su {2}, y la descartas.
+You bring out the {1}, and launch a ball at {2}!
+¡Tomas la {1}, y le lanzas una ball a {2}!
+You bring out a {1}, and put {2} into it!
+¡Tomas una {1}, y pones a {2} en ella!
+You decide to keep {1} in its {2}.
+Decides mantener a {1} en su {2}.
+Use the Battle Report immediately?
+¿Usas el Reporte de Combate inmediatamente?
+{1} is soaked through.
+{1} está empapado.
+{1} heard the Perish Song! It will take massive damage in {2} turns!
+¡{1} escuchó el Canto Mortal! ¡Recibirá daño masivo en {2} turnos!
+Base power is 20 plus the target's level, capped at 70 BP.
+Poder base es 20 más el nivel del objetivo, con un máximo de 70.
+This ball has a very low chance to capture {1}.
+Esta ball tiene una muy baja probabilidad de atrapar a {1}.
+This ball is guaranteed to capture {1}!
+¡Esta ball tiene garantizado atrapar a {1}!
+This ball has a close to {1}% chance of capturing {2}.
+Esta ball tiene cerca de {1}% de probabilidad de atrapar a {2}.
+Not Status
+No Estado
+Which targeting?
+¿Cuál blanco?
+Single Target
+Blanco Único
+Multi Target
+Blanco Múltiple
+No Target
+Sin Objetivo
+by using a {1}
+usando {1}
+by using a {1} if it's male
+usando {1} si es macho 
+by using a {1} if it's femmale
+usando {1} si es hembra
+by using a {1} if it's female
+usando {1} si es hembra
+{1} is getting used to the harsh conditions!
+¡{1} se está acostumbrando a las condiciones severas!
+{1} copies {2}'s ability!
+¡{1} copia la habilidad de {2}!
+Learnable By
+Aprendido Por
+Move learnable by?
+¿Movimiento aprendido por?
+Party Pokemon
+Pokémon en el Equipo
+Caught Pokemon
+Pokémon Atrapados
+{1} is protected by its Clear Amulet!
+¡{1} está protegido por el Amuleto Puro!
+{1} blocked the hit with its stolen item! It didn't take any damage!
+¡{1} bloquea el golpe con su objeto robado! ¡No recibió ningún daño!
+{1} blocked the hit with its item!
+¡{1} bloquó el golpe con su objeto!
+Use the {1} as a {2} on {3}?
+¿Usas {1} como {2} en {3}?
+Player Appearance
+Apariencia del Jugador
+If you switch {1}'s ball, its current {2} will be thrown away.
+Su cambias la ball de {1} su {2} será descartada.
+Are you okay with throwing away the {1}?
+¿Aceptas descartar el {1}?
+{1} is already inside of a {2}!
+¡{1} ya está dentro de {2}!
+Which appearance would you like?
+¿Qué apariencia quieres?
+Appearance changed to {1}!
+¡Apariencia cambiada a {1}!
+Battle Monument Team {1}
+Equipo Monumento Batalla {1}
+{1} forces its moves to be physical!
+¡{1} fuerza que sus movimientos sean físicos!
+{1} is an interloper! All its moves are special!
+¡{1} es un viajero! ¡Todos sus movimientos son especiales!
+A critical hit deals 50% more damage than a regular hit. Certain moves are able to randomly critical hit.
+Un movimiento crítico hace 50% más daño que un movimiento regular. Ciertos movimientos pueden dar golpes críticos aleatoriamente.
+For moves that can random crit, the chance is 1/8. This chance can be raised by abilities, items, or special effects.
+Para movimientos que pueden ser críticos, la probabilidad es 1/8. Esta probabilidad puede ser aumentada por habilidades, objetos, u otros efectos.
+I chose a move!
+¡Elijo un movimiento!
+You chose a move!
+¡Elgies un movimiento!
+My Pokemon fainted!
+¡Mi Pokémon fue debilitado!
+Your Pokemon fainted!
+¡Tu Pokémon fue debilitado!
+I sent out a Pokemon!
+¡Envié un Pokémon!
+You sent out a Pokemon!
+¡Envías un Pokémon!
+Wow, I've never seen that Pokemon before!
+¡Wow, nunca he visto a ese Pokémon antes!
+I'm gonna check my MasterDex!
+¡Voy a comprobar mi MasterDex!
+Bounsweet, it says. Playful, but a little dangerous!
+Bounsweet, dice. Juguetón, ¡pero algo peligroso!
+Numel, huh? Fire-type--hope I don't get burned!
+¿Numel, eh? Tipo Fuego... ¡espero no ser quemado!
+Krabby... a Water-type... with massive attack power, wow!
+Krabby... un tipo Agua... ¡con un masivo ataque, wow!
+My Pokemon took move damage!
+¡Mis Pokémon recibieron daño!
+Your Pokemon took move damage!
+¡Tus Pokémon recibieron daño!
+Thought ya'd be better than that, honestly.
+Pensé que serías mejor que eso, la verdad.
+Had to commit a few choice sins ta catch this fella, but it was well worth it.
+Tuve que cometer un par de pecados para atraper a este grandote, pero valió la pena.
+If you ever want to see the light of day again, you’ll serve, wyrm.
+Si algún día quieres volver a ver la luz del día, sucumbirás, gusano.
+Vent that hatred towards them, yeah?
+Desahoga tu odio contra ellos, ¿ok?
+You know the plan. My dear friend, dismantle them.
+Conoces el plan. Mi querido amigo, desmantélalos.
+Show them why you’re the god of this place!
+¡Muéstrales porqué eres el dios de este lugar!
+Yes, my lord. The battle is ready for your presence.
+Sí, mi señor. Este combate está listo para tu presencia.
+Whoa. Hadn't realized it, but I'm running dry.
+Wow. No me dí cuenta, pero me estoy quedando sin combustible.
+Gonna try to go out with a bang, but I know how this one ends.
+Voy a intentar terminar bien, pero ya sé cómo va a terminar esto.
+They don't call it the Bite Pokémon for nothing! You're stuck here with ME now!
+¡No lo llaman el Pokémon Mordisco por nada! ¡Ahora estás atrapado CONMIGO!
+Agnes! Rip 'em up! This is OUR arena now!
+¡Agnes! ¡Hazlos pedazos! ¡Esta es NUESTRA arena!
+Ever been punched by a bird before? Not as funny as it sounds.
+¿Algunas vez un pájaro te ha dado un puñetazo? No es tan divertido como suena.
+*hiss* Fine. Go, 1 Second! Don't leave him hanging!
+*hiss* Bien. ¡Vamos, 1 Second! ¡No lo dejes esperando!
+Oh, come ON! Turnabout's fair play, I guess...
+¡Oh, VAMOS! Los giros inesperados son justos, supongo...
+That's me done. Zoé, don't you let me down. Again.
+Y así termino. Zoé, no me decepciones. De nuevo.
+I've got nothing. Nada. Bence, you better win this.
+No tengo nada. Nothing. Bence, más te vale ganar esto.
+You’re close now! But don’t you dare relax yet!
+¡Ahora estás cerca! ¡No te atrevas a relajarte!
+So the lingering pain claims its first victim. Falter and you will fail!
+Así que el dolor persistente se llevó su primer víctima. ¡Vacila y caerás!
+Delightful! It seems you've learned from this!
+¡Maravilloso! ¡Parece que has aprendido de esto!
+Don’t give me that look. I've won worse.
+No me mires así. He ganado peores.
+NO! My friend! What have you done to my light?!
+¡NO! ¡Mi amigo! ¡¿Qué le has hecho a mi luz?!
+The light! My friend's light! I NEED IT!
+¡La luz! ¡La luz de mi amigo! ¡LA NECESITO!
+Got me on the ropes, huh? Well it ain't over till it's over.
+¿Me pusiste contra las cuerdas, eh? Bueno, no se acaba hasta que se acaba.
+Hah. Oldest trick in the book.
+Ja. El truco más viejo en el libro.
+Saw through my trick, did ya?
+No te dejaste engañar, ¿eh? 
+Mystified? I've got plenty of tricks up my sleeve.
+¿Perplejo? Tengo unos cuantos truco bajo mi manga.
+...Hope I've kept you entertained..
+...Espero haberte entretenido..
+What do you think? A little gaudy? Let me tell you: it's more than a pretty face.
+¿Qué te parece? ¿Un tanto estridente? Déjame decirte: es más que una cara bonita.
+Sorry. Patience is overrated.
+Lo siento. La paciencia está sobrevalorada.
+...I've seen me win these. Yeah, I've seen me win these...
+...Me he visto ganar estas. Seh, he visto ganar estas...
+Call me gimmicky, but I ain't a one-trick pony.
+Llámalo un gimmick, pero no soy un pony de un sólo truco.
+...!
+¡...!
+...Hmph.
+...Hmph.
+Tsk, tsk, tsk. It appears my work here is done.
+Pfff. Parece que mi trabajo aquí ya está terminado.
+Let's see which of you two is the better.
+Veamos quién de ustedes dos es el mejor.
+My pride and joy. Don't you dare fail me now. Shred mommy's enemies, OK?
+Mi orgullo y alegría. No te atrevas a fallarme ahora. Aplasta a los enemigos de mami, ¿ok?
+...Dispose of this one after we’re done.
+...Deshazte de este luego de haber terminado. 
+It doesn't deserve its position. You can do better.
+No se merece su posición. Puedes hacerlo mejor.
+Coup de foudre, coup de grace.
+Coup de foudre, coup de grace.
+The night seems to be drawing to a close. One last dance?
+Esta noche parece estar llegando a su fin. ¿Me ofreces una pieza?
+All safeties disengaged - the floor is yours, Aggron.
+Toda seguridad es retirada - el piso es tuyo, Aggron.
+This is an archetypal stratagem. Do you have an effective counter planned?
+Esta es una estratagema arquetípica. ¿Tienes una respuesta efectiva planeada?
+...I'm sorry. Stay down. Please...
+...Lo siento. Quédate abajo. Por favor...
+You’ve done enough, Artemisia. Thank you.
+Has hecho lo suficiente, Artemisia. Gracias.
+...It’s been so long since...
+...Ha pasado tanto tiempo desde que...
+...We’re done here. We wanted time, we got it. No need to continue this.
+...Ya está. Necesitábamos tiempo, lo conseguimos. No tenemos que continuar esto.
+Don't give me that look! Don’t do it! Mavis – please, just end this.
+¡No me mires así! ¡No lo hagas! Mavis – por favor, termina con esto.
+Sleep. Rest, and awake in a new world.
+Dormir. Descansar, y despertar en un nuevo mundo.
+The same simple pivot, again and again...I'm bored.
+El mismo pivote, una y otra vez... estoy aburrida.
+I suppose it would never work on you, would it? Speak my language, read me like a book.
+Supongo que nunca iba a funcionar contigo, ¿verdas? Hablas mi idioma, me lees como un libro.
+Really? That's it? Get back up. That can't be all you've got.
+¿En serio? ¿Eso es todo? Levántate. Eso no puede ser todo. 
+I guess the power of friendship only goes so far.
+Supongo que el poder de la amistad tiene su límite.
+Wow, that is really cathartic.
+Wow, eso es realmente catártico.
+Is that all? I must've lost count. I thought we were just getting started.
+¿Eso es todo? Debo haber perdido la cuenta. Pensé que estábamos empezando.
+You've got a really punchable face, you know that? Smug to the end.
+Con esa cara realmente quiero golpearte, ¿sabes? Engreído hasta el final.
+{1} resists the pointed stones!
+¡{1} resiste las rocas puntiagudas!
+Also, critical hits are now possible on all of {1}'s attacks!
+¡Además, ahora todos los ataques de {1} pueden ser críticos!
+{1} firmly planted its evil roots! It can't be moved!
+¡{1} plantó sus raíces malvadas! ¡No puede ser movido!
+The evil roots will sap foe health each turn!
+¡Las raíces malvadas drenarán la salud de los rivales cada turno!
+{1} is sapped by the evil roots!
+¡{1} es drenado por las raíces malvadas!
+\i[OMINOUSEGG]...strength in avarice...
+\i[OMINOUSEGG]...fuerza en la avaricia...
+It's open to a battling guide written by someone with the username "apolLyon."
+La abres para ver una guía de combate escrita por alguien con el nombre de usuario "apolLyon."
+1.1 Roles/Cores
+1.1 Roles/Cores
+2.1 Leads
+2.1 Leads
+3.2 Hazards
+3.2 Trampas
+Which entry would you like to read?
+¿Qué entrada quieres leer?
+Everything on your team needs a point. Every Pokémon needs a purpose.
+Todo en tu equipo debe tener un punto. Cada Pokémon necesita un propósito.
+If you can't sum up its role on your team in a sentence, keep it in the PC.
+Si no puedes resumir su rol en tu equipo en una oración, mantenlo en el PC. 
+Every bit of that Pokémon should reinforce its role. Moves, items, everything.
+Cada parte de ese Pokémon debería reforzar sus roles. Movimientos, objetos, todo.
+All six Pokémon on your team need a role, narrow or broad.
+Los seis Pokémon de tu equipo necesitan un rol, ya sea limitado o amplio.
+Two Pokémon with synergistic roles are called a "core."
+Dos Pokémon con roles sinérgicos son llamados una "core".
+If the two of them can take hits from a whole bunch of things, that's a defensive core.
+Si dos de ellos pueden tomar golpes de un montón de cosas, es una core defensiva.
+If together they threaten lots of Pokémon and deal with each others' counters, that's an offensive core.
+Si juntos amenazan montones de Pokémon y lidian con los counters del otro, es una core ofensiva.
+Combine both and you have a balanced core. Good cores make for powerful teams.
+Combina ambas y tienes una core defensiva. Buenas cores hacen equipos poderosos.
+You don't need them, but they're a surefire way to give your team some bite.
+No las necesitas, pero son una forma segura de que tu equipo tenga algo de espina.
+The Pokémon you start a fight with is your "lead."
+El Pokémon con el que empiezas un combate es tu "lead."
+Start every fight with it and it's a "dedicated lead." Make it a good one.
+Si empiezas cada combate con él es un "lead dedicado." Haz que sea uno bueno.
+Its job is to kick things off in your favor from round one.
+Su trabajo es darte una buena ventaja desde el primer turno.
+Usually that's by vomiting up a whole bunch of hazards. Sometimes it sets screens and explodes.
+Usualmente logra eso vomitando un montón de trampas. A veces coloca pantallas y explota.
+A few just try to delete whatever's on the other side, usually with short-term power boosts like Gems.
+Unos cuantos simplemente intentar borrar lo que sea que haya en el otro lado, usualmente con potenciadores instantáneos, como las gemas.
+Speaking of which, your opponent is going to have their own lead.
+Hablando de, tu oponente va a tener su propio lead.
+Stop it. Taunt it, put it to sleep, or put it in the ground.
+Detenlo. Mófalo, ponlo a dormir, o acaba con él.
+The arena is going to very rapidly fill up with nasty pointy things.
+La arena rápidamente va a llenarse de cosas malas puntiagudas.
+That's because wasting a turn setting them up in the short term pays off big in the long term when they chew up a few Pokémon worth of health over the course of the match.
+Eso es porque desperdiciar turnos colocándolos a corto plazo da sus frutos en el largo plazo cuando tengan que comerse una buena cantidad de la salud de sus Pokémon a través de la partida.
+If you like being alive, pack something that can clean up hazards – Defog, Terraform, or Rapid Spin, usually.
+Si te gusta estar vivo, usa algo que pueda limpiar tramps – Despejar, Terraformar, o Giro Rápido, usualmente.
+Stealth Rocks are the most common hazard, so prioritize hazard removal if you've got lots of Rock-weak Pokémon.
+Trampa Rocas son la trampa más común, así que prioriza remover trampas si tienes montones de Pokémon débiles a Roca.
+Remember: if your favorite little gremlin is switching out nine times a match or is cripplingly weak to funny pebbles, put Heavy-Duty Boots on it.
+Recuerda: si tu pequeña criatura favorita va a cambiar nueve veces por combate o tiene una exagerada debilidad a las piedras graciosas, equípale uans Botas Gruesas. 
+They're cute and effective.
+Son bonitas y efectivas.
+Unknown Map.
+Mapa Desconocido.
+You exit the PC.
+Sales del PC.
+It's open to a battling guide written by someone with the username "snowwhip401."
+La abres para ver un guía de combate escrita por alguien con el nombre de usuario "snowwhip401."
+Even keel
+Equilibrado
+Best foot forward
+Esmerarse
+Rolling with the punches
+A los golpes
+All the little pieces of your team need their own role.
+Todas las pequeñas partes de tu equipo necesitan su propio rol.
+Use whatever you want; just ensure that it's got something to do and the best odds of doing it.
+Usa lo que quieras; sólo asegúrate que tenga algo que hacer y que tenga la mayor oportunidad de hacerlo.
+Give bulky Pokémon Leftovers and healing moves.
+Dale a tus Pokémon robustos Restos y movimientos curativos.
+Give strong, slow Pokémon Focus Sashes, Vests, or ways to speed up.
+Dale a tus Pokémon fuertes y lentos Bandas Aguantes, Chalecos, y otras formas de aumentar tu velocidad.
+You get the idea.
+Captas la idea.
+If you can, try to have all kinds of Pokémon on your team, so you have answers to anything.
+Si puedes, intenta que tengas todo tipo de Pokémon en tu equipo, así tienes respuestas para todo.
+Physical and special bulk and power, type matchups, speed profiles – a diverse team is a diverse toolbox.
+Defensas y poder físicos y especiales, efectividades de tipos, perfiles de velocidad – un equipo diverso es una caja de herramientas diversa.
+Send out the Pokémon that helps everything else on your team first.
+Envía al Pokémon que ayuda a todo el resto en tu equipo primero.
+If you have a weather or a Room to set up, get to it.
+Si tienes un clima o Zona que invocar, hazlo.
+If you don't have a clear, clean gameplan, ruin your opponent's.
+Si no tienes un plan en concreto, arruina el del oponente.
+A dedicated lead's worst fear is usually a strong multi-hitting move. Neither Sturdy nor Sash can help them there.
+El mayor miedo de un lead dedicado usualmente es un movimiento fuerte de multi-golpes. Ni Robustez ni Banda los puede ayudar allí.
+As opposed to simply trading hazards, outspeeding and KOing a lead before it gets going can give you an early advantage.
+Al contrario de simplemente intercambiar trampas, ser más rápido y vencer a un lead antes de que haga sus cosas te dará una ventaja temprana.
+Each Pokémon's utility is defined by the opponent.
+La utilidad de cada Pokémon es definida por el oponente.
+If your opponent has several Fire-type Pokémon, your Primarina is far more valuable.
+Si tu oponente tiene montos de Pokémon tipo Fuego, tu Primarina es mucho más valioso.
+Conserve its health and leverage its power.
+Conserva su salud y aprovecha su poder.
+In the same match, an Aegislash may be far less valuable – be willing to sacrifice it.
+En el mismo combate, un Aegislash podría ser mucho menos útil – sé dispuesto a sacrificarlo.
+There's no shame in letting a Pokémon fall in order to get a safe switch to another.
+No hay ver vergüenza en dejar que un Pokémon caiga con el fin de cambiar de forma segura a otro.
+While they may seem drastic, moves such as Healing Wish or Explosion can turn the tide of a match in a single turn.
+Aunque pueda parecer drástico, movimientos como Deseo Cura o Explosión pueden cambiar las tornas de un combate en un solo turno.
+Fainting the user can, if used with finesse, be an advantage – think of them as the ultimate U-Turn.
+Debilitar al usuario puede, si es usado con delicadeza, puede ser una ventaja – considéralos el Ida y Vuelta definitivos.
+But it failed, since the target didn't choose to use a move!
+¡Pero falló, ya que el objetivo no eligió usar un movimiento!
+But it failed, since the target chose to use a status move!
+¡Pero falló, ya que el objetivo eligió usar un movimiento de estado!
+But it failed, since the target chose a move that can't be copied!
+¡Pero falló, ya que el objetivo eligió un movimiento que no puede ser copiado!
+But it failed, since #{user.pbThis(true)} knows no other sound-based moves!
+¡Pero falló, ya que #{user.pbThis(true)} no conoce otros movimientos de sonido!
+sunny skies and hot temperatures
+cielos soleados y temperaturas calientes
 [26]
 [27]
 [27]
