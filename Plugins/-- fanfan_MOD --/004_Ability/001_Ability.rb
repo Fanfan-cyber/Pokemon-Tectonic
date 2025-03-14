@@ -62,3 +62,15 @@ class Ability_EXAMPLE < AbilitySystem
       }
   end
 end
+
+class Ability_SWIFTSTOMPS < AbilitySystem
+  def initialize
+    super
+    @hit_cycle = 3
+
+    @ability_handler[:GuaranteedCriticalUserAbility] = 
+      proc { |_ability, user, _target, _battle|
+        next true if user.battle_tracker_get(:hits_in_progress_kicking) % @hit_cycle == 0
+      }
+  end
+end

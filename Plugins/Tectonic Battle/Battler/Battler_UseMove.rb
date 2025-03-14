@@ -508,6 +508,7 @@ class PokeBattle_Battler
             unless moveIsBlocked
                 for i in 0...numHits
                     user.battle_tracker_increment(:hits_in_progress)
+                    user.battle_tracker_increment(:hits_in_progress_kicking) if move.kickingMove?
                     success = pbProcessMoveHit(move, user, targets, i, skipAccuracyCheck, multiHitAesthetics)
                     unless success
                         if i == 0 && targets.length > 0

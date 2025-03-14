@@ -328,6 +328,7 @@ class PokeBattle_Move
         return true if pbCriticalOverride(user, target) > 0
         user.eachActiveAbility do |ability|
             return true if BattleHandlers.triggerGuaranteedCriticalUserAbility(ability, user, target, @battle)
+            return true if AbilitySystem.apply_effect(:GuaranteedCriticalUserAbility, ability, user, target, @battle)
         end
         return false
     end

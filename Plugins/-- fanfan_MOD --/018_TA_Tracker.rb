@@ -1,9 +1,9 @@
 class PokeBattle_BattleTracker
   def initialize
-    @faint_healing_triggered = false
-    @warned                  = [] # used for Cursed Tail
-
-    @hits_in_progress = 0 # Only done this
+    @faint_healing_triggered  = false
+    @warned                   = [] # used for Cursed Tail
+    @hits_in_progress         = 0
+    @hits_in_progress_kicking = 0
 
     @being_hits = 0
     @hits_dealt = 0
