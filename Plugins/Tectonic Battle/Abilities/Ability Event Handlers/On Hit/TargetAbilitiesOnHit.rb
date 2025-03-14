@@ -330,7 +330,7 @@ BattleHandlers::TargetAbilityOnHit.add(:CONSTRICTOR,
         next unless move.physicalMove?
         next if target.fainted?
         next -(10 + 20 * aiNumHits) if aiCheck
-        battle.forceUseMove(target, :BIND, user.index, ability: ability)
+        battle.forceUseMove(target, :BITE, user.index, ability: ability)
   }
 )
 
