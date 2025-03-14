@@ -376,12 +376,13 @@ class PokeBattle_Battler
     end
 
     def can_faint_healing?
+        return false if TA.get(:disablerevive)
         return false if battle_tracker_get(:faint_healing_triggered)
         return false unless @battle.trainerBattle?
         return false if owner_side_all_fainted?
-        return true unless pbOwnSide.effectActive?(:PerennialPayload)
-        return true unless pbOwnSide.effects[:PerennialPayload][@pokemonIndex]
-        return false
+        return false if pbOwnSide.effectActive?(:PerennialPayload)
+        return false if pbOwnSide.effects[:PerennialPayload][@pokemonIndex]
+        return true
     end
 
     def apply_faint_healing
