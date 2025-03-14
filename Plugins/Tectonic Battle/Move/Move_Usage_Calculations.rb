@@ -225,7 +225,7 @@ class PokeBattle_Move
         crit = false
         forced = false
 
-        if guaranteedCrit?(user, target)
+        if guaranteedCrit?(user, target, checkingForAI)
             crit = true
             forced = true
         elsif allowedToRandomCrit
@@ -321,14 +321,14 @@ class PokeBattle_Move
         return true
     end
 
-    def guaranteedCrit?(user, target)
+    def guaranteedCrit?(user, target, checkingForAI = false)
         return true if target.effectActive?(:Jinxed)
         return true if user.effectActive?(:LaserFocus) || user.effectActive?(:EmpoweredLaserFocus)
         return true if user.effectActive?(:LuckyCheer)
         return true if pbCriticalOverride(user, target) > 0
         user.eachActiveAbility do |ability|
             return true if BattleHandlers.triggerGuaranteedCriticalUserAbility(ability, user, target, @battle)
-            return true if AbilitySystem.apply_effect(:GuaranteedCriticalUserAbility, ability, user, target, @battle)
+            return true if AbilitySystem.apply_effect(:GuaranteedCriticalUserAbility, ability, self, user, target, @battle, checkingForAI)
         end
         return false
     end

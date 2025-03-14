@@ -25281,8 +25281,6 @@ Parting Shot
 Parting Shot
 Payback
 Payback
-Punishment
-Punishment
 Pursuit
 Pursuit
 Quash
@@ -27690,8 +27688,6 @@ The user lowers the target's Attack and Sp. Atk by two steps each. Then, the use
 The user lowers the target's Attack and Sp. Atk by two steps each. Then, the user switches out.
 If the user moves after the target, this attack's power will be doubled.
 If the user moves after the target, this attack's power will be doubled.
-This attack's power increases by 10 for every one of the target's positive stat steps.
-This attack's power increases by 10 for every one of the target's positive stat steps.
 Inflicts double damage on a target that is switching out.
 Inflicts double damage on a target that is switching out.
 The user suppresses the target and makes its move go last.
@@ -30927,8 +30923,8 @@ Held item which ups Sp. Atk by 40%, but allows the use of only one move.
 Held item which ups Sp. Atk by 40%, but allows the use of only one move.
 Held item which boosts Speed by 40% but allows the use of only one move.
 Held item which boosts Speed by 40% but allows the use of only one move.
-Held item which boosts move damage by 25%, but lowers the user's Speed by 1 step on entry.
-Held item which boosts move damage by 25%, but lowers the user's Speed by 1 step on entry.
+Held item which boosts move damage by 25%, but lowers the user's Speed by 15%.
+Held item which boosts move damage by 25%, but lowers the user's Speed by 15%.
 A Pokémon held item. When the holder summons sunshine, it lasts twice as long.
 A Pokémon held item. When the holder summons sunshine, it lasts twice as long.
 A Pokémon held item. When the holder summons rainstorm, it lasts twice as long.
@@ -34409,8 +34405,8 @@ Adapts the move's type to maximize damage against the target.
 Adapts the move's type to maximize damage against the target.
 When hitting a target that has an ability with an offensive damage-modifying effect, the Pokémon ignores the conditions and triggers the effect.
 When hitting a target that has an ability with an offensive damage-modifying effect, the Pokémon ignores the conditions and triggers the effect.
-When the Pokémon's level is 30 or higher, it transforms into a member of its family depending on the type of the move it is about to use.
-When the Pokémon's level is 30 or higher, it transforms into a member of its family depending on the type of the move it is about to use.
+When the Pokémon's level is 25 or higher, it transforms into a member of its family depending on the type of the move it is about to use.
+When the Pokémon's level is 25 or higher, it transforms into a member of its family depending on the type of the move it is about to use.
 When the Pokémon faints, it rewinds itself to 3 turns ago.
 When the Pokémon faints, it rewinds itself to 3 turns ago.
 The targets cannot avoid facing the attack by the Pokémon.
@@ -43669,6 +43665,8 @@ It seems to be a strange key!
 It seems to be a strange key!
 It seems to be a lump of metal!
 It seems to be a lump of metal!
+{1}'s {2} slows it down!
+{1}'s {2} slows it down!
 {1} holds a {2} close!
 {1} holds a {2} close!
 {1} gets a new ability {2}!
@@ -43879,10 +43877,12 @@ It's not very effective...
 It's not very effective...
 The substitute took damage for {1}!
 The substitute took damage for {1}!
-It was a guaranteed critical hit#{onAddendum}!
-It was a guaranteed critical hit#{onAddendum}!
-A critical hit#{onAddendum}!
-A critical hit#{onAddendum}!
+on {1}
+ on {1}
+It was a guaranteed critical hit{1}!
+It was a guaranteed critical hit{1}!
+A critical hit{1}!
+A critical hit{1}!
 {1}'s substitute faded!
 {1}'s substitute faded!
 Its disguise served it as a decoy!
@@ -48977,6 +48977,8 @@ Upon entry, creates an Emotion Room for 5 turns, adding an ability every turn.
 Upon entry, creates an Emotion Room for 5 turns, adding an ability every turn.
 Copies opponents' species' legal Abilities.
 Copies opponents' species' legal Abilities.
+The user's Speed is doubled while using kicking moves. Every third kicking hit must be a crit.
+The user's Speed is doubled while using kicking moves. Every third kicking hit must be a crit.
 An item to be held by a Pokémon. The user gets three abilities, but its stats are cut by 10%.
 An item to be held by a Pokémon. The user gets three abilities, but its stats are cut by 10%.
 ,

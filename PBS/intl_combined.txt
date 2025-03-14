@@ -8158,7 +8158,7 @@ Avatars, on the other hand, have no such defenses.
 You can have an avatar that's burned and numbed simultaneously!
 你可以让一个化身同时被麻痹和烧伤。
 It's strange to consider what biological differences might have caused this discrepancy.
-It's strange to consider what biological differences might have caused this discrepancy.
+想想是什么生物差异导致了这种差异，真是奇怪。
 A ranger buddy of mine told me about the Avatars of Entei, Raikou, and Suicune.
 我有个义军朋友跟我说，他曾面对过炎帝、雷皇和水君的化身。
 He fought them, but won't tell me where at, the coward.
@@ -25281,8 +25281,6 @@ Parting Shot
 抛下狠话
 Payback
 以牙还牙
-Punishment
-惩罚
 Pursuit
 追打
 Quash
@@ -27690,8 +27688,6 @@ The user lowers the target's Attack and Sp. Atk by two steps each. Then, the use
 虽然会使自己被交换出战场，但是能够大幅降低对手的攻击和特攻。
 If the user moves after the target, this attack's power will be doubled.
 蓄力攻击。如果能在对手之后攻击，技能的威力会变成2倍。
-This attack's power increases by 10 for every one of the target's positive stat steps.
-根据能力变化，对手提高的力量越大，技能的威力越大。
 Inflicts double damage on a target that is switching out.
 对替换的精灵造成双倍伤害。
 The user suppresses the target and makes its move go last.
@@ -30927,8 +30923,8 @@ Held item which ups Sp. Atk by 40%, but allows the use of only one move.
 会提升特攻的威力，但只能使出相同的技能。
 Held item which boosts Speed by 40% but allows the use of only one move.
 有点讲究的围巾。虽然携带后速度会提高，但只能使出相同的技能。
-Held item which boosts move damage by 25%, but lowers the user's Speed by 1 step on entry.
-携带后提升25%技能伤害，但会降低速度。
+Held item which boosts move damage by 25%, but lowers the user's Speed by 15%.
+携带后增加25%的技能伤害，但速度会减少15%。
 A Pokémon held item. When the holder summons sunshine, it lasts twice as long.
 携带它的精灵使出大晴天的话，晴天的时间就会比平时更长。
 A Pokémon held item. When the holder summons rainstorm, it lasts twice as long.
@@ -33660,7 +33656,7 @@ Special moves against the Pokémon have a 30% chance to burn the attacker.
 Heals by 1/8th HP whenever any Pokémon uses a dance or sound move.
 任何精灵使用舞蹈或声音技能时，恢复1/8最大HP。
 Heals 1/16th HP every turn. Protected from being numbed or waterlogged.
-Heals 1/16th HP every turn. Protected from being numbed or waterlogged.
+每回合恢复1/16的HP，并且不会陷入麻痹和浸水。
 Immune to Poison-type moves, and boosts both defensive stats when hit by one.
 受到毒属性技能攻击时，免疫伤害并提高双防。
 Restores 1/8 HP in sunshine, 1/4 when hit by Fire-type moves. Loses 1/8 in rainstorm, takes 25% more from Water-type moves.
@@ -33752,7 +33748,7 @@ Boosts Sp. Def by two steps when hit by an attack.
 Raises Attack whenever any Pokémon uses a dance move.
 任何单位使用舞蹈类技能时都会提升攻击力。
 Heals 1/16th HP every turn. Protected from being poisoned.
-Heals 1/16th HP every turn. Protected from being poisoned.
+每回合恢复1/16HP，并且不会陷入中毒。
 Upon entry, traps each opponent in a whirlpool for two turns.
 进入战斗后，将所有对手困在漩涡中两回合。
 Summons eclipse for four turns when it enters battle.
@@ -33880,7 +33876,7 @@ Doubles the damage and recoil of recoil moves.
 Boosts Speed by 50%, but the Pokémon is hurt for 1/10th HP each turn.
 提升50%速度，但每回合受到1/10伤害。
 Heals 1/16th HP every turn. Protected against critical hits.
-Heals 1/16th HP every turn. Protected against critical hits.
+每回合恢复1/16HP，且不会被击中要害。
 Multi-hit moves can hit up to twice as many times.
 多次攻击的技能可攻击更多次数。
 Copies the Ability of the Pokémon it switches in to replace.
@@ -33894,7 +33890,7 @@ Summons moonglow for four turns when hit by an attack.
 Boosts Attack by 30% in moonglow.
 在月辉下提高30%的攻击。
 At end of turn, heals 1/12th HP if holding a clothing item.
-At end of turn, heals 1/12th HP if holding a clothing item.
+在回合结束时，若持有衣物类物品，则回复1/12的HP。
 Transforms into Midnight Form at the Full Moon. Ability becomes No Guard.
 在满月时会化身黑夜形态。特性变为无防守。
 The user's Speed is doubled while using Sound-based moves.
@@ -34142,7 +34138,7 @@ Special moves have a 30% chance to leech targets.
 Boosts one defending stat by two steps according to the foe's attacking stats.
 根据对方的能力自适应大幅度提升防御或特防。
 Heals 1/16th HP every turn. Protected from being burned or frostbitten.
-Heals 1/16th HP every turn. Protected from being burned or frostbitten.
+每回合恢复1/16HP，不会陷入烧伤和冻伤。
 Takes 25% less damage while using a status move.
 在使用变化技能时受到的伤害降低25%。
 Boosts Attack by 20% in hail, or 40% if also below half health.
@@ -34409,8 +34405,8 @@ Adapts the move's type to maximize damage against the target.
 调整技能的类型，以对目标造成绝对最大伤害。
 When hitting a target that has an ability with an offensive damage-modifying effect, the Pokémon ignores the conditions and triggers the effect.
 当攻击的对手具有它自己在攻击时改变伤害的效果的特性时（如猛火），无视那个特性的发动条件并为自身触发该效果。
-When the Pokémon's level is 30 or higher, it transforms into a member of its family depending on the type of the move it is about to use.
-当精灵等级达到30级或以上时，它会根据即将使用的技能的类型变为其家族的成员。
+When the Pokémon's level is 25 or higher, it transforms into a member of its family depending on the type of the move it is about to use.
+当精灵等级达到25级或以上时，它会根据即将使用的技能的类型变为其家族的成员。
 When the Pokémon faints, it rewinds itself to 3 turns ago.
 当精灵失去意识时，它会回到3回合前的状态。
 The targets cannot avoid facing the attack by the Pokémon.
@@ -39550,7 +39546,7 @@ Whether to let your Pokémon learn new moves when leveling up.
 Aid Kit Animation
 急救包动画
 Whether to play an animation showing your party being healed by the Aid Kit.
-Whether to play an animation showing your party being healed by the Aid Kit.
+是否播放动画来显示队伍正在被急救包治疗。
 Quick Evolution
 快速进化
 Whether to shorten the cutscene that plays when a Pokémon evolves.
@@ -41548,11 +41544,11 @@ Yezera won't leave the battle early. This is a true fight!
 In Our Equality, Disparity; from Injustice Settled Scales
 昨日胜负天意定，今朝成败未可知。
 Bence and Zoé are using 5 battlers each. This is a big battle!
-Bence and Zoé are using 5 battlers each. This is a big battle!
+本斯和佐伊将各自使用5个精灵。这是一场大规模的战斗！
 A Fool's Errand
 愚人自怜不自知，焚躯为烬行君令。
 Yezera and Shadow Mavis are using 6 battlers each. This is a huge battle!
-叶泽拉和影子梅维斯各使用 6只战斗精灵。 这将是一场规模巨大的战斗!
+叶泽拉和影子梅维斯各使用6只战斗精灵。 这将是一场规模巨大的战斗!
 Singular Hypocrisy, Repeated Sixfold
 满城笑靥皆伪面，无心善待无心迎。
 Despite making you use 4, Nora is using 6 battlers!
@@ -41754,11 +41750,11 @@ It doesn't affect {1}...
 #{target.pbThis} prevents a random added effect!
 #{target.pbThis}阻止了额外效果的出现！
 {1} is pained by its dreams!
-{1}受到了 反作用力的伤害！
+{1}受到了反作用力的伤害！
 {1} transformed!
 {1}变身了！
 {1} luxuriated in its fine clothing.
-{1}沉醉于 自己优美的服装之中。
+{1}沉醉于自己优美的服装之中。
 {1}'s inner fire flared up!
 {1}的内心之火正熊熊燃烧！
 {1} finally cooled off!
@@ -43594,17 +43590,17 @@ The opposing {1} is reviving!
 #{battler.pbThis} got a bit extra out of their #{getItemName(item)}!
 #{battler.pbThis}从#{getItemName(item)}得到了一点东西！
 {1} was badly hurt by the {2}!
-{1}被{2}<<n>>严重伤害了！
+{1}被{2}严重伤害了！
 {1}'s status returned to normal!
-{1}的状态<<n>>恢复正常了！
+{1}的状态恢复正常了！
 {1} returned its status to normal using its {2}!
-{1}使用{2}<<n>>将状态恢复正常了！
+{1}使用{2}将状态恢复正常了！
 {1} pressed its {2}!
-{1}按下了<<n>>它的{2}！
+{1}按下了它的{2}！
 {1} restored HP using its {2}!
-{1}使用{2}<<n>>恢复了HP！
+{1}使用{2}恢复了HP！
 {1} holds the {2}! It deals double effectiveness!
-{1}持有{2}！<<n>>它的效果翻倍！
+{1}持有{2}！它的的属性克制效果翻倍了！
 {1} is hurt by its {2}!
 {1}被{2}伤害了！
 {1} was poisoned by the {2}! {3}!
@@ -43614,9 +43610,9 @@ The opposing {1} is reviving!
 {1} was burned by the {2}! {3}!
 {1}被{2}烧伤了！{3}！
 {1} restored its {2}'s PP.
-{1}回复了<<n>>{2}的PP！
+{1}回复了{2}的PP！
 {1}'s {2} restored its {3}'s PP!
-{1}的{2}<<n>>回复了{3}的PP！
+{1}的{2}回复了{3}的PP！
 {1}'s stat changes returned to normal!
 {1}的能力恢复正常了！
 {1} returned its stat changes to normal using its {2}!
@@ -43626,49 +43622,51 @@ The opposing {1} is reviving!
 {1} weaponized its stat changes using its {2}!
 {1}利用{2}将其武器化了！
 {1} is switched out with the {2}!
-{1}使用{2}<<n>>逃脱了！
+{1}使用{2}逃脱了！
 {1} held up its {2} against {3}!
-{1}举起了{2}<<n>>对抗{3}！
+{1}举起了{2}对抗{3}！
 {1} was dragged out!
-{1}<<n>>被迫上场了！
+{1}被迫上场了！
 {1} lost some of its HP!
-{1}损失了<<n>>一些HP！
+{1}损失了一些HP！
 {1} consumed its {2} and hurt {3}!
-{1}消耗{2}<<n>>伤害了{3}！
+{1}消耗{2}伤害了{3}！
 {1} was hurt by the {2}!
-{1}被{2}<<n>>伤害了！
+{1}被{2}伤害了！
 {1}'s {2} popped!
-{1}的{2}<<n>>爆炸了！
+{1}的{2}爆炸了！
 {1}'s {2} was transferred to {3}!
-{1}的{2}<<n>>转移到了{3}！
+{1}的{2}转移到了{3}！
 {1}'s {2} let it move first!
-{1}的{2}<<n>>让它优先使出技能！
+{1}的{2}让它优先使出技能！
 {1}'s {2} unchilled it!
-{1}的{2}<<n>>治愈了冰冻！
+{1}的{2}治愈了冰冻！
 {1}'s {2} cured its numb!
-{1}的{2}<<n>>治愈了麻痹！
+{1}的{2}治愈了麻痹！
 {1}'s {2} woke it up!
-{1}的{2}<<n>>使自己醒来了！
+{1}的{2}使自己醒来了！
 {1}'s {2} cured its poisoning!
-{1}的{2}<<n>>使自己解毒了！
+{1}的{2}使自己解毒了！
 {1}'s {2} healed its burn!
-{1}的{2}<<n>>治愈了烧伤！
+{1}的{2}治愈了烧伤！
 The {1} sacrificed itself to cure {2}!
-{1}牺牲了自己<<n>>来治疗{2}！
+{1}牺牲了自己来治疗{2}！
 {1}'s {2} made it no longer dizzy!
-{1}的{2}<<n>>使自己不再混乱！
+{1}的{2}使自己不再混乱！
 {1}'s {2} made it no longer leeched!
-{1}的{2}<<n>>使自己不再被寄生！
+{1}的{2}使自己不再被寄生！
 {1}'s {2} reversed its waterlogging!
 {1}的{2}反转了它的湿透状态！
 {1} floats in the air with its {2}!
-{1}靠着{2}<<n>>浮在了空中！
+{1}靠着{2}浮在了空中！
 Oh? {1} is holding something!
 {1}正拿着什么东西！
 It seems to be a strange key!
 这似乎是一把奇怪的钥匙！
 It seems to be a lump of metal!
 似乎是一个金属块！
+{1}'s {2} slows it down!
+{1}的{2}降低了！
 {1} holds a {2} close!
 {1}紧紧抓住了{2}！
 {1} gets a new ability {2}!
@@ -43878,35 +43876,37 @@ It's not very effective on {1}...
 It's not very effective...
 效果极差...
 The substitute took damage for {1}!
-替身承受伤害<<n>>保护了{1}！
-It was a guaranteed critical hit#{onAddendum}!
-它发动了一次命中要害#{onAddendum}！
-A critical hit#{onAddendum}!
-击中要害了#{onAddendum}！
+替身承受伤害保护了{1}！
+on {1}
+对{1}的
+It was a guaranteed critical hit{1}!
+这是一次{1}必定命中要害的攻击！
+A critical hit{1}!
+命中{1}要害！
 {1}'s substitute faded!
-{1}的替身<<n>>消失了！
+{1}的替身消失了！
 Its disguise served it as a decoy!
 画皮挡住了攻击！
 {1}'s disguise was busted!
-{1}的画皮<<n>>被破坏了！
+{1}的画皮被破坏了！
 {1} endured the hit!
-{1}<<n>>挺住了！
+{1}挺住了！
 {1} survived the hit!
 {1}没有被击中！
 {1} hung on using its {2}!
-{1}靠着它的{2}<<n>>撑住了！
+{1}靠着它的{2}撑住了！
 {1} hung on using its Focus Band!
-{1}靠着气势头带<<n>>撑住了！
+{1}靠着气势头带撑住了！
 {1} blocked the hit with its item! It barely hung on!
-{1}利用物品阻挡了攻击！<<n>>它快要支撑不住了！
+{1}利用物品阻挡了攻击！它快要支撑不住了！
 {1} hung on by consuming its {2}!
-{1}靠着它的{2}<<n>>撑住了！
+{1}靠着它的{2}撑住了！
 {1} lets out an arrogant laugh!
 {1}发出了傲慢的笑声！
 {1} blocked the hit with its item!
 {1}用它的物品挡住了攻击！
 Near the avatar, immunities are resistances!
-在化身附近，<<n>>免疫属性将视作抵抗属性！
+在化身附近，免疫属性将视作抵抗属性！
 The Empowered attack pierced the immunity!
 增强后的攻击无视免疫！
 #{target.pbThis} prevents the hit from being critical!
@@ -48977,6 +48977,8 @@ Upon entry, creates an Emotion Room for 5 turns, adding an ability every turn.
 入场时创建一个持续5回合的情感房间，每回合增加一个特性。
 Copies opponents' species' legal Abilities.
 复制对手精灵物种的合法特性。
+The user's Speed is doubled while using kicking moves. Every third kicking hit must be a crit.
+使用踢击类技能时速度翻倍，并且每第3次使用的踢击类技能的攻击必定会命中对手的要害。
 An item to be held by a Pokémon. The user gets three abilities, but its stats are cut by 10%.
 一种可以携带的物品。携带者获得三个特性，但其能力会降低10%。
 ,
@@ -52851,7 +52853,7 @@ Round Singers
 Reflect
 反射
 Light Screen
-光之屏
+光墙
 Aurora Veil
 极光幕
 Repulsion Field

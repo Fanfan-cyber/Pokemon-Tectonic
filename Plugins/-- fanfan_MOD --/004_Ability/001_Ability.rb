@@ -69,8 +69,10 @@ class Ability_SWIFTSTOMPS < AbilitySystem
     @hit_cycle = 3
 
     @ability_handler[:GuaranteedCriticalUserAbility] = 
-      proc { |_ability, user, _target, _battle|
-        next true if user.battle_tracker_get(:hits_in_progress_kicking) % @hit_cycle == 0
+      proc { |_ability, move, user, _target, _battle, aiCheck|
+        hits = user.battle_tracker_get(:hits_in_progress_kicking)
+        hits += 1 if aiCheck
+        next true if move.kickingMove? && hits % @hit_cycle == 0
       }
   end
 end

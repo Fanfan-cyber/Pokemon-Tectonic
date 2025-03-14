@@ -506,11 +506,11 @@ target.pbThis(true)))
             @battle.pbDisplay(_INTL("The substitute took damage for {1}!", target.pbThis(true)))
         end
         if target.damageState.critical
-            onAddendum = numTargets > 1 ? " on #{target.pbThis(true)}" : ""
+            onAddendum = numTargets > 1 ? _INTL(" on {1}", target.pbThis(true)) : ""
             if target.damageState.forced_critical
-                @battle.pbDisplay(_INTL("It was a guaranteed critical hit#{onAddendum}!"))
+                @battle.pbDisplay(_INTL("It was a guaranteed critical hit{1}!", onAddendum))
             else
-                @battle.pbDisplay(_INTL("A critical hit#{onAddendum}!"))
+                @battle.pbDisplay(_INTL("A critical hit{1}!", onAddendum))
             end
         end
         # Effectiveness message, for moves with 1 hit
