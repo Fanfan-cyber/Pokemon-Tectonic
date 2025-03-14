@@ -132,8 +132,6 @@ class PokeBattle_Move
     end
     
     def pbCalcAbilityDamageMultipliers(user,target,type,baseDmg,multipliers,aiCheck=false)
-        #multipliers[:final_damage_multiplier] *= 0.95 if user.pbOwnedByPlayer? # TectoQuake reduce final damage
-
         # Global abilities
         if (@battle.pbCheckGlobalAbility(:DARKAURA) && type == :DARK) ||
             (@battle.pbCheckGlobalAbility(:FAIRYAURA) && type == :FAIRY)
