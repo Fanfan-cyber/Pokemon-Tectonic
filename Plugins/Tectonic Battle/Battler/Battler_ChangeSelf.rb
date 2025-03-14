@@ -377,7 +377,14 @@ class PokeBattle_Battler
 
     def can_faint_healing?
         return false if TA.get(:disablerevive)
-        return false if battle_tracker_get(:faint_healing_triggered)
+        if battle_tracker_get(:faint_healing_triggered)
+            if pbOwnedByPlayer? && (isSpecies?(:GARDEVOIR) && !$Trainer.has_species?(:GALLADE) ||
+                                    isSpecies?(:GALLADE) && !$Trainer.has_species?(:GARDEVOIR) ||
+                                   !isSpecies?(%i[GARDEVOIR GALLADE]) && !$Trainer.has_species?(%i[GARDEVOIR GALLADE]))
+                @decision = 2
+            end
+            return false
+        end
         return false unless @battle.trainerBattle?
         return false if owner_side_all_fainted?
         return false if pbOwnSide.effectActive?(:PerennialPayload)
