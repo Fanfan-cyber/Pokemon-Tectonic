@@ -22,6 +22,8 @@ module Settings
 
   KILL_PUNNISHMENT = 10
 
+  EXP_RATE_BOOST   = 2
+  MONEY_RATE_BOOST = 2
   CATCH_RATE_BOOST = 3
 
   ITEM_CLAUSE          = false
