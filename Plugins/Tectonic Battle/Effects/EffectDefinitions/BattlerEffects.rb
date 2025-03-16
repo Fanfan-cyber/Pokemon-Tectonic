@@ -149,6 +149,7 @@ GameData::BattleEffect.register_effect(:Battler, {
     :avatars_purge => true,
     :apply_proc => proc do |battle, battler, _value|
         battle.pbDisplay(_INTL("{1} is cursed!", battler.pbThis))
+        battle.pbDisplay(_INTL("It'll lose a quarter of its health each turn!"))
     end,
     :eor_proc => proc do |battle, battler, _value|
         if battler.takesIndirectDamage?
@@ -1262,8 +1263,35 @@ GameData::BattleEffect.register_effect(:Battler, {
     :id => :TrappingUser,
     :real_name => "Trapped By",
     :type => :Position,
-    :disable_effects_on_other_exit => [:Trapping],
+    :disable_effects_on_other_exit => [:Trapping, :Constricted],
     :deep_teeth => true,
+})
+
+GameData::BattleEffect.register_effect(:Battler, {
+    :id => :Constricted,
+    :real_name => "Constricted Turns",
+    :type => :Integer,
+    :ticks_down => true,
+    :trapping => true,
+    :swaps_with_battlers => true,
+    :apply_proc => proc do |battle, battler, value|
+        battle.pbDisplay(_INTL("{1} is being constricted!",battler.pbThis))
+    end,
+    :disable_proc => proc do |battle, battler|
+        battle.pbDisplay(_INTL("{1} was freed from constriction!", battler.pbThis))
+    end,
+    :expire_proc => proc do |battle, battler|
+        battle.pbDisplay(_INTL("{1} is no longer constricted by {2}.", battler.pbThis))
+    end,
+    :remain_proc => proc do |battle, battler, _value|
+        battle.pbCommonAnimation("Wrap", battler)
+        if battler.takesIndirectDamage?
+            fraction = trappingDamageFraction(battler)
+            battle.pbDisplay(_INTL("{1} is hurt by constriction!", battler.pbThis))
+            battler.applyFractionalDamage(fraction)
+        end
+    end,
+    :sub_effects => %i[TrappingUser],
 })
 
 GameData::BattleEffect.register_effect(:Battler, {
@@ -2084,30 +2112,52 @@ GameData::BattleEffect.register_effect(:Battler, {
     end,
 })
 
+DEFAULT_JINX_DURATION = 4
+
 GameData::BattleEffect.register_effect(:Battler, {
     :id => :Jinxed,
     :real_name => "Jinxed",
+    :type => :Integer,
+    :ticks_down => true,
     :baton_passed => true,
     :avatars_purge => true,
-    :apply_proc => proc do |battle, battler, _value|
+    :apply_proc => proc do |battle, battler, value|
         battle.pbDisplay(_INTL("{1} is jinxed!", battler.pbThis))
+        battle.pbDisplay(_INTL("Attacks against it crit and bypass protection for the next {1} turns!", value - 1))
+    end,
+    :disable_proc => proc do |battle, battler|
+        battle.pbDisplay(_INTL("{1} is no longer being jinxed!", battler.pbThis))
+    end,
+    :expire_proc => proc do |battle, battler|
+        battle.pbDisplay(_INTL("{1} recovered from the jinx!", battler.pbThis))
     end,
     :stay_in_rating_proc => proc do |battle, battler, value, stay_in_rating|
-        stay_in_rating -= 20 unless battler.hasActiveAbilityAI?(GameData::Ability.getByFlag("CritImmunity"))
+        stay_in_rating -= 5 * value unless battler.hasActiveAbilityAI?(GameData::Ability.getByFlag("CritImmunity"))
         next stay_in_rating
     end
 })
 
+DEFAULT_FRACTURE_DURATION = 4
+
 GameData::BattleEffect.register_effect(:Battler, {
     :id => :Fracture,
     :real_name => "Fractured",
+    :type => :Integer,
+    :ticks_down => true,
     :baton_passed => true,
     :avatars_purge => true,
-    :apply_proc => proc do |battle, battler, _value|
+    :apply_proc => proc do |battle, battler, value|
         battle.pbDisplay(_INTL("{1} is fractured!", battler.pbThis))
+        battle.pbDisplay(_INTL("It'll deal a third less move damage for the next {1} turns!", value - 1))
+    end,
+    :disable_proc => proc do |battle, battler|
+        battle.pbDisplay(_INTL("{1} is no longer fractured!", battler.pbThis))
+    end,
+    :expire_proc => proc do |battle, battler|
+        battle.pbDisplay(_INTL("{1} healed from the fracture!", battler.pbThis))
     end,
     :stay_in_rating_proc => proc do |battle, battler, value, stay_in_rating|
-        stay_in_rating -= 20
+        stay_in_rating -= 5 * value if battler.hasDamagingAttack?
         next stay_in_rating
     end
 })

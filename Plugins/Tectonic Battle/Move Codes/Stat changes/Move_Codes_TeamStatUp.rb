@@ -41,17 +41,17 @@ class PokeBattle_Move_RaiseUserAndAlliesAtk2StartMoonglow8 < PokeBattle_Move_Rai
 end
 
 #===============================================================================
-# Raises Defense of user and allies by 3 steps. (Stand Together)
+# Raises Defense of user and allies by 2 steps. (Stand Together)
 #===============================================================================
-class PokeBattle_Move_RaiseUserAndAlliesDef3 < PokeBattle_TeamStatBuffMove
+class PokeBattle_Move_RaiseUserAndAlliesDef2 < PokeBattle_TeamStatBuffMove
     def initialize(battle, move)
         super
-        @statUp = [:DEFENSE, 3]
+        @statUp = [:DEFENSE, 2]
     end
 end
 
 # Empowered Stand Together
-class PokeBattle_Move_EmpoweredStandTogether < PokeBattle_Move_RaiseUserAndAlliesDef3
+class PokeBattle_Move_EmpoweredStandTogether < PokeBattle_Move_RaiseUserAndAlliesDef2
     include EmpoweredMove
 
     def pbEffectGeneral(user)
@@ -83,17 +83,17 @@ class PokeBattle_Move_EmpoweredMindLink < PokeBattle_Move_RaiseUserAndAlliesSpAt
 end
 
 #===============================================================================
-# Raises Sp. Def of user and allies by 3 steps. (Symbiosis)
+# Raises Sp. Def of user and allies by 2 steps. (Symbiosis)
 #===============================================================================
-class PokeBattle_Move_RaiseUserAndAlliesSpDef3 < PokeBattle_TeamStatBuffMove
+class PokeBattle_Move_RaiseUserAndAlliesSpDef2 < PokeBattle_TeamStatBuffMove
     def initialize(battle, move)
         super
-        @statUp = [:SPECIAL_DEFENSE, 3]
+        @statUp = [:SPECIAL_DEFENSE, 2]
     end
 end
 
 # Empowered Symbiosis
-class PokeBattle_Move_EmpoweredSymbiosis < PokeBattle_Move_RaiseUserAndAlliesSpDef3
+class PokeBattle_Move_EmpoweredSymbiosis < PokeBattle_Move_RaiseUserAndAlliesSpDef2
     include EmpoweredMove
 
     def pbEffectGeneral(user)

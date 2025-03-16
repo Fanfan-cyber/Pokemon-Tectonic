@@ -1,12 +1,20 @@
 PERFECTED_REGULAR_TRAINERS_DROP_ITEMS = true
 
-def perfectTrainer(maxTrainerLevel=15,giveDrop=PERFECTED_REGULAR_TRAINERS_DROP_ITEMS)
+def perfectTrainer(maxTrainerLevel=15,giveDrop=PERFECTED_REGULAR_TRAINERS_DROP_ITEMS,extraDrop: nil)
 	blackFadeOutIn() {
 		setMySwitch('D',true)
 		setFollowerGone
 	}
-	pbTrainerDropsItem(maxTrainerLevel) if giveDrop
-    incrementGlobalVar(TRAINERS_PERFECTED_GLOBAL_VAR)
+	if giveDrop
+		pbTrainerDropsItem(maxTrainerLevel)
+
+		if extraDrop
+			pbMessage(_INTL("Oh? They dropped something else as well!"))
+			pbReceiveItem(extraDrop)
+		end
+	end
+
+	incrementGlobalVar(TRAINERS_PERFECTED_GLOBAL_VAR)
 end
 
 def perfectAncientTrainer(giveDrop=PERFECTED_REGULAR_TRAINERS_DROP_ITEMS)
@@ -16,7 +24,7 @@ def perfectAncientTrainer(giveDrop=PERFECTED_REGULAR_TRAINERS_DROP_ITEMS)
 	}
 	pbMessage(_INTL("The fleeing trainer dropped some food!"))
 	pbReceiveItem(:VANILLATULUMBA) if giveDrop
-    incrementGlobalVar(TRAINERS_PERFECTED_GLOBAL_VAR)
+	incrementGlobalVar(TRAINERS_PERFECTED_GLOBAL_VAR)
 end
 
 def perfectDittoTrainer(maxTrainerLevel=15,giveDrop=PERFECTED_REGULAR_TRAINERS_DROP_ITEMS)
@@ -26,7 +34,7 @@ def perfectDittoTrainer(maxTrainerLevel=15,giveDrop=PERFECTED_REGULAR_TRAINERS_D
 		setFollowerGone
 	}
 	pbTrainerDropsItem(maxTrainerLevel) if giveDrop
-    incrementGlobalVar(TRAINERS_PERFECTED_GLOBAL_VAR)
+	incrementGlobalVar(TRAINERS_PERFECTED_GLOBAL_VAR)
 end
 
 def perfectAceTrainer(maxTrainerLevel=15,giveDrop=true)

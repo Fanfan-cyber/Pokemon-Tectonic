@@ -743,13 +743,13 @@ class PokeBattle_Move_FractureTarget < PokeBattle_Move
 
     def pbEffectAgainstTarget(user, target)
         return if damagingMove?
-        target.applyEffect(:Fracture)
+        target.applyEffect(:Fracture, DEFAULT_FRACTURE_DURATION)
     end
 
     def pbAdditionalEffect(user, target)
         return if target.damageState.substitute
         return if target.effectActive?(:Fracture)
-        target.applyEffect(:Fracture)
+        target.applyEffect(:Fracture, DEFAULT_FRACTURE_DURATION)
     end
 
     def getEffectScore(user, target)
@@ -758,7 +758,7 @@ class PokeBattle_Move_FractureTarget < PokeBattle_Move
 end
 
 #===============================================================================
-# User jinxes the target.
+# User jinxes the target for 4 turns.
 #===============================================================================
 class PokeBattle_Move_JinxTarget < PokeBattle_Move
     def pbFailsAgainstTarget?(user, target, show_message)
@@ -772,13 +772,13 @@ class PokeBattle_Move_JinxTarget < PokeBattle_Move
 
     def pbEffectAgainstTarget(user, target)
         return if damagingMove?
-        target.applyEffect(:Jinxed)
+        target.applyEffect(:Jinxed, DEFAULT_JINX_DURATION)
     end
 
     def pbAdditionalEffect(user, target)
         return if target.damageState.substitute
         return if target.effectActive?(:Jinxed)
-        target.applyEffect(:Jinxed)
+        target.applyEffect(:Jinxed, DEFAULT_JINX_DURATION)
     end
 
     def getEffectScore(user, target)

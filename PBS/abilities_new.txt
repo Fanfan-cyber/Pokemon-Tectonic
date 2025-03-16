@@ -308,7 +308,7 @@ Description = Immune to Ice-type moves, and raises both attacking stats if hit b
 #-------------------------------
 [CONSTRICTOR]
 Name = Constrictor
-Description = When hit with a physical move, hits back instantly with Bind.
+Description = When hit with a physical move, traps and damages the attacker for three turns.
 #-------------------------------
 [COREPROVENANCE]
 Name = Core Provenance

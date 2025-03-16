@@ -313,13 +313,13 @@ class PokeBattle_Move_RaiseUserDefSpDef2GainsShellArmor < PokeBattle_MultiStatUp
 end
 
 #===============================================================================
-# Increases the user's defensive stats by 2 steps each.
+# Increases the user's defensive stats by 1 step each.
 # Charges up user's next attack if it is Electric-type. (Charge)
 #===============================================================================
-class PokeBattle_Move_RaiseUserDefSpDef2EmpowersNextElectricAttack < PokeBattle_MultiStatUpMove
+class PokeBattle_Move_RaiseUserDefSpDef1EmpowersNextElectricAttack < PokeBattle_MultiStatUpMove
     def initialize(battle, move)
         super
-        @statUp = DEFENDING_STATS_2
+        @statUp = DEFENDING_STATS_1
     end
 
     def pbEffectGeneral(user)

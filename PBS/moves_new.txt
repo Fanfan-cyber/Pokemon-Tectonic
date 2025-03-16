@@ -906,9 +906,9 @@ Category = Status
 Accuracy = 0
 TotalPP = 5
 Target = User
-FunctionCode = RaiseUserAndAlliesDef3
+FunctionCode = RaiseUserAndAlliesDef2
 Flags = CanSnatch
-Description = The user holds fast with its teammates, raising the Defense of itself and its allies by three steps.
+Description = The user holds fast with its teammates, raising the Defense of itself and its allies by two steps.
 #-------------------------------
 [THREEFOLDVOLLEY]
 Name = Threefold Volley
@@ -4674,9 +4674,9 @@ Category = Status
 Accuracy = 0
 TotalPP = 5
 Target = User
-FunctionCode = RaiseUserAndAlliesSpDef3
+FunctionCode = RaiseUserAndAlliesSpDef2
 Flags = CanSnatch
-Description = The user calms itself and its teammates, raising the Sp. Def of itself and its allies by three steps.
+Description = The user calms itself and its teammates, raising the Sp. Def of itself and its allies by two steps.
 #-------------------------------
 [TERADRAIN]
 Name = Tera Drain

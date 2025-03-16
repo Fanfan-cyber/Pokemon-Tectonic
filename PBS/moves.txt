@@ -768,7 +768,7 @@ Type = NORMAL
 Category = Status
 Accuracy = 100
 TotalPP = 30
-Target = AllNearFoes
+Target = NearOther
 FunctionCode = LowerTargetDef4
 Flags = CanProtect,CanMagicCoat,Sound
 Description = The user's earsplitting screech reduces the target's Defense stat by four steps.
@@ -4833,9 +4833,9 @@ Category = Status
 Accuracy = 0
 TotalPP = 3
 Target = User
-FunctionCode = RaiseUserDefSpDef2EmpowersNextElectricAttack
+FunctionCode = RaiseUserDefSpDef1EmpowersNextElectricAttack
 Flags = CanSnatch
-Description = The user becomes energy charged, doubling its next Electric-type attack. Also raises the user's defensive stats by two steps each.
+Description = The user becomes energy charged, doubling its next Electric-type attack. Also raises the user's Defense and Sp. Def.
 #-------------------------------
 [CHARGEBEAM]
 Name = Charge Beam

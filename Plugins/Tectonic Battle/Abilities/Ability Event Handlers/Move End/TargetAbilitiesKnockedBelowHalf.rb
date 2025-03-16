@@ -55,7 +55,7 @@ BattleHandlers::TargetAbilityKnockedBelowHalf.add(:HARDAS,
     proc { |ability, target, user, move, _switched, battle|
         next if user.effectActive?(:Fracture)
         battle.pbShowAbilitySplash(target, ability)
-        user.applyEffect(:Fracture)
+        user.applyEffect(:Fracture, DEFAULT_FRACTURE_DURATION)
         battle.pbHideAbilitySplash(target)
     }
 )
@@ -64,7 +64,7 @@ BattleHandlers::TargetAbilityKnockedBelowHalf.add(:KARMA,
     proc { |ability, target, user, move, _switched, battle|
         next if user.effectActive?(:Jinxed)
         battle.pbShowAbilitySplash(target, ability)
-        user.applyEffect(:Jinxed)
+        user.applyEffect(:Jinxed, DEFAULT_JINX_DURATION)
         battle.pbHideAbilitySplash(target)
     }
 )

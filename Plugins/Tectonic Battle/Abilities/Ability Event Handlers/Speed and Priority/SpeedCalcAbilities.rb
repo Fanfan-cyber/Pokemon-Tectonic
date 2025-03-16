@@ -170,12 +170,18 @@ BattleHandlers::SpeedCalcAbility.add(:LIVEFAST,
 
 BattleHandlers::SpeedCalcAbility.add(:WATERFALLCONDITIONING,
   proc { |ability, battler, mult|
-      next mult * 1.5
+      next mult * 1.5 if battler.battle.rainy?
   }
 )
 
 BattleHandlers::SpeedCalcAbility.add(:SILVERLINING,
   proc { |ability, battler, mult|
-      next mult * 1.5
+      next mult * 1.5 if battler.battle.rainy?
+  }
+)
+
+BattleHandlers::SpeedCalcAbility.add(:DYNAMICENTRANCE,
+  proc { |ability, battler, mult|
+      next mult * 2.0 if battler.firstTurn?
   }
 )

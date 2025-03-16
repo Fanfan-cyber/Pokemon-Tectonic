@@ -84,7 +84,11 @@ class CollectionRewardsListScene
 
             itemID = rewardInfo[:reward][0]
             itemCount = rewardInfo[:reward][1]
-            itemDescription = _INTL("Earn {1} {2}",itemCount.to_s,GameData::Item.get(itemID).name_plural)
+            if itemCount.nil? || itemCount <= 1
+                itemDescription = _INTL("Earn a {1}",GameData::Item.get(itemID).name)
+            else
+                itemDescription = _INTL("Earn {1} {2}",itemCount.to_s,GameData::Item.get(itemID).name_plural)
+            end
 
             @displayText << itemDescription
 

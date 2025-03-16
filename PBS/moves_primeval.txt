@@ -138,7 +138,7 @@ TotalPP = 1
 Target = User
 FunctionCode = EmpoweredStandTogether
 Flags = Empowered
-Description = The user summons an allied Tyrogue, raises the Defense of itself and its allies by 3 steps, and becomes Fighting-type.
+Description = The user summons an allied Tyrogue, raises the Defense of itself and its allies by 2 steps, and becomes Fighting-type.
 #-------------------------------
 #		FLYING MOVES
 #-------------------------------
@@ -747,7 +747,7 @@ TotalPP = 1
 Target = User
 FunctionCode = EmpoweredSymbiosis
 Flags = Empowered
-Description = The user summons an allied Gossifleur, raises the Sp. Def itself and its allies by 3 steps, and becomes Grass-type.
+Description = The user summons an allied Gossifleur, raises the Sp. Def itself and its allies by 2 steps, and becomes Grass-type.
 #-------------------------------
 #		ELECTRIC MOVES
 #-------------------------------

@@ -218,14 +218,12 @@ class PokEstate
 				awardDescription = newAwardInfo[:description]
 
 				# Tally the items to give out
-				itemCount = 1
-				if awardReward.is_a?(Array)
-					itemGrant = awardReward[0]
-					itemCount = awardReward[1]
-				else
-					itemGrant = awardReward
+				itemGrant = awardReward[0]
+				itemCount = awardReward[1]
+				if itemCount.nil? || itemCount <= 1
+					itemCount = 1
 				end
-
+			  
 				if !itemsToGrantHash.has_key?(itemGrant)
 					itemsToGrantHash[itemGrant] = itemCount
 				else
