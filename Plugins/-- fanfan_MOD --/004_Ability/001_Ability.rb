@@ -7,16 +7,20 @@ class PokeBattle_Battler
 end
 
 class AbilitySystem
-  attr_reader :score
-  attr_reader :flags
-  attr_reader :ability_handler
+  attr_reader :score, :flags, :off_mult, :def_mult, :ability_handler
 
   @@ability_cache = {}
 
   def initialize
     @score           = 0
     @flags           = []
+    @off_mult        = {}
+    @def_mult        = {}
     @ability_handler = {}
+  end
+
+  def self.clear_cache # didn't apply this
+    @@ability_cache.clear
   end
 
   def self.get_ability(ability_id)
@@ -33,12 +37,16 @@ class AbilitySystem
     get_ability(ability_id)&.flags || []
   end
 
-  def self.apply_effect(handler, *args) # args[0] must be an ability id
-    get_ability(args[0])&.ability_handler&.[](handler)&.call(*args)
+  def self.apply_effect(handler, ability_id, *args)
+    get_ability(ability_id)&.ability_handler&.[](handler)&.call(handler, ability_id, *args)
   end
 
-  def self.clear_cache # didn't apply this
-    @@ability_cache.clear
+  def self.apply_effect_backfire(handler, ability_id, mults)
+    off_mult = get_ability(ability_id)&.off_mult
+    return unless off_mult
+    mult = off_mult[handler]
+    return if !mult || mult.empty?
+    mults[mult[0]] *= mult[1]
   end
 end
 
@@ -49,16 +57,11 @@ end
 class Ability_EXAMPLE < AbilitySystem
   def initialize
     super
-    @multiplier       = :base_damage_multiplier
-    @multiplier_value = 1.3
-    @activate_DamageCalcUserAbility = false
+    @off_mult = { :DamageCalcUserAbility => [:base_damage_multiplier, 1.3] }
 
     @ability_handler[:DamageCalcUserAbility] = 
-      proc { |ability, user, _target, move, mults, _baseDmg, _type, aiCheck, backfire|
-        if @activate_DamageCalcUserAbility || backfire
-          mults[@multiplier] *= @multiplier_value
-          user.aiLearnsAbility(ability) unless aiCheck
-        end
+      proc { |_handler, _ability, _user, _target, _move, _mults, _baseDmg, _type, _aiCheck, _backfire|
+
       }
   end
 end
@@ -69,7 +72,7 @@ class Ability_SWIFTSTOMPS < AbilitySystem
     @hit_cycle = 3
 
     @ability_handler[:GuaranteedCriticalUserAbility] = 
-      proc { |_ability, move, user, _target, _battle, aiCheck|
+      proc { |_handler, _ability, move, user, _target, _battle, aiCheck|
         hits = user.battle_tracker_get(:hits_in_progress_kicking)
         hits += 1 if aiCheck
         next true if move.kickingMove? && hits % @hit_cycle == 0

@@ -150,7 +150,7 @@ class PokeBattle_Move
             if ability == :BACKFIRE
                 target.eachAbilityShouldApply(aiCheck) do |backfire_ability|
                     BattleHandlers.triggerDamageCalcUserAbility(backfire_ability, user, target, self, multipliers, baseDmg, type, aiCheck, true)
-                    AbilitySystem.apply_effect(:DamageCalcUserAbility, backfire_ability, user, target, self, multipliers, baseDmg, type, aiCheck, true)
+                    AbilitySystem.apply_effect_backfire(:DamageCalcUserAbility, backfire_ability, multipliers)
                 end
             else
                 BattleHandlers.triggerDamageCalcUserAbility(ability,user,target,self,multipliers,baseDmg,type,aiCheck)
