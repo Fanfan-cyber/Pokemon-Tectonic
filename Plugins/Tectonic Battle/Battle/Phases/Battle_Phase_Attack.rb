@@ -54,6 +54,7 @@ class PokeBattle_Battle
             @lastMoveUser = b.index
             # Switching message
             pbMessageOnRecall(b)
+            next unless pbCanSwitchMidSwitchPhase?(b)
             # Pursuit interrupts switching
             pbPursuit(b.index)
             return if @decision > 0
@@ -63,6 +64,14 @@ class PokeBattle_Battle
             pbRecallAndReplace(b.index, idxNewPkmn)
             b.pbEffectsOnSwitchIn(true)
         end
+    end
+
+    def pbCanSwitchMidSwitchPhase?(battler)
+        unless pbCanSwitch?(battler.index)
+          pbDisplay(_INTL("But {1} can't be switched out!", battler.pbThis))
+          return false
+        end
+        return true
     end
 
     def pbAttackPhaseItems
