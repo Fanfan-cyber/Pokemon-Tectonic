@@ -32097,7 +32097,7 @@ Choreography
 Chronic Cold
 慢性感冒
 City Razer
-剃刀
+毁灭者
 Clean Freak
 洁癖
 Clingy
@@ -32627,7 +32627,7 @@ Planar Veil
 Plasma Globe
 等离子聚积
 Plot Armor
-剧情装甲
+阴谋装甲
 Pluripotence
 全能性
 Poison Absorb
@@ -33670,7 +33670,7 @@ Powers up priority moves by 30%.
 Upon entry, summons Natural Protection for 4 turns.
 进入战斗后，召唤一个持续四回合的自然防护。
 Flying-type attacks have a 40% chance to burn.
-飞行属性技能40%概率使对方烧伤。
+飞行系的攻击有40%几率使对方烧伤。
 On the first turn, its attacks frostbite the target.
 第一回合的攻击会使对方冻伤。
 Attacks this Pokémon uses that don't share a type with it are boosted by 30%.
@@ -33730,7 +33730,7 @@ Completely protects allies from foes' multi-target moves.
 Pokémon that swap in for this have their Speed raised and their PP fully restored.
 进入战斗时，创造一个持续十回合的保护罩，保护自身不受负面状态影响。
 Turns the held item of a Pokémon it hits into gold coins for you to take.
-将击中的精灵身上携带的物品，转化为金币，并可以使用。
+将击中的精灵身上携带的物品转化为金钱。
 Immune to Fire-type moves and raises both defensive stats if hit by one.
 受到火属性技能攻击时，免疫伤害并提高双防。
 Random added effects of bite attacks are +50% more likely likely to occur.
@@ -34150,11 +34150,11 @@ Its physical attacks reduce the target's Defense.
 Takes 50% less damage from hyper-effective attacks.
 受到效果不一般的技能攻击时，降低受到的伤害。
 Punching moves change secondary type and their power is boosted by 30%.
-使用拳击类技能时，会改变该其第二属性，并且威力提高30%。
+使用拳击类技能时，将自身的额外属性变成该技能的属性，并且威力提高30%。
 Powers up Fighting-type moves by 50%.
 格斗属性技能威力提升50%。
 Flying-type attacks have a 40% chance to numb.
-使用飞行属性技能攻击时，40%使对方麻痹。
+飞行系的攻击有40%几率使对方麻痹。
 Special moves against it lower the attacker's Speed and Sp. Atk.
 被特殊技能攻击时，降低对方的速度和特攻。
 The Pokémon and other battlers don't benefit from same-type attacking bonus.
