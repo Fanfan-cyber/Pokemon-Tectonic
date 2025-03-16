@@ -2046,12 +2046,6 @@ Your Pokemon are now healed.
 你的精灵已经痊愈。
 [Map24]
 [Map25]
-What're you doing?!
-你在干什么？
-You're \PN, right? The trainer the Professor called in?
-你是\PN，对吧？博士叫来的训练家？
-So go destroy that Avatar before we're all killed!
-那就在大家被杀死前，干掉那个化身吧！
 Presenting, my very own Normal-type attack!
 介绍一下，这是我的独创的一般系技能！
 Is it Physical, you ask? Special, perhaps? It's both, of course!
@@ -2066,6 +2060,12 @@ Truly you've struck the motherload of moves!
 你可是学到了一项前所未有的神技！
 Fine... I just wanted something to do now that the mine's closed...
 好吧…现在矿场关了，我只是想找点事情做罢了。
+What're you doing?!
+你在干什么？
+You're \PN, right? The trainer the Professor called in?
+你是\PN，对吧？博士叫来的训练家？
+So go destroy that Avatar before we're all killed!
+那就在大家被杀死前，干掉那个化身吧！
 I used to use a lot of Life Orbs. Didn't care if my Pokemon got hurt so long as they did the work.
 我以前只在乎能否完成任务，不在意精灵们是否会受伤，所以经常使用生命宝珠。
 But I'm not that kind of person any more. I'm looking to rid myself of them.
@@ -2108,6 +2108,10 @@ I laid out each of these starter tokens to maybe attract someone suitable... for
 我在这里留下了三枚代币，来作为对战的奖励。
 Perhaps you'll be able to satisfy both criteria...
 就看你能不能达成我的条件了...
+The top of the sign is labeled "Grouz Mine Bulletin."
+最上面一层是“古治矿场公告。”
+Remnants of old, yellowed papers are still stapled to the rest.
+边边角角处还能看到一些老旧发黄的残留碎纸片。
 What a disgrace.
 真丢人。
 We're supposed to be keeping this area safe.
@@ -2144,10 +2148,6 @@ You’re strong. You’ve proven that. This’ll be a piece of cake. Trust me. S
 …她挂断了。
 Thanks for the help.
 谢谢。
-The top of the sign is labeled "Grouz Mine Bulletin."
-最上面一层是“古治矿场公告。”
-Remnants of old, yellowed papers are still stapled to the rest.
-边边角角处还能看到一些老旧发黄的残留碎纸片。
 Dr. Hekata's House
 经方博士 家
 The door is boarded up.
@@ -2274,6 +2274,26 @@ I heard the stories, but it's still hard to believe that Avatars just... fade fr
 虽然之前听别人说过，但我还是很难相信，化身在被击败后就会消失。
 When I saw that you were winning, I was mentally prepared to grab a pickaxe and begin the cleanup efforts.
 看到你取得胜利之后，我就做好重新回到岗位上的准备了。
+Ohoh, does another fly enter my trap?
+哦，又有猎物飞进我的陷阱了？
+Watch yourself, you may find yourself mesmerized.
+小心，不要入迷了哦。
+Tsk! It seems like you were too hot to handle.
+啧啧，已经热得有点受不了了。
+Ah well, I suppose I could always ask Lainie to console me.
+啊，我需要兰妮的安慰。
+A spark. A flash. A line of roses.
+旋转，跳跃，我闭着眼。
+We should take our tango once more from the top.
+或许我们应该再舞一曲。
+But later, my dear.
+但不是现在，亲爱的。
+I've found myself as a bit of a historian.
+我算是一个历史研究者吧。
+I'm learning about important dates in history. The founding of Prizca, the fall of the monarchy.
+我正在学习和研究这里的史诗，比如宏礼市的建立、王朝的陨落。
+All of them are fascinating, but I believe my favorite is the one we'll have, no?
+历史有着独特的魅力，但我还是更喜欢即将拥有的未来，你呢？
 I wanted to be a Water-type trainer before, but now I don't.
 我之前想成为一名水属性训练家，但现在我改主意了。
 That's because I caught this Tentacool. It's super dumb. It's so dumb that I quit being a Trainer.
@@ -2300,26 +2320,6 @@ Ok. I'll keep holding on to this dumb Pokemon.
 好吧，就让我继续跟这个蠢货待在一起吧。
 Yeah.
 好耶！解脱了！
-Ohoh, does another fly enter my trap?
-哦，又有猎物飞进我的陷阱了？
-Watch yourself, you may find yourself mesmerized.
-小心，不要入迷了哦。
-Tsk! It seems like you were too hot to handle.
-啧啧，已经热得有点受不了了。
-Ah well, I suppose I could always ask Lainie to console me.
-啊，我需要兰妮的安慰。
-A spark. A flash. A line of roses.
-旋转，跳跃，我闭着眼。
-We should take our tango once more from the top.
-或许我们应该再舞一曲。
-But later, my dear.
-但不是现在，亲爱的。
-I've found myself as a bit of a historian.
-我算是一个历史研究者吧。
-I'm learning about important dates in history. The founding of Prizca, the fall of the monarchy.
-我正在学习和研究这里的史诗，比如宏礼市的建立、王朝的陨落。
-All of them are fascinating, but I believe my favorite is the one we'll have, no?
-历史有着独特的魅力，但我还是更喜欢即将拥有的未来，你呢？
 Yes
 学
 No
@@ -3022,12 +3022,6 @@ Patrat
 探探鼠
 [Map36]
 [Map37]
-The lake here used to be pretty. The ice rink is nice, but it just doesn't have the same appeal.
-以前这个湖非常漂亮，虽说天然的溜冰场也不错，但我觉得没有之前吸引力大！
-I remember this place started freezing a few years back, right before Team Chasm disbanded.
-大概是几年前开始结冰的...就在裂隙队解散前夕。
-I wouldn't put it past them to be behind it, they got their hands in everything.
-我怀疑是他们搞的鬼，毕竟他们什么事都要插两手。
 I've been trying to learn every sport lately.
 我最近一直在学习各项运动。
 Judo, baseball, tennis, even lacrosse. I've managed to hold my own against players in each of them.
@@ -3036,6 +3030,12 @@ It's a long but rewarding process. My next project is figure skating.
 这是一个漫长但有回报的过程，我的下一个项目就是花样滑冰。
 That lady over there is killing it, so I'm trying to copy her movements.
 那位女士的表现太出色了，所以我在试着模仿她的动作。
+The lake here used to be pretty. The ice rink is nice, but it just doesn't have the same appeal.
+以前这个湖非常漂亮，虽说天然的溜冰场也不错，但我觉得没有之前吸引力大！
+I remember this place started freezing a few years back, right before Team Chasm disbanded.
+大概是几年前开始结冰的...就在裂隙队解散前夕。
+I wouldn't put it past them to be behind it, they got their hands in everything.
+我怀疑是他们搞的鬼，毕竟他们什么事都要插两手。
 I used to be a hockey player, so ice skating is something that was natural to me.
 我以前是个曲棍球运动员，所以滑冰对我来说毫无难度。
 But I have to admit, figure skaters have something figured out.
@@ -3052,34 +3052,34 @@ If you do go in, you legally absolve the Rangers and the Svait Rescue Operation 
 "霜皑镇，雪花市的姊妹城！"
 "Sister of Icirrus City."
 "体验永恒的雪季！"
-East: County Park
-东：国立公园
-South: Repora Forest
-南：枯槁森林
-North: Ice Cave
-北：冰之洞窟
 The Ice Cave is really a unique phenomenon. It spews out extremely cold air.
 冰之洞窟里喷出的寒冷气流，改变了附近区域的气候。
 It cools the area down so much that we get snowfall most of the year.
 所以这里才会一年四季被冰雪覆盖，这也是马凯亚下雪最多的地方，必基尔纳山山顶上还多。
 In fact, we get more snow even than Mt. Kilna.
 至于冰之洞窟形成的原因，只能说是大自然的鬼斧神工了。
+East: County Park
+东：国立公园
+South: Repora Forest
+南：枯槁森林
+North: Ice Cave
+北：冰之洞窟
 I've been coming to this lake once a year for over thirty years now.
 三十多年了，我每年都会来这个湖一次。
 Seeing this place grow and change has been both strange and exciting.
 看着这个地方不断变化成长，感觉既奇怪又兴奋。
-Ugh. I don't really get how to do this whole ice skating thing.
-啊...我真的不会滑冰...
-ACHOO!
-啊嚏！
-I think I've also caught a cold...
-好像还感冒了…
 The ice rink used to be a lake, yet it's entirely frozen now.
 这个溜冰场以前是个湖，现在已经完全冻结实了。
 This little pond stays unfrozen however.
 但旁边这个小池塘却始终没有结冰。
 What could have caused such an abnormal change in temperature in such a concentrated area?
 到底是什么原因才让这里的气候出现异常的？
+Ugh. I don't really get how to do this whole ice skating thing.
+啊...我真的不会滑冰...
+ACHOO!
+啊嚏！
+I think I've also caught a cold...
+好像还感冒了…
 There you are.
 给你。
 I’ve had a chance to look more at the data on that USB.
@@ -5597,18 +5597,6 @@ Maybe.
 He isn't relevant.
 跟他无关
 [Map79]
-Begin a doubles battle against the Artificial Trainer?
-要开始与人工训练家的双打对战吗？
-Sketch is an amazing move! We're still trying to find the limits of Smeargle biology.
-写生是一种神奇的技能！我们一直在探索图图犬的极限。
-Help me find it!
-试着帮我找到它吧！
-Excellent work! I have all the research I need.
-干得漂亮！我已经得到所需的研究资料了。
-Enjoy your day.
-祝你今天过的愉快。
-I'll need to review this data for a bit, come back later.
-我需要检查一下这些数据，待会再过来吧。
 Wow! We're supposed to be professionals, but your battling prowess made everyone run away.
 哇！这里的大家都算得上专业人士，但是你的实力却让我们落荒而逃。
 You've beaten everyone, so as promised, a reward.
@@ -5625,12 +5613,20 @@ Go back and fight them all, then come back to me.
 去挑战大家吧，然后再来找我。
 I have no more to offer you, I'm afraid. Your battling data was excellent, so it's a shame.
 恐怕我拿不出什么奖品了，你的战斗数据非常优秀，所以很遗憾。
+Sketch is an amazing move! We're still trying to find the limits of Smeargle biology.
+写生是一种神奇的技能！我们一直在探索图图犬的极限。
+Help me find it!
+试着帮我找到它吧！
+Excellent work! I have all the research I need.
+干得漂亮！我已经得到所需的研究资料了。
+Enjoy your day.
+祝你今天过的愉快。
+I'll need to review this data for a bit, come back later.
+我需要检查一下这些数据，待会再过来吧。
+Begin a doubles battle against the Artificial Trainer?
+要开始与人工训练家的双打对战吗？
 Strategic Battling Testing Room
 策略对战测试室
-Begin a triple battle against the Artificial Trainer?
-要开始与人工训练家的三打对战吗？
-It looks relieved to no longer be floating!
-看起来它很高兴能重新回到地面上！
 One of the scientists here gave me a batch of weird rocks, and told me to give some to my Mudsdale.
 有个研究员给了我一批奇怪的石头，她让我把其中一部分给我的重泥挽马带上。
 I now understand why she said "some" instead of "all".
@@ -5645,80 +5641,40 @@ Phew. One of the scientists was able to help reverse the effects of the Float St
 呼，还好有知道该怎么解决这种问题的研究员在。
 Crisis averted!
 危机解除了！
+It looks relieved to no longer be floating!
+看起来它很高兴能重新回到地面上！
+Begin a triple battle against the Artificial Trainer?
+要开始与人工训练家的三打对战吗？
 Artificial Battlers Testing Room
 人工对战者测试室
+It flounders about, unable to get purchase!
+它在四处飘荡，根本够不到它！
 You aced that test, Swadloon!
 宝包茧，你通过测试了！
 You're the best!
 你是最棒的！
-It flounders about, unable to get purchase!
-它在四处飘荡，根本够不到它！
-Hello Trainer, have you been collecting a good number of Pokemon by any chance?
-你好啊，训练家，你有没有收集到很多精灵呢？
-LuxTech is sponsoring any Trainers that have amassed a significant number of Pokemon.
-光华集团正在资助那些收集了大量精灵的训练家。
-Oh! It seems like you've already acquired 20% of the Dex. Excellent work.
-哦！看来你已经集齐了20%的图鉴，干得很好！
-Here is your reward.
-这是你的奖励。
-If you manage to acquire 40% of the Dex, I have another reward for you.
-如果你能集齐40%的图鉴，我还有奖励给你。
-When you've collected 20% of all Pokemon in the dex, speak to me again. I'll have a reward.
-等你集齐了20%的图鉴，再过来找我吧，我会给你一个奖励。
-Wonderful, that's 40% of the Dex! You've got quite a collection, Trainer.
-太棒了，已经集齐了40%的图鉴！你干得相当不错，训练家。
-As promised, here is compensation for your efforts.
-就像我之前说的，这是对你努力的奖励。
-If you manage 60% completion, I'll have more rewards for you.
-如果你能集齐60%，我会给你更多的奖励。
-If you manage to acquire 40% of the Dex, I'll have another reward for you.
-如果你成功集齐40%的图鉴，我再给你奖励。
-Come speak to me then.
-那就来找我吧。
-Congratulations, Trainer. You've managed to complete 60% of your Dex.
-恭喜你，训练家，你已经成功集齐了60%的图鉴。
-LuxTech thanks you for your work. Here's your reward.
-光华感谢你所做出的贡献。这是你的奖励。
-As you might have guessed, there is another reward for the completion of 80% of the Dex.
-你可能也猜到了，集齐80%的图鉴还有另一个奖励。
-Come back when you have achieved that milestone.
-达到那个里程碑时再来找我吧。
-If you manage a 60% completion, I have more rewards for you.
-如果你集齐了60%，我会有更多的奖励给你。
-80%! Fantastic work, Trainer.
-80%！干得漂亮，训练家。
-You might be one of the few to ever accomplish the feat of 100% completion.
-你是极少数能完成这些目标的人之一。
-Regardless of whether you do that, I have your 80% reward for you.
-不管怎么样，我都会给你达成了80%图鉴的奖励。
-Well, if you manage to collect every Pokemon, LuxTech still has payment planned.
-好的，如果你能集齐所有的精灵，那么光华就会再次给予你奖励。
-Best of luck.
-祝你好运。
-That's it! A full Dex completion!
-没错！集齐了完整的精灵图鉴!
-Amazing, Trainer! To actually acquire every Pokemon species in Makya...
-太厉害了，训练家！你居然成功地集齐了马凯亚地区所有的精灵...
-Oh what science could learn from your collection! The mysteries of Pokemon can be found at your doorstep!
-我们能从这些精灵中，了解到多少未曾得知的知识啊！现在这份奥秘，就摆在面前了！
-As promised, Trainer, your Dex completion reward. I convinced my boss to pay for one of these things.
-训练家，按照承诺，这是你的图鉴完成奖励，我说服老板买下了这个。
-Truly, you're the envy of all collectors. I wish you the best of luck in whatever you do next.
-所有的收藏家都会羡慕你的，祝你接下来也前程似锦。
-If you manage to collect every Pokemon, LuxTech still has payment planned.
-如果你能够收集到所有精灵，那么光华就会再次给予你奖励。
-I never thought I would see a full Dex completion in my life, to be honest.
-说实话，我这辈子都没想到，有朝一日能看到完整的图鉴。
-I might try to have the higher ups commemorate your accomplishment with a metal plaque or something.
-或许可以让上级领导给你颁发一块牌匾之类的纪念品。
-Swadloon is looking lovingly at its trainer.
-宝包茧正深情地看着它的训练家。
 I'd love to tell you about what I'm studying, but that might ruin the experiment!
 我很愿意分享我研究的内容，但有可能会破坏实验的结果！
 Sorry about the tricks.
 抱歉，我耍了你。
 It's really hard to repeat this one, but I'll try my best.
 这个实验很难重复进行，但我会尽力的。
+Swadloon is looking lovingly at its trainer.
+宝包茧正深情地看着它的训练家。
+The area up ahead is the battle testing site.
+前方是战斗试验场。
+It's where LuxTech scientists observe the capabilities of Pokemon in test battles.
+那里是光华研究员们观察精灵战斗能力的地方。
+It is recommended that you don't participate until you have at least four gym badges.
+建议你至少获得四枚道馆徽章后再来参加。
+However, if you make it to the end, we do have a reward for you--some tech that no one else has.
+但如果你能坚持到最后，我们会给你一份奖励 - 一项独有的科技产品。
+Participate in battles against our scientists, and you may earn a hi-tech prize.
+参加与研究员的战斗实验，就有机会赢得一份高科技奖品。
+Do be careful though, if you're not yet at the right skill level. Four badges is the threshold our data suggests is optimal.
+不过这需要一定的实力，我们的数据显示四到五枚徽章是参与此活动的最佳范围。
+You look skilled enough to participate. Please, go on ahead!
+你看起来实力不错，可以参加，请进！
 Truly, nothing fires my neurons quite like coding.
 说实话，没有什么比编程更能激发我的神经了。
 It is for this reason that I embarked on my quest--to construct the perfect artificially intelligent trainers!
@@ -5741,26 +5697,10 @@ My government contract depends on it.
 我的政府合同可全靠它了。
 If my project succeeds, it'll be implemented in some tourist attraction they're building off the southern coast.
 如果我的项目成功，它将被应用在他们正在南部海岸建造的某个旅游景点中。
-The area up ahead is the battle testing site.
-前方是战斗试验场。
-It's where LuxTech scientists observe the capabilities of Pokemon in test battles.
-那里是光华研究员们观察精灵战斗能力的地方。
-It is recommended that you don't participate until you have at least four gym badges.
-建议你至少获得四枚道馆徽章后再来参加。
-However, if you make it to the end, we do have a reward for you--some tech that no one else has.
-但如果你能坚持到最后，我们会给你一份奖励 - 一项独有的科技产品。
-Participate in battles against our scientists, and you may earn a hi-tech prize.
-参加与研究员的战斗实验，就有机会赢得一份高科技奖品。
-Do be careful though, if you're not yet at the right skill level. Four badges is the threshold our data suggests is optimal.
-不过这需要一定的实力，我们的数据显示四到五枚徽章是参与此活动的最佳范围。
-You look skilled enough to participate. Please, go on ahead!
-你看起来实力不错，可以参加，请进！
 My dad brings me to work every day after school since I like to watch the Pokemon battles.
 我爸爸每天都在放学后带我去他的工作单位，因为我喜欢看精灵对战。
 You get to see all sorts of Pokemon here. Sometimes the Trainers let me pet them!
 在这里能看到很多种精灵，有时训练家还会让我摸摸它们!
-Begin a singles battle against the Artificial Trainer?
-要开始与人工训练家的单打对战吗？
 Pokemon defense mechanisms are amazing!
 精灵的防御机制真是太神奇啦！
 Time to see them in action!
@@ -5769,6 +5709,8 @@ You pierced right through my defenses!
 你直接突破了我的防御！
 Is there ever such a thing as enough data?
 真的存在“足够的数据”这一说法吗?
+Begin a singles battle against the Artificial Trainer?
+要开始与人工训练家的单打对战吗？
 Some Pokemon can affect the area around them with ease.
 一些精灵可以轻松影响周围的环境。
 Your effect seems to be an aura of fear, based on what I'm feeling right now.
@@ -8279,22 +8221,22 @@ Yeah.
 Not really.
 不太需要。
 [Map129]
-A dark stone in the shape of a Nincada.
-一块铁面忍者形状的深色石头。
-It's slightly warm to the touch.
-摸上去还有点温度。
 I am the most powerful ninja in Makya! I traveled all the way from Sweetrock Harbor to prove it!
 我一路从蜜岩港来到这里，就是为了证明：我是马凯亚最强的忍者！
 No, my candies!
 不，我的糖！
 The Shinobi code dictates that I let you pass. But beware, for my revenge will be swift...
 根据忍者守则，我会让你过去，但是，我的报复很快就会...
+A dark stone in the shape of a Nincada.
+一块铁面忍者形状的深色石头。
+It's slightly warm to the touch.
+摸上去还有点温度。
 The door is thoroughly locked.
 房门紧锁。
-A dark stone in the shape of a Croagunk.
-一块不良蛙形状的深色石头。
 A dark stone in the shape of a Murkrow.
 一块黑暗鸦形状的深色石头。
+A dark stone in the shape of a Croagunk.
+一块不良蛙形状的深色石头。
 Hey, yo! Help me out for a second, would ya?
 嘿，你！帮我个忙好吗？
 There’s, like, a house up the road that this guy, like, totally keeps unlocked.
@@ -8321,14 +8263,6 @@ Back to Casaba Villa I go!
 我要回甜瓜度假区了！
 Well, it's a good thing a station is right there.
 还好站点就在旁边。
-Man, these lifelike Pokemon statues are crazy realistic.
-天啊，这些精灵雕像，也太逼真了！
-I just had a pretty morbid revelation. I think I'm gonna go get some ice cream and cry.
-我脑海中突然蹦出一个想法，先去吃个冰淇淋，然后回家大哭一场...
-I wonder what the artist did to make these statues so... lifelike.
-我想知道这些艺术家，是怎么把雕像做得...这么栩栩如生的？
-Do you think those statues were... uhhh... you know... like, alive at one point?
-你是不是也觉得这些雕像...呃...就是...比如说...曾经...是活着的？
 A dark stone in the shape of a Lillipup.
 一块小约克形状的深色石头。
 It's slightly warm to the --
@@ -8355,6 +8289,14 @@ You apply the Full Restore to the Lillipup. In an instant, it breaks free, shaki
 你使用了全复药，小约克瞬间挣脱了束缚，甩掉了那些石头碎片。
 You don't have a Full Restore to use.
 你没有全复药。
+Man, these lifelike Pokemon statues are crazy realistic.
+天啊，这些精灵雕像，也太逼真了！
+I just had a pretty morbid revelation. I think I'm gonna go get some ice cream and cry.
+我脑海中突然蹦出一个想法，先去吃个冰淇淋，然后回家大哭一场...
+I wonder what the artist did to make these statues so... lifelike.
+我想知道这些艺术家，是怎么把雕像做得...这么栩栩如生的？
+Do you think those statues were... uhhh... you know... like, alive at one point?
+你是不是也觉得这些雕像...呃...就是...比如说...曾经...是活着的？
 North: Velenz
 北：夜幽市
 Leave it
@@ -8364,14 +8306,6 @@ Use a Moomoo Milk
 Use a Full Restore
 全复药
 [Map130]
-South: Lingering Delta
-南：漫步河原
-West: Eleig Stretch
-西：埃利格上游
-East: Sandstone Estuary
-东：砂岩河口
-North: Split Peaks
-北：嵌口峰
 I have had it up to HERE with this Darumaka of mine.
 我已经受够这只火红不倒翁了。
 I've swam across this entire river using nothing but my sheer force of will.
@@ -8400,16 +8334,14 @@ It'll give me a lot of time with my thoughts.
 我现在有足够的时间去思考了。
 Not entirely sure that's a good thing.
 虽然这不是什么好事。
-I saw a Pokemon hold a key in its mouth. It looked pretty important, hope whoever lost it had a spare.
-我看到有只精灵叼走了一把钥匙，希望那个失主有备用的。
-Seaking! We must depart to look for this key! Dive!
-还是赶紧去水下找找这把钥匙吧！
-I think about that key a lot. What if it leads to treasure?
-我总是想起那把钥匙的事，万一跟宝藏有关呢？
-Like, imagine if there's a chest somewhere around here! Or some secret door! Keys open up so many doors!
-这附近有没有什么箱子，或者说暗门之类的？
-Uhhh, literally and figuratively, I guess.
-对那把钥匙越来越在意了。
+South: Lingering Delta
+南：漫步河原
+West: Eleig Stretch
+西：埃利格上游
+East: Sandstone Estuary
+东：砂岩河口
+North: Split Peaks
+北：嵌口峰
 I swam here from Prizca!
 我从普里兹卡游泳来到这里
 Time to swim back!
@@ -8420,14 +8352,16 @@ My power is growing! I feel like I can swim forever!
 我的力量在增长！我觉得我可以永远游下去
 One day, I'll be able to swim from one side of Makya to the other.
 总有一天，我能够从马凯亚的一边游到另一边。
-Just a hop and a skip to the north, a legendary Avatar has been causing a commotion.
-就在这里的北边，有一个传说化身引起了骚乱。
-How exciting!
-真令人兴奋！
-Onwards, to ever greater victories!
-前进，向着更大的胜利！
-Whoever takes out that Virizion will be a legend in their own right!
-谁能干掉毕力吉翁，谁就将成为传奇！
+I saw a Pokemon hold a key in its mouth. It looked pretty important, hope whoever lost it had a spare.
+我看到有只精灵叼走了一把钥匙，希望那个失主有备用的。
+Seaking! We must depart to look for this key! Dive!
+还是赶紧去水下找找这把钥匙吧！
+I think about that key a lot. What if it leads to treasure?
+我总是想起那把钥匙的事，万一跟宝藏有关呢？
+Like, imagine if there's a chest somewhere around here! Or some secret door! Keys open up so many doors!
+这附近有没有什么箱子，或者说暗门之类的？
+Uhhh, literally and figuratively, I guess.
+对那把钥匙越来越在意了。
 Hey y'all, FireStar9 here with another advanced battling vlog!
 大家好，我是火之高兴9号，今天是又一场长质量对战视频！
 I've in the Canal Desert, where a random Avatar of Maractus is growing a bunch of cacti.
@@ -8440,6 +8374,14 @@ That Trainer really proved their worth. Let's look at the replays to see how the
 这个训练家证明了他的实力，让我们看看他究竟是怎么做到的！
 I'd like to take a moment to thank our sponsor, Emma's Empolorium!
 接下来插播一段广告，艾玛的商店，你想要的都在这里！
+Just a hop and a skip to the north, a legendary Avatar has been causing a commotion.
+就在这里的北边，有一个传说化身引起了骚乱。
+How exciting!
+真令人兴奋！
+Onwards, to ever greater victories!
+前进，向着更大的胜利！
+Whoever takes out that Virizion will be a legend in their own right!
+谁能干掉毕力吉翁，谁就将成为传奇！
 Whoaaaa there Trainer, slow down.
 训练家，慢点走。
 What a showin' pardner.
@@ -12539,6 +12481,8 @@ You may have bested me in battle, but you'll still struggle against Noel.
 你的确战胜了我，但仍难与诺埃尔抗衡。
 Leave me be, you nincompoop.
 离我远点，你这个蠢货。
+It's a beautifully carved ice sculpture of an Alakazam.
+一座栩栩如生的胡地冰雕。
 Hey, sorry champ, but Noel's policy here is that everybody's gotta move through the gym counter-clockwise.
 嘿，抱歉了冠军，诺埃尔最新的规定是，每个人都必须顺时针穿过道馆。
 I'm assuming its got some artsy-fartsy reason.
@@ -12547,8 +12491,6 @@ So, come on over this way, yeah?
 过来这边，好吗？
 Yo.
 哼哼。
-It's a beautifully carved ice sculpture of an Alakazam.
-一座栩栩如生的胡地冰雕。
 Ugh.... nothing to do but crash at home, I guess.
 唉...除了在家里情绪崩溃，我好像什么都做不到。
 An inspiring battle, fit for feature in my next sculpture!
@@ -12569,8 +12511,6 @@ Cause, like...
 就好像…
 The ice...
 这冰雕…
-It's a beautifully carved ice sculpture of an Espeon.
-一座栩栩如生的太阳伊布冰雕。
 Noel is, in every sense of the word, and artist.
 诺艾尔在各种意义上都是一位艺术家。
 He'll come if you take out the Trainers here.
@@ -12579,14 +12519,8 @@ Wow! Top class art.
 哇！顶级的艺术水准。
 You bring your medium to a new level.
 你的创作水平成长到了新高度。
-Ugh, way to ruin the vibes.
-唉，真是破坏气氛。
-That was pretty cool, I guess.
-嗯，这很酷。
-You're just here for the badge right?
-你是来拿徽章的吧？
-Heh, poser.
-呵，装腔作势。
+It's a beautifully carved ice sculpture of an Espeon.
+一座栩栩如生的太阳伊布冰雕。
 You doing good? Down for a rematch?
 你做得不错嘛？要再来一场吗？
 How’re you? Holding up? Good.
@@ -12655,6 +12589,14 @@ Maybe it’s common for you, but for me… my life got a whole lot easier.
 也许对你来说很平常，但它改变了我...让我的生活轻松了很多。
 So chill. You deserve it.
 所以放轻松，这是你应得的。
+Ugh, way to ruin the vibes.
+唉，真是破坏气氛。
+That was pretty cool, I guess.
+嗯，这很酷。
+You're just here for the badge right?
+你是来拿徽章的吧？
+Heh, poser.
+呵，装腔作势。
 I sparkled and shone... but you much moreso.
 我熠熠生辉...但你更加耀眼。
 A rare defeat.
@@ -20526,6 +20468,10 @@ You insert the Team Chasm ID Card.
 你插入了裂隙队身份卡。
 The door unlocks with a click.
 门咔嗒一声开了。
+It's a vending machine!
+这是一个自动贩卖机！
+However, it no longer holds any drinks.
+然而，它不再装有任何饮料。
 [Map339]
 [Map340]
 Are you ready?
@@ -27436,8 +27382,8 @@ Attacks with an electrified beak. Deals 50% more damage unless the target has mo
 用带电的喙啄刺对手。如果比对手后出手攻击，技能的威力会变成2倍。
 The user charges at its foe, surrounding itself with lightning. It has a 30% chance to numb.
 让强大的电流覆盖全身，猛撞向对手进行攻击。30%概率让对手陷入麻痹状态。
-The user becomes energy charged, doubling its next Electric-type attack. Also raises the user's defensive stats by two steps each.
-使用者变为充电，使其下一次电属性攻击威力翻倍。同时使使用者的物防和特防各提升两级。
+The user becomes energy charged, doubling its next Electric-type attack. Also raises the user's Defense and Sp. Def.
+使用者充电，其下一个电系攻击的威力翻倍。同时提升使用者的物防和特防。
 The user fires a concentrated bundle of electricity, raising the user's Sp. Atk stat by two steps.
 向对手发射电击光束。由于蓄满电流，大幅度提高自己的特攻。
 A flare of electricity is loosed to strike the area around the user. It has a 30% chance to numb.
@@ -27890,8 +27836,8 @@ The user kicks the target with a powerful, arcing technique.
 以强劲有力的弧线技术踢向目标。
 The user attacks with a burst of inner energy. Lowers the user's Sp. Atk by four steps.
 爆发自己所蕴含的能量，而自己的特攻会降低四级。
-The user holds fast with its teammates, raising the Defense of itself and its allies by three steps.
-使自己和队友紧密团结，提升自己和同伴的防御三级。
+The user holds fast with its teammates, raising the Defense of itself and its allies by two steps.
+使用者与队友们紧密团结，提升自身和队友的物防两级。
 The user shoots three arrows made of Aura with extreme precision. Can random critical hit.
 以极高的精度射出三支气场制成的箭。容易击中要害。
 The user manifests a bolt of pure courage. This has a 10% chance of raising the user's Sp. Atk.
@@ -28464,8 +28410,8 @@ A parasitic seed leeches the target and reduces both its attacking stats.
 使用种子寄生对手并吸取其HP，同时降低对方的攻击。
 The user and the target each share their highest stat step with the other.
 与目标分享双方的最高能力变化等级。
-The user calms itself and its teammates, raising the Sp. Def of itself and its allies by three steps.
-让自己和队友平静下来，提升自身和同伴的特防三级。
+The user calms itself and its teammates, raising the Sp. Def of itself and its allies by two steps.
+使用者安抚自己和队友，提升自身和队友的特防两级。
 A nutrient-draining attack. The user's HP is restored by 75% of the damage dealt.
 吸取对手的营养，回复造成伤害的75%HP。
 The user makes a scary sound by shaking, forcing the target to switch out. Always goes last.
@@ -28908,8 +28854,8 @@ The user raises their Speed by 4 steps, quadruples their critical hit chance, an
 提升自身速度四级，自身命中要害的几率提升四倍，并使自身变为格斗属性。
 The user takes 50% less attack damage for 3 turns, and becomes Fighting-type.
 三回合内受到的攻击伤害降低50%，并使自身变为格斗属性。
-The user summons an allied Tyrogue, raises the Defense of itself and its allies by 3 steps, and becomes Fighting-type.
-召唤一个无畏小子一同战斗，同时提升自身和同伴的防御三级，并使自身变为格斗属性。
+The user summons an allied Tyrogue, raises the Defense of itself and its allies by 2 steps, and becomes Fighting-type.
+使用者召唤一个盟友巴尔郎，并且提升自身和队友的物防两级，然后变为格斗系。
 The user ups the Speed and attack count of itself and allies, and becomes Flying-type.
 提升自身合同版的速度和攻击次数，并使自身变为飞行属性。
 All near foes are forced to switch out, and the user becomes Flying-type.
@@ -28998,8 +28944,8 @@ The user embeds its roots to heal by 1/4th every turn for four turns, and become
 深深扎根，四回合内每回合恢复自身1/4HP，并使自身变为草属性。
 Plants seeds on all near foes, draining HP each turn. User becomes Grass-type.
 给附近的所有对手种上种子，每回合恢复HP，并使自身变为草属性。
-The user summons an allied Gossifleur, raises the Sp. Def itself and its allies by 3 steps, and becomes Grass-type.
-召唤一个幼棉棉一同战斗，同时提升自身和同伴的特防三级，并使自身变为草属性。
+The user summons an allied Gossifleur, raises the Sp. Def itself and its allies by 2 steps, and becomes Grass-type.
+使用者召唤一个盟友幼绵绵，并且提升自身和队友的特防两级，然后变为草系。
 A powerful electric blast is let loose on the target, numbing it.
 使用强大的电流攻击对手，并使其麻痹。
 The user raises its Sp. Atk and Speed by two steps, and becomes Electric-type.
@@ -33511,8 +33457,8 @@ Boosts Sp. Attack by 75%, but the Pokémon becomes frostbitten after attacking.
 特攻增加75%，但攻击后会使自己冻伤。
 Immune to Ice-type moves, and raises both attacking stats if hit by one.
 受到冰属性攻击时免疫其伤害，并提升双攻。
-When hit with a physical move, hits back instantly with Bind.
-被物理技能攻击时，会立即使用绑紧反击。
+When hit with a physical move, traps and damages the attacker for three turns.
+当被物理技能击中时，会在三回合内让攻击者被困住并持续受到伤害。
 Using or being hit by a physical move leaves a rock on the field. Status moves collect them, healing by 1/4th each.
 使用物理技能攻击或被物理攻击命中时，将留下一块石头。能力发生变化时将拾起石块，每块恢复25%HP。
 After using a status move, raises both of the Pokémon's defensive stats.
@@ -37513,8 +37459,8 @@ Type
 属性
 Tribe
 部族
-Generation
-世代
+Total
+总计
 {1} {2}
 {1}{2}
 Mysterious Trainer
@@ -38353,6 +38299,8 @@ Unknown
 <outln2>成就：{1}</outln2>
 <<[>>{1}/{2}<<]>>
 <<[>>{1}/{2}<<]>>
+Earn a {1}
+获得一个{1}
 Earn {1} {2}
 获得{1}{2}
 <outln2>Collection Rewards: {1}</outln2>
@@ -38592,7 +38540,7 @@ To Next Lv.
 STORY
 故事
 <c3=404040,B0B0B0>{1} {2}, {3}
-<c3=404040,B0B0B0>{1} {2}, {3}<<n>>
+<c3=404040,B0B0B0>{1} {2}, {3}
 <c3=404040,B0B0B0>A mysterious Pokémon Egg received from <c3=F83820,E09890>{1}<c3=404040,B0B0B0>.
 <c3=404040,B0B0B0>从<c3=F83820,E09890>{1}<c3=404040,B0B0B0>那里收到的神秘精灵蛋。
 <c3=404040,B0B0B0>A mysterious Pokémon Egg.
@@ -38666,13 +38614,13 @@ HM moves can't be forgotten now.
 You must choose a move!
 你必须选择一个技能！
 {1:s}<<n>>ID: {2:05d} OT: {3:s}\wtnp<<[>>0<<]>>
-{1:s}<<r>><<n>>ID: {2:05d}   OT: {3:s}\wtnp<<[>>0<<]>>
+{1:s}<<n>>ID: {2:05d} OT: {3:s}\wtnp<<[>>0<<]>>
 For {1}'s {2},<<n>>{3} sends {4}.<<1>>
 对于{1}的{2}，<<n>>{3}发送{4}。<<1>>
 {1} bids farewell to {2}.
 {1}向{2}告别。
 {1:s}<<n>>ID: {2:05d} OT: {3:s}<<1>>
-{1:s}<<r>><<n>>ID: {2:05d}   OT: {3:s}<<1>>
+{1:s}<<n>>ID: {2:05d} OT: {3:s}<<1>>
 Take good care of {1}.
 好好照顾{1}。
 Species does not exist ({1}).
@@ -40429,6 +40377,14 @@ Story here involving {1} and {2}!
 这是个关于{1}和{2}的故事！
 PokÉstate #{$PokEstate.estate_box + 1}
 庄园#{$PokEstate.estate_box +  1}
+{1} non-legendary species (25%)
+{1}非传说种类（25%）
+{1} non-legendary species (50%)
+{1}非传说种类（50%）
+{1} non-legendary species (75%)
+{1}非传说种类（75%）
+{1} non-legendary species (100%)
+{1}非传说种类（100%）
 all species in {1}
 所有物种 {1}
 {1} {2}-type species
@@ -40687,8 +40643,6 @@ Catch Dif.
 捕捉难度
 Exp. Grant
 经验给予
-Total
-总计
 {1:d}'{2:02d}"
 {1:d}'{2:02d}"
 {1:4.1f} lbs.
@@ -40937,6 +40891,8 @@ Signature (D)
 签名（D）
 Avatar Data (D)
 化身数据（D）
+Generation
+世代
 Multiple Forms
 多形态
 Invert Current
@@ -41370,7 +41326,7 @@ But it failed, since the receiver of the help is gone!
 But it failed, since #{target.pbThis(true)} is already being helped!
 但它失败了，因为#{target.pbThis(true)}已经在被帮助了！
 {1} is ready to help {2}!
-{1}准备帮助 2}！
+{1}准备帮助{2}！
 But it failed, since #{target.pbThis(true)}'s #{statName} can't go any higher!
 但是失败了，因为#{target.pbThis(true)}的#{statName}不能再提高了！
 But it failed, since #{target.pbThis(true)}'s #{statName} can't go any lower!
@@ -41459,8 +41415,8 @@ A Shadow creeps into the dream...
 {1}在无规律地飞行。它看起来很不稳定！
 The avatar swaps machines!
 化身交换器！
-{1} is jealous of #{targets[0]}'s good fortune!
-{1}正嫉妒#{targets[0]}的好运气！
+{1} is jealous of {2}'s good fortune!
+{1}嫉妒{2}的好运！
 {1} shuns the cave's darkness!
 {1}避开了洞穴的黑暗！
 {1} is feeling exposed!
@@ -41489,20 +41445,20 @@ The avatar swaps machines!
 {1}非常喜欢{2}的最后一个技能！
 {1} envies {2}'s Attack!
 {1}羡慕{2}的攻击！
-#{user.pbThis} is wary of the ground!
-#{user.pbThis}对地面保持警惕！
-#{user.pbThis} gathers toxic gas!
-#{user.pbThis}凝聚有毒的气体！
-#{user.pbThis} is warming up its haunting voice!
-#{user.pbThis}正在为萦绕心头的声音预热！
+{1} is wary of the ground!
+{1}对地面保持警惕！
+{1} gathers toxic gas!
+{1}聚集了有毒气体！
+{1} is warming up its haunting voice!
+{1}正在对它幽灵般的声音进行练声！
 {1} is haloed in Dragon Energy!
 {1}被巨龙光环笼罩！
 {1} is getting used to the harsh conditions!
 {1}正在适应恶劣的环境！
 Boss using struggle!
 正在使用挣扎！
-#{user.pbThis} is winding up a big attack!
-#{user.pbThis}正在准备发动强力一击！
+{1} is winding up a big attack!
+{1}正在准备一个大攻击！
 Escorted by, Enthroned upon, Ensconced within this Empty Eminence
 欲戴王冠承其重，供奉虚空护身周。
 An Avatar has been inserted into Yezera's party!
@@ -41603,8 +41559,8 @@ O Agonal Ecstasies, Spare Us Not Our Agonies
 行至终末须尽欢，今生苦短莫为难。
 When enemy Pokémon faint, they deal a quarter of their HP as damage to their last attacker.
 当敌方精灵失去意识时，它们会对最后的攻击者造成其HP四分之一的伤害。
-#{battler.pbThis} takes its vengeance!
-#{battler.pbThis}正在报仇雪恨！
+{1} takes its vengeance!
+{1}进行报复！
 I chose a move!
 我选择了一个技能！
 You chose a move!
@@ -41747,8 +41703,8 @@ It doesn't affect {1}...
 对{1}好像没有效果...
 {1} became trapped!
 {1}被困住了！
-#{target.pbThis} prevents a random added effect!
-#{target.pbThis}阻止了额外效果的出现！
+{1} prevents a random added effect!
+{1}阻止了一个随机的附加效果！
 {1} is pained by its dreams!
 {1}受到了反作用力的伤害！
 {1} transformed!
@@ -41759,12 +41715,12 @@ It doesn't affect {1}...
 {1}的内心之火正熊熊燃烧！
 {1} finally cooled off!
 {1}终于冷静下来了！
-#{battler.pbThis} grows one size bigger!
-#{battler.pbThis}长大了一圈！
-#{battler.pbThis} is fully grown!
-#{battler.pbThis}完全长大了!
-#{battler.pbThis} also heals #{healTarget.name}!
-#{battler.pbThis}也能治疗#{healTarget.name}!
+{1} grows one size bigger!
+{1}长大了一点！
+{1} is fully grown!
+{1}已经完全长大！
+{1} also heals {2}!
+{1}也治愈了{2}！
 {1} is hurt by the noxious presence!
 {1}受到了有毒物质的伤害！
 {1} is splashed with fire!
@@ -41803,16 +41759,16 @@ Where to direct power?
 {1}在加热过程中略微焦化。
 {1} was hurt by the moonlight!
 {1}被月辉伤害了！
-For #{pokemon.name} to have two items, both must be Gems!
-#{pokemon.name}要想携带两个物品就必须都是宝石！
-For #{pokemon.name} to have two items, both must be Berries!
-#{pokemon.name}要想携带两个物品就必须都是树果！
-For #{pokemon.name} to have two items, both must be Herbs!
-#{pokemon.name}要想携带两个物品就必须都是香草！
-For #{pokemon.name} to have two items, at least one must be Clothing!
-#{pokemon.name}要想携带两个物品其中一件必须是衣物！
-For #{pokemon.name} to have two items, only one can be Clothing!
-#{pokemon.name}要想携带两个物品只有一件可以是衣物！
+For {1} to have two items, both must be Gems!
+为了让{1}拥有两个物品，两者都必须是宝石！
+For {1} to have two items, both must be Berries!
+为了让{1}拥有两个物品，两者都必须是树果！
+For {1} to have two items, both must be Herbs!
+为了让{1}拥有两个物品，两者都必须是香草！
+For {1} to have two items, at least one must be Clothing!
+为了让{1}拥有两个物品，至少有一个必须是衣物！
+For {1} to have two items, only one can be Clothing!
+为了让{1}拥有两个物品，只能有一个是衣物！
 {1}'s {2} made it the {3} type!
 {1}的{2}使其成为{3}属性！
 {1} is damaged by recoil!
@@ -41943,14 +41899,14 @@ The effects of the weather disappeared.
 天气的影响消失了。
 All stat changes were eliminated!
 取消了所有的能力变化！
-Which item should #{battler.pbThis(true)} drop?
-要丢弃哪个#{battler.pbThis(true)}?
+Which item should {1} drop?
+{1}应该丢弃哪个物品？
 {1} dropped its {2}!
 {1}的{2}被拍落了！
 Transcending time and space, a cost-free switch!
 超越时间和空间，自由的切换！
-#{switcher.pbThis} can switch out regardless!
-#{switcher.pbThis}可以的替换不受限制！
+{1} can switch out regardless!
+{1}可以自由进行替换！
 Each Pokémon in your party got Exp. Points!
 每只精灵都可以获得经验！
 Your party Pokémon in waiting also got Exp. Points!
@@ -41963,6 +41919,8 @@ Your party Pokémon in waiting also got Exp. Points!
 {1}获得了{2} 经验！
 {1} got {2} Exp. Points!
 {1}获得了{2}经验值！
+Levels: {1}->{2} | Exp: {3}->{4} | gain: {5}
+等级：{1}->{2} | 经验值：{3}->{4} | 获得：{5}
 {1}'s new level is less than its<<n>>current level, which shouldn't happen.<<n>><<[>>Debug: {2}<<]>>
 {1}的新等级低于其<<n>>当前等级，这不应该发生。<<n>><<[>>调试：{2}<<]>>
 {1}'s new level is greater than the level cap, which shouldn't happen.<<n>><<[>>Debug: {2}<<]>>
@@ -42039,10 +41997,10 @@ Go! {1}, {2} and {3}!
 \wm请不要滥用此功能。
 \me[Battle perfected]You perfected the fight!
 \me[Battle perfected]你获得了完胜！
-#{pkmn.name}'s Hot Streak is now over.
-#{pkmn.name}的连胜记录现在结束了。
-#{pkmn.name} is on a Hot Streak!
-#{pkmn.name}正在连胜！
+{1}'s Hot Streak is now over.
+{1}的连胜记录现在结束了。
+{1} is on a Hot Streak!
+{1}正在连胜！
 The sunlight is strong.
 阳光令人目眩！
 It is storming.
@@ -42065,8 +42023,8 @@ You can skip the battle and treat it as a win by FORFEIT!
 你可以通过逃跑跳过这场战斗！这是芳芳的仁慈。
 You have to win the battle PERFECTLY, or you LOSE!
 对于这场战斗，你必须完胜！
-#{b.pbThis} is blessed by the shattered sky!
-#{b.pbThis}被破碎的天空祝福了！
+{1} is blessed by the shattered sky!
+{1}被破碎的天空祝福了！
 Time is dancing to {1}'s tune! This turn is being skipped!
 时间正随着{1}的旋律起舞！这个回合被跳过了！
 {1} will arrive next turn!
@@ -42427,12 +42385,14 @@ But it had no effect!
 但没有任何效果！
 But it's not where this item can be used!
 但这不是可以使用该物品的地方！
+But {1} can't be switched out!
+但{1}无法被替换！
 {1} changes its cloak to fit its next move!
 {1}为了适应下一个技能，改变了自己的状态！
-#{battler.pbThis} cannot use any of its moves, and will Struggle if it fights. Go ahead?
-#{battler.pbThis}无法使用任何技能，若使用则会强制挣扎。是否继续？
-#{battler.pbThis} must use #{encoreMove.name} if it fights. Go ahead?
-#{battler.pbThis}若要继续战斗，则只能使用#{encoreMove.name}！是否继续？
+{1} cannot use any of its moves, and will Struggle if it fights. Go ahead?
+{1}无法使用任何技能，如果战斗将会使用挣扎。继续吗？
+{1} must use {2} if it fights. Go ahead?
+如果{1}战斗，它必须使用{2}。继续吗？
 Items can't be used here.
 物品无法在这里使用！
 Your foe was <imp>ambushed</imp>! You get a free turn!
@@ -42455,8 +42415,8 @@ You can't catch Avatars!
 你不能抓化身！
 {1} was overwhelmed with emotion!
 {1}感慨万千！
-{1} slurped up venom leaking from #{b.pbThis(true)}.
-{1}从#{b.pbThis(true)}吮吸着。
+{1} slurped up venom leaking from {2}.
+{1}吸干了从{2}渗出的毒液。
 {1} absorbs the damage from the poison.
 {1}吸收了毒药的伤害。
 {1}'s perish count fell to {2}!
@@ -42629,8 +42589,8 @@ Told to recover a negative amount
 {1}在倒下时分散了它的{2}。
 But there was no one to revive!
 但是没有精灵可以复活！
-Its allied #{reviver.name} was revived to full health!
-它的同伴#{reviver.name}被完全恢复了！
+Its allied {1} was revived to full health!
+它的盟友{1}恢复到了满状态！
 {1} will revive in {2} turns!
 {1}将在{2}回合后复活！
 {1} triggered!
@@ -42671,10 +42631,10 @@ your team
 我方
 Your team
 我方
-#{pbThis} can't hold a #{getItemName(:CRYSTALVEIL)}!
-#{pbThis}不能携带#{getItemName(:CRYSTALVEIL)}！
-But #{pbThis(false)} hold's tightly onto its #{getItemName(checkitem)}!
-但是#{pbThis(false)}<<n>>紧紧抓着它的#{getItemName(checkitem)}！
+{1} can't hold a {2}!
+{1}不能持有{2}！
+But {1} hold's tightly onto its {2}!
+但{1}紧紧地抓着它的{2}！
 {1} is unaffected!
 {1}没有受到影响！
 nthTurnThisRound checks for turns 1 or above!
@@ -42913,8 +42873,8 @@ Hit 1 time!
 击中了1次！
 Hit {1} times!
 击中了{1}次！
-#{user.pbThis} showed mercy on #{b.pbThis(true)}!
-#{user.pbThis}怜悯了#{b.pbThis(true)}！
+{1} showed mercy on {2}!
+{1}对{2}表示了怜悯！
 {1} bounced the {2} back!
 {1}弹回了{2}！
 {1}'s destiny is bonded with {2}!
@@ -42973,8 +42933,12 @@ The effects of the {1} prevent status moves from being used!
 {1}仍然连接着{2}！
 {1} is loafing around!
 {1}在闲逛！
+{1} would have flinched, but it's immune now!
+{1}本应畏缩，但它现在免疫了！
 {1} refuses to flinch!
 {1}不会被畏缩！
+{1} would have flinched, but it holds a Courage Badge!
+{1}本应畏缩，但它持有勇气徽章！
 {1} flinched and couldn't move!
 {1}畏缩了，动弹不得！
 {1} is jinxed! {2} failed to protect it!
@@ -43013,8 +42977,8 @@ The roots guarding {1} dig into {2}!
 保护{1}的根须深植在{2}中！
 {1} was stuck by {2}'s venom!
 {1}被{2}的毒液粘住了!
-The bubble barrier bursts, harming #{user.pbThis(true)}!
-气泡屏障破裂了，伤害到了#{user.pbThis(true)}！
+The bubble barrier bursts, harming {1}!
+气泡屏障破裂，伤害了{1}！
 {1} took its attacker down with it!
 {1}和对手同归于尽了！
 {1} copies {2}'s stat increases with its {3}!
@@ -43051,6 +43015,8 @@ The ring of water restored {1}'s HP!
 {1}警告对方不要再攻击！
 {1} is cursed!
 {1}被诅咒了！
+It'll lose a quarter of its health each turn!
+它每回合会失去四分之一的HP！
 {1} is afflicted by the curse!
 {1}遭受着诅咒的折磨！
 {1}'s broke out of the disable!
@@ -43067,8 +43033,8 @@ The ring of water restored {1}'s HP!
 {1}可以使用物品了！
 {1} received an encore!
 {1}被要求再来一次！
-It will repeat its move for the next #{value - 1} turns!
-它将在接下来的#{value - 1}回合内重复它的技能！
+It will repeat its move for the next {1} turns!
+它将在接下来的{1}回合重复它的技能！
 {1}'s encore ended!
 {1}的再来一次状态解除了！
 {1}'s critical hit chance was doubled!
@@ -43185,10 +43151,10 @@ No moves barred! {1} can use off-type moves again!
 {1}失去了电磁力！
 {1}'s electromagnetism wore off.
 {1}电磁力效果消失了。
-{1} can't use sound-based moves for the next #{value - 1} turns!
-{1}接下来的#{value - 1}回合内无法使用声音类技能！
-{1} can't use blade-based moves for the next #{value - 1} turns!
-{1}在接下来的#{value - 1}回合内无法使用切割类技能！
+{1} can't use sound-based moves for the next {2} turns!
+{1}在接下来的{2}回合内无法使用声音类的技能！
+{1} can't use blade-based moves for the next {2} turns!
+{1}在接下来的{2}回合内无法使用切割类的技能！
 {1} was subjected to torment!
 {1}受到了无理取闹！
 {1} was freed from {2}!
@@ -43197,6 +43163,14 @@ No moves barred! {1} can use off-type moves again!
 {1}不再受{2}的限制。
 {1} is hurt by {2}!
 {1}受到了来自{2}的伤害！
+{1} is being constricted!
+{1}正在被束缚！
+{1} was freed from constriction!
+{1}从束缚中解脱了！
+{1} is no longer constricted by {2}.
+{1}不再被{2}束缚。
+{1} is hurt by constriction!
+{1}被束缚伤害了！
 {1} gained the {2} type!
 {1}获得了{2}属性！
 {1} is unburdened of its item. Its Speed doubled!
@@ -43249,8 +43223,8 @@ No moves barred! {1} can use off-type moves again!
 {1}本回合获得了一次额外攻击！
 {1} braced itself!
 {1}挺住了！
-It will endure the next #{value} hits which would faint it!
-它将忍受接下来的#{value}次攻击，这些攻击本应使它失去战斗力！
+It will endure the next {1} hits which would faint it!
+它将承受接下来会使它濒死的{1}次攻击！
 {1} concentrated with extreme intensity!
 {1}全神贯注，注意力高度集中！
 Attacks against {1} will incur recoil!
@@ -43267,8 +43241,8 @@ Attacks against {1} will incur recoil!
 {1}燃起了魔法之力！
 {1} sees everything!
 {1}洞悉了一切！
-It's protected from half of all attack damage for #{value} turns!
-在接下来的#{value}回合，它所受的伤害减半！
+It's protected from half of all attack damage for {1} turns!
+它在{1}回合内受到的所有攻击伤害减半！
 {1}'s Primeval Detect wore off!
 {1}的原始看穿失效了！
 {1} began eroding!
@@ -43299,8 +43273,20 @@ Last Gasp was disabled somehow.
 残喘不知为何被禁用了。
 {1} is jinxed!
 {1}变得不幸了！
+Attacks against it crit and bypass protection for the next {1} turns!
+接下来的{1}回合，对它的攻击会命中要害并无视保护！
+{1} is no longer being jinxed!
+{1}不再被诅咒了！
+{1} recovered from the jinx!
+{1}从诅咒中恢复了！
 {1} is fractured!
 {1}破碎了！
+It'll deal a third less move damage for the next {1} turns!
+它在接下来的{1}回合内会减少三分之一的技能伤害！
+{1} is no longer fractured!
+{1}不再破碎了！
+{1} healed from the fracture!
+{1}从破碎中恢复了！
 Gravity intensified!
 重力变强了！
 Everyone is twice as accurate!
@@ -43369,14 +43355,12 @@ The willful area fell away.
 意志区域消失了。
 A grey mist enveloped the field.
 一片灰雾笼罩着整个场地。
-Stat changes will be reset each turn, for #{value - 1} more turns!
-每回合都会重置能力变动，持续#{value - 1}个回合！
+Stat changes will be reset each turn, for {1} more turns!
+能力等级变化将在接下来的{1}回合内每回合重置！
 The grey mist was expunged!
 灰雾消散了！
 The grey mist dissipated.
 灰雾消散了！
-#{b.pbThis}'s stat changes were eliminated!
-#{b.pbThis}<<n>>的能力变化被消除了！
 {1} was healed by the field of flowers!
 {1}被花儿治愈了！
 {1} took the {2} attack!
@@ -43417,56 +43401,56 @@ The healing wish came true for {1}!
 {1}的极光幕被打破了！
 {1}'s Aurora Veil wore off!
 {1}的极光幕消失了！
-{1} takes less damage from moves with 100+ base power! This will last for #{value - 1} more turns!
-{1}受到基础威力大于100的技能时，受到的伤害会更少！这将持续#{value - 1}个回合！
+{1} takes less damage from moves with 100+ base power! This will last for {2} more turns!
+{1}会从基础威力100+的技能中受到较少的伤害！这将持续{2}个回合！
 {1}'s Repulsion Field was broken!
 {1}的推力场被打破了！
 {1}'s Repulsion Field wore off!
 {1}的推力场消失了！
 {1} is now blessed!
 {1}现在被祝福了!
-They'll be protected from critical hits for #{value - 1} more turns!
-它们将在#{value - 1}个回合内<<n>>无法被击中要害！
+They'll be protected from critical hits for {1} more turns!
+它们将在接下来的{1}回合内不会被击中要害！
 {1}'s Lucky Chant was broken!
 {1}的幸运咒语<<n>>停止了！
 {1} is no longer protected by Lucky Chant.
 {1}不再受<<n>>幸运咒语保护。
 {1} is shrouded in mist!
 {1}被薄雾笼罩了！
-Their stats can't be lowered for #{value - 1} more turns!
-它们将在#{value - 1}个回合内<<n>>无法被降低能力！
+Their stats can't be lowered for {1} more turns!
+它们的能力等级在接下来的{1}回合内无法降低！
 {1}'s Mist was swept away!
 {1}的薄雾被驱散了！
 {1} is no longer protected by Mist.
 {1}不再被薄雾保护。
 {1} became cloaked in a mystical veil!
 {1}被包围在了<<n>>白雾之中！
-They'll be protected from status ailments for #{value - 1} more turns!
-它们将在#{value - 1}个回合内<<n>>无法陷入异常状态!
+They'll be protected from status ailments for {1} more turns!
+它们将在接下来的{1}回合内不会陷入异常！
 {1}'s Safeguard was removed!
 {1}的神秘之幕<<n>>被解除了！
 {1} is no longer protected by Safeguard.
 {1}不再受<<n>>神秘之幕保护。
 {1} is protected by a diamond sheen!
 {1}受到了钻石光泽的保护！
-They can't be crit and take less damage for #{value - 1} more turns!
-无法在 #{value - 1} 内承受更多伤害！
+They can't be crit and take less damage for {1} more turns!
+它们在接下来的{1}回合内不会被击中要害，并且受到的伤害会减少！
 {1}'s Diamond Field was removed!
 {1}的钻石场地被破坏了！
 {1} is no longer protected by Diamond Field.
 {1}不再受钻石场地保护！
 {1} became determined to survive!
 {1}决心要活下去！
-They'll take half damage from sources that aren't attacks for #{value - 1} more turns!
-在 #{value - 1} 回合内 受到非攻击伤害减半！
+They'll take half damage from sources that aren't attacks for {1} more turns!
+它们在接下来的{1}回合内减半受到的非技能攻击伤害！
 {1}'s Natural Protection was removed!
 {1}的自然保护被解除了！
 {1} is no longer inspired by Natural Protection.
 {1}不再受自然保护。
 Crafty Shield protected {1}!
 戏法防守<<n>>保护了{1}！
-The kicked up mat will block attacks against #{teamName} this turn!
-掀起来的榻榻米将在本回合<<n>>阻挡针对#{teamName}的攻击！
+The kicked up mat will block attacks against {1} this turn!
+踢起的垫子将在这一回合阻挡对{1}的攻击！
 A rainbow appeared in the sky above {1}!
 一道彩虹出现在<<n>>{1}的上空！
 The rainbow on {1}'s side was sent away!
@@ -43545,8 +43529,8 @@ The cocoon enclosing {1}'s side was removed!
 包裹{1}的茧壳消失了！
 The cocoon enclosing {1}'s side dried up.
 包裹{1}的茧壳干瘪了！
-#{b.pbThis} was healed by the cruel cocoon at the expense of its PP!
-#{b.pbThis}被残酷之茧治愈，但损耗了PP！
+{1} was healed by the cruel cocoon at the expense of its PP!
+{1}被残酷的茧以牺牲其PP为代价治愈了！
 A turbulent sky appeared above {1}!
 {1}上方出现了动荡的天空！
 The turbulent sky above {1}'s side was calmed!
@@ -43557,8 +43541,8 @@ A Tailwind blew from behind {1}!
 一阵顺风从后方吹来！
 It will last forever!
 永不停息！
-It will last for #{value - 1} more turns!
-它将持续#{value - 1}个回合！
+It will last for {1} more turns!
+它将持续{1}个回合！
 {1}'s Tailwind was stopped!
 {1}的顺风停息了！
 {1}'s Tailwind petered out.
@@ -43585,10 +43569,10 @@ The opposing {1} was restored to full health!
 {1}正在复活！
 The opposing {1} is reviving!
 对方的{1}正在复活！
-#{battler.pbThis} filched #{filchedFrom.pbThis(true)}'s #{itemName}!
-#{battler.pbThis}偷到了#{filchedFrom.pbThis(true)}的#{itemName}！
-#{battler.pbThis} got a bit extra out of their #{getItemName(item)}!
-#{battler.pbThis}从#{getItemName(item)}得到了一点东西！
+{1} filched {2}'s {3}!
+{1}偷走了{2}的{3}！
+{1} got a bit extra out of their {2}!
+{1}从它的{2}中得到了一点额外的东西！
 {1} was badly hurt by the {2}!
 {1}被{2}严重伤害了！
 {1}'s status returned to normal!
@@ -43855,10 +43839,10 @@ It became special!
 {1}被阳光照得心烦意乱。
 But it failed, since everyone else already acted this turn!
 但是失败了， 因为其他精灵都已经行动过了！
-But it failed, since #{target.pbThis(true)} didn't choose to use a move!
-但是失败了， 因为#{target.pbThis(true)}没有选择使用技能！
-But it failed, since #{target.pbThis(true)} already move this turn!
-但是失败了，因为#{target.pbThis(true)}本回合已经行动过了！
+But it failed, since {1} didn't choose to use a move!
+但它失败了，因为{1}没有选择使用技能！
+But it failed, since {1} already move this turn!
+但它失败了，因为{1}已经在这一回合行动了！
 It's hyper effective on {1}!
 对{1}非常有效！
 It's hyper effective!
@@ -45349,6 +45333,8 @@ smoggy and dangerous conditions
 雾霾天气
 lightly cloudy skies with no precipitation
 多云天气无降水
+Oh? They dropped something else as well!
+哦？它们还掉了别的东西！
 The fleeing trainer dropped some food!
 逃跑的训练家掉了一些吃的！
 Pro Trainer Level {1}
@@ -48743,16 +48729,16 @@ All boating spots were unlocked.
 所有的坐船点都已解锁。
 There are no other places you can travel to.
 你没有其它可以去的地方。
-Invalid Achievement #{achievementID}.
-无效成就#{achievementID}。
+Invalid Achievement {1}.
+无效成就{1}。
 Achievement {1} is already unlocked! Cannot unlock again.
 成就{1}已解锁，无法再次解锁。
 Achievement {1} is blocked from being completed, since randomizer is active.
 由于随机器处于激活状态，成就{1}无法完成。
 Unlocking achievement {1}.
 成就{1}已解锁。
-Invalid Achievement #{achievement_id}.
-无效成就#{achievement_id}。
+Invalid Achievement {1}
+无效成就{1}
 Achievement Unlocked:\<<n>>\c<<[>>2<<]>>{1}
 已解锁成就：\<<n>>\c<<[>>2<<]>>{1}
 \cl\l[2]\op\wu<ac>{1}</ac>\wtnp[{2}]
@@ -52604,6 +52590,8 @@ Trapping Move
 陷阱技能
 Trapped By
 被...困住
+Constricted Turns
+被捆绑回合数
 Not Slacking Off
 没有偷懒
 Two Turn Attack

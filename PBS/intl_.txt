@@ -2046,12 +2046,6 @@ Your Pokemon are now healed.
 Your Pokemon are now healed.
 [Map24]
 [Map25]
-What're you doing?!
-What're you doing?!
-You're \PN, right? The trainer the Professor called in?
-You're \PN, right? The trainer the Professor called in?
-So go destroy that Avatar before we're all killed!
-So go destroy that Avatar before we're all killed!
 Presenting, my very own Normal-type attack!
 Presenting, my very own Normal-type attack!
 Is it Physical, you ask? Special, perhaps? It's both, of course!
@@ -2066,6 +2060,12 @@ Truly you've struck the motherload of moves!
 Truly you've struck the motherload of moves!
 Fine... I just wanted something to do now that the mine's closed...
 Fine... I just wanted something to do now that the mine's closed...
+What're you doing?!
+What're you doing?!
+You're \PN, right? The trainer the Professor called in?
+You're \PN, right? The trainer the Professor called in?
+So go destroy that Avatar before we're all killed!
+So go destroy that Avatar before we're all killed!
 I used to use a lot of Life Orbs. Didn't care if my Pokemon got hurt so long as they did the work.
 I used to use a lot of Life Orbs. Didn't care if my Pokemon got hurt so long as they did the work.
 But I'm not that kind of person any more. I'm looking to rid myself of them.
@@ -2108,6 +2108,10 @@ I laid out each of these starter tokens to maybe attract someone suitable... for
 I laid out each of these starter tokens to maybe attract someone suitable... for battle. 
 Perhaps you'll be able to satisfy both criteria...
 Perhaps you'll be able to satisfy both criteria...
+The top of the sign is labeled "Grouz Mine Bulletin."
+The top of the sign is labeled "Grouz Mine Bulletin." 
+Remnants of old, yellowed papers are still stapled to the rest.
+Remnants of old, yellowed papers are still stapled to the rest.
 What a disgrace.
 What a disgrace.
 We're supposed to be keeping this area safe.
@@ -2144,10 +2148,6 @@ You’re strong. You’ve proven that. This’ll be a piece of cake. Trust me. S
 …She hung up.
 Thanks for the help.
 Thanks for the help.
-The top of the sign is labeled "Grouz Mine Bulletin."
-The top of the sign is labeled "Grouz Mine Bulletin." 
-Remnants of old, yellowed papers are still stapled to the rest.
-Remnants of old, yellowed papers are still stapled to the rest.
 Dr. Hekata's House
 Dr. Hekata's House
 The door is boarded up.
@@ -2274,32 +2274,6 @@ I heard the stories, but it's still hard to believe that Avatars just... fade fr
 I heard the stories, but it's still hard to believe that Avatars just... fade from existence when they're defeated.
 When I saw that you were winning, I was mentally prepared to grab a pickaxe and begin the cleanup efforts.
 When I saw that you were winning, I was mentally prepared to grab a pickaxe and begin the cleanup efforts.
-I wanted to be a Water-type trainer before, but now I don't.
-I wanted to be a Water-type trainer before, but now I don't.
-That's because I caught this Tentacool. It's super dumb. It's so dumb that I quit being a Trainer.
-That's because I caught this Tentacool. It's super dumb. It's so dumb that I quit being a Trainer.
-Maybe I'll want to be a Trainer again if I see a cool Water-type Pokemon, but if any Pokemon is as dumb as this Tentacool, I might die.
-Maybe I'll want to be a Trainer again if I see a cool Water-type Pokemon, but if any Pokemon is as dumb as this Tentacool, I might die.
-Do you have a cool Water-type Pokemon that you could show me?
-Do you have a cool Water-type Pokemon that you could show me?
-I'll give you my dumb Pokemon if you do.
-I'll give you my dumb Pokemon if you do.
-That's cool, maybe.
-That's cool, maybe.
-Oh. That's dumb. You are dumb.
-Oh. That's dumb. You are dumb.
-Wow. That Water-type is pretty cool.
-Wow. That Water-type is pretty cool.
-I still don't want to be a Trainer anymore.
-I still don't want to be a Trainer anymore.
-Take this dumb Tentacool because I don't want to see or think or hear or touch it again.
-Take this dumb Tentacool because I don't want to see or think or hear or touch it again.
-It is your dumb problem now.
-It is your dumb problem now.
-Ok. I'll keep holding on to this dumb Pokemon.
-Ok. I'll keep holding on to this dumb Pokemon.
-Yeah.
-Yeah.
 Ohoh, does another fly enter my trap?
 Ohoh, does another fly enter my trap?
 Watch yourself, you may find yourself mesmerized.
@@ -2320,6 +2294,32 @@ I'm learning about important dates in history. The founding of Prizca, the fall 
 I'm learning about important dates in history. The founding of Prizca, the fall of the monarchy.
 All of them are fascinating, but I believe my favorite is the one we'll have, no?
 All of them are fascinating, but I believe my favorite is the one we'll have, no?
+I wanted to be a Water-type trainer before, but now I don't.
+I wanted to be a Water-type trainer before, but now I don't.
+That's because I caught this Tentacool. It's super dumb. It's so dumb that I quit being a Trainer.
+That's because I caught this Tentacool. It's super dumb. It's so dumb that I quit being a Trainer.
+Maybe I'll want to be a Trainer again if I see a cool Water-type Pokemon, but if any Pokemon is as dumb as this Tentacool, I might die.
+Maybe I'll want to be a Trainer again if I see a cool Water-type Pokemon, but if any Pokemon is as dumb as this Tentacool, I might die.
+Do you have a cool Water-type Pokemon that you could show me?
+Do you have a cool Water-type Pokemon that you could show me?
+I'll give you my dumb Pokemon if you do.
+I'll give you my dumb Pokemon if you do.
+That's cool, maybe.
+That's cool, maybe.
+Oh. That's dumb. You are dumb.
+Oh. That's dumb. You are dumb.
+Wow. That Water-type is pretty cool.
+Wow. That Water-type is pretty cool.
+I still don't want to be a Trainer anymore.
+I still don't want to be a Trainer anymore.
+Take this dumb Tentacool because I don't want to see or think or hear or touch it again.
+Take this dumb Tentacool because I don't want to see or think or hear or touch it again.
+It is your dumb problem now.
+It is your dumb problem now.
+Ok. I'll keep holding on to this dumb Pokemon.
+Ok. I'll keep holding on to this dumb Pokemon.
+Yeah.
+Yeah.
 Yes
 Yes
 No
@@ -3022,12 +3022,6 @@ Patrat
 Patrat
 [Map36]
 [Map37]
-The lake here used to be pretty. The ice rink is nice, but it just doesn't have the same appeal.
-The lake here used to be pretty. The ice rink is nice, but it just doesn't have the same appeal.
-I remember this place started freezing a few years back, right before Team Chasm disbanded.
-I remember this place started freezing a few years back, right before Team Chasm disbanded.
-I wouldn't put it past them to be behind it, they got their hands in everything.
-I wouldn't put it past them to be behind it, they got their hands in everything.
 I've been trying to learn every sport lately.
 I've been trying to learn every sport lately.
 Judo, baseball, tennis, even lacrosse. I've managed to hold my own against players in each of them.
@@ -3036,6 +3030,12 @@ It's a long but rewarding process. My next project is figure skating.
 It's a long but rewarding process. My next project is figure skating. 
 That lady over there is killing it, so I'm trying to copy her movements.
 That lady over there is killing it, so I'm trying to copy her movements.
+The lake here used to be pretty. The ice rink is nice, but it just doesn't have the same appeal.
+The lake here used to be pretty. The ice rink is nice, but it just doesn't have the same appeal.
+I remember this place started freezing a few years back, right before Team Chasm disbanded.
+I remember this place started freezing a few years back, right before Team Chasm disbanded.
+I wouldn't put it past them to be behind it, they got their hands in everything.
+I wouldn't put it past them to be behind it, they got their hands in everything.
 I used to be a hockey player, so ice skating is something that was natural to me.
 I used to be a hockey player, so ice skating is something that was natural to me.
 But I have to admit, figure skaters have something figured out.
@@ -3052,34 +3052,34 @@ If you do go in, you legally absolve the Rangers and the Svait Rescue Operation 
 "Svait, experience an eternal snow season!"
 "Sister of Icirrus City."
 "Sister of Icirrus City."
-East: County Park
-East: County Park
-South: Repora Forest
-South: Repora Forest
-North: Ice Cave
-North: Ice Cave
 The Ice Cave is really a unique phenomenon. It spews out extremely cold air.
 The Ice Cave is really a unique phenomenon. It spews out extremely cold air.
 It cools the area down so much that we get snowfall most of the year.
 It cools the area down so much that we get snowfall most of the year.
 In fact, we get more snow even than Mt. Kilna.
 In fact, we get more snow even than Mt. Kilna.
+East: County Park
+East: County Park
+South: Repora Forest
+South: Repora Forest
+North: Ice Cave
+North: Ice Cave
 I've been coming to this lake once a year for over thirty years now.
 I've been coming to this lake once a year for over thirty years now.
 Seeing this place grow and change has been both strange and exciting.
 Seeing this place grow and change has been both strange and exciting.
+The ice rink used to be a lake, yet it's entirely frozen now.
+The ice rink used to be a lake, yet it's entirely frozen now.
+This little pond stays unfrozen however.
+This little pond stays unfrozen however.
+What could have caused such an abnormal change in temperature in such a concentrated area?
+What could have caused such an abnormal change in temperature in such a concentrated area?
 Ugh. I don't really get how to do this whole ice skating thing.
 Ugh.  I don't really get how to do this whole ice skating thing.
 ACHOO!
 ACHOO!
 I think I've also caught a cold...
 I think I've also caught a cold...
-The ice rink used to be a lake, yet it's entirely frozen now.
-The ice rink used to be a lake, yet it's entirely frozen now.
-This little pond stays unfrozen however.
-This little pond stays unfrozen however.
-What could have caused such an abnormal change in temperature in such a concentrated area?
-What could have caused such an abnormal change in temperature in such a concentrated area?
 There you are.
 There you are.
 I’ve had a chance to look more at the data on that USB.
@@ -5597,18 +5597,6 @@ Maybe.
 He isn't relevant.
 He isn't relevant.
 [Map79]
-Begin a doubles battle against the Artificial Trainer?
-Begin a doubles battle against the Artificial Trainer?
-Sketch is an amazing move! We're still trying to find the limits of Smeargle biology.
-Sketch is an amazing move! We're still trying to find the limits of Smeargle biology.
-Help me find it!
-Help me find it!
-Excellent work! I have all the research I need.
-Excellent work! I have all the research I need.
-Enjoy your day.
-Enjoy your day.
-I'll need to review this data for a bit, come back later.
-I'll need to review this data for a bit, come back later.
 Wow! We're supposed to be professionals, but your battling prowess made everyone run away.
 Wow! We're supposed to be professionals, but your battling prowess made everyone run away.
 You've beaten everyone, so as promised, a reward.
@@ -5625,12 +5613,20 @@ Go back and fight them all, then come back to me.
 Go back and fight them all, then come back to me.
 I have no more to offer you, I'm afraid. Your battling data was excellent, so it's a shame.
 I have no more to offer you, I'm afraid. Your battling data was excellent, so it's a shame.
+Sketch is an amazing move! We're still trying to find the limits of Smeargle biology.
+Sketch is an amazing move! We're still trying to find the limits of Smeargle biology.
+Help me find it!
+Help me find it!
+Excellent work! I have all the research I need.
+Excellent work! I have all the research I need.
+Enjoy your day.
+Enjoy your day.
+I'll need to review this data for a bit, come back later.
+I'll need to review this data for a bit, come back later.
+Begin a doubles battle against the Artificial Trainer?
+Begin a doubles battle against the Artificial Trainer?
 Strategic Battling Testing Room
 Strategic Battling Testing Room
-Begin a triple battle against the Artificial Trainer?
-Begin a triple battle against the Artificial Trainer?
-It looks relieved to no longer be floating!
-It looks relieved to no longer be floating!
 One of the scientists here gave me a batch of weird rocks, and told me to give some to my Mudsdale.
 One of the scientists here gave me a batch of weird rocks, and told me to give some to my Mudsdale.
 I now understand why she said "some" instead of "all".
@@ -5645,80 +5641,40 @@ Phew. One of the scientists was able to help reverse the effects of the Float St
 Phew. One of the scientists was able to help reverse the effects of the Float Stones.
 Crisis averted!
 Crisis averted!
+It looks relieved to no longer be floating!
+It looks relieved to no longer be floating!
+Begin a triple battle against the Artificial Trainer?
+Begin a triple battle against the Artificial Trainer?
 Artificial Battlers Testing Room
 Artificial Battlers Testing Room
+It flounders about, unable to get purchase!
+It flounders about, unable to get purchase!
 You aced that test, Swadloon!
 You aced that test, Swadloon!
 You're the best!
 You're the best!
-It flounders about, unable to get purchase!
-It flounders about, unable to get purchase!
-Hello Trainer, have you been collecting a good number of Pokemon by any chance?
-Hello Trainer, have you been collecting a good number of Pokemon by any chance?
-LuxTech is sponsoring any Trainers that have amassed a significant number of Pokemon.
-LuxTech is sponsoring any Trainers that have amassed a significant number of Pokemon.
-Oh! It seems like you've already acquired 20% of the Dex. Excellent work.
-Oh! It seems like you've already acquired 20% of the Dex. Excellent work.
-Here is your reward.
-Here is your reward. 
-If you manage to acquire 40% of the Dex, I have another reward for you.
-If you manage to acquire 40% of the Dex, I have another reward for you.
-When you've collected 20% of all Pokemon in the dex, speak to me again. I'll have a reward.
-When you've collected 20% of all Pokemon in the dex, speak to me again. I'll have a reward.
-Wonderful, that's 40% of the Dex! You've got quite a collection, Trainer.
-Wonderful, that's 40% of the Dex! You've got quite a collection, Trainer.
-As promised, here is compensation for your efforts.
-As promised, here is compensation for your efforts.
-If you manage 60% completion, I'll have more rewards for you.
-If you manage 60% completion, I'll have more rewards for you.
-If you manage to acquire 40% of the Dex, I'll have another reward for you.
-If you manage to acquire 40% of the Dex, I'll have another reward for you.
-Come speak to me then.
-Come speak to me then.
-Congratulations, Trainer. You've managed to complete 60% of your Dex.
-Congratulations, Trainer. You've managed to complete 60% of your Dex.
-LuxTech thanks you for your work. Here's your reward.
-LuxTech thanks you for your work. Here's your reward.
-As you might have guessed, there is another reward for the completion of 80% of the Dex.
-As you might have guessed, there is another reward for the completion of 80% of the Dex.
-Come back when you have achieved that milestone.
-Come back when you have achieved that milestone.
-If you manage a 60% completion, I have more rewards for you.
-If you manage a 60% completion, I have more rewards for you.
-80%! Fantastic work, Trainer.
-80%! Fantastic work, Trainer. 
-You might be one of the few to ever accomplish the feat of 100% completion.
-You might be one of the few to ever accomplish the feat of 100% completion.
-Regardless of whether you do that, I have your 80% reward for you.
-Regardless of whether you do that, I have your 80% reward for you.
-Well, if you manage to collect every Pokemon, LuxTech still has payment planned.
-Well, if you manage to collect every Pokemon, LuxTech still has payment planned.
-Best of luck.
-Best of luck.
-That's it! A full Dex completion!
-That's it! A full Dex completion!
-Amazing, Trainer! To actually acquire every Pokemon species in Makya...
-Amazing, Trainer! To actually acquire every Pokemon species in Makya...
-Oh what science could learn from your collection! The mysteries of Pokemon can be found at your doorstep!
-Oh what science could learn from your collection!  The mysteries of Pokemon can be found at your doorstep!
-As promised, Trainer, your Dex completion reward. I convinced my boss to pay for one of these things.
-As promised, Trainer, your Dex completion reward. I convinced my boss to pay for one of these things.
-Truly, you're the envy of all collectors. I wish you the best of luck in whatever you do next.
-Truly, you're the envy of all collectors. I wish you the best of luck in whatever you do next.
-If you manage to collect every Pokemon, LuxTech still has payment planned.
-If you manage to collect every Pokemon, LuxTech still has payment planned.
-I never thought I would see a full Dex completion in my life, to be honest.
-I never thought I would see a full Dex completion in my life, to be honest.
-I might try to have the higher ups commemorate your accomplishment with a metal plaque or something.
-I might try to have the higher ups commemorate your accomplishment with a metal plaque or something.
-Swadloon is looking lovingly at its trainer.
-Swadloon is looking lovingly at its trainer.
 I'd love to tell you about what I'm studying, but that might ruin the experiment!
 I'd love to tell you about what I'm studying, but that might ruin the experiment!
 Sorry about the tricks.
 Sorry about the tricks.
 It's really hard to repeat this one, but I'll try my best.
 It's really hard to repeat this one, but I'll try my best.
+Swadloon is looking lovingly at its trainer.
+Swadloon is looking lovingly at its trainer.
+The area up ahead is the battle testing site.
+The area up ahead is the battle testing site.
+It's where LuxTech scientists observe the capabilities of Pokemon in test battles.
+It's where LuxTech scientists observe the capabilities of Pokemon in test battles.
+It is recommended that you don't participate until you have at least four gym badges.
+It is recommended that you don't participate until you have at least four gym badges.
+However, if you make it to the end, we do have a reward for you--some tech that no one else has.
+However, if you make it to the end, we do have a reward for you--some tech that no one else has.
+Participate in battles against our scientists, and you may earn a hi-tech prize.
+Participate in battles against our scientists, and you may earn a hi-tech prize.
+Do be careful though, if you're not yet at the right skill level. Four badges is the threshold our data suggests is optimal.
+Do be careful though, if you're not yet at the right skill level. Four badges is the threshold our data suggests is optimal.
+You look skilled enough to participate. Please, go on ahead!
+You look skilled enough to participate. Please, go on ahead!
 Truly, nothing fires my neurons quite like coding.
 Truly, nothing fires my neurons quite like coding.
 It is for this reason that I embarked on my quest--to construct the perfect artificially intelligent trainers!
@@ -5741,26 +5697,10 @@ My government contract depends on it.
 My government contract depends on it.
 If my project succeeds, it'll be implemented in some tourist attraction they're building off the southern coast.
 If my project succeeds, it'll be implemented in some tourist attraction they're building off the southern coast.
-The area up ahead is the battle testing site.
-The area up ahead is the battle testing site.
-It's where LuxTech scientists observe the capabilities of Pokemon in test battles.
-It's where LuxTech scientists observe the capabilities of Pokemon in test battles.
-It is recommended that you don't participate until you have at least four gym badges.
-It is recommended that you don't participate until you have at least four gym badges.
-However, if you make it to the end, we do have a reward for you--some tech that no one else has.
-However, if you make it to the end, we do have a reward for you--some tech that no one else has.
-Participate in battles against our scientists, and you may earn a hi-tech prize.
-Participate in battles against our scientists, and you may earn a hi-tech prize.
-Do be careful though, if you're not yet at the right skill level. Four badges is the threshold our data suggests is optimal.
-Do be careful though, if you're not yet at the right skill level. Four badges is the threshold our data suggests is optimal.
-You look skilled enough to participate. Please, go on ahead!
-You look skilled enough to participate. Please, go on ahead!
 My dad brings me to work every day after school since I like to watch the Pokemon battles.
 My dad brings me to work every day after school since I like to watch the Pokemon battles.
 You get to see all sorts of Pokemon here. Sometimes the Trainers let me pet them!
 You get to see all sorts of Pokemon here. Sometimes the Trainers let me pet them!
-Begin a singles battle against the Artificial Trainer?
-Begin a singles battle against the Artificial Trainer?
 Pokemon defense mechanisms are amazing!
 Pokemon defense mechanisms are amazing!
 Time to see them in action!
@@ -5769,6 +5709,8 @@ You pierced right through my defenses!
 You pierced right through my defenses!
 Is there ever such a thing as enough data?
 Is there ever such a thing as enough data?
+Begin a singles battle against the Artificial Trainer?
+Begin a singles battle against the Artificial Trainer?
 Some Pokemon can affect the area around them with ease.
 Some Pokemon can affect the area around them with ease.
 Your effect seems to be an aura of fear, based on what I'm feeling right now.
@@ -8279,22 +8221,22 @@ Yeah.
 Not really.
 Not really.
 [Map129]
-A dark stone in the shape of a Nincada.
-A dark stone in the shape of a Nincada.
-It's slightly warm to the touch.
-It's slightly warm to the touch.
 I am the most powerful ninja in Makya! I traveled all the way from Sweetrock Harbor to prove it!
 I am the most powerful ninja in Makya! I traveled all the way from Sweetrock Harbor to prove it!
 No, my candies!
 No, my candies!
 The Shinobi code dictates that I let you pass. But beware, for my revenge will be swift...
 The Shinobi code dictates that I let you pass. But beware, for my revenge will be swift...
+A dark stone in the shape of a Nincada.
+A dark stone in the shape of a Nincada.
+It's slightly warm to the touch.
+It's slightly warm to the touch.
 The door is thoroughly locked.
 The door is thoroughly locked.
-A dark stone in the shape of a Croagunk.
-A dark stone in the shape of a Croagunk.
 A dark stone in the shape of a Murkrow.
 A dark stone in the shape of a Murkrow.
+A dark stone in the shape of a Croagunk.
+A dark stone in the shape of a Croagunk.
 Hey, yo! Help me out for a second, would ya?
 Hey, yo! Help me out for a second, would ya?
 There’s, like, a house up the road that this guy, like, totally keeps unlocked.
@@ -8321,14 +8263,6 @@ Back to Casaba Villa I go!
 Back to Casaba Villa I go!
 Well, it's a good thing a station is right there.
 Well, it's a good thing a station is right there.
-Man, these lifelike Pokemon statues are crazy realistic.
-Man, these lifelike Pokemon statues are crazy realistic.
-I just had a pretty morbid revelation. I think I'm gonna go get some ice cream and cry.
-I just had a pretty morbid revelation. I think I'm gonna go get some ice cream and cry.
-I wonder what the artist did to make these statues so... lifelike.
-I wonder what the artist did to make these statues so... lifelike.
-Do you think those statues were... uhhh... you know... like, alive at one point?
-Do you think those statues were... uhhh... you know... like, alive at one point?
 A dark stone in the shape of a Lillipup.
 A dark stone in the shape of a Lillipup.
 It's slightly warm to the --
@@ -8355,6 +8289,14 @@ You apply the Full Restore to the Lillipup. In an instant, it breaks free, shaki
 You apply the Full Restore to the Lillipup. In an instant, it breaks free, shaking off bits of stone.
 You don't have a Full Restore to use.
 You don't have a Full Restore to use.
+Man, these lifelike Pokemon statues are crazy realistic.
+Man, these lifelike Pokemon statues are crazy realistic.
+I just had a pretty morbid revelation. I think I'm gonna go get some ice cream and cry.
+I just had a pretty morbid revelation. I think I'm gonna go get some ice cream and cry.
+I wonder what the artist did to make these statues so... lifelike.
+I wonder what the artist did to make these statues so... lifelike.
+Do you think those statues were... uhhh... you know... like, alive at one point?
+Do you think those statues were... uhhh... you know... like, alive at one point?
 North: Velenz
 North: Velenz
 Leave it
@@ -8364,14 +8306,6 @@ Use a Moomoo Milk
 Use a Full Restore
 Use a Full Restore
 [Map130]
-South: Lingering Delta
-South: Lingering Delta
-West: Eleig Stretch
-West: Eleig Stretch
-East: Sandstone Estuary
-East: Sandstone Estuary
-North: Split Peaks
-North: Split Peaks
 I have had it up to HERE with this Darumaka of mine.
 I have had it up to HERE with this Darumaka of mine.
 I've swam across this entire river using nothing but my sheer force of will.
@@ -8400,16 +8334,14 @@ It'll give me a lot of time with my thoughts.
 It'll give me a lot of time with my thoughts.
 Not entirely sure that's a good thing.
 Not entirely sure that's a good thing.
-I saw a Pokemon hold a key in its mouth. It looked pretty important, hope whoever lost it had a spare.
-I saw a Pokemon hold a key in its mouth. It looked pretty important, hope whoever lost it had a spare.
-Seaking! We must depart to look for this key! Dive!
-Seaking! We must depart to look for this key! Dive!
-I think about that key a lot. What if it leads to treasure?
-I think about that key a lot. What if it leads to treasure?
-Like, imagine if there's a chest somewhere around here! Or some secret door! Keys open up so many doors!
-Like, imagine if there's a chest somewhere around here! Or some secret door! Keys open up so many doors!
-Uhhh, literally and figuratively, I guess.
-Uhhh, literally and figuratively, I guess.
+South: Lingering Delta
+South: Lingering Delta
+West: Eleig Stretch
+West: Eleig Stretch
+East: Sandstone Estuary
+East: Sandstone Estuary
+North: Split Peaks
+North: Split Peaks
 I swam here from Prizca!
 I swam here from Prizca!
 Time to swim back!
@@ -8420,14 +8352,16 @@ My power is growing! I feel like I can swim forever!
 My power is growing! I feel like I can swim forever! 
 One day, I'll be able to swim from one side of Makya to the other.
 One day, I'll be able to swim from one side of Makya to the other.
-Just a hop and a skip to the north, a legendary Avatar has been causing a commotion.
-Just a hop and a skip to the north, a legendary Avatar has been causing a commotion.
-How exciting!
-How exciting!
-Onwards, to ever greater victories!
-Onwards, to ever greater victories!
-Whoever takes out that Virizion will be a legend in their own right!
-Whoever takes out that Virizion will be a legend in their own right!
+I saw a Pokemon hold a key in its mouth. It looked pretty important, hope whoever lost it had a spare.
+I saw a Pokemon hold a key in its mouth. It looked pretty important, hope whoever lost it had a spare.
+Seaking! We must depart to look for this key! Dive!
+Seaking! We must depart to look for this key! Dive!
+I think about that key a lot. What if it leads to treasure?
+I think about that key a lot. What if it leads to treasure?
+Like, imagine if there's a chest somewhere around here! Or some secret door! Keys open up so many doors!
+Like, imagine if there's a chest somewhere around here! Or some secret door! Keys open up so many doors!
+Uhhh, literally and figuratively, I guess.
+Uhhh, literally and figuratively, I guess.
 Hey y'all, FireStar9 here with another advanced battling vlog!
 Hey y'all, FireStar9 here with another advanced battling vlog!
 I've in the Canal Desert, where a random Avatar of Maractus is growing a bunch of cacti.
@@ -8440,6 +8374,14 @@ That Trainer really proved their worth. Let's look at the replays to see how the
 That Trainer really proved their worth. Let's look at the replays to see how they did it!
 I'd like to take a moment to thank our sponsor, Emma's Empolorium!
 I'd like to take a moment to thank our sponsor, Emma's Empolorium! 
+Just a hop and a skip to the north, a legendary Avatar has been causing a commotion.
+Just a hop and a skip to the north, a legendary Avatar has been causing a commotion.
+How exciting!
+How exciting!
+Onwards, to ever greater victories!
+Onwards, to ever greater victories!
+Whoever takes out that Virizion will be a legend in their own right!
+Whoever takes out that Virizion will be a legend in their own right!
 Whoaaaa there Trainer, slow down.
 Whoaaaa there Trainer, slow down.
 What a showin' pardner.
@@ -12539,6 +12481,8 @@ You may have bested me in battle, but you'll still struggle against Noel.
 You may have bested me in battle, but you'll still struggle against Noel.
 Leave me be, you nincompoop.
 Leave me be, you nincompoop.
+It's a beautifully carved ice sculpture of an Alakazam.
+It's a beautifully carved ice sculpture of an Alakazam.
 Hey, sorry champ, but Noel's policy here is that everybody's gotta move through the gym counter-clockwise.
 Hey, sorry champ, but Noel's policy here is that everybody's gotta move through the gym counter-clockwise.
 I'm assuming its got some artsy-fartsy reason.
@@ -12547,8 +12491,6 @@ So, come on over this way, yeah?
 So, come on over this way, yeah?
 Yo.
 Yo.
-It's a beautifully carved ice sculpture of an Alakazam.
-It's a beautifully carved ice sculpture of an Alakazam.
 Ugh.... nothing to do but crash at home, I guess.
 Ugh.... nothing to do but crash at home, I guess.
 An inspiring battle, fit for feature in my next sculpture!
@@ -12569,8 +12511,6 @@ Cause, like...
 Cause, like...
 The ice...
 The ice...
-It's a beautifully carved ice sculpture of an Espeon.
-It's a beautifully carved ice sculpture of an Espeon.
 Noel is, in every sense of the word, and artist.
 Noel is, in every sense of the word, and artist.
 He'll come if you take out the Trainers here.
@@ -12579,14 +12519,8 @@ Wow! Top class art.
 Wow! Top class art.
 You bring your medium to a new level.
 You bring your medium to a new level.
-Ugh, way to ruin the vibes.
-Ugh, way to ruin the vibes.
-That was pretty cool, I guess.
-That was pretty cool, I guess.
-You're just here for the badge right?
-You're just here for the badge right?
-Heh, poser.
-Heh, poser.
+It's a beautifully carved ice sculpture of an Espeon.
+It's a beautifully carved ice sculpture of an Espeon.
 You doing good? Down for a rematch?
 You doing good? Down for a rematch?
 How’re you? Holding up? Good.
@@ -12655,6 +12589,14 @@ Maybe it’s common for you, but for me… my life got a whole lot easier.
 Maybe it’s common for you, but for me… my life got a whole lot easier.
 So chill. You deserve it.
 So chill. You deserve it.
+Ugh, way to ruin the vibes.
+Ugh, way to ruin the vibes.
+That was pretty cool, I guess.
+That was pretty cool, I guess.
+You're just here for the badge right?
+You're just here for the badge right?
+Heh, poser.
+Heh, poser.
 I sparkled and shone... but you much moreso.
 I sparkled and shone... but you much moreso.
 A rare defeat.
@@ -20526,6 +20468,10 @@ You insert the Team Chasm ID Card.
 You insert the Team Chasm ID Card.
 The door unlocks with a click.
 The door unlocks with a click.
+It's a vending machine!
+It's a vending machine!
+However, it no longer holds any drinks.
+However, it no longer holds any drinks.
 [Map339]
 [Map340]
 Are you ready?
@@ -27436,8 +27382,8 @@ Attacks with an electrified beak. Deals 50% more damage unless the target has mo
 Attacks with an electrified beak. Deals 50% more damage unless the target has moved this turn.
 The user charges at its foe, surrounding itself with lightning. It has a 30% chance to numb.
 The user charges at its foe, surrounding itself with lightning. It has a 30% chance to numb.
-The user becomes energy charged, doubling its next Electric-type attack. Also raises the user's defensive stats by two steps each.
-The user becomes energy charged, doubling its next Electric-type attack. Also raises the user's defensive stats by two steps each.
+The user becomes energy charged, doubling its next Electric-type attack. Also raises the user's Defense and Sp. Def.
+The user becomes energy charged, doubling its next Electric-type attack. Also raises the user's Defense and Sp. Def.
 The user fires a concentrated bundle of electricity, raising the user's Sp. Atk stat by two steps.
 The user fires a concentrated bundle of electricity, raising the user's Sp. Atk stat by two steps.
 A flare of electricity is loosed to strike the area around the user. It has a 30% chance to numb.
@@ -27890,8 +27836,8 @@ The user kicks the target with a powerful, arcing technique.
 The user kicks the target with a powerful, arcing technique.
 The user attacks with a burst of inner energy. Lowers the user's Sp. Atk by four steps.
 The user attacks with a burst of inner energy. Lowers the user's Sp. Atk by four steps.
-The user holds fast with its teammates, raising the Defense of itself and its allies by three steps.
-The user holds fast with its teammates, raising the Defense of itself and its allies by three steps.
+The user holds fast with its teammates, raising the Defense of itself and its allies by two steps.
+The user holds fast with its teammates, raising the Defense of itself and its allies by two steps.
 The user shoots three arrows made of Aura with extreme precision. Can random critical hit.
 The user shoots three arrows made of Aura with extreme precision. Can random critical hit.
 The user manifests a bolt of pure courage. This has a 10% chance of raising the user's Sp. Atk.
@@ -28464,8 +28410,8 @@ A parasitic seed leeches the target and reduces both its attacking stats.
 A parasitic seed leeches the target and reduces both its attacking stats.
 The user and the target each share their highest stat step with the other.
 The user and the target each share their highest stat step with the other.
-The user calms itself and its teammates, raising the Sp. Def of itself and its allies by three steps.
-The user calms itself and its teammates, raising the Sp. Def of itself and its allies by three steps.
+The user calms itself and its teammates, raising the Sp. Def of itself and its allies by two steps.
+The user calms itself and its teammates, raising the Sp. Def of itself and its allies by two steps.
 A nutrient-draining attack. The user's HP is restored by 75% of the damage dealt.
 A nutrient-draining attack. The user's HP is restored by 75% of the damage dealt.
 The user makes a scary sound by shaking, forcing the target to switch out. Always goes last.
@@ -28908,8 +28854,8 @@ The user raises their Speed by 4 steps, quadruples their critical hit chance, an
 The user raises their Speed by 4 steps, quadruples their critical hit chance, and becomes Fighting-type.
 The user takes 50% less attack damage for 3 turns, and becomes Fighting-type.
 The user takes 50% less attack damage for 3 turns, and becomes Fighting-type.
-The user summons an allied Tyrogue, raises the Defense of itself and its allies by 3 steps, and becomes Fighting-type.
-The user summons an allied Tyrogue, raises the Defense of itself and its allies by 3 steps, and becomes Fighting-type.
+The user summons an allied Tyrogue, raises the Defense of itself and its allies by 2 steps, and becomes Fighting-type.
+The user summons an allied Tyrogue, raises the Defense of itself and its allies by 2 steps, and becomes Fighting-type.
 The user ups the Speed and attack count of itself and allies, and becomes Flying-type.
 The user ups the Speed and attack count of itself and allies, and becomes Flying-type.
 All near foes are forced to switch out, and the user becomes Flying-type.
@@ -28998,8 +28944,8 @@ The user embeds its roots to heal by 1/4th every turn for four turns, and become
 The user embeds its roots to heal by 1/4th every turn for four turns, and becomes Grass-type.
 Plants seeds on all near foes, draining HP each turn. User becomes Grass-type.
 Plants seeds on all near foes, draining HP each turn. User becomes Grass-type.
-The user summons an allied Gossifleur, raises the Sp. Def itself and its allies by 3 steps, and becomes Grass-type.
-The user summons an allied Gossifleur, raises the Sp. Def itself and its allies by 3 steps, and becomes Grass-type.
+The user summons an allied Gossifleur, raises the Sp. Def itself and its allies by 2 steps, and becomes Grass-type.
+The user summons an allied Gossifleur, raises the Sp. Def itself and its allies by 2 steps, and becomes Grass-type.
 A powerful electric blast is let loose on the target, numbing it.
 A powerful electric blast is let loose on the target, numbing it.
 The user raises its Sp. Atk and Speed by two steps, and becomes Electric-type.
@@ -33511,8 +33457,8 @@ Boosts Sp. Attack by 75%, but the Pokémon becomes frostbitten after attacking.
 Boosts Sp. Attack by 75%, but the Pokémon becomes frostbitten after attacking.
 Immune to Ice-type moves, and raises both attacking stats if hit by one.
 Immune to Ice-type moves, and raises both attacking stats if hit by one.
-When hit with a physical move, hits back instantly with Bind.
-When hit with a physical move, hits back instantly with Bind.
+When hit with a physical move, traps and damages the attacker for three turns.
+When hit with a physical move, traps and damages the attacker for three turns.
 Using or being hit by a physical move leaves a rock on the field. Status moves collect them, healing by 1/4th each.
 Using or being hit by a physical move leaves a rock on the field. Status moves collect them, healing by 1/4th each.
 After using a status move, raises both of the Pokémon's defensive stats.
@@ -37513,8 +37459,8 @@ Type
 Type
 Tribe
  Tribe
-Generation
-Generation
+Total
+Total
 {1} {2}
 {1} {2}
 Mysterious Trainer
@@ -38353,6 +38299,8 @@ Unknown
 <outln2>Achievements: {1}</outln2>
 <<[>>{1}/{2}<<]>>
 <<[>>{1}/{2}<<]>>
+Earn a {1}
+Earn a {1}
 Earn {1} {2}
 Earn {1} {2}
 <outln2>Collection Rewards: {1}</outln2>
@@ -40429,6 +40377,14 @@ Story here involving {1} and {2}!
 Story here involving {1} and {2}!
 PokÉstate #{$PokEstate.estate_box + 1}
 PokÉstate #{$PokEstate.estate_box +  1}
+{1} non-legendary species (25%)
+{1} non-legendary species (25%)
+{1} non-legendary species (50%)
+{1} non-legendary species (50%)
+{1} non-legendary species (75%)
+{1} non-legendary species (75%)
+{1} non-legendary species (100%)
+{1} non-legendary species (100%)
 all species in {1}
 all species in {1}
 {1} {2}-type species
@@ -40687,8 +40643,6 @@ Catch Dif.
 Catch Dif.
 Exp. Grant
 Exp. Grant
-Total
-Total
 {1:d}'{2:02d}"
 {1:d}'{2:02d}"
 {1:4.1f} lbs.
@@ -40937,6 +40891,8 @@ Signature (D)
 Signature (D)
 Avatar Data (D)
 Avatar Data (D)
+Generation
+Generation
 Multiple Forms
 Multiple Forms
 Invert Current
@@ -41459,8 +41415,8 @@ A Shadow creeps into the dream...
 {1} is flying erratically. It looks unstable!
 The avatar swaps machines!
 The avatar swaps machines!
-{1} is jealous of #{targets[0]}'s good fortune!
-{1} is jealous of #{targets[0]}'s good fortune!
+{1} is jealous of {2}'s good fortune!
+{1} is jealous of {2}'s good fortune!
 {1} shuns the cave's darkness!
 {1} shuns the cave's darkness!
 {1} is feeling exposed!
@@ -41489,20 +41445,20 @@ The avatar swaps machines!
 {1} is a big fan of {2}'s last used move!
 {1} envies {2}'s Attack!
 {1} envies {2}'s Attack!
-#{user.pbThis} is wary of the ground!
-#{user.pbThis} is wary of the ground!
-#{user.pbThis} gathers toxic gas!
-#{user.pbThis} gathers toxic gas!
-#{user.pbThis} is warming up its haunting voice!
-#{user.pbThis} is warming up its haunting voice!
+{1} is wary of the ground!
+{1} is wary of the ground!
+{1} gathers toxic gas!
+{1} gathers toxic gas!
+{1} is warming up its haunting voice!
+{1} is warming up its haunting voice!
 {1} is haloed in Dragon Energy!
 {1} is haloed in Dragon Energy!
 {1} is getting used to the harsh conditions!
 {1} is getting used to the harsh conditions!
 Boss using struggle!
 Boss using struggle!
-#{user.pbThis} is winding up a big attack!
-#{user.pbThis} is winding up a big attack!
+{1} is winding up a big attack!
+{1} is winding up a big attack!
 Escorted by, Enthroned upon, Ensconced within this Empty Eminence
 Escorted by, Enthroned upon, Ensconced within this Empty Eminence
 An Avatar has been inserted into Yezera's party!
@@ -41603,8 +41559,8 @@ O Agonal Ecstasies, Spare Us Not Our Agonies
 O Agonal Ecstasies, Spare Us Not Our Agonies
 When enemy Pokémon faint, they deal a quarter of their HP as damage to their last attacker.
 When enemy Pokémon faint, they deal a quarter of their HP as damage to their last attacker.
-#{battler.pbThis} takes its vengeance!
-#{battler.pbThis} takes its vengeance!
+{1} takes its vengeance!
+{1} takes its vengeance!
 I chose a move!
 I chose a move!
 You chose a move!
@@ -41747,8 +41703,8 @@ It doesn't affect {1}...
 It doesn't affect {1}...
 {1} became trapped!
 {1} became trapped!
-#{target.pbThis} prevents a random added effect!
-#{target.pbThis} prevents a random added effect!
+{1} prevents a random added effect!
+{1} prevents a random added effect!
 {1} is pained by its dreams!
 {1} is pained by its dreams!
 {1} transformed!
@@ -41759,12 +41715,12 @@ It doesn't affect {1}...
 {1}'s inner fire flared up!
 {1} finally cooled off!
 {1} finally cooled off!
-#{battler.pbThis} grows one size bigger!
-#{battler.pbThis} grows one size bigger!
-#{battler.pbThis} is fully grown!
-#{battler.pbThis} is fully grown!
-#{battler.pbThis} also heals #{healTarget.name}!
-#{battler.pbThis} also heals #{healTarget.name}!
+{1} grows one size bigger!
+{1} grows one size bigger!
+{1} is fully grown!
+{1} is fully grown!
+{1} also heals {2}!
+{1} also heals {2}!
 {1} is hurt by the noxious presence!
 {1} is hurt by the noxious presence!
 {1} is splashed with fire!
@@ -41803,16 +41759,16 @@ Where to direct power?
 {1} caramlizes slightly in the heat.
 {1} was hurt by the moonlight!
 {1} was hurt by the moonlight!
-For #{pokemon.name} to have two items, both must be Gems!
-For #{pokemon.name} to have two items, both must be Gems!
-For #{pokemon.name} to have two items, both must be Berries!
-For #{pokemon.name} to have two items, both must be Berries!
-For #{pokemon.name} to have two items, both must be Herbs!
-For #{pokemon.name} to have two items, both must be Herbs!
-For #{pokemon.name} to have two items, at least one must be Clothing!
-For #{pokemon.name} to have two items, at least one must be Clothing!
-For #{pokemon.name} to have two items, only one can be Clothing!
-For #{pokemon.name} to have two items, only one can be Clothing!
+For {1} to have two items, both must be Gems!
+For {1} to have two items, both must be Gems!
+For {1} to have two items, both must be Berries!
+For {1} to have two items, both must be Berries!
+For {1} to have two items, both must be Herbs!
+For {1} to have two items, both must be Herbs!
+For {1} to have two items, at least one must be Clothing!
+For {1} to have two items, at least one must be Clothing!
+For {1} to have two items, only one can be Clothing!
+For {1} to have two items, only one can be Clothing!
 {1}'s {2} made it the {3} type!
 {1}'s {2} made it the {3} type!
 {1} is damaged by recoil!
@@ -41943,14 +41899,14 @@ The effects of the weather disappeared.
 The effects of the weather disappeared.
 All stat changes were eliminated!
 All stat changes were eliminated!
-Which item should #{battler.pbThis(true)} drop?
-Which item should #{battler.pbThis(true)} drop?
+Which item should {1} drop?
+Which item should {1} drop?
 {1} dropped its {2}!
 {1} dropped its {2}!
 Transcending time and space, a cost-free switch!
 Transcending time and space, a cost-free switch!
-#{switcher.pbThis} can switch out regardless!
-#{switcher.pbThis} can switch out regardless!
+{1} can switch out regardless!
+{1} can switch out regardless!
 Each Pokémon in your party got Exp. Points!
 Each Pokémon in your party got Exp. Points!
 Your party Pokémon in waiting also got Exp. Points!
@@ -41963,6 +41919,8 @@ Your party Pokémon in waiting also got Exp. Points!
 {1} got a Hot Streak boosted {2} Exp. Points!
 {1} got {2} Exp. Points!
 {1} got {2} Exp. Points!
+Levels: {1}->{2} | Exp: {3}->{4} | gain: {5}
+Levels: {1}->{2} | Exp: {3}->{4} | gain: {5}
 {1}'s new level is less than its<<n>>current level, which shouldn't happen.<<n>><<[>>Debug: {2}<<]>>
 {1}'s new level is less than its<<r>><<n>>current level, which shouldn't happen.<<r>><<n>><<[>>Debug: {2}<<]>>
 {1}'s new level is greater than the level cap, which shouldn't happen.<<n>><<[>>Debug: {2}<<]>>
@@ -42039,10 +41997,10 @@ Go! {1}, {2} and {3}!
 \wmPlease don't abuse this functionality.
 \me[Battle perfected]You perfected the fight!
 \me[Battle perfected]You perfected the fight!
-#{pkmn.name}'s Hot Streak is now over.
-#{pkmn.name}'s Hot Streak is now over.
-#{pkmn.name} is on a Hot Streak!
-#{pkmn.name} is on a Hot Streak!
+{1}'s Hot Streak is now over.
+{1}'s Hot Streak is now over.
+{1} is on a Hot Streak!
+{1} is on a Hot Streak!
 The sunlight is strong.
 The sunlight is strong.
 It is storming.
@@ -42065,8 +42023,8 @@ You can skip the battle and treat it as a win by FORFEIT!
 You can skip the battle and treat it as a win by FORFEIT!
 You have to win the battle PERFECTLY, or you LOSE!
 You have to win the battle PERFECTLY, or you LOSE!
-#{b.pbThis} is blessed by the shattered sky!
-#{b.pbThis} is blessed by the shattered sky!
+{1} is blessed by the shattered sky!
+{1} is blessed by the shattered sky!
 Time is dancing to {1}'s tune! This turn is being skipped!
 Time is dancing to {1}'s tune! This turn is being skipped!
 {1} will arrive next turn!
@@ -42427,12 +42385,14 @@ But it had no effect!
 But it had no effect!
 But it's not where this item can be used!
 But it's not where this item can be used!
+But {1} can't be switched out!
+But {1} can't be switched out!
 {1} changes its cloak to fit its next move!
 {1} changes its cloak to fit its next move!
-#{battler.pbThis} cannot use any of its moves, and will Struggle if it fights. Go ahead?
-#{battler.pbThis} cannot use any of its moves, and will Struggle if it fights. Go ahead?
-#{battler.pbThis} must use #{encoreMove.name} if it fights. Go ahead?
-#{battler.pbThis} must use #{encoreMove.name} if it fights. Go ahead?
+{1} cannot use any of its moves, and will Struggle if it fights. Go ahead?
+{1} cannot use any of its moves, and will Struggle if it fights. Go ahead?
+{1} must use {2} if it fights. Go ahead?
+{1} must use {2} if it fights. Go ahead?
 Items can't be used here.
 Items can't be used here.
 Your foe was <imp>ambushed</imp>! You get a free turn!
@@ -42455,8 +42415,8 @@ You can't catch Avatars!
 You can't catch Avatars!
 {1} was overwhelmed with emotion!
 {1} was overwhelmed with emotion!
-{1} slurped up venom leaking from #{b.pbThis(true)}.
-{1} slurped up venom leaking from #{b.pbThis(true)}.
+{1} slurped up venom leaking from {2}.
+{1} slurped up venom leaking from {2}.
 {1} absorbs the damage from the poison.
 {1} absorbs the damage from the poison.
 {1}'s perish count fell to {2}!
@@ -42629,8 +42589,8 @@ Told to recover a negative amount
 {1}'s scattered its {2} when fainting.
 But there was no one to revive!
 But there was no one to revive!
-Its allied #{reviver.name} was revived to full health!
-Its allied #{reviver.name} was revived to full health!
+Its allied {1} was revived to full health!
+Its allied {1} was revived to full health!
 {1} will revive in {2} turns!
 {1} will revive in {2} turns!
 {1} triggered!
@@ -42671,10 +42631,10 @@ your team
 your team
 Your team
 Your team
-#{pbThis} can't hold a #{getItemName(:CRYSTALVEIL)}!
-#{pbThis} can't hold a #{getItemName(:CRYSTALVEIL)}!
-But #{pbThis(false)} hold's tightly onto its #{getItemName(checkitem)}!
-But #{pbThis(false)} hold's tightly onto its #{getItemName(checkitem)}!
+{1} can't hold a {2}!
+{1} can't hold a {2}!
+But {1} hold's tightly onto its {2}!
+But {1} hold's tightly onto its {2}!
 {1} is unaffected!
 {1} is unaffected!
 nthTurnThisRound checks for turns 1 or above!
@@ -42913,8 +42873,8 @@ Hit 1 time!
 Hit 1 time!
 Hit {1} times!
 Hit {1} times!
-#{user.pbThis} showed mercy on #{b.pbThis(true)}!
-#{user.pbThis} showed mercy on #{b.pbThis(true)}!
+{1} showed mercy on {2}!
+{1} showed mercy on {2}!
 {1} bounced the {2} back!
 {1} bounced the {2} back!
 {1}'s destiny is bonded with {2}!
@@ -42973,8 +42933,12 @@ The effects of the {1} prevent status moves from being used!
 {1} is still attached to {2}!
 {1} is loafing around!
 {1} is loafing around!
+{1} would have flinched, but it's immune now!
+{1} would have flinched, but it's immune now!
 {1} refuses to flinch!
 {1} refuses to flinch!
+{1} would have flinched, but it holds a Courage Badge!
+{1} would have flinched, but it holds a Courage Badge!
 {1} flinched and couldn't move!
 {1} flinched and couldn't move!
 {1} is jinxed! {2} failed to protect it!
@@ -43013,8 +42977,8 @@ The roots guarding {1} dig into {2}!
 The roots guarding {1} dig into {2}!
 {1} was stuck by {2}'s venom!
 {1} was stuck by {2}'s venom!
-The bubble barrier bursts, harming #{user.pbThis(true)}!
-The bubble barrier bursts, harming #{user.pbThis(true)}!
+The bubble barrier bursts, harming {1}!
+The bubble barrier bursts, harming {1}!
 {1} took its attacker down with it!
 {1} took its attacker down with it!
 {1} copies {2}'s stat increases with its {3}!
@@ -43051,6 +43015,8 @@ The ring of water restored {1}'s HP!
 {1} was warned not to attack it again!
 {1} is cursed!
 {1} is cursed!
+It'll lose a quarter of its health each turn!
+It'll lose a quarter of its health each turn!
 {1} is afflicted by the curse!
 {1} is afflicted by the curse!
 {1}'s broke out of the disable!
@@ -43067,8 +43033,8 @@ The ring of water restored {1}'s HP!
 {1} can use items again!
 {1} received an encore!
 {1} received an encore!
-It will repeat its move for the next #{value - 1} turns!
-It will repeat its move for the next #{value - 1} turns!
+It will repeat its move for the next {1} turns!
+It will repeat its move for the next {1} turns!
 {1}'s encore ended!
 {1}'s encore ended!
 {1}'s critical hit chance was doubled!
@@ -43185,10 +43151,10 @@ No moves barred! {1} can use off-type moves again!
 {1} lost its electromagnetism!
 {1}'s electromagnetism wore off.
 {1}'s electromagnetism wore off.
-{1} can't use sound-based moves for the next #{value - 1} turns!
-{1} can't use sound-based moves for the next #{value - 1} turns!
-{1} can't use blade-based moves for the next #{value - 1} turns!
-{1} can't use blade-based moves for the next #{value - 1} turns!
+{1} can't use sound-based moves for the next {2} turns!
+{1} can't use sound-based moves for the next {2} turns!
+{1} can't use blade-based moves for the next {2} turns!
+{1} can't use blade-based moves for the next {2} turns!
 {1} was subjected to torment!
 {1} was subjected to torment!
 {1} was freed from {2}!
@@ -43197,6 +43163,14 @@ No moves barred! {1} can use off-type moves again!
 {1} is no longer trapped by {2}.
 {1} is hurt by {2}!
 {1} is hurt by {2}!
+{1} is being constricted!
+{1} is being constricted!
+{1} was freed from constriction!
+{1} was freed from constriction!
+{1} is no longer constricted by {2}.
+{1} is no longer constricted by {2}.
+{1} is hurt by constriction!
+{1} is hurt by constriction!
 {1} gained the {2} type!
 {1} gained the {2} type!
 {1} is unburdened of its item. Its Speed doubled!
@@ -43249,8 +43223,8 @@ No moves barred! {1} can use off-type moves again!
 {1} gained an extra attack this turn!
 {1} braced itself!
 {1} braced itself!
-It will endure the next #{value} hits which would faint it!
-It will endure the next #{value} hits which would faint it!
+It will endure the next {1} hits which would faint it!
+It will endure the next {1} hits which would faint it!
 {1} concentrated with extreme intensity!
 {1} concentrated with extreme intensity!
 Attacks against {1} will incur recoil!
@@ -43267,8 +43241,8 @@ Attacks against {1} will incur recoil!
 {1} breaks open its witch powers!
 {1} sees everything!
 {1} sees everything!
-It's protected from half of all attack damage for #{value} turns!
-It's protected from half of all attack damage for #{value} turns!
+It's protected from half of all attack damage for {1} turns!
+It's protected from half of all attack damage for {1} turns!
 {1}'s Primeval Detect wore off!
 {1}'s Primeval Detect wore off!
 {1} began eroding!
@@ -43299,8 +43273,20 @@ Last Gasp was disabled somehow.
 Last Gasp was disabled somehow.
 {1} is jinxed!
 {1} is jinxed!
+Attacks against it crit and bypass protection for the next {1} turns!
+Attacks against it crit and bypass protection for the next {1} turns!
+{1} is no longer being jinxed!
+{1} is no longer being jinxed!
+{1} recovered from the jinx!
+{1} recovered from the jinx!
 {1} is fractured!
 {1} is fractured!
+It'll deal a third less move damage for the next {1} turns!
+It'll deal a third less move damage for the next {1} turns!
+{1} is no longer fractured!
+{1} is no longer fractured!
+{1} healed from the fracture!
+{1} healed from the fracture!
 Gravity intensified!
 Gravity intensified!
 Everyone is twice as accurate!
@@ -43369,14 +43355,12 @@ The willful area fell away.
 The willful area fell away.
 A grey mist enveloped the field.
 A grey mist enveloped the field.
-Stat changes will be reset each turn, for #{value - 1} more turns!
-Stat changes will be reset each turn, for #{value - 1} more turns!
+Stat changes will be reset each turn, for {1} more turns!
+Stat changes will be reset each turn, for {1} more turns!
 The grey mist was expunged!
 The grey mist was expunged!
 The grey mist dissipated.
 The grey mist dissipated.
-#{b.pbThis}'s stat changes were eliminated!
-#{b.pbThis}'s stat changes were eliminated!
 {1} was healed by the field of flowers!
 {1} was healed by the field of flowers!
 {1} took the {2} attack!
@@ -43417,56 +43401,56 @@ The healing wish came true for {1}!
 {1}'s Aurora Veil was broken!
 {1}'s Aurora Veil wore off!
 {1}'s Aurora Veil wore off!
-{1} takes less damage from moves with 100+ base power! This will last for #{value - 1} more turns!
-{1} takes less damage from moves with 100+ base power! This will last for #{value - 1} more turns!
+{1} takes less damage from moves with 100+ base power! This will last for {2} more turns!
+{1} takes less damage from moves with 100+ base power! This will last for {2} more turns!
 {1}'s Repulsion Field was broken!
 {1}'s Repulsion Field was broken!
 {1}'s Repulsion Field wore off!
 {1}'s Repulsion Field wore off!
 {1} is now blessed!
 {1} is now blessed!
-They'll be protected from critical hits for #{value - 1} more turns!
-They'll be protected from critical hits for #{value - 1} more turns!
+They'll be protected from critical hits for {1} more turns!
+They'll be protected from critical hits for {1} more turns!
 {1}'s Lucky Chant was broken!
 {1}'s Lucky Chant was broken!
 {1} is no longer protected by Lucky Chant.
 {1} is no longer protected by Lucky Chant.
 {1} is shrouded in mist!
 {1} is shrouded in mist!
-Their stats can't be lowered for #{value - 1} more turns!
-Their stats can't be lowered for #{value - 1} more turns!
+Their stats can't be lowered for {1} more turns!
+Their stats can't be lowered for {1} more turns!
 {1}'s Mist was swept away!
 {1}'s Mist was swept away!
 {1} is no longer protected by Mist.
 {1} is no longer protected by Mist.
 {1} became cloaked in a mystical veil!
 {1} became cloaked in a mystical veil!
-They'll be protected from status ailments for #{value - 1} more turns!
-They'll be protected from status ailments for #{value - 1} more turns!
+They'll be protected from status ailments for {1} more turns!
+They'll be protected from status ailments for {1} more turns!
 {1}'s Safeguard was removed!
 {1}'s Safeguard was removed!
 {1} is no longer protected by Safeguard.
 {1} is no longer protected by Safeguard.
 {1} is protected by a diamond sheen!
 {1} is protected by a diamond sheen!
-They can't be crit and take less damage for #{value - 1} more turns!
-They can't be crit and take less damage for #{value - 1} more turns!
+They can't be crit and take less damage for {1} more turns!
+They can't be crit and take less damage for {1} more turns!
 {1}'s Diamond Field was removed!
 {1}'s Diamond Field was removed!
 {1} is no longer protected by Diamond Field.
 {1} is no longer protected by Diamond Field.
 {1} became determined to survive!
 {1} became determined to survive!
-They'll take half damage from sources that aren't attacks for #{value - 1} more turns!
-They'll take half damage from sources that aren't attacks for #{value - 1} more turns!
+They'll take half damage from sources that aren't attacks for {1} more turns!
+They'll take half damage from sources that aren't attacks for {1} more turns!
 {1}'s Natural Protection was removed!
 {1}'s Natural Protection was removed!
 {1} is no longer inspired by Natural Protection.
 {1} is no longer inspired by Natural Protection.
 Crafty Shield protected {1}!
 Crafty Shield protected {1}!
-The kicked up mat will block attacks against #{teamName} this turn!
-The kicked up mat will block attacks against #{teamName} this turn!
+The kicked up mat will block attacks against {1} this turn!
+The kicked up mat will block attacks against {1} this turn!
 A rainbow appeared in the sky above {1}!
 A rainbow appeared in the sky above {1}!
 The rainbow on {1}'s side was sent away!
@@ -43545,8 +43529,8 @@ The cocoon enclosing {1}'s side was removed!
 The cocoon enclosing {1}'s side was removed!
 The cocoon enclosing {1}'s side dried up.
 The cocoon enclosing {1}'s side dried up.
-#{b.pbThis} was healed by the cruel cocoon at the expense of its PP!
-#{b.pbThis} was healed by the cruel cocoon at the expense of its PP!
+{1} was healed by the cruel cocoon at the expense of its PP!
+{1} was healed by the cruel cocoon at the expense of its PP!
 A turbulent sky appeared above {1}!
 A turbulent sky appeared above {1}!
 The turbulent sky above {1}'s side was calmed!
@@ -43557,8 +43541,8 @@ A Tailwind blew from behind {1}!
 A Tailwind blew from behind {1}!
 It will last forever!
 It will last forever!
-It will last for #{value - 1} more turns!
-It will last for #{value - 1} more turns!
+It will last for {1} more turns!
+It will last for {1} more turns!
 {1}'s Tailwind was stopped!
 {1}'s Tailwind was stopped!
 {1}'s Tailwind petered out.
@@ -43585,10 +43569,10 @@ The opposing {1} was restored to full health!
 {1} is reviving!
 The opposing {1} is reviving!
 The opposing {1} is reviving!
-#{battler.pbThis} filched #{filchedFrom.pbThis(true)}'s #{itemName}!
-#{battler.pbThis} filched #{filchedFrom.pbThis(true)}'s #{itemName}!
-#{battler.pbThis} got a bit extra out of their #{getItemName(item)}!
-#{battler.pbThis} got a bit extra out of their #{getItemName(item)}!
+{1} filched {2}'s {3}!
+{1} filched {2}'s {3}!
+{1} got a bit extra out of their {2}!
+{1} got a bit extra out of their {2}!
 {1} was badly hurt by the {2}!
 {1} was badly hurt by the {2}!
 {1}'s status returned to normal!
@@ -43855,10 +43839,10 @@ It became special!
 {1} is distracted by the shining sun.
 But it failed, since everyone else already acted this turn!
 But it failed, since everyone else already acted this turn!
-But it failed, since #{target.pbThis(true)} didn't choose to use a move!
-But it failed, since #{target.pbThis(true)} didn't choose to use a move!
-But it failed, since #{target.pbThis(true)} already move this turn!
-But it failed, since #{target.pbThis(true)} already move this turn!
+But it failed, since {1} didn't choose to use a move!
+But it failed, since {1} didn't choose to use a move!
+But it failed, since {1} already move this turn!
+But it failed, since {1} already move this turn!
 It's hyper effective on {1}!
 It's hyper effective on {1}!
 It's hyper effective!
@@ -45349,6 +45333,8 @@ smoggy and dangerous conditions
 smoggy and dangerous conditions
 lightly cloudy skies with no precipitation
 lightly cloudy skies with no precipitation
+Oh? They dropped something else as well!
+Oh? They dropped something else as well!
 The fleeing trainer dropped some food!
 The fleeing trainer dropped some food!
 Pro Trainer Level {1}
@@ -48743,16 +48729,16 @@ All boating spots were unlocked.
 All boating spots were unlocked.
 There are no other places you can travel to.
 There are no other places you can travel to.
-Invalid Achievement #{achievementID}.
-Invalid Achievement #{achievementID}.
+Invalid Achievement {1}.
+Invalid Achievement {1}.
 Achievement {1} is already unlocked! Cannot unlock again.
 Achievement {1} is already unlocked! Cannot unlock again.
 Achievement {1} is blocked from being completed, since randomizer is active.
 Achievement {1} is blocked from being completed, since randomizer is active.
 Unlocking achievement {1}.
 Unlocking achievement {1}.
-Invalid Achievement #{achievement_id}.
-Invalid Achievement #{achievement_id}.
+Invalid Achievement {1}
+Invalid Achievement {1}
 Achievement Unlocked:\<<n>>\c<<[>>2<<]>>{1}
 Achievement Unlocked:\<<n>>\c<<[>>2<<]>>{1}
 \cl\l[2]\op\wu<ac>{1}</ac>\wtnp[{2}]
@@ -52604,6 +52590,8 @@ Trapping Move
 Trapping Move
 Trapped By
 Trapped By
+Constricted Turns
+Constricted Turns
 Not Slacking Off
 Not Slacking Off
 Two Turn Attack

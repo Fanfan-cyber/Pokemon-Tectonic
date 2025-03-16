@@ -98,7 +98,7 @@ def entryDebuffAbility(ability, battler, battle, statDownArray, aiCheck: false)
     return score if aiCheck
 end
 
-def entryTrappingAbility(ability, battler, battle, trappingMove, trappingDuration: 2, aiCheck: false, &block)
+def entryTrappingAbility(ability, battler, battle, trappingMove, trappingDuration: 1, aiCheck: false, &block)
     trappingDuration *= 2 if battler.shouldItemApply?(:GRIPCLAW,aiCheck )
 
     score = 0
