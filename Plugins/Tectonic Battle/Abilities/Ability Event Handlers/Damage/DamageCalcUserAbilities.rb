@@ -142,7 +142,7 @@ BattleHandlers::DamageCalcUserAbility.add(:KNUCKLEDUSTER,
     end
   }
 )
-
+=begin
 BattleHandlers::DamageCalcUserAbility.add(:SHIFTINGFIST,
   proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck, backfire|
     if move.punchingMove? || backfire
@@ -151,7 +151,7 @@ BattleHandlers::DamageCalcUserAbility.add(:SHIFTINGFIST,
     end
   }
 )
-
+=end
 BattleHandlers::DamageCalcUserAbility.add(:BRISK,
   proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck, backfire|
     if move.windMove? || backfire
