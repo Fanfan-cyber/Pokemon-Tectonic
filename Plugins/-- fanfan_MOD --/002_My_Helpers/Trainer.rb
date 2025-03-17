@@ -25,6 +25,10 @@ class Trainer
     pokemon_party.any?(&:fainted?)
   end
 
+  def fainted_pkmn_count
+    pokemon_party.count(&:fainted?)
+  end
+
   def each_egg
     @party.each_with_index { |pkmn, index| yield pkmn, index if pkmn && pkmn.egg? }
   end
