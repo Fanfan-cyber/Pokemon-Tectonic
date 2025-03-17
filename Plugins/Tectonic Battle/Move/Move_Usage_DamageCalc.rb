@@ -488,6 +488,9 @@ class PokeBattle_Move
             multipliers[:final_damage_multiplier] *= 1.5
         end
         
+        # Global Supreme Overlord
+        multipliers[:base_damage_multiplier] *= (user.owner_party_fainted_count * Settings::GLOBAL_S_O) * 0.01 + 1.0
+
         if aiCheck
             # Parental Bond
             if user.hasActiveAbility?(:PARENTALBOND) || (user.hasActiveAbility?(:STRIKETWICE) && @battle.rainy?)

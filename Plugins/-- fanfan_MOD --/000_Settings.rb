@@ -19,6 +19,7 @@ module Settings
   ROWE_STAB_OFF_MONO = 10
   ROWE_STAB_DEF      = 5
   ROWE_STAB_DEF_MONO = 10
+  GLOBAL_S_O         = 5
 
   KILL_PUNNISHMENT = 10
 

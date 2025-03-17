@@ -25,6 +25,11 @@ class PokeBattle_Battler
     return nil
   end
 
+  def owner_party_fainted_count
+    return 0 unless owned_trainer
+    return owned_trainer.fainted_pkmn_count
+  end
+
   def transformSpeciesEX(newSpecies = nil, abil_id = nil, base_stat = false, stats = false)
     @battle.pbShowAbilitySplash(self, abil_id) if abil_id
 
