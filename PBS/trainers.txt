@@ -969,31 +969,32 @@ Pokemon = DARTRIX,25
 [POKEMONTRAINER_Yezera,Yezera,4]
 Policies = YEZERA,METAGAMES_STAT_ITEMS
 Flags = NoPerfect
-Pokemon = RHYDON,35
-    Moves = GRANITEHEAD,STEALTHROCK,BULLDOZE,BRICKBREAK
-    AbilityIndex = 0 # Reckless
-    Item = SHELLBELL
-    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-    EV = 10,20,10,0,20,10
 Pokemon = ILLUMISE,35
-    Moves = WISH,STRUGGLEBUG,REFLECT,UTURN
+    Moves = WISH,ILLWISHES,REFLECT,UTURN
     AbilityIndex = 0 # Prankster
     Item = MENTALHERB
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-    EV = 20,10,0,0,10,20
+    EV = 20,0,10,0,0,20
+Pokemon = BARBARACLE,35
+    Moves = ADAMANTINEPRESS,CROSSCHOP,ACCELEROCK,WAVEBREAK
+    AbilityIndex = 0 # Tough Claws
+    Item = COVERTCLOAK
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,10,0,20,10
 Pokemon = MALAMAR,35
-    Moves = HEARTSTAMP,PLUCK,INCISION,EERIEIMPULSE
+    Moves = PSYCHICFANGS,INCISION,SCREECH,EERIEIMPULSE
     AbilityIndex = 0 # Contrary
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 0,20,0,20,20,10
-Pokemon = SKIPLOOM,35
-    Moves = AUTUMNBLAST,BOREALWIND,BULLETSEED,DAZZLINGGLEAM
-    AbilityIndex = 0 # Aerodynamic
+Pokemon = GOURGEIST,35
+    Moves = MYSTERYSEED,SEANCE,FIREWORKS,BULLETSEED
+    AbilityIndex = 1 # Unafraid
+    Item = LOADEDDICE
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 0,20,0,20,20,10
-Pokemon = FLAAFFY,35
-    Moves = VANGUARD,RECOVER,DRAGONPULSE,DISCHARGE
-    AbilityIndex = 0 # Static
+Pokemon = RAICHU,35
+    Moves = LIGHTNINGDANCE,JOKEJOLT,THUNDERBOLT,NULLPULSE
+    AbilityIndex = 1 # Break Through
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,20,0,20,0
 #-------------------------------
@@ -1001,17 +1002,15 @@ Pokemon = FLAAFFY,35
 ExtendsVersion = 4
 Policies = CURSE_DOUBLE_ABILITIES
 Pokemon = MILTANK,35
-    Moves = CHARM,HEADBUTT,MILKDRINK,BULLDOZE
+    Moves = HEALBELL,BODYSLAM,MILKDRINK,BULLDOZE
     AbilityIndex = 0 # Thick Fat
     Item = LEFTOVERS
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-    EV = 20,10,10,0,10,10
+    EV = 20,0,20,0,0,10
 Pokemon = MALAMAR,35
-    Item = LIFEORB
-Pokemon = FLAAFFY,35
-    Item = LUMBERRY
-Pokemon = SKIPLOOM,35
-    Item = LOADEDDICE
+    Item = SITRUSBERRY
+Pokemon = RAICHU,35
+    Item = SHELLBELL
 #-------------------------------
 [SCHOOLKID_M,Louis]
 Flags = NoPerfect

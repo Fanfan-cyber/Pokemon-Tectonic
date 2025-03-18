@@ -575,6 +575,10 @@ class Pokemon
         extraAbilities.push(ability) unless extraAbilities.include?(ability)
     end
 
+    def hasExtraAbilities?
+        return extraAbilities.length > 0
+    end
+
     def extraAbilities
         @extraAbilities = [] if @extraAbilities.nil?
         @extraAbilities.compact!
