@@ -20,6 +20,7 @@ module Settings
   ROWE_STAB_DEF      = 5
   ROWE_STAB_DEF_MONO = 10
   GLOBAL_S_O         = 5
+  REVENGE_MECHANICS  = 5
 
   KILL_PUNNISHMENT = 10
 

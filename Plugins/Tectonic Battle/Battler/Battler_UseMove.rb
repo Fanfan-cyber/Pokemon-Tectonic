@@ -506,6 +506,9 @@ class PokeBattle_Battler
             realNumHits = 0
             moveIsBlocked = magicCoater >= 0 || magicBouncer >= 0 || magicShielder >= 0 || quarantined
             unless moveIsBlocked
+                targets.each do |target|
+                    @battle.tracker_get(:revenge)[target.unique_id] = user.unique_id
+                end
                 for i in 0...numHits
                     user.battle_tracker_increment(:hits_in_progress)
                     user.battle_tracker_increment(:hits_in_progress_kicking) if move.kickingMove?

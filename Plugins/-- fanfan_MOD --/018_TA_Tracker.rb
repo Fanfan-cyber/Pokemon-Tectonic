@@ -2,6 +2,7 @@ class PokeBattle_BattleTracker
   def initialize
     @battled_battlers = [] # used for Switch Healing
     @turn_switched    = {} # used to record the turnCount when a Pokemon switches out
+    @revenge          = {} # used for Revenge Mechanics
   end
 end
 
@@ -81,18 +82,12 @@ class PokeBattle_Battler
     @battle.battler_battle_tracker[@index & 1][@pokemonIndex]
   end
 
-  def battle_tracker_get(tracker, target = nil)
-    tracked_data = battler_battle_tracker_get.instance_variable_get("@#{tracker}")
-    return tracked_data[target.pokemonIndex] if target
-    return tracked_data
+  def battle_tracker_get(tracker)
+    battler_battle_tracker_get.instance_variable_get("@#{tracker}")
   end
 
-  def battle_tracker_set(tracker, value, target = nil)
-    if target
-      battle_tracker_get(tracker)[target.pokemonIndex] = value
-    else
-      battler_battle_tracker_get.instance_variable_set("@#{tracker}", value)
-    end
+  def battle_tracker_set(tracker, value)
+    battler_battle_tracker_get.instance_variable_set("@#{tracker}", value)
   end
 
   def battle_tracker_increment(tracker, value = 1)

@@ -487,9 +487,14 @@ class PokeBattle_Move
         if target.effectActive?(:DeathMark)
             multipliers[:final_damage_multiplier] *= 1.5
         end
-        
+
         # Global Supreme Overlord
-        #multipliers[:base_damage_multiplier] *= (user.owner_party_fainted_count * Settings::GLOBAL_S_O) * 0.01 + 1.0
+        multipliers[:base_damage_multiplier] *= (user.owner_party_fainted_count * Settings::GLOBAL_S_O) * 0.01 + 1.0
+
+        # Revenge Mechanics
+        if @battle.tracker_get(:revenge)[user.unique_id] == target.unique_id
+            multipliers[:base_damage_multiplier] *= Settings::REVENGE_MECHANICS * 0.01 + 1.0
+        end
 
         if aiCheck
             # Parental Bond

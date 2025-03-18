@@ -499,9 +499,10 @@ BattleHandlers::TargetAbilityOnHit.add(:CURSEDTAIL,
         next if user.fainted?
         next unless move.physicalMove?
         next if user.effectActive?(:Curse)
+        warned = user.battle_tracker_get(:warned)
         if aiCheck
             #if user.effectActive?(:Warned) || aiNumHits > 1
-            if user.battle_tracker_get(:warned, target) || aiNumHits > 1
+            if warned.include?(target.unique_id) || aiNumHits > 1
                 next -30
             else
                 next -10
@@ -509,11 +510,11 @@ BattleHandlers::TargetAbilityOnHit.add(:CURSEDTAIL,
         end
         battle.pbShowAbilitySplash(target, ability)
         #if user.effectActive?(:Warned)
-        if user.battle_tracker_get(:warned, target)
+        if warned.include?(target.unique_id)
             user.applyEffect(:Curse)
         else
             #user.applyEffect(:Warned)
-            user.battle_tracker_set(:warned, true, target)
+            warned << target.unique_id
             battle.pbDisplay(_INTL("{1} was warned not to attack {2} again!", user.pbThis, target.pbThis(true)))
         end
         battle.pbHideAbilitySplash(target)
