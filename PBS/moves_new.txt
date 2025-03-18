@@ -38,6 +38,19 @@ Flags = CanProtect,CanMagicCoat
 Description = The user and the target both fall asleep, fully restoring their HP and healing any status conditions.
 Animation = REST
 #-------------------------------
+[BLINDINGDANCE]
+Name = Blinding Dance
+Type = NORMAL
+Category = Special
+Power = 50
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = Dizzy
+Flags = CanProtect,CanMirrorMove,Dance
+Description = The user dances and shows off their many lights at the target, dizzying and damaging them.
+Animation = SPOTLIGHT
+#-------------------------------
 [BUTTINGHEADS]
 Name = Butting Heads
 Type = NORMAL
@@ -5845,19 +5858,6 @@ FunctionCode = TrapTargetUntilHitLowerTargetAtkSpAtk1
 Flags = CanMagicCoat
 Description = The user imprisons all near foes, reducing their attacking stats by one step each and trapping them until the next time they take a hit.
 Animation = CHILL
-#-------------------------------
-[BLINDINGDANCE]
-Name = Blinding Dance
-Type = NORMAL
-Category = Special
-Power = 50
-Accuracy = 100
-TotalPP = 15
-Target = NearOther
-FunctionCode = Dizzy
-Flags = CanProtect,CanMirrorMove,Dance
-Description = The user dances and shows off their many lights at the target, dizzying and damaging them.
-Animation = SPOTLIGHT
 #-------------------------------
 [ICENINEWALL]
 Name = Ice-Nine Wall

@@ -3163,18 +3163,18 @@ They beat us sis....
 妹妹，我们输了…
 East: Casaba Villa
 东：甜瓜度假区
-Didn't see me comin' did ya!?
-你没看到我在这里，对吧？
-You won't see me goin' will ya?
-我不会再让你发现的！
-I'll see you again. You won't see me!
-我会瞧瞧地接近你，在你发现我之前！
 I see some prize money on the horizon!
 哟，这不是行走的零花钱嘛！
 You know what? I'd best be spending me money instead of losin' it!
 早知道我就把钱花掉了，现在都便宜了你！
 Well, there goes me shore leave money.
 完了，休假资金没了。
+Didn't see me comin' did ya!?
+你没看到我在这里，对吧？
+You won't see me goin' will ya?
+我不会再让你发现的！
+I'll see you again. You won't see me!
+我会瞧瞧地接近你，在你发现我之前！
 I developed a multi-hit attack during Lambert's self-defense course.
 我在兰伯特的防身术课堂上，学会了多重攻击。
 I don't get much chance to battle, though.
@@ -3213,14 +3213,12 @@ And I thought thoday couldn't get worth!
 本以为今天又是无聊的一天！
 And I thought thoday couldn't get worth!!
 本以为今天又是无聊的一天！
-<i>Sniff sniff</i>
-<i>嗅嗅嗅</i>
-I can smell energy on you! We must battle!
-我能闻到你身上的能量！来战吧！
-The stench of defeat!
-失败的恶臭！
-Smell ya later!
-愿再闻其详！
+Wow, you found me again!
+哇，你又找到我了！
+A loss is a loss, I guess I owe you that second TM now.
+输了就是输了，这个技能机也给你了。
+I'll head back to town now. That was a fun game. I'm pretty worked up, hehe.
+真好玩！嘿嘿！不过现在我要回去了，今天好开心！
 You know, I fancy myself quite the battler! Care to see?
 我觉得自己还是很擅长对战的！要不要见识一下？
 You... You're quite the battler...\wt[20]
@@ -3229,12 +3227,14 @@ I-I'm going to leave now.
 我...我得走了。
 You, defeat me? My goodness!
 这...怎么可能？我...输了？
-Wow, you found me again!
-哇，你又找到我了！
-A loss is a loss, I guess I owe you that second TM now.
-输了就是输了，这个技能机也给你了。
-I'll head back to town now. That was a fun game. I'm pretty worked up, hehe.
-真好玩！嘿嘿！不过现在我要回去了，今天好开心！
+<i>Sniff sniff</i>
+<i>嗅嗅嗅</i>
+I can smell energy on you! We must battle!
+我能闻到你身上的能量！来战吧！
+The stench of defeat!
+失败的恶臭！
+Smell ya later!
+愿再闻其详！
 Wow, you got here fast!
 哇，你来得真快！
 It's me again, with another sweet invention.
@@ -25297,6 +25297,8 @@ Aim True
 瞄准目标
 Bedfellows
 同床共枕
+Blinding Dance
+Blinding Dance
 Butting Heads
 对峙
 Center
@@ -27704,6 +27706,8 @@ The user steadies its eyes, mind, and body in order to maximize its Accuracy.
 使用者稳定其眼、心和身体，以最大化其命中率。
 The user and the target both fall asleep, fully restoring their HP and healing any status conditions.
 自己和对手同时陷入沉睡，回复其全部HP并治愈所有的异常状态。
+The user dances and shows off their many lights at the target, dizzying and damaging them.
+The user dances and shows off their many lights at the target, dizzying and damaging them.
 The user engages the target in a head-to-head fight. The damage is based on the target's Attack rather than their Defense.
 与对方正面交锋，基于对方的防御确定此技能的伤害。
 The user concentrates to stabilize its mood. It raises the user's Sp. Def by three steps.
@@ -32066,6 +32070,8 @@ Core Provenance
 核心依据
 Cosmic Contact
 宇宙触点
+Costume Change
+Costume Change
 Cotton Decoy
 棉花诱饵
 Counter Flow
@@ -32952,6 +32958,12 @@ Primeval Regenerator
 原初再生力
 Primeval Slow Start
 原初慢启动
+Backfire
+反噬
+Bioengineering
+生物工程
+Relentless Pursuit
+无情追击
 Adaptive AI v1
 自适应AI v1
 Adaptive AI v2
@@ -32960,28 +32972,24 @@ Adaptive AI v3
 自适应AI v3
 Adaptive AI v4
 自适应AI v4
-Backfire
-反噬
-Bioengineering
-生物工程
 Chrono Rewind
 时间倒流
 Forced Engagement
 强制交战
-Impenetrable Shell
-机械装甲
-Relentless Pursuit
-无情追击
 72 Transformations
 七十二变
 Temporal Shift
 时空转移
-Thunderstorm
-沙之暴充
 Tideweaver's Reversal
 潮汐编织者的逆转
 Unwavering Valor
 不屈勇气
+Disco Lights
+Disco Lights
+Impenetrable Shell
+机械装甲
+Thunderstorm
+沙之暴充
 Test Ability
 测试特性
 [11]
@@ -33463,6 +33471,8 @@ Using or being hit by a physical move leaves a rock on the field. Status moves c
 使用物理技能攻击或被物理攻击命中时，将留下一块石头。能力发生变化时将拾起石块，每块恢复25%HP。
 After using a status move, raises both of the Pokémon's defensive stats.
 使用变化技能后，提升双攻。
+Changes to the form of your choosing after switching out.
+Changes to the form of your choosing after switching out.
 Upon entry, creates a substitute from 1/4th of its HP.
 进入战斗后使用25%HP制造一个替身。
 When hit with a special move, hits back instantly with Breach.
@@ -34341,6 +34351,12 @@ Heals for 1/4th of its HP at the end of every turn.
 回合结束时恢复1/4HP。
 Attack and Speed are halved.
 攻击和速度减半。
+When hitting a target that has an ability with an offensive damage-modifying effect, the Pokémon ignores the conditions and triggers the effect.
+当攻击的对手具有它自己在攻击时改变伤害的效果的特性时（如猛火），无视那个特性的发动条件并为自身触发该效果。
+When the Pokémon's level is 25 or higher, it transforms into a member of its family depending on the type of the move it is about to use.
+当精灵等级达到25级或以上时，它会根据即将使用的技能的类型变为其家族的成员。
+Attacks switching opponents with Pursuit.
+会自动使用追击攻击进行替换的对手。
 Adapts the move's type to ensure it is super-effective against the target.
 调整技能的类型，以确保其对目标具有效果拔群效果。
 Adapts the move's type to ensure it is truly super-effective against the target.
@@ -34349,28 +34365,24 @@ Adapts the move's type to maximize effectiveness while accounting for the immuni
 调整技能的类型，以考虑免疫因素来最大化伤害。
 Adapts the move's type to maximize damage against the target.
 调整技能的类型，以对目标造成绝对最大伤害。
-When hitting a target that has an ability with an offensive damage-modifying effect, the Pokémon ignores the conditions and triggers the effect.
-当攻击的对手具有它自己在攻击时改变伤害的效果的特性时（如猛火），无视那个特性的发动条件并为自身触发该效果。
-When the Pokémon's level is 25 or higher, it transforms into a member of its family depending on the type of the move it is about to use.
-当精灵等级达到25级或以上时，它会根据即将使用的技能的类型变为其家族的成员。
 When the Pokémon faints, it rewinds itself to 3 turns ago.
 当精灵失去意识时，它会回到3回合前的状态。
 The targets cannot avoid facing the attack by the Pokémon.
 目标必须面对该精灵的攻击。
-Immune to Bug-type moves and raises Speed if hit by one.
-对虫系技能免疫，被虫系技能攻击时，提升速度1级。
-Attacks switching opponents with Pursuit.
-会自动使用追击攻击进行替换的对手。
 Changes to a random Pokémon at the end of each turn.
 在每个回合结束时，随机变为一只精灵。
 Can switch out of battle without wasting a turn.
 可以和队伍里的其他精灵进行替换，替换的上场的精灵依然可以使用技能。
-Once per switch-in, Charges in sandstorm, doubling the power of its next Electric-type move.
-使用技能后，如果天气为沙暴，会立刻使自身进入充电状态。（每次出场只会发动一次）
 Turns rainstorm into Harsh Sunlight, sunshine into Heavy Rain.
 将雨天改为大晴天，将晴天改为大雨天。
 Stats that the Pokémon raises remain raised even after switching.
 精灵提升的能力等级即使在替换下场后仍会保持。
+The user adds the type of whatever dance move they use.
+The user adds the type of whatever dance move they use.
+Immune to Bug-type moves and raises Speed if hit by one.
+对虫系技能免疫，被虫系技能攻击时，提升速度1级。
+Once per switch-in, Charges in sandstorm, doubling the power of its next Electric-type move.
+使用技能后，如果天气为沙暴，会立刻使自身进入充电状态。（每次出场只会发动一次）
 This ability exists just to showcase the PBS Extensions system.
 这个特性只是为了展示PBS扩展系统。
 [12]
@@ -39786,7 +39798,7 @@ Set Down
 Switch
 交换
 Modify
-修改
+调整
 Send to PC
 送回电脑
 Are you sure you'd like to send back #{@pkmn.name}?
@@ -41903,6 +41915,10 @@ Which item should {1} drop?
 {1}应该丢弃哪个物品？
 {1} dropped its {2}!
 {1}的{2}被拍落了！
+Which form should it take?
+Which form should it take?
+{1} takes on a new style!
+{1} takes on a new style!
 Transcending time and space, a cost-free switch!
 超越时间和空间，自由的切换！
 {1} can switch out regardless!
@@ -45227,6 +45243,8 @@ Right as you push the seed into the soil, a sapling bursts out of it!
 就在你将种子埋入土壤时，一棵树苗破土而出！
 #{speciesName} stands strong, still ready to fight!
 #{speciesName}坚强地撑住了 仍准备继续战斗！
+{1} goes back to sleep after being left alone.
+{1} goes back to sleep after being left alone.
 You recieved a #{speciesDat.name} (#{speciesDat.form_name})
 你得到了#{speciesDat.name}(#{speciesDat.form_name})
 Editing your team is not allowed at the moment.
@@ -53377,6 +53395,10 @@ H. Voltorb
 H. 雷电球
 H. Electrode
 H. 顽皮弹
+M. Voltorb
+M. Voltorb
+M. Electrode
+M. Electrode
 Exeggcute
 蛋蛋
 Exeggutor
@@ -55314,6 +55336,8 @@ Mega Claw
 巨螯
 Ball
 球
+Disco Ball
+Disco Ball
 Egg
 蛋
 Coconut
@@ -56917,6 +56941,10 @@ When excited, it discharges the electric current it has stored in its belly, the
 形状颇似精灵球的奇异精灵。当情绪高涨时，积蓄在腹部的电流就会放出，同时发出大笑。
 The tissue on the surface of its body is curiously similar in composition to an Apricorn.
 体表的组织与球果的成分极为接近，不可思议。当它情绪焦躁时所放出的电流，能量足以匹敌２０次的落雷。
+Discovered at around the 80s, these groovy Voltorbs help bring guests to clubs.
+Discovered at around the 80s, these groovy Voltorbs help bring guests to clubs.
+It wears sunglasses to protect its own eyes from its many lights, recently several have been imported to the Orre region.
+It wears sunglasses to protect its own eyes from its many lights, recently several have been imported to the Orre region.
 These Pokémon get nervous when they're not in a group of six. The minute even one member of the group goes missing, Exeggcute become cowardly.
 用心灵感应与伙伴交流。据说兼有植物与某种别的遗传基因。
 Each of its three heads has its own thoughts. When they want to go in different directions, Exeggutor becomes unable to move.

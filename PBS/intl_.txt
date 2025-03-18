@@ -3163,18 +3163,18 @@ They beat us sis....
 They beat us sis....
 East: Casaba Villa
 East: Casaba Villa
-Didn't see me comin' did ya!?
-Didn't see me comin' did ya!?
-You won't see me goin' will ya?
-You won't see me goin' will ya?
-I'll see you again. You won't see me!
-I'll see you again. You won't see me!
 I see some prize money on the horizon!
 I see some prize money on the horizon!
 You know what? I'd best be spending me money instead of losin' it!
 You know what? I'd best be spending me money instead of losin' it!
 Well, there goes me shore leave money.
 Well, there goes me shore leave money.
+Didn't see me comin' did ya!?
+Didn't see me comin' did ya!?
+You won't see me goin' will ya?
+You won't see me goin' will ya?
+I'll see you again. You won't see me!
+I'll see you again. You won't see me!
 I developed a multi-hit attack during Lambert's self-defense course.
 I developed a multi-hit attack during Lambert's self-defense course.
 I don't get much chance to battle, though.
@@ -3213,14 +3213,12 @@ And I thought thoday couldn't get worth!
 And I thought thoday couldn't get worth!
 And I thought thoday couldn't get worth!!
 And I thought thoday couldn't get worth!!
-<i>Sniff sniff</i>
-<i>Sniff sniff</i>
-I can smell energy on you! We must battle!
-I can smell energy on you! We must battle!
-The stench of defeat!
-The stench of defeat!
-Smell ya later!
-Smell ya later!
+Wow, you found me again!
+Wow, you found me again!
+A loss is a loss, I guess I owe you that second TM now.
+A loss is a loss, I guess I owe you that second TM now.
+I'll head back to town now. That was a fun game. I'm pretty worked up, hehe.
+I'll head back to town now. That was a fun game. I'm pretty worked up, hehe.
 You know, I fancy myself quite the battler! Care to see?
 You know, I fancy myself quite the battler! Care to see?
 You... You're quite the battler...\wt[20]
@@ -3229,12 +3227,14 @@ I-I'm going to leave now.
 I-I'm going to leave now.
 You, defeat me? My goodness!
 You, defeat me? My goodness!
-Wow, you found me again!
-Wow, you found me again!
-A loss is a loss, I guess I owe you that second TM now.
-A loss is a loss, I guess I owe you that second TM now.
-I'll head back to town now. That was a fun game. I'm pretty worked up, hehe.
-I'll head back to town now. That was a fun game. I'm pretty worked up, hehe.
+<i>Sniff sniff</i>
+<i>Sniff sniff</i>
+I can smell energy on you! We must battle!
+I can smell energy on you! We must battle!
+The stench of defeat!
+The stench of defeat!
+Smell ya later!
+Smell ya later!
 Wow, you got here fast!
 Wow, you got here fast!
 It's me again, with another sweet invention.
@@ -25297,6 +25297,8 @@ Aim True
 Aim True
 Bedfellows
 Bedfellows
+Blinding Dance
+Blinding Dance
 Butting Heads
 Butting Heads
 Center
@@ -27704,6 +27706,8 @@ The user steadies its eyes, mind, and body in order to maximize its Accuracy.
 The user steadies its eyes, mind, and body in order to maximize its Accuracy.
 The user and the target both fall asleep, fully restoring their HP and healing any status conditions.
 The user and the target both fall asleep, fully restoring their HP and healing any status conditions.
+The user dances and shows off their many lights at the target, dizzying and damaging them.
+The user dances and shows off their many lights at the target, dizzying and damaging them.
 The user engages the target in a head-to-head fight. The damage is based on the target's Attack rather than their Defense.
 The user engages the target in a head-to-head fight. The damage is based on the target's Attack rather than their Defense.
 The user concentrates to stabilize its mood. It raises the user's Sp. Def by three steps.
@@ -32066,6 +32070,8 @@ Core Provenance
 Core Provenance
 Cosmic Contact
 Cosmic Contact
+Costume Change
+Costume Change
 Cotton Decoy
 Cotton Decoy
 Counter Flow
@@ -32952,6 +32958,12 @@ Primeval Regenerator
 Primeval Regenerator
 Primeval Slow Start
 Primeval Slow Start
+Backfire
+Backfire
+Bioengineering
+Bioengineering
+Relentless Pursuit
+Relentless Pursuit
 Adaptive AI v1
 Adaptive AI v1
 Adaptive AI v2
@@ -32960,28 +32972,24 @@ Adaptive AI v3
 Adaptive AI v3
 Adaptive AI v4
 Adaptive AI v4
-Backfire
-Backfire
-Bioengineering
-Bioengineering
 Chrono Rewind
 Chrono Rewind
 Forced Engagement
 Forced Engagement
-Impenetrable Shell
-Impenetrable Shell
-Relentless Pursuit
-Relentless Pursuit
 72 Transformations
 72 Transformations
 Temporal Shift
 Temporal Shift
-Thunderstorm
-Thunderstorm
 Tideweaver's Reversal
 Tideweaver's Reversal
 Unwavering Valor
 Unwavering Valor
+Disco Lights
+Disco Lights
+Impenetrable Shell
+Impenetrable Shell
+Thunderstorm
+Thunderstorm
 Test Ability
 Test Ability
 [11]
@@ -33463,6 +33471,8 @@ Using or being hit by a physical move leaves a rock on the field. Status moves c
 Using or being hit by a physical move leaves a rock on the field. Status moves collect them, healing by 1/4th each.
 After using a status move, raises both of the Pokémon's defensive stats.
 After using a status move, raises both of the Pokémon's defensive stats.
+Changes to the form of your choosing after switching out.
+Changes to the form of your choosing after switching out.
 Upon entry, creates a substitute from 1/4th of its HP.
 Upon entry, creates a substitute from 1/4th of its HP.
 When hit with a special move, hits back instantly with Breach.
@@ -34341,6 +34351,12 @@ Heals for 1/4th of its HP at the end of every turn.
 Heals for 1/4th of its HP at the end of every turn.
 Attack and Speed are halved.
 Attack and Speed are halved.
+When hitting a target that has an ability with an offensive damage-modifying effect, the Pokémon ignores the conditions and triggers the effect.
+When hitting a target that has an ability with an offensive damage-modifying effect, the Pokémon ignores the conditions and triggers the effect.
+When the Pokémon's level is 25 or higher, it transforms into a member of its family depending on the type of the move it is about to use.
+When the Pokémon's level is 25 or higher, it transforms into a member of its family depending on the type of the move it is about to use.
+Attacks switching opponents with Pursuit.
+Attacks switching opponents with Pursuit.
 Adapts the move's type to ensure it is super-effective against the target.
 Adapts the move's type to ensure it is super-effective against the target.
 Adapts the move's type to ensure it is truly super-effective against the target.
@@ -34349,28 +34365,24 @@ Adapts the move's type to maximize effectiveness while accounting for the immuni
 Adapts the move's type to maximize effectiveness while accounting for the immunities.
 Adapts the move's type to maximize damage against the target.
 Adapts the move's type to maximize damage against the target.
-When hitting a target that has an ability with an offensive damage-modifying effect, the Pokémon ignores the conditions and triggers the effect.
-When hitting a target that has an ability with an offensive damage-modifying effect, the Pokémon ignores the conditions and triggers the effect.
-When the Pokémon's level is 25 or higher, it transforms into a member of its family depending on the type of the move it is about to use.
-When the Pokémon's level is 25 or higher, it transforms into a member of its family depending on the type of the move it is about to use.
 When the Pokémon faints, it rewinds itself to 3 turns ago.
 When the Pokémon faints, it rewinds itself to 3 turns ago.
 The targets cannot avoid facing the attack by the Pokémon.
 The targets cannot avoid facing the attack by the Pokémon.
-Immune to Bug-type moves and raises Speed if hit by one.
-Immune to Bug-type moves and raises Speed if hit by one.
-Attacks switching opponents with Pursuit.
-Attacks switching opponents with Pursuit.
 Changes to a random Pokémon at the end of each turn.
 Changes to a random Pokémon at the end of each turn.
 Can switch out of battle without wasting a turn.
 Can switch out of battle without wasting a turn.
-Once per switch-in, Charges in sandstorm, doubling the power of its next Electric-type move.
-Once per switch-in, Charges in sandstorm, doubling the power of its next Electric-type move.
 Turns rainstorm into Harsh Sunlight, sunshine into Heavy Rain.
 Turns rainstorm into Harsh Sunlight, sunshine into Heavy Rain.
 Stats that the Pokémon raises remain raised even after switching.
 Stats that the Pokémon raises remain raised even after switching.
+The user adds the type of whatever dance move they use.
+The user adds the type of whatever dance move they use.
+Immune to Bug-type moves and raises Speed if hit by one.
+Immune to Bug-type moves and raises Speed if hit by one.
+Once per switch-in, Charges in sandstorm, doubling the power of its next Electric-type move.
+Once per switch-in, Charges in sandstorm, doubling the power of its next Electric-type move.
 This ability exists just to showcase the PBS Extensions system.
 This ability exists just to showcase the PBS Extensions system.
 [12]
@@ -41903,6 +41915,10 @@ Which item should {1} drop?
 Which item should {1} drop?
 {1} dropped its {2}!
 {1} dropped its {2}!
+Which form should it take?
+Which form should it take?
+{1} takes on a new style!
+{1} takes on a new style!
 Transcending time and space, a cost-free switch!
 Transcending time and space, a cost-free switch!
 {1} can switch out regardless!
@@ -45227,6 +45243,8 @@ Right as you push the seed into the soil, a sapling bursts out of it!
 Right as you push the seed into the soil, a sapling bursts out of it!
 #{speciesName} stands strong, still ready to fight!
 #{speciesName} stands strong, still ready to fight!
+{1} goes back to sleep after being left alone.
+{1} goes back to sleep after being left alone.
 You recieved a #{speciesDat.name} (#{speciesDat.form_name})
 You recieved a #{speciesDat.name} (#{speciesDat.form_name})
 Editing your team is not allowed at the moment.
@@ -53377,6 +53395,10 @@ H. Voltorb
 H. Voltorb
 H. Electrode
 H. Electrode
+M. Voltorb
+M. Voltorb
+M. Electrode
+M. Electrode
 Exeggcute
 Exeggcute
 Exeggutor
@@ -55314,6 +55336,8 @@ Mega Claw
 Mega Claw
 Ball
 Ball
+Disco Ball
+Disco Ball
 Egg
 Egg
 Coconut
@@ -56917,6 +56941,10 @@ When excited, it discharges the electric current it has stored in its belly, the
 When excited, it discharges the electric current it has stored in its belly, then lets out a great, uproarious laugh.
 The tissue on the surface of its body is curiously similar in composition to an Apricorn.
 The tissue on the surface of its body is curiously similar in composition to an Apricorn.
+Discovered at around the 80s, these groovy Voltorbs help bring guests to clubs.
+Discovered at around the 80s, these groovy Voltorbs help bring guests to clubs.
+It wears sunglasses to protect its own eyes from its many lights, recently several have been imported to the Orre region.
+It wears sunglasses to protect its own eyes from its many lights, recently several have been imported to the Orre region.
 These Pokémon get nervous when they're not in a group of six. The minute even one member of the group goes missing, Exeggcute become cowardly.
 These Pokémon get nervous when they're not in a group of six. The minute even one member of the group goes missing, Exeggcute become cowardly.
 Each of its three heads has its own thoughts. When they want to go in different directions, Exeggutor becomes unable to move.

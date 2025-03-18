@@ -1,4 +1,9 @@
-﻿#-------------------------------
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[DISCOLIGHTS]
+Name = Disco Lights
+Description = The user adds the type of whatever dance move they use.
+#-------------------------------
 [IMPENETRABLESHELL]
 Name = Impenetrable Shell
 Description = Immune to Bug-type moves and raises Speed if hit by one.
@@ -7,7 +12,3 @@ Description = Immune to Bug-type moves and raises Speed if hit by one.
 Name = Thunderstorm
 Description = Once per switch-in, Charges in sandstorm, doubling the power of its next Electric-type move.
 Flags = SandSynergy
-#-------------------------------
-[DISCOLIGHTS]
-Name = Disco Lights
-Description = The user adds the type of whatever dance move they use.

@@ -447,12 +447,24 @@
 [Map445]
 [Map446]
 [5]
+Blinding Dance
+Blinding Dance
 [6]
+The user dances and shows off their many lights at the target, dizzying and damaging them.
+The user dances and shows off their many lights at the target, dizzying and damaging them.
 [7]
 [8]
 [9]
 [10]
+Costume Change
+Costume Change
+Disco Lights
+Disco Lights
 [11]
+Changes to the form of your choosing after switching out.
+Changes to the form of your choosing after switching out.
+The user adds the type of whatever dance move they use.
+The user adds the type of whatever dance move they use.
 [12]
 [14]
 D
@@ -1184,6 +1196,10 @@ E
 {1}: {2} ({3}\%)
 \ts[]<c3=4C0D0D,FFFFFF22><b><outln2><ac><fs={1}>\w[]\wu\l[12]{2}</fs></ac></outln2></b></c3>\wt[{3}]
 \ts[]<c3=4C0D0D,FFFFFF22><b><outln2><ac><fs={1}>\w[]\wu\l[12]{2}</fs></ac></outln2></b></c3>\wt[{3}]
+Which form should it take?
+Which form should it take?
+{1} takes on a new style!
+{1} takes on a new style!
 \ss#{msg}\<<1>>
 \ss#{msg}\<<1>>
 EHP
@@ -1194,6 +1210,8 @@ EHP
 {1}
 \cl\l[4]\op\wu\i[{1}]\or{2}\wt[30]
 \cl\l[4]\op\wu\i[{1}]\or{2}\wt[30]
+{1} goes back to sleep after being left alone.
+{1} goes back to sleep after being left alone.
 <ac>{1:02d}:{2:02d}
 <ac>{1:02d}:{2:02d}
 \i[{1}]{2}
@@ -1237,8 +1255,18 @@ GF
 [33]
 [34]
 [111]
+M. Voltorb
+M. Voltorb
+M. Electrode
+M. Electrode
 [222]
+Disco Ball
+Disco Ball
 [333]
+Discovered at around the 80s, these groovy Voltorbs help bring guests to clubs.
+Discovered at around the 80s, these groovy Voltorbs help bring guests to clubs.
+It wears sunglasses to protect its own eyes from its many lights, recently several have been imported to the Orre region.
+It wears sunglasses to protect its own eyes from its many lights, recently several have been imported to the Orre region.
 [444]
 A
 A
