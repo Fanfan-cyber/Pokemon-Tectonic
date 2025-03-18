@@ -78,8 +78,8 @@ class PokeBattle_Battle
         field_battlers = @battlers.compact.map { |b| b.unique_id }
         (@party1 + @party2).each do |pkmn|
             next unless pkmn
-            next unless battled_battlers.include?(pkmn.unique_id)
-            next if turn_switched[pkmn.unique_id] == @turnCount
+            next unless tracker_get(:battled_battlers).include?(pkmn.unique_id)
+            next if tracker_get(:turn_switched)[pkmn.unique_id] == @turnCount
             next if pkmn.fainted?
             next if pkmn.pinch?
             next if pkmn.has_status?
