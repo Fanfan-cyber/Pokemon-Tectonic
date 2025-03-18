@@ -29,6 +29,12 @@ class AbilitySystem
     @@ability_cache[ability_id] ||= Object.const_get(class_name).new
   end
 
+  def self.get(ability_id, attr)
+    ability = get_ability(ability_id)
+    return unless ability
+    ability.instance_variable_get("@#{attr}")
+  end
+
   def self.get_score(ability_id)
     get_ability(ability_id)&.score || 0
   end
