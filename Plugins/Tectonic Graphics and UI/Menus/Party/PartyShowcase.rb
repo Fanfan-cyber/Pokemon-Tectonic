@@ -7,6 +7,8 @@ class PokemonPartyShowcase_Scene
         base = MessageConfig::DARK_TEXT_MAIN_COLOR
         shadow = MessageConfig::DARK_TEXT_SHADOW_COLOR
 
+        @trainer = trainer
+
         @sprites = {}
         @party = trainer.party.clone
         @viewport = Viewport.new(0,0,Graphics.width,Graphics.height)
@@ -226,7 +228,7 @@ class PokemonPartyShowcase_Scene
         abil = pokemon.ability
         abilityName = abil && pokemon.has_main_ability? && TA.get(:customabil) ? abil.name : _INTL("None")
         drawTextEx(@overlay, displayX + 4, mainIconY + POKEMON_ICON_SIZE + 8, 200, 1, abilityName, base, shadow)
-    
+
         # Display Style Points
         styleValueX = displayX + 222
         styleHash = pokemon.ev
