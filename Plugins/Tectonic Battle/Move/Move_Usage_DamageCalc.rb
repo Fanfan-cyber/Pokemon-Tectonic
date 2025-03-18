@@ -361,7 +361,7 @@ class PokeBattle_Move
             multipliers[:final_damage_multiplier] *= stab
         end
 
-        # ROWE
+        # R.O.W.E.
         offe = 0
         user.ownerParty.each do |partyMember|
             next unless partyMember
@@ -489,7 +489,7 @@ class PokeBattle_Move
         end
         
         # Global Supreme Overlord
-        multipliers[:base_damage_multiplier] *= (user.owner_party_fainted_count * Settings::GLOBAL_S_O) * 0.01 + 1.0
+        #multipliers[:base_damage_multiplier] *= (user.owner_party_fainted_count * Settings::GLOBAL_S_O) * 0.01 + 1.0
 
         if aiCheck
             # Parental Bond
