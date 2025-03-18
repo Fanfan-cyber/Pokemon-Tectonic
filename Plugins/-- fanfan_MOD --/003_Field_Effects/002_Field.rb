@@ -11,11 +11,11 @@ class PokeBattle_Battle::Field
 
   OPPOSING_ADVANTAGEOUS_TYPE_FIELD = false
 
-  BASE_KEYS = %i[set_field_battler_universal]
+  BASE_KEYS = %i[set_field_battler_universal].freeze
 
   PARADOX_KEYS = %i[begin_battle set_field_battle set_field_battler set_field_battler_universal
                    nature_power_change secret_power_effect tailwind_duration
-                   end_field_battle end_field_battler]
+                   end_field_battle end_field_battler].freeze
 
   DEFAULT_FIELD = {
     :Electric => [[],           # map ids
@@ -51,7 +51,7 @@ class PokeBattle_Battle::Field
     :Frozen   => [[],
                 %w[],
                 %i[ICE]],
-  }
+  }.freeze
 
   def initialize(battle)
     @battle                    = battle

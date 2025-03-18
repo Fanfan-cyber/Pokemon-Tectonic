@@ -6,7 +6,7 @@ module TimeCapsule
   @@time_capsule = []
 
   def self.read_time_capsule
-    return [] if !File.exist?(PATH)
+    return [] unless File.exist?(PATH)
     encrypted_data = File.read(PATH)
     @@time_capsule = Marshal.restore(Zlib::Inflate.inflate(encrypted_data.unpack("m")[0]))
   end
@@ -14,12 +14,12 @@ module TimeCapsule
   def self.open_time_capsule
     loop do
       if @@time_capsule.empty?
-        pbMessage(_INTL("There isn't any Pokémon in the Time Capsule!"))
+        pbMessage(_INTL("There aren't any Pokémon in the Time Capsule!"))
         return
       else
         data = pbChoosePkmnFromListEX(_INTL("Which Pokémon would you like to retrieve?"), @@time_capsule)
         pkmn = data[0]
-        return if !pkmn
+        return unless pkmn
         if has_species?(pkmn.species, pkmn.form)
           pbMessage(_INTL("You can't retrieve this Pokémon! You already have one!"))
         else

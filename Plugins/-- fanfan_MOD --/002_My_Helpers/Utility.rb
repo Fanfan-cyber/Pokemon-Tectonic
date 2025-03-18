@@ -57,20 +57,20 @@ end
 
 def pbChoosePkmnFromListEX(message, input_ids, must_choose = false)
   names = []
-  ids = []
+  ids   = []
   input_ids.each do |id|
     if id.is_a?(Pokemon)
       names.push(id.name)
       ids.push(id)
     else
-      next if !GameData::Pokemon.exists?(id)
-      pkmn = GameData::Pokemon.get(id)
+      next unless GameData::Species.exists?(id)
+      pkmn = GameData::Species.get(id)
       names.push(pkmn.name)
       ids.push(pkmn.id)
     end
   end
   return if names.empty?
-  if !must_choose
+  unless must_choose
     names.push(_INTL("Cancel"))
     ids.push(nil)
     ret = pbMessage(message, names, -1)
@@ -82,7 +82,7 @@ end
 
 def pbChooseAbilityFromListEX(message, input_ids, must_choose = false)
   names = []
-  ids = []
+  ids   = []
   input_ids.each do |id|
     if id.is_a?(GameData::Ability)
       names.push(id.name)
@@ -95,7 +95,7 @@ def pbChooseAbilityFromListEX(message, input_ids, must_choose = false)
     end
   end
   return if names.empty?
-  if !must_choose
+  unless must_choose
     names.push(_INTL("Cancel"))
     ids.push(nil)
     ret = pbMessage(message, names, -1)
@@ -113,7 +113,7 @@ def change_ability_choose_from_list(pkmn, ability_list)
   new_ability_data = pbChooseAbilityFromListEX(_INTL("Choose an ability."), ability_list)
   new_ability = new_ability_data[0]
   return false unless new_ability
-  if new_ability != pkmn.ability_id
+  unless new_ability == pkmn.ability_id
     new_ability_name = GameData::Ability.get(new_ability).name
     if pbConfirmMessage(_INTL("Change {1}'s main ability to {2}?", pkmn.name, new_ability_name))
       pkmn.ability = new_ability
@@ -130,20 +130,20 @@ end
 
 def pbChooseItemFromListEX(message, input_ids, must_choose = false)
   names = []
-  ids = []
+  ids   = []
   input_ids.each do |id|
     if id.is_a?(GameData::Item)
       names.push(id.name)
       ids.push(id)
     else
-      next if !GameData::Item.exists?(id)
+      next unless GameData::Item.exists?(id)
       item = GameData::Item.get(id)
       names.push(item.name)
       ids.push(item.id)
     end
   end
   return if names.empty?
-  if !must_choose
+  unless must_choose
     names.push(_INTL("Cancel"))
     ids.push(nil)
     ret = pbMessage(message, names, -1)
@@ -155,20 +155,20 @@ end
 
 def pbChooseMoveFromListEX(message, input_ids, must_choose = false)
   names = []
-  ids = []
+  ids  = []
   input_ids.each do |id|
     if id.is_a?(PokeBattle_Move)
       names.push(id.name)
       ids.push(id)
     else
-      next if !GameData::Move.exists?(id)
+      next unless GameData::Move.exists?(id)
       move = GameData::Move.get(id)
       names.push(move.name)
       ids.push(move.id)
     end
   end
   return if names.empty?
-  if !must_choose
+  unless must_choose
     names.push(_INTL("Cancel"))
     ids.push(nil)
     ret = pbMessage(message, names, -1)
@@ -221,7 +221,7 @@ end
 def guess_pkmn_type(species_id = nil)
   if species_id
     species_data = GameData::Species.try_get(species_id)
-    return if !species_data
+    return unless species_data
   else
     random_species = GameData::Species.keys.sample
     species_data = GameData::Species.get(random_species)
@@ -234,7 +234,7 @@ def guess_pkmn_type(species_id = nil)
   pbMessage(_INTL("Do you know the Type of {1}?", species_name))
 
   type_data = select_from_all_types(species_id)
-  return if !type_data
+  return unless type_data
   chosen_type_id, chosen_type_name = type_data
 
   if species_types.include?(chosen_type_id)
@@ -278,8 +278,8 @@ end
 
 def random_choose_from_list(list_name, use_weight = true)
   selected_list = AllLists.const_get(list_name.to_s.upcase)
-  return if !selected_list
-  return selected_list.sample[:name] if !use_weight
+  return unless selected_list
+  return selected_list.sample[:name] unless use_weight
 
   total_weight = selected_list.sum { |i| i[:weight] }
   random_value = rand(total_weight)
