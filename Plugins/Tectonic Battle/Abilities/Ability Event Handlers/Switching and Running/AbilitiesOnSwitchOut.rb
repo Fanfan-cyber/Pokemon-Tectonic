@@ -81,6 +81,26 @@ BattleHandlers::AbilityOnSwitchOut.add(:CLUMSYKINESIS,
   }
 )
 
+BattleHandlers::AbilityOnSwitchOut.add(:COSTUMECHANGE,
+  proc { |ability, battler, battle, endOfBattle|
+      next if endOfBattle
+      next unless battler.species == :ORICORIO
+      form0Name = GameData::Species.get_species_form(:ORICORIO,0).form_name 
+      form1Name = GameData::Species.get_species_form(:ORICORIO,1).form_name
+      form2Name = GameData::Species.get_species_form(:ORICORIO,2).form_name
+      form3Name = GameData::Species.get_species_form(:ORICORIO,3).form_name
+      choices = [form0Name,form1Name,form2Name,form3Name]
+      if battle.autoTesting
+        choice = rand(3)
+      elsif !battler.pbOwnedByPlayer? # Trainer AI
+        choice = 0
+      else
+        choice = battle.scene.pbShowCommands(_INTL("Which form should it take?"),choices,0)
+      end
+      battler.pbChangeForm(choice, _INTL("{1} takes on a new style!", battler.pbThis))
+  }
+)
+
 BattleHandlers::AbilityOnSwitchOut.add(:TEMPORALSHIFT,
   proc { |ability, battler, battle, endOfBattle|
       next if endOfBattle

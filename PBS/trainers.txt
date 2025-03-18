@@ -1633,7 +1633,7 @@ Pokemon = AMAROWAK,30
 Pokemon = ORICORIO,30
     Form = 3 # Sensu Style Form
     Moves = FEATHERDANCE,STARDANCE,SQUALLDART,SMOLDERRAVE
-    AbilityIndex = 1 # Dancer
+    AbilityIndex = 0 # Dancer
     Item = CHARCOAL
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,20,20,0

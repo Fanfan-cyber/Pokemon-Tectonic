@@ -318,6 +318,10 @@ Description = Using or being hit by a physical move leaves a rock on the field. 
 Name = Cosmic Contact
 Description = After using a status move, raises both of the Pokémon's defensive stats.
 #-------------------------------
+[COSTUMECHANGE]
+Name = Costume Change
+Description = Changes to the form of your choosing after switching out.
+#-------------------------------
 [COTTONDECOY]
 Name = Cotton Decoy
 Description = Upon entry, creates a substitute from 1/4th of its HP.
