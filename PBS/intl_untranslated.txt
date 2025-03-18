@@ -1098,6 +1098,8 @@ HP
 <u>???</u>
 <<[>>{1}/{2}<<]>>
 <<[>>{1}/{2}<<]>>
+Adoption Center
+Adoption Center
 IDNo.<r>{1}<br>
 IDNo.<r>{1}<br>
 No. ???
@@ -1238,8 +1240,40 @@ All text in the game was extracted and saved to PBS\{1}.<<1>>
 \wm#{text}\me<<[>>Slots win<<]>>\wtnp<<[>>80<<]>><<1>>
 \cl\l[2]\op\wu<ac>{1}</ac>\wtnp[{2}]
 \cl\l[2]\op\wu<ac>{1}</ac>\wtnp[{2}]
+There aren't any Pokémon in the Time Capsule!
+There aren't any Pokémon in the Time Capsule!
 ? ? ? ?
 ? ? ? ?
+Adopt
+Adopt
+Check AP
+Check AP
+Explain
+Explain
+You don't have any AP.
+You don't have any AP.
+Your available AP are {1}.
+Your available AP are {1}.
+Adoption Center is a place where you can adopt Pokémon with your Adoption Point(AP)!<<n>>You can get AP when you win a battle.
+Adoption Center is a place where you can adopt Pokémon with your Adoption Point(AP)!<<n>>You can get AP when you win a battle.
+10 AP Zone
+10 AP Zone
+30 AP Zone
+30 AP Zone
+50 AP Zone
+50 AP Zone
+Which Zone?
+Which Zone?
+There aren't any Pokémon you can adopt from this Zone!
+There aren't any Pokémon you can adopt from this Zone!
+Which Pokémon would you like to adopt?
+Which Pokémon would you like to adopt?
+Do you want to adopt this Pokémon?
+Do you want to adopt this Pokémon?
+You can't adopt this Pokémon! You already have one!
+You can't adopt this Pokémon! You already have one!
+You can't adopt this Pokémon! You don't have enough AP!
+You can't adopt this Pokémon! You don't have enough AP!
 1111111
 1111111
 2222222
@@ -1263,10 +1297,12 @@ M. Electrode
 Disco Ball
 Disco Ball
 [333]
-Discovered at around the 80s, these groovy Voltorbs help bring guests to clubs.
-Discovered at around the 80s, these groovy Voltorbs help bring guests to clubs.
+Discovered by Attea the Silly at around the 80s, these groovy Voltorbs help bring guests to clubs.
+Discovered by Attea the Silly at around the 80s, these groovy Voltorbs help bring guests to clubs.
 It wears sunglasses to protect its own eyes from its many lights, recently several have been imported to the Orre region.
 It wears sunglasses to protect its own eyes from its many lights, recently several have been imported to the Orre region.
+Mechanitar was discovered by Valrex. It is highly intelligent and non-confrontational, tending to avoid battle if possible.
+Mechanitar was discovered by Valrex. It is highly intelligent and non-confrontational, tending to avoid battle if possible.
 [444]
 A
 A

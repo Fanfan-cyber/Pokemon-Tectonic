@@ -3032,7 +3032,7 @@ StepsToHatch = 5355
 Height = 0.5
 Weight = 10.4
 Kind = Disco Ball
-Pokedex = Discovered at around the 80s, these groovy Voltorbs help bring guests to clubs.
+Pokedex = Discovered by Attea the Silly at around the 80s, these groovy Voltorbs help bring guests to clubs.
 Generation = 1
 Evolutions = MELECTRODE,Level,32
 #-------------------------------
@@ -7059,7 +7059,7 @@ StepsToHatch = 10455
 Height = 1.6
 Weight = 303.0
 Kind = Hard Shell
-Pokedex = Mechanitar is highly intelligent and non-confrontational, tending to avoid battle if possible.
+Pokedex = Mechanitar was discovered by Valrex. It is highly intelligent and non-confrontational, tending to avoid battle if possible.
 Generation = 9
 Flags = Paradox
 #-------------------------------

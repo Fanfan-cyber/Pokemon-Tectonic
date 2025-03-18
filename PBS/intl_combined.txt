@@ -38335,6 +38335,8 @@ Battle Loader
 战斗模拟器
 Team Switcher
 队伍转换器
+Adoption Center
+Adoption Center
 Gift Receiver
 密码输入器
 Cancel
@@ -48845,8 +48847,8 @@ Do you really want to delete it?
 你真的想删除它吗？
 This team has been deleted!
 这个队伍已被删除！
-There isn't any Pokémon in the Time Capsule!
-时间胶囊中并没有任何精灵！
+There aren't any Pokémon in the Time Capsule!
+There aren't any Pokémon in the Time Capsule!
 Which Pokémon would you like to retrieve?
 你想要取回哪只精灵？
 Do you want to put {1} in the Time Capsule?
@@ -48971,6 +48973,36 @@ Sorry, you got it wrong!
 很抱歉，你答错了！
 <<[>>C<<]>>: Continue <<[>>X<<]>>: Exit
 <<[>>C<<]>>: 继续 <<[>>X<<]>>: 退出
+Adopt
+Adopt
+Check AP
+Check AP
+Explain
+Explain
+You don't have any AP.
+You don't have any AP.
+Your available AP are {1}.
+Your available AP are {1}.
+Adoption Center is a place where you can adopt Pokémon with your Adoption Point(AP)!<<n>>You can get AP when you win a battle.
+Adoption Center is a place where you can adopt Pokémon with your Adoption Point(AP)!<<n>>You can get AP when you win a battle.
+10 AP Zone
+10 AP Zone
+30 AP Zone
+30 AP Zone
+50 AP Zone
+50 AP Zone
+Which Zone?
+Which Zone?
+There aren't any Pokémon you can adopt from this Zone!
+There aren't any Pokémon you can adopt from this Zone!
+Which Pokémon would you like to adopt?
+Which Pokémon would you like to adopt?
+Do you want to adopt this Pokémon?
+Do you want to adopt this Pokémon?
+You can't adopt this Pokémon! You already have one!
+You can't adopt this Pokémon! You already have one!
+You can't adopt this Pokémon! You don't have enough AP!
+You can't adopt this Pokémon! You don't have enough AP!
 1111111
 1111111
 2222222
@@ -56941,8 +56973,8 @@ When excited, it discharges the electric current it has stored in its belly, the
 形状颇似精灵球的奇异精灵。当情绪高涨时，积蓄在腹部的电流就会放出，同时发出大笑。
 The tissue on the surface of its body is curiously similar in composition to an Apricorn.
 体表的组织与球果的成分极为接近，不可思议。当它情绪焦躁时所放出的电流，能量足以匹敌２０次的落雷。
-Discovered at around the 80s, these groovy Voltorbs help bring guests to clubs.
-Discovered at around the 80s, these groovy Voltorbs help bring guests to clubs.
+Discovered by Attea the Silly at around the 80s, these groovy Voltorbs help bring guests to clubs.
+Discovered by Attea the Silly at around the 80s, these groovy Voltorbs help bring guests to clubs.
 It wears sunglasses to protect its own eyes from its many lights, recently several have been imported to the Orre region.
 It wears sunglasses to protect its own eyes from its many lights, recently several have been imported to the Orre region.
 These Pokémon get nervous when they're not in a group of six. The minute even one member of the group goes missing, Exeggcute become cowardly.
@@ -57341,8 +57373,8 @@ Its shell is as hard as sheet rock, and it is also very strong. Its thrashing ca
 会到处胡闹，相当危险的蛹。在岩盘一样的外壳内，新的身体正在逐渐成形。
 If it rampages, it knocks down mountains and buries rivers. Maps must be redrawn afterward.
 会在山中徘徊以寻求战斗对手。但如果遇到的是比自己弱小的对手，它就会视若无睹地离开。
-Mechanitar is highly intelligent and non-confrontational, tending to avoid battle if possible.
-班机拉非常聪明且不具攻击性，它尽可能避免战斗。
+Mechanitar was discovered by Valrex. It is highly intelligent and non-confrontational, tending to avoid battle if possible.
+Mechanitar was discovered by Valrex. It is highly intelligent and non-confrontational, tending to avoid battle if possible.
 Raikou embodies the speed of lightning. The roars of this Pokémon send shock waves shuddering through the air and shake the ground as if lightning bolts had come crashing down.
 体内蕴藏着雷电般速度的精灵。它的长嚎会如同天雷落地时一样震动空气，摇撼大地。
 Entei embodies the passion of magma. This Pokémon is thought to have been born in the eruption of a volcano. It sends up massive bursts of fire that utterly consume all that they touch.

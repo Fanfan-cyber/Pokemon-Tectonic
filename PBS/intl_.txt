@@ -38335,6 +38335,8 @@ Battle Loader
 Battle Loader
 Team Switcher
 Team Switcher
+Adoption Center
+Adoption Center
 Gift Receiver
 Gift Receiver
 Cancel
@@ -48845,8 +48847,8 @@ Do you really want to delete it?
 Do you really want to delete it?
 This team has been deleted!
 This team has been deleted!
-There isn't any Pokémon in the Time Capsule!
-There isn't any Pokémon in the Time Capsule!
+There aren't any Pokémon in the Time Capsule!
+There aren't any Pokémon in the Time Capsule!
 Which Pokémon would you like to retrieve?
 Which Pokémon would you like to retrieve?
 Do you want to put {1} in the Time Capsule?
@@ -48971,6 +48973,36 @@ Sorry, you got it wrong!
 Sorry, you got it wrong!
 <<[>>C<<]>>: Continue <<[>>X<<]>>: Exit
 <<[>>C<<]>>: Continue   <<[>>X<<]>>: Exit
+Adopt
+Adopt
+Check AP
+Check AP
+Explain
+Explain
+You don't have any AP.
+You don't have any AP.
+Your available AP are {1}.
+Your available AP are {1}.
+Adoption Center is a place where you can adopt Pokémon with your Adoption Point(AP)!<<n>>You can get AP when you win a battle.
+Adoption Center is a place where you can adopt Pokémon with your Adoption Point(AP)!<<n>>You can get AP when you win a battle.
+10 AP Zone
+10 AP Zone
+30 AP Zone
+30 AP Zone
+50 AP Zone
+50 AP Zone
+Which Zone?
+Which Zone?
+There aren't any Pokémon you can adopt from this Zone!
+There aren't any Pokémon you can adopt from this Zone!
+Which Pokémon would you like to adopt?
+Which Pokémon would you like to adopt?
+Do you want to adopt this Pokémon?
+Do you want to adopt this Pokémon?
+You can't adopt this Pokémon! You already have one!
+You can't adopt this Pokémon! You already have one!
+You can't adopt this Pokémon! You don't have enough AP!
+You can't adopt this Pokémon! You don't have enough AP!
 1111111
 1111111
 2222222
@@ -56941,8 +56973,8 @@ When excited, it discharges the electric current it has stored in its belly, the
 When excited, it discharges the electric current it has stored in its belly, then lets out a great, uproarious laugh.
 The tissue on the surface of its body is curiously similar in composition to an Apricorn.
 The tissue on the surface of its body is curiously similar in composition to an Apricorn.
-Discovered at around the 80s, these groovy Voltorbs help bring guests to clubs.
-Discovered at around the 80s, these groovy Voltorbs help bring guests to clubs.
+Discovered by Attea the Silly at around the 80s, these groovy Voltorbs help bring guests to clubs.
+Discovered by Attea the Silly at around the 80s, these groovy Voltorbs help bring guests to clubs.
 It wears sunglasses to protect its own eyes from its many lights, recently several have been imported to the Orre region.
 It wears sunglasses to protect its own eyes from its many lights, recently several have been imported to the Orre region.
 These Pokémon get nervous when they're not in a group of six. The minute even one member of the group goes missing, Exeggcute become cowardly.
@@ -57341,8 +57373,8 @@ Its shell is as hard as sheet rock, and it is also very strong. Its thrashing ca
 Its shell is as hard as sheet rock, and it is also very strong. Its thrashing can topple a mountain.
 If it rampages, it knocks down mountains and buries rivers. Maps must be redrawn afterward.
 If it rampages, it knocks down mountains and buries rivers. Maps must be redrawn afterward.
-Mechanitar is highly intelligent and non-confrontational, tending to avoid battle if possible.
-Mechanitar is highly intelligent and non-confrontational, tending to avoid battle if possible.
+Mechanitar was discovered by Valrex. It is highly intelligent and non-confrontational, tending to avoid battle if possible.
+Mechanitar was discovered by Valrex. It is highly intelligent and non-confrontational, tending to avoid battle if possible.
 Raikou embodies the speed of lightning. The roars of this Pokémon send shock waves shuddering through the air and shake the ground as if lightning bolts had come crashing down.
 Raikou embodies the speed of lightning. The roars of this Pokémon send shock waves shuddering through the air and shake the ground as if lightning bolts had come crashing down.
 Entei embodies the passion of magma. This Pokémon is thought to have been born in the eruption of a volcano. It sends up massive bursts of fire that utterly consume all that they touch.
