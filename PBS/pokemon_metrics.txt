@@ -7073,3 +7073,15 @@ BackSprite = 0,1
 FrontSprite = 6,7
 ShadowX = 0
 ShadowSize = 3
+#-------------------------------
+[MVOLTORB]
+BackSprite = 0,31
+FrontSprite = -1,34
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[MELECTRODE]
+BackSprite = 0,25
+FrontSprite = 0,26
+ShadowX = 0
+ShadowSize = 2

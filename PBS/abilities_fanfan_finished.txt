@@ -1,0 +1,13 @@
+﻿#-------------------------------
+[BACKFIRE]
+Name = Backfire
+Description = When hitting a target that has an ability with an offensive damage-modifying effect, the Pokémon ignores the conditions and triggers the effect.
+#-------------------------------
+[BIOENGINEERING]
+Name = Bioengineering
+Description = When the Pokémon's level is 25 or higher, it transforms into a member of its family depending on the type of the move it is about to use.
+Flags = Immutable
+#-------------------------------
+[RELENTLESSPURSUIT]
+Name = Relentless Pursuit
+Description = Attacks switching opponents with Pursuit.

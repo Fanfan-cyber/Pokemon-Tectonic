@@ -605,7 +605,7 @@ BattleHandlers::UserAbilityEndOfMove.add(:OFFENSIVE,
 )
 
 BattleHandlers::UserAbilityEndOfMove.add(:THUNDERSTORM,
-  proc { |ability, user, _targets, move, battle, _switchedBattlers|
+  proc { |ability, user, _targets, _move, battle, _switchedBattlers|
     next if battle.futureSight
     next unless battle.sandy?
     next if user.effectActive?(:Charge)

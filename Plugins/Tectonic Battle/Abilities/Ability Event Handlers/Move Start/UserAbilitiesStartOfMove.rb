@@ -28,3 +28,9 @@ BattleHandlers::UserAbilityStartOfMove.add(:SHIFTINGFIST,
     moveUseTypeChangeAbility(ability, user, move, battle, true) if move.punchingMove?
   }
 )
+
+BattleHandlers::UserAbilityStartOfMove.add(:DISCOLIGHTS,
+  proc { |ability, user, _targets, move, battle|
+    moveUseTypeChangeAbility(ability, user, move, battle, true) if move.danceMove?
+  }
+)
