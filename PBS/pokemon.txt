@@ -3683,8 +3683,8 @@ Name = Seaking
 Type1 = WATER
 Type2 = FAIRY
 # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-BaseStats = 70,112,85,108,75,70
-# Total = 520
+BaseStats = 90,112,85,108,75,70
+# Total = 540
 BaseEXP = 158
 Rareness = 60
 Happiness = 50
@@ -3724,8 +3724,8 @@ Name = M. Seaking
 Type1 = DRAGON
 Type2 = FAIRY
 # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-BaseStats = 88,118,88,88,74,64
-# Total = 520
+BaseStats = 88,118,93,88,84,69
+# Total = 540
 BaseEXP = 158
 Rareness = 60
 Happiness = 50

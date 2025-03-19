@@ -682,7 +682,6 @@ class PokeBattle_AI_MARACTUS < PokeBattle_AI_Boss
                 _INTL("{1} is feeling exposed!",user.pbThis)
             },
         })
-        secondMoveEveryTurn(:LEECHSEED)
     end
 end
 
