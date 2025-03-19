@@ -52,7 +52,7 @@ class TribalBonusScene
             titleText = "<b>#{titleText}</b>" if count >= tribeData.threshold
             @displayText << titleText
             lineIndex += 1
-            bonusDescription = tribeData.description
+            bonusDescription = tribeData.description.clone
 
             # Put in the curren value for the scaling stat bonuses
             smallBonus = tribalTracker.getSingleStatBonusSmall(getLevelCap)
