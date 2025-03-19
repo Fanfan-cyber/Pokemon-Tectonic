@@ -8,7 +8,7 @@ Adoption Center
 整理002_My_Helpers和003_Field_Effect
 不再显示已经被删除的物品/特性/技能
 =end
-MOD_VERSION = "v0.3.1"
+MOD_VERSION = "v0.3.2"
 
 CHANGE_LOG = <<-LOGGER
 #==============================================================================#
@@ -116,6 +116,9 @@ rocket/norocket，开启/关闭火箭队模式
 customabil/nocustomabil，开启/关闭特性自选模式
 doublebattle/disabledouble，开启/关闭全双打模式
 zeroexp/disablezeroexp，开启/关闭无经验模式
+
+v0.3.2
+1.
 
 v0.3.1
 1.修复了因为优化记录上场过的精灵的代码而导致的Bug（尽管此条在v0.3.0中实际上已修复）
