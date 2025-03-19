@@ -140,6 +140,17 @@ class PokeBattle_Battler
         @pokemon.moves.each_with_index do |m, i|
             @moves[i] = PokeBattle_Move.from_pokemon_move(@battle, m)
         end
+        @moves_for_dexyos = {}
+        @pokemon.moves_for_dexyos.each do |form_index, form_moves|
+            if form_index == 0
+                @moves_for_dexyos[form_index] = @moves
+            else
+                @moves_for_dexyos[form_index] = []
+                form_moves.each_with_index do |m, i|
+                    @moves_for_dexyos[form_index][i] = PokeBattle_Move.from_pokemon_move(@battle, m)
+                end
+            end
+        end
     end
 
     def pbInitialize(pkmn, idxParty, batonPass = false)
