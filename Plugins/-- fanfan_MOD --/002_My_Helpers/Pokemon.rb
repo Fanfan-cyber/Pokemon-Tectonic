@@ -7,6 +7,10 @@ class Pokemon
     @unique_id ||= generate_unique_id
   end
 
+  def moves_for_dexyos
+    @moves_for_dexyos ||= {}
+  end
+
   def mono_type?
     types.length < 2 
   end
