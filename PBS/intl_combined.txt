@@ -42536,13 +42536,13 @@ PA: You have no Safari Balls left! Game over!
 {1} is watching carefully!
 {1}正在仔细观察你！
 \w[]\wm\c[12]\l[3]You feel the pull of the nearby Avatar Totem. Would you like it to revive you?
-\w[]\wm\c[12]\l[3]你感觉到了附近的 化身图腾在吸引着你， 要利用它的力量复活自己吗？
+\w[]\wm\c[12]\l[3]你感觉到了附近的化身图腾在吸引着你， 要利用它的力量复活自己吗？
 \w[]\wm\c[12]\l[3]By the power of the Avatar Totem, your team is revived.
 \w[]\wm\c[12]\l[3]借助化身图腾的力量你的队伍获得了重生。
 An error has occured. Unable to spawn player at Avatar Totem. Attempting backup spawn at healing spot.
 发生错误。无法在化身图腾处生成玩家。尝试在治疗点进行备用生成。
 \w[]\wm\c[12]\l[3]You scurry back to {1}, protecting your exhausted Pokémon from any further harm...
-\w[]\wm\c[12]\l[3]你急忙跑回 {1}，保护你的精灵不再受到伤害...
+\w[]\wm\c[12]\l[3]你急忙跑回{1}，保护你的精灵不再受到伤害...
 Argument {1} expected a variable after it but didn't have one.
 参数{1}期望在其后有一个变量，但没有。
 Perfect battle?
