@@ -179,6 +179,12 @@ MultipleForms.register(:RAYQUAZA,{
   }
 })
 
+MultipleForms.register(:DEOXYS,{
+  "getFormOnLeavingBattle" => proc { |pkmn,battle,usedInBattle,endBattle|
+    next 0
+  }
+})
+
 MultipleForms.register(:BURMY,{
   "getFormOnLeavingBattle" => proc { |pkmn,battle,usedInBattle,endBattle|
     next 0 if pkmn.fainted? || endBattle

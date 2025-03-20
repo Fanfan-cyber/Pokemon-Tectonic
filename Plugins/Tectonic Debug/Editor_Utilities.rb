@@ -140,10 +140,10 @@ def pbGetLegalMoves(species)
     return pbChooseList(commands, default, nil, -1)
   end
   
-  def pbChooseMoveListForSpecies(species, defaultMoveID = nil, onlyLegalMoves = false)
+  def pbChooseMoveListForSpecies(species, defaultMoveID = nil, onlyLegalMoves = false, move_list: [])
     commands = []
     # Get all legal moves
-    legalMoves = GameData::Species.get(species).learnable_moves
+    legalMoves = move_list.empty? ? GameData::Species.get(species).learnable_moves : move_list
     legalMoves.each do |move|
       move_data = GameData::Move.get(move)
       commands.push([move_data.id_number, move_data.name, move_data.id])

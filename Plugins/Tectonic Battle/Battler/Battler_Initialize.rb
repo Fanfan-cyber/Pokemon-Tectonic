@@ -132,7 +132,6 @@ class PokeBattle_Battler
         @pokemonIndex = idxParty
         @participants = [] # Participants earn Exp. if this battler is defeated
         resetMoves
-        resetExtraMoves
         @bossAI = PokeBattle_AI_Boss.from_boss_battler(self) if @pokemon.boss?
     end
 
@@ -141,6 +140,7 @@ class PokeBattle_Battler
         @pokemon.moves.each_with_index do |m, i|
             @moves[i] = PokeBattle_Move.from_pokemon_move(@battle, m)
         end
+        resetExtraMoves
     end
 
     def pbInitialize(pkmn, idxParty, batonPass = false)
