@@ -3,6 +3,13 @@ class Array
   alias_method :choose,     :values_at
   alias_method :drop_first, :drop
 
+  def each_with_index_and_object(initial_object)
+    each_with_index do |element, index|
+      yield(element, index, initial_object)
+    end
+    initial_object
+  end
+
   def number?
     all? { |element| element.is_a?(Numeric) }
   end
