@@ -239,11 +239,13 @@ existingIndex)
         cmdSetHP      = -1
         cmdSetStatus  = -1
         cmdSetGender  = -1
+        cmdExtraMoves = -1
 
         newspecies = @pkmn.check_evolution_on_level_up(false)
         # Build the commands
         commands[cmdAdaptiveAI = commands.length]   = _INTL("Adaptive AI") if TA.get(:adaptiveai)
         commands[cmdEvolve = commands.length]       = _INTL("Evolve") if newspecies
+        commands[cmdExtraMoves = commands.length]   = _INTL("Extra Moves") if @pkmn.isSpecies?(:DEOXYS)
         commands[cmdOpenAR = commands.length]       = _INTL("Open AR") if TA.get(:customabil) && !$Trainer.ability_recorder.empty?
         commands[cmdRename = commands.length]       = _INTL("Rename")
         commands[cmdSetGender = commands.length]    = _INTL("Set Gender")
@@ -366,6 +368,8 @@ existingIndex)
         elsif cmdAdaptiveAI >= 0 && modifyCommand == cmdAdaptiveAI
             changed = change_ability_choose_from_list(@pkmn, Pokemon::ADAPTIVE_AI)
             @partyScene.pbRefresh if changed
+        elsif cmdExtraMoves >= 0 && modifyCommand == cmdExtraMoves
+            DeoxysExtraMoves.learnExtraMove(@pkmn)
         elsif cmdStyle >= 0 && modifyCommand == cmdStyle
             pbStyleValueScreen(@pkmn)
         end

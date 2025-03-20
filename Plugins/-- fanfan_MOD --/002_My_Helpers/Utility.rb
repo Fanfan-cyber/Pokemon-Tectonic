@@ -157,7 +157,7 @@ def pbChooseMoveFromListEX(message, input_ids, must_choose = false)
   names = []
   ids  = []
   input_ids.each do |id|
-    if id.is_a?(PokeBattle_Move)
+    if id.is_a?(PokeBattle_Move) || id.is_a?(Pokemon::Move)
       names.push(id.name)
       ids.push(id)
     else

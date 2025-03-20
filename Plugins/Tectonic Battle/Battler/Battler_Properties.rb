@@ -125,11 +125,7 @@ class PokeBattle_Battler
     end
 
     def getMoves
-        if isSpecies?(:DEXYOS)
-            movesArray = @moves_for_dexyos[self.form].clone || @moves.clone
-        else
-            movesArray = @moves.clone
-        end
+        movesArray = isSpecies?(:DEXYOS) ? @moves_for_dexyos[self.form].clone : @moves.clone
         if @battle.field.effectActive?(:InsightRoom)
             insightMove = getInsightMove
             movesArray.push(insightMove) if insightMove

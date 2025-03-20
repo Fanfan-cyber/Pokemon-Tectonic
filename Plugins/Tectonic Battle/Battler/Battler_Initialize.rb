@@ -132,6 +132,7 @@ class PokeBattle_Battler
         @pokemonIndex = idxParty
         @participants = [] # Participants earn Exp. if this battler is defeated
         resetMoves
+        resetExtraMoves
         @bossAI = PokeBattle_AI_Boss.from_boss_battler(self) if @pokemon.boss?
     end
 
@@ -139,17 +140,6 @@ class PokeBattle_Battler
         @moves        = []
         @pokemon.moves.each_with_index do |m, i|
             @moves[i] = PokeBattle_Move.from_pokemon_move(@battle, m)
-        end
-        @moves_for_dexyos = {}
-        @pokemon.moves_for_dexyos.each do |form_index, form_moves|
-            if form_index == 0
-                @moves_for_dexyos[form_index] = @moves
-            else
-                @moves_for_dexyos[form_index] = []
-                form_moves.each_with_index do |m, i|
-                    @moves_for_dexyos[form_index][i] = PokeBattle_Move.from_pokemon_move(@battle, m)
-                end
-            end
         end
     end
 
