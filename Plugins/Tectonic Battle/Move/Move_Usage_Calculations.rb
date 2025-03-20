@@ -242,7 +242,7 @@ class PokeBattle_Move
                     next unless BattleHandlers.triggerCriticalPreventTargetAbility(ability, user, target, @battle)
                     unless checkingForAI
                         battle.pbShowAbilitySplash(target, ability)
-                        battle.pbDisplay(_INTL("#{target.pbThis} prevents the hit from being critical!"))
+                        battle.pbDisplay(_INTL("{1} prevents the hit from being critical!", target.pbThis))
                         battle.pbHideAbilitySplash(target)
                     end
                     crit = false
@@ -255,7 +255,7 @@ class PokeBattle_Move
             if target.hasTribeBonus?(:TACTICIAN)
                 unless checkingForAI
                     battle.pbShowTribeSplash(target, :TACTICIAN)
-                    battle.pbDisplay(_INTL("#{target.pbThis} prevents the hit from being critical!"))
+                    battle.pbDisplay(_INTL("{1} prevents the hit from being critical!", target.pbThis))
                     battle.pbHideTribeSplash(target)
                 end
                 crit = false
@@ -367,7 +367,7 @@ showMessages)
         end
         if target.shouldItemApply?(:COVERTCLOAK, aiCheck) && user.opposes?(target)
             if showMessages
-                battle.pbDisplay(_INTL("#{target.pbThis}'s #{getItemName(:COVERTCLOAK)} protects it from a random added effect!"))
+                battle.pbDisplay(_INTL("{1}'s {2} protects it from a random added effect!", target.pbThis, getItemName(:COVERTCLOAK)))
                 target.aiLearnsItem(:COVERTCLOAK)
             end
             return false

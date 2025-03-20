@@ -57,7 +57,7 @@ class PokeBattle_Move_TrapTarget < PokeBattle_Move
         return false if damagingMove?
         if target.effectActive?(:MeanLook)
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} already can't escape!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1} already can't escape!", target.pbThis(true)))
             end
             return true
         end
@@ -110,7 +110,7 @@ class PokeBattle_Move_TrapTargeLowerTargetDefSpDef2EachTurn < PokeBattle_Move
     def pbFailsAgainstTarget?(_user, target, show_message)
         if target.effectActive?(:Octolock)
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} is already octolocked!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1} is already octolocked!", target.pbThis(true)))
             end
             return true
         end
@@ -145,7 +145,7 @@ class PokeBattle_Move_TrapTargetUntilHitLowerTargetAtkSpAtk1 < PokeBattle_Move
         if target.effectActive?(:IceDungeon) && target.pbCanLowerStatStep?(:ATTACK, user, self) &&
                 target.pbCanLowerStatStep?(:SPECIAL_ATTACK, user, self)
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} is already imprisoned and its attacking stats can't be reduced!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1} is already imprisoned and its attacking stats can't be reduced!", target.pbThis(true)))
             end
             return true
         end
@@ -194,7 +194,7 @@ class PokeBattle_Move_TrapAndFrostbiteTarget < PokeBattle_Move_TrapTarget
         return false if damagingMove?
         if target.effectActive?(:MeanLook) && !target.canFrostbite?(user, false, self)
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} is already trapped and can't be frostbitten!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1} is already trapped and can't be frostbitten!", target.pbThis(true)))
             end
             return true
         end

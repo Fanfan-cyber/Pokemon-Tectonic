@@ -19,7 +19,7 @@ end
 class PokeBattle_Move_FlinchTargetFailsIfNotUserFirstTurn < PokeBattle_FlinchMove
     def pbMoveFailed?(user, _targets, show_message)
         unless user.firstTurn?
-            @battle.pbDisplay(_INTL("But it failed, since it isn't #{user.pbThis(true)}'s first turn!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since it isn't {1}'s first turn!", user.pbThis(true))) if show_message
             return true
         end
         return false

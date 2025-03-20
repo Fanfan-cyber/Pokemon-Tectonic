@@ -5,21 +5,21 @@
 class PokeBattle_Move_FailsIfTargetActed < PokeBattle_Move
     def pbFailsAgainstTarget?(_user, target, show_message)
         if @battle.choices[target.index][0] != :UseMove
-            @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} didn't choose to attack!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since {1} didn't choose to attack!", target.pbThis(true))) if show_message
             return true
         end
         oppMove = @battle.choices[target.index][2]
         if !oppMove
-            @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} already moved this turn!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since {1} already moved this turn!", target.pbThis(true))) if show_message
             return true
         end
         if oppMove.function != "UseMoveTargetIsAboutToUse" # Me First
             if target.movedThisRound?
-                @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} already moved this turn!")) if show_message
+                @battle.pbDisplay(_INTL("But it failed, since {1} already moved this turn!", target.pbThis(true))) if show_message
                 return true
             end
             if oppMove.statusMove?
-                @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} didn't choose to attack!")) if show_message
+                @battle.pbDisplay(_INTL("But it failed, since {1} didn't choose to attack!", target.pbThis(true))) if show_message
                 return true
             end
         end
@@ -49,7 +49,7 @@ end
 class PokeBattle_Move_FailsIfNotUserFirstTurn < PokeBattle_Move
     def pbMoveFailed?(user, _targets, show_message)
         unless user.firstTurn?
-            @battle.pbDisplay(_INTL("But it failed, since it isn't #{user.pbThis(true)}'s first turn!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since it isn't {1}'s first turn!", user.pbThis(true))) if show_message
             return true
         end
         return false
@@ -62,7 +62,7 @@ end
 class PokeBattle_Move_StareDown < PokeBattle_Move
     def pbMoveFailed?(user, _targets, show_message)
         unless user.firstTurn?
-            @battle.pbDisplay(_INTL("But it failed, since it isn't #{user.pbThis(true)}'s first turn!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since it isn't {1}'s first turn!", user.pbThis(true))) if show_message
             return true
         end
         return false
@@ -93,17 +93,17 @@ class PokeBattle_Move_FailsIfUserHasUnusedMove < PokeBattle_Move
         end
         unless hasThisMove
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{user.pbThis(true)} doesn't know Last Resort!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1} doesn't know Last Resort!", user.pbThis(true)))
             end
             return true
         end
         unless hasOtherMoves
-            @battle.pbDisplay(_INTL("But it failed, since #{user.pbThis(true)} has no other moves!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since {1} has no other moves!", user.pbThis(true))) if show_message
             return true
         end
         if hasUnusedMoves
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{user.pbThis(true)} hasn't yet used all its other moves!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1} hasn't yet used all its other moves!", user.pbThis(true)))
             end
             return true
         end

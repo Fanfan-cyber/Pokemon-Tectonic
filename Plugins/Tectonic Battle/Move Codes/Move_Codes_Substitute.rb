@@ -10,7 +10,7 @@ class PokeBattle_Move_UserMakeSubstitute < PokeBattle_Move
 
         if user.hp <= user.getSubLife
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{user.pbThis(true)} does not have enough HP left to make a substitute!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1} does not have enough HP left to make a substitute!", user.pbThis(true)))
             end
             return true
         end

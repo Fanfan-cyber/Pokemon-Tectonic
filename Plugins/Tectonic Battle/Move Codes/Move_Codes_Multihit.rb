@@ -36,7 +36,7 @@ class PokeBattle_Move_HitsThreeTimesAsBeedrillFiveTimesAsWornet < PokeBattle_Mov
     def pbMoveFailed?(user, _targets, show_message)
         if !user.countsAs?(:BEEDRILL) && !user.countsAs?(:WORNET)
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{user.pbThis(true)} has no stingers!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1} has no stingers!", user.pbThis(true)))
             end
             return true
         end

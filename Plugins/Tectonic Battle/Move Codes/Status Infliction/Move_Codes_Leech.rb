@@ -13,7 +13,7 @@ class PokeBattle_Move_LeechTargetLowerTargetAtkSpAtk1 < PokeBattle_LeechMove
             !target.pbCanLowerStatStep?(:ATTACK, user, self) &&
             !target.pbCanLowerStatStep?(:SPECIAL_ATTACK, user, self)
 
-            @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} can't be leeched or have either of its attacking stats lowered!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since {1} can't be leeched or have either of its attacking stats lowered!", target.pbThis(true))) if show_message
             return true
         end
         return false

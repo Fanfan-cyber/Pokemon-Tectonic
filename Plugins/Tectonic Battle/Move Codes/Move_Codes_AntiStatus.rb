@@ -5,7 +5,7 @@ class PokeBattle_Move_CureUserStatus < PokeBattle_Move
     def pbMoveFailed?(user, _targets, show_message)
         unless user.pbHasAnyStatus?
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{user.pbThis(true)} has no status condition!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1} has no status condition!", user.pbThis(true)))
             end
             return true
         end
@@ -88,7 +88,7 @@ class PokeBattle_Move_CureUserPartyStatusStartHealUserEachTurn < PokeBattle_Move
 
     def pbMoveFailed?(user, _targets, show_message)
         if super(user, _targets, false) && user.effectActive?(:AquaRing)
-            @battle.pbDisplay(_INTL("But it failed, since #{user.pbThis(true)} already has a veil of water and none of its party members have a status condition!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since {1} already has a veil of water and none of its party members have a status condition!", user.pbThis(true))) if show_message
             return true
         end
         return false
@@ -170,7 +170,7 @@ class PokeBattle_Move_GiveUserStatusToTarget < PokeBattle_Move
     def pbMoveFailed?(user, _targets, show_message)
         unless user.pbHasAnyStatus?
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{user.pbThis(true)} doesn't have any status conditions!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1} doesn't have any status conditions!", user.pbThis(true)))
             end
             return true
         end
@@ -292,7 +292,7 @@ class PokeBattle_Move_CureTargetStatusHealUserHalfOfTotalHP < PokeBattle_HalfHea
     def pbFailsAgainstTarget?(_user, target, show_message)
         unless target.pbHasAnyStatus?
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} has no status conditions!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1} has no status conditions!", target.pbThis(true)))
             end
             return true
         end

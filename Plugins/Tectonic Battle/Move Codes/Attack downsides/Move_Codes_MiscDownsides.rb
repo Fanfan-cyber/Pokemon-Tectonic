@@ -4,7 +4,7 @@
 class PokeBattle_Move_UserLosesFireType < PokeBattle_Move
     def pbMoveFailed?(user, _targets, show_message)
         unless user.pbHasType?(:FIRE)
-            @battle.pbDisplay(_INTL("But it failed, since #{user.pbThis(true)} isn't Fire-type!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since {1} isn't Fire-type!", user.pbThis(true))) if show_message
             return true
         end
         return false
@@ -25,7 +25,7 @@ end
 class PokeBattle_Move_UserLosesIceType < PokeBattle_Move
     def pbMoveFailed?(user, _targets, show_message)
         unless user.pbHasType?(:ICE)
-            @battle.pbDisplay(_INTL("But it failed, since #{user.pbThis(true)} is not Ice-type!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since {1} is not Ice-type!", user.pbThis(true))) if show_message
             return true
         end
         return false

@@ -150,7 +150,7 @@ class PokeBattle_Move_MultiTurnAttackBideThenReturnDoubleDamage < PokeBattle_Fix
         return false if user.effects[:Bide] != 1 # Not the attack turn
         if user.effects[:BideDamage] == 0
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{user.pbThis(true)} hasn't absorbed any energy!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1} hasn't absorbed any energy!", user.pbThis(true)))
             end
             user.disableEffect(:Bide)
             return true
@@ -223,7 +223,7 @@ class PokeBattle_Move_AttackerFaintsIfUserFaints < PokeBattle_Move
     def pbMoveFailed?(user, _targets, show_message)
         if user.effectActive?(:DestinyBondPrevious)
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{user.pbThis(true)} was already waiting to take down others with it!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1} was already waiting to take down others with it!", user.pbThis(true)))
             end
             return true
         end

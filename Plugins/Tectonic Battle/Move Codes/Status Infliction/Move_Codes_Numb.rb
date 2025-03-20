@@ -85,7 +85,7 @@ class PokeBattle_Move_NumbTargetLowerTargetAtkSpAtk1 < PokeBattle_NumbMove
             !target.pbCanLowerStatStep?(:ATTACK, user, self) &&
             !target.pbCanLowerStatStep?(:SPECIAL_ATTACK, user, self)
 
-            @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} can't be numbed or have either of its attacking stats lowered!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since {1} can't be numbed or have either of its attacking stats lowered!", target.pbThis(true))) if show_message
             return true
         end
         return false

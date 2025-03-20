@@ -9,13 +9,13 @@ class PokeBattle_Move_TargetActsNext < PokeBattle_Move
         return true if pbMoveFailedTargetAlreadyMoved?(target, show_message)
         # Target was going to move next anyway (somehow)
         if target.effectActive?(:MoveNext)
-            @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} is already being forced to move next!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since {1} is already being forced to move next!", target.pbThis(true))) if show_message
             return true
         end
         # Target didn't choose to use a move this round
         oppMove = @battle.choices[target.index][2]
         unless oppMove
-            @battle.pbDisplay(_INTL("But it failed. since #{target.pbThis(true)} isn't using a move this turn!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed. since {1} isn't using a move this turn!", target.pbThis(true))) if show_message
             return true
         end
         return false
@@ -46,7 +46,7 @@ class PokeBattle_Move_TargetActsLast < PokeBattle_Move
         # Target isn't going to use a move
         oppMove = @battle.choices[target.index][2]
         unless oppMove
-            @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} isn't using a move this turn!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since {1} isn't using a move this turn!", target.pbThis(true))) if show_message
             return true
         end
         # Target is already maximally Quashed and will move last anyway
@@ -61,7 +61,7 @@ class PokeBattle_Move_TargetActsLast < PokeBattle_Move
         end
         # Target was already going to move last
         if highestQuash == 0 && @battle.pbPriority.last.index == target.index
-            @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} was already forced to move last!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since {1} was already forced to move last!", target.pbThis(true))) if show_message
             return true
         end
         return false

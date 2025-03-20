@@ -124,7 +124,7 @@ class PokeBattle_Move_ReverseTargetStatSteps < PokeBattle_Move
             break
         end
         if failed
-            @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} has no stat changes!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since {1} has no stat changes!", target.pbThis(true))) if show_message
             return true
         end
         return false

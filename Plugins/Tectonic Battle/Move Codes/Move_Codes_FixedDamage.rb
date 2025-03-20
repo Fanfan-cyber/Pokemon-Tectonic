@@ -50,12 +50,12 @@ class PokeBattle_Move_LowerTargetHPToUserHP < PokeBattle_FixedDamageMove
     def pbFailsAgainstTarget?(user, target, show_message)
         if user.hp >= target.hp
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{user.pbThis(true)}'s health is greater than #{target.pbThis(true)}'s!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1}'s health is greater than {2}'s!", user.pbThis(true), target.pbThis(true)))
             end
             return true
         end
         if target.boss?
-            @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} is an Avatar!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since {1} is an Avatar!", target.pbThis(true))) if show_message
             return true
         end
         return false

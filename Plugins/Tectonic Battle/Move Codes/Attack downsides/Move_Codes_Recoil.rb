@@ -113,7 +113,7 @@ class PokeBattle_Move_DamageBelowHalfTakenAsRecoil < PokeBattle_Move
     def pbEffectAfterAllHits(user, target)
         return unless target.damageState.totalCalcedDamage < target.totalhp / 2
         recoilAmount = (target.totalhp / 2) - target.damageState.totalCalcedDamage
-        recoilMessage = _INTL("#{user.pbThis} is hurt by leftover electricity!")
+        recoilMessage = _INTL("{1} is hurt by leftover electricity!", user.pbThis)
         user.applyRecoilDamage(recoilAmount, true, true, recoilMessage)
     end
 

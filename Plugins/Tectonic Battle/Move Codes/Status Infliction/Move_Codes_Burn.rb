@@ -42,7 +42,7 @@ class PokeBattle_Move_RaiseAllySpd4OrBurnFoe < PokeBattle_Move
     def pbFailsAgainstTarget?(user, target, show_message)
         if @buffing
             if target.substituted? && !ignoresSubstitute?(user)
-                @battle.pbDisplay(_INTL("#{target.pbThis} is protected behind its substitute!")) if show_message
+                @battle.pbDisplay(_INTL("{1} is protected behind its substitute!", target.pbThis)) if show_message
                 return true
             end
         else

@@ -34,7 +34,7 @@ class PokeBattle_Move_AttackOneTurnLaterChooseIceFireElectricType < PokeBattle_F
             elsif !user.pbOwnedByPlayer? # Trainer AI
                 @chosenType = validTypes[0]
             else
-                chosenIndex = @battle.scene.pbShowCommands(_INTL("Which type should #{user.pbThis(true)} launch?"),validTypeNames,0)
+                chosenIndex = @battle.scene.pbShowCommands(_INTL("Which type should {1} launch?", user.pbThis(true)),validTypeNames,0)
                 @chosenType = validTypes[chosenIndex]
             end
         end
@@ -50,7 +50,7 @@ class PokeBattle_Move_AttackOneTurnLaterChooseIceFireElectricType < PokeBattle_F
     def pbDisplayUseMessage(user, targets)
         super
         if @battle.futureSight
-            @battle.pbDisplay(_INTL("It's an explosion of pure #{GameData::Type.get(@calcType).name}!"))
+            @battle.pbDisplay(_INTL("It's an explosion of pure {1}!", GameData::Type.get(@calcType).name))
         end
     end
 end

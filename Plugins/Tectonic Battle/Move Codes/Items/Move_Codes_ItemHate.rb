@@ -273,7 +273,7 @@ class PokeBattle_Move_FailsTargetNoItem < PokeBattle_Move
             end
             return false
         end
-        @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} doesn't have any items!")) if show_message
+        @battle.pbDisplay(_INTL("But it failed, since {1} doesn't have any items!", target.pbThis(true))) if show_message
         return true
     end
 end
@@ -285,7 +285,7 @@ end
 class PokeBattle_Move_TrashTreasure < PokeBattle_Move
     def pbFailsAgainstTarget?(user, target, show_message)
         if !target.canAddItem?(:BLACKSLUDGE) && !canRemoveItem?(user, target, target.firstItem) && target.pbCanLowerStatStep?(:SPECIAL_DEFENSE,user,self)
-            @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis} can't be given a Black Sludge or have its Sp. Def lowered!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since {1} can't be given a Black Sludge or have its Sp. Def lowered!", target.pbThis)) if show_message
             return true
         end
         return false
@@ -339,7 +339,7 @@ class PokeBattle_Move_Embargo < PokeBattle_Move
     def pbFailsAgainstTarget?(_user, target, show_message)
         if target.effectActive?(:Embargo)
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} is already embargoed!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1} is already embargoed!", target.pbThis(true)))
             end
             return true
         end

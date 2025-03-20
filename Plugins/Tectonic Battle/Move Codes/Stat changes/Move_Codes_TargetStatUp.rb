@@ -49,13 +49,13 @@ class PokeBattle_Move_DragonRide < PokeBattle_Move
     def pbFailsAgainstTarget?(user, target, show_message)
         if target.effectActive?(:OnDragonRide)
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} is already on a dragon ride!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1} is already on a dragon ride!", target.pbThis(true)))
             end
             return true
         end
         if user.effectActive?(:GivingDragonRideTo)
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{user.pbThis} is already giving a dragon ride!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1} is already giving a dragon ride!", user.pbThis))
             end
             return true
         end

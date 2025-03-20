@@ -31,7 +31,7 @@ class PokeBattle_Move_PoisonTargetLowerTargetSpd4 < PokeBattle_Move
     def pbFailsAgainstTarget?(user, target, show_message)
         if !target.canPoison?(user, false, self) &&
            !target.pbCanLowerStatStep?(:SPEED, user, self)
-            @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} can't be poisoned or have its Speed lowered!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since {1} can't be poisoned or have its Speed lowered!", target.pbThis(true))) if show_message
             return true
         end
         return false

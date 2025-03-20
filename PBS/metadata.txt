@@ -1855,6 +1855,7 @@ Bicycle = true
 Temperature = Cold
 Humidity = Wet
 MapPosition = 0,5,3
+BattleBack = field
 #-------------------------------
 [259]
 # Casey's House

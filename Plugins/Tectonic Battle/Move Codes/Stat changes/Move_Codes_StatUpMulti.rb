@@ -510,7 +510,7 @@ class PokeBattle_Move_RaiseUserMainStats2IfAsleep < PokeBattle_MultiStatUpMove
 
     def pbMoveFailed?(user, targets, show_message)
         unless user.asleep?
-            @battle.pbDisplay(_INTL("But it failed, since #{user.pbThis(true)} isn't asleep!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since {1} isn't asleep!", user.pbThis(true))) if show_message
             return true
         end
         super
