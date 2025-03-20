@@ -492,6 +492,7 @@ class PokeBattle_Battler
         @hp = 1 if @hp < 1
         disableEffect(:WeightChange)
         @battle.scene.pbChangePokemon(self, @pokemon)
+        @battle.pbAnimation(:TRANSFORM, self, self)
         refreshDataBox
         @battle.pbDisplay(msg) if msg && msg != ""
         PBDebug.log("[Form changed] #{pbThis} changed from form #{oldForm} to form #{newForm}")

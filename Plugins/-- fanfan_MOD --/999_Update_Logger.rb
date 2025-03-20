@@ -118,7 +118,9 @@ doublebattle/disabledouble，开启/关闭全双打模式
 zeroexp/disablezeroexp，开启/关闭无经验模式
 
 v0.3.2
-1.AC更换位置
+1.现在改变形态也会有动画效果了
+2.
+AC更换位置
 强行
 庞岩怪
 百变怪
