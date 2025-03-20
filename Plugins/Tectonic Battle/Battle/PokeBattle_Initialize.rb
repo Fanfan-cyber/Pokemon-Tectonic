@@ -190,7 +190,7 @@ class PokeBattle_Battle
         # System for learning the player's moves
         ai_update_moves
 
-        # System for learning the player's moves
+        # System for learning the player's items
         @knownItems = {}
         echoln("===PARTY 1 KNOWN ITEMS===")
         @party1.each do |pokemon|
@@ -214,9 +214,11 @@ class PokeBattle_Battle
         end
     end
 
-    def initializeKnownMoves(pokemon)
+    def initializeKnownMoves(pokemon, extra = false)
         @knownMoves[pokemon.personalID] = []
-        pokemon.moves.each do |move|
+        return if pokemon.fainted?
+        moves = extra ? pokemon.moves_for_dexyos[pokemon.form] : pokemon.moves
+        moves.each do |move|
             # next if !pokemon.boss? && aiAutoKnowsMove?(move,pokemon)
             @knownMoves[pokemon.personalID].push(move.id)
             echoln("Pokémon #{pokemon.name}'s move #{move.name} is known by the AI")

@@ -506,6 +506,9 @@ class PokeBattle_Battler
             BattleHandlers.triggerAbilityOnSwitchIn(ability, self, @battle)
             BattleHandlers.triggerStatusCureAbility(ability, self)
         end
+        
+        @battle.ai_update_abilities(self, abils: abilities)
+        @battle.initializeKnownMoves(self.pokemon, should_extra_moves? && self.form != 0)
     end
 
     def pbCheckFormOnStatusChange

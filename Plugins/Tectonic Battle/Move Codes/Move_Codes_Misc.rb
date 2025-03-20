@@ -119,7 +119,7 @@ class PokeBattle_Move_ChangeUserMewtwoChoiceOfForm < PokeBattle_Move
             form1Name = GameData::Species.get_species_form(:MEWTWO,1).form_name
             form2Name = GameData::Species.get_species_form(:MEWTWO,2).form_name
             formNames = [form1Name,form2Name]
-            chosenIndex = @battle.scene.pbShowCommands(_INTL("Which form should #{user.pbThis(true)} take?"),formNames,0)
+            chosenIndex = @battle.scene.pbShowCommands(_INTL("Which form should {1} take?", user.pbThis(true)),formNames,0)
             @chosenForm = chosenIndex + 1
         end
     end
@@ -127,7 +127,7 @@ class PokeBattle_Move_ChangeUserMewtwoChoiceOfForm < PokeBattle_Move
     def pbCanChooseMove?(user, commandPhase, show_message)
         unless user.form == 0
             if show_message
-                msg = _INTL("#{user.pbThis} has already transformed!")
+                msg = _INTL("{1} has already transformed!", user.pbThis)
                 commandPhase ? @battle.pbDisplayPaused(msg) : @battle.pbDisplay(msg)
             end
             return false
@@ -400,7 +400,7 @@ class PokeBattle_Move_ChangeUserDeoxusChoiceOfForm < PokeBattle_Move
             form2Name = GameData::Species.get_species_form(:DEOXYS,2).form_name
             form3Name = GameData::Species.get_species_form(:DEOXYS,3).form_name
             formNames = [form1Name,form2Name,form3Name]
-            chosenIndex = @battle.scene.pbShowCommands(_INTL("Which form should #{user.pbThis(true)} take?"),formNames,0)
+            chosenIndex = @battle.scene.pbShowCommands(_INTL("Which form should {1} take?", user.pbThis(true)),formNames,0)
             @chosenForm = chosenIndex + 1
         end
     end
@@ -408,7 +408,7 @@ class PokeBattle_Move_ChangeUserDeoxusChoiceOfForm < PokeBattle_Move
     def pbCanChooseMove?(user, commandPhase, show_message)
         unless user.form == 0
             if show_message
-                msg = _INTL("#{user.pbThis} has already mutated!")
+                msg = _INTL("{1} has already mutated!", user.pbThis)
                 commandPhase ? @battle.pbDisplayPaused(msg) : @battle.pbDisplay(msg)
             end
             return false
