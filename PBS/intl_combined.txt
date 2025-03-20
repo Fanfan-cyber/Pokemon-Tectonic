@@ -27453,7 +27453,7 @@ Two turns after this move is used, a hunk of psychic energy attacks the target.
 The user employs psychic power to average its base Defense and base Sp. Def stats with those of its target.
 利用超能力将自己和对手的防御和特防相加，再进行平分。
 The user faints. In return, the Pokémon taking its place will have its HP restored and status cured.
-自己倒下换上的精灵恢复HP治愈异常状态
+自身濒死，使替换上场的精灵回复全部HP和异常状态。
 The user emits a healing pulse which restores the target's HP by up to half of its max HP.
 放出治愈波动，从而回复对手最大HP的一半。
 The user unleashes a vicious blow after a cute act. It has a 50% chance to cause flinching.
