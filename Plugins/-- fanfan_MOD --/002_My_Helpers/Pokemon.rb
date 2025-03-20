@@ -7,6 +7,15 @@ class Pokemon
     @unique_id ||= generate_unique_id
   end
 
+  def level_moves
+    move_list = []
+    getMoveList.each do |move|
+      next if move[0] > @level
+      move_list << move[1]
+    end
+    move_list
+  end
+
   def mono_type?
     types.length < 2 
   end

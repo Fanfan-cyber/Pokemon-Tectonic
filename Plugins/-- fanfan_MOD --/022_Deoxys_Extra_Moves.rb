@@ -13,12 +13,7 @@ module DeoxysExtraMoves
         loop do
           choice = pbMessage(_INTL("Which form?"), choices, -1)
           break if [-1, 3].include?(choice)
-          move_list = []
-          pokemon.getMoveList.each do |move|
-            next if move[0] > pokemon.level
-            move_list << move[1]
-          end
-          move = pbChooseMoveListForSpecies(species, nil, true, move_list: move_list)
+          move = pbChooseMoveListForSpecies(species, nil, true, move_list: pokemon.level_moves)
           break unless move
           form = choice + 1
           pokemon.initializeExtraMoves

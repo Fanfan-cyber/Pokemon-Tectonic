@@ -75,7 +75,7 @@ class PokeBattle_Battle
         priority.each { |b| b.pbCheckForm(true) }
 
         # Switch Healing Rest part
-        field_battlers = @battlers.compact.map { |b| b.unique_id }
+        field_battlers = field_battlers_id
         (@party1 + @party2).each do |pkmn|
             next unless pkmn
             next unless tracker_get(:battled_battlers).include?(pkmn.unique_id)

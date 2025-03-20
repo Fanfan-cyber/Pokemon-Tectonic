@@ -15,6 +15,10 @@ class PokeBattle_Battle
     end
   end
 
+  def field_battlers_id
+    @battlers.compact.map { |b| b.unique_id }
+  end
+
   def ignore_imperfect?
     if $Trainer.able_pokemon_count == 1
       able_pokemon = $Trainer.first_able_pokemon
