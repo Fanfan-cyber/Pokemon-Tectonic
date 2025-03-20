@@ -34354,7 +34354,7 @@ Attack and Speed are halved.
 When hitting a target that has an ability with an offensive damage-modifying effect, the Pokémon ignores the conditions and triggers the effect.
 当攻击的对手具有它自己在攻击时改变伤害的效果的特性时（如猛火），无视那个特性的发动条件并为自身触发该效果。
 When the Pokémon's level is 25 or higher, it transforms into a member of its family depending on the type of the move it is about to use.
-当精灵等级达到25级或以上时，它会根据即将使用的技能的类型变为其家族的成员。
+当精灵等级达到25级或以上时，它会根据即将使用的技能的属性变为其家族的成员。
 Attacks switching opponents with Pursuit.
 会自动使用追击攻击进行替换的对手。
 Adapts the move's type to ensure it is super-effective against the target.

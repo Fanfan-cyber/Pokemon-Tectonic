@@ -179,6 +179,8 @@ BattleHandlers::DamageCalcUserAbility.add(:LOUD,
   }
 )
 
+BattleHandlers::DamageCalcUserAbility.copy(:LOUD, :TUNEDOUT)
+
 BattleHandlers::DamageCalcUserAbility.add(:EARSPLITTING,
   proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck, backfire|
     if move.soundMove? || backfire
@@ -197,7 +199,7 @@ BattleHandlers::DamageCalcUserAbility.add(:SWORDPLAY,
   }
 )
 
-BattleHandlers::DamageCalcUserAbility.copy(:SWORDPLAY, :RAZORSEDGE)
+BattleHandlers::DamageCalcUserAbility.copy(:SWORDPLAY, :RAZORSEDGE, :BLADEBRAINED)
 
 BattleHandlers::DamageCalcUserAbility.add(:SHARPNESS,
   proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck, backfire|

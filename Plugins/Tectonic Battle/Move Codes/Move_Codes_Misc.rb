@@ -526,14 +526,14 @@ class PokeBattle_Move_RaiseTargetAtkSpAtk3TargetHitsSelfAdaptive < PokeBattle_Mo
     def getTargetAffectingEffectScore(user, target)
         score = 0
         score -= getMultiStatUpEffectScore(ATTACKING_STATS_3, user, target, evaluateThreat: false)
-        score -= 70 if target.hasActiveAbilityAI?(:UNAWARE)
+        score -= 70 if targetIsUnaware?(target, aiCheck: true)
         score += getMultiStatUpEffectScore(ATTACKING_STATS_3, user, user, evaluateThreat: false) if user.hasActiveAbilityAI?(:PETTY)
         return score
     end
 
     def calculateDamageForHitAI(user,target,type,baseDmg,numTargets)
         damage = calculateDamageForHit(user,target,type,baseDmg,numTargets,true)
-        damage *= 1.75 unless target.hasActiveAbilityAI?(:UNAWARE)
+        damage *= 1.75 unless targetIsUnaware?(target, aiCheck: true)
         return damage
     end
 

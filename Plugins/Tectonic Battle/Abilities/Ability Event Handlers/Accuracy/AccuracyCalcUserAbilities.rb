@@ -22,12 +22,6 @@ BattleHandlers::AccuracyCalcUserAbility.add(:NOGUARD,
   }
 )
 
-BattleHandlers::AccuracyCalcUserAbility.add(:UNAWARE,
-  proc { |ability, mults, _user, _target, move, _type|
-      mults[:evasion_step] = 0 if move.damagingMove?
-  }
-)
-
 BattleHandlers::AccuracyCalcUserAbility.add(:VICTORYSTAR,
   proc { |ability, mults, _user, _target, _move, _type|
       mults[:accuracy_multiplier] *= 2.0

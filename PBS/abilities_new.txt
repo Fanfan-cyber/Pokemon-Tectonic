@@ -185,6 +185,10 @@ Flags = HailSynergy
 Name = Bizarre
 Description = Its special attacks reduce the target's Sp. Def.
 #-------------------------------
+[BLADEBRAINED]
+Name = Bladebrained
+Description = Boosts the power of blade moves by 30%. Blade moves ignore the target's defensive stat changes.
+#-------------------------------
 [BLINDINGLIGHT]
 Name = Blinding Light
 Description = Move damage that's decreased by sunshine is decreased twice as much.
@@ -2030,6 +2034,10 @@ Description = Foes whose stats are lowered by the Pokémon keep those lowered st
 [TRENCHCARVER]
 Name = Trench Carver
 Description = The user's Speed is doubled while using recoil moves.
+#-------------------------------
+[TUNEDOUT]
+Name = Tuned Out
+Description = Boosts the power of sound moves by 30%. Sound moves ignore the target's defensive stat changes.
 #-------------------------------
 [TUNNELMAKER]
 Name = Tunnel Maker

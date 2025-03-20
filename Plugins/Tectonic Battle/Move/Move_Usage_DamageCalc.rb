@@ -116,7 +116,7 @@ class PokeBattle_Move
         critical = target.damageState.critical
         critical = false if aiCheck
         attack_step = 0 if critical && attack_step < 0
-        attack_step = 0 if target.hasActiveAbility?(:UNAWARE) && !@battle.moldBreaker
+        attack_step = 0 if targetIsUnaware?(target) && !@battle.moldBreaker
         attack = attacking_stat_holder.getFinalStat(attacking_stat, aiCheck, attack_step)
         # Calculate target's defense stat
         defending_stat_holder, defending_stat = pbDefendingStat(user,target)
@@ -125,10 +125,22 @@ class PokeBattle_Move
                 (ignoresDefensiveStepBoosts?(user,target) || user.hasActiveAbility?(:INFILTRATOR) || critical)
             defense_step = 0
         end
-        defense_step = 0 if user.hasActiveAbility?(:UNAWARE)
+        defense_step = 0 if userIsUnaware?(user)
         defense = defending_stat_holder.getFinalStat(defending_stat, aiCheck, defense_step)
         echoln("[DAMAGE CALC] Calcing damage based on #{attacking_stat_holder.pbThis(true)}'s final #{attacking_stat} of #{attack} and #{defending_stat_holder.pbThis(true)}'s final #{defending_stat} of #{defense}") if DAMAGE_CALC_DEBUG
         return attack, defense
+    end
+
+    def userIsUnaware?(user, aiCheck: false)
+        return true if user.shouldAbilityApply?(:UNAWARE, aiCheck)
+        return true if user.shouldAbilityApply?(:BLADEBRAINED, aiCheck) && bladeMove?
+        return true if user.shouldAbilityApply?(:TUNEDOUT, aiCheck) && soundMove?
+        return false
+    end
+
+    def targetIsUnaware?(target, aiCheck: false)
+        return true if target.shouldAbilityApply?(:UNAWARE, aiCheck)
+        return false
     end
     
     def pbCalcAbilityDamageMultipliers(user,target,type,baseDmg,multipliers,aiCheck=false)

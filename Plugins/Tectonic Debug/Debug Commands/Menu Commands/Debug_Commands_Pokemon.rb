@@ -129,3 +129,32 @@ DebugMenuCommands.register("addpokemon", {
       }
     }
   })
+
+  DebugMenuCommands.register("dumpboxes", {
+    "parent"      => "pokemonmenu",
+    "name"        => _INTL("Dump Storage Boxes to Text"),
+    "description" => _INTL("Create a text file listing all Pokémon in storage."),
+    "effect"      => proc {
+      text = "name,dex,nick,box,type1,type2,ability,move1,move2,move3,move4\r\n"
+      for i in 0...$PokemonStorage.maxBoxes
+        for j in 0...$PokemonStorage.maxPokemon(i)
+          mon = $PokemonStorage[i, j]
+          next if mon.nil?
+          spec_id = mon.species
+          spec = GameData::Species.get(spec_id)
+          moves = mon.moves
+          move1 = moves[0].id
+          move2 = moves.length > 1 ? moves[1].id : nil
+          move3 = moves.length > 2 ? moves[2].id : nil
+          move4 = moves.length > 3 ? moves[3].id : nil
+          # mon name in quotes because nickname could have comma, escape for csv spec
+          text += "#{spec.id},#{spec.id_number},\"#{mon.name}\",#{j+1},#{spec.type1},#{spec.type2},#{mon.ability_id},#{move1},#{move2},#{move3},#{move4}\r\n"
+        end
+      end
+      filename = "Analysis/boxes_#{$Trainer.name}.csv"
+      File.open(filename,"wb") { |file|
+        file.write(text)
+      }
+      pbMessage(_INTL("Pokémon in storage written to {1}",filename))
+    }
+  })
