@@ -25679,8 +25679,8 @@ Scale Storm
 Scale Storm
 Sedating Dust
 Sedating Dust
-Silk Blade
-Silk Blade
+Skewer
+Skewer
 Smush
 Smush
 Stinging Jab
@@ -28084,8 +28084,8 @@ The user sheds a huge volley of scales at the target. Lands without fail and low
 The user sheds a huge volley of scales at the target. Lands without fail and lowers the user's Sp. Def and Speed.
 If the user is faster than the target, puts the target to sleep, then minimizes the user's Speed stat.
 If the user is faster than the target, puts the target to sleep, then minimizes the user's Speed stat.
-The user slashes using woven silk, lowering the user's Attack by four steps. Can random critical hit.
-The user slashes using woven silk, lowering the user's Attack by four steps. Can random critical hit.
+The user stabs through the target using tremendous force. Lowers the user's Attack by four steps.
+The user stabs through the target using tremendous force. Lowers the user's Attack by four steps.
 Avenging bugs everywhere, the user crushes the target. It has a 20% chance to lower their Defense stat.
 Avenging bugs everywhere, the user crushes the target. It has a 20% chance to lower their Defense stat.
 The user stabs the target, injecting a painful chemical. It has a 30% chance to poison.
@@ -32006,6 +32006,8 @@ Bitter Cold
 Bitter Cold
 Bizarre
 Bizarre
+Bladebrained
+Bladebrained
 Blinding Light
 Blinding Light
 Bliss
@@ -32878,6 +32880,8 @@ Traumatizing
 Traumatizing
 Trench Carver
 Trench Carver
+Tuned Out
+Tuned Out
 Tunnel Maker
 Tunnel Maker
 Ultra Adapted
@@ -33407,6 +33411,8 @@ Causes hail to deal double damage and increase Defense of Ice-types by 2.0x inst
 Causes hail to deal double damage and increase Defense of Ice-types by 2.0x instead of 1.5x.
 Its special attacks reduce the target's Sp. Def.
 Its special attacks reduce the target's Sp. Def.
+Boosts the power of blade moves by 30%. Blade moves ignore the target's defensive stat changes.
+Boosts the power of blade moves by 30%. Blade moves ignore the target's defensive stat changes.
 Move damage that's decreased by sunshine is decreased twice as much.
 Move damage that's decreased by sunshine is decreased twice as much.
 Increase the EXP gained from battles in which it participates by 50%.
@@ -34273,6 +34279,8 @@ Foes whose stats are lowered by the Pokémon keep those lowered stats even after
 Foes whose stats are lowered by the Pokémon keep those lowered stats even after switching.
 The user's Speed is doubled while using recoil moves.
 The user's Speed is doubled while using recoil moves.
+Boosts the power of sound moves by 30%. Sound moves ignore the target's defensive stat changes.
+Boosts the power of sound moves by 30%. Sound moves ignore the target's defensive stat changes.
 Powers up Ground-type moves by 50%.
 Powers up Ground-type moves by 50%.
 Powers up moves of the same type by 50%.
@@ -38157,8 +38165,8 @@ Please enter the first Pokémon.
 Please enter the first Pokémon.
 Add another Pokémon?
 Add another Pokémon?
-Set the level for {1} (max. #{params.maxNumber}).
-Set the level for {1} (max. #{params.maxNumber}).
+Set the level for {1} (max. {2}).
+Set the level for {1} (max. {2}).
 This trainer must have at least 1 Pokémon!
 This trainer must have at least 1 Pokémon!
 The Trainer's data was added to the list of battles and in PBS/trainers.txt.
@@ -38179,20 +38187,20 @@ Yes
 Yes
 No
 No
-\l[4]Pokemon #{name} in #{location} has move #{moveData.name} in its move list. That move has been cut from the game or is not legal to learn. Removing now.
-\l[4]Pokemon #{name} in #{location} has move #{moveData.name} in its move list. That move has been cut from the game or is not legal to learn. Removing now.
-\l[4]Pokemon #{name} in #{location} has move #{moveData.name} in its move list. That move is not legal for its species. Removing now.
-\l[4]Pokemon #{name} in #{location} has move #{moveData.name} in its move list. That move is not legal for its species. Removing now.
-\l[4]Pokémon #{name} in #{location} has no ability. Switching to #{newAbilityName}.
-\l[4]Pokémon #{name} in #{location} has no ability. Switching to #{newAbilityName}.
-\l[4]Pokémon #{name} in #{location} has ability #{oldAbilityName}. That ability is not legal for its species. Switching to #{newAbilityName}.
-\l[4]Pokémon #{name} in #{location} has ability #{oldAbilityName}. That ability is not legal for its species. Switching to #{newAbilityName}.
-\l[4]Pokemon #{name} in #{location} has item #{itemData.name}. That item has been cut from the game or is not legal to own. Removing now.
-\l[4]Pokemon #{name} in #{location} has item #{itemData.name}. That item has been cut from the game or is not legal to own. Removing now.
+\l[4]Pokemon {1} in {2} has move {3} in its move list. That move has been cut from the game or is not legal to learn. Removing now.
+\l[4]Pokemon {1} in {2} has move {3} in its move list. That move has been cut from the game or is not legal to learn. Removing now.
+\l[4]Pokemon {1} in {2} has move {3} in its move list. That move is not legal for its species. Removing now.
+\l[4]Pokemon {1} in {2} has move {3} in its move list. That move is not legal for its species. Removing now.
+\l[4]Pokemon {1} in {2} has no ability. Switching to {3}.
+\l[4]Pokemon {1} in {2} has no ability. Switching to {3}.
+\l[4]Pokemon {1} in {2} has ability {3}. That ability is not legal for its species. Switching to {4}.
+\l[4]Pokemon {1} in {2} has ability {3}. That ability is not legal for its species. Switching to {4}.
+\l[4]Pokemon {1} in {2} has item {3}. That item has been cut from the game or is not legal to own. Removing now.
+\l[4]Pokemon {1} in {2} has item {3}. That item has been cut from the game or is not legal to own. Removing now.
 An error occured while checking for the legality of your party.
 An error occured while checking for the legality of your party.
-Save downgraded to version #{saveVersion}
-Save downgraded to version #{saveVersion}
+Save downgraded to version {1}
+Save downgraded to version {1}
 Your name?
 Your name?
 Enter {1}'s name.
@@ -38299,8 +38307,8 @@ Are you sure you want to quit the game?
 Are you sure you want to quit the game?
 Mud
 Mud
-Setting weather to #{weatherSym} at power #{newPower}
-Setting weather to #{weatherSym} at power #{newPower}
+Setting weather to {1} at power {2}
+Setting weather to {1} at power {2}
 <u>???</u>
 <u>???</u>
 Achievement hidden.
@@ -38331,12 +38339,12 @@ Dimension D
 Dimension D
 Time Capsule
 Time Capsule
+Adoption Center
+Adoption Center
 Battle Loader
 Battle Loader
 Team Switcher
 Team Switcher
-Adoption Center
-Adoption Center
 Gift Receiver
 Gift Receiver
 Cancel
@@ -38741,8 +38749,8 @@ If you wish, you can turn this off in the options.
 \wm#{tutorialMessage}\wtnp<<[>>#{tutorialMessageDuration}<<]>><<1>>
 x{1:03d}
 x{1:03d}
-By the power of the Primal Clay, a #{speciesDisplayName} was created!
-By the power of the Primal Clay, a #{speciesDisplayName} was created!
+By the power of the Primal Clay, a {1} was created!
+By the power of the Primal Clay, a {1} was created!
 The chosen waypoint is somehow invalid.
 The chosen waypoint is somehow invalid.
 Removing access.
@@ -39383,8 +39391,8 @@ Change quantity
 Change quantity
 Make Mystery Gift
 Make Mystery Gift
-Choose new quantity of {1} (max. #{Settings::BAG_MAX_PER_SLOT}).
-Choose new quantity of {1} (max. #{Settings::BAG_MAX_PER_SLOT}).
+Choose new quantity of {1} (max. {2}).
+Choose new quantity of {1} (max. {2}).
 How many do you want to withdraw?
 How many do you want to withdraw?
 Withdrew {1} {2}.
@@ -39803,8 +39811,8 @@ Modify
 Modify
 Send to PC
 Send to PC
-Are you sure you'd like to send back #{@pkmn.name}?
-Are you sure you'd like to send back #{@pkmn.name}?
+Are you sure you'd like to send back {1}?
+Are you sure you'd like to send back {1}?
 Send to TC
 Send to TC
 Set Item Type
@@ -39825,14 +39833,16 @@ Do what with an item?
 {1}'s {2} and {3} swapped order.
 Move {1} to where?
 Move {1} to where?
-What type should #{@pkmn.name} become?
-What type should #{@pkmn.name} become?
-#{@pkmn.name} changed its #{getItemName(typeSettingItem)} to #{typeCommands[chosenNumber]}-type!
-#{@pkmn.name} changed its #{getItemName(typeSettingItem)} to #{typeCommands[chosenNumber]}-type!
+What type should {1} become?
+What type should {1} become?
+{1} changed its {2} to {3}-type!
+{1} changed its {2} to {3}-type!
 Adaptive AI
 Adaptive AI
 Evolve
 Evolve
+Extra Moves
+Extra Moves
 Open AR
 Open AR
 Rename
@@ -39951,10 +39961,10 @@ Level
 Level
 Living Dex
 Living Dex
-"#{ret}" is not a valid type.
-"#{ret}" is not a valid type.
-"#{ret}" is not a valid tribe.
-"#{ret}" is not a valid tribe.
+"{1}" is not a valid type.
+"{1}" is not a valid type.
+"{1}" is not a valid tribe.
+"{1}" is not a valid tribe.
 The current box contains the only match.
 The current box contains the only match.
 The current box contains every match.
@@ -40019,8 +40029,8 @@ They will be gone forever. Are you sure?
 {1} was released.
 It didn't earn enough XP for you to earn any candies back.
 It didn't earn enough XP for you to earn any candies back.
-You are reimbursed for #{percentile} percent of the EXP it earned.
-You are reimbursed for #{percentile} percent of the EXP it earned.
+You are reimbursed for {1} percent of the EXP it earned.
+You are reimbursed for {1} percent of the EXP it earned.
 It never gained any EXP, so no candies are awarded.
 It never gained any EXP, so no candies are awarded.
 Jump
@@ -40067,8 +40077,8 @@ No boxes were sorted.
 No boxes were sorted.
 Only one box was sorted.
 Only one box was sorted.
-#{boxesSorted} boxes were sorted!
-#{boxesSorted} boxes were sorted!
+{1} boxes were sorted!
+{1} boxes were sorted!
 Shift
 Shift
 Place
@@ -40367,20 +40377,20 @@ View Summary
 View Summary
 Use Item
 Use Item
-What would you like to do with #{pokemon.name}?
-What would you like to do with #{pokemon.name}?
+What would you like to do with {1}?
+What would you like to do with {1}?
 Party is full, choose a Pokemon to swap out.
 Party is full, choose a Pokemon to swap out.
-You pick #{pokemon.name} up and add it to your party.
-You pick #{pokemon.name} up and add it to your party.
-And place #{chosenPokemon.name} down into the Estate.
-And place #{chosenPokemon.name} down into the Estate.
+You pick {1} up and add it to your party.
+You pick {1} up and add it to your party.
+And place {1} down into the Estate.
+And place {1} down into the Estate.
 Can't set down your last able Pokémon!
 Can't set down your last able Pokémon!
-Can't set #{pokemon.name} down into the current Estate plot because it is full.
-Can't set #{pokemon.name} down into the current Estate plot because it is full.
-Can't set #{pokemon.name} down, the spot in front of you is blocked.
-Can't set #{pokemon.name} down, the spot in front of you is blocked.
+Can't set {1} down into the current Estate plot because it is full.
+Can't set {1} down into the current Estate plot because it is full.
+Can't set {1} down, the spot in front of you is blocked.
+Can't set {1} down, the spot in front of you is blocked.
 There are no Pokémon in this plot to share stories about.
 There are no Pokémon in this plot to share stories about.
 I regret to say that I have no stories to share about this plot. Please come back later.
@@ -40389,8 +40399,8 @@ Story here involving {1}!
 Story here involving {1}!
 Story here involving {1} and {2}!
 Story here involving {1} and {2}!
-PokÉstate #{$PokEstate.estate_box + 1}
-PokÉstate #{$PokEstate.estate_box +  1}
+PokÉstate {1}
+PokÉstate {1}
 {1} non-legendary species (25%)
 {1} non-legendary species (25%)
 {1} non-legendary species (50%)
@@ -40713,20 +40723,20 @@ Moves now sorted by type.
 Moves now sorted by type.
 Analysis of {1}
 Analysis of {1}
-Use count: #{useCount[0]}, #{useCount[1]}
-Use count: #{useCount[0]}, #{useCount[1]}
-Earliest level: #{fSpecies.earliest_available}
-Earliest level: #{fSpecies.earliest_available}
-Faster than #{fasterThanPercentOfMetaGame}% of final evos
-Faster than #{fasterThanPercentOfMetaGame}% of final evos
-#{chanceToCatch}% chance to catch at level 40, %15 health
-#{chanceToCatch}% chance to catch at level 40, %15 health
-BnB coverage #{typesOfCoverage.length}: #{typesOfCoverage[0..[2, typesOfCoverage.length].min]}
-BnB coverage #{typesOfCoverage.length}: #{typesOfCoverage[0..[2, typesOfCoverage.length].min]}
-Covers #{coversPercentOfMetaGame}% of final evos
-Covers #{coversPercentOfMetaGame}% of final evos
-Notes: #{fSpecies.notes}
-Notes: #{fSpecies.notes}
+Use count: {1}, {2}
+Use count: {1}, {2}
+Earliest level: {1}
+Earliest level: {1}
+Faster than {1}% of final evos
+Faster than {1}% of final evos
+{1}% chance to catch at level 40, %15 health
+{1}% chance to catch at level 40, %15 health
+BnB coverage {1}: {2}
+BnB coverage {1}: {2}
+Covers {1}% of final evos
+Covers {1}% of final evos
+Notes: {1}
+Notes: {1}
 Search results
 Search results
 ACTION/Z to search further.
@@ -40779,8 +40789,8 @@ You have an active search. What would you like to do?
 You have an active search. What would you like to do?
 Added every species on the current list!
 Added every species on the current list!
-Added #{@sprites['pokedex'].species}
-Added #{@sprites['pokedex'].species}
+Added {1}
+Added {1}
 Unable to start Avatar battle.
 Unable to start Avatar battle.
 Marked as owned every species on current list.
@@ -40799,8 +40809,8 @@ Line
 Line
 Tutor
 Tutor
-#{speciesEdited} species tutorable movesets edited!
-#{speciesEdited} species tutorable movesets edited!
+{1} species tutorable movesets edited!
+{1} species tutorable movesets edited!
 Search species...
 Search species...
 Which search?
@@ -41197,8 +41207,8 @@ Game Won!
 Game Won!
 You've beaten the game! Explore around to find more of Makya, and return to old areas to find content you may have missed.
 You've beaten the game! Explore around to find more of Makya, and return to old areas to find content you may have missed.
-\wmA recoverable error has occured: #{newStage} is an invalid Main Quest Stage key. The "What Next?" will be inaccurate until the next Main Quest update. Please let a programmer know you saw this error, and where.
-\wmA recoverable error has occured: #{newStage} is an invalid Main Quest Stage key. The "What Next?" will be inaccurate until the next Main Quest update. Please let a programmer know you saw this error, and where.
+\wmA recoverable error has occured: {1} is an invalid Main Quest Stage key. The "What Next?" will be inaccurate until the next Main Quest update. Please let a programmer know you saw this error, and where.
+\wmA recoverable error has occured: {1} is an invalid Main Quest Stage key. The "What Next?" will be inaccurate until the next Main Quest update. Please let a programmer know you saw this error, and where.
 BY LEVEL
 BY LEVEL
 BY OTHER
@@ -41305,8 +41315,8 @@ Struggle
 {1}'s HP is full!
 But it failed, since the effect is already active!
 But it failed, since the effect is already active!
-But it failed, since #{user.pbThis(true)} used a protection move last turn!
-But it failed, since #{user.pbThis(true)} used a protection move last turn!
+But it failed, since {1} used a protection move last turn!
+But it failed, since {1} used a protection move last turn!
 {1} protected {2}!
 {1} protected {2}!
 {1} protected itself!
@@ -41315,20 +41325,20 @@ The two moves have become one! It's a combined move!
 The two moves have become one! It's a combined move!
 {1} is waiting for {2}'s move...
 {1} is waiting for {2}'s move...
-But it failed, since #{target.pbThis(true)} can't gain the status and the weather can't be set!
-But it failed, since #{target.pbThis(true)} can't gain the status and the weather can't be set!
-But it failed, since the opposing side already has #{maximum} layers of #{@spikeData.name} spikes!
-But it failed, since the opposing side already has #{maximum} layers of #{@spikeData.name} spikes!
+But it failed, since {1} can't gain the status and the weather can't be set!
+But it failed, since {1} can't gain the status and the weather can't be set!
+But it failed, since the opposing side already has {1} layers of {2} spikes!
+But it failed, since the opposing side already has {1} layers of {2} spikes!
 {1}'s stats can't be changed further!
 {1}'s stats can't be changed further!
 But it failed, since there are no valid choices in your party!
 But it failed, since there are no valid choices in your party!
-But it failed, since neither #{user.pbThis(true)} nor any of its allies can receive the stat improvements!
-But it failed, since neither #{user.pbThis(true)} nor any of its allies can receive the stat improvements!
-But it failed, since there are no party members on #{user.pbTeam(true)} who can join in!
-But it failed, since there are no party members on #{user.pbTeam(true)} who can join in!
-But it failed, since an attack is already foreseen against #{target.pbThis(true)}!
-But it failed, since an attack is already foreseen against #{target.pbThis(true)}!
+But it failed, since neither {1} nor any of its allies can receive the stat improvements!
+But it failed, since neither {1} nor any of its allies can receive the stat improvements!
+But it failed, since there are no party members on {1} who can join in!
+But it failed, since there are no party members on {1} who can join in!
+But it failed, since an attack is already foreseen against {1}!
+But it failed, since an attack is already foreseen against {1}!
 {1} chose Doom Desire as its destiny!
 {1} chose Doom Desire as its destiny!
 {1} fires a shell high in the air!
@@ -41337,20 +41347,20 @@ But it failed, since an attack is already foreseen against #{target.pbThis(true)
 {1} foresaw an attack!
 But it failed, since the receiver of the help is gone!
 But it failed, since the receiver of the help is gone!
-But it failed, since #{target.pbThis(true)} is already being helped!
-But it failed, since #{target.pbThis(true)} is already being helped!
+But it failed, since {1} is already being helped!
+But it failed, since {1} is already being helped!
 {1} is ready to help {2}!
 {1} is ready to help {2}!
-But it failed, since #{target.pbThis(true)}'s #{statName} can't go any higher!
-But it failed, since #{target.pbThis(true)}'s #{statName} can't go any higher!
-But it failed, since #{target.pbThis(true)}'s #{statName} can't go any lower!
-But it failed, since #{target.pbThis(true)}'s #{statName} can't go any lower!
+But it failed, since {1}'s {2} can't go any higher!
+But it failed, since {1}'s {2} can't go any higher!
+But it failed, since {1}'s {2} can't go any lower!
+But it failed, since {1}'s {2} can't go any lower!
 {1} sucked up the liquid ooze!
 {1} sucked up the liquid ooze!
 {1} transformed into the {2} type!
 {1} transformed into the {2} type!
-#{user.pbThis} summons another Avatar!
-#{user.pbThis} summons another Avatar!
+{1} summons another Avatar!
+{1} summons another Avatar!
 \i[TAROTAMULET]The Tarot Amulet glows with power!
 \i[TAROTAMULET]The Tarot Amulet glows with power!
 \ts[]<c3=4C0D0D,FFFFFF22><b><outln2><ac><fs={1}>\w[]\wu\l[12]{2}</fs></ac></outln2></b></c3>\wt[{3}]
@@ -43911,72 +43921,70 @@ Near the avatar, immunities are resistances!
 Near the avatar, immunities are resistances!
 The Empowered attack pierced the immunity!
 The Empowered attack pierced the immunity!
-#{target.pbThis} prevents the hit from being critical!
-#{target.pbThis} prevents the hit from being critical!
-#{target.pbThis}'s #{getItemName(:COVERTCLOAK)} protects it from a random added effect!
-#{target.pbThis}'s #{getItemName(:COVERTCLOAK)} protects it from a random added effect!
+{1} prevents the hit from being critical!
+{1} prevents the hit from being critical!
+{1}'s {2} protects it from a random added effect!
+{1}'s {2} protects it from a random added effect!
 Given status #{statusApplying} is not valid.
 Given status #{statusApplying} is not valid.
 But it failed, since the ability Simple doesn't exist!
 But it failed, since the ability Simple doesn't exist!
-But it failed, since #{target.pbThis(true)}'s ability can't be supressed!
-But it failed, since #{target.pbThis(true)}'s ability can't be supressed!
-But it failed, since #{target.pbThis(true)} already has the ability #{getAbilityName(:SIMPLE)}!
-But it failed, since #{target.pbThis(true)} already has the ability #{getAbilityName(:SIMPLE)}!
+But it failed, since {1}'s ability can't be supressed!
+But it failed, since {1}'s ability can't be supressed!
+But it failed, since {1} already has the ability {2}!
+But it failed, since {1} already has the ability {2}!
 But it failed, since the ability Insomnia doesn't exist!
 But it failed, since the ability Insomnia doesn't exist!
-But it failed, since #{target.pbThis(true)}'s ability is already #{getAbilityName(:INSOMNIA)}!
-But it failed, since #{target.pbThis(true)}'s ability is already #{getAbilityName(:INSOMNIA)}!
-But it failed, since #{user.pbThis(true)}'s ability can't be changed!
-But it failed, since #{user.pbThis(true)}'s ability can't be changed!
-But it failed, since #{target.pbThis(true)} doesn't have an ability!
-But it failed, since #{target.pbThis(true)} doesn't have an ability!
-But it failed, since the #{target.pbThis(true)} and #{user.pbThis(true)} have the same ability!
-But it failed, since the #{target.pbThis(true)} and #{user.pbThis(true)} have the same ability!
-But it failed, since #{target.pbThis(true)}'s ability can't be copied!
-But it failed, since #{target.pbThis(true)}'s ability can't be copied!
+But it failed, since {1}'s ability is already {2}!
+But it failed, since {1}'s ability is already {2}!
+But it failed, since {1}'s ability can't be changed!
+But it failed, since {1}'s ability can't be changed!
+But it failed, since {1} doesn't have an ability!
+But it failed, since {1} doesn't have an ability!
+But it failed, since the {1} and {2} have the same ability!
+But it failed, since the {1} and {2} have the same ability!
+But it failed, since {1}'s ability can't be copied!
+But it failed, since {1}'s ability can't be copied!
 {1} copied {2}'s {3}!
 {1} copied {2}'s {3}!
 {1} copies {2}'s ability!
 {1} copies {2}'s ability!
-But it failed, since #{user.pbThis(true)} doesn't have an ability!
-But it failed, since #{user.pbThis(true)} doesn't have an ability!
-But it failed, since #{user.pbThis(true)}'s ability cannot be copied!
-But it failed, since #{user.pbThis(true)}'s ability cannot be copied!
+But it failed, since {1}'s ability cannot be copied!
+But it failed, since {1}'s ability cannot be copied!
 {1} acquired {2}!
 {1} acquired {2}!
-But it failed, since #{user.pbThis(true)}'s ability cannot be changed!
-But it failed, since #{user.pbThis(true)}'s ability cannot be changed!
+But it failed, since {1}'s ability cannot be changed!
+But it failed, since {1}'s ability cannot be changed!
 {1} swapped Abilities with its target!
 {1} swapped Abilities with its target!
-But it failed, since #{user.pbThis(true)} has no status condition!
-But it failed, since #{user.pbThis(true)} has no status condition!
+But it failed, since {1} has no status condition!
+But it failed, since {1} has no status condition!
 But it failed, since there are no status conditions in the party!
 But it failed, since there are no status conditions in the party!
 A soothing aroma wafted through the area!
 A soothing aroma wafted through the area!
 A bell chimed!
 A bell chimed!
-But it failed, since #{user.pbThis(true)} already has a veil of water and none of its party members have a status condition!
-But it failed, since #{user.pbThis(true)} already has a veil of water and none of its party members have a status condition!
+But it failed, since {1} already has a veil of water and none of its party members have a status condition!
+But it failed, since {1} already has a veil of water and none of its party members have a status condition!
 Majestic whale sounds reverberate!
 Majestic whale sounds reverberate!
 The area was purified!
 The area was purified!
-But it failed, since #{user.pbThis(true)} doesn't have any status conditions!
-But it failed, since #{user.pbThis(true)} doesn't have any status conditions!
+But it failed, since {1} doesn't have any status conditions!
+But it failed, since {1} doesn't have any status conditions!
 {1} tries to transfer its {2} to {3}, but...
 {1} tries to transfer its {2} to {3}, but...
-But it failed, since #{target.pbThis(true)} has no status conditions!
-But it failed, since #{target.pbThis(true)} has no status conditions!
-But it failed, since #{user.pbThis(true)} hasn't absorbed any energy!
-But it failed, since #{user.pbThis(true)} hasn't absorbed any energy!
+But it failed, since {1} has no status conditions!
+But it failed, since {1} has no status conditions!
+But it failed, since {1} hasn't absorbed any energy!
+But it failed, since {1} hasn't absorbed any energy!
 {1} unleashed energy!
 {1} unleashed energy!
 {1} is storing energy!
 {1} is storing energy!
-But it failed, since #{user.pbThis(true)} was already waiting to take down others with it!
-But it failed, since #{user.pbThis(true)} was already waiting to take down others with it!
+But it failed, since {1} was already waiting to take down others with it!
+But it failed, since {1} was already waiting to take down others with it!
 But it failed in the presence of an Avatar!
 But it failed in the presence of an Avatar!
 {1} is hoping to take its attacker down with it!
@@ -43993,82 +44001,80 @@ But it failed, since the user is an avatar!
 But it failed, since the user is an avatar!
 The battlers shared their pain!
 The battlers shared their pain!
-But it failed, since #{user.pbThis(true)}'s health is greater than #{target.pbThis(true)}'s!
-But it failed, since #{user.pbThis(true)}'s health is greater than #{target.pbThis(true)}'s!
-But it failed, since #{target.pbThis(true)} is an Avatar!
-But it failed, since #{target.pbThis(true)} is an Avatar!
-But it failed, since it isn't #{user.pbThis(true)}'s first turn!
-But it failed, since it isn't #{user.pbThis(true)}'s first turn!
-Which type should #{user.pbThis(true)} launch?
-Which type should #{user.pbThis(true)} launch?
-It's an explosion of pure #{GameData::Type.get(@calcType).name}!
-It's an explosion of pure #{GameData::Type.get(@calcType).name}!
-But it failed, since a Wish is already about to come true for #{user.pbThis(true)}!
-But it failed, since a Wish is already about to come true for #{user.pbThis(true)}!
-But it failed, since #{user.pbThis(true)} is already asleep!
-But it failed, since #{user.pbThis(true)} is already asleep!
+But it failed, since {1}'s health is greater than {2}'s!
+But it failed, since {1}'s health is greater than {2}'s!
+But it failed, since {1} is an Avatar!
+But it failed, since {1} is an Avatar!
+But it failed, since it isn't {1}'s first turn!
+But it failed, since it isn't {1}'s first turn!
+Which type should {1} launch?
+Which type should {1} launch?
+It's an explosion of pure {1}!
+It's an explosion of pure {1}!
+But it failed, since a Wish is already about to come true for {1}!
+But it failed, since a Wish is already about to come true for {1}!
+But it failed, since {1} is already asleep!
+But it failed, since {1} is already asleep!
 {1} slept and became healthy!
 {1} slept and became healthy!
-But it failed, since it's not #{user.pbThis(true)}'s first turn!
-But it failed, since it's not #{user.pbThis(true)}'s first turn!
-But it failed, since #{user.pbThis(true)} is already veiled with water!
-But it failed, since #{user.pbThis(true)} is already veiled with water!
-But it failed, since #{user.pbThis(true)}'s roots are already planted!
-But it failed, since #{user.pbThis(true)}'s roots are already planted!
+But it failed, since it's not {1}'s first turn!
+But it failed, since it's not {1}'s first turn!
+But it failed, since {1} is already veiled with water!
+But it failed, since {1} is already veiled with water!
+But it failed, since {1}'s roots are already planted!
+But it failed, since {1}'s roots are already planted!
 {1} can't be healed and it has no status conditions!
 {1} can't be healed and it has no status conditions!
-But it failed, since none of #{user.pbThis(true)} or its allies can be healed or have their status conditions removed!
-But it failed, since none of #{user.pbThis(true)} or its allies can be healed or have their status conditions removed!
+But it failed, since none of {1} or its allies can be healed or have their status conditions removed!
+But it failed, since none of {1} or its allies can be healed or have their status conditions removed!
 But it failed, since there was no one to heal!
 But it failed, since there was no one to heal!
-#{target.pbThis} is protected behind its substitute!
-#{target.pbThis} is protected behind its substitute!
-But it failed, since #{target.pbThis(true)} can't be healed!
-But it failed, since #{target.pbThis(true)} can't be healed!
-But it failed, since #{user.pbThis(true)} has no party allies to replace it!
-But it failed, since #{user.pbThis(true)} has no party allies to replace it!
+{1} is protected behind its substitute!
+{1} is protected behind its substitute!
+But it failed, since {1} can't be healed!
+But it failed, since {1} can't be healed!
+But it failed, since {1} has no party allies to replace it!
+But it failed, since {1} has no party allies to replace it!
 {1}'s HP is unable to gather any honey!
 {1}'s HP is unable to gather any honey!
 {1} has been afflicted with an infestation!
 {1} has been afflicted with an infestation!
-But it failed, since #{user.pbThis(true)} can't heal or raise its Speed!
-But it failed, since #{user.pbThis(true)} can't heal or raise its Speed!
-But it failed, since #{user.pbThis} can't heal and already has a veil of water!
-But it failed, since #{user.pbThis} can't heal and already has a veil of water!
+But it failed, since {1} can't heal or raise its Speed!
+But it failed, since {1} can't heal or raise its Speed!
+But it failed, since {1} can't heal and already has a veil of water!
+But it failed, since {1} can't heal and already has a veil of water!
 {1}'s {2} was extended 1 turn!
 {1}'s {2} was extended 1 turn!
 {1} summons a helper!
 {1} summons a helper!
-But it failed, since #{arget.pbThis(true)} is already being helped!
-But it failed, since #{arget.pbThis(true)} is already being helped!
 But {1} can't use the move!
 But {1} can't use the move!
 But {1} can't use it the way it is now!
 But {1} can't use it the way it is now!
-But it failed, since #{user.pbThis(true)} is transformed!
-But it failed, since #{user.pbThis(true)} is transformed!
-But it failed, since #{user.pbThis(true)} doesn't know Sketch!
-But it failed, since #{user.pbThis(true)} doesn't know Sketch!
-But it failed, since #{target.pbThis(true)} hasn't used a move!
-But it failed, since #{target.pbThis(true)} hasn't used a move!
-But it failed, since #{user.pbThis(true)} already knows #{target.pbThis(true)}'s most recent move!
-But it failed, since #{user.pbThis(true)} already knows #{target.pbThis(true)}'s most recent move!
-But it failed, #{target.pbThis(true)}'s most recent move can't be Sketched!
-But it failed, #{target.pbThis(true)}'s most recent move can't be Sketched!
+But it failed, since {1} is transformed!
+But it failed, since {1} is transformed!
+But it failed, since {1} doesn't know Sketch!
+But it failed, since {1} doesn't know Sketch!
+But it failed, since {1} hasn't used a move!
+But it failed, since {1} hasn't used a move!
+But it failed, since {1} already knows {2}'s most recent move!
+But it failed, since {1} already knows {2}'s most recent move!
+But it failed, {1}'s most recent move can't be Sketched!
+But it failed, {1}'s most recent move can't be Sketched!
 But it failed, since the user is already transformed!
 But it failed, since the user is already transformed!
-But it failed, since #{target.pbThis(true)} is also transformed!
-But it failed, since #{target.pbThis(true)} is also transformed!
-But it failed, since #{target.pbThis(true)} is disguised by an Illusion!
-But it failed, since #{target.pbThis(true)} is disguised by an Illusion!
+But it failed, since {1} is also transformed!
+But it failed, since {1} is also transformed!
+But it failed, since {1} is disguised by an Illusion!
+But it failed, since {1} is disguised by an Illusion!
 But it failed, since the target didn't choose to use a move!
 But it failed, since the target didn't choose to use a move!
 But it failed, since the target chose to use a status move!
 But it failed, since the target chose to use a status move!
 But it failed, since the target chose a move that can't be copied!
 But it failed, since the target chose a move that can't be copied!
-Which move should #{user.pbThis(true)} use?
-Which move should #{user.pbThis(true)} use?
+Which move should {1} use?
+Which move should {1} use?
 But it failed, since no foe has yet used a move!
 But it failed, since no foe has yet used a move!
 An Invalid move is being instanced. This shouldn't happen!
@@ -44077,50 +44083,50 @@ But nothing happened!
 But nothing happened!
 But it failed, since everyone has heard the song already!
 But it failed, since everyone has heard the song already!
-Which form should #{user.pbThis(true)} take?
-Which form should #{user.pbThis(true)} take?
-#{user.pbThis} has already transformed!
-#{user.pbThis} has already transformed!
+Which form should {1} take?
+Which form should {1} take?
+{1} has already transformed!
+{1} has already transformed!
 But {1} has already transformed!
 But {1} has already transformed!
 {1} augmented its genes and transformed!
 {1} augmented its genes and transformed!
-But it failed, since #{target.pbThis(true)} is an avatar!
-But it failed, since #{target.pbThis(true)} is an avatar!
-But it failed, since #{target.pbThis(true)} doesn't have a defined species somehow!
-But it failed, since #{target.pbThis(true)} doesn't have a defined species somehow!
-But it failed, since #{target.pbThis(true)} has no previous species to transform into!
-But it failed, since #{target.pbThis(true)} has no previous species to transform into!
+But it failed, since {1} is an avatar!
+But it failed, since {1} is an avatar!
+But it failed, since {1} doesn't have a defined species somehow!
+But it failed, since {1} doesn't have a defined species somehow!
+But it failed, since {1} has no previous species to transform into!
+But it failed, since {1} has no previous species to transform into!
 It reduced the PP of {1}'s {2} by {3}!
 It reduced the PP of {1}'s {2} by {3}!
-But it failed, since there are no moves #{user.pbThis(true)} can use!
-But it failed, since there are no moves #{user.pbThis(true)} can use!
-But it failed, since #{target.pbThis(true)} hasn't used a move yet!
-But it failed, since #{target.pbThis(true)} hasn't used a move yet!
-But it failed, since #{target.pbThis(true)} no longer knows its most recent move!
-But it failed, since #{target.pbThis(true)} no longer knows its most recent move!
-But it failed, since #{target.pbThis(true)} is locked into an attack!
-But it failed, since #{target.pbThis(true)} is locked into an attack!
-But it failed, since #{target.pbThis(true)} is focusing!
-But it failed, since #{target.pbThis(true)} is focusing!
-But it failed, since #{target.pbThis(true)}'s last used move cant be instructed!
-But it failed, since #{target.pbThis(true)}'s last used move cant be instructed!
-But it failed, since #{target.pbThis(true)}'s last used move is a two-turn move!
-But it failed, since #{target.pbThis(true)}'s last used move is a two-turn move!
-But it failed, since #{target.pbThis(true)}'s last used move it out of PP!
-But it failed, since #{target.pbThis(true)}'s last used move it out of PP!
+But it failed, since there are no moves {1} can use!
+But it failed, since there are no moves {1} can use!
+But it failed, since {1} hasn't used a move yet!
+But it failed, since {1} hasn't used a move yet!
+But it failed, since {1} no longer knows its most recent move!
+But it failed, since {1} no longer knows its most recent move!
+But it failed, since {1} is locked into an attack!
+But it failed, since {1} is locked into an attack!
+But it failed, since {1} is focusing!
+But it failed, since {1} is focusing!
+But it failed, since {1}'s last used move cant be instructed!
+But it failed, since {1}'s last used move cant be instructed!
+But it failed, since {1}'s last used move is a two-turn move!
+But it failed, since {1}'s last used move is a two-turn move!
+But it failed, since {1}'s last used move it out of PP!
+But it failed, since {1}'s last used move it out of PP!
 {1} is radiating energy!
 {1} is radiating energy!
 {1} transcended its limits and transformed!
 {1} transcended its limits and transformed!
-#{user.pbThis} has already mutated!
-#{user.pbThis} has already mutated!
+{1} has already mutated!
+{1} has already mutated!
 But {1} has already mutated!
 But {1} has already mutated!
 {1} reforms its genes with space energy!
 {1} reforms its genes with space energy!
-But it failed, since #{user.pbThis(true)} has no valid allies to switch with!
-But it failed, since #{user.pbThis(true)} has no valid allies to switch with!
+But it failed, since {1} has no valid allies to switch with!
+But it failed, since {1} has no valid allies to switch with!
 {1} and {2} switched places!
 {1} and {2} switched places!
 {1} joins in the attack!
@@ -44129,12 +44135,12 @@ It hurt itself in a rage!
 It hurt itself in a rage!
 Base power is 20 plus the target's level, capped at 70 BP.
 Base power is 20 plus the target's level, capped at 70 BP.
-#{user.pbThis} culls #{target.pbThis(true)}!
-#{user.pbThis} culls #{target.pbThis(true)}!
+{1} culls {2}!
+{1} culls {2}!
 The season shifts!
 The season shifts!
-#{target.pbThis} is newly afraid. It can be flinched again!
-#{target.pbThis} is newly afraid. It can be flinched again!
+{1} is newly afraid. It can be flinched again!
+{1} is newly afraid. It can be flinched again!
 But there is no room for fish to join!
 But there is no room for fish to join!
 Fish are drawn to the field!
@@ -44143,36 +44149,36 @@ But gravity is already warped!
 But gravity is already warped!
 But it failed, since ions already shower the field!
 But it failed, since ions already shower the field!
-But it failed, since #{user.pbThis(true)} isn't asleep!
-But it failed, since #{user.pbThis(true)} isn't asleep!
-But it failed, since #{user.pbThis(true)} knows no other sound-based moves!
-But it failed, since #{user.pbThis(true)} knows no other sound-based moves!
-But it failed, since #{user.pbThis(true)}'s roots keep it stuck in the ground!
-But it failed, since #{user.pbThis(true)}'s roots keep it stuck in the ground!
-But it failed, since #{user.pbThis(true)} was smacked down to the ground!
-But it failed, since #{user.pbThis(true)} was smacked down to the ground!
-But it failed, since #{user.pbThis(true)} is already risen up through magnetism!
-But it failed, since #{user.pbThis(true)} is already risen up through magnetism!
-But it failed, since #{user.pbThis(true)} is already in a volley stance!
-But it failed, since #{user.pbThis(true)} is already in a volley stance!
-But it failed, since #{user.pbThis(true)} can't raise its Sp. Atk and already activated its witch powers!
-But it failed, since #{user.pbThis(true)} can't raise its Sp. Atk and already activated its witch powers!
+But it failed, since {1} isn't asleep!
+But it failed, since {1} isn't asleep!
+But it failed, since {1} knows no other sound-based moves!
+But it failed, since {1} knows no other sound-based moves!
+But it failed, since {1}'s roots keep it stuck in the ground!
+But it failed, since {1}'s roots keep it stuck in the ground!
+But it failed, since {1} was smacked down to the ground!
+But it failed, since {1} was smacked down to the ground!
+But it failed, since {1} is already risen up through magnetism!
+But it failed, since {1} is already risen up through magnetism!
+But it failed, since {1} is already in a volley stance!
+But it failed, since {1} is already in a volley stance!
+But it failed, since {1} can't raise its Sp. Atk and already activated its witch powers!
+But it failed, since {1} can't raise its Sp. Atk and already activated its witch powers!
 {1} concentrated intensely!
 {1} concentrated intensely!
-But it failed, since #{user.pbThis(true)} is already inured!
-But it failed, since #{user.pbThis(true)} is already inured!
-But it failed, since #{target.pbThis(true)} is already being forced to move next!
-But it failed, since #{target.pbThis(true)} is already being forced to move next!
-But it failed. since #{target.pbThis(true)} isn't using a move this turn!
-But it failed. since #{target.pbThis(true)} isn't using a move this turn!
+But it failed, since {1} is already inured!
+But it failed, since {1} is already inured!
+But it failed, since {1} is already being forced to move next!
+But it failed, since {1} is already being forced to move next!
+But it failed. since {1} isn't using a move this turn!
+But it failed. since {1} isn't using a move this turn!
 {1} took the kind offer!
 {1} took the kind offer!
-But it failed, since #{target.pbThis(true)} isn't using a move this turn!
-But it failed, since #{target.pbThis(true)} isn't using a move this turn!
+But it failed, since {1} isn't using a move this turn!
+But it failed, since {1} isn't using a move this turn!
 But it failed!
 But it failed!
-But it failed, since #{target.pbThis(true)} was already forced to move last!
-But it failed, since #{target.pbThis(true)} was already forced to move last!
+But it failed, since {1} was already forced to move last!
+But it failed, since {1} was already forced to move last!
 {1}'s move was postponed!
 {1}'s move was postponed!
 {1} is fired up!
@@ -44181,26 +44187,26 @@ But it failed, since #{target.pbThis(true)} was already forced to move last!
 {1} was kickstarted into action!
 {1} is amped up!
 {1} is amped up!
-But it failed, since #{user.pbThis(true)} has no stingers!
-But it failed, since #{user.pbThis(true)} has no stingers!
+But it failed, since {1} has no stingers!
+But it failed, since {1} has no stingers!
 How fortunate!
 How fortunate!
 How unfortunate! Better luck next time.
 How unfortunate! Better luck next time.
-But it failed, since a crafty shield is already protecting #{user.pbTeam(true)}!
-But it failed, since a crafty shield is already protecting #{user.pbTeam(true)}!
+But it failed, since a crafty shield is already protecting {1}!
+But it failed, since a crafty shield is already protecting {1}!
 {1} spread its arms to guard {2}!
 {1} spread its arms to guard {2}!
-But it failed, since a Mat was already thrown up on #{user.pbThis(true)}'s side of the field!
-But it failed, since a Mat was already thrown up on #{user.pbThis(true)}'s side of the field!
+But it failed, since a Mat was already thrown up on {1}'s side of the field!
+But it failed, since a Mat was already thrown up on {1}'s side of the field!
 {1} put up a quarantine!
 {1} put up a quarantine!
 But it failed, since the receiver of the barrier is gone!
 But it failed, since the receiver of the barrier is gone!
-But it failed, since #{arget.pbThis(true)} is already protected by a bubble!
-But it failed, since #{arget.pbThis(true)} is already protected by a bubble!
-But it failed, since none of #{user.pbThis(true)}'s moves can be used from Sleep Talk!
-But it failed, since none of #{user.pbThis(true)}'s moves can be used from Sleep Talk!
+But it failed, since {1} is already protected by a bubble!
+But it failed, since {1} is already protected by a bubble!
+But it failed, since none of {1}'s moves can be used from Sleep Talk!
+But it failed, since none of {1}'s moves can be used from Sleep Talk!
 Can't call focusing moves, moves that call other moves,
 Can't call focusing moves, moves that call other moves, 
 Can't call moves that alter the moveset, moves that counter, moves that
@@ -44229,8 +44235,8 @@ But it failed to swallow a thing!
 But it failed to swallow a thing!
 {1} already has a substitute!
 {1} already has a substitute!
-But it failed, since #{user.pbThis(true)} does not have enough HP left to make a substitute!
-But it failed, since #{user.pbThis(true)} does not have enough HP left to make a substitute!
+But it failed, since {1} does not have enough HP left to make a substitute!
+But it failed, since {1} does not have enough HP left to make a substitute!
 {1} was trapped!
 {1} was trapped!
 {1} was squeezed by {2}!
@@ -44251,18 +44257,18 @@ But it failed, since #{user.pbThis(true)} does not have enough HP left to make a
 {1} was caught in {2}'s vises!
 {1} was dragged beneath the waves!
 {1} was dragged beneath the waves!
-But it failed, since #{target.pbThis(true)} already can't escape!
-But it failed, since #{target.pbThis(true)} already can't escape!
-But it failed, since #{target.pbThis(true)} is already octolocked!
-But it failed, since #{target.pbThis(true)} is already octolocked!
+But it failed, since {1} already can't escape!
+But it failed, since {1} already can't escape!
+But it failed, since {1} is already octolocked!
+But it failed, since {1} is already octolocked!
 But {1} isn't affected because it's a Ghost...
 But {1} isn't affected because it's a Ghost...
-But it failed, since #{target.pbThis(true)} is already imprisoned and its attacking stats can't be reduced!
-But it failed, since #{target.pbThis(true)} is already imprisoned and its attacking stats can't be reduced!
+But it failed, since {1} is already imprisoned and its attacking stats can't be reduced!
+But it failed, since {1} is already imprisoned and its attacking stats can't be reduced!
 Neither Pokémon can escape!
 Neither Pokémon can escape!
-But it failed, since #{target.pbThis(true)} is already trapped and can't be frostbitten!
-But it failed, since #{target.pbThis(true)} is already trapped and can't be frostbitten!
+But it failed, since {1} is already trapped and can't be frostbitten!
+But it failed, since {1} is already trapped and can't be frostbitten!
 But it failed, since a Fairy Lock is already active!
 But it failed, since a Fairy Lock is already active!
 No one will be able to run away during the next turn!
@@ -44311,48 +44317,46 @@ The Reaper appears!
 {1} is absorbing power!
 Should {1} charge the attack?
 Should {1} charge the attack?
-But it failed, since #{user.pbThis(true)} can't have its type changed!
-But it failed, since #{user.pbThis(true)} can't have its type changed!
+But it failed, since {1} can't have its type changed!
+But it failed, since {1} can't have its type changed!
 But it failed, since there are no valid types for it to choose!
 But it failed, since there are no valid types for it to choose!
-But it failed, since #{user.pbThis(true)} can't have its types changed!
-But it failed, since #{user.pbThis(true)} can't have its types changed!
-But it failed, since the type #{user.pbThis(true)} is supposed to become doesn't exist!
-But it failed, since the type #{user.pbThis(true)} is supposed to become doesn't exist!
-But it failed, since #{user.pbThis(true)} is already #{GameData::Type.get(camouflageType).name}-type!
-But it failed, since #{user.pbThis(true)} is already #{GameData::Type.get(camouflageType).name}-type!
+But it failed, since {1} can't have its types changed!
+But it failed, since {1} can't have its types changed!
+But it failed, since the type {1} is supposed to become doesn't exist!
+But it failed, since the type {1} is supposed to become doesn't exist!
+But it failed, since {1} is already {2}-type!
+But it failed, since {1} is already {2}-type!
 But it failed, since the Water-type doesn't exist!
 But it failed, since the Water-type doesn't exist!
-But it failed, since #{target.pbThis(true)} can't change their type!
-But it failed, since #{target.pbThis(true)} can't change their type!
-But it failed, since #{target.pbThis(true)} is already only Water-type!
-But it failed, since #{target.pbThis(true)} is already only Water-type!
-But it failed, since #{target.pbThis(true)} has no types!
-But it failed, since #{target.pbThis(true)} has no types!
-But it failed, since #{user.pbThis(true)} && #{target.pbThis(true)} share the exact same types!
-But it failed, since #{user.pbThis(true)} && #{target.pbThis(true)} share the exact same types!
+But it failed, since {1} can't change their type!
+But it failed, since {1} can't change their type!
+But it failed, since {1} is already only Water-type!
+But it failed, since {1} is already only Water-type!
+But it failed, since {1} has no types!
+But it failed, since {1} has no types!
+But it failed, since {1} && {2} share the exact same types!
+But it failed, since {1} && {2} share the exact same types!
 {1}'s type changed to match {2}'s!
 {1}'s type changed to match {2}'s!
 But it failed, since the Bug-type doesn't exist!
 But it failed, since the Bug-type doesn't exist!
-But it failed, since #{target.pbThis(true)} is already only Bug-type!
-But it failed, since #{target.pbThis(true)} is already only Bug-type!
+But it failed, since {1} is already only Bug-type!
+But it failed, since {1} is already only Bug-type!
 But it failed, since the Ghost-type doesn't exist!
 But it failed, since the Ghost-type doesn't exist!
-But it failed, since #{target.pbThis(true)} is already Ghost-type!
-But it failed, since #{target.pbThis(true)} is already Ghost-type!
-But it failed, since #{target.pbThis(true)} can't have its type changed!
-But it failed, since #{target.pbThis(true)} can't have its type changed!
+But it failed, since {1} is already Ghost-type!
+But it failed, since {1} is already Ghost-type!
 But it failed, since the Grass-type doesn't exist!
 But it failed, since the Grass-type doesn't exist!
-But it failed, since #{target.pbThis(true)} is already Grass-type!
-But it failed, since #{target.pbThis(true)} is already Grass-type!
-But it failed, since the Steel-type doesn't exist and #{target.pbThis(true)}'s Speed can't be lowered!
-But it failed, since the Steel-type doesn't exist and #{target.pbThis(true)}'s Speed can't be lowered!
-But it failed, since #{target.pbThis(true)} is already Steel-type and its Speed can't be lowered!
-But it failed, since #{target.pbThis(true)} is already Steel-type and its Speed can't be lowered!
-But it failed, since #{target.pbThis(true)} can't have its type changed and its Speed can't be lowered!
-But it failed, since #{target.pbThis(true)} can't have its type changed and its Speed can't be lowered!
+But it failed, since {1} is already Grass-type!
+But it failed, since {1} is already Grass-type!
+But it failed, since the Steel-type doesn't exist and {1}'s Speed can't be lowered!
+But it failed, since the Steel-type doesn't exist and {1}'s Speed can't be lowered!
+But it failed, since {1} is already Steel-type and its Speed can't be lowered!
+But it failed, since {1} is already Steel-type and its Speed can't be lowered!
+But it failed, since {1} can't have its type changed and its Speed can't be lowered!
+But it failed, since {1} can't have its type changed and its Speed can't be lowered!
 Form effects:
 Form effects:
 <u>Heat</u>: Burn
@@ -44365,72 +44369,70 @@ Form effects:
 <u>Fan</u>: Dizzy
 <u>Mow</u>: Leech
 <u>Mow</u>: Leech
-Which type should #{user.pbThis(true)} gift?
-Which type should #{user.pbThis(true)} gift?
+Which type should {1} gift?
+Which type should {1} gift?
 But it failed, since the chosen type doesn't exist!
 But it failed, since the chosen type doesn't exist!
-But it failed, since #{target.pbThis(true)} is already only the chosen type!
-But it failed, since #{target.pbThis(true)} is already only the chosen type!
+But it failed, since {1} is already only the chosen type!
+But it failed, since {1} is already only the chosen type!
 {1} turned into {2}!
 {1} turned into {2}!
-But it failed, since #{target.pbThis(true)} is already tormented!
-But it failed, since #{target.pbThis(true)} is already tormented!
-But it failed, since #{user.pbThis(true)}'s is already imprisoning shared moves!
-But it failed, since #{user.pbThis(true)}'s is already imprisoning shared moves!
+But it failed, since {1} is already tormented!
+But it failed, since {1} is already tormented!
+But it failed, since {1}'s is already imprisoning shared moves!
+But it failed, since {1}'s is already imprisoning shared moves!
 But it failed, since the target can't be disabled!
 But it failed, since the target can't be disabled!
-But it failed, since #{target.pbThis(true)} is already taunted!
-But it failed, since #{target.pbThis(true)} is already taunted!
+But it failed, since {1} is already taunted!
+But it failed, since {1} is already taunted!
 But it failed, since the target's healing is already blocked!
 But it failed, since the target's healing is already blocked!
-But it failed, since #{target.pbThis(true)} is already locked into an encore!
-But it failed, since #{target.pbThis(true)} is already locked into an encore!
+But it failed, since {1} is already locked into an encore!
+But it failed, since {1} is already locked into an encore!
 But it failed, since {1} can't be locked into {2}!
 But it failed, since {1} can't be locked into {2}!
-But it failed, since #{target.pbThis(true)} is setting a Shell Trap!
-But it failed, since #{target.pbThis(true)} is setting a Shell Trap!
-But it failed, since #{target.pbThis(true)} is hiding a Masquerblade!
-But it failed, since #{target.pbThis(true)} is hiding a Masquerblade!
-But it failed, since #{target.pbThis(true)} last used move has no more PP!
-But it failed, since #{target.pbThis(true)} last used move has no more PP!
-But it failed, since #{target.pbThis(true)} is already barred!
-But it failed, since #{target.pbThis(true)} is already barred!
-But it failed, since #{target.pbThis(true)} isn't asleep!
-But it failed, since #{target.pbThis(true)} isn't asleep!
-But it failed, since #{target.pbThis(true)} is already afflicted by a Nightmare!
-But it failed, since #{target.pbThis(true)} is already afflicted by a Nightmare!
-But it failed, since #{target.pbThis(true)} is already covered in tar and can't have their Speed lowered!
-But it failed, since #{target.pbThis(true)} is already covered in tar and can't have their Speed lowered!
-But it failed, since #{target.pbThis(true)} is already cursed!
-But it failed, since #{target.pbThis(true)} is already cursed!
+But it failed, since {1} is setting a Shell Trap!
+But it failed, since {1} is setting a Shell Trap!
+But it failed, since {1} is hiding a Masquerblade!
+But it failed, since {1} is hiding a Masquerblade!
+But it failed, since {1} last used move has no more PP!
+But it failed, since {1} last used move has no more PP!
+But it failed, since {1} is already barred!
+But it failed, since {1} is already barred!
+But it failed, since {1} is already afflicted by a Nightmare!
+But it failed, since {1} is already afflicted by a Nightmare!
+But it failed, since {1} is already covered in tar and can't have their Speed lowered!
+But it failed, since {1} is already covered in tar and can't have their Speed lowered!
+But it failed, since {1} is already cursed!
+But it failed, since {1} is already cursed!
 {1} cut its own HP!
 {1} cut its own HP!
-But it failed, since #{target.pbThis(true)} is already afraid of Bug-type moves!
-But it failed, since #{target.pbThis(true)} is already afraid of Bug-type moves!
-But it failed, since #{target.pbThis(true)} is already fractured!
-But it failed, since #{target.pbThis(true)} is already fractured!
-But it failed, since #{target.pbThis(true)} is already jinxed!
-But it failed, since #{target.pbThis(true)} is already jinxed!
-But it failed, since #{target.pbThis(true)} didn't choose to attack!
-But it failed, since #{target.pbThis(true)} didn't choose to attack!
-But it failed, since #{target.pbThis(true)} already moved this turn!
-But it failed, since #{target.pbThis(true)} already moved this turn!
-But it failed, since #{user.pbThis(true)} doesn't know Last Resort!
-But it failed, since #{user.pbThis(true)} doesn't know Last Resort!
-But it failed, since #{user.pbThis(true)} has no other moves!
-But it failed, since #{user.pbThis(true)} has no other moves!
-But it failed, since #{user.pbThis(true)} hasn't yet used all its other moves!
-But it failed, since #{user.pbThis(true)} hasn't yet used all its other moves!
-But it failed, since #{user.pbThis(true)} isn't Fire-type!
-But it failed, since #{user.pbThis(true)} isn't Fire-type!
-But it failed, since #{user.pbThis(true)} is not Ice-type!
-But it failed, since #{user.pbThis(true)} is not Ice-type!
+But it failed, since {1} is already afraid of Bug-type moves!
+But it failed, since {1} is already afraid of Bug-type moves!
+But it failed, since {1} is already fractured!
+But it failed, since {1} is already fractured!
+But it failed, since {1} is already jinxed!
+But it failed, since {1} is already jinxed!
+But it failed, since {1} didn't choose to attack!
+But it failed, since {1} didn't choose to attack!
+But it failed, since {1} already moved this turn!
+But it failed, since {1} already moved this turn!
+But it failed, since {1} doesn't know Last Resort!
+But it failed, since {1} doesn't know Last Resort!
+But it failed, since {1} has no other moves!
+But it failed, since {1} has no other moves!
+But it failed, since {1} hasn't yet used all its other moves!
+But it failed, since {1} hasn't yet used all its other moves!
+But it failed, since {1} isn't Fire-type!
+But it failed, since {1} isn't Fire-type!
+But it failed, since {1} is not Ice-type!
+But it failed, since {1} is not Ice-type!
 {1} is poisoned by the grime! {2}
 {1} is poisoned by the grime! {2}
 {1} kept going and crashed!
 {1} kept going and crashed!
-#{user.pbThis} is hurt by leftover electricity!
-#{user.pbThis} is hurt by leftover electricity!
+{1} is hurt by leftover electricity!
+{1} is hurt by leftover electricity!
 {1} loses half its health in recoil!
 {1} loses half its health in recoil!
 {1} loses one third of its health in recoil!
@@ -44485,36 +44487,36 @@ But it failed, since a live wire already sits near the opponent!
 {1}'s {2} went up in flames!
 {1} is about to be attacked by its {2}!
 {1} is about to be attacked by its {2}!
-But it failed, since #{target.pbThis(true)} doesn't have any items!
-But it failed, since #{target.pbThis(true)} doesn't have any items!
-But it failed, since #{target.pbThis} can't be given a Black Sludge or have its Sp. Def lowered!
-But it failed, since #{target.pbThis} can't be given a Black Sludge or have its Sp. Def lowered!
+But it failed, since {1} doesn't have any items!
+But it failed, since {1} doesn't have any items!
+But it failed, since {1} can't be given a Black Sludge or have its Sp. Def lowered!
+But it failed, since {1} can't be given a Black Sludge or have its Sp. Def lowered!
 {1} was forced to hold a {2}!
 {1} was forced to hold a {2}!
-But it failed, since #{target.pbThis(true)} is already embargoed!
-But it failed, since #{target.pbThis(true)} is already embargoed!
-#{user.pbThis} doesn't have an item to give away!
-#{user.pbThis} doesn't have an item to give away!
-#{user.pbThis} can't lose any of its items!
-#{user.pbThis} can't lose any of its items!
-Which item should #{user.pbThis(true)} give away?
-Which item should #{user.pbThis(true)} give away?
-But it failed, since #{target.pbThis(true)} doesn't have room for a new item!
-But it failed, since #{target.pbThis(true)} doesn't have room for a new item!
-But it failed, since #{target.pbThis(true)} can't accept an #{getItemName(@chosenItem)}!
-But it failed, since #{target.pbThis(true)} can't accept an #{getItemName(@chosenItem)}!
+But it failed, since {1} is already embargoed!
+But it failed, since {1} is already embargoed!
+{1} doesn't have an item to give away!
+{1} doesn't have an item to give away!
+{1} can't lose any of its items!
+{1} can't lose any of its items!
+Which item should {1} give away?
+Which item should {1} give away?
+But it failed, since {1} doesn't have room for a new item!
+But it failed, since {1} doesn't have room for a new item!
+But it failed, since {1} can't accept an {2}!
+But it failed, since {1} can't accept an {2}!
 {1} received {2} from {3}!
 {1} received {2} from {3}!
-But it failed, since #{user.pbThis(true)} doesn't have an item to recycle!
-But it failed, since #{user.pbThis(true)} doesn't have an item to recycle!
-But it failed, since #{user.pbThis(true)} has the item it would recycle!
-But it failed, since #{user.pbThis(true)} has the item it would recycle!
-#{user.pbThis} doesn't have an item to fling!
-#{user.pbThis} doesn't have an item to fling!
-#{user.pbThis} can't use items!
-#{user.pbThis} can't use items!
-Which item should #{user.pbThis(true)} fling?
-Which item should #{user.pbThis(true)} fling?
+But it failed, since {1} doesn't have an item to recycle!
+But it failed, since {1} doesn't have an item to recycle!
+But it failed, since {1} has the item it would recycle!
+But it failed, since {1} has the item it would recycle!
+{1} doesn't have an item to fling!
+{1} doesn't have an item to fling!
+{1} can't use items!
+{1} can't use items!
+Which item should {1} fling?
+Which item should {1} fling?
 {1} flung its {2}!
 {1} flung its {2}!
 <u>150 BP</u>: Pearl of Fate, Iron Ball
@@ -44531,18 +44533,16 @@ Which item should #{user.pbThis(true)} fling?
 <u>Frostbite</u>: Frost Orb
 <u>Leech</u>: Big Root, Binding Band
 <u>Leech</u>: Big Root, Binding Band
-#{user.pbThis} can't use any of its items!
-#{user.pbThis} can't use any of its items!
-Which item should #{user.pbThis(true)} use?
-Which item should #{user.pbThis(true)} use?
+{1} can't use any of its items!
+{1} can't use any of its items!
+Which item should {1} use?
+Which item should {1} use?
 The {1} turned the attack {2}-type!
 The {1} turned the attack {2}-type!
 But it failed, since this is a wild battle!
 But it failed, since this is a wild battle!
-But it failed, since #{target.pbThis(true)} doesn't have an item!
-But it failed, since #{target.pbThis(true)} doesn't have an item!
-But it failed, since #{user.pbThis(true)} doesn't have an item!
-But it failed, since #{user.pbThis(true)} doesn't have an item!
+But it failed, since {1} doesn't have an item!
+But it failed, since {1} doesn't have an item!
 But it failed, since the Pearl of Fate cannot be exchanged!
 But it failed, since the Pearl of Fate cannot be exchanged!
 But it failed to affect {1}!
@@ -44551,10 +44551,10 @@ But it failed to affect {1}!
 {1} switched items with its opponent!
 {1} obtained {2}.
 {1} obtained {2}.
-But it failed, because #{user.pbThis(true)} has no berries!
-But it failed, because #{user.pbThis(true)} has no berries!
-But it failed, because #{user.pbThis(true)} cannot eat its berry!
-But it failed, because #{user.pbThis(true)} cannot eat its berry!
+But it failed, because {1} has no berries!
+But it failed, because {1} has no berries!
+But it failed, because {1} cannot eat its berry!
+But it failed, because {1} cannot eat its berry!
 But it failed, because no one has any berries!
 But it failed, because no one has any berries!
 It's tea time! Everyone dug in to their Berries!
@@ -44565,8 +44565,8 @@ It's tea time! Everyone dug in to their Berries!
 {1} copied {2}'s stat changes!
 {1} stole the target's boosted stats!
 {1} stole the target's boosted stats!
-But it failed, since #{target.pbThis(true)} has no stat changes!
-But it failed, since #{target.pbThis(true)} has no stat changes!
+But it failed, since {1} has no stat changes!
+But it failed, since {1} has no stat changes!
 {1}'s stats were reversed!
 {1}'s stats were reversed!
 {1} switched its base Attack and Defense!
@@ -44585,12 +44585,12 @@ But it failed, since {1} and {2} can't raise the other's highest stat step!
 {1} and {2} shared their highest stat steps!
 But it failed, since it has no valid targets!
 But it failed, since it has no valid targets!
-But it failed, since #{user.pbThis(true)}'s HP is too low!
-But it failed, since #{user.pbThis(true)}'s HP is too low!
+But it failed, since {1}'s HP is too low!
+But it failed, since {1}'s HP is too low!
 {1} became lighter!
 {1} became lighter!
-But it failed, since #{user.pbThis(true)} is already committed to the battle!
-But it failed, since #{user.pbThis(true)} is already committed to the battle!
+But it failed, since {1} is already committed to the battle!
+But it failed, since {1} is already committed to the battle!
 {1} gained a massive amount of mass!
 {1} gained a massive amount of mass!
 But it failed, since there were no foes below half health!
@@ -44603,72 +44603,74 @@ But it failed, since it cannot get any more pumped!
 But it failed, since it cannot get any more pumped!
 {1} adjusted its aim!
 {1} adjusted its aim!
-But it failed, since #{target.pbThis(true)} is already on a dragon ride!
-But it failed, since #{target.pbThis(true)} is already on a dragon ride!
-But it failed, since #{user.pbThis} is already giving a dragon ride!
-But it failed, since #{user.pbThis} is already giving a dragon ride!
+But it failed, since {1} is already on a dragon ride!
+But it failed, since {1} is already on a dragon ride!
+But it failed, since {1} is already giving a dragon ride!
+But it failed, since {1} is already giving a dragon ride!
 {1} gives {2} a ride on its back!
 {1} gives {2} a ride on its back!
-#{user.pbThis} calls out to the pack!
-#{user.pbThis} calls out to the pack!
-#{user.pbThis} joins with an ally!
-#{user.pbThis} joins with an ally!
-#{user.pbThis} gathers an new mind!
-#{user.pbThis} gathers an new mind!
-#{user.pbThis} connects with their friend!
-#{user.pbThis} connects with their friend!
-But it failed, since #{target.pbThis(true)} can't be leeched or have either of its attacking stats lowered!
-But it failed, since #{target.pbThis(true)} can't be leeched or have either of its attacking stats lowered!
-But it failed, since #{target.pbThis(true)} can't be numbed or have either of its attacking stats lowered!
-But it failed, since #{target.pbThis(true)} can't be numbed or have either of its attacking stats lowered!
-But it failed, since #{target.pbThis(true)} can't be poisoned or have its Speed lowered!
-But it failed, since #{target.pbThis(true)} can't be poisoned or have its Speed lowered!
-But it failed, #{target.pbThis(true)} is above half health!
-But it failed, #{target.pbThis(true)} is above half health!
-But it failed, since the #{target.pbThis(true)} didn't attack #{user.pbThis(true)} this turn!
-But it failed, since the #{target.pbThis(true)} didn't attack #{user.pbThis(true)} this turn!
-But it failed, since #{user.pbThis(true)} is slower than #{target.pbThis(true)}!
-But it failed, since #{user.pbThis(true)} is slower than #{target.pbThis(true)}!
+{1} calls out to the pack!
+{1} calls out to the pack!
+{1} joins with an ally!
+{1} joins with an ally!
+{1} gathers an new mind!
+{1} gathers an new mind!
+{1} connects with their friend!
+{1} connects with their friend!
+But it failed, since {1} can't be leeched or have either of its attacking stats lowered!
+But it failed, since {1} can't be leeched or have either of its attacking stats lowered!
+But it failed, since {1} can't be numbed or have either of its attacking stats lowered!
+But it failed, since {1} can't be numbed or have either of its attacking stats lowered!
+But it failed, since {1} can't be poisoned or have its Speed lowered!
+But it failed, since {1} can't be poisoned or have its Speed lowered!
+But it failed, {1} is above half health!
+But it failed, {1} is above half health!
+But it failed, since the {1} didn't attack {2} this turn!
+But it failed, since the {1} didn't attack {2} this turn!
+But it failed, since {1} is slower than {2}!
+But it failed, since {1} is slower than {2}!
 But it failed, since it isn't a Full Moon!
 But it failed, since it isn't a Full Moon!
-But it failed, since #{target.pbThis(true)} isn't dizzy!
-But it failed, since #{target.pbThis(true)} isn't dizzy!
-But it failed, since #{target.pbThis(true)} is already drowsy!
-But it failed, since #{target.pbThis(true)} is already drowsy!
-But it failed, since #{target.pbThis(true)} can neither be burned or frostbitten!
-But it failed, since #{target.pbThis(true)} can neither be burned or frostbitten!
-But it failed, since #{target.pbThis(true)} can neither be leeched or numbed!
-But it failed, since #{target.pbThis(true)} can neither be leeched or numbed!
+But it failed, since {1} isn't dizzy!
+But it failed, since {1} isn't dizzy!
+But it failed, since {1} is already drowsy!
+But it failed, since {1} is already drowsy!
+But it failed, since {1} can neither be burned or frostbitten!
+But it failed, since {1} can neither be burned or frostbitten!
+But it failed, since {1} can neither be leeched or numbed!
+But it failed, since {1} can neither be leeched or numbed!
 {1} anchored itself with its roots!
 {1} anchored itself with its roots!
 But it failed, since the battle can't be run from!
 But it failed, since the battle can't be run from!
-But it failed, since #{target.pbThis(true)}'s level is greater than #{user.pbThis(true)}'s!
-But it failed, since #{target.pbThis(true)}'s level is greater than #{user.pbThis(true)}'s!
-But it failed, since #{target.pbThis(true)} cannot be replaced!
-But it failed, since #{target.pbThis(true)} cannot be replaced!
-But it failed, since #{user.pbThis(true)} has no party members to replace it!
-But it failed, since #{user.pbThis(true)} has no party members to replace it!
+But it failed, since {1}'s level is greater than {2}'s!
+But it failed, since {1}'s level is greater than {2}'s!
+But it failed, since {1} cannot be replaced!
+But it failed, since {1} cannot be replaced!
+But it failed, since {1} has no party members to replace it!
+But it failed, since {1} has no party members to replace it!
 {1} charges away!
 {1} charges away!
 The level number ({1}) is invalid.
 The level number ({1}) is invalid.
 Attempted to set {1} as Pokémon status
 Attempted to set {1} as Pokémon status
-#{name} is no longer Afraid. It was restored to half health!
-#{name} is no longer Afraid. It was restored to half health!
-#{name} is no longer Afraid!
-#{name} is no longer Afraid!
+{1} is no longer Afraid. It was restored to half health!
+{1} is no longer Afraid. It was restored to half health!
+{1} is no longer Afraid!
+{1} is no longer Afraid!
+item
+item
+items
+items
 Error: Asked to remove item #{item} from Pokémon #{name}, but it doesn't have that item
 Error: Asked to remove item #{item} from Pokémon #{name}, but it doesn't have that item
-#{name} can't hold a #{getItemName(:CRYSTALVEIL)}!
-#{name} can't hold a #{getItemName(:CRYSTALVEIL)}!
-#{name} can't hold two of the same item!
-#{name} can't hold two of the same item!
-#{name} can't hold more than two items!
-#{name} can't hold more than two items!
-#{name} is no longer allowed to hold its current items.
-#{name} is no longer allowed to hold its current items.
+{1} can't hold two of the same item!
+{1} can't hold two of the same item!
+{1} can't hold more than two items!
+{1} can't hold more than two items!
+{1} is no longer allowed to hold its current items.
+{1} is no longer allowed to hold its current items.
 #{name} is not allowed to hold its current items.
 #{name} is not allowed to hold its current items.
 \wm{1} is happy enough to show off its {2} trait: {3}!\me<<[>>Egg get<<]>>\wtnp<<[>>80<<]>><<1>>
@@ -44959,8 +44961,8 @@ Data saved.
 {1}'s
 {1}
 {1}
-Turns Left: #{@turnCount}
-Turns Left: #{@turnCount}
+Turns Left: {1}
+Turns Left: {1}
 BATTLE INFO
 BATTLE INFO
 Turn {1}
@@ -45013,10 +45015,10 @@ ERROR
 ERROR
 Receiving every major tool item.
 Receiving every major tool item.
-Circuit puzzle with ID #{circuitPuzzleID} not found. Aborting.
-Circuit puzzle with ID #{circuitPuzzleID} not found. Aborting.
-Circuit puzzle with ID #{circuitPuzzleID} somehow loaded in illegal state.
-Circuit puzzle with ID #{circuitPuzzleID} somehow loaded in illegal state.
+Circuit puzzle with ID {1} not found. Aborting.
+Circuit puzzle with ID {1} not found. Aborting.
+Circuit puzzle with ID {1} somehow loaded in illegal state.
+Circuit puzzle with ID {1} somehow loaded in illegal state.
 The circuit is in an illegal state! You can't leave it like this.
 The circuit is in an illegal state! You can't leave it like this.
 A smooth but tough metallic surface.
@@ -45093,16 +45095,16 @@ A candy machine. It's out of candy.
 A candy machine. It's out of candy.
 A candy machine. It has one batch of candy.
 A candy machine. It has one batch of candy.
-A candy machine. It contains #{candyAmount} batches of candy.
-A candy machine. It contains #{candyAmount} batches of candy.
+A candy machine. It contains {1} batches of candy.
+A candy machine. It contains {1} batches of candy.
 A batch costs ${1}. You can't afford to pay that much!
 A batch costs ${1}. You can't afford to pay that much!
 Buy some candy for ${1}?
 Buy some candy for ${1}?
-You put in $#{cost}.
-You put in $#{cost}.
-Unassigned level passed to candyBatchCost: #{level}
-Unassigned level passed to candyBatchCost: #{level}
+You put in ${1}.
+You put in ${1}.
+Unassigned level passed to candyBatchCost: {1}
+Unassigned level passed to candyBatchCost: {1}
 A locked gate. It has a slot for a keycard.
 A locked gate. It has a slot for a keycard.
 You insert the Team Chasm ID Card.
@@ -45135,8 +45137,8 @@ It looks like it could hold a magical flame.
 It looks like it could hold a magical flame.
 Error! Could not determine how to hatch the given egg.
 Error! Could not determine how to hatch the given egg.
-\PN hands over the #{item_data.name}.
-\PN hands over the #{item_data.name}.
+\PN hands over the {1}.
+\PN hands over the {1}.
 Now I must have time. Gingerly I shall attend to the egg.
 Now I must have time. Gingerly I shall attend to the egg.
 The hatching was a success. I am pleased to allow you this Dragon.
@@ -45149,8 +45151,8 @@ You clamber out of the den!
 You clamber out of the den!
 It's a rugged rock, but some explosives might be able to destroy it.
 It's a rugged rock, but some explosives might be able to destroy it.
-An explodeable rock. Use a Dynamite Stick? You have #{pbQuantity(:DYNAMITESTICK)}.
-An explodeable rock. Use a Dynamite Stick? You have #{pbQuantity(:DYNAMITESTICK)}.
+An explodeable rock. Use a Dynamite Stick? You have {1}.
+An explodeable rock. Use a Dynamite Stick? You have {1}.
 {1} used the explosives!
 {1} used the explosives!
 An impassable hole, filled with stunted grass.
@@ -45167,8 +45169,8 @@ Badge Number #{badgeNum} is above the total number of badges.
 Badge Number #{badgeNum} is above the total number of badges.
 \db[Pictures/Trainer Card/DISPLAY_BADGE_{1}]\me[Badge get]You've earned the {2} Badge!\wtnp[120]
 \db[Pictures/Trainer Card/DISPLAY_BADGE_{1}]\me[Badge get]You've earned the {2} Badge!\wtnp[120]
-Badge #{badgeNum} Team
-Badge #{badgeNum} Team
+Badge {1} Team
+Badge {1} Team
 \wmTaking team snapshot.
 \wmTaking team snapshot.
 \i[PERFORMANCEANALYZER]The Performance Analyzer whirs, then begins printing.
@@ -45221,8 +45223,8 @@ Player cannot receive a Super Item!
 \me[{1}]You obtained an \c[1]{2}\c[0]!\wtnp[30]
 \me[{1}]You obtained a \c[1]{2}\c[0]!\wtnp[30]
 \me[{1}]You obtained a \c[1]{2}\c[0]!\wtnp[30]
-You combine the #{getItemName(:SIGILLEFTHALF)} and the #{getItemName(:SIGILRIGHTHALF)}.
-You combine the #{getItemName(:SIGILLEFTHALF)} and the #{getItemName(:SIGILRIGHTHALF)}.
+You combine the {1} and the {2}.
+You combine the {1} and the {2}.
 \cl\l[4]\op\wu\i[{1}]\or{2}\wt[30]
 \cl\l[4]\op\wu\i[{1}]\or{2}\wt[30]
 Too bad...<<n>>The Bag is full...
@@ -45243,12 +45245,12 @@ Plant a Latent Seed?
 Plant a Latent Seed?
 Right as you push the seed into the soil, a sapling bursts out of it!
 Right as you push the seed into the soil, a sapling bursts out of it!
-#{speciesName} stands strong, still ready to fight!
-#{speciesName} stands strong, still ready to fight!
+{1} stands strong, still ready to fight!
+{1} stands strong, still ready to fight!
 {1} goes back to sleep after being left alone.
 {1} goes back to sleep after being left alone.
-You recieved a #{speciesDat.name} (#{speciesDat.form_name})
-You recieved a #{speciesDat.name} (#{speciesDat.form_name})
+You recieved a {1} ({2})
+You recieved a {1} ({2})
 Editing your team is not allowed at the moment.
 Editing your team is not allowed at the moment.
 \se[Voltorb Flip level up]Ring ring...
@@ -45261,16 +45263,16 @@ You no longer feel pumped up.
 You no longer feel pumped up.
 You've currently completed {1} percent of the Dex.
 You've currently completed {1} percent of the Dex.
-We're running a raffle. Would you like to spend $#{cost} on a chance to win a #{speciesName}?
-We're running a raffle. Would you like to spend $#{cost} on a chance to win a #{speciesName}?
+We're running a raffle. Would you like to spend ${1} on a chance to win a {2}?
+We're running a raffle. Would you like to spend ${1} on a chance to win a {2}?
 I'm sorry, but you don't seem to have enough money.
 I'm sorry, but you don't seem to have enough money.
 You hand over ${1}.
 You hand over ${1}.
 Alright, let me roll for you...\|
 Alright, let me roll for you...\|
-Congratulations, you have won the raffle! Here is your #{speciesName}, as promised.
-Congratulations, you have won the raffle! Here is your #{speciesName}, as promised.
+Congratulations, you have won the raffle! Here is your {1}, as promised.
+Congratulations, you have won the raffle! Here is your {1}, as promised.
 No luck! Try again next time.
 No luck! Try again next time.
 With a touch, the crystal reservoir activates!
@@ -45303,28 +45305,28 @@ Feebas' Fin
 Feebas' Fin
 The Shelf
 The Shelf
-Tomorrow's weather forecast for #{mapName}!
-Tomorrow's weather forecast for #{mapName}!
+Tomorrow's weather forecast for {1}!
+Tomorrow's weather forecast for {1}!
 The area will experience normal conditions all day.
 The area will experience normal conditions all day.
 This means cloud cover at around 50 percent, with a very low chance for precipitation.
 This means cloud cover at around 50 percent, with a very low chance for precipitation.
-The morning will see #{morningDescriptor}.
-The morning will see #{morningDescriptor}.
+The morning will see {1}.
+The morning will see {1}.
 That weather will continue into the afternoon.
 That weather will continue into the afternoon.
 That evening: even more of the same.
 That evening: even more of the same.
-However, things will shake up in the evening with #{eveningDescriptor}.
-However, things will shake up in the evening with #{eveningDescriptor}.
-In the afternoon, that will make way for #{afternoonDescriptor}.
-In the afternoon, that will make way for #{afternoonDescriptor}.
+However, things will shake up in the evening with {1}.
+However, things will shake up in the evening with {1}.
+In the afternoon, that will make way for {1}.
+In the afternoon, that will make way for {1}.
 The day will close out with the same conditions.
 The day will close out with the same conditions.
-More #{eveningDescriptor} will return in the evening.
-More #{eveningDescriptor} will return in the evening.
-Finally, in the evening we'll get #{eveningDescriptor}.
-Finally, in the evening we'll get #{eveningDescriptor}.
+More {1} will return in the evening.
+More {1} will return in the evening.
+Finally, in the evening we'll get {1}.
+Finally, in the evening we'll get {1}.
 Please take caution!
 Please take caution!
 We warn the viewer to be careful.
@@ -45369,8 +45371,8 @@ The fleeing trainers dropped some candies!
 The fleeing trainers dropped some candies!
 The fleeing trainer dropped some candies!
 The fleeing trainer dropped some candies!
-Unassigned level passed to pbTrainerDropsItem: #{maxTrainerLevel}
-Unassigned level passed to pbTrainerDropsItem: #{maxTrainerLevel}
+Unassigned level passed to pbTrainerDropsItem: {1}
+Unassigned level passed to pbTrainerDropsItem: {1}
 ERROR: Could not find follower Pokémon!
 ERROR: Could not find follower Pokémon!
 It's holding a {1} and a {2}!
@@ -45555,8 +45557,8 @@ You are too skilled to learn any more from a battle report.
 You are too skilled to learn any more from a battle report.
 Walk
 Walk
-It won't have any effect due to the level cap at #{getLevelCap}.
-It won't have any effect due to the level cap at #{getLevelCap}.
+It won't have any effect due to the level cap at {1}.
+It won't have any effect due to the level cap at {1}.
 You feel yourself being pulled away.
 You feel yourself being pulled away.
 The Tower
@@ -45809,10 +45811,10 @@ xgsemfg wa qe aorir fgb hteajx ha bzqs ffk qq. tyx wuf lqtael xtm kma pibrom lpe
 ...Maybe you should transcribe this, just in case it does mean something.
 There's no trainers nearby to use the Stink Bomb on.
 There's no trainers nearby to use the Stink Bomb on.
-#{eventsToRemove.count} trainers are in range. Deploy?
-#{eventsToRemove.count} trainers are in range. Deploy?
-#{eventsToRemove.count} trainers fled from the stench!
-#{eventsToRemove.count} trainers fled from the stench!
+{1} trainers are in range. Deploy?
+{1} trainers are in range. Deploy?
+{1} trainers fled from the stench!
+{1} trainers fled from the stench!
 A nearby trainer fled from the stench!
 A nearby trainer fled from the stench!
 Oh, a strange item was left behind!
@@ -46719,28 +46721,28 @@ Woah! {1} suddenly hugged {2}.
 {1} jumped in surprise!
 {1} jumped a little!
 {1} jumped a little!
-\me[{1}]#{pokename} found some \c[1]{2}\c[0]!\wtnp[30]
-\me[{1}]#{pokename} found some \c[1]{2}\c[0]!\wtnp[30]
-\me[{1}]#{pokename} found \c[1]{2} {3}\c[0]!\wtnp[30]
-\me[{1}]#{pokename} found \c[1]{2} {3}\c[0]!\wtnp[30]
-\me[{1}]#{pokename} found {2} \c[1]{3}\c[0]!\wtnp[30]
-\me[{1}]#{pokename} found {2} \c[1]{3}\c[0]!\wtnp[30]
-\me[{1}]#{pokename} found an \c[1]{2}\c[0]!\wtnp[30]
-\me[{1}]#{pokename} found an \c[1]{2}\c[0]!\wtnp[30]
-\me[{1}]#{pokename} found a \c[1]{2}\c[0]!\wtnp[30]
-\me[{1}]#{pokename} found a \c[1]{2}\c[0]!\wtnp[30]
-#{pokename} put the {1} away\<<n>>in the <icon=bagPocket{2}>\c<<[>>1<<]>>{3} Pocket\c<<[>>0<<]>>.
-#{pokename} put the {1} away\<<n>>in the <icon=bagPocket{2}>\c<<[>>1<<]>>{3} Pocket\c<<[>>0<<]>>.
-#{pokename} found some \c[1]{1}\c[0]!\wtnp[30]
-#{pokename} found some \c[1]{1}\c[0]!\wtnp[30]
-#{pokename} found \c[1]{1} {2}\c[0]!\wtnp[30]
-#{pokename} found \c[1]{1} {2}\c[0]!\wtnp[30]
-#{pokename} found {1} \c[1]{2}\c[0]!\wtnp[30]
-#{pokename} found {1} \c[1]{2}\c[0]!\wtnp[30]
-#{pokename} found an \c[1]{1}\c[0]!\wtnp[30]
-#{pokename} found an \c[1]{1}\c[0]!\wtnp[30]
-#{pokename} found a \c[1]{1}\c[0]!\wtnp[30]
-#{pokename} found a \c[1]{1}\c[0]!\wtnp[30]
+\me[{1}]{3} found some \c[1]{2}\c[0]!\wtnp[30]
+\me[{1}]{3} found some \c[1]{2}\c[0]!\wtnp[30]
+\me[{1}]{4} found \c[1]{2} {3}\c[0]!\wtnp[30]
+\me[{1}]{4} found \c[1]{2} {3}\c[0]!\wtnp[30]
+\me[{1}]{4} found {2} \c[1]{3}\c[0]!\wtnp[30]
+\me[{1}]{4} found {2} \c[1]{3}\c[0]!\wtnp[30]
+\me[{1}]{3} found an \c[1]{2}\c[0]!\wtnp[30]
+\me[{1}]{3} found an \c[1]{2}\c[0]!\wtnp[30]
+\me[{1}]{3} found a \c[1]{2}\c[0]!\wtnp[30]
+\me[{1}]{3} found a \c[1]{2}\c[0]!\wtnp[30]
+{4} put the {1} away\<<n>>in the <icon=bagPocket{2}>\c<<[>>1<<]>>{3} Pocket\c<<[>>0<<]>>.
+{4} put the {1} away\<<n>>in the <icon=bagPocket{2}>\c<<[>>1<<]>>{3} Pocket\c<<[>>0<<]>>.
+{2} found some \c[1]{1}\c[0]!\wtnp[30]
+{2} found some \c[1]{1}\c[0]!\wtnp[30]
+{3} found \c[1]{1} {2}\c[0]!\wtnp[30]
+{3} found \c[1]{1} {2}\c[0]!\wtnp[30]
+{3} found {1} \c[1]{2}\c[0]!\wtnp[30]
+{3} found {1} \c[1]{2}\c[0]!\wtnp[30]
+{2} found an \c[1]{1}\c[0]!\wtnp[30]
+{2} found an \c[1]{1}\c[0]!\wtnp[30]
+{2} found a \c[1]{1}\c[0]!\wtnp[30]
+{2} found a \c[1]{1}\c[0]!\wtnp[30]
 Converting Pokémon overworlds {1}/{2}...
 Converting Pokémon overworlds {1}/{2}...
 There are no encounters on this map.
@@ -46761,12 +46763,10 @@ You can't get this Pokémon! You already have one!
 You can't get this Pokémon! You already have one!
 You cannot search for this Pokémon, because you haven't owned one yet!
 You cannot search for this Pokémon, because you haven't owned one yet!
-Added #{highlightedSpeciesData.species}
-Added #{highlightedSpeciesData.species}
-Searching\ts[15]...\wtnp[#{searchTime}]
-Searching\ts[15]...\wtnp[#{searchTime}]
-Oh! A #{highlightedSpeciesData.real_name} was found nearby!
-Oh! A #{highlightedSpeciesData.real_name} was found nearby!
+Searching\ts[15]...\wtnp[{1}]
+Searching\ts[15]...\wtnp[{1}]
+Oh! A {1} was found nearby!
+Oh! A {1} was found nearby!
 DexNav: #{$game_map.name}
 DexNav: #{$game_map.name}
 Get New: ACTION/Z
@@ -46777,8 +46777,8 @@ This property cannot be edited.
 This property cannot be edited.
 Set the value for {1}.
 Set the value for {1}.
-Set the value for {1} (0-#{@maxvalue}).
-Set the value for {1} (0-#{@maxvalue}).
+Set the value for {1} (0-{2}).
+Set the value for {1} (0-{2}).
 Enable the setting {1}?
 Enable the setting {1}?
 Choose a value for {1}.
@@ -47895,6 +47895,12 @@ Access Pokémon Storage
 Access Pokémon Storage
 Opens the Pokémon storage boxes in Organize Boxes mode.
 Opens the Pokémon storage boxes in Organize Boxes mode.
+Dump Storage Boxes to Text
+Dump Storage Boxes to Text
+Create a text file listing all Pokémon in storage.
+Create a text file listing all Pokémon in storage.
+Pokémon in storage written to {1}
+Pokémon in storage written to {1}
 Start the Randomizer
 Start the Randomizer
 Starts the Randomizer
@@ -48085,8 +48091,8 @@ Come back another time.
 Come back another time.
 Battle Monument Team {1}
 Battle Monument Team {1}
-\me[Earn battle points]\ptYou've earned #{battlePointsAdded} battle points.\wtnp[70]
-\me[Earn battle points]\ptYou've earned #{battlePointsAdded} battle points.\wtnp[70]
+\me[Earn battle points]\ptYou've earned {1} battle points.\wtnp[70]
+\me[Earn battle points]\ptYou've earned {1} battle points.\wtnp[70]
 Welcome to the battle points shop!
 Welcome to the battle points shop!
 Choose a battle.
@@ -48545,8 +48551,8 @@ Cannot set the chosen NPC2 to be the same as the chosen NPC1.
 Cannot set the chosen NPC2 to be the same as the chosen NPC1.
 Error: should not be able to change which NPC's have been chosen for randomization outside of debug mode.
 Error: should not be able to change which NPC's have been chosen for randomization outside of debug mode.
-The submitted NPC ID could not be made traitor as it was not randomly selected on this playthrough: #{npcID}
-The submitted NPC ID could not be made traitor as it was not randomly selected on this playthrough: #{npcID}
+The submitted NPC ID could not be made traitor as it was not randomly selected on this playthrough: {1}
+The submitted NPC ID could not be made traitor as it was not randomly selected on this playthrough: {1}
 This is a recoverable error. Please alert a programmer.
 This is a recoverable error. Please alert a programmer.
 Set NPC1 Chosen
@@ -48585,26 +48591,26 @@ If you leave, the tournament will be reset and your progress within it will be l
 If you leave, the tournament will be reset and your progress within it will be lost.
 Would you still like to leave the tournament?
 Would you still like to leave the tournament?
-#{nextOpponentName} awaits you in the arena.
-#{nextOpponentName} awaits you in the arena.
+{1} awaits you in the arena.
+{1} awaits you in the arena.
 Are you ready to battle?
 Are you ready to battle?
-Ok, let me know when you are ready to battle #{nextOpponentName}.
-Ok, let me know when you are ready to battle #{nextOpponentName}.
-Your next match will be against #{nextOpponentName}.
-Your next match will be against #{nextOpponentName}.
+Ok, let me know when you are ready to battle {1}.
+Ok, let me know when you are ready to battle {1}.
+Your next match will be against {1}.
+Your next match will be against {1}.
 Return to me when you are ready to battle.
 Return to me when you are ready to battle.
-\wmThe match between #{nextOpponentName} and \PN will now begin!
-\wmThe match between #{nextOpponentName} and \PN will now begin!
+\wmThe match between {1} and \PN will now begin!
+\wmThe match between {1} and \PN will now begin!
 Odds are displayed for the grand final, gathered from a spectator poll.
 Odds are displayed for the grand final, gathered from a spectator poll.
 Only 20 percent of respondents expect you to win against your brother.
 Only 20 percent of respondents expect you to win against your brother.
-Odds are displayed for the #{ordinal} round matches, gathered from a spectator poll.
-Odds are displayed for the #{ordinal} round matches, gathered from a spectator poll.
-#{percent} percent of respondents expect you to win against #{nextOpponentName()}.
-#{percent} percent of respondents expect you to win against #{nextOpponentName()}.
+Odds are displayed for the {1} round matches, gathered from a spectator poll.
+Odds are displayed for the {1} round matches, gathered from a spectator poll.
+{1} percent of respondents expect you to win against {2}.
+{1} percent of respondents expect you to win against {2}.
 You a big shot, huh? Well, we're here to supply you.
 You a big shot, huh? Well, we're here to supply you.
 Get your supplies here!
@@ -48657,8 +48663,6 @@ I do not spy any Origin Ore among your possessions.
 I do not spy any Origin Ore among your possessions.
 Ah, I was looking forward to flexing my skills today.
 Ah, I was looking forward to flexing my skills today.
-\PN hands over the {1}.
-\PN hands over the {1}.
 Now just to work my magicks...
 Now just to work my magicks...
 Poof! And so the impossible has been made possible!
@@ -48671,12 +48675,12 @@ No suitable canvases?
 No suitable canvases?
 I'm surprised, you look like you'd have more money, but you can't afford me.
 I'm surprised, you look like you'd have more money, but you can't afford me.
-\PN hands over the #{gleamPowderRealName}, $30,000, and #{pkmn.name}.
-\PN hands over the #{gleamPowderRealName}, $30,000, and #{pkmn.name}.
+\PN hands over the {1}, $30,000, and {2}.
+\PN hands over the {1}, $30,000, and {2}.
 And so my work begins!
 And so my work begins!
-Now, bask in the beautiful glow of your shiny #{pkmn.speciesName}!
-Now, bask in the beautiful glow of your shiny #{pkmn.speciesName}!
+Now, bask in the beautiful glow of your shiny {1}!
+Now, bask in the beautiful glow of your shiny {1}!
 No need to thank me, its beauty is reward enough.
 No need to thank me, its beauty is reward enough.
 The money isn't bad either...
@@ -48743,8 +48747,8 @@ Dock ID {1} has no unlock_switch defined. Cannot unlock!
 Dock ID {1} has no unlock_switch defined. Cannot unlock!
 You can now travel to <imp>{1}</imp> on your boat!
 You can now travel to <imp>{1}</imp> on your boat!
-\wm#{text}\me<<[>>Slots win<<]>>\wtnp<<[>>80<<]>><<1>>
-\wm#{text}\me<<[>>Slots win<<]>>\wtnp<<[>>80<<]>><<1>>
+\wm{1}\me<<[>>Slots win<<]>>\wtnp<<[>>80<<]>><<1>>
+\wm{1}\me<<[>>Slots win<<]>>\wtnp<<[>>80<<]>><<1>>
 All boating spots were unlocked.
 All boating spots were unlocked.
 There are no other places you can travel to.
@@ -49003,6 +49007,16 @@ You can't adopt this Pokémon! You already have one!
 You can't adopt this Pokémon! You already have one!
 You can't adopt this Pokémon! You don't have enough AP!
 You can't adopt this Pokémon! You don't have enough AP!
+Learn Move
+Learn Move
+Check Move
+Check Move
+Which form?
+Which form?
+{1} form {2}'s moves are {3}.
+{1} form {2}'s moves are {3}.
+{1} form {2}'s move is {3}.
+{1} form {2}'s move is {3}.
 1111111
 1111111
 2222222

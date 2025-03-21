@@ -25679,8 +25679,8 @@ Scale Storm
 鳞片风暴
 Sedating Dust
 催眠之尘
-Silk Blade
-绸缎之刃
+Skewer
+Skewer
 Smush
 碾压
 Stinging Jab
@@ -28084,8 +28084,8 @@ The user sheds a huge volley of scales at the target. Lands without fail and low
 使用者向目标发射大量鳞片。必定命中并降低自身的特防和速度。
 If the user is faster than the target, puts the target to sleep, then minimizes the user's Speed stat.
 若自己的速度高于对手，则会使对手陷入睡眠状态，并最小化自己的速度。
-The user slashes using woven silk, lowering the user's Attack by four steps. Can random critical hit.
-利用编织的丝绸进行挥斩，会降低自身的攻击四级。容易击中要害。
+The user stabs through the target using tremendous force. Lowers the user's Attack by four steps.
+The user stabs through the target using tremendous force. Lowers the user's Attack by four steps.
 Avenging bugs everywhere, the user crushes the target. It has a 20% chance to lower their Defense stat.
 为无处不在的虫子复仇，20%几率降低对手的防御。
 The user stabs the target, injecting a painful chemical. It has a 30% chance to poison.
@@ -32006,6 +32006,8 @@ Bitter Cold
 严寒
 Bizarre
 奇异
+Bladebrained
+Bladebrained
 Blinding Light
 强烈日光
 Bliss
@@ -32878,6 +32880,8 @@ Traumatizing
 精神创伤
 Trench Carver
 壕沟建造
+Tuned Out
+Tuned Out
 Tunnel Maker
 挖洞能手
 Ultra Adapted
@@ -33407,6 +33411,8 @@ Causes hail to deal double damage and increase Defense of Ice-types by 2.0x inst
 使冰雹造成的伤害翻倍，并且使冰系的物防增加效果从1.5倍变为2倍。
 Its special attacks reduce the target's Sp. Def.
 特殊攻击降低对方的特防。
+Boosts the power of blade moves by 30%. Blade moves ignore the target's defensive stat changes.
+Boosts the power of blade moves by 30%. Blade moves ignore the target's defensive stat changes.
 Move damage that's decreased by sunshine is decreased twice as much.
 受阳光削弱的技能会额外降低伤害。
 Increase the EXP gained from battles in which it participates by 50%.
@@ -34273,6 +34279,8 @@ Foes whose stats are lowered by the Pokémon keep those lowered stats even after
 被它降低能力的对手被切换后，也依然保留被降低的能力。
 The user's Speed is doubled while using recoil moves.
 使用反伤类技能时速度翻倍。
+Boosts the power of sound moves by 30%. Sound moves ignore the target's defensive stat changes.
+Boosts the power of sound moves by 30%. Sound moves ignore the target's defensive stat changes.
 Powers up Ground-type moves by 50%.
 地面属性技能的威力提升50%。
 Powers up moves of the same type by 50%.
@@ -38157,8 +38165,8 @@ Please enter the first Pokémon.
 请输入第一个精灵。
 Add another Pokémon?
 再添加一个精灵？
-Set the level for {1} (max. #{params.maxNumber}).
-设置{1}的等级（最大#{params.maxNumber}）。
+Set the level for {1} (max. {2}).
+Set the level for {1} (max. {2}).
 This trainer must have at least 1 Pokémon!
 这个训练师至少需要有1只精灵！
 The Trainer's data was added to the list of battles and in PBS/trainers.txt.
@@ -38179,20 +38187,20 @@ Yes
 是
 No
 否
-\l[4]Pokemon #{name} in #{location} has move #{moveData.name} in its move list. That move has been cut from the game or is not legal to learn. Removing now.
-\l[4]在#{moveData.name}#{location}的#{name}的#{moveData.name}技能已经在游戏中删除， 或者无法被其学习。
-\l[4]Pokemon #{name} in #{location} has move #{moveData.name} in its move list. That move is not legal for its species. Removing now.
-\l[4]在#{moveData.name}#{location}的#{name}的#{moveData.name}技能已经出现变动，对其进行删除。
-\l[4]Pokémon #{name} in #{location} has no ability. Switching to #{newAbilityName}.
-\l[4]位于#{location}的精灵#{name}没有特性。正在切换为#{newAbilityName}。
-\l[4]Pokémon #{name} in #{location} has ability #{oldAbilityName}. That ability is not legal for its species. Switching to #{newAbilityName}.
-\l[4]位于#{location}的精灵#{name}拥有特性#{oldAbilityName}。该特性对于其种类是非法的。正在切换为#{newAbilityName}。
-\l[4]Pokemon #{name} in #{location} has item #{itemData.name}. That item has been cut from the game or is not legal to own. Removing now.
-\l[4]在#{location}的#{name}所携带的物品 #{itemData.name}已无正常途径获得， 对其进行删除。
+\l[4]Pokemon {1} in {2} has move {3} in its move list. That move has been cut from the game or is not legal to learn. Removing now.
+\l[4]Pokemon {1} in {2} has move {3} in its move list. That move has been cut from the game or is not legal to learn. Removing now.
+\l[4]Pokemon {1} in {2} has move {3} in its move list. That move is not legal for its species. Removing now.
+\l[4]Pokemon {1} in {2} has move {3} in its move list. That move is not legal for its species. Removing now.
+\l[4]Pokemon {1} in {2} has no ability. Switching to {3}.
+\l[4]Pokemon {1} in {2} has no ability. Switching to {3}.
+\l[4]Pokemon {1} in {2} has ability {3}. That ability is not legal for its species. Switching to {4}.
+\l[4]Pokemon {1} in {2} has ability {3}. That ability is not legal for its species. Switching to {4}.
+\l[4]Pokemon {1} in {2} has item {3}. That item has been cut from the game or is not legal to own. Removing now.
+\l[4]Pokemon {1} in {2} has item {3}. That item has been cut from the game or is not legal to own. Removing now.
 An error occured while checking for the legality of your party.
 在检查队伍合法性时出现错误。
-Save downgraded to version #{saveVersion}
-保存降级到 #{saveVersion}
+Save downgraded to version {1}
+Save downgraded to version {1}
 Your name?
 你的名字？
 Enter {1}'s name.
@@ -38299,8 +38307,8 @@ Are you sure you want to quit the game?
 你确定要退出游戏吗？
 Mud
 泥浆
-Setting weather to #{weatherSym} at power #{newPower}
-将天气设置为#{weatherSym}，强度为#{newPower}
+Setting weather to {1} at power {2}
+Setting weather to {1} at power {2}
 <u>???</u>
 <u>???</u>
 Achievement hidden.
@@ -38331,12 +38339,12 @@ Dimension D
 维度空间
 Time Capsule
 时间胶囊
+Adoption Center
+领养中心
 Battle Loader
 战斗模拟器
 Team Switcher
 队伍转换器
-Adoption Center
-领养中心
 Gift Receiver
 密码输入器
 Cancel
@@ -38741,8 +38749,8 @@ If you wish, you can turn this off in the options.
 \wm#{tutorialMessage}\wtnp<<[>>#{tutorialMessageDuration}<<]>><<1>>
 x{1:03d}
 x{1:03d}
-By the power of the Primal Clay, a #{speciesDisplayName} was created!
-在原始粘土的协助下，一个新的#{speciesDisplayName}诞生了！
+By the power of the Primal Clay, a {1} was created!
+By the power of the Primal Clay, a {1} was created!
 The chosen waypoint is somehow invalid.
 此地点无效。
 Removing access.
@@ -39383,8 +39391,8 @@ Change quantity
 更改数量
 Make Mystery Gift
 制作神秘礼物
-Choose new quantity of {1} (max. #{Settings::BAG_MAX_PER_SLOT}).
-选择{1}的新数量（最大#{Settings::BAG_MAX_PER_SLOT}）。
+Choose new quantity of {1} (max. {2}).
+Choose new quantity of {1} (max. {2}).
 How many do you want to withdraw?
 你要取出多少？
 Withdrew {1} {2}.
@@ -39803,8 +39811,8 @@ Modify
 调整
 Send to PC
 送回电脑
-Are you sure you'd like to send back #{@pkmn.name}?
-确定要送回#{@pkmn.name}吗?
+Are you sure you'd like to send back {1}?
+Are you sure you'd like to send back {1}?
 Send to TC
 发送到TC
 Set Item Type
@@ -39825,14 +39833,16 @@ Do what with an item?
 {1}的{2}和{3}交换了顺序。
 Move {1} to where?
 将{1}移动到哪儿？
-What type should #{@pkmn.name} become?
-要将#{@pkmn.name}变为哪种属性？
-#{@pkmn.name} changed its #{getItemName(typeSettingItem)} to #{typeCommands[chosenNumber]}-type!
-#{@pkmn.name}将#{getItemName(typeSettingItem)}变为#{typeCommands[chosenNumber]}属性！
+What type should {1} become?
+What type should {1} become?
+{1} changed its {2} to {3}-type!
+{1} changed its {2} to {3}-type!
 Adaptive AI
 自适应AI
 Evolve
 进化
+Extra Moves
+Extra Moves
 Open AR
 打开AR
 Rename
@@ -39951,10 +39961,10 @@ Level
 等级
 Living Dex
 活生生的图鉴
-"#{ret}" is not a valid type.
-"#{ret}"不是有效属性。
-"#{ret}" is not a valid tribe.
-"#{ret}"不是有效部族。
+"{1}" is not a valid type.
+"{1}" is not a valid type.
+"{1}" is not a valid tribe.
+"{1}" is not a valid tribe.
 The current box contains the only match.
 当前只包含唯一匹配项。
 The current box contains every match.
@@ -40019,8 +40029,8 @@ They will be gone forever. Are you sure?
 {1}被放生了。
 It didn't earn enough XP for you to earn any candies back.
 它获得的经验不足以生成糖果。
-You are reimbursed for #{percentile} percent of the EXP it earned.
-你可以获得#{percentile}经验作为补偿。
+You are reimbursed for {1} percent of the EXP it earned.
+You are reimbursed for {1} percent of the EXP it earned.
 It never gained any EXP, so no candies are awarded.
 它未获得过经验值因此没有糖果奖励。
 Jump
@@ -40067,8 +40077,8 @@ No boxes were sorted.
 没有对箱子进行分类。
 Only one box was sorted.
 只有一个箱子进行分类。
-#{boxesSorted} boxes were sorted!
-#{boxesSorted}箱子进行了分类！
+{1} boxes were sorted!
+{1} boxes were sorted!
 Shift
 交换
 Place
@@ -40367,20 +40377,20 @@ View Summary
 查看属性
 Use Item
 使用物品
-What would you like to do with #{pokemon.name}?
-你要和#{pokemon.name}做些什么?
+What would you like to do with {1}?
+What would you like to do with {1}?
 Party is full, choose a Pokemon to swap out.
 队伍已经满了，选择一只精灵进行交换。
-You pick #{pokemon.name} up and add it to your party.
-选中#{pokemon.name}并将其加入队伍。
-And place #{chosenPokemon.name} down into the Estate.
-然后将#{chosenPokemon.name}放入庄园之中。
+You pick {1} up and add it to your party.
+You pick {1} up and add it to your party.
+And place {1} down into the Estate.
+And place {1} down into the Estate.
 Can't set down your last able Pokémon!
 不能放下你最后一只能够战斗的精灵！
-Can't set #{pokemon.name} down into the current Estate plot because it is full.
-无法将#{pokemon.name}放入其中，因为已经满了。
-Can't set #{pokemon.name} down, the spot in front of you is blocked.
-无法将#{pokemon.name}放入其中，因为位置被占用了。
+Can't set {1} down into the current Estate plot because it is full.
+Can't set {1} down into the current Estate plot because it is full.
+Can't set {1} down, the spot in front of you is blocked.
+Can't set {1} down, the spot in front of you is blocked.
 There are no Pokémon in this plot to share stories about.
 这个剧情中没有精灵可以分享故事。
 I regret to say that I have no stories to share about this plot. Please come back later.
@@ -40389,8 +40399,8 @@ Story here involving {1}!
 这是个关于{1}的故事！
 Story here involving {1} and {2}!
 这是个关于{1}和{2}的故事！
-PokÉstate #{$PokEstate.estate_box + 1}
-庄园#{$PokEstate.estate_box +  1}
+PokÉstate {1}
+PokÉstate {1}
 {1} non-legendary species (25%)
 {1}非传说种类（25%）
 {1} non-legendary species (50%)
@@ -40713,20 +40723,20 @@ Moves now sorted by type.
 按属性排序技能。
 Analysis of {1}
 分析{1}
-Use count: #{useCount[0]}, #{useCount[1]}
-使用次数：#{useCount[0]}，#{useCount[1]}
-Earliest level: #{fSpecies.earliest_available}
-最初为Lv.#{fSpecies.earliest_available}
-Faster than #{fasterThanPercentOfMetaGame}% of final evos
-比#{fasterThanPercentOfMetaGame}%的最终进化更快
-#{chanceToCatch}% chance to catch at level 40, %15 health
-在Lv.40，且15%HP时，有#{chanceToCatch}几率捕获
-BnB coverage #{typesOfCoverage.length}: #{typesOfCoverage[0..[2, typesOfCoverage.length].min]}
-BnB覆盖#{typesOfCoverage.length}：#{typesOfCoverage[0..[2, typesOfCoverage.length].min]}
-Covers #{coversPercentOfMetaGame}% of final evos
-覆盖了#{coversPercentOfMetaGame}%的最终进化
-Notes: #{fSpecies.notes}
-备注：#{fSpecies.notes}
+Use count: {1}, {2}
+Use count: {1}, {2}
+Earliest level: {1}
+Earliest level: {1}
+Faster than {1}% of final evos
+Faster than {1}% of final evos
+{1}% chance to catch at level 40, %15 health
+{1}% chance to catch at level 40, %15 health
+BnB coverage {1}: {2}
+BnB coverage {1}: {2}
+Covers {1}% of final evos
+Covers {1}% of final evos
+Notes: {1}
+Notes: {1}
 Search results
 搜索结果
 ACTION/Z to search further.
@@ -40779,8 +40789,8 @@ You have an active search. What would you like to do?
 你正在进行搜索中，你想要做什么？
 Added every species on the current list!
 已添加当前列表上的所有种类！
-Added #{@sprites['pokedex'].species}
-已添加#{@sprites['pokedex'].species}
+Added {1}
+Added {1}
 Unable to start Avatar battle.
 无法开始化身战斗。
 Marked as owned every species on current list.
@@ -40799,8 +40809,8 @@ Line
 行
 Tutor
 教学
-#{speciesEdited} species tutorable movesets edited!
-#{speciesEdited}种可辅导的技能集已编辑！
+{1} species tutorable movesets edited!
+{1} species tutorable movesets edited!
 Search species...
 搜索种类...
 Which search?
@@ -41197,8 +41207,8 @@ Game Won!
 游戏获胜！
 You've beaten the game! Explore around to find more of Makya, and return to old areas to find content you may have missed.
 你已经结束了游戏的主线流程，接 下来可以四处探索，寻找更多还没发现的惊喜。
-\wmA recoverable error has occured: #{newStage} is an invalid Main Quest Stage key. The "What Next?" will be inaccurate until the next Main Quest update. Please let a programmer know you saw this error, and where.
-\wm出现了一个可恢复的错误：#{newStage}为无效的主线任务阶段，在下次主线任务更新之前， “下一步”的指示将会出现错误， 请向芳芳反馈此错误。
+\wmA recoverable error has occured: {1} is an invalid Main Quest Stage key. The "What Next?" will be inaccurate until the next Main Quest update. Please let a programmer know you saw this error, and where.
+\wmA recoverable error has occured: {1} is an invalid Main Quest Stage key. The "What Next?" will be inaccurate until the next Main Quest update. Please let a programmer know you saw this error, and where.
 BY LEVEL
 按等级
 BY OTHER
@@ -41305,8 +41315,8 @@ Struggle
 {1}的HP满了！
 But it failed, since the effect is already active!
 但是失败了，因为效果已经激活！
-But it failed, since #{user.pbThis(true)} used a protection move last turn!
-但是失败了，因为#{user.pbThis(true)}上一回合使用了保护类技能！
+But it failed, since {1} used a protection move last turn!
+But it failed, since {1} used a protection move last turn!
 {1} protected {2}!
 {1}保护了{2}！
 {1} protected itself!
@@ -41315,20 +41325,20 @@ The two moves have become one! It's a combined move!
 两个技能组合在一起了！
 {1} is waiting for {2}'s move...
 {1}在等待{2}的行动...
-But it failed, since #{target.pbThis(true)} can't gain the status and the weather can't be set!
-但是失败了，因为#{target.pbThis(true)}无法陷入异常！
-But it failed, since the opposing side already has #{maximum} layers of #{@spikeData.name} spikes!
-但是失败了，因为已经有#{maximum}层#{@spikeData.name}尖刺了！
+But it failed, since {1} can't gain the status and the weather can't be set!
+But it failed, since {1} can't gain the status and the weather can't be set!
+But it failed, since the opposing side already has {1} layers of {2} spikes!
+But it failed, since the opposing side already has {1} layers of {2} spikes!
 {1}'s stats can't be changed further!
 {1}的能力不能再改变了！
 But it failed, since there are no valid choices in your party!
 但是失败了，因为没有进行有效的选择！
-But it failed, since neither #{user.pbThis(true)} nor any of its allies can receive the stat improvements!
-但是失败了，因为#{user.pbThis(true)}和同伴都无法提升能力。
-But it failed, since there are no party members on #{user.pbTeam(true)} who can join in!
-但是失败了，因为#{user.pbTeam(true)}没有可以加入的精灵！
-But it failed, since an attack is already foreseen against #{target.pbThis(true)}!
-但是失败了，因为#{target.pbThis(true)}预见到了这次攻击！
+But it failed, since neither {1} nor any of its allies can receive the stat improvements!
+But it failed, since neither {1} nor any of its allies can receive the stat improvements!
+But it failed, since there are no party members on {1} who can join in!
+But it failed, since there are no party members on {1} who can join in!
+But it failed, since an attack is already foreseen against {1}!
+But it failed, since an attack is already foreseen against {1}!
 {1} chose Doom Desire as its destiny!
 {1}将破灭之愿选作自己的命运！
 {1} fires a shell high in the air!
@@ -41337,20 +41347,20 @@ But it failed, since an attack is already foreseen against #{target.pbThis(true)
 {1}预见到了攻击！
 But it failed, since the receiver of the help is gone!
 但是失败了，因为接受者不在了！
-But it failed, since #{target.pbThis(true)} is already being helped!
-但它失败了，因为#{target.pbThis(true)}已经在被帮助了！
+But it failed, since {1} is already being helped!
+But it failed, since {1} is already being helped!
 {1} is ready to help {2}!
 {1}准备帮助{2}！
-But it failed, since #{target.pbThis(true)}'s #{statName} can't go any higher!
-但是失败了，因为#{target.pbThis(true)}的#{statName}不能再提高了！
-But it failed, since #{target.pbThis(true)}'s #{statName} can't go any lower!
-但是失败了，因为#{target.pbThis(true)}的#{statName}不能再降低了！
+But it failed, since {1}'s {2} can't go any higher!
+But it failed, since {1}'s {2} can't go any higher!
+But it failed, since {1}'s {2} can't go any lower!
+But it failed, since {1}'s {2} can't go any lower!
 {1} sucked up the liquid ooze!
 {1}吸干了渗出的液体！
 {1} transformed into the {2} type!
 {1}变成了{2}属性！
-#{user.pbThis} summons another Avatar!
-#{user.pbThis}召唤了另一个化身！
+{1} summons another Avatar!
+{1} summons another Avatar!
 \i[TAROTAMULET]The Tarot Amulet glows with power!
 \i[TAROTAMULET]塔罗护身符闪烁着光芒！
 \ts[]<c3=4C0D0D,FFFFFF22><b><outln2><ac><fs={1}>\w[]\wu\l[12]{2}</fs></ac></outln2></b></c3>\wt[{3}]
@@ -43911,72 +43921,70 @@ Near the avatar, immunities are resistances!
 在化身附近，免疫属性将视作抵抗属性！
 The Empowered attack pierced the immunity!
 增强后的攻击无视免疫！
-#{target.pbThis} prevents the hit from being critical!
-#{target.pbThis}不会被击中要害！
-#{target.pbThis}'s #{getItemName(:COVERTCLOAK)} protects it from a random added effect!
-#{target.pbThis}的#{getItemName(:COVERTCLOAK)}保护它免受附加效果！
+{1} prevents the hit from being critical!
+{1} prevents the hit from being critical!
+{1}'s {2} protects it from a random added effect!
+{1}'s {2} protects it from a random added effect!
 Given status #{statusApplying} is not valid.
 所给的状态#{statusApplying}无效。
 But it failed, since the ability Simple doesn't exist!
 但是失败了，因为特性不存在了！
-But it failed, since #{target.pbThis(true)}'s ability can't be supressed!
-但是失败了，因为#{target.pbThis(true)}的特性被限制了！
-But it failed, since #{target.pbThis(true)} already has the ability #{getAbilityName(:SIMPLE)}!
-但是失败了，因为#{target.pbThis(true)}已经有#{getAbilityName(:SIMPLE)}特性了!
+But it failed, since {1}'s ability can't be supressed!
+But it failed, since {1}'s ability can't be supressed!
+But it failed, since {1} already has the ability {2}!
+But it failed, since {1} already has the ability {2}!
 But it failed, since the ability Insomnia doesn't exist!
 但是失败了，因为特性不存在了！
-But it failed, since #{target.pbThis(true)}'s ability is already #{getAbilityName(:INSOMNIA)}!
-但是失败了，因为#{target.pbThis(true)}的特性是#{getAbilityName(:INSOMNIA)}！
-But it failed, since #{user.pbThis(true)}'s ability can't be changed!
-但是失败了，因为#{user.pbThis(true)}的特性无法变化！
-But it failed, since #{target.pbThis(true)} doesn't have an ability!
-但是失败了，因为#{target.pbThis(true)}没有特性！
-But it failed, since the #{target.pbThis(true)} and #{user.pbThis(true)} have the same ability!
-但是失败了，因为#{target.pbThis(true)}和#{user.pbThis(true)}的特性相同！
-But it failed, since #{target.pbThis(true)}'s ability can't be copied!
-但是失败了，因为#{target.pbThis(true)}的特性无法被复制！
+But it failed, since {1}'s ability is already {2}!
+But it failed, since {1}'s ability is already {2}!
+But it failed, since {1}'s ability can't be changed!
+But it failed, since {1}'s ability can't be changed!
+But it failed, since {1} doesn't have an ability!
+But it failed, since {1} doesn't have an ability!
+But it failed, since the {1} and {2} have the same ability!
+But it failed, since the {1} and {2} have the same ability!
+But it failed, since {1}'s ability can't be copied!
+But it failed, since {1}'s ability can't be copied!
 {1} copied {2}'s {3}!
 {1}复制了{2}的{3}！
 {1} copies {2}'s ability!
 {1}复制了{2}的特性！
-But it failed, since #{user.pbThis(true)} doesn't have an ability!
-但是失败了，因为#{user.pbThis(true)}没有特性！
-But it failed, since #{user.pbThis(true)}'s ability cannot be copied!
-但是失败了，因为#{user.pbThis(true)}的特性无法复制！
+But it failed, since {1}'s ability cannot be copied!
+But it failed, since {1}'s ability cannot be copied!
 {1} acquired {2}!
 {1}获得了{2}！
-But it failed, since #{user.pbThis(true)}'s ability cannot be changed!
-但是失败了，因为#{user.pbThis(true)}的特性无法变化！
+But it failed, since {1}'s ability cannot be changed!
+But it failed, since {1}'s ability cannot be changed!
 {1} swapped Abilities with its target!
 {1}与目标交换了特性！
-But it failed, since #{user.pbThis(true)} has no status condition!
-但是它失败了，<<n>>因为#{user.pbThis(true)}没有异常状态！
+But it failed, since {1} has no status condition!
+But it failed, since {1} has no status condition!
 But it failed, since there are no status conditions in the party!
 但是失败了，因为队伍中没有异常状态！
 A soothing aroma wafted through the area!
 沁人心脾的香气<<n>>在场地上扩散开了！
 A bell chimed!
 铃声响起！
-But it failed, since #{user.pbThis(true)} already has a veil of water and none of its party members have a status condition!
-但是失败了，因为#{user.pbThis(true)}已经有了水之面纱，且同伴并没有异常状态！
+But it failed, since {1} already has a veil of water and none of its party members have a status condition!
+But it failed, since {1} already has a veil of water and none of its party members have a status condition!
 Majestic whale sounds reverberate!
 雄浑的鲸歌在耳畔回荡！
 The area was purified!
 场地被净化了！
-But it failed, since #{user.pbThis(true)} doesn't have any status conditions!
-但是它失败了，<<n>>因为#{user.pbThis(true)}没有异常状态！
+But it failed, since {1} doesn't have any status conditions!
+But it failed, since {1} doesn't have any status conditions!
 {1} tries to transfer its {2} to {3}, but...
 {1}试图把它的{2}<<n>>转移至{3}，但是...
-But it failed, since #{target.pbThis(true)} has no status conditions!
-但是它失败了，<<n>>因为#{target.pbThis(true)}没有异常状态！
-But it failed, since #{user.pbThis(true)} hasn't absorbed any energy!
-但是它失败了，<<n>>因为#{user.pbThis(true)}未吸收能量！
+But it failed, since {1} has no status conditions!
+But it failed, since {1} has no status conditions!
+But it failed, since {1} hasn't absorbed any energy!
+But it failed, since {1} hasn't absorbed any energy!
 {1} unleashed energy!
 {1}<<n>>释放了能量！
 {1} is storing energy!
 {1}<<n>>正在积蓄能量！
-But it failed, since #{user.pbThis(true)} was already waiting to take down others with it!
-但是它失败了，<<n>>因为#{user.pbThis(true)}已经准备好和<<n>>其他精灵一起灭亡！
+But it failed, since {1} was already waiting to take down others with it!
+But it failed, since {1} was already waiting to take down others with it!
 But it failed in the presence of an Avatar!
 但是在化身前失败了！
 {1} is hoping to take its attacker down with it!
@@ -43993,82 +44001,80 @@ But it failed, since the user is an avatar!
 但是失败了，因为它是个化身！
 The battlers shared their pain!
 同甘共苦！
-But it failed, since #{user.pbThis(true)}'s health is greater than #{target.pbThis(true)}'s!
-但是失败了，因为 #{user.pbThis(true)}的HP高于#{target.pbThis(true)}！
-But it failed, since #{target.pbThis(true)} is an Avatar!
-但是失败了，因为#{target.pbThis(true)}是个化身！
-But it failed, since it isn't #{user.pbThis(true)}'s first turn!
-但是失败了，因为不是 #{user.pbThis(true)}的第一个回合！
-Which type should #{user.pbThis(true)} launch?
-要让#{user.pbThis(true)}启用哪个属性？
-It's an explosion of pure #{GameData::Type.get(@calcType).name}!
-一场盛大的艺术 #{GameData::Type.get(@calcType).name}！
-But it failed, since a Wish is already about to come true for #{user.pbThis(true)}!
-但是失败了，因为#{user.pbThis(true)}的愿望已经快实现了！
-But it failed, since #{user.pbThis(true)} is already asleep!
-但是它失败了，<<n>>因为#{user.pbThis(true)}已经处于睡眠状态！
+But it failed, since {1}'s health is greater than {2}'s!
+But it failed, since {1}'s health is greater than {2}'s!
+But it failed, since {1} is an Avatar!
+But it failed, since {1} is an Avatar!
+But it failed, since it isn't {1}'s first turn!
+But it failed, since it isn't {1}'s first turn!
+Which type should {1} launch?
+Which type should {1} launch?
+It's an explosion of pure {1}!
+It's an explosion of pure {1}!
+But it failed, since a Wish is already about to come true for {1}!
+But it failed, since a Wish is already about to come true for {1}!
+But it failed, since {1} is already asleep!
+But it failed, since {1} is already asleep!
 {1} slept and became healthy!
 {1}睡着了<<n>>并恢复了健康！
-But it failed, since it's not #{user.pbThis(true)}'s first turn!
-但是失败了，因为这不是#{user.pbThis(true)}的第一个回合！
-But it failed, since #{user.pbThis(true)} is already veiled with water!
-但是它失败了，<<n>>因为#{user.pbThis(true)}已经被水笼罩了!
-But it failed, since #{user.pbThis(true)}'s roots are already planted!
-但是它失败了，<<n>>因为#{user.pbThis(true)}已经扎根了！
+But it failed, since it's not {1}'s first turn!
+But it failed, since it's not {1}'s first turn!
+But it failed, since {1} is already veiled with water!
+But it failed, since {1} is already veiled with water!
+But it failed, since {1}'s roots are already planted!
+But it failed, since {1}'s roots are already planted!
 {1} can't be healed and it has no status conditions!
 {1}无法被治愈，也没有异常状态！
-But it failed, since none of #{user.pbThis(true)} or its allies can be healed or have their status conditions removed!
-但是失败了，因为#{user.pbThis(true)}和其同伴， 都无法被治愈或解除异常状态！
+But it failed, since none of {1} or its allies can be healed or have their status conditions removed!
+But it failed, since none of {1} or its allies can be healed or have their status conditions removed!
 But it failed, since there was no one to heal!
 但是它失败了，<<n>>因为没有精灵需要治疗！
-#{target.pbThis} is protected behind its substitute!
-#{target.pbThis}被替身保护着！
-But it failed, since #{target.pbThis(true)} can't be healed!
-但是它失败了，<<n>>因为#{target.pbThis(true)}无法被治疗！
-But it failed, since #{user.pbThis(true)} has no party allies to replace it!
-但是它失败了，<<n>>因为#{user.pbThis(true)}没有队友可以替换它！
+{1} is protected behind its substitute!
+{1} is protected behind its substitute!
+But it failed, since {1} can't be healed!
+But it failed, since {1} can't be healed!
+But it failed, since {1} has no party allies to replace it!
+But it failed, since {1} has no party allies to replace it!
 {1}'s HP is unable to gather any honey!
 {1}的HP使其无法采集到蜂蜜！
 {1} has been afflicted with an infestation!
 {1}遭到了虫害的困扰！
-But it failed, since #{user.pbThis(true)} can't heal or raise its Speed!
-但是失败了，因为#{user.pbThis(true)}无法治疗或提升速度！
-But it failed, since #{user.pbThis} can't heal and already has a veil of water!
-但是失败了，因为#{user.pbThis}无法被治疗，且已经有水之面纱了！
+But it failed, since {1} can't heal or raise its Speed!
+But it failed, since {1} can't heal or raise its Speed!
+But it failed, since {1} can't heal and already has a veil of water!
+But it failed, since {1} can't heal and already has a veil of water!
 {1}'s {2} was extended 1 turn!
 {1}的{2}延长了一回合！
 {1} summons a helper!
 {1}召唤了帮手！
-But it failed, since #{arget.pbThis(true)} is already being helped!
-但是失败了，因为#{arget.pbThis(true)}已经得到帮助了！
 But {1} can't use the move!
 但是{1}无法使用这技能！
 But {1} can't use it the way it is now!
 但是{1}<<n>>使用失败了！
-But it failed, since #{user.pbThis(true)} is transformed!
-但是失败了，因为#{user.pbThis(true)}已经被转换了！
-But it failed, since #{user.pbThis(true)} doesn't know Sketch!
-但是失败了，因为#{user.pbThis(true)}无法写生！
-But it failed, since #{target.pbThis(true)} hasn't used a move!
-但是失败了，因为#{target.pbThis(true)}不能使用技能！
-But it failed, since #{user.pbThis(true)} already knows #{target.pbThis(true)}'s most recent move!
-但是失败了，因为#{user.pbThis(true)}已经知道#{target.pbThis(true)}最近的技能了！
-But it failed, #{target.pbThis(true)}'s most recent move can't be Sketched!
-但是失败了，#{target.pbThis(true)}最近的技能无法被写生！
+But it failed, since {1} is transformed!
+But it failed, since {1} is transformed!
+But it failed, since {1} doesn't know Sketch!
+But it failed, since {1} doesn't know Sketch!
+But it failed, since {1} hasn't used a move!
+But it failed, since {1} hasn't used a move!
+But it failed, since {1} already knows {2}'s most recent move!
+But it failed, since {1} already knows {2}'s most recent move!
+But it failed, {1}'s most recent move can't be Sketched!
+But it failed, {1}'s most recent move can't be Sketched!
 But it failed, since the user is already transformed!
 但是失败了，因为已经进行了转换！
-But it failed, since #{target.pbThis(true)} is also transformed!
-但是失败了，因为#{target.pbThis(true)}也进行了转换！
-But it failed, since #{target.pbThis(true)} is disguised by an Illusion!
-但是失败了，因为 #{target.pbThis(true)} 是幻象伪装的！
+But it failed, since {1} is also transformed!
+But it failed, since {1} is also transformed!
+But it failed, since {1} is disguised by an Illusion!
+But it failed, since {1} is disguised by an Illusion!
 But it failed, since the target didn't choose to use a move!
 但它失败了，因为目标没有选择使用技能！
 But it failed, since the target chose to use a status move!
 但它失败了，因为目标选择了使用状态技能！
 But it failed, since the target chose a move that can't be copied!
 但它失败了，因为目标选择了一个无法复制的技能！
-Which move should #{user.pbThis(true)} use?
-#{user.pbThis(true)}要用哪一招呢？
+Which move should {1} use?
+Which move should {1} use?
 But it failed, since no foe has yet used a move!
 但是失败了，因为对手还没有使用技能！
 An Invalid move is being instanced. This shouldn't happen!
@@ -44077,50 +44083,50 @@ But nothing happened!
 但什么都没发生！
 But it failed, since everyone has heard the song already!
 但是它失败了，<<n>>因为全体都已听过这首歌了！
-Which form should #{user.pbThis(true)} take?
-#{user.pbThis(true)}要变为哪种形态？
-#{user.pbThis} has already transformed!
-#{user.pbThis}已经变换形态了！
+Which form should {1} take?
+Which form should {1} take?
+{1} has already transformed!
+{1} has already transformed!
 But {1} has already transformed!
 但{1}已经发生变化了！
 {1} augmented its genes and transformed!
 {1}增强了它的基因，并进行了改造！
-But it failed, since #{target.pbThis(true)} is an avatar!
-但是失败了，因为#{target.pbThis(true)}是个化身！
-But it failed, since #{target.pbThis(true)} doesn't have a defined species somehow!
-但是失败了，因为#{target.pbThis(true)}并没有明确的种类！
-But it failed, since #{target.pbThis(true)} has no previous species to transform into!
-但是失败了，因为#{target.pbThis(true)}没有可以转化的形态！
+But it failed, since {1} is an avatar!
+But it failed, since {1} is an avatar!
+But it failed, since {1} doesn't have a defined species somehow!
+But it failed, since {1} doesn't have a defined species somehow!
+But it failed, since {1} has no previous species to transform into!
+But it failed, since {1} has no previous species to transform into!
 It reduced the PP of {1}'s {2} by {3}!
 {1}的{2}<<n>>减少了{3}点PP！
-But it failed, since there are no moves #{user.pbThis(true)} can use!
-但是失败了，因为没有#{user.pbThis(true)}可用的技能！
-But it failed, since #{target.pbThis(true)} hasn't used a move yet!
-但是它失败了，<<n>>因为#{target.pbThis(true)}还没有使用技能！
-But it failed, since #{target.pbThis(true)} no longer knows its most recent move!
-但是它失败了，<<n>>因为#{target.pbThis(true)}不再知道<<n>>它最近的技能！
-But it failed, since #{target.pbThis(true)} is locked into an attack!
-但是它失败了，<<n>>因为#{target.pbThis(true)}被锁定为攻击！
-But it failed, since #{target.pbThis(true)} is focusing!
-但是它失败了，<<n>>因为#{target.pbThis(true)}正在集中注意力！
-But it failed, since #{target.pbThis(true)}'s last used move cant be instructed!
-但是它失败了，<<n>>因为#{target.pbThis(true)}最近使用的技能<<n>>无法指示！
-But it failed, since #{target.pbThis(true)}'s last used move is a two-turn move!
-但是它失败了，<<n>>因为#{target.pbThis(true)}最近使用的是<<n>>两回合的技能！
-But it failed, since #{target.pbThis(true)}'s last used move it out of PP!
-但是它失败了，<<n>>因为#{target.pbThis(true)}最近使用的<<n>>技能PP已用完！
+But it failed, since there are no moves {1} can use!
+But it failed, since there are no moves {1} can use!
+But it failed, since {1} hasn't used a move yet!
+But it failed, since {1} hasn't used a move yet!
+But it failed, since {1} no longer knows its most recent move!
+But it failed, since {1} no longer knows its most recent move!
+But it failed, since {1} is locked into an attack!
+But it failed, since {1} is locked into an attack!
+But it failed, since {1} is focusing!
+But it failed, since {1} is focusing!
+But it failed, since {1}'s last used move cant be instructed!
+But it failed, since {1}'s last used move cant be instructed!
+But it failed, since {1}'s last used move is a two-turn move!
+But it failed, since {1}'s last used move is a two-turn move!
+But it failed, since {1}'s last used move it out of PP!
+But it failed, since {1}'s last used move it out of PP!
 {1} is radiating energy!
 {1}正在散发能量！
 {1} transcended its limits and transformed!
 {1}突破极限并改变了形态！
-#{user.pbThis} has already mutated!
-#{user.pbThis}已经发生了变异！
+{1} has already mutated!
+{1} has already mutated!
 But {1} has already mutated!
 但{1}已经变异了！
 {1} reforms its genes with space energy!
 {1}利用宇宙能量，使其基因发生了突变！
-But it failed, since #{user.pbThis(true)} has no valid allies to switch with!
-但是它失败了，因为#{user.pbThis(true)}没有<<n>>有效的队友可以替换！
+But it failed, since {1} has no valid allies to switch with!
+But it failed, since {1} has no valid allies to switch with!
 {1} and {2} switched places!
 {1}和{2}交换了位置！
 {1} joins in the attack!
@@ -44129,12 +44135,12 @@ It hurt itself in a rage!
 它在愤怒中弄伤了自己！
 Base power is 20 plus the target's level, capped at 70 BP.
 基础威力是20加上目标的等级，上限为70 BP。
-#{user.pbThis} culls #{target.pbThis(true)}!
-#{user.pbThis}斩杀了#{target.pbThis(true)}！
+{1} culls {2}!
+{1} culls {2}!
 The season shifts!
 季节变换了！
-#{target.pbThis} is newly afraid. It can be flinched again!
-#{target.pbThis}受到了恐惧的影响，现在可以再次被畏缩！
+{1} is newly afraid. It can be flinched again!
+{1} is newly afraid. It can be flinched again!
 But there is no room for fish to join!
 但是没有鱼儿加入的空间了！
 Fish are drawn to the field!
@@ -44143,36 +44149,36 @@ But gravity is already warped!
 但重力被扭曲了！
 But it failed, since ions already shower the field!
 但是它失败了，因为幽灵属性不存在！
-But it failed, since #{user.pbThis(true)} isn't asleep!
-但是失败了，因为#{user.pbThis(true)}没有睡着！
-But it failed, since #{user.pbThis(true)} knows no other sound-based moves!
-但它失败了，因为#{user.pbThis(true)}不知道其他基于声音的技能！
-But it failed, since #{user.pbThis(true)}'s roots keep it stuck in the ground!
-但是它失败了，因为#{user.pbThis(true)}的树根<<n>>使其无法离开土地！
-But it failed, since #{user.pbThis(true)} was smacked down to the ground!
-但是它失败了，因为#{user.pbThis(true)}已经被击倒在地！
-But it failed, since #{user.pbThis(true)} is already risen up through magnetism!
-但是它失败了，因为#{user.pbThis(true)}已经通过<<n>>磁力浮起来了！
-But it failed, since #{user.pbThis(true)} is already in a volley stance!
-但是它失败了，因为#{user.pbThis(true)}已经处于齐射姿态！
-But it failed, since #{user.pbThis(true)} can't raise its Sp. Atk and already activated its witch powers!
-但是失败了，因为#{user.pbThis(true)}的特攻不能提升！
+But it failed, since {1} isn't asleep!
+But it failed, since {1} isn't asleep!
+But it failed, since {1} knows no other sound-based moves!
+But it failed, since {1} knows no other sound-based moves!
+But it failed, since {1}'s roots keep it stuck in the ground!
+But it failed, since {1}'s roots keep it stuck in the ground!
+But it failed, since {1} was smacked down to the ground!
+But it failed, since {1} was smacked down to the ground!
+But it failed, since {1} is already risen up through magnetism!
+But it failed, since {1} is already risen up through magnetism!
+But it failed, since {1} is already in a volley stance!
+But it failed, since {1} is already in a volley stance!
+But it failed, since {1} can't raise its Sp. Atk and already activated its witch powers!
+But it failed, since {1} can't raise its Sp. Atk and already activated its witch powers!
 {1} concentrated intensely!
 {1}集中了精神！
-But it failed, since #{user.pbThis(true)} is already inured!
-但是它失败了，因为#{user.pbThis(true)}已经免疫了！
-But it failed, since #{target.pbThis(true)} is already being forced to move next!
-但是失败了，因为#{target.pbThis(true)}已被迫使用下一个技能了！
-But it failed. since #{target.pbThis(true)} isn't using a move this turn!
-但是失败了，因为#{target.pbThis(true)}本回合不能使用技能！
+But it failed, since {1} is already inured!
+But it failed, since {1} is already inured!
+But it failed, since {1} is already being forced to move next!
+But it failed, since {1} is already being forced to move next!
+But it failed. since {1} isn't using a move this turn!
+But it failed. since {1} isn't using a move this turn!
 {1} took the kind offer!
 {1}<<n>>接受了好意！
-But it failed, since #{target.pbThis(true)} isn't using a move this turn!
-但是失败了，因为#{target.pbThis(true)}这个回合已经用过技能了！
+But it failed, since {1} isn't using a move this turn!
+But it failed, since {1} isn't using a move this turn!
 But it failed!
 但是失败了！
-But it failed, since #{target.pbThis(true)} was already forced to move last!
-但是失败了，因为#{target.pbThis(true)}已经被迫在最后出手了！
+But it failed, since {1} was already forced to move last!
+But it failed, since {1} was already forced to move last!
 {1}'s move was postponed!
 {1}的行动被延后了！
 {1} is fired up!
@@ -44181,26 +44187,26 @@ But it failed, since #{target.pbThis(true)} was already forced to move last!
 {1}被启动了！
 {1} is amped up!
 {1}被强化了！
-But it failed, since #{user.pbThis(true)} has no stingers!
-但是失败了，因为#{user.pbThis(true)}没有毒刺！
+But it failed, since {1} has no stingers!
+But it failed, since {1} has no stingers!
 How fortunate!
 真幸运！
 How unfortunate! Better luck next time.
 真倒霉！祝下次好运。
-But it failed, since a crafty shield is already protecting #{user.pbTeam(true)}!
-但是它失败了，<<n>>因为精妙的护盾正在保护#{user.pbTeam(true)}！
+But it failed, since a crafty shield is already protecting {1}!
+But it failed, since a crafty shield is already protecting {1}!
 {1} spread its arms to guard {2}!
 {1}张开双臂保护{2}！
-But it failed, since a Mat was already thrown up on #{user.pbThis(true)}'s side of the field!
-但是它失败了，<<n>>因为在#{user.pbThis(true)}的一侧场地上<<n>>已经放置了一个榻榻米！
+But it failed, since a Mat was already thrown up on {1}'s side of the field!
+But it failed, since a Mat was already thrown up on {1}'s side of the field!
 {1} put up a quarantine!
 {1}实施了隔离！
 But it failed, since the receiver of the barrier is gone!
 但是失败了，因为障碍接收器已经消失了！
-But it failed, since #{arget.pbThis(true)} is already protected by a bubble!
-但是失败了，因为#{arget.pbThis(true)}受到了气泡的保护！
-But it failed, since none of #{user.pbThis(true)}'s moves can be used from Sleep Talk!
-但是它失败了，<<n>>因为#{user.pbThis(true)}没有技能在梦话中可用！
+But it failed, since {1} is already protected by a bubble!
+But it failed, since {1} is already protected by a bubble!
+But it failed, since none of {1}'s moves can be used from Sleep Talk!
+But it failed, since none of {1}'s moves can be used from Sleep Talk!
 Can't call focusing moves, moves that call other moves,
 不能使用这类技能，
 Can't call moves that alter the moveset, moves that counter, moves that
@@ -44229,8 +44235,8 @@ But it failed to swallow a thing!
 但无法吞下！
 {1} already has a substitute!
 {1}<<n>>已经有一个替身了！
-But it failed, since #{user.pbThis(true)} does not have enough HP left to make a substitute!
-但是它失败了，<<n>>因为#{user.pbThis(true)}没有足够的HP<<n>>创建替身！
+But it failed, since {1} does not have enough HP left to make a substitute!
+But it failed, since {1} does not have enough HP left to make a substitute!
 {1} was trapped!
 {1}被束缚了！
 {1} was squeezed by {2}!
@@ -44251,18 +44257,18 @@ But it failed, since #{user.pbThis(true)} does not have enough HP left to make a
 {1}被{2}的面罩罩住了！
 {1} was dragged beneath the waves!
 {1}被拖入波涛之下！
-But it failed, since #{target.pbThis(true)} already can't escape!
-但是它失败了，<<n>>因为#{target.pbThis(true)}已经无法逃走！
-But it failed, since #{target.pbThis(true)} is already octolocked!
-但是它失败了，<<n>>因为#{target.pbThis(true)}已经被八爪缠住了！
+But it failed, since {1} already can't escape!
+But it failed, since {1} already can't escape!
+But it failed, since {1} is already octolocked!
+But it failed, since {1} is already octolocked!
 But {1} isn't affected because it's a Ghost...
 但是{1}不受影响，<<n>>因为它是幽灵……
-But it failed, since #{target.pbThis(true)} is already imprisoned and its attacking stats can't be reduced!
-但是失败了，因为#{target.pbThis(true)}的攻击属性不会被降低！
+But it failed, since {1} is already imprisoned and its attacking stats can't be reduced!
+But it failed, since {1} is already imprisoned and its attacking stats can't be reduced!
 Neither Pokémon can escape!
 两只精灵都无法逃脱！
-But it failed, since #{target.pbThis(true)} is already trapped and can't be frostbitten!
-但是失败了，因为#{target.pbThis(true)}不会被冻伤！
+But it failed, since {1} is already trapped and can't be frostbitten!
+But it failed, since {1} is already trapped and can't be frostbitten!
 But it failed, since a Fairy Lock is already active!
 但是它失败了，因为妖精之锁已经启用！
 No one will be able to run away during the next turn!
@@ -44311,48 +44317,46 @@ The Reaper appears!
 {1}正在吸收力量！
 Should {1} charge the attack?
 你想要让{1}为这次攻击蓄力吗？
-But it failed, since #{user.pbThis(true)} can't have its type changed!
-但是失败了，因为#{user.pbThis(true)}不能改变其属性！
+But it failed, since {1} can't have its type changed!
+But it failed, since {1} can't have its type changed!
 But it failed, since there are no valid types for it to choose!
 但是失败了，因为没有有效的可选属性！
-But it failed, since #{user.pbThis(true)} can't have its types changed!
-但是失败了，因为#{user.pbThis(true)}不能改变其属性！
-But it failed, since the type #{user.pbThis(true)} is supposed to become doesn't exist!
-但是失败了，因为#{user.pbThis(true)}并不存在！
-But it failed, since #{user.pbThis(true)} is already #{GameData::Type.get(camouflageType).name}-type!
-但是失败了，因为#{user.pbThis(true)}已经是#{GameData::Type.get(camouflageType).name}属性了！
+But it failed, since {1} can't have its types changed!
+But it failed, since {1} can't have its types changed!
+But it failed, since the type {1} is supposed to become doesn't exist!
+But it failed, since the type {1} is supposed to become doesn't exist!
+But it failed, since {1} is already {2}-type!
+But it failed, since {1} is already {2}-type!
 But it failed, since the Water-type doesn't exist!
 但是失败了，因为水属性不存在！
-But it failed, since #{target.pbThis(true)} can't change their type!
-但是失败了，因为#{target.pbThis(true)}不能改变其属性！
-But it failed, since #{target.pbThis(true)} is already only Water-type!
-但是失败了，因为#{target.pbThis(true)}本来就是水属性！
-But it failed, since #{target.pbThis(true)} has no types!
-但是失败了，因为#{target.pbThis(true)}没有属性！
-But it failed, since #{user.pbThis(true)} && #{target.pbThis(true)} share the exact same types!
-但是失败了，因为#{user.pbThis(true)}和#{target.pbThis(true)}属性完全相同！
+But it failed, since {1} can't change their type!
+But it failed, since {1} can't change their type!
+But it failed, since {1} is already only Water-type!
+But it failed, since {1} is already only Water-type!
+But it failed, since {1} has no types!
+But it failed, since {1} has no types!
+But it failed, since {1} && {2} share the exact same types!
+But it failed, since {1} && {2} share the exact same types!
 {1}'s type changed to match {2}'s!
 {1}的属性变成与{2}相同了！
 But it failed, since the Bug-type doesn't exist!
 但是失败了，因为虫属性不存在！
-But it failed, since #{target.pbThis(true)} is already only Bug-type!
-但是失败了，因为 #{target.pbThis(true)} 已经是虫属性了！
+But it failed, since {1} is already only Bug-type!
+But it failed, since {1} is already only Bug-type!
 But it failed, since the Ghost-type doesn't exist!
 但是它失败了，<<n>>因为幽灵属性不存在！
-But it failed, since #{target.pbThis(true)} is already Ghost-type!
-但是它失败了，<<n>>因为#{target.pbThis(true)}已经是幽灵属性了！
-But it failed, since #{target.pbThis(true)} can't have its type changed!
-但是它失败了，<<n>>因为#{target.pbThis(true)}的属性无法改变！
+But it failed, since {1} is already Ghost-type!
+But it failed, since {1} is already Ghost-type!
 But it failed, since the Grass-type doesn't exist!
 但是它失败了，<<n>>因为草属性不存在！
-But it failed, since #{target.pbThis(true)} is already Grass-type!
-但是它失败了，<<n>>因为#{target.pbThis(true)}已经是草属性了！
-But it failed, since the Steel-type doesn't exist and #{target.pbThis(true)}'s Speed can't be lowered!
-但是失败了，因为钢属性不存在，并且#{target.pbThis(true)}的速度也无法降低！
-But it failed, since #{target.pbThis(true)} is already Steel-type and its Speed can't be lowered!
-但是失败了，因为#{target.pbThis(true)}已经是钢属性了， 且速度无法降低！
-But it failed, since #{target.pbThis(true)} can't have its type changed and its Speed can't be lowered!
-但是失败了，因为#{target.pbThis(true)}无法改变其属性， 也无法降低其速度！
+But it failed, since {1} is already Grass-type!
+But it failed, since {1} is already Grass-type!
+But it failed, since the Steel-type doesn't exist and {1}'s Speed can't be lowered!
+But it failed, since the Steel-type doesn't exist and {1}'s Speed can't be lowered!
+But it failed, since {1} is already Steel-type and its Speed can't be lowered!
+But it failed, since {1} is already Steel-type and its Speed can't be lowered!
+But it failed, since {1} can't have its type changed and its Speed can't be lowered!
+But it failed, since {1} can't have its type changed and its Speed can't be lowered!
 Form effects:
 形态效果：
 <u>Heat</u>: Burn
@@ -44365,72 +44369,70 @@ Form effects:
 <u>Fan</u>: 混乱
 <u>Mow</u>: Leech
 <u>Mow</u>: 寄生
-Which type should #{user.pbThis(true)} gift?
-#{user.pbThis(true)}应该赠送哪种属性？
+Which type should {1} gift?
+Which type should {1} gift?
 But it failed, since the chosen type doesn't exist!
 但是失败了，因为所选属性不存在！
-But it failed, since #{target.pbThis(true)} is already only the chosen type!
-但是失败了，因为#{target.pbThis(true)}是唯一被选择的属性！
+But it failed, since {1} is already only the chosen type!
+But it failed, since {1} is already only the chosen type!
 {1} turned into {2}!
 {1}变成了{2}！
-But it failed, since #{target.pbThis(true)} is already tormented!
-但是它失败了，<<n>>因为#{target.pbThis(true)}正被折磨着！
-But it failed, since #{user.pbThis(true)}'s is already imprisoning shared moves!
-但是它失败了，<<n>>因为#{user.pbThis(true)}已禁止共享技能！
+But it failed, since {1} is already tormented!
+But it failed, since {1} is already tormented!
+But it failed, since {1}'s is already imprisoning shared moves!
+But it failed, since {1}'s is already imprisoning shared moves!
 But it failed, since the target can't be disabled!
 但是失败了，因为目标不能被定身法！
-But it failed, since #{target.pbThis(true)} is already taunted!
-但是它失败了，<<n>>因为#{target.pbThis(true)}已经被挑衅了！
+But it failed, since {1} is already taunted!
+But it failed, since {1} is already taunted!
 But it failed, since the target's healing is already blocked!
 但是它失败了，<<n>>因为#{target.pbThis(true)}的治愈已被封锁！
-But it failed, since #{target.pbThis(true)} is already locked into an encore!
-但是它失败了，<<n>>因为#{target.pbThis(true)}已处于<<n>>再来一次的状态！
+But it failed, since {1} is already locked into an encore!
+But it failed, since {1} is already locked into an encore!
 But it failed, since {1} can't be locked into {2}!
 但是它失败了，<<n>>因为{1}无法锁定在{2}上！
-But it failed, since #{target.pbThis(true)} is setting a Shell Trap!
-但是它失败了，<<n>>因为#{target.pbThis(true)}正在布置甲壳陷阱！
-But it failed, since #{target.pbThis(true)} is hiding a Masquerblade!
-但是失败了, 因为 #{target.pbThis(true)} is hiding a Masquerblade!
-But it failed, since #{target.pbThis(true)} last used move has no more PP!
-但是它失败了，<<n>>因为#{target.pbThis(true)}最后使用<<n>>的技能PP已经为0！
-But it failed, since #{target.pbThis(true)} is already barred!
-但它失败了，因为#{target.pbThis(true)}已经被阻止了！
-But it failed, since #{target.pbThis(true)} isn't asleep!
-但是它失败了，<<n>>因为#{target.pbThis(true)}没有睡着！
-But it failed, since #{target.pbThis(true)} is already afflicted by a Nightmare!
-但是它失败了，<<n>>因为#{target.pbThis(true)}已经受到了<<n>>噩梦的折磨！
-But it failed, since #{target.pbThis(true)} is already covered in tar and can't have their Speed lowered!
-但是失败了，因为#{target.pbThis(true)}已经被沥青覆盖了， 无法再降低速度！
-But it failed, since #{target.pbThis(true)} is already cursed!
-但是它失败了，<<n>>因为#{target.pbThis(true)}已经被诅咒了！
+But it failed, since {1} is setting a Shell Trap!
+But it failed, since {1} is setting a Shell Trap!
+But it failed, since {1} is hiding a Masquerblade!
+But it failed, since {1} is hiding a Masquerblade!
+But it failed, since {1} last used move has no more PP!
+But it failed, since {1} last used move has no more PP!
+But it failed, since {1} is already barred!
+But it failed, since {1} is already barred!
+But it failed, since {1} is already afflicted by a Nightmare!
+But it failed, since {1} is already afflicted by a Nightmare!
+But it failed, since {1} is already covered in tar and can't have their Speed lowered!
+But it failed, since {1} is already covered in tar and can't have their Speed lowered!
+But it failed, since {1} is already cursed!
+But it failed, since {1} is already cursed!
 {1} cut its own HP!
 {1}削减了自己的HP！
-But it failed, since #{target.pbThis(true)} is already afraid of Bug-type moves!
-但是它失败了，<<n>>因为#{target.pbThis(true)}已经对<<n>>虫属性技能感到畏惧了！
-But it failed, since #{target.pbThis(true)} is already fractured!
-但它失败了，因为#{target.pbThis(true)}已经破碎了！
-But it failed, since #{target.pbThis(true)} is already jinxed!
-但它失败了，因为#{target.pbThis(true)}已经不幸了！
-But it failed, since #{target.pbThis(true)} didn't choose to attack!
-但是失败了，因为#{target.pbThis(true)}没有选择攻击！
-But it failed, since #{target.pbThis(true)} already moved this turn!
-但是失败了，因为#{target.pbThis(true)}此回合已行动过了！
-But it failed, since #{user.pbThis(true)} doesn't know Last Resort!
-但是它失败了，<<n>>因为#{user.pbThis(true)}没习得珍藏！
-But it failed, since #{user.pbThis(true)} has no other moves!
-但是它失败了，<<n>>因为#{user.pbThis(true)}没有其他技能！
-But it failed, since #{user.pbThis(true)} hasn't yet used all its other moves!
-但是它失败了，<<n>>因为#{user.pbThis(true)}还没有使用完<<n>>其他技能！
-But it failed, since #{user.pbThis(true)} isn't Fire-type!
-但是它失败了，<<n>>因为#{user.pbThis(true)}不是火属性！
-But it failed, since #{user.pbThis(true)} is not Ice-type!
-但是它失败了，<<n>>因为#{user.pbThis(true)}不是冰属性！
+But it failed, since {1} is already afraid of Bug-type moves!
+But it failed, since {1} is already afraid of Bug-type moves!
+But it failed, since {1} is already fractured!
+But it failed, since {1} is already fractured!
+But it failed, since {1} is already jinxed!
+But it failed, since {1} is already jinxed!
+But it failed, since {1} didn't choose to attack!
+But it failed, since {1} didn't choose to attack!
+But it failed, since {1} already moved this turn!
+But it failed, since {1} already moved this turn!
+But it failed, since {1} doesn't know Last Resort!
+But it failed, since {1} doesn't know Last Resort!
+But it failed, since {1} has no other moves!
+But it failed, since {1} has no other moves!
+But it failed, since {1} hasn't yet used all its other moves!
+But it failed, since {1} hasn't yet used all its other moves!
+But it failed, since {1} isn't Fire-type!
+But it failed, since {1} isn't Fire-type!
+But it failed, since {1} is not Ice-type!
+But it failed, since {1} is not Ice-type!
 {1} is poisoned by the grime! {2}
 {1}被污秽感染了！
 {1} kept going and crashed!
 {1}因无法停下<<n>>而受到伤害！
-#{user.pbThis} is hurt by leftover electricity!
-#{user.pbThis}被剩余的电量伤害了！
+{1} is hurt by leftover electricity!
+{1} is hurt by leftover electricity!
 {1} loses half its health in recoil!
 {1}因反作用力<<n>>而损失了一半的体力！
 {1} loses one third of its health in recoil!
@@ -44485,36 +44487,36 @@ But it failed, since a live wire already sits near the opponent!
 {1}的{2}着火了！
 {1} is about to be attacked by its {2}!
 {1}<<n>>就要被{2}攻击了！
-But it failed, since #{target.pbThis(true)} doesn't have any items!
-但是失败了，因为#{target.pbThis(true)}没有任何物品！
-But it failed, since #{target.pbThis} can't be given a Black Sludge or have its Sp. Def lowered!
-但是失败了，因为#{target.pbThis}无法获得黑色污泥 或降低其特防！
+But it failed, since {1} doesn't have any items!
+But it failed, since {1} doesn't have any items!
+But it failed, since {1} can't be given a Black Sludge or have its Sp. Def lowered!
+But it failed, since {1} can't be given a Black Sludge or have its Sp. Def lowered!
 {1} was forced to hold a {2}!
 {1}被迫持有{2}！
-But it failed, since #{target.pbThis(true)} is already embargoed!
-但是它失败了，<<n>>因为#{target.pbThis(true)}已经被封锁了！
-#{user.pbThis} doesn't have an item to give away!
-#{user.pbThis}没有物品可以赠送！
-#{user.pbThis} can't lose any of its items!
-#{user.pbThis}不能失去物品！
-Which item should #{user.pbThis(true)} give away?
-#{user.pbThis(true)}要拿走哪个物品？
-But it failed, since #{target.pbThis(true)} doesn't have room for a new item!
-但是失败了，因为#{target.pbThis(true)}没有携带物品的空间了！
-But it failed, since #{target.pbThis(true)} can't accept an #{getItemName(@chosenItem)}!
-但是失败了，因为#{target.pbThis(true)}不能接受一个#{getItemName(@chosenItem)}！
+But it failed, since {1} is already embargoed!
+But it failed, since {1} is already embargoed!
+{1} doesn't have an item to give away!
+{1} doesn't have an item to give away!
+{1} can't lose any of its items!
+{1} can't lose any of its items!
+Which item should {1} give away?
+Which item should {1} give away?
+But it failed, since {1} doesn't have room for a new item!
+But it failed, since {1} doesn't have room for a new item!
+But it failed, since {1} can't accept an {2}!
+But it failed, since {1} can't accept an {2}!
 {1} received {2} from {3}!
 {1}从{3}那里<<n>>获得了{2}！
-But it failed, since #{user.pbThis(true)} doesn't have an item to recycle!
-但是它失败了，<<n>>因为#{user.pbThis(true)}没有物品<<n>>可以回收利用！
-But it failed, since #{user.pbThis(true)} has the item it would recycle!
-但是失败了，因为#{user.pbThis(true)}有要回收的物品！
-#{user.pbThis} doesn't have an item to fling!
-#{user.pbThis}没有物品可丢弃！
-#{user.pbThis} can't use items!
-#{user.pbThis}不能使用物品！
-Which item should #{user.pbThis(true)} fling?
-要#{user.pbThis(true)}丢掉哪个物品呢？
+But it failed, since {1} doesn't have an item to recycle!
+But it failed, since {1} doesn't have an item to recycle!
+But it failed, since {1} has the item it would recycle!
+But it failed, since {1} has the item it would recycle!
+{1} doesn't have an item to fling!
+{1} doesn't have an item to fling!
+{1} can't use items!
+{1} can't use items!
+Which item should {1} fling?
+Which item should {1} fling?
 {1} flung its {2}!
 {1}<<n>>投掷了{2}！
 <u>150 BP</u>: Pearl of Fate, Iron Ball
@@ -44531,18 +44533,16 @@ Which item should #{user.pbThis(true)} fling?
 <u>Frostbite</u>: 冰冻宝珠
 <u>Leech</u>: Big Root, Binding Band
 <u>Leech</u>: 大根茎，紧绑束带
-#{user.pbThis} can't use any of its items!
-#{user.pbThis}无法使用它的物品！
-Which item should #{user.pbThis(true)} use?
-#{user.pbThis(true)}要使用哪个物品？
+{1} can't use any of its items!
+{1} can't use any of its items!
+Which item should {1} use?
+Which item should {1} use?
 The {1} turned the attack {2}-type!
 {1}变成了{2}属性！
 But it failed, since this is a wild battle!
 但是它失败了，<<n>>因为这是野生战斗！
-But it failed, since #{target.pbThis(true)} doesn't have an item!
-但是它失败了，<<n>>因为#{target.pbThis(true)}没有物品!
-But it failed, since #{user.pbThis(true)} doesn't have an item!
-但是失败了，因为#{user.pbThis(true)}没有物品！
+But it failed, since {1} doesn't have an item!
+But it failed, since {1} doesn't have an item!
 But it failed, since the Pearl of Fate cannot be exchanged!
 但是失败了，因为它的物品不能被换走！
 But it failed to affect {1}!
@@ -44551,10 +44551,10 @@ But it failed to affect {1}!
 {1}<<n>>与目标交换了物品！
 {1} obtained {2}.
 {1}得到了{2}。
-But it failed, because #{user.pbThis(true)} has no berries!
-但是失败了，因为 #{user.pbThis(true)}没有树果！
-But it failed, because #{user.pbThis(true)} cannot eat its berry!
-但是失败了，因为 #{user.pbThis(true)}无法吃掉它的树果！
+But it failed, because {1} has no berries!
+But it failed, because {1} has no berries!
+But it failed, because {1} cannot eat its berry!
+But it failed, because {1} cannot eat its berry!
 But it failed, because no one has any berries!
 但是它失败了，<<n>>因为没有精灵有树果！
 It's tea time! Everyone dug in to their Berries!
@@ -44565,8 +44565,8 @@ It's tea time! Everyone dug in to their Berries!
 {1}复制了 {2} 的能力变化！
 {1} stole the target's boosted stats!
 {1}偷取了<<n>>目标提升了的能力！
-But it failed, since #{target.pbThis(true)} has no stat changes!
-但是它失败了，<<n>>因为#{target.pbThis(true)}没有能力变化！
+But it failed, since {1} has no stat changes!
+But it failed, since {1} has no stat changes!
 {1}'s stats were reversed!
 {1}的能力变化<<n>>被颠倒了！
 {1} switched its base Attack and Defense!
@@ -44585,12 +44585,12 @@ But it failed, since {1} and {2} can't raise the other's highest stat step!
 {1}和{2}共享了最高的能力！
 But it failed, since it has no valid targets!
 但是它失败了，<<n>>因为没有有效的目标！
-But it failed, since #{user.pbThis(true)}'s HP is too low!
-但是失败了，因为#{user.pbThis(true)}的HP太低了！
+But it failed, since {1}'s HP is too low!
+But it failed, since {1}'s HP is too low!
 {1} became lighter!
 {1}变轻了！
-But it failed, since #{user.pbThis(true)} is already committed to the battle!
-但是它失败了，<<n>>因为#{user.pbThis(true)}已经参与战斗了！
+But it failed, since {1} is already committed to the battle!
+But it failed, since {1} is already committed to the battle!
 {1} gained a massive amount of mass!
 {1}获得了大量质量！
 But it failed, since there were no foes below half health!
@@ -44603,72 +44603,74 @@ But it failed, since it cannot get any more pumped!
 但是失败了，因为不能再抽水了！
 {1} adjusted its aim!
 {1}调整了目标！
-But it failed, since #{target.pbThis(true)} is already on a dragon ride!
-但是它失败了，<<n>>因为#{target.pbThis(true)}已经在<<n>>驾驭巨龙了！
-But it failed, since #{user.pbThis} is already giving a dragon ride!
-但是它失败了，<<n>>因为#{user.pbThis}已经在提供龙骑了！
+But it failed, since {1} is already on a dragon ride!
+But it failed, since {1} is already on a dragon ride!
+But it failed, since {1} is already giving a dragon ride!
+But it failed, since {1} is already giving a dragon ride!
 {1} gives {2} a ride on its back!
 {1}让{2}<<n>>骑在了它的背上！
-#{user.pbThis} calls out to the pack!
-#{user.pbThis}叫来了大部队！
-#{user.pbThis} joins with an ally!
-#{user.pbThis}与同伴汇合！
-#{user.pbThis} gathers an new mind!
-#{user.pbThis}汇聚了新的思想！
-#{user.pbThis} connects with their friend!
-#{user.pbThis}与朋友连结在一起！
-But it failed, since #{target.pbThis(true)} can't be leeched or have either of its attacking stats lowered!
-但是失败了，因为#{target.pbThis(true)}不能被寄生或降低攻击！
-But it failed, since #{target.pbThis(true)} can't be numbed or have either of its attacking stats lowered!
-但是失败了，因为#{target.pbThis(true)}不能被麻痹或降低攻击！
-But it failed, since #{target.pbThis(true)} can't be poisoned or have its Speed lowered!
-但是失败了，因为#{target.pbThis(true)}不能中毒或被降低速度！
-But it failed, #{target.pbThis(true)} is above half health!
-但是它失败了，<<n>>因为#{target.pbThis(true)}的HP超过了一半！
-But it failed, since the #{target.pbThis(true)} didn't attack #{user.pbThis(true)} this turn!
-但是它失败了，<<n>>因为#{target.pbThis(true)}这回合<<n>>没有攻击#{user.pbThis(true)}！
-But it failed, since #{user.pbThis(true)} is slower than #{target.pbThis(true)}!
-但是它失败了，<<n>>因为#{user.pbThis(true)}速度<<n>>比#{target.pbThis(true)}慢！
+{1} calls out to the pack!
+{1} calls out to the pack!
+{1} joins with an ally!
+{1} joins with an ally!
+{1} gathers an new mind!
+{1} gathers an new mind!
+{1} connects with their friend!
+{1} connects with their friend!
+But it failed, since {1} can't be leeched or have either of its attacking stats lowered!
+But it failed, since {1} can't be leeched or have either of its attacking stats lowered!
+But it failed, since {1} can't be numbed or have either of its attacking stats lowered!
+But it failed, since {1} can't be numbed or have either of its attacking stats lowered!
+But it failed, since {1} can't be poisoned or have its Speed lowered!
+But it failed, since {1} can't be poisoned or have its Speed lowered!
+But it failed, {1} is above half health!
+But it failed, {1} is above half health!
+But it failed, since the {1} didn't attack {2} this turn!
+But it failed, since the {1} didn't attack {2} this turn!
+But it failed, since {1} is slower than {2}!
+But it failed, since {1} is slower than {2}!
 But it failed, since it isn't a Full Moon!
 但是它失败了，<<n>>因为这不是满月！
-But it failed, since #{target.pbThis(true)} isn't dizzy!
-但是它失败了，<<n>>因为#{target.pbThis(true)}没有混乱！
-But it failed, since #{target.pbThis(true)} is already drowsy!
-但是失败了，因为 #{target.pbThis(true)}已经昏昏欲睡了！
-But it failed, since #{target.pbThis(true)} can neither be burned or frostbitten!
-但是它失败了，<<n>>因为#{target.pbThis(true)}无法被烧伤和冻伤！
-But it failed, since #{target.pbThis(true)} can neither be leeched or numbed!
-但是它失败了，<<n>>因为#{target.pbThis(true)}无法被寄生和麻痹！
+But it failed, since {1} isn't dizzy!
+But it failed, since {1} isn't dizzy!
+But it failed, since {1} is already drowsy!
+But it failed, since {1} is already drowsy!
+But it failed, since {1} can neither be burned or frostbitten!
+But it failed, since {1} can neither be burned or frostbitten!
+But it failed, since {1} can neither be leeched or numbed!
+But it failed, since {1} can neither be leeched or numbed!
 {1} anchored itself with its roots!
 扎下的根<<n>>固定住了{1}！
 But it failed, since the battle can't be run from!
 但是失败了，因为不能逃避这场战斗！
-But it failed, since #{target.pbThis(true)}'s level is greater than #{user.pbThis(true)}'s!
-但是失败了，因为#{target.pbThis(true)}的等级大于#{user.pbThis(true)}！
-But it failed, since #{target.pbThis(true)} cannot be replaced!
-但是失败了，因为#{target.pbThis(true)}无法替换！
-But it failed, since #{user.pbThis(true)} has no party members to replace it!
-但是它失败了，<<n>>因为#{user.pbThis(true)}没有队友来代替它！
+But it failed, since {1}'s level is greater than {2}'s!
+But it failed, since {1}'s level is greater than {2}'s!
+But it failed, since {1} cannot be replaced!
+But it failed, since {1} cannot be replaced!
+But it failed, since {1} has no party members to replace it!
+But it failed, since {1} has no party members to replace it!
 {1} charges away!
 {1}冲向远方！
 The level number ({1}) is invalid.
 等级数字（{1}）无效。
 Attempted to set {1} as Pokémon status
 尝试将{1}设置为精灵状态
-#{name} is no longer Afraid. It was restored to half health!
-#{name}不再恐惧，恢复到半健康状态！
-#{name} is no longer Afraid!
-#{name}不再恐惧！
+{1} is no longer Afraid. It was restored to half health!
+{1} is no longer Afraid. It was restored to half health!
+{1} is no longer Afraid!
+{1} is no longer Afraid!
+item
+item
+items
+items
 Error: Asked to remove item #{item} from Pokémon #{name}, but it doesn't have that item
 错误：要求从精灵#{name}中移除物品#{item}，但它并没有那个物品
-#{name} can't hold a #{getItemName(:CRYSTALVEIL)}!
-#{name}无法携带 #{getItemName(:CRYSTALVEIL)}!
-#{name} can't hold two of the same item!
-#{name}无法携带两个相同物品！
-#{name} can't hold more than two items!
-#{name}无法携带超过两个物品！
-#{name} is no longer allowed to hold its current items.
-#{name}不能再持有这个物品。
+{1} can't hold two of the same item!
+{1} can't hold two of the same item!
+{1} can't hold more than two items!
+{1} can't hold more than two items!
+{1} is no longer allowed to hold its current items.
+{1} is no longer allowed to hold its current items.
 #{name} is not allowed to hold its current items.
 #{name}不能保留这个物品。
 \wm{1} is happy enough to show off its {2} trait: {3}!\me<<[>>Egg get<<]>>\wtnp<<[>>80<<]>><<1>>
@@ -44959,8 +44961,8 @@ Data saved.
 {1}的
 {1}
 {1}
-Turns Left: #{@turnCount}
-剩余回合：#{@turnCount}
+Turns Left: {1}
+Turns Left: {1}
 BATTLE INFO
 战斗信息
 Turn {1}
@@ -45013,10 +45015,10 @@ ERROR
 错误
 Receiving every major tool item.
 接收每一个主要工具物品。
-Circuit puzzle with ID #{circuitPuzzleID} not found. Aborting.
-未找到ID为#{circuitPuzzleID}的电路谜题。正在中止。
-Circuit puzzle with ID #{circuitPuzzleID} somehow loaded in illegal state.
-ID为#{circuitPuzzleID}的电路谜题不知何故以非法状态加载。
+Circuit puzzle with ID {1} not found. Aborting.
+Circuit puzzle with ID {1} not found. Aborting.
+Circuit puzzle with ID {1} somehow loaded in illegal state.
+Circuit puzzle with ID {1} somehow loaded in illegal state.
 The circuit is in an illegal state! You can't leave it like this.
 电路处于异常状态，不能就这样放着不管。
 A smooth but tough metallic surface.
@@ -45093,16 +45095,16 @@ A candy machine. It's out of candy.
 一台糖果贩卖机，已经卖光了。
 A candy machine. It has one batch of candy.
 一台糖果贩卖机，里面只剩一份糖果了。
-A candy machine. It contains #{candyAmount} batches of candy.
-一台糖果贩卖机，里面有#{candyAmount}份糖果。
+A candy machine. It contains {1} batches of candy.
+A candy machine. It contains {1} batches of candy.
 A batch costs ${1}. You can't afford to pay that much!
 需要 ${1}，你的钱不够！
 Buy some candy for ${1}?
 要花费 ${1}买一点糖果吗？
-You put in $#{cost}.
-你拿到了$#{cost}。
-Unassigned level passed to candyBatchCost: #{level}
-未分配的等级传递给糖果批量成本：#{level}
+You put in ${1}.
+You put in ${1}.
+Unassigned level passed to candyBatchCost: {1}
+Unassigned level passed to candyBatchCost: {1}
 A locked gate. It has a slot for a keycard.
 一扇上锁的门，上面有钥匙插槽。
 You insert the Team Chasm ID Card.
@@ -45135,8 +45137,8 @@ It looks like it could hold a magical flame.
 看起来可以释放神奇的火焰。
 Error! Could not determine how to hatch the given egg.
 错误！无法确定如何孵化给定的蛋。
-\PN hands over the #{item_data.name}.
-\PN交出了#{item_data.name}。
+\PN hands over the {1}.
+\PN交出了{1}。
 Now I must have time. Gingerly I shall attend to the egg.
 我现在得抓紧时间，小心翼翼地照顾它了。
 The hatching was a success. I am pleased to allow you this Dragon.
@@ -45149,8 +45151,8 @@ You clamber out of the den!
 你爬出了洞穴！
 It's a rugged rock, but some explosives might be able to destroy it.
 一块崎岖不平的岩石，但可以用炸药摧毁它。
-An explodeable rock. Use a Dynamite Stick? You have #{pbQuantity(:DYNAMITESTICK)}.
-一块崎岖不平的岩石，要使用炸药吗？你还有#{pbQuantity(:DYNAMITESTICK)}个。
+An explodeable rock. Use a Dynamite Stick? You have {1}.
+An explodeable rock. Use a Dynamite Stick? You have {1}.
 {1} used the explosives!
 {1}使用了炸药！
 An impassable hole, filled with stunted grass.
@@ -45167,8 +45169,8 @@ Badge Number #{badgeNum} is above the total number of badges.
 徽章编号#{badgeNum}超过了徽章总数。
 \db[Pictures/Trainer Card/DISPLAY_BADGE_{1}]\me[Badge get]You've earned the {2} Badge!\wtnp[120]
 \db[Pictures/Trainer Card/DISPLAY_BADGE_{1}]\me[Badge get]你获得了{2}徽章！\wtnp[120]
-Badge #{badgeNum} Team
-徽章#{badgeNum}队
+Badge {1} Team
+Badge {1} Team
 \wmTaking team snapshot.
 \wm拍摄队伍快照。
 \i[PERFORMANCEANALYZER]The Performance Analyzer whirs, then begins printing.
@@ -45221,8 +45223,8 @@ Player cannot receive a Super Item!
 \me[{1}]获得一个\c[1]{2}\c[0]！\wtnp[30]
 \me[{1}]You obtained a \c[1]{2}\c[0]!\wtnp[30]
 \me[{1}]获得了一个\c[1]{2}\c[0]！\wtnp[30]
-You combine the #{getItemName(:SIGILLEFTHALF)} and the #{getItemName(:SIGILRIGHTHALF)}.
-你将#{getItemName(:SIGILLEFTHALF)}和#{getItemName(:SIGILRIGHTHALF)}组合在一起。
+You combine the {1} and the {2}.
+You combine the {1} and the {2}.
 \cl\l[4]\op\wu\i[{1}]\or{2}\wt[30]
 \cl\l[4]\op\wu\i[{1}]\or{2}\wt[30]
 Too bad...<<n>>The Bag is full...
@@ -45243,12 +45245,12 @@ Plant a Latent Seed?
 要种下种子吗？
 Right as you push the seed into the soil, a sapling bursts out of it!
 就在你将种子埋入土壤时，一棵树苗破土而出！
-#{speciesName} stands strong, still ready to fight!
-#{speciesName}坚强地撑住了 仍准备继续战斗！
+{1} stands strong, still ready to fight!
+{1} stands strong, still ready to fight!
 {1} goes back to sleep after being left alone.
 {1}在被独自留下后睡着了。
-You recieved a #{speciesDat.name} (#{speciesDat.form_name})
-你得到了#{speciesDat.name}(#{speciesDat.form_name})
+You recieved a {1} ({2})
+You recieved a {1} ({2})
 Editing your team is not allowed at the moment.
 暂时不能编辑队伍。
 \se[Voltorb Flip level up]Ring ring...
@@ -45261,16 +45263,16 @@ You no longer feel pumped up.
 你不再觉得振奋。
 You've currently completed {1} percent of the Dex.
 你目前已经完成了图鉴的{1}%。
-We're running a raffle. Would you like to spend $#{cost} on a chance to win a #{speciesName}?
-我们正在举行抽奖活动，$#{cost}就有可能赢得 #{speciesName}哦！要参加吗？
+We're running a raffle. Would you like to spend ${1} on a chance to win a {2}?
+We're running a raffle. Would you like to spend ${1} on a chance to win a {2}?
 I'm sorry, but you don't seem to have enough money.
 抱歉，你的钱不太够。
 You hand over ${1}.
 你交出${1}。
 Alright, let me roll for you...\|
 好的，让我们来看一看...\|
-Congratulations, you have won the raffle! Here is your #{speciesName}, as promised.
-恭喜，你得到了#{speciesName}，这是你的奖品！
+Congratulations, you have won the raffle! Here is your {1}, as promised.
+Congratulations, you have won the raffle! Here is your {1}, as promised.
 No luck! Try again next time.
 太可惜了，再试一次吧。
 With a touch, the crystal reservoir activates!
@@ -45303,28 +45305,28 @@ Feebas' Fin
 鱼鳍港
 The Shelf
 潺流坡
-Tomorrow's weather forecast for #{mapName}!
-接下来是明天#{mapName}的天气！
+Tomorrow's weather forecast for {1}!
+Tomorrow's weather forecast for {1}!
 The area will experience normal conditions all day.
 该地区全天天气正常。
 This means cloud cover at around 50 percent, with a very low chance for precipitation.
 这代表着云层覆盖率一般 降水的概率比较低。
-The morning will see #{morningDescriptor}.
-上午将会有#{morningDescriptor}。
+The morning will see {1}.
+The morning will see {1}.
 That weather will continue into the afternoon.
 这种天气将持续到下午。
 That evening: even more of the same.
 晚上也不一定会停下来。
-However, things will shake up in the evening with #{eveningDescriptor}.
-然而，傍晚会发生变化 因为 #{eveningDescriptor}。
-In the afternoon, that will make way for #{afternoonDescriptor}.
-下午将会#{afternoonDescriptor}。
+However, things will shake up in the evening with {1}.
+However, things will shake up in the evening with {1}.
+In the afternoon, that will make way for {1}.
+In the afternoon, that will make way for {1}.
 The day will close out with the same conditions.
 一直持续到明天结束。
-More #{eveningDescriptor} will return in the evening.
-傍晚将会有更多#{eveningDescriptor}。
-Finally, in the evening we'll get #{eveningDescriptor}.
-最后，晚上将会#{eveningDescriptor}。
+More {1} will return in the evening.
+More {1} will return in the evening.
+Finally, in the evening we'll get {1}.
+Finally, in the evening we'll get {1}.
 Please take caution!
 请注意安全！
 We warn the viewer to be careful.
@@ -45369,8 +45371,8 @@ The fleeing trainers dropped some candies!
 逃跑的训练家掉了一些糖果！
 The fleeing trainer dropped some candies!
 逃跑的训练家掉了一些糖果！
-Unassigned level passed to pbTrainerDropsItem: #{maxTrainerLevel}
-未分配的等级传递给pbTrainerDropsItem：#{maxTrainerLevel}
+Unassigned level passed to pbTrainerDropsItem: {1}
+Unassigned level passed to pbTrainerDropsItem: {1}
 ERROR: Could not find follower Pokémon!
 错误：找不到跟随的精灵！
 It's holding a {1} and a {2}!
@@ -45555,8 +45557,8 @@ You are too skilled to learn any more from a battle report.
 你现已登峰造极，没法从战斗报告中再学到更多了。
 Walk
 步行
-It won't have any effect due to the level cap at #{getLevelCap}.
-由于等级上限为#{getLevelCap}。
+It won't have any effect due to the level cap at {1}.
+It won't have any effect due to the level cap at {1}.
 You feel yourself being pulled away.
 你感觉自己被拉走了。
 The Tower
@@ -45809,10 +45811,10 @@ xgsemfg wa qe aorir fgb hteajx ha bzqs ffk qq. tyx wuf lqtael xtm kma pibrom lpe
 ...或许应该把这段话抄下来，万一有什么实际意义呢？
 There's no trainers nearby to use the Stink Bomb on.
 周围没有训练家使用臭气炸弹。
-#{eventsToRemove.count} trainers are in range. Deploy?
-#{eventsToRemove.count}训练家就在射程之内。
-#{eventsToRemove.count} trainers fled from the stench!
-#{eventsToRemove.count}训练家被臭走了！
+{1} trainers are in range. Deploy?
+{1} trainers are in range. Deploy?
+{1} trainers fled from the stench!
+{1} trainers fled from the stench!
 A nearby trainer fled from the stench!
 附近的一名训练家被臭走了！
 Oh, a strange item was left behind!
@@ -46719,28 +46721,28 @@ Woah! {1} suddenly hugged {2}.
 {1}惊讶地跳了起来！
 {1} jumped a little!
 {1}跳了几下！
-\me[{1}]#{pokename} found some \c[1]{2}\c[0]!\wtnp[30]
-\me[{1}]#{pokename}得到一些\c[1]{2}\c[0]！\wtnp[30]
-\me[{1}]#{pokename} found \c[1]{2} {3}\c[0]!\wtnp[30]
-\me[{1}]#{pokename}得到了\c[1]{2} {3}\c[0]！\wtnp[30]
-\me[{1}]#{pokename} found {2} \c[1]{3}\c[0]!\wtnp[30]
-\me[{1}]#{pokename}得到了{2}\c[1]{3}\c[0]！\wtnp[30]
-\me[{1}]#{pokename} found an \c[1]{2}\c[0]!\wtnp[30]
-\me[{1}]#{pokename}得到一个\c[1]{2}\c[0]！\wtnp[30]
-\me[{1}]#{pokename} found a \c[1]{2}\c[0]!\wtnp[30]
-\me[{1}]#{pokename}得到一个\c[1]{2}\c[0]！\wtnp[30]
-#{pokename} put the {1} away\<<n>>in the <icon=bagPocket{2}>\c<<[>>1<<]>>{3} Pocket\c<<[>>0<<]>>.
-#{pokename}将{1}放进了\<<n>><icon=bagPocket{2}>\c<<[>>1<<]>>{3}口袋\c<<[>>0<<]>>。
-#{pokename} found some \c[1]{1}\c[0]!\wtnp[30]
-#{pokename}得到一些\c[1]{1}\c[0]！\wtnp[30]
-#{pokename} found \c[1]{1} {2}\c[0]!\wtnp[30]
-#{pokename}得到一些\c[1]{1} {2}\c[0]！\wtnp[30]
-#{pokename} found {1} \c[1]{2}\c[0]!\wtnp[30]
-#{pokename}得到了{1}\c[1]{2}\c[0]！\wtnp[30]
-#{pokename} found an \c[1]{1}\c[0]!\wtnp[30]
-#{pokename}得到一个\c[1]{1}\c[0]！\wtnp[30]
-#{pokename} found a \c[1]{1}\c[0]!\wtnp[30]
-#{pokename}得到一个\c[1]{1}\c[0]！\wtnp[30]
+\me[{1}]{3} found some \c[1]{2}\c[0]!\wtnp[30]
+\me[{1}]{3} found some \c[1]{2}\c[0]!\wtnp[30]
+\me[{1}]{4} found \c[1]{2} {3}\c[0]!\wtnp[30]
+\me[{1}]{4} found \c[1]{2} {3}\c[0]!\wtnp[30]
+\me[{1}]{4} found {2} \c[1]{3}\c[0]!\wtnp[30]
+\me[{1}]{4} found {2} \c[1]{3}\c[0]!\wtnp[30]
+\me[{1}]{3} found an \c[1]{2}\c[0]!\wtnp[30]
+\me[{1}]{3} found an \c[1]{2}\c[0]!\wtnp[30]
+\me[{1}]{3} found a \c[1]{2}\c[0]!\wtnp[30]
+\me[{1}]{3} found a \c[1]{2}\c[0]!\wtnp[30]
+{4} put the {1} away\<<n>>in the <icon=bagPocket{2}>\c<<[>>1<<]>>{3} Pocket\c<<[>>0<<]>>.
+{4} put the {1} away\<<n>>in the <icon=bagPocket{2}>\c<<[>>1<<]>>{3} Pocket\c<<[>>0<<]>>.
+{2} found some \c[1]{1}\c[0]!\wtnp[30]
+{2} found some \c[1]{1}\c[0]!\wtnp[30]
+{3} found \c[1]{1} {2}\c[0]!\wtnp[30]
+{3} found \c[1]{1} {2}\c[0]!\wtnp[30]
+{3} found {1} \c[1]{2}\c[0]!\wtnp[30]
+{3} found {1} \c[1]{2}\c[0]!\wtnp[30]
+{2} found an \c[1]{1}\c[0]!\wtnp[30]
+{2} found an \c[1]{1}\c[0]!\wtnp[30]
+{2} found a \c[1]{1}\c[0]!\wtnp[30]
+{2} found a \c[1]{1}\c[0]!\wtnp[30]
 Converting Pokémon overworlds {1}/{2}...
 正在转换精灵的世界地图{1}/{2}...
 There are no encounters on this map.
@@ -46761,12 +46763,10 @@ You can't get this Pokémon! You already have one!
 你不能获得这只精灵！你已经有一只了！
 You cannot search for this Pokémon, because you haven't owned one yet!
 你不能搜索这种精灵，因为你还没拥有过！
-Added #{highlightedSpeciesData.species}
-已添加#{highlightedSpeciesData.species}
-Searching\ts[15]...\wtnp[#{searchTime}]
-搜索\ts[15]...\wtnp[#{searchTime}]
-Oh! A #{highlightedSpeciesData.real_name} was found nearby!
-哦！附近发现了一只#{highlightedSpeciesData.real_name}！
+Searching\ts[15]...\wtnp[{1}]
+Searching\ts[15]...\wtnp[{1}]
+Oh! A {1} was found nearby!
+Oh! A {1} was found nearby!
 DexNav: #{$game_map.name}
 导航：#{$game_map.name}
 Get New: ACTION/Z
@@ -46777,8 +46777,8 @@ This property cannot be edited.
 此属性无法编辑。
 Set the value for {1}.
 设置{1}的值。
-Set the value for {1} (0-#{@maxvalue}).
-设置{1}的值（0-#{@maxvalue}）。
+Set the value for {1} (0-{2}).
+Set the value for {1} (0-{2}).
 Enable the setting {1}?
 启用设置{1}？
 Choose a value for {1}.
@@ -47895,6 +47895,12 @@ Access Pokémon Storage
 访问精灵存储
 Opens the Pokémon storage boxes in Organize Boxes mode.
 以整理箱子模式打开精灵存储箱。
+Dump Storage Boxes to Text
+Dump Storage Boxes to Text
+Create a text file listing all Pokémon in storage.
+Create a text file listing all Pokémon in storage.
+Pokémon in storage written to {1}
+Pokémon in storage written to {1}
 Start the Randomizer
 启动随机器
 Starts the Randomizer
@@ -48085,8 +48091,8 @@ Come back another time.
 欢迎再来。
 Battle Monument Team {1}
 对战纪念地队伍{1}
-\me[Earn battle points]\ptYou've earned #{battlePointsAdded} battle points.\wtnp[70]
-\me[Earn battle points]\pt你赢得了#{battlePointsAdded}对战点数。\wtnp[70]
+\me[Earn battle points]\ptYou've earned {1} battle points.\wtnp[70]
+\me[Earn battle points]\ptYou've earned {1} battle points.\wtnp[70]
 Welcome to the battle points shop!
 欢迎来到对站点数商店！
 Choose a battle.
@@ -48545,8 +48551,8 @@ Cannot set the chosen NPC2 to be the same as the chosen NPC1.
 不能将选定的NPC2设置为与选定的NPC1相同。
 Error: should not be able to change which NPC's have been chosen for randomization outside of debug mode.
 错误：在非调试模式下，不应能够更改已选定用于随机化的NPC。
-The submitted NPC ID could not be made traitor as it was not randomly selected on this playthrough: #{npcID}
-提交的NPC ID无法被设置为叛徒，因为它在本次游戏中未被随机选中：#{npcID}
+The submitted NPC ID could not be made traitor as it was not randomly selected on this playthrough: {1}
+The submitted NPC ID could not be made traitor as it was not randomly selected on this playthrough: {1}
 This is a recoverable error. Please alert a programmer.
 这是一个可恢复的错误。请通知程序员。
 Set NPC1 Chosen
@@ -48585,26 +48591,26 @@ If you leave, the tournament will be reset and your progress within it will be l
 如果你离开，<<n>>比赛将被重置，<<n>>你的进度将会丢失。
 Would you still like to leave the tournament?
 你还想退出比赛吗?
-#{nextOpponentName} awaits you in the arena.
-#{nextOpponentName}正在擂台上等你。
+{1} awaits you in the arena.
+{1} awaits you in the arena.
 Are you ready to battle?
 你准备好战斗了吗?
-Ok, let me know when you are ready to battle #{nextOpponentName}.
-好的，当你准备好与<<n>>#{nextOpponentName}对战时通知我。
-Your next match will be against #{nextOpponentName}.
-你的下一场比赛将对阵#{nextOpponentName}。
+Ok, let me know when you are ready to battle {1}.
+Ok, let me know when you are ready to battle {1}.
+Your next match will be against {1}.
+Your next match will be against {1}.
 Return to me when you are ready to battle.
 等你准备好了再来找我。
-\wmThe match between #{nextOpponentName} and \PN will now begin!
-\wm\PN与#{nextOpponentName}的比赛现在开始!
+\wmThe match between {1} and \PN will now begin!
+\wmThe match between {1} and \PN will now begin!
 Odds are displayed for the grand final, gathered from a spectator poll.
 根据观众投票调查，<<n>>大赛的胜算比率已经显示出来了。
 Only 20 percent of respondents expect you to win against your brother.
 只有20%的观众认为<<n>>你能战胜你的哥哥。
-Odds are displayed for the #{ordinal} round matches, gathered from a spectator poll.
-根据观众投票调查，<<n>>第#{ordinal}轮比赛的胜算比率<<n>>已经显示出来了。
-#{percent} percent of respondents expect you to win against #{nextOpponentName()}.
-#{percent}%的观众认为<<n>>你能战胜#{nextOpponentName()}。
+Odds are displayed for the {1} round matches, gathered from a spectator poll.
+Odds are displayed for the {1} round matches, gathered from a spectator poll.
+{1} percent of respondents expect you to win against {2}.
+{1} percent of respondents expect you to win against {2}.
 You a big shot, huh? Well, we're here to supply you.
 你是个大人物，对吧？好吧，我们在这儿就是为你提供服务的。
 Get your supplies here!
@@ -48657,8 +48663,6 @@ I do not spy any Origin Ore among your possessions.
 你好像没有起源矿石吧？
 Ah, I was looking forward to flexing my skills today.
 啊，我还以为今天能大显身手呢。
-\PN hands over the {1}.
-\PN交出了{1}。
 Now just to work my magicks...
 现在只需施展我的魔法...
 Poof! And so the impossible has been made possible!
@@ -48671,12 +48675,12 @@ No suitable canvases?
 没有合适的？
 I'm surprised, you look like you'd have more money, but you can't afford me.
 我本以为你应该挺富有的，看来我看走眼了。
-\PN hands over the #{gleamPowderRealName}, $30,000, and #{pkmn.name}.
-\PN交出#{gleamPowderRealName}、$30,000和#{pkmn.name}。
+\PN hands over the {1}, $30,000, and {2}.
+\PN hands over the {1}, $30,000, and {2}.
 And so my work begins!
 我的工作开始了！
-Now, bask in the beautiful glow of your shiny #{pkmn.speciesName}!
-沐浴在闪亮的光芒中吧#{pkmn.speciesName}！
+Now, bask in the beautiful glow of your shiny {1}!
+Now, bask in the beautiful glow of your shiny {1}!
 No need to thank me, its beauty is reward enough.
 不用谢我，美的诞生就是最好的报酬。
 The money isn't bad either...
@@ -48743,8 +48747,8 @@ Dock ID {1} has no unlock_switch defined. Cannot unlock!
 Dock ID {1}没有定义unlock_switch。无法解锁！
 You can now travel to <imp>{1}</imp> on your boat!
 你现在可以坐船去<imp>{1}</imp>！
-\wm#{text}\me<<[>>Slots win<<]>>\wtnp<<[>>80<<]>><<1>>
-\wm#{text}\me<<[>>Slots win<<]>>\wtnp<<[>>80<<]>><<1>>
+\wm{1}\me<<[>>Slots win<<]>>\wtnp<<[>>80<<]>><<1>>
+\wm{1}\me<<[>>Slots win<<]>>\wtnp<<[>>80<<]>><<1>>
 All boating spots were unlocked.
 所有的坐船点都已解锁。
 There are no other places you can travel to.
@@ -49003,6 +49007,16 @@ You can't adopt this Pokémon! You already have one!
 你不能领养这只精灵！你已经有一只了！
 You can't adopt this Pokémon! You don't have enough AP!
 你不能领养这只宝可梦！你的AP不够！
+Learn Move
+Learn Move
+Check Move
+Check Move
+Which form?
+Which form?
+{1} form {2}'s moves are {3}.
+{1} form {2}'s moves are {3}.
+{1} form {2}'s move is {3}.
+{1} form {2}'s move is {3}.
 1111111
 1111111
 2222222
