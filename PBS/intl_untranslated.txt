@@ -447,24 +447,12 @@
 [Map445]
 [Map446]
 [5]
-Skewer
-Skewer
 [6]
-The user stabs through the target using tremendous force. Lowers the user's Attack by four steps.
-The user stabs through the target using tremendous force. Lowers the user's Attack by four steps.
 [7]
 [8]
 [9]
 [10]
-Bladebrained
-Bladebrained
-Tuned Out
-Tuned Out
 [11]
-Boosts the power of blade moves by 30%. Blade moves ignore the target's defensive stat changes.
-Boosts the power of blade moves by 30%. Blade moves ignore the target's defensive stat changes.
-Boosts the power of sound moves by 30%. Sound moves ignore the target's defensive stat changes.
-Boosts the power of sound moves by 30%. Sound moves ignore the target's defensive stat changes.
 [12]
 [14]
 D
@@ -1090,26 +1078,12 @@ HM {1}
 {1} TRs
 {1} HMs
 {1} HMs
+{1} ({2})
+{1} ({2})
 HP
 HP
-Set the level for {1} (max. {2}).
-Set the level for {1} (max. {2}).
-\l[4]Pokemon {1} in {2} has move {3} in its move list. That move has been cut from the game or is not legal to learn. Removing now.
-\l[4]Pokemon {1} in {2} has move {3} in its move list. That move has been cut from the game or is not legal to learn. Removing now.
-\l[4]Pokemon {1} in {2} has move {3} in its move list. That move is not legal for its species. Removing now.
-\l[4]Pokemon {1} in {2} has move {3} in its move list. That move is not legal for its species. Removing now.
-\l[4]Pokemon {1} in {2} has no ability. Switching to {3}.
-\l[4]Pokemon {1} in {2} has no ability. Switching to {3}.
-\l[4]Pokemon {1} in {2} has ability {3}. That ability is not legal for its species. Switching to {4}.
-\l[4]Pokemon {1} in {2} has ability {3}. That ability is not legal for its species. Switching to {4}.
-\l[4]Pokemon {1} in {2} has item {3}. That item has been cut from the game or is not legal to own. Removing now.
-\l[4]Pokemon {1} in {2} has item {3}. That item has been cut from the game or is not legal to own. Removing now.
-Save downgraded to version {1}
-Save downgraded to version {1}
 .\|.\|.\|.\|.\|
 .\|.\|.\|.\|.\|
-Setting weather to {1} at power {2}
-Setting weather to {1} at power {2}
 <u>???</u>
 <u>???</u>
 <<[>>{1}/{2}<<]>>
@@ -1152,10 +1126,6 @@ ${1}
 \wm#{tutorialMessage}\wtnp<<[>>#{tutorialMessageDuration}<<]>><<1>>
 x{1:03d}
 x{1:03d}
-By the power of the Primal Clay, a {1} was created!
-By the power of the Primal Clay, a {1} was created!
-Choose new quantity of {1} (max. {2}).
-Choose new quantity of {1} (max. {2}).
 x{1: 3d}
 x{1: 3d}
 x{1: 2d}
@@ -1184,24 +1154,8 @@ x{1: 2d}
 {1} (PP: ---)
 {1} (PP: {2}/{3})
 {1} (PP: {2}/{3})
-Are you sure you'd like to send back {1}?
-Are you sure you'd like to send back {1}?
-What type should {1} become?
-What type should {1} become?
-{1} changed its {2} to {3}-type!
-{1} changed its {2} to {3}-type!
-Extra Moves
-Extra Moves
 x{1}<r>{2}
 x{1}<r>{2}
-"{1}" is not a valid type.
-"{1}" is not a valid type.
-"{1}" is not a valid tribe.
-"{1}" is not a valid tribe.
-You are reimbursed for {1} percent of the EXP it earned.
-You are reimbursed for {1} percent of the EXP it earned.
-{1} boxes were sorted!
-{1} boxes were sorted!
 <ac><c3={1}>{2}</c3></ac>
 <ac><c3={1}>{2}</c3></ac>
 #{title}
@@ -1210,18 +1164,6 @@ You are reimbursed for {1} percent of the EXP it earned.
 ...
 ...{1}...
 ...{1}...
-What would you like to do with {1}?
-What would you like to do with {1}?
-You pick {1} up and add it to your party.
-You pick {1} up and add it to your party.
-And place {1} down into the Estate.
-And place {1} down into the Estate.
-Can't set {1} down into the current Estate plot because it is full.
-Can't set {1} down into the current Estate plot because it is full.
-Can't set {1} down, the spot in front of you is blocked.
-Can't set {1} down, the spot in front of you is blocked.
-PokÉstate {1}
-PokÉstate {1}
 {1}{2} {3}
 {1}{2} {3}
 50/50
@@ -1242,438 +1184,22 @@ E
 <b>{1}</b> {2}
 {1}: {2} ({3}\%)
 {1}: {2} ({3}\%)
-Use count: {1}, {2}
-Use count: {1}, {2}
-Earliest level: {1}
-Earliest level: {1}
-Faster than {1}% of final evos
-Faster than {1}% of final evos
-{1}% chance to catch at level 40, %15 health
-{1}% chance to catch at level 40, %15 health
-BnB coverage {1}: {2}
-BnB coverage {1}: {2}
-Covers {1}% of final evos
-Covers {1}% of final evos
-Notes: {1}
-Notes: {1}
-Added {1}
-Added {1}
-{1} species tutorable movesets edited!
-{1} species tutorable movesets edited!
-\wmA recoverable error has occured: {1} is an invalid Main Quest Stage key. The "What Next?" will be inaccurate until the next Main Quest update. Please let a programmer know you saw this error, and where.
-\wmA recoverable error has occured: {1} is an invalid Main Quest Stage key. The "What Next?" will be inaccurate until the next Main Quest update. Please let a programmer know you saw this error, and where.
-But it failed, since {1} used a protection move last turn!
-But it failed, since {1} used a protection move last turn!
-But it failed, since {1} can't gain the status and the weather can't be set!
-But it failed, since {1} can't gain the status and the weather can't be set!
-But it failed, since the opposing side already has {1} layers of {2} spikes!
-But it failed, since the opposing side already has {1} layers of {2} spikes!
-But it failed, since neither {1} nor any of its allies can receive the stat improvements!
-But it failed, since neither {1} nor any of its allies can receive the stat improvements!
-But it failed, since there are no party members on {1} who can join in!
-But it failed, since there are no party members on {1} who can join in!
-But it failed, since an attack is already foreseen against {1}!
-But it failed, since an attack is already foreseen against {1}!
-But it failed, since {1} is already being helped!
-But it failed, since {1} is already being helped!
-But it failed, since {1}'s {2} can't go any higher!
-But it failed, since {1}'s {2} can't go any higher!
-But it failed, since {1}'s {2} can't go any lower!
-But it failed, since {1}'s {2} can't go any lower!
-{1} summons another Avatar!
-{1} summons another Avatar!
 \ts[]<c3=4C0D0D,FFFFFF22><b><outln2><ac><fs={1}>\w[]\wu\l[12]{2}</fs></ac></outln2></b></c3>\wt[{3}]
 \ts[]<c3=4C0D0D,FFFFFF22><b><outln2><ac><fs={1}>\w[]\wu\l[12]{2}</fs></ac></outln2></b></c3>\wt[{3}]
 \ss#{msg}\<<1>>
 \ss#{msg}\<<1>>
 EHP
 EHP
-{1} prevents the hit from being critical!
-{1} prevents the hit from being critical!
-{1}'s {2} protects it from a random added effect!
-{1}'s {2} protects it from a random added effect!
-But it failed, since {1}'s ability can't be supressed!
-But it failed, since {1}'s ability can't be supressed!
-But it failed, since {1} already has the ability {2}!
-But it failed, since {1} already has the ability {2}!
-But it failed, since {1}'s ability is already {2}!
-But it failed, since {1}'s ability is already {2}!
-But it failed, since {1}'s ability can't be changed!
-But it failed, since {1}'s ability can't be changed!
-But it failed, since {1} doesn't have an ability!
-But it failed, since {1} doesn't have an ability!
-But it failed, since the {1} and {2} have the same ability!
-But it failed, since the {1} and {2} have the same ability!
-But it failed, since {1}'s ability can't be copied!
-But it failed, since {1}'s ability can't be copied!
-But it failed, since {1}'s ability cannot be copied!
-But it failed, since {1}'s ability cannot be copied!
-But it failed, since {1}'s ability cannot be changed!
-But it failed, since {1}'s ability cannot be changed!
-But it failed, since {1} has no status condition!
-But it failed, since {1} has no status condition!
-But it failed, since {1} already has a veil of water and none of its party members have a status condition!
-But it failed, since {1} already has a veil of water and none of its party members have a status condition!
-But it failed, since {1} doesn't have any status conditions!
-But it failed, since {1} doesn't have any status conditions!
-But it failed, since {1} has no status conditions!
-But it failed, since {1} has no status conditions!
-But it failed, since {1} hasn't absorbed any energy!
-But it failed, since {1} hasn't absorbed any energy!
-But it failed, since {1} was already waiting to take down others with it!
-But it failed, since {1} was already waiting to take down others with it!
-But it failed, since {1}'s health is greater than {2}'s!
-But it failed, since {1}'s health is greater than {2}'s!
-But it failed, since {1} is an Avatar!
-But it failed, since {1} is an Avatar!
-But it failed, since it isn't {1}'s first turn!
-But it failed, since it isn't {1}'s first turn!
-Which type should {1} launch?
-Which type should {1} launch?
-It's an explosion of pure {1}!
-It's an explosion of pure {1}!
-But it failed, since a Wish is already about to come true for {1}!
-But it failed, since a Wish is already about to come true for {1}!
-But it failed, since {1} is already asleep!
-But it failed, since {1} is already asleep!
-But it failed, since it's not {1}'s first turn!
-But it failed, since it's not {1}'s first turn!
-But it failed, since {1} is already veiled with water!
-But it failed, since {1} is already veiled with water!
-But it failed, since {1}'s roots are already planted!
-But it failed, since {1}'s roots are already planted!
-But it failed, since none of {1} or its allies can be healed or have their status conditions removed!
-But it failed, since none of {1} or its allies can be healed or have their status conditions removed!
-{1} is protected behind its substitute!
-{1} is protected behind its substitute!
-But it failed, since {1} can't be healed!
-But it failed, since {1} can't be healed!
-But it failed, since {1} has no party allies to replace it!
-But it failed, since {1} has no party allies to replace it!
-But it failed, since {1} can't heal or raise its Speed!
-But it failed, since {1} can't heal or raise its Speed!
-But it failed, since {1} can't heal and already has a veil of water!
-But it failed, since {1} can't heal and already has a veil of water!
-But it failed, since {1} is transformed!
-But it failed, since {1} is transformed!
-But it failed, since {1} doesn't know Sketch!
-But it failed, since {1} doesn't know Sketch!
-But it failed, since {1} hasn't used a move!
-But it failed, since {1} hasn't used a move!
-But it failed, since {1} already knows {2}'s most recent move!
-But it failed, since {1} already knows {2}'s most recent move!
-But it failed, {1}'s most recent move can't be Sketched!
-But it failed, {1}'s most recent move can't be Sketched!
-But it failed, since {1} is also transformed!
-But it failed, since {1} is also transformed!
-But it failed, since {1} is disguised by an Illusion!
-But it failed, since {1} is disguised by an Illusion!
-Which move should {1} use?
-Which move should {1} use?
-Which form should {1} take?
-Which form should {1} take?
-{1} has already transformed!
-{1} has already transformed!
-But it failed, since {1} is an avatar!
-But it failed, since {1} is an avatar!
-But it failed, since {1} doesn't have a defined species somehow!
-But it failed, since {1} doesn't have a defined species somehow!
-But it failed, since {1} has no previous species to transform into!
-But it failed, since {1} has no previous species to transform into!
-But it failed, since there are no moves {1} can use!
-But it failed, since there are no moves {1} can use!
-But it failed, since {1} hasn't used a move yet!
-But it failed, since {1} hasn't used a move yet!
-But it failed, since {1} no longer knows its most recent move!
-But it failed, since {1} no longer knows its most recent move!
-But it failed, since {1} is locked into an attack!
-But it failed, since {1} is locked into an attack!
-But it failed, since {1} is focusing!
-But it failed, since {1} is focusing!
-But it failed, since {1}'s last used move cant be instructed!
-But it failed, since {1}'s last used move cant be instructed!
-But it failed, since {1}'s last used move is a two-turn move!
-But it failed, since {1}'s last used move is a two-turn move!
-But it failed, since {1}'s last used move it out of PP!
-But it failed, since {1}'s last used move it out of PP!
-{1} has already mutated!
-{1} has already mutated!
-But it failed, since {1} has no valid allies to switch with!
-But it failed, since {1} has no valid allies to switch with!
-{1} culls {2}!
-{1} culls {2}!
-{1} is newly afraid. It can be flinched again!
-{1} is newly afraid. It can be flinched again!
-But it failed, since {1} isn't asleep!
-But it failed, since {1} isn't asleep!
-But it failed, since {1} knows no other sound-based moves!
-But it failed, since {1} knows no other sound-based moves!
-But it failed, since {1}'s roots keep it stuck in the ground!
-But it failed, since {1}'s roots keep it stuck in the ground!
-But it failed, since {1} was smacked down to the ground!
-But it failed, since {1} was smacked down to the ground!
-But it failed, since {1} is already risen up through magnetism!
-But it failed, since {1} is already risen up through magnetism!
-But it failed, since {1} is already in a volley stance!
-But it failed, since {1} is already in a volley stance!
-But it failed, since {1} can't raise its Sp. Atk and already activated its witch powers!
-But it failed, since {1} can't raise its Sp. Atk and already activated its witch powers!
-But it failed, since {1} is already inured!
-But it failed, since {1} is already inured!
-But it failed, since {1} is already being forced to move next!
-But it failed, since {1} is already being forced to move next!
-But it failed. since {1} isn't using a move this turn!
-But it failed. since {1} isn't using a move this turn!
-But it failed, since {1} isn't using a move this turn!
-But it failed, since {1} isn't using a move this turn!
-But it failed, since {1} was already forced to move last!
-But it failed, since {1} was already forced to move last!
-But it failed, since {1} has no stingers!
-But it failed, since {1} has no stingers!
-But it failed, since a crafty shield is already protecting {1}!
-But it failed, since a crafty shield is already protecting {1}!
-But it failed, since a Mat was already thrown up on {1}'s side of the field!
-But it failed, since a Mat was already thrown up on {1}'s side of the field!
-But it failed, since {1} is already protected by a bubble!
-But it failed, since {1} is already protected by a bubble!
-But it failed, since none of {1}'s moves can be used from Sleep Talk!
-But it failed, since none of {1}'s moves can be used from Sleep Talk!
-But it failed, since {1} does not have enough HP left to make a substitute!
-But it failed, since {1} does not have enough HP left to make a substitute!
-But it failed, since {1} already can't escape!
-But it failed, since {1} already can't escape!
-But it failed, since {1} is already octolocked!
-But it failed, since {1} is already octolocked!
-But it failed, since {1} is already imprisoned and its attacking stats can't be reduced!
-But it failed, since {1} is already imprisoned and its attacking stats can't be reduced!
-But it failed, since {1} is already trapped and can't be frostbitten!
-But it failed, since {1} is already trapped and can't be frostbitten!
-But it failed, since {1} can't have its type changed!
-But it failed, since {1} can't have its type changed!
-But it failed, since {1} can't have its types changed!
-But it failed, since {1} can't have its types changed!
-But it failed, since the type {1} is supposed to become doesn't exist!
-But it failed, since the type {1} is supposed to become doesn't exist!
-But it failed, since {1} is already {2}-type!
-But it failed, since {1} is already {2}-type!
-But it failed, since {1} can't change their type!
-But it failed, since {1} can't change their type!
-But it failed, since {1} is already only Water-type!
-But it failed, since {1} is already only Water-type!
-But it failed, since {1} has no types!
-But it failed, since {1} has no types!
-But it failed, since {1} && {2} share the exact same types!
-But it failed, since {1} && {2} share the exact same types!
-But it failed, since {1} is already only Bug-type!
-But it failed, since {1} is already only Bug-type!
-But it failed, since {1} is already Ghost-type!
-But it failed, since {1} is already Ghost-type!
-But it failed, since {1} is already Grass-type!
-But it failed, since {1} is already Grass-type!
-But it failed, since the Steel-type doesn't exist and {1}'s Speed can't be lowered!
-But it failed, since the Steel-type doesn't exist and {1}'s Speed can't be lowered!
-But it failed, since {1} is already Steel-type and its Speed can't be lowered!
-But it failed, since {1} is already Steel-type and its Speed can't be lowered!
-But it failed, since {1} can't have its type changed and its Speed can't be lowered!
-But it failed, since {1} can't have its type changed and its Speed can't be lowered!
-Which type should {1} gift?
-Which type should {1} gift?
-But it failed, since {1} is already only the chosen type!
-But it failed, since {1} is already only the chosen type!
-But it failed, since {1} is already tormented!
-But it failed, since {1} is already tormented!
-But it failed, since {1}'s is already imprisoning shared moves!
-But it failed, since {1}'s is already imprisoning shared moves!
-But it failed, since {1} is already taunted!
-But it failed, since {1} is already taunted!
-But it failed, since {1} is already locked into an encore!
-But it failed, since {1} is already locked into an encore!
-But it failed, since {1} is setting a Shell Trap!
-But it failed, since {1} is setting a Shell Trap!
-But it failed, since {1} is hiding a Masquerblade!
-But it failed, since {1} is hiding a Masquerblade!
-But it failed, since {1} last used move has no more PP!
-But it failed, since {1} last used move has no more PP!
-But it failed, since {1} is already barred!
-But it failed, since {1} is already barred!
-But it failed, since {1} is already afflicted by a Nightmare!
-But it failed, since {1} is already afflicted by a Nightmare!
-But it failed, since {1} is already covered in tar and can't have their Speed lowered!
-But it failed, since {1} is already covered in tar and can't have their Speed lowered!
-But it failed, since {1} is already cursed!
-But it failed, since {1} is already cursed!
-But it failed, since {1} is already afraid of Bug-type moves!
-But it failed, since {1} is already afraid of Bug-type moves!
-But it failed, since {1} is already fractured!
-But it failed, since {1} is already fractured!
-But it failed, since {1} is already jinxed!
-But it failed, since {1} is already jinxed!
-But it failed, since {1} didn't choose to attack!
-But it failed, since {1} didn't choose to attack!
-But it failed, since {1} already moved this turn!
-But it failed, since {1} already moved this turn!
-But it failed, since {1} doesn't know Last Resort!
-But it failed, since {1} doesn't know Last Resort!
-But it failed, since {1} has no other moves!
-But it failed, since {1} has no other moves!
-But it failed, since {1} hasn't yet used all its other moves!
-But it failed, since {1} hasn't yet used all its other moves!
-But it failed, since {1} isn't Fire-type!
-But it failed, since {1} isn't Fire-type!
-But it failed, since {1} is not Ice-type!
-But it failed, since {1} is not Ice-type!
-{1} is hurt by leftover electricity!
-{1} is hurt by leftover electricity!
-But it failed, since {1} doesn't have any items!
-But it failed, since {1} doesn't have any items!
-But it failed, since {1} can't be given a Black Sludge or have its Sp. Def lowered!
-But it failed, since {1} can't be given a Black Sludge or have its Sp. Def lowered!
-But it failed, since {1} is already embargoed!
-But it failed, since {1} is already embargoed!
-{1} doesn't have an item to give away!
-{1} doesn't have an item to give away!
-{1} can't lose any of its items!
-{1} can't lose any of its items!
-Which item should {1} give away?
-Which item should {1} give away?
-But it failed, since {1} doesn't have room for a new item!
-But it failed, since {1} doesn't have room for a new item!
-But it failed, since {1} can't accept an {2}!
-But it failed, since {1} can't accept an {2}!
-But it failed, since {1} doesn't have an item to recycle!
-But it failed, since {1} doesn't have an item to recycle!
-But it failed, since {1} has the item it would recycle!
-But it failed, since {1} has the item it would recycle!
-{1} doesn't have an item to fling!
-{1} doesn't have an item to fling!
-{1} can't use items!
-{1} can't use items!
-Which item should {1} fling?
-Which item should {1} fling?
-{1} can't use any of its items!
-{1} can't use any of its items!
-Which item should {1} use?
-Which item should {1} use?
-But it failed, since {1} doesn't have an item!
-But it failed, since {1} doesn't have an item!
-But it failed, because {1} has no berries!
-But it failed, because {1} has no berries!
-But it failed, because {1} cannot eat its berry!
-But it failed, because {1} cannot eat its berry!
-But it failed, since {1} has no stat changes!
-But it failed, since {1} has no stat changes!
-But it failed, since {1}'s HP is too low!
-But it failed, since {1}'s HP is too low!
-But it failed, since {1} is already committed to the battle!
-But it failed, since {1} is already committed to the battle!
-But it failed, since {1} is already on a dragon ride!
-But it failed, since {1} is already on a dragon ride!
-But it failed, since {1} is already giving a dragon ride!
-But it failed, since {1} is already giving a dragon ride!
-{1} calls out to the pack!
-{1} calls out to the pack!
-{1} joins with an ally!
-{1} joins with an ally!
-{1} gathers an new mind!
-{1} gathers an new mind!
-{1} connects with their friend!
-{1} connects with their friend!
-But it failed, since {1} can't be leeched or have either of its attacking stats lowered!
-But it failed, since {1} can't be leeched or have either of its attacking stats lowered!
-But it failed, since {1} can't be numbed or have either of its attacking stats lowered!
-But it failed, since {1} can't be numbed or have either of its attacking stats lowered!
-But it failed, since {1} can't be poisoned or have its Speed lowered!
-But it failed, since {1} can't be poisoned or have its Speed lowered!
-But it failed, {1} is above half health!
-But it failed, {1} is above half health!
-But it failed, since the {1} didn't attack {2} this turn!
-But it failed, since the {1} didn't attack {2} this turn!
-But it failed, since {1} is slower than {2}!
-But it failed, since {1} is slower than {2}!
-But it failed, since {1} isn't dizzy!
-But it failed, since {1} isn't dizzy!
-But it failed, since {1} is already drowsy!
-But it failed, since {1} is already drowsy!
-But it failed, since {1} can neither be burned or frostbitten!
-But it failed, since {1} can neither be burned or frostbitten!
-But it failed, since {1} can neither be leeched or numbed!
-But it failed, since {1} can neither be leeched or numbed!
-But it failed, since {1}'s level is greater than {2}'s!
-But it failed, since {1}'s level is greater than {2}'s!
-But it failed, since {1} cannot be replaced!
-But it failed, since {1} cannot be replaced!
-But it failed, since {1} has no party members to replace it!
-But it failed, since {1} has no party members to replace it!
-{1} is no longer Afraid. It was restored to half health!
-{1} is no longer Afraid. It was restored to half health!
-{1} is no longer Afraid!
-{1} is no longer Afraid!
-item
-item
-items
-items
-{1} can't hold two of the same item!
-{1} can't hold two of the same item!
-{1} can't hold more than two items!
-{1} can't hold more than two items!
-{1} is no longer allowed to hold its current items.
-{1} is no longer allowed to hold its current items.
 {1}<<1>>
 {1}<<1>>
 {1}
 {1}
-Turns Left: {1}
-Turns Left: {1}
-Circuit puzzle with ID {1} not found. Aborting.
-Circuit puzzle with ID {1} not found. Aborting.
-Circuit puzzle with ID {1} somehow loaded in illegal state.
-Circuit puzzle with ID {1} somehow loaded in illegal state.
-A candy machine. It contains {1} batches of candy.
-A candy machine. It contains {1} batches of candy.
-You put in ${1}.
-You put in ${1}.
-Unassigned level passed to candyBatchCost: {1}
-Unassigned level passed to candyBatchCost: {1}
-An explodeable rock. Use a Dynamite Stick? You have {1}.
-An explodeable rock. Use a Dynamite Stick? You have {1}.
-Badge {1} Team
-Badge {1} Team
-You combine the {1} and the {2}.
-You combine the {1} and the {2}.
 \cl\l[4]\op\wu\i[{1}]\or{2}\wt[30]
 \cl\l[4]\op\wu\i[{1}]\or{2}\wt[30]
-{1} stands strong, still ready to fight!
-{1} stands strong, still ready to fight!
-You recieved a {1} ({2})
-You recieved a {1} ({2})
-We're running a raffle. Would you like to spend ${1} on a chance to win a {2}?
-We're running a raffle. Would you like to spend ${1} on a chance to win a {2}?
-Congratulations, you have won the raffle! Here is your {1}, as promised.
-Congratulations, you have won the raffle! Here is your {1}, as promised.
-Tomorrow's weather forecast for {1}!
-Tomorrow's weather forecast for {1}!
-The morning will see {1}.
-The morning will see {1}.
-However, things will shake up in the evening with {1}.
-However, things will shake up in the evening with {1}.
-In the afternoon, that will make way for {1}.
-In the afternoon, that will make way for {1}.
-More {1} will return in the evening.
-More {1} will return in the evening.
-Finally, in the evening we'll get {1}.
-Finally, in the evening we'll get {1}.
-Unassigned level passed to pbTrainerDropsItem: {1}
-Unassigned level passed to pbTrainerDropsItem: {1}
 <ac>{1:02d}:{2:02d}
 <ac>{1:02d}:{2:02d}
-It won't have any effect due to the level cap at {1}.
-It won't have any effect due to the level cap at {1}.
 \i[{1}]{2}
 \i[{1}]{2}
-{1} trainers are in range. Deploy?
-{1} trainers are in range. Deploy?
-{1} trainers fled from the stench!
-{1} trainers fled from the stench!
 {1}: {2}
 {1}: {2}
 {1} x{2}
@@ -1682,86 +1208,20 @@ It won't have any effect due to the level cap at {1}.
 {1}-{2}
 {1} - ${2}
 {1} - ${2}
-\me[{1}]{3} found some \c[1]{2}\c[0]!\wtnp[30]
-\me[{1}]{3} found some \c[1]{2}\c[0]!\wtnp[30]
-\me[{1}]{4} found \c[1]{2} {3}\c[0]!\wtnp[30]
-\me[{1}]{4} found \c[1]{2} {3}\c[0]!\wtnp[30]
-\me[{1}]{4} found {2} \c[1]{3}\c[0]!\wtnp[30]
-\me[{1}]{4} found {2} \c[1]{3}\c[0]!\wtnp[30]
-\me[{1}]{3} found an \c[1]{2}\c[0]!\wtnp[30]
-\me[{1}]{3} found an \c[1]{2}\c[0]!\wtnp[30]
-\me[{1}]{3} found a \c[1]{2}\c[0]!\wtnp[30]
-\me[{1}]{3} found a \c[1]{2}\c[0]!\wtnp[30]
-{4} put the {1} away\<<n>>in the <icon=bagPocket{2}>\c<<[>>1<<]>>{3} Pocket\c<<[>>0<<]>>.
-{4} put the {1} away\<<n>>in the <icon=bagPocket{2}>\c<<[>>1<<]>>{3} Pocket\c<<[>>0<<]>>.
-{2} found some \c[1]{1}\c[0]!\wtnp[30]
-{2} found some \c[1]{1}\c[0]!\wtnp[30]
-{3} found \c[1]{1} {2}\c[0]!\wtnp[30]
-{3} found \c[1]{1} {2}\c[0]!\wtnp[30]
-{3} found {1} \c[1]{2}\c[0]!\wtnp[30]
-{3} found {1} \c[1]{2}\c[0]!\wtnp[30]
-{2} found an \c[1]{1}\c[0]!\wtnp[30]
-{2} found an \c[1]{1}\c[0]!\wtnp[30]
-{2} found a \c[1]{1}\c[0]!\wtnp[30]
-{2} found a \c[1]{1}\c[0]!\wtnp[30]
-Searching\ts[15]...\wtnp[{1}]
-Searching\ts[15]...\wtnp[{1}]
-Oh! A {1} was found nearby!
-Oh! A {1} was found nearby!
-Set the value for {1} (0-{2}).
-Set the value for {1} (0-{2}).
 -
 -
 {1} {2} ({3}) x{4}
 {1} {2} ({3}) x{4}
 {1} {2} x{3}
 {1} {2} x{3}
-Dump Storage Boxes to Text
-Dump Storage Boxes to Text
-Create a text file listing all Pokémon in storage.
-Create a text file listing all Pokémon in storage.
-Pokémon in storage written to {1}
-Pokémon in storage written to {1}
-All text in the game was extracted and saved to PBS\{1}.<<1>>
-All text in the game was extracted and saved to PBS\{1}.<<1>>
-\me[Earn battle points]\ptYou've earned {1} battle points.\wtnp[70]
-\me[Earn battle points]\ptYou've earned {1} battle points.\wtnp[70]
 \wm\ss<i>{1}</i>
 \wm\ss<i>{1}</i>
-The submitted NPC ID could not be made traitor as it was not randomly selected on this playthrough: {1}
-The submitted NPC ID could not be made traitor as it was not randomly selected on this playthrough: {1}
-{1} awaits you in the arena.
-{1} awaits you in the arena.
-Ok, let me know when you are ready to battle {1}.
-Ok, let me know when you are ready to battle {1}.
-Your next match will be against {1}.
-Your next match will be against {1}.
-\wmThe match between {1} and \PN will now begin!
-\wmThe match between {1} and \PN will now begin!
-Odds are displayed for the {1} round matches, gathered from a spectator poll.
-Odds are displayed for the {1} round matches, gathered from a spectator poll.
-{1} percent of respondents expect you to win against {2}.
-{1} percent of respondents expect you to win against {2}.
-\PN hands over the {1}, $30,000, and {2}.
-\PN hands over the {1}, $30,000, and {2}.
-Now, bask in the beautiful glow of your shiny {1}!
-Now, bask in the beautiful glow of your shiny {1}!
 \wm{1}\me<<[>>Slots win<<]>>\wtnp<<[>>80<<]>><<1>>
 \wm{1}\me<<[>>Slots win<<]>>\wtnp<<[>>80<<]>><<1>>
 \cl\l[2]\op\wu<ac>{1}</ac>\wtnp[{2}]
 \cl\l[2]\op\wu<ac>{1}</ac>\wtnp[{2}]
 ? ? ? ?
 ? ? ? ?
-Learn Move
-Learn Move
-Check Move
-Check Move
-Which form?
-Which form?
-{1} form {2}'s moves are {3}.
-{1} form {2}'s moves are {3}.
-{1} form {2}'s move is {3}.
-{1} form {2}'s move is {3}.
 1111111
 1111111
 2222222

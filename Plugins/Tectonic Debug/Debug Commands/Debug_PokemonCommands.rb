@@ -99,8 +99,8 @@ module PokemonDebugMenuCommands
             cancel = false
             if ids[cmd] == :SLEEP
               params = ChooseNumberParams.new
-              params.setRange(0, 9)
-              params.setDefaultValue(3)
+              params.setRange(1, 2)
+              params.setDefaultValue(2)
               count = pbMessageChooseNumber(
                  _INTL("Set the Pokémon's sleep count."), params) { screen.pbUpdate }
               cancel = true if count <= 0
