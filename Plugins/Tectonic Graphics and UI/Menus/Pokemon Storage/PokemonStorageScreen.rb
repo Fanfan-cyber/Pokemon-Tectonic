@@ -312,10 +312,10 @@ class PokemonStorageScreen
         box = @storage.boxes[boxNumber]
         if box.isLocked?
             box.unlock
-            pbDisplay("Box #{boxNumber + 1} is no longer locked to sorting.")
+            pbDisplay("Box {1} is no longer locked to sorting.", boxNumber + 1)
         else
             box.lock
-            pbDisplay("Box #{boxNumber + 1} is now locked to sorting.")
+            pbDisplay("Box {1} is now locked to sorting.", boxNumber + 1)
         end
     end
 
@@ -544,7 +544,7 @@ class PokemonStorageScreen
                 pbDisplay(_INTL("It didn't earn enough XP for you to earn any candies back."))
             else
                 percentile = (CANDY_EXCHANGE_EFFICIENCY * 100).to_i
-                pbDisplay(_INTL("You are reimbursed for #{percentile} percent of the EXP it earned."))
+                pbDisplay(_INTL("You are reimbursed for {1} percent of the EXP it earned.", percentile))
                 pbReceiveItem(:EXPCANDYM, mCandyTotal) if mCandyTotal > 0
                 pbReceiveItem(:EXPCANDYS, sCandyTotal) if sCandyTotal > 0
                 pbReceiveItem(:EXPCANDYXS, xsCandyTotal) if xsCandyTotal > 0
@@ -699,7 +699,7 @@ class PokemonStorageScreen
                 elsif boxesSorted == 1
                     @scene.pbDisplay(_INTL("Only one box was sorted."))
                 else
-                    @scene.pbDisplay(_INTL("#{boxesSorted} boxes were sorted!"))
+                    @scene.pbDisplay(_INTL("{1} boxes were sorted!", boxesSorted))
                 end
             end
             break

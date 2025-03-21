@@ -64,14 +64,14 @@ def displayWeatherReport(weatherReport,mapName)
     eveningWeather, eveningStrength = weatherReport[2]
     eveningDescriptor = getWeatherDescriptor(eveningWeather, eveningStrength)
 
-    pbMessage(_INTL("Tomorrow's weather forecast for #{mapName}!"))
+    pbMessage(_INTL("Tomorrow's weather forecast for {1}!", mapName))
     if (morningWeather == :None) &&  (afternoonWeather == :None) && (eveningWeather == :None)
         pbMessage(_INTL("The area will experience normal conditions all day."))
         pbMessage(_INTL("This means cloud cover at around 50 percent, with a very low chance for precipitation."))
         return
     end
     
-    pbMessage(_INTL("The morning will see #{morningDescriptor}."))
+    pbMessage(_INTL("The morning will see {1}.", morningDescriptor))
     showWeatherWarnings(morningWeather, morningStrength)
     if afternoonDescriptor == morningDescriptor
         pbMessage(_INTL("That weather will continue into the afternoon."))
@@ -79,20 +79,20 @@ def displayWeatherReport(weatherReport,mapName)
         if eveningDescriptor == afternoonDescriptor
             pbMessage(_INTL("That evening: even more of the same."))
         else
-            pbMessage(_INTL("However, things will shake up in the evening with #{eveningDescriptor}."))
+            pbMessage(_INTL("However, things will shake up in the evening with {1}.", eveningDescriptor))
             showWeatherWarnings(eveningWeather, eveningStrength)
         end
     else
-        pbMessage(_INTL("In the afternoon, that will make way for #{afternoonDescriptor}."))
+        pbMessage(_INTL("In the afternoon, that will make way for {1}.", afternoonDescriptor))
         showWeatherWarnings(afternoonWeather, afternoonStrength)
         if eveningDescriptor == afternoonDescriptor
             pbMessage(_INTL("The day will close out with the same conditions."))
         else
             if eveningDescriptor == morningDescriptor
-                pbMessage(_INTL("More #{eveningDescriptor} will return in the evening."))
+                pbMessage(_INTL("More {1} will return in the evening.", eveningDescriptor))
                 showWeatherWarnings(eveningWeather, eveningStrength)
             else
-                pbMessage(_INTL("Finally, in the evening we'll get #{eveningDescriptor}."))
+                pbMessage(_INTL("Finally, in the evening we'll get {1}.", eveningDescriptor))
                 showWeatherWarnings(eveningWeather, eveningStrength)
             end
         end

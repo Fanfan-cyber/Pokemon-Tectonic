@@ -7,7 +7,7 @@ def legendaryFight(species, level, switch = 'A', form = 0)
         return true
     else
         speciesName = GameData::Species.get(species).name
-        pbMessage(_INTL("#{speciesName} stands strong, still ready to fight!"))
+        pbMessage(_INTL("{1} stands strong, still ready to fight!", speciesName))
         return false
     end
 end

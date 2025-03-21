@@ -6,7 +6,7 @@ def pokemonRaffle(species,level=10,cost=200,baseChance=5.0,chanceIncrease=1.5,di
 	$PokemonGlobal.raffleChancesTried = {} if $PokemonGlobal.raffleChancesTried.nil?
 	$PokemonGlobal.raffleChancesTried[species] = 0 if !$PokemonGlobal.raffleChancesTried.has_key?(species)
 	speciesName = GameData::Species.get(species).real_name
-	if pbConfirmMessageSerious(_INTL("We're running a raffle. Would you like to spend $#{cost} on a chance to win a #{speciesName}?"))
+	if pbConfirmMessageSerious(_INTL("We're running a raffle. Would you like to spend ${1} on a chance to win a {2}?", cost, speciesName))
 		if $Trainer.money < cost
 			pbMessage(_INTL("I'm sorry, but you don't seem to have enough money."))
 		else
@@ -17,7 +17,7 @@ def pokemonRaffle(species,level=10,cost=200,baseChance=5.0,chanceIncrease=1.5,di
 			echoln("Raffle chance and roll: #{chance},#{roll}")
 			pbMessage(_INTL("Alright, let me roll for you...\\|"))
 			if roll < chance
-				pbMessage(_INTL("Congratulations, you have won the raffle! Here is your #{speciesName}, as promised."))
+				pbMessage(_INTL("Congratulations, you have won the raffle! Here is your {1}, as promised.", speciesName))
 				pbAddPokemon(species,level)
 				setMySwitch(disablingSwitch,true)
 			else

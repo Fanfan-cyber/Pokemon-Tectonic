@@ -1481,6 +1481,19 @@ EffectChance = 30
 Description = The target is overwhelmed by light and sound. It has a 30% chance to lower the target's Attack and Sp. Atk.
 Animation = SIGNALBEAM
 #-------------------------------
+[SILKBLADE]
+Name = Silk Blade
+Type = BUG
+Category = Physical
+Power = 130
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = Invalid
+Flags = CanProtect,CanRandomCrit,Blade
+Description = The user slashes using woven silk, lowering the user's Attack by four steps. Can random critical hit.
+Animation = XSCISSOR
+#-------------------------------
 [SKITTERSMACK]
 Name = Skitter Smack
 Type = BUG

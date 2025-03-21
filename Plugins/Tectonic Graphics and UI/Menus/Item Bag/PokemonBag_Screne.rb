@@ -110,7 +110,7 @@ class PokemonBagScreen
                 params.setRange(0, Settings::BAG_MAX_PER_SLOT)
                 params.setDefaultValue(qty)
                 newqty = pbMessageChooseNumber(
-                   _INTL("Choose new quantity of {1} (max. #{Settings::BAG_MAX_PER_SLOT}).",itemplural),params) { @scene.pbUpdate }
+                   _INTL("Choose new quantity of {1} (max. {2}).",itemplural, Settings::BAG_MAX_PER_SLOT),params) { @scene.pbUpdate }
                 if newqty>qty
                   @bag.pbStoreItem(item,newqty-qty)
                 elsif newqty<qty

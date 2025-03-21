@@ -242,10 +242,10 @@ class TilingCardsStorageInteractionMenu_Scene < TilingCardsMenu_Scene
 		end
 		typeCommands.push("Cancel")
 		existingIndex = typesArray.find_index(@pkmn.itemTypeChosen)
-		chosenNumber = pbShowCommands(_INTL("What type should #{@pkmn.name} become?"),typeCommands,existingIndex)
+		chosenNumber = pbShowCommands(_INTL("What type should {1} become?", @pkmn.name),typeCommands,existingIndex)
 		if chosenNumber > -1 && chosenNumber < typeCommands.length - 1
 			typeSettingItem = @pkmn.hasTypeSetterItem?
-			pbDisplay(_INTL("#{@pkmn.name} changed its #{getItemName(typeSettingItem)} to #{typeCommands[chosenNumber]}-type!"))
+			pbDisplay(_INTL("{1} changed its {2} to {3}-type!", @pkmn.name, getItemName(typeSettingItem), typeCommands[chosenNumber]))
 			@pkmn.itemTypeChosen = typesArray[chosenNumber]
 		end
     end
@@ -275,7 +275,7 @@ class TilingCardsStorageInteractionMenu_Scene < TilingCardsMenu_Scene
 		modifyCommand = pbShowCommands(_INTL("Do what with {1}?",@pkmn.name),commands)
 		if cmdRename >= 0 && modifyCommand == cmdRename
 			currentName = @pkmn.name
-			pbTextEntry(_INTL("{1}'s nickname?", currentName), 0, Pokemon::MAX_NAME_SIZE, 5)
+			pbTextEntry(_INTL("{1}'s nickname?", currentName),0,Pokemon::MAX_NAME_SIZE,5)
 			if pbGet(5) == "" || pbGet(5) == currentName
 				@pkmn.name = currentName
 			else

@@ -8227,7 +8227,7 @@ Pokemon = TORTERRA,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,0,15,0,0,15
 Pokemon = LEAVANNY,70
-    Moves = SILKBLADE,LEAFBLADE,SWORDSDANCE,STICKYWEB
+    Moves = XSCISSOR,LEAFBLADE,SWORDSDANCE,STICKYWEB
     AbilityIndex = 0 # Cold Reception
     Item = WHETSTONE
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -8548,7 +8548,7 @@ Pokemon = MAROMATISSE,70
     AbilityIndex = 1 # Uncanny Luck
     Item = LEFTOVERS
 Pokemon = LEAVANNY,70
-    Moves = INFERNOIMPACT,KNOCKOFF,LEAFBLADE,SILKBLADE
+    Moves = INFERNOIMPACT,KNOCKOFF,LEAFBLADE,SKEWER
     AbilityIndex = 0 # Cold Reception
 Pokemon = DRIFBLIM,70
     Moves = TAILWIND,HEATWAVE,HEX,SUBSTITUTE

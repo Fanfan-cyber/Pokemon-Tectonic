@@ -7,7 +7,7 @@ class PokeBattle_Move_DisableTargetUsingSameMoveConsecutively < PokeBattle_Move
     def pbFailsAgainstTarget?(user, target, show_message)
         if target.effectActive?(:Torment)
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} is already tormented!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1} is already tormented!", target.pbThis(true)))
             end
             return true
         end
@@ -49,7 +49,7 @@ class PokeBattle_Move_DisableTargetMovesKnownByUser < PokeBattle_Move
     def pbMoveFailed?(user, _targets, show_message)
         if user.effectActive?(:Imprison)
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{user.pbThis(true)}'s is already imprisoning shared moves!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1}'s is already imprisoning shared moves!", user.pbThis(true)))
             end
             return true
         end
@@ -167,7 +167,7 @@ class PokeBattle_Move_DisableTargetStatusMoves4 < PokeBattle_Move
     def pbFailsAgainstTarget?(user, target, show_message)
         return false if damagingMove?
         if target.effectActive?(:Taunt)
-            @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} is already taunted!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since {1} is already taunted!", target.pbThis(true))) if show_message
             return true
         end
         return true if pbMoveFailedAromaVeil?(user, target, show_message)
@@ -284,11 +284,11 @@ class PokeBattle_Move_DisableTargetUsingDifferentMove4 < PokeBattle_Move
 
     def pbFailsAgainstTarget?(user, target, show_message)
         if target.effectActive?(:Encore)
-            @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} is already locked into an encore!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since {1} is already locked into an encore!", target.pbThis(true))) if show_message
             return true
         end
         unless target.lastRegularMoveUsed
-            @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} hasn't used a move yet!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since {1} hasn't used a move yet!", target.pbThis(true))) if show_message
             return true
         end
         unless @battle.canInvokeMove?(target.lastRegularMoveUsed)
@@ -297,11 +297,11 @@ class PokeBattle_Move_DisableTargetUsingDifferentMove4 < PokeBattle_Move
             return true
         end
         if target.effectActive?(:ShellTrap)
-            @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} is setting a Shell Trap!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since {1} is setting a Shell Trap!", target.pbThis(true))) if show_message
             return true
         end
         if target.effectActive?(:Masquerblade)
-            @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} is hiding a Masquerblade!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since {1} is hiding a Masquerblade!", target.pbThis(true))) if show_message
             return true
         end
         return true if pbMoveFailedAromaVeil?(user, target, show_message)
@@ -313,7 +313,7 @@ class PokeBattle_Move_DisableTargetUsingDifferentMove4 < PokeBattle_Move
             break
         end
         unless canEncore
-            @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} last used move has no more PP!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since {1} last used move has no more PP!", target.pbThis(true))) if show_message
             return true
         end
         return false
@@ -357,7 +357,7 @@ class PokeBattle_Move_DisableTargetUsingOffTypeMove4 < PokeBattle_Move
     def pbFailsAgainstTarget?(user, target, show_message)
         return false if damagingMove?
         if target.effectActive?(:Barred)
-            @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} is already barred!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since {1} is already barred!", target.pbThis(true))) if show_message
             return true
         end
         return true if pbMoveFailedAromaVeil?(user, target, show_message)
@@ -394,12 +394,12 @@ end
 class PokeBattle_Move_StartDamageTargetEachTurnIfTargetAsleep < PokeBattle_Move
     def pbFailsAgainstTarget?(_user, target, show_message)
         unless target.asleep?
-            @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} isn't asleep!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since {1} isn't asleep!", target.pbThis(true))) if show_message
             return true
         end
         if target.effectActive?(:Nightmare)
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} is already afflicted by a Nightmare!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1} is already afflicted by a Nightmare!", target.pbThis(true)))
             end
             return true
         end
@@ -423,7 +423,7 @@ end
 class PokeBattle_Move_LowerTargetSpeed6MakeTargetWeakerToFire < PokeBattle_Move
     def pbFailsAgainstTarget?(_user, target, show_message)
         if !target.pbCanLowerStatStep?(:SPEED, target, self) && target.effectActive?(:TarShot)
-            @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} is already covered in tar and can't have their Speed lowered!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since {1} is already covered in tar and can't have their Speed lowered!", target.pbThis(true))) if show_message
             return true
         end
         return false
@@ -449,7 +449,7 @@ end
 class PokeBattle_Move_CurseTarget < PokeBattle_Move
     def pbFailsAgainstTarget?(user, target, show_message)
         if target.effectActive?(:Curse)
-            @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} is already cursed!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since {1} is already cursed!", target.pbThis(true))) if show_message
             return true
         end
         return false
@@ -502,7 +502,7 @@ class PokeBattle_Move_NumbTargetOrCurseIfNumb < PokeBattle_Move
     def pbFailsAgainstTarget?(user, target, show_message)
         if target.numbed?
             if target.effectActive?(:Curse) && show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} is already cursed!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1} is already cursed!", target.pbThis(true)))
             end
         else
             return !target.canNumb?(user, show_message, self)
@@ -537,7 +537,7 @@ class PokeBattle_Move_StartsCursedIngrain < PokeBattle_Move_StartHealUserEachTur
     def pbMoveFailed?(user, _targets, show_message)
         if user.effectActive?(:Ingrain) || user.effectActive?(:EvilRoots)
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{user.pbThis(true)}'s roots are already planted!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1}'s roots are already planted!", user.pbThis(true)))
             end
             return true
         end
@@ -593,7 +593,7 @@ class PokeBattle_Move_MakeTargetWeakerToBug < PokeBattle_Move
         return false if damagingMove?
         if target.effectActive?(:CreepOut)
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} is already afraid of Bug-type moves!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1} is already afraid of Bug-type moves!", target.pbThis(true)))
             end
             return true
         end
@@ -735,7 +735,7 @@ class PokeBattle_Move_FractureTarget < PokeBattle_Move
     def pbFailsAgainstTarget?(user, target, show_message)
         return false if damagingMove?
         if target.effectActive?(:Fracture)
-            @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} is already fractured!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since {1} is already fractured!", target.pbThis(true))) if show_message
             return true
         end
         return false
@@ -764,7 +764,7 @@ class PokeBattle_Move_JinxTarget < PokeBattle_Move
     def pbFailsAgainstTarget?(user, target, show_message)
         return false if damagingMove?
         if target.effectActive?(:Jinxed)
-            @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} is already jinxed!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since {1} is already jinxed!", target.pbThis(true))) if show_message
             return true
         end
         return false

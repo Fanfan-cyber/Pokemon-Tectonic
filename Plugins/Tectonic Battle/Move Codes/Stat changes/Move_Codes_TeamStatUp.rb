@@ -13,7 +13,7 @@ class PokeBattle_Move_EmpoweredHowl < PokeBattle_Move_RaiseUserAndAlliesAtk2
     include EmpoweredMove
 
     def pbEffectGeneral(user)
-        summonAvatar(user, :POOCHYENA, _INTL("#{user.pbThis} calls out to the pack!"))
+        summonAvatar(user, :POOCHYENA, _INTL("{1} calls out to the pack!", user.pbThis))
         super
         transformType(user, :DARK)
     end
@@ -55,7 +55,7 @@ class PokeBattle_Move_EmpoweredStandTogether < PokeBattle_Move_RaiseUserAndAllie
     include EmpoweredMove
 
     def pbEffectGeneral(user)
-        summonAvatar(user, :TYROGUE, _INTL("#{user.pbThis} joins with an ally!"))
+        summonAvatar(user, :TYROGUE, _INTL("{1} joins with an ally!", user.pbThis))
         super
         transformType(user, :FIGHTING)
     end
@@ -76,7 +76,7 @@ class PokeBattle_Move_EmpoweredMindLink < PokeBattle_Move_RaiseUserAndAlliesSpAt
     include EmpoweredMove
 
     def pbEffectGeneral(user)
-        summonAvatar(user, :ABRA, _INTL("#{user.pbThis} gathers an new mind!"))
+        summonAvatar(user, :ABRA, _INTL("{1} gathers an new mind!", user.pbThis))
         super
         transformType(user, :PSYCHIC)
     end
@@ -97,7 +97,7 @@ class PokeBattle_Move_EmpoweredSymbiosis < PokeBattle_Move_RaiseUserAndAlliesSpD
     include EmpoweredMove
 
     def pbEffectGeneral(user)
-        summonAvatar(user, :GOSSIFLEUR, _INTL("#{user.pbThis} connects with their friend!"))
+        summonAvatar(user, :GOSSIFLEUR, _INTL("{1} connects with their friend!", user.pbThis))
         super
         transformType(user, :GRASS)
     end

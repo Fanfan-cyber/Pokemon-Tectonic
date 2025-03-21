@@ -49,7 +49,7 @@ class PokeBattle_Move_BurnOrFrostbiteTargetBasedOnHigherStat < PokeBattle_Move
         return false if damagingMove?
         if !target.canBurn?(user, show_message, self) && !target.canFrostbite?(user, show_message, self)
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} can neither be burned or frostbitten!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1} can neither be burned or frostbitten!", target.pbThis(true)))
             end
             return true
         end
@@ -99,7 +99,7 @@ class PokeBattle_Move_LeechTargetIfSlowerNumbTargetIfFaster < PokeBattle_Move
         return false if damagingMove?
         if !target.canLeech?(user, false, self) && !target.canNumb?(user, false, self)
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} can neither be leeched or numbed!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1} can neither be leeched or numbed!", target.pbThis(true)))
             end
             return true
         end

@@ -167,25 +167,25 @@ class PokeBattle_Move_TransformTargetPreEvolution < PokeBattle_Move
     def pbFailsAgainstTarget?(_user, target, show_message)
         if target.illusion?
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} is disguised by an Illusion!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1} is disguised by an Illusion!", target.pbThis(true)))
             end
             return true
         end
         if target.boss?
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} is an avatar!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1} is an avatar!", target.pbThis(true)))
             end
             return true
         end
         unless target.species_data
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} doesn't have a defined species somehow!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1} doesn't have a defined species somehow!", target.pbThis(true)))
             end
             return true
         end
         unless GameData::Species.get(target.technicalSpecies).has_previous_species?
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} has no previous species to transform into!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1} has no previous species to transform into!", target.pbThis(true)))
             end
             return true
         end
@@ -259,7 +259,7 @@ class PokeBattle_Move_UseHighestBasePowerMoveFromUserParty < PokeBattle_Move
     def pbMoveFailed?(user, _targets, show_message)
         unless getOptimizedMove(user)
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since there are no moves #{user.pbThis(true)} can use!"))
+                @battle.pbDisplay(_INTL("But it failed, since there are no moves {1} can use!", user.pbThis(true)))
             end
             return true
         end
@@ -280,19 +280,19 @@ class PokeBattle_Move_TargetUsesItsLastUsedMoveAgain < PokeBattle_Move
     def pbFailsAgainstTarget?(_user, target, show_message)
         unless target.lastRegularMoveUsed
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} hasn't used a move yet!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1} hasn't used a move yet!", target.pbThis(true)))
             end
             return true
         end
         unless target.pbHasMove?(target.lastRegularMoveUsed)
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} no longer knows its most recent move!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1} no longer knows its most recent move!", target.pbThis(true)))
             end
             return true
         end
         if target.usingMultiTurnAttack?
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} is locked into an attack!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1} is locked into an attack!", target.pbThis(true)))
             end
             return true
         end
@@ -302,18 +302,18 @@ class PokeBattle_Move_TargetUsesItsLastUsedMoveAgain < PokeBattle_Move
                           targetMove.function == "UsedAfterUserTakesSpecialDamage" ||   # Masquerblade
                           targetMove.function == "BurnAttackerBeforeUserActs" ||     # Beak Blast
                           targetMove.function == "FrostbiteAttackerBeforeUserActs")   # Condensate
-            @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} is focusing!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since {1} is focusing!", target.pbThis(true))) if show_message
             return true
         end
         if GameData::Move.get(target.lastRegularMoveUsed).uninvocable?
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)}'s last used move cant be instructed!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1}'s last used move cant be instructed!", target.pbThis(true)))
             end
             return true
         end
         if @battle.getBattleMoveInstanceFromID(target.lastRegularMoveUsed).is_a?(PokeBattle_TwoTurnMove)
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)}'s last used move is a two-turn move!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1}'s last used move is a two-turn move!", target.pbThis(true)))
             end
             return true
         end
@@ -323,7 +323,7 @@ class PokeBattle_Move_TargetUsesItsLastUsedMoveAgain < PokeBattle_Move
         end
         if target.getMoves[idxMove].pp == 0 && target.getMoves[idxMove].total_pp > 0
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)}'s last used move it out of PP!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1}'s last used move it out of PP!", target.pbThis(true)))
             end
             return true
         end
@@ -450,7 +450,7 @@ class PokeBattle_Move_UserSwapsPositionsWithAlly < PokeBattle_Move
             return false
         end
         if show_message
-            @battle.pbDisplay(_INTL("But it failed, since #{user.pbThis(true)} has no valid allies to switch with!"))
+            @battle.pbDisplay(_INTL("But it failed, since {1} has no valid allies to switch with!", user.pbThis(true)))
         end
         return true
     end
@@ -566,7 +566,7 @@ class PokeBattle_Move_FaintsTargetBelowQuarterOfTotalHP < PokeBattle_Move
 
     def pbEffectAgainstTarget(user, target)
         if canCull?(target)
-            @battle.pbDisplay(_INTL("#{user.pbThis} culls #{target.pbThis(true)}!"))
+            @battle.pbDisplay(_INTL("{1} culls {2}!", user.pbThis, target.pbThis(true)))
             target.pbReduceHP(target.hp, false)
             target.pbItemHPHealCheck
         end
@@ -621,7 +621,7 @@ class PokeBattle_Move_RayquazaTargetLosesFlinchImmunity < PokeBattle_Move
         return if target.damageState.unaffected
         if target.effectActive?(:FlinchImmunity)
             target.disableEffect(:FlinchImmunity)
-            @battle.pbDisplay(_INTL("#{target.pbThis} is newly afraid. It can be flinched again!"))
+            @battle.pbDisplay(_INTL("{1} is newly afraid. It can be flinched again!", target.pbThis))
         end
     end
 end
@@ -735,7 +735,7 @@ class PokeBattle_Move_UseChoiceOf3ElementalFangs < PokeBattle_Move
         elsif !user.pbOwnedByPlayer? # Trainer AI
             @chosenMove = @validMoves[0]
         else
-            chosenIndex = @battle.scene.pbShowCommands(_INTL("Which move should #{user.pbThis(true)} use?"),validMoveNames,0)
+            chosenIndex = @battle.scene.pbShowCommands(_INTL("Which move should {1} use?", user.pbThis(true)),validMoveNames,0)
             @chosenMove = @validMoves[chosenIndex]
         end
     end
@@ -761,7 +761,7 @@ class PokeBattle_Move_FailsIfUserNotAsleep < PokeBattle_Move
 
     def pbMoveFailed?(user, _targets, show_message)
         unless user.asleep?
-            @battle.pbDisplay(_INTL("But it failed, since #{user.pbThis(true)} isn't asleep!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since {1} isn't asleep!", user.pbThis(true))) if show_message
             return true
         end
         return false
@@ -792,7 +792,7 @@ class PokeBattle_Move_UseAllOtherSoundMoves < PokeBattle_Move
     def pbMoveFailed?(user, _targets, show_message)
         if getAllOtherSoundMoves(user).length == 0
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{user.pbThis(true)} knows no other sound-based moves!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1} knows no other sound-based moves!", user.pbThis(true)))
             end
             return true
         end

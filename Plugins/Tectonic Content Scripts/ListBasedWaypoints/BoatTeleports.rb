@@ -65,7 +65,7 @@ def unlockBoatingSpot(dockID,ignoreAlreadyActive=false)
     return if getGlobalSwitch(dockInfo[:unlock_switch]) && !ignoreAlreadyActive
     mapName = _INTL(dockInfo[:map_name])
     text = _INTL("You can now travel to <imp>{1}</imp> on your boat!",mapName)
-    pbMessage(_INTL("\\wm#{text}\\me[Slots win]\\wtnp[80]\1"))
+    pbMessage(_INTL("\\wm{1}\\me[Slots win]\\wtnp[80]\1", text))
     pbSetGlobalSwitch(dockInfo[:unlock_switch])
 end
 

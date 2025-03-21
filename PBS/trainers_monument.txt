@@ -1678,7 +1678,7 @@ Pokemon = KABUTOPS,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,20,20,0
 Pokemon = LEAVANNY,70
-    Moves = LEAFBLADE,SILKBLADE,STICKYWEB,ELECTROSLASH
+    Moves = LEAFBLADE,XSCISSOR,STICKYWEB,ELECTROSLASH
     AbilityIndex = 1 # Bladebrained
     Item = EJECTPACK
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -1710,7 +1710,7 @@ Pokemon = KROOKODILE,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,0,20,20
 Pokemon = LEAVANNY,70
-    Moves = LEAFBLADE,SILKBLADE,SWORDSDANCE,ELECTROSLASH
+    Moves = LEAFBLADE,XSCISSOR,SWORDSDANCE,ELECTROSLASH
     AbilityIndex = 1 # Bladebrained
     Item = EJECTPACK
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def

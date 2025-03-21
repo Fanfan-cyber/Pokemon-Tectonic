@@ -2504,18 +2504,18 @@ Flags = CanProtect,CanMagicCoat
 Description = If the user is faster than the target, puts the target to sleep, then minimizes the user's Speed stat.
 Animation = POISONPOWDER
 #-------------------------------
-[SILKBLADE]
-Name = Silk Blade
+[SKEWER]
+Name = Skewer
 Type = BUG
 Category = Physical
 Power = 130
 Accuracy = 100
-TotalPP = 5
+TotalPP = 10
 Target = NearOther
 FunctionCode = LowerUserAtk4
-Flags = CanProtect,CanRandomCrit,Blade
-Description = The user slashes using woven silk, lowering the user's Attack by four steps. Can random critical hit.
-Animation = XSCISSOR
+Flags = CanProtect
+Description = The user stabs through the target using tremendous force. Lowers the user's Attack by four steps.
+Animation = FELLSTINGER
 #-------------------------------
 [SMUSH]
 Name = Smush

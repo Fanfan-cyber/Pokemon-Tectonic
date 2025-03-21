@@ -22,7 +22,7 @@ def pbReceiveRandomPokemon(level)
 	pkmn = Pokemon.new(speciesDat.species, level)
 	pkmn.form = speciesDat.form
 	pbAddPokemonSilent(pkmn)
-	pbMessage(_INTL("You recieved a #{speciesDat.name} (#{speciesDat.form_name})"))
+	pbMessage(_INTL("You recieved a {1} ({2})", speciesDat.name, speciesDat.form_name))
 end
 
 def hasPokemonInParty(speciesToCheck)

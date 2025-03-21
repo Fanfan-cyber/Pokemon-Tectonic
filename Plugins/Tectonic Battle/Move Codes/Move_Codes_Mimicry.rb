@@ -14,11 +14,11 @@ class PokeBattle_Move_ReplaceMoveWithTargetLastMoveUsed < PokeBattle_Move
 
     def pbMoveFailed?(user, _targets, show_message)
         if user.transformed?
-            @battle.pbDisplay(_INTL("But it failed, since #{user.pbThis(true)} is transformed!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since {1} is transformed!", user.pbThis(true))) if show_message
             return true
         end
         if !user.pbHasMove?(@id)
-            @battle.pbDisplay(_INTL("But it failed, since #{user.pbThis(true)} doesn't know Sketch!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since {1} doesn't know Sketch!", user.pbThis(true))) if show_message
             return true
         end
         return false
@@ -27,15 +27,15 @@ class PokeBattle_Move_ReplaceMoveWithTargetLastMoveUsed < PokeBattle_Move
     def pbFailsAgainstTarget?(user, target, show_message)
         lastMoveData = GameData::Move.try_get(target.lastRegularMoveUsed)
         if !lastMoveData
-            @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} hasn't used a move!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since {1} hasn't used a move!", target.pbThis(true))) if show_message
             return true
         end
         if user.pbHasMove?(target.lastRegularMoveUsed)
-             @battle.pbDisplay(_INTL("But it failed, since #{user.pbThis(true)} already knows #{target.pbThis(true)}'s most recent move!")) if show_message
+             @battle.pbDisplay(_INTL("But it failed, since {1} already knows {2}'s most recent move!", user.pbThis(true), target.pbThis(true))) if show_message
              return true
         end
         if @moveBlacklist.include?(lastMoveData.function_code)
-            @battle.pbDisplay(_INTL("But it failed, #{target.pbThis(true)}'s most recent move can't be Sketched!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, {1}'s most recent move can't be Sketched!", target.pbThis(true))) if show_message
             return true
         end
         return false
@@ -69,12 +69,12 @@ class PokeBattle_Move_TransformUserIntoTarget < PokeBattle_Move
 
     def pbFailsAgainstTarget?(_user, target, show_message)
         if target.transformed?
-            @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} is also transformed!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since {1} is also transformed!", target.pbThis(true))) if show_message
             return true
         end
         if target.illusion?
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} is disguised by an Illusion!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1} is disguised by an Illusion!", target.pbThis(true)))
             end
             return true
         end
@@ -158,7 +158,7 @@ class PokeBattle_Move_UseChoiceOf3LastUsedMoves < PokeBattle_Move
             elsif !user.pbOwnedByPlayer? # Trainer AI
                 @chosenMoveID = moveChoices[0]
             else
-                chosenIndex = @battle.scene.pbShowCommands(_INTL("Which move should #{user.pbThis(true)} use?"),moveNames,0)
+                chosenIndex = @battle.scene.pbShowCommands(_INTL("Which move should {1} use?", user.pbThis(true)),moveNames,0)
                 @chosenMoveID = moveChoices[chosenIndex]
             end
         end

@@ -705,7 +705,7 @@ class PokemonStorageScene
                         if search
                             fitsSearch = curpkmn.hasType?(search.id)
                         else
-                            pbDisplay(_INTL("\"#{ret}\" is not a valid type."))
+                            pbDisplay(_INTL("\"{1}\" is not a valid type.", ret))
                             return false
                         end
                     elsif searchMethod == 4 # Tribe
@@ -717,7 +717,7 @@ class PokemonStorageScene
                                 break
                             end
                         else
-                            pbDisplay(_INTL("\"#{ret}\" is not a valid tribe."))
+                            pbDisplay(_INTL("\"{1}\" is not a valid tribe.", ret))
                             return false
                         end
                     end
@@ -1026,16 +1026,8 @@ class PokemonStorageScene
             end
 
             # Show status/fainted/Pokérus infected icon
-            status = 0
-            if pokemon.afraid?
-                status = GameData::Status::DATA.keys.length / 2 + 1
-            elsif pokemon.fainted?
-                status = GameData::Status::DATA.keys.length / 2
-            elsif pokemon.status != :NONE
-                status = GameData::Status.get(pokemon.status).id_number
-            end
-            status -= 1
-            imagepos.push([addLanguageSuffix("Graphics/Pictures/statuses"), 120, 68, 0, 16 * status, 44, 16]) if status >= 0
+            statusImageIndex = @pokemon.getStatusImageIndex
+            imagepos.push([addLanguageSuffix("Graphics/Pictures/statuses"), 120, 68, 0, 16 * statusImageIndex, 44, 16]) if statusImageIndex >= 0
             
             pbDrawImagePositions(overlay, imagepos)
         end

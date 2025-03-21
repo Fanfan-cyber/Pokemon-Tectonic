@@ -24,7 +24,7 @@ end
 ItemHandlers::UseInField.add(:STINKBOMB,proc { |item|
     eventsToRemove = getStinkBombables
     next 0 if eventsToRemove.empty?
-    next 0 unless pbConfirmMessageSerious(_INTL("#{eventsToRemove.count} trainers are in range. Deploy?"))
+    next 0 unless pbConfirmMessageSerious(_INTL("{1} trainers are in range. Deploy?", eventsToRemove.count))
     pbUseItemMessage(:STINKBOMB)
 
     # Play sound effects and spawn particle effect
@@ -39,7 +39,7 @@ ItemHandlers::UseInField.add(:STINKBOMB,proc { |item|
     end
 
     if eventsToRemove.count > 1
-        pbMessage(_INTL("#{eventsToRemove.count} trainers fled from the stench!"))
+        pbMessage(_INTL("{1} trainers fled from the stench!", eventsToRemove.count))
     else
         pbMessage(_INTL("A nearby trainer fled from the stench!"))
     end

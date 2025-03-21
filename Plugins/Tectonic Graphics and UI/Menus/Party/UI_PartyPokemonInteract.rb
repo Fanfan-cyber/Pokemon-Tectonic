@@ -90,7 +90,7 @@ class TilingCardsPokemonMenu_Scene < TilingCardsMenu_Scene
                           @party.length > 1 && ($Trainer.able_pokemon_count > 1 || !@pkmn.able?)
                       end,
                       :press_proc => proc do |_scene|
-                          if pbConfirm(_INTL("Are you sure you'd like to send back #{@pkmn.name}?"))
+                          if pbConfirm(_INTL("Are you sure you'd like to send back {1}?", @pkmn.name))
                               promptToTakeItems(@pkmn)
                               pbStorePokemonInPC(@pkmn)
                               @party[@pkmnid] = nil
@@ -219,11 +219,11 @@ class TilingCardsPokemonMenu_Scene < TilingCardsMenu_Scene
         end
         typeCommands.push("Cancel")
         existingIndex = typesArray.find_index(@pkmn.itemTypeChosen)
-        chosenNumber = @partyScene.pbShowCommands(_INTL("What type should #{@pkmn.name} become?"), typeCommands,
+        chosenNumber = @partyScene.pbShowCommands(_INTL("What type should {1} become?", @pkmn.name), typeCommands,
 existingIndex)
         if chosenNumber > -1 && chosenNumber < typeCommands.length - 1
             typeSettingItem = @pkmn.hasTypeSetterItem?
-            pbDisplay(_INTL("#{@pkmn.name} changed its #{getItemName(typeSettingItem)} to #{typeCommands[chosenNumber]}-type!"))
+            pbDisplay(_INTL("{1} changed its {2} to {3}-type!", @pkmn.name, getItemName(typeSettingItem), typeCommands[chosenNumber]))
             @pkmn.itemTypeChosen = typesArray[chosenNumber]
         end
     end

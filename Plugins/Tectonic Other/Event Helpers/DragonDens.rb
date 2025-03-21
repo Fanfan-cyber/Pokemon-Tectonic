@@ -32,7 +32,7 @@ def hatchDragonEggs(egg)
 	end
 	item_data = GameData::Item.get(egg)
 	
-	pbMessage(_INTL("\\PN hands over the #{item_data.name}."))
+	pbMessage(_INTL("\\PN hands over the {1}.", item_data.name))
 	
 	pbMessage(_INTL("Now I must have time. Gingerly I shall attend to the egg."))
 	

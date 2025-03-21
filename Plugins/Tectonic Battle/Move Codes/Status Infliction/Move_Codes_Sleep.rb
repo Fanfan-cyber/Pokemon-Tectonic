@@ -39,7 +39,7 @@ end
 class PokeBattle_Move_SleepTargetIfBelowHalfHP < PokeBattle_SleepMove
     def pbFailsAgainstTarget?(user, target, show_message)
         if target.hp > target.totalhp / 2
-            @battle.pbDisplay(_INTL("But it failed, #{target.pbThis(true)} is above half health!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, {1} is above half health!", target.pbThis(true))) if show_message
             return true
         end
         return !target.canSleep?(user, show_message, self)
@@ -67,7 +67,7 @@ class PokeBattle_Move_SleepTargetIfDealtDamageToUserThisTurn < PokeBattle_SleepM
     def pbFailsAgainstTarget?(user, target, show_message)
         unless user.lastAttacker.include?(target.index)
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since the #{target.pbThis(true)} didn't attack #{user.pbThis(true)} this turn!"))
+                @battle.pbDisplay(_INTL("But it failed, since the {1} didn't attack {2} this turn!", target.pbThis(true), user.pbThis(true)))
             end
             return true
         end
@@ -95,7 +95,7 @@ class PokeBattle_Move_SleepTargetIfSlowerThanUserMinUserSpeed < PokeBattle_Sleep
     def pbFailsAgainstTarget?(user, target, show_message)
         if target.pbSpeed > user.pbSpeed
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{user.pbThis(true)} is slower than #{target.pbThis(true)}!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1} is slower than {2}!", user.pbThis(true), target.pbThis(true)))
             end
             return true
         end
@@ -133,7 +133,7 @@ end
 class PokeBattle_Move_SleepTargetIfDizzy < PokeBattle_SleepMove
     def pbFailsAgainstTarget?(user, target, show_message)
         unless target.dizzy?
-            @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} isn't dizzy!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since {1} isn't dizzy!", target.pbThis(true))) if show_message
             return true
         end
         return !target.canSleep?(user, show_message, self, true)
@@ -151,7 +151,7 @@ end
 class PokeBattle_Move_SleepTargetNextTurn < PokeBattle_Move
     def pbFailsAgainstTarget?(user, target, show_message)
         if target.effectActive?(:Yawn)
-            @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} is already drowsy!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since {1} is already drowsy!", target.pbThis(true))) if show_message
             return true
         end
         return true unless target.canSleep?(user, show_message, self)

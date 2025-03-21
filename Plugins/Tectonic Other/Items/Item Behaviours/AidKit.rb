@@ -94,7 +94,7 @@ ItemHandlers::UseFromBag.add(:KITEXPANSION,proc { |item|
 		next 0
 	else
 		charges = $PokemonGlobal.teamHealerMaxUses
-		pbMessage(_INTL("Your Aid Kit has been increased to {1} charges.",charges + 1))
+		pbMessage(_INTL("Your Aid Kit has been increased to {1} charges.", charges + 1))
 		$PokemonGlobal.teamHealerMaxUses	 	+= 1
 		$PokemonGlobal.teamHealerCurrentUses 	+= 1
 

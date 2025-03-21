@@ -16,17 +16,17 @@ end
     name = "#{name} (#{pokemon.species_data.name})" if pokemon.nicknamed?
     if pokemon.species == :SMEARGLE
         if moveData.cut
-            pbMessage(_INTL("\\l[4]Pokemon #{name} in #{location} has move #{moveData.name} in its move list. That move has been cut from the game or is not legal to learn. Removing now.")) if location && !skipLegalityMessages?
+            pbMessage(_INTL("\\l[4]Pokemon {1} in {2} has move {3} in its move list. That move has been cut from the game or is not legal to learn. Removing now.", name, location, moveData.name)) if location && !skipLegalityMessages?
             return false
         end
     else
         if !moveData.learnable?
-            pbMessage(_INTL("\\l[4]Pokemon #{name} in #{location} has move #{moveData.name} in its move list. That move has been cut from the game or is not legal to learn. Removing now.")) if location && !skipLegalityMessages?
+            pbMessage(_INTL("\\l[4]Pokemon {1} in {2} has move {3} in its move list. That move has been cut from the game or is not legal to learn. Removing now.", name, location, moveData.name)) if location && !skipLegalityMessages?
             return false
         end
       
         if !pokemon.learnable_moves(false).include?(moveID)
-            pbMessage(_INTL("\\l[4]Pokemon #{name} in #{location} has move #{moveData.name} in its move list. That move is not legal for its species. Removing now.")) if location && !skipLegalityMessages?
+            pbMessage(_INTL("\\l[4]Pokemon {1} in {2} has move {3} in its move list. That move is not legal for its species. Removing now.", name, location, moveData.name)) if location && !skipLegalityMessages?
             return false
         end
     end
@@ -69,12 +69,12 @@ end
         if pokemon.ability.nil?
           pokemon.recalculateAbilityFromIndex
           newAbilityName = pokemon.ability.name
-          pbMessage(_INTL("\\l[4]Pokémon #{name} in #{location} has no ability. Switching to #{newAbilityName}.")) unless skipLegalityMessages?
+          pbMessage(_INTL("\\l[4]Pokemon {1} in {2} has no ability. Switching to {3}.", name, location, newAbilityName)) unless skipLegalityMessages?
         else
           oldAbilityName = pokemon.ability.name
           pokemon.recalculateAbilityFromIndex
           newAbilityName = pokemon.ability.name
-          pbMessage(_INTL("\\l[4]Pokémon #{name} in #{location} has ability #{oldAbilityName}. That ability is not legal for its species. Switching to #{newAbilityName}.")) unless skipLegalityMessages?
+          pbMessage(_INTL("\\l[4]Pokemon {1} in {2} has ability {3}. That ability is not legal for its species. Switching to {4}.", name, location, oldAbilityName, newAbilityName)) unless skipLegalityMessages?
         end
         anyPokemonChanged = true
       end
@@ -83,7 +83,7 @@ end
       pokemon.items.clone.each do |item|
         itemData = GameData::Item.get(item)
         next if itemData.legal?
-        pbMessage(_INTL("\\l[4]Pokemon #{name} in #{location} has item #{itemData.name}. That item has been cut from the game or is not legal to own. Removing now.")) unless skipLegalityMessages?
+        pbMessage(_INTL("\\l[4]Pokemon {1} in {2} has item {3}. That item has been cut from the game or is not legal to own. Removing now.", name, location, itemData.name)) unless skipLegalityMessages?
         pokemon.removeItem(item)
         anyPokemonChanged = true
       end

@@ -6,7 +6,7 @@
 class PokeBattle_Move_SetUserTypesToUserMoveType < PokeBattle_Move
     def pbMoveFailed?(user, _targets, show_message)
         unless user.canChangeType?
-            @battle.pbDisplay(_INTL("But it failed, since #{user.pbThis(true)} can't have its type changed!"))
+            @battle.pbDisplay(_INTL("But it failed, since {1} can't have its type changed!", user.pbThis(true)))
             return true
         end
         userTypes = user.pbTypes(true)
@@ -42,7 +42,7 @@ class PokeBattle_Move_SetUserTypesToResistLastAttack < PokeBattle_Move
     def pbMoveFailed?(user, _targets, show_message)
         unless user.canChangeType?
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{user.pbThis(true)} can't have its types changed!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1} can't have its types changed!", user.pbThis(true)))
             end
             return true
         end
@@ -83,20 +83,20 @@ class PokeBattle_Move_SetUserTypesBasedOnEnvironment < PokeBattle_Move
     def pbMoveFailed?(user, _targets, show_message)
         unless user.canChangeType?
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{user.pbThis(true)} can't have its types changed!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1} can't have its types changed!", user.pbThis(true)))
             end
             return true
         end
         camouflageType = getCamouflageType
         unless GameData::Type.exists?(camouflageType)
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since the type #{user.pbThis(true)} is supposed to become doesn't exist!"))
+                @battle.pbDisplay(_INTL("But it failed, since the type {1} is supposed to become doesn't exist!", user.pbThis(true)))
             end
             return true
         end
         if user.pbHasOtherType?(camouflageType)
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{user.pbThis(true)} is already #{GameData::Type.get(camouflageType).name}-type!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1} is already {2}-type!", user.pbThis(true), GameData::Type.get(camouflageType).name))
             end
             return true
         end
@@ -151,11 +151,11 @@ class PokeBattle_Move_SetTargetTypesToWater < PokeBattle_Move
             return true
         end
         unless target.canChangeType?
-            @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} can't change their type!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since {1} can't change their type!", target.pbThis(true))) if show_message
             return true
         end
         unless target.pbHasOtherType?(:WATER)
-            @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} is already only Water-type!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since {1} is already only Water-type!", target.pbThis(true))) if show_message
             return true
         end
         return false
@@ -181,7 +181,7 @@ class PokeBattle_Move_SetUserTypesToTargetTypes < PokeBattle_Move
     def pbMoveFailed?(user, _targets, show_message)
         unless user.canChangeType?
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{user.pbThis(true)} can't have its types changed!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1} can't have its types changed!", user.pbThis(true)))
             end
             return true
         end
@@ -191,11 +191,11 @@ class PokeBattle_Move_SetUserTypesToTargetTypes < PokeBattle_Move
     def pbFailsAgainstTarget?(user, target, show_message)
         newTypes = target.pbTypes(true)
         if newTypes.length == 0 # Target has no type to copy
-            @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} has no types!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since {1} has no types!", target.pbThis(true))) if show_message
             return true
         end
         if user.pbTypes == target.pbTypes && user.effects[:Type3] == target.effects[:Type3]
-            @battle.pbDisplay(_INTL("But it failed, since #{user.pbThis(true)} && #{target.pbThis(true)} share the exact same types!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since {1} && {2} share the exact same types!", user.pbThis(true), target.pbThis(true))) if show_message
             return true
         end
         return false
@@ -218,11 +218,11 @@ class PokeBattle_Move_SetTargetTypesToBug < PokeBattle_Move
             return true
         end
         unless target.canChangeType?
-            @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} can't change their type!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since {1} can't change their type!", target.pbThis(true))) if show_message
             return true
         end
         unless target.pbHasOtherType?(:BUG)
-            @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} is already only Bug-type!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since {1} is already only Bug-type!", target.pbThis(true))) if show_message
             return true
         end
         return false
@@ -262,13 +262,13 @@ class PokeBattle_Move_AddGhostTypeToTarget < PokeBattle_Move
         end
         if target.pbHasType?(:GHOST)
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} is already Ghost-type!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1} is already Ghost-type!", target.pbThis(true)))
             end
             return true
         end
         unless target.canChangeType?
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} can't have its type changed!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1} can't have its type changed!", target.pbThis(true)))
             end
             return true
         end
@@ -295,13 +295,13 @@ class PokeBattle_Move_AddGrassTypeToTarget < PokeBattle_Move
         end
         if target.pbHasType?(:GRASS)
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} is already Grass-type!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1} is already Grass-type!", target.pbThis(true)))
             end
             return true
         end
         unless target.canChangeType?
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} can't have its type changed!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1} can't have its type changed!", target.pbThis(true)))
             end
             return true
         end
@@ -324,18 +324,18 @@ class PokeBattle_Move_AddSteelTypeToTargetLowerTargetSpd4 < PokeBattle_Move
     def pbFailsAgainstTarget?(user, target, show_message)
         unless target.pbCanLowerStatStep?(:SPEED, user, self)
             unless GameData::Type.exists?(:STEEL)
-                @battle.pbDisplay(_INTL("But it failed, since the Steel-type doesn't exist and #{target.pbThis(true)}'s Speed can't be lowered!")) if show_message
+                @battle.pbDisplay(_INTL("But it failed, since the Steel-type doesn't exist and {1}'s Speed can't be lowered!", target.pbThis(true))) if show_message
                 return true
             end
             if target.pbHasType?(:STEEL)
                 if show_message
-                    @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} is already Steel-type and its Speed can't be lowered!"))
+                    @battle.pbDisplay(_INTL("But it failed, since {1} is already Steel-type and its Speed can't be lowered!", target.pbThis(true)))
                 end
                 return true
             end
             unless target.canChangeType?
                 if show_message
-                    @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} can't have its type changed and its Speed can't be lowered!"))
+                    @battle.pbDisplay(_INTL("But it failed, since {1} can't have its type changed and its Speed can't be lowered!", target.pbThis(true)))
                 end
                 return true
             end
@@ -453,7 +453,7 @@ class PokeBattle_Move_SetTargetTypesToChoiceOfDragonFairySteel < PokeBattle_Move
             elsif !user.pbOwnedByPlayer? # Trainer AI
                 @chosenType = validTypes[0]
             else
-                chosenIndex = @battle.scene.pbShowCommands(_INTL("Which type should #{user.pbThis(true)} gift?"),validTypeNames,0)
+                chosenIndex = @battle.scene.pbShowCommands(_INTL("Which type should {1} gift?", user.pbThis(true)),validTypeNames,0)
                 @chosenType = validTypes[chosenIndex]
             end
         end
@@ -465,11 +465,11 @@ class PokeBattle_Move_SetTargetTypesToChoiceOfDragonFairySteel < PokeBattle_Move
             return true
         end
         unless target.canChangeType?
-            @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} can't change their type!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since {1} can't change their type!", target.pbThis(true))) if show_message
             return true
         end
         unless target.pbHasOtherType?(@chosenType)
-            @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} is already only the chosen type!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since {1} is already only the chosen type!", target.pbThis(true))) if show_message
             return true
         end
         return false

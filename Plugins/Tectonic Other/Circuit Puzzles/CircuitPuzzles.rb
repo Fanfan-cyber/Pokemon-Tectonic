@@ -11,7 +11,7 @@ def circuitPuzzle(circuitPuzzleID)
         }
         return ret
     else
-        pbMessage(_INTL("Circuit puzzle with ID #{circuitPuzzleID} not found. Aborting."))
+        pbMessage(_INTL("Circuit puzzle with ID {1} not found. Aborting.", circuitPuzzleID))
     end
 end
 
@@ -138,7 +138,7 @@ class CircuitPuzzle_Screen
         loadCircuitState
         detectLegalState
         unless @inLegalState
-            pbMessageDisplay(_INTL("Circuit puzzle with ID #{circuitPuzzleID} somehow loaded in illegal state."))
+            pbMessageDisplay(_INTL("Circuit puzzle with ID {1} somehow loaded in illegal state.", circuitPuzzleID))
         end
     end
 

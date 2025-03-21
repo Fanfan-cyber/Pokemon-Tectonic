@@ -95,7 +95,7 @@ class NPCRandomization
             $game_switches[NPC2_TRAITOR_SWITCH] = true
             $game_map.need_refresh = true
         else
-            pbMessage(_INTL("The submitted NPC ID could not be made traitor as it was not randomly selected on this playthrough: #{npcID}"))
+            pbMessage(_INTL("The submitted NPC ID could not be made traitor as it was not randomly selected on this playthrough: {1}", npcID))
             pbMessage(_INTL("This is a recoverable error. Please alert a programmer."))
         end
     end

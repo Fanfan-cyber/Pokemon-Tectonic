@@ -1317,11 +1317,11 @@ sp.form) && !Settings::DEX_SHOWS_ALL_FORMS
 
             # Use count
             useCount = @speciesUseData[entry[:species]]
-            drawTextEx(overlay, xLeft, coordinateY, 450, 1, _INTL("Use count: #{useCount[0]}, #{useCount[1]}"), base, shadow)
+            drawTextEx(overlay, xLeft, coordinateY, 450, 1, _INTL("Use count: {1}, {2}", useCount[0], useCount[1]), base, shadow)
             coordinateY += 32
 
             # Earliest level accessible
-            drawTextEx(overlay, xLeft, coordinateY, 450, 1, _INTL("Earliest level: #{fSpecies.earliest_available}"), base, shadow)
+            drawTextEx(overlay, xLeft, coordinateY, 450, 1, _INTL("Earliest level: {1}", fSpecies.earliest_available), base, shadow)
             coordinateY += 32
 
             # Speed tier
@@ -1339,7 +1339,7 @@ sp.form) && !Settings::DEX_SHOWS_ALL_FORMS
 
             fasterThanPercentOfMetaGame = numberFaster.to_f / total.to_f
             fasterThanPercentOfMetaGame = (fasterThanPercentOfMetaGame * 10_000).floor / 100.0
-            drawTextEx(overlay, xLeft, coordinateY, 450, 1, _INTL("Faster than #{fasterThanPercentOfMetaGame}% of final evos"), base,
+            drawTextEx(overlay, xLeft, coordinateY, 450, 1, _INTL("Faster than {1}% of final evos", fasterThanPercentOfMetaGame), base,
               shadow)
             coordinateY += 32
 
@@ -1348,7 +1348,7 @@ sp.form) && !Settings::DEX_SHOWS_ALL_FORMS
             currentHP = (totalHP * 0.15).floor
             chanceToCatch = theoreticalCaptureChance(:NONE, currentHP, totalHP, fSpecies.catch_rate)
             chanceToCatch = (chanceToCatch * 10_000).floor / 100.0
-            drawTextEx(overlay, xLeft, coordinateY, 450, 1, _INTL("#{chanceToCatch}% chance to catch at level 40, %15 health"), base,
+            drawTextEx(overlay, xLeft, coordinateY, 450, 1, _INTL("{1}% chance to catch at level 40, %15 health", chanceToCatch), base,
               shadow)
             coordinateY += 32
 
@@ -1357,7 +1357,7 @@ sp.form) && !Settings::DEX_SHOWS_ALL_FORMS
             typesOfCoverage = get_bnb_coverage(fSpecies)
 
             drawTextEx(overlay, xLeft, coordinateY, 450, 1,
-                _INTL("BnB coverage #{typesOfCoverage.length}: #{typesOfCoverage[0..[2, typesOfCoverage.length].min]}"), base, shadow)
+                _INTL("BnB coverage {1}: {2}", typesOfCoverage.length, typesOfCoverage[0..[2, typesOfCoverage.length].min]), base, shadow)
             coordinateY += 32
             if typesOfCoverage.length > 2
                 for index in 1..10
@@ -1390,11 +1390,11 @@ sp.form) && !Settings::DEX_SHOWS_ALL_FORMS
 
             coversPercentOfMetaGame = numberCovered.to_f / total.to_f
             coversPercentOfMetaGame = (coversPercentOfMetaGame * 10_000).floor / 100.0
-            drawTextEx(overlay, xLeft, coordinateY, 450, 1, _INTL("Covers #{coversPercentOfMetaGame}% of final evos"), base,
+            drawTextEx(overlay, xLeft, coordinateY, 450, 1, _INTL("Covers {1}% of final evos", coversPercentOfMetaGame), base,
               shadow)
             coordinateY += 32
 
-            drawTextEx(overlay, xLeft, coordinateY, 450, 6, _INTL("Notes: #{fSpecies.notes}"), base, shadow)
+            drawTextEx(overlay, xLeft, coordinateY, 450, 6, _INTL("Notes: {1}", fSpecies.notes), base, shadow)
             coordinateY += 32
         end
     end

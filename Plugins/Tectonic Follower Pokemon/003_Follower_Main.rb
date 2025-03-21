@@ -105,31 +105,31 @@ def pbPokemonFound(item,quantity = 1,message = "")
   if $PokemonBag.pbStoreItem(item,quantity)   # If item can be picked up
     meName = (item.is_key_item?) ? "Key item get" : "Item get"
     if item == :LEFTOVERS
-      pbMessage(_INTL("\\me[{1}]#{pokename} found some \\c[1]{2}\\c[0]!\\wtnp[30]",meName,itemname))
+      pbMessage(_INTL("\\me[{1}]{3} found some \\c[1]{2}\\c[0]!\\wtnp[30]",meName,itemname, pokename))
     elsif item.is_machine?   # TM or HM
-      pbMessage(_INTL("\\me[{1}]#{pokename} found \\c[1]{2} {3}\\c[0]!\\wtnp[30]",meName,itemname,GameData::Move.get(move).name))
+      pbMessage(_INTL("\\me[{1}]{4} found \\c[1]{2} {3}\\c[0]!\\wtnp[30]",meName,itemname,GameData::Move.get(move).name, pokename))
     elsif quantity>1
-      pbMessage(_INTL("\\me[{1}]#{pokename} found {2} \\c[1]{3}\\c[0]!\\wtnp[30]",meName,quantity,itemname))
+      pbMessage(_INTL("\\me[{1}]{4} found {2} \\c[1]{3}\\c[0]!\\wtnp[30]",meName,quantity,itemname, pokename))
     elsif itemname.starts_with_vowel?
-      pbMessage(_INTL("\\me[{1}]#{pokename} found an \\c[1]{2}\\c[0]!\\wtnp[30]",meName,itemname))
+      pbMessage(_INTL("\\me[{1}]{3} found an \\c[1]{2}\\c[0]!\\wtnp[30]",meName,itemname, pokename))
     else
-      pbMessage(_INTL("\\me[{1}]#{pokename} found a \\c[1]{2}\\c[0]!\\wtnp[30]",meName,itemname))
+      pbMessage(_INTL("\\me[{1}]{3} found a \\c[1]{2}\\c[0]!\\wtnp[30]",meName,itemname, pokename))
     end
-    pbMessage(_INTL("#{pokename} put the {1} away\\nin the <icon=bagPocket{2}>\\c[1]{3} Pocket\\c[0].",
-       itemname,pocket,PokemonBag.pocketNames()[pocket]))
+    pbMessage(_INTL("{4} put the {1} away\\nin the <icon=bagPocket{2}>\\c[1]{3} Pocket\\c[0].",
+       itemname,pocket,PokemonBag.pocketNames()[pocket], pokename))
     return true
   end
   # Can't add the item
   if item == :LEFTOVERS
-    pbMessage(_INTL("#{pokename} found some \\c[1]{1}\\c[0]!\\wtnp[30]",itemname))
+    pbMessage(_INTL("{2} found some \\c[1]{1}\\c[0]!\\wtnp[30]",itemname, pokename))
   elsif item.is_machine?   # TM or HM
-    pbMessage(_INTL("#{pokename} found \\c[1]{1} {2}\\c[0]!\\wtnp[30]",itemname,GameData::Move.get(move).name))
+    pbMessage(_INTL("{3} found \\c[1]{1} {2}\\c[0]!\\wtnp[30]",itemname,GameData::Move.get(move).name, pokename))
   elsif quantity>1
-    pbMessage(_INTL("#{pokename} found {1} \\c[1]{2}\\c[0]!\\wtnp[30]",quantity,itemname))
+    pbMessage(_INTL("{3} found {1} \\c[1]{2}\\c[0]!\\wtnp[30]",quantity,itemname, pokename))
   elsif itemname.starts_with_vowel?
-    pbMessage(_INTL("#{pokename} found an \\c[1]{1}\\c[0]!\\wtnp[30]",itemname))
+    pbMessage(_INTL("{2} found an \\c[1]{1}\\c[0]!\\wtnp[30]",itemname, pokename))
   else
-    pbMessage(_INTL("#{pokename} found a \\c[1]{1}\\c[0]!\\wtnp[30]",itemname))
+    pbMessage(_INTL("{2} found a \\c[1]{1}\\c[0]!\\wtnp[30]",itemname, pokename))
   end
   pbMessage(_INTL("But your Bag is full..."))
   return false

@@ -8,7 +8,7 @@ def pbLevelGivingItem(pkmn, item, scene)
     pbSceneDefaultDisplay(_INTL("It won't have any effect."),scene)
     return false
   elsif LEVEL_CAPS_USED && (pkmn.level + 1) > getLevelCap
-      pbSceneDefaultDisplay(_INTL("It won't have any effect due to the level cap at #{getLevelCap}."),scene)
+      pbSceneDefaultDisplay(_INTL("It won't have any effect due to the level cap at {1}.", getLevelCap),scene)
       return false
   end
 

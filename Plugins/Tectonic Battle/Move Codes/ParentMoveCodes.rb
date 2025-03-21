@@ -743,7 +743,7 @@ class PokeBattle_ProtectMove < PokeBattle_Move
             return true
         end
         if user.effectActive?(:ProtectFailure)
-            @battle.pbDisplay(_INTL("But it failed, since #{user.pbThis(true)} used a protection move last turn!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since {1} used a protection move last turn!", user.pbThis(true))) if show_message
             return true
         end
         return false
@@ -1081,7 +1081,7 @@ class PokeBattle_InviteMove < PokeBattle_Move
     def pbFailsAgainstTarget?(user, target, show_message)
         if @battle.primevalWeatherPresent?(false) && target.pbCanInflictStatus?(@statusToApply, user, false,
 self) && show_message
-            @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} can't gain the status and the weather can't be set!"))
+            @battle.pbDisplay(_INTL("But it failed, since {1} can't gain the status and the weather can't be set!", target.pbThis(true)))
         end
     end
 
@@ -1119,7 +1119,7 @@ class PokeBattle_StatusSpikeMove < PokeBattle_Move
         if user.pbOpposingSide.effectAtMax?(@spikeEffect)
             maximum = @spikeData.maximum
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since the opposing side already has #{maximum} layers of #{@spikeData.name} spikes!"))
+                @battle.pbDisplay(_INTL("But it failed, since the opposing side already has {1} layers of {2} spikes!", maximum, @spikeData.name))
             end
             return true
         end
@@ -1247,7 +1247,7 @@ class PokeBattle_TeamStatBuffMove < PokeBattle_Move
             break unless failed
         end
         if failed
-            @battle.pbDisplay(_INTL("But it failed, since neither #{user.pbThis(true)} nor any of its allies can receive the stat improvements!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since neither {1} nor any of its allies can receive the stat improvements!", user.pbThis(true))) if show_message
             return true
         end
         return false
@@ -1294,7 +1294,7 @@ class PokeBattle_PartyAttackMove < PokeBattle_Move
         calculatePartyAttackerList(user)
         if @partyAttackerList.empty?
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since there are no party members on #{user.pbTeam(true)} who can join in!"))
+                @battle.pbDisplay(_INTL("But it failed, since there are no party members on {1} who can join in!", user.pbTeam(true)))
             end
             return true
         end
@@ -1360,7 +1360,7 @@ class PokeBattle_ForetoldMove < PokeBattle_Move
     def pbFailsAgainstTarget?(_user, target, show_message)
         if !@battle.futureSight && target.position.effectActive?(:FutureSightCounter)
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since an attack is already foreseen against #{target.pbThis(true)}!"))
+                @battle.pbDisplay(_INTL("But it failed, since an attack is already foreseen against {1}!", target.pbThis(true)))
             end
             return true
         end
@@ -1409,7 +1409,7 @@ class PokeBattle_HelpingMove < PokeBattle_Move
             return true
         end
         if target.effectActive?(@helpingEffect)
-            @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} is already being helped!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since {1} is already being helped!", target.pbThis(true))) if show_message
             return true
         end
         return true if pbMoveFailedTargetAlreadyMoved?(target, show_message)
@@ -1444,12 +1444,12 @@ class PokeBattle_StatDrainHealingMove < PokeBattle_Move
         if !@battle.moldBreaker && target.hasActiveAbility?(%i[CONTRARY ECCENTRIC]) &&
            target.statStepAtMax?(@statToReduce)
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)}'s #{statName} can't go any higher!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1}'s {2} can't go any higher!", target.pbThis(true), statName))
             end
             return true
         elsif target.statStepAtMin?(@statToReduce)
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)}'s #{statName} can't go any lower!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1}'s {2} can't go any lower!", target.pbThis(true), statName))
             end
             return true
         end
@@ -1519,7 +1519,7 @@ module EmpoweredMove
             return
         end
         if @battle.pbSideSize(user.index) < 3
-            summonMessage ||= _INTL("#{user.pbThis} summons another Avatar!")
+            summonMessage ||= _INTL("{1} summons another Avatar!", user.pbThis)
             @battle.pbDisplay(summonMessage)
             @battle.summonAvatarBattler(species, user.level, 0, user.index % 2)
         end

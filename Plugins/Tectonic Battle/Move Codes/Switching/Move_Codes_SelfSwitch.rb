@@ -7,7 +7,7 @@ class PokeBattle_Move_SwitchOutUserStatusMove < PokeBattle_Move
     def pbMoveFailed?(user, _targets, show_message)
         unless @battle.pbCanChooseNonActive?(user.index)
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{user.pbThis(true)} has no party members to replace it!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1} has no party members to replace it!", user.pbThis(true)))
             end
             return true
         end
@@ -34,7 +34,7 @@ class PokeBattle_Move_SwitchOutUserPassOnEffects < PokeBattle_Move
     def pbMoveFailed?(user, _targets, show_message)
         unless @battle.pbCanChooseNonActive?(user.index)
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{user.pbThis(true)} has no party allies to replace it!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1} has no party allies to replace it!", user.pbThis(true)))
             end
             return true
         end

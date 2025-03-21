@@ -25,7 +25,7 @@ class PokeBattle_Move_HealUserPositionNextTurn < PokeBattle_Move
     def pbMoveFailed?(user, _targets, show_message)
         if user.position.effectActive?(:Wish)
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since a Wish is already about to come true for #{user.pbThis(true)}!"))
+                @battle.pbDisplay(_INTL("But it failed, since a Wish is already about to come true for {1}!", user.pbThis(true)))
             end
             return true
         end
@@ -138,7 +138,7 @@ class PokeBattle_Move_HealUserFullyAndFallAsleep < PokeBattle_HealingMove
 
     def pbMoveFailed?(user, targets, show_message)
         if user.asleep?
-            @battle.pbDisplay(_INTL("But it failed, since #{user.pbThis(true)} is already asleep!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since {1} is already asleep!", user.pbThis(true))) if show_message
             return true
         end
         return true unless user.canSleep?(user, show_message, self, true)
@@ -176,7 +176,7 @@ class PokeBattle_Move_HealUserFullHPFailsIfNotUserFirstTurn < PokeBattle_Healing
 
     def pbMoveFailed?(user, targets, show_message)
         unless user.firstTurn?
-            @battle.pbDisplay(_INTL("But it failed, since it's not #{user.pbThis(true)}'s first turn!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since it's not {1}'s first turn!", user.pbThis(true))) if show_message
             return true
         end
         return super
@@ -192,7 +192,7 @@ class PokeBattle_Move_StartHealUserEachTurn < PokeBattle_Move
         return false if damagingMove?
         if user.effectActive?(:AquaRing)
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{user.pbThis(true)} is already veiled with water!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1} is already veiled with water!", user.pbThis(true)))
             end
             return true
         end
@@ -223,7 +223,7 @@ class PokeBattle_Move_StartHealUserEachTurnTrapUser < PokeBattle_Move
     def pbMoveFailed?(user, _targets, show_message)
         if user.effectActive?(:Ingrain) || user.effectActive?(:EvilRoots)
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{user.pbThis(true)}'s roots are already planted!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1}'s roots are already planted!", user.pbThis(true)))
             end
             return true
         end
@@ -251,7 +251,7 @@ class PokeBattle_Move_PrimevalIngrain < PokeBattle_Move_StartHealUserEachTurnTra
     def pbMoveFailed?(user, _targets, show_message)
         if user.effectActive?(:EmpoweredIngrain)
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{user.pbThis(true)}'s roots are already planted!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1}'s roots are already planted!", user.pbThis(true)))
             end
             return true
         end
@@ -341,7 +341,7 @@ class PokeBattle_Move_HealUserAndAlliesQuarterOfTotalHPCureStatus < PokeBattle_M
             jglheal += 1 if (targets[i].hp == targets[i].totalhp || !targets[i].canHeal?) && targets[i].status == :NONE
         end
         if jglheal == targets.length
-            @battle.pbDisplay(_INTL("But it failed, since none of #{user.pbThis(true)} or its allies can be healed or have their status conditions removed!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since none of {1} or its allies can be healed or have their status conditions removed!", user.pbThis(true))) if show_message
             return true
         end
         return false
@@ -467,11 +467,11 @@ class PokeBattle_Move_HealAllyOrDamageFoe < PokeBattle_Move
     def pbFailsAgainstTarget?(user, target, show_message)
         return false unless @healing
         if target.substituted? && !ignoresSubstitute?(user)
-            @battle.pbDisplay(_INTL("#{target.pbThis} is protected behind its substitute!")) if show_message
+            @battle.pbDisplay(_INTL("{1} is protected behind its substitute!", target.pbThis)) if show_message
             return true
         end
         unless target.canHeal?
-            @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} can't be healed!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since {1} can't be healed!", target.pbThis(true))) if show_message
             return true
         end
         return false
@@ -516,7 +516,7 @@ class PokeBattle_Move_UserFaintsHealAndCureReplacement < PokeBattle_Move
     def pbMoveFailed?(user, _targets, show_message)
         unless @battle.pbCanChooseNonActive?(user.index)
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{user.pbThis(true)} has no party allies to replace it!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1} has no party allies to replace it!", user.pbThis(true)))
             end
             return true
         end
@@ -547,7 +547,7 @@ class PokeBattle_Move_UserFaintsHealAndCureReplacementRestorePP < PokeBattle_Mov
     def pbMoveFailed?(user, _targets, show_message)
         unless @battle.pbCanChooseNonActive?(user.index)
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since #{user.pbThis(true)} has no party allies to replace it!"))
+                @battle.pbDisplay(_INTL("But it failed, since {1} has no party allies to replace it!", user.pbThis(true)))
             end
             return true
         end
@@ -679,7 +679,7 @@ end
 class PokeBattle_Move_HealUserHalfOfTotalHPRaiseSpd1 < PokeBattle_HalfHealingMove
     def pbMoveFailed?(user, _targets, show_message)
         if !user.canHeal? && !user.pbCanRaiseStatStep?(:SPEED, user, self, true)
-            @battle.pbDisplay(_INTL("But it failed, since #{user.pbThis(true)} can't heal or raise its Speed!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since {1} can't heal or raise its Speed!", user.pbThis(true))) if show_message
             return true
         end
     end
@@ -772,7 +772,7 @@ end
 class PokeBattle_Move_HealUserHalfOfTotalHPStartHealUserEachTurn < PokeBattle_HalfHealingMove
     def pbMoveFailed?(user, _targets, show_message)
         if super(user, _targets, false) && user.effectActive?(:AquaRing)
-            @battle.pbDisplay(_INTL("But it failed, since #{user.pbThis} can't heal and already has a veil of water!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since {1} can't heal and already has a veil of water!", user.pbThis)) if show_message
             return true
         end
         return false

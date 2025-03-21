@@ -85,7 +85,7 @@ end
 
 def combineSigil
     if pbHasItem?(:SIGILLEFTHALF) && pbHasItem?(:SIGILRIGHTHALF)
-        pbMessage(_INTL("You combine the #{getItemName(:SIGILLEFTHALF)} and the #{getItemName(:SIGILRIGHTHALF)}."))
+        pbMessage(_INTL("You combine the {1} and the {2}.", getItemName(:SIGILLEFTHALF), getItemName(:SIGILRIGHTHALF)))
         pbReceiveItem(:CARNATIONSIGIL)
         $PokemonBag.pbDeleteItem(:SIGILLEFTHALF)
         $PokemonBag.pbDeleteItem(:SIGILRIGHTHALF)

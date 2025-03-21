@@ -6,7 +6,7 @@ def candyMachine(candyAmount,level)
             if candyAmount == 1
                 pbMessage(_INTL("A candy machine. It has one batch of candy."))
             else
-                pbMessage(_INTL("A candy machine. It contains #{candyAmount} batches of candy."))
+                pbMessage(_INTL("A candy machine. It contains {1} batches of candy.", candyAmount))
             end
         end
         cost = candyBatchCost(level)
@@ -16,7 +16,7 @@ def candyMachine(candyAmount,level)
             if pbConfirmMessage(_INTL("Buy some candy for ${1}?",cost.to_s_formatted))
                 setTempSwitchOn("A")
                 $Trainer.money = $Trainer.money - cost
-                pbMessage(_INTL("You put in $#{cost}."))
+                pbMessage(_INTL("You put in ${1}.", cost))
 
                 # Modify the candy machine
                 case candyAmount
@@ -67,7 +67,7 @@ def candyBatchCost(level)
     when 71..100
         return 10_000
     else
-        pbMessage(_INTL("Unassigned level passed to candyBatchCost: #{level}")) if $DEBUG
+        pbMessage(_INTL("Unassigned level passed to candyBatchCost: {1}", level)) if $DEBUG
 	    return 250
     end
 end

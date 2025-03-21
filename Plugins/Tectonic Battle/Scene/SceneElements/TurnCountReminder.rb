@@ -63,7 +63,7 @@ class TurnCountReminder < SpriteWrapper
 
 	def refresh
 		@turnCountOverlay.bitmap.clear
-		turnCountLabel = _INTL("Turns Left: #{@turnCount}")
+		turnCountLabel = _INTL("Turns Left: {1}", @turnCount)
 		x = @turnCountOverlay.bitmap.width / 2
 		pbDrawTextPositions(@turnCountOverlay.bitmap,[[turnCountLabel,x,-2,2,NAME_BASE_COLOR,NAME_SHADOW_COLOR]])
 	end

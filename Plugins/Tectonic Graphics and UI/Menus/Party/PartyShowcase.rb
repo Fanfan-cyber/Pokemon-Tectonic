@@ -14,6 +14,7 @@ class PokemonPartyShowcase_Scene
         @viewport = Viewport.new(0,0,Graphics.width,Graphics.height)
         @viewport.z = 99999
         @npcTrainer = npcTrainer
+        @flags = flags
 
         if @npcTrainer
             backgroundFileName = "Party/showcase_bg_npc"
@@ -26,6 +27,11 @@ class PokemonPartyShowcase_Scene
         @sprites["overlay"] = BitmapSprite.new(Graphics.width, Graphics.height, @viewport)
         @overlay = @sprites["overlay"].bitmap
         pbSetSmallFont(@overlay)
+
+        @sprites["overlay2"] = BitmapSprite.new(Graphics.width, Graphics.height, @viewport)
+        @sprites["overlay2"].z = 99999
+        @overlay2 = @sprites["overlay2"].bitmap
+        pbSetSmallFont(@overlay2)
 
         # Fake lead
         if startWithIndex != 0
@@ -91,7 +97,7 @@ class PokemonPartyShowcase_Scene
             numIcons = 0
             numIcons += 1 if Randomizer.on?
             numIcons += 1 if flags.include?("cursed")
-            numIcons += 1 if flags.include?("cursed")
+            numIcons += 1 if flags.include?("perfect")
 
             # Show randomizer icon
             distanceBetweenIcons = 28
@@ -144,6 +150,15 @@ class PokemonPartyShowcase_Scene
         newPokemonIcon.x = displayX
         newPokemonIcon.y = mainIconY
         @sprites["pokemon#{index}"] = newPokemonIcon
+
+        # Display status
+        if @flags.include?("showstatuses")
+            statusImageIndex = pokemon.getStatusImageIndex
+            if statusImageIndex >= 0
+                imagepos = [[addLanguageSuffix("Graphics/Pictures/statuses"), displayX + 10, mainIconY + 4, 0, 16 * statusImageIndex, 44, 16]]
+                pbDrawImagePositions(@overlay2, imagepos)
+            end
+        end
 
         # Display pokemon name
         nameAndLevel = _INTL("#{pokemon.name} Lv. #{pokemon.level.to_s}")

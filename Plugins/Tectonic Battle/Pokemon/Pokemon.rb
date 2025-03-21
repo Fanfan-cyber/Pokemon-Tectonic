@@ -278,6 +278,19 @@ class Pokemon
         return @status != :NONE
     end
 
+    def getStatusImageIndex
+        if afraid?
+            statusIndex = GameData::Status::DATA.keys.length / 2
+        elsif fainted?
+            statusIndex = GameData::Status::DATA.keys.length / 2 - 1
+        elsif status != :NONE
+            statusIndex = GameData::Status.get(status).id_number - 1
+        else
+            statusIndex = -1
+        end
+        return statusIndex
+    end
+
     # @return [Boolean] whether the Pokémon is not fainted and not an egg
     def able?
         return !egg? && @hp > 0 && !@afraid
@@ -353,10 +366,10 @@ class Pokemon
         @afraid = false
         if HEALING_RATIO_ON_FEAR_REMOVED > 0
             @hp = (@totalhp * HEALING_RATIO_ON_FEAR_REMOVED).floor
-            message = _INTL("#{name} is no longer Afraid. It was restored to half health!")
+            message = _INTL("{1} is no longer Afraid. It was restored to half health!", name)
         else
             @hp = 1
-            message = _INTL("#{name} is no longer Afraid!")
+            message = _INTL("{1} is no longer Afraid!", name)
         end
         if battle
             battle.pbDisplay(message)
@@ -689,9 +702,9 @@ class Pokemon
 
     def itemCountD(uppercase = false)
         if items.length <= 1
-            return uppercase ? "Item" : "item"
+            return uppercase ? _INTL("Item") : _INTL("item")
         else
-            return uppercase ? "Items" : "items"
+            return uppercase ? _INTL("Items") : _INTL("items")
         end
     end
 
@@ -782,7 +795,7 @@ class Pokemon
 
     def canHaveItem?(itemCheck, showMessages = false)
         if itemCheck == :CRYSTALVEIL && hasAbility?(:WONDERGUARD)
-            pbMessage(_INTL("#{name} can't hold a #{getItemName(:CRYSTALVEIL)}!")) if showMessages
+            pbMessage(_INTL("{1} can't hold a {2}!", name, getItemName(:CRYSTALVEIL))) if showMessages
             return false
         end
         return true
@@ -810,13 +823,13 @@ class Pokemon
 
         # Item sets cannot contain duplicates
         if itemSet.length != itemSet.uniq.length
-            pbMessage(_INTL("#{name} can't hold two of the same item!")) if showMessages
+            pbMessage(_INTL("{1} can't hold two of the same item!", getItemName(:CRYSTALVEIL))) if showMessages
             return false
         end
 
         # No multiple item abilities allow holding more than 2 items
         if itemSet.length > 2
-            pbMessage(_INTL("#{name} can't hold more than two items!")) if showMessages
+            pbMessage(_INTL("{1} can't hold more than two items!", name)) if showMessages
             return false
         end
 
@@ -830,7 +843,7 @@ class Pokemon
         return unless items
         return if legalItems?(items, ownedByPlayer?)
         if ownedByPlayer?
-            pbMessage(_INTL("#{name} is no longer allowed to hold its current items."))
+            pbMessage(_INTL("{1} is no longer allowed to hold its current items.", name))
             if boss?
                 removeItems
             else

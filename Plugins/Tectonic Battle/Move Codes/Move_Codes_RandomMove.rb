@@ -17,12 +17,12 @@ class PokeBattle_Move_UseRandomUserMoveIfAsleep < PokeBattle_Move
 
     def pbMoveFailed?(user, _targets, show_message)
         unless user.asleep?
-            @battle.pbDisplay(_INTL("But it failed, since #{user.pbThis(true)} isn't asleep!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since {1} isn't asleep!", user.pbThis(true))) if show_message
             return true
         end
         if getSleepTalkMoves(user).length == 0
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since none of #{user.pbThis(true)}'s moves can be used from Sleep Talk!"))
+                @battle.pbDisplay(_INTL("But it failed, since none of {1}'s moves can be used from Sleep Talk!", user.pbThis(true)))
             end
             return true
         end
@@ -67,7 +67,7 @@ class PokeBattle_Move_UseRandomMoveFromUserParty < PokeBattle_Move
     def pbMoveFailed?(user, _targets, show_message)
         if getAssistMoves(user).length == 0
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since there are no moves #{user.pbThis(true)} can use!"))
+                @battle.pbDisplay(_INTL("But it failed, since there are no moves {1} can use!", user.pbThis(true)))
             end
             return true
         end
@@ -178,7 +178,7 @@ class PokeBattle_Move_UseChoiceOf3RandomNonSignatureStatusMoves < PokeBattle_Mov
         elsif !user.pbOwnedByPlayer? # Trainer AI
             @chosenMove = validMoves[0]
         else
-            chosenIndex = @battle.scene.pbShowCommands(_INTL("Which move should #{user.pbThis(true)} use?"),validMoveNames,0)
+            chosenIndex = @battle.scene.pbShowCommands(_INTL("Which move should {1} use?", user.pbThis(true)),validMoveNames,0)
             @chosenMove = validMoves[chosenIndex]
         end
     end
@@ -304,7 +304,7 @@ class PokeBattle_Move_UseChoiceOf3RandomNonSignatureNonPsychicDamagingMoves < Po
         elsif !user.pbOwnedByPlayer? # Trainer AI
             @chosenMove = validMoves[0]
         else
-            chosenIndex = @battle.scene.pbShowCommands(_INTL("Which move should #{user.pbThis(true)} use?"),validMoveNames,0)
+            chosenIndex = @battle.scene.pbShowCommands(_INTL("Which move should {1} use?", user.pbThis(true)),validMoveNames,0)
             @chosenMove = validMoves[chosenIndex]
         end
     end

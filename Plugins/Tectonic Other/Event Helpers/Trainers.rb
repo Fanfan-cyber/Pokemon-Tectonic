@@ -138,7 +138,7 @@ def candiesForLevel(level)
   when 71..100
 	itemsGiven = [:EXPCANDYXL,1] # 64_000
   else
-	pbMessage(_INTL("Unassigned level passed to pbTrainerDropsItem: #{maxTrainerLevel}")) if $DEBUG
+	pbMessage(_INTL("Unassigned level passed to pbTrainerDropsItem: {1}", maxTrainerLevel)) if $DEBUG
 	itemsGiven = [:EXPCANDYXS,2] # 500
   end
   return itemsGiven

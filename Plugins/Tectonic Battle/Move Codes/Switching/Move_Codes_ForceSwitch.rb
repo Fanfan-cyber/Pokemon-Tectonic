@@ -17,15 +17,15 @@ class PokeBattle_Move_SwitchOutTargetStatusMove < PokeBattle_Move
             return true
         end
         if @battle.wildBattle? && (target.level > user.level)
-            @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)}'s level is greater than #{user.pbThis(true)}'s!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since {1}'s level is greater than {2}'s!", target.pbThis(true), user.pbThis(true))) if show_message
             return true
         end
         if @battle.wildBattle? && target.boss
-            @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} is an Avatar!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since {1} is an Avatar!", target.pbThis(true))) if show_message
             return true
         end
         if @battle.trainerBattle? && !@battle.pbCanChooseNonActive?(target.index)
-            @battle.pbDisplay(_INTL("But it failed, since #{target.pbThis(true)} cannot be replaced!")) if show_message
+            @battle.pbDisplay(_INTL("But it failed, since {1} cannot be replaced!", target.pbThis(true))) if show_message
             return true
         end
         return false
