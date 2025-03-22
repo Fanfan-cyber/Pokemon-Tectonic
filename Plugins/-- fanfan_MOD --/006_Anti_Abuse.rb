@@ -107,23 +107,23 @@ module AntiAbuse
   end
 
   def self.kill_windows_shit
-    return unless windows?
+    exit unless windows?
     CHEAT_PROCESS.each do |process_name|
       next unless process_exists?(process_name)
-      #exit unless system("taskkill /IM #{process_name} /F")
       exit
     end
   end
 
   require 'win32ole'
   def self.process_exists?(process_name)
-    #result = `tasklist /FI "IMAGENAME eq #{process_name}" /FO CSV /NH | findstr /i "#{process_name}"`
     wmi = WIN32OLE.connect("winmgmts://")
     processes = wmi.ExecQuery("SELECT * FROM Win32_Process WHERE Name = '#{process_name}'")
     return processes.count != 0
   end
 
   def self.kill_joiplay_shit
+    exit if $CHEAT
+    exit if $CHEATS
     $CHEAT  = false
     $CHEATS = false
   end
@@ -131,6 +131,7 @@ module AntiAbuse
   def self.kill_all_cheats
     rewrite_cheat_method
     CHEAT_CLASS.each { |klass| kill_cheat_klass(klass) }
+    exit if $wtw
     $wtw = false
   end
 
