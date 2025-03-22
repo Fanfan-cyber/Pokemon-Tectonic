@@ -1026,7 +1026,7 @@ class PokemonStorageScene
             end
 
             # Show status/fainted/Pokérus infected icon
-            statusImageIndex = @pokemon.getStatusImageIndex
+            statusImageIndex = pokemon.getStatusImageIndex
             imagepos.push([addLanguageSuffix("Graphics/Pictures/statuses"), 120, 68, 0, 16 * statusImageIndex, 44, 16]) if statusImageIndex >= 0
             
             pbDrawImagePositions(overlay, imagepos)
