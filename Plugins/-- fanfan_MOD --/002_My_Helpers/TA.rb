@@ -345,4 +345,31 @@ module TA
     col = color[key.upcase.to_sym] || color[:BLACK]
     Color.new(*col, opacity)
   end
+
+  def self.count_word_frequency(input_file, output_file, divide = false, ignore_1 = false)
+    words = []
+    File.open(input_file, "r") do |file|
+      file.each_line do |line|
+        words.concat(line.downcase.gsub(/[^\w\s]/, '').split)
+      end
+    end
+    words.sort!
+    frequency = Hash.new(0)
+    words.each { |word| frequency[word] += 1 }
+    if divide
+      frequency.transform_values! { |count| count / 2 }
+      frequency.select! { |word, count| count >= 1 }
+    end
+    total_words = frequency.keys.length
+    total_1_word = frequency.count { |word, count| count == 1 }
+    
+    File.open(output_file, "wb") do |file|
+      frequency.sort_by { |word, count| -count }.each do |word, count|
+        next if count == 1 && ignore_1
+        file.puts "#{word}: #{count}"
+      end
+      file.puts "One-time : #{total_1_word}"
+      file.puts "All: #{total_words}"
+    end
+  end
 end
