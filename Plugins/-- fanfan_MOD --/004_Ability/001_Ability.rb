@@ -1,21 +1,12 @@
-class PokeBattle_Battle
-
-end
-
-class PokeBattle_Battler
-
-end
-
 class AbilitySystem
-  attr_reader :score, :flags, :off_mult, :def_mult, :ability_handler
+  attr_reader :id, :score, :flags, :ability_handler
 
   @@ability_cache = {}
 
-  def initialize
+  def initialize(id)
+    @id              = id
     @score           = 0
     @flags           = []
-    @off_mult        = {}
-    @def_mult        = {}
     @ability_handler = {}
   end
 
@@ -23,65 +14,68 @@ class AbilitySystem
     @@ability_cache.clear
   end
 
-  def self.get_ability(ability_id)
-    class_name = "Ability_#{ability_id}"
+  def self.get_ability(id)
+    class_name = "Ability_#{id}"
     return unless Object.const_defined?(class_name)
-    @@ability_cache[ability_id] ||= Object.const_get(class_name).new
+    @@ability_cache[id] ||= Object.const_get(class_name).new(id)
   end
 
-  def self.get(ability_id, attr)
-    ability = get_ability(ability_id)
+  def self.get(id, attr)
+    ability = get_ability(id)
     return unless ability
     ability.instance_variable_get("@#{attr}")
   end
 
-  def self.get_score(ability_id)
-    get_ability(ability_id)&.score || 0
+  def self.get_score(id)
+    get_ability(id)&.score || 0
   end
 
-  def self.get_flags(ability_id)
-    get_ability(ability_id)&.flags || []
+  def self.get_flags(id)
+    get_ability(id)&.flags || []
   end
 
-  def self.apply_effect(handler, ability_id, *args)
-    get_ability(ability_id)&.ability_handler&.[](handler)&.call(handler, ability_id, *args)
+  def self.apply_effect(handler, id, *args)
+    get_ability(id)&.ability_handler&.[](handler)&.call(handler, id, *args)
   end
 
-  def self.apply_effect_backfire(handler, ability_id, mults)
-    off_mult = get_ability(ability_id)&.off_mult
-    return unless off_mult
-    mult = off_mult[handler]
-    return if !mult || mult.empty?
-    mults[mult[0]] *= mult[1]
+  def self.apply_effect_backfire(handler, id, mults)
+    ability = get_ability(id)
+    return unless ability
+    ability_class = ability.class
+    return unless ability_class.const_defined?(:OFF_MULT)
+    off_mult = ability_class.const_get(:OFF_MULT)
+    handler_mult = off_mult[handler]
+    return if !handler_mult || handler_mult.empty?
+    handler_mult.each { |mult, value| mults[mult] *= value }
   end
-end
-
-class Ability_NONE < AbilitySystem
-
 end
 
 class Ability_EXAMPLE < AbilitySystem
-  def initialize
+  OFF_MULT = { :DamageCalcUserAbility => { :base_damage_multiplier => 1.3 } }
+
+  DamageCalcUserAbility =
+    proc { |_handler, _ability, _user, _target, _move, _mults, _baseDmg, _type, _aiCheck, _backfire|
+      OFF_MULT[_handler].each { |mult, value| _mults[mult] *= value }
+    }
+
+  def initialize(id)
     super
-    @off_mult = { :DamageCalcUserAbility => [:base_damage_multiplier, 1.3] }
-
-    @ability_handler[:DamageCalcUserAbility] = 
-      proc { |_handler, _ability, _user, _target, _move, _mults, _baseDmg, _type, _aiCheck, _backfire|
-
-      }
+    @ability_handler[:DamageCalcUserAbility] = DamageCalcUserAbility
   end
 end
 
 class Ability_SWIFTSTOMPS < AbilitySystem
-  def initialize
-    super
-    @hit_cycle = 3
+  HIT_CYCLE = 3
 
-    @ability_handler[:GuaranteedCriticalUserAbility] = 
-      proc { |_handler, _ability, move, user, _target, _battle, aiCheck|
-        hits = user.battle_tracker_get(:hits_in_progress_kicking)
-        hits += 1 if aiCheck
-        next true if move.kickingMove? && hits % @hit_cycle == 0
-      }
+  GuaranteedCriticalUserAbility =
+    proc { |_handler, _ability, move, user, _target, _battle, aiCheck|
+      hits = user.battle_tracker_get(:hits_in_progress_kicking)
+      hits += 1 if aiCheck
+      next true if move.kickingMove? && hits % HIT_CYCLE == 0
+    }
+
+  def initialize(id)
+    super
+    @ability_handler[:GuaranteedCriticalUserAbility] = GuaranteedCriticalUserAbility
   end
 end

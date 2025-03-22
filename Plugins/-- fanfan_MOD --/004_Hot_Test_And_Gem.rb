@@ -14,6 +14,7 @@ module Input
   def self.update
     hot_test_update
     if MInput.hot_reloaded? && $DEBUG #triggerex?(:H)
+      AbilitySystem.clear_cache
       HotTest.load_refresh
       #pbMapInterpreter.execute_script("HotTest.load_refresh")
     end
