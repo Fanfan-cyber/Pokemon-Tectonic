@@ -38,15 +38,24 @@ class AbilitySystem
     get_ability(id)&.ability_handler&.[](handler)&.call(handler, id, *args)
   end
 
-  def self.apply_effect_backfire(handler, id, mults)
+  def self.apply_effect_backfire(handler, id, mults, battle)
     ability = get_ability(id)
     return unless ability
     ability_class = ability.class
     return unless ability_class.const_defined?(:OFF_MULT)
     off_mult = ability_class.const_get(:OFF_MULT)
+    calc_mults(off_mult, handler, mults, battle)
+  end
+
+  def self.calc_mults(off_mult, handler, mults, battle = nil, reverse = false) # didn't use battle/reverse yet
+    return unless off_mult
     handler_mult = off_mult[handler]
     return if !handler_mult || handler_mult.empty?
-    handler_mult.each { |mult, value| mults[mult] *= value }
+    if reverse
+      handler_mult.each { |mult, value| mults[mult] /= value }
+    else
+      handler_mult.each { |mult, value| mults[mult] *= value }
+    end
   end
 end
 
@@ -54,8 +63,8 @@ class Ability_EXAMPLE < AbilitySystem
   OFF_MULT = { :DamageCalcUserAbility => { :base_damage_multiplier => 1.3 } }
 
   DamageCalcUserAbility =
-    proc { |_handler, _ability, _user, _target, _move, _mults, _baseDmg, _type, _aiCheck, _backfire|
-      OFF_MULT[_handler].each { |mult, value| _mults[mult] *= value }
+    proc { |handler, _ability, battle, _user, _target, _move, mults, _baseDmg, _type, _aiCheck|
+      AbilitySystem.calc_mults(OFF_MULT, handler, mults, battle)
     }
 
   def initialize(id)
