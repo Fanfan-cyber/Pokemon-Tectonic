@@ -27901,7 +27901,7 @@ A Grey Mist covers the battlefield. For five turns, stats are reset at the end o
 The user attacks while slathered in grime. This poisons the user.
 在身上涂满污垢后进行攻击。同时，也会使自己中毒。
 The user uses venom that turns the target's body against it. Super effective vs Fighting-types.
-用毒液使对手的身体发生异变，对格斗属性的精灵效果绝佳。
+用毒液使对手的身体发生异变，对格斗属性的精灵效果拔群。
 The user envelops the target in a foul wind. It has a 20% chance to lower Sp. Def.
 让对手置身于恶臭熏人的阵风之中。20%几率降低对手的特防。
 The user attacks with a pitch black fog. All of the target's stat changes are returned to normal.
@@ -28217,7 +28217,7 @@ The user shreds off bits of its own body to launch at the target. The user loses
 The user sprays mining waste at the target. It has a 30% chance to poison.
 向对手喷洒采矿废料。30%几率造成中毒。
 The user slashes at the target with a steel blade. Super effective versus Dragon-types.
-使用钢刃斩击对手，对龙属性效果绝佳。
+使用钢刃斩击对手，对龙属性效果拔群。
 The user heals itself for 1/2 of its max HP, and extends the current weather by 1 turn.
 回复自己一半的HP，并将当前天气延长1回合。
 The user enters a protective stance, raising its Sp. Atk and Defense by two steps each.
@@ -28385,7 +28385,7 @@ The user fires a small bolt of energy at the target. It has a 10% chance to rais
 Round objects are hurled at the target to strike three times in a row.
 向目标投掷圆形物体，连续攻击三次。
 The user attacks the target with the power of a warding charm. Super effective vs Ghost-types.
-使用辟邪符的力量攻击对手。对幽灵属性精灵效果绝佳。
+使用辟邪符的力量攻击对手。对幽灵属性精灵效果拔群。
 The user hides its blade. If it is hit by a special move, it unsheathes it quickly, slashing all near foes.
 降自己的刀藏起来，被特殊技能命中后迅速出鞘，砍向附近所有对手。
 The user uses their feet to pierce the foe. This has a 10% chance of leeching the target.
@@ -28685,7 +28685,7 @@ The user insults the target using a compliment. Their attacking stats are raised
 Damages all near foes by summoning a miniature black hole. Gravity is intensified for five turns.
 通过召唤微型黑洞对所有附近的敌方造成伤害。重力增强持续五回合。
 The user removes the energy and light around the target. Super effective vs Electric-types.
-移除对手周围的能量和光芒。对电属性精灵效果绝佳。
+移除对手周围的能量和光芒。对电属性精灵效果拔群。
 This attack deals 50% more damage if the target has any raised or lowered stat steps.
 如果目标有任何提升或降低的能力等级，此攻击伤害提升50%。
 Deftly sets a layer of damaging Spikes around the foe, then switches out.
@@ -30936,7 +30936,7 @@ An item to be held by a Pokémon. Ensures a less than full accuracy move lands o
 A held item. It boosts the power of moves by 30%, but at the cost of 10% HP on each hit.
 携带后，虽然每次攻击时HP少量减少，但技能的威力会提高。
 A well-worn belt that boosts the holder's supereffective moves by 20%.
-用惯了的黑色带子。携带后，效果绝佳时的技能威力就会少量提高。
+用惯了的黑色带子。携带后，效果拔群时的技能威力就会少量提高。
 A held item. Boosts a move used consecutively by 20% more each time. This resets if another move is used.
 携带后，连续使出相同技能时，威力就会提高。不再使出相同技能时，威力就会复原。
 An item to be held by a Pokémon. It is a headband that boosts the power of physical moves by 10%.
@@ -31184,39 +31184,39 @@ If held by a Pokémon, it heals its HP by 25% at half health.
 It may be held by a Pokémon to heal the user by 33% in a pinch (below 25% HP).
 让精灵携带后，低血量时可恢复33%HP。
 Weakens a supereffective Fire-type attack against the holding Pokémon.
-让精灵携带后，在受到效果绝佳的火属性技能攻击时，能令其威力减弱。
+让精灵携带后，在受到效果拔群的火属性技能攻击时，能令其威力减弱。
 Weakens a supereffective Water-type attack against the holding Pokémon.
-让精灵携带后，在受到效果绝佳的水属性技能攻击时，能令其威力减弱。
+让精灵携带后，在受到效果拔群的水属性技能攻击时，能令其威力减弱。
 Weakens a supereffective Electric-type attack against the holding Pokémon.
-让精灵携带后，在受到效果绝佳的电属性技能攻击时，能令其威力减弱。
+让精灵携带后，在受到效果拔群的电属性技能攻击时，能令其威力减弱。
 Weakens a supereffective Grass-type attack against the holding Pokémon.
-让精灵携带后，在受到效果绝佳的草属性技能攻击时，能令其威力减弱。
+让精灵携带后，在受到效果拔群的草属性技能攻击时，能令其威力减弱。
 Weakens a supereffective Ice-type attack against the holding Pokémon.
-让精灵携带后，在受到效果绝佳的冰属性技能攻击时，能令其威力减弱。
+让精灵携带后，在受到效果拔群的冰属性技能攻击时，能令其威力减弱。
 Weakens a supereffective Fighting-type attack against the holding Pokémon.
-让精灵携带后，在受到效果绝佳的格斗属性技能攻击时，能令其威力减弱。
+让精灵携带后，在受到效果拔群的格斗属性技能攻击时，能令其威力减弱。
 Weakens a supereffective Poison-type attack against the holding Pokémon.
-让精灵携带后，在受到效果绝佳的毒属性技能攻击时，能令其威力减弱。
+让精灵携带后，在受到效果拔群的毒属性技能攻击时，能令其威力减弱。
 Weakens a supereffective Ground-type attack against the holding Pokémon.
-让精灵携带后，在受到效果绝佳的地面属性技能攻击时，能令其威力减弱。
+让精灵携带后，在受到效果拔群的地面属性技能攻击时，能令其威力减弱。
 Weakens a supereffective Flying-type attack against the holding Pokémon.
-让精灵携带后，在受到效果绝佳的飞行属性技能攻击时，能令其威力减弱。
+让精灵携带后，在受到效果拔群的飞行属性技能攻击时，能令其威力减弱。
 Weakens a supereffective Psychic-type attack against the holding Pokémon.
-让精灵携带后，在受到效果绝佳的超能力属性技能攻击时，能令其威力减弱。
+让精灵携带后，在受到效果拔群的超能力属性技能攻击时，能令其威力减弱。
 Weakens a supereffective Bug-type attack against the holding Pokémon.
-让精灵携带后，在受到效果绝佳的虫属性技能攻击时，能令其威力减弱。
+让精灵携带后，在受到效果拔群的虫属性技能攻击时，能令其威力减弱。
 Weakens a supereffective Rock-type attack against the holding Pokémon.
-让精灵携带后，在受到效果绝佳的岩石属性技能攻击时，能令其威力减弱。
+让精灵携带后，在受到效果拔群的岩石属性技能攻击时，能令其威力减弱。
 Weakens a supereffective Ghost-type attack against the holding Pokémon.
-让精灵携带后，在受到效果绝佳的幽灵属性技能攻击时，能令其威力减弱。
+让精灵携带后，在受到效果拔群的幽灵属性技能攻击时，能令其威力减弱。
 Weakens a supereffective Dragon-type attack against the holding Pokémon.
-让精灵携带后，在受到效果绝佳的龙属性技能攻击时，能令其威力减弱。
+让精灵携带后，在受到效果拔群的龙属性技能攻击时，能令其威力减弱。
 Weakens a supereffective Dark-type attack against the holding Pokémon.
-让精灵携带后，在受到效果绝佳的恶属性技能攻击时，能令其威力减弱。
+让精灵携带后，在受到效果拔群的恶属性技能攻击时，能令其威力减弱。
 Weakens a supereffective Steel-type attack against the holding Pokémon.
-让精灵携带后，在受到效果绝佳的钢属性技能攻击时，能令其威力减弱。
+让精灵携带后，在受到效果拔群的钢属性技能攻击时，能令其威力减弱。
 Weakens a supereffective Fairy-type attack against the holding Pokémon.
-让精灵携带后，在受到效果绝佳的妖精属性技能攻击时，能令其威力减弱。
+让精灵携带后，在受到效果拔群的妖精属性技能攻击时，能令其威力减弱。
 Weakens a Normal-type attack against the holding Pokémon.
 让精灵携带后，在受到一般属性技能攻击时，能令其威力减弱。
 If held by a Pokémon, it raises its Attack by two steps in a pinch.
@@ -31234,7 +31234,7 @@ If held by a Pokémon, it raises its critical-hit ratio in a pinch.
 If held by a Pokémon, it raises one of its stats by three steps in a pinch.
 让精灵携带后，危机时，某一项能力就会大幅提高。
 If held by a Pokémon, it restores its HP if it is hit by any supereffective attack.
-让精灵携带后，在受到效果绝佳的技能攻击时，可以回复HP。
+让精灵携带后，在受到效果拔群的技能攻击时，可以回复HP。
 If held by a Pokémon, it raises its Accuracy by four steps in a pinch.
 如果精灵携带它，在危急时刻会提升4级命中率。
 If held by a Pokémon, it gets to move first just once in a pinch.
@@ -33072,7 +33072,7 @@ HP变为一半时，会慌慌张张逃走，退回同行队伍中。
 Powers up each Pokémon's Fairy-type moves.
 全体的妖精属性技能变强。
 Reduces damage from super-effective attacks by 25%.
-受到效果绝佳的攻击时，可以减弱其威力。
+受到效果拔群的攻击时，可以减弱其威力。
 Physical moves against the Pokémon have a 30% chance to burn the attacker.
 有时会让接触到自己的对手变为烧伤状态。
 In sunshine boosts its and allies' Attack and Sp. Def by 50%.
@@ -33166,21 +33166,21 @@ When the Pokémon is hit by an attack, the attacker's ability becomes Mummy.
 All status problems heal when it switches out.
 回到同行队伍后，异常状态就会被治愈。
 Powers up super-effective moves by 30%.
-效果绝佳的技能威力提高30%。
+效果拔群的技能威力提高30%。
 Abilities will be nullified or will not be triggered.
 场上所有精灵的特性效果都会消失或者无法生效。
 Attacks by or against the Pokémon can't miss.
 这只精灵的攻击或者受到的攻击都必定会命中。
 Non-Normal moves become Normal-type and are powered up by 50%.
-非一般技能全部会变为一般属性。威力会提高50%。
+非一般技能全部会变为一般属性，并且威力提高50%。
 Child attacks after the parent, for 25% of the previous damage.
-亲子俩可以合计攻击2次。
+攻击时，孩子会以25%的伤害再攻击一次。
 When it takes a hit, both Pokémon faint after 3 turns.
 受到接触类技能攻击时，双方都会在3回合后变为濒死状态。
 Physical attacks against the Pokémon have a 30% chance to poison the attacker.
-有时会让接触到自己的对手变为中毒状态。
+被接触类技能攻击时，有30%的概率使对手中毒。
 Physical moves have a 30% chance to poison targets.
-只通过接触就有可能让对手变为中毒状态。
+使用接触类技能攻击时，有30%的概率使对手中毒。
 Changes with other Cells if HP becomes half or less.
 HP变为一半时，细胞们会赶来支援，变为完全体形态。
 When an ally faints, the Pokémon also gains their ability or abilities.
@@ -33188,31 +33188,31 @@ When an ally faints, the Pokémon also gains their ability or abilities.
 Powers up nearby allies moves by 30%.
 只要处在相邻位置，技能的威力就会提高。
 Gives priority to status moves, but makes Dark-types immune to them.
-在月辉下时，可以率先使用变化技能。
+使变化类技能先制度加1，但是恶属性的精灵会免疫受加成的技能。
 The Pokémon raises the foe's PP usage.
 给予对手压迫感，大量减少其使用技能的ＰＰ。
 Changes the weather to Heavy Rain, which nullifies Fire-type moves. Lingers for 3 turns after leaving.
 变为不会受到火属性攻击的天气，离场后持续3回合。
 Reduces damage from super-effective attacks.
-受到效果绝佳的攻击时，可以减弱其威力。
+受到效果拔群的攻击时，可以减弱其威力。
 It changes type to that of the move it's about to use.
-变为与自己使出的技能相同的属性。
+变为与自己将要使出的技能相同的属性。
 Raises the Pokémon's Attack by 50%, including Style Values and other bonuses.
-攻击力提高50%。
+物攻增加50%。
 Heals 1/8th of its max HP each turn if in rainstorm.
 暴雨天气时，会回复1/8HP。
 Powers up moves that have recoil damage by 30%.
-自己会因反作用力受伤的技能，其威力提高30%。
+反伤类技能威力提高30%。
 Restores 25% of max HP when withdrawn from battle.
-退回同行队伍后，HP会少量回复。
+退回同行队伍后，HP会回复25%。
 Ripens Berries and doubles their effect.
-使树果成熟，效果变为2倍。
+使树果的效果变为2倍。
 Its type matches the memory disc it holds.
 根据持有的存储碟，自己的属性会改变。
 Protects the Pokémon from recoil damage.
-即使使出会受反作用力伤害的技能，HP也不会减少。
+不会受到反伤的伤害。
 Makes foes unable to use priority moves.
-向对手施加威慑力，使其无法对我方使出先制技能。
+向对手施加威慑力，使其无法使出先制技能。
 Boosts Sp. Atk by 30% in sandstorm.
 沙暴天气时，提高30%特攻。
 Doubles the Pokémon's Speed in a sandstorm.
@@ -33222,7 +33222,7 @@ Takes 25% less damage in a sandstorm.
 Summons a sandstorm for 4 turns when it enters battle.
 出场时，会把天气变为沙暴。
 Immune to Grass-type moves, and raises both attacking stats when hit by one.
-受到草属性的技能攻击时，不会受到伤害,而是攻击会提高。
+受到草属性的技能攻击时，不会受到伤害，而是双攻会提高1级。
 Forms a powerful school while it has a lot of HP.
 HP多的时候会聚起来变强。
 Screens are nullified when entering battle.
@@ -33322,7 +33322,7 @@ Physical attacks against the Pokémon raise its Speed by two steps but lower its
 Cowardly switches out if its HP becomes half or less.
 HP变为一半时，会慌慌张张逃走，退回同行队伍中。
 Only super-effective moves will hit.
-不可思议的力量，只有效果绝佳的技能才能击中。
+不可思议的力量，只有效果拔群的技能才能击中。
 After being attacked, uses Parting Shot to switch out.
 受到攻击后，会造成反击并回到队伍中。
 At the end of each turn, if in rainstorm, each Pokémon not immune to rainstorm has their defensive stats lowered by 1 step.
