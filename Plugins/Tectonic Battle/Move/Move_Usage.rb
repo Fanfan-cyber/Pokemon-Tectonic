@@ -594,6 +594,7 @@ target.pbThis(true)))
         target.lastAttacker.push(user.index) # For Revenge
         if target.opposes?(user)
             target.lastHPLostFromFoe = damage # For Metal Burst
+            target.lastFoeAttacker.delete(user.index)
             target.lastFoeAttacker.push(user.index)        # For Metal Burst
             if target.damageState.typeMod > target.lastRoundHighestTypeModFromFoe
                 target.lastRoundHighestTypeModFromFoe = target.damageState.typeMod

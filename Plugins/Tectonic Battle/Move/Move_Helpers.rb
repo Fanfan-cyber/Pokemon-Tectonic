@@ -257,6 +257,7 @@ class PokeBattle_Move
     end
 
     def switchOutUser(user,switchedBattlers=[],disableMoldBreaker=true,randomReplacement=false,batonPass=false)
+        return if user.isLastAlive?
         return unless @battle.pbCanSwitch?(user.index)
         return unless @battle.pbCanChooseNonActive?(user.index)
         @battle.pbDisplay(_INTL("{1} went back to {2}!", user.pbThis, @battle.pbGetOwnerName(user.index)))
