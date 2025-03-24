@@ -1409,7 +1409,7 @@ Animation = SMOG
 [STINGINGJEALOUSY]
 Name = Stinging Jealousy
 Type = POISON
-Category = Physical
+Category = Adaptive
 Power = 70
 Accuracy = 100
 TotalPP = 12
@@ -1916,7 +1916,7 @@ Animation = POWERGEM
 Name = Granite Head
 Type = ROCK
 Category = Physical
-Power = 85
+Power = 80
 Accuracy = 100
 TotalPP = 12
 Target = NearOther
@@ -3116,7 +3116,7 @@ Description = The user lays a trap of sharp feathers around the foe. It hurts fo
 Name = Fragmentation
 Type = STEEL
 Category = Special
-Power = 115
+Power = 110
 Accuracy = 100
 TotalPP = 10
 Target = NearOther
@@ -3346,7 +3346,7 @@ Description = The user hurls a metal ball at the target.
 Name = Shrapnel
 Type = STEEL
 Category = Special
-Power = 85
+Power = 80
 Accuracy = 100
 TotalPP = 10
 Target = NearOther
@@ -4643,6 +4643,20 @@ Flags = CanProtect
 Description = The user sends its roots to attack. Deals 25% more damage if the target attacked first.
 Animation = VINEWHIP
 #-------------------------------
+[SAPPINGJEALOUSY]
+Name = Sapping Jealousy
+Type = GRASS
+Category = Adaptive
+Power = 70
+Accuracy = 100
+TotalPP = 12
+Target = AllNearFoes
+FunctionCode = LeechTargetIfTargetHasRaisedStats
+Flags = CanProtect
+EffectChance = 100
+Description = Attacks with energy from jealousy. All opposing Pokémon with stat boosts get leeched.
+Animation = GIGADRAIN
+#-------------------------------
 [SAPPINGSEED]
 Name = Sapping Seed
 Type = GRASS
@@ -5720,18 +5734,18 @@ Type = ICE
 Category = Special
 Power = 80
 Accuracy = 100
-TotalPP = 12
-Target = AllNearOthers
+TotalPP = 10
+Target = AllNearFoes
 FunctionCode = Frostbite
 Flags = CanProtect,Wind
 EffectChance = 30
-Description = The user summons a wind that drains the target's vitality. This has a 30% chance to frostbite it.
+Description = The user summons a wind that drains vitality from all nearby. This has a 30% chance to frostbite them.
 Animation = ICYWIND
 #-------------------------------
 [FRIGIDJEALOUSY]
 Name = Frigid Jealousy
 Type = ICE
-Category = Special
+Category = Adaptive
 Power = 70
 Accuracy = 100
 TotalPP = 12
@@ -5753,6 +5767,19 @@ FunctionCode = LowerTargetDef1
 Flags = CanProtect
 EffectChance = 20
 Description = The user jabs the target with a sharp icicle. It has a 20% chance to lower Defense.
+#-------------------------------
+[FROSTOVER]
+Name = Frost Over
+Type = ICE
+Category = Special
+Power = 60
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = Frostbite
+Flags = CanProtect
+EffectChance = 30
+Description = The target is overwhelmed by cold energy. It has a 30% chance to frostbite.
 #-------------------------------
 [FROSTSPIKES]
 Name = Frost Spikes
@@ -5846,18 +5873,6 @@ Flags = CanProtect,Blade
 EffectChance = 30
 Description = The user slashes the target with ice like a sword. It has a 30% chance to lower Defense.
 Animation = SUBZEROSLAMMER
-#-------------------------------
-[ICEDUNGEON]
-Name = Ice Dungeon
-Type = ICE
-Category = Status
-Accuracy = 0
-TotalPP = 5
-Target = AllNearFoes
-FunctionCode = TrapTargetUntilHitLowerTargetAtkSpAtk1
-Flags = CanMagicCoat
-Description = The user imprisons all near foes, reducing their attacking stats by one step each and trapping them until the next time they take a hit.
-Animation = CHILL
 #-------------------------------
 [ICENINEWALL]
 Name = Ice-Nine Wall

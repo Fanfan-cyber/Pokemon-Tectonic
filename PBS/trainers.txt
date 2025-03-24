@@ -301,7 +301,6 @@ Pokemon = BELDUM,17
     AbilityIndex = 1 # Optimized Alloy
 #-------------------------------
 [SCIENTIST_M2,Dexter]
-Policies = PRIORITIZEDOTS
 Pokemon = GRIMER,20
     Moves = POISONGAS,SLUDGE,DISABLE,MUDSHOT
     AbilityIndex = 0 # Corrosion
@@ -312,7 +311,6 @@ Pokemon = SOLOSIS,20
     AbilityIndex = 1 # Magic Guard
 #-------------------------------
 [SCIENTIST_F,Marie]
-Policies = PRIORITIZEDOTS
 Pokemon = CARKOL,20
     Moves = FLAMECHARGE,ROCKTHROW,RAPIDSPIN,IGNITE
     AbilityIndex = 1 # Fuel Hungry
@@ -323,7 +321,7 @@ Pokemon = SLUGMA,20
     AbilityIndex = 1 # Flame Body
 #-------------------------------
 [LEADER_Eko,Eko]
-Policies = PRIORITIZEDOTS,EKO
+Policies = EKO
 Flags = NoPerfect
 Pokemon = SALANDIT,20
     Moves = POISONGAS,STINKCLOUD,FIREPULSE,IGNITE
@@ -574,7 +572,7 @@ Pokemon = SHELLOS,19
 Policies = HELENA,PRIORITIZEUTURN
 Flags = NoPerfect
 Pokemon = CHINCHOU,25
-    Moves = VOLTSWITCH,BUBBLEBEAM,BALEFULBOP,CONFUSERAY
+    Moves = VOLTSWITCH,BUBBLEBEAM,FOOL,WATERLOG
     AbilityIndex = 0 # Volt Absorb
     Item = CADOBERRY
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -952,11 +950,18 @@ Pokemon = CENTISKORCH,25
 #-------------------------------
 [POKEMONTRAINER_Yezera,Yezera,3]
 ExtendsVersion = 2
-Policies = CURSE_VENGEANT
+Policies = CURSE_RECYCLING
+Pokemon = MORGREM,25
+    Item = TANGABERRY
+Pokemon = MAGNETON,25
+    Item = AIRBALLOON
+Pokemon = POLIWHIRL,25
+    Item = SITRUSBERRY
 Pokemon = SANDACONDA,25
-    Moves = DUSTDEVIL,GLARE,SANDSTORM
+    Position = 1
+    Moves = DUSTDEVIL,BLUSTER,GLARE,STEALTHROCK
     AbilityIndex = 1 # Disorienting
-    Item = LEFTOVERS
+    Item = AGILITYHERB
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,20,10,0,20,0
 Pokemon = DARTRIX,25
@@ -2716,7 +2721,7 @@ Pokemon = GLISCOR,40
 [LEADER_Zoe,Zoé,1]
 ExtendsVersion = 0
 Pokemon = MANTINE,40
-    Moves = WARDPRESS,COLDFRONT,SCALD,WIDEGUARD
+    Moves = WARDPRESS,ENERGYBALL,SCALD,WIDEGUARD
     Item = SITRUSBERRY
 Pokemon = SUDOWOODO,40
     Moves = POWERGEM,NERVEBLOCK,STRENGTHSAP,EARTHPOWER

@@ -3608,7 +3608,7 @@ Description = The user attacks by engulfing the foe in a beautiful, yet intense,
 [BURNINGJEALOUSY]
 Name = Burning Jealousy
 Type = FIRE
-Category = Special
+Category = Adaptive
 Power = 70
 Accuracy = 100
 TotalPP = 12
@@ -3817,8 +3817,8 @@ TotalPP = 10
 Target = AllNearFoes
 FunctionCode = Burn
 Flags = CanProtect,Wind
-EffectChance = 10
-Description = The user attacks by exhaling hot breath on the opposing team. It has a 10% chance to burn.
+EffectChance = 30
+Description = The user attacks by exhaling hot breath on the opposing team. It has a 30% chance to burn.
 #-------------------------------
 [INCINERATE]
 Name = Incinerate

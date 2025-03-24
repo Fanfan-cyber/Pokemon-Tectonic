@@ -2772,6 +2772,18 @@ FunctionCode = Invalid
 Flags = CanProtect
 Description = The user rolls into the target. Its power doubles if it hits in succession.
 #-------------------------------
+[ICEDUNGEON]
+Name = Ice Dungeon
+Type = ICE
+Category = Status
+Accuracy = 0
+TotalPP = 5
+Target = AllNearFoes
+FunctionCode = Invalid
+Flags = CanMagicCoat
+Description = The user imprisons all near foes, reducing their attacking stats by one step each and trapping them until the next time they take a hit.
+Animation = CHILL
+#-------------------------------
 [ICICLECRASH]
 Name = Icicle Crash
 Type = ICE

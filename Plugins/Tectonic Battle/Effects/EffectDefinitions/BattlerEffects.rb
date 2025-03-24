@@ -768,6 +768,7 @@ GameData::BattleEffect.register_effect(:Battler, {
     :id => :MoveNext,
     :real_name => "Will Move Next",
     :resets_battlers_sot => true,
+    :resets_eor => true,
     :apply_proc => proc do |_battle, battler, _value|
         battler.disableEffect(:Quash)
     end,
@@ -965,6 +966,7 @@ GameData::BattleEffect.register_effect(:Battler, {
     :real_name => "Quash",
     :type => :Integer,
     :resets_battlers_sot => true,
+    :resets_eor => true,
     :apply_proc => proc do |_battle, battler, _value|
         battler.disableEffect(:MoveNext)
     end,

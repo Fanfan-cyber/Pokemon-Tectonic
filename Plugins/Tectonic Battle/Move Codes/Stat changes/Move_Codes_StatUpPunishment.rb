@@ -27,3 +27,13 @@ class PokeBattle_Move_FrostbiteTargetIfTargetHasRaisedStats < PokeBattle_Jealous
         super
     end
 end
+
+#===============================================================================
+# Leeches opposing Pokemon that have increased their stats. (Sapping Jealousy)
+#===============================================================================
+class PokeBattle_Move_LeechTargetIfTargetHasRaisedStats < PokeBattle_JealousyMove
+    def initialize(battle, move)
+        @statusToApply = :LEECHED
+        super
+    end
+end
