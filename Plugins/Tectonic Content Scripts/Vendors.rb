@@ -1,7 +1,7 @@
 ######################################################
 # Mart vendors
 ######################################################
-BASIC_MART_STOCK = %i[POKEBALL ABILITYCAPSULE REPEL SITRUSBERRY]
+BASIC_MART_STOCK = %i[POKEBALL REPEL SITRUSBERRY]
 
 VIP_CARD_EXTRA_STOCK = %i[REPEATBALL ROYALBALL LUXURYBALL EXPCANDYXS]
 
