@@ -26909,7 +26909,7 @@ The user whips up a wind to blow away the target's protective screens. Also remo
 The user soars upward and drops at high speeds. This lowers the user's defensive stats.
 从天空中急速下降攻击对手。自己的防御会降低。
 A corkscrewing attack with the sharp beak acting as a drill. Can random critical hit.
-一边旋转，一边将尖喙刺入对手进行攻击，共容易击中要害。
+一边旋转，一边将尖喙刺入对手进行攻击，更容易击中要害。
 The user slams the target with its wings. The target is hit twice in a row.
 将翅膀撞向对手进行攻击。连续2次给予伤害。
 The user covers the target's body with a mass of down that lowers its Attack stat by five steps.
@@ -27855,7 +27855,7 @@ The user fires a stormy gust at the target. This also raises the user's Sp. Atk 
 The user whips up a cold north wind to attack the target. It has a 20% chance to frostbite.
 挥舞寒冷的北风来攻击对手。20%几率让对手陷入冻伤状态。
 The user propels a gale-force wind at the target. It has a 10% chance to frostbite.
-向对手释放汗风，10%几率让对手陷入冻伤状态。
+向对手释放寒风，10%几率让对手陷入冻伤状态。
 The user soars up high, becoming invulnerable, then strikes on the second turn by dive bombing the target.
 第一回合翱翔于高空中并免疫伤害，在第二个回合对目标发动轰炸。
 The user sends a chilly wind towards the target. This has a 10% chance to frostbite.

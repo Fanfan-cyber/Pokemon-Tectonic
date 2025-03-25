@@ -178,15 +178,22 @@
     // window. This only affects the names displayed
     // there, and won't enable those names as Input
     // constants in the scripts.
-    "bindingNames": {"c": "Use",
-                     "b": "Back",
-                     "a": "Action",
-                     "x": "JumpUp",
-                     "y": "JumpDown",
-                     "z": "Special",
-                     "l": "Quicksave",
-                     "r": "Bicycle"},
-
+    // "bindingNames": {"c": "Use",
+    //                  "b": "Back",
+    //                  "a": "Action",
+    //                  "x": "JumpUp",
+    //                  "y": "JumpDown",
+    //                  "z": "Special",
+    //                  "l": "Quicksave",
+    //                  "r": "Bicycle"},
+    "bindingNames": {"c": "Bindings",
+                     "b": "Not",
+                     "a": "Please",
+                     "x": "Do",
+                     "y": "Change",
+                     "z": "Thanks",
+                     "l": "The",
+                     "r": "Key"},
 
     // Allow symlinks for game assets to be followed
     // (default: disabled)
