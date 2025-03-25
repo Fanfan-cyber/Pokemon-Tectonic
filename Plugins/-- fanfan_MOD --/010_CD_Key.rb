@@ -5,17 +5,27 @@ module CDKey
 
   def self.register_pkmn_key(key, pkmn_hash)
     @@pkmn_cd_key[key.to_s.downcase.to_sym] = proc {
+      if block_given?
+        ret = yield
+        next false unless ret
+      end
       pkmn_hash.each do |pkmn, level|
         pbAddPokemon(pkmn, level)
       end
+      next true
     }
   end
 
   def self.register_item_key(key, items_hash)
     @@item_cd_key[key.to_s.downcase.to_sym] = proc {
+      if block_given?
+        ret = yield
+        next false unless ret
+      end
       items_hash.each do |item, quantity|
         pbReceiveItem(item, quantity)
       end
+      next true
     }
   end
 
@@ -33,8 +43,12 @@ module CDKey
       if $Trainer.gift_code[:pkmn].include?(text)
         pbMessage(_INTL("The code has been used!"))
       else
-        @@pkmn_cd_key[text]&.call
-        $Trainer.gift_code[:pkmn] << text
+        ret = @@pkmn_cd_key[text]&.call
+        if ret
+          $Trainer.gift_code[:pkmn] << text
+        else
+          pbMessage(_INTL("You can't use the code now!"))
+        end
       end
     end
     if @@item_cd_key.key?(text)
@@ -42,8 +56,12 @@ module CDKey
       if $Trainer.gift_code[:item].include?(text)
         pbMessage(_INTL("The code has been used!"))
       else
-        @@item_cd_key[text]&.call
-        $Trainer.gift_code[:item] << text
+        ret = @@item_cd_key[text]&.call
+        if ret
+          $Trainer.gift_code[:item] << text
+        else
+          pbMessage(_INTL("You can't use the code now!"))
+        end
       end
     end
     if @@other_key.key?(text)
@@ -96,9 +114,10 @@ CDKey.register_other_key([:battlerevive, :disablerevive], false)
 
 CDKey.register_pkmn_key(:hyena1,    { :PIKACHU => 1  })
 CDKey.register_pkmn_key(:psyduck10, { :PORYGON => 10 })
-CDKey.register_pkmn_key(:deoxys,    { :DEOXYS  => 1  })
+CDKey.register_pkmn_key(:alien1,    { :DEOXYS  => 1  }) { next $Trainer.badge_count >= 4 }
 
-CDKey.register_item_key(:pokeball5, { :POKEBALL => 5 })
+CDKey.register_item_key(:pokeball5,  { :POKEBALL   => 5   })
+CDKey.register_item_key(:candyxl700, { :EXPCANDYXL => 700 }) { next $Trainer.badge_count >= 4 }
 
 CDKey.register_item_key(:stylingkit,   { :STYLINGKIT   => 1 })
 CDKey.register_item_key(:boxlink,      { :BOXLINK      => 1 })

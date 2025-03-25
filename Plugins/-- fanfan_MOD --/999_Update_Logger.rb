@@ -114,9 +114,10 @@ by Fanfan
 
 可用密码：
 hyena1，获得1只路边的野狗
-deoxys，获得1只代欧奇希斯
+alien1，获得1只代欧奇希斯（4徽章）
 psyduck10，获得1只10级的我最喜欢的死鸭子
 pokeball5，获得5个精灵球
+candyxl700，获得700个经验糖果XL（4徽章）
 disablerevive/battlerevive，关闭/开启濒死复活机制
 speedup/disablespeedup，开启/关闭战斗加速功能
 rocket/norocket，开启/关闭火箭队模式
@@ -125,7 +126,10 @@ doublebattle/disabledouble，开启/关闭全双打模式
 zeroexp/disablezeroexp，开启/关闭无经验模式
 
 v0.3.3
-1.
+1.修改获得代欧奇希斯的密码为alien1
+2.现在只有获得的徽章数大于等于4个时才能通过密码领取代欧奇希斯
+3.现在当获得的徽章数大于等于4个时，可以输入密码candyxl700获得700个经验糖果XL
+4.
 
 v0.3.2
 1.现在改变形态也会有动画效果了
