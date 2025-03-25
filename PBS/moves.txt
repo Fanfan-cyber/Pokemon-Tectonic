@@ -409,6 +409,7 @@ Target = NearOther
 FunctionCode = CannotMakeTargetFaint
 Flags = CanProtect
 Description = The user holds back when it attacks, and the target is left with at least 1 HP.
+Animation = FALSESWIPE
 #-------------------------------
 [HYPERBEAM]
 Name = Hyper Beam
