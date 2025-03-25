@@ -66,7 +66,7 @@ class PokemonPartyShowcase_Scene
             fullDescription = _INTL("None")
         elsif bonusesList.length == tribesTotal
             fullDescription = _INTL("All")
-        elsif bonusesList.length <= 2
+        elsif bonusesList.length == 1
             bonusesList.each_with_index do |label,index|
                 fullDescription += "," unless index == 0
                 fullDescription += label
