@@ -14,7 +14,7 @@
 化学变化气体不会无效自身的特性
 幻觉状态下的特性条不再暴露
 =end
-MOD_VERSION = "v0.3.2"
+MOD_VERSION = "v0.3.3"
 
 CHANGE_LOG = <<-LOGGER
 #==============================================================================#
@@ -114,6 +114,7 @@ by Fanfan
 
 可用密码：
 hyena1，获得1只路边的野狗
+deoxys，获得1只代欧奇希斯
 psyduck10，获得1只10级的我最喜欢的死鸭子
 pokeball5，获得5个精灵球
 disablerevive/battlerevive，关闭/开启濒死复活机制
@@ -122,6 +123,9 @@ rocket/norocket，开启/关闭火箭队模式
 customabil/nocustomabil，开启/关闭特性自选模式
 doublebattle/disabledouble，开启/关闭全双打模式
 zeroexp/disablezeroexp，开启/关闭无经验模式
+
+v0.3.3
+1.
 
 v0.3.2
 1.现在改变形态也会有动画效果了
