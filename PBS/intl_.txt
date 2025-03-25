@@ -6600,8 +6600,6 @@ When the tournament is on, it's the only time of the year I can take a break fro
 When the tournament is on, it's the only time of the year I can take a break from handling crazy trainers all day.
 I'm gonna make the most of it, by relaxing...
 I'm gonna make the most of it, by relaxing...
-The door resists your attempts to open it with a mystic force.
-The door resists your attempts to open it with a mystic force.
 Give me a sec.
 Give me a sec.
 Of course.
@@ -11691,6 +11689,12 @@ The shops on this side of town are quite quaint.
 The shops on this side of town are quite quaint.
 Lot of odds and ends, stuff you won't find anywhere else!
 Lot of odds and ends, stuff you won't find anywhere else!
+Noel may be chill, but the trainers in his gym are anything but.
+Noel may be chill, but the trainers in his gym are anything but.
+Lording their position over challengers, making them run petty errands to 'earn' the 'right' to fight them.
+Lording their position over challengers, making them run petty errands to 'earn' the 'right' to fight them.
+Makes me sick that they can be so openly corrupt.
+Makes me sick that they can be so openly corrupt.
 Ironclad Dojo
 Ironclad Dojo
 Make yourself as tough as iron!
@@ -11703,6 +11707,12 @@ This side of the city is much more charming.
 This side of the city is much more charming. 
 The Houndominus has its eyes locked on its trainer.
 The Houndominus has its eyes locked on its trainer.
+I'm here to challenge the gym, but the people in there are just the worst.
+I'm here to challenge the gym, but the people in there are just the worst.
+I don't have enough money to buy all the stuff they're making me grab!
+I don't have enough money to buy all the stuff they're making me grab!
+Maybe I can scare one of them into giving me back my items...
+Maybe I can scare one of them into giving me back my items...
 Y'know, \PN, I never thought to ask your name.
 Y'know, \PN, I never thought to ask your name.
 Figured it out on the way here when I did a quick li’l background check on my client up here, and then on you too.
@@ -26009,6 +26019,8 @@ Roots of Evil
 Roots of Evil
 Rootwrack
 Rootwrack
+Sapping Jealousy
+Sapping Jealousy
 Sapping Seed
 Sapping Seed
 Sharing Smiles
@@ -26183,6 +26195,8 @@ Frigid Jealousy
 Frigid Jealousy
 Frost Barb
 Frost Barb
+Frost Over
+Frost Over
 Frost Spikes
 Frost Spikes
 Glacial Ram
@@ -26197,8 +26211,6 @@ Iceberg Bash
 Iceberg Bash
 Icecalibur
 Icecalibur
-Ice Dungeon
-Ice Dungeon
 Ice-Nine Wall
 Ice-Nine Wall
 Ice Pick
@@ -27224,8 +27236,8 @@ The user brings down a giant flame. It does more damage if influenced by an enor
 The user brings down a giant flame. It does more damage if influenced by an enormous thunderbolt.
 The user slams the foe with its flaming body. The heavier the user is, the greater the damage.
 The user slams the foe with its flaming body. The heavier the user is, the greater the damage.
-The user attacks by exhaling hot breath on the opposing team. It has a 10% chance to burn.
-The user attacks by exhaling hot breath on the opposing team. It has a 10% chance to burn.
+The user attacks by exhaling hot breath on the opposing team. It has a 30% chance to burn.
+The user attacks by exhaling hot breath on the opposing team. It has a 30% chance to burn.
 The user attacks the foe with fire. The target's held Berry or Gem becomes burnt up and unusable.
 The user attacks the foe with fire. The target's held Berry or Gem becomes burnt up and unusable.
 The user attacks by engulfing the target in an intense fire. It leaves the target with a burn.
@@ -28410,6 +28422,8 @@ Lays roots that heal the user by absorbing 1/8th HP from foes each turn. The use
 Lays roots that heal the user by absorbing 1/8th HP from foes each turn. The user becomes trapped.
 The user sends its roots to attack. Deals 25% more damage if the target attacked first.
 The user sends its roots to attack. Deals 25% more damage if the target attacked first.
+Attacks with energy from jealousy. All opposing Pokémon with stat boosts get leeched.
+Attacks with energy from jealousy. All opposing Pokémon with stat boosts get leeched.
 A parasitic seed leeches the target and reduces both its attacking stats.
 A parasitic seed leeches the target and reduces both its attacking stats.
 The user and the target each share their highest stat step with the other.
@@ -28576,12 +28590,14 @@ The target is put to sleep via a deep freeze. The user must rest on the next tur
 The target is put to sleep via a deep freeze. The user must rest on the next turn to regain its energy.
 The user covers the field with an fog of ice crystals, summoning hail and creating grey mist for 5 turns.
 The user covers the field with an fog of ice crystals, summoning hail and creating grey mist for 5 turns.
-The user summons a wind that drains the target's vitality. This has a 30% chance to frostbite it.
-The user summons a wind that drains the target's vitality. This has a 30% chance to frostbite it.
+The user summons a wind that drains vitality from all nearby. This has a 30% chance to frostbite them.
+The user summons a wind that drains vitality from all nearby. This has a 30% chance to frostbite them.
 Attacks with emotion from jealousy. All opposing Pokémon with stat boosts get frostbitten.
 Attacks with emotion from jealousy. All opposing Pokémon with stat boosts get frostbitten.
 The user jabs the target with a sharp icicle. It has a 20% chance to lower Defense.
 The user jabs the target with a sharp icicle. It has a 20% chance to lower Defense.
+The target is overwhelmed by cold energy. It has a 30% chance to frostbite.
+The target is overwhelmed by cold energy. It has a 30% chance to frostbite.
 The user lays frozen spikes on the foe's side. One layer hurts switched in foes, two layers frostbites.
 The user lays frozen spikes on the foe's side. One layer hurts switched in foes, two layers frostbites.
 Rams the target with frigid force. This has a 10% chance to frostbite.
@@ -28596,8 +28612,6 @@ The user picks up an iceberg and slams it into the target. Lowers the user's Att
 The user picks up an iceberg and slams it into the target. Lowers the user's Attack by four steps.
 The user slashes the target with ice like a sword. It has a 30% chance to lower Defense.
 The user slashes the target with ice like a sword. It has a 30% chance to lower Defense.
-The user imprisons all near foes, reducing their attacking stats by one step each and trapping them until the next time they take a hit.
-The user imprisons all near foes, reducing their attacking stats by one step each and trapping them until the next time they take a hit.
 Protects the user from attacks. Also frostbites any attacker who physically attacks the user.
 Protects the user from attacks. Also frostbites any attacker who physically attacks the user.
 The user targets the target's coldest spots. Its power doubles if the target is frostbitten.
@@ -41543,6 +41557,8 @@ A Litany of Lullabies, Seldom Sung
 A Litany of Lullabies, Seldom Sung
 Your Pokémon gain the "Perish Song" status when they enter battle.
 Your Pokémon gain the "Perish Song" status when they enter battle.
+Eternity in our clutches. Ouroboros ever-yearning.
+Eternity in our clutches. Ouroboros ever-yearning.
 Enemy Pokemon recycle consumed items at end of turn. Stolen items turn to dust.
 Enemy Pokemon recycle consumed items at end of turn. Stolen items turn to dust.
 The battle begins with sandstorm. The foe has extra sandstorm abilities!
@@ -53815,10 +53831,10 @@ Remoraid
 Remoraid
 Octillery
 Octillery
-Mantine
-Mantine
 Mantyke
 Mantyke
+Mantine
+Mantine
 Delibird
 Delibird
 Skarmory
@@ -57361,10 +57377,10 @@ Using its dorsal fin as a suction pad, it clings to a Mantine's underside to sca
 Using its dorsal fin as a suction pad, it clings to a Mantine's underside to scavenge for leftovers.
 It traps foes with the suction cups on its tentacles, then smashes them with its rock-hard head.
 It traps foes with the suction cups on its tentacles, then smashes them with its rock-hard head.
-While elegantly swimming in the sea, it ignores Remoraid that cling to its fins seeking food scraps.
-While elegantly swimming in the sea, it ignores Remoraid that cling to its fins seeking food scraps.
 When it swims close to the surface of the ocean, people aboard ships are able to observe the pattern on its back.
 When it swims close to the surface of the ocean, people aboard ships are able to observe the pattern on its back.
+While elegantly swimming in the sea, it ignores Remoraid that cling to its fins seeking food scraps.
+While elegantly swimming in the sea, it ignores Remoraid that cling to its fins seeking food scraps.
 It carries food all day long. When someone is lost in the mountains, it shares that food.
 It carries food all day long. When someone is lost in the mountains, it shares that food.
 Despite being clad entirely in iron-hard armor, it flies at speeds over 180 mph.

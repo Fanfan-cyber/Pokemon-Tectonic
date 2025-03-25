@@ -131,7 +131,7 @@ class PokeBattle_Battle
             if %i[POISON LEECHED].include?(status)
                 fraction = 1.0 / 10.0
             else
-                fraction = 1.0 / 8.0
+                fraction = 1.0 / 16.0
             end
             fraction *= 2 if battler.pbOwnedByPlayer? && curseActive?(:CURSE_STATUS_DOUBLED)
             fraction *= 2 if battler.hasActiveAbility?(:CLEANFREAK)

@@ -6600,8 +6600,6 @@ When the tournament is on, it's the only time of the year I can take a break fro
 联盟大赛举办期间，那是我一年中唯一能够好好休息的日子。
 I'm gonna make the most of it, by relaxing...
 我要好好利用，放松一下......
-The door resists your attempts to open it with a mystic force.
-这扇门上一股神秘的力量阻止你打开它。
 Give me a sec.
 稍等
 Of course.
@@ -11691,6 +11689,12 @@ The shops on this side of town are quite quaint.
 城市这一侧的店铺相当古朴。
 Lot of odds and ends, stuff you won't find anywhere else!
 有很多杂七杂八的在别处找不到的东西！
+Noel may be chill, but the trainers in his gym are anything but.
+诺尔或许很随和，但他道馆里的训练家可一点都不随和。
+Lording their position over challengers, making them run petty errands to 'earn' the 'right' to fight them.
+他们凭借自己的地位对挑战者颐指气使，让他们跑腿做杂务来“赢得”与他们对战的“权利”。
+Makes me sick that they can be so openly corrupt.
+他们如此公开地腐败，真让我恶心。
 Ironclad Dojo
 钢铁武馆
 Make yourself as tough as iron!
@@ -11703,6 +11707,12 @@ This side of the city is much more charming.
 还是这边更加迷人。
 The Houndominus has its eyes locked on its trainer.
 黑堕弥的眼睛死死地盯着它的训练家。
+I'm here to challenge the gym, but the people in there are just the worst.
+我来这里是为了挑战道馆，但里面的人实在糟糕透了。
+I don't have enough money to buy all the stuff they're making me grab!
+我没有足够的钱去买他们让我抓的所有东西！
+Maybe I can scare one of them into giving me back my items...
+也许我可以吓唬他们中的一个，让他把我的物品还给我……
 Y'know, \PN, I never thought to ask your name.
 你知道吗，\PN，我之前从没想过要询问你的名字。
 Figured it out on the way here when I did a quick li’l background check on my client up here, and then on you too.
@@ -26009,6 +26019,8 @@ Roots of Evil
 邪恶之根
 Rootwrack
 根茎击打
+Sapping Jealousy
+汲取嫉妒
 Sapping Seed
 播种
 Sharing Smiles
@@ -26183,6 +26195,8 @@ Frigid Jealousy
 怨冰
 Frost Barb
 霜刺
+Frost Over
+霜降
 Frost Spikes
 冰菱
 Glacial Ram
@@ -26197,8 +26211,6 @@ Iceberg Bash
 冰山盛宴
 Icecalibur
 冰刃
-Ice Dungeon
-冰牢
 Ice-Nine Wall
 冰墙
 Ice Pick
@@ -27224,8 +27236,8 @@ The user brings down a giant flame. It does more damage if influenced by an enor
 释放出巨大的火焰。受到巨大的闪电影响时，技能威力会提高。
 The user slams the foe with its flaming body. The heavier the user is, the greater the damage.
 用燃烧的身体撞向对手进行攻击。自己比对手越重，威力越大。
-The user attacks by exhaling hot breath on the opposing team. It has a 10% chance to burn.
-将炎热的气息吹向对手进行攻击。10%概率让对手陷入烧伤状态。
+The user attacks by exhaling hot breath on the opposing team. It has a 30% chance to burn.
+使用者通过向对方喷出热气进行攻击。有30%的几率使对方烧伤。
 The user attacks the foe with fire. The target's held Berry or Gem becomes burnt up and unusable.
 用火焰攻击对手。对手携带树果或宝石时，会烧掉，使其不能使用。
 The user attacks by engulfing the target in an intense fire. It leaves the target with a burn.
@@ -28410,6 +28422,8 @@ Lays roots that heal the user by absorbing 1/8th HP from foes each turn. The use
 铺设根须，每回合吸收敌方1/8的HP来治愈使用者，但使用者会陷入束缚状态。
 The user sends its roots to attack. Deals 25% more damage if the target attacked first.
 将其根系伸出进行攻击。如果对手先攻击,则伤害增加25%。
+Attacks with energy from jealousy. All opposing Pokémon with stat boosts get leeched.
+用嫉妒的能量进行攻击。所有有能力等级提升的对方精灵都会被寄生。
 A parasitic seed leeches the target and reduces both its attacking stats.
 使用种子寄生对手并吸取其HP，同时降低对方的攻击。
 The user and the target each share their highest stat step with the other.
@@ -28576,12 +28590,14 @@ The target is put to sleep via a deep freeze. The user must rest on the next tur
 目标被深度冻结而陷入睡眠。使用者在下一回合必须休息以恢复能量。
 The user covers the field with an fog of ice crystals, summoning hail and creating grey mist for 5 turns.
 使用者用冰晶雾气覆盖整个场地，召唤冰雹并制造灰色薄雾，持续五回合。
-The user summons a wind that drains the target's vitality. This has a 30% chance to frostbite it.
-召唤一股侵蚀对手生命力的风，30%几率使对手冻伤。
+The user summons a wind that drains vitality from all nearby. This has a 30% chance to frostbite them.
+使用者召唤一阵风，从周围所有精灵那里吸取活力。这有30%的几率使它们冻伤。
 Attacks with emotion from jealousy. All opposing Pokémon with stat boosts get frostbitten.
 用嫉妒的能量攻击对手。会让在该回合内能力有所提高的精灵陷入冻伤状态。
 The user jabs the target with a sharp icicle. It has a 20% chance to lower Defense.
 用锋利的冰柱刺向对手。20%几率降低对手的防御。
+The target is overwhelmed by cold energy. It has a 30% chance to frostbite.
+目标被寒冷的能量所淹没。有30%的几率使其冻伤。
 The user lays frozen spikes on the foe's side. One layer hurts switched in foes, two layers frostbites.
 在对手身边撒下寒冷的尖刺，一层会给对方造成伤害，二层还会使其冻伤。
 Rams the target with frigid force. This has a 10% chance to frostbite.
@@ -28596,8 +28612,6 @@ The user picks up an iceberg and slams it into the target. Lowers the user's Att
 抬起一座冰山并撞向对方，但会降低自身攻击四级。
 The user slashes the target with ice like a sword. It has a 30% chance to lower Defense.
 像用剑一样挥动冰刃斩向对手。30%几率降低对手的防御。
-The user imprisons all near foes, reducing their attacking stats by one step each and trapping them until the next time they take a hit.
-禁锢附近的所有对手，降低它们的攻击和特攻，且令它们在下次受到攻击前被困在场上。
 Protects the user from attacks. Also frostbites any attacker who physically attacks the user.
 防住对手攻击的同时，让攻击自己的对手陷入冻伤状态。
 The user targets the target's coldest spots. Its power doubles if the target is frostbitten.
@@ -33484,7 +33498,7 @@ Upon entry, creates a substitute from 1/4th of its HP.
 When hit with a special move, hits back instantly with Breach.
 被特殊技能击中时，会立即使用潮汐一击进行反击。
 When a foe hits the Pokémon, they are warned. If they do it again, they become cursed.
-倍攻击时，会先警告对手，如果再次受到已经被警告过的对手的攻击，使对手陷入诅咒。
+被攻击时，会先警告对手，如果再次受到已经被警告过的对手的攻击，使对手陷入诅咒。
 Immune to Dragon-type, Fairy-type and Ghost-type attacks.
 免疫龙系、妖精系和鬼系技能。
 When this Pokémon becomes statused, its Attack is raised by three steps.
@@ -41543,6 +41557,8 @@ A Litany of Lullabies, Seldom Sung
 曲终收拨当心画，四弦一声如裂帛。
 Your Pokémon gain the "Perish Song" status when they enter battle.
 你的精灵在进入战斗时会获得“灭亡之歌”状态。
+Eternity in our clutches. Ouroboros ever-yearning.
+永恒就在我们手中。吞尾蛇永恒之渴望。
 Enemy Pokemon recycle consumed items at end of turn. Stolen items turn to dust.
 敌方精灵在回合结束时回收消耗的物品。被盗的物品会消失。
 The battle begins with sandstorm. The foe has extra sandstorm abilities!
@@ -53815,10 +53831,10 @@ Remoraid
 铁炮鱼
 Octillery
 章鱼桶
-Mantine
-巨翅飞鱼
 Mantyke
 小球飞鱼
+Mantine
+巨翅飞鱼
 Delibird
 信使鸟
 Skarmory
@@ -57361,10 +57377,10 @@ Using its dorsal fin as a suction pad, it clings to a Mantine's underside to sca
 又被称做海洋狙击手。就算是１００公尺外的猎物，它发射的水枪也一定能够命中。
 It traps foes with the suction cups on its tentacles, then smashes them with its rock-hard head.
 岩洞是它主要的栖身之所。章鱼桶吐出的漆黑墨汁还会被当成制作料理时的食材。
-While elegantly swimming in the sea, it ignores Remoraid that cling to its fins seeking food scraps.
-可以在晴朗的日子里看到在海上优雅跳跃的巨翅飞鱼群哦。就算被铁炮鱼吸附在身上也不会在意。
 When it swims close to the surface of the ocean, people aboard ships are able to observe the pattern on its back.
 不认生，会靠近人类的船只。背上的花纹根据地域而有所不同。
+While elegantly swimming in the sea, it ignores Remoraid that cling to its fins seeking food scraps.
+可以在晴朗的日子里看到在海上优雅跳跃的巨翅飞鱼群哦。就算被铁炮鱼吸附在身上也不会在意。
 It carries food all day long. When someone is lost in the mountains, it shares that food.
 会用尾巴将食物裹起来运送。尾巴最大的信使鸟就是群体里的老大。
 Despite being clad entirely in iron-hard armor, it flies at speeds over 180 mph.

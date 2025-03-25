@@ -96,6 +96,7 @@ CDKey.register_other_key([:battlerevive, :disablerevive], false)
 
 CDKey.register_pkmn_key(:hyena1,    { :PIKACHU => 1  })
 CDKey.register_pkmn_key(:psyduck10, { :PORYGON => 10 })
+CDKey.register_pkmn_key(:deoxys,    { :DEOXYS  => 1  })
 
 CDKey.register_item_key(:pokeball5, { :POKEBALL => 5 })
 

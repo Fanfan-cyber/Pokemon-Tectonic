@@ -13,10 +13,12 @@ Events.onTrainerPartyLoad += proc { |_sender, e|
   trainer = e[0]
   next unless trainer
   next if trainer.trainer_type == :ABSOL
-  if trainer.able_party.length >= 6
+  TA.increase(:copied, trainer.party.length)
+  if trainer.party.length >= 6
     trainer.party.swap!(0, -1) if trainer.trainer_type == :LEADER_Lambert && rand(100) < 50
   else
-    next unless trainer.policies.empty?
+    next if TA.get(:copied) >= 6
+    TA.increase(:copied)
     pkmn = $Trainer.party_random_pkmn(false, true)
     if trainer.trainer_type == :LEADER_Lambert && rand(100) < 50
       trainer.party.unshift(pkmn)
