@@ -264,7 +264,7 @@ def waypointAccessMessageAlternative
 end
 
 def waypointRegisterMessage
-    return _INTL("\\i[SPANNINGBAND]The Spanning Band glows in sync with the totem. You sense that some sort of connection has been created.")
+    return _INTL("\\i[SPANNINGBAND]The Spanning Bands glow in sync with the totem. You sense that some sort of connection has been created.")
 end
 
 def waypointUnableMessage

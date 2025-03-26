@@ -2564,12 +2564,12 @@ Flags = KeyItem
 Description = Use on a Pokémon to switch it into another one of its forms.
 #-------------------------------
 [SPANNINGBAND]
-Name = Spanning Band
+Name = Spanning Bands
 NamePlural = Spanning Bands
 Pocket = 8
 Price = 0
 Flags = KeyItem
-Description = An ancient ceramic ring. Unlocks the ability to teleport between Avatar Totems.
+Description = An ancient pair of interlocking ceramic rings. Unlocks the ability to teleport between Avatar Totems.
 #-------------------------------
 [POCKETTOTEM]
 Name = Pocket Totem
