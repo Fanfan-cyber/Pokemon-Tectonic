@@ -346,25 +346,36 @@ module TA
     Color.new(*col, opacity)
   end
 
-  def self.count_word_frequency(input_file, output_file, divide = false, ignore_1 = false)
-    words = []
+  def self.compare_and_filter_words(input_file, output_file, reference_file = nil, divide = false, ignore_1 = false)
+    input_words = []
     File.open(input_file, "r") do |file|
       file.each_line do |line|
-        words.concat(line.downcase.gsub(/[^\w\s]/, '').split)
+        input_words.concat(line.downcase.gsub(/[^\w\s]/, '').split)
       end
     end
-    words.sort!
-    frequency = Hash.new(0)
-    words.each { |word| frequency[word] += 1 }
-    if divide
-      frequency.transform_values! { |count| count / 2 }
-      frequency.select! { |word, count| count >= 1 }
+    input_words.sort!
+    input_freq = Hash.new(0)
+    input_words.each { |word| input_freq[word] += 1 }
+
+    if reference_file
+      reference_words = []
+      File.open(reference_file, "r") do |file|
+        file.each_line do |line|
+          reference_words.concat(line.downcase.gsub(/[^\w\s]/, '').split)
+        end
+      end
+      input_freq.reject! { |word, _| reference_words.include?(word) }
     end
-    total_words = frequency.keys.length
-    total_1_word = frequency.count { |word, count| count == 1 }
-    
+
+    if divide
+      input_freq.transform_values! { |count| count / 2 }
+      input_freq.select! { |word, count| count >= 1 }
+    end
+    total_words = input_freq.keys.length
+    total_1_word = input_freq.count { |word, count| count == 1 }
+
     File.open(output_file, "wb") do |file|
-      frequency.sort_by { |word, count| -count }.each do |word, count|
+      input_freq.sort_by { |word, count| -count }.each do |word, count|
         next if count == 1 && ignore_1
         file.puts "#{word}: #{count}"
       end
