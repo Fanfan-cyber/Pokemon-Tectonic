@@ -3036,7 +3036,7 @@ NamePlural = VIP Cards
 Pocket = 7
 Price = 0
 Flags = KeyItem,SkipPocketMessage
-Description = A glamorous steel card. While holding it, all vendors cost 10% less and Poké Marts have extra items.
+Description = A glamorous steel card. While holding it, all vendors cost 10% less and Pokécenter Marts have extra items.
 #-------------------------------
 [OMINOUSEGG]
 Name = Ominous Egg
