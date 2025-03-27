@@ -13297,7 +13297,7 @@ Hey.
 I, uh, heard everything when you fought that guy.
 我，呃...我听到你们说的了...
 Yeah, yeah. Just scraped up a little. Nothing a Heal Pulse can’t fix.
-啊，没事，只是擦伤，用治愈波动就能解决了。
+啊，没事，只是擦伤，用治愈脉冲就能解决了。
 Can’t tell if you’re being a sarcastic snot or not.
 我总觉得你在挖苦我。
 Doesn’t really matter. You’re welcome.
@@ -24862,7 +24862,7 @@ Life Dew
 Liquidation
 水流裂破
 Origin Pulse
-根源波动
+根源脉冲
 Rainstorm
 倾盆大雨
 Razor Shell
@@ -24890,7 +24890,7 @@ Water Gun
 Water Pledge
 水之誓约
 Water Pulse
-水之波动
+水之脉冲
 Water Shuriken
 飞水手里剑
 Water Spout
@@ -25048,7 +25048,7 @@ Guard Split
 Healing Wish
 治愈之愿
 Heal Pulse
-治愈波动
+治愈脉冲
 Heart Stamp
 爱心印章
 Heart Swap
@@ -25164,7 +25164,7 @@ Dragon Energy
 Dragon Hammer
 龙锤
 Dragon Pulse
-龙之波动
+龙之脉冲
 Dragon Tail
 龙尾
 Dual Chop
@@ -25198,7 +25198,7 @@ Crunch
 Darkest Lariat
 DD金勾臂
 Dark Pulse
-恶之波动
+恶之脉冲
 Dark Void
 暗黑洞
 Fake Tears
@@ -25408,7 +25408,7 @@ Adrenalash
 Art of War
 战争艺术
 Aura Flux
-灵气波动
+光环流
 Bar
 妨碍
 Bear Hug
@@ -25948,7 +25948,7 @@ Rising Tide
 River Rest
 河憩
 Silt Surge
-淤浊波动
+淤泥涌动
 Slam Shut
 猛然夹击
 Snap
@@ -27467,7 +27467,7 @@ The user employs psychic power to average its base Defense and base Sp. Def stat
 The user faints. In return, the Pokémon taking its place will have its HP restored and status cured.
 自身濒死，使替换上场的精灵回复全部HP和异常状态。
 The user emits a healing pulse which restores the target's HP by up to half of its max HP.
-放出治愈波动，从而回复对手最大HP的一半。
+放出治愈脉冲，从而回复对手最大HP的一半。
 The user unleashes a vicious blow after a cute act. It has a 50% chance to cause flinching.
 以可爱的动作使对手疏忽，乘机给出强烈的一击。50%的几率使对手畏缩。
 The user employs its psychic power to switch stat step changes with the target.
@@ -33160,7 +33160,7 @@ The Pokémon only takes damage from attacks.
 Steals the held item of a Pokémon it hits.
 夺走被自己的技能击中的对手的物品。
 Boosts the power of pulse moves by 50%.
-波动和波导类技能的威力会提高。
+脉冲类技能的威力会提高。
 Its attacks are critical against poisoned targets.
 攻击中毒状态的对手时，必定会击中要害。
 Bounces back stat-lowering effects.
@@ -37986,7 +37986,7 @@ Medium
 Erratic
 不规则
 Fluctuating
-波动
+波动起伏
 Parabolic
 抛物线
 Fast

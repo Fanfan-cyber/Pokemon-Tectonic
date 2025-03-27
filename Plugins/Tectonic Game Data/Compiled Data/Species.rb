@@ -477,9 +477,14 @@ module GameData
         end
 
         def new_abilities
-            abils = SPECIES_ABILITY_DATA[[@species, @form]] || []
+            spec_abils = SPECIES_ABILITY_DATA[[@species, @form]]
+            if spec_abils
+              abils = spec_abils[:changeable]
+            else
+              return []
+            end
             abils.reject! { |abil| !GameData::Ability.exists?(abil) }
-            abils
+            return abils
         end
 
         def legalAbilities
