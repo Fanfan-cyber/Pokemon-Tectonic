@@ -1,7 +1,6 @@
 class Array
   alias_method :random,     :sample
   alias_method :choose,     :values_at
-  alias_method :drop_first, :drop
 
   def each_with_index_and_object(initial_object)
     each_with_index do |element, index|
@@ -24,6 +23,10 @@ class Array
 
   def dup?
     length != uniq.length
+  end
+
+  def drop_first(n = 1)
+    drop(n)
   end
 
   def drop_last(n = 1)
