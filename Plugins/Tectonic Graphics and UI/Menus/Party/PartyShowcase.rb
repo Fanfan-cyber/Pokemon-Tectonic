@@ -241,8 +241,20 @@ class PokemonPartyShowcase_Scene
         # Display ability name
         #abilityName = pokemon.ability&.name || _INTL("No Ability")
         abil = pokemon.ability
-        abilityName = abil && pokemon.has_main_ability? && TA.get(:customabil) ? abil.name : _INTL("None")
+        if TA.get(:customabil)
+            abilityName = abil && pokemon.has_main_ability? ? abil.name : _INTL("None")
+        else
+            abilityName = ""
+            abils = pokemon.species_abilities
+            abils_count = abils.length
+            abils.each_with_index do |legalAbilityID, index|
+                abilityName += GameData::Ability.get(legalAbilityID).name
+                abilityName += ", " unless index == abils_count - 1
+            end
+            @overlay.font.size = 20
+        end
         drawTextEx(@overlay, displayX + 4, mainIconY + POKEMON_ICON_SIZE + 8, 200, 1, abilityName, base, shadow)
+        pbSetSmallFont(@overlay)
 
         # Display Style Points
         styleValueX = displayX + 222

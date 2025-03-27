@@ -41902,7 +41902,7 @@ But a live wire already sits near {1}!
 {1} is ready to stomp the opposition!
 {1}随时准备踩扁对手！
 {1} overpowers type immunities!
-{1}获得了属性免疫力！
+{1}的攻击无视属性免疫！
 {1} is burdened!
 {1}承受了负担！
 {1} transforms into a stronger version of your entire team!
@@ -42064,7 +42064,7 @@ A planetary ring dominates the skyline.
 The moon is taken by a nightmare.
 月亮开始变得妖冶。
 You can skip the battle and treat it as a win by FORFEIT!
-你可以通过逃跑跳过这场战斗！这是芳芳的仁慈。
+你可以通过逃跑跳过这场战斗！
 You have to win the battle PERFECTLY, or you LOSE!
 对于这场战斗，你必须完胜！
 {1} is blessed by the shattered sky!
@@ -48884,7 +48884,7 @@ Would you like to give it a name?
 Which default name do you want to use?
 你想要使用哪一个默认名字？
 The team has been registered!
-该队伍已注册成册！
+该队伍已成功注册！
 You can't start a battle now because you don't have any Pokémon!
 你现在无法开始战斗，因为你没有任何精灵！
 Export Team
