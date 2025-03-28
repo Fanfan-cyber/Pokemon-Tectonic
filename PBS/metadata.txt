@@ -200,6 +200,7 @@ Bicycle = false
 Outdoor = false
 ShowArea = false
 Bicycle = true
+MapPosition = 0,10,10
 BattleBack = wcave
 Environment = Cave
 #-------------------------------
