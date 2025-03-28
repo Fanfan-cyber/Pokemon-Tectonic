@@ -171,9 +171,9 @@ class CatchingMinigameBattle < PokeBattle_Battle
     end
   end
 
-  def pbEndOfBattle
+  def pbEndOfBattle(ableBeforeFight = nil)
     @scene.updateTurnCountReminder($catching_minigame.turnsLeft)
-    super
+    super(ableBeforeFight)
     if $catching_minigame.turnsLeft == 0
       pbMessage(_INTL("You've run out of turns!"))
       @decision = 3
