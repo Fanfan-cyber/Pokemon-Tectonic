@@ -26671,7 +26671,7 @@ The user charges at the target using every bit of its power. The user must rest 
 The user intimidates the target by staring at it to cause numbing.
 用腹部的花纹使对手害怕，从而让其陷入麻痹状态。
 The user growls, scaring nearby foes. Their Attack is lowered by two steps.
-让对手听可爱的叫声，引开注意力使其疏忽，从而大幅度降低对手的攻击。
+让对手听可爱的叫声，引开注意力使其疏忽，从而降低对手的物攻2级。
 The user stiffens all the muscles in its body to raise its Defense stat by three steps.
 全身使劲，让身体变硬，从而提高自己的防御三级。
 The user sticks out its head and attacks by charging into the foe. It has a 50% chance to numb.
@@ -26693,7 +26693,7 @@ The user releases countless shots of light. Its type varies with the kind of Pla
 This move can be used only after the user has used all the other moves it knows in the battle.
 当战斗中已学会的技能全部使用过后，才能开始使出珍藏的技能。
 The user leers at nearby foes with sharp eyes. Their Defense stat is reduced by two steps.
-用犀利的眼神使其害怕，从而大幅度降低对方的防御。
+用犀利的眼神使其害怕，从而降低对方的物防2级。
 The user chants an incantation, preventing the foe from landing critical hits for 10 turns.
 向天许愿，从而在10回合内不会被对手的攻击打中要害。
 The user tries to cut ahead of the foe to steal and use the foe's intended move with greater power.
@@ -26711,7 +26711,7 @@ The user draws power to attack by using a held Berry. The Berry used determines 
 An attack that makes use of nature's power. Its effects vary depending on the user's environment.
 用自然之力进行攻击。根据所使用场所的不同，使出的技能也会有所变化。
 The user intimidates all nearby foes, lowering their Attack and Sp. Atk by two steps each.
-发出战吼威吓对手，从而大幅度降低对手的攻击和特攻。
+发出战吼威吓对手，从而降低对手双攻2级。
 Numerous coins are hurled at the target to inflict damage. Money is earned after battle.
 向对手的身体投掷小金币进行攻击。战斗后可以拿到钱。
 The target is physically pounded with a long tail or a foreleg, etc.
@@ -26775,7 +26775,7 @@ The user shines a spotlight on the target so that only it will be attacked durin
 A barrage of two to five star-shaped rays are shot at the opposing team. Can't miss and skips protections.
 向对手队伍发射2到5道星形光线。无法被躲避且无视保护。
 The user charges up power and raises its Defense and Sp. Def by two steps. The move can be stacked twice.
-积蓄力量，大幅度提高自己的防御和特防。最多积蓄2次。
+积蓄力量，提高自己的双防2级。最多看累积使用2次。
 Used only if the user has no PP. It also hurts the user.
 仅在使用者没有PP时使用。同时也会伤害使用者。
 The user eats its held Berry, then raises both its defensive stats by three steps.
@@ -26805,7 +26805,7 @@ The user performs a wobbly dance that dizzies the Pokémon around it.
 The user rampages and attacks for three turns.
 在2～3回合内，乱打一气地进行攻击。
 The user tickles the target into laughing, reducing its Attack and Defense by two steps each.
-给对手挠痒，使其发笑，从而大幅度降低对手的攻击和防御。
+给对手挠痒，使其发笑，从而降低对手的物攻和物防2级。
 The user transforms into a copy of the target right down to having the same move set.
 变身成对手精灵的样子，能够使用和对手完全相同的技能。
 The user strikes with a simultaneous three-beam attack. It has a 15% chance each to numb, burn, or frostbite.
@@ -26829,11 +26829,11 @@ The user slams into the opponent, dealing damage based on the user's Defense sta
 The user attacks with a swift chop. It also breaks any screens protecting the target's side.
 将手刀猛烈地挥下攻击对手。还可以破坏光墙和反射壁等。
 The user tenses its muscles to bulk up, raising its Attack and Defense by two steps each.
-使出全身力气绷紧肌肉，从而大幅度提高自己的攻击和防御。
+使出全身力气绷紧肌肉，从而提高自己的物攻和物防2级。
 The user fights the foe up close without guarding itself. This cuts the user's Defenses by two steps.
-放弃守护，向对手的怀里突击。自己的防御会大幅度降低。
+放弃守护，向对手的怀里突击。自己的物防会降低2级。
 The user coaches its ally Pokémon, raising their Attack and Defense by two steps each.
-通过进行正确合理的指导，大幅度提高我方全员的攻击和防御。
+通过进行正确合理的指导，提高我方全员的物攻和物防2级。
 A retaliation move that counters any physical attack, inflicting double the damage taken.
 从对手那里受到物理攻击的伤害将以2倍返还给同一个对手。
 The user delivers a double chop with its forearms crossed. Can random critical hit.
@@ -33484,13 +33484,13 @@ Can hold two items, but drops one when swapping out.
 Boosts Sp. Attack by 75%, but the Pokémon becomes frostbitten after attacking.
 特攻增加75%，但攻击后会使自己冻伤。
 Immune to Ice-type moves, and raises both attacking stats if hit by one.
-受到冰属性攻击时免疫其伤害，并提升双攻。
+受到冰属性攻击时免疫其伤害，并提升双攻1级。
 When hit with a physical move, traps and damages the attacker for three turns.
 当被物理技能击中时，会在三回合内让攻击者被困住并持续受到伤害。
 Using or being hit by a physical move leaves a rock on the field. Status moves collect them, healing by 1/4th each.
 使用物理技能攻击或被物理攻击命中时，将留下一块石头。能力发生变化时将拾起石块，每块恢复25%HP。
 After using a status move, raises both of the Pokémon's defensive stats.
-使用变化技能后，提升双攻。
+使用变化技能后，提升双防1级。
 Changes to the form of your choosing after switching out.
 替换后可以选择一个形态并变成那个形态。
 Upon entry, creates a substitute from 1/4th of its HP.
@@ -33508,21 +33508,21 @@ Powers up Dark-type moves by 50% in sandstorm.
 Takes 30% less move damage if a Tailwind is blowing.
 在开启顺风时，受到技能的伤害降低30%。
 Boosts Attack and Sp. Atk after knocking out any Pokémon.
-击倒任意精灵后，提升双攻。
+击倒任意精灵后，提升双攻1级。
 On the first turn, its attacks burn the target.
-第一回合攻击会使对方烧伤。
+第一回合的攻击会使对方烧伤。
 Can't be statused due to its hard shell. Boosts Sp. Atk and Speed by 25% in sandstorm.
-免疫负面状态，在沙暴中提升25%攻击和速度。
+免疫负面状态，在沙暴中提升25%物攻和速度。
 Prevents Bug- or Poison-type moves during moonglow.
 在月辉天气中，免疫虫、毒属性技能。
 Boosts Attack by 50%, but physical moves deal 25% damage back as recoil.
-攻击力提升50%，但使用物理技能时会造成25%的反伤。
+物攻提升50%，但使用物理技能时会造成25%的反伤。
 Foes aren't released from its trapping moves even when the Pokémon leaves the field.
 此精灵离场，敌人也不会脱离陷阱类技能的影响。
 33% of all move damage taken is instead taken at the end of the next turn.
-受到的所有伤害降低33%，但这部分伤害会在回合结束时生效。
+受到的所有伤害降低33%，但这部分伤害会下回合的结束时生效。
 Doubles Defense in a sandstorm.
-沙暴中获得双倍防御。
+沙暴中物防翻倍。
 Restores HP based on damage from sandstorm.
 根据沙暴造成的伤害恢复HP。
 Immune to Ground-type moves. Takes 20% less damage in sandstorm.
@@ -33540,7 +33540,7 @@ On the first turn, its attacks numb the target.
 Physical attacks against the Pokémon have a 30% chance to dizzy the attacker.
 使用物理技能时有30%概率使对方混乱。
 After knocking out any Pokémon, raises its Attack and Defense.
-击败任意精灵后，提升攻击和防御。
+击败任意精灵后，提升物攻和物防1级。
 Reduces move damage taken by 50% when HP is full. Can't be dizzied.
 满HP时受到技能伤害降低50%，且不会陷入混乱。
 Deals 50% more damage to targets who have already taken damage this turn.
@@ -33744,7 +33744,7 @@ Doubles Sp. Atk, but the Pokémon becomes dizzy after attacking.
 Immune to Fairy-type moves and restores 25% of max HP if hit by one. This can overheal.
 免疫妖精系技能，被妖精系技能攻击时，恢复1/4的HP。（可以过量回复）
 Immune to Dark-type moves, and boosts both attacking stats when hit by one.
-受到恶属性技能攻击时，免疫伤害且提升双攻。
+受到恶属性技能攻击时，免疫伤害且提升双攻1级。
 Heals by 1/8th of its max HP each turn if in sunshine.
 在晴天天气中，每回合恢复最大HP的1/8.
 Doubles Sp. Def in sunshine.
@@ -34324,7 +34324,7 @@ Powers up moves different than the last move by 50%.
 After an attack reduces its HP to half or less, deals 1/4 of the attacker's HP back to the attacker.
 被对手攻击令自身HP降到一半以下时，使对方减少1/4的HP。
 Immune to Poison-type moves, and raises both attacking stats if hit by one.
-受到毒属性技能攻击时，免疫攻击并大幅度提升双攻。
+受到毒属性技能攻击时，免疫攻击并提升双攻1级。
 Whenever a foe's poison worsens, the Pokémon heals for 25% max HP.
 当对手中毒每次恶化时，自身恢复25%HP。
 Powers up Grass-type moves of itself and its allies by 50%.
@@ -50757,10 +50757,10 @@ Your team take 10% less move damage.
 全员减少10%受到的技能伤害。
 9
 You gain 10% more money from battles. If you have more than $100,000, your team gets a boost to Attack, Defense, Sp. Atk, and Sp. Def (before modifiers). This bonus scales with the level cap and is currently {b1}.
-战斗得金钱加10%。资金超十万，双攻双防提升。与等级上限相关，目前{b1}。
+战斗得金钱加10%。资金超十万，双攻和双防提升。与等级上限相关，目前{b1}。
 10
 Your team members gain 10% more EXP in battles. They also get a small boost to Attack, Defense, Sp. Atk, and Sp. Def (before modifiers). This bonus scales with the level cap and is currently {b}.
-战斗获得额外10%经验，小幅度提升双攻双防。与等级上限相关，目前为{b}。
+战斗获得额外10%经验，小幅度提升双攻和双防。与等级上限相关，目前为{b}。
 11
 Whenever a member of your team uses a status move, they'll deal 25% more move damage next turn.
 精灵使用变化类技能后，下回合技能造成的伤害提升25%。
