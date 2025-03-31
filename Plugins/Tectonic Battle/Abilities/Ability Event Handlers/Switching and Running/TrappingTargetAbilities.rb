@@ -40,7 +40,7 @@ BattleHandlers::TrappingTargetAbility.add(:NOHOPE,
   }
 )
 
-BattleHandlers::TrappingTargetAbility.add(:HELIOCENTRIST,
+BattleHandlers::TrappingTargetAbility.add(:HELIOCENTRISM,
   proc { |ability, switcher, _bearer, battle|
       next true if battle.gravityIntensified?
   }
