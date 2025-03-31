@@ -5,7 +5,7 @@ class Pokemon
 		while GameData::Species.get(firstSpecies.get_previous_species()) != firstSpecies do
 			firstSpecies = GameData::Species.get(firstSpecies.get_previous_species())
 		end
-		firstSpecies.egg_moves.each { |m| 
+		firstSpecies.line_moves.each { |m| 
 			return true if !hasMove?(m)
 		}
 		return false
@@ -20,7 +20,7 @@ def getEggMoves(pkmn)
 		firstSpecies = GameData::Species.get(firstSpecies.get_previous_species())
 	end
 
-    firstSpecies.egg_moves.each do |m|
+    firstSpecies.line_moves.each do |m|
       next if pkmn.hasMove?(m)
       moves.push(m)
     end

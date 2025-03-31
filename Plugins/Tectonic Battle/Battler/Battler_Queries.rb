@@ -416,6 +416,29 @@ class PokeBattle_Battler
         return !hasActiveAbility?(%i[MULTITYPE RKSSYSTEM])
     end
 
+    def canChangeTypeTo?(type, showMoveFailure = false)
+        typeData = GameData::Type.try_get(type)
+        if typeData.nil?
+            if showMoveFailure
+                yield _INTL("{1}-type doesn't exist!", type)
+            end
+            return false
+        end
+        if pbHasType?(type)
+            if showMoveFailure
+                yield _INTL("{1} is already {2}-type!", pbThis(true), typeData.name)
+            end
+            return false
+        end
+        unless canChangeType?
+            if showMoveFailure
+                yield _INTL("{1} can't have its type changed!", pbThis(true))
+            end
+            return false
+        end
+        return true
+    end
+
     def airborne?(checkingForAI = false)
         return false if shouldItemApply?(:IRONBALL,checkingForAI)
         return false if effectActive?(:Ingrain)

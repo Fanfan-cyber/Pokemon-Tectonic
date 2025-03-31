@@ -334,7 +334,7 @@ BattleHandlers::UserAbilityEndOfMove.add(:TORPORSAP,
         asleepTargets.push(target)
       end
       next if asleepTargets.length == 0
-      user.pbRecoverHPFromMultiDrain(asleepTargets, 0.25, ability: ability)
+      user.pbRecoverHPFromMultiDrain(asleepTargets, 0.50, ability: ability)
   }
 )
 

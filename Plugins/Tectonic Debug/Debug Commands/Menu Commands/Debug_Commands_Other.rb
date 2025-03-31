@@ -351,7 +351,7 @@ def renameMoves(renamingHash)
         next moveSym
       end
     }
-    modifiedLineMoves = species_data.egg_moves
+    modifiedLineMoves = species_data.line_moves
     modifiedLineMoves.map! { |moveSym|
       moveName = moveSym.to_s
       if renamingHash.has_key?(moveName)

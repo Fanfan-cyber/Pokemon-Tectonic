@@ -593,6 +593,19 @@ Flags = CanProtect,CanMagicCoat
 Description = The user smirks with confidence. The Sp. Def of nearby enemies is reduced.
 Animation = SCARYFACE
 #-------------------------------
+[STELLARATE]
+Name = Stellarate
+Type = NORMAL
+Category = Special
+Power = 25
+Accuracy = 0
+TotalPP = 15
+Target = AllNearFoes
+FunctionCode = HitTwoToFiveTimesAlwaysHits
+Flags = CanProtect
+Description = A barrage of two to five star-shaped rays are shot at the opposing team. Can't miss and skips protections.
+Animation = SWIFT
+#-------------------------------
 [THIEVINGSPREE]
 Name = Thieving Spree
 Type = NORMAL
@@ -3513,6 +3526,18 @@ Flags = CanProtect
 EffectChance = 10
 Description = The target is dried out and loses Water-type. Then, it bursts into flame from the heat.
 #-------------------------------
+[EVERNALFLUX]
+Name = Evernal Flux
+Type = FIRE
+Category = Status
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = BurnAddFireType
+Flags = CanProtect,CanMagicCoat
+Description = The user emits great amounts of heat, burning the target and adding the Fire-type to it.
+Animation = MORNINGSUN
+#-------------------------------
 [FIREPULSE]
 Name = Fire Pulse
 Type = FIRE
@@ -3588,19 +3613,6 @@ Flags = CanProtect,Dance
 EffectChance = 100
 Description = The user dances rapidly, emitting tropical heat. Any frostbitten Pokémon will be healed by this heat.
 Animation = HEATWAVE
-#-------------------------------
-[HEATGYRE]
-Name = Heat Gyre
-Type = FIRE
-Category = Physical
-Power = 75
-Accuracy = 100
-TotalPP = 10
-Target = NearFoe
-FunctionCode = StartSunshine8
-Flags = CanProtect
-Description = Spins into the target while emitting heat, then summons sunshine for eight turns.
-Animation = FLAMEWHEEL
 #-------------------------------
 [HOTSHOT]
 Name = Hot Shot
@@ -3704,6 +3716,19 @@ FunctionCode = RaiseUserAndAlliesAtk2
 Flags = CanSnatch,Sound
 Description = The user roars with the force of a volcano, raising the Attack of itself and allies.
 Animation = HOWL
+#-------------------------------
+[PARHELIONHUNT]
+Name = Parhelion Hunt
+Type = FIRE
+Category = Special
+Power = 50
+Accuracy = 100
+TotalPP = 10
+Target = NearFoe
+FunctionCode = StartSunshine8
+Flags = CanProtect
+Description = The user attacks with fire that can be seen in two places, then summons sunshine for eight turns.
+Animation = HEATWAVE
 #-------------------------------
 [PROMINENCE]
 Name = Prominence
@@ -5820,6 +5845,18 @@ EffectChance = 100
 Description = The user attacks the target with a frontal cold wind. It reduces the target's Speed by three steps.
 Animation = ICYWIND
 #-------------------------------
+[HIBERNALFLUX]
+Name = Hibernal Flux
+Type = ICE
+Category = Status
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = FrostbiteAddIceType
+Flags = CanProtect,CanMagicCoat
+Description = The user absorbs the target's heat, frosbitting it and adding the Ice-type to it.
+Animation = MOONLIGHT
+#-------------------------------
 [HYPERFROST]
 Name = Hyperfrost
 Type = ICE
@@ -7395,7 +7432,7 @@ Animation = FAIRYWIND
 Name = Waxing Light
 Type = FAIRY
 Category = Special
-Power = 75
+Power = 50
 Accuracy = 100
 TotalPP = 10
 Target = NearFoe

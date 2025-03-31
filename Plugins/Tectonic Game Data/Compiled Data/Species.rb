@@ -23,7 +23,8 @@ module GameData
         attr_reader :happiness
         attr_reader :moves
         attr_reader :tutor_moves
-        attr_reader :egg_moves
+        attr_reader :egg_moves # To maintain some backwards compatibility
+        attr_reader :line_moves
         attr_reader :abilities
         attr_reader :hidden_abilities
         attr_reader :wild_item_common
@@ -142,9 +143,9 @@ module GameData
             @tutor_moves           = hash[:tutor_moves]           || []
             @tutor_moves.uniq!
             @tutor_moves.sort_by! { |a| a.to_s }
-            @egg_moves = hash[:line_moves] || hash[:egg_moves] || []
-            @egg_moves.uniq!
-            @egg_moves.sort_by! { |a| a.to_s }
+            @line_moves            = hash[:line_moves] || []
+            @line_moves.uniq!
+            @line_moves.sort_by! { |a| a.to_s }
             @abilities             = hash[:abilities]             || []
             @hidden_abilities      = hash[:hidden_abilities]      || []
             @wild_item_common      = hash[:wild_item_common]
@@ -176,7 +177,7 @@ module GameData
                 raise _INTL("Illegal move #{moveID} is learnable by species #{@id}!")
             end
 
-            @egg_moves.each do |moveID|
+            @line_moves.each do |moveID|
                 moveData = GameData::Move.get(moveID)
                 next if moveData.learnable?
                 raise _INTL("Illegal move #{moveID} is learnable by species #{@id}!")
@@ -286,6 +287,14 @@ module GameData
             return @species
         end
 
+        def get_previous_species_data
+            return nil unless has_previous_species?
+            sameFormData = GameData::Species.get_species_form(get_previous_species,@form)
+            return sameFormData if sameFormData
+            form0Data = GameData::Species.get(get_previous_species)
+            return form0Data
+        end
+
         def has_previous_species?
             return false if @evolutions.length == 0
             @evolutions.each { |evo| return true if evo[3] } # Is the prevolution
@@ -293,11 +302,11 @@ module GameData
         end
 
         def get_line_start
-            firstSpecies = self
-            while GameData::Species.get(firstSpecies.get_previous_species) != firstSpecies
-                firstSpecies = GameData::Species.get(firstSpecies.get_previous_species)
+            prevoSpecies = self
+            while prevoSpecies.has_previous_species?
+                prevoSpecies = prevoSpecies.get_previous_species_data
             end
-            return firstSpecies
+            return prevoSpecies
         end
 
         def is_solitary?
@@ -375,35 +384,121 @@ module GameData
             return allTribes
         end
 
+        def inherited_level_moves
+            return get_previous_species_data.level_moves if has_previous_species?
+            return []
+        end
+
+        def level_moves
+            if @levelMoves.nil?
+                @levelMoves = []
+                @levelMoves.concat(inherited_level_moves)
+                @moves.each do |learnsetEntry|
+                    matchingInheritedMove = false
+                    @levelMoves.each do |inheritedLearnsetEntry|
+                        next unless inheritedLearnsetEntry[0] == learnsetEntry[0] && inheritedLearnsetEntry[1] == learnsetEntry[1]
+                        matchingInheritedMove = true
+                    end
+                    if matchingInheritedMove
+                        echoln("Species #{@id} learns move #{learnsetEntry[1]} at level #{learnsetEntry[0]} despite inheriting that move at that same level")
+                    else
+                        @levelMoves.push(learnsetEntry.clone)
+                    end
+                end
+
+                @levelMoves.sort! { |learnsetEntryA, learnsetEntryB|
+                    if learnsetEntryA[0] == learnsetEntryB[0]
+                        if learnsetEntryA[1] == learnsetEntryB[1]
+                            next 1
+                        else
+                            next learnsetEntryA[1] <=> learnsetEntryB[1]
+                        end
+                    else
+                        next learnsetEntryA[0] <=> learnsetEntryB[0]
+                    end
+                }
+            end
+            return @levelMoves
+        end
+
+        def inherited_tutor_moves
+            inheritedTutorMoves = []
+
+            prevoSpecies = self
+            while prevoSpecies.has_previous_species?
+                prevoSpecies = prevoSpecies.get_previous_species_data
+
+                inheritedTutorMoves.concat(prevoSpecies.line_moves || prevoSpecies.egg_moves)
+                if prevoSpecies.canTutorAny?
+                    learnableMoves.concat(GameData::Move.all_non_signature_moves)
+                end
+            end
+
+            inheritedTutorMoves.uniq!
+            inheritedTutorMoves.compact!
+            return inheritedTutorMoves
+        end
+
+        def inherited_moves
+            inheritedMoves = inherited_tutor_moves
+            inherited_level_moves.each do |learnset_entry|
+                moveID = learnset_entry[1]
+                inheritedMoves.push(moveID)
+            end
+            inheritedMoves.uniq!
+            inheritedMoves.compact!
+            return inheritedMoves
+        end
+
+        def non_inherited_tutor_moves
+            nonInheritedTutorMoves = @tutor_moves.clone
+            inherited_moves.each do |moveID|
+                nonInheritedTutorMoves.delete(moveID)
+            end
+            return nonInheritedTutorMoves
+        end
+
+        def non_inherited_line_moves
+            nonInheritedLineMoves = (@line_moves || @egg_moves).clone
+            inherited_moves.each do |moveID|
+                nonInheritedLineMoves.delete(moveID)
+            end
+            return nonInheritedLineMoves
+        end
+
+        def non_inherited_level_moves
+            nonInheritedLevelMoves = level_moves.clone
+            inherited_level_moves.each do |learnset_entry|
+                nonInheritedLevelMoves.reject! { |learnset_entry2|
+                    learnset_entry[0] == learnset_entry2[0] && learnset_entry[1] == learnset_entry2[1]
+                }
+            end
+            return nonInheritedLevelMoves
+        end
+
         def learnable_moves
-            learnableMoves = []
+            if @learnableMoves.nil?
+                @learnableMoves = []
 
-            firstSpecies = self
-            while GameData::Species.get(firstSpecies.get_previous_species) != firstSpecies
-                firstSpecies = GameData::Species.get(firstSpecies.get_previous_species)
+                @learnableMoves.concat(inherited_tutor_moves)
+                @learnableMoves.concat(@tutor_moves)
+                @learnableMoves.concat(@line_moves || @egg_moves)
+                @learnableMoves.concat(form_specific_moves)
+                level_moves.each do |learnset_entry|
+                    m = learnset_entry[1]
+                    @learnableMoves.push(m)
+                end
+
+                @learnableMoves.uniq!
+                @learnableMoves.compact!
             end
 
-            learnableMoves.concat(firstSpecies.egg_moves)
-            if firstSpecies.canTutorAny?
-                learnableMoves.concat(GameData::Move.all_non_signature_moves)
-            else
-                learnableMoves.concat(@tutor_moves)
-            end
-            learnableMoves.concat(form_specific_moves)
-            @moves.each do |learnset_entry|
-                m = learnset_entry[1]
-                learnableMoves.push(m)
-            end
-
-            learnableMoves.uniq!
-            learnableMoves.compact!
-
-            return learnableMoves
+            return @learnableMoves 
         end
 
         def non_level_moves
             learnableMoves = learnable_moves
-            @moves.each do |learnset_entry|
+            level_moves.each do |learnset_entry|
                 m = learnset_entry[1]
                 learnableMoves.delete(m)
             end
@@ -645,7 +740,6 @@ module Compiler
                       :happiness             => contents["Happiness"],
                       :moves                 => contents["Moves"],
                       :tutor_moves           => contents["TutorMoves"],
-                      :egg_moves             => contents["EggMoves"],
                       :line_moves            => contents["LineMoves"],
                       :abilities             => contents["Abilities"],
                       :hidden_abilities      => contents["HiddenAbility"],
@@ -857,8 +951,7 @@ module Compiler
                     :happiness             => contents["Happiness"] || base_data.happiness,
                     :moves                 => moves,
                     :tutor_moves           => contents["TutorMoves"] || base_data.tutor_moves.clone,
-                    :egg_moves             => contents["EggMoves"] || base_data.egg_moves.clone,
-                    :line_moves            => contents["LineMoves"] || base_data.egg_moves.clone,
+                    :line_moves            => contents["LineMoves"] || base_data.line_moves.clone,
                     :abilities             => contents["Abilities"] || base_data.abilities.clone,
                     :hidden_abilities      => contents["HiddenAbility"] || base_data.hidden_abilities.clone,
                     :wild_item_common      => contents["WildItemCommon"] || base_data.wild_item_common,
@@ -1058,9 +1151,9 @@ module Compiler
         f.write(format("Rareness = %d\r\n", species.catch_rate))
         f.write(format("Happiness = %d\r\n", species.happiness)) unless species.happiness == GameData::Species::DEFAULT_BASE_HAPPINESS
         f.write(format("Abilities = %s\r\n", species.abilities.join(","))) if species.abilities.length > 0
-        f.write(format("Moves = %s\r\n", species.moves.join(","))) if species.moves.length > 0
-        f.write(format("TutorMoves = %s\r\n", species.tutor_moves.join(","))) if species.tutor_moves.length > 0
-        f.write(format("LineMoves = %s\r\n", species.egg_moves.join(","))) if species.egg_moves.length > 0
+        f.write(format("Moves = %s\r\n", species.non_inherited_level_moves.join(","))) if species.non_inherited_level_moves.length > 0
+        f.write(format("TutorMoves = %s\r\n", species.non_inherited_tutor_moves.join(","))) if species.non_inherited_tutor_moves.length > 0
+        f.write(format("LineMoves = %s\r\n", species.non_inherited_line_moves.join(","))) if species.non_inherited_line_moves.length > 0
         f.write(format("Tribes = %s\r\n", species.tribes(true).join(","))) if species.tribes(true).length > 0
         f.write(format("StepsToHatch = %d\r\n", species.hatch_steps))
         f.write(format("Height = %.1f\r\n", species.height / 10.0))
@@ -1120,8 +1213,7 @@ module Compiler
         f.write("\#-------------------------------\r\n")
         f.write(format("[%s,%d]\r\n", species.species, species.form))
         if species.real_form_name && !species.real_form_name.empty?
-            f.write(format("FormName = %s\r\n",
-  species.real_form_name))
+            f.write(format("FormName = %s\r\n", species.real_form_name))
         end
         f.write(format("Notes = %s\r\n", species.notes)) if !species.notes.nil? && !species.notes.blank?
         f.write(format("PokedexForm = %d\r\n", species.pokedex_form)) if species.pokedex_form != species.form
@@ -1145,14 +1237,8 @@ module Compiler
         if species.abilities.length > 0 && species.abilities != base_species.abilities
             f.write(format("Abilities = %s\r\n", species.abilities.join(",")))
         end
-        if species.moves.length > 0 && species.moves != base_species.moves
-            f.write(format("Moves = %s\r\n", species.moves.join(",")))
-        end
-        if species.tutor_moves.length > 0 && species.tutor_moves != base_species.tutor_moves
-            f.write(format("TutorMoves = %s\r\n", species.tutor_moves.join(",")))
-        end
-        if species.egg_moves.length > 0 && species.egg_moves != base_species.egg_moves
-            f.write(format("LineMoves = %s\r\n", species.egg_moves.join(",")))
+        if species.non_inherited_level_moves.length > 0 && species.non_inherited_level_moves != base_species.non_inherited_level_moves
+            f.write(format("Moves = %s\r\n", species.non_inherited_level_moves.join(",")))
         end
         f.write(format("StepsToHatch = %d\r\n", species.hatch_steps)) if species.hatch_steps != base_species.hatch_steps
         f.write(format("Height = %.1f\r\n", species.height / 10.0)) if species.height != base_species.height

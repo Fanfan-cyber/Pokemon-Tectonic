@@ -60,7 +60,7 @@ Pokemon = GEODUDE,8
     Moves = ROCKTHROW,RUMBLE,ROCKPOLISH
     AbilityIndex = 0 # Unbreakable
 Pokemon = TIMBURR,9
-    Moves = POUND,LOWKICK,BRANCHPOKE
+    Moves = POUND,LOWKICK,LEAFAGE
     AbilityIndex = 0 # Expertise
 #-------------------------------
 [GENTLEMAN,Wilfrid]
@@ -390,7 +390,7 @@ Pokemon = AXEW,19
 #-------------------------------
 [LINEBACKER,Josh]
 Pokemon = GURDURR,21
-    Moves = FORCEPALM,BRANCHPOKE,BULLETCHARGE,AGILITY
+    Moves = FORCEPALM,LEAFAGE,BULLETCHARGE,AGILITY
     AbilityIndex = 0 # Expertise
 Pokemon = LILEEP,20
     Moves = MEGADRAIN,ANCIENTPOWER,WATERGUN,CONFUSERAY
@@ -966,7 +966,7 @@ Policies = CURSE_RECYCLING
 Pokemon = MORGREM,25
     Item = TANGABERRY
 Pokemon = MAGNETON,25
-    Item = AIRBALLOON
+    Item = SHUCABERRY
 Pokemon = POLIWHIRL,25
     Item = SITRUSBERRY
 Pokemon = SANDACONDA,25

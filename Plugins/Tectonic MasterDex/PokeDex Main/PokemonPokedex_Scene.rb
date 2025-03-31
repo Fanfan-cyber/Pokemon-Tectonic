@@ -1078,7 +1078,7 @@ class PokemonPokedex_Scene
                     echoln("Adding #{actualMoveID} to tutorable movesets:")
                     speciesToEdit.each do |species|
                         speciesData = GameData::Species.get(species)
-                        movesList = [speciesData.egg_moves, speciesData.tutor_moves][lineBehaviourSelection]
+                        movesList = [speciesData.line_moves, speciesData.tutor_moves][lineBehaviourSelection]
                         movesList = speciesData.tutor_moves if speciesData.is_solitary?
                         next if movesList.include?(actualMoveID)
                         movesList.push(actualMoveID)
@@ -1089,7 +1089,7 @@ class PokemonPokedex_Scene
                     echoln("Deleting #{actualMoveID} from tutorable movesets:")
                     speciesToEdit.each do |species|
                         speciesData = GameData::Species.get(species)
-                        movesList = [speciesData.egg_moves, speciesData.tutor_moves][lineBehaviourSelection]
+                        movesList = [speciesData.line_moves, speciesData.tutor_moves][lineBehaviourSelection]
                         movesList = speciesData.tutor_moves if speciesData.is_solitary?
                         next unless movesList.include?(actualMoveID)
                         movesList.delete(actualMoveID)
@@ -1100,7 +1100,7 @@ class PokemonPokedex_Scene
                     echoln("Replacing #{actualMoveID} in tutorable movesets with #{replacementActualMoveID}:")
                     speciesToEdit.each do |species|
                         speciesData = GameData::Species.get(species)
-                        movesList = [speciesData.egg_moves, speciesData.tutor_moves][lineBehaviourSelection]
+                        movesList = [speciesData.line_moves, speciesData.tutor_moves][lineBehaviourSelection]
                         movesList = speciesData.tutor_moves if speciesData.is_solitary?
                         next unless movesList.include?(actualMoveID)
                         next if movesList.include?(replacementActualMoveID)

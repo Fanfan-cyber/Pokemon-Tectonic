@@ -1802,6 +1802,19 @@ FunctionCode = Invalid
 Flags = CanProtect
 Description = The user attacks the foe with a bursting flame. It also damages Pokémon next to the target.
 #-------------------------------
+[HEATGYRE]
+Name = Heat Gyre
+Type = FIRE
+Category = Physical
+Power = 75
+Accuracy = 100
+TotalPP = 10
+Target = NearFoe
+FunctionCode = Invalid
+Flags = CanProtect
+Description = Spins into the target while emitting heat, then summons sunshine for eight turns.
+Animation = FLAMEWHEEL
+#-------------------------------
 [LAVAPLUME]
 Name = Lava Plume
 Type = FIRE
@@ -2006,6 +2019,18 @@ FunctionCode = Invalid
 Flags = CanProtect
 EffectChance = 100
 Description = Attacks with an acidic liquid created from tart apples. Lowers the target's Sp. Def stat.
+#-------------------------------
+[BRANCHPOKE]
+Name = Branch Poke
+Type = GRASS
+Category = Physical
+Power = 45
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+FunctionCode = Invalid
+Flags = CanProtect
+Description = The user attacks the target by poking it with a sharply pointed branch.
 #-------------------------------
 [CURSEDROOTS]
 Name = Cursed Roots

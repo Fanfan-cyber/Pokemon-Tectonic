@@ -728,7 +728,7 @@ sp.form) && !Settings::DEX_SHOWS_ALL_FORMS
         for i in @available
             next unless i[2] == @form
             fSpecies = GameData::Species.get_species_form(@species, i[2])
-            learnset = fSpecies.moves
+            learnset = fSpecies.level_moves
             displayIndex = 0
             @scrollableLists = [learnset]
             learnset.each_with_index do |learnsetEntry, listIndex|

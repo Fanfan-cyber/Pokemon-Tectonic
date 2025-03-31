@@ -879,7 +879,7 @@ class Pokemon
     # Returns the list of moves this Pokémon can learn by levelling up.
     # @return [Array<Array<Integer,Symbol>>] this Pokémon's move list, where every element is [level, move ID]
     def getMoveList
-        return species_data.moves
+        return species_data.level_moves
     end
 
     # Reset the pokemon's moveset to what a wild pokemon would have at the given level

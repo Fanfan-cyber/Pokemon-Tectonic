@@ -426,7 +426,7 @@ def generateFullDexDoc(generationNumber = nil,fileName = "fulldexdoc.txt")
 			allLevelMoves = []
 			signatureMoves = []
 			levelUpStr = ""
-			species_data.moves.each_with_index do |levelUpEntry, index|
+			species_data.level_moves.each_with_index do |levelUpEntry, index|
 				next if allLevelMoves.include?(levelUpEntry[1])
 				moveData = GameData::Move.get(levelUpEntry[1])
 				allLevelMoves.push(levelUpEntry[1])
@@ -442,7 +442,7 @@ def generateFullDexDoc(generationNumber = nil,fileName = "fulldexdoc.txt")
 				
 				levelUpStr += levelUpTimeStr + ":" + spacesString + moveData.real_name
 				levelUpStr += " (Signature)" if moveData.is_signature?
-				levelUpStr += "\r\n" unless index == species_data.moves.length - 1
+				levelUpStr += "\r\n" unless index == species_data.level_moves.length - 1
 			end
 			dexListing.push(levelUpStr)
 

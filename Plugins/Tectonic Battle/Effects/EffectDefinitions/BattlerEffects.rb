@@ -542,7 +542,7 @@ GameData::BattleEffect.register_effect(:Battler, {
         battle.pbDisplay(_INTL("{1} firmly planted its evil roots! It can't be moved!", battler.pbThis))
         battle.pbDisplay(_INTL("The evil roots will sap foe health each turn!", battler.pbThis))
     end,
-    :eor_proc => proc do |_battle, battler, _value|
+    :eor_proc => proc do |battle, battler, _value|
         next unless battler.canHeal?
 
         battler.eachOpposing do |b|

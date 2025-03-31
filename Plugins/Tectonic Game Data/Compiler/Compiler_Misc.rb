@@ -26,7 +26,7 @@ module Compiler
         end
         GameData::Species.each do |speciesData|
             next unless speciesData.form == 0
-            speciesData.moves.each do |learnset_entry|
+            speciesData.level_moves.each do |learnset_entry|
                 move_id = learnset_entry[1]
                 level_learned = learnset_entry[0]
                 levelUpLearnerEntry = [speciesData.id,level_learned]

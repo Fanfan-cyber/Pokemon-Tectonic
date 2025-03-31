@@ -874,6 +874,10 @@ Name = Heavy Duty Hooves
 Description = Boosts the power of kicking moves by 30%. Immune to hazards.
 Flags = HazardImmunity
 #-------------------------------
+[HELIOCENTRISM]
+Name = Heliocentrism
+Description = Prevents the foe from escaping during gravity.
+#-------------------------------
 [HERBALIST]
 Name = Herbalist
 Description = Can hold two different items, if both are Herbs.
@@ -2005,7 +2009,7 @@ Flags = EclipseSynergy
 #-------------------------------
 [TORPORSAP]
 Name = Torpor Sap
-Description = Restores its HP by 25% of the damage it deals to sleeping targets.
+Description = Restores its HP by 50% of the damage it deals to sleeping targets.
 #-------------------------------
 [TOUGH]
 Name = Tough

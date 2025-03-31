@@ -59,7 +59,7 @@ def pbGetLegalMoves2(species, maxlevel)
   end
   species_data.tutor_moves.each { |m| addMove(moves, m, 0) if $tmMoves.include?(m) }
   babyspecies = babySpecies(species)
-  GameData::Species.get(babyspecies).egg_moves.each { |m| addMove(moves, m, 2) }
+  GameData::Species.get(babyspecies).line_moves.each { |m| addMove(moves, m, 2) }
   #
   movedatas = []
   for move in moves
