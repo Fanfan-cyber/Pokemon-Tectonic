@@ -478,14 +478,58 @@ MultipleForms.register(:ZAMAZENTA,{
   "getForm" => proc { |pkmn|
     next 1 if pkmn.hasItem?(:RUSTEDSHIELD)
     next 0
-  }
+  },
+  "onSetForm" => proc { |pkmn, form, oldForm|
+    form_moves = GameData::Species.get(:ZAMAZENTA).form_specific_moves
+    if form == 0
+      # Turned back into the base form; forget form-specific moves
+      move_index = -1
+      pkmn.moves.each_with_index do |move, i|
+        next if !form_moves.any? { |m| m == move.id }
+        move_index = i
+        break
+      end
+      if move_index >= 0
+        move_name = pkmn.moves[move_index].name
+        pkmn.forget_move_at_index(move_index)
+        pbMessage(_INTL("{1} forgot {2}...", pkmn.name, move_name))
+        pbLearnMove(:IRONHEAD) if pkmn.numMoves == 0
+      end
+    else
+      # Turned into an alternate form; try learning that form's unique move
+      new_move_id = form_moves[form]
+      pbLearnMove(pkmn, new_move_id, true)
+    end
+  },
 })
 
 MultipleForms.register(:ZACIAN,{
   "getForm" => proc { |pkmn|
     next 1 if pkmn.hasItem?(:RUSTEDSWORD)
     next 0
-  }
+  },
+  "onSetForm" => proc { |pkmn, form, oldForm|
+    form_moves = GameData::Species.get(:ZACIAN).form_specific_moves
+    if form == 0
+      # Turned back into the base form; forget form-specific moves
+      move_index = -1
+      pkmn.moves.each_with_index do |move, i|
+        next if !form_moves.any? { |m| m == move.id }
+        move_index = i
+        break
+      end
+      if move_index >= 0
+        move_name = pkmn.moves[move_index].name
+        pkmn.forget_move_at_index(move_index)
+        pbMessage(_INTL("{1} forgot {2}...", pkmn.name, move_name))
+        pbLearnMove(:IRONHEAD) if pkmn.numMoves == 0
+      end
+    else
+      # Turned into an alternate form; try learning that form's unique move
+      new_move_id = form_moves[form]
+      pbLearnMove(pkmn, new_move_id, true)
+    end
+  },
 })
 
 MultipleForms.register(:PUMPKABOO, {

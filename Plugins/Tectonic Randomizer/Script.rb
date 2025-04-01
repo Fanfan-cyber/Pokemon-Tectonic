@@ -6,6 +6,7 @@
 module Randomizer
     @@randomizer = false
     @@rules = []
+    
     #-----------------------------------------------------------------------------
     #  check if randomizer is on
     #-----------------------------------------------------------------------------
@@ -148,6 +149,11 @@ module Randomizer
         return Randomizer::EXCLUSIONS_TRAINERS.include?(trainerID)
     end
 
+    def self.trainersRandomized?
+        return false unless self.on?
+        return @@rules.include?(:TRAINERS)
+    end
+
     #-----------------------------------------------------------------------------
     #  randomizes map encounters
     #-----------------------------------------------------------------------------
@@ -177,38 +183,6 @@ module Randomizer
     end
 
     #-----------------------------------------------------------------------------
-    #  randomizes static battles called through events
-    #-----------------------------------------------------------------------------
-    def self.randomizeStatic
-        new = {}
-        array = all_species.dup
-        # shuffles up species indexes to load a different one
-        for org in all_species
-            newIndex = -1
-            new[org] = array[i]
-            array.delete_at(i)
-        end
-        return new
-    end
-
-    #-----------------------------------------------------------------------------
-    #  randomizes items received through events
-    #-----------------------------------------------------------------------------
-    def self.randomizeItems
-        new = {}
-        item = :POTION
-        # shuffles up item indexes to load a different one
-        for org in all_items
-            loop do
-                item = all_items.sample
-                break unless GameData::Item.get(item).is_key_item?
-            end
-            new[org] = item
-        end
-        return new
-    end
-
-    #-----------------------------------------------------------------------------
     #  begins the process of randomizing all data
     #-----------------------------------------------------------------------------
     def self.randomizeData
@@ -217,9 +191,6 @@ module Randomizer
         randomized = {
           :TRAINERS => proc { next Randomizer.randomizeTrainers },
           :ENCOUNTERS => proc { next Randomizer.randomizeEncounters },
-            # :STATIC => proc{ next Randomizer.randomizeStatic },
-            # :GIFTS => proc{ next Randomizer.randomizeStatic },
-            # :ITEMS => proc{ next Randomizer.randomizeItems }
         }
         # applies randomized data for specified rule sets
         for key in @@rules
@@ -356,18 +327,6 @@ def randomizeSpecies(species, static = false, gift = false)
     return pokemon.nil? ? species : pokemon
 end
 
-def randomizeItem(item)
-    return item unless Randomizer.on?
-    return item if GameData::Item.get(item).is_key_item?
-    # if defined as an exclusion rule, species will not be randomized
-    excl = Randomizer::EXCLUSIONS_ITEMS
-    if !excl.nil? && excl.is_a?(Array)
-        for ent in excl
-            return item if item == ent
-        end
-    end
-    return Randomizer.getRandomizedData(item, :ITEMS, item)
-end
 #===============================================================================
 #  refresh cache on load
 #===============================================================================
@@ -391,7 +350,7 @@ def pbLoadTrainer(tr_type, tr_name, tr_version = 0)
     trainer_data = GameData::Trainer.try_get(tr_type, tr_name, tr_version)
 
     # Only modify the trainer if the randomizer is on and the trainer is meant to be randomized
-    if Randomizer.on? && !Randomizer.trainerExcluded?(trainer_data.id)
+    if Randomizer.trainersRandomized? && !Randomizer.trainerExcluded?(trainer_data.id)
         key = [tr_type.to_sym, tr_name, tr_version]
         new_trainer_data = Randomizer.getRandomizedData(trainer_data, :TRAINERS, key)
 

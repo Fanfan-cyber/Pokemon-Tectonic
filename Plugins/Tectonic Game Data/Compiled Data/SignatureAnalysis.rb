@@ -56,6 +56,10 @@ def getMoveLearnableGroups()
 		species_data.learnable_moves.each do |move|
 			move_counts[move][groupIndex].push(species_data.id)
 		end
+		species_data.form_specific_moves.each do |move|
+			next if move == nil
+			move_counts[move][groupIndex].push(species_data.id)
+		end
 	end
 
 	GameData::Move.each do |move_data|

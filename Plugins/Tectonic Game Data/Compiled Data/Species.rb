@@ -532,6 +532,16 @@ module GameData
                     :SUNSTEELSTRIKE, # Dusk Mane (with Solgaleo) (form 1)
                     :MOONGEISTBEAM, # Dawn Wings (with Lunala) (form 2)
                 ]
+            elsif @species == :ZAMAZENTA
+                return [
+                    nil,
+                    :BEHEMOTHBASH
+                ]
+            elsif @species == :ZACIAN
+                return [
+                    nil,
+                    :BEHEMOTHBLADE
+                ]
             end
             return []
         end
