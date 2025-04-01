@@ -30,6 +30,42 @@ class PokeBattle_Battler
     return owned_trainer.fainted_pkmn_count
   end
 
+  def record_stat_steps
+    battle_tracker_get(:steps_before_switching).merge!(@steps)
+  end
+
+  def apply_special_stat_steps
+    strategy = get_strategy
+    return unless strategy
+    stat_steps = battle_tracker_get(:steps_before_switching)
+    case strategy
+    when :positive
+      stat_steps.each { |stat, step| @steps[stat] = step if step > 0 }
+    when :negative
+      stat_steps.each { |stat, step| @steps[stat] = step if step < 0 }
+    when :positive_half
+      stat_steps.each { |stat, step| @steps[stat] = step / 2 if step > 0 }
+    when :negative_half
+      stat_steps.each { |stat, step| @steps[stat] = step / 2 if step < 0 }
+    when :positive_full_negative_half
+      stat_steps.each do |stat, step|
+        next if step == 0
+        @steps[stat] = step > 0 ? step : step / 2
+      end
+    when :negative_full_positive_half
+      stat_steps.each do |stat, step|
+        next if step == 0
+        @steps[stat] = step < 0 ? step : step / 2
+      end
+    else
+      stat_steps.each { |stat, step| @steps[stat] = step }
+    end
+  end
+
+  def get_strategy
+    return nil
+  end
+
   def transformSpeciesEX(newSpecies = nil, abil_id = nil, base_stat = false, stats = false)
     @battle.pbShowAbilitySplash(self, abil_id) if abil_id
 

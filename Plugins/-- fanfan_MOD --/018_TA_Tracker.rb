@@ -8,10 +8,11 @@ end
 
 class PokeBattle_BattlerBattleTracker
   def initialize
-    @faint_healing_triggered  = false
-    @warned                   = [] # used for Cursed Tail
-    @hits_in_progress         = 0
-    @hits_in_progress_kicking = 0
+    @faint_healing_triggered  = false # used to record whether Faint Healing triggered or not
+    @steps_before_switching   = {}    # used to record Stat Steps
+    @hits_in_progress         = 0     # used to record the count of hits in progress
+    @hits_in_progress_kicking = 0     # used to record the count of kicking hits in progress
+    @warned                   = []    # used for Cursed Tail
 
     @being_hits = 0
     @hits_dealt = 0
@@ -32,7 +33,7 @@ end
 
 class PokeBattle_BattlerTracker
   def initialize
-    @forced_engagement = nil
+    @forced_engagement = nil # used for Forced Engagement
   end
 end
 

@@ -412,6 +412,10 @@ module PokemonDebugMenuCommands
     "name"        => _INTL("Forget move"),
     "always_show" => true,
     "effect"      => proc { |pkmn, pkmnid, heldpoke, settingUpBattle, screen|
+      if pkmn.moves.empty?
+        screen.pbDisplay(_INTL("{1} doesn't have any moves!", pkmn.name))
+        next false
+      end
       pbChooseMove(pkmn, 2, 4)
       moveindex = getGlobalVariable(2)
       if moveindex >= 0
