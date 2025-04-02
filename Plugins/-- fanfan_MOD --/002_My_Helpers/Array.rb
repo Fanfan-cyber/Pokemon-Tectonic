@@ -9,6 +9,10 @@ class Array
     initial_object
   end
 
+  def shared?(other_array)
+    any? { |element| other_array.include?(element) }
+  end
+
   def number?
     all? { |element| element.is_a?(Numeric) }
   end
