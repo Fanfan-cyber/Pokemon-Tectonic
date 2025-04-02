@@ -2,7 +2,6 @@
 # Picking up an item found on the ground
 #===============================================================================
 def pbItemBall(item, quantity = 1)
-    item = randomizeItem(item)
     item = GameData::Item.get(item)
     return false if !item || quantity < 1
     itemname = (quantity > 1) ? item.name_plural : item.name

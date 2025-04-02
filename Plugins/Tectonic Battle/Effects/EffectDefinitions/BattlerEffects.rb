@@ -169,6 +169,11 @@ GameData::BattleEffect.register_effect(:Battler, {
 })
 
 GameData::BattleEffect.register_effect(:Battler, {
+    :id => :MartialDiscipline,
+    :real_name => "MartialDiscipline",
+})
+
+GameData::BattleEffect.register_effect(:Battler, {
     :id => :DefenseCurl,
     :real_name => "Curled Up",
 })

@@ -491,7 +491,7 @@ Description = If its stats would be changed, instead they're changed half as muc
 #-------------------------------
 [ECHO]
 Name = Echo
-Description = Repeats another Pokémon's sound moves immediately at 75% power.
+Description = Repeats another Pokémon's sound and pulse moves immediately at 75% power.
 #-------------------------------
 [ECTOPARTICLES]
 Name = Ecto-Particles
@@ -1159,6 +1159,10 @@ Description = Physical moves have a 30% chance to waterlog targets.
 [MARINEMENACE]
 Name = Marine Menace
 Description = Dive and Depth Charge deal 50% more damage.
+#-------------------------------
+[MARTIALDISCIPLINE]
+Name = Martial Discipline
+Description = Repeats another Pokémon's punch and kick moves immediately at 75% power.
 #-------------------------------
 [MASSATTACK]
 Name = Mass Attack
