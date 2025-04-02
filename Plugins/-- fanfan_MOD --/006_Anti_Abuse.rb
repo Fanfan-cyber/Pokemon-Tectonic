@@ -78,6 +78,7 @@ module AntiAbuse
   end
 
   def self.apply_anti_abuse
+    check_path
     kill_joiplay_shit
     debug_check
   end
@@ -119,6 +120,14 @@ module AntiAbuse
     wmi = WIN32OLE.connect("winmgmts://")
     processes = wmi.ExecQuery("SELECT * FROM Win32_Process WHERE Name = '#{process_name}'")
     return processes.count != 0
+  end
+
+  def self.check_path
+    current_path = Dir.pwd
+    if current_path.include?("/AppData/Local/Temp")
+      pbMessage(_INTL("Warning: Do not run the game from the ZIP file directly.\nPlease extract all files before launching."))
+      exit
+    end
   end
 
   def self.kill_joiplay_shit
