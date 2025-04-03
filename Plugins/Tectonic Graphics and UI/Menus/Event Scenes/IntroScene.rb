@@ -60,8 +60,8 @@ class IntroEventScene < EventScene
     @pic2.setXY(0, TITLE_START_IMAGE_X, TITLE_START_IMAGE_Y)
     @pic2.setVisible(0, true)
     @pic2.moveOpacity(0, FADE_TICKS, 255)
-	  addLabel(0,220,Graphics.width,"<c3=FFFFFFFF,000000FF><ac><outln2>Version #{Settings::GAME_VERSION}</outln2></ac></c3>")
-
+	  addLabel(0,220,Graphics.width,"<c3=FFFFFFFF,000000FF><ac><outln2>Version #{MOD_VERSION}</outln2></ac></c3>")
+=begin
     activeVersionLabel = ""
     
     mostRecentVersion = loadMostRecentVersionNumber
@@ -74,7 +74,7 @@ class IntroEventScene < EventScene
     end
 
     addLabel(0,260,Graphics.width,"<c3=FF2211FF,DDEEEEFF><ac><outln2>#{activeVersionLabel}</outln2></ac></c3>")
-
+=end
     pictureWait
     onUpdate.set(method(:title_screen_update))    # called every frame
     onCTrigger.set(method(:close_title_screen))   # called when C key is pressed

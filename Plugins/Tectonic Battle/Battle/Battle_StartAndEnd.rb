@@ -667,7 +667,7 @@ class PokeBattle_Battle
             oldMoney = pbPlayer.money
             pbPlayer.money += tMoney
             moneyGained = pbPlayer.money - oldMoney
-            pbDisplayPaused(_INTL("You got ${1} for winning!", moneyGained.to_s_formatted)) if moneyGained > 0
+            pbDisplayPaused(_INTL("You got ${1} and {2} AP for winning!", moneyGained.to_s_formatted, AdoptionCenter::AP_PER_BATTLE)) if moneyGained > 0
         end
         # Pick up money scattered by Pay Day
         if @field.effectActive?(:PayDay)
