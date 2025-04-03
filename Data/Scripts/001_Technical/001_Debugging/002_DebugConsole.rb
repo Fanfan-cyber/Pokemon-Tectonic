@@ -4,6 +4,7 @@
 module Console
   def self.setup_console
     return unless $DEBUG
+    echoln "Ruby Version : #{RUBY_VERSION}"
     echoln "--------------------------------"
     echoln "#{System.game_title} Output Window"
     echoln "--------------------------------"

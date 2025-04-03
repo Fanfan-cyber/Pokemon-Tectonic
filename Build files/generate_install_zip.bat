@@ -1,1 +1,0 @@
-java -jar "Tectonic Zipper.jar" /z "install_files.txt" "" "false"
