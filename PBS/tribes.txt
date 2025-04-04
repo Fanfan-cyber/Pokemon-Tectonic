@@ -19,4 +19,4 @@ SERENE,5,Serene,"Enemy Pokemon's chance to activate their additional effects aga
 STAMPEDE,5,Stampede,"Your team members take 12% less move damage if they're using an attack this turn."
 TACTICIAN,5,Tactician,"Protects your team members from critical hits."
 TYRANNICAL,5,Tyrannical,"Ignore the first time each battle that one of your team members would flinch or get a status condition."
-WARRIOR,5,Warrior,"Your team's 'Super Effective' moves deals 12% more damage."
+WARRIOR,5,Warrior,"Your team's 'Super Effective' moves deal 12% more damage."
