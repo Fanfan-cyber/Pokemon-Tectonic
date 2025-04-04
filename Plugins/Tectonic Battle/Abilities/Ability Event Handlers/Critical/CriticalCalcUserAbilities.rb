@@ -45,3 +45,9 @@ BattleHandlers::CriticalCalcUserAbility.add(:SILVERSENSE,
       next c + 1
   }
 )
+
+BattleHandlers::CriticalCalcUserAbility.add(:VICTORYSTAR,
+  proc { |ability, user, _target, _move, c|
+      next c + 1
+  }
+)

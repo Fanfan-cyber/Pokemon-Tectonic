@@ -32,3 +32,10 @@ BattleHandlers::AddedEffectChanceModifierUserAbility.add(:SILVERLINING,
         next chance
     }
 )
+
+BattleHandlers::AddedEffectChanceModifierUserAbility.add(:VICTORYSTAR,
+    proc { |ability, user, target, move, chance|
+        chance *= 2.0
+        next chance
+    }
+)

@@ -170,8 +170,8 @@ class PokeBattle_Move
         user.eachAbilityShouldApply(aiCheck) do |ability|
             BattleHandlers.triggerAccuracyCalcUserAbility(ability, modifiers, user, target, self, typeToUse)
         end
-        user.eachAlly do |b|
-            b.eachAbilityShouldApply(aiCheck) do |ability|
+        user.eachAlly do |ally|
+            ally.eachAbilityShouldApply(aiCheck) do |ability|
                 BattleHandlers.triggerAccuracyCalcUserAllyAbility(ability, modifiers, user, target, self, typeToUse)
             end
         end
@@ -389,6 +389,13 @@ showMessages)
         # User's abilities modify effect chance
         user.eachAbilityShouldApply(aiCheck) do |ability|
             ret = BattleHandlers.triggerAddedEffectChanceModifierUserAbility(ability, user, target, self, ret)
+        end
+
+        # User's ally's abilities modify effect chance
+        user.eachAlly do |ally|
+            ally.eachActiveAbility do |ability|
+                ret = BattleHandlers.triggerAddedEffectChanceModifierUserAllyAbility(ability, user, target, self, ret)
+            end
         end
 
         # Target's abilities modify effect chance
