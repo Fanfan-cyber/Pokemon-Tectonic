@@ -673,7 +673,7 @@ Description = Physical moves negate all protection effects.
 #-------------------------------
 [VICTORYSTAR]
 Name = Victory Star
-Description = Doubles the Accuracy of its allies and itself.
+Description = Doubles the Accuracy, critical hit rate, and chance to activate random added effects for its allies and itself.
 #-------------------------------
 [VITALSPIRIT]
 Name = Vital Spirit
