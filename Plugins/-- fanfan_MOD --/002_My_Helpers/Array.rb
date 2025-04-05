@@ -1,6 +1,6 @@
 class Array
-  alias_method :random,     :sample
-  alias_method :choose,     :values_at
+  alias_method :random, :sample
+  alias_method :choose, :values_at
 
   def each_with_index_and_object(initial_object)
     each_with_index do |element, index|
@@ -9,8 +9,20 @@ class Array
     initial_object
   end
 
-  def shared?(other_array)
-    any? { |element| other_array.include?(element) }
+  def shared?(*others)
+    case others.length
+    when 0
+      false
+    when 1
+      other = others.first
+      if other.is_a?(Array)
+        any? { |e| other.include?(e) }
+      else
+        include?(other)
+      end
+    else
+      any? { |e| others.include?(e) }
+    end
   end
 
   def number?
@@ -19,10 +31,6 @@ class Array
 
   def nested?
     any? { |element| element.is_a?(Array) }
-  end
-
-  def pure?
-    none? { |element| element.is_a?(Array) }
   end
 
   def dup?
@@ -34,7 +42,6 @@ class Array
   end
 
   def drop_last(n = 1)
-    return self if n <= 0
     self[0..-(n + 1)]
   end
 
