@@ -20,7 +20,7 @@
 重新修改替换不重置能力等级的逻辑
 将在打败对手训练师的精灵或者化身时获得的经验值从原来的5倍削减为3倍
 =end
-MOD_VERSION = "0.3.3"
+MOD_VERSION = "0.3.4"
 
 CHANGE_LOG = <<-LOGGER
 #==============================================================================#
@@ -129,6 +129,9 @@ rocket/norocket，开启/关闭火箭队模式
 customabil/nocustomabil，开启/关闭特性自选模式
 doublebattle/disabledouble，开启/关闭全双打模式
 zeroexp/disablezeroexp，开启/关闭无经验模式
+
+0.3.4
+1.
 
 0.3.3
 1.修改获得代欧奇希斯的密码为alien1
