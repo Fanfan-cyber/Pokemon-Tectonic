@@ -13566,12 +13566,14 @@ Pride is right.
 Don't beat yourself up.
 Don't beat yourself up.
 [Map214]
-Some loose paper displaying the LuxTech logo.
-Some loose paper displaying the LuxTech logo.
 Leaving through -- oh. You -- you’re looking for something down here.
 Leaving through -- oh. You -- you’re looking for something down here.
 Come back and, uh, I’ll still be... around.
 Come back and, uh, I’ll still be... around.
+Some loose paper displaying the LuxTech logo.
+Some loose paper displaying the LuxTech logo.
+The door is locked shut.
+The door is locked shut.
 I took some classes in the gym here.
 I took some classes in the gym here.
 I was a bit scared cause I heard how tough Samorn is.
@@ -13580,10 +13582,6 @@ She's the strongest gym leader in the whole region!
 She's the strongest gym leader in the whole region!
 But she's really nice. I had a great time.
 But she's really nice. I had a great time.
-The door is locked shut.
-The door is locked shut.
-Samorn's House
-Samorn's House
 Oh! I knew I’d find you here, my hero.
 Oh! I knew I’d find you here, my hero.
 You’re looking particularly ravishing today.
@@ -13664,6 +13662,24 @@ Just like you. Goodbye, \PN. I love you.
 Just like you. Goodbye, \PN. I love you. 
 Forever.
 Forever.
+Samorn's House
+Samorn's House
+"Attention: All Team Chasm Grunts"
+"Attention: All Team Chasm Grunts"
+"Team Chasm is no longer in operation, and activities here are to cease."
+"Team Chasm is no longer in operation, and activities here are to cease."
+"Until further notice, this base is now part owned by the scholars of Novo College."
+"Until further notice, this base is now part owned by the scholars of Novo College."
+"Your admins thank you for your dedication."
+"Your admins thank you for your dedication."
+You'd think that Samorn, the gym leader down there, would have issues getting around in her wheelchair.
+You'd think that Samorn, the gym leader down there, would have issues getting around in her wheelchair.
+Especially in difficult terrain like this.
+Especially in difficult terrain like this.
+At first I thought she'd use her dragons to help her down, but apparently that's too awkward.
+At first I thought she'd use her dragons to help her down, but apparently that's too awkward.
+Instead she just has her Runerigus do the heavy lifting. It isn't part of her team, so it gets to relax at home the rest of the day, too.
+Instead she just has her Runerigus do the heavy lifting. It isn't part of her team, so it gets to relax at home the rest of the day, too.
 Hello. My Druddigon and I handle trips down to Samorn's gym.
 Hello. My Druddigon and I handle trips down to Samorn's gym.
 Stay away from the ledge and we won't have any problems.
@@ -13706,22 +13722,6 @@ You've bested the Dreadnaught! Well fought.
 You've bested the Dreadnaught! Well fought.
 My congratulations to you and your Pokemon.
 My congratulations to you and your Pokemon.
-You'd think that Samorn, the gym leader down there, would have issues getting around in her wheelchair.
-You'd think that Samorn, the gym leader down there, would have issues getting around in her wheelchair.
-Especially in difficult terrain like this.
-Especially in difficult terrain like this.
-At first I thought she'd use her dragons to help her down, but apparently that's too awkward.
-At first I thought she'd use her dragons to help her down, but apparently that's too awkward.
-Instead she just has her Runerigus do the heavy lifting. It isn't part of her team, so it gets to relax at home the rest of the day, too.
-Instead she just has her Runerigus do the heavy lifting. It isn't part of her team, so it gets to relax at home the rest of the day, too.
-"Attention: All Team Chasm Grunts"
-"Attention: All Team Chasm Grunts"
-"Team Chasm is no longer in operation, and activities here are to cease."
-"Team Chasm is no longer in operation, and activities here are to cease."
-"Until further notice, this base is now part owned by the scholars of Novo College."
-"Until further notice, this base is now part owned by the scholars of Novo College."
-"Your admins thank you for your dedication."
-"Your admins thank you for your dedication."
 The 8th gym already. I can't believe how time flies.
 The 8th gym already. I can't believe how time flies.
 I've been enjoying this. I really and truly hope that you have, too.
@@ -24174,6 +24174,7 @@ You recover the relics you returned.
 It hurriedly gestures for you to enter the chamber ahead.
 It hurriedly gestures for you to enter the chamber ahead.
 [Map446]
+[Map447]
 [5]
 After You
 After You
@@ -24337,8 +24338,6 @@ Spit Up
 Spit Up
 Spotlight
 Spotlight
-Stellarate
-Stellarate
 Stockpile
 Stockpile
 Struggle
@@ -24901,8 +24900,6 @@ Absorb
 Absorb
 Aromatherapy
 Aromatherapy
-Branch Poke
-Branch Poke
 Bullet Seed
 Bullet Seed
 Chloroblast
@@ -25395,6 +25392,8 @@ Season's End
 Season's End
 Smirk
 Smirk
+Stellarate
+Stellarate
 Thieving Spree
 Thieving Spree
 Vicious Cleaning
@@ -25845,6 +25844,8 @@ Crimson Storm
 Crimson Storm
 Dry Heat
 Dry Heat
+Evernal Flux
+Evernal Flux
 Fire Pulse
 Fire Pulse
 Fireworks
@@ -25857,8 +25858,6 @@ Flare Witch
 Flare Witch
 Hearthfire Hula
 Hearthfire Hula
-Heat Gyre
-Heat Gyre
 Hot Shot
 Hot Shot
 Ignite
@@ -25875,6 +25874,8 @@ Liftoff
 Liftoff
 Like Wildfire
 Like Wildfire
+Parhelion Hunt
+Parhelion Hunt
 Prominence
 Prominence
 Propellant
@@ -26203,6 +26204,8 @@ Glacial Ram
 Glacial Ram
 Halting Cold
 Halting Cold
+Hibernal Flux
+Hibernal Flux
 Hyperfrost
 Hyperfrost
 Hypothermiate
@@ -26772,8 +26775,6 @@ The power stored using the move Stockpile is released all at once in an attack. 
 The power stored using the move Stockpile is released all at once in an attack. 150 base power per Stockpile charge.
 The user shines a spotlight on the target so that only it will be attacked during the turn.
 The user shines a spotlight on the target so that only it will be attacked during the turn.
-A barrage of two to five star-shaped rays are shot at the opposing team. Can't miss and skips protections.
-A barrage of two to five star-shaped rays are shot at the opposing team. Can't miss and skips protections.
 The user charges up power and raises its Defense and Sp. Def by two steps. The move can be stacked twice.
 The user charges up power and raises its Defense and Sp. Def by two steps. The move can be stacked twice.
 Used only if the user has no PP. It also hurts the user.
@@ -27326,8 +27327,6 @@ A nutrient-draining attack. The user's HP is restored by 50% of the damage dealt
 A nutrient-draining attack. The user's HP is restored by 50% of the damage dealt.
 The user releases a soothing scent that heals all status problems affecting the user's party.
 The user releases a soothing scent that heals all status problems affecting the user's party.
-The user attacks the target by poking it with a sharply pointed branch.
-The user attacks the target by poking it with a sharply pointed branch.
 The user forcefully shoots seeds at the target. Two to five seeds are shot in rapid succession.
 The user forcefully shoots seeds at the target. Two to five seeds are shot in rapid succession.
 The user launches its amassed chlorophyll to inflict damage on the target. The user loses half its current HP.
@@ -27804,6 +27803,8 @@ The user strikes while inviting the power of seasons. The user changes form to t
 The user strikes while inviting the power of seasons. The user changes form to the next season.
 The user smirks with confidence. The Sp. Def of nearby enemies is reduced.
 The user smirks with confidence. The Sp. Def of nearby enemies is reduced.
+A barrage of two to five star-shaped rays are shot at the opposing team. Can't miss and skips protections.
+A barrage of two to five star-shaped rays are shot at the opposing team. Can't miss and skips protections.
 The user attacks and steals items from all near foes. Items stolen from wild Pokémon are stored.
 The user attacks and steals items from all near foes. Items stolen from wild Pokémon are stored.
 The user flings the dirty oil on its fur. It transfers any status condition to the target.
@@ -28248,6 +28249,8 @@ The foe is engulfed in a firestorm, trapping and damaging it for three turns.
 The foe is engulfed in a firestorm, trapping and damaging it for three turns.
 The target is dried out and loses Water-type. Then, it bursts into flame from the heat.
 The target is dried out and loses Water-type. Then, it bursts into flame from the heat.
+The user emits great amounts of heat, burning the target and adding the Fire-type to it.
+The user emits great amounts of heat, burning the target and adding the Fire-type to it.
 The user attacks the target with a pulsing blast of fire. It has a 20% chance to burn.
 The user attacks the target with a pulsing blast of fire. It has a 20% chance to burn.
 The user fires off two to five explosive rounds in a beautiful display.
@@ -28260,8 +28263,6 @@ Raises Sp. Atk by three steps. Until switch out, the user's attacks spread to hi
 Raises Sp. Atk by three steps. Until switch out, the user's attacks spread to hit all nearby foes.
 The user dances rapidly, emitting tropical heat. Any frostbitten Pokémon will be healed by this heat.
 The user dances rapidly, emitting tropical heat. Any frostbitten Pokémon will be healed by this heat.
-Spins into the target while emitting heat, then summons sunshine for eight turns.
-Spins into the target while emitting heat, then summons sunshine for eight turns.
 The user shoots the target with a small bolt of fire. This move always goes first.
 The user shoots the target with a small bolt of fire. This move always goes first.
 The user sets the target on fire, inflicting a burn.
@@ -28278,6 +28279,8 @@ The user launches up high, becoming invulnerable, then explodes down on the seco
 The user launches up high, becoming invulnerable, then explodes down on the second turn, taking 25% recoil.
 The user roars with the force of a volcano, raising the Attack of itself and allies.
 The user roars with the force of a volcano, raising the Attack of itself and allies.
+The user attacks with fire that can be seen in two places, then summons sunshine for eight turns.
+The user attacks with fire that can be seen in two places, then summons sunshine for eight turns.
 A lance of fire pierces the target from above, lowering their Sp. Atk. Can random critical hit, and does so twice as often.
 A lance of fire pierces the target from above, lowering their Sp. Atk. Can random critical hit, and does so twice as often.
 The user explodes itself into the target. The target is harmed, but also their Speed is raised.
@@ -28604,6 +28607,8 @@ Rams the target with frigid force. This has a 10% chance to frostbite.
 Rams the target with frigid force. This has a 10% chance to frostbite.
 The user attacks the target with a frontal cold wind. It reduces the target's Speed by three steps.
 The user attacks the target with a frontal cold wind. It reduces the target's Speed by three steps.
+The user absorbs the target's heat, frosbitting it and adding the Ice-type to it.
+The user absorbs the target's heat, frosbitting it and adding the Ice-type to it.
 The user freezes the target in place, dealing damage and minimizing their Speed and evasiveness.
 The user freezes the target in place, dealing damage and minimizing their Speed and evasiveness.
 For the rest of the round, the target's healing is reversed.
@@ -29653,8 +29658,8 @@ EXP-EZ Dispenser
 EXP-EZ Dispenser
 Universal Formalizer
 Universal Formalizer
-Spanning Band
-Spanning Band
+Spanning Bands
+Spanning Bands
 Pocket Totem
 Pocket Totem
 Box Link
@@ -31381,8 +31386,8 @@ A machine that stores excess EXP. You can activate it to turn that stored EXP in
 A machine that stores excess EXP. You can activate it to turn that stored EXP into candies.
 Use on a Pokémon to switch it into another one of its forms.
 Use on a Pokémon to switch it into another one of its forms.
-An ancient ceramic ring. Unlocks the ability to teleport between Avatar Totems.
-An ancient ceramic ring. Unlocks the ability to teleport between Avatar Totems.
+An ancient pair of interlocking ceramic rings. Unlocks the ability to teleport between Avatar Totems.
+An ancient pair of interlocking ceramic rings. Unlocks the ability to teleport between Avatar Totems.
 A miniature Avatar Totem. Use it to teleport to any unlocked Avatar Totems throughout Makya.
 A miniature Avatar Totem. Use it to teleport to any unlocked Avatar Totems throughout Makya.
 An advanced transporter which allows you to access your Pokémon Storage to withdraw or deposit Pokémon.
@@ -31489,8 +31494,8 @@ Inscribed, delicate pale stone. It’s always been here, but it hasn’t always 
 Inscribed, delicate pale stone. It’s always been here, but it hasn’t always always been here.
 A radiant wing. It radiates misery, but you feel peaceful holding it. Returning home, returning home...
 A radiant wing. It radiates misery, but you feel peaceful holding it. Returning home, returning home...
-A glamorous steel card. While holding it, all vendors cost 10% less and Poké Marts have extra items.
-A glamorous steel card. While holding it, all vendors cost 10% less and Poké Marts have extra items.
+A glamorous steel card. While holding it, all vendors cost 10% less and Pokécenter Marts have extra items.
+A glamorous steel card. While holding it, all vendors cost 10% less and Pokécenter Marts have extra items.
 A vessel for negative emotions. Perfectly defeat enough trainers to earn its rewards.
 A vessel for negative emotions. Perfectly defeat enough trainers to earn its rewards.
 Held item which ups Attacking stats and Speed by 50%, but allows the use of only one move.
@@ -32348,6 +32353,8 @@ Heat Veil
 Heat Veil
 Heavy Duty Hooves
 Heavy Duty Hooves
+Heliocentrism
+Heliocentrism
 Herbalist
 Herbalist
 Herding
@@ -32480,6 +32487,8 @@ Marine
 Marine
 Marine Menace
 Marine Menace
+Martial Discipline
+Martial Discipline
 Mass Attack
 Mass Attack
 Mental Block
@@ -33319,8 +33328,8 @@ Doubles the Pokémon's Speed if its held item is consumed or lost.
 Doubles the Pokémon's Speed if its held item is consumed or lost.
 Physical moves negate all protection effects.
 Physical moves negate all protection effects.
-Doubles the Accuracy of its allies and itself.
-Doubles the Accuracy of its allies and itself.
+Doubles the Accuracy, critical hit rate, and chance to activate random added effects for its allies and itself.
+Doubles the Accuracy, critical hit rate, and chance to activate random added effects for its allies and itself.
 Prevents the Pokémon from falling asleep.
 Prevents the Pokémon from falling asleep.
 Immune to Electric-type moves and restores 25% of max HP when hit by one.
@@ -33569,8 +33578,8 @@ In sandstorm, Attack is boosted by 30%.
 In sandstorm, Attack is boosted by 30%.
 If its stats would be changed, instead they're changed half as much in the opposite direction (rounded up).
 If its stats would be changed, instead they're changed half as much in the opposite direction (rounded up).
-Repeats another Pokémon's sound moves immediately at 75% power.
-Repeats another Pokémon's sound moves immediately at 75% power.
+Repeats another Pokémon's sound and pulse moves immediately at 75% power.
+Repeats another Pokémon's sound and pulse moves immediately at 75% power.
 Restores HP based on damage from hail.
 Restores HP based on damage from hail.
 The Pokémon and its allies are protected from flinching, Intimidate, Fascinate, and Frustrate.
@@ -33751,6 +33760,8 @@ Doubles Sp. Def in sunshine.
 Doubles Sp. Def in sunshine.
 Boosts the power of kicking moves by 30%. Immune to hazards.
 Boosts the power of kicking moves by 30%. Immune to hazards.
+Prevents the foe from escaping during gravity.
+Prevents the foe from escaping during gravity.
 Can hold two different items, if both are Herbs.
 Can hold two different items, if both are Herbs.
 Wild Pokémon are more likely to appear in pairs and to be species you've never caught before.
@@ -33883,6 +33894,8 @@ Physical moves have a 30% chance to waterlog targets.
 Physical moves have a 30% chance to waterlog targets.
 Dive and Depth Charge deal 50% more damage.
 Dive and Depth Charge deal 50% more damage.
+Repeats another Pokémon's punch and kick moves immediately at 75% power.
+Repeats another Pokémon's punch and kick moves immediately at 75% power.
 All Pokémon's damage is decreased proportional to their health remaining.
 All Pokémon's damage is decreased proportional to their health remaining.
 The Pokémon can't be Taunted, Encored, Tormented, Heal Blocked, Disabled, Barred, Dizzied, or Flinched.
@@ -34277,8 +34290,8 @@ Foes suffer 50% more stat reduction from burn, frostbite, and numb.
 Foes suffer 50% more stat reduction from burn, frostbite, and numb.
 Upon entry during eclipse, heals the lowest HP ally or self by 50%.
 Upon entry during eclipse, heals the lowest HP ally or self by 50%.
-Restores its HP by 25% of the damage it deals to sleeping targets.
-Restores its HP by 25% of the damage it deals to sleeping targets.
+Restores its HP by 50% of the damage it deals to sleeping targets.
+Restores its HP by 50% of the damage it deals to sleeping targets.
 Takes half damage from Fighting- and Rock-type moves.
 Takes half damage from Fighting- and Rock-type moves.
 Powers up Poison-type moves of itself and its allies by 50%.
@@ -36293,8 +36306,8 @@ Room 204
 Room 202
 Room 202
 75
-Mirror Reality
-Mirror Reality
+Ancient Makya
+Ancient Makya
 76
 Room 201
 Room 201
@@ -37408,6 +37421,9 @@ Battle Monument Secret
 446
 Goomy Den 2
 Goomy Den 2
+447
+Barren Island
+Barren Island
 [22]
 How are your Pokémon doing?\mMy \TP's really energetic. It's a handful!\mOh yeah, I managed to beat a tough \TE.\mI need to make my party stronger.
 How are your Pokémon doing?\mMy \TP's really energetic.  It's a handful!\mOh yeah, I managed to beat a tough \TE.\mI need to make my party stronger.
@@ -38793,8 +38809,8 @@ A mystical Avatar Totem. It pulses with ancient vital energy.
 A mystical Avatar Totem. It pulses with ancient vital energy.
 A mystical Avatar Totem. It pulses with an unusual frequency.
 A mystical Avatar Totem. It pulses with an unusual frequency.
-\i[SPANNINGBAND]The Spanning Band glows in sync with the totem. You sense that some sort of connection has been created.
-\i[SPANNINGBAND]The Spanning Band glows in sync with the totem. You sense that some sort of connection has been created.
+\i[SPANNINGBAND]The Spanning Bands glow in sync with the totem. You sense that some sort of connection has been created.
+\i[SPANNINGBAND]The Spanning Bands glow in sync with the totem. You sense that some sort of connection has been created.
 However, it does not react further. Perhaps you must find more like it?
 However, it does not react further. Perhaps you must find more like it?
 You sense the connection to the other totems. Choose your warp location.
@@ -40031,6 +40047,10 @@ This Pokémon will not be retrievable after this. Are you sure?
 {1} was stored forever.
 Bye-bye, {1}!
 Bye-bye, {1}!
+Box {1} is no longer locked to sorting.
+Box {1} is no longer locked to sorting.
+Box {1} is now locked to sorting.
+Box {1} is now locked to sorting.
 Position {1},{2} is empty...
 Position {1},{2} is empty...
 You can't release an Egg.
@@ -42075,8 +42095,8 @@ Time is dancing to {1}'s tune! This turn is being skipped!
 {1} will arrive next turn!
 {1} pilots into battle!
 {1} pilots into battle!
-You got ${1} for winning!
-You got ${1} for winning!
+You got ${1} and {2} AP for winning!
+You got ${1} and {2} AP for winning!
 You picked up ${1}!
 You picked up ${1}!
 You gave ${1} to the winner...
@@ -42679,6 +42699,12 @@ Your team
 {1} can't hold a {2}!
 But {1} hold's tightly onto its {2}!
 But {1} hold's tightly onto its {2}!
+{1}-type doesn't exist!
+{1}-type doesn't exist!
+{1} is already {2}-type!
+{1} is already {2}-type!
+{1} can't have its type changed!
+{1} can't have its type changed!
 {1} is unaffected!
 {1} is unaffected!
 nthTurnThisRound checks for turns 1 or above!
@@ -44633,6 +44659,10 @@ But it failed, since {1} is already giving a dragon ride!
 {1} gathers an new mind!
 {1} connects with their friend!
 {1} connects with their friend!
+But it failed, since {1} can't be burned or gain Fire-type!
+But it failed, since {1} can't be burned or gain Fire-type!
+But it failed, since {1} can't be frostbitten or gain Ice-type!
+But it failed, since {1} can't be frostbitten or gain Ice-type!
 But it failed, since {1} can't be leeched or have either of its attacking stats lowered!
 But it failed, since {1} can't be leeched or have either of its attacking stats lowered!
 But it failed, since {1} can't be numbed or have either of its attacking stats lowered!
@@ -47063,6 +47093,8 @@ Teach legal move
 Teach legal move
 Forget move
 Forget move
+{1} doesn't have any moves!
+{1} doesn't have any moves!
 {1} forgot {2}.
 {1} forgot {2}.
 Forget all moves
@@ -48809,12 +48841,16 @@ Enter the right post.
 Enter the right post.
 Would you like to re-download the game from the official post?
 Would you like to re-download the game from the official post?
+Warning: Do not run the game from the ZIP file directly.<<n>>Please extract all files before launching.
+Warning: Do not run the game from the ZIP file directly.<<n>>Please extract all files before launching.
 {1} cannot have any status!
 {1} cannot have any status!
 Enter a code.
 Enter a code.
 The code has been used!
 The code has been used!
+You can't use the code now!
+You can't use the code now!
 Please enter a valid code!
 Please enter a valid code!
 The Pokémon don't have any abilities.
@@ -50455,6 +50491,12 @@ Make a funny face.
 Make a funny face.
 Take its candy.
 Take its candy.
+Huh?
+Huh?
+So do I.
+So do I.
+Avatar?
+Avatar?
 You're stealing Pokémon?
 You're stealing Pokémon?
 You're rescuing Pokémon?
@@ -50495,12 +50537,6 @@ Powerful.
 Powerful.
 Type-changing.
 Type-changing.
-Huh?
-Huh?
-So do I.
-So do I.
-Avatar?
-Avatar?
 Let me pass.
 Let me pass.
 What are you doing?
@@ -50513,16 +50549,16 @@ Why should I help?
 Why should I help?
 What's the plan?
 What's the plan?
-Leave Tapu Koko for now.
-Leave Tapu Koko for now.
-Catch Tapu Koko.
-Catch Tapu Koko.
 Coincidence.
 Coincidence.
 It isn't random?
 It isn't random?
 Did you call them?
 Did you call them?
+Leave Tapu Koko for now.
+Leave Tapu Koko for now.
+Catch Tapu Koko.
+Catch Tapu Koko.
 Leave Tapu Lele for now.
 Leave Tapu Lele for now.
 Catch Tapu Lele.
@@ -50531,12 +50567,6 @@ Try to break into the house by force?
 Try to break into the house by force?
 A Togekiss?
 A Togekiss?
-Leave Tapu Bulu for now.
-Leave Tapu Bulu for now.
-Catch Tapu Bulu.
-Catch Tapu Bulu.
-Open the crate?
-Open the crate?
 Why Tamarind?
 Why Tamarind?
 Cool. What'd you find?
@@ -50553,10 +50583,12 @@ Impressive.
 Impressive.
 I gotta talk to Tamarind.
 I gotta talk to Tamarind.
-Leave Tapu Fini for now.
-Leave Tapu Fini for now.
-Catch Tapu Fini.
-Catch Tapu Fini.
+Open the crate?
+Open the crate?
+Leave Tapu Bulu for now.
+Leave Tapu Bulu for now.
+Catch Tapu Bulu.
+Catch Tapu Bulu.
 What does it matter?
 What does it matter?
 What do you want?
@@ -50599,6 +50631,10 @@ I agree with you.
 I agree with you.
 You don't have to do this.
 You don't have to do this.
+Leave Tapu Fini for now.
+Leave Tapu Fini for now.
+Catch Tapu Fini.
+Catch Tapu Fini.
 You knew?
 You knew?
 You in on it?
@@ -50627,8 +50663,6 @@ Use a Moomoo Milk
 Use a Moomoo Milk
 Use a Full Restore
 Use a Full Restore
-You bet.
-You bet.
 Macabre
 Macabre
 Insightful
@@ -50657,6 +50691,8 @@ I'll prepare.
 I'll prepare.
 Release Imogene forever.
 Release Imogene forever.
+You bet.
+You bet.
 [27]
 0
 Animated
@@ -50735,8 +50771,8 @@ Your team members take one third less damage from sources that aren't attacks.
 Your team members deal 20% more move damage after their first turn.
 Your team members deal 20% more move damage after their first turn.
 2
-Your team deals 20% more move damage on their first turn out.
-Your team deals 20% more move damage on their first turn out.
+Your team deal 20% more move damage on their first turn out.
+Your team deal 20% more move damage on their first turn out.
 3
 Your team's 'Not Very Effective' or 'Barely Effective' moves deal 50% more damage.
 Your team's 'Not Very Effective' or 'Barely Effective' moves deal 50% more damage.
@@ -50753,8 +50789,8 @@ Enemy trainers majorly overestimate how much damage their moves do.
 Your moves have a +20% chance to activate their moves' additional effects.
 Your moves have a +20% chance to activate their moves' additional effects.
 8
-Your team take 10% less move damage.
-Your team take 10% less move damage.
+Your team takes 10% less move damage.
+Your team takes 10% less move damage.
 9
 You gain 10% more money from battles. If you have more than $100,000, your team gets a boost to Attack, Defense, Sp. Atk, and Sp. Def (before modifiers). This bonus scales with the level cap and is currently {b1}.
 You gain 10% more money from battles. If you have more than $100,000, your team gets a boost to Attack, Defense, Sp. Atk, and Sp. Def (before modifiers). This bonus scales with the level cap and is currently {b1}.
@@ -50792,8 +50828,8 @@ Protects your team members from critical hits.
 Ignore the first time each battle that one of your team members would flinch or get a status condition.
 Ignore the first time each battle that one of your team members would flinch or get a status condition.
 21
-Your team's 'Super Effective' moves deals 12% more damage.
-Your team's 'Super Effective' moves deals 12% more damage.
+Your team's 'Super Effective' moves deal 12% more damage.
+Your team's 'Super Effective' moves deal 12% more damage.
 22
 This tribe exists to test the PBS extensions system
 This tribe exists to test the PBS extensions system
@@ -52468,6 +52504,8 @@ Cursed
 Cursed
 Dancer
 Dancer
+MartialDiscipline
+MartialDiscipline
 Curled Up
 Curled Up
 Destiny Bond

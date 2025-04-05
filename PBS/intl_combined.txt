@@ -13566,12 +13566,14 @@ Pride is right.
 Don't beat yourself up.
 不要自责
 [Map214]
-Some loose paper displaying the LuxTech logo.
-一些印有光华标志的纸张。
 Leaving through -- oh. You -- you’re looking for something down here.
 离开这里...哦！你...你是在这里找东西？
 Come back and, uh, I’ll still be... around.
 等你回来的时候...呃...我还会在这...附近。
+Some loose paper displaying the LuxTech logo.
+一些印有光华标志的纸张。
+The door is locked shut.
+门被锁住了。
 I took some classes in the gym here.
 我在这个道馆里补过几节课。
 I was a bit scared cause I heard how tough Samorn is.
@@ -13580,10 +13582,6 @@ She's the strongest gym leader in the whole region!
 她是这个地区最强的道馆馆主！
 But she's really nice. I had a great time.
 但她平日很是和善，悬着的心终于放下了。
-The door is locked shut.
-门被锁住了。
-Samorn's House
-赛蒙 家
 Oh! I knew I’d find you here, my hero.
 我就知道会在这里遇到你，我的英雄。
 You’re looking particularly ravishing today.
@@ -13664,6 +13662,24 @@ Just like you. Goodbye, \PN. I love you.
 那一切就像你一样美好。再见，\PN，我爱你。
 Forever.
 永远不变。
+Samorn's House
+赛蒙 家
+"Attention: All Team Chasm Grunts"
+"注意：所有裂隙队员"
+"Team Chasm is no longer in operation, and activities here are to cease."
+"裂隙队已正式解散，这里的活动也将停止。"
+"Until further notice, this base is now part owned by the scholars of Novo College."
+"在另行通知之前，这个基地由望新学院暂时管理。"
+"Your admins thank you for your dedication."
+"感谢您的付出与奉献。"
+You'd think that Samorn, the gym leader down there, would have issues getting around in her wheelchair.
+你觉得赛蒙，也就是下面那个道馆的馆主，坐着轮椅会不会行动不便？
+Especially in difficult terrain like this.
+尤其是在需要爬坡下坡的地形。
+At first I thought she'd use her dragons to help her down, but apparently that's too awkward.
+起初我以为她会用自己的龙属性精灵来帮她，但那也显得太笨了。
+Instead she just has her Runerigus do the heavy lifting. It isn't part of her team, so it gets to relax at home the rest of the day, too.
+其实她一直用一只迭失板来做各种重活，而这只精灵并不在她的常规出战列表里。
 Hello. My Druddigon and I handle trips down to Samorn's gym.
 你好，我和我的赤面龙，负责在这里帮助需要下去的人。
 Stay away from the ledge and we won't have any problems.
@@ -13706,22 +13722,6 @@ You've bested the Dreadnaught! Well fought.
 你打败了无畏的赛蒙，很好！
 My congratulations to you and your Pokemon.
 恭喜你和你的精灵们。
-You'd think that Samorn, the gym leader down there, would have issues getting around in her wheelchair.
-你觉得赛蒙，也就是下面那个道馆的馆主，坐着轮椅会不会行动不便？
-Especially in difficult terrain like this.
-尤其是在需要爬坡下坡的地形。
-At first I thought she'd use her dragons to help her down, but apparently that's too awkward.
-起初我以为她会用自己的龙属性精灵来帮她，但那也显得太笨了。
-Instead she just has her Runerigus do the heavy lifting. It isn't part of her team, so it gets to relax at home the rest of the day, too.
-其实她一直用一只迭失板来做各种重活，而这只精灵并不在她的常规出战列表里。
-"Attention: All Team Chasm Grunts"
-"注意：所有裂隙队员"
-"Team Chasm is no longer in operation, and activities here are to cease."
-"裂隙队已正式解散，这里的活动也将停止。"
-"Until further notice, this base is now part owned by the scholars of Novo College."
-"在另行通知之前，这个基地由望新学院暂时管理。"
-"Your admins thank you for your dedication."
-"感谢您的付出与奉献。"
 The 8th gym already. I can't believe how time flies.
 已经是第八个道馆了，真不敢相信时间过得那么快。
 I've been enjoying this. I really and truly hope that you have, too.
@@ -24174,6 +24174,7 @@ You recover the relics you returned.
 It hurriedly gestures for you to enter the chamber ahead.
 它连忙示意你进入面前的密室。
 [Map446]
+[Map447]
 [5]
 After You
 您先请
@@ -24337,8 +24338,6 @@ Spit Up
 喷出
 Spotlight
 聚光灯
-Stellarate
-星际之门
 Stockpile
 蓄力
 Struggle
@@ -24901,8 +24900,6 @@ Absorb
 吸取
 Aromatherapy
 芳香治疗
-Branch Poke
-木枝突刺
 Bullet Seed
 种子机关枪
 Chloroblast
@@ -25395,6 +25392,8 @@ Season's End
 季末
 Smirk
 得瑟
+Stellarate
+星际之门
 Thieving Spree
 大肆窃取
 Vicious Cleaning
@@ -25845,6 +25844,8 @@ Crimson Storm
 绯红风暴
 Dry Heat
 干热
+Evernal Flux
+永恒波涌
 Fire Pulse
 火焰脉冲
 Fireworks
@@ -25857,8 +25858,6 @@ Flare Witch
 烈火魔法
 Hearthfire Hula
 炉火草裙舞
-Heat Gyre
-日焰回旋
 Hot Shot
 高热射击
 Ignite
@@ -25875,6 +25874,8 @@ Liftoff
 火箭冲天
 Like Wildfire
 烈如野火
+Parhelion Hunt
+幻日狩猎
 Prominence
 突出成效
 Propellant
@@ -26203,6 +26204,8 @@ Glacial Ram
 冰河覆盖
 Halting Cold
 冻骨之风
+Hibernal Flux
+冬日波涌
 Hyperfrost
 超级霜冻
 Hypothermiate
@@ -26772,8 +26775,6 @@ The power stored using the move Stockpile is released all at once in an attack. 
 使用积蓄的力量攻击对方，每层积蓄可以造成150威力的伤害。
 The user shines a spotlight on the target so that only it will be attacked during the turn.
 给精灵打上聚光灯，该回合只能瞄准该精灵。
-A barrage of two to five star-shaped rays are shot at the opposing team. Can't miss and skips protections.
-向对手队伍发射2到5道星形光线。无法被躲避且无视保护。
 The user charges up power and raises its Defense and Sp. Def by two steps. The move can be stacked twice.
 积蓄力量，提高自己的双防2级。最多看累积使用2次。
 Used only if the user has no PP. It also hurts the user.
@@ -27326,8 +27327,6 @@ A nutrient-draining attack. The user's HP is restored by 50% of the damage dealt
 一种吸取养分的攻击。使用者恢复造成伤害的50%的HP。
 The user releases a soothing scent that heals all status problems affecting the user's party.
 让同伴闻沁人心脾的香气，从而治愈我方全员的异常状态。
-The user attacks the target by poking it with a sharply pointed branch.
-使用尖锐的树枝刺向对手进行攻击。
 The user forcefully shoots seeds at the target. Two to five seeds are shot in rapid succession.
 向对手猛烈地发射种子进行攻击。连续攻击2～5次。
 The user launches its amassed chlorophyll to inflict damage on the target. The user loses half its current HP.
@@ -27804,6 +27803,8 @@ The user strikes while inviting the power of seasons. The user changes form to t
 一边进行攻击，一边召唤季节的力量，并改变自身的形态。
 The user smirks with confidence. The Sp. Def of nearby enemies is reduced.
 自信地咧嘴一笑，使对方的特防下降。
+A barrage of two to five star-shaped rays are shot at the opposing team. Can't miss and skips protections.
+向对手队伍发射2到5道星形光线。无法被躲避且无视保护。
 The user attacks and steals items from all near foes. Items stolen from wild Pokémon are stored.
 在攻击时偷取所有临近对手的物品，如果对方是野生精灵，则物品可以保留下来。
 The user flings the dirty oil on its fur. It transfers any status condition to the target.
@@ -28248,6 +28249,8 @@ The foe is engulfed in a firestorm, trapping and damaging it for three turns.
 对手被卷进火焰风暴中，被束缚并受到持续三回合的伤害。
 The target is dried out and loses Water-type. Then, it bursts into flame from the heat.
 对手吸干了水分并失去了水属性，接着在高温下陷入烧伤状态。
+The user emits great amounts of heat, burning the target and adding the Fire-type to it.
+使用者释放出大量的热量，烧伤目标并使其获得火属性。
 The user attacks the target with a pulsing blast of fire. It has a 20% chance to burn.
 使用脉冲火焰攻击对方，20%概率使其烧伤。
 The user fires off two to five explosive rounds in a beautiful display.
@@ -28260,8 +28263,6 @@ Raises Sp. Atk by three steps. Until switch out, the user's attacks spread to hi
 提升自己的特攻三级，在被替换下场前，所有技能都会波及到对方全体。
 The user dances rapidly, emitting tropical heat. Any frostbitten Pokémon will be healed by this heat.
 进行快速的舞动，散发出热带能量，治愈所有精灵的冻伤。
-Spins into the target while emitting heat, then summons sunshine for eight turns.
-飞快旋转的同时释放高温，召唤出持续八回合的晴天。
 The user shoots the target with a small bolt of fire. This move always goes first.
 使用小火苗射击目标，总是能先一步出手。
 The user sets the target on fire, inflicting a burn.
@@ -28278,6 +28279,8 @@ The user launches up high, becoming invulnerable, then explodes down on the seco
 第一回合射向高空并免疫伤害，然后在第二个回合爆炸，承受25%的反作用力伤害。
 The user roars with the force of a volcano, raising the Attack of itself and allies.
 发出了犹如火山喷发般的咆哮，提升自己和同伴的攻击。
+The user attacks with fire that can be seen in two places, then summons sunshine for eight turns.
+使用者释放火焰进行攻击，然后开启持续八回合的晴天。
 A lance of fire pierces the target from above, lowering their Sp. Atk. Can random critical hit, and does so twice as often.
 使用一柄火矛从上方刺穿目标，降低对方的特攻，极其容易命中要害。
 The user explodes itself into the target. The target is harmed, but also their Speed is raised.
@@ -28604,6 +28607,8 @@ Rams the target with frigid force. This has a 10% chance to frostbite.
 向对手砸下一大块冰，10%几率让对手陷入冻伤状态。
 The user attacks the target with a frontal cold wind. It reduces the target's Speed by three steps.
 以凛冽的寒风攻击对手，可降低对手的速度三级。
+The user absorbs the target's heat, frosbitting it and adding the Ice-type to it.
+使用者吸收目标的热量，使其冻伤并获得冰属性。
 The user freezes the target in place, dealing damage and minimizing their Speed and evasiveness.
 将对手冻结在原地，造成伤害并令其速度和回避率降至最低。
 For the rest of the round, the target's healing is reversed.
@@ -29653,8 +29658,8 @@ EXP-EZ Dispenser
 经验分配器
 Universal Formalizer
 形态转换器
-Spanning Band
-跨越之环
+Spanning Bands
+跨越之带
 Pocket Totem
 袖珍图腾
 Box Link
@@ -31381,8 +31386,8 @@ A machine that stores excess EXP. You can activate it to turn that stored EXP in
 一台储存多余经验值的机器。激活后将储存的经验值变成糖果。
 Use on a Pokémon to switch it into another one of its forms.
 使用后可将精灵切换成另一种形态。
-An ancient ceramic ring. Unlocks the ability to teleport between Avatar Totems.
-一种古老的陶瓷环。解锁在化身图腾之间传送的能力。
+An ancient pair of interlocking ceramic rings. Unlocks the ability to teleport between Avatar Totems.
+一对古老的相互交错的陶瓷环。解锁在化身图腾之间传送的能力。
 A miniature Avatar Totem. Use it to teleport to any unlocked Avatar Totems throughout Makya.
 袖珍化身图腾。可以传送到马凯亚任何已解锁的化身图腾处。
 An advanced transporter which allows you to access your Pokémon Storage to withdraw or deposit Pokémon.
@@ -31489,8 +31494,8 @@ Inscribed, delicate pale stone. It’s always been here, but it hasn’t always 
 精致的淡色石头，它一直在这里，但并不总是在这里。
 A radiant wing. It radiates misery, but you feel peaceful holding it. Returning home, returning home...
 一只光芒四射的翅膀，散发着痛苦，却令人感到安宁。回家，回家...
-A glamorous steel card. While holding it, all vendors cost 10% less and Poké Marts have extra items.
-一张华丽的钢制卡片。携带时，所有商人的价格降低10%，且精灵商店有额外物品。
+A glamorous steel card. While holding it, all vendors cost 10% less and Pokécenter Marts have extra items.
+一张华丽的钢制卡片。持有它时，所有商店的费用减少10%，并且精灵中心商店会有额外的物品。
 A vessel for negative emotions. Perfectly defeat enough trainers to earn its rewards.
 一种承载负面情绪的容器。完美击败足够的训练家以获得奖励。
 Held item which ups Attacking stats and Speed by 50%, but allows the use of only one move.
@@ -32348,6 +32353,8 @@ Heat Veil
 隔热面纱
 Heavy Duty Hooves
 厚重铁蹄
+Heliocentrism
+日心说
 Herbalist
 药剂师
 Herding
@@ -32480,6 +32487,8 @@ Marine
 海洋
 Marine Menace
 海洋威胁
+Martial Discipline
+武术纪律
 Mass Attack
 大规模袭击
 Mental Block
@@ -33319,8 +33328,8 @@ Doubles the Pokémon's Speed if its held item is consumed or lost.
 如果携带的物品丢失或消耗，则使其速度翻倍。
 Physical moves negate all protection effects.
 如果使出的是接触到对手的技能，就可以无视守护效果进行攻击。
-Doubles the Accuracy of its allies and itself.
-自身和队友的命中率翻倍。
+Doubles the Accuracy, critical hit rate, and chance to activate random added effects for its allies and itself.
+将自身及队友的命中率、命中要害率和触发随机附加效果的概率翻倍。
 Prevents the Pokémon from falling asleep.
 因为是不会睡觉的体质，所以不会变为睡眠状态。
 Immune to Electric-type moves and restores 25% of max HP when hit by one.
@@ -33569,8 +33578,8 @@ In sandstorm, Attack is boosted by 30%.
 沙暴天气中，攻击力提升30%。
 If its stats would be changed, instead they're changed half as much in the opposite direction (rounded up).
 当能力发生变化时，会朝相反方向变化一半（四舍五入）。
-Repeats another Pokémon's sound moves immediately at 75% power.
-其他精灵使用声音类技能时，以其75%的威力模仿使用一次。
+Repeats another Pokémon's sound and pulse moves immediately at 75% power.
+以75%的威力重复另一只精灵使用的声音类或者脉冲类技能。
 Restores HP based on damage from hail.
 根据冰雹造成的伤害恢复HP。
 The Pokémon and its allies are protected from flinching, Intimidate, Fascinate, and Frustrate.
@@ -33751,6 +33760,8 @@ Doubles Sp. Def in sunshine.
 晴天时，特防翻倍。
 Boosts the power of kicking moves by 30%. Immune to hazards.
 踢击类技能威力提升30%，并免疫各种陷阱。
+Prevents the foe from escaping during gravity.
+当场上存在重力时，阻止对手替换或者逃跑。
 Can hold two different items, if both are Herbs.
 可同时携带两个香草类物品。
 Wild Pokémon are more likely to appear in pairs and to be species you've never caught before.
@@ -33883,6 +33894,8 @@ Physical moves have a 30% chance to waterlog targets.
 物理类技能有30%的概率使目标陷入浸水。
 Dive and Depth Charge deal 50% more damage.
 潜水和深海猛袭的伤害提高50%。
+Repeats another Pokémon's punch and kick moves immediately at 75% power.
+以75%的威力重复另一只精灵使用的拳类或者踢击类技能。
 All Pokémon's damage is decreased proportional to their health remaining.
 所有精灵的伤害都会根据它们的剩余生命值按比例降低。
 The Pokémon can't be Taunted, Encored, Tormented, Heal Blocked, Disabled, Barred, Dizzied, or Flinched.
@@ -34277,8 +34290,8 @@ Foes suffer 50% more stat reduction from burn, frostbite, and numb.
 对手因烧伤、冻伤和麻痹造成的能力降低提高50%。
 Upon entry during eclipse, heals the lowest HP ally or self by 50%.
 在日食时入场，会治疗最低生命值的同伴或自身50%的HP。
-Restores its HP by 25% of the damage it deals to sleeping targets.
-对睡着的对手造成更伤害时可恢复自身HP。
+Restores its HP by 50% of the damage it deals to sleeping targets.
+攻击睡眠中的目标会回复自身的HP，回复量为造成伤害的50%。
 Takes half damage from Fighting- and Rock-type moves.
 受到格斗和岩石属性技能攻击时，伤害减半。
 Powers up Poison-type moves of itself and its allies by 50%.
@@ -36293,7 +36306,7 @@ Room 204
 Room 202
 公寓 202
 75
-Mirror Reality
+Ancient Makya
 镜像现实
 76
 Room 201
@@ -37248,7 +37261,7 @@ Turf-Grouz Gatehouse
 草径-古治门房
 393
 LuxTech-Delta Gatehouse
-光华-德尔塔门房
+光华-河原门房
 394
 Park-LuxTech Gatehouse
 公园-光华门房
@@ -37408,6 +37421,9 @@ Battle Monument Secret
 446
 Goomy Den 2
 黏黏宝巢穴 2
+447
+Barren Island
+荒芜之岛
 [22]
 How are your Pokémon doing?\mMy \TP's really energetic. It's a handful!\mOh yeah, I managed to beat a tough \TE.\mI need to make my party stronger.
 你的精灵最近怎么样？\m我的\TP精力充沛得很。真是个调皮鬼！\m对了，我最近打败了一个难缠的\TE。\m我得让我的队伍变得更强大。
@@ -38793,8 +38809,8 @@ A mystical Avatar Totem. It pulses with ancient vital energy.
 一个神秘的化身图腾跳动着古老的生命能量。
 A mystical Avatar Totem. It pulses with an unusual frequency.
 神秘的化身图腾以不寻常的频率跳动着。
-\i[SPANNINGBAND]The Spanning Band glows in sync with the totem. You sense that some sort of connection has been created.
-\i[SPANNINGBAND]跨越带与图腾同步发光。你感觉到某种联系已经建立。
+\i[SPANNINGBAND]The Spanning Bands glow in sync with the totem. You sense that some sort of connection has been created.
+\i[SPANNINGBAND]跨越之带与图腾同步发光。你感觉到某种连接已经建立。
 However, it does not react further. Perhaps you must find more like it?
 但是它没有进一步反应或许还需要其他类似的东西？
 You sense the connection to the other totems. Choose your warp location.
@@ -40031,6 +40047,10 @@ This Pokémon will not be retrievable after this. Are you sure?
 {1}被释放了。
 Bye-bye, {1}!
 再见，{1}！
+Box {1} is no longer locked to sorting.
+盒子{1}不再锁定排序。
+Box {1} is now locked to sorting.
+盒子{1}现在锁定排序。
 Position {1},{2} is empty...
 箱子{1}，{2}是空的...
 You can't release an Egg.
@@ -42075,8 +42095,8 @@ Time is dancing to {1}'s tune! This turn is being skipped!
 {1}将在下回合到达！
 {1} pilots into battle!
 {1}到达了战场！
-You got ${1} for winning!
-你获得了${1}！
+You got ${1} and {2} AP for winning!
+你赢得了${1}和{2}AP！
 You picked up ${1}!
 你捡到了${1}！
 You gave ${1} to the winner...
@@ -42679,6 +42699,12 @@ Your team
 {1}不能持有{2}！
 But {1} hold's tightly onto its {2}!
 但{1}紧紧地抓着它的{2}！
+{1}-type doesn't exist!
+{1}属性不存在！
+{1} is already {2}-type!
+{1}已经是{2}属性了！
+{1} can't have its type changed!
+{1}的属性无法被改变！
 {1} is unaffected!
 {1}没有受到影响！
 nthTurnThisRound checks for turns 1 or above!
@@ -44633,6 +44659,10 @@ But it failed, since {1} is already giving a dragon ride!
 {1}聚集了新的思维！
 {1} connects with their friend!
 {1}与朋友连接！
+But it failed, since {1} can't be burned or gain Fire-type!
+但它失败了，因为{1}无法被烧伤或获得火属性！
+But it failed, since {1} can't be frostbitten or gain Ice-type!
+但它失败了，因为{1}无法被冻伤或获得冰属性！
 But it failed, since {1} can't be leeched or have either of its attacking stats lowered!
 但它失败了，因为{1}无法被寄生或降低其任何双攻！
 But it failed, since {1} can't be numbed or have either of its attacking stats lowered!
@@ -45246,7 +45276,7 @@ You combine the {1} and the {2}.
 Too bad...<<n>>The Bag is full...
 真遗憾...<<n>>背包满了...
 \me[Berry get]You picked the {1} \c[1]{2}\c[0].\wtnp[20]
-\me[Berry get]你摘了{1} \c[1]{2}\c[0]。\wtnp[20]
+\me[Berry get]你摘了{1}\c[1]{2}\c[0]。\wtnp[20]
 \me[Berry get]You picked the \c[1]{1}\c[0].\wtnp[20]
 \me[Berry get]你摘了\c[1]{1}\c[0]。\wtnp[20]
 {1} put the \c<<[>>1<<]>>{2}\c<<[>>0<<]>> in the <icon=bagPocket{3}>\c<<[>>1<<]>>{4}\c<<[>>0<<]>> Pocket.<<1>>
@@ -47063,6 +47093,8 @@ Teach legal move
 教授合法技能
 Forget move
 遗忘技能
+{1} doesn't have any moves!
+{1}没有任何技能！
 {1} forgot {2}.
 {1}忘记了{2}。
 Forget all moves
@@ -48809,12 +48841,16 @@ Enter the right post.
 输入正确的帖子。
 Would you like to re-download the game from the official post?
 你想从官方帖子重新下载游戏吗？
+Warning: Do not run the game from the ZIP file directly.<<n>>Please extract all files before launching.
+警告：不要直接从ZIP文件运行游戏。<<n>>请在解压所有文件后再启动游戏。
 {1} cannot have any status!
 {1}不能陷入任何异常状态！
 Enter a code.
 输入密码。
 The code has been used!
 此密码已经被使用过了！
+You can't use the code now!
+你现在无法使用这个密码！
 Please enter a valid code!
 请输入一个有效的密码！
 The Pokémon don't have any abilities.
@@ -50455,6 +50491,12 @@ Make a funny face.
 做个鬼脸。
 Take its candy.
 抢走它的糖果。
+Huh?
+哈？
+So do I.
+点头
+Avatar?
+化身？
 You're stealing Pokémon?
 你在偷精灵？
 You're rescuing Pokémon?
@@ -50495,12 +50537,6 @@ Powerful.
 实力强大
 Type-changing.
 会变形态
-Huh?
-哈？
-So do I.
-点头
-Avatar?
-化身？
 Let me pass.
 让我过去
 What are you doing?
@@ -50513,16 +50549,16 @@ Why should I help?
 我为什么要帮忙？
 What's the plan?
 有什么打算？
-Leave Tapu Koko for now.
-暂时先不带它走。
-Catch Tapu Koko.
-带它一起离开。
 Coincidence.
 巧合
 It isn't random?
 不是随机的？
 Did you call them?
 你叫来的？
+Leave Tapu Koko for now.
+暂时先不带它走。
+Catch Tapu Koko.
+带它一起离开。
 Leave Tapu Lele for now.
 暂时先不带它走。
 Catch Tapu Lele.
@@ -50531,12 +50567,6 @@ Try to break into the house by force?
 想强行闯进房子吗？
 A Togekiss?
 用波克基斯？
-Leave Tapu Bulu for now.
-暂时先不带它走。
-Catch Tapu Bulu.
-带它一起离开。
-Open the crate?
-要打开箱子吗？
 Why Tamarind?
 为什么是塔玛琳？
 Cool. What'd you find?
@@ -50553,9 +50583,11 @@ Impressive.
 令人印象深刻
 I gotta talk to Tamarind.
 我会跟塔玛琳谈谈
-Leave Tapu Fini for now.
+Open the crate?
+要打开箱子吗？
+Leave Tapu Bulu for now.
 暂时先不带它走。
-Catch Tapu Fini.
+Catch Tapu Bulu.
 带它一起离开。
 What does it matter?
 那有什么关系呢？
@@ -50599,6 +50631,10 @@ I agree with you.
 我同意
 You don't have to do this.
 你不必这样做
+Leave Tapu Fini for now.
+暂时先不带它走。
+Catch Tapu Fini.
+带它一起离开。
 You knew?
 你知道？
 You in on it?
@@ -50627,8 +50663,6 @@ Use a Moomoo Milk
 使用哞哞鲜奶
 Use a Full Restore
 全复药
-You bet.
-来吧
 Macabre
 阴森
 Insightful
@@ -50657,6 +50691,8 @@ I'll prepare.
 我准备下
 Release Imogene forever.
 永远地让伊梦珍离开
+You bet.
+来吧
 [27]
 0
 Animated
@@ -50735,7 +50771,7 @@ Your team members take one third less damage from sources that aren't attacks.
 Your team members deal 20% more move damage after their first turn.
 全员从自身上场的第二回合开始，技能 造成的伤害增加20%。
 2
-Your team deals 20% more move damage on their first turn out.
+Your team deal 20% more move damage on their first turn out.
 全员第一回合技能造成的伤害增加20%。
 3
 Your team's 'Not Very Effective' or 'Barely Effective' moves deal 50% more damage.
@@ -50753,7 +50789,7 @@ Enemy trainers majorly overestimate how much damage their moves do.
 Your moves have a +20% chance to activate their moves' additional effects.
 技能触发附加效果的概率提升20%。
 8
-Your team take 10% less move damage.
+Your team takes 10% less move damage.
 全员减少10%受到的技能伤害。
 9
 You gain 10% more money from battles. If you have more than $100,000, your team gets a boost to Attack, Defense, Sp. Atk, and Sp. Def (before modifiers). This bonus scales with the level cap and is currently {b1}.
@@ -50792,7 +50828,7 @@ Protects your team members from critical hits.
 Ignore the first time each battle that one of your team members would flinch or get a status condition.
 每场战斗免疫一次异常状态或畏缩。
 21
-Your team's 'Super Effective' moves deals 12% more damage.
+Your team's 'Super Effective' moves deal 12% more damage.
 全员“效果拔群”的技能提升12%伤害。
 22
 This tribe exists to test the PBS extensions system
@@ -52468,6 +52504,8 @@ Cursed
 被诅咒
 Dancer
 舞者
+MartialDiscipline
+武术纪律
 Curled Up
 蜷缩
 Destiny Bond
