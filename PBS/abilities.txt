@@ -183,7 +183,7 @@ Description = Doubles Defense. The Pokémon takes double damage from Fire-type m
 [FORECAST]
 Name = Forecast
 Description = Castform transforms with the weather.
-Flags = Immutable
+Flags = Immutable,AllWeatherSynergy
 #-------------------------------
 [FRIENDGUARD]
 Name = Friend Guard

@@ -1,4 +1,4 @@
-ANIMATED,5,Animated,"Your team members take one third less damage from sources that aren't attacks."
+ANIMATED,5,Animated,"Your team members takes one third less damage from sources that aren't attacks."
 ARTILLERY,5,Artillery,"Your team members deal 20% more move damage after their first turn."
 ASSASSIN,5,Assassin,"Your team deal 20% more move damage on their first turn out."
 BUSHWHACKER,5,Bushwhacker,"Your team's 'Not Very Effective' or 'Barely Effective' moves deal 50% more damage."

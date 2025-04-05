@@ -1388,7 +1388,7 @@ Bicycle = false
 Outdoor = false
 ShowArea = false
 Bicycle = false
-HealingSpot = 187,67,30
+HealingSpot = 187,63,30
 #-------------------------------
 [192]
 # Field of Spires
