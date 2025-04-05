@@ -31,13 +31,16 @@ Events.onTrainerPartyLoad += proc { |_sender, e|
 Events.onTrainerPartyLoad += proc { |_sender, e|
   trainer = e[0]
   next unless trainer
-  player_level = $Trainer.party_highest_level
-  trainer_level = trainer.party_highest_level
-  punish_level = TA.get(:kill_count, 0)
+  higher_level = [$Trainer.party_highest_level, trainer.party_highest_level].max
+  punish_level = TA.get(:kill_count, 0) - Settings::KILL_PUNNISHMENT
   trainer.party.each do |pkmn|
-    pkmn.level = player_level if pkmn.level < player_level
-    pkmn.level = trainer_level if pkmn.level < trainer_level
-    pkmn.level += punish_level - Settings::KILL_PUNNISHMENT if punish_level > Settings::KILL_PUNNISHMENT
+    if pkmn.level < MAX_LEVEL_CAP
+      pkmn.level = higher_level
+      if pkmn.level < MAX_LEVEL_CAP && punish_level > 0
+        punish_increment = [punish_level, MAX_LEVEL_CAP - pkmn.level].min
+        pkmn.level += punish_increment
+      end
+    end
     pkmn.calc_stats
     pkmn.heal
   end

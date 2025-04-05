@@ -2209,7 +2209,7 @@ Consider it a professional curiosity, if that might ease your concerns... or ins
 You are of note not merely for your personality and character –
 不仅只是因为你的个性与品格...
 though I confess some partiality to both – but for the briar-knot of fate you are embedded within.
-我承认我的确喜欢你的这些特质...但关注你更多是因为你正深陷在命运的泥潭之中。
+我承认我的确喜欢你的这些性情...但关注你更多是因为你正深陷在命运的泥潭之中。
 Many lives are wound around you. Around your fingers, or your throat, I wonder?
 许多生命正与你紧密连结在一起，究竟是被你握于手中呢，还是紧紧地扼住了你的喉咙呢？
 Put plainly, you’re important, I’m curious, and I like our conversations.
@@ -6849,7 +6849,7 @@ You even gotta ask ‘bout that? Y’know how this goes. Always.
 Ain’t no other way for us folks. We got somethin’ to figure out: which one of us is gonna have to give Yez a talking-to.
 我们没别的办法了，必须得找个机会，无论是你也好，我也罢，跟叶泽拉好好谈谈。
 Oh, don’tcha go callin’ it a crush. Just got a lot of traits I’m half-partial to.
-呃...这可不是那种“喜欢”，我只是欣赏你身上的某些特质。
+呃...这可不是那种“喜欢”，我只是欣赏你身上的某些性情。
 Ain’t 'bout to change what we gotta do. One of us gotta go down there.
 先别说这些了，正事要紧，我们当中必须有人下到最后。
 I’m her friend. You’re her... well, you’re a lotta things.
@@ -7840,7 +7840,7 @@ I have my own estimates based on public records and hearsay. I will default to t
 Do you take no thrill in defeating these beings? Unfortunately I fear you may be an expert in the matter.
 你是不是已经觉得它们没什么挑战性了？听起来你比我想象中经验更为丰富。
 So, have you noticed any common traits between avatars?
-那你有没有发现它们身上的什么特质？
+那你有没有发现它们身上的什么性情？
 As the local people have found out.
 大家都这么说。
 I will trust your judgment, as an experienced battler.
@@ -19130,7 +19130,7 @@ Tested with fire! Tested with toxin! Tested with the unyielding agony that only 
 Now embrace it, and show me your worth!
 那就去拥抱痛苦吧，展现你的实力与价值！
 Blazing, brilliant, bearing both mercy and ruthlessness in equal measure!
-炽热、辉煌，同时还包含着仁慈和无情的特质
+炽热、辉煌，同时还包含着仁慈和无情的性情！
 Ah ha ha! I’ll bow out now – now the role of the testing solvent belongs to you alone.
 啊哈哈！我该退场了，后面还有其他的考验等着你。
 Enjoy it! Revel in it! I’ll be cheering for you.
@@ -38592,7 +38592,7 @@ It appears to move occasionally. It may be close to hatching.
 Sounds can be heard coming from inside! It will hatch soon!
 可以听到里面传来声音！它很快就要孵化了！
 <c3=E09890,F83820>Traits:<c3=F8F8F8,686868>
-<c3=E09890,F83820>特质：<c3=F8F8F8,686868>
+<c3=E09890,F83820>性情：<c3=F8F8F8,686868>
 <c3=F8F8F8{2},686868>{1}
 <c3=F8F8F8{2},686868>{1}
 <c3=E09890,F83820>Likes:<c3=F8F8F8,686868>
@@ -38600,7 +38600,7 @@ Sounds can be heard coming from inside! It will hatch soon!
 <c3=E09890,F83820>Dislikes:<c3=F8F8F8,686868>
 <c3=E09890,F83820>讨厌：<c3=F8F8F8,686868>
 <c3=F83820,E09890>Traits:<c3=404040,B0B0B0>
-<c3=F83820,E09890>特质：<c3=404040,B0B0B0>
+<c3=F83820,E09890>性情：<c3=404040,B0B0B0>
 <c3=404040{2},B0B0B0>{1}
 <c3=404040{2},B0B0B0>{1}
 <c3=F83820,E09890>Likes:<c3=404040,B0B0B0>
@@ -56772,7 +56772,7 @@ Transfixing prey with the face-like pattern on its belly, it binds and poisons t
 It is not yet skilled at storing electricity. It may send out a jolt if amused or startled.
 脸颊上有电力袋。充满电时就会精神十足地四处玩耍。
 This intelligent Pokémon roasts hard berries with electricity to make them tender enough to eat.
-有积存电力的特质。在皮卡丘群居的森林里会落雷不断，十分危险。
+有积存电力的性情。在皮卡丘群居的森林里会落雷不断，十分危险。
 If it stores too much electricity, its behavior turns aggressive. To avoid this, it occasionally discharges excess energy and calms itself down.
 随着电力在体内的积聚，它会越发地具有攻击性。也有说法讲到其实电力就是它的压力。
 Rarely, a Pikachu grows to incredible size instead of evolving into Raichu. It can power settlements so long as it's fed properly.
