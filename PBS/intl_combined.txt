@@ -38700,15 +38700,15 @@ Wild Pokémon don't give experience in Pokémon Tectonic.
 Please don't kill too many Pokémon, or you'll be punished!
 请不要击杀太多野生的精灵，否则你会被惩罚！
 Don't worry, there's an abundance of experience to gain in other ways.
-不过不用担心经验不足， 正常游戏过程中， 可通过其他方式获得充足的经验。
+不过不用担心经验不足，正常游戏过程中，可通过其他方式获得充足的经验。
 If you encounter a Pokémon you don't want, run away. It's guaranteed!
 如果你遇到了你不需要的精灵，直接逃跑好了。逃跑是必定成功的！
 After a full party heal, defeated enemy trainers will be battle ready again!
-在恢复全队精灵状态后， 比如说在精灵中心恢复，
+在恢复全队精灵状态后，比如说在精灵中心恢复，
 For example, healing at a Pokémon Center triggers this.
 例如，在精灵中心治疗会触发这个。
 Trainers who fled won't come back, however.
-不过已经离开的训练家， 就不会再回来了。
+不过已经离开的训练家，就不会再回来了。
 There's a shortcut key(F) to instantly mount the bicycle while walking.
 在步行时，有一个快捷键（F）可以立即骑上自行车。
 Access your control setttings with <imp>F1</imp> to customize it.
@@ -38716,19 +38716,19 @@ Access your control setttings with <imp>F1</imp> to customize it.
 Individual Pokémon have unique Traits, Likes, and Dislikes.
 每只精灵都有独特的性情、喜好和不喜欢。
 These have no effect on battle. They're just for fun!
-这些内容对对战没有影响， 只是单纯为了好玩^_^。
+这些内容对对战没有影响，只是单纯为了好玩^_^。
 To customize your stats, adjust Style Points in any PokéCenter.
 要定制你的能力风格，可以在任何精灵中心调整风格点数。
 Stats can be changed during battle by 'stat steps'.
 战斗中可通过“变化技能”改变能力等级。
 A step is a small change! At +1 steps, only 25% is added to the stat.
-每一级的变化都很小， +1时只有25%的属性加成。
+每一级的变化都很小，+1时只有25%的属性加成。
 Check the Info menu to see the active steps and their effects on the battlers.
 详细内容可在“信息”菜单查看。
 Tectonic introduced many options that let you customize the game speed, especially in battles.
-游戏中增加了很多选项， 其中包括设定游戏速度。
+游戏中增加了很多选项，其中包括设定游戏速度。
 Make sure to go over all the options to determine what you want to enable.
-请务必查看所有选项， 以确定要启用哪些功能。
+请务必查看所有选项，以确定要启用哪些功能。
 Want to learn about your active battler's moves?
 要了解现有的战斗技能吗？
 Activate the Move Info Panel! It's a feature of the Fight screen.
@@ -38738,11 +38738,11 @@ Press your "Action" key (Z/Shift by default) to toggle it on or off.
 Many type matchups were changed in Pokémon Tectonic.
 在该游戏中，许多属性克制关系发生了变化。
 To strengthen some types, we had to weaken others.
-为了加强某些属性， 我们不得不削弱了其中一部分。
+为了加强某些属性，我们不得不削弱了其中一部分。
 Check the MasterDex or the Battle Guide to learn these changes.
 查看大师图鉴或战斗指南以了解这些变化。
 Sometimes you will receive evolvable Pokémon at your level cap.
-在游戏过程中， 您的精灵会经常达到等级上限。
+在游戏过程中，您的精灵会经常达到等级上限。
 Does this mean you can't evolve them until later? No!
 这种情况下如果要使达到等级要求的精灵进化，
 Just press the Evolve button in your party screen.
@@ -47946,9 +47946,9 @@ Opens the Pokémon storage boxes in Organize Boxes mode.
 Dump Storage Boxes to Text
 将存储箱导出为文本
 Create a text file listing all Pokémon in storage.
-创建一个文本文件，列出存储中的所有宝可梦。
+创建一个文本文件，列出存储中的所有精灵。
 Pokémon in storage written to {1}
-存储中的宝可梦已写入{1}
+存储中的精灵已写入{1}
 Start the Randomizer
 启动随机器
 Starts the Randomizer
