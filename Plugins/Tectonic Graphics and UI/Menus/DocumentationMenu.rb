@@ -137,7 +137,11 @@ class PokemonDocumentationMenu < PokemonPauseMenu
     cmdAbilityDex  = -1
     cmdItemDex     = -1
     cmdBattleGuide = -1
+    cmdPokeXRay = -1
     infoCommands = []
+    if pbHasItem?(:POKEXRAY) && @battle && @battle.opponent.length > 0
+      infoCommands[cmdPokeXRay = infoCommands.length] = getItemName(:POKEXRAY)
+    end
     infoCommands[cmdMasterDex   = infoCommands.length] = _INTL("MasterDex")
     infoCommands[cmdMoveDex     = infoCommands.length] = _INTL("MoveDex")
     infoCommands[cmdAbilityDex  = infoCommands.length] = _INTL("AbilityDex")
@@ -160,6 +164,20 @@ class PokemonDocumentationMenu < PokemonPauseMenu
           ItemDex.open_itemdex
       elsif cmdBattleGuide > -1 && infoCommand == cmdBattleGuide
           showBattleGuide
+      elsif cmdPokeXRay > -1 && infoCommand == cmdPokeXRay
+        if @battle.opponent.length == 1
+          showPokeXRayForTrainer(@battle.opponent[0])
+        else
+          opponentCommands = []
+          @battle.opponent.each do |trainer|
+            opponentCommands.push(trainer.full_name)
+          end
+          opponentCommands.push(_INTL("Cancel"))
+          choice = pbMessage(_INTL("Point the Poké X-Ray at which trainer?"),opponentCommands,opponentCommands.length)
+          next if choice == opponentCommands.length - 1
+          chosenTrainer = @battle.opponent[choice]
+          showPokeXRayForTrainer(chosenTrainer)
+        end
       else
         pbPlayCloseMenuSE
         break

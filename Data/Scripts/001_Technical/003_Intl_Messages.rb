@@ -771,17 +771,13 @@ end
 
 
 module MessageTypes
-  NOT_NEED_OUTPUT      = %w[1 2 3 4 13 25 26]
+  NOT_NEED_OUTPUT      = %w[13 25 26]
   NOT_NEED_OUTPUT_HASH = %w[15 16 17]
   # Value 0 is used for common event and map event text
-  Species            = 1 # doesn't need
-  SPECIES_HASH       = 111
-  Kinds              = 2 # doesn't need
-  KINDS_HASH         = 222
-  Entries            = 3 # doesn't need
-  ENTRIES_HASH       = 333
-  FormNames          = 4 # doesn need
-  FORMNAMES_HASH     = 444
+  Species            = 1
+  Kinds              = 2
+  Entries            = 3
+  FormNames          = 4
   Moves              = 5
   MoveDescriptions   = 6
   Items              = 7

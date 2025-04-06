@@ -131,7 +131,9 @@ doublebattle/disabledouble，开启/关闭全双打模式
 zeroexp/disablezeroexp，开启/关闭无经验模式
 
 0.3.4
-1.
+1.修复了一些翻译的问题
+2.现在Poké X-Ray可以在战斗中使用了
+3.
 
 0.3.3
 1.修改获得代欧奇希斯的密码为alien1

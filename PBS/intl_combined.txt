@@ -3734,7 +3734,7 @@ Come again if there are moves that need to be forgotten.
 What? No Egg should know any moves.
 什么？蛋又没有技能。
 \v[3] seems to know only one move...
-\v[3]似乎只会一招…
+\v[3]似乎只会一个技能…
 Which move should be forgotten?
 应该忘记哪一个技能呢？
 Hm! \v[3]'s \v[4]? That move should be forgotten?
@@ -32492,7 +32492,7 @@ Martial Discipline
 Mass Attack
 大规模袭击
 Mental Block
-心里阻隔
+心灵阻隔
 Mental Damage
 精神损伤
 Meteoric
@@ -53202,7 +53202,7 @@ Have more than 1,000,000 experience stored in the EXP-EZ Dispenser at once.
 在经验分配器中储存超过1,000,000点 经验值。
 Achieve the top prize at Aquatopia Menagerie's Ocean Fishing Contest.
 在水世界的海钓比赛中拔得头筹。
-[111]
+[1]
 Bulbasaur
 妙蛙种子
 Ivysaur
@@ -55281,7 +55281,7 @@ Test Pokemon
 测试精灵
 Test Pokemon 2
 测试精灵 2
-[222]
+[2]
 Seed
 种子
 Lizard
@@ -56750,7 +56750,7 @@ High King
 高位王
 Mellow
 稳健
-[333]
+[3]
 While it is young, it uses the nutrients that are stored in the seed on its back in order to grow.
 经常可见它在太阳下睡午觉的样子。在沐浴了充足的阳光之后，它背上的种子就会成长茁壮。
 To support its weight, Ivysaur's legs and trunk grow thick and strong. If it spends more time lying in the sunlight, it's a sign that the bud will bloom soon.
@@ -58947,7 +58947,7 @@ It differs from other Basculin in several respects, including demeanor. It is mu
 此精灵具有多项野蛮鲈鱼的特征，虽然有性情温驯等不同点存在，本人仍将其定义为野蛮鲈鱼的地区形态。
 This form also exists to test the PBS Extensions feature.
 这种形态的存在也是为了测试PBS扩展功能。
-[444]
+[4]
 A
 A
 Normal
