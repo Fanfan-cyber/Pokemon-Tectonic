@@ -107,19 +107,21 @@ class MoveDex_Scene
         cmdSignature    = -1
         cmdNotes        = -1
         cmdLearnableOwned = -1
+        cmdUninvocable  = -1
         cmdInvertList   = -1
         cmdEffectChance = -1
-        miscSearches[cmdTag = miscSearches.length]          = _INTL("Tag")
-        miscSearches[cmdBasePower = miscSearches.length]    = _INTL("Base Power")
-        miscSearches[cmdAccuracy = miscSearches.length]     = _INTL("Accuracy")
-        miscSearches[cmdEffectChance = miscSearches.length] = _INTL("Effect Chance")
-        miscSearches[cmdPriority = miscSearches.length]     = _INTL("Priority")
-        miscSearches[cmdPP = miscSearches.length]           = _INTL("Power Points")
-        miscSearches[cmdTargeting = miscSearches.length]    = _INTL("Targeting")
-        miscSearches[cmdSignature = miscSearches.length]    = _INTL("Signature")
-        miscSearches[cmdNotes = miscSearches.length]        = _INTL("Has Notes")
-        miscSearches[cmdLearnableOwned = miscSearches.length]        = _INTL("Learnable By")
-        miscSearches[cmdInvertList = miscSearches.length]   = _INTL("Invert Current")
+        miscSearches[cmdTag = miscSearches.length]              = _INTL("Tag")
+        miscSearches[cmdBasePower = miscSearches.length]        = _INTL("Base Power")
+        miscSearches[cmdAccuracy = miscSearches.length]         = _INTL("Accuracy")
+        miscSearches[cmdEffectChance = miscSearches.length]     = _INTL("Effect Chance")
+        miscSearches[cmdPriority = miscSearches.length]         = _INTL("Priority")
+        miscSearches[cmdPP = miscSearches.length]               = _INTL("Power Points")
+        miscSearches[cmdTargeting = miscSearches.length]        = _INTL("Targeting")
+        miscSearches[cmdSignature = miscSearches.length]        = _INTL("Signature")
+        miscSearches[cmdNotes = miscSearches.length]            = _INTL("Has Notes")
+        miscSearches[cmdLearnableOwned = miscSearches.length]   = _INTL("Learnable By")
+        miscSearches[cmdUninvocable = miscSearches.length]      = _INTL("Uninvocable")
+        miscSearches[cmdInvertList = miscSearches.length]       = _INTL("Invert Current")
         miscSearches.push(_INTL("Cancel"))
         searchSelection = pbMessage(_INTL("Which search?"), miscSearches, miscSearches.length + 1)
         if cmdTag > -1 && searchSelection == cmdTag
@@ -142,6 +144,8 @@ class MoveDex_Scene
             return searchByMoveLearnableOwned
         elsif cmdNotes > -1 && searchSelection == cmdNotes
             return searchByMoveHasNotes
+        elsif cmdUninvocable > -1 && searchSelection == cmdUninvocable
+            return searchByUninvocability
         elsif cmdInvertList > -1 && searchSelection == cmdInvertList
             return invertSearchList
         end
@@ -340,6 +344,15 @@ class MoveDex_Scene
     end
 
     def searchByMoveTypeMatchups
+    end
+
+    def searchByUninvocability
+        dexlist = searchStartingList
+
+        dexlist = dexlist.find_all do |dex_item|
+            next !canInvokeMove?(dex_item[:move])
+        end
+        return dexlist
     end
 
     def invertSearchList

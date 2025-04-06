@@ -103,7 +103,7 @@ class PokeBattle_Move_UseRandomNonSignatureMove < PokeBattle_Move
             next if move_data.is_signature?
             next if move_data.empoweredMove?
             if battle
-                next unless battle.canInvokeMove?(move)
+                next unless battle.canInvokeMove?(move_id)
             else
                 next if move_data.uninvocable?
             end

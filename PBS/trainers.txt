@@ -360,9 +360,9 @@ Pokemon = SALANDIT,20
 Pokemon = FLETCHINDER,20
     Moves = FLAMECHARGE,AERIALACE,DOUBLEKICK,TAILWIND
     AbilityIndex = 1 # Gale Wings
+    Item = CHARTIBERRY
 Pokemon = TENTACOOL,20
     Moves = WHIRLPOOL,SLUDGE,INFESTATION,PROTECT
-    Item = SEVENLEAGUEBOOTS
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 0,20,10,0,20,20
 Pokemon = TYNAMO,20
