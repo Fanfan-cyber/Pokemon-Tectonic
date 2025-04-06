@@ -299,7 +299,7 @@ HPMult = 5.0
 Item = WISEGLASSES
 #-------------------------------
 [LINOONE]
-Ability = GLUTTONY
+Ability = THIEFSDIVERSION
 Moves1 = HEADBUTT,FROLIC,COVET,PRIMEVALWATERLOG
 Moves2 = WAVEBREAK,COVET
 #-------------------------------

@@ -46,6 +46,11 @@ class PokemonDocumentationMenu_Scene
 end
 
 class PokemonDocumentationMenu < PokemonPauseMenu
+	def initialize(scene,battle=nil)
+		super(scene)
+		@battle = battle
+	end
+
 	def pbStartPokemonMenu
 		if !$Trainer
 			if $DEBUG
@@ -164,8 +169,8 @@ class PokemonDocumentationMenu < PokemonPauseMenu
   end
 end
 
-def showDocumentationMenu
+def showDocumentationMenu(battle=nil)
     docsMenuScene = PokemonDocumentationMenu_Scene.new
-    docsMenuScreen = PokemonDocumentationMenu.new(docsMenuScene)
+    docsMenuScreen = PokemonDocumentationMenu.new(docsMenuScene,battle)
     docsMenuScreen.pbStartPokemonMenuInBattle
 end

@@ -409,12 +409,14 @@ Height = 3.3
 Pokedex = It's said that this Pokémon battles in order to protect the ideal world that will exist in the future for people and Pokémon.
 #-------------------------------
 [KYUREM,3]
+FormName = White
 BaseStats = 125,120,90,95,170,100
 Abilities = JUGGERNAUT
 Moves = 1,CLASH,1,ICYWIND,8,BAR,15,ANCIENTPOWER,22,ICEBEAM,29,DRAGONBREATH,36,SLASH,43,FUSIONFLARE,50,ICEBURN,57,DRAGONPULSE,64,NOBLEROAR,71,ENDEAVOR,78,BLIZZARD,85,OUTRAGE,92,HYPERVOICE
 Height = 3.6
 #-------------------------------
 [KYUREM,4]
+FormName = Black
 BaseStats = 125,170,100,95,120,90
 Abilities = JUGGERNAUT
 Moves = 1,CLASH,1,ICYWIND,8,BAR,15,ANCIENTPOWER,22,ICEBEAM,29,DRAGONBREATH,36,SLASH,43,FUSIONBOLT,50,FREEZESHOCK,57,DRAGONPULSE,64,NOBLEROAR,71,ENDEAVOR,78,BLIZZARD,85,OUTRAGE,92,HYPERVOICE
@@ -629,6 +631,7 @@ Weight = 610.0
 Pokedex = This is Zygarde's perfected form. From the orifice on its chest, it radiates high-powered energy that eliminates everything.
 #-------------------------------
 [ZYGARDE,3]
+FormName = 50%
 Abilities = POWERCONSTRUCT
 #-------------------------------
 [HOOPA,1]
@@ -826,6 +829,7 @@ Height = 7.5
 Pokedex = The light pouring out from all over its body affects living things and nature, impacting them in various ways.
 #-------------------------------
 [NECROZMA,4]
+FormName = Ultra
 Type1 = PSYCHIC
 Type2 = DRAGON
 BaseStats = 97,167,97,129,167,97

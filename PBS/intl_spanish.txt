@@ -27752,4048 +27752,1837 @@ Return the Flora Sceptre and Reins of Unity?
 It hurriedly gestures for you to enter the chamber ahead.
 Te hace un ademán con apuro para que entres a la cámara adelante.
 [1]
-29
 Nidoran-F
 Nidoran-H
-772
 Type: Null
 Código Cero
-2000
 A. Rattata
 Rattata A.
-2001
 A. Raticate
 Raticate A.
-2002
 A. Raichu
 Raichu A.
-2003
 A. Sandshrew
 Sandshrew A.
-2004
 A. Sandslash
 Sandslash A.
-2005
 A. Vulpix
 Vulpix A.
-2006
 A. Ninetales
 Ninetales A.
-2007
 A. Diglett
 Diglett A.
-2008
 A. Dugtrio
 Dugtrio A.
-2009
 A. Meowth
 Meowth A.
-2010
 G. Meowth
 Meowth G.
-2011
 A. Persian
 Persian A.
-2012
 A. Geodude
 Geodude A.
-2013
 A. Graveler
 Graveler A.
-2014
 A. Golem
 Golem A.
-2015
 G. Ponyta
 Ponyta G.
-2016
 G. Rapidash
 Rapidash G.
-2017
 G. Slowpoke
 Slowpoke G.
-2018
 G. Slowbro
 Slowbro G.
-2019
 G. Farfetch'd
 Farfetch'd G.
-2020
 A. Grimer
 Grimer A.
-2021
 A. Muk
 Muk A.
-2022
 A. Exeggutor
 Exeggutor A.
-2023
 A. Marowak
 Marowak A.
-2024
 G. Weezing
 Weezing G.
-2025
 G. Mr. Mime
 Mr. Mime G.
-2026
 G. Articuno
 Articuno G.
-2027
 G. Zapdos
 Zapdos G.
-2028
 G. Moltres
 Moltres G.
-2029
 G. Slowking
 Slowking G.
-2030
 G. Corsola
 Corsola G.
-2031
 G. Zigzagoon
 Zigzagoon G.
-2032
 G. Linoone
 Linoone G.
-2033
 G. Darumaka
 Darumaka G.
-2034
 G. Darmanitan
 Darmanitan G.
-2035
 G. Yamask
 Yamask G.
-2036
 G. Stunfisk
 Stunfisk G.
-2042
 H. Typhlosion
 Typhlosion H.
-2043
 H. Samurott
 Samurott H.
-2044
 H. Decidueye
 Decidueye H.
-2045
 H. Braviary
 Braviary H.
-2046
 H. Sliggoo
 Sliggoo H.
-2047
 H. Goodra
 Goodra H.
-2048
 H. Lilligant
 Lilligant H.
-2049
 H. Avalugg
 Avalugg H.
-2050
 H. Growlithe
 Growlithe H.
-2051
 H. Arcanine
 Arcanine H.
-2052
 H. Sneasel
 Sneasel H.
-2054
 H. Voltorb
 Voltorb H.
-2055
 H. Electrode
 Electrode H.
-2056
 H. Zorua
 Zorua H.
-2057
 H. Zoroark
 Zoroark H.
-2058
 H. Qwilfish
 Qwilfish H.
-2059
-Overqwil
-Overqwil
-2500
 M. Zangoose
 Zangoose M.
-2501
 M. Sentret
 Sentret M.
-2502
 M. Furret
 Furret M.
-2503
 M. Seviper
 Seviper M.
-2504
 M. Tangela
 Tangela M.
-2505
 M. Tangrowth
 Tangrowth M.
-2506
 M. Vulpix
 Vulpix M.
-2507
 M. Ninetales
 Ninetales M.
-2508
 M. Sinistea
 Sinistea M.
-2509
 M. Polteageist
 Polteageist M.
-2510
 M. Wurmple
 Wurmple M.
-2511
 M. Silcoon
 Silcoon M.
-2512
 M. Beautifly
 Beautifly M.
-2513
 M. Cascoon
 Cascoon M.
-2514
 M. Dustox
 Dustox M.
-2515
 M. Roggenrola
 Roggenrola M.
-2516
 M. Boldore
 Boldore M.
-2517
 M. Gigalith
 Gigalith M.
-2518
 M. Hoothoot
 Hoothoot M.
-2519
 M. Noctowl
 Noctowl M.
-2520
 M. Goldeen
 Goldeen M.
-2521
 M. Seaking
 Seaking M.
-2522
 M. Petilil
 Petilil M.
-2523
 M. Lilligant
 Lilligant M.
-2524
 M. Carnivine
 Carnivine M.
-2525
 M. Vullaby
 Vullaby M. 
-2526
 M. Mandibuzz
 Mandibuzz M.
-2527
 M. Munna
 Munna M.
-2528
 M. Musharna
 Musharna M.
-2529
 M. Frillish
 Frillish M.
-2530
 M. Jellicent
 Jellicent M.
-2532
 M. Aromatisse
 Aromatisse M.
-2738
 G. Darmanitan
 Darmanitan G.
-2747
-M. Aromatisse
-Aromatisse M.
 [2]
-1
 Seed
 Semilla
-2
-Seed
-Semilla
-3
-Seed
-Semilla
-4
 Lizard
 Lagarto
-5
 Flame
 Llama
-6
-Flame
-Llama
-7
 Tiny Turtle
 Tortuguita
-8
 Turtle
 Tortuga
-9
 Shellfish
 Marisco
-10
 Worm
 Gusano
-11
 Cocoon
 Capullo
-12
 Butterfly
 Mariposa
-13
 Hairy Bug
 Oruga
-14
-Cocoon
-Capullo
-15
 Poison Bee
 Abeja Venenosa
-16
 Tiny Bird
 Pajarito
-17
 Bird
 Pájaro
-18
-Bird
-Pájaro
-19
 Mouse
 Ratón
-20
-Mouse
-Ratón
-21
-Tiny Bird
-Pajarito
-22
 Beak
 Pico
-23
 Snake
 Serpiente
-24
 Cobra
 Cobra
-25
 Mouse
 Ratón
-26
-Mouse
-Ratón
-27
-Mouse
-Ratón
-28
-Mouse
-Ratón
-29
 Poison Pin
 Pin Veneno
-30
-Poison Pin
-Pin Veneno
-31
 Drill
 Taladro
-32
-Poison Pin
-Pin Veneno
-33
-Poison Pin
-Pin Veneno
-34
 Drill
 Taladro
-35
 Fairy
 Hada
-36
-Fairy
-Hada
-37
 Fox
 Zorro
-38
-Fox
-Zorro
-39
 Balloon
 Globo
-40
-Balloon
-Globo
-41
 Bat
 Murciélago
-42
-Bat
-Murciélago
-43
 Weed
 Hierbajo
-44
-Weed
-Hierbajo
-45
 Flower
 Flor
-46
 Mushroom
 Hongo
-47
-Mushroom
-Hongo
-48
 Insect
 Insecto
-49
 Poison Moth
 Polilla Venenosa
-50
 Mole
 Topo
-51
-Mole
-Topo
-52
 Scratch Cat
 Gato Araña
-53
 Classy Cat
 Gato Fino
-54
 Duck
 Pato
-55
-Duck
-Pato
-56
 Pig Monkey
 Mono Cerdo
-57
-Pig Monkey
-Mono Cerdo
-58
 Puppy
 Perrito
-59
 Legendary
 Legendario
-60
 Tadpole
 Renacuajo
-61
-Tadpole
-Renacuajo
-62
-Tadpole
-Renacuajo
-63
 Psi
 Psi
-64
-Psi
-Psi
-65
-Psi
-Psi
-66
 Superpower
 Superpoder
-67
-Superpower
-Superpoder
-68
-Superpower
-Superpoder
-69
 Flower
 Flor
-70
 Flycatcher
 Matamoscas
-71
-Flycatcher
-Matamoscas
-72
 Jellyfish
 Medusa
-73
-Jellyfish
-Medusa
-74
 Rock
 Roca
-75
-Rock
-Roca
-76
 Megaton
 Megatón
-77
 Fire Horse
 Caballo Fuego
-78
-Fire Horse
-Caballo Fuego
-79
 Dopey
 Atontado
-80
 Hermit Crab
 Ermitaño
-81
 Magnet
 Imán
-82
-Magnet
-Imán
-83
 Wild Duck
 Pato Salvaje
-84
 Twin Bird
 Ave Gemela
-85
 Triple Bird
 Ave Triple
-86
 Sea Lion
 León Marino
-87
-Sea Lion
-León Marino
-88
 Sludge
 Lodo
-89
-Sludge
-Lodo
-90
 Bivalve
 Bivalvo
-91
-Bivalve
-Bivalvo
-92
 Gas
 Gas
-93
-Gas
-Gas
-94
 Shadow
 Sombra
-95
 Rock Snake
 Serpiente Roca
-96
 Hypnosis
 Hipnosis
-97
-Hypnosis
-Hipnosis
-98
 River Crab
-Cangrejo
-99
+Cangrej
 Pincer
 Tenaza
-100
 Ball
 Bola
-101
-Ball
-Bola
-102
 Egg
 Huevo
-103
 Coconut
 Coco
-104
 Lonely
 Solitario
-105
 Bone Keeper
 Apilahueso
-106
 Kicking
 Patada
-107
 Punching
 Puñetazo
-108
 Licking
 Lametazo
-109
 Poison Gas
 Gas Veneno
-110
-Poison Gas
-Gas Veneno
-111
 Spikes
 Clavos
-112
-Drill
-Taladro
-113
 Egg
 Huevo
-114
 Vine
 Enredadera
-115
 Parent
 Padres
-116
 Dragon
 Dragón
-117
-Dragon
-Dragón
-118
 Goldfish
 Pez Color
-119
-Goldfish
-Pez Color
-120
 Star Shape
 Estrellada
-121
 Mysterious
 Misterioso
-122
 Barrier
 Barrera
-123
 Mantis
 Mantis
-124
 Human Shape
-Forma humana
-125
+Forma Humana
 Electric
 Eléctrico
-126
 Spitfire
 Escupefuego
-127
 Stag Beetle
 Escarabajo
-128
 Wild Bull
 Toro Bravo
-129
 Fish
 Pez
-130
 Atrocious
 Atrocidad
-131
 Transport
 Transporte
-132
 Transform
 Transformación
-133
 Evolution
 Evolución
-134
 Bubble Jet
 Burbuja
-135
 Lightning
 Relámpago
-136
 Flame
 Llama
-137
 Virtual
 Virtual
-138
 Spiral
 Espiral
-139
-Spiral
-Espiral
-140
 Shellfish
 Marisco
-141
-Shellfish
-Marisco
-142
 Fossil
 Fósil
-143
 Sleeping
 Dormir
-144
 Freeze
 Congelar
-145
 Electric
 Eléctrico
-146
-Flame
-Llama
-147
-Dragon
-Dragón
-148
-Dragon
-Dragón
-149
-Dragon
-Dragón
-150
 Genetic
 Genético
-151
 New Species
 Nueva Especie
-152
 Leaf
 Hoja
-153
-Leaf
-Hoja
-154
 Herb
 Hierba
-155
 Fire Mouse
 Ratónfuego
-156
 Volcano
 Volcán
-157
-Volcano
-Volcán
-158
 Big Jaw
 Gran Fauce
-159
-Big Jaw
-Gran Fauce
-160
-Big Jaw
-Gran Fauce
-161
 Scout
 Explorador
-162
 Long Body
 Alargado
-163
 Owl
 Búho
-164
-Owl
-Búho
-165
 Five Star
 5 Estrellas
-166
-Five Star
-5 Estrellas
-167
 String Spit
 Escupesoga
-168
 Long Leg
 Pata Larga
-169
-Bat
-Murciélago
-170
 Angler
 Rape
-171
 Light
 Luz
-172
 Tiny Mouse
 Ratoncito
-173
 Star Shape
 Estrellada
-174
-Balloon
-Globo
-175
 Spike Ball
 Bola Clavos
-176
 Happiness
 Felicidad
-177
-Tiny Bird
-Pajarito
-178
 Mystic
 Místico
-179
 Wool
 Lana
-180
-Wool
-Lana
-181
 Light
 Luz
-182
 Flower
 Flor
-183
 Aqua Mouse
 Ratón Agua
-184
 Aqua Rabbit
 Conejo Agua
-185
 Imitation
 Imitación
-186
 Frog
 Rana
-187
 Cottonweed
 Algodón
-188
-Cottonweed
-Algodón
-189
-Cottonweed
-Algodón
-190
 Long Tail
 Cola larga
-191
-Seed
-Semilla
-192
 Sun
 Sol
-193
 Clear Wing
 Ala clara
-194
 Water Fish
 Pez Agua
-195
-Water Fish
-Pez Agua
-196
-Sun
-Sol
-197
 Moonlight
 Brillo Lunar
-198
 Darkness
 Oscuridad
-199
 Royal
 Regio
-200
 Screech
 Chirrido
-201
 Symbol
 Símbolo
-202
 Patient
 Paciente
-203
 Long Neck
 Grancuello
-204
 Bagworm
 Larva
-205
-Bagworm
-Larva
-206
 Land Snake
 Serptierra
-207
 FlyScorpion
 Escorpiala
-208
 Iron Snake
 Serpférrea
-209
-Fairy
-Hada
-210
-Fairy
-Hada
-211
-Balloon
-Globo
-212
 Pincer
 Tenaza
-213
 Mold
 Moho
-214
 Single Horn
 Unicornio
-215
 Sharp Claw
 Garra Filo
-216
 Little Bear
 Osito
-217
 Hibernator
 Hibernante
-218
 Lava
 Lava
-219
-Lava
-Lava
-220
 Pig
 Cerdo
-221
 Swine
 Puerco
-222
-Coral
-Coral
-223
 Jet
 Reactor
-224
-Jet
-Reactor
-225
 Delivery
 Reparto
-226
 Kite
 Milano
-227
 Armor Bird
 Coraza Ave
-228
 Dark
 Siniestro
-229
-Dark
-Siniestro
-230
-Dragon
-Dragón
-231
 Long Nose
 Narizotas
-232
 Armor
 Coraza
-233
-Virtual
-Virtual
-234
 Big Horn
 Grancuerno
-235
 Painter
 Pintor
-236
 Scuffle
 Peleón
-237
 Handstand
 Boca abajo
-238
 Kiss
 Beso
-239
 Electric
 Eléctrico
-240
 Live Coal
 Ascuas
-241
 Milk Cow
 Lechera
-242
 Happiness
 Felicidad
-243
 Thunder
 Trueno
-244
 Volcano
 Volcán
-245
 Aurora
 Aurora
-246
 Rock Skin
 Piel Roca
-247
 Hard Shell
 Caparazón
-248
 Armor
 Coraza
-249
 Diving
 Buceo
-250
 Rainbow
 Arcoíris
-251
 Time Travel
 Viajetiempo
-252
 Wood Gecko
 Geco Bosque
-253
-Wood Gecko
-Geco Bosque
-254
 Forest
 Monte
-255
 Chick
 Polluelo
-256
 Young Fowl
 Ave Corral
-257
 Blaze
 Llameante
-258
 Mud Fish
 Pez Lodo
-259
-Mud Fish
-Pez Lodo
-260
-Mud Fish
-Pez Lodo
-261
 Bite
 Mordisco
-262
-Bite
-Mordisco
-263
 TinyRaccoon
 Mapachito
-264
 Rushing
 Lanzado
-265
-Worm
-Gusano
-266
-Cocoon
-Capullo
-267
-Butterfly
-Mariposa
-268
-Cocoon
-Capullo
-269
 Poison Moth
 Polilla Venenosa
-270
 Water Weed
 Alga
-271
 Jolly
 Alegre
-272
 Carefree
 Optimista
-273
 Acorn
 Bellota
-274
 Wily
 Astuto
-275
 Wicked
 Malvado
-276
 TinySwallow
 Pequebuche
-277
 Swallow
 Buche
-278
 Seagull
 Gaviota
-279
 Water Bird
 Ave Agua
-280
 Feeling
 Sensible
-281
 Emotion
 Sensorio
-282
 Embrace
 Envolvente
-283
 Pond Skater
 Zapatero
-284
 Eyeball
 Globo ocular
-285
 Mushroom
 Hongo
-286
-Mushroom
-Hongo
-287
 Slacker
 Gandul
-288
 Wild Monkey
 Mono Feroz
-289
 Lazy
 Holgazán
-290
 Trainee
 Aprendiz
-291
-Ninja
-Ninja
-292
 Shed
 Muda
-293
 Whisper
 Susurro
-294
 Big Voice
 Chillón
-295
 Loud Noise
 Escandaloso
-296
 Guts
 Valiente
-297
 Arm Thrust
 Empuje
-298
 Polka Dot
-A topos
-299
+A Topos
 Compass
 Brújula
-300
 Kitten
 Gatito
-301
 Prim
 Cursi
-302
 Darkness
 Oscuridad
-303
 Deceiver
 Tramposo
-304
 Iron Armor
 Coraza Férrea
-305
-Iron Armor
-Coraza Férrea
-306
-Iron Armor
-Coraza Férrea
-307
 Meditate
 Meditador
-308
-Meditate
-Meditador
-309
 Lightning
 Calambre
-310
 Discharge
 Descarga
-311
 Cheering
 Ánimo
-312
-Cheering
-Ánimo
-313
 Firefly
 Luciérnaga
-314
-Firefly
-Luciérnaga
-315
 Thorn
 Espina
-316
 Stomach
 Estómago
-317
 Poison Bag
 Bolsa Veneno
-318
 Savage
 Feroz
-319
 Brutal
 Voraz
-320
 Ball Whale
 Ballena Bola
-321
 Float Whale
 Ballenaflot
-322
 Numb
 Torpe
-323
 Eruption
 Erupción
-324
 Coal
 Carbón
-325
 Bounce
 Saltarín
-326
 Manipulate
 Manipulador
-327
 Spot Panda
 Panda Topos
-328
 Ant Pit
 Hormigaleón
-329
 Vibration
 Vibrante
-330
 Mystic
 Místico
-331
-Cactus
-Cactus
-332
 Scarecrow
 Espantajo
-333
 Cotton Bird
 Ave Algodón
-334
 Humming
 Cantor
-335
 Cat Ferret
 Gato Hurón
-336
 Fang Snake
 Colmillos
-337
 Meteorite
 Meteorito
-338
-Meteorite
-Meteorito
-339
 Whiskers
 Bigotudo
-340
-Whiskers
-Bigotudo
-341
 Ruffian
 Rufián
-342
 Rogue
 Granuja
-343
 Clay Doll
 Muñeca Barro
-344
-Clay Doll
-Muñeca Barro
-345
 Sea Lily
 Lirio Mar
-346
 Barnacle
 Percebe
-347
 Old Shrimp
 Camarón
-348
 Plate
 Armadura
-349
 Fish
 Pez
-350
 Tender
 Tierno
-351
 Weather
 Clima
-352
 Color Swap
 Camaleónico
-353
 Puppet
 Títere
-354
 Marionette
 Marioneta
-355
 Requiem
 Réquiem
-356
 Beckon
 Atrayente
-357
 Fruit
 Fruto
-358
 Wind Chime
 Sonido Aire
-359
 Disaster
 Catástrofe
-360
 Bright
 Radiante
-361
 Snow Hat
 Gorro Nieve
-362
 Face
 Cara
-363
 Clap
 Aplauso
-364
 Ball Roll
 Rodabola
-365
 Ice Break
 Rompe Hielo
-366
 Bivalve
 Bivalvo
-367
 Deep Sea
 Abisal
-368
 South Sea
 Mar del Sur
-369
 Longevity
 Longevo
-370
 Rendezvous
 Cita
-371
 Rock Head
 Cabeza Roca
-372
 Endurance
 Resistencia
-373
-Dragon
-Dragón
-374
 Iron Ball
 Bola Hierro
-375
 Iron Claw
 Garra Hierro
-376
 Iron Leg
 Pierna Hierro
-377
 Stone Age
-Edad de Piedra
-378
+Edad Piedra
 Ice Age
-Edad de Hielo
-379
+Edad Hielo
 Iron Age
-Edad de los Metales
-380
+Edad Metal
 Eon
 Eón
-381
-Eon
-Eón
-382
 Sea Basin
 Cuenca Mar
-383
 Continent
 Continente
-384
 Sky High
 Cielo
-385
 Wish
 Deseo
-386
 DNA
 ADN
-387
 Tiny Leaf
 Hojita
-388
 Grove
 Arboleda
-389
-Continent
-Continente
-390
 Chimp
 Chimpancé
-391
 Playful
 Juguetón
-392
 Flame
 Llama
-393
 Penguin
 Pingüino
-394
-Penguin
-Pingüino
-395
 Emperor
 Emperador
-396
 Starling
 Estornino
-397
-Starling
-Estornino
-398
 Predator
 Depredador
-399
 Plump Mouse
 Gran Ratón
-400
 Beaver
 Castor
-401
 Cricket
 Grillo
-402
-Cricket
-Grillo
-403
 Flash
 Flash
-404
 Spark
 Chispa
-405
 Gleam Eyes
 Chispa Ojos
-406
 Bud
 Brote
-407
 Bouquet
 Ramillete
-408
 Head Butt
 Cabezazo
-409
-Head Butt
-Cabezazo
-410
 Shield
 Escudo
-411
-Shield
-Escudo
-412
-Bagworm
-Larva
-413
-Bagworm
-Larva
-414
 Moth
 Polilla
-415
 Tiny Bee
 Abejita
-416
 Beehive
 Colmena
-417
 EleSquirrel
 Ardillalec
-418
 Sea Weasel
 Nutria Marina
-419
-Sea Weasel
-Nutria Marina
-420
 Cherry
 Cereza
-421
 Blossom
 Floración
-422
 Sea Slug
 Babosa Marina
-423
-Sea Slug
-Babosa Marina
-424
 Long Tail
 Cola larga
-425
-Balloon
-Globo
-426
 Blimp
 Dirigible
-427
 Rabbit
 Conejo
-428
-Rabbit
-Conejo
-429
 Magical
 Mágico
-430
 Big Boss
 Gran Jefe
-431
 Catty
 Gastuto
-432
 Tiger Cat
 Tigre Gato
-433
 Bell
 Campana
-434
 Skunk
 Mofeta
-435
-Skunk
-Mofeta
-436
 Bronze
 Bronce
-437
 Bronze Bell
 Campana Bronce
-438
 Bonsai
 Bonsái
-439
 Mime
 Mimo
-440
 Playhouse
 Casita
-441
 Music Note
 Corchea
-442
 Forbidden
 Prohibido
-443
 Land Shark
 Terrascualo
-444
 Cave
 Cueva
-445
 Mach
 Mach
-446
 Big Eater
 Comilón
-447
 Emanation
 Emanación
-448
 Aura
 Aura
-449
 Hippo
 Hipo
-450
 Heavyweight
 Peso Pesado
-451
 Scorpion
 Escorpión
-452
 Ogre Scorp
 Escorpión Ogro
-453
 Toxic Mouth
 Boca Tóxica
-454
-Toxic Mouth
-Boca Tóxica
-455
 Bug Catcher
 Caza Bichos
-456
 Wing Fish
 Pez Ala
-457
 Neon
 Neón
-458
 Kite
 Milano
-459
 Frost Tree
 Árbol Nieve
-460
-Frost Tree
-Árbol Nieve
-461
 Sharp Claw
 Garra Filo
-462
 Magnet Area
 Magnético
-463
 Licking
 Lametazo
-464
-Drill
-Taladro
-465
 Vine
 Enredadera
-466
 Thunderbolt
 Rayo
-467
 Blast
 Explosión
-468
 Jubilee
 Festejo
-469
 Ogre Darner
 Libélula
-470
 Verdant
 Verdor
-471
 Fresh Snow
 Nieve Fresca
-472
 Fang Scorp
 Colmicorpio
-473
 Twin Tusk
-2 colmillos
-474
-Virtual
-Virtual
-475
+2 Colmillos
 Blade
 Cuchilla
-476
 Compass
 Brújula
-477
 Gripper
 Grilletes
-478
 Snow Land
 Tierra Fría
-479
-Plasma
-Plasma
-480
 Knowledge
 Sabiduría
-481
 Emotion
 Sensorio
-482
 Willpower
 Voluntad
-483
-Temporal
-Temporal
-484
 Spatial
 Espacial
-485
 Lava Dome
-Domo lava
-486
+Domo Lava
 Colossal
 Colosal
-487
 Renegade
 Renegado
-488
-Lunar
-Lunar
-489
 Sea Drifter
 Marino
-490
 Seafaring
 Náutico
-491
 Pitch-Black
 Oscuridad
-492
 Gratitude
 Gratitud
-493
 Alpha
 Alfa
-494
 Victory
 Victoria
-495
 Grass Snake
 Serpiente Hierba
-496
-Grass Snake
-Serpiente Hierba
-497
 Regal
 Realeza
-498
 Fire Pig
 Cerdo Fuego
-499
-Fire Pig
-Cerdo Fuego
-500
 Mega Fire Pig
 Cerdo Ígneo
-501
 Sea Otter
 Nutria
-502
 Discipline
 Superación
-503
 Formidable
 Majestuoso
-504
 Scout
 Explorador
-505
 Lookout
 Alerta
-506
 Puppy
 Perrito
-507
 Loyal Dog
 Leal
-508
 Big-Hearted
 Magnánimo
-509
 Devious
 Malicioso
-510
 Cruel
 Calculador
-511
 Grass Monkey
 Mono Hierba
-512
 Thorn Monkey
 Mono Pincho
-513
 High Temp
 Ardiente
-514
 Ember
 Lumbre
-515
 Spray
 Salpicadura
-516
 Geyser
 Drenaje
-517
 Dream Eater
 Comesueños
-518
 Drowsing
 Duermevela
-519
 Tiny Pigeon
 Pichón
-520
 Wild Pigeon
 Torcaz
-521
 Proud
 Altanero
-522
 Electrified
 Electrizado
-523
-Thunderbolt
-Rayo
-524
 Mantle
 Manto
-525
 Ore
 Mineral
-526
 Compressed
 Presurizado
-527
-Bat
-Murciélago
-528
 Courting
 Galante
-529
 Mole
 Topo
-530
 Subterenne
 Subterráneo
-531
 Hearing
 Escucha
-532
 Muscular
 Musculoso
-533
-Muscular
-Musculoso
-534
-Muscular
-Musculoso
-535
-Tadpole
-Renacuajo
-536
 Vibration
 Vibrante
-537
-Vibration
-Vibrante
-538
-Judo
-Judo
-539
 Karate
 Kárate
-540
 Sewing
 Sastre
-541
 Leaf-Wrapped
 Arropado
-542
 Nurturing
 Cuidador
-543
 Centipede
 Ciempiés
-544
 Curlipede
 Pupaciempiés
-545
 Megapede
 Megaciempiés
-546
 Cotton Puff
 Bolalgodón
-547
 Windveiled
 Vuelalviento
-548
 Bulb
 Bulbo
-549
 Flowering
 Adornofloral
-550
 Hostile
 Violento
-551
 Desert Croc
 Desierdrilo
-552
-Desert Croc
-Desierdrilo
-553
 Intimidation
 Amenazador
-554
 Zen Charm
 Daruma
-555
 Blazing
 Candente
-556
-Cactus
-Cactus
-557
 Rock Inn
 Casapiedra
-558
 Stone Home
 Casarroca
-559
 Shedding
 Mudapiel
-560
 Hoodlum
 Gamberro
-561
 Avianoid
 Pseudopájaro
-562
 Spirit
 Espíritu
-563
 Coffin
 Sepultura
-564
 Prototurtle
 Pretortuga
-565
-Prototurtle
-Pretortuga
-566
 First Bird
 Protopájaro
-567
-First Bird
-Protopájaro
-568
 Trash Bag
 Bolsabasura
-569
 Trash Heap
 Vertedero
-570
 Tricky Fox
 Zorropillo
-571
 Illusion Fox
 Disfrazorro
-572
-Chinchilla
-Chinchilla
-573
 Scarf
 Estola
-574
 Fixation
 Inquisitivo
-575
 Manipulate
 Manipulador
-576
 Astral Body
 Astro
-577
 Cell
 Celúla
-578
-Mitosis
-Mitosis
-579
 Multiplying
 Ampliación
-580
 Water Bird
 Ave Agua
-581
 White Bird
 Cisne
-582
 Fresh Snow
 Nieve Fresca
-583
 Icy Snow
 Nieve Helada
-584
 Snowstorm
 Nieve Gélida
-585
 Season
 Estacional
-586
-Season
-Estacional
-587
 Sky Squirrel
 Vuelardilla
-588
 Clamping
 Bocado
-589
 Cavalry
 Soldado
-590
 Mushroom
 Hongo
-591
-Mushroom
-Hongo
-592
 Floating
 Ingrávido
-593
-Floating
-Ingrávido
-594
 Caring
 Socorrista
-595
 Attaching
 Lapa
-596
 Elespider
 Electroaraña
-597
 Thorn Seed
 Frutoespina
-598
 Thorn Pod
 Bolaespina
-599
 Gear
 Engranaje
-600
-Gear
-Engranaje
-601
-Gear
-Engranaje
-602
 Elefish
 Electropez
-603
-Elefish
-Electropez
-604
-Elefish
-Electropez
-605
 Cerebral
 Cerebro
-606
-Cerebral
-Cerebro
-607
 Candle
 Vela
-608
 Lamp
 Farolillo
-609
 Luring
 Señuelo
-610
 Tusk
 Colmillo
-611
 Axe Jaw
 Bocahacha
-612
-Axe Jaw
-Bocahacha
-613
 Chill
 Congelación
-614
 Freezing
 Glaciación
-615
 Crystalizing
 Cristal
-616
 Snail
 Caracol
-617
 Shell Out
 Sincaparazón
-618
 Trap
 Trampa
-619
 Martial Arts
 Artemarcial
-620
-Martial Arts
-Artemarcial
-621
 Cave
 Cueva
-622
 Automaton
 Autómata
-623
-Automaton
-Autómata
-624
 Sharp Blade
 Tajo
-625
 Sharp Sword
 Filo
-626
 Bash Buffalo
 Torocabezazo
-627
 Eaglet
 Aguilucho
-628
 Valiant
 Aguerrido
-629
 Diapered
 Pañal
-630
 Bone Vulture
 Aguilahueso
-631
 Anteater
 Hormiguero
-632
 Iron Ant
 Hormigacero
-633
 Irate
 Tosco
-634
 Hostile
 Violento
-635
 Brutal
 Voraz
-636
 Torch
 Antorcha
-637
-Sun
-Sol
-638
 Iron Will
 Tesón acero
-639
 Cavern
 Gruta
-640
 Grassland
 Prado
-641
 Cyclone
 Torbellino
-642
 Bolt Strike
 Centella
-643
 Vast White
 Blanco Veraz
-644
 Deep Black
 Negro Puro
-645
 Abundance
 Fertilidad
-646
 Boundary
 Frontera
-647
 Colt
 Potro
-648
 Melody
 Melodía
-649
 Paleozoic
 Paleozoico
-650
 Spiky Nut
 Erizo
-651
 Spiky Armor
 Corazaespín
-652
-Spiky Armor
-Corazaespín
-653
 Fox
 Zorro
-654
-Fox
-Zorro
-655
-Fox
-Zorro
-656
 Bubble Frog
 Burburrana
-657
-Bubble Frog
-Burburrana
-658
-Ninja
-Ninja
-659
 Digging
 Excavador
-660
-Digging
-Excavador
-661
 Tiny Robin
 Petirrojo
-662
 Ember
 Petirrojo
-663
 Scorching
 Flamígero
-664
 Scatterdust
 Tiraescamas
-665
-Scatterdust
-Tiraescamas
-666
 Scale
 Escamaposa
-667
 Lion Cub
 Leoncito
-668
-Royal
-Regio
-669
 Single Bloom
 Monoflor
-670
-Single Bloom
-Monoflor
-671
 Garden
 Jardín
-672
 Mount
 Montura
-673
-Mount
-Montura
-674
 Playful
 Juguetón
-675
 Daunting
 Rostro fiero
-676
 Poodle
 Caniche
-677
 Restraint
 Moderación
-678
 Constraint
 Autocontrol
-679
 Sword
 Tizona
-680
-Sword
-Tizona
-681
 Royal Sword
 Espada Real
-682
 Perfume
 Aroma
-683
 Fragrance
 Fragancia
-684
 Cotton Candy
 Chuchería
-685
 Meringue
 Nata
-686
 Revolving
 Rotación
-687
 Overturning
 Revolución
-688
 Two-Handed
-Dos manos
-689
+Dos Manos
 Collective
 Combinación
-690
 Mock Kelp
 Pseudoalga
-691
-Mock Kelp
-Pseudoalga
-692
 Water Gun
 Proyectagua
-693
 Howitzer
 Lanzachorro
-694
 Generator
 Generador
-695
-Generator
-Lagarto Generador
-696
 Royal Heir
 Heredero
-697
 Despot
 Tirano
-698
-Tundra
-Tundra
-699
-Tundra
-Tundra
-700
 Intertwining
 Vínculo
-701
 Wrestling
 Lucha Libre
-702
 Antenna
 Antenas
-703
 Jewel
 Joya
-704
 Soft Tissue
 Molusco
-705
 Soft Tissue
 Molusco
-706
-Dragon
-Dragón
-707
 Key Ring
 Llavero
-708
 Stump
 Tronco
-709
 Elder Tree
 Árbol Viejo
-710
 Pumpkin
 Calabaza
-711
-Pumpkin
-Calabaza
-712
 Ice Chunk
 Témpano
-713
-Iceberg
-Iceberg
-714
 Sound Wave
 Onda Sónica
-715
-Sound Wave
-Onda Sónica
-716
 Life
 Creación
-717
 Destruction
 Destrucción
-718
 Order
 Equilibrio
-719
 Jewel
 Joya
-720
 Mischief
 Travesura
-721
 Steam
 Vapor
-722
 Grass Quill
 Pluma Hoja
-723
 Blade Quill
 Pluma Filo
-724
 Arrow Quill
 Pluma Flecha
-725
 Fire Cat
 Gato Fuego
-726
 Fire Cat
 Gato Fuego
-727
 Heel
 Rudo
-728
 Sea Lion
 León Marino
-729
 Pop Star
 Fama
-730
 Soloist
 Solista
-731
 Woodpecker
 Carpintero
-732
 Bugle Beak
 Trompeta
-733
 Cannon
 Tucán
-734
 Loitering
 Patrulla
-735
 Stakeout
 Vigilante
-736
 Larva
 Pupa
-737
 Battery
 Batería
-738
 Stag Beetle
 Escarabajo
-739
 Boxing
 Púgil
-740
 Woolly Crab
 Cangrejopelo
-741
 Dancing
 Danza
-742
 Bee Fly
 Mosca Abeja
-743
-Bee Fly
-Mosca Abeja
-744
 Puppy
 Perrito
-745
 Wolf
 Lobo
-746
 Small Fry
 Pececillo
-747
 Brutal Star
 Estrellatroz
-748
-Brutal Star
-Estrellatroz
-749
 Donkey
 Asno
-750
 Draft Horse
 Caballo Tiro
-751
 Water Bubble
 Pompa
-752
-Water Bubble
-Pompa
-753
 Sickle Grass
 Filo Hoja
-754
 Bloom Sickle
 Filo Flor
-755
 Illuminating
 Luminiscente
-756
-Illuminating
-Luminiscente
-757
 Toxic Lizard
 Lagartoxina
-758
-Toxic Lizard
-Lagartoxina
-759
 Flailing
 Rabieta
-760
 Strong Arm
 Brazo Fuerte
-761
 Fruit
 Fruto
-762
-Fruit
-Fruto
-763
-Fruit
-Fruto
-764
 Posy Picker
 Recogeflores
-765
 Sage
 Cooperación
-766
 Teamwork
 Sabio
-767
 Turn Tail
 Huidizo
-768
 Hard Scale
 Blindaje
-769
 Sand Heap
 Montearena
-770
 Sand Castle
 Castiarena
-771
 Sea Cucumber
 Pepino Mar
-772
 Synthetic
 Multigénico
-773
-Synthetic
-Multigénico
-774
 Meteor
 Meteoro
-775
 Drowsing
 Duermevela
-776
 Blast Turtle
 Tortugabomba
-777
 Roly-Poly
 Bolita
-778
 Disguise
 Disfraz
-779
 Gnash Teeth
 Rechinante
-780
 Placid
 Sosiego
-781
 Sea Creeper
 Alga Ancla
-782
 Scaly
 Escamas
-783
-Scaly
-Escamas
-784
-Scaly
-Escamas
-785
 Land Spirit
 Dios Nativo
-786
-Land Spirit
-Dios Nativo
-787
-Land Spirit
-Dios Nativo
-788
-Land Spirit
-Dios Nativo
-789
 Nebula
 Nebulosa
-790
 Protostar
 Protostrella
-791
 Sunne
 Corona Solar
-792
 Moone
 Corona Lunar
-793
 Parasite
 Parásito
-794
 Swollen
 Hinchado
-795
 Lissome
 Elegancia
-796
 Glowing
 Luminaria
-797
 Launch
 Lanzamiento
-798
 Drawn Sword
 Desenvaine
-799
 Junkivore
 Tragaldabas
-800
 Prism
 Prisma
-801
-Artificial
-Artificial
-802
 Gloomdweller
 Morasombra
-803
 Poison Pin
 Pin Veneno
-804
-Poison Pin
-Pin Veneno
-805
 Rampart
 Muro
-806
 Fireworks
 Pirotecnia
-807
 Thunderclap
 Fulgor
-808
 Hex Nut
 Tuerca
-809
-Hex Nut
-Tuerca
-810
 Chimp
 Chimpance
-811
 Beat
 Ritmo
-812
 Drumming
 Percusión
-813
 Rabbit
 Conejo
-814
-Rabbit
-Conejo
-815
 Striker
 Delantero
-816
 Water Lizard
 Acuartija
-817
-Water Lizard
-Acuartija
-818
 Secret Agent
 Agente
-819
 Cheeky
 Abazón
-820
 Greedy
 Avaricia
-821
-Tiny Bird
-Pajarito
-822
 Raven
 Cuervo
-823
-Raven
-Cuervo
-824
-Larva
-Larva
-825
 Radome
 Radomo
-826
 Seven Spot
 Siete puntos
-827
 Fox
 Zorro
-828
-Fox
-Zorro
-829
 Flowering
 Adornofloral
-830
-Flowering
-Adornofloral
-831
 Sheep
 Oveja
-832
-Sheep
-Oveja
-833
 Snapping
 Mordedura
-834
 Bite
 Mordisco
-835
 Puppy
 Perrito
-836
 Dog
 Perro
-837
 Coal
 Carbón
-838
-Coal
-Carbón
-839
-Coal
-Carbón
-840
 Apple Core
 Manzanido
-841
 Apple Wing
 Manzanala
-842
 Apple Nectar
 Manzanéctar
-843
 Sand Snake
 Serpiente Arena
-844
-Sand Snake
-Serpiente Arena
-845
 Gulp
 Tragón
-846
 Rush
 Arremetida
-847
 Rush
 Ensarta
-848
 Baby
 Retoño
-849
 Punki
 Punk
-850
 Radiator
 Radiador
-851
-Radiator
-Radiador
-852
 Tantrum
 Malcriado
-853
 Jujitsu
 Jiu-jitsu
-854
 Black Tea
 Té
-855
-Black Tea
-Té
-856
 Calm
 Calma
-857
 Serene
 Serenidad
-858
 Serene
 Silencio
-859
 Wily
 Astuto
-860
 Bulk Up
 Malicioso
-861
 Bulk Up
 Voluminoso
-862
 Blocking
 Bloqueador
-863
 Viking
 Vikingo
-864
-Coral
-Coral
-865
 Wild Duck
 Pato Salvaje
-866
 Comedian
 Cómico
-867
 Grudge
 Coffin
-868
 Cream
 Nata
-869
-Cream
-Nata
-870
 Cream
 Formación
-871
 Sea Urchin
 Erizo de Mar
-872
 Worm
 Gusano
-873
 Frost Moth
 Polillahielo
-874
 Big Rock
 Megalito
-875
-Penguin
-Pingüino
-876
 Emotion
 Sensorio
-877
 Two-Sided
 Dos caras
-878
 Copperderm
 Broncefante
-879
-Copperderm
-Broncefante
-880
-Fossil
-Fósil
-881
-Fossil
-Fósil
-882
-Fossil
-Fósil
-883
-Fossil
-Fósil
-884
 Alloy
 Aleación
-885
 Lingering
 Resentido
-886
 Caretaker
 Cuidador
-887
 Stealth
 Furtivo
-888
 Warrior
 Guerrero
-889
-Warrior
-Guerrero
-890
 Gigantic
 Gigantesco
-891
 Wushu
 Kung-Fu
-892
-Wushu
-Kung-Fu
-893
 Rogue Monkey
 Simiestro
-894
 Electric Age
 Edad Eléctrica
-895
 Prehistoric Age
 Edad Prehistórica
-896
 Wild Horse
 Corcel Feroz
-897
 Swift Horse
 Corcel Veloz
-898
 King Pokémon
 Rey
-899
 War Bee
 Abeja Salvaje
-900
 Luminous
 Luminoso
-901
-Maternal
-Maternal
-902
 Inferno
 Infierno
-903
 Jewel
 Gema
-904
 Two-Faced
 Embustero
-905
 Ascended
 Ascendido
-906
 Bolt
 Voltio
-907
 Scarred
 Cicatrizado
-908
 Volcanism
 Volcanismo
-909
 Singing
 Cantante
-910
 Possessed
 Poseído
-911
 Harbinger
 Heraldo
-912
 Heroine
 Heroína
-913
 Cryptid
 Críptido
-914
 Bedside
 Enfermero
-915
 Sirocco
 Siroco
-916
 Mega Claw
 Mega Garra
-917
 Jaw Fortress
-Mandíbula Fortaleza
-918
+Gran Mandíbula
 Broadcast
 Radio
-919
 Temptation
 Tentación
-920
 Assault Beetle
 Escarasalto
-921
 Dire Horn
 Cuerno Gigante
-922
 Open Ocean
 Océano Abierto
-923
 Landfill
 Basural
-924
 Long Cat
 Long Cat
-925
 Massive Fluff
 Pelaje Masivo
-926
 Massive Mouse
 Ratón Masivo
-927
 Heat Sink
 Disipa-calor
-928
 Paragon
 Ejemplar
-929
-Indestructible
-Indestructible
-930
-Monumental
-Monumental
-931
 Skyscraper
 Rascacielos
-932
 Apex Fossil
 Fósil Apex
-933
 Shears
 Cizallas
-934
 Frozen Face 
 Cara Helada
-2000
-Mouse
-Ratón
-2001
-Mouse
-Ratón
-2002
-Mouse
-Ratón
-2003
-Mouse
-Ratón
-2004
-Mouse
-Ratón
-2005
 Icy Fox
 Zorro
-2006
 Blizzard Fox
 Zorro
-2007
 Mole
 Topo
-2008
-Mole
-Topo
-2009
-Scratch Cat
-Gato Araña
-2010
-Scratch Cat
-Gato Araña
-2011
-Classy Cat
-Gato Fino
-2012
 Rock
 Roca
-2013
-Rock
-Roca
-2014
 Megaton
 Megatón
-2015
 Unique Horn
 Unicorne
-2016
-Unique Horn
-Unicorne
-2017
 Dopey
 Atontado
-2018
 Hermit Crab
 Ermitaño
-2019
-Wild Duck
-Pato Salvaje
-2020
 Sludge
 Lodo
-2021
-Sludge
-Lodo
-2022
 Coconut
 Coco
-2023
-Bone Keeper
-Apilahueso
-2024
 Poison Gas
 Gas Venenoso
-2025
 Barrier
 Danza
-2026
-Freeze
+Cruel
 Calculador
-2027
-Electric
+Strong Legs
 Patas Recias
-2028
-Flame
+Malevolent
 Malignidad
-2029
 Hexpert
 Chamán
-2030
-Coral
-Coral
-2031
-TinyRaccoon
-Mapachito
-2032
 Rushing
 Lanzado
-2033
 Zen Charm
 Daruma
-2034
 Blazing
 Daruma
-2035
 Spirit
 Espíritu
-2036
 Trap
 Trampa
-2037
 Big Horn
 Gran Cuerno
-2039
 Peat
 Turba
-2040
 Axe
 Hacha
-2041
 Big Fish
 Gran Pez
-2042
 Volcano
 Fuego Fatuo
-2043
 Formidable
 Majestuoso
-2044
 Arrow Quill
 Pluma Flecha
-2045
 Battle Cry
 Grito Guerra
-2046
 Soft Tissue
 Caracol
-2047
 Dragon
 Retracción
-2048
 Flowering
 Pirueta
-2049
-Iceberg
-Iceberg
-2050
 Puppy
 Explorador
-2051
-Legendary
-Leyenda
-2052
 Sharp Claw
 Garra Filo
-2053
 Free Climb
 Escalada
-2054
 Ball
 Esfera
-2055
-Ball
-Esfera
-2056
 Spiteful Fox
 Zorro Rencor
-2057
 Baneful Fox
 Maldizorro
-2058
-Balloon
-Globo
-2059
 Pin Cluster
 Espinoso
-2060
 Love-Hate
 Amorodio
-2061
 Rage Monkey
 Mono Furia
-2062
 Long Neck
 Gran Cuello
-2063
 Land Snake
 Serptierra
-2064
-Land Snake
-Serptierra
-2065
 Big Blade
 Gran Espada
-2500
-Vendetta
-Vendetta
-2501
 Unblinking
 Ojo Abierto
-2502
 Long Sight
 Gran Vista
-2503
 Ironclad
 Blindado
-2504
 Gorgon
 Gorgona
-2505
-Gorgon
-Gorgona
-2506
 City Fox
 Zorro Ciudad
-2507
 Avarice Fox
 Zorro Avaricia
-2508
 Ice Tea
 Té Helado
-2509
 Ice Tea
 Té Helado
-2510
 Hot Cold Worm
-Gusano Temperamental
-2511
+Gusano Temperatura
 Cold Cocoon
-Capullo Congelado
-2512
+Capullo Frío
 Frost Gossamer
 Gasa Escarcha
-2513
 Candle Cocoon
 Capullo Ardiente
-2514
 Rocket Moth
 Polilla Cohete
-2515
 Aberrant
 Aberrante
-2516
 Interloper
 Viajero
-2517
 Unfathomable
 Incomprensible
-2518
 Snow Owl
 Búho Nieve
-2519
-Snow Owl
-Búho Nieve
-2520
 Fortune
 Fortuna
-2521
 Auspicious
 Propicio
-2522
 Ice Seed
-Semilla Congelada
-2523
+Semilla Hielo
 Princess
 Princesa
-2524
 Sundew
 Rocío Nocturno
-2525
 Tiny House
 Mini Casa
-2526
 Witchcraft
 Brujería
-2527
 Dragon Egg
 Huevo Dragón
-2528
 Hoarding
 Acaparador
-2529
 Glow Jelly
 Medusa Brillante
-2530
 Remnant
 Remanente
-2531
-Anti-Virus
-Anti-Virus
-2532
 Harvest
 Cosecha
-2533
 Lush Kelp
 Alga
-2534
 Kelp
 Alga
-5002
-Mouse
-Ratón
-5003
-Mouse
-Ratón
-5004
-Mouse
-Ratón
-5005
-Mouse
-Ratón
-5006
-Mouse
-Mouse
-5007
-Mouse
-Ratón
-5008
-Mouse
-Ratón
-5009
-Mouse
-Ratón
-5010
-Mouse
-Ratón
-5011
-Mouse
-Ratón
-5012
-Mouse
-Ratón
-5013
-Mouse
-Ratón
-5014
-Mouse
-Ratón
-5015
-Mouse
-Ratón
-5016
-Symbol
-Símbolo
-5017
-Symbol
-Símbolo
-5018
-Symbol
-Símbolo
-5019
-Symbol
-Símbolo
-5020
-Symbol
-Símbolo
-5021
-Symbol
-Símbolo
-5022
-Symbol
-Símbolo
-5023
-Symbol
-Símbolo
-5024
-Symbol
-Símbolo
-5025
-Symbol
-Símbolo
-5026
-Symbol
-Símbolo
-5027
-Symbol
-Símbolo
-5028
-Symbol
-Símbolo
-5029
-Symbol
-Símbolo
-5030
-Symbol
-Símbolo
-5031
-Symbol
-Símbolo
-5032
-Symbol
-Símbolo
-5033
-Symbol
-Símbolo
-5034
-Symbol
-Símbolo
-5035
-Symbol
-Símbolo
-5036
-Symbol
-Símbolo
-5037
-Symbol
-Símbolo
-5038
-Symbol
-Símbolo
-5039
-Symbol
-Símbolo
-5040
-Symbol
-Símbolo
-5041
-Symbol
-Símbolo
-5042
-Symbol
-Símbolo
-5043
-Weather
-Clima
-5044
-Weather
-Clima
-5045
-Weather
-Clima
-5046
-Weather
-Clima
-5047
-DNA
-ADN
-5048
-DNA
-ADN
-5049
-DNA
-ADN
-5050
-Bagworm
-Larva
-5051
-Bagworm
-Larva
-5052
-Bagworm
-Larva
-5053
-Bagworm
-Larva
-5054
-Blossom
-Floración
-5055
-Sea Slug
-Babosa Marina
-5056
-Sea Slug
-Babosa Marina
-5057
-Plasma
-Plasma
-5058
-Plasma
-Plasma
-5059
-Plasma
-Plasma
-5060
-Plasma
-Plasma
-5061
-Plasma
-Plasma
-5062
-Renegade
-Renegado
-5063
-Gratitude
-Gratitud
-5064
-Alpha
-Alfa
-5065
-Alpha
-Alfa
-5066
-Alpha
-Alfa
-5067
-Alpha
-Alpha
-5068
-Alpha
-Alfa
-5069
-Alpha
-Alfa
-5070
-Alpha
-Alfa
-5071
-Alpha
-Alfa
-5072
-Alpha
-Alfa
-5073
-Alpha
-Alfa
-5074
-Alpha
-Alfa
-5075
-Alpha
-Alfa
-5076
-Alpha
-Alfa
-5077
-Alpha
-Alfa
-5078
-Alpha
-Alfa
-5079
-Alpha
-Alfa
-5080
-Alpha
-Alfa
-5081
-Alpha
-Alfa
-5082
 Hostile
 Violento
-5083
 Season
 Estacional
-5084
-Season
-Estacional
-5085
-Season
-Estacional
-5086
-Season
-Estacional
-5087
-Season
-Estacional
-5088
-Season
-Estacional
-5089
 Cyclone
 Torbellino
-5090
 Bolt Strike
 Centella
-5091
 Abundance
 Fertilidad
-5092
 Boundary
 Frontera
-5093
-Boundary
-Frontera
-5094
-Boundary
-Frontera
-5095
-Boundary
-Frontera
-5096
 Colt
 Potro
-5097
 Melody
 Melodía
-5098
 Paleozoic
 Paleozoico
-5099
-Paleozoic
-Paleozoico
-5100
-Paleozoic
-Paleozoico
-5101
-Paleozoic
-Paleozoic
-5102
-Scale
-Escamaposa
-5103
-Scale
-Escamaposa
-5104
-Scale
-Escamaposa
-5105
-Scale
-Escamaposa
-5106
-Scale
-Escamaposa
-5107
-Scale
-Escamaposa
-5108
-Scale
-Escamaposa
-5109
-Scale
-Escamaposa
-5110
-Scale
-Escamaposa
-5111
-Scale
-Escamaposa
-5112
-Scale
-Escamaposa
-5113
-Scale
-Escamaposa
-5114
-Scale
-Escamaposa
-5115
-Scale
-Escamaposa
-5116
-Scale
-Escamaposa
-5117
-Scale
-Escamaposa
-5118
-Scale
-Escamaposa
-5119
-Scale
-Escamaposa
-5120
-Scale
-Escamaposa
-5121
-Single Bloom
-Monoflor
-5122
-Single Bloom
-Monoflor
-5123
-Single Bloom
-Monoflor
-5124
-Single Bloom
-Monoflor
-5125
-Single Bloom
-Monoflor
-5126
-Single Bloom
-Monoflor
-5127
-Single Bloom
-Monoflor
-5128
-Single Bloom
-Monoflor
-5129
-Garden
-Jardín
-5130
-Garden
-Jardín
-5131
-Garden
-Jardín
-5132
-Garden
-Jardín
-5133
-Poodle
-Caniche
-5134
-Poodle
-Caniche
-5135
-Poodle
-Caniche
-5136
-Poodle
-Caniche
-5137
-Poodle
-Caniche
-5138
-Poodle
-Caniche
-5139
-Poodle
-Caniche
-5140
-Poodle
-Caniche
-5141
-Poodle
-Caniche
-5142
 Constraint
 Auto Control
-5143
-Royal Sword
-Espada Real
-5144
-Pumpkin
-Calabaza
-5145
-Pumpkin
-Calabaza
-5146
-Pumpkin
-Calabaza
-5147
-Pumpkin
-Calabaza
-5148
-Pumpkin
-Calabaza
-5149
-Pumpkin
-Calabaza
-5150
 Life
 Vida
-5151
 Order
 Orden
-5152
-Order
-Orden
-5153
-Order
-Orden
-5154
 Mischief
 Genio Burlón
-5155
 Dancing
 Danza
-5156
-Dancing
-Danza
-5157
-Dancing
-Danza
-5158
-Wolf
-Lobo
-5159
-Wolf
-Lobo
-5160
-Small Fry
-Pececillo
-5161
-Synthetic
-Multigénico
-5162
-Synthetic
-Multigénico
-5163
-Synthetic
-Multigénico
-5164
-Synthetic
-Multigénico
-5165
-Synthetic
-Multigénico
-5166
-Synthetic
-Multigénico
-5167
-Synthetic
-Multigénico
-5168
-Synthetic
-Multigénico
-5169
-Synthetic
-Multigénico
-5170
-Synthetic
-Multigénico
-5171
-Synthetic
-Multigénico
-5172
-Synthetic
-Multigénico
-5173
-Synthetic
-Multigénico
-5174
-Synthetic
-Multigénico
-5175
-Synthetic
-Multigénico
-5176
-Synthetic
-Multigénico
-5177
-Synthetic
-Multigénico
-5178
-Synthetic
-Multigénico
-5179
-Meteor
-Meteorp
-5180
-Meteor
-Meteoro
-5181
-Meteor
-Meteoro
-5182
-Meteor
-Meteoro
-5183
-Meteor
-Meteoro
-5184
-Meteor
-Meteoro
-5185
-Meteor
-Meteoro
-5186
-Disguise
-Disfraz
-5187
-Prism
-Prisma
-5188
-Prism
-Prisma
-5189
-Prism
-Prism
-5190
-Prism
-Prism
-5191
-Artificial
-Artificial
-5192
-Gulp
-Tragón
-5193
-Gulp
-Tragón
-5194
-Penguin
-Pingüino
-5195
-Black Tea
-Té Negro
-5196
-Black Tea
-Té Negro
-5197
 Emotion
 Emoción
-5198
 Two-Sided
 Embustero
-5199
 Warrior
 Guerrero
-5200
-Warrior
-Guerrero
-5201
-Wushu
-Kung-Fu
-5202
 High King
 Emperador
-5203
-High King
-Emperador
-5204
-Sea Basin
-Cuenta Mar
-5205
-Continent
-Continente
-5206
-Sky High
-Cielo
-5207
 Blazing
 Daruma
-5208
-Blazing
-Daruma
-5209
 Light
 Luz
-5210
-Mach
-Mach
-5211
-Atrocious
-Atrocidad
-5212
-Embrace
-Envolvente
-5213
-Blade
-Cuchilla
-5214
-Genetic
-Genético
-5215
-Genetic
-Genético
-5216
-Love-Hate
-Amorodio
-5217
-Harvest
-Cosecha
-5218
 Mellow
 Meloso
-5067
-Alpha
-Alfa
-5101
-Paleozoic
-Paleozoico
-5189
-Prism
-Prisma
-5190
-Prism
-Prisma
-5219
-Harvest
-Cosecha
-5220
-Mellow
-Manso
 [3]
 1
 Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.
@@ -35561,700 +33350,384 @@ Nacido en aguas impolutas, evitan ser detectados camuflándose con las plantas s
 They gallop on the ocean floor, cleaning it by collecting algae on their hooves.
 Galopan en el lecho marino, limpiándolo al juntar algas en sus cascos.
 [4]
-676
 Natural
 Salvaje
-412
 Plant Cloak
 Tronco Planta
-413
 Plant Cloak
 Tronco Planta
-421
 Overcast
 Encapotada
-422
 West Sea
 Mar Oeste
-423
 West Sea
 Mar Oeste
-487
 Altered
 Alterada
-492
 Land
 Tierra
-550
 Red-Striped
 Raya Roja
-555
 Standard Mode
 Modo Normal
-585
 Spring
 Primavera
-586
-Spring
-Primavera
-641
 Incarnate
 Avatar
-642
-Incarnate
-Avatar
-645
-Incarnate
-Avatar
-647
 Ordinary
 Ordinario
-648
 Aria
 Lírica
-666
 Meadow Pattern
 Motivo Floral
-669
 Red Flower
 Flor Roja
-670
-Red Flower
-Flor Roja
-671
-Red Flower
-Flor Roja
-678
 Male
 Macho
-681
-Shield
-Escudo
-710
-Average Size
+Small Size
 Tamaño Pequeño
-711
-Average Size
-Tamaño Pequeño
-716
 Neutral Mode
 Modo Neutral
-720
 Hoopa Confined
 Hoopa Contenido
-741
 Baile Style
 Estilo Apasionado
-745
 Midday
 Diurno
-746
 Solo
 Individual
-773
 Type: Normal
 Tipo: Normal
-774
 Meteor
 Meteoro
-778
 Disguised
 Encubierto
-875
 Ice Face
 Cara Hielo
-876
-Male
-Macho
-877
 Full Belly
 Saciada
-888
 Hero of Many Battles
 Guerrero Avezado
-889
-Hero of Many Battles
-Guerrero Avezado
-892
 Single Strike
 Estilo Brusco
-2034
 Standard Mode
 Modo Normal
-2060
-Incarnate
-Avatar
-5002
 Cosplay
 Coqueta
-5003
 Cosplay - Belle
 Coqueta - Aristócrata
-5004
 Cosplay - Libre
 Coqueta - Enmascarada
-5005
 Cosplay - Ph.D.
 Coqueta - Erudita
-5006
 Cosplay - Pop Star
 Coqueta - Superstar
-5007
 Cosplay - Rock Star
 Coqueta - Roquera
-5008
 Original Cap
 Gorra Original
-5009
 Hoenn Cap
 Gorra Hoenn
-5010
 Sinnoh Cap
 Gorra Sinnoh
-5011
 Unova Cap
 Gorra Teselia
-5012
 Kalos Cap
 Gorra Kalos
-5013
 Alola Cap
 Gorra Alola
-5014
 Partner Cap
 Gorra Compañero
-5015
 World Cap
 Gorra Trotamundos
-5043
 Sun
 Sol
-5044
 Rain
 Lluvia
-5045
 Hail
 Granizo
-5046
 Sand
 Arena
-5047
 Attack
 Ataque
-5048
 Defense
 Defensa
-5049
 Speed
 Velocidad
-5050
 Sand
 Arena
-5051
 Trash
 Basura
-5052
 Sand
 Arena
-5053
 Trash
 Basura
-5054
-Sun
-Sol
-5055
 East Sea
 Mar Este
-5056
 East Sea
 Mar Este
-5057
 Heat
 Calor
-5058
 Wash
 Lavado
-5059
 Frost
 Frío
-5060
 Fan
 Ventilador
-5061
 Mow
 Corte
-5062
 Origin
 Origen
-5063
 Sky
 Cielo
-5064
 Fighting Type
 Tipo Lucha
-5065
 Flying Type
 Tipo Volador
-5066
 Poison Type
 Tipo Veneno
-5067
 Ground Type
 Tipo Tierra
-5068
 Rock Type
 Tipo Roca
-5069
 Bug Type
 Tipo Bicho
-5070
 Ghost Type
 Tipo Fantasma
-5071
 Steel Type
 Tipo Acero
-5072
 Unknown Type
 Tipo Desconocido
-5073
 Fire Type
 Tipo Fuego
-5074
 Water Type
 Tipo Agua
-5075
 Grass Type
 Tipo Planta
-5076
 Electric Type
 Tipo Eléctrico
-5077
 Psychic Type
 Tipo Psíquico
-5078
 Ice Type
 Tipo Hielo
-5079
 Dragon Type
 Tipo Dragón
-5080
 Dark Type
 Tipo Siniestro
-5081
 Fairy Type
 Tipo Hada
-5082
 Blue-Striped
 Raya Azul
-5083
 Summer
 Verano
-5084
 Autumn
 Otoño
-5085
 Winter
 Invierno
-5086
-Summer
-Verano
-5087
-Autumn
-Otoño
-5088
-Winter
-Invierno
-5089
 Therian
 Tótem
-5090
-Therian
-Tótem
-5091
-Therian
-Tótem
-5092
 White
 Blanco
-5093
 Black
 Negro
-5096
 Resolute
 Brío
-5097
 Pirouette
 Pirueta 
-5098
 Shock Drive
 FulgoROM
-5099
 Burn Drive
 PiroROM
-5100
 Chill Drive
 CrioROM
-5101
 Douse Drive
 HidroROM
-5102
 Continental Pattern
 Motivo Continental
-5103
 Elegant Pattern
 Motivo Oriental
-5104
 Garden Pattern
 Motivo Vergel
-5105
 High Plains Pattern
 Motivo Estepa
-5106
 Icy Snow Pattern
 Motivo Polar
-5107
 Jungle Pattern
 Motivo Jungla
-5108
 Marine Pattern
 Motivo Marino
-5109
 Archipelago Pattern
 Motivo Isleño
-5110
 Modern Pattern
 Motivo Moderno
-5111
 Monsoon Pattern
 Motivo Monzón
-5112
 Ocean Pattern
 Motivo Océano
-5113
 Polar Pattern
 Motivo Taiga
-5114
 River Pattern
 Motivo Oasis
-5115
 Sandstorm Pattern
 Motivo Desierto
-5116
 Savanna Pattern
 Motivo Pantano
-5117
 Sun Pattern
 Motivo Solar
-5118
 Tundra Pattern
 Motivo Tundra
-5119
 Fancy Pattern
 Motivo Fantasía
-5120
 Poké Ball Pattern
 Motivo Poké Ball
-5121
 Yellow Flower
 Flor Amarilla
-5122
 Orange Flower
 Flor Naranja
-5123
 Blue Flower
 Flor Azul
-5124
 White Flower
 Flor Blanca
-5125
-Yellow Flower
-Flor Amarilla 
-5126
-Orange Flower
-Flor Naranja 
-5127
-Blue Flower
-Flor Azul
-5128
-White Flower
-Flor Blanca
-5129
-Yellow Flower
-Flor Amarilla
-5130
-Orange Flower
-Flor Naranja
-5131
-Blue Flower
-Flor Azul
-5132
-White Flower
-Flor Blanca
-5133
 Heart Trim
 Corte Corazón
-5134
 Star Trim
 Corte Estrella
-5135
 Diamond Trim
 Corte Rombo
-5136
-Debutante Trim
+butante Trim
 Corte Señorita
-5137
 Matron Trim
 Corte Dama
-5138
 Dandy Trim
 Corte Caballero
-5139
 La Reine Trim
 Corte Aristocrático
-5140
 Kabuki Trim
 Corte Kabuki
-5141
 Pharaoh Trim
 Corte Faraónico
-5142
 Meowstic♀
 Meowstic♀
-5143
 Blade
 Filo
-5144
 Average Size
 Tamaño Normal
-5145
 Large Size
 Tamaño Grande
-5146
 Super Size
 Tamaño Extragrande
-5147
-Average Size
-Tamaño Normal
-5148
-Large Size
-Tamaño Grande
-5149
-Super Size
-Tamaño Extragrande
-5150
 Active Mode
 Modo Activo
-5151
-10%
-10%
-5152
 Complete
 Completo
-5154
 Unbound
 Desatado
-5155
 Pom-Pom Style
 Estilo Animado
-5156
 Pa'u Style
 Estilo Plácido
-5157
 Sensu Style
 Estilo Refinado
-5158
 Midnight
 Nocturno
-5159
 Dusk
 Crepuscular
-5160
 School
 Banco
-5161
 Type: Fighting
 Tipo: Lucha
-5162
 Type: Flying
 Tipo: Volador
-5163
 Type: Poison
 Tipo: Veneno
-5164
 Type: Ground
 Tipo: Tierra
-5165
 Type: Rock
 Tipo: Roca
-5166
 Type: Bug
 Tipo: Bicho
-5167
 Type: Ghost
 Tipo: Fantasma
-5168
 Type: Steel
 Tipo: Acero
-5169
 Type: Unknown
-Tipo: Desconocidop
-5170
+Tipo: Desconocido
 Type: Fire
 Tipo: Fuego
-5171
 Type: Water
 Tipo: Agua
-5172
 Type: Grass
 Tipo: Planta
-5173
 Type: Electric
 Tipo: Eléctrico
-5174
 Type: Psychic
 Tipo: Psíquico
-5175
 Type: Ice
 Tipo: Hielo
-5176
 Type: Dragon
 Tipo: Dragón
-5177
 Type: Dark
 Tipo: Siniestro
-5178
 Type: Fairy
 Tipo: Hada
-5179
 Red
 Rojo
-5180
 Orange
 Naranja
-5181
 Yellow
 Amarillo
-5182
 Green
 Verde
-5183
 Blue
 Azul
-5184
 Indigo
 Añil
-5185
 Violet
 Violeta
-5186
 Busted
 Descubierta
-5187
 Dusk Mane
 Melena Crepuscular
-5188
 Dawn Wings
 Alas del Alba
-5189
-Ultra
-Ultra
-5191
 Original Color
 Color Vetusto
-5192
 Gulping
 Tragatodo
-5193
 Gorging
 Engulletodo
-5194
 Melted
 Deshielo
-5195
 Antique
 Genuina
-5196
-Antique
-Genuina
-5197
-♀
-♀
-5198
 Hangry
 Voraz
-5199
 Crowned
-Espada Suprema
-5200
-Crowned
-Escudo Supremo
-5201
+Supremo
 Rapid Strike
 Estilo Fluido
-5202
 Ice
 Jinete Glacial
-5203
 Shadow
 Jinete Espectral
-5204
 Primal
 Primigenio
-5205
-Primal
-Primigenio
-5206
-Delta
-Delta
-5207
 Zen
 Daruma
-5208
-Zen
-Daruma
-5209
 Ascended
 Ascendido
-5210
 Reaper
 Guadaña
-5211
 Rampage
 Desenfrenada
-5212
 Finale
 Clímax
-5213
-Finale
-Clímax
-5214
 Overmatter
 Extramasa
-5215
 Overmind
 Extramente
-5216
-Therian
-Tótem
-5217
 Harvest
 Cosecha
-5218
-White-Striped
-Raya Blanca
-5094
-White
-Blanco
-5095
-Black
-Negro
-5190
-Dawn Wings
-Alas del Alba
-5219
-Harvest
-Cosecha
-5220
 White-Striped
 Raya Blanca
 [5]

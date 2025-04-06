@@ -4500,3 +4500,19 @@ Pocket = 4
 Price = 4000
 FieldUse = TM
 Move = TRICKYTOXINS
+#-------------------------------
+[TMALLYSWITCH]
+Name = Unnamed
+NamePlural = Unnamed
+Pocket = 4
+Price = 4000
+FieldUse = TM
+Move = ALLYSWITCH
+#-------------------------------
+[TMBATONPASS]
+Name = Unnamed
+NamePlural = Unnamed
+Pocket = 4
+Price = 4000
+FieldUse = TM
+Move = BATONPASS

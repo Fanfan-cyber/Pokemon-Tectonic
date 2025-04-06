@@ -516,7 +516,7 @@ class PokeBattle_Battle
                         break
                     end
                 when 6 # Documentation menu
-                    showDocumentationMenu
+                    showDocumentationMenu(self)
                 when -2   # Debug
                     pbDebugMenu
                     next

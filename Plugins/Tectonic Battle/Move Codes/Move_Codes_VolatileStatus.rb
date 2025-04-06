@@ -43,30 +43,6 @@ class PokeBattle_Move_EmpoweredTorment < PokeBattle_Move_DisableTargetUsingSameM
 end
 
 #===============================================================================
-# Disables all target's moves that the user also knows. (Imprison)
-#===============================================================================
-class PokeBattle_Move_DisableTargetMovesKnownByUser < PokeBattle_Move
-    def pbMoveFailed?(user, _targets, show_message)
-        if user.effectActive?(:Imprison)
-            if show_message
-                @battle.pbDisplay(_INTL("But it failed, since {1}'s is already imprisoning shared moves!", user.pbThis(true)))
-            end
-            return true
-        end
-        return false
-    end
-
-    def pbEffectGeneral(user)
-        user.applyEffect(:Imprison)
-    end
-
-    def getTargetAffectingEffectScore(_user, _target)
-        echoln("The AI will never use Imprison.")
-        return -1000
-    end
-end
-
-#===============================================================================
 # For 5 rounds, disables the last move the target used. (Disable)
 #===============================================================================
 class PokeBattle_Move_DisableTargetLastMoveUsed < PokeBattle_Move
@@ -78,6 +54,7 @@ class PokeBattle_Move_DisableTargetLastMoveUsed < PokeBattle_Move
     end
 
     def pbFailsAgainstTarget?(user, target, show_message)
+        return if damagingMove?
         unless target.canBeDisabled?(true, self)
             @battle.pbDisplay(_INTL("But it failed, since the target can't be disabled!")) if show_message
             return true
@@ -85,8 +62,19 @@ class PokeBattle_Move_DisableTargetLastMoveUsed < PokeBattle_Move
         return false
     end
 
+    def getDisableTurns(target)
+        return target.boss? ? @disableTurns / 2 : @disableTurns
+    end
+
     def pbEffectAgainstTarget(_user, target)
-        target.applyEffect(:Disable, @disableTurns)
+        return if damagingMove?
+        target.applyEffect(:Disable, getDisableTurns(target))
+    end
+
+    def pbAdditionalEffect(user, target)
+        return if target.damageState.substitute
+        return unless target.canBeDisabled?(true, self)
+        target.applyEffect(:Disable, getDisableTurns(target))
     end
 
     def getTargetAffectingEffectScore(_user, target)

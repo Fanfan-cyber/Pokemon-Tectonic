@@ -210,14 +210,12 @@ module GameData
 
         # @return [String] the translated name of this species
         def name
-            return pbGetMessageFromHash(MessageTypes::SPECIES_HASH, @real_name) || "" if is_chinese?
-            return pbGetMessage(MessageTypes::Species, @id_number)
+            return pbGetMessageFromHash(MessageTypes::Species, @real_name) || "" 
         end
 
         # @return [String] the translated name of this form of this species
         def form_name
-            return pbGetMessageFromHash(MessageTypes::FORMNAMES_HASH, @real_form_name) || "" if is_chinese?
-            return pbGetMessage(MessageTypes::FormNames, @id_number)
+            return pbGetMessageFromHash(MessageTypes::FormNames, @real_form_name) || ""
         end
 
         # Adds the form if not form 0
@@ -231,8 +229,7 @@ module GameData
 
         # @return [String] the translated Pokédex category of this species
         def category
-            return pbGetMessageFromHash(MessageTypes::KINDS_HASH, @real_category) || "" if is_chinese?
-            return pbGetMessage(MessageTypes::Kinds, @id_number)
+            return pbGetMessageFromHash(MessageTypes::Kinds, @real_category) || "" 
         end
 
         def types
@@ -241,8 +238,7 @@ module GameData
 
         # @return [String] the translated Pokédex entry of this species
         def pokedex_entry
-            return pbGetMessageFromHash(MessageTypes::ENTRIES_HASH, @real_pokedex_entry) || "" if is_chinese?
-            return pbGetMessage(MessageTypes::Entries, @id_number)
+            return pbGetMessageFromHash(MessageTypes::Entries, @real_pokedex_entry) || "" 
         end
 
         def base_stat_total
@@ -768,10 +764,10 @@ module Compiler
                     }
                     # Add species' data to records
                     GameData::Species.register(species_hash)
-                    species_names[species_number]           = species_hash[:name]
-                    species_form_names[species_number]      = species_hash[:form_name]
-                    species_categories[species_number]      = species_hash[:category]
-                    species_pokedex_entries[species_number] = species_hash[:pokedex_entry]
+                    species_names.push(species_hash[:name])
+                    species_form_names.push(species_hash[:form_name])
+                    species_categories.push(species_hash[:category])
+                    species_pokedex_entries.push(species_hash[:pokedex_entry])
                 end
             end
         end
@@ -809,14 +805,10 @@ module Compiler
 
         # Save all data
         GameData::Species.save
-        MessageTypes.setMessages(MessageTypes::Species, species_names)
-        MessageTypes.setMessages(MessageTypes::FormNames, species_form_names)
-        MessageTypes.setMessages(MessageTypes::Kinds, species_categories)
-        MessageTypes.setMessages(MessageTypes::Entries, species_pokedex_entries)
-        MessageTypes.setMessagesAsHash(MessageTypes::SPECIES_HASH, species_names)
-        MessageTypes.setMessagesAsHash(MessageTypes::FORMNAMES_HASH, species_form_names)
-        MessageTypes.setMessagesAsHash(MessageTypes::KINDS_HASH, species_categories)
-        MessageTypes.setMessagesAsHash(MessageTypes::ENTRIES_HASH, species_pokedex_entries)
+        MessageTypes.setMessagesAsHash(MessageTypes::Species, species_names)
+        MessageTypes.setMessagesAsHash(MessageTypes::FormNames, species_form_names)
+        MessageTypes.setMessagesAsHash(MessageTypes::Kinds, species_categories)
+        MessageTypes.setMessagesAsHash(MessageTypes::Entries, species_pokedex_entries)
         Graphics.update
     end
 
@@ -991,10 +983,10 @@ module Compiler
                     end
                     # Add form's data to records
                     GameData::Species.register(species_hash)
-                    species_names[form_number]           = species_hash[:name]
-                    species_form_names[form_number]      = species_hash[:form_name]
-                    species_categories[form_number]      = species_hash[:category]
-                    species_pokedex_entries[form_number] = species_hash[:pokedex_entry]
+                    species_names.push(species_hash[:name])
+                    species_form_names.push(species_hash[:form_name])
+                    species_categories.push(species_hash[:category])
+                    species_pokedex_entries.push(species_hash[:pokedex_entry])
                 end
             end
         end
@@ -1013,14 +1005,10 @@ module Compiler
         end
         # Save all data
         GameData::Species.save
-        MessageTypes.addMessages(MessageTypes::Species, species_names)
-        MessageTypes.addMessages(MessageTypes::FormNames, species_form_names)
-        MessageTypes.addMessages(MessageTypes::Kinds, species_categories)
-        MessageTypes.addMessages(MessageTypes::Entries, species_pokedex_entries)
-        MessageTypes.addMessagesAsHash(MessageTypes::SPECIES_HASH, species_names)
-        MessageTypes.addMessagesAsHash(MessageTypes::FORMNAMES_HASH, species_form_names)
-        MessageTypes.addMessagesAsHash(MessageTypes::KINDS_HASH, species_categories)
-        MessageTypes.addMessagesAsHash(MessageTypes::ENTRIES_HASH, species_pokedex_entries)
+        MessageTypes.addMessagesAsHash(MessageTypes::Species, species_names)
+        MessageTypes.addMessagesAsHash(MessageTypes::FormNames, species_form_names)
+        MessageTypes.addMessagesAsHash(MessageTypes::Kinds, species_categories)
+        MessageTypes.addMessagesAsHash(MessageTypes::Entries, species_pokedex_entries)
         Graphics.update
     end
 

@@ -59,12 +59,16 @@ ItemHandlers::UseInField.add(:POKEXRAY,proc { |item|
 
     pbMessage(_INTL("You point the Poké X-Ray at {1}...",chosenTrainer.full_name))
 
-    trainerShowcase(chosenTrainer, npcTrainer: true, illusionsFool: true, startWithIndex: chosenPartyIndex)
+    showPokeXRayForTrainer(chosenTrainer, chosenPartyIndex)
     
     dialogueOnUsingPokeXRay(chosenEvent, chosenTrainer)
     
     next 1
 })
+
+def showPokeXRayForTrainer(chosenTrainer, chosenPartyIndex = 0)
+    trainerShowcase(chosenTrainer, npcTrainer: true, illusionsFool: true, startWithIndex: chosenPartyIndex)
+end
 
 def dialogueOnUsingPokeXRay(event, trainer)
     if trainer.trainer_type == :LEADER_Victoire

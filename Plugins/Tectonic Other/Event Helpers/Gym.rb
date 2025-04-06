@@ -44,10 +44,12 @@ def earnBadge(badgeNum)
 	Events.onBadgeEarned.trigger(self,badgeNum-1,$game_variables[BADGE_COUNT_VARIABLE],badgesEarnedArray)
 	
 	giveBattleReport
-
-	postBattleTeamSnapshot(_INTL("Badge {1} Team", badgeNum),true)
 	
 	refreshMapEvents
+end
+
+def postGymSnapshot(badgeNum)
+	postBattleTeamSnapshot(_INTL("Badge {1} Team", badgeNum),true)
 end
 
 def postBattleTeamSnapshot(label=nil,curseMatters=false)

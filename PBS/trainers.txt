@@ -7932,7 +7932,7 @@ Pokemon = INCINEROAR,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,10,0,20,10,10
 Pokemon = KYUREM,70
-    Form = 3 #  Form
+    Form = 3 # White Form
     Moves = FUSIONFLARE,BLIZZARD,DRACOMETEOR,SEERSTRIKE
     AbilityIndex = 0 # Juggernaut
     Item = CHOICESPECS

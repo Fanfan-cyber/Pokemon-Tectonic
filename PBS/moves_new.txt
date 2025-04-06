@@ -5274,6 +5274,20 @@ EffectChance = 30
 Description = The user slows the target's mind with a psychically infused blow. This has a 30% chance to frostbite.
 Animation = ICEPUNCH
 #-------------------------------
+[CENSOR]
+Name = Censor
+Type = PSYCHIC
+Category = Physical
+Power = 100
+Accuracy = 50
+TotalPP = 5
+Target = NearOther
+FunctionCode = DisableTargetLastMoveUsed
+Flags = CanProtect,CanMagicCoat,Blade
+EffectChance = 100
+Description = Splits off a section of the target's psyche. Disables their last used move for 5 turns.
+Animation = PSYCHOCUT
+#-------------------------------
 [CORECOLLAPSE]
 Name = Core Collapse
 Type = PSYCHIC
