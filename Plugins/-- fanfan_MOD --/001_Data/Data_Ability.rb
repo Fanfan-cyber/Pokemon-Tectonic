@@ -6,5 +6,6 @@ ABILITY_DATA = {
   :HEROICFINALE => { :desc => proc { _INTL("Turns to Finale Form when only unfainted on team. Ignores the condition of a perfect battle.") }, },
   :PLURIPOTENCE => { :desc => proc { _INTL("Copies opponents' species' legal Abilities.") }, },
   :SAPPER       => { :desc => proc { _INTL("Upon entry, traps each opponent in a sand tomb for one turns.") }, },
+  :SHIFTINGFIST => { :desc => proc { _INTL("It changes secondary type to that of the punching moves it's about to use.") }, },
   :SWIFTSTOMPS  => { :desc => proc { _INTL("The user's Speed is doubled while using kicking moves. Every third kicking hit must be a crit.") }, },
 }.freeze

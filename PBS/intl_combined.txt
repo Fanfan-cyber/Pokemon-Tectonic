@@ -48364,7 +48364,7 @@ You register {1} as caught in the MasterDex.
 Would you like to give a nickname to {1}?
 要给{1}取一个昵称吗？
 {1} already has {2}!<<n>>{2} has been sent to Dimension D!
-{1}已经拥有{2}了！<<n>>{2}被送到了维度D！
+{1}已经拥有{2}了！<<n>>{2}被送到了维度空间里！
 Would you like to add {1} to your party?
 要将{1}加入队伍吗？
 Choose which Pokemon will be sent back to the PC.
@@ -55106,7 +55106,7 @@ Do you really want to delete it?
 This team has been deleted!
 这个队伍已被删除！
 There aren't any Pokémon in the Time Capsule!
-时光胶囊里没有精灵！
+时间胶囊里没有精灵！
 Which Pokémon would you like to retrieve?
 你想要取回哪只精灵？
 Do you want to put {1} in the Time Capsule?
