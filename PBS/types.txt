@@ -106,7 +106,7 @@ Color = 120,200,80
 DarkColor = 48,96,24
 IsSpecialType = true
 Weaknesses = FLYING,POISON,BUG,FIRE,ICE
-Resistances = GROUND,WATER,GRASS,ELECTRIC,FAIRY,PSYCHIC,GHOST
+Resistances = GROUND,WATER,GRASS,ELECTRIC,FAIRY,GHOST
 #-------------------------------
 [13]
 Name = Electric

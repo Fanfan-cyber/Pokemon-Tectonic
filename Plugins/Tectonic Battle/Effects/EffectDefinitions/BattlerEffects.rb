@@ -270,6 +270,10 @@ GameData::BattleEffect.register_effect(:Battler, {
         battle.pbDisplay(_INTL("{1}'s encore ended!", battler.pbThis))
     end,
     :sub_effects => [:EncoreMove],
+    :stay_in_rating_proc => proc do |battle, battler, value, stay_in_rating|
+        stay_in_rating -= 10 * value
+        next stay_in_rating
+    end
 })
 
 GameData::BattleEffect.register_effect(:Battler, {

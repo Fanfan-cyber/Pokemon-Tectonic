@@ -229,7 +229,7 @@ class PokeBattle_Battler
             defenseMult = BattleHandlers.triggerDefenseCalcUserItem(item, self, battle, defenseMult)
         end
         
-        defenseMult *= 1.2 if hasTribeBonus?(:SCRAPPER)
+        defenseMult *= 1.3 if hasTribeBonus?(:SCRAPPER)
 
         # Hail
         if @battle.icy? && pbHasType?(:ICE)
@@ -262,7 +262,7 @@ class PokeBattle_Battler
             spDefMult = BattleHandlers.triggerSpecialDefenseCalcUserItem(item, self, battle, spDefMult)
         end
         
-        spDefMult *= 1.2 if hasTribeBonus?(:RADIANT)
+        spDefMult *= 1.3 if hasTribeBonus?(:RADIANT)
 
         # Sandstorm
         if @battle.sandy? && pbHasType?(:ROCK)
@@ -303,30 +303,33 @@ class PokeBattle_Battler
         
         # Other effects
         unless afterSwitching
-            speedMult *= 2 if pbOwnSide.effectActive?(:Tailwind)
-            speedMult /= 2 if pbOwnSide.effectActive?(:Swamp)
-            speedMult *= 2 if effectActive?(:OnDragonRide)
+            speedMult *= 2.0 if pbOwnSide.effectActive?(:Tailwind)
+            speedMult /= 2.0 if pbOwnSide.effectActive?(:Swamp)
+            speedMult *= 2.0 if effectActive?(:OnDragonRide)
         end
         
         # Numb
         numbRelevant = numbed?
         numbRelevant = false if afterSwitching && hasActiveAbilityAI?(:NATURALCURE)
         if numbRelevant
-            speedMult /= 2
-            speedMult /= 2 if pbOwnedByPlayer? && @battle.curseActive?(:CURSE_STATUS_DOUBLED)
-            speedMult /= 2 if shouldAbilityApply?(:CLEANFREAK, aiCheck)
+            speedMult /= 2.0
+            speedMult /= 2.0 if pbOwnedByPlayer? && @battle.curseActive?(:CURSE_STATUS_DOUBLED)
+            speedMult /= 2.0 if shouldAbilityApply?(:CLEANFREAK, aiCheck)
         end
 
         # Waterlog
         waterlogRelevant = waterlogged?
         waterlogRelevant = false if afterSwitching && hasActiveAbilityAI?(:NATURALCURE)
         if waterlogRelevant
-            speedMult /= 2
-            speedMult /= 2 if pbOwnedByPlayer? && @battle.curseActive?(:CURSE_STATUS_DOUBLED)
-            speedMult /= 2 if shouldAbilityApply?(:CLEANFREAK, aiCheck)
+            speedMult /= 2.0
+            speedMult /= 2.0 if pbOwnedByPlayer? && @battle.curseActive?(:CURSE_STATUS_DOUBLED)
+            speedMult /= 2.0 if shouldAbilityApply?(:CLEANFREAK, aiCheck)
         end
 
         speedMult *= applySpeedTriggers(move,true) if aiCheck
+
+        # Stampede tribe
+        speedMult *= 1.15 if hasTribeBonus?(:STAMPEDE)
 
         # Calculation
         return [(speed * speedMult).round, 1].max

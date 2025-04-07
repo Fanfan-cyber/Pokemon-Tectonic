@@ -152,7 +152,7 @@ BattleHandlers::TargetAbilityOnHit.add(:ADAPTIVESKIN,
             end
             next ret
         end
-        target.tryRaiseStat(statToRaise, target, ability: ability, increment: 2)
+        target.tryRaiseStat(statToRaise, target, ability: ability, increment: 1)
     }
 )
 

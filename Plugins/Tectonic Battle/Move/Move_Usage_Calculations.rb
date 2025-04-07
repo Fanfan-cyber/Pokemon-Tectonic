@@ -384,7 +384,7 @@ showMessages)
         return 100 if !user.pbOwnedByPlayer? && @battle.curseActive?(:CURSE_PERFECT_LUCK)
         ret = effectChance > 0 ? effectChance : @effectChance
         return 100 if ret >= 100 || debugControl
-        ret += 20 if user.hasTribeBonus?(:FORTUNE)
+        ret += 30 if user.hasTribeBonus?(:FORTUNE)
 
         # User's abilities modify effect chance
         user.eachAbilityShouldApply(aiCheck) do |ability|

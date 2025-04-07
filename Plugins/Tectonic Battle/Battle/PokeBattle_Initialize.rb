@@ -200,6 +200,10 @@ class PokeBattle_Battle
         @party2.each do |pokemon|
             initializeKnownItems(pokemon)
         end
+
+        # Set all moves to their max PP
+        # and apply tribal bonuses to max PP
+        setMaxPPs(true)
     end
 
     def ai_update_moves
@@ -242,5 +246,29 @@ class PokeBattle_Battle
         return false unless pokemon.likelyHasSTAB?(move.type) # Don't know off-type moves
         return false if move.category == 2 # Don't know status moves
         return true
+    end
+
+    def setMaxPPs(includeMults)
+        @player&.each do |trainer|
+            setMaxPPsForTrainer(trainer,includeMults)
+        end
+
+        @opponent&.each do |trainer|
+            setMaxPPsForTrainer(trainer,includeMults)
+        end
+    end
+
+    def setMaxPPsForTrainer(trainer,includeMults)
+        pp_mult = 1
+        if includeMults
+            pp_mult *= 2.0 if trainer.tribalBonus.hasTribeBonus?(:TACTICIAN)
+        end
+
+        trainer.party.each do |pokemon|
+            pokemon.moves.each do |move|
+                move.pp_mult = pp_mult
+                move.restore_pp
+            end
+        end
     end
 end

@@ -9,6 +9,8 @@ class Pokemon
       attr_reader :pp
       # The number of PP Ups used on this move (each one adds 20% to the total PP).
       attr_reader :ppup
+      # Other PP multipliers
+      attr_reader :pp_mult
   
       # Creates a new Move object.
       # @param move_id [Symbol, String, Integer] move ID
@@ -16,6 +18,7 @@ class Pokemon
         @id   = GameData::Move.get(move_id).id
         @ppup = 0
         @pp   = total_pp
+        @pp_mult = 1.0
       end
   
       # Sets this move's ID, and caps the PP amount if it is now greater than this
@@ -38,14 +41,27 @@ class Pokemon
         @ppup = value
         @pp = @pp.clamp(0, total_pp)
       end
+
+      # Sets this move's PP mult, and caps the PP if necessary.
+      # @param value [Integer] the new PP Up value
+      def pp_mult=(value)
+        @pp_mult = value
+        @pp = @pp.clamp(0, total_pp)
+      end
   
       # Returns the total PP of this move, taking PP Ups into account.
       # @return [Integer] total PP
       def total_pp
         max_pp = GameData::Move.get(@id).total_pp
-        return max_pp + max_pp * @ppup / 5
+        max_pp = max_pp + max_pp * @ppup / 5
+        max_pp = (max_pp * pp_mult).floor if pp_mult
+        return max_pp
       end
       alias totalpp total_pp
+
+      def restore_pp
+        @pp = total_pp
+      end
   
       def function_code; return GameData::Move.get(@id).function_code; end
       def base_damage;   return GameData::Move.get(@id).base_damage;   end

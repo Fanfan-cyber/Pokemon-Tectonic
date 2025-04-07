@@ -299,7 +299,7 @@ Name = Follow Me
 Type = NORMAL
 Category = Status
 Accuracy = 0
-TotalPP = 15
+TotalPP = 5
 Target = User
 Priority = 2
 FunctionCode = RedirectAllMovesToUser
@@ -537,7 +537,7 @@ TotalPP = 10
 Target = User
 FunctionCode = HealUserHalfOfTotalHP
 Flags = CanSnatch
-Description = The user restores its own HP by up to half of its maximum HP.
+Description = The user restores its own HP by up to half of its max HP.
 #-------------------------------
 [MULTIATTACK]
 Name = Multi-Attack
@@ -582,7 +582,7 @@ TotalPP = 25
 Target = AllNearFoes
 FunctionCode = LowerTargetAtkSpAtk2
 Flags = CanProtect,CanMagicCoat,Sound
-Description = The user intimidates all nearby foes, lowering their Attack and Sp. Atk by two steps each.
+Description = The user intimidates all nearby foes, lowering their Attack and Sp. Atk by two steps.
 #-------------------------------
 [PAYDAY]
 Name = Pay Day
@@ -626,7 +626,7 @@ Type = NORMAL
 Category = Physical
 Power = 40
 Accuracy = 100
-TotalPP = 25
+TotalPP = 10
 Target = NearOther
 Priority = 1
 FunctionCode = Basic
@@ -816,7 +816,7 @@ Type = NORMAL
 Category = Special
 Power = 40
 Accuracy = 100
-TotalPP = 25
+TotalPP = 10
 Target = NearOther
 Priority = 1
 FunctionCode = Basic
@@ -866,7 +866,7 @@ TotalPP = 8
 Target = User
 FunctionCode = HealUserHalfOfTotalHP
 Flags = CanSnatch
-Description = The user slacks off, restoring its own HP by up to half of its maximum HP.
+Description = The user slacks off, restoring its own HP by up to half of its max HP.
 #-------------------------------
 [SLASH]
 Name = Slash
@@ -925,7 +925,7 @@ TotalPP = 10
 Target = User
 FunctionCode = HealUserHalfOfTotalHP
 Flags = CanSnatch
-Description = The user restores its own HP by up to half of its maximum HP.
+Description = The user restores its own HP by up to half of its max HP.
 #-------------------------------
 [SPITUP]
 Name = Spit Up
@@ -982,7 +982,7 @@ Accuracy = 100
 TotalPP = 10
 Target = User
 FunctionCode = EatBerryRaiseDefenses3
-Description = The user eats its held Berry, then raises both its defensive stats by three steps.
+Description = The user eats its held Berry, then raises Defense and Sp. Def by three steps.
 #-------------------------------
 [SUBSTITUTE]
 Name = Substitute
@@ -1129,7 +1129,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = LowerTargetAtkDef2
 Flags = CanProtect,CanMagicCoat
-Description = The user tickles the target into laughing, reducing its Attack and Defense by two steps each.
+Description = The user tickles the target into laughing, reducing its Attack and Defense by two steps.
 #-------------------------------
 [TRANSFORM]
 Name = Transform
@@ -1187,7 +1187,7 @@ TotalPP = 10
 Target = User
 FunctionCode = HealUserPositionNextTurn
 Flags = CanSnatch
-Description = One turn after this move is used, the target's HP is restored by half the user's maximum HP.
+Description = One turn after this move is used, the target's HP is restored by half the user's max HP.
 #-------------------------------
 [WORKUP]
 Name = Work Up
@@ -1198,7 +1198,7 @@ TotalPP = 25
 Target = User
 FunctionCode = RaiseUserAtkSpAtk2
 Flags = CanSnatch
-Description = The user is roused, raising its Attack and Sp. Atk by two steps each.
+Description = The user is roused, raising its Attack and Sp. Atk by two steps.
 #-------------------------------
 [YAWN]
 Name = Yawn
@@ -1271,7 +1271,7 @@ TotalPP = 6
 Target = User
 FunctionCode = RaiseUserAtkDef2
 Flags = CanSnatch
-Description = The user tenses its muscles to bulk up, raising its Attack and Defense by two steps each.
+Description = The user tenses its muscles to bulk up, raising its Attack and Defense by two steps.
 #-------------------------------
 [CLOSECOMBAT]
 Name = Close Combat
@@ -1293,7 +1293,7 @@ Accuracy = 0
 TotalPP = 10
 Target = NearAlly
 FunctionCode = RaiseTargetAtkDef2
-Description = The user coaches its ally Pokémon, raising their Attack and Defense by two steps each.
+Description = The user coaches its ally Pokémon, raising their Attack and Defense by two steps.
 #-------------------------------
 [COUNTER]
 Name = Counter
@@ -1474,7 +1474,7 @@ Type = FIGHTING
 Category = Physical
 Power = 40
 Accuracy = 100
-TotalPP = 25
+TotalPP = 10
 Target = NearOther
 Priority = 1
 FunctionCode = Basic
@@ -1546,7 +1546,7 @@ Name = Quick Guard
 Type = FIGHTING
 Category = Status
 Accuracy = 0
-TotalPP = 12
+TotalPP = 10
 Target = UserSide
 Priority = 3
 FunctionCode = ProtectUserSideFromPriorityMoves
@@ -1670,7 +1670,7 @@ Type = FIGHTING
 Category = Special
 Power = 40
 Accuracy = 100
-TotalPP = 25
+TotalPP = 10
 Target = NearOther
 Priority = 1
 FunctionCode = Basic
@@ -1826,7 +1826,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = LowerUserDefSpDef2
 Flags = CanProtect
-Description = The user soars upward and drops at high speeds. This lowers the user's defensive stats.
+Description = The user soars upward and drops at high speeds. This lowers the user's Defense and Sp. Def by 2 steps.
 #-------------------------------
 [DRILLPECK]
 Name = Drill Peck
@@ -2030,7 +2030,7 @@ TotalPP = 15
 Target = User
 FunctionCode = RaiseUserAtkDefAcc2
 Flags = CanSnatch
-Description = The user coils up and concentrates. This raises its Attack, Defense, and Accuracy by two steps each.
+Description = The user coils up and concentrates. This raises its Attack, Defense, and Accuracy by two steps.
 #-------------------------------
 [CROSSPOISON]
 Name = Cross Poison
@@ -2217,7 +2217,7 @@ TotalPP = 15
 Target = AllNearFoes
 FunctionCode = VenomDrench
 Flags = CanProtect,CanMagicCoat
-Description = Nearby poisoned foes have their Attack, Sp. Atk, and Speed lowered by three steps each.
+Description = Nearby poisoned foes have their Attack, Sp. Atk, and Speed lowered by three steps.
 #-------------------------------
 [VENOSHOCK]
 Name = Venoshock
@@ -2459,7 +2459,7 @@ Type = ROCK
 Category = Physical
 Power = 40
 Accuracy = 100
-TotalPP = 15
+TotalPP = 10
 Target = NearOther
 Priority = 1
 FunctionCode = Basic
@@ -2652,7 +2652,7 @@ Name = Tar Shot
 Type = ROCK
 Category = Status
 Accuracy = 0
-TotalPP = 12
+TotalPP = 10
 Target = NearOther
 Priority = 3
 FunctionCode = LowerTargetSpeed6MakeTargetWeakerToFire
@@ -2708,7 +2708,7 @@ Target = User
 Priority = 1
 FunctionCode = RaiseUserDefSpDef2
 Flags = CanSnatch
-Description = The user calls its underlings to shield it, raising its defensive stats by two steps. Always goes first.
+Description = The user calls its underlings to shield it, raising its Defense and Sp. Def by two steps. Always goes first.
 #-------------------------------
 [FELLSTINGER]
 Name = Fell Stinger
@@ -3183,7 +3183,7 @@ Type = GHOST
 Category = Physical
 Power = 40
 Accuracy = 100
-TotalPP = 25
+TotalPP = 10
 Target = NearOther
 Priority = 1
 FunctionCode = Basic
@@ -3280,7 +3280,7 @@ Type = STEEL
 Category = Physical
 Power = 40
 Accuracy = 100
-TotalPP = 25
+TotalPP = 10
 Target = NearOther
 Priority = 1
 FunctionCode = Basic
@@ -3479,7 +3479,7 @@ TotalPP = 10
 Target = User
 FunctionCode = RaiseUserAtkSpd2
 Flags = CanSnatch
-Description = The user rotates its gears, raising its Attack and Speed by two steps each.
+Description = The user rotates its gears, raising its Attack and Speed by two steps.
 #-------------------------------
 [SMARTHORN]
 Name = Smart Horn
@@ -3967,7 +3967,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = LowerUserSpdDefSpDef2
 Flags = CanProtect
-Description = With a fiery forehead, the user hurls itself at the foe. Lowers the user's Defense, Sp. Def, and Speed by two steps each.
+Description = With a fiery forehead, the user hurls itself at the foe. Lowers the user's Defense, Sp. Def, and Speed by two steps.
 #-------------------------------
 #		WATER MOVES
 #-------------------------------
@@ -3977,7 +3977,7 @@ Type = WATER
 Category = Physical
 Power = 40
 Accuracy = 100
-TotalPP = 15
+TotalPP = 10
 Target = NearOther
 Priority = 1
 FunctionCode = Basic
@@ -4187,7 +4187,7 @@ TotalPP = 12
 Target = User
 FunctionCode = LowerUserDefSpDef2RaiseUserAtkSpAtkSpd3
 Flags = CanSnatch
-Description = The user breaks its shell, lowering its defensive stats by two steps but raising attacking and Speed stats by three steps each.
+Description = The user breaks its shell, lowering its Defense and Sp. Def by two steps but raising attacking and Speed stats by three steps.
 #-------------------------------
 [SNIPESHOT]
 Name = Snipe Shot
@@ -4319,7 +4319,7 @@ Type = WATER
 Category = Special
 Power = 15
 Accuracy = 100
-TotalPP = 15
+TotalPP = 10
 Target = NearOther
 Priority = 1
 FunctionCode = HitTwoToFiveTimes
@@ -4493,7 +4493,7 @@ TotalPP = 15
 Target = User
 FunctionCode = RaiseUserAtkSpAtk2Or4InSun
 Flags = CanSnatch
-Description = The user's body grows all at once, raising Atk and Sp. Atk by two steps each, or 4 in sunshine.
+Description = The user's body grows all at once, raising Atk and Sp. Atk by two steps, or 4 in sunshine.
 #-------------------------------
 [INGRAIN]
 Name = Ingrain
@@ -5146,7 +5146,7 @@ TotalPP = 6
 Target = User
 FunctionCode = RaiseUserSpAtkSpDef2
 Flags = CanSnatch
-Description = The user quietly focuses its mind to raise its Sp. Atk and Sp. Def by two steps each.
+Description = The user quietly focuses its mind to raise its Sp. Atk and Sp. Def by two steps.
 #-------------------------------
 [COSMICPOWER]
 Name = Cosmic Power
@@ -5157,7 +5157,7 @@ TotalPP = 3
 Target = User
 FunctionCode = RaiseUserDefSpDef2
 Flags = CanSnatch
-Description = The user absorbs a mystical power from space to raise its Defense and Sp. Def by two steps each.
+Description = The user absorbs a mystical power from space to raise its Defense and Sp. Def by two steps.
 #-------------------------------
 [DREAMABSORB]
 Name = Dream Absorb
@@ -5340,7 +5340,7 @@ Name = Magic Coat
 Type = PSYCHIC
 Category = Status
 Accuracy = 0
-TotalPP = 12
+TotalPP = 10
 Target = User
 Priority = 4
 FunctionCode = BounceBackProblemCausingStatusMoves
@@ -5765,7 +5765,7 @@ Type = ICE
 Category = Physical
 Power = 40
 Accuracy = 100
-TotalPP = 25
+TotalPP = 10
 Target = NearOther
 Priority = 1
 FunctionCode = Basic
@@ -6123,7 +6123,7 @@ Name = Confide
 Type = DARK
 Category = Status
 Accuracy = 0
-TotalPP = 15
+TotalPP = 10
 Target = NearOther
 Priority = 1
 FunctionCode = LowerTargetSpAtk3
@@ -6258,7 +6258,7 @@ TotalPP = 12
 Target = User
 FunctionCode = RaiseUserAtkAcc3
 Flags = CanSnatch
-Description = The user sharpens its claws to raise its Attack and Accuracy by three steps each.
+Description = The user sharpens its claws to raise its Attack and Accuracy by three steps.
 #-------------------------------
 [HOWL]
 Name = Howl
@@ -6339,7 +6339,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = UserFaintsLowerTargetAtkSpAtk5
 Flags = CanProtect
-Description = The user faints in order to lower the target's Attack and Sp. Atk by five steps each.
+Description = The user faints in order to lower the target's Attack and Sp. Atk by five steps.
 #-------------------------------
 [NIGHTSLASH]
 Name = Night Slash
@@ -6374,7 +6374,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = LowerTargetAtkSpAtk1SwitchOutUser
 Flags = CanProtect,CanMagicCoat,Sound
-Description = The user lowers the target's Attack and Sp. Atk by two steps each. Then, the user switches out.
+Description = The user lowers the target's Attack and Sp. Atk by two steps. Then, the user switches out.
 #-------------------------------
 [PAYBACK]
 Name = Payback
@@ -6541,14 +6541,14 @@ Accuracy = 0
 TotalPP = 15
 Target = NearAlly
 FunctionCode = RaiseTargetDefSpDef3
-Description = The user raises the Def and Sp. Def stat of an ally Pokémon by three steps using a mysterious aroma.
+Description = The user raises the Defense and Sp. Def stat of an ally Pokémon by three steps using a mysterious aroma.
 #-------------------------------
 [BABYDOLLEYES]
 Name = Baby-Doll Eyes
 Type = FAIRY
 Category = Status
 Accuracy = 100
-TotalPP = 25
+TotalPP = 10
 Target = NearOther
 Priority = 1
 FunctionCode = LowerTargetAtk3
@@ -6598,7 +6598,7 @@ Accuracy = 0
 TotalPP = 12
 Target = NearAlly
 FunctionCode = RaiseTargetAtkSpAtk5
-Description = The user decorates the target, raising their Attack and Sp. Atk by five steps each.
+Description = The user decorates the target, raising their Attack and Sp. Atk by five steps.
 #-------------------------------
 [DISARMINGVOICE]
 Name = Disarming Voice
@@ -6742,7 +6742,7 @@ Target = AllNearFoes
 FunctionCode = LowerTargetAtkSpAtk1
 Flags = CanProtect,Wind
 EffectChance = 30
-Description = The user attacks foes with love and hate. It has a 30% chance to lower both attacking stats.
+Description = The user attacks foes with love and hate. It has a 30% chance to lower both Attack and Sp. Atk.
 Animation = HURRICANE
 #-------------------------------
 [STRANGESTEAM]

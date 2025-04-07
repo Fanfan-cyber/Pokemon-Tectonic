@@ -839,6 +839,9 @@ class PokeBattle_Battle
         }
         pbParty(0).compact!
 
+        # Reset max PPs
+        setMaxPPs(false)
+
         return @decision
     end
 

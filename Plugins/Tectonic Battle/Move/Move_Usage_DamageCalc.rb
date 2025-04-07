@@ -435,17 +435,7 @@ class PokeBattle_Move
         # Mystic tribe
         if user.hasTribeBonus?(:MYSTIC) && user.lastRoundMoveCategory == 2 # Status
             multipliers[:final_damage_multiplier] *= 1.25
-        end
-
-        # Warrior tribe
-        if user.hasTribeBonus?(:WARRIOR)
-            if checkingForAI
-                expectedTypeMod = @battle.battleAI.pbCalcTypeModAI(type, user, target, self)
-                multipliers[:final_damage_multiplier] *= 1.12 if Effectiveness.super_effective?(expectedTypeMod)
-            else
-                multipliers[:final_damage_multiplier] *= 1.12 if Effectiveness.super_effective?(target.damageState.typeMod)
-            end
-        end      
+        end    
 
         # Scavenger tribe
         if user.hasTribeBonus?(:SCAVENGER)
@@ -454,6 +444,16 @@ class PokeBattle_Move
             else
                 multipliers[:final_damage_multiplier] *= 1.25 if user.effectActive?(:GemConsumed)
             end
+        end
+
+        # Tactician tribe
+        if user.hasTribeBonus?(:TACTICIAN)
+            if checkingForAI
+                multipliers[:final_damage_multiplier] *= 1.15 if @battle.battleAI.userMovesFirst?(self, user, target)
+            elsif !target.movedThisRound?  
+                echoln("TACTICIAN ACTIVATING!!!")
+                multipliers[:final_damage_multiplier] *= 1.15
+            end    
         end
 
         # Harmonic tribe
@@ -466,14 +466,14 @@ class PokeBattle_Move
             multipliers[:final_damage_multiplier] *= 0.8
         end
 
-        # Stampede tribe
-        if target.hasTribeBonus?(:STAMPEDE) && target.effectActive?(:ChoseAttack)
-            multipliers[:final_damage_multiplier] *= 0.88
+        # Warrior tribe
+        if target.hasTribeBonus?(:WARRIOR) && target.effectActive?(:ChoseAttack)
+            multipliers[:final_damage_multiplier] *= 0.85
         end
 
         # Noble tribe
         if target.hasTribeBonus?(:NOBLE) && target.effectActive?(:ChoseStatus)
-            multipliers[:final_damage_multiplier] *= 0.88
+            multipliers[:final_damage_multiplier] *= 0.85
         end
     end
       

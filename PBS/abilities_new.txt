@@ -6,12 +6,12 @@ Description = After being attacked, uses Parting Shot to switch out.
 #-------------------------------
 [ACIDRAIN]
 Name = Acid Rain
-Description = At the end of each turn, if in rainstorm, each Pokémon not immune to rainstorm has their defensive stats lowered by 1 step.
+Description = At the end of each turn, if in rainstorm, each Pokémon not immune to rainstorm has their Defense and Sp. Def lowered by 1 step.
 Flags = RainstormSynergy
 #-------------------------------
 [ADAPTIVESKIN]
 Name = Adaptive Skin
-Description = The user raises the related defensive stat by two steps after each hit taken.
+Description = After being hit by an attack, the Pokémon raises either Defense or Sp. Def based on the attack's category.
 #-------------------------------
 [ADRENALINERUSH]
 Name = Adrenaline Rush
@@ -23,7 +23,7 @@ Description = Grants immunity to Flying-type moves and raises Speed if hit by on
 #-------------------------------
 [AEROSHELL]
 Name = Aeroshell
-Description = After using a wind move, raises both of the Pokémon's defensive stats.
+Description = After using a wind move, raises the Pokémon's Defense and Sp. Def.
 #-------------------------------
 [AFROTECTION]
 Name = Afrotection
@@ -53,7 +53,7 @@ Flags = EclipseSynergy
 #-------------------------------
 [ANCESTRALDANCE]
 Name = Ancestral Dance
-Description = Raises both defensive stats whenever any Pokémon uses a dance move.
+Description = Raises Defense and Sp. Def whenever any Pokémon uses a dance move.
 #-------------------------------
 [APPREHENSIVE]
 Name = Apprehensive
@@ -148,7 +148,7 @@ Description = Sets a Reflect for 4 turns upon entering the battle.
 #-------------------------------
 [BATTLEHARDENED]
 Name = Battle-Hardened
-Description = Raises Defense and Sp. Def by three steps each when its HP is lowered below half.
+Description = Raises Defense and Sp. Def by three steps when its HP is lowered below half.
 #-------------------------------
 [BEGUILING]
 Name = Beguiling
@@ -156,7 +156,7 @@ Description = Special attacks against the Pokémon have a 30% chance to dizzy th
 #-------------------------------
 [BELLIGERENT]
 Name = Belligerent
-Description = Boosts both attacking stats by three steps when a stat is lowered by a foe.
+Description = Boosts Attack and Sp. Atk by three steps when a stat is lowered by a foe.
 #-------------------------------
 [BELLOWER]
 Name = Bellower
@@ -187,7 +187,7 @@ Description = Its special attacks reduce the target's Sp. Def.
 #-------------------------------
 [BLADEBRAINED]
 Name = Bladebrained
-Description = Boosts the power of blade moves by 30%. Blade moves ignore the target's defensive stat changes.
+Description = Boosts the power of blade moves by 30%. Blade moves ignore the target's modified Defense and Sp. Def.
 #-------------------------------
 [BLINDINGLIGHT]
 Name = Blinding Light
@@ -253,7 +253,7 @@ Description = Prevents itself and allies from being poisoned, leeched, or waterl
 #-------------------------------
 [CHALLENGER]
 Name = Challenger
-Description = Immune to Fighting-type moves, and raises both attacking stats if hit by one.
+Description = Immune to Fighting-type moves, and raises Attack and Sp. Atk if hit by one.
 #-------------------------------
 [CHILLEDBODY]
 Name = Chilled Body
@@ -308,7 +308,7 @@ Description = Boosts Sp. Attack by 75%, but the Pokémon becomes frostbitten aft
 #-------------------------------
 [COLDRECEPTION]
 Name = Cold Reception
-Description = Immune to Ice-type moves, and raises both attacking stats if hit by one.
+Description = Immune to Ice-type moves, and raises Attack and Sp. Atk if hit by one.
 #-------------------------------
 [CONSTRICTOR]
 Name = Constrictor
@@ -320,7 +320,7 @@ Description = Using or being hit by a physical move leaves a rock on the field. 
 #-------------------------------
 [COSMICCONTACT]
 Name = Cosmic Contact
-Description = After using a status move, raises both of the Pokémon's defensive stats.
+Description = After using a status move, raises the Pokémon's Defense and Sp. Def.
 #-------------------------------
 [COSTUMECHANGE]
 Name = Costume Change
@@ -447,7 +447,7 @@ Description = Immune to Dragon-type moves. Deals double damage to Dragon-types.
 #-------------------------------
 [DRAMATICLIGHTING]
 Name = Dramatic Lighting
-Description = Upon entry during eclipse, lowers foe's Attack and Sp. Atk by two steps each.
+Description = Upon entry during eclipse, lowers foe's Attack and Sp. Atk by two steps.
 Flags = EclipseSynergy
 #-------------------------------
 [DREAMWEAVER]
@@ -541,7 +541,7 @@ Description = Takes half damage from Psychic- and Ghost-type attacks.
 #-------------------------------
 [EXOTHERMENGINE]
 Name = Exotherm Engine
-Description = Boosts Speed by 50% but the user is locked into the first move they use.
+Description = Boosts Speed by 50% but the Pokémon is locked into the first move they use.
 Flags = ChoiceLocking
 #-------------------------------
 [EXPERTISE]
@@ -630,7 +630,7 @@ Description = Heals 1/16th HP every turn. Protected from being numbed or waterlo
 #-------------------------------
 [FILTHY]
 Name = Filthy
-Description = Immune to Poison-type moves, and boosts both defensive stats when hit by one.
+Description = Immune to Poison-type moves, and boosts Defense and Sp. Def when hit by one.
 #-------------------------------
 [FINESUGAR]
 Name = Fine Sugar
@@ -643,7 +643,7 @@ Description = At the end of every turn, each Pokémon takes 1/8th HP damage. Thi
 #-------------------------------
 [FIREFIGHTER]
 Name = Firefighter
-Description = Immune to Fire-type moves, and raises both attacking stats if hit by one.
+Description = Immune to Fire-type moves, and raises Attack and Sp. Atk if hit by one.
 #-------------------------------
 [FIRSTSTRIKE]
 Name = First Strike
@@ -684,7 +684,7 @@ Description = Hits opponent with Gust when withdrawn from battle.
 #-------------------------------
 [FLYTRAP]
 Name = Flytrap
-Description = Grants immunity to Bug-type moves, and raises both attacking stats when hit by one.
+Description = Grants immunity to Bug-type moves, and raises Attack and Sp. Atk when hit by one.
 #-------------------------------
 [FOGTOTEM]
 Name = Fog Totem
@@ -696,11 +696,11 @@ Description = Raises Speed by two steps after knocking out any Pokémon.
 #-------------------------------
 [FOOLHARDY]
 Name = Foolhardy
-Description = Immune to Psychic-type moves, and raises both attacking stats if hit by one.
+Description = Immune to Psychic-type moves, and raises Attack and Sp. Atk if hit by one.
 #-------------------------------
 [FORCEREVERSAL]
 Name = Force Reversal
-Description = Raises both attacking stats by two steps when hit by a not-very-effective move.
+Description = Raises Attack and Sp. Atk by two steps when hit by a not-very-effective move.
 #-------------------------------
 [FORTIFIED]
 Name = Fortified
@@ -784,7 +784,7 @@ Description = Turns the held item of a Pokémon it hits into gold coins for you 
 #-------------------------------
 [GLASSFIRING]
 Name = Glass Firing
-Description = Immune to Fire-type moves and raises both defensive stats if hit by one.
+Description = Immune to Fire-type moves and raises Defense and Sp. Def if hit by one.
 #-------------------------------
 [GNAWING]
 Name = Gnawing
@@ -857,7 +857,7 @@ Description = Immune to Fairy-type moves and restores 25% of max HP if hit by on
 #-------------------------------
 [HEARTOFJUSTICE]
 Name = Heart of Justice
-Description = Immune to Dark-type moves, and boosts both attacking stats when hit by one.
+Description = Immune to Dark-type moves, and boosts Attack and Sp. Atk when hit by one.
 #-------------------------------
 [HEATSAVOR]
 Name = Heat Savor
@@ -1133,7 +1133,7 @@ Flags = MoonglowSynergy
 #-------------------------------
 [MAESTRO]
 Name = Maestro
-Description = The user's Speed is doubled while using Sound-based moves.
+Description = The Pokémon's Speed is doubled while using Sound-based moves.
 #-------------------------------
 [MAGICSHIELD]
 Name = Magic Shield
@@ -1149,7 +1149,7 @@ Description = If an attack lowers the Pokémon's HP to half or less, the attacke
 #-------------------------------
 [MALICIOUSGLOW]
 Name = Malicious Glow
-Description = When attacking during moonglow, uses the target's attacking stats instead of its own.
+Description = When attacking during moonglow, uses the target's Attack and Sp. Atk instead of its own.
 Flags = MoonglowSynergy
 #-------------------------------
 [MARINE]
@@ -1210,7 +1210,7 @@ Flags = MoonglowSynergy
 #-------------------------------
 [MOONBLANKET]
 Name = Moon Blanket
-Description = User and allies take 25% less move damage during moonglow.
+Description = The Pokémon and its allies take 25% less move damage during moonglow.
 #-------------------------------
 [MOONGAZE]
 Name = Moon Gaze
@@ -1306,7 +1306,7 @@ Description = Boosts the Accuracy of its allies and itself by 50%.
 #-------------------------------
 [ODDITY]
 Name = Oddity
-Description = Upon entry, creates an Odd Room for five turns, swapping offensive and defensive stats.
+Description = Upon entry, creates an Odd Room for five turns, swapping offensive and Defense and Sp. Def.
 #-------------------------------
 [OFFENSIVE]
 Name = Offensive
@@ -1520,6 +1520,10 @@ Description = Maximizes Sp. Atk when its HP is lowered below half.
 Name = Recon
 Description = Before using a status move against a single foe, lowers their Sp. Def by two steps.
 #-------------------------------
+[REFRACTIVE]
+Name = Refract Aura
+Description = Pulse moves change the Pokémon's secondary type and their power is boosted by 30%.
+#-------------------------------
 [REFRESHMENTS]
 Name = Refreshments
 Description = Upon entry during sunshine, heals the lowest HP ally or self by 50%.
@@ -1547,7 +1551,7 @@ Description = Moves that hit multiple targets deal 25% more damage instead of 25
 #-------------------------------
 [ROAST]
 Name = Roast
-Description = When the Pokémon eats a Berry, it raises its attacking stats by two steps each.
+Description = When the Pokémon eats a Berry, it raises its Attack and Sp. Atk by two steps.
 #-------------------------------
 [ROCKBODY]
 Name = Rock Body
@@ -1633,7 +1637,7 @@ Description = Restores 1/4th health after any foe faints.
 #-------------------------------
 [SCOUREDSILHOUETTE]
 Name = Scoured Silhouette
-Description = Upon entry during sandstorm, lowers foe's Attack and Sp. Atk by two steps each.
+Description = Upon entry during sandstorm, lowers foe's Attack and Sp. Atk by two steps.
 Flags = SandstormSynergy
 #-------------------------------
 [SEALINGBODY]
@@ -1650,7 +1654,7 @@ Description = Special moves have a 30% chance to leech targets.
 #-------------------------------
 [SELECTIVESCUTES]
 Name = Selective Scutes
-Description = Boosts one defending stat by two steps according to the foe's attacking stats.
+Description = Boosts one defending stat by two steps according to the foe's Attack and Sp. Atk.
 #-------------------------------
 [SELFSUFFICIENT]
 Name = Self-Sufficient
@@ -1678,7 +1682,7 @@ Description = Takes 50% less damage from hyper-effective attacks.
 #-------------------------------
 [SHIFTINGFIST]
 Name = Shifting Fist
-Description = Punching moves change secondary type and their power is boosted by 30%.
+Description = Punching moves change the Pokémon's secondary type and their power is boosted by 30%.
 #-------------------------------
 [SHOCKSTYLE]
 Name = Shock Style
@@ -1715,7 +1719,7 @@ Description = On the first turn, its attacks leech the target.
 #-------------------------------
 [SIRENSONG]
 Name = Siren Song
-Description = After using a sound move, lowers one of each foe's attacking stats, whichever is higher.
+Description = After using a sound move, lowers one of each foe's Attack and Sp. Atk, whichever is higher.
 #-------------------------------
 [SLAPSTICK]
 Name = Slapstick
@@ -1775,7 +1779,7 @@ Description = Double damage to targets who don't share a type with their last-us
 #-------------------------------
 [SOUNDBARRIER]
 Name = Sound Barrier
-Description = After using a sound move, raises both of the Pokémon's defensive stats.
+Description = After using a sound move, raises the Pokémon's Defense and Sp. Def.
 #-------------------------------
 [SPACEINTERLOPER]
 Name = Space Interloper
@@ -1812,7 +1816,7 @@ Flags = AllWeatherSynergy,OtherStatDropImmunity
 #-------------------------------
 [STAMPEDE]
 Name = Stampede
-Description = The user's critical hit chance raises or lowers with its Speed.
+Description = The Pokémon's critical hit chance raises or lowers with its Speed.
 #-------------------------------
 [STARGUARDIAN]
 Name = Star Guardian
@@ -1922,7 +1926,7 @@ Flags = HailSynergy
 #-------------------------------
 [SUNBURNING]
 Name = Sun Burning
-Description = At the end of each turn, if in sunshine, each Pokémon not immune to sunshine has their defensive stats lowered by 1 step.
+Description = At the end of each turn, if in sunshine, each Pokémon not immune to sunshine has their Defense and Sp. Def lowered by 1 step.
 Flags = SunshineSynergy
 #-------------------------------
 [SUNCHASER]
@@ -1950,7 +1954,7 @@ Flags = HazardImmunity
 #-------------------------------
 [SWIFTSTOMPS]
 Name = Swift Stomps
-Description = The user's Speed is doubled while using kicking moves.
+Description = The Pokémon's Speed is doubled while using kicking moves.
 #-------------------------------
 [SWORDPLAY]
 Name = Swordplay
@@ -2041,11 +2045,11 @@ Description = Foes whose stats are lowered by the Pokémon keep those lowered st
 #-------------------------------
 [TRENCHCARVER]
 Name = Trench Carver
-Description = The user's Speed is doubled while using recoil moves.
+Description = The Pokémon's Speed is doubled while using recoil moves.
 #-------------------------------
 [TUNEDOUT]
 Name = Tuned Out
-Description = Boosts the power of sound moves by 30%. Sound moves ignore the target's defensive stat changes.
+Description = Boosts the power of sound moves by 30%. Sound moves ignore the target's modified Defense and Sp. Def.
 #-------------------------------
 [TUNNELMAKER]
 Name = Tunnel Maker
@@ -2111,7 +2115,7 @@ Description = After an attack reduces its HP to half or less, deals 1/4 of the a
 #-------------------------------
 [VENOMDETTA]
 Name = Venomdetta
-Description = Immune to Poison-type moves, and raises both attacking stats if hit by one.
+Description = Immune to Poison-type moves, and raises Attack and Sp. Atk if hit by one.
 #-------------------------------
 [VENOMGORGER]
 Name = Venom Gorger
