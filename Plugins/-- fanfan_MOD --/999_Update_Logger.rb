@@ -131,7 +131,7 @@ doublebattle/disabledouble，开启/关闭全双打模式
 zeroexp/disablezeroexp，开启/关闭无经验模式
 
 0.3.4
-1.修复了一些翻译的问题
+1.修复了大量翻译的问题
 2.现在Poké X-Ray可以在战斗中使用了
 3.修复了Shifting Fist的描述没有被正确更新的Bug
 4.修改了Disco Lights的描述文本
