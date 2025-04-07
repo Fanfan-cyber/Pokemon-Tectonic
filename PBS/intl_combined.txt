@@ -591,13 +591,13 @@ Recently got a few uhh... assets, that I'm looking to sell. Fell off of a Traine
 I'm a nice guy, so I'll give you a nice price.
 我这个人很好说话的，所以我会给你个合适的价钱。
 You got $5000 on you? I've got a Numel with your name on it if so.
-$5000有吗？要是有的话，这只呆火驼身上就写你名字了。
+5000金钱有吗？要是有的话，这只呆火驼身上就写你名字了。
 You sure? You ain't gonna find a deal like this again.
 确定？过了这个村可就没这个店了。
 Heh, pleasure doing business with ya.
 呵呵，很高兴和你做生意。
 \PN hands over $5000 in exchange.
-\PN 交给对方 $5000。
+\PN交给对方5000金钱。
 Well, gotta hit the road. Cash is only useful if you spend it, ya know.
 好了，我得走了。毕竟，钱只有花掉时才有用。
 You missing the cash? Hmm.
@@ -1533,11 +1533,11 @@ Let me guess. Born rich? Toxic family relationships? Rampant imposter syndrome c
 Well, you look like the perfect fit for this Skitty I've managed to get.
 你看起来很适合我搞到的这只向尾喵。
 For the absolute steal of $200,000, I'll let you get your hands on one. And guess what -- it's shiny.
-只需要$200,000，它就是你的了，而且你猜怎么着 - 它是闪光的！
+只需要200,000金钱，它就是你的了，而且你猜怎么着 - 它是闪光的！
 Show that to your... mom? Dad? No, definitely mom. Probably a sibling in there as well, huh?
 拿给你的…妈妈或爸爸看？不，绝对是妈妈，估计还有一个兄弟姐妹吧？
 I'm sure you'll get at least a week's worth of self- worth flaunting that to them. All that quality time for just $200,000.
-拿这个跟他们炫耀后，至少能获得一星期的昂首挺胸权。只要$200,000哦，心动不如行动！
+拿这个跟他们炫耀后，至少能获得一星期的昂首挺胸权。只要200,000金钱哦，心动不如行动！
 Hah! That's what they all say. You'll be back, sooner or later.
 哈！大家都是这么说的，但早晚会回来。
 The Pokemon is all yours, enjoy it while you can.
@@ -1549,7 +1549,7 @@ Tata suck- uhh, client.
 With that trifling sum? Surely you can do better than that.
 只不过是一笔小钱而已嘛？你得到的可远超这个价值。
 Ah, so you've finally caved? $200,000 for the shiny Skitty. No more, no less.
-啊，终于想通了？$200,000买这只闪光向尾喵。
+啊，终于想通了？200,000金钱买这只闪光向尾喵。
 Are you going into the sauna?
 你要去蒸桑拿吗?
 Careful to not go into the underground area. It's where we keep the wild Pokemon that heat up the place.
@@ -1570,13 +1570,13 @@ Sure, I'll pay for that.
 [Map15]
 [Map16]
 I got some extra dynamite. Want it for $5000?
-我有些多余的炸药。5000金币要吗？
+我有些多余的炸药。5000金钱要吗？
 Eh, I can't blame ya. It's dangerous stuff.
 呃，我不怪你。这东西确实危险。
 Hey, I'll be glad to be done with it.
 嘿，能处理掉它我就很高兴了。
 You hand over $5000 in exchange.
-你递出了5000金币作为交换。
+你递出了5000金钱作为交换。
 Well, the clock waits for no one. Work calls!
 时间不等人啊。工作来了！
 You playing at something?
@@ -1747,7 +1747,7 @@ Take care of the old mascot dear, I'm sure it hates being cooped up in a place l
 Hey, you want a cup of coffee?
 你好，要来杯咖啡吗？
 It's gonna cost you $250.
-一共$250。
+一共250金钱。
 Sounds good. Come back when you want a cup.
 什么时候想喝了再来吧。
 Thank you for your patronage.
@@ -2071,13 +2071,13 @@ I used to use a lot of Life Orbs. Didn't care if my Pokemon got hurt so long as 
 But I'm not that kind of person any more. I'm looking to rid myself of them.
 但我现在变了，我不想再那样做了。
 I've just got one left. I'll sell it to you for $6,000. Fair market value.
-我只有一个了。6000金币卖给你，市场价。
+我只有一个了。6000金钱卖给你，市场价。
 Sounds good. I'll be on patrol for awhile now, so hit me up if you change your mind.
 好的，如果你改变主意了，可以再联系我。我现在要进行巡逻了。
 Here ya go, pleasure doing business.
 很高兴能与你达成这笔交易。
 \PN hands over $6000 in exchange.
-\PN递出了6000金币作为交换。
+\PN递出了6000金钱作为交换。
 Guess I'll go back on patrol now.
 我要回去巡逻了。
 Looks like you're a bit short on cash.
@@ -3291,7 +3291,7 @@ Would you be interested in taking my Sandshrew?
 I brought it here from Alola, but I'm far too old to travel now, and it's getting restless.
 我从阿罗拉带来了它，但现在我年纪太大没法旅行了，它也开始焦躁不安。
 I'd need $5000 in return. Sorry, but I've got to survive somehow!
-我需要5000金币作为回报。抱歉，但我得想办法活下去！
+我需要5000金钱作为回报。抱歉，但我得想办法活下去！
 What do you say?
 你觉得怎么样？
 I understand. That's fine, dear.
@@ -3299,7 +3299,7 @@ I understand. That's fine, dear.
 You won't regret this.
 你不会后悔的。
 \PN hands over $5000 in exchange.
-\PN递出了5000金币作为交换。
+\PN递出了5000金钱作为交换。
 Now to find my wife, wherever she's run off to.
 现在我得去找我妻子，不管她跑到哪儿去了。
 Toodaloo!
@@ -3420,13 +3420,13 @@ Yeah, I stole it. What of it?
 Or maybe you're interested?
 还是说你有兴趣?
 5k, since I like ya.
-一口价$5000，因为我看你还挺顺眼的。
+一口价5000金钱，因为我看你还挺顺眼的。
 Your loss.
 这是你的损失。
 The shiny stuff always sells.
 这些闪闪发光的东西总是很好卖。
 You hand over $5000 in exchange.
-将$5000交给对方。
+将5000金钱交给对方。
 See ya later. Not!
 再见！当然，希望不会再见！
 Don't mess with me like that, you don't even have the cash.
@@ -3636,13 +3636,13 @@ Now I'm foreign to Makya, but I can tell when I've got something valuable.
 Tell ya what. Give me a bit of cash, and I might find it in my heart to part with one o' these.
 这么说吧，给我点钱，也许我会忍痛卖给你。
 5000 sound like a good price?
-$5000你觉得如何？
+5000金钱你觉得如何？
 Alright, don't tell me I didn't give you a sweet deal.
 行吧，别说我没给你一个划算的交易机会。
 Alrightie then, which one of these do ya like the most?
 好的，那你最想要哪个?
 \PN hands over $5000.
-\PN交出$5000。
+\PN交出了5000金钱。
 You're just giving me this money to safekeep or something?
 你是要在我这里存钱还是咋的？
 Alright then, talk to me when you've made a decision.
@@ -4337,7 +4337,7 @@ Leader: Eko
 The Searing Scientist!
 激情似火的科学家！
 The Starters Store opened up a few months ago, and I got a job stocking Pokemon there.
-初行商店是几个月前刚开业的，我还在那里找到了一份工作。
+初始商店是几个月前刚开业的，我还在那里找到了一份工作。
 That's the building right behind me.
 就是我身后那栋房子。
 You need specific Tokens to buy the starters.
@@ -4551,7 +4551,7 @@ Biking is a great way for me to exercise between my classes at Novo College.
 I work out my brain, then my body!
 锻炼完大脑，身体也不能落下！
 The Starters Store
-初行商店
+初始商店
 I work at the Pokemon Center here, but I like to come here after my shift.
 我在这里的精灵中心工作，平时下班后喜欢来这里逛逛。
 As you might have deduced by now, I also like to battle. Should we?
@@ -4728,13 +4728,13 @@ I'm here to do some location research for that, but I also have a secret project
 To help me along, think you'd like to buy this Alolan Meowth?
 为了帮我一把，你想买下这只阿罗拉喵喵吗？
 For a low, low price of $5000, you could help me along.
-只需5000金币的低价，你就能帮我大忙。
+只需5000金钱的低价，你就能帮我大忙。
 Sure, I'm certain another Alolan Meowth will just stumble into your hands.
 当然，我相信另一只阿罗拉喵喵会自己跑到你手里的。
 Why thank you, stranger. Rest well knowing that you are a patron of science.
 太感谢了，陌生人。安心休息吧，你可是科学的赞助者。
 \PN hands over $5000 in exchange.
-\PN递出了5000金币作为交换。
+\PN递出了5000金钱作为交换。
 Well, not gonna waste any more time here. I've got science to do.
 好了，不在这儿浪费时间了。我还有科学要搞。
 Hm? Pay? With what cash?
@@ -4792,13 +4792,13 @@ Ended up burning down a tent, poisoning a clown, and freezing my brother.
 I'm out of a job. Take pity, and buy 'em off me?
 所以我就光荣地失业了，能不能把这些东西买下来，救济救济我呢？
 I'm asking $5,000 for the three of them. Package deal.
-一共$5,000怎么样？
+一共5,000金钱怎么样？
 I really dropped the ball on this.
 这下彻底完蛋了。
 My gratitude is immense!
 感激不尽！
 \PN hands over $5,000 in exchange.
-\PN将$5,000交给对方。
+\PN将5,000金钱交给对方。
 Time to travel the countryside to find where they might need a man of my talents.
 是时候去乡下转转了，看看有哪里需要我这种人才。
 You're broke, just like me! Come back when you can help.
@@ -5361,11 +5361,11 @@ Could you maybe pitch in?
 Understandable. It's weird to ask a stranger for money.
 可以理解，毕竟是跟陌生人要钱。
 You hand over $1000.
-你给了他$1000。
+你给了他1000金钱。
 Thanks! With this I'll be able to get her something excellent!
 谢谢，有了这些钱，我就能给她买些好东西了！
 You don't have $1000?
-你连$1000都没有？
+你连1000金钱都没有？
 I guess you have your own problems.
 伙计，我觉得你有大麻烦了。
 I've been talking with some of my co-workers about how to handle the gift.
@@ -5591,11 +5591,11 @@ No
 Yes
 给钱
 Yeah.
-是的
+是的。
 Maybe.
-谁知道呢
+谁知道呢。
 He isn't relevant.
-跟他无关
+跟他无关。
 [Map79]
 Wow! We're supposed to be professionals, but your battling prowess made everyone run away.
 哇！这里的大家都算得上专业人士，但是你的实力却让我们落荒而逃。
@@ -5814,15 +5814,15 @@ Perhaps I’ll find some answers there…
 Makyan forms?
 马凯亚形态？
 Not yet.
-还没
+还没。
 I have.
-我抓到了
+我抓到了。
 And fought with them.
-我正在训练它们
+我正在训练它们。
 Not right now.
-现在不行
+现在不行。
 Sure.
-可以
+可以。
 [Map82]
 A locked door. It has a slot for a keycard.
 一扇带有钥匙卡插槽的门，并且锁得很牢。
@@ -6494,13 +6494,13 @@ Despite not being plugged in, the vending machine is still functional.
 The only option to select is Tea. Tea from the Tea Store.
 只不过能选的饮料只有...来自茶叶店的茶。
 It costs $2000! What a rip off!
-它居然卖$2000！怎么不去去抢！
+它居然卖2000金钱！怎么不去去抢！
 You decide against giving the suspicious vending machine your money.
 你决定不管这台可疑的自动售货机。
 You purchase the Tea Store's Tea.
 你购买了茶店的茶。
 \PN put $2000 into the machine.
-\PN将$2000塞进了机器。
+\PN将2000金钱塞进了机器。
 Whoa! A Pokemon dropped out!
 哇！一只精灵掉了出来！
 You can't afford the suspicious tea.
@@ -8456,7 +8456,7 @@ She's the only person in the region that can revive 'em. Lotta genetic junk in t
 I wouldn't know much about it, I study ecology.
 我对此了解的不多，毕竟我的主攻方向是生态研究。
 I'm an expert at fossil ressurection. For a low fee of $3000 I can revive any fossil you give me!
-我是负责化石复活的研究员，给我$3000，我就可以帮你复活一块化石！
+我是负责化石复活的研究员，给我3000金钱，我就可以帮你复活一块化石！
 Would you like to have me revive a fossil?
 需要进行化石复活吗？
 You'll find me right here if you decide you want to experience this marvel of science yourself!
@@ -9098,7 +9098,7 @@ See ya then.
 拜~
 [Map139]
 Welcome to the Starters Store! We stock a selection of Starter Pokemon from every region!
-欢迎来到初行商店，你可以在这里获得来自各个地区的新手精灵。
+欢迎来到初始商店，你可以在这里获得来自各个地区的新手精灵。
 If you've found a Token you can exchange one with one of our employees for a matching starter.
 如果你拥有代币，便可以在这里交换一只与之相匹配的初始精灵。
 For example, you could exchange a Grass Token for a Bulbasaur, a Snivy or a Grookey.
@@ -9135,9 +9135,9 @@ My artist's instincts drew me to another use: Turning boring standard Pokemon in
 If you can find some of that mystical Gleam Powder, it'd be my pleasure to paint one of your Pokemon into a glamorous shiny.
 如果你能找到一些闪亮粉末，我很乐意将你的精灵，变成更为迷人的闪光形态。
 I will have to charge, though. $30,000.
-不过，是收费的，$30,000一次。
+不过，是收费的，30,000金钱一次。
 So, do you have any Gleam Powder? ...and the $30k?
-你有闪亮粉末吗？并且有$30,000吗？
+你有闪亮粉末吗？并且有30,000金钱吗？
 Oh, how boring it is to live a life without shinies.
 唉，没有闪光的生活多么无聊啊。
 No
@@ -9823,7 +9823,7 @@ It refused to take a hit, like a real Pokemon would.
 It is a coward, a complete disgrace to the Ironclad Dojo.
 它是个懦夫，简直是铁拳道馆的耻辱。
 I offer it to you for a mere $5000, as I need to atone for the money I wasted on its room and board.
-我以5000金币的价格把它卖给你，就当是为我浪费在它身上的食宿费赎罪。
+我以5000金钱的价格把它卖给你，就当是为我浪费在它身上的食宿费赎罪。
 I understand. Who would want such a disgrace on their team?
 我理解。谁会想要这样的耻辱加入队伍呢？
 Very well, perhaps a new master shall bring our its potential.
@@ -9831,9 +9831,9 @@ Very well, perhaps a new master shall bring our its potential.
 Though I doubt it.
 虽然我对此表示怀疑。
 \PN hands over $5000 in exchange.
-\PN递出了5000金币作为交换。
+\PN递出了5000金钱作为交换。
 I shall now resume my journey, free of such a burden.
-I shall now resume my journey, free of such a burden.
+现在我将不再背负任何负担，继续我的旅程。
 Farewell.
 再见。
 You have not the financial requirements.
@@ -10100,9 +10100,9 @@ Me and me crew host a Fishing Contest in an ocean preserve on Makya's eastern sh
 You'll earn a prize depending on the best creature yer capable of haulin' in.
 我们会根据你钓到的最好的精灵，给你一些相应的奖励。
 Only condition is ya' bring your own Pokeballs and ya' pitch in $1000 for fuelin' costs.
-但是需要你们自带精灵球，并缴纳$1000的燃料费用。
+但是需要你们自带精灵球，并缴纳1000金钱的燃料费用。
 \PN hands over $1000.
-\PN将$1000交给对方。
+\PN将1000金钱交给对方。
 You don't have enough for it.
 你钱不够。
 What, lost all yer money in a shipwreck?
@@ -10340,9 +10340,9 @@ And this Pokemon took a pretty penny to get, but it wasn't honest money anyways.
 I'll make sure not to repeat the same mistakes again.
 我保证不会再做同样的非法勾当。
 I'm taking the evidence.
-我要拿走证据
+我要拿走证据。
 I'll let you walk.
-你可以离开了
+你可以离开了。
 [Map172]
 A small feeding bowl, refilled as needed by the Estate Caretaker.
 一个小号喂食碗，庄园管理员会按需投喂。
@@ -11449,13 +11449,13 @@ I went and caught this Castform to help me with the weather.
 But that's not needed when you can simply use any 'mon with water moves.
 但是，如果有一只能浇水的精灵，我就不需要指望下雨了。
 I've already got that, so I'm looking to give this little guy a new home. I'll give it to anyone who can reimburse my costs of $3000.
-现在我已经拿到了水属性精灵，所以打算给漂浮泡泡一个新家，如果能帮我报销$3000的费用，那它就是你的了。
+现在我已经拿到了水属性精灵，所以打算给漂浮泡泡一个新家，如果能帮我报销3000金钱的费用，那它就是你的了。
 Oh I know this little one ain't for everyone. If you change your mind, the offer is still open.
 我明白，它并不是一个适合所有人的精灵，不过你改主意了的话，可以再来找我。
 Why aren't you a sweetie!
 你真是太可爱了！
 \PN hands over $3000 in exchange.
-\PN 交出了$3000。
+\PN 交出了3000金钱。
 Take care of them for me!
 帮我照顾好它！
 Oh, it looks like you're a little short. The offer's still here, just come back when ya got some more cash.
@@ -12188,7 +12188,7 @@ Talk about inspiring loyalty. I bet her Pokemon would follow her to hell and bac
 I smuggled some dynamite into the city, but I think the cops are onto me.
 我走私了一些炸药进城，但我觉得警察盯上我了。
 Take it off my hands for $5000?
-5000金币，把它从我这儿拿走？
+5000金钱，把它从我这儿拿走？
 You'd be doin' me a solid.
 你可是帮了我大忙。
 Some days you just can't get rid of a bomb.
@@ -12196,7 +12196,7 @@ Some days you just can't get rid of a bomb.
 My worryin' will soon be over.
 我的烦恼很快就会结束了。
 You hand over $5000 in exchange.
-你递出了5000金币作为交换。
+你递出了5000金钱作为交换。
 I'm outta here--gotta store this cash.
 我得走了——得把这笔钱存起来。
 Quit yankin' my chain.
@@ -12783,7 +12783,7 @@ I've refined the searching functions so that Pokemon found with the DexNav searc
 I'll upgrade your DexNav for...
 如果要升级导航的话...
 $4000? That covers the material cost as well.
-总共$4000，你觉得怎样？
+总共4000金钱，你觉得怎样？
 Oh well, sorry to disappoint. I don't have any other backroom things to sell.
 那很抱歉了，我这里没有其他东西可以卖。
 Sweet! Now, if you hand me your DexNav, I'll get started.
@@ -12791,7 +12791,7 @@ Sweet! Now, if you hand me your DexNav, I'll get started.
 \wmYour Dexnav has been upgraded!\se[Mining found all]\wtnp[80]\1
 \wm你的导航已经升级了！\se[Mining found all]\wtnp[80]\1
 You hand over $4000 in exchange.
-你将$4000交给对方。
+你将4000金钱交给对方。
 There ya go. Should be ready to go.
 好了，应该可以了。
 Oh, uh, yeah...
@@ -12982,7 +12982,7 @@ I guess they really just like being on the stage.
 Would you like some coffee?
 要来点咖啡吗？
 We serve it freshly brewed for $550.
-现磨咖啡$550一杯。
+现磨咖啡550金钱一杯。
 Very well, we hope you enjoy your time at The Tunes.
 好的，希望你能享受在乐之家的时光。
 Thank you very much for your patronage.
@@ -13018,7 +13018,7 @@ Well hey, if it isn't my favorite property investor!
 I've been going through some of my contacts trying to get a good deal on renovating the place.
 我正在疏通一些关系，打算以更好的价格翻新这个地方。
 I can get a few Machamps to clean the place out and install the utilities for $25,000.
-或许可以找几个怪力来清理下，花$25,000来精细装修一番。
+或许可以找几个怪力来清理下，花25,000金钱来精细装修一番。
 Yeah, that's fair. You just bought the place after all.
 你说了算，毕竟你刚刚买下这个地方。
 They've already agreed to do it for the price, so don't worry about the timing.
@@ -13036,7 +13036,7 @@ The place is looking a lot better, but it can still use some interior work.
 I can get that squad of Machamp to move in some furniture, really give that place some life.
 应该让那些怪力搬些家具进来，让这个地方更有生气。
 It'll cost you $90,000.
-大概需要$90,000。
+大概需要90,000金钱。
 Alright sounds good. Just tell me when you're ready.
 可以，什么时候需要弄，直接跟我说一声就行。
 Sounds good, they'll move in everything.
@@ -13066,15 +13066,15 @@ No
 Yes
 要
 Don't know.
-不知道
+不知道。
 City person.
-城市人
+城市人。
 Nature person.
-自然人
+自然人。
 Not right now.
-现在不弄
+现在不弄。
 Sure, I'll pay for that.
-钱我出了
+钱我出了。
 [Map208]
 Ready, Trainers!
 准备好，训练家们！
@@ -13973,13 +13973,13 @@ I even brought a Krabby to throw at them and everything! I stole it from a Range
 If I can't throw it at someone important, I'll sell it to get some ice cream!
 如果见不到冠军的话，那就把它卖了去买冰淇淋吧！
 $5000! That'll get me ice cream for a week!
-$5000！我就可以连续吃一周冰淇淋了！
+5000金钱！我就可以连续吃一周冰淇淋了！
 You're lucky you're a nobody, otherwise I'd throw it at you.
 你应该庆幸自己没什么名气，不然我就要用大钳蟹扔你了。
 Done deal Trainer!
 交易完成，训练家
 \PN hands over $5000 in exchange.
-\PN将$5000交给对方。
+\PN将5000金钱交给对方。
 Maybe I'll get chocolate today...
 要不还是去买巧克力吧…
 Haha, you're poor! That's really funny!
@@ -15256,7 +15256,7 @@ It's been a massive thorn in the side of my portfolio. I've been looking to dump
 I suppose the type of people to move into this area aren't the type to want trashed places like this.
 而想要搬来这边的人，又不会想买这样一栋房子。
 Well, I don't know how you still feel about it, but at this point I'm willing to part with this place for $250,000.
-现在的价格是$250,000，不知道你觉得怎么样。
+现在的价格是250,000金钱，不知道你觉得怎么样。
 That's absurdly low, but at this point I'm paying to keep otherwise stress-lost years of life.
 这个价格已经很优惠了，如果不是实在不好出手...
 It sucks to hear, but I suppose I can't blame ya.
@@ -15286,11 +15286,11 @@ No.
 Property?
 房产？
 Yeah.
-是的
+是的。
 I'm not interested.
-没兴趣
+没兴趣。
 Sure, I'll take the place.
-我要了
+我要了。
 [Map232]
 I'm a biologist by profession, studying many of the fascinating Pokemon of the world.
 我是一名生物学家，研究世界上那些迷人的精灵。
@@ -15580,9 +15580,9 @@ Hey, Trainer. You look like the type that might want a starter.
 Digging is my passion, but I do a little bit of scalping on the side to get a little extra dough every month.
 挖矿寻宝是我的兴趣，但同时也需要靠倒卖维持生活。
 You interested in purchasing a Starter Token? There aren't many just floating around.
-有兴趣买一个初行商店的代币吗？这东西可少见得很。
+有兴趣买一个初始商店的代币吗？这东西可少见得很。
 I'll give you one for the low, low price of $4000. How does that sound?
-我不会出很高的价格，$4000，你觉得怎样？
+我不会出很高的价格，4000金钱，你觉得怎样？
 Nah, nah I get it. Not everyone wants the easy street.
 嗯，明白了，不是每个人都想走捷径。
 Take some time to think about where your hard earned cash goes, no?
@@ -15592,7 +15592,7 @@ Looking good, looking good. That's the cash I needed.
 What were you looking to grab?
 你想要买哪种？
 \PN hands over $4000.
-\PN将$4000交给对方。
+\PN将4000金钱交给对方。
 Fair enough. I wasn't planning on taking your cash and running anyways.
 没问题，我也没打算骗钱。
 One Fire Token, coming right up.
@@ -15657,7 +15657,7 @@ The headline reads: "Brutal Beartic: Man hospitalized by Avatar attack"
 Budgetary plans are sketched out in chalk.
 粉笔写出的预算计划。
 $7,000 has been assigned for "Zubat Maintenance."
-将$7,000拨给“超音蝠维护组”。
+将7,000金钱拨给“超音蝠维护组”。
 Archeology books are strewn over the table.
 考古书籍散落在桌子上。
 The largest is from 10 years ago, a detailed report on the ruins in Three-Point Pass in Galar.
@@ -15908,7 +15908,7 @@ I know this wasn’t exactly what I promised, but I enjoyed it anyways.
 I hope you did too, and I’ll see you around. I’ll make it back to you. I promise. Until we meet again.
 希望你也一样，我们还会再见的，保重。
 Coincidence.
-巧合
+巧合。
 It isn't random?
 不是随机的？
 Did you call them?
@@ -16428,13 +16428,13 @@ Or so I thought. This here Bounsweet tagged along, the rascal, and now I don't k
 It may be cute, but I'm raising enough Pokemon back at the farm as is.
 它可能很可爱，但我在农场已经养了足够多的精灵了。
 That's why I'll offer 'em to you for $5000.
-所以我打算以5000金币的价格把它卖给你。
+所以我打算以5000金钱的价格把它卖给你。
 'S alright. I'll cultivate some patience.
 没关系，我会培养点耐心的。
 Hoooyaaaahhh!
 吼呀——！
 \PN hands over $5000 in exchange.
-\PN递出了5000金币作为交换。
+\PN递出了5000金钱作为交换。
 Time I be moseyin' on.
 是时候继续前进了。
 Er, ya alright? I don't see that much on ya.
@@ -17728,7 +17728,7 @@ Well, you got me.
 Trainer, I bring great news: A deal of a lifetime.
 训练家，我有个好消息：一笔千载难逢的交易。
 Five grand in cold cash. In exchange, I'll grant you a Cottonee.
-5000金币现金。作为交换，我会给你一只木棉球。
+5000金钱现金。作为交换，我会给你一只木棉球。
 You look like a winner. And this... is a winning deal!
 你看起来像个赢家。而这……是一笔稳赚的交易！
 You'll regret passing on this.
@@ -17736,7 +17736,7 @@ You'll regret passing on this.
 Magnificent! Marvelous! Magnolious!
 太棒了！太妙了！太绝了！
 \PN hands over $5000 in exchange.
-\PN递出了5000金币作为交换。
+\PN递出了5000金钱作为交换。
 I assure you, this has been the best purchase of your life!
 我向你保证，这是你一生中最好的购买决定！
 I appreciate the enthusiasm! If only you had a wallet to match!
@@ -17756,7 +17756,7 @@ And we did! Take on the world, that is.
 Not really in the way my younger self had intended.
 只是...成果...跟我年轻时的愿景差别有点大。
 Have you been to the Starter Store in Novo?
-你去过望新镇的初行商店吗？
+你去过望新镇的初始商店吗？
 It's the only place to get your hands on those highly coveted starter 'mons.
 那是唯一可以获得不错的初始精灵的地方。
 Problem is that they require a token exchange instead of just cash...
@@ -19389,15 +19389,15 @@ Friendly reminder, team composition only matters if you care about winning.
 And between you and me, bud, maybe you should just stick with having fun.
 而对很多人来说，只要开心就足够了。
 Maybe later.
-稍等
+稍等。
 Sure, let's go.
-来吧
+来吧。
 Yeah.
-嗯
+嗯。
 I'm trying.
-我在努力
+我在努力。
 Not really.
-不是很确定
+不是很确定。
 [Map319]
 Hey hey, you're looking at the one and only employee of the Grouz Mine.
 嘿嘿，你眼前的是古治矿场的最后一名员工。
@@ -19674,7 +19674,7 @@ Got some premium Pokemon here, always popular with Trainers entering the tournam
 Feebas and Magikarp, fresh caught from the open ocean. Perfect for a last minute team addition.
 比如在刚在公海捉到的丑丑鱼和鲤鱼王，它们绝对是你的不二之选。
 They practically fly outta my hands, but I'll let you nab one -- and only one -- for the low, low price of $25000.
-它们的强大超出你的想象，只需要$25000的低价，你就能买到其中之一！而且我只会卖你一只！
+它们的强大超出你的想象，只需要25000金钱的低价，你就能买到其中之一！而且我只会卖你一只！
 Whudda you say, huh? You're practically robbing me here.
 你还在等什么？这简直跟免费送没区别啊！
 Hey pal suit yerself, just don't come to me when you ain't got a way to get through a Gigalith.
@@ -20302,29 +20302,29 @@ What kind of woman ditches her fiancé to hook up with a "professional trainer" 
 After showering her with money for months, this is the thanks I get...
 这就是我给她花了几个月的钱后，得到的一切！
 No thanks.
-算了
+算了。
 Sure.
-好的
+好的。
 My Pokémon keep me going.
-精灵们让我勇往直前
+精灵们让我勇往直前。
 I play better and win more.
-我水平高，赢的多
+我水平高，赢的多。
 It's easy, to be honest.
-说实话，这很轻松
+说实话，这很轻松。
 Green lilies sleep tenderly.
-早睡早起，多看美女
+早睡早起，多看美女。
 Have a few bulky mons.
-带上强大的精灵
+带上强大的精灵。
 Rush 'em down.
-冲上去
+冲上去。
 Persistence is key.
-坚持不懈是关键
+坚持不懈是关键。
 I'm fighting my demons.
-与化身势不两立
+与化身势不两立。
 I'll win it all for you guys.
-我会赢下所有
+我会赢下所有。
 I'm simply the best.
-目标只有冠军
+目标只有冠军。
 I have fans?
 我有粉丝？
 Is Kalos a real place?
@@ -20332,13 +20332,13 @@ Is Kalos a real place?
 Sorry, what?
 你说啥子？
 I'll make that trade.
-交易就交易
+交易就交易。
 I won't part from a friend.
-我不会和朋友分开
+我不会和朋友分开。
 Not right now.
-稍等
+稍等。
 Yeah, let's go.
-走吧
+走吧。
 [Map330]
 May their Rapidash gallop over moonlit plains.
 愿他们的烈焰马在月光平原上奔腾。
@@ -21067,7 +21067,7 @@ Maybe you'd disagree, but it rings a mite tacky to me.
 The most important thing to learn in your life is how to be generous.
 人生最重要的，就是要学会对他人慷慨。
 I once gave $1,000,000 towards that Pokemon sanctuary west of Velenz.
-我曾经向夜幽市西边的那个精灵保护区捐了$1,000,000。
+我曾经向夜幽市西边的那个精灵保护区捐了1,000,000金钱。
 Just talking about it has got me in a giving mood. Here, take this.
 每次谈起这件事，都会让我感到由衷的满足。这个给你了。
 Now now, you wouldn't be asking me to give you another one, would you?
@@ -23545,13 +23545,13 @@ This dynamite was meant to clear rubble in Velenz.
 With all the chaos, I knew they wouldn't notice if a couple sticks went missing.
 在那种一片混乱的地方，少了几个炸弹没人会注意到。
 $12k for 3 sticks, that's my first and only offer.
-$12000三个，不接受讨价还价。
+12,000金钱三个，不接受讨价还价。
 Jeeze, it's like people don't respect graft anymore.
 真是的，现在的人都不尊重劳动成果了。
 My side-gig really is boomin'!
 我的副业正在蒸蒸日上！
 You hand over $12,000 in exchange.
-你将$12,000交给对方。
+你将12,000金钱交给对方。
 Alright, gotta return to my shift watchin' that stupid ghost town.
 好了，我要去值班了，盯着那愚蠢的鬼城。
 Not like anything's gonna happen.
@@ -23573,7 +23573,7 @@ In order to fund further research, I want to find a buyer for this extremely rar
 You seem like the kind of person that'd like shiny Pokemon.
 看起来你应该很喜欢闪光精灵吧？
 Interested in purchasing this vial of Gleam Powder? Estimated costs total at 250,000.
-有兴趣买一瓶闪亮粉末吗？只要$250,000哟！
+有兴趣买一瓶闪亮粉末吗？只要250,000金钱哟！
 I've had sponsors with that kind of money.
 已经有人愿意给赞助了。
 I'm not surprised that you don't.
@@ -27879,7 +27879,7 @@ It's impulsive, selfish, and fickle. It's very popular with some Trainers who li
 Its round face is a symbol of wealth. Persian that have bigger, plumper faces are considered more beautiful.
 圆脸是富贵的象征。体型丰满，大盘脸的猫老大会被认为是美丽的。
 These daring Pokémon have coins on their foreheads. Darker coins are harder, and harder coins garner more respect among Meowth.
-额头上的金币越黑就越硬，也越能受到伙伴的尊敬。性格勇猛，什么都不怕。
+额头上的金钱越黑就越硬，也越能受到伙伴的尊敬。性格勇猛，什么都不怕。
 After many battles, it evolved dangerous claws that come together to form daggers when extended.
 有着十分好战的性格。头上像铁头盔一样的东西其实是它硬化后的体毛。
 If its chronic headache peaks, it may exhibit odd powers. It seems unable to recall such an episode.
@@ -32928,7 +32928,7 @@ It enables the user to evade all attacks. It fails if used in succession.
 The user lunges at the target at a speed that makes it almost invisible. It is sure to strike first.
 以迅雷不及掩耳之势扑向对手。必定能够先制攻击。
 A spin attack that can also eliminate trapping and hazard moves. Also raises the user's Speed.
-让身体高速旋转并撞击对手。清除现场的陷阱类技能，并提高自己的速度。
+让身体高速旋转并撞击对手，清除场上的陷阱，并提高自己的速度。
 Restoring its own cells, the user restores its own HP by half of its max HP.
 让全身的细胞获得再生，回复一半HP。
 The user recycles a held item that has been used in battle so it can be used again.
@@ -37011,49 +37011,49 @@ A fossil from a prehistoric Pokémon that once lived on the land. It appears to 
 A fossil from a prehistoric Pokémon that once lived on the land. It looks like the impression from a skin sail.
 很久以前生活在地上的古代精灵的化石。好像是头鳍的一部分。
 A sweet honey with a sweeter aroma. It can be sold to shops for $750.
-一种极其香甜的蜂蜜，可以在商店卖出$750。
+一种极其香甜的蜂蜜，可以在商店卖出750金钱。
 A beautiful feather. It can be sold to shops for $1500.
-一种漂亮的羽毛，可以在商店卖出$1500。
+一种漂亮的羽毛，可以在商店卖出1500金钱。
 A small and rare mushroom. It can be sold to shops for $250.
-一个较小的蘑菇，可以在商店卖出$250。
+一个较小的蘑菇，可以在商店卖出250金钱。
 A large and rare mushroom. It can be sold to shops for $2500.
-一种较大的蘑菇，可以在商店卖出$2500。
+一种较大的蘑菇，可以在商店卖出2500金钱。
 A rare mushroom which gives off a nice fragrance. It can be sold to shops for $7500.
-一种有奇特香味的蘑菇，可以在商店卖出$7500。
+一种有奇特香味的蘑菇，可以在商店卖出7500金钱。
 A somewhat-small pearl that sparkles in a pretty silver color. It can be sold to shops for $1000.
-一颗略小的珍珠，可以在商店卖出$1000。
+一颗略小的珍珠，可以在商店卖出1000金钱。
 A quite-large pearl that sparkles in a pretty silver color. It can be sold to shops for $4000.
-一颗略大的珍珠，可以在商店卖出$4000。
+一颗略大的珍珠，可以在商店卖出4000金钱。
 Very large pearls that sparkle in a pretty silver color. It can be sold to shops for $10000.
-一颗极其稀有的珍珠，可以在商店卖出$10000。
+一颗极其稀有的珍珠，可以在商店卖出10,000金钱。
 Lovely, red-colored sand with a loose, silky feel. It can be sold to shops for $1500.
-一种可爱的红色沙子，可以在商店卖出$1500。
+一种可爱的红色沙子，可以在商店卖出1500金钱。
 A shard of a pretty gem that sparkles in a red color. It can be sold to shops for $6000.
-一种可爱的红色碎片，可以在商店卖出$6000。
+一种可爱的红色碎片，可以在商店卖出6000金钱。
 A shard which fell to the ground when a comet approached. It can be sold to shops for $12500.
-一种比较大的可爱红色碎片，可以在商店卖出$12500。
+一种比较大的可爱红色碎片，可以在商店卖出12500金钱。
 A nugget of pure gold that gives off a lustrous gleam. It can be sold to shops for $5000.
-一颗散发着光泽的纯金，可以在商店卖出$5000。
+一颗散发着光泽的纯金，可以在商店卖出5000金钱。
 A big nugget of pure gold that gives off a lustrous gleam. It can be sold to shops for $20000.
-一颗较大的，散发着光泽的纯金，可以在商店卖出$20000。
+一颗较大的，散发着光泽的纯金，可以在商店卖出20,000金钱。
 A very tasty tail of something. It can be sold to shops for $4000.
-一种非常美味的食材，可以在商店卖出$4000。
+一种非常美味的食材，可以在商店卖出4000金钱。
 A bone that is extremely valuable for Pokémon archaeology. It can be sold to shops for $2500.
-一种非常稀有的精灵骨头，可以在商店卖出$2500。
+一种非常稀有的精灵骨头，可以在商店卖出2500金钱。
 A copper coin used in a civilization about 3,000 years ago. It can be sold to shops for $1000.
-一种记录着文明的铜币，可以在商店卖出$1000。
+一种记录着文明的铜币，可以在商店卖出1000金钱。
 A silver coin used in a civilization about 3,000 years ago. It can be sold to shops for $5000.
-一种记录着文明的银币，可以在商店卖出$5000。
+一种记录着文明的银币，可以在商店卖出5000金钱。
 A gold coin used in a civilization about 3,000 years ago. It can be sold to shops for $10,000.
-一种记录着文明的金币，可以在商店卖出$10,000。
+一种记录着文明的金币，可以在商店卖出10,000金钱。
 A vase made in a civilization about 3,000 years ago. It can be sold to shops for $30,000.
-一种记录着3000年文明的古物，可以在商店卖出$30,000。
+一种记录着3000年文明的古物，可以在商店卖出30,000金钱。
 A bracelet made in a civilization about 3,000 years ago. It can be sold to shops for $80,000.
-一种记录着3000年文明的古物，可以在商店卖出$80,000。
+一种记录着3000年文明的古物，可以在商店卖出80,000金钱。
 A stone figure made in a civilization about 3,000 years ago. Can be sold for $150,000.
-一种记录着3000年文明的古物，可以在商店卖出$150,000。
+一种记录着3000年文明的古物，可以在商店卖出150,000金钱。
 A crown made in a civilization about 3,000 years ago. Can be sold for $300,000.
-一种记录着3000年文明的古物，可以在商店卖出$300,000。
+一种记录着3000年文明的古物，可以在商店卖出300,000金钱。
 An item to be held by a Pokémon. The holder will float in the air until hit. Once hit, this item will burst.
 让精灵携带后，精灵会浮在空中。受到攻击就会破裂。
 When held by a Pokémon who can still evolve, reduces move damage taken by 33%. Prevents evolution.
@@ -37065,11 +37065,11 @@ A held item. In battles, it sets the holder's base Sp. Atk stat to 120.
 A very light stone. It reduces the weight of a Pokémon when held.
 一块轻石头，携带后可以减轻精灵的重量。
 An item to be held by a Pokémon. It raises Sp. Def by 50% but prevents the use of status moves.
-携带该物品的精灵的特防提高50%，无法使用变化技能。
+携带该物品的精灵的特防提高50%，但是无法使用变化技能。
 An item to be held by a Pokémon. It raises Defense by 50% but prevents the use of status moves.
-携带该物品的精灵的防御提高50%，无法使用变化技能。
+携带该物品的精灵的物防提高50%，但是无法使用变化技能。
 An item to be held by a Pokémon. Its Attack and Sp. Atk raise by four steps if hit by a move it's weak to.
-被针对弱点时，攻击和特攻就会大幅提高。
+被针对弱点时，物攻和特攻就会大幅提高。
 When held, it boosts Speed by two steps when intimidated, fascinated, or frustrated once per battle.
 使用后会容易呼唤伙伴，但使用后会消失。携带后，在受到威吓、震慑或阻挠时速度会提高。
 Damages attackers for 1/6th of their HP when they hit the holder with physical attacks.
@@ -37541,13 +37541,13 @@ A charm that doubles the chance of getting a critical catch.
 A long, durable rope. Use it to escape instantly from a cave or a dungeon.
 从洞窟等地方脱离。
 A token which can be exchanged for a Grass-type at the Starter Store.
-一种代币，可在初行商店兑换草属性御三家。
+一种代币，可在初始商店兑换草属性御三家。
 A token which can be exchanged for a Water-type at the Starter Store.
-一种代币，可在初行商店兑换水属性御三家。
+一种代币，可在初始商店兑换水属性御三家。
 A peculiar ore that makes certain species of Pokémon evolve. Associated with Arceus.
 有着不可思议力量的矿石。世间流传着此物蕴含有神奥大尊之力的神话。
 A token which can be exchanged for a Fire-type at the Starter Store.
-一种代币，可在初行商店兑换火属性御三家。
+一种代币，可在初始商店兑换火属性御三家。
 An abandoned Dratini egg that is cold and calm. Only an expert would be able to hatch it.
 一颗迷你龙的蛋，只有专家可以孵化它。
 An abandoned Bagon egg that is cold and calm. Only an expert would be able to hatch it.
@@ -37809,7 +37809,7 @@ An item to be held by a Pokémon. Protective moves like Light Screen and Reflect
 User heals 1/16th HP every turn. Will sacrifice itself to cure the user of status.
 携带后每回合恢复1/1６HP，可抵消一次异常状态。
 An item to test the PBS Extensions feature. It can be sold to shops for $1.
-一种用于测试PBS扩展功能的物品。可以以1金币的价格卖给商店。
+一种用于测试PBS扩展功能的物品。可以以1金钱的价格卖给商店。
 [10]
 Adapted
 适应之力
@@ -42709,16 +42709,16 @@ Scenic Trail
 景致小径
 139
 Starters Store
-初行商店
+初始商店
 140
 Starters Store - Grass
-初行商店
+初始商店
 141
 Starters Store - Fire
-初行商店
+初始商店
 142
 Starters Store - Water
-初行商店
+初始商店
 143
 Pillar of Creation
 创造之柱
@@ -45164,9 +45164,9 @@ Super Effective
 Super Effective moves deal double the damage compared to normal effective moves.
 效果拔群的技能伤害是正常的两倍。
 Hyper Effective
-效果极佳
+效果绝佳
 Hyper Effective moves deal quadruple the damage compared to normal effective moves. This happens when a Pokémon is double weak to a type.
-效果极佳的技能伤害是正常的四倍。
+效果绝佳的技能伤害是正常的四倍。
 Not Very Effective
 效果不佳
 Not Very Effective moves deal half the damage compared to normal effective moves.
@@ -45262,7 +45262,7 @@ Your Pokémon's stats will increase every time they level up. When Pokémon evol
 Accuracy and Evasion
 命中和回避
 Accuracy and Evasion are two stats which are only active in battle, starting at 100% each. They are only modified by in-battle changing effects.
-命中和回避属性只 在战斗中有效，起始均为100%，只会被战斗中的效果修正。
+命中和回避属性只在战斗中有效，初始均为100%，只会被战斗中的效果修正。
 Stat Steps
 能力等级
 Effects can modify a Pokémon's stats during battle. These are called 'stat steps'. Stat steps multiply or divide the Pokémon's listed stat value.
@@ -48310,13 +48310,13 @@ Time is dancing to {1}'s tune! This turn is being skipped!
 {1} pilots into battle!
 {1}到达了战场！
 You got ${1} and {2} AP for winning!
-你赢得了${1}和{2}AP！
+你赢得了{1}金钱和{2}AP！
 You picked up ${1}!
-你捡到了${1}！
+你捡到了{1}金钱！
 You gave ${1} to the winner...
-你给了获胜者${1}...
+你给了获胜者{1}金钱...
 You panicked and dropped ${1}...
-你不小心掉了${1}...
+你不小心掉了{1}金钱...
 Some of your Pokémon fainted in battle.
 因为你有精灵在战斗中濒死了。
 You defeated {1}!
@@ -51356,11 +51356,11 @@ A candy machine. It has one batch of candy.
 A candy machine. It contains {1} batches of candy.
 一台糖果机。它包含{1}批糖果。
 A batch costs ${1}. You can't afford to pay that much!
-需要 ${1}，你的钱不够！
+需要{1}金钱，你的钱不够！
 Buy some candy for ${1}?
-要花费 ${1}买一点糖果吗？
+要花费{1}金钱买一点糖果吗？
 You put in ${1}.
-你投入了${1}.
+你投入了{1}金钱。
 Unassigned level passed to candyBatchCost: {1}
 未分配的等级传递给糖果批次成本：{1}
 A locked gate. It has a slot for a keycard.
@@ -51522,11 +51522,11 @@ You no longer feel pumped up.
 You've currently completed {1} percent of the Dex.
 你目前已经完成了图鉴的{1}%。
 We're running a raffle. Would you like to spend ${1} on a chance to win a {2}?
-我们正在举行抽奖。你想花{1}来获得赢得一个{2}的机会吗？
+我们正在举行抽奖。你想花{1}金钱来获得赢得一个{2}的机会吗？
 I'm sorry, but you don't seem to have enough money.
 抱歉，你的钱不太够。
 You hand over ${1}.
-你交出${1}。
+你交出{1}金钱。
 Alright, let me roll for you...\|
 好的，让我们来看一看...\|
 Congratulations, you have won the raffle! Here is your {1}, as promised.
@@ -51686,7 +51686,7 @@ Unfortunately, that's not enough to earn a reward.
 You've run out of turns!
 你的回合用完了！
 You have #{$catching_minigame.turnsLeft} turns left in the contest.
-你在比赛中还剩下#{catching_minigame.turnsLeft}个回合。
+你在比赛中还剩下#{$catching_minigame.turnsLeft}个回合。
 It was a {1}, right? At level {2}?
 那是一只{1}，对吧？等级{2}？
 That one earned you a whoppin' {1} points.
@@ -52206,7 +52206,7 @@ You don't have enough money.
 The {1} card? Certainly. How many would you like?
 {1}卡？当然。你想要多少？
 {1}, and you want {2}. That will be ${3}. OK?
-{2}个{1}，要花费${3}，可以吗？
+{2}个{1}，要花费{3}金钱，可以吗？
 You have no room for more cards.
 你没有更多空间放置卡片。
 Here you are! Thank you!\se[Mart buy item]
@@ -52218,9 +52218,9 @@ The {1} card? Oh, no. I can't buy that.
 The {1} card? How many would you like to sell?
 {1}卡？你想要卖多少？
 I can pay ${1}. Would that be OK?
-我可以支付${1}。这样可以吗？
+我可以支付{1}金钱。这样可以吗？
 Turned over the {1} card and received ${2}.\se[Mart buy item]
-翻开1卡并收到了${2}。\se[Mart buy item]
+翻开1卡并收到了{2}金钱。\se[Mart buy item]
 Your coins
 你的代币
 Total points
@@ -54020,7 +54020,7 @@ Edit how much money you have.
 Set the player's money.
 设置玩家的金钱。
 You now have ${1}.
-你现在有${1}。
+你现在有{1}金钱。
 Set Coins
 设置代币
 Edit how many Game Corner Coins you have.
@@ -54874,27 +54874,27 @@ You a big shot, huh? Well, we're here to supply you.
 Get your supplies here!
 在这里获取你的物品！
 Hello, and welcome to the Starters Store!
-你好，欢迎来到初行商店！
+你好，欢迎来到初始商店！
 I'm the {1}-type starters salesperson!
-我是{1}属性的初行专员！
+我是{1}属性的初始专员！
 You can buy a {1}-type starter Pokémon from me if you have ${2} and a {3}.
-如果你有${2}和一个{3}，你可以从我这里购买一只{1}属性的起始精灵。
+如果你有{2}金钱和一个{3}，你可以从我这里购买一只{1}属性的初始精灵。
 You can buy a {1}-type starter Pokémon from me if you have a {2}.
-如果你有一个{2}，你可以从我这里购买一只{1}属性的起始精灵。
+如果你有一个{2}，你可以从我这里购买一只{1}属性的初始精灵。
 I'm sorry, but it seems as though you don't have that much money.
 抱歉，你钱好像不太够。
 I'm sorry, but it seems as though you don't have a {1}.
 抱歉，你没有 {1}。
 Which {1}-type starter Pokémon would you like to look at?
-你想查看哪只{1}属性的起始精灵？
+你想查看哪只{1}属性的初始精灵？
 Understood, please come back if there's a {1}-type starter Pokémon you'd like to purchase!
-明白了，请在你想购买{1}属性的起始精灵时再回来！
+明白了，请在你想购买{1}属性的初始精灵时再回来！
 View MasterDex
 查看大师图鉴
 Buy Pokémon
 购买精灵
 \PN handed over ${1} and a {2} in exchange.
-\PN交出了${1}和一个{2}。
+\PN交出了{1}金钱和一个{2}。
 \PN handed over a {1} in exchange.
 \PN交出了一个{1}。
 Thank you for shopping here at the Starters Store!
@@ -54904,7 +54904,7 @@ My apologies, I don't know what to do with this type of fossil.
 Error! Could not determine how to revive the given fossil.
 错误！无法确定如何复活提供的化石。
 \PN hands over the {1} and $3000.
-\PN交出了{1}和$3000。
+\PN交出了{1}和3000金钱。
 The procedure has started, now just to wait...
 正在启动...
 It's done! Here is your newly revived Pokémon!
@@ -54934,7 +54934,7 @@ No suitable canvases?
 I'm surprised, you look like you'd have more money, but you can't afford me.
 我本以为你应该挺富有的，看来我看走眼了。
 \PN hands over the {1}, $30,000, and {2}.
-\PN交出了{1}、30000金币和{2}。
+\PN交出了{1}、30000金钱和{2}。
 And so my work begins!
 我的工作开始了！
 Now, bask in the beautiful glow of your shiny {1}!
@@ -55878,7 +55878,7 @@ Happens a lot.
 Where?
 在哪里？
 Whaddya say to $10,000 for renter's rights?
-10000金币租用权，你觉得怎么样？
+10000金钱租用权，你觉得怎么样？
 Get lost kid.
 小孩别挡道
 Try to force yourself in?
@@ -57003,13 +57003,13 @@ Enemy trainers majorly overestimate how much damage their moves do.
 对方训练家会严重高估技能造成的伤害。
 7
 Your moves have a +30% chance to activate their moves' additional effects.
-技能触发附加效果的概率提升20%。
+技能触发附加效果的概率提升30%。
 8
 Your team takes 10% less move damage.
 全员减少10%受到的技能伤害。
 9
 You gain 10% more money from battles. If you have more than $100,000, your team gets a boost to Attack, Defense, Sp. Atk, and Sp. Def (before modifiers). This bonus scales with the level cap and is currently {b1}.
-战斗得金钱加10%。资金超十万，双攻和双防提升。与等级上限相关，目前{b1}。
+战斗得金钱加10%。拥有的金钱超十万，双攻和双防会提升。与等级上限相关，目前{b1}。
 10
 Your team members gain 10% more EXP in battles. They also get a small boost to Attack, Defense, Sp. Atk, and Sp. Def (before modifiers). This bonus scales with the level cap and is currently {b}.
 战斗获得额外10%经验，小幅度提升双攻和双防。与等级上限相关，目前为{b}。
@@ -57018,10 +57018,10 @@ Whenever a member of your team uses a status move, they'll deal 25% more move da
 精灵使用变化类技能后，下回合技能造成的伤害提升25%。
 12
 Your team members take 15% less move damage if they're using a status move this turn.
-精灵使用变化类技能的回合，减少12%受到的技能伤害。
+精灵使用变化类技能的回合，减少15%受到的技能伤害。
 13
 Your team has 30% increased Sp. Def. Foes can't lower your team's Sp. Def.
-全员获得20%额外特防，且特防不会下降。
+全员获得30%额外特防，且特防不会下降。
 14
 Your team members berries heal them for 25% more (multiplicative) and their gem-boosted attacks deal 25% more damage (multiplicative).
 携带树果的效果提升25%（乘算），宝石造成的伤害提升25%（乘算）。
@@ -57030,22 +57030,22 @@ Your able party members and battlers heal for 1/10th HP whenever a foe faints.
 对方失去战斗力时，恢复10%HP。
 16
 Your team has 30% increased Defense. Foes can't lower your team's Defense.
-全员获得20%额外防御，且防御不会下降。
+全员的物防增加30%，且物防不会下降。
 17
 Enemy Pokemon's chance to activate their additional effects against your team members is halved.
 对方技能造成额外效果的概率减半。
 18
 Your team has 15% increased Speed.
-使用攻击技能的回合，减少12%受到的伤害。
+使用攻击技能的回合，减少15%受到的伤害。
 19
 Your Pokemon deal 15% more damage to targets that haven’t moved yet this turn. Your priority attacks and priority status moves have doubled PP.
-全员不会被击中要害。
+对于还没有行动的对手的伤害增加15%。先制技能需要多消耗1点PP。
 20
 Ignore the first time each battle that one of your team members would flinch or get a status condition.
 每场战斗免疫一次异常状态或畏缩。
 21
 Your team members take 15% less move damage if they're using an attack this turn.
-全员“效果拔群”的技能提升12%伤害。
+全员“效果拔群”的技能提升15%伤害。
 22
 This tribe exists to test the PBS extensions system
 此部族用于测试PBS扩展系统。
@@ -59413,7 +59413,7 @@ Deal 1,000 or more damage in one hit.
 Deal 10,000 or more damage in one hit.
 打出一击10000点以上的伤害。
 Hold 500,000 or more money at once.
-身上携带超过$500,000。
+身上携带超过500,000金钱。
 Have more than 1,000,000 experience stored in the EXP-EZ Dispenser at once.
 在经验分配器中储存超过1,000,000点 经验值。
 Achieve the top prize at Aquatopia Menagerie's Ocean Fishing Contest.
