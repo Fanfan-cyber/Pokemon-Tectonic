@@ -60,6 +60,7 @@ BattleHandlers::DamageCalcUserAbility.add(:MEGALAUNCHER,
   }
 )
 
+=begin
 BattleHandlers::DamageCalcUserAbility.add(:REFRACTIVE,
   proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck|
     if move.pulseMove?
@@ -68,6 +69,7 @@ BattleHandlers::DamageCalcUserAbility.add(:REFRACTIVE,
     end
   }
 )
+=end
 
 BattleHandlers::DamageCalcUserAbility.add(:RECKLESS,
   proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck, backfire|

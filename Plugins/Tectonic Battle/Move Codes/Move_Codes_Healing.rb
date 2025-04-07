@@ -290,7 +290,7 @@ class PokeBattle_Move_HealTargetHalfOfTotalHP < PokeBattle_Move
     def healingRatio(user)
         ratio = 1.0 / 2.0
         ratio *= 1.5 if pulseMove? && user.hasActiveAbility?(:MEGALAUNCHER)
-        ratio *= 1.3 if pulseMove? && user.hasActiveAbility?(:REFRACTIVE)
+        #ratio *= 1.3 if pulseMove? && user.hasActiveAbility?(:REFRACTIVE)
         return ratio
     end
 

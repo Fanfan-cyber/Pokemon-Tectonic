@@ -134,7 +134,9 @@ zeroexp/disablezeroexp，开启/关闭无经验模式
 1.修复了一些翻译的问题
 2.现在Poké X-Ray可以在战斗中使用了
 3.修复了Shifting Fist的描述没有被正确更新的Bug
-4.
+4.修改了Disco Lights的描述文本
+5.现在Refractive将不再对技能威力或者技能效果进行增加
+6.
 
 0.3.3
 1.修改获得代欧奇希斯的密码为alien1
