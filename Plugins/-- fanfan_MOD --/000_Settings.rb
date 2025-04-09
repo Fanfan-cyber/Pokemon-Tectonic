@@ -1,5 +1,10 @@
 module Settings
   NUM_STORAGE_BOXES = 200
+  MAX_MONEY         = 99_999_999
+  POISON_IN_FIELD             = false
+  TAUGHT_MACHINES_KEEP_OLD_PP = true
+  FAINTED_POKEMON_EARN_EXP    = false
+  SEND_PC_HEALING             = false
 
   # Button used for Text Skipping (Default = :X)
   TEXT_SKIP_KEY = :V

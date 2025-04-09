@@ -255,7 +255,7 @@ class PokemonBox
         if self[box,i]==nil
           if box>=0
             pkmn.time_form_set = nil if pkmn.time_form_set
-            pkmn.heal
+            pkmn.heal if Settings::SEND_PC_HEALING
           end
           self[box,i] = pkmn
           return true
@@ -267,7 +267,7 @@ class PokemonBox
     def pbStoreCaught(pkmn)
       if @currentBox >= 0
         pkmn.time_form_set = nil
-        pkmn.heal
+        pkmn.heal if Settings::SEND_PC_HEALING
       end
       if !@boxes[@currentBox].isDonationBox?
         for i in 0...maxPokemon(@currentBox)
