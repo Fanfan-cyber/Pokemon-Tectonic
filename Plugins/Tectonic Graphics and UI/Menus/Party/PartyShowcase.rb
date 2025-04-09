@@ -90,7 +90,7 @@ class PokemonPartyShowcase_Scene
             # Show game version
             victory_lost = _INTL("W:{1}  L:{2}", TA.get(:win, 0), TA.get(:lose, 0))
             drawFormattedTextEx(@overlay, Graphics.width / 2 - 130, bottomBarY, 160, victory_lost, base, shadow)
-            settingsLabel = "v#{Settings::GAME_VERSION}"
+            settingsLabel = "v#{MOD_VERSION}"
             settingsLabel += "-dev" if Settings::DEV_VERSION
             drawFormattedTextEx(@overlay, Graphics.width / 2 + 60, bottomBarY, 160, settingsLabel, base, shadow)
 
