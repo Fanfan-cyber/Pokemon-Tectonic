@@ -34,6 +34,7 @@ end
 class PokeBattle_BattlerTracker
   def initialize
     @forced_engagement = nil # used for Forced Engagement
+    @step_counter      = {}  # used for countering stat step remaining turn
   end
 end
 

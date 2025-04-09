@@ -67,6 +67,8 @@ class PokeBattle_Battle
 
         end_of_round_field_process
 
+        tick_down_step_counter(priority)
+
         pbGainExp
 
         return if @decision > 0
@@ -263,6 +265,33 @@ class PokeBattle_Battle
             # Harvest, Pickup
             b.eachActiveAbility do |ability|
                 BattleHandlers.triggerEORGainItemAbility(ability, b, self)
+            end
+        end
+    end
+
+    def tick_down_step_counter(priority)
+        priority.each do |b|
+            next if b.fainted?
+            step_counter = b.tracker_get(:step_counter)
+            step_data = Hash.new(0)
+            step_counter.each_key do |stat|
+                step_counter[stat].each do |counter| # [[increment1, remaining1], [increment2, remaining2], [increment3, remaining3], ...]
+                    counter[1] -= 1
+                    if counter[1] == 0
+                        b.steps[stat] -= counter[0]
+                        step_data[stat] += counter[0]
+                    end
+                end
+                step_counter[stat].reject! { |counter| counter[1] == 0 }
+            end
+            next if step_data.empty?
+            step_data.each do |stat, amount|
+                next if amount == 0
+                if amount > 0
+                    pbDisplay(_INTL("{1}'s raised {2} recovered by {3}!", b.pbThis, GameData::Stat.get(stat).name, amount)) 
+                else
+                    pbDisplay(_INTL("{1}'s lowered {2} recovered by {3}!", b.pbThis, GameData::Stat.get(stat).name, amount)) 
+                end
             end
         end
     end

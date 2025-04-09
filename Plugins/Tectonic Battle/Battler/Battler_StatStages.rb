@@ -271,6 +271,8 @@ class PokeBattle_Battler
 
         applyEffect(:StatsRaised)
 
+        update_step_counter(stat, increment)
+
         # Trigger abilities upon stat gain
         eachActiveAbility do |ability|
             BattleHandlers.triggerAbilityOnStatGain(ability, self, stat, user)
@@ -283,6 +285,12 @@ class PokeBattle_Battler
                 BattleHandlers.triggerItemOnEnemyStatGain(item, b, stat, increment, user, @battle, self)
             end
         end
+    end
+
+    def update_step_counter(stat, increment, raised = true)
+        step_counter = tracker_get(:step_counter)
+        step_counter[stat] = [] unless step_counter[stat]
+        step_counter[stat] << [raised ? increment : -increment, 3]
     end
 
     #=============================================================================
@@ -602,6 +610,8 @@ class PokeBattle_Battler
         playStatStepsTutorial unless $PokemonGlobal.statStepsTutorialized
 
         applyEffect(:StatsDropped)
+
+        update_step_counter(stat, increment, false)
 
         # Trigger abilities upon stat loss
         eachActiveAbility do |ability|
