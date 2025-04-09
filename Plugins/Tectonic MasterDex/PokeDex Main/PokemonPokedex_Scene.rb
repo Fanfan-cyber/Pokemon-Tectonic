@@ -1055,6 +1055,8 @@ class PokemonPokedex_Scene
                     species = dexlist_entry[:species]
                     speciesData = GameData::Species.get(species)
 
+                    next if speciesData.canTutorAny?
+
                     # Grab the prevos and evos
                     if lineBehaviourSelection == 1
                         speciesToEdit.push(species)

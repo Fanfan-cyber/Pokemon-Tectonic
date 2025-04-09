@@ -6,7 +6,7 @@ Description = After being attacked, uses Parting Shot to switch out.
 #-------------------------------
 [ACIDRAIN]
 Name = Acid Rain
-Description = At the end of each turn, if in rainstorm, each Pokémon not immune to rainstorm has their Defense and Sp. Def lowered by 1 step.
+Description = At the end of each turn in rainstorm, each Pokémon not immune to rainstorm has their Defense and Sp. Def lowered.
 Flags = RainstormSynergy
 #-------------------------------
 [ADAPTIVESKIN]
@@ -1926,7 +1926,7 @@ Flags = HailSynergy
 #-------------------------------
 [SUNBURNING]
 Name = Sun Burning
-Description = At the end of each turn, if in sunshine, each Pokémon not immune to sunshine has their Defense and Sp. Def lowered by 1 step.
+Description = At the end of each turn in sunshine, each Pokémon not immune to sunshine has their Defense and Sp. Def lowered.
 Flags = SunshineSynergy
 #-------------------------------
 [SUNCHASER]

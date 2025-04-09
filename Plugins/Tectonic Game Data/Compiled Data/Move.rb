@@ -200,15 +200,16 @@ module GameData
         keys.each { |key| yield self::DATA[key] if !key.is_a?(Integer) }
       end
 
-      def self.all_non_signature_moves
-        if self::ALL_MOVES_LIST.length == 0
-          self.each do |moveData|
-              next unless moveData.learnable?
-              next if moveData.testMove?
-              next if moveData.is_signature?
-              self::ALL_MOVES_LIST.push(moveData.id)
-          end
+      def self.calculate_all_non_signature_list
+        self.each do |moveData|
+          next unless moveData.learnable?
+          next if moveData.testMove?
+          next if moveData.is_signature?
+          self::ALL_MOVES_LIST.push(moveData.id)
         end
+      end
+
+      def self.all_non_signature_moves
         return self::ALL_MOVES_LIST
       end
     end

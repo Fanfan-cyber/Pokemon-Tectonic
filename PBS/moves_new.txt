@@ -885,7 +885,7 @@ Target = NearOther
 FunctionCode = RapidSpin
 Flags = CanProtect,Kicking
 EffectChance = 100
-Description = A kick that can also eliminate trapping and hazard moves. Also raises user's Speed.
+Description = A kick that can also eliminate trapping and hazards afflicting your side. Also raises user's Speed.
 #-------------------------------
 [SCUFFLE]
 Name = Scuffle
@@ -1987,7 +1987,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = Icebreaker
 Flags = CanProtect
-Description = The user sweeps away hazards while charging. User also takes 33% recoil.
+Description = The user sweeps away hazards afflicting your side while charging. User also takes 33% recoil.
 Animation = HEADSMASH
 #-------------------------------
 [INVITESAND]
@@ -3882,7 +3882,7 @@ TotalPP = 10
 Target = AllNearOthers
 FunctionCode = RemovesHazardsBothSides
 Flags = CanProtect
-Description = The user creates a storm using its flaming body, damaging everything around it and melting away hazards in both sides.
+Description = The user creates a storm using its flaming body, damaging everything around it and melting away hazards from both sides.
 Animation = INFERNOOVERDRIVE
 #-------------------------------
 #		WATER MOVES

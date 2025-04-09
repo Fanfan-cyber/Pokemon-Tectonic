@@ -4,6 +4,10 @@ class PokemonPokedexInfo_Scene
     SIGNATURE_COLOR = Color.new(211, 175, 44)
     SIGNATURE_COLOR_LIGHTER = Color.new(228, 207, 128)
 
+    LEVEL_MOVES_PAGE_ID = 6
+    OTHER_MOVES_PAGE_ID = 7
+    FORMS_PAGE_ID = 10
+
     def pageTitles
         return [_INTL("INFO"), _INTL("ABILITIES"), _INTL("STATS"), _INTL("DEF. MATCHUPS"),
                 _INTL("ATK. MATCHUPS"), _INTL("LEVEL UP MOVES"), _INTL("OTHER MOVES"),
@@ -99,7 +103,16 @@ class PokemonPokedexInfo_Scene
         @scroll = -1
         @horizontalScroll = 0
         $PokemonGlobal.dex_tutor_list_sort_mode = 0 if $PokemonGlobal.dex_tutor_list_sort_mode.nil?
+
+        @tutorMovesSorting = nil
+        calculate_other_moves_sorting_proc
+
         @showShinyForms = $PokemonGlobal.dex_forms_shows_shinies || false
+
+        @speciesCalcedFor = nil
+        @formCalcedFor = nil
+        recalculate_other_moves_lists if @page == OTHER_MOVES_PAGE_ID
+
         @title = "Undefined"
         pbSetSystemFont(@sprites["overlay"].bitmap)
         pbUpdateDummyPokemon
@@ -190,11 +203,11 @@ sp.form) && !Settings::DEX_SHOWS_ALL_FORMS
         @sprites["areamap"].visible       = false if @sprites["areamap"] # (@page==7) if @sprites["areamap"]
         @sprites["areahighlight"].visible = false if @sprites["areahighlight"] # (@page==7) if @sprites["areahighlight"]
         @sprites["areaoverlay"].visible   = false if @sprites["areaoverlay"] # (@page==7) if @sprites["areaoverlay"]
-        @sprites["formfront"].visible     = (@page == 10) if @sprites["formfront"]
-        @sprites["formback"].visible      = (@page == 10) if @sprites["formback"]
-        @sprites["formicon"].visible      = (@page == 10) if @sprites["formicon"]
-        @sprites["moveInfoDisplay"].visible = @page == 6 || @page == 7  if @sprites["moveInfoDisplay"]
-        @sprites["extraInfoOverlay"].visible = @page == 6 || @page == 7 if @sprites["extraInfoOverlay"]
+        @sprites["formfront"].visible     = (@page == FORMS_PAGE_ID) if @sprites["formfront"]
+        @sprites["formback"].visible      = (@page == FORMS_PAGE_ID) if @sprites["formback"]
+        @sprites["formicon"].visible      = (@page == FORMS_PAGE_ID) if @sprites["formicon"]
+        @sprites["moveInfoDisplay"].visible = @page == LEVEL_MOVES_PAGE_ID || @page == OTHER_MOVES_PAGE_ID  if @sprites["moveInfoDisplay"]
+        @sprites["extraInfoOverlay"].visible = @page == LEVEL_MOVES_PAGE_ID || @page == OTHER_MOVES_PAGE_ID if @sprites["extraInfoOverlay"]
         @sprites["extraInfoOverlay"].bitmap.clear if @sprites["extraInfoOverlay"]
         @sprites["selectionarrow"].visible = false
         # Draw page title
@@ -660,7 +673,7 @@ sp.form) && !Settings::DEX_SHOWS_ALL_FORMS
         move_data = GameData::Move.get(move)
         moveName = move_data.name
 
-        isSTAB = move_data.category < 2 && [fSpecies.type1, fSpecies.type2].include?(move_data.type)
+        isSTAB = move_data.category != 2 && [fSpecies.type1, fSpecies.type2].include?(move_data.type)
 
         # Chop letters off of excessively long names to make them fit into the maximum width
         overlay = @sprites["overlay"].bitmap
@@ -766,63 +779,18 @@ sp.form) && !Settings::DEX_SHOWS_ALL_FORMS
         base   = MessageConfig.pbDefaultTextMainColor
         shadow = MessageConfig.pbDefaultTextShadowColor
 
+        if @speciesCalcedFor != @species || @formCalcedFor != @form
+            recalculate_other_moves_lists
+            @speciesCalcedFor = @species
+            @formCalcedFor = @form
+        end
+
         selected_move = nil
         for i in @available
             next unless i[2] == @form
-            species_data = GameData::Species.get_species_form(@species, i[2])
-            firstSpecies = species_data
-            while GameData::Species.get(firstSpecies.get_previous_species) != firstSpecies
-                firstSpecies = GameData::Species.get(firstSpecies.get_previous_species)
-            end
-
-            # Create the seperate moves list
-            compatibleMoves = species_data.learnable_moves
-            compatiblePhysMoves = compatibleMoves.select do |move|
-                movaData = GameData::Move.get(move)
-                next movaData.category == 0 || movaData.category == 3
-            end
-            compatibleSpecMoves = compatibleMoves.select do |move|
-                movaData = GameData::Move.get(move)
-                next movaData.category == 1 || movaData.category == 3
-            end
-            compatibleStatusMoves = compatibleMoves.select do |move|
-                movaData = GameData::Move.get(move)
-                next movaData.category == 2
-            end
-
-            # sort the moves lists
-            tutorMovesSorting = Proc.new { |moveA, moveB|
-                moveAData = GameData::Move.get(moveA)
-                moveBData = GameData::Move.get(moveB)
-                case $PokemonGlobal.dex_tutor_list_sort_mode
-                when 0
-                    next moveAData.name <=> moveBData.name
-                when 1
-                    if moveAData.base_damage == moveBData.base_damage
-                        next moveAData.name <=> moveBData.name
-                    else
-                        next moveBData.base_damage <=> moveAData.base_damage # reversed
-                    end
-                when 2
-                    if moveAData.type == moveBData.type
-                        next moveAData.name <=> moveBData.name
-                    else
-                        next GameData::Type.get(moveAData.type).id_number <=> GameData::Type.get(moveBData.type).id_number
-                    end
-                end
-            }
-            compatiblePhysMoves.sort!{ |moveA, moveB|
-                tutorMovesSorting.call(moveA, moveB)
-            }
-            compatibleSpecMoves.sort!{ |moveA, moveB|
-                tutorMovesSorting.call(moveA, moveB)
-            }
-            compatibleStatusMoves.sort!{ |moveA, moveB|
-                tutorMovesSorting.call(moveA, moveB)
-            }
-
+            
             # render the moves lists
-            @scrollableLists = [compatiblePhysMoves, compatibleSpecMoves, compatibleStatusMoves]
+            @scrollableLists = [@compatiblePhysMoves, @compatibleSpecMoves, @compatibleStatusMoves]
             categoryName = [_INTL("Physical"),_INTL("Special"),_INTL("Status")][@horizontalScroll]
             drawFormattedTextEx(overlay, MOVE_LIST_X_LEFT, 54, 192, "<ac><b>#{categoryName}</b></ac>", base, shadow)
             displayIndex = 0
@@ -1156,11 +1124,11 @@ sp.form) && !Settings::DEX_SHOWS_ALL_FORMS
 
     def pbScroll
         @scroll = 0
-        @sprites["leftarrow"].visible = @page == 7
-        @sprites["rightarrow"].visible = @page == 7
+        @sprites["leftarrow"].visible = @page == OTHER_MOVES_PAGE_ID
+        @sprites["rightarrow"].visible = @page == OTHER_MOVES_PAGE_ID
         drawPage(@page)
 
-        linesShown = @page == 6 ? 7 : 6
+        linesShown = @page == LEVEL_MOVES_PAGE_ID ? 7 : 6
 
         loop do
             Graphics.update
@@ -1188,7 +1156,7 @@ sp.form) && !Settings::DEX_SHOWS_ALL_FORMS
                     doRefresh = true
                 end
             elsif Input.repeat?(Input::LEFT)
-                if @page == 7
+                if @page == OTHER_MOVES_PAGE_ID
                     if @horizontalScroll > 0
                         pbPlayCursorSE
                         @horizontalScroll -= 1
@@ -1202,7 +1170,7 @@ sp.form) && !Settings::DEX_SHOWS_ALL_FORMS
                     end
                 end
             elsif Input.repeat?(Input::RIGHT)
-                if @page == 7
+                if @page == OTHER_MOVES_PAGE_ID
                     if @horizontalScroll < @scrollableLists.length - 1
                         pbPlayCursorSE
                         @horizontalScroll += 1
@@ -1240,14 +1208,8 @@ sp.form) && !Settings::DEX_SHOWS_ALL_FORMS
                 drawPage(@page)
                 break
             elsif Input.trigger?(Input::SPECIAL)
-                if @page == 7 # Move tutor list
-                    pbPlayDecisionSE
-                    if $PokemonGlobal.dex_tutor_list_sort_mode >= 2
-                        $PokemonGlobal.dex_tutor_list_sort_mode = 0
-                    else
-                        $PokemonGlobal.dex_tutor_list_sort_mode += 1
-                    end
-                    alertToDexTutorListSortMode
+                if @page == OTHER_MOVES_PAGE_ID
+                    toggle_other_moves_list_sort_mode
                     @scroll = 0
                     doRefresh = true
                 end
@@ -1256,6 +1218,82 @@ sp.form) && !Settings::DEX_SHOWS_ALL_FORMS
         end
         @sprites["leftarrow"].visible = false
         @sprites["rightarrow"].visible = false
+    end
+
+    def toggle_other_moves_list_sort_mode
+        pbPlayDecisionSE
+        if $PokemonGlobal.dex_tutor_list_sort_mode >= 2
+            $PokemonGlobal.dex_tutor_list_sort_mode = 0
+        else
+            $PokemonGlobal.dex_tutor_list_sort_mode += 1
+        end
+
+        calculate_other_moves_sorting_proc
+
+        recalculate_other_moves_lists
+
+        alertToDexTutorListSortMode
+    end
+
+    def calculate_other_moves_sorting_proc
+        case $PokemonGlobal.dex_tutor_list_sort_mode
+        when 0
+            @tutorMovesSorting = Proc.new { |moveA, moveB|
+                moveAData = GameData::Move.get(moveA)
+                moveBData = GameData::Move.get(moveB)
+                next moveAData.name <=> moveBData.name
+            }
+        when 1
+            @tutorMovesSorting = Proc.new { |moveA, moveB|
+                moveAData = GameData::Move.get(moveA)
+                moveBData = GameData::Move.get(moveB)
+                if moveAData.base_damage == moveBData.base_damage
+                    next moveAData.name <=> moveBData.name
+                else
+                    next moveBData.base_damage <=> moveAData.base_damage # reversed
+                end
+            }
+        when 2
+            @tutorMovesSorting = Proc.new { |moveA, moveB|
+                moveAData = GameData::Move.get(moveA)
+                moveBData = GameData::Move.get(moveB)
+                if moveAData.type == moveBData.type
+                    next moveAData.name <=> moveBData.name
+                else
+                    next GameData::Type.get(moveAData.type).id_number <=> GameData::Type.get(moveBData.type).id_number
+                end
+            }
+        end
+    end
+
+    def recalculate_other_moves_lists
+        species_data = GameData::Species.get_species_form(@species, @form)
+
+        # Create the seperate moves list
+        compatibleMoves = species_data.learnable_moves
+        @compatiblePhysMoves = compatibleMoves.select do |move|
+            movaData = GameData::Move.get(move)
+            next movaData.category == 0 || movaData.category == 3
+        end
+        @compatibleSpecMoves = compatibleMoves.select do |move|
+            movaData = GameData::Move.get(move)
+            next movaData.category == 1 || movaData.category == 3
+        end
+        @compatibleStatusMoves = compatibleMoves.select do |move|
+            movaData = GameData::Move.get(move)
+            next movaData.category == 2
+        end
+
+        # sort the moves lists
+        @compatiblePhysMoves.sort!{ |moveA, moveB|
+            @tutorMovesSorting.call(moveA, moveB)
+        }
+        @compatibleSpecMoves.sort!{ |moveA, moveB|
+            @tutorMovesSorting.call(moveA, moveB)
+        }
+        @compatibleStatusMoves.sort!{ |moveA, moveB|
+            @tutorMovesSorting.call(moveA, moveB)
+        }
     end
 
     def alertToDexTutorListSortMode
@@ -1432,7 +1470,7 @@ sp.form) && !Settings::DEX_SHOWS_ALL_FORMS
                 if @page == 1
                     pbPlayCloseMenuSE
                     break
-                elsif @page == 6 || @page == 7 # Move lists
+                elsif @page == LEVEL_MOVES_PAGE_ID || @page == OTHER_MOVES_PAGE_ID
                     pbPlayDecisionSE
                     pbScroll
                     dorefresh = true
@@ -1446,7 +1484,7 @@ sp.form) && !Settings::DEX_SHOWS_ALL_FORMS
                     else
                         pbPlayBuzzerSE
                     end
-                elsif @page == 10 # Forms
+                elsif @page == FORMS_PAGE_ID # Forms
                     if @available.length > 1
                         pbPlayDecisionSE
                         pbChooseForm
@@ -1544,16 +1582,10 @@ sp.form) && !Settings::DEX_SHOWS_ALL_FORMS
             elsif Input.pressex?(:NUMBER_0)
                 dorefresh = true if moveToPage(10)
             elsif Input.trigger?(Input::SPECIAL)
-                if @page == 7 # Move tutor list
-                    pbPlayDecisionSE
-                    if $PokemonGlobal.dex_tutor_list_sort_mode >= 2
-                        $PokemonGlobal.dex_tutor_list_sort_mode = 0
-                    else
-                        $PokemonGlobal.dex_tutor_list_sort_mode += 1
-                    end
-                    alertToDexTutorListSortMode
+                if @page == OTHER_MOVES_PAGE_ID
+                    toggle_other_moves_list_sort_mode
                     dorefresh = true
-                elsif @page == 10
+                elsif @page == FORMS_PAGE_ID
                     pbPlayDecisionSE
                     @showShinyForms = !@showShinyForms
                     $PokemonGlobal.dex_forms_shows_shinies = @showShinyForms

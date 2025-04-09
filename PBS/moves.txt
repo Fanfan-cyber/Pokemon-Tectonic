@@ -644,7 +644,7 @@ Target = NearOther
 FunctionCode = RapidSpin
 Flags = CanProtect
 EffectChance = 100
-Description = A spin attack that can also eliminate trapping and hazard moves. Also raises the user's Speed.
+Description = A spin attack that can also eliminate trapping and hazards afflicting your side. Also raises the user's Speed.
 #-------------------------------
 [RECOVER]
 Name = Recover

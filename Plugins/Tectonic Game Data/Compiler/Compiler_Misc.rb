@@ -9,6 +9,13 @@ module Compiler
             GameData::Move.get(moveID).signature_of = signatureHolder
         end
 
+        # Pokemon with the TutorAny flag inherit all non signature moves
+        GameData::Move.calculate_all_non_signature_list
+        GameData::Species.each do |speciesData|
+            next unless speciesData.canTutorAny?
+            speciesData.recalculate_learnable_moves
+        end
+
         # Signature abilities
         signatureAbilityInfo = getSignatureAbilities()
 
