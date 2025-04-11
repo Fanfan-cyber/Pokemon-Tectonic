@@ -245,9 +245,10 @@ immuneTypeRealName))
             return false
         end
 
-        if owned_trainer&.party_status_already?(newStatus) && !statusDoublingCurse # Status Clause
-          @battle.pbDisplay(_INTL("It doesn't affect {1} because another Pokémon in the party is already under this status!", pbThis(true))) if showMessages
-          return false
+        # Status Clause
+        if !statusDoublingCurse && owned_trainer&.party_status_already?(newStatus)
+            @battle.pbDisplay(_INTL("It doesn't affect {1} because another Pokémon in the party is already under this status!", pbThis(true))) if showMessages
+            return false
         end
 
         return true
@@ -444,7 +445,6 @@ immuneTypeRealName))
     end
 
     def canSleepYawn?
-
         ret = @battle.apply_field_effect(:status_immunity, self, nil, true)
         return false if ret
 
@@ -468,6 +468,11 @@ immuneTypeRealName))
             end
         end
         return false if pbOwnSide.effectActive?(:Safeguard)
+
+        # Status Clause
+        statusDoublingCurse = pbOwnedByPlayer? && @battle.curseActive?(:CURSE_STATUS_DOUBLED)
+        return false if !statusDoublingCurse && owned_trainer&.party_status_already?(:SLEEP)
+
         return true
     end
 
