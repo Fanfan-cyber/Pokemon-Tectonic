@@ -60,11 +60,13 @@ class PokemonGameInfoMenu < PokemonPauseMenu
     cmdLevelCap      = -1
     cmdMainQuestHelp = -1
     cmdAchievements  = -1
+    cmdQuests        = -1
     infoCommands = []
     infoCommands[cmdMainQuestHelp = infoCommands.length] = _INTL("What Next?") if defined?($main_quest_tracker)
     infoCommands[cmdTrainer       = infoCommands.length] = _INTL("{1}'s Card",$Trainer.name)
     infoCommands[cmdLevelCap      = infoCommands.length] = _INTL("Level Cap") if LEVEL_CAPS_USED && getLevelCap > 0 && $Trainer.party_count > 0
     infoCommands[cmdAchievements  = infoCommands.length] = _INTL("Achievements")
+    infoCommands[cmdQuests        = infoCommands.length] = _INTL("Quests")
     infoCommands.push(_INTL("Cancel"))
 		loop do
 			infoCommand = @scene.pbShowCommands(infoCommands)
@@ -92,6 +94,14 @@ class PokemonGameInfoMenu < PokemonPauseMenu
               screen = AchievementsListScreen.new(achievementsListScene)
               screen.pbStartScreen
           end
+			elsif cmdQuests > - 1 && infoCommand == cmdQuests
+				pbPlayDecisionSE
+				pbFadeOutIn {
+					scene = QuestList_Scene.new
+					screen = QuestList_Screen.new(scene)
+					screen.pbStartScreen
+					@scene.pbRefresh
+				}
       else
 				pbPlayCloseMenuSE
 				break
