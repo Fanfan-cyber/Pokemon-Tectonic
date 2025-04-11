@@ -4738,7 +4738,7 @@ Pokemon = DRAGONITE,57
 #-------------------------------
 [TUBER_F2,Hana]
 Pokemon = AVALUGG,56
-    Moves = FROSTSPIKES,CRUNCH,CALAMITOUSSLASH,AVALANCHE
+    Moves = FROSTSPIKES,CRUNCH,CALAMITOUSSLASH,GLACIALRAM
     AbilityIndex = 0 # Chilled Body
     Item = LEFTOVERS
 Pokemon = MARACTUS,57
@@ -7468,25 +7468,8 @@ Pokemon = DRAGALGE,70
 Pokemon = VAPOREON,70
     Moves = MENDINGSPRING,SCALD,RECOVER,HEALBELL
     AbilityIndex = 1 # Breaking Wave
-#-------------------------------
-[CHALLENGER_Vanya,Vanya,9]
-Flags = NoPerfect
-Pokemon = SKARMORY,70
-    Moves = STEALTHROCK,ROOST,FEATHERWARD,TAILWIND
-    AbilityIndex = 0 # Mental Block
-Pokemon = WEAVILE,70
-    Moves = SEVER,WINTEROPS,SWORDSDANCE,ICESHARD
-    AbilityIndex = 0 # Inner Focus
-Pokemon = GOLURK,70
-    Moves = SIXFEETUNDER,MUDSLIDE,ZAPCANNON,VENOMORTAR
-    AbilityIndex = 1 # No Guard
-Pokemon = DRAGALGE,70
-    Moves = DRAGONTAIL,CRUELTY,RECOVER,GREYMIST
-    AbilityIndex = 0 # Deterrent
-Pokemon = VAPOREON,70
-    Moves = MENDINGSPRING,SCALD,RECOVER,HEALBELL
-    AbilityIndex = 1 # Breaking Wave
 Pokemon = PINCURCHIN,70
+    Moves = EXPLOSION,STUNNINGCURL,SHORTCIRCUIT,THUNDERCAGE
     AbilityIndex = 1 # Spinesplode
 #-------------------------------
 [POKEMONMASTER_Vanya,Vanya]

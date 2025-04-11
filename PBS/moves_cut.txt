@@ -2748,6 +2748,19 @@ Description = The user creates a bizarre area in which Pokémon's Defense and Sp
 #-------------------------------
 #		ICE MOVES
 #-------------------------------
+[AVALANCHE]
+Name = Avalanche
+Type = ICE
+Category = Physical
+Power = 60
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+Priority = -4
+FunctionCode = Invalid
+Flags = CanProtect
+Description = An attack move that inflicts double the damage if the user has been hurt by the foe in the same turn.
+#-------------------------------
 [COLDSNOT]
 Name = Cold Snot
 Type = ICE
@@ -2960,6 +2973,18 @@ Target = AllNearOthers
 FunctionCode = Invalid
 Flags = CanProtect,CanMagicCoat
 Description = Darkness rolls over the field, damaging all other Pokémon, ending weather, and healing statuses.
+#-------------------------------
+[DARKVOID]
+Name = Dark Void
+Type = DARK
+Category = Status
+Accuracy = 100
+TotalPP = 1
+Target = AllNearFoes
+Priority = -1
+FunctionCode = Invalid
+Flags = CanProtect,CanMagicCoat
+Description = Targets are dragged into a world of total darkness that makes them sleep. This move always goes last.
 #-------------------------------
 [EMBARGO]
 Name = Embargo

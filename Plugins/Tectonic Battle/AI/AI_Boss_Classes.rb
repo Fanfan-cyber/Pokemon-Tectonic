@@ -405,10 +405,15 @@ end
 class PokeBattle_AI_DARKRAI < PokeBattle_AI_Boss
     def initialize(user, battle)
         super
-        @dangerMoves.push(:DARKVOID)
-        @wholeRound.push(:DARKVOID)
-        everyOtherTurn(:DARKVOID)
-        @requiredMoves.push(:NIGHTMARE)
+        @warnedIFFMove.add(:CALLOFTHEVOID, {
+            :condition => proc { |_move, user, _target, battle|
+                next battle.turnCount % 3 == 0
+            },
+            :warning => proc { |_move, user, _targets, _battle|
+                _INTL("The air around {1} turns dark and distorted.",user.pbThis(true))
+            },
+        })
+        @requiredMoves.push(:LULLABY)
     end
 end
 

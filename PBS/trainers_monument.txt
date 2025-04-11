@@ -566,7 +566,7 @@ Pokemon = REAVOR,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,20,0,0,20,10
 Pokemon = MILOTIC,70
-    Moves = FLIPTURN,AVALANCHE,RECOVER,DRAGONTAIL
+    Moves = FLIPTURN,GLACIALRAM,RECOVER,DRAGONTAIL
     AbilityIndex = 0 # Dramatic Lighting
     Item = POWERLOCK
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def

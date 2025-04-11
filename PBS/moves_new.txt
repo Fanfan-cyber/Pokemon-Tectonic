@@ -5496,7 +5496,7 @@ Accuracy = 0
 TotalPP = 10
 Target = BothSides
 FunctionCode = StartSwapOffensiveAndDefensiveStats5
-Description = The user creates an odd area in which Pokémon's offensive and Defense and Sp. Def are swapped.
+Description = The user creates an odd area in which Pokémon's offensive and defensive stats are swapped.
 Animation = MAGICROOM
 #-------------------------------
 [OMNISCIENTBLOW]
@@ -6101,7 +6101,7 @@ Animation = ICEBEAM
 [SUPERCOOL]
 Name = Supercool
 Type = ICE
-Category = Special
+Category = Physical
 Power = 100
 Accuracy = 50
 TotalPP = 5
@@ -6109,7 +6109,7 @@ Target = NearOther
 FunctionCode = Frostbite
 Flags = CanProtect
 EffectChance = 100
-Description = The user overwhelmes the target with a frigid ray, frostbiting it.
+Description = The user saps all the target's heat with a frigid touch, frostbiting it.
 #-------------------------------
 [THERMALDRAIN]
 Name = Thermal Drain
@@ -6494,6 +6494,18 @@ FunctionCode = Bully
 Flags = CanProtect
 Description = This attack deals 50% more damage if the target has any raised or lowered stat steps.
 Animation = PUNISHMENT
+#-------------------------------
+[CALLOFTHEVOID]
+Name = Call of the Void
+Type = DARK
+Category = Status
+Accuracy = 100
+TotalPP = 1
+Target = AllNearFoes
+FunctionCode = SleepTargetNextTurn
+Flags = CanProtect,CanMagicCoat
+Description = All near foes are dragged into a world of total darkness that makes them drowsy. Only one use per battle.
+Animation = DARKVOID
 #-------------------------------
 [CALTROPARTS]
 Name = Caltrop Arts

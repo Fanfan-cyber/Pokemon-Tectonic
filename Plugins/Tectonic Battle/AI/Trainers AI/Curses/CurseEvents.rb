@@ -118,10 +118,10 @@ class PokeBattle_Battle
         }
         curseBG.visible = false
     end
+end
 
-    def amuletMessageDuration
-        dur = 70
-        dur -= 8 * $Options.textspeed
-        return dur
-    end
+def amuletMessageDuration
+    dur = 70
+    dur -= 8 * $Options.textspeed
+    return dur
 end

@@ -5609,19 +5609,6 @@ FunctionCode = StartWeakenDamageAgainstUserSideIfInHail5
 Flags = CanSnatch
 Description = This move reduces damage from attacks for five turns. This can be used only in hail.
 #-------------------------------
-[AVALANCHE]
-Name = Avalanche
-Type = ICE
-Category = Physical
-Power = 60
-Accuracy = 100
-TotalPP = 10
-Target = NearOther
-Priority = -4
-FunctionCode = DoubleDamageTargetHitUser
-Flags = CanProtect
-Description = An attack move that inflicts double the damage if the user has been hurt by the foe in the same turn.
-#-------------------------------
 [BLIZZARD]
 Name = Blizzard
 Type = ICE
@@ -6167,18 +6154,6 @@ FunctionCode = Flinch
 Flags = CanProtect,Pulse
 EffectChance = 40
 Description = The user releases an aura imbued with dark thoughts. It has a 40% chance to flinch the target.
-#-------------------------------
-[DARKVOID]
-Name = Dark Void
-Type = DARK
-Category = Status
-Accuracy = 100
-TotalPP = 1
-Target = AllNearFoes
-Priority = -1
-FunctionCode = SleepTargetIfUserDarkrai
-Flags = CanProtect,CanMagicCoat
-Description = Targets are dragged into a world of total darkness that makes them sleep. This move always goes last.
 #-------------------------------
 [FAKETEARS]
 Name = Fake Tears
