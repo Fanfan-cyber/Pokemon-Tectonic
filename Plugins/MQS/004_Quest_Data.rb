@@ -195,4 +195,94 @@ module QuestModule
     :QuestDescription => _INTL("[Placeholder]."),
   }
 
+  # Gym Leader Avatars
+
+  QUEST_GYM_AVATARS_1 = {
+    :ID => "16",
+    :Name => _INTL("The Lightning God"),
+    :QuestGiver => _INTL("Lambert"),
+    :Stage1 => _INTL("Defeat what lurks behind the door."),
+    :Stage2 => _INTL("Report back about your success."),
+    :Location1 => _INTL("Casaba Villa, Lambert's House"),
+    :Location2 => _INTL("Casaba Villa, Lambert's House"),
+    :QuestDescription => _INTL("[Placeholder]."),
+  }
+
+  QUEST_GYM_AVATARS_2 = {
+    :ID => "17",
+    :Name => _INTL("A Song and a Dance"),
+    :QuestGiver => _INTL("Eko"),
+    :Stage1 => _INTL("Defeat what lurks behind the door."),
+    :Stage2 => _INTL("Report back about your success."),
+    :Location1 => _INTL("Shipping Lane"),
+    :Location2 => _INTL("Novo Gym"),
+    :QuestDescription => _INTL("[Placeholder]."),
+  }
+
+  QUEST_GYM_AVATARS_3 = {
+    :ID => "18",
+    :Name => _INTL("A Nature's Reprieve"),
+    :QuestGiver => _INTL("Helena"),
+    :Stage1 => _INTL("Defeat what lurks behind the door."),
+    :Stage2 => _INTL("Report back about your success."),
+    :Location1 => _INTL("Team Chasm HQ"),
+    :Location2 => _INTL("Luxtech Gym"),
+    :QuestDescription => _INTL("[Placeholder]."),
+  }
+
+  QUEST_GYM_AVATARS_4 = {
+    :ID => "19",
+    :Name => _INTL("The World's Rebirth"),
+    :QuestGiver => _INTL("Rafael"),
+    :Stage1 => _INTL("Defeat what lurks behind the door."),
+    :Stage2 => _INTL("Report back about your success."),
+    :Location1 => _INTL("Velenz, Rafael's House"),
+    :Location2 => _INTL("Velenz, Rafael's House"),
+    :QuestDescription => _INTL("[Placeholder]."),
+  }
+
+  QUEST_GYM_AVATARS_5 = {
+    :ID => "19",
+    :Name => _INTL("The Knight's Weapons"),
+    :QuestGiver => _INTL("Zoe"),
+    :Stage2 => _INTL("Defeat what lurks behind the door."),
+    :Stage3 => _INTL("Report back about your success."),
+    :Location1 => _INTL("Eleig River Crossing, Worn Shed"),
+    :Location2 => _INTL("Eleig River Crossing, Worn Shed"),
+    :QuestDescription => _INTL("[Placeholder]."),
+  }
+
+  QUEST_GYM_AVATARS_6 = {
+    :ID => "20",
+    :Name => _INTL("The Multicolored Stag"),
+    :QuestGiver => _INTL("Noel"),
+    :Stage1 => _INTL("Defeat what lurks behind the door."),
+    :Stage2 => _INTL("Report back about your success."),
+    :Location1 => _INTL("Ancient Sewers"),
+    :Location2 => _INTL("Prizca East Gym"),
+    :QuestDescription => _INTL("[Placeholder]."),
+  }
+
+  QUEST_GYM_AVATARS_7 = {
+    :ID => "21",
+    :Name => _INTL("A Meteoric Being"),
+    :QuestGiver => _INTL("Victoire"),
+    :Stage1 => _INTL("Defeat what lurks behind the door."),
+    :Stage2 => _INTL("Report back about your success."),
+    :Location1 => _INTL("Sweetrock Harbor"),
+    :Location2 => _INTL("Sweetrock Harbor Gym"),
+    :QuestDescription => _INTL("[Placeholder]."),
+  }
+
+  QUEST_GYM_AVATARS_8 = {
+    :ID => "22",
+    :Name => _INTL("The Mythical Serpent"),
+    :QuestGiver => _INTL("Samorn"),
+    :Stage1 => _INTL("Defeat what lurks behind the door."),
+    :Stage2 => _INTL("Report back about your success."),
+    :Location1 => _INTL("Kilna Ascent"),
+    :Location2 => _INTL("Team Chasm HQ Gym"),
+    :QuestDescription => _INTL("[Placeholder]."),
+  }
+
 end
