@@ -555,7 +555,7 @@ class PokeBattle_Battler
     end
 
     def initialItems
-        return @battle.initialItems[@index & 1][@pokemonIndex]
+        return @battle.initialItems[@index & 1][@pokemonIndex] || []
     end
 
     def setInitialItems(newItem)
