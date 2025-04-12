@@ -40435,21 +40435,21 @@ Prevents half the self-damage from recoil. Powers up moves that have recoil dama
 Summons rainstorm for four turns when hit by an attack.
 受到攻击时，召唤持续四回合的暴雨。
 Upon entry, summons a Turbulent Sky on the Pokémon's side for 6 turns.
-进入战斗后，制造一个持续六回合的乱流高空。
+进入战斗后，制造一个持续六回合的动荡之空。
 Ignores Abilities that would affect its moves. Its attacks can't be redirected to new targets.
 无视会影响到它技能的特性，且必定攻击选定的对手。
 Makes foes stressed and unable to use their items.
 使对手的物品失效。
 In rainstorm, each of its hits is followed by an extra hit at 25% power.
-在暴雨天气中，每次命中都会增加下一次攻击的伤害。
+在雨天时，会以 25% 的威力进行一次额外的攻击。
 Prevents its stats from being lowered by more than 1 step at a time.
 每次降低属性不会超过一级。
 Ignores Abilities that would affect its moves. Dizzies opponents that it hits below half health.
-无视会影响到它技能的特性，如果攻击后对手的HP低于一半，将陷入混乱中。
+无视会影响到它技能的特性，如果攻击后对手的HP低于一半，对手将陷入混乱。
 Changes the weather to Blood Moon, which heralds the Full Blood Moon. Lingers for 3 turns after leaving.
 将天气改变为血月，离场后依然能持续三回合。
 The Pokémon benefits twice as much from style points.
-在战斗中获得的风格点加倍。
+让风格点数的加成加倍。
 Upon entry, creates a Trick Room for five turns, inverting the effect of Speed.
 进入战斗后，创建一个持续五回合的戏法空间。
 Powers up Ice-type moves by 50%.
@@ -40571,7 +40571,7 @@ Draws in moves from foes with base power 100 or more. Takes 15% less move damage
 Uses Power Split upon entry or when hit by a move.
 进入战斗或被命中时，使用力量平分。
 Upon entry, summons a Primal Forest on the Pokémon's side for 6 turns.
-进入战斗时，召唤持续六个回合的原始森林。
+进入战斗时，召唤持续六个回合的原始之森。
 Upon entry, creates a Willful Room for five turns, reducing all hits by 30 damage.
 进入战斗后，召唤持续五回合的意志空间，降低所有技能30伤害。
 During hail, immune to Fire- and Electric-type moves.
@@ -49210,7 +49210,7 @@ The effects of the {1} prevent status moves from being used!
 {1} cannot use moves of their own types!
 {1}不能使用自己属性的技能！
 {1} can't use the same type twice in a row due to the turbulent sky!
-{1}由于天空动荡 不能连续两次使用！
+{1}由于动荡之空不能连续两次使用！
 {1} must recharge!
 {1}必须重新充能！
 {1} is still attached to {2}!
@@ -49254,7 +49254,7 @@ It doesn't affect {1} since Dark-types are immune to pranks...
 {1}'s rage is building!
 {1}的怒火正在积聚！
 {1} communes with the primal forest!
-{1}正在与原始森林交流！
+{1}正在与原始之森交流！
 {1}'s stance made {2}'s attack bounce off akwardly!
 {1}的姿态使得{2}的攻击被尴尬地弹开了!
 The roots guarding {1} dig into {2}!
@@ -49802,11 +49802,11 @@ The fog on {1}'s side was dispelled!
 The Swamp on {1}'s side dissipated.
 {1}这边的沼泽消失了。
 A primal forest surrounded {1}!
-原始森林环绕着 {1}！
+原始之森环绕着 {1}！
 The primal forest on {1}'s side was removed!
-{1}这边的原始森林消失了！
+{1}这边的原始之森消失了！
 The primal forest on {1}'s side shriveled up.
-{1}附近的原始森林枯萎了。
+{1}附近的原始之森枯萎了。
 {1} was enclosed in a cocoon of scales!
 {1}被包裹在鳞片组成的茧中！
 The cocoon enclosing {1}'s side was removed!
@@ -49814,13 +49814,13 @@ The cocoon enclosing {1}'s side was removed!
 The cocoon enclosing {1}'s side dried up.
 包裹{1}的茧壳干瘪了！
 {1} was healed by the cruel cocoon at the expense of its PP!
-{1}被残酷的茧以牺牲其PP为代价治愈了！
+{1}被残酷之茧以牺牲其PP为代价治愈了！
 A turbulent sky appeared above {1}!
-{1}上方出现了动荡的天空！
+{1}上方出现了动荡之空！
 The turbulent sky above {1}'s side was calmed!
-{1}头顶上的天空平静下来了！
+{1}头顶上动荡之空平静下来了！
 The turbulent sky above {1}'s side calmed down.
-{1}头顶上的天空平静下来了！
+{1}头顶上动荡之空平静下来了！
 A Tailwind blew from behind {1}!
 一阵顺风从后方吹来！
 It will last forever!
@@ -54670,15 +54670,15 @@ Tch, don't have one? They sell them in the castle courtyard. Diego's something o
 A tattered notebook sits on the table.
 桌上放着一本破旧的笔记本。
 It's titled "Tapu Log Book."
-标题是 "塔普日志"
+标题是 "卡普日志"
 Notes: Cruel Cocoon
-备注：残酷之茧
+笔记：残酷之茧
 Notes: Turbulent Sky
-备注：乱流高空
+笔记：动荡之空
 Notes: Primal Forest
-备注：原始森林
+笔记：原始之森
 Notes: Misdirecting Fog
-备注：迷惑之雾
+笔记：迷惑之雾
 Stop Reading
 停止阅读
 Which section would you like to read?
@@ -54690,13 +54690,13 @@ At the end of each turn, it heals Pokémon on its side by 1/8th of their max HP.
 However, they also lose 1 PP from each of their moves. Cruel indeed.
 但这也会让所有技能的PP降低，这就是其残酷的地方。
 Tapu Koko's ability "Storm Totem" creates a "Turbulent Sky" upon entry that only affects its side and lasts for 6 turns.
-卡璞 · 鸣鸣的特性“暴风图腾”，会在进入战斗时制造一个持续六回合，且只影响己方的“乱流高空”。
+卡璞 · 鸣鸣的特性“暴风图腾”，会在进入战斗时制造一个持续六回合，且只影响己方的“动荡之空”。
 Pokémon on its side get a 30% move damage boost, but they are prevented from using moves that are the same type as the move they most recently used.
 其同侧的精灵获得30%的技能伤害提升，但他们无法使用与最近使用的技能相同属性的技能。
 Or, to state it another way, they can't use the same move type twice in a row.
 只要上回合使用了某种属性的技能，下回合同属性就会被禁止。
 Tapu Bulu's ability "Wild Totem" creates a "Primal Forest" upon entry that only affects its side and lasts for 6 turns.
-卡璞 · 哞哞的特性“荒野图腾”，会在进入战斗时制造一个持续六回合，且只影响己方的“原始森林”。
+卡璞 · 哞哞的特性“荒野图腾”，会在进入战斗时制造一个持续六回合，且只影响己方的“原始之森”。
 Whenever a Pokémon on its side is hit by an offensive attack, it becomes enraged.
 每当其同侧的精灵被攻击命中时，它会陷入狂暴状态。
 Thereby, its defense stats are both lowered by 1 step and its attack stats are both raised by 1 step.
@@ -59231,17 +59231,17 @@ Sticky Web
 Misdirecting Fog
 迷惑之雾
 Primal Forest
-原始森林
+原始之森
 Cruel Cocoon
 残酷之茧
 Turbulent Sky
-乱流高空
+动荡之空
 Last Round Fainted
-最后的晕厥
+最后回合濒死
 Spent Tyrannical Immunity
 耗尽的暴君免疫
 Tailwind Turns
-顺风
+顺风回合
 Items Supressed
 物品被压制
 Bulwark
