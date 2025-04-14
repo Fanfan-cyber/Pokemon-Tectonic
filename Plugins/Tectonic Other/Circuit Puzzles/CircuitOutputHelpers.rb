@@ -49,7 +49,7 @@ end
 ##########################################################
 
 def circuitTutorialBasic(eventIDs)
-    solved = circuitPuzzle(:TUTORIAL_BASIC)
+    solved, state = circuitPuzzle(:TUTORIAL_BASIC)
 
     if solved
         setSwitchesAll(eventIDs,'A',true)
@@ -61,7 +61,7 @@ def circuitTutorialBasic(eventIDs)
 end
 
 def circuitTutorialResistors(eventIDs)
-    solved = circuitPuzzle(:TUTORIAL_RESISTORS)
+    solved, state = circuitPuzzle(:TUTORIAL_RESISTORS)
 
     if solved
         setSwitchesAll(eventIDs,'A',true)
@@ -77,7 +77,7 @@ end
 ##########################################################
 
 def circuitWaveLengthExit(mapEventIDs,oasisEventIDs)
-    solved = circuitPuzzle(:WL_EXIT)
+    solved, state = circuitPuzzle(:WL_EXIT)
 
     if solved
         setSwitchesAll(mapEventIDs,'A',true)
@@ -88,7 +88,7 @@ def circuitWaveLengthExit(mapEventIDs,oasisEventIDs)
 end
 
 def circuitWaveLengthPrison(mapEventIDs,integrationEventIDs)
-    solved = circuitPuzzle(:WL_PRISON)
+    solved, state = circuitPuzzle(:WL_PRISON)
 
     if solved
         setSwitchesAll(mapEventIDs,'A',true)
@@ -102,7 +102,7 @@ end
 ##########################################################
 
 def circuitReadOnlyExit(mapEventIDs,oasisEventIDs)
-    solved = circuitPuzzle(:RO_EXIT)
+    solved, state = circuitPuzzle(:RO_EXIT)
 
     if solved
         setSwitchesAll(mapEventIDs,'A',true)
@@ -113,7 +113,7 @@ def circuitReadOnlyExit(mapEventIDs,oasisEventIDs)
 end
 
 def circuitReadOnlyPrison(mapEventIDs,integrationEventIDs)
-    solved = circuitPuzzle(:RO_PRISON)
+    solved, state = circuitPuzzle(:RO_PRISON)
 
     if solved
         setSwitchesAll(mapEventIDs,'A',true)
@@ -127,17 +127,19 @@ end
 ##########################################################
 
 def circuitTerminalConfusionExit(mapEventIDs,oasisEventIDs)
-    solved = circuitPuzzle(:TC_EXIT)
+    solved, state = circuitPuzzle(:TC_EXIT)
 
     if solved
         setSwitchesAll(mapEventIDs,'A',true)
         setSwitchesAll(oasisEventIDs,'A',true,OASIS_SYSTEM_MAP_ID)
         electricFenceDectivates
+    else
+        setSwitchesAll(mapEventIDs,'A',state>12)
     end
 end
 
 def circuitTerminalConfusionPrison(mapEventIDs,integrationEventIDs)
-    solved = circuitPuzzle(:TC_PRISON)
+    solved, state = circuitPuzzle(:TC_PRISON)
 
     if solved
         setSwitchesAll(mapEventIDs,'A',true)
@@ -150,7 +152,7 @@ end
 ### INTEGRATION CHAMBER
 ##########################################################
 def circuitIntegrationChamberWave
-    solved = circuitPuzzle(:IC_WAVE)
+    solved, state = circuitPuzzle(:IC_WAVE)
 
     if solved
         # TODO
@@ -158,7 +160,7 @@ def circuitIntegrationChamberWave
 end
 
 def circuitIntegrationChamberMaze
-    solved = circuitPuzzle(:IC_ELECTRIC_MAZE)
+    solved, state = circuitPuzzle(:IC_ELECTRIC_MAZE)
 
     if solved
         # TODO
@@ -166,7 +168,7 @@ def circuitIntegrationChamberMaze
 end
 
 def circuitIntegrationChamberAvatarCage
-    solved = circuitPuzzle(:IC_AVATAR_CAGE)
+    solved, state = circuitPuzzle(:IC_AVATAR_CAGE)
 
     if solved
         # TODO
