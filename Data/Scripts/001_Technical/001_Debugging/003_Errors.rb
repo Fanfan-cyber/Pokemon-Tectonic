@@ -31,7 +31,7 @@ def pbPrintException(e)
   # begin message formatting
   message = "[Pokémon Essentials version #{Essentials::VERSION || ""}]\r\n"
   begin
-    gameVersion = Settings::GAME_VERSION
+    gameVersion = MOD_VERSION #Settings::GAME_VERSION
   rescue
     gameVersion = "UNKNOWN"
   end

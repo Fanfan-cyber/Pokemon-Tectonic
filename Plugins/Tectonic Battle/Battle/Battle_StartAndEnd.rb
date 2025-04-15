@@ -311,7 +311,7 @@ class PokeBattle_Battle
         rescue BattleAbortedException
             @decision = 0
             @scene.pbEndBattle(@decision)
-        rescue StandardError
+        rescue NoMethodError, StandardError
             pbMessage(_INTL("\\wmA major error has occured! Please screen-shot the following error message and share it in our bug channel."))
             pbPrintException($!)
             pbMessage(_INTL("\\wmRather than crashing, we will give the victory to you."))
