@@ -1259,7 +1259,7 @@ Accuracy = 100
 TotalPP = 5
 Target = NearOther
 FunctionCode = TwoTurnAttackRechargeSkippedIfTargetLeaves
-Flags = CanProtect,Bite,Uninvocable
+Flags = CanProtect,Biting,Uninvocable
 Description = Grips the target with its entire mouth. The user can't attack next turn unless the target faints or switches out.
 #-------------------------------
 [DISSOLUTION]
@@ -1361,7 +1361,7 @@ Accuracy = 100
 TotalPP = 30
 Target = NearOther
 FunctionCode = Poison
-Flags = CanProtect,Bite
+Flags = CanProtect
 EffectChance = 10
 Description = The user stabs the opponent with a toxin-infused limb. It has a 10% chance to poison.
 Animation = POISONJAB

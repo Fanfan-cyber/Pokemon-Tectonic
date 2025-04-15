@@ -244,7 +244,7 @@ module QuestModule
   QUEST_GYM_AVATARS_5 = {
     :ID => "19",
     :Name => _INTL("Neath Rust and Time"),
-    :QuestGiver => _INTL("Zoe"),
+    :QuestGiver => _INTL("Zoé"),
     :Stage2 => _INTL("Defeat what lurks behind the door."),
     :Stage3 => _INTL("Report back about your success."),
     :Location1 => _INTL("Eleig River Crossing, Worn Shed"),
