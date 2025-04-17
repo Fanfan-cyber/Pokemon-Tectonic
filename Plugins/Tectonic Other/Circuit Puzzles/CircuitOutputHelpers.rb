@@ -151,26 +151,71 @@ end
 ##########################################################
 ### INTEGRATION CHAMBER
 ##########################################################
-def circuitIntegrationChamberWave
+def circuitIntegrationChamberWave(mapEventID)
     solved, state = circuitPuzzle(:IC_WAVE)
 
-    if solved
-        # TODO
+    case state
+    when 0
+        pbSEPlay("GUI storage put down", 140, 70)
+        pbSetAllSwitches(mapEventID, false)
+    when 1
+        pbSEPlay("GUI storage put down", 140, 70)
+        pbSetOnlySwitch(mapEventID,'A')
+    when 2
+        pbSEPlay("GUI storage put down", 140, 70)
+        pbSetOnlySwitch(mapEventID,'B')
+    when 3
+        pbSEPlay("GUI storage put down", 140, 70)
+        pbSetOnlySwitch(mapEventID,'C')
     end
 end
 
-def circuitIntegrationChamberMaze
-    solved, state = circuitPuzzle(:IC_ELECTRIC_MAZE)
-
-    if solved
-        # TODO
-    end
-end
-
-def circuitIntegrationChamberAvatarCage
+def circuitIntegrationChamberCage(puzzleEventID,fenceEventID)
     solved, state = circuitPuzzle(:IC_AVATAR_CAGE)
 
+    # Enable or disable puzzle
+    pbSetSelfSwitch(puzzleEventID,'B',solved || state > 5)
+    pbSEPlay("GUI storage put down", 140, 70)
+
+    # Enable or disable barrier
+    if solved || [4,5,6].include?(state)
+        pbSetSelfSwitch(fenceEventID,'A',true)
+        electricFenceDectivates
+    else
+        pbSetSelfSwitch(fenceEventID,'A',false)
+        electricFenceActivates
+    end
+end
+
+def circuitIntegrationChamberMaze(barrierEventIDs)
+    solved, state = circuitPuzzle(:IC_ELECTRIC_MAZE)
+
+    pbSetSelfSwitch(barrierEventIDs[0],'A',[0,1,2,3,4,7].include?(state))
+    pbSetSelfSwitch(barrierEventIDs[1],'A',[0,1,2,3,4,5,6].include?(state))
+    pbSetSelfSwitch(barrierEventIDs[2],'A',![7,8].include?(state))
+    pbSetSelfSwitch(barrierEventIDs[3],'A',![7,8].include?(state))
+
+    electricFenceActivates
+end
+
+def circuitIntegrationChamberExit(puzzleEventID,fenceEventID,signal1EventID,signal2EventID)
+    solved, state = circuitPuzzle(:IC_EXIT)
+
     if solved
-        # TODO
+        pbSetSelfSwitch(puzzleEventID,'B') # Enable puzzle
+        pbSetSelfSwitch(fenceEventID,'A') # Disable fence
+        pbSetSelfSwitch(signal1EventID,'A') # Enable signal 1
+        pbSetSelfSwitch(signal2EventID,'A',true,406) # Disable signal 2
+        electricFenceDectivates 
+    else
+        case state
+        when 0
+            pbSetSelfSwitch(puzzleEventID,'B') # Enable puzzle
+        when 2
+            pbSetSelfSwitch(fenceEventID,'A') # Disable fence
+            pbSetSelfSwitch(signal1EventID,'A') # Enable signal 1
+            pbSetSelfSwitch(signal2EventID,'A',true,406) # Disable signal 2
+            electricFenceDectivates
+        end
     end
 end

@@ -61,6 +61,13 @@ DebugMenuCommands.register("waypoints", {
   "always_show" => true,
 })
 
+DebugMenuCommands.register("quests", {
+  "parent"      => "main",
+  "name"        => _INTL("Quests..."),
+  "description" => _INTL("Edit information about quests."),
+  "always_show" => true,
+})
+
 DebugMenuCommands.register("othermenu", {
     "parent"      => "main",
     "name"        => _INTL("Other options..."),

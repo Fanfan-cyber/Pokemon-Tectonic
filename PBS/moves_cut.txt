@@ -305,6 +305,18 @@ FunctionCode = Invalid
 Flags = CanProtect,CanMagicCoat
 Description = Enables the user to hit a Ghost type with any kind of move. It also enables the user to hit an evasive foe.
 #-------------------------------
+[FRESHSTART]
+Name = Fresh Start
+Type = NORMAL
+Category = Status
+Accuracy = 0
+TotalPP = 12
+Target = NearOther
+FunctionCode = Invalid
+Flags = CanSnatch
+Description = The user reinvigorates itself, healing to full. Only works the first turn the user is in battle.
+Animation = RECOVER
+#-------------------------------
 [FRUSTRATION]
 Name = Frustration
 Type = NORMAL
@@ -1356,6 +1368,18 @@ Flags = CanProtect
 Description = The user spins a sandstorm around the target, trapping and damaging it for three turns.
 #-------------------------------
 #		ROCK MOVES
+#-------------------------------
+[HEADSMASH]
+Name = Head Smash
+Type = ROCK
+Category = Physical
+Power = 120
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = Invalid
+Flags = CanProtect
+Description = The user attacks the foe with a hazardous, full-power headbutt. The user also takes 50% recoil.
 #-------------------------------
 [ROCKSLIDE]
 Name = Rock Slide

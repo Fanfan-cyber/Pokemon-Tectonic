@@ -7,16 +7,16 @@ class Quest
   attr_accessor :time
   attr_accessor :location
   attr_accessor :new
-  attr_accessor :color
+  attr_accessor :colorID
   attr_accessor :story
 
-  def initialize(id,color,story)
+  def initialize(id,colorID,story)
     self.id       = id
     self.stage    = 1
     self.time     = Time.now
     self.location = $game_map.name
     self.new      = true
-    self.color    = color
+    self.colorID  = colorID
     self.story    = story
   end
   
@@ -43,127 +43,182 @@ class Player_Quests
     @failed_quests     = []
     @selected_quest_id = 0
   end
+
+  def reset
+    @active_quests     = []
+    @completed_quests  = []
+    @failed_quests     = []
+    @selected_quest_id = 0
+  end
   
   # questID should be the symbolic name of the quest, e.g. :Quest1
-  def activateQuest(quest,color,story)
-    if !quest.is_a?(Symbol)
+  def activateQuest(quest,color=0,story=false,skipAlert: false)
+    unless quest.is_a?(Symbol)
       raise _INTL("The 'quest' argument should be a symbol, e.g. ':Quest1'.")
     end
     for i in 0...@active_quests.length
       if @active_quests[i].id == quest
-        pbMessage(_INTL("You have already started this quest."))
-        return
+        pbMessage(_INTL("You have already started this quest.")) unless skipAlert
+        return false
       end
     end
     for i in 0...@completed_quests.length
       if @completed_quests[i].id == quest
-        pbMessage(_INTL("You have already completed this quest."))
-        return
+        pbMessage(_INTL("You have already completed this quest.")) unless skipAlert
+        return false
       end
     end
     for i in 0...@failed_quests.length
       if @failed_quests[i].id == quest
-        pbMessage(_INTL("You have already failed this quest."))
-        return
+        pbMessage(_INTL("You have already failed this quest.")) unless skipAlert
+        return false
       end
     end
     @active_quests.push(Quest.new(quest,color,story))
-    pbMessage(_INTL("\\se[{1}]<ac><c2={2}>New quest discovered!</c2>\nCheck your quest log for more details!</ac>",QUEST_JINGLE, colorQuest("red")))
+    unless skipAlert
+      questAlert(_INTL("New quest discovered!"))
+    end
+    return true
   end
   
-  def failQuest(quest,color,story)
-    if !quest.is_a?(Symbol)
+  def failQuest(quest,color=0,story=false,skipAlert: false)
+    unless quest.is_a?(Symbol)
       raise _INTL("The 'quest' argument should be a symbol, e.g. ':Quest1'.")
     end
-    found = false
     for i in 0...@completed_quests.length
       if @completed_quests[i].id == quest
         pbMessage(_INTL("You have already completed this quest."))
-        return
+        return false
       end
     end
     for i in 0...@failed_quests.length
       if @failed_quests[i].id == quest
         pbMessage(_INTL("You have already failed this quest."))
-        return
+        return false
       end
     end 
+    found = false
     for i in 0...@active_quests.length
       if @active_quests[i].id == quest
         temp_quest = @active_quests[i]
-        temp_quest.color = color if color != nil
+        temp_quest.color = color if color
         temp_quest.new = true # Setting this back to true makes the "!" icon appear when the quest updates
         temp_quest.time = Time.now
         @failed_quests.push(temp_quest)
         @active_quests.delete_at(i)
         found = true
-        pbMessage(_INTL("\\se[{1}]<ac><c2={2}>Quest failed!</c2>\nYour quest log has been updated!</ac>",QUEST_FAIL, colorQuest("red")))
+        questAlert(_INTL("Quest failed!")) unless skipAlert
         break
       end
     end
-    if !found
-      color = colorQuest(nil) if color == nil
+    unless found
       @failed_quests.push(Quest.new(quest,color,story))
     end
+    return true
   end
   
-  def completeQuest(quest,color,story)
-    if !quest.is_a?(Symbol)
+  def completeQuest(quest,color=0,story=false,skipAlert: false)
+    unless quest.is_a?(Symbol)
       raise _INTL("The 'quest' argument should be a symbol, e.g. ':Quest1'.")
     end
     found = false
     for i in 0...@completed_quests.length
       if @completed_quests[i].id == quest
         pbMessage(_INTL("You have already completed this quest."))
-        return
+        return false
       end
     end
     for i in 0...@failed_quests.length
       if @failed_quests[i].id == quest
         pbMessage(_INTL("You have already failed this quest."))
-        return
+        return false
       end
     end  
     for i in 0...@active_quests.length
       if @active_quests[i].id == quest
         temp_quest = @active_quests[i]
-        temp_quest.color = color if color != nil
+        temp_quest.color = color if color
         temp_quest.new = true # Setting this back to true makes the "!" icon appear when the quest updates
         temp_quest.time = Time.now
         @completed_quests.push(temp_quest)
         @active_quests.delete_at(i)
         found = true
-        pbMessage(_INTL("\\se[{1}]<ac><c2={2}>Quest completed!</c2>\nYour quest log has been updated!</ac>",QUEST_JINGLE, colorQuest("red")))
+        questAlert(_INTL("Quest completed!")) unless skipAlert
         break
       end
     end
-    if !found
-      color = colorQuest(nil) if color == nil
+    unless found
       @completed_quests.push(Quest.new(quest,color,story))
     end
+    return true
   end
   
-  def advanceQuestToStage(quest,stageNum,color,story)
-    if !quest.is_a?(Symbol)
+  def advanceQuestToStage(quest,stageNum,color=0,story=false,skipAlert: true)
+    unless quest.is_a?(Symbol)
       raise _INTL("The 'quest' argument should be a symbol, e.g. ':Quest1'.")
+    end
+    if $quest_data.getMaxStagesForQuest(quest) < stageNum
+      raise _INTL("Stage number {1} is too high for quest '{2}'.",stageNum,$quest_data.getName(quest))
     end
     found = false
     for i in 0...@active_quests.length
       if @active_quests[i].id == quest
         @active_quests[i].stage = stageNum
-        @active_quests[i].color = color if color != nil
+        @active_quests[i].color = color if color
         @active_quests[i].new = true # Setting this back to true makes the "!" icon appear when the quest updates
         found = true
-        pbMessage(_INTL("\\se[{1}]<ac><c2={2}>New task added!</c2>\nYour quest log has been updated!</ac>",QUEST_JINGLE, colorQuest("red")))
+        questAlert(_INTL("Quest updated with the next task!")) unless skipAlert
       end
-      return if found
+      return true if found
     end
-    if !found
-      color = colorQuest(nil) if color == nil
+    unless found
       questNew = Quest.new(quest,color,story)
       questNew.stage = stageNum
       @active_quests.push(questNew)
     end
+    return true
+  end
+
+  def advanceQuest(quest,color=0,story=false,skipAlert: true)
+    unless quest.is_a?(Symbol)
+      raise _INTL("The 'quest' argument should be a symbol, e.g. ':Quest1'.")
+    end
+    for i in 0...@completed_quests.length
+      if @completed_quests[i].id == quest
+        pbMessage("You have already completed this quest.")
+        return false
+      end
+    end
+    for i in 0...@failed_quests.length
+      if @failed_quests[i].id == quest
+        pbMessage("You have already failed this quest.")
+        return false
+      end
+    end 
+    found = false
+    for i in 0...@active_quests.length
+      if @active_quests[i].id == quest
+        if @active_quests[i].stage >= $quest_data.getMaxStagesForQuest(quest)
+          return completeQuest(quest,color,story,skipAlert: skipAlert)
+        end
+        @active_quests[i].stage += 1
+        @active_quests[i].color = color if color
+        @active_quests[i].new = true # Setting this back to true makes the "!" icon appear when the quest updates
+        found = true
+        questAlert(_INTL("Quest updated with the next task!")) unless skipAlert
+      end
+      return true if found
+    end
+    unless found
+      questNew = Quest.new(quest,color,story)
+      questNew.stage = 1
+      @active_quests.push(questNew)
+    end
+    return true
+  end
+
+  def questAlert(text)
+    pbMessage(_INTL("\\wm\\se[{1}]<ac>\\c[2]{2}</c>\nCheck your quest log for more details!</ac>",QUEST_JINGLE,text))
   end
 end
 
@@ -172,7 +227,7 @@ end
 #===============================================================================
 class PokemonGlobalMetadata  
   def quests
-    @quests = Player_Quests.new if !@quests
+    @quests = Player_Quests.new unless @quests
     return @quests
   end
   
@@ -188,27 +243,33 @@ end
 #===============================================================================
 
 # Helper function for activating quests
-def activateQuest(quest,color=colorQuest(nil),story=false)
-  return if !$PokemonGlobal
-  $PokemonGlobal.quests.activateQuest(quest,color,story)
+def activateQuest(quest,color=0,story=false,skipAlert: false)
+  return unless $PokemonGlobal
+  return $PokemonGlobal.quests.activateQuest(quest,color,story,skipAlert: skipAlert)
 end
 
 # Helper function for marking quests as completed
-def completeQuest(quest,color=nil,story=false)
-  return if !$PokemonGlobal
-  $PokemonGlobal.quests.completeQuest(quest,color,story)
+def completeQuest(quest,color=0,story=false,skipAlert: false)
+  return unless $PokemonGlobal
+  return $PokemonGlobal.quests.completeQuest(quest,color,story,skipAlert: skipAlert)
 end
 
 # Helper function for marking quests as failed
-def failQuest(quest,color=nil,story=false)
-  return if !$PokemonGlobal
-  $PokemonGlobal.quests.failQuest(quest,color,story)
+def failQuest(quest,color=0,story=false,skipAlert: false)
+  return unless $PokemonGlobal
+  return $PokemonGlobal.quests.failQuest(quest,color,story,skipAlert: skipAlert)
 end
 
 # Helper function for advancing quests to given stage
-def advanceQuestToStage(quest,stageNum,color=nil,story=false)
-  return if !$PokemonGlobal
-  $PokemonGlobal.quests.advanceQuestToStage(quest,stageNum,color,story)
+def advanceQuestToStage(quest,stageNum,color=0,story=false,skipAlert: true)
+  return unless $PokemonGlobal
+  return $PokemonGlobal.quests.advanceQuestToStage(quest,stageNum,color,story,skipAlert: skipAlert)
+end
+
+# Helper function for advancing quests to the next stage
+def advanceQuest(quest,color=0,story=false,skipAlert: true)
+  return unless $PokemonGlobal
+  return $PokemonGlobal.quests.advanceQuest(quest,color,story,skipAlert: skipAlert)
 end
 
 # Get symbolic names of active quests
@@ -239,6 +300,10 @@ def getFailedQuests
     failed.push(s.id)
   end
   return failed
+end
+
+def completedQuest?(matchQuest)
+  return getCompletedQuests.any? {|questID| questID == matchQuest}
 end
 
 #===============================================================================

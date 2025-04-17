@@ -3,7 +3,6 @@ module QuestModule
   # Major NPC Side Quests
   
   QUEST_IMOGENE = {
-    :ID => "0",
     :Name => _INTL("Impostor/Imperatrice"),
     :Stage1 => _INTL("Find them north of Svait."),
     :Stage2 => _INTL("Find them post surf."),
@@ -17,7 +16,6 @@ module QuestModule
   }
   
   QUEST_ALESSA = {
-    :ID => "1",
     :Name => _INTL("Kayfabe"),
     :Stage1 => _INTL("Find them in the sewers."),
     :Stage2 => _INTL("Find them post surf."),
@@ -31,7 +29,6 @@ module QuestModule
   }
   
   QUEST_SKYLER = {
-    :ID => "2",
     :Name => _INTL("Dear Iconoclast"),
     :Stage1 => _INTL("Find them in Velenz."),
     :Stage2 => _INTL("Find them north east."),
@@ -45,7 +42,6 @@ module QuestModule
   }
   
   QUEST_KEONI = {
-    :ID => "3",
     :Name => _INTL("When in Makya"),
     :Stage1 => _INTL("Find them post surf."),
     :Stage2 => _INTL("Find them in the sewers."),
@@ -59,7 +55,6 @@ module QuestModule
   }
   
   QUEST_EIFION = {
-    :ID => "4",
     :Name => _INTL("Second Chances"),
     :Stage1 => _INTL("Find them near the river."),
     :Stage2 => _INTL("Find them up river."),
@@ -73,7 +68,6 @@ module QuestModule
   }
   
   QUEST_CANDY = {
-    :ID => "5",
     :Name => _INTL("do crimes plz <3"),
     :Stage1 => _INTL("Enter the man's house."),
     :Stage2 => _INTL("Find them at the college."),
@@ -91,7 +85,6 @@ module QuestModule
   # Fetch/Misc Quests
 
   QUEST_LOST_GROWLITHE = {
-    :ID => "6",
     :Name => _INTL("Lost Puppy"),
     :QuestGiver => _INTL("School Kid"),
     :Stage1 => _INTL("Find the Growlithe."),
@@ -102,7 +95,6 @@ module QuestModule
   }
 
   QUEST_HIDE_AND_SEEK = {
-    :ID => "7",
     :Name => _INTL("Hide and Seek"),
     :QuestGiver => _INTL("TM Kid"),
     :Stage1 => _INTL("Find him."),
@@ -114,7 +106,6 @@ module QuestModule
   }
 
   QUEST_DIGIT_SLIPS = {
-    :ID => "8",
     :Name => _INTL("An Inconvenienced Ranger"),
     :QuestGiver => _INTL("Ranger"),
     :Stage1 => _INTL("Find all the digit slips."),
@@ -123,7 +114,6 @@ module QuestModule
   }
 
   QUEST_POKEMON_MASTER = {
-    :ID => "9",
     :Name => _INTL("Breaking Spirits"),
     :QuestGiver => _INTL("Mother"),
     :Stage1 => _INTL("Perfect the fight with the kid."),
@@ -134,7 +124,6 @@ module QuestModule
   }
 
   QUEST_SUS_PACKAGE = {
-    :ID => "10",
     :Name => _INTL("Don't Open It"),
     :QuestGiver => _INTL("Alolan"),
     :Stage1 => _INTL("Find their package."),
@@ -146,7 +135,6 @@ module QuestModule
   }
 
   QUEST_MEMORY_LANE = {
-    :ID => "11",
     :Name => _INTL("Down Memory Lane"),
     :QuestGiver => _INTL("Berry Farmer"),
     :Stage1 => _INTL("Bring the Pokémon to them."),
@@ -156,7 +144,6 @@ module QuestModule
   }
 
   QUEST_AGRAVELER = {
-    :ID => "12",
     :Name => _INTL("Geodude Frenzy!"),
     :QuestGiver => _INTL("Scientist"),
     :Stage1 => _INTL("Defeat the avatar."),
@@ -165,7 +152,6 @@ module QuestModule
   }
 
   QUEST_ABSOLUS = {
-    :ID => "13",
     :Name => _INTL("Foreboding"),
     :QuestGiver => _INTL("Worker"),
     :Stage1 => _INTL("Defeat the Avatar."),
@@ -174,7 +160,6 @@ module QuestModule
   }
 
   QUEST_AEGIS_FRAUD = {
-    :ID => "14",
     :Name => _INTL("Aegis Insurance Fraud"),
     :QuestGiver => _INTL("Jogger?"),
     :Stage1 => _INTL("Find the ID Card."),
@@ -187,7 +172,6 @@ module QuestModule
   }
 
   QUEST_MALASADAS = {
-    :ID => "15",
     :Name => _INTL("Sewer Dining"),
     :QuestGiver => _INTL("Dragon Tamer"),
     :Stage1 => _INTL("Give them 10 Big Malasadas."),
@@ -198,7 +182,6 @@ module QuestModule
   # Gym Leader Avatars
 
   QUEST_GYM_AVATARS_1 = {
-    :ID => "16",
     :Name => _INTL("Peal of Thunder"),
     :QuestGiver => _INTL("Lambert"),
     :Stage1 => _INTL("Defeat what lurks behind the door."),
@@ -209,7 +192,6 @@ module QuestModule
   }
 
   QUEST_GYM_AVATARS_2 = {
-    :ID => "17",
     :Name => _INTL("May I Have this Dance?"),
     :QuestGiver => _INTL("Eko"),
     :Stage1 => _INTL("Defeat what lurks behind the door."),
@@ -220,7 +202,6 @@ module QuestModule
   }
 
   QUEST_GYM_AVATARS_3 = {
-    :ID => "18",
     :Name => _INTL("The Thanks I Get"),
     :QuestGiver => _INTL("Helena"),
     :Stage1 => _INTL("Defeat what lurks behind the door."),
@@ -231,7 +212,6 @@ module QuestModule
   }
 
   QUEST_GYM_AVATARS_4 = {
-    :ID => "19",
     :Name => _INTL("Quietus"),
     :QuestGiver => _INTL("Rafael"),
     :Stage1 => _INTL("Defeat what lurks behind the door."),
@@ -242,7 +222,6 @@ module QuestModule
   }
 
   QUEST_GYM_AVATARS_5 = {
-    :ID => "19",
     :Name => _INTL("Neath Rust and Time"),
     :QuestGiver => _INTL("Zoé"),
     :Stage2 => _INTL("Defeat what lurks behind the door."),
@@ -253,7 +232,6 @@ module QuestModule
   }
 
   QUEST_GYM_AVATARS_6 = {
-    :ID => "20",
     :Name => _INTL("Beneficence"),
     :QuestGiver => _INTL("Noel"),
     :Stage1 => _INTL("Defeat what lurks behind the door."),
@@ -264,7 +242,6 @@ module QuestModule
   }
 
   QUEST_GYM_AVATARS_7 = {
-    :ID => "21",
     :Name => _INTL("L'Enfant du Vide"),
     :QuestGiver => _INTL("Victoire"),
     :Stage1 => _INTL("Defeat what lurks behind the door."),
@@ -275,7 +252,6 @@ module QuestModule
   }
 
   QUEST_GYM_AVATARS_8 = {
-    :ID => "22",
     :Name => _INTL("Kiss of Ascalon"),
     :QuestGiver => _INTL("Samorn"),
     :Stage1 => _INTL("Defeat what lurks behind the door."),
@@ -288,7 +264,6 @@ module QuestModule
   # Avatar Bounties
   
   QUEST_CROBAT = {
-    :ID => "23",
     :Name => _INTL("Bounty: Crobat Avatar"),
     :QuestGiver => _INTL("Ranger"),
     :Stage1 => _INTL("Defeat the Crobat Avatar."),
@@ -299,7 +274,6 @@ module QuestModule
   }
 
   QUEST_BEARTIC = {
-    :ID => "24",
     :Name => _INTL("Bounty: Beartic Avatar"),
     :QuestGiver => _INTL("Ranger"),
     :Stage1 => _INTL("Defeat the Beartic Avatar."),
@@ -310,7 +284,6 @@ module QuestModule
   }
 
   QUEST_MAROMATISSE = {
-    :ID => "25",
     :Name => _INTL("Bounty: M. Aromatisse Avatar"),
     :QuestGiver => _INTL("Ranger"),
     :Stage1 => _INTL("Defeat the M. Aromatisse Avatar."),
@@ -321,7 +294,6 @@ module QuestModule
   }
 
   QUEST_MONKES = {
-    :ID => "26",
     :Name => _INTL("Bounty: Monkey Trio Avatars"),
     :QuestGiver => _INTL("Ranger"),
     :Stage1 => _INTL("Defeat the trio of Monkey Avatars."),
@@ -334,7 +306,6 @@ module QuestModule
   # Legendary Quests
 
   QUEST_LEGEND_CLONE = {
-    :ID => "27",
     :Name => _INTL("A Primordial Material"),
     :QuestGiver => _INTL("Dr. Hekata"),
     :Stage1 => _INTL("Talk to Dr. Hekata."),
@@ -346,17 +317,7 @@ module QuestModule
     :QuestDescription => _INTL("Dr. Hekata gave you a call mysteriously, asking to meet her in her home of Grouz. What could she want of you?"),
   }
 
-  QUEST_LEGEND_CELEBI = {
-    :ID => "28",
-    :Name => _INTL("Turn Back the Clock"),
-    :QuestGiver => _INTL("Celebi"),
-    :Stage1 => _INTL("Plant the seeds."),
-    :Location1 => _INTL("Crumbling Canyon"),
-    :QuestDescription => _INTL("The mythical being named Celebi handed you four latent seeds. Perhaps you need to plant these somewhere? Afterwards, seek out Celebi."),
-  }
-
   QUEST_LEGEND_REGIROCK = {
-    :ID => "29",
     :Name => _INTL("The Age of Stone"),
     :QuestGiver => _INTL("???"),
     :Stage1 => _INTL("Make your way through the dungeon."),
@@ -365,7 +326,6 @@ module QuestModule
   }
 
   QUEST_LEGEND_REGICE = {
-    :ID => "30",
     :Name => _INTL("The Age of Ice"),
     :QuestGiver => _INTL("???"),
     :Stage1 => _INTL("Make your way through the dungeon."),
@@ -373,17 +333,7 @@ module QuestModule
     :QuestDescription => _INTL("A strange dungeon lies before you. A frozen wasteland, locked in time and place, rigid and reflective obstacles blocking your way. Perhaps a reflection of times long past."),
   }
 
-  QUEST_LEGEND_HOOPA = {
-    :ID => "31",
-    :Name => _INTL("Spacial Split"),
-    :QuestGiver => _INTL("???"),
-    :Stage1 => _INTL("Find all the lost rangers."),
-    :Location1 => _INTL("Mirror Tundra"),
-    :QuestDescription => _INTL("You found a strange set of... spectres? Spirits? Whatever they could be, defeating them in a battle appears to give some resolution to this situation... What could've caused this?"),
-  }
-
   QUEST_LEGEND_REGISTEEL = {
-    :ID => "32",
     :Name => _INTL("The Age of Steel"),
     :QuestGiver => _INTL("???"),
     :Stage1 => _INTL("Make your way through the dungeon."),
@@ -391,17 +341,15 @@ module QuestModule
     :QuestDescription => _INTL("A strange dungeon lies before you. A forest made of metals and alloys. Always malleable, always changing, the line between natural and man-made thin..."),
   }
 
-  QUEST_LEGEND_MELTAN = {
-    :ID => "33",
-    :Name => _INTL("A Collapsed Metal"),
+  QUEST_LEGEND_REGIELEKI = {
+    :Name => _INTL("The Age of Electricity"),
     :QuestGiver => _INTL("???"),
-    :Stage1 => _INTL("Find the Meltan scattered about."),
-    :Location1 => _INTL("Alloyed Thicket"),
-    :QuestDescription => _INTL("A strange metallic creature fell apart into multiple smaller creatures, and scattered about the Alloyed Thicket. What might happen if you reunite them together?"),
+    :Stage1 => _INTL("Make your way through the dungeon."),
+    :Location1 => _INTL("Oasis System"),
+    :QuestDescription => _INTL("A strange dungeon lies before you. Circuits run throughout the entire cave, in a similar way to the small streams of water. Electrical currents flow like water, opening the way forward to your goal."),
   }
 
   QUEST_LEGEND_REGIDRAGO = {
-    :ID => "34",
     :Name => _INTL("The Age of Myths"),
     :QuestGiver => _INTL("???"),
     :Stage1 => _INTL("Make your way through the dungeon."),
@@ -409,8 +357,31 @@ module QuestModule
     :QuestDescription => _INTL("A strange dungeon lies before you. Winding age-old catacombs, full of myths and legends. Stories will be the basis of humanity for as long as it will exist."),
   }
 
+  QUEST_LEGEND_CELEBI = {
+    :Name => _INTL("Turn Back the Clock"),
+    :QuestGiver => _INTL("Celebi"),
+    :Stage1 => _INTL("Plant the seeds."),
+    :Location1 => _INTL("Crumbling Canyon"),
+    :QuestDescription => _INTL("The mythical being named Celebi handed you four latent seeds. Perhaps you need to plant these somewhere? Afterwards, seek out Celebi."),
+  }
+
+  QUEST_LEGEND_HOOPA = {
+    :Name => _INTL("Spacial Split"),
+    :QuestGiver => _INTL("???"),
+    :Stage1 => _INTL("Find all the lost rangers."),
+    :Location1 => _INTL("Mirror Tundra"),
+    :QuestDescription => _INTL("You found a strange set of... spectres? Spirits? Whatever they could be, defeating them in a battle appears to give some resolution to this situation... What could've caused this?"),
+  }
+
+  QUEST_LEGEND_MELTAN = {
+    :Name => _INTL("A Collapsed Metal"),
+    :QuestGiver => _INTL("???"),
+    :Stage1 => _INTL("Find the Meltan scattered about."),
+    :Location1 => _INTL("Alloyed Thicket"),
+    :QuestDescription => _INTL("A strange metallic creature fell apart into multiple smaller creatures, and scattered about the Alloyed Thicket. What might happen if you reunite them together?"),
+  }
+
   QUEST_LEGEND_MARSHADOW = {
-    :ID => "35",
     :Name => _INTL("Always In Character"),
     :QuestGiver => _INTL("The LARPers"),
     :Stage1 => _INTL("See if you can find them again."),
@@ -418,17 +389,7 @@ module QuestModule
     :QuestDescription => _INTL("Quite an eclectic group you've found. You've claimed their hoard, but this surely isn't the last time you'll find yourself encountering them."),
   }
 
-  QUEST_LEGEND_REGIELEKI = {
-    :ID => "35",
-    :Name => _INTL("Age of Electricity"),
-    :QuestGiver => _INTL("???"),
-    :Stage1 => _INTL("Make your way through the dungeon."),
-    :Location1 => _INTL("Oasis System"),
-    :QuestDescription => _INTL("A strange dungeon lies before you. Circuits run throughout the entire cave, in a similar way to the small streams of water. Electrical currents flow like water, opening the way forward to your goal."),
-  }
-
   QUEST_LEGEND_NULL = {
-    :ID => "36",
     :Name => _INTL("The Most Dangerous Experiment"),
     :QuestGiver => _INTL("???"),
     :Stage1 => _INTL("Fight through the scientists."),
@@ -437,7 +398,6 @@ module QuestModule
   }
 
   QUEST_LEGEND_VICTINI = {
-    :ID => "37",
     :Name => _INTL("The Novo Battle Club"),
     :QuestGiver => _INTL("Fight Club Louis"),
     :Stage1 => _INTL("Fight your way up through the ranks."),
@@ -446,7 +406,6 @@ module QuestModule
   }
 
   QUEST_LEGEND_MAGEARNA = {
-    :ID => "38",
     :Name => _INTL("Parting With a Friend"),
     :QuestGiver => _INTL("Strange Girl"),
     :Stage1 => _INTL("Trade her a Pokémon you've bonded with."),

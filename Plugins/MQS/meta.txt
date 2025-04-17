@@ -1,7 +1,7 @@
 Name         = Modern Quest System + UI
 Version      = 1.0.1
 Link         = https://reliccastle.com/resources/709/
-Credits      = ThatWelshOne_,mej71,derFischae,Marin
+Credits      = ThatWelshOne_,mej71,derFischae,Marin,Zinnia
 
 #===============================================================================
 # More detailed credits
@@ -45,28 +45,14 @@ Credits      = ThatWelshOne_,mej71,derFischae,Marin
 # 4. failQuest(quest, color, story)
 # 
 # Here, color reflects the color of the quest name as it appears on the UI.
-# It needs to be a combination of two 15-bit hexadecimal RGB color codes of the form XXXXyyyy, XXXX for the base color and yyyy for the shadow color.
-# This is a useful website for converting between Hex color codes and 15-bit hexadecimal color codes: http://www.budmelvin.com/dev/15bitconverter.html
-# In 001_Quest_Config.rb is a utility method called colorQuest(color) to which you can add your new colors.
-# Here is the list of colors I've already defined:
-# blue
-# red
-# green
-# cyan
-# magenta
-# yellow
-# gray
-# white
-# purple
-# orange
-# The default color is the dark gray color as seen when using a simple Show Text command in any event.
-# You MUST put quotes around these colors when calling colorQuest(color), e.g. colorQuest("red").
+# These are the color IDs from base Pokemon Essentials.
+# Check here for the list: https://essentialsdocs.fandom.com/wiki/Messages#Text_colours
 # 
 # Finally, story should be false (default) or true. Setting it to true makes the quest name in the UI appear bold.
 # This option exists as one way in which to differentiate certain quests in the UI. You don't have to use it.
 # 
 # Putting this all together, you can activate a quest and have its name appear purple and bold in the UI like so:
-# activateQuest(quest, colorQuest("purple"), true)
+# activateQuest(quest, 9, true)
 # A final note on colors: you can change the text color whenever a quest advances/completes/fails if you want completed quests to have a different color, for example.
 # By default, the text color will be inherited from the original activateQuest call.
 # 

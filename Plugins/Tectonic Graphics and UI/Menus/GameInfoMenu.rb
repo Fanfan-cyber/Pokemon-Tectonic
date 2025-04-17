@@ -54,20 +54,20 @@ class PokemonGameInfoMenu < PokemonPauseMenu
 			end
 			return
 		end
-    @scene.pbStartScene
-    endscene = true
-    cmdTrainer       = -1
-    cmdLevelCap      = -1
-    cmdMainQuestHelp = -1
-    cmdAchievements  = -1
-    cmdQuests        = -1
-    infoCommands = []
-    infoCommands[cmdMainQuestHelp = infoCommands.length] = _INTL("What Next?") if defined?($main_quest_tracker)
-    infoCommands[cmdTrainer       = infoCommands.length] = _INTL("{1}'s Card",$Trainer.name)
-    infoCommands[cmdLevelCap      = infoCommands.length] = _INTL("Level Cap") if LEVEL_CAPS_USED && getLevelCap > 0 && $Trainer.party_count > 0
-    infoCommands[cmdAchievements  = infoCommands.length] = _INTL("Achievements")
-    infoCommands[cmdQuests        = infoCommands.length] = _INTL("Quests")
-    infoCommands.push(_INTL("Cancel"))
+		@scene.pbStartScene
+		endscene = true
+		cmdTrainer  = -1
+		cmdLevelCap = -1
+		cmdMainQuestHelp = -1
+		cmdQuests = -1
+        cmdAchievements = -1
+		infoCommands = []
+		infoCommands[cmdTrainer = infoCommands.length] = _INTL("{1}'s Card",$Trainer.name)
+		infoCommands[cmdLevelCap = infoCommands.length] = _INTL("Level Cap") if LEVEL_CAPS_USED && getLevelCap > 0 && $Trainer.party_count > 0
+		infoCommands[cmdMainQuestHelp = infoCommands.length] = _INTL("What Next?") if defined?($main_quest_tracker)
+		infoCommands[cmdQuests = infoCommands.length] = _INTL("Quest Log")
+		infoCommands[cmdAchievements = infoCommands.length] = _INTL("Achievements")
+		infoCommands.push(_INTL("Cancel"))
 		loop do
 			infoCommand = @scene.pbShowCommands(infoCommands)
 			if cmdTrainer >= 0 && infoCommand == cmdTrainer

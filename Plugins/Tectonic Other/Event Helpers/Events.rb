@@ -20,7 +20,7 @@ def pbSetAllSwitches(eventid, value, mapid = -1)
 	end
 end
 
-def pbGetSelfSwitch(eventid, switch, mapid = -1)
+def pbGetSelfSwitch(eventid, switch = 'A', mapid = -1)
     mapid = $game_map.map_id if mapid < 0
     return $game_self_switches[[mapid, eventid, switch]]
 end

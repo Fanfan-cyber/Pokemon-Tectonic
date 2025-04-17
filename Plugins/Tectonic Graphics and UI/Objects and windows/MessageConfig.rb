@@ -367,60 +367,8 @@ end
 # Determine which text colours to use based on the darkness of the background
 #===============================================================================
 def getSkinColor(windowskin, color, isDarkSkin, asTag = true)
-    if !windowskin || windowskin.disposed? ||
-       windowskin.width != 128 || windowskin.height != 128
-        # Base color, shadow color (these are reversed on dark windowskins)
-        textcolors = [
-            "0070F8", "78B8E8", # 1  Blue
-            "E82010", "F8A8B8",   # 2  Red
-            "60B048", "B0D090",   # 3  Green
-            "48D8D8", "A8E0E0",   # 4  Cyan
-            "D038B8", "E8A0E0",   # 5  Magenta
-            "E8D020", "F8E888",   # 6  Yellow
-            "A0A0A8", "D0D0D8",   # 7  Grey
-            "F0F0F8", "C8C8D0",   # 8  White
-            "9040E8", "B8A8E0",   # 9  Purple
-            "F89818", "F8C898",   # 10 Orange
-            colorToRgb32(MessageConfig::DARK_TEXT_MAIN_COLOR),
-            colorToRgb32(MessageConfig::DARK_TEXT_SHADOW_COLOR), # 11 Dark default
-            colorToRgb32(MessageConfig::LIGHT_TEXT_MAIN_COLOR),
-            colorToRgb32(MessageConfig::LIGHT_TEXT_SHADOW_COLOR), # 12 Light default
-            "3976BF", "96B4CA",    # 13 Faded blue
-            "B84940", "E6BAC3",   # 14 Faded red
-        ]
-        # No special colour, use default
-        if color == 0 || color > textcolors.length / 2
-            if isDarkSkin # Dark background, light text
-                if asTag
-                    return shadowc3tag(MessageConfig::LIGHT_TEXT_MAIN_COLOR, MessageConfig::LIGHT_TEXT_SHADOW_COLOR)
-                else
-                    return [MessageConfig::LIGHT_TEXT_MAIN_COLOR, MessageConfig::LIGHT_TEXT_SHADOW_COLOR]
-                end
-            elsif asTag # Light background, dark text
-                return shadowc3tag(MessageConfig::DARK_TEXT_MAIN_COLOR, MessageConfig::DARK_TEXT_SHADOW_COLOR)
-            else
-                return [MessageConfig::DARK_TEXT_MAIN_COLOR, MessageConfig::DARK_TEXT_SHADOW_COLOR]
-            end
-        else
-            # Special colour as listed above
-            if isDarkSkin && color != 12 # Dark background, light text
-                base = textcolors[2 * (color - 1) + 1]
-                shadow = textcolors[2 * (color - 1)]
-                if asTag
-                    return format("<c3=%s,%s>", base, shadow)
-                else
-                    return [base, shadow]
-                end
-            else # Light background, dark text
-                base = textcolors[2 * (color - 1)]
-                shadow = textcolors[2 * (color - 1) + 1]
-                if asTag
-                    return format("<c3=%s,%s>", base, shadow)
-                else
-                    return [base, shadow]
-                end
-            end
-        end
+    if !windowskin || windowskin.disposed? || windowskin.width != 128 || windowskin.height != 128
+        return getTextColorsFromIDNumber(color, isDarkSkin: isDarkSkin, asTag: asTag)
     else # VX windowskin
         color = 0 if color >= 32
         x = 64 + (color % 8) * 8
@@ -452,6 +400,61 @@ def getDefaultTextColors(windowskin)
             shadow = Color.new(color.red - 64, color.green - 64, color.blue - 64)
         end
         return [color, shadow]
+    end
+end
+
+def getTextColorsFromIDNumber(colorID, isDarkSkin: darkMode?, asTag: false)
+    # Base color, shadow color (these are reversed on dark windowskins)
+    textcolors = [
+        "0070F8", "78B8E8", # 1  Blue
+        "E82010", "F8A8B8",   # 2  Red
+        "60B048", "B0D090",   # 3  Green
+        "48D8D8", "A8E0E0",   # 4  Cyan
+        "D038B8", "E8A0E0",   # 5  Magenta
+        "E8D020", "F8E888",   # 6  Yellow
+        "A0A0A8", "D0D0D8",   # 7  Grey
+        "F0F0F8", "C8C8D0",   # 8  White
+        "9040E8", "B8A8E0",   # 9  Purple
+        "F89818", "F8C898",   # 10 Orange
+        colorToRgb32(MessageConfig::DARK_TEXT_MAIN_COLOR),
+        colorToRgb32(MessageConfig::DARK_TEXT_SHADOW_COLOR), # 11 Dark default
+        colorToRgb32(MessageConfig::LIGHT_TEXT_MAIN_COLOR),
+        colorToRgb32(MessageConfig::LIGHT_TEXT_SHADOW_COLOR), # 12 Light default
+        "3976BF", "96B4CA",    # 13 Faded blue
+        "B84940", "E6BAC3",   # 14 Faded red
+    ]
+    # No special colour, use default
+    if colorID == 0 || colorID > textcolors.length / 2
+        if isDarkSkin # Dark background, light text
+            if asTag
+                return shadowc3tag(MessageConfig::LIGHT_TEXT_MAIN_COLOR, MessageConfig::LIGHT_TEXT_SHADOW_COLOR)
+            else
+                return [MessageConfig::LIGHT_TEXT_MAIN_COLOR, MessageConfig::LIGHT_TEXT_SHADOW_COLOR]
+            end
+        elsif asTag # Light background, dark text
+            return shadowc3tag(MessageConfig::DARK_TEXT_MAIN_COLOR, MessageConfig::DARK_TEXT_SHADOW_COLOR)
+        else
+            return [MessageConfig::DARK_TEXT_MAIN_COLOR, MessageConfig::DARK_TEXT_SHADOW_COLOR]
+        end
+    else
+        # Special colour as listed above
+        if isDarkSkin && colorID != 12 # Dark background, light text
+            base = textcolors[2 * (colorID - 1) + 1]
+            shadow = textcolors[2 * (colorID - 1)]
+            if asTag
+                return format("<c3=%s,%s>", base, shadow)
+            else
+                return [base, shadow]
+            end
+        else # Light background, dark text
+            base = textcolors[2 * (colorID - 1)]
+            shadow = textcolors[2 * (colorID - 1) + 1]
+            if asTag
+                return format("<c3=%s,%s>", base, shadow)
+            else
+                return [base, shadow]
+            end
+        end
     end
 end
 

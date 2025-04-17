@@ -231,7 +231,7 @@ CIRCUIT_PUZZLES = {
         ],
         :solution_states =>
         [
-            [0,3], # Ideal solution. Enables puzzle (EV068), disables barrier (EV048), enables nearby ground signal (EV045), disables Integration Chamber ground signal (map 382, EV014).
+            [0,3], # Ideal solution. Enables puzzle (EV068), disables barrier (EV048), enables nearby ground signal (EV045), disables Oasis System ground signal (map 406, EV014).
         ]
     },
 }

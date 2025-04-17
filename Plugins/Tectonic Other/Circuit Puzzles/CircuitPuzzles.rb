@@ -243,17 +243,19 @@ class CircuitPuzzle_Screen
     def updateSolutionState(playSE = true)
         @inSolutionState = false
 
-        @circuitDefinition[:solution_states].each do |possibleSolution|
-            thisSolutionWorks = true
-            @components.each_with_index do |component,index|
-                solutionStateForComponent = possibleSolution[index]
-                next if component.state == solutionStateForComponent
-                thisSolutionWorks = false
-                break
-            end
-            if thisSolutionWorks
-                @inSolutionState = true
-                break
+        if @circuitDefinition[:solution_states]
+            @circuitDefinition[:solution_states].each do |possibleSolution|
+                thisSolutionWorks = true
+                @components.each_with_index do |component,index|
+                    solutionStateForComponent = possibleSolution[index]
+                    next if component.state == solutionStateForComponent
+                    thisSolutionWorks = false
+                    break
+                end
+                if thisSolutionWorks
+                    @inSolutionState = true
+                    break
+                end
             end
         end
 

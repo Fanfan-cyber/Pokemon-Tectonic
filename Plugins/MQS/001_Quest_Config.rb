@@ -26,20 +26,3 @@ QUEST_FAIL = "GUI sel buzzer.ogg"
 #===============================================================================
 # Utility method for setting colors
 #===============================================================================
-
-# Useful Hex to 15-bit color converter: http://www.budmelvin.com/dev/15bitconverter.html
-# Add in your own colors here!
-def colorQuest(color)
-  color = color.downcase if color
-  return "7DC076EF" if color == "blue"
-  return "089D5EBF" if color == "red"
-  return "26CC4B56" if color == "green"
-  return "6F697395" if color == "cyan"
-  return "5CFA729D" if color == "magenta"
-  return "135D47BF" if color == "yellow"
-  return "56946F5A" if color == "gray"
-  return "7FDE6B39" if color == "white"
-  return "751272B7" if color == "purple"
-  return "0E7F4F3F" if color == "orange"
-  return "2D4A5694" # Returns the default dark gray color if all other options are exhausted
-end

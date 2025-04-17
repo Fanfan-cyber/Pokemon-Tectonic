@@ -55,6 +55,7 @@ def battleKeywordsImportant
         "maximize",
         "minimize",
         "minimize",
+        "minimizing",
         "aqua ring",
         "energy charged",
         "energy charge",
@@ -64,6 +65,7 @@ def battleKeywordsImportant
         "flinching",
         "random added effects",
         "random added effect",
+        "trapping",
         "trapped",
         "traps",
         "trap",
@@ -71,6 +73,16 @@ def battleKeywordsImportant
         "rooms",
         "room",
         "weather",
+        "random critical hits",
+        "random critical hit",
+        "critical hit chance",
+        "critical hits",
+        "critical hit",
+        "screens",
+        "invulnerable",
+        "clothing",
+        "Grey Mist",
+        "Stockpile",
     ]
 end
 
@@ -112,6 +124,7 @@ def battleKeywordsUnimportant
         "twice",
         "doubles",
         "double",
+        "doubled",
         "three times",
         "four times",
         "five times",
@@ -126,6 +139,7 @@ def battleKeywordsUnimportant
         "1/10th",
         "1/12th",
         "1/16th",
+        "all stats",
     ]
 end
 
