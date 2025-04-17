@@ -185,13 +185,13 @@ class Player_Quests
     end
     for i in 0...@completed_quests.length
       if @completed_quests[i].id == quest
-        pbMessage("You have already completed this quest.")
+        pbMessage(_INTL("You have already completed this quest."))
         return false
       end
     end
     for i in 0...@failed_quests.length
       if @failed_quests[i].id == quest
-        pbMessage("You have already failed this quest.")
+        pbMessage(_INTL("You have already failed this quest."))
         return false
       end
     end 

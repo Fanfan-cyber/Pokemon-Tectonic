@@ -586,8 +586,8 @@ HPMult = 8.0
 Ability = LEVITATE
 Moves1 = HEATWAVE,DISCHARGE,PRIMEVALDAZZLE
 Moves2 = HEATWAVE,DISCHARGE
-Form = 1
 HPMult = 8.0
+Form = 1
 #-------------------------------
 [MAGNEZONE]
 Ability = NOGUARD
@@ -660,8 +660,8 @@ HPMult = 8.0
 Ability = CORROSION
 Moves1 = POISONGAS,VENOMDRENCH,PRIMEVALWHIRLWIND
 Moves2 = SLUDGEWAVE,MUDSLIDE,POISONGAS,ROOST
-Item = LEFTOVERS
 HPMult = 8.0
+Item = LEFTOVERS
 #-------------------------------
 [REAVOR]
 Ability = TECHNICIAN

@@ -152,7 +152,7 @@ def battleGuideCriticalHitsHash
         _INTL("What are Critical Hits?") => _INTL("A critical hit deals 50% more damage than a regular hit. Certain moves are able to randomly critical hit."),
         _INTL("How common are Critical Hits?") => _INTL("For moves that can random crit, the chance is 1/8. This chance can be raised by abilities, items, or special effects."),
         _INTL("Other Effects") => _INTL("Critical hits ignore stat steps (on the user or the target) that would lower their damage. They also ignore protective screens like Reflect and Light Screen."),
-        _INTL("Preventing Criticals") => _INTL("Certain abilities prevent critical hits against that Pokemon. The Lucky Chant effect protects their side from critical hits."),
+        _INTL("Preventing Criticals") => _INTL("Certain abilities prevent critical hits against that Pokémon. The Lucky Chant effect protects their side from critical hits."),
         _INTL("Guaranteed Criticals") => _INTL("Some moves or abilities are not random, but guarantee a critical hit under certain conditions. Otherwise, these act the same as random critical hits."),
     }
 end
