@@ -79,6 +79,7 @@ def giveCondensedLight
         pbMessage(_INTL("\\wm<i>You get the sense that you've collected enough light.</i>"))
         pbMessage(_INTL("\\wm<i>Your friend will be very pleased.</i>"))
         pbMessage(_INTL("\\wm<i>You should visit her in her very nice house.</i>"))
+        advanceQuestToStage(:QUEST_LEGEND_CONDENSED, 2)
     elsif pbQuantity(:CONDENSEDLIGHT) >= (condensedLightCount * 0.75).ceil # 75% done or more
         pbMessage(_INTL("\\wm<i>You're getting close, now.</i>"))
         showCondensedLightHint

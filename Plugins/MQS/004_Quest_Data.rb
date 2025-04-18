@@ -413,4 +413,96 @@ module QuestModule
     :QuestDescription => _INTL("An odd girl in the tournament lobby has an offer. A Pokémon you've bonded with fully, for the individual she possesses... Can you make that trade?"),
   }
 
+  QUEST_LEGEND_VOLCANION1 = {
+    :Name => _INTL("WIP: A Clean Library"),
+    :QuestGiver => _INTL("???"),
+    :Stage1 => _INTL("Come back here after the Tournament."),
+    :Location1 => _INTL("Prizca East, Capitol Building"),
+    :QuestDescription => _INTL("WIP: Finally a library in this damned region, maybe there is some interesting information you can learn. Return here after you've beaten the tournament."),
+  }
+
+  QUEST_LEGEND_VOLCANION2 = {
+    :Name => _INTL("WIP: Volcanion"),
+    :QuestGiver => _INTL("Nora"),
+    :Stage1 => _INTL("Go to a room in Luxtech to find information."),
+    :Stage2 => _INTL("Return to Nora with the USB."),
+    :Stage3 => _INTL("Head over to the Steamy Valley."),
+    :Location1 => _INTL("Luxtech Campus, Cold Storage"),
+    :Location2 => _INTL("Prizca East, Capitol Building"),
+    :Location3 => _INTL("Svait"),
+    :QuestDescription => _INTL("[Placeholder]"),
+  }
+
+  QUEST_LEGEND_TRI_ISLAND = {
+    :Name => _INTL("Tri Island"),
+    :QuestGiver => _INTL("???"),
+    :Stage1 => _INTL("Explore the strange island."),
+    :Location1 => _INTL("Tri Island"),
+    :QuestDescription => _INTL("The TV talked about an island."),
+  }
+
+  QUEST_LEGEND_CALYREX1 = {
+    :Name => _INTL("WIP: Odd Pits"),
+    :QuestGiver => _INTL("???"),
+    :Stage1 => _INTL("Find the item in the postgame."),
+    :Location1 => _INTL("???"),
+    :QuestDescription => _INTL("WIP: There's something that should fill these pits, wonder what that is?"),
+  }
+
+  QUEST_LEGEND_CALYREX2 = {
+    :Name => _INTL("WIP: Calyrex"),
+    :QuestGiver => _INTL("???"),
+    :Stage1 => _INTL("Find the hidden entrance."),
+    :Stage2 => _INTL("Find the grass pits."),
+    :Stage3 => _INTL("Return to the hidden room."),
+    :Location1 => _INTL("Battle Monument"),
+    :Location2 => _INTL("???"),
+    :Location3 => _INTL("Crown Chamber"),
+    :QuestDescription => _INTL("WIP: A ragged journal, a strange scepter, reins, and an apricorn."),
+  }
+
+  QUEST_LEGEND_GUARDIAN_ISLAND = {
+    :Name => _INTL("Guardian Island"),
+    :QuestGiver => _INTL("???"),
+    :Stage1 => _INTL("Explore the strange island."),
+    :Location1 => _INTL("Guardian Island"),
+    :QuestDescription => _INTL("You won the map to an abandoned island, what secrets could this place hold?"),
+  }
+
+  QUEST_LEGEND_LUGIA = {
+    :Name => _INTL("Sea Monster"),
+    :QuestGiver => _INTL("Ship Captain"),
+    :Stage1 => _INTL("Find the great Pokémon."),
+    :Location1 => _INTL("Aquatopia Menagerie"),
+    :QuestDescription => _INTL("A ship captain talks about a great Pokémon in the waves. Maybe you can be the one to find this beast."),
+  }
+
+  QUEST_LEGEND_SIGIL = {
+    :Name => _INTL("Carnation Sigil"),
+    :QuestGiver => _INTL("???"),
+    :Stage1 => _INTL("Find the other piece of the sigil."),
+    :Stage2 => _INTL("Discover where the sigil takes you."),
+    :Location1 => _INTL("???"),
+    :Location2 => _INTL("???"),
+    :QuestDescription => _INTL("You found a half of a sigil of some sort. Completing it might let it do something."),
+  }
+
+  QUEST_LEGEND_HOOH = {
+    :Name => _INTL("Ruined Tower"),
+    :QuestGiver => _INTL("???"),
+    :Stage1 => _INTL("Collect the key."),
+    :Location1 => _INTL("???"),
+    :QuestDescription => _INTL("You saw that a wild Pokémon was holding a key. Take it, and bring it to the tower it goes to."),
+  }
+
+  QUEST_LEGEND_CONDENSED = {
+    :Name => _INTL("WIP: Lainie"),
+    :QuestGiver => _INTL("???"),
+    :Stage1 => _INTL("Collect the Condensed Lights."),
+    :Stage2 => _INTL("Find your frind :)"),
+    :Location1 => _INTL("???"),
+    :Location2 => _INTL("Velenz Menagerie"),
+    :QuestDescription => _INTL("[Placeholder]."),
+  }
+
 end

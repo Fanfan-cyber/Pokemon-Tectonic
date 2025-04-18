@@ -15,7 +15,7 @@ module Settings
     #=============================================================================
   
     # The maximum level Pokémon can reach.
-    MAXIMUM_LEVEL        = 71
+    MAXIMUM_LEVEL        = 70
     # The level of newly hatched Pokémon.
     EGG_LEVEL            = 1
     # The odds of a newly generated Pokémon being shiny (out of 65536).

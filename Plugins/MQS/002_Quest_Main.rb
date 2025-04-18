@@ -58,26 +58,24 @@ class Player_Quests
     end
     for i in 0...@active_quests.length
       if @active_quests[i].id == quest
-        pbMessage(_INTL("You have already started this quest.")) unless skipAlert
+        echoln("Asked to activate quest #{quest}, but that quest has already been activated.")
         return false
       end
     end
     for i in 0...@completed_quests.length
       if @completed_quests[i].id == quest
-        pbMessage(_INTL("You have already completed this quest.")) unless skipAlert
+        echoln("Asked to activate quest #{quest}, but that quest has already been completed.")
         return false
       end
     end
     for i in 0...@failed_quests.length
       if @failed_quests[i].id == quest
-        pbMessage(_INTL("You have already failed this quest.")) unless skipAlert
+        echoln("Asked to activate quest #{quest}, but that quest has already been failed.")
         return false
       end
     end
     @active_quests.push(Quest.new(quest,color,story))
-    unless skipAlert
-      questAlert(_INTL("New quest discovered!"))
-    end
+    questAlert(_INTL("New quest discovered!")) unless skipAlert
     return true
   end
   
@@ -87,13 +85,13 @@ class Player_Quests
     end
     for i in 0...@completed_quests.length
       if @completed_quests[i].id == quest
-        pbMessage(_INTL("You have already completed this quest."))
+        echoln("Asked to fail quest #{quest}, but that quest has already been completed.")
         return false
       end
     end
     for i in 0...@failed_quests.length
       if @failed_quests[i].id == quest
-        pbMessage(_INTL("You have already failed this quest."))
+        echoln("Asked to fail quest #{quest}, but that quest has already been failed.")
         return false
       end
     end 
@@ -101,7 +99,7 @@ class Player_Quests
     for i in 0...@active_quests.length
       if @active_quests[i].id == quest
         temp_quest = @active_quests[i]
-        temp_quest.color = color if color
+        temp_quest.colorID = color if color
         temp_quest.new = true # Setting this back to true makes the "!" icon appear when the quest updates
         temp_quest.time = Time.now
         @failed_quests.push(temp_quest)
@@ -111,9 +109,7 @@ class Player_Quests
         break
       end
     end
-    unless found
-      @failed_quests.push(Quest.new(quest,color,story))
-    end
+    @failed_quests.push(Quest.new(quest,color,story)) unless found
     return true
   end
   
@@ -121,23 +117,23 @@ class Player_Quests
     unless quest.is_a?(Symbol)
       raise _INTL("The 'quest' argument should be a symbol, e.g. ':Quest1'.")
     end
-    found = false
     for i in 0...@completed_quests.length
       if @completed_quests[i].id == quest
-        pbMessage(_INTL("You have already completed this quest."))
+        echoln("Asked to complete quest #{quest}, but that quest has already been completed.")
         return false
       end
     end
     for i in 0...@failed_quests.length
       if @failed_quests[i].id == quest
-        pbMessage(_INTL("You have already failed this quest."))
+        echoln("Asked to complete quest #{quest}, but that quest has already been failed.")
         return false
       end
-    end  
+    end
+    found = false
     for i in 0...@active_quests.length
       if @active_quests[i].id == quest
         temp_quest = @active_quests[i]
-        temp_quest.color = color if color
+        temp_quest.colorID = color if color
         temp_quest.new = true # Setting this back to true makes the "!" icon appear when the quest updates
         temp_quest.time = Time.now
         @completed_quests.push(temp_quest)
@@ -147,9 +143,7 @@ class Player_Quests
         break
       end
     end
-    unless found
-      @completed_quests.push(Quest.new(quest,color,story))
-    end
+    @completed_quests.push(Quest.new(quest,color,story)) unless found
     return true
   end
   
@@ -164,7 +158,7 @@ class Player_Quests
     for i in 0...@active_quests.length
       if @active_quests[i].id == quest
         @active_quests[i].stage = stageNum
-        @active_quests[i].color = color if color
+        @active_quests[i].colorID = color if color
         @active_quests[i].new = true # Setting this back to true makes the "!" icon appear when the quest updates
         found = true
         questAlert(_INTL("Quest updated with the next task!")) unless skipAlert
@@ -185,13 +179,13 @@ class Player_Quests
     end
     for i in 0...@completed_quests.length
       if @completed_quests[i].id == quest
-        pbMessage(_INTL("You have already completed this quest."))
+        echoln("Asked to advance quest #{quest}, but that quest has already been completed.")
         return false
       end
     end
     for i in 0...@failed_quests.length
       if @failed_quests[i].id == quest
-        pbMessage(_INTL("You have already failed this quest."))
+        echoln("Asked to advance quest #{quest}, but that quest has already been failed.")
         return false
       end
     end 
@@ -202,7 +196,7 @@ class Player_Quests
           return completeQuest(quest,color,story,skipAlert: skipAlert)
         end
         @active_quests[i].stage += 1
-        @active_quests[i].color = color if color
+        @active_quests[i].colorID = color if color
         @active_quests[i].new = true # Setting this back to true makes the "!" icon appear when the quest updates
         found = true
         questAlert(_INTL("Quest updated with the next task!")) unless skipAlert

@@ -49870,7 +49870,7 @@ But it failed, since #{user.pbThis(true)} has no valid allies to switch with!
 {1} is unaffected, since it doesn't share a type with {2}!
 ¡{1} no es afectado, ya que no comparte tipo con {2}!
 But it failed, since #{user.pbThis(true)} doesn't know Last Resort!
-¡Pero falló, ya que #{user.pbThis(true)} no conoce Última baza!
+¡Pero falló, ya que #{user.pbThis(true)} no conoce Última Baza!
 But it failed, since #{user.pbThis(true)} has no other moves!
 ¡Pero falló, ya que #{user.pbThis(true)} no tiene otros movimientos!
 But it failed, since #{user.pbThis(true)} hasn't yet used all its other moves!
@@ -52393,8 +52393,8 @@ Bug is now Super-Effective vs Fairy. Think of insects scaring children.
 Bicho ahora es Súper-Efectivo contra Hada. Piensa en insectos asustando a niños.
 Grass resistances
 Resistencias de Planta
-Grass now resists Fairy, Psychic, and Ghost. Think of incense warding off magic.
-Planta ahora resiste Hada, Psíquico y Fantasma. Piensa en un incienso repeliendo magia.
+Grass now resists Fairy and Ghost. Think of incense warding off magic.
+Planta ahora resiste Hada y Fantasma. Piensa en un incienso repeliendo magia.
 Ice resistances
 Resistencias de Hielo
 Ice now resists Flying and Ground. Ice is Super-Effective against those types, so it's only natural!
@@ -54393,8 +54393,8 @@ Waterlogged
 Embebido
 A mystical Avatar Totem. You sense it has some purpose, long lost to time.
 Un Avatar Tótem místico. Sientes que tiene algún propósito, perdido con el tiempo.
-\i[SPANNINGBAND]The Spanning Bands glows in sync with the totem. You sense that some sort of connection has been created.
-\i[SPANNINGBAND]La Bandas Alcance brilla en sincronía con el tótem. Sientes que algún tipo de conexión fue creada.
+\i[SPANNINGBAND]The Spanning Bands glow in sync with the totem. You sense that some sort of connection has been created.
+\i[SPANNINGBAND]La Bandas Alcance brillan en sincronía con el tótem. Sientes que algún tipo de conexión fue creada.
 Waterlog
 Embeber
 When waterlogged, a Pokémon's Speed is halved, and it takes 25% more attack damage. Water- and Dark-types do the most waterlogged. Water is immune.
@@ -55143,6 +55143,660 @@ Which type should {1} launch?
 ¡¡Qué tipo debería lanzar {1}?
 It's an explosion of pure {1}!
 ¡Es una explosión de puro {1}!
+But it failed, since a Wish is already about to come true for {1}!
+¡Pero falló, ya que un Deseo ya se está por hacer realidad para {1}!
+But it failed, since {1} is already asleep!
+¡Pero falló, ya que {1} ya está dormido!
+But it failed, since it's not {1}'s first turn!
+¡Pero falló, ya que no es el primer turno de {1}!
+But it failed, since {1} is already veiled with water!
+¡Pero falló, ya que ya tiene un velo con agua {1}!
+But it failed, since {1}'s roots are already planted!
+¡Pero falló, ya que las raíces de {1} ya están plantadas!
+But it failed, since none of {1} or its allies can be healed or have their status conditions removed!
+¡Pero falló, ya que ni {1} ni sus aliados pueden ser curados o tener sus problemas de estado removidos!
+{1} is protected behind its substitute!
+¡{1} está protegido detrás de su sustituto!
+But it failed, since {1} can't be healed!
+¡Pero falló, ya que {1} no puede ser curado!
+But it failed, since {1} has no party allies to replace it!
+¡Pero falló, ya que {1} no tiene aliados que entren en su lugar!
+But it failed, since {1} can't heal or raise its Speed!
+¡Pero falló, ya que {1} no puede curarse ni aumentarse su Velocidad!
+But it failed, since {1} can't heal and already has a veil of water!
+¡Pero falló, ya que {1} no puede curarse y ya tiene un velo de agua!
+But it failed, since {1} is transformed!
+¡Pero falló, ya que {1} está transformado!
+But it failed, since {1} doesn't know Sketch!
+¡Pero falló, ya que {1} no conoce Esquema!
+But it failed, since {1} hasn't used a move!
+¡Pero falló, ya que {1} no ha usado un movimiento!
+But it failed, since {1} already knows {2}'s most recent move!
+¡Pero falló, ya que {1} ya conoce el movimiento más reciente de {2}!
+But it failed, {1}'s most recent move can't be Sketched!
+¡Pero falló, ya que el movimiento más reciente de {1} no puede ser copiado con Esquema!
+But it failed, since {1} is also transformed!
+¡Pero falló, ya que {1} ya está transformado!
+But it failed, since {1} is disguised by an Illusion!
+¡Pero falló, ya que {1} está bajo una Ilusión!
+Which move should {1} use?
+¿Qué movimiento debería usar {1}?
+{1} has already transformed!
+¡{1} ya está transformado!
+But it failed, since {1} is an avatar!
+¡Pero falló, ya que {1} es un avatar!
+But it failed, since {1} doesn't have a defined species somehow!
+¡Pero falló, ya que de algún modo {1} no tiene una especie definida!
+But it failed, since {1} has no previous species to transform into!
+¡Pero falló, ya que {1} no tiene una anterior especie a la que transformarse!
+But it failed, since there are no moves {1} can use!
+¡Pero falló, ya que no hay movimientos que {1} pueda usar!
+But it failed, since {1} hasn't used a move yet!
+¡Pero falló, ya que aún no ha usado un movimiento {1}!
+But it failed, since {1} no longer knows its most recent move!
+¡Pero falló, ya que {1} ya no conoce su último movimiento usado!
+But it failed, since {1} is locked into an attack!
+¡Pero falló, ya que {1} está bloqueado en un ataque!
+But it failed, since {1} is focusing!
+¡Pero falló, ya que {1} se está concentrando!
+But it failed, since {1}'s last used move cant be instructed!
+¡Pero falló, ya que el último movimiento de {1} no puede ser mandado!
+But it failed, since {1}'s last used move is a two-turn move!
+¡Pero falló, ya que el último movimiento de {1} es un movimiento de dos turnos!
+But it failed, since {1}'s last used move it out of PP!
+¡Pero falló, ya que el último movimiento usado de {1} no tiene PP!
+{1} has already mutated!
+¡{1} ya ha mutado!
+But it failed, since {1} has no valid allies to switch with!
+¡Pero falló, ya que {1} no tiene aliados válidos a los que cambiar!
+{1} culls {2}!
+¡{1} sacrifica a {2}!
+{1} is newly afraid. It can be flinched again!
+{1} vuelve a tener miedo. ¡Puede ser amedrentado de nuevo!
+But it failed, since {1} isn't asleep!
+¡Pero falló, ya que {1} no está dormido!
+But it failed, since {1} knows no other sound-based moves!
+¡Pero falló, ya que {1} no conoce otros movimientos de sonido!
+But it failed, since {1}'s roots keep it stuck in the ground!
+¡Pero falló, ya que las raíces de {1} lo mantienen en el suelo!
+But it failed, since {1} was smacked down to the ground!
+¡Pero falló, ya que {1} fue tumbado al suelo!
+But it failed, since {1} is already risen up through magnetism!
+¡Pero falló, ya que {1} ya fue levantado usando el magnetismo!
+But it failed, since {1} is already in a volley stance!
+¡Pero falló, ya que {1} ya preparó sus cañones!
+But it failed, since {1} can't raise its Sp. Atk and already activated its witch powers!
+¡Pero falló, ya que {1} no puede aumentar su Ataque Especial ya activó sus poderes de bruja!
+But it failed, since {1} is already inured!
+¡Pero falló, ya que {1} ya está habituado!
+But it failed, since {1} is already being forced to move next!
+¡Pero falló, ya que {1} ya está siendo forzado a usar un movimiento!
+But it failed. since {1} isn't using a move this turn!
+¡Pero falló, ya que {1} no está usando un movimiento este turno!
+But it failed, since {1} isn't using a move this turn!
+¡Pero falló, ya que {1} no está usando un movimiento este turno!
+But it failed, since {1} was already forced to move last!
+¡Pero falló, ya que {1} ya fue forzado a usar un movimiento al último!
+But it failed, since {1} has no stingers!
+¡Pero falló, ya que {1} no tiene aguijones!
+But it failed, since a crafty shield is already protecting {1}!
+¡Pero falló, ya que un truco defensa ya está protegiendo a {1}!
+But it failed, since a Mat was already thrown up on {1}'s side of the field!
+¡Pero falló, ya que un Escudo ya fue lanzado en el lado en el campo de {1}!
+But it failed, since {1} is already protected by a bubble!
+¡Pero falló, ya que {1} ya está protegido por una burbuja!
+But it failed, since none of {1}'s moves can be used from Sleep Talk!
+¡Pero falló, ya que ninguno de los movimientos de {1} pueden ser usados por Sonámbulo!
+But it failed, since {1} does not have enough HP left to make a substitute!
+¡Pero falló, ya que {1} no tiene suficientes PS para crear un sustituto!
+But it failed, since {1} already can't escape!
+¡Pero falló, ya que {1} ya no puede escapar!
+But it failed, since {1} is already octolocked!
+¡Pero falló, ya que {1} ya está bajo los efectos de Octopresa!
+But it failed, since {1} is already imprisoned and its attacking stats can't be reduced!
+¡Pero falló, ya que {1} ya está sellado y sus stats ofensivas no pueden ser reducidas!
+But it failed, since {1} is already trapped and can't be frostbitten!
+¡Pero falló, ya que {1} ya está atrapado y no puede ser helado!
+But it failed, since {1} can't have its type changed!
+¡Pero falló, ya que no puedes cambiar el tipo de {1}!
+But it failed, since {1} can't have its types changed!
+¡Pero falló, ya que no puedes cambiar los tipos de {1}!
+But it failed, since the type {1} is supposed to become doesn't exist!
+¡Pero falló, ya que el tipo en el que se supone que {1} debería transformarse no existe!
+But it failed, since {1} is already {2}-type!
+¡Pero falló, ya que {1} ya es de tipo {2}!
+But it failed, since {1} can't change their type!
+¡Pero falló, ya que {1} no puede cambiar su tipo!
+But it failed, since {1} is already only Water-type!
+¡Pero falló, ya que {1} ya es de tipo Agua!
+But it failed, since {1} has no types!
+¡Pero falló, ya que {1} no tiene tipos!
+But it failed, since {1} && {2} share the exact same types!
+¡Pero falló, ya que {1} y {2} comparten los mismos tipos!
+But it failed, since {1} is already only Bug-type!
+¡Pero falló, ya que {1} ya es de tipo Bicho!
+But it failed, since {1} is already Ghost-type!
+¡Pero falló, ya que {1} ya es de tipo Fantasma!
+But it failed, since {1} is already Grass-type!
+¡Pero falló, ya que {1} ya es de tipo Planta!
+But it failed, since the Steel-type doesn't exist and {1}'s Speed can't be lowered!
+¡Pero falló, ya que el tipo Acero no existe y la Velocidad de {1} no puede ser disminuida!
+But it failed, since {1} is already Steel-type and its Speed can't be lowered!
+¡Pero falló, ya que {1} ya es de tipo Acero y su Velocidad no puede ser disminuida!
+But it failed, since {1} can't have its type changed and its Speed can't be lowered!
+¡Pero falló, ya que {1} no puede tener su tipo cambiao y su Velocidad no puede ser disminuida!
+Which type should {1} gift?
+¿Qué tipo debería obsequiar {1}?
+But it failed, since {1} is already only the chosen type!
+¡Pero falló, ya que {1} ya tiene el tipo escogido!
+But it failed, since {1} is already tormented!
+¡Pero falló, ya que {1} ya está atormentado!
+But it failed, since {1}'s is already imprisoning shared moves!
+¡Pero falló, ya que {1} ya está sellando movimientos compartidos!
+But it failed, since {1} is already taunted!
+¡Pero falló, ya que {1} ya está mofado!
+But it failed, since {1} is already locked into an encore!
+¡Pero falló, ya que {1} ya está bajo los efectos de otra vez!
+But it failed, since {1} is setting a Shell Trap!
+¡Pero falló, ya que {1} está preparando una Coraza Trampa!
+But it failed, since {1} is hiding a Masquerblade!
+¡Pero falló, ya que {1} está escondiendo un Filo Farsante!
+But it failed, since {1} last used move has no more PP!
+¡Pero falló, ya que el último movimiento de {1} no tiene más PP!
+But it failed, since {1} is already barred!
+¡Pero falló, ya que {1} ya está bajo los efectos de veto!
+But it failed, since {1} is already afflicted by a Nightmare!
+¡Pero falló, ya que {1} ya está bajo los efectos de una Pesadilla!
+But it failed, since {1} is already covered in tar and can't have their Speed lowered!
+¡Pero falló, ya que {1} ya está cubierto en alquitrán y su Velocidad no puede ser disminuida!
+But it failed, since {1} is already cursed!
+¡Pero falló, ya que {1} ya está maldito!
+But it failed, since {1} is already afraid of Bug-type moves!
+¡Pero falló, ya que {1} ya tiene miedo de los movimientos de tipo Bicho!
+But it failed, since {1} is already fractured!
+¡Pero falló, ya que {1} ya está fracturado!
+But it failed, since {1} is already jinxed!
+¡Pero falló, ya que {1} ya está embrujado!
+But it failed, since {1} didn't choose to attack!
+¡Pero falló, ya que {1} no eligió atacar!
+But it failed, since {1} already moved this turn!
+¡Pero falló, ya que {1} ya eligió un movimiento este turno!
+But it failed, since {1} doesn't know Last Resort!
+¡Pero falló, ya que {1} no conoce Última Baza!
+But it failed, since {1} has no other moves!
+¡Pero falló, ya que {1} no conoce otros movimientos!
+But it failed, since {1} hasn't yet used all its other moves!
+¡Pero falló, ya que {1} aún no ha usado todos sus otros movimientos!
+But it failed, since {1} isn't Fire-type!
+¡Pero falló, ya que {1} no es de tipo Fuego!
+But it failed, since {1} is not Ice-type!
+¡Pero falló, ya que {1} no es de tipo Hielo!
+{1} is hurt by leftover electricity!
+¡{1} es lastimado por la electricidad sobrante!
+But it failed, since {1} doesn't have any items!
+¡Pero falló, ya que {1} no tienen ningún objeto!
+But it failed, since {1} can't be given a Black Sludge or have its Sp. Def lowered!
+¡Pero falló, ya que {1} no puede obtener un Lodo Negro ni puede disminuir su Defensa Especial!
+But it failed, since {1} is already embargoed!
+¡Pero falló, ya que {1} ya está bajo los efectos de embargo!
+{1} doesn't have an item to give away!
+¡{1} no tiene ningún objeto que dar!
+{1} can't lose any of its items!
+¡{1} no puede perder ninguno de sus objetos!
+Which item should {1} give away?
+¿Qué objeto debería dar {1}?
+But it failed, since {1} doesn't have room for a new item!
+¡Pero falló, ya que {1} no tiene espacio para un nuevo objeto!
+But it failed, since {1} can't accept an {2}!
+¡Pero falló, ya que {1} no puede aceptar un {2}!
+But it failed, since {1} doesn't have an item to recycle!
+¡Pero falló, ya que {1} no tiene un objeto que reciclar!
+But it failed, since {1} has the item it would recycle!
+¡Pero falló, ya que {1} tiene el objeto que reciclaría!
+{1} doesn't have an item to fling!
+¡Pero falló, ya que {1} no tiene un bojeto que lanzar!
+{1} can't use items!
+¡{1} no puede usar objetos!
+Which item should {1} fling?
+¿Qué objeto debería lanzar {1}?
+{1} can't use any of its items!
+¡{1} no puede usar ninguno de sus objetos!
+Which item should {1} use?
+¿Qué objeto debería usar {1}?
+But it failed, since {1} doesn't have an item!
+¡Pero falló, ya que {1} no tiene un objeto!
+But it failed, because {1} has no berries!
+¡Pero falló, ya que {1} no tiene bayas! 
+But it failed, because {1} cannot eat its berry!
+¡Pero falló, ya que {1} no puede comer su baya!
+But it failed, since {1} has no stat changes!
+¡Pero falló, ya que {1} no tiene cambios de stats!
+But it failed, since {1}'s HP is too low!
+¡Pero falló, ya que los PS de {1} son muy bajos! 
+But it failed, since {1} is already committed to the battle!
+¡Pero falló, ya que {1} ya está comprometido con el combate!
+But it failed, since {1} is already on a dragon ride!
+¡Pero falló, ya que {1} ya está en una montura dragón!
+But it failed, since {1} is already giving a dragon ride!
+¡Pero falló, ya que {1} ya está dando una montura dragón!
+{1} calls out to the pack!
+¡{1} llama a su manada!!
+{1} joins with an ally!
+¡{1} se une con un aliado!
+{1} gathers an new mind!
+¡{1} reúne una nueva mente!
+{1} connects with their friend!
+¡{1} se conecta con su amigo!
+But it failed, since {1} can't be leeched or have either of its attacking stats lowered!
+¡Pero falló, ya que {1} no puede ser infectado ni sus estadísticas pueden ser disminuidas!
+But it failed, since {1} can't be numbed or have either of its attacking stats lowered!
+¡Pero falló, ya que {1} no puede ser aturdido ni sus estadísticas pueden ser disminuidas!
+But it failed, since {1} can't be poisoned or have its Speed lowered!
+¡Pero falló, ya que {1} no puede ser envenenado y su Velocidad no puede ser disminuida!
+But it failed, {1} is above half health!
+¡Pero falló, ya que {1} tiene más de la mitad de sus PS!
+But it failed, since the {1} didn't attack {2} this turn!
+¡Pero falló, ya que {1} no atacó a {2} este turno!
+But it failed, since {1} is slower than {2}!
+¡Pero falló, ya que {1} es nás lento que {2}!
+But it failed, since {1} isn't dizzy!
+¡Pero falló, ya que {1} no está mareado!
+But it failed, since {1} is already drowsy!
+¡Pero falló, ya que {1} ya está somnoliento!
+But it failed, since {1} can neither be burned or frostbitten!
+¡Pero falló, ya que {1} no puede ser quemado ni helado!
+But it failed, since {1} can neither be leeched or numbed!
+¡Pero falló, ya que {1} no puede ser infectado ni aturdido!
+But it failed, since {1}'s level is greater than {2}'s!
+¡Pero falló, ya que el nivel de {1} es mayor al de {2}!
+But it failed, since {1} cannot be replaced!
+¡Pero falló, ya que {1} no puede ser reemplazado!
+But it failed, since {1} has no party members to replace it!
+¡Pero falló, ya que {1} no tiene aliados que entren en su lugar!
+{1} is no longer Afraid. It was restored to half health!
+{1} ya no tiene Miedo. ¡Fue restaurado a la mitad de su salud!
+{1} is no longer Afraid!
+¡{1} ya no tiene Miedo!
+item
+objeto
+items
+objetos
+{1} can't hold two of the same item!
+¡{1} no puede sostner dos objetos iguales!
+{1} can't hold more than two items!
+¡{1} no puede sostener más de dos objetos!
+{1} is no longer allowed to hold its current items.
+{1} ya no puede tener equipado sus objetos actuales.
+{1} Tribe Bonus
+{1} Bonus de Clan
+Turns Left: {1}
+Turnos Restantes: {1}
+Turn {1}
+Turno {1}
+Ability: {1}
+Habilidad: {1}
+A candy machine. It contains {1} batches of candy.
+Una máquina de caramelos. Contiene {1} tandas de caramelo.
+You put in ${1}.
+Insertas ${1}.
+An explodeable rock. Use a Dynamite Stick? You have {1}.
+Una roca explotable. ¿Usas algo de Dinamita? Tienes {1}.
+Badge {1} Team
+Equipo Medalla {1}
+You combine the {1} and the {2}.
+Combinas {1} y {2}.
+{1} stands strong, still ready to fight!
+¡{1} se mantiene firme, aún listo para combatir!
+You recieved a {1} ({2})
+Recibes un {1} ({2})
+We're running a raffle. Would you like to spend ${1} on a chance to win a {2}?
+Estamos organizando una rifa. ¿Quieres gastar ${1} en una oportunidad para ganar un {2}?
+Congratulations, you have won the raffle! Here is your {1}, as promised.
+¡Felicidades, ganaste la rifa! Aquí está tu {1}, como prometido.
+Tomorrow's weather forecast for {1}!
+¡El pronóstico del tiempo para {1}!
+The morning will see {1}.
+En la mañana verás {1}.
+However, things will shake up in the evening with {1}.
+Sin embargo, las cosas cambiarán a la tarde en {1}.
+In the afternoon, that will make way for {1}.
+En la tarde, esto dará paso a {1}.
+More {1} will return in the evening.
+Más {1} regresará a la tarde.
+Finally, in the evening we'll get {1}.
+Finalmente, en la tarde tendremos {1}.
+Swap its items with the {1}?
+¿Cambias sus objetos con {1}?
+Your Aid Kit has been increased to {1} charges.
+Tu Botiquín ahora tiene {1} cargas.
+Your Aid Kit now heals an additional {1} HP per charge.
+Tu Botiquín ahora recupera {1} PS más por carga.
+It won't have any effect due to the level cap at {1}.
+No tendrá efecto dado a que el límite de nivel es {1}.
+{1} trainers are in range. Deploy?
+Hay {1} en rango. ¿La usas?
+{1} trainers fled from the stench!
+¡{1} entrenadores escaparon por el hedor!
+{1} swapped to {2}!
+¡{1} cambió a {2}!
+\me[{1}]{3} found some \c[1]{2}\c[0]!\wtnp[30]
+¡\me[{1}]{3} encontró \c[1]{2}\c[0]!\wtnp[30]
+\me[{1}]{4} found \c[1]{2} {3}\c[0]!\wtnp[30]
+¡\me[{1}]{4} encontró \c[1]{2} {3}\c[0]!\wtnp[30]
+\me[{1}]{4} found {2} \c[1]{3}\c[0]!\wtnp[30]
+¡\me[{1}]{4} encontró {2} \c[1]{3}\c[0]!\wtnp[30]
+\me[{1}]{3} found an \c[1]{2}\c[0]!\wtnp[30]
+¡\me[{1}]{3} encontró \c[1]{2}\c[0]!\wtnp[30]
+\me[{1}]{3} found a \c[1]{2}\c[0]!\wtnp[30]
+¡\me[{1}]{3} encontró \c[1]{2}\c[0]!\wtnp[30]
+{4} put the {1} away\<<n>>in the <icon=bagPocket{2}>\c<<[>>1<<]>>{3} Pocket\c<<[>>0<<]>>.
+¡{4} colocó {1}\<<n>>en el Bolsillo <icon=bagPocket{2}>\c<<[>>1<<]>>{3} \c<<[>>0<<]>>.
+{2} found some \c[1]{1}\c[0]!\wtnp[30]
+¡{2} encontró \c[1]{1}\c[0]!\wtnp[30]
+{3} found \c[1]{1} {2}\c[0]!\wtnp[30]
+¡{3} encontró \c[1]{1} {2}\c[0]!\wtnp[30]
+{3} found {1} \c[1]{2}\c[0]!\wtnp[30]
+¡{3} encontró {1} \c[1]{2}\c[0]!\wtnp[30]
+{2} found an \c[1]{1}\c[0]!\wtnp[30]
+¡{2} encontró \c[1]{1}\c[0]!\wtnp[30]
+{2} found a \c[1]{1}\c[0]!\wtnp[30]
+¡{2} encontró\c[1]{1}\c[0]!\wtnp[30]
+Searching\ts[15]...\wtnp[{1}]
+Buscando\ts[15]...\wtnp[{1}]
+Oh! A {1} was found nearby!
+¡Oh! ¡Un {1} fue encontrado cerco!
+\me[Earn battle points]\ptYou've earned {1} battle points.\wtnp[70]
+\me[Earn battle points]\ptObtuviste {1} puntos de batalla.\wtnp[70]
+{1} awaits you in the arena.
+{1} te espera en la arena.
+Ok, let me know when you are ready to battle {1}.
+Ok, hazme saber cuando estés listo para combatir con {1}.
+Your next match will be against {1}.
+Tu siguiente combate será contra {1}.
+\wmThe match between {1} and \PN will now begin!
+\wm¡El combate entre {1} y \PN empezará!
+Odds are displayed for the {1} round matches, gathered from a spectator poll.
+Se muestran las probablidades para las {1} rondas, acumuladas mediante una encuesta a los espectadores.
+{1} percent of respondents expect you to win against {2}.
+{1} por ciento de los encuestados esperan que ganes contra {2}.
+\PN hands over the {1}, $30,000, and {2}.
+\PN da los {1}, $30,000, y {2}.
+Now, bask in the beautiful glow of your shiny {1}!
+¡Ahora, regocijate en el maravilloso brillo de tu {1} variocolor!
+But it failed, since the Fire-type doesn't exist!
+¡Pero falló, ya que el tipo Fuego no existe!
+But it failed, since {1} is already only Fire-type!
+¡Pero falló, ya que {1} ya es de tipo Fuego!
+But it failed, since the Ice-type doesn't exist!
+¡Pero falló, ya que el tipo Hielo no existe!
+But it failed, since {1} is already only Ice-type!
+¡Pero falló, ya que {1} ya es de tipo Hielo!
+But it failed, since {1} is already Fire-type!
+¡Pero falló, ya que {1} ya es de tipo Fuego!
+But it failed, since {1} is already Ice-type!
+¡Pero falló, ya que {1} ya es de tipo Hielo!
+Box {1} is no longer locked to sorting.
+Ya puedes ordenar la Caja {1}. 
+Box {1} is now locked to sorting.
+Ya no puedes ordenar la Caja {1}.
+{1}-type doesn't exist!
+¡El tipo {1} no existe!
+{1} is already {2}-type!
+¡{1} ya es de tipo {2}!
+{1} can't have its type changed!
+¡No puedes cambiar el tipo de {1}!
+But it failed, since {1} can't be burned or gain Fire-type!
+¡Pero falló, ya que {1} no puede ser quemado ni ganar el tipo Fuego!
+But it failed, since {1} can't be frostbitten or gain Ice-type!
+¡Pero falló, ya que {1} no puede ser helado ni ganar el tipo Hielo!
+Uninvocable
+No invocable
+Quests
+Misiones
+The air around {1} turns dark and distorted.
+El aire alrededor de {1} se vuelve oscuro y distorsionado.
+\db[Items/TAROTAMULET_active]You turn the Tarot Amulet to its front face. It is now active.\wtnp[{1}]
+\db[Items/TAROTAMULET_active]Giras el Amuleto Tarot a su cara frontal. Ahora está activo.\wtnp[{1}]
+\db[Items/TAROTAMULET]You turn the Tarot Amulet to its back face. It is now disabled.\wtnp[{1}]
+\db[Items/TAROTAMULET]Giras el Amuleto Tarot a su parte trasera. Ahora está desactivado.\wtnp[{1}]
+{1} tasks
+{1} tareas
+Impostor/Imperatrice
+Impostor/Emperatriz
+Find them north of Svait.
+Encuéntralas al norte de Svait.
+Find them post surf.
+Encuéntralas luego de surf.
+Find them back south.
+Encuéntralas al sur.
+Find them near the Lingering Delta.
+Encuéntralas cerca del Delta Duradero.
+Ice Cave
+Cueva Hielo
+Prizca West
+Prizca Occidental
+Grouz
+Grouz
+Carnation Graves
+Tumbas Clavel
+A pair of identical fortune tellers, each claiming the other is a Ditto. For some reason, they have a vested interest in you. Find out the truth.
+Un par de adivinas idénticas, ambas asegurando que la otra es un Ditto. Por algún motivo, ambas han demostrado interés en ti. Encuentra la verdad.
+Kayfabe
+Kayfabe
+Find them in the sewers.
+Encuétrala en las alcantarillas.
+Find them near Team Chasm HQ.
+Encuétrala cerca de la Guarida Chasm.
+Luxtech Sewers
+Alcantarillas Luxtech
+Prizca East
+Prizca Oriental
+Volcanic Shore
+Costa Volcánica
+A confident young woman who trains Pokémon for a price. Dueling her could be good practice – but she looks at you with unnerving familiarity. She knows more than she lets on.
+Una segura mujer joven que entrena Pokémon por un precio. Combatir con ella podría ser buena práctica – pero ella te mira con una familiaridad inquienta. Sabe más de lo que aparenta.
+Dear Iconoclast
+Querida Iconoclastia
+Find them in Velenz.
+Encuéntralo en Velenz.
+Find them north east.
+Encuéntralo al noreste.
+Find them on the southern mountain.
+Encuéntralo en la montaña al sur
+Velenz
+Velenz
+Team Chasm HQ
+Guarida Chasm
+Kilna Ascent
+Ascenso Kilna
+A dashing young man trying his best to be charming. His appreciation for avatars borders on spiritual. Who knows what'll happen if you seek him out?
+Un apuesto joven hace lo que puede para ser encantador. Su apreciación por los avatares ronda en lo espiritual. ¿Quién sabe lo que puede pasar si lo buscas?
+When in Makya
+En Makya
+Find them near Velenz.
+Encuéntralo cerca de Velenz.
+Eleig Stretch
+Estrecho Eleig 
+Sewer Junction
+Cruce de Alcantarillas
+Novo College
+Facultad Novo
+A studious man, foreign to Makya. He studies regional forms for his research. Something strange is afoot in the region – perhaps you can work together to find out what.
+Un hombre estudioso, extranjero a Makya. Él estudia formas regionales para su investigación. Algo extraño ocurre en la región – quizás ambos puedan trabajar juntos para descubrirlo.
+Second Chances
+Segundas Oportunidades
+Find them near the river.
+Encuéntralo cerca del río.
+Find them up river.
+Encuéntralo por el río.
+Find them in the shack.
+Encuéntralo en la cabaña.
+Find them near the lake.
+Encuéntralo en el lago.
+Eleig River Crossing
+Cruce del Río Eleig
+Highland Lake
+Lago Montañoso
+Tournament Grounds
+Tierras de Campeonato
+A modest young man with a Phione, a Pokémon of great import. He's a fellow gym challenger – maybe facing off against a living myth could sharpen your skills.
+Un joven modesto con un Phione, un Pokémon de suma importancia. Es un aspirante como tú – quizás enfrentarse a un mito viviente podría mejorar tus habilidades.
+do crimes plz <3
+comete crímenes porfa <3
+Enter the man's house.
+Entra la casa del hombre.
+Find them at the college.
+Encuéntrala en la facultad.
+Find them in a cave.
+Encuéntrala en una cueva.
+Find them at the river.
+Encuéntrala en el río.
+Barren Crater
+Cráter Desértico
+Cave of Hatching
+Cueva del Albor
+An energetic girl with no respect for the law. Despite her bubbly energy, it's easy to see she's burdened by a vendetta. Help her enact justice or find peace.
+Una chica energética sin respeto por la ley. A pesar de su energía jovial, es fácil ver que está agobiada por una vendetta. Ayúdala a promulgar justicia o a que encuentre paz.
+Lost Puppy
+Cachorro Perdido
+School Kid
+Escolar
+Find the Growlithe.
+Encuentra al Growlithe.
+Return to the kid.
+Regresa con el niño.
+Repora Forest
+Bosque Repora
+Novo Apartments
+Apartamentos Novo
+The kid in Novo Apartments is asking you to find his Growlithe, which is lost in Repora Forest.
+Un niño en los Apartamentos Novo te pide encontrar su Growlith, perdido en el Bosque Repora.
+Hide and Seek
+Escondite
+TM Kid
+Niño MT
+Find him.
+Encuéntralo.
+Find him again.
+Encuéntralo de nuevo.
+Casaba Island
+Isla Casaba
+Play hide and seek with the kid who said they'd give you TMs.
+Juega al escondite con el niño que dije que te daría MTs.
+TMs!
+¡MTs!
+An Inconvenienced Ranger
+Un Ranger Molestado
+Ranger
+Ranger
+Find all the digit slips.
+Encuentra todos los dígitos.
+Menagerie-Velenz Gatehouse
+Portería Muestra-Velenz
+The local ranger is tired of Rafael's gym puzzle. Find the digit slips and return them to him.
+El ranger local está cansado del puzle del gimnasio de Rafael. Encuentra los dígitos y llévaselos.
+Breaking Spirits
+Rompiendo Espíritus
+Mother
+Madre
+Perfect the fight with the kid.
+Perfecciona el combate con el niño.
+Return to the mother.
+Regresa con la madre.
+Grouz, Mine Head's House
+Grouz, Casa del Capataz
+A mother is concerned with her kid's career choices. Utterly destroy him.
+Una madre está preocupada con la elección de carrera de su hijo. Destrózalo.
+Don't Open It
+No lo Abras
+Alolan
+Hombre de Alola
+Find their package.
+Encuentra su paquete.
+Return the package.
+Regresa el paquete.
+Prizca West Travel Agency
+Agencia de Viajes Prizca Occidentel
+These people report they lost a package to a Gyarados attack, and want you to get it. Must be important, for their job...?
+Esta gente reporta que perdieron un paquete en el ataque de un Gyarados, y quieren que lo obtengas. Debe ser importante, ¿para su trabajo...? 
+Alolan Wreath
+Corona de Alola
+Down Memory Lane
+Nostalgia
+Berry Farmer
+Granjera
+Bring the Pokémon to them.
+Llévale sus Pokémon
+County Park, Berry Farmer's House
+Parque del Condado, Casa de la Granjera
+This former Team Chasm member has been feeling nostalgic. Bring them a Bergmite, a Klink, a Dreepy, a Makyan Tangela, and an Elekid.
+Esta antigua miembro del Team Chasm se siente nostálgica. Llévale un Bergmite, un Klink, un Dreepy, un Tangela de Makya, y un Elekid.
+Catching Charm
+Amuleto Captura
+Geodude Frenzy!
+¡Locura Geodude!
+Scientist
+Científico
+Defeat the avatar.
+Vence al avatar.
+Novo Town, Scientist's House
+Pueblo Novo, Casa del Científico
+The Alolan Geodudes have gone on a frenzy! This Avatar would wreak havoc unchecked.
+¡Los Geodude de Alola han enloquecido! Este Avatar podría causar caos si no te encargas de él.
+Foreboding
+Premonición
+Worker
+Trabajador
+Defeat the Avatar.
+Vence al Avatar.
+Novo Apartments, Attic
+Apartamentos Novo, Ático
+An Avatar has invaded Novo Apartments. Assist the Absol it's staring down!
+Un Avatar ha invadido los Apartamentos Novo. ¡Ayuda al Absol que lo enfrenta!
+Aegis Insurance Fraud
+Fraude en la Aseguradora Aegis
+Jogger?
+¿Corredora?
+Find the ID Card.
+Encuentra la Tarjeta ID.
+Infiltrate the building.
+Infíltrate en el edificio.
+Return to the Ranger.
+Regresa con la Ranger.
+Aegis Insurance
+Aseguradora Aegis
+An undercover Makyan Ranger is investigating Aegis Insurance. Help her infiltrate the building to discover the truth.
+Un Ranger de Makya encubierto está investigando a la Aseguradora Aegis. Ayúdala a infiltrarte al edificio para descubrir la verdad. 
+Sewer Dining
+Cena en la Alcantarilla
+Dragon Tamer
+Domadragones
+Give them 10 Big Malasadas.
+Dales 10 Malasadas Maxi.
+<<[>>Placeholder<<]>>.
+<<[>>Placeholder<<]>>.
+Peal of Thunder
+Estrueno dle Trueno
+Defeat what lurks behind the door.
+Derrota lo que acecha detrás de la puerta.
+Report back about your success.
+Reporta tu éxito.
+Casaba Villa, Lambert's House
+Villa Casaba, Casa de Lambert
+Lambert was tasked with keeping eyes on an imprisoned avatar until he found someone capable of destroying it. He seems to think that's you. Silence the beast.
+A Lambert le dieron la tarea de vigilar a un avatar encarcelado hasta que encontrara a alguien capaz de destruirlo. Parece pensar que eres tú. Silencia a la bestia.
+May I Have this Dance?
+¿Me Concedes una Pieza?
+Shipping Lane
+Ruta Pezquera
+Novo Gym
+Gimnasio Novo
+Eko has waited for years to find someone capable of destroying a particularly powerful avatar. They gave you a key to get into its prison, and told you not to ask too many questions. Put an end to the thing's performance.
+Eko ha esperado años para encontrar a alguien capaz de destruir a un avatar particularmente poderoso. Te dió la llave para entrar a su prisión, y te dijo que no hagas demasiadas preguntas. Pon un fin a su danza.
+The Thanks I Get
+Las Gracias que me Dan
+Luxtech Gym
+Gimnasio Luxtech
 [26]
 [27]
 [27]
