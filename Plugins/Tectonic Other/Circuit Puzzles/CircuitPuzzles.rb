@@ -61,13 +61,14 @@ class CircuitPuzzle_Scene
             defaultState = circuitComponentDefinition[3]
             
             componentBitmap = @componentBitmaps[componentID]
+            width = componentBitmap.width
             newSprite = SpriteWrapper.new
             newSprite.bitmap = componentBitmap.bitmap
             newSprite.viewport = @viewport
-            newSprite.x = componentX * 64 + 8
-            newSprite.y = componentY * 64 + 8
-            newSprite.src_rect.height = 12
-            newSprite.src_rect.y = defaultState * 12
+            newSprite.x = componentX * 64 + (20 - width)
+            newSprite.y = componentY * 64 + (20 - width)
+            newSprite.src_rect.height = width
+            newSprite.src_rect.y = defaultState * width
             newSprite.zoom_x = 4
             newSprite.zoom_y = 4
             @sprites["component_#{componentSprites.size}"] = newSprite
@@ -86,7 +87,7 @@ class CircuitPuzzle_Scene
     end
 
     def updateComponentState(componentIndex,state)
-        componentSprites[componentIndex].src_rect.y = state * 12
+        componentSprites[componentIndex].src_rect.y = state * componentSprites[componentIndex].bitmap.width
     end
 
     # End the scene here

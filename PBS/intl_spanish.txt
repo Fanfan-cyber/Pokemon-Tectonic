@@ -53137,8 +53137,8 @@ Critical hits ignore stat steps (on the user or the target) that would lower the
 Los golpes críticos ignoran cambios en grados de stats  (en el usuario u objetivo) que reducirían su daño. También ignoran pantallas como Reflejo y Pantalla de Luz.
 Preventing Criticals
 Protegerse de Críticos
-Certain abilities prevent critical hits against that Pokemon. The Lucky Chant effect and the Strategist tribe bonus also protect their side from critical hits.
-Ciertas habilidades bloquean golpes críticos en contra de un Pokémon. El efecto Conjuro y el bonus de clan Estratega también protegen a su lado de los golpes críticos.
+Certain abilities prevent critical hits against that Pokemon. The Lucky Chant effect protects their side from critical hits.
+Ciertas habilidades bloquean golpes críticos en contra de un Pokémon. El efecto Conjuro protege a un lado de los golpes críticos.
 Guaranteed Criticals
 Críticos Garantizados
 Some moves or abilities are not random, but guarantee a critical hit under certain conditions. Otherwise, these act the same as random critical hits.
@@ -55797,6 +55797,176 @@ The Thanks I Get
 Las Gracias que me Dan
 Luxtech Gym
 Gimnasio Luxtech
+Helena told you that Makya's gym challenge was partially created to find exceptional trainers. Having found one, she's eager to put you to work. Take her key, find this vicious avatar, and show it a former Chasm boss's gratitude.
+Helena te dijo que el desafío de los gimnasios de Makya fue creado parcialmente para encontrar entrenadores excepcionales. Habiendo encontrado una, está ansiosa para ponerte a trabajar. Toma su lleva, encuentre a este salvaje avatar, y muéstrale gratitud a una antigua jefe Chasm.
+Quietus
+Óbito
+Velenz, Rafael's House
+Velenz, Casa de Rafael
+Rafael claims that the gym leaders' real purpose is to watch over the prisons of devastatingly powerful avatars. All he wants is for you to go in and end his work. Strike down the darkness writhing within its tomb.
+Rafael asegura que el verdadero propósito de los líderes de gimnasio es vigilar las prisiones de avatares devastadoramentes poderosos. Todo lo que quiere es que vayas y termines su trabajo. Acaba con la oscuridad retorciéndose en su tumba.
+Neath Rust and Time
+Bajo el Óxido y Tiempo
+Zoe
+Zoé
+Eleig River Crossing, Worn Shed
+Cruce del Río Eleig, Cobertizo Desgastado
+Zoé told you that her mentor abandoned her and Bence, but left behind instructions. If they found a trainer of her caliber, they were to send them to destroy a pair of dire avatars. End the beasts' illustrious stories here and now.
+Zoé te dijo que su mentora los abandonó a ella y a Bence, pero les dejó instrucciones. Si encuentran a un entrenador de su calibre, tienen que enviarlo a destruir un par de avatares. Ponle fin a las ilustres historias de las bestias aquí y ahora.
+Beneficence
+Beneficencia
+Ancient Sewers
+Alcantarillas Antiguas
+Prizca East Gym
+Gimnasio Prizca Oriental
+Noel explains that Team Chasm created something by tampering with the Regis. Whether intentional or accidental, the resulting avatar must be eliminated. Cull it and deaden its fell light.
+Noel explica que el Team Chasm creó algo al manipular a los Regis. Ya sea de manera intencional o accidentada, el avatar resultante debe ser eliminado. Acaba con él y apaga su luz caída.
+L'Enfant du Vide
+L'Enfant du Vide
+Sweetrock Harbor Gym
+Gimnasio Puerto Sweetrock
+Victoire has been waiting to find someone capable of eliminating a remnant of Team Chasm's experimentation with Regigigas's power. Provide this abomination a warm welcome.
+Victoire ha estado esperando a encontrar a alguien capaz de eliminar un remanente de la experimentación del Team Chasm con el poder de Regigigs. Dale una cálida bienvenida a esta abominación.
+Kiss of Ascalon
+Beso de Ascalon
+Team Chasm HQ Gym
+Gimnasio Guarida Chasm
+Samorn told you that she helped Team Chasm create impenetrable crypts to imprison avatars within, utilizing the power of the Regis. Now, it's time to get rid of one of those avatars for good. She's given you the means to get in and cut it down to size.
+Samorn te dijo que ayudó al Team Chasm a crear criptas impenetrables para encarcelar a avatares dentro de ellas, utilizando el poder de los Regis. Ahora, es hora de deshacerse de uno de esos avatares de una vez. Ella te ha dado el modo de entrar y acabar con él.
+Bounty: Crobat Avatar
+Objetivo: Avatar de Crobat
+Defeat the Crobat Avatar.
+Vence al Avatar de Crobat
+Report back to the Ranger.
+Regresa con el Ranger
+Peaks-Harbor Gatehouse
+Portería Picos-Puerto
+A ranger is asking you to deal with a Crobat Avatar lying in the tunnels under Split Peaks. Says he'll make it worth your while.
+Un ranger te pide acabar con el Avatar de Crobat encontrado en los túneles bajo los Picos Partidos. Te dice que valdrá la pena.
+Bounty: Beartic Avatar
+Objetivo: Avatar de Beartic
+Defeat the Beartic Avatar.
+Vence al Avatar de Beartic.
+Gigalith's Guts
+Tripas de Gigalith
+Svait-Park Gatehouse
+Portería Svait-Parque
+A ranger is asking you to deal with a Beartic Avatar lying in the Gigalith's Guts. Says he'll make it worth your while.
+Un ranger te pide lidiar con el Avatar de Beartic encontrado en las Tripas de Gigalith. Te dice que valdrá la pena.
+Bounty: M. Aromatisse Avatar
+Objetivo: Avatar de Aromatisse M.
+Defeat the M. Aromatisse Avatar.
+Vence al Avatar de Aromatisse M.
+West-Plaza Gatehouse
+Portería Oeste-Plaza
+A ranger is asking you to deal with a Makyan Aromatisse Avatar lying in the Highland Lake... apparently. Says he'll make it worth your while.
+Un ranger te pide lidiar con el Avatar de un Aromatisse de Makya encontrado en el Lago Montañoso... aparentemente. Te dice que valdrá la pena.
+Bounty: Monkey Trio Avatars
+Objetivo: Avatares del Trío de Monos
+Defeat the trio of Monkey Avatars.
+Vence al trío de Avatares de Monos.
+Shelf-Novo Gatehouse
+Portería Plataforma-Novo
+A ranger is asking you to deal with a trio of Avatars, a Pansage, Pansear, and Panpour, lying in The Shelf. Says she'll make it worth your while.
+Un ranger te pide lidiar con un trío de Avatares, un Pansage, Pansear, y Panpour, encontrados en La Plataforma. Te dice que valdrá la pena.
+A Primordial Material
+Un Material Primordial
+Talk to Dr. Hekata.
+Habla con la Dr. Hekata.
+Return to the Path of Paradise.
+Regresa al Camino al Paraíso.
+Report back to Dr. Hekata.
+Regresa con la Dr. Hekata.
+Dr. Hekata gave you a call mysteriously, asking to meet her in her home of Grouz. What could she want of you?
+La Dr. Hekata te llamó misteriosamente, pidiéndote que la encuentres en su hogar en Grouz. ¿Qué podría querer de ti?
+Turn Back the Clock
+Volviendo Atrás el Reloj
+Celebi
+Celebi
+Plant the seeds.
+Planta las semillas.
+The mythical being named Celebi handed you four latent seeds. Perhaps you need to plant these somewhere? Afterwards, seek out Celebi.
+El ser mítico llamado Celebi te entregó cuatro semillas latentes. ¿Quizás tienes que plantar estas en algún lado? Luego, busca a Celebi.
+The Age of Stone
+La Edad de Piedra
+Make your way through the dungeon.
+Adéntrate en la mazmorra.
+A strange dungeon lies before you. A crumbling canyon, carved out and inhabitated in an ancient time. That ancient time may not be as far away as it seems, however...
+Una extraña mazmorra se encuentra ante ti. Un cañón derruido, habitado en antiguos tiempos. Sin embargo, puede que esos tiempos antiguos no sean tan lejanos como parecen...
+The Age of Ice
+La Edad de Hielo
+A strange dungeon lies before you. A frozen wasteland, locked in time and place, rigid and reflective obstacles blocking your way. Perhaps a reflection of times long past.
+Una extraña mazmorra se encuentra ante ti. Un páramo congelado, inmóvil durante el tiempo y el espacio, obstáculos rígidos y reflectantes cortando tu paso. Quizás un reflejo de tiempos olvidados.
+Spacial Split
+División Espacial
+Find all the lost rangers.
+Encuentra a todos los rangers pérdidos.
+You found a strange set of... spectres? Spirits? Whatever they could be, defeating them in a battle appears to give some resolution to this situation... What could've caused this?
+Encontraste un extraño grupo de... ¿espectros? ¿Espíritus? Da igual lo que sean, derrotarlos en combate parece darle algún tipo de resolución a esta situación... ¿Qué podría haber causado esto?
+The Age of Steel
+La Edad del Metal
+A strange dungeon lies before you. A forest made of metals and alloys. Always malleable, always changing, the line between natural and man-made thin...
+Una extraña mazmorra se encuentra ante ti. Un bosque hecho de metales y aleaciones. Siempre maleable, siempre cambiante, la fina línea entre lo natural y artificial...
+A Collapsed Metal
+Un Metal Colapsado
+Find the Meltan scattered about.
+Encuentra a los Meltan dispersos.
+A strange metallic creature fell apart into multiple smaller creatures, and scattered about the Alloyed Thicket. What might happen if you reunite them together?
+Una extraña criatura metálica colapsó en múltiples criaturas más pequeñas, dispersos en el Matorral Aleado. ¿Qué podría pasar si los reúnes? 
+The Age of Myths
+La Edad de los Mitos
+The Catacombs
+Las Catacumbas
+A strange dungeon lies before you. Winding age-old catacombs, full of myths and legends. Stories will be the basis of humanity for as long as it will exist.
+Una extraña mazmorra se encuentra ante ti. Catacumbas antiguas, llenas de mitos y leyendas. Las historias serán la base de la humanidad siempre y cuando esta exista.
+Always In Character
+Siempre en Personaje
+The LARPers
+Los LARPers
+See if you can find them again.
+Ve si puedes encontrarlos de nuevo.
+Quite an eclectic group you've found. You've claimed their hoard, but this surely isn't the last time you'll find yourself encountering them.
+Vaya grupo más ecléctico te has encontrado. Reclamaste su botín, pero seguramente esta no será la última vez que los encuentres.
+Age of Electricity
+La Edad de la Electricidad
+Oasis System
+Sistema Oasis
+A strange dungeon lies before you. Circuits run throughout the entire cave, in a similar way to the small streams of water. Electrical currents flow like water, opening the way forward to your goal.
+Una extraña mazmorra se encuentra ante ti. Circuitos recorren toda la cueva, de forma similar a un pequeño arroyo de agua. Las corrientes eléctricas fluyen como el agua, abriendo el camino a tu destino.
+The Most Dangerous Experiment
+El Experimento Más Peligroso
+Fight through the scientists.
+Combate a los científicos
+Battle Plaza Underground
+Subsuelo Plaza Batalla
+A group of scientists appear to be guarding something important. You never were one for not sticking your nose in everything, what would a bunch of nerds hold up against you?
+Un grupo de científicos parecen estar protegiendo algo importante. Nunca fuiste alguien que no se metiera en sus asuntos, ¿qué podrían hacerte un puñado de nerds?
+The Novo Battle Club
+Club de Batalla Novo
+Fight Club Louis
+Combate contra Luis
+Fight your way up through the ranks.
+Escala los rangos.
+Louis is holding a Battle Club in Novo town. Simply a way to entertain yourselves and your Pokémon.
+Louis organiza un Club Batalla en pueblo Novo. Simplemente un modo de entretenerte junto a tus Pokémon.
+Parting With a Friend
+Despedirse de un Amigo
+Strange Girl
+Niña Extraña
+Trade her a Pokémon you've bonded with.
+Intercambia un Pokémon con el que hayas formando un vínculo.
+Tournament Lobby
+Lobby del Torneo
+An odd girl in the tournament lobby has an offer. A Pokémon you've bonded with fully, for the individual she possesses... Can you make that trade?
+Una extraña niña en el lobby del torneo tiene una oferta. Un Pokémon con el que tengas un vínculo completo, por el individual que ella posee... ¿Puedes hacer ese intercambio?
+Quest Log
+Lista de Misiones
+<u>150 BP</u>: Iron Ball
+<u>150 BP</u>: Bola Férrea
+<u>Waterlog</u>: Water Balloon
+<u>Embeber</u>: Globo de Agua
+The Age of Electricity
+La Edad de la Electricidad
 [26]
 [27]
 [27]
@@ -58207,6 +58377,8 @@ Banking on It
 La Experiencia Hace al Maestro
 Hook Line and Sinker
 Pescador Maestro
+Regicide
+Regicidio
 [34]
 Be officially crowned Champion of Makya.
 Se oficialmente coronado Campeón de Makya.
@@ -58234,8 +58406,8 @@ Perfect Noel, the sixth gym leader, at level cap 45 or below with the Tarot Amul
 Perfecciona a Noel, el sexto líder de gimnasio, con un límite de nivel de 45 o menos con el Amuleto Tarot activado.
 Perfect Victoire, the seventh gym leader, at level cap 55 or below with the Tarot Amulet activated.
 Perfecciona a Victoire, la séptima líder de gimnasio, con un límite de nivel de 55 o menos con el Amuleto Tarot activado.
-Perfect Samorn, the eighth gym leader, at level cap 55 or below with the Tarot Amulet activated.
-Perfecciona a Samorn, la octava líder de gimnasio, con un límite de nivel de 55 o menos con el Amuleto Tarot activado.
+Perfect Samorn, the eighth gym leader, at level cap 60 or below with the Tarot Amulet activated.
+Perfecciona a Samorn, la octava líder de gimnasio, con un límite de nivel de 60 o menos con el Amuleto Tarot activado.
 Destroy any legendary avatar.
 Destruye cualquier avatar legendario.
 Use a Primeval Move.
@@ -58244,13 +58416,13 @@ Defeat all 8 Team Chasm-created avatars within the locked chambers.
 Vence a los 8 avatares creados por el Team Chasm dentro de las cámaras selladas.
 Destroy the avatar of Rayquaza in the Tempest Realm.
 Destruye al avatar de Rayquaza en el Reino de la Tempestad.
-Capture a legendary Pokemon in a regular PokeBall (thrown normally or created by the Ball Launcher.)
+Capture a legendary Pokemon in a regular Poké Ball (thrown normally or created by the Ball Launcher.)
 Atrapa a un Pokémon legendario en una Poké Ball regular (lanzada normalmente o creada con el Lanza-Balls.)
 Capture at least one Pokémon in a Premier Ball, a Cherish Ball, and a Royal Ball.
 Atrapa a al menos un Pokémon en una Honor Ball, una Gloria Ball, y una Magni Ball.
 Capture at least one Pokémon in a Potion Ball, a Slice Ball, a Leech Ball, and a Disable Ball.
 Atrapa a al menos un Pokémon en una Cura Ball, una Filo Ball, una Infecta Ball, y una Anula Ball.
-Visit a PokEstate plot that has 30 Pokémon in it.
+Visit a PokÉstate plot that has 30 Pokémon in it.
 Visita un Terreno que tenga 30 Pokémon en él.
 Fully upgrade your Aid Kit.
 Mejora por completo a tu Botiquín.
@@ -58262,8 +58434,8 @@ Connect all Avatar Totems.
 Conecta a todos los Totems Avatar. 
 Defeat all 7 former Makyan champions.
 Vence a los 7 antiguos campeones de Makya.
-After being crowned champion, defeat Pokémon Master Vanya in the Tournament Grounds with a full team of genderless Pokémon.
-Luego de ser coronado campeón, vence al Maestro Pokémon Vanya en las Tierras de Campeona con un equipo de seis Pokémon sin género.
+After being crowned champion, defeat Pokémon Master Vanya with a full team of genderless Pokémon.
+Luego de ser coronado campeón, vence al Maestro Pokémon Vanya en las Tierras de Campeonato con un equipo de seis Pokémon sin género.
 Complete a full attempt of the Battle Monument (5 battles won).
 Completa un intento del Monumento Batalla (5 batallas ganadas).
 Complete a full attempt of the Battle Monument (5 battles won) with a Team whose members were all introduced in the same generation (Pokémon introduced in Tectonic count as a generation.)
@@ -58286,3 +58458,5 @@ Have more than 1,000,000 experience stored in the EXP-EZ Dispenser at once.
 Ten más de 1000000 de experiencia almacenada en el Dispensador EXP-EZ a la vez.
 Achieve the top prize at Aquatopia Menagerie's Ocean Fishing Contest.
 Obtén el premio gordo en el Concurso de Pesca Oceánica de Aquatopia.
+Destroy the avatars of Spectrier, Glastrier, and Calyrex in the Crown Chamber.
+Destruye los avatares de Spectrier, Glastrier, y Calyrex en la Cámara Corona.

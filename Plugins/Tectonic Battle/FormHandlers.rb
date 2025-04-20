@@ -308,12 +308,6 @@ MultipleForms.register(:KELDEO,{
   }
 })
 
-MultipleForms.register(:MELOETTA,{
-  "getFormOnLeavingBattle" => proc { |pkmn,battle,usedInBattle,endBattle|
-    next 0
-  }
-})
-
 MultipleForms.register(:GENESECT,{
   "getForm" => proc { |pkmn|
     next 1 if pkmn.hasItem?(:SHOCKDRIVE)

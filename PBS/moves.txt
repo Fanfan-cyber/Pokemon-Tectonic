@@ -692,7 +692,7 @@ Description = The user rests to cure itself of any status condition.
 [RELICSONG]
 Name = Relic Song
 Type = NORMAL
-Category = Special
+Category = Adaptive
 Power = 75
 Accuracy = 100
 TotalPP = 10
@@ -1723,7 +1723,7 @@ Accuracy = 100
 TotalPP = 5
 Target = NearOther
 FunctionCode = Basic
-Flags = CanProtect,CanRandomCrit
+Flags = CanProtect,CanRandomCrit,Wind
 Description = A vortex of air is shot at the target to inflict damage. Can random critical hit.
 #-------------------------------
 [AIRSLASH]
@@ -4506,7 +4506,7 @@ Accuracy = 100
 TotalPP = 30
 Target = NearOther
 FunctionCode = Basic
-Flags = CanProtect
+Flags = CanProtect,CanRandomCrit
 Description = The user attacks by pelting the target with leaves. Can random critical hit.
 #-------------------------------
 [LEAFBLADE]
@@ -4583,13 +4583,13 @@ Description = The user attacks by scattering petals in a rampage for three turns
 Name = Power Whip
 Type = GRASS
 Category = Physical
-Power = 120
-Accuracy = 70
-TotalPP = 10
+Power = 115
+Accuracy = 80
+TotalPP = 5
 Target = NearOther
-FunctionCode = CantMissAgainstTargetAlreadyAttacked
+FunctionCode = Basic
 Flags = CanProtect
-Description = The user violently whirls to lash the target. Can't miss if the target has already attacked this turn.
+Description = The user violently whirls its vines, tentacles, or the like to lash the target.
 #-------------------------------
 [RAZORLEAF]
 Name = Razor Leaf

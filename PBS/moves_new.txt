@@ -5547,6 +5547,19 @@ Flags = CanProtect
 Description = Psychic energy assaults the foe and darkens the sky, summoning eclipse for 8 turns.
 Animation = DARKVOID
 #-------------------------------
+[PSYCHESWITCH]
+Name = Psyche Switch
+Type = PSYCHIC
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = SwitchOutUserDamagingMove
+Flags = CanProtect
+Description = After making its attack to the targets psyche, the user teleports back to switch places with a party Pokémon.
+Animation = ZENHEADBUTT
+#-------------------------------
 [PSYCHICOVERLOAD]
 Name = Psychic Overload
 Type = PSYCHIC
