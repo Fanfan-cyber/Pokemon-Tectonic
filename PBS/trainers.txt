@@ -7578,6 +7578,218 @@ Pokemon = SHEDINJA,70
 Pokemon = NIDOKING,70
     AbilityIndex = 1 # Stressful
 #-------------------------------
+[POKEMONMASTER_Vanya,Vanya,8]
+Flags = NoPerfect,RainTeam,PlayerTeam:AtteatheSilly
+Pokemon = ZOROARK,70
+    AbilityIndex = 0 # Illusion
+Pokemon = LUDICOLO,70
+    AbilityIndex = 0 # Fiesta
+Pokemon = ROSERADE,70
+    AbilityIndex = 0 # Swordplay
+Pokemon = ORICORIO,70
+    Form = 2 # Pa'u Style Form
+    AbilityIndex = 0 # Dancer
+Pokemon = GIGACHU,70
+    AbilityIndex = 1 # Gargantuan
+Pokemon = CONIFEAR,70
+    AbilityIndex = 1 # Frustrate
+#-------------------------------
+[POKEMONMASTER_Vanya,Vanya,9]
+Flags = NoPerfect,RainTeam,PlayerTeam:Kiwrii
+Pokemon = DEWGONG,70
+    AbilityIndex = 1 # Safe Passage
+Pokemon = BOLTUND,70
+    AbilityIndex = 1 # Strikes Twice
+Pokemon = ARMALDO,70
+    AbilityIndex = 1 # Swift Swim
+Pokemon = BLASFEMMIE,70
+    AbilityIndex = 1 # Hubris
+Pokemon = FLOATZEL,70
+    AbilityIndex = 0 # Moxie
+Pokemon = HYMNUS,70
+    AbilityIndex = 1 # Rain Prism
+#-------------------------------
+[POKEMONMASTER_Vanya,Vanya,10]
+Flags = NoPerfect,PlayerTeam:Cannamoos
+Pokemon = SYLVEON,70
+    AbilityIndex = 1 # Dragon Slayer
+Pokemon = LUXRAY,70
+    AbilityIndex = 1 # Intimidate
+Pokemon = INFERNAPE,70
+    AbilityIndex = 0 # Mystic Fist
+Pokemon = GRENINJA,70
+    AbilityIndex = 1 # Wise Hunter
+Pokemon = WORNET,70
+    AbilityIndex = 1 # Predation
+Pokemon = TORTERRA,70
+    AbilityIndex = 1 # Living Armor
+#-------------------------------
+[POKEMONMASTER_Vanya,Vanya,11]
+Flags = NoPerfect,PlayerTeam:Greeneyedpsycho
+Pokemon = ASANDSLASH,70
+    AbilityIndex = 0 # Skill Link
+Pokemon = MZANGOOSE,70
+    AbilityIndex = 1 # Mental Damage
+Pokemon = APPLETUN,70
+    AbilityIndex = 1 # Firefighter
+Pokemon = TALONFLAME,70
+    AbilityIndex = 0 # Harsh
+Pokemon = TYRANTRUM,70
+    AbilityIndex = 1 # Rock Head
+Pokemon = DUSKNOIR,70
+    AbilityIndex = 0 # Aggravate
+#-------------------------------
+[POKEMONMASTER_Vanya,Vanya,12]
+Flags = NoPerfect,PlayerTeam:Wildcard
+Pokemon = CHATOT,70
+    AbilityIndex = 1 # Fascinate
+Pokemon = DHELMISE,70
+    AbilityIndex = 0 # Rust & Wrack
+Pokemon = SCARODON,70
+    AbilityIndex = 1 # Armor Piercing
+Pokemon = COFAGRIGUS,70
+    AbilityIndex = 0 # Mummy
+Pokemon = RUBARIOR,70
+    AbilityIndex = 0 # Magic Shield
+Pokemon = KINGDRA,70
+    AbilityIndex = 1 # Gyre Spinner
+#-------------------------------
+[POKEMONMASTER_Vanya,Vanya,13]
+Flags = NoPerfect,PlayerTeam:Maken33
+Pokemon = HELECTRODE,70
+    AbilityIndex = 0 # Perennial Payload
+Pokemon = RUBARIOR,70
+    AbilityIndex = 0 # Magic Shield
+Pokemon = BLISSEY,70
+    AbilityIndex = 0 # Serene Grace
+Pokemon = STOUTLAND,70
+    AbilityIndex = 0 # Break Through
+Pokemon = PTEROFLYTE,70
+    AbilityIndex = 0 # Armor Piercing
+Pokemon = AMUK,70
+    AbilityIndex = 1 # Poison Punish
+#-------------------------------
+[POKEMONMASTER_Vanya,Vanya,14]
+Flags = NoPerfect,HailTeam,PlayerTeam:Zempest
+Pokemon = HELECTRODE,70
+    AbilityIndex = 0 # Perennial Payload
+Pokemon = MZANGOOSE,70
+    AbilityIndex = 0 # Served Cold
+Pokemon = AURORUS,70
+    AbilityIndex = 1 # Snow Warning
+Pokemon = MNOCTOWL,70
+    AbilityIndex = 1 # Winter Insulation
+Pokemon = DUSCLOPS,70
+    AbilityIndex = 1 # Ice Body
+Pokemon = HDECIDUEYE,70
+    AbilityIndex = 0 # Taiga Trekker
+#-------------------------------
+[POKEMONMASTER_Vanya,Vanya,15]
+Flags = NoPerfect,PlayerTeam:SpeedyTurtle496
+Pokemon = TOGEKISS,70
+    AbilityIndex = 1 # Serene Grace
+Pokemon = SERPERIOR,70
+    AbilityIndex = 1 # Eccentric
+Pokemon = DRAGONITE,70
+    AbilityIndex = 1 # Multiscale
+Pokemon = CINDERACE,70
+    AbilityIndex = 1 # Energetic
+Pokemon = GRAPIDASH,70
+    AbilityIndex = 0 # Joyous Sorrow
+Pokemon = ASANDSLASH,70
+    AbilityIndex = 0 # Skill Link
+#-------------------------------
+[POKEMONMASTER_Vanya,Vanya,16]
+Flags = NoPerfect,PlayerTeam:Aethariel
+Pokemon = PELIPPER,70
+    AbilityIndex = 1 # Dreary Clouds
+Pokemon = GLISCOR,70
+    AbilityIndex = 0 # Grotesque Vitals
+Pokemon = TROPIUS,70
+    AbilityIndex = 0 # Mental Block
+Pokemon = SAURENAID,70
+    AbilityIndex = 0 # Arctic Ariette
+Pokemon = DELIBIRD,70
+    AbilityIndex = 1 # Holiday Cheer
+Pokemon = AMOONGUSS,70
+    AbilityIndex = 0 # Regenerator
+#-------------------------------
+[POKEMONMASTER_Vanya,Vanya,17]
+Flags = NoPerfect,SandTeam,PlayerTeam:Kamekami
+Pokemon = RUNERIGUS,70
+    AbilityIndex = 1 # Sand Stream
+Pokemon = CLAYDOL,70
+    AbilityIndex = 1 # Magic Bounce
+Pokemon = HARCANINE,70
+    AbilityIndex = 1 # Stone Mane
+Pokemon = RAMPARDOS,70
+    AbilityIndex = 0 # Sand Rush
+Pokemon = MARACTUS,70
+    AbilityIndex = 1 # Desert Armor
+Pokemon = GARCHOMP,70
+    AbilityIndex = 1 # Sands Macabre
+#-------------------------------
+[POKEMONMASTER_Vanya,Vanya,18]
+Flags = NoPerfect,PlayerTeam:CostosCaliber
+Pokemon = MZANGOOSE,70
+    AbilityIndex = 1 # Mental Damage
+Pokemon = HONCHKROW,70
+    AbilityIndex = 0 # Rattle 'Em
+Pokemon = DELPHOX,70
+    AbilityIndex = 1 # Fascinate
+Pokemon = RILLABOOM,70
+    AbilityIndex = 0 # Verdant
+Pokemon = PORYGONZ,70
+    AbilityIndex = 0 # Realist
+Pokemon = MAGNEZONE,70
+    AbilityIndex = 0 # Analytic
+#-------------------------------
+[POKEMONMASTER_Vanya,Vanya,19]
+Flags = NoPerfect,PlayerTeam:Oreo29
+Pokemon = REAVOR,70
+    AbilityIndex = 1 # Inner Focus
+Pokemon = CINDERACE,70
+    AbilityIndex = 0 # Freestyle
+Pokemon = MANERGETIC,70
+    AbilityIndex = 1 # Fascinate
+Pokemon = SCEPTILE,70
+    AbilityIndex = 1 # Wall Ninja
+Pokemon = PRIMARINA,70
+    AbilityIndex = 0 # Tuned Out
+Pokemon = WEAVILE,70
+    AbilityIndex = 0 # Inner Focus
+#-------------------------------
+[POKEMONMASTER_Vanya,Vanya,20]
+Flags = NoPerfect,PlayerTeam:Breadon7414
+Pokemon = KOMALA,70
+    AbilityIndex = 0 # Comatose
+Pokemon = MMUSHARNA,70
+    AbilityIndex = 1 # Fatigued
+Pokemon = HYPNO,70
+    AbilityIndex = 0 # Bad Dreams
+Pokemon = SNORLAX,70
+    AbilityIndex = 0 # Loud Sleeper
+Pokemon = MFURRET,70
+    AbilityIndex = 0 # Filter
+Pokemon = PAPELLUMEN,70
+    AbilityIndex = 1 # Erudite
+#-------------------------------
+[POKEMONMASTER_Vanya,Vanya,21]
+Flags = NoPerfect,PlayerTeam:Wolfunters64
+Pokemon = SAMUROTT,70
+    AbilityIndex = 1 # Swordplay
+Pokemon = CHESNAUGHT,70
+    AbilityIndex = 1 # Aggravate
+Pokemon = LYCANROC,70
+    Form = 2 # Dusk Form
+    AbilityIndex = 0 # Tough Claws
+Pokemon = SYLVEON,70
+    AbilityIndex = 1 # Dragon Slayer
+Pokemon = FURRET,70
+    AbilityIndex = 1 # Slinky
+Pokemon = BASCULEGION,70
+    AbilityIndex = 1 # Expertise
+#-------------------------------
 [WILDPARTY_KOKO,of Conflict]
 Flags = NoPerfect
 Pokemon = INCINEROAR,70

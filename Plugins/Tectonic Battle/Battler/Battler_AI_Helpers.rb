@@ -358,6 +358,16 @@ class PokeBattle_Battler
         return false
     end
 
+    def canChooseMagicCoat?
+        eachAIKnownMoveWithIndex do |move, i|
+            next unless move.is_a?(PokeBattle_Move_BounceBackProblemCausingStatusMoves)
+            next unless @battle.pbCanChooseMove?(index, i, false)
+            next if @battle.battleAI.aiPredictsFailure?(move, self, self)
+            return true
+        end
+        return false
+    end
+
     def canChooseFullSpreadMove?(categoryOnly = -1)
         eachAIKnownMoveWithIndex do |move, i|
             next if categoryOnly == 0 && !move.physicalMove?

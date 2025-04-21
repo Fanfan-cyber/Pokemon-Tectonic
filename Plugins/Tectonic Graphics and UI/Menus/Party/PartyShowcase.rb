@@ -79,7 +79,18 @@ class PokemonPartyShowcase_Scene
 
         # Show trainer name
         if @npcTrainer
-            playerName = "<ar>#{trainer.full_name}</ar>"
+            playtesterSubmitted = nil
+            trainer.flags.each do |flag|
+                match = flag.match(/PlayerTeam\:(.+)/)
+                next unless match
+                playtesterSubmitted = match[1]
+                break
+            end
+            if playtesterSubmitted
+                playerName = _INTL("Team Submitted by {1}", playtesterSubmitted)
+            else
+                playerName = "<ar>#{trainer.full_name}</ar>"  
+            end
             drawFormattedTextEx(@overlay, Graphics.width - 304, bottomBarY, 300, playerName, base, shadow)
         elsif $Options.name_on_showcases != 1
             playerName = "<ar>#{trainer.name}</ar>"

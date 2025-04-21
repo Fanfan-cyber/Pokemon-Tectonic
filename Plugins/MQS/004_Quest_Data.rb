@@ -385,7 +385,7 @@ module QuestModule
     :Name => _INTL("Always In Character"),
     :QuestGiver => _INTL("The LARPers"),
     :Stage1 => _INTL("See if you can find them again."),
-    :Location1 => _INTL("???"),
+    :Location1 => _INTL("Makya"),
     :QuestDescription => _INTL("Quite an eclectic group you've found. You've claimed their hoard, but this surely isn't the last time you'll find yourself encountering them."),
   }
 
@@ -445,7 +445,7 @@ module QuestModule
     :Name => _INTL("WIP: Odd Pits"),
     :QuestGiver => _INTL("???"),
     :Stage1 => _INTL("Find the item in the postgame."),
-    :Location1 => _INTL("???"),
+    :Location1 => _INTL("Makya"),
     :QuestDescription => _INTL("WIP: There's something that should fill these pits, wonder what that is?"),
   }
 
@@ -456,7 +456,7 @@ module QuestModule
     :Stage2 => _INTL("Find the grass pits."),
     :Stage3 => _INTL("Return to the hidden room."),
     :Location1 => _INTL("Battle Monument"),
-    :Location2 => _INTL("???"),
+    :Location2 => _INTL("Makya"),
     :Location3 => _INTL("Crown Chamber"),
     :QuestDescription => _INTL("WIP: A ragged journal, a strange scepter, reins, and an apricorn."),
   }
@@ -482,8 +482,8 @@ module QuestModule
     :QuestGiver => _INTL("???"),
     :Stage1 => _INTL("Find the other piece of the sigil."),
     :Stage2 => _INTL("Discover where the sigil takes you."),
-    :Location1 => _INTL("???"),
-    :Location2 => _INTL("???"),
+    :Location1 => _INTL("Makya"),
+    :Location2 => _INTL("Makya"),
     :QuestDescription => _INTL("You found a half of a sigil of some sort. Completing it might let it do something."),
   }
 
@@ -491,18 +491,118 @@ module QuestModule
     :Name => _INTL("Ruined Tower"),
     :QuestGiver => _INTL("???"),
     :Stage1 => _INTL("Collect the key."),
-    :Location1 => _INTL("???"),
+    :Location1 => _INTL("Makya"),
     :QuestDescription => _INTL("You saw that a wild Pokémon was holding a key. Take it, and bring it to the tower it goes to."),
   }
 
   QUEST_LEGEND_CONDENSED = {
     :Name => _INTL("Best Friends for Light"),
-    :QuestGiver => _INTL("???"),
+    :QuestGiver => _INTL("Your friend!"),
     :Stage1 => _INTL("Collect the Condensed Lights."),
     :Stage2 => _INTL("Find your friend :)"),
-    :Location1 => _INTL("???"),
+    :Location1 => _INTL("Makya"),
     :Location2 => _INTL("Velenz Menagerie"),
     :QuestDescription => _INTL("At the name Lainie, a viscous mass of pure light formed in your bag. Find out more about the girl who's friends with all of Makya."),
+  }
+
+  QUEST_LEGEND_EVENTIDE = {
+    :Name => _INTL("Eventide Island"),
+    :QuestGiver => _INTL("Chara"),
+    :Stage1 => _INTL("Follow Chara up to the lighthouse."),
+    :Stage2 => _INTL("Explore the island."),
+    :Stage3 => _INTL("Catch Cresselia."),
+    :Location1 => _INTL("Sweetrock Lighthouse"),
+    :Location2 => _INTL("Eventide Island"),
+    :Location2 => _INTL("Eventide Island"),
+    :QuestDescription => _INTL("After beating former champion Chara, she told you about an island she wants you to check out."),
+  }
+
+  QUEST_LEGEND_ATOLL = {
+    :Name => _INTL("Spirit Atoll"),
+    :QuestGiver => _INTL("Vincent"),
+    :Stage1 => _INTL("Explore the atoll."),
+    :Location1 => _INTL("Spirit Atoll"),
+    :QuestDescription => _INTL("Vincent told you the location of a mysterious place called the Spirit Atoll. Journey to it through your boat and explore the secrets."),
+  }
+
+  QUEST_LEGEND_DRAGON_ISLE = {
+    :Name => _INTL("Isle of Dragons"),
+    :QuestGiver => _INTL("Dragon Hatcher"),
+    :Stage1 => _INTL("Bring one of every egg to him."),
+    :Stage1 => _INTL("Explore the isle."),
+    :Location1 => _INTL("Samorn's House"),
+    :Location1 => _INTL("Isle of Dragons"),
+    :QuestDescription => _INTL("The mysterious Dragon Hatcher in Samorn's house offers to hatch the dragon eggs you find around the region."),
+  }
+
+  # Former Champions
+
+  QUEST_FORMER_CHAMPIONS = {
+    :Name => _INTL("WIP: Former Champions of Makya"),
+    :QuestGiver => _INTL("???"),
+    :Stage1 => _INTL("Find and defeat the former champs."),
+    :Location1 => _INTL("Makya"),
+    :QuestDescription => _INTL("[Placeholder]."),
+  }
+
+  QUEST_FORMER_ANSEL = {
+    :Name => _INTL("WIP: Former Champion Ansel"),
+    :QuestGiver => _INTL("Ansel"),
+    :Stage1 => _INTL("Defeat another former champ."),
+    :Location1 => _INTL("Battle Plaza"),
+    :QuestDescription => _INTL("[Placeholder]."),
+  }
+
+  QUEST_FORMER_PRAVEEN = {
+    :Name => _INTL("WIP: Former Champion Praveen"),
+    :QuestGiver => _INTL("Ansel"),
+    :Stage1 => _INTL("Find and defeat the former champ."),
+    :Stage2 => _INTL("Catch Zarude."),
+    :Location1 => _INTL("Sandstone Estuary"),
+    :Location2 => _INTL("Sandstone Estuary"),
+    :QuestDescription => _INTL("[Placeholder]."),
+  }
+
+  QUEST_FORMER_SCILLA = {
+    :Name => _INTL("WIP: Former Champion Scilla"),
+    :QuestGiver => _INTL("Scilla"),
+    :Stage1 => _INTL("Defeat the dojo."),
+    :Location1 => _INTL("Ironclad Dojo"),
+    :QuestDescription => _INTL("[Placeholder]."),
+  }
+
+  QUEST_FORMER_CHARA = {
+    :Name => _INTL("WIP: Former Champion Chara"),
+    :QuestGiver => _INTL("Scilla"),
+    :Stage1 => _INTL("Find and defeat the former champ."),
+    :Location1 => _INTL("Sweetrock Harbor"),
+    :QuestDescription => _INTL("[Placeholder]."),
+  }
+
+  QUEST_FORMER_ELISE = {
+    :Name => _INTL("WIP: Former Champion Elise"),
+    :QuestGiver => _INTL("Elise"),
+    :Stage1 => _INTL("Defeat the former champ."),
+    :Location1 => _INTL("Prizca Castle"),
+    :QuestDescription => _INTL("[Placeholder]."),
+  }
+
+  QUEST_FORMER_VINCENT = {
+    :Name => _INTL("WIP: Former Champion Vincent"),
+    :QuestGiver => _INTL("Elise"),
+    :Stage1 => _INTL("Find and defeat the former champ."),
+    :Location1 => _INTL("Aquatopia Menagerie"),
+    :QuestDescription => _INTL("[Placeholder]."),
+  }
+
+  QUEST_FORMER_CASEY = {
+    :Name => _INTL("WIP: Former Champion Casey"),
+    :QuestGiver => _INTL("Casey"),
+    :Stage1 => _INTL("Journey down and defeat the Diancie Avatar."),
+    :Stage1 => _INTL("Return to Casey."),
+    :Location1 => _INTL("Underpeak Tunnels"),
+    :Location1 => _INTL("Casey's Basement"),
+    :QuestDescription => _INTL("[Placeholder]."),
   }
 
 end

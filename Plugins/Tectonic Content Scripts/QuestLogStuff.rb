@@ -24,6 +24,24 @@ def stageTwoSigiLQuest
     end
 end
 
+def stageTwoFormerChamps
+    if pbGetSelfSwitch(41, 'D', 34) && pbGetSelfSwitch(33, 'D', 165) && pbGetSelfSwitch(3, 'D', 270) && pbGetSelfSwitch(3, 'B', 265) && pbGetSelfSwitch(3, 'D', 270) && pbGetSelfSwitch(5, 'D', 316)
+        advanceQuestToStage(:QUEST_FORMER_CHAMPIONS, 2)
+    end
+end
+
+def completeDragonIsleQuest
+    if pbGetSelfSwitch(1, 'A', 356) && pbGetSelfSwitch(2, 'A', 356)
+        advanceQuestToStage(:QUEST_LEGEND_DRAGON_ISLE)
+    end
+end
+
+def completeSpiritAtollQuest
+    if pbGetSelfSwitch(1, 'A', 375) && pbGetSelfSwitch(1, 'A', 419) && pbGetSelfSwitch(1, 'A', 420)
+        advanceQuestToStage(:QUEST_LEGEND_ATOLL)
+    end
+end
+
 # Ends quest if Lugia is caught
 
 BallHandlers::OnPokemonCaught += proc { |ball, battle, pkmn|

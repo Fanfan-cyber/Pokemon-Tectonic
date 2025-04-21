@@ -375,12 +375,16 @@ animationName, show_message) do
 
         # Magic Coat/Magic Bounce/Magic Shield
         if move.canMagicCoat? && !target.semiInvulnerable? && target.opposes?(user)
-            if target.effectActive?(:MagicCoat)
-                unless aiCheck
+            if aiCheck
+                if target.canChooseMagicCoat?
+                    return false              
+                end
+            else
+                if target.effectActive?(:MagicCoat)
                     target.damageState.magicCoat = true
                     target.disableEffect(:MagicCoat)
+                    return false
                 end
-                return false
             end
             if target.hasActiveAbility?(:MAGICBOUNCE) && !@battle.moldBreaker
                 unless aiCheck

@@ -115,11 +115,11 @@ class PokeBattle_AI
         end
 
         # Magic Bounce/Magic Shield checks for moves which don't target
-        if !fails && user.index == target.index && move.canMagicCoat? && !@battle.moldBreaker
+        if !fails && user.index == target.index && move.canMagicCoat?
             @battle.eachBattler do |b|
                 next unless b.opposes?(user)
                 next if b.semiInvulnerable?
-                next unless b.hasActiveAbilityAI?(%i[MAGICBOUNCE MAGICSHIELD])
+                next unless (b.hasActiveAbilityAI?(%i[MAGICBOUNCE MAGICSHIELD]) && !@battle.moldBreaker) || b.canChooseMagicCoat?
                 echoln("\t\t[AI FAILURE CHECK] #{user.pbThis} rejects #{move.id} -- thinks will fail against #{target.pbThis(false)} due to Magic Bounce etc.")
                 fails = true
                 break

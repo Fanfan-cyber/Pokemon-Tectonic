@@ -5,113 +5,114 @@ class NewDexNav
   DEXNAV_MIN_SPRITE_Y = 44
 
   def initialize
-	# Load encounter data for the given route
-	encounter_array = getDexNavEncounterDataForMap()
-	if !encounter_array || encounter_array.length == 0
-		pbMessage(_INTL("There are no encounters on this map."))
-		return
-	end
+		# Load encounter data for the given route
+		encounter_array = getDexNavEncounterDataForMap()
+		if !encounter_array || encounter_array.length == 0
+			pbMessage(_INTL("There are no encounters on this map."))
+			return
+		end
 
-	# Set up the two viewports to hold UI elements
-    @viewport1 = Viewport.new(0, 0, Graphics.width, Graphics.height)
-    @viewport1.z = 99999
-	@viewport2 = Viewport.new(0, 0, Graphics.width, Graphics.height)
-	@viewport2.z = 99999
-    @viewport3 = Viewport.new(0, 0, Graphics.width, Graphics.height)
-    @viewport3.z = 999999
-    @sprites = {}
+		# Set up the two viewports to hold UI elements
+		@viewport1 = Viewport.new(0, 0, Graphics.width, Graphics.height)
+		@viewport1.z = 99999
+		@viewport2 = Viewport.new(0, 0, Graphics.width, Graphics.height)
+		@viewport2.z = 99999
+		@viewport3 = Viewport.new(0, 0, Graphics.width, Graphics.height)
+		@viewport3.z = 999999
+		@sprites = {}
 	
-	# Set up all the sprites
-	@sprites["background"] = IconSprite.new(0,0,@viewport1)
-	bg_path = "Graphics/Pictures/Pokedex/dexnav"
-	bg_path += "_dark" if darkMode?
-	@sprites["background"].setBitmap(_INTL(bg_path))
-	
-	@sprites["overlay"] = BitmapSprite.new(Graphics.width,Graphics.height,@viewport1)
-	pbSetSystemFont(@sprites["overlay"].bitmap)
-	@sprites["overlay2"] = BitmapSprite.new(Graphics.width,Graphics.height,@viewport2)
-	pbSetSystemFont(@sprites["overlay2"].bitmap)
-	@sprites["name_overlay"] = BitmapSprite.new(Graphics.width,Graphics.height,@viewport1)
+		# Set up all the sprites
+		@sprites["background"] = IconSprite.new(0,0,@viewport1)
+		bg_path = "Graphics/Pictures/Pokedex/dexnav"
+		bg_path += "_dark" if darkMode?
+		@sprites["background"].setBitmap(_INTL(bg_path))
+		
+		@sprites["overlay"] = BitmapSprite.new(Graphics.width,Graphics.height,@viewport1)
+		pbSetSystemFont(@sprites["overlay"].bitmap)
+		@sprites["overlay2"] = BitmapSprite.new(Graphics.width,Graphics.height,@viewport2)
+		pbSetSystemFont(@sprites["overlay2"].bitmap)
+		@sprites["name_overlay"] = BitmapSprite.new(Graphics.width,Graphics.height,@viewport1)
 
     @sprites["nav_arrow"] = AnimatedSprite.new("Graphics/Pictures/rightarrow",8,40,28,2,@viewport3)
     @sprites["nav_arrow"].visible = false
     @sprites["nav_arrow"].play
 
-	@sprites["scroll_arrow_up"] = AnimatedSprite.new("Graphics/Pictures/uparrow",8,28,40,2,@viewport3)
-	@sprites["scroll_arrow_up"].x = (Graphics.width - 48)
-	@sprites["scroll_arrow_up"].y = 60
-	@sprites["scroll_arrow_up"].visible = false
+		@sprites["scroll_arrow_up"] = AnimatedSprite.new("Graphics/Pictures/uparrow",8,28,40,2,@viewport3)
+		@sprites["scroll_arrow_up"].x = (Graphics.width - 48)
+		@sprites["scroll_arrow_up"].y = 60
+		@sprites["scroll_arrow_up"].visible = false
     @sprites["scroll_arrow_up"].play
 
-	@sprites["scroll_arrow_down"] = AnimatedSprite.new("Graphics/Pictures/downarrow",8,28,40,2,@viewport3)
-	@sprites["scroll_arrow_down"].x = (Graphics.width - 48)
-	@sprites["scroll_arrow_down"].y = 332
-	@sprites["scroll_arrow_down"].visible = false
+		@sprites["scroll_arrow_down"] = AnimatedSprite.new("Graphics/Pictures/downarrow",8,28,40,2,@viewport3)
+		@sprites["scroll_arrow_down"].x = (Graphics.width - 48)
+		@sprites["scroll_arrow_down"].y = 332
+		@sprites["scroll_arrow_down"].visible = false
     @sprites["scroll_arrow_down"].play
 	
-	# Find which encounter sets the player has yet completed
-	displaySpecies = []
-	@encounterTypesCompletion = {}
-	encounter_array.each do |entry|
-		encounterType = entry[0]
-		next if encounterType == :Special
-		@encounterTypesCompletion[encounterType] = true unless @encounterTypesCompletion.has_key?(encounterType)
-		@encounterTypesCompletion[encounterType] = false unless $Trainer.owned?(entry[1].species)
-	end
-	@numEncounterTypesCompleted = 0
-	@encounterTypesCompletion.each do |encounter_type,isCompleted|
-		@numEncounterTypesCompleted += 1 if isCompleted
-		displaySpecies.push([])
-	end
-	
-	# Create the sprites that show the encounters for this area
-	owned = 0
-	allSeen = true
-	allOwned = true
-	@totalRows = 0
-	@pkmnsprites = []
-	@encounterlabels = []
+		# Find which encounter sets the player has yet completed
+		displaySpecies = []
+		@encounterTypesCompletion = {}
+		encounter_array.each do |entry|
+			encounterType = entry[0]
+			next if encounterType == :Special
+			@encounterTypesCompletion[encounterType] = true unless @encounterTypesCompletion.has_key?(encounterType)
+			@encounterTypesCompletion[encounterType] = false unless $Trainer.owned?(entry[1].species)
+		end
+		@numEncounterTypesCompleted = 0
+		@encounterTypesCompletion.each do |encounter_type,isCompleted|
+			@numEncounterTypesCompleted += 1 if isCompleted
+			displaySpecies.push([])
+		end
+		
+		# Create the sprites that show the encounters for this area
+		owned = 0
+		allSeen = true
+		allOwned = true
+		@totalRows = 0
+		@pkmnsprites = []
+		@encounterlabels = []
+
     encounter_array.each do |encounter_data|
-		encounterType = encounter_data[0]
-		species_data = encounter_data[1]
-		species = species_data.species
+			encounterType = encounter_data[0]
+			species_data = encounter_data[1]
+			species = species_data.species
 
-		groupIndex = @encounterTypesCompletion.keys.index(encounterType)
-		iconIndex = displaySpecies[groupIndex].length
-		displaySpecies[groupIndex].push(species_data)
+			groupIndex = @encounterTypesCompletion.keys.index(encounterType)
+			iconIndex = displaySpecies[groupIndex].length
+			displaySpecies[groupIndex].push(species_data)
 
-        newPokemonIcon = PokemonSpeciesIconSprite.new(species,@viewport2)
-		if @pkmnsprites[groupIndex].nil?
-			@pkmnsprites[groupIndex] = []
-			@encounterlabels.push(getNameForEncounterType(encounterType))
-		end
-		@pkmnsprites[groupIndex].push(newPokemonIcon)
-		@totalRows += 1 if iconIndex % DEXNAV_ROW_MAX_SIZE == 0
-		@sprites["pkmn_sprite_#{groupIndex}_#{iconIndex}"] = newPokemonIcon
-		
-		newPokemonIcon.form = species_data.form if species_data.form != 0
-		newPokemonIcon.z = -1
-		
-		unless $Trainer.pokedex.seen?(species)
-			newPokemonIcon.silhouette = true
-			allSeen = false
-		end
-		
-		allOwned = false unless $Trainer.pokedex.owned?(species)
+			newPokemonIcon = PokemonSpeciesIconSprite.new(species,@viewport2)
+			if @pkmnsprites[groupIndex].nil?
+				@pkmnsprites[groupIndex] = []
+				@encounterlabels.push(getNameForEncounterType(encounterType))
+			end
+			@pkmnsprites[groupIndex].push(newPokemonIcon)
+			@totalRows += 1 if iconIndex % DEXNAV_ROW_MAX_SIZE == 0
+			@sprites["pkmn_sprite_#{groupIndex}_#{iconIndex}"] = newPokemonIcon
+			
+			newPokemonIcon.form = species_data.form if species_data.form != 0
+			newPokemonIcon.z = -1
+			
+			unless $Trainer.pokedex.seen?(species)
+				newPokemonIcon.silhouette = true
+				allSeen = false
+			end
+			
+			allOwned = false unless $Trainer.pokedex.owned?(species)
     end
 	
-	# Determine what the status of the completion of this area is
-	@status = "Incomplete"
-	@status = "All seen!" if allSeen
-	@status = "All owned!" if allOwned
-	
-	@navigationRow = $PokemonTemp.navigationRow || 0
-	@navigationColumn = $PokemonTemp.navigationColumn || 0
-	@row_heights = []
+		# Determine what the status of the completion of this area is
+		@status = "Incomplete"
+		@status = "All seen!" if allSeen
+		@status = "All owned!" if allOwned
+		
+		@navigationRow = $PokemonTemp.navigationRow || 0
+		@navigationColumn = $PokemonTemp.navigationColumn || 0
+		@row_heights = []
 
-	drawSprites
+		drawSprites
 
-	updateNavArrow
+		updateNavArrow
 	
     pbFadeInAndShow(@sprites)
 	
@@ -126,18 +127,18 @@ class NewDexNav
     pbFadeOutAndHide(@sprites) {pbUpdate}
     pbDisposeSpriteHash(@sprites)
     @viewport1.dispose
-	@viewport2.dispose
+		@viewport2.dispose
     @viewport3.dispose
   end
 
   def updateNavArrow
-	@sprites["nav_arrow"].x = 64 + 64 * @navigationColumn
-	@sprites["nav_arrow"].y = DEXNAV_LIST_START_Y + 64 + @row_heights[@navigationRow] + visualHeightOffset
+		@sprites["nav_arrow"].x = 64 + 64 * @navigationColumn
+		@sprites["nav_arrow"].y = DEXNAV_LIST_START_Y + 64 + @row_heights[@navigationRow] + visualHeightOffset
   end
   
   def openMainDexNavScreen(speciesByEncounterGroup)	
-	inputActive = speciesByEncounterGroup.length != 0
-	@sprites["nav_arrow"].visible = true if inputActive
+		inputActive = speciesByEncounterGroup.length != 0
+		@sprites["nav_arrow"].visible = true if inputActive
 
 	displaySpecies = []
 	speciesByEncounterGroup.each do |encounterGroupArray|
@@ -298,103 +299,228 @@ class NewDexNav
 			drawSprites
 		  end
 		end
-	else
-		pbFadeOutAndHide(@sprites)
-	end
-	$PokemonTemp.navigationRow = @navigationRow
-	$PokemonTemp.navigationColumn = @navigationColumn
-	dispose
+		
+		if displaySpecies.length != 0
+			# Begin taking input for the main dexnav screen
+			highestLeftRepeat = 0
+			highestRightRepeat = 0
+			highestUpRepeat = 0
+			highestDownRepeat = 0
+			loop do
+				Graphics.update
+				Input.update
+				pbUpdateSpriteHash(@sprites)
+				
+				updateNavArrow
+				@sprites["scroll_arrow_up"].visible = @navigationRow > 3
+				@sprites["scroll_arrow_down"].visible = (displaySpecies.length - @navigationRow) > 1 && displaySpecies.length >= 5
+
+				prevNavCol = @navigationColumn
+				prevNavRow = @navigationRow
+
+				thisRowLength = displaySpecies[@navigationRow].length
+				
+				highlightedSpeciesData = displaySpecies[@navigationRow][@navigationColumn]
+				highlightedSpecies = highlightedSpeciesData.species
+				if Input.repeat?(Input::DOWN)
+					highestUpRepeat = 0
+					if @navigationRow < @totalRows - 1
+						repeats = 1 + Input.time?(Input::DOWN) / 100000
+						if repeats > highestDownRepeat
+							highestDownRepeat = repeats
+							@navigationRow += 1
+							pbPlayCursorSE
+						end
+					elsif Input.time?(Input::DOWN) < 500
+						@navigationRow = 0
+						pbPlayCursorSE
+					end
+				elsif Input.repeat?(Input::UP)
+					highestDownRepeat = 0
+				if @navigationRow >= 1
+					repeats = 1 + Input.time?(Input::UP) / 100000
+					if repeats > highestUpRepeat
+						highestUpRepeat = repeats
+						@navigationRow -= 1
+						pbPlayCursorSE
+					end
+				elsif Input.time?(Input::UP) < 500
+					@navigationRow = @totalRows - 1
+					pbPlayCursorSE
+				end
+				elsif Input.repeat?(Input::LEFT) && @navigationColumn > 0
+					highestRightRepeat = 0
+					repeats = 1 + Input.time?(Input::LEFT) / 100000
+					if repeats > highestLeftRepeat
+						highestLeftRepeat = repeats
+						@navigationColumn -= 1
+						pbPlayCursorSE
+					end
+				elsif Input.repeat?(Input::RIGHT) && @navigationColumn < thisRowLength - 1
+					highestLeftRepeat = 0
+					repeats = 1 + Input.time?(Input::RIGHT) / 100000
+					if repeats > highestRightRepeat
+						highestRightRepeat = repeats
+						@navigationColumn += 1
+						pbPlayCursorSE
+					end
+				elsif Input.trigger?(Input::USE)
+					if debugControl
+						pbAddPokemonSilent(highlightedSpeciesData.species,getLevelCap)
+						pbMessage(_INTL("Added {1}", highlightedSpeciesData.species))
+						next
+					end
+					unless $Trainer.pokedex.seen?(highlightedSpecies)
+						pbPlayBuzzerSE
+						next
+					end
+					cmdStartSearch = -1
+					cmdMasterDex = -1
+					commands = []
+					if $Trainer.pokedex.owned?(highlightedSpecies)
+						if $PokemonTemp.currentDexSearch != nil && $PokemonTemp.currentDexSearch.is_a?(Array)
+							commands[cmdStartSearch = commands.length] = _INTL("Replace Search")	
+						else
+							commands[cmdStartSearch = commands.length] = _INTL("Search Nearby")				
+						end
+					end
+					commands[cmdMasterDex = commands.length] = _INTL("MasterDex")
+					commands.push(_INTL("Cancel"))
+					command = pbMessage(_INTL("Do what with this species?"),commands,commands.length)
+					if command == cmdStartSearch && cmdStartSearch > -1
+						if $catching_minigame.active?
+							pbPlayBuzzerSE
+							pbMessage(_INTL("This feature of the DexNav is unavailable during this minigame."))
+							next
+						end
+						searchTime = 15 + rand(40)
+						pbMessage(_INTL("Searching\\ts[15]...\\wtnp[{1}]", searchTime))
+						pbMessage(_INTL("Oh! A {1} was found nearby!", highlightedSpeciesData.real_name))
+						pbFadeOutAndHide(@sprites)
+						generateSearch(highlightedSpeciesData)
+						$search_overlay.dispose if $search_overlay
+						$search_overlay = DexNav_SearchOverlay.new
+						break
+					elsif command == cmdMasterDex && cmdMasterDex > -1
+						@sprites["nav_arrow"].visible = false
+						$Trainer.pokedex.set_last_form_seen(highlightedSpeciesData.species, 0, highlightedSpeciesData.form)
+						openSingleDexScreen(highlightedSpeciesData.species)
+						@sprites["nav_arrow"].visible = true
+					end
+				elsif Input.trigger?(Input::BACK)
+					break
+				else
+					highestDownRepeat = 0
+					highestUpRepeat = 0
+					highestLeftRepeat = 0
+					highestRightRepeat = 0
+				end
+				if prevNavRow != @navigationRow
+					@navigationColumn = [@navigationColumn,displaySpecies[@navigationRow].length - 1].min
+				end
+				if prevNavCol != @navigationColumn || prevNavRow != @navigationRow
+					speciesFormName =  highlightedSpeciesData.real_name 
+					speciesFormName += "(#{highlightedSpeciesData.form_name})" if highlightedSpeciesData.form != 0
+					@displayedName = $Trainer.pokedex.seen?(highlightedSpecies) ? speciesFormName : _INTL("Unknown")
+					drawSprites
+				end
+			end
+		else
+			pbFadeOutAndHide(@sprites)
+		end
+		$PokemonTemp.navigationRow = @navigationRow
+		$PokemonTemp.navigationColumn = @navigationColumn
+		dispose
   end
 
   def visualHeightOffset
-	if @navigationRow >= @row_heights.length
-		return 0
-	end
-	return -1 * @row_heights[[@navigationRow-2,0].max]
+		if @navigationRow >= @row_heights.length
+			return 0
+		end
+		return -1 * @row_heights[[@navigationRow-2,0].max]
   end
 
   def drawSprites
     @sprites["overlay"].bitmap.clear
-	@sprites["overlay2"].bitmap.clear
+		@sprites["overlay2"].bitmap.clear
 
-	base = MessageConfig.pbDefaultTextMainColor
-	shadow = MessageConfig.pbDefaultTextShadowColor
+		base = MessageConfig.pbDefaultTextMainColor
+		shadow = MessageConfig.pbDefaultTextShadowColor
 
-	encounterGroupLabels = []
-	ownedIconImagePositions = []
-	encounterGroupCheckboxesImagePositions = []
-	horizontalLineImagePositions = []
+		encounterGroupLabels = []
+		ownedIconImagePositions = []
+		encounterGroupCheckboxesImagePositions = []
+		horizontalLineImagePositions = []
 
-	lineHeight = 0
-	@row_heights.clear
-	@pkmnsprites.each_with_index do |groupSpriteArray,groupIndex|
+		lineHeight = 0
+		@row_heights.clear
+		@pkmnsprites.each_with_index do |groupSpriteArray,groupIndex|
+			@row_heights.push(lineHeight)
 
-		@row_heights.push(lineHeight)
+			horizontalLineImagePositions.push(["Graphics/Pictures/horizontal_line",44,lineHeight]) unless groupIndex == 0
 
-		horizontalLineImagePositions.push(["Graphics/Pictures/horizontal_line",44,lineHeight]) unless groupIndex == 0
+			encounterLabel = @encounterlabels[groupIndex]
+			encounterGroupLabels.push([encounterLabel,Graphics.width / 2,lineHeight + 4,2, base, shadow])
 
-		encounterLabel = @encounterlabels[groupIndex]
-		encounterGroupLabels.push([encounterLabel,Graphics.width / 2,lineHeight + 4,2, base, shadow])
+			lineHeight += DEXNAV_LINE_HEIGHT * 3/4
 
-		lineHeight += DEXNAV_LINE_HEIGHT * 3/4
+			if @encounterTypesCompletion.values[groupIndex]
+				checkBoxFileName = "Graphics/Pictures/checkbox_active"
+			else
+				checkBoxFileName = "Graphics/Pictures/checkbox_inactive"
+			end
+			checkboxY = lineHeight + 18
+			encounterGroupCheckboxesImagePositions.push([checkBoxFileName,40,checkboxY])
 
-		if @encounterTypesCompletion.values[groupIndex]
-			checkBoxFileName = "Graphics/Pictures/checkbox_active"
-		else
-			checkBoxFileName = "Graphics/Pictures/checkbox_inactive"
-		end
-        checkboxY = lineHeight + 18
-		encounterGroupCheckboxesImagePositions.push([checkBoxFileName,40,checkboxY])
+			groupSpriteArray.each_with_index do |sprite, iconIndex|
+				if iconIndex > 0 && iconIndex % DEXNAV_ROW_MAX_SIZE == 0
+					lineHeight += DEXNAV_LINE_HEIGHT
+					@row_heights.push(lineHeight)
+				end
 
-		groupSpriteArray.each_with_index do |sprite, iconIndex|
-			if iconIndex > 0 && iconIndex % DEXNAV_ROW_MAX_SIZE == 0
-				lineHeight += DEXNAV_LINE_HEIGHT
-				@row_heights.push(lineHeight)
+				sprite.x = 28 + 64 + 64 * (iconIndex % DEXNAV_ROW_MAX_SIZE)
+				sprite.y = DEXNAV_LIST_START_Y + lineHeight
+
+				if $Trainer.pokedex.owned?(sprite.species)
+					ownedIconX = sprite.x + 8
+					ownedIconY = DEXNAV_LIST_START_Y + lineHeight - 32
+					ownedIconImagePositions.push(["Graphics/Pictures/Battle/icon_own",ownedIconX,ownedIconY])
+				end
 			end
 
-			sprite.x = 28 + 64 + 64 * (iconIndex % DEXNAV_ROW_MAX_SIZE)
-			sprite.y = DEXNAV_LIST_START_Y + lineHeight
-
-			if $Trainer.pokedex.owned?(sprite.species)
-				ownedIconX = sprite.x + 8
-				ownedIconY = DEXNAV_LIST_START_Y + lineHeight - 32
-				ownedIconImagePositions.push(["Graphics/Pictures/Battle/icon_own",ownedIconX,ownedIconY])
-			end
-		end
-
-		lineHeight += DEXNAV_LINE_HEIGHT + 8
+			lineHeight += DEXNAV_LINE_HEIGHT + 8
     end
-	drawInformation()
+		drawInformation()
 
-	# Draw the text
-	textPos = []
-	adjustGraphicalArrayForVisualOffset(encounterGroupLabels, textPos)
-	pbDrawTextPositions(@sprites["overlay2"].bitmap, textPos)
+		# Draw the text
+		textPos = []
+		adjustGraphicalArrayForVisualOffset(encounterGroupLabels, textPos)
+		pbDrawTextPositions(@sprites["overlay2"].bitmap, textPos)
 
-	# Draw the images
-	imagePos = []
-	adjustGraphicalArrayForVisualOffset(encounterGroupCheckboxesImagePositions, imagePos)
-	adjustGraphicalArrayForVisualOffset(ownedIconImagePositions, imagePos)
-	adjustGraphicalArrayForVisualOffset(horizontalLineImagePositions, imagePos)
+		# Draw the images
+		imagePos = []
+		adjustGraphicalArrayForVisualOffset(encounterGroupCheckboxesImagePositions, imagePos)
+		adjustGraphicalArrayForVisualOffset(ownedIconImagePositions, imagePos)
+		adjustGraphicalArrayForVisualOffset(horizontalLineImagePositions, imagePos)
 
-	# Adjust the pokemon sprites
-	@pkmnsprites.each_with_index do |groupSpriteArray,groupIndex|
-		groupSpriteArray.each_with_index do |sprite, iconIndex|
-			sprite.y += visualHeightOffset
-			sprite.visible = sprite.y >= DEXNAV_MIN_SPRITE_Y
+		# Adjust the pokemon sprites
+		@pkmnsprites.each_with_index do |groupSpriteArray,groupIndex|
+			groupSpriteArray.each_with_index do |sprite, iconIndex|
+				sprite.y += visualHeightOffset
+				sprite.visible = sprite.y >= DEXNAV_MIN_SPRITE_Y
+			end
 		end
-	end
 
-	pbDrawImagePositions(@sprites["overlay2"].bitmap, imagePos)
+		pbDrawImagePositions(@sprites["overlay2"].bitmap, imagePos)
   end
 
   def adjustGraphicalArrayForVisualOffset(input_array, output_array)
-	input_array.each do |input_array_element|
-		newY = input_array_element[2] + DEXNAV_LIST_START_Y + visualHeightOffset
-		next if newY < DEXNAV_MIN_SPRITE_Y
-		input_array_element[2] = newY
-		output_array.push(input_array_element)
-	end
+		input_array.each do |input_array_element|
+			newY = input_array_element[2] + DEXNAV_LIST_START_Y + visualHeightOffset
+			next if newY < DEXNAV_MIN_SPRITE_Y
+			input_array_element[2] = newY
+			output_array.push(input_array_element)
+		end
   end
   
   def drawInformation()
@@ -402,23 +528,23 @@ class NewDexNav
 	
 	base       = MessageConfig.pbDefaultTextMainColor
 	faded_base = MessageConfig.pbDefaultFadedTextColor
-    shadow     = MessageConfig.pbDefaultTextShadowColor
+	shadow     = MessageConfig.pbDefaultTextShadowColor
 	
 	xLeft = 40
 	textpos = [[_INTL("DexNav: #{$game_map.name}"), 40 - 20, -4, 0, Color.new(248, 248, 248), Color.new(0, 0, 0)],
              [_INTL("Get New: ACTION/Z"), Graphics.width - 20, -4, 1, Color.new(248, 248, 248), Color.new(0, 0, 0)], ]
 
-	# caughtCount = 0
-	# if $PokemonGlobal.caughtCountsPerMap && $PokemonGlobal.caughtCountsPerMap.has_key?($game_map.map_id)
-	# 	caughtCount = $PokemonGlobal.caughtCountsPerMap[$game_map.map_id][0]	
-	# end
-	# receivedCount = 0
-	# if $PokemonGlobal.caughtCountsPerMap && $PokemonGlobal.caughtCountsPerMap.has_key?($game_map.map_id)
-	# 	receivedCount = $PokemonGlobal.caughtCountsPerMap[$game_map.map_id][1]
-	# end
-	# textpos.push(["#{caughtCount} caught      #{receivedCount} gifts",Graphics.width / 2,52,2,base,shadow])
-	
-	pbDrawTextPositions(overlay, textpos)
+		# caughtCount = 0
+		# if $PokemonGlobal.caughtCountsPerMap && $PokemonGlobal.caughtCountsPerMap.has_key?($game_map.map_id)
+		# 	caughtCount = $PokemonGlobal.caughtCountsPerMap[$game_map.map_id][0]	
+		# end
+		# receivedCount = 0
+		# if $PokemonGlobal.caughtCountsPerMap && $PokemonGlobal.caughtCountsPerMap.has_key?($game_map.map_id)
+		# 	receivedCount = $PokemonGlobal.caughtCountsPerMap[$game_map.map_id][1]
+		# end
+		# textpos.push(["#{caughtCount} caught      #{receivedCount} gifts",Graphics.width / 2,52,2,base,shadow])
+		
+		pbDrawTextPositions(overlay, textpos)
   end
 
   def generateSearch(species_data)

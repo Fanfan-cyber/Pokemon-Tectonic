@@ -11,7 +11,7 @@ def randomGrindRivalIntro
         _INTL("Greetings, esteemed champion! Fancy a clash of Pokémon prowess?"),
         _INTL("\\PN, my rival, I humbly request your presence on the battlefield."),
         _INTL("The stage is set, and my new team is eager to take you by surprise. Shall we battle?"),
-        _INTL("\\PN, the champion of Maya, a challenger awaits you. Will you accept?"),
+        _INTL("\\PN, the champion of Makya, a challenger awaits you. Will you accept?"),
         _INTL("The thrill of surprise is imminent!"),
         _INTL("Hark! Brace yourself for a battle of wonder, where victory is uncertain!"),
         _INTL("Well, well, well! Fancy a sparring session, with a dash of unpredictability?"),
