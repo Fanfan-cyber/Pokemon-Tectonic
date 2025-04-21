@@ -140,297 +140,171 @@ class NewDexNav
 		inputActive = speciesByEncounterGroup.length != 0
 		@sprites["nav_arrow"].visible = true if inputActive
 
-	displaySpecies = []
-	speciesByEncounterGroup.each do |encounterGroupArray|
-		displaySpecies.concat(encounterGroupArray.each_slice(DEXNAV_ROW_MAX_SIZE).to_a)
-	end
+    displaySpecies = []
+    speciesByEncounterGroup.each do |encounterGroupArray|
+		  displaySpecies.concat(encounterGroupArray.each_slice(DEXNAV_ROW_MAX_SIZE).to_a)
+	  end
 	
-	if displaySpecies.length != 0
-		# Begin taking input for the main dexnav screen
-		highestLeftRepeat = 0
-		highestRightRepeat = 0
-		highestUpRepeat = 0
-		highestDownRepeat = 0
-		loop do
-		  Graphics.update
-		  Input.update
-		  pbUpdateSpriteHash(@sprites)
-		  
-		  updateNavArrow
-		  @sprites["scroll_arrow_up"].visible = @navigationRow > 3
-		  @sprites["scroll_arrow_down"].visible = (displaySpecies.length - @navigationRow) > 1 && displaySpecies.length >= 5
+    if displaySpecies.length != 0
+      # Begin taking input for the main dexnav screen
+      highestLeftRepeat = 0
+      highestRightRepeat = 0
+      highestUpRepeat = 0
+      highestDownRepeat = 0
+      loop do
+        Graphics.update
+        Input.update
+        pbUpdateSpriteHash(@sprites)
+        
+        updateNavArrow
+        @sprites["scroll_arrow_up"].visible = @navigationRow > 3
+        @sprites["scroll_arrow_down"].visible = (displaySpecies.length - @navigationRow) > 1 && displaySpecies.length >= 5
 
-		  prevNavCol = @navigationColumn
-		  prevNavRow = @navigationRow
+        prevNavCol = @navigationColumn
+        prevNavRow = @navigationRow
 
-		  thisRowLength = displaySpecies[@navigationRow].length
-		  
-      highlightedSpeciesData = displaySpecies[@navigationRow][@navigationColumn]
-      highlightedSpecies     = highlightedSpeciesData.species
-      highlightedSpeciesForm = highlightedSpeciesData.form
-		  if Input.repeat?(Input::DOWN)
-			highestUpRepeat = 0
-			if @navigationRow < @totalRows - 1
-				repeats = 1 + Input.time?(Input::DOWN) / 100000
-				if repeats > highestDownRepeat
-					highestDownRepeat = repeats
-					@navigationRow += 1
-					pbPlayCursorSE
-				end
-			elsif Input.time?(Input::DOWN) < 500
-				@navigationRow = 0
-				pbPlayCursorSE
-			end
-		  elsif Input.repeat?(Input::UP)
-			highestDownRepeat = 0
-			if @navigationRow >= 1
-				repeats = 1 + Input.time?(Input::UP) / 100000
-				if repeats > highestUpRepeat
-					highestUpRepeat = repeats
-					@navigationRow -= 1
-					pbPlayCursorSE
-				end
-			elsif Input.time?(Input::UP) < 500
-				@navigationRow = @totalRows - 1
-				pbPlayCursorSE
-			end
-		  elsif Input.repeat?(Input::LEFT) && @navigationColumn > 0
-			highestRightRepeat = 0
-			repeats = 1 + Input.time?(Input::LEFT) / 100000
-			if repeats > highestLeftRepeat
-				highestLeftRepeat = repeats
-				@navigationColumn -= 1
-				pbPlayCursorSE
-			end
-		  elsif Input.repeat?(Input::RIGHT) && @navigationColumn < thisRowLength - 1
-			highestLeftRepeat = 0
-			repeats = 1 + Input.time?(Input::RIGHT) / 100000
-			if repeats > highestRightRepeat
-				highestRightRepeat = repeats
-				@navigationColumn += 1
-				pbPlayCursorSE
-			end
-		  elsif Input.trigger?(Input::ACTION)
-        if pbConfirmMessage(_INTL("Would you like to get all these Pokémon?"))
-          obtained = false
-          displaySpecies.each do |group|
-            group.each do |species_data|
-              next if has_species?(species_data.species, species_data.form)
-              pbAddPokemonSilent(species_data, getLevelCap - 5, dexnav: true)
-              obtained = true
+        thisRowLength = displaySpecies[@navigationRow].length
+        
+        highlightedSpeciesData = displaySpecies[@navigationRow][@navigationColumn]
+        highlightedSpecies     = highlightedSpeciesData.species
+        highlightedSpeciesForm = highlightedSpeciesData.form
+        if Input.repeat?(Input::DOWN)
+          highestUpRepeat = 0
+          if @navigationRow < @totalRows - 1
+            repeats = 1 + Input.time?(Input::DOWN) / 100000
+            if repeats > highestDownRepeat
+              highestDownRepeat = repeats
+              @navigationRow += 1
+              pbPlayCursorSE
             end
+          elsif Input.time?(Input::DOWN) < 500
+            @navigationRow = 0
+            pbPlayCursorSE
           end
-          if obtained
-            pbMessage(_INTL("Enjoy your new Pokémon!\\me[Pkmn get]\\wtnp[80]\1"))
-          else
-            pbMessage(_INTL("You can't get any of these Pokémon!"))
-          end
-          break
-        end
-		  elsif MInput.trigger?(:R)
-        if pbConfirmMessage(_INTL("Would you like to get a random Pokémon?"))
-          can_obtain = []
-          displaySpecies.each do |group|
-            group.each do |species_data|
-              next if has_species?(species_data.species, species_data.form)
-              can_obtain << species_data
+        elsif Input.repeat?(Input::UP)
+          highestDownRepeat = 0
+          if @navigationRow >= 1
+            repeats = 1 + Input.time?(Input::UP) / 100000
+            if repeats > highestUpRepeat
+              highestUpRepeat = repeats
+              @navigationRow -= 1
+              pbPlayCursorSE
             end
+          elsif Input.time?(Input::UP) < 500
+            @navigationRow = @totalRows - 1
+            pbPlayCursorSE
           end
-          if can_obtain.empty?
-            pbMessage(_INTL("You can't get any of these Pokémon!"))
-          else
-            pbAddPokemon(can_obtain.sample, getLevelCap - 5, dexnav: true)
+        elsif Input.repeat?(Input::LEFT) && @navigationColumn > 0
+          highestRightRepeat = 0
+          repeats = 1 + Input.time?(Input::LEFT) / 100000
+          if repeats > highestLeftRepeat
+            highestLeftRepeat = repeats
+            @navigationColumn -= 1
+            pbPlayCursorSE
+          end
+        elsif Input.repeat?(Input::RIGHT) && @navigationColumn < thisRowLength - 1
+          highestLeftRepeat = 0
+          repeats = 1 + Input.time?(Input::RIGHT) / 100000
+          if repeats > highestRightRepeat
+            highestRightRepeat = repeats
+            @navigationColumn += 1
+            pbPlayCursorSE
+          end
+        elsif Input.trigger?(Input::ACTION)
+          if pbConfirmMessage(_INTL("Would you like to get all these Pokémon?"))
+            obtained = false
+            displaySpecies.each do |group|
+              group.each do |species_data|
+                next if has_species?(species_data.species, species_data.form)
+                pbAddPokemonSilent(species_data, getLevelCap - 5, dexnav: true)
+                obtained = true
+              end
+            end
+            if obtained
+              pbMessage(_INTL("Enjoy your new Pokémon!\\me[Pkmn get]\\wtnp[80]\1"))
+            else
+              pbMessage(_INTL("You can't get any of these Pokémon!"))
+            end
             break
           end
-        end
-		  elsif Input.trigger?(Input::USE)
-      if $catching_minigame.active?
-        pbPlayBuzzerSE
-        pbMessage(_INTL("This feature of the DexNav is unavailable during this minigame."))
-        next
-      end
-      if pbConfirmMessage(_INTL("Would you like to get this Pokémon?"))
-        if has_species?(highlightedSpecies, highlightedSpeciesForm)
-          pbMessage(_INTL("You can't get this Pokémon! You already have one!"))
+        elsif MInput.trigger?(:R)
+          if pbConfirmMessage(_INTL("Would you like to get a random Pokémon?"))
+            can_obtain = []
+            displaySpecies.each do |group|
+              group.each do |species_data|
+                next if has_species?(species_data.species, species_data.form)
+                can_obtain << species_data
+              end
+            end
+            if can_obtain.empty?
+              pbMessage(_INTL("You can't get any of these Pokémon!"))
+            else
+              pbAddPokemon(can_obtain.sample, getLevelCap - 5, dexnav: true)
+              break
+            end
+          end
+        elsif Input.trigger?(Input::USE)
+          if $catching_minigame.active?
+            pbPlayBuzzerSE
+            pbMessage(_INTL("This feature of the DexNav is unavailable during this minigame."))
+            next
+          end
+          if pbConfirmMessage(_INTL("Would you like to get this Pokémon?"))
+            if has_species?(highlightedSpecies, highlightedSpeciesForm)
+              pbMessage(_INTL("You can't get this Pokémon! You already have one!"))
+            else
+              pbAddPokemon(highlightedSpeciesData, getLevelCap - 5, dexnav: true)
+              break
+            end
+          end
+=begin
+        if !($Trainer.pokedex.owned?(highlightedSpecies) || debugControl)
+            pbMessage(_INTL("You cannot search for this Pokémon, because you haven't owned one yet!"))
+            next
         else
-          pbAddPokemon(highlightedSpeciesData, getLevelCap - 5, dexnav: true)
+          if $PokemonTemp.currentDexSearch != nil && $PokemonTemp.currentDexSearch.is_a?(Array) && !pbConfirmMessage("Would you like to replace your existing search?")
+            next
+          end
+          if debugControl
+            pbAddPokemonSilent(highlightedSpeciesData.species,getLevelCap)
+            pbMessage(_INTL("Added {1}", highlightedSpeciesData.species))
+            next
+          end
+          searchTime = 20 + rand(60)
+          searchTime = 0 if $DEBUG
+          pbMessage(_INTL("Searching\\ts[15]...\\wtnp[{1}]", searchTime))
+          pbMessage(_INTL("Oh! A {1} was found nearby!", highlightedSpeciesData.real_name))
+          pbFadeOutAndHide(@sprites)
+          generateSearch(highlightedSpeciesData)
+          $search_overlay.dispose if $search_overlay
+          $search_overlay = DexNav_SearchOverlay.new
           break
         end
-      end
-=begin
-			if !($Trainer.pokedex.owned?(highlightedSpecies) || debugControl)
-			    pbMessage(_INTL("You cannot search for this Pokémon, because you haven't owned one yet!"))
-			    next
-			else
-				if $PokemonTemp.currentDexSearch != nil && $PokemonTemp.currentDexSearch.is_a?(Array) && !pbConfirmMessage("Would you like to replace your existing search?")
-					next
-				end
-				if debugControl
-					pbAddPokemonSilent(highlightedSpeciesData.species,getLevelCap)
-					pbMessage(_INTL("Added {1}", highlightedSpeciesData.species))
-					next
-				end
-				searchTime = 20 + rand(60)
-				searchTime = 0 if $DEBUG
-				pbMessage(_INTL("Searching\\ts[15]...\\wtnp[{1}]", searchTime))
-				pbMessage(_INTL("Oh! A {1} was found nearby!", highlightedSpeciesData.real_name))
-				pbFadeOutAndHide(@sprites)
-				generateSearch(highlightedSpeciesData)
-				$search_overlay.dispose if $search_overlay
-				$search_overlay = DexNav_SearchOverlay.new
-				break
-			end
 =end
-		  elsif Input.trigger?(Input::BACK)
-			break
-		  else
-			highestDownRepeat = 0
-			highestUpRepeat = 0
-			highestLeftRepeat = 0
-			highestRightRepeat = 0
-		  end
-		  if prevNavRow != @navigationRow
-			@navigationColumn = [@navigationColumn,displaySpecies[@navigationRow].length - 1].min
-		  end
-		  if prevNavCol != @navigationColumn || prevNavRow != @navigationRow
-			speciesFormName =  highlightedSpeciesData.real_name 
-			speciesFormName += "(#{highlightedSpeciesData.form_name})" if highlightedSpeciesData.form != 0
-			@displayedName = $Trainer.pokedex.seen?(highlightedSpecies) ? speciesFormName : _INTL("Unknown")
-			drawSprites
-		  end
-		end
-		
-		if displaySpecies.length != 0
-			# Begin taking input for the main dexnav screen
-			highestLeftRepeat = 0
-			highestRightRepeat = 0
-			highestUpRepeat = 0
-			highestDownRepeat = 0
-			loop do
-				Graphics.update
-				Input.update
-				pbUpdateSpriteHash(@sprites)
-				
-				updateNavArrow
-				@sprites["scroll_arrow_up"].visible = @navigationRow > 3
-				@sprites["scroll_arrow_down"].visible = (displaySpecies.length - @navigationRow) > 1 && displaySpecies.length >= 5
-
-				prevNavCol = @navigationColumn
-				prevNavRow = @navigationRow
-
-				thisRowLength = displaySpecies[@navigationRow].length
-				
-				highlightedSpeciesData = displaySpecies[@navigationRow][@navigationColumn]
-				highlightedSpecies = highlightedSpeciesData.species
-				if Input.repeat?(Input::DOWN)
-					highestUpRepeat = 0
-					if @navigationRow < @totalRows - 1
-						repeats = 1 + Input.time?(Input::DOWN) / 100000
-						if repeats > highestDownRepeat
-							highestDownRepeat = repeats
-							@navigationRow += 1
-							pbPlayCursorSE
-						end
-					elsif Input.time?(Input::DOWN) < 500
-						@navigationRow = 0
-						pbPlayCursorSE
-					end
-				elsif Input.repeat?(Input::UP)
-					highestDownRepeat = 0
-				if @navigationRow >= 1
-					repeats = 1 + Input.time?(Input::UP) / 100000
-					if repeats > highestUpRepeat
-						highestUpRepeat = repeats
-						@navigationRow -= 1
-						pbPlayCursorSE
-					end
-				elsif Input.time?(Input::UP) < 500
-					@navigationRow = @totalRows - 1
-					pbPlayCursorSE
-				end
-				elsif Input.repeat?(Input::LEFT) && @navigationColumn > 0
-					highestRightRepeat = 0
-					repeats = 1 + Input.time?(Input::LEFT) / 100000
-					if repeats > highestLeftRepeat
-						highestLeftRepeat = repeats
-						@navigationColumn -= 1
-						pbPlayCursorSE
-					end
-				elsif Input.repeat?(Input::RIGHT) && @navigationColumn < thisRowLength - 1
-					highestLeftRepeat = 0
-					repeats = 1 + Input.time?(Input::RIGHT) / 100000
-					if repeats > highestRightRepeat
-						highestRightRepeat = repeats
-						@navigationColumn += 1
-						pbPlayCursorSE
-					end
-				elsif Input.trigger?(Input::USE)
-					if debugControl
-						pbAddPokemonSilent(highlightedSpeciesData.species,getLevelCap)
-						pbMessage(_INTL("Added {1}", highlightedSpeciesData.species))
-						next
-					end
-					unless $Trainer.pokedex.seen?(highlightedSpecies)
-						pbPlayBuzzerSE
-						next
-					end
-					cmdStartSearch = -1
-					cmdMasterDex = -1
-					commands = []
-					if $Trainer.pokedex.owned?(highlightedSpecies)
-						if $PokemonTemp.currentDexSearch != nil && $PokemonTemp.currentDexSearch.is_a?(Array)
-							commands[cmdStartSearch = commands.length] = _INTL("Replace Search")	
-						else
-							commands[cmdStartSearch = commands.length] = _INTL("Search Nearby")				
-						end
-					end
-					commands[cmdMasterDex = commands.length] = _INTL("MasterDex")
-					commands.push(_INTL("Cancel"))
-					command = pbMessage(_INTL("Do what with this species?"),commands,commands.length)
-					if command == cmdStartSearch && cmdStartSearch > -1
-						if $catching_minigame.active?
-							pbPlayBuzzerSE
-							pbMessage(_INTL("This feature of the DexNav is unavailable during this minigame."))
-							next
-						end
-						searchTime = 15 + rand(40)
-						pbMessage(_INTL("Searching\\ts[15]...\\wtnp[{1}]", searchTime))
-						pbMessage(_INTL("Oh! A {1} was found nearby!", highlightedSpeciesData.real_name))
-						pbFadeOutAndHide(@sprites)
-						generateSearch(highlightedSpeciesData)
-						$search_overlay.dispose if $search_overlay
-						$search_overlay = DexNav_SearchOverlay.new
-						break
-					elsif command == cmdMasterDex && cmdMasterDex > -1
-						@sprites["nav_arrow"].visible = false
-						$Trainer.pokedex.set_last_form_seen(highlightedSpeciesData.species, 0, highlightedSpeciesData.form)
-						openSingleDexScreen(highlightedSpeciesData.species)
-						@sprites["nav_arrow"].visible = true
-					end
-				elsif Input.trigger?(Input::BACK)
-					break
-				else
-					highestDownRepeat = 0
-					highestUpRepeat = 0
-					highestLeftRepeat = 0
-					highestRightRepeat = 0
-				end
-				if prevNavRow != @navigationRow
-					@navigationColumn = [@navigationColumn,displaySpecies[@navigationRow].length - 1].min
-				end
-				if prevNavCol != @navigationColumn || prevNavRow != @navigationRow
-					speciesFormName =  highlightedSpeciesData.real_name 
-					speciesFormName += "(#{highlightedSpeciesData.form_name})" if highlightedSpeciesData.form != 0
-					@displayedName = $Trainer.pokedex.seen?(highlightedSpecies) ? speciesFormName : _INTL("Unknown")
-					drawSprites
-				end
-			end
-		else
-			pbFadeOutAndHide(@sprites)
-		end
-		$PokemonTemp.navigationRow = @navigationRow
-		$PokemonTemp.navigationColumn = @navigationColumn
-		dispose
+        elsif Input.trigger?(Input::BACK)
+          break
+        else
+          highestDownRepeat = 0
+          highestUpRepeat = 0
+          highestLeftRepeat = 0
+          highestRightRepeat = 0
+        end
+        if prevNavRow != @navigationRow
+          @navigationColumn = [@navigationColumn,displaySpecies[@navigationRow].length - 1].min
+        end
+        if prevNavCol != @navigationColumn || prevNavRow != @navigationRow
+          speciesFormName =  highlightedSpeciesData.real_name 
+          speciesFormName += "(#{highlightedSpeciesData.form_name})" if highlightedSpeciesData.form != 0
+          @displayedName = $Trainer.pokedex.seen?(highlightedSpecies) ? speciesFormName : _INTL("Unknown")
+          drawSprites
+        end
+      end
+    else
+      pbFadeOutAndHide(@sprites)
+    end
+    $PokemonTemp.navigationRow = @navigationRow
+    $PokemonTemp.navigationColumn = @navigationColumn
+    dispose
   end
 
   def visualHeightOffset
@@ -524,15 +398,15 @@ class NewDexNav
   end
   
   def drawInformation()
-	overlay = @sprites["overlay"].bitmap
-	
-	base       = MessageConfig.pbDefaultTextMainColor
-	faded_base = MessageConfig.pbDefaultFadedTextColor
-	shadow     = MessageConfig.pbDefaultTextShadowColor
-	
-	xLeft = 40
-	textpos = [[_INTL("DexNav: #{$game_map.name}"), 40 - 20, -4, 0, Color.new(248, 248, 248), Color.new(0, 0, 0)],
-             [_INTL("Get New: ACTION/Z"), Graphics.width - 20, -4, 1, Color.new(248, 248, 248), Color.new(0, 0, 0)], ]
+    overlay = @sprites["overlay"].bitmap
+    
+    base       = MessageConfig.pbDefaultTextMainColor
+    faded_base = MessageConfig.pbDefaultFadedTextColor
+    shadow     = MessageConfig.pbDefaultTextShadowColor
+    
+    xLeft = 40
+    textpos = [[_INTL("DexNav: {1}", $game_map.name), 40 - 20, -4, 0, Color.new(248, 248, 248), Color.new(0, 0, 0)],
+               [_INTL("Get New: ACTION/Z"), Graphics.width - 20, -4, 1, Color.new(248, 248, 248), Color.new(0, 0, 0)], ]
 
 		# caughtCount = 0
 		# if $PokemonGlobal.caughtCountsPerMap && $PokemonGlobal.caughtCountsPerMap.has_key?($game_map.map_id)
@@ -553,9 +427,9 @@ class NewDexNav
     else
         move = getRandomNonLevelMove(species_data.species)
     end
-	item = generateWildHeldItem(species_data.species)
-	abilityIndex = rand(2)
-	$PokemonTemp.currentDexSearch = [species_data,move,abilityIndex,item]
+    item = generateWildHeldItem(species_data.species)
+    abilityIndex = rand(2)
+    $PokemonTemp.currentDexSearch = [species_data,move,abilityIndex,item]
   end
 end
 
