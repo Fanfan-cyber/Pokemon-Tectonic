@@ -1,5 +1,9 @@
 module DimensionD
   def self.open_dimension_d
+    unless $Trainer.has_pokemon?
+      pbMessage(_INTL("You can't open Dimension D now!"))
+      return
+    end
     pkmns = $Trainer.dimension_d
     loop do
       if pkmns.empty?
