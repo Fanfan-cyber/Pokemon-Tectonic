@@ -12,6 +12,10 @@ module TimeCapsule
   end
 
   def self.open_time_capsule
+    if $Trainer.party.empty?
+      pbMessage(_INTL("You can't open the Time Capsule now!"))
+      return
+    end
     loop do
       if @@time_capsule.empty?
         pbMessage(_INTL("There aren't any Pokémon in the Time Capsule!"))
@@ -23,8 +27,9 @@ module TimeCapsule
         if has_species?(pkmn.species, pkmn.form)
           pbMessage(_INTL("You can't retrieve this Pokémon! You already have one!"))
         else
-          if pkmn.level > getLevelCap - 5
-            pkmn.level = getLevelCap - 5
+          target_level = getLevelCap - 5
+          if pkmn.level > target_level
+            pkmn.level = target_level
             pkmn.calc_stats
           end
           pkmn.ownedByPlayer? ? pbAddPokemonSilent(pkmn, count: false) : pbAddPokemonSilent(pkmn)
