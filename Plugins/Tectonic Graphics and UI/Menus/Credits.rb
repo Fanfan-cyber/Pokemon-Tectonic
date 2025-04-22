@@ -9,7 +9,8 @@ Darlvon<s>Jaggedthorn
 Splitmoon<s>TikiShades
 Valrex<s>Steeb
 Tirankin<s>Ci
-Yufeng
+Yufeng<s>Riptidecord
+LunaFlare
 
 
 Other Contributors
@@ -27,8 +28,7 @@ ali760<s>papper
 lichenprincess<s>Enigma
 princessroxie<s>Joaquín Arellano
 M1ntyFr3shD4n<s>pechapanda
-zombygoast<s>Riptidecord
-LunaFlare<s>elusivestowaway
+zombygoast<s>elusivestowaway
 Kei<s>Atteathesilly
 
 {INSERTS_PLUGIN_CREDITS_DO_NOT_REMOVE}

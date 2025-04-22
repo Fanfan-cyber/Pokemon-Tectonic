@@ -185,3 +185,9 @@ BattleHandlers::SpeedCalcAbility.add(:DYNAMICENTRANCE,
       next mult * 2.0 if battler.firstTurn?
   }
 )
+
+BattleHandlers::SpeedCalcAbility.add(:FOREMAN,
+  proc { |ability, battler, mult|
+      next mult * 2 if battler.battle.roomActive?
+  }
+)

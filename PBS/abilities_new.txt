@@ -702,6 +702,10 @@ Description = Immune to Psychic-type moves, and raises Attack and Sp. Atk if hit
 Name = Force Reversal
 Description = Raises Attack and Sp. Atk by two steps when hit by a not-very-effective move.
 #-------------------------------
+[FOREMAN]
+Name = Foreman
+Description = Doubles the Pokémon's Speed in Rooms.
+#-------------------------------
 [FORTIFIED]
 Name = Fortified
 Description = Take 30% less damage from attacks on turns when it hasn't moved yet.

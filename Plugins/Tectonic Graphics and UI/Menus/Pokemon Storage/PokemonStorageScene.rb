@@ -271,6 +271,9 @@ class PokemonStorageScene
             key = Input::RIGHT if Input.repeat?(Input::RIGHT)
             key = Input::LEFT if Input.repeat?(Input::LEFT)
             key = Input::UP if Input.repeat?(Input::UP)
+
+            currentBox = @storage.currentBox
+
             if key >= 0
                 pbPlayCursorSE
                 selection = pbChangeSelection(key, selection)
@@ -328,6 +331,10 @@ class PokemonStorageScene
                 elsif selection == -3   # Close Box
                     return [-3, -1]
                 end
+            end
+
+            if @storage.currentBox != currentBox
+                donationBoxTutorialCheck  
             end
         end
     end
@@ -459,8 +466,6 @@ class PokemonStorageScene
         @sprites["box"].x -= diff
         @sprites["box"].dispose
         @sprites["box"] = newbox
-
-        donationBoxTutorialCheck
     end
 
     def pbSwitchBoxToLeft(newbox)
@@ -481,8 +486,6 @@ class PokemonStorageScene
         @sprites["box"].x -= diff
         @sprites["box"].dispose
         @sprites["box"] = newbox
-
-        donationBoxTutorialCheck
     end
 
     def donationBoxTutorialCheck
@@ -499,6 +502,7 @@ class PokemonStorageScene
                 pbSwitchBoxToLeft(newbox)
             end
             @storage.currentBox = newbox
+            donationBoxTutorialCheck
         end
     end
 

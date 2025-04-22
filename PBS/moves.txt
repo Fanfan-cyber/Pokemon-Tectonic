@@ -151,18 +151,6 @@ FunctionCode = RecoilThirdOfDamageDealt
 Flags = CanProtect
 Description = A reckless, life-risking tackle. The user also takes 33% recoil.
 #-------------------------------
-[DOUBLEHIT]
-Name = Double Hit
-Type = NORMAL
-Category = Physical
-Power = 35
-Accuracy = 100
-TotalPP = 10
-Target = NearOther
-FunctionCode = HitTwoTimes
-Flags = CanProtect
-Description = The user slams the target with a long tail, vines, or tentacle. The target is hit twice in a row.
-#-------------------------------
 [ECHOEDVOICE]
 Name = Echoed Voice
 Type = NORMAL
@@ -777,7 +765,7 @@ Description = The user's earsplitting screech reduces the target's Defense stat 
 Name = Secret Power
 Type = NORMAL
 Category = Adaptive
-Power = 70
+Power = 120
 Accuracy = 100
 TotalPP = 15
 Target = NearOther
@@ -3042,7 +3030,7 @@ TotalPP = 12
 Target = NearOther
 FunctionCode = StartDamageTargetEachTurnIfTargetAsleep
 Flags = CanProtect
-Description = A sleeping target sees a nightmare that inflicts some damage every turn.
+Description = A sleeping target sees a nightmare that inflicts 25% damage every turn.
 #-------------------------------
 [OMINOUSWIND]
 Name = Ominous Wind

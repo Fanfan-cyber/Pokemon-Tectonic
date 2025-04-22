@@ -9,6 +9,7 @@ def battleGuideMainDirectory
         _INTL("Abilities")         => [_INTL("How do abilities work?"),:battleGuideAbilitiesHash],
         _INTL("Held Items")        => [_INTL("What are held items and how to use them?"),:battleGuideHeldItemsHash],
         _INTL("Status Conditions") => [_INTL("What are the Conditions a Pokémon can be afflicted with?"),:battleGuideStatusConditionsHash],
+        _INTL("Volatile Statuses") => [_INTL("What are the Volatile Statuses a Pokémon can be afflicted with?"),:battleGuideVolatileStatusesHash],
         _INTL("Critical Hits")     => [_INTL("What are critical hits and when do they happen?"),:battleGuideCriticalHitsHash],
         _INTL("Trainers")          => [_INTL("How do enemy Trainers work?"),:battleGuideTrainersHash],
         _INTL("Avatars")           => [_INTL("What are avatars and what do they do?"),:battleGuideAvatarsHash],
@@ -144,6 +145,24 @@ def battleGuideStatusConditionsHash
         _INTL("Dizzy") => _INTL("When dizzied, a Pokémon takes 25% more attack damage, and its ability doesn't function. Psychic- and Fairy-types do the most dizzying."),
         _INTL("Leeched") => _INTL("When leeched, a Pokémon loses 1/10th HP every turn, and its opponent(s) split that health. Bug- and Dark-types do the most leeching. Grass is immune."),
         _INTL("Sleep") => _INTL("A rarer status that causes a Pokémon to be unable to do anything for 2 turns. Psychic- and Grass-types put Pokémon to sleep the most often."),
+    }
+end
+
+def battleGuideVolatileStatusesHash
+    return {
+        _INTL("What are Volatile Statuses?") => _INTL("Volatile Status Conditions are similar to Status Conditions, except they will go away if the Pokémon switches out."),
+        _INTL("Jinx") => _INTL("When jinxed, a Pokémon cannot Protect itself, and all attacks against it are guaranteed critical hits. Jinx wears off after 3 turns. Fairy-types do the most jinxing."),
+        _INTL("Fractured") => _INTL("When fractured, a Pokémon deals 33% less damage with its moves. Fracture wears off after 3 turns. Rock-types do the most fracturing."),
+        _INTL("Curse") => _INTL("When cursed, a Pokémon loses 25% of its HP every turn. Ghost-types do the most cursing."),
+        _INTL("Torment") => _INTL("When tormented, a Pokémon cannot use the same move twice in a row. If something prevents it from moving for a turn, it can choose the same move the following turn."),
+        _INTL("Taunt") => _INTL("When taunted, a Pokémon is prevented from using status moves."),
+        _INTL("Disable") => _INTL("When disabled, a Pokémon cannot use the move it last selected."),
+        _INTL("Bar") => _INTL("When barred, a Pokémon cannot use moves that don't share a type with themselves."),
+        _INTL("Trapping") => _INTL("When trapped, a  Pokémon cannot switch out of battle. Includes manually switching, being forced out, or using a move like U-Turn."),
+        _INTL("Substitute") => _INTL("A substitute blocks attacks and status effects. It has HP equal to the amount of HP it took to create it. Sound tag moves ignore substitute."),
+        _INTL("Transformed") => _INTL("A transformed Pokémon becomes a copy of another. It gains their ability, moves, stats (except HP), and step boosts."),
+        _INTL("Perish Song") => _INTL("A Pokémon affected by Perish Song will faint when the timer ends. Avatars will be damaged for half of an HP bar."),
+        _INTL("Grounded") => _INTL("A grounded Pokémon loses their immunity to ground moves (from being Flying-type or having a Levitate ability)."),
     }
 end
 

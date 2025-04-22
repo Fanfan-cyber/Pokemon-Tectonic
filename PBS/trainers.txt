@@ -1445,7 +1445,7 @@ Pokemon = CHERRIM,29
     Moves = LEECHSEED,GROWTH,BLOSSOM,INCINERATE
     AbilityIndex = 1 # Introvert
 Pokemon = FLOATZEL,27
-    Moves = FLIPTURN,DOUBLEHIT,FAKEOUT,AQUAJET
+    Moves = FLIPTURN,HEADBUTT,FAKEOUT,AQUAJET
     AbilityIndex = 1 # Technician
 #-------------------------------
 [AROMALADY,Cheshire]
@@ -2666,6 +2666,31 @@ Pokemon = WISHIWASHI,70
 Pokemon = ARCLAMOR,70
     AbilityIndex = 1 # Thunderstruck
 #-------------------------------
+[ROLLERSKATER_F,Attea]
+TrainerTypeLabel = DEVELOPER
+Pokemon = ORICORIO,70
+    Form = 1 # Pom-Pom Style Form
+    Moves = REVELATIONDANCE,AIRSLASH,PSYCHESWITCH,VOLTSWITCH
+    AbilityIndex = 1 # Costume Change
+Pokemon = JIGGLYPUFF,70
+    Name = Kirby
+    Gender = male
+    Moves = PLAYROUGH,BODYSLAM,TRUMPCARD,PERISHSONG
+    AbilityIndex = 0 # Staggering Slaps
+    Item = EVIOLITE
+Pokemon = LUDICOLO,70
+    Moves = GIGADRAIN,DREAMDANCE,HYPERVOICE,BUBBLEBLASTER
+    AbilityIndex = 0 # Fiesta
+Pokemon = BELLOSSOM,70
+    Moves = SMOLDERRAVE,POLLENPUFF,HEARTHFIREHULA,MIASMA
+    AbilityIndex = 1 # Choreography
+Pokemon = GSLOWKING,70
+    Moves = TOTALCONTROL,SLUDGEWAVE,EERIESPELL,SLACKOFF
+    AbilityIndex = 1 # Exorcist
+Pokemon = SLOWKING,70
+    Moves = SELECTIVEMEMORY,SLACKOFF,YAWN
+    AbilityIndex = 1 # Realist
+#-------------------------------
 [LEADER_Bence,Bence]
 Policies = BENCE
 Flags = NoPerfect
@@ -3195,73 +3220,73 @@ Pokemon = GDARMANITAN,45
 [BLACKBELT2,Riccardo]
 Policies = SANDSTORM_TEAM
 Flags = NoPerfect
-Pokemon = HIPPOWDON,53
+Pokemon = HIPPOWDON,50
     AbilityIndex = 0 # Sand Stream
     Item = SMOOTHROCK
-Pokemon = MANDIBUZZ,53
+Pokemon = MANDIBUZZ,50
     AbilityIndex = 1 # Desert Scavenger
     Item = SITRUSBERRY
-Pokemon = MARACTUS,54
+Pokemon = MARACTUS,50
     AbilityIndex = 1 # Desert Armor
-Pokemon = SALAMENCE,55
+Pokemon = SALAMENCE,50
     Moves = OUTRAGE,FIREFANG,DRAGONDANCE,ACROBATICS
     AbilityIndex = 0 # Intimidate
     Item = PERSIMBERRY
-Pokemon = TYPHLOSION,55
+Pokemon = TYPHLOSION,50
     AbilityIndex = 0 # Brisk
     Item = UTILITYUMBRELLA
 #-------------------------------
 [BATTLEGIRL3,Amelia]
 Flags = NoPerfect
-Pokemon = KECLEON,58
+Pokemon = KECLEON,55
     AbilityIndex = 1 # Protean
     Item = WEAKNESSPOLICY
-Pokemon = ATLACROSS,58
+Pokemon = ATLACROSS,55
     AbilityIndex = 1 # Power Lifter
     Item = CADOBERRY
-Pokemon = BRAVIARY,59
+Pokemon = BRAVIARY,55
     AbilityIndex = 0 # Defiant
     Item = CUSTAPBERRY
-Pokemon = REUNICLUS,60
+Pokemon = REUNICLUS,55
     AbilityIndex = 1 # Magic Guard
-Pokemon = MANIKLAW,60
+Pokemon = MANIKLAW,55
     AbilityIndex = 0 # Malice
     Item = FOCUSSASH
 #-------------------------------
 [BATTLEGIRL2,Juniper]
 Flags = NoPerfect
-Pokemon = AMOONGUSS,63
+Pokemon = AMOONGUSS,60
     AbilityIndex = 0 # Regenerator
     Item = ROCKYHELMET
-Pokemon = OMASTAR,63
+Pokemon = OMASTAR,60
     AbilityIndex = 1 # Introvert
-Pokemon = DRAPION,64
+Pokemon = DRAPION,60
     AbilityIndex = 1 # Merciless
     Item = REDCARD
-Pokemon = MAGMORTAR,65
+Pokemon = MAGMORTAR,60
     AbilityIndex = 0 # Mega Launcher
     Item = STRIKEVEST
-Pokemon = RAPIDASH,65
+Pokemon = RAPIDASH,60
     AbilityIndex = 1 # Heavy Duty Hooves
     Item = LIECHIBERRY
 #-------------------------------
 [BLACKBELT,Leo]
 Flags = NoPerfect
-Pokemon = AMPHAROS,68
+Pokemon = AMPHAROS,65
     AbilityIndex = 0 # Static
     Item = CADOBERRY
-Pokemon = HAEROBIC,68
+Pokemon = HAEROBIC,65
     AbilityIndex = 1 # Stubborn
     Item = FIGHTINGGEM
-Pokemon = SALAMENCE,69
+Pokemon = SALAMENCE,65
     AbilityIndex = 0 # Intimidate
     Item = SHELLBELL
-Pokemon = SAMUROTT,70
+Pokemon = SAMUROTT,65
     AbilityIndex = 1 # Swordplay
-Pokemon = JYNX,70
+Pokemon = JYNX,65
     AbilityIndex = 0 # Fascinate
     Item = FOCUSSASH
-Pokemon = SNORLAX,70
+Pokemon = SNORLAX,65
     Moves = BELLYDRUM,KNOCKOFF,GIGAIMPACT,BODYSLAM
     AbilityIndex = 1 # Thick Fat
 #-------------------------------
@@ -4547,7 +4572,7 @@ Pokemon = CRADILY,55
 #-------------------------------
 [SWIMMER_M3,Diego]
 Pokemon = FLOATZEL,56
-    Moves = FAKEOUT,HYPERJET,STORMTHROW,DOUBLEDOWN
+    Moves = FAKEOUT,HYPERJET,STORMTHROW,MEGAPUNCH
     AbilityIndex = 1 # Technician
     Item = EJECTBUTTON
 Pokemon = CACTURNE,56
@@ -5013,7 +5038,7 @@ Pokemon = PHIONE,55
     AbilityIndex = 1 # Overflowing Heart
     Item = SALACBERRY
 Pokemon = GIGANTEON,55
-    Moves = DOUBLEDOWN,QUICKATTACK,RECOVER,FACADE
+    Moves = MEGAPUNCH,QUICKATTACK,RECOVER,FACADE
     AbilityIndex = 0 # Ultra Adapted
 #-------------------------------
 [MASKEDVILLAIN,Crimson,9]
@@ -5242,7 +5267,7 @@ Pokemon = PHIONE,65
     AbilityIndex = 1 # Overflowing Heart
     Item = SALACBERRY
 Pokemon = GIGANTEON,65
-    Moves = DOUBLEDOWN,QUICKATTACK,RECOVER,FACADE
+    Moves = MEGAPUNCH,QUICKATTACK,RECOVER,FACADE
     AbilityIndex = 0 # Ultra Adapted
 #-------------------------------
 [MASKEDVILLAIN2,Teal,9]

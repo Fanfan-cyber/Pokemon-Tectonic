@@ -211,6 +211,30 @@ FunctionCode = Invalid
 Flags = CanSnatch
 Description = The user curls up to conceal weak spots and raise both of its defensive stats.
 #-------------------------------
+[DOUBLEDOWN]
+Name = Double Down
+Type = NORMAL
+Category = Physical
+Power = 45
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = Invalid
+Flags = CanProtect
+Description = The user punches the target twice in quick succession.
+#-------------------------------
+[DOUBLEHIT]
+Name = Double Hit
+Type = NORMAL
+Category = Physical
+Power = 35
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = Invalid
+Flags = CanProtect
+Description = The user slams the target with a long tail, vines, or tentacle. The target is hit twice in a row.
+#-------------------------------
 [DOUBLESLAP]
 Name = Double Slap
 Type = NORMAL

@@ -189,18 +189,6 @@ Flags = CanProtect
 Description = An unusual shockwave that breaks down all active Rooms.
 Animation = SUPERSONIC
 #-------------------------------
-[DOUBLEDOWN]
-Name = Double Down
-Type = NORMAL
-Category = Physical
-Power = 45
-Accuracy = 100
-TotalPP = 10
-Target = NearOther
-FunctionCode = HitTwoTimes
-Flags = CanProtect
-Description = The user punches the target twice in quick succession.
-#-------------------------------
 [ELEMENTALFANG]
 Name = Elemental Fang
 Type = NORMAL
@@ -760,6 +748,19 @@ Flags = CanProtect,Dance
 EffectChance = 100
 Description = Combining dance and martial art, the user strikes the target and raises its Speed by two steps.
 Animation = RAPIDSPIN
+#-------------------------------
+[COLUMNARPIN]
+Name = Columnar Pin
+Type = FIGHTING
+Category = Physical
+Power = 70
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = DisableTargetUsingOffTypeMove4
+Flags = CanProtect
+Description = Pins the target with building materials. The target can't use off-type moves for three more turns.
+Animation = SMACKDOWN
 #-------------------------------
 [CONCUSS]
 Name = Concuss
