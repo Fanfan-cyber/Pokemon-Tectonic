@@ -12,6 +12,7 @@ PRIORITIZEUTURN
 PRESERVE_LAST_POKEMON
 EQ_PROTECT
 # ^ AI will protect on partners spread moves
+ALLOW_RANDOM_MOVES
 # Weather Teams
 # Only use for full weather teams, hybrids perform better without this
 SUN_TEAM

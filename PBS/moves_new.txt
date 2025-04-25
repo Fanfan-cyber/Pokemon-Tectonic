@@ -1159,6 +1159,19 @@ Flags = CanProtect
 Description = The user attacks the target while dashing skillfully past it.
 Animation = ACROBATICS
 #-------------------------------
+[TALONFALL]
+Name = Talonfall
+Type = FLYING
+Category = Physical
+Power = 70
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = RecoilQuarterOfDamageDealtCriticalHits
+Flags = CanProtect
+Description = The opponent is shredded by talons as the user dives from a great height. This attack always results in a critical hit, but the user also takes 25% recoil.
+Animation = DRILLPECK
+#-------------------------------
 [TEMPEST]
 Name = Tempest
 Type = FLYING
@@ -3112,6 +3125,20 @@ FunctionCode = FeatherWard
 Flags = CanMagicCoat
 Description = The user lays a trap of sharp feathers around the foe. It hurts foes that switch into battle.
 #-------------------------------
+[FLETCHETTES]
+Name = Fletchettes
+Type = STEEL
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = MoveFracturesSelfCriticalHits
+Flags = CanProtect
+EffectChance = 10
+Description = The user dislodges a blast of thin projectiles. This attack always results in a critical hit, but applies Fracture to the user.
+Animation = SPIKECANNON
+#-------------------------------
 [FRAGMENTATION]
 Name = Fragmentation
 Type = STEEL
@@ -3249,8 +3276,8 @@ Category = Status
 Accuracy = 0
 TotalPP = 10
 Target = BothSides
-FunctionCode = StartPolarizeTypeMatchups5
-Description = The user creates a high quality area in which super-effective deals 25% more, and not very effective deals 25% less.
+FunctionCode = StartPolarizeTypeMatchups8
+Description = The user creates a high quality area for 8 turns in which super-effective deals 25% more, and not very effective deals 25% less.
 Animation = WONDERROOM
 #-------------------------------
 [RAILCANNON]
@@ -5447,20 +5474,6 @@ Flags = CanSnatch
 Description = The user syncs its mind with its teammates, raising the Sp. Atk of itself and its allies by two steps.
 Animation = CONFUSION
 #-------------------------------
-[MINDWARP]
-Name = Mind Warp
-Type = PSYCHIC
-Category = Special
-Power = 80
-Accuracy = 100
-TotalPP = 12
-Target = NearOther
-FunctionCode = LowerTargetAtkSpAtk1
-Flags = CanProtect
-EffectChance = 30
-Description = The target's psyche is attacked directly. It has a 30% chance to lower the target's Attack and Sp. Atk.
-Animation = PSYCHIC
-#-------------------------------
 [MINDWAVES]
 Name = Mind Waves
 Type = PSYCHIC
@@ -5482,8 +5495,8 @@ Category = Status
 Accuracy = 0
 TotalPP = 10
 Target = BothSides
-FunctionCode = StartSwapOffensiveAndDefensiveStats5
-Description = The user creates an odd area in which Pokémon's offensive and defensive stats are swapped.
+FunctionCode = StartSwapOffensiveAndDefensiveStats8
+Description = The user creates an odd area for 8 turns in which Pokémon's offensive and defensive stats are swapped.
 Animation = MAGICROOM
 #-------------------------------
 [OMNISCIENTBLOW]
@@ -5547,6 +5560,19 @@ FunctionCode = StartEclipse8
 Flags = CanProtect
 Description = Psychic energy assaults the foe and darkens the sky, summoning eclipse for 8 turns.
 Animation = DARKVOID
+#-------------------------------
+[PIERCINGDOUBT]
+Name = Piercing Doubt
+Type = PSYCHIC
+Category = Special
+Power = 85
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = CritsAgainstRaisedStats
+Flags = CanProtect
+Description = Pierces the mind of the target, inflicting doubt in their abilities, guaranteeing a critical hit on foes with boosted stats.
+Animation = EXTRASENSORY
 #-------------------------------
 [PSYCHESWITCH]
 Name = Psyche Switch
@@ -7370,8 +7396,8 @@ Category = Status
 Accuracy = 0
 TotalPP = 10
 Target = BothSides
-FunctionCode = StartSwapAttackingStats5
-Description = The user creates a puzzling area in which Pokémon's base Attack and Sp. Atk are swapped.
+FunctionCode = StartSwapAttackingStats8
+Description = The user creates a puzzling area for 8 turns in which Pokémon's base Attack and Sp. Atk are swapped.
 Animation = MAGICROOM
 #-------------------------------
 [SUGARBALL]

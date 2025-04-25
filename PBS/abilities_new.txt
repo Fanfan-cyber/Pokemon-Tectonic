@@ -508,7 +508,7 @@ Description = Uses Lightning Dance if an attack lowers its HP to half or below.
 #-------------------------------
 [EMOTIONAURA]
 Name = Emotion Aura
-Description = Upon entry, creates an Emotion Room for five turns, switching Abilities every turn.
+Description = Upon entry, creates an Emotion Room for four turns, switching Abilities every turn.
 #-------------------------------
 [ENERGETIC]
 Name = Energetic
@@ -997,7 +997,7 @@ Flags = SunshineSynergy
 #-------------------------------
 [INSIGHTAURA]
 Name = Insight Aura
-Description = Upon entry, creates an Insight Room for five turns, giving everyone a fifth move.
+Description = Upon entry, creates an Insight Room for four turns, giving everyone a fifth move.
 #-------------------------------
 [INTOXICATE]
 Name = Intoxicate
@@ -1310,7 +1310,7 @@ Description = Boosts the Accuracy of its allies and itself by 50%.
 #-------------------------------
 [ODDITY]
 Name = Oddity
-Description = Upon entry, creates an Odd Room for five turns, swapping offensive and Defense and Sp. Def.
+Description = Upon entry, creates an Odd Room for four turns, swapping offensive and Defense and Sp. Def.
 #-------------------------------
 [OFFENSIVE]
 Name = Offensive
@@ -1430,7 +1430,7 @@ Description = Special attacks against the Pokémon have a 30% chance to poison t
 #-------------------------------
 [POLARIZING]
 Name = Polarizing
-Description = Upon entry, creates a Polarized Room for five turns, exaggerating type matchups.
+Description = Upon entry, creates a Polarized Room for four turns, exaggerating type matchups.
 #-------------------------------
 [POORCONDUCT]
 Name = Poor Conduct
@@ -1471,7 +1471,7 @@ Description = The Pokémon's Dragon-type hits deal additional damage equal to ha
 #-------------------------------
 [PUZZLING]
 Name = Puzzling
-Description = Upon entry, creates a Puzzle Room for five turns, swapping base Attack and Sp. Atk.
+Description = Upon entry, creates a Puzzle Room for four turns, swapping base Attack and Sp. Atk.
 #-------------------------------
 [QUARRELSOME]
 Name = Quarrelsome
@@ -1909,7 +1909,7 @@ Flags = Immutable
 #-------------------------------
 [SUBSPACESCHISM]
 Name = Subspace Schism
-Description = Upon entry, creates a Trick Room for five turns, inverting the effect of Speed.
+Description = Upon entry, creates a Trick Room for four turns, inverting the effect of Speed.
 #-------------------------------
 [SUBZERO]
 Name = Sub Zero
@@ -2175,7 +2175,7 @@ Description = Upon entry, summons a Primal Forest on the Pokémon's side for 6 t
 #-------------------------------
 [WILLAURA]
 Name = Will Aura
-Description = Upon entry, creates a Willful Room for five turns, reducing all hits by 30 damage.
+Description = Upon entry, creates a Willful Room for four turns, reducing all hits by 30 damage.
 #-------------------------------
 [WINTERINSULATION]
 Name = Winter Insulation

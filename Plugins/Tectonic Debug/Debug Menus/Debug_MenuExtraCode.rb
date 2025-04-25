@@ -538,14 +538,23 @@ end
 #===============================================================================
 # Text import/export for localisation
 #===============================================================================
+def get_language_name
+    Settings::LANGUAGES[$Options.language][0]
+end
+
+def is_chinese?
+    ["Simplified Chinese", "Traditional Chinese"].include?(get_language_name)
+end
+
 def pbExtractText(untranslatedOnly = false, combined = false)
     if untranslatedOnly && $Options.language == 0
         pbMessage(_INTL("Can only run this command when the game language isn't set to the default!"))
         return
     end
+    language = Settings::LANGUAGES[$Options.language][1][0..-5]
     msgwindow = pbCreateMessageWindow
-    file_name = untranslatedOnly ? "intl_untranslated.txt" : "intl_.txt"
-    file_name = "intl_combined.txt" if combined
+    file_name = untranslatedOnly ? "intl_#{language}_untranslated.txt" : "intl_.txt"
+    file_name = "intl_#{language}_combined.txt" if combined
     if safeExists?("PBS\\#{file_name}") &&
        !pbConfirmMessageSerious(_INTL("{1} already exists. Overwrite it?", file_name))
         pbDisposeMessageWindow(msgwindow)

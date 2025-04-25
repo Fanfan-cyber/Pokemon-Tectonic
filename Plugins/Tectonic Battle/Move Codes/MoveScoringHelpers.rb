@@ -1039,3 +1039,12 @@ def getDisableEffectScore(target, duration)
     score *= 1.5 if target.battle.pbIsTrapped?(target.index)
     return score
 end
+
+def randomMovesEffectScore(user,move)
+    if user.ownersPolicies.include?(:ALLOW_RANDOM_MOVES)
+        return 100
+    else
+        echoln("The AI will never use #{move.name}")
+        return -1000  
+    end  
+end

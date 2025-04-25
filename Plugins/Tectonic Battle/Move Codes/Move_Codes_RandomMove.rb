@@ -34,9 +34,8 @@ class PokeBattle_Move_UseRandomUserMoveIfAsleep < PokeBattle_Move
         user.pbUseMoveSimple(user.getMoves[choice].id, user.pbDirectOpposing.index)
     end
 
-    def getEffectScore(_user, _target)
-        echoln("The AI will never use Sleep talk.")
-        return -1000
+    def getEffectScore(user, _target)
+        return randomMovesEffectScore(user, self)
     end
 
     def getDetailsForMoveDex(detailsList = [])
@@ -124,9 +123,8 @@ class PokeBattle_Move_UseRandomNonSignatureMove < PokeBattle_Move
         user.pbUseMoveSimple(choice)
     end
 
-    def getEffectScore(_user, _target)
-        echoln("The AI will never use Metronome")
-        return -1000
+    def getEffectScore(user, _target)
+        return randomMovesEffectScore(user, self)
     end
 
     def getDetailsForMoveDex(detailsList = [])
@@ -191,9 +189,8 @@ class PokeBattle_Move_UseChoiceOf3RandomNonSignatureStatusMoves < PokeBattle_Mov
         @chosenMove = nil
     end
 
-    def getEffectScore(_user, _target)
-        echoln("The AI will never use Discovered Power")
-        return -1000
+    def getEffectScore(user, _target)
+        return randomMovesEffectScore(user, self)
     end
 
     def getDetailsForMoveDex(detailsList = [])
@@ -233,9 +230,8 @@ class PokeBattle_Move_UseTwoRandomDragonThemedMoves < PokeBattle_Move
         user.pbUseMoveSimple(@invocationMovesPhysical.sample)
     end
 
-    def getEffectScore(_user, _target)
-        echoln("The AI will never use Dragon Invocation")
-        return -1000
+    def getEffectScore(user, _target)
+        return randomMovesEffectScore(user, self)
     end
 
     def getDetailsForMoveDex(detailsList = [])
@@ -317,9 +313,8 @@ class PokeBattle_Move_UseChoiceOf3RandomNonSignatureNonPsychicDamagingMoves < Po
         @chosenMove = nil
     end
 
-    def getEffectScore(_user, _target)
-        echoln("The AI will never use Selective Memory")
-        return -1000
+    def getEffectScore(user, _target)
+        return randomMovesEffectScore(user, self)
     end
     
     def getDetailsForMoveDex(detailsList = [])

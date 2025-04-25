@@ -143,6 +143,7 @@ class PokeBattle_Battler
         speciesLearnSet.each do |learnSetEntry|
             moveLevel = learnSetEntry[0]
             next if moveLevel > @level
+            next if moveLevel > 48
             move = learnSetEntry[1]
             next if @pokemon.hasMove?(move)
             return @battle.getBattleMoveInstanceFromID(move)

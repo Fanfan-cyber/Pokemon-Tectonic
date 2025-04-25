@@ -6,6 +6,7 @@ module MessageConfig
     LIGHT_FADED_TEXT_COLOR      = Color.new(145,145,145)
     DARK_FADED_TEXT_COLOR       = Color.new(110,110,110)
     FONT_NAME               = "Power Green"
+    CHN_FONT_NAME           = "FusionPixelMonoPatched"
     FONT_SIZE               = 29
     SMALL_FONT_NAME         = "Power Green Small"
     SMALL_FONT_SIZE         = 25

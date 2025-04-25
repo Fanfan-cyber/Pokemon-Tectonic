@@ -2635,6 +2635,20 @@ FunctionCode = Invalid
 Flags = CanProtect
 Description = The user senses the foe's movements with its mind to ensure its next attack does not miss the foe.
 #-------------------------------
+[MINDWARP]
+Name = Mind Warp
+Type = PSYCHIC
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 12
+Target = NearOther
+FunctionCode = Invalid
+Flags = CanProtect
+EffectChance = 30
+Description = The target's psyche is attacked directly. It has a 30% chance to lower the target's Attack and Sp. Atk.
+Animation = PSYCHIC
+#-------------------------------
 [MIRACLEEYE]
 Name = Miracle Eye
 Type = PSYCHIC

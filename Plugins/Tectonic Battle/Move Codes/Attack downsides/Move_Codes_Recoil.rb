@@ -212,3 +212,11 @@ class PokeBattle_Move_RecoilThirdOfDamageDealtButCantFaint < PokeBattle_RecoilMo
         user.applyRecoilDamage(recoilDamage, false, true)
     end
 end
+
+#===============================================================================
+# User takes 25% recoil damage, and always critical hits. (Talonfall)
+#===============================================================================
+class PokeBattle_Move_RecoilQuarterOfDamageDealtCriticalHits < PokeBattle_RecoilMove
+    def recoilFactor;  return 0.25; end
+    def pbCriticalOverride(_user, _target); return 1; end
+end

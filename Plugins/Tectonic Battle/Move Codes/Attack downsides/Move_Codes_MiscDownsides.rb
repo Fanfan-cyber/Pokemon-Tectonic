@@ -83,3 +83,18 @@ class PokeBattle_Move_RaisesTargetSpd1 < PokeBattle_Move
         return -getMultiStatUpEffectScore([:SPEED, 1], user, target, evaluateThreat: false)
     end
 end
+
+#===============================================================================
+# Fractures the user, and always critical hits. (Fletchettes)
+#===============================================================================
+class PokeBattle_Move_MoveFracturesSelfCriticalHits < PokeBattle_Move
+    def pbEffectAfterAllHits(user, _target)
+        user.applyEffect(:Fracture, DEFAULT_FRACTURE_DURATION)
+    end
+
+    def getEffectScore(_user, _target)
+        return -30
+    end
+
+    def pbCriticalOverride(_user, _target); return 1; end
+end

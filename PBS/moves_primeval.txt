@@ -530,7 +530,7 @@ TotalPP = 1
 Target = User
 FunctionCode = EmpoweredPolarizedRoom
 Flags = Empowered
-Description = The user creates a Polarized Room for 5 turns, raises both of its Defensive stats, and becomes Steel-type.
+Description = The user creates a Polarized Room for 8 turns, raises both of its Defensive stats, and becomes Steel-type.
 Animation = POLARIZEDROOM
 #-------------------------------
 [PRIMEVALSWORDSDANCE]
@@ -860,7 +860,7 @@ TotalPP = 1
 Target = User
 FunctionCode = EmpoweredOddRoom
 Flags = Empowered
-Description = The user creates an Odd Room for 5 turns, raises its Speed, and becomes Psychic-type.
+Description = The user creates an Odd Room for 8 turns, raises its Speed, and becomes Psychic-type.
 Animation = ODDROOM
 #-------------------------------
 #		ICE MOVES
@@ -1013,5 +1013,5 @@ TotalPP = 1
 Target = User
 FunctionCode = EmpoweredPuzzleRoom
 Flags = Empowered
-Description = The user creates a Puzzle Room for 5 turns, raises both of its Attacking stats, and becomes Fairy-type.
+Description = The user creates a Puzzle Room for 8 turns, raises both of its Attacking stats, and becomes Fairy-type.
 Animation = PUZZLEROOM

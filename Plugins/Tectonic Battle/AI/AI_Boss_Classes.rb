@@ -1050,3 +1050,17 @@ class PokeBattle_AI_ASANDSLASH < PokeBattle_AI_Boss
         })
     end
 end
+
+class PokeBattle_AI_TOXTRICITY < PokeBattle_AI_Boss
+    def initialize(user, battle)
+        super
+        @warnedIFFMove.add(:BROADCASTBLAST, {
+            :condition => proc { |_move, _user, _target, battle|
+                next true
+            },
+            :warning => proc { |_move, user, targets, _battle|
+                _INTL("{1} is gearing up for a big release!",user.pbThis)
+            },
+        })
+    end
+end
