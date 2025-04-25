@@ -1079,7 +1079,7 @@ def ctag(color)
     return if !bitmap || !string
     width=(width<0) ? bitmap.text_size(string).width+1 : width
     height=(height<0) ? bitmap.text_size(string).height+1 : height
-    y = y + 4 + MessageConfig::SHADOW_TEXT_Y_OFFSET
+    y = y + 4
     if shadowColor && shadowColor.alpha>0
       bitmap.font.color=shadowColor
       bitmap.draw_text(x+2,y,width,height,string,align)

@@ -1,3 +1,4 @@
+=begin
 module MessageConfig
   FONT_NAME        = "Power Green"
   CHN_FONT_NAME    = "FusionPixelMonoPatched"
@@ -620,3 +621,4 @@ def getFormattedTextFast_chinese(bitmap, xDst, yDst, widthDst, heightDst, text, 
   end
   return characters
 end
+=end

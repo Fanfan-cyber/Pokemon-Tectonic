@@ -441,7 +441,7 @@ class Messages
   def self.writeObject(f,msgs,secname,origMessages=nil)
     return if !msgs
     if msgs.is_a?(Array)
-      return if MessageTypes::NOT_NEED_OUTPUT.include?(secname.to_s)
+      return if MessageTypes::NO_NEED_OUTPUT.include?(secname.to_s)
       f.write("[#{secname}]\r\n")
       for j in 0...msgs.length
         next if nil_or_empty?(msgs[j])
@@ -457,7 +457,7 @@ class Messages
         f.write(value+"\r\n")
       end
     elsif msgs.is_a?(OrderedHash)
-      return if MessageTypes::NOT_NEED_OUTPUT_HASH.include?(secname.to_s)
+      return if MessageTypes::NO_NEED_OUTPUT_HASH.include?(secname.to_s)
       f.write("[#{secname}]\r\n")
       keys=msgs.keys
       for key in keys
@@ -474,7 +474,7 @@ class Messages
   def self.writeObjectUntranslated(f,msgs,sectionKey,secname,translatedMsgs)
     return if !msgs
     if msgs.is_a?(Array)
-      return if MessageTypes::NOT_NEED_OUTPUT.include?(sectionKey.to_s)
+      return if MessageTypes::NO_NEED_OUTPUT.include?(sectionKey.to_s)
       f.write("[#{secname}]\r\n")
       for j in 0...msgs.length
         next if nil_or_empty?(msgs[j])
@@ -486,7 +486,7 @@ class Messages
         f.write(value+"\r\n")
       end
     elsif msgs.is_a?(OrderedHash)
-      return if MessageTypes::NOT_NEED_OUTPUT_HASH.include?(secname.to_s)
+      return if MessageTypes::NO_NEED_OUTPUT_HASH.include?(secname.to_s)
       f.write("[#{secname}]\r\n")
       keys=msgs.keys
       for key in keys
@@ -507,7 +507,7 @@ class Messages
   
   def self.writeMapObjectUntranslated(f,msgs,mapNumber,secname,translatedMsgs)
     return if !msgs
-    return if MessageTypes::NOT_NEED_OUTPUT_HASH.include?(secname.to_s)
+    return if MessageTypes::NO_NEED_OUTPUT_HASH.include?(secname.to_s)
     f.write("[#{secname}]\r\n")
     keys=msgs.keys
     for key in keys
@@ -528,7 +528,7 @@ class Messages
   def self.writeObjectCombined(f, msgs, sectionKey, secname, translatedMsgs)
     return unless msgs
     if msgs.is_a?(Array)
-      return if MessageTypes::NOT_NEED_OUTPUT.include?(sectionKey.to_s)
+      return if MessageTypes::NO_NEED_OUTPUT.include?(sectionKey.to_s)
       f.write("[#{secname}]\r\n")
       msgs.each_with_index do |msg, j|
         next if nil_or_empty?(msg)
@@ -541,7 +541,7 @@ class Messages
         f.write("#{finalValue}\r\n")
       end
     elsif msgs.is_a?(OrderedHash)
-      return if MessageTypes::NOT_NEED_OUTPUT_HASH.include?(secname.to_s)
+      return if MessageTypes::NO_NEED_OUTPUT_HASH.include?(secname.to_s)
       f.write("[#{secname}]\r\n")
       keys = msgs.keys
       for key in keys
@@ -563,7 +563,7 @@ class Messages
 
   def self.writeMapObjectCombined(f, msgs, mapNumber, secname, translatedMsgs)
     return unless msgs
-    return if MessageTypes::NOT_NEED_OUTPUT_HASH.include?(secname.to_s)
+    return if MessageTypes::NO_NEED_OUTPUT_HASH.include?(secname.to_s)
     f.write("[#{secname}]\r\n")
     keys = msgs.keys
     for key in keys
@@ -771,8 +771,8 @@ end
 
 
 module MessageTypes
-  NOT_NEED_OUTPUT      = %w[13 25 26]
-  NOT_NEED_OUTPUT_HASH = %w[15 16 17]
+  NO_NEED_OUTPUT      = %w[13 25 26]
+  NO_NEED_OUTPUT_HASH = %w[15 16 17]
   # Value 0 is used for common event and map event text
   Species            = 1
   Kinds              = 2
@@ -788,10 +788,10 @@ module MessageTypes
   Types              = 12
   TrainerTypes       = 13 # doesn't need
   TRAINERTYPES_HASH  = 1313
-  TrainerNames       = 14 # This is partial for Battle Tower
-  BeginSpeech        = 15 # doesn't need, this is for Battle Tower
-  EndSpeechWin       = 16 # doesn't need, this is for Battle Tower
-  EndSpeechLose      = 17 # doesn't need, this is for Battle Tower
+  TrainerNames       = 14 # partially used for Battle Tower
+  BeginSpeech        = 15 # no need, this is for Battle Tower
+  EndSpeechWin       = 16 # no need, this is for Battle Tower
+  EndSpeechLose      = 17 # no need, this is for Battle Tower
   RegionNames        = 18
   PlaceNames         = 19
   PlaceDescriptions  = 20
@@ -799,8 +799,8 @@ module MessageTypes
   PhoneMessages      = 22
   TrainerLoseText    = 23
   ScriptTexts        = 24
-  RibbonNames        = 25 # doesn't need
-  RibbonDescriptions = 26 # doesn't need
+  RibbonNames        = 25 # no need
+  RibbonDescriptions = 26 # no need
   Tribes             = 27
   TribeDescriptions  = 28
   Traits             = 29
