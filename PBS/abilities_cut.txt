@@ -146,6 +146,10 @@ Description = The Pokémon's accuracy is boosted.
 Name = Conviction
 Description = Upon entry, uses the move Endure on itself.
 #-------------------------------
+[COSMICCONTACT]
+Name = Cosmic Contact
+Description = Takes 35% less damage while using a status move.
+#-------------------------------
 [CRAGTERROR]
 Name = Crag Terror
 Description = Upon entry during sandstorm, lowers foe's Attack and Sp. Atk by two steps each.

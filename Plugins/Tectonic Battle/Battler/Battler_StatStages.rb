@@ -646,7 +646,7 @@ class PokeBattle_Battler
 
     # Pass in array of form
     # [statToRaise, stepsToRaise, statToRaise2, stepsToRaise2, ...]
-    def pbRaiseMultipleStatSteps(statArray, user, move: nil, showFailMsg: false, showAnim: true, ability: nil, item: nil, ignoreContrary: false)
+    def pbRaiseMultipleStatSteps(statArray, user, move: nil, showFailMsg: false, showAnim: true, ability: nil, item: nil, ignoreContrary: false, statStepCaps: {})
         return unless pbCanRaiseAnyOfStats?(statArray, user, move: move, showFailMsg: showFailMsg)
         @battle.pbShowAbilitySplash(user, ability) if ability
 
@@ -682,6 +682,9 @@ class PokeBattle_Battler
         for i in 0...statArray.length / 2
             stat = statArray[i * 2]
             increment = statArray[i * 2 + 1]
+            if statStepCaps && statStepCaps[stat]
+                increment = [increment,statStepCaps[stat]-@steps[stat]].min
+            end
             next unless pbCanRaiseStatStep?(stat, user, move, false, false)
             increment = raiseStatStepEX(stat, increment, user: user, showMessages: false, showAnim: false)
             next if increment == false

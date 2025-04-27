@@ -23,7 +23,7 @@ Description = Grants immunity to Flying-type moves and raises Speed if hit by on
 #-------------------------------
 [AEROSHELL]
 Name = Aeroshell
-Description = After using a wind move, raises the Pokémon's Defense and Sp. Def.
+Description = After using a wind move, raises the Pokémon's Defense and Sp. Def. Caps out at +4.
 #-------------------------------
 [AFROTECTION]
 Name = Afrotection
@@ -317,10 +317,6 @@ Description = When hit with a physical move, traps and damages the attacker for 
 [COREPROVENANCE]
 Name = Core Provenance
 Description = Using or being hit by a physical move leaves a rock on the field. Status moves collect them, healing by 1/4th each.
-#-------------------------------
-[COSMICCONTACT]
-Name = Cosmic Contact
-Description = After using a status move, raises the Pokémon's Defense and Sp. Def.
 #-------------------------------
 [COSTUMECHANGE]
 Name = Costume Change
@@ -1525,7 +1521,7 @@ Name = Recon
 Description = Before using a status move against a single foe, lowers their Sp. Def by two steps.
 #-------------------------------
 [REFRACTIVE]
-Name = Refract Aura
+Name = Refractive
 Description = Pulse moves change the Pokémon's secondary type and their power is boosted by 30%.
 #-------------------------------
 [REFRESHMENTS]
@@ -1783,7 +1779,7 @@ Description = Double damage to targets who don't share a type with their last-us
 #-------------------------------
 [SOUNDBARRIER]
 Name = Sound Barrier
-Description = After using a sound move, raises the Pokémon's Defense and Sp. Def.
+Description = After using a sound move, raises the Pokémon's Defense and Sp. Def. Caps out at +4.
 #-------------------------------
 [SPACEINTERLOPER]
 Name = Space Interloper
@@ -1791,7 +1787,7 @@ Description = Attacks hit twice for half damage, drain 25% of damage dealt and b
 #-------------------------------
 [SPARESCALES]
 Name = Spare Scales
-Description = Raises defenses after using a Grass-, Ground-, or Steel-type move.
+Description = Raises defenses after using a Grass-, Ground-, or Steel-type move. Caps out at +4.
 #-------------------------------
 [SPECTRUMVISION]
 Name = Spectrum Vision
@@ -2133,6 +2129,10 @@ Description = Powers up Grass-type moves of itself and its allies by 50%.
 [VICTORYMOLT]
 Name = Victory Molt
 Description = Heals status conditions and resets stat changes after knocking out any Pokémon.
+#-------------------------------
+[VIGILANT]
+Name = Vigilant
+Description = Takes 40% less damage while using a status move.
 #-------------------------------
 [VITALRHYTHM]
 Name = Vital Rhythm

@@ -1461,8 +1461,8 @@ I bow to thee, oh masterful one.
 Me inclino ante vos, gran maestro.
 Eh, that was pretty good, I guess.
 Eh, eso estuvo bastante bien, supongo.
-Some rangers set up a rest spot in the southern part of Velenz.
-Algunos rangers pusieron un lugar de descanso al sur de Velenz.
+Some rangers set up a rest spot to the south.
+Algunos rangers pusieron un lugar de descanso al sur.
 Check it out, heal up your party, get back to me.
 Ve allí, cura tu equipo, y regresa conmigo.
 You unlocked Rafael's front door?! That sure saves me the time and frustration.
@@ -10193,6 +10193,8 @@ Onwards, to ever greater victories!
 ¡Adelante, por victorias más grandes!
 Whoever takes out that Virizion will be a legend in their own right!
 ¡Quién sea que acabe con ese Virizion será una leyenda!
+Down: Circuit Cave
+Debajo: Cueva Circuito
 [Map131]
 
 \v[1]
@@ -15226,6 +15228,24 @@ I'm glad you came!
 ¡Me alegra que hayas venido!
 Aren't Eevee just the best?!
 ¡¿Vas a decirme que los Eevees no son lo mejor?!
+There's something wonderful about Eevees.
+Hay algo maravilloso sobre los Eevees.
+Want to see what I mean with a battle?
+¿Quieres ver a lo que me refiero en un combate?
+You're missing out!
+¡Te lo pierdes!
+You won't regret this experience!
+¡No te arrepentirás de esta experiencia!
+I guess they weren't as powerful as I thought...
+Supongo que no eran tan poderosos como pensé...
+Maybe I need a bit more team diversity.
+Quizás necesito un poco más de diversidad en mi equipo.
+Nah.
+Nah.
+Not right now.
+No ahora mismo.
+Sure?
+¿Seguro?
 [Map204]
 
 Oh, uh, hey. Store's up front.
@@ -25884,6 +25904,11 @@ I said.
 Dije.
 Can. You. Move. Out. Of. The. Way.
 Puedes. Salir. Del. Camino.
+[Map382]
+You interact with the blank display, but there is no effect.
+Interactúas con la figura blanca, pero nada ocurre.
+You click the button, but nothing happens.
+Presionas el botón, pero nada ocurre.
 [Map383]
 Like hacker dork wants to talk to me? Nah.
 ¿Alguien como tú quiere hablar conmigo? Nah.
@@ -27102,8 +27127,10 @@ You've found Dada, a spriting contributor.
 Has encontrado a Dada, a un contribuidor de spriting.
 You've found ZombyGoast, a spriter and design contributor.
 Has encontrado a ZombyGoast, un spriter y un diseñador.
-You've found Riptide, a playtester and general contributor.
-Has encontrado a Riptide, un playtester y contribuidor general.
+You've found Attea, a spriter and design contributor.
+Encontraste a Attea, spriter y una contribuyente en el diseño.
+You've found Riptide, a developer and designer.
+Encontraste a Riptide, un desarrollador y diseñador.
 [Map426]
 Prizca Black Market
 Mercado Negro Prizca
@@ -29733,7 +29760,7 @@ This Pokémon's sweat is a slimy mucus. When captured, Poliwhirl can slither fro
 Su cuerpo siempre está mojado y resbaladiza con un fluido aceitoso. Debido a esto, puede resbalar y escaparse de las garras de cualquier rival.
 Its percentage of body fat is nearly zero. Its body is entirely muscle, which makes it heavy and forces its swimming prowess to develop.
 Sus músculos desarrollados nunca se fatigan, por mucho que se ejercite. Puede nadar de un lado a otro a través de un océano entero sin esfuerzo.
-It can read others' minds and will RETREAT away when danger approaches. You must clear your mind if you want to catch it.
+It can read others' minds and will teleport away when danger approaches. You must clear your mind if you want to catch it.
 Un Pokémon que duerme 18 horas al día. La observación reveló que usa Teletransporte para cambiar su ubicación una vez cada hora.
 It stares at a silver spoon to amplify its psychic powers before it lets loose. Apparently, gold spoons are no good.
 Se rumorea que un chico con habilidades psíquicas se transformó en Kadabra mientras ayudaba en la investigación de poderes extrasensoriales.
@@ -34881,6 +34908,14 @@ Hibernal Flux
 Flujo Hiberal
 Call of the Void
 Llamada del Vacío
+Columnar Pin
+Columna Pesada
+Talonfall
+Picado Afilado
+Piercing Doubt
+Cuestionamiento
+Psyche Switch
+Cambio de Idea
 [6]
 Using its tough and impressive horn, the user rams into the target with no letup.
 Usando su impresionante cuerno, el usuario embiste al rival.
@@ -34892,8 +34927,8 @@ Fires an exploding pollen puff at enemies, or a HP-restoring one at allies.
 Lanza un polen explosivo a sus enemigos, o uno curativo a sus aliados.
 The user drains the target's blood. The user's HP is restored by half the damage taken by the target.
 El usuario drena la sangre del objetivo. El usuario recupera la mitad de PS que le quite al objetivo.
-The user makes a lunge at the target, attacking with full force. This lowers the target's Attack by two steps.
-El usuario se lanza al objetivo, atacando con inmensa fuerza. Disminuye el Ataque del objetivo dos grados.
+The user makes a lunge at the target, attacking with full force. This lowers the target's Attack.
+El usuario se lanza al objetivo, atacando con inmensa fuerza. Disminuye el Ataque del objetivo.
 The user slashes at the foe by crossing its scythes or claws. Can random critical hit.
 El usuario ataca al objetivo cruzando sus guadañas o garras. Puede dar un golpe crítico.
 The user attacks with a beam of light. It has a 10% chance to dizzy.
@@ -35136,7 +35171,7 @@ The user restores the target's HP by 50% of its max hp, or 2/3rds in moonglow.
 El usuario cura a su objetivo por el 50% de sus PS totales, o 2/3 bajo brillo lunar.
 The user absorbs energy and raises its Sp. Atk, Sp. Def, and Speed by four steps on the next turn.
 El usuario absorbe energía, aumentando su Ataque Especial, Defensa Especial y Velocidad cuatro grados en el siguiente turno.
-The user hits the target with the force of nature. It halves the target's HP.
+The user hits the target with the force of nature. It cuts the target's HP to half.
 El usuario golpea al objetivo con la fuerza de la naturaleza. Reduce a la mitad los PS del objetivo.
 Attacks the target and breaks its spirit. Lowers the target's Sp. Atk by two steps.
 Ataca al objetivo y rompe su espíritu. Disminuye el Ataque Especial del objetivo dos grados.
@@ -35148,14 +35183,14 @@ The user focuses its mind before launching a punch. It will fail if the user is 
 El usuario se concentra antes de atacar. Fallará si el usuario lo golpea antes de usarlo.
 The target is attacked with a knee kick from a jump. If it misses, the user is hurt instead.
 El objetivo ataca con un rodillazo luego de un salto. Si falla, el usuario es lastimado en su lugar.
-The user fights the foe up close without guarding itself. This cuts the user's Defenses by two steps.
+The user fights the foe up close without guarding itself. This lowers the user Defense and Sp. Def by two steps.
 El usuario ataca con todo sin defenderse. Disminuye las Defensas del usuario dos grados.
 The user heightens its mental focus and unleashes its power.
 El usuario se concentra totalmente y desata su poder.
 The user attacks the target with great power. However, it also lowers the user's Attack and Defense.
 El usuario ataca al objetivo con gran poder. Sin embargo, también disminuye el Ataque y Defensa del usuario.
-The user delivers a double chop with its forearms crossed. Can random critical hit.
-El usuario ataca con sus dos brazos, cruzandolos. Puede dar un golpe crítico.
+The user delivers a chop with its forearms crossed. Can random critical hit.
+El usuario ataca con sus dos brazos, cruzándolos. Puede dar un golpe crítico.
 The user punches the target with full, concentrated power. It dizzies the target if it hits.
 El usuario golpea al oponente con un poder concentrado. Marea al oponente si acierta.
 The user dives down onto the target from the sky. This move is also Flying-type.
@@ -35238,8 +35273,8 @@ With a fiery forehead, the user hurls itself at the foe. Lowers the user's Defen
 Con una cabeza incandescente, el usuario se lanza hacia el objetivo. Disminuye la Defensa, Defensa Especial y Velocidad del usuario dos grados.
 The user attacks in an explosive fury. Weakens in damage as the user loses HP, at its weakest when the user is at half or less.
 Se debilita en daño a medida que el usuario pierde HP, y es más débil cuando el usuario tiene la mitad o menos.
-The user attacks everything by causing its own head to explode. This also damages the user.
-El usuario ataca a todo explotando su propia cabeza. Esto también daña al usuario.
+The user attacks everything by causing its own head to explode. The user also takes 50% recoil.
+El usuario ataca a todo explotando su propia cabeza. El usuario recibe un 50% de daño de retroceso.
 The user sets a shell trap. If it is hit by a physical move, the trap explodes and hurts the attacker.
 El usuario pone una coraza trampa. Si es golpeado por un movimiento físico, la trampa explota, dañando al atacante.
 The user attacks by engulfing the foe in a beautiful, yet intense, blue flame. It has a 20% chance to burn.
@@ -35348,8 +35383,8 @@ The user disappears, then strikes the foe on the second turn. It hits even if th
 El usuario desaparece, luego ataca al objetivo en el segundo turno. Golpea incluso si el oponente está protegido.
 The user emits a sinister ray. This move can be used on the target regardless of its Abilities.
 El usuario emite un rayo siniestro. Este movimiento ignora la habilidad del objetivo.
-The user vanishes somewhere, then strikes on the next turn. Skips and destroys protections.
-El usuario se desvanece, luego ataca en el siguiente turno. Atraviesa y destruye protecciones.
+The user vanishes somewhere, becoming invulnerable, then strikes on the second turn. Skips and destroys protections.
+El usuario se desvanece, volviéndose invulnerable, luego ataca en el siguiente turno. Atraviesa y destruye protecciones.
 The user hides in the target's shadow, steals the target's stat boosts, and then attacks.
 El usuario se esconde en la sombra del objetivo, robando sus aumentos de stats, y luego atacándolo.
 The user beats the target with a bone containing a spirit. This lowers their Defense by three steps.
@@ -35378,8 +35413,8 @@ The target is exposed to a sinister ray, causing it to become dizzy.
 El objetivo es expuesto a un rayo siniestro, mareándolo.
 When this move is used, if the user faints, the foe that landed the knockout hit also faints.
 Al ser usado, si el usuario es debilitado, lleva consigo al rival que le haya dado el golpe gracia.
-A sleeping target sees a nightmare that inflicts some damage every turn.
-Provoca una pesadilla a un objetivo que esté durmiendo, dañándolo cada turno.
+A sleeping target sees a nightmare that inflicts 25% damage every turn.
+Provoca una pesadilla a un objetivo que esté durmiendo, dañándolo por 25% de sus PS cada turno.
 The user takes the target trick-or-treating. This adds Ghost type to the target's type.
 El usuario le lleva el espíritu de halloween al objetivo. Le añade el tipo Fantasma al objetivo.
 Attacks the target by controlling its item. Fails if the target doesn't have an item.
@@ -35490,7 +35525,7 @@ The user strikes the target with a hard bone two to five times in a row.
 El usuario al objetivo con un hueso de dos a cinco veces seguidas.
 The user looses a ground-shaking quake affecting everyone around. Its power varies greatly.
 El usuario ataca a todos a su alrededor con un gran temblor. Su poder varía de gran manera.
-The user regains up to half of its max HP. It restores more HP in a sandstorm.
+The user regains up to half of its max HP. It restores 66% in a sandstorm.
 El usuario recupera la mitad de sus PS máximos. Recupera 3/4 en tormenta de arena.
 The user lays spikes at the foe's feet. Foes that switch into battle are hurt a bit for each layer.
 El usuario pone una capa de púas a los pies del oponente. Los oponentes que entren al campo son dañados más por cada capa presente.
@@ -35566,7 +35601,7 @@ The user attacks the target by dancing very hard. The user's type determines the
 El usuario ataca al objetivo con una danza especial. El tipo del usuario determina el tipo del movimiento.
 The user attacks the target by smashing into it with incredible force. It has a 20% chance to dizzy.
 El usuario ataca con un golpe de increíble fuerza. Tiene un 20% de probabilidad de marear al objetivo.
-A full-body charge attack for slamming into the foe. It also damages the user by 25% of the damage dealt.
+A full-body charge attack for slamming into the foe. The user also takes 25% recoil.
 El ataque con una embestida a toda fuerza. El usuario recibe un 25% de daño de retroceso.
 The user attacks in an uproar, going on a rampage for three turns. Over that time, no one can fall asleep.
 El usuario ataca alborotado, arrasando durante tres turnos. Durante ese tiempo, nadie puede dormir.
@@ -35784,8 +35819,8 @@ The power stored using the move Stockpile is absorbed by the user to heal its HP
 La energía que se haya guardado con Reserva es absorbida por el usuario para recuperar sus PS. 50% de máxima de HP por carga de Reserva.
 A frenetic dance to uplift the fighting spirit. It raises the user's Attack stat by four steps.
 Una danza frénetica que levanta el ánimo de combate. Aumenta el Ataque del usuario cuatro grados.
-The user gets teary eyed. This lowers the target's Attack and Sp. Atk stats.
-El usuario llora lágrimas de cocodrilo, disminuyendo ambos Ataques del objetivo.
+The user gets teary eyed. This lowers the target's Attack and Sp. Atk stats by 2 steps.
+El usuario llora lágrimas de cocodrilo, disminuyendo ambos Ataques del objetivo dos grados.
 The user performs a wobbly dance that dizzies the Pokémon around it.
 El usuario danza arrítimicamente para marear a todos los Pokémon a su alrededor.
 The user tickles the target into laughing, reducing its Attack and Defense by two steps.
@@ -35856,7 +35891,7 @@ The user attacks with a pillar of light. This ignores their ability.
 El usuario ataca con un pilar de luz. Esto ignora su Habilidad.
 The target is hit by a strong telekinetic force. It has a 20% chance to lower Sp. Def.
 El usuario ataca con una poderosa fuerza telekinética. Tiene un 20% de probabilidad de disminuir la Defensa Especial del objetivo.
-The user bites the target using psychic capabilities. Also breaks anys Screens protecting the target's side.
+The user bites the target using psychic capabilities. Also breaks any screens protecting the target's side.
 El usuario muerde al objetivo con una fuerza psíquica. También destruye cualquier Pantalla que proteja al lado contrario.
 The user attacks with an odd, unseeable power. It has a 40% chance to make the target flinch.
 El usuario ataca con un poder extraño. Tiene un 40% de probabilidad de amedrentar al objetivo.
@@ -36034,12 +36069,12 @@ The target is hammered with a large pincer. Can random critical hit.
 El usuario aplasta al objetivo con su gran tenaza. Puede dar un golpe crítico.
 The user attacks by swinging its tail as if it were a vicious wave in a raging storm.
 El usuario ataca usando su cola como si fuera una feroz ola en una tormenta.
-The user bursts into song, emitting many bubbles. Any burnt Pokémon will be healed by these bubbles.
+The user bursts into song, emitting many bubbles. Any burning Pokémon will be healed by these bubbles.
 El usuario canta, invocando gran cantidad de burbujas. Este movimiento cura la quemadura de cualquier Pokémon.
 Slams into the target using an aquatic blast with a 20% chance to lower Defense.
 El usuario ataca al objetivo con un poder acuático. Tiene un 20% de probabilidad de disminuir la Defensa del objetivo.
-Diving on the first turn, the user rises and hits from below water on the next turn.
-El usuario va bajo el agua en el primer turno, luego ataca en el segundo turno.
+Diving on the first turn, becoming invulnerable, the user rises and hits from below water on the second turn.
+El usuario va bajo el agua en el primer turno, volviéndose invulnerable, luego ataca en el segundo turno.
 The user shoots boiling hot water at its target. This has a 30% chance to burn.
 El usuario dispara agua hirviendo a su objetivo. Tiene un 30% de probabilidad de quemar al objetivo.
 A column of water strikes the target. When combined with its fire equivalent, it makes a rainbow.
@@ -36090,7 +36125,7 @@ The user sings with deathly sounds to harm the target. It has a 20% chance to re
 El usuario canta letalmente al objetivo. Tiene un 20% de disminuir la Defensa Especial del objetivo.
 The user attacks with a horrible clattering noise. It has a 20% chance to lower Sp. Def.
 El usuario ataca con un horrible sonido retumbante. Tiene un 20% de disminuir la Defensa Especial del objetivo.
-The user dances with the speed of lightning, raising its Sp. Atk by two steps and Speed by 1.
+The user dances with the speed of lightning, raising its Sp. Atk by two steps and Speed by one.
 El usuario danza con la velocidad de un relámpago, aumentando su Ataque Especial dos grados y su Velocidad uno.
 The user crashes into the target like a tsunami. The user also takes 33% recoil.
 El usuario carga hacia el objetivo como un tsunami. El usuario también recibe un 33% de daño de retroceso.
@@ -36198,11 +36233,11 @@ Chaotic winds push the target around, dizzying it.
 El usuario levanta un viento caótico para empujar al objetivo, mareándolo.
 The user fires a stormy gust at the target. This also raises the user's Sp. Atk by two steps.
 El usuario levanta un tornado tormentoso al objetivo. También aumenta el Ataque Especial del usuario dos grados.
-The user shreds off bits of its own body to launch at the target. The user loses a tenth of its max HP.
+The user shreds off bits of its own body to launch at the target. The user loses 10% of its max HP.
 El usuario destroza pedazos de su propio cuerpo para lanzarlos al objetivo. El usuario pierde una décima parte de su PS máximo.
-The user shoots shards of its own body at the target. The user loses a tenth of its max HP.
+The user shoots shards of its own body at the target. The user loses 10% of its max HP.
 El usuario dispara fragmentos de su propio cuerpo al objetivo. El usuario pierde una décima parte de su PS máximo.
-The user uses explosive force to shoot shards of its own body at the target. The user loses a tenth of its max HP.
+The user uses explosive force to shoot shards of its own body at the target. The user loses 10% of its max HP.
 El usuario usa fuerza explosiva para disparar fragmentos de su propio cuerpo al objetivo. El usuario pierde una décima parte de su PS máximo.
 The user unleashes its grudge, damaging the target and cutting 4 PP from the move last used by it.
 El usuario desata su rabia, dañando al objetivo y quitándole 4 PP al último movimiento usado por el objetivo.
@@ -36336,7 +36371,7 @@ As long as this move is in use, the user's Attack is raised two steps each time 
 Siempre y cuando este movimiento no deje de usarse, el Ataque del usuario es aumentada dos grados por cada vez que sea atacado.
 Dizzies the target by putting them under a magical spell.
 El usuario marea al objetivo usando un hechizo mágico.
-A reckless charge attack from the air. It also damages the user by 25% of the damage dealt.
+A reckless charge attack from the air. The user also takes 25% recoil.
 Un ataque sin cuidado desde el aire. El usuario recibe un 25% de daño de retroceso.
 Churns nearby rocks, dealing damage to nearby Pokémon and removing hazards from both sides.
 El usuario agita rocas cercanas, atacando a todos los Pokémon a su alrededor y removiendo trampas en ambos lados.
@@ -36410,7 +36445,7 @@ The user forms their excitement into a lash with a 10% chance of raising the use
 El usuario crea un látigo con su entusiasmo. Tiene un 10% de probabilidad de aumentar el Ataque Especial del usuario.
 The user cracks the earth under the target with a massive strike. Lowers the user's Attack by four steps.
 El usuario parte la tierra con un masivo golpe. Disminuye el Ataque del usuario cuatro grados.
-The user surrounds the target with fire which also destroys any 'clothing' items it's holding.
+The user surrounds the target with fire which also destroys any clothing items it's holding.
 El usuario envuelve al objetivo con un fuego que destruye cualquier objeto de “vestimenta” si el objetivo tiene uno.
 The user explodes itself into the target. The target is harmed, but also their Speed is raised.
 El usuario explota en el objetivo, dañándolo, pero también aumentando su Velocidad.
@@ -36538,8 +36573,8 @@ The user whips up a hot desert twister to attack the target. It has a 20% chance
 El usuario levanta un ciclón de arena abrasadora para atacar al objetivo. Tiene un 20% de probabilidad de quemar al objetivo.
 The target is consumed by a desert storm, trapping and damaging it for three turns.
 El usuario consume al objetivo en una tormenta deséertica, atrapándolo y dañándolo durante tres turnos.
-The user creates a puzzling area in which Pokémon's base Attack and Sp. Atk are swapped.
-El usuario crea un área enigmática en la cual los Ataques de los Pokémon son intercambiados.
+The user creates a puzzling area for 8 turns in which Pokémon's base Attack and Sp. Atk are swapped.
+El usuario crea un área enigmática por 8 turnos en la cual los Ataques de los Pokémon son intercambiados.
 The user drains heat from the air around the target, afflicting it with frostbite.
 El usuario drena el calor del aire alrededor del objetivo, helándolo.
 Attacks with emotion from jealousy. All opposing Pokémon with stat boosts get frostbitten.
@@ -36598,15 +36633,15 @@ The user flings the dirty oil on its fur. It transfers any status condition to t
 El usuario lanza la mugre de su pelaje. Transfiere cualquier problema de estado al objetivo.
 If the user is faster than the target, puts the target to sleep, then minimizes the user's Speed stat.
 Si el usuario es más rápido que el objetivo, lo pone a dormir, luego minimiza la Velocidad del usuario.
-The user creates an odd area in which Pokémon's offensive and defensive stats are swapped.
-El usuario crea un área anómala la cual intercambia las stats ofensivas y defensivas de los Pokémon.
+The user creates an odd area for 8 turns in which Pokémon's offensive and defensive stats are swapped.
+El usuario crea un área anómala por 8 turnos la cual intercambia las stats ofensivas y defensivas de los Pokémon.
 The user eats decaying leaves, restoring its HP by 50% and raising its Speed.
 El usuario come sus hojas decadentes, recuperando un 50% de sus PS totales y aumentando su Velocidad.
 The user raises all of the target's attacking and Defense and Sp. Def.
 El usuario aumenta todas las stats ofensivas y defensivas del objetivo.
 Raises Sp. Atk by three steps. Until switch out, the user's attacks spread to hit all nearby foes.
 El usuario aumenta su Ataque Especial tres grados. Hasta ser cambiado, sus ataques atacan a todo el lado contrario.
-The user relentlessly rampages with its whip-like hands for three turns. Each hit will always be critical.
+The user relentlessly rampages with its whip-like hands for three turns. Each hit will always be a critical hit.
 El usuario ataca inexorablemente con sus látigos, arrasando durante tres turnos. Siempres es crítico.
 The user flicks its thorns, dealing damage and setting a layer of poison spikes around the target.
 El usuario libera sus espinas, atacando y colocando una capa de púas venenosas alrededor del objetivo.
@@ -36698,7 +36733,7 @@ Leeches the target by kissing them with its thin mouth.
 Infecta al objetivo besándolo con sus finos labios.
 The user throws a royal fit to rampage for three turns. Raises Speed if a target is knocked out by this move.
 El usuario ataca con la fuerza de un rey, arrasando durante tres turnos. Aumenta su Velocidad si debilita a un objetivo durante este movimiento.
-A two-turn move. The user channels insane amounts of energy the first turn, then transforms.
+The user channels insane amounts of energy the first turn, then transforms on the second turn.
 El usuario canaliza una cantidad enorme de energía en el primer turno, luego se transforma en el segundo.
 The target is given a Black Sludge, replacing their item if any. Their Sp. Def is lowered.
 El usuario le da un Lodo Negro a su objetivo, reemplazando su objeto si ya tiene uno, además, disminuye su Defensa Especial.
@@ -36768,7 +36803,7 @@ If the target has a status condition, this deals double damage and heals every b
 Si el objetivo tiene un problema de estado, duplica su potencia y cura los problemas de todos los Pokémon.
 The user slashes its shell blade, leaving spikes under the target if none have already been placed.
 El usuario usando su coraza deja una capa de púas si aún no se ha colocado ninguna.
-The user swings its stone axes. This leaves stone splinters floating around the target.
+The user swings its stone axes. This leaves levitating stones floating around the target.
 El usuario ataca con su hacha pétrea. Esto deja rocas flotantes en el lado contrario.
 The user shoots three arrows made of Aura with extreme precision. Can random critical hit.
 El usuario dispara tres flechas aurales con extrema precisión. Puede dar un golpe crítico.
@@ -36802,8 +36837,8 @@ The user chomps hard, cutting the target's HP by half, and healing for half of t
 El usuario muerde con tesón, quitándole la mitad de sus PS al objetivo, y curándose por la mitad de eso.
 The user and its allies are protected from wide-ranging attacks this turn, and enemies can only target the user. Fails if used in succession.
 El usuario y sus aliados son protegidos de grandes ataques, y atrae movimientos de los rivales. Falla si se usa de forma seguida.
-The user freezes the target in place, dealing damage and minimizing their Speed and evasiveness.
-El usuario congela al objetivo en su lugar, dañándolo y minimizando su Velocidad y evasión.
+The user freezes the target in place, dealing damage and minimizing their Speed and Evasion.
+El usuario congela al objetivo en su lugar, dañándolo y minimizando su Velocidad y Evasión.
 Inflicts physical or special damage, whichever deals more. Then, raises Attack or Sp. Atk, whichever wasn't used.
 Es físico o especial dependiendo de la situación. Luego, aumenta la stat ofensiva que no haya sido usada.
 The user finds the highest base power move among your able party members, and uses it.
@@ -36872,8 +36907,8 @@ The user employs psychic power to switch its base Sp. Atk with its base Sp. Def 
 El usuario usa su poder psíquico para intercambiar su Ataque Especial y Defensa Especial bases.
 The user whips up a lingering tailwind that ups the Speed of all party Pokémon for six turns.
 El usuario levanta un viento afín que aumenta la Velocidad del lado aliado durante seis turnos.
-The user slathers mud around to heal itself for 1/2 of its max HP, and extends any active screens by 1 turn.
-El usuario se baña de loco para recuperar la mitad de sus PS totales, y extiende cualquier pantalla activa 1 turno.
+The user slathers mud around to heal itself for half of their max HP, and extends any active screens by one turn.
+El usuario se baña de loco para recuperar la mitad de sus PS totales, y extiende cualquier pantalla activa un turno.
 The user attacks and steals items from all near foes. Items stolen from wild Pokémon are stored.
 El usuario ataca y roba objetos al lado contrario. Objetos robados a Pokémon salvajes son guardados.
 The user summons bugs to terrorize the target, trapping and damaging it for three turns.
@@ -37028,8 +37063,8 @@ The user raises its Attack and Speed by two steps, and becomes Dragon-type.
 El usuario aumenta su Ataque y Velocidad dos grados, y se vuelve tipo Dragón.
 The user focuses intently, making every future attack critical. The user becomes a Steel-type.
 El usuario se concentra, haciendo que todos sus siguientes ataques sean críticos, y se vuelve tipo Acero.
-The user creates a Puzzle Room for 5 turns, raises both of its Attacking stats, and becomes Fairy-type.
-El usuario crea una Zona Enigmática durante cinco turnos, aumenta ambas stats ofensivas y se vuelve tipo Hada.
+The user creates a Puzzle Room for 8 turns, raises both of its Attacking stats, and becomes Fairy-type.
+El usuario crea una Zona Enigmática durante 8 turnos, aumenta ambas stats ofensivas y se vuelve tipo Hada.
 A cloud of poison gas is sprayed at all nearby foes, poisoning them. User becomes a Poison-type.
 Una nube de gas venenoso llega al lado contrario, envenenándolo. El usuario se vuelve tipo Veneno.
 The user prepares to defend itself. It'll survive the next three hits which would faint it.
@@ -37246,8 +37281,8 @@ The user snaps like a fish at the target. This has a 40% chance to make it flinc
 El usuario muerde como un pez al objetivo. Tiene un 40% de probabilidad de amedrentarlo.
 The user jumps out of the water to attack. Has a 20% chance to reduce Defense.
 El usuario salta fuera del agua para atacar. Tiene un 20% de probabilidad de reducir la Defensa del objetivo.
-The user creates a high quality area in which super-effective deals 25% more, and not very effective deals 25% less.
-El usuario crea una zona polarizada en la que movimientos súper efectivos dañan un 25% más, y los poco efectivos, un 25% menos.
+The user creates a high quality area for 8 turns in which super-effective deals 25% more, and not very effective deals 25% less.
+El usuario crea una zona polarizada por 8 turnos en la que movimientos súper efectivos dañan un 25% más, y los poco efectivos, un 25% menos.
 The user uses their feet to pierce the foe. This has a 10% chance of leeching the target.
 El usuario utiliza los pies para atravesar al enemigo. Esto tiene una probabilidad del 10% de infectar al objetivo.
 The user kicks into the target like roots into earth. This has a 30% chance of leeching.
@@ -37364,7 +37399,7 @@ The user burrows, becoming invulnerable, then attacks on the second turn.
 El usuario va bajo tierra, volviéndose invulnerable, luego ataca en el segundo turno.
 The user wraps foes in fierce winds and searingly hot sand. It has a 30% chance to burn.
 El usuario atrapa a rivales en feroces vientos y arena abrasadora. Tiene un 30% de probabilidad de quemar.
-Gathers space power and boosts its Sp. Atk by two steps on one turn, then attacks on the next turn.
+Gathers space power and boosts its Sp. Atk by two steps on one turn, then attacks on the second turn.
 Junta poder espacial y aumenta su Ataque Especial dos grados en el primer turno, luego ataca en el segundo.
 The user stabs the foe with sharpened stones from below.
 El usuario atraviesa al objetivo con piedras afiladas desde abajo.
@@ -37510,7 +37545,7 @@ The user demands tribute from the target. Much money is earned after the battle.
 El usuario exige un tributo del objetivo. Mucho dinero es ganado luego del combate.
 Explodes, dealing an extra 30 base power to all foes for each layer of spikes underneath them. The user faints.
 Explota, lidiando un 30 de daño base extra a todos los rivales por cada capa de púas debajo de ellos. El usuario es debilitado.
-The user transforms into a cloud of vermin, evading all attacks on the first turn. On the second turn it ambushes the target.
+The user transforms into a cloud of vermin, becoming invulnerable to attacks on the first turn. On the second turn it ambushes the target.
 El usuario se transforma en una nube de peste, evadiendo todos los ataques en el primer turno. En el segundo embosca al objetivo.
 Power increases by 20 each time it's used in succession. User heals for half of damage dealt.
 Es potenciado por 20 por cada vez que sea usada consecutivamente. El usuario es curado por la mitad de daño que lidie.
@@ -37522,10 +37557,10 @@ The user intensifies gravity for five turns, damages all enemies for 1/4th of th
 El usuario intensifica la gravedad durante cinco turnos, dañando a todo enemigo por 1/4 de sus PS totales, y se vuelve tipo Tierra.
 The user attacks with a prehistoric power which raises all its stats.
 El usuario ataca con un poder prehistórico que aumenta todas sus stats.
-The user creates a Polarized Room for 5 turns, raises both of its Defensive stats, and becomes Steel-type.
-El usuario crea una Zona Polarizada durante 5 turnos, aumenta ambas de sus stats Defensivas, y se vuelve tipo Acero.
-The user creates an Odd Room for 5 turns, raises its Speed, and becomes Psychic-type.
-El usuario crea una Zona Anómala durante 5 turnos, aumentado su Velocidad, y se vuelve tipo Psíquico.
+The user creates a Polarized Room for 8 turns, raises both of its Defensive stats, and becomes Steel-type.
+El usuario crea una Zona Polarizada durante 8 turnos, aumenta ambas de sus stats Defensivas, y se vuelve tipo Acero.
+The user creates an Odd Room for 8 turns, raises its Speed, and becomes Psychic-type.
+El usuario crea una Zona Anómala durante 8 turnos, aumentado su Velocidad, y se vuelve tipo Psíquico.
 The user torments all near foes, preventing them from repeating moves. The user becomes Dark-type.
 El usuario tormenta a todos los objetivos cercanos, impidiendo que repita movimientos. El usuario se vuelve tipo Siniestro.
 The target is hit with rhythmically launched punches that have a 30% chance to dizzy.
@@ -37546,7 +37581,7 @@ The user attacks with a beam of light. It has a 30% chance to dizzy.
 El usuario ataca con un rayo de luz. Tiene un 30% de probabilidad de marear.
 The user rolls over its foes, crushing them. It has a 30% chance to reduce the target's Defense.
 El usuario rueda sobre sus objetivos, aplastándolos. Tiene un 30$ de probabilidad de disminuir la Defensa del objetivo.
-The user focuses intensely. For the next three turns, its attacks will be guarenteed critical hits.
+The user focuses intensely. For the next three turns, its attacks will be guaranteed critical hits.
 El usuario se concentra intensamente. Durante los siguientes tres turnos, sus ataques serán golpes críticos garantizados.
 It swamps the area with a giant wave, hitting every battler nearby. Has a 10% chance to waterlog.
 Inunda el área con una ola gigante, golpeando a cada Pokémon siguiente. Tiene un 10% de probabilidad de embeber.
@@ -37556,7 +37591,7 @@ The user attacks the target with a pulsing blast of water. It has a 30% chance t
 El usuario ataca al objetivo con un disparo de agua pulsante. Tiene un 30% de probabilidad de marear.
 A nutrient-draining attack. The user's HP is restored by 50% of the damage dealt.
 Un ataque drenador de nutrientes. The user's HP is restored by 50% of the damage dealt.
-The user's body grows all at once, raising Atk and Sp. Atk by two steps each, or 4 in sunshine.
+The user's body grows all at once, raising Attack and Sp. Atk by two steps, or four in sunshine.
 El cuerpo del usuario crece de golpe, aumentando ambos Ataques dos grados, o cuatro bajo luz solar.
 The user charges, then attacks on the second turn. Charges instantly in sunshine.
 El usuario carga, luego ataca en el segundo turno. Carga de inmediato bajo luz solar.
@@ -37678,8 +37713,8 @@ The target's psyche is attacked directly. It has a 30% chance to lower the targe
 La psique del objetivo es ataca directamente. Esto tiene un 30% de disminuir ambos Ataques del objetivo.
 The target is hit by a weak telekinetic force. It has a 10% chance to lower the target's Sp. Def.
 El usuario ataca con una fuerza telequinética débil. Tiene un 10% de probabilidad de disminuir la Defensa Especial del objetivo.
-The user covers the field with an fog of ice crystals, summoning hail and creating grey mist for 5 turns.
-El usuario cubre el objetivo con una niebla de cristales de hielo, invocando granizo y creando una niebla gris por 5 turnos.
+The user covers the field with an fog of ice crystals, summoning hail and creating Grey Mist for 5 turns.
+El usuario cubre el objetivo con una niebla de cristales de hielo, invocando granizo y creando una Niebla Gris por 5 turnos.
 The user makes the target to trip into a huge pile of snow, damaging them and summoning hail for eight turns.
 El usuario hace tropezar al objetivo en una enorme pila de nieve, dañándolo e invocando el granizo durante ocho turnos.
 Drains the heat from the target. The user's HP is restored by 50% the damage dealt.
@@ -37788,7 +37823,7 @@ The target is struck with a supersonic water blast. Can random critical hit.
 El usuario ataca con un disparo de agua supersónico. Puede realizar golpes críticos aleatorios.
 The target is blasted with a forceful shot of water. Can random critical hit.
 El usuario ataca con un poderoso disparo de agua. Puede realizar golpes críticos aleatorios.
-The user hits the target with throwing stars 2 to 5 times in a row. This move always goes first.
+The user hits the target with throwing stars two to five times in a row. This move always goes first.
 El usuario ataca disparando estrellas entre dos a cinco veces seguidas. Siempre va primero.
 Enables random critical hits for the user, quadruples its critical hit chance, and raises its Speed by 2 steps.
 Habilita golpes críticos aleatorios al usuario, cuadruplica su índice de golpe crítico, y aumenta su Velocidad 2 grados.
@@ -37868,6 +37903,34 @@ All near foes are dragged into a world of total darkness that makes them drowsy.
 Todos los rivales cercanos son llevados a un mundo de oscuridad total que los adormece. Sólo un uso por combate.
 The user uses fae magic to invoke the target's true name, jinxing them.
 El usuario usa energía feérica para invocar el verdadero nombre del objetivo, embrujándolo.
+The user strikes the target with a flaming lash. This also lowers the target's Defense stat by two steps.
+El usuario ataca con un látigo ardiente. Esto disminuye la Defensa del objetivo dos grados.
+The user violently whirls its vines, tentacles, or the like to lash the target.
+El usuario ataca violentamente con sus lianas o tentáculos al objetivo.
+The user restores half of their max HP, or 66% in sunshine.
+El usuario recupera la mitad de sus PS máximos, o 66% bajo luz solar.
+Enables random critical hits for the user, doubles its critical hit chance, and raises its Attack and Defense by two steps.
+Permite que el usuario puede realizar golpes críticos aleatorios, duplica su índice de golpe crítico, y su Ataque y Defensa aumentan dos grados.
+Pins the target with building materials. The target can't use off-type moves for three more turns.
+Sujeta al objetivo con materiales de trabajo. El objetivo no podrá usar movimientos que no sean de su propio tipo durante tres turnos.
+The opponent is shredded by talons. This attack always results in a critical hit, but the user also takes 25% recoil.
+El usuario ataca desde arriba con sus garras. Siempre resulta en un golpe crítico, pero el usuario recibe un 25% de daño de retroceso.
+The user sucks the target's life. The user's HP is restored by 50% the damage dealt.
+El usuario absorbe la vitalidad del objetivo. El usuario recupera el 50% del daño que lidie.
+The user dislodges a blast of thin projectiles. This attack always results in a critical hit, but applies Fracture to the user.
+El usuario dispara una ráfaga de proyectiles fin. Siempre resulta en un golpe crítico, pero aplica Fractura al usuario.
+The user heals itself for half of their max HP, and extends the current weather by one turn.
+El usuario recupera la mitad de sus PS máximos, y extiende el clima actual durante un turno.
+Pierces the mind of the target, inflicting doubt in their abilities, guaranteeing a critical hit on foes with boosted stats.
+Atraviesa la mente del objetivo, haciéndole dudar de sus habilidades, garantizando un golpe crítico en enemigos con estadísticas aumentadas.
+After making its attack to the targets psyche, the user teleports back to switch places with a party Pokémon.
+Luego de atacar la psique del enemigo, el usuario se teletransporta para que otro Pokémon en su equipo tome su lugar.
+The user restores half of their max HP and raises their Defense, Sp. Def, and critical hit chance by two steps.
+El usuario recupera la mitad de sus PS máximos y aumenta ambas Defensas dos grados, y duplica su índice de golpe crítico.
+The user restores half of their max HP, or 66% in moonglow.
+El usuario recupera la mitad de sus PS máximos, o 66% en luz lunar.
+Enables random critical hits for the user, doubles its critical hit chance, and raises its Sp. Atk and Sp. Def by two steps.
+Permite que el usuario realice golpes críticos, duplica su índice de golpe crítico, y aumenta su Ataque Especial y Defensa Especial dos grados.
 [7]
 Repel
 Repelente

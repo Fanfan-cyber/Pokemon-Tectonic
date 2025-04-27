@@ -1169,7 +1169,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = RecoilQuarterOfDamageDealtCriticalHits
 Flags = CanProtect
-Description = The opponent is shredded by talons as the user dives from a great height. This attack always results in a critical hit, but the user also takes 25% recoil.
+Description = The opponent is shredded by talons. This attack always results in a critical hit, but the user also takes 25% recoil.
 Animation = DRILLPECK
 #-------------------------------
 [TEMPEST]

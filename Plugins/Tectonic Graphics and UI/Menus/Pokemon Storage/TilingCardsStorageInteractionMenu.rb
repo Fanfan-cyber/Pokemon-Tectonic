@@ -259,6 +259,7 @@ class TilingCardsStorageInteractionMenu_Scene < TilingCardsMenu_Scene
 		cmdOmnitutor  = -1
     cmdAdaptiveAI = -1
     cmdOpenAR     = -1
+		cmdDeleteMove = -1
 
 		# Build the commands
 		commands[cmdStyle = commands.length]        = _INTL("Set Style") if pbHasItem?(:STYLINGKIT)
@@ -267,6 +268,7 @@ class TilingCardsStorageInteractionMenu_Scene < TilingCardsMenu_Scene
 		end
 		commands[cmdRename = commands.length]       	= _INTL("Rename")
 		commands[cmdSwapPokeBall = commands.length]   = _INTL("Swap Ball")
+		commands[cmdDeleteMove = commands.length] = _INTL("Delete Move") if @pkmn.numMoves > 1
 		newspecies = @pkmn.check_evolution_on_level_up(false)
 		commands[cmdEvolve = commands.length]       = _INTL("Evolve") if newspecies
     commands[cmdOpenAR = commands.length]       = _INTL("Open AR") if TA.get(:customabil) && !$Trainer.ability_recorder.empty?
@@ -283,6 +285,8 @@ class TilingCardsStorageInteractionMenu_Scene < TilingCardsMenu_Scene
 			end
 		elsif cmdSwapPokeBall >= 0 && modifyCommand == cmdSwapPokeBall
 			@pkmn.switchBall
+		elsif cmdDeleteMove >= 0 && modifyCommand == cmdDeleteMove
+			moveDeletion(@pkmn)
 		elsif cmdEvolve >= 0 && modifyCommand == cmdEvolve
 			newspecies = @pkmn.check_evolution_on_level_up(true)
 			return false if newspecies.nil?

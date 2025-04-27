@@ -173,6 +173,15 @@ BattleHandlers::DamageCalcTargetAbility.add(:SENTRY,
   }
 )
 
+BattleHandlers::DamageCalcTargetAbility.add(:VIGILANT,
+  proc { |ability, user, target, _move, mults, _baseDmg, type, aiCheck|
+    if target.effectActive?(:ChoseStatus)
+      mults[:final_damage_multiplier] *= 0.6
+      target.aiLearnsAbility(ability) unless aiCheck
+    end
+  }
+)
+
 BattleHandlers::DamageCalcTargetAbility.add(:TRAPPER,
   proc { |ability, user, target, _move, mults, _baseDmg, type, aiCheck|
     if user.battle.pbIsTrapped?(user.index)

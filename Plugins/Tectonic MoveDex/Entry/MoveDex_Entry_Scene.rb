@@ -549,13 +549,22 @@ class MoveDex_Entry_Scene
             Input.update
             pbUpdate
             doRefresh = false
-            if Input.trigger?(Input::UP) && Input.press?(Input::CTRL)
+            if Input.trigger?(Input::USE)
+                selection = @currentSpeciesList[@columnSelected][@scroll]
+                if selection
+                    selection = selection[0] if selection.is_a?(Array)
+                    pbPlayDecisionSE 
+                    openSingleDexScreen(selection)
+                else
+                    pbPlayBuzzerSE
+                end
+            elsif Input.trigger?(Input::UP) && Input.press?(Input::CTRL)
                 if @scroll > 0
                     pbPlayCursorSE
                     @scroll = 0
                     doRefresh = true
                 else
-                    pbPlayCursorSE
+                    pbPlayBuzzerSE
                 end
             elsif Input.trigger?(Input::DOWN) && Input.press?(Input::CTRL)
                 if @scroll < @currentSpeciesList[@columnSelected].length - 1
@@ -563,27 +572,31 @@ class MoveDex_Entry_Scene
                     @scroll = @currentSpeciesList[@columnSelected].length - 1
                     doRefresh = true
                 else
-                    pbPlayCursorSE
+                    pbPlayBuzzerSE
                 end
             elsif Input.repeat?(Input::UP)
                 if @scroll > 0
                     pbPlayCursorSE
                     @scroll -= 1
                     doRefresh = true
-                elsif Input.trigger?(Input::UP)
+                elsif Input.trigger?(Input::UP) && @currentSpeciesList[@columnSelected].length > 1
                     pbPlayCursorSE
                     @scroll = @currentSpeciesList[@columnSelected].length - 1
                     doRefresh = true
+                else
+                    pbPlayBuzzerSE
                 end
             elsif Input.repeat?(Input::DOWN)
                 if @scroll < @currentSpeciesList[@columnSelected].length - 1
                     pbPlayCursorSE
                     @scroll += 1
                     doRefresh = true
-                elsif Input.trigger?(Input::DOWN)
+                elsif Input.trigger?(Input::DOWN) && @currentSpeciesList[@columnSelected].length > 1
                     pbPlayCursorSE
                     @scroll = 0
                     doRefresh = true
+                else
+                    pbPlayBuzzerSE
                 end
             elsif Input.repeat?(Input::JUMPUP) # Jump multiple lines
                 if @scroll > 0
@@ -606,27 +619,43 @@ class MoveDex_Entry_Scene
                 end
             elsif Input.repeat?(Input::LEFT)
                 if @columnSelected > 0
-                    pbPlayCursorSE
-                    @columnSelected -= 1
-                    fixScrollOnColumnChance
-                    doRefresh = true
+                    if @currentSpeciesList[@columnSelected-1].length > 0
+                        pbPlayCursorSE
+                        @columnSelected -= 1
+                        fixScrollOnColumnChange
+                        doRefresh = true
+                    else
+                        pbPlayBuzzerSE
+                    end
                 elsif Input.trigger?(Input::LEFT)
-                    pbPlayCursorSE
-                    @columnSelected = @currentSpeciesList.length - 1
-                    fixScrollOnColumnChance
-                    doRefresh = true
+                    if @currentSpeciesList[@currentSpeciesList.length - 1].length > 0
+                        pbPlayCursorSE
+                        @columnSelected = @currentSpeciesList.length - 1
+                        fixScrollOnColumnChange
+                        doRefresh = true
+                    else
+                        pbPlayBuzzerSE
+                    end
                 end
             elsif Input.repeat?(Input::RIGHT)
                 if @columnSelected < @currentSpeciesList.length - 1
-                    pbPlayCursorSE
-                    @columnSelected += 1
-                    fixScrollOnColumnChance
-                    doRefresh = true
+                    if @currentSpeciesList[@columnSelected+1].length > 0
+                        pbPlayCursorSE
+                        @columnSelected += 1
+                        fixScrollOnColumnChange
+                        doRefresh = true
+                    else
+                        pbPlayBuzzerSE
+                    end
                 elsif Input.trigger?(Input::RIGHT)
-                    pbPlayCursorSE
-                    @columnSelected = 0
-                    fixScrollOnColumnChance
-                    doRefresh = true
+                    if @currentSpeciesList[0].length > 0
+                        pbPlayCursorSE
+                        @columnSelected = 0
+                        fixScrollOnColumnChange
+                        doRefresh = true
+                    else
+                        pbPlayBuzzerSE
+                    end
                 end
             elsif Input.trigger?(Input::BACK)
                 pbPlayCancelSE
@@ -718,12 +747,12 @@ class MoveDex_Entry_Scene
         @sprites["selectionarrow"].y = speciesDrawY - 4
     end
 
-    def fixScrollOnColumnChance
+    def fixScrollOnColumnChange
         @scroll = [@scroll,@currentSpeciesList[@columnSelected].length-1].min
     end
 
     def canScrollSpeciesList?
-        @currentSpeciesList[0].length > @speciesLinesToShow + 1
+        return !@currentSpeciesList[0].empty?
     end
 
     def canScrollDetailsList?
@@ -740,12 +769,20 @@ class MoveDex_Entry_Scene
             dorefresh = false
 
             if Input.trigger?(Input::USE)
-                if @page == 1 || @page == 2 && canScrollSpeciesList?
-                    pbPlayDecisionSE
-                    pbScrollSpeciesList
-                elsif @page == 4 && canScrollDetailsList?
-                    pbPlayDecisionSE
-                    pbScrollDetailsList
+                if @page == 1 || @page == 2
+                    if canScrollSpeciesList?
+                        pbPlayDecisionSE
+                        pbScrollSpeciesList
+                    else
+                        pbPlayBuzzerSE
+                    end
+                elsif @page == 4 && 
+                    if canScrollDetailsList?
+                        pbPlayDecisionSE
+                        pbScrollDetailsList
+                    else
+                        pbPlayBuzzerSE
+                    end
                 elsif @page == 5
                     pbPlayDecisionSE
                     oppMove = Input.press?(Input::CTRL)

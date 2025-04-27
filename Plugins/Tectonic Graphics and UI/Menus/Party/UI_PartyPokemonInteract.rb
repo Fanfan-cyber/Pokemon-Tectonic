@@ -240,10 +240,12 @@ existingIndex)
         cmdSetStatus  = -1
         cmdSetGender  = -1
         cmdExtraMoves = -1
+        cmdDeleteMove = -1
 
         newspecies = @pkmn.check_evolution_on_level_up(false)
         # Build the commands
         commands[cmdAdaptiveAI = commands.length]   = _INTL("Adaptive AI") if TA.get(:adaptiveai)
+        commands[cmdDeleteMove = commands.length]   = _INTL("Delete Move") if @pkmn.numMoves > 1
         commands[cmdEvolve = commands.length]       = _INTL("Evolve") if newspecies
         commands[cmdExtraMoves = commands.length]   = _INTL("Extra Moves") if @pkmn.isSpecies?(:DEOXYS)
         commands[cmdOpenAR = commands.length]       = _INTL("Open AR") if TA.get(:customabil) && !$Trainer.ability_recorder.empty?
@@ -351,6 +353,8 @@ existingIndex)
             end
         elsif cmdSwapPokeBall >= 0 && modifyCommand == cmdSwapPokeBall
 			@pkmn.switchBall
+        elsif cmdDeleteMove >= 0 && modifyCommand == cmdDeleteMove
+            moveDeletion(@pkmn)
         elsif cmdEvolve >= 0 && modifyCommand == cmdEvolve
             newspecies = @pkmn.check_evolution_on_level_up(true)
             return false if newspecies.nil?
