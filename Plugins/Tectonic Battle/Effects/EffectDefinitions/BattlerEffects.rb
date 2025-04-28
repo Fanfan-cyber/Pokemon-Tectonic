@@ -2180,6 +2180,15 @@ GameData::BattleEffect.register_effect(:Battler, {
 })
 
 GameData::BattleEffect.register_effect(:Battler, {
+    :id => :IceSculpture,
+    :real_name => "Frozen Sculpture",
+    :resets_battlers_eot => true,
+    :apply_proc => proc do |battle, battler, _value|
+        battle.pbDisplay(_INTL("{1} is frozen into a sculpture! It won't be able to move this turn!", battler.pbThis))
+    end,
+})
+
+GameData::BattleEffect.register_effect(:Battler, {
     :id => :TemporalShiftReceiver,
     :real_name => "Temporal Shift Receiver",
     :resets_eor => true,

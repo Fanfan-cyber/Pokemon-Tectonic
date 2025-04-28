@@ -2359,7 +2359,7 @@ TrainerTypeLabel = DEVELOPER
 Pokemon = DRAGONITE,70
     AbilityIndex = 0 # Inner Focus
 Pokemon = KLAWSAR,70
-    AbilityIndex = 1 # Steely Shell
+    AbilityIndex = 1 # Bottom Feeder
 Pokemon = VESPIQUEN,70
     AbilityIndex = 1 # Stressful
 Pokemon = SCRAFTY,70
@@ -3198,11 +3198,12 @@ Pokemon = MPOLTEAGEIST,45
     Item = LOADEDDICE
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,20,20,0
-Pokemon = CRABOMINABLE,45
-    Moves = STORMTHROW,ICEHAMMER,ADAMANTINEPRESS,KNOCKOFF
-    AbilityIndex = 0 # Survivalist
+Pokemon = BRUXISH,45
+    Moves = CRUNCH,PSYCHICFANGS,FIREFANG,SNAP
+    AbilityIndex = 1 # Strong Jaw
+    Item = CHOICESCARF
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-    EV = 10,20,0,0,20,20
+    EV = 0,20,5,20,20,5
 Pokemon = GRAPIDASH,45
     Moves = PSYCHOSCISSION,MISADVENTURE,INFINITEFORCE,DRILLRUN
     AbilityIndex = 1 # Heart of Justice
@@ -3217,14 +3218,13 @@ Pokemon = GDARMANITAN,45
 #-------------------------------
 [LEADER_Noel,Noel,1]
 ExtendsVersion = 0
-Policies = CURSE_TYPE_WEAKENED
+Policies = CURSE_ICE_SCULPTURES
 Pokemon = MBEAUTIFLY,45
     Item = HEAVYDUTYBOOTS
 Pokemon = METAGROSS,45
     Item = ASSAULTVEST
-Pokemon = MPOLTEAGEIST,45
-Pokemon = CRABOMINABLE,45
-    Item = CUSTAPBERRY
+Pokemon = BRUXISH,45
+    Moves = CRUNCH,PSYCHICFANGS,FIREFANG,POISONFANG
 Pokemon = GRAPIDASH,45
     Item = CHOICEBAND
 Pokemon = GDARMANITAN,45
@@ -3924,7 +3924,7 @@ Pokemon = ARCTOVISH,52
 #-------------------------------
 [ELDER,Huy]
 Pokemon = CRAWDAUNT,54
-    Moves = GLEEFULGRASP,CRABHAMMER,SUCKERPUNCH,EARTHQUAKE
+    Moves = GLEEFULGRASP,LIQUIDATION,SUCKERPUNCH,EARTHQUAKE
     AbilityIndex = 0 # Filter
     Item = WEAKNESSPOLICY
 Pokemon = SCOLIPEDE,53
@@ -7514,7 +7514,7 @@ Pokemon = PINCURCHIN,70
 [POKEMONMASTER_Vanya,Vanya]
 Flags = NoPerfect
 Pokemon = KLAWSAR,70
-    AbilityIndex = 1 # Steely Shell
+    AbilityIndex = 1 # Bottom Feeder
 Pokemon = MPOLTEAGEIST,70
     AbilityIndex = 1 # Chill Out
 Pokemon = GREEDENT,70

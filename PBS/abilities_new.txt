@@ -11,7 +11,7 @@ Flags = RainstormSynergy
 #-------------------------------
 [ADAPTIVESKIN]
 Name = Adaptive Skin
-Description = After being hit by an attack, the Pokémon raises either Defense or Sp. Def based on the attack's category.
+Description = After being hit, the Pokémon raises either Defense or Sp. Def based on the attack's category. Caps out at +4.
 #-------------------------------
 [ADRENALINERUSH]
 Name = Adrenaline Rush
@@ -53,7 +53,7 @@ Flags = EclipseSynergy
 #-------------------------------
 [ANCESTRALDANCE]
 Name = Ancestral Dance
-Description = Raises Defense and Sp. Def whenever any Pokémon uses a dance move.
+Description = Raises Defense and Sp. Def whenever any Pokémon uses a dance move. Caps out at +4.
 #-------------------------------
 [APPREHENSIVE]
 Name = Apprehensive
@@ -197,6 +197,10 @@ Flags = SunshineSynergy
 [BLISS]
 Name = Bliss
 Description = Increase the EXP gained from battles in which it participates by 50%.
+#-------------------------------
+[BOTTOMFEEDER]
+Name = Bottom Feeder
+Description = Whenever this Pokémon attacks a trapped foe, it is healed for half of the damage dealt.
 #-------------------------------
 [BOULDERNEST]
 Name = Boulder Nest
@@ -764,7 +768,7 @@ Flags = MoonglowSynergy
 #-------------------------------
 [FUMIGATE]
 Name = Fumigate
-Description = Random added effects of wind-based moves are +50% more likely likely to occur.
+Description = Random added effects of wind-based moves are +50% more likely to occur.
 #-------------------------------
 [GALEFORCE]
 Name = Gale Force
@@ -1736,7 +1740,7 @@ Description = Can't be leeched, drained, or trapped.
 #-------------------------------
 [SLINKY]
 Name = Slinky
-Description = Two-turn retreat moves such as Dig skip the retreat turn.
+Description = Two-turn retreat moves such as Dig deal double damage.
 #-------------------------------
 [SLIPSTREAM]
 Name = Slipstream
@@ -1886,7 +1890,7 @@ Flags = RainstormSynergy
 #-------------------------------
 [STUBBORN]
 Name = Stubborn
-Description = Prevents its stats from being lowered by more than 1 step at a time.
+Description = Prevents its stats from being lowered by more than one step at a time.
 #-------------------------------
 [STUPEFYING]
 Name = Stupefying

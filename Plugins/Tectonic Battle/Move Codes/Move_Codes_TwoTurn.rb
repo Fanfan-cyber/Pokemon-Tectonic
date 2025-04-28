@@ -195,17 +195,15 @@ end
 # Two turn attack. Skips first turn, attacks second turn. (Fly, Divebomb)
 # (Handled in Battler's pbSuccessCheckPerHit): Is semi-invulnerable during use.
 #===============================================================================
-class PokeBattle_Move_TwoTurnAttackInvulnerableInSky < PokeBattle_TwoTurnMove
-    def unusableInGravity?; return true; end
+class PokeBattle_Move_TwoTurnAttackInvulnerable < PokeBattle_TwoTurnMove  
+end
 
-    def pbIsChargingTurn?(user)
-        ret = super
-        if !user.effectActive?(:TwoTurnAttack) && user.hasActiveAbility?(:SLINKY)
-            skipChargingTurn
-            return false
-        end
-        return ret
-    end
+#===============================================================================
+# Two turn attack. Skips first turn, attacks second turn. (Fly, Divebomb)
+# (Handled in Battler's pbSuccessCheckPerHit): Is semi-invulnerable during use.
+#===============================================================================
+class PokeBattle_Move_TwoTurnAttackInvulnerableInSky < PokeBattle_Move_TwoTurnAttackInvulnerable
+    def unusableInGravity?; return true; end
 
     def pbChargingTurnMessage(user, _targets)
         @battle.pbDisplay(_INTL("{1} flew up high!", user.pbThis))
@@ -216,18 +214,9 @@ end
 # Two turn attack. Skips first turn, attacks second turn. (Dig, Undermine)
 # (Handled in Battler's pbSuccessCheckPerHit): Is semi-invulnerable during use.
 #===============================================================================
-class PokeBattle_Move_TwoTurnAttackInvulnerableUnderground < PokeBattle_TwoTurnMove
+class PokeBattle_Move_TwoTurnAttackInvulnerableUnderground < PokeBattle_Move_TwoTurnAttackInvulnerable
     def pbChargingTurnMessage(user, _targets)
         @battle.pbDisplay(_INTL("{1} burrowed its way under the ground!", user.pbThis))
-    end
-
-    def pbIsChargingTurn?(user)
-        ret = super
-        if !user.effectActive?(:TwoTurnAttack) && user.hasActiveAbility?(:SLINKY)
-            skipChargingTurn
-            return false
-        end
-        return ret
     end
 
     def canBecomeReaper?(user)
@@ -252,16 +241,7 @@ end
 # Two turn attack. Skips first turn, attacks second turn. (Dive, Depth Charge)
 # (Handled in Battler's pbSuccessCheckPerHit): Is semi-invulnerable during use.
 #===============================================================================
-class PokeBattle_Move_TwoTurnAttackInvulnerableUnderwater < PokeBattle_TwoTurnMove
-    def pbIsChargingTurn?(user)
-        ret = super
-        if !user.effectActive?(:TwoTurnAttack) && user.hasActiveAbility?(:SLINKY)
-            skipChargingTurn
-            return false
-        end
-        return ret
-    end
-
+class PokeBattle_Move_TwoTurnAttackInvulnerableUnderwater < PokeBattle_Move_TwoTurnAttackInvulnerable
     def pbChargingTurnMessage(user, _targets)
         @battle.pbDisplay(_INTL("{1} hid underwater!", user.pbThis))
         if user.canGulpMissile?
@@ -282,17 +262,8 @@ end
 # May numb the target.
 # (Handled in Battler's pbSuccessCheckPerHit): Is semi-invulnerable during use.
 #===============================================================================
-class PokeBattle_Move_TwoTurnAttackInvulnerableInSkyNumbTarget < PokeBattle_TwoTurnMove
+class PokeBattle_Move_TwoTurnAttackInvulnerableInSkyNumbTarget < PokeBattle_Move_TwoTurnAttackInvulnerable
     def unusableInGravity?; return true; end
-
-    def pbIsChargingTurn?(user)
-        ret = super
-        if !user.effectActive?(:TwoTurnAttack) && user.hasActiveAbility?(:SLINKY)
-            skipChargingTurn
-            return false
-        end
-        return ret
-    end
 
     def pbChargingTurnMessage(user, _targets)
         @battle.pbDisplay(_INTL("{1} sprang up!", user.pbThis))
@@ -312,7 +283,7 @@ end
 # Two turn attack. Skips first turn, attacks second turn. (Shadow Force)
 # Is invulnerable during use. Ends target's protections upon hit.
 #===============================================================================
-class PokeBattle_Move_TwoTurnAttackInvulnerableRemoveProtections < PokeBattle_TwoTurnMove
+class PokeBattle_Move_TwoTurnAttackInvulnerableRemoveProtections < PokeBattle_Move_TwoTurnAttackInvulnerable
     def pbChargingTurnMessage(user, _targets)
         @battle.pbDisplay(_INTL("{1} vanished instantly!", user.pbThis))
     end

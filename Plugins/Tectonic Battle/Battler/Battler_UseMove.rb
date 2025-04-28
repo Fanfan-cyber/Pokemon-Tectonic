@@ -804,6 +804,11 @@ class PokeBattle_Battler
         all_targets = targets
         targets = move.pbDesignateTargetsForHit(targets, hitNum) # For Dragon Darts
         targets.each { |b| b.damageState.resetPerHit }
+        # Tracked whether the Pokemon is trapped
+        targets.each { |b|
+            next unless b.trapped?
+            b.damageState.trapped = true
+        }
         #---------------------------------------------------------------------------
         # Pre effects
         if move.damagingMove?

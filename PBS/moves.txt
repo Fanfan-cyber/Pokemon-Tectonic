@@ -1060,7 +1060,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = LowerTargetAtkSpAtk2
 Flags = CanMagicCoat
-Description = The user gets teary eyed. This lowers the target's Attack and Sp. Atk stats by 2 steps.
+Description = The user gets teary eyed. This lowers the target's Attack and Sp. Atk stats by two steps.
 #-------------------------------
 [TEATIME]
 Name = Teatime
@@ -1813,7 +1813,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = LowerUserDefSpDef2
 Flags = CanProtect
-Description = The user soars upward and drops at high speeds. This lowers the user's Defense and Sp. Def by 2 steps.
+Description = The user soars upward and drops at high speeds. This lowers the user's Defense and Sp. Def by two steps.
 #-------------------------------
 [DRILLPECK]
 Name = Drill Peck
@@ -4003,18 +4003,6 @@ Target = NearOther
 FunctionCode = BindTarget3
 Flags = CanProtect
 Description = The user clamps onto the target, trapping and damaging it for three turns.
-#-------------------------------
-[CRABHAMMER]
-Name = Crabhammer
-Type = WATER
-Category = Physical
-Power = 95
-Accuracy = 100
-TotalPP = 10
-Target = NearOther
-FunctionCode = Basic
-Flags = CanProtect,CanRandomCrit
-Description = The target is hammered with a large pincer. Can random critical hit.
 #-------------------------------
 [DIVE]
 Name = Dive

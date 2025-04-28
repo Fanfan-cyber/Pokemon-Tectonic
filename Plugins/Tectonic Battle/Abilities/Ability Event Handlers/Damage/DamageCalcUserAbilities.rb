@@ -793,3 +793,12 @@ BattleHandlers::DamageCalcUserAbility.add(:WREAKHAVOC,
     end
   }
 )
+
+BattleHandlers::DamageCalcUserAbility.add(:SLINKY,
+  proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck|
+    if move.is_a?(PokeBattle_Move_TwoTurnAttackInvulnerable)
+      mults[:base_damage_multiplier] *= 2.0
+      user.aiLearnsAbility(ability) unless aiCheck
+    end
+  }
+)

@@ -310,6 +310,11 @@ class PokemonGlobalMetadata
         return @circuitPuzzleStateTracker
     end
 
+    def tilePuzzleStateTracker
+        @tilePuzzleStateTracker = TilePuzzleStateTracker.new if @tilePuzzleStateTracker.nil?
+        return @tilePuzzleStateTracker
+    end
+
     def dragonFlamesCount
         @dragonFlamesCount = 0 if @dragonFlamesCount.nil?
         return @dragonFlamesCount

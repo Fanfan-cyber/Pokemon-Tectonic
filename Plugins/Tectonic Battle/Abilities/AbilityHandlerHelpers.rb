@@ -164,3 +164,12 @@ def moveUseTypeChangeAbility(ability, user, move, battle, thirdType = false)
     battle.pbHideAbilitySplash(user)
     return true
 end
+
+DEFENSE_STACKING_ABILITY_STEP_CAP = 4
+def defenseStatStackingAbility(ability, user)
+  return if user.steps[:DEFENSE] >= DEFENSE_STACKING_ABILITY_STEP_CAP && user.steps[:SPECIAL_DEFENSE] >= DEFENSE_STACKING_ABILITY_STEP_CAP
+  caps = {}
+  caps[:DEFENSE] = DEFENSE_STACKING_ABILITY_STEP_CAP
+  caps[:SPECIAL_DEFENSE] = DEFENSE_STACKING_ABILITY_STEP_CAP
+  user.pbRaiseMultipleStatSteps(DEFENDING_STATS_1, user, ability: ability, statStepCaps: caps)
+end

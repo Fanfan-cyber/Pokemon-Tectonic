@@ -145,6 +145,7 @@ BattleHandlers::TargetAbilityOnHit.add(:ADAPTIVESKIN,
         else
             statToRaise = :SPECIAL_DEFENSE
         end
+        next if target.steps[statToRaise] >= DEFENSE_STACKING_ABILITY_STEP_CAP
         if aiCheck
             ret = 0
             aiNumHits.times do |i|

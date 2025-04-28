@@ -1895,7 +1895,7 @@ Pokemon = PARASECT,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,0,10,0,0,20
 Pokemon = KLAWSAR,70
-    Moves = CRABHAMMER,UTURN,SUPERPOWER,KNOCKOFF
+    Moves = LIQUIDATION,UTURN,SUPERPOWER,KNOCKOFF
     AbilityIndex = 0 # Frustrate
     Item = SEVENLEAGUEBOOTS
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def

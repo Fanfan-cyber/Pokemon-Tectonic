@@ -784,7 +784,7 @@ TotalPP = 15
 Target = User
 FunctionCode = RaiseUserSpd2CriticalHitRate2
 Flags = CanSnatch
-Description = Enables random critical hits for the user, quadruples its critical hit chance, and raises its Speed by 2 steps.
+Description = Enables random critical hits for the user, quadruples its critical hit chance, and raises its Speed by two steps.
 Animation = FOCUSENERGY
 #-------------------------------
 [DETACHMENT]
@@ -4095,6 +4095,20 @@ FunctionCode = Basic
 Flags = CanProtect
 Description = The user swims at the target at blinding speed. This attack always goes before any other move.
 Animation = AQUAJET
+#-------------------------------
+[IMMERSE]
+Name = Immerse
+Type = WATER
+Category = Special
+Power = 40
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+FunctionCode = Waterlog
+Flags = CanProtect
+EffectChance = 30
+Description = The target is immersed in water, having a 30% chance to becomed Waterlogged.
+Animation = WATERGUN
 #-------------------------------
 [INVITERAIN]
 Name = Invite Rainstorm

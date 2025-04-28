@@ -192,6 +192,15 @@ GameData::Move.get(@effects[:GorillaTactics]).name)
             return false
         end
 
+        if effectActive?(:IceSculpture)
+            if aiCheck
+                echoln("\t\t[AI FAILURE CHECK] #{pbThis} rejects the move #{move.id} due to being an ice sculpture.")  
+            else
+                @battle.pbDisplay(_INTL("{1} is an ice sculpture! It can't move!", pbThis))
+            end
+            return false
+        end
+
         if effectActive?(:HyperBeam) # Intentionally before Truant
             if aiCheck
                 echoln("\t\t[AI FAILURE CHECK] #{pbThis} rejects the move #{move.id} due to exhaustion failure (Hyperbeam, etc.)")

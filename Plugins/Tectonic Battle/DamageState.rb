@@ -33,7 +33,8 @@ class PokeBattle_DamageState
 	attr_accessor :feastWeakened   		# Whether a type-resisting feast was used (wont be consumed)
 	attr_accessor :fear			   				# The hit caused fear in the pokemon
 	attr_accessor :bubbleBarrier   		# How much damage was prevented by bubble barrier
-	attr_accessor :thiefsDiversion 		# Thief's Diversion ability activated 
+	attr_accessor :thiefsDiversion 		# Thief's Diversion ability activated
+	attr_accessor :trapped 						# For Bottom Feeder
 
 	def initialize; reset; end
 
@@ -48,9 +49,10 @@ class PokeBattle_DamageState
 		@totalHPLostCritical = 0
 		@totalCalcedDamage	= 0
 		@fainted            = false
-		@messagesPerHit		= true
+		@messagesPerHit			= true
 		@partiallyProtected	= false
-		@fear				= false
+		@fear								= false
+		@trapped			= false
 		resetPerHit
 	end
 

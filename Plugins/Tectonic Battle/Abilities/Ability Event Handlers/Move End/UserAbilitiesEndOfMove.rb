@@ -217,42 +217,24 @@ BattleHandlers::UserAbilityEndOfMove.add(:SPACEINTERLOPER,
   }
 )
 
-SOUNDBARRIER_STEP_CAP = 4
-
 BattleHandlers::UserAbilityEndOfMove.add(:SOUNDBARRIER,
   proc { |ability, user, _targets, move, _battle, _switchedBattlers|
       next unless move.soundMove?
-      next if user.steps[:DEFENSE] >= SOUNDBARRIER_STEP_CAP && user.steps[:SPECIAL_DEFENSE] >= SOUNDBARRIER_STEP_CAP
-      caps = {}
-      caps[:DEFENSE] = SOUNDBARRIER_STEP_CAP
-      caps[:SPECIAL_DEFENSE] = SOUNDBARRIER_STEP_CAP
-      user.pbRaiseMultipleStatSteps(DEFENDING_STATS_1, user, ability: ability, statStepCaps: caps)
+      defenseStatStackingAbility(ability, user)
   }
 )
-
-AEROSHELL_STEP_CAP = 4
 
 BattleHandlers::UserAbilityEndOfMove.add(:AEROSHELL,
   proc { |ability, user, _targets, move, _battle, _switchedBattlers|
       next unless move.windMove?
-      next if user.steps[:DEFENSE] >= AEROSHELL_STEP_CAP && user.steps[:SPECIAL_DEFENSE] >= AEROSHELL_STEP_CAP
-      caps = {}
-      caps[:DEFENSE] = AEROSHELL_STEP_CAP
-      caps[:SPECIAL_DEFENSE] = AEROSHELL_STEP_CAP
-      user.pbRaiseMultipleStatSteps(DEFENDING_STATS_1, user, ability: ability, statStepCaps: caps)
+      defenseStatStackingAbility(ability, user)
   }
 )
-
-SPARESCALES_STEP_CAP = 4
 
 BattleHandlers::UserAbilityEndOfMove.add(:SPARESCALES,
   proc { |ability, user, _targets, move, _battle, _switchedBattlers|
       next unless %i[GRASS GROUND STEEL].include?(move.calcType)
-      next if user.steps[:DEFENSE] >= SPARESCALES_STEP_CAP && user.steps[:SPECIAL_DEFENSE] >= SPARESCALES_STEP_CAP
-      caps = {}
-      caps[:DEFENSE] = SPARESCALES_STEP_CAP
-      caps[:SPECIAL_DEFENSE] = SPARESCALES_STEP_CAP
-      user.pbRaiseMultipleStatSteps(DEFENDING_STATS_1, user, ability: ability, statStepCaps: caps)
+      defenseStatStackingAbility(ability, user)
   }
 )
 
@@ -353,6 +335,19 @@ BattleHandlers::UserAbilityEndOfMove.add(:TORPORSAP,
       end
       next if asleepTargets.length == 0
       user.pbRecoverHPFromMultiDrain(asleepTargets, 0.50, ability: ability)
+  }
+)
+
+BattleHandlers::UserAbilityEndOfMove.add(:BOTTOMFEEDER,
+  proc { |ability, user, targets, move, battle, _switchedBattlers|
+      next if battle.futureSight
+      next unless move.damagingMove?
+      trappedTargets = []
+      targets.each do |target|
+        next unless target.damageState.trapped
+        trappedTargets.push(target)
+      end
+      user.pbRecoverHPFromMultiDrain(trappedTargets, 0.50, ability: ability)
   }
 )
 
