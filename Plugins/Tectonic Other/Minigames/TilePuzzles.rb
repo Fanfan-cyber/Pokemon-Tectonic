@@ -547,8 +547,12 @@ class TilePuzzleScene
             (@game==7 && Input.trigger?(Input::USE))
         pbRotateTile(@sprites["cursor"].position)
       elsif Input.trigger?(Input::BACK)
-        tileState.savePuzzleState(@board,[@tiles,@angles])
-        return false
+        if  @heldtile>=0
+          pbMessage(_INTL("Cannot exit now, you are holding a tile!"))
+        else
+          tileState.savePuzzleState(@board,[@tiles,@angles])
+          return false
+        end
       end
     end
   end

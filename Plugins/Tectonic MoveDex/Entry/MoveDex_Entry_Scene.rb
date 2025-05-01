@@ -59,6 +59,15 @@ class MoveDex_Entry_Scene
         @sprites["animation_black_bars"].setBitmap("Graphics/Pictures/Movedex/bg_move_animation_black_bars")
         @sprites["animation_black_bars"].z = 999_999
 
+        @ownedPokemonSpecies = {}
+        eachPokemonInPartyOrStorage do |pkmn|
+            @ownedPokemonSpecies[pkmn.species] = true;
+        end
+        @partyPokemonSpecies = {}
+        $Trainer.party.each do |pkmn|
+            @partyPokemonSpecies[pkmn.species] = true;
+        end
+
         drawPage
 
         navigateMoveEntry
@@ -293,37 +302,31 @@ class MoveDex_Entry_Scene
 
     def drawSpeciesColumn(overlay,speciesLabelList,speciesDataList,levelLabelsList,columnIndex)
         base   = MessageConfig.pbDefaultTextMainColor
-        
-        #store all caught species for coloring the results. might be faster to do it once per scene?
-        ownedPokemonSpecies = {}
-        eachPokemonInPartyOrStorage do |pkmn|
-            ownedPokemonSpecies[pkmn.species] = true;
-        end
-
-        base = MessageConfig.pbDefaultTextMainColor
         shadow = MessageConfig.pbDefaultTextShadowColor
+
+        ownedIconImagePositions = []
         
         displayIndex = 0
 		listIndex = -1
         speciesLabelList.each_with_index do |speciesLabel, index|
-
-            #determine text color. default for unowned, blue for box, light green for party
-            species_base = base
-            species_shadow = shadow
-
-            #species data can be empty for the "None" page. In this case skipping custom coloring is fine
-            if index < speciesDataList.length
-                speciesData = speciesDataList[index]
-                if ownedPokemonSpecies.include?speciesData.id
-                    species_base = darkMode? ? POKEMON_IN_BOX_COLOR_BASE : POKEMON_IN_BOX_COLOR_SHADOW
-                    species_shadow = darkMode? ? POKEMON_IN_BOX_COLOR_SHADOW : POKEMON_IN_BOX_COLOR_BASE
-                end                
-            end
-
             listIndex += 1
             next if listIndex < @scroll
+
             speciesDrawX, speciesDrawY = getSpeciesDisplayCoordinates(displayIndex,columnIndex)
-            drawFormattedTextEx(overlay, speciesDrawX , speciesDrawY, 450, speciesLabel, species_base, species_shadow)
+
+            ownedIconXOffset = levelLabelsList[index] ? 160 : 208
+
+            if index < speciesDataList.length
+                speciesID = speciesDataList[index].id
+                if @partyPokemonSpecies.include?(speciesID)
+                    icon = "Graphics/Pictures/Battle/icon_own_party"  
+                elsif @ownedPokemonSpecies.include?(speciesID)
+                    icon = "Graphics/Pictures/Battle/icon_own"
+                end
+                ownedIconImagePositions.push([icon,speciesDrawX+ownedIconXOffset,speciesDrawY+6]) if icon
+            end
+
+            drawFormattedTextEx(overlay, speciesDrawX , speciesDrawY, 450, speciesLabel, base, shadow)
             if levelLabelsList[index]
                 levelDrawX = 212 + (columnIndex * 260)
                 levelLabel = levelLabelsList[index]
@@ -332,6 +335,8 @@ class MoveDex_Entry_Scene
             displayIndex += 1
             break if displayIndex > MAX_LENGTH_SPECIES_LIST
         end
+
+        pbDrawImagePositions(@sprites["overlay"].bitmap, ownedIconImagePositions)
     end
 
     def getSpeciesDisplayCoordinates(displayIndex,columnIndex)

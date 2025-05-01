@@ -1036,7 +1036,7 @@ class PokeBattle_RoomMove < PokeBattle_Move
     end
 
     def getEffectScore(user, _target)
-        return @battle.pbStartRoom(@roomEffect, user, true)
+        return @battle.pbStartRoom(@roomEffect, user, nil, true)
     end
 end
 

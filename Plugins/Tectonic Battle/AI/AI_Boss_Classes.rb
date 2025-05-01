@@ -1054,7 +1054,7 @@ end
 class PokeBattle_AI_TOXTRICITY < PokeBattle_AI_Boss
     def initialize(user, battle)
         super
-        @warnedIFFMove.add(:BROADCASTBLAST, {
+        @warnedIFFMove.add(:WALLOFSOUND, {
             :condition => proc { |_move, _user, _target, battle|
                 next true
             },

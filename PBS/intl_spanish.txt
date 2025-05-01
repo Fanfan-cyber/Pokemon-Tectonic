@@ -1463,6 +1463,8 @@ Eh, that was pretty good, I guess.
 Eh, eso estuvo bastante bien, supongo.
 Some rangers set up a rest spot to the south.
 Algunos rangers pusieron un lugar de descanso al sur.
+Some rangers set up a rest spot in the southern part of Velenz.
+Algunos rangers pusieron un lugar de descanso al sur.
 Check it out, heal up your party, get back to me.
 Ve allí, cura tu equipo, y regresa conmigo.
 You unlocked Rafael's front door?! That sure saves me the time and frustration.
@@ -15246,6 +15248,8 @@ Not right now.
 No ahora mismo.
 Sure?
 ¿Seguro?
+Well, good job! I have this spare stone that might help you with evolving your own Eevee.
+¡Buen trabajo! Tengo esta piedra de sobra que podría ayudarte a evolucionar a tu propio Eevee.
 [Map204]
 
 Oh, uh, hey. Store's up front.
@@ -34916,6 +34920,8 @@ Piercing Doubt
 Cuestionamiento
 Psyche Switch
 Cambio de Idea
+Immerse
+Sumergir
 [6]
 Using its tough and impressive horn, the user rams into the target with no letup.
 Usando su impresionante cuerno, el usuario embiste al rival.
@@ -35335,7 +35341,7 @@ Attacks with energy from jealousy. All opposing Pokémon with stat boosts get bu
 El usuario ataca de forma celosa. Todos los objetivos con aumentos en stats son quemados.
 The user tucks in its wings and charges from a low altitude. The user also takes 33% recoil.
 El usuario extiende sus alas y carga desde una baja altura. El usuario recibe un 33% de daño de retroceso.
-The user soars upward and drops at high speeds. This lowers the user's Defense and Sp. Def by 2 steps.
+The user soars upward and drops at high speeds. This lowers the user's Defense and Sp. Def by two steps.
 El usuario se eleva hacia el cielo y cae a alta velocidad. Disminuye las stats defensivas del usuario.
 A vortex of air is shot at the target to inflict damage. Can random critical hit.
 Un vórtice de aire es disparado para causar daño. Puede dar un golpe crítico.
@@ -35819,7 +35825,7 @@ The power stored using the move Stockpile is absorbed by the user to heal its HP
 La energía que se haya guardado con Reserva es absorbida por el usuario para recuperar sus PS. 50% de máxima de HP por carga de Reserva.
 A frenetic dance to uplift the fighting spirit. It raises the user's Attack stat by four steps.
 Una danza frénetica que levanta el ánimo de combate. Aumenta el Ataque del usuario cuatro grados.
-The user gets teary eyed. This lowers the target's Attack and Sp. Atk stats by 2 steps.
+The user gets teary eyed. This lowers the target's Attack and Sp. Atk stats by two steps.
 El usuario llora lágrimas de cocodrilo, disminuyendo ambos Ataques del objetivo dos grados.
 The user performs a wobbly dance that dizzies the Pokémon around it.
 El usuario danza arrítimicamente para marear a todos los Pokémon a su alrededor.
@@ -37825,7 +37831,7 @@ The target is blasted with a forceful shot of water. Can random critical hit.
 El usuario ataca con un poderoso disparo de agua. Puede realizar golpes críticos aleatorios.
 The user hits the target with throwing stars two to five times in a row. This move always goes first.
 El usuario ataca disparando estrellas entre dos a cinco veces seguidas. Siempre va primero.
-Enables random critical hits for the user, quadruples its critical hit chance, and raises its Speed by 2 steps.
+Enables random critical hits for the user, quadruples its critical hit chance, and raises its Speed by two steps.
 Habilita golpes críticos aleatorios al usuario, cuadruplica su índice de golpe crítico, y aumenta su Velocidad 2 grados.
 The user suffocates the target by sucking the air from their lungs. Can random critical hit.
 El usuario sofoca al objetivo sacando el aire de sus pulmones. Puede realizar golpes críticos aleatorios.
@@ -37931,6 +37937,8 @@ The user restores half of their max HP, or 66% in moonglow.
 El usuario recupera la mitad de sus PS máximos, o 66% en luz lunar.
 Enables random critical hits for the user, doubles its critical hit chance, and raises its Sp. Atk and Sp. Def by two steps.
 Permite que el usuario realice golpes críticos, duplica su índice de golpe crítico, y aumenta su Ataque Especial y Defensa Especial dos grados.
+The target is immersed in water, having a 30% chance to becomed Waterlogged.
+El usuario sumerge al objetivo en agua, con un 30% de probabilidad de embeber al objetivo.
 [7]
 Repel
 Repelente
@@ -39218,11 +39226,13 @@ Courage Badge
 Medalla Valor
 Clear Amulet
 Amuleto Puro
+Belue Berry
+Baya Belua
+[8]
 Courage Badges
 Medallas Valor
 Clear Amulets
 Amuletos Puros
-[8]
 Repels
 Repelentes
 Honey
@@ -41232,7 +41242,9 @@ Súper Aleación
 Midnight Sun
 Sol de Medianoche
 Monkey Mischief
-Monkey Mischief
+Travesura del Mono
+Vigilant
+Vigilante
 Weathered
 Aclimatado
 Stubborn
@@ -42263,8 +42275,6 @@ Hasty
 Apresurado
 Moist Skin
 Piel Húmeda
-Monkey Mischief
-Travesura del Mono
 Perfectionist
 Perfeccionista
 Pure Rage
@@ -42285,8 +42295,6 @@ Astral Harvest
 Cosecha Astral
 Disconnection
 Desconexión
-Monkey Mischief
-Travesura del Mono
 Rugged
 Robusto
 Silver Sense
@@ -42303,12 +42311,14 @@ Heliocentrism
 Heliocentrismo
 Martial Discipline
 Disciplina Marcial
-Monkey Mischief
-Travesura del Mono
-Refract Aura
-Aura Refractiva
+Refractive
+Refractivo
 Tuned Out
 Desafinado
+Bottom Feeder
+Acechador
+Foreman
+Capataz
 [11]
 Special attacks against the Pokémon have a 30% chance to waterlog the attacker.
 Cuando el Pokémon es alcanzado por un movimiento especial, tiene un 30% de probabilidad de embeber al atacante.
@@ -42682,8 +42692,8 @@ Powers up Dark-type moves by 50% in sunshine.
 Potencia movimientos tipo Siniestro un 50% bajo sol.
 Immune to weather downsides, and takes 20% less damage from attacks during weather.
 Inmune a los aspectos negativos de los climas, y recibe 20% menos de daño si cualquier clima está presente.
-Prevents its stats from being lowered by more than 1 step at a time.
-Evita que sus estadísticas se reduzcan en más de 1 grado a la vez.
+Prevents its stats from being lowered by more than one step at a time.
+Evita que sus estadísticas se reduzcan en más de un grado a la vez.
 Raises Sp. Atk by one step after knocking out any Pokémon.
 Aumenta el Ataque Especial un grado al debilitar cualquier Pokémon.
 Powers up Poison-type moves by 50%.
@@ -42894,8 +42904,8 @@ Deals 50% more damage to targets who have already taken damage this turn.
 Los movimientos del Pokémon son un 50% más fuertes si ya fueron dañados en el mismo turno.
 Raises both attacking stats by two steps when hit by a not-very-effective move.
 Al ser alcanzado por un movimiento no muy efectivo, ambas stats ofensivas son aumentadas dos grados.
-After using a sound move, raises the Pokémon's Defense and Sp. Def.
-Aumenta ambas stats defensivas del Pokémon al usar un movimiento de sonido.
+After using a sound move, raises the Pokémon's Defense and Sp. Def. Caps out at +4.
+Aumenta ambas stats defensivas del Pokémon al usar un movimiento de sonido. Máximo de +4.
 Boosts Attack and Sp. Atk by three steps when a stat is lowered by a foe.
 Aumenta ambas stats ofensias cuatro grados cuando una estadística es disminuida por un rival.
 Powers up Psychic-type moves by 50%.
@@ -42916,8 +42926,8 @@ Its attacks are critical against frostbitten targets.
 Sus ataques son críticos contra objetivos helados.
 Can't be poisoned, burned, or frostbitten.
 No puede ser envenenado, quemado ni helado.
-Upon entry, creates a Puzzle Room for five turns, swapping base Attack and Sp. Atk.
-Crea una Zona Enigmática durante cinco turnos al entrar al campo, intercambiando ambos Ataques base de todos los Pokémon.
+Upon entry, creates a Puzzle Room for four turns, swapping base Attack and Sp. Atk.
+Crea una Zona Enigmática durante cuatro turnos al entrar al campo, intercambiando ambos Ataques base de todos los Pokémon.
 It can avoid being knocked out by sacrificing its held item.
 Puede evitar ser debilitado, sacrificando su objeto en el proceso. 
 The Pokémon's attacks are always critical if there is an active Room.
@@ -42946,8 +42956,8 @@ Lays a trap of levitating stones around the opponent when its HP is lowered belo
 Cuando pierde la mitad de sus PS o más, coloca una trampa de rocas levitantes alrededor del oponente.
 Hits opponent with Gust when withdrawn from battle.
 Golpea al oponente usando Tornado al regresar a su Poké Ball.
-Upon entry, creates an Odd Room for five turns, swapping offensive and defensive stats.
-Crea una Zona Anómala durante cinco turnos al entrar al campo, intercambiando ambos Ataques base de todos los Pokémon.
+Upon entry, creates an Odd Room for four turns, swapping offensive and defensive stats.
+Crea una Zona Anómala durante cuatro turnos al entrar al campo, intercambiando ambos Ataques base de todos los Pokémon.
 Its attacks are critical against dizzy targets.
 Sus ataques son críticos contra objetivos mareados.
 Powers up moves of the same type by 50%.
@@ -43002,7 +43012,7 @@ Double the Pokémon's Speed if any enemy is below half health.
 Duplica la Velocidad del Pokémon si cualquier enemigo pierde la mitad de sus PS.
 Protected from random added effects. Takes 30% less damage from moves with random added effects.
 Anula los efectos secundarios aleatorios de los movimientos rivales. Recibe un 30% menos de daño de estos.
-Random added effects of wind-based moves are +50% more likely likely to occur.
+Random added effects of wind-based moves are +50% more likely to occur.
 Los efectos secundarios aleatorios de movimientos de viento tienen un +50% de probabilidad de ocurrir.
 Heals 1/12th HP per turn if there's a weather. Immune to weather downsides.
 Recupera 1/12 se sus PS totales cada turno si hay un clima presente, además, es inmune a las desventajas de este.
@@ -43040,8 +43050,8 @@ Uses Dragon Dance if an attack lowers its HP to half or below.
 Usa Danza Dragón si pierde la mitad de sus PS o más.
 When it attacks from underground in sandstorm, it'll transform into Reaper form.
 Al atacar bajo tierra en una tormenta de arena, se transformá a su forma Guadaña.
-After knocking out any Pokémon with Waterfall, transforms into its Rampage form. Ability becomes Mold Breaker.
-Al debilitar a un Pokémon usando Cascada, se transformá a su forma Desenfrenada. Su Habilidad pasa a ser Rompemoldes.
+After knocking out any Pokémon with Waterfall, transforms into its Rampage form. Ability becomes Juggernaut.
+Al debilitar a un Pokémon usando Cascada, se transformá a su forma Desenfrenada. Su Habilidad pasa a ser Coloso.
 Boosts Attack by 50% if it used a special move last turn, or boosts Sp. Atk if physical.
 Aumenta su Ataque un 50% si su último movimiento usado fue especial, y viceversa.
 Steel-type attacks deal 50% more damage, and the Pokémon is protected from critical hits.
@@ -43284,8 +43294,8 @@ After being attacked, gains immunity to that move's type but loses other morphed
 Al ser atacado, se vuelve inmune al tipo de ese movimiento pero pierde otras inmunidades mutadas.
 Using or being hit by a physical move leaves a rock on the field. Status moves collect them, healing by 1/4th each.
 Al usar o ser alcanzado por un movimiento físico deja una roca en el campo. Las recolecta al usar un movimiento de estado, curándose 1/4 por cada roca presente.
-Raises Defense and Sp. Def whenever any Pokémon uses a dance move.
-Aumenta ambas stats defensivas cada vez que cualquier Pokémon use un movimiento de baile.
+Raises Defense and Sp. Def whenever any Pokémon uses a dance move. Caps out at +4.
+Aumenta ambas stats defensivas cada vez que cualquier Pokémon use un movimiento de baile. Máximo de +4.
 Slips past all types of spikes. Deals 50% more damage to targets that switched in this turn.
 Ignora todo tipo de púas en el campo. Potencia sus ataques un 50% contra enemigos que hayan cambiado en el turno.
 After fainting from exploding, revives after six turns.
@@ -43378,8 +43388,8 @@ Foes whose stats are lowered by the Pokémon keep those lowered stats even after
 Enemigos que tengan sus stats reducidas por el usuario mantienen esas stats reducidas incluso después de cambiar.
 Raises Attack by two steps after dealing not-very-effective or barely-effective damage.
 Si ataca de forma no muy o apenas efectiva, aumenta su Ataque dos grados.
-After using a wind move, raises the Pokémon's Defense and Sp. Def.
-Al usar un movimiento de viento, aumenta ambas stats defensivas del Pokémon.
+After using a wind move, raises the Pokémon's Defense and Sp. Def. Caps out at +4.
+Al usar un movimiento de viento, aumenta ambas stats defensivas del Pokémon. Máximo de +4.
 On the first turn, its attacks leech the target.
 En su primer turno, sus ataques infectan al objetivo.
 Deals 50% more damage to targets that switched in this turn. Takes 50% less damage if it switched in this turn.
@@ -43458,8 +43468,8 @@ Deals more damage to targets the faster it is than them. Up to a 50% bonus at do
 Sus ataques son más fuertes hacia objetivos más lentos. Puede llegar a un 50% más de potencia si su Velocidad es el doble.
 Random added effects of bite attacks are +50% more likely likely to occur.
 Efectos secundarios aleatorios de movimientos de mordida tienen +50% de probabilidad de ocurrir.
-Two-turn retreat moves such as Dig skip the retreat turn. 
-Movimientos de dos turnos en los que el Pokémon se retire del campo, como Excavar, son efectuados en sólo un turno.
+Two-turn retreat moves such as Dig deal double damage.
+Duplica la potencia de movimientos de dos turnos en los que el Pokémon se retire del campo, como Excavar.
 Heals based on the damage other battlers take from being poisoned.
 Es curado basado en el daño que otros Pokémon reciban por el veneno.
 After using a status move, raises the Pokémon's Defense and Sp. Def.
@@ -43500,8 +43510,8 @@ When hit with a special move, hits back instantly with Breach.
 Al ser atacado por un movimiento especial, contraataca inmediatamente con Arrastre.
 Takes 40% less damage from attacks by Pokémon who have a status condition.
 Recibe 40% menos de daño por los Pokémon que tengan un problema de estado.
-Raises defenses after using a Grass-, Ground-, or Steel-type move.
-Aumenta ambas defensas luego de usar movimiento tipo Planta, Tierra o Acero.
+Raises defenses after using a Grass-, Ground-, or Steel-type move. Caps out at +4.
+Aumenta ambas defensas luego de usar movimiento tipo Planta, Tierra o Acero. Máximo de +4.
 Fighting-type moves have +1 priority.
 Los movimientos tipo lucha tienen +1 prioridad.
 Takes no damage from status ailments.
@@ -43560,8 +43570,8 @@ After attacking any foe, the Pokémon immediately uses Rest.
 Luego de atacar a un oponente, el Pokémon usa inmediatamente Descanso.
 It changes form to match the move it selected.
 Cambia de forma para adaptarse al movimiento que ha seleccionado.
-Upon entry, creates a Trick Room for five turns, inverting the effect of Speed.
-Al entrar, crea una Zona Rara durante cinco turnos, invirtiendo el efecto de la Velocidad.
+Upon entry, creates a Trick Room for four turns, inverting the effect of Speed.
+Al entrar, crea una Zona Rara durante cuatro turnos, invirtiendo el efecto de la Velocidad.
 The user's Speed is doubled while using kicking moves.
 La Velocidad del usuario es duplicada mientras usa movimientos de patada.
 The Pokémon is also Ghost-type.
@@ -43576,14 +43586,14 @@ Can't be numbed, waterlogged, leeched, trapped, or have its Speed reduced by foe
 No puede ser aturdido, embebido, infectado, atrapado, o tener su Velocidad reducida por los rivales.
 Boosts the power of kicking moves by 30%.
 Aumenta un 30% la potencia de los movimientos de patada.
-Upon entry, creates a Polarized Room for five turns, exaggerating type matchups.
-Al entrar, crea una Zona Polarizada durante cinco turnos, exagerando las efectividades de tipo.
-Upon entry, creates an Insight Room for five turns, giving everyone a fifth move.
-Al entrar, crea una Zona Esclarecedora durante cinco turnos, dando a todos un quinto movimiento.
-Upon entry, creates an Emotion Room for five turns, switching Abilities every turn.
-Al entrar, crea una Zona Emocional durante cinco turnos, que cambia Habilidades cada turno.
-Upon entry, creates a Willful Room for five turns, reducing all hits by 30 damage.
-Al entrar, crea una Zona Voluntad durante cinco turnos, reduciendo un 30 de daño todos los ataques.
+Upon entry, creates a Polarized Room for four turns, exaggerating type matchups.
+Al entrar, crea una Zona Polarizada durante cuatro turnos, exagerando las efectividades de tipo.
+Upon entry, creates an Insight Room for four turns, giving everyone a fifth move.
+Al entrar, crea una Zona Esclarecedora durante cuatro turnos, dando a todos un quinto movimiento.
+Upon entry, creates an Emotion Room for four turns, switching Abilities every turn.
+Al entrar, crea una Zona Emocional durante cuatro turnos, que cambia Habilidades cada turno.
+Upon entry, creates a Willful Room for four turns, reducing all hits by 30 damage.
+Al entrar, crea una Zona Voluntad durante cuatro turnos, reduciendo un 30 de daño todos los ataques.
 Boosts Speed by 50%, but the Pokémon is hurt for 1/10th HP each turn.
 Aumenta la Velocidad un 50%, pero el Pokémon pierde 1/10 de sus PS máximos cada turno.
 Receives 33% less move damage, but the Pokémon is hurt for 1/10th HP each turn.
@@ -43718,7 +43728,7 @@ During eclipse, its moves can't miss and always activate their random effects.
 Bajo un eclipse, sus movimientos no pueden fallar y siempre activan sus efectos secundarios.
 Prevents half the self-damage from recoil. Powers up moves that have recoil damage by 20%.
 Es protegido de la mitad de su propio daño de retroceso. Potencia movimientos que inflingen retroceso un 20%.
-AtAt the end of each turn in sunshine, each Pokémon not immune to sunshine has their Defense and Sp. Def lowered.
+At the end of each turn in sunshine, each Pokémon not immune to sunshine has their Defense and Sp. Def lowered.
 Al final de cada turno, bajo sol, cada Pokémon no inmune a la luz solar tendrá ambas stats defensivas disminuidas.
 Flinching moves always activate their random effects.
 Movimientos que amedrentan siempre activan sus efectos secundarios.
@@ -43796,8 +43806,8 @@ When it takes a hit, the Pokémon and the attacker both faint after 3 turns.
 Al ser atacado, tanto el Pokémon como su atacante son debilitados luego de 3 turnos.
 Doubles the Accuracy, critical hit rate, and chance to activate random added effects for its allies and itself.
 Duplica la precisión, índice de golpe crítico, y probabilidad de efectos secundarios aleatorios para sus aliados y sí mismo.
-After being hit by an attack, the Pokémon raises either Defense or Sp. Def based on the attack's category.
-Al ser alcanzado por un ataque, el Pokémon aumenta la stat defensiva correspondiente a la categoría del ataque.
+After being hit, the Pokémon raises either Defense or Sp. Def based on the attack's category. Caps out at +4.
+Al ser alcanzado por un ataque, el Pokémon aumenta la stat defensiva correspondiente a la categoría del ataque. Máximo de +4.
 Raises Defense and Sp. Def by three steps when its HP is lowered below half.
 Aumenta ambas stats defensivas tres grados cuando sus PS son reducidos a la mitad o más.
 Boosts the power of blade moves by 30%. Blade moves ignore the target's modified Defense and Sp. Def.
@@ -43836,6 +43846,12 @@ The Pokémon's Speed is doubled while using recoil moves.
 La Velocidad del Pokémon es duplicada al usar movimientos de retroceso.
 Boosts the power of sound moves by 30%. Sound moves ignore the target's modified Defense and Sp. Def.
 Potencia movimientos de sonido un 30%. Movimientos de corte ignoran las Defensas modificadas del objetivo.
+Whenever this Pokémon attacks a trapped foe, it is healed for half of the damage dealt.
+Cada vez que este Pokémon ataque a un enemigo atrapado, es curado por la mitad del daño que cause.
+Doubles the Pokémon's Speed in Rooms.
+Duplica la Velocidad del Pokémon dentro de una Zona.
+Takes 40% less damage while using a status move.
+Recibe 40% menos daño al usar un movimiento de estado.
 [12]
 0
 Normal
@@ -56030,6 +56046,202 @@ Lista de Misiones
 <u>Embeber</u>: Globo de Agua
 The Age of Electricity
 La Edad de la Electricidad
+{1} is protected by a diamond sheen!
+¡{1} es protegido por una capa de diamantes!
+{1} frostbite looks painful.
+La heladura de {1} se ve dolorosa.
+{1} quests
+{1} misiones
+Come back here after the Tournament.
+Regresa luego del Torneo.
+Prizca East, Capitol Building
+Prizca Oriental, Edificio de la Capital
+Go to a room in Luxtech to find information.
+Ve a una habitación en LuxTech para encontrar información..
+Return to Nora with the USB.
+Regresa a Nora con el USB.
+Head over to the Steamy Valley.
+Dirígete al Valle Humeante
+Luxtech Campus, Cold Storage
+Campus LuxTech, Refrigeración
+Explore the strange island.
+Explora la extraña isla.
+The TV talked about an island.
+La TV mencionó una isla.
+Find the item in the postgame.
+Encuentra el objeto en el postgame.
+Find the hidden entrance.
+Encuentra la entrada oculta.
+Find the grass pits.
+Regresa a los hoyos de hierba.
+Return to the hidden room.
+Regresa a la habitación oculta.
+Crown Chamber
+Cámara Corona
+You won the map to an abandoned island, what secrets could this place hold?
+Conseguiste un mapa a una isla abandonada, ¿qué secretos podría guardar este lugar?
+Sea Monster
+Monstruo Marino
+Ship Captain
+Capitán
+Find the great Pokémon.
+Encuentra al gran Pokémon.
+Aquatopia Menagerie
+Aquatopia
+A ship captain talks about a great Pokémon in the waves. Maybe you can be the one to find this beast.
+Un capitán habla de un gran Pokémon en las olas. Puede que tú seas el que encuentre a esta bestia.
+Carnation Sigil
+Sello Clavel
+Find the other piece of the sigil.
+Encuentra la otra mitad del sello.
+Discover where the sigil takes you.
+Descubre dónde te lleva el sello.
+You found a half of a sigil of some sort. Completing it might let it do something.
+Encontraste la mitad de algún tipo de sello. Puede que completarlo te deje hacer algo.
+Ruined Tower
+Torre en Ruinas
+Collect the key.
+Consigue la llave.
+You saw that a wild Pokémon was holding a key. Take it, and bring it to the tower it goes to.
+Viste a un Pokémon salvaje sosteniendo una llave. Tómala, y llévala a la torre correspondiente.
+Collect the Condensed Lights.
+Recolecta las Luces Condensadas.
+Find your frind :)
+Encuentra a tu amiga :)
+Best Friends for Light
+Mejores Amigos por Siempre
+Find your friend :)
+Encuentra a tu amiga :)
+At the name Lainie, a viscous mass of pure light formed in your bag. Find out more about the girl who's friends with all of Makya.
+Al escuchar el nombre de Lainie, una masa viscosa de pura luz se formó en tu mochila. Descubre más sobre la chica amiga de todo Makya.
+Replace Search
+Reemplazar Búsqueda
+Search Nearby
+Buscar Cerca
+Do what with this species?
+¿Hacer qué con esta especie?
+Team Submitted by {1}
+Equipo Enviado por {1}
+\PN, the champion of Makya, a challenger awaits you. Will you accept?
+\PN, campeón de Makya, un aspirante de espera. ¿Aceptas?
+Volatile Statuses
+Estados Volátiles
+What are the Volatile Statuses a Pokémon can be afflicted with?
+¿Cuáles son los Estados Volátiles que pueden afectar a un Pokémon?
+What are Volatile Statuses?
+¿Qué son los Estados Volátiles?
+Volatile Status Conditions are similar to Status Conditions, except they will go away if the Pokémon switches out.
+Los Estados Volátiles son similares a los Problemas de Estado, excepto que desaparecerán si el Pokémon regresa a su Poké Ball.
+Jinx
+Embrujado
+When jinxed, a Pokémon cannot Protect itself, and all attacks against it are guaranteed critical hits. Jinx wears off after 3 turns. Fairy-types do the most jinxing.
+Al ser embrujado, un Pokémon no puede Protegerse, y todos los ataque contra él serán críticos. El Embrujamiento se desvance luego de 3 turnos. Los tipo Hada embrujan más seguido.
+Fractured
+Fracturado
+When fractured, a Pokémon deals 33% less damage with its moves. Fracture wears off after 3 turns. Rock-types do the most fracturing.
+Al ser fracturado, los ataques del Pokémon son un 33% más débiles. La Fractura se desvanece luego de 3 turnos. Los tipos Roca fracturan más seguido.
+Curse
+Maldito
+When cursed, a Pokémon loses 25% of its HP every turn. Ghost-types do the most cursing.
+Al ser maldito, un Pokémon pierde el 25% de sus PS cada turno. Los tipo Fantasma maldicen más seguido.
+Torment
+Tormento
+When tormented, a Pokémon cannot use the same move twice in a row. If something prevents it from moving for a turn, it can choose the same move the following turn.
+Al ser atormentado, un Pokémon no puede usar el mismo movimiento dos veces seguidas. Si algo le impide usar un movimiento, puede elegir el mismo movimiento en el turno siguiente.
+Taunt
+Mofa
+When taunted, a Pokémon is prevented from using status moves.
+Al ser mofado, un Pokémon no podrá usar movimientos de estado.
+Disable
+Anulación
+When disabled, a Pokémon cannot use the move it last selected.
+Al ser anulado, un Pokémon no puede usar el movimiento que acaba de usar.
+Bar
+Veto
+When barred, a Pokémon cannot use moves that don't share a type with themselves.
+Al ser vetado, un Pokémon no puede usar movimientos que no compartan tipo con él.
+Trapping
+Atrapado
+When trapped, a Pokémon cannot switch out of battle. Includes manually switching, being forced out, or using a move like U-Turn.
+Al ser atrapado, un Pokémon no puede regresar a su Poké Ball. Incluye cambiar manualmente, ser forzado a cambiar, o usando movimientos como Ida y Vuelta.
+Substitute
+Sustituto
+A substitute blocks attacks and status effects. It has HP equal to the amount of HP it took to create it. Sound tag moves ignore substitute.
+Un sustituto bloquea ataque y problemas de estado. Tiene la misma cantidad de PS que los usados para crearlo. Movimientos de sonido ignoran sustitutos.
+Transformed
+Transformado
+A transformed Pokémon becomes a copy of another. It gains their ability, moves, stats (except HP), and step boosts.
+Un Pokémon transformado se vuelve la copia de otro. Obtiene su habilidad, movimientos, estadísticas (excepto PS), y cambios de stats.
+Perish Song
+Canto Mortal
+A Pokémon affected by Perish Song will faint when the timer ends. Avatars will be damaged for half of an HP bar.
+Un Pokémon afectado por Canto Mortal será debilitado una vez el temporizador termine. Los Avatares perderán la mitad de una barra de PS.
+Grounded
+En el Suelo
+A grounded Pokémon loses their immunity to ground moves (from being Flying-type or having a Levitate ability).
+Un Pokémon en el suelo pierde su inmunidad a los movimientos tipo tierra (si son tipo Volador o tienen la habilidad Levitación).
+Your friend!
+¡Tu amiga!
+Eventide Island
+Isla Ocaso
+Follow Chara up to the lighthouse.
+Sigue a Chara al faro.
+Explore the island.
+Explora la isla.
+Catch Cresselia.
+Atrapa a Cresselia.
+Sweetrock Lighthouse
+Faro Sweetrock
+After beating former champion Chara, she told you about an island she wants you to check out.
+Luego de vencer a la antigua campeona Chara, te dijo sobre una isla que quiere que visites.
+Explore the atoll.
+Explora el atolón.
+Vincent told you the location of a mysterious place called the Spirit Atoll. Journey to it through your boat and explore the secrets.
+Vincent te contó la ubicación de un lugar misterioso llamado Atolón Espíritu. Aventúrate con tu bote y explora sus secretos.
+Dragon Hatcher
+Incubador Dragón
+Bring one of every egg to him.
+Llévale uno de cada huevo.
+Explore the isle.
+Explora la isla.
+Samorn's House
+Casa de Samorn
+The mysterious Dragon Hatcher in Samorn's house offers to hatch the dragon eggs you find around the region.
+El misterioso Incubador Dragón en la casa de Samorn te ofrece incubar los huevo de dragón que encuentres por toda la región.
+Find and defeat the former champs.
+Encuentra y derrota a todos los antiguos campeones.
+Defeat another former champ.
+Vence a otro antiguo campeón.
+Battle Plaza
+Plaza Batalla
+Find and defeat the former champ.
+Encuentra y vence a los antiguos campeones.
+Catch Zarude.
+Atrapa a Zarude.
+Sandstone Estuary
+Estuario Arenisca
+Defeat the dojo.
+Vence el dojo.
+Ironclad Dojo
+Dojo Férreo
+Defeat the former champ.
+Vence al antiguo campeón.
+Prizca Castle
+Castilla Prizca
+Journey down and defeat the Diancie Avatar.
+Adéntrate y vence al Avatar de Diancie.
+Return to Casey.
+Regresa con Casey.
+Casey's Basement
+Sótano de Casey
+Are you sure you want {1} to forget {2}?
+¿Seguro que quieres que {1} olvide {2}?
+Success! {1} forget {2} completely.
+¡Perfecto! {1} olvidó {2} completamente.
+Delete Move
+Borrar Movimiento
+{1} is gearing up for a big release!
+¡{1} está preparando un gran ataque!
 [26]
 [27]
 [27]

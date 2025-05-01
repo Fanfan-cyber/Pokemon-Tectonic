@@ -26,7 +26,7 @@ CIRCUIT_PUZZLES = {
         :interactables =>
         [
             [:tswitch_left,2,2,0],
-            [:tswitch_left,4,2,3],
+            [:tswitch_left,4,2,1],
         ],
         :legal_states =>
         [

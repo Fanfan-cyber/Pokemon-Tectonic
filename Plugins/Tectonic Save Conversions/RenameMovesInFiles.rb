@@ -6,7 +6,7 @@ SaveData.register_conversion(:move_renaming_0) do
   end
 end
 
-SaveData.register_conversion(:move_renaming_0) do
+SaveData.register_conversion(:move_renaming_1) do
   game_version '2.0.1'
   display_title '2.0.1 move renames'
   to_all do |save_data|
@@ -14,11 +14,19 @@ SaveData.register_conversion(:move_renaming_0) do
   end
 end
 
-SaveData.register_conversion(:move_renaming_0) do
+SaveData.register_conversion(:move_renaming_2) do
   game_version '3.0.4'
   display_title '3.0.4 move renames'
   to_all do |save_data|
     renameAllSavedMovesInBatch(save_data,2)
+  end
+end
+
+SaveData.register_conversion(:move_renaming_3) do
+  game_version '3.3.1'
+  display_title '3.3.1 move renames'
+  to_all do |save_data|
+    renameAllSavedMovesInBatch(save_data,3)
   end
 end
 

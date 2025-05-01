@@ -138,7 +138,7 @@ module QuestModule
     :Name => _INTL("Down Memory Lane"),
     :QuestGiver => _INTL("Berry Farmer"),
     :Stage1 => _INTL("Bring the Pokémon to them."),
-    :Location1 => _INTL("County Park, Berry Farmer's House"),
+    :Location1 => _INTL("County Park"),
     :QuestDescription => _INTL("This former Team Chasm member has been feeling nostalgic. Bring them a Bergmite, a Klink, a Dreepy, a Makyan Tangela, and an Elekid."),
     :RewardString => _INTL("Catching Charm")
   }
@@ -176,7 +176,17 @@ module QuestModule
     :QuestGiver => _INTL("Dragon Tamer"),
     :Stage1 => _INTL("Give them 10 Big Malasadas."),
     :Location1 => _INTL("Luxtech Sewers"),
-    :QuestDescription => _INTL("[Placeholder]."),
+    :QuestDescription => _INTL("Locals are feeding the Pokémon in the sewers as compensation for the items stolen from them."),
+  }
+
+  QUEST_NOVO_WREATHS = {
+    :Name => _INTL("Don't Forget!"),
+    :QuestGiver => _INTL("Flower Keeper"),
+    :Stage1 => _INTL("Beat your 4th gym."),
+    :Stage2 => _INTL("Return to her."),
+    :Location1 => _INTL("Makya"),
+    :Location2 => _INTL("Novo Town"),
+    :QuestDescription => _INTL("A flower keeper at the south entrance of Novo Town says she'll give you a reward to celebrate completing your 4th gym. You won't forget her, right?\n\n\n\nFlower"),
   }
 
   # Gym Leader Avatars
@@ -320,7 +330,7 @@ module QuestModule
   QUEST_LEGEND_REGIROCK = {
     :Name => _INTL("The Age of Stone"),
     :QuestGiver => _INTL("???"),
-    :Stage1 => _INTL("Make your way through the dungeon."),
+    :Stage1 => _INTL("Explore the dungeon."),
     :Location1 => _INTL("Crumbling Canyon"),
     :QuestDescription => _INTL("A strange dungeon lies before you. A crumbling canyon, carved out and inhabitated in an ancient time. That ancient time may not be as far away as it seems, however..."),
   }
@@ -328,7 +338,7 @@ module QuestModule
   QUEST_LEGEND_REGICE = {
     :Name => _INTL("The Age of Ice"),
     :QuestGiver => _INTL("???"),
-    :Stage1 => _INTL("Make your way through the dungeon."),
+    :Stage1 => _INTL("Explore the dungeon."),
     :Location1 => _INTL("Mirror Tundra"),
     :QuestDescription => _INTL("A strange dungeon lies before you. A frozen wasteland, locked in time and place, rigid and reflective obstacles blocking your way. Perhaps a reflection of times long past."),
   }
@@ -336,7 +346,7 @@ module QuestModule
   QUEST_LEGEND_REGISTEEL = {
     :Name => _INTL("The Age of Steel"),
     :QuestGiver => _INTL("???"),
-    :Stage1 => _INTL("Make your way through the dungeon."),
+    :Stage1 => _INTL("Explore the dungeon."),
     :Location1 => _INTL("Alloyed Thicket"),
     :QuestDescription => _INTL("A strange dungeon lies before you. A forest made of metals and alloys. Always malleable, always changing, the line between natural and man-made thin..."),
   }
@@ -344,7 +354,7 @@ module QuestModule
   QUEST_LEGEND_REGIELEKI = {
     :Name => _INTL("The Age of Electricity"),
     :QuestGiver => _INTL("???"),
-    :Stage1 => _INTL("Make your way through the dungeon."),
+    :Stage1 => _INTL("Explore the dungeon."),
     :Location1 => _INTL("Oasis System"),
     :QuestDescription => _INTL("A strange dungeon lies before you. Circuits run throughout the entire cave, in a similar way to the small streams of water. Electrical currents flow like water, opening the way forward to your goal."),
   }
@@ -352,7 +362,7 @@ module QuestModule
   QUEST_LEGEND_REGIDRAGO = {
     :Name => _INTL("The Age of Myths"),
     :QuestGiver => _INTL("???"),
-    :Stage1 => _INTL("Make your way through the dungeon."),
+    :Stage1 => _INTL("Explore the dungeon."),
     :Location1 => _INTL("The Catacombs"),
     :QuestDescription => _INTL("A strange dungeon lies before you. Winding age-old catacombs, full of myths and legends. Stories will be the basis of humanity for as long as it will exist."),
   }
@@ -400,7 +410,7 @@ module QuestModule
   QUEST_LEGEND_VICTINI = {
     :Name => _INTL("The Novo Battle Club"),
     :QuestGiver => _INTL("Fight Club Louis"),
-    :Stage1 => _INTL("Fight your way up through the ranks."),
+    :Stage1 => _INTL("Ascend the ranks."),
     :Location1 => _INTL("Novo Town"),
     :QuestDescription => _INTL("Louis is holding a Battle Club in Novo town. Simply a way to entertain yourselves and your Pokémon."),
   }
@@ -408,7 +418,7 @@ module QuestModule
   QUEST_LEGEND_MAGEARNA = {
     :Name => _INTL("Parting With a Friend"),
     :QuestGiver => _INTL("Strange Girl"),
-    :Stage1 => _INTL("Trade her a Pokémon you've bonded with."),
+    :Stage1 => _INTL("Trade a Pokémon."),
     :Location1 => _INTL("Tournament Lobby"),
     :QuestDescription => _INTL("An odd girl in the tournament lobby has an offer. A Pokémon you've bonded with fully, for the individual she possesses... Can you make that trade?"),
   }
@@ -416,7 +426,7 @@ module QuestModule
   QUEST_LEGEND_VOLCANION1 = {
     :Name => _INTL("WIP: A Clean Library"),
     :QuestGiver => _INTL("???"),
-    :Stage1 => _INTL("Come back here after the Tournament."),
+    :Stage1 => _INTL("Return post-tournament."),
     :Location1 => _INTL("Prizca East, Capitol Building"),
     :QuestDescription => _INTL("WIP: Finally a library in this damned region, maybe there is some interesting information you can learn. Return here after you've beaten the tournament."),
   }
@@ -424,7 +434,7 @@ module QuestModule
   QUEST_LEGEND_VOLCANION2 = {
     :Name => _INTL("WIP: Volcanion"),
     :QuestGiver => _INTL("Nora"),
-    :Stage1 => _INTL("Go to a room in Luxtech to find information."),
+    :Stage1 => _INTL("Go to Luxtech to find information."),
     :Stage2 => _INTL("Return to Nora with the USB."),
     :Stage3 => _INTL("Head over to the Steamy Valley."),
     :Location1 => _INTL("Luxtech Campus, Cold Storage"),
@@ -438,7 +448,7 @@ module QuestModule
     :QuestGiver => _INTL("???"),
     :Stage1 => _INTL("Explore the strange island."),
     :Location1 => _INTL("Tri Island"),
-    :QuestDescription => _INTL("The TV talked about an island."),
+    :QuestDescription => _INTL("The TV talked about a newly discovered island off the coast. A lot of trainers will be heading there, try to be the best one."),
   }
 
   QUEST_LEGEND_CALYREX1 = {
@@ -513,7 +523,7 @@ module QuestModule
     :Stage3 => _INTL("Catch Cresselia."),
     :Location1 => _INTL("Sweetrock Lighthouse"),
     :Location2 => _INTL("Eventide Island"),
-    :Location2 => _INTL("Eventide Island"),
+    :Location3 => _INTL("Eventide Island"),
     :QuestDescription => _INTL("After beating former champion Chara, she told you about an island she wants you to check out."),
   }
 
@@ -529,80 +539,136 @@ module QuestModule
     :Name => _INTL("Isle of Dragons"),
     :QuestGiver => _INTL("Dragon Hatcher"),
     :Stage1 => _INTL("Bring one of every egg to him."),
-    :Stage1 => _INTL("Explore the isle."),
+    :Stage2 => _INTL("Explore the isle."),
     :Location1 => _INTL("Samorn's House"),
-    :Location1 => _INTL("Isle of Dragons"),
+    :Location2 => _INTL("Isle of Dragons"),
     :QuestDescription => _INTL("The mysterious Dragon Hatcher in Samorn's house offers to hatch the dragon eggs you find around the region."),
   }
 
   # Former Champions
 
   QUEST_FORMER_CHAMPIONS = {
-    :Name => _INTL("WIP: Former Champions of Makya"),
+    :Name => _INTL("Former Champions of Makya"),
     :QuestGiver => _INTL("???"),
     :Stage1 => _INTL("Find and defeat the former champs."),
     :Location1 => _INTL("Makya"),
-    :QuestDescription => _INTL("[Placeholder]."),
+    :QuestDescription => _INTL("Makya has seen their own fair share of champions over the years. Inevitably, they'll be dethroned by the next tournament, so they add up. You're going to be the best champion of them all though, aren't you? May as well show those rejects why they are only 'former'."),
   }
 
   QUEST_FORMER_ANSEL = {
-    :Name => _INTL("WIP: Former Champion Ansel"),
+    :Name => _INTL("Former Champion Ansel"),
     :QuestGiver => _INTL("Ansel"),
     :Stage1 => _INTL("Defeat another former champ."),
     :Location1 => _INTL("Battle Plaza"),
-    :QuestDescription => _INTL("[Placeholder]."),
+    :QuestDescription => _INTL("An older champion, show him the future is now. After proving your worth to him, at least."),
   }
 
   QUEST_FORMER_PRAVEEN = {
-    :Name => _INTL("WIP: Former Champion Praveen"),
+    :Name => _INTL("Former Champion Praveen"),
     :QuestGiver => _INTL("Ansel"),
     :Stage1 => _INTL("Find and defeat the former champ."),
     :Stage2 => _INTL("Catch Zarude."),
     :Location1 => _INTL("Sandstone Estuary"),
     :Location2 => _INTL("Sandstone Estuary"),
-    :QuestDescription => _INTL("[Placeholder]."),
+    :QuestDescription => _INTL("You've been informed you can now speak to the former champion known as Praveen. What's his deal?"),
   }
 
   QUEST_FORMER_SCILLA = {
-    :Name => _INTL("WIP: Former Champion Scilla"),
+    :Name => _INTL("Former Champion Scilla"),
     :QuestGiver => _INTL("Scilla"),
     :Stage1 => _INTL("Defeat the dojo."),
     :Location1 => _INTL("Ironclad Dojo"),
-    :QuestDescription => _INTL("[Placeholder]."),
+    :QuestDescription => _INTL("Scilla runs a dojo in Prizca East, but she isn't one to be paid off to get a black belt from. Crush all those wimps."),
   }
 
   QUEST_FORMER_CHARA = {
-    :Name => _INTL("WIP: Former Champion Chara"),
+    :Name => _INTL("Former Champion Chara"),
     :QuestGiver => _INTL("Scilla"),
     :Stage1 => _INTL("Find and defeat the former champ."),
     :Location1 => _INTL("Sweetrock Harbor"),
-    :QuestDescription => _INTL("[Placeholder]."),
+    :QuestDescription => _INTL("It appears Chara is your next target, found in Sweetrock. You're certain this won't be anymore challenging than your previous fight."),
   }
 
   QUEST_FORMER_ELISE = {
-    :Name => _INTL("WIP: Former Champion Elise"),
+    :Name => _INTL("Former Champion Elise"),
     :QuestGiver => _INTL("Elise"),
     :Stage1 => _INTL("Defeat the former champ."),
     :Location1 => _INTL("Prizca Castle"),
-    :QuestDescription => _INTL("[Placeholder]."),
+    :QuestDescription => _INTL("So we got a princess here, don't we? Magnificent castles can always be brought down with enough hardwork."),
   }
 
   QUEST_FORMER_VINCENT = {
-    :Name => _INTL("WIP: Former Champion Vincent"),
+    :Name => _INTL("Former Champion Vincent"),
     :QuestGiver => _INTL("Elise"),
     :Stage1 => _INTL("Find and defeat the former champ."),
     :Location1 => _INTL("Aquatopia Menagerie"),
-    :QuestDescription => _INTL("[Placeholder]."),
+    :QuestDescription => _INTL("Elise mentioned Vincent likes finding strong trainers to fight. Maybe one day you'll find a strong trainer."),
   }
 
   QUEST_FORMER_CASEY = {
-    :Name => _INTL("WIP: Former Champion Casey"),
+    :Name => _INTL("Former Champion Casey"),
     :QuestGiver => _INTL("Casey"),
-    :Stage1 => _INTL("Journey down and defeat the Diancie Avatar."),
-    :Stage1 => _INTL("Return to Casey."),
+    :Stage1 => _INTL("Clear out the Diancie Avatar."),
+    :Stage2 => _INTL("Return to Casey."),
     :Location1 => _INTL("Underpeak Tunnels"),
-    :Location1 => _INTL("Casey's Basement"),
-    :QuestDescription => _INTL("[Placeholder]."),
+    :Location2 => _INTL("Casey's Basement"),
+    :QuestDescription => _INTL("What are you, an exterminator? Oh well, avatars will always be fun to face, then you can show him what you think of his request."),
+  }
+
+  # Evo Stone Gauntlets
+
+  QUEST_STONES_KILNA = {
+    :Name => _INTL("The Kilna Thieves"),
+    :QuestGiver => _INTL("Ranger"),
+    :Stage1 => _INTL("Investigate the bandits."),
+    :Location1 => _INTL("Kilna Turf"),
+    :QuestDescription => _INTL("A ranger told you about how Kilna is strewn in items from thieves. Maybe they have a valuable stash you could take from."),
+    :RewardString => _INTL("Ice and Leaf Stone")
+  }
+
+  QUEST_STONES_SVAIT = {
+    :Name => _INTL("Rowdy Tourists"),
+    :QuestGiver => _INTL("Tourist Hater"),
+    :Stage1 => _INTL("Calm them down."),
+    :Location1 => _INTL("Svait"),
+    :QuestDescription => _INTL("You're hearing things are getting pretty rowdy with these tourists. Teach them you should always respect the places you visit!"),
+    :RewardString => _INTL("Alolan and Galarian Wreath")
+  }
+
+  QUEST_STONES_VELENZ = {
+    :Name => _INTL("Power of the Stone"),
+    :QuestGiver => _INTL("???"),
+    :Stage1 => _INTL("Release the influence."),
+    :Location1 => _INTL("Velenz"),
+    :QuestDescription => _INTL("Appears these people are being influenced by a strange rock... probably not healthy to leave them like that, could be radioactive."),
+    :RewardString => _INTL("Shiny and Moon Stone")
+  }
+
+  QUEST_STONES_SUICUNE = {
+    :Name => _INTL("Clearwater Cave"),
+    :QuestGiver => _INTL("???"),
+    :Stage1 => _INTL("Defeat the avatar."),
+    :Location1 => _INTL("Grouz"),
+    :QuestDescription => _INTL("A powerful avatar of Suicune is being contained in this cave. Perhaps it is guarding something valuable..."),
+    :RewardString => _INTL("Water and Dawn Stone")
+  }
+
+  QUEST_STONES_RAIKOU = {
+    :Name => _INTL("Six Spire Cave"),
+    :QuestGiver => _INTL("???"),
+    :Stage1 => _INTL("Defeat the avatar."),
+    :Location1 => _INTL("The Shelf"),
+    :QuestDescription => _INTL("A powerful avatar of Raikou is being contained in this cave. Perhaps it is guarding something valuable..."),
+    :RewardString => _INTL("Thunder and Dusk Stone")
+  }
+
+  QUEST_STONES_ENTEI = {
+    :Name => _INTL("Volcanic Cave"),
+    :QuestGiver => _INTL("???"),
+    :Stage1 => _INTL("Defeat the avatar."),
+    :Location1 => _INTL("County Park"),
+    :QuestDescription => _INTL("A powerful avatar of Entei is being contained in this cave. Perhaps it is guarding something valuable..."),
+    :RewardString => _INTL("Fire and Sun Stone")
   }
 
 end

@@ -1598,7 +1598,7 @@ Accuracy = 100
 TotalPP = 12
 Target = NearOther
 FunctionCode = LowerTargetDef1
-Flags = CanProtect
+Flags = CanProtect,Punch
 EffectChance = 20
 Description = The user attacks with a strong punch. It has a 20% chance to lower Defense.
 #-------------------------------

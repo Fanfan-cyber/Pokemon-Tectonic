@@ -365,7 +365,7 @@ Description = A lullaby is sung in a calming voice that puts the target with hal
 Animation = SING
 #-------------------------------
 [MULTISTRIKE]
-Name = Multi-strike
+Name = Multi-Strike
 Type = NORMAL
 Category = Adaptive
 Power = 15
@@ -1991,8 +1991,8 @@ Flags = CanProtect
 Description = The user sweeps away hazards afflicting your side while charging. User also takes 33% recoil.
 Animation = HEADSMASH
 #-------------------------------
-[INVITESAND]
-Name = Invite Sand
+[INVITESANDSTORM]
+Name = Invite Sandstorm
 Type = ROCK
 Category = Status
 Accuracy = 0
@@ -2025,6 +2025,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = FractureTarget
 Flags = CanProtect
+EffectChance = 100
 Description = The user drops a single piece of solid bedrock on the target, fracturing them.
 Animation = CONTINENTALCRUSH
 #-------------------------------
@@ -2962,6 +2963,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = CurseTarget
 Flags = CanProtect
+EffectChance = 100
 Description = The user snips the target's connection to life in order to curse them, damaging their HP by 25% each turn.
 #-------------------------------
 [THINAIR]
@@ -3125,7 +3127,7 @@ FunctionCode = FeatherWard
 Flags = CanMagicCoat
 Description = The user lays a trap of sharp feathers around the foe. It hurts foes that switch into battle.
 #-------------------------------
-[FLETCHETTES]
+[FLECHETTES]
 Name = Fletchettes
 Type = STEEL
 Category = Special
@@ -3680,8 +3682,8 @@ Flags = CanProtect
 EffectChance = 30
 Description = The user cloaks itself in a fierce blaze and attacks. It has a 10% chance to raise Speed.
 #-------------------------------
-[INVITESUN]
-Name = Invite Sun
+[INVITESUNSHINE]
+Name = Invite Sunshine
 Type = FIRE
 Category = Status
 Accuracy = 0
@@ -4110,7 +4112,7 @@ EffectChance = 30
 Description = The target is immersed in water, having a 30% chance to becomed Waterlogged.
 Animation = WATERGUN
 #-------------------------------
-[INVITERAIN]
+[INVITERAINSTORM]
 Name = Invite Rainstorm
 Type = WATER
 Category = Status
@@ -4879,18 +4881,6 @@ EffectChance = 20
 Description = The user and the target pit their energy against one another. The damage is based on the target's Sp. Atk rather than their Sp. Def.
 Animation = HYPERBEAM
 #-------------------------------
-[BROADCASTBLAST]
-Name = Broadcast Blast
-Type = ELECTRIC
-Category = Status
-Accuracy = 0
-TotalPP = 1
-Target = User
-FunctionCode = UseAllOtherSoundMoves
-Flags = Sound
-Description = The user rocks out by using each Sound-based move they know. Only one use per battle.
-Animation = UPROAR
-#-------------------------------
 [CAPACITYBURST]
 Name = Capacity Burst
 Type = ELECTRIC
@@ -5247,6 +5237,18 @@ Target = NearOther
 FunctionCode = DamageBoost50PercentNotTargetFirstTurn
 Flags = CanProtect
 Description = Launches many homing bolts. Deals 50% more damage unless it's the first turn the target is in battle.
+#-------------------------------
+[WALLOFSOUND]
+Name = Wall of Sound
+Type = ELECTRIC
+Category = Status
+Accuracy = 0
+TotalPP = 1
+Target = User
+FunctionCode = UseAllOtherSoundMoves
+Flags = Sound
+Description = The user rocks out by using each Sound-based move they know. Only one use per battle.
+Animation = UPROAR
 #-------------------------------
 #		PSYCHIC MOVES
 #-------------------------------
@@ -6521,8 +6523,8 @@ Flags = CanProtect
 Description = The user removes the energy and light around the target. Super effective vs Electric-types.
 Animation = DARKVOID
 #-------------------------------
-[BULLY]
-Name = Bully
+[BROWBEAT]
+Name = Browbeat
 Type = DARK
 Category = Physical
 Power = 80

@@ -42,6 +42,24 @@ def completeSpiritAtollQuest
     end
 end
 
+def completeKilnaThievesQuest
+    if pbGetSelfSwitch(37, 'A', 3) && pbGetSelfSwitch(42, 'A', 3)
+        advanceQuestToStage(:QUEST_STONES_KILNA)
+    end
+end
+
+def completeSvaitTouristsQuest
+    if pbGetSelfSwitch(37, 'A', 8) && pbGetSelfSwitch(42, 'A', 8)
+        advanceQuestToStage(:QUEST_STONES_SVAIT)
+    end
+end
+
+def completeStrangeStoneQuest
+    if pbGetSelfSwitch(43, 'A', 3) && pbGetSelfSwitch(44, 'A', 3)
+        advanceQuestToStage(:QUEST_STONES_VELENZ)
+    end
+end
+
 # Ends quest if Lugia is caught
 
 BallHandlers::OnPokemonCaught += proc { |ball, battle, pkmn|

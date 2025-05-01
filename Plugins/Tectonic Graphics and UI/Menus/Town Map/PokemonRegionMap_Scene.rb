@@ -146,7 +146,7 @@ class PokemonRegionMap_Scene
             waypointInfo = activeWaypoint[1]
             mapDisplayPosition = $waypoints_tracker.mapPositionHash[waypointName]
             if mapDisplayPosition.nil?
-                pbMessage(_INTL("No proper map position is known for totem ID {1}. Please inform a programmer about this.",waypointName))
+                echoln _INTL("No proper map position is known for totem ID {1}. Please inform a programmer about this.",waypointName)
                 next
             end
             xPos = mapDisplayPosition[1]

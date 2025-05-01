@@ -1046,29 +1046,12 @@ class PokemonPokedex_Scene
                     end
                 end
 
-                lineBehaviourSelection = pbMessage("Tutor or line moves?",
-[_INTL("Line"), _INTL("Tutor"), _INTL("Cancel")], 3)
-                return if lineBehaviourSelection == 2
-
                 speciesToEdit = []
                 @dexlist.each do |dexlist_entry|
                     species = dexlist_entry[:species]
                     speciesData = GameData::Species.get(species)
-
                     next if speciesData.canTutorAny?
-
-                    # Grab the prevos and evos
-                    if lineBehaviourSelection == 1
-                        speciesToEdit.push(species)
-                        getPrevosInLineAsList(speciesData).each do |prevoSpecies|
-                            speciesToEdit.push(prevoSpecies)
-                        end
-                        getEvosInLineAsList(speciesData).each do |evoSpecies|
-                            speciesToEdit.push(evoSpecies)
-                        end
-                    else
-                        speciesToEdit.push(speciesData.get_line_start.id)
-                    end
+                    speciesToEdit.push(speciesData.get_line_start.id)
                 end
 
                 speciesToEdit.uniq!
@@ -1080,10 +1063,8 @@ class PokemonPokedex_Scene
                     echoln("Adding #{actualMoveID} to tutorable movesets:")
                     speciesToEdit.each do |species|
                         speciesData = GameData::Species.get(species)
-                        movesList = [speciesData.line_moves, speciesData.tutor_moves][lineBehaviourSelection]
-                        movesList = speciesData.tutor_moves if speciesData.is_solitary?
-                        next if movesList.include?(actualMoveID)
-                        movesList.push(actualMoveID)
+                        next if speciesData.line_moves.include?(actualMoveID)
+                        speciesData.line_moves.push(actualMoveID)
                         echoln(species)
                         speciesEdited += 1
                     end
@@ -1091,10 +1072,8 @@ class PokemonPokedex_Scene
                     echoln("Deleting #{actualMoveID} from tutorable movesets:")
                     speciesToEdit.each do |species|
                         speciesData = GameData::Species.get(species)
-                        movesList = [speciesData.line_moves, speciesData.tutor_moves][lineBehaviourSelection]
-                        movesList = speciesData.tutor_moves if speciesData.is_solitary?
-                        next unless movesList.include?(actualMoveID)
-                        movesList.delete(actualMoveID)
+                        next unless speciesData.line_moves.include?(actualMoveID)
+                        speciesData.line_moves.delete(actualMoveID)
                         echoln(species)
                         speciesEdited += 1
                     end
@@ -1102,12 +1081,10 @@ class PokemonPokedex_Scene
                     echoln("Replacing #{actualMoveID} in tutorable movesets with #{replacementActualMoveID}:")
                     speciesToEdit.each do |species|
                         speciesData = GameData::Species.get(species)
-                        movesList = [speciesData.line_moves, speciesData.tutor_moves][lineBehaviourSelection]
-                        movesList = speciesData.tutor_moves if speciesData.is_solitary?
-                        next unless movesList.include?(actualMoveID)
-                        next if movesList.include?(replacementActualMoveID)
-                        movesList.delete(actualMoveID)
-                        movesList.push(replacementActualMoveID)
+                        next unless speciesData.line_moves.include?(actualMoveID)
+                        next if speciesData.line_moves.include?(replacementActualMoveID)
+                        speciesData.line_moves.delete(actualMoveID)
+                        speciesData.line_moves.push(replacementActualMoveID)
                         echoln(species)
                         speciesEdited += 1
                     end
