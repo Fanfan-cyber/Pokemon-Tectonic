@@ -44,7 +44,7 @@ end
 
 def completeKilnaThievesQuest
     if pbGetSelfSwitch(37, 'A', 3) && pbGetSelfSwitch(42, 'A', 3)
-        advanceQuestToStage(:QUEST_STONES_KILNA)
+        completeQuest(:QUEST_STONES_KILNA)
     end
 end
 

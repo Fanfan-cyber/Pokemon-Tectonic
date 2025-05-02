@@ -351,6 +351,10 @@ Name = Darkened Skies
 Description = Powers up Dark-type moves by 50% in sandstorm.
 Flags = SandstormSynergy
 #-------------------------------
+[DARKSCALECLOUD]
+Name = Darkscale Cloud
+Description = While the Pokémon is below half health, its attacks poisons those hit.
+#-------------------------------
 [DARTER]
 Name = Darter
 Description = Takes 30% less move damage if a Tailwind is blowing.
