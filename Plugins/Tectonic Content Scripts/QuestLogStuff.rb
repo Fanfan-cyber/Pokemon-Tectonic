@@ -18,7 +18,7 @@ def completeGuardianIslandQuest
     end
 end
 
-def stageTwoSigiLQuest
+def stageTwoSigilQuest
     if pbGetSelfSwitch(1, 'A', 135) && pbGetSelfSwitch(7, 'A', 330)
         advanceQuestToStage(:QUEST_LEGEND_SIGIL, 2)
     end
@@ -32,13 +32,13 @@ end
 
 def completeDragonIsleQuest
     if pbGetSelfSwitch(1, 'A', 356) && pbGetSelfSwitch(2, 'A', 356)
-        advanceQuestToStage(:QUEST_LEGEND_DRAGON_ISLE)
+        completeQuest(:QUEST_LEGEND_DRAGON_ISLE)
     end
 end
 
 def completeSpiritAtollQuest
     if pbGetSelfSwitch(1, 'A', 375) && pbGetSelfSwitch(1, 'A', 419) && pbGetSelfSwitch(1, 'A', 420)
-        advanceQuestToStage(:QUEST_LEGEND_ATOLL)
+        completeQuest(:QUEST_LEGEND_ATOLL)
     end
 end
 
@@ -50,13 +50,13 @@ end
 
 def completeSvaitTouristsQuest
     if pbGetSelfSwitch(37, 'A', 8) && pbGetSelfSwitch(42, 'A', 8)
-        advanceQuestToStage(:QUEST_STONES_SVAIT)
+        completeQuest(:QUEST_STONES_SVAIT)
     end
 end
 
 def completeStrangeStoneQuest
     if pbGetSelfSwitch(43, 'A', 3) && pbGetSelfSwitch(44, 'A', 3)
-        advanceQuestToStage(:QUEST_STONES_VELENZ)
+        completeQuest(:QUEST_STONES_VELENZ)
     end
 end
 

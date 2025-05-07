@@ -829,6 +829,7 @@ GameData::BattleEffect.register_effect(:Battler, {
     :id => :PerishSong,
     :real_name => "Perish Song Turns",
     :type => :Integer,
+    :avatars_purge => true,
     :baton_passed => true,
     :apply_proc => proc do |battle, battler, value|
         if battler.boss?
@@ -856,6 +857,9 @@ GameData::BattleEffect.register_effect(:Battler, {
             battle.scene.reviveBattler(battler.index)
             battler.hideMyAbilitySplash
         end
+    end,
+    :disable_proc => proc do |battle, battler|
+        battle.pbDisplay(_INTL("{1} was freed from the memory of the Perish Song!", battler.pbThis))
     end,
 })
 

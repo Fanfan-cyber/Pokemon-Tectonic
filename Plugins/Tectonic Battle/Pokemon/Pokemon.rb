@@ -1405,15 +1405,12 @@ class Pokemon
         # Calculate stats
         stats = {}
         stylish = hasAbility?(:STYLISH)
+        accumulation = hasAbility?(:ACCUMULATION)
         GameData::Stat.each_main do |s|
-            if s.id == :HP
-                hpValue = calcHPGlobal(base_stats[s.id], this_level, @ev[s.id], stylish)
-                stats[s.id] = (hpValue * hpMult).ceil
-            elsif (s.id == :ATTACK) || (s.id == :SPECIAL_ATTACK)
-                stats[s.id] = calcStatGlobal(base_stats[s.id], this_level, @ev[s.id], stylish)
-            else
-                stats[s.id] = calcStatGlobal(base_stats[s.id], this_level, @ev[s.id], stylish)
-            end
+            isHP = s.id == :HP
+            statValue = calcStatGlobal(base_stats[s.id], this_level, @ev[s.id], hp: isHP, stylish: stylish, accumulation: accumulation)
+            statValue = (statValue * hpMult).ceil if isHP
+            stats[s.id] = statValue
         end
         return stats
     end

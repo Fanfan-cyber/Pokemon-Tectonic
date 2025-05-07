@@ -4921,14 +4921,14 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [PUMPKABOO,2]
-BackSprite = 0,0
-FrontSprite = 0,32
+BackSprite = 0,29
+FrontSprite = 0,33
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [PUMPKABOO,3]
-BackSprite = 0,0
-FrontSprite = 0,31
+BackSprite = 0,29
+FrontSprite = 0,33
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
@@ -5588,12 +5588,6 @@ ShadowSize = 2
 #-------------------------------
 [SILVALLY]
 BackSprite = 0,7
-FrontSprite = 0,12
-ShadowX = 0
-ShadowSize = 2
-#-------------------------------
-[SILVALLY,9]
-BackSprite = 0,0
 FrontSprite = 0,12
 ShadowX = 0
 ShadowSize = 2

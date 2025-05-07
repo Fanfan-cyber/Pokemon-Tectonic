@@ -15,7 +15,6 @@ class Options
     attr_accessor :particle_effects
     attr_accessor :overworld_weather
     attr_accessor :screenshake
-    attr_accessor :skip_fades
     attr_accessor :damage_numbers
     attr_accessor :show_item_descriptions
     attr_accessor :show_trait_unlocks
@@ -86,7 +85,6 @@ class Options
         @forced_time_tint               = 0 # (0=off,1=morning,2=mid-day,3=evening,4=night)
         @screenshake                    = 0 # (0=true, 1=false)
         @flashing_weather               = 0 # (0=true, 1=false)
-        @skip_fades                     = 1 # (0=true, 1=false)
         @damage_numbers                 = 0 # (0=true, 1=false)
         @show_item_descriptions         = $DEBUG ? 1 : 0 # (0=true, 1=false)
         @effectiveness_messages         = 0 # (0=true, 1=false)

@@ -409,8 +409,12 @@ class PokemonPokedex_Scene
             when 0..5
                 statToCompareA = species_data.base_stats[comparitorA]
             when 6
-                statToCompareA = species_data.physical_ehp
+                species_data.base_stats.each do |statName, statValue|
+                    statToCompareA += statValue
+                end
             when 7
+                statToCompareA = species_data.physical_ehp
+            when 8
                 statToCompareA = species_data.special_ehp
             end
 

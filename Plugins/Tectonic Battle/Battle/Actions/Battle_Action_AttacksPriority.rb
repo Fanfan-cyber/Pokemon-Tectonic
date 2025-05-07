@@ -262,7 +262,7 @@ class PokeBattle_Battle
         priority += ret if ret
 
         priority -= 1 if pbCheckGlobalAbility(:HONORABLE) && move.statusMove?
-        user.eachActiveAbility do |ability|
+        user.eachAbilityShouldApply(aiCheck) do |ability|
             abilityPriorityChange = BattleHandlers.triggerPriorityChangeAbility(ability, user, move, 0, targets, aiCheck)
             priority += abilityPriorityChange
         end

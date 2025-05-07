@@ -89,6 +89,18 @@ class PokeBattle_Move_EffectDependsOnEnvironment < PokeBattle_Move
     def getTargetAffectingEffectScore(_user, target)
         return 20
     end
+
+    def getDetailsForMoveDex(detailsList = [])
+        detailsList << _INTL("The secondary effect of this move will change depending on the environment")
+        detailsList << _INTL("<u>Rocky, Sandy, Volcanos</u>: Burn")
+        detailsList << _INTL("<u>Grassy</u>: Sleep")
+        detailsList << _INTL("<u>Snowy</u>: Frostbite")
+        detailsList << _INTL("<u>Moving and Still Water</u>: Waterlog")
+        detailsList << _INTL("<u>Caves, Graveyards, and Space</u>: Flinch")
+        detailsList << _INTL("<u>Puddles</u>: Lower Speed by 2 steps")
+        detailsList << _INTL("<u>In The Sky</u>: Lower Speed by 1 step")
+        detailsList << _INTL("<u>Everywhere Else</u>: Numb")
+    end
 end
 
 #===============================================================================

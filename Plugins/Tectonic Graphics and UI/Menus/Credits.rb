@@ -12,7 +12,6 @@ Tirankin<s>Ci
 Yufeng<s>Riptidecord
 LunaFlare
 
-
 Other Contributors
 Arenastellez<s>Zufaix
 Fbarbarosa<s>ctWizard
@@ -30,6 +29,7 @@ princessroxie<s>Joaquín Arellano
 M1ntyFr3shD4n<s>pechapanda
 zombygoast<s>elusivestowaway
 Kei<s>Atteathesilly
+noodleman
 
 {INSERTS_PLUGIN_CREDITS_DO_NOT_REMOVE}
 

@@ -82,7 +82,7 @@ class PokeBattle_AI
                 next unless b
                 abilityBlocked = false
                 b.eachAIKnownActiveAbility do |ability|
-                    next unless BattleHandlers.triggerMoveBlockingAbility(ability, b, user, [target], move, @battle)
+                    next unless BattleHandlers.triggerMoveBlockingAbility(ability, b, user, [target], move, @battle, true)
                     abilityBlocked = true
                     break
                 end

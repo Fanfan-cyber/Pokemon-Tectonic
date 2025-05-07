@@ -1,61 +1,5 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-[PIKACHU,3]
-FormName = Cosplay
-Pokedex = Whenever Pikachu comes across something new, it blasts it with a jolt of electricity. If you come across a blackened berry, it's evidence that this Pokémon mistook the intensity of its charge.
-#-------------------------------
-[PIKACHU,4]
-FormName = Cosplay - Belle
-Pokedex = Whenever Pikachu comes across something new, it blasts it with a jolt of electricity. If you come across a blackened berry, it's evidence that this Pokémon mistook the intensity of its charge.
-#-------------------------------
-[PIKACHU,5]
-FormName = Cosplay - Libre
-Pokedex = Whenever Pikachu comes across something new, it blasts it with a jolt of electricity. If you come across a blackened berry, it's evidence that this Pokémon mistook the intensity of its charge.
-#-------------------------------
-[PIKACHU,6]
-FormName = Cosplay - Ph.D.
-Pokedex = Whenever Pikachu comes across something new, it blasts it with a jolt of electricity. If you come across a blackened berry, it's evidence that this Pokémon mistook the intensity of its charge.
-#-------------------------------
-[PIKACHU,7]
-FormName = Cosplay - Pop Star
-Pokedex = Whenever Pikachu comes across something new, it blasts it with a jolt of electricity. If you come across a blackened berry, it's evidence that this Pokémon mistook the intensity of its charge.
-#-------------------------------
-[PIKACHU,8]
-FormName = Cosplay - Rock Star
-Pokedex = Whenever Pikachu comes across something new, it blasts it with a jolt of electricity. If you come across a blackened berry, it's evidence that this Pokémon mistook the intensity of its charge.
-#-------------------------------
-[PIKACHU,9]
-FormName = Original Cap
-Pokedex = This Pikachu wears its partner's cap, which is brimming with memories of traveling through many different regions.
-#-------------------------------
-[PIKACHU,10]
-FormName = Hoenn Cap
-Pokedex = This Pikachu wears its partner's cap, which is brimming with memories of traveling through the Hoenn region.
-#-------------------------------
-[PIKACHU,11]
-FormName = Sinnoh Cap
-Pokedex = This Pikachu wears its partner's cap, which is brimming with memories of traveling through the Sinnoh region.
-#-------------------------------
-[PIKACHU,12]
-FormName = Unova Cap
-Pokedex = This Pikachu wears its partner's cap, which is brimming with memories of traveling through the Unova region.
-#-------------------------------
-[PIKACHU,13]
-FormName = Kalos Cap
-Pokedex = This Pikachu wears its partner's cap, which is brimming with memories of traveling through the Kalos region.
-#-------------------------------
-[PIKACHU,14]
-FormName = Alola Cap
-Pokedex = This Pikachu wears its partner's cap, which is brimming with memories of traveling through the Alola region.
-#-------------------------------
-[PIKACHU,15]
-FormName = Partner Cap
-Pokedex = This Pikachu wears its partner's cap, which is brimming with memories of when they first met.
-#-------------------------------
-[PIKACHU,16]
-FormName = World Cap
-Pokedex = This Pikachu is wearing its Trainer's cap. The cap is a precious symbol that travels across different regions with Pikachu.
-#-------------------------------
 [UNOWN,1]
 FormName = B
 #-------------------------------
@@ -589,9 +533,6 @@ BaseStats = 77,70,77,49,84,77
 Height = 0.8
 Weight = 15.0
 Pokedex = Massive Pumpkaboo are said to be the product of areas where a great number of lost souls lingered.
-WildItemCommon = MIRACLESEED
-WildItemUncommon = MIRACLESEED
-WildItemRare = MIRACLESEED
 #-------------------------------
 [GOURGEIST,1]
 FormName = Average Size
@@ -836,10 +777,6 @@ BaseStats = 97,167,97,129,167,97
 Abilities = NEUROFORCE
 Height = 7.5
 #-------------------------------
-[MAGEARNA,1]
-FormName = Original Color
-Pokedex = This gorgeous Magearna looks as it did at the time of its invention. Its luxurious decoration pleased the king's daughter.
-#-------------------------------
 [CRAMORANT,1]
 FormName = Gulping
 Pokedex = The slightest shock is sometimes enough to get this Pokémon to spit out the Arrokuda lodged in its throat.
@@ -852,15 +789,6 @@ Pokedex = The half-swallowed Pikachu is so startled that it isn't struggling yet
 FormName = Noice Face
 BaseStats = 85,90,105,100,90,50
 Pokedex = The hair on its head connects to the surface of its brain. When this Pokémon has something on its mind, its hair chills the air around it.
-#-------------------------------
-[SINISTEA,1]
-FormName = Antique
-Pokedex = It absorbs the life-force of those who drink it. It waits patiently, but opportunities are fleeting—it tastes so bad that it gets spat out immediately.
-Evolutions = POLTEAGEIST,Item,CHIPPEDPOT
-#-------------------------------
-[POLTEAGEIST,1]
-FormName = Antique
-Pokedex = Trainers Polteageist trusts will be allowed to experience its distinctive flavor and aroma firsthand by sampling just a tiny bit of its tea.
 #-------------------------------
 [INDEEDEE,1]
 FormName = Female

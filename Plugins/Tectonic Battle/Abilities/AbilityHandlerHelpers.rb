@@ -124,7 +124,9 @@ def entryTrappingAbility(ability, battler, battle, trappingMove, trappingDuratio
     return score
 end
 
-def entryLowestHealingAbility(ability, battler, battle, healingFraction = 0.5, aiCheck: false, &block)
+ENTRY_LOWEST_HEALING_ABILITY_FRACTION = 1.0/3.0
+
+def entryLowestHealingAbility(ability, battler, battle, aiCheck: false, &block)
     lowestId = battler.index
     lowestPercent = battler.hp / battler.totalhp.to_f
     battler.eachAlly do |b|
@@ -137,13 +139,13 @@ def entryLowestHealingAbility(ability, battler, battle, healingFraction = 0.5, a
     lowestIdBattler = battle.battlers[lowestId]
     if aiCheck    
         return 0 unless lowestIdBattler.canHeal?
-        healingScore = lowestIdBattler.applyFractionalHealing(healingFraction, aiCheck: true)
+        healingScore = lowestIdBattler.applyFractionalHealing(ENTRY_LOWEST_HEALING_ABILITY_FRACTION, aiCheck: true)
         return healingScore
     end
     served = (lowestId == battler.index ? "itself" : lowestIdBattler.pbThis)
     healMessage = block.call(served)
     battle.pbShowAbilitySplash(battler, ability)
-    lowestIdBattler.applyFractionalHealing(healingFraction, customMessage: healMessage)
+    lowestIdBattler.applyFractionalHealing(ENTRY_LOWEST_HEALING_ABILITY_FRACTION, customMessage: healMessage)
     battle.pbHideAbilitySplash(battler)
 end
 

@@ -100,7 +100,7 @@ class PokeBattle_Battler
 
     # Don't use for HP
     def recalcStat(stat, base)
-        return calcStatGlobal(base, @level, @pokemon.ev[stat], hasActiveAbility?(:STYLISH))
+        return calcStatGlobal(base, @level, @pokemon.ev[stat], stylish: hasActiveAbility?(:STYLISH), accumulation: hasActiveAbility?(:ACCUMULATION))
     end
 
     def base_attack

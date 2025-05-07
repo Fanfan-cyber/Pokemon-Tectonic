@@ -30,14 +30,14 @@ class PokeBattle_Move_RaiseTargetSpAtkSpDef2 < PokeBattle_TargetMultiStatUpMove
 end
 
 #===============================================================================
-# Increases target's Defense and Special Defense by 3 steps. (Aromatic Mist)
+# Increases target's Defense and Special Defense by 2 steps. (Aromatic Mist)
 #===============================================================================
-class PokeBattle_Move_RaiseTargetDefSpDef3 < PokeBattle_TargetMultiStatUpMove
+class PokeBattle_Move_RaiseTargetDefSpDef2 < PokeBattle_TargetMultiStatUpMove
     def ignoresSubstitute?(_user); return true; end
 
     def initialize(battle, move)
         super
-        @statUp = [:DEFENSE, 3, :SPECIAL_DEFENSE, 3]
+        @statUp = [:DEFENSE, 2, :SPECIAL_DEFENSE, 2]
     end
 end
 

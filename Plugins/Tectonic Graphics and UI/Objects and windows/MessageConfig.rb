@@ -695,7 +695,6 @@ end
 def pbFadeOutAndHide(sprites)
     visiblesprites = {}
     numFrames = (Graphics.frame_rate * 0.4).floor
-    numFrames = 1 if $Options.skip_fades == 0
     alphaDiff = (255.0 / numFrames).ceil
     pbDeactivateWindows(sprites) do
         for j in 0..numFrames
@@ -719,7 +718,6 @@ def pbFadeInAndShow(sprites, visiblesprites = nil, duration: 0.4)
         end
     end
     numFrames = (Graphics.frame_rate * duration).floor
-    numFrames = 1 if $Options.skip_fades == 0
     alphaDiff = (255.0 / numFrames).ceil
     pbDeactivateWindows(sprites) do
         for j in 0..numFrames

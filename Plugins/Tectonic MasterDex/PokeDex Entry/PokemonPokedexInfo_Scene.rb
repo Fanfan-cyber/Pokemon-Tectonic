@@ -1382,7 +1382,7 @@ sp.form) && !Settings::DEX_SHOWS_ALL_FORMS
             coordinateY += 32
 
             # Pokeball catch chance
-            totalHP = calcHPGlobal(fSpecies.base_stats[:HP], 40, 8)
+            totalHP = calcStatGlobal(fSpecies.base_stats[:HP], 40, 8, hp: true)
             currentHP = (totalHP * 0.15).floor
             chanceToCatch = theoreticalCaptureChance(:NONE, currentHP, totalHP, fSpecies.catch_rate)
             chanceToCatch = (chanceToCatch * 10_000).floor / 100.0

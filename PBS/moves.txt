@@ -300,7 +300,7 @@ Type = NORMAL
 Category = Physical
 Power = 25
 Accuracy = 100
-TotalPP = 12
+TotalPP = 15
 Target = NearOther
 FunctionCode = HitTwoToFiveTimes
 Flags = CanProtect,Blade,CanRandomCrit
@@ -760,19 +760,6 @@ Target = NearOther
 FunctionCode = LowerTargetDef4
 Flags = CanProtect,CanMagicCoat,Sound
 Description = The user's earsplitting screech reduces the target's Defense stat by four steps.
-#-------------------------------
-[SECRETPOWER]
-Name = Secret Power
-Type = NORMAL
-Category = Adaptive
-Power = 120
-Accuracy = 100
-TotalPP = 15
-Target = NearOther
-FunctionCode = EffectDependsOnEnvironment
-Flags = CanProtect
-EffectChance = 30
-Description = The user attacks with a secret power. Its added effects vary depending on the user's environment.
 #-------------------------------
 [SELFDESTRUCT]
 Name = Self-Destruct
@@ -2236,7 +2223,7 @@ Type = GROUND
 Category = Physical
 Power = 25
 Accuracy = 100
-TotalPP = 10
+TotalPP = 15
 Target = NearOther
 FunctionCode = HitTwoToFiveTimes
 Flags = CanProtect
@@ -2507,7 +2494,7 @@ Type = ROCK
 Category = Physical
 Power = 25
 Accuracy = 100
-TotalPP = 10
+TotalPP = 15
 Target = NearOther
 FunctionCode = HitTwoToFiveTimes
 Flags = CanProtect
@@ -3470,7 +3457,7 @@ Type = STEEL
 Category = Physical
 Power = 25
 Accuracy = 100
-TotalPP = 20
+TotalPP = 15
 Target = NearOther
 FunctionCode = HitTwoToFiveTimes
 Flags = CanProtect
@@ -3524,6 +3511,21 @@ Target = User
 FunctionCode = RaiseUserAtk4
 Flags = CanSnatch,Dance
 Description = A frenetic dance to uplift the fighting spirit. It raises the user's Attack stat by four steps.
+#-------------------------------
+#		QMARKS MOVES
+#-------------------------------
+[SECRETPOWER]
+Name = Secret Power
+Type = QMARKS
+Category = Adaptive
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = EffectDependsOnEnvironment
+Flags = CanProtect
+EffectChance = 30
+Description = The user attacks with a secret power. Its added effects vary depending on the user's environment.
 #-------------------------------
 #		FIRE MOVES
 #-------------------------------
@@ -4276,7 +4278,7 @@ Type = WATER
 Category = Special
 Power = 15
 Accuracy = 100
-TotalPP = 10
+TotalPP = 15
 Target = NearOther
 Priority = 1
 FunctionCode = HitTwoToFiveTimes
@@ -4338,7 +4340,7 @@ Type = GRASS
 Category = Physical
 Power = 25
 Accuracy = 100
-TotalPP = 25
+TotalPP = 15
 Target = NearOther
 FunctionCode = HitTwoToFiveTimes
 Flags = CanProtect
@@ -5722,7 +5724,7 @@ Type = ICE
 Category = Physical
 Power = 25
 Accuracy = 100
-TotalPP = 25
+TotalPP = 15
 Target = NearOther
 FunctionCode = HitTwoToFiveTimes
 Flags = CanProtect
@@ -6470,10 +6472,10 @@ Name = Aromatic Mist
 Type = FAIRY
 Category = Status
 Accuracy = 0
-TotalPP = 15
+TotalPP = 4
 Target = NearAlly
-FunctionCode = RaiseTargetDefSpDef3
-Description = The user raises the Defense and Sp. Def stat of an ally Pokémon by three steps using a mysterious aroma.
+FunctionCode = RaiseTargetDefSpDef2
+Description = The user raises the Defense and Sp. Def stats of an ally Pokémon by two steps using a mysterious aroma.
 #-------------------------------
 [BABYDOLLEYES]
 Name = Baby-Doll Eyes

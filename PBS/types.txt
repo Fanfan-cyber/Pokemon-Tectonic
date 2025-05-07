@@ -79,6 +79,8 @@ Immunities = POISON
 [9]
 Name = ???
 InternalName = QMARKS
+Color = 104,160,144
+DarkColor = 32,104,96
 IsPseudoType = true
 #-------------------------------
 [10]

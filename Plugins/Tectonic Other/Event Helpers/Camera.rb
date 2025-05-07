@@ -1,11 +1,7 @@
 def blackFadeOutIn(length=10,&block)
-	if $Options.skip_fades == 1 || !$DEBUG
-		fadeToBlack(length)
-	end
+	fadeToBlack(length)
 	block.call if block_given?
-	if $Options.skip_fades == 1 || !$DEBUG
-		fadeIn(length)
-	end
+	fadeIn(length)
 end
 
 def fadeToBlack(length=10)

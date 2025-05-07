@@ -370,7 +370,7 @@ Type = NORMAL
 Category = Adaptive
 Power = 15
 Accuracy = 100
-TotalPP = 30
+TotalPP = 25
 Target = NearOther
 FunctionCode = HitTwoToFiveTimes
 Flags = CanProtect
@@ -1204,7 +1204,7 @@ Type = FLYING
 Category = Special
 Power = 25
 Accuracy = 100
-TotalPP = 20
+TotalPP = 15
 Target = AllNearFoes
 FunctionCode = HitTwoToFiveTimes
 Flags = CanProtect,Wind
@@ -2857,7 +2857,7 @@ Type = GHOST
 Category = Special
 Power = 25
 Accuracy = 100
-TotalPP = 20
+TotalPP = 15
 Target = NearOther
 FunctionCode = HitTwoToFiveTimes
 Flags = CanProtect
@@ -3487,6 +3487,20 @@ Flags = CanProtect,CanMagicCoat
 Description = Welds heavy steel onto the target, giving it the Steel type and reducing its Speed by four steps.
 Animation = SHOTPUT
 #-------------------------------
+#		QMARKS MOVES
+#-------------------------------
+[DISCOVEREDPOWER]
+Name = Discovered Power
+Type = QMARKS
+Category = Status
+Accuracy = 100
+TotalPP = 15
+Target = User
+FunctionCode = UseChoiceOf3RandomNonSignatureStatusMoves
+Flags = CanSnatch
+Description = The user ponders ancient wisdom, selecting three random status moves. You choose which one it uses.
+Animation = METRONOME
+#-------------------------------
 #		FIRE MOVES
 #-------------------------------
 [ABSOLUTERADIANCE]
@@ -3574,7 +3588,7 @@ Type = FIRE
 Category = Special
 Power = 25
 Accuracy = 100
-TotalPP = 20
+TotalPP = 15
 Target = NearOther
 FunctionCode = HitTwoToFiveTimes
 Flags = CanProtect
@@ -3949,7 +3963,7 @@ Type = WATER
 Category = Special
 Power = 25
 Accuracy = 100
-TotalPP = 20
+TotalPP = 15
 Target = NearOther
 FunctionCode = HitTwoToFiveTimes
 Flags = CanProtect
@@ -5140,7 +5154,7 @@ Type = ELECTRIC
 Category = Special
 Power = 20
 Accuracy = 100
-TotalPP = 20
+TotalPP = 15
 Target = NearOther
 FunctionCode = HitTwoToFiveTimesNumb
 Flags = CanProtect
@@ -5343,18 +5357,6 @@ FunctionCode = SleepTargetUserLosesHalfMaxHP
 Flags = CanProtect,CanMagicCoat
 Description = By sacrificing half its total HP, the user makes the target fall asleep.
 Animation = LOVELYKISS
-#-------------------------------
-[DISCOVEREDPOWER]
-Name = Discovered Power
-Type = PSYCHIC
-Category = Status
-Accuracy = 100
-TotalPP = 15
-Target = User
-FunctionCode = UseChoiceOf3RandomNonSignatureStatusMoves
-Flags = CanSnatch
-Description = The user ponders ancient wisdom, selecting three random status moves. You choose which one it uses.
-Animation = METRONOME
 #-------------------------------
 [DREAMFEAST]
 Name = Dream Feast
@@ -5649,7 +5651,7 @@ Type = PSYCHIC
 Category = Special
 Power = 25
 Accuracy = 100
-TotalPP = 20
+TotalPP = 15
 Target = NearOther
 FunctionCode = HitTwoToFiveTimes
 Flags = CanProtect

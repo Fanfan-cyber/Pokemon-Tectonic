@@ -112,6 +112,7 @@ LandTall,20
     20,STUNKY,8,10
     20,WOOLOO,8,10
 Special
+    1,EEVEE,15
     1,PIDOVE,15
 #-------------------------------
 [032] # Novo Apartments F1
@@ -684,10 +685,11 @@ Mud,40
 #-------------------------------
 [214] # Team Chasm HQ
 DarkCave,20
-    25,CARBINK,18,20
-    25,DURALUDON,18,20
-    25,ELGYEM,18,20
-    25,MUNNA,18,20
+    20,CARBINK,18,20
+    20,DURALUDON,18,20
+    20,ELGYEM,18,20
+    20,GOLETT,18,20
+    20,MUNNA,18,20
 #-------------------------------
 [215] # Tempest Realm
 Cloud,20
@@ -732,11 +734,10 @@ DarkCave,20
 [219] # Stone Nest
 DarkCave,20
     20,AXEW,25,27
+    20,DRILBUR,25,27
     20,EKANS,25,27
     20,GEODUDE,25,27
     20,MTANGELA,25,27
-    10,NIDORANfE,25,27
-    10,NIDORANmA,25,27
 #-------------------------------
 [220] # Ancient Sewers
 LandSparse,20

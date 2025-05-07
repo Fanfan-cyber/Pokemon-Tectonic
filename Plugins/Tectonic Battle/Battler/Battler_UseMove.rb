@@ -338,7 +338,7 @@ class PokeBattle_Battler
             @battle.pbPriority(true).each do |b|
                 next unless b
                 b.eachActiveAbility do |ability|
-                    next unless BattleHandlers.triggerMoveBlockingAbility(ability, b, user, targets, move, @battle)
+                    next unless BattleHandlers.triggerMoveBlockingAbility(ability, b, user, targets, move, @battle, false)
                     @battle.pbDisplayBrief(_INTL("{1} tried to use {2}!", user.pbThis, move.name))
                     @battle.pbShowAbilitySplash(b, ability)
                     @battle.pbDisplay(_INTL("But, {1} cannot use {2}!", user.pbThis, move.name))

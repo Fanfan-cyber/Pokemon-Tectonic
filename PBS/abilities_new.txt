@@ -4,6 +4,11 @@
 Name = Above It All
 Description = After being attacked, uses Parting Shot to switch out.
 #-------------------------------
+[ACCUMULATION]
+Name = Accumulation
+Description = The Pokémon gains twice as many stats from leveling up.
+Flags = Immutable
+#-------------------------------
 [ACIDRAIN]
 Name = Acid Rain
 Description = At the end of each turn in rainstorm, each Pokémon not immune to rainstorm has their Defense and Sp. Def lowered.
@@ -1534,7 +1539,7 @@ Description = Pulse moves change the Pokémon's secondary type and their power i
 #-------------------------------
 [REFRESHMENTS]
 Name = Refreshments
-Description = Upon entry during sunshine, heals the lowest HP ally or self by 50%.
+Description = Upon entry during sunshine, heals the lowest HP ally or self by 33%.
 Flags = SunshineSynergy
 #-------------------------------
 [REFUGE]
@@ -1572,6 +1577,10 @@ Description = Immune to Rock-type moves and to Stealth Rock, and raises Speed wh
 [ROOTED]
 Name = Rooted
 Description = Gets 50% more healing from all sources.
+#-------------------------------
+[ROYALMAJESTY]
+Name = Royal Majesty
+Description = Makes foes unable to use priority moves.
 #-------------------------------
 [RUGGED]
 Name = Rugged
@@ -2020,7 +2029,7 @@ Description = Foes suffer 50% more stat reduction from burn, frostbite, and numb
 #-------------------------------
 [TOLLTHEBELLS]
 Name = Toll the Bells
-Description = Upon entry during eclipse, heals the lowest HP ally or self by 50%.
+Description = Upon entry during eclipse, heals the lowest HP ally or self by 33%.
 Flags = EclipseSynergy
 #-------------------------------
 [TORPORSAP]

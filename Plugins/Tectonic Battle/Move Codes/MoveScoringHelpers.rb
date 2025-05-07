@@ -66,6 +66,7 @@ def getWaterlogEffectScore(user, target, ignoreCheck: false)
         score += 60 if user.hasDamagingAttack?
         score += 60 if user && target.pbSpeed(true) > user.pbSpeed(true)
         score += STATUS_PUNISHMENT_BONUS if user && user.hasStatusPunishMove?
+        score += 60 if user&.hasActiveAbilityAI?(:SINKINGFEELING)
         score -= getNaturalCureScore(user, target, score) if target.hasActiveAbilityAI?(:NATURALCURE)
     else
         return 0

@@ -305,8 +305,8 @@ module BattleHandlers
         AbilityOnFlinch.trigger(ability, battler, battle)
     end
 
-    def self.triggerMoveBlockingAbility(ability, bearer, user, targets, move, battle)
-        ret = MoveBlockingAbility.trigger(ability, bearer, user, targets, move, battle)
+    def self.triggerMoveBlockingAbility(ability, bearer, user, targets, move, battle, aiCheck)
+        ret = MoveBlockingAbility.trigger(ability, bearer, user, targets, move, battle, aiCheck)
         return !ret.nil? ? ret : false
     end
 
