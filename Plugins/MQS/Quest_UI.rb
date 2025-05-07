@@ -26,7 +26,7 @@ class Window_Quest < Window_DrawableCommand
     return if index>=self.top_row+self.page_item_max
     rect = Rect.new(rect.x+16,rect.y,rect.width-16,rect.height)
     name = $quest_data.getName(@quests[index].id)
-    name = "<u>" + "#{name}" + "</u>" if @quests[index].story
+    name = _INTL("<u>{1}</u>", name) if @quests[index].story
     base = self.baseColor
     shadow = self.shadowColor
     colorID = @quests[index].colorID || 0
@@ -284,7 +284,7 @@ class QuestList_Scene
       ["#{questName}",Graphics.width/2 - 12,-2,2,Color.new(248,248,248),Color.new(0,0,0),true]
     ])
     # Quest description
-    questDesc = _INTL("<u>Overview</u>: {1}", $quest_data.getQuestDescription(quest.id)）
+    questDesc = _INTL("<u>Overview</u>: {1}", $quest_data.getQuestDescription(quest.id))
     drawFormattedTextEx(@sprites["overlay3"].bitmap,38,48,
       436,questDesc,@base,@shadow)
     # Stage description

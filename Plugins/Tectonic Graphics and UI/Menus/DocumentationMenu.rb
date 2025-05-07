@@ -139,7 +139,7 @@ class PokemonDocumentationMenu < PokemonPauseMenu
     cmdBattleGuide = -1
     cmdPokeXRay = -1
     infoCommands = []
-    if pbHasItem?(:POKEXRAY) && @battle && @battle.opponent.length > 0
+    if pbHasItem?(:POKEXRAY) && @battle && @battle.trainerBattle?
       infoCommands[cmdPokeXRay = infoCommands.length] = getItemName(:POKEXRAY)
     end
     infoCommands[cmdMasterDex   = infoCommands.length] = _INTL("MasterDex")
