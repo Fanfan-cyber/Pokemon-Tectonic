@@ -4074,6 +4074,18 @@ FrontSprite = -11,8
 ShadowX = 0
 ShadowSize = 3
 #-------------------------------
+[MMANTINE]
+BackSprite = 0,24
+FrontSprite = 0,8
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[MMANTYKE]
+BackSprite = 0,24
+FrontSprite = 0,12
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
 [MMUNNA]
 BackSprite = 0,16
 FrontSprite = 0,14

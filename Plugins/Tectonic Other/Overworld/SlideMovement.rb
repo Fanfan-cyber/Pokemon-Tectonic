@@ -77,9 +77,14 @@ def slideDownTerrainTag(terrainTagData)
 end
 
 def pbDescendWaterfall
+    pbDismountBike
     if $game_player.direction != 2   # Can't descend if not facing down
         $game_player.move_down
-        return if $game_player.check_event_trigger_here([1,2])
+        if $game_player.check_event_trigger_here([1,2])
+          return
+        else
+          pbWait(10)
+        end
     end
     terrain = $game_player.pbFacingTerrainTag
     return if !slideDownTerrainTag(terrain)

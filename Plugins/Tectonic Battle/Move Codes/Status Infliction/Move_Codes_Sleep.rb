@@ -183,7 +183,7 @@ class PokeBattle_Move_LowerTargetSpd4DrowsyIfHail < PokeBattle_Move_LowerTargetS
         return super
     end
 
-    def pbEffectAgainstTarget(_user, target)
+    def pbEffectAgainstTarget(user, target)
         super
         return unless @battle.icy?
         return if target.effectActive?(:Yawn)

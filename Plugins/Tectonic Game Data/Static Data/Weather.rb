@@ -250,7 +250,7 @@ GameData::Weather.register({
 	:id_number        => 12,
 	:particle_delta_x => 0,
 	:particle_delta_y => 400,
-	:particle_names   => %w[wind_1 wind_2],
+	:particle_names   => %w[wind_3 wind_4],
 	:clouds_proc => proc { |strength|
 		next strength * -4
 	},
@@ -260,8 +260,8 @@ GameData::Weather.register({
 	:id               => :StrongWinds,
 	:category         => :Windy,
 	:id_number        => 13,
-	:particle_delta_x => 0,
-	:particle_delta_y => 400,
+	:particle_delta_x => -2400,
+	:particle_delta_y => 0,
 	:particle_names   => %w[wind_1 wind_2],
 	:clouds_proc => proc { |strength|
 		next strength * -4

@@ -640,6 +640,9 @@ class PokeBattle_Battle
         priority = pbPriority(true)   # in order of fastest -> slowest speeds only
         
         pbSORWeather(priority) unless @turnCount == 0
+
+        # Switch Pokémon in if possible
+        pbEORSwitch
     end
 
     #=============================================================================

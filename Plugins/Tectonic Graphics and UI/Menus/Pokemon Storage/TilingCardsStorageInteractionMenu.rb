@@ -35,7 +35,7 @@ class TilingCardsStorageInteractionMenu_Scene < TilingCardsMenu_Scene
 	def initializeMenuButtons
 		super
       	canEditTeam = teamEditingAllowed?
-		inDonationBox = !@heldpoke && @selected[0] > -1 && @storageScreen.storage.boxes[@selected[0]].isDonationBox?
+		inDonationBox = @selected[0] > -1 && @storageScreen.storage.boxes[@selected[0]].isDonationBox?
 		lastPokemonInParty = @pkmn && @selected[0] == -1 && @storageScreen.pbAbleCount <= 1 && @storageScreen.pbAble?(@pkmn)
 
 		case @command

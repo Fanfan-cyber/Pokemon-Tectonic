@@ -142,10 +142,6 @@ class BattleInfoDisplay < SpriteWrapper
             weatherDuration = @battle.field.weatherDuration
             weatherDuration = _INTL("Inf.") if weatherDuration < 0
             weatherMessage = _INTL("{1} ({2})", weatherName, weatherDuration)
-            # if %i[Eclipse RingEclipse Moonglow BloodMoon].include?(@battle.field.weather)
-            #     turnsTillActivation = PokeBattle_Battle::SPECIAL_EFFECT_WAIT_TURNS - @battle.field.specialTimer
-            #     weatherMessage = _INTL("{1} ({2},{3})", weatherName, weatherDuration, turnsTillActivation)
-            # end
         end
         weatherX = turnCountX + 152
         textToDraw.push([weatherMessage, weatherX, 0, 2, weatherColor, shadow])
