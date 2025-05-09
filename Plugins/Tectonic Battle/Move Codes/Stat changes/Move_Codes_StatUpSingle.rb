@@ -32,6 +32,27 @@ class PokeBattle_Move_EmpoweredMetalClaw < PokeBattle_Move_RaiseUserAttack2
 end
 
 #===============================================================================
+# Summons Moonglow for 8 turns. Raises the Attack of itself by 2 steps. (Midnight Hunt)
+#===============================================================================
+class PokeBattle_Move_RaiseUserAndAlliesAtk2StartMoonglow8 < PokeBattle_Move_RaiseUserAttack2
+    def pbMoveFailed?(user, _targets, show_message)
+        return false unless @battle.primevalWeatherPresent?(false)
+        super
+    end
+
+    def pbEffectGeneral(user)
+        @battle.pbStartWeather(user, :Moonglow, 8, false) unless @battle.primevalWeatherPresent?
+        super
+    end
+
+    def getEffectScore(user, _target)
+        score = super
+        score += getWeatherSettingEffectScore(:Moonglow, user, @battle, 8)
+        return score
+    end
+end
+
+#===============================================================================
 # Increases the user's Attack by 3 steps.
 #===============================================================================
 class PokeBattle_Move_RaiseUserAtk3 < PokeBattle_StatUpMove

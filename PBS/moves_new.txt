@@ -921,9 +921,9 @@ Category = Status
 Accuracy = 0
 TotalPP = 5
 Target = User
-FunctionCode = RaiseUserAndAlliesDef2
+FunctionCode = RaiseUserDef3AlliesAtk1
 Flags = CanSnatch
-Description = The user holds fast with its teammates, raising the Defense of itself and its allies by two steps.
+Description = The user holds fast with its teammates, raise its Defense by three steps, and its allies' by one.
 #-------------------------------
 [THREEFOLDVOLLEY]
 Name = Threefold Volley
@@ -3742,9 +3742,9 @@ Power = 50
 Accuracy = 100
 TotalPP = 30
 Target = NearOther
-FunctionCode = RaiseUserAndAlliesAtk2
+FunctionCode = RaiseUserAtk3AlliesAtk1
 Flags = CanSnatch,Sound
-Description = The user roars with the force of a volcano, raising the Attack of itself and allies.
+Description = The user roars with the force of a volcano, raising the Attack of itself by thre steps and allies' by one.
 Animation = HOWL
 #-------------------------------
 [PARHELIONHUNT]
@@ -4770,9 +4770,9 @@ Category = Status
 Accuracy = 0
 TotalPP = 5
 Target = User
-FunctionCode = RaiseUserAndAlliesSpDef2
+FunctionCode = RaiseUserSpDef3AlliesSpDef1
 Flags = CanSnatch
-Description = The user calms itself and its teammates, raising the Sp. Def of itself and its allies by two steps.
+Description = The user calms itself and its teammates, raise its Sp. Def by three steps, and its allies' by one.
 #-------------------------------
 [TERADRAIN]
 Name = Tera Drain
@@ -5487,9 +5487,9 @@ Category = Status
 Accuracy = 0
 TotalPP = 5
 Target = User
-FunctionCode = RaiseUserAndAlliesSpAtk2
+FunctionCode = RaiseUserSpAtk3AlliesSpAtk1
 Flags = CanSnatch
-Description = The user syncs its mind with its teammates, raising the Sp. Atk of itself and its allies by two steps.
+Description = The user syncs its mind with its teammates, raising its Sp. Atk by three steps, and its allies' by one.
 Animation = CONFUSION
 #-------------------------------
 [MINDWAVES]
@@ -6795,7 +6795,7 @@ TotalPP = 5
 Target = User
 FunctionCode = RaiseUserAndAlliesAtk2StartMoonglow8
 Flags = CanSnatch
-Description = Summons moonglow for eight turns and raises the Attack stat of itself and its allies by two steps.
+Description = Summons moonglow for eight turns and raises the user's Attack by two steps.
 Animation = HOWL
 #-------------------------------
 [MINDSAP]

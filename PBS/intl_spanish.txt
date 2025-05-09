@@ -17265,6 +17265,14 @@ I heard some people saying that she uses a Rainstorm strategy.
 Escuché a algunas personas decir que usa una estrategia de Tormenta de Lluvia.
 With Fairy and Steel-type Pokemon? How does she manage that?
 ¿Con Pokémon de tipo Hada y Acero? ¿Cómo logra hacer eso?
+Oh. Hey.
+Oh. Hey.
+Maybe not as fun as beating the 7th gym will be with my snazzy new Pokemon!
+¡Quizás no tan divertido como vencer al séptimo gimnasio con mis vistosos nuevos Pokémon!
+Which ones? You'll just have to battle me to find out!
+¿Cuáles? ¡Tendrás que combatirme para descubrirlo!
+Damn, even these 'mons couldn't leave a dent in you.
+Rayos, ni siquiera estos 'mons pudieron darte un rasguño
 [Map218]
 Jump onto rumbling platform?
 ¿Saltas a la plataforma estruendosa?
@@ -34080,7 +34088,7 @@ Bulwark
 Bastión
 Snowy Sorrows
 Lamento Nevado
-Invite Sun
+Invite Sunshine
 Invitar al Sol
 Invoke Sand
 Invocar Arena
@@ -34670,7 +34678,7 @@ Dread
 Temor
 Gloat
 Regodearse
-Bully
+Browbeat
 Amedrentar
 Fire For Effect
 Artillería
@@ -34736,7 +34744,7 @@ Volt Seekers
 Buscarrayos
 Pressure Burst
 Aplastapresión
-Invite Sand
+Invite Sandstorm
 Invitar a la Arena
 Twin Beam
 Láser Doble
@@ -34922,6 +34930,8 @@ Psyche Switch
 Cambio de Idea
 Immerse
 Sumergir
+Wall of Sound
+Muro de Sonido
 [6]
 Using its tough and impressive horn, the user rams into the target with no letup.
 Usando su impresionante cuerno, el usuario embiste al rival.
@@ -35163,8 +35173,8 @@ The user does emotional damage to foes. This attack never misses and skips prote
 El usuario le causa daño emocional a sus rivales. Este ataque nunca falla y atraviesa protecciones.
 The user stirs up a fairy wind and strikes the target with it. There's a 10% chance it becomes dizzy.
 El usuario provoca un viento feérico con el que golpea al objetivo. Tiene un 10% de probabilidad de marear el objetivo.
-The user raises the Defense and Sp. Def stat of an ally Pokémon by three steps using a mysterious aroma.
-El usuario aumenta ambas Defensas de un Pokémon aliado tres grados usando un aroma misterioso.
+The user raises the Defense and Sp. Def stats of an ally Pokémon by two steps using a mysterious aroma.
+El usuario aumenta ambas Defensas de un Pokémon aliado dos grados usando un aroma misterioso.
 The user stares with its baby-doll eyes, which lowers the target's Attack stat by three steps. Always goes first.
 El usuario mira de forma tierna al objetivo, disminuyendo su Ataque tres grados. Siempre va primero.
 The user gazes charmingly at the target. The target's Attack is lowered by four steps.
@@ -40220,10 +40230,10 @@ An item to be held by a Pokémon. Lowered stats on the holder are also applied t
 Un objeto equipable. Stats reducidas al portador también son aplicadas al rival.
 An item to be held by a Pokémon. Doubles the Speed of the holder's move once per battle.
 Un objeto equipable. Duplica la Velocidad del portador una vez por combate.
-An item to be held by a Pokémon. Boosts the power of a physical move by 30% once per battle.
-Un objeto equipable. Potencia el primer movimiento físico usado en combate un 30%.
-An item to be held by a Pokémon. Boosts the power of a special move by 30% once per battle.
-Un objeto equipable. Potencia el primer movimiento especial usado en combate un 30%.
+An item to be held by a Pokémon. Boosts the power of a physical move by 33% once per battle.
+Un objeto equipable. Potencia el primer movimiento físico usado en combate un 33%.
+An item to be held by a Pokémon. Boosts the power of a special move by 33% once per battle.
+Un objeto equipable. Potencia el primer movimiento especial usado en combate un 33%.
 A single-use item to be held by a Pokémon. It allows the immediate use of a move that charges up first.
 Un objeto equipable de un solo uso. Permite usar inmediatamente un movimiento que debe recargarse.
 A single-use item to be held by a Pokémon. It allows user to skip the recharging turn of an exhausting move.
@@ -42319,7 +42329,15 @@ Bottom Feeder
 Acechador
 Foreman
 Capataz
+Accumulation
+Acumulación
+Darkscale Cloud
+Nube Penumbra
 [11]
+The Pokémon gains twice as many stats from leveling up.
+El Pokémon obtiene el doble de estadísticas al subir de nivel.
+While the Pokémon is below half health, its attacks poisons those hit.
+Al tener la mitad de sus PS o menos, sus ataques envenenan a sus objetivos.
 Special attacks against the Pokémon have a 30% chance to waterlog the attacker.
 Cuando el Pokémon es alcanzado por un movimiento especial, tiene un 30% de probabilidad de embeber al atacante.
 When the Pokémon eats a Berry, it will regurgitate that Berry at the end of the next turn and eat it one more time.

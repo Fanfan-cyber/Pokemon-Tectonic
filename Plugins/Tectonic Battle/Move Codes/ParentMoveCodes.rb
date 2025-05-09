@@ -1238,13 +1238,8 @@ class PokeBattle_TeamStatBuffMove < PokeBattle_Move
         return false if damagingMove?
         failed = true
         @battle.eachSameSideBattler(user) do |b|
-            for i in 0...@statUp.length / 2 do
-                statSym = @statUp[i * 2]
-                next unless b.pbCanRaiseStatStep?(statSym, user, self)
-                failed = false
-                break
-            end
-            break unless failed
+            next unless b.pbCanRaiseStatStep?(@statToRaise, user, self)
+            failed = false
         end
         if failed
             @battle.pbDisplay(_INTL("But it failed, since neither {1} nor any of its allies can receive the stat improvements!", user.pbThis(true))) if show_message
@@ -1253,16 +1248,23 @@ class PokeBattle_TeamStatBuffMove < PokeBattle_Move
         return false
     end
 
+    def getStatArrayForBattler(user, battler)
+        increment = battler.index == user.index ? 3 : 1
+        return [@statToRaise, increment]
+    end
+
     def pbEffectGeneral(user)
+        user.pbRaiseMultipleStatSteps(getStatArrayForBattler(user, user), user, move: self, showFailMsg: true)
         @battle.eachSameSideBattler(user) do |b|
-            b.pbRaiseMultipleStatSteps(@statUp, user, move: self, showFailMsg: true)
+            next if b.index == user.index
+            b.pbRaiseMultipleStatSteps(getStatArrayForBattler(user, b), user, move: self, showFailMsg: true)
         end
     end
 
     def getEffectScore(user, _target)
         score = 0
         @battle.eachSameSideBattler(user) do |b|
-            score += getMultiStatUpEffectScore(@statUp, user, b)
+            score += getMultiStatUpEffectScore(getStatArrayForBattler(user, b), user, b)
         end
         return score
     end

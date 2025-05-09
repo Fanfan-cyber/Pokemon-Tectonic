@@ -6201,9 +6201,9 @@ Category = Status
 Accuracy = 0
 TotalPP = 5
 Target = User
-FunctionCode = RaiseUserAndAlliesAtk2
+FunctionCode = RaiseUserAtk3AlliesAtk1
 Flags = CanSnatch,Sound
-Description = The user howls loudly to raise the Attack stat of itself and its allies by two steps.
+Description = The user howls loudly to raise its Attack by three steps, and its allies' by one.
 #-------------------------------
 [HYPERSPACEFURY]
 Name = Hyperspace Fury
