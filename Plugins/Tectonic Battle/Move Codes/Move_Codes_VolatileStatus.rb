@@ -436,6 +436,7 @@ end
 #===============================================================================
 class PokeBattle_Move_CurseTarget < PokeBattle_Move
     def pbFailsAgainstTarget?(user, target, show_message)
+        return false if damagingMove?
         if target.effectActive?(:Curse)
             @battle.pbDisplay(_INTL("But it failed, since {1} is already cursed!", target.pbThis(true))) if show_message
             return true
@@ -444,12 +445,18 @@ class PokeBattle_Move_CurseTarget < PokeBattle_Move
     end
 
     def pbEffectAgainstTarget(user, target)
+        return if damagingMove?
+        target.applyEffect(:Curse)
+    end
+
+    def pbAdditionalEffect(user, target)
+        return if target.damageState.substitute
+        return if target.effectActive?(:Curse)
         target.applyEffect(:Curse)
     end
 
     def getEffectScore(user, target)
-        score = getCurseEffectScore(user, target)
-        return score
+        return getCurseEffectScore(user, target)
     end
 end
 

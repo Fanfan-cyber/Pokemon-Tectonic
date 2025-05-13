@@ -833,7 +833,7 @@ Pokemon = EMPOLEON,45
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,0,15,0,0,15
 Pokemon = CROBAT,45
-    Moves = UTURN,TOXICTASTE,TALONFALL,LEECHLIFE
+    Moves = UTURN,TOXICTASTE,DIVININGTALON,LEECHLIFE
     AbilityIndex = 1 # Infiltrator
     Item = LIFEORB
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -2197,7 +2197,7 @@ Pokemon = VIKAVOLT,44
     AbilityIndex = 1 # Levitate
     Item = CHARTIBERRY
 #-------------------------------
-[JANITOR,Aaron]
+[JANITOR,Eric]
 Pokemon = FEAROW,40
     Moves = JETSTREAM,DRILLPECK,DRILLRUN,ROOST
     AbilityIndex = 0 # Tough
@@ -3379,7 +3379,7 @@ Pokemon = APPLETUN,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,0,15,0,0,15
 Pokemon = BLAZIKEN,70
-    Moves = BLAZEKICK,CLOSECOMBAT,TALONFALL,OVERHEAT
+    Moves = BLAZEKICK,CLOSECOMBAT,DIVININGTALON,OVERHEAT
     AbilityIndex = 1 # Pecking Order
     Item = PRISMATICPLATE
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -5474,7 +5474,7 @@ Pokemon = GALVANTULA,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,20,20,0
 Pokemon = CROBAT,70
-    Moves = UTURN,LEECHLIFE,TOXICTASTE,TALONFALL
+    Moves = UTURN,LEECHLIFE,TOXICTASTE,DIVININGTALON
     AbilityIndex = 1 # Infiltrator
     Item = BIGROOT
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -7109,7 +7109,7 @@ Pokemon = CLOYSTER,60
 Pokemon = GLISCOR,60
     Moves = DIVEBOMB,UNDERMINE,ROOST,SWORDSDANCE
     AbilityIndex = 0 # Grotesque Vitals
-    Item = ASSAULTVEST
+    Item = LEFTOVERS
 #-------------------------------
 [TEENAGERM,Burke]
 Pokemon = LEAFEON,58

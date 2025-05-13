@@ -580,7 +580,7 @@ FormName = Unbound
 Type1 = PSYCHIC
 Type2 = DARK
 BaseStats = 80,160,60,80,170,130
-Abilities = SUBSPACESCHISM
+Abilities = SUBSPACESCHISM,UNBOUND
 Moves = 1,HELPINGHAND,1,MINDWAVES,4,ASTONISH,8,MAGICCOAT,12,LIGHTSCREEN,16,PSYBEAM,20,SKILLSWAP,24,POWERSPLIT,28,GUARDSPLIT,32,PHANTOMFORCE,36,ZENHEADBUTT,40,SHADOWBALL,44,TRICK,48,DESTINYBOND,52,DREAMDANCE,56,PSYCHIC,60,HYPERSPACEFURY
 Height = 6.5
 Weight = 490.0
@@ -744,7 +744,7 @@ Pokedex = Sad that its true identity may be exposed, Mimikyu will mercilessly se
 #-------------------------------
 [NECROZMA,1]
 FormName = Dusk Mane
-Type1 = PSYCHIC
+Type1 = ROCK
 Type2 = STEEL
 BaseStats = 97,157,127,77,113,109
 Height = 3.8
@@ -753,7 +753,7 @@ Pokedex = This is Necrozma's form while it's absorbing the power of Solgaleo, ma
 #-------------------------------
 [NECROZMA,2]
 FormName = Dawn Wings
-Type1 = PSYCHIC
+Type1 = ROCK
 Type2 = GHOST
 BaseStats = 97,113,109,77,157,127
 Height = 4.2
@@ -762,7 +762,7 @@ Pokedex = Lunala no longer has a will of its own. Now under the control of Necro
 #-------------------------------
 [NECROZMA,3]
 FormName = Ultra
-Type1 = PSYCHIC
+Type1 = ROCK
 Type2 = DRAGON
 BaseStats = 97,167,97,129,167,97
 Abilities = NEUROFORCE

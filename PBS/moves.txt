@@ -1092,7 +1092,7 @@ TotalPP = 10
 Target = ClosestNearFoe
 FunctionCode = Rampage
 Flags = CanProtect
-Description = The user rampages and attacks for three turns.
+Description = The user rampages and attacks for two turns.
 #-------------------------------
 [TICKLE]
 Name = Tickle
@@ -1150,7 +1150,7 @@ TotalPP = 10
 Target = ClosestNearFoe
 FunctionCode = RampagePreventSleeping
 Flags = CanProtect,Sound
-Description = The user attacks in an uproar, going on a rampage for three turns. Over that time, no one can fall asleep.
+Description = The user attacks in an uproar, going on a rampage for two turns. Over that time, no one can fall asleep.
 #-------------------------------
 [WISH]
 Name = Wish
@@ -2487,6 +2487,18 @@ Target = NearOther
 FunctionCode = Basic
 Flags = CanProtect
 Description = The user attacks with a ray of light that sparkles as if it were made of gemstones.
+#-------------------------------
+[PRISMATICLASER]
+Name = Prismatic Laser
+Type = ROCK
+Category = Special
+Power = 170
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = TwoTurnAttack
+Flags = CanProtect,Uninvocable
+Description = The user shoots powerful lasers using the power of a prism. The user can't move on the next turn.
 #-------------------------------
 [ROCKBLAST]
 Name = Rock Blast
@@ -3877,7 +3889,7 @@ TotalPP = 10
 Target = ClosestNearFoe
 FunctionCode = Rampage
 Flags = CanProtect
-Description = The user rampages and attacks while spewing flames for three turns.
+Description = The user rampages and attacks while spewing flames for two turns.
 Animation = FLAREBLITZ
 #-------------------------------
 [SACREDFIRE]
@@ -4555,7 +4567,7 @@ TotalPP = 10
 Target = ClosestNearFoe
 FunctionCode = Rampage
 Flags = CanProtect,Dance
-Description = The user attacks by scattering petals in a rampage for three turns.
+Description = The user attacks by scattering petals in a rampage for two turns.
 #-------------------------------
 [POWERWHIP]
 Name = Power Whip
@@ -5332,18 +5344,6 @@ Flags = CanProtect
 EffectChance = 100
 Description = A mistlike flurry of down envelops and damages the target. It also lowers the target's Sp. Atk by two steps.
 #-------------------------------
-[PHOTONGEYSER]
-Name = Photon Geyser
-Type = PSYCHIC
-Category = Adaptive
-Power = 100
-Accuracy = 100
-TotalPP = 5
-Target = NearOther
-FunctionCode = IgnoreTargetAbility
-Flags = CanProtect
-Description = The user attacks with a pillar of light. This ignores their ability.
-#-------------------------------
 [POWERSPLIT]
 Name = Power Split
 Type = PSYCHIC
@@ -5365,18 +5365,6 @@ Target = User
 FunctionCode = SwapPhysicalStats
 Flags = CanSnatch
 Description = The user employs psychic power to switch its base Attack with its base Defense stat.
-#-------------------------------
-[PRISMATICLASER]
-Name = Prismatic Laser
-Type = PSYCHIC
-Category = Special
-Power = 170
-Accuracy = 100
-TotalPP = 10
-Target = NearOther
-FunctionCode = TwoTurnAttack
-Flags = CanProtect,Uninvocable
-Description = The user shoots powerful lasers using the power of a prism. The user can't move on the next turn.
 #-------------------------------
 [PSYBEAM]
 Name = Psybeam
@@ -5961,7 +5949,7 @@ TotalPP = 10
 Target = ClosestNearFoe
 FunctionCode = Rampage
 Flags = CanProtect
-Description = The user rampages and attacks for three turns.
+Description = The user rampages and attacks for two turns.
 #-------------------------------
 [ROAROFTIME]
 Name = Roar of Time
@@ -6321,6 +6309,18 @@ Target = NearOther
 FunctionCode = DoubleDamageTargetMoved
 Flags = CanProtect
 Description = If the user moves after the target, this attack's power will be doubled.
+#-------------------------------
+[PHOTONGEYSER]
+Name = Photon Geyser
+Type = DARK
+Category = Adaptive
+Power = 100
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = IgnoreTargetAbility
+Flags = CanProtect
+Description = The user attacks with a pillar of dark light. This ignores their ability.
 #-------------------------------
 [PURSUIT]
 Name = Pursuit

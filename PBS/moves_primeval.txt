@@ -738,6 +738,17 @@ Flags = CanProtect,Empowered
 Description = Plants seeds on all near foes, draining HP each turn. User becomes Grass-type.
 Animation = LEECHSEED
 #-------------------------------
+[PRIMEVALSPORE]
+Name = Primeval Spore
+Type = GRASS
+Category = Status
+Accuracy = 100
+TotalPP = 1
+Target = AllNearFoes
+FunctionCode = EmpoweredSpore
+Flags = CanProtect,Empowered
+Description = The user scatters bursts of spores to induce sleep on all foes, and then becomes Grass-type.
+#-------------------------------
 [PRIMEVALSYMBIOSIS]
 Name = Primeval Symbiosis
 Type = GRASS

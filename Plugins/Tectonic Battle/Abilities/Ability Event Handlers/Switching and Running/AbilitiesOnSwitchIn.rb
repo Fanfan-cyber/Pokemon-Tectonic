@@ -124,7 +124,11 @@ BattleHandlers::LoadDataDependentAbilityHandlers += proc {
           proc { |ability, battler, battle, aiCheck|
               next 0 if aiCheck
               battle.pbShowAbilitySplash(battler, ability)
-              battle.pbDisplay(_INTL("{1} breaks the mold!", battler.pbThis))
+              if ability == :UNBOUND
+                battle.pbDisplay(_INTL("{1} breaks the mold and overpowers type immunities!", battler.pbThis))
+              else
+                battle.pbDisplay(_INTL("{1} breaks the mold!", battler.pbThis))
+              end
               battle.pbHideAbilitySplash(battler)
           }
       )
@@ -1123,4 +1127,13 @@ BattleHandlers::AbilityOnSwitchIn.add(:LASTGASP,
     battler.applyEffect(:PerishSong, 3)
     battler.hideMyAbilitySplash
   }
+)
+
+BattleHandlers::AbilityOnSwitchIn.add(:UNBOUND,
+proc { |ability, battler, battle, aiCheck|
+    next 0 if aiCheck
+    battle.pbShowAbilitySplash(battler, ability)
+    battle.pbDisplay(_INTL("{1} overpowers type immunities!", battler.pbThis))
+    battle.pbHideAbilitySplash(battler)
+}
 )

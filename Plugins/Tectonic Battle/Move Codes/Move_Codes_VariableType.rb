@@ -26,6 +26,8 @@ class PokeBattle_Move_TypeDependsOnWeather < PokeBattle_Move
             ret = :PSYCHIC if GameData::Type.exists?(:PSYCHIC)
         when :Moonglow,:BloodMoon
             ret = :FAIRY if GameData::Type.exists?(:FAIRY)
+        when :StrongWinds
+            ret = :FLYING if GameData::Type.exists?(:FLYING)
         end
         return ret
     end

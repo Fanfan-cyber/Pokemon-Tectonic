@@ -962,7 +962,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = RampageAlwaysCriticalHit
 Flags = CanProtect
-Description = The user relentlessly rampages with its whip-like hands for three turns. Each hit will always be a critical hit.
+Description = The user relentlessly rampages with its whip-like hands for two turns. Each hit will always be a critical hit.
 #-------------------------------
 #		FLYING MOVES
 #-------------------------------
@@ -1032,6 +1032,19 @@ FunctionCode = TwoTurnAttackInvulnerableInSky
 Flags = CanProtect
 Description = The user soars up high, becoming invulnerable, then strikes on the second turn by dive bombing the target.
 Animation = FLY
+#-------------------------------
+[DIVININGTALON]
+Name = Divining Talon
+Type = FLYING
+Category = Physical
+Power = 70
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = MoveJinxesSelfCriticalHits
+Flags = CanProtect
+Description = The opponent is shredded by talons. This attack always results in a critical hit, but applies Jinx to the user.
+Animation = DRILLPECK
 #-------------------------------
 [DRAFT]
 Name = Draft
@@ -1158,19 +1171,6 @@ FunctionCode = Basic
 Flags = CanProtect
 Description = The user attacks the target while dashing skillfully past it.
 Animation = ACROBATICS
-#-------------------------------
-[TALONFALL]
-Name = Talonfall
-Type = FLYING
-Category = Physical
-Power = 70
-Accuracy = 100
-TotalPP = 15
-Target = NearOther
-FunctionCode = RecoilQuarterOfDamageDealtCriticalHits
-Flags = CanProtect
-Description = The opponent is shredded by talons. This attack always results in a critical hit, but the user also takes 25% recoil.
-Animation = DRILLPECK
 #-------------------------------
 [TEMPEST]
 Name = Tempest
@@ -4942,7 +4942,7 @@ TotalPP = 10
 Target = ClosestNearFoe
 FunctionCode = Rampage
 Flags = CanProtect
-Description = The user breaks down all insulation to send a barrage of electricity to rampage for three turns.
+Description = The user breaks down all insulation to send a barrage of electricity to rampage for two turns.
 Animation = GIGAVOLTHAVOC
 #-------------------------------
 [ELECTROSLASH]
@@ -5563,7 +5563,7 @@ TotalPP = 10
 Target = ClosestNearFoe
 FunctionCode = Rampage3HitTwoToFiveTimes
 Flags = CanProtect
-Description = Unveiling its ears, the released psychic power causes the user to rampage 2 to 5 times each for three turns.
+Description = Unveiling its ears, the released psychic power causes the user to rampage 2 to 5 times each for two turns.
 Animation = FURYSWIPES
 #-------------------------------
 [PENUMBRA]
@@ -5615,7 +5615,7 @@ TotalPP = 10
 Target = ClosestNearFoe
 FunctionCode = Rampage
 Flags = CanProtect
-Description = The user overloads its mind to rampage for three turns.
+Description = The user overloads its mind to rampage for two turns.
 Animation = PSYCHOBOOST
 #-------------------------------
 [PSYCHOSCISSION]
@@ -6445,7 +6445,7 @@ TotalPP = 10
 Target = ClosestNearFoe
 FunctionCode = RampageKOsRaiseSpeed1
 Flags = CanProtect
-Description = The user throws a royal fit to rampage for three turns. Raises Speed if a target is knocked out by this move.
+Description = The user throws a royal fit to rampage for two turns. Raises Speed if a target is knocked out by this move.
 Animation = OUTRAGE
 #-------------------------------
 [WINGSPANECLIPSE]
@@ -7455,7 +7455,7 @@ TotalPP = 10
 Target = ClosestNearFoe
 FunctionCode = Rampage
 Flags = CanProtect
-Description = The user goes on a wild tantrum, going on a rampage for three turns.
+Description = The user goes on a wild tantrum, going on a rampage for two turns.
 Animation = THRASH
 #-------------------------------
 [TRANQUILTUNE]

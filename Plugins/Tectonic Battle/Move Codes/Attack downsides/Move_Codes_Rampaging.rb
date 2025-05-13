@@ -5,7 +5,7 @@ class PokeBattle_Move_Rampage < PokeBattle_Move
     def rampagingMove?; return true; end
 
     def pbEffectAfterAllHits(user, target)
-        user.applyEffect(:Outrage, 3) if !target.damageState.unaffected && !user.effectActive?(:Outrage)
+        user.applyEffect(:Outrage, 2) if !target.damageState.unaffected && !user.effectActive?(:Outrage)
         user.tickDownAndProc(:Outrage)
     end
 
@@ -24,7 +24,7 @@ end
 class PokeBattle_Move_RampagePreventSleeping < PokeBattle_Move
     def pbEffectGeneral(user)
         return if user.effectActive?(:Uproar)
-        user.applyEffect(:Uproar, 3)
+        user.applyEffect(:Uproar, 2)
         user.currentMove = @id
     end
 
@@ -38,7 +38,7 @@ end
 #===============================================================================
 class PokeBattle_Move_RampageKOsRaiseSpeed1 < PokeBattle_Move
     def pbEffectAfterAllHits(user, target)
-        user.applyEffect(:Outrage, 3) if !target.damageState.unaffected && !user.effectActive?(:Outrage)
+        user.applyEffect(:Outrage, 2) if !target.damageState.unaffected && !user.effectActive?(:Outrage)
         user.tickDownAndProc(:Outrage)
         return unless target.damageState.fainted
         user.tryRaiseStat(:SPEED, user, increment: 1, move: self)

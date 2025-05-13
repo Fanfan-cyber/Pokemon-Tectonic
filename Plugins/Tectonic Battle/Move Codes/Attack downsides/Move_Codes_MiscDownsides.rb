@@ -85,11 +85,26 @@ class PokeBattle_Move_RaisesTargetSpd1 < PokeBattle_Move
 end
 
 #===============================================================================
-# Fractures the user, and always critical hits. (Fletchettes)
+# Fractures the user, and always critical hits. (Flechettes)
 #===============================================================================
 class PokeBattle_Move_MoveFracturesSelfCriticalHits < PokeBattle_Move
     def pbEffectAfterAllHits(user, _target)
         user.applyEffect(:Fracture, DEFAULT_FRACTURE_DURATION)
+    end
+
+    def getEffectScore(_user, _target)
+        return -30
+    end
+
+    def pbCriticalOverride(_user, _target); return 1; end
+end
+
+#===============================================================================
+# Jinxes the user, and always critical hits. (Divining Talon)
+#===============================================================================
+class PokeBattle_Move_MoveJinxesSelfCriticalHits < PokeBattle_Move
+    def pbEffectAfterAllHits(user, _target)
+        user.applyEffect(:Jinxed, DEFAULT_JINX_DURATION)
     end
 
     def getEffectScore(_user, _target)

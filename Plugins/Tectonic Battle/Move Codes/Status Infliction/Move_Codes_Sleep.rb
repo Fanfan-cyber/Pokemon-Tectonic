@@ -4,6 +4,16 @@
 class PokeBattle_Move_Sleep < PokeBattle_SleepMove
 end
 
+# Empowered Spore
+class PokeBattle_Move_EmpoweredSpore < PokeBattle_Move_Sleep
+    include EmpoweredMove
+
+    def pbEffectGeneral(user)
+        super
+        transformType(user, :GRASS)
+    end
+end
+
 #===============================================================================
 # Puts the target to sleep, but only if the user is Darkrai. (Dark Void)
 #===============================================================================

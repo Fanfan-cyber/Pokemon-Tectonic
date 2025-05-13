@@ -322,8 +322,8 @@ HPMult = 8.0
 #-------------------------------
 [AGRAVELER]
 Ability = GALVANIZE
-Moves1 = STEALTHROCK,NUMB,TACKLE,PRIMEVALHEALORDER
-Moves2 = STEAMROLLER,FLAIL
+Moves1 = GRANITEHEAD,TAKEDOWN,PRIMEVALSPORE
+Moves2 = WOODHAMMER,FLAIL
 #-------------------------------
 [ABSOLUS]
 Ability = BADOMEN
