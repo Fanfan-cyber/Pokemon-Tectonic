@@ -476,16 +476,14 @@ class PokeBattle_AI
     EFFECT_SCORE_TO_SWITCH_SCORE_CONVERSION_RATIO = 2.5
 
     def switchRatingBestMoveScore(battler, opposingBattler: nil, killInfoArray: [])
-        maxScore, killInfo = highestMoveScoreForBattler(battler, opposingBattler: opposingBattler,
-killInfoArray: killInfoArray)
+        maxScore, killInfo = highestMoveScoreForBattler(battler, opposingBattler: opposingBattler, killInfoArray: killInfoArray)
         maxMoveScoreBiasChange = -40
         maxMoveScoreBiasChange += (maxScore / EFFECT_SCORE_TO_SWITCH_SCORE_CONVERSION_RATIO).round
         return maxMoveScoreBiasChange, killInfo
     end
 
     def highestMoveScoreForBattler(battler, opposingBattler: nil, killInfoArray: [])
-        choices, killInfo = pbGetBestTrainerMoveChoices(battler, opposingBattler: opposingBattler,
-killInfoArray: killInfoArray)
+        choices, killInfo = pbGetBestTrainerMoveChoices(battler, opposingBattler: opposingBattler, killInfoArray: killInfoArray)
 
         maxScore = 0
         bestMove = nil

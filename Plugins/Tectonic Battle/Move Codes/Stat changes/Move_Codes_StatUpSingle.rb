@@ -27,7 +27,7 @@ class PokeBattle_Move_RaiseUserAttack2 < PokeBattle_StatUpMove
 end
 
 # Empowered Meteor Mash
-class PokeBattle_Move_EmpoweredMetalClaw < PokeBattle_Move_RaiseUserAttack2
+class PokeBattle_Move_EmpoweredMeteorMash < PokeBattle_Move_RaiseUserAttack2
     include EmpoweredMove
 end
 

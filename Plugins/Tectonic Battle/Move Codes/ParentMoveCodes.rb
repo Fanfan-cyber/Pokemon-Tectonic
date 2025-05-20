@@ -1507,12 +1507,22 @@ module EmpoweredMove
     # There must be 2 turns without using a primeval attack to then be able to use it again
     def turnsBetweenUses(); return 2; end
 
-    def transformType(user, type)
-        user.pbChangeTypes(type)
+    def transformType(user, newType)
         typeName = GameData::Type.get(type).name
+
+        addType = user.effectActive?(:AvatarTransformedTypeThisTurn) # This is the 2nd+ time this turn
+        
+        type = addType ? user.pbTypes.push(newType) : newType
+
+        user.pbChangeTypes(type)
         @battle.pbAnimation(:CONVERSION, user, [user])
-        user.bossType = type if user.boss?
-        @battle.pbDisplay(_INTL("{1} transformed into the {2} type!", user.pbThis, typeName))
+        user.bossType = newType if user.boss?
+        if addType
+            @battle.pbDisplay(_INTL("{1} transformed further, gaining the {2} type!", user.pbThis, typeName))
+        else
+            @battle.pbDisplay(_INTL("{1} transformed into the {2} type!", user.pbThis, typeName))  
+        end
+        user.applyEffect(:AvatarTransformedTypeThisTurn)
     end
 
     def summonAvatar(user,species,summonMessage = nil)

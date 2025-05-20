@@ -187,7 +187,7 @@ Type = FLYING
 Category = Special
 Power = 200
 Accuracy = 0
-TotalPP = 1
+TotalPP = 10
 Target = AllNearFoes
 FunctionCode = RayquazaTargetLosesFlinchImmunity
 Flags = CanProtect,Sound,AvatarSignature
@@ -491,7 +491,7 @@ Power = 180
 Accuracy = 100
 TotalPP = 1
 Target = NearOther
-FunctionCode = EmpoweredMetalClaw
+FunctionCode = EmpoweredMeteorMash
 Flags = CanProtect,Punch,Empowered
 EffectChance = 100
 Description = The target is obliterated by a meteoric strike, which raises the user's attack by two steps.
@@ -543,6 +543,7 @@ Target = User
 FunctionCode = EmpoweredSwordsDance
 Flags = Dance,Empowered
 Description = The user raises their Attack by four steps and becomes Steel-type.
+Animation = SWORDSDANCE
 #-------------------------------
 #		FIRE MOVES
 #-------------------------------
@@ -849,6 +850,18 @@ Target = BothSides
 FunctionCode = EmpoweredEclipse
 Flags = Empowered
 Description = Summons eclipse for 5 turns, resets lowered stats, and user becomes Psychic-type.
+Animation = ECLIPSE
+#-------------------------------
+[PRIMEVALMAGICCOAT]
+Name = Primeval Magic Coat
+Type = PSYCHIC
+Category = Status
+Accuracy = 0
+TotalPP = 1
+Target = User
+FunctionCode = EmpoweredMagicCoat
+Flags = Empowered
+Description = Bounces back status moves for the next 3 turns, and user becomes Psychic-type.
 Animation = ECLIPSE
 #-------------------------------
 [PRIMEVALMINDLINK]

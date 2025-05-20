@@ -3744,7 +3744,7 @@ TotalPP = 30
 Target = NearOther
 FunctionCode = RaiseUserAtk3AlliesAtk1
 Flags = CanSnatch,Sound
-Description = The user roars with the force of a volcano, raising the Attack of itself by thre steps and allies' by one.
+Description = The user roars with the force of a volcano, raising the Attack of itself by three steps and allies' by one.
 Animation = HOWL
 #-------------------------------
 [PARHELIONHUNT]

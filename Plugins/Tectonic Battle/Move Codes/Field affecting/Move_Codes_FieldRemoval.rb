@@ -58,7 +58,7 @@ class PokeBattle_Move_RemoveWeather < PokeBattle_Move
     end
 
     def pbEffectGeneral(user)
-       @battle.endWeather
+       @battle.endWeather unless @battle.primevalWeatherPresent?(true)
     end
 
     def getEffectScore(user, _target)
@@ -71,7 +71,7 @@ end
 #===============================================================================
 class PokeBattle_Move_RemoveWeatherIncidental < PokeBattle_Move
     def pbEffectGeneral(user)
-       @battle.endWeather
+       @battle.endWeather unless @battle.primevalWeatherPresent?(true)
     end
 
     def getEffectScore(user, _target)

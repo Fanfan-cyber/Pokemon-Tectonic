@@ -2556,6 +2556,7 @@ NamePlural = TM200s
 Pocket = 4
 Price = 6000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = CUT
 Description = The target is cut with a scythe or claw. It can also be used to cut down thin trees.
 #-------------------------------
@@ -2565,6 +2566,7 @@ NamePlural = TM201s
 Pocket = 4
 Price = 6000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = FLY
 Description = The user soars, then strikes on the second turn. It can also be used to fly to any familiar town.
 #-------------------------------
@@ -2574,6 +2576,7 @@ NamePlural = TM202s
 Pocket = 4
 Price = 6000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = SURF
 Description = It swamps the area around the user with a giant wave. It can also be used for crossing water.
 #-------------------------------
@@ -2583,6 +2586,7 @@ NamePlural = TM203s
 Pocket = 4
 Price = 6000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = STRENGTH
 Description = The target is slugged with a punch thrown at maximum power. This move can also be used to move boulders.
 #-------------------------------
@@ -2592,6 +2596,7 @@ NamePlural = TM204s
 Pocket = 4
 Price = 6000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = WATERFALL
 Description = The user charges the target at an awesome speed. It can also be used to climb a waterfall.
 #-------------------------------
@@ -2851,6 +2856,7 @@ NamePlural = TM00s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = RANSACK
 #-------------------------------
 [TM01]
@@ -2859,6 +2865,7 @@ NamePlural = TM01s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = COVET
 #-------------------------------
 [TM02]
@@ -2867,6 +2874,7 @@ NamePlural = TM02s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = PAYDAY
 #-------------------------------
 [TM03]
@@ -2875,6 +2883,7 @@ NamePlural = TM03s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = CHAOSWHEEL
 #-------------------------------
 [TM04]
@@ -2883,6 +2892,7 @@ NamePlural = TM04s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = FRENZYPLANT
 #-------------------------------
 [TM05]
@@ -2891,6 +2901,7 @@ NamePlural = TM05s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = BLASTBURN
 #-------------------------------
 [TM06]
@@ -2899,6 +2910,7 @@ NamePlural = TM06s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = HYDROCANNON
 #-------------------------------
 [TM07]
@@ -2907,6 +2919,7 @@ NamePlural = TM07s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = CRUELTY
 #-------------------------------
 [TM08]
@@ -2915,6 +2928,7 @@ NamePlural = TM08s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = HYPERBEAM
 #-------------------------------
 [TM09]
@@ -2923,6 +2937,7 @@ NamePlural = TM09s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = GIGAIMPACT
 #-------------------------------
 [TM10]
@@ -2931,6 +2946,7 @@ NamePlural = TM10s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = GREYMIST
 #-------------------------------
 [TM11]
@@ -2939,6 +2955,7 @@ NamePlural = TM11s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = ROCKWRECKER
 #-------------------------------
 [TM12]
@@ -2947,6 +2964,7 @@ NamePlural = TM12s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = FOLLOWME
 #-------------------------------
 [TM13]
@@ -2955,6 +2973,7 @@ NamePlural = TM13s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = METEORASSAULT
 #-------------------------------
 [TM14]
@@ -2963,6 +2982,7 @@ NamePlural = TM14s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = NUMB
 #-------------------------------
 [TM15]
@@ -2971,6 +2991,7 @@ NamePlural = TM15s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = DIG
 #-------------------------------
 [TM16]
@@ -2979,6 +3000,7 @@ NamePlural = TM16s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = SCREECH
 #-------------------------------
 [TM17]
@@ -2987,6 +3009,7 @@ NamePlural = TM17s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = LIGHTSCREEN
 #-------------------------------
 [TM18]
@@ -2995,6 +3018,7 @@ NamePlural = TM18s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = REFLECT
 #-------------------------------
 [TM19]
@@ -3003,6 +3027,7 @@ NamePlural = TM19s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = SAFEGUARD
 #-------------------------------
 [TM20]
@@ -3011,6 +3036,7 @@ NamePlural = TM20s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = SELFDESTRUCT
 #-------------------------------
 [TM21]
@@ -3019,6 +3045,7 @@ NamePlural = TM21s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = REST
 #-------------------------------
 [TM22]
@@ -3027,6 +3054,7 @@ NamePlural = TM22s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = EXPLOSION
 #-------------------------------
 [TM23]
@@ -3035,6 +3063,7 @@ NamePlural = TM23s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = MEMENTO
 #-------------------------------
 [TM24]
@@ -3043,6 +3072,7 @@ NamePlural = TM24s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = SNORE
 #-------------------------------
 [TM25]
@@ -3051,6 +3081,7 @@ NamePlural = TM25s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = PROTECT
 #-------------------------------
 [TM26]
@@ -3059,6 +3090,7 @@ NamePlural = TM26s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = SCARYFACE
 #-------------------------------
 [TM27]
@@ -3067,6 +3099,7 @@ NamePlural = TM27s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = RAPIDSPIN
 #-------------------------------
 [TM28]
@@ -3075,6 +3108,7 @@ NamePlural = TM28s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = ENERGYBALL
 #-------------------------------
 [TM29]
@@ -3083,6 +3117,7 @@ NamePlural = TM29s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = SMACKDOWN
 #-------------------------------
 [TM30]
@@ -3091,6 +3126,7 @@ NamePlural = TM30s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = STEELWING
 #-------------------------------
 [TM31]
@@ -3099,6 +3135,7 @@ NamePlural = TM31s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = ATTRACT
 #-------------------------------
 [TM32]
@@ -3107,6 +3144,7 @@ NamePlural = TM32s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = SANDSTORM
 #-------------------------------
 [TM33]
@@ -3115,6 +3153,7 @@ NamePlural = TM33s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = RAINSTORM
 #-------------------------------
 [TM34]
@@ -3123,6 +3162,7 @@ NamePlural = TM34s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = SUNSHINE
 #-------------------------------
 [TM35]
@@ -3131,6 +3171,7 @@ NamePlural = TM35s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = HAIL
 #-------------------------------
 [TM36]
@@ -3139,6 +3180,7 @@ NamePlural = TM36s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = WHIRLPOOL
 #-------------------------------
 [TM37]
@@ -3147,6 +3189,7 @@ NamePlural = TM37s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = BEATUP
 #-------------------------------
 [TM38]
@@ -3155,6 +3198,7 @@ NamePlural = TM38s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = WILLOWISP
 #-------------------------------
 [TM39]
@@ -3163,6 +3207,7 @@ NamePlural = TM39s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = FACADE
 #-------------------------------
 [TM40]
@@ -3171,6 +3216,7 @@ NamePlural = TM40s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = SWIFT
 #-------------------------------
 [TM41]
@@ -3179,6 +3225,7 @@ NamePlural = TM41s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = HELPINGHAND
 #-------------------------------
 [TM42]
@@ -3187,6 +3234,7 @@ NamePlural = TM42s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = REVENGE
 #-------------------------------
 [TM43]
@@ -3195,6 +3243,7 @@ NamePlural = TM43s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = BRICKBREAK
 #-------------------------------
 [TM44]
@@ -3203,6 +3252,7 @@ NamePlural = TM44s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = IMPRISON
 #-------------------------------
 [TM45]
@@ -3211,6 +3261,7 @@ NamePlural = TM45s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = DIVE
 #-------------------------------
 [TM46]
@@ -3219,6 +3270,7 @@ NamePlural = TM46s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = WEATHERBURST
 #-------------------------------
 [TM47]
@@ -3227,6 +3279,7 @@ NamePlural = TM47s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = FAKETEARS
 #-------------------------------
 [TM48]
@@ -3235,6 +3288,7 @@ NamePlural = TM48s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = STRAFE
 #-------------------------------
 [TM49]
@@ -3243,6 +3297,7 @@ NamePlural = TM49s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = MEGAPUNCH
 #-------------------------------
 [TM50]
@@ -3251,6 +3306,7 @@ NamePlural = TM50s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = BULLETSEED
 #-------------------------------
 [TM51]
@@ -3259,6 +3315,7 @@ NamePlural = TM51s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = GLACIALRAM
 #-------------------------------
 [TM52]
@@ -3267,6 +3324,7 @@ NamePlural = TM52s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = BOUNCE
 #-------------------------------
 [TM53]
@@ -3275,6 +3333,7 @@ NamePlural = TM53s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = MUDSHOT
 #-------------------------------
 [TM54]
@@ -3283,6 +3342,7 @@ NamePlural = TM54s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = WAILINGBLOW
 #-------------------------------
 [TM55]
@@ -3291,6 +3351,7 @@ NamePlural = TM55s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = BRINE
 #-------------------------------
 [TM56]
@@ -3299,6 +3360,7 @@ NamePlural = TM56s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = UTURN
 #-------------------------------
 [TM57]
@@ -3307,6 +3369,7 @@ NamePlural = TM57s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = PAYBACK
 #-------------------------------
 [TM58]
@@ -3315,6 +3378,7 @@ NamePlural = TM58s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = ASSURANCE
 #-------------------------------
 [TM59]
@@ -3323,6 +3387,7 @@ NamePlural = TM59s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = FLING
 #-------------------------------
 [TM60]
@@ -3331,6 +3396,7 @@ NamePlural = TM60s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = POWERSWAP
 #-------------------------------
 [TM61]
@@ -3339,6 +3405,7 @@ NamePlural = TM61s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = GUARDSWAP
 #-------------------------------
 [TM62]
@@ -3347,6 +3414,7 @@ NamePlural = TM62s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = HEARTSWAP
 #-------------------------------
 [TM63]
@@ -3355,6 +3423,7 @@ NamePlural = TM63s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = DRAINPUNCH
 #-------------------------------
 [TM64]
@@ -3363,6 +3432,7 @@ NamePlural = TM64s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = AVALANCHE
 #-------------------------------
 [TM65]
@@ -3371,6 +3441,7 @@ NamePlural = TM65s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = SHADOWCLAW
 #-------------------------------
 [TM66]
@@ -3379,6 +3450,7 @@ NamePlural = TM66s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = THUNDERFANG
 #-------------------------------
 [TM67]
@@ -3387,6 +3459,7 @@ NamePlural = TM67s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = ICEFANG
 #-------------------------------
 [TM68]
@@ -3395,6 +3468,7 @@ NamePlural = TM68s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = FIREFANG
 #-------------------------------
 [TM69]
@@ -3403,6 +3477,7 @@ NamePlural = TM69s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = HONECLAWS
 #-------------------------------
 [TM70]
@@ -3411,6 +3486,7 @@ NamePlural = TM70s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = POLARIZEDROOM
 #-------------------------------
 [TM71]
@@ -3419,6 +3495,7 @@ NamePlural = TM71s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = WONDERROOM
 #-------------------------------
 [TM72]
@@ -3427,6 +3504,7 @@ NamePlural = TM72s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = PUZZLEROOM
 #-------------------------------
 [TM73]
@@ -3435,6 +3513,7 @@ NamePlural = TM73s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = CROSSPOISON
 #-------------------------------
 [TM74]
@@ -3443,6 +3522,7 @@ NamePlural = TM74s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = VENOSHOCK
 #-------------------------------
 [TM75]
@@ -3451,6 +3531,7 @@ NamePlural = TM75s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = LOWSWEEP
 #-------------------------------
 [TM76]
@@ -3459,6 +3540,7 @@ NamePlural = TM76s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = ROUND
 #-------------------------------
 [TM77]
@@ -3467,6 +3549,7 @@ NamePlural = TM77s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = HEX
 #-------------------------------
 [TM78]
@@ -3475,6 +3558,7 @@ NamePlural = TM78s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = ACROBATICS
 #-------------------------------
 [TM79]
@@ -3483,6 +3567,7 @@ NamePlural = TM79s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = RETALIATE
 #-------------------------------
 [TM80]
@@ -3491,6 +3576,7 @@ NamePlural = TM80s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = VOLTSWITCH
 #-------------------------------
 [TM81]
@@ -3499,6 +3585,7 @@ NamePlural = TM81s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = BULLDOZE
 #-------------------------------
 [TM82]
@@ -3507,6 +3594,7 @@ NamePlural = TM82s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = ELECTROWEB
 #-------------------------------
 [TM83]
@@ -3515,6 +3603,7 @@ NamePlural = TM83s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = RAZORSHELL
 #-------------------------------
 [TM84]
@@ -3523,6 +3612,7 @@ NamePlural = TM84s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = DEEPBREATHING
 #-------------------------------
 [TM85]
@@ -3531,6 +3621,7 @@ NamePlural = TM85s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = FINALGAMBIT
 #-------------------------------
 [TM86]
@@ -3539,6 +3630,7 @@ NamePlural = TM86s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = PHANTOMFORCE
 #-------------------------------
 [TM87]
@@ -3547,6 +3639,7 @@ NamePlural = TM87s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = TRICKYTOXINS
 #-------------------------------
 [TM88]
@@ -3555,6 +3648,7 @@ NamePlural = TM88s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = VOLTSWITCH
 #-------------------------------
 [TM89]
@@ -3563,6 +3657,7 @@ NamePlural = TM89s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = UTURN
 #-------------------------------
 [TM90]
@@ -3571,6 +3666,7 @@ NamePlural = TM90s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = FLIPTURN
 #-------------------------------
 [TM91]
@@ -3579,6 +3675,7 @@ NamePlural = TM91s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = PARTINGSHOT
 #-------------------------------
 [TM92]
@@ -3587,6 +3684,7 @@ NamePlural = TM92s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = MEMENTO
 #-------------------------------
 [TM93]
@@ -3595,6 +3693,7 @@ NamePlural = TM93s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = EERIEIMPULSE
 #-------------------------------
 [TM94]
@@ -3603,6 +3702,7 @@ NamePlural = TM94s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = CHARM
 #-------------------------------
 [TM95]
@@ -3611,6 +3711,7 @@ NamePlural = TM95s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = COLDFRONT
 #-------------------------------
 [TM96]
@@ -3619,6 +3720,7 @@ NamePlural = TM96s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = BUBBLEBLASTER
 #-------------------------------
 [TM97]
@@ -3627,6 +3729,7 @@ NamePlural = TM97s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = BRUTALSWING
 #-------------------------------
 [TM98]
@@ -3635,6 +3738,7 @@ NamePlural = TM98s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = STOMPINGTANTRUM
 #-------------------------------
 [TM99]
@@ -3643,6 +3747,7 @@ NamePlural = TM99s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = BREAKINGSWIPE
 #-------------------------------
 [TM100]
@@ -3651,6 +3756,7 @@ NamePlural = TM100s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = FLOWSTATE
 #-------------------------------
 [TM101]
@@ -3659,6 +3765,7 @@ NamePlural = TM101s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = BODYSLAM
 #-------------------------------
 [TM102]
@@ -3667,6 +3774,7 @@ NamePlural = TM102s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = FLAMETHROWER
 #-------------------------------
 [TM103]
@@ -3675,6 +3783,7 @@ NamePlural = TM103s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = TAILWIND
 #-------------------------------
 [TM104]
@@ -3683,6 +3792,7 @@ NamePlural = TM104s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = SURF
 #-------------------------------
 [TM105]
@@ -3691,6 +3801,7 @@ NamePlural = TM105s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = ICEBEAM
 #-------------------------------
 [TM106]
@@ -3699,6 +3810,7 @@ NamePlural = TM106s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = HONESIGHT
 #-------------------------------
 [TM107]
@@ -3707,6 +3819,7 @@ NamePlural = TM107s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = LOWKICK
 #-------------------------------
 [TM108]
@@ -3715,6 +3828,7 @@ NamePlural = TM108s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = THUNDERBOLT
 #-------------------------------
 [TM109]
@@ -3723,6 +3837,7 @@ NamePlural = TM109s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = THUNDER
 #-------------------------------
 [TM110]
@@ -3731,6 +3846,7 @@ NamePlural = TM110s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = EARTHQUAKE
 #-------------------------------
 [TM111]
@@ -3739,6 +3855,7 @@ NamePlural = TM111s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = PSYCHIC
 #-------------------------------
 [TM112]
@@ -3747,6 +3864,7 @@ NamePlural = TM112s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = AGILITY
 #-------------------------------
 [TM113]
@@ -3755,6 +3873,7 @@ NamePlural = TM113s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = FOCUSENERGY
 #-------------------------------
 [TM114]
@@ -3763,6 +3882,7 @@ NamePlural = TM114s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = AIMTRUE
 #-------------------------------
 [TM115]
@@ -3771,6 +3891,7 @@ NamePlural = TM115s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = FIREBLAST
 #-------------------------------
 [TM116]
@@ -3779,6 +3900,7 @@ NamePlural = TM116s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = WATERFALL
 #-------------------------------
 [TM117]
@@ -3787,6 +3909,7 @@ NamePlural = TM117s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = AMNESIA
 #-------------------------------
 [TM118]
@@ -3795,6 +3918,7 @@ NamePlural = TM118s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = LEECHLIFE
 #-------------------------------
 [TM119]
@@ -3803,6 +3927,7 @@ NamePlural = TM119s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = TRIATTACK
 #-------------------------------
 [TM120]
@@ -3811,6 +3936,7 @@ NamePlural = TM120s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = SUBSTITUTE
 #-------------------------------
 [TM121]
@@ -3819,6 +3945,7 @@ NamePlural = TM121s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = REVERSAL
 #-------------------------------
 [TM122]
@@ -3827,6 +3954,7 @@ NamePlural = TM122s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = SLUDGEBOMB
 #-------------------------------
 [TM123]
@@ -3835,6 +3963,7 @@ NamePlural = TM123s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = SPIKES
 #-------------------------------
 [TM124]
@@ -3843,6 +3972,7 @@ NamePlural = TM124s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = OUTRAGE
 #-------------------------------
 [TM125]
@@ -3851,6 +3981,7 @@ NamePlural = TM125s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = PSYSHOCK
 #-------------------------------
 [TM126]
@@ -3859,6 +3990,7 @@ NamePlural = TM126s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = ENDURE
 #-------------------------------
 [TM127]
@@ -3867,6 +3999,7 @@ NamePlural = TM127s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = SLEEPTALK
 #-------------------------------
 [TM128]
@@ -3875,6 +4008,7 @@ NamePlural = TM128s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = MEGAHORN
 #-------------------------------
 [TM129]
@@ -3883,6 +4017,7 @@ NamePlural = TM129s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = BATONPASS
 #-------------------------------
 [TM130]
@@ -3891,6 +4026,7 @@ NamePlural = TM130s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = ENCORE
 #-------------------------------
 [TM131]
@@ -3899,6 +4035,7 @@ NamePlural = TM131s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = IRONTAIL
 #-------------------------------
 [TM132]
@@ -3907,6 +4044,7 @@ NamePlural = TM132s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = CRUNCH
 #-------------------------------
 [TM133]
@@ -3915,6 +4053,7 @@ NamePlural = TM133s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = SHADOWBALL
 #-------------------------------
 [TM134]
@@ -3923,6 +4062,7 @@ NamePlural = TM134s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = FROSTSPIKES
 #-------------------------------
 [TM135]
@@ -3931,6 +4071,7 @@ NamePlural = TM135s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = UPROAR
 #-------------------------------
 [TM136]
@@ -3939,6 +4080,7 @@ NamePlural = TM136s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = BAR
 #-------------------------------
 [TM137]
@@ -3947,6 +4089,7 @@ NamePlural = TM137s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = TAUNT
 #-------------------------------
 [TM138]
@@ -3955,6 +4098,7 @@ NamePlural = TM138s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = TRICK
 #-------------------------------
 [TM139]
@@ -3963,6 +4107,7 @@ NamePlural = TM139s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = SUPERPOWER
 #-------------------------------
 [TM140]
@@ -3971,6 +4116,7 @@ NamePlural = TM140s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = SKILLSWAP
 #-------------------------------
 [TM141]
@@ -3979,6 +4125,7 @@ NamePlural = TM141s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = INFERNOIMPACT
 #-------------------------------
 [TM142]
@@ -3987,6 +4134,7 @@ NamePlural = TM142s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = HYPERVOICE
 #-------------------------------
 [TM143]
@@ -3995,6 +4143,7 @@ NamePlural = TM143s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = OVERHEAT
 #-------------------------------
 [TM144]
@@ -4003,6 +4152,7 @@ NamePlural = TM144s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = COSMICPOWER
 #-------------------------------
 [TM145]
@@ -4011,6 +4161,7 @@ NamePlural = TM145s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = ODDROOM
 #-------------------------------
 [TM146]
@@ -4019,6 +4170,7 @@ NamePlural = TM146s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = IRONDEFENSE
 #-------------------------------
 [TM147]
@@ -4027,6 +4179,7 @@ NamePlural = TM147s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = REND
 #-------------------------------
 [TM148]
@@ -4035,6 +4188,7 @@ NamePlural = TM148s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = BULKUP
 #-------------------------------
 [TM149]
@@ -4043,6 +4197,7 @@ NamePlural = TM149s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = CALMMIND
 #-------------------------------
 [TM150]
@@ -4051,6 +4206,7 @@ NamePlural = TM150s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = LEAFBLADE
 #-------------------------------
 [TM151]
@@ -4059,6 +4215,7 @@ NamePlural = TM151s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = FLAMESPIKES
 #-------------------------------
 [TM152]
@@ -4067,6 +4224,7 @@ NamePlural = TM152s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = GYROBALL
 #-------------------------------
 [TM153]
@@ -4075,6 +4233,7 @@ NamePlural = TM153s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = CLOSECOMBAT
 #-------------------------------
 [TM154]
@@ -4083,6 +4242,7 @@ NamePlural = TM154s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = POISONSPIKES
 #-------------------------------
 [TM155]
@@ -4091,6 +4251,7 @@ NamePlural = TM155s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = FLAREBLITZ
 #-------------------------------
 [TM156]
@@ -4099,6 +4260,7 @@ NamePlural = TM156s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = AURASPHERE
 #-------------------------------
 [TM157]
@@ -4107,6 +4269,7 @@ NamePlural = TM157s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = POISONJAB
 #-------------------------------
 [TM158]
@@ -4115,6 +4278,7 @@ NamePlural = TM158s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = DARKALLURE
 #-------------------------------
 [TM159]
@@ -4123,6 +4287,7 @@ NamePlural = TM159s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = NULLPULSE
 #-------------------------------
 [TM160]
@@ -4131,6 +4296,7 @@ NamePlural = TM160s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = XSCISSOR
 #-------------------------------
 [TM161]
@@ -4139,6 +4305,7 @@ NamePlural = TM161s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = BUGBUZZ
 #-------------------------------
 [TM162]
@@ -4147,6 +4314,7 @@ NamePlural = TM162s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = DRAGONPULSE
 #-------------------------------
 [TM163]
@@ -4155,6 +4323,7 @@ NamePlural = TM163s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = POWERGEM
 #-------------------------------
 [TM164]
@@ -4163,6 +4332,7 @@ NamePlural = TM164s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = FOCUSBLAST
 #-------------------------------
 [TM165]
@@ -4171,6 +4341,7 @@ NamePlural = TM165s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = ENERGYBALL
 #-------------------------------
 [TM166]
@@ -4179,6 +4350,7 @@ NamePlural = TM166s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = BRAVEBIRD
 #-------------------------------
 [TM167]
@@ -4187,6 +4359,7 @@ NamePlural = TM167s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = EARTHPOWER
 #-------------------------------
 [TM168]
@@ -4195,6 +4368,7 @@ NamePlural = TM168s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = VANGUARD
 #-------------------------------
 [TM169]
@@ -4203,6 +4377,7 @@ NamePlural = TM169s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = SEERSTRIKE
 #-------------------------------
 [TM170]
@@ -4211,6 +4386,7 @@ NamePlural = TM170s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = FLASHCANNON
 #-------------------------------
 [TM171]
@@ -4219,6 +4395,7 @@ NamePlural = TM171s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = LEAFSTORM
 #-------------------------------
 [TM172]
@@ -4227,6 +4404,7 @@ NamePlural = TM172s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = POWERWHIP
 #-------------------------------
 [TM173]
@@ -4235,6 +4413,7 @@ NamePlural = TM173s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = GUNKSHOT
 #-------------------------------
 [TM174]
@@ -4243,6 +4422,7 @@ NamePlural = TM174s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = BULLETTRAIN
 #-------------------------------
 [TM175]
@@ -4251,6 +4431,7 @@ NamePlural = TM175s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = ADAMANTINEPRESS
 #-------------------------------
 [TM176]
@@ -4259,6 +4440,7 @@ NamePlural = TM176s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = STEALTHROCK
 #-------------------------------
 [TM177]
@@ -4267,6 +4449,7 @@ NamePlural = TM177s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = GRASSKNOT
 #-------------------------------
 [TM178]
@@ -4275,6 +4458,7 @@ NamePlural = TM178s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = MIASMA
 #-------------------------------
 [TM179]
@@ -4283,6 +4467,7 @@ NamePlural = TM179s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = HEAVYSLAM
 #-------------------------------
 [TM180]
@@ -4291,6 +4476,7 @@ NamePlural = TM180s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = ELECTROBALL
 #-------------------------------
 [TM181]
@@ -4299,6 +4485,7 @@ NamePlural = TM181s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = FOULPLAY
 #-------------------------------
 [TM182]
@@ -4307,6 +4494,7 @@ NamePlural = TM182s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = STOREDPOWER
 #-------------------------------
 [TM183]
@@ -4315,6 +4503,7 @@ NamePlural = TM183s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = ALLYSWITCH
 #-------------------------------
 [TM184]
@@ -4323,6 +4512,7 @@ NamePlural = TM184s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = SCALD
 #-------------------------------
 [TM185]
@@ -4331,6 +4521,7 @@ NamePlural = TM185s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = WORKUP
 #-------------------------------
 [TM186]
@@ -4339,6 +4530,7 @@ NamePlural = TM186s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = ELECTROSLASH
 #-------------------------------
 [TM187]
@@ -4347,6 +4539,7 @@ NamePlural = TM187s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = TRAMPLE
 #-------------------------------
 [TM188]
@@ -4355,6 +4548,7 @@ NamePlural = TM188s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = HEATCRASH
 #-------------------------------
 [TM189]
@@ -4363,6 +4557,7 @@ NamePlural = TM189s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = STORMDRIVE
 #-------------------------------
 [TM190]
@@ -4371,6 +4566,7 @@ NamePlural = TM190s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = PLAYROUGH
 #-------------------------------
 [TM191]
@@ -4379,6 +4575,7 @@ NamePlural = TM191s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = VENOMDRENCH
 #-------------------------------
 [TM192]
@@ -4387,6 +4584,7 @@ NamePlural = TM192s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = MOONBLAST
 #-------------------------------
 [TM193]
@@ -4395,6 +4593,7 @@ NamePlural = TM193s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = WARDPRESS
 #-------------------------------
 [TM194]
@@ -4403,6 +4602,7 @@ NamePlural = TM194s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = SCORCHINGSANDS
 #-------------------------------
 [TM195]
@@ -4411,6 +4611,7 @@ NamePlural = TM195s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = THROATCHOP
 #-------------------------------
 [TM196]
@@ -4419,6 +4620,7 @@ NamePlural = TM196s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = MOONGLOW
 #-------------------------------
 [TM197]
@@ -4427,6 +4629,7 @@ NamePlural = TM197s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = ECLIPSE
 #-------------------------------
 [TM198]
@@ -4435,6 +4638,7 @@ NamePlural = TM198s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = LIQUIDATION
 #-------------------------------
 [TM199]
@@ -4443,6 +4647,7 @@ NamePlural = TM199s
 Pocket = 4
 Price = 5000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = BODYPRESS
 #-------------------------------
 [LIGHTHOUSEKEYCARD]
@@ -4467,6 +4672,7 @@ NamePlural = Unnamed
 Pocket = 4
 Price = 4000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = SAFEGUARD
 #-------------------------------
 [AURORATICKET]
@@ -4491,6 +4697,7 @@ NamePlural = Unnamed
 Pocket = 4
 Price = 4000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = RANSACK
 #-------------------------------
 [TMTRICKYTOXINS]
@@ -4499,6 +4706,7 @@ NamePlural = Unnamed
 Pocket = 4
 Price = 4000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = TRICKYTOXINS
 #-------------------------------
 [TMALLYSWITCH]
@@ -4507,6 +4715,7 @@ NamePlural = Unnamed
 Pocket = 4
 Price = 4000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = ALLYSWITCH
 #-------------------------------
 [TMBATONPASS]
@@ -4515,4 +4724,5 @@ NamePlural = Unnamed
 Pocket = 4
 Price = 4000
 FieldUse = TM
+Flags = SkipPocketMessage
 Move = BATONPASS

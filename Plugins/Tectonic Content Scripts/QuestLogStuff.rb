@@ -60,6 +60,12 @@ def completeStrangeStoneQuest
     end
 end
 
+def stageTwoWeatherTrioQuest
+    if pbGetSelfSwitch(4, 'A', 218) && pbGetSelfSwitch(1, 'A', 196)
+        advanceQuestToStage(:QUEST_LEGEND_WEATHER_TRIO, 2)
+    end
+end
+
 # Ends quest if Lugia is caught
 
 BallHandlers::OnPokemonCaught += proc { |ball, battle, pkmn|

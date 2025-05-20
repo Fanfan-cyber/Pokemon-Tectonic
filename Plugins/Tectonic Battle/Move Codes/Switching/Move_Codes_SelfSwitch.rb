@@ -90,7 +90,7 @@ class PokeBattle_Move_LowerTargetAtkSpAtk1SwitchOutUser < PokeBattle_TargetMulti
         switcher = user
         targets.each do |b|
             next if switchedBattlers.include?(b.index)
-            switcher = b if b.effectActive?(:MagicCoat) || b.effectActive?(:MagicBounce)
+            switcher = b if b.effectActive?(:MagicCoat) || b.effectActive?(:EmpoweredMagicCoat) || b.effectActive?(:MagicBounce)
         end
         return if switcher.fainted? || numHits == 0
         switchOutUser(switcher,switchedBattlers,switcher.index == user.index)

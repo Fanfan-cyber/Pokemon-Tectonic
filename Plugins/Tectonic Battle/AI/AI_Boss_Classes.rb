@@ -202,6 +202,8 @@ class PokeBattle_AI_RAYQUAZA < PokeBattle_AI_Boss
                 _INTL("{1}'s rage is at its peak!",user.pbThis)
             },
         })
+
+        @requiredMoves.push(:FLING)
     end
 end
 

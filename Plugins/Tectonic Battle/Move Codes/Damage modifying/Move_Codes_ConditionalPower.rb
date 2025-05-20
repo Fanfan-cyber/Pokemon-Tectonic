@@ -534,7 +534,7 @@ class PokeBattle_Move_PowerBoostTargetMoved25Percent < PokeBattle_Move
 end
 
 #===============================================================================
-# Always critical hit vs Opponents with raised stats (Humble)
+# Always critical hit vs Opponents with raised stats (Humble, Piercing doubt)
 #===============================================================================
 class PokeBattle_Move_CritsAgainstRaisedStats < PokeBattle_Move
     def pbCriticalOverride(_user, target)

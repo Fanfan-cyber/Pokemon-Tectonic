@@ -463,6 +463,9 @@ class PokeBattle_Battler
                         magicCoater = b.index
                         b.disableEffect(:MagicCoat)
                         break
+                    elsif b.effectActive?(:EmpoweredMagicCoat)
+                        magicCoater = b.index
+                        break
                     elsif b.hasActiveAbility?(:MAGICBOUNCE) && !@battle.moldBreaker
                         magicBouncer = b.index
                         b.applyEffect(:MagicBounce)

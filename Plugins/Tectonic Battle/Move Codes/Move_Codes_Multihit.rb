@@ -103,7 +103,7 @@ end
 #===============================================================================
 class PokeBattle_Move_Rampage3HitTwoToFiveTimes < PokeBattle_Move_HitTwoToFiveTimes
     def pbEffectAfterAllHits(user, target)
-        user.applyEffect(:Outrage, 3) if !target.damageState.unaffected && !user.effectActive?(:Outrage)
+        user.applyEffect(:Outrage, 2) if !target.damageState.unaffected && !user.effectActive?(:Outrage)
         user.tickDownAndProc(:Outrage)
     end
 end

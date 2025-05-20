@@ -114,6 +114,20 @@ class PokeBattle_Move_BounceBackProblemCausingStatusMoves < PokeBattle_Move
 end
 
 #===============================================================================
+# For the next 3 rounds, reflects all moves with the "C" flag targeting the user back at
+# their origin. (Primeval Magic Coat)
+#===============================================================================
+class PokeBattle_Move_EmpoweredMagicCoat < PokeBattle_Move
+    include EmpoweredMove
+
+    def pbEffectGeneral(user)
+        user.applyEffect(:EmpoweredMagicCoat,4)
+
+        transformType(user, :PSYCHIC)
+    end
+end
+
+#===============================================================================
 # This round, snatches all used moves with the "D" flag. (Snatch)
 #===============================================================================
 class PokeBattle_Move_StealAndUseBeneficialStatusMove < PokeBattle_Move

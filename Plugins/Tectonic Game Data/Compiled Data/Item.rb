@@ -111,6 +111,7 @@ module GameData
         @battle_use       = hash[:battle_use]  || 0
         @type             = hash[:type]        || 0
         @flags            = hash[:flags]       || []
+        @flags.uniq!
         @consumable       = hash[:consumable]
         @consumable       = !is_important? if @consumable.nil?
         @move             = hash[:move]

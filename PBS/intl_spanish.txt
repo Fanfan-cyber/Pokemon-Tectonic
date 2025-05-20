@@ -27990,6 +27990,14 @@ M. Aromatisse
 Aromatisse M.
 G. Darmanitan
 Darmanitan G.
+M. Skrelp
+Skrelp M.
+M. Dragalge
+Dragalge M.
+M. Mantyke
+Mantyke M.
+M. Mantine
+Mantine M.
 [2]
 Seed
 Semilla
@@ -33894,8 +33902,8 @@ Flame Spikes
 Púas Ardientes
 Drop Kick
 Dropkick
-Multi-strike
-Multi-golpe
+Multi-Strike
+Multi-Golpe
 Planetcracker
 Quiebra-Planetas
 Smush
@@ -34932,6 +34940,14 @@ Immerse
 Sumergir
 Wall of Sound
 Muro de Sonido
+Retreat
+Retirada
+Divining Talon
+Picado Divino
+Primeval Spore
+Espora Primitiva
+Primeval Magic Coat
+Capa Mágica Primitiva
 [6]
 Using its tough and impressive horn, the user rams into the target with no letup.
 Usando su impresionante cuerno, el usuario embiste al rival.
@@ -35061,8 +35077,8 @@ The user blasts the target with power that distorts even time. The user must res
 El usuario ataca al objetivo con un poder que distorsiona hasta el tiempo. El usuario debe descansar en el siguiente turno.
 Comets are summoned down from the sky. Lowers the user's Sp. Atk by four steps.
 Cometas son invocados desde el cielo. Disminuye el Ataque Especial del usuario cuatro grados.
-The user rampages and attacks for three turns.
-El usuario arrasa, atacando durante tres turnos.
+The user rampages and attacks for two turns.
+El usuario arrasa, atacando durante dos turnos.
 The user rubs its scales and makes a huge noise. Also lowers the user's Defense stat by three steps.
 El usuario vibra sus escamas, creando un gran sonido. También disminuye la Defensa del usuario tres grados.
 If the target has already moved this turn, the effect of its Ability is negated.
@@ -35439,8 +35455,8 @@ The user attacks by sending a frightful amount of small ghosts at opposing Poké
 El usuario ataca mandando una inmensa cantidad de pequeños fantasmas al equipo contrario.
 A storm of sharp leaves is whipped up. Lowers the user's Sp. Atk by four steps.
 Una tormenta de hojas es lanzada al objetivo. Disminuye el Ataque Especial del usuario cuatro grados.
-The user attacks by scattering petals in a rampage for three turns.
-El usuario ataca con una lluvia de pétalos, arrasando durante tres turnos.
+The user attacks by scattering petals in a rampage for two turns.
+El usuario ataca con una lluvia de pétalos, arrasando durante dos turnos.
 The user violently whirls to lash the target. Can't miss if the target has already attacked this turn.
 El usuario ataca violentamente con un látigo. Siempre acierta si el objetivo ya ha atacado en el mismo turno.
 The user generates a shock wave from within its body. This lower's the target's Sp. Def.
@@ -35619,8 +35635,8 @@ The user attacks the target by smashing into it with incredible force. It has a 
 El usuario ataca con un golpe de increíble fuerza. Tiene un 20% de probabilidad de marear al objetivo.
 A full-body charge attack for slamming into the foe. The user also takes 25% recoil.
 El ataque con una embestida a toda fuerza. El usuario recibe un 25% de daño de retroceso.
-The user attacks in an uproar, going on a rampage for three turns. Over that time, no one can fall asleep.
-El usuario ataca alborotado, arrasando durante tres turnos. Durante ese tiempo, nadie puede dormir.
+The user attacks in an uproar, going on a rampage for two turns. Over that time, no one can fall asleep.
+El usuario ataca alborotado, arrasando durante dos turnos. Durante ese tiempo, nadie puede dormir.
 The user drops onto the target with its full body weight. It has a 30% chance to numb.
 El usuario aplasta al objetivo con todo su peso. Tiene un 30% de probabilidad de aturdir al objetivo.
 The user charges the target at blinding speed. This attack always goes before any other move.
@@ -35761,8 +35777,8 @@ The user makes a soothing bell chime to heal the status problems of all the part
 El usuario hace sonar una campana que cura todos los problemas de estado de su equipo.
 The user assists an ally by boosting the power of its next attack by 50%.
 El usuario ayuda a su aliado, potenciando su siguiente ataque un 50%.
-The user howls loudly to raise the Attack stat of itself and its allies by two steps.
-El usuario aulle con vigor para aumentar su Ataque y el de sus aliados dos grados.
+The user howls loudly to raise its Attack by three steps, and its allies' by one.
+El usuario aulla con vigor para aumentar su Ataque tres grados, y el de sus aliados uno.
 The user focuses intensely. The attack on the next turn always results in a critical hit.
 El usuario se concentra profundamente, haciendo que su siguiente ataque siempre sea crítico.
 The user leers at nearby foes with sharp eyes. Their Defense stat is reduced by two steps.
@@ -35903,7 +35919,7 @@ Using an odd shock wave, the user damages any Pokémon of the same type as the u
 Usando una extraña onda de energía, el usuario ataca a cualquier Pokémon con el que comparta tipo.
 Heals the user for 50% of the damage caused. Power doubles if the foe is asleep.
 El usuario recupera la mitad de los PS que le quite al objetivo. Duplica su potencia si el objetivo está dormido.
-The user attacks with a pillar of light. This ignores their ability.
+The user attacks with a pillar of dark light. This ignores their ability.
 El usuario ataca con un pilar de luz. Esto ignora su Habilidad.
 The target is hit by a strong telekinetic force. It has a 20% chance to lower Sp. Def.
 El usuario ataca con una poderosa fuerza telekinética. Tiene un 20% de probabilidad de disminuir la Defensa Especial del objetivo.
@@ -36233,8 +36249,8 @@ The user throws a tricky punch. Can't miss and skips protections.
 El usuario golpea con un ataque engañoso. Siempre acierta y atraviesa protecciones.
 The user wields an exaggerated power to strike the target. Lowers the user's Attack by four steps.
 El usuario usa un poder exagerado para atacar al objetivo. Disminuye el Ataque del usuario cuatro grados.
-The user goes on a wild tantrum, going on a rampage for three turns.
-El usuario hace una rabieta, arrasando durante tres turnos.
+The user goes on a wild tantrum, going on a rampage for two turns.
+El usuario hace una rabieta, arrasando durante dos turnos.
 The user sprays mining waste at the target. It has a 30% chance to poison.
 El usuario dispara desperdicios de minería al objetivo. Tiene un 30% de probabilidad de envenenar al objetivo.
 The target is hit by a wave of magnetic energy. It has a 10% chance to lower their Speed.
@@ -36287,8 +36303,8 @@ The user fires a small shockwave. This has a 30% chance to numb the target.
 El usuario dispara una pequeña onda expansiva. Tiene un 30% de probabilidad de aturdir al objetivo.
 The user manifests a bolt of pure courage. This has a 10% chance of raising the user's Sp. Atk.
 El usuario manifiesta un estallido de puro coraje. Tiene un 10% de probabilidad de aumentar el Ataque Especial del usuario.
-The user overloads its mind to rampage for three turns.
-El usuario sobrecarga su mente para atacar arrasando durante tres turnos.
+The user overloads its mind to rampage for two turns.
+El usuario sobrecarga su mente para atacar arrasando durante dos turnos.
 The user manifests a piercing bolt of psychic energy. It has a 50% chance to lower Sp. Def.
 El usuario manifiesta un rayo de energía psíquica. Tiene un 50% de probabilidad de disminuir la Defensa Especial del objetivo.
 The user attacks with small beams of light. It has a 10% chance to dizzy.
@@ -36481,8 +36497,8 @@ Venom is strategically introduced into the target, poisoning it.
 El usuario introduce veneno estrátegicamente en el objetivo, envenenándolo.
 The user thrashes while infused with elements. It has a 15% chance each to poison, leech, or waterlog.
 El usuario golpea infusionado de elementos. Tiene un 15% de probabilidad de envenenar, infectar, o embeber.
-The user syncs its mind with its teammates, raising the Sp. Atk of itself and its allies by two steps.
-El usuario sincroniza su mente con la de sus aliados, aumentando el Ataque Especial de sí mismo y de sus aliados dos grados.
+The user syncs its mind with its teammates, raising its Sp. Atk by three steps, and its allies' by one.
+El usuario sincroniza su mente con la de sus aliados, aumentando su Ataque Especial tres grados y el de sus aliados uno.
 The user uses gunpowder to rocket at its foe. It has a 30% chance to raise its Speed.
 El usuario usa pólvora para acelerar en contra del objetivo. Tiene un 30% de probabilidad de aumentar la Velocidad del usuario.
 The user draws power to attack by using a held Berry. The Berry used determines its type.
@@ -36527,10 +36543,10 @@ The user and target bathe in acid. Lowers the user's Defense and Sp. Def by two 
 El usuario baña al objetivo en ácido. Disminuye la Defensa y Defensa Especial del usuario dos grados.
 Attacks with energy from jealousy. All opposing Pokémon with stat boosts get poisoned.
 El usuario ataca de forma celosa. Todos los objetivos con aumentos en stats son envenenados.
-The user holds fast with its teammates, raising the Defense of itself and its allies by two steps.
-El usuario se sujeta a sus aliados, aumentando su Defensa y la de sus aliados dos grados.
-The user calms itself and its teammates, raising the Sp. Def of itself and its allies by two steps.
-El usuario relaja a sus aliados, aumentando su Defensa Especial y la de sus aliados tres grados.
+The user holds fast with its teammates, raise its Defense by three steps, and its allies' by one.
+El usuario se sujeta a sus aliados, aumentando su Defensa tres grados, y la de sus aliados uno.
+The user calms itself and its teammates, raise its Sp. Def by three steps, and its allies' by one.
+El usuario relaja a sus aliados, aumentando su Defensa Especial tres grado, y el de sus aliados uno.
 Turns the foe's power against it, dealing damage using the target's Sp. Attack stat.
 Usa el poder del rival en su contra, causando daño usando el Ataque Especial del rival.
 The user skillfully blasts the target, then steals their item. Items stolen from wild Pokémon are stored.
@@ -36597,8 +36613,8 @@ Attacks with emotion from jealousy. All opposing Pokémon with stat boosts get f
 El usuario ataca de forma celosa. Todos los objetivos con aumentos en stats son helados.
 Astral energy explodes around the target. This move always goes first. The user also takes 50% recoil.
 Energía astral explota alrededor del objetivo. Siempre va primero. El usuario recibe un 50% de daño de retroceso.
-Unveiling its ears, the released psychic power causes the user to rampage 2 to 5 times each for three turns.
-Desvelando sus orejas, el poder psíquico revelado causa que el usuario ataque de dos a cinco veces seguidas, arrasando cinco turnos.
+Unveiling its ears, the released psychic power causes the user to rampage 2 to 5 times each for two turns.
+Desvelando sus orejas, el poder psíquico revelado causa que el usuario ataque de dos a cinco veces seguidas, arrasando dos turnos.
 The user takes an entire grid of power into its belly to slam the target. The user takes 100% recoil.
 El usuario carga al máximo su barriga para aplastar al objetivo. El usuario recibe un 100% de daño de retroceso.
 The user prepares its dual cannons. Until switch out, each special attack hits twice.
@@ -36633,8 +36649,8 @@ The user slams the target into a nearby hard object. Increases power the higher 
 El usuario estrella al objetivo contra un objeto duro. Cuanta más Defensa tenga uno de sus aliados, más fuerte es el movimiento.
 Doubles target ally's Attack and Speed. However, if the user faints, so too does that ally.
 Duplica el Ataque y Velocidad de un aliado. Sin embargo, si el usuario es debilitado, también lo hace el usuario.
-The user roars with the force of a volcano, raising the Attack of itself and allies.
-El usuario ruge con la fuerza de un volcán, aumentando su Ataque y el de sus aliados.
+The user roars with the force of a volcano, raising the Attack of itself by three steps and allies' by one.
+El usuario ruge con la fuerza de un volcán, aumentando su Ataque tres grados y el de sus aliados uno.
 The user charges the target at blazing-fast speed. This attack always goes before any other move.
 El usuario embiste con la velocidad de un rayo. Siempre va primero.
 Summons rainstorm for five turns on the first turn, then overwhelms the foe with water on the second.
@@ -36657,8 +36673,8 @@ The user raises all of the target's attacking and Defense and Sp. Def.
 El usuario aumenta todas las stats ofensivas y defensivas del objetivo.
 Raises Sp. Atk by three steps. Until switch out, the user's attacks spread to hit all nearby foes.
 El usuario aumenta su Ataque Especial tres grados. Hasta ser cambiado, sus ataques atacan a todo el lado contrario.
-The user relentlessly rampages with its whip-like hands for three turns. Each hit will always be a critical hit.
-El usuario ataca inexorablemente con sus látigos, arrasando durante tres turnos. Siempres es crítico.
+The user relentlessly rampages with its whip-like hands for two turns. Each hit will always be a critical hit.
+El usuario ataca inexorablemente con sus látigos, arrasando durante dos turnos. Siempres es crítico.
 The user flicks its thorns, dealing damage and setting a layer of poison spikes around the target.
 El usuario libera sus espinas, atacando y colocando una capa de púas venenosas alrededor del objetivo.
 The user uses venom that turns the target's body against it. Super effective vs Fighting-types.
@@ -36747,8 +36763,8 @@ Doubles in power if the foe is asleep. User heals for half of damage dealt. This
 Duplica su potencia si el objetivo está dormido. Recupera la mitad del daño causado. Esto puede sobrecurar.
 Leeches the target by kissing them with its thin mouth.
 Infecta al objetivo besándolo con sus finos labios.
-The user throws a royal fit to rampage for three turns. Raises Speed if a target is knocked out by this move.
-El usuario ataca con la fuerza de un rey, arrasando durante tres turnos. Aumenta su Velocidad si debilita a un objetivo durante este movimiento.
+The user throws a royal fit to rampage for two turns. Raises Speed if a target is knocked out by this move.
+El usuario ataca con la fuerza de un rey, arrasando durante dos turnos. Aumenta su Velocidad si debilita a un objetivo durante este movimiento.
 The user channels insane amounts of energy the first turn, then transforms on the second turn.
 El usuario canaliza una cantidad enorme de energía en el primer turno, luego se transforma en el segundo.
 The target is given a Black Sludge, replacing their item if any. Their Sp. Def is lowered.
@@ -36831,8 +36847,8 @@ The user charges at the target, sweeping away hazards in the with its armored ja
 El usuario carga hacia el objetivo, eliminando trampas pero recibiendo un 33% de daño de retroceso.
 The user schemes to raise its Attack and Sp. Atk by two steps. During moonglow, also raises Speed by two steps.
 El usuario conspira para aumentar ambos Ataques dos grados. Bajo brillo lunar, también aumenta Velocidad dos grados.
-The user rampages and attacks while spewing flames for three turns.
-El usuario arrasa escupiendo llamas durante tres turnos.
+The user rampages and attacks while spewing flames for two turns.
+El usuario arrasa escupiendo llamas durante dos turnos.
 The user launches its amassed chlorophyll to inflict damage on the target. The user loses half its current HP.
 El usuario dispara clorofila amasada para atacar al objetivo. El usuario pierde la mitad de sus PS actuales.
 The user lashes out with its claws. 50% chance to poison. Can random critical hit.
@@ -37189,8 +37205,8 @@ The user engages the target in a head-to-head fight. The damage is based on the 
 El usuario entabla un duelo a cabezazos con el oponente. El daño está basado en el Ataque del usuario en vez de su Defensa.
 A parasitic seed leeches the target and reduces both its Attack and Sp. Atk.
 Una semilla parasitaria que infecta al objetivo y reduce ambas de sus stats ofensivas.
-Summons moonglow for eight turns and raises the Attack stat of itself and its allies by two steps.
-Invoca el brillo lunar por ocho turnos y aumenta su Ataque y el de sus aliados dos grados.
+Summons moonglow for eight turns and raises the user's Attack by two steps.
+Invoca el brillo lunar por ocho turnos y aumenta su Ataque dos grados.
 Cloaking itself in light energy, the user shocks the target, raising the user's Sp. Def by two steps.
 Envolviéndose en energía lumínica, el usuario asusta el objetivo, aumentando la Defensa Especial del usuario dos grados.
 The user endures attacks with 1 HP. If so, raises its Attack by 2 steps. Fails if used in succession.
@@ -37879,8 +37895,8 @@ The user blasts the target with highly pressurized sand. Can random critical hit
 El usuario dispara al objetivo con arena altamente presurizada. Puede dar un golpe crítico.
 The user rocks out by using each Sound-based move they know. Only one use per battle.
 El usuario roquea usando cada movimiento de Sonido que conoce. Sólo un uso por combate.
-The user breaks down all insulation to send a barrage of electricity to rampage for three turns.
-El usuario rompe toda insulación para enviar una lluvia de electricidad, arrasando durante tres turnos.
+The user breaks down all insulation to send a barrage of electricity to rampage for two turns.
+El usuario rompe toda insulación para enviar una lluvia de electricidad, arrasando durante dos turnos.
 Damages all near foes by summoning a miniature black hole. Gravity is intensified for five turns.
 Daña a todos los enemigos cercanos invocando un pequeño aagujero negro. La Gravedad es intensificada durante cinco turnos.
 The user sets Grey Mist for 8 turns, gives themselves a Black Sludge, and becomes Poison-type.
@@ -37929,8 +37945,8 @@ Enables random critical hits for the user, doubles its critical hit chance, and 
 Permite que el usuario puede realizar golpes críticos aleatorios, duplica su índice de golpe crítico, y su Ataque y Defensa aumentan dos grados.
 Pins the target with building materials. The target can't use off-type moves for three more turns.
 Sujeta al objetivo con materiales de trabajo. El objetivo no podrá usar movimientos que no sean de su propio tipo durante tres turnos.
-The opponent is shredded by talons. This attack always results in a critical hit, but the user also takes 25% recoil.
-El usuario ataca desde arriba con sus garras. Siempre resulta en un golpe crítico, pero el usuario recibe un 25% de daño de retroceso.
+The opponent is shredded by talons. This attack always results in a critical hit, but applies Jinx to the user.
+El usuario ataca desde arriba con sus garras. Siempre resulta en un golpe crítico, pero el usuario es Embrujado.
 The user sucks the target's life. The user's HP is restored by 50% the damage dealt.
 El usuario absorbe la vitalidad del objetivo. El usuario recupera el 50% del daño que lidie.
 The user dislodges a blast of thin projectiles. This attack always results in a critical hit, but applies Fracture to the user.
@@ -37949,6 +37965,10 @@ Enables random critical hits for the user, doubles its critical hit chance, and 
 Permite que el usuario realice golpes críticos, duplica su índice de golpe crítico, y aumenta su Ataque Especial y Defensa Especial dos grados.
 The target is immersed in water, having a 30% chance to becomed Waterlogged.
 El usuario sumerge al objetivo en agua, con un 30% de probabilidad de embeber al objetivo.
+The user scatters bursts of spores to induce sleep on all foes, and then becomes Grass-type.
+El usuario esparce esporas para dormir a todos los rivales, y luego se vuelve de tipo Planta.
+Bounces back status moves for the next 3 turns, and user becomes Psychic-type.
+Rebota ataques de estado durante los siguientes 3 turnos, y el usuario se vuelve de tipo Psíquico.
 [7]
 Repel
 Repelente
@@ -47244,16 +47264,16 @@ Frostbite
 Helado
 Poison
 Veneno
-When poisoned, a Pokémon loses 1/10th HP every turn. This doubles every 2 turns. Poison- and Grass-types do the most poisoning. Poison/Steel are immune.
-Al ser envenenado, un Pokémon pierde 1/10 cada turno--duplicando cada 2 turnos hasta ser cambiado. Los tipo Veneno y Planta envenenan más seguido. Veneno/Acero son inmunes.
+When poisoned, a Pokémon loses 1/12th HP every turn. This doubles every 2 turns. Poison- and Grass-types do the most poisoning. Poison/Steel are immune.
+Al ser envenenado, un Pokémon pierde 1/12 cada turno--duplicando cada 2 turnos hasta ser cambiado. Los tipo Veneno y Planta envenenan más seguido. Veneno/Acero son inmunes.
 Numb
 Aturdimiento
 Dizzy
 Mareo
 Leeched
 Infectado
-When leeched, a Pokémon loses 1/10th HP every turn, and its opponent(s) split that health. Bug- and Dark-types do the most leeching. Grass is immune.
-Al ser infectado, un Pokémon pierde 1/10 PS cada turno, y cada oponente restaura salud. Los tipo Bicho y Siniestro infectan más seguido. Planta es inmune.
+When leeched, a Pokémon loses 1/12th HP every turn, and its opponent(s) split that health. Bug- and Dark-types do the most leeching. Grass is immune.
+Al ser infectado, un Pokémon pierde 1/12 PS cada turno, y cada oponente restaura salud. Los tipo Bicho y Siniestro infectan más seguido. Planta es inmune.
 Sleep
 Sueño
 A rarer status that causes a Pokémon to be unable to do anything for 2 turns. Psychic- and Grass-types put Pokémon to sleep the most often.
@@ -55826,8 +55846,8 @@ Bring the Pokémon to them.
 Llévale sus Pokémon
 County Park, Berry Farmer's House
 Parque del Condado, Casa de la Granjera
-This former Team Chasm member has been feeling nostalgic. Bring them a Bergmite, a Klink, a Dreepy, a Makyan Tangela, and an Elekid.
-Esta antigua miembro del Team Chasm se siente nostálgica. Llévale un Bergmite, un Klink, un Dreepy, un Tangela de Makya, y un Elekid.
+This former Team Chasm member has been feeling nostalgic. Show them a Bergmite, a Klink, a Dreepy, a Makyan Tangela, and an Elekid so they can reminisce about the old days.
+Esta antigua miembro del Team Chasm se siente nostálgica. Llévale un Bergmite, un Klink, un Dreepy, un Tangela de Makya, y un Elekid para que pueda recordar los buenos tiempos.
 Catching Charm
 Amuleto Captura
 Geodude Frenzy!
@@ -56260,6 +56280,160 @@ Delete Move
 Borrar Movimiento
 {1} is gearing up for a big release!
 ¡{1} está preparando un gran ataque!
+Move, call, step, stop.<<n>>Rend, rive, dare, halt.<<n>>Claw, cull, dive, hold.<<n>>Fend, flee, fail, fall.
+Mueve, llama, camina, detente.<<n>>Desgarra, parte, osa, para.<<n>>Zarpa, mata, zambulle, espera.<<n>>Elude, huye, falla, cae.
+Your Pokémon cannot use moves on every 4th turn.
+Cada cuatro turnos, tus Pokémon no podrán usar movimientos.
+The freeze will arrive next turn.
+El hielo llegará en el siguiente turno.
+{1} is an ice sculpture! It can't move!
+¡{1} es una escultura de hielo! ¡No se puede mover!
+{1} is frozen into a sculpture! It won't be able to move this turn!
+¡{1} ahora es una escultura helada! ¡No podrá moverse en este turno!
+{1} was freed from the memory of the Perish Song!
+¡{1} fue liberado del recuerdo del Canto Mortal!
+The secondary effect of this move will change depending on the environment
+El efecto secundario de este movimiento cambiará dependiendo del ambiente
+<u>Rocky, Sandy, Volcanos</u>: Burn
+<u>Rocoso, Arenoso, Volcanes</u>: Quemar
+<u>Grassy</u>: Sleep
+<u>Herboso</u>: Dormir
+<u>Snowy</u>: Frostbite
+<u>Nevado</u>: Helar
+<u>Moving and Still Water</u>: Waterlog
+<u>Agua</u>: Embeber
+<u>Caves, Graveyards, and Space</u>: Flinch
+<u>Cuevas, Cementerios y Espacio</u>: Amedrentar
+<u>Puddles</u>: Lower Speed by 2 steps
+<u>Charcos</u>: Disminuir Velocidad 2 grados
+<u>In The Sky</u>: Lower Speed by 1 step
+<u>Cielo</u>: Disminuir Velocidad 1 grado
+<u>Everywhere Else</u>: Numb
+<u>Otros Lados</u>: Aturdir
+Cannot exit now, you are holding a tile!
+¡No puedes salir ahora, sostienes una baldosa!
+Locals are feeding the Pokémon in the sewers as compensation for the items stolen from them.
+Los locales están alimentando a los Pokémon de las alcantarillas como compensación por los objetos que robaron.
+Don't Forget!
+¡No lo Olvides!
+Flower Keeper
+Florista
+Beat your 4th gym.
+Vence al cuarto gimnasio.
+Return to her.
+Regresa con ella
+A flower keeper at the south entrance of Novo Town says she'll give you a reward to celebrate completing your 4th gym. You won't forget her, right?<<n>>Flower
+Una florista en la entrada sur de Pueblo Novo dice que te dará una recompensa para celebrar tu victoria ante tu cuarto gimnasio. No la olvidarás, ¿cierto?<<n>><<n>><<n>><<n>>Flower
+Explore the dungeon.
+Explora la mazmorra.
+Ascend the ranks.
+Asciende los rangos.
+Trade a Pokémon.
+Intercambia un Pokémon.
+Return post-tournament.
+Regresa luego del torneo.
+Go to Luxtech to find information.
+Ve a LuxTech para encontrar información.
+The TV talked about a newly discovered island off the coast. A lot of trainers will be heading there, try to be the best one.
+La TV mencionó una isla recientemente descubierta. Muchos entrenadores irán hacia allí, intenta ser el mejor.
+Former Champions of Makya
+Antiguos Campeones de Makya
+Makya has seen their own fair share of champions over the years. Inevitably, they'll be dethroned by the next tournament, so they add up. You're going to be the best champion of them all though, aren't you? May as well show those rejects why they are only 'former'.
+Makya ha visto una buena cantidad de campeones durante los años. Inevitablemente, serán destronados en el siguiente torneo, sumando. Pero vas a ser el mejor campeón de todos, ¿cierto? Deberías mostrarle a esos rechazados por qué son simplemente "antiguos".
+Former Champion Ansel
+Antiguo Campeón Ansel
+An older champion, show him the future is now. After proving your worth to him, at least.
+Un campeón anciano, muéstrale que el futuro es ahora. Luego de demostrarle que lo vales, al menos.
+Former Champion Praveen
+Antiguo Campeón Praveen
+You've been informed you can now speak to the former champion known as Praveen. What's his deal?
+Te informaron que ahora puedes hablar con el antiguo campeón conocido como Praveen. ¿Cuál es su problema?
+Former Champion Scilla
+Antigua Campeona Scilla
+Scilla runs a dojo in Prizca East, but she isn't one to be paid off to get a black belt from. Crush all those wimps.
+Scilla es dueña de un dojo en Prizca Oriental, pero no es alguien a quien le puedas pagar para un cinturón negro. Aplasta a esos debiluchos.
+Former Champion Chara
+Antigua Campeona Chara
+It appears Chara is your next target, found in Sweetrock. You're certain this won't be anymore challenging than your previous fight.
+Parece que Chara es tu siguiente objetivo, encontrada en Sweetrock. Ciertamente esto no será más desafiante que tu combate anterior.
+Former Champion Elise
+Antigua Campeona Elise
+So we got a princess here, don't we? Magnificent castles can always be brought down with enough hardwork.
+Así que tenemos a una princesa aquí, ¿eh? Incluso los castillos más magníficos pueden ser derrumbados con suficiente fuerza.
+Former Champion Vincent
+Antiguo Campeón Vincent
+Elise mentioned Vincent likes finding strong trainers to fight. Maybe one day you'll find a strong trainer.
+Elise mencionó que a Vincent le gusta encontrar entrenadores fuertes para combatir. Quizás algún día encuentres a un entrenador fuerte.
+Former Champion Casey
+Antiguo Campeón Casey
+Clear out the Diancie Avatar.
+Vence al Avatar de Diancie.
+What are you, an exterminator? Oh well, avatars will always be fun to face, then you can show him what you think of his request.
+¿Qué eres, un exterminador? Oh bueno, siempre será divertido enfrentar a los avatares, luego puedes mostrarle lo que piensas de su petición.
+The Kilna Thieves
+Los Ladrones Kilna
+Investigate the bandits.
+Investiga a los bandidos.
+Kilna Turf
+Campo Kilna
+A ranger told you about how Kilna is strewn in items from thieves. Maybe they have a valuable stash you could take from.
+Un ranger te contó cómo Kilna está llena de ladrones. Puede que tengan un botín muy valioso que podrías tomar.
+Ice and Leaf Stone
+Piedras Hielo y Hoja
+Rowdy Tourists
+Turistas Ruidosos
+Tourist Hater
+Tipo que odia a los Turistas
+Calm them down.
+Cálmalos
+You're hearing things are getting pretty rowdy with these tourists. Teach them you should always respect the places you visit!
+Escuchaste que estos turistas están haciendo demasiado ruido. ¡Enséñales que siempre deberías respetar los lugares que visitas!
+Alolan and Galarian Wreath
+Coronas de Alola y Galar
+Power of the Stone
+El Poder de la Piedra
+Release the influence.
+Libera la influencia.
+Appears these people are being influenced by a strange rock... probably not healthy to leave them like that, could be radioactive.
+Parece que estas personas están siendo influenciadas por una roca extraña... probablemente no es saludable dejarles a eso, parece radioactivo.
+Shiny and Moon Stone
+Piedras Día y Luna
+A powerful avatar of Suicune is being contained in this cave. Perhaps it is guarding something valuable...
+Un poderoso avatar de Suicune está contenido en esta cueva. Quizás está protegiendo algo valioso...
+Water and Dawn Stone
+Piedras Agua y Alba
+A powerful avatar of Raikou is being contained in this cave. Perhaps it is guarding something valuable...
+A powerful avatar of Raikou is being contained in this cave. Perhaps it is guarding something valuable...
+Thunder and Dusk Stone
+Piedras Trueno y Noche
+A powerful avatar of Entei is being contained in this cave. Perhaps it is guarding something valuable...
+A powerful avatar of Entei is being contained in this cave. Perhaps it is guarding something valuable...
+Fire and Sun Stone
+Piedras Fuego y Solar
+{1} breaks the mold and overpowers type immunities!
+¡{1} rompe el molde e ignora inmunidades de tipo!
+{1} transformed further, gaining the {2} type!
+¡{1} se transforma de nuevo, obteniendo el tipo {2}!
+What?! Even more energy rises up from inside {1}!!
+¡¿Qué?! ¡¡Incluso más energía surge desde dentro de {1}!!
+It'll bounce back status moves for {1} more turns!
+¡Rebotará movimientos de estado durante {1} turnos más!
+{1} is no longer shrouded with a Magic Coat.
+{1} ya no está cubierta en una Capa Mágica.
+{1} is considered to have transformed its type this turn.
+Se considera que {1} se haya transformado su tipo en este turno.
+Play hide and seek with that kid. I guess you aren't too old for this stuff yet huh?
+Juega al escondite con ese niño. ¿Supongo que no eres demasiado viejo para esto, eh?
+The local ranger is tired of Rafael's gym puzzle. Sounds like they got a reward for whoever brings them all to them.
+El ranger local está cansado del puzle del gimnasio de Rafael. Parece que tiene una recompensa para cualquiera que le lleve todos.
+Bad Weather
+Mal Clima
+Find the other avatar.
+Encuentra al otro avatar.
+Find Rayquaza.
+Encuentra a Rayquaza.
+A trio of imposing beasts, hidden in the outer reaches of Makya. Why not add controlling the weather to your arsenal?
+Un trío de bestias imponentes, escondidas en los fines de Makya. ¿Por qué no añades controlar el clima a tu arsenal?
 [26]
 [27]
 [27]

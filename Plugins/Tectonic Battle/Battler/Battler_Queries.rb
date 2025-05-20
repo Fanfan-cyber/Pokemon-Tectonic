@@ -992,4 +992,34 @@ class PokeBattle_Battler
     def moveOutcomePredictor
         return @battle.scene.sprites["move_outcome_#{@index}"]
     end
+
+    def hasEmpoweredStatusMove?
+        getMoves.each do |move|
+            next unless move
+            next if move.damagingMove?(true)
+            next unless move.empoweredMove?
+            return true
+        end
+        return false
+    end
+
+    def getEmpoweredStatusMoves
+        empoweredStatusMoves = []
+        getMoves.each do |move|
+            next unless move
+            next if move.damagingMove?(true)
+            next unless move.empoweredMove?
+            empoweredStatusMoves.push(move)
+        end
+        return empoweredStatusMoves
+    end
+
+    def eachEmpoweredStatusMove
+        getMoves.each_with_index do |move, index|
+            next unless move
+            next if move.damagingMove?(true)
+            next unless move.empoweredMove?
+            yield move, index
+        end
+    end
 end

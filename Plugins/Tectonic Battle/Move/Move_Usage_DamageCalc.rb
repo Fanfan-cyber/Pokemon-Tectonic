@@ -113,8 +113,7 @@ class PokeBattle_Move
         end
 
         attack_step = attacking_stat_holder.steps[attacking_stat]
-        critical = target.damageState.critical
-        critical = false if aiCheck
+        critical = aiCheck ? pbIsCritical?(user,target,true) : target.damageState.critical
         attack_step = 0 if critical && attack_step < 0
         attack_step = 0 if targetIsUnaware?(target) && !@battle.moldBreaker
         attack = attacking_stat_holder.getFinalStat(attacking_stat, aiCheck, attack_step)
@@ -568,16 +567,9 @@ class PokeBattle_Move
         multipliers[:base_damage_multiplier] *= [0,(1.0 - target.dmgResist.to_f)].max
 
         # Critical hits
-        if aiCheck
-            rate = pbIsCritical?(user,target,true)
-
-            if rate >= 5
-                multipliers[:final_damage_multiplier] *= criticalHitMultiplier(user,target)
-            end
-        else
-            if target.damageState.critical
-                multipliers[:final_damage_multiplier] *= criticalHitMultiplier(user,target)
-            end
+        if (aiCheck && pbIsCritical?(user,target,true)) || (!aiCheck && target.damageState.critical)
+            echoln("[CRITICAL CALC] #{user.pbThis}'s #{self.name} is predicted to critical hit against target #{target.pbThis(true)}") if aiCheck
+            multipliers[:final_damage_multiplier] *= criticalHitMultiplier(user,target)
         end
 
         # Random variance (What used to be for that)

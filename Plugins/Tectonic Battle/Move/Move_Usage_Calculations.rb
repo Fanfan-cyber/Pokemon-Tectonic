@@ -214,7 +214,7 @@ class PokeBattle_Move
     def pbIsCritical?(user, target, checkingForAI = false)
         unless critsPossible?(user, target)
             if checkingForAI
-                return 0
+                return false
             else
                 return [false, false]
             end
@@ -254,11 +254,11 @@ class PokeBattle_Move
 
         if checkingForAI
             if forced
-                return crit ? 5 : -1
+                return crit
             elsif allowedToRandomCrit
-                return rate
+                return rate >= 3 # If rate is 3 or higher, a "random" crit is actually guaranteed
             else
-                return -1
+                return false
             end
         else
             return crit, forced
