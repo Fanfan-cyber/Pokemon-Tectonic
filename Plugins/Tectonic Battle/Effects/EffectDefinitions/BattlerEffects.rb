@@ -859,7 +859,6 @@ GameData::BattleEffect.register_effect(:Battler, {
         else
             battler.pbReduceHP(battler.hp)
         end
-        battler.pbFaint if battler.fainted?
         if battler.hasActiveAbility?(:REAPWHATYOUSOW, true) &&
                 battler.countsAs?(:MAROMATISSE) &&
                 battler.form == 0
@@ -872,6 +871,7 @@ GameData::BattleEffect.register_effect(:Battler, {
             battle.scene.reviveBattler(battler.index)
             battler.hideMyAbilitySplash
         end
+        battler.pbFaint if battler.fainted?
     end,
     :disable_proc => proc do |battle, battler|
         battle.pbDisplay(_INTL("{1} was freed from the memory of the Perish Song!", battler.pbThis))
