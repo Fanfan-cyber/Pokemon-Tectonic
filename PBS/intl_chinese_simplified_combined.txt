@@ -31520,7 +31520,7 @@ Blinding Dance
 Butting Heads
 对峙
 Center
-中枢
+集中
 Cha-ching
 大赚一笔
 Chaos Wheel
@@ -31606,7 +31606,7 @@ Thieving Spree
 Vicious Cleaning
 清身除垢
 Weather Burst
-天气突发
+天气爆发
 Young Again
 重返青春
 Adrenalash
@@ -31746,9 +31746,9 @@ Venom Guard
 Venomortar
 剧毒脓液
 Vipershock
-毒蛇之刃
+毒蛇冲击
 Devouring Dust
-吞噬灰尘
+吞噬沙穴
 Dust Devil
 尘卷风
 Dustmach Pulse
@@ -31808,11 +31808,11 @@ Diamond Force
 Embrittle
 脆化
 Glimmer Pulse
-云母脉冲
+微光脉冲
 Granite Head
 花岗岩突击
 Grind Stone
-打磨石材
+粗石磨削
 Hard Place
 碰壁打击
 Headbang
@@ -31836,7 +31836,7 @@ Rockalanche
 Rockapult
 巨石投掷
 Rock Out
-外层岩
+岩石乱舞
 Rolling Boulder
 巨石滚动
 Shatter Shot
@@ -31888,7 +31888,7 @@ Natural Protection
 Noise Order
 噪音指令
 Patient Blade
-病痛之刃
+耐心之刃
 Rake
 刮击
 Rolling Arsenal
@@ -31916,11 +31916,11 @@ Swarm Order
 Terror Swarm
 惊悚虫群
 Tune Up
-检修
+战意协奏
 Bind Fate
 命运束缚
 Cold Shoulder
-冷肩带
+冷遇
 Critical Error
 临界误差
 Cursed Oath
@@ -31976,7 +31976,7 @@ Tongue Twister
 Undying Rush
 不灭冲锋
 Vim Ripper
-翻录程序
+灵魂撕裂
 Wailing Blow
 鬼哭狼嚎
 All For One
@@ -32276,11 +32276,11 @@ Electroslash
 From the Blue
 自蓝天
 Gut Check
-直觉检查
+意志考验
 Healthy Cheer
 健康欢呼
 Inertia Shock
-福特强袭
+惯性冲击
 Joke Jolt
 捉弄电击
 Jolt
@@ -32296,7 +32296,7 @@ Lucky Cheer
 Luminous Burst
 夜光爆破
 Metaform
-金属形态
+元形态
 Numb
 电荷
 Photon Edge
@@ -32370,7 +32370,7 @@ Pacify
 Pattern Release
 念能释放
 Penumbra
-五线谱
+半影
 Piercing Doubt
 Piercing Doubt
 Psyche Switch
@@ -32462,7 +32462,7 @@ Sublimate
 Supercool
 超级冷却
 Thermal Drain
-热排水
+热量吸收
 Winter Ops
 寒冬行动
 Archmyth
@@ -32500,7 +32500,7 @@ Scale Glint
 Scour
 冲蚀
 Shred
-撕碎
+撕开
 Transcendent Energy
 无上威能
 Triple Threat
@@ -32592,7 +32592,7 @@ Stare Down
 Sweet Selene
 甜蜜月光
 Tease
-欺凌
+嘲弄
 Vermin Cloud
 蝇云奇袭
 Wet Work
@@ -32668,7 +32668,7 @@ Tranquil Tune
 True Name
 真名
 Ward Press
-病痛挤压
+护盾挤压
 Waxing Light
 月潮涌动
 Mutate
@@ -32839,7 +32839,7 @@ The user helps the target and makes it use its move right after the user.
 The user hurriedly and randomly uses a move among those known by other Pokémon in the party.
 向我方紧急求助，从我方精灵已学会的技能中随机使用1个。
 The user maximizes its Attack stat in exchange for HP equal to half its max HP.
-将自己的HP减少到最大HP的一半，从而最大限度提高自己的攻击。
+将自己的HP减少到最大HP的一半，从而最大限度提高自己的物攻。
 The user passes its held item to the target when the target isn't holding an item.
 当对手未携带物品时，能够将自己携带的物品交给对手。
 The user endures attacks for two turns, then strikes back to cause double the damage taken.
@@ -33149,7 +33149,7 @@ The user soars, becoming invulnerable, then strikes on the second turn.
 The user whips up a gust of wind to attack the target.
 翅膀将刮起的狂风袭向对手进行攻击。
 The user absorbs its target's HP. The user's HP is restored by 75% of the damage dealt.
-从锁定的对手身上吸取HP。回复给予对手伤害的一半以上的HP。
+从对手身上吸取HP。回复给予对手伤害的75%的HP。
 The target is jabbed with a sharply pointed beak or horn. Can random critical hit.
 目标被尖锐的喙或角刺中。可能随机命中要害。
 The user pecks the target. If the target is holding a Berry, the user eats it and gains its effect.
@@ -33259,7 +33259,7 @@ Boulders are hurled at the target. It also lowers the target's Speed by two step
 The user launches a huge boulder at the target to attack. It must rest on the next turn, however.
 向对手发射巨大的岩石进行攻击。下一回合自己将无法动弹。
 Summons sandstorm for eight turns. Damages non-Rock, non-Ground Pokémon every turn.
-在８回合内扬起沙暴，除岩石和地面属性以外的精灵，都会受到伤害。
+在8回合内扬起沙暴，除岩石和地面属性以外的精灵，都会受到伤害。
 The user lays a trap of levitating stones around the foe. The trap hurts foes that switch into battle.
 将无数岩石悬浮在对手的周围，从而对替换出场的对手的精灵给予伤害。
 The user swings its stone axes. This leaves levitating stones floating around the target.
@@ -33267,7 +33267,7 @@ The user swings its stone axes. This leaves levitating stones floating around th
 The user stabs the foe with sharpened stones from below.
 用尖尖的岩石刺入对手进行攻击。
 Pours sticky tar over the target, lowering its Speed by six steps and making it weak to Fire.
-泼洒黏糊糊的沥青，降低对手的速度，并且使对手的弱点变为火。
+泼洒黏糊糊的沥青，降低对手的速度6级，并增加火属性弱点。
 The user and its allies are protected from wide-ranging attacks for a turn. Always fails if used in succession.
 在1回合内防住击打我方全员的攻击，连续使用则会失败。
 The user bites the target. If the target is holding a Berry, the user eats it and gains its effect.
@@ -33481,7 +33481,7 @@ Summons sunshine for eight turns, boosting Fire-type attacks and hindering most 
 With a fiery forehead, the user hurls itself at the foe. Lowers the user's Defense, Sp. Def, and Speed by two steps.
 使用者用燃烧的额头向对手冲去，这会使使用者的物防、特防和速度降低2级。
 If the target's HP is half or less, this attack will hit with double the power.
-当对手的HP负伤到一半左右时，技能威力会变成2倍。
+当对手的HP在一半以下时，技能威力会变成2倍。
 A spray of bubbles is jetted at all near foes. This has a 10% chance to lower their Speed.
 向对手用力吹起无数泡泡进行攻击。10%概率降低对手的速度。
 A spray of bubbles is forcefully ejected at the target. It also lowers the foe's Speed stat.
@@ -33687,7 +33687,7 @@ The user unleashes a vicious blow after a cute act. It has a 50% chance to cause
 The user employs its psychic power to switch stat step changes with the target.
 利用超能力互换自己和对手之间的能力变化。
 Using a hyperspace hole, the user appears next to the target and strikes. Skips and destroys protections and substitutes. Always hits.
-通过异次元洞，突然出现在对手的侧面进行攻击。必定命中对手，且无视保护类技能。
+通过异次元洞，突然出现在对手的侧面进行攻击。无视并破坏保护类效果，必定命中对手。
 The user instructs the target to use the target's last move again.
 向对手下达指示，让其再次使出刚才的技能。
 A wondrous wall of light is put up to suppress damage from special attacks for five turns.
@@ -33769,7 +33769,7 @@ The user launches sharp icicles at the target. It strikes two to five times in a
 The user attacks with a gust of chilled air. It also lowers the targets' Speed stat by two steps.
 将结冰的冷气吹向对手进行攻击。会降低对手的速度。
 The user attacks with a chilling gust of powdery snow. It has a 10% chance to frostbite.
-将冰冷的细雪吹向对手进行攻击。10%概率让对手陷入冰冻状态。
+将冰冷的细雪吹向对手进行攻击。10%概率让对手陷入冻伤状态。
 The user swings its tail wildly and attacks opposing Pokémon, lowering their Attack stats by two steps.
 用坚韧的尾巴猛扫对手进行攻击，从而大幅度降低对手的攻击。
 The user raises all its stats by two steps, at the cost of 1/3rd of its max HP.
@@ -33841,7 +33841,7 @@ The user sharpens its claws to raise its Attack and Accuracy by three steps.
 The user howls loudly to raise the Attack stat of itself and its allies by two steps.
 大声吼叫提高气势，从而大幅度提高自己和同伴的攻击。
 Unleashes a barrage of multi-arm attacks, skipping and destroying protections. Always hits. Lowers the user's Defense by two steps.
-用许多手臂，无视对手的守住或看穿等技能进行连续攻击，自己的防御会大幅度降低。
+用许多手臂进行连续攻击，无视对手的保护类效果，必定命中，但是自己的物防会降低2级。
 Prevents the user and target from switching out until either of them faints or is switched out.
 使双方直到一方濒死为止无法替换精灵。其中一方退场则可以解除效果。
 The user slaps the target to knock off their item.
@@ -33933,7 +33933,7 @@ The user and the target both fall asleep, fully restoring their HP and healing a
 The user dances and shows off their many lights at the target, dizzying and damaging them.
 使用者对目标展示其众多的灯光并跳舞，使目标混乱并受到伤害。
 The user engages the target in a head-to-head fight. The damage is based on the target's Attack rather than their Defense.
-与对方正面交锋，基于对方的防御确定此技能的伤害。
+与对方正面交锋，基于对方的物攻计算此技能的伤害。
 The user concentrates to stabilize its mood. It raises the user's Sp. Def by three steps.
 集中精神来稳定自身情绪，提高自身特防三级。
 The user attacks with the full force of The Market. Much money is earned after the battle.
@@ -33957,7 +33957,7 @@ An unusual shockwave that breaks down all active Rooms.
 The user chooses between Fire Fang, Thunder Fang, or Ice Fang to use this turn.
 可在本回合自行选择使用火焰牙，雷电牙或冰冻牙。
 The user uses all their might to attack their opponent, forcing the user to use Rest on their next turn.
-用尽全力攻击对手，使对方在下一回合被迫休息。
+用尽全力攻击对手，但是自身在下一回合会强制使用睡觉。
 The user chooses Fire, Electric, or Ice, then launches a shell of that type to strike the target in one turn.
 可以从火、电和冰属性中选择一种作为炮弹，下回合以此射击对方。
 Channeling fear, the user bites the target. Deals double damage if the user is below half health.
@@ -34039,7 +34039,7 @@ The user flexes its rocky skin, raising its Attack and Defense by two steps and 
 The user and its allies take 50% less attack damage this turn. Always fails if used in succession.
 本回合自己及同伴受到的伤害降低50%。如果连续使用，总是失败。
 Combining dance and martial art, the user strikes the target and raises its Speed by two steps.
-将舞蹈和武术结合起来，攻击对手并提高自己的速度。
+将舞蹈和武术结合起来，攻击对手并提高自己的速度2级。
 Pins the target with building materials. The target can't use off-type moves for three more turns.
 Pins the target with building materials. The target can't use off-type moves for three more turns.
 The user fires a small shockwave. This has a 30% chance to numb the target.
@@ -34117,7 +34117,7 @@ The user infects the target with a touch and also destroys any Herbs it's holdin
 The user strikes with an acidic punch that destroys Gems and Berries.
 以带有腐蚀性的拳头发起攻击，能摧毁对手的宝石和树果。
 Grips the target with its entire mouth. The user can't attack next turn unless the target faints or switches out.
-用嘴叼住目标攻击，除非对方倒下或换人，否则下一回合无法进行攻击。
+用嘴叼住目标攻击，除非对方倒下或换人，否则使用者下一回合无法进行攻击。
 The user partially dissolves, raising its Sp. Def stat by five steps.
 通过分泌厚厚的粘液来保护自己，从而提高自己的特防五级。
 The user steals blood, lowering the target's Attack. If so, raises the user's Attack.
@@ -34157,7 +34157,7 @@ Halves attack damage taken this turn. Poisons any attackers. Fails if used succe
 The user blasts a bundle of venom at the target, poisoning it.
 将一团毒液喷向对手，使其中毒。
 The user finishes off its prey. Power is tripled against poisoned targets.
-会以致命的一击结束猎物的生命。对中毒对手的威力会增加三倍。
+会以致命的一击结束猎物的生命。对中毒对手的威力会变为三倍。
 The target is consumed by a desert storm, trapping and damaging it for three turns.
 将对手送入一个巨大的陷阱中，束缚并伤害对手3回合。
 The user whips up a hot desert twister to attack the target. It has a 20% chance to burn.
@@ -34175,7 +34175,7 @@ The user rides onto the field on a huge wave of mud, damaging all nearby and rai
 The user attacks by hurling a blob of mud. It has a 20% chance to reduce the target's Speed.
 投掷一团泥浆。20%几率降低对手的速度。
 The user attacks while balled up. This counts as a usage of Fury Cutter, Rock Roll, or Snowball.
-在攻击时卷成一团。将计入连切，岩石滚动，或雪球的使用次数。
+在攻击时卷成一团。将计入连斩，岩石滚动，或雪球的使用次数。
 The user shapes primal clay to heal a nearby ally for their max HP. This can overheal. The user must recharge next turn.
 塑造原始粘土，完全治疗一名同伴，可以过量治疗，但下回合需要重新充能。
 The user hits a pitch that turns earth and stone to dust, damaging its foes.
@@ -34219,7 +34219,7 @@ The user calls up spikes of diamond. Can random critical hit.
 The user weakens the target's bones, making them fracture. They deal 33% less damage.
 使用者削弱目标的骨骼，使其破碎。它们造成的伤害减少33%。
 The user harms the target with gemlike light. Deals double damage if the user has used a gem this battle.
-使用宝石的光芒伤害对方，如果此技能正好触发宝石，则造成双倍伤害。
+使用宝石的光芒攻击对手，如果使用者在本场战斗中触发过宝石，则造成双倍伤害。
 The user charges into the target with its stony body. The user also takes 33% recoil.
 以自身坚硬的石头身体猛撞对手。但会承受33%的反作用伤害。
 The user scratches the target with rough rocks. If in sandstorm, the target's Defense is lowered by three steps.
@@ -34253,7 +34253,7 @@ If this move misses, the target is forced to switch out. Always goes last.
 The user grinds stone into shrapnel and sprays it at the target. This has a 50% chance to fracture it.
 使用者将石头磨成碎片并喷洒向目标。有50%的几率使其破碎。
 The user slams the target with a rocky blade. Destroys screens, substitute, and protection on the target.
-使用岩石利刃猛击对方，摧毁其屏障，替身或其它保护物品。
+使用岩石利刃猛击对方，破坏目标的各种保护类效果。
 The user thrums ominously, lowering the target's Attack and Sp. Atk.
 叩击石头发出不详之音，降低对手的攻击和特攻。
 The user carefully lobs a small stone at high speed.
@@ -34299,7 +34299,7 @@ The user makes a plea for survival, halving the damage their side takes from non
 The user calls out its underlings to annoy the target with buzzing sounds, dizzying it.
 呼唤下属，用纷扰的叫声扰乱对方，使其混乱。
 The user prepares its weapons, raising Attack by six steps but lowering Speed by six steps.
-精心打磨自己的武器，大幅提高自己的攻击，但是速度大幅降低。
+精心打磨自己的武器，提高自己的物攻6级，但是速度降低6级。
 The user rakes the target with sharp claws.
 用锋利的爪子刮击对手。
 The user bites, claws, and stings the target while rolling. It has a 20% chance each to poison, dizzy, or leech.
@@ -34319,7 +34319,7 @@ The user stabs the target, injecting a painful chemical. It has a 30% chance to 
 Halves attack damage taken this turn. Numbs any attackers. Fails if used successively.
 本回合受到攻击的伤害减半，并让攻击到自己的对手陷入麻痹，连续使用则会失败。
 The user sucks the target's life. The user's HP is restored by 50% the damage dealt.
-The user sucks the target's life. The user's HP is restored by 50% the damage dealt.
+吸取对手的生命。回复造成伤害一半的HP。
 The user calls out its underlings to pummel the target. Skips and destroys protections.
 呼唤下属对目标进行猛烈攻击，且无视保护类技能。
 The user summons bugs to terrorize the target, trapping and damaging it for three turns.
@@ -34363,7 +34363,7 @@ The user summons two to five apparitions that dance around hypnotically before s
 The user drains heat from the air around the target, afflicting it with frostbite.
 吸取对手周围的空气中的热量，使其陷入冻伤。
 The user buries the target with somber force. Then, this move is disabled.
-虽然这个技能会直接击败对方，但是使用一次后就会失效。
+用阴暗的力量埋葬对手。之后直到自己下场为止，这个技能会暂时不可使用。
 The user absorbs the target's soul, lowering its Sp. Def and draining its life in the process.
 吸取对手的灵魂，降低其特防，并在此过程中汲取其生命力。
 The user licks the target, numbing them, or cursing them if they're already numbed.
@@ -34409,7 +34409,7 @@ The user curls its metal hair around the target, trapping and damaging it for th
 The user headbutts the target with a metal head. It has a 20% chance to make the target flinch.
 使用者用金属头撞击目标。有20%的几率使目标畏缩。
 A large spike is shot at the target. If this causes the target to faint, a layer of spikes is set on the ground beneath them.
-向对方射出一大把尖刺，如果使其畏缩，则同时形成一层撒菱效果。
+向对方射出一大把尖刺，如果使其濒死，则同时形成一层撒菱效果。
 The target is pierced with a sharp iron arrow. Can random critical hit.
 目标被一根锋利的铁箭刺穿。可能随机命中要害。
 The target is pierced with a pointed metal javelin. Can random critical hit.
@@ -34555,7 +34555,7 @@ The user waterlogs the target, then welcomes in rainstorm for eight turns.
 The foe is pulled into a huge whirlpool, trapping and damaging it for three turns.
 对手被卷进巨大漩涡中，被束缚并受到持续三回合的伤害。
 The user opens a spring to blast the target, also forming an Aqua Ring around themselves, healing 10% HP per turn.
-挖掘了一个喷泉朝对手喷射，同时给自己一个水流环，每回合恢复10%HP。
+打开一眼泉水攻击对手，同时给自己一个水流环，每回合恢复10%HP。
 Attacks with pressurized water. Deals 50% more damage if the user has been hurt by the foe in the same turn.
 使用加压水枪进行攻击，如果此回合内被对方攻击过，则伤害增加50%。
 The user rams its sharp face right into the target. Lowers the user's Speed by three steps.
@@ -34623,7 +34623,7 @@ The user uses their feet to pierce the foe. This has a 10% chance of leeching th
 The user eats decaying leaves, restoring its HP by 50% and raising its Speed.
 吞下腐烂的树叶，回复自身50%的HP并提高速度。
 The target eats a strange seed. They become numbed if faster than the user, or leeched if slower.
-让对手食用一颗奇怪的种子，如果速度比对手快，麻痹对手，否则寄生对手。
+让对手食用一颗奇怪的种子，如果其速度比自己快，它会麻痹，否则它会被寄生。
 The user stirs up a violent petal tempest and attacks everything around it.
 挑起一场猛烈的花瓣风暴，攻击它周围的一切。
 The target is irritated by allergenic plants, poisoning it.
@@ -34631,7 +34631,7 @@ The target is irritated by allergenic plants, poisoning it.
 The user bursts a ball of sleep-inducing powder. It fails unless the target hit the user this turn.
 若受到对手的攻击，就会释放一团催眠粉末，让对手陷入沉睡，否则就会失败。
 Attacks while destroying rooms. This move fails in the absence of a room.
-在存在空间类技能时使用可以将其摧毁。
+在存在空间类效果时使用可以将其破坏。
 The user kicks into the target like roots into earth. This has a 30% chance of leeching.
 像树根入土一样踢向对方，30%概率使其被寄生。
 Halves attack damage taken this turn. Leeches any attackers. Fails if used successively.
@@ -34867,11 +34867,11 @@ To inflict massive damage, the user uses up its Ice-type.
 The user saps all the target's heat with a frigid touch, frostbiting it.
 The user saps all the target's heat with a frigid touch, frostbiting it.
 Drains the heat from the target. The user's HP is restored by 50% the damage dealt.
-一股吸力十足的冰之冲击。回复造成伤害的50%HP。
+从对手处吸走热量进行攻击。回复造成伤害的50%HP。
 The user hunts with its allies. The more party Pokémon, the more damage. Can random critical hit.
 与同伴们一同狩猎，队伍中携带越多的精灵，则威力越高。容易击中要害。
 Invokes the aspects of multiple dragons, striking with a physical move and a special move.
-显现多条真龙的面貌，连续使用物理和特殊技能进行攻击。
+显现多条真龙的面貌，随机使用特定技能池中的一个物理和一个特殊技能。
 The user attacks fueled by ire. Deals double damage if it's a critical hit.
 以愤怒作为动力进行攻击，命中要害时可以造成双倍伤害。
 The user slashes the foe while menacing. During eclipse, the target also becomes burned.
@@ -34881,7 +34881,7 @@ The user harnesses inner battle instincts to strike at the target.
 The user crushes the target with evil intent. This deals double damage if the target has a status condition.
 怀着恶意猛击对手。对处于异常状态的对手给予较大的伤害。
 Exhales magical fumes with a 30% chance to burn or frostbite the target depending on their stats.
-呼出魔法烟雾，根据对手属性30%几率造成烧伤或冻伤。
+呼出魔法烟雾，根据对手的能力，30%几率造成烧伤或冻伤。
 Doubles target ally's Attack and Speed. However, if the user faints, so too does that ally.
 让同伴的攻击和速度翻倍。但是如果自己倒下，那么同伴也会倒下。
 The user inspires a sudden dread in the target, damaging it. This move always goes first.
@@ -34889,7 +34889,7 @@ The user inspires a sudden dread in the target, damaging it. This move always go
 The user spits venom at the target. It has a 30% chance to poison.
 向对手喷射毒液。30%几率使对手中毒。
 The user shakes the target with a deep, rumbling roar. This attack does physical damage.
-使用低沉的吼声震慑目标，同时造成物理伤害。
+使用低沉的吼声震慑目标，造成物理伤害。
 Protects the user from attacks. If an eclipse is active, extends it by one turn. Fails if used in succession.
 保护使用者免受攻击。如果处于日食状态，将其延长一回合。连续使用会失败。
 The user looms over the target with awful menace, lowering their highest stat by four steps.
@@ -34897,7 +34897,7 @@ The user looms over the target with awful menace, lowering their highest stat by
 Attacks all near others with dragon energy. Power increases by 50% in eclipse.
 用龙之气息攻击所有附近的目标，在日食时威力增加50%。
 The user shreds through the opponent's defenses, ignoring positive stat changes and abilities.
-摧毁对手的防御，无视其正面的特性和能力变化。
+破坏对手的防御，无视其正面的特性和能力变化。
 The user makes an offering, then attacks two to five times. Money is earned for each hit.
 进行一次献贡，然后攻击对手2-5次。每次攻击都能获得金钱奖励。
 The shine from scales damages the target. This has a 20% chance to reduce the higher of the target's Attack or Sp. Atk.
@@ -34957,7 +34957,7 @@ The target is confronted with painful words. It has a 30% chance to make the tar
 A punch that inflicts double the damage if the user has been hurt by the foe in the same turn.
 如果自己在同一回合中被对手伤害，那么这一拳会造成双倍的伤害。
 For the rest of the round, the healing of all damaged Pokémon is reversed.
-在本回合剩余时间内，所有受伤的精灵的恢复效果反转。
+在本回合剩余时间内，所有受过伤的精灵的恢复效果反转。
 The user prepares a precise cut. Always a critical hit, but lowers the user's Speed.
 进行一次精准的攻击，必定会击中要害，但也会降低自己的速度。
 The target is dragged viciously through water. This has a 30% chance to waterlog.
@@ -34971,7 +34971,7 @@ Lowers the target's Sp. Atk stat, then restores its own HP by the target's Sp. A
 The user chomps hard, cutting the target's HP by 50%, and the user's HP is restored by 50% of that.
 用力一咬，使对手的HP减半，并回复造成伤害一半的HP。
 Damages the target's life force directly. During moonglow, the target also becomes frostbitten.
-直接伤害对手的HP。在月光期间，对手还会陷入冻伤状态。
+直接伤害对手，在月辉期间，对手还会陷入冻伤状态。
 The user tries to surprise-attack the target. Cannot miss in moonglow. Can random critical hit.
 突袭对手发起攻击。在月光下该技能时必定命中，而且更容易击中要害。
 The user attacks and steals the foe's held Berry or Gem. It can't steal if the user holds an item.
@@ -35051,7 +35051,7 @@ The user causes an accident, damaging the target. This has a 30% chance of jinxi
 The user causes the target to trip and fall. This has a 50% chance of jinxing them.
 使用者使目标绊倒并摔倒。有50%的几率使目标陷入不幸。
 Attacks nearby foes with a misty explosion. User is damaged for 50% of their current HP.
-对自己周围的所有精灵进行攻击，但会受到50%的反作用力伤害。
+对自己周围的所有精灵进行攻击，但会受到当前HP的50%的伤害。
 Summons moonglow for eight turns, boosting Fairy-type attacks and heralding the Full Moon.
 召唤持续八回合的月光，提升妖精属性技能的威力并预示着满月的到来。
 The user invokes forbidden celestial powers to smite the target.
@@ -35091,7 +35091,7 @@ The user copies and gains the first ability of each foe.
 The user yawns, making all near foes drowsy. They'll fall asleep at end of turn next.
 打一个大大的哈欠，使靠近的对手在下一个回合睡着。
 The user attacks with a swift chop, destroying barriers, and reducing the target's defense by five steps.
-以迅雷不及掩耳之势进行攻击，摧毁对方的屏障，并降低其防御五级。
+以迅雷不及掩耳之势进行攻击，破坏对方的保护类效果，并降低其防御五级。
 The user boosts its Attack and Defense, gains a lot of weight, and becomes Fighting-type.
 提升自身的攻击和防御，大幅度增加自己的体重，并使自身变为格斗属性。
 The user raises their Speed by 4 steps, quadruples their critical hit chance, and becomes Fighting-type.
@@ -47336,7 +47336,7 @@ Search the island for Lambert, the first Makya League Gym Leader. He can be foun
 Find Dynamite
 寻找炸药
 Find a Dynamite Stick to destroy the rock which blocks the way to Bluepoint Beach. You can find one in the Foreclosed Tunnel to the north of Casaba Villa.
-找到炸药，摧毁阻挡前往蓝莹海滩的石头，或许在甜瓜度假区北边的隧道中找到。
+找到炸药，破坏阻挡前往蓝莹海滩的石头，或许在甜瓜度假区北边的隧道中找到。
 Explore Bluepoint Beach
 探索蓝莹海滩
 Now that you've blown up the rock in front of Bluepoint Beach, you should search there for Lambert, the gym leader of Casaba Villa.
@@ -59743,11 +59743,11 @@ Healing Reversed
 Healing Halved
 治疗减半
 Fury Cutter Count
-愤怒剪刀计数
+连斩计数
 Snowball Count
 雪球计数
 Rock Roll Count
-滚石计数
+岩石滚动计数
 Heart Rhythm Count
 心跳节奏计数
 Stunning Curl
