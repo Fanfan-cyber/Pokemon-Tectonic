@@ -121,8 +121,6 @@
 [Map120]
 [Map121]
 [Map122]
-You know, I feel a little bad about stealing all those Nuggets from the Pokemon down here...
-You know, I feel a little bad about stealing all those Nuggets from the Pokemon down here...
 [Map123]
 [Map124]
 [Map125]
@@ -131,8 +129,6 @@ You know, I feel a little bad about stealing all those Nuggets from the Pokemon 
 [Map128]
 [Map129]
 [Map130]
-Down: Circuit Cave
-Down: Circuit Cave
 [Map131]
 [Map132]
 [Map133]
@@ -206,22 +202,6 @@ Down: Circuit Cave
 [Map201]
 [Map202]
 [Map203]
-There's something wonderful about Eevees.
-There's something wonderful about Eevees.
-Want to see what I mean with a battle?
-Want to see what I mean with a battle?
-You're missing out!
-You're missing out!
-You won't regret this experience!
-You won't regret this experience!
-I guess they weren't as powerful as I thought...
-I guess they weren't as powerful as I thought...
-Maybe I need a bit more team diversity.
-Maybe I need a bit more team diversity.
-Not right now.
-Not right now.
-Sure?
-Sure?
 [Map204]
 [Map205]
 [Map206]
@@ -344,16 +324,6 @@ Sure?
 [Map323]
 [Map324]
 [Map325]
-Pet the Eevee plushie?
-Pet the Eevee plushie?
-You gently rub the top of the plushie's head.
-You gently rub the top of the plushie's head.
-You decide not to touch the plushie.
-You decide not to touch the plushie.
-Yes
-Yes
-No
-No
 [Map326]
 [Map327]
 [Map328]
@@ -411,10 +381,6 @@ No
 [Map380]
 [Map381]
 [Map382]
-You interact with the blank display, but there is no effect.
-You interact with the blank display, but there is no effect.
-You click the button, but nothing happens.
-You click the button, but nothing happens.
 [Map383]
 [Map384]
 [Map385]
@@ -457,10 +423,6 @@ You click the button, but nothing happens.
 [Map422]
 [Map423]
 [Map424]
-You've found Attea, a spriter and design contributor.
-You've found Attea, a spriter and design contributor.
-You've found Riptide, a developer and designer.
-You've found Riptide, a developer and designer.
 [Map425]
 [Map426]
 [Map427]
@@ -487,8 +449,6 @@ You've found Riptide, a developer and designer.
 [1]
 [2]
 [3]
-It can read others' minds and will teleport away when danger approaches. You must clear your mind if you want to catch it.
-It can read others' minds and will teleport away when danger approaches. You must clear your mind if you want to catch it.
 [4]
 A
 A
@@ -551,47 +511,11 @@ Z
 10%
 10%
 [5]
-Columnar Pin
-Columnar Pin
-Talonfall
-Talonfall
-Fletchettes
-Fletchettes
-Piercing Doubt
-Piercing Doubt
-Psyche Switch
-Psyche Switch
-Call of the Void
-Call of the Void
 [6]
-A spin attack that can also eliminate trapping and hazards afflicting your side. Also raises the user's Speed.
-A spin attack that can also eliminate trapping and hazards afflicting your side. Also raises the user's Speed.
-A full-body charge attack for slamming into the foe. The user also takes 25% recoil.
-A full-body charge attack for slamming into the foe. The user also takes 25% recoil.
-The user gets teary eyed. This lowers the target's Attack and Sp. Atk stats by 2 steps.
-The user gets teary eyed. This lowers the target's Attack and Sp. Atk stats by 2 steps.
-The user fights the foe up close without guarding itself. This lowers the user Defense and Sp. Def by two steps.
-The user fights the foe up close without guarding itself. This lowers the user Defense and Sp. Def by two steps.
-The user delivers a chop with its forearms crossed. Can random critical hit.
-The user delivers a chop with its forearms crossed. Can random critical hit.
-The user regains up to half of its max HP. It restores 66% in a sandstorm.
-The user regains up to half of its max HP. It restores 66% in a sandstorm.
-Gathers space power and boosts its Sp. Atk by two steps on one turn, then attacks on the second turn.
-Gathers space power and boosts its Sp. Atk by two steps on one turn, then attacks on the second turn.
-The user swings its stone axes. This leaves levitating stones floating around the target.
-The user swings its stone axes. This leaves levitating stones floating around the target.
-The user makes a lunge at the target, attacking with full force. This lowers the target's Attack.
-The user makes a lunge at the target, attacking with full force. This lowers the target's Attack.
-A sleeping target sees a nightmare that inflicts 25% damage every turn.
-A sleeping target sees a nightmare that inflicts 25% damage every turn.
-The user vanishes somewhere, becoming invulnerable, then strikes on the second turn. Skips and destroys protections.
-The user vanishes somewhere, becoming invulnerable, then strikes on the second turn. Skips and destroys protections.
-The user focuses intensely. For the next three turns, its attacks will be guaranteed critical hits.
-The user focuses intensely. For the next three turns, its attacks will be guaranteed critical hits.
-The user strikes the target with a flaming lash. This also lowers the target's Defense stat by two steps.
-The user strikes the target with a flaming lash. This also lowers the target's Defense stat by two steps.
 The user attacks everything by causing its own head to explode. The user also takes 50% recoil.
 The user attacks everything by causing its own head to explode. The user also takes 50% recoil.
+The user rampages and attacks while spewing flames for two turns.
+The user rampages and attacks while spewing flames for two turns.
 Diving on the first turn, becoming invulnerable, the user rises and hits from below water on the second turn.
 Diving on the first turn, becoming invulnerable, the user rises and hits from below water on the second turn.
 The user bursts into song, emitting many bubbles. Any burning Pokémon will be healed by these bubbles.
@@ -600,32 +524,44 @@ The user hits the target with throwing stars two to five times in a row. This mo
 The user hits the target with throwing stars two to five times in a row. This move always goes first.
 The user's body grows all at once, raising Attack and Sp. Atk by two steps, or four in sunshine.
 The user's body grows all at once, raising Attack and Sp. Atk by two steps, or four in sunshine.
+The user attacks by scattering petals in a rampage for two turns.
+The user attacks by scattering petals in a rampage for two turns.
 The user violently whirls its vines, tentacles, or the like to lash the target.
 The user violently whirls its vines, tentacles, or the like to lash the target.
 The user restores half of their max HP, or 66% in sunshine.
 The user restores half of their max HP, or 66% in sunshine.
 The user bites the target using psychic capabilities. Also breaks any screens protecting the target's side.
 The user bites the target using psychic capabilities. Also breaks any screens protecting the target's side.
+The user howls loudly to raise its Attack by three steps, and its allies' by one.
+The user howls loudly to raise its Attack by three steps, and its allies' by one.
+The user attacks with a pillar of dark light. This ignores their ability.
+The user attacks with a pillar of dark light. This ignores their ability.
+The user raises the Defense and Sp. Def stats of an ally Pokémon by two steps using a mysterious aroma.
+The user raises the Defense and Sp. Def stats of an ally Pokémon by two steps using a mysterious aroma.
+The user absorbs energy and raises all of its stats by three steps on the next turn.
+The user absorbs energy and raises all of its stats by three steps on the next turn.
 The user hits the target with the force of nature. It cuts the target's HP to half.
 The user hits the target with the force of nature. It cuts the target's HP to half.
 Enables random critical hits for the user, doubles its critical hit chance, and raises its Attack and Defense by two steps.
 Enables random critical hits for the user, doubles its critical hit chance, and raises its Attack and Defense by two steps.
 Pins the target with building materials. The target can't use off-type moves for three more turns.
 Pins the target with building materials. The target can't use off-type moves for three more turns.
+Enables random critical hits for the user, quadruples its critical hit chance, and raises its Speed by two steps.
+Enables random critical hits for the user, quadruples its critical hit chance, and raises its Speed by two steps.
 A kick that can also eliminate trapping and hazards afflicting your side. Also raises user's Speed.
 A kick that can also eliminate trapping and hazards afflicting your side. Also raises user's Speed.
-The user relentlessly rampages with its whip-like hands for three turns. Each hit will always be a critical hit.
-The user relentlessly rampages with its whip-like hands for three turns. Each hit will always be a critical hit.
+The user holds fast with its teammates, raise its Defense by three steps, and its allies' by one.
+The user holds fast with its teammates, raise its Defense by three steps, and its allies' by one.
+The user relentlessly rampages with its whip-like hands for two turns. Each hit will always be a critical hit.
+The user relentlessly rampages with its whip-like hands for two turns. Each hit will always be a critical hit.
 A reckless charge attack from the air. The user also takes 25% recoil.
 A reckless charge attack from the air. The user also takes 25% recoil.
-The opponent is shredded by talons as the user dives from a great height. This attack always results in a critical hit, but the user also takes 25% recoil.
-The opponent is shredded by talons as the user dives from a great height. This attack always results in a critical hit, but the user also takes 25% recoil.
+The opponent is shredded by talons. This attack always results in a critical hit, but applies Jinx to the user.
+The opponent is shredded by talons. This attack always results in a critical hit, but applies Jinx to the user.
 The user slathers mud around to heal itself for half of their max HP, and extends any active screens by one turn.
 The user slathers mud around to heal itself for half of their max HP, and extends any active screens by one turn.
 The user sweeps away hazards afflicting your side while charging. User also takes 33% recoil.
 The user sweeps away hazards afflicting your side while charging. User also takes 33% recoil.
-The user sucks the target's life. The user's HP is restored by 50% the damage dealt.
-The user sucks the target's life. The user's HP is restored by 50% the damage dealt.
 The user dislodges a blast of thin projectiles. This attack always results in a critical hit, but applies Fracture to the user.
 The user dislodges a blast of thin projectiles. This attack always results in a critical hit, but applies Fracture to the user.
 The user uses explosive force to shoot shards of its own body at the target. The user loses 10% of its max HP.
@@ -638,18 +574,32 @@ The user shreds off bits of its own body to launch at the target. The user loses
 The user shreds off bits of its own body to launch at the target. The user loses 10% of its max HP.
 The user heals itself for half of their max HP, and extends the current weather by one turn.
 The user heals itself for half of their max HP, and extends the current weather by one turn.
+The user roars with the force of a volcano, raising the Attack of itself by three steps and allies' by one.
+The user roars with the force of a volcano, raising the Attack of itself by three steps and allies' by one.
 The user surrounds the target with fire which also destroys any clothing items it's holding.
 The user surrounds the target with fire which also destroys any clothing items it's holding.
 The user creates a storm using its flaming body, damaging everything around it and melting away hazards from both sides.
 The user creates a storm using its flaming body, damaging everything around it and melting away hazards from both sides.
+The target is immersed in water, having a 30% chance to becomed Waterlogged.
+The target is immersed in water, having a 30% chance to becomed Waterlogged.
+The user calms itself and its teammates, raise its Sp. Def by three steps, and its allies' by one.
+The user calms itself and its teammates, raise its Sp. Def by three steps, and its allies' by one.
+The user breaks down all insulation to send a barrage of electricity to rampage for two turns.
+The user breaks down all insulation to send a barrage of electricity to rampage for two turns.
 The user dances with the speed of lightning, raising its Sp. Atk by two steps and Speed by one.
 The user dances with the speed of lightning, raising its Sp. Atk by two steps and Speed by one.
+The user syncs its mind with its teammates, raising its Sp. Atk by three steps, and its allies' by one.
+The user syncs its mind with its teammates, raising its Sp. Atk by three steps, and its allies' by one.
 The user creates an odd area for 8 turns in which Pokémon's offensive and defensive stats are swapped.
 The user creates an odd area for 8 turns in which Pokémon's offensive and defensive stats are swapped.
+Unveiling its ears, the released psychic power causes the user to rampage 2 to 5 times each for two turns.
+Unveiling its ears, the released psychic power causes the user to rampage 2 to 5 times each for two turns.
 Pierces the mind of the target, inflicting doubt in their abilities, guaranteeing a critical hit on foes with boosted stats.
 Pierces the mind of the target, inflicting doubt in their abilities, guaranteeing a critical hit on foes with boosted stats.
 After making its attack to the targets psyche, the user teleports back to switch places with a party Pokémon.
 After making its attack to the targets psyche, the user teleports back to switch places with a party Pokémon.
+The user overloads its mind to rampage for two turns.
+The user overloads its mind to rampage for two turns.
 The user covers the field with an fog of ice crystals, summoning hail and creating Grey Mist for 5 turns.
 The user covers the field with an fog of ice crystals, summoning hail and creating Grey Mist for 5 turns.
 The user freezes the target in place, dealing damage and minimizing their Speed and Evasion.
@@ -658,10 +608,14 @@ The user saps all the target's heat with a frigid touch, frostbiting it.
 The user saps all the target's heat with a frigid touch, frostbiting it.
 The user channels insane amounts of energy the first turn, then transforms on the second turn.
 The user channels insane amounts of energy the first turn, then transforms on the second turn.
+The user throws a royal fit to rampage for two turns. Raises Speed if a target is knocked out by this move.
+The user throws a royal fit to rampage for two turns. Raises Speed if a target is knocked out by this move.
 All near foes are dragged into a world of total darkness that makes them drowsy. Only one use per battle.
 All near foes are dragged into a world of total darkness that makes them drowsy. Only one use per battle.
 The user restores half of their max HP and raises their Defense, Sp. Def, and critical hit chance by two steps.
 The user restores half of their max HP and raises their Defense, Sp. Def, and critical hit chance by two steps.
+Summons moonglow for eight turns and raises the user's Attack by two steps.
+Summons moonglow for eight turns and raises the user's Attack by two steps.
 The user restores half of their max HP, or 66% in moonglow.
 The user restores half of their max HP, or 66% in moonglow.
 The user transforms into a cloud of vermin, becoming invulnerable to attacks on the first turn. On the second turn it ambushes the target.
@@ -670,43 +624,147 @@ Enables random critical hits for the user, doubles its critical hit chance, and 
 Enables random critical hits for the user, doubles its critical hit chance, and raises its Sp. Atk and Sp. Def by two steps.
 The user creates a puzzling area for 8 turns in which Pokémon's base Attack and Sp. Atk are swapped.
 The user creates a puzzling area for 8 turns in which Pokémon's base Attack and Sp. Atk are swapped.
+The user goes on a wild tantrum, going on a rampage for two turns.
+The user goes on a wild tantrum, going on a rampage for two turns.
+The user lays 2 layers of poisonous spike traps at the foe's feet, and becomes Poison-type.
+The user lays 2 layers of poisonous spike traps at the foe's feet, and becomes Poison-type.
 The user creates a Polarized Room for 8 turns, raises both of its Defensive stats, and becomes Steel-type.
 The user creates a Polarized Room for 8 turns, raises both of its Defensive stats, and becomes Steel-type.
+The user scatters bursts of spores to induce sleep on all foes, and then becomes Grass-type.
+The user scatters bursts of spores to induce sleep on all foes, and then becomes Grass-type.
+Bounces back status moves for the next 3 turns, and user becomes Psychic-type.
+Bounces back status moves for the next 3 turns, and user becomes Psychic-type.
 The user creates an Odd Room for 8 turns, raises its Speed, and becomes Psychic-type.
 The user creates an Odd Room for 8 turns, raises its Speed, and becomes Psychic-type.
+The user crushes all near foes with evil intent. This deals double damage to targets with a status condition.
+The user crushes all near foes with evil intent. This deals double damage to targets with a status condition.
 The user creates a Puzzle Room for 8 turns, raises both of its Attacking stats, and becomes Fairy-type.
 The user creates a Puzzle Room for 8 turns, raises both of its Attacking stats, and becomes Fairy-type.
 [7]
 [8]
 [9]
 [10]
-Foreman
-Foreman
 [11]
+Takes 30% less damage in a sandstorm.
+Takes 30% less damage in a sandstorm.
+Doubles the critical hit chance of random crit moves. Powers up critical hits by another 50%.
+Doubles the critical hit chance of random crit moves. Powers up critical hits by another 50%.
+Quadruples the critical hit chance of random crit moves.
+Quadruples the critical hit chance of random crit moves.
+The Pokémon gains twice as many stats from leveling up.
+The Pokémon gains twice as many stats from leveling up.
 At the end of each turn in rainstorm, each Pokémon not immune to rainstorm has their Defense and Sp. Def lowered.
 At the end of each turn in rainstorm, each Pokémon not immune to rainstorm has their Defense and Sp. Def lowered.
+After being hit, the Pokémon raises either Defense or Sp. Def based on the attack's category. Caps out at +4.
+After being hit, the Pokémon raises either Defense or Sp. Def based on the attack's category. Caps out at +4.
+After using a wind move, raises the Pokémon's Defense and Sp. Def. Caps out at +4.
+After using a wind move, raises the Pokémon's Defense and Sp. Def. Caps out at +4.
+Raises Defense and Sp. Def whenever any Pokémon uses a dance move. Caps out at +4.
+Raises Defense and Sp. Def whenever any Pokémon uses a dance move. Caps out at +4.
+Takes 35% less damage in eclipse, except in total eclipse.
+Takes 35% less damage in eclipse, except in total eclipse.
+Heals from trapping damage it deals. Takes 25% less damage from Pokémon that are trapped.
+Heals from trapping damage it deals. Takes 25% less damage from Pokémon that are trapped.
 After knocking out any Pokémon with Waterfall, transforms into its Rampage form. Ability becomes Juggernaut.
 After knocking out any Pokémon with Waterfall, transforms into its Rampage form. Ability becomes Juggernaut.
+Boosts Sp. Atk and Speed by 30% in rainstorm.
+Boosts Sp. Atk and Speed by 30% in rainstorm.
+Powers up the Pokémon's Dark-type moves by 50% in sandstorm.
+Powers up the Pokémon's Dark-type moves by 50% in sandstorm.
+While the Pokémon is below half health, its attacks poisons those hit.
+While the Pokémon is below half health, its attacks poisons those hit.
+Can't be statused due to its hard shell. Boosts Sp. Atk and Speed by 30% in sandstorm.
+Can't be statused due to its hard shell. Boosts Sp. Atk and Speed by 30% in sandstorm.
+33% of all move damage taken by the Pokémon is instead taken at the end of the next turn.
+33% of all move damage taken by the Pokémon is instead taken at the end of the next turn.
+Doubles the Pokémon's Defense in a sandstorm.
+Doubles the Pokémon's Defense in a sandstorm.
+Restores the Pokémon's HP based on damage taken by others from sandstorm.
+Restores the Pokémon's HP based on damage taken by others from sandstorm.
+The Pokémon is immune to Ground-type moves and takes 20% less damage in sandstorm.
+The Pokémon is immune to Ground-type moves and takes 20% less damage in sandstorm.
+Boosts power of the Pokémon's sound-based moves by 50%.
+Boosts power of the Pokémon's sound-based moves by 50%.
+In sandstorm, the Pokémon's Attack is boosted by 30%.
+In sandstorm, the Pokémon's Attack is boosted by 30%.
+Repeats another Pokémon's sound and pulse moves immediately at 50% power.
+Repeats another Pokémon's sound and pulse moves immediately at 50% power.
 Upon entry, creates an Emotion Room for four turns, switching Abilities every turn.
 Upon entry, creates an Emotion Room for four turns, switching Abilities every turn.
+Takes 30% less damage in a rainstorm.
+Takes 30% less damage in a rainstorm.
 Doubles the Pokémon's Speed in Rooms.
 Doubles the Pokémon's Speed in Rooms.
+Boosts Attack and Speed by 30% in hail.
+Boosts Attack and Speed by 30% in hail.
+Random added effects of wind-based moves are +50% more likely to occur.
+Random added effects of wind-based moves are +50% more likely to occur.
+Doubles the Pokémon's Sp. Def in sunshine.
+Doubles the Pokémon's Sp. Def in sunshine.
 Upon entry, creates an Insight Room for four turns, giving everyone a fifth move.
 Upon entry, creates an Insight Room for four turns, giving everyone a fifth move.
+Protected against critical hits. Heals 1/12th HP every turn if hit by an attack.
+Protected against critical hits. Heals 1/12th HP every turn if hit by an attack.
+Boosts the Pokémon's Speed by 50% in sandstorm or hail.
+Boosts the Pokémon's Speed by 50% in sandstorm or hail.
+Powers up the Pokémon's Dark-type moves by 50% in sunshine.
+Powers up the Pokémon's Dark-type moves by 50% in sunshine.
+Slips past hazards. Takes 50% less damage if it switched in this turn.
+Slips past hazards. Takes 50% less damage if it switched in this turn.
 Upon entry, creates an Odd Room for four turns, swapping offensive and Defense and Sp. Def.
 Upon entry, creates an Odd Room for four turns, swapping offensive and Defense and Sp. Def.
+Heals the Pokémon's status problems each turn if in sunshine.
+Heals the Pokémon's status problems each turn if in sunshine.
+The Pokémon receives 33% less move damage if there is an active Room.
+The Pokémon receives 33% less move damage if there is an active Room.
 Upon entry, creates a Polarized Room for four turns, exaggerating type matchups.
 Upon entry, creates a Polarized Room for four turns, exaggerating type matchups.
 Upon entry, creates a Puzzle Room for four turns, swapping base Attack and Sp. Atk.
 Upon entry, creates a Puzzle Room for four turns, swapping base Attack and Sp. Atk.
+Upon entry during sunshine, heals the lowest HP ally or self by 33%.
+Upon entry during sunshine, heals the lowest HP ally or self by 33%.
+Boosts the Pokémon's Speed by 50% in sandstorm. Can't miss during sandstorm.
+Boosts the Pokémon's Speed by 50% in sandstorm. Can't miss during sandstorm.
+During sandstorm, the Pokémon's Speed is boosted by 50% and twice as likely to crit.
+During sandstorm, the Pokémon's Speed is boosted by 50% and twice as likely to crit.
+Doubles critical hit chance. Restores HP for half the damage it does with critical hits.
+Doubles critical hit chance. Restores HP for half the damage it does with critical hits.
+Two-turn retreat moves such as Dig deal double damage.
+Two-turn retreat moves such as Dig deal double damage.
+The Pokémon takes 30% less move damage in hail.
+The Pokémon takes 30% less move damage in hail.
+Boosts the Pokémon's Sp. Atk and Sp. Def by 30% in sunshine.
+Boosts the Pokémon's Sp. Atk and Sp. Def by 30% in sunshine.
+After using a sound move, raises the Pokémon's Defense and Sp. Def. Caps out at +4.
+After using a sound move, raises the Pokémon's Defense and Sp. Def. Caps out at +4.
+Raises defenses after using a Grass-, Ground-, or Steel-type move. Caps out at +4.
+Raises defenses after using a Grass-, Ground-, or Steel-type move. Caps out at +4.
+Doubles critical hit chance for each Speed step up. All moves can random critical hit.
+Doubles critical hit chance for each Speed step up. All moves can random critical hit.
+Prevents its stats from being lowered by more than one step at a time.
+Prevents its stats from being lowered by more than one step at a time.
 Upon entry, creates a Trick Room for four turns, inverting the effect of Speed.
 Upon entry, creates a Trick Room for four turns, inverting the effect of Speed.
 At the end of each turn in sunshine, each Pokémon not immune to sunshine has their Defense and Sp. Def lowered.
 At the end of each turn in sunshine, each Pokémon not immune to sunshine has their Defense and Sp. Def lowered.
+Boosts the Pokémon's Attack by 30% in sunshine.
+Boosts the Pokémon's Attack by 30% in sunshine.
+Upon entry during eclipse, heals the lowest HP ally or self by 33%.
+Upon entry during eclipse, heals the lowest HP ally or self by 33%.
+Takes 30% less damage from Pokémon that are trapped.
+Takes 30% less damage from Pokémon that are trapped.
+Moves ignore Abilities that would affect its moves or activate after hitting the target, and immunities due to typing.
+Moves ignore Abilities that would affect its moves or activate after hitting the target, and immunities due to typing.
+Takes 40% less damage while using a status move.
+Takes 40% less damage while using a status move.
 Upon entry, creates a Willful Room for four turns, reducing all hits by 30 damage.
 Upon entry, creates a Willful Room for four turns, reducing all hits by 30 damage.
+Restores HP based on damage taken by others from hail.
+Restores HP based on damage taken by others from hail.
 [12]
 [14]
+Eric
+Eric
 D
 D
 Attea
@@ -1354,6 +1412,10 @@ Lv. {1}
 Lv. {1}
 IDNo.{1}
 IDNo.{1}
+Are you sure you want {1} to forget {2}?
+Are you sure you want {1} to forget {2}?
+Success! {1} forget {2} completely.
+Success! {1} forget {2} completely.
 PP
 PP
 {1}/{2}
@@ -1386,6 +1448,10 @@ Volatile Statuses
 Volatile Statuses
 What are the Volatile Statuses a Pokémon can be afflicted with?
 What are the Volatile Statuses a Pokémon can be afflicted with?
+When poisoned, a Pokémon loses 1/12th HP every turn. This doubles every 2 turns. Poison- and Grass-types do the most poisoning. Poison/Steel are immune.
+When poisoned, a Pokémon loses 1/12th HP every turn. This doubles every 2 turns. Poison- and Grass-types do the most poisoning. Poison/Steel are immune.
+When leeched, a Pokémon loses 1/12th HP every turn, and its opponent(s) split that health. Bug- and Dark-types do the most leeching. Grass is immune.
+When leeched, a Pokémon loses 1/12th HP every turn, and its opponent(s) split that health. Bug- and Dark-types do the most leeching. Grass is immune.
 What are Volatile Statuses?
 What are Volatile Statuses?
 Volatile Status Conditions are similar to Status Conditions, except they will go away if the Pokémon switches out.
@@ -1440,6 +1506,10 @@ A grounded Pokémon loses their immunity to ground moves (from being Flying-type
 A grounded Pokémon loses their immunity to ground moves (from being Flying-type or having a Levitate ability).
 Certain abilities prevent critical hits against that Pokémon. The Lucky Chant effect protects their side from critical hits.
 Certain abilities prevent critical hits against that Pokémon. The Lucky Chant effect protects their side from critical hits.
+Sunshine lowers attack damage by 15%. Fire and Grass-type moves/Pokémon are immune to this. Fire-type attacks are boosted by 30%.
+Sunshine lowers attack damage by 15%. Fire and Grass-type moves/Pokémon are immune to this. Fire-type attacks are boosted by 30%.
+Rainstorm lowers attack damage by 15%. Water and Electric-type moves/Pokémon are immune to this. Water-type attacks are boosted by 30%.
+Rainstorm lowers attack damage by 15%. Water and Electric-type moves/Pokémon are immune to this. Water-type attacks are boosted by 30%.
 x{1: 3d}
 x{1: 3d}
 x{1: 2d}
@@ -1470,6 +1540,8 @@ Team Submitted by {1}
 {1} (PP: ---)
 {1} (PP: {2}/{3})
 {1} (PP: {2}/{3})
+Delete Move
+Delete Move
 x{1}<r>{2}
 x{1}<r>{2}
 <ac><c3={1}>{2}</c3></ac>
@@ -1500,20 +1572,62 @@ E
 <b>{1}</b> {2}
 {1}: {2} ({3}\%)
 {1}: {2} ({3}\%)
+{1} transformed further, gaining the {2} type!
+{1} transformed further, gaining the {2} type!
 \ts[]<c3=4C0D0D,FFFFFF22><b><outln2><ac><fs={1}>\w[]\wu\l[12]{2}</fs></ac></outln2></b></c3>\wt[{3}]
 \ts[]<c3=4C0D0D,FFFFFF22><b><outln2><ac><fs={1}>\w[]\wu\l[12]{2}</fs></ac></outln2></b></c3>\wt[{3}]
 The air around {1} turns dark and distorted.
 The air around {1} turns dark and distorted.
 {1} is gearing up for a big release!
 {1} is gearing up for a big release!
+Move, call, step, stop.<<n>>Rend, rive, dare, halt.<<n>>Claw, cull, dive, hold.<<n>>Fend, flee, fail, fall.
+Move, call, step, stop.<<n>>Rend, rive, dare, halt.<<n>>Claw, cull, dive, hold.<<n>>Fend, flee, fail, fall.
+Your Pokémon cannot use moves on every 4th turn.
+Your Pokémon cannot use moves on every 4th turn.
+The freeze will arrive next turn.
+The freeze will arrive next turn.
+{1} breaks the mold and overpowers type immunities!
+{1} breaks the mold and overpowers type immunities!
 \ss#{msg}\<<1>>
 \ss#{msg}\<<1>>
+What?! Even more energy rises up from inside {1}!!
+What?! Even more energy rises up from inside {1}!!
 {1}'s raised {2} recovered by {3}!
 {1}'s raised {2} recovered by {3}!
 {1}'s lowered {2} recovered by {3}!
 {1}'s lowered {2} recovered by {3}!
+{1} is an ice sculpture! It can't move!
+{1} is an ice sculpture! It can't move!
+It'll bounce back status moves for {1} more turns!
+It'll bounce back status moves for {1} more turns!
+{1} is no longer shrouded with a Magic Coat.
+{1} is no longer shrouded with a Magic Coat.
+{1} was freed from the memory of the Perish Song!
+{1} was freed from the memory of the Perish Song!
+{1} is considered to have transformed its type this turn.
+{1} is considered to have transformed its type this turn.
+{1} is frozen into a sculpture! It won't be able to move this turn!
+{1} is frozen into a sculpture! It won't be able to move this turn!
 EHP
 EHP
+The secondary effect of this move will change depending on the environment
+The secondary effect of this move will change depending on the environment
+<u>Rocky, Sandy, Volcanos</u>: Burn
+<u>Rocky, Sandy, Volcanos</u>: Burn
+<u>Grassy</u>: Sleep
+<u>Grassy</u>: Sleep
+<u>Snowy</u>: Frostbite
+<u>Snowy</u>: Frostbite
+<u>Moving and Still Water</u>: Waterlog
+<u>Moving and Still Water</u>: Waterlog
+<u>Caves, Graveyards, and Space</u>: Flinch
+<u>Caves, Graveyards, and Space</u>: Flinch
+<u>Puddles</u>: Lower Speed by 2 steps
+<u>Puddles</u>: Lower Speed by 2 steps
+<u>In The Sky</u>: Lower Speed by 1 step
+<u>In The Sky</u>: Lower Speed by 1 step
+<u>Everywhere Else</u>: Numb
+<u>Everywhere Else</u>: Numb
 <u>150 BP</u>: Iron Ball
 <u>150 BP</u>: Iron Ball
 <u>Waterlog</u>: Water Balloon
@@ -1522,6 +1636,8 @@ EHP
 {1}<<1>>
 {1}
 {1}
+{1}: {2}
+{1}: {2}
 \cl\l[4]\op\wu\i[{1}]\or{2}\wt[30]
 \cl\l[4]\op\wu\i[{1}]\or{2}\wt[30]
 <ac>{1:02d}:{2:02d}
@@ -1532,8 +1648,8 @@ EHP
 \db[Items/TAROTAMULET_active]You turn the Tarot Amulet to its front face. It is now active.\wtnp[{1}]
 \db[Items/TAROTAMULET]You turn the Tarot Amulet to its back face. It is now disabled.\wtnp[{1}]
 \db[Items/TAROTAMULET]You turn the Tarot Amulet to its back face. It is now disabled.\wtnp[{1}]
-{1}: {2}
-{1}: {2}
+Cannot exit now, you are holding a tile!
+Cannot exit now, you are holding a tile!
 {1} x{2}
 {1} x{2}
 {1}-{2}
@@ -1594,62 +1710,6 @@ Quest Log reset.
 \wm{1}\me<<[>>Slots win<<]>>\wtnp<<[>>80<<]>><<1>>
 \cl\l[2]\op\wu<ac>{1}</ac>\wtnp[{2}]
 \cl\l[2]\op\wu<ac>{1}</ac>\wtnp[{2}]
-The 'quest' argument should be a symbol, e.g. ':Quest1'.
-The 'quest' argument should be a symbol, e.g. ':Quest1'.
-New quest discovered!
-New quest discovered!
-Quest failed!
-Quest failed!
-Quest completed!
-Quest completed!
-Stage number {1} is too high for quest '{2}'.
-Stage number {1} is too high for quest '{2}'.
-Quest updated with the next task!
-Quest updated with the next task!
-\wm\se<<[>>{1}<<]>><ac>\c<<[>>2<<]>>{2}</c><<n>>Check your quest log for more details!</ac>
-\wm\se<<[>>{1}<<]>><ac>\c<<[>>2<<]>>{2}</c><<n>>Check your quest log for more details!</ac>
-Active
-Active
-Completed
-Completed
-Failed
-Failed
-{1} quests
-{1} quests
-ARROWS: Navigate
-ARROWS: Navigate
-A/S: Jump Down/Up
-A/S: Jump Down/Up
-New Activity:
-New Activity:
-{1} tasks
-{1} tasks
-<b>Overview</b>: {1}
-<b>Overview</b>: {1}
-<b>Task</b>: {1}
-<b>Task</b>: {1}
-<b>Location</b>: {1}
-<b>Location</b>: {1}
-nil
-nil
-on
-on
-in
-in
-start
-start
-completion
-completion
-failure
-failure
-<b>Quest received from</b>:
-<b>Quest received from</b>:
-<b>Quest discovered {1}</b>:
-<b>Quest discovered {1}</b>:
-<b>Quest {1} time</b>:
-<b>Quest {1} time</b>:
-<b>Reward</b>: {1}
-<b>Reward</b>: {1}
 Impostor/Imperatrice
 Impostor/Imperatrice
 Find them north of Svait.
@@ -1774,8 +1834,8 @@ Find him again.
 Find him again.
 Casaba Island
 Casaba Island
-Play hide and seek with the kid who said they'd give you TMs.
-Play hide and seek with the kid who said they'd give you TMs.
+Play hide and seek with that kid. I guess you aren't too old for this stuff yet huh?
+Play hide and seek with that kid. I guess you aren't too old for this stuff yet huh?
 TMs!
 TMs!
 An Inconvenienced Ranger
@@ -1786,8 +1846,8 @@ Find all the digit slips.
 Find all the digit slips.
 Menagerie-Velenz Gatehouse
 Menagerie-Velenz Gatehouse
-The local ranger is tired of Rafael's gym puzzle. Find the digit slips and return them to him.
-The local ranger is tired of Rafael's gym puzzle. Find the digit slips and return them to him.
+The local ranger is tired of Rafael's gym puzzle. Sounds like they got a reward for whoever brings them all to them.
+The local ranger is tired of Rafael's gym puzzle. Sounds like they got a reward for whoever brings them all to them.
 Breaking Spirits
 Breaking Spirits
 Mother
@@ -1820,10 +1880,8 @@ Berry Farmer
 Berry Farmer
 Bring the Pokémon to them.
 Bring the Pokémon to them.
-County Park, Berry Farmer's House
-County Park, Berry Farmer's House
-This former Team Chasm member has been feeling nostalgic. Bring them a Bergmite, a Klink, a Dreepy, a Makyan Tangela, and an Elekid.
-This former Team Chasm member has been feeling nostalgic. Bring them a Bergmite, a Klink, a Dreepy, a Makyan Tangela, and an Elekid.
+This former Team Chasm member has been feeling nostalgic. Show them a Bergmite, a Klink, a Dreepy, a Makyan Tangela, and an Elekid so they can reminisce about the old days.
+This former Team Chasm member has been feeling nostalgic. Show them a Bergmite, a Klink, a Dreepy, a Makyan Tangela, and an Elekid so they can reminisce about the old days.
 Catching Charm
 Catching Charm
 Geodude Frenzy!
@@ -1866,8 +1924,20 @@ Dragon Tamer
 Dragon Tamer
 Give them 10 Big Malasadas.
 Give them 10 Big Malasadas.
-<<[>>Placeholder<<]>>.
-<<[>>Placeholder<<]>>.
+Locals are feeding the Pokémon in the sewers as compensation for the items stolen from them.
+Locals are feeding the Pokémon in the sewers as compensation for the items stolen from them.
+Don't Forget!
+Don't Forget!
+Flower Keeper
+Flower Keeper
+Beat your 4th gym.
+Beat your 4th gym.
+Return to her.
+Return to her.
+Makya
+Makya
+A flower keeper at the south entrance of Novo Town says she'll give you a reward to celebrate completing your 4th gym. You won't forget her, right?<<n>>Flower
+A flower keeper at the south entrance of Novo Town says she'll give you a reward to celebrate completing your 4th gym. You won't forget her, right?<<n>><<n>><<n>><<n>>Flower
 Peal of Thunder
 Peal of Thunder
 Defeat what lurks behind the door.
@@ -1972,8 +2042,8 @@ Dr. Hekata gave you a call mysteriously, asking to meet her in her home of Grouz
 Dr. Hekata gave you a call mysteriously, asking to meet her in her home of Grouz. What could she want of you?
 The Age of Stone
 The Age of Stone
-Make your way through the dungeon.
-Make your way through the dungeon.
+Explore the dungeon.
+Explore the dungeon.
 Crumbling Canyon
 Crumbling Canyon
 A strange dungeon lies before you. A crumbling canyon, carved out and inhabitated in an ancient time. That ancient time may not be as far away as it seems, however...
@@ -2028,8 +2098,6 @@ The LARPers
 The LARPers
 See if you can find them again.
 See if you can find them again.
-Makya
-Makya
 Quite an eclectic group you've found. You've claimed their hoard, but this surely isn't the last time you'll find yourself encountering them.
 Quite an eclectic group you've found. You've claimed their hoard, but this surely isn't the last time you'll find yourself encountering them.
 The Most Dangerous Experiment
@@ -2044,32 +2112,32 @@ The Novo Battle Club
 The Novo Battle Club
 Fight Club Louis
 Fight Club Louis
-Fight your way up through the ranks.
-Fight your way up through the ranks.
+Ascend the ranks.
+Ascend the ranks.
 Louis is holding a Battle Club in Novo town. Simply a way to entertain yourselves and your Pokémon.
 Louis is holding a Battle Club in Novo town. Simply a way to entertain yourselves and your Pokémon.
 Parting With a Friend
 Parting With a Friend
 Strange Girl
 Strange Girl
-Trade her a Pokémon you've bonded with.
-Trade her a Pokémon you've bonded with.
+Trade a Pokémon.
+Trade a Pokémon.
 Tournament Lobby
 Tournament Lobby
 An odd girl in the tournament lobby has an offer. A Pokémon you've bonded with fully, for the individual she possesses... Can you make that trade?
 An odd girl in the tournament lobby has an offer. A Pokémon you've bonded with fully, for the individual she possesses... Can you make that trade?
 WIP: A Clean Library
 WIP: A Clean Library
-Come back here after the Tournament.
-Come back here after the Tournament.
+Return post-tournament.
+Return post-tournament.
 Prizca East, Capitol Building
 Prizca East, Capitol Building
 WIP: Finally a library in this damned region, maybe there is some interesting information you can learn. Return here after you've beaten the tournament.
 WIP: Finally a library in this damned region, maybe there is some interesting information you can learn. Return here after you've beaten the tournament.
 WIP: Volcanion
 WIP: Volcanion
-Go to a room in Luxtech to find information.
-Go to a room in Luxtech to find information.
+Go to Luxtech to find information.
+Go to Luxtech to find information.
 Return to Nora with the USB.
 Return to Nora with the USB.
 Head over to the Steamy Valley.
@@ -2082,8 +2150,8 @@ Tri Island
 Tri Island
 Explore the strange island.
 Explore the strange island.
-The TV talked about an island.
-The TV talked about an island.
+The TV talked about a newly discovered island off the coast. A lot of trainers will be heading there, try to be the best one.
+The TV talked about a newly discovered island off the coast. A lot of trainers will be heading there, try to be the best one.
 WIP: Odd Pits
 WIP: Odd Pits
 Find the item in the postgame.
@@ -2170,48 +2238,176 @@ Samorn's House
 Samorn's House
 The mysterious Dragon Hatcher in Samorn's house offers to hatch the dragon eggs you find around the region.
 The mysterious Dragon Hatcher in Samorn's house offers to hatch the dragon eggs you find around the region.
-WIP: Former Champions of Makya
-WIP: Former Champions of Makya
+Bad Weather
+Bad Weather
+Find the other avatar.
+Find the other avatar.
+Find Rayquaza.
+Find Rayquaza.
+A trio of imposing beasts, hidden in the outer reaches of Makya. Why not add controlling the weather to your arsenal?
+A trio of imposing beasts, hidden in the outer reaches of Makya. Why not add controlling the weather to your arsenal?
+Former Champions of Makya
+Former Champions of Makya
 Find and defeat the former champs.
 Find and defeat the former champs.
-WIP: Former Champion Ansel
-WIP: Former Champion Ansel
+Makya has seen their own fair share of champions over the years. Inevitably, they'll be dethroned by the next tournament, so they add up. You're going to be the best champion of them all though, aren't you? May as well show those rejects why they are only 'former'.
+Makya has seen their own fair share of champions over the years. Inevitably, they'll be dethroned by the next tournament, so they add up. You're going to be the best champion of them all though, aren't you? May as well show those rejects why they are only 'former'.
+Former Champion Ansel
+Former Champion Ansel
 Defeat another former champ.
 Defeat another former champ.
 Battle Plaza
 Battle Plaza
-WIP: Former Champion Praveen
-WIP: Former Champion Praveen
+An older champion, show him the future is now. After proving your worth to him, at least.
+An older champion, show him the future is now. After proving your worth to him, at least.
+Former Champion Praveen
+Former Champion Praveen
 Find and defeat the former champ.
 Find and defeat the former champ.
 Catch Zarude.
 Catch Zarude.
 Sandstone Estuary
 Sandstone Estuary
-WIP: Former Champion Scilla
-WIP: Former Champion Scilla
+You've been informed you can now speak to the former champion known as Praveen. What's his deal?
+You've been informed you can now speak to the former champion known as Praveen. What's his deal?
+Former Champion Scilla
+Former Champion Scilla
 Defeat the dojo.
 Defeat the dojo.
 Ironclad Dojo
 Ironclad Dojo
-WIP: Former Champion Chara
-WIP: Former Champion Chara
-WIP: Former Champion Elise
-WIP: Former Champion Elise
+Scilla runs a dojo in Prizca East, but she isn't one to be paid off to get a black belt from. Crush all those wimps.
+Scilla runs a dojo in Prizca East, but she isn't one to be paid off to get a black belt from. Crush all those wimps.
+Former Champion Chara
+Former Champion Chara
+It appears Chara is your next target, found in Sweetrock. You're certain this won't be anymore challenging than your previous fight.
+It appears Chara is your next target, found in Sweetrock. You're certain this won't be anymore challenging than your previous fight.
+Former Champion Elise
+Former Champion Elise
 Defeat the former champ.
 Defeat the former champ.
 Prizca Castle
 Prizca Castle
-WIP: Former Champion Vincent
-WIP: Former Champion Vincent
-WIP: Former Champion Casey
-WIP: Former Champion Casey
-Journey down and defeat the Diancie Avatar.
-Journey down and defeat the Diancie Avatar.
+So we got a princess here, don't we? Magnificent castles can always be brought down with enough hardwork.
+So we got a princess here, don't we? Magnificent castles can always be brought down with enough hardwork.
+Former Champion Vincent
+Former Champion Vincent
+Elise mentioned Vincent likes finding strong trainers to fight. Maybe one day you'll find a strong trainer.
+Elise mentioned Vincent likes finding strong trainers to fight. Maybe one day you'll find a strong trainer.
+Former Champion Casey
+Former Champion Casey
+Clear out the Diancie Avatar.
+Clear out the Diancie Avatar.
 Return to Casey.
 Return to Casey.
 Casey's Basement
 Casey's Basement
+What are you, an exterminator? Oh well, avatars will always be fun to face, then you can show him what you think of his request.
+What are you, an exterminator? Oh well, avatars will always be fun to face, then you can show him what you think of his request.
+The Kilna Thieves
+The Kilna Thieves
+Investigate the bandits.
+Investigate the bandits.
+Kilna Turf
+Kilna Turf
+A ranger told you about how Kilna is strewn in items from thieves. Maybe they have a valuable stash you could take from.
+A ranger told you about how Kilna is strewn in items from thieves. Maybe they have a valuable stash you could take from.
+Ice and Leaf Stone
+Ice and Leaf Stone
+Rowdy Tourists
+Rowdy Tourists
+Tourist Hater
+Tourist Hater
+Calm them down.
+Calm them down.
+You're hearing things are getting pretty rowdy with these tourists. Teach them you should always respect the places you visit!
+You're hearing things are getting pretty rowdy with these tourists. Teach them you should always respect the places you visit!
+Alolan and Galarian Wreath
+Alolan and Galarian Wreath
+Power of the Stone
+Power of the Stone
+Release the influence.
+Release the influence.
+Appears these people are being influenced by a strange rock... probably not healthy to leave them like that, could be radioactive.
+Appears these people are being influenced by a strange rock... probably not healthy to leave them like that, could be radioactive.
+Shiny and Moon Stone
+Shiny and Moon Stone
+Clearwater Cave
+Clearwater Cave
+A powerful avatar of Suicune is being contained in this cave. Perhaps it is guarding something valuable...
+A powerful avatar of Suicune is being contained in this cave. Perhaps it is guarding something valuable...
+Water and Dawn Stone
+Water and Dawn Stone
+Six Spire Cave
+Six Spire Cave
+A powerful avatar of Raikou is being contained in this cave. Perhaps it is guarding something valuable...
+A powerful avatar of Raikou is being contained in this cave. Perhaps it is guarding something valuable...
+Thunder and Dusk Stone
+Thunder and Dusk Stone
+Volcanic Cave
+Volcanic Cave
+A powerful avatar of Entei is being contained in this cave. Perhaps it is guarding something valuable...
+A powerful avatar of Entei is being contained in this cave. Perhaps it is guarding something valuable...
+Fire and Sun Stone
+Fire and Sun Stone
+Play hide and seek with the kid who said they'd give you TMs.
+Play hide and seek with the kid who said they'd give you TMs.
+The local ranger is tired of Rafael's gym puzzle. Find the digit slips and return them to him.
+The local ranger is tired of Rafael's gym puzzle. Find the digit slips and return them to him.
+This former Team Chasm member has been feeling nostalgic. Bring them a Bergmite, a Klink, a Dreepy, a Makyan Tangela, and an Elekid.
+This former Team Chasm member has been feeling nostalgic. Bring them a Bergmite, a Klink, a Dreepy, a Makyan Tangela, and an Elekid.
+The 'quest' argument should be a symbol, e.g. ':Quest1'.
+The 'quest' argument should be a symbol, e.g. ':Quest1'.
+\me[{1}]Quest discovered:
+\me[{1}]Quest discovered:
+Quest failed:
+Quest failed:
+\me[{1}]Quest completed:
+\me[{1}]Quest completed:
+Stage number {1} is too high for quest '{2}'.
+Stage number {1} is too high for quest '{2}'.
+\se[{1}]Quest updated:
+\se[{1}]Quest updated:
+\wm\<ac>\c<<[>>2<<]>>{1}</c><<n>>{2}</ac>\wtnp<<[>>{3}<<]>>
+\wm\<ac>\c<<[>>2<<]>>{1}</c><<n>>{2}</ac>\wtnp<<[>>{3}<<]>>
+<u>{1}</u>
+<u>{1}</u>
+Active
+Active
+Completed
+Completed
+Failed
+Failed
+{1} quests
+{1} quests
+{1} Quests
+{1} Quests
+<u>Overview</u>: {1}
+<u>Overview</u>: {1}
+<u>Task</u>: {1}
+<u>Task</u>: {1}
+<u>Location</u>: {1}
+<u>Location</u>: {1}
+nil
+nil
+on
+on
+in
+in
+start
+start
+completion
+completion
+failure
+failure
+<u>Quest received from</u>:
+<u>Quest received from</u>:
+<u>Quest discovered {1}</u>:
+<u>Quest discovered {1}</u>:
+<u>Quest {1} time</u>:
+<u>Quest {1} time</u>:
+<u>Reward</u>: {1}
+<u>Reward</u>: {1}
 You can't open Dimension D now!
 You can't open Dimension D now!
 You can't open the Time Capsule now!
@@ -2233,5 +2429,3 @@ GF
 [33]
 [34]
 [1313]
-Thief
-Thief
