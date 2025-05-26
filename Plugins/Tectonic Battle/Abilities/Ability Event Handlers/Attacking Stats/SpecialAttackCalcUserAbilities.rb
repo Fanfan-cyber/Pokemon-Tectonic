@@ -28,14 +28,14 @@ BattleHandlers::SpecialAttackCalcUserAbility.add(:PUREENERGY,
 
 BattleHandlers::SpecialAttackCalcUserAbility.add(:CLOUDBURST,
   proc { |ability, _user, battle, spAtkMult|
-      spAtkMult *= 1.25 if battle.rainy?
+      spAtkMult *= 1.3 if battle.rainy?
       next spAtkMult
   }
 )
 
 BattleHandlers::SpecialAttackCalcUserAbility.add(:DEBRISFIELD,
   proc { |ability, _user, battle, spAtkMult|
-      spAtkMult *= 1.25 if battle.sandy?
+      spAtkMult *= 1.3 if battle.sandy?
       next spAtkMult
   }
 )

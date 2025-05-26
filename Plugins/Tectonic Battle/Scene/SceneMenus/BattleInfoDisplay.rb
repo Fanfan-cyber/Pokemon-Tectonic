@@ -353,6 +353,14 @@ class BattleInfoDisplay < SpriteWrapper
             battlerEffects.push(_INTL("A: {1}", getAbilityName(abilityID)))
         end
 
+        # List status counts
+        battler.getStatuses.each do |status|
+            statusCount = battler.getStatusCount(status)
+            next unless statusCount >= 1
+            statusName = GameData::Status.get(status).name
+            battlerEffects.push(_INTL("{1}: {2}", statusName, statusCount))
+        end
+
         scrolling = true if battlerEffects.length > 8
 
         # Print all the battler effects to screen

@@ -1183,6 +1183,19 @@ FunctionCode = Invalid
 Flags = CanProtect,CanMagicCoat
 Description = The user scatters a cloud of poisonous dust on the target. It poisons the target.
 #-------------------------------
+[SLUDGEBOMB]
+Name = Sludge Bomb
+Type = POISON
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = Invalid
+Flags = CanProtect
+EffectChance = 30
+Description = Unsanitary sludge is hurled at the target. It has a 30% chance to poison.
+#-------------------------------
 [TOXIC]
 Name = Toxic
 Type = POISON
@@ -2305,6 +2318,17 @@ Flags = CanProtect
 EffectChance = 100
 Description = The user sends vines to ensnare all enemies, lowering the Speed of any that moved first by three steps.
 Animation = FRENZYPLANT
+#-------------------------------
+[WORRYSEED]
+Name = Worry Seed
+Type = GRASS
+Category = Status
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = Invalid
+Flags = CanProtect,CanMagicCoat
+Description = A seed that causes worry is planted on the foe. It prevents sleep by making its Ability Insomnia.
 #-------------------------------
 #		ELECTRIC MOVES
 #-------------------------------

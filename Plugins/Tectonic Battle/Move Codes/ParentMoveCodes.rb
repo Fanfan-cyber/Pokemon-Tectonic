@@ -1516,7 +1516,13 @@ module EmpoweredMove
 
         user.pbChangeTypes(type)
         @battle.pbAnimation(:CONVERSION, user, [user])
-        user.bossType = newType if user.boss?
+        if user.boss?
+            if addType
+                user.bossType = [user.bossType, newType]
+            else
+                user.bossType = newType
+            end
+        end
         if addType
             @battle.pbDisplay(_INTL("{1} transformed further, gaining the {2} type!", user.pbThis, typeName))
         else

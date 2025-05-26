@@ -338,19 +338,6 @@ BattleHandlers::UserAbilityEndOfMove.add(:TORPORSAP,
   }
 )
 
-BattleHandlers::UserAbilityEndOfMove.add(:BOTTOMFEEDER,
-  proc { |ability, user, targets, move, battle, _switchedBattlers|
-      next if battle.futureSight
-      next unless move.damagingMove?
-      trappedTargets = []
-      targets.each do |target|
-        next unless target.damageState.trapped
-        trappedTargets.push(target)
-      end
-      user.pbRecoverHPFromMultiDrain(trappedTargets, 0.50, ability: ability)
-  }
-)
-
 BattleHandlers::UserAbilityEndOfMove.add(:ETERNALWINTER,
   proc { |ability, user, targets, _move, battle, _switchedBattlers|
       next if battle.pbAllFainted?(user.idxOpposingSide)

@@ -2130,19 +2130,6 @@ Flags = CanProtect
 EffectChance = 30
 Description = Unsanitary sludge is hurled at the target. It has a 30% chance to poison.
 #-------------------------------
-[SLUDGEBOMB]
-Name = Sludge Bomb
-Type = POISON
-Category = Special
-Power = 80
-Accuracy = 100
-TotalPP = 10
-Target = NearOther
-FunctionCode = Poison
-Flags = CanProtect
-EffectChance = 30
-Description = Unsanitary sludge is hurled at the target. It has a 30% chance to poison.
-#-------------------------------
 [SLUDGEWAVE]
 Name = Sludge Wave
 Type = POISON
@@ -4735,17 +4722,6 @@ FunctionCode = RecoilThirdOfDamageDealt
 Flags = CanProtect
 Description = The user slams its rugged body into the target to attack. The user also takes 33% recoil.
 #-------------------------------
-[WORRYSEED]
-Name = Worry Seed
-Type = GRASS
-Category = Status
-Accuracy = 100
-TotalPP = 10
-Target = NearOther
-FunctionCode = SetTargetAbilityToInsomnia
-Flags = CanProtect,CanMagicCoat
-Description = A seed that causes worry is planted on the foe. It prevents sleep by making its Ability Insomnia.
-#-------------------------------
 #		ELECTRIC MOVES
 #-------------------------------
 [BOLTBEAK]
@@ -6599,8 +6575,8 @@ Category = Status
 Accuracy = 0
 TotalPP = 10
 Target = User
-FunctionCode = TwoTurnAttackRaiseUserSpAtkSpDefSpd4
-Description = The user absorbs energy and raises its Sp. Atk, Sp. Def, and Speed by four steps on the next turn.
+FunctionCode = TwoTurnAttackRaiseUserAllStats3
+Description = The user absorbs energy and raises all of its stats by three steps on the next turn.
 #-------------------------------
 [LIGHTOFRUIN]
 Name = Light of Ruin

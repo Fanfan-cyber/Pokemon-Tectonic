@@ -535,7 +535,7 @@ class PokeBattle_Move
             end
             # Echo
             if user.effectActive?(:Echo)
-                multipliers[:final_damage_multiplier] *= 0.75
+                multipliers[:final_damage_multiplier] *= 0.50
             end
             # Martial Discipline
             if user.effectActive?(:MartialDiscipline)

@@ -286,6 +286,10 @@ Name = Inner Focus
 Description = The Pokémon is protected from flinching, Intimidate, Fascinate, and Frustrate.
 Flags = FlinchImmunity
 #-------------------------------
+[INSOMNIA]
+Name = Insomnia
+Description = Prevents the Pokémon from falling asleep.
+#-------------------------------
 [INTIMIDATE]
 Name = Intimidate
 Description = Upon entry, lowers the foe's Attack stat by two steps.
@@ -480,7 +484,7 @@ Flags = SandstormSynergy
 #-------------------------------
 [SANDSHROUD]
 Name = Sand Shroud
-Description = Takes 25% less damage in a sandstorm.
+Description = Takes 30% less damage in a sandstorm.
 Flags = SandstormSynergy
 #-------------------------------
 [SANDSTREAM]
@@ -553,7 +557,7 @@ Flags = HailSynergy
 #-------------------------------
 [SNIPER]
 Name = Sniper
-Description = Doubles critical hit chance. Powers up critical hits by another 50%.
+Description = Doubles the critical hit chance of random crit moves. Powers up critical hits by another 50%.
 #-------------------------------
 [SNOWWARNING]
 Name = Snow Warning
@@ -608,7 +612,8 @@ Description = It can't be knocked out with one hit.
 #-------------------------------
 [SUPERLUCK]
 Name = Super Luck
-Description = Four times more likely for moves to be critical.
+Description = Quadruples the critical hit chance of random crit moves.
+Flags = EnablesRandomCrits
 #-------------------------------
 [SWIFTSWIM]
 Name = Swift Swim

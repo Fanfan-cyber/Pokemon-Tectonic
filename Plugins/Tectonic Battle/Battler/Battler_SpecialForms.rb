@@ -25,6 +25,10 @@ class PokeBattle_Battler
     def inHyperMode?
         return false
     end
+    
+    def bossType
+        return @pokemon.bossType
+    end
 
     def bossType=(val)
         @pokemon.bossType = val

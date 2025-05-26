@@ -89,7 +89,7 @@ class PokeBattle_Move_HealUserDependingOnUserStockpile < PokeBattle_HealingMove
         return 0.0
     end
 
-    def canOverheal?(user); return false; end
+    def canOverheal?(user); return true; end
 
     def pbEffectGeneral(user)
         super

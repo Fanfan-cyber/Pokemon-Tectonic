@@ -62,7 +62,7 @@ Description = Raises Defense and Sp. Def whenever any Pokémon uses a dance move
 #-------------------------------
 [APPREHENSIVE]
 Name = Apprehensive
-Description = Takes 30% less damage in eclipse, except in total eclipse.
+Description = Takes 35% less damage in eclipse, except in total eclipse.
 Flags = EclipseSynergy
 #-------------------------------
 [APRICORNARMOR]
@@ -205,7 +205,7 @@ Description = Increase the EXP gained from battles in which it participates by 5
 #-------------------------------
 [BOTTOMFEEDER]
 Name = Bottom Feeder
-Description = Whenever this Pokémon attacks a trapped foe, it is healed for half of the damage dealt.
+Description = Heals from trapping damage it deals. Takes 25% less damage from Pokémon that are trapped.
 #-------------------------------
 [BOULDERNEST]
 Name = Boulder Nest
@@ -299,7 +299,7 @@ Description = It changes form to match the move it selected.
 #-------------------------------
 [CLOUDBURST]
 Name = Cloudburst
-Description = Boosts Sp. Atk and Speed by 25% in rainstorm.
+Description = Boosts Sp. Atk and Speed by 30% in rainstorm.
 Flags = RainstormSynergy
 #-------------------------------
 [CLOVERSONG]
@@ -353,7 +353,7 @@ Description = When this Pokémon becomes statused, its Attack is raised by three
 #-------------------------------
 [DARKENEDSKIES]
 Name = Darkened Skies
-Description = Powers up Dark-type moves by 50% in sandstorm.
+Description = Powers up the Pokémon's Dark-type moves by 50% in sandstorm.
 Flags = SandstormSynergy
 #-------------------------------
 [DARKSCALECLOUD]
@@ -374,7 +374,7 @@ Description = On the first turn, its attacks burn the target.
 #-------------------------------
 [DEBRISFIELD]
 Name = Debris Field
-Description = Can't be statused due to its hard shell. Boosts Sp. Atk and Speed by 25% in sandstorm.
+Description = Can't be statused due to its hard shell. Boosts Sp. Atk and Speed by 30% in sandstorm.
 Flags = SandstormSynergy
 #-------------------------------
 [DECONTAMINATION]
@@ -392,21 +392,21 @@ Description = Foes aren't released from its trapping moves even when the Pokémo
 #-------------------------------
 [DELAYEDREACTION]
 Name = Delayed Reaction
-Description = 33% of all move damage taken is instead taken at the end of the next turn.
+Description = 33% of all move damage taken by the Pokémon is instead taken at the end of the next turn.
 #-------------------------------
 [DESERTARMOR]
 Name = Desert Armor
-Description = Doubles Defense in a sandstorm.
+Description = Doubles the Pokémon's Defense in a sandstorm.
 Flags = SandstormSynergy
 #-------------------------------
 [DESERTSCAVENGER]
 Name = Desert Scavenger
-Description = Restores HP based on damage from sandstorm.
+Description = Restores the Pokémon's HP based on damage taken by others from sandstorm.
 Flags = SandstormSynergy
 #-------------------------------
 [DESERTSPIRIT]
 Name = Desert Spirit
-Description = Immune to Ground-type moves. Takes 20% less damage in sandstorm.
+Description = The Pokémon is immune to Ground-type moves and takes 20% less damage in sandstorm.
 Flags = SandstormSynergy,Levitation
 #-------------------------------
 [DESICCATE]
@@ -487,11 +487,11 @@ Description = Whenever it uses a status move, becomes energy charged, doubling t
 #-------------------------------
 [EARSPLITTING]
 Name = Ear-Splitting
-Description = Boosts power of sound-based moves by 50%.
+Description = Boosts power of the Pokémon's sound-based moves by 50%.
 #-------------------------------
 [EARTHSHAKER]
 Name = Earthshaker
-Description = In sandstorm, Attack is boosted by 30%.
+Description = In sandstorm, the Pokémon's Attack is boosted by 30%.
 Flags = SandstormSynergy
 #-------------------------------
 [ECCENTRIC]
@@ -500,12 +500,7 @@ Description = If its stats would be changed, instead they're changed half as muc
 #-------------------------------
 [ECHO]
 Name = Echo
-Description = Repeats another Pokémon's sound and pulse moves immediately at 75% power.
-#-------------------------------
-[ECTOPARTICLES]
-Name = Ecto-Particles
-Description = Restores HP based on damage from hail.
-Flags = HailSynergy
+Description = Repeats another Pokémon's sound and pulse moves immediately at 50% power.
 #-------------------------------
 [EFFLORESCENT]
 Name = Efflorescent
@@ -534,11 +529,6 @@ Description = Eclipse counts down twice as quickly.
 [ERUDITE]
 Name = Erudite
 Description = Powers up Psychic-type moves by 50%.
-#-------------------------------
-[ETERNALWINTER]
-Name = Eternal Winter
-Description = Extends hail by two turns after knocking out any Pokémon.
-Flags = HailSynergy
 #-------------------------------
 [EXCAVATOR]
 Name = Excavator
@@ -622,7 +612,7 @@ Description = Double the Pokémon's Speed if any enemy is below half health.
 #-------------------------------
 [FERROFLUID]
 Name = Ferrofluid
-Description = Takes 25% less damage in a rainstorm.
+Description = Takes 30% less damage in a rainstorm.
 Flags = RainstormSynergy
 #-------------------------------
 [FIERYSPIRIT]
@@ -742,7 +732,7 @@ Description = When hit with a special move, hits back instantly with that same m
 #-------------------------------
 [FROSTFANGED]
 Name = Frostfanged
-Description = Boosts Attack and Speed by 25% in hail.
+Description = Boosts Attack and Speed by 30% in hail.
 Flags = HailSynergy
 #-------------------------------
 [FROSTPITALITY]
@@ -879,7 +869,7 @@ Flags = SunshineSynergy
 #-------------------------------
 [HEATVEIL]
 Name = Heat Veil
-Description = Doubles Sp. Def in sunshine.
+Description = Doubles the Pokémon's Sp. Def in sunshine.
 Flags = SunshineSynergy
 #-------------------------------
 [HEAVYDUTYHOOVES]
@@ -1192,7 +1182,7 @@ Description = Disables the opponent's most recently-used move for two turns upon
 #-------------------------------
 [METEORIC]
 Name = Meteoric
-Description = Boosts Speed by 50% in sandstorm or hail.
+Description = Boosts the Pokémon's Speed by 50% in sandstorm or hail.
 Flags = SandstormSynergy,HailSynergy
 #-------------------------------
 [MIDDLEWAY]
@@ -1205,8 +1195,13 @@ Description = Using a status move in moonglow extends the weather by a turn.
 #-------------------------------
 [MIDNIGHTSUN]
 Name = Midnight Sun
-Description = Powers up Dark-type moves by 50% in sunshine.
+Description = Powers up the Pokémon's Dark-type moves by 50% in sunshine.
 Flags = SunshineSynergy
+#-------------------------------
+[MISTFORM]
+Name = Mist Form
+Description = Slips past hazards. Takes 50% less damage if it switched in this turn.
+Flags = HazardImmunity
 #-------------------------------
 [MOISTSKIN]
 Name = Moist Skin
@@ -1357,12 +1352,12 @@ Flags = RainstormSynergy
 #-------------------------------
 [OXYGENATION]
 Name = Oxygenation
-Description = Heals status problems each turn if in sunshine.
+Description = Heals the Pokémon's status problems each turn if in sunshine.
 Flags = SunshineSynergy
 #-------------------------------
 [PALACEGUARD]
 Name = Palace Guard
-Description = Receives 33% less move damage if there is an active Room.
+Description = The Pokémon receives 33% less move damage if there is an active Room.
 #-------------------------------
 [PALEOLITHIC]
 Name = Paleolithic
@@ -1619,11 +1614,11 @@ Flags = Immutable
 #-------------------------------
 [SANDSNIPER]
 Name = Sand Sniper
-Description = Boosts Speed by 50% in sandstorm. Can't miss during sandstorm.
+Description = Boosts the Pokémon's Speed by 50% in sandstorm. Can't miss during sandstorm.
 #-------------------------------
 [SANDWORNAUGER]
 Name = Sandworn Auger
-Description = During sandstorm, Speed is boosted by 50% and twice as likely to crit.
+Description = During sandstorm, the Pokémon's Speed is boosted by 50% and twice as likely to crit.
 Flags = SandstormSynergy
 #-------------------------------
 [SAPPER]
@@ -1724,7 +1719,7 @@ Flags = RainstormSynergy
 #-------------------------------
 [SILVERSENSE]
 Name = Silver Sense
-Description = Twice as likely for moves to be critical. Restores HP for half the damage it does with critical hits.
+Description = Doubles critical hit chance. Restores HP for half the damage it does with critical hits.
 #-------------------------------
 [SINKINGFEELING]
 Name = Sinking Feeling
@@ -1773,12 +1768,12 @@ Description = Whenever the Pokémon falls asleep, each other battler becomes dro
 #-------------------------------
 [SNOWSHROUD]
 Name = Snow Shroud
-Description = Takes 25% less damage in a hail.
+Description = The Pokémon takes 30% less move damage in hail.
 Flags = HailSynergy
 #-------------------------------
 [SOLARCELL]
 Name = Solar Cell
-Description = In sunshine, gets a 25% boost to Sp. Atk and Sp. Def.
+Description = Boosts the Pokémon's Sp. Atk and Sp. Def by 30% in sunshine.
 Flags = SunshineSynergy
 #-------------------------------
 [SOLONOCTURNE]
@@ -1833,7 +1828,8 @@ Flags = AllWeatherSynergy,OtherStatDropImmunity
 #-------------------------------
 [STAMPEDE]
 Name = Stampede
-Description = The Pokémon's critical hit chance raises or lowers with its Speed.
+Description = Doubles critical hit chance for each Speed step up. All moves can random critical hit.
+Flags = EnablesRandomCrits
 #-------------------------------
 [STARGUARDIAN]
 Name = Star Guardian
@@ -1851,11 +1847,6 @@ Description = Takes 50% less damage from Water-type moves. Raises Speed by four 
 [STEELABSORB]
 Name = Steel Absorb
 Description = Immune to Steel-type moves and restores 25% of max HP if hit by one.
-#-------------------------------
-[STEELYSHELL]
-Name = Steely Shell
-Description = Steel-type attacks deal 50% more damage, and the Pokémon is protected from critical hits.
-Flags = CritImmunity
 #-------------------------------
 [STEEPFLYING]
 Name = Steep Flying
@@ -1948,7 +1939,7 @@ Flags = SunshineSynergy
 #-------------------------------
 [SUNCHASER]
 Name = Sun Chaser
-Description = Boosts Attack by 30% in sunshine.
+Description = Boosts the Pokémon's Attack by 30% in sunshine.
 Flags = SunshineSynergy
 #-------------------------------
 [SUNEATER]
@@ -2055,7 +2046,7 @@ Flags = EclipseSynergy
 #-------------------------------
 [TRAPPER]
 Name = Trapper
-Description = Takes 25% less damage from Pokémon that are trapped.
+Description = Takes 30% less damage from Pokémon that are trapped.
 #-------------------------------
 [TRAUMATIZING]
 Name = Traumatizing
@@ -2202,6 +2193,11 @@ Description = Upon entry, creates a Willful Room for four turns, reducing all hi
 [WINTERINSULATION]
 Name = Winter Insulation
 Description = During hail, immune to Fire- and Electric-type moves.
+Flags = HailSynergy
+#-------------------------------
+[WINTERSWAGES]
+Name = Winter's Wages
+Description = Restores HP based on damage taken by others from hail.
 Flags = HailSynergy
 #-------------------------------
 [WIRECUTTER]

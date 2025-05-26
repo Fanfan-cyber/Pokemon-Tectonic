@@ -218,13 +218,13 @@ def createBossGraphics(avatarData, overworldMult = 1.5, battleMult = 1.5, overwr
         existingFile = pbResolveBitmap(bossOWFilePath)
 
         if overwriteExisting || existingFile.nil?
-            echoln("Creating overworld sprite")
+            echoln("Creating overworld sprite for Avatar #{avatarData.species}")
             speciesOverworldBitmap = GameData::Species.ow_sprite_bitmap(avatarData.species, avatarData.form)
             copiedOverworldBitmap = speciesOverworldBitmap.copy
-            bossifiedOverworld = bossify(copiedOverworldBitmap.bitmap, overworldMult)
+            bossifiedOverworld = bossify(copiedOverworldBitmap.bitmap, overworldMult, opacity: BASE_OPACITY_OVERWORLD)
             bossifiedOverworld.to_file(bossOWFilePath)
         else
-            echoln("Overworld sprite already exists")
+            echoln("Overworld sprite already exists for Avatar #{avatarData.species}")
         end
     end
 
@@ -233,7 +233,7 @@ def createBossGraphics(avatarData, overworldMult = 1.5, battleMult = 1.5, overwr
         dataKey = form > 0 ? sprintf("%s_%d", avatarData.species.to_s, form).to_sym : avatarData.species
         break unless GameData::Species::DATA.key?(dataKey)
 
-        echoln("Checking the boss graphics for species #{avatarData.species} (#{form})")
+        echoln("Checking the boss graphics for Avatar #{avatarData.species} (form #{form})")
 
         # Create the in battle sprites
         PBDebug.logonerr do
@@ -241,85 +241,124 @@ def createBossGraphics(avatarData, overworldMult = 1.5, battleMult = 1.5, overwr
             baseSpeciesBackFilePath = GameData::Species.back_sprite_filename(avatarData.species, form)
             
             avatarData.getListOfPhaseTypes.each_with_index do |type, index|
-                # Front sprites
-                bossFrontFilePath = GameData::Avatar.front_sprite_filename(avatarData.species, avatarData.version, form, type)
-
-                if overwriteExisting || !pbResolveBitmap(bossFrontFilePath)
-                    echoln("Creating front sprite")
-                    battlebitmap = AnimatedBitmap.new(baseSpeciesFrontFilePath)
-                    copiedBattleBitmap = battlebitmap.copy
-                    bossifiedBattle = bossify(copiedBattleBitmap.bitmap, battleMult, type, index)
-                    bossifiedBattle.to_file(bossFrontFilePath)
+                if type.is_a?(Array)
+                    bossifyBattleSprites(avatarData, form, baseSpeciesFrontFilePath, baseSpeciesBackFilePath, type[0], battleMult, overwriteExisting: overwriteExisting)
+                    bossifyBattleSprites(avatarData, form, baseSpeciesFrontFilePath, baseSpeciesBackFilePath, type, battleMult, overwriteExisting: overwriteExisting)
                 else
-                    echoln("Front sprite already exists")
-                end
-
-                # Back sprites
-                bossBackFilePath = GameData::Avatar.back_sprite_filename(avatarData.species, avatarData.version, form, type)
-
-                if overwriteExisting || !pbResolveBitmap(bossBackFilePath)
-                    echoln("Creating back sprite")
-                    battlebitmap = AnimatedBitmap.new(baseSpeciesBackFilePath)
-                    copiedBattleBitmap = battlebitmap.copy
-                    bossifiedBattle = bossify(copiedBattleBitmap.bitmap, battleMult, type, index)
-                    bossifiedBattle.to_file(bossBackFilePath)
-                else
-                    echoln("Back sprite already exists")
+                    bossifyBattleSprites(avatarData, form, baseSpeciesFrontFilePath, baseSpeciesBackFilePath, type, battleMult, overwriteExisting: overwriteExisting)  
                 end
             end
         end
     end
 end
 
+def bossifyBattleSprites(avatarData, form, baseSpeciesFrontFilePath, baseSpeciesBackFilePath, type, sizeMult, overwriteExisting: true)
+    identifier = "Avatar #{avatarData.species} (form #{form})"
+    identifier = "#{identifier} -- #{type.to_s}" if type
+
+    # Front sprites
+    bossFrontFilePath = GameData::Avatar.front_sprite_filename(avatarData.species, avatarData.version, form, type)
+
+    if overwriteExisting || !pbResolveBitmap(bossFrontFilePath)
+        echoln("Creating front sprite for #{identifier}")
+        battlebitmap = AnimatedBitmap.new(baseSpeciesFrontFilePath)
+        copiedBattleBitmap = battlebitmap.copy
+        bossifiedBattle = bossify(copiedBattleBitmap.bitmap, sizeMult, type)
+        bossifiedBattle.to_file(bossFrontFilePath)
+    else
+        echoln("Front sprite already exists for #{identifier}")
+    end
+
+    # Back sprites
+    bossBackFilePath = GameData::Avatar.back_sprite_filename(avatarData.species, avatarData.version, form, type)
+
+    if overwriteExisting || !pbResolveBitmap(bossBackFilePath)
+        echoln("Creating back sprite for #{identifier}")
+        battlebitmap = AnimatedBitmap.new(baseSpeciesBackFilePath)
+        copiedBattleBitmap = battlebitmap.copy
+        bossifiedBattle = bossify(copiedBattleBitmap.bitmap, sizeMult, type)
+        bossifiedBattle.to_file(bossBackFilePath)
+    else
+        echoln("Back sprite already exists for #{identifier}")
+    end  
+end
+
 BASE_RGB_ADD = [0, 0, 0]
-BASE_AVATAR_HUE = 300.0 # Avatars are at base fairly Fuchsia
+BASE_AVATAR_HUE = 300.0 # Fuchsia
 BASE_AVATAR_HUE_WEIGHTING = 0.0
 BASE_AVATAR_SATURATION_SHIFT = 0
 BASE_AVATAR_LIGHTNESS_SHIFT = 0
 
 BASE_TYPE_HUE_WEIGHTING = 0.7
-EXTRA_TYPE_HUE_WEIGHTING_PER_PHASE = 0.0
-TYPE_SATURATION_WEIGHTING = 0.2
+TYPE_SATURATION_WEIGHTING = 0.8
 TYPE_LUMINOSITY_WEIGHTING = 0.3
 
-BASE_OPACITY = 120
-EXTRA_OPACITY_PER_PHASE = 30
+BASE_OPACITY_OVERWORLD = 120
+BASE_OPACITY_BATTLE = 140
 
-def bossify(bitmap, scaleFactor = 1.5, type = nil, phase = 0)
-    # Calculate the opacity
-    opacity = BASE_OPACITY + phase * EXTRA_OPACITY_PER_PHASE
-    opacity = opacity.clamp(0, 255)
-
+def bossify(bitmap, scaleFactor = 1.5, type = nil, opacity: BASE_OPACITY_BATTLE)
     # Figure out the color info that should be used for the given type, if any
     applyType = false
     if type
-        typeColor = GameData::Type.get(type).color
-        typeH, typeS, typeL = rgb_to_hsl(typeColor.red, typeColor.green, typeColor.blue)
-        typeHueWeight = BASE_TYPE_HUE_WEIGHTING + EXTRA_TYPE_HUE_WEIGHTING_PER_PHASE * phase
-        applyType = true if typeHueWeight > 0
+        typeHueWeight = BASE_TYPE_HUE_WEIGHTING
+        applyType = true if typeHueWeight > 0 
+        if type.is_a?(Array)
+            type1Color = GameData::Type.get(type[0]).color
+            type1H, type1S, type1L = rgb_to_hsl(type1Color.red, type1Color.green, type1Color.blue)
+
+            type2Color = GameData::Type.get(type[1]).color
+            type2H, type2S, type2L = rgb_to_hsl(type2Color.red, type2Color.green, type2Color.blue)
+        else
+            typeColor = GameData::Type.get(type).color
+            typeH, typeS, typeL = rgb_to_hsl(typeColor.red, typeColor.green, typeColor.blue)
+        end
     end
 
     # Create the new bitmap
     copiedBitmap = Bitmap.new(bitmap.width * scaleFactor, bitmap.height * scaleFactor)
-    for x in 0..copiedBitmap.width
-        for y in 0..copiedBitmap.height
+    width = copiedBitmap.width
+    height = copiedBitmap.height
+    for x in 0..width
+        for y in 0..height
             color = bitmap.get_pixel(x / scaleFactor, y / scaleFactor)
 
             h, s, l = rgb_to_hsl(color.red, color.green, color.blue)
 
-            # Hue
+            # Base HSL shifts
             h = averageOfHues(h, BASE_AVATAR_HUE, BASE_AVATAR_HUE_WEIGHTING)
-            h = averageOfHues(h, typeH, typeHueWeight) if applyType
-            h += 360 if h < 0
-
-            # Saturation
             s -= BASE_AVATAR_SATURATION_SHIFT
-            s = s * (1.0 - TYPE_SATURATION_WEIGHTING) + typeS * TYPE_SATURATION_WEIGHTING if applyType
-            s = s.clamp(0, 100)
-
-            # Lightness
             l += BASE_AVATAR_LIGHTNESS_SHIFT
-            l = l * (1.0 - TYPE_LUMINOSITY_WEIGHTING) + typeL * TYPE_LUMINOSITY_WEIGHTING if applyType
+
+            # HSL shifts from typing coloration
+            if applyType
+                if type2Color
+                    type1WeightAtPixel = 1.5 - (x + width / 2.0) / width.to_f
+                    type1WeightAtPixel.clamp(0, 1)
+                    type2WeightatPixel = 1 - type1WeightAtPixel
+
+                    # Hue
+                    h = averageOfHues(h, type1H, type1WeightAtPixel * 0.9)
+                    h = averageOfHues(h, type2H, type2WeightatPixel * 1.1)
+
+                    # Saturation
+                    s = s * (1.0 - TYPE_SATURATION_WEIGHTING)
+                    s += type1S * TYPE_SATURATION_WEIGHTING * type1WeightAtPixel * 0.75
+                    s += type2S * TYPE_SATURATION_WEIGHTING * type2WeightatPixel * 0.75
+
+                    # Luminance
+                    l = l * (1.0 - TYPE_LUMINOSITY_WEIGHTING)
+                    l += type1L * TYPE_LUMINOSITY_WEIGHTING * type1WeightAtPixel * 0.75
+                    l += type2L * TYPE_LUMINOSITY_WEIGHTING * type2WeightatPixel * 0.75
+                else
+                    h = averageOfHues(h, typeH, typeHueWeight)
+                    s = s * (1.0 - TYPE_SATURATION_WEIGHTING) + typeS * TYPE_SATURATION_WEIGHTING 
+                    l = l * (1.0 - TYPE_LUMINOSITY_WEIGHTING) + typeL * TYPE_LUMINOSITY_WEIGHTING 
+                end  
+            end
+            
+            # Clamp values
+            h += 360 if h < 0
+            s = s.clamp(0, 100)
             l = l.clamp(0, 100)
 
             color.red, color.green, color.blue = hsl_to_rgb(h, s, l)

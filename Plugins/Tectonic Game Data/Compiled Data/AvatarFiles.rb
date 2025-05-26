@@ -19,7 +19,15 @@ module GameData
             filePath = "Graphics/Pokemon/Front/Avatars/" + species.to_s
             filePath += "_v" + version.to_s if version > 0
             filePath += "_" + form.to_s if form > 0
-            filePath += "_" + type.to_s.downcase if type
+            if type
+                if type.is_a?(Array)
+                    type.each do |typeElement|
+                        filePath += "_" + typeElement.to_s.downcase  
+                    end
+                else
+                    filePath += "_" + type.to_s.downcase
+                end  
+            end
             filePath += ".png"
             return filePath
         end
@@ -28,7 +36,15 @@ module GameData
             filePath = "Graphics/Pokemon/Back/Avatars/" + species.to_s
             filePath += "_v" + version.to_s if version > 0
             filePath += "_" + form.to_s if form > 0
-            filePath += "_" + type.to_s.downcase if type
+            if type
+                if type.is_a?(Array)
+                    type.each do |typeElement|
+                        filePath += "_" + typeElement.to_s.downcase  
+                    end
+                else
+                    filePath += "_" + type.to_s.downcase
+                end  
+            end
             filePath += ".png"
             return filePath
         end

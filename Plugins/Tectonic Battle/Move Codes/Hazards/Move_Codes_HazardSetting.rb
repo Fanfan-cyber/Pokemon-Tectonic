@@ -117,6 +117,17 @@ class PokeBattle_Move_EmpoweredSpikes < PokeBattle_Move_Spikes
     end
 end
 
+# Empowered Poison Spikes
+class PokeBattle_Move_EmpoweredPoisonSpikes < PokeBattle_Move_Spikes
+    include EmpoweredMove
+
+    def pbEffectGeneral(user)
+        # Apply up to the maximum number of layers
+        increment = GameData::BattleEffect.get(:PoisonSpikes).maximum - user.pbOpposingSide.countEffect(:PoisonSpikes)
+        user.pbOpposingSide.incrementEffect(:PoisonSpikes, increment) if increment > 0
+        transformType(user, :POISON)
+    end
+end
 #===============================================================================
 # Entry hazard. Lays poison spikes on the opposing side (max. 2 layers).
 # (Poison Spikes)

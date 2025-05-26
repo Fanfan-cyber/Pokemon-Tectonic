@@ -153,10 +153,19 @@ module GameData
         def getListOfPhaseTypes
             phaseTypes = [nil]
             arrayOfMoveSets.each do |moveSet|
+                phaseType = nil
                 moveSet.each do |move|
                     moveData = GameData::Move.get(move)
-                    phaseTypes.push(moveData.type) if moveData.empoweredMove? && moveData.status?
+                    next unless moveData.empoweredMove?
+                    next unless moveData.status?
+                    if phaseType
+                        phaseType = [phaseType, moveData.type]
+                        break
+                    else
+                        phaseType = moveData.type  
+                    end
                 end
+                phaseTypes.push(phaseType)
             end
 
             return phaseTypes

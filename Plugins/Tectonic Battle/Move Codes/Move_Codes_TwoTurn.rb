@@ -382,22 +382,24 @@ class PokeBattle_Move_FailsIfUserDamagedThisTurn < PokeBattle_Move
 end
 
 #===============================================================================
-# Two turn attack. Skips first turn, and increases the user's Special Attack,
-# Special Defense and Speed by 4 steps each in the second turn. (Geomancy)
+# Two turn attack. Skips first turn, and increases all of the user's (Geomancy)
+# stats by three steps on the next turn.
 #===============================================================================
-class PokeBattle_Move_TwoTurnAttackRaiseUserSpAtkSpDefSpd4 < PokeBattle_TwoTurnMove
+class PokeBattle_Move_TwoTurnAttackRaiseUserAllStats3 < PokeBattle_TwoTurnMove
     def initialize(battle, move)
         super
-        @statUp = [:SPECIAL_ATTACK, 4, :SPECIAL_DEFENSE, 4, :SPEED, 4]
+        @statUp = ALL_STATS_3
     end
 
     def pbMoveFailed?(user, _targets, show_message)
         return false if user.effectActive?(:TwoTurnAttack) # Charging turn
-        if !user.pbCanRaiseStatStep?(:SPECIAL_ATTACK, user, self) &&
-           !user.pbCanRaiseStatStep?(:SPECIAL_DEFENSE, user, self) &&
-           !user.pbCanRaiseStatStep?(:SPEED, user, self)
-            @battle.pbDisplay(_INTL("{1}'s stats won't go any higher!", user.pbThis)) if show_message
-            return true
+        if  !user.pbCanRaiseStatStep?(:ATTACK, user, self) &&
+            !user.pbCanRaiseStatStep?(:SPECIAL_ATTACK, user, self) &&
+            !user.pbCanRaiseStatStep?(:DEFENSE, user, self) &&
+            !user.pbCanRaiseStatStep?(:SPECIAL_DEFENSE, user, self) &&
+            !user.pbCanRaiseStatStep?(:SPEED, user, self)
+                @battle.pbDisplay(_INTL("{1}'s stats won't go any higher!", user.pbThis)) if show_message
+                return true
         end
         return false
     end

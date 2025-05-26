@@ -371,11 +371,11 @@ class PokeBattle_Battle
             hailDamage += applyHailDamage(b, showWeatherMessages) if icy?
         end
         
-        # Ectoparticles
+        # Winter's Wages
         if hailDamage > 0
             priority.each do |b|
-                next unless b.hasActiveAbility?(:ECTOPARTICLES)
-                pbShowAbilitySplash(b, :ECTOPARTICLES)
+                next unless b.hasActiveAbility?(:WINTERSWAGES)
+                pbShowAbilitySplash(b, :WINTERSWAGES)
                 healingMessage = _INTL("{1} absorbs the suffering from the hailstorm.", b.pbThis)
                 b.pbRecoverHP(hailDamage, true, true, true, healingMessage)
                 pbHideAbilitySplash(b)

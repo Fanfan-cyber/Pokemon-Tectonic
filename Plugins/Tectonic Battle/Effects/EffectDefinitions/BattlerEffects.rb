@@ -1276,7 +1276,15 @@ GameData::BattleEffect.register_effect(:Battler, {
         if battler.takesIndirectDamage?
             fraction = trappingDamageFraction(battler)
             battle.pbDisplay(_INTL("{1} is hurt by {2}!", battler.pbThis, moveName))
-            battler.applyFractionalDamage(fraction)
+            damage = battler.applyFractionalDamage(fraction)
+
+            battler.eachOpposing do |opp|
+                next unless opp.hasActiveAbility?(:BOTTOMFEEDER)
+                next unless battler.pointsAt?(:TrappingUser, opp)
+                opp.showMyAbilitySplash(:BOTTOMFEEDER)
+                opp.pbRecoverHPFromDrain(damage, battler)
+                opp.hideMyAbilitySplash
+            end
         end
     end,
     :sub_effects => %i[TrappingMove TrappingUser],

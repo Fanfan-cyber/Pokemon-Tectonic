@@ -162,7 +162,7 @@ BattleHandlers::AttackCalcUserAbility.add(:SERVEDCOLD,
 
 BattleHandlers::AttackCalcUserAbility.add(:FROSTFANGED,
   proc { |ability, user, battle, attackMult|
-      attackMult *= 1.25 if battle.icy?
+      attackMult *= 1.3 if battle.icy?
       next attackMult
   }
 )

@@ -70,8 +70,8 @@ Immunities = NORMAL,FIGHTING
 [8]
 Name = Steel
 InternalName = STEEL
-Color = 184,184,208
-DarkColor = 88,88,72
+Color = 169,169,186
+DarkColor = 80,80,90
 Weaknesses = FIGHTING,GROUND,FIRE,PSYCHIC
 Resistances = NORMAL,FLYING,ROCK,BUG,STEEL,GRASS,ICE,DRAGON,FAIRY
 Immunities = POISON

@@ -202,6 +202,11 @@ Description = When it attacks from underground in sandstorm, it'll transform int
 Name = Early Bird
 Description = The Pokémon awakens quickly from sleep.
 #-------------------------------
+[ECTOPARTICLES]
+Name = Ecto-Particles
+Description = Restores HP based on damage from hail.
+Flags = HailSynergy
+#-------------------------------
 [EFFECTSPORE]
 Name = Effect Spore
 Description = Contact with the Pokémon may inflict poison, sleep, or paralysis on the attacker.
@@ -233,6 +238,11 @@ Description = Draws in moves from foes with base power 100 or more.
 [EROSIONCYCLE]
 Name = Erosion Cycle
 Description = Using or being hit by a physical move leaves a rock on the field. Status moves collect them, healing by 1/4th each.
+#-------------------------------
+[ETERNALWINTER]
+Name = Eternal Winter
+Description = Extends hail by two turns after knocking out any Pokémon.
+Flags = HailSynergy
 #-------------------------------
 [EVOARMOR]
 Name = Evo-Armor
@@ -380,10 +390,6 @@ Description = Prevents the Pokémon from getting poisoned.
 [INFINITESOURCE]
 Name = Infinite Source
 Description = Pokémon that swap in for this have their Speed raised and their PP fully restored.
-#-------------------------------
-[INSOMNIA]
-Name = Insomnia
-Description = Prevents the Pokémon from falling asleep.
 #-------------------------------
 [JASPERCHARGE]
 Name = Jasper Charge
@@ -836,6 +842,11 @@ Description = Raises Speed each time the Pokémon flinches.
 [STEAMENGINE]
 Name = Steam Engine
 Description = Maximizes Speed when hit by a Fire- or Water-type move.
+#-------------------------------
+[STEELYSHELL]
+Name = Steely Shell
+Description = Steel-type attacks deal 50% more damage, and the Pokémon is protected from critical hits.
+Flags = CritImmunity
 #-------------------------------
 [STENCH]
 Name = Stench

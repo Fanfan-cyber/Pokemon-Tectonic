@@ -247,6 +247,18 @@ Flags = CanProtect,Empowered
 Description = A cloud of poison gas is sprayed at all nearby foes, poisoning them. User becomes a Poison-type.
 Animation = POISONGAS
 #-------------------------------
+[PRIMEVALPOISONSPIKES]
+Name = Primeval Poison Spikes
+Type = POISON
+Category = Status
+Accuracy = 0
+TotalPP = 1
+Target = FoeSide
+FunctionCode = EmpoweredPoisonSpikes
+Flags = Empowered
+Description = The user lays 2 layers of poisonous spike traps at the foe's feet, and becomes Poison-type.
+Animation = TOXICSPIKES
+#-------------------------------
 #		GROUND MOVES
 #-------------------------------
 [EMPOWEREDEARTHQUAKE]
@@ -940,6 +952,19 @@ Description = The user sharply boosts their Attack, Defense, and Speed, and beco
 Animation = SHIVERDANCE
 #-------------------------------
 #		DRAGON MOVES
+#-------------------------------
+[EMPOWEREDCRUELTY]
+Name = Empowered Cruelty
+Type = DRAGON
+Category = Physical
+Power = 130
+Accuracy = 100
+TotalPP = 1
+Target = AllNearOthers
+FunctionCode = EmpoweredCruelty
+Flags = CanProtect,Empowered
+Description = The user crushes all near foes with evil intent. This deals double damage to targets with a status condition.
+Animation = CRUSHCLAW
 #-------------------------------
 [EMPOWEREDDRAGONBREATH]
 Name = Empowered Dragon Breath

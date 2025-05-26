@@ -886,7 +886,7 @@ Pokedex = Darmanitan takes this form when enraged. It won't stop spewing flames 
 #-------------------------------
 [AMPHAROS,1]
 FormName = Ascended
-BaseStats = 110,100,165,80,210,165
+BaseStats = 110,100,165,80,190,165
 #-------------------------------
 [GARCHOMP,1]
 FormName = Reaper

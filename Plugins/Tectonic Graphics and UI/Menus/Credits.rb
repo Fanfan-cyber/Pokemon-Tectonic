@@ -93,6 +93,7 @@ Somersault
 Megas/Gigantamax Overworld Sprites
 Kidkatt<s>Larryturbo
 Princess-Phoenix<s>Sagedeoxys
+Lasse00
 
 Other Overworld Sprites
 Larryturbo<s>Kyle Dove

@@ -10,7 +10,7 @@ BattleHandlers::StatusImmunityAbility.add(:VITALSPIRIT,
   }
 )
 
-BattleHandlers::StatusImmunityAbility.copy(:VITALSPIRIT, :SWEETVEIL)
+BattleHandlers::StatusImmunityAbility.copy(:VITALSPIRIT, :SWEETVEIL, :INSOMNIA)
 
 BattleHandlers::StatusImmunityAbility.add(:LEAFGUARD,
   proc { |ability, battler, _status|

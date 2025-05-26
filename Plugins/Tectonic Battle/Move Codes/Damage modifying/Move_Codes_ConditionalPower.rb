@@ -228,6 +228,10 @@ class PokeBattle_Move_DoubleDamageTargetStatused < PokeBattle_Move
     end
 end
 
+class PokeBattle_Move_EmpoweredCruelty < PokeBattle_Move_DoubleDamageTargetStatused
+    include EmpoweredMove
+end
+
 #===============================================================================
 # Move deals double damage but heals the status condition every active Pokémon
 # if the target has a status condition (Impurity Blaze)
