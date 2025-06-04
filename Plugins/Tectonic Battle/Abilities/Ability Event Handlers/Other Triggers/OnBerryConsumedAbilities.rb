@@ -1,6 +1,6 @@
 BattleHandlers::OnBerryConsumedAbility.add(:CHEEKPOUCH,
   proc { |ability, user, _berry, _own_item, _battle|
-      user.applyFractionalHealing(1.0 / 3.0, ability: ability)
+      user.applyFractionalHealing(1.0 / 4.0, ability: ability)
   }
 )
 

@@ -26,6 +26,7 @@ class Pokemon
   def hasAbility?(check_ability = nil)
     return !ability.nil? if check_ability.nil?
     return abilities.include?(check_ability) if check_ability.is_a?(Symbol)
+    return abilities.any? { |abil_id| check_ability.include?(abil_id) } if check_ability.is_a?(Array)
     abilities.any? { |abil_id| check_ability.id == abil_id }
   end
 

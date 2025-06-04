@@ -29,7 +29,7 @@ module Settings
 
   KILL_PUNNISHMENT = 30
 
-  EXP_RATE_BOOST   = 5
+  EXP_RATE_BOOST   = 3
   MONEY_RATE_BOOST = 2
   CATCH_RATE_BOOST = 3
 

@@ -1103,7 +1103,7 @@ BattleHandlers::AbilityOnSwitchIn.add(:HOLIDAYCHEER,
 
 BattleHandlers::AbilityOnSwitchIn.add(:EXTRASCOOP,
   proc { |ability, battler, battle, aiCheck|
-    next battler.applyFractionalHealing(1.0/4.0, ability: ability, canOverheal: true, aiCheck: aiCheck)
+    next battler.applyFractionalHealing(1.0/5.0, ability: ability, canOverheal: true, aiCheck: aiCheck)
   }
 )
 

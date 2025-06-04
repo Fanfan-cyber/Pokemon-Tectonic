@@ -1,8 +1,10 @@
 ABILITY_DATA = {
  #:ABOVEITALL   => { :desc => proc { _INTL("1111111") }, :details => proc { _INTL("2222222") }, },
   :ARCANEFINALE => { :desc => proc { _INTL("Turns to Finale Form when only unfainted on team. Ignores the condition of a perfect battle.") }, },
+  :CHEEKPOUCH   => { :desc => proc { _INTL("When the Pokémon eats a Berry, it restores 25% of its max health.") }, },
   :DISCOLIGHTS  => { :desc => proc { _INTL("It changes secondary type to that of the dance moves it's about to use.") }, },
   :EMOTIONAURA  => { :desc => proc { _INTL("Upon entry, creates an Emotion Room for 5 turns, adding an ability every turn.") }, },
+  :EXTRASCOOP   => { :desc => proc { _INTL("Upon entry, the Pokémon heals itself for 1/5th max HP. This can overheal.") }, },
   :GYRESPINNER  => { :desc => proc { _INTL("Upon entry, traps each opponent in a whirlpool for one turns.") }, },
   :HEROICFINALE => { :desc => proc { _INTL("Turns to Finale Form when only unfainted on team. Ignores the condition of a perfect battle.") }, },
   :PLURIPOTENCE => { :desc => proc { _INTL("Copies opponents' species' legal Abilities.") }, },

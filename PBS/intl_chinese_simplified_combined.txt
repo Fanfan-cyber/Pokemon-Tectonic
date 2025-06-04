@@ -40514,7 +40514,7 @@ Moves ignore Abilities that would affect its moves or activate after hitting the
 Prevents half the self-damage from recoil and Self-Destruct/Explosion.
 减少后坐力伤害和自爆/大爆炸技能自身扣血。
 If an attacker would activate a random added effect on the Pokémon, that effect is placed on the attacker instead.
-在受到攻击并触发技能附加效果时，此效果也会给予对方。
+在受到攻击并触发技能的附加效果时，该附加效果由对方承受。
 Blocks random added effects of attacks taken, and prevents critical hits.
 不会受到技能附加效果影响，也不会被击中要害。
 Moves that use stats other than the default deal 50% more damage.
