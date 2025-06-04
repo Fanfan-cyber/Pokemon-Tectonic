@@ -141,7 +141,7 @@ class Trainer
     # Or the last party member if the first candidate has Illusion
     def displayPokemonAtIndex(index)
       pokemonToDisplay = @party[index]
-      if pokemonToDisplay.hasAbility?(:ILLUSION)
+      if pokemonToDisplay.hasAbility?(%i[ILLUSION INCOGNITO])
         pokemonToDisplay = @party.last
       end
       return pokemonToDisplay

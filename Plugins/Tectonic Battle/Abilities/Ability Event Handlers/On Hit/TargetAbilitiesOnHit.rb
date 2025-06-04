@@ -667,6 +667,8 @@ BattleHandlers::TargetAbilityOnHit.add(:ILLUSION,
     }
 )
 
+BattleHandlers::TargetAbilityOnHit.copy(:ILLUSION,:INCOGNITO)
+
 BattleHandlers::TargetAbilityOnHit.add(:COREPROVENANCE,
     proc { |ability, user, target, move, battle, aiCheck, aiNumHits|
         next unless move.physicalMove?

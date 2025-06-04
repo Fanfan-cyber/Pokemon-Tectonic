@@ -128,7 +128,7 @@ module QuestModule
     :QuestGiver => _INTL("Alolan"),
     :Stage1 => _INTL("Find their package."),
     :Stage2 => _INTL("Return the package."),
-    :Location1 => _INTL("Prizca West Travel Agency"),
+    :Location1 => _INTL("County Park"),
     :Location1 => _INTL("Prizca West Travel Agency"),
     :QuestDescription => _INTL("These people report they lost a package to a Gyarados attack, and want you to get it. Must be important, for their job...?"),
     :RewardString => _INTL("Alolan Wreath")

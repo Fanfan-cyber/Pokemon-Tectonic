@@ -1543,3 +1543,38 @@ module EmpoweredMove
         end
     end
 end
+
+#===============================================================================
+# User turns some of their of max HP into a substitute.
+# All sub-classes must define @subFraction.
+#===============================================================================
+class PokeBattle_Move_UserMakesSubstitute < PokeBattle_Move
+    def initialize(battle, move)
+        super
+        @subFraction = 0.25
+    end
+
+    def pbMoveFailed?(user, _targets, show_message)
+        if user.substituted?
+            @battle.pbDisplay(_INTL("{1} already has a substitute!", user.pbThis)) if show_message
+            return true
+        end
+        if user.hp <= user.getSubLife(@subFraction)
+            if show_message
+                @battle.pbDisplay(_INTL("But it failed, since {1} does not have enough HP left to make a substitute!", user.pbThis(true)))
+            end
+            return true
+        end
+        return false
+    end
+
+    def pbEffectGeneral(user)
+        user.createSubstitute(@subFraction)
+    end
+
+    def getEffectScore(user, _target)
+        score = getSubstituteEffectScore(user)
+        score += getHPLossEffectScore(user, @subFraction)
+        return score
+    end
+end

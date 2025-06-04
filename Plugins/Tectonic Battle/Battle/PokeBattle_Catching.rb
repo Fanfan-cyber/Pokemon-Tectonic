@@ -296,15 +296,10 @@ class PokeBattle_Battle
         ultraBeast = %i[NIHILEGO BUZZWOLE PHEROMOSA XURKITREE CELESTEELA
                         KARTANA GUZZLORD POIPOLE NAGANADEL STAKATAKA
                         BLACEPHALON].include?(pkmn.species)
-        # All balls but the beast ball have a 1/10 chance to catch Ultra Beasts
-        if ultraBeast && ball != :BEASTBALL 
-            catch_rate /= 10
-        else
-            catch_rate = BallHandlers.modifyCatchRate(ball, catch_rate, self, battler, ultraBeast)
-        end
+        catch_rate = BallHandlers.modifyCatchRate(ball, catch_rate, self, battler, ultraBeast)
         catch_rate *= Settings::CATCH_RATE_BOOST # TectoQuake
         catch_rate = (catch_rate * 1.5).floor if ballMimicActive?
-        return PokeBattle_Battle.captureThresholdCalcInternals(battler.status, battler.hp, battler.totalhp, catch_rate)
+        return PokeBattle_Battle.captureThresholdCalcInternals(battler.status, battler.statusCount, battler.hp, battler.totalhp, catch_rate)
     end
 
     def captureChanceCalc(pkmn, battler, catch_rate, ball)
@@ -315,15 +310,17 @@ class PokeBattle_Battle
         return overallChance
     end
 
-    def self.captureThresholdCalcInternals(status, current_hp, total_hp, catch_rate)
+    def self.captureThresholdCalcInternals(status, statusCount, current_hp, total_hp, catch_rate)
         # First half of the shakes calculation
         x = (((5 * total_hp) - (4 * current_hp)) * catch_rate.to_f) / (5 * total_hp) * 1.2
 
         # Calculation modifiers
         if status == :SLEEP
-            x *= 2.5
+            x *= 2.0
+        elsif status == :POISON
+            x *= 1.25 + 0.5 * (statusCount / 2)
         elsif status != :NONE
-            x *= 1.5
+            x *= 1.25
         end
         x = x.floor
         x = 1 if x < 1

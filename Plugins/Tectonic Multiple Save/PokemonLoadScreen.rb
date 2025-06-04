@@ -95,7 +95,7 @@ class PokemonLoadScreen
         cmd_achievements    = -1
         cmd_check_update    = -1
         cmd_options         = -1
-        cmd_debug           = -1
+        cmd_player_survey   = -1
         cmd_website         = -1
         cmd_discord         = -1
         cmd_wiki            = -1
@@ -109,6 +109,7 @@ class PokemonLoadScreen
         #commands[cmd_options = commands.length]         = _INTL("Options")
         commands[cmd_achievements = commands.length]    = _INTL("Achievements")
         commands[cmd_check_update = commands.length]    = _INTL("Check Update") if is_chinese?
+        commands[cmd_player_survey = commands.length]   = _INTL("Player Survey")
         commands[cmd_website = commands.length]         = _INTL("Website")
         commands[cmd_discord = commands.length]         = _INTL("Discord") unless is_chinese?
         commands[cmd_wiki = commands.length]            = _INTL("Wiki")
@@ -159,6 +160,8 @@ class PokemonLoadScreen
                 if pbConfirmMessage(_INTL("Current version is {1}.\nCheck update?", MOD_VERSION))
                   System.launch(AntiAbuse::OFFICIAL_SITE)
                 end
+            when cmd_player_survey
+                System.launch("https://forms.gle/PFJLiUVEq6SmnqFT9")
             when cmd_website
                 System.launch("https://www.tectonic-game.com/")
             when cmd_discord

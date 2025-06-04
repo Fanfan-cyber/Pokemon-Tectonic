@@ -127,11 +127,7 @@ BallHandlers::ModifyCatchRate.add(:DREAMBALL, proc { |_ball, catchRate, _battle,
 })
 
 BallHandlers::ModifyCatchRate.add(:BEASTBALL, proc { |_ball, catchRate, _battle, _battler, ultraBeast|
-    if ultraBeast
-        catchRate *= 5
-    else
-        catchRate /= 10
-    end
+    catchRate *= 5 if ultraBeast
     next catchRate
 })
 

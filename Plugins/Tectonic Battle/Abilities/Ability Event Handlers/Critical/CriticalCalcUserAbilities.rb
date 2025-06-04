@@ -1,10 +1,16 @@
 BattleHandlers::CriticalCalcUserAbility.add(:SUPERLUCK,
   proc { |ability, _user, _target, _move, c|
-      next c + 1
+      next c + 2
   }
 )
 
 BattleHandlers::CriticalCalcUserAbility.add(:SNIPER,
+  proc { |ability, _user, _target, _move, c|
+      next c + 1
+  }
+)
+
+BattleHandlers::CriticalCalcUserAbility.add(:SHARPSHOOTER,
   proc { |ability, _user, _target, _move, c|
       next c + 1
   }

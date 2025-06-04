@@ -811,18 +811,6 @@ BattleHandlers::AbilityOnSwitchIn.add(:TOLLTHEBELLS,
   }
 )
 
-BattleHandlers::AbilityOnSwitchIn.add(:PEARLSEEKER,
-  proc { |ability, battler, battle, aiCheck|
-      next 0 unless battle.eclipsed?
-      next 0 unless battler.canAddItem?(:PEARLOFFATE)
-      next 8 if aiCheck
-      battle.pbShowAbilitySplash(battler, ability)
-      battler.giveItem(:PEARLOFFATE)
-      battle.pbDisplay(_INTL("{1} discovers the {2}!", battler.pbThis, getItemName(:PEARLOFFATE)))
-      battle.pbHideAbilitySplash(battler)
-  }
-)
-
 BattleHandlers::AbilityOnSwitchIn.add(:GYRESPINNER,
   proc { |ability, battler, battle, aiCheck|
       next entryTrappingAbility(ability, battler, battle, :WHIRLPOOL, aiCheck: aiCheck) { |trappedFoe|

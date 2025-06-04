@@ -5474,9 +5474,9 @@ ShadowSize = 2
 #-------------------------------
 [SEVIPER]
 BackSprite = 0,19
-FrontSprite = 0,12
+FrontSprite = 4,12
 ShadowX = 0
-ShadowSize = 2
+ShadowSize = 3
 #-------------------------------
 [SEWADDLE]
 BackSprite = 0,34
@@ -5756,7 +5756,7 @@ ShadowSize = 2
 #-------------------------------
 [SNEASEL]
 BackSprite = 0,26
-FrontSprite = 0,20
+FrontSprite = 4,26
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
@@ -6949,8 +6949,8 @@ ShadowX = 0
 ShadowSize = 3
 #-------------------------------
 [YAMASK]
-BackSprite = 0,30
-FrontSprite = 0,34
+BackSprite = 0,27
+FrontSprite = 0,30
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------

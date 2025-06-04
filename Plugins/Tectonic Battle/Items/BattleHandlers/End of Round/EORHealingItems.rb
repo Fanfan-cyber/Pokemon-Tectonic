@@ -21,11 +21,3 @@ BattleHandlers::EORHealingItem.add(:LEFTOVERS,
       battler.aiLearnsItem(item)
   }
 )
-
-BattleHandlers::EORHealingItem.add(:PEARLOFFATE,
-    proc { |item, battler, _battle|
-        next unless battler.canLeftovers?
-        battler.applyFractionalHealing(LEFTOVERS_HEALING_FRACTION, item: item)
-        battler.aiLearnsItem(item)
-    }
-)

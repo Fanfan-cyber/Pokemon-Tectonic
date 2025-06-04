@@ -427,7 +427,8 @@ animationName, show_message) do
             return false
         elsif targetTypeModImmune?(user, target, move, typeMod, show_message, aiCheck)
             if !aiCheck && target.effectActive?(:Illusion)
-                target.aiLearnsAbility(:ILLUSION)
+                target.aiLearnsAbility(:ILLUSION) if target.hasActiveAbility?(:ILLUSION)
+                target.aiLearnsAbility(:INCOGNITO) if target.hasActiveAbility?(:INCOGNITO)
             end
             return false
         end

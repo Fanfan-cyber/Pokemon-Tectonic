@@ -802,7 +802,7 @@ NamePlural = Luck Herbs
 Pocket = 5
 Price = 4000
 Flags = Herb
-Description = An item to be held by a Pokémon. Ensures a random additional affect activates once per battle.
+Description = An item to be held by a Pokémon. Ensures a random additional effect activates once per battle.
 #-------------------------------
 [SKILLHERB]
 Name = Skill Herb
@@ -1666,7 +1666,7 @@ Pocket = 3
 Price = 1000
 BattleUse = OnFoe
 Flags = PokeBall,SnagBall,SkipPocketMessage,NoBallSwap
-Description = A special Poké Ball designed to catch Ultra Beasts. It has a low success rate for catching others.
+Description = A special Poké Ball with 5x strength against Ultra Beasts.
 #-------------------------------
 [SLICEBALL]
 Name = Slice Ball
@@ -2630,8 +2630,9 @@ Name = Cell Booster
 NamePlural = Cell Boosters
 Pocket = 8
 Price = 0
+FieldUse = Direct
 Flags = KeyItem
-Description = Condensed essence of life. Holding it allows you to run, bike, and surf faster.
+Description = Condensed essence of life. Holding it allows you to run, bike, and surf faster. Can be toggled on or off.
 #-------------------------------
 [RUSTEDCOMPASS]
 Name = Rusted Compass

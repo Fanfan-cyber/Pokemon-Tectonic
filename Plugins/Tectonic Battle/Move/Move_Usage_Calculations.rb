@@ -311,10 +311,10 @@ class PokeBattle_Move
     end
 
     def critsPrevented?(user, target)
-        return false if target.pbOwnSide.effectActive?(:LuckyChant)
-        return false if target.pbOwnSide.effectActive?(:DiamondField) && !(user && user.hasActiveAbility?(:INFILTRATOR))
-        return false if pbCriticalOverride(user, target) < 0
-        return true
+        return true if target.pbOwnSide.effectActive?(:LuckyChant)
+        return true if target.pbOwnSide.effectActive?(:DiamondField) && !(user && user.hasActiveAbility?(:INFILTRATOR))
+        return true if pbCriticalOverride(user, target) < 0
+        return false
     end
 
     def guaranteedCrit?(user, target, checkingForAI = false)

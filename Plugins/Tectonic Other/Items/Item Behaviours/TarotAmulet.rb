@@ -1,4 +1,4 @@
-def useTarotAmulet()
+def useTarotAmulet
 	$PokemonGlobal.tarot_amulet_active = !$PokemonGlobal.tarot_amulet_active
   followerEventGraphicSwap(true)
 	duration = amuletMessageDuration

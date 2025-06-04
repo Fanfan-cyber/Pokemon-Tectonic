@@ -492,11 +492,12 @@ GameData::BattleEffect.register_effect(:Battler, {
     :real_name => "Illusion",
     :type => :Pokemon,
     :initialize_proc => proc do |battle, battler|
-        if battler.hasActiveAbility?(:ILLUSION)
+        if battler.hasActiveAbility?(%i[ILLUSION INCOGNITO])
             idxLastParty = battle.pbLastInTeam(battler.index)
             if idxLastParty >= 0 && idxLastParty != battler.pokemonIndex
                 toDisguiseAs = battle.pbParty(battler.index)[idxLastParty]
                 battler.applyEffect(:Illusion, toDisguiseAs)
+                battler.resetAbilities if battler.hasActiveAbility?(:INCOGNITO)
             end
         end
 
@@ -508,6 +509,7 @@ GameData::BattleEffect.register_effect(:Battler, {
     end,
     :disable_proc => proc do |battle, battler|
         battle.pbDisplay(_INTL("{1}'s illusion wore off!", battler.pbThis))
+        battler.resetAbilities if battler.hasActiveAbility?(:INCOGNITO)
     end,
     :info_displayed => false,
 })

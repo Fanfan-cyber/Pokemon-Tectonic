@@ -397,9 +397,9 @@ Pocket = 5
 Price = 0
 Description = An item to be held by a Pokémon. Protective moves like Light Screen and Reflect will be effective for 6 turns longer.
 #-------------------------------
-[PEARLOFFATE]
-Name = Pearl of Fate
-NamePlural = Pearls of Fate
+[PEARLOFWISDOM]
+Name = Pearl of Wisdom
+NamePlural = Pearls of Wisdom
 Pocket = 5
 Price = 0
 Flags = Leftovers

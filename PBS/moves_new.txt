@@ -2758,7 +2758,7 @@ Category = Status
 Accuracy = 0
 TotalPP = 10
 Target = UserOrNearOther
-FunctionCode = UserOrTargetMakesSubstitute
+FunctionCode = UserOrTargetMakesSubstitute25
 Flags = CanProtect,CanMagicCoat
 Description = The user forces itself or the target to make a substitute by turning it into a doll.
 #-------------------------------
@@ -5096,7 +5096,7 @@ Power = 80
 Accuracy = 100
 TotalPP = 20
 Target = NearOther
-FunctionCode = LowerTargetSpDef2
+FunctionCode = RaiseUserSpDef2
 Flags = CanProtect
 EffectChance = 100
 Description = Cloaking itself in light energy, the user shocks the target, raising the user's Sp. Def by two steps.
@@ -5506,6 +5506,17 @@ EffectChance = 10
 Description = The target is hit by a weak telekinetic force. It has a 10% chance to lower the target's Sp. Def.
 Animation = CONFUSION
 #-------------------------------
+[MITOSIS]
+Name = Mitosis
+Type = PSYCHIC
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+FunctionCode = UserMakeSubstitute50RaiseSpd4
+Flags = CanSnatch
+Description = The user spends 50% HP to create a Substitute. If successful, the user's Speed is raised by four steps.
+#-------------------------------
 [ODDROOM]
 Name = Odd Room
 Type = PSYCHIC
@@ -5669,6 +5680,18 @@ Priority = 4
 FunctionCode = ProtectUserFromDamagingMovesLowerSpecAttackerSpDef2
 Description = Protects the user from damage this turn. It also lowers the Sp. Def of special attackers by four steps.
 Animation = PROTECT
+#-------------------------------
+[RHYTHMICRITUAL]
+Name = Rhythmic Ritual
+Type = PSYCHIC
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+FunctionCode = GrantUserPearlOfWisdom
+Flags = Dance
+Description = The user does an arcane dance to summon a Pearl Of Wisdom to hold. The Pearl boosts all stats by 20% and can be flung for huge damage.
+Animation = TEETERDANCE
 #-------------------------------
 [SCRUTINIZE]
 Name = Scrutinize
@@ -7003,6 +7026,20 @@ FunctionCode = Leech
 Flags = CanProtect,Sound
 EffectChance = 20
 Description = The user bullies the target, causing mental damage. This has a 20% chance to leech.
+#-------------------------------
+[ULTRAVIOLETPULSE]
+Name = Ultraviolet Pulse
+Type = DARK
+Category = Special
+Power = 105
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = LowerTargetSpDef2
+Flags = CanProtect,Pulse
+EffectChance = 100
+Description = The user pulses powerful dark light to expose the target's motives. This lower's their Sp. Def by two steps.
+Animation = DARKPULSE
 #-------------------------------
 [VERMINCLOUD]
 Name = Vermin Cloud

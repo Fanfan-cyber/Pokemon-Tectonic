@@ -1455,7 +1455,7 @@ Pokemon = DIGNIPHITE,70
 [BUGCATCHER_F,Ani]
 Pokemon = INTELEON,70
     Moves = SNIPESHOT,ICEBEAM,MASSDESTRUCTION,COLDFRONT
-    AbilityIndex = 1 # Illusion
+    AbilityIndex = 1 # Incognito
     Item = EXPERTBELT
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 0,20,10,20,20,0

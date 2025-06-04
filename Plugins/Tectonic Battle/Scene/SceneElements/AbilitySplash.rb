@@ -55,7 +55,8 @@ class AbilitySplashBar < SpriteWrapper
 
     def battler=(value)
         @battler = value
-        @speciesIcon.setBitmap(GameData::Species.icon_filename_from_pokemon(@battler.pokemon))
+        pokemon = @battler.illusion? ? @battler.disguisedAs : @battler.pokemon
+        @speciesIcon.setBitmap(GameData::Species.icon_filename_from_pokemon(pokemon))
         @speciesIcon.src_rect.y = SPECIES_ICON_SRC_Y
         @speciesIcon.src_rect.height = SPECIES_ICON_SRC_HEIGHT
         @speciesIcon.src_rect.width = @speciesIcon.bitmap.width / 2

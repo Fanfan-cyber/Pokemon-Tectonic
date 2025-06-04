@@ -556,6 +556,11 @@ class Pokemon
         return !ability.nil? if check_ability.nil?
         if check_ability.is_a?(Symbol)
             return ability_id == check_ability
+        elsif check_ability.is_a?(Array)
+            check_ability.each do |abilityToCheck|
+                  return true if ability_id == abilityToCheck
+            end
+            return false
         else
             return ability == check_ability
         end

@@ -135,6 +135,7 @@ class PokeBattle_AI
         end
         return -1
     rescue StandardError => exception
+        pbPrintException($!) if $DEBUG
         echoln("FAILURE ENCOUNTERED IN pbDetermineSwitch FOR BATTLER INDEX #{idxBattler}")
         return -1
     end

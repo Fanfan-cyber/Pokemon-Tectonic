@@ -27,7 +27,7 @@ class PokeBattle_AI
             return Effectiveness::NORMAL_EFFECTIVE
         end
         # Determine types
-        allowIllusion = !target.aiKnowsAbility?(:ILLUSION)
+        allowIllusion = !target.aiKnowsIllusion?
         tTypes = target.pbTypes(true, allowIllusion)
         # Get effectivenesses
         typeMods = [Effectiveness::NORMAL_EFFECTIVE_ONE] * 3 # 3 types max

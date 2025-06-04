@@ -322,7 +322,7 @@ end
 #===============================================================================
 # Increases the user's Sp. Def by 2 steps.
 #===============================================================================
-class PokeBattle_Move_RaiseSpDef2 < PokeBattle_StatUpMove
+class PokeBattle_Move_RaiseUserSpDef2 < PokeBattle_StatUpMove
     def initialize(battle, move)
         super
         @statUp = [:SPECIAL_DEFENSE, 2]

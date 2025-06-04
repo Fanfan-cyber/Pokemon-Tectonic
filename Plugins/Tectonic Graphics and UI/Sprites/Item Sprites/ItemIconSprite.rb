@@ -68,7 +68,7 @@ class ItemIconSprite < SpriteWrapper
     end
 
     def item=(value)
-        return if @item == value && !@forceitemchange && !%i[TAROTAMULET AIDKIT].include?(value)
+        return if @item == value && !@forceitemchange && !ItemIconEvents::item_dynamic_icon?(item)
         @item = value
         @animbitmap.dispose if @animbitmap
         @animbitmap = nil
@@ -76,12 +76,7 @@ class ItemIconSprite < SpriteWrapper
             @animbitmap = AnimatedBitmap.new(GameData::Item.icon_filename(@item))
             self.bitmap = @animbitmap.bitmap
             pbSetSystemFont(bitmap)
-            if item == :AIDKIT
-                base = Color.new(235, 235, 235)
-                shadow = Color.new(50, 50, 50)
-                pbDrawTextPositions(bitmap,
-[[$PokemonGlobal.teamHealerCurrentUses.to_s, 36, 14, 1, base, shadow, true]])
-            end
+            ItemIconEvents.triggerModifyItemIconBitmap(@item, bitmap)
             establishNewBitmap
         else
             self.bitmap = nil

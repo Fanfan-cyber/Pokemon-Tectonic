@@ -295,24 +295,6 @@ class PokeBattle_Move_RaiseUserDefSpDef2CurlsUp < PokeBattle_MultiStatUpMove
 end
 
 #===============================================================================
-# Increases the user's defensive stats by 2 steps and gives them the (Shellter)
-# Shell Armor ability.
-#===============================================================================
-class PokeBattle_Move_RaiseUserDefSpDef2GainsShellArmor < PokeBattle_MultiStatUpMove
-    def aiAutoKnows?(pokemon); return true; end
-    
-    def initialize(battle, move)
-        super
-        @statUp = DEFENDING_STATS_2
-    end
-
-    def pbEffectGeneral(user)
-        super
-        user.addAbility(:SHELLARMOR,true)
-    end
-end
-
-#===============================================================================
 # Increases the user's defensive stats by 1 step each.
 # Charges up user's next attack if it is Electric-type. (Charge)
 #===============================================================================

@@ -4726,3 +4726,11 @@ Price = 4000
 FieldUse = TM
 Flags = SkipPocketMessage
 Move = BATONPASS
+#-------------------------------
+[PEARLOFFATE]
+Name = Pearl of Fate
+NamePlural = Pearls of Fate
+Pocket = 5
+Price = 0
+Flags = Leftovers
+Description = User heals 1/16th HP every turn. Will sacrifice itself to cure the user of status.

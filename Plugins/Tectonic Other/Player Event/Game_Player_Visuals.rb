@@ -110,5 +110,5 @@ class Game_Player < Game_Character
 end
 
 def cellBoosterActive?
-    return $PokemonBag && pbHasItem?(:CELLBOOSTER)
+    return $PokemonBag && pbHasItem?(:CELLBOOSTER) && !cellBoosterInactive?
 end

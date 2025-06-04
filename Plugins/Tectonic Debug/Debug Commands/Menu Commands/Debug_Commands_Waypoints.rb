@@ -8,6 +8,7 @@ DebugMenuCommands.register("unlockallwaypoints", {
                 echoln("Unlocking: #{waypointName}")
                 $waypoints_tracker.addWaypoint(waypointName, [mapID, event.id])
             rescue StandardError => exception
+                pbPrintException($!) if $DEBUG
                 pbMessage(_INTL("Unable to unlock waypoint: #{waypointName}"))
             end
         end

@@ -146,7 +146,7 @@ GameData::BattleEffect.register_effect(:Position, {
             abilityPasser = battler.ownerParty[position.effects[:PassingAbility]]
             if abilityPasser
                 abilityPasserName = battle.pbThisEx(battler.index, position.effects[:PassingAbility])
-                unless battler.hasAbility?(abilityPasser.ability)
+                unless battler.hasAbility?(abilityPasser.ability) || GameData::Ability.get(abilityPasser.ability).is_uncopyable_ability?
                     battler.showMyAbilitySplash(:LONGRECEIVER)
                     battle.pbDisplay(_INTL("{1} passes its ability to {2}!", abilityPasserName, battler.pbThis(true)))
                     battler.hideMyAbilitySplash

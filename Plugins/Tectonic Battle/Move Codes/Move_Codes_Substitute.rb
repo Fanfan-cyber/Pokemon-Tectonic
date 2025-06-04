@@ -1,38 +1,41 @@
 #===============================================================================
 # User turns 1/4 of max HP into a substitute. (Substitute)
 #===============================================================================
-class PokeBattle_Move_UserMakeSubstitute < PokeBattle_Move
-    def pbMoveFailed?(user, _targets, show_message)
-        if user.substituted?
-            @battle.pbDisplay(_INTL("{1} already has a substitute!", user.pbThis)) if show_message
-            return true
-        end
-
-        if user.hp <= user.getSubLife
-            if show_message
-                @battle.pbDisplay(_INTL("But it failed, since {1} does not have enough HP left to make a substitute!", user.pbThis(true)))
-            end
-            return true
-        end
-        return false
-    end
-
-    def pbEffectGeneral(user)
-        user.createSubstitute
-    end
-
-    def getEffectScore(user, _target)
-        score = getSubstituteEffectScore(user)
-        score += getHPLossEffectScore(user, 0.25)
-        return score
+class PokeBattle_Move_UserMakesSubstitute25 < PokeBattle_Move_UserMakesSubstitute
+    def initialize(battle, move)
+        super
+        @subFraction = 0.25
     end
 end
 
 #===============================================================================
 # Forces the target to use a substitute (Doll Stitch)
 #===============================================================================
-class PokeBattle_Move_UserOrTargetMakesSubstitute < PokeBattle_Move
+class PokeBattle_Move_UserOrTargetMakesSubstitute25 < PokeBattle_Move
     def pbEffectAgainstTarget(_user, target)
         @battle.forceUseMove(target, :SUBSTITUTE)
+    end
+end
+
+#===============================================================================
+# User turns 1/2 of max HP into a substitute, then raises their (Mitosis)
+# Speed by 2 steps.
+#===============================================================================
+class PokeBattle_Move_UserMakeSubstitute50RaiseSpd4 < PokeBattle_Move_UserMakesSubstitute
+    def initialize(battle, move)
+        super
+        @subFraction = 0.50
+        @speedIncrement = 4
+    end
+
+    def pbEffectGeneral(user)
+        super
+        user.tryRaiseStat(:SPEED, user, move: self, increment: @speedIncrement)
+    end
+
+    def getEffectScore(user, target)
+        score = super
+        score += getMultiStatUpEffectScore([:SPEED, @speedIncrement], user, user)
+        return score
     end
 end

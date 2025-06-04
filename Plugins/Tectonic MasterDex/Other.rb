@@ -133,10 +133,10 @@ end
 
 def theoreticalCaptureChance(status,current_hp,total_hp,catch_rate)
 	return 0 if !defined?(PokeBattle_Battle.captureThresholdCalcInternals)
-    y = PokeBattle_Battle.captureThresholdCalcInternals(status,current_hp,total_hp,catch_rate)
-    chancePerShake = y.to_f/PokeBattle_Battle::CATCH_BASE_CHANCE.to_f
-    overallChance = chancePerShake ** 4
-    return overallChance
+	y = PokeBattle_Battle.captureThresholdCalcInternals(status,0,current_hp,total_hp,catch_rate)
+	chancePerShake = y.to_f/PokeBattle_Battle::CATCH_BASE_CHANCE.to_f
+	overallChance = chancePerShake ** 4
+	return overallChance
 end
 
 def roundUpToNextCap(level)

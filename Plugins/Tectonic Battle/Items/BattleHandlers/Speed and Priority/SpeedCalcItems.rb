@@ -30,13 +30,23 @@ FRAGILE_LOCKET_STAT_REDUCTION = 0.1
 
 BattleHandlers::SpeedCalcItem.add(:FRAGILELOCKET,
   proc { |item, battler, mult|
-    mult *= (1.0 - FRAGILE_LOCKET_STAT_REDUCTION)
-    next mult
+      mult *= (1.0 - FRAGILE_LOCKET_STAT_REDUCTION)
+      next mult
   }
 )
 
+PEARL_OF_WISDOM_STAT_BOOST = 0.25
+
+BattleHandlers::SpeedCalcItem.add(:PEARLOFWISDOM,
+  proc { |item, battler, mult|
+      mult *= (1.0 + PEARL_OF_WISDOM_STAT_BOOST)
+      next mult
+  }
+)
+
+
 BattleHandlers::SpeedCalcItem.add(:LUMBERAXE,
   proc { |item, battler, mult|
-    next mult * 0.85
+      next mult * 0.85
   }
 )

@@ -21,7 +21,14 @@ BattleHandlers::SpecialAttackCalcUserItem.add(:CHOICESPECS,
 
 BattleHandlers::SpecialAttackCalcUserItem.add(:FRAGILELOCKET,
   proc { |item, user, _battle, spAtkMult|
-    spAtkMult *= (1.0 - FRAGILE_LOCKET_STAT_REDUCTION)
+      spAtkMult *= (1.0 - FRAGILE_LOCKET_STAT_REDUCTION)
+      next spAtkMult
+  }
+)
+
+BattleHandlers::SpecialAttackCalcUserItem.add(:PEARLOFWISDOM,
+proc { |item, user, _battle, spAtkMult|
+      spAtkMult *= (1.0 + PEARL_OF_WISDOM_STAT_BOOST)
       next spAtkMult
   }
 )

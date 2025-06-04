@@ -206,6 +206,14 @@ class PokeBattle_Battler
                 @battle.pbSetSeen(self)
             end
         end
+        if illusion? && oldAbilities.include?(:INCOGNITO) && !hasAbility?(:INCOGNITO)
+            disableEffect(:Illusion)
+            unless effectActive?(:Transform)
+                @battle.scene.pbChangePokemon(self, @pokemon)
+                @battle.pbDisplay(_INTL("{1}'s {2} wore off!", pbThis, getAbilityName(:INCOGNITO)))
+                @battle.pbSetSeen(self)
+            end
+        end
         disableEffect(:AbilitySupressed) if immutableAbility?
         disableEffect(:SlowStart) unless hasAbility?(:SLOWSTART)
         

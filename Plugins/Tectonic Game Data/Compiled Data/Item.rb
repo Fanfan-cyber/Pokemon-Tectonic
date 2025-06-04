@@ -51,10 +51,9 @@ module GameData
         return "Graphics/Items/000" if item_data.nil?
         itemID = item_data.id
         # Check for files
-        ret = sprintf("Graphics/Items/%s", itemID)
-        if itemID == :TAROTAMULET && $PokemonGlobal.tarot_amulet_active
-            ret += "_ACTIVE"
-        end
+        ret = itemID.to_s
+        ret = ItemIconEvents::triggerModifyItemIconFileName(item, ret)
+        ret = sprintf("Graphics/Items/%s", ret)
         return ret if pbResolveBitmap(ret)
         # Check for TM/HM type icons
         if item_data.is_machine?

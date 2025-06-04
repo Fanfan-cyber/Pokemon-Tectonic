@@ -25,3 +25,10 @@ BattleHandlers::AttackCalcUserItem.add(:FRAGILELOCKET,
       next attackMult
   }
 )
+
+BattleHandlers::AttackCalcUserItem.add(:PEARLOFWISDOM,
+  proc { |item, user, _battle, attackMult|
+    attackMult *= (1.0 + PEARL_OF_WISDOM_STAT_BOOST)
+    next attackMult
+  }
+)

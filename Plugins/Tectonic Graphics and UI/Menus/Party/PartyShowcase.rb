@@ -41,7 +41,7 @@ class PokemonPartyShowcase_Scene
         end
 
         # Illusion
-        if illusionsFool && @party[0].hasAbility?(:ILLUSION)
+        if illusionsFool && @party[0].hasAbility?(%i[ILLUSION INCOGNITO])
             storage = @party[0]
             @party[0] = @party[@party.length - 1]
             @party[@party.length - 1] = storage

@@ -67,6 +67,8 @@ class PokemonGlobalMetadata
     attr_accessor :ominous_egg_stage
     # Chroma Clarion
     attr_accessor :chroma_clarion_recharge_steps
+    # Cell booster
+    attr_accessor :cell_booster_inactive
     # Ragged journal
     attr_accessor :ragged_journal_pages_collected
     # Randomizer
@@ -170,6 +172,8 @@ class PokemonGlobalMetadata
         @teamHealerCurrentUses= 1
         # Tarot Amulet
         @tarot_amulet_active  = true
+        # Cell Booster
+        @cell_booster_inactive = false
         # Ragged Journal
         @ragged_journal_pages_collected  = []
         # Ominous egg

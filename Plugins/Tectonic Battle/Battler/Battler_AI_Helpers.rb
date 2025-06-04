@@ -88,7 +88,7 @@ class PokeBattle_Battler
     end
 
     def eachAIKnownMove
-        return if effectActive?(:Illusion) && pbOwnedByPlayer? && !aiKnowsAbility?(:ILLUSION)
+        return if movesHiddenByIllusion?
         knownMoveIDs = @battle.aiKnownMoves(@pokemon)
         getMoves.each do |move|
             next unless move
@@ -98,13 +98,24 @@ class PokeBattle_Battler
     end
 
     def eachAIKnownMoveWithIndex
-        return if effectActive?(:Illusion) && pbOwnedByPlayer? && !aiKnowsAbility?(:ILLUSION)
+        return if movesHiddenByIllusion?
         knownMoveIDs = @battle.aiKnownMoves(@pokemon)
         getMoves.each_with_index do |move, index|
             next unless move
             next if pbOwnedByPlayer? && !knownMoveIDs.include?(move.id)
             yield move, index
         end
+    end
+
+    def movesHiddenByIllusion?
+        return false unless effectActive?(:Illusion)
+        return false unless pbOwnedByPlayer?  
+        return true unless aiKnowsIllusion?
+        return false
+    end
+
+    def aiKnowsIllusion?
+        return aiKnowsAbility?(:ILLUSION) || aiKnowsAbility?(:INCOGNITO)
     end
 
     def hasPhysicalAttack?
@@ -531,7 +542,7 @@ class PokeBattle_Battler
 
     def pbHasTypeAI?(type)
         return false unless type
-        allowIllusion = !aiKnowsAbility?(:ILLUSION)
+        allowIllusion = !aiKnowsIllusion?
         activeTypes = pbTypes(true, allowIllusion)
         return activeTypes.include?(GameData::Type.get(type).id)
     end

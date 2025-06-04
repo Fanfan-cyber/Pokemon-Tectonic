@@ -717,15 +717,15 @@ class PokeBattle_Battler
 
     def pbHyperMode; end
 
-    def getSubLife
-        subLife = @totalhp / 4.0
+    def getSubLife(subFraction = 0.25)
+        subLife = @totalhp * subFraction
         subLife *= hpBasedEffectResistance
         subLife = 1 if subLife < 1
         return subLife.floor
     end
 
-    def createSubstitute
-        subLife = getSubLife
+    def createSubstitute(subFraction = 0.25)
+        subLife = getSubLife(subFraction)
         pbReduceHP(subLife, false, false)
         pbItemHPHealCheck
         disableEffect(:Trapping)
@@ -765,6 +765,11 @@ class PokeBattle_Battler
                 @addedAbilities.push(legalAbility)
             end
 =end
+        end
+
+        if !initialization && illusion? && hasActiveAbility?(:INCOGNITO) && disguisedAs.ability && !GameData::Ability.get(disguisedAs.ability_id).is_uncopyable_ability?
+            @ability_ids.push(disguisedAs.ability_id)
+            @addedAbilities.push(disguisedAs.ability_id)
         end
 
         unless initialization

@@ -676,6 +676,7 @@ def weirdBallsVendor
 		LUXURYBALL FRIENDBALL
 		HEALBALL
 		ROYALBALL
+		BEASTBALL
 	]
 	pbPokemonMart(
 		weirdBallStock,

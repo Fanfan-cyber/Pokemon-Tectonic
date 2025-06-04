@@ -973,6 +973,11 @@ Description = Its same-type attack bonus is based on its party members rather th
 Name = Impulsive
 Description = When this Pokémon becomes statused, its Sp. Atk is raised by three steps.
 #-------------------------------
+[INCOGNITO]
+Name = Incognito
+Description = Comes out disguised as the Pokémon in back. While disguised, copies its ability.
+Flags = Immutable
+#-------------------------------
 [INDESTRUCTIBLE]
 Name = Indestructible
 Description = After being attacked, gains immunity to that move's type but loses other morphed immunities.
@@ -1165,7 +1170,7 @@ Description = Dive and Depth Charge deal 50% more damage.
 #-------------------------------
 [MARTIALDISCIPLINE]
 Name = Martial Discipline
-Description = Repeats another Pokémon's punch and kick moves immediately at 75% power.
+Description = Repeats another Pokémon's punch and kick moves immediately at 50% power.
 #-------------------------------
 [MASSATTACK]
 Name = Mass Attack
@@ -1683,6 +1688,10 @@ Description = Boosts Attack by 20% in hail, or 40% if also below half health.
 [SEVERE]
 Name = Severe
 Description = Its attacks are critical against numbed targets.
+#-------------------------------
+[SHARPSHOOTER]
+Name = Sharpshooter
+Description = Doubles the critical hit chance of random crit moves. The Pokémon's Speed is doubled while using them.
 #-------------------------------
 [SHELLCRACKER]
 Name = Shellcracker
