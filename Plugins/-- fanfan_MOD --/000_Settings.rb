@@ -12,9 +12,10 @@ module Settings
   # Button used for Fast Forward (Default = :F)
   FAST_FORWARD_KEY = :Q
 
-  FAINT_HEALING_TURN = 10
+  FAINT_HEALING_TURN   = 10
+  NATURAL_HEALING_TURN = 5
 
-  REST_HEALING_NUM = 5
+  REST_HEALING_NUM   = 5
   SWITCH_HEALING_NUM = 10
 
   BATTLE_ENDING_NUMB = 30

@@ -76,17 +76,28 @@ class PokeBattle_Battle
         # Form checks
         priority.each { |b| b.pbCheckForm(true) }
 
-        # Switch Healing Rest part
+        # Switch Healing Rest part and Status Natural Healing mechanics
         field_battlers = field_battlers_id
-        (@party1 + @party2).each do |pkmn|
-            next unless pkmn
-            next unless tracker_get(:battled_battlers).include?(pkmn.unique_id)
-            next if tracker_get(:turn_switched)[pkmn.unique_id] == @turnCount
-            next if pkmn.fainted?
-            next if pkmn.pinch?
-            next if pkmn.has_status?
-            next if field_battlers.include?(pkmn.unique_id)
-            pkmn.healByFraction(Settings::REST_HEALING_NUM / 100.0)
+        [@party1, @party2].each_with_index do |pty, i|
+            pty.each do |pkmn|
+                next unless pkmn
+                next if pkmn.fainted?
+                next if pkmn.pinch?
+                next if field_battlers.include?(pkmn.unique_id)
+                next unless tracker_get(:battled_battlers).include?(pkmn.unique_id)
+                switched_turn = tracker_get(:turn_switched)[pkmn.unique_id]
+                if pkmn.has_status?
+                    next unless (@turnCount - switched_turn) == Settings::NATURAL_HEALING_TURN
+                    pkmn.heal_status
+                    if i == 0
+                        pbDisplay(_INTL("{1}'s status is healed!", pkmn.name))
+                    else
+                        pbDisplay(_INTL("The opposing {1}'s status is healed!", pkmn.name))
+                    end
+                else
+                    pkmn.healByFraction(Settings::REST_HEALING_NUM / 100.0) unless switched_turn == @turnCount
+                end
+            end
         end
 
         # Switch Pokémon in if possible
