@@ -3223,7 +3223,7 @@ Wow, you got here fast!
 It's me again, with another sweet invention.
 又是我，带着另一个酷炫的发明。
 This one goes back to the Team Chasm days.
-这东西可以追溯到裂谷队的时代。
+这东西可以追溯到裂隙队的时代。
 Found a bunch in an old storage container.
 我在一个旧储物箱里找到了一堆。
 It’s a way to <imp>read up on an opponent’s team</imp> before trying to take them on.
@@ -5686,7 +5686,7 @@ Yes
 是的
 [Map80]
 I'm a berry farmer now, but I used to be a Team Chasm grunt.
-我现在是个树果农，但我曾经是裂谷队的小兵。
+我现在是个树果农，但我曾经是裂隙队的小兵。
 Been feeling nostalgic, lately. Looking at photos of me and my old team.
 最近有点怀旧，翻看我和老队友的照片。
 My Pokemon were all adorable. Course, they're all grown up now.
@@ -19500,7 +19500,7 @@ Another day, another region saved.
 Don't think it works like that. Just bring me the cup, ASAP.
 你管这玩意叫咖啡？
 Back when I was a Chasm lieutenant I kept hundreds of stolen Pokemon back here.
-以前我是裂谷队的中尉时，在这里关了几百只偷来的精灵。
+以前我是裂隙队的中尉时，在这里关了几百只偷来的精灵。
 Place used to be a mess, but I think I've spruced it up nicely.
 那时候这里可以说是一团糟，但后来已整理得相对不错了。
 Now it's basically my own waterfront apartment, with the Rangers paying the rent for me.
@@ -55884,7 +55884,9 @@ Failed to reload: An error occurred.<<n>>({1})
 Enter Debug Password.
 输入调试密码。
 This mod was created by Fanfan.<<n>>If you paid for it, you've been duped!
-这个模组是由芳芳制作的。<<n>>如果你为这个模组付了钱，那么你被骗了！<<n>>本模组为难度游戏，且进行了大量的调整，不适合心理年龄未成年者和非难度游戏爱好者，请知悉。
+这个模组是由芳芳制作的。<<n>>如果你为这个模组付了钱，那么你被骗了！
+This mod is a hardcore game with extensive adjustments, and is not suitable for players with immature psychological age or non-hardcore gaming enthusiasts. Please be advised.
+本模组为难度游戏，且进行了大量的调整，不适合心理年龄未成年者和非难度游戏爱好者，请知悉。
 Have a good run!
 祝你游戏愉快。
 Did you download the game from the official post?

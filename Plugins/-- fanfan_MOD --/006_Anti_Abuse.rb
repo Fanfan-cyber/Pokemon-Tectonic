@@ -94,6 +94,7 @@ module AntiAbuse
   def self.check_claim
     unless GO_SOURCE_CHECK
       pbMessage(_INTL("This mod was created by Fanfan.\nIf you paid for it, you've been duped!"))
+      pbMessage(_INTL("This mod is a hardcore game with extensive adjustments, and is not suitable for players with immature psychological age or non-hardcore gaming enthusiasts. Please be advised."))
       pbMessage(_INTL("Have a good run!"))
       return
     end
