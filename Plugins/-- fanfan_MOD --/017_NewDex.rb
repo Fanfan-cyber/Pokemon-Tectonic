@@ -12,9 +12,9 @@ module AbilityDex
   end
 
   def self.set_language
-    @@new_language = get_language
+    @@new_language = get_language_name
     if language_changed?
-      @@old_language = get_language
+      @@old_language = get_language_name
       clear_memory
     end
   end
@@ -138,9 +138,9 @@ module ItemDex
   end
 
   def self.set_language
-    @@new_language = get_language
+    @@new_language = get_language_name
     if language_changed?
-      @@old_language = get_language
+      @@old_language = get_language_name
       clear_memory
     end
   end

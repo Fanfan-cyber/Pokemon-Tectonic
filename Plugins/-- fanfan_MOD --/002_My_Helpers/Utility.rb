@@ -1,11 +1,3 @@
-def get_language
-  Settings::LANGUAGES[$Options.language || 0][0]
-end
-
-def is_chinese?
-  Settings::LANGUAGES[$Options.language || 0][0] == "Simplified Chinese"
-end
-
 def party_dup_item?
   $Trainer&.party_dup_item?
 end
