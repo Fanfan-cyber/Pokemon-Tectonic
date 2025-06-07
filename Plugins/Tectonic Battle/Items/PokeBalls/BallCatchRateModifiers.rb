@@ -55,7 +55,7 @@ BallHandlers::ModifyCatchRate.add(:DUSKBALL, proc { |_ball, catchRate, battle, _
 })
 
 BallHandlers::ModifyCatchRate.add(:QUICKBALL, proc { |_ball, catchRate, battle, _battler, _ultraBeast|
-    catchRate *= 5 if battle.turnCount == 0
+    catchRate *= 3 if battle.turnCount == 0
     next catchRate
 })
 

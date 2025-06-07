@@ -131,12 +131,6 @@ Outdoor = false
 ShowArea = false
 Bicycle = false
 #-------------------------------
-[015]
-# LuxTech Mart
-Outdoor = false
-ShowArea = false
-Bicycle = false
-#-------------------------------
 [016]
 # LuxTech Center
 Outdoor = false

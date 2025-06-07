@@ -649,6 +649,21 @@ def gemVendor
 	)
 end
 
+def earlyBallVendor
+	basicBallStock = %i[
+		SLICEBALL
+		LEECHBALL
+		DISABLEBALL
+		POTIONBALL
+		HEALBALL
+	]
+	pbPokemonMart(
+		basicBallStock,
+		_INTL("Poké Balls of all sorts stocked here. Take a look!"),
+		!CAN_SELL_IN_VENDORS
+	)
+end
+
 def basicBallVendor
 	basicBallStock = %i[
 		GREATBALL
@@ -656,7 +671,7 @@ def basicBallVendor
 		NESTBALL
 		TIMERBALL
 		QUICKBALL
-		SLICEBALL
+		FRIENDBALL
 	]
 	pbPokemonMart(
 		basicBallStock,
@@ -668,13 +683,10 @@ end
 def weirdBallsVendor
 	weirdBallStock = %i[
 		ULTRABALL
-		LEECHBALL
-		POTIONBALL
-		DISABLEBALL
 		DREAMBALL
-		FASTBALL  HEAVYBALL
-		LUXURYBALL FRIENDBALL
-		HEALBALL
+		FASTBALL
+		HEAVYBALL
+		LUXURYBALL
 		ROYALBALL
 		BEASTBALL
 	]
