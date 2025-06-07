@@ -734,16 +734,16 @@ GameData::BattleEffect.register_effect(:Side, {
                     pkmn.heal_HP
                     pkmn.heal_status
                     if side.index == 0
-                      battle.pbDisplay(_INTL("{1} was restored to full health!", pkmn.name))
+                        battle.pbDisplay(_INTL("{1} was restored to full health!", pkmn.name))
                     else
-                      battle.pbDisplay(_INTL("The opposing {1} was restored to full health!", pkmn.name))
+                        battle.pbDisplay(_INTL("The opposing {1} was restored to full health!", pkmn.name))
                     end
                     value[key] = nil
                 elsif value[key] == 1
                     if side.index == 0
-                      battle.pbDisplay(_INTL("{1} is reviving!", pkmn.name))
+                        battle.pbDisplay(_INTL("{1} is reviving!", pkmn.name))
                     else
-                      battle.pbDisplay(_INTL("The opposing {1} is reviving!", pkmn.name))
+                        battle.pbDisplay(_INTL("The opposing {1} is reviving!", pkmn.name))
                     end
                 end
             end
