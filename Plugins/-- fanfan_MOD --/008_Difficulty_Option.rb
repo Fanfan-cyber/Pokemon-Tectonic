@@ -15,9 +15,10 @@ Events.onTrainerPartyLoad += proc { |_sender, e|
   next if trainer.trainer_type == :ABSOL
   TA.increase(:copied, trainer.party.length)
   if trainer.party.length >= 6
-    trainer.party.swap!(0, -1) if trainer.trainer_type == :LEADER_Lambert && rand(100) < 50
+    #trainer.party.swap!(0, -1) if trainer.trainer_type == :LEADER_Lambert && rand(100) < 50
+    trainer.party.shuffle! if trainer.trainer_type == :LEADER_Lambert
   else
-    next if TA.get(:copied) >= 6
+    #next if TA.get(:copied) >= 6
     TA.increase(:copied)
     pkmn = $Trainer.party_random_pkmn(false, true)
     if trainer.trainer_type == :LEADER_Lambert && rand(100) < 50

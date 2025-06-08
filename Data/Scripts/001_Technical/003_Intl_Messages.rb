@@ -987,6 +987,7 @@ end
 def addLanguageSuffix(fileName)
     return fileName if $Options.language == 0 # Add nothing for English
     potentialFileName = fileName + "_" + currentLanguageName
+    potentialFileName = fileName + "_" + "chinese" if is_chinese?
     fileNameToTest = potentialFileName
     fileNameToTest += ".png" unless fileNameToTest.end_with?(".png")
     if safeExists?(fileNameToTest)
