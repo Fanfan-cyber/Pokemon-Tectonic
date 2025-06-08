@@ -1280,13 +1280,13 @@ class Pokemon
         ordinal = ""
         if prevHappiness < PERSONALITY_THRESHOLD_ONE && @happiness >= PERSONALITY_THRESHOLD_ONE
             traitUnlocked = trait1
-            ordinal = "first"
+            ordinal = _INTL("first")
         elsif prevHappiness < PERSONALITY_THRESHOLD_TWO && @happiness >= PERSONALITY_THRESHOLD_TWO
             traitUnlocked = trait2
-            ordinal = "second"
+            ordinal = _INTL("second")
         elsif prevHappiness < PERSONALITY_THRESHOLD_THREE && @happiness >= PERSONALITY_THRESHOLD_THREE
             traitUnlocked = trait3
-            ordinal = "final"
+            ordinal = _INTL("final")
         elsif prevHappiness < PERSONALITY_THRESHOLD_FOUR && @happiness >= PERSONALITY_THRESHOLD_FOUR
             likeUnlocked = like
             dislikeUnlocked = dislike
