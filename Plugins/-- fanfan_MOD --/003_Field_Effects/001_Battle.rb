@@ -83,7 +83,7 @@ class PokeBattle_Battle
           add_field_duration(duration || PokeBattle_Battle::Field::FIELD_DURATION_EXPANDED)
         end
         pbDisplay(_INTL("The field has already existed!"))
-        pbDisplay(_INTL("The field duration expanded to #{field_duration}!"))
+        pbDisplay(_INTL("The field duration expanded to {1}!", field_duration))
       end
       return
     end
