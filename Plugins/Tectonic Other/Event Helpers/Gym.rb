@@ -1,12 +1,12 @@
 BADGE_NAMES = [
-		"Loyalty",
-		"Perseverance",
-		"Patience",
-		"Reverence",
-		"Solidarity",
-		"Clarity",
-		"Generosity",
-		"Mercy"
+		_INTL("Loyalty"),
+		_INTL("Perseverance"),
+		_INTL("Patience"),
+		_INTL("Reverence"),
+		_INTL("Solidarity"),
+		_INTL("Clarity"),
+		_INTL("Generosity"),
+		_INTL("Mercy")
 	]
 TOTAL_BADGES = 8
 BADGE_COUNT_VARIABLE = 27

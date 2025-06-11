@@ -117,7 +117,7 @@ CDKey.register_pkmn_key(:psyduck10, { :PORYGON => 10 })
 CDKey.register_pkmn_key(:alien1,    { :DEOXYS  => 1  }) { next $Trainer.badge_count >= 4 }
 
 CDKey.register_item_key(:pokeball5,  { :POKEBALL   => 5   })
-CDKey.register_item_key(:candyxl700, { :EXPCANDYXL => 700 }) { next $Trainer.badge_count >= 4 }
+CDKey.register_item_key(:candyxl700, { :EXPCANDYXL => 700 }) { next $Trainer.badge_count >= 7 }
 
 CDKey.register_item_key(:stylingkit,   { :STYLINGKIT   => 1 })
 CDKey.register_item_key(:boxlink,      { :BOXLINK      => 1 })
