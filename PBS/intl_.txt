@@ -548,6 +548,7 @@ Yes
 Yes
 No
 No
+[Map2]
 [Map3]
 Oh, so now I can't even go to college because of something my dad did?
 Oh, so now I can't even go to college because of something my dad did?
@@ -750,36 +751,62 @@ Dozens of paper bookmarks dot the pages of a book titled "A History of Ferrous M
 Dozens of paper bookmarks dot the pages of a book titled "A History of Ferrous Mining Techniques."
 [Map5]
 [Map6]
-I was supposed to have a meeting with Kurt today about gracefully decommissioning some of the cluster, but he never showed up.
-I was supposed to have a meeting with Kurt today about gracefully decommissioning some of the cluster, but he never showed up.
-Doesn’t he know that maintaining legacy systems adds unnecessary fragility?
-Doesn’t he know that maintaining legacy systems adds unnecessary fragility?
 I really wish the vendor here would sell coffee.
 I really wish the vendor here would sell coffee.
 There's a high demand for it, and no one wants to walk through an entire cave just to visit the cafe in Novo Town.
 There's a high demand for it, and no one wants to walk through an entire cave just to visit the cafe in Novo Town.
+I was supposed to have a meeting with Kurt today about gracefully decommissioning some of the cluster, but he never showed up.
+I was supposed to have a meeting with Kurt today about gracefully decommissioning some of the cluster, but he never showed up.
+Doesn’t he know that maintaining legacy systems adds unnecessary fragility?
+Doesn’t he know that maintaining legacy systems adds unnecessary fragility?
+A Shiny Corviknight!
+A Shiny Corviknight!
+It's too busy watching the campus to notice you.
+It's too busy watching the campus to notice you.
 You and Helena had something secretive to discuss, is that it?
 You and Helena had something secretive to discuss, is that it?
 I'd love to ask, but, well, I need this job more than I need to satisfy my curiosity.
 I'd love to ask, but, well, I need this job more than I need to satisfy my curiosity.
 Either way, that was a great battle!
 Either way, that was a great battle!
-A Shiny Corviknight!
-A Shiny Corviknight!
-It's too busy watching the campus to notice you.
-It's too busy watching the campus to notice you.
-It’s hard to get promoted when the top level talent here are former Team Chasm lieutenants.
-It’s hard to get promoted when the top level talent here are former Team Chasm lieutenants.
-They're such good battlers. It makes one jealous.
-They're such good battlers. It makes one jealous.
+Closed while Helena participates in the Makya Championship Tournament.
+Closed while Helena participates in the Makya Championship Tournament.
 We're trying to debug some major issues with the older supply chain databases.
 We're trying to debug some major issues with the older supply chain databases.
 Kurt and Pearce were talking about just wiping the thing.
 Kurt and Pearce were talking about just wiping the thing.
 Just because they used to be Helena's lieutenants doesn't mean she won't have their hide if she catches them cutting corners!
 Just because they used to be Helena's lieutenants doesn't mean she won't have their hide if she catches them cutting corners!
-Closed while Helena participates in the Makya Championship Tournament.
-Closed while Helena participates in the Makya Championship Tournament.
+It’s hard to get promoted when the top level talent here are former Team Chasm lieutenants.
+It’s hard to get promoted when the top level talent here are former Team Chasm lieutenants.
+They're such good battlers. It makes one jealous.
+They're such good battlers. It makes one jealous.
+"Catch a Break" Poké Balls
+"Catch a Break" Poké Balls
+"LuxTech Campus, where the future begins!"
+"LuxTech Campus, where the future begins!"
+You one of the new hires?
+You one of the new hires?
+Get me a coffee, chop chop.
+Get me a coffee, chop chop.
+Well, go get some, then. I don't have all day.
+Well, go get some, then. I don't have all day.
+Wow, this is some good stuff!
+Wow, this is some good stuff!
+I can already feel the energy coursing through my body.
+I can already feel the energy coursing through my body.
+I won't be needing to tide myself over with these anymore.
+I won't be needing to tide myself over with these anymore.
+Well I don't see any on you. We don't pay you to waste our time with jokes!
+Well I don't see any on you. We don't pay you to waste our time with jokes!
+This coffee ain't that great, kid.
+This coffee ain't that great, kid.
+In fact, it's awful. You're fired.
+In fact, it's awful. You're fired.
+Pack up your things and leave, wherever you work at.
+Pack up your things and leave, wherever you work at.
+LuxPark: A place of smiles.
+LuxPark: A place of smiles.
 You might be wondering how I nabbed myself a timeslot to fight Helena.
 You might be wondering how I nabbed myself a timeslot to fight Helena.
 But I'll never tell, teehee!
@@ -810,30 +837,12 @@ I'm a bit dissapointed. Well, let's avoid getting too cocky. I should actually m
 I'm a bit dissapointed. Well, let's avoid getting too cocky. I should actually make my attempt before judging.
 Bye bye!
 Bye bye!
-LuxPark: A place of smiles.
-LuxPark: A place of smiles.
-You one of the new hires?
-You one of the new hires?
-Get me a coffee, chop chop.
-Get me a coffee, chop chop.
-Well, go get some, then. I don't have all day.
-Well, go get some, then. I don't have all day.
-Wow, this is some good stuff!
-Wow, this is some good stuff!
-I can already feel the energy coursing through my body.
-I can already feel the energy coursing through my body.
-I won't be needing to tide myself over with these anymore.
-I won't be needing to tide myself over with these anymore.
-Well I don't see any on you. We don't pay you to waste our time with jokes!
-Well I don't see any on you. We don't pay you to waste our time with jokes!
-This coffee ain't that great, kid.
-This coffee ain't that great, kid.
-In fact, it's awful. You're fired.
-In fact, it's awful. You're fired.
-Pack up your things and leave, wherever you work at.
-Pack up your things and leave, wherever you work at.
-"LuxTech Campus, where the future begins!"
-"LuxTech Campus, where the future begins!"
+LuxTech Main
+LuxTech Main
+I'm figuring out vacation spots here in Makya.
+I'm figuring out vacation spots here in Makya.
+Visiting the ice cave seems wonderful, but the looming threat of Avatars really throws a wrench in things...
+Visiting the ice cave seems wonderful, but the looming threat of Avatars really throws a wrench in things...
 You ever have someone bother you out of nowhere?
 You ever have someone bother you out of nowhere?
 Just have your Pokemon give 'em one of these, and they'll leave you alone quick.
@@ -842,44 +851,34 @@ Yeah, that'll do.
 Yeah, that'll do.
 Either you give 'em one of those, or you bribe 'em with some stuff you don't need.
 Either you give 'em one of those, or you bribe 'em with some stuff you don't need.
-I'm figuring out vacation spots here in Makya.
-I'm figuring out vacation spots here in Makya.
-Visiting the ice cave seems wonderful, but the looming threat of Avatars really throws a wrench in things...
-Visiting the ice cave seems wonderful, but the looming threat of Avatars really throws a wrench in things...
-LuxTech Main
-LuxTech Main
-LuxTech Campus Gym
-LuxTech Campus Gym
-Leader: Helena
-Leader: Helena
-Shocking strategy, typhoon tactics!
-Shocking strategy, typhoon tactics!
+The door is securely locked.
+The door is securely locked.
+A sign reads "Schedule your gym appointments in the large building to the west."
+A sign reads "Schedule your gym appointments in the large building to the west."
 I decided to come here on a whim.
 I decided to come here on a whim.
 This park sucks.
 This park sucks.
 I can't believe they even called it one.
 I can't believe they even called it one.
-The door is securely locked.
-The door is securely locked.
-A sign reads "Schedule your gym appointments in the large building to the west."
-A sign reads "Schedule your gym appointments in the large building to the west."
-Don't you think this wall is ugly?
-Don't you think this wall is ugly?
-Gigantic, and perfectly straight.
-Gigantic, and perfectly straight.
-Kind of ruins the natural beauty of this area.
-Kind of ruins the natural beauty of this area.
+LuxTech Campus Gym
+LuxTech Campus Gym
+Leader: Helena
+Leader: Helena
+Shocking strategy, typhoon tactics!
+Shocking strategy, typhoon tactics!
 LuxTech's Makya campus is more than just a workplace.
 LuxTech's Makya campus is more than just a workplace.
 We're also the undisputed capital of scientific research across the whole region!
 We're also the undisputed capital of scientific research across the whole region!
 At least that's what I tell investors.
 At least that's what I tell investors.
-West: County Park
-West: County Park
-East: Lingering Delta
-East: Lingering Delta
+Don't you think this wall is ugly?
+Don't you think this wall is ugly?
+Gigantic, and perfectly straight.
+Gigantic, and perfectly straight.
+Kind of ruins the natural beauty of this area.
+Kind of ruins the natural beauty of this area.
 Helena juggles leadership in this company with contract work for the Makyan government, and even then still finds time to train Pokemon for her gym.
 Helena juggles leadership in this company with contract work for the Makyan government, and even then still finds time to train Pokemon for her gym.
 If you plan on facing her, you best be wary of her hit and run tactics.
@@ -890,14 +889,12 @@ If you want a leg up, hazards like Stealth Rocks and Spikes can help a lot.
 If you want a leg up, hazards like Stealth Rocks and Spikes can help a lot.
 Or you could trap her 'mons, so they just...can't switch out!
 Or you could trap her 'mons, so they just...can't switch out!
-Oh, I see you have a MasterDex.
-Oh, I see you have a MasterDex.
-I have one of those myself. I got it from when I worked under Miss – er, Professor Tamarind.
-I have one of those myself. I got it from when I worked under Miss – er, Professor Tamarind.
-I used to help her keep the grunts from getting too rowdy.
-I used to help her keep the grunts from getting too rowdy.
-As nice as my job is now, it's certainly less exciting.
-As nice as my job is now, it's certainly less exciting.
+West: County Park
+West: County Park
+East: Lingering Delta
+East: Lingering Delta
+LuxTech Cold Storage
+LuxTech Cold Storage
 LuxTech makes great products, and cheaply.
 LuxTech makes great products, and cheaply.
 Setting up an office in Makya hasn't helped their PR situation, though.
@@ -908,16 +905,16 @@ Not a good look for the company that recently switched mottos to "Innovation, In
 Not a good look for the company that recently switched mottos to "Innovation, Inspiration, Integrity." 
 Yikes.
 Yikes.
-LuxTech Cold Storage
-LuxTech Cold Storage
-Yesterday was terrible.
-Yesterday was terrible.
-I was forced to wind down the cluster I had running on the archive.
-I was forced to wind down the cluster I had running on the archive.
-"Ecology of the Lingering Delta", my pet project.
-"Ecology of the Lingering Delta", my pet project.
-Even worse, I had to go down into the Cold Storage basement level to do the deed.
-Even worse, I had to go down into the Cold Storage basement level to do the deed.
+Oh, I see you have a MasterDex.
+Oh, I see you have a MasterDex.
+I have one of those myself. I got it from when I worked under Miss – er, Professor Tamarind.
+I have one of those myself. I got it from when I worked under Miss – er, Professor Tamarind.
+I used to help her keep the grunts from getting too rowdy.
+I used to help her keep the grunts from getting too rowdy.
+As nice as my job is now, it's certainly less exciting.
+As nice as my job is now, it's certainly less exciting.
+Get your lunches, imported premium from sunny Alola!
+Get your lunches, imported premium from sunny Alola!
 My father insisted I take his Slowpoke with me from Galar when I got a job here in Makya.
 My father insisted I take his Slowpoke with me from Galar when I got a job here in Makya.
 I don't think it's going to become a financial sage here like he seemed to hope.
@@ -934,24 +931,32 @@ Appreciated!
 Appreciated!
 I'm enjoying my little Rufflet immensely!
 I'm enjoying my little Rufflet immensely!
-Get your lunches, imported premium from sunny Alola!
-Get your lunches, imported premium from sunny Alola!
+Yesterday was terrible.
+Yesterday was terrible.
+I was forced to wind down the cluster I had running on the archive.
+I was forced to wind down the cluster I had running on the archive.
+"Ecology of the Lingering Delta", my pet project.
+"Ecology of the Lingering Delta", my pet project.
+Even worse, I had to go down into the Cold Storage basement level to do the deed.
+Even worse, I had to go down into the Cold Storage basement level to do the deed.
+Mako's Malasadas
+Mako's Malasadas
+LuxTech Condos
+LuxTech Condos
 All of my test materials got stolen mid-shipment. Again.
 All of my test materials got stolen mid-shipment.  Again.
 Apparently not everyone got the memo that Makya shouldn't work that way anymore.
 Apparently not everyone got the memo that Makya shouldn't work that way anymore.
 I really hope that Helena can convince the Makyan Rangers to start patrolling our routes.
 I really hope that Helena can convince the Makyan Rangers to start patrolling our routes.
-LuxTech Condos
-LuxTech Condos
-Maybe later.
-Maybe later.
-Sure, let's go.
-Sure, let's go.
 Don't give coffee.
 Don't give coffee.
 Give coffee.
 Give coffee.
+Maybe later.
+Maybe later.
+Sure, let's go.
+Sure, let's go.
 No
 No
 Yes
@@ -1064,18 +1069,6 @@ No
 Yes
 Yes
 [Map8]
-My cousin and I like to hang out here. Take in the cool atmosphere and the night sky.
-My cousin and I like to hang out here. Take in the cool atmosphere and the night sky.
-We still battle people, but like... in a chill way...
-We still battle people, but like... in a chill way...
-I'm gonna leave now. Don't like your vibes.
-I'm gonna leave now. Don't like your vibes.
-Can you feel the energy given off by those evolution stones?
-Can you feel the energy given off by those evolution stones?
-It's doing wonders for my stress.
-It's doing wonders for my stress.
-Is life worth living if you can't take time to be transfixed by the beauty of nature?
-Is life worth living if you can't take time to be transfixed by the beauty of nature?
 Hey there. Miss me?
 Hey there. Miss me?
 I finally got here – all thanks to you. I have to say, you don’t look a mite worse for wear considering how much wilderness you trekked through.
@@ -1162,6 +1155,22 @@ Something like a Fire or Sun Stone would clash, and a Leaf or Dusk Stone is more
 Something like a Fire or Sun Stone would clash, and a Leaf or Dusk Stone is more of what they already have.
 I promise it’s a good cause.
 I promise it’s a good cause.
+My cousin and I like to hang out here. Take in the cool atmosphere and the night sky.
+My cousin and I like to hang out here. Take in the cool atmosphere and the night sky.
+We still battle people, but like... in a chill way...
+We still battle people, but like... in a chill way...
+I'm gonna leave now. Don't like your vibes.
+I'm gonna leave now. Don't like your vibes.
+Can you feel the energy given off by those evolution stones?
+Can you feel the energy given off by those evolution stones?
+It's doing wonders for my stress.
+It's doing wonders for my stress.
+Is life worth living if you can't take time to be transfixed by the beauty of nature?
+Is life worth living if you can't take time to be transfixed by the beauty of nature?
+A notice about the Makyan Regional Tournament has been hastily scribbled over.
+A notice about the Makyan Regional Tournament has been hastily scribbled over.
+A note added below reads "Not Taking Challengers"
+A note added below reads "Not Taking Challengers"
 Velenz Gym
 Velenz Gym
 Leader: Rafael
@@ -1170,10 +1179,12 @@ Leader: Rafael
 ...
 It seems like the Gym Leader was supposed to write a title here, but the space has been left blank.
 It seems like the Gym Leader was supposed to write a title here, but the space has been left blank.
-A notice about the Makyan Regional Tournament has been hastily scribbled over.
-A notice about the Makyan Regional Tournament has been hastily scribbled over.
-A note added below reads "Not Taking Challengers"
-A note added below reads "Not Taking Challengers"
+Temporary Velenz Ranger Outpost
+Temporary Velenz Ranger Outpost
+"Velenz, proud home of-"
+"Velenz, proud home of-"
+Claw marks on the sign render the text unreadable.
+Claw marks on the sign render the text unreadable.
 Don't tell the others, but I'm getting bored of waiting.
 Don't tell the others, but I'm getting bored of waiting.
 Well, might as well battle you before <i>they</i> arrive.
@@ -1190,12 +1201,6 @@ That mansion near the menagerie must have something to do with the light I saw.
 That mansion near the menagerie must have something to do with the light I saw.
 My cousin says I'm paranoid, but I definitely saw the place glowing last night.
 My cousin says I'm paranoid, but I definitely saw the place glowing last night.
-"Velenz, proud home of-"
-"Velenz, proud home of-"
-Claw marks on the sign render the text unreadable.
-Claw marks on the sign render the text unreadable.
-Temporary Velenz Ranger Outpost
-Temporary Velenz Ranger Outpost
 I thought this place was supposed to be scary.
 I thought this place was supposed to be scary.
 Just seems peaceful to me.
@@ -1212,6 +1217,10 @@ Got some rare things on sale, stranger!
 Got some rare things on sale, stranger!
 Come back anytime.
 Come back anytime.
+East: Repora Forest
+East: Repora Forest
+South: Barren Crater
+South: Barren Crater
 No earthlings allowed: that's the rule.
 No earthlings allowed: that's the rule.
 By the power of the Moon Stone, I will punish you!
@@ -1224,34 +1233,6 @@ I haven't been a real sailor since they scuttled my ship.
 I haven't been a real sailor since they scuttled my ship.
 I just like the clothes.
 I just like the clothes.
-East: Repora Forest
-East: Repora Forest
-South: Barren Crater
-South: Barren Crater
-There's supposed to be a gym leader around here, but he's not keen on taking challengers.
-There's supposed to be a gym leader around here, but he's not keen on taking challengers.
-He lives <imp>underground</imp> like some hermit.
-He lives <imp>underground</imp> like some hermit.
-Even locked himself up to make it harder to get in.
-Even locked himself up to make it harder to get in.
-Apparently the <imp>lock combination code</imp> is somewhere in the town.
-Apparently the <imp>lock combination code</imp> is somewhere in the town.
-This is all a bit too mental for me right now, so I'm taking a break.
-This is all a bit too mental for me right now, so I'm taking a break.
-A small handmade sign. It lists an eight-digit code in a big, blocky style.
-A small handmade sign. It lists an eight-digit code in a big, blocky style.
-Rafael may have a layer of earth protecting him from the surface, but it doesn't protect him from my astral projection.
-Rafael may have a layer of earth protecting him from the surface, but it doesn't protect him from my astral projection.
-I've been watching his battles with some fervor. I wish to grasp the essence of his strategy.
-I've been watching his battles with some fervor. I wish to grasp the essence of his strategy.
-It is, at its core, about dancing.
-It is, at its core, about dancing.
-His Oricorio and Alolan Marowak both gain power from dancing done by their allies.
-His Oricorio and Alolan Marowak both gain power from dancing done by their allies.
-If one was feeling particularly devilish, one could aquire a Hattrem.
-If one was feeling particularly devilish, one could aquire a Hattrem.
-That witch has a special ability which can prevent Pokemon from utilizing dance.
-That witch has a special ability which can prevent Pokemon from utilizing dance.
 Hey again. Bet you didn't expect to see me in a place like this, eh?
 Hey again. Bet you didn't expect to see me in a place like this, eh?
 I'm good at battling, less so at cryptic riddles and haunted towns.
@@ -1284,6 +1265,30 @@ You unlocked Rafael's front door?! That sure saves me the time and frustration.
 You unlocked Rafael's front door?! That sure saves me the time and frustration.
 Much appreciated, fellow trainer! Off I go!
 Much appreciated, fellow trainer! Off I go!
+Rafael may have a layer of earth protecting him from the surface, but it doesn't protect him from my astral projection.
+Rafael may have a layer of earth protecting him from the surface, but it doesn't protect him from my astral projection.
+I've been watching his battles with some fervor. I wish to grasp the essence of his strategy.
+I've been watching his battles with some fervor. I wish to grasp the essence of his strategy.
+It is, at its core, about dancing.
+It is, at its core, about dancing.
+His Oricorio and Alolan Marowak both gain power from dancing done by their allies.
+His Oricorio and Alolan Marowak both gain power from dancing done by their allies.
+If one was feeling particularly devilish, one could aquire a Hattrem.
+If one was feeling particularly devilish, one could aquire a Hattrem.
+That witch has a special ability which can prevent Pokemon from utilizing dance.
+That witch has a special ability which can prevent Pokemon from utilizing dance.
+There's supposed to be a gym leader around here, but he's not keen on taking challengers.
+There's supposed to be a gym leader around here, but he's not keen on taking challengers.
+He lives <imp>underground</imp> like some hermit.
+He lives <imp>underground</imp> like some hermit.
+Even locked himself up to make it harder to get in.
+Even locked himself up to make it harder to get in.
+Apparently the <imp>lock combination code</imp> is somewhere in the town.
+Apparently the <imp>lock combination code</imp> is somewhere in the town.
+This is all a bit too mental for me right now, so I'm taking a break.
+This is all a bit too mental for me right now, so I'm taking a break.
+A small handmade sign. It lists an eight-digit code in a big, blocky style.
+A small handmade sign. It lists an eight-digit code in a big, blocky style.
 Why are you here?
 Why are you here?
 Is this going somewhere?
@@ -1550,7 +1555,6 @@ I'm good.
 Sure, I'll pay for that.
 Sure, I'll pay for that.
 [Map14]
-[Map15]
 [Map16]
 I got some extra dynamite. Want it for $5000?
 I got some extra dynamite. Want it for $5000?
@@ -3146,18 +3150,18 @@ They beat us sis....
 They beat us sis....
 East: Casaba Villa
 East: Casaba Villa
-Didn't see me comin' did ya!?
-Didn't see me comin' did ya!?
-You won't see me goin' will ya?
-You won't see me goin' will ya?
-I'll see you again. You won't see me!
-I'll see you again. You won't see me!
 I see some prize money on the horizon!
 I see some prize money on the horizon!
 You know what? I'd best be spending me money instead of losin' it!
 You know what? I'd best be spending me money instead of losin' it!
 Well, there goes me shore leave money.
 Well, there goes me shore leave money.
+Didn't see me comin' did ya!?
+Didn't see me comin' did ya!?
+You won't see me goin' will ya?
+You won't see me goin' will ya?
+I'll see you again. You won't see me!
+I'll see you again. You won't see me!
 I developed a multi-hit attack during Lambert's self-defense course.
 I developed a multi-hit attack during Lambert's self-defense course.
 I don't get much chance to battle, though.
@@ -3196,14 +3200,12 @@ And I thought thoday couldn't get worth!
 And I thought thoday couldn't get worth!
 And I thought thoday couldn't get worth!!
 And I thought thoday couldn't get worth!!
-<i>Sniff sniff</i>
-<i>Sniff sniff</i>
-I can smell energy on you! We must battle!
-I can smell energy on you! We must battle!
-The stench of defeat!
-The stench of defeat!
-Smell ya later!
-Smell ya later!
+Wow, you found me again!
+Wow, you found me again!
+A loss is a loss, I guess I owe you that second TM now.
+A loss is a loss, I guess I owe you that second TM now.
+I'll head back to town now. That was a fun game. I'm pretty worked up, hehe.
+I'll head back to town now. That was a fun game. I'm pretty worked up, hehe.
 You know, I fancy myself quite the battler! Care to see?
 You know, I fancy myself quite the battler! Care to see?
 You... You're quite the battler...\wt[20]
@@ -3212,12 +3214,14 @@ I-I'm going to leave now.
 I-I'm going to leave now.
 You, defeat me? My goodness!
 You, defeat me? My goodness!
-Wow, you found me again!
-Wow, you found me again!
-A loss is a loss, I guess I owe you that second TM now.
-A loss is a loss, I guess I owe you that second TM now.
-I'll head back to town now. That was a fun game. I'm pretty worked up, hehe.
-I'll head back to town now. That was a fun game. I'm pretty worked up, hehe.
+<i>Sniff sniff</i>
+<i>Sniff sniff</i>
+I can smell energy on you! We must battle!
+I can smell energy on you! We must battle!
+The stench of defeat!
+The stench of defeat!
+Smell ya later!
+Smell ya later!
 Wow, you got here fast!
 Wow, you got here fast!
 It's me again, with another sweet invention.
@@ -5866,6 +5870,8 @@ Yes
 It attacks!
 It attacks!
 [Map87]
+It's a statue of a Luxray. A small version of the LuxTech logo is emblazoned on its right breast.
+It's a statue of a Luxray. A small version of the LuxTech logo is emblazoned on its right breast.
 My Pokemon is mad at me for being such a couch potato.
 My Pokemon is mad at me for being such a couch potato.
 It should probably be out in the world rather than stuck here with me.
@@ -5888,18 +5894,16 @@ The top score is attributed to "HEL".
 The top score is attributed to "HEL".
 I wonder who that could be.
 I wonder who that could be.
-It's a statue of a Luxray. A small version of the LuxTech logo is emblazoned on its right breast.
-It's a statue of a Luxray. A small version of the LuxTech logo is emblazoned on its right breast.
 A party game is loaded to the level select screen.
 A party game is loaded to the level select screen.
-Some sort of fighting game is being played, with two players.
-Some sort of fighting game is being played, with two players.
 Huh? Oh yeah, uh, welcome or something.
 Huh? Oh yeah, uh, welcome or something.
 This is a recreation area for LuxTech employees. Downstairs is just maintenance.
 This is a recreation area for LuxTech employees.  Downstairs is just maintenance.
 Cool, cool. Now leave, I'm trying to watch the TV.
 Cool, cool. Now leave, I'm trying to watch the TV.
+Some sort of fighting game is being played, with two players.
+Some sort of fighting game is being played, with two players.
 OK, stick with me on this one: y'know Helena? She's, what, in her forties?
 OK, stick with me on this one: y'know Helena? She's, what, in her forties?
 So that means she was in her thirties when she was some Team Chasm bigshot. What'd she do before that?
@@ -5908,10 +5912,6 @@ So that means she was in her thirties when she was some Team Chasm bigshot. What
 'Cause I've been watching some musicals from a couple decades ago, and this one actress looks just like her.
 Makes ya wonder.
 Makes ya wonder.
-A Pokemon sumo competition is airing live.
-A Pokemon sumo competition is airing live.
-A match between an Hariyama and a Rhyperior is slowly playing out.
-A match between an Hariyama and a Rhyperior is slowly playing out.
 I've made a horrible mistake.
 I've made a horrible mistake.
 I taught my Pokemon how to play fighting games, and it's an absolute sore-winner.
@@ -5922,6 +5922,10 @@ Please, take this problem away from me.
 Please, take this problem away from me.
 I might have to go train it just so I can make it learn a different move...
 I might have to go train it just so I can make it learn a different move...
+A Pokemon sumo competition is airing live.
+A Pokemon sumo competition is airing live.
+A match between an Hariyama and a Rhyperior is slowly playing out.
+A match between an Hariyama and a Rhyperior is slowly playing out.
 I'm a huge fan of the Sumo Conference that happens every year in Johto.
 I'm a huge fan of the Sumo Conference that happens every year in Johto.
 They split Pokemon by both weight class and shape.
@@ -5940,10 +5944,6 @@ Some people find it boring, but I think it's a pretty COOL place, myself.
 Some people find it boring, but I think it's a pretty COOL place, myself.
 Heh.
 Heh.
-A puzzle game is being played.
-A puzzle game is being played.
-Blocks of various shapes and sizes are falling down into a grid.
-Blocks of various shapes and sizes are falling down into a grid.
 Something you gotta understand, kid, is that cool is a way of life.
 Something you gotta understand, kid, is that cool is a way of life.
 You gotta act cool, walk cool, talk cool, <i>be</i> cool.
@@ -5952,6 +5952,10 @@ Like me and my Pokemon.
 Like me and my Pokemon.
 Ain't we cool?
 Ain't we cool?
+A puzzle game is being played.
+A puzzle game is being played.
+Blocks of various shapes and sizes are falling down into a grid.
+Blocks of various shapes and sizes are falling down into a grid.
 No
 No
 Yes
@@ -8182,22 +8186,22 @@ Yeah.
 Not really.
 Not really.
 [Map129]
-A dark stone in the shape of a Nincada.
-A dark stone in the shape of a Nincada.
-It's slightly warm to the touch.
-It's slightly warm to the touch.
 I am the most powerful ninja in Makya! I traveled all the way from Sweetrock Harbor to prove it!
 I am the most powerful ninja in Makya! I traveled all the way from Sweetrock Harbor to prove it!
 No, my candies!
 No, my candies!
 The Shinobi code dictates that I let you pass. But beware, for my revenge will be swift...
 The Shinobi code dictates that I let you pass. But beware, for my revenge will be swift...
+A dark stone in the shape of a Nincada.
+A dark stone in the shape of a Nincada.
+It's slightly warm to the touch.
+It's slightly warm to the touch.
 The door is thoroughly locked.
 The door is thoroughly locked.
-A dark stone in the shape of a Croagunk.
-A dark stone in the shape of a Croagunk.
 A dark stone in the shape of a Murkrow.
 A dark stone in the shape of a Murkrow.
+A dark stone in the shape of a Croagunk.
+A dark stone in the shape of a Croagunk.
 Hey, yo! Help me out for a second, would ya?
 Hey, yo! Help me out for a second, would ya?
 There’s, like, a house up the road that this guy, like, totally keeps unlocked.
@@ -8224,14 +8228,6 @@ Back to Casaba Villa I go!
 Back to Casaba Villa I go!
 Well, it's a good thing a station is right there.
 Well, it's a good thing a station is right there.
-Man, these lifelike Pokemon statues are crazy realistic.
-Man, these lifelike Pokemon statues are crazy realistic.
-I just had a pretty morbid revelation. I think I'm gonna go get some ice cream and cry.
-I just had a pretty morbid revelation. I think I'm gonna go get some ice cream and cry.
-I wonder what the artist did to make these statues so... lifelike.
-I wonder what the artist did to make these statues so... lifelike.
-Do you think those statues were... uhhh... you know... like, alive at one point?
-Do you think those statues were... uhhh... you know... like, alive at one point?
 A dark stone in the shape of a Lillipup.
 A dark stone in the shape of a Lillipup.
 It's slightly warm to the --
@@ -8258,6 +8254,14 @@ You apply the Full Restore to the Lillipup. In an instant, it breaks free, shaki
 You apply the Full Restore to the Lillipup. In an instant, it breaks free, shaking off bits of stone.
 You don't have a Full Restore to use.
 You don't have a Full Restore to use.
+Man, these lifelike Pokemon statues are crazy realistic.
+Man, these lifelike Pokemon statues are crazy realistic.
+I just had a pretty morbid revelation. I think I'm gonna go get some ice cream and cry.
+I just had a pretty morbid revelation. I think I'm gonna go get some ice cream and cry.
+I wonder what the artist did to make these statues so... lifelike.
+I wonder what the artist did to make these statues so... lifelike.
+Do you think those statues were... uhhh... you know... like, alive at one point?
+Do you think those statues were... uhhh... you know... like, alive at one point?
 North: Velenz
 North: Velenz
 Leave it
@@ -21532,14 +21536,6 @@ You can also talk to the locals for advice.
 You can also talk to the locals for advice.
 We wish you the best of luck.
 We wish you the best of luck.
-You want a quick and easy start for a team?
-You want a quick and easy start for a team?
-Try weathers. Set ‘em down, watch ‘em go.
-Try weathers. Set ‘em down, watch ‘em go.
-As long as you can manage keeping ‘em up for the match, you can bulldoze most unprepared teams.
-As long as you can manage keeping ‘em up for the match, you can bulldoze most unprepared teams.
-Plus, they give you an easy way to shut down the competition’s weathers – just override that sucker with your own.
-Plus, they give you an easy way to shut down the competition’s weathers – just override that sucker with your own.
 Oh! This bush has a hidden switch.
 Oh! This bush has a hidden switch.
 Press the hidden switch?
@@ -21548,30 +21544,20 @@ You leave the hidden switch alone.
 You leave the hidden switch alone.
 You sense that a small hole has opened up somewhere!
 You sense that a small hole has opened up somewhere!
+You want a quick and easy start for a team?
+You want a quick and easy start for a team?
+Try weathers. Set ‘em down, watch ‘em go.
+Try weathers. Set ‘em down, watch ‘em go.
+As long as you can manage keeping ‘em up for the match, you can bulldoze most unprepared teams.
+As long as you can manage keeping ‘em up for the match, you can bulldoze most unprepared teams.
+Plus, they give you an easy way to shut down the competition’s weathers – just override that sucker with your own.
+Plus, they give you an easy way to shut down the competition’s weathers – just override that sucker with your own.
 The Battle Monument
 The Battle Monument
 "The heroes of the past tower over us still."
 "The heroes of the past tower over us still."
 A small logo at the bottom right identifies Bogdan Concrete as the company hired for this project.
 A small logo at the bottom right identifies Bogdan Concrete as the company hired for this project.
-The peeps on the TV are saying that the Avatar Crisis is over now.
-The peeps on the TV are saying that the Avatar Crisis is over now.
-I bet you ain't got much to spend your time on, therefore.
-I bet you ain't got much to spend your time on, therefore.
-Wanna just keep fighting me? I collected a ton of different Pokemon during this journey, so I have a lot of teams I want to try out.
-Wanna just keep fighting me? I collected a ton of different Pokemon during this journey, so I have a lot of teams I want to try out.
-Ooh, to spice it up, I should switch to different teams between battles. A surprise every time!
-Ooh, to spice it up, I should switch to different teams between battles. A surprise every time!
-Yeah, I really love the sound of that.
-Yeah, I really love the sound of that.
-Plus, I've stocked up on enough medicine at this point to afford healing up your team between bouts.
-Plus, I've stocked up on enough medicine at this point to afford healing up your team between bouts.
-Lame.
-Lame.
-And here I put so much effort into preparing all these different parties...
-And here I put so much effort into preparing all these different parties...
-Let's get into it!
-Let's get into it!
 Hey...
 Hey...
 Could I interest you in a Shiny Charm?
@@ -21592,6 +21578,24 @@ Which... it looks like you don't have.
 Which... it looks like you don't have.
 Well, the offer stands.
 Well, the offer stands.
+The peeps on the TV are saying that the Avatar Crisis is over now.
+The peeps on the TV are saying that the Avatar Crisis is over now.
+I bet you ain't got much to spend your time on, therefore.
+I bet you ain't got much to spend your time on, therefore.
+Wanna just keep fighting me? I collected a ton of different Pokemon during this journey, so I have a lot of teams I want to try out.
+Wanna just keep fighting me? I collected a ton of different Pokemon during this journey, so I have a lot of teams I want to try out.
+Ooh, to spice it up, I should switch to different teams between battles. A surprise every time!
+Ooh, to spice it up, I should switch to different teams between battles. A surprise every time!
+Yeah, I really love the sound of that.
+Yeah, I really love the sound of that.
+Plus, I've stocked up on enough medicine at this point to afford healing up your team between bouts.
+Plus, I've stocked up on enough medicine at this point to afford healing up your team between bouts.
+Lame.
+Lame.
+And here I put so much effort into preparing all these different parties...
+And here I put so much effort into preparing all these different parties...
+Let's get into it!
+Let's get into it!
 Pick your moves well! It’s not just about hitting hard.
 Pick your moves well! It’s not just about hitting hard. 
 A momentum move like Volt Switch can get a fast Pokémon out before it gets hit or let a slow defensive one take a hit for an ally while switching.
@@ -21850,6 +21854,10 @@ Yes.
 [Map365]
 [Map366]
 [Map367]
+Eifion’s Manaphy undulates with excitement upon seeing you. It seems to be more confident than when you saw it last, too.
+Eifion’s Manaphy undulates with excitement upon seeing you. It seems to be more confident than when you saw it last, too.
+Perhaps it’s readying itself for a rematch...?
+Perhaps it’s readying itself for a rematch...?
 \PN. I hope you know I had to delay a meeting with the board to be here.
 \PN. I hope you know I had to delay a meeting with the board to be here.
 Fortunately I have the sway to simply tell people when and where I’ll hold my meetings. I am never late, et cetera.
@@ -21870,26 +21878,10 @@ Thank you.
 Thank you.
 I plan to inquire with you in the future as how best to handle LuxTech and Mavis... but that’s business. Enjoy the ceremony.
 I plan to inquire with you in the future as how best to handle LuxTech and Mavis... but that’s business.  Enjoy the ceremony.
-Eifion’s Manaphy undulates with excitement upon seeing you. It seems to be more confident than when you saw it last, too.
-Eifion’s Manaphy undulates with excitement upon seeing you. It seems to be more confident than when you saw it last, too.
-Perhaps it’s readying itself for a rematch...?
-Perhaps it’s readying itself for a rematch...?
 ...An empty seat.
 ...An empty seat. 
 Nothing to note here, except for a faint scent. Smells like... clear water, and white flowers...
 Nothing to note here, except for a faint scent. Smells like... clear water, and white flowers...
-Hey. Didn’t expect to see me, right?
-Hey. Didn’t expect to see me, right?
-I didn’t expect to be here, honestly. Got the invite from Tamarind and nearly threw it in the trash.
-I didn’t expect to be here, honestly. Got the invite from Tamarind and nearly threw it in the trash.
-But I figured, ah, why not? So, uh, I’m here.
-But I figured, ah, why not? So, uh, I’m here.
-Good job becoming Champion. I guess?
-Good job becoming Champion. I guess?
-Gonna be honest: I don’t really know you. But I guess you’re cool, so… yeah, congrats.
-Gonna be honest: I don’t really know you. But I guess you’re cool, so… yeah, congrats.
-Freeing me from being a gym leader is worth a thousand times more to me than this whole mess.
-Freeing me from being a gym leader is worth a thousand times more to me than this whole mess.
 Yo! Great to see you again! Man, it feels like it’s been forever.
 Yo! Great to see you again! Man, it feels like it’s been forever.
 Gonna be honest: it’s really damn hard sitting here. Just, like, it was supposed to be me, y’know?
@@ -21898,18 +21890,18 @@ But don’t get me wrong: you earned this. You gave 110 percent.
 But don’t get me wrong: you earned this. You gave 110 percent.
 Maybe more like 150, honestly. Glad I got to see it.
 Maybe more like 150, honestly. Glad I got to see it.
-Hello, nondescript friend!
-Hello, nondescript friend!
-I am studiously not remembering any prior interaction we may or may not have had!
-I am studiously not remembering any prior interaction we may or may not have had!
-I am present at this location to support you in whatever endeavor you are here to undertake!
-I am present at this location to support you in whatever endeavor you are here to undertake!
-I do this because you are my friend and Lainie does not let her friends down!
-I do this because you are my friend and Lainie does not let her friends down!
-Even if sometimes she really wishes she could just forget about them and the incredibly awkward things they witnessed...
-Even if sometimes she really wishes she could just forget about them and the incredibly awkward things they witnessed...
-It would be totally disrespectful to leave now, while everyone is waiting for you!
-It would be totally disrespectful to leave now, while everyone is waiting for you!
+Hey. Didn’t expect to see me, right?
+Hey. Didn’t expect to see me, right?
+I didn’t expect to be here, honestly. Got the invite from Tamarind and nearly threw it in the trash.
+I didn’t expect to be here, honestly. Got the invite from Tamarind and nearly threw it in the trash.
+But I figured, ah, why not? So, uh, I’m here.
+But I figured, ah, why not? So, uh, I’m here.
+Good job becoming Champion. I guess?
+Good job becoming Champion. I guess?
+Gonna be honest: I don’t really know you. But I guess you’re cool, so… yeah, congrats.
+Gonna be honest: I don’t really know you. But I guess you’re cool, so… yeah, congrats.
+Freeing me from being a gym leader is worth a thousand times more to me than this whole mess.
+Freeing me from being a gym leader is worth a thousand times more to me than this whole mess.
 You done lollygagging? We can get started whenever you want.
 You done lollygagging? We can get started whenever you want.
 You want me to count the number of seconds we’ve got this room for?
@@ -22026,20 +22018,42 @@ But if you ever aren’t fine, I’m here for you. We are.
 But if you ever aren’t fine, I’m here for you. We are.
 Things are gonna be different now.
 Things are gonna be different now.
-Hey! \PN! Great work!
-Hey! \PN! Great work!
-I am absolutely STOKED that you got an actual ceremony. I sent Tamarind five letters telling her how disappointed I was that the whole thing got ruined!
-I am absolutely STOKED that you got an actual ceremony. I sent Tamarind five letters telling her how disappointed I was that the whole thing got ruined!
-I, uh, also tried to see if Zoé would show up, but she’s still gone. Starting to get worried about her.
-I, uh, also tried to see if Zoé would show up, but she’s still gone. Starting to get worried about her.
-But that’s a me problem! You just relax!
-But that’s a me problem! You just relax!
+It would be totally disrespectful to leave now, while everyone is waiting for you!
+It would be totally disrespectful to leave now, while everyone is waiting for you!
+Hello, nondescript friend!
+Hello, nondescript friend!
+I am studiously not remembering any prior interaction we may or may not have had!
+I am studiously not remembering any prior interaction we may or may not have had!
+I am present at this location to support you in whatever endeavor you are here to undertake!
+I am present at this location to support you in whatever endeavor you are here to undertake!
+I do this because you are my friend and Lainie does not let her friends down!
+I do this because you are my friend and Lainie does not let her friends down!
+Even if sometimes she really wishes she could just forget about them and the incredibly awkward things they witnessed...
+Even if sometimes she really wishes she could just forget about them and the incredibly awkward things they witnessed...
 Hello, \PN.
 Hello, \PN. 
 The importance of the Champion title is lost on me, but I received an invitation, and had no intention of refusing it.
 The importance of the Champion title is lost on me, but I received an invitation, and had no intention of refusing it.
 Consider this minor show of moral support repayment for your assistance. Congratulations.
 Consider this minor show of moral support repayment for your assistance. Congratulations.
+Hey! \PN! Great work!
+Hey! \PN! Great work!
+I am absolutely STOKED that you got an actual ceremony. I sent Tamarind five letters telling her how disappointed I was that the whole thing got ruined!
+I am absolutely STOKED that you got an actual ceremony. I sent Tamarind five letters telling her how disappointed I was that the whole thing got ruined!
+I, uh, also tried to see if Zoé would show up, but she’s still gone. Starting to get worried about her.
+I, uh, also tried to see if Zoé would show up, but she’s still gone. Starting to get worried about her.
+But that’s a me problem! You just relax!
+But that’s a me problem! You just relax!
+Howdy. Hope you ain’t feelin’ stood up.
+Howdy. Hope you ain’t feelin’ stood up.
+I plan on buyin' you a drink, never you worry. Just ain't been feelin' it with Yez gone.
+I plan on buyin' you a drink, never you worry. Just ain't been feelin' it with Yez gone.
+Part of my mind just ain’t in the here and now. Figured I’d show up for this, at least. I’ve been thinkin’ 'bout you more than I’d like to admit. Hah!
+Part of my mind just ain’t in the here and now. Figured I’d show up for this, at least. I’ve been thinkin’ 'bout you more than I’d like to admit. Hah!
+Don’tcha go givin’ me that look. Go on. Git. We’ll have time enough for chit-chat later.
+Don’tcha go givin’ me that look. Go on. Git. We’ll have time enough for chit-chat later.
+Hah. Damn kid...
+Hah. Damn kid...
 Hey! Lookin’ pretty good. Sorry this took so long to get set up.
 Hey! Lookin’ pretty good. Sorry this took so long to get set up.
 We were supposed to get you officially coronated as Champion right after the tournament, but then there was The Incident.
@@ -22076,24 +22090,6 @@ Honestly I can’t believe the stars aligned to get everyone I needed in one pla
 Honestly I can’t believe the stars aligned to get everyone I needed in one place for this long. Minor miracle.
 Anyways! Let’s go, let’s go!
 Anyways! Let’s go, let’s go!
-Howdy. Hope you ain’t feelin’ stood up.
-Howdy. Hope you ain’t feelin’ stood up.
-I plan on buyin' you a drink, never you worry. Just ain't been feelin' it with Yez gone.
-I plan on buyin' you a drink, never you worry. Just ain't been feelin' it with Yez gone.
-Part of my mind just ain’t in the here and now. Figured I’d show up for this, at least. I’ve been thinkin’ 'bout you more than I’d like to admit. Hah!
-Part of my mind just ain’t in the here and now. Figured I’d show up for this, at least. I’ve been thinkin’ 'bout you more than I’d like to admit. Hah!
-Don’tcha go givin’ me that look. Go on. Git. We’ll have time enough for chit-chat later.
-Don’tcha go givin’ me that look. Go on. Git. We’ll have time enough for chit-chat later.
-Hah. Damn kid...
-Hah. Damn kid...
-Hmph. Nice to see you doing well.
-Hmph. Nice to see you doing well.
-It was only a walk to get here, and I needed an excuse to get out anyways. I don’t really keep up with current events.
-It was only a walk to get here, and I needed an excuse to get out anyways. I don’t really keep up with current events.
-Guess you did pretty well, though. That tracks. I can see it.
-Guess you did pretty well, though. That tracks. I can see it.
-Takes a lot to impress me. You do. Keep at it.
-Takes a lot to impress me. You do. Keep at it.
 There’s a letter on the table. The paper smells faintly of perfume, and you know it’s for you.
 There’s a letter on the table. The paper smells faintly of perfume, and you know it’s for you.
 “Congratulations. You deserve this. You’re this region’s gleaming star.
@@ -22106,14 +22102,28 @@ Loose ends to be wrapped up – or severed. We’ll be together soon, and then n
 Loose ends to be wrapped up – or severed. We’ll be together soon, and then never parted again.
 Ever yours, S.”
 Ever yours, S.”
-Hats off to you, champ. The moment you first beat me, I knew you were in this for the long haul.
-Hats off to you, champ. The moment you first beat me, I knew you were in this for the long haul.
-If only I knew how right I was. I would’ve made some bets! Hah!
-If only I knew how right I was. I would’ve made some bets! Hah!
+Hmph. Nice to see you doing well.
+Hmph. Nice to see you doing well.
+It was only a walk to get here, and I needed an excuse to get out anyways. I don’t really keep up with current events.
+It was only a walk to get here, and I needed an excuse to get out anyways. I don’t really keep up with current events.
+Guess you did pretty well, though. That tracks. I can see it.
+Guess you did pretty well, though. That tracks. I can see it.
+Takes a lot to impress me. You do. Keep at it.
+Takes a lot to impress me. You do. Keep at it.
 There’s a Ditto in attendance. It roils amicably, seemingly glad that its mythical counterpart is taking the attention off of it.
 There’s a Ditto in attendance. It roils amicably, seemingly glad that its mythical counterpart is taking the attention off of it.
 It gleams up at you with pinpoint eyes. You’re sure in its head it’s making a joke about you, but not at your expense.
 It gleams up at you with pinpoint eyes. You’re sure in its head it’s making a joke about you, but not at your expense.
+Hats off to you, champ. The moment you first beat me, I knew you were in this for the long haul.
+Hats off to you, champ. The moment you first beat me, I knew you were in this for the long haul.
+If only I knew how right I was. I would’ve made some bets! Hah!
+If only I knew how right I was. I would’ve made some bets! Hah!
+Hey, Champion! Didn’t expect to see me?
+Hey, Champion! Didn’t expect to see me?
+I’ve been, like, superglued to Tammy’s side the past few months. Couldn’t get away even if I wanted to.
+I’ve been, like, superglued to Tammy’s side the past few months. Couldn’t get away even if I wanted to.
+But, like, I wouldn’t miss it for the world, dummy! Love ya way too much to miss this!
+But, like, I wouldn’t miss it for the world, dummy! Love ya way too much to miss this!
 Ah, my dear \PN. I’ve been watching your ascendance with prying eyes ever since I eloped unto the night.
 Ah, my dear \PN. I’ve been watching your ascendance with prying eyes ever since I eloped unto the night.
 You show such grace and strength! No one could be disappointed with your performance.
@@ -22122,22 +22132,16 @@ But there’s someone you wish was here, isn’t there?
 But there’s someone you wish was here, isn’t there? 
 Never fear! A late entrance is a dramatic entrance, wouldn’t you agree, darling? Ahaha!
 Never fear! A late entrance is a dramatic entrance, wouldn’t you agree, darling? Ahaha!
-Hey, Champion! Didn’t expect to see me?
-Hey, Champion! Didn’t expect to see me?
-I’ve been, like, superglued to Tammy’s side the past few months. Couldn’t get away even if I wanted to.
-I’ve been, like, superglued to Tammy’s side the past few months. Couldn’t get away even if I wanted to.
-But, like, I wouldn’t miss it for the world, dummy! Love ya way too much to miss this!
-But, like, I wouldn’t miss it for the world, dummy! Love ya way too much to miss this!
+There’s a Mew in attendance. Nobody seems to know what to make of that.
+There’s a Mew in attendance. Nobody seems to know what to make of that.
+Personally, the Mew seems to be exulting in being an enigma. It also seems rather proud of you, and its similarly-mutable companion.
+Personally, the Mew seems to be exulting in being an enigma. It also seems rather proud of you, and its similarly-mutable companion.
 Your suffering has reached its end! The long, arduous climb has culminated with you at the zenith of Makya!
 Your suffering has reached its end! The long, arduous climb has culminated with you at the zenith of Makya!
 I hope beyond hope that my tempering has contributed to your victory.
 I hope beyond hope that my tempering has contributed to your victory.
 Now that role belongs to you! Test all challengers! Test them with fury and frenzy!
 Now that role belongs to you! Test all challengers!  Test them with fury and frenzy!
-There’s a Mew in attendance. Nobody seems to know what to make of that.
-There’s a Mew in attendance. Nobody seems to know what to make of that.
-Personally, the Mew seems to be exulting in being an enigma. It also seems rather proud of you, and its similarly-mutable companion.
-Personally, the Mew seems to be exulting in being an enigma. It also seems rather proud of you, and its similarly-mutable companion.
 Oh, \PN, I’m so happy to see you!
 Oh, \PN, I’m so happy to see you!
 You deserve to have your victory celebrated. You’ve done so much for all of us. Thank you.
@@ -24182,6 +24186,8 @@ It hurriedly gestures for you to enter the chamber ahead.
 It hurriedly gestures for you to enter the chamber ahead.
 [Map446]
 [Map447]
+They never let me live it down—the Pokemon that I had brought with me.
+They never let me live it down—the Pokemon that I had brought with me.
 [1]
 Bulbasaur
 Bulbasaur
@@ -31479,6 +31485,8 @@ Diffuse Pulse
 Diffuse Pulse
 Dissipation
 Dissipation
+Drainage
+Drainage
 Elemental Fang
 Elemental Fang
 Evernalize
@@ -32301,6 +32309,8 @@ Mind Link
 Mind Link
 Mind Waves
 Mind Waves
+Mitosis
+Mitosis
 Odd Room
 Odd Room
 Omniscient Blow
@@ -32327,6 +32337,8 @@ Pulsar
 Pulsar
 Reverb Ward
 Reverb Ward
+Rhythmic Ritual
+Rhythmic Ritual
 Scrutinize
 Scrutinize
 Seer Strike
@@ -32535,6 +32547,8 @@ Sweet Selene
 Sweet Selene
 Tease
 Tease
+Ultraviolet Pulse
+Ultraviolet Pulse
 Vermin Cloud
 Vermin Cloud
 Wet Work
@@ -32878,8 +32892,8 @@ Cloaking itself in high energy, the user slams into the target. This move's type
 Cloaking itself in high energy, the user slams into the target. This move's type depends on the held memory.
 The user draws power to attack by using a held Berry. The Berry used determines its type.
 The user draws power to attack by using a held Berry. The Berry used determines its type.
-An attack that makes use of nature's power. Its effects vary depending on the user's environment.
-An attack that makes use of nature's power. Its effects vary depending on the user's environment.
+An attack that makes use of nature's power. Its effects and type vary depending on the user's environment.
+An attack that makes use of nature's power. Its effects and type vary depending on the user's environment.
 The user intimidates all nearby foes, lowering their Attack and Sp. Atk by two steps.
 The user intimidates all nearby foes, lowering their Attack and Sp. Atk by two steps.
 Numerous coins are hurled at the target to inflict damage. Money is earned after battle.
@@ -33900,6 +33914,8 @@ The user shoots a pulse of diffuse energy at the target.
 The user shoots a pulse of diffuse energy at the target.
 An unusual shockwave that breaks down all active Rooms.
 An unusual shockwave that breaks down all active Rooms.
+This attack inflicts double damage on a waterlogged foe. It also cures the target's waterlogging, however.
+This attack inflicts double damage on a waterlogged foe. It also cures the target's waterlogging, however.
 The user chooses between Fire Fang, Thunder Fang, or Ice Fang to use this turn.
 The user chooses between Fire Fang, Thunder Fang, or Ice Fang to use this turn.
 The user uses all their might to attack their opponent, forcing the user to use Rest on their next turn.
@@ -34712,6 +34728,8 @@ The user syncs its mind with its teammates, raising its Sp. Atk by three steps, 
 The user syncs its mind with its teammates, raising its Sp. Atk by three steps, and its allies' by one.
 The target is hit by a weak telekinetic force. It has a 10% chance to lower the target's Sp. Def.
 The target is hit by a weak telekinetic force. It has a 10% chance to lower the target's Sp. Def.
+The user spends 50% HP to create a Substitute. If successful, the user's Speed is raised by four steps.
+The user spends 50% HP to create a Substitute. If successful, the user's Speed is raised by four steps.
 The user creates an odd area for 8 turns in which Pokémon's offensive and defensive stats are swapped.
 The user creates an odd area for 8 turns in which Pokémon's offensive and defensive stats are swapped.
 Lands without fail and lowers the user's Defense and Speed.
@@ -34738,6 +34756,8 @@ The user sends two to five waves of cosmic energy to overwhelm the target's sens
 The user sends two to five waves of cosmic energy to overwhelm the target's senses.
 Protects the user from damage this turn. It also lowers the Sp. Def of special attackers by four steps.
 Protects the user from damage this turn. It also lowers the Sp. Def of special attackers by four steps.
+The user does an arcane dance to summon a Pearl Of Wisdom to hold. The Pearl boosts all stats by 20% and can be flung for huge damage.
+The user does an arcane dance to summon a Pearl Of Wisdom to hold. The Pearl boosts all stats by 20% and can be flung for huge damage.
 The target is scrutinized, damaging their psyche. Can random critical hit.
 The target is scrutinized, damaging their psyche. Can random critical hit.
 The user perfectly predicts the target's future location, then strikes. It lands without fail.
@@ -34946,6 +34966,8 @@ The user restores half of their max HP, or 66% in moonglow.
 The user restores half of their max HP, or 66% in moonglow.
 The user bullies the target, causing mental damage. This has a 20% chance to leech.
 The user bullies the target, causing mental damage. This has a 20% chance to leech.
+The user pulses powerful dark light to expose the target's motives. This lower's their Sp. Def by two steps.
+The user pulses powerful dark light to expose the target's motives. This lower's their Sp. Def by two steps.
 The user transforms into a cloud of vermin, becoming invulnerable to attacks on the first turn. On the second turn it ambushes the target.
 The user transforms into a cloud of vermin, becoming invulnerable to attacks on the first turn. On the second turn it ambushes the target.
 The user submerges the target in water, then bludgeons them repeatedly. This has a 10% chance to waterlog.
@@ -36049,8 +36071,8 @@ Lunch Box
 Lunch Box
 Bright Clay
 Bright Clay
-Pearl of Fate
-Pearl of Fate
+Pearl of Wisdom
+Pearl of Wisdom
 Unnamed
 Unnamed
 Test Item
@@ -36912,8 +36934,8 @@ Lunch Boxes
 Lunch Boxes
 Bright Clays
 Bright Clays
-Pearls of Fate
-Pearls of Fate
+Pearls of Wisdom
+Pearls of Wisdom
 Unnamed
 Unnamed
 Test Items
@@ -37043,10 +37065,10 @@ An item to be held by a Pokémon. Its Attack and Sp. Atk raise by four steps if 
 An item to be held by a Pokémon. Its Attack and Sp. Atk raise by four steps if hit by a move it's weak to.
 When held, it boosts Speed by two steps when intimidated, fascinated, or frustrated once per battle.
 When held, it boosts Speed by two steps when intimidated, fascinated, or frustrated once per battle.
-Damages attackers for 1/6th of their HP when they hit the holder with physical attacks.
-Damages attackers for 1/6th of their HP when they hit the holder with physical attacks.
-Damages attackers for 1/6th of their HP when they hit the holder with special attacks.
-Damages attackers for 1/6th of their HP when they hit the holder with special attacks.
+Damages attackers for 1/8th of their HP when they hit the holder with physical attacks.
+Damages attackers for 1/8th of their HP when they hit the holder with physical attacks.
+Damages attackers for 1/8th of their HP when they hit the holder with special attacks.
+Damages attackers for 1/8th of their HP when they hit the holder with special attacks.
 If the holder is hit by an attack, it will switch with another Pokémon in your party.
 If the holder is hit by an attack, it will switch with another Pokémon in your party.
 A card with a mysterious power. When the holder is struck by a foe, the attacker is removed from battle.
@@ -37057,8 +37079,8 @@ An item to be held by a Pokémon. It enables the holder to flee from any wild Po
 An item to be held by a Pokémon. It enables the holder to flee from any wild Pokémon without fail.
 An item to be held by a Pokémon. It is an egg filled with happiness that earns extra Exp. Points in battle.
 An item to be held by a Pokémon. It is an egg filled with happiness that earns extra Exp. Points in battle.
-An item to be held by a Pokémon. It doubles a battle's prize money if the holding Pokémon joins in.
-An item to be held by a Pokémon. It doubles a battle's prize money if the holding Pokémon joins in.
+A held item. After the weilder enters a battle, money generated in that battle is increased by 50%.
+A held item. After the weilder enters a battle, money generated in that battle is increased by 50%.
 An item to be held by a Pokémon. The comforting chime of this bell makes it gain happiness twice as fast.
 An item to be held by a Pokémon. The comforting chime of this bell makes it gain happiness twice as fast.
 An item to be held by a Pokémon. It prevents wild Pokémon encounters if the holder is the first one in the party.
@@ -37125,8 +37147,8 @@ A held item. When a foe raises their stats, the herb is consumed to copy the inc
 A held item. When a foe raises their stats, the herb is consumed to copy the increase.
 A held item. When a foe raises their stats, the herb is consumed to reset their stats.
 A held item. When a foe raises their stats, the herb is consumed to reset their stats.
-An item to be held by a Pokémon. Ensures a random additional affect activates once per battle.
-An item to be held by a Pokémon. Ensures a random additional affect activates once per battle.
+An item to be held by a Pokémon. Ensures a random additional effect activates once per battle.
+An item to be held by a Pokémon. Ensures a random additional effect activates once per battle.
 An item to be held by a Pokémon. Ensures a less than full accuracy move lands once per battle.
 An item to be held by a Pokémon. Ensures a less than full accuracy move lands once per battle.
 A held item. It boosts the power of moves by 30%, but at the cost of 10% HP on each hit.
@@ -37335,16 +37357,16 @@ A somewhat rare Poké Ball that has been specially made to commemorate an event 
 A somewhat rare Poké Ball that has been specially made to commemorate an event of some sort.
 A remedial Poké Ball that restores the caught Pokémon's HP and eliminates any status problem.
 A remedial Poké Ball that restores the caught Pokémon's HP and eliminates any status problem.
-A somewhat different Poké Ball which has 5x strength on the first turn of a wild encounter.
-A somewhat different Poké Ball which has 5x strength on the first turn of a wild encounter.
+A somewhat different Poké Ball which has 3x strength on the first turn of a wild encounter.
+A somewhat different Poké Ball which has 3x strength on the first turn of a wild encounter.
 A quite rare Poké Ball that has been specially crafted to commemorate an occasion of some sort.
 A quite rare Poké Ball that has been specially crafted to commemorate an occasion of some sort.
 A Poké Ball that makes caught Pokémon more friendly.
 A Poké Ball that makes caught Pokémon more friendly.
 A somewhat different Poké Ball that makes it easier to catch wild Pokémon while they're asleep.
 A somewhat different Poké Ball that makes it easier to catch wild Pokémon while they're asleep.
-A special Poké Ball designed to catch Ultra Beasts. It has a low success rate for catching others.
-A special Poké Ball designed to catch Ultra Beasts. It has a low success rate for catching others.
+A special Poké Ball with 5x strength against Ultra Beasts.
+A special Poké Ball with 5x strength against Ultra Beasts.
 A sharp Poké Ball that damages the Pokémon for 1/4th of its HP if it fails to catch it.
 A sharp Poké Ball that damages the Pokémon for 1/4th of its HP if it fails to catch it.
 A parasitic Poké Ball that leeches the Pokémon if it fails to catch it.
@@ -37577,8 +37599,8 @@ A small, versatile machine that can be used to repel wild Pokémon, or draw them
 A small, versatile machine that can be used to repel wild Pokémon, or draw them near.
 A high tech surveillance device. Use it to scout out the teams of nearby trainers.
 A high tech surveillance device. Use it to scout out the teams of nearby trainers.
-Condensed essence of life. Holding it allows you to run, bike, and surf faster.
-Condensed essence of life. Holding it allows you to run, bike, and surf faster.
+Condensed essence of life. Holding it allows you to run, bike, and surf faster. Can be toggled on or off.
+Condensed essence of life. Holding it allows you to run, bike, and surf faster. Can be toggled on or off.
 A small compass. Relic of a heroic age. It can be used to find lootable items nearby.
 A small compass. Relic of a heroic age. It can be used to find lootable items nearby.
 An electrified glove with a claw-like shape. Recovers the first failed Poké Ball thrown in a wild battle.
@@ -38452,8 +38474,6 @@ Foreman
 Foreman
 Fortified
 Fortified
-Fortune
-Fortune
 Free Ride
 Free Ride
 Freestyle
@@ -38514,6 +38534,8 @@ Hard As
 Hard As
 Hard Fall
 Hard Fall
+Hard Worker
+Hard Worker
 Harsh
 Harsh
 Hasty
@@ -38576,6 +38598,8 @@ Impressionable
 Impressionable
 Impulsive
 Impulsive
+Incognito
+Incognito
 Indestructible
 Indestructible
 Industrialize
@@ -38804,6 +38828,8 @@ Predation
 Predation
 Pressure Valve
 Pressure Valve
+Privilege
+Privilege
 Puff Up
 Puff Up
 Punisher
@@ -38836,6 +38862,8 @@ Reap What You Sow
 Reap What You Sow
 Reawakened Power
 Reawakened Power
+Reclamation
+Reclamation
 Recon
 Recon
 Refractive
@@ -38912,6 +38940,8 @@ Served Cold
 Served Cold
 Severe
 Severe
+Sharpshooter
+Sharpshooter
 Shellcracker
 Shellcracker
 Shield Wall
@@ -39869,8 +39899,6 @@ Doubles the Pokémon's Speed in Rooms.
 Doubles the Pokémon's Speed in Rooms.
 Take 30% less damage from attacks on turns when it hasn't moved yet.
 Take 30% less damage from attacks on turns when it hasn't moved yet.
-Doubles the money gained from battles in which it participates.
-Doubles the money gained from battles in which it participates.
 Raises other allies' Speed by two steps upon entering the battle.
 Raises other allies' Speed by two steps upon entering the battle.
 The Pokémon changes type to that of the move it's about to use. However, it's 20% less accurate.
@@ -39931,6 +39959,8 @@ If an attack lowers the Pokémon's HP to half or less, the attacker becomes frac
 If an attack lowers the Pokémon's HP to half or less, the attacker becomes fractured.
 Deals 30% more move damage to Pokémon that are taller than it.
 Deals 30% more move damage to Pokémon that are taller than it.
+Increases the money gained from battles in which it participates by 50%.
+Increases the money gained from battles in which it participates by 50%.
 Its attacks are critical against burned targets.
 Its attacks are critical against burned targets.
 When this Pokémon becomes statused, its Speed is raised by three steps.
@@ -39993,6 +40023,8 @@ Its same-type attack bonus is based on its party members rather than itself.
 Its same-type attack bonus is based on its party members rather than itself.
 When this Pokémon becomes statused, its Sp. Atk is raised by three steps.
 When this Pokémon becomes statused, its Sp. Atk is raised by three steps.
+Comes out disguised as the Pokémon in back. While disguised, copies its ability.
+Comes out disguised as the Pokémon in back. While disguised, copies its ability.
 After being attacked, gains immunity to that move's type but loses other morphed immunities.
 After being attacked, gains immunity to that move's type but loses other morphed immunities.
 Immune to Steel-type moves and raises Speed if hit by one.
@@ -40083,8 +40115,8 @@ Physical moves have a 30% chance to waterlog targets.
 Physical moves have a 30% chance to waterlog targets.
 Dive and Depth Charge deal 50% more damage.
 Dive and Depth Charge deal 50% more damage.
-Repeats another Pokémon's punch and kick moves immediately at 75% power.
-Repeats another Pokémon's punch and kick moves immediately at 75% power.
+Repeats another Pokémon's punch and kick moves immediately at 50% power.
+Repeats another Pokémon's punch and kick moves immediately at 50% power.
 All Pokémon's damage is decreased proportional to their health remaining.
 All Pokémon's damage is decreased proportional to their health remaining.
 The Pokémon can't be Taunted, Encored, Tormented, Heal Blocked, Disabled, Barred, Dizzied, or Flinched.
@@ -40221,6 +40253,8 @@ Has a 30% chance to leech targets when using physical moves.
 Has a 30% chance to leech targets when using physical moves.
 Right before the Pokémon is attacked, the attacker's stat changes are reset.
 Right before the Pokémon is attacked, the attacker's stat changes are reset.
+The Pokémon gets +1 to all base stats for every $100 worth of coins scattered on the ground.
+The Pokémon gets +1 to all base stats for every $100 worth of coins scattered on the ground.
 Deals 25% more damage per stockpile.
 Deals 25% more damage per stockpile.
 Special moves against the Pokémon have a 30% chance to leech the attacker.
@@ -40253,6 +40287,8 @@ If the Pokémon faints from Perish Song, it is revived in a new form.
 If the Pokémon faints from Perish Song, it is revived in a new form.
 Maximizes Sp. Atk when its HP is lowered below half.
 Maximizes Sp. Atk when its HP is lowered below half.
+After knocking out any Pokémon, regenerates its previously-used item.
+After knocking out any Pokémon, regenerates its previously-used item.
 Before using a status move against a single foe, lowers their Sp. Def by two steps.
 Before using a status move against a single foe, lowers their Sp. Def by two steps.
 Pulse moves change the Pokémon's secondary type and their power is boosted by 30%.
@@ -40329,6 +40365,8 @@ Boosts Attack by 20% in hail, or 40% if also below half health.
 Boosts Attack by 20% in hail, or 40% if also below half health.
 Its attacks are critical against numbed targets.
 Its attacks are critical against numbed targets.
+Doubles the critical hit chance of random crit moves. The Pokémon's Speed is doubled while using them.
+Doubles the critical hit chance of random crit moves. The Pokémon's Speed is doubled while using them.
 Its physical attacks reduce the target's Defense.
 Its physical attacks reduce the target's Defense.
 Takes 50% less damage from hyper-effective attacks.
@@ -42289,6 +42327,9 @@ Sweetrock Lighthouse
 1
 Intro - Alpha
 Intro - Alpha
+2
+Windborn Island
+Windborn Island
 3
 Kilna Turf
 Kilna Turf
@@ -42325,9 +42366,6 @@ Frost Station 1032
 14
 LuxTech Buildings
 LuxTech Buildings
-15
-LuxTech Mart
-LuxTech Mart
 16
 LuxTech Center
 LuxTech Center
@@ -46527,6 +46565,16 @@ other
 other
 Sprite set already has a particle engine, cannot add another!
 Sprite set already has a particle engine, cannot add another!
+{1}K
+{1}K
+{1}M
+{1}M
+{1}B
+{1}B
+{1}T
+{1}T
+Lots
+Lots
 Badges:
 Badges:
 Pokédex:
@@ -46569,6 +46617,8 @@ New Game
 New Game
 Check Update
 Check Update
+Player Survey
+Player Survey
 Website
 Website
 Discord
@@ -47665,6 +47715,10 @@ But it failed, since {1}'s {2} can't go any lower!
 {1} transformed into the {2} type!
 {1} summons another Avatar!
 {1} summons another Avatar!
+{1} already has a substitute!
+{1} already has a substitute!
+But it failed, since {1} does not have enough HP left to make a substitute!
+But it failed, since {1} does not have enough HP left to make a substitute!
 \i[TAROTAMULET]The Tarot Amulet glows with power!
 \i[TAROTAMULET]The Tarot Amulet glows with power!
 \ts[]<c3=4C0D0D,FFFFFF22><b><outln2><ac><fs={1}>\w[]\wu\l[12]{2}</fs></ac></outln2></b></c3>\wt[{3}]
@@ -48119,6 +48173,8 @@ For {1} to have two items, only one can be Clothing!
 {1} molts into a new shell!
 {1}'s stat changes were removed!
 {1}'s stat changes were removed!
+{1} reclaims its {2}!
+{1} reclaims its {2}!
 {1} turned {2}'s {3} into gold!
 {1} turned {2}'s {3} into gold!
 But {1} is already charged...
@@ -48213,8 +48269,6 @@ But a live wire already sits near {1}!
 {1} served {2} some refreshments!
 {1} mended {2} with soothing sounds!
 {1} mended {2} with soothing sounds!
-{1} discovers the {2}!
-{1} discovers the {2}!
 {1} became trapped in the vortex!
 {1} became trapped in the vortex!
 {1} became trapped in the sand!
@@ -48761,6 +48815,10 @@ You can't catch Avatars!
 You can't catch Avatars!
 {1} was overwhelmed with emotion!
 {1} was overwhelmed with emotion!
+{1}'s status is healed!
+{1}'s status is healed!
+The opposing {1}'s status is healed!
+The opposing {1}'s status is healed!
 {1} slurped up venom leaking from {2}.
 {1} slurped up venom leaking from {2}.
 {1} absorbs the damage from the poison.
@@ -50001,8 +50059,6 @@ The opposing {1} is reviving!
 {1}'s {2} cured its poisoning!
 {1}'s {2} healed its burn!
 {1}'s {2} healed its burn!
-The {1} sacrificed itself to cure {2}!
-The {1} sacrificed itself to cure {2}!
 {1}'s {2} made it no longer dizzy!
 {1}'s {2} made it no longer dizzy!
 {1}'s {2} made it no longer leeched!
@@ -50123,10 +50179,14 @@ Protective
 Protective
 Elegant
 Elegant
+Balanced
+Balanced
 Resetting Style Points due to non-conformity with rules.
 Resetting Style Points due to non-conformity with rules.
 {1} has more EVs than its supposed to be able to!
 {1} has more EVs than its supposed to be able to!
+There are still Style Points points left to assign!
+There are still Style Points points left to assign!
 Finish adjusting Style Points?
 Finish adjusting Style Points?
 Fast Attacker
@@ -50573,10 +50633,6 @@ But it failed to spit up a thing!
 {1}'s stockpiled effect wore off!
 But it failed to swallow a thing!
 But it failed to swallow a thing!
-{1} already has a substitute!
-{1} already has a substitute!
-But it failed, since {1} does not have enough HP left to make a substitute!
-But it failed, since {1} does not have enough HP left to make a substitute!
 {1} was trapped!
 {1} was trapped!
 {1} was squeezed by {2}!
@@ -50917,6 +50973,8 @@ But it failed, because no one has any berries!
 But it failed, because no one has any berries!
 It's tea time! Everyone dug in to their Berries!
 It's tea time! Everyone dug in to their Berries!
+{1} forms a {2}!
+{1} forms a {2}!
 {1} switched stat changes with the target!
 {1} switched stat changes with the target!
 {1} copied {2}'s stat changes!
@@ -51035,6 +51093,12 @@ Error: Asked to remove item #{item} from Pokémon #{name}, but it doesn't have t
 {1} is no longer allowed to hold its current items.
 #{name} is not allowed to hold its current items.
 #{name} is not allowed to hold its current items.
+first
+first
+second
+second
+final
+final
 \wm{1} is happy enough to show off its {2} trait: {3}!\me<<[>>Egg get<<]>>\wtnp<<[>>80<<]>><<1>>
 \wm{1} is happy enough to show off its {2} trait: {3}!\me<<[>>Egg get<<]>>\wtnp<<[>>80<<]>><<1>>
 \wm{1} is at maximum happiness! It loves you so much!<<1>>
@@ -51527,6 +51591,22 @@ The grass grew over the hole!
 The grass grew over the hole!
 If that grass grew over the hole, you'd possibly be able to cross it.
 If that grass grew over the hole, you'd possibly be able to cross it.
+Loyalty
+Loyalty
+Perseverance
+Perseverance
+Patience
+Patience
+Reverence
+Reverence
+Solidarity
+Solidarity
+Clarity
+Clarity
+Generosity
+Generosity
+Mercy
+Mercy
 Badge Number #{badgeNum} is above the total number of badges.
 Badge Number #{badgeNum} is above the total number of badges.
 \db[Pictures/Trainer Card/DISPLAY_BADGE_{1}]\me[Badge get]You've earned the {2} Badge!\wtnp[120]
@@ -51929,6 +52009,10 @@ The Stockpile
 The Stockpile
 Where would you like to go?
 Where would you like to go?
+\db[Items/CELLBOOSTER_inactive]You disable the Cell Booster.\wtnp[{1}]
+\db[Items/CELLBOOSTER_inactive]You disable the Cell Booster.\wtnp[{1}]
+\db[Items/CELLBOOSTER]You enable the Cell Booster.\wtnp[{1}]
+\db[Items/CELLBOOSTER]You enable the Cell Booster.\wtnp[{1}]
 The Chroma Clarion cannot be used here!
 The Chroma Clarion cannot be used here!
 You must have at least 3 able Pokémon to use the Chroma Clarion!
@@ -54267,6 +54351,12 @@ Create a text file listing all Pokémon in storage.
 Create a text file listing all Pokémon in storage.
 Pokémon in storage written to {1}
 Pokémon in storage written to {1}
+Export Current Team to Code
+Export Current Team to Code
+Create a shareable team code for the current party.
+Create a shareable team code for the current party.
+Pokémon team opened in team builder website.
+Pokémon team opened in team builder website.
 Activate all quests.
 Activate all quests.
 Activate every quest that is defined in the Quest Data.
@@ -55115,6 +55205,8 @@ Welcome to Diego's Wares! Please, come look through our goods.
 Welcome to Diego's Wares! Please, come look through our goods.
 Yo, I'm Adam, the gem guy. Gonna buy some gems, or what?
 Yo, I'm Adam, the gem guy. Gonna buy some gems, or what?
+Poké Balls of all sorts stocked here. Take a look!
+Poké Balls of all sorts stocked here. Take a look!
 Welcome to the Poké Ball Depot! How may I serve you?
 Welcome to the Poké Ball Depot! How may I serve you?
 Custom Pokéballs, made to order! You won't find these in a mart!
@@ -55173,14 +55265,14 @@ Could not create game achievements file.
 Could not create game achievements file.
 Impostor/Imperatrice
 Impostor/Imperatrice
-Find them north of Svait.
-Find them north of Svait.
-Find them post surf.
-Find them post surf.
-Find them back south.
-Find them back south.
-Find them near the Lingering Delta.
-Find them near the Lingering Delta.
+Find her north of Svait.
+Find her north of Svait.
+Find her north of the Eleig.
+Find her north of the Eleig.
+Find her back south.
+Find her back south.
+Find her near the Lingering Delta.
+Find her near the Lingering Delta.
 Ice Cave
 Ice Cave
 Prizca West
@@ -55193,10 +55285,10 @@ A pair of identical fortune tellers, each claiming the other is a Ditto. For som
 A pair of identical fortune tellers, each claiming the other is a Ditto. For some reason, they have a vested interest in you. Find out the truth.
 Kayfabe
 Kayfabe
-Find them in the sewers.
-Find them in the sewers.
-Find them near Team Chasm HQ.
-Find them near Team Chasm HQ.
+Find her in the sewers.
+Find her in the sewers.
+Find her near Team Chasm HQ.
+Find her near Team Chasm HQ.
 Luxtech Sewers
 Luxtech Sewers
 Prizca East
@@ -55209,12 +55301,14 @@ A confident young woman who trains Pokémon for a price. Dueling her could be go
 A confident young woman who trains Pokémon for a price. Dueling her could be good practice – but she looks at you with unnerving familiarity. She knows more than she lets on.
 Dear Iconoclast
 Dear Iconoclast
-Find them in Velenz.
-Find them in Velenz.
-Find them north east.
-Find them north east.
-Find them on the southern mountain.
-Find them on the southern mountain.
+Find him in Velenz.
+Find him in Velenz.
+Find him north east.
+Find him north east.
+Find him back south.
+Find him back south.
+Find him on the southern mountain.
+Find him on the southern mountain.
 Velenz
 Velenz
 Team Chasm HQ
@@ -55225,8 +55319,12 @@ A dashing young man trying his best to be charming. His appreciation for avatars
 A dashing young man trying his best to be charming. His appreciation for avatars borders on spiritual. Who knows what'll happen if you seek him out?
 When in Makya
 When in Makya
-Find them near Velenz.
-Find them near Velenz.
+Find him north of the Eleig.
+Find him north of the Eleig.
+Find him in the sewers.
+Find him in the sewers.
+Find him near Velenz.
+Find him near Velenz.
 Eleig Stretch
 Eleig Stretch
 Sewer Junction
@@ -55239,14 +55337,14 @@ A studious man, foreign to Makya. He studies regional forms for his research. So
 A studious man, foreign to Makya. He studies regional forms for his research. Something strange is afoot in the region – perhaps you can work together to find out what.
 Second Chances
 Second Chances
-Find them near the river.
-Find them near the river.
-Find them up river.
-Find them up river.
-Find them in the shack.
-Find them in the shack.
-Find them near the lake.
-Find them near the lake.
+Find him near the river.
+Find him near the river.
+Find him up river.
+Find him up river.
+Find him in the shack.
+Find him in the shack.
+Find him near the lake.
+Find him near the lake.
 Eleig River Crossing
 Eleig River Crossing
 Highland Lake
@@ -55261,12 +55359,12 @@ do crimes plz <3
 do crimes plz <3
 Enter the man's house.
 Enter the man's house.
-Find them at the college.
-Find them at the college.
-Find them in a cave.
-Find them in a cave.
-Find them at the river.
-Find them at the river.
+Find her at the college.
+Find her at the college.
+Find her in a cave.
+Find her in a cave.
+Find her at the river.
+Find her at the river.
 Barren Crater
 Barren Crater
 Cave of Hatching
@@ -55297,8 +55395,8 @@ Find him again.
 Find him again.
 Casaba Island
 Casaba Island
-Play hide and seek with that kid. I guess you aren't too old for this stuff yet huh?
-Play hide and seek with that kid. I guess you aren't too old for this stuff yet huh?
+Play hide and seek with the kid who said they'd give you TMs.
+Play hide and seek with the kid who said they'd give you TMs.
 TMs!
 TMs!
 An Inconvenienced Ranger
@@ -55309,8 +55407,8 @@ Find all the digit slips.
 Find all the digit slips.
 Menagerie-Velenz Gatehouse
 Menagerie-Velenz Gatehouse
-The local ranger is tired of Rafael's gym puzzle. Sounds like they got a reward for whoever brings them all to them.
-The local ranger is tired of Rafael's gym puzzle. Sounds like they got a reward for whoever brings them all to them.
+The local ranger is tired of Rafael's gym puzzle. Find the digit slips and return them to him.
+The local ranger is tired of Rafael's gym puzzle. Find the digit slips and return them to him.
 Breaking Spirits
 Breaking Spirits
 Mother
@@ -55341,10 +55439,10 @@ Down Memory Lane
 Down Memory Lane
 Berry Farmer
 Berry Farmer
-Bring the Pokémon to them.
-Bring the Pokémon to them.
-This former Team Chasm member has been feeling nostalgic. Show them a Bergmite, a Klink, a Dreepy, a Makyan Tangela, and an Elekid so they can reminisce about the old days.
-This former Team Chasm member has been feeling nostalgic. Show them a Bergmite, a Klink, a Dreepy, a Makyan Tangela, and an Elekid so they can reminisce about the old days.
+Bring the Pokémon to her.
+Bring the Pokémon to her.
+This former Team Chasm member has been feeling nostalgic. Bring her a Bergmite, a Klink, a Dreepy, a Makyan Tangela, and an Elekid.
+This former Team Chasm member has been feeling nostalgic. Bring her a Bergmite, a Klink, a Dreepy, a Makyan Tangela, and an Elekid.
 Catching Charm
 Catching Charm
 Geodude Frenzy!
@@ -55617,24 +55715,26 @@ Explore the strange island.
 Explore the strange island.
 The TV talked about a newly discovered island off the coast. A lot of trainers will be heading there, try to be the best one.
 The TV talked about a newly discovered island off the coast. A lot of trainers will be heading there, try to be the best one.
-WIP: Odd Pits
-WIP: Odd Pits
-Find the item in the postgame.
-Find the item in the postgame.
-WIP: There's something that should fill these pits, wonder what that is?
-WIP: There's something that should fill these pits, wonder what that is?
-WIP: Calyrex
-WIP: Calyrex
+The King and the Corvid
+The King and the Corvid
 Find the hidden entrance.
 Find the hidden entrance.
-Find the grass pits.
-Find the grass pits.
-Return to the hidden room.
-Return to the hidden room.
+Prove yourself to the Corviknight.
+Prove yourself to the Corviknight.
+Explore the hidden chamber.
+Explore the hidden chamber.
+Find the grassy pits.
+Find the grassy pits.
+Return to the hidden chamber.
+Return to the hidden chamber.
+Under the Battle Monument
+Under the Battle Monument
+Spots Around Makya
+Spots Around Makya
 Crown Chamber
 Crown Chamber
-WIP: A ragged journal, a strange scepter, reins, and an apricorn.
-WIP: A ragged journal, a strange scepter, reins, and an apricorn.
+You've opened a strange cave under the Battle Monument. What could it be hiding?
+You've opened a strange cave under the Battle Monument.  What could it be hiding?
 Guardian Island
 Guardian Island
 You won the map to an abandoned island, what secrets could this place hold?
@@ -55815,12 +55915,6 @@ A powerful avatar of Entei is being contained in this cave. Perhaps it is guardi
 A powerful avatar of Entei is being contained in this cave. Perhaps it is guarding something valuable...
 Fire and Sun Stone
 Fire and Sun Stone
-Play hide and seek with the kid who said they'd give you TMs.
-Play hide and seek with the kid who said they'd give you TMs.
-The local ranger is tired of Rafael's gym puzzle. Find the digit slips and return them to him.
-The local ranger is tired of Rafael's gym puzzle. Find the digit slips and return them to him.
-This former Team Chasm member has been feeling nostalgic. Bring them a Bergmite, a Klink, a Dreepy, a Makyan Tangela, and an Elekid.
-This former Team Chasm member has been feeling nostalgic. Bring them a Bergmite, a Klink, a Dreepy, a Makyan Tangela, and an Elekid.
 The 'quest' argument should be a symbol, e.g. ':Quest1'.
 The 'quest' argument should be a symbol, e.g. ':Quest1'.
 \me[{1}]Quest discovered:
@@ -55885,6 +55979,8 @@ Enter Debug Password.
 Enter Debug Password.
 This mod was created by Fanfan.<<n>>If you paid for it, you've been duped!
 This mod was created by Fanfan.<<n>>If you paid for it, you've been duped!
+This mod is a hardcore game with extensive adjustments, and is not suitable for players with immature psychological age or non-hardcore gaming enthusiasts. Please be advised.
+This mod is a hardcore game with extensive adjustments, and is not suitable for players with immature psychological age or non-hardcore gaming enthusiasts. Please be advised.
 Have a good run!
 Have a good run!
 Did you download the game from the official post?
@@ -56133,10 +56229,14 @@ Which form?
 2222222
 Turns to Finale Form when only unfainted on team. Ignores the condition of a perfect battle.
 Turns to Finale Form when only unfainted on team. Ignores the condition of a perfect battle.
+When the Pokémon eats a Berry, it restores 25% of its max health.
+When the Pokémon eats a Berry, it restores 25% of its max health.
 It changes secondary type to that of the dance moves it's about to use.
 It changes secondary type to that of the dance moves it's about to use.
 Upon entry, creates an Emotion Room for 5 turns, adding an ability every turn.
 Upon entry, creates an Emotion Room for 5 turns, adding an ability every turn.
+Upon entry, the Pokémon heals itself for 1/5th max HP. This can overheal.
+Upon entry, the Pokémon heals itself for 1/5th max HP. This can overheal.
 Upon entry, traps each opponent in a whirlpool for one turns.
 Upon entry, traps each opponent in a whirlpool for one turns.
 Copies opponents' species' legal Abilities.
@@ -56193,8 +56293,8 @@ The field will exist forever!
 The field will exist forever!
 The field has already existed!
 The field has already existed!
-The field duration expanded to #{field_duration}!
-The field duration expanded to #{field_duration}!
+The field duration expanded to {1}!
+The field duration expanded to {1}!
 The field will last for {1} more turns!
 The field will last for {1} more turns!
 The field strengthened the attack
@@ -59958,14 +60058,12 @@ Gravity Turns
 Gravity Turns
 Warped Core
 Warped Core
-Happy Hour
-Happy Hour
 Ion Deluge
 Ion Deluge
 Money Dropped
 Money Dropped
-Fortune
-Fortune
+Hard Worker
+Hard Worker
 Neutralizing Gas
 Neutralizing Gas
 Trick Room
