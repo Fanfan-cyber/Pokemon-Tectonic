@@ -4,10 +4,10 @@ module QuestModule
   
   QUEST_IMOGENE = {
     :Name => _INTL("Impostor/Imperatrice"),
-    :Stage1 => _INTL("Find them north of Svait."),
-    :Stage2 => _INTL("Find them post surf."),
-    :Stage3 => _INTL("Find them back south."),
-    :Stage4 => _INTL("Find them near the Lingering Delta."),
+    :Stage1 => _INTL("Find her north of Svait."),
+    :Stage2 => _INTL("Find her north of the Eleig."),
+    :Stage3 => _INTL("Find her back south."),
+    :Stage4 => _INTL("Find her near the Lingering Delta."),
     :Location1 => _INTL("Ice Cave"),
     :Location2 => _INTL("Prizca West"),
     :Location3 => _INTL("Grouz"),
@@ -17,10 +17,10 @@ module QuestModule
   
   QUEST_ALESSA = {
     :Name => _INTL("Kayfabe"),
-    :Stage1 => _INTL("Find them in the sewers."),
-    :Stage2 => _INTL("Find them post surf."),
-    :Stage3 => _INTL("Find them back south."),
-    :Stage4 => _INTL("Find them near Team Chasm HQ."),
+    :Stage1 => _INTL("Find her in the sewers."),
+    :Stage2 => _INTL("Find her north of the Eleig."),
+    :Stage3 => _INTL("Find her back south."),
+    :Stage4 => _INTL("Find her near Team Chasm HQ."),
     :Location1 => _INTL("Luxtech Sewers"),
     :Location2 => _INTL("Prizca East"),
     :Location3 => _INTL("Volcanic Shore"),
@@ -30,10 +30,10 @@ module QuestModule
   
   QUEST_SKYLER = {
     :Name => _INTL("Dear Iconoclast"),
-    :Stage1 => _INTL("Find them in Velenz."),
-    :Stage2 => _INTL("Find them north east."),
-    :Stage3 => _INTL("Find them back south."),
-    :Stage4 => _INTL("Find them on the southern mountain."),
+    :Stage1 => _INTL("Find him in Velenz."),
+    :Stage2 => _INTL("Find him north east."),
+    :Stage3 => _INTL("Find him back south."),
+    :Stage4 => _INTL("Find him on the southern mountain."),
     :Location1 => _INTL("Velenz"),
     :Location2 => _INTL("Prizca East"),
     :Location3 => _INTL("Team Chasm HQ"),
@@ -43,10 +43,10 @@ module QuestModule
   
   QUEST_KEONI = {
     :Name => _INTL("When in Makya"),
-    :Stage1 => _INTL("Find them post surf."),
-    :Stage2 => _INTL("Find them in the sewers."),
-    :Stage3 => _INTL("Find them back south."),
-    :Stage4 => _INTL("Find them near Velenz."),
+    :Stage1 => _INTL("Find him north of the Eleig."),
+    :Stage2 => _INTL("Find him in the sewers."),
+    :Stage3 => _INTL("Find him back south."),
+    :Stage4 => _INTL("Find him near Velenz."),
     :Location1 => _INTL("Eleig Stretch"),
     :Location2 => _INTL("Sewer Junction"),
     :Location3 => _INTL("Novo College"),
@@ -56,10 +56,10 @@ module QuestModule
   
   QUEST_EIFION = {
     :Name => _INTL("Second Chances"),
-    :Stage1 => _INTL("Find them near the river."),
-    :Stage2 => _INTL("Find them up river."),
-    :Stage3 => _INTL("Find them in the shack."),
-    :Stage4 => _INTL("Find them near the lake."),
+    :Stage1 => _INTL("Find him near the river."),
+    :Stage2 => _INTL("Find him up river."),
+    :Stage3 => _INTL("Find him in the shack."),
+    :Stage4 => _INTL("Find him near the lake."),
     :Location1 => _INTL("Eleig River Crossing"),
     :Location2 => _INTL("Highland Lake"),
     :Location3 => _INTL("Tournament Grounds"),
@@ -70,10 +70,10 @@ module QuestModule
   QUEST_CANDY = {
     :Name => _INTL("do crimes plz <3"),
     :Stage1 => _INTL("Enter the man's house."),
-    :Stage2 => _INTL("Find them at the college."),
-    :Stage3 => _INTL("Find them post surf."),
-    :Stage4 => _INTL("Find them in a cave."),
-    :Stage5 => _INTL("Find them at the river."),
+    :Stage2 => _INTL("Find her at the college."),
+    :Stage3 => _INTL("Find her north of the Eleig."),
+    :Stage4 => _INTL("Find her in a cave."),
+    :Stage5 => _INTL("Find her at the river."),
     :Location1 => _INTL("Barren Crater"),
     :Location2 => _INTL("Novo College"),
     :Location3 => _INTL("Prizca West"),
@@ -128,8 +128,8 @@ module QuestModule
     :QuestGiver => _INTL("Alolan"),
     :Stage1 => _INTL("Find their package."),
     :Stage2 => _INTL("Return the package."),
-    :Location1 => _INTL("Prizca West Travel Agency"),
-    :Location1 => _INTL("Prizca West Travel Agency"),
+    :Location1 => _INTL("County Park"),
+    :Location2 => _INTL("Prizca West Travel Agency"),
     :QuestDescription => _INTL("These people report they lost a package to a Gyarados attack, and want you to get it. Must be important, for their job...?"),
     :RewardString => _INTL("Alolan Wreath")
   }
@@ -137,9 +137,9 @@ module QuestModule
   QUEST_MEMORY_LANE = {
     :Name => _INTL("Down Memory Lane"),
     :QuestGiver => _INTL("Berry Farmer"),
-    :Stage1 => _INTL("Bring the Pokémon to them."),
+    :Stage1 => _INTL("Bring the Pokémon to her."),
     :Location1 => _INTL("County Park"),
-    :QuestDescription => _INTL("This former Team Chasm member has been feeling nostalgic. Bring them a Bergmite, a Klink, a Dreepy, a Makyan Tangela, and an Elekid."),
+    :QuestDescription => _INTL("This former Team Chasm member has been feeling nostalgic. Bring her a Bergmite, a Klink, a Dreepy, a Makyan Tangela, and an Elekid."),
     :RewardString => _INTL("Catching Charm")
   }
 
@@ -451,24 +451,20 @@ module QuestModule
     :QuestDescription => _INTL("The TV talked about a newly discovered island off the coast. A lot of trainers will be heading there, try to be the best one."),
   }
 
-  QUEST_LEGEND_CALYREX1 = {
-    :Name => _INTL("WIP: Odd Pits"),
-    :QuestGiver => _INTL("???"),
-    :Stage1 => _INTL("Find the item in the postgame."),
-    :Location1 => _INTL("Makya"),
-    :QuestDescription => _INTL("WIP: There's something that should fill these pits, wonder what that is?"),
-  }
-
   QUEST_LEGEND_CALYREX2 = {
-    :Name => _INTL("WIP: Calyrex"),
+    :Name => _INTL("The King and the Corvid"),
     :QuestGiver => _INTL("???"),
     :Stage1 => _INTL("Find the hidden entrance."),
-    :Stage2 => _INTL("Find the grass pits."),
-    :Stage3 => _INTL("Return to the hidden room."),
+    :Stage2 => _INTL("Prove yourself to the Corviknight."),
+    :Stage3 => _INTL("Explore the hidden chamber."),
+    :Stage4 => _INTL("Find the grassy pits."),
+    :Stage5 => _INTL("Return to the hidden chamber."),
     :Location1 => _INTL("Battle Monument"),
-    :Location2 => _INTL("Makya"),
-    :Location3 => _INTL("Crown Chamber"),
-    :QuestDescription => _INTL("WIP: A ragged journal, a strange scepter, reins, and an apricorn."),
+    :Location2 => _INTL("Under the Battle Monument"),
+    :Location3 => _INTL("Under the Battle Monument"),
+    :Location4 => _INTL("Spots Around Makya"),
+    :Location5 => _INTL("Crown Chamber"),
+    :QuestDescription => _INTL("You've opened a strange cave under the Battle Monument.  What could it be hiding?"),
   }
 
   QUEST_LEGEND_GUARDIAN_ISLAND = {
@@ -543,6 +539,16 @@ module QuestModule
     :Location1 => _INTL("Samorn's House"),
     :Location2 => _INTL("Isle of Dragons"),
     :QuestDescription => _INTL("The mysterious Dragon Hatcher in Samorn's house offers to hatch the dragon eggs you find around the region."),
+  }
+
+  QUEST_LEGEND_WEATHER_TRIO = {
+    :Name => _INTL("Bad Weather"),
+    :QuestGiver => _INTL("???"),
+    :Stage1 => _INTL("Find the other avatar."),
+    :Stage2 => _INTL("Find Rayquaza."),
+    :Location1 => _INTL("Makya"),
+    :Location2 => _INTL("Kilna Ascent"),
+    :QuestDescription => _INTL("A trio of imposing beasts, hidden in the outer reaches of Makya. Why not add controlling the weather to your arsenal?"),
   }
 
   # Former Champions

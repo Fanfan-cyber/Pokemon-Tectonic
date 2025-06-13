@@ -88,8 +88,7 @@ end
 #===============================================================================
 class PokeBattle_Move_HitTwoToFiveTimesAddMoneyGainedFromBattleEachHit < PokeBattle_Move_HitTwoToFiveTimes
     def pbEffectOnNumHits(user, _target, numHits)
-        coinsGenerated = 2 * user.level * numHits
-        @battle.field.incrementEffect(:PayDay, coinsGenerated) if user.pbOwnedByPlayer?
+        user.generateMoney(2 * numHits)
         if numHits == 10
             @battle.pbDisplay(_INTL("How fortunate!"))
         elsif numHits == 0

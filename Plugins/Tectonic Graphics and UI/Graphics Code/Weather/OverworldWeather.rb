@@ -79,7 +79,9 @@ class OverworldWeather
         cloudCoverOpacity = 60 + @weatherData.cloud_cover_opacity(@strength).round
         if cloudCoverOpacity > 0
             speed = 6
-            if [:Rain,:Overcast,:Snow].include?(@type)
+            if @type == :Stillness
+                speed = 0
+            elsif [:Rain,:Overcast,:Snow].include?(@type)
                 speed -= strength * 2
             end
             speed = [speed,0].max

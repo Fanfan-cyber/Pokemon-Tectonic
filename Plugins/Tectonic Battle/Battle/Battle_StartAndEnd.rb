@@ -648,16 +648,17 @@ class PokeBattle_Battle
     #=============================================================================
     # End of battle
     #=============================================================================
-    def pbGainMoney
-        return if !@internalBattle || !@moneyGain || TA.get(:battle_loader)
-
+    def moneyMult
         moneyMult = 1
         moneyMult *= Settings::MONEY_RATE_BOOST # TectoQuake
-        moneyMult *= 2 if @field.effectActive?(:AmuletCoin)
-        moneyMult *= 2 if @field.effectActive?(:HappyHour)
-        moneyMult *= 2 if @field.effectActive?(:Fortune)
+        moneyMult *= 1.5 if @field.effectActive?(:AmuletCoin)
+        moneyMult *= 1.5 if @field.effectActive?(:HardWorker)
         moneyMult *= 1.1 if playerTribalBonus.hasTribeBonus?(:INDUSTRIOUS)
+        return moneyMult
+    end
 
+    def pbGainMoney
+        return if !@internalBattle || !@moneyGain || TA.get(:battle_loader)
         # Money rewarded from opposing trainers
         if trainerBattle?
             tMoney = 0
@@ -675,7 +676,6 @@ class PokeBattle_Battle
         # Pick up money scattered by Pay Day
         if @field.effectActive?(:PayDay)
             paydayMoney = @field.effects[:PayDay]
-            paydayMoney = (paydayMoney * moneyMult).floor
             oldMoney = pbPlayer.money
             pbPlayer.money += paydayMoney
             moneyGained = pbPlayer.money - oldMoney

@@ -85,11 +85,6 @@ GameData::BattleEffect.register_effect(:Field, {
 })
 
 GameData::BattleEffect.register_effect(:Field, {
-    :id => :HappyHour,
-    :real_name => "Happy Hour",
-})
-
-GameData::BattleEffect.register_effect(:Field, {
     :id => :IonDeluge,
     :real_name => "Ion Deluge",
     :resets_eor => true,
@@ -108,8 +103,8 @@ GameData::BattleEffect.register_effect(:Field, {
 })
 
 GameData::BattleEffect.register_effect(:Field, {
-    :id => :Fortune,
-    :real_name => "Fortune",
+    :id => :HardWorker,
+    :real_name => "Hard Worker",
 })
 
 GameData::BattleEffect.register_effect(:Field, {

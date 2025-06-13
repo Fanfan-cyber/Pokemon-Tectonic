@@ -26,6 +26,5 @@ def ancientGrassHole
         end
     else
         pbMessage(_INTL("If that grass grew over the hole, you'd possibly be able to cross it."))
-        activateQuest(:QUEST_LEGEND_CALYREX1)
     end
 end

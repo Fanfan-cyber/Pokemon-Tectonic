@@ -311,3 +311,11 @@ GameData::Weather.register({
 		next strength * -4
 	},
 })
+
+GameData::Weather.register({
+	:id               => :Stillness,
+	:id_number        => 16,   # Must be 0 (preset RMXP weather)
+	:clouds_proc => proc { |_strength|
+		next 0
+	},
+})

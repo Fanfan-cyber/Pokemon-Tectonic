@@ -1,5 +1,18 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
+[002] # Windborn Island
+Land,21
+    1,CRAMORANT,56,58
+    1,JUMPLUFF,56,58
+    1,PIDGEOT,56,58
+    1,SWELLOW,56,58
+    1,WORNET,56,58
+FloweryGrass,21
+    1,CHATOT,56,58
+    1,FEAROW,56,58
+    1,PAPELLUMEN,56,58
+    1,TROPIUS,56,58
+#-------------------------------
 [003] # Kilna Turf
 Land,20
     20,DODUO,17,19
@@ -291,7 +304,7 @@ Special
 #-------------------------------
 [085] # Worried Man's House
 Special
-    1,SHELLOS,15
+    1,FRILLISH,15
 #-------------------------------
 [086] # Zigzagoon Nest
 Special
@@ -1069,6 +1082,10 @@ Special
 [392] # Turf-Grouz Gatehouse
 Special
     1,ELEKID,15
+#-------------------------------
+[396] # Crater-Shelf Gatehouse
+Special
+    1,MINCCINO,15
 #-------------------------------
 [403] # Frozen Lake
 LandTall,20

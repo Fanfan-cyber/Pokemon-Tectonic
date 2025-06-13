@@ -8,7 +8,7 @@ end
 
 def stageThreeCalyrexQuest
   if pbGetSelfSwitch(24, 'A', 333) && pbGetSelfSwitch(1, 'A', 434) && pbGetSelfSwitch(1, 'A', 436)
-      advanceQuestToStage(:QUEST_LEGEND_CALYREX2, 3)
+      advanceQuestToStage(:QUEST_LEGEND_CALYREX2, 5)
   end
 end
 

@@ -1,12 +1,12 @@
-DebugMenuCommands.register("setmetadata", {
-    "parent"      => "editorsmenu",
-    "name"        => _INTL("Edit Metadata"),
-    "description" => _INTL("Edit global and map metadata."),
-    "always_show" => true,
-    "effect"      => proc {
-      pbMetadataScreen(pbDefaultMap)
-    }
-  })
+# DebugMenuCommands.register("setmetadata", {
+#     "parent"      => "editorsmenu",
+#     "name"        => _INTL("Edit Metadata"),
+#     "description" => _INTL("Edit global and map metadata."),
+#     "always_show" => true,
+#     "effect"      => proc {
+#       pbMetadataScreen(pbDefaultMap)
+#     }
+#   })
 
   DebugMenuCommands.register("addfalsemetadata", {
     "parent"      => "editorsmenu",

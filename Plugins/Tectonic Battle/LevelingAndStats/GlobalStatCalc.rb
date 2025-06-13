@@ -6,12 +6,7 @@ end
 def calcStatGlobal(base, level, sv, hp: false, stylish: false, accumulation: false)
     return 1 if base == 1
 
-    pseudoLevel = 15.0
-    if accumulation
-        pseudoLevel += level.to_f
-    else
-        pseudoLevel += (level.to_f / 2.0)
-    end
+    pseudoLevel = rescaleLevelForStats(level, accumulation: accumulation)
     levelRatio = pseudoLevel / 100.0
 
     # Calculate stats from base stats
@@ -26,4 +21,14 @@ def calcStatGlobal(base, level, sv, hp: false, stylish: false, accumulation: fal
     finalStat += 5.0 + pseudoLevel if hp
 
     return finalStat.floor
+end
+
+def rescaleLevelForStats(level, accumulation: false)
+    pseudoLevel = 15.0
+    if accumulation
+        pseudoLevel += level.to_f
+    else
+        pseudoLevel += (level.to_f / 2.0)
+    end 
+    return pseudoLevel
 end

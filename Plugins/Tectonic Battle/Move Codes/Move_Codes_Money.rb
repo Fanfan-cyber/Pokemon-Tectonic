@@ -3,7 +3,7 @@
 #===============================================================================
 class PokeBattle_Move_AddMoneyGainedFromBattle < PokeBattle_Move
     def pbEffectGeneral(user)
-        @battle.field.incrementEffect(:PayDay, 5 * user.level) if user.pbOwnedByPlayer?
+        user.generateMoney(10)
     end
 end
 
@@ -12,7 +12,7 @@ end
 #===============================================================================
 class PokeBattle_Move_AddLotsOfMoneyGainedFromBattle < PokeBattle_Move
     def pbEffectGeneral(user)
-        @battle.field.incrementEffect(:PayDay, 8 * user.level) if user.pbOwnedByPlayer?
+        user.generateMoney(15)
     end
 end
 
@@ -22,6 +22,6 @@ end
 class PokeBattle_Move_IfFaintsTargetAddTonsOfMoneyGainedFromBattle < PokeBattle_Move
     def pbEffectAfterAllHits(user, target)
         return unless target.damageState.fainted
-        @battle.field.incrementEffect(:PayDay, 15 * user.level) if user.pbOwnedByPlayer?
+        user.generateMoney(30)
     end
 end

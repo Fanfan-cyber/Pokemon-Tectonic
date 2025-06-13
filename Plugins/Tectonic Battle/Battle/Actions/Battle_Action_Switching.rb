@@ -398,7 +398,7 @@ class PokeBattle_Battle
         @field.applyEffect(:AmuletCoin) if !battler.opposes? && battler.hasItem?(%i[AMULETCOIN LUCKINCENSE])
 
         # Record money-doubling effect of Fortune ability
-        @field.applyEffect(:Fortune) if !battler.opposes? && battler.hasActiveAbility?(:FORTUNE)
+        @field.applyEffect(:HardWorker) if !battler.opposes? && battler.hasActiveAbility?(:HARDWORKER)
 
         # Record money-doubling effect of Bliss ability
         @field.applyEffect(:Bliss) if !battler.opposes? && battler.hasActiveAbility?(:BLISS)

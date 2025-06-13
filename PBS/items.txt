@@ -493,7 +493,7 @@ NamePlural = Rocky Helmets
 Pocket = 5
 Price = 6000
 Flags = Clothing,AttackerRecoil
-Description = Damages attackers for 1/6th of their HP when they hit the holder with physical attacks.
+Description = Damages attackers for 1/8th of their HP when they hit the holder with physical attacks.
 #-------------------------------
 [HIVISJACKET]
 Name = Hi-Viz Jacket
@@ -501,7 +501,7 @@ NamePlural = Hi-Viz Jackets
 Pocket = 5
 Price = 6000
 Flags = Clothing,AttackerRecoil
-Description = Damages attackers for 1/6th of their HP when they hit the holder with special attacks.
+Description = Damages attackers for 1/8th of their HP when they hit the holder with special attacks.
 #-------------------------------
 [EJECTBUTTON]
 Name = Eject Button
@@ -543,7 +543,7 @@ Name = Amulet Coin
 NamePlural = Amulet Coins
 Pocket = 5
 Price = 10000
-Description = An item to be held by a Pokémon. It doubles a battle's prize money if the holding Pokémon joins in.
+Description = A held item. After the weilder enters a battle, money generated in that battle is increased by 50%.
 #-------------------------------
 [SOOTHEBELL]
 Name = Soothe Bell

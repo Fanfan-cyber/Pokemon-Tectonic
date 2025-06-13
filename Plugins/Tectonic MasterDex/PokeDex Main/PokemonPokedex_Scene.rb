@@ -1102,17 +1102,16 @@ class PokemonPokedex_Scene
         # Find information about the currently displayed list
         typesCount = {}
         GameData::Type.each do |typesData|
-            next if typesData.id == :QMARKS
             typesCount[typesData.id] = 0
         end
         total = 0
         @dexlist.each do |dexEntry|
-            speciesData = GameData::Species.get(dexEntry[0])
+            speciesData = GameData::Species.get(dexEntry[:species])
             disqualify = false
             speciesData.get_evolutions.each do |evolutionEntry|
                 evoSpecies = evolutionEntry[0]
                 @dexlist.each do |searchDexEntry|
-                    disqualify = true if searchDexEntry[0] == evoSpecies
+                    disqualify = true if searchDexEntry[:species] == evoSpecies
                     break if disqualify
                 end
                 break if disqualify
@@ -1129,11 +1128,10 @@ class PokemonPokedex_Scene
 
         wholeGameTypesCount = {}
         GameData::Type.each do |typesData|
-            next if typesData.id == :QMARKS
             wholeGameTypesCount[typesData.id] = 0
         end
         pbGetDexList.each do |dexEntry|
-            speciesData = GameData::Species.get(dexEntry[0])
+            speciesData = GameData::Species.get(dexEntry[:species])
             next if speciesData.isLegendary?
             next if speciesData.get_evolutions.length > 0
             wholeGameTypesCount[speciesData.type1] += 1
@@ -1145,6 +1143,7 @@ class PokemonPokedex_Scene
         echoln("Investigation of the currently displayed dexlist:")
         echoln("Type,Count,PercentOfCurrentList,PercentageTypeCompletion")
         typesCount.each do |type, count|
+            next unless wholeGameTypesCount[type] > 0
             percentOfThisList = ((count.to_f / total.to_f) * 10_000).floor / 100.0
             percentOfTypeIsInThisMap = ((count.to_f / wholeGameTypesCount[type].to_f) * 10_000).floor / 100.0
             echoln("#{type},#{count},#{percentOfThisList},#{percentOfTypeIsInThisMap}")

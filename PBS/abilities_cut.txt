@@ -280,6 +280,10 @@ Description = Doubles Defense in sunshine.
 Name = Forewarn
 Description = Determines what moves a foe has.
 #-------------------------------
+[FORTUNE]
+Name = Fortune
+Description = Doubles the money gained from battles in which it participates.
+#-------------------------------
 [FRISK]
 Name = Frisk
 Description = The Pokémon can check a foe's held item. Makes wild Pokémon have items more often.

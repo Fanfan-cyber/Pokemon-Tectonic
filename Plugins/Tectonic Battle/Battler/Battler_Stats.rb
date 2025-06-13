@@ -30,6 +30,13 @@ class PokeBattle_Battler
         return owner.tribalBonus.getTribeBonusStats(self)[stat]
     end
 
+    def allStatBonus
+        if hasActiveAbility?(:PRIVILEGE)
+            return @battle.field.countEffect(:PayDay) / 100
+        end
+        return 0  
+    end
+
     def puzzleRoom?
         return @battle.field.effectActive?(:PuzzleRoom)
     end
@@ -106,6 +113,7 @@ class PokeBattle_Battler
     def base_attack
         return @effects[:BaseAttack] if effectActive?(:BaseAttack)
         attack_bonus = tribalBonusForStat(:ATTACK)
+        attack_bonus += allStatBonus
         if hasActiveItem?(%i[POWERLOCK POWERKEY])
             return recalcStat(:ATTACK, OFFENSIVE_LOCK_STAT) + attack_bonus
         else
@@ -116,6 +124,7 @@ class PokeBattle_Battler
     def base_defense
         return @effects[:BaseDefense] if effectActive?(:BaseDefense)
         defense_bonus = tribalBonusForStat(:DEFENSE)
+        defense_bonus += allStatBonus
         if hasActiveItem?(:GUARDLOCK)
             return recalcStat(:DEFENSE, DEFENSIVE_LOCK_STAT) + defense_bonus
         elsif hasActiveItem?(:POWERKEY)
@@ -128,6 +137,7 @@ class PokeBattle_Battler
     def base_special_attack
         return @effects[:BaseSpecialAttack] if effectActive?(:BaseSpecialAttack)
         spatk_bonus = tribalBonusForStat(:SPECIAL_ATTACK)
+        spatk_bonus += allStatBonus
         if hasActiveItem?(%i[ENERGYLOCK ENERGYKEY])
             return recalcStat(:SPECIAL_ATTACK, OFFENSIVE_LOCK_STAT) + spatk_bonus
         else
@@ -138,6 +148,7 @@ class PokeBattle_Battler
     def base_special_defense
         return @effects[:BaseSpecialDefense] if effectActive?(:BaseSpecialDefense)
         spdef_bonus = tribalBonusForStat(:SPECIAL_DEFENSE)
+        spdef_bonus += allStatBonus
         if hasActiveItem?(:WILLLOCK)
             return recalcStat(:SPECIAL_DEFENSE, DEFENSIVE_LOCK_STAT) + spdef_bonus
         elsif hasActiveItem?(:ENERGYKEY)
@@ -150,6 +161,7 @@ class PokeBattle_Battler
     def base_speed
         return @effects[:BaseSpeed] if effectActive?(:BaseSpeed)
         speed_bonus = tribalBonusForStat(:SPEED)
+        speed_bonus += allStatBonus
         return @speed + speed_bonus
     end
 

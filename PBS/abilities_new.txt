@@ -709,10 +709,6 @@ Description = Doubles the Pokémon's Speed in Rooms.
 Name = Fortified
 Description = Take 30% less damage from attacks on turns when it hasn't moved yet.
 #-------------------------------
-[FORTUNE]
-Name = Fortune
-Description = Doubles the money gained from battles in which it participates.
-#-------------------------------
 [FREERIDE]
 Name = Free Ride
 Description = Raises other allies' Speed by two steps upon entering the battle.
@@ -837,6 +833,10 @@ Description = If an attack lowers the Pokémon's HP to half or less, the attacke
 [HARDFALL]
 Name = Hard Fall
 Description = Deals 30% more move damage to Pokémon that are taller than it.
+#-------------------------------
+[HARDWORKER]
+Name = Hard Worker
+Description = Increases the money gained from battles in which it participates by 50%.
 #-------------------------------
 [HARSH]
 Name = Harsh
@@ -1462,6 +1462,10 @@ Name = Pressure Valve
 Description = Right before the Pokémon is attacked, the attacker's stat changes are reset.
 Flags = SetupCounterAI
 #-------------------------------
+[PRIVILEGE]
+Name = Privilege
+Description = The Pokémon gets +1 to all base stats for every $100 worth of coins scattered on the ground.
+#-------------------------------
 [PUFFUP]
 Name = Puff Up
 Description = Deals 25% more damage per stockpile.
@@ -1528,6 +1532,10 @@ Flags = Immutable
 [REAWAKENEDPOWER]
 Name = Reawakened Power
 Description = Maximizes Sp. Atk when its HP is lowered below half.
+#-------------------------------
+[RECLAMATION]
+Name = Reclamation
+Description = After knocking out any Pokémon, regenerates its previously-used item.
 #-------------------------------
 [RECON]
 Name = Recon

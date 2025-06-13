@@ -559,7 +559,7 @@ Accuracy = 0
 TotalPP = 15
 Target = NearOther
 FunctionCode = UseMoveDependingOnEnvironment
-Description = An attack that makes use of nature's power. Its effects vary depending on the user's environment.
+Description = An attack that makes use of nature's power. Its effects and type vary depending on the user's environment.
 #-------------------------------
 [NOBLEROAR]
 Name = Noble Roar
