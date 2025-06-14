@@ -33896,8 +33896,8 @@ The user engages the target in a head-to-head fight. The damage is based on the 
 The user engages the target in a head-to-head fight. The damage is based on the target's Attack rather than their Defense.
 The user concentrates to stabilize its mood. It raises the user's Sp. Def by three steps.
 The user concentrates to stabilize its mood. It raises the user's Sp. Def by three steps.
-The user attacks with the full force of The Market. Much money is earned after the battle.
-The user attacks with the full force of The Market. Much money is earned after the battle.
+The user attacks with the full force of The Market. Money is earned after the battle.
+The user attacks with the full force of The Market. Money is earned after the battle.
 The user thrashes while infused with elements. It has a 15% chance each to poison, leech, or waterlog.
 The user thrashes while infused with elements. It has a 15% chance each to poison, leech, or waterlog.
 A tremendous strike that clears any active weather.
@@ -34948,8 +34948,8 @@ The user entangles the target's mind with dark thoughts, leeching it.
 The user entangles the target's mind with dark thoughts, leeching it.
 The user invades deep into the target's mind, leeching it.
 The user invades deep into the target's mind, leeching it.
-The user demands tribute from the target. Much money is earned after the battle.
-The user demands tribute from the target. Much money is earned after the battle.
+The user demands tribute from the target. Money is earned after the battle.
+The user demands tribute from the target. Money is earned after the battle.
 The user steals the target's stat boosts, and then attacks. Goes last.
 The user steals the target's stat boosts, and then attacks. Goes last.
 The user slashes all around them, creating deep scars. This lowers each target's Attack.
@@ -38260,6 +38260,8 @@ Burn Skill
 Burn Skill
 Candy Veil
 Candy Veil
+Cash Out
+Cash Out
 Challenger
 Challenger
 Chilled Body
@@ -38828,8 +38830,6 @@ Predation
 Predation
 Pressure Valve
 Pressure Valve
-Privilege
-Privilege
 Puff Up
 Puff Up
 Punisher
@@ -39687,6 +39687,8 @@ Has a 30% chance to burn targets when using special moves.
 Has a 30% chance to burn targets when using special moves.
 Prevents itself and allies from being poisoned, leeched, or waterlogged.
 Prevents itself and allies from being poisoned, leeched, or waterlogged.
+Upon entry, consumes scattered coins to heal for 1/10th the amount consumed. This can overheal.
+Upon entry, consumes scattered coins to heal for 1/10th the amount consumed. This can overheal.
 Immune to Fighting-type moves, and raises Attack and Sp. Atk if hit by one.
 Immune to Fighting-type moves, and raises Attack and Sp. Atk if hit by one.
 Physical moves against the Pokémon have a 30% chance to frostbite the attacker.
@@ -40253,8 +40255,6 @@ Has a 30% chance to leech targets when using physical moves.
 Has a 30% chance to leech targets when using physical moves.
 Right before the Pokémon is attacked, the attacker's stat changes are reset.
 Right before the Pokémon is attacked, the attacker's stat changes are reset.
-The Pokémon gets +1 to all base stats for every $100 worth of coins scattered on the ground.
-The Pokémon gets +1 to all base stats for every $100 worth of coins scattered on the ground.
 Deals 25% more damage per stockpile.
 Deals 25% more damage per stockpile.
 Special moves against the Pokémon have a 30% chance to leech the attacker.
@@ -48295,6 +48295,8 @@ The effects of the weather disappeared.
 The effects of the weather disappeared.
 All stat changes were eliminated!
 All stat changes were eliminated!
+{1} gobbles up the scattered coins!
+{1} gobbles up the scattered coins!
 Which item should {1} drop?
 Which item should {1} drop?
 {1} dropped its {2}!
@@ -49731,8 +49733,8 @@ The warped gravity was forced back to normal!
 The warped gravity was forced back to normal!
 A deluge of ions showers the battlefield!
 A deluge of ions showers the battlefield!
-Coins were scattered everywhere!
-Coins were scattered everywhere!
+{1} coins were scattered to the ground!
+{1} coins were scattered to the ground!
 Gas nullified all abilities!
 Gas nullified all abilities!
 The Neutralizing Gas dissipated.
