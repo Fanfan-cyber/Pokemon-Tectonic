@@ -85,9 +85,9 @@ Power = 90
 Accuracy = 100
 TotalPP = 15
 Target = NearOther
-FunctionCode = AddLotsOfMoneyGainedFromBattle
+FunctionCode = AddMoneyGainedFromBattle
 Flags = CanProtect
-Description = The user attacks with the full force of The Market. Much money is earned after the battle.
+Description = The user attacks with the full force of The Market. Money is earned after the battle.
 #-------------------------------
 [CHAOSWHEEL]
 Name = Chaos Wheel
@@ -6933,9 +6933,9 @@ Power = 90
 Accuracy = 100
 TotalPP = 15
 Target = NearOther
-FunctionCode = AddLotsOfMoneyGainedFromBattle
+FunctionCode = AddMoneyGainedFromBattle
 Flags = CanProtect
-Description = The user demands tribute from the target. Much money is earned after the battle.
+Description = The user demands tribute from the target. Money is earned after the battle.
 #-------------------------------
 [SCAM]
 Name = Scam

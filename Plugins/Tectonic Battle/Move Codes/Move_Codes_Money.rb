@@ -3,16 +3,7 @@
 #===============================================================================
 class PokeBattle_Move_AddMoneyGainedFromBattle < PokeBattle_Move
     def pbEffectGeneral(user)
-        user.generateMoney(10)
-    end
-end
-
-#===============================================================================
-# Scatters lots of coins that the player picks up after winning the battle. (Cha-ching)
-#===============================================================================
-class PokeBattle_Move_AddLotsOfMoneyGainedFromBattle < PokeBattle_Move
-    def pbEffectGeneral(user)
-        user.generateMoney(15)
+        user.generateMoney(8)
     end
 end
 

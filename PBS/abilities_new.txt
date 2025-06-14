@@ -260,6 +260,10 @@ Description = Has a 30% chance to burn targets when using special moves.
 Name = Candy Veil
 Description = Prevents itself and allies from being poisoned, leeched, or waterlogged.
 #-------------------------------
+[CASHOUT]
+Name = Cash Out
+Description = Upon entry, consumes scattered coins to heal for 1/10th the amount consumed. This can overheal.
+#-------------------------------
 [CHALLENGER]
 Name = Challenger
 Description = Immune to Fighting-type moves, and raises Attack and Sp. Atk if hit by one.
@@ -1461,10 +1465,6 @@ Description = Has a 30% chance to leech targets when using physical moves.
 Name = Pressure Valve
 Description = Right before the Pokémon is attacked, the attacker's stat changes are reset.
 Flags = SetupCounterAI
-#-------------------------------
-[PRIVILEGE]
-Name = Privilege
-Description = The Pokémon gets +1 to all base stats for every $100 worth of coins scattered on the ground.
 #-------------------------------
 [PUFFUP]
 Name = Puff Up

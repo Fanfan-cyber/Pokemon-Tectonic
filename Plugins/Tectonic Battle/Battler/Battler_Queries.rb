@@ -891,6 +891,10 @@ class PokeBattle_Battler
         return @hp <= @totalhp / 2
     end
 
+    def maxOverhealingPossible
+        return (@totalhp * 2) - @hp  
+    end
+
     def overhealed?
         return @hp > @totalhp
     end
