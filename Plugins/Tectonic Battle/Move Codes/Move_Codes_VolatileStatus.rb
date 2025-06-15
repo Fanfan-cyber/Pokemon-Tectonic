@@ -461,6 +461,32 @@ class PokeBattle_Move_CurseTarget < PokeBattle_Move
 end
 
 #===============================================================================
+# Curses the targey. Money is gained from curse damage. (Pharaoh's Curse)
+#===============================================================================
+class PokeBattle_Move_CurseTargetEarnMoneyFromCurse < PokeBattle_Move_CurseTarget
+    def pbFailsAgainstTarget?(user, target, show_message)
+        return false if damagingMove?
+        if target.effectActive?(:Curse) && target.effectActive?(:PharaohsCurse)
+            @battle.pbDisplay(_INTL("But it failed, since {1} is already cursed by the Pharoh!", target.pbThis(true))) if show_message
+            return true
+        end
+        return false
+    end
+
+    def pbEffectAgainstTarget(user, target)
+        return if damagingMove?
+        target.applyEffect(:Curse) unless target.effectActive?(:Curse)
+        target.applyEffect(:PharaohsCurse) unless target.effectActive?(:PharaohsCurse)
+    end
+
+    def pbAdditionalEffect(user, target)
+        return if target.damageState.substitute
+        target.applyEffect(:Curse) unless target.effectActive?(:Curse)
+        target.applyEffect(:PharaohsCurse) unless target.effectActive?(:PharaohsCurse)
+    end
+end
+
+#===============================================================================
 # Curses the target by spending 1/4th of the user's HP. (Cursed Oath)
 #===============================================================================
 class PokeBattle_Move_CurseTargetUserPaysQuarterOfTotalHP < PokeBattle_Move_CurseTarget

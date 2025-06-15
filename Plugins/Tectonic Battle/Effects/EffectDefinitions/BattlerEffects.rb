@@ -154,13 +154,27 @@ GameData::BattleEffect.register_effect(:Battler, {
     :eor_proc => proc do |battle, battler, _value|
         if battler.takesIndirectDamage?
             battle.pbDisplay(_INTL("{1} is afflicted by the curse!", battler.pbThis))
-            battler.applyFractionalDamage(CURSE_DAMAGE_FRACTION, false)
+            curseDamage = battler.applyFractionalDamage(CURSE_DAMAGE_FRACTION, false)
+            if battler.effectActive?(:PharaohsCurse) && !battler.pbOwnedByPlayer?
+                moneyEarned = curseDamage * 10
+                battle.field.incrementEffect(:PayDay, moneyEarned)
+            end
         end
     end,
     :stay_in_rating_proc => proc do |battle, battler, value, stay_in_rating|
         stay_in_rating -= 25
         next stay_in_rating
     end
+})
+
+GameData::BattleEffect.register_effect(:Battler, {
+    :id => :PharaohsCurse,
+    :real_name => "Pharoah's Curse",
+    :baton_passed => true,
+    :avatars_purge => true,
+    :apply_proc => proc do |battle, battler, _value|
+        battle.pbDisplay(_INTL("It's pain becomes golden coins!"))
+    end,
 })
 
 GameData::BattleEffect.register_effect(:Battler, {

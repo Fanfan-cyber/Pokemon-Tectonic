@@ -31,10 +31,7 @@ class PokeBattle_Battler
     end
 
     def allStatBonus
-        if hasActiveAbility?(:PRIVILEGE)
-            return @battle.field.countEffect(:PayDay) / 100
-        end
-        return 0  
+        return 0
     end
 
     def puzzleRoom?

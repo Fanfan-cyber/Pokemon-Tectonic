@@ -1138,6 +1138,7 @@ BattleHandlers::AbilityOnSwitchIn.add(:CASHOUT,
       battler.showMyAbilitySplash(ability)
       healingMessage = _INTL("{1} gobbles up the scattered coins!",battler.pbThis)
       battler.pbRecoverHP(healingAmt, true, true, true, healingMessage, canOverheal: true)
+      battle.field.effects[:PayDay] -= coinsToConsume
       battler.hideMyAbilitySplash
   }
 )
