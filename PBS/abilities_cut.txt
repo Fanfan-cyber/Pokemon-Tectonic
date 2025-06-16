@@ -340,6 +340,10 @@ Description = Its physical attacks reduce the target's Defense.
 Name = Guts
 Description = Boosts Attack by 33% if has a status condition. Ignores burn physical damage reduction.
 #-------------------------------
+[HARDWORKER]
+Name = Hard Worker
+Description = Increases the money gained from battles in which it participates by 50%.
+#-------------------------------
 [HARSHTRAINING]
 Name = Harsh Training
 Description = Blocks random added effects of attacks taken, and prevents critical hits.

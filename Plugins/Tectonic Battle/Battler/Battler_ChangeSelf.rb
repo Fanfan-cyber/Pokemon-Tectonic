@@ -761,6 +761,7 @@ class PokeBattle_Battler
 =begin
             eachLegalAbility do |legalAbility|
                 next if @ability_ids.include?(legalAbility)
+                next if GameData::Ability.get(legalAbility).is_immutable_ability?
                 @ability_ids.push(legalAbility)
                 @addedAbilities.push(legalAbility)
             end

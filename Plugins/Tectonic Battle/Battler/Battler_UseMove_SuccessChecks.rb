@@ -242,6 +242,20 @@ GameData::Move.get(@effects[:GorillaTactics]).name)
             end
         end
 
+        # Pacifist
+        if hasActiveAbility?(:PACIFIST)
+            if aiCheck
+                echoln("\t\t[AI FAILURE CHECK] #{pbThis} rejects the move #{move.id} due to it being predicted to refuse to move (Pacifist)")
+                return false
+            else
+                showMyAbilitySplash(:PACIFIST)
+                @battle.pbDisplay(_INTL("{1} refuses to battle!", pbThis))
+                onMoveFailed(move)
+                hideMyAbilitySplash
+                return false
+            end
+        end
+
         # Truant
         if hasActiveAbility?(:TRUANT)
             if aiCheck

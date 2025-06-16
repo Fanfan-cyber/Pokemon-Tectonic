@@ -251,19 +251,23 @@ class PokeBattle_Scene
         cmdSummary = -1
         cmdPokedex = -1
         commands = []
-        commands[cmdSwitch  = commands.length] = _INTL("Switch In") if modParty[idxParty].able?
+        commands[cmdSwitch  = commands.length] = _INTL("Switch In") if modParty[idxParty].able?(true)
         commands[cmdSummary = commands.length] = _INTL("Summary")
         commands[cmdPokedex = commands.length] = _INTL("MasterDex") if !modParty[idxParty].egg? && $Trainer.has_pokedex
         commands[commands.length]              = _INTL("Cancel")
         command = scene.pbShowCommands(_INTL("Do what with {1}?",modParty[idxParty].name),commands)
         if cmdSwitch >= 0 && command==cmdSwitch        # Switch In
-          idxPartyRet = -1
-          partyPos.each_with_index do |pos,i|
-            next if pos!=idxParty+partyStart
-            idxPartyRet = i
-            break
+          if modParty[idxParty].hasAbility?(:PACIFIST)
+            pbMessage(_INTL("{1} refuses to join the battle. It's a pacifist!", modParty[idxParty].name))
+          else
+            idxPartyRet = -1
+            partyPos.each_with_index do |pos,i|
+              next if pos!=idxParty+partyStart
+              idxPartyRet = i
+              break
+            end
+            break if yield idxPartyRet, switchScreen
           end
-          break if yield idxPartyRet, switchScreen
         elsif cmdSummary >= 0 && command==cmdSummary   # Summary
           scene.pbSummary(idxParty,@battle)
         elsif cmdPokedex >= 0 && command==cmdPokedex

@@ -6,14 +6,8 @@ def pbWildBattleCore(*args)
     canLose    = $PokemonTemp.battleRules["canLose"] || false
     # Skip battle if the player has no able Pokémon, or if holding Ctrl in Debug mode
     if $Trainer.able_pokemon_count == 0 || ($DEBUG && Input.press?(Input::CTRL))
-      pbMessage(_INTL("SKIPPING BATTLE...")) if $Trainer.pokemon_count > 0
-      pbSet(outcomeVar,1)   # Treat it as a win
-      $PokemonTemp.clearBattleRules
-      $PokemonGlobal.nextBattleBGM       = nil
-      $PokemonGlobal.nextBattleME        = nil
-      $PokemonGlobal.nextBattleCaptureME = nil
-      $PokemonGlobal.nextBattleBack      = nil
-      pbMEStop
+      pbMessage(_INTL("SKIPPING BATTLE..."))
+      skipBattle(outcomeVar)
       return 1   # Treat it as a win
     end
     # Record information about party Pokémon to be used at the end of battle (e.g.
@@ -39,6 +33,33 @@ def pbWildBattleCore(*args)
       end
     end
     raise _INTL("Expected a level after being given {1}, but one wasn't found.",sp) if sp
+
+    # Check for pacifists
+    pacifistCount = 0
+    foeParty.each do |foePartyMember|
+        next unless foePartyMember.hasAbility?(:PACIFIST)
+        if foeParty.length > 1
+          pbMessage(_INTL("What? One of the wild Pokémon is a pacifist!"))
+        else
+          pbMessage(_INTL("What? The wild Pokémon is a pacifist!"))
+        end
+        pbMessage(_INTL("It's a {1}.",foePartyMember.name))
+        pbMessage(_INTL("It offers to join you willingly!"))
+        if pbConfirmMessage(_INTL("Accept the {1}'s offer to join you?",foePartyMember.name))
+          pbAddPokemon(foePartyMember)
+        else
+          pbMessage(_INTL("The {1} slinks away, disappointed...",foePartyMember.name))
+        end
+        pacifistCount += 1
+    end
+
+    if foeParty.length == pacifistCount # All wild foes are pacifists, so end the battle immediately
+      skipBattle(4)
+      return 4
+    else
+      foeParty = foeParty.delete_if {|foePartyMember| foePartyMember.hasAbility?(:PACIFIST)}
+    end
+
     # Calculate who the trainers and their party are
     playerTrainers    = [$Trainer]
     playerParty       = $Trainer.party
@@ -75,6 +96,16 @@ def pbWildBattleCore(*args)
     #    5 - Draw
     pbSet(outcomeVar,decision)
     return decision
+  end
+
+  def skipBattle(outcomeVar = 1,outcome = 1)
+    pbSet(outcomeVar,outcome)  # Treat it as a win by default
+    $PokemonTemp.clearBattleRules
+    $PokemonGlobal.nextBattleBGM       = nil
+    $PokemonGlobal.nextBattleME        = nil
+    $PokemonGlobal.nextBattleCaptureME = nil
+    $PokemonGlobal.nextBattleBack      = nil
+    pbMEStop
   end
   
   #===============================================================================

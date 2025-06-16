@@ -173,7 +173,7 @@ class PokemonStorageScreen
     end
 
     def pbAble?(pokemon)
-        pokemon && !pokemon.egg? && pokemon.hp > 0
+        pokemon && pokemon.able?
     end
 
     def pbAbleCount

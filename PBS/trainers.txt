@@ -4555,18 +4555,18 @@ Pokemon = ATLACROSS,70
     AbilityIndex = 0 # Skill Link
     Item = SCOPELENS
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-    EV = 20,20,0,3,20,7
+    EV = 15,20,0,15,20,0
 Pokemon = URSHIFU,70
     Name = Precipice
-    Moves = WICKEDBLOW,THUNDERPUNCH,CLOSECOMBAT,IRONHEAD
+    Moves = WICKEDBLOW,SURGINGSTRIKES,CLOSECOMBAT,POISONJAB
     AbilityIndex = 0 # Unseen Fist
     Item = LIFEORB
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,20,20,0
 Pokemon = SPIRITOMB,70
-    Moves = DREAMDANCE,WILLOWISP,HEX,BLACKOUT
+    Moves = SWEETSELENE,WILLOWISP,HEX,BLACKOUT
     AbilityIndex = 0 # Bad Influence
-    Item = SALACBERRY
+    Item = REDCARD
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,15,15,0,15,0
 #-------------------------------
@@ -5464,19 +5464,19 @@ Pokemon = GOLURK,65
 Policies = PRESERVE_LAST_POKEMON,HAIL_TEAM
 Flags = NoPerfect
 Pokemon = FROSLASS,70
-    Moves = SNOWYSORROWS,AURORAVEIL,HAIL,DESTINYBOND
+    Moves = SNOWYSORROWS,AURORAVEIL,HAIL,FRIGIDJEALOUSY
     AbilityIndex = 1 # Summit Spirit
     Item = FOCUSSASH
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 0,20,0,20,20,10
 Pokemon = GOLURK,70
-    Moves = THUNDERPUNCH,FIREPUNCH,SIXFEETUNDER,EARTHQUAKE
+    Moves = THUNDERPUNCH,DRAINPUNCH,SIXFEETUNDER,TRAMPLE
     AbilityIndex = 0 # Iron Fist
     Item = SALACBERRY
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,10,20,10
 Pokemon = MAMOSWINE,70
-    Moves = EARTHQUAKE,GLACIALRAM,SUPERPOWER,STONEEDGE
+    Moves = TRAMPLE,GLACIALRAM,SUPERPOWER,STONEEDGE
     AbilityIndex = 1 # Ice Mirror
     Item = CHOICESCARF
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -5488,16 +5488,16 @@ Pokemon = DROMERUPT,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,15,15,0,15,0
 Pokemon = CHIMECHO,70
-    Moves = SUFFOCATE,DREAMABSORB,SIGNALBEAM,CHARGEBEAM
+    Moves = SUFFOCATE,PIERCINGDOUBT,BLIZZARD,BLUSTER
     AbilityIndex = 0 # Brisk
     Item = STRIKEVEST
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,0,20,20
 Pokemon = WEAVILE,70
     Name = Cadenza
-    Moves = ICECALIBUR,KNOCKOFF,PSYCHOSCISSION,LEAFBLADE
+    Moves = ICEPICK,SEVER,PSYCHOSCISSION,LEAFBLADE
     AbilityIndex = 0 # Inner Focus
-    Item = LIFEORB
+    Item = SCOPELENS
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,20,20,0
 #-------------------------------

@@ -514,7 +514,7 @@ def pbMessageDisplay(msgwindow, message, letterbyletter = true, commandProc = ni
     ### Controls
     textchunks = []
     controls = []
-    while text[/(?:\\(f|ff|i|db|ts|cl|me|se|wt|wtnp|ch)\[([^\]]*)\]|\\(g|cn|pt|wd|wm|wu|wl|wr|op|cl|or|ss|\.|\||!|\^))/i]
+    while text[/(?:\\(f|ff|i|p|db|ts|cl|me|se|wt|wtnp|ch)\[([^\]]*)\]|\\(g|cn|pt|wd|wm|wu|wl|wr|op|cl|or|ss|\.|\||!|\^))/i]
         textchunks.push($~.pre_match)
         if $~[1]
             controls.push([$~[1].downcase, $~[2], -1])
@@ -579,6 +579,14 @@ def pbMessageDisplay(msgwindow, message, letterbyletter = true, commandProc = ni
             icon_location = GameData::Item.icon_filename(param)
             facewindow = PictureWindow.new(icon_location)
             facewindow.visible = false
+        when "p"
+            facewindow.dispose if facewindow
+            partyMember = $Trainer.party[param.to_i]
+            if partyMember
+                partyMemberBitmap = GameData::Species.sprite_bitmap_from_pokemon($Trainer.party[param.to_i])
+                facewindow = PictureWindow.new(partyMemberBitmap.bitmap)
+                facewindow.visible = false
+            end
         when "db" # Display big
             iconwindow.dispose if iconwindow
             icon_location = "Graphics/#{param}"
@@ -672,6 +680,25 @@ def pbMessageDisplay(msgwindow, message, letterbyletter = true, commandProc = ni
                     elsif facewindow
                         facewindow.y = Graphics.height - facewindow.height * (signWaitTime - signWaitCount) / signWaitTime
                     end
+                end
+            when "p"
+                facewindow.dispose if facewindow
+                partyMember = $Trainer.party[param.to_i]
+                if partyMember
+                    partyMemberBitmap = GameData::Species.sprite_bitmap_from_pokemon(partyMember)
+                    facewindow = PictureWindow.new(partyMemberBitmap.bitmap)
+                    pbPositionNearMsgWindow(facewindow, msgwindow, :left)
+                    facewindow.viewport = msgwindow.viewport
+                    facewindow.z        = msgwindow.z
+                    facewindow.x = 0
+                    if signWaitCount > 0
+                        if atTop
+                            facewindow.y = -facewindow.height * signWaitCount / signWaitTime if facewindow
+                        elsif facewindow
+                            facewindow.y = Graphics.height - facewindow.height * (signWaitTime - signWaitCount) / signWaitTime
+                        end
+                    end
+                    Pokemon.play_cry(partyMember.species)
                 end
             when "db"
                 iconwindow.dispose if facewindow

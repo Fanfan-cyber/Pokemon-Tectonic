@@ -75,7 +75,10 @@ def perfectDoubleAncientTrainer(event1,event2,giveDrop=PERFECTED_REGULAR_TRAINER
 end
 
 def pbTrainerDropsItem(maxTrainerLevel = 15,multiplier=1,plural=false)
-	itemsGiven = candiesForLevel(maxTrainerLevel)
+	itemsGiven = candiesForLevel(maxTrainerLevel)\
+
+	pacifist, pacifistPartyIndex = pacifistPartyMember
+	multiplier *= 2 if pacifist
 	
 	total = 0
 	for i in 0...itemsGiven.length/2
@@ -95,10 +98,20 @@ def pbTrainerDropsItem(maxTrainerLevel = 15,multiplier=1,plural=false)
 			pbMessage(_INTL("The fleeing trainer dropped some candies!"))
 		end
 	end
+
+	pbMessage(_INTL("\\p[{1}]Also, {2} found some more candy nearby!",pacifistPartyIndex,pacifist.name)) if pacifist
 	
 	for i in 0...itemsGiven.length/2
 		pbReceiveItem(itemsGiven[i*2],itemsGiven[i*2 + 1])
 	end
+end
+
+def pacifistPartyMember
+  $Trainer.party.each_with_index do |partyMember, index|
+    next unless partyMember
+    return partyMember, index if partyMember.hasAbility?(:PACIFIST)
+  end
+  return nil, 0
 end
 
 def candiesForLevel(level)

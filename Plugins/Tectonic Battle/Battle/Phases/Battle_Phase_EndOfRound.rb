@@ -24,6 +24,7 @@ class PokeBattle_Battle
                 possibleAbilitySwitches = []
                 b.legalAbilities.each do |abil|
                     next if b.hasAbility?(abil)
+                    next if GameData::Ability.get(abil).is_immutable_ability?
                     possibleAbilitySwitches.push(abil)
                 end
                 next unless possibleAbilitySwitches.length >= 1
