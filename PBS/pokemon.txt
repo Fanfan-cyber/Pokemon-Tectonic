@@ -13794,8 +13794,8 @@ Evolutions = COFAGRIGUS,Level,34
 Name = Cofagrigus
 Type1 = GHOST
 # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-BaseStats = 68,50,145,30,95,105
-# Total = 493
+BaseStats = 68,50,155,30,95,105
+# Total = 503
 BaseEXP = 169
 Rareness = 70
 Happiness = 50
@@ -13814,8 +13814,8 @@ Name = G. Yamask
 Type1 = ROCK
 Type2 = GHOST
 # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-BaseStats = 38,55,105,30,40,90
-# Total = 358
+BaseStats = 38,55,105,30,40,95
+# Total = 363
 BaseEXP = 61
 Rareness = 145
 Happiness = 50

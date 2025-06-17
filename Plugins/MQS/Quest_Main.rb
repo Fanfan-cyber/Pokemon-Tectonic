@@ -13,8 +13,8 @@ class Quest
   def initialize(id,colorID,story)
     self.id       = id
     self.stage    = 1
-    self.time     = Time.now
-    self.location = $game_map.name
+    self.time     = $game_map ? Time.now : _INTL("???")
+    self.location = $game_map ? $game_map.name : _INTL("???")
     self.new      = true
     self.colorID  = colorID
     self.story    = story

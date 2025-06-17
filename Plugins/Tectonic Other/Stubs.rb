@@ -16,8 +16,5 @@ end
 class Player_Quests
 end
 
-class Quest
-end
-
 class GameStats
 end
