@@ -88,6 +88,7 @@ Target = NearOther
 FunctionCode = AddMoneyGainedFromBattle
 Flags = CanProtect
 Description = The user attacks with the full force of The Market. Money is earned after the battle.
+Animation = PAYDAY
 #-------------------------------
 [CHAOSWHEEL]
 Name = Chaos Wheel
@@ -1226,6 +1227,20 @@ Animation = GUST
 #-------------------------------
 #		POISON MOVES
 #-------------------------------
+[ACIDBALL]
+Name = Acid Ball
+Type = POISON
+Category = Special
+Power = 90
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = LowerTargetSpDef1
+Flags = CanProtect
+EffectChance = 20
+Description = The user lobs harsh acid at the target. It has a 20% chance to lower Sp. Def.
+Animation = ACID
+#-------------------------------
 [ACIDBATH]
 Name = Acid Bath
 Type = POISON
@@ -1343,15 +1358,15 @@ Animation = POISONSTING
 Name = Miasma
 Type = POISON
 Category = Special
-Power = 90
+Power = 80
 Accuracy = 100
 TotalPP = 15
 Target = NearOther
-FunctionCode = LowerTargetSpDef1
+FunctionCode = Poison
 Flags = CanProtect,Wind
-EffectChance = 20
-Description = The user envelops the target in a foul wind. It has a 20% chance to lower Sp. Def.
-Animation = ACIDSPRAY
+EffectChance = 30
+Description = The user envelops the target in a foul wind. It has a 30% chance to poison.
+Animation = SMOG
 #-------------------------------
 [MURKYFOG]
 Name = Murky Fog
@@ -1419,20 +1434,6 @@ Flags = CanProtect
 Description = The user attacks with cloying slime, rendering the target's item sticky and unusable.
 Animation = SLUDGEBOMB
 #-------------------------------
-[SMOGSTORM]
-Name = Smog Storm
-Type = POISON
-Category = Special
-Power = 80
-Accuracy = 100
-TotalPP = 5
-Target = AllNearFoes
-FunctionCode = Poison
-Flags = CanProtect,Wind
-EffectChance = 30
-Description = Summons a storm of poisonous gas to hit all nearby Pokémon with a 30% chance to poison.
-Animation = SMOG
-#-------------------------------
 [STINGINGJEALOUSY]
 Name = Stinging Jealousy
 Type = POISON
@@ -1469,7 +1470,7 @@ TotalPP = 10
 Target = NearFoe
 Priority = -6
 FunctionCode = SwitchOutTargetAndUserStatusMove
-Flags = CanMagicCoat
+Flags = CanMagicCoat,Wind
 Description = The foe is forced to switch out by a stinky cloud, then the user also switches. Always goes last.
 Animation = STINKCLOUD
 #-------------------------------
@@ -3294,6 +3295,7 @@ Target = NearOther
 FunctionCode = IfFaintsTargetAddTonsOfMoneyGainedFromBattle
 Flags = CanProtect,Blade
 Description = The user attacks the target with a sword. If it faints, tons of money is earned after the battle.
+Animation = SACREDSWORD
 #-------------------------------
 [POLARIZEDROOM]
 Name = Polarized Room
@@ -6416,6 +6418,7 @@ Target = NearOther
 FunctionCode = HitTwoToFiveTimesAddMoneyGainedFromBattleEachHit
 Flags = CanProtect
 Description = The user makes an offering, then attacks two to five times. Money is earned for each hit.
+Animation = PAYDAY
 #-------------------------------
 [SCALEGLINT]
 Name = Scale Glint
@@ -6948,6 +6951,7 @@ Target = NearOther
 FunctionCode = AddMoneyGainedFromBattle
 Flags = CanProtect
 Description = The user demands tribute from the target. Money is earned after the battle.
+Animation = PAYDAY
 #-------------------------------
 [SCAM]
 Name = Scam
@@ -7146,6 +7150,19 @@ Flags = CanProtect
 EffectChance = 50
 Description = The target is pranked with a huge bucket of water. This has a 50% chance to waterlog it.
 Animation = HYDROVORTEX
+#-------------------------------
+[CHARITY]
+Name = Charity
+Type = FAIRY
+Category = Special
+Power = 50
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = ScalesCreatedMoney
+Flags = CanProtect
+Description = The user hits the target with a generous donation. Consumes up to 1000 scattered coins. Base power is boosted by 10 for every 100 coins consumed.
+Animation = PAYDAY
 #-------------------------------
 [CRUELKISS]
 Name = Cruel Kiss

@@ -187,3 +187,11 @@ def encode_team(party)
 
   return code
 end
+
+def load_team_code()
+  mon_indices = $Trainer.party.map { |mon| pokemon_to_indices(mon) }
+  code = encode_team(mon_indices)
+  domain = Settings::DEV_VERSION ? "tectonic-dev" : "tectonic"
+  System.launch("https://#{domain}.alphakretin.com/teambuilder?team=#{code}")
+  pbMessage(_INTL("Pokémon team opened in team builder website."))
+end

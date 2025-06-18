@@ -1196,6 +1196,20 @@ Flags = CanProtect
 EffectChance = 30
 Description = Unsanitary sludge is hurled at the target. It has a 30% chance to poison.
 #-------------------------------
+[SMOGSTORM]
+Name = Smog Storm
+Type = POISON
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 5
+Target = AllNearFoes
+FunctionCode = Invalid
+Flags = CanProtect,Wind
+EffectChance = 30
+Description = Summons a storm of poisonous gas to hit all nearby Pokémon with a 30% chance to poison.
+Animation = SMOG
+#-------------------------------
 [TOXIC]
 Name = Toxic
 Type = POISON
@@ -3375,3 +3389,16 @@ FunctionCode = Invalid
 Flags = CanProtect,CanMagicCoat
 Description = Dizzies the target by putting them under a magical spell.
 Animation = CHARM
+#-------------------------------
+[STRANGESTEAM]
+Name = Strange Steam
+Type = FAIRY
+Category = Special
+Power = 90
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = Invalid
+Flags = CanProtect,Wind
+EffectChance = 30
+Description = The user attacks the target by emitting steam. It has a 30% chance to dizzy.

@@ -2048,7 +2048,7 @@ Pokemon = GRAPIDASH,40
     Moves = PLAYROUGH,PSYCHOSCISSION,FLOWSTATE
     AbilityIndex = 1 # Heart of Justice
 Pokemon = GWEEZING,40
-    Moves = STRANGESTEAM,MIASMA,GREYMIST,POISONGAS
+    Moves = DRAININGKISS,MIASMA,GREYMIST,POISONGAS
     AbilityIndex = 1 # Industrialize
 Pokemon = OBSTAGOON,40
     Moves = OBSTRUCT,THROATCHOP,CHAOSWHEEL,SLACKOFF
@@ -4744,7 +4744,7 @@ Pokemon = PALMANTRA,59
     AbilityIndex = 0 # Middle Way
     Item = ASSAULTVEST
 Pokemon = ARBOK,59
-    Moves = GLARE,MIASMA,CRUNCH,GALLINGSPIT
+    Moves = GLARE,ACIDBALL,CRUNCH,GALLINGSPIT
     AbilityIndex = 0 # Intimidate
 Pokemon = WISHIWASHI,59
     Moves = AQUAJET,FLIPTURN,WATERLOG,EARTHPOWER
@@ -6037,7 +6037,7 @@ Pokemon = FEAROW,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,10,0,0,10,20
 Pokemon = ARCLAMOR,70
-    Moves = DISCHARGE,MIASMA,LIGHTNINGDANCE,RISINGPOWER
+    Moves = DISCHARGE,ACIDBALL,LIGHTNINGDANCE,RISINGPOWER
     AbilityIndex = 1 # Thunderstruck
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,20,20,0
@@ -7109,7 +7109,7 @@ Pokemon = SUNFLORA,70
     AbilityIndex = 1 # Drought
     Item = HEATROCK
 Pokemon = ESPEON,70
-    Moves = WEATHERBURST,PIERCINGDOUBT,PSYCHESWITCH,MIASMA
+    Moves = WEATHERBURST,PIERCINGDOUBT,PSYCHESWITCH,ACIDBALL
     AbilityIndex = 0 # Overthinking
 Pokemon = CHERRIM,70
     Moves = WEATHERBURST,SOLARGLIDE,INFERNOIMPACT,PLAYROUGH
@@ -7149,7 +7149,7 @@ Pokemon = SCEPTILE,54
     Moves = LEAFSTORM,WEATHERBURST,CALAMITOUSSLASH,ACROBATICS
     AbilityIndex = 1 # Wall Ninja
 Pokemon = REUNICLUS,53
-    Moves = MIASMA,PIERCINGDOUBT,ECLIPSE,RECOVER
+    Moves = ACIDBALL,PIERCINGDOUBT,ECLIPSE,RECOVER
     AbilityIndex = 0 # Extremophile
 #-------------------------------
 [SCHOOLKID_F2,Honesty]
@@ -7231,7 +7231,7 @@ Pokemon = FERROTHORN,60
     Moves = POWERWHIP,IMPALINGSPIKE,LEECHSEED,SWORDSDANCE
     AbilityIndex = 0 # Iron Barbs
 Pokemon = REUNICLUS,60
-    Moves = PIERCINGDOUBT,MIASMA,STINGINGJEALOUSY,THUNDERBOLT
+    Moves = PIERCINGDOUBT,ACIDBALL,STINGINGJEALOUSY,THUNDERBOLT
     AbilityIndex = 1 # Juggernaut
     Item = PSYCHICGEM
 Pokemon = VIVILLON,60
@@ -8577,7 +8577,7 @@ Pokemon = GYARADOS,70
     AbilityIndex = 0 # Intimidate
     Item = SITRUSBERRY
 Pokemon = GENGAR,70
-    Moves = THUNDER,BLIZZARD,SMOGSTORM,SHADOWBALL
+    Moves = THUNDER,BLIZZARD,ACIDBALL,SHADOWBALL
     AbilityIndex = 1 # Break Through
 #-------------------------------
 [RICHCOUPLE,Diana and Edward]

@@ -120,7 +120,7 @@ class PokeBattle_Move_RaiseUserMainStats2LoseThirdOfTotalHP < PokeBattle_MultiSt
 
     def getEffectScore(user, target)
         score = super
-        score += getHPLossEffectScore(user, 0.33)
+        score += getHPLossEffectScore(user, 0.5) # intentionally higher than it looks like it should be
         return score
     end
 end

@@ -6655,19 +6655,6 @@ EffectChance = 30
 Description = The user attacks foes with love and hate. It has a 30% chance to lower both Attack and Sp. Atk.
 Animation = HURRICANE
 #-------------------------------
-[STRANGESTEAM]
-Name = Strange Steam
-Type = FAIRY
-Category = Special
-Power = 90
-Accuracy = 100
-TotalPP = 10
-Target = NearOther
-FunctionCode = Dizzy
-Flags = CanProtect,Wind
-EffectChance = 30
-Description = The user attacks the target by emitting steam. It has a 30% chance to dizzy.
-#-------------------------------
 [SWEETKISS]
 Name = Sweet Kiss
 Type = FAIRY

@@ -172,3 +172,34 @@ class PokeBattle_Move_ScalesTallerThanTarget < PokeBattle_Move
         return ret
     end
 end
+
+#===============================================================================
+# Power increases by consuming payday coins. (up to 1000). (Charity)
+#===============================================================================
+class PokeBattle_Move_ScalesCreatedMoney < PokeBattle_Move
+    def initialize(battle, move)
+        super
+        @coinsToConsume = 0
+    end
+
+    def pbOnStartUse(user, targets)
+        @coinsToConsume = [@battle.field.countEffect(:PayDay),1000].min
+    end
+
+    def pbBaseDamage(baseDmg, _user, _target)
+        baseDmg += (@coinsToConsume / 10).floor
+        return baseDmg
+    end
+
+    def pbEffectAfterAllHits(user, target)
+        beforeCoins = @battle.field.effects[:PayDay]
+        @battle.field.effects[:PayDay] -= @coinsToConsume
+        @battle.field.effects[:PayDay] = 0 if @battle.field.effects[:PayDay] < 0
+        actualCoinAmountConsumed = beforeCoins - @battle.field.effects[:PayDay]
+        if actualCoinAmountConsumed > 0
+            @battle.pbDisplay(_INTL("{1} coins were used in the attack!", actualCoinAmountConsumed))
+        else
+            @battle.pbDisplay(_INTL("There were no coins to use in the attack...", actualCoinAmountConsumed))
+        end
+    end
+end
