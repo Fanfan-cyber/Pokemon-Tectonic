@@ -6593,11 +6593,11 @@ Name = Call of the Void
 Type = DARK
 Category = Status
 Accuracy = 100
-TotalPP = 1
+TotalPP = 3
 Target = AllNearFoes
-FunctionCode = SleepTargetNextTurn
+FunctionCode = SacrificeAllySleepTargetNextTurn
 Flags = CanProtect,CanMagicCoat
-Description = All near foes are dragged into a world of total darkness that makes them drowsy. Only one use per battle.
+Description = The user sacrifices their ally to cover all near foes in total darkness. They become drowsy.
 Animation = DARKVOID
 #-------------------------------
 [CALTROPARTS]

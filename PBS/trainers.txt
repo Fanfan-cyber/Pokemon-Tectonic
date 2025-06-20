@@ -9399,6 +9399,10 @@ Pokemon = INTELEON,60
     Moves = SNIPESHOT,UTURN,TOTALCONTROL,SUFFOCATE
     AbilityIndex = 0 # Sniper
     Item = SCOPELENS
+Pokemon = GRAPIDASH,60
+    Moves = PSYCHOSCISSION,MISADVENTURE,ELECTROSLASH,UTURN
+    AbilityIndex = 0 # Joyous Sorrow
+    Item = LIFEORB
 #-------------------------------
 [POKEMONRANGER_F2,Amber]
 TrainerTypeLabel = CHASMGANG
@@ -9423,6 +9427,10 @@ Pokemon = AMOONGUSS,60
     Moves = SPORE,SYNTHESIS,POISONIVY,FRENZYPLANT
     AbilityIndex = 0 # Regenerator
     Item = LEFTOVERS
+Pokemon = HEATMOR,60
+    Moves = OVERHEAT,FLECHETTES,GIGADRAIN,SCORCHINGSANDS
+    AbilityIndex = 1 # Pure Energy
+    Item = CHOICESCARF
 #-------------------------------
 [POKEMONRANGER_M,Terrance]
 TrainerTypeLabel = CHASMGANG
@@ -9447,6 +9455,10 @@ Pokemon = JUMPLUFF,60
     Moves = PSYCHIC,PETALDANCE,AIRSLASH,MOONBLAST
     AbilityIndex = 0 # Aerodynamic
     Item = CHOICESPECS
+Pokemon = BARRASKEWDA,60
+    Moves = RAMMINGSPEED,CLOSECOMBAT,PSYCHICFANGS,FLIPTURN
+    AbilityIndex = 0 # Follow Through
+    Item = CHOICEBAND
 #-------------------------------
 [POKEMONRANGER_M3,Micah]
 TrainerTypeLabel = CHASMGANG
