@@ -1,7 +1,8 @@
 *.dat
 !spanish.dat
 !english.dat
-!chinese.dat
+!chinese_simplified.dat
+!chinese_traditional.dat
 !french.dat
 !Time Capsule.dat
 *.bak
