@@ -1214,7 +1214,7 @@ Description = If an attack lowers its HP to half or less, waterlogs the attacker
 #-------------------------------
 [MONKEYMISCHIEF]
 Name = Monkey Mischief
-Description = When hit by another Pokémon, destroys one of the their items.
+Description = When hit by another Pokémon, destroys one of their items.
 #-------------------------------
 [MOONBASKING]
 Name = Moon Basking
@@ -1320,7 +1320,7 @@ Description = Boosts the Accuracy of its allies and itself by 50%.
 #-------------------------------
 [ODDITY]
 Name = Oddity
-Description = Upon entry, creates an Odd Room for four turns, swapping offensive and Defense and Sp. Def.
+Description = Upon entry, creates an Odd Room for four turns, swapping offensive and defensive stats.
 #-------------------------------
 [OFFENSIVE]
 Name = Offensive

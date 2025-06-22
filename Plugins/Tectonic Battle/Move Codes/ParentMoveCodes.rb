@@ -822,7 +822,7 @@ class PokeBattle_WeatherMove < PokeBattle_Move
     def initialize(battle, move)
         super
         @weatherType = :None
-        @durationSet = 8
+        @durationSet = 6
     end
 
     def pbMoveFailed?(_user, _targets, show_message)

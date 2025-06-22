@@ -2567,8 +2567,8 @@ Category = Status
 Accuracy = 0
 TotalPP = 10
 Target = BothSides
-FunctionCode = StartSandstorm8
-Description = Summons sandstorm for eight turns. Damages non-Rock, non-Ground Pokémon every turn.
+FunctionCode = StartSandstorm6
+Description = Summons sandstorm for six turns. Damages non-Rock, non-Ground Pokémon every turn.
 #-------------------------------
 [STEALTHROCK]
 Name = Stealth Rock
@@ -3925,8 +3925,8 @@ Category = Status
 Accuracy = 0
 TotalPP = 10
 Target = BothSides
-FunctionCode = StartSunshine8
-Description = Summons sunshine for eight turns, boosting Fire-type attacks and hindering most others.
+FunctionCode = StartSunshine6
+Description = Summons sunshine for six turns, boosting Fire-type attacks and hindering most others.
 #-------------------------------
 [VCREATE]
 Name = V-create
@@ -4108,8 +4108,8 @@ Category = Status
 Accuracy = 0
 TotalPP = 10
 Target = BothSides
-FunctionCode = StartRainstorm8
-Description = Summons rainstorm for eight turns, boosting Water-type attacks and hindering most others.
+FunctionCode = StartRainstorm6
+Description = Summons rainstorm for six turns, boosting Water-type attacks and hindering most others.
 #-------------------------------
 [RAZORSHELL]
 Name = Razor Shell
@@ -5602,8 +5602,8 @@ Category = Status
 Accuracy = 0
 TotalPP = 10
 Target = BothSides
-FunctionCode = StartHail8
-Description = Summons hail for eight turns. Damages non-Ice, non-Ghost-types every turn.
+FunctionCode = StartHail6
+Description = Summons hail for six turns. Damages non-Ice, non-Ghost-types every turn.
 #-------------------------------
 [ICEBEAM]
 Name = Ice Beam

@@ -1,5 +1,5 @@
 #===============================================================================
-# Renders item unusable (Slime Ball)
+# Renders item unusable (Knock off, Slime Ball)
 #===============================================================================
 class PokeBattle_Move_RemovesTargetItem < PokeBattle_Move
     def pbEffectAgainstTarget(user, target)

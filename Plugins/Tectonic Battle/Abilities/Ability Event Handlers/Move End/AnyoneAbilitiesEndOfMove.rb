@@ -8,7 +8,7 @@ BattleHandlers::AnyoneAbilityEndOfMove.add(:FIESTA,
 BattleHandlers::AnyoneAbilityEndOfMove.add(:ANCESTRALDANCE,
     proc { |ability, battler, user, targets, move, battle|
         next unless move.danceMove?
-        defenseStatStackingAbility(ability, user)
+        defenseStatStackingAbility(ability, battler)
     }
 )
 

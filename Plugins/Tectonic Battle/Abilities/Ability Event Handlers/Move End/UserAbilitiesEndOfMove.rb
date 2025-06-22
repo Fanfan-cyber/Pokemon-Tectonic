@@ -217,7 +217,7 @@ BattleHandlers::UserAbilityEndOfMove.add(:GILD,
           next unless b.hasAnyItem?
           next unless move.knockOffItems(user, b, ability: ability) do |itemRemoved, itemName|
             battle.pbDisplay(_INTL("{1} turned {2}'s {3} into gold!", user.pbThis, b.pbThis(true), itemName))
-            user.generateMoney(5)
+            user.generateMoney(8)
           end
           break
       end

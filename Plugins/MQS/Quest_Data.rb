@@ -423,16 +423,8 @@ module QuestModule
     :QuestDescription => _INTL("An odd girl in the tournament lobby has an offer. A Pokémon you've bonded with fully, for the individual she possesses... Can you make that trade?"),
   }
 
-  QUEST_LEGEND_VOLCANION1 = {
-    :Name => _INTL("WIP: A Clean Library"),
-    :QuestGiver => _INTL("???"),
-    :Stage1 => _INTL("Return post-tournament."),
-    :Location1 => _INTL("Prizca East, Capitol Building"),
-    :QuestDescription => _INTL("WIP: Finally a library in this damned region, maybe there is some interesting information you can learn. Return here after you've beaten the tournament."),
-  }
-
   QUEST_LEGEND_VOLCANION2 = {
-    :Name => _INTL("WIP: Volcanion"),
+    :Name => _INTL("A Clean Library"),
     :QuestGiver => _INTL("Nora"),
     :Stage1 => _INTL("Go to Luxtech to find information."),
     :Stage2 => _INTL("Return to Nora with the USB."),
@@ -440,7 +432,7 @@ module QuestModule
     :Location1 => _INTL("Luxtech Campus, Cold Storage"),
     :Location2 => _INTL("Prizca East, Capitol Building"),
     :Location3 => _INTL("Svait"),
-    :QuestDescription => _INTL("[Placeholder]"),
+    :QuestDescription => _INTL("Finally a library in this damned region, maybe there is some interesting information you can learn."),
   }
 
   QUEST_LEGEND_TRI_ISLAND = {

@@ -5403,8 +5403,8 @@ Category = Status
 Accuracy = 0
 TotalPP = 10
 Target = BothSides
-FunctionCode = StartEclipse8
-Description = Summons eclipse for eight turns, boosting Psychic-type attacks and heralding the total eclipse.
+FunctionCode = StartEclipse6
+Description = Summons eclipse for six turns, boosting Psychic-type attacks and heralding the total eclipse.
 #-------------------------------
 [ENERGYTRICK]
 Name = Energy Trick
@@ -7443,8 +7443,8 @@ Category = Status
 Accuracy = 0
 TotalPP = 10
 Target = BothSides
-FunctionCode = StartMoonglow8
-Description = Summons moonglow for eight turns, boosting Fairy-type attacks and heralding the Full Moon.
+FunctionCode = StartMoonglow6
+Description = Summons moonglow for six turns, boosting Fairy-type attacks and heralding the Full Moon.
 #-------------------------------
 [MORNINGSTAR]
 Name = Morningstar
