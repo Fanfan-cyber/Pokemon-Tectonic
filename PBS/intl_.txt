@@ -3150,18 +3150,18 @@ They beat us sis....
 They beat us sis....
 East: Casaba Villa
 East: Casaba Villa
-I see some prize money on the horizon!
-I see some prize money on the horizon!
-You know what? I'd best be spending me money instead of losin' it!
-You know what? I'd best be spending me money instead of losin' it!
-Well, there goes me shore leave money.
-Well, there goes me shore leave money.
 Didn't see me comin' did ya!?
 Didn't see me comin' did ya!?
 You won't see me goin' will ya?
 You won't see me goin' will ya?
 I'll see you again. You won't see me!
 I'll see you again. You won't see me!
+I see some prize money on the horizon!
+I see some prize money on the horizon!
+You know what? I'd best be spending me money instead of losin' it!
+You know what? I'd best be spending me money instead of losin' it!
+Well, there goes me shore leave money.
+Well, there goes me shore leave money.
 I developed a multi-hit attack during Lambert's self-defense course.
 I developed a multi-hit attack during Lambert's self-defense course.
 I don't get much chance to battle, though.
@@ -3200,20 +3200,6 @@ And I thought thoday couldn't get worth!
 And I thought thoday couldn't get worth!
 And I thought thoday couldn't get worth!!
 And I thought thoday couldn't get worth!!
-Wow, you found me again!
-Wow, you found me again!
-A loss is a loss, I guess I owe you that second TM now.
-A loss is a loss, I guess I owe you that second TM now.
-I'll head back to town now. That was a fun game. I'm pretty worked up, hehe.
-I'll head back to town now. That was a fun game. I'm pretty worked up, hehe.
-You know, I fancy myself quite the battler! Care to see?
-You know, I fancy myself quite the battler! Care to see?
-You... You're quite the battler...\wt[20]
-You... You're quite the battler...\wt[20]
-I-I'm going to leave now.
-I-I'm going to leave now.
-You, defeat me? My goodness!
-You, defeat me? My goodness!
 <i>Sniff sniff</i>
 <i>Sniff sniff</i>
 I can smell energy on you! We must battle!
@@ -3222,6 +3208,20 @@ The stench of defeat!
 The stench of defeat!
 Smell ya later!
 Smell ya later!
+You know, I fancy myself quite the battler! Care to see?
+You know, I fancy myself quite the battler! Care to see?
+You... You're quite the battler...\wt[20]
+You... You're quite the battler...\wt[20]
+I-I'm going to leave now.
+I-I'm going to leave now.
+You, defeat me? My goodness!
+You, defeat me? My goodness!
+Wow, you found me again!
+Wow, you found me again!
+A loss is a loss, I guess I owe you that second TM now.
+A loss is a loss, I guess I owe you that second TM now.
+I'll head back to town now. That was a fun game. I'm pretty worked up, hehe.
+I'll head back to town now. That was a fun game. I'm pretty worked up, hehe.
 Wow, you got here fast!
 Wow, you got here fast!
 It's me again, with another sweet invention.
@@ -3838,6 +3838,10 @@ Feel free to take some!
 Feel free to take some!
 Careful in the mud, though.
 Careful in the mud, though.
+South: Casaba Villa
+South: Casaba Villa
+North: Volcanic Shore
+North: Volcanic Shore
 I came here to rediscover my love of adventure.
 I came here to rediscover my love of adventure.
 Would you mind awfully if we were to battle?
@@ -3846,10 +3850,6 @@ You have thoroughly shamed me...
 You have thoroughly shamed me...
 That was most enjoyable, perhaps we shall cross Pokémon again!
 That was most enjoyable, perhaps we shall cross Pokémon again!
-South: Casaba Villa
-South: Casaba Villa
-North: Volcanic Shore
-North: Volcanic Shore
 There's another bit of text, but it's illegible.
 There's another bit of text, but it's illegible.
 Please be advised!
@@ -11409,30 +11409,26 @@ Everything is awful.
 [Map186]
 The berry plant is growing.
 The berry plant is growing.
-Ranching isn't always easy, but we make do with tools we have.
-Ranching isn't always easy, but we make do with tools we have.
-Sometimes though you realize that you don't have the best tool for the job.
-Sometimes though you realize that you don't have the best tool for the job.
-I went and caught this Castform to help me with the weather.
-I went and caught this Castform to help me with the weather.
-But that's not needed when you can simply use any 'mon with water moves.
-But that's not needed when you can simply use any 'mon with water moves.
-I've already got that, so I'm looking to give this little guy a new home. I'll give it to anyone who can reimburse my costs of $3000.
-I've already got that, so I'm looking to give this little guy a new home. I'll give it to anyone who can reimburse my costs of $3000.
-Oh I know this little one ain't for everyone. If you change your mind, the offer is still open.
-Oh I know this little one ain't for everyone. If you change your mind, the offer is still open.
-Why aren't you a sweetie!
-Why aren't you a sweetie!
-\PN hands over $3000 in exchange.
-\PN hands over $3000 in exchange.
-Take care of them for me!
-Take care of them for me!
-Oh, it looks like you're a little short. The offer's still here, just come back when ya got some more cash.
-Oh, it looks like you're a little short. The offer's still here, just come back when ya got some more cash.
-I'll tell you what, we're gonna have our highest crop yield in our whole seven years of operation!
-I'll tell you what, we're gonna have our highest crop yield in our whole seven years of operation!
-The 'mons here are such hard workers.
-The 'mons here are such hard workers.
+A Durant swarm came through here the other day.
+A Durant swarm came through here the other day.
+No clue how—Durant don't live 'round these parts.
+No clue how—Durant don't live 'round these parts.
+Had to catch all of 'em to stop 'em eatin' our crops.
+Had to catch all of 'em to stop 'em eatin' our crops. 
+Ya interested in takin' one?
+Ya interested in takin' one?
+I hope ya wouldn't mind giving me a Grass-type in return. Gotta regrow those crops, ya know.
+I hope ya wouldn't mind giving me a Grass-type in return. Gotta regrow those crops, ya know.
+Guess we'll just have t'make do.
+Guess we'll just have t'make do.
+Don't waver, now. Ya say ya gonna do somethin', ya best make sure ya get it done.
+Don't waver, now. Ya say ya gonna do somethin', ya best make sure ya get it done.
+This'll help.
+This'll help.
+Time to get t'work.
+Time to get t'work.
+I'll be raging harder than a Primeape if I find more Durant nestin' in some cranny or 'nother.
+I'll be raging harder than a Primeape if I find more Durant nestin' in some cranny or 'nother.
 This place is just like my favorite video game!
 This place is just like my favorite video game!
 I'm gonna go play that game now, bye!
@@ -13134,6 +13130,24 @@ You think that I'm battling you with my full strength?
 You think that I'm battling you with my full strength?
 Foolish! Get real!
 Foolish! Get real!
+The shipment of fruit from Frostflow got done without a hitch.
+The shipment of fruit from Frostflow got done without a hitch.
+Or so I thought. This here Bounsweet tagged along, the rascal, and now I don't know what to do with it.
+Or so I thought. This here Bounsweet tagged along, the rascal, and now I don't know what to do with it.
+It may be cute, but I'm raising enough Pokemon back at the farm as is.
+It may be cute, but I'm raising enough Pokemon back at the farm as is.
+That's why I'll offer 'em to you for $5000.
+That's why I'll offer 'em to you for $5000.
+'S alright. I'll cultivate some patience.
+'S alright. I'll cultivate some patience.
+Hoooyaaaahhh!
+Hoooyaaaahhh!
+\PN hands over $5000 in exchange.
+\PN hands over $5000 in exchange.
+Time I be moseyin' on.
+Time I be moseyin' on.
+Er, ya alright? I don't see that much on ya.
+Er, ya alright? I don't see that much on ya.
 I LOVE FOSSILS!
 I LOVE FOSSILS!
 YOUR FOSSILS ARE WEAK! I AM STRONGER! I WILL ASCEND!
@@ -13222,6 +13236,10 @@ This thing is pretty neat, lemme tell you.
 This thing is pretty neat, lemme tell you.
 That nerd is gonna make a fortune off this Formalizamajig thingy.
 That nerd is gonna make a fortune off this Formalizamajig thingy.
+No
+No
+Yes
+Yes
 [Map212]
 Down the stairs, \PN. See red or whatever it is you do.
 Down the stairs, \PN. See red or whatever it is you do.
@@ -16408,28 +16426,6 @@ I might get a better view of those crystals if I get closer, but I'm afraid of b
 [Map261]
 [Map262]
 [Map263]
-The shipment of fruit from Frostflow got done without a hitch.
-The shipment of fruit from Frostflow got done without a hitch.
-Or so I thought. This here Bounsweet tagged along, the rascal, and now I don't know what to do with it.
-Or so I thought. This here Bounsweet tagged along, the rascal, and now I don't know what to do with it.
-It may be cute, but I'm raising enough Pokemon back at the farm as is.
-It may be cute, but I'm raising enough Pokemon back at the farm as is.
-That's why I'll offer 'em to you for $5000.
-That's why I'll offer 'em to you for $5000.
-'S alright. I'll cultivate some patience.
-'S alright. I'll cultivate some patience.
-Hoooyaaaahhh!
-Hoooyaaaahhh!
-\PN hands over $5000 in exchange.
-\PN hands over $5000 in exchange.
-Time I be moseyin' on.
-Time I be moseyin' on.
-Er, ya alright? I don't see that much on ya.
-Er, ya alright? I don't see that much on ya.
-No
-No
-Yes
-Yes
 [Map264]
 [Map265]
 Huh? Oh! You must be the Trainer that Scilla was talking about.
@@ -20350,12 +20346,40 @@ May their Kingdom endure forever.
 May the Great Steed guide his soul towards new pastures.
 May the Great Steed guide his soul towards new pastures.
 [Map331]
+Ranching isn't always easy, but we make do with tools we have.
+Ranching isn't always easy, but we make do with tools we have.
+Sometimes though you realize that you don't have the best tool for the job.
+Sometimes though you realize that you don't have the best tool for the job.
+I went and caught this Castform to help me with the weather.
+I went and caught this Castform to help me with the weather.
+But that's not needed when you can simply use any 'mon with water moves.
+But that's not needed when you can simply use any 'mon with water moves.
+I've already got that, so I'm looking to give this little guy a new home. I'll give it to anyone who can reimburse my costs of $3000.
+I've already got that, so I'm looking to give this little guy a new home. I'll give it to anyone who can reimburse my costs of $3000.
+Oh I know this little one ain't for everyone. If you change your mind, the offer is still open.
+Oh I know this little one ain't for everyone. If you change your mind, the offer is still open.
+Why aren't you a sweetie!
+Why aren't you a sweetie!
+\PN hands over $3000 in exchange.
+\PN hands over $3000 in exchange.
+Take care of them for me!
+Take care of them for me!
+Oh, it looks like you're a little short. The offer's still here, just come back when ya got some more cash.
+Oh, it looks like you're a little short. The offer's still here, just come back when ya got some more cash.
+I'll tell you what, we're gonna have our highest crop yield in our whole seven years of operation!
+I'll tell you what, we're gonna have our highest crop yield in our whole seven years of operation!
+The 'mons here are such hard workers.
+The 'mons here are such hard workers.
 My older sisters like battlin' a whole lot.
 My older sisters like battlin' a whole lot.
 Trainers always come through here. The lady with the Combees sometimes asks as well, so they get a lotta practice.
 Trainers always come through here. The lady with the Combees sometimes asks as well, so they get a lotta practice.
 They're always so cool when they're battlin'. I wanna be like them when I'm older.
 They're always so cool when they're battlin'. I wanna be like them when I'm older.
+No
+No
+Yes
+Yes
 [Map332]
 [Map333]
 The venom I could spit about the Corviknight that abandoned me here...
@@ -31451,8 +31475,6 @@ Spirit Break
 Spirit Break
 Springtide Storm
 Springtide Storm
-Strange Steam
-Strange Steam
 Sweet Kiss
 Sweet Kiss
 Acedian Impact
@@ -31647,6 +31669,8 @@ Volley
 Volley
 Wind Tunnel
 Wind Tunnel
+Acid Ball
+Acid Ball
 Acid Bath
 Acid Bath
 Blight
@@ -31677,8 +31701,6 @@ Poison Spikes
 Poison Spikes
 Slimeball
 Slimeball
-Smog Storm
-Smog Storm
 Stinging Jealousy
 Stinging Jealousy
 Stink Cloud
@@ -31899,6 +31921,8 @@ Malefaction
 Malefaction
 Phantom Gate
 Phantom Gate
+Pharaoh's Curse
+Pharaoh's Curse
 Seance
 Seance
 Shiver
@@ -32561,6 +32585,8 @@ Bed Time
 Bed Time
 Bucket Drop
 Bucket Drop
+Charity
+Charity
 Cruel Kiss
 Cruel Kiss
 Dream Dance
@@ -33222,8 +33248,8 @@ Boulders are hurled at the target. It also lowers the target's Speed by two step
 Boulders are hurled at the target. It also lowers the target's Speed by two steps.
 The user launches a huge boulder at the target to attack. It must rest on the next turn, however.
 The user launches a huge boulder at the target to attack. It must rest on the next turn, however.
-Summons sandstorm for eight turns. Damages non-Rock, non-Ground Pokémon every turn.
-Summons sandstorm for eight turns. Damages non-Rock, non-Ground Pokémon every turn.
+Summons sandstorm for six turns. Damages non-Rock, non-Ground Pokémon every turn.
+Summons sandstorm for six turns. Damages non-Rock, non-Ground Pokémon every turn.
 The user lays a trap of levitating stones around the foe. The trap hurts foes that switch into battle.
 The user lays a trap of levitating stones around the foe. The trap hurts foes that switch into battle.
 The user swings its stone axes. This leaves levitating stones floating around the target.
@@ -33442,8 +33468,8 @@ An inferno of scarlet flames torches everything around the user. It has a 30% ch
 An inferno of scarlet flames torches everything around the user. It has a 30% chance to burn.
 The user sets a shell trap. If it is hit by a physical move, the trap explodes and hurts all near foes.
 The user sets a shell trap. If it is hit by a physical move, the trap explodes and hurts all near foes.
-Summons sunshine for eight turns, boosting Fire-type attacks and hindering most others.
-Summons sunshine for eight turns, boosting Fire-type attacks and hindering most others.
+Summons sunshine for six turns, boosting Fire-type attacks and hindering most others.
+Summons sunshine for six turns, boosting Fire-type attacks and hindering most others.
 With a fiery forehead, the user hurls itself at the foe. Lowers the user's Defense, Sp. Def, and Speed by two steps.
 With a fiery forehead, the user hurls itself at the foe. Lowers the user's Defense, Sp. Def, and Speed by two steps.
 If the target's HP is half or less, this attack will hit with double the power.
@@ -33468,8 +33494,8 @@ Slams into the target using an aquatic blast with a 20% chance to lower Defense.
 Slams into the target using an aquatic blast with a 20% chance to lower Defense.
 The user attacks opposing Pokémon with countless beams of light that glow a deep and brilliant blue.
 The user attacks opposing Pokémon with countless beams of light that glow a deep and brilliant blue.
-Summons rainstorm for eight turns, boosting Water-type attacks and hindering most others.
-Summons rainstorm for eight turns, boosting Water-type attacks and hindering most others.
+Summons rainstorm for six turns, boosting Water-type attacks and hindering most others.
+Summons rainstorm for six turns, boosting Water-type attacks and hindering most others.
 The user cuts the foe with sharp shells. It has a 50% chance to lower Defense.
 The user cuts the foe with sharp shells. It has a 50% chance to lower Defense.
 The user shoots boiling hot water at its target. This has a 30% chance to burn.
@@ -33708,8 +33734,8 @@ The user attacks by hurling a blizzard-cloaked icicle lance at opposing Pokémon
 The user attacks by hurling a blizzard-cloaked icicle lance at opposing Pokémon.
 The user attacks by blowing freezing cold air at all near foes. This attack reduces the targets' Speed by two steps.
 The user attacks by blowing freezing cold air at all near foes. This attack reduces the targets' Speed by two steps.
-Summons hail for eight turns. Damages non-Ice, non-Ghost-types every turn.
-Summons hail for eight turns. Damages non-Ice, non-Ghost-types every turn.
+Summons hail for six turns. Damages non-Ice, non-Ghost-types every turn.
+Summons hail for six turns. Damages non-Ice, non-Ghost-types every turn.
 The target is struck with an icy-cold beam of energy. It has a 10% chance to frostbite.
 The target is struck with an icy-cold beam of energy. It has a 10% chance to frostbite.
 On the second turn, an ultracold, freezing wind surrounds the foe. It has a 30% chance to burn.
@@ -33880,8 +33906,6 @@ Attacks the target and breaks its spirit. Lowers the target's Sp. Atk by two ste
 Attacks the target and breaks its spirit. Lowers the target's Sp. Atk by two steps.
 The user attacks foes with love and hate. It has a 30% chance to lower both Attack and Sp. Atk.
 The user attacks foes with love and hate. It has a 30% chance to lower both Attack and Sp. Atk.
-The user attacks the target by emitting steam. It has a 30% chance to dizzy.
-The user attacks the target by emitting steam. It has a 30% chance to dizzy.
 The user kisses the target with a sweet, angelic cuteness that dizzies the target.
 The user kisses the target with a sweet, angelic cuteness that dizzies the target.
 An attack empowered by the might of a lazy king. It skips and destroys protections.
@@ -34072,6 +34096,8 @@ The user gets all the party Pokémon to attack the foe with aerial projectiles.
 The user gets all the party Pokémon to attack the foe with aerial projectiles.
 Wind rapidly spins the target in place to hit them two to five times.
 Wind rapidly spins the target in place to hit them two to five times.
+The user lobs harsh acid at the target. It has a 20% chance to lower Sp. Def.
+The user lobs harsh acid at the target. It has a 20% chance to lower Sp. Def.
 The user and target bathe in acid. Lowers the user's Defense and Sp. Def by two steps.
 The user and target bathe in acid. Lowers the user's Defense and Sp. Def by two steps.
 The user infects the target with a touch and also destroys any Herbs it's holding.
@@ -34090,8 +34116,8 @@ The user attacks while slathered in grime. This poisons the user.
 The user attacks while slathered in grime. This poisons the user.
 The user uses venom that turns the target's body against it. Super effective vs Fighting-types.
 The user uses venom that turns the target's body against it. Super effective vs Fighting-types.
-The user envelops the target in a foul wind. It has a 20% chance to lower Sp. Def.
-The user envelops the target in a foul wind. It has a 20% chance to lower Sp. Def.
+The user envelops the target in a foul wind. It has a 30% chance to poison.
+The user envelops the target in a foul wind. It has a 30% chance to poison.
 The user attacks with a pitch black fog. All of the target's stat changes are returned to normal.
 The user attacks with a pitch black fog. All of the target's stat changes are returned to normal.
 The user stabs the opponent with a toxin-infused limb. It has a 10% chance to poison.
@@ -34102,8 +34128,6 @@ The user lays poison spikes on the foe's side. One layer hurts switched in foes,
 The user lays poison spikes on the foe's side. One layer hurts switched in foes, two layers poisons.
 The user attacks with cloying slime, rendering the target's item sticky and unusable.
 The user attacks with cloying slime, rendering the target's item sticky and unusable.
-Summons a storm of poisonous gas to hit all nearby Pokémon with a 30% chance to poison.
-Summons a storm of poisonous gas to hit all nearby Pokémon with a 30% chance to poison.
 Attacks with energy from jealousy. All opposing Pokémon with stat boosts get poisoned.
 Attacks with energy from jealousy. All opposing Pokémon with stat boosts get poisoned.
 The user gives off a terrible stench towards the target. It has a 30% chance to dizzy.
@@ -34320,6 +34344,8 @@ The user switches out using a cruel illusion. Always goes last.
 The user switches out using a cruel illusion. Always goes last.
 The user opens its soul to unleash massive energy. This lowers the user's Sp. Atk and Sp. Def by two steps.
 The user opens its soul to unleash massive energy. This lowers the user's Sp. Atk and Sp. Def by two steps.
+The target becomes Cursed. Health lost from Curse becomes coins for you to earn after battle.
+The target becomes Cursed. Health lost from Curse becomes coins for you to earn after battle.
 The user summons two to five apparitions that dance around hypnotically before striking.
 The user summons two to five apparitions that dance around hypnotically before striking.
 The user drains heat from the air around the target, afflicting it with frostbite.
@@ -34706,8 +34732,8 @@ By sacrificing half its total HP, the user makes the target fall asleep.
 By sacrificing half its total HP, the user makes the target fall asleep.
 Doubles in power if the foe is asleep. The user's HP is restored by 50% the damage dealt. This can overheal.
 Doubles in power if the foe is asleep. The user's HP is restored by 50% the damage dealt. This can overheal.
-Summons eclipse for eight turns, boosting Psychic-type attacks and heralding the total eclipse.
-Summons eclipse for eight turns, boosting Psychic-type attacks and heralding the total eclipse.
+Summons eclipse for six turns, boosting Psychic-type attacks and heralding the total eclipse.
+Summons eclipse for six turns, boosting Psychic-type attacks and heralding the total eclipse.
 The user employs psychic power to switch its base Sp. Atk with its base Sp. Def stat.
 The user employs psychic power to switch its base Sp. Atk with its base Sp. Def stat.
 The user psychically exploits weak points in the target's mind. Can random critical hit, and does so twice as often.
@@ -34894,8 +34920,8 @@ The user removes the energy and light around the target. Super effective vs Elec
 The user removes the energy and light around the target. Super effective vs Electric-types.
 This attack deals 50% more damage if the target has any raised or lowered stat steps.
 This attack deals 50% more damage if the target has any raised or lowered stat steps.
-All near foes are dragged into a world of total darkness that makes them drowsy. Only one use per battle.
-All near foes are dragged into a world of total darkness that makes them drowsy. Only one use per battle.
+The user sacrifices their ally to cover all near foes in total darkness. They become drowsy.
+The user sacrifices their ally to cover all near foes in total darkness. They become drowsy.
 Deftly sets a layer of damaging Spikes around the foe, then switches out.
 Deftly sets a layer of damaging Spikes around the foe, then switches out.
 If the target is the last able member of their party, this attack's power is doubled.
@@ -34980,6 +35006,8 @@ The target is lulled to sleep. Can only be used during a Full Moon.
 The target is lulled to sleep. Can only be used during a Full Moon.
 The target is pranked with a huge bucket of water. This has a 50% chance to waterlog it.
 The target is pranked with a huge bucket of water. This has a 50% chance to waterlog it.
+The user hits the target with a generous donation. Consumes up to 1000 scattered coins. Base power is boosted by 10 for every 100 coins consumed.
+The user hits the target with a generous donation. Consumes up to 1000 scattered coins. Base power is boosted by 10 for every 100 coins consumed.
 Leeches the target by kissing them with its thin mouth.
 Leeches the target by kissing them with its thin mouth.
 The user dances in tune with a dreamlike energy, raising their Sp. Atk by four steps.
@@ -35022,8 +35050,8 @@ The user causes the target to trip and fall. This has a 50% chance of jinxing th
 The user causes the target to trip and fall. This has a 50% chance of jinxing them.
 Attacks nearby foes with a misty explosion. User is damaged for 50% of their current HP.
 Attacks nearby foes with a misty explosion. User is damaged for 50% of their current HP.
-Summons moonglow for eight turns, boosting Fairy-type attacks and heralding the Full Moon.
-Summons moonglow for eight turns, boosting Fairy-type attacks and heralding the Full Moon.
+Summons moonglow for six turns, boosting Fairy-type attacks and heralding the Full Moon.
+Summons moonglow for six turns, boosting Fairy-type attacks and heralding the Full Moon.
 The user invokes forbidden celestial powers to smite the target.
 The user invokes forbidden celestial powers to smite the target.
 The user throws a tricky punch. Can't miss and skips protections.
@@ -38536,8 +38564,6 @@ Hard As
 Hard As
 Hard Fall
 Hard Fall
-Hard Worker
-Hard Worker
 Harsh
 Harsh
 Hasty
@@ -38780,6 +38806,8 @@ Overwhelm
 Overwhelm
 Oxygenation
 Oxygenation
+Pacifist
+Pacifist
 Palace Guard
 Palace Guard
 Paleolithic
@@ -39961,8 +39989,6 @@ If an attack lowers the Pokémon's HP to half or less, the attacker becomes frac
 If an attack lowers the Pokémon's HP to half or less, the attacker becomes fractured.
 Deals 30% more move damage to Pokémon that are taller than it.
 Deals 30% more move damage to Pokémon that are taller than it.
-Increases the money gained from battles in which it participates by 50%.
-Increases the money gained from battles in which it participates by 50%.
 Its attacks are critical against burned targets.
 Its attacks are critical against burned targets.
 When this Pokémon becomes statused, its Speed is raised by three steps.
@@ -40137,8 +40163,8 @@ Slips past hazards. Takes 50% less damage if it switched in this turn.
 Slips past hazards. Takes 50% less damage if it switched in this turn.
 If an attack lowers its HP to half or less, waterlogs the attacker.
 If an attack lowers its HP to half or less, waterlogs the attacker.
-When hit by another Pokémon, destroys one of the their items.
-When hit by another Pokémon, destroys one of the their items.
+When hit by another Pokémon, destroys one of their items.
+When hit by another Pokémon, destroys one of their items.
 Heals 1/8th of its max HP each turn if in moonglow.
 Heals 1/8th of its max HP each turn if in moonglow.
 The Pokémon and its allies take 25% less move damage during moonglow.
@@ -40185,8 +40211,8 @@ Physical moves have a 30% chance to numb targets.
 Physical moves have a 30% chance to numb targets.
 Boosts the Accuracy of its allies and itself by 50%.
 Boosts the Accuracy of its allies and itself by 50%.
-Upon entry, creates an Odd Room for four turns, swapping offensive and Defense and Sp. Def.
-Upon entry, creates an Odd Room for four turns, swapping offensive and Defense and Sp. Def.
+Upon entry, creates an Odd Room for four turns, swapping offensive and defensive stats.
+Upon entry, creates an Odd Room for four turns, swapping offensive and defensive stats.
 On the first turn, its attacks cause the target to flinch.
 On the first turn, its attacks cause the target to flinch.
 Sets a Tailwind for four turns upon entering the battle, increasing Speed.
@@ -40205,6 +40231,8 @@ Boosts Sp. Atk by 30% in rainstorm.
 Boosts Sp. Atk by 30% in rainstorm.
 Heals the Pokémon's status problems each turn if in sunshine.
 Heals the Pokémon's status problems each turn if in sunshine.
+The Pokémon refuses to fight. However, it gathers extra candy when trainers flee.
+The Pokémon refuses to fight. However, it gathers extra candy when trainers flee.
 The Pokémon receives 33% less move damage if there is an active Room.
 The Pokémon receives 33% less move damage if there is an active Room.
 Powers up Rock-type moves by 50%.
@@ -44531,6 +44559,8 @@ OmniTutor
 OmniTutor
 Visit PokÉstate
 Visit PokÉstate
+View Party Online
+View Party Online
 Log Out
 Log Out
 Your party is full!
@@ -48261,6 +48291,8 @@ But a live wire already sits near {1}!
 {1} is ready to stomp the opposition!
 {1} overpowers type immunities!
 {1} overpowers type immunities!
+{1} refuses to fight!
+{1} refuses to fight!
 {1} is burdened!
 {1} is burdened!
 {1} transforms into a stronger version of your entire team!
@@ -48707,6 +48739,8 @@ You can't switch {1}'s Pokémon with one of yours!
 You can't switch {1}'s Pokémon with one of yours!
 {1} is too afraid to battle!
 {1} is too afraid to battle!
+{1} refuses to join the battle. It's a pacifist!
+{1} refuses to join the battle. It's a pacifist!
 {1} has no energy left to battle!
 {1} has no energy left to battle!
 {1} is already in battle!
@@ -48947,6 +48981,18 @@ Expected an array of trainer data, got {1}.
 Expected an array of trainer data, got {1}.
 Expected a level after being given {1}, but one wasn't found.
 Expected a level after being given {1}, but one wasn't found.
+What? One of the wild Pokémon is a pacifist!
+What? One of the wild Pokémon is a pacifist!
+What? The wild Pokémon is a pacifist!
+What? The wild Pokémon is a pacifist!
+It's a {1}.
+It's a {1}.
+It offers to join you willingly!
+It offers to join you willingly!
+Accept the {1}'s offer to join you?
+Accept the {1}'s offer to join you?
+The {1} slinks away, disappointed...
+The {1} slinks away, disappointed...
 {1}'s team takes joy in {2}'s pain!
 {1}'s team takes joy in {2}'s pain!
 {1} traced {2}'s {3}!
@@ -49349,6 +49395,8 @@ The effects of the {1} prevent status moves from being used!
 {1} must recharge!
 {1} is still attached to {2}!
 {1} is still attached to {2}!
+{1} refuses to battle!
+{1} refuses to battle!
 {1} is loafing around!
 {1} is loafing around!
 {1} would have flinched, but it's immune now!
@@ -49437,6 +49485,8 @@ It'll lose a quarter of its health each turn!
 It'll lose a quarter of its health each turn!
 {1} is afflicted by the curse!
 {1} is afflicted by the curse!
+It's pain becomes golden coins!
+It's pain becomes golden coins!
 {1}'s broke out of the disable!
 {1}'s broke out of the disable!
 {1}'s move is no longer disabled.
@@ -50819,6 +50869,8 @@ But it failed, since {1} is already covered in tar and can't have their Speed lo
 But it failed, since {1} is already covered in tar and can't have their Speed lowered!
 But it failed, since {1} is already cursed!
 But it failed, since {1} is already cursed!
+But it failed, since {1} is already cursed by the Pharoh!
+But it failed, since {1} is already cursed by the Pharoh!
 {1} cut its own HP!
 {1} cut its own HP!
 But it failed, since {1} is already afraid of Bug-type moves!
@@ -50855,6 +50907,10 @@ But it failed, since {1} is not Ice-type!
 {1}'s {2} barely saves it!
 {1} resists the recoil!
 {1} resists the recoil!
+{1} coins were used in the attack!
+{1} coins were used in the attack!
+There were no coins to use in the attack...
+There were no coins to use in the attack...
 {1} was slammed into the ground!
 {1} was slammed into the ground!
 But it failed, since the field is already covered in flowers!
@@ -51057,6 +51113,10 @@ But it failed, since {1} isn't dizzy!
 But it failed, since {1} isn't dizzy!
 But it failed, since {1} is already drowsy!
 But it failed, since {1} is already drowsy!
+But it failed, since {1} has no ally to sacrifice!
+But it failed, since {1} has no ally to sacrifice!
+{1} draws darkness from {2}!
+{1} draws darkness from {2}!
 But it failed, since {1} can neither be burned or frostbitten!
 But it failed, since {1} can neither be burned or frostbitten!
 But it failed, since {1} can neither be leeched or numbed!
@@ -51815,6 +51875,8 @@ The fleeing trainers dropped some candies!
 The fleeing trainers dropped some candies!
 The fleeing trainer dropped some candies!
 The fleeing trainer dropped some candies!
+\p[{1}]Also, {2} found some more candy nearby!
+\p[{1}]Also, {2} found some more candy nearby!
 Unassigned level passed to pbTrainerDropsItem: {1}
 Unassigned level passed to pbTrainerDropsItem: {1}
 ERROR: Could not find follower Pokémon!
@@ -51967,6 +52029,8 @@ Received the {1} from {2}.
 Received the {1} from {2}.
 Ability Capsule can't be used in TectoQuake!
 Ability Capsule can't be used in TectoQuake!
+You may not make your last able Pokémon a pacifist.
+You may not make your last able Pokémon a pacifist.
 Would you like to change {1}'s main ability to {2}?
 Would you like to change {1}'s main ability to {2}?
 {1}'s main ability has been changed to {2}!
@@ -52581,6 +52645,8 @@ It's a <imp>shiny</imp> Pokémon!
 \me<<[>>Pkmn get<<]>>{1} received a Pokémon from {2}.<<1>>
 \me<<[>>Pkmn get<<]>>{1} received a Pokémon.<<1>>
 \me<<[>>Pkmn get<<]>>{1} received a Pokémon.<<1>>
+Pokémon team opened in team builder website.
+Pokémon team opened in team builder website.
 Encounter type {1} does not exist
 Encounter type {1} does not exist
 Trial complete.
@@ -54357,8 +54423,6 @@ Export Current Team to Code
 Export Current Team to Code
 Create a shareable team code for the current party.
 Create a shareable team code for the current party.
-Pokémon team opened in team builder website.
-Pokémon team opened in team builder website.
 Activate all quests.
 Activate all quests.
 Activate every quest that is defined in the Quest Data.
@@ -55691,16 +55755,8 @@ Tournament Lobby
 Tournament Lobby
 An odd girl in the tournament lobby has an offer. A Pokémon you've bonded with fully, for the individual she possesses... Can you make that trade?
 An odd girl in the tournament lobby has an offer. A Pokémon you've bonded with fully, for the individual she possesses... Can you make that trade?
-WIP: A Clean Library
-WIP: A Clean Library
-Return post-tournament.
-Return post-tournament.
-Prizca East, Capitol Building
-Prizca East, Capitol Building
-WIP: Finally a library in this damned region, maybe there is some interesting information you can learn. Return here after you've beaten the tournament.
-WIP: Finally a library in this damned region, maybe there is some interesting information you can learn. Return here after you've beaten the tournament.
-WIP: Volcanion
-WIP: Volcanion
+A Clean Library
+A Clean Library
 Go to Luxtech to find information.
 Go to Luxtech to find information.
 Return to Nora with the USB.
@@ -55709,8 +55765,10 @@ Head over to the Steamy Valley.
 Head over to the Steamy Valley.
 Luxtech Campus, Cold Storage
 Luxtech Campus, Cold Storage
-<<[>>Placeholder<<]>>
-<<[>>Placeholder<<]>>
+Prizca East, Capitol Building
+Prizca East, Capitol Building
+Finally a library in this damned region, maybe there is some interesting information you can learn.
+Finally a library in this damned region, maybe there is some interesting information you can learn.
 Tri Island
 Tri Island
 Explore the strange island.
@@ -59664,6 +59722,8 @@ Curse-Warned
 Curse-Warned
 Cursed
 Cursed
+Pharoah's Curse
+Pharoah's Curse
 Dancer
 Dancer
 MartialDiscipline
