@@ -435,6 +435,34 @@ My child.
 ...令人痛苦的熟悉感。
 But, still, she is a stranger to you, this woman who almost has your mother’s voice.
 但，她對你仍是個陌生人，即便她有著與你母親幾乎一致的聲音。
+\PN.
+\PN.
+I’m swallowing my pride here.
+我在這裡放下我的自尊。
+I need your help with something... more important than my pride.
+我需要你的幫助...這比我的自尊更重要。
+You like that, don't you?
+你喜歡這個，不是嗎？
+Helping people? Earning some coin along the way?
+幫助別人？順便賺點錢？
+I know things are dire everywhere right now, but… that’s why I need someone of your skill level.
+我知道現在到處都很糟糕，但...正因為如此，我需要像你這樣水平的人。
+Someone with experience cleaning up Team Chasm's mistakes.
+一個有清理裂隙隊錯誤經驗的人。
+…He hung up.
+...他掛斷了。
+The last of the genies whooshed past me a few moments ago.
+剛才，最後一個精靈從我身邊飛過。
+I poked my head out to check where they're flying off to.
+我探出頭看看它們飛向哪裡。
+East, across the ocean. I've no idea why.
+向東，飛越海洋。我不知道為什麼。
+Shit! The Drillers spotted them too. I can see them sending out some Flying-types.
+該死！鑽工隊也發現了它們。我看到他們放出了一些飛行屬性精靈。
+Meet me in the Sandstone Estuary, on that sandbar full of junk.
+在砂岩河口的沙洲上見我，那裡堆滿了垃圾。
+Quickly!
+快點！
 No.
 不想。
 Why are you down here?
@@ -549,6 +577,36 @@ Yes
 No
 否
 [Map2]
+It's so... beautiful.
+這太...美了。
+How?
+怎麼？
+...a part of me wants to ask "How did the genies do this?"
+...我有一部分想問“精靈是怎麼做到的？”
+But I don't think I care about that...
+但我認為我不在乎這個...
+How... how could they...?
+怎麼...他們怎麼可能...？
+How could the ancients imprison such wonders?
+古人怎麼可能囚禁這樣的奇蹟？
+Michi?!
+米奇？！
+Where is she? Don't tell me she—there's no way that...
+她在哪？別告訴我她——不可能...
+Girl! You're safe!
+女孩！你安全了！
+I don't feel useless anymore.
+我不再覺得自己毫無用處了。
+But, as strange as it sounds... I don't know if I NEED to be useful...
+但，聽起來很奇怪...我不知道我是否需要變得有用...
+I just want to spend time with my Pokemon... go on an adventure again...
+我只是想和我的精靈一起度過時光...再次去冒險...
+I'd like to feel like this for as long as I can.
+我想盡可能長時間地保持這種感覺。
+Thank you.
+謝謝你。
+Thank you, \PN.
+謝謝你，\PN。
 [Map3]
 Oh, so now I can't even go to college because of something my dad did?
 啊，就因為我爸爸犯過事，我甚至連大學都不能上？
@@ -751,62 +809,36 @@ Dozens of paper bookmarks dot the pages of a book titled "A History of Ferrous M
 一本夾著數十個書籤的書，標題為《黑色金屬採礦技術史》。
 [Map5]
 [Map6]
-I really wish the vendor here would sell coffee.
-真希望這裡的商店能賣咖啡。
-There's a high demand for it, and no one wants to walk through an entire cave just to visit the cafe in Novo Town.
-這裡的大家對咖啡的需求量很大，總不能天天為了買咖啡，還要穿過山洞去望新鎮吧？
 I was supposed to have a meeting with Kurt today about gracefully decommissioning some of the cluster, but he never showed up.
 我今天本來要跟庫特開個會，討論如何從容地退役回家，但他一直都沒來。
 Doesn’t he know that maintaining legacy systems adds unnecessary fragility?
 難道他理解不了維護過去只會讓一切變得更脆弱嗎？
-A Shiny Corviknight!
-是閃光鋼鎧鴉！
-It's too busy watching the campus to notice you.
-它忙著巡視校園，根本沒注意到你。
+I really wish the vendor here would sell coffee.
+真希望這裡的商店能賣咖啡。
+There's a high demand for it, and no one wants to walk through an entire cave just to visit the cafe in Novo Town.
+這裡的大家對咖啡的需求量很大，總不能天天為了買咖啡，還要穿過山洞去望新鎮吧？
 You and Helena had something secretive to discuss, is that it?
 聽說你和海蓮娜有祕密要談?
 I'd love to ask, but, well, I need this job more than I need to satisfy my curiosity.
 我很想問，但是，比起滿足我的好奇心，能留住這份工作更重要。
 Either way, that was a great battle!
 不管怎樣，那都是一場精彩的戰鬥！
-Closed while Helena participates in the Makya Championship Tournament.
-馬凱亞競技大會期間暫停營業。
+A Shiny Corviknight!
+是閃光鋼鎧鴉！
+It's too busy watching the campus to notice you.
+它忙著巡視校園，根本沒注意到你。
+It’s hard to get promoted when the top level talent here are former Team Chasm lieutenants.
+這裡的高級人才都是前裂隙隊的幹部，一般人很難得到晉升。
+They're such good battlers. It makes one jealous.
+他們太過優秀，讓人嫉妒。
 We're trying to debug some major issues with the older supply chain databases.
 我們正在針對舊供應鏈數據庫出現的嚴重問題進行調試。
 Kurt and Pearce were talking about just wiping the thing.
 庫特和皮爾斯正在討論要不要直接將數據庫清空重建。
 Just because they used to be Helena's lieutenants doesn't mean she won't have their hide if she catches them cutting corners!
 就算他們以前是海倫娜的副官，如果被發現失職行為，也一定會受到嚴厲處罰的。
-It’s hard to get promoted when the top level talent here are former Team Chasm lieutenants.
-這裡的高級人才都是前裂隙隊的幹部，一般人很難得到晉升。
-They're such good battlers. It makes one jealous.
-他們太過優秀，讓人嫉妒。
-"Catch a Break" Poké Balls
-“稍作休息”精靈球
-"LuxTech Campus, where the future begins!"
-"光華科技園區，未來開始的地方！"
-You one of the new hires?
-你是新員工嗎？
-Get me a coffee, chop chop.
-快點，給我倒杯咖啡。
-Well, go get some, then. I don't have all day.
-那就趕緊去買，我時間緊迫！
-Wow, this is some good stuff!
-哇，這可真是好東西啊！
-I can already feel the energy coursing through my body.
-我能感覺到能量在我體內湧動。
-I won't be needing to tide myself over with these anymore.
-這樣我就不再需要這些東西了。
-Well I don't see any on you. We don't pay you to waste our time with jokes!
-到你身上沒有我想要的東西，我們僱你來可不是摸魚的！
-This coffee ain't that great, kid.
-這咖啡不太好喝，孩子。
-In fact, it's awful. You're fired.
-說實話，是很難喝，你被開除了。
-Pack up your things and leave, wherever you work at.
-收拾好你的東西走人吧。
-LuxPark: A place of smiles.
-光華公園：充滿歡聲笑語的地方。
+Closed while Helena participates in the Makya Championship Tournament.
+馬凱亞競技大會期間暫停營業。
 You might be wondering how I nabbed myself a timeslot to fight Helena.
 你或許想知道，我是怎麼預訂到挑戰海倫娜的時間的。
 But I'll never tell, teehee!
@@ -837,12 +869,32 @@ I'm a bit dissapointed. Well, let's avoid getting too cocky. I should actually m
 我有點失望...不過，也不能太自大了，我應該先試試，再做判斷才對。
 Bye bye!
 回見！
-LuxTech Main
-光華大廈
-I'm figuring out vacation spots here in Makya.
-我正在選擇馬凱亞的度假地。
-Visiting the ice cave seems wonderful, but the looming threat of Avatars really throws a wrench in things...
-我覺得冰窟是個很不錯的景點，但最近化身的活躍，又讓我開始打退堂鼓了...
+LuxPark: A place of smiles.
+光華公園：充滿歡聲笑語的地方。
+You one of the new hires?
+你是新員工嗎？
+Get me a coffee, chop chop.
+快點，給我倒杯咖啡。
+Well, go get some, then. I don't have all day.
+那就趕緊去買，我時間緊迫！
+Wow, this is some good stuff!
+哇，這可真是好東西啊！
+I can already feel the energy coursing through my body.
+我能感覺到能量在我體內湧動。
+I won't be needing to tide myself over with these anymore.
+這樣我就不再需要這些東西了。
+Well I don't see any on you. We don't pay you to waste our time with jokes!
+到你身上沒有我想要的東西，我們僱你來可不是摸魚的！
+This coffee ain't that great, kid.
+這咖啡不太好喝，孩子。
+In fact, it's awful. You're fired.
+說實話，是很難喝，你被開除了。
+Pack up your things and leave, wherever you work at.
+收拾好你的東西走人吧。
+"LuxTech Campus, where the future begins!"
+"光華科技園區，未來開始的地方！"
+"Catch a Break" Poké Balls
+“稍作休息”精靈球
 You ever have someone bother you out of nowhere?
 你有沒有被莫名其妙地打擾過?
 Just have your Pokemon give 'em one of these, and they'll leave you alone quick.
@@ -851,34 +903,44 @@ Yeah, that'll do.
 沒錯，這樣就行了。
 Either you give 'em one of those, or you bribe 'em with some stuff you don't need.
 要麼給他們來一記這樣的技能，要麼用你不需要的東西賄賂他們。
-The door is securely locked.
-門被鎖著...
-A sign reads "Schedule your gym appointments in the large building to the west."
-一塊牌子上寫著：“請到旁邊大廈預約挑戰時間。”
-I decided to come here on a whim.
-我來這裡真是一時衝動啊。
-This park sucks.
-這個公園簡直糟糕透頂。
-I can't believe they even called it one.
-就這，能被稱作公園？
+I'm figuring out vacation spots here in Makya.
+我正在選擇馬凱亞的度假地。
+Visiting the ice cave seems wonderful, but the looming threat of Avatars really throws a wrench in things...
+我覺得冰窟是個很不錯的景點，但最近化身的活躍，又讓我開始打退堂鼓了...
+LuxTech Main
+光華大廈
 LuxTech Campus Gym
 光華道館
 Leader: Helena
 館主：海倫娜
 Shocking strategy, typhoon tactics!
 驚天的策略，狂暴的戰術！
-LuxTech's Makya campus is more than just a workplace.
-光華市對於馬凱亞來說，不單單提供了工作崗位。
-We're also the undisputed capital of scientific research across the whole region!
-還是當之無愧的科技之都！
-At least that's what I tell investors.
-至少跟投資者我都這麼說。
+I decided to come here on a whim.
+我來這裡真是一時衝動啊。
+This park sucks.
+這個公園簡直糟糕透頂。
+I can't believe they even called it one.
+就這，能被稱作公園？
+The door is securely locked.
+門被鎖著...
+A sign reads "Schedule your gym appointments in the large building to the west."
+一塊牌子上寫著：“請到旁邊大廈預約挑戰時間。”
 Don't you think this wall is ugly?
 你也覺得這牆很醜對吧？
 Gigantic, and perfectly straight.
 鋼鐵般冰冷的高大筆直。
 Kind of ruins the natural beauty of this area.
 完全破壞了這裡的自然風光。
+LuxTech's Makya campus is more than just a workplace.
+光華市對於馬凱亞來說，不單單提供了工作崗位。
+We're also the undisputed capital of scientific research across the whole region!
+還是當之無愧的科技之都！
+At least that's what I tell investors.
+至少跟投資者我都這麼說。
+West: County Park
+西：國立公園
+East: Lingering Delta
+東：漫步河原
 Helena juggles leadership in this company with contract work for the Makyan government, and even then still finds time to train Pokemon for her gym.
 海倫娜不僅要擔任公司的決策層，還得為馬凱亞政府提供各種協助，即便如此，她也能抽出自己的時間，為道館訓練手下的精靈。
 If you plan on facing her, you best be wary of her hit and run tactics.
@@ -889,12 +951,14 @@ If you want a leg up, hazards like Stealth Rocks and Spikes can help a lot.
 如果你想搶佔先機，可以用隱形巖之類的對付她。
 Or you could trap her 'mons, so they just...can't switch out!
 當然也可以困住她的精靈，讓其無法自由地進出戰場！
-West: County Park
-西：國立公園
-East: Lingering Delta
-東：漫步河原
-LuxTech Cold Storage
-光華冷庫
+Oh, I see you have a MasterDex.
+哦，你有大師圖鑑！
+I have one of those myself. I got it from when I worked under Miss – er, Professor Tamarind.
+我自己也有一個。這是我之前在塔瑪琳小姐...呃，塔瑪琳博士手下工作時得到的。
+I used to help her keep the grunts from getting too rowdy.
+我過去經常幫她管理手下的新兵。
+As nice as my job is now, it's certainly less exciting.
+雖說現在的工作也很不錯，但缺少了以前那種令人興奮的感覺。
 LuxTech makes great products, and cheaply.
 光華市生產的商品物美價廉。
 Setting up an office in Makya hasn't helped their PR situation, though.
@@ -905,16 +969,50 @@ Not a good look for the company that recently switched mottos to "Innovation, In
 就算公司的口號已經改成了“創新，靈感與誠信”，也不會對此有什麼幫助。
 Yikes.
 唉...
-Oh, I see you have a MasterDex.
-哦，你有大師圖鑑！
-I have one of those myself. I got it from when I worked under Miss – er, Professor Tamarind.
-我自己也有一個。這是我之前在塔瑪琳小姐...呃，塔瑪琳博士手下工作時得到的。
-I used to help her keep the grunts from getting too rowdy.
-我過去經常幫她管理手下的新兵。
-As nice as my job is now, it's certainly less exciting.
-雖說現在的工作也很不錯，但缺少了以前那種令人興奮的感覺。
-Get your lunches, imported premium from sunny Alola!
-進口自陽光明媚的阿羅拉的優質午餐盒飯！
+LuxTech Cold Storage
+光華冷庫
+—I thought we were all on the same page about what was expected of us now…
+—我以為我們對現在對我們的期望都達成了共識...
+I don’t think <i>they</i> ever were…. never wanted to give up the power.
+我認為<i>他們</i>從來沒有...永遠不想放棄力量。
+Technically… they had a special unit designation…
+從技術上講...他們有一個特別單位的稱號...
+Contractors…
+承包商...
+It was the same during the expeditions. Outside hires never put the mission first.
+在探險期間也是一樣。外部僱傭人員從未把任務放在首位。
+Priorities completely out of whack.
+優先級完全搞錯了。
+The protection racket was bad enough. Now they’re desecrating a tomb.
+保護費已經夠糟糕的了。現在他們還在褻瀆墳墓。
+I’ll bet they’ve found all four prison cells…
+我敢打賭他們已經找到了所有四個牢房...
+What are they going to do with those… disasters…?
+他們打算用那些...災難...做什麼？
+Nothing, if I can help it. It’s the least I can do after—
+如果我能做到的話，什麼都不會讓他們做。這是我在——之後能做的最少的事。
+\PN!
+\PN!
+How much of that did you hear?
+你聽到了多少？
+We’ll finish this later.
+我們稍後會繼續。
+I’m sure you have questions.
+我知道你肯定有問題。
+Keep them to yourself.
+自己保留這些問題。
+Please…
+請...
+*sigh*...Victoire is going to kill me…
+*嘆氣*...薇克特爾會殺了我的...
+Yesterday was terrible.
+昨天也太糟糕了。
+I was forced to wind down the cluster I had running on the archive.
+我迫於無奈關掉了正在運行著程序的設備。
+"Ecology of the Lingering Delta", my pet project.
+我的心血結晶啊！那可是《漫步河原的生態學》啊！
+Even worse, I had to go down into the Cold Storage basement level to do the deed.
+更糟糕的是，我的崗位還被調到冷庫去了！
 My father insisted I take his Slowpoke with me from Galar when I got a job here in Makya.
 我爸爸他堅持要帶著他的伽勒爾呆呆獸和我來馬凱亞工作。
 I don't think it's going to become a financial sage here like he seemed to hope.
@@ -931,32 +1029,26 @@ Appreciated!
 非常感謝！
 I'm enjoying my little Rufflet immensely!
 我的毛頭小鷹超——級可愛！
-Yesterday was terrible.
-昨天也太糟糕了。
-I was forced to wind down the cluster I had running on the archive.
-我迫於無奈關掉了正在運行著程序的設備。
-"Ecology of the Lingering Delta", my pet project.
-我的心血結晶啊！那可是《漫步河原的生態學》啊！
-Even worse, I had to go down into the Cold Storage basement level to do the deed.
-更糟糕的是，我的崗位還被調到冷庫去了！
-Mako's Malasadas
-馬科的馬拉薩達斯
-LuxTech Condos
-光華公寓
+Get your lunches, imported premium from sunny Alola!
+進口自陽光明媚的阿羅拉的優質午餐盒飯！
 All of my test materials got stolen mid-shipment. Again.
 我的考試參考書又一次在路上被偷光了！
 Apparently not everyone got the memo that Makya shouldn't work that way anymore.
 顯然即便到了今天，馬凱亞的治安依然問題不小。
 I really hope that Helena can convince the Makyan Rangers to start patrolling our routes.
 我真希望海倫娜能要求護林員，在我常走的幾條路上巡邏。
-Don't give coffee.
-不給。
-Give coffee.
-給他。
+LuxTech Condos
+光華公寓
+Mako's Malasadas
+馬科的馬拉薩達斯
 Maybe later.
 過會兒再來。
 Sure, let's go.
 好，來吧。
+Don't give coffee.
+不給。
+Give coffee.
+給他。
 No
 不換
 Yes
@@ -2814,10 +2906,6 @@ I'm trying to set up my stall, but this crowd won't leave!
 我想擺攤，但這群人不肯離開!
 Hopefully it'll all disperse eventually.
 希望他們快點走。
-Now that I'm done handing out those inventions, I can just relax here at the Battle Festival.
-發明都已經分發完了，終於可以到戰鬥節慶典放鬆一下身心了。
-I hope they have those new 3D Printers I saw advertised!
-至於廣告上的新款3D打印機...大家應該都有吧！
 I've got a whole fireworks thing planned for the Tournament.
 我為大賽準備了一整套煙火表演。
 This booth is a little side thing.
@@ -2840,14 +2928,6 @@ At least you seem like it.
 至少我是這麼覺得的。
 If you aren't, you better get used to it fast if you want to do well at the Tournament.
 如果你只是在強裝鎮定的話，最好儘快適應它，不然很難在競技大會中取得好成績。
-I always look forward to battling here each year.
-我每年都在期待著今天。
-Your team is so exciting to see! I'll be looking out for you.
-你的隊伍真的很棒！我會關注你接下來的比試。
-A fun battle! I hope we can do that again.
-真是有趣的對戰！希望我們能再打一場。
-You should come around again, I'm itching for a rematch.
-你應該再和我打一場，我已經迫不及待了。
 Hey hey, how's it hanging?
 嗨，最近怎麼樣?
 After taking that slamming I gotta go hit the routes for some training.
@@ -2856,6 +2936,14 @@ But for now, I'm just a part of the crowd. Maybe you'll fight me again during th
 如今我只是一位普通觀眾了，或許我們之後還會在賽場上見面。
 What about The Bench? Ah, I wouldn't worry. The Bench calls to people. Someone will answer The Bench eventually.
 至於這張長椅？哈哈，它的吸引力會引誘下一個勝者來佔有它！
+I always look forward to battling here each year.
+我每年都在期待著今天。
+Your team is so exciting to see! I'll be looking out for you.
+你的隊伍真的很棒！我會關注你接下來的比試。
+A fun battle! I hope we can do that again.
+真是有趣的對戰！希望我們能再打一場。
+You should come around again, I'm itching for a rematch.
+你應該再和我打一場，我已經迫不及待了。
 Hey, 'miring my team?
 對我的隊伍很好奇？
 Of course you are. You're looking at the current ruler of The Bench.
@@ -3148,20 +3236,24 @@ Okay, now just to dig the moat!
 現在該挖護城河了！
 They beat us sis....
 妹妹，我們輸了...
+It’s Michi, Jovan’s Tropius. She seems to be hiding behind him.
+那是米奇，約凡的熱帶龍。她似乎藏在他的身後。
+It’s strange to see such a large creature look so worried.
+看到這麼大的生物看起來如此擔憂，真是奇怪。
 East: Casaba Villa
 東：甜瓜度假區
-Didn't see me comin' did ya!?
-你沒看到我在這裡，對吧？
-You won't see me goin' will ya?
-我不會再讓你發現的！
-I'll see you again. You won't see me!
-我會瞧瞧地接近你，在你發現我之前！
 I see some prize money on the horizon!
 喲，這不是行走的零花錢嘛！
 You know what? I'd best be spending me money instead of losin' it!
 早知道我就把錢花掉了，現在都便宜了你！
 Well, there goes me shore leave money.
 完了，休假資金沒了。
+Didn't see me comin' did ya!?
+你沒看到我在這裡，對吧？
+You won't see me goin' will ya?
+我不會再讓你發現的！
+I'll see you again. You won't see me!
+我會瞧瞧地接近你，在你發現我之前！
 I developed a multi-hit attack during Lambert's self-defense course.
 我在蘭伯特的防身術課堂上，學會了多重攻擊。
 I don't get much chance to battle, though.
@@ -3200,14 +3292,12 @@ And I thought thoday couldn't get worth!
 本以為今天又是無聊的一天！
 And I thought thoday couldn't get worth!!
 本以為今天又是無聊的一天！
-<i>Sniff sniff</i>
-<i>嗅嗅嗅</i>
-I can smell energy on you! We must battle!
-我能聞到你身上的能量！來戰吧！
-The stench of defeat!
-失敗的惡臭！
-Smell ya later!
-願再聞其詳！
+Wow, you found me again!
+哇，你又找到我了！
+A loss is a loss, I guess I owe you that second TM now.
+輸了就是輸了，這個技能機也給你了。
+I'll head back to town now. That was a fun game. I'm pretty worked up, hehe.
+真好玩！嘿嘿！不過現在我要回去了，今天好開心！
 You know, I fancy myself quite the battler! Care to see?
 我覺得自己還是很擅長對戰的！要不要見識一下？
 You... You're quite the battler...\wt[20]
@@ -3216,30 +3306,40 @@ I-I'm going to leave now.
 我...我得走了。
 You, defeat me? My goodness!
 這...怎麼可能？我...輸了？
-Wow, you found me again!
-哇，你又找到我了！
-A loss is a loss, I guess I owe you that second TM now.
-輸了就是輸了，這個技能機也給你了。
-I'll head back to town now. That was a fun game. I'm pretty worked up, hehe.
-真好玩！嘿嘿！不過現在我要回去了，今天好開心！
+<i>Sniff sniff</i>
+<i>嗅嗅嗅</i>
+I can smell energy on you! We must battle!
+我能聞到你身上的能量！來戰吧！
+The stench of defeat!
+失敗的惡臭！
+Smell ya later!
+願再聞其詳！
 Wow, you got here fast!
 哇，你來得真快！
-It's me again, with another sweet invention.
-又是我，帶著另一個酷炫的發明。
+Freakishly fast. How many trainers did you beat on your way here...?
+快得嚇人。你在來這裡的路上打敗了多少訓練師...？
+Er, and by that I mean—Hello again, \PN.
+呃，我的意思是——你好啊，\PN。
+As promised, here’s another invention for you to try out.
+如承諾的那樣，這裡有一個新的發明供你嘗試。
 This one goes back to the Team Chasm days.
 這東西可以追溯到裂隙隊的時代。
-Found a bunch in an old storage container.
+I found a bunch in an old storage container.
 我在一箇舊儲物箱裡找到了一堆。
-It’s a way to <imp>read up on an opponent’s team</imp> before trying to take them on.
-它可以在挑戰對手之前<imp>查看對手的隊伍</imp>。
-I know, I know... the name is a bit silly. The thing doesn't even use X-rays.
-我知道，我知道......名字有點傻。這東西甚至不用X光。
-Anyways... my next stop will be on the mainland.
-總之......我的下一站是大陸。
-Here's hoping we run into each other there.
-希望我們能在那裡再見面。
-See ya.
-再見。
+It’s a way to <imp>read up on an opponent’s team</imp> before battling them.
+這是一種在與對手對戰之前<imp>瞭解對手隊伍</imp>的方法。
+I know, I know... the name is a bit silly. Thing doesn't even use X-rays.
+我知道，我知道...名字有點傻。這東西甚至都不用X光。
+But, hey, I work in R&D, not marketing.
+但，嘿，我在研發部門工作，不是營銷部門。
+*Ahem*... Either way, I’ve got to return to the mainland.
+*嗯哼*...不管怎樣，我得返回大陸了。
+I’ll be verifying some shipments that are being transported to Novo Town.
+我會去核實一些運往望新鎮的貨物。
+Maybe we’ll see each other there.
+也許我們會在那裡見面。
+Until then, best of luck against Lambert!
+直到那時，祝你對抗蘭伯特好運！
 Yes
 學
 No
@@ -4819,14 +4919,16 @@ They get some stuff from the big city, but can't rely on it for everything.
 Mt. Kilna makes it harder to get stuff in between, even with Gigalith's Guts cutting through it.
 即便怪巖腸道貫穿了基爾納山，也因為受到地形的限制，無法進行大規模的陸路運輸。
 Not right now.
-現在不用
+現在不用。
 Sure.
-可以
+可以。
 No
 不要
 Yes
 要了
 [Map60]
+The berry plant is growing.
+樹果還在生長中。
 I didn’t think there’d be so many people… and you know they’re watching me.
 我沒想到有這麼多人...你也看到了他們一直在盯著我。
 I hate it out here…
@@ -4857,8 +4959,10 @@ You’re not… nevermind.
 你...應該不是...算了。
 Maybe we’ll meet again – but, uh, I’m – thank you.
 或許我們會再見的...但是...我...謝謝。
-The berry plant is growing.
-樹果還在生長中。
+North: Novo Town
+北：望新鎮
+South: Feebas' Fin
+南：魚鰭港
 I'm bored of searching for the <imp>Dragon Den</imp> around here.
 我受夠了，這裡哪有<imp>龍穴</imp>。
 Let's battle, instead!
@@ -4871,16 +4975,44 @@ If only I had that Dragon-type...
 如果我有那隻龍屬性就好了......
 Looking forward to seeing how you grow!
 很期待你將來能達到的高度！
-North: Novo Town
-北：望新鎮
-South: Feebas' Fin
-南：魚鰭港
 A sharpened mind is the key to victory. Has yours been whetted?
 敏銳清晰的頭腦是取勝的關鍵，我會讓你好好見識一下的。
 Yours is a razor's edge. I must hone my own.
 你的腦子比我的更好使，必須加緊磨練自己了。
 Outsmarted and outmatched...for now.
 被以智取的方式完勝...不過這只是暫時的。
+The door is locked with an old rusty padlock.
+這扇門上鎖了一把生鏽的鎖頭。
+You press against the door, and the padlock snaps in half!
+你稍微用力一推，它就分崩離析了！
+Hi.
+嗨。
+I just wanna say—who planted these berries here?
+我只是想問問——誰在這裡種了這些樹果？
+The Timburr have enough distractions as it is.
+搬運小匠已經有足夠的分心事了。
+Whatever. Here.
+隨便啦。給你。
+This thing will save you time like you wouldn’t believe.
+這東西會節省你難以置信的時間。
+More convenient than flying everywhere.
+比到處飛行更方便。
+I’d use one, myself, if not for the nausea.
+如果不是因為會暈，我也會用一個。
+But uh… it probably won’t affect you!
+但呃...它可能不會影響到你！
+My next official stop is at <imp>Prizca West</imp>, north of the river. Let’s meet up there—
+我的下一個官方停靠點是在河以北的<Imp>西宏禮市</imp>。讓我們在那裡見面-
+Actually… I’ll be making a pitstop at <imp>LuxTech</imp> first. Stop by, if you’d like.
+實際上...我將首先在<imp>光華科技</imp>上停留。如果您願意，請停下來。
+Or don’t. I don’t control your life.
+或者不來。我又不控制你的生活。
+*ahem*... I’ll be off.
+*哎呀*...我會離開。
+At least this time I don’t have to figure out where she is…
+至少這次我不用去琢磨她在哪兒了...
+I swear…
+我發誓...
 Hey, give me some practice, won't'cha? I'm gonna need it to become one of Eko's gym trainers!
 你好，能幫我訓練訓練嗎？我還需要積累更多的實戰經驗，才能成為艾克的道館訓練師！
 Ouch! Maybe I need to go back and study some more. I don't even have a Poison-type yet!
@@ -4889,24 +5021,6 @@ See? I didn't do too bad! I could totally work for them!
 看見沒？我的水平還不錯！我絕對可以勝任這份工作!
 You got some hot moves! Remind me to introduce you to Lainie -- she'd love ya!
 你的那些技能很給力啊！我覺得應該把你介紹給蘭妮 - 我想她會喜歡你的！
-Hey, good to see you again!
-嘿，很高興再次見到你！
-I just created this invention, and I need testers.
-我這裡又有新的發明，現在需要測試人員。
-Anyways, I'm traveling up north to the big city for the Battle Festival!
-對了，我正打算去北邊的大城市，參加\c[2]戰鬥節慶典\c[0]！
-Cross the river into <imp>Prizca</imp>, the big city, and I'll be there to give you a 4th and final invention.
-過河到<imp>宏禮市</imp>，那座大城市，我會在那兒給你第四個也是最後一個發明。
-See ya!
-回頭見！
-The door is locked with an old rusty padlock.
-這扇門上鎖了一把生鏽的鎖頭。
-You press against the door, and the padlock snaps in half!
-你稍微用力一推，它就分崩離析了！
-Maybe if I turn like this he'll catch my good side.
-如果我轉一下身，他或許能捕捉到更好的畫面？
-Take a hike, we have a portrait to finish!
-一邊待著去，沒看到我們正忙著畫肖像嗎!
 I'm searchin' for that bolt of lightning to inspire me. Hit me with it!
 我正在尋找那突然的靈光一閃，不知道你能不能給我帶來靈感！
 Ah, I just found the perfect riff! I need to have Lainie listen to this! She'd love it!
@@ -4915,8 +5029,10 @@ Damn! I was feelin' it for a second there, but then it just fell apart.
 淦！我剛找到一丟丟靈感，結果一下子又全沒了！
 Serves me right for composing during battle.
 這就是在戰鬥中創作的壞處。
-It looks like it's taking a needed rest on the bench.
-它看起來需要多休息休息。
+Maybe if I turn like this he'll catch my good side.
+如果我轉一下身，他或許能捕捉到更好的畫面？
+Take a hike, we have a portrait to finish!
+一邊待著去，沒看到我們正忙著畫肖像嗎!
 Excuse me, I'm posing here.
 抱歉，我們正在畫肖像！
 Don't interfere with the artistic process!
@@ -4925,6 +5041,14 @@ I somehow managed to paint you into the portrait...
 不知道為啥就把你畫進去了...
 It's been a rocky enough job as it is.
 難啊...
+It looks like it's taking a needed rest on the bench.
+它看起來需要多休息休息。
+It’s Michi, the Tropius.
+那是米奇，熱帶龍。
+She sniffs eagerly at your bag’s berry pocket.
+她急切地嗅著你包裡的樹果袋。
+She looks disappointed that you took the Sitrus Berry.
+看到你拿走了文柚果，她看起來很失望。
 A splash of brown, then some red...Gotta get the colours on this perfect!
 先是棕色打底，然後紅色點綴...得把這畫的顏色完美地呈現出來!
 This job's been a rocky one even without your interference.
@@ -5268,7 +5392,7 @@ Zoé forever! Bence should pack it up and go home!
 Oh, you've never heard of them?
 啊，你沒聽說過他們？
 Zoé is the rock-tough Gym Leader of Prizca West, and Bence is a loser weakling trying to take her spot.
-佐伊是宏禮市西區的道館館主，而本斯是一個充滿嫉妒心，妄圖取代她位置的可憐弱雞。
+佐伊是西宏禮市的道館館主，而本斯是一個充滿嫉妒心，妄圖取代她位置的可憐弱雞。
 You'd think the government would do something, but the Gymnasium Office has cowardly ignored all my emails.
 我為此給政府部門寫了好幾封郵件，但道館管理辦公室卻無視了我。
 You got the Prizca West badge, that means... you beat Zoe?!
@@ -8112,7 +8236,7 @@ Hello again, champion.
 Don't pay me any mind.
 別管我。
 I'm just here to discuss some possible changes to the monument with Jovan.
-我只是來和Jovan討論紀念碑的一些可能的改動。
+我只是來和約凡討論紀念碑的一些可能的改動。
 You've met, I believe?
 你們見過，對吧？
 I'll take your Pokémon for a few seconds.
@@ -9043,28 +9167,50 @@ Guess I'll have to try again later.
 回頭再來一場！
 Come back tomorrow, I might have more energy then...
 等明天吧，我得先休息一下...
-Oh, er, you look like you want to battle.
-呃...你想跟我對戰？
-I'm not a Trainer. You can tell by the fact that I don't have a <imp>follower Pokemon</imp>.
-我不是訓練師，我身邊並沒有<imp>精靈跟隨著</imp>。
-Dunno if you're new here or something, but Trainers in Makya will usually have a Pokemon by their side if they're looking to battle.
-不知道你是不是剛來馬凱亞，在這裡，那些想要戰鬥的訓練師，都會將自己的一隻精靈帶在身邊。
-Cuts all the awkward confusion with the eye contact stuff.
-這樣可以避免尷尬的眼神交流。
+Wow, uh… reaching for your Poke Balls already, huh?
+哇，呃...你已經要拿精靈球了嗎？
+I’m not here to battle you.
+我不是來和你戰鬥的。
+I don't even have a <imp>Pokemon next to me</imp>!
+我甚至沒有<imp>精靈在身旁</imp>！
+...
+...
+To clarify… It’s standard for Trainers in Makya to have their follower Pokemon at their side when they are seeking a battle.
+說清楚...在馬凱亞，訓練師在尋找戰鬥時，通常會讓他們的跟隨精靈在身邊。
+Frankly, I would have assumed you knew that already…
+坦白說，我以為你已經知道了...
 Anyways, now for the real reason I'm here.
 至於我為什麼會在這裡...
-Name's Jovan. I'm with Research and Development at Sweetrock Candy Company.
-我叫約凡，是蜜巖糖果公司的研發人員。
-I need test subjects. Since you're a licensed trainer, you can help me out. Take this.
-我正在尋找合法的訓練師幫我測試新的產品，如果你願意幫忙，請帶上這個。
-Once you train your Pokemon enough, this thing will start popping out candies.
-當你的精靈到達極限後，這個裝置就會產生經驗糖果。
-Have your Pokemon eat them. It'll let them grow stronger.
-餵給那些還不夠強的精靈，就能讓它們快速形成戰力。
-Since you're such a good sport about it, I have another treat for you if you find me on the beach.
-既然你這麼配合，如果你在海灘上找到我，我還有一份禮物給你。
-See ya then.
-拜~
+Name's Jovan. I'm an inventor working for Sweetrock Candy Company.
+我叫約凡。我是蜜巖糖果公司的發明家。
+You’re \PN, right? I’ve been instructed to grant you one of our prototypes.
+你是\PN，對吧？我被指示給你一個我們的原型。
+Here. Take this.
+給你。拿著這個。
+This machine will store the excess energy generated from battling.
+這臺機器會儲存戰鬥中產生的多餘能量。
+That can happen when you over-train your Pokemon.
+當你過度訓練你的精靈時，就會出現這種情況。
+Once the Dispenser has gathered enough, you can activate it to make EXP Candy!
+一旦分配器收集了足夠的能量，你就可以激活它來製作經驗值糖果！
+That’s the idea, anyways. Let me know if you encounter any bugs.
+這就是想法。如果你遇到任何漏洞，請告訴我。
+I’ve tested it thoroughly, but putting products into the wild can be such a crapshoot…
+我已經徹底測試過了，但把產品放到野外就像一場賭博...
+Anyways, I have some research to do at the abandoned shop on Bluepoint Beach.
+不管怎樣，我需要在藍瑩海灘的廢棄商店做些研究。
+If you meet me there, I might have another cool invention to give you.
+如果你去那裡找我，我可能還會給你另一個很酷的發明。
+Now if you’ll excuse me, I have to find out where my transportation has wandered off to.
+如果你不介意的話，我得去弄清楚我的交通工具跑到哪兒去了。
+Michi? Are you over here?
+米奇？你在那邊嗎？
+…of course you are.
+...當然在。
+A well-fed Tropius. It’s carrying a large saddle with many attached bags.
+一隻養得很好的熱帶龍。它揹著一個有許多附帶袋子的大鞍。
+You hear beeping and whirring sounds from inside them.
+你聽到裡面傳來嗶嗶聲和嗡嗡聲。
 [Map139]
 Welcome to the Starters Store! We stock a selection of Starter Pokemon from every region!
 歡迎來到初始商店，你可以在這裡獲得來自各個地區的新手精靈。
@@ -9266,6 +9412,40 @@ East: Battle Plaza
 東：對戰區
 South: Eleig River Crossing
 南：埃利格渡口
+\PN. Good to see you looking well.
+\PN，看到你氣色不錯真好。
+I've heard a lot about your recent exploits.
+我聽說了你最近的許多事蹟。
+Your performance in the gym challenge has been quite impressive.
+你在道館挑戰中的表現相當出色。
+I spent some time as a gym trainer under Victoire, so believe me when I say it's rare to see someone of your caliber.
+我在薇克特爾手下當過一段時間的道館訓練家，所以相信我，像你這樣水平的人很少見。
+*sigh*
+*嘆氣*
+...
+...
+You must think I’m so full of shit.
+你肯定覺得我在胡說八道。
+They told me to impress you, so that’s what I’ve been doing…
+他們讓我給你留下好印象，所以我一直在這麼做...
+I just don’t care anymore.
+我再也不在乎了。
+You’re more than a rich jerk with connections.
+你不僅僅是個有關係的有錢混蛋。
+You're actually good at this stuff. At battling. At Pokemon.
+你真的擅長這些。擅長戰鬥。擅長精靈。
+This one can be used to swap Pokemon into alternate forms.
+這個可以用來把精靈換成其他形態。
+Despite the name, it doesn’t apply to all Pokemon.
+儘管名字如此，但它並不適用於所有精靈。
+Just ones that can change outside of battle. Rotom, Deerling, Lycanroc... some others...
+只是那些可以在戰鬥之外改變形態的精靈。如洛託姆、四季鹿、鬃巖狼人...還有一些其他精靈。
+I hope you enjoyed it, because that’s the last spiel you’re gonna get from me.
+希望你喜歡，因為這是你從我這裡得到的最後的說教。
+There’s a job that needs doing in the world’s weirdest cave… and I’m the person for the job.
+世界上最奇怪的洞穴裡有一份工作需要完成...而我就是這份工作的人選。
+I have to be.
+我必須是。
 Aquatopia offers ocean fishing trips and competitions.
 水世界經常舉辦海釣活動，或各種水上項目比賽。
 They're the best fishing experience in Makya!
@@ -9416,8 +9596,6 @@ Farewell Trainer, the Rangers owe you one.
 再見，訓練師，代表全體護林員向你致謝。
 Any luck?
 有什麼進展嗎？
-...
-...
 Nothing? Nothing?!
 什麼都沒有？什麼都沒有？
 What did she do? How could there be nothing there?
@@ -9594,6 +9772,8 @@ In case you're wondering -- it's a building in the very north of the Battle Plaz
 你不知道在哪裡嗎？就在對戰區最北邊的建築裡。
 Right next to the entrance to the Tournament Grounds.
 就在競技大會那邊的入口處。
+The door is boarded up.
+這扇門被木板封死了。
 Hello! Would you be interested in signing a petition to demolish the road?
 你好，你願意簽署一份拆除這條路的聯名請願書嗎？
 This road currently has no financial benefit to the city ever since the bridge to the south was destroyed.
@@ -9614,48 +9794,36 @@ Eventually, we'll get enough signatures that the city's council has to listen.
 我們總有一天能得到足夠多的支持，讓議會不得不聽取我們的聲音。
 The city will be much better off for pedestrians.
 這隻會讓城市更美好。
-The door is boarded up.
-這扇門被木板封死了。
 Look at the shiny bird!
 快看那隻閃亮的鳥兒！
 I wanna go up there to talk to it, but my dads never let me.
 我想上去跟它談談，但我爸爸從來不讓我去那兒。
 When I grow up, I wanna be a shiny bird...
 等我長大了，我也要變成一隻閃亮的鳥...
-Hey, good to see you again!
-嘿，很高興再次見到你！
-Here's the final invention I promised.
-這是我承諾的最終發明。
-You can use it on your Pokemon to change their forms.
-你可以使用它改變自己精靈的形態。
-It works on a lot of species, including Lycanroc, Rotom, and Darmanitan!
-很多精靈都可以用，比如鬃巖狼人，洛託姆以及達摩狒狒！
-Well, now that you have that, I've got nothing better to do but wait around at the Battle Festival.
-好吧，現在我沒什麼事幹，只能去戰鬥節慶典上玩玩了。
-Oh, that's to the East. It's a pretty big event!
-就在東邊，一個相當盛大的活動！
-You might see me around there.
-你可能會在那邊看到我。
-A Shiny Corviknight!
-是閃光鋼鎧鴉！
-It's too busy watching the city to notice you.
-它正忙著巡視城市，根本沒注意到你。
+It’s Michi, the Tropius.
+那是米奇，熱帶龍。
+She seems nervous, like she's anticipating something.
+她看起來很緊張，好像在期待著什麼。
 There you are. Ready now?
 你在這裡。現在準備好了嗎？
 You’re insufferable some times, you know that?
 有時候你真是讓人受不了，你知道嗎？
 That last one was… real close.
 那最後一次真的很接近。
-Bence's House
-本斯家
-The Grand Hotel:
-宏偉酒店：
-Makya's first five-star hotel!
-馬凱亞第一家五星級！
+A Shiny Corviknight!
+是閃光鋼鎧鴉！
+It's too busy watching the city to notice you.
+它正忙著巡視城市，根本沒注意到你。
 It's weird seeing the streets here so empty.
 在這裡看到街道如此空曠真是奇怪。
 It's a combination of the road closure, and the Battle Festival happening right nearby.
 這是道路封閉和戰鬥節慶典臨近的原因。
+The Grand Hotel:
+宏偉酒店：
+Makya's first five-star hotel!
+馬凱亞第一家五星級！
+Bence's House
+本斯家
 I'm a bit of a Striker.
 我要當前鋒！
 I got all sorts of tools that I can use to put the ball in the net.
@@ -9666,16 +9834,16 @@ You would not believe the mix-ups I do with this.
 你一定不敢相信，我竟然把這個給弄混了。
 I might be the best to ever do it, just saying.
 我可能會是史上最強的前鋒！當然我只是說說而已。
-Bogdan Cement Company
-博登澆築
-Tourism Sector
-旅行區
 Whooo-ee, look at them water towers!
 哇哦，快看這些水塔！
 Always surprises me how much is needed for concrete and other such manufacturin'.
 沒想到造它需要用那麼多混凝土！
 And I thought growin' crops needed a lot...
 比我在鄉下一年用的都多...
+Tourism Sector
+旅行區
+Bogdan Cement Company
+博登澆築
 What are you doing here?
 你在做什麼？
 Which one are you?
@@ -10706,6 +10874,68 @@ Yes, to avoid my fears.
 No, I haven't.
 還沒有過
 [Map183]
+\PN.
+\PN.
+Thank you for listening to me and coming here.
+謝謝你聽我說，並來到這裡。
+\PN!
+\PN!
+Are you sure you aren’t Psychic-type?
+你確定你不是超能屬性嗎？
+I spent the last day mulling over whether to call you, and here you are, arriving of your own accord.
+我花了整整一天考慮是否要給你打電話，而你卻自己來了。
+…I’m glad to see you, even if part of me isn’t…
+...我很高興見到你，儘管我內心的一部分並不是...
+Let’s get right to business.
+讓我們直接進入正題。
+You probably figured this out already, but I’m ex- Chasm.
+您可能已經弄清楚了，但是我是前裂隙隊的。
+A few years ago I joined an expedition into the Circuit Cave organized by the Makyan Government.
+幾年前，我加入了馬凱亞政府組織的電路洞窟探險隊。
+Our goal: to understand the circuitry and machinery housed in the lower layers.
+我們的目標：瞭解下層的電路和機械裝置。
+As it turns out, being the only engineer in a throng of useless academics makes it hard to get anything done.
+事實證明，作為一個工程師，周圍卻是一群無用的學者，很難做成任何事情。
+Who cares about “cultural significance” or “hydrological processes" when we don’t even know what the thing does?!
+當我們甚至都不知道這個東西是做什麼的時候，誰會在乎“文化意義”或“水文過程”呢？！
+…but that’s all in the past, now.
+...但那都是過去的事了。
+I brought you here because of a different group of ex-Chasm.
+我把你帶到這兒是因為另一群前裂隙隊成員。
+The Drillers.
+鑽工隊。
+What a lovely bunch they are.
+他們真是個可愛的群體。
+They’re basically a gang wearing ranger uniforms— and this corner of Makya is their “turf”.
+他們基本上是一群穿著護林員制服的幫派——馬凱亞的這個角落是他們的“地盤”。
+Usually we’re keen to avoid the Regi Tombs, but recent events have… got some of us nervous.
+通常我們都儘量避開巨人墓穴，但最近發生的事情...讓我們中的一些人感到不安。
+That’s what the Drillers are saying, anyways… that they’re here to protect the place.
+鑽工隊是這麼說的...他們說他們來這兒是為了保護這個地方。
+Keep the prisons secure.
+確保監獄的安全。
+I think that’s a load of Tauros dung.
+我覺得那都是肯泰羅的糞便。
+And even if it’s not, I don’t trust them around the machines.
+即使不是這樣，我也不信任他們在機器旁邊。
+So, my request: Figure out what The Drillers are doing. And stop them, if my instincts about their mission prove correct.
+所以，我的請求是：弄清楚鑽工隊在做什麼。如果我的直覺關於他們的任務是正確的，就阻止他們。
+Finish the job that I can’t.
+完成我無法完成的工作。
+I’ll stand watch out here.
+我會在這裡站崗。
+Need a refresher? I know, it’s a lot of information.
+需要複習一下嗎？我知道，這有很多信息。
+The Drillers have invaded the Oasis System.
+鑽工隊入侵了綠洲系統。
+They’re a bunch of brutes, and probably up to something.
+他們是一群粗人，可能在謀劃著什麼。
+Even if they’re not, I don’t want them anywhere near the place.
+即使不是這樣，我也不想讓他們靠近那裡。
+I’ll never figure out why the ancients built this System if The Drillers find a way to “accidentally” destroy it first.
+如果鑽工隊先找到“意外”破壞這個系統的方法，我就永遠也弄不清楚古人為什麼要建造這個系統。
+In short: find The Drillers and—if neccessary—evict them.
+簡而言之：找到鑽工隊，並且——如果有必要——把他們趕出去。
 [Map184]
 Helena's food is neatly sorted in the fridge.
 海蓮娜的食物被整整齊齊地放在冰箱裡。
@@ -12301,22 +12531,18 @@ I love her.
 I hate her.
 我討厭她
 [Map194]
-I'm the Ranger Captain assigned to the Barren Crater Station.
-我是被派往蠻荒火山的護林員軍官。
-We've been helping with the nightmare in Velenz so I figured I'd come here to learn what I can.
-我們一直在協助大家對付夜幽市的幽靈，所以我想來這裡看看能學到什麼。
-I've been gone for a while. I hope my unit is taking advantage of my absence...
-希望離開的這段時間裡，我的手下們能頂得住......
+The door is securely locked.
+這扇門上鎖了。
 I was brought here to speak about how to best combat the avatar threat.
 我被帶到這裡來討論對抗化身的最好方案。
 I don't know when this conference will be televised, but I hope it saves the skin of at least a few Trainers.
 我不知道這次會議會在什麼時間被電視轉播，但我希望它至少能多拯救幾個訓練師的生命。
-The door is securely locked.
-這扇門上鎖了。
-Capitol Library
-首都圖書館
-Press Room
-新聞發佈廳
+I'm the Ranger Captain assigned to the Barren Crater Station.
+我是被派往荒莽火山的護林員隊長。
+We've been helping with the nightmare in Velenz so I figured I'd come here to learn what I can.
+我們一直在協助大家對付夜幽市的幽靈，所以我想來這裡看看能學到什麼。
+I've been gone for a while. I hope my unit is taking advantage of my absence...
+希望離開的這段時間裡，我的手下們能頂得住......
 I worry about my grandson.
 我很擔心我的孫子。
 He works at the castle on the north side of the city.
@@ -12325,26 +12551,26 @@ He always gets involved with dangerous Pokemon, and I'm not just talking about t
 他總是被捲入進與危險的精靈的對戰中去，我指的不僅僅是化身。
 It always looks like he's a breeze away from being caught in the blasts...
 他總是看起來離意外只有一步之遙...
+Press Room
+新聞發佈廳
+Capitol Library
+首都圖書館
+The sign lists off rules you have to follow to schedule meetings with Members of Parliament.
+這上面列出了你跟國會議員會面時，必須要遵守的規定。
 The avatar crisis is really starting to threaten our wellbeing.
 化身帶來的危機真的開始破壞我們安定的生活了。
 If it weren't for the Rangers and their volunteers, avatars would probably be causing irreparable damage.
 多虧了護林員和那些志願者們，不然化身可能會造成不可挽回的損失。
-The sign lists off rules you have to follow to schedule meetings with Members of Parliament.
-這上面列出了你跟國會議員會面時，必須要遵守的規定。
-Hey kid, I'm gonna have to ask you to take a seat.
-你好，孩子，請隨便坐。
-You can ask your questions later.
-過一會兒你可以隨便問。
 Ma'am if you would!
 女士，我的問題是...
 Avatars have already destroyed the bridge across the Eleig River.
 化身已經把埃利格大橋拆了！
 Coupled with the incident at Velenz, how can people be confident that Makya is a safe place to live?
 再加上之前在夜幽市發生的事情，還怎麼讓人們相信能安安全全地生活在馬凱亞地區呢？
-Are you scheduled to speak later today?
-不好意思，我得先確認，你今天在會議上有發言的安排嗎？
-No? Then I'm gonna have to ask you to find a spot to watch the conference.
-沒有？那請您在後方觀看會議。
+Hey kid, I'm gonna have to ask you to take a seat.
+你好，孩子，請隨便坐。
+You can ask your questions later.
+過一會兒你可以隨便問。
 I work here in the capitol building, recording meetings and the like.
 我是這裡的工作人員，負責記錄會議和發言。
 But I really want to be a documentary film-maker!
@@ -12365,6 +12591,10 @@ Lainie.
 ...啊？你這是什麼眼神？
 You're creeping me out, I'm leaving.
 不許盯著我，我走了！
+Are you scheduled to speak later today?
+不好意思，我得先確認，你今天在會議上有發言的安排嗎？
+No? Then I'm gonna have to ask you to find a spot to watch the conference.
+沒有？那請您在後方觀看會議。
 I've lived a life of luxury, in no small part due to my lucrative career as a Trainer.
 我年輕時作為一名訓練師，賺了不少錢，所以能過上富足奢華的生活。
 I managed to get my hands on a few of these Amulet Coins.
@@ -12381,6 +12611,18 @@ Making enough for yourself out there?
 你在外面掙得錢夠多了嗎？
 It's hard being a career Trainer. You need to make sure you've got your basics taken care of.
 成為精英訓練師很難，你需要保障自己的基本生活需求。
+This place is boring.
+這個地方好無聊。
+My mom is boring.
+我媽媽也好無聊。
+All she does is go to the front and talk all day.
+她天天只會在別人面前講話。
+How is that cool? I already do that all the time for show and tell!
+那有什麼酷的？我已經經常在大家面前講些什麼了！
+An assembly is currently in progress.
+這個房間里正在開發佈會。
+Please enter in a quiet and orderly fashion.
+請安靜有序地進入。
 The door is locked.
 門被鎖住了。
 A piece of laminated paper is stuck onto it.
@@ -12393,26 +12635,8 @@ Coincidentally, it's the exact same date as the Championship Tournament.
 巧的是，剛好是競技大會開幕那天。
 Perhaps you should come back after that's completed.
 或許可以等比賽結束後再來。
-An assembly is currently in progress.
-這個房間里正在開發佈會。
-Please enter in a quiet and orderly fashion.
-請安靜有序地進入。
-This place is boring.
-這個地方好無聊。
-My mom is boring.
-我媽媽也好無聊。
-All she does is go to the front and talk all day.
-她天天只會在別人面前講話。
-How is that cool? I already do that all the time for show and tell!
-那有什麼酷的？我已經經常在大家面前講些什麼了！
 \wuHe's too busy filming to notice you.
 \wu他都要忙昏頭了，根本沒有注意到你。
-Makya is at a critical point in its history.
-馬凱亞正處於歷史的關鍵節點。
-Either we become a fully fledged region, or we get relegated as merely secondary.
-要麼我們成為一個完全成熟的獨立地區，要麼我們被降級為次要地區。
-I don't want this place to end up like Orre, dismissed as a third rate region with a fourth rate League.
-我不希望我們的家園最終像歐雷一樣，被認定為一個人厭狗嫌地方，只能保留一個上不了檔次的聯盟。
 Makya's Pokemon League has gathered quite a few skeptics.
 馬凱亞的精靈聯盟聚集了很多陰謀論者。
 The region doesn't have a traditional Elite Four, and Gym Leaders here aren't exactly career Trainers either.
@@ -12423,6 +12647,12 @@ They're right, but not in the way they think.
 他們在某些方面是對的，但並不都是他們想的那樣。
 Obviously I'm biased since I'm former Chasm myself, but I really do think the League here is a real attempt at going legit.
 當然，我的觀點未必客觀，畢竟我自己就曾是裂隙隊的一員，但我真的認為現在的聯盟正在一步步嘗試著走向合規。
+Makya is at a critical point in its history.
+馬凱亞正處於歷史的關鍵節點。
+Either we become a fully fledged region, or we get relegated as merely secondary.
+要麼我們成為一個完全成熟的獨立地區，要麼我們被降級為次要地區。
+I don't want this place to end up like Orre, dismissed as a third rate region with a fourth rate League.
+我不希望我們的家園最終像歐雷一樣，被認定為一個人厭狗嫌地方，只能保留一個上不了檔次的聯盟。
 The connecting tunnel from Sweetrock was blocked by an avatar!
 通向蜜巖港的隧道被一個化身佔據了
 How am I supposed to get my daily shipment of candies?
@@ -12700,16 +12930,16 @@ Hey hey, you here to adopt some Eevees?
 嘿，你是來領養伊布的嗎？
 You already saw: They're good battlers!
 你應該知道：它們不光可愛，也很強！
+People come here for the Pokemon, but most regulars stay for the food and drink.
+人們來這裡是為了伊布，但大多常客能留下，都是因為他們的食物和飲品。
+Best place in the whole city right here.
+這裡是整個城市最好的地方。
 Here, take this.
 拿去吧。
 It's yours now. All yours.
 現在這是你的了。
 Sorry, no take-back-sies.
 不能反悔哦！
-People come here for the Pokemon, but most regulars stay for the food and drink.
-人們來這裡是為了伊布，但大多常客能留下，都是因為他們的食物和飲品。
-Best place in the whole city right here.
-這裡是整個城市最好的地方。
 I'm glad you came!
 很高興你能來！
 Aren't Eevee just the best?!
@@ -13911,10 +14141,6 @@ Doesn’t really make us even, but thanks.
 當然這不足以報答你的恩情，權當我微不足道的謝意吧。
 I need to get Phione somewhere safer, but I’ll see you. Thanks for everything.
 現在我得帶著霏歐納去安全的地方了，我們還會再見的。
-North: Cave of Hatching
-北：啟明之窟
-East: Frostflow Farms
-東：風霜農場
 Have you seen my new avatar defense technique? Pokésand, go!
 要見識一下我抵禦化身的新招數嗎？寶可沙，出擊！
 Hmm, back to the drawing board on this one.
@@ -13923,6 +14149,10 @@ The technique is for avatars, not Trainers. I can't expect it to work perfectly 
 這個技巧是針對化身的，不是針對訓練師的。我不指望它在對戰中也能完美髮揮。
 Huh? Weather wars? What's that?
 啥？天氣戰爭？那是什麼？
+North: Cave of Hatching
+北：啟明之窟
+East: Frostflow Farms
+東：風霜農場
 Hey! It's uh... the guy you saw near the Regice Chamber.
 哦，你是...我在雷吉祕室看到的那個人。
 I think I got a decent understanding of what's happened to me.
@@ -13943,14 +14173,14 @@ That's a nice feeling, you know?
 你不覺得這種感覺很好嗎？
 How are you... here? This isn't even the right map... I don't actually exist. Sort of, at least... Please... don't cheat when we fight...
 你怎麼......在這裡？這甚至不是正確的地圖......我並不真正存在。至少某種程度上......請......別在對戰時作弊......
-Stop that
-別這樣。
 Sheeeeeeesh, let's get a looksie at this this little Trainer now!
 哦哦哦，快看這個小訓練師！
 Well butter my butt and call me a biscuit, this here Trainer's got us slapped silly!
 好吧，你可以隨便給我取外號，竟然被這樣打敗了！
 What a howdown from our Trainer friend here. Bet they got one o' those fancy candy thingamajigs.
 我們的訓練師朋友真會說話，想必一定吃了不少糖吧。
+Stop that
+別這樣。
 A Pokemon world, and within every battle, a world of struggle.
 奮鬥與競爭，在精靈的一生，多少敗與成。
 How much can I fit, into a haiku format? I'm running out of...
@@ -13961,12 +14191,14 @@ I write, erase, rewrite. Erase again, and then, my Ditto changes.
 一字一音替，不知不覺日偏西，百變怪作筆。
 You can barely make out the outline of a cave entrance behind the waterfall.
 勉強可以透過瀑布，看到後面洞口的輪廓。
-Well golly me we got a cheater! Looks like they did a little bit of hackerooni.
-我們遇到作弊高手了！他絕對用了什麼黑客技術。
-Well I ain't never seen a scrap like that since before my pa started herding Tauros with his bare hands.
-除了我那個徒手跟肯泰羅較勁的老爸，我已經很久沒見過這種廢物了。
-Real shame what happened to his favorite knee.
-真是恥辱啊！
+My Pokemon love the trees and grass. They also love battling!
+我的精靈們喜歡樹木和草叢，也很喜歡戰鬥！
+What's that, my Pokemon? You want to go to the pub?
+我的精靈這是...想去酒吧？
+I have no choice, I must listen to them. Bye bye!
+我只能聽它們的了，再見！
+Good battling! You should fight my brother, too. He's all the way at the end of the river.
+打得不錯，或許你有興趣跟我哥也來一場，他就在這條河的盡頭。
 Heya, Trainer!
 嗨，訓練師
 I heard that a Champion was going to be here, but I coulnd't find them.
@@ -13987,20 +14219,12 @@ Maybe I'll get chocolate today...
 要不還是去買巧克力吧...
 Haha, you're poor! That's really funny!
 哈哈，窮鬼，嘿嘿！
-My Pokemon love the trees and grass. They also love battling!
-我的精靈們喜歡樹木和草叢，也很喜歡戰鬥！
-What's that, my Pokemon? You want to go to the pub?
-我的精靈這是...想去酒吧？
-I have no choice, I must listen to them. Bye bye!
-我只能聽它們的了，再見！
-Good battling! You should fight my brother, too. He's all the way at the end of the river.
-打得不錯，或許你有興趣跟我哥也來一場，他就在這條河的盡頭。
-...
-...
-You're cheating, right?
-你在作弊！
-I'm just here to play my guitar. No idea who the other guy is...
-我只是來彈吉他的，根本不認識那個人...
+Well golly me we got a cheater! Looks like they did a little bit of hackerooni.
+我們遇到作弊高手了！他絕對用了什麼黑客技術。
+Well I ain't never seen a scrap like that since before my pa started herding Tauros with his bare hands.
+除了我那個徒手跟肯泰羅較勁的老爸，我已經很久沒見過這種廢物了。
+Real shame what happened to his favorite knee.
+真是恥辱啊！
 Welp, I'll have to abandon my Cave of Hatching visit...
 看來我不得不放棄前往啟明之窟的旅程了...
 The entrance is blocked, and I stupidly didn't bring any climbing gear.
@@ -14011,6 +14235,12 @@ All I wanted was to experience the legend...
 我只是想去體驗下傳說中的...
 Take this item, I'm clearly not worthy of it...
 把這個拿走吧，我不配...
+...
+...
+You're cheating, right?
+你在作弊！
+I'm just here to play my guitar. No idea who the other guy is...
+我只是來彈吉他的，根本不認識那個人...
 It was an avatar.
 這是個化身。
 You're here?
@@ -16103,16 +16333,14 @@ Impressive.
 I gotta talk to Tamarind.
 我會跟塔瑪琳談談
 [Map258]
-Alessa's House
-阿萊莎 家
 Feeling nostalgic?
 感到有些懷舊？
 That's just the effect Whitebloom has on people.
 這就是白花鎮對大家的影響。
 You seem like you'd enjoy a souvenir. You know, to remember the town by.
 或許你會喜歡這個紀念品，紀念你曾經來過這裡。
-Pokemon Lab
-精靈實驗室
+Alessa's House
+阿萊莎 家
 …Are you bored yet?
 ...你無聊嗎？
 Of battling, I mean.
@@ -16343,14 +16571,16 @@ And then we’ll settle things the only way we know how. It’s only right to gi
 然後我們用我們唯一知道的方式解決問題，給你最後一次戰鬥。
 Goodbye, \PN.
 再見，\PN。
+Pokemon Lab
+精靈實驗室
 "Whitebloom Town, where adventure is always near!"
 "白花鎮，與冒險相伴！"
 The door seems to be locked shut.
 這扇門上鎖了。
-Herbert's Herbs
-赫伯特 家
 Yezera's House
 葉澤拉 家
+Herbert's Herbs
+赫伯特 家
 Wren's House
 冉冉 家
 When I saw Yezera again, I couldn't believe my eyes.
@@ -18823,12 +19053,88 @@ I trust this tube with my life.
 這個救生圈可以救我的命。
 Do you know how to swim? Why'd you have to use your board to get here?
 你會游泳嗎？你為什麼要用衝浪板來這裡？
+\PN!
+\PN!
+So, we know where they're all going.
+所以，我們知道他們都去哪兒了。
+But there's something important we still don't know.
+但我們仍然不知道一些重要的事情。
+In your time exploring the Oasis System, please tell me you figured out what the purpose of the place is.
+在你探索綠洲系統的時候，請告訴我你弄清楚這個地方的用途是什麼了。
+Or at least you have some thoughts...?
+或者至少你有一些想法...？
+A common theory...
+一個常見的理論...
+Something about it just doesn't make sense to me, though. The data just doesn't line up...
+不過，我覺得有些地方說不通。數據對不上...
+Ugh. All this effort... even with your help we still can't make any PROGRESS.
+哎呀。所有這些努力...即使有你的幫助，我們仍然無法取得任何進展。
+I'm not enough... and it seems that even you aren't enough.
+我不夠...而且似乎你也不夠。
+The most feasible hypothesis...
+最可行的假設...
+They are quite dangerous, in theory.
+從理論上講，他們相當危險。
+I feel that there must be more to it, though.
+不過，我覺得這裡面一定還有更多。
+Ugh. I was hoping you'd be able to do more. To understand more.
+哎呀。我本希望你能做得更多。理解得更多。
+To help me FIGURE THIS OUT!
+幫我弄清楚這個！
+Ugh.
+哎呀。
+What were you even doing in there?
+你在那裡到底在做什麼？
+I didn't think of you as the kind of person who'd walk around gawking instead of actually paying attention.
+我沒把你當成那種只會四處張望而不真正注意的人。
+You're just like the others.
+你和其他人一樣。
+I didn't waste 3 months trying to crack the code to just turn around and decide that it was all pointless.
+我花了3個月試圖破解密碼，不是為了轉身決定這一切都是徒勞的。
+I'm... sorry.
+我...很抱歉。
+What a hypocrite I am. This is not the thing I should be focusing on now.
+我真是個偽君子。這不是我現在應該關注的事情。
+And I certainly shouldn't be getting angry with you.
+我當然不應該對你發火。
+I should be... grateful. For what you did in there.
+我應該...感激。因為你在那裡所做的一切。
+For doing what I can't. Confronting The Drillers.
+因為你做到了我做不到的事情。面對鑽工隊。
+I... I love my Pokemon... but they could never do what yours did.
+我...我愛我的精靈...但它們永遠做不到你的精靈所做到的事情。
+Let's focus on the problem at hand.
+讓我們專注於眼前的問題。
+You prevented The Drillers from getting their hands on the genies... but both groups are still out there.
+你阻止了鑽工隊得到精靈...但這兩個群體仍然在外面。
+We've got to chase after them.
+我們得追上他們。
+I may not be able to battle, but Michi here is like a cargo plane in Pokemon form.
+我可能無法戰鬥，但米奇就像是一架精靈形式的貨機。
+She'll get us to wherever the Forces of Nature have fled off to.
+她會帶我們去自然力量逃往的地方。
+It's your time to shine, Michi!
+這是你發光發熱的時候了，米奇！
+I... can understand your hesitation.
+我...可以理解你的猶豫。
+Do your preparations, then. Please hurry.
+那就做你的準備吧。請快點。
 West: Canal Desert
 西：運河沙漠
 Northwest: Split Peaks
 西北：嵌口峰
 Northeast: Sweetrock Harbor
 東北：蜜巖港
+It’s Michi, the Tropius.
+那是米奇，熱帶龍。
+She looks excited to fly off on an adventure!
+她看起來很興奮，準備出發去冒險！
+She came back to fly you back to the Empty Island!
+她回來是為了帶你回荒蕪之島！
+You give her a soft pat on the back, but decide to not fly with her.
+你輕輕地拍了拍她的背，但決定不和她一起飛。
+She makes a content noise.
+她發出滿足的聲音。
 I come here to relax with my Pokemon. Though, a battle or two won't hurt, either.
 我和我的精靈來這裡，是為了放鬆下身心的，不過來場戰鬥也不錯。
 The Skeevee Eevee needs us, I can feel it.
@@ -18895,6 +19201,14 @@ Not now.
 稍等
 Yeah, let's go.
 來吧
+Electricity generation.
+發電。
+Protects us from the genies.
+保護我們免受精靈的侵害。
+I have no idea.
+我一點也不知道。
+It doesn't need a purpose.
+它不需要一個目的。
 No.
 算了
 Yes.
@@ -23071,10 +23385,46 @@ Rest in peace, Tailwind-One.
 安息吧，飛燕一號。
 I could have bought some nice held items with the money I spent...
 或許我應該把錢花在更有用的地方...
+Ah, yes. I knew you'd come eventually.
+啊，沒錯。我就知道你遲早會來。
+Bored with your victory already...
+已經對你的勝利感到厭倦了嗎...
+The adoration of the entire region isn't enough for you.
+整個地區的崇拜對你來說還不夠。
+Bored of chasing after Yezera...
+厭倦了追逐葉澤拉...
+The golems of legend aren't enough for you.
+傳說中的隆隆巖對你來說還不夠。
+I understand how that feels.
+我理解那種感覺。
+Battle me, then, as that is your nature.
+那就和我戰鬥吧，因為這是你的本性。
 "Read Only"
 “只讀”
-Dialogue here.
-對話內容。
+\PN... of all people, you are who should least be trusted to wield a legendary Pokemon.
+\PN...在所有人中，你是最不應該被信任去駕馭傳說中的精靈的人。
+I know exactly why it is that you do what you do.
+我知道你做這些事情的確切原因。
+And it is for that reason... that I must stop you.
+也正是因為這個原因...我必須阻止你。
+Unlike the others, Landorus could not be held by this ancient prison.
+與其他精靈不同，土地雲無法被這個古老的監獄所束縛。
+And yet it stayed... containing itself in this cave.
+然而它卻留了下來...在這個洞穴中自我約束。
+Why...? Because it knew that it was too dangerous on its own.
+為什麼...？因為它知道自己獨自一人太過危險。
+It needs the others... to bring stability. To create order from the chaos.
+它需要其他精靈...帶來穩定。從混亂中創造秩序。
+I tell you this: No single person can handle these powers on their own.
+我告訴你：沒有人能夠獨自駕馭這些力量。
+Even a Pokemon can understand this principle.
+即使是精靈也能理解這個道理。
+And yet you think you're special... that you're above restrictions.
+然而你卻認為自己很特別...認為自己超越了限制。
+You aren't. And I hope you realize it soon.
+你不是。我希望你能儘快明白這一點。
+For <i>your</i> sake.
+為了<i>你</i>。
 Electric bikes rule! All the other punks don't know what they're missing out on!
 電動車才是未來的主流，那些守舊的混混真是太可笑了！
 I'm amped up after that one kid, but my bike isn't. Guess, I'll just walk.
@@ -23116,8 +23466,28 @@ My daughter seems to pick up a new dialect every six months...
 Wis? Bis? Whatever the emoji of the skull means?
 什麼典、崩、樂...還有骷髏表情，都是什麼意思啊？
 [Map407]
-Dialogue here.
-對話內容。
+I gave you a chance to comply.
+我給了你一個服從的機會。
+For the sake of the good citizens of Prizca, I must keep you away from Thundurus.
+為了宏禮市善良的市民們，我必須阻止你接近雷電雲。
+Really? You'd be so selfish?
+真的嗎？你會這麼自私？
+This entire system was built to generate electricity.
+整個系統都是為了發電而建造的。
+If you free Thundurus now, we'll never figure out how to activate it.
+如果你現在釋放雷電雲，我們將永遠無法弄清楚如何激活它。
+Think about the people of this region before you do anything rash.
+在你做出任何魯莽行為之前，想想這個地區的人們。
+Think about how much we would all benefit from an abundance of power.
+想想我們所有人從豐富的電力中會受益多少。
+I trust that you'll make the right decision.
+我相信你會做出正確的決定。
+If only we knew how to harness them...
+要是我們能學會駕馭它們就好了...
+Halt, Trainer. This is a restricted area.
+停下，訓練師。這是限制區域。
+Do not interfere in official Makyan Ranger business.
+不要干涉官方馬凱亞護林員的事務。
 [Map408]
 Year 3: Casey, the Blazing Inferno
 第三屆：熾熱的烈焰，凱斯
@@ -23154,11 +23524,45 @@ Year 1: Yezera, the Unstoppable Prodigy
 Year 2: Scilla, the Iron-willed Scrapper
 第二屆：鐵腕鬥士希拉
 [Map409]
-Dialogue here.
-對話內容。
+You... who are you?
+你...你是誰？
+It doesn't matter. Stay away from the machinery.
+這不重要。遠離那些機器。
+None of <i>us</i> know what purpose it serves, so there's no way <i>you</i> do.
+<i>我們</i>都不知道它的用途，所以<i>你</i>也不可能知道。
+Have you no faith? You must test everything yourself, even if it risks breaking it?
+你難道沒有一點信仰嗎？你必須親自測試一切，哪怕這會破壞它們？
+So be it. I must stop you.
+那就這樣吧。我必須阻止你。
+Oof... my ancestors would not approve of that battle.
+哦...我的祖先不會贊成那場戰鬥的。
+But it seems like you don't care about that, do you?
+但看起來你並不在乎這個，不是嗎？
+Please reconsider. The ancient Makyans built this place for a purpose.
+請三思。古老的馬凱亞人建造這個地方是有目的的。
+An unknown purpose, yes... but clearly a very important one.
+一個未知的目的，沒錯...但顯然這是一個非常重要的目的。
+Do not think to know better than they did, young one.
+不要以為自己比他們更聰明，年輕人。
+Leave Enamorus alone.
+別管眷戀雲。
 [Map410]
-Dialogue here.
-對話內容。
+I hate to risk a battle with this <i>thing</i> nearby... but I have no choice.
+我不願意冒險與附近的這個<i>東西</i>戰鬥...但我別無選擇。
+A Driller always stands their ground!
+鑽工隊成員總是堅守陣地！
+The Drillers keep order and maintain peace.
+鑽工隊維護秩序，保持和平。
+Every time we lose, Makya inches closer to total collapse.
+每次我們失敗，馬凱亞就離全面崩潰更近一步。
+When you free this monster... the destruction it wreaks will be <i>my</i> fault.
+當你釋放這個怪物時...它所造成的破壞將是<i>我的</i>錯。
+For not being strong enough to stop you.
+因為我沒有足夠的力量阻止你。
+Hm. Another troublemaker.
+嗯。又一個搗亂者。
+Do not test me. I will not hold back just because you're a child.
+不要考驗我。我不會因為你是個孩子就手下留情。
 [Map411]
 The Pokemon here are typically hard to find in Makya.
 這裡的精靈在馬凱亞很難找到。
@@ -24210,8 +24614,168 @@ It hurriedly gestures for you to enter the chamber ahead.
 它連忙示意你進入面前的密室。
 [Map446]
 [Map447]
-They never let me live it down—the Pokemon that I had brought with me.
-他們從未放過我——我帶來的那些精靈。
+I'm sorry... for what I must do.
+我很抱歉……我必須做這些。
+AH!
+啊！
+What?! What are you doing?!
+什麼？！你在做什麼？！
+I know you, \PN... I know that you will defeat me in a fair battle.
+我認識你，\PN...我知道你會在一場公平的戰鬥中打敗我。
+Therefore... I will use three Pokemon on my side, and you will use only two.
+所以...我將使用三隻精靈，而你只能使用兩隻。
+If you do not agree to this, my Pokemon will attack Jovan.
+如果你不同意，我的精靈就會攻擊約凡。
+I should have known. It's just like you to attack civilians!
+我早該知道。你果然會攻擊平民！
+I'll never forget what you did... what you made me a part of...
+我永遠不會忘記你做過的事...你讓我參與其中的事...
+Velenz weeps because of you and your Pokemon.
+夜幽市因為你的精靈而哭泣。
+Tch.
+嘖。
+Let us begin.
+讓我們開始吧。
+*sigh*
+*嘆氣*
+What a tragedy.
+真是悲劇。
+Finally...
+終於...
+Micah is a real peice of work. Thank you.
+米加真是厲害。謝謝你。
+Thank you for being strong enough to best him.
+謝謝你足夠強大，能夠打敗他。
+The ritual is progressing! Hold on to whatever you can!
+儀式正在進行！抓住你能抓住的一切！
+Urgh!
+呃！
+Good girl, Michi!
+好樣的，米奇！
+That was some speed!
+那速度真快！
+That was—
+那是——
+Like the old days...
+就像往昔...
+We haven't gone on a lot of adventures lately, have we...?
+我們最近沒怎麼去冒險，是吧……？
+Not since...
+自從...
+I've never told anyone this story before...
+我從沒跟別人講過這個故事……
+When I joined Team Chasm, I thought I could take on anything and everything.
+我加入裂隙隊的時候，我以為我能應對一切。
+Explore interesting places. Learn the secrets of Makya. Experiment and invent the technologies of the future.
+探索有趣的地方。瞭解馬凱亞的祕密。嘗試和發明未來的技術。
+But those days didn't last. Before long it wasn't bright-eyed scientists that Team Chasm needed, but enforcers...
+但那些日子並沒有持續太久。不久，裂谷隊需要的就不是充滿熱情的科學家，而是執行者...
+Go guard our logging operations, go intimidate a contractor, go destroy an escaped experiment...
+去守衛我們的伐木作業，去恐嚇一個承包商，去摧毀一個逃脫的實驗...
+I struggled to keep up.
+我努力跟上。
+I took an embarassing loss... a young girl with only a single gym badge.
+我遭受了一場尷尬的失敗...一個只有一枚道館徽章的年輕女孩。
+They never let me live it down.
+他們從未放過我。
+The bullying continued until I quit.
+欺凌一直持續到我辭職。
+Which was... quite a while. I didn't quit until....
+這...過了很久。我直到...才辭職。
+Let's not talk about that.
+我們別提那個了。
+Michi was my friend... who stuck with me throughout it all.
+米奇是我的朋友...她一直陪伴著我。
+I have no skill at battling. I accept that...
+我不擅長戰鬥。我接受這一點...
+But I...
+但我...
+I'm sorry. I'm distracting us from the MUCH more important problem.
+我很抱歉。我讓我們偏離了更重要的問題。
+The Drillers... I can see them to our North.
+鑽工隊...我看到他們在我們的北方。
+They're about to attack the genies!
+他們正要攻擊精靈！
+They seem to be performing some sort of ritual.
+他們似乎正在舉行某種儀式。
+I... I will... I will stay here. I cannot help you with battling them.
+我...我會...我會留在這裡。我無法幫你與他們戰鬥。
+You've beaten them before, so I trust that you can do it again.
+你之前打敗過他們，所以我相信你能再次做到。
+But still, good luck.
+但無論如何，祝你好運。
+I'm sorry. For everything.
+我很抱歉。為了一切。
+I know you can defeat The Drillers.
+我知道你能打敗鑽工隊。
+I believe in you.
+我相信你。
+It’s Michi, the Tropius.
+那是米奇，熱帶龍。
+She seems annoyed by the lack of vegetation.
+她似乎對缺乏植被感到煩惱。
+You've got this in the bag.
+你穩操勝券。
+Show Micah that he can't keep making the same mistakes.
+讓米卡知道他不能一直犯同樣的錯誤。
+And here you are.
+而你在這裡。
+I'll admit, you show tenacity.
+我承認，你很有韌性。
+Defeating us in the Oasis System, then following us here...
+在綠洲系統打敗我們，然後又跟到這裡...
+Still, you won't be enough to stop us.
+然而，你還不足以阻止我們。
+We won't be conquerered by your greed... by your ego...
+我們不會被你們的貪婪...你們的自負...征服...
+You take that BACK!
+你收回那句話！
+<i>You're</i> the one with ego.
+<i>你</i>才是那個有自負的人。
+Jovan? Really?
+約凡？真的？
+You of all people should know not to interfere with our operations.
+你比任何人都應該知道不要干涉我們的行動。
+You understand how weak you are.
+你明白自己有多弱。
+Stow your lies, Micah.
+收起你的謊言，米卡。
+I don't <i>need</i> to be stronger than you. \PN has that handled.
+我不<i>需要</i>比你更強。\PN會處理的。
+I know <i>you</i>. We're going to stop you.
+我認識<i>你</i>。我們會阻止你。
+Latching onto someone greater than you, I see?
+我明白了，你是想攀附比我強大的人？
+It won't make a difference. The Drillers have learned from our mistakes.
+這不會有什麼不同。鑽工隊已經從我們的錯誤中吸取了教訓。
+We won't be humialated ever again.
+我們永遠不會再受羞辱。
+We have the strength. We can keep Makya safe.
+我們有力量。我們能讓馬凱亞安全。
+Drillers! Give no ground!
+鑽工隊！寸步不讓！
+I've got you. Let me heal your team.
+我來幫你。讓我治療你的隊伍。
+Everyone would benefit from the Forces being under our control. Even you two!
+如果自然力量在我們的掌控之下，每個人都會受益。甚至包括你們兩個！
+A battle will convince you of your mistake.
+一場戰鬥會讓你意識到你的錯誤。
+Two grunts down. Just one more to go!
+兩個小嘍囉已經倒下了。只剩下一個了！
+You find it so hard to trust?
+你覺得很難信任別人？
+Sometimes other people just know better than you do.
+有時候別人比你更清楚。
+I've committed the same sin. Seek redemption with me, here and now.
+我也犯了同樣的罪。和我一起在這裡尋求救贖吧。
+You did it! I still can't believe how skilled you are.
+你做到了！我仍然不敢相信你有多厲害。
+Drillers!
+鑽工隊！
+I'll handle this next part myself.
+接下來的部分我自己來處理。
+Retreat to Circuit Station.
+撤退到沙漠站。
 [1]
 Bulbasaur
 妙蛙種子
@@ -33510,8 +34074,8 @@ The user just flops and splashes around to no effect at all...
 也不攻擊只是一蹦一蹦地跳，什麼都不會發生...
 The user immerses the target in superheated steam. This has a 30% chance to burn.
 將滾燙的蒸汽噴向對手。30%概率讓對手燒傷。
-It swamps the area with a giant wave, hitting every battler nearby. Has a 10% chance to waterlog.
-使用者用巨浪淹沒場地，擊中附近的所有戰鬥者。有10%的概率使對手浸水。
+It swamps the area with a giant wave, hitting every battler nearby and underwater. Has a 10% chance to waterlog.
+用巨浪淹沒場地，擊中附近的每個精靈以及水下的精靈。有10%的概率使目標浸水。
 Strikes the target thrice, with mastery of the Water style. Always results in a critical hit.
 將水之流派修煉至大成的仿若行雲流水般的3次連擊。必定會擊中要害。
 The user charges at the target and has a 40% chance to make it flinch.
@@ -33922,8 +34486,8 @@ The user concentrates to stabilize its mood. It raises the user's Sp. Def by thr
 集中精神來穩定自身情緒，增加自身特防三級。
 The user attacks with the full force of The Market. Money is earned after the battle.
 使用者全力進行攻擊。戰鬥結束後獲得金錢。
-The user thrashes while infused with elements. It has a 15% chance each to poison, leech, or waterlog.
-使用者在元素力量的加持下猛烈攻擊。各有15%的概率使對手中毒、寄生或浸水。
+The user thrashes while infused with elements. It has a 15% chance each to poison, waterlog or leech.
+使用者在被元素注入的狀態下猛擊。每種異常——中毒、浸水或寄生——都有15%的概率發生。
 A tremendous strike that clears any active weather.
 用巨大的衝擊力清空目前的天氣。
 The user stimulates its brain by planning. It raises the user's Sp. Atk by three steps.
@@ -34288,8 +34852,8 @@ The user prepares its weapons, raising Attack by six steps but lowering Speed by
 精心打磨自己的武器，增加自己的物攻6級，但是速度減少6級。
 The user rakes the target with sharp claws.
 用鋒利的爪子刮擊對手。
-The user bites, claws, and stings the target while rolling. It has a 20% chance each to poison, dizzy, or leech.
-同時用咬、抓、刺攻擊對手，20%概率使對手中毒，混亂或寄生
+The user bites, claws, and stings the target while rolling. It has a 20% chance each to poison, waterlog, or leech.
+使用者在滾動時用咬、抓和刺攻擊目標。每種異常——中毒、浸水或寄生——都有20%的概率發生。
 The target is plastered with irritating scales, damaging it and changing its type to Bug.
 身上覆蓋刺激性鱗片，對其造成傷害，並將對方變為蟲屬性。
 The user sheds a huge volley of scales at the target. Lands without fail and lowers the user's Sp. Def and Speed.
@@ -41332,7 +41896,7 @@ Kurtis
 Renaldo
 雷納爾多
 Jovan
-喬萬
+約凡
 Jeralyn
 傑拉林
 Emre
@@ -42340,6 +42904,10 @@ Ship Graveyard
 船舶墓地
 Floral Maze
 鮮花迷宮
+Barren Island
+荒莽之島
+Windborn Island
+起風之島
 [20]
 Novo College
 望新大學
@@ -42357,7 +42925,7 @@ Intro - Alpha
 初始-阿爾法
 2
 Windborn Island
-起風島
+起風之島
 3
 Kilna Turf
 基爾納草徑
@@ -43688,7 +44256,7 @@ Battle Monument Secret
 Goomy Den 2
 黏黏寶巢穴2
 447
-Barren Island
+Empty Island
 荒蕪之島
 [22]
 How are your Pokémon doing?\mMy \TP's really energetic. It's a handful!\mOh yeah, I managed to beat a tough \TE.\mI need to make my party stronger.
@@ -51881,6 +52449,8 @@ Unassigned level passed to pbTrainerDropsItem: {1}
 未分配的等級傳遞給pbTrainerDropsItem：{1}
 ERROR: Could not find follower Pokémon!
 錯誤：找不到跟隨的精靈！
+ERROR: Could not find follower Pokemon!
+錯誤：找不到跟隨的精靈！
 It's holding a {1} and a {2}!
 它攜帶了一個{1}和一個{2}！
 It's holding a {1}!
@@ -57581,6 +58151,18 @@ Please leave.
 請離開。
 Everything is awful.
 一切都很糟。
+You ready to fly off?
+你準備好起飛了嗎？
+Climb onto Michi's back?
+爬上米奇的背？
+Electricity generation.
+發電。
+Protects us from the genies.
+保護我們免受精靈的侵害。
+I have no idea.
+我一點也不知道。
+It doesn't need a purpose.
+它不需要一個目的。
 Stay out.
 不進。
 Enter.
@@ -57713,6 +58295,12 @@ Make a funny face.
 做個鬼臉。
 Take its candy.
 搶走它的糖果。
+Huh?
+哈？
+So do I.
+點頭。
+Avatar?
+化身？
 You're stealing Pokémon?
 你在偷精靈？
 You're rescuing Pokémon?
@@ -57753,12 +58341,6 @@ Powerful.
 實力強大。
 Type-changing.
 會變形態。
-Huh?
-哈？
-So do I.
-點頭。
-Avatar?
-化身？
 Let me pass.
 讓我過去。
 What are you doing?
@@ -57771,16 +58353,16 @@ Why should I help?
 我為什麼要幫忙？
 What's the plan?
 有什麼打算？
-Leave Tapu Koko for now.
-暫時先不帶它走。
-Catch Tapu Koko.
-帶它一起離開。
 Coincidence.
 巧合。
 It isn't random?
 不是隨機的？
 Did you call them?
 你叫來的？
+Leave Tapu Koko for now.
+暫時先不帶它走。
+Catch Tapu Koko.
+帶它一起離開。
 Leave Tapu Lele for now.
 暫時先不帶它走。
 Catch Tapu Lele.
@@ -57789,12 +58371,6 @@ Try to break into the house by force?
 想強行闖進房子嗎？
 A Togekiss?
 用波克基斯？
-Leave Tapu Bulu for now.
-暫時先不帶它走。
-Catch Tapu Bulu.
-帶它一起離開。
-Open the crate?
-要打開箱子嗎？
 Why Tamarind?
 為什麼是塔瑪琳？
 Cool. What'd you find?
@@ -57811,9 +58387,11 @@ Impressive.
 令人印象深刻。
 I gotta talk to Tamarind.
 我會跟塔瑪琳談談。
-Leave Tapu Fini for now.
+Open the crate?
+要打開箱子嗎？
+Leave Tapu Bulu for now.
 暫時先不帶它走。
-Catch Tapu Fini.
+Catch Tapu Bulu.
 帶它一起離開。
 What does it matter?
 那有什麼關係呢？
@@ -57857,6 +58435,10 @@ I agree with you.
 我同意。
 You don't have to do this.
 你不必這樣做。
+Leave Tapu Fini for now.
+暫時先不帶它走。
+Catch Tapu Fini.
+帶它一起離開。
 You knew?
 你知道？
 You in on it?
@@ -57883,8 +58465,6 @@ Use a Moomoo Milk
 使用哞哞鮮奶
 Use a Full Restore
 使用全復藥
-You bet.
-來吧。
 Macabre
 陰森
 Insightful
@@ -57913,6 +58493,8 @@ I'll prepare.
 我準備下。
 Release Imogene forever.
 永遠地讓伊夢珍離開。
+You bet.
+來吧。
 [27]
 0
 Animated
