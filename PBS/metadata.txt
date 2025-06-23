@@ -3153,7 +3153,7 @@ ShowArea = false
 Bicycle = true
 #-------------------------------
 [447]
-# Barren Island
+# Empty Island
 Outdoor = true
 ShowArea = true
 Bicycle = true

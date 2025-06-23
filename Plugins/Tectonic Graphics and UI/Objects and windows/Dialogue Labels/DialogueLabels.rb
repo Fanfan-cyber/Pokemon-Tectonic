@@ -20,8 +20,7 @@ end
 def setSpeakerTrainer(trainerClass,trainerName)
     begin
         trainerData = GameData::Trainer.get(trainerClass,trainerName)
-        trainerTypeData = GameData::TrainerType.get(trainerData.trainer_type)
-        setSpeaker("#{trainerTypeData.name} #{trainerData.name}")
+        setSpeaker(trainerData.to_trainer.full_name)
     rescue ArgumentError
         echoln("Unable to find dialogue label display name for trainer: #{trainerClass} #{trainerName}")
     end
