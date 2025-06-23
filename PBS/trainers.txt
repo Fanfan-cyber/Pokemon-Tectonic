@@ -1018,6 +1018,8 @@ Pokemon = RAICHU,35
 [POKEMONTRAINER_Yezera,Yezera,5]
 ExtendsVersion = 4
 Policies = CURSE_DOUBLE_ABILITIES
+Pokemon = ILLUMISE,35
+    AbilityIndex = 1 # Fascinate
 Pokemon = MILTANK,35
     Moves = HEALBELL,BODYSLAM,MILKDRINK,BULLDOZE
     AbilityIndex = 0 # Thick Fat
@@ -3034,7 +3036,7 @@ Pokemon = XATU,38
     Moves = FUTURESIGHT,CONFUSERAY,PSYCHOSHIFT,AIRSLASH
     AbilityIndex = 0 # Vigilant
 Pokemon = EMBOAR,37
-    Moves = HEATCRASH,SUBMISSION,WILDCHARGE,NERVEBLOCK
+    Moves = HEATCRASH,EARTHQUAKE,WILDCHARGE,NERVEBLOCK
     AbilityIndex = 0 # Roast
     Item = SITRUSBERRY
 #-------------------------------
@@ -8556,7 +8558,7 @@ Pokemon = HSAMUROTT,70
     Moves = CEASELESSEDGE,SWORDSDANCE,RAZORSHELL,SEVER
     AbilityIndex = 1 # Swordplay
 Pokemon = EMBOAR,70
-    Moves = INFERNOIMPACT,VOLTTACKLE,SUBMISSION,NERVEBLOCK
+    Moves = INFERNOIMPACT,VOLTTACKLE,EARTHQUAKE,NERVEBLOCK
     AbilityIndex = 0 # Roast
     Item = SITRUSBERRY
 Pokemon = DELIBIRD,70

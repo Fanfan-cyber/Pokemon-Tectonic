@@ -6,6 +6,8 @@ WHITEBLOOM_PHONECALL_GLOBAL = 228
 BATTLE_MONUMENT_PHONECALL_GLOBAL = 229
 DR_HEKATA_PHONECALL_GLOBAL = 232
 ESTATE_PHONECALL_GLOBAL = 233
+JOVAN_PHONECALL_GLOBAL = 234
+JOVAN_CONTACTED_GLOBAL = 235
 
 Events.onBadgeEarned += proc { |_sender,_e|
     totalBadges = _e[1]
@@ -17,6 +19,8 @@ Events.onBadgeEarned += proc { |_sender,_e|
         $PokemonGlobal.shouldProcGrouzAvatarCall = true
     elsif totalBadges == 6
         $PokemonGlobal.shouldProcCatacombsCall = true
+    elsif totalBadges == 7 && !getGlobalSwitch(JOVAN_CONTACTED_GLOBAL)
+        $PokemonGlobal.shouldProcJovanCall = true
 	elsif totalBadges == 8
         $PokemonGlobal.shouldProcWhitebloomCall = true
     end
@@ -43,6 +47,9 @@ Events.onMapChange += proc { |_sender, _e|
 		elsif $PokemonGlobal.shouldProc3BadgesZainCall
 			$game_switches[ZAIN_3_BADGES_PHONECALL_GLOBAL] = true
 			$PokemonGlobal.shouldProc3BadgesZainCall = false
+        elsif $PokemonGlobal.shouldProcJovanCall
+            $game_switches[JOVAN_PHONECALL_GLOBAL] = true
+			$PokemonGlobal.shouldProcJovanCall = false
         end
 	end
 }

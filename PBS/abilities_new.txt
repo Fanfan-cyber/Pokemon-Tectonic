@@ -72,6 +72,7 @@ Description = Takes 40% less damage from attacks by Pokémon who have a status c
 [ARCANEFINALE]
 Name = Arcane Finale
 Description = Turns to Finale Form when only unfainted on team. Ability becomes Synchronize.
+Flags = Immutable
 #-------------------------------
 [ARCCONDUCTOR]
 Name = Arc Conductor
@@ -893,6 +894,7 @@ Description = Wild Pokémon are more likely to appear in pairs and to be species
 [HEROICFINALE]
 Name = Heroic Finale
 Description = Turns to Finale Form when only unfainted on team. Ability becomes Inner Focus.
+Flags = Immutable
 #-------------------------------
 [HIGHRISE]
 Name = High-rise

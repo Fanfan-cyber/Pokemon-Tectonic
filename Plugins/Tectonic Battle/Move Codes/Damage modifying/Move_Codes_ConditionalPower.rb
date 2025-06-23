@@ -1,35 +1,4 @@
 #===============================================================================
-# Power is doubled if the target is using Dive. Hits some semi-invulnerable
-# targets. (Surf)
-#===============================================================================
-class PokeBattle_Move_HitsDivers < PokeBattle_Move
-    def hitsDivingTargets?; return true; end
-
-    def pbBaseDamage(baseDmg, _user, target)
-        baseDmg *= 2 if target.inTwoTurnAttack?("TwoTurnAttackInvulnerableUnderwater") # Dive
-        return baseDmg
-    end
-
-    def pbEffectAfterAllHits(user, target)
-        if !target.damageState.unaffected && !target.damageState.protected && !target.damageState.missed && user.canGulpMissile?
-            user.form = 2
-            user.form = 1 if user.aboveHalfHealth?
-            @battle.scene.pbChangePokemon(user, user.pokemon)
-        end
-    end
-
-    def getEffectScore(user, _target)
-        return 50 if user.canGulpMissile?
-        return 0
-    end
-end
-
-# Empowered Surf
-class PokeBattle_Move_653 < PokeBattle_Move_HitsDivers
-    include EmpoweredMove
-end
-
-#===============================================================================
 # Power is doubled if the target is using Dig. Hits digging targets. (Earthquake)
 #===============================================================================
 class PokeBattle_Move_HitsDiggers < PokeBattle_Move

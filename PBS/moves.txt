@@ -4204,10 +4204,10 @@ Power = 90
 Accuracy = 100
 TotalPP = 12
 Target = AllNearOthers
-FunctionCode = Waterlog
+FunctionCode = WaterlogTargetHitsDivers
 Flags = CanProtect
 EffectChance = 10
-Description = It swamps the area with a giant wave, hitting every battler nearby. Has a 10% chance to waterlog.
+Description = It swamps the area with a giant wave, hitting every battler nearby and underwater. Has a 10% chance to waterlog.
 #-------------------------------
 [SURGINGSTRIKES]
 Name = Surging Strikes

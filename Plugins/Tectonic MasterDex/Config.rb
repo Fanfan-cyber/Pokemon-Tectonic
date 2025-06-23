@@ -80,6 +80,7 @@ def hidden_map_encounter_switch_hash
 		417 => TRI_ISLAND_VISITED_SWITCH, # Tri Island -- Zapos
 		357 => BATTLE_MONUMENT_VISITED_SWITCH, # Battle Monument
 		182 => SPIRIT_ATOLL_VISITED_SWITCH, # Spirit Atoll
+		2   => WINDBORN_ISLAND_VISITED_SWITCH, # Windborn Island
 		180 => BLUSTERY_BOSK_VISITED_SWITCH, # Blustery Bosk
 		264 => STORM_SOUND_VISITED_SWITCH, # Storm Sound
 		192 => FIELD_OF_SPIRES_VISITED_SWITCH, # Field of Spires

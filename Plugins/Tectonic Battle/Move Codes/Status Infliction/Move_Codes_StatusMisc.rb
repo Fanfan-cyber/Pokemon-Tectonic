@@ -22,7 +22,7 @@ end
 #===============================================================================
 # Poisons, leeches, or waterlogs the target. (Chaos Wheel, Rolling Arsenal)
 #===============================================================================
-class PokeBattle_Move_PoisonDizzyOrLeechTarget < PokeBattle_Move
+class PokeBattle_Move_PoisonWaterlogOrLeechTarget < PokeBattle_Move
     def pbAdditionalEffect(user, target)
         return if target.damageState.substitute
         case @battle.pbRandom(3)

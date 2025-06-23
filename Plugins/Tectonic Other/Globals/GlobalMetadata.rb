@@ -99,6 +99,7 @@ class PokemonGlobalMetadata
     attr_accessor :shouldProcCatacombsCall
     attr_accessor :shouldProcWhitebloomCall
     attr_accessor :shouldProcEstateCall
+    attr_accessor :shouldProcJovanCall
     # Tournament
     attr_accessor :tournament
     # Dragon flames

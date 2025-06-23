@@ -217,6 +217,20 @@ def setFollowerInactive(eventId=0,switch='A')
 	end
 end
 
+def setFollowerActive(eventId=0,switch='A')
+	followers = getFollowerPokemon(eventId)
+	if followers.nil? || followers.length == 0
+		pbMessage(_INTL("ERROR: Could not find follower Pokemon!")) if $DEBUG
+		return
+	end
+	followers.each do |follower|
+		next unless pbGetSelfSwitch(follower.id,switch)
+		showBallReturn(follower.x,follower.y)
+		pbWait(Graphics.frame_rate/10)
+		pbSetSelfSwitch(follower.id,switch,false)
+	end
+end
+
 def setFollowerGone(eventId=0)
 	followers = getFollowerPokemon(eventId)
 	if followers.nil? || followers.length == 0

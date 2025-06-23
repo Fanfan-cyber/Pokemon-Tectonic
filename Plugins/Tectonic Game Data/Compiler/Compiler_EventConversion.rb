@@ -30,17 +30,17 @@ module Compiler
           map.events[key] = newevent
           changed = true
         end
-		newevent = convert_chasm_style_trainers(map.events[key])
+        newevent = convert_chasm_style_trainers(map.events[key])
         if newevent
           map.events[key] = newevent
           changed = true
         end
-		newevent = convert_avatars(map.events[key])
+        newevent = convert_avatars(map.events[key])
         if newevent
           map.events[key] = newevent
           changed = true
         end
-		newevent = convert_placeholder_pokemon(map.events[key])
+        newevent = convert_placeholder_pokemon(map.events[key])
         if newevent
           map.events[key] = newevent
           changed = true

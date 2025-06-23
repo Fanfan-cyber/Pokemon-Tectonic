@@ -319,3 +319,18 @@ GameData::Weather.register({
 		next 0
 	},
 })
+
+GameData::Weather.register({
+	:id               => :StrongWindsNS,
+	:category         => :Windy,
+	:id_number        => 17,
+	:particle_delta_x => 0,
+	:particle_delta_y => 2400,
+	:particle_names   => %w[wind_1 wind_2],
+	:clouds_proc => proc { |strength|
+		next strength * -4
+	},
+	:tone_proc => proc { |strength|
+		next Tone.new(-strength, -strength, -strength)
+	},
+})
