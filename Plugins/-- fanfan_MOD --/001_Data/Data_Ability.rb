@@ -4,6 +4,7 @@ ABILITY_DATA = {
   :CHEEKPOUCH   => { :desc => proc { _INTL("When the Pokémon eats a Berry, it restores 25% of its max health.") }, },
   :DISCOLIGHTS  => { :desc => proc { _INTL("It changes secondary type to that of the dance moves it's about to use.") }, },
   :EMOTIONAURA  => { :desc => proc { _INTL("Upon entry, creates an Emotion Room for 5 turns, adding an ability every turn.") }, },
+  :ERUDITE      => { :desc => proc { _INTL("Powers up Psychic-type moves by 40%.") }, },
   :EXTRASCOOP   => { :desc => proc { _INTL("Upon entry, the Pokémon heals itself for 1/5th max HP. This can overheal.") }, },
   :GYRESPINNER  => { :desc => proc { _INTL("Upon entry, traps each opponent in a whirlpool for one turns.") }, },
   :HEROICFINALE => { :desc => proc { _INTL("Turns to Finale Form when only unfainted on team. Ignores the condition of a perfect battle.") }, },
