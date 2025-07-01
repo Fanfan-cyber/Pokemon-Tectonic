@@ -840,7 +840,14 @@ class Pokemon
         end
 
         # Some abilities restrict which specific items you can have when the Pokemon has 2
-        return false if BattleHandlers.triggerDisallowItemSetAbility(ability, self, itemSet, showMessages)
+        #return false if BattleHandlers.triggerDisallowItemSetAbility(ability, self, itemSet, showMessages)
+        itemSetIsAllowed = true
+        abilities.each do |ability|
+            next unless BattleHandlers.triggerDisallowItemSetAbility(ability, self, itemSet, showMessages)
+            itemSetIsAllowed = false
+            break
+        end
+        return itemSetIsAllowed
 
         return true
     end

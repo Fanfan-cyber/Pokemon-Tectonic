@@ -48752,15 +48752,15 @@ Where to direct power?
 {1} was hurt by the moonlight!
 {1}被月辉伤害了！
 For {1} to have two items, both must be Gems!
-为了让{1}拥有两个物品，两者都必须是宝石！
+为了让{1}携带两个物品，两者都必须是宝石！
 For {1} to have two items, both must be Berries!
-为了让{1}拥有两个物品，两者都必须是树果！
+为了让{1}携带两个物品，两者都必须是树果！
 For {1} to have two items, both must be Herbs!
-为了让{1}拥有两个物品，两者都必须是香草！
+为了让{1}携带两个物品，两者都必须是香草！
 For {1} to have two items, at least one must be Clothing!
-为了让{1}拥有两个物品，至少有一个必须是衣物！
+为了让{1}携带两个物品，至少有一个必须是衣物！
 For {1} to have two items, only one can be Clothing!
-为了让{1}拥有两个物品，只能有一个是衣物！
+为了让{1}携带两个物品，只能有一个是衣物！
 {1}'s {2} made it the {3} type!
 {1}的{2}使其成为{3}属性！
 {1} is damaged by recoil!
