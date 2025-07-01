@@ -536,6 +536,7 @@ class PokemonPokedex_Scene
         commands = []
         tribes = []
         GameData::Tribe.each do |tribe|
+            next if tribe.id == :DEBUG_TESTTRIBE && !$DEBUG
             tribes.push(tribe.id)
             commands.push(getTribeName(tribe.id))
         end

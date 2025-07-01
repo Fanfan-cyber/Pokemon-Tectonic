@@ -341,7 +341,7 @@ MultipleForms.register(:FLABEBE,{
 MultipleForms.copy(:FLABEBE,:FLOETTE,:FLORGES)
 
 MultipleForms.register(:ESPURR,{
-  "getForm" => proc { |pkmn|
+  "getFormOnCreation" => proc { |pkmn|
     next pkmn.gender
   }
 })
@@ -590,5 +590,11 @@ MultipleForms.register(:URSHIFU,{
 MultipleForms.register(:MORPEKO, {
   "getFormOnLeavingBattle" => proc { |pkmn, _battle, _usedInBattle, endBattle|
       next 0 if pkmn.form == 1 && (pkmn.fainted? || endBattle)
+  },
+})
+
+MultipleForms.register(:INDEEDEE,{
+  "getFormOnCreation" => proc { |pkmn|
+    next pkmn.gender
   },
 })

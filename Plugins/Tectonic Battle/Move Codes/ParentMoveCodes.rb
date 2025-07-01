@@ -1578,3 +1578,32 @@ class PokeBattle_Move_UserMakesSubstitute < PokeBattle_Move
         return score
     end
 end
+
+#===============================================================================
+# Increases the user's critical hit rate.
+# All child classes must define @critStages.
+#===============================================================================
+class PokeBattle_Move_RaiseCriticalHitRate < PokeBattle_Move
+    def pbMoveFailed?(user, _targets, show_message)
+        return if damagingMove?
+        if user.effectAtMax?(:RaisedCritChance)
+            @battle.pbDisplay(_INTL("But it failed, since {1} can't raise its critical hit chance any further!",user.pbThis(true))) if show_message
+            return true
+        end
+        return false
+    end
+    
+    def pbEffectGeneral(user)
+        return if damagingMove?
+        user.incrementEffect(:RaisedCritChance,@critStages)
+    end
+
+    def pbAdditionalEffect(user, target)
+        return if user.effectAtMax?(:RaisedCritChance)
+        user.incrementEffect(:RaisedCritChance,@critStages)
+    end
+
+    def getEffectScore(user, _target)
+        return getCriticalRateBuffEffectScore(user,@critStages)
+    end
+end

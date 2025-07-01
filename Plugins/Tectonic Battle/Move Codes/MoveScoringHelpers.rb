@@ -292,7 +292,7 @@ def hazardWeightOnSide(side, excludeEffects = []) # does not check for reserves,
 end
 
 def getSwitchOutEffectScore(switcher, scoreStatSteps = true)
-    return 0 if switcher.battle.pbCanChooseNonActive?(switcher.index)
+    return 0 unless switcher.battle.pbCanChooseNonActive?(switcher.index)
     return 0 if switcher.trapped?
     score = 5 + switcher.alliesInReserveCount * 5
     score *= 1.5 if switcher.ownersPolicies.include?(:PRIORITIZEUTURN)

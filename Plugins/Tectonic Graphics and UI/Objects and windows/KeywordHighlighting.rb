@@ -8,6 +8,7 @@ def battleKeywordsImportant
         "eclipse",
         "full moon",
         "moonglow",
+        "burning spikes",
         "burning",
         "burned",
         "burns",
@@ -20,6 +21,7 @@ def battleKeywordsImportant
         "numbed",
         "numbs",
         "numb",
+        "poison spikes",
         "poisoning",
         "poisoned",
         "poisons",
@@ -70,8 +72,15 @@ def battleKeywordsImportant
         "traps",
         "trap",
         "gravity",
+        "puzzle room",
+        "odd room",
+        "polarized room",
+        "insight room",
+        "emotion room",
+        "willful room",
         "rooms",
         "room",
+        "tailwind",
         "weather",
         "random critical hits",
         "random critical hit",
@@ -83,6 +92,13 @@ def battleKeywordsImportant
         "clothing",
         "Grey Mist",
         "Stockpile",
+        "hazard",
+        "hazards",
+        "frozen spikes",
+        "offensive",
+        "defensive",
+        "coins",
+        "money",
     ]
 end
 
@@ -97,6 +113,7 @@ def battleKeywordsImportantCaseSensitive
         "Speed",
         "Accuracy",
         "Evasion",
+        "Spikes",
     ]
 end
 
@@ -140,6 +157,7 @@ def battleKeywordsUnimportant
         "1/12th",
         "1/16th",
         "all stats",
+        "all its stats",
     ]
 end
 

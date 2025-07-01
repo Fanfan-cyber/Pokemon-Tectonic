@@ -20,7 +20,9 @@ class PokeBattle_Move_SwitchOutUserStatusMove < PokeBattle_Move
     end
 
     def getEffectScore(user, target)
-        return getSwitchOutEffectScore(user)
+        score = getSwitchOutEffectScore(user)
+        score += 20
+        return score
     end
 end
 

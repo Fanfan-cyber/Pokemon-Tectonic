@@ -863,6 +863,31 @@ FunctionCode = Invalid
 Flags = CanProtect,Kicking
 Description = The user jumps up high, then strikes with a kick. If the kick misses, the user hurts itself.
 #-------------------------------
+[REVENGE]
+Name = Revenge
+Type = FIGHTING
+Category = Physical
+Power = 60
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+Priority = -4
+FunctionCode = Invalid
+Flags = CanProtect
+Description = An attack move that inflicts double the damage if the user has been hurt by the foe in the same turn.
+#-------------------------------
+[REVERSAL]
+Name = Reversal
+Type = FIGHTING
+Category = Physical
+Power = 1
+Accuracy = 100
+TotalPP = 12
+Target = NearOther
+FunctionCode = Invalid
+Flags = CanProtect
+Description = An all-out attack that becomes more powerful the less HP the user has.
+#-------------------------------
 [ROCKSMASH]
 Name = Rock Smash
 Type = FIGHTING
@@ -2285,6 +2310,31 @@ FunctionCode = Invalid
 Flags = CanProtect,Wind
 Description = The user stirs up a violent petal blizzard and attacks everything around it.
 #-------------------------------
+[ROOTWRACK]
+Name = Rootwrack
+Type = GRASS
+Category = Physical
+Power = 70
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = Invalid
+Flags = CanProtect
+Description = The user sends its roots to attack. Deals 50% more damage if the target attacked first.
+Animation = VINEWHIP
+#-------------------------------
+[SEEDBOMB]
+Name = Seed Bomb
+Type = GRASS
+Category = Physical
+Power = 70
+Accuracy = 100
+TotalPP = 12
+Target = NearOther
+FunctionCode = Invalid
+Flags = CanProtect
+Description = The user slams a barrage of hard-shelled seeds down on the target from above.
+#-------------------------------
 [SLEEPPOWDER]
 Name = Sleep Powder
 Type = GRASS
@@ -3402,3 +3452,15 @@ FunctionCode = Invalid
 Flags = CanProtect,Wind
 EffectChance = 30
 Description = The user attacks the target by emitting steam. It has a 30% chance to dizzy.
+#-------------------------------
+[TRANQUILTUNE]
+Name = Tranquil Tune
+Type = FAIRY
+Category = Status
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = Invalid
+Flags = CanProtect,Sound
+Description = The target is put to sleep, and the user's Attack is raised. Fails unless the target is at or below half health.
+Animation = SING

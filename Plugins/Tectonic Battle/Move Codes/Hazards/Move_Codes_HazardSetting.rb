@@ -128,6 +128,30 @@ class PokeBattle_Move_EmpoweredPoisonSpikes < PokeBattle_Move_Spikes
         transformType(user, :POISON)
     end
 end
+
+# Empowered Frost Spikes
+class PokeBattle_Move_EmpoweredFrostSpikes < PokeBattle_Move_Spikes
+    include EmpoweredMove
+
+    def pbEffectGeneral(user)
+        # Apply up to the maximum number of layers
+        increment = GameData::BattleEffect.get(:FrostSpikes).maximum - user.pbOpposingSide.countEffect(:FrostSpikes)
+        user.pbOpposingSide.incrementEffect(:FrostSpikes, increment) if increment > 0
+        transformType(user, :ICE)
+    end
+end
+
+# Empowered Flame Spikes
+class PokeBattle_Move_EmpoweredFlameSpikes < PokeBattle_Move_Spikes
+    include EmpoweredMove
+
+    def pbEffectGeneral(user)
+        # Apply up to the maximum number of layers
+        increment = GameData::BattleEffect.get(:FlameSpikes).maximum - user.pbOpposingSide.countEffect(:FlameSpikes)
+        user.pbOpposingSide.incrementEffect(:FlameSpikes, increment) if increment > 0
+        transformType(user, :FIRE)
+    end
+end
 #===============================================================================
 # Entry hazard. Lays poison spikes on the opposing side (max. 2 layers).
 # (Poison Spikes)

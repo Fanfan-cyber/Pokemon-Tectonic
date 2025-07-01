@@ -36,7 +36,7 @@ Description = Protects the Pokémon from recoil damage. The Pokémon doesn't tri
 #-------------------------------
 [AFTERIMAGE]
 Name = Afterimage
-Description = Slips past all types of spikes. Deals 50% more damage to targets that switched in this turn.
+Description = Slips past all types of Spikes hazards. Deals 50% more damage to targets that switched in this turn.
 #-------------------------------
 [AGGRAVATE]
 Name = Aggravate
@@ -67,7 +67,7 @@ Flags = EclipseSynergy
 #-------------------------------
 [APRICORNARMOR]
 Name = Apricorn Armor
-Description = Takes 40% less damage from attacks by Pokémon who have a status condition.
+Description = Takes 40% less damage from attacks by Pokémon who have a non-volatile status condition.
 #-------------------------------
 [ARCANEFINALE]
 Name = Arcane Finale
@@ -134,7 +134,7 @@ Description = The effect of healing on foes is reversed.
 #-------------------------------
 [BADLUCK]
 Name = Bad Luck
-Description = When free from status, non-damaging moves by foes are drawn in.
+Description = When free from non-volatile status conditions, non-damaging moves by foes are drawn in.
 #-------------------------------
 [BADOMEN]
 Name = Bad Omen
@@ -210,7 +210,7 @@ Description = Heals from trapping damage it deals. Takes 25% less damage from Po
 #-------------------------------
 [BOULDERNEST]
 Name = Boulder Nest
-Description = Lays a trap of levitating stones around the opponent when its HP is lowered below half.
+Description = Lays a hazard of levitating stones around the opponent when its HP is lowered below half.
 #-------------------------------
 [BRAINSCRAMBLE]
 Name = Brain Scramble
@@ -292,11 +292,11 @@ Flags = Immutable
 #-------------------------------
 [CLEANFREAK]
 Name = Clean Freak
-Description = Boosts move damage by 50% while it has a status condition. However, it suffers double effect from status conditions.
+Description = Boosts move damage by 50% while it has a non-volatile status condition. It suffers double effect from such status conditions.
 #-------------------------------
 [CLINGY]
 Name = Clingy
-Description = Prevents foes with status conditions from fleeing.
+Description = Traps foes with non-volatile status conditions.
 #-------------------------------
 [CLOAKING]
 Name = Cloaking
@@ -354,7 +354,7 @@ Description = Immune to Dragon-type, Fairy-type and Ghost-type attacks.
 #-------------------------------
 [DARING]
 Name = Daring
-Description = When this Pokémon becomes statused, its Attack is raised by three steps.
+Description = When this Pokémon gains a non-volatile status condition, its Attack is raised by three steps.
 #-------------------------------
 [DARKENEDSKIES]
 Name = Darkened Skies
@@ -379,7 +379,7 @@ Description = On the first turn, its attacks burn the target.
 #-------------------------------
 [DEBRISFIELD]
 Name = Debris Field
-Description = Can't be statused due to its hard shell. Boosts Sp. Atk and Speed by 30% in sandstorm.
+Description = Immune to non-volatile status conditions due to its hard shell. Boosts Sp. Atk and Speed by 30% in sandstorm.
 Flags = SandstormSynergy
 #-------------------------------
 [DECONTAMINATION]
@@ -739,6 +739,7 @@ Flags = HailSynergy
 [FROSTPITALITY]
 Name = Frostpitality
 Description = Prevents the foe from escaping during hail.
+Flags = HailSynergy
 #-------------------------------
 [FROSTSCATTER]
 Name = Frost Scatter
@@ -845,7 +846,7 @@ Description = Its attacks are critical against burned targets.
 #-------------------------------
 [HASTY]
 Name = Hasty
-Description = When this Pokémon becomes statused, its Speed is raised by three steps.
+Description = When this Pokémon gains a non-volatile status condition, its Speed is raised by three steps.
 #-------------------------------
 [HAUNTED]
 Name = Haunted
@@ -973,7 +974,7 @@ Description = Its same-type attack bonus is based on its party members rather th
 #-------------------------------
 [IMPULSIVE]
 Name = Impulsive
-Description = When this Pokémon becomes statused, its Sp. Atk is raised by three steps.
+Description = When this Pokémon gains a non-volatile status condition, its Sp. Atk is raised by three steps.
 #-------------------------------
 [INCOGNITO]
 Name = Incognito
@@ -990,7 +991,7 @@ Description = Immune to Steel-type moves and raises Speed if hit by one.
 #-------------------------------
 [INEXORABLE]
 Name = Inexorable
-Description = Pokémon take damage from status conditions even while switched out.
+Description = Pokémon take damage from non-volatile status conditions even while switched out.
 #-------------------------------
 [INFECTED]
 Name = Infected
@@ -1087,7 +1088,7 @@ Description = At the end of each turn, heals self by 1/20 and a party member by 
 #-------------------------------
 [LIGHTTRICK]
 Name = Light Trick
-Description = Doubled Speed if any enemy has a status condition.
+Description = Doubled Speed if any enemy has a non-volatile status condition.
 #-------------------------------
 [LIMINAL]
 Name = Liminal
@@ -1151,7 +1152,7 @@ Description = Negates enemy status moves that target the Pokémon or create haza
 #-------------------------------
 [MAGNETTRAP]
 Name = Magnet Trap
-Description = Prevents foes whose Sp. Atk is less than its from fleeing.
+Description = Traps foes whose Sp. Atk is less than its.
 #-------------------------------
 [MALICE]
 Name = Malice
@@ -1199,6 +1200,7 @@ Description = Boosts Attack by 50% if it used a special move last turn, or boost
 [MIDNIGHTOIL]
 Name = Midnight Oil
 Description = Using a status move in moonglow extends the weather by a turn.
+Flags = MoonglowSynergy
 #-------------------------------
 [MIDNIGHTSUN]
 Name = Midnight Sun
@@ -1226,6 +1228,7 @@ Flags = MoonglowSynergy
 [MOONBLANKET]
 Name = Moon Blanket
 Description = The Pokémon and its allies take 25% less move damage during moonglow.
+Flags = MoonglowSynergy
 #-------------------------------
 [MOONGAZE]
 Name = Moon Gaze
@@ -1254,18 +1257,9 @@ Description = It changes type to that of the move it's about to use. This works 
 Name = Mystic Fist
 Description = Boosts the power of punching moves by 30%, and makes them special when that would be more effective.
 #-------------------------------
-[MYSTICTAP]
-Name = Mystic Tap
-Description = Gets double healing from all sources during moonglow.
-Flags = MoonglowSynergy
-#-------------------------------
 [NEEDLEFUR]
 Name = Needle Fur
 Description = Attackers lose 1/10th of their HP. If the Pokémon is below half health, attackers lose 1/5th instead.
-#-------------------------------
-[NEGATIVEOUTLOOK]
-Name = Negative Outlook
-Description = Raises Electric-type allies' Sp. Def by 50%.
 #-------------------------------
 [NERVENUMBER]
 Name = Nerve Number
@@ -1306,7 +1300,7 @@ Description = Deals no damage to a target while they are using a status move.
 #-------------------------------
 [NOHOPE]
 Name = No Hope
-Description = Prevents foes whose Attack is less than its from fleeing.
+Description = Traps foes whose Attack is less than its.
 #-------------------------------
 [NOXIOUS]
 Name = Noxious
@@ -1360,7 +1354,7 @@ Flags = RainstormSynergy
 #-------------------------------
 [OXYGENATION]
 Name = Oxygenation
-Description = Heals the Pokémon's status problems each turn if in sunshine.
+Description = Heals the Pokémon's non-volatile status conditions each turn if in sunshine.
 Flags = SunshineSynergy
 #-------------------------------
 [PACIFIST]
@@ -1418,7 +1412,7 @@ Description = The Pokémon's moves deal 50% more damage if they're a different t
 #-------------------------------
 [PLACIDITY]
 Name = Placidity
-Description = Takes no damage from status ailments.
+Description = Takes no damage from non-volatile status conditions.
 #-------------------------------
 [PLANARVEIL]
 Name = Planar Veil
@@ -1430,7 +1424,7 @@ Description = Attacks against the Pokémon deal 50% more damage, but the attacke
 #-------------------------------
 [PLOTARMOR]
 Name = Plot Armor
-Description = During eclipse, immune to status conditions and having its stats lowered.
+Description = During eclipse, immune to non-volatile status conditions and stat reductions.
 #-------------------------------
 [PLURIPOTENCE]
 Name = Pluripotence
@@ -1452,10 +1446,6 @@ Description = Upon entry, creates a Polarized Room for four turns, exaggerating 
 [POORCONDUCT]
 Name = Poor Conduct
 Description = Upon switch out, lowers the foe's Attack and Sp. Atk stat by insulting them.
-#-------------------------------
-[POSITIVEOUTLOOK]
-Name = Positive Outlook
-Description = Raises Electric-type allies' Sp. Atk by 50%.
 #-------------------------------
 [POWERLIFTER]
 Name = Power Lifter
@@ -1494,13 +1484,9 @@ Description = Upon entry, creates a Puzzle Room for four turns, swapping base At
 Name = Quarrelsome
 Description = Both deals and takes double damage on its first full turn out in battle.
 #-------------------------------
-[QUICKBUILD]
-Name = Quick Build
-Description = Room-creating moves have priority.
-#-------------------------------
 [QUILLERINSTINCT]
 Name = Quiller Instinct
-Description = Releases a layer of Spikes when hit by an attack.
+Description = Releases a hazard layer of Spikes when hit by an attack.
 #-------------------------------
 [RADIATE]
 Name = Radiate
@@ -1556,7 +1542,7 @@ Flags = SunshineSynergy
 #-------------------------------
 [REFUGE]
 Name = Refuge
-Description = Pokémon that swap in for this have their status effects healed, and take 30% less damage that turn.
+Description = Pokémon that swap in for this have their non-volatile status conditions healed, and take 30% less damage that turn.
 #-------------------------------
 [RELUCTANTBLADE]
 Name = Reluctant Blade
@@ -1627,11 +1613,12 @@ Flags = SandstormSynergy
 [SANDSMACABRE]
 Name = Sands Macabre
 Description = When it attacks from underground in sandstorm, it'll transform into Reaper form.
-Flags = Immutable
+Flags = Immutable,SandstormSynergy
 #-------------------------------
 [SANDSNIPER]
 Name = Sand Sniper
 Description = Boosts the Pokémon's Speed by 50% in sandstorm. Can't miss during sandstorm.
+Flags = SandstormSynergy
 #-------------------------------
 [SANDWORNAUGER]
 Name = Sandworn Auger
@@ -1685,10 +1672,6 @@ Description = Special moves have a 30% chance to leech targets.
 Name = Selective Scutes
 Description = Boosts one defending stat by two steps according to the foe's Attack and Sp. Atk.
 #-------------------------------
-[SELFSUFFICIENT]
-Name = Self-Sufficient
-Description = Heals 1/16th HP every turn. Protected from being burned or frostbitten.
-#-------------------------------
 [SENTRY]
 Name = Sentry
 Description = Takes 25% less damage while using a status move.
@@ -1708,10 +1691,6 @@ Description = Doubles the critical hit chance of random crit moves. The Pokémon
 [SHELLCRACKER]
 Name = Shellcracker
 Description = Its physical attacks reduce the target's Defense.
-#-------------------------------
-[SHIELDWALL]
-Name = Shield Wall
-Description = Takes 50% less damage from hyper-effective attacks.
 #-------------------------------
 [SHIFTINGFIST]
 Name = Shifting Fist
@@ -1806,10 +1785,6 @@ Flags = MoonglowSynergy
 Name = Sopping
 Description = Physical attacks against the Pokémon have a 30% chance to waterlog the attacker.
 #-------------------------------
-[SOULREAD]
-Name = Soul Read
-Description = Double damage to targets who don't share a type with their last-used move.
-#-------------------------------
 [SOUNDBARRIER]
 Name = Sound Barrier
 Description = After using a sound move, raises the Pokémon's Defense and Sp. Def. Caps out at +4.
@@ -1828,7 +1803,7 @@ Description = The Pokémon and its allies' moves are twice as likely to be criti
 #-------------------------------
 [SPINESPLODE]
 Name = Spinesplode
-Description = Leaves two layers of spikes after it self-destructs.
+Description = Leaves two hazard layers of Spikes after it self-destructs.
 #-------------------------------
 [SPINTENSITY]
 Name = Spintensity
@@ -2037,7 +2012,7 @@ Description = Between each turn there's another turn where no one moves.
 #-------------------------------
 [TOILANDTROUBLE]
 Name = Toil and Trouble
-Description = Foes suffer 50% more stat reduction from burn, frostbite, and numb.
+Description = Foes suffer 50% more move damage reduction from burn, frostbite, and numb.
 #-------------------------------
 [TOLLTHEBELLS]
 Name = Toll the Bells
@@ -2140,10 +2115,6 @@ Description = Makes the foe nervous and unable to eat Berries or Leftovers.
 Name = Vandal
 Description = Deals 30% more damage to targets that have an item. After attacking a foe, destroys their clothing items.
 #-------------------------------
-[VARIETY]
-Name = Variety
-Description = Powers up moves different than the last move by 50%.
-#-------------------------------
 [VENGEANCE]
 Name = Vengeance
 Description = After an attack reduces its HP to half or less, deals 1/4 of the attacker's HP back to the attacker.
@@ -2162,7 +2133,7 @@ Description = Powers up Grass-type moves of itself and its allies by 50%.
 #-------------------------------
 [VICTORYMOLT]
 Name = Victory Molt
-Description = Heals status conditions and resets stat changes after knocking out any Pokémon.
+Description = Heals non-volatile status conditions and resets stat changes after knocking out any Pokémon.
 #-------------------------------
 [VIGILANT]
 Name = Vigilant

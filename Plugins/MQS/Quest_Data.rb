@@ -6,8 +6,8 @@ module QuestModule
     :Name => _INTL("Impostor/Imperatrice"),
     :Stage1 => _INTL("Find her north of Svait."),
     :Stage2 => _INTL("Find her north of the Eleig."),
-    :Stage3 => _INTL("Find her back south."),
-    :Stage4 => _INTL("Find her near the Lingering Delta."),
+    :Stage3 => _INTL("Find her after your 6th badge."),
+    :Stage4 => _INTL("Find her after the tournament."),
     :Location1 => _INTL("Ice Cave"),
     :Location2 => _INTL("Prizca West"),
     :Location3 => _INTL("Grouz"),
@@ -19,8 +19,8 @@ module QuestModule
     :Name => _INTL("Kayfabe"),
     :Stage1 => _INTL("Find her in the sewers."),
     :Stage2 => _INTL("Find her north of the Eleig."),
-    :Stage3 => _INTL("Find her back south."),
-    :Stage4 => _INTL("Find her near Team Chasm HQ."),
+    :Stage3 => _INTL("Find her after your 7th badge."),
+    :Stage4 => _INTL("Find her after the tournament."),
     :Location1 => _INTL("Luxtech Sewers"),
     :Location2 => _INTL("Prizca East"),
     :Location3 => _INTL("Volcanic Shore"),
@@ -32,8 +32,8 @@ module QuestModule
     :Name => _INTL("Dear Iconoclast"),
     :Stage1 => _INTL("Find him in Velenz."),
     :Stage2 => _INTL("Find him north east."),
-    :Stage3 => _INTL("Find him back south."),
-    :Stage4 => _INTL("Find him on the southern mountain."),
+    :Stage3 => _INTL("Find him after your 7th badge."),
+    :Stage4 => _INTL("Find him after the tournament."),
     :Location1 => _INTL("Velenz"),
     :Location2 => _INTL("Prizca East"),
     :Location3 => _INTL("Team Chasm HQ"),
@@ -45,8 +45,8 @@ module QuestModule
     :Name => _INTL("When in Makya"),
     :Stage1 => _INTL("Find him north of the Eleig."),
     :Stage2 => _INTL("Find him in the sewers."),
-    :Stage3 => _INTL("Find him back south."),
-    :Stage4 => _INTL("Find him near Velenz."),
+    :Stage3 => _INTL("Find him after your 8th badge."),
+    :Stage4 => _INTL("Find him after the tournament."),
     :Location1 => _INTL("Eleig Stretch"),
     :Location2 => _INTL("Sewer Junction"),
     :Location3 => _INTL("Novo College"),
@@ -58,8 +58,8 @@ module QuestModule
     :Name => _INTL("Second Chances"),
     :Stage1 => _INTL("Find him near the river."),
     :Stage2 => _INTL("Find him up river."),
-    :Stage3 => _INTL("Find him in the shack."),
-    :Stage4 => _INTL("Find him near the lake."),
+    :Stage3 => _INTL("Find him after your 8th badge."),
+    :Stage4 => _INTL("Find him after the tournament."),
     :Location1 => _INTL("Eleig River Crossing"),
     :Location2 => _INTL("Highland Lake"),
     :Location3 => _INTL("Tournament Grounds"),
@@ -73,7 +73,7 @@ module QuestModule
     :Stage2 => _INTL("Find her at the college."),
     :Stage3 => _INTL("Find her north of the Eleig."),
     :Stage4 => _INTL("Find her in a cave."),
-    :Stage5 => _INTL("Find her at the river."),
+    :Stage5 => _INTL("Find her after your 8th badge."),
     :Location1 => _INTL("Barren Crater"),
     :Location2 => _INTL("Novo College"),
     :Location3 => _INTL("Prizca West"),
@@ -187,6 +187,14 @@ module QuestModule
     :Location1 => _INTL("Makya"),
     :Location2 => _INTL("Novo Town"),
     :QuestDescription => _INTL("A flower keeper at the south entrance of Novo Town says she'll give you a reward to celebrate completing your 4th gym. You won't forget her, right?\n\n\n\nFlower"),
+  }
+
+  QUEST_BATTLE_LAB = {
+    :Name => _INTL("Luxtech Battle Labs"),
+    :QuestGiver => _INTL("Scientist"),
+    :Stage1 => _INTL("Defeat the gauntlet."),
+    :Location1 => _INTL("Luxtech Main"),
+    :QuestDescription => _INTL("You've been offered a gauntlet of scientists to try to get past. How difficult could these eggheads be anyways?"),
   }
 
   # Gym Leader Avatars
@@ -541,6 +549,30 @@ module QuestModule
     :Location1 => _INTL("Makya"),
     :Location2 => _INTL("Kilna Ascent"),
     :QuestDescription => _INTL("A trio of imposing beasts, hidden in the outer reaches of Makya. Why not add controlling the weather to your arsenal?"),
+  }
+
+  QUEST_LEGEND_GENIES = {
+    :Name => _INTL("Excessive Force"),
+    :QuestGiver => _INTL("Jovan"),
+    :Stage1 => _INTL("Explore the cave."),
+    :Stage2 => _INTL("Defend the legends."),
+    :Location1 => _INTL("Oasis System"),
+    :Location2 => _INTL("Sandstone Estuary"),
+    :QuestDescription => _INTL("The suspicious but friendly scientist is asking for help, you've eavesdropped a bit (un)intentionally, but the whole story still alludes you. What is so important about a dumb cave in the desert?"),
+  }
+
+  QUEST_JOVAN = {
+    :Name => _INTL("A Troubled Scientist"),
+    :QuestGiver => _INTL("Jovan"),
+    :Stage1 => _INTL("Find him again."),
+    :Stage2 => _INTL("Find him again."),
+    :Stage3 => _INTL("Find him again."),
+    :Stage4 => _INTL("Find him again."),
+    :Location1 => _INTL("Bluepoint Beach"),
+    :Location2 => _INTL("Shipping Lane"),
+    :Location3 => _INTL("Luxtech Campus"),
+    :Location4 => _INTL("Prizca West"),
+    :QuestDescription => _INTL("This scientist keeps crossing your way. He keeps giving you interesting stuff, may as well continue finding him."),
   }
 
   # Former Champions

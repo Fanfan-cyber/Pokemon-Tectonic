@@ -107,8 +107,8 @@ end
 # Power increases the heavier the target is. (Grass Knot, Low Kick)
 #===============================================================================
 class PokeBattle_Move_ScalesTargetsWeight < PokeBattle_Move
-    def pbBaseDamage(_baseDmg, user, target)
-        ret = 15
+    def pbBaseDamage(baseDmg, user, target)
+        ret = baseDmg
         weight = [target.pbWeight / 10,2000].min
         ret += ((4 * (weight**0.5)) / 5).floor * 5
         return ret
@@ -183,7 +183,7 @@ class PokeBattle_Move_ScalesCreatedMoney < PokeBattle_Move
     end
 
     def pbOnStartUse(user, targets)
-        @coinsToConsume = [@battle.field.countEffect(:PayDay),1000].min
+        @coinsToConsume = [user.pbOwnSide.countEffect(:PayDay),1000].min
     end
 
     def pbBaseDamage(baseDmg, _user, _target)
@@ -192,10 +192,10 @@ class PokeBattle_Move_ScalesCreatedMoney < PokeBattle_Move
     end
 
     def pbEffectAfterAllHits(user, target)
-        beforeCoins = @battle.field.effects[:PayDay]
-        @battle.field.effects[:PayDay] -= @coinsToConsume
-        @battle.field.effects[:PayDay] = 0 if @battle.field.effects[:PayDay] < 0
-        actualCoinAmountConsumed = beforeCoins - @battle.field.effects[:PayDay]
+        beforeCoins = user.pbOwnSide.effects[:PayDay]
+        user.pbOwnSide.effects[:PayDay] -= @coinsToConsume
+        user.pbOwnSide.effects[:PayDay] = 0 if user.pbOwnSide.effects[:PayDay] < 0
+        actualCoinAmountConsumed = beforeCoins - user.pbOwnSide.effects[:PayDay]
         if actualCoinAmountConsumed > 0
             @battle.pbDisplay(_INTL("{1} coins were used in the attack!", actualCoinAmountConsumed))
         else

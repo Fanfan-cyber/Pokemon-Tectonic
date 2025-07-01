@@ -197,7 +197,7 @@ Weight = 650.0
 FormName = Sky
 Type1 = GRASS
 Type2 = FLYING
-BaseStats = 100,103,75,127,120,75
+BaseStats = 100,105,75,125,120,75
 Abilities = AERODYNAMIC,FLOWERVEIL
 Moves = 1,GROWTH,5,GUST,10,MAGICALLEAF,15,LEECHSEED,20,QUICKATTACK,25,NATURALGIFT,30,BLUSTER,35,ROOST,40,ENERGYBALL,45,SWEETKISS,50,AIRSLASH,55,LEAFSTORM,60,SEEDFLARE
 Height = 0.4
@@ -320,19 +320,19 @@ BaseStats = 80,105,125,70,60,80
 #-------------------------------
 [TORNADUS,1]
 FormName = Therian
-BaseStats = 79,100,80,121,110,90
+BaseStats = 80,100,80,120,110,90
 Abilities = REGENERATOR
 Height = 1.4
 #-------------------------------
 [THUNDURUS,1]
 FormName = Therian
-BaseStats = 79,105,70,101,145,80
+BaseStats = 80,105,70,100,145,80
 Abilities = VOLTABSORB
 Height = 3.0
 #-------------------------------
 [LANDORUS,1]
 FormName = Therian
-BaseStats = 89,145,90,91,105,80
+BaseStats = 90,145,90,90,105,80
 Abilities = INTIMIDATE
 Height = 1.3
 #-------------------------------
@@ -374,7 +374,7 @@ Pokedex = The power that lay hidden in its body now covers its horn, turning it 
 FormName = Pirouette
 Type1 = NORMAL
 Type2 = FIGHTING
-BaseStats = 100,128,90,128,77,77
+BaseStats = 100,130,90,130,75,75
 #-------------------------------
 [GENESECT,1]
 FormName = Shock Drive
@@ -517,19 +517,19 @@ BaseStats = 60,150,50,60,150,50
 #-------------------------------
 [PUMPKABOO,1]
 FormName = Average Size
-BaseStats = 77,56,63,77,70,63
+BaseStats = 75,55,65,75,70,65
 Pokedex = Spirits that wander this world are placed into Pumpkaboo's body. They're then moved on to the afterlife.
 #-------------------------------
 [PUMPKABOO,2]
 FormName = Large Size
-BaseStats = 77,63,70,63,77,70
+BaseStats = 75,65,70,65,75,70
 Height = 0.5
 Weight = 7.5
 Pokedex = When taking spirits to the afterlife, large Pumpkaboo prefer the spirits of adults to those of children.
 #-------------------------------
 [PUMPKABOO,3]
 FormName = Super Size
-BaseStats = 77,70,77,49,84,77
+BaseStats = 75,70,75,50,85,75
 Height = 0.8
 Weight = 15.0
 Pokedex = Massive Pumpkaboo are said to be the product of areas where a great number of lost souls lingered.
@@ -558,14 +558,14 @@ FormName = Active Mode
 #-------------------------------
 [ZYGARDE,1]
 FormName = 10%
-BaseStats = 54,91,71,115,71,85
+BaseStats = 55,90,70,115,70,85
 Height = 1.2
 Weight = 33.5
 Pokedex = This is Zygarde when about 10% of its pieces have been assembled. It leaps at its opponent's chest and sinks its sharp fangs into them.
 #-------------------------------
 [ZYGARDE,2]
 FormName = Complete
-BaseStats = 225,91,121,85,91,95
+BaseStats = 225,90,120,85,90,95
 Abilities = POWERCONSTRUCT
 Height = 4.5
 Weight = 610.0
@@ -746,7 +746,7 @@ Pokedex = Sad that its true identity may be exposed, Mimikyu will mercilessly se
 FormName = Dusk Mane
 Type1 = ROCK
 Type2 = STEEL
-BaseStats = 97,157,127,77,113,109
+BaseStats = 95,155,125,75,115,110
 Height = 3.8
 Weight = 460.0
 Pokedex = This is Necrozma's form while it's absorbing the power of Solgaleo, making it extremely ferocious and impossible to control.
@@ -755,7 +755,7 @@ Pokedex = This is Necrozma's form while it's absorbing the power of Solgaleo, ma
 FormName = Dawn Wings
 Type1 = ROCK
 Type2 = GHOST
-BaseStats = 97,113,109,77,157,127
+BaseStats = 95,115,110,75,155,125
 Height = 4.2
 Weight = 350.0
 Pokedex = Lunala no longer has a will of its own. Now under the control of Necrozma, it continuously expels all of its energy.
@@ -764,7 +764,7 @@ Pokedex = Lunala no longer has a will of its own. Now under the control of Necro
 FormName = Ultra
 Type1 = ROCK
 Type2 = DRAGON
-BaseStats = 97,167,97,129,167,97
+BaseStats = 95,165,95,130,165,95
 Abilities = NEUROFORCE
 Height = 7.5
 Pokedex = The light pouring out from all over its body affects living things and nature, impacting them in various ways.
@@ -773,7 +773,7 @@ Pokedex = The light pouring out from all over its body affects living things and
 FormName = Ultra
 Type1 = PSYCHIC
 Type2 = DRAGON
-BaseStats = 97,167,97,129,167,97
+BaseStats = 95,165,95,130,165,95
 Abilities = NEUROFORCE
 Height = 7.5
 #-------------------------------
@@ -804,7 +804,7 @@ Pokedex = Hunger hormones affect its temperament. Until its hunger is appeased, 
 FormName = Crowned
 Type1 = FAIRY
 Type2 = STEEL
-BaseStats = 92,170,115,148,80,115
+BaseStats = 90,170,115,150,80,115
 Weight = 355.0
 Pokedex = Able to cut down anything with a single strike, it became known as the Fairy King's Sword, and it inspired awe in friend and foe alike.
 #-------------------------------
@@ -812,7 +812,7 @@ Pokedex = Able to cut down anything with a single strike, it became known as the
 FormName = Crowned
 Type1 = FIGHTING
 Type2 = STEEL
-BaseStats = 92,130,145,128,80,145
+BaseStats = 90,130,145,130,80,145
 Weight = 785.0
 Pokedex = Now that it's equipped with its shield, it can shrug off impressive blows, including the attacks of Dynamax Pokémon.
 #-------------------------------
@@ -890,22 +890,22 @@ BaseStats = 110,100,165,80,190,165
 #-------------------------------
 [GARCHOMP,1]
 FormName = Reaper
-BaseStats = 108,155,125,97,100,75
+BaseStats = 110,155,125,95,100,75
 #-------------------------------
 [GYARADOS,1]
 FormName = Rampage
-BaseStats = 95,155,109,86,85,115
+BaseStats = 95,155,110,85,85,115
 Abilities = JUGGERNAUT
 #-------------------------------
 [GARDEVOIR,1]
 FormName = Finale
-BaseStats = 88,85,85,110,145,145
+BaseStats = 90,85,85,110,145,145
 Abilities = SYNCHRONIZE
 #-------------------------------
 [GALLADE,1]
 FormName = Finale
 MegaStone = GALLADITE
-BaseStats = 88,125,100,110,75,160
+BaseStats = 90,125,100,110,75,160
 Abilities = INNERFOCUS
 #-------------------------------
 [MEWTWO,1]
@@ -928,12 +928,12 @@ Pokedex = Despite its diminished size, its mental power has grown phenomenally. 
 #-------------------------------
 [ENAMORUS,1]
 FormName = Therian
-BaseStats = 74,115,110,46,135,100
+BaseStats = 75,115,110,45,135,100
 Abilities = WEATHERED
 #-------------------------------
 [MAROMATISSE,1]
 FormName = Harvest
-BaseStats = 120,130,81,68,130,81
+BaseStats = 120,130,80,70,130,80
 Abilities = AUTUMNAL
 #-------------------------------
 [BASCULIN,2]

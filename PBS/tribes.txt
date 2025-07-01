@@ -5,7 +5,7 @@ BUSHWHACKER,5,Bushwhacker,"Your team's 'Not Very Effective' or 'Barely Effective
 CARETAKER,5,Caretaker,"Your team members heal for 1/10th HP when swapping out. Your Aid Kit heals for 25% more."
 CHARMER,5,Charmer,"Your team takes 20% less move damage on the turns they enter."
 DECEIVER,5,Deceiver,"Enemy trainers majorly overestimate how much damage their moves do."
-FORTUNE,5,Fortune,"Your moves have a +30% chance to activate their moves' additional effects."
+FORTUNE,5,Fortune,"Your team members' moves have a +30% chance to activate their moves' additional effects."
 HARMONIC,5,Harmonic,"Your team takes 10% less move damage."
 INDUSTRIOUS,5,Industrious,"You gain 10% more money from battles. If you have more than $100,000, your team gets a boost to Attack, Defense, Sp. Atk, and Sp. Def (before modifiers). This bonus scales with the level cap and is currently {b1}."
 LOYAL,5,Loyal,"Your team members gain 10% more EXP in battles. They also get a small boost to Attack, Defense, Sp. Atk, and Sp. Def (before modifiers). This bonus scales with the level cap and is currently {b}."

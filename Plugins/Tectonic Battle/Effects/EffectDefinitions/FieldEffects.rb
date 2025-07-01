@@ -94,15 +94,6 @@ GameData::BattleEffect.register_effect(:Field, {
 })
 
 GameData::BattleEffect.register_effect(:Field, {
-    :id => :PayDay,
-    :real_name => "Money Dropped",
-    :type => :Integer,
-    :increment_proc => proc do |battle, _value, increment|
-        battle.pbDisplay(_INTL("{1} coins were scattered to the ground!", increment))
-    end,
-})
-
-GameData::BattleEffect.register_effect(:Field, {
     :id => :HardWorker,
     :real_name => "Hard Worker",
 })

@@ -233,6 +233,18 @@ def accessWaypoint(waypointName,avatarSpecies=nil)
 	$waypoints_tracker.accessWaypoint(waypointName,waypointEvent,alternate)
 end
 
+def setWaypoint(waypointName,mapID,wayPointInfo)
+	$waypoints_tracker.setWaypoint(waypointName,mapID,wayPointInfo)
+end
+
+def overwriteWaypoint(waypointName,event,newName=nil)
+	$waypoints_tracker.overwriteWaypoint(waypointName,event,newName=nil)
+end
+
+def deleteWaypoint(waypointName)
+	$waypoints_tracker.deleteWaypoint(waypointName)
+end
+
 def setWaypointSummonable(waypointEventID)
 	pbSetSelfSwitch(waypointEventID,'A',true)
 end

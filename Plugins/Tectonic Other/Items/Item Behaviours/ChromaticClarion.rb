@@ -9,11 +9,6 @@ def useChromaClarion
         return 0
     end
 
-    unless $PokemonGlobal.chroma_clarion_recharge_steps <= 0
-        pbMessage(_INTL("The Chroma Clarion is silent. Traverse wild areas to recharge it."))
-        return 0
-    end
-
     encounter_type = $PokemonEncounters.encounter_type
     
     encounters = []
@@ -56,15 +51,3 @@ ItemHandlers::ConfirmUseInField.add(:CHROMACLARION,proc { |item|
 ItemHandlers::UseInField.add(:CHROMACLARION,proc { |item|
 	next useChromaClarion
 })
-
-Events.onStepTaken += proc { |_sender,_e|
-    if $PokemonEncounters.encounter_type && !$PokemonEncounters.encounters_blocked?(true)
-        $PokemonGlobal.chroma_clarion_recharge_steps = 0 if $PokemonGlobal.chroma_clarion_recharge_steps.nil?
-        if $PokemonGlobal.chroma_clarion_recharge_steps > 0
-            $PokemonGlobal.chroma_clarion_recharge_steps -= 1
-            if $PokemonGlobal.chroma_clarion_recharge_steps <= 0
-                pbMessage(_INTL("The Chroma Clarion returns to life, emitting a pleasing tone."))
-            end
-        end
-    end
-}

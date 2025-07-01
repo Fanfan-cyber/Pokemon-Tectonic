@@ -1139,15 +1139,18 @@ CASHOUT_HEALING_DIVISOR = 10
 
 BattleHandlers::AbilityOnSwitchIn.add(:CASHOUT,
   proc { |ability, battler, battle, aiCheck|
-      next unless battler.pbOwnedByPlayer?
-      next unless battle.field.effectActive?(:PayDay)
+      next unless battler.pbOwnSide.effectActive?(:PayDay)
       maxCoinsCanHealFrom = battler.maxOverhealingPossible * CASHOUT_HEALING_DIVISOR
-      coinsToConsume = [battle.field.countEffect(:PayDay),maxCoinsCanHealFrom].min
+      coinsToConsume = [battler.pbOwnSide.countEffect(:PayDay),maxCoinsCanHealFrom].min
       healingAmt = coinsToConsume / CASHOUT_HEALING_DIVISOR
-      battler.showMyAbilitySplash(ability)
+      battler.showMyAbilitySplash(ability) unless aiCheck
       healingMessage = _INTL("{1} gobbles up the scattered coins!",battler.pbThis)
-      battler.pbRecoverHP(healingAmt, true, true, true, healingMessage, canOverheal: true)
-      battle.field.effects[:PayDay] -= coinsToConsume
-      battler.hideMyAbilitySplash
+      recoveredHP = battler.pbRecoverHP(healingAmt, true, true, true, healingMessage, canOverheal: true, aiCheck: aiCheck)
+      if aiCheck
+        next battler.getHealingEffectScore(recoveredHP)
+      else
+        battler.pbOwnSide.effects[:PayDay] -= coinsToConsume
+        battler.hideMyAbilitySplash
+      end
   }
 )

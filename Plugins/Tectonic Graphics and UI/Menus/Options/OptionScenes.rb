@@ -174,7 +174,7 @@ class PokemonOption_Scene_Speed < PokemonOption_Scene_Base
                 [_INTL("1"), _INTL("2"), _INTL("3"), _INTL("4"), _INTL("5")],
 				proc { $Options.textspeed },
 				proc { |value|
-                    if value >= 4 && $Options.textspeed < 4 && !$PokemonGlobal.customSpeedTutorialized
+                    if value >= 4 && $Options.textspeed < 4 && $scene.is_a?(Scene_Map) && !$PokemonGlobal.customSpeedTutorialized
                         playCustomSpeedTutorial
                     end
 					$Options.textspeed = value

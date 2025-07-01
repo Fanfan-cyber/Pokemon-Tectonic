@@ -10,12 +10,14 @@ GlobalStateHandlers::GlobalVariableChanged.add(TRAINERS_PERFECTED_GLOBAL_VAR,
 
 def receiveOminousEgg
     pbReceiveItem(:OMINOUSEGG)
-    $PokemonGlobal.ominous_egg_stage = 0
     checkForOminousEggRewards
 end
 
 def checkForOminousEggRewards
     value = getGlobalVariable(TRAINERS_PERFECTED_GLOBAL_VAR)
+
+    $PokemonGlobal.ominous_egg_stage = 0 if $PokemonGlobal.ominous_egg_stage.nil?
+
     rewards = []
 
     if value >= 30 && $PokemonGlobal.ominous_egg_stage == 0

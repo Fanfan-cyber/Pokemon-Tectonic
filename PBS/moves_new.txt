@@ -688,6 +688,18 @@ EffectChance = 100
 Description = The user contorts the target's chi with an energy pulse, damaging it and lowering its Sp. Def.
 Animation = AURASPHERE
 #-------------------------------
+[AURAPULSE]
+Name = Aura Pulse
+Type = FIGHTING
+Category = Special
+Power = 40
+Accuracy = 0
+TotalPP = 25
+Target = NearOther
+FunctionCode = AlwaysHits
+Flags = Pulse
+Description = Aura deep within the user's body is spurred to pulse outward. Can't miss and skips protections.
+#-------------------------------
 [BAR]
 Name = Bar
 Type = FIGHTING
@@ -864,6 +876,19 @@ FunctionCode = RaiseUserMainStats2IfFoeFaintedLastTurn
 Flags = CanSnatch,Dance
 Description = The user raises all of their stats by two steps. Fails unless a foe fainted last turn.
 Animation = WORKUP
+#-------------------------------
+[FRONTKICK]
+Name = Front Kick
+Type = FIGHTING
+Category = Physical
+Power = 45
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = Basic
+Flags = CanProtect,Kicking
+Description = The user strikes the target with a basic frontal kicking technique.
+Animation = LOWKICK
 #-------------------------------
 [NERVEBLOCK]
 Name = Nerve Block
@@ -1418,7 +1443,7 @@ TotalPP = 15
 Target = FoeSide
 FunctionCode = PoisonSpikes
 Flags = CanMagicCoat
-Description = The user lays poison spikes on the foe's side. One layer hurts switched in foes, two layers poisons.
+Description = The user lays a hazard layer of poison spikes on the foe's side. One layer hurts switched in foes, two layers poisons.
 Animation = TOXICSPIKES
 #-------------------------------
 [SLIMEBALL]
@@ -1502,7 +1527,7 @@ Name = Venom Guard
 Type = POISON
 Category = Status
 Accuracy = 0
-TotalPP = 3
+TotalPP = 10
 Target = User
 Priority = 4
 FunctionCode = UserTakesHalfDamageThisTurnPoisonAttackers
@@ -2358,7 +2383,7 @@ Accuracy = 0
 TotalPP = 12
 Target = NearAlly
 FunctionCode = RaiseTargetWorstThreeStats1
-Description = The user raises all of the target's attacking and Defense and Sp. Def.
+Description = The user spreads an aroma that raises the target's three weakest stats.
 Animation = AROMATICMIST
 #-------------------------------
 [IRRITATE]
@@ -2577,7 +2602,7 @@ Name = Stunning Curl
 Type = BUG
 Category = Status
 Accuracy = 0
-TotalPP = 3
+TotalPP = 10
 Target = User
 Priority = 4
 FunctionCode = UserTakesHalfDamageThisTurnNumbAttackers
@@ -2734,7 +2759,7 @@ TotalPP = 1
 Target = NearOther
 FunctionCode = TrapTargetTargetTakes50PercentMoreDamage
 Flags = CanMagicCoat
-Description = The target becomes unable to flee, and takes 50% more damage from all attacks.
+Description = The target becomes trapped, and takes 50% more damage from all attacks.
 Animation = MEANLOOK
 #-------------------------------
 [DIRGE]
@@ -2810,6 +2835,19 @@ FunctionCode = DisableTargetLastMoveUsedReduceItsPPBy5
 Flags = CanProtect,CanMagicCoat
 Description = Disables the target's last used move for five turns, and cuts 5 PP from it.
 Animation = DISABLE
+#-------------------------------
+[GHOSTLYGRASP]
+Name = Ghostly Grasp
+Type = GHOST
+Category = Physical
+Power = 20
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = ScalesTargetsWeight
+Flags = CanProtect
+Description = Spectral hands reach from the ground to trip the target. The heavier the target, the greater the damage.
+Animation = CRUSHGRIP
 #-------------------------------
 [HONEYSLATHER]
 Name = Honey Slather
@@ -3150,7 +3188,7 @@ TotalPP = 15
 Target = FoeSide
 FunctionCode = FeatherWard
 Flags = CanMagicCoat
-Description = The user lays a trap of sharp feathers around the foe. It hurts foes that switch into battle.
+Description = The user lays a hazard of sharp feathers around the foe. It hurts foes that switch into battle.
 #-------------------------------
 [FLECHETTES]
 Name = Flechettes
@@ -3217,7 +3255,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = SpikesIfTargetFaints
 Flags = CanProtect
-Description = A large spike is shot at the target. If this causes the target to faint, a layer of spikes is set on the ground beneath them.
+Description = A large spike is shot at the target. If this causes the target to faint, a hazard layer of Spikes is set on the ground beneath them.
 Animation = SPIKECANNON
 #-------------------------------
 [IRONARROW]
@@ -3305,7 +3343,7 @@ Accuracy = 0
 TotalPP = 10
 Target = BothSides
 FunctionCode = StartPolarizeTypeMatchups8
-Description = The user creates a high quality area for 8 turns in which super-effective deals 25% more, and not very effective deals 25% less.
+Description = The user creates a high quality area for eight turns in which super-effective deals 25% more, and not very effective deals 25% less.
 Animation = WONDERROOM
 #-------------------------------
 [RAILCANNON]
@@ -3630,7 +3668,7 @@ TotalPP = 15
 Target = FoeSide
 FunctionCode = FlameSpikes
 Flags = CanMagicCoat
-Description = The user lays burning spikes on the foe's side. One layer hurts switched in foes, two layers burns.
+Description = The user lays a hazard layer of burning spikes on the foe's side. One layer hurts switched in foes, two layers burns.
 #-------------------------------
 [FLAREUP]
 Name = Flare Up
@@ -3888,7 +3926,7 @@ TotalPP = 12
 Target = NearOther
 FunctionCode = FlameSpikes
 Flags = CanProtect,Pulse
-Description = The user launches volcanic debris, dealing damage and setting a layer of flame spikes around the target.
+Description = The user launches volcanic debris, dealing damage and setting a hazard layer of burning spikes around the target.
 Animation = FLAMEBURST
 #-------------------------------
 [UPINFLAMES]
@@ -4057,7 +4095,7 @@ TotalPP = 10
 Target = NearFoe
 FunctionCode = HealUserThirdOfTotalHPDamagingMove
 Flags = CanProtect
-Description = The user douses the target, healing itself by a third of its max HP in the process.
+Description = The user douses the target, healing itself by 33% of its max HP in the process.
 Animation = BRINE
 #-------------------------------
 [ERODINGFOAM]
@@ -4108,7 +4146,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = LowerUserSpAtkSpDef2
 Flags = CanProtect
-Description = The user propels a geyser of water at the target. Lowers the user's Sp. Atk and Sp. Def by two steps.
+Description = The user propels a geyser of water at the target. This lowers the user's Sp. Atk and Sp. Def by two steps.
 Animation = WATERSPOUT
 #-------------------------------
 [HARBORBREAKER]
@@ -4149,7 +4187,7 @@ Target = NearOther
 FunctionCode = Waterlog
 Flags = CanProtect
 EffectChance = 30
-Description = The target is immersed in water, having a 30% chance to becomed Waterlogged.
+Description = The target is immersed in water. This has a 30% chance to waterlog.
 Animation = WATERGUN
 #-------------------------------
 [INVITERAINSTORM]
@@ -4519,6 +4557,19 @@ FunctionCode = ScalesTallerThanTarget
 Flags = CanProtect
 Description = The user drops some heads from high up. The taller the user compared to the target, the greater the damage.
 #-------------------------------
+[CREEPINGSTRIKE]
+Name = Creeping Strike
+Type = GRASS
+Category = Adaptive
+Power = 60
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = DoubleDamageTargetMoved
+Flags = CanProtect
+Description = If the user moves after the target, this attack's power will be doubled.
+Animation = VINEWHIP
+#-------------------------------
 [CRUELWHIPBLADE]
 Name = Cruel Whipblade
 Type = GRASS
@@ -4529,7 +4580,7 @@ TotalPP = 12
 Target = NearOther
 FunctionCode = PoisonSpikes
 Flags = CanProtect,Blade
-Description = The user flicks its thorns, dealing damage and setting a layer of poison spikes around the target.
+Description = The user flicks its thorns, dealing damage and setting a hazard layer of poison spikes around the target.
 #-------------------------------
 [ENERGYBALL]
 Name = Energy Ball
@@ -4558,6 +4609,20 @@ Flags = CanProtect
 EffectChance = 10
 Description = The user fires a small bolt of energy at the target. It has a 10% chance to raise user's Sp. Atk.
 Animation = ENERGYBALL
+#-------------------------------
+[FLASHSEED]
+Name = Flash Seed
+Type = GRASS
+Category = Physical
+Power = 65
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = Dizzy
+Flags = CanProtect
+EffectChance = 30
+Description = The target is disoriented by an explosive seed. It has a 30% chance to dizzy.
+Animation = SEEDBOMB
 #-------------------------------
 [HEADTHROW]
 Name = Head Throw
@@ -4706,7 +4771,7 @@ Name = Root Shelter
 Type = GRASS
 Category = Status
 Accuracy = 0
-TotalPP = 3
+TotalPP = 10
 Target = User
 Priority = 4
 FunctionCode = UserTakesHalfDamageThisTurnLeechAttackers
@@ -4724,19 +4789,6 @@ FunctionCode = StartsCursedIngrain
 Flags = CanSnatch
 Description = Lays roots that heal the user by absorbing 1/8th HP from foes each turn. The user becomes trapped.
 Animation = INGRAIN
-#-------------------------------
-[ROOTWRACK]
-Name = Rootwrack
-Type = GRASS
-Category = Physical
-Power = 60
-Accuracy = 100
-TotalPP = 20
-Target = NearOther
-FunctionCode = PowerBoostTargetMoved25Percent
-Flags = CanProtect
-Description = The user sends its roots to attack. Deals 25% more damage if the target attacked first.
-Animation = VINEWHIP
 #-------------------------------
 [SAPPINGJEALOUSY]
 Name = Sapping Jealousy
@@ -5008,7 +5060,7 @@ Target = NearOther
 FunctionCode = GutCheck
 Flags = CanProtect
 EffectChance = 100
-Description = The user attacks with courage. Sets spikes if Full. If Hangry, deals double damage and is Dark-type.
+Description = The user attacks with courage. Sets a Spikes hazard layer if Full. If Hangry, deals double damage and is Dark-type.
 Animation = SPARK
 #-------------------------------
 [HEALTHYCHEER]
@@ -5020,7 +5072,7 @@ TotalPP = 5
 Target = NearAlly
 FunctionCode = HealTargetHalfOfTotalHPAndCureStatus
 Flags = CanProtect,CanMagicCoat,Dance
-Description = The user dances to restore an ally by 50% max HP. They're cured of any status conditions.
+Description = The user dances to restore an ally by half of their max HP. They're cured of any status conditions.
 Animation = HEALPULSE
 #-------------------------------
 [INERTIASHOCK]
@@ -5551,7 +5603,7 @@ Accuracy = 0
 TotalPP = 10
 Target = BothSides
 FunctionCode = StartSwapOffensiveAndDefensiveStats8
-Description = The user creates an odd area for 8 turns in which Pokémon's offensive and defensive stats are swapped.
+Description = The user creates an odd area for eight turns in which Pokémon's offensive and defensive stats are swapped.
 Animation = MAGICROOM
 #-------------------------------
 [OMNISCIENTBLOW]
@@ -5921,7 +5973,7 @@ TotalPP = 15
 Target = FoeSide
 FunctionCode = FrostSpikes
 Flags = CanMagicCoat
-Description = The user lays frozen spikes on the foe's side. One layer hurts switched in foes, two layers frostbites.
+Description = The user lays a hazard layer of frozen spikes on the foe's side. One layer hurts switched in foes, two layers frostbites.
 #-------------------------------
 [GLACIALRAM]
 Name = Glacial Ram
@@ -6051,7 +6103,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = TrapAndFrostbiteTarget
 Flags = CanMagicCoat
-Description = The user pins the target down with icy spikes, applying frostbite and making it unable to flee.
+Description = The user pins the target down with icy spikes, applying frostbite and trapping it.
 Animation = ICICLESPEAR
 #-------------------------------
 [ICYINJECTION]
@@ -6174,7 +6226,7 @@ TotalPP = 12
 Target = NearOther
 FunctionCode = FrostSpikes
 Flags = CanProtect,Sound
-Description = The user incants a snowy hex, dealing damage and setting a layer of frost spikes around the target.
+Description = The user incants a snowy hex, dealing damage and setting a hazard layer of frozen spikes around the target.
 Animation = PERISHSONG
 #-------------------------------
 [SUBLIMATE]
@@ -6610,7 +6662,7 @@ Target = NearFoe
 FunctionCode = SwitchOutUserSetSpikes
 Flags = CanProtect
 EffectChance = 100
-Description = Deftly sets a layer of damaging Spikes around the foe, then switches out.
+Description = Deftly sets a hazard layer of damaging Spikes around the foe, then switches out.
 Animation = PARTINGSHOT
 #-------------------------------
 [CHECKMATE]
@@ -6636,7 +6688,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = FaintsTargetBelowQuarterOfTotalHP
 Flags = CanProtect
-Description = The user tries to pick off a weak target. After damage, if the target is below 1/4 HP, they instantly faint.
+Description = The user tries to pick off a weak target. After damage, if the target is below 25% HP, they instantly faint.
 Animation = NIGHTSLASH
 #-------------------------------
 [DARKALLURE]
@@ -7003,7 +7055,7 @@ TotalPP = 5
 Target = AllNearOthers
 FunctionCode = UserFaintsExplosiveScalesWithEnemySideSpikes
 Flags = CanProtect
-Description = Explodes, dealing an extra 30 base power to all foes for each layer of spikes underneath them. The user faints.
+Description = Explodes, dealing an extra 30 base power to all foes for each Spikes hazard layer underneath them. The user faints.
 Animation = EXPLOSION
 #-------------------------------
 [SPOTTING]
@@ -7066,7 +7118,7 @@ Target = NearOther
 FunctionCode = LowerTargetSpDef2
 Flags = CanProtect,Pulse
 EffectChance = 100
-Description = The user pulses powerful dark light to expose the target's motives. This lower's their Sp. Def by two steps.
+Description = The user pulses powerful dark light to expose the target's motives. This lowers their Sp. Def by two steps.
 Animation = DARKPULSE
 #-------------------------------
 [VERMINCLOUD]
@@ -7161,7 +7213,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = ScalesCreatedMoney
 Flags = CanProtect
-Description = The user hits the target with a generous donation. Consumes up to 1000 scattered coins. Base power is boosted by 10 for every 100 coins consumed.
+Description = The target is hit with a generous donation. Consumes up to 1000 scattered coins. Base power is boosted by 10 for every 100 consumed.
 Animation = PAYDAY
 #-------------------------------
 [CRUELKISS]
@@ -7493,7 +7545,7 @@ Accuracy = 0
 TotalPP = 10
 Target = BothSides
 FunctionCode = StartSwapAttackingStats8
-Description = The user creates a puzzling area for 8 turns in which Pokémon's base Attack and Sp. Atk are swapped.
+Description = The user creates a puzzling area for eight turns in which Pokémon's base Attack and Sp. Atk are swapped.
 Animation = MAGICROOM
 #-------------------------------
 [SUGARBALL]
@@ -7535,18 +7587,6 @@ FunctionCode = Rampage
 Flags = CanProtect
 Description = The user goes on a wild tantrum, going on a rampage for two turns.
 Animation = THRASH
-#-------------------------------
-[TRANQUILTUNE]
-Name = Tranquil Tune
-Type = FAIRY
-Category = Status
-Accuracy = 100
-TotalPP = 5
-Target = NearOther
-FunctionCode = SleepTargetIfBelowHalfHPRaiseUserAtk1
-Flags = CanProtect,Sound
-Description = The target is put to sleep, and the user's Attack is raised. Fails unless the target is at or below half health.
-Animation = SING
 #-------------------------------
 [TRUENAME]
 Name = True Name

@@ -23,8 +23,8 @@ SaveData.register_conversion(:move_renaming_2) do
 end
 
 SaveData.register_conversion(:move_renaming_3) do
-  game_version '3.3.1'
-  display_title '3.3.1 move renames'
+  game_version '3.3.0'
+  display_title '3.3.0 move renames'
   to_all do |save_data|
     renameAllSavedMovesInBatch(save_data,3)
   end
