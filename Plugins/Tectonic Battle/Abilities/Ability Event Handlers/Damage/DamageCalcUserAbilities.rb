@@ -347,7 +347,7 @@ BattleHandlers::DamageCalcUserAbility.add(:SURFSUP,
 BattleHandlers::DamageCalcUserAbility.add(:ERUDITE,
   proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck, backfire|
     if type == :PSYCHIC || backfire
-      mults[:attack_multiplier] *= 1.4
+      mults[:base_damage_multiplier] *= 1.4
       user.aiLearnsAbility(ability) unless aiCheck
     end
   }
