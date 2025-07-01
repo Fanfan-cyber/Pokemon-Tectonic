@@ -41,8 +41,17 @@ class Trainer
     able ? able_party.map(&:level).min : pokemon_party.map(&:level).min
   end
 
-  def party_random_pkmn(able = true, pkmn_clone = false)
-    pkmn = able ? able_party.sample : pokemon_party.sample
+  def party_random_pkmn(able = true, pkmn_clone = false, block_list = [])
+    player_party = able ? able_party : pokemon_party
+
+    avail_pkmn = player_party.reject do |pkmn|
+      block_list.include?(pkmn.unique_id)
+    end
+
+    return nil if avail_pkmn.empty?
+
+    pkmn = avail_pkmn.sample
+    block_list << pkmn.unique_id
     pkmn_clone ? pkmn.clone_pkmn : pkmn
   end
 

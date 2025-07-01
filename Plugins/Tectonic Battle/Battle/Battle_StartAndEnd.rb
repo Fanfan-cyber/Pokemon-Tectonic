@@ -355,7 +355,7 @@ class PokeBattle_Battle
 
         $battle = nil
         pbAllowSpeedup
-        TA.set(:copied, 0)
+        TA.set(:copied_mon, [])
         BattleLoader.add_trainer_data(self)
         return @decision
     end
