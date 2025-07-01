@@ -1,5 +1,7 @@
 SPECIES_ABILITY_DATA = {
  #[:MEW, 0]        => { :fixed => %i[], :changeable => %i[ABOVEITALL], },
+  [:BIDOOF, 0]     => { :fixed => %i[], :changeable => %i[SIMPLE UNAWARE], },
+  [:BIBAREL, 0]    => { :fixed => %i[], :changeable => %i[SIMPLE UNAWARE], },
 
   [:CATERPIE, 0]   => { :fixed => %i[], :changeable => %i[SHIELDDUST MULTISCALE], },
   [:METAPOD, 0]    => { :fixed => %i[], :changeable => %i[SHIELDDUST MULTISCALE], },

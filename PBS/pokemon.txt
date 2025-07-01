@@ -7043,8 +7043,8 @@ Name = Mechanitar
 Type1 = ROCK
 Type2 = ELECTRIC
 # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-BaseStats = 90,74,96,72,134,110
-# Total = 576
+BaseStats = 90,75,95,70,135,110
+# Total = 575
 BaseEXP = 144
 Rareness = 60
 Happiness = 35
