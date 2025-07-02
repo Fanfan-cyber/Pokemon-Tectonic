@@ -96,7 +96,7 @@ class PokeBattle_Battle
                         pbDisplay(_INTL("The opposing {1}'s status is healed!", pkmn.name))
                     end
                 else
-                    pkmn.healByFraction(Settings::REST_HEALING_NUM / 100.0) unless switched_turn == @turnCount
+                    pkmn.healByFraction(Settings::REST_HEALING_AMT / 100.0) unless switched_turn == @turnCount
                 end
             end
         end
@@ -282,6 +282,7 @@ class PokeBattle_Battle
     end
 
     def tick_down_step_counter(priority)
+        return unless Settings::STEP_RECOVERY
         priority.each do |b|
             next if b.fainted?
             step_counter = b.tracker_get(:step_counter)

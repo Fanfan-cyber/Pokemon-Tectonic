@@ -819,7 +819,7 @@ class PokeBattle_Battle
             if trainerBattle?
                 chance = pbRandom(100)
                 if chance < 50
-                  pkmn.healByFraction(Settings::BATTLE_ENDING_NUMB * 0.01)
+                  pkmn.healByFraction(Settings::BATTLE_ENDING_AMT * 0.01)
                   pkmn.heal_status
                   pkmn.heal_PP
                 elsif chance < 80

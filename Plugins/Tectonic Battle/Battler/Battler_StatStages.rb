@@ -287,12 +287,6 @@ class PokeBattle_Battler
         end
     end
 
-    def update_step_counter(stat, increment, raised = true)
-        step_counter = tracker_get(:step_counter)
-        step_counter[stat] = [] unless step_counter[stat]
-        step_counter[stat] << [raised ? increment : -increment, 3]
-    end
-
     #=============================================================================
     # Decrease stat steps
     #=============================================================================
@@ -622,6 +616,13 @@ class PokeBattle_Battler
         eachActiveItem do |item|
             BattleHandlers.triggerItemOnStatLoss(item, self, user, move, [], @battle)
         end
+    end
+
+    def update_step_counter(stat, increment, raised = true)
+        return unless Settings::STEP_RECOVERY
+        step_counter = tracker_get(:step_counter)
+        step_counter[stat] = [] unless step_counter[stat]
+        step_counter[stat] << [raised ? increment : -increment, Settings::STEP_RECOVERY_TURN]
     end
 
     #=============================================================================

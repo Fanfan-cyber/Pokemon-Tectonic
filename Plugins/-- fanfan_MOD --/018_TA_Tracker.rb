@@ -2,7 +2,7 @@ class PokeBattle_BattleTracker
   def initialize
     @battled_battlers = [] # used for Switch Healing
     @turn_switched    = {} # used to record the turnCount when a Pokemon switches out
-    @revenge          = {} # used for Revenge Mechanics
+    @revenge          = {} # used for Revenge mechanics
   end
 end
 
@@ -34,7 +34,7 @@ end
 class PokeBattle_BattlerTracker
   def initialize
     @forced_engagement = nil # used for Forced Engagement
-    @step_counter      = {}  # used for countering stat step remaining turn
+    @step_counter      = {}  # used to count stat step remaining turns
   end
 end
 

@@ -1,5 +1,6 @@
 module Settings
   NUM_STORAGE_BOXES = 200
+
   POISON_IN_FIELD             = false
   TAUGHT_MACHINES_KEEP_OLD_PP = true
   FAINTED_POKEMON_EARN_EXP    = false
@@ -11,21 +12,23 @@ module Settings
   # Button used for Fast Forward (Default = :F)
   FAST_FORWARD_KEY = :Q
 
-  FAINT_HEALING_TURN   = 10
-  NATURAL_HEALING_TURN = 5
+  REST_HEALING_AMT     = 5
+  SWITCH_HEALING_AMT   = 10
 
-  REST_HEALING_NUM   = 5
-  SWITCH_HEALING_NUM = 10
+  STEP_RECOVERY_TURN    = 3
+  NATURAL_HEALING_TURN  = 5
+  FAINT_HEALING_TURN    = 10
 
-  BATTLE_ENDING_NUMB = 30
+  BATTLE_ENDING_AMT  = 30
   BATTLE_ENDING_PLUS = 50
 
-  ROWE_STAB_OFF      = 5
-  ROWE_STAB_OFF_MONO = 10
-  ROWE_STAB_DEF      = 5
-  ROWE_STAB_DEF_MONO = 10
-  GLOBAL_S_O         = 5
-  REVENGE_MECHANICS  = 5
+  ROWE_STAB_OFF           = 5
+  ROWE_STAB_OFF_MONO      = 10
+  ROWE_STAB_DEF           = 5
+  ROWE_STAB_DEF_MONO      = 10
+
+  GLOBAL_SUPREME_OVERLORD = 5
+  REVENGE_MECHANICS       = 5
 
   KILL_PUNNISHMENT = 30
 
@@ -33,6 +36,7 @@ module Settings
   MONEY_RATE_BOOST = 2
   CATCH_RATE_BOOST = 3
 
+  STEP_RECOVERY        = false
   ITEM_CLAUSE          = false
   BATTLE_NO_MONEY_LOSS = true
   COPY_PLAYER_TRIBE    = false
