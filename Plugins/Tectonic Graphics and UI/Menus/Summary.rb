@@ -835,8 +835,10 @@ class PokemonSummary_Scene
         if ability
             ability_base   = MessageConfig.pbDefaultTextMainColor
             ability_shadow = MessageConfig.pbDefaultTextShadowColor
-            if @pokemon.has_main_ability?
-                ability_name = ability.name
+            ability_name   = ability.name
+            if TA.get(:monoabil)
+                ability_desc = ability.description
+            elsif @pokemon.has_main_ability?
                 ability_desc = TA.get(:customabil) ? ability.description : _INTL("Main Ability is disabled.")
             else
                 ability_name = _INTL("None")
