@@ -1,6 +1,8 @@
 ItemHandlers::UseOnPokemon.add(:ABILITYCAPSULE,proc { |item,pkmn,scene|
-    pbMessage(_INTL("Ability Capsule can't be used in TectoQuake!"))
-    next false
+    unless TA.get(:monoabil)
+      pbMessage(_INTL("Ability Capsule can be only used in Mono Ability mode!"))
+      next false
+    end
     unless teamEditingAllowed?
         showNoTeamEditingMessage
         next false
@@ -22,12 +24,12 @@ ItemHandlers::UseOnPokemon.add(:ABILITYCAPSULE,proc { |item,pkmn,scene|
       pbSceneDefaultDisplay(_INTL("You may not make your last able Pokémon a pacifist."),scene)
       next false
     end
-	  msg = _INTL("Would you like to change {1}'s main ability to {2}?", pkmn.name, newabilname)
+	  msg = _INTL("Would you like to change {1}'s ability to {2}?", pkmn.name, newabilname)
     if pbSceneDefaultConfirm(msg, scene)
       pkmn.ability_index = newabilindex
       pkmn.ability = newabil
       scene&.pbRefresh
-	    msg = _INTL("{1}'s main ability has been changed to {2}!", pkmn.name, newabilname)
+	    msg = _INTL("{1}'s ability has been changed to {2}!", pkmn.name, newabilname)
       pbSceneDefaultDisplay(msg, scene)
       pkmn.calc_stats
       next true

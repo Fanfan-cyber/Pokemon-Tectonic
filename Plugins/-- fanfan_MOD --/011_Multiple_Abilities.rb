@@ -19,8 +19,12 @@ class Pokemon
   end
 
   def abilities
-    main_abil = TA.get(:customabil) ? [ability_id] : []
-    (main_abil | species_abilities | extraAbilities).compact
+    if TA.get(:monoabil)
+      [ability_id]
+    else
+      main_abil = TA.get(:customabil) ? [ability_id] : []
+      (main_abil | species_abilities | extraAbilities).compact
+    end
   end
 
   def hasAbility?(check_ability = nil)

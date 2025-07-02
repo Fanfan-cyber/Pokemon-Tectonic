@@ -256,7 +256,7 @@ class PokemonPartyShowcase_Scene
             abilityName = abil && pokemon.has_main_ability? ? abil.name : _INTL("None")
         else
             abilityName = ""
-            abils = pokemon.species_abilities
+            abils = pokemon.abilities
             abils_count = abils.length
             abils.each_with_index do |legalAbilityID, index|
                 abilityName += GameData::Ability.get(legalAbilityID).name
