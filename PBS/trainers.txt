@@ -2668,7 +2668,7 @@ Pokemon = MPOLTEAGEIST,70
 Pokemon = TYPHLOSION,70
     AbilityIndex = 0 # Brisk
 #-------------------------------
-[POKEMONBREEDER_F,ZombyGoast]
+[POKEMONBREEDER_F,Miss Zesty]
 TrainerTypeLabel = DEVELOPER
 Pokemon = DECEAT,70
     AbilityIndex = 1 # Intimidate
@@ -2769,6 +2769,47 @@ Pokemon = AMPHAROS,70
     Moves = TRANSCENDENTENERGY,THUNDERCAGE,DIAMETRICBREATH,RECOVER
     AbilityIndex = 1 # Stubborn
     Item = COVERTCLOAK
+#-------------------------------
+[VETERANM_2,Kirbae]
+TrainerTypeLabel = DEVELOPER
+Pokemon = MISMAGIUS,70
+    Name = Banshee
+    Gender = female
+    Moves = ENCHANTINGSONG,SPITEFULCHANT,HYPERVOICE,PROTECT
+    AbilityIndex = 1 # Ear-Splitting
+    Item = LIFEORB
+Pokemon = EXPLOUD,70
+    Name = Dr. Dre
+    Gender = male
+    Moves = BOOMBURST,EERIESPELL,HYPERVOICE,PULVERIZERCHORD
+    AbilityIndex = 0 # Echo
+    Item = STRIKEVEST
+Pokemon = TREVENANT,70
+    Name = Abaddon
+    Gender = male
+    Moves = CREEPINGSTRIKE,DISTURB,DRAINPUNCH,ADAMANTINEPRESS
+    AbilityIndex = 1 # Frustrate
+    Item = ASSAULTVEST
+Pokemon = TOWERPODA,70
+    Name = Big Boss
+    Gender = male
+    Shiny = yes
+    Moves = HEAVYSLAM,MIRRORSHIELD,SWORDSDANCE,STOMPINGTANTRUM
+    AbilityIndex = 0 # Stubborn
+    Item = POWERLOCK
+Pokemon = DONSTER,70
+    Name = Luna
+    Gender = male
+    Moves = MIASMA,PROTECT,TRASHTREASURE,BODYPRESS
+    AbilityIndex = 0 # Aggravate
+    Item = BLACKSLUDGE
+Pokemon = HYDREIGON,70
+    Name = Medusa
+    Gender = female
+    Shiny = yes
+    Moves = TRIPLETHREAT,DARKPULSE,TAILWIND,ROOST
+    AbilityIndex = 0 # Levitate
+    Item = CHOPLEBERRY
 #-------------------------------
 [POKEMONBREEDER_M2,Pechapanda]
 TrainerTypeLabel = DEVELOPER
