@@ -83,7 +83,7 @@ class PokemonDocumentationMenu < PokemonPauseMenu
     infoCommands[cmdAdoptionCenter = infoCommands.length] = _INTL("Adoption Center")
     infoCommands[cmdBattleLoader = infoCommands.length] = _INTL("Battle Loader")
     #infoCommands[cmdTeamSwitcher = infoCommands.length] = _INTL("Team Switcher")
-    infoCommands[cmdGiftCode    = infoCommands.length] = _INTL("Gift Receiver")
+    infoCommands[cmdGiftCode    = infoCommands.length] = _INTL("Code Inputter")
     infoCommands.push(_INTL("Cancel"))
     loop do
       infoCommand = @scene.pbShowCommands(infoCommands)
