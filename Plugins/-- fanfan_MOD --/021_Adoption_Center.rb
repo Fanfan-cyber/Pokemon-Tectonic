@@ -7,6 +7,10 @@ module AdoptionCenter
                     }.freeze
 
   def self.open_adoption_center
+    unless $Trainer.has_pokemon?
+      pbMessage(_INTL("You can't use the Adoption Center now!"))
+      return
+    end
     loop do
       choice = [_INTL("Adopt"), _INTL("Check AP"), _INTL("Explain"), _INTL("Cancel")]
       choose = pbMessage(_INTL("What do you want to do?"), choice, -1)
