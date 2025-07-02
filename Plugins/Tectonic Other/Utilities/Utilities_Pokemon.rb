@@ -135,6 +135,7 @@ def pbAddPokemon(pkmn, level = 1, dexnav: false)
   end
   pkmn = randomizeSpecies(pkmn, false, true)
   pkmn = Pokemon.new(pkmn, level) if !pkmn.is_a?(Pokemon)
+  pkmn.set_used_by_player
   pbMessage(_INTL("{1} obtained {2}!\\me[Pkmn get]\\wtnp[80]\1", $Trainer.name, pkmn.speciesName))
   pbNicknameAndStore(pkmn, dexnav: dexnav)
   return true
@@ -144,6 +145,7 @@ def pbAddPokemonSilent(pkmn, level = 1, dexnav: false, count: true)
   return false if !pkmn || pbBoxesFull?
   pkmn = randomizeSpecies(pkmn, false, true)
   pkmn = Pokemon.new(pkmn, level) if !pkmn.is_a?(Pokemon)
+  pkmn.set_used_by_player
   $Trainer.pokedex.set_seen(pkmn.species)
   $Trainer.pokedex.set_owned(pkmn.species)
   # Increase the caught count for the global metadata
@@ -168,6 +170,7 @@ def pbAddPokemonFromTrade(pkmn)
     pbMessage(_INTL("The Pokémon Boxes are full and can't accept any more!"))
     return false
   end
+  pkmn.set_used_by_player
   pbNicknameAndStore(pkmn)
   return true
 end

@@ -127,6 +127,7 @@ class PokemonLoadScreen
                 @scene.pbEndScene
                 AntiAbuse.kill_all_cheats
                 CDKey.clear_unused_code
+                TA.each_available_pkmn { |pkmn| pkmn.set_used_by_player }
                 return
             when cmd_load_game
                 pbFadeOutIn do
@@ -136,6 +137,7 @@ class PokemonLoadScreen
                     file.endScene
                     AntiAbuse.kill_all_cheats
                     CDKey.clear_unused_code
+                    TA.each_available_pkmn { |pkmn| pkmn.set_used_by_player }
                     return unless file.staymenu
                 end
             when cmd_new_game

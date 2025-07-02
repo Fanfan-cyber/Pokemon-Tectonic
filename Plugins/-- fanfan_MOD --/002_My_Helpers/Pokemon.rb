@@ -1,4 +1,16 @@
 class Pokemon
+  def used_by_player?
+    @used_by_player
+  end
+
+  def set_used_by_player
+    @used_by_player = true
+  end
+
+  def unset_used_by_player
+    @used_by_player = false
+  end
+
   def regenerate_unique_id(digits = 8)
     @unique_id = generate_unique_id(digits)
   end

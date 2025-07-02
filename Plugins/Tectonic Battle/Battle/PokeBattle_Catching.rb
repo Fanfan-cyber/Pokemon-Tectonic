@@ -30,6 +30,7 @@ class PokeBattle_Battle
     # Register all caught Pokémon in the Pokédex, and store them.
     def pbRecordAndStoreCaughtPokemon
         @caughtPokemon.each do |pkmn|
+            pkmn.set_used_by_player
             pbPlayer.pokedex.register(pkmn) # In case the form changed upon leaving battle
 
             # Let the player know info about the individual pokemon they caught

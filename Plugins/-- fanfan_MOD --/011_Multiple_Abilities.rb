@@ -19,7 +19,7 @@ class Pokemon
   end
 
   def abilities
-    if TA.get(:monoabil)
+    if TA.get(:monoabil) && used_by_player?
       [ability_id]
     else
       main_abil = TA.get(:customabil) ? [ability_id] : []

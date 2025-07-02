@@ -15,7 +15,10 @@ Events.onTrainerPartyLoad += proc { |_sender, e|
   next if trainer.trainer_type == :ABSOL
   if trainer.party.length < 6
     pkmn = $Trainer.party_random_pkmn(false, true, TA.get(:copied_mon, []))
-    trainer.party << pkmn if pkmn
+    if pkmn
+      pkmn.unset_used_by_player
+      trainer.party << pkmn
+    end
   end
   trainer.party.shuffle! if trainer.trainer_type == :LEADER_Lambert
 }
