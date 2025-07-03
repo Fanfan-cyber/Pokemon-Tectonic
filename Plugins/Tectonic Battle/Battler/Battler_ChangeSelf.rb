@@ -767,10 +767,20 @@ class PokeBattle_Battler
             end
 =end
         end
-
+=begin
         if !initialization && illusion? && hasActiveAbility?(:INCOGNITO) && disguisedAs.ability && !GameData::Ability.get(disguisedAs.ability_id).is_uncopyable_ability?
             @ability_ids.push(disguisedAs.ability_id)
             @addedAbilities.push(disguisedAs.ability_id)
+        end
+=end
+        if illusion? && hasActiveAbility?(:INCOGNITO)
+            @ability_ids.clear
+            @ability_ids.push(:INCOGNITO)
+            disguisedAs.abilities.each do |abil|
+                next if GameData::Ability.get(abil).is_uncopyable_ability?
+                @ability_ids.push(abil)
+                @addedAbilities.push(abil)
+            end
         end
 
         unless initialization
