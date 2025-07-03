@@ -234,7 +234,7 @@ class PokeBattle_AI
         end
         
         # Less likely to switch if has stat boosts
-        unless battler.hasActiveAbilityAI?(:DOWNLOAD) || battler.hasActiveAbilityAI?(:SELECTIVESCUTES) # This should be a more complicated check but prob not worth time
+        unless battler.hasActiveAbilityAI?(:DOWNLOAD) || battler.hasActiveAbilityAI?(:DOWNLOAD2) || battler.hasActiveAbilityAI?(:SELECTIVESCUTES) # This should be a more complicated check but prob not worth time
             stayInSteps = statStepsValueScore(battler) * 0.06
             stayInSteps = stayInSteps.round
             if stayInSteps > 0

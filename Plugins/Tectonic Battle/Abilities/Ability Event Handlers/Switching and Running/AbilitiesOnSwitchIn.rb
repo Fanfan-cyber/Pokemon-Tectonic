@@ -716,6 +716,38 @@ BattleHandlers::AbilityOnSwitchIn.add(:SELECTIVESCUTES,
   }
 )
 
+BattleHandlers::AbilityOnSwitchIn.add(:DOWNLOAD2,
+  proc { |ability, battler, battle, aiCheck|
+      oppTotalAttack = oppTotalSpAtk = 0
+      oppTotalDef    = oppTotalSpDef = 0
+      anyFoes = false
+      battler.eachOpposing do |b|
+        anyFoes = true
+        oppTotalAttack += b.pbAttack
+        oppTotalSpAtk  += b.pbSpAtk
+        oppTotalDef    += b.pbDefense
+        oppTotalSpDef  += b.pbSpDef
+      end
+      next 0 unless anyFoes
+      a_stat = (oppTotalDef < oppTotalSpDef) ? :ATTACK : :SPECIAL_ATTACK
+      d_stat = (oppTotalAttack > oppTotalSpAtk) ? :DEFENSE : :SPECIAL_DEFENSE
+      if aiCheck
+          next getMultiStatUpEffectScore([a_stat, 1, d_stat, 1], battler, battler)
+      else
+          battler.pbRaiseMultipleStatSteps([a_stat, 1, d_stat, 1], battler, ability: ability)
+      end
+  }
+)
+
+BattleHandlers::AbilityOnSwitchIn.add(:BACKUP,
+  proc { |ability, battler, battle, aiCheck|
+      next 0 if aiCheck
+      battle.pbShowAbilitySplash(battler, ability)
+      battle.pbDisplay(_INTL("{1} is synchronizing data!", battler.pbThis))
+      battle.pbHideAbilitySplash(battler)
+  }
+)
+
 ##########################################
 # Misc
 ##########################################

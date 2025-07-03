@@ -33,6 +33,10 @@ SPECIES_ABILITY_DATA = {
   [:MEOWTH, 0]     => { :fixed => %i[], :changeable => %i[GILD ALLTHATGLITTERS], },
   [:PERSIAN, 0]    => { :fixed => %i[], :changeable => %i[GILD ALLTHATGLITTERS], },
 
+  [:PORYGON, 0]    => { :fixed => %i[], :changeable => %i[DOWNLOAD2 BACKUP], },
+  [:PORYGON2, 0]   => { :fixed => %i[], :changeable => %i[DOWNLOAD2 BACKUP], },
+  [:PORYGONZ, 0]   => { :fixed => %i[], :changeable => %i[DOWNLOAD2 BACKUP], },
+
   [:SALANDIT, 0]   => { :fixed => %i[], :changeable => %i[BACKFIRE DOMINEERING], },
   [:SALAZZLE, 0]   => { :fixed => %i[], :changeable => %i[BACKFIRE DOMINEERING], },
 

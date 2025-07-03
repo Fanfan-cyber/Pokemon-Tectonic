@@ -128,6 +128,8 @@ BattleHandlers::DamageCalcTargetAbility.add(:REALIST,
   }
 )
 
+BattleHandlers::DamageCalcTargetAbility.copy(:REALIST, :BACKUP)
+
 BattleHandlers::DamageCalcTargetAbility.add(:TOUGH,
   proc { |ability, user, target, _move, mults, _baseDmg, type, aiCheck|
     if %i[FIGHTING ROCK].include?(type)

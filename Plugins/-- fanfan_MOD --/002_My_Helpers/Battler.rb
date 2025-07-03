@@ -63,6 +63,7 @@ class PokeBattle_Battler
   end
 
   def get_strategy
+    return :positive if hasActiveAbility?(:BACKUP)
     return nil
   end
 

@@ -13,7 +13,6 @@
 加入猜属性小游戏来获取经验糖果
 加入猜属性克制小游戏来获取经验糖果
 战斗模拟器可以准确记录塔罗牌效果
-重新修改替换不重置能力等级的逻辑 apply_special_stat_steps
 自然恢复的能力等级机制 step_counter
 修复强行Bug
 加强始祖大鸟
@@ -214,7 +213,10 @@ doublebattle/disabledouble，开启/关闭全双打模式
 64.修复了当特性自选模式和单特性模式同时开启时队伍的截图界面精灵的特性显示不正确的Bug
 65.修复了幻觉类特性在战斗中查看精灵的信息时特性显示错误的Bug
 66.修复了Incognito获得的特性无法生效的Bug
-67.
+67.3D龙的第一特性由Realist改为下载2，第二特性由Adapted改为Backup
+68.3D龙2的第一特性由Realist改为下载2，第二特性由Adapted改为Backup
+69.3D龙-Z的第一特性由Realist改为下载2，第二特性由Adapted改为Backup
+70.
 
 0.3.3
 1.修改获得代欧奇希斯的密码为alien1
