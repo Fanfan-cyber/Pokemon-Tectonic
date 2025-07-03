@@ -345,8 +345,8 @@ class BattleInfoDisplay < SpriteWrapper
         battler.addedAbilities.clear
         battler.addedAbilities.concat(battler.abilities)
         if battler.illusion? # && !battler.pbOwnedByPlayer?
-            battler.addedAbilities.remove(battler.pokemon.species_abilities)
-            battler.addedAbilities.concat(battler.disguisedAs.species_abilities)
+            battler.addedAbilities.remove(battler.pokemon.abilities)
+            battler.addedAbilities.concat(battler.disguisedAs.abilities)
         end
         battler.addedAbilities.uniq!
         battler.addedAbilities.each do |abilityID|

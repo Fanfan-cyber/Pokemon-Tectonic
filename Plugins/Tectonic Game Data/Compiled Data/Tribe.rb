@@ -54,7 +54,7 @@ module GameData
 	class Tribe
 		attr_reader :id
 		attr_reader :id_number
-		attr_reader :threshold
+		# attr_reader :threshold
 		attr_reader :real_description
 		attr_reader :real_name
 		attr_reader :defined_in_extension
