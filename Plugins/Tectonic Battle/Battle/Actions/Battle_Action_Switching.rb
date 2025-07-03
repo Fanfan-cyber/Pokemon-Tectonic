@@ -391,6 +391,16 @@ class PokeBattle_Battle
         battled_battlers.push(battler.unique_id) unless battled_battlers.include?(battler.unique_id)
         apply_field_effect(:switch_in, battler)
 
+        if battler.illusion? && battler.hasActiveAbility?(:INCOGNITO)
+            battler.abilities.clear
+            battler.abilities.push(:INCOGNITO)
+            battler.disguisedAs.abilities.each do |abil|
+                next if GameData::Ability.get(abil).is_uncopyable_ability?
+                battler.abilities.push(abil)
+                battler.addedAbilities.push(abil)
+            end
+        end
+
         # Trigger enter the field curses
         curses.each do |curse|
             triggerBattlerEnterCurseEffect(curse, battler, self)
