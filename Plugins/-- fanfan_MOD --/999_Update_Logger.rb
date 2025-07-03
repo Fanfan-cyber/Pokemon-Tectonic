@@ -205,7 +205,9 @@ doublebattle/disabledouble，开启/关闭全双打模式
 57.将中文翻译的所有宝可检测改为精灵检测
 58.将Pokégear的中文翻译改为精灵装置
 59.增加了自由部族模式，现在可以通过密码customtribethresh开启自由部族模式，开启自由部族模式后可以自由设定部族效果生效所需要的精灵数(Inspired by Attea, Kirby Gal)
-60.
+60.现在Friend to All在自由部族模式时将不再生效
+61.现在Wild Card在自由部族模式时将不再生效
+62.
 
 0.3.3
 1.修改获得代欧奇希斯的密码为alien1
