@@ -1752,6 +1752,12 @@ GameData::BattleEffect.register_effect(:Battler, {
 })
 
 GameData::BattleEffect.register_effect(:Battler, {
+    :id => :Floodgate,
+    :real_name => "Floodgate",
+    :resets_eor	=> true,
+})
+
+GameData::BattleEffect.register_effect(:Battler, {
     :id => :ExtraTurns,
     :real_name => "Extra Turns",
     :type => :Integer,

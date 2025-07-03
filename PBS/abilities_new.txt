@@ -738,7 +738,7 @@ Flags = HailSynergy
 #-------------------------------
 [FROSTPITALITY]
 Name = Frostpitality
-Description = Prevents the foe from escaping during hail.
+Description = Traps the foe during hail.
 Flags = HailSynergy
 #-------------------------------
 [FROSTSCATTER]
@@ -881,7 +881,7 @@ Flags = HazardImmunity
 #-------------------------------
 [HELIOCENTRISM]
 Name = Heliocentrism
-Description = Prevents the foe from escaping during gravity.
+Description = Traps the foe during gravity.
 #-------------------------------
 [HERBALIST]
 Name = Herbalist
@@ -2037,7 +2037,7 @@ Description = Heals based on the damage other battlers take from being poisoned.
 #-------------------------------
 [TRACTORBEAM]
 Name = Tractor Beam
-Description = Prevents the foe from escaping during eclipse.
+Description = Traps the foe during eclipse.
 Flags = EclipseSynergy
 #-------------------------------
 [TRAPPER]

@@ -66,7 +66,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = TrapTarget
 Flags = CanMagicCoat
-Description = The user blocks the target's way with arms spread wide to prevent escape.
+Description = The user blocks the target's way with arms spread wide to trap the target.
 #-------------------------------
 [BODYSLAM]
 Name = Body Slam

@@ -451,6 +451,22 @@ class PokeBattle_Move_UserTakesHalfDamageThisTurnPoisonAttackers < PokeBattle_Ha
 end
 
 #===============================================================================
+# User takes half damage from all damaging moves this turn. If a Pokémon
+# attacks the user while this effect applies, that Pokémon becomes waterlogged.
+# (Floodgate)
+#===============================================================================
+class PokeBattle_Move_UserTakesHalfDamageThisTurnWaterlogAttackers < PokeBattle_HalfProtectMove
+    def initialize(battle, move)
+        super
+        @effect = :Floodgate
+    end
+
+    def getOnHitEffectScore(user,target)
+        return getWaterlogEffectScore(user, target)
+    end
+end
+
+#===============================================================================
 # Creates a bubble to shield the target. The next time they’re attacked, (Bubble Barrier)
 # 50% of the move damage is instead dealt to the attacker
 #===============================================================================

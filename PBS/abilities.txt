@@ -482,7 +482,7 @@ Description = Resists damage while its HP is full.
 #-------------------------------
 [SHADOWTAG]
 Name = Shadow Tag
-Description = Prevents the foe from escaping.
+Description = Traps the foe.
 #-------------------------------
 [SHEDSKIN]
 Name = Shed Skin

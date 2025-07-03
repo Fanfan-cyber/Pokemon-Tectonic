@@ -2809,7 +2809,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = LowerTargetSpd4DrowsyIfHail
 Flags = CanProtect,CanMagicCoat
-Description = The user soothes the target, lowering its Speed by 4 steps. If in hail, they also become drowsy.
+Description = The user soothes the target, lowering its Speed by four steps. If in hail, they also become drowsy.
 Animation = YAWN
 #-------------------------------
 [FROMBEYOND]
@@ -4111,6 +4111,18 @@ Flags = CanProtect
 EffectChance = 100
 Description = The user spews alkaline bubbles that melt the target, lowering their Defense by three steps.
 Animation = BUBBLEBEAM
+#-------------------------------
+[FLOODGATE]
+Name = Floodgate
+Type = WATER
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+Priority = 4
+FunctionCode = UserTakesHalfDamageThisTurnWaterlogAttackers
+Description = Halves attack damage taken this turn. Waterlogs any attackers. Fails if used successively.
+Animation = AQUARING
 #-------------------------------
 [FLOWSTATE]
 Name = Flow State

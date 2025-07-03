@@ -104,6 +104,14 @@ user.pbThis(true)))
                     user.applyPoison(target)
                 end
             end
+            # Floodgate
+            if target.effectActive?(:Floodgate) && !user.waterlogged?
+                PBDebug.log("[Lingering effect] #{target.pbThis}'s Floodgate")
+                if user.canWaterlog?(target, false)
+                    @battle.pbDisplay(_INTL("{1} was flooded by {2}!", user.pbThis, user.pbThis(true)))
+                    user.applyWaterlog(target)
+                end
+            end
             # Bubble Barrier
             if target.effectActive?(:BubbleBarrier) && target.damageState.bubbleBarrier > 0
                 recoilMessage = _INTL("The bubble barrier bursts, harming {1}!", user.pbThis(true))
