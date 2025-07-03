@@ -9401,7 +9401,7 @@ So long, traveler. I will head south, to home. You’re a welcome guest if ever 
 Oh? Very well.
 哦？好吧。
 If you find it unsuitable or untenable to take it, I will find someone else. Perhaps the local Pokécenter will take it in the interim.
-如果你觉得不适合或者无法照顾它，我会找其他人来接手。也许当地的宝可中心可以。
+如果你觉得不适合或者无法照顾它，我会找其他人来接手。也许当地的精灵中心可以。
 In any case, I take my leave.
 无论如何，我先告辞了。
 I will head south, to home. You’re a welcome guest if ever you should arrive. So long, traveler.
@@ -14142,7 +14142,7 @@ Doesn’t really make us even, but thanks.
 I need to get Phione somewhere safer, but I’ll see you. Thanks for everything.
 现在我得带着霏欧纳去安全的地方了，我们还会再见的。
 Have you seen my new avatar defense technique? Pokésand, go!
-要见识一下我抵御化身的新招数吗？宝可沙，出击！
+要见识一下我抵御化身的新招数吗？精灵之沙，出击！
 Hmm, back to the drawing board on this one.
 嗯，看来还需要重新设计。
 The technique is for avatars, not Trainers. I can't expect it to work perfectly here.
@@ -21064,7 +21064,7 @@ Pushed my Pokémon hard to try and get there, and now look at me. Trying to make
 Sorry, everyone. Sorry, Manaphy. I guess that was it.
 对不起，大家。对不起，玛纳霏。我想那就是结局了。
 Let’s get y’all back to a Pokécenter, OK? Get you fixed up... I’m sorry...
-让我们把你们送回宝可中心，好吗？让你们恢复过来...我很抱歉...
+让我们把你们送回精灵中心，好吗？让你们恢复过来...我很抱歉...
 Ugh! I’m – fine! Ow. I think I took a stray shot... oof.
 呃！我...没事！哎，我想我挨了一枪...
 Look me in the damn eyes, you dumb grunt! If I was – ow – if I wasn’t... if I wasn’t... I’m feeling a little lightheaded.
@@ -36462,7 +36462,7 @@ Tarot Amulet
 Noise Machine
 噪声机械
 Poké X-Ray
-宝可检测
+精灵检测
 Cell Booster
 细胞增强器
 Rusted Compass
@@ -37329,7 +37329,7 @@ Tarot Amulets
 Noise Machines
 噪声机械
 Poké X-Rays
-宝可检测
+精灵检测
 Cell Boosters
 细胞增强器
 Rusted Compass
@@ -45144,7 +45144,7 @@ Pokédex
 Bag
 背包
 Pokégear
-宝可计
+精灵装置
 Balls: {1}
 球：{1}
 Steps: {1}/{2}<<n>>Balls: {3}
@@ -45216,7 +45216,7 @@ Code Inputter
 Cancel
 取消
 Point the Poké X-Ray at which trainer?
-要对哪个训练师使用宝可检测？
+要对哪个训练师使用精灵检测？
 {1}'s Card
 {1}的卡片
 Level Cap
@@ -46660,7 +46660,7 @@ Organize the Pokémon in Boxes and in your party.
 Move Pokémon stored in Boxes to your party.
 将箱子中的精灵移动到队伍中。
 Store Pokémon in your party in Boxes.
-将队伍中的宝可储存在箱子中。
+将队伍中的精灵储存在箱子中。
 Return to the previous menu.
 返回上一级菜单。
 Item Storage PC
@@ -52764,11 +52764,11 @@ It's no good! It's impossible to aim when there are two Pokémon!
 It's no good! It's impossible to aim when there are more than one Pokémon!
 没用的！当有多于一只精灵时，不可能瞄准！
 There's no one near by to use the Poké X-Ray on!
-附近没有可以使用宝可检测的人！
+附近没有可以使用精灵检测的训练师！
 You point the Poké X-Ray at {1}...
-你对{1}使用了宝可检测...
+你对{1}使用了精灵检测...
 Victoire notices you glancing at the Poké X-Ray.
-薇克特尔注意到你使用宝可检测了。
+薇克特尔注意到你使用精灵检测了。
 She smiles slightly and gives you an inscrutable look.
 她微微一笑，露出一个难以捉摸的眼神。
 Looking inside the journal, you see that the only page that hasn't fallen out is page {1}.
@@ -54876,13 +54876,13 @@ Gave Running Shoes.
 Lost Running Shoes.
 失去跑步鞋。
 Toggle Pokégear
-切换宝可计
+切换宝可装置
 Toggle possession of the Pokégear.
-切换宝可计的携带状态。
+切换宝可装置的携带状态。
 Gave Pokégear.
-给予宝可计。
+给予宝可装置。
 Lost Pokégear.
-失去宝可计。
+失去宝可装置。
 Toggle Pokédex and Dexes
 切换精灵图鉴和图鉴
 Toggle possession of the Pokédex, and edit Regional Dex accessibility.

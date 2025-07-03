@@ -67,6 +67,13 @@ module CDKey
     if @@other_key.key?(text)
       valid_code = true
       @@other_key[text]&.call
+      if text == :customtribethresh
+        params = ChooseNumberParams.new
+        params.setRange(1, 5)
+        params.setDefaultValue(5)
+        newthresh = pbMessageChooseNumber(_INTL("Set new Tribe threshold."), params)
+        TA.set(:customtribethresh, newthresh)
+      end
     end
     pbMessage(_INTL("Please enter a valid code!")) unless valid_code
   end
@@ -109,6 +116,9 @@ CDKey.register_other_key(:speedup, true)
 CDKey.register_other_key([:disablespeedup, :speedup], false)
 CDKey.register_other_key(:disablerevive, true)
 CDKey.register_other_key([:battlerevive, :disablerevive], false)
+
+CDKey.register_other_key(:customtribethresh)
+
 #CDKey.register_other_key(:adaptiveai, true)
 #CDKey.register_other_key(:whosyourdaddy, true)
 #CDKey.register_other_key([:nodaddy, :whosyourdaddy], false)

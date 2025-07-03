@@ -81,5 +81,14 @@ module GameData
 		def description
 			pbGetMessage(MessageTypes::TribeDescriptions, @id_number)
 		end
+
+    def threshold
+      customtribethresh = TA.get(:customtribethresh)
+      if customtribethresh && customtribethresh < @threshold
+        customtribethresh
+      else
+        @threshold
+      end
+    end
 	end
 end
