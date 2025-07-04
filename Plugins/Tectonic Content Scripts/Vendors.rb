@@ -12,6 +12,7 @@ end
 
 def martStock
     stock = BASIC_MART_STOCK.clone
+    stock << :ABILITYCAPSULE if TA.get(:monoabil)
     stock += VIP_CARD_EXTRA_STOCK.clone if vipCardActive?
     return stock
 end
