@@ -20,7 +20,7 @@ class Pokemon
 
   def abilities
     if TA.get(:monoabil) && used_by_player?
-      [ability_id]
+      [ability_id].compact
     else
       main_abil = TA.get(:customabil) ? [ability_id] : []
       (main_abil | species_abilities | extraAbilities).compact
@@ -84,7 +84,7 @@ class PokemonSummary_Scene
       abil = abil_list[index]
       abil_obj = GameData::Ability.try_get(abil)
       abil_des = abil_obj&.description || _INTL("This ability has not been implemented.")
-      abil_des = abil_obj&.details if abil_obj.has_details?
+      abil_des = abil_obj&.details if abil_obj&.has_details?
       pbMessage(abil_des)
     end
   end
