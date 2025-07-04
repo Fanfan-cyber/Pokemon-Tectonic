@@ -30,6 +30,7 @@ class PokeBattle_Move_SwapStatSteps < PokeBattle_Move
         GameData::Stat.each_battle do |s|
             user.steps[s.id], target.steps[s.id] = target.steps[s.id], user.steps[s.id]
         end
+        user.swap_step_counter(target)
         @battle.pbDisplay(_INTL("{1} switched stat changes with the target!", user.pbThis))
     end
 
@@ -58,6 +59,7 @@ class PokeBattle_Move_CopyStatSteps < PokeBattle_Move
         target.eachEffect do |effect, value, data|
             user.effects[effect] = value if data.critical_rate_buff?
         end
+        user.copy_step_counter(target)
         @battle.pbDisplay(_INTL("{1} copied {2}'s stat changes!", user.pbThis, target.pbThis(true)))
     end
 
@@ -94,6 +96,7 @@ self) && user.pbRaiseStatStep(s.id, target.steps[s.id], user, showAnim)
                 end
                 target.steps[s.id] = 0
             end
+            target.clear_step_counter(0)
         end
         super
     end
@@ -132,6 +135,7 @@ class PokeBattle_Move_ReverseTargetStatSteps < PokeBattle_Move
 
     def pbEffectAgainstTarget(_user, target)
         GameData::Stat.each_battle { |s| target.steps[s.id] *= -1 }
+        target.reverse_step_counter
         @battle.pbDisplay(_INTL("{1}'s stats were reversed!", target.pbThis))
     end
 

@@ -618,13 +618,6 @@ class PokeBattle_Battler
         end
     end
 
-    def update_step_counter(stat, increment, raised = true)
-        return unless Settings::STEP_RECOVERY
-        step_counter = tracker_get(:step_counter)
-        step_counter[stat] = [] unless step_counter[stat]
-        step_counter[stat] << [raised ? increment : -increment, Settings::STEP_RECOVERY_TURN]
-    end
-
     #=============================================================================
     # Multiple stat steps
     #=============================================================================
@@ -888,6 +881,7 @@ class PokeBattle_Battler
 
     def pbResetStatSteps
         GameData::Stat.each_battle { |s| @steps[s.id] = 0 }
+        clear_step_counter
     end
     
     def pbResetLoweredStatSteps(showMessage = false)
@@ -898,5 +892,6 @@ class PokeBattle_Battler
             anyReset = true
         }
         @battle.pbDisplay(_INTL("{1}'s negative stat changes were eliminated!", pbThis)) if showMessage && anyReset
+        clear_step_counter(1)
     end
 end

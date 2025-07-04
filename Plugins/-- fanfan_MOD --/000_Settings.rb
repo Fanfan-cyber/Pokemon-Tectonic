@@ -36,7 +36,7 @@ module Settings
   MONEY_RATE_BOOST = 2
   CATCH_RATE_BOOST = 3
 
-  STEP_RECOVERY        = false
+  STEP_RECOVERY        = true
   ITEM_CLAUSE          = false
   BATTLE_NO_MONEY_LOSS = true
   COPY_PLAYER_TRIBE    = false

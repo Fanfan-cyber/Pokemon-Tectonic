@@ -42,9 +42,11 @@ class PokeBattle_Battler
     # Ability effects
     #=============================================================================
     def pbAbilitiesOnSwitchOut
+        record_stat_steps
+        @battle.tracker_get(:turn_switched)[unique_id] = @battle.turnCount
+
         # Switch Healing Switch part
         pbRecoverHP(@totalhp * Settings::SWITCH_HEALING_AMT / 100.0, false, false, false) unless fainted?
-        @battle.tracker_get(:turn_switched)[unique_id] = @battle.turnCount
 
         eachActiveAbility do |ability|
             BattleHandlers.triggerAbilityOnSwitchOut(ability, self, @battle, false)

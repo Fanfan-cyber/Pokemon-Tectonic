@@ -108,7 +108,6 @@ class PokeBattle_Battler
 
     def pbInitPokemon(pkmn, idxParty)
         raise _INTL("An egg can't be an active Pokémon.") if pkmn.egg?
-        record_stat_steps
         @name         = pkmn.name
         @species      = pkmn.species
         @form         = pkmn.form
@@ -200,9 +199,10 @@ class PokeBattle_Battler
         else
             resetStatSteps
         end
-        apply_special_stat_steps
 
         resetTrackers
+        
+        apply_remained_stat_steps
     end
 
     def initializeEffects(batonPass = false)
