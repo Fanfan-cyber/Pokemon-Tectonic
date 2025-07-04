@@ -26641,13 +26641,13 @@ Hakamo-o
 Kommo-o
 杖尾鳞甲龙
 Tapu Koko
-卡璞・鸣鸣
+卡璞·鸣鸣
 Tapu Lele
-卡璞・蝶蝶
+卡璞·蝶蝶
 Tapu Bulu
-卡璞・哞哞
+卡璞·哞哞
 Tapu Fini
-卡璞・鳍鳍
+卡璞·鳍鳍
 Cosmog
 科斯莫古
 Cosmoem
@@ -38109,7 +38109,7 @@ Shalour City's famous shortbread. It can be used once to heal all the status con
 The Alola region's specialty--fried bread. It can be used once to heal all the status conditions of a Pokémon.
 阿罗拉地区的特产--油炸面包。使用一次可以治愈神奇宝贝的所有状态。
 A capsule that allows a Pokémon with two Abilities to switch between these Abilities when it is used.
-如果用于有着2种特性的精灵，就能令其现有特性变为另一种的胶囊。
+单特性模式下可用，能将精灵的现有特性变为另一种特性的胶囊。
 A watering can shaped like a Lotad. It helps promote the healthy growth of any Berries planted in soft soil.
 浇水的物品。能让埋在松软土壤里的树果快快长大。
 A bottle believed to have been used to seal away the power of a certain Pokémon long, long ago.
@@ -41725,7 +41725,7 @@ Lukka
 Mia
 米娅
 Yanko and Orlando
-扬科 和 奥兰多
+扬科和奥兰多
 Santiago
 圣地亚哥
 Nicholas
@@ -41791,7 +41791,7 @@ Sang
 Emily
 艾米莉
 Maria and Iveta
-玛利亚 和 伊维塔
+玛利亚和伊维塔
 Felicia
 费利西亚
 Absol
@@ -41899,19 +41899,19 @@ Vanya
 of Conflict
 冲突者
 Tapu Koko
-卡璞 · 鸣鸣
+卡璞·鸣鸣
 of Life
 生存者
 Tapu Lele
-卡璞 · 蝶蝶
+卡璞·蝶蝶
 of Abundance
 丰裕者
 Tapu Bulu
-卡璞 · 哞哞
+卡璞·哞哞
 of Hope
 希冀者
 Tapu Fini
-卡璞 · 鳍鳍
+卡璞·鳍鳍
 Solar
 索拉
 Lunar
@@ -41943,9 +41943,9 @@ Vlasta
 Danika
 达尼卡
 Shouta and Kaede
-翔太 和 枫
+翔太和枫
 Diana and Edward
-戴安娜 和 爱德华
+戴安娜和爱德华
 Wendy
 温迪
 Sagan
@@ -41953,7 +41953,7 @@ Sagan
 Martino
 马蒂诺
 Gianna and Rocco
-吉安娜 和 洛克
+吉安娜和洛克
 Tommaso
 托马斯
 Sonya
@@ -44273,6 +44273,10 @@ Guess what happened the other day. I missed catching \TE again.\mMaybe I'm not v
 猜猜前几天发生了什么。我又没抓到\TE。\m也许我不太擅长这个。
 [23]
 [24]
+A capsule that allows a Pokémon to switch to another Ability. Only used in Mono Ability Mode.
+仅在单特性模式下可用，能将精灵的现有特性变为另一种特性的胶囊。
+An item to be held by a Pokémon. It counts as a member of every tribe. Useless in TectoQuake.
+携带后可以看作任何一个部族。在地震中无效。
 Bill
 比尔
 Items
@@ -55516,7 +55520,7 @@ Tch, don't have one? They sell them in the castle courtyard. Diego's something o
 A tattered notebook sits on the table.
 桌上放着一本破旧的笔记本。
 It's titled "Tapu Log Book."
-标题是 "卡普日志"
+标题是 "卡璞日志"
 Notes: Cruel Cocoon
 笔记：残酷之茧
 Notes: Turbulent Sky
@@ -55530,25 +55534,25 @@ Stop Reading
 Which section would you like to read?
 要阅读哪一部分？
 Tapu Lele's ability "Flutter Totem" creates a "Cruel Cocoon" upon entry that only affects its side and lasts for 6 turns.
-卡璞 · 蝶蝶的特性“翩翩图腾”，会在进入战斗时制造一个持续六回合，且只影响己方的“残酷之茧”。
+卡璞·蝶蝶的特性“翩翩图腾”，会在进入战斗时制造一个持续六回合，且只影响己方的“残酷之茧”。
 At the end of each turn, it heals Pokémon on its side by 1/8th of their max HP.
 在每个回合结束时，它会恢复其同侧精灵最大HP的1/8。
 However, they also lose 1 PP from each of their moves. Cruel indeed.
 但这也会让所有技能的PP减少，这就是其残酷的地方。
 Tapu Koko's ability "Storm Totem" creates a "Turbulent Sky" upon entry that only affects its side and lasts for 6 turns.
-卡璞 · 鸣鸣的特性“暴风图腾”，会在进入战斗时制造一个持续六回合，且只影响己方的“动荡之空”。
+卡璞·鸣鸣的特性“暴风图腾”，会在进入战斗时制造一个持续六回合，且只影响己方的“动荡之空”。
 Pokémon on its side get a 30% move damage boost, but they are prevented from using moves that are the same type as the move they most recently used.
 其同侧的精灵获得30%的技能伤害增加，但他们无法使用与最近使用的技能相同属性的技能。
 Or, to state it another way, they can't use the same move type twice in a row.
 只要上回合使用了某种属性的技能，下回合同属性就会被禁止。
 Tapu Bulu's ability "Wild Totem" creates a "Primal Forest" upon entry that only affects its side and lasts for 6 turns.
-卡璞 · 哞哞的特性“荒野图腾”，会在进入战斗时制造一个持续六回合，且只影响己方的“原始之森”。
+卡璞·哞哞的特性“荒野图腾”，会在进入战斗时制造一个持续六回合，且只影响己方的“原始之森”。
 Whenever a Pokémon on its side is hit by an offensive attack, it becomes enraged.
 每当其同侧的精灵被攻击命中时，它会陷入狂暴状态。
 Thereby, its defense stats are both lowered by 1 step and its attack stats are both raised by 1 step.
 这会使其减少自身的防御和特防， 但增加自身的攻击和特攻。
 Tapu Fini's ability "Fog Totem" creates a "Misdirecting Fog" upon entry that only affects its side and lasts for 6 turns.
-卡璞 · 鳍鳍的特性“迷雾图腾”，会在进入战斗时制造一个持续六回合，且只影响己方的“迷惑之雾”。
+卡璞·鳍鳍的特性“迷雾图腾”，会在进入战斗时制造一个持续六回合，且只影响己方的“迷惑之雾”。
 Whenever a foe finishes attacking a Pokémon on its side, the attacker is forced to switch out of battle.
 每当敌方攻击其同侧的精灵后，攻击者会被迫替换出战斗。
 Unlike moves such as Roar or Whirlwind, however, the trainer has enough time to select the replacement themselves.
