@@ -1524,6 +1524,15 @@ BattleUse = OnFoe
 Flags = PokeBall,SnagBall,NoBallSwap
 Description = A ball with a mythical quality. It will catch any wild Pokémon without fail, and turn that Pokémon shiny.
 #-------------------------------
+[ARCBALL]
+Name = Arc Ball
+NamePlural = Arc Balls
+Pocket = 3
+Price = 0
+BattleUse = OnFoe
+Flags = PokeBall,SnagBall,NoBallSwap
+Description = The Poke ball that contains Arceus. Unable to be replicated by humans, so how did you see this description.
+#-------------------------------
 [ULTRABALL]
 Name = Ultra Ball
 NamePlural = Ultra Balls

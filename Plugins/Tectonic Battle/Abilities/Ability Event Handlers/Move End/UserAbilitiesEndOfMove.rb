@@ -202,8 +202,10 @@ BattleHandlers::UserAbilityEndOfMove.add(:DEEPSTING,
       next if totalDamageDealt <= 0
       amt = (totalDamageDealt / 4.0).round
       amt = 1 if amt < 1
+      battle.pbShowAbilitySplash(user, ability)
       user.pbReduceHP(amt, false)
       battle.pbDisplay(_INTL("{1} is damaged by recoil!", user.pbThis))
+      battle.pbHideAbilitySplash(user)
       user.pbItemHPHealCheck
       user.pbFaint if user.fainted?
   }

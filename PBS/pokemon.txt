@@ -85,6 +85,7 @@ Evolutions = CHARMELEON,Level,16
 [CHARMELEON]
 Name = Charmeleon
 Type1 = FIRE
+Type2 = DRAGON
 # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
 BaseStats = 60,65,60,80,80,65
 # Total = 410
@@ -17486,7 +17487,7 @@ Weight = 1.5
 Kind = Grass Quill
 Pokedex = It sends its feathers, which are as sharp as blades, flying in attack. Its legs are strong, so its kicks are also formidable.
 Generation = 7
-Evolutions = DARTRIX,Level,17
+Evolutions = DARTRIX,Level,16
 #-------------------------------
 [DARTRIX]
 Name = Dartrix
@@ -17567,7 +17568,7 @@ Weight = 4.3
 Kind = Fire Cat
 Pokedex = If you try too hard to get close to it, it won't open up to you. Even if you do grow close, giving it too much affection is still a no-no.
 Generation = 7
-Evolutions = TORRACAT,Level,17
+Evolutions = TORRACAT,Level,16
 #-------------------------------
 [TORRACAT]
 Name = Torracat
@@ -17626,7 +17627,7 @@ Weight = 7.5
 Kind = Sea Lion
 Pokedex = The balloons it inflates with its nose grow larger and larger as it practices day by day.
 Generation = 7
-Evolutions = BRIONNE,Level,17
+Evolutions = BRIONNE,Level,16
 #-------------------------------
 [BRIONNE]
 Name = Brionne
