@@ -533,7 +533,7 @@ class Pokemon
         if abil_index >= 2 # Hidden ability
             @ability = sp_data.hidden_abilities[abil_index - 2]
         else
-            @ability = sp_data.abilities[abil_index] || sp_data.abilities[0]
+            @ability = sp_data.new_abilities[abil_index] || sp_data.new_abilities[0]
         end
     end
 

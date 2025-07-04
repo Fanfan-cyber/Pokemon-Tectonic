@@ -216,7 +216,8 @@ doublebattle/disabledouble，开启/关闭全双打模式
 67.3D龙的第一特性由Realist改为下载2，第二特性由Adapted改为Backup
 68.3D龙2的第一特性由Realist改为下载2，第二特性由Adapted改为Backup
 69.3D龙-Z的第一特性由Realist改为下载2，第二特性由Adapted改为Backup
-70.
+70.修复了单特性模式下某些精灵无法随机到某些特性的Bug
+71.
 
 0.3.3
 1.修改获得代欧奇希斯的密码为alien1
