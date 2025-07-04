@@ -13,6 +13,8 @@ SPECIES_ABILITY_DATA = {
   [:FOONGUS, 0]    => { :fixed => %i[], :changeable => %i[REGENERATOR BURDENED], },
   [:AMOONGUSS, 0]  => { :fixed => %i[], :changeable => %i[REGENERATOR BURDENED], },
 
+  [:GIGANTEON, 0]  => { :fixed => %i[], :changeable => %i[ULTRAADAPTED GARGANTUAN], },
+
   [:HAPPINY, 0]    => { :fixed => %i[], :changeable => %i[SERENEGRACE CURIOUSMEDICINE], },
   [:CHANSEY, 0]    => { :fixed => %i[], :changeable => %i[SERENEGRACE CURIOUSMEDICINE], },
   [:BLISSEY, 0]    => { :fixed => %i[], :changeable => %i[SERENEGRACE CURIOUSMEDICINE], },
