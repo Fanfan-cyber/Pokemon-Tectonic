@@ -33527,8 +33527,8 @@ The user rests to cure itself of any status condition.
 让身体休息，治愈自己身上所中的毒、麻痹、烧伤等异常状态。
 An ancient song appeals to the hearts of those listening. Switches Meloetta's form.
 让对手听古老之歌，打动对手的内心，并改变自己的形态。
-Gets revenge for a fainted ally. If an ally fainted in the last turn, this attack's damage increases.
-为倒下的同伴报仇。如果上一回合有同伴倒下，威力就会增加。
+Gets revenge for a fainted ally. If an ally fainted in the last turn, this attack's damage doubles.
+为倒下的同伴报仇。如果上一回合有同伴倒下，这次攻击伤害翻倍。
 The user attacks the target by dancing very hard. The user's type determines the type of this move.
 全力跳舞进行攻击。此技能的属性将变得和自己的属性相同。
 The foe is forced to switch out to a random ally. Always goes last.
@@ -40580,8 +40580,8 @@ Doubles Sp. Def in hail.
 冰雹天气下特防翻倍。
 During hail, it restores its HP by half the damage it deals with attacks.
 冰雹天气时，恢复攻击造成的伤害的一半HP。
-Each turn, raises Speed by three steps and loses HP. If Speed was maxed, instead Speed and HP are reset.
-每回合更大幅度增加速度，但会损失HP，当速度到达最大值后，将恢复为初始状态。
+Each turn, raises Speed by three steps and loses 1/8th max HP. If Speed was maxed, instead Speed and HP are reset.
+每回合速度增加3级，但会损失1/8HP，当速度到达最大等级后，将速度和HP将会恢复。
 Boosts Sp. Atk by 30% in moonglow.
 在月辉下增加30%的特攻。
 Raises Speed by four steps when a stat is lowered by a foe.
@@ -53565,7 +53565,7 @@ Whoa! {1} suddenly started dancing in happiness!
 {1}看起来很乐观。
 It looks like {1} feels like dancing!
 {1}看起来想要跳舞！
-{1} Suddenly started to sing! It seems to be feeling great.
+{1} suddenly started to sing! It seems to be feeling great.
 {1}突然开始唱歌了！看来它状态很不错。
 It looks like {1} wants to dance with {2}!
 {1}好像想跟{2}共舞一曲!
