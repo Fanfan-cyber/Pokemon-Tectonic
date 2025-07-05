@@ -59,12 +59,12 @@ class AbilitySystem
   end
 end
 
-class Ability_EXAMPLE < AbilitySystem
-  OFF_MULT = { :DamageCalcUserAbility => { :base_damage_multiplier => 1.3 } }
+class Ability_ILLUSION < AbilitySystem
+  OFF_MULT = { :DamageCalcUserAbility => { :base_damage_multiplier => 1.2, }, }
 
   DamageCalcUserAbility =
-    proc { |handler, _ability, battle, _user, _target, _move, mults, _baseDmg, _type, _aiCheck|
-      AbilitySystem.calc_mults(OFF_MULT, handler, mults, battle)
+    proc { |handler, _ability, battle, user, _target, _move, mults, _baseDmg, _type, _aiCheck|
+      AbilitySystem.calc_mults(OFF_MULT, handler, mults, battle) if user.illusion?
     }
 
   def initialize(id)
@@ -85,6 +85,28 @@ class Ability_SWIFTSTOMPS < AbilitySystem
 
   def initialize(id)
     super
+    @ability_handler[:GuaranteedCriticalUserAbility] = GuaranteedCriticalUserAbility
+  end
+end
+
+class Ability_EXAMPLE < AbilitySystem
+  OFF_MULT = { :DamageCalcUserAbility => { :attack_multiplier => 1.3, :base_damage_multiplier => 1.2, }, }
+
+  DamageCalcUserAbility =
+    proc { |handler, _ability, battle, _user, _target, _move, mults, _baseDmg, _type, _aiCheck|
+      AbilitySystem.calc_mults(OFF_MULT, handler, mults, battle)
+    }
+
+  GuaranteedCriticalUserAbility =
+    proc { |_handler, _ability, move, user, _target, _battle, aiCheck|
+      hits = user.battle_tracker_get(:hits_in_progress_kicking)
+      hits += 1 if aiCheck
+      next true if move.kickingMove? && hits % 3 == 0
+    }
+
+  def initialize(id)
+    super
+    @ability_handler[:DamageCalcUserAbility]         = DamageCalcUserAbility
     @ability_handler[:GuaranteedCriticalUserAbility] = GuaranteedCriticalUserAbility
   end
 end

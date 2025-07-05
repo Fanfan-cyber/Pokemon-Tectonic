@@ -62,8 +62,8 @@ BattleHandlers::DamageCalcUserAbility.add(:MEGALAUNCHER,
 
 =begin
 BattleHandlers::DamageCalcUserAbility.add(:REFRACTIVE,
-  proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck|
-    if move.pulseMove?
+  proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck, backfire|
+    if move.pulseMove? || backfire
       mults[:base_damage_multiplier] *= 1.3
       user.aiLearnsAbility(ability) unless aiCheck
     end
@@ -795,8 +795,8 @@ BattleHandlers::DamageCalcUserAbility.add(:WREAKHAVOC,
 )
 
 BattleHandlers::DamageCalcUserAbility.add(:SLINKY,
-  proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck|
-    if move.is_a?(PokeBattle_Move_TwoTurnAttackInvulnerable)
+  proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck, backfire|
+    if move.is_a?(PokeBattle_Move_TwoTurnAttackInvulnerable) || backfire
       mults[:base_damage_multiplier] *= 2.0
       user.aiLearnsAbility(ability) unless aiCheck
     end

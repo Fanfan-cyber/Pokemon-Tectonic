@@ -716,17 +716,26 @@ BattleHandlers::AbilityOnSwitchIn.add(:SELECTIVESCUTES,
   }
 )
 
+BattleHandlers::AbilityOnSwitchIn.add(:BACKFIRE,
+  proc { |ability, battler, battle, aiCheck|
+      next 0 if aiCheck
+      battle.pbShowAbilitySplash(battler, ability)
+      battle.pbDisplay(_INTL("The strength is becoming a curse!"))
+      battle.pbHideAbilitySplash(battler)
+  }
+)
+
 BattleHandlers::AbilityOnSwitchIn.add(:DOWNLOAD2,
   proc { |ability, battler, battle, aiCheck|
       oppTotalAttack = oppTotalSpAtk = 0
       oppTotalDef    = oppTotalSpDef = 0
       anyFoes = false
       battler.eachOpposing do |b|
-        anyFoes = true
-        oppTotalAttack += b.pbAttack
-        oppTotalSpAtk  += b.pbSpAtk
-        oppTotalDef    += b.pbDefense
-        oppTotalSpDef  += b.pbSpDef
+          anyFoes = true
+          oppTotalAttack += b.pbAttack
+          oppTotalSpAtk  += b.pbSpAtk
+          oppTotalDef    += b.pbDefense
+          oppTotalSpDef  += b.pbSpDef
       end
       next 0 unless anyFoes
       a_stat = (oppTotalDef < oppTotalSpDef) ? :ATTACK : :SPECIAL_ATTACK

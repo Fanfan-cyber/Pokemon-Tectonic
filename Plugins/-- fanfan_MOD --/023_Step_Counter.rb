@@ -2,6 +2,7 @@ class PokeBattle_Battle
   def tick_down_step_counter(priority)
     return unless Settings::STEP_RECOVERY
     priority.each do |b|
+      next unless b.need_tick_down?
       next if b.fainted?
       step_counter = b.tracker_get(:step_counter)
       next if step_counter.empty?
@@ -35,8 +36,11 @@ class PokeBattle_Battle
 end
 
 class PokeBattle_Battler
+  def need_tick_down?
+    return true
+  end
+
   def update_step_counter(stat, increment, raised = true)
-    return unless Settings::STEP_RECOVERY
     step_counter = tracker_get(:step_counter)
     step_counter[stat] = [] unless step_counter[stat]
     step_counter[stat] << [raised ? increment : -increment, Settings::STEP_RECOVERY_TURN]
@@ -107,18 +111,22 @@ class PokeBattle_Battler
       clear_step_counter(0)
     when :positive_half
       stat_steps.each { |stat, step| @steps[stat] = step / 2 if step > 0 }
+      # to-do clear_step_counter
     when :negative_half
       stat_steps.each { |stat, step| @steps[stat] = step / 2 if step < 0 }
+      # to-do clear_step_counter
     when :positive_full_negative_half
       stat_steps.each do |stat, step|
         next if step == 0
         @steps[stat] = step > 0 ? step : step / 2
       end
+      # to-do clear_step_counter
     when :negative_full_positive_half
       stat_steps.each do |stat, step|
         next if step == 0
         @steps[stat] = step < 0 ? step : step / 2
       end
+      # to-do clear_step_counter
     else
       stat_steps.each { |stat, step| @steps[stat] = step }
     end

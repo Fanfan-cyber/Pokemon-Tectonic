@@ -31907,7 +31907,7 @@ Dragon Breath
 Dragon Claw
 龙爪
 Dragon Dance
-龙之舞
+龙舞
 Dragon Darts
 龙箭
 Dragon Energy
@@ -39794,7 +39794,7 @@ Relentless Pursuit
 Backup
 备份
 Download 2
-下载 2
+下载2
 Adaptive AI v1
 自适应AI v1
 Adaptive AI v2
@@ -39937,7 +39937,7 @@ Heals 1/8th of its max HP each turn in a hail.
 Doubles the Pokémon's Sp. Def.
 精灵的特防翻倍。
 Comes out disguised as the Pokémon in back.
-假扮成同行队伍中的最后一个精灵出场迷惑对手。
+出场时伪装成后排的精灵。
 It transforms itself into the Pokémon it is facing.
 变身为当前面对的精灵。
 Ignores screens and other barriers, Substitute, and boosted Defense and Sp. Def.
@@ -40547,7 +40547,7 @@ Heals by 1/8th of its max HP each turn if in sunshine.
 Doubles the Pokémon's Sp. Def in sunshine.
 在阳光下，精灵的特防翻倍。
 Boosts the power of kicking moves by 30%. Immune to hazards.
-踢击类技能威力增加30%，并免疫各种陷阱。
+踢类技能威力增加30%，并免疫各种陷阱。
 Traps the foe during gravity.
 Traps the foe during gravity.
 Can hold two different items, if both are Herbs.
@@ -40613,7 +40613,7 @@ Takes 30% less damage until it uses an attack.
 At the beginning of each turn, gives clues about a foe's plan.
 每个回合开始前，提供对手的行动方案。
 Boosts the power of kicking moves by 30%.
-踢击类技能伤害增加30%。
+踢类技能伤害增加30%。
 Causes sandstorm to deal double damage and increase Sp. Def of Rock-types by 2.0x instead of 1.5x.
 使沙暴造成的伤害翻倍，并且使岩石属性的特防增加效果从1.5倍变为2倍。
 Raises Attack by two steps after dealing not-very-effective or barely-effective damage.
@@ -40685,7 +40685,7 @@ Physical moves have a 30% chance to waterlog targets.
 Dive and Depth Charge deal 50% more damage.
 潜水和深海猛袭的伤害增加50%。
 Repeats another Pokémon's punch and kick moves immediately at 50% power.
-立即以50%的威力重复另一只精灵的拳类或者踢击类技能。
+立即以50%的威力重复另一只精灵的拳类或者踢类技能。
 All Pokémon's damage is decreased proportional to their health remaining.
 所有精灵的伤害都会根据它们的剩余生命值按比例减少。
 The Pokémon can't be Taunted, Encored, Tormented, Heal Blocked, Disabled, Barred, Dizzied, or Flinched.
@@ -41159,13 +41159,13 @@ Restores HP based on damage taken by others from hail.
 Lays an electrical hazard around the opponent when its HP is lowered below half.
 当其HP降至一半以下时，在对手周围布置电击陷阱。
 After knocking out any Pokémon, raises its Sp. Atk and Sp. Def.
-击倒任意精灵后增加特攻特防。
+击倒任意精灵后，特攻和特防增加1级。
 The random added effects of moves by all battlers always activate.
 所有精灵使用技能时必定触发附加效果。
 Ground-type moves deal 50% more damage in eclipse.
 日食天气时，地面属性技能威力增加50%。
 Uses Dragon Dance if an attack lowers its HP to half or below.
-如果被攻击将自身HP降至50%或以下，就会使用龙之舞。
+如果被攻击将自身HP降至50%或以下，就会使用龙舞。
 Boosts the power of rampaging moves by 30%, and makes them physical or special based on which would be more effective.
 将暴走类技能的威力增加30%，并根据哪种更有效将其变为物理或特殊技能。
 The Pokémon starts as a very convincing Pikachu!
@@ -41175,13 +41175,13 @@ Transforms into the entire enemy team, except buffed!
 Heals for 1/4th of its HP at the end of every turn.
 回合结束时恢复1/4HP。
 Attack and Speed are halved.
-攻击和速度减半。
+物攻和速度减半。
 When hitting a target that has an ability with an offensive damage-modifying effect, the Pokémon ignores the conditions and triggers the effect.
 当攻击的对手具有它自己在攻击时改变伤害的效果的特性时（如猛火），无视那个特性的发动条件并为自身触发该效果。
 When the Pokémon's level is 25 or higher, it transforms into a member of its family depending on the type of the move it is about to use.
 当精灵等级达到25级或以上时，它会根据即将使用的技能的属性变为其家族的成员。
 Attacks switching opponents with Pursuit.
-会自动使用追击攻击进行替换的对手。
+自动使用追击攻击进行替换的对手。
 Takes half damage from Dragon-, Fairy-, and Ghost-type attacks. Positive stat steps remain after switching.
 受到的龙属性、妖精属性和幽灵属性攻击的伤害减半。增加的能力等级即使替换离场也会依旧保留。
 Boosts both one offending and defending stat by one step according to the foe's defenses and offenses.
@@ -48842,7 +48842,9 @@ But a live wire already sits near {1}!
 {1} refuses to fight!
 {1}拒绝战斗！
 {1} is synchronizing data!
-{1} is synchronizing data!
+{1}正在同步数据！
+The strength is becoming a curse!
+力量正在被反噬！
 {1} is burdened!
 {1}承受了负担！
 {1} transforms into a stronger version of your entire team!
@@ -56869,24 +56871,26 @@ When the Pokémon eats a Berry, it restores 25% of its max health.
 当精灵吃下一颗树果时，会回复最大生命值的25%。
 It changes secondary type to that of the dance moves it's about to use.
 将附加属性变为即将使用的舞蹈类技能的属性。
-Upon entry, creates an Emotion Room for 5 turns, adding an ability every turn.
-出场时，创建一个持续5回合的情感空间，所有精灵每回合随机获得1个特性。
+Upon entry, creates an Emotion Room for 4 turns, adding an ability every turn.
+出场时，创建一个持续4回合的情感空间，所有精灵每回合随机获得1个特性。
 Powers up Psychic-type moves by 40%.
-Powers up Psychic-type moves by 40%.
+超能属性技能威力增加40%。
 Upon entry, the Pokémon heals itself for 1/5th max HP. This can overheal.
-出场时，精灵会恢复最大生命值的1/5。可以过量回复。。
-Upon entry, traps each opponent in a whirlpool for one turns.
+出场时，精灵会恢复最大生命值的1/5。可以过量回复。
+Upon entry, traps each opponent in a whirlpool for one turn.
 出场时，将所有对手困在潮漩中1回合。
+Comes out disguised as the Pokémon in back. Boosts move power by 20% in disguise.
+出场时伪装成后排的精灵，处于伪装状态时技能威力增加20%。
 Copies opponents' species' legal Abilities.
 复制对手精灵的物种合法特性。
 It changes secondary type to that of the pulse moves it's about to use.
 将附加属性变为即将使用的脉冲类技能的属性。
-Upon entry, traps each opponent in a sand tomb for one turns.
+Upon entry, traps each opponent in a sand tomb for one turn.
 出场时，将对手困在沙尘中1回合。
 It changes secondary type to that of the punching moves it's about to use.
 将附加属性变为即将使用的拳类技能的属性。
 The user's Speed is doubled while using kicking moves. Every third kicking hit must be a crit.
-使用踢击类技能时速度翻倍，并且每第3次使用的踢击类技能的攻击必定会命中对手的要害。
+使用踢类技能时速度翻倍，并且每第3次使用的踢类技能的攻击必定会命中对手的要害。
 An item to be held by a Pokémon. The user gets three abilities, but its stats are cut by 10%.
 一种可以携带的物品。携带者获得3个特性，但其能力会减少10%。
 ,
