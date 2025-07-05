@@ -39787,6 +39787,8 @@ Primeval Slow Start
 原初慢启动
 Backfire
 反噬
+Ancestral Summons
+背水飞援
 Bioengineering
 生物工程
 Relentless Pursuit
@@ -41176,6 +41178,8 @@ Heals for 1/4th of its HP at the end of every turn.
 回合结束时恢复1/4HP。
 Attack and Speed are halved.
 物攻和速度减半。
+Switches out if its HP becomes half or less. The replacement Pokémon's ​​first hit must be a crit​​ and if it's Doduo or Dodrio, it will use Fly​​ immediately.
+在HP低于一半时，会与后排的精灵进行替换。替换上场的精灵的第一次攻击必定会命中对手的要害，如果替换的精灵是嘟嘟或者嘟嘟利，还会立刻使用飞天。
 When hitting a target that has an ability with an offensive damage-modifying effect, the Pokémon ignores the conditions and triggers the effect.
 当攻击的对手具有它自己在攻击时改变伤害的效果的特性时（如猛火），无视那个特性的发动条件并为自身触发该效果。
 When the Pokémon's level is 25 or higher, it transforms into a member of its family depending on the type of the move it is about to use.
@@ -50411,6 +50415,10 @@ The healing wish came true for {1}!
 {1}被余震激发了！
 {1}'s PP was restored!
 {1}的PP恢复了!
+{1} answers the call!
+{1}应召而来！
+{1} tears through the sky!
+{1}撕裂了天空!
 {1} gets a free turn!
 {1}获得了一个免费的行动次数！
 {1}'s Defense is raised! This will last for {2} more turns!

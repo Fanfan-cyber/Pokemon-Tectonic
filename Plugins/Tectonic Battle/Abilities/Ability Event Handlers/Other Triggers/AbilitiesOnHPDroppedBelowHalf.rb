@@ -8,6 +8,14 @@ BattleHandlers::AbilityOnHPDroppedBelowHalf.add(:EMERGENCYEXIT,
 
 BattleHandlers::AbilityOnHPDroppedBelowHalf.copy(:EMERGENCYEXIT, :WIMPOUT)
 
+BattleHandlers::AbilityOnHPDroppedBelowHalf.add(:ANCESTRALSUMMONS,
+    proc { |ability, battler, battle|
+        next false if battler.fainted?
+        next false if battle.pbAllFainted?(battler.idxOpposingSide)
+        next battle.triggeredSwitchOut(battler.index, ability: ability, effect: true)
+    }
+)
+
 BattleHandlers::AbilityOnHPDroppedBelowHalf.add(:BERSERK,
   proc { |ability, battler, _battle|
       battler.pbRaiseMultipleStatSteps(ATTACKING_STATS_2, battler, ability: ability)

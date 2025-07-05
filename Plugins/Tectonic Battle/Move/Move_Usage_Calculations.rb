@@ -322,6 +322,7 @@ class PokeBattle_Move
         return true if user.effectActive?(:LaserFocus) || user.effectActive?(:EmpoweredLaserFocus)
         return true if user.effectActive?(:LuckyCheer)
         return true if pbCriticalOverride(user, target) > 0
+        return true if user.effectActive?(:AncestralSummonsReceiver)
         user.eachActiveAbility do |ability|
             return true if BattleHandlers.triggerGuaranteedCriticalUserAbility(ability, user, target, @battle)
             return true if AbilitySystem.apply_effect(:GuaranteedCriticalUserAbility, ability, self, user, target, @battle, checkingForAI)

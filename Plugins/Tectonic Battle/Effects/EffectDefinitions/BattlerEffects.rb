@@ -2255,6 +2255,13 @@ GameData::BattleEffect.register_effect(:Battler, {
 })
 
 GameData::BattleEffect.register_effect(:Battler, {
+    :id => :AncestralSummonsReceiver,
+    :real_name => "Ancestral Summons Receiver",
+    :type => :Integer,
+    :ticks_down => true,
+})
+
+GameData::BattleEffect.register_effect(:Battler, {
     :id => :Thunderstorm,
     :real_name => "Thunderstorm",
 })

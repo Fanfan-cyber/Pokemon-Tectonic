@@ -221,9 +221,10 @@ doublebattle/disabledouble，开启/关闭全双打模式
 79.现在Backfire会有入场提示了
 80.修复了强行的效果和特性的描述文本不符的Bug
 81.现在使用导航获取精灵需要消耗球或者金钱（300）
-82.
+82.始祖小鸟第二特性由Perfectionist改为ANCESTRALSUMMONS
+83.始祖大鸟第二特性由Perfectionist改为ANCESTRALSUMMONS
+84.
 
-加强始祖大鸟
 等级随动超过进化等级时对手的精灵会进化
 
 0.3.3

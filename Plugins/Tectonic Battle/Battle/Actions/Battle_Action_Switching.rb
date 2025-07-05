@@ -166,7 +166,7 @@ class PokeBattle_Battle
         end
     end
 
-    def triggeredSwitchOut(idxBattler, ability: nil)
+    def triggeredSwitchOut(idxBattler, ability: nil, effect: false)
         battler = @battlers[idxBattler]
         return false unless pbCanSwitch?(idxBattler) # Battler can't switch out
         return false unless pbCanChooseNonActive?(idxBattler) # No Pokémon can switch in
@@ -181,6 +181,7 @@ class PokeBattle_Battle
             battler.pbAbilitiesOnSwitchOut # Inc. primordial weather check
             return true
         end
+        battler.position.applyEffect(:AncestralSummons) if effect
         newPkmn = pbGetReplacementPokemonIndex(idxBattler) # Owner chooses
         return false if newPkmn < 0 # Shouldn't ever do this
         pbRecallAndReplace(idxBattler, newPkmn)
