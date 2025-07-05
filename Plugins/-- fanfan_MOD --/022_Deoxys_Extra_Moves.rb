@@ -60,7 +60,7 @@ def pblearnExtraMove(pkmn, form, move, ignoreifknown = false, bymachine = false,
   moves = pkmn.moves_for_dexyos[form]
   loop do
     pbMessage(_INTL("{1} wants to learn {2}{4}, but it already knows {3} moves.\1",
-                pkmn_name, move_name, pkmn.numExtraMoves(form), pkmn.move_matched?(move_id) ? _INTL("<imp>(matched)</imp>") : ""), &block) unless bymachine
+                pkmn_name, move_name, pkmn.numExtraMoves(form), pkmn.move_matched?(move_id) ? _INTL("(matched)") : ""), &block) unless bymachine
     choose = pbChooseMoveFromListEX(_INTL("Please choose a move that will be replaced with {1}.", move_name), moves)
     chose_move = choose[0]
     return false unless chose_move

@@ -38970,7 +38970,7 @@ Ear-Splitting
 Earthshaker
 撼地者
 Eccentric
-阴阳怪气
+傲娇
 Echo
 回音
 Efflorescent
@@ -50420,7 +50420,7 @@ The healing wish came true for {1}!
 {1} answers the call!
 {1}应召而来！
 {1} tears through the sky!
-{1}撕裂了天空!
+{1}应始祖之召撕裂了天空!
 {1} gets a free turn!
 {1}获得了一个免费的行动次数！
 {1}'s Defense is raised! This will last for {2} more turns!
@@ -56879,6 +56879,8 @@ Turns to Finale Form when only unfainted on team. Ignores the condition of a per
 当队伍只剩下自己后，将变为终结形态。若在终结形态取得了胜利，依然视为完胜。
 When the Pokémon eats a Berry, it restores 25% of its max health.
 当精灵吃下一颗树果时，会回复最大生命值的25%。
+Halves move damage when HP is greater than 50%.
+半血以上时，双攻减半。
 It changes secondary type to that of the dance moves it's about to use.
 将附加属性变为即将使用的舞蹈类技能的属性。
 Upon entry, creates an Emotion Room for 4 turns, adding an ability every turn.
