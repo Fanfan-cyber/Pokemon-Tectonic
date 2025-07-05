@@ -303,7 +303,7 @@ GameData::Move.get(@effects[:GorillaTactics]).name)
                         BattleHandlers.triggerAbilityOnFlinch(ability, self, @battle)
                     end
                     onMoveFailed(move)
-                    applyEffect(:FlinchImmunity,4)
+                    applyEffect(:FlinchImmunity,4) unless TA.get(:disable_flinch_immunity)
                     return false
                 end
             end
