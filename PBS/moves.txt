@@ -700,7 +700,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = DoubleDamageAvengingFaint
 Flags = CanProtect
-Description = Gets revenge for a fainted ally. If an ally fainted in the last turn, this attack's damage increases.
+Description = Gets revenge for a fainted ally. If an ally fainted in the last turn, this attack's damage doubles.
 #-------------------------------
 [REVELATIONDANCE]
 Name = Revelation Dance

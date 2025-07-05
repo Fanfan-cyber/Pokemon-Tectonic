@@ -255,7 +255,7 @@ class PokeBattle_Battle
         # Pokémon has space for the new move; just learn it
         if pkmn.moves.length < Pokemon::MAX_MOVES
             pkmn.moves.push(Pokemon::Move.new(newMove))
-            pbDisplay(_INTL("{1} learned {2}!", pkmnName, moveName)) { pbSEPlay("Pkmn move learnt") }
+            pbDisplay(_INTL("{1} learned {2}!", pkmnName, moveName), no_highlighting: true) { pbSEPlay("Pkmn move learnt") }
             if battler
                 battler.moves.push(PokeBattle_Move.from_pokemon_move(self, pkmn.moves.last))
                 battler.pbCheckFormOnMovesetChange
@@ -265,15 +265,15 @@ class PokeBattle_Battle
         # Pokémon already knows the maximum number of moves; try to forget one to learn the new move
         loop do
             pbDisplayPaused(_INTL("{1} wants to learn {2}{4}, but it already knows {3} moves.",
-                pkmnName, moveName, pkmn.moves.length, pkmn.move_matched?(newMove) ? _INTL("(matched)") : ""))
+                pkmnName, moveName, pkmn.moves.length.to_word, pkmn.move_matched?(newMove) ? _INTL("(matched)") : ""), no_highlighting: true)
             pbDisplayPaused(_INTL("Which move should be forgotten?"))
             forgetMove = @scene.pbForgetMove(pkmn, newMove)
             if forgetMove >= 0
                 oldMoveName = pkmn.moves[forgetMove].name
                 pkmn.moves[forgetMove] = Pokemon::Move.new(newMove)   # Replaces current/total PP
                 battler.moves[forgetMove] = PokeBattle_Move.from_pokemon_move(self, pkmn.moves[forgetMove]) if battler
-                pbDisplayPaused(_INTL("{1} forgot how to use {2}. And...", pkmnName, oldMoveName))
-                pbDisplay(_INTL("{1} learned {2}!", pkmnName, moveName)) { pbSEPlay("Pkmn move learnt") }
+                pbDisplayPaused(_INTL("{1} forgot how to use {2}. And...", pkmnName, oldMoveName), no_highlighting: true)
+                pbDisplay(_INTL("{1} learned {2}!", pkmnName, moveName), no_highlighting: true) { pbSEPlay("Pkmn move learnt") }
                 battler.pbCheckFormOnMovesetChange if battler
                 break
             else

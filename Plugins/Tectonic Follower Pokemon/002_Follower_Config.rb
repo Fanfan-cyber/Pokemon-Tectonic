@@ -500,7 +500,7 @@ Events.OnTalkToFollower += proc {|pkmn,event,random_val|
       _INTL("{1} looked up and howled!"),
       _INTL("{1} seems to be feeling optimistic."),
       _INTL("It looks like {1} feels like dancing!"),
-      _INTL("{1} Suddenly started to sing! It seems to be feeling great."),
+      _INTL("{1} suddenly started to sing! It seems to be feeling great."),
       _INTL("It looks like {1} wants to dance with {2}!")
     ]
     value = rand(messages.length)

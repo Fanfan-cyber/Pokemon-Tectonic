@@ -94,10 +94,10 @@ class QuestList_Scene
       $PokemonGlobal.quests.active_quests,
       $PokemonGlobal.quests.completed_quests
     ]
-    @quests_text = [_INTL("Active"), _INTL("Completed")]
+    @quests_text = [_INTL("Active Quests"), _INTL("Completed Quests")]
     if SHOW_FAILED_QUESTS
       @quests.push($PokemonGlobal.quests.failed_quests)
-      @quests_text.push(_INTL("Failed"))
+      @quests_text.push(_INTL("Failed Quests"))
     end
     @quest_list_type = 0
     @sprites["itemlist"] = Window_Quest.new(22,26,Graphics.width-22,Graphics.height-20,@viewport)
@@ -116,7 +116,7 @@ class QuestList_Scene
     @sprites["overlay_control"] = BitmapSprite.new(Graphics.width,Graphics.height,@viewport)
     pbSetSystemFont(@sprites["overlay_control"].bitmap)
     pbDrawTextPositions(@sprites["overlay1"].bitmap,[
-      [_INTL("{1} quests", @quests_text[@quest_list_type]),6,-2,0,Color.new(248,248,248),Color.new(0,0,0),true]
+      [@quests_text[@quest_list_type],6,-2,0,Color.new(248,248,248),Color.new(0,0,0),true]
     ])
     pbFadeInAndShow(@sprites) { pbUpdate }
   end
@@ -284,7 +284,7 @@ class QuestList_Scene
       ["#{questName}",Graphics.width/2 - 12,-2,2,Color.new(248,248,248),Color.new(0,0,0),true]
     ])
     # Quest description
-    questDesc = _INTL("<u>Overview</u>: {1}", $quest_data.getQuestDescription(quest.id))
+    questDesc = _INTL("<u>Overview</u>: {1}",$quest_data.getQuestDescription(quest.id))
     drawFormattedTextEx(@sprites["overlay3"].bitmap,38,48,
       436,questDesc,@base,@shadow)
     # Stage description
@@ -292,14 +292,14 @@ class QuestList_Scene
     # Stage location
     questStageLocation = $quest_data.getStageLocation(quest.id,quest.stage)
     # If 'nil' or missing, set to '???'
-    if questStageLocation=="nil" || questStageLocation==""
+    if questStageLocation == "nil" || questStageLocation == ""
       questStageLocation = "???"
     end
     detailsStartingY = Graphics.height-70
     drawFormattedTextEx(@sprites["overlay3"].bitmap,38,detailsStartingY,
-      436, _INTL("<u>Task</u>: {1}", questStageDesc), @base,@shadow)
+      436,_INTL("<u>Task</u>: {1}",questStageDesc),@base,@shadow)
     drawFormattedTextEx(@sprites["overlay3"].bitmap,38,detailsStartingY + 32,
-      436, _INTL("<u>Location</u>: {1}", questStageLocation), @base,@shadow)
+      436,_INTL("<u>Location</u>: {1}",questStageLocation),@base,@shadow)
   end
 
   def drawOtherInfo(quest)
@@ -331,14 +331,14 @@ class QuestList_Scene
     yStartingPos = 48
     yGap = 72
     drawFormattedTextEx(@sprites["overlay3"].bitmap,38,yStartingPos,
-      436, _INTL("<u>Quest received from</u>:"), @base,@shadow)
+      436,_INTL("<u>Quest received from</u>:"),@base,@shadow)
     drawFormattedTextEx(@sprites["overlay3"].bitmap,38,yStartingPos+yGap*1,
-      436, _INTL("<u>Quest discovered {1}</u>:", loc), @base,@shadow)
+      436,_INTL("<u>Quest discovered {1}</u>:",loc),@base,@shadow)
     drawFormattedTextEx(@sprites["overlay3"].bitmap,38,yStartingPos+yGap*2,
-      436, _INTL("<u>Quest {1} time</u>:", time_text), @base,@shadow)
+      436,_INTL("<u>Quest {1} time</u>:",time_text),@base,@shadow)
     detailsStartingY = Graphics.height-70
     drawFormattedTextEx(@sprites["overlay3"].bitmap,38,detailsStartingY,
-      436, _INTL("<u>Reward</u>: {1}", questReward), @base,@shadow)
+      436,_INTL("<u>Reward</u>: {1}",questReward),@base,@shadow)
     yStartingPos += 24
     textpos = [
         ["#{questGiver}",38,yStartingPos,0,@base,@shadow],

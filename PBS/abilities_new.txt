@@ -948,7 +948,7 @@ Flags = HailSynergy
 #-------------------------------
 [IGNITIONCYCLE]
 Name = Ignition Cycle
-Description = Each turn, raises Speed by three steps and loses HP. If Speed was maxed, instead Speed and HP are reset.
+Description = Each turn, raises Speed by three steps and loses 1/8th max HP. If Speed was maxed, instead Speed and HP are reset.
 #-------------------------------
 [ILLUMINANCE]
 Name = Illuminance
