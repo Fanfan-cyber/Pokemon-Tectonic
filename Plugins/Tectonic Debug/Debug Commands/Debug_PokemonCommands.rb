@@ -1008,4 +1008,23 @@ module PokemonDebugMenuCommands
       next false
     }
   })
-  
+
+  PokemonDebugMenuCommands.register("deleteother", {
+    "parent"      => "main",
+    "name"        => _INTL("Delete Others"),
+    "effect"      => proc { |pkmn, pkmnid, heldpoke, settingUpBattle, screen|
+      if screen.pbConfirm(_INTL("Are you sure you want to delete other Pokémon?"))
+        if screen.is_a?(PokemonPartyScreen) || screen.is_a?(TilingCardsPokemonMenu_Scene)
+          screen.party.each_index do |i|
+            screen.party[i] = nil unless pkmnid == i
+          end
+          screen.party.compact!
+          screen.pbHardRefresh
+        elsif screen.is_a?(PokemonStorageScreen)
+          screen.pbDisplay(_INTL("This function only can be used in Party Menu"))
+        end
+        next true
+      end
+      next false
+    }
+  })

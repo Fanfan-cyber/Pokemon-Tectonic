@@ -212,18 +212,19 @@ class NewDexNav
           end
         elsif Input.trigger?(Input::ACTION)
           if pbConfirmMessage(_INTL("Would you like to get all these Pokémon?"))
-            obtained = false
+            mons = []
             displaySpecies.each do |group|
               group.each do |species_data|
                 next if has_species?(species_data.species, species_data.form)
-                pbAddPokemonSilent(species_data, getLevelCap - 5, dexnav: true)
-                obtained = true
+                mons << species_data
               end
             end
-            if obtained
-              pbMessage(_INTL("Enjoy your new Pokémon!\\me[Pkmn get]\\wtnp[80]\1"))
-            else
+            if mons.empty?
               pbMessage(_INTL("You can't get any of these Pokémon!"))
+            else
+              break unless ball_money_check(mons.size)
+              mons.each { |species_data| pbAddPokemonSilent(species_data, getLevelCap - 5, dexnav: true) }
+              pbMessage(_INTL("Enjoy your new Pokémon!\\me[Pkmn get]\\wtnp[80]\1"))
             end
             break
           end
@@ -239,6 +240,7 @@ class NewDexNav
             if can_obtain.empty?
               pbMessage(_INTL("You can't get any of these Pokémon!"))
             else
+              break unless ball_money_check
               pbAddPokemon(can_obtain.sample, getLevelCap - 5, dexnav: true)
               break
             end
@@ -253,6 +255,7 @@ class NewDexNav
             if has_species?(highlightedSpecies, highlightedSpeciesForm)
               pbMessage(_INTL("You can't get this Pokémon! You already have one!"))
             else
+              break unless ball_money_check
               pbAddPokemon(highlightedSpeciesData, getLevelCap - 5, dexnav: true)
               break
             end
@@ -305,6 +308,58 @@ class NewDexNav
     $PokemonTemp.navigationRow = @navigationRow
     $PokemonTemp.navigationColumn = @navigationColumn
     dispose
+  end
+
+  def ball_money_check(amount = 1)
+    if amount > 1
+      if ($PokemonBag.pbBallQuantity + $Trainer.money / 300) < amount
+        pbMessage(_INTL("You don't have enough balls and money!"))
+        return false
+      end
+      if pbConfirmMessage(_INTL("Would you like to consume balls and money to get these Pokémon?"))
+        consumed_balls = $PokemonBag.consumeRequiredBall(amount)
+        remain = consumed_balls[0]
+        if remain == 0
+          pbMessage(_INTL("You consumed {1}.", consumed_balls[1]))
+        else
+          extra_money = 300 * remain
+          $Trainer.money -= extra_money
+          if remain == amount
+            pbMessage(_INTL("You consumed ${1}.", extra_money))
+          else
+            pbMessage(_INTL("You consumed {1} and ${2}.", consumed_balls[1], extra_money))
+          end
+        end
+        return true
+      else
+        return false
+      end
+    else
+      choice = []
+      choice << _INTL("Balls") 
+      choice << _INTL("Money")
+      choice << _INTL("Cancel")
+      choose = pbMessage(_INTL("What do you want to consume?"), choice, -1)
+      case choose
+      when -1, 2
+        return false
+      when 0
+        if $PokemonBag.pbBallQuantity < 1
+          pbMessage(_INTL("You don't have enough balls!"))
+          return false
+        end
+        $PokemonBag.consumeRequiredBall(amount, true)
+        return true
+      when 1
+        if $Trainer.money < 300
+          pbMessage(_INTL("You don't have enough money!"))
+          return false
+        end
+        $Trainer.money -= 300
+        pbMessage(_INTL("You consumed $300."))
+        return true
+      end
+    end
   end
 
   def visualHeightOffset

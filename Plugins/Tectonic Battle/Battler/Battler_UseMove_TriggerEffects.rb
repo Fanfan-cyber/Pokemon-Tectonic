@@ -154,11 +154,11 @@ user.pbThis(true)))
         # Pokémon switching caused by Roar, Whirlwind, Discourage, Dragon Tail
         move.pbSwitchOutTargetsEffect(user, targets, numHits, switchedBattlers)
         # Target's item, user's item, target's ability (all negated by Sheer Force)
-        if user.hasActiveAbility?(:SHEERFORCE) && move.randomEffect?
+        #if user.hasActiveAbility?(:SHEERFORCE) && move.randomEffect?
             # Skip other additional effects too if sheer force is being applied to the move
-        else
+        #else
             pbEffectsAfterMove2(user, targets, move, numHits, switchedBattlers)
-        end
+        #end
         # Ally Cushion
         if user.effectActive?(:KickbackSwap) && !switchedBattlers.include?(user.index)
             if @battle.triggeredSwitchOut(user.index)
