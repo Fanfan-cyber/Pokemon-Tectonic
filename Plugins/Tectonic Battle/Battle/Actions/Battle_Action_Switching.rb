@@ -172,6 +172,7 @@ class PokeBattle_Battle
         return false unless pbCanChooseNonActive?(idxBattler) # No Pokémon can switch in
         if ability
             pbShowAbilitySplash(battler, ability)
+            pbDisplay(_INTL("{1} sensed the danger!", battler.pbThis))
             pbHideAbilitySplash(battler)
         end
         pbDisplay(_INTL("{1} went back to {2}!",
