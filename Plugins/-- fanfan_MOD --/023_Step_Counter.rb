@@ -21,7 +21,7 @@ class PokeBattle_Battle
       next if stat_changes.empty?
       change_desc = []
       stat_changes.each do |stat, amount|
-        next if amount.zero?
+        next if amount == 0
         stat_name = GameData::Stat.get(stat).name
         if amount > 0
           change_desc << _INTL("raised {1} recovered by {2}", stat_name, amount)
@@ -29,8 +29,8 @@ class PokeBattle_Battle
           change_desc << _INTL("lowered {1} recovered by {2}", stat_name, amount.abs)
         end
       end
-      description = change_desc.join(_INTL(", "))
-      pbDisplay(_INTL("{1}'s {2}.", b.pbThis, description))
+      next if change_desc.empty?
+      pbDisplay(_INTL("{1}'s {2}.", b.pbThis, change_desc.join(_INTL(", ")))) 
     end
   end
 end
@@ -46,20 +46,12 @@ class PokeBattle_Battler
     step_counter[stat] << [raised ? increment : -increment, Settings::STEP_RECOVERY_TURN]
   end
 
-  def clear_step_counter(section = 2) # 0 for pos, 1 for neg, 2 for all
-    if section == 2
-      tracker_clear(:step_counter)
-    else
+  def clear_step_counter(stat = nil)
+    if stat
       step_counter = tracker_get(:step_counter)
-      return if step_counter.empty?
-      step_counter.each do |stat, counters|
-        next if counters.empty? # [[increment1, remaining1], [increment2, remaining2], [increment3, remaining3], ...]
-        counters.each do |counter| # [increment1, remaining1]
-          counter[1] = 0 if counter[0] > 0 && section == 0
-          counter[1] = 0 if counter[0] < 0 && section == 1
-        end
-        counters.reject! { |counter| counter[1] == 0 }
-      end
+      step_counter.delete(stat)
+    else
+      tracker_clear(:step_counter)
     end
   end
 
@@ -104,11 +96,16 @@ class PokeBattle_Battler
     tracker_set(:step_counter, battle_tracker_get(:steps_counter_before_switching))
     case strategy
     when :positive
-      stat_steps.each { |stat, step| @steps[stat] = step if step > 0 }
-      clear_step_counter(1)
+      stat_steps.each do |stat, step|
+        if step <= 0
+          clear_step_counter(stat)
+        else
+          @steps[stat] = step
+        end
+      end
     when :negative
       stat_steps.each { |stat, step| @steps[stat] = step if step < 0 }
-      clear_step_counter(0)
+      # to-do clear_step_counter
     when :positive_half
       stat_steps.each { |stat, step| @steps[stat] = step / 2 if step > 0 }
       # to-do clear_step_counter

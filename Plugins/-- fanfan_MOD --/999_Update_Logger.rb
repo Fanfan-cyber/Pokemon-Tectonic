@@ -223,8 +223,13 @@ doublebattle/disabledouble，开启/关闭全双打模式
 81.现在使用导航获取精灵需要消耗球或者金钱（300）
 82.始祖小鸟第二特性由Perfectionist改为ANCESTRALSUMMONS
 83.始祖大鸟第二特性由Perfectionist改为ANCESTRALSUMMONS
-84.
+84.现在化身在转换阶段时的清除能力等级将会同时清除所有能力等级，而不仅仅是下降的能力等级
+85.现在Spectral Thief被偷取的能力等级会自然恢复
+86.现在Scam被偷取的能力等级会自然恢复
+87.
 
+日食天气造成的不能自然恢复
+月辉造成的畏缩不计入畏缩回合
 等级随动超过进化等级时对手的精灵会进化
 
 0.3.3

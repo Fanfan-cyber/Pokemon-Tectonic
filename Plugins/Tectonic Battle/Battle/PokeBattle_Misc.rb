@@ -117,7 +117,8 @@ class PokeBattle_Battle
                 pbDisplaySlower(_INTL("{1} wiped the slate clean.", b.pbThis)) if showMessages
                 b.pbCureStatus
                 b.pbCureStatus # Duplicated intentionally
-                b.pbResetLoweredStatSteps(true)
+                #b.pbResetLoweredStatSteps(true)
+                b.pbResetStatSteps(true)
                 b.resetAbilities
                 b.eachEffect(true) do |effect, _value, data|
                     next unless data.avatars_purge

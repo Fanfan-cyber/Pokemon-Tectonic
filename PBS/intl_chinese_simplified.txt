@@ -34534,7 +34534,7 @@ HP越少伤害越高。在攻击之后急速返回，和后备精灵进行替换
 The user's eyes glow with divine judgement, numbing the target and reducing both its Attack and Sp. Atk.
 使用者的眼睛散发着神圣的审判之光，使目标麻痹并减少其物攻和特攻1级。
 The user focuses its aim to raise its Sp. Atk and Accuracy by three steps.
-使用者集中目标，增加自身的特攻和命中率3级。
+使用者集中精神对准目标，增加自身的特攻和命中率3级。
 The user cleans the target aggressively with soapy water. It has a 50% chance to waterlog.
 使用者用肥皂水猛烈清洗目标。有50%的概率使对手浸水。
 The user spins the target with a cleansing vortex. It has a 30% chance to waterlog.
@@ -35440,7 +35440,7 @@ The user raises their Attack and Defense by two steps, and Speed by one step.
 The user flips, flaps, fumbles, then flounders. It becomes more powerful the less HP the user has.
 进行闪转腾挪，使对方陷入困境，自身的HP越少，威力越大。
 The user makes the target to trip into a huge pile of snow, damaging them and summoning hail for eight turns.
-Theusermakesthetargettotripintoahugepileofsnow,damagingthemandsummoninghailforeightturns.
+使用者让目标跌入一大堆雪中，对其造成伤害，并召唤持续8回合的冰雹。
 The user incants a snowy hex, dealing damage and setting a hazard layer of frozen spikes around the target.
 The user incants a snowy hex, dealing damage and setting a hazard layer of frozen spikes around the target.
 To inflict massive damage, the user uses up its Ice-type.
@@ -40377,7 +40377,7 @@ Repeats another Pokémon's sound and pulse moves immediately at 50% power.
 The Pokémon and its allies are protected from flinching, Intimidate, Fascinate, and Frustrate.
 自身及其同伴受到保护，不会受到畏缩、威吓、震慑和阻挠的影响。
 Uses Lightning Dance if an attack lowers its HP to half or below.
-如果攻击使对方HP降到一半或更低，会同时使用闪电舞。
+被攻击使自身HP降到一半或更低，会使用闪电舞。
 Upon entry, creates an Emotion Room for four turns, switching Abilities every turn.
 出场时，创建一个持续4回合的情感空间，在该空间下，精灵每回合都会切换自身的特性。
 Can't be numbed, waterlogged, or have its Speed reduced.
@@ -41179,7 +41179,7 @@ Heals for 1/4th of its HP at the end of every turn.
 Attack and Speed are halved.
 物攻和速度减半。
 Switches out if its HP becomes half or less. The replacement Pokémon's ​​first hit must be a crit​​ and if it's Doduo or Dodrio, it will use Fly​​ immediately.
-在HP低于一半时，会与后排的精灵进行替换。替换上场的精灵的第一次攻击必定会命中对手的要害，如果替换的精灵是嘟嘟或者嘟嘟利，还会立刻使用飞天。
+HP低于一半时，会返回队伍，替换上场的精灵的第一次攻击必定会命中对手的要害，如果替换的精灵是嘟嘟或者嘟嘟利，还会立刻使用飞天。
 When hitting a target that has an ability with an offensive damage-modifying effect, the Pokémon ignores the conditions and triggers the effect.
 当攻击的对手具有它自己在攻击时改变伤害的效果的特性时（如猛火），无视那个特性的发动条件并为自身触发该效果。
 When the Pokémon's level is 25 or higher, it transforms into a member of its family depending on the type of the move it is about to use.
@@ -49716,7 +49716,9 @@ It'll last the whole battle!
 {1}'s {2} rose by {3} steps!
 {1}的{2}增加了{3}级！
 {1}'s negative stat changes were eliminated!
-{1}的负面能力变化被消除了！
+{1}的降低的能力等级被清除了！
+{1}'s stat changes were recovered!
+{1}的能力等级被清除了！
 {1} moves at doubled speed thanks to its {2}!
 {1}因为{2}速度翻倍了！
 It'll skip its next two moves

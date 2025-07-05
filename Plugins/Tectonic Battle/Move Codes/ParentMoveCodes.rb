@@ -629,6 +629,7 @@ class PokeBattle_TwoTurnMove < PokeBattle_Move
     def skipChargingTurn?(user)
         ret = @battle.apply_field_effect(:no_charging, user, self)
         return true if ret
+        return true if user.effectActive?(:AncestralSummonsReceiver) && user.isSpecies?(%i[DODUO DODRIO])
         return false
     end
 

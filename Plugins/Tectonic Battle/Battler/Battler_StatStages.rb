@@ -879,12 +879,18 @@ class PokeBattle_Battler
         return false
     end
 
-    def pbResetStatSteps
-        GameData::Stat.each_battle { |s| @steps[s.id] = 0 }
+    def pbResetStatSteps(showMessage = false)
+        anyReset = false
+        GameData::Stat.each_battle { |s|
+            next if @steps[s.id] == 0
+            @steps[s.id] = 0
+            anyReset = true
+        }
+        @battle.pbDisplay(_INTL("{1}'s stat changes were recovered!", pbThis)) if showMessage && anyReset
         clear_step_counter
     end
     
-    def pbResetLoweredStatSteps(showMessage = false)
+    def pbResetLoweredStatSteps(showMessage = false) # didn't use it
         anyReset = false
         GameData::Stat.each_battle { |s|
             next unless @steps[s.id] < 0
@@ -892,6 +898,5 @@ class PokeBattle_Battler
             anyReset = true
         }
         @battle.pbDisplay(_INTL("{1}'s negative stat changes were eliminated!", pbThis)) if showMessage && anyReset
-        clear_step_counter(1)
     end
 end

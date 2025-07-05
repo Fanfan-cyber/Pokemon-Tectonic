@@ -240,13 +240,14 @@ GameData::BattleEffect.register_effect(:Position, {
     :id => :AncestralSummons,
     :real_name => "Ancestral Summons",
     :entry_proc => proc do |battle, _index, position, battler|
-        battler.applyEffect(:AncestralSummonsReceiver, 2)
         position.disableEffect(:AncestralSummons)
         if battler.isSpecies?(%i[DODUO DODRIO])
-          battle.pbDisplay(_INTL("{1} tears through the sky!", battler.pbThis))
-          battle.forceUseMove(battler, :FLY)
+            battler.applyEffect(:AncestralSummonsReceiver, 1)
+            battle.pbDisplay(_INTL("{1} tears through the sky!", battler.pbThis))
+            battle.forceUseMove(battler, :FLY)
         else
-          battle.pbDisplay(_INTL("{1} answers the call!", battler.pbThis))
+            battler.applyEffect(:AncestralSummonsReceiver, 2)
+            battle.pbDisplay(_INTL("{1} answers the call!", battler.pbThis))
         end
     end,
 })

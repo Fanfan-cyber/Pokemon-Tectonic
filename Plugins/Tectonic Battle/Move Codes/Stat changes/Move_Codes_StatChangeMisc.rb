@@ -90,13 +90,12 @@ class PokeBattle_Move_StealPositiveStatSteps < PokeBattle_Move
             showAnim = true
             GameData::Stat.each_battle do |s|
                 next if target.steps[s.id] <= 0
-                if user.pbCanRaiseStatStep?(s.id, user,
-self) && user.pbRaiseStatStep(s.id, target.steps[s.id], user, showAnim)
+                if user.pbCanRaiseStatStep?(s.id, user, self) && target.pbCanLowerStatStep?(s.id, user, self)
+                    target.pbLowerStatStep(s.id, target.steps[s.id], user, showAnim)
+                    user.pbRaiseStatStep(s.id, target.steps[s.id], user, showAnim)
                     showAnim = false
                 end
-                target.steps[s.id] = 0
             end
-            target.clear_step_counter(0)
         end
         super
     end
