@@ -15,6 +15,31 @@ class PokeBattle_Battle
     end
   end
 
+  def opposing_party_size
+    @opposing_party_size ||= ((@opponent&.sum { |trainer| trainer.party.size }) / (@opponent&.size.to_f) || 0)
+  end
+
+  def player_party_size
+    @player_party_size ||= ((@player&.sum { |trainer| trainer.party.size }) / (@opponent&.size.to_f) || 0)
+  end
+
+  def party_size_diff
+    @party_size_diff ||= (player_party_size - opposing_party_size)
+  end
+
+  def bigger_side
+    unless @bigger_side
+      if party_size_diff > 0
+        @bigger_side = 0
+      elsif party_size_diff < 0
+        @bigger_side = 1 if 
+      else
+        @bigger_side = 2
+      end
+    end
+    @bigger_side
+  end
+
   def field_battlers_id
     @battlers.compact.map { |b| b.unique_id }
   end

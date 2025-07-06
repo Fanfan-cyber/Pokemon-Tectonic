@@ -25,6 +25,10 @@ class PokeBattle_Battler
     return nil
   end
 
+  def bigger_side?
+    idxOwnSide == bigger_side
+  end
+
   def owner_party_fainted_count
     return 0 unless owned_trainer
     return owned_trainer.fainted_pkmn_count
