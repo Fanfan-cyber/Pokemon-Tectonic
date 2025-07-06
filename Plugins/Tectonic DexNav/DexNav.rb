@@ -312,12 +312,12 @@ class NewDexNav
 
   def ball_money_check(amount = 1)
     if amount > 1
-      if ($PokemonBag.pbBallQuantity + $Trainer.money / 300) < amount
+      if ($PokemonBag.pbBallQuantity(true) + $Trainer.money / 300) < amount
         pbMessage(_INTL("You don't have enough balls and money!"))
         return false
       end
       if pbConfirmMessage(_INTL("Would you like to consume balls and money to get these Pokémon?"))
-        consumed_balls = $PokemonBag.consumeRequiredBall(amount)
+        consumed_balls = $PokemonBag.consumeRequiredBall(amount, true)
         remain = consumed_balls[0]
         if remain == 0
           pbMessage(_INTL("You consumed {1}.", consumed_balls[1]))
@@ -344,11 +344,11 @@ class NewDexNav
       when -1, 2
         return false
       when 0
-        if $PokemonBag.pbBallQuantity < 1
+        if $PokemonBag.pbBallQuantity(true) < 1
           pbMessage(_INTL("You don't have enough balls!"))
           return false
         end
-        $PokemonBag.consumeRequiredBall(amount, true)
+        $PokemonBag.consumeRequiredBall(amount, true, true)
         return true
       when 1
         if $Trainer.money < 300

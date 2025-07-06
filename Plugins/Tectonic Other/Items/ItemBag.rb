@@ -112,23 +112,26 @@ class PokemonBag
       return ItemStorageHelper.pbQuantity(@pockets[pocket], item.id)
     end
 
-    def pbBallQuantity
+    def pbBallQuantity(ball = false)
+      return pbQuantity(:POKEBALL) if ball
       item = GameData::Item.get(:POKEBALL)
       @pockets[item.pocket].sum { |amount| amount[1] }
     end
 
-    def consumeRequiredBall(amount = 1, show_msg = false)
+    def consumeRequiredBall(amount = 1, ball = false, show_msg = false)
       item = GameData::Item.get(:POKEBALL)
       pocket = @pockets[item.pocket]
       balls = []
       pocket.each do |ball|
         break if amount <= 0
         ball_id = ball[0]
+        next if ball_id != :POKEBALL && ball
         next if ball_id == :BALLLAUNCHER
         to_delete = [ball[1], amount].min
         balls << [ball[0], to_delete]
         amount -= to_delete
       end
+      next if balls.empty?
       ball_consumed = []
       balls.each do |ball|
         pbDeleteItem(ball[0], ball[1])

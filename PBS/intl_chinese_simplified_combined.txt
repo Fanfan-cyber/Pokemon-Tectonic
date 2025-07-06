@@ -19649,7 +19649,7 @@ My old rival smiled. "This too shall pass."
 The battle strategies that all the Trainers here use are so complex.
 这里的训练师都会使用一些比较复杂的战术。
 Swap in! Swap out! Chip damage! Baiting moves!
-比如换人，持续伤害，保护类技能等等！
+比如换人，持续伤害，保护类效果等等！
 It makes my head dizzy...
 听得我头有点晕...
 I bet right every round, only to lose it all on the last round...
@@ -33419,8 +33419,8 @@ The user passes its held item to the target when the target isn't holding an ite
 当对手未携带物品时，能够将自己携带的物品交给对手。
 The user endures attacks for two turns, then strikes back to cause double the damage taken.
 在2回合内忍受攻击，受到的伤害会2倍返还给对手。
-The user blocks the target's way with arms spread wide to trap the target.
-The user blocks the target's way with arms spread wide to trap the target.
+The user blocks the target's way with arms splayed wide to trap the target.
+使用者张开双臂阻挡目标的去路，从而困住目标。
 The user drops onto the target with its full body weight. It has a 30% chance to numb.
 用整个身体压住对手进行攻击。30%概率让对手陷入麻痹状态。
 The user attacks everything around it with the destructive power of a terrible, explosive sound.
@@ -33580,7 +33580,7 @@ The user generates odd sound waves from its body. The target becomes dizzy.
 The user consumes its Stockpile to heal for 50% max HP per charge. This can overheal.
 使用者消耗储存的蓄力层数，每层恢复50%的最大HP。可以过量治疗。
 Star-shaped rays are shot at the opposing team. Can't miss and skips protections.
-发射星形的光攻击对手。攻击必定会命中，且无视保护类技能。
+发射星形的光攻击对手。攻击必定会命中，且无视保护类效果。
 A physical attack in which the user charges and slams into the target with its whole body.
 用整个身体撞向对手进行攻击。
 A full-body charge attack for slamming into the foe. The user also takes 25% recoil.
@@ -33602,7 +33602,7 @@ The user transforms into a copy of the target right down to having the same move
 The user strikes with a simultaneous three-beam attack. It has a 15% chance each to numb, burn, or frostbite.
 用3种光线进行攻击。15%概率让对手陷入麻痹、烧伤或冰冻的状态。
 The user unleashes its ultimate move. Can't miss and skips protections. Only one use per battle.
-释放自身的终极大招，且无视保护类技能，每场战斗只能使用1次。
+释放自身的终极大招，且无视保护类效果，每场战斗只能使用1次。
 The user attacks in an uproar, going on a rampage for two turns. Over that time, no one can fall asleep.
 使用者在一片喧嚣中发起攻击，陷入暴走状态两回合。在这段时间内，没有精灵能够睡眠。
 This attack inflicts double damage on a sleeping target. It also wakes the target up, however.
@@ -33688,7 +33688,7 @@ The user whirls its fists to send a wave of pure vacuum at the target. This move
 The user nimbly strikes the foe. Doubles in damage if the user has no item when the move starts.
 轻巧地攻击对手。自己没有携带物品时，会给予较大的伤害。
 The user confounds the foe with speed, then slashes. Can't miss and skips protections.
-以敏捷的动作戏弄对手后进行切斩。攻击必定会命中，且无视保护类技能。
+以敏捷的动作戏弄对手后进行切斩。攻击必定会命中，且无视保护类效果。
 A vortex of air is shot at the target to inflict damage. Can random critical hit.
 发射空气旋涡进行攻击。容易击中要害。
 The user attacks with a blade of air that slices even the sky. It has a 40% chance to flinch the target.
@@ -33839,7 +33839,7 @@ The user stabs the foe with sharpened stones from below.
 用尖尖的岩石刺入对手进行攻击。
 Pours sticky tar over the target, lowering its Speed by six steps and making it weak to Fire.
 泼洒黏糊糊的沥青，减少对手的速度6级，并增加火属性弱点。
-The user and its allies are protected from wide-ranging attacks for a turn. Always fails if used in succession.
+The user and its allies are protected from spread moves for a turn. Always fails if used in succession.
 在1回合内防住击打我方全员的攻击，连续使用则会失败。
 The user bites the target. If the target is holding a Berry, the user eats it and gains its effect.
 咬住进行攻击。当对手携带树果时，可以食用并获得其效果。
@@ -33976,7 +33976,7 @@ The target is hit with a hard punch fired like a meteor. It has a 10% chance to 
 The user rotates its gears, raising its Attack and Speed by two steps.
 使用者转动齿轮，增加物攻和速度2级。
 The user stabs the target with a sharp horn. Can't miss and skips protections.
-用尖角刺向对手。攻击必定会命中，且无视保护类技能。
+用尖角刺向对手。攻击必定会命中，且无视保护类效果。
 Fires a beam of steel that it collected from its entire body. The user loses half its current HP.
 将从全身聚集的钢铁化为光束，激烈地发射出去。自己也会受到伤害。
 The target is hit with wings of steel. It has a 30% chance to raise the user's Defense.
@@ -34144,7 +34144,7 @@ A storm of sharp leaves is whipped up. Lowers the user's Sp. Atk by four steps.
 A seed is planted on the target, causing it to become leeched.
 植入寄生种子后，让对手陷入寄生状态。
 The user scatters leaves that chase the target. Can't miss and skips protections.
-散落可以追踪对手的神奇叶片。攻击必定会命中，且无视保护类技能。
+散落可以追踪对手的神奇叶片。攻击必定会命中，且无视保护类效果。
 The user attacks by scattering petals in a rampage for two turns.
 使用者在狂暴状态下连续2回合用花瓣进行攻击。
 The user violently whirls its vines, tentacles, or the like to lash the target.
@@ -34200,7 +34200,7 @@ The user attacks everything around it. The user's HP is restored by 50% of the d
 The user attacks with electrically charged fists. Normal-type moves become Electric-type.
 用覆盖着电流的拳头进行攻击，使一般属性的技能变成电属性。
 The user strikes the target with a quick jolt of electricity. Can't miss and skips protections.
-向对手快速发出电击。攻击必定会命中，且无视保护类技能。
+向对手快速发出电击。攻击必定会命中，且无视保护类效果。
 The user throws an electrically charged tackle at the target. It has a 30% chance to numb.
 让电流覆盖全身，猛撞向对手进行攻击。有30%概率让对手陷入麻痹。
 Can't miss in rainstorm. It has a 30% chance to numb. Can hit targets flying high up.
@@ -34382,7 +34382,7 @@ The user slashes its shell blade, leaving a hazard layer of Spikes under the tar
 The user tells the target a secret, lowering its Sp. Atk by three steps. Always goes first.
 和对手进行密语，使其失去集中力，从而减少对手的特攻3级，且必定先手发动。
 The user crunches up the target with sharp fangs. It has a 20% chance to lower Defense.
-用利牙咬碎对手进行攻击。20%概率减少对手的防御。
+用利牙咬碎对手进行攻击。20%概率减少对手的物防。
 The user swings both arms and hits the target. Ignores the target's stat step changes.
 在不受到对手能力变化影响的情况下给予对手伤害。
 The user releases an aura imbued with dark thoughts. It has a 40% chance to flinch the target.
@@ -34390,9 +34390,9 @@ The user releases an aura imbued with dark thoughts. It has a 40% chance to flin
 The user feigns crying to worry the target, lowering its Sp. Def stat by four steps.
 装哭流泪。使对手不知所措，从而减少对手的特防4级。
 The user fakes the target out and stabs them with its disheveled hair. Can't miss and skips protections.
-装作低头认错的样子，用凌乱的头发进行突刺。攻击必定会命中，且无视保护类技能。
+装作低头认错的样子，用凌乱的头发进行突刺。攻击必定会命中，且无视保护类效果。
 The user draws up to the foe disarmingly, then throws a sucker punch. Can't miss and skips protections.
-悄悄地靠近对手，趁其不备进行殴打。攻击必定会命中，且无视保护类技能。
+悄悄地靠近对手，趁其不备进行殴打。攻击必定会命中，且无视保护类效果。
 The user transforms its wrath into a fire-like aura to attack. It has a 50% chance to make the target flinch.
 将愤怒转化为火焰般的气场进行攻击。50%的概率会使对手畏缩。
 The user throws its held item at the target. Some items deal more damage or have extra effects.
@@ -34403,8 +34403,8 @@ The user sharpens its claws to raise its Attack and Accuracy by three steps.
 使用者磨利爪子，增加物攻和命中率3级。
 The user howls loudly to raise its Attack by three steps, and its allies' by one.
 使用者大声嚎叫，自身的物攻增加3级，队友的物攻增加1级。
-Unleashes a barrage of multi-arm attacks, skipping and destroying protections. Always hits. Lowers the user's Defense by two steps.
-用许多手臂进行连续攻击，无视对手的保护类效果，必定命中，但是自己的物防会减少2级。
+Unleashes a barrage of many-armed attacks, skipping and destroying protections. Always hits. Lowers the user's Defense by two steps.
+用许多手臂进行连续攻击，无视并破坏对手的保护类效果，攻击必定会命中，但是自身的物防会减少2级。
 Prevents the user and target from switching out until either of them faints or is switched out.
 使双方直到一方濒死为止无法替换精灵。其中一方退场则可以解除效果。
 The user slaps the target to knock off their item.
@@ -34414,15 +34414,15 @@ If the user's stats were lowered during the turn, the power of this move is doub
 The user pins the target with a dark, arresting look. The target becomes trapped.
 The user pins the target with a dark, arresting look. The target becomes trapped.
 The user faints in order to lower the target's Attack and Sp. Atk by five steps.
-使用者濒死，使目标的物攻和特攻减少5级。
+使用者濒死，使目标的双攻减少5级。
 The user slashes the target the instant an opportunity arises. Can random critical hit.
-抓住瞬间的空隙切斩对手。容易击中要害。
+抓住瞬间的空隙切斩对手。能够随机击中要害。
 Protects the user from damage this turn. It also lowers the Defense of physical attackers by four steps.
-完全抵挡对手的攻击。一旦触碰，防御就会减少4级。
+完全抵挡对手的攻击。一旦触碰，物防就会减少4级。
 The user lowers the target's Attack and Sp. Atk by two steps. Then, the user switches out.
-使用者减少目标的物攻和特攻2级，然后进行替换。
+使用者减少目标的双攻2级，然后进行替换。
 If the user moves after the target, this attack's power will be doubled.
-蓄力攻击。如果能在对手之后攻击，技能的威力会变成2倍。
+蓄力攻击。如果能在对手之后攻击，技能的威力翻倍。
 The user attacks with a pillar of dark light. This ignores their ability.
 使用者用一束黑暗之光攻击。无视目标的能力等级变化。
 Inflicts double damage on a target that is switching out.
@@ -34462,7 +34462,7 @@ The user emits a powerful damaging flash. It has a 10% chance to lower Sp. Atk.
 The user decorates the target, raising their Attack and Sp. Atk by five steps.
 使用者装饰目标，增加其物攻和特攻5级。
 The user does emotional damage to foes. This attack never misses and skips protections.
-发出魅惑的叫声，给予对手精神上的伤害。攻击必定会命中，且无视保护类技能。
+发出魅惑的叫声，给予对手精神上的伤害。攻击必定会命中，且无视保护类效果。
 The user steals the target's HP with a kiss. The user's HP is restored by 75% of the damage dealt.
 用一个吻吸取对手的HP。回复给予对手伤害的75%的HP。
 By locking down the battlefield, the user traps all Pokémon during the next turn.
@@ -34567,7 +34567,7 @@ The user switches out to a party Pokémon in waiting. Always goes last.
 使用者替换为队伍中的一只精灵。总是最后行动。
 The user attacks the target with stored power. Has 10 more base power for each raised stat step.
 使用储存的力量攻击目标，每有1级能力值增加，基础威力增加10点。
-The user attacks by spreading its body wide. Its power doubles if Curl Up was used previously.
+The user attacks by splaying its body wide. Its power doubles if Curl Up was used previously.
 舒展身体进行攻击。如果之前使用了卷曲，则威力翻倍。
 The user brings down a ruinous power on the target. This has a 20% chance of lowering all the target's stats.
 向对手施加毁灭能量，伤害对手，20%概率减少对手全属性。
@@ -34805,8 +34805,8 @@ The user calls all rocks to join it, summoning sandstorm for five turns and layi
 呼唤所有的岩石围绕自己，引发5回合的沙暴，并在对手周围形成漂浮的岩石。
 The user drops a single piece of solid bedrock on the target, fracturing them.
 使用者向目标投掷一块坚固的基岩，使其破碎。
-The user and its allies are protected from wide-ranging attacks this turn, and enemies can only target the user. Fails if used in succession.
-本回合内，自己及其同伴受到广域攻击的效果不会生效，对手只能攻击自己，如果连续使用则会失效。
+The user and its allies are protected from spread moves this turn, and enemies can only target the user. Fails if used in succession.
+本回合内，自己及队友受到全体攻击的效果不会生效，对手只能攻击自己，如果连续使用则会失效。
 The user afflicts the target by turning their skin into stone. This has a 30% chance to fracture it.
 使用者将目标的皮肤变成石头，使其痛苦。有30%的概率使其破碎。
 The user slams itself into the target with absurd force, taking 50% recoil.
@@ -34824,7 +34824,7 @@ The user grinds stone into shrapnel and sprays it at the target. This has a 50% 
 The user slams the target with a rocky blade. Destroys screens, substitute, and protection on the target.
 使用岩石利刃猛击对方，破坏目标的各种保护类效果。
 The user thrums ominously, lowering the target's Attack and Sp. Atk.
-叩击石头发出不详之音，减少对手的攻击和特攻。
+叩击石头发出不详之音，让对手的双攻减少1级。
 The user carefully lobs a small stone at high speed.
 使用者小心地高速投掷一块小石头。
 A star falls on the target. Witnessing this lucky star also increases the user's critical hit chance.
@@ -34836,23 +34836,23 @@ The user emits a wave of green energy to strike near foes. Deals double damage t
 The user injects the target with an extremely painful bio-chemical. It has a 10% chance to poison.
 使用者向目标注入一种极其痛苦的生化物质。有10%的概率使对手中毒。
 The user makes the target have an allergic reaction. This reduces their Speed by three steps.
-让对手发生过敏反应，减少其速度3级。
+让对手发生过敏反应，使其速度减少3级。
 The user shoots out a quick flash of bioluminescence to damage the target. This move always goes first.
 使用者快速发射生物荧光攻击目标。必定能够先制攻击。
 The user crushes the target with a hardened carapace. It has a 30% chance to lower the target's Defense stat.
-使用者用坚硬的甲壳碾压目标。有30%的概率减少目标的物防。
+使用者用坚硬的甲壳碾压目标。有30%的概率使目标的物防减少1级。
 The user attacks with a horrible clattering noise. It has a 20% chance to lower Sp. Def.
-使用者用可怕的咔嗒声攻击。有20%的概率减少对手的特防。
+使用者用可怕的咔嗒声攻击。有20%的概率使对手的特防减少1级。
 The user preys on the target's fear of insects, giving it a weakness to the Bug type.
 利用对手对昆虫的恐惧，使其变得弱虫属性。
 The user vibrates its wings to make a damaging sound wave. It has a 30% chance to lower Sp. Def.
-使用者振动翅膀产生伤害性的声波。有30%的概率减少目标的特防。
+使用者振动翅膀产生伤害性的声波。有30%的概率使目标的特防减少1级。
 Venom is strategically introduced into the target, poisoning it.
 毒液被巧妙地引入对手体内，使其陷入中毒。
 The user consumes a bit of the target's blood. The user's HP is restored by 50% the damage dealt.
 吸取对手的血液，回复造成伤害的一半HP。
-The user spreads an aroma that raises the target's three weakest stats.
-The user spreads an aroma that raises the target's three weakest stats.
+The user emits an aroma that raises the target's three weakest stats.
+使用者释放出香气，使目标最低的3项能力增加1级。
 The user applies a painful chemical to the target with a smack. It has a 10% chance to poison.
 使用者用力拍打目标并涂抹一种痛苦的化学物质。有10%的概率使目标中毒。
 Small bugs swarm the target, causing it to become leeched.
@@ -34876,13 +34876,13 @@ The user bites, claws, and stings the target while rolling. It has a 20% chance 
 The target is plastered with irritating scales, damaging it and changing its type to Bug.
 身上覆盖刺激性鳞片，对其造成伤害，并将对方变为虫属性。
 The user sheds a huge volley of scales at the target. Lands without fail and lowers the user's Sp. Def and Speed.
-使用者向目标发射大量鳞片。必定命中并减少自身的特防和速度。
+使用者向目标发射大量鳞片。攻击必定会命中，但是自身的特防和速度会减少1级。
 If the user is faster than the target, puts the target to sleep, then minimizes the user's Speed stat.
 若自己的速度高于对手，则会使对手陷入睡眠状态，并最小化自己的速度。
 The user stabs through the target using tremendous force. Lowers the user's Attack by four steps.
 使用者以巨大的力量刺穿目标。使用者的物攻会减少4级。
 Avenging bugs everywhere, the user crushes the target. It has a 20% chance to lower their Defense stat.
-为无处不在的虫子复仇，20%概率减少对手的防御。
+为无处不在的虫子复仇，由20%概率使对手的物防减少1级。
 The user stabs the target, injecting a painful chemical. It has a 30% chance to poison.
 使用者用痛苦的化学物质刺向目标。有30%的概率使目标中毒。
 Halves attack damage taken this turn. Numbs any attackers. Fails if used successively.
@@ -34890,7 +34890,7 @@ Halves attack damage taken this turn. Numbs any attackers. Fails if used success
 The user sucks the target's life. The user's HP is restored by 50% the damage dealt.
 吸取对手的生命。回复造成伤害一半的HP。
 The user calls out its underlings to pummel the target. Skips and destroys protections.
-呼唤下属对目标进行猛烈攻击，且无视保护类技能。
+呼唤下属对目标进行猛烈攻击，且无视保护类效果。
 The user summons bugs to terrorize the target, trapping and damaging it for three turns.
 召唤虫子将对手包围起来，对方无法进行替换，且持续受到3回合伤害。
 The user amps itself up for performance, raising its Sp. Atk and Speed by two steps.
@@ -35308,7 +35308,7 @@ The user fires a dimensional mote, lowering the target's Sp. Def.
 The user meditates, raising both its Attack and Sp. Atk stats by four steps.
 使用者冥想，增加自身的物攻和特攻4级。
 The user skillfully attacks around the enemy's guard. Can't miss and skips protections.
-技巧娴熟，能够绕开对手防御。不会被回避，并无视保护类技能。
+技巧娴熟，能够绕开对手防御。不会被回避，并无视保护类效果。
 The user slows the target's mind with a psychically infused blow. This has a 30% chance to frostbite.
 将自身的精神力注入对方的大脑中，并模拟冰冻过程，30%概率使其冻伤。
 Splits off a section of the target's psyche. Disables their last used move for 5 turns.
@@ -35434,9 +35434,9 @@ Two turns after this move is used, extreme winter cold attacks the target.
 The user throws an exploding package at enemies, or one filled with healing treats at allies.
 向对手投掷爆炸包裹，或者向同伴投掷治疗包裹。
 The user sheds excess covering, raising Sp. Atk and Speed by three steps, but lowering Sp. Def by two steps.
-褪去羽毛，大幅度减少自己特防，但增加特攻和速度3级。
+褪去羽毛，大幅度减少自己特防，但特攻和速度增加3级。
 The user raises their Attack and Defense by two steps, and Speed by one step.
-有节奏地颤抖，大幅度增加自身的攻击、防御，同时增加自身的速度能力。
+有节奏地颤抖，自身的物攻、物防增加2级，速度增加1级。
 The user flips, flaps, fumbles, then flounders. It becomes more powerful the less HP the user has.
 进行闪转腾挪，使对方陷入困境，自身的HP越少，威力越大。
 The user makes the target to trip into a huge pile of snow, damaging them and summoning hail for eight turns.
@@ -35451,8 +35451,8 @@ Drains the heat from the target. The user's HP is restored by 50% the damage dea
 从对手处吸走热量进行攻击。回复造成伤害的50%HP。
 The user hunts with its allies. The more party Pokémon, the more damage. Can random critical hit.
 与同伴们一同狩猎，队伍中携带越多的精灵，则威力越高。容易击中要害。
-Invokes the aspects of multiple dragons, striking with a physical move and a special move.
-显现多条真龙的面貌，随机使用特定技能池中的1个物理和1个特殊技能。
+Invokes the aspects of many dragons, striking with a physical move and a special move.
+显现多条真龙的面貌，随机使用特定技能池中的1个物理类和1个特殊类技能。
 The user attacks fueled by ire. Deals double damage if it's a critical hit.
 以愤怒作为动力进行攻击，命中要害时可以造成双倍伤害。
 The user slashes the foe while menacing. During eclipse, the target also becomes burned.
@@ -35474,7 +35474,7 @@ The user shakes the target with a deep, rumbling roar. This attack does physical
 Protects the user from attacks. If an eclipse is active, extends it by one turn. Fails if used in succession.
 保护使用者免受攻击。如果处于日食状态，将其延长1回合。连续使用会失败。
 The user looms over the target with awful menace, lowering their highest stat by four steps.
-以可怕的龙威震慑对手，使其最佳能力减少4级。
+以可怕的龙威震慑对手，使其最高的一项能力减少4级。
 Attacks all near others with dragon energy. Power increases by 50% in eclipse.
 用龙之气息攻击所有附近的目标，在日食时威力增加50%。
 The user shreds through the opponent's defenses, ignoring positive stat changes and abilities.
@@ -40056,8 +40056,8 @@ Immune to non-volatile status conditions while it has its shell. Below half HP, 
 Immune to non-volatile status conditions while it has its shell. Below half HP, its shell breaks and it turns aggressive.
 Stat changes in the Pokémon are doubled.
 该精灵的能力等级变化翻倍。
-Maximizes the frequency of multi-strike moves.
-如果使用连续技能，总是能使出最高次数。
+Maximizes the frequency of multi-hit moves.
+连续类技能总是能使出最大次数。
 Halves Attack and Speed for 3 turns.
 在3回合内，物攻和速度减半。
 Doubles the Pokémon's Speed stat in a hail.
@@ -40500,8 +40500,8 @@ Random added effects of wind-based moves are +50% more likely to occur.
 风类技能的随机附加效果发生的概率增加50%。
 Boosts the power of wind-based moves by 50%.
 风类技能威力增加50%。
-Completely protects allies from foes' multi-target moves.
-保护同伴不受多目标技能的伤害。
+Completely protects allies from foes' spread moves.
+保护同伴不受对手的多目标类技能的伤害。
 Pokémon that swap in for this have their Speed raised and their PP fully restored.
 进入战斗时，创造一个持续10回合的保护罩，保护自身不受负面状态影响。
 Turns the held item of a Pokémon it hits into gold coins for you to take.
@@ -40784,8 +40784,8 @@ After fainting from exploding, revives after six turns.
 因自爆而濒死后，6回合后会苏醒。
 The Pokémon's hits deal half damage unless they are critical.
 如果没有命中要害，自身造成的伤害减半。
-Maximizes the frequency of multi-strike moves. Always deals critical hits.
-多重攻击始终打出最大次数，且必定击中要害。
+Maximizes the frequency of multi-hit moves. Always deals critical hits.
+连续类技能总是能使出最大次数，且必定击中要害。
 At the end of each of its turns, Speed is lowered but every other stat is raised.
 每个回合结束时，速度会减少，但其他所有能力都会增加。
 While the Pokémon is below half health, its attacks leech those hit.
@@ -40866,8 +40866,8 @@ Critical hits lower all of the victim's stats.
 击中要害时，减少其全能力。
 Immune to Dark-type and Bug-type moves.
 免疫恶属性和虫属性技能。
-Moves that hit multiple targets deal 25% more damage instead of 25% less.
-能够攻击多个目标的技能，不会减少而会增加25%的威力。
+Spread moves deal 25% more damage instead of 25% less.
+多目标类技能攻击多个目标时，技能威力不仅不会减少，反而会增加25%。
 When the Pokémon eats a Berry, it raises its Attack and Sp. Atk by two steps.
 精灵吃下树果时，增加物攻和特攻2级。
 Heals 1/8th of its max HP each turn during sandstorm.
