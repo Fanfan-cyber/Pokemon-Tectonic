@@ -474,27 +474,19 @@ MultipleForms.register(:ZAMAZENTA,{
     next 0
   },
   "onSetForm" => proc { |pkmn, form, oldForm|
-    form_moves = GameData::Species.get(:ZAMAZENTA).form_specific_moves
-    if form == 0
-      # Turned back into the base form; forget form-specific moves
-      move_index = -1
-      pkmn.moves.each_with_index do |move, i|
-        next if !form_moves.any? { |m| m == move.id }
-        move_index = i
-        break
+    case form
+    when 0   # Normal
+      pkmn.moves.each do |move|
+        if [:BEHEMOTHBASH].include?(move.id)
+          move.id = :IRONHEAD if GameData::Move.exists?(:IRONHEAD)
+        end
       end
-      if move_index >= 0
-        move_name = pkmn.moves[move_index].name
-        pkmn.forget_move_at_index(move_index)
-        pbMessage(_INTL("{1} forgot {2}...", pkmn.name, move_name))
-        pbLearnMove(:IRONHEAD) if pkmn.numMoves == 0
+    when 1   # Crowned
+      pkmn.moves.each do |move|
+        move.id = :BEHEMOTHBASH if move.id == :IRONHEAD && GameData::Move.exists?(:BEHEMOTHBASH)
       end
-    else
-      # Turned into an alternate form; try learning that form's unique move
-      new_move_id = form_moves[form]
-      pbLearnMove(pkmn, new_move_id, true)
     end
-  },
+  }
 })
 
 MultipleForms.register(:ZACIAN,{
@@ -503,27 +495,19 @@ MultipleForms.register(:ZACIAN,{
     next 0
   },
   "onSetForm" => proc { |pkmn, form, oldForm|
-    form_moves = GameData::Species.get(:ZACIAN).form_specific_moves
-    if form == 0
-      # Turned back into the base form; forget form-specific moves
-      move_index = -1
-      pkmn.moves.each_with_index do |move, i|
-        next if !form_moves.any? { |m| m == move.id }
-        move_index = i
-        break
+    case form
+    when 0   # Normal
+      pkmn.moves.each do |move|
+        if [:BEHEMOTHBLADE].include?(move.id)
+          move.id = :IRONHEAD if GameData::Move.exists?(:IRONHEAD)
+        end
       end
-      if move_index >= 0
-        move_name = pkmn.moves[move_index].name
-        pkmn.forget_move_at_index(move_index)
-        pbMessage(_INTL("{1} forgot {2}...", pkmn.name, move_name))
-        pbLearnMove(:IRONHEAD) if pkmn.numMoves == 0
+    when 1   # Crowned
+      pkmn.moves.each do |move|
+        move.id = :BEHEMOTHBLADE if move.id == :IRONHEAD && GameData::Move.exists?(:BEHEMOTHBLADE)
       end
-    else
-      # Turned into an alternate form; try learning that form's unique move
-      new_move_id = form_moves[form]
-      pbLearnMove(pkmn, new_move_id, true)
     end
-  },
+  }
 })
 
 MultipleForms.register(:PUMPKABOO, {

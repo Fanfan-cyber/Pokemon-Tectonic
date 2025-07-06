@@ -2325,14 +2325,14 @@ Name = Rusted Shield
 NamePlural = Rusted Shields
 Pocket = 5
 Price = 0
-Description = It is said that a hero used this shield to halt a terrible disaster in ancient times. But it's grown rusty and worn.
+Description = Used by a hero to halt a terrible disaster. If given to Zamazenta, turns it into its Crowned form.
 #-------------------------------
 [RUSTEDSWORD]
 Name = Rusted Sword
 NamePlural = Rusted Swords
 Pocket = 5
 Price = 0
-Description = It is said that a hero used this sword to halt a terrible disaster in ancient times. But it's grown rusty and worn.
+Description = Used by a hero to halt a terrible disaster. If given to Zacian, turns it into its Crowned form.
 #-------------------------------
 [REINSOFUNITY]
 Name = Reins of Unity

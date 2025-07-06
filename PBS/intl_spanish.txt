@@ -56680,7 +56680,7 @@ Dales 10 Malasadas Maxi.
 <<[>>Placeholder<<]>>.
 <<[>>Placeholder<<]>>.
 Peal of Thunder
-Estrueno dle Trueno
+Estrueno del Trueno
 Defeat what lurks behind the door.
 Derrota lo que acecha detrás de la puerta.
 Report back about your success.
@@ -57301,6 +57301,84 @@ Feminine
 Femenina
 Androgynous
 Andrógina
+\me[{1}]Quest discovered:
+\me[{1}]Misión descubierta:
+Quest failed:
+Misión fallida:
+\me[{1}]Quest completed:
+\me[{1}]Misión completada:
+\se[{1}]Quest updated:
+\se[{1}]Misión actualizada:
+{1} Quests
+{1} Misiones
+This former Team Chasm member has been feeling nostalgic. Show them a Bergmite, a Klink, a Dreepy, a Makyan Tangela, and an Elekid so they can reminisce about the old days.
+Esta antigua miembro Chasm se ha estado sintiendo nostálgica. Muéstrale un Bergmite, un Klink, un Dreepy, un Tangela de Makya y un Elekid así puede recordar los viejos tiempos.
+Player Survey
+Encuesta para Jugadores
+Lots
+Parcelas
+Export Current Team to Code
+Exportar Equipo a Código
+Create a shareable team code for the current party.
+Crea un código para compartir tu equipo actual.
+Pokémon team opened in team builder website.
+Equipo Pokémon abierto en el sitio web del teambuilder.
+This former Team Chasm member has been feeling nostalgic. Bring her a Bergmite, a Klink, a Dreepy, a Makyan Tangela, and an Elekid.
+Esta antigua miembro Chasm se ha estado sintiendo nostálgica. Muéstrale un Bergmite, un Klink, un Dreepy, un Tangela de Makya y un Elekid.
+View Party Online
+Ver Equipo Online
+A Clean Library
+Biblioteca Limpia
+Finally a library in this damned region, maybe there is some interesting information you can learn.
+Finalmente una biblioteca en esta maldita región, quizás hay algo interesante que puedes aprender.
+You ready to fly off?
+¿Listo para despegar?
+Climb onto Michi's back?
+¿Te subes a Michi?
+But it failed, since {1} can't raise its critical hit chance any further!
+¡Pero falló, ya que {1} no puede seguir aumentando su índice de golpe crítico!
+Excessive Force
+Fuerza Excesiva
+Explore the cave.
+Explora la cueva.
+Defend the legends.
+Defiende las leyendas.
+The suspicious but friendly scientist is asking for help, you've eavesdropped a bit (un)intentionally, but the whole story still alludes you. What is so important about a dumb cave in the desert?
+Un científico sospechoso pero amigable te está pidiendo ayuda, escuchaste algo (in)voluntariamente, pero la historia en sí te alude. ¿Qué tan importante puede ser una tonta cueva en el desierto?
+A Troubled Scientist
+Un Científico en Problemas
+Bluepoint Beach
+Playa Bluepoint 
+Luxtech Campus
+Campus LuxTech 
+This scientist keeps crossing your way. He keeps giving you interesting stuff, may as well continue finding him.
+Este científico no deja de cruzarte contigo. Sigue dándote cosas interesantes, así que te conviene seguir encontrándotelo. 
+Enter caption.
+Insertar texto.
+Find her after your 6th badge.
+Encuéntrala luego de tu sexta medalla.
+Find her after the tournament.
+Encuéntrala luego del torneo.
+Find her after your 7th badge.
+Encuéntrala luego de tu séptima medalla.
+Find him after your 7th badge.
+Encuéntralo luego de tu séptima medalla.
+Find him after the tournament.
+Encuéntralo luego del torneo.
+Find him after your 8th badge.
+Encuéntralo luego de tu octava medalla.
+Find her after your 8th badge.
+Encuéntrala luego de tu octava medalla.
+Luxtech Battle Labs
+Laboratorios Batalla LuxTech 
+Defeat the gauntlet.
+Vence el desafío.
+Luxtech Main
+LuxTech Principal
+You've been offered a gauntlet of scientists to try to get past. How difficult could these eggheads be anyways?
+Se te ha prestado la oportunidad de vencer a un montón de científicos. ¿Qué tan duros podrían ser estos cerebritos de todos modos? 
+Overview:
+Resumen:
 [26]
 [27]
 [27]

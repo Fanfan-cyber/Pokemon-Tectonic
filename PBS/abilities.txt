@@ -507,7 +507,7 @@ Description = Stat changes in the Pokémon are doubled.
 #-------------------------------
 [SKILLLINK]
 Name = Skill Link
-Description = Maximizes the frequency of multi-strike moves.
+Description = Maximizes the frequency of multi-hit moves.
 #-------------------------------
 [SLOWSTART]
 Name = Slow Start

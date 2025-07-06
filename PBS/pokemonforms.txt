@@ -805,6 +805,7 @@ FormName = Crowned
 Type1 = FAIRY
 Type2 = STEEL
 BaseStats = 90,170,115,150,80,115
+Moves = 1,BEHEMOTHBLADE
 Weight = 355.0
 Pokedex = Able to cut down anything with a single strike, it became known as the Fairy King's Sword, and it inspired awe in friend and foe alike.
 #-------------------------------
@@ -813,6 +814,7 @@ FormName = Crowned
 Type1 = FIGHTING
 Type2 = STEEL
 BaseStats = 90,130,145,130,80,145
+Moves = 1,BEHEMOTHBASH
 Weight = 785.0
 Pokedex = Now that it's equipped with its shield, it can shrug off impressive blows, including the attacks of Dynamax Pokémon.
 #-------------------------------

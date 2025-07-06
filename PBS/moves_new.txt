@@ -387,7 +387,7 @@ TotalPP = 25
 Target = NearOther
 FunctionCode = HitTwoToFiveTimes
 Flags = CanProtect
-Description = The target is hit two to five times in a row.
+Description = The target is multi-hit two to five times.
 #-------------------------------
 [NULLPULSE]
 Name = Null Pulse
@@ -528,7 +528,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = RoughAndTumble
 Flags = CanProtect
-Description = The user attacks by spreading its body wide. Its power doubles if Curl Up was used previously.
+Description = The user attacks by splaying its body wide. Its power doubles if Curl Up was used previously.
 Animation = BODYSLAM
 #-------------------------------
 [RUIN]
@@ -592,7 +592,7 @@ TotalPP = 15
 Target = AllNearFoes
 FunctionCode = HitTwoToFiveTimesAlwaysHits
 Flags = CanProtect
-Description = A barrage of two to five star-shaped rays are shot at the opposing team. Can't miss and skips protections.
+Description = A barrage of star-shaped rays are shot at the opposing team that mutli-hits two to five times. Can't miss and skips protections.
 Animation = SWIFT
 #-------------------------------
 [THIEVINGSPREE]
@@ -1120,7 +1120,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = HitTwoToFiveTimes
 Flags = CanProtect,CanRandomCrit
-Description = The target is jabbed repeatedly with a horn or beak two to five times in a row. Can random critical hit.
+Description = The target is jabbed repeatedly with a horn or beak that multi-hits two to five times. Can random critical hit.
 #-------------------------------
 [HOP]
 Name = Hop
@@ -1247,7 +1247,7 @@ Target = AllNearFoes
 FunctionCode = HitTwoToFiveTimes
 Flags = CanProtect,Wind
 EffectChance = 10
-Description = Wind rapidly spins the target in place to hit them two to five times.
+Description = Wind rapidly spins the target in place to multi-hit two to five times.
 Animation = GUST
 #-------------------------------
 #		POISON MOVES
@@ -2077,7 +2077,7 @@ Target = User
 Priority = 3
 FunctionCode = ProtectUserSideFromMultiTargetMovesRedirectAllMovesToUser
 Flags = CanSnatch
-Description = The user and its allies are protected from wide-ranging attacks this turn, and enemies can only target the user. Fails if used in succession.
+Description = The user and its allies are protected from spread moves this turn, and enemies can only target the user. Fails if used in succession.
 Animation = WIDEGUARD
 #-------------------------------
 [PETRIFY]
@@ -2383,7 +2383,7 @@ Accuracy = 0
 TotalPP = 12
 Target = NearAlly
 FunctionCode = RaiseTargetWorstThreeStats1
-Description = The user spreads an aroma that raises the target's three weakest stats.
+Description = The user emits an aroma that raises the target's three weakest stats.
 Animation = AROMATICMIST
 #-------------------------------
 [IRRITATE]
@@ -2924,7 +2924,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = HitTwoToFiveTimes
 Flags = CanProtect
-Description = The user summons two to five apparitions that dance around hypnotically before striking.
+Description = The user summons apparitions that dance around hypnotically before they multi-hit two to five times.
 Animation = WILLOWISP
 #-------------------------------
 [SHIVER]
@@ -3656,7 +3656,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = HitTwoToFiveTimes
 Flags = CanProtect
-Description = The user fires off two to five explosive rounds in a beautiful display.
+Description = The user fires off explosive rounds in a beautiful display that multi-hit two to five times.
 Animation = EMBER
 #-------------------------------
 [FLAMESPIKES]
@@ -4031,7 +4031,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = HitTwoToFiveTimes
 Flags = CanProtect
-Description = The user creates two to five giant bubbles to explode against the target.
+Description = The user creates numerous bubbles to explode against the target. Multi-hits two to five times.
 Animation = BUBBLE
 #-------------------------------
 [BUBBLEBARRIER]
@@ -5249,7 +5249,7 @@ Target = NearOther
 FunctionCode = HitTwoToFiveTimesNumb
 Flags = CanProtect
 EffectChance = 10
-Description = The target is hit with an electric current two to five times in quick succession. Has a 10% chance to numb.
+Description = The target is struck with an electric current and multi-hit two to five times. Has a 10% chance to numb.
 Animation = THUNDERSHOCK
 #-------------------------------
 [REPULSIONFIELD]
@@ -5479,7 +5479,7 @@ TotalPP = 10
 Target = User
 FunctionCode = SwapSpecialStats
 Flags = CanSnatch
-Description = The user employs psychic power to switch its base Sp. Atk with its base Sp. Def stat.
+Description = The user employs psychic power to switch its unmodified Sp. Atk with its unmodified Sp. Def.
 #-------------------------------
 [EXPLOIT]
 Name = Exploit
@@ -5756,7 +5756,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = HitTwoToFiveTimes
 Flags = CanProtect
-Description = The user sends two to five waves of cosmic energy to overwhelm the target's senses.
+Description = The user sends waves of cosmic energy to overwhelm the target's senses. Multi-hits two to five times.
 Animation = CONFUSION
 #-------------------------------
 [REVERBWARD]
@@ -6302,7 +6302,7 @@ Accuracy = 0
 TotalPP = 5
 Target = User
 FunctionCode = UseTwoRandomDragonThemedMoves
-Description = Invokes the aspects of multiple dragons, striking with a physical move and a special move.
+Description = Invokes the aspects of many dragons, striking with a physical move and a special move.
 #-------------------------------
 [AXETOGRIND]
 Name = Axe to Grind
@@ -6481,7 +6481,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = HitTwoToFiveTimesAddMoneyGainedFromBattleEachHit
 Flags = CanProtect
-Description = The user makes an offering, then attacks two to five times. Money is earned for each hit.
+Description = The user makes an offering, then multi-hits two to five times. Money is earned for each hit.
 Animation = PAYDAY
 #-------------------------------
 [SCALEGLINT]
@@ -7557,7 +7557,7 @@ Accuracy = 0
 TotalPP = 10
 Target = BothSides
 FunctionCode = StartSwapAttackingStats8
-Description = The user creates a puzzling area for eight turns in which Pokémon's base Attack and Sp. Atk are swapped.
+Description = The user creates a puzzling area for eight turns in which Pokémon's unmodified Attack and Sp. Atk are swapped.
 Animation = MAGICROOM
 #-------------------------------
 [SUGARBALL]

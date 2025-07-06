@@ -175,7 +175,7 @@ class QuestList_Scene
   def pbRefreshMainScreen
     @sprites["overlay1"].bitmap.clear
     pbDrawTextPositions(@sprites["overlay1"].bitmap,[
-      [_INTL("{1} Quests", @quests_text[@quest_list_type]),6,-2,0,Color.new(248,248,248),Color.new(0,0,0),true]
+      [_INTL(@quests_text[@quest_list_type]),6,-2,0,Color.new(248,248,248),Color.new(0,0,0),true]
     ])
     @sprites["itemlist"].refresh
   end

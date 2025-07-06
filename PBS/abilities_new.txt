@@ -777,7 +777,7 @@ Description = Boosts the power of wind-based moves by 50%.
 #-------------------------------
 [GARGANTUAN]
 Name = Gargantuan
-Description = Completely protects allies from foes' multi-target moves.
+Description = Completely protects allies from foes' spread moves.
 #-------------------------------
 [GAUSSAFTERSHOCK]
 Name = Gauss Aftershock
@@ -1341,7 +1341,7 @@ Description = After knocking out any Pokémon, raises its Sp. Atk and Speed.
 #-------------------------------
 [OVERFLOWINGHEART]
 Name = Overflowing Heart
-Description = Copies the base stats of the Pokémon it switches in to replace.
+Description = Copies the unmodified stats of the Pokémon it switches in to replace.
 #-------------------------------
 [OVERTHINKING]
 Name = Overthinking
@@ -1388,7 +1388,7 @@ Description = The Pokémon's hits deal half damage unless they are critical.
 #-------------------------------
 [PERFECTLUCK]
 Name = Perfect Luck
-Description = Maximizes the frequency of multi-strike moves. Always deals critical hits.
+Description = Maximizes the frequency of multi-hit moves. Always deals critical hits.
 #-------------------------------
 [PERSISTENTGROWTH]
 Name = Persistent Growth
@@ -1478,7 +1478,7 @@ Description = The Pokémon's Dragon-type hits deal additional damage equal to ha
 #-------------------------------
 [PUZZLING]
 Name = Puzzling
-Description = Upon entry, creates a Puzzle Room for four turns, swapping base Attack and Sp. Atk.
+Description = Upon entry, creates a Puzzle Room for four turns, swapping unmodified Attack and Sp. Atk.
 #-------------------------------
 [QUARRELSOME]
 Name = Quarrelsome
@@ -1558,7 +1558,7 @@ Description = Immune to Dark-type and Bug-type moves.
 #-------------------------------
 [RESONANT]
 Name = Resonant
-Description = Moves that hit multiple targets deal 25% more damage instead of 25% less.
+Description = Spread moves deal 25% more damage instead of 25% less.
 #-------------------------------
 [ROAST]
 Name = Roast
