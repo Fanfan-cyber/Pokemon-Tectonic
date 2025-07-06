@@ -222,7 +222,7 @@ def getFlinchingEffectScore(baseScore, user, target, move)
     score = baseScore
     score *= 2.0 if user.hasAlly?
 
-    score /= 2.0 if user.battle.moonGlowing? && target.flinchedByMoonglow?(true)
+    #score /= 2.0 if user.battle.moonGlowing? && target.flinchedByMoonglow?(true)
 
     return score
 end

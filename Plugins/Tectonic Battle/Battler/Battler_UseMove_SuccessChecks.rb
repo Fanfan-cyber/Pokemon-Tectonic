@@ -282,12 +282,12 @@ GameData::Move.get(@effects[:GorillaTactics]).name)
         # Flinching
         if effectActive?(:Flinch)
             if aiCheck
-                unless effectActive?(:FlinchImmunity)
+                if !effectActive?(:FlinchImmunity) || tracker_get(:flinched_by_moonglow)
                     echoln("\t\t[AI FAILURE CHECK] #{pbThis} rejects the move #{move.id} due to it being predicted to flinch (Moonglow?)")
                     return false
                 end
             else
-                if effectActive?(:FlinchImmunity)
+                if effectActive?(:FlinchImmunity) && !tracker_get(:flinched_by_moonglow)
                     @battle.pbDisplay(_INTL("{1} would have flinched, but it's immune now!", pbThis))
                     disableEffect(:Flinch)
                 elsif hasTribeBonus?(:TYRANNICAL) && !pbOwnSide.effectActive?(:TyrannicalImmunity)
@@ -303,7 +303,11 @@ GameData::Move.get(@effects[:GorillaTactics]).name)
                         BattleHandlers.triggerAbilityOnFlinch(ability, self, @battle)
                     end
                     onMoveFailed(move)
-                    applyEffect(:FlinchImmunity,4) unless TA.get(:disable_flinch_immunity)
+                    if tracker_get(:flinched_by_moonglow)
+                        tracker_set(:flinched_by_moonglow, false)
+                    self
+                        applyEffect(:FlinchImmunity,4)
+                    end
                     return false
                 end
             end

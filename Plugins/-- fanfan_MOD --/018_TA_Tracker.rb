@@ -34,8 +34,9 @@ end
 
 class PokeBattle_BattlerTracker
   def initialize
-    @forced_engagement = nil # used for Forced Engagement
-    @step_counter      = {}  # used to count stat step remaining turns
+    @forced_engagement    = nil   # used for Forced Engagement
+    @step_counter         = {}    # used to count Stat Steps remaining turns
+    @flinched_by_moonglow = false # used for Moonglow Flinch effect
   end
 end
 

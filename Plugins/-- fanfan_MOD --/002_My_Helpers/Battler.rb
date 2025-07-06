@@ -26,7 +26,7 @@ class PokeBattle_Battler
   end
 
   def bigger_side?
-    idxOwnSide == bigger_side
+    idxOwnSide == @battle.bigger_side
   end
 
   def owner_party_fainted_count

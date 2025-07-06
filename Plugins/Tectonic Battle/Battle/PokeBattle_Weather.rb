@@ -281,9 +281,8 @@ class PokeBattle_Battle
                     next if b.fainted?
                     next unless b.flinchedByMoonglow?
                     pbDisplay(_INTL("{1} is moonstruck! It'll flinch this turn!", b.pbThis))
-                    TA.set(:disable_flinch_immunity, true)
                     b.pbFlinch
-                    TA.set(:disable_flinch_immunity, false)
+                    b.tracker_set(:flinched_by_moonglow, true)
                     if primevalVariant
                         b.applyFractionalDamage(1.0/4.0)
                         pbDisplay(_INTL("{1} is afflicted by the nightmarish moon!", b.pbThis))

@@ -509,7 +509,7 @@ class PokeBattle_Move
 
         # Bigger Side Punishment
         if user.bigger_side?
-            punish_amount = [party_size_diff.abs * Settings::BIGGER_SIDE_PUNISHMENT, 99].min
+            punish_amount = [@battle.party_size_diff.abs * Settings::BIGGER_SIDE_PUNISHMENT, 99].min
             multipliers[:base_damage_multiplier] *= (1.0 - punish_amount * 0.01)
         end
 

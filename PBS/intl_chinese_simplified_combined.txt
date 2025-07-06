@@ -38428,7 +38428,7 @@ Air Lock
 Analytic
 分析
 As One
-人马合一
+人马一体
 Aura Break
 气场破坏
 Bad Dreams
@@ -40841,7 +40841,7 @@ Powers up Fairy-type moves by 50% in rainstorm.
 Ignores screens, Substitute, and Abilities that would affect its moves.
 无视对手的屏障、替身以及会影响到自身技能的特性。
 Moves that can flinch are 50% more likely. Deals 50% more damage to Pokémon with flinch immunity.
-使目标畏缩的技能发动畏缩效果的概率增加50%。对免疫畏缩效果的精灵造成伤害增加50%。
+使目标畏缩的技能发动畏缩效果的概率增加50%。对处于畏缩免疫效果的精灵造成的伤害增加50%。
 Boosts the power of blade moves by 30%. They're twice as likely to crit.
 切割类技能威力增加30%，命中要害率翻倍。
 Takes half damage from Dragon-, Fairy-, and Ghost-type attacks.
@@ -41205,7 +41205,7 @@ The targets cannot avoid facing the attack by the Pokémon.
 Changes to a random Pokémon at the end of each turn.
 在每个回合结束时，随机变为一只精灵。
 Can switch out of battle without wasting a turn.
-可以和队伍里的其他精灵进行替换，替换的上场的精灵依然可以使用技能。
+可以和队伍里的其他精灵进行替换，替换上场的精灵依然可以使用行动。
 Turns rainstorm into Harsh Sunlight, sunshine into Heavy Rain.
 将雨天改为大晴天，将晴天改为大雨天。
 Stats that the Pokémon raises remain raised even after switching.
@@ -41213,7 +41213,7 @@ Stats that the Pokémon raises remain raised even after switching.
 The user adds the type of whatever dance move they use.
 使用舞蹈类技能时，变成该技能的属性。
 Immune to Bug-type moves and raises Speed if hit by one.
-对虫属性技能免疫，被虫属性技能攻击时，增加速度1级。
+对虫属性技能免疫，被虫属性技能攻击时，速度增加1级。
 Once per switch-in, Charges in sandstorm, doubling the power of its next Electric-type move.
 使用技能后，如果天气为沙暴，会立刻使自身进入充电状态。（每次出场只会发动一次）
 This ability exists just to showcase the PBS Extensions system.
