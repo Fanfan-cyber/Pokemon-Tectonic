@@ -131,7 +131,6 @@ class PokemonBag
         balls << [ball[0], to_delete]
         amount -= to_delete
       end
-      next if balls.empty?
       ball_consumed = []
       balls.each do |ball|
         pbDeleteItem(ball[0], ball[1])

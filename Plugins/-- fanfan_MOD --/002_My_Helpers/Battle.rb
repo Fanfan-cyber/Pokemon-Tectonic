@@ -32,7 +32,7 @@ class PokeBattle_Battle
       if party_size_diff > 0
         @bigger_side = 0
       elsif party_size_diff < 0
-        @bigger_side = 1 if 
+        @bigger_side = 1
       else
         @bigger_side = 2
       end
