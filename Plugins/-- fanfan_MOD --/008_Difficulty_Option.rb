@@ -29,11 +29,18 @@ Events.onTrainerPartyLoad += proc { |_sender, e|
   higher_level = [$Trainer.party_highest_level, trainer.party_highest_level].max
   punish_level = TA.get(:kill_count, 0) - Settings::KILL_PUNNISHMENT
   trainer.party.each do |pkmn|
-    if pkmn.level < MAX_LEVEL_CAP
-      pkmn.level = higher_level
+    if pkmn.level < higher_level
+      pkmn.level = higher_level # level
       if pkmn.level < MAX_LEVEL_CAP && punish_level > 0
         punish_increment = [punish_level, MAX_LEVEL_CAP - pkmn.level].min
         pkmn.level += punish_increment
+      end
+      species_data = pkmn.species_data # evo
+      evo = species_data.get_evolutions(true)
+      unless evo.empty?
+        evo_species = evo.sample[0]
+        evo_species_data = GameData::Species.get(evo_species)
+        pkmn.species = evo_species if evo_species_data.available_by?(pkmn.level)
       end
     end
     pkmn.calc_stats

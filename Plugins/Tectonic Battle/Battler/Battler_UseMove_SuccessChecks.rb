@@ -305,7 +305,7 @@ GameData::Move.get(@effects[:GorillaTactics]).name)
                     onMoveFailed(move)
                     if tracker_get(:flinched_by_moonglow)
                         tracker_set(:flinched_by_moonglow, false)
-                    self
+                    else
                         applyEffect(:FlinchImmunity,4)
                     end
                     return false

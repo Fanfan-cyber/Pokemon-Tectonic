@@ -16,11 +16,15 @@ class PokeBattle_Battle
   end
 
   def opposing_party_size
-    @opposing_party_size ||= ((@opponent&.sum { |trainer| trainer.party.size }) / (@opponent&.size.to_f) || 0)
+    if trainerBattle?
+      @opposing_party_size ||= @party2.size / @opponent.size.to_f
+    else
+      @opposing_party_size ||= @party2.size
+    end
   end
 
   def player_party_size
-    @player_party_size ||= ((@player&.sum { |trainer| trainer.party.size }) / (@opponent&.size.to_f) || 0)
+    @player_party_size ||= @party1.size / @player.size.to_f
   end
 
   def party_size_diff

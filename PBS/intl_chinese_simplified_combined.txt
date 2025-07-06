@@ -41051,9 +41051,9 @@ It avoids hazards and can't be knocked out with one hit.
 The Pokémon's Speed is doubled while using kicking moves.
 使用踢类技能时，该精灵的速度翻倍。
 Boosts the power of blade moves by 30%.
-使用切割类技能时威力增加。
+使用切割类技能时威力增加30%。
 During hail, boosts Speed and Grass-type damage by 50%.
-冰雹天气时，增加50%的速度和草属性伤害。
+冰雹天气时，速度和草属性伤害增加50%。
 Draws in attacks from enemies with below half health.
 吸引生命值低于一半的对手的攻击。
 Deals 25% more move damage for each ally in battle.
