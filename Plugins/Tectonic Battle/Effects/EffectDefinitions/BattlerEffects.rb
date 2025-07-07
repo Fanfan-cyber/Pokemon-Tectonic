@@ -1294,12 +1294,12 @@ GameData::BattleEffect.register_effect(:Battler, {
             fraction = trappingDamageFraction(battler)
             battle.pbDisplay(_INTL("{1} is hurt by {2}!", battler.pbThis, moveName))
             damage = battler.applyFractionalDamage(fraction)
-            point_battler = battler.getBattlerPointsTo(:TrappingUser)
+            point_battler_index = battler.getBattlerPointsTo(:TrappingUser).index
 
             battler.eachOpposing do |opp|
                 next unless opp.hasActiveAbility?(:BOTTOMFEEDER)
                 #next unless battler.pointsAt?(:TrappingUser, opp)
-                next unless point_battler.index == opp.index
+                next unless point_battler_index == opp.index
                 opp.showMyAbilitySplash(:BOTTOMFEEDER)
                 opp.pbRecoverHPFromDrain(damage, battler)
                 opp.hideMyAbilitySplash

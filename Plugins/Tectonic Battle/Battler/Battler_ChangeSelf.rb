@@ -196,7 +196,7 @@ class PokeBattle_Battler
     end
 
     def pbRecoverHPFromDrain(drainAmount, target, canOverheal: false)
-        if target.hasActiveAbility?(:LIQUIDOOZE)
+        if target&.hasActiveAbility?(:LIQUIDOOZE)
             @battle.pbShowAbilitySplash(target, :LIQUIDOOZE)
             oldHP = @hp
             pbReduceHP(drainAmount)
