@@ -2179,18 +2179,6 @@ FunctionCode = HitTwoTimes
 Flags = CanProtect
 Description = The user throws the bone it holds. The bone loops to hit the target twice, coming and going.
 #-------------------------------
-[BONERUSH]
-Name = Bone Rush
-Type = GROUND
-Category = Physical
-Power = 25
-Accuracy = 100
-TotalPP = 15
-Target = NearOther
-FunctionCode = HitTwoToFiveTimes
-Flags = CanProtect
-Description = The user multi-hits two to five times with a hard bone.
-#-------------------------------
 [BULLDOZE]
 Name = Bulldoze
 Type = GROUND

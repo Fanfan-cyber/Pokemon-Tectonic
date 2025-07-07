@@ -1298,6 +1298,18 @@ Flags = CanProtect
 EffectChance = 50
 Description = The user clubs the target with a bone. It has a 50% chance to make the target flinch.
 #-------------------------------
+[BONERUSH]
+Name = Bone Rush
+Type = GROUND
+Category = Physical
+Power = 25
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = Invalid
+Flags = CanProtect
+Description = The user multi-hits two to five times with a hard bone.
+#-------------------------------
 [DUSTFORCE]
 Name = Dust Force
 Type = GROUND

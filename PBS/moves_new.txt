@@ -592,7 +592,7 @@ TotalPP = 15
 Target = AllNearFoes
 FunctionCode = HitTwoToFiveTimesAlwaysHits
 Flags = CanProtect
-Description = A barrage of star-shaped rays are shot at the opposing team that mutli-hits two to five times. Can't miss and skips protections.
+Description = A barrage of star-shaped rays are shot at the opposing team that multi-hits two to five times. Can't miss and skips protections.
 Animation = SWIFT
 #-------------------------------
 [THIEVINGSPREE]
@@ -5664,7 +5664,7 @@ TotalPP = 10
 Target = ClosestNearFoe
 FunctionCode = Rampage3HitTwoToFiveTimes
 Flags = CanProtect
-Description = Unveiling its ears, the released psychic power causes the user to rampage 2 to 5 times each for two turns.
+Description = Unveiling its ears, the released psychic power causes the user to rampage and multi-hit 2 to 5 times for two turns.
 Animation = FURYSWIPES
 #-------------------------------
 [PENUMBRA]
