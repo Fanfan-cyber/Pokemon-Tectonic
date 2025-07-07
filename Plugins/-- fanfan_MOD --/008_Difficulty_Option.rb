@@ -35,12 +35,19 @@ Events.onTrainerPartyLoad += proc { |_sender, e|
         punish_increment = [punish_level, MAX_LEVEL_CAP - pkmn.level].min
         pkmn.level += punish_increment
       end
-      species_data = pkmn.species_data # evo
-      evo = species_data.get_evolutions(true)
-      unless evo.empty?
-        evo_species = evo.sample[0]
-        evo_species_data = GameData::Species.get(evo_species)
-        pkmn.species = evo_species if evo_species_data.available_by?(pkmn.level)
+      loop do
+        species_data = pkmn.species_data # evo
+        possible_evolutions = species_data.get_evolutions(true)
+        break if possible_evolutions.empty?
+        valid_evolutions = []
+        possible_evolutions.each do |evo|
+          evo_species = evo[0]
+          evo_species_data = GameData::Species.get(evo_species)
+          valid_evolutions << evo if evo_species_data.available_by?(pkmn.level)
+        end
+        break if valid_evolutions.empty?
+        evo_species = valid_evolutions.sample[0]
+        pkmn.species = evo_species
       end
     end
     pkmn.calc_stats
