@@ -294,16 +294,17 @@ class PokeBattle_Battle
             new_index = pbLastInTeam(idxBattler)
             newPkmnName = party[new_index].name if new_index >= 0 && new_index != idxParty
         end
+        title = party[idxParty].display_title
         if pbOwnedByPlayer?(idxBattler)
             opposing = @battlers[idxBattler].pbDirectOpposing
             if opposing.fainted? || opposing.hp == opposing.totalhp
-                pbDisplayBrief(_INTL("You're in charge, {1}!", newPkmnName))
+                pbDisplayBrief(_INTL("You're in charge, {1}{2}!", newPkmnName, title))
             elsif opposing.hp >= opposing.totalhp / 2
-                pbDisplayBrief(_INTL("Go for it, {1}!", newPkmnName))
+                pbDisplayBrief(_INTL("Go for it, {1}{2}!", newPkmnName, title))
             elsif opposing.hp >= opposing.totalhp / 4
-                pbDisplayBrief(_INTL("Just a little more! Hang in there, {1}!", newPkmnName))
+                pbDisplayBrief(_INTL("Just a little more! Hang in there, {1}{2}!", newPkmnName, title))
             else
-                pbDisplayBrief(_INTL("Your opponent's weak! Get 'em, {1}!", newPkmnName))
+                pbDisplayBrief(_INTL("Your opponent's weak! Get 'em, {1}{2}!", newPkmnName, title))
             end
         else
             owner = pbGetOwnerFromBattlerIndex(idxBattler)

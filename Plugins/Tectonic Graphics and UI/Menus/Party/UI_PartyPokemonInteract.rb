@@ -241,6 +241,7 @@ existingIndex)
         cmdSetGender  = -1
         cmdExtraMoves = -1
         cmdDeleteMove = -1
+        cmdSetTitle   = -1
         cmdSetTrait   = -1
 
         newspecies = @pkmn.check_evolution_on_level_up(false)
@@ -255,6 +256,7 @@ existingIndex)
         commands[cmdSetHP = commands.length]        = _INTL("Set HP")
         commands[cmdSetStatus = commands.length]    = _INTL("Set Status")
         commands[cmdStyle = commands.length]        = _INTL("Set Style") if pbHasItem?(:STYLINGKIT)
+        commands[cmdSetTitle = commands.length]     = _INTL("Set Title")
         commands[cmdSetTrait = commands.length]     = _INTL("Set Trait") if @pkmn.happiness >= Pokemon::PERSONALITY_THRESHOLD_ONE
         commands[cmdSwapPokeBall = commands.length] = _INTL("Swap Ball")
         commands[commands.length]                   = _INTL("Cancel")
@@ -367,7 +369,10 @@ existingIndex)
                 evo.pbEndScreen
                 @partyScene.pbRefresh
             end
-            return true
+            return true  
+        elsif cmdSetTitle >= 0 && modifyCommand == cmdSetTitle
+            title = pbEnterText(_INTL("Enter a new Title."), 0, 32)
+            @pkmn.title= title if title && !title.empty?
         elsif cmdSetTrait >= 0 && modifyCommand == cmdSetTrait
             names = []
             names << _INTL("Trait 1")

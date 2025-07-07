@@ -239,12 +239,12 @@ class PokeBattle_Battle
                 sent = sendOuts[side][0]
                 case sent.length
                 when 1
-                    msg += _INTL("Go! {1}!", @battlers[sent[0]].name)
+                    msg += _INTL("Go! {1}{2}!", @battlers[sent[0]].name, @battlers[sent[0]].pokemon.display_title)
                 when 2
-                    msg += _INTL("Go! {1} and {2}!", @battlers[sent[0]].name, @battlers[sent[1]].name)
+                    msg += _INTL("Go! {1}{3} and {2}{4}!", @battlers[sent[0]].name, @battlers[sent[1]].name, @battlers[sent[0]].pokemon.display_title, @battlers[sent[1]].pokemon.display_title)
                 when 3
-                    msg += _INTL("Go! {1}, {2} and {3}!", @battlers[sent[0]].name,
-                       @battlers[sent[1]].name, @battlers[sent[2]].name)
+                    msg += _INTL("Go! {1}{4}, {2}{5} and {3}{6}!", @battlers[sent[0]].name,
+                       @battlers[sent[1]].name, @battlers[sent[2]].name, @battlers[sent[0]].pokemon.display_title, @battlers[sent[1]].pokemon.display_title, @battlers[sent[2]].pokemon.display_title)
                 end
                 toSendOut.concat(sent)
             end

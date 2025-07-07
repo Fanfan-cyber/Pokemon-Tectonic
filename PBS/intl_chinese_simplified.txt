@@ -48991,12 +48991,12 @@ The {1} joined the battle!
 {1}和{2}加入了战局！
 {1}, {2} and {3} joined the battle!
 {1}、{2}和{3}加入了战局！
-Go! {1}!
-去吧，{1}！
-Go! {1} and {2}!
-去吧，{1}和{2}！
-Go! {1}, {2} and {3}!
-去吧，{1}、{2}和{3}！
+Go! {1}{2}!
+去吧，{1}{2}！
+Go! {1}{3} and {2}{4}!
+去吧，{1}{3}和{2}{4}！
+Go! {1}{4}, {2}{5} and {3}{6}!
+去吧，{1}{4}、{2}{5}和{3}{6}！
 \wmA major error has occured! Please screen-shot the following error message and share it in our bug channel.
 \wm发生了一个重大错误！请截取以下错误消息的屏幕截图，并发送给芳芳。
 \wmRather than crashing, we will give the victory to you.
@@ -49312,7 +49312,7 @@ You can't escape!
 An Egg can't battle!
 蛋不能战斗！
 You can't switch {1}'s Pokémon with one of yours!
-你不能把{1}的精灵变成你的！
+你不能替换{1}的精灵！
 {1} is too afraid to battle!
 {1}太害怕战斗了！
 {1} refuses to join the battle. It's a pacifist!
@@ -49349,14 +49349,22 @@ The {1} withdrew!
 {1}，回来吧！
 {1} withdrew {2}!
 {1}，收回了{2}！
-You're in charge, {1}!
-交给你了，{1}！
-Go for it, {1}!
-去吧，{1}！
-Just a little more! Hang in there, {1}!
-就差一点了，坚持住，{1}！
-Your opponent's weak! Get 'em, {1}!
-对方很虚弱了，上吧，{1}！
+You're in charge, {1}{2}!
+交给你了，{1}{2}！
+Go for it, {1}{2}!
+去吧，{1}{2}！
+Just a little more! Hang in there, {1}{2}!
+就差一点了，坚持住，{1}{2}！
+Your opponent's weak! Get 'em, {1}{2}!
+对方很虚弱了，上吧，{1}{2}！
+<c3=F83820,E09890> [{1}]<c3=404040,B0B0B0>
+<c3=F83820,E09890>[{1}]<c3=404040,B0B0B0>
+<c3=F83820,E09890>Title:<c3=404040,B0B0B0> <c3=404040{2},B0B0B0>{1}
+<c3=F83820,E09890>称号:<c3=404040,B0B0B0> <c3=404040{2},B0B0B0>{1}
+Enter a new Title.
+输入一个新的称号。
+Set Title
+设置称号
 The {1} entered the battle!
 {1}进入了战斗！
 {1} jumps onto the pointed stones!

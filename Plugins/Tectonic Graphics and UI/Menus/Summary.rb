@@ -702,6 +702,7 @@ class PokemonSummary_Scene
             memo += "\n"
             memo += _INTL("<c3=F8F8F8{2},686868>{1}", @pokemon.displayTrait3, @pokemon.trait3 ? "FF" : "77")
             memo += "\n"
+            memo += _INTL("<c3=E09890,F83820>Title:<c3=F8F8F8,686868> <c3=F8F8F8{2},686868>{1}", @pokemon.display_title_summary, @pokemon.has_title? ? "FF" : "77")
             memo += "\n"
             memo += _INTL("<c3=E09890,F83820>Likes:<c3=F8F8F8,686868>")
             memo += "\n"
@@ -720,6 +721,7 @@ class PokemonSummary_Scene
             memo += "\n"
             memo += _INTL("<c3=404040{2},B0B0B0>{1}", @pokemon.displayTrait3, @pokemon.trait3 ? "FF" : "77")
             memo += "\n"
+            memo += _INTL("<c3=F83820,E09890>Title:<c3=404040,B0B0B0> <c3=404040{2},B0B0B0>{1}", @pokemon.display_title_summary, @pokemon.has_title? ? "FF" : "77")
             memo += "\n"
             memo += _INTL("<c3=F83820,E09890>Likes:<c3=404040,B0B0B0>")
             memo += "\n"
