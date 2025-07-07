@@ -1128,6 +1128,26 @@ class Pokemon
     # Other
     #=============================================================================
 
+    def title
+        @title ||= ""
+    end
+
+    def title=(value)
+        @title = value
+    end
+
+    def has_title?
+        !title.empty?
+    end
+
+    def display_title
+        has_title? ? _INTL("<c3=F83820,E09890> [{1}]<c3=404040,B0B0B0>", title) : ""
+    end
+
+    def display_title_summary
+        has_title? ? title : _INTL("None")
+    end
+
     # @return [String] the name of this Pokémon
     def name
         return nicknamed? ? @name : speciesName
