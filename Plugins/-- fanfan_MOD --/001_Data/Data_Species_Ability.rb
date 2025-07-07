@@ -46,6 +46,8 @@ SPECIES_ABILITY_DATA = {
   [:SALANDIT, 0]   => { :fixed => %i[], :changeable => %i[BACKFIRE DOMINEERING], },
   [:SALAZZLE, 0]   => { :fixed => %i[], :changeable => %i[BACKFIRE DOMINEERING], },
 
+  [:SHEDINJA, 0]   => { :fixed => %i[], :changeable => %i[LASTGASP LASTLIGHT], },
+
   [:WEEDLE, 0]     => { :fixed => %i[], :changeable => %i[SHIELDDUST MULTISCALE], },
   [:KAKUNA, 0]     => { :fixed => %i[], :changeable => %i[SHIELDDUST MULTISCALE], },
 

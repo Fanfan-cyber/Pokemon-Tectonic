@@ -59,6 +59,22 @@ class AbilitySystem
   end
 end
 
+class Ability_LASTLIGHT < AbilitySystem
+  OFF_MULT = { :DamageCalcUserAbility => { :base_damage_multiplier => 1.0, }, }
+  DAMAGE_IN_LAST_GASP = 0.2
+
+  DamageCalcUserAbility =
+    proc { |handler, _ability, battle, user, _target, _move, mults, _baseDmg, _type, _aiCheck|
+      OFF_MULT[handler][:base_damage_multiplier] = 1.0 + DAMAGE_IN_LAST_GASP * user.tracker_get(:damage_in_last_gasp)
+      AbilitySystem.calc_mults(OFF_MULT, handler, mults, battle)
+    }
+
+  def initialize(id)
+    super
+    @ability_handler[:DamageCalcUserAbility] = DamageCalcUserAbility
+  end
+end
+
 class Ability_ILLUSION < AbilitySystem
   OFF_MULT = { :DamageCalcUserAbility => { :base_damage_multiplier => 1.2, }, }
 

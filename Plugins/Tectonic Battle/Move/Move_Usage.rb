@@ -310,7 +310,16 @@ target.pbThis(true)))
     end
 
     def damageNegated?(user, target, aiCheck = false)
-        return true if target.effectActive?(:LastGasp)
+        #return true if target.effectActive?(:LastGasp)
+        if target.effectActive?(:LastGasp)
+            if !aiCheck && target.hasActiveAbility?(:LASTLIGHT)
+                target.showMyAbilitySplash(:LASTLIGHT)
+                @battle.pbDisplay(_INTL("{1} was one step closer to death!", target.pbThis))
+                target.tracker_increment(:damage_in_last_gasp)
+                target.hideMyAbilitySplash
+            end
+            return true
+        end
         return false if aiCheck
         return true if target.damageState.disguise
         return true if target.damageState.thiefsDiversion

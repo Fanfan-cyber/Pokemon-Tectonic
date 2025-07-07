@@ -21,6 +21,11 @@ Flags = Immutable
 Name = Download 2
 Description = Boosts both one offending and defending stat by one step according to the foe's defenses and offenses.
 #-------------------------------
+[LASTLIGHT]
+Name = Last Light
+Description = The power of its moves is increased by 20% every time it takes damage during Last Gasp.
+Flags = Immutable
+#-------------------------------
 [RELENTLESSPURSUIT]
 Name = Relentless Pursuit
 Description = Attacks switching opponents with Pursuit.

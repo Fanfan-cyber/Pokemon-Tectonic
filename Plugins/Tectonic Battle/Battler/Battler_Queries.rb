@@ -465,6 +465,12 @@ class PokeBattle_Battler
                 @battle.pbDisplay(_INTL("{1} is unaffected!", pbThis))
                 hideMyAbilitySplash
             end
+            if indirectDamageBlockingAbility == :LASTGASP && !aiCheck && effectActive?(:LastGasp) && hasActiveAbility?(:LASTLIGHT)
+                showMyAbilitySplash(:LASTLIGHT)
+                @battle.pbDisplay(_INTL("{1} was one step closer to death!", pbThis))
+                tracker_increment(:damage_in_last_gasp)
+                hideMyAbilitySplash
+            end
             aiLearnsAbility(indirectDamageBlockingAbility) unless aiCheck
             return false
         end

@@ -18,6 +18,8 @@ class PokeBattle_Battle
   def opposing_party_size
     if trainerBattle?
       @opposing_party_size ||= @party2.size / @opponent.size.to_f
+    elsif bossBattle?
+      @opposing_party_size ||= @party1.size
     else
       @opposing_party_size ||= @party2.size
     end

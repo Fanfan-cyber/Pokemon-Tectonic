@@ -39793,6 +39793,8 @@ Bioengineering
 生物工程
 Relentless Pursuit
 无情追击
+Last Light
+回光
 Backup
 备份
 Download 2
@@ -41190,6 +41192,8 @@ Takes half damage from Dragon-, Fairy-, and Ghost-type attacks. Positive stat st
 受到的龙属性、妖精属性和幽灵属性攻击的伤害减半。增加的能力等级即使替换离场也会依旧保留。
 Boosts both one offending and defending stat by one step according to the foe's defenses and offenses.
 出场时，根据对手的双攻和双防，自适应增加自身的某项攻击和防御。
+The power of its moves is increased by 20% every time it takes damage during Last Gasp.
+在残喘时每受到一次攻击，技能的威力就增加20%。
 Adapts the move's type to ensure it is super-effective against the target.
 调整技能的类型，以确保其对目标具有效果拔群效果。
 Adapts the move's type to ensure it is truly super-effective against the target.
@@ -46644,7 +46648,7 @@ Move Pokémon stored in Boxes to your party.
 Store Pokémon in your party in Boxes.
 将队伍中的精灵储存在箱子中。
 Return to the previous menu.
-返回上1级菜单。
+返回上一级菜单。
 Item Storage PC
 物品储存电脑
 \se[PC access]Accessed {1}'s PC.
@@ -49657,6 +49661,8 @@ But {1} hold's tightly onto its {2}!
 {1}的属性无法被改变！
 {1} is unaffected!
 {1}没有受到影响！
+{1} was one step closer to death!
+{1}离死亡更近了一步！
 nthTurnThisRound checks for turns 1 or above!
 nthTurnThisRound检查的是1回合或以上！
 #{@name} isn't an avatar, but something is requesting its Phase Lower Health Bound!
@@ -56869,6 +56875,14 @@ Check Move
 检查技能
 Which form?
 哪种形态？
+raised {1} recovered by {2}
+增加的{1}恢复了{2}级
+lowered {1} recovered by {2}
+减少的{1}恢复了{2}级
+{1}'s {2}.
+{1}的{2}。
+, 
+, 
 {1} form {2}'s moves are {3}.
 {1}形态{2}的技能是{3}。
 {1} form {2}'s move is {3}.

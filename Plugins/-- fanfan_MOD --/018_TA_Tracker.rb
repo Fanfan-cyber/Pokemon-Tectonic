@@ -37,6 +37,7 @@ class PokeBattle_BattlerTracker
     @forced_engagement    = nil   # used for Forced Engagement
     @step_counter         = {}    # used to count Stat Steps remaining turns
     @flinched_by_moonglow = false # used for Moonglow Flinch effect
+    @damage_in_last_gasp  = 0     # used for count damage-taken times during Last Gasp
   end
 end
 
