@@ -260,6 +260,7 @@ class TilingCardsStorageInteractionMenu_Scene < TilingCardsMenu_Scene
     cmdAdaptiveAI = -1
     cmdOpenAR     = -1
 		cmdDeleteMove = -1
+    cmdSetTrait   = -1
 
 		# Build the commands
 		commands[cmdStyle = commands.length]        = _INTL("Set Style") if pbHasItem?(:STYLINGKIT)
@@ -273,6 +274,7 @@ class TilingCardsStorageInteractionMenu_Scene < TilingCardsMenu_Scene
 		commands[cmdEvolve = commands.length]       = _INTL("Evolve") if newspecies
     commands[cmdOpenAR = commands.length]       = _INTL("Open AR") if TA.get(:customabil) && !$Trainer.ability_recorder.empty?
     commands[cmdAdaptiveAI = commands.length]   = _INTL("Adaptive AI") if TA.get(:adaptiveai)
+    commands[cmdSetTrait = commands.length]     = _INTL("Set Trait") if @pkmn.happiness >= Pokemon::PERSONALITY_THRESHOLD_ONE
 		commands[commands.length]                   = _INTL("Cancel")
 		modifyCommand = pbShowCommands(_INTL("Do what with {1}?",@pkmn.name),commands)
 		if cmdRename >= 0 && modifyCommand == cmdRename
@@ -298,6 +300,17 @@ class TilingCardsStorageInteractionMenu_Scene < TilingCardsMenu_Scene
 				pbRefreshSingle(@selected)
 			end
 			return true
+      elsif cmdSetTrait >= 0 && modifyCommand == cmdSetTrait
+        names = []
+        names << _INTL("Trait 1")
+        names << _INTL("Trait 2") unless @pkmn.happiness < Pokemon::PERSONALITY_THRESHOLD_TWO
+        names << _INTL("Trait 3") unless @pkmn.happiness < Pokemon::PERSONALITY_THRESHOLD_THREE
+        names << _INTL("Cancel")
+        loop do
+          choose = pbMessage(_INTL("Which do you want to set?"), names, -1)
+          break if choose == -1 || choose == names.size - 1
+          @pkmn.choose_trait(choose)
+        end
     elsif cmdOpenAR >= 0 && modifyCommand == cmdOpenAR
       AbilityRecorder.oppen_ability_recorder(@pkmn)
     elsif cmdAdaptiveAI >= 0 && modifyCommand == cmdAdaptiveAI
