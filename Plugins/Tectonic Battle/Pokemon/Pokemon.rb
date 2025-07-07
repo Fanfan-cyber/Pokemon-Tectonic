@@ -1214,6 +1214,23 @@ class Pokemon
         return trait3
     end
 
+    def choose_trait(which = 0)
+        traits = GameData::Trait.getAllTrait
+        names = traits.map(&:name)
+        names << _INTL("Cancel")
+        choose = pbMessage(_INTL("Which do you want?"), names, -1)
+        return if choose == -1 || choose == names.size - 1
+        case which
+        when 0
+            @Trait1 = traits[choose]
+        when 1
+            @Trait2 = traits[choose]
+        when 2
+            @Trait3 = traits[choose]
+        end
+        pbMessage(_INTL("This Trait has been set to {2}!", name, names[choose]))
+    end
+
     def like
         return nil if @happiness < PERSONALITY_THRESHOLD_FOUR
         @Like = GameData::Like.getRandomLike while @Like.nil? || @Like == @Dislike

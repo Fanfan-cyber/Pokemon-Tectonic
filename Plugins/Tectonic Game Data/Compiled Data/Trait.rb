@@ -68,5 +68,15 @@ module GameData
 			end
 			return trait
 		end
+
+    def self.getAllTrait
+      traits = DATA.values
+      traits.reject { |trait| trait.id.start_with?("DEBUG_") }
+      return traits.uniq
+    end
+
+    def self.getAllTraitNames
+      getAllTrait.map(&:name)
+    end
 	end
 end

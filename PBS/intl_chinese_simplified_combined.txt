@@ -45446,13 +45446,13 @@ Sounds can be heard coming from inside! It will hatch soon!
 <c3=E09890,F83820>Likes:<c3=F8F8F8,686868>
 <c3=E09890,F83820>喜欢：<c3=F8F8F8,686868>
 <c3=E09890,F83820>Dislikes:<c3=F8F8F8,686868>
-<c3=E09890,F83820>讨厌：<c3=F8F8F8,686868>
+<c3=E09890,F83820>不喜欢：<c3=F8F8F8,686868>
 <c3=F83820,E09890>Traits:<c3=404040,B0B0B0>
 <c3=F83820,E09890>性情：<c3=404040,B0B0B0>
 <c3=404040{2},B0B0B0>{1}
 <c3=404040{2},B0B0B0>{1}
 <c3=F83820,E09890>Likes:<c3=404040,B0B0B0>
-<c3=F83820,E09890>喜好：<c3=404040,B0B0B0>
+<c3=F83820,E09890>喜欢：<c3=404040,B0B0B0>
 <c3=F83820,E09890>Dislikes:<c3=404040,B0B0B0>
 <c3=F83820,E09890>不喜欢：<c3=404040,B0B0B0>
 Met at Lv. {1}.
@@ -45478,7 +45478,7 @@ Main Ability is disabled.
 {1} (USE: Check more)
 {1} (C：查看更多)
 No. of Ribbons:
-缎带数量：
+缎带数量: 
 Mark {1}
 标记{1}
 OK
@@ -45488,7 +45488,7 @@ Do you want to check {1} in the MasterDex?
 No items were given.
 没有携带物品。
 (Unimplemented)
-（未实现）
+(未实现)
 Item: {1}
 物品：{1}
 This Item has not been implemented.
@@ -45508,7 +45508,7 @@ For {1}'s {2},<<n>>{3} sends {4}.<<1>>
 Take good care of {1}.
 好好照顾{1}。
 Species does not exist ({1}).
-种类不存在（{1}）。
+种类不存在({1})。
 {1} {2}, {3}
 {1} {2}, {3}
 Name
@@ -46774,7 +46774,7 @@ Set Gender
 Set HP
 设置HP
 Set Status
-设置状态
+设置异常
 Set Style
 设置风格点
 Swap Ball
@@ -46807,6 +46807,22 @@ Set {1}'s status.
 设置{1}的状态。
 {1} has no status now.
 {1}目前没有状态。
+Trait 1
+性情1
+Trait 2
+性情2
+Trait 3
+性情3
+Set Trait
+设置性情
+{1}'s Traits can't be set now!
+{1}的性情现在无法被设置！
+Which do you want to set?
+你想要设置第几个？
+Which do you want?
+你想要哪一个？
+This Trait has been set to {2}!
+已将该性情设置为{2}！
 Set the Pokémon's sleep count.
 设置精灵的睡眠计数。
 Item Bag
@@ -54066,7 +54082,7 @@ Mystery Gifts, translations, compile data, etc.
 HP/Status...
 HP/状态...
 Set status
-设置状态
+设置异常
 {1}'s status was cured.
 {1}的状态被治愈了。
 Fully heal
@@ -59089,7 +59105,7 @@ Witty
 幽默风趣
 137
 Test Trait
-测试性格
+测试性情
 [30]
 0
 Scary Movies
