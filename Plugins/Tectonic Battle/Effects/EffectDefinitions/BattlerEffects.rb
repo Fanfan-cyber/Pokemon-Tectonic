@@ -1293,8 +1293,8 @@ GameData::BattleEffect.register_effect(:Battler, {
         if battler.takesIndirectDamage?
             fraction = trappingDamageFraction(battler)
             battle.pbDisplay(_INTL("{1} is hurt by {2}!", battler.pbThis, moveName))
-            damage = battler.applyFractionalDamage(fraction)
             point_battler_index = battler.getBattlerPointsTo(:TrappingUser).index
+            damage = battler.applyFractionalDamage(fraction)
 
             battler.eachOpposing do |opp|
                 next unless opp.hasActiveAbility?(:BOTTOMFEEDER)
