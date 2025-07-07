@@ -109,7 +109,7 @@ class PokemonLoadScreen
         #commands[cmd_options = commands.length]         = _INTL("Options")
         commands[cmd_achievements = commands.length]    = _INTL("Achievements")
         commands[cmd_check_update = commands.length]    = _INTL("Check Update") if is_chinese?
-        commands[cmd_player_survey = commands.length]   = _INTL("Player Survey")
+        #commands[cmd_player_survey = commands.length]   = _INTL("Player Survey")
         commands[cmd_website = commands.length]         = _INTL("Website")
         commands[cmd_discord = commands.length]         = _INTL("Discord") unless is_chinese?
         commands[cmd_wiki = commands.length]            = _INTL("Wiki")

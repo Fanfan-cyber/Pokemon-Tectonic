@@ -241,6 +241,7 @@ existingIndex)
         cmdSetGender  = -1
         cmdExtraMoves = -1
         cmdDeleteMove = -1
+        cmdSetTrait   = -1
 
         newspecies = @pkmn.check_evolution_on_level_up(false)
         # Build the commands
@@ -254,6 +255,7 @@ existingIndex)
         commands[cmdSetHP = commands.length]        = _INTL("Set HP")
         commands[cmdSetStatus = commands.length]    = _INTL("Set Status")
         commands[cmdStyle = commands.length]        = _INTL("Set Style") if pbHasItem?(:STYLINGKIT)
+        commands[cmdSetTrait = commands.length]     = _INTL("Set Trait") if @pkmn.happiness >= Pokemon::PERSONALITY_THRESHOLD_ONE
         commands[cmdSwapPokeBall = commands.length] = _INTL("Swap Ball")
         commands[commands.length]                   = _INTL("Cancel")
 
@@ -352,7 +354,7 @@ existingIndex)
               end
             end
         elsif cmdSwapPokeBall >= 0 && modifyCommand == cmdSwapPokeBall
-			@pkmn.switchBall
+            @pkmn.switchBall
         elsif cmdDeleteMove >= 0 && modifyCommand == cmdDeleteMove
             moveDeletion(@pkmn)
         elsif cmdEvolve >= 0 && modifyCommand == cmdEvolve
@@ -366,6 +368,17 @@ existingIndex)
                 @partyScene.pbRefresh
             end
             return true
+        elsif cmdSetTrait >= 0 && modifyCommand == cmdSetTrait
+            names = []
+            names << _INTL("Trait 1")
+            names << _INTL("Trait 2") unless @pkmn.happiness < Pokemon::PERSONALITY_THRESHOLD_TWO
+            names << _INTL("Trait 3") unless @pkmn.happiness < Pokemon::PERSONALITY_THRESHOLD_THREE
+            names << _INTL("Cancel")
+            loop do
+                choose = pbMessage(_INTL("Which do you want to set?"), names, -1)
+                break if choose == -1 || choose == names.size - 1
+                @pkmn.choose_trait(choose)
+            end
         elsif cmdOpenAR >= 0 && modifyCommand == cmdOpenAR
             changed = AbilityRecorder.oppen_ability_recorder(@pkmn)
             @partyScene.pbRefresh if changed
