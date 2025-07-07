@@ -62,7 +62,7 @@ class PokeBattle_Battle
   end
 
   def tracker_clear(tracker)
-    case tracker
+    case tracker_get(tracker)
     when Numeric
       tracker_set(tracker, 0)
     when TrueClass
@@ -104,7 +104,7 @@ class PokeBattle_Battler
   end
 
   def battle_tracker_clear(tracker)
-    case tracker
+    case battle_tracker_get(tracker)
     when Numeric
       battle_tracker_set(tracker, 0)
     when TrueClass
@@ -143,7 +143,7 @@ class PokeBattle_Battler
   end
 
   def tracker_clear(tracker)
-    case tracker
+    case tracker_get(tracker)
     when Numeric
       tracker_set(tracker, 0)
     when TrueClass
