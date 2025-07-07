@@ -260,6 +260,7 @@ class TilingCardsStorageInteractionMenu_Scene < TilingCardsMenu_Scene
     cmdAdaptiveAI = -1
     cmdOpenAR     = -1
 		cmdDeleteMove = -1
+    cmdSetTitle   = -1
     cmdSetTrait   = -1
 
 		# Build the commands
@@ -274,6 +275,7 @@ class TilingCardsStorageInteractionMenu_Scene < TilingCardsMenu_Scene
 		commands[cmdEvolve = commands.length]       = _INTL("Evolve") if newspecies
     commands[cmdOpenAR = commands.length]       = _INTL("Open AR") if TA.get(:customabil) && !$Trainer.ability_recorder.empty?
     commands[cmdAdaptiveAI = commands.length]   = _INTL("Adaptive AI") if TA.get(:adaptiveai)
+    commands[cmdSetTitle = commands.length]     = _INTL("Set Title")
     commands[cmdSetTrait = commands.length]     = _INTL("Set Trait") if @pkmn.happiness >= Pokemon::PERSONALITY_THRESHOLD_ONE
 		commands[commands.length]                   = _INTL("Cancel")
 		modifyCommand = pbShowCommands(_INTL("Do what with {1}?",@pkmn.name),commands)
@@ -311,6 +313,9 @@ class TilingCardsStorageInteractionMenu_Scene < TilingCardsMenu_Scene
           break if choose == -1 || choose == names.size - 1
           @pkmn.choose_trait(choose)
         end
+    elsif cmdSetTitle >= 0 && modifyCommand == cmdSetTitle
+      title = pbEnterText(_INTL("Enter a new Title."), 0, 32)
+      @pkmn.title= title if title && !title.empty?
     elsif cmdOpenAR >= 0 && modifyCommand == cmdOpenAR
       AbilityRecorder.oppen_ability_recorder(@pkmn)
     elsif cmdAdaptiveAI >= 0 && modifyCommand == cmdAdaptiveAI
