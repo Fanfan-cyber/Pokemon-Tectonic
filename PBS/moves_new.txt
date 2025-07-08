@@ -2038,7 +2038,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = NumbTargetStartSandstorm8
 Flags = CanProtect,CanMagicCoat
-Description = The user numbs the target, then summons sandstorm for eight turns.
+Description = The user numbs the target, then welcomes in sandstorm for eight turns.
 Animation = SANDSTORM
 #-------------------------------
 [MEGALITHRITE]
@@ -2050,7 +2050,7 @@ TotalPP = 10
 Target = FoeSide
 FunctionCode = StealthRockStartSandstorm5
 Flags = CanMagicCoat
-Description = The user calls all rocks to join it, summoning sandstorm for five turns and laying a trap of levitating stones around the target.
+Description = The user calls all rocks to join it, summoning sandstorm for five turns and laying a hazard of levitating stones around the target.
 Animation = STEALTHROCK
 #-------------------------------
 [MONOLITHDROP]
@@ -5026,7 +5026,7 @@ Animation = ELECTRICTERRAIN
 Name = Dielectric Breakdown
 Type = ELECTRIC
 Category = Special
-Power = 130
+Power = 120
 Accuracy = 100
 TotalPP = 10
 Target = ClosestNearFoe
@@ -5664,7 +5664,7 @@ TotalPP = 10
 Target = ClosestNearFoe
 FunctionCode = Rampage3HitTwoToFiveTimes
 Flags = CanProtect
-Description = Unveiling its ears, the released psychic power causes the user to rampage and multi-hit 2 to 5 times for two turns.
+Description = Unveiling its ears, the released psychic power causes the user to rampage and multi-hit two to five times for two turns.
 Animation = FURYSWIPES
 #-------------------------------
 [PENUMBRA]

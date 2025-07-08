@@ -1086,7 +1086,7 @@ Description = The user performs a wobbly dance that dizzies the Pokémon around 
 Name = Thrash
 Type = NORMAL
 Category = Physical
-Power = 130
+Power = 135
 Accuracy = 100
 TotalPP = 10
 Target = ClosestNearFoe
@@ -1144,7 +1144,7 @@ Description = The user unleashes its ultimate move. Can't miss and skips protect
 Name = Uproar
 Type = NORMAL
 Category = Special
-Power = 130
+Power = 135
 Accuracy = 100
 TotalPP = 10
 Target = ClosestNearFoe
@@ -3879,7 +3879,7 @@ Target = AllNearFoes
 Priority = -3
 FunctionCode = UsedAfterUserTakesPhysicalDamage
 Flags = CanProtect,Uninvocable
-Description = The user sets a shell trap. If it is hit by a physical move, the trap explodes and hurts all near foes.
+Description = The user rigs its shell to explode. If it is hit by a physical move this turn, the shell detonates and hurts all near foes.
 #-------------------------------
 [SUNSHINE]
 Name = Sunshine
