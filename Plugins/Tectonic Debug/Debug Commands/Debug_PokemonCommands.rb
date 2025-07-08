@@ -1021,7 +1021,7 @@ module PokemonDebugMenuCommands
           screen.party.compact!
           screen.pbHardRefresh
         elsif screen.is_a?(PokemonStorageScreen)
-          screen.pbDisplay(_INTL("This function only can be used in Party Menu"))
+          screen.pbDisplay(_INTL("This function only can be used in Party Menu!"))
         end
         next true
       end
