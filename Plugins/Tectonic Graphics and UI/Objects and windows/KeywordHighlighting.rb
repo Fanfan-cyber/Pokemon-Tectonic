@@ -102,6 +102,8 @@ def battleKeywordsImportant
         "spread",
         "multi-hit",
         "multi-hits",
+        "rampage",
+        "rampages",
     ]
 end
 

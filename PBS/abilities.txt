@@ -551,7 +551,7 @@ Flags = Immutable
 #-------------------------------
 [STATIC]
 Name = Static
-Description = Physical attacks against the Pokémon has a 30% chance to cause numbing.
+Description = Physical attacks against the Pokémon have a 30% chance to cause numbing.
 #-------------------------------
 [STEELWORKER]
 Name = Steelworker
