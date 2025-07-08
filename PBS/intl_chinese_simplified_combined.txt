@@ -40161,7 +40161,7 @@ When another Pokémon faints, consumes their item, ability, and stat steps.
 Can hold two different items, if both are Gems.
 可同时携带两个宝石类物品。
 Doubles Speed in eclipse.
-日食天气时，速度加倍。
+日食天气时，速度翻倍。
 Raises Defense and Sp. Def whenever any Pokémon uses a dance move. Caps out at +4.
 每当任何精灵使用舞蹈类技能时，双防增加1级。上限为+4。
 Takes 35% less damage in eclipse, except in total eclipse.
@@ -40173,9 +40173,9 @@ Turns to Finale Form when only unfainted on team. Ability becomes Synchronize.
 Inflicts 1/6th max HP damage to the foe when damaged during rainstorm.
 在暴雨天受到攻击时，对手会扣除1/6的HP。
 Boosts the Pokémon's Attack by 50%, but its attacks cannot faint the target.
-攻击力增加50%，但无法使其失去战斗力。
+物攻增加50%，但它的攻击不会使对手濒死。
 Sound-based attacks turn Ice-type and are boosted by 30%.
-基于声音的攻击变成冰属性，并增加30%威力。
+声音类技能变成冰属性，并且威力增加30%。
 Deals double damage against Pokémon that have raised defenses or that are protected by a screen.
 对于增加了防御或受到屏障保护的精灵造成双倍伤害。
 Uses Aromatherapy if an attack lowers its HP to half or below.
@@ -40189,15 +40189,15 @@ During eclipse, it restores its HP by half the damage it deals with attacks.
 Attacks this Pokémon uses that don't share a type with it are boosted by 50%. It can't use attacks of its own types.
 无法使用与自己属性相同的技能，使用不同属性的技能时，伤害增加50%。
 At the beginning of every 5th turn, the Pokémon forcibly switches into battle. It chooses which move it will use that turn.
-每次战斗的第5回合强制换入战斗，并自动选择所使用的技能。
+战斗的每第5回合会强制替换上场，并自主选择使用1个技能。
 At the end of every turn, its stats shift position (Attack-> Defense -> Sp. Atk -> Sp. Def -> Speed -> Attack...)
 每回合结束后，能力都会发生转换。(攻击->防御->特攻->特防->速度->攻击...)
 Healing on the Pokémon is reversed.
-受到的治疗效果发生逆转。
+反转自身的治疗效果。
 Special attacks against the Pokémon have a 30% chance to waterlog the attacker.
 被特殊类技能攻击时，有30%概率使攻击者陷入浸水状态。
 The effect of healing on foes is reversed.
-使敌方的治疗效果发生逆转。
+使敌方的治疗效果发生反转。
 When free from non-volatile status conditions, non-damaging moves by foes are drawn in.
 When free from non-volatile status conditions, non-damaging moves by foes are drawn in.
 Foretold moves hit two turns quicker and deal 30% more damage.
@@ -40209,19 +40209,19 @@ Your Poké Balls are 50% more effective.
 Sets a Reflect for 4 turns upon entering the battle.
 入场时，制造持续4回合的反射壁。
 Raises Defense and Sp. Def by three steps when its HP is lowered below half.
-当HP低于一半时，增加双防3级。
+当HP低于一半时，双防增加3级。
 Special attacks against the Pokémon have a 30% chance to dizzy the attacker.
 受到特殊攻击后有30%概率使对手陷入混乱。
 Boosts Attack and Sp. Atk by three steps when a stat is lowered by a foe.
-当被对手减少能力时，增加物攻和特攻3级。
+当被对手减少能力时，增加双攻3级。
 After using a sound move, all foes are tormented.
-声音技能会使敌方全员施加折磨状态。
+声音类技能会对敌方全员施加折磨状态。
 Can hold two different items, if both are Berries.
 可同时携带两个树果类物品。
 Boosts Defense by 25%. The Pokémon cannot be flinched.
-增加25%的防御，但无法回避任何技能。
+物防增加25%，且不会畏缩。
 Its attacks are critical against frostbitten targets.
-对陷入冻伤的对手会击中要害。
+攻击陷入冻伤的对手时必定会击中要害。
 Causes hail to deal double damage and increase Defense of Ice-types by 2.0x instead of 1.5x.
 使冰雹造成的伤害翻倍，并且使冰属性的物防增加效果从1.5倍变为2倍。
 Its special attacks reduce the target's Sp. Def.
