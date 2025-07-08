@@ -34,6 +34,9 @@ SPECIES_ABILITY_DATA = {
   [:HERDIER, 0]    => { :fixed => %i[], :changeable => %i[BREAKTHROUGH INTIMIDATE], },
   [:STOUTLAND, 0]  => { :fixed => %i[], :changeable => %i[BREAKTHROUGH INTIMIDATE], },
 
+  [:LITLEO, 0]     => { :fixed => %i[], :changeable => %i[IMPERIOUS HUBRIS], },
+  [:PYROAR, 0]     => { :fixed => %i[], :changeable => %i[IMPERIOUS HUBRIS], },
+
   [:MAGIKARP, 0]   => { :fixed => %i[], :changeable => %i[MULTISCALE SWIFTSWIM], },
 
   [:MEOWTH, 0]     => { :fixed => %i[], :changeable => %i[GILD ALLTHATGLITTERS], },
