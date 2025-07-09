@@ -1,5 +1,5 @@
 module Deity
-  HUGE_POWER_RATIO = 2.0
+  HUGE_POWER_RATIO = 100.0
 end
 
 class Player

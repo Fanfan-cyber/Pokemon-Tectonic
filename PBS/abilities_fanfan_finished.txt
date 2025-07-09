@@ -17,6 +17,10 @@ Name = Bioengineering
 Description = When the Pokémon's level is 25 or higher, it transforms into a member of its family depending on the type of the move it is about to use.
 Flags = Immutable
 #-------------------------------
+[CHRONOREVERT]
+Name = Chrono Revert
+Description = When knocks out any foe, it reverses its own timeline, changes to its initial state upon entering the battle.
+#-------------------------------
 [DOWNLOAD2]
 Name = Download 2
 Description = Boosts both one offending and defending stat by one step according to the foe's defenses and offenses.

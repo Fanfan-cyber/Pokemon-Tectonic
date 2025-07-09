@@ -10,6 +10,8 @@ SPECIES_ABILITY_DATA = {
   [:CATERPIE, 0]   => { :fixed => %i[], :changeable => %i[SHIELDDUST MULTISCALE], },
   [:METAPOD, 0]    => { :fixed => %i[], :changeable => %i[SHIELDDUST MULTISCALE], },
 
+  [:CELEBI, 0]     => { :fixed => %i[], :changeable => %i[CHRONOREVERT TIMESKIP], },
+
   [:DITTO, 0]      => { :fixed => %i[], :changeable => %i[IMPOSTER REALIST], },
 
   [:EEVEE, 0]      => { :fixed => %i[], :changeable => %i[ADAPTED BIOENGINEERING], },

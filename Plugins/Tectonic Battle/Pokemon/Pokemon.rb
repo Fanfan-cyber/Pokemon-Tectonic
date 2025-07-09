@@ -1520,11 +1520,13 @@ class Pokemon
         return ret
     end
 
-    def clone_pkmn
+    def clone_pkmn(all_new = true)
         ret = Marshal.load(Marshal.dump(self))
-        ret.name = nil
-        ret.owner = Owner.new(0, "", 2, 2)
-        ret.regeneratePersonalID
+        if all_new
+            ret.name = nil
+            ret.owner = Owner.new(0, "", 2, 2)
+            ret.regeneratePersonalID
+        end
         ret
     end
 
