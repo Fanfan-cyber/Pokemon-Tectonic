@@ -38149,7 +38149,7 @@ Reins that people presented to the king. They enable Calyrex to connect and comm
 A charm that increases the Exp. Points that Pokémon can get by 10%. A machine-like object is inside the charm.
 增加精灵10%可获得的经验。
 A charm that doubles the chance of getting a critical catch.
-带上这个神奇的可增强稳定性的护身符，就能更容易触发会心捕捉。
+带上这个神奇的可增强稳定型的护身符，就能更容易触发会心捕捉。
 A long, durable rope. Use it to escape instantly from a cave or a dungeon.
 从洞窟等地方脱离。
 A token which can be exchanged for a Grass-type at the Starter Store.
@@ -39797,6 +39797,8 @@ Bioengineering
 生物工程
 Download 2
 下载2
+Chrono Revert
+时间回溯
 Last Light
 回光
 Relentless Pursuit
@@ -39907,7 +39909,7 @@ Physical moves against the Pokémon have a 30% chance to burn the attacker.
 In sunshine boosts its and allies' Attack and Sp. Def by 50%.
 晴朗天气时，自己与同伴的攻击和特防能力会增加。
 Protects Grass-type allies from non-volatile status conditions or stat reductions (except self-inflicted).
-保护草属性队友免受稳定性异常或能力等级减小效果的影响（自我造成的除外）。
+保护草属性队友免受稳定型异常或能力等级减小效果的影响（自我造成的除外）。
 Doubles Defense. The Pokémon takes double damage from Fire-type moves.
 防御能力翻倍，但受到火属性技能攻击时，受到双倍伤害。
 Castform transforms with the weather.
@@ -39937,7 +39939,7 @@ It alternates between an Electric-type Mode and a Dark-type Mode.
 Boosts move damage by 50%, but lowers Accuracy by 20%.
 技能伤害增加50%，但是命中率减小20%。
 Heals non-volatile status conditions each turn if in rainstorm.
-雨天时，每回合回复稳定性异常。
+雨天时，每回合回复稳定型异常。
 Heals 1/8th of its max HP each turn in a hail.
 冰雹时，每回合恢复1/8的HP。
 Doubles the Pokémon's Sp. Def.
@@ -39961,7 +39963,7 @@ Physical moves against it inflict 1/8th max HP damage to the foe.
 Boosts the power of punching moves by 30%.
 使用拳类技能的威力增加30%。
 Immune to non-volatile status conditions while in sunshine.
-晴天时，免疫稳定性异常。
+晴天时，免疫稳定型异常。
 Immune to Ground-type moves. Immune to grounded hazards.
 免疫地面属性技能。免疫地面上的各种陷阱。
 Reflects enemy status moves that target the Pokémon or create hazards around it.
@@ -39987,7 +39989,7 @@ Changes type to match the held Plate.
 When the Pokémon is hit by an attack, the attacker's ability becomes Mummy.
 被攻击时，使攻击者的特性变为木乃伊。
 All non-volatile status conditions heal when it switches out.
-替换时，回复稳定性异常。
+替换时，回复稳定型异常。
 Powers up super-effective moves by 30%.
 效果拔群的技能威力增加30%。
 Abilities will be nullified or will not be triggered.
@@ -40051,13 +40053,13 @@ HP全满时，受到的伤害会变少。
 Traps the foe.
 困住对手。
 At the end of each turn, heals from every non-volatile status condition (except Sleep).
-回合结束时，治愈稳定性异常（睡眠除外）。
+回合结束时，治愈稳定型异常（睡眠除外）。
 Removes random added effects of attacks to increase their damage by 30%.
 技能的追加效果消失，但因此能以更高的威力使出技能。
 Blocks all random added effects of attacks taken.
 被鳞粉守护着，不会受到技能的追加效果影响。
 Immune to non-volatile status conditions while it has its shell. Below half HP, its shell breaks and it turns aggressive.
-拥有壳时免疫稳定性异常，HP低于一半时，壳破裂并变得好斗。
+拥有壳时免疫稳定型异常，HP低于一半时，壳破裂并变得好斗。
 Stat changes in the Pokémon are doubled.
 该精灵的能力等级变化翻倍。
 Maximizes the frequency of multi-hit moves.
@@ -40095,7 +40097,7 @@ Quadruples the critical hit chance of random crit moves.
 Doubles the Pokémon's Speed in rainstorm.
 暴雨天气时，速度翻倍。
 When the Pokémon is given a non-volatile status condition by another Pokémon, that Pokemon also gets that condition.
-当被另一只精灵赋予稳定性异常时，那只精灵也会陷入该异常。
+当被另一只精灵赋予稳定型异常时，那只精灵也会陷入该异常。
 Physical moves against it lower the attacker's Speed by three steps.
 对于使用物理类技能攻击自身的对手，会减小其速度3级。
 Moves with base power 60 or less deal 50% more damage.
@@ -40169,7 +40171,7 @@ Raises Defense and Sp. Def whenever any Pokémon uses a dance move. Caps out at 
 Takes 35% less damage in eclipse, except in total eclipse.
 在日食中受到的伤害减小35%，全蚀除外。
 Takes 40% less damage from attacks by Pokémon who have a non-volatile status condition.
-从处于稳定性异常的精灵的攻击中受到的伤害减小40%。
+从处于稳定型异常的精灵的攻击中受到的伤害减小40%。
 Turns to Finale Form when only unfainted on team. Ability becomes Synchronize.
 当队伍只剩下自己后，将变为终结形态，特性更改为同步。
 Inflicts 1/6th max HP damage to the foe when damaged during rainstorm.
@@ -40201,7 +40203,7 @@ Special attacks against the Pokémon have a 30% chance to waterlog the attacker.
 The effect of healing on foes is reversed.
 使敌方的治疗效果发生反转。
 When free from non-volatile status conditions, non-damaging moves by foes are drawn in.
-当没有处于稳定性异常时，会吸引对手的非伤害类技能。
+当没有处于稳定型异常时，会吸引对手的非伤害类技能。
 Foretold moves hit two turns quicker and deal 30% more damage.
 预言类技能会提前2回合，并增加30%伤害。
 Deals more damage to targets the faster it is than them. Up to a 50% bonus at double Speed.
@@ -40277,9 +40279,9 @@ Physical moves have a 30% chance to frostbite targets.
 After knocking out any Pokémon with Waterfall, transforms into its Rampage form. Ability becomes Juggernaut.
 当使用攀瀑击倒对手后，会变成暴走形态，特性变为破格。
 Boosts move damage by 50% while it has a non-volatile status condition. It suffers double effect from such status conditions.
-处于稳定性异常时，技能伤害增加50%，但是它会受到该异常的双倍效果。
+处于稳定型异常时，技能伤害增加50%，但是它会受到该异常的双倍效果。
 Traps foes with non-volatile status conditions.
-困住处于稳定性异常的对手。
+困住处于稳定型异常的对手。
 It changes form to match the move it selected.
 根据使用的技能切换自身的状态。
 Boosts Sp. Atk and Speed by 30% in rainstorm.
@@ -40307,7 +40309,7 @@ When a foe hits the Pokémon, they are warned. If they do it again, they become 
 Immune to Dragon-type, Fairy-type and Ghost-type attacks.
 免疫龙属性、妖精属性和幽灵属性技能。
 When this Pokémon gains a non-volatile status condition, its Attack is raised by three steps.
-当陷入稳定性异常时，物攻增加3级。
+当陷入稳定型异常时，物攻增加3级。
 Powers up the Pokémon's Dark-type moves by 50% in sandstorm.
 在沙暴中，精灵的恶系技能威力增加50%。
 While the Pokémon is below half health, its attacks poisons those hit.
@@ -40319,7 +40321,7 @@ Boosts Attack and Sp. Atk after knocking out any Pokémon.
 On the first turn, its attacks burn the target.
 第1回合的攻击会使对方烧伤。
 Immune to non-volatile status conditions due to its hard shell. Boosts Sp. Atk and Speed by 30% in sandstorm.
-免疫稳定性异常，在沙暴中，特攻和速度增加30%。
+免疫稳定型异常，在沙暴中，特攻和速度增加30%。
 Prevents Bug- or Poison-type moves during moonglow.
 在月辉天气中，免疫虫、毒属性技能。
 Boosts Attack by 50%, but physical moves deal 25% damage back as recoil.
@@ -40539,7 +40541,7 @@ Deals 30% more move damage to Pokémon that are taller than it.
 Its attacks are critical against burned targets.
 攻击烧伤状态的对手时必定命中要害。
 When this Pokémon gains a non-volatile status condition, its Speed is raised by three steps.
-当陷入稳定性异常时，速度增加3级。
+当陷入稳定型异常时，速度增加3级。
 The Pokémon is also Ghost-type.
 此精灵也视为幽灵属性。
 Doubles Sp. Atk, but the Pokémon becomes dizzy after attacking.
@@ -40597,7 +40599,7 @@ Special attacks against the Pokémon raise its Speed by two steps but lower its 
 Its same-type attack bonus is based on its party members rather than itself.
 使用本属性技能攻击时，根据队内同属性成员获得加成。
 When this Pokémon gains a non-volatile status condition, its Sp. Atk is raised by three steps.
-当陷入稳定性异常时，特攻增加3级。
+当陷入稳定型异常时，特攻增加3级。
 Comes out disguised as the Pokémon in back. While disguised, copies its ability.
 出场时伪装成后排的精灵。在伪装期间，复制被伪装的精灵的特性。
 After being attacked, gains immunity to that move's type but loses other morphed immunities.
@@ -40605,7 +40607,7 @@ After being attacked, gains immunity to that move's type but loses other morphed
 Immune to Steel-type moves and raises Speed if hit by one.
 受到钢属性技能攻击时，免疫伤害并增加速度。
 Pokémon take damage from non-volatile status conditions even while switched out.
-精灵即使替换离场，也会受到稳定性异常的伤害。
+精灵即使替换离场，也会受到稳定型异常的伤害。
 The Pokémon is also Grass-type. When hit by an attack, the attacker's ability becomes Infected.
 增加草属性。被攻击时，使攻击者的特性变为该特性。
 Summons sunshine for four turns when hit by an attack.
@@ -40651,7 +40653,7 @@ Protected from critical hits. Can't be burned or frostbitten.
 At the end of each turn, heals self by 1/20 and a party member by the amount the Pokémon was healed.
 回合结束时恢复1/20HP，队伍内其他精灵额外为其提供治疗量。
 Doubled Speed if any enemy has a non-volatile status condition.
-如果任何对手有稳定性异常，速度翻倍。
+如果任何对手有稳定型异常，速度翻倍。
 Deals 50% more damage to targets that switched in this turn. Takes 50% less damage if it switched in this turn.
 对本回合换出的精灵造成额外伤害，如果自身在本回合换出，减小50%受到的伤害。
 Doubles the damage and recoil of recoil moves.
@@ -40773,7 +40775,7 @@ Boosts Sp. Atk by 30%, but lowers Sp. Atk after using a special move.
 Boosts Sp. Atk by 30% in rainstorm.
 在暴雨中增加30%的特攻。
 Heals the Pokémon's non-volatile status conditions each turn if in sunshine.
-晴天时，每回合回复稳定性异常。
+晴天时，每回合回复稳定型异常。
 The Pokémon refuses to fight. However, it gathers extra candy when trainers flee.
 该精灵拒绝战斗。然而，当对手的训练家逃跑时，它会收集额外的糖果。
 The Pokémon receives 33% less move damage if there is an active Room.
@@ -40801,13 +40803,13 @@ Whenever a foe raises their stats, the Pokémon follows suit.
 The Pokémon's moves deal 50% more damage if they're a different type than last.
 攻击时，如果使用的技能和上回合使用的技能属性不同，造成的伤害增加50%。
 Takes no damage from non-volatile status conditions.
-不会受到稳定性异常的伤害。
+不会受到稳定型异常的伤害。
 Sets screens for two more turns.
 使屏障类效果延长2回合。
 Attacks against the Pokémon deal 50% more damage, but the attacker takes 100% recoil.
 伤害增加50%，但会受到100%的反伤。
 During eclipse, immune to non-volatile status conditions and stat reductions.
-日食时，免疫稳定性异常和能力等级减小效果。
+日食时，免疫稳定型异常和能力等级减小效果。
 At the first chance, copies an opponent's species' legal Abilities.
 复制对手的所有特性。
 Immune to Poison-type moves and restores 25% of max HP if hit by one.
@@ -40863,7 +40865,7 @@ Pulse moves change the Pokémon's secondary type and their power is boosted by 3
 Upon entry during sunshine, heals the lowest HP ally or self by 33%.
 在阳光下出场时，为HP最低的队友或自身回复33%的HP。
 Pokémon that swap in for this have their non-volatile status conditions healed, and take 30% less damage that turn.
-替换该精灵上场的精灵会回复其稳定性异常，并且在那一回合受到的伤害减小30%。
+替换该精灵上场的精灵会回复其稳定型异常，并且在那一回合受到的伤害减小30%。
 When hit with a physical move, hits back instantly with Leafage.
 受到物理攻击时，会立刻以树叶反击。
 Critical hits lower all of the victim's stats.
@@ -41077,7 +41079,7 @@ Becomes energy charged when hit by an attack, doubling the power of its next Ele
 Its attacks have priority, deal 25% less damage and become special.
 可以率先发起攻击，伤害减小25%，并变成特殊技能。
 Between each turn there's another turn where no one moves.
-每回合之间会有另1回合，期间双方无法行动。
+加快时间流速，在每回合的回合结束时，会跳跃至下下回合。
 Foes suffer 50% more move damage reduction from burn, frostbite, and numb.
 对手因烧伤、冻伤和麻痹而受到的技能伤害减小效果增加50%。
 Upon entry during eclipse, heals the lowest HP ally or self by 33%.
@@ -41135,7 +41137,7 @@ Whenever a foe's poison worsens, the Pokémon heals for 25% max HP.
 Powers up Grass-type moves of itself and its allies by 50%.
 自身和同伴的草属性技能威力增加50%。
 Heals non-volatile status conditions and resets stat changes after knocking out any Pokémon.
-击倒任意精灵后，回复稳定性异常并重置能力等级。
+击倒任意精灵后，回复稳定型异常并重置能力等级。
 Takes 40% less damage while using a status move.
 使用变化类技能时，受到的伤害减小40%。
 At the end of each turn, itself and each ally heals for 1/16th of their HP.
@@ -41190,6 +41192,8 @@ Takes half damage from Dragon-, Fairy-, and Ghost-type attacks. Positive stat st
 受到的龙属性、妖精属性和幽灵属性攻击的伤害减半。增加的能力等级即使替换离场也会依旧保留。
 When the Pokémon's level is 25 or higher, it transforms into a member of its family depending on the type of the move it is about to use.
 当精灵等级达到25级或以上时，它会根据即将使用的技能的属性变为其家族的成员。
+When knocks out any foe, it reverses its own timeline, changes to its initial state upon entering the battle.
+当打倒对手时，回溯时间，将自身回溯到刚进入战斗时的状态。
 Boosts both one offending and defending stat by one step according to the foe's defenses and offenses.
 出场时，根据对手的双攻和双防，自适应增加自身的某项攻击和防御。
 The power of its moves is increased by 20% every time it takes damage during Last Gasp.
@@ -48777,6 +48781,8 @@ For {1} to have two items, only one can be Clothing!
 {1}的能力变化恢复正常了！
 {1} reclaims its {2}!
 {1}夺回了它的{2}！
+Ripples of time shimmer around {1}!
+时间的涟漪在{1}周身闪动！
 {1} turned {2}'s {3} into gold!
 {1}将{2}的{3}变成了金子！
 But {1} is already charged...
