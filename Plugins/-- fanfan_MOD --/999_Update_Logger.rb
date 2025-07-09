@@ -103,7 +103,7 @@ by Fanfan
 光标和键盘均支持中文输入法
 可恢复的随身急救包
 查看自身队伍功能，队伍界面按D
-战前敌方队伍查看功能
+敌方队伍随时查看功能
 技能造成的伤害显示
 战斗中显示各项参数
 可直接快速放弃对战
@@ -138,6 +138,10 @@ zeroexp/disablezeroexp，开启/关闭无经验模式
 monoabil/disablemonoabil，开启/关闭单特性模式
 customabil/nocustomabil，开启/关闭特性自选模式
 doublebattle/disabledouble，开启/关闭全双打模式
+
+0.3.5
+1.雪拉比的第一特性由自然回复改为Chrono Revert
+2.
 
 0.3.4
 1.修复了大量翻译的问题
@@ -250,7 +254,6 @@ doublebattle/disabledouble，开启/关闭全双打模式
 108.小狮狮的第一特性由Stubborn改为Imperious
 109.火炎狮的第一特性由Stubborn改为Imperious
 110.现在所有在击倒对手发动的增加自身能力等级的特性所增加的能力等级不会自然恢复
-111.
 
 0.3.3
 1.修改获得代欧奇希斯的密码为alien1

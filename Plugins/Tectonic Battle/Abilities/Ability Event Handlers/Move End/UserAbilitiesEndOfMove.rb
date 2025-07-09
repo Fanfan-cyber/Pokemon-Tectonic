@@ -195,6 +195,24 @@ BattleHandlers::UserAbilityEndOfMove.add(:RECLAMATION,
   }
 )
 
+BattleHandlers::UserAbilityEndOfMove.add(:CHRONOREVERT,
+  proc { |ability, user, targets, _move, battle, _switchedBattlers|
+      next if battle.pbAllFainted?(user.idxOpposingSide)
+      numFainted = 0
+      targets.each { |b| numFainted += 1 if b.damageState.fainted }
+      next if numFainted == 0
+      battle.pbShowAbilitySplash(user, ability)
+      battle.pbDisplay(_INTL("Ripples of time shimmer around {1}!", user.pbThis(true)))
+      battle.pbHideAbilitySplash(user)
+      party = battle.pbParty(user.index)
+      user_pokemon_index = user.pokemonIndex
+      party[user_pokemon_index] = user.tracker_get(:chrono_revert)
+      user.pbInitialize(party[user_pokemon_index], user_pokemon_index, false)
+      battle.pbAnimation(:TRANSFORM, user, user)
+      user.refreshDataBox
+  }
+)
+
 ########################################################################
 # Other abilities
 ########################################################################

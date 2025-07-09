@@ -38,6 +38,7 @@ class PokeBattle_BattlerTracker
     @step_counter         = {}    # used to count Stat Steps remaining turns
     @flinched_by_moonglow = false # used for Moonglow Flinch effect
     @damage_in_last_gasp  = 0     # used for count damage-taken times during Last Gasp
+    @chrono_revert​        = nil   # used to record the Pokemon of Chrono Revert​ effect
   end
 end
 
