@@ -59,16 +59,13 @@ DebugMenuCommands.register("addpokemon", {
       pbMessage(_INTL("All eggs in your party now require one step to hatch."))
     }
   })
-  
-  DebugMenuCommands.register("fillboxes", {
-    "parent"      => "pokemonmenu",
-    "name"        => _INTL("Fill Storage Boxes"),
-    "description" => _INTL("Add one Pokémon of each species (at Level 50) to storage."),
-    "effect"      => proc {
+
+  def fill_storage_boxes(level = 50)
       added = 0
       box_qty = $PokemonStorage.maxPokemon(0)
       completed = true
       GameData::Species.each do |species_data|
+        next if species_data.isTest?
         sp = species_data.species
         f = species_data.form
         # Record each form of each species as seen and owned
@@ -92,7 +89,7 @@ DebugMenuCommands.register("addpokemon", {
           next
         end
         added += 1
-        $PokemonStorage[(added - 1) / box_qty, (added - 1) % box_qty] = Pokemon.new(sp, 50)
+        $PokemonStorage[(added - 1) / box_qty, (added - 1) % box_qty] = Pokemon.new(sp, level)
       end
       $Trainer.pokedex.refresh_accessible_dexes
       pbMessage(_INTL("Storage boxes were filled with one Pokémon of each species."))
@@ -100,9 +97,21 @@ DebugMenuCommands.register("addpokemon", {
         pbMessage(_INTL("Note: The number of storage spaces ({1} boxes of {2}) is less than the number of species.",
            Settings::NUM_STORAGE_BOXES, box_qty))
       end
+  end
+
+  DebugMenuCommands.register("fillboxes", {
+    "parent"      => "pokemonmenu",
+    "name"        => _INTL("Fill Storage Boxes"),
+    "description" => _INTL("Add one Pokémon of each species to storage."),
+    "effect"      => proc {
+      params = ChooseNumberParams.new
+      params.setRange(1, 70)
+      params.setDefaultValue(50)
+      level = pbMessageChooseNumber(_INTL("What level?"), params)
+      fill_storage_boxes(level)
     }
   })
-  
+
   DebugMenuCommands.register("clearboxes", {
     "parent"      => "pokemonmenu",
     "name"        => _INTL("Clear Storage Boxes"),

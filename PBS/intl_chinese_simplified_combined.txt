@@ -3613,7 +3613,7 @@ Ah, so you made it to me. Congrats.
 Now, uh, things work a little differently ‘round here. Us gym leaders ain’t about to pull any punches.
 其次，这里的道馆挑战稍有些不同，我们可不会吝惜自己的拳头。
 Our teams have some bite to them, so make sure you’re ready before you try and take me on in a brawl.
-我们的队伍肯定有很强的攻击力，所以你在挑战之前，一定要做好相应的准备。
+我们的队伍肯定有很强的攻击，所以你在挑战之前，一定要做好相应的准备。
 So, what can I do you for? You ready for a proper fight?
 现在，你准备好了吗？
 Ah, you’re killing me. Well, c’mon back when you’re ready.
@@ -26045,11 +26045,11 @@ Simipour
 Munna
 食梦梦
 Musharna
-梦梦蚀
+梦梦食
 M. Munna
 H. 食梦梦
 M. Musharna
-梦梦蚀
+梦梦食
 Pidove
 豆豆鸽
 Tranquill
@@ -26873,7 +26873,7 @@ Calyrex
 Test Pokemon
 测试精灵
 Test Pokemon 2
-测试精灵 2
+测试精灵2
 [2]
 Seed
 种子
@@ -28346,7 +28346,7 @@ King
 Test
 测试
 Test 2
-测试 2
+测试2
 High King
 高位王
 Mellow
@@ -34160,7 +34160,7 @@ Protects the user from attacks. Physical attackers take 1/8th HP damage.
 The user scatters bursts of spores that induce sleep. Only one use per battle.
 沙沙沙地撒满具有催眠效果的孢子，从而让对手陷入睡眠。
 Lowers the target's Attack stat, then restores its own HP by the target's Attack.
-给自己回复和对手攻击力相同数值的HP，然后减小对手的攻击。
+给自己回复和对手物攻相同数值的HP，然后减小对手的物攻。
 The user restores half of their max HP, or 66% in sunshine.
 使用者回复50%的HP，在晴天时回复量增加到66%。
 The user lands an intense tropical kick on the target. This also lowers the target's Attack stat by two steps.
@@ -35316,7 +35316,7 @@ By sacrificing half its total HP, the user makes the target fall asleep.
 Doubles in power if the foe is asleep. The user's HP is restored by 50% the damage dealt. This can overheal.
 对睡眠状态中的对手威力翻倍，并恢复其受到伤害一半的HP，可以过量治疗。
 Summons eclipse for six turns, boosting Psychic-type attacks and heralding the total eclipse.
-召唤持续6回合的日蚀，提升超能属性攻击并预示着日全蚀的到来。
+召唤持续6回合的日食，提升超能属性攻击并预示着日全食的到来。
 The user employs psychic power to switch its unmodified Sp. Atk with its unmodified Sp. Def.
 使用者运用超能力，交换基础特攻和特防。
 The user psychically exploits weak points in the target's mind. Can random critical hit, and does so twice as often.
@@ -35732,7 +35732,7 @@ The target is raked with steel claws twice. The user raises its attack after eac
 The target is obliterated by a meteoric strike, which raises the user's attack by two steps.
 使用流星一击湮没对手，并大幅度增加自身攻击。
 The user sharply boosts its Defense, gains the ability Filter, and becomes Steel-type.
-大幅度增加自身的防御力，同时将特性变为过滤，并使自身变为钢属性。
+自身的物防增加2级，同时将特性变为过滤，并使自身变为钢属性。
 The user focuses intently, making every future attack critical. The user becomes a Steel-type.
 全神贯注，使自身所有攻击都可以命中要害，同时使自身变为钢属性。
 The user creates a Polarized Room for 8 turns, raises both of its Defensive stats, and becomes Steel-type.
@@ -36321,7 +36321,7 @@ Babiri Berry
 Roseli Berry
 洛玫果
 Chilan Berry
-灯浆果
+灯树果
 Liechi Berry
 枝荔果
 Ganlon Berry
@@ -37190,7 +37190,7 @@ Babiri Berries
 Roseli Berries
 洛玫果
 Chilan Berries
-灯浆果
+灯树果
 Liechi Berries
 枝荔果
 Ganlon Berries
@@ -39000,7 +39000,7 @@ Expertise
 Extorter
 敲诈者
 Extra Scoop
-额外勺子
+再来一勺
 Extreme Power
 极限动力
 Extreme Voltage
@@ -39907,7 +39907,7 @@ Reduces damage from super-effective attacks by 25%.
 Physical moves against the Pokémon have a 30% chance to burn the attacker.
 有30%概率让使用物理类技能攻击自己的对手变为烧伤。
 In sunshine boosts its and allies' Attack and Sp. Def by 50%.
-晴朗天气时，自己与同伴的攻击和特防能力会增加。
+晴天时，自身和队友的物攻和特防增加50%。
 Protects Grass-type allies from non-volatile status conditions or stat reductions (except self-inflicted).
 保护草属性队友免受稳定型异常或能力等级减小效果的影响（自我造成的除外）。
 Doubles Defense. The Pokémon takes double damage from Fire-type moves.
@@ -39917,7 +39917,7 @@ Castform transforms with the weather.
 Reduces damage done to allies by 25%.
 可以减小我方的伤害。
 Doubles the Pokémon's Defense.
-精灵的防御力翻倍。
+物防翻倍。
 The user's Speed is doubled while using Flying-type moves.
 使用飞行属性技能时速度翻倍。
 Normal-type moves become Electric-type and power up by 30%.
@@ -39957,7 +39957,7 @@ The Pokémon is protected from flinching, Intimidate, Fascinate, and Frustrate.
 Upon entry, lowers the foe's Attack stat by two steps.
 出场时威吓对手，让其退缩，减小对手2级物攻。
 Raises Attack when the Pokémon enters a battle.
-进入战斗时增加攻击力。
+进入战斗时，物攻增加1级。
 Physical moves against it inflict 1/8th max HP damage to the foe.
 受到攻击时，用粗糙的皮肤弄伤使用物理类技能攻击自己的对手1/8HP。
 Boosts the power of punching moves by 30%.
@@ -40169,7 +40169,7 @@ Doubles Speed in eclipse.
 Raises Defense and Sp. Def whenever any Pokémon uses a dance move. Caps out at +4.
 每当任何精灵使用舞蹈类技能时，双防增加1级。上限为+4。
 Takes 35% less damage in eclipse, except in total eclipse.
-在日食中受到的伤害减小35%，全蚀除外。
+在日食中受到的伤害减小35%，全食除外。
 Takes 40% less damage from attacks by Pokémon who have a non-volatile status condition.
 从处于稳定型异常的精灵的攻击中受到的伤害减小40%。
 Turns to Finale Form when only unfainted on team. Ability becomes Synchronize.
@@ -40405,7 +40405,7 @@ At low health, eats other battlers' low-health triggered berries.
 Upon entry, the Pokémon heals itself for 1/4th max HP. This can overheal.
 进入战斗后治疗25%最大HP，且可以过量回复。
 Increases Attack by 50%, but the Pokémon is hurt for 1/10th HP each turn.
-攻击力增加50%，但每回合受到10%最大HP的伤害。
+物攻增加50%，但每回合受到10%最大HP的伤害。
 Increases Sp. Atk by 50%, but the Pokémon is hurt for 1/10th HP each turn.
 特攻增加50%，但每回合受到10%最大HP的伤害。
 Heals by 1/8th of its max HP each turn if in eclipse.
@@ -40425,7 +40425,7 @@ Takes half damage from Ice- and Flying-type attacks.
 When attacked with a special move, inflicts 1/8th max HP damage on the attacker.
 被特殊类技能攻击时，对手会受到1/8HP的伤害。
 Boosts Attack by 75%, but the Pokémon becomes burned after attacking.
-增加75%攻击力，但发动攻击后会烧伤自己。
+物攻增加75%，但发动攻击后会烧伤自己。
 During eclipse, gets a 30% boost to Sp. Atk.
 日食天气下增加30%特攻。
 Double the Pokémon's Speed if any enemy is below half health.
@@ -40495,13 +40495,13 @@ Summons a hail for four turns when hit by an attack.
 Flying-type attacks have a 40% chance to frostbite.
 飞行属性的攻击有40%概率使对方冻伤。
 Upon entry, lowers the foe's Speed stat by two steps.
-进入战斗后，大幅度减小对手的速度。
+进入战斗后，使对手的速度减小2级。
 Boosts Attack by 30%, but lowers Attack after using a physical move.
-攻击力增加30%，但使用物理类技能后会减小攻击力。
+物攻增加30%，但使用物理类技能后会使物攻减小1级。
 Immune to Fire-type and Ice-type moves.
 免疫火、冰属性技能。
 Doubled Attack during the turn of a Full Moon.
-在满月天气中，攻击力加倍。
+在满月天气中，物攻翻倍。
 Random added effects of wind-based moves are +50% more likely to occur.
 风类技能的随机附加效果发生的概率增加50%。
 Boosts the power of wind-based moves by 50%.
@@ -40527,7 +40527,7 @@ Moves that bind the opponent deal 50% more damage (on the initial hit).
 Boosts Sp. Def by two steps when hit by an attack.
 受到攻击时，特防增加2级。
 Raises Attack whenever any Pokémon uses a dance move.
-任何精灵使用舞蹈类技能时都会增加攻击力。
+任何精灵使用舞蹈类技能时都会使物攻增加1级。
 Heals 1/16th HP every turn. Protected from being poisoned.
 每回合恢复1/16HP，并且不会陷入中毒。
 Upon entry, traps each opponent in a whirlpool for two turns.
@@ -40551,7 +40551,7 @@ Immune to Fairy-type moves and restores 25% of max HP if hit by one. This can ov
 Immune to Dark-type moves, and boosts Attack and Sp. Atk when hit by one.
 免疫恶属性技能，被恶属性技能击中时增加物攻和特攻1级。
 Heals by 1/8th of its max HP each turn if in sunshine.
-在晴天天气中，每回合恢复最大HP的1/8.
+晴天时，每回合恢复最大HP的1/8。
 Doubles the Pokémon's Sp. Def in sunshine.
 在阳光下，精灵的特防翻倍。
 Boosts the power of kicking moves by 30%. Immune to hazards.
@@ -40625,7 +40625,7 @@ Boosts the power of kicking moves by 30%.
 Causes sandstorm to deal double damage and increase Sp. Def of Rock-types by 2.0x instead of 1.5x.
 使沙暴造成的伤害翻倍，并且使岩石属性的特防增加效果从1.5倍变为2倍。
 Raises Attack by two steps after dealing not-very-effective or barely-effective damage.
-如果攻击无效或效果不佳，攻击力大幅度增加。
+如果攻击无效或效果不佳，物攻增加2级。
 Uses Wish after knocking out any Pokémon.
 击倒任意精灵后使用祈愿。
 Ignores Abilities that would affect its moves or activate after hitting the target.
@@ -40645,7 +40645,7 @@ Boosts the power of punching moves by 50%.
 At end of turn, regenerates its previously-used berry.
 回合结束时，使之前的树果再生。
 Cannot take damage or be switched out. Hears Perish Song upon entering, ensuring its demise.
-不会受到伤害或者被换出战场，入场时会立即听到灭亡之歌。
+不会受到伤害且不能被替换下场，入场时会立即听到灭亡之歌。
 Deals 30% more damage when it's slower than the target.
 速度比对方慢时，额外造成30%伤害。
 Protected from critical hits. Can't be burned or frostbitten.
@@ -40743,7 +40743,7 @@ Doubles Speed in moonglow.
 Boosts Speed by 50% in moonglow. Can't miss during moonglow.
 在月辉下增加50%的速度，且攻击必中。
 In moonglow, Attack is boosted by 50%, but the Pokémon is hurt for 1/10th HP each turn.
-在月辉下，攻击力增加50%，但每回合受到1/10HP的伤害。
+在月辉下，物攻增加50%，但每回合受到1/10HP的伤害。
 During moonglow, Speed is boosted by 50% and twice as likely to crit.
 在月辉下，速度增加50%，击中要害概率增加两倍。
 Deals no damage to a target while they are using a status move.
@@ -40875,7 +40875,7 @@ Immune to Dark-type and Bug-type moves.
 Spread moves deal 25% more damage instead of 25% less.
 多目标类技能攻击多个目标时，技能威力不仅不会减小，反而会增加25%。
 When the Pokémon eats a Berry, it raises its Attack and Sp. Atk by two steps.
-精灵吃下树果时，增加物攻和特攻2级。
+吃下树果时，双攻增加2级。
 Heals 1/8th of its max HP each turn during sandstorm.
 沙暴天气时，每回合回复1/8的HP。
 Immune to Rock-type moves and to Stealth Rock, and raises Speed whenever one would hit it.
@@ -40965,7 +40965,7 @@ Can't be leeched, drained, or trapped.
 Two-turn retreat moves such as Dig deal double damage.
 像挖洞这样的两回合技能造成双倍伤害。
 Attack is boosted by 50% if a Tailwind is blowing.
-顺风时攻击力增加50%。
+顺风时，物攻增加50%。
 The Pokémon is also Bug-type, but its Speed is halved.
 同时被视为虫属性，但速度减半。
 Falls asleep upon entry, but raises all of its stats by two steps.
@@ -41153,7 +41153,7 @@ Immune to weather downsides, and takes 20% less damage from attacks during weath
 Takes 50% less damage from not-very-effective or barely-effective attacks.
 受到效果不佳的技能攻击时，减小受到的伤害。
 Draws in moves from foes with base power 100 or more. Takes 15% less move damage.
-吸引基础攻击力超过100的对手攻击，并减小15%受到的伤害。
+吸引基础威力超过100的对手的攻击，并减小15%受到的伤害。
 Uses Power Split upon entry or when hit by a move.
 进入战斗或被命中时，使用力量平分。
 Upon entry, summons a Primal Forest on the Pokémon's side for 6 turns.
@@ -41511,7 +41511,7 @@ Alex
 Georgio
 乔尼奥
 Bella and Meghan
-贝拉 和 梅根
+贝拉和梅根
 Stannis
 斯坦尼斯
 Carmilla
@@ -41545,7 +41545,7 @@ Anastasia
 Gretchen
 格蕾琴
 Marcel
-马塞尔l
+马塞尔
 Eric
 Eric
 Kristiane
@@ -41559,51 +41559,51 @@ Flavio
 Stella
 斯特拉
 Brickbat
-砖块
+Brickbat
 Zinnia
-紫罗兰
+Zinnia
 Agentbla
 代理布莱
 Pria
 普里亚
 IgnitedxSoul
-火焰之魂
+IgnitedxSoul
 Drawingbox
-绘图盒
+Drawingbox
 Dada
 达达
 Zufaix
 祖法克斯
 Lichenprincess
-地衣公主
+Lichenprincess
 Maddie
 麦迪
 Papper
 帕珀
 Tiki
-蒂基
+Tiki
 Splitmoon
-半月
+Splitmoon
 Steeb
-斯蒂布
+Steeb
 D
 D
 Jaggedthorn
-锯齿荆棘
+Jaggedthorn
 Darlvon
-达尔冯
+Darlvon
 Minty
-薄荷
+Minty
 LunaFlare
-月光火焰
+LunaFlare
 Valrex
-瓦尔雷克斯
+Valrex
 Jbsundown
-JB日落
+Jbsundown
 Miss Zesty
 Miss Zesty
 Riptide
-激流
+Riptide
 Attea
 Attea
 Bella
@@ -43096,7 +43096,7 @@ Novo Buildings
 望新建筑
 64
 M. Munna Den
-梦梦蚀巢穴
+梦梦食巢穴
 65
 Goomy Den 3
 黏黏宝巢穴3
@@ -44002,7 +44002,7 @@ Ruined Tower F3
 废弃之塔F3
 366
 M. Munna Den 2
-M. 梦梦蚀巢穴2
+M. 梦梦食巢穴2
 367
 Prizca Great Hall
 宏礼城堡
@@ -44158,7 +44158,7 @@ Crackling Cave
 烈之窟
 418
 M. Munna Den 3
-梦梦蚀巢穴3
+梦梦食巢穴3
 419
 Cavern of Emotion
 情感之窟
@@ -46736,11 +46736,11 @@ Switch
 Modify
 调整
 Send to PC
-送回电脑
+送到电脑
 Are you sure you'd like to send back {1}?
 你确定要送回{1}吗？
 Send to TC
-发送到TC
+送到TC
 Set Item Type
 设置物品类型
 Take One
@@ -46880,25 +46880,25 @@ Purchase complete.
 I'll throw in a Premier Ball, too.
 这个纪念球是赠品，请收好。
 You got a free Premier Ball with your purchase!
-你在购买时获得了一个免费的纪念球！
+你在购买时获得了1个免费的纪念球！
 I'll throw in some Premier Balls, too.
 这纪念球是赠品，请收好。
 You got some free Premier Balls with your purchase!
 你在购买时获得了一些免费的纪念球！
 {1}? Oh, no. I can't buy that.
-{1}?我不能买那个。
+{1}？我不能买那个。
 {1}? How many would you like to sell?
-{1}?你要卖几个？
+{1}？你要卖几个？
 I can pay {1}. Would that be OK?
 我会给你{1}。可以吗？
 Turned over the {1} and received {2}.
-翻开{1}受到了{2}。
+翻开{1}收到了{2}。
 Back
 退出
 {1} ({2}/{3})
 {1}（{2}/{3}）
 Dex ID
-图鉴 ID
+图鉴ID
 Level
 等级
 Living Dex
@@ -48582,7 +48582,7 @@ Bounsweet, it says. Playful, but a little dangerous!
 Numel, huh? Fire-type--hope I don't get burned!
 是熔岩熊猫吗？火属性精灵——希望我不会被烧到！
 Krabby... a Water-type... with massive attack power, wow!
-大钳蟹...水属性...攻击力惊人，哇！
+大钳蟹...水属性...攻击惊人，哇！
 My Pokémon took move damage!
 我的精灵受到了技能的伤害！
 Your Pokémon took move damage!
@@ -49112,7 +49112,7 @@ Would you like to give a nickname to {1}?
 Would you like to add {1} to your party?
 要将{1}加入队伍吗？
 Choose which Pokemon will be sent back to the PC.
-选择一只精灵送回电脑。
+选择一只精灵送到电脑。
 {1} used the {2}!
 {1}使用了{2}！
 {1} threw an {2}!
@@ -50228,7 +50228,7 @@ No moves barred! {1} can use off-type moves again!
 {1} was freed from constriction!
 {1}从束缚中解脱了！
 {1} is no longer constricted by {2}.
-{1}不再被{2}束缚。
+{1}不再被{2}束缚了！
 {1} is hurt by constriction!
 {1}被束缚伤害了！
 {1} gained the {2} type!
@@ -50610,9 +50610,9 @@ It will last forever!
 It will last for {1} more turns!
 它将持续{1}个回合！
 {1}'s Tailwind was stopped!
-{1}的顺风停息了！
+{1}的顺风停止了！
 {1}'s Tailwind petered out.
-{1}的顺风逐渐平息了。
+{1}的顺风逐渐停止了。
 {1} can no longer use items!
 {1}无法再使用物品！
 A rock lands on the ground around {1}.
@@ -51614,7 +51614,7 @@ But it failed to affect {1}!
 {1} obtained {2}.
 {1}得到了{2}。
 But it failed, because {1} has no berries!
-但它失败了，因为{1}没有浆果！
+但它失败了，因为{1}没有树果！
 But it failed, because {1} cannot eat its berry!
 但它失败了，因为{1}无法食用它的树果！
 But it failed, because no one has any berries!
@@ -51756,7 +51756,7 @@ second
 final
 最终
 \wm{1} is happy enough to show off its {2} trait: {3}!\me<<[>>Egg get<<]>>\wtnp<<[>>80<<]>><<1>>
-\wm{1}足够开心，展示它的{2}特质：{3}！\me<<[>>Egg get<<]>>\wtnp<<[>>80<<]>><<1>>
+\wm{1}足够开心，展示它的{2}性情：{3}！\me<<[>>Egg get<<]>>\wtnp<<[>>80<<]>><<1>>
 \wm{1} is at maximum happiness! It loves you so much!<<1>>
 \wm{1}的亲密度达到了最大值！它非常爱你！<<1>>
 \wm{1} reveals that it likes {2} and that it dislikes {3}!\me<<[>>Egg get<<]>>\wtnp<<[>>100<<]>><<1>>
@@ -53220,7 +53220,7 @@ There's no more room for Pokémon!<<1>>
 The Pokémon Boxes are full and can't accept any more!
 精灵箱子已满，无法再接受更多！
 Choose which Pokémon will be sent back to the PC.
-选择哪只精灵将被送回电脑。
+选择哪只精灵将被送到电脑。
 {1} is holding multiple items. Take them before transferring?
 {1}正携带着多个物品，要将它们取下来吗？
 {1} is holding an {2}. Would you like to take it before transferring?
@@ -55021,8 +55021,10 @@ All eggs in your party now require one step to hatch.
 你队伍中的所有蛋现在只需要一步就能孵化。
 Fill Storage Boxes
 填满存储箱
-Add one Pokémon of each species (at Level 50) to storage.
-将每种精灵（等级50）各一只添加到存储中。
+Add one Pokémon of each species to storage.
+将每种精灵各一只添加到存储中。
+What level?
+多少级？
 Storage boxes were filled with one Pokémon of each species.
 存储箱已被每种精灵各一只填满。
 Note: The number of storage spaces ({1} boxes of {2}) is less than the number of species.
@@ -55400,7 +55402,7 @@ If together they threaten lots of Pokémon and deal with each others' counters, 
 Combine both and you have a balanced core. Good cores make for powerful teams.
 将两者结合，你就有了一个平衡的核心。强大的核心造就强大的队伍。
 You don't need them, but they're a surefire way to give your team some bite.
-你不需要它们，但它们是让你的队伍更具攻击力的可靠方法。
+你不需要它们，但它们是让你的队伍更具攻击的可靠方法。
 The Pokémon you start a fight with is your "lead."
 你开始战斗时使用的精灵就是你的“首发精灵”。
 Start every fight with it and it's a "dedicated lead." Make it a good one.

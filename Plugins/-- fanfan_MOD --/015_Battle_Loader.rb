@@ -229,6 +229,7 @@ module PokemonDataBase
     species_list = GameData::Species.keys.shuffle
     species_list.each do |species|
       species_data = GameData::Species.get(species)
+      next if species_data.isTest?
       next if species_data.base_stat_total < LOWEST_PKMN_BST
       pkmn = Pokemon.new(species_data.id, 1)
 
