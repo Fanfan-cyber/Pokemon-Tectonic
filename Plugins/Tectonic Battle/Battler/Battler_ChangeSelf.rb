@@ -779,7 +779,7 @@ class PokeBattle_Battler
         end
     end
 
-    def addIllusionAbilities
+    def addIllusionAbilities # didn't use this one, add abilities on Switch in
         return unless disguisedAs.ability 
         return if GameData::Ability.get(disguisedAs.ability_id).is_uncopyable_ability?
         @ability_ids.push(disguisedAs.ability_id)

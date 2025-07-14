@@ -46,7 +46,7 @@ BattleHandlers::MoveSpeedModifierAbility.add(:SHARPSHOOTER,
     proc { |ability, battler, move, battle, mult, aiCheck|
         next unless (aiCheck && move.nil?) || move.canRandomCrit?
         if aiCheck
-            next mult * 2.0
+            next mult * (battler.hasRandomCritAttack? ? 2.0 : 1.0)
         else
             battler.applyEffect(:MoveSpeedDoubled,ability)
         end
@@ -57,7 +57,7 @@ BattleHandlers::MoveSpeedModifierAbility.add(:HOPPINGMAD,
     proc { |ability, battler, move, battle, mult, aiCheck|
         next unless (aiCheck && move.nil?) || move.rampagingMove?
         if aiCheck
-            next mult * 2.0
+            next mult * (battler.hasReampagingMove? ? 2.0 : 1.0)
         else
             battler.applyEffect(:MoveSpeedDoubled,ability)
         end

@@ -65,7 +65,7 @@ DebugMenuCommands.register("addpokemon", {
       box_qty = $PokemonStorage.maxPokemon(0)
       completed = true
       GameData::Species.each do |species_data|
-        next if species_data.isTest?
+        #next if species_data.isTest?
         sp = species_data.species
         f = species_data.form
         # Record each form of each species as seen and owned
