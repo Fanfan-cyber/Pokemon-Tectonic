@@ -1596,7 +1596,7 @@ Pokemon = MANERGETIC,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 0,20,0,20,20,10
 Pokemon = WAILORD,70
-    Moves = SKYFALL,MAELSTROM,COLDFRONT,MENDINGSPRING
+    Moves = SKYFALL,BUBBLEBLASTER,COLDFRONT,MENDINGSPRING
     AbilityIndex = 0 # Pressure
     Item = LEFTOVERS
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -1869,7 +1869,7 @@ Pokemon = CONIFEAR,70
     EV = 20,20,5,0,20,5
 Pokemon = JELLICENT,70
     Gender = male
-    Moves = SHIVER,HEX,MAELSTROM,STRENGTHSAP
+    Moves = SHIVER,HEX,SLAMSHUT,STRENGTHSAP
     AbilityIndex = 1 # Sentry
     Item = LEFTOVERS
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def

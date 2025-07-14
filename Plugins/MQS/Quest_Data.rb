@@ -197,6 +197,14 @@ module QuestModule
     :QuestDescription => _INTL("You've been offered a gauntlet of scientists to try to get past. How difficult could these eggheads be anyways?"),
   }
 
+  QUEST_SHOW_LEGEND = {
+    :Name => _INTL("The Bucket List"),
+    :QuestGiver => _INTL("Old Lady"),
+    :Stage1 => _INTL("Show her a legendary."),
+    :Location1 => _INTL("East-Peaks Gatehouse"),
+    :QuestDescription => _INTL("An elderly lady notices your strength and status, and figures you may have a legendary Pokémon. She only wishes to see it and admire it. How about humoring her request? I'm sure there is something powerful in this region that you could find."),
+  }
+
   # Gym Leader Avatars
 
   QUEST_GYM_AVATARS_1 = {

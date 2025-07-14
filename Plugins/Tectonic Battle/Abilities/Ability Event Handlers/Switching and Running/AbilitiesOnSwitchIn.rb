@@ -364,6 +364,15 @@ BattleHandlers::AbilityOnSwitchIn.add(:PACIFIST,
   }
 )
 
+BattleHandlers::AbilityOnSwitchIn.add(:HOPPINGMAD,
+  proc { |ability, battler, battle, aiCheck|
+      next 0 if aiCheck
+      battle.pbShowAbilitySplash(battler, ability)
+      battle.pbDisplay(_INTL("{1} is hopping mad!", battler.pbThis))
+      battle.pbHideAbilitySplash(battler)
+  }
+)
+
 ##########################################
 # Screen setting abilities
 ##########################################

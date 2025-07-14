@@ -1543,6 +1543,14 @@ module EmpoweredMove
             @battle.summonAvatarBattler(species, user.level, 0, user.index % 2)
         end
     end
+
+    def craftItem(user,itemID)
+        itemName = GameData::Item.get(itemID).name
+        if user.canAddItem?(itemID)
+          @battle.pbDisplay(_INTL("{1} crafts itself a {2}!", user.pbThis, itemName))
+          user.giveItem(itemID)
+        end
+    end
 end
 
 #===============================================================================

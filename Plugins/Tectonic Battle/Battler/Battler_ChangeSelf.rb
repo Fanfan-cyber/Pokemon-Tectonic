@@ -769,15 +769,21 @@ class PokeBattle_Battler
         end
 
 =begin
-        if !initialization && illusion? && hasActiveAbility?(:INCOGNITO) && disguisedAs.ability && !GameData::Ability.get(disguisedAs.ability_id).is_uncopyable_ability?
-            @ability_ids.push(disguisedAs.ability_id)
-            @addedAbilities.push(disguisedAs.ability_id)
+        if !initialization && illusion? && hasActiveAbility?(:INCOGNITO)
+            addIllusionAbilities
         end
 =end
 
         unless initialization
             pbOnAbilitiesLost(prevAbilities)
         end
+    end
+
+    def addIllusionAbilities
+        return unless disguisedAs.ability 
+        return if GameData::Ability.get(disguisedAs.ability_id).is_uncopyable_ability?
+        @ability_ids.push(disguisedAs.ability_id)
+        @addedAbilities.push(disguisedAs.ability_id)  
     end
 
     def setAbility(value)

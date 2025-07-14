@@ -160,10 +160,6 @@ Description = Raises Defense and Sp. Def by three steps when its HP is lowered b
 Name = Beguiling
 Description = Special attacks against the Pokémon have a 30% chance to dizzy the attacker.
 #-------------------------------
-[BELLIGERENT]
-Name = Belligerent
-Description = Boosts Attack and Sp. Atk by three steps when a stat is lowered by a foe.
-#-------------------------------
 [BELLOWER]
 Name = Bellower
 Description = After using a sound move, all foes are tormented.
@@ -318,7 +314,7 @@ Flags = MultipleItems
 #-------------------------------
 [COLDCALCULATION]
 Name = Cold Calculation
-Description = Boosts Sp. Attack by 75%, but the Pokémon becomes frostbitten after attacking.
+Description = Boosts Sp. Atk by 75%, but the Pokémon becomes frostbitten after attacking.
 #-------------------------------
 [COLDRECEPTION]
 Name = Cold Reception
@@ -913,6 +909,10 @@ Description = Lowers priority of status moves used by any Pokémon.
 [HOOLIGAN]
 Name = Hooligan
 Description = Powers up recoil and sound moves by 30%.
+#-------------------------------
+[HOPPINGMAD]
+Name = Hopping Mad
+Description = The Pokémon's Speed is doubled while using rampage moves.
 #-------------------------------
 [HUBRIS]
 Name = Hubris

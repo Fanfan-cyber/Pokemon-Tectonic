@@ -512,7 +512,7 @@ GameData::BattleEffect.register_effect(:Battler, {
             if idxLastParty >= 0 && idxLastParty != battler.pokemonIndex
                 toDisguiseAs = battle.pbParty(battler.index)[idxLastParty]
                 battler.applyEffect(:Illusion, toDisguiseAs)
-                battler.resetAbilities if battler.hasActiveAbility?(:INCOGNITO)
+                battler.addIllusionAbilities if battler.hasActiveAbility?(:INCOGNITO)
             end
         end
 

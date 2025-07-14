@@ -243,7 +243,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = DoubleDamageUserStatused
 Flags = CanProtect
-Description = Doubles its power if the user has a status condition. Ignores damage reduction from Burn or Frostbite.
+Description = Doubles its power if the user has a non-volatile status condition. Ignores damage reduction from Burn or Frostbite.
 #-------------------------------
 [FAKEOUT]
 Name = Fake Out
@@ -373,7 +373,7 @@ TotalPP = 5
 Target = UserAndAllies
 FunctionCode = CureUserPartyStatus
 Flags = CanSnatch,Sound
-Description = The user makes a soothing bell chime to heal the status problems of all the party Pokémon.
+Description = The user makes a soothing bell chime to heal the non-volatile status conditions of all the party Pokémon.
 #-------------------------------
 [HELPINGHAND]
 Name = Helping Hand
@@ -675,7 +675,7 @@ TotalPP = 15
 Target = User
 FunctionCode = CureUserStatus
 Flags = CanSnatch
-Description = The user rests to cure itself of any status condition.
+Description = The user rests to cure itself of any non-volatile status condition.
 #-------------------------------
 [RELICSONG]
 Name = Relic Song
@@ -701,18 +701,6 @@ Target = NearOther
 FunctionCode = DoubleDamageAvengingFaint
 Flags = CanProtect
 Description = Gets revenge for a fainted ally. If an ally fainted in the last turn, this attack's damage doubles.
-#-------------------------------
-[REVELATIONDANCE]
-Name = Revelation Dance
-Type = NORMAL
-Category = Adaptive
-Power = 90
-Accuracy = 100
-TotalPP = 12
-Target = NearOther
-FunctionCode = TypeIsUserFirstType
-Flags = CanProtect,Dance
-Description = The user attacks the target by dancing very hard. The user's type determines the type of this move.
 #-------------------------------
 [ROAR]
 Name = Roar
@@ -2077,7 +2065,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = CureTargetStatusHealUserHalfOfTotalHP
 Flags = CanProtect,CanMagicCoat
-Description = The user heals the target's status condition. If so, it also restores the user's own HP.
+Description = The user heals the target's non-volatile status condition. If so, it also restores the user's own HP.
 #-------------------------------
 [SHELLSIDEARM]
 Name = Shell Side Arm
@@ -2943,7 +2931,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = DoubleDamageTargetStatused
 Flags = CanProtect
-Description = The user hexes the target with evil magic. This deals double damage if the target has a status condition.
+Description = The user hexes the target with evil magic. This deals double damage if the target has a non-volatile status condition.
 #-------------------------------
 [LICK]
 Name = Lick
@@ -4259,18 +4247,6 @@ FunctionCode = ScalesWithUserHP
 Flags = CanProtect
 Description = The user spouts water to damage the foe. Weakens in damage as the user loses HP. Weakest at half HP.
 #-------------------------------
-[WHIRLPOOL]
-Name = Whirlpool
-Type = WATER
-Category = Special
-Power = 50
-Accuracy = 100
-TotalPP = 15
-Target = NearOther
-FunctionCode = BindTarget3
-Flags = CanProtect
-Description = The user swirls the target in a whirlpool, trapping and damaging it for three turns.
-#-------------------------------
 #		GRASS MOVES
 #-------------------------------
 [ABSORB]
@@ -4294,7 +4270,7 @@ TotalPP = 5
 Target = UserAndAllies
 FunctionCode = CureUserPartyStatus
 Flags = CanSnatch
-Description = The user releases a soothing scent that heals all status problems affecting the user's party.
+Description = The user releases a soothing scent that heals all non-volatile status conditions affecting the user's party.
 #-------------------------------
 [BULLETSEED]
 Name = Bullet Seed
@@ -4425,7 +4401,7 @@ TotalPP = 15
 Target = User
 FunctionCode = StartHealUserEachTurnTrapUser
 Flags = CanSnatch
-Description = The user lays roots that restore 1/8th HP on every turn. Because it is rooted, it can't switch out.
+Description = The user lays roots that restore 1/8th HP on every turn. Because it is rooted, it is trapped.
 #-------------------------------
 [JUNGLEHEALING]
 Name = Jungle Healing
@@ -4435,7 +4411,7 @@ Accuracy = 0
 TotalPP = 5
 Target = UserAndAllies
 FunctionCode = HealUserAndAlliesQuarterOfTotalHPCureStatus
-Description = Restores HP and heals status of itself and its ally Pokémon in battle by using Jungle Powers.
+Description = Restores HP and heals non-volatile status conditions of itself and its ally.
 #-------------------------------
 [LEAFAGE]
 Name = Leafage
@@ -4555,18 +4531,6 @@ FunctionCode = LowerTargetSpDef1
 Flags = CanProtect
 EffectChance = 100
 Description = The user generates a shock wave from within its body. This lower's the target's Sp. Def.
-#-------------------------------
-[SNAPTRAP]
-Name = Snap Trap
-Type = GRASS
-Category = Physical
-Power = 75
-Accuracy = 100
-TotalPP = 12
-Target = NearOther
-FunctionCode = BindTarget3
-Flags = CanProtect
-Description = The user snares the target, trapping and damaging it for three turns.
 #-------------------------------
 [SOLARBEAM]
 Name = Solar Beam
@@ -5139,7 +5103,7 @@ TotalPP = 10
 Target = User
 FunctionCode = UserFaintsHealAndCureReplacement
 Flags = CanSnatch
-Description = The user faints. In return, the Pokémon taking its place will have its HP restored and status cured.
+Description = The user faints. In return, the Pokémon taking its place will have its HP restored and non-volatile status conditions cured.
 #-------------------------------
 [HEALPULSE]
 Name = Heal Pulse
@@ -5218,7 +5182,7 @@ TotalPP = 10
 Target = User
 FunctionCode = UserFaintsHealAndCureReplacementRestorePP
 Flags = CanSnatch,Dance
-Description = The user faints. In return, the Pokémon taking its place will have its status and HP fully restored.
+Description = The user faints. In return, the Pokémon taking its place will have its non-volatile status conditions and HP fully restored.
 #-------------------------------
 [LUSTERPURGE]
 Name = Luster Purge
@@ -5364,7 +5328,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = GiveUserStatusToTarget
 Flags = CanProtect
-Description = Using its psychic power of suggestion, the user transfers its status problems to the target.
+Description = Using its psychic power of suggestion, the user transfers its non-volatile status condition to the target.
 #-------------------------------
 [PSYCHUP]
 Name = Psych Up
@@ -5410,7 +5374,7 @@ TotalPP = 5
 Target = User
 FunctionCode = HealUserFullyAndFallAsleep
 Flags = CanSnatch
-Description = The user goes to sleep to fully restore their HP and heal any status conditions.
+Description = The user goes to sleep to fully restore their HP and heal any non-volatile status conditions.
 #-------------------------------
 [ROLEPLAY]
 Name = Role Play
@@ -6141,7 +6105,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = TrapUserAndTarget
 Flags = CanProtect,Biting
-Description = Prevents the user and target from switching out until either of them faints or is switched out.
+Description = Traps the user and target until either of them faints or is switched out.
 #-------------------------------
 [KNOCKOFF]
 Name = Knock Off
@@ -6617,3 +6581,17 @@ FunctionCode = Dizzy
 Flags = CanProtect,CanMagicCoat
 Description = The user kisses the target with a sweet, angelic cuteness that dizzies the target.
 Animation = SWEETKISS
+#-------------------------------
+#		FLEX MOVES
+#-------------------------------
+[REVELATIONDANCE]
+Name = Revelation Dance
+Type = FLEX
+Category = Adaptive
+Power = 90
+Accuracy = 100
+TotalPP = 12
+Target = NearOther
+FunctionCode = TypeIsUserFirstType
+Flags = CanProtect,Dance
+Description = The user attacks the target by dancing very hard.
