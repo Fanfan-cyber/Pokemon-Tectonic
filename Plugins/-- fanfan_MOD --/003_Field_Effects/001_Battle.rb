@@ -14,7 +14,7 @@ class PokeBattle_Battle
     create_new_field(:Base)
   end
 
-  def set_test_field(test_field = :Misty, duration = 3)
+  def set_test_field(test_field = :Ravine, duration = 30)
     create_new_field(test_field, duration)
   end
 
@@ -394,6 +394,12 @@ class PokeBattle_Battle
 
   def is_frozen_field?
     @current_field.is_frozen?
+  end
+
+  def get_tailwind_duration(orig_turn = 4, user = nil)
+    ret = apply_field_effect(:tailwind_duration, user)
+    orig_turn += ret if ret
+    orig_turn
   end
 end
 

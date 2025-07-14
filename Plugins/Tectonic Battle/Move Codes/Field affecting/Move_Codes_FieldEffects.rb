@@ -8,15 +8,11 @@ class PokeBattle_Move_StartUserSideDoubleSpeed4 < PokeBattle_Move
     end
 
     def pbEffectGeneral(user)
-
-        ret = @battle.apply_field_effect(:tailwind_duration, user)
-        @tailwindDuration += ret if ret && !%i[SUSTAINEDWIND JETSTREAM].include?(@id)
-
-        user.pbOwnSide.applyEffect(:Tailwind, @tailwindDuration)
+        user.pbOwnSide.applyEffect(:Tailwind, @battle.get_tailwind_duration(@tailwindDuration, user))
     end
 
     def getEffectScore(user, _target)
-        return getTailwindEffectScore(user, @tailwindDuration, self)
+        return getTailwindEffectScore(user, @battle.get_tailwind_duration(@tailwindDuration, user), self)
     end
 end
 
@@ -30,15 +26,11 @@ class PokeBattle_Move_EmpoweredTailwind < PokeBattle_Move_StartUserSideDoubleSpe
     end
 
     def pbEffectGeneral(user)
-
-        ret = @battle.apply_field_effect(:tailwind_duration, user)
-        @tailwindDuration += ret if ret
-
-        user.pbOwnSide.applyEffect(:EmpoweredTailwind, @tailwindDuration)
+        user.pbOwnSide.applyEffect(:EmpoweredTailwind, @battle.get_tailwind_duration(@tailwindDuration, user))
     end
 
     def getEffectScore(user, _target)
-        score = getTailwindEffectScore(user, @tailwindDuration, self)
+        score = getTailwindEffectScore(user, @battle.get_tailwind_duration(@tailwindDuration, user), self)
         score *= 1.5
         return score
     end
