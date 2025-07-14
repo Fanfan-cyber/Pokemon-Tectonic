@@ -393,7 +393,7 @@ class PokeBattle_Battle
         battled_battlers = tracker_get(:battled_battlers)
         battled_battlers.push(battler.unique_id) unless battled_battlers.include?(battler.unique_id)
         apply_field_effect(:switch_in, battler)
-        battler.tracker_set(:chrono_revert, battler.pokemon.clone_pkmn(false))
+        battler.battle_tracker_set(:chrono_revert, battler.pokemon.clone_pkmn(false))
 
         if battler.illusion? && battler.hasActiveAbility?(:INCOGNITO)
             battler.abilities.clear

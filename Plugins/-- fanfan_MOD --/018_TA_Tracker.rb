@@ -14,6 +14,7 @@ class PokeBattle_BattlerBattleTracker
     @hits_in_progress                 = 0     # used to record the count of hits in progress
     @hits_in_progress_kicking         = 0     # used to record the count of kicking hits in progress
     @warned                           = []    # used for Cursed Tail
+    @chrono_revert​                    = nil   # used to record the Pokemon of Chrono Revert​ effect
 
     @being_hits = 0
     @hits_dealt = 0
@@ -38,7 +39,6 @@ class PokeBattle_BattlerTracker
     @step_counter         = {}    # used to count Stat Steps remaining turns
     @flinched_by_moonglow = false # used for Moonglow Flinch effect
     @damage_in_last_gasp  = 0     # used for count damage-taken times during Last Gasp
-    @chrono_revert​        = nil   # used to record the Pokemon of Chrono Revert​ effect
   end
 end
 
