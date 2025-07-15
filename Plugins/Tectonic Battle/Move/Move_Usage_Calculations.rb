@@ -58,19 +58,31 @@ class PokeBattle_Move
         # Grounded Flying-type Pokémon become susceptible to Ground moves
         ret = Effectiveness::NORMAL_EFFECTIVE_ONE if !target&.airborne? && (defType == :FLYING && moveType == :GROUND)
         # Inured
-        ret /= 2 if target&.effectActive?(:Inured) && Effectiveness.super_effective_type?(moveType, defType)
+        ret *= 0.5 if target&.effectActive?(:Inured) && Effectiveness.super_effective_type?(moveType, defType)
         # Break Through
         if user&.hasActiveAbility?(:BREAKTHROUGH) && Effectiveness.ineffective_type?(moveType, defType)
             ret = Effectiveness::NORMAL_EFFECTIVE_ONE
         end
 
+        ret = apply_reverse(ret)
+
         ret_type = @battle&.apply_field_effect(:move_second_type_on_calc, ret, moveType, defType, user, target)
         if ret_type && GameData::Type.exists?(ret_type)
             ret_eff = Effectiveness.calculate_one(ret_type, defType)
-            ret *= ret_eff.to_f / Effectiveness::NORMAL_EFFECTIVE_ONE
+            ret *= apply_reverse(ret_eff).to_f / Effectiveness::NORMAL_EFFECTIVE_ONE
         end
 
         return ret
+    end
+
+    def should_reverse?
+        return false
+    end
+
+    def apply_reverse(effectiveness)
+        return effectiveness if !should_reverse? || effectiveness == Effectiveness::NORMAL_EFFECTIVE_ONE
+        return Effectiveness::SUPER_EFFECTIVE_ONE if effectiveness < Effectiveness::NORMAL_EFFECTIVE_ONE
+        return Effectiveness::NOT_VERY_EFFECTIVE_ONE
     end
 
     def pbCalcTypeMod(moveType, user, target, uiOnlyCheck = false)

@@ -154,7 +154,8 @@ doublebattle/disabledouble，开启/关闭全双打模式
 9.修复了开启导航时可能会导致游戏崩溃的Bug
 10.修复了AI会错误的计算Sharpshooter的精灵使用不能够命中要害的技能时的速度的Bug
 11.修复了AI会错误的计算Hopping Mad的精灵使用非暴走类技能时的速度的Bug
-12.
+12.修复了在某些情况下Inure的效果可能会错误应用的Bug
+13.
 
 0.3.4
 1.修复了大量翻译的问题
