@@ -90,6 +90,10 @@ Flags = CritImmunity
 Name = Beast Boost
 Description = Boosts its best stat each time it deals a KO.
 #-------------------------------
+[BELLIGERENT]
+Name = Belligerent
+Description = Boosts Attack and Sp. Atk by three steps when a stat is lowered by a foe.
+#-------------------------------
 [BIGPECKS]
 Name = Big Pecks
 Description = Protects from Def-lowering or Sp. Def-lowering.

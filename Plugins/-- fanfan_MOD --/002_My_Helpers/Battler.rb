@@ -24,6 +24,18 @@ class PokeBattle_Battler
     end
     return nil
   end
+  
+  def replace_pokemon(new_pokemon)
+    all_trainers = [@battle.player, @battle.opponent].flatten.compact
+    all_trainers.each do |trainer|
+      trainer.party.each_with_index do |pkmn, idx|
+        next unless pkmn.unique_id == unique_id
+        trainer.party[idx] = new_pokemon
+        return trainer
+      end
+    end
+    return false
+  end
 
   def bigger_side?
     idxOwnSide == @battle.bigger_side

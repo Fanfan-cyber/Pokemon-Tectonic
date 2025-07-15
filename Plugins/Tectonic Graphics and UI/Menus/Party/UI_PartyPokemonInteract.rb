@@ -246,7 +246,7 @@ existingIndex)
 
         newspecies = @pkmn.check_evolution_on_level_up(false)
         # Build the commands
-        commands[cmdAdaptiveAI = commands.length]   = _INTL("Adaptive AI") if TA.get(:adaptiveai)
+        commands[cmdAdaptiveAI = commands.length]   = _INTL("Adaptive AI") if TA.get(:adaptiveai) || $DEBUG
         commands[cmdDeleteMove = commands.length]   = _INTL("Delete Move") if @pkmn.numMoves > 1
         commands[cmdEvolve = commands.length]       = _INTL("Evolve") if newspecies
         commands[cmdExtraMoves = commands.length]   = _INTL("Extra Moves") if @pkmn.isSpecies?(:DEOXYS)
@@ -255,7 +255,7 @@ existingIndex)
         commands[cmdSetGender = commands.length]    = _INTL("Set Gender")
         commands[cmdSetHP = commands.length]        = _INTL("Set HP")
         commands[cmdSetStatus = commands.length]    = _INTL("Set Status")
-        commands[cmdStyle = commands.length]        = _INTL("Set Style") if pbHasItem?(:STYLINGKIT)
+        commands[cmdStyle = commands.length]        = _INTL("Set Style") if pbHasItem?(:STYLINGKIT) || $DEBUG
         commands[cmdSetTitle = commands.length]     = _INTL("Set Title")
         commands[cmdSetTrait = commands.length]     = _INTL("Set Trait") if @pkmn.happiness >= Pokemon::PERSONALITY_THRESHOLD_ONE
         commands[cmdSwapPokeBall = commands.length] = _INTL("Swap Ball")

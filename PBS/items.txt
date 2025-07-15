@@ -981,7 +981,7 @@ NamePlural = Prismatic Plates
 Pocket = 5
 Price = 0
 Flags = TypeSetting
-Description = A tablet that boosts same-type attacks by 20%. If held by Arceus, you can change its type between battles.
+Description = A tablet that boosts same-type moves by 20%. If held by Arceus, you can change its type between battles.
 #-------------------------------
 [WILDCARD]
 Name = Wild Card

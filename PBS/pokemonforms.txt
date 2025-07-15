@@ -889,26 +889,31 @@ Pokedex = Darmanitan takes this form when enraged. It won't stop spewing flames 
 [AMPHAROS,1]
 FormName = Ascended
 BaseStats = 110,100,165,80,190,165
+Pokedex = It has achieved its ultimate final form. The light it radiates turns night to day.
 #-------------------------------
 [GARCHOMP,1]
 FormName = Reaper
 BaseStats = 110,155,125,95,100,75
+Pokedex = It takes a grim joy in using its new scythes. Some worry that it may become a Ghost-type if it spends too much time in this state.
 #-------------------------------
 [GYARADOS,1]
 FormName = Rampage
 BaseStats = 95,155,110,85,85,115
 Abilities = JUGGERNAUT
+Pokedex = Great conflicts naturally prompt Gyarados to enter this form. Peaceful regions rarely see them in such a state.
 #-------------------------------
 [GARDEVOIR,1]
 FormName = Finale
 BaseStats = 90,85,85,110,145,145
 Abilities = SYNCHRONIZE
+Pokedex = Its heart-spike divided to better contain its psychic energy, which has formed into a kugelblitz of pure determination.
 #-------------------------------
 [GALLADE,1]
 FormName = Finale
 MegaStone = GALLADITE
 BaseStats = 90,125,100,110,75,160
 Abilities = INNERFOCUS
+Pokedex = Its blades can cut a Pokémon from its shadow. It will not back down till the end, come Hyper Beam or high water.
 #-------------------------------
 [MEWTWO,1]
 FormName = Overmatter
@@ -918,7 +923,7 @@ BaseStats = 110,190,100,130,150,100
 Abilities = INNERFOCUS
 Height = 2.3
 Weight = 127.0
-Pokedex = Psychic power has augmented its muscles. It has a grip strength of one ton and can sprint a hundred meters in two seconds flat!
+Pokedex = Its body has been perfected by its vast psychic power. Anywhere it strikes glows as atoms fuse.
 #-------------------------------
 [MEWTWO,2]
 FormName = Overmind
@@ -926,7 +931,7 @@ BaseStats = 110,150,70,140,190,120
 Abilities = VITALSPIRIT
 Height = 1.5
 Weight = 33.0
-Pokedex = Despite its diminished size, its mental power has grown phenomenally. With a mere thought, it can smash a skyscraper to smithereens.
+Pokedex = Those few who see this form in battle find later that their memories of it have been replaced by static.
 #-------------------------------
 [ENAMORUS,1]
 FormName = Therian

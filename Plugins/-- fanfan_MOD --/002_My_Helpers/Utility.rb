@@ -14,6 +14,7 @@ def has_species_pc?(species, form = -1)
 end
 
 def has_species?(species, form = -1)
+  return false if $DEBUG
   has_species_party?(species, form) || has_species_pc?(species, form)
 end
 

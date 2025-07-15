@@ -8,15 +8,11 @@ class PokeBattle_Move_StartUserSideDoubleSpeed4 < PokeBattle_Move
     end
 
     def pbEffectGeneral(user)
-
-        ret = @battle.apply_field_effect(:tailwind_duration, user)
-        @tailwindDuration += ret if ret && !%i[SUSTAINEDWIND JETSTREAM].include?(@id)
-
-        user.pbOwnSide.applyEffect(:Tailwind, @tailwindDuration)
+        user.pbOwnSide.applyEffect(:Tailwind, @battle.get_tailwind_duration(@tailwindDuration, user))
     end
 
     def getEffectScore(user, _target)
-        return getTailwindEffectScore(user, @tailwindDuration, self)
+        return getTailwindEffectScore(user, @battle.get_tailwind_duration(@tailwindDuration, user), self)
     end
 end
 
@@ -24,16 +20,19 @@ end
 class PokeBattle_Move_EmpoweredTailwind < PokeBattle_Move_StartUserSideDoubleSpeed4
     include EmpoweredMove
 
+    def initialize(battle, move)
+        super
+        @tailwindDuration = 6
+    end
+
     def pbEffectGeneral(user)
+        user.pbOwnSide.applyEffect(:EmpoweredTailwind, @battle.get_tailwind_duration(@tailwindDuration, user))
+    end
 
-        ret = @battle.apply_field_effect(:tailwind_duration, user)
-        @tailwindDuration += ret if ret
-
-        user.pbOwnSide.applyEffect(:Tailwind, @tailwindDuration)
-        @battle.eachSameSideBattler(user) do |b|
-            b.applyEffect(:ExtraTurns, 1)
-        end
-        transformType(user, :FLYING)
+    def getEffectScore(user, _target)
+        score = getTailwindEffectScore(user, @battle.get_tailwind_duration(@tailwindDuration, user), self)
+        score *= 1.5
+        return score
     end
 end
 
@@ -143,11 +142,7 @@ class PokeBattle_Move_EmpoweredGreyMist < PokeBattle_Move_StartGreyMist5
 
     def pbEffectGeneral(user)
         super
-
-        itemName = GameData::Item.get(:BLACKSLUDGE).name
-        @battle.pbDisplay(_INTL("{1} crafts itself a {2}!", user.pbThis, itemName))
-        user.giveItem(:BLACKSLUDGE)
-
+        craftItem(user,:BLACKSLUDGE)
         transformType(user, :POISON)
     end
 end

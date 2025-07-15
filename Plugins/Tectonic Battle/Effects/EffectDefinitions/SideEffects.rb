@@ -619,6 +619,27 @@ GameData::BattleEffect.register_effect(:Side, {
 })
 
 GameData::BattleEffect.register_effect(:Side, {
+    :id => :EmpoweredTailwind,
+    :real_name => "Primeval Tailwind",
+    :type => :Integer,
+    :ticks_down => true,
+    :apply_proc => proc do |battle, _side, teamName, value|
+        battle.pbDisplay(_INTL("A Primeval Tailwind blew from behind {1}!", teamName))
+        if value > 99
+            battle.pbDisplay(_INTL("It will last forever!"))
+        else
+            battle.pbDisplay(_INTL("It will last for {1} more turns!", value - 1))
+        end
+    end,
+    :disable_proc => proc do |battle, _side, teamName|
+        battle.pbDisplay(_INTL("{1}'s Primeval Tailwind was stopped!", teamName))
+    end,
+    :expire_proc => proc do |battle, _side, teamName|
+        battle.pbDisplay(_INTL("{1}'s Primeval Tailwind petered out.", teamName))
+    end,
+})
+
+GameData::BattleEffect.register_effect(:Side, {
     :id => :EmpoweredEmbargo,
     :real_name => "Items Supressed",
     :apply_proc => proc do |battle, _side, teamName, _value|

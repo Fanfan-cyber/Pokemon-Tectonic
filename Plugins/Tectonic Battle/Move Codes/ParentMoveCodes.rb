@@ -1496,7 +1496,8 @@ class PokeBattle_TypeSuperMove < PokeBattle_Move
     def pbCalcTypeModSingle(moveType, defType, user=nil, target=nil)
         effectiveness = super
         return effectiveness if Effectiveness.ineffective?(effectiveness)
-        return Effectiveness::SUPER_EFFECTIVE_ONE if defType == @typeHated
+        #return Effectiveness::SUPER_EFFECTIVE_ONE if defType == @typeHated
+        return apply_reverse(Effectiveness::SUPER_EFFECTIVE_ONE) if defType == @typeHated
         return effectiveness
     end
 end
@@ -1541,6 +1542,14 @@ module EmpoweredMove
             summonMessage ||= _INTL("{1} summons another Avatar!", user.pbThis)
             @battle.pbDisplay(summonMessage)
             @battle.summonAvatarBattler(species, user.level, 0, user.index % 2)
+        end
+    end
+
+    def craftItem(user,itemID)
+        itemName = GameData::Item.get(itemID).name
+        if user.canAddItem?(itemID)
+          @battle.pbDisplay(_INTL("{1} crafts itself a {2}!", user.pbThis, itemName))
+          user.giveItem(itemID)
         end
     end
 end

@@ -330,6 +330,9 @@ class FightMenuDisplay < BattleMenuBase
 
     def setMoveOutcomePredictor(move,opposingBattler)
       begin
+      if move.should_reverse?
+        effectivenessCategory = rand(6)
+      else
         typeOfMove = move.pbCalcType(@battler)
         effectiveness = move.pbCalcTypeMod(typeOfMove,@battler,opposingBattler,true)
 
@@ -350,7 +353,7 @@ class FightMenuDisplay < BattleMenuBase
                 when 4.. 			    then effectivenessCategory = 5
             end
         end
-
+       end
         moveOutcomeText = [_INTL("No Effect"),_INTL("Barely"),_INTL("Not Very"),_INTL("Neutral"),_INTL("Super"),_INTL("Hyper"),_INTL("Hyper")][effectivenessCategory]
         effectivenessColor = EFFECTIVENESS_COLORS[effectivenessCategory]
       rescue

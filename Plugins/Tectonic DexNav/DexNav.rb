@@ -305,8 +305,8 @@ class NewDexNav
     else
       pbFadeOutAndHide(@sprites)
     end
-    $PokemonTemp.navigationRow = @navigationRow
-    $PokemonTemp.navigationColumn = @navigationColumn
+    $PokemonTemp.navigationRow = 0 #@navigationRow
+    $PokemonTemp.navigationColumn = 0 #@navigationColumn
     dispose
   end
 

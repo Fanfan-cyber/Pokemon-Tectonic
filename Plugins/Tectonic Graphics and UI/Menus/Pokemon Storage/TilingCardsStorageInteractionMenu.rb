@@ -159,6 +159,25 @@ class TilingCardsStorageInteractionMenu_Scene < TilingCardsMenu_Scene
 				},
 			}
 
+    @cardButtons[:SENDTOTC] = {
+        :label => _INTL("Send To TC"),
+        :active_proc => Proc.new {
+          canEditTeam && !@pkmn.egg? && !lastPokemonInParty
+        },
+        :press_proc => Proc.new { |scene|
+          if TimeCapsule.add_to_time_capsule(@pkmn)
+            @storageScreen.scene.pbRelease(@selected, @heldpoke)
+            if @heldpoke
+              @heldpoke = nil
+            else
+              @storageScreen.storage.pbDelete(@selected[0], @selected[1])
+            end
+            @storageScreen.scene.pbRefresh
+          end
+          next true
+        },
+      }
+
 		if $DEBUG
 			@yOffset -= 16
 			@cardButtons[:DEBUG] = {
@@ -264,19 +283,19 @@ class TilingCardsStorageInteractionMenu_Scene < TilingCardsMenu_Scene
     cmdSetTrait   = -1
 
 		# Build the commands
-		commands[cmdStyle = commands.length]        = _INTL("Set Style") if pbHasItem?(:STYLINGKIT)
+    commands[cmdAdaptiveAI = commands.length]   = _INTL("Adaptive AI") if TA.get(:adaptiveai) || $DEBUG
+		commands[cmdDeleteMove = commands.length]   = _INTL("Delete Move") if @pkmn.numMoves > 1
+		newspecies = @pkmn.check_evolution_on_level_up(false)
+		commands[cmdEvolve = commands.length]       = _INTL("Evolve") if newspecies
 		if $PokemonGlobal.omnitutor_active && !getOmniMoves(@pkmn).empty?
 			commands[cmdOmnitutor = commands.length]	= _INTL("OmniTutor")
 		end
-		commands[cmdRename = commands.length]       	= _INTL("Rename")
-		commands[cmdSwapPokeBall = commands.length]   = _INTL("Swap Ball")
-		commands[cmdDeleteMove = commands.length] = _INTL("Delete Move") if @pkmn.numMoves > 1
-		newspecies = @pkmn.check_evolution_on_level_up(false)
-		commands[cmdEvolve = commands.length]       = _INTL("Evolve") if newspecies
     commands[cmdOpenAR = commands.length]       = _INTL("Open AR") if TA.get(:customabil) && !$Trainer.ability_recorder.empty?
-    commands[cmdAdaptiveAI = commands.length]   = _INTL("Adaptive AI") if TA.get(:adaptiveai)
+		commands[cmdRename = commands.length]       = _INTL("Rename")
+		commands[cmdStyle = commands.length]        = _INTL("Set Style") if pbHasItem?(:STYLINGKIT) || $DEBUG
     commands[cmdSetTitle = commands.length]     = _INTL("Set Title")
     commands[cmdSetTrait = commands.length]     = _INTL("Set Trait") if @pkmn.happiness >= Pokemon::PERSONALITY_THRESHOLD_ONE
+		commands[cmdSwapPokeBall = commands.length] = _INTL("Swap Ball")
 		commands[commands.length]                   = _INTL("Cancel")
 		modifyCommand = pbShowCommands(_INTL("Do what with {1}?",@pkmn.name),commands)
 		if cmdRename >= 0 && modifyCommand == cmdRename

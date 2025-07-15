@@ -408,6 +408,11 @@ class PokeBattle_Move
         if user.pbOwnSide.effectActive?(:TurbulentSky)
             multipliers[:final_damage_multiplier] *= 1.3
         end
+
+        # Empowered Tailwind
+        if user.pbOwnSide.effectActive?(:EmpoweredTailwind)
+            multipliers[:final_damage_multiplier] *= 1.3
+        end
     end
 
     def pbCalcTribeBasedDamageMultipliers(user,target,type,multipliers,checkingForAI=false)

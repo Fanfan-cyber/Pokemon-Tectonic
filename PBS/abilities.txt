@@ -217,7 +217,7 @@ Description = Boosts Sp. Atk after knocking out any Pokémon.
 #-------------------------------
 [GULPMISSILE]
 Name = Gulp Missile
-Description = Attacks with prey caught when using Surf, Dive, or Depth Charge.
+Description = Attacks with prey caught when using Immerse, Whelm, Surf, Dive, or Depth Charge.
 Flags = Immutable
 #-------------------------------
 [HEAVYMETAL]

@@ -43,7 +43,7 @@ class PokemonPokedex_Scene
                     dexlist = searchStartingList
                     dexlist = dexlist.find_all do |dex_item|
                         next false if autoDisqualifyFromSearch(dex_item[:species])
-                        searchPokeAbilities = dex_item[:data].abilities
+                        searchPokeAbilities = dex_item[:data].legalAbilities
                         value = false
                         value = true if searchPokeAbilities.include?(actualAbility)
                         value = value ^ reversed # Boolean XOR

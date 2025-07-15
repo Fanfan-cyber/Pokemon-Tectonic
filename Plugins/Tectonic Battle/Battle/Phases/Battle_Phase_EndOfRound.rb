@@ -206,6 +206,7 @@ class PokeBattle_Battle
             if damageDealt > 0
                 priority.each do |b|
                     next unless b.hasActiveAbility?(:TOXINTAX)
+                    next unless b.canHeal?
                     pbShowAbilitySplash(b, :TOXINTAX)
                     healingMessage = _INTL("{1} absorbs the damage from the poison.", b.pbThis)
                     b.pbRecoverHP(damageDealt, true, true, true, healingMessage)

@@ -35,7 +35,7 @@ TotalPP = 5
 Target = NearFoe
 FunctionCode = ForceUserAndTargetToRest
 Flags = CanProtect,CanMagicCoat
-Description = The user and the target both fall asleep, fully restoring their HP and healing any status conditions.
+Description = The user and the target both fall asleep, fully restoring their HP and healing any non-volatile status conditions.
 Animation = REST
 #-------------------------------
 [BLINDINGDANCE]
@@ -340,18 +340,6 @@ EffectChance = 30
 Description = The user spins the target with a cleansing vortex. It has a 30% chance to waterlog.
 Animation = SOAK
 #-------------------------------
-[LONGSHOT]
-Name = Long Shot
-Type = NORMAL
-Category = Adaptive
-Power = 110
-Accuracy = 70
-TotalPP = 25
-Target = NearOther
-FunctionCode = Basic
-Flags = CanProtect
-Description = The user makes a foolhardy, roundabout attack. It misses much of the time.
-#-------------------------------
 [LOUNGE]
 Name = Lounge
 Type = NORMAL
@@ -376,18 +364,6 @@ FunctionCode = SleepTargetIfBelowHalfHP
 Flags = CanProtect,CanMagicCoat,Sound
 Description = A lullaby is sung in a calming voice that puts the target with half its HP or less left into a deep sleep.
 Animation = SING
-#-------------------------------
-[MULTISTRIKE]
-Name = Multi-Strike
-Type = NORMAL
-Category = Adaptive
-Power = 15
-Accuracy = 100
-TotalPP = 25
-Target = NearOther
-FunctionCode = HitTwoToFiveTimes
-Flags = CanProtect
-Description = The target is multi-hit two to five times.
 #-------------------------------
 [NULLPULSE]
 Name = Null Pulse
@@ -618,7 +594,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = GiveUserStatusToTargetDamagingMove
 Flags = CanProtect
-Description = The user flings the dirty oil on its fur. It transfers any status condition to the target.
+Description = The user flings the dirty oil on its fur. It transfers any non-volatile status condition to the target.
 Animation = ACIDSPRAY
 #-------------------------------
 [WEATHERBURST]
@@ -3744,7 +3720,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = ImpurityBlaze
 Flags = CanProtect
-Description = If the target has a status condition, this deals double damage and heals every battler's status condition.
+Description = If the target has a non-volatile status condition, this deals double damage and heals every battler's non-volatile status condition.
 Animation = HEX
 #-------------------------------
 [INFERNOIMPACT]
@@ -3821,7 +3797,7 @@ TotalPP = 10
 Target = NearFoe
 FunctionCode = StartSunshine8
 Flags = CanProtect
-Description = The user attacks with fire that can be seen in two places, then summons sunshine for eight turns.
+Description = The user attacks with fire that can be seen in multiple places, then summons sunshine for eight turns.
 Animation = HEATWAVE
 #-------------------------------
 [PROMINENCE]
@@ -4004,7 +3980,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = CureUserPartyStatusDamagingMove
 Flags = CanProtect
-Description = The user shoots purified water, also healing the status problems of all the party Pokémon.
+Description = The user shoots purified water, also healing the non-volatile status conditions of all the party Pokémon.
 Animation = WATERPULSE
 #-------------------------------
 [BREACH]
@@ -4196,7 +4172,7 @@ Power = 40
 Accuracy = 100
 TotalPP = 30
 Target = NearOther
-FunctionCode = Waterlog
+FunctionCode = WaterlogTargetHitsDivers
 Flags = CanProtect
 EffectChance = 30
 Description = The target is immersed in water. This has a 30% chance to waterlog.
@@ -4213,19 +4189,6 @@ FunctionCode = WaterlogTargetStartRainstorm8
 Flags = CanProtect,CanMagicCoat
 Description = The user waterlogs the target, then welcomes in rainstorm for eight turns.
 Animation = RAINSTORM
-#-------------------------------
-[MAELSTROM]
-Name = Maelstrom
-Type = WATER
-Category = Special
-Power = 75
-Accuracy = 100
-TotalPP = 12
-Target = NearOther
-FunctionCode = BindTarget3
-Flags = CanProtect
-Description = The foe is pulled into a huge whirlpool, trapping and damaging it for three turns.
-Animation = WHIRLPOOL
 #-------------------------------
 [MENDINGSPRING]
 Name = Mending Spring
@@ -4341,7 +4304,7 @@ TotalPP = 12
 Target = NearOther
 FunctionCode = BindTarget3
 Flags = CanProtect
-Description = The target is crushed in the user's shell or claws, trapping and damaging it for three turns.
+Description = The target is crushed in the user's shell, mouth, or claws, trapping and damaging it for three turns.
 Animation = CLAMP
 #-------------------------------
 [SNAP]
@@ -4447,7 +4410,7 @@ TotalPP = 5
 Target = UserAndAllies
 FunctionCode = CureUserPartyStatusStartHealUserEachTurn
 Flags = CanSnatch,Sound
-Description = The user's song heals the status problems of all the party Pokémon, and forms an Aqua Ring around itself, healing 10% HP per turn.
+Description = The user's song heals the non-volatile status conditions of all the party Pokémon, and forms an Aqua Ring around itself, healing 10% HP per turn.
 Animation = HEALBELL
 #-------------------------------
 [WHELM]
@@ -4458,7 +4421,7 @@ Power = 60
 Accuracy = 100
 TotalPP = 15
 Target = NearOther
-FunctionCode = Waterlog
+FunctionCode = WaterlogTargetHitsDivers
 Flags = CanProtect
 EffectChance = 30
 Description = The target is inundated with a wave of seaweater. This has a 30% chance to waterlog.
@@ -4903,19 +4866,6 @@ FunctionCode = HealUserByTwoThirdsOfDamageDoneIfTargetHurtUserThisTurn
 Flags = CanProtect,Biting
 Description = Lures an enemy into its jaws. If they hit the user this turn, the user's HP is restored by 66% the damage dealt.
 #-------------------------------
-[VINEBIND]
-Name = Vinebind
-Type = GRASS
-Category = Physical
-Power = 50
-Accuracy = 100
-TotalPP = 15
-Target = NearOther
-FunctionCode = BindTarget3
-Flags = CanProtect
-Description = Binds the foe with vines, trapping and damaging it for three turns.
-Animation = GRASSKNOT
-#-------------------------------
 [WHIPKICK]
 Name = Whip Kick
 Type = GRASS
@@ -5084,7 +5034,7 @@ TotalPP = 5
 Target = NearAlly
 FunctionCode = HealTargetHalfOfTotalHPAndCureStatus
 Flags = CanProtect,CanMagicCoat,Dance
-Description = The user dances to restore an ally by half of their max HP. They're cured of any status conditions.
+Description = The user dances to restore an ally by half of their max HP. They're cured of any non-volatile status conditions.
 Animation = HEALPULSE
 #-------------------------------
 [INERTIASHOCK]
@@ -5284,7 +5234,6 @@ Power = 80
 Accuracy = 100
 TotalPP = 5
 Target = NearOther
-Priority = 1
 FunctionCode = FlinchTargetLowerTargetSpd1
 Flags = CanProtect
 EffectChance = 100
@@ -5308,7 +5257,7 @@ Animation = WILDCHARGE
 Name = Surge Snare
 Type = ELECTRIC
 Category = Special
-Power = 45
+Power = 50
 Accuracy = 100
 TotalPP = 15
 Target = NearOther
@@ -6353,7 +6302,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = DoubleDamageTargetStatused
 Flags = CanProtect
-Description = The user crushes the target with evil intent. This deals double damage if the target has a status condition.
+Description = The user crushes the target with evil intent. This deals double damage if the target has a non-volatile status condition.
 Animation = CRUSHCLAW
 #-------------------------------
 [DIAMETRICBREATH]
@@ -7652,3 +7601,55 @@ Target = User
 FunctionCode = ChangeUserDeoxusChoiceOfForm
 Description = The user mutates its genetic code, transforming into any of its 3 other forms. Only useable as Deoxys Normal.
 Animation = TRANSFORM
+#-------------------------------
+#		FLEX MOVES
+#-------------------------------
+[LONGSHOT]
+Name = Long Shot
+Type = FLEX
+Category = Adaptive
+Power = 110
+Accuracy = 70
+TotalPP = 25
+Target = NearOther
+FunctionCode = Basic
+Flags = CanProtect
+Description = The user makes a foolhardy, roundabout attack. It misses much of the time.
+#-------------------------------
+[MULTISTRIKE]
+Name = Multi-Strike
+Type = FLEX
+Category = Adaptive
+Power = 15
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = HitTwoToFiveTimes
+Flags = CanProtect
+Description = The target is multi-hit two to five times.
+#-------------------------------
+[PLANAHEAD]
+Name = Plan Ahead
+Type = FLEX
+Category = Special
+Power = 95
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = AttackTwoTurnsLater
+Flags = Foretold
+Description = Two turns after this move is used, the target is struck by a well-planned attack.
+Animation = FUTURESIGHT
+#-------------------------------
+[RUNAMUCK]
+Name = Run Amuck
+Type = FLEX
+Category = Adaptive
+Power = 80
+Accuracy = 100
+TotalPP = 10
+Target = ClosestNearFoe
+FunctionCode = Rampage
+Flags = CanProtect
+Description = The user attacks with simple determination and rampages for two turns.
+Animation = THRASH
