@@ -15,9 +15,6 @@
 削弱铳嘴大鸟
 削弱滚动
 削弱加速
-加强冰系道馆队伍
-增加反转对战的密码，通过反转场地
-增加打乱属性克制提示的密码
 尝试增加自定义属性克制的密码
 
 提交用于构造的队伍
@@ -99,6 +96,7 @@ by Fanfan
 无经验模式，开启无经验模式后，玩家的精灵打败对手的精灵时，将不再获得经验，使用密码zeroexp开启
 自由部族模式，开启自由部族模式后，可自由设定部族效果生效所需要的精灵数，使用密码customtribethresh开启(Inspired by Attea, Kirby Gal)
 单特性模式，开启单特性模式后，玩家的精灵只会拥有一个特性，使用特性胶囊可以将特性切换到另一个可能的特性，使用密码monoabil开启
+反转对战模式，开启后所有战斗都将会强制激活永久的反转场地，在反转场地中战斗时，属性克制将会反转，并且选择技能时的属性克制提示也会随机化显示，使用密码inversebattle开启
 塔罗牌困难模式，开启后对方将会获得一个Buff，此为此游戏的唯一一个不公平选项，可自行选择是否开启
 可选择性跳过的化身战，即Boss战
 游戏加速功能，快捷键Q，但是战斗不会被加速，使用密码speedup让加速也在战斗中应用
@@ -134,16 +132,21 @@ by Fanfan
 hyena1，获得1只路边的野狗
 alien1，获得1只代欧奇希斯（4徽章）
 psyduck10，获得1只10级的我最喜欢的死鸭子
+
 pokeball5，获得5个精灵球
 candyxl700，获得700个经验糖果XL（7徽章）
-customtribethresh，开启自由部族模式
+
 speedup/disablespeedup，开启/关闭战斗加速功能
 disablerevive/battlerevive，关闭/开启濒死复活机制
+shuffledisplay/noshuffledisplay，随机化/正常化选择技能时的属性克制提示
+
+customtribethresh，开启自由部族模式
 rocket/norocket，开启/关闭火箭队模式
 zeroexp/disablezeroexp，开启/关闭无经验模式
 monoabil/disablemonoabil，开启/关闭单特性模式
 customabil/nocustomabil，开启/关闭特性自选模式
 doublebattle/disabledouble，开启/关闭全双打模式
+inversebattle/noinversebattle，开启/关闭反转对战模式
 
 0.3.5
 1.雪拉比的第一特性由自然回复改为Chrono Revert
@@ -159,7 +162,11 @@ doublebattle/disabledouble，开启/关闭全双打模式
 11.修复了AI会错误的计算Hopping Mad的精灵使用非暴走类技能时的速度的Bug
 12.修复了在某些情况下Inure的效果可能会错误应用的Bug
 13.修复了Incognito会使游戏崩溃的Bug
-14.
+14.现在可以通过输入密码shuffledisplay随机化选择技能时的属性克制提示显示
+15.现在可以通过输入密码noshuffledisplay关闭已随机化的选择技能时的属性克制提示显示
+16.现在可以通过输入密码inversebattle开启反转对战模式，开启后所有战斗都将会强制激活永久的反转场地（Inverse Field），在反转场地中战斗时，属性克制将会反转，并且选择技能时的属性克制提示也会随机化显示
+17.现在可以通过输入密码noinversebattle关闭反转对战模式
+18.
 
 0.3.4
 1.修复了大量翻译的问题

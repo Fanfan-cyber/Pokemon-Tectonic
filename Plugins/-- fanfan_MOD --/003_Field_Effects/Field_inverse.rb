@@ -8,6 +8,6 @@ class PokeBattle_Battle::Field_inverse < PokeBattle_Battle::Field
     @inverse_battle     = true
     @field_announcement = [_INTL("!trats elttaB"),
                            _INTL(""),
-                           _INTL("The field revover to normal!")]
+                           _INTL("The field recovered to normal!")]
   end
 end
