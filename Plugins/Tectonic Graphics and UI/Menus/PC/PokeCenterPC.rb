@@ -66,7 +66,7 @@ def pbPokeCenterPC
         commands[depositCommand = commands.length] = _INTL("Deposit Pokémon")
         commands[omniTutorCommand = commands.length] = _INTL("OmniTutor") if $PokemonGlobal.omnitutor_active 
         commands[visitEstateCommand = commands.length] = _INTL("Visit PokÉstate") unless getGlobalSwitch(ESTATE_DISABLED_SWITCH)
-        commands[teamCodeCommand = commands.length] =  _INTL("View Party Online")
+        #commands[teamCodeCommand = commands.length] =  _INTL("View Party Online")
         commands[logOutCommand = commands.length] = _INTL("Log Out") 
         command = pbShowCommands(nil,commands,-1)
         if command == organizeCommand || command == widthdrawCommand || command == depositCommand
