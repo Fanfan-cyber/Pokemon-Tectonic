@@ -80,7 +80,7 @@ by Fanfan
 异常状态自然回复机制，当精灵进行替换后，如果该精灵有异常状态，但是不处于危急状态，那么在后排休息5回合后，会自动回复异常状态
 替换回血机制，精灵进行替换时，会回复10%的HP，如果该精灵既没有异常状态，也不处于危急状态，那么基于在后排休息的回合数，每回合再回复5%的HP
 濒死复活机制，濒死的精灵经过10回合之后会复活，但是每场战斗每只精灵只会触发1次，可使用密码disablerevive关闭此机制
-对战完胜机制，对战结束时，若队伍中有在战斗中濒死的精灵，则视为失败
+对战完胜机制，对战结束时，若队伍中有在战斗中濒死的精灵，则视为失败，可通过懦夫模式规避此机制
 物品恢复机制，战斗中消耗的物品将在战斗后恢复
 战后回复机制，和训练师的战斗结束后，所有精灵会回复30%HP（也可能更多）、异常以及全部技能的全部PP
 精灵唯一性机制，同一种类的精灵，玩家只能拥有一只，获得已拥有的精灵时，该精灵将会被传送到Dimension D中，当条件允许时才可取回
@@ -94,6 +94,7 @@ by Fanfan
 火箭队模式，和训练师的对战胜利时，可以从对手的队伍中抢走一只精灵，使用密码rocket开启
 特性自选模式，玩家可以用特性记录器中记录的特性来修改自己的精灵的特性，使用密码customabil开启
 无经验模式，开启无经验模式后，玩家的精灵打败对手的精灵时，将不再获得经验，使用密码zeroexp开启
+懦夫模式，开启懦夫模式后，将使对战完胜机制失效，所有战斗都不再要求获胜完胜，使用密码disableperfect开启
 自由部族模式，开启自由部族模式后，可自由设定部族效果生效所需要的精灵数，使用密码customtribethresh开启(Inspired by Attea, Kirby Gal)
 单特性模式，开启单特性模式后，玩家的精灵只会拥有一个特性，使用特性胶囊可以将特性切换到另一个可能的特性，使用密码monoabil开启
 反转对战模式，开启后所有战斗都将会强制激活永久的反转场地，在反转场地中战斗时，属性克制将会反转，并且选择技能时的属性克制提示也会随机化显示，使用密码inversebattle开启
@@ -137,8 +138,9 @@ pokeball5，获得5个精灵球
 candyxl700，获得700个经验糖果XL（7徽章）
 
 speedup/disablespeedup，开启/关闭战斗加速功能
+
 disablerevive/battlerevive，关闭/开启濒死复活机制
-shuffledisplay/noshuffledisplay，随机化/正常化选择技能时的属性克制提示
+shuffledisplay/noshuffledisplay，随机化/正常化属性克制提示
 
 customtribethresh，开启自由部族模式
 rocket/norocket，开启/关闭火箭队模式
@@ -146,6 +148,7 @@ zeroexp/disablezeroexp，开启/关闭无经验模式
 monoabil/disablemonoabil，开启/关闭单特性模式
 customabil/nocustomabil，开启/关闭特性自选模式
 doublebattle/disabledouble，开启/关闭全双打模式
+disableperfect/enableperfect，开启/关闭懦夫模式
 inversebattle/noinversebattle，开启/关闭反转对战模式
 
 0.3.5
@@ -166,7 +169,9 @@ inversebattle/noinversebattle，开启/关闭反转对战模式
 15.现在可以通过输入密码noshuffledisplay关闭已随机化的选择技能时的属性克制提示显示
 16.现在可以通过输入密码inversebattle开启反转对战模式，开启后所有战斗都将会强制激活永久的反转场地（Inverse Field），在反转场地中战斗时，属性克制将会反转，并且选择技能时的属性克制提示也会随机化显示
 17.现在可以通过输入密码noinversebattle关闭反转对战模式
-18.
+18.现在可以通过输入密码disableperfect开启懦夫模式，开启懦夫模式后，将不再要求战斗获胜完胜
+19.现在可以通过输入密码enableperfect关闭懦夫模式
+20.
 
 0.3.4
 1.修复了大量翻译的问题

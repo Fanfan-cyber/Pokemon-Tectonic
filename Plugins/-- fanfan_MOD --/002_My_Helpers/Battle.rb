@@ -50,7 +50,8 @@ class PokeBattle_Battle
     @battlers.compact.map { |b| b.unique_id }
   end
 
-  def ignore_imperfect?
+  def ignore_perfect?
+    return true if TA.get(:disableperfect)
     if $Trainer.able_pokemon_count == 1
       able_pokemon = $Trainer.first_able_pokemon
       return true if able_pokemon.isSpecies?(%i[GARDEVOIR GALLADE]) && able_pokemon.form == 1

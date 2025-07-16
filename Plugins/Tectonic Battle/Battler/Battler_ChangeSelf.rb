@@ -383,7 +383,7 @@ class PokeBattle_Battler
         if TA.get(:disablerevive) || battle_tracker_get(:faint_healing_triggered)
             if pbOwnedByPlayer? && (isSpecies?(:GARDEVOIR) && !$Trainer.has_species?(:GALLADE) ||
                                     isSpecies?(:GALLADE) && !$Trainer.has_species?(:GARDEVOIR) ||
-                                   !isSpecies?(%i[GARDEVOIR GALLADE]) && !$Trainer.has_species?(%i[GARDEVOIR GALLADE]))
+                                   !isSpecies?(%i[GARDEVOIR GALLADE]) && !$Trainer.has_species?(%i[GARDEVOIR GALLADE])) && !@battle.ignore_perfect?
                 @battle.decision = 2
             end
             return false

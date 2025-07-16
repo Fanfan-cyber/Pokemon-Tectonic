@@ -705,7 +705,7 @@ class PokeBattle_Battle
 
     def pbEndOfBattle(ableBeforeFight = nil)
         lost_extra_text = ""
-        if @decision != 2 && ableBeforeFight && trainerBattle? && $Trainer.able_pokemon_count < ableBeforeFight && !debugControl && !ignore_imperfect?
+        if @decision != 2 && ableBeforeFight && trainerBattle? && $Trainer.able_pokemon_count < ableBeforeFight && !debugControl && !ignore_perfect?
             @decision = 2
             lost_extra_text = _INTL("\nSome of your Pokémon fainted in battle.")
         end
