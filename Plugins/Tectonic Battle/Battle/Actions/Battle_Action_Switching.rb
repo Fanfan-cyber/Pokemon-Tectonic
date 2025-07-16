@@ -395,16 +395,6 @@ class PokeBattle_Battle
         apply_field_effect(:switch_in, battler)
         battler.battle_tracker_set(:chrono_revert, battler.pokemon.clone_pkmn(false))
 
-        if battler.illusion? && battler.hasActiveAbility?(:INCOGNITO)
-            battler.abilities.clear
-            battler.abilities.push(:INCOGNITO)
-            battler.disguisedAs.abilities.each do |abil|
-                next if GameData::Ability.get(abil).is_uncopyable_ability?
-                battler.abilities.push(abil)
-                battler.addedAbilities.push(abil)
-            end
-        end
-
         # Trigger enter the field curses
         curses.each do |curse|
             triggerBattlerEnterCurseEffect(curse, battler, self)

@@ -383,7 +383,7 @@ class PokeBattle_Battler
         if TA.get(:disablerevive) || battle_tracker_get(:faint_healing_triggered)
             if pbOwnedByPlayer? && (isSpecies?(:GARDEVOIR) && !$Trainer.has_species?(:GALLADE) ||
                                     isSpecies?(:GALLADE) && !$Trainer.has_species?(:GARDEVOIR) ||
-                                   !isSpecies?(%i[GARDEVOIR GALLADE]) && !$Trainer.has_species?(%i[GARDEVOIR GALLADE]))
+                                   !isSpecies?(%i[GARDEVOIR GALLADE]) && !$Trainer.has_species?(%i[GARDEVOIR GALLADE])) && !@battle.ignore_perfect?
                 @battle.decision = 2
             end
             return false
@@ -768,22 +768,30 @@ class PokeBattle_Battler
 =end
         end
 
-=begin
         if !initialization && illusion? && hasActiveAbility?(:INCOGNITO)
             addIllusionAbilities
         end
-=end
 
         unless initialization
             pbOnAbilitiesLost(prevAbilities)
         end
     end
 
-    def addIllusionAbilities # didn't use this one, add abilities on Switch in
+    def addIllusionAbilities_origin # didn't use this one
         return unless disguisedAs.ability 
         return if GameData::Ability.get(disguisedAs.ability_id).is_uncopyable_ability?
         @ability_ids.push(disguisedAs.ability_id)
         @addedAbilities.push(disguisedAs.ability_id)  
+    end
+
+    def addIllusionAbilities
+        @ability_ids.clear
+        @ability_ids.push(:INCOGNITO)
+        disguisedAs.abilities.each do |abil|
+            next if GameData::Ability.get(abil).is_uncopyable_ability?
+            @ability_ids.push(abil)
+            @addedAbilities.push(abil)
+        end
     end
 
     def setAbility(value)
