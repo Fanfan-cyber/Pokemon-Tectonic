@@ -951,6 +951,34 @@ Pocket = 5
 Price = 4000
 Description = Raises Attack by two steps when the Pokémon uses a blade move the first time each battle.
 #-------------------------------
+[PINWHEEL]
+Name = Pinwheel
+NamePlural = Pinwheels
+Pocket = 5
+Price = 4000
+Description = Raises Speed by two steps when the Pokémon uses a wind move the first time each battle.
+#-------------------------------
+[INSOLES]
+Name = Insoles
+NamePlural = Insoles
+Pocket = 5
+Price = 4000
+Description = Raises Speed by two steps when the Pokémon uses a kicking move the first time each battle.
+#-------------------------------
+[PROTEINSHAKE]
+Name = Protein Shake
+NamePlural = Protein Shakes
+Pocket = 5
+Price = 4000
+Description = Consumed to heal for one third of max HP when the Pokémon uses a punching move. This can overheal.
+#-------------------------------
+[STRESSBALL]
+Name = Stress Ball
+NamePlural = Stress Balls
+Pocket = 5
+Price = 4000
+Description = Consumed to heal for one third of max HP when the Pokémon uses a pulse move. This can overheal.
+#-------------------------------
 [UTILITYUMBRELLA]
 Name = Utility Umbrella
 NamePlural = Utility Umbrellas
@@ -1010,6 +1038,7 @@ Name = Courage Badge
 NamePlural = Courage Badges
 Pocket = 5
 Price = 3000
+Flags = Clothing
 Description = A held item. The holder is protected from flinching.
 #-------------------------------
 [CLEARAMULET]
@@ -1017,6 +1046,7 @@ Name = Clear Amulet
 NamePlural = Clear Amulets
 Pocket = 5
 Price = 3000
+Flags = Clothing
 Description = A held item. The holder is protected from stat drops (except when self-inflicted).
 #-------------------------------
 [ADAMANTORB]
