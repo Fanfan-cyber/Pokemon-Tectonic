@@ -111,6 +111,8 @@ CDKey.register_other_key(:zeroexp, true)
 CDKey.register_other_key([:disablezeroexp, :zeroexp], false)
 CDKey.register_other_key(:monoabil, true)
 CDKey.register_other_key([:disablemonoabil, :monoabil], false)
+CDKey.register_other_key(:inversebattle, true)
+CDKey.register_other_key([:disableinversebattle, :inversebattle], false)
 
 CDKey.register_other_key(:speedup, true)
 CDKey.register_other_key([:disablespeedup, :speedup], false)

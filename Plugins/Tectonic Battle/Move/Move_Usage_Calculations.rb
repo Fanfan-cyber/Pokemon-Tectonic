@@ -76,6 +76,7 @@ class PokeBattle_Move
     end
 
     def should_reverse?
+        return true if @battle.apply_field_effect(:inverse_battle)
         return false
     end
 

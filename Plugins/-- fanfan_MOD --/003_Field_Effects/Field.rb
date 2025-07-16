@@ -2,7 +2,7 @@ class PokeBattle_Battle::Field
   attr_reader :battle
   attr_reader :duration, :effects, :field_announcement, :fieldback, :id, :name   
   attr_reader :multipliers, :strengthened_message, :weakened_message
-  attr_reader :nature_power_change, :secret_power_effect, :tailwind_duration
+  attr_reader :nature_power_change, :secret_power_effect, :tailwind_duration, :inverse_battle
   attr_reader :always_online
 
   DEFAULT_FIELD_DURATION  = 5
@@ -103,6 +103,7 @@ class PokeBattle_Battle::Field
 
     @effects[:tailwind_duration] = proc { |battler| next @tailwind_duration }
 
+    @effects[:inverse_battle] = proc { next @inverse_battle }
   end
 
   def self.method_missing(method_name, *args, &block)

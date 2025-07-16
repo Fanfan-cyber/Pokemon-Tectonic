@@ -14,7 +14,7 @@ class PokeBattle_Battle
     create_new_field(:Base)
   end
 
-  def set_test_field(test_field = :Ravine, duration = 30)
+  def set_test_field(test_field = :misty, duration = 30)
     create_new_field(test_field, duration)
   end
 
@@ -28,6 +28,8 @@ class PokeBattle_Battle
     if default_field
       create_new_field(default_field, duration)
       set_field # clear $field
+    elsif TA.get(:inversebattle)
+      create_new_field(:inverse, -1)
     else
       all_fields_data.each do |field, data| # trainer field
         next if !trainerBattle?
