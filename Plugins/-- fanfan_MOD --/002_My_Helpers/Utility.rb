@@ -298,7 +298,7 @@ def calc_best_offense_types(target)
       type_matchups[i] = type_matchup
     end
 
-    effective = type_matchups.reduce(1, :*)
+    effective = type_matchups.reduce(1.0, :*)
     next if Effectiveness.ineffective?(effective)
     offense_types[effective] << calc_type
   end

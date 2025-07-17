@@ -946,7 +946,7 @@ If you plan on facing her, you best be wary of her hit and run tactics.
 Most of her Pokemon use switch-out moves: Flip Turn, Volt Switch, or U-Turn.
 她大部分精灵都会类似于快速折返，伏特替换之类的技能。
 If you want a leg up, hazards like Stealth Rocks and Spikes can help a lot.
-如果你想抢占先机，可以用隐形岩之类的对付她。
+如果你想抢占先机，可以用隐型岩之类的对付她。
 Or you could trap her 'mons, so they just...can't switch out!
 当然也可以困住她的精灵，让其无法自由地进出战场！
 West: County Park
@@ -31375,7 +31375,7 @@ Rock Wrecker
 Sandstorm
 沙暴
 Stealth Rock
-隐形岩
+隐型岩
 Stone Axe
 岩斧
 Stone Edge
@@ -40885,7 +40885,7 @@ Gets 50% more healing from all sources.
 Makes foes unable to use priority moves.
 向对手施加威慑力，使其无法使出先制技能。
 Immune to Fighting-type and Rock-type moves. Prevents Stealth Rock damage.
-免疫格斗属性和岩石属性技能。不受隐形岩伤害。
+免疫格斗属性和岩石属性技能。不受隐型岩伤害。
 Protected from random added effects. Takes 30% less damage from moves with random added effects.
 免疫技能附加效果，受到带附加效果的技能伤害减小。
 All Pokémon deal 40% more move damage.
@@ -55424,7 +55424,7 @@ That's because wasting a turn setting them up in the short term pays off big in 
 If you like being alive, pack something that can clean up hazards – Defog, Terraform, or Rapid Spin, usually.
 如果你喜欢保持健康，那就带上一些能够清除场地不利因素的东西——通常是除雾、搅土翻壤或高速旋转。
 Stealth Rocks are the most common hazard, so prioritize hazard removal if you've got lots of Rock-weak Pokémon.
-隐形岩是最常见的场地不利因素，所以如果你有很多岩石属性弱点的精灵，就优先清除场地不利因素。
+隐型岩是最常见的场地不利因素，所以如果你有很多岩石属性弱点的精灵，就优先清除场地不利因素。
 Remember: if your favorite little gremlin is switching out nine times a match or is cripplingly weak to funny pebbles, put Heavy-Duty Boots on it.
 记住：如果你最喜欢的那只小妖精在一场比赛中切换了九次，或者对那些奇怪的小石头异常脆弱，就给它穿上重型靴子。
 They're cute and effective.
@@ -60911,7 +60911,7 @@ Flame Spikes
 Frost Spikes
 冰菱
 Stealth Rock
-隐形岩
+隐型岩
 Feather Ward
 翎羽陷阱
 Live Wire

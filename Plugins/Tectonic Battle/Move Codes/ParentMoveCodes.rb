@@ -1497,7 +1497,7 @@ class PokeBattle_TypeSuperMove < PokeBattle_Move
         effectiveness = super
         return effectiveness if Effectiveness.ineffective?(effectiveness)
         #return Effectiveness::SUPER_EFFECTIVE_ONE if defType == @typeHated
-        return apply_reverse(Effectiveness::SUPER_EFFECTIVE_ONE) if defType == @typeHated
+        return @battle.apply_inverse(Effectiveness::SUPER_EFFECTIVE_ONE) if defType == @typeHated
         return effectiveness
     end
 end

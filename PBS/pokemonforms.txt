@@ -889,31 +889,31 @@ Pokedex = Darmanitan takes this form when enraged. It won't stop spewing flames 
 [AMPHAROS,1]
 FormName = Ascended
 BaseStats = 110,100,165,80,190,165
-Pokedex = It has achieved its ultimate final form. The light it radiates turns night to day.
+Pokedex = This form has gotten enough energy to go further beyond a normal Ampharos' power. It has been calculated that each orb has over 9000 volts of energy each in it.
 #-------------------------------
 [GARCHOMP,1]
 FormName = Reaper
 BaseStats = 110,155,125,95,100,75
-Pokedex = It takes a grim joy in using its new scythes. Some worry that it may become a Ghost-type if it spends too much time in this state.
+Pokedex = Garchomp taking this form are rare due to its specific conditions required. This is good as it can turn a house into splinters if left unchecked.
 #-------------------------------
 [GYARADOS,1]
 FormName = Rampage
 BaseStats = 95,155,110,85,85,115
 Abilities = JUGGERNAUT
-Pokedex = Great conflicts naturally prompt Gyarados to enter this form. Peaceful regions rarely see them in such a state.
+Pokedex = The already aggressive Gyarados is only amplified by this form. All it can feel in this form is pure rage. Cruise ships have been bisected for getting in its path.
 #-------------------------------
 [GARDEVOIR,1]
 FormName = Finale
 BaseStats = 90,85,85,110,145,145
 Abilities = SYNCHRONIZE
-Pokedex = Its heart-spike divided to better contain its psychic energy, which has formed into a kugelblitz of pure determination.
+Pokedex = The pain of seeing those it cares for fall has brought out this form. Its pure heart powers its abilities to be much more powerful.
 #-------------------------------
 [GALLADE,1]
 FormName = Finale
 MegaStone = GALLADITE
 BaseStats = 90,125,100,110,75,160
 Abilities = INNERFOCUS
-Pokedex = Its blades can cut a Pokémon from its shadow. It will not back down till the end, come Hyper Beam or high water.
+Pokedex = The pain of seeing those it wishes to protect fall has causes this form to emerge. Its red blades are powered by pure heart.
 #-------------------------------
 [MEWTWO,1]
 FormName = Overmatter
@@ -923,7 +923,7 @@ BaseStats = 110,190,100,130,150,100
 Abilities = INNERFOCUS
 Height = 2.3
 Weight = 127.0
-Pokedex = Its body has been perfected by its vast psychic power. Anywhere it strikes glows as atoms fuse.
+Pokedex = Psychic power has augmented its muscles. Its arms are able to stretch up to ten feet, and it can crush titanium in its grip.
 #-------------------------------
 [MEWTWO,2]
 FormName = Overmind
@@ -931,7 +931,7 @@ BaseStats = 110,150,70,140,190,120
 Abilities = VITALSPIRIT
 Height = 1.5
 Weight = 33.0
-Pokedex = Those few who see this form in battle find later that their memories of it have been replaced by static.
+Pokedex = The DNA from the original Mew has grown exponentially in this form. It has gained enough psychic power to control the minds of even the strongest willed people.
 #-------------------------------
 [ENAMORUS,1]
 FormName = Therian

@@ -64,26 +64,15 @@ class PokeBattle_Move
             ret = Effectiveness::NORMAL_EFFECTIVE_ONE
         end
 
-        ret = apply_reverse(ret)
+        ret = @battle.apply_inverse(ret)
 
         ret_type = @battle&.apply_field_effect(:move_second_type_on_calc, ret, moveType, defType, user, target)
         if ret_type && GameData::Type.exists?(ret_type)
             ret_eff = Effectiveness.calculate_one(ret_type, defType)
-            ret *= apply_reverse(ret_eff).to_f / Effectiveness::NORMAL_EFFECTIVE_ONE
+            ret *= @battle.apply_inverse(ret_eff).to_f / Effectiveness::NORMAL_EFFECTIVE_ONE
         end
 
         return ret
-    end
-
-    def should_reverse?
-        return true if @battle.apply_field_effect(:inverse_battle)
-        return false
-    end
-
-    def apply_reverse(effectiveness)
-        return effectiveness if !should_reverse? || effectiveness == Effectiveness::NORMAL_EFFECTIVE_ONE
-        return Effectiveness::SUPER_EFFECTIVE_ONE if effectiveness < Effectiveness::NORMAL_EFFECTIVE_ONE
-        return Effectiveness::NOT_VERY_EFFECTIVE_ONE
     end
 
     def pbCalcTypeMod(moveType, user, target, uiOnlyCheck = false)

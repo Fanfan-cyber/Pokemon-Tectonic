@@ -434,7 +434,7 @@ class PokeBattle_Battle
         @preBattle = false
 
         pbDisplay(_INTL("You can skip the battle and treat it as a win by FORFEIT!")) if bossBattle?
-        pbDisplay(_INTL("You have to win the battle PERFECTLY, or you LOSE!")) if trainerBattle? #&& !TA.get(:battle_loader)
+        pbDisplay(_INTL("You have to win the battle PERFECTLY, or you LOSE!")) if trainerBattle? && !TA.get(:disableperfect) #&& !TA.get(:battle_loader)
 
         # Main battle loop
         pbBattleLoop(ableBeforeFight)

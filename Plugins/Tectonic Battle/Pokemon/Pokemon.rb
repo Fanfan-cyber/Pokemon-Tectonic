@@ -618,8 +618,7 @@ class Pokemon
     #=============================================================================
     def tribes
         customtribethresh = TA.get(:customtribethresh)
-        #if (hasAbility?(:FRIENDTOALL) || hasItem?(:WILDCARD)) && (!customtribethresh || customtribethresh == 5)
-        if hasAbility?(:FRIENDTOALL) && (!customtribethresh || customtribethresh == 5)
+        if (hasAbility?(:FRIENDTOALL) || hasItem?(:WILDCARD)) && (!customtribethresh || customtribethresh == 5)
             list = []
             GameData::Tribe.each do |tribeData|
                 list.push(tribeData.id)
@@ -1622,6 +1621,7 @@ class Pokemon
             regeneratePersonalID
             @shiny = nil
         end
+        yield self if block_given?
     end
 
     def aestheticsID

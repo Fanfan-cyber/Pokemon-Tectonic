@@ -330,7 +330,7 @@ class FightMenuDisplay < BattleMenuBase
 
     def setMoveOutcomePredictor(move,opposingBattler)
       begin
-      if move.should_reverse? || TA.get(:shuffledisplay)
+      if @battler.battle.should_inverse? || TA.get(:shuffledisplay)
         effectivenessCategory = rand(6)
       else
         typeOfMove = move.pbCalcType(@battler)
