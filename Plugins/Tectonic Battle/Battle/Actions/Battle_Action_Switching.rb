@@ -380,10 +380,35 @@ class PokeBattle_Battle
         end
     end
 
+=begin
     def getTypedHazardHPRatio(hazardType, type1, type2 = nil, type3 = nil, ratio: 0.125)
         typeMod = Effectiveness.calculate(hazardType, type1, type2, type3)
         effectivenessMult = typeEffectivenessMult(typeMod)
         return effectivenessMult * ratio
+    end
+=end
+
+    def getTypedHazardHPRatio(hazardType, type1, type2 = nil, type3 = nil, ratio: 0.125)
+        typeMods = [Effectiveness::NORMAL_EFFECTIVE_ONE] * 3
+        [type1, type2, type3].uniq.each_with_index do |calc_type, i|
+            next unless calc_type
+            ret_eff = Effectiveness.calculate_one(hazardType, calc_type)
+            typeMods[i] = apply_inverse(ret_eff)
+        end
+        typeMod = typeMods.reduce(1.0, :*)
+        effectivenessMult = typeEffectivenessMult(typeMod)
+        return effectivenessMult * ratio
+    end
+
+    def should_inverse?
+        return true if apply_field_effect(:inverse_battle)
+        return false
+    end
+
+    def apply_inverse(effectiveness)
+        return effectiveness if !should_inverse? || effectiveness == Effectiveness::NORMAL_EFFECTIVE_ONE
+        return Effectiveness::SUPER_EFFECTIVE_ONE if effectiveness < Effectiveness::NORMAL_EFFECTIVE_ONE
+        return Effectiveness::NOT_VERY_EFFECTIVE_ONE
     end
 
     # Called when a Pokémon switches in (entry effects, entry hazards).
