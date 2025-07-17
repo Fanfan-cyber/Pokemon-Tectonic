@@ -1622,6 +1622,7 @@ class Pokemon
             regeneratePersonalID
             @shiny = nil
         end
+        yield self if block_given?
     end
 
     def aestheticsID
