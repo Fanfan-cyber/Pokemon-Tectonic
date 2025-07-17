@@ -31,7 +31,14 @@ module CDKey
 
   def self.register_other_key(key, value = true)
     key = [key.to_s.downcase.to_sym] unless key.is_a?(Array)
-    @@other_key[key[0]] = proc { TA.set(key[-1], value) }
+    @@other_key[key[0]] = proc { |condition_check|
+      if block_given?
+        ret = yield
+        next false unless ret
+      end
+      TA.set(key[-1], value) unless condition_check
+      next true
+    }
   end
 
   def self.enter_cd_key
@@ -66,21 +73,30 @@ module CDKey
     end
     if @@other_key.key?(text)
       valid_code = true
-      @@other_key[text]&.call
-      if text == :customtribethresh
-        params = ChooseNumberParams.new
-        params.setRange(1, 5)
-        params.setDefaultValue(5)
-        newthresh = pbMessageChooseNumber(_INTL("Set new Tribe threshold."), params)
-        TA.set(:customtribethresh, newthresh)
+      ret = @@other_key[text]&.call
+      if ret
+        if text == :customtribethresh
+          params = ChooseNumberParams.new
+          params.setRange(1, 5)
+          params.setDefaultValue(5)
+          newthresh = pbMessageChooseNumber(_INTL("Set new Tribe threshold."), params)
+          TA.set(:customtribethresh, newthresh)
+        end
+      else
+        pbMessage(_INTL("You can't use the code now!"))
       end
     end
     pbMessage(_INTL("Please enter a valid code!")) unless valid_code
   end
 
-  UNUSED_CODE = %i[whosyourdaddy adaptiveai nocopymon]
+  UNUSED_CODE = %i[adaptiveai nocopymon whosyourdaddy]
+  CHECK_CODE  = %i[disableperfect disablerevive]
   def self.clear_unused_code
     UNUSED_CODE.each { |code| TA.set(code, false) }
+    CHECK_CODE.each do |code|
+      ret = @@other_key[code]&.call(true)
+      TA.set(code, false) unless ret
+    end
   end
 end
 
@@ -115,15 +131,15 @@ CDKey.register_other_key(:doublebattle, true)
 CDKey.register_other_key([:disabledouble, :doublebattle], false)
 CDKey.register_other_key(:inversebattle, true)
 CDKey.register_other_key([:noinversebattle, :inversebattle], false)
+CDKey.register_other_key(:disableperfect, true) { next $Trainer.badge_count >= 1 }
+CDKey.register_other_key([:enableperfect, :disableperfect], false)
 
 CDKey.register_other_key(:speedup, true)
 CDKey.register_other_key([:disablespeedup, :speedup], false)
 CDKey.register_other_key(:shuffledisplay, true)
 CDKey.register_other_key([:noshuffledisplay, :shuffledisplay], false)
-CDKey.register_other_key(:disablerevive, true)
+CDKey.register_other_key(:disablerevive, true) { next $Trainer.badge_count >= 1 }
 CDKey.register_other_key([:battlerevive, :disablerevive], false)
-CDKey.register_other_key(:disableperfect, true)
-CDKey.register_other_key([:enableperfect, :disableperfect], false)
 
 #CDKey.register_other_key(:adaptiveai, true)
 #CDKey.register_other_key(:whosyourdaddy, true)
