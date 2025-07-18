@@ -256,6 +256,8 @@ BattleHandlers::UserAbilityEndOfMove.add(:GILD,
   }
 )
 
+BattleHandlers::UserAbilityEndOfMove.copy(:GILD, :CASHFLOW)
+
 BattleHandlers::UserAbilityEndOfMove.add(:SPACEINTERLOPER,
   proc { |ability, user, targets, _move, _battle|
     user.pbRecoverHPFromMultiDrain(targets, 0.25, ability: ability)

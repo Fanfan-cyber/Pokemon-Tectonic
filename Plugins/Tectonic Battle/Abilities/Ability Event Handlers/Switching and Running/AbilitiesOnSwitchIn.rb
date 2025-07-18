@@ -1204,3 +1204,5 @@ BattleHandlers::AbilityOnSwitchIn.add(:CASHOUT,
       end
   }
 )
+
+BattleHandlers::AbilityOnSwitchIn.copy(:CASHOUT, :CASHFLOW)

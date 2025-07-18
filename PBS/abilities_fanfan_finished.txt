@@ -17,6 +17,10 @@ Name = Bioengineering
 Description = When the Pokémon's level is 25 or higher, it transforms into a member of its family depending on the type of the move it is about to use.
 Flags = Immutable
 #-------------------------------
+[CASHFLOW]
+Name = Cash Flow
+Description = Turns the held item of a Pokémon it hits into coins. Upon entry, consumes coins to heal for 1/10th the amount consumed. This can overheal.
+#-------------------------------
 [CHRONOREVERT]
 Name = Chrono Revert
 Description = When knocks out any foe, it reverses its own timeline, changes to its initial state upon entering the battle.
