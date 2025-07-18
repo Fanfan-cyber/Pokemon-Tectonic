@@ -12,6 +12,9 @@
 尝试增加自定义属性克制的密码
 工具中增加任一只御三家换其他御三家的功能
 
+修改全双打模式的濒死复活回合数为7
+削弱猩猩
+
 提交用于构造的队伍
 =end
 
@@ -128,23 +131,21 @@ by Fanfan
 hyena1，获得1只路边的野狗
 alien1，获得1只代欧奇希斯（4徽章）
 psyduck10，获得1只10级的我最喜欢的死鸭子
-
 pokeball5，获得5个精灵球
 candyxl700，获得700个经验糖果XL（7徽章）
-
 speedup/disablespeedup，开启/关闭战斗加速功能
-
-disablerevive/battlerevive，关闭（1徽章）/开启濒死复活机制
+inversebattle/noinversebattle，开启/关闭反转对战模式
+# 以下密码均会使游戏难度增加
 shuffledisplay/noshuffledisplay，随机化/正常化属性克制提示
-
-customtribethresh，开启自由部族模式
-rocket/norocket，开启/关闭火箭队模式
 zeroexp/disablezeroexp，开启/关闭无经验模式
 monoabil/disablemonoabil，开启/关闭单特性模式
+# 以下密码均会使游戏难度减小
+disablerevive/battlerevive，关闭（1徽章）/开启濒死复活机制
+customtribethresh，开启自由部族模式
+rocket/norocket，开启/关闭火箭队模式
 customabil/nocustomabil，开启/关闭特性自选模式
 doublebattle/disabledouble，开启/关闭全双打模式
 disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
-inversebattle/noinversebattle，开启/关闭反转对战模式
 
 0.3.5
 1.雪拉比的第一特性由自然回复改为Chrono Revert
@@ -191,7 +192,8 @@ inversebattle/noinversebattle，开启/关闭反转对战模式
 42.为M.甲壳茧增加了第二特性多重鳞片
 43.为M.盾甲茧增加了第二特性多重鳞片
 44.修复了M.刺尾虫只能进化成M.甲壳茧或者M.盾甲茧的Bug
-45.
+45.修复了技能详细信息里面某些技能的目标无法显示翻译之后的文本的Bug
+46.
 
 0.3.4
 1.修复了大量翻译的问题
