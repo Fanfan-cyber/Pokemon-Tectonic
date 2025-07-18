@@ -46822,6 +46822,8 @@ Set {1}'s status.
 {1} has no status now.
 {1}目前没有状态。
 Set the Pokémon's sleep count.
+Which do you want to evolve to?
+你想要进化成哪一种精灵？
 设置精灵的睡眠计数。
 Enter a new Title.
 输入一个新的称号。
@@ -47502,11 +47504,11 @@ at level {1} while raining
 at level {1} while a dark type is in the party
 等级{1}且队伍中有恶属性时
 at level {1} if it has more attack than defense
-等级{1}且攻击大于防御时
+等级{1}且物攻大于物防时
 at level {1} if it has attack equal to defense
-等级{1}且攻击等于防御时
+等级{1}且物攻等于物防时
 at level {1} if it has more defense than attack
-等级{1}且攻击小于防御时
+等级{1}且物攻小于物防时
 at level {1} half of the time
 在等级{1}时一半的时间
 at level {1} the other half of the time
@@ -47514,7 +47516,7 @@ at level {1} the other half of the time
 at level {1} if it has the first of its possible abilities
 如果它拥有第一个特性，在{1}级
 at level {1} if it has the second of its possible abilities
-如果它拥有其可能的第二个特性，则在等级{1}时
+如果它拥有第二个特性，在{1}级
 when leveled up while it has high happiness
 当它拥有高亲密度时升级
 when leveled up while it has maximum happiness
@@ -47524,7 +47526,7 @@ when leveled up while it has maximum beauty
 when leveled up while it knows the move {1}
 当它知道技能{1}时升级
 when leveled up while it knows a move of the {1} type
-当它知道一个{1}类型的技能时升级
+当它知道一个{1}属性技能时升级
 when leveled up near a special location
 当它在特殊地点附近升级
 by using a {1}
@@ -56969,6 +56971,8 @@ Upon entry, traps each opponent in a sand tomb for one turn.
 出场时，将对手困在沙尘中1回合。
 It changes secondary type to that of the punching moves it's about to use.
 将附加属性变为即将使用的拳类技能的属性。
+Speed is raised by one step at the end of each of its turns.
+回合结束时，速度增加1级。
 The user's Speed is doubled while using kicking moves. Every third kicking hit must be a crit.
 使用踢类技能时速度翻倍，并且每第3次使用的踢类技能的攻击必定会命中对手的要害。
 A capsule that allows a Pokémon to switch to another Ability. Only used in Mono Ability Mode.

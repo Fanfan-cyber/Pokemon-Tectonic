@@ -53,7 +53,7 @@ BattleHandlers::EOREffectAbility.add(:SPEEDBOOST,
   proc { |ability, battler, _battle|
       # A Pokémon's turnCount is 0 if it became active after the beginning of a
       # round
-      battler.tryRaiseStat(:SPEED, battler, ability: ability, increment: 2) if battler.turnCount > 0
+      battler.tryRaiseStat(:SPEED, battler, ability: ability, increment: 1) if battler.turnCount > 0
   }
 )
 
