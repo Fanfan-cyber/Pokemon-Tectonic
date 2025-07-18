@@ -639,7 +639,7 @@ module GameData
     :id            => :Ability0,
     :parameter     => Integer,
     :level_up_proc => proc { |pkmn, parameter, finalCheck|
-      next pkmn.level >= parameter && pkmn.ability_index == 0
+      next pkmn.level >= parameter #&& pkmn.ability_index == 0
     },
   })
   
@@ -647,6 +647,6 @@ module GameData
     :id            => :Ability1,
     :parameter     => Integer,
     :level_up_proc => proc { |pkmn, parameter, finalCheck|
-      next pkmn.level >= parameter && pkmn.ability_index == 1
+      next pkmn.level >= parameter #&& pkmn.ability_index == 1
     },
   })

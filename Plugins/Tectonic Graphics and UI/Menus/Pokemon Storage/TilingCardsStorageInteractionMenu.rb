@@ -313,6 +313,12 @@ class TilingCardsStorageInteractionMenu_Scene < TilingCardsMenu_Scene
 		elsif cmdEvolve >= 0 && modifyCommand == cmdEvolve
 			newspecies = @pkmn.check_evolution_on_level_up(true)
 			return false if newspecies.nil?
+      if newspecies.is_a?(Array)
+          names = newspecies.map { |species| GameData::Species.get(species).name }
+          choose = pbMessage(_INTL("Which do you want to evolve to?"), names, -1)
+          return false if choose == -1
+          newspecies = newspecies[choose]
+      end
 			pbFadeOutInWithMusic do
 				evo = PokemonEvolutionScene.new
 				evo.pbStartScreen(@pkmn, newspecies)

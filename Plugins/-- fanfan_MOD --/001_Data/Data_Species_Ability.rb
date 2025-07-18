@@ -41,6 +41,10 @@ SPECIES_ABILITY_DATA = {
 
   [:MAGIKARP, 0]   => { :fixed => %i[], :changeable => %i[MULTISCALE SWIFTSWIM], },
 
+  [:MCASCOON, 0]   => { :fixed => %i[], :changeable => %i[FLAMEBODY MULTISCALE], },
+
+  [:MSILCOON, 0]   => { :fixed => %i[], :changeable => %i[SUDDENCHILL MULTISCALE], },
+
   [:MEOWTH, 0]     => { :fixed => %i[], :changeable => %i[CASHFLOW ALLTHATGLITTERS], },
   [:PERSIAN, 0]    => { :fixed => %i[], :changeable => %i[CASHFLOW ALLTHATGLITTERS], },
 
