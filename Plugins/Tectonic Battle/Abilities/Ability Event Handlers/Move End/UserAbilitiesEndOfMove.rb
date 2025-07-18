@@ -10,7 +10,6 @@ BattleHandlers::UserAbilityEndOfMove.add(:MOXIE,
       next if numFainted == 0
       TA.set(:disable_step_counter, true)
       user.tryRaiseStat(:ATTACK, user, increment: numFainted, ability: ability)
-      TA.set(:disable_step_counter, false)
   }
 )
 
@@ -22,7 +21,6 @@ BattleHandlers::UserAbilityEndOfMove.add(:HUBRIS,
       next if numFainted == 0
       TA.set(:disable_step_counter, true)
       user.tryRaiseStat(:SPECIAL_ATTACK, user, increment: numFainted, ability: ability)
-      TA.set(:disable_step_counter, false)
   }
 )
 
@@ -38,7 +36,6 @@ BattleHandlers::UserAbilityEndOfMove.add(:FOLLOWTHROUGH,
       next if numFainted == 0
       TA.set(:disable_step_counter, true)
       user.tryRaiseStat(:SPEED, user, increment: numFainted * 2, ability: ability)
-      TA.set(:disable_step_counter, false)
   }
 )
 
@@ -50,7 +47,6 @@ BattleHandlers::UserAbilityEndOfMove.add(:OUTRIDER,
       next if numFainted == 0
       TA.set(:disable_step_counter, true)
       user.pbRaiseMultipleStatSteps([:ATTACK, numFainted, :SPEED, numFainted], user, ability: ability)
-      TA.set(:disable_step_counter, false)
   }
 )
 
@@ -62,7 +58,6 @@ BattleHandlers::UserAbilityEndOfMove.add(:OVERCHARGE,
       next if numFainted == 0
       TA.set(:disable_step_counter, true)
       user.pbRaiseMultipleStatSteps([:SPECIAL_ATTACK, numFainted, :SPEED, numFainted], user, ability: ability)
-      TA.set(:disable_step_counter, false)
   }
 )
 
@@ -74,7 +69,6 @@ BattleHandlers::UserAbilityEndOfMove.add(:DOMINATING,
       next if numFainted == 0
       TA.set(:disable_step_counter, true)
       user.pbRaiseMultipleStatSteps([:ATTACK, numFainted, :DEFENSE, numFainted], user, ability: ability)
-      TA.set(:disable_step_counter, false)
   }
 )
 
@@ -86,7 +80,6 @@ BattleHandlers::UserAbilityEndOfMove.add(:WISEHUNTER,
       next if numFainted == 0
       TA.set(:disable_step_counter, true)
       user.pbRaiseMultipleStatSteps([:SPECIAL_ATTACK, numFainted, :SPECIAL_DEFENSE, numFainted], user, ability: ability)
-      TA.set(:disable_step_counter, false)
   }
 )
 
@@ -143,14 +136,13 @@ BattleHandlers::UserAbilityEndOfMove.add(:BEASTBOOST,
       userStats = user.plainStats
       highestStatValue = 0
       userStats.each_value { |value| highestStatValue = value if highestStatValue < value }
-      TA.set(:disable_step_counter, true)
       GameData::Stat.each_main_battle do |s|
           next if userStats[s.id] < highestStatValue
           stat = s.id
+          TA.set(:disable_step_counter, true)
           user.tryRaiseStat(stat, user, increment: numFainted, ability: ability)
           break
       end
-      TA.set(:disable_step_counter, false)
   }
 )
 
@@ -163,7 +155,6 @@ BattleHandlers::UserAbilityEndOfMove.add(:ASONEICE,
       battle.pbShowAbilitySplash(user, :CHILLINGNEIGH)
       TA.set(:disable_step_counter, true)
       user.pbRaiseStatStep(:ATTACK, numFainted, user)
-      TA.set(:disable_step_counter, false)
       battle.pbHideAbilitySplash(user)
   }
 )
@@ -177,7 +168,6 @@ BattleHandlers::UserAbilityEndOfMove.add(:ASONEGHOST,
       battle.pbShowAbilitySplash(user, :GRIMNEIGH)
       TA.set(:disable_step_counter, true)
       user.pbRaiseStatStep(:SPECIAL_ATTACK, numFainted, user)
-      TA.set(:disable_step_counter, false)
       battle.pbHideAbilitySplash(user)
   }
 )

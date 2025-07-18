@@ -284,6 +284,20 @@ def random_choose_from_list(list_name, use_weight = true)
   end
 end
 
+def weighted_random(items, weights)
+  if weights.is_a?(Numeric)
+    rand < weights / 100.0 ? items.first : items.last
+  elsif weights.is_a?(Array)
+    total = weights.sum.to_f
+    target = rand * total
+    cumulative = 0
+    weights.each_with_index do |weight, i|
+      cumulative += weight
+      return items[i] if cumulative >= target
+    end
+  end
+end
+
 def calc_best_offense_types(target)
   offense_types = Hash.new { |hash, key| hash[key] = [] }
   defense_types = target.pbTypes(true)
