@@ -32,3 +32,17 @@ BattleHandlers::TypeCalcAbility.add(:UNIDENTIFIED,
         next types
     }
 )
+
+BattleHandlers::TypeCalcAbility.add(:FIERYGLOW,
+    proc { |ability, battler, types|
+        types.push(:FIRE)
+        next types
+    }
+)
+
+BattleHandlers::TypeCalcAbility.add(:OTHERWORLDLY,
+    proc { |ability, battler, types|
+        types.push(:BUG)
+        next types
+    }
+)

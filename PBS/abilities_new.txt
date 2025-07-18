@@ -616,6 +616,10 @@ Name = Ferrofluid
 Description = Takes 30% less damage in a rainstorm.
 Flags = RainstormSynergy
 #-------------------------------
+[FIERYGLOW]
+Name = Fiery Glow
+Description = The Pokémon is also Fire-type.
+#-------------------------------
 [FIERYSPIRIT]
 Name = Fiery Spirit
 Description = Special moves against the Pokémon have a 30% chance to burn the attacker.
@@ -801,7 +805,11 @@ Description = Eats pinch berries earlier than normal. Gets a random pinch berry 
 #-------------------------------
 [GRAVITAS]
 Name = Gravitas
-Description = Upon entry, intensifies gravity for five turns.
+Description = Upon entry, intensifies gravity for four turns.
+#-------------------------------
+[GRAVITYWELL]
+Name = Gravity Well
+Description = Intensifies gravity for four turns when hit by an attack.
 #-------------------------------
 [GRIPSTRENGTH]
 Name = Grip Strength
@@ -1209,7 +1217,7 @@ Flags = SunshineSynergy
 #-------------------------------
 [MISTFORM]
 Name = Mist Form
-Description = Slips past hazards. Takes 50% less damage if it switched in this turn.
+Description = Slips past hazards. Takes one third less damage if it switched in this turn.
 Flags = HazardImmunity
 #-------------------------------
 [MOISTSKIN]
@@ -1330,6 +1338,10 @@ Description = Sets a Tailwind for four turns upon entering the battle, increasin
 Name = Optimized Alloy
 Description = Prevents stat steps from being lowered (except when self-inflicted). The Pokémon's weight is doubled.
 Flags = OtherStatDropImmunity
+#-------------------------------
+[OTHERWORLDLY]
+Name = Otherworldly
+Description = The Pokémon is also Fairy-type.
 #-------------------------------
 [OUTRIDER]
 Name = Outrider
