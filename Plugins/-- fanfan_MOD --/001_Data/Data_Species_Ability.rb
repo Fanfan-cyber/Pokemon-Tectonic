@@ -48,6 +48,11 @@ SPECIES_ABILITY_DATA = {
   [:PORYGON2, 0]   => { :fixed => %i[], :changeable => %i[DOWNLOAD2 BACKUP], },
   [:PORYGONZ, 0]   => { :fixed => %i[], :changeable => %i[DOWNLOAD2 BACKUP], },
 
+  [:ROCKRUFF, 0]   => { :fixed => %i[], :changeable => %i[VITALSPIRIT TOUGHCLAWS], },
+  [:LYCANROC, 0]   => { :fixed => %i[], :changeable => %i[LYCANTHROPE TOUGHCLAWS], },
+  [:LYCANROC, 1]   => { :fixed => %i[], :changeable => %i[NOGUARD TOUGHCLAWS], },
+  [:LYCANROC, 2]   => { :fixed => %i[], :changeable => %i[LYCANTHROPE TOUGHCLAWS], },
+
   [:SALANDIT, 0]   => { :fixed => %i[], :changeable => %i[BACKFIRE DOMINEERING], },
   [:SALAZZLE, 0]   => { :fixed => %i[], :changeable => %i[BACKFIRE DOMINEERING], },
 

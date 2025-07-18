@@ -24837,9 +24837,9 @@ Rattata
 Raticate
 拉达
 A. Rattata
-A. 小拉达
+A.小拉达
 A. Raticate
-A. 拉达
+A.拉达
 Spearow
 烈雀
 Fearow
@@ -24857,15 +24857,15 @@ Raichu
 Gigachu
 巨卡超
 A. Raichu
-A. 雷超
+A.雷超
 Sandshrew
 穿山鼠
 Sandslash
 穿山王
 A. Sandshrew
-A. 穿山鼠
+A.穿山鼠
 A. Sandslash
-A. 穿山王
+A.穿山王
 Nidoran-F
 尼多兰
 Nidorina
@@ -24889,13 +24889,13 @@ Vulpix
 Ninetales
 九尾
 A. Vulpix
-A. 六尾
+A.六尾
 A. Ninetales
-A. 九尾
+A.九尾
 M. Vulpix
-M. 六尾
+M.六尾
 M. Ninetales
-M. 九尾
+M.九尾
 Igglybuff
 宝宝丁
 Jigglypuff
@@ -24929,9 +24929,9 @@ Diglett
 Dugtrio
 三地鼠
 A. Diglett
-A. 地鼠
+A.地鼠
 A. Dugtrio
-A. 三地鼠
+A.三地鼠
 Meowth
 喵喵
 Persian
@@ -24939,13 +24939,13 @@ Persian
 Nibelong
 吉拔喵
 A. Meowth
-A. 喵喵
+A.喵喵
 A. Persian
-A. 猫老大
+A.猫老大
 G. Meowth
-G. 喵喵
+G.喵喵
 Perrserker
-喵头目
+猫头目
 Psyduck
 可达鸭
 Golduck
@@ -24961,9 +24961,9 @@ Growlithe
 Arcanine
 风速狗
 H. Growlithe
-H. 卡蒂狗
+H.卡蒂狗
 H. Arcanine
-H. 风速狗
+H.风速狗
 Poliwag
 蚊香蝌蚪
 Poliwhirl
@@ -25001,19 +25001,19 @@ Graveler
 Golem
 隆隆岩
 A. Geodude
-A. 小拳石
+A.小拳石
 A. Graveler
-A. 隆隆石
+A.隆隆石
 A. Golem
-A. 隆隆岩
+A.隆隆岩
 Ponyta
 小火马
 Rapidash
 烈焰马
 G. Ponyta
-G. 小火马
+G.小火马
 G. Rapidash
-G. 烈焰马
+G.烈焰马
 Slowpoke
 呆呆兽
 Slowbro
@@ -25021,11 +25021,11 @@ Slowbro
 Slowking
 河马王
 G. Slowpoke
-G. 呆呆兽
+G.呆呆兽
 G. Slowbro
-G. 呆壳兽
+G.呆河马
 G. Slowking
-G. 河马王
+G.河马王
 Magnemite
 小磁怪
 Magneton
@@ -25035,7 +25035,7 @@ Magnezone
 Farfetch'd
 大葱鸭
 G. Farfetch'd
-G. 大葱鸭
+G.大葱鸭
 Sirfetch'd
 葱游兵
 Doduo
@@ -25051,9 +25051,9 @@ Grimer
 Muk
 臭臭泥
 A. Grimer
-A. 臭泥
+A.臭泥
 A. Muk
-A. 臭臭泥
+A.臭臭泥
 Shellder
 大舌贝
 Cloyster
@@ -25085,25 +25085,25 @@ Voltorb
 Electrode
 顽皮弹
 H. Voltorb
-H. 雷电球
+H.雷电球
 H. Electrode
-H. 顽皮弹
+H.顽皮弹
 M. Voltorb
-M. 雷电球
+M.雷电球
 M. Electrode
-M. 顽皮弹
+M.顽皮弹
 Exeggcute
 蛋蛋
 Exeggutor
 椰蛋树
 A. Exeggutor
-A. 椰蛋树
+A.椰蛋树
 Cubone
 卡拉卡拉
 Marowak
 嘎啦嘎啦
 A. Marowak
-A. 嘎啦嘎啦
+A.嘎啦嘎啦
 Tyrogue
 巴尔郎
 Hitmonlee
@@ -25121,7 +25121,7 @@ Koffing
 Weezing
 双弹瓦斯
 G. Weezing
-G. 双弹瓦斯
+G.双弹瓦斯
 Rhyhorn
 铁甲犀牛
 Rhydon
@@ -25139,9 +25139,9 @@ Tangela
 Tangrowth
 巨蔓藤
 M. Tangela
-M. 蔓藤怪
+M.蔓藤怪
 M. Tangrowth
-M. 巨蔓藤
+M.巨蔓藤
 Kangaskhan
 袋龙
 Teamujin
@@ -25157,9 +25157,9 @@ Goldeen
 Seaking
 金鱼王
 M. Goldeen
-M. 角金鱼
+M.角金鱼
 M. Seaking
-M. 金鱼王
+M.金鱼王
 Staryu
 海星星
 Starmie
@@ -25169,7 +25169,7 @@ Mime Jr.
 Mr. Mime
 吸盘魔偶
 G. Mr. Mime
-G. 吸盘魔偶
+G.吸盘魔偶
 Mr. Rime
 踏冰人偶
 Scyther
@@ -25275,11 +25275,11 @@ Zapdos
 Moltres
 火焰鸟
 G. Articuno
-G. 急冻鸟
+G.急冻鸟
 G. Zapdos
-G. 闪电鸟
+G.闪电鸟
 G. Moltres
-G. 火焰鸟
+G.火焰鸟
 Mewtwo
 超梦
 Mew
@@ -25297,7 +25297,7 @@ Quilava
 Typhlosion
 火暴兽
 H. Typhlosion
-H. 火暴兽
+H.火暴兽
 Totodile
 小锯鳄
 Croconaw
@@ -25309,17 +25309,17 @@ Sentret
 Furret
 大尾立
 M. Sentret
-M. 尾立
+M.尾立
 M. Furret
-M. 大尾立
+M.大尾立
 Hoothoot
 咕咕
 Noctowl
 猫头夜鹰
 M. Hoothoot
-M. 咕咕
+M.咕咕
 M. Noctowl
-M. 猫头夜鹰
+M.猫头夜鹰
 Ledyba
 芭瓢虫
 Ledian
@@ -25419,7 +25419,7 @@ Granbull
 Qwilfish
 千针鱼
 H. Qwilfish
-H. 千针鱼
+H.千针鱼
 Overqwil
 万针鱼
 Shuckle
@@ -25429,7 +25429,7 @@ Sneasel
 Weavile
 玛狃拉
 H. Sneasel
-H. 狃拉
+H.狃拉
 Sneasler
 大狃拉
 Teddiursa
@@ -25451,7 +25451,7 @@ Mamoswine
 Corsola
 太阳珊瑚
 G. Corsola
-G. 太阳珊瑚
+G.太阳珊瑚
 Cursola
 魔灵珊瑚
 Remoraid
@@ -25463,9 +25463,9 @@ Mantyke
 Mantine
 巨翅飞鱼
 M. Mantyke
-M. 小球飞鱼
+M.小球飞鱼
 M. Mantine
-M. 巨翅飞鱼
+M.巨翅飞鱼
 Delibird
 信使鸟
 Skarmory
@@ -25533,9 +25533,9 @@ Zigzagoon
 Linoone
 直冲熊
 G. Zigzagoon
-G. 蛇纹熊
+G.蛇纹熊
 G. Linoone
-G. 直冲熊
+G.直冲熊
 Obstagoon
 堵拦熊
 Wurmple
@@ -25549,15 +25549,15 @@ Cascoon
 Dustox
 毒粉蛾
 M. Wurmple
-M. 刺尾虫
+M.刺尾虫
 M. Silcoon
-M. 甲壳茧
+M.甲壳茧
 M. Beautifly
-M. 狩猎凤蝶
+M.狩猎凤蝶
 M. Cascoon
-M. 盾甲茧
+M.盾甲茧
 M. Dustox
-M. 毒粉蛾
+M.毒粉蛾
 Lotad
 莲叶童子
 Lombre
@@ -25713,9 +25713,9 @@ Zangoose
 Seviper
 饭匙蛇
 M. Zangoose
-M. 猫鼬斩
+M.猫鼬斩
 M. Seviper
-M. 饭匙蛇
+M.饭匙蛇
 Lunatone
 月石
 Solrock
@@ -25955,9 +25955,9 @@ Croagunk
 Toxicroak
 毒骷蛙
 Carnivine
-尖牙龙
+尖牙笼
 M. Carnivine
-M. 尖牙龙
+M.尖牙笼
 Finneon
 荧光鱼
 Lumineon
@@ -26015,7 +26015,7 @@ Dewott
 Samurott
 大剑鬼
 H. Samurott
-H. 大剑鬼
+H.大剑鬼
 Patrat
 探探鼠
 Watchog
@@ -26047,9 +26047,9 @@ Munna
 Musharna
 梦梦食
 M. Munna
-H. 食梦梦
+M.食梦梦
 M. Musharna
-梦梦食
+M.梦梦食
 Pidove
 豆豆鸽
 Tranquill
@@ -26067,11 +26067,11 @@ Boldore
 Gigalith
 庞岩怪
 M. Roggenrola
-H. 石丸子
+M.石丸子
 M. Boldore
-H. 地幔岩
+M.地幔岩
 M. Gigalith
-H. 庞岩怪
+M.庞岩怪
 Woobat
 滚滚蝙蝠
 Swoobat
@@ -26121,11 +26121,11 @@ Petilil
 Lilligant
 裙儿小姐
 H. Lilligant
-H. 裙儿小姐
+H.裙儿小姐
 M. Petilil
-M. 百合根娃娃
+M.百合根娃娃
 M. Lilligant
-M. 裙儿小姐
+M.裙儿小姐
 Basculin
 野蛮鲈鱼
 Basculegion
@@ -26141,9 +26141,9 @@ Darumaka
 Darmanitan
 达摩狒狒
 G. Darumaka
-G. 火红不倒翁
+G.火红不倒翁
 G. Darmanitan
-G. 达摩狒狒
+G.达摩狒狒
 Maractus
 沙铃仙人掌
 Dwebble
@@ -26161,7 +26161,7 @@ Yamask
 Cofagrigus
 死神棺
 G. Yamask
-G. 哭哭面具
+G.哭哭面具
 Runerigus
 死神板
 Tirtouga
@@ -26183,9 +26183,9 @@ Zorua
 Zoroark
 索罗亚克
 H. Zorua
-H. 索罗亚
+H.索罗亚
 H. Zoroark
-H. 索罗亚克
+H.索罗亚克
 Minccino
 泡沫栗鼠
 Cinccino
@@ -26231,9 +26231,9 @@ Frillish
 Jellicent
 胖嘟嘟
 M. Frillish
-M. 轻飘飘
+M.轻飘飘
 M. Jellicent
-M. 胖嘟嘟
+M.胖嘟嘟
 Joltik
 电电虫
 Galvantula
@@ -26283,7 +26283,7 @@ Accelgor
 Stunfisk
 泥巴鱼
 G. Stunfisk
-G. 泥巴鱼
+G.泥巴鱼
 Mienfoo
 功夫鼬
 Mienshao
@@ -26307,15 +26307,15 @@ Rufflet
 Braviary
 勇士鹰
 H. Braviary
-H. 勇士鹰
+H.勇士鹰
 Vullaby
 秃鹰丫头
 Mandibuzz
 秃鹰娜
 M. Vullaby
-M. 秃鹰丫头
+M.秃鹰丫头
 M. Mandibuzz
-M. 秃鹰娜
+M.秃鹰娜
 Heatmor
 熔蚁兽
 Durant
@@ -26427,7 +26427,7 @@ Spritzee
 Aromatisse
 芳香精
 M. Aromatisse
-M. 芳香精
+M.芳香精
 Swirlix
 绵绵泡芙
 Slurpuff
@@ -26445,9 +26445,9 @@ Skrelp
 Dragalge
 毒藻龙
 M. Skrelp
-M. 垃垃藻
+M.垃垃藻
 M. Dragalge
-M. 毒藻龙
+M.毒藻龙
 Clauncher
 铁臂枪虾
 Clawitzer
@@ -26479,9 +26479,9 @@ Sliggoo
 Goodra
 黏美龙
 H. Sliggoo
-H. 黏美儿
+H.黏美儿
 H. Goodra
-H. 黏美龙
+H.黏美龙
 Klefki
 钥圈儿
 Phantump
@@ -26497,7 +26497,7 @@ Bergmite
 Avalugg
 冰岩怪
 H. Avalugg
-H. 冰岩怪
+H.冰岩怪
 Noibat
 嗡蝠
 Noivern
@@ -26519,7 +26519,7 @@ Dartrix
 Decidueye
 狙射树枭
 H. Decidueye
-H. 狙射树枭
+H.狙射树枭
 Litten
 火斑喵
 Torracat
@@ -26791,9 +26791,9 @@ Sinistea
 Polteageist
 怖思壶
 M. Sinistea
-M. 来悲茶
+M.来悲茶
 M. Polteageist
-M. 怖思壶
+M.怖思壶
 Hatenna
 迷布莉姆
 Hattrem
@@ -40103,7 +40103,7 @@ Doubles the Pokémon's Speed in rainstorm.
 When the Pokémon is given a non-volatile status condition by another Pokémon, that Pokemon also gets that condition.
 当被另一只精灵赋予稳定型异常时，那只精灵也会陷入该异常。
 Physical moves against it lower the attacker's Speed by three steps.
-对于使用物理类技能攻击自身的对手，会减小其速度3级。
+对于使用物理类技能攻击自身的对手，会使其速度减小3级。
 Moves with base power 60 or less deal 50% more damage.
 使用基础威力60以下的技能攻击时，伤害增加50%。
 Anticipates an ally's attack and dodges it.
@@ -40113,11 +40113,11 @@ Takes half damage from Fire- and Ice-type moves.
 Doubles the damage of "not very effective" moves.
 对于效果不好的技能，伤害翻倍。
 Increases Attack by 30%.
-增加30%的物攻。
+物攻增加30%。
 Powers up Electric-type moves by 50%.
 电属性技能的威力增加50%。
 Gives +3 priority to healing and draining moves.
-可以率先使出回复类技能。
+回复类技能的先制度+3。
 Every other turn, the Pokémon can't use any move but Slack Off.
 每隔1回合，不能使用除偷懒之外的其他技能。
 Ignores modified Defense and Sp. Def while attacking, and ignores modified Attack and Sp. Atk while being attacked.
@@ -40395,33 +40395,33 @@ Can't be numbed, waterlogged, or have its Speed reduced.
 The Pokémon's moves have priority against single targets with increased stats.
 技能对于拥有增加的能力等级的单个对手拥有先制度。
 Eclipse counts down twice as quickly.
-日食天气的计时速度增加为两倍。
+日食的计时速度增加为两倍。
 Powers up Psychic-type moves by 50%.
-超能属性技能增加50%。
+超能属性技能的威力增加50%。
 Dig and Undermine deal 50% more damage.
 挖洞和暗袭要害造成的伤害增加50%。
 Takes half damage from Psychic- and Ghost-type attacks.
 受到的超能、幽灵属性攻击伤害减半。
 Boosts Speed by 50% but the Pokémon is locked into the first move they use.
-增加速度50%，但该精灵会被锁定在它使用的第一个技能中。
+速度增加50%，但该精灵会被锁定在它使用的第一个技能中。
 At low health, eats other battlers' low-health triggered berries.
-在低HP的状态下，会吃掉其他精灵低HP触发的树果。
+在低HP的时，会吃掉其他精灵的低HP触发的树果。
 Upon entry, the Pokémon heals itself for 1/4th max HP. This can overheal.
-进入战斗后治疗25%最大HP，且可以过量回复。
+出场时，回复25%最大HP，且可以过量回复。
 Increases Attack by 50%, but the Pokémon is hurt for 1/10th HP each turn.
 物攻增加50%，但每回合受到10%最大HP的伤害。
 Increases Sp. Atk by 50%, but the Pokémon is hurt for 1/10th HP each turn.
 特攻增加50%，但每回合受到10%最大HP的伤害。
 Heals by 1/8th of its max HP each turn if in eclipse.
-日食天气中，每回合恢复1/8最大HP。
+日食时，每回合回复1/8最大HP。
 Prevents itself and allies from being burned, frostbitten, or numbed.
 自身和队友不会被烧伤、冻伤或麻痹。
 Upon entry, lowers the foe's Sp. Atk stat by two steps.
-进入战斗后，大幅度减小对方特攻。
+出场时，使对方的特攻减小2级。
 Can hold two different items, if one is clothing and the other is not.
-在携带衣物类物品时，可额外携带一个非衣物物品。
+在携带衣物类物品时，可额外携带一个非衣物类物品。
 Raises all of its stats whenever it knocks out a Pokémon with a critical hit.
-每次击中要害击败敌方时，增加所有属性。
+每次击中要害击败敌方时，所有能力增加1级。
 After attacking any foe, the Pokémon immediately uses Rest.
 击败对手后立即使用睡觉。
 Takes half damage from Ice- and Flying-type attacks.
@@ -40429,15 +40429,15 @@ Takes half damage from Ice- and Flying-type attacks.
 When attacked with a special move, inflicts 1/8th max HP damage on the attacker.
 被特殊类技能攻击时，对手会受到1/8HP的伤害。
 Boosts Attack by 75%, but the Pokémon becomes burned after attacking.
-物攻增加75%，但发动攻击后会烧伤自己。
+物攻增加75%，但发动攻击后自身会烧伤。
 During eclipse, gets a 30% boost to Sp. Atk.
-日食天气下增加30%特攻。
+日食时，特攻增加30%。
 Double the Pokémon's Speed if any enemy is below half health.
-任何对手HP低于一半时，速度加倍。
+当任一对手HP低于一半时，速度翻倍。
 Takes 30% less damage in a rainstorm.
-在暴雨中受到的伤害减小30%。
+雨天时，受到的伤害减小30%。
 Special moves against the Pokémon have a 30% chance to burn the attacker.
-受到特殊类技能攻击时，30%概率使对方烧伤。
+受到特殊类技能攻击时，有30%概率使对方烧伤。
 Heals by 1/8th HP whenever any Pokémon uses a dance or sound move.
 任何精灵使用舞蹈或声音技能时，恢复1/8最大HP。
 Heals 1/16th HP every turn. Protected from being numbed or waterlogged.
@@ -40667,7 +40667,7 @@ Boosts Speed by 50%, but the Pokémon is hurt for 1/10th HP each turn.
 Protected against critical hits. Heals 1/12th HP every turn if hit by an attack.
 不会被命中要害。被攻击后每回合回复1/12HP。
 Multi-hit moves can hit up to twice as many times.
-多次攻击的技能可攻击更多次数。
+连续攻击类技能最多可以打出原先最大次数的两倍的次数。
 Copies the Ability of the Pokémon it switches in to replace.
 复制它要替换的精灵的特性。
 Boosts power of sound-based moves by 30%.
@@ -43100,7 +43100,7 @@ Novo Buildings
 望新建筑
 64
 M. Munna Den
-梦梦食巢穴
+M.梦梦食巢穴
 65
 Goomy Den 3
 黏黏宝巢穴3
@@ -44006,7 +44006,7 @@ Ruined Tower F3
 废弃之塔F3
 366
 M. Munna Den 2
-M. 梦梦食巢穴2
+M.梦梦食巢穴2
 367
 Prizca Great Hall
 宏礼城堡
@@ -44162,7 +44162,7 @@ Crackling Cave
 烈之窟
 418
 M. Munna Den 3
-梦梦食巢穴3
+M.梦梦食巢穴3
 419
 Cavern of Emotion
 情感之窟
@@ -56278,9 +56278,9 @@ Svait-Park Gatehouse
 A ranger is asking you to deal with a Beartic Avatar lying in the Gigalith's Guts. Says he'll make it worth your while.
 一位护林员请你去处理位于怪岩肠道内的冻原熊化身。他说他会让你觉得值得。
 Bounty: M. Aromatisse Avatar
-悬赏：M. 芳香精化身
+悬赏：M.芳香精化身
 Defeat the M. Aromatisse Avatar.
-击败M. 芳香精化身。
+击败M.芳香精化身。
 West-Plaza Gatehouse
 西-区门房
 A ranger is asking you to deal with a Makyan Aromatisse Avatar lying in the Highland Lake... apparently. Says he'll make it worth your while.
