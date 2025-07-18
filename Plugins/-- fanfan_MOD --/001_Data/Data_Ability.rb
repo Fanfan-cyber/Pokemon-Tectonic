@@ -16,4 +16,5 @@ ABILITY_DATA = {
   :SHIFTINGFIST => { :desc => proc { _INTL("It changes secondary type to that of the punching moves it's about to use.") }, },
   :SPEEDBOOST   => { :desc => proc { _INTL("Speed is raised by one step at the end of each of its turns.") }, },
   :SWIFTSTOMPS  => { :desc => proc { _INTL("The user's Speed is doubled while using kicking moves. Every third kicking hit must be a crit.") }, },
+  :VERDANT      => { :desc => proc { _INTL("Powers up Grass-type moves of itself and its allies by 30%.") }, },
 }.freeze

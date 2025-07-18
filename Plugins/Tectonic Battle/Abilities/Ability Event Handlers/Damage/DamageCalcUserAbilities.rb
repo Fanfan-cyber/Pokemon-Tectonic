@@ -419,7 +419,7 @@ BattleHandlers::DamageCalcUserAbility.add(:STEELYSPIRIT,
 BattleHandlers::DamageCalcUserAbility.add(:VERDANT,
   proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck, backfire|
     if type == :GRASS || backfire
-      mults[:base_damage_multiplier] *= 1.5
+      mults[:base_damage_multiplier] *= 1.3
       user.aiLearnsAbility(ability) unless aiCheck
     end
   }

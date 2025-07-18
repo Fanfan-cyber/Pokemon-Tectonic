@@ -30437,7 +30437,7 @@ This is the form Castform takes on the brightest of days. Its skin is unexpected
 This is the form Castform takes when soaked with rain. When its body is compressed, water will seep out as if from a sponge.
 这是漂浮泡泡在雨天时的样子，此时它的身体受到挤压，就会像海面一样渗出水来。
 This is the form Castform takes when covered in snow. Its body becomes an ice-like material, with a temperature near -5 degrees Celsius.
-这是漂浮泡泡在雪天时的样子，此时它的身体变成了冰一样的物质，体温大约为零下5摄氏度。
+这是漂浮泡泡在冰雹天气时的样子，此时它的身体变成了冰一样的物质，体温大约为零下5摄氏度。
 This is the form Castform takes when sand sweeps up. Its body is made of particles that are constantly spinning.
 这是漂浮泡泡在沙尘暴时的样子，此时它的身体将会变成不断旋转的粒子。
 This is the form Castform takes when the moon rises. The particles in its body take on mystical fae-like properties.
@@ -41139,7 +41139,7 @@ Immune to Poison-type moves, and raises Attack and Sp. Atk if hit by one.
 Whenever a foe's poison worsens, the Pokémon heals for 25% max HP.
 当对手中毒每次恶化时，自身恢复25%HP。
 Powers up Grass-type moves of itself and its allies by 50%.
-自身和队友的草属性技能威力增加50%。
+自身和队友的草属性技能威力的增加50%。
 Heals non-volatile status conditions and resets stat changes after knocking out any Pokémon.
 击倒任意精灵后，回复稳定型异常并重置能力等级。
 Takes 40% less damage while using a status move.
@@ -52460,9 +52460,9 @@ sunny skies with dry, dusty air
 sunny skies and hot temperatures
 晴朗的天空和高温
 overcast skies with high ambient humidity
-阴天 且空气湿度较大
+阴天且空气湿度较大
 total cloud cover and heavy rain with thunder
-乌云密布 且伴有雷阵雨
+乌云密布且伴有雷阵雨
 blizzard conditions with high winds and heavy snowfall
 大风暴雪天气
 hot and dry sandstorm conditions
@@ -56985,6 +56985,8 @@ Speed is raised by one step at the end of each of its turns.
 回合结束时，速度增加1级。
 The user's Speed is doubled while using kicking moves. Every third kicking hit must be a crit.
 使用踢类技能时速度翻倍，并且每第3次使用的踢类技能的攻击必定会命中对手的要害。
+Powers up Grass-type moves of itself and its allies by 30%.
+自身和队友的草属性技能的威力增加30%。
 A capsule that allows a Pokémon to switch to another Ability. Only used in Mono Ability Mode.
 仅在单特性模式下可用，能将精灵的现有特性变为另一种特性的胶囊。
 An item to be held by a Pokémon. The user gets three abilities, but its stats are cut by 10%.
