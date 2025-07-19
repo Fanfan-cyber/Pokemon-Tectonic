@@ -879,7 +879,7 @@ class PokeBattle_Battler
         end
         # Energy Charge expended message
         if user.effectActive?(:EnergyChargeExpended) && hitNum == 0
-            @battle.pbDisplay(_INTL("{1} expended its charge to empower {2}!", user.pbThis, move.name))
+            @battle.pbDisplay(_INTL("{1} used its energy to empower {2}!", user.pbThis, move.name))
         end
         # Bubble Barrier proc message
         targets.each do |b|

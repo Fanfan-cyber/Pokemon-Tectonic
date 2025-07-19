@@ -19350,7 +19350,7 @@ Flags = Legendary
 Name = Grookey
 Type1 = GRASS
 # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-BaseStats = 50,65,50,65,40,40
+BaseStats = 60,60,50,65,35,40
 # Total = 310
 BaseEXP = 62
 Rareness = 115
@@ -19371,7 +19371,7 @@ Evolutions = THWACKEY,Level,16
 Name = Thwackey
 Type1 = GRASS
 # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-BaseStats = 70,85,70,80,55,60
+BaseStats = 80,85,70,85,45,55
 # Total = 420
 BaseEXP = 147
 Rareness = 80
@@ -19389,7 +19389,7 @@ Evolutions = RILLABOOM,Level,36
 Name = Rillaboom
 Type1 = GRASS
 # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-BaseStats = 105,125,90,85,60,70
+BaseStats = 105,105,90,105,60,70
 # Total = 535
 BaseEXP = 265
 Rareness = 35

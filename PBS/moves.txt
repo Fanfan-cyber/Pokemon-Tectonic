@@ -231,7 +231,7 @@ Target = NearOther
 Priority = 2
 FunctionCode = Basic
 Flags = CanProtect
-Description = The user charges the target at blinding speed. This attack always goes before any other move.
+Description = The user rushes the target at blinding speed. This attack always goes before any other move.
 #-------------------------------
 [FACADE]
 Name = Facade
@@ -316,7 +316,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = TwoTurnAttack
 Flags = CanProtect,Uninvocable
-Description = The user charges at the target using every bit of its power. The user must rest on the next turn.
+Description = The user rushes at the target using every bit of its power. The user is exhausted on the next turn.
 #-------------------------------
 [GLARE]
 Name = Glare
@@ -362,7 +362,7 @@ Target = NearOther
 FunctionCode = Numb
 Flags = CanProtect
 EffectChance = 50
-Description = The user sticks out its head and attacks by charging into the foe. It has a 50% chance to numb.
+Description = The user sticks out its head and attacks by slamming into the foe. It has a 50% chance to numb.
 #-------------------------------
 [HEALBELL]
 Name = Heal Bell
@@ -409,7 +409,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = TwoTurnAttack
 Flags = CanProtect,Uninvocable
-Description = The foe is attacked with a powerful beam. The user must rest on the next turn to regain its energy.
+Description = The foe is attacked with a powerful beam. The user is exhausted on the next turn.
 #-------------------------------
 [HYPERFANG]
 Name = Hyper Fang
@@ -589,7 +589,7 @@ Name = Pound
 Type = NORMAL
 Category = Physical
 Power = 45
-Accuracy = 0
+Accuracy = 100
 TotalPP = 30
 Target = NearOther
 FunctionCode = Basic
@@ -817,7 +817,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = TwoTurnAttackChargeRaiseUserDef1
 Flags = CanProtect
-Description = The user tucks in to raise its Defense by four steps in the first turn, then rams the foe on the second.
+Description = The user charges to raise its Defense by four steps in the first turn, then rams the foe on the second.
 #-------------------------------
 [SLACKOFF]
 Name = Slack Off
@@ -899,7 +899,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = PowerDependsOnUserStockpile
 Flags = CanProtect
-Description = The power stored using the move Stockpile is released all at once in an attack. 150 base power per Stockpile charge.
+Description = The power stored using the move Stockpile is released all at once in an attack. 150 base power per stack.
 #-------------------------------
 [SPOTLIGHT]
 Name = Spotlight
@@ -922,7 +922,7 @@ TotalPP = 15
 Target = User
 FunctionCode = UserAddStockpileRaiseDefSpDef2
 Flags = CanSnatch
-Description = The user charges up power and raises its Defense and Sp. Def by two steps. The move can be stacked twice.
+Description = The user stockpiles power and raises its Defense and Sp. Def by two steps. The move can be stacked twice.
 #-------------------------------
 [STRUGGLE]
 Name = Struggle
@@ -989,7 +989,7 @@ TotalPP = 10
 Target = User
 FunctionCode = HealUserDependingOnUserStockpile
 Flags = CanSnatch
-Description = The user consumes its Stockpile to heal for 50% max HP per charge. This can overheal.
+Description = The user consumes its Stockpile to heal for 50% max HP per stack. This can overheal.
 #-------------------------------
 [SWIFT]
 Name = Swift
@@ -1012,7 +1012,7 @@ TotalPP = 30
 Target = NearOther
 FunctionCode = Basic
 Flags = CanProtect
-Description = A physical attack in which the user charges and slams into the target with its whole body.
+Description = A physical attack in which the user slams into the target with its whole body.
 #-------------------------------
 [TAKEDOWN]
 Name = Take Down
@@ -1024,7 +1024,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = RecoilQuarterOfDamageDealt
 Flags = CanProtect
-Description = A full-body charge attack for slamming into the foe. The user also takes 25% recoil.
+Description = A full-body attack for slamming into the foe. The user also takes 25% recoil.
 #-------------------------------
 [TEARFULLOOK]
 Name = Tearful Look
@@ -1477,7 +1477,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = TwoTurnAttack
 Flags = CanProtect,Uninvocable
-Description = Attacks wildly with swords or fists. The user must rest on the next turn, however.
+Description = Attacks wildly with swords or fists. The user is exhausted on the next turn.
 #-------------------------------
 [NORETREAT]
 Name = No Retreat
@@ -1715,7 +1715,7 @@ Target = NearOther
 FunctionCode = TwoTurnAttackInvulnerableInSkyNumbTarget
 Flags = CanProtect,Kicking
 EffectChance = 30
-Description = The user bounces up high, becoming invulnerable, then drops on the foe on the second turn. It has a 30% chance to numb.
+Description = The user bounces up high, charging and becoming invulnerable, then drops on the foe on the second turn. It has a 30% chance to numb.
 #-------------------------------
 [BRAVEBIRD]
 Name = Brave Bird
@@ -1727,7 +1727,7 @@ TotalPP = 12
 Target = NearOther
 FunctionCode = RecoilThirdOfDamageDealt
 Flags = CanProtect
-Description = The user tucks in its wings and charges from a low altitude. The user also takes 33% recoil.
+Description = The user tucks in its wings and strikes from a low altitude. The user also takes 33% recoil.
 #-------------------------------
 [CHATTER]
 Name = Chatter
@@ -1810,7 +1810,7 @@ TotalPP = 12
 Target = NearOther
 FunctionCode = TwoTurnAttackInvulnerableInSky
 Flags = CanProtect
-Description = The user soars, becoming invulnerable, then strikes on the second turn.
+Description = The user soars, charging and becoming invulnerable, then strikes on the second turn.
 #-------------------------------
 [GUST]
 Name = Gust
@@ -2117,7 +2117,7 @@ Target = NearOther
 FunctionCode = Poison
 Flags = CanProtect,Wind
 EffectChance = 30
-Description = The target is attacked with a discharge of filthy gases. It has a 30% chance to poison.
+Description = The target is attacked with an emission of filthy gases. It has a 30% chance to poison.
 #-------------------------------
 [TOXICTHREAD]
 Name = Toxic Thread
@@ -2190,7 +2190,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = TwoTurnAttackInvulnerableUnderground
 Flags = CanProtect
-Description = The user burrows, becoming invulnerable, then attacks on the second turn.
+Description = The user burrows, charging and becoming invulnerable, then attacks on the second turn.
 #-------------------------------
 [DRILLRUN]
 Name = Drill Run
@@ -2412,7 +2412,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = TwoTurnAttackChargeRaiseUserSpAtk1
 Flags = CanProtect
-Description = Gathers space power and boosts its Sp. Atk by two steps on one turn, then attacks on the second turn.
+Description = Charges with space power and boosts its Sp. Atk by two steps on one turn, then attacks on the second turn.
 #-------------------------------
 [POWERGEM]
 Name = Power Gem
@@ -2436,7 +2436,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = TwoTurnAttack
 Flags = CanProtect,Uninvocable
-Description = The user shoots powerful lasers using the power of a prism. The user can't move on the next turn.
+Description = The user shoots powerful lasers using the power of a prism. The user is exhausted on the next turn.
 #-------------------------------
 [ROCKBLAST]
 Name = Rock Blast
@@ -2509,7 +2509,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = TwoTurnAttack
 Flags = CanProtect,Uninvocable
-Description = The user launches a huge boulder at the target to attack. It must rest on the next turn, however.
+Description = The user launches a huge boulder at the target to attack. The user is exhausted on the next turn.
 #-------------------------------
 [SANDSTORM]
 Name = Sandstorm
@@ -3013,7 +3013,7 @@ Accuracy = 100
 TotalPP = 10
 Target = NearOther
 FunctionCode = TwoTurnAttackInvulnerableRemoveProtections
-Description = The user vanishes somewhere, becoming invulnerable, then strikes on the second turn. Skips and destroys protections.
+Description = The user vanishes somewhere, charging and becoming invulnerable, then strikes on the second turn. Skips and destroys protections.
 #-------------------------------
 [SCARYFACE]
 Name = Scary Face
@@ -3073,7 +3073,7 @@ Accuracy = 100
 TotalPP = 5
 Target = NearOther
 FunctionCode = TwoTurnAttackInvulnerableRemoveProtections
-Description = The user disappears, becoming invulnerable, then strikes the foe on the second turn. It hits even if the foe protects itself.
+Description = The user disappears, charging and becoming invulnerable, then strikes on the second turn. It hits even if the foe protects itself.
 #-------------------------------
 [SHADOWPUNCH]
 Name = Shadow Punch
@@ -3489,7 +3489,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = TwoTurnAttack
 Flags = CanProtect,Uninvocable
-Description = The target is razed by a fiery explosion. The user must rest on the next turn, however.
+Description = The target is razed by a fiery explosion. The user is exhausted on the next turn.
 #-------------------------------
 [BLAZEKICK]
 Name = Blaze Kick
@@ -3679,7 +3679,7 @@ Target = NearOther
 FunctionCode = Burn
 Flags = CanProtect
 EffectChance = 20
-Description = The user cloaks itself in fire and charges at the target. It has a 20% chance to burn.
+Description = The user cloaks itself in fire and rushes at the target. It has a 20% chance to burn.
 #-------------------------------
 [FLAREBLITZ]
 Name = Flare Blitz
@@ -3692,7 +3692,7 @@ Target = NearOther
 FunctionCode = RecoilThirdOfDamageDealt
 Flags = CanProtect
 EffectChance = 10
-Description = The user charges at the foe while on fire. The user also takes 33% recoil. This has a 10% chance to burn.
+Description = The user runs at the foe while on fire. The user also takes 33% recoil. This has a 10% chance to burn.
 #-------------------------------
 [FUSIONFLARE]
 Name = Fusion Flare
@@ -3966,7 +3966,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = TwoTurnAttackInvulnerableUnderwater
 Flags = CanProtect
-Description = Diving on the first turn, becoming invulnerable, the user rises and hits from below water on the second turn.
+Description = Diving on the first turn, charging and becoming invulnerable, the user hits from below water on the second turn.
 #-------------------------------
 [FISHIOUSREND]
 Name = Fishious Rend
@@ -4002,7 +4002,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = TwoTurnAttack
 Flags = CanProtect,Uninvocable
-Description = The target is hit with a watery blast. The user must rest on the next turn, however.
+Description = The target is hit with a watery blast. The user is exhausted on the next turn.
 #-------------------------------
 [HYDROPUMP]
 Name = Hydro Pump
@@ -4183,7 +4183,7 @@ Target = NearOther
 FunctionCode = Flinch
 Flags = CanProtect
 EffectChance = 40
-Description = The user charges at the target and has a 40% chance to make it flinch.
+Description = The user lunges at the target and has a 40% chance to make it flinch.
 #-------------------------------
 [WATERGUN]
 Name = Water Gun
@@ -4343,7 +4343,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = TwoTurnAttack
 Flags = CanProtect,Uninvocable
-Description = The user slams the target with an enormous tree. The user can't move on the next turn.
+Description = The user slams the target with an enormous tree. The user is exhausted on the next turn.
 #-------------------------------
 [GIGADRAIN]
 Name = Giga Drain
@@ -4662,7 +4662,7 @@ Target = NearOther
 FunctionCode = Numb
 Flags = CanProtect
 EffectChance = 20
-Description = The user charges at its foe, surrounding itself with lightning. It has a 30% chance to numb.
+Description = The user launches at its foe, surrounding itself with lightning. It has a 30% chance to numb.
 #-------------------------------
 [CHARGE]
 Name = Charge
@@ -4673,7 +4673,7 @@ TotalPP = 3
 Target = User
 FunctionCode = RaiseUserDefSpDef1EmpowersNextElectricAttack
 Flags = CanSnatch
-Description = The user becomes energy charged, doubling its next Electric-type attack. Also raises the user's Defense and Sp. Def.
+Description = The user becomes energized, doubling the power of its next Electric-type attack. Also raises the user's Defense and Sp. Def.
 #-------------------------------
 [CHARGEBEAM]
 Name = Charge Beam
@@ -4795,7 +4795,7 @@ TotalPP = 12
 Target = NearOther
 FunctionCode = NormalMovesBecomeElectric
 Flags = CanProtect,Punch
-Description = The user attacks with electrically charged fists. Normal-type moves become Electric-type.
+Description = The user attacks with electrically infused fists. Normal-type moves become Electric-type.
 #-------------------------------
 [SHOCKWAVE]
 Name = Shock Wave
@@ -4819,7 +4819,7 @@ Target = NearOther
 FunctionCode = Numb
 Flags = CanProtect
 EffectChance = 30
-Description = The user throws an electrically charged tackle at the target. It has a 30% chance to numb.
+Description = The user throws an electrical tackle at the target. It has a 30% chance to numb.
 #-------------------------------
 [THUNDER]
 Name = Thunder
@@ -4921,7 +4921,7 @@ Target = NearOther
 FunctionCode = RecoilThirdOfDamageDealtNumbTarget
 Flags = CanProtect
 EffectChance = 10
-Description = The user charges at the foe while electrified. The user also takes 33% recoil. This has a 10% chance to numb.
+Description = The user lunges at the foe while electrified. The user also takes 33% recoil. This has a 10% chance to numb.
 #-------------------------------
 [WILDBOLTSTORM]
 Name = Wildbolt Storm
@@ -5471,7 +5471,7 @@ Target = NearOther
 FunctionCode = TwoTurnAttackParalyzeTarget
 Flags = CanProtect
 EffectChance = 30
-Description = On the second turn, the user hits the foe with electrically charged ice. It has a 30% chance to numb.
+Description = Charges up, then on the second turn, the user strikes with electrified ice. It has a 30% chance to numb.
 #-------------------------------
 [FROSTBREATH]
 Name = Frost Breath
@@ -5544,7 +5544,7 @@ Target = NearOther
 FunctionCode = TwoTurnAttackBurnTarget
 Flags = CanProtect
 EffectChance = 30
-Description = On the second turn, an ultracold, freezing wind surrounds the foe. It has a 30% chance to burn.
+Description = Charges up, then on the second turn, an ultracold, freezing wind surrounds the foe. It has a 30% chance to burn.
 #-------------------------------
 [ICEFANG]
 Name = Ice Fang
@@ -5828,7 +5828,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = TwoTurnAttack
 Flags = CanProtect,Uninvocable
-Description = Eternatus's most powerful attack in its original form. The user can't move on the next turn.
+Description = The most powerful attack of the original form. The user is exhausted on the next turn.
 #-------------------------------
 [OUTRAGE]
 Name = Outrage
@@ -5852,7 +5852,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = TwoTurnAttack
 Flags = CanProtect,Uninvocable
-Description = The user blasts the target with power that distorts even time. The user must rest on the next turn.
+Description = The user blasts the target with power that distorts even time. The user is exhausted on the next turn.
 #-------------------------------
 [SPACIALREND]
 Name = Spacial Rend
@@ -6491,7 +6491,7 @@ Accuracy = 0
 TotalPP = 10
 Target = User
 FunctionCode = TwoTurnAttackRaiseUserAllStats3
-Description = The user absorbs energy and raises all of its stats by three steps on the next turn.
+Description = The user charges with energy and raises all of its stats by three steps on the next turn.
 #-------------------------------
 [LIGHTOFRUIN]
 Name = Light of Ruin

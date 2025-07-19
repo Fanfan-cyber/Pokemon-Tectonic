@@ -604,7 +604,7 @@ BattleHandlers::UserAbilityEndOfMove.add(:HYBRIDFIGHTER,
       elsif previousMoveData.punchingMove? && currentMoveData.bitingMove?
         user.showMyAbilitySplash(ability)
         if user.effectActive?(:EnergyCharge)
-          battle.pbDisplay(_INTL("But {1} is already charged...", user.pbThis(true)))
+          battle.pbDisplay(_INTL("But {1} is already energized...", user.pbThis(true)))
         else
           battle.pbAnimation(:CHARGE, user, nil)
           user.applyEffect(:EnergyCharge)
