@@ -14,7 +14,7 @@ class PokeBattle_Battler
   end
 
   def mono_type?
-    pbTypes.length < 2 
+    pbTypes(true).length < 2 
   end
 
   def owned_trainer
@@ -25,7 +25,7 @@ class PokeBattle_Battler
     return nil
   end
   
-  def replace_pokemon(new_pokemon)
+  def replace_pokemon(new_pokemon) # Used by Chrono Revert
     all_trainers = [@battle.player, @battle.opponent].flatten.compact
     all_trainers.each do |trainer|
       trainer.party.each_with_index do |pkmn, idx|

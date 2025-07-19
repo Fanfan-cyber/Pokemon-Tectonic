@@ -11,7 +11,7 @@ class PokeBattle_Battle::Field_frozen < PokeBattle_Battle::Field
 
     @multipliers = {
       [:base_damage_multiplier, 1.3] => proc { |user, target, numTargets, move, type, power, mults, aiCheck|
-        next true if type == :ICE && user.on_ground?(aiCheck)
+        next true if type == :ICE && user.ground?(aiCheck)
       },
     }
 
@@ -21,7 +21,7 @@ class PokeBattle_Battle::Field_frozen < PokeBattle_Battle::Field
     }
 
     @effects[:block_move] = proc { |move, user, target, typeMod, show_message, priority, aiCheck|
-      if user.on_ground?(aiCheck) && !user.shouldTypeApply?(:ICE, aiCheck) && move.damagingMove? && !user.shouldAbilityApply?(:SLUSHRUSH, aiCheck)
+      if user.ground?(aiCheck) && !user.shouldTypeApply?(:ICE, aiCheck) && move.damagingMove? && !user.shouldAbilityApply?(:SLUSHRUSH, aiCheck)
         if @battle.pbRandom(100) < 33
           @battle.pbDisplay(_INTL("{1} slipped!", user.pbThis)) if show_message
           user.pbConfusionDamage(_INTL("It hurt itself!"), false, false, selfHitBasePower(user.level)) if !aiCheck

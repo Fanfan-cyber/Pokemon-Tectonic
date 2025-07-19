@@ -13,12 +13,12 @@ class PokeBattle_Battle::Field_misty < PokeBattle_Battle::Field
 
     @multipliers = {
       [:final_damage_multiplier, 0.5] => proc { |user, target, numTargets, move, type, power, mults, aiCheck|
-        next true if type == :DRAGON && target.on_ground?(aiCheck)
+        next true if type == :DRAGON && target.ground?(aiCheck)
       },
     }
 
     @effects[:status_immunity] = proc { |battler, newStatus, yawn, user, showMessages, selfInflicted, move, ignoreStatus|
-      if battler.on_ground?
+      if battler.ground?
         @battle.pbDisplay(_INTL("{1} is protected by the misty field!", battler.pbThis)) if showMessages
         next true
       end

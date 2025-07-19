@@ -1,8 +1,8 @@
 SPECIES_ABILITY_DATA = {
-  #[:MEW, 0]        => { :fixed => %i[], :changeable => %i[ABOVEITALL], },
+  #[:MEW, 0]       => { :fixed => %i[], :changeable => %i[ABOVEITALL], },
 
-  [:ARCHEN, 0]      => { :fixed => %i[], :changeable => %i[DEFEATIST ANCESTRALSUMMONS], },
-  [:ARCHEOPS, 0]    => { :fixed => %i[], :changeable => %i[DEFEATIST ANCESTRALSUMMONS], },
+  [:ARCHEN, 0]     => { :fixed => %i[], :changeable => %i[DEFEATIST ANCESTRALSUMMONS], },
+  [:ARCHEOPS, 0]   => { :fixed => %i[], :changeable => %i[DEFEATIST ANCESTRALSUMMONS], },
 
   [:BIDOOF, 0]     => { :fixed => %i[], :changeable => %i[SIMPLE UNAWARE], },
   [:BIBAREL, 0]    => { :fixed => %i[], :changeable => %i[SIMPLE UNAWARE], },

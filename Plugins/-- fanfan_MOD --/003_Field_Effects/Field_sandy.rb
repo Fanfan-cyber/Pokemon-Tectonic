@@ -11,7 +11,7 @@ class PokeBattle_Battle::Field_sandy < PokeBattle_Battle::Field
 
     @multipliers = {
       [:base_damage_multiplier, 1.3] => proc { |user, target, numTargets, move, type, power, mults, aiCheck|
-        next true if type == :GROUND && user.on_ground?(aiCheck)
+        next true if type == :GROUND && user.ground?(aiCheck)
       },
     }
 
@@ -21,7 +21,7 @@ class PokeBattle_Battle::Field_sandy < PokeBattle_Battle::Field
     }
 
     @effects[:accuracy_modify] = proc { |user, target, move, modifiers, type, aiCheck|
-      modifiers[:evasion_multiplier] *= 0.67 if !target.shouldTypeApply?(:GROUND, aiCheck) && !target.shouldTypeApply?(:ROCK, aiCheck) && target.on_ground?(aiCheck)
+      modifiers[:evasion_multiplier] *= 0.67 if !target.shouldTypeApply?(:GROUND, aiCheck) && !target.shouldTypeApply?(:ROCK, aiCheck) && target.ground?(aiCheck)
     }
 
   end

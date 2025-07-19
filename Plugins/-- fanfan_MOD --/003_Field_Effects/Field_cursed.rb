@@ -11,12 +11,12 @@ class PokeBattle_Battle::Field_cursed < PokeBattle_Battle::Field
 
     @multipliers = {
       [:base_damage_multiplier, 1.3] => proc { |user, target, numTargets, move, type, power, mults, aiCheck|
-        next true if type == :GHOST && user.on_ground?(aiCheck)
+        next true if type == :GHOST && user.ground?(aiCheck)
       },
     }
 
     @effects[:no_charging] = proc { |user, move|
-      next true if %i[PHANTOMFORCE SHADOWFORCE].include?(move.id) && user.on_ground?
+      next true if %i[PHANTOMFORCE SHADOWFORCE].include?(move.id) && user.ground?
     }
 
     @effects[:block_heal] = proc { |battler, overheal|

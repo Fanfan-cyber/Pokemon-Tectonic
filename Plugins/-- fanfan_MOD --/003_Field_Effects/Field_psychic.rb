@@ -13,12 +13,12 @@ class PokeBattle_Battle::Field_psychic < PokeBattle_Battle::Field
 
     @multipliers = {
       [:base_damage_multiplier, 1.3] => proc { |user, target, numTargets, move, type, power, mults, aiCheck|
-        next true if type == :PSYCHIC && user.on_ground?(aiCheck)
+        next true if type == :PSYCHIC && user.ground?(aiCheck)
       },
     }
 
     @effects[:block_move] = proc { |move, user, target, typeMod, show_message, priority, aiCheck|
-      if target.on_ground?(aiCheck) && target.opposes?(user) && priority > 0
+      if target.ground?(aiCheck) && target.opposes?(user) && priority > 0
         @battle.pbDisplay(_INTL("{1} is protected by the psychic field!", target.pbThis)) if show_message
         next true
       end

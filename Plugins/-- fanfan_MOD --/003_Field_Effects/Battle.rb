@@ -406,19 +406,43 @@ class PokeBattle_Battle
 end
 
 class PokeBattle_Battler
-  def on_ground?(checkingForAI = false)
+  def ground?(checkingForAI = false)
     return false if airborne?(checkingForAI)
-    return false if semiInvulnerable?
+    return false if semiInvulnerable_air?
     return true
+  end
+
+  def underground?
+    return true semiInvulnerable_underground?
+    return false
+  end
+
+  def underunderwater?
+    return true semiInvulnerable_underwater?
+    return false
+  end
+
+  def semiInvulnerable_air? # Same as inTwoTurnSkyAttack?
+    return inTwoTurnAttack?("TwoTurnAttackInvulnerableInSky",
+    "TwoTurnAttackInvulnerableInSkyNumbTarget",
+    "TwoTurnAttackInvulnerableInSkyRecoilQuarterOfDamageDealt")
+  end
+
+  def semiInvulnerable_underground?
+    return inTwoTurnAttack?("TwoTurnAttackInvulnerableUnderground")
+  end
+
+  def semiInvulnerable_underwater?
+    return inTwoTurnAttack?("TwoTurnAttackInvulnerableUnderwater")
   end
 end
 
 class PokeBattle_Scene
   def set_fieldback(set_environment = false)
     if set_environment
-      @sprites["battle_bg"].setBitmap(@environment_battleBG)
-      @sprites["base_0"].setBitmap(@environment_playerBase)
-      @sprites["base_1"].setBitmap(@environment_enemyBase)
+      @sprites["battle_bg"].setBitmap(@original_battleBG)
+      @sprites["base_0"].setBitmap(@original_playerBase)
+      @sprites["base_1"].setBitmap(@original_enemyBase)
     else
       field_name = @battle.current_field.fieldback
       return if !field_name || field_name.empty?

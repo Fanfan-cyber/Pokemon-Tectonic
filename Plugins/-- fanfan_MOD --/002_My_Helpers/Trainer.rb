@@ -92,7 +92,7 @@ class Trainer
 
   def remove_pokemon_by_index(species, form = 0)
     index = pbGetPartyIndex(species, form)
-    return if !index
+    return unless index
     remove_pokemon_at_index(index)
   end
 
@@ -101,9 +101,9 @@ class Trainer
     pkmn = selection_data[0]
     index = selection_data[1]
     pkmn_name = selection_data[2]
-    return if !pkmn
+    return unless pkmn
     ret = remove_pokemon_at_index(index)
-    return if !show_message
+    return unless show_message
     if ret
       pbMessage(_INTL("{1} has been removed!", pkmn_name))
     else

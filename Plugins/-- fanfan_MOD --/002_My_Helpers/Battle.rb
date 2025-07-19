@@ -114,11 +114,11 @@ class PokeBattle_Battle
   end
 
   def each_party1_pkmn
-    @party1.each { |pkmn| yield pkmn if !pkmn.egg? }
+    @party1.each { |pkmn| yield pkmn unless pkmn.egg? }
   end
 
   def each_party1_able_pkmn
-    @party1.each { |pkmn| yield pkmn if !pkmn.egg? && !pkmn.fainted? }
+    @party1.each { |pkmn| yield pkmn unless pkmn.egg? || pkmn.fainted? }
   end
 
   def each_party1_fainted_pkmn
@@ -138,11 +138,11 @@ class PokeBattle_Battle
   end
 
   def each_party2_pkmn
-    @party2.each { |pkmn| yield pkmn if !pkmn.egg? }
+    @party2.each { |pkmn| yield pkmn unless pkmn.egg? }
   end
 
   def each_party2_able_pkmn
-    @party2.each { |pkmn| yield pkmn if !pkmn.egg? && !pkmn.fainted? }
+    @party2.each { |pkmn| yield pkmn unless pkmn.egg? || pkmn.fainted? }
   end
 
   def each_party2_fainted_pkmn
@@ -166,11 +166,11 @@ class PokeBattle_Battle
   end
 
   def each_both_party_pkmn
-    both_party_pkmn.each { |pkmn| yield pkmn if !pkmn.egg? }
+    both_party_pkmn.each { |pkmn| yield pkmn unless pkmn.egg? }
   end
 
   def each_both_party_able_pkmn
-    both_party_pkmn.each { |pkmn| yield pkmn if !pkmn.egg? && !pkmn.fainted? }
+    both_party_pkmn.each { |pkmn| yield pkmn unless pkmn.egg? || pkmn.fainted? }
   end
 
   def each_both_party_fainted_pkmn
@@ -210,11 +210,11 @@ class PokeBattle_Battle
   end
 
   def each_party1_back_pkmn
-    each_party1_pkmn { |pkmn| yield pkmn if !party1_battlers_ids.has?(pkmn.unique_id) }
+    each_party1_pkmn { |pkmn| yield pkmn unless party1_battlers_ids.has?(pkmn.unique_id) }
   end
 
   def each_party1_back_able_pkmn
-    each_party1_able_pkmn { |pkmn| yield pkmn if !party1_battlers_ids.has?(pkmn.unique_id) }
+    each_party1_able_pkmn { |pkmn| yield pkmn unless party1_battlers_ids.has?(pkmn.unique_id) }
   end
 
   def party1_back_pkmn
@@ -230,11 +230,11 @@ class PokeBattle_Battle
   end
 
   def each_party2_back_pkmn
-    each_party2_pkmn { |pkmn| yield pkmn if !party2_battlers_ids.has?(pkmn.unique_id) }
+    each_party2_pkmn { |pkmn| yield pkmn unless party2_battlers_ids.has?(pkmn.unique_id) }
   end
 
   def each_party2_back_able_pkmn
-    each_party2_able_pkmn { |pkmn| yield pkmn if !party2_battlers_ids.has?(pkmn.unique_id) }
+    each_party2_able_pkmn { |pkmn| yield pkmn unless party2_battlers_ids.has?(pkmn.unique_id) }
   end
 
   def party2_back_pkmn

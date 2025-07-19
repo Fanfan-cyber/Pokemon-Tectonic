@@ -12,10 +12,10 @@ class PokeBattle_Battle::Field_ravine < PokeBattle_Battle::Field
 
     @multipliers = {
       [:base_damage_multiplier, 1.3] => proc { |user, target, numTargets, move, type, power, mults, aiCheck|
-        next true if type == :FLYING && !user.on_ground?(aiCheck)
+        next true if type == :FLYING && !user.ground?(aiCheck)
       },
       [:final_damage_multiplier, 0.75] => proc { |user, target, numTargets, move, type, power, mults, aiCheck|
-        next true if target.shouldTypeApply?(:FLYING, aiCheck) && !target.on_ground?(aiCheck) && Effectiveness.super_effective?(typeModToCheck(@battle, type, user, target, move, aiCheck))
+        next true if target.shouldTypeApply?(:FLYING, aiCheck) && !target.ground?(aiCheck) && Effectiveness.super_effective?(typeModToCheck(@battle, type, user, target, move, aiCheck))
       },
     }
 

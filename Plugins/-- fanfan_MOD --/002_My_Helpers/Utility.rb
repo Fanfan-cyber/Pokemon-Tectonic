@@ -8,7 +8,7 @@ end
 
 def has_species_pc?(species, form = -1)
   pbEachPokemon do |pkmn, _box|
-    return true if pkmn.isSpecies?(species) && (form < 0 || pkmn.form == form)
+    return pkmn if pkmn.isSpecies?(species) && (form < 0 || pkmn.form == form)
   end
   return false
 end
@@ -148,7 +148,7 @@ end
 
 def pbChooseMoveFromListEX(message, input_ids, must_choose = false)
   names = []
-  ids  = []
+  ids   = []
   input_ids.each do |id|
     if id.is_a?(PokeBattle_Move) || id.is_a?(Pokemon::Move)
       names.push(id.name)

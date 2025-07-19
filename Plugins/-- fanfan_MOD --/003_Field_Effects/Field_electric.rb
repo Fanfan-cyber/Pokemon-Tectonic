@@ -13,12 +13,12 @@ class PokeBattle_Battle::Field_electric < PokeBattle_Battle::Field
 
     @multipliers = {
       [:base_damage_multiplier, 1.3] => proc { |user, target, numTargets, move, type, power, mults, aiCheck|
-        next true if type == :ELECTRIC && user.on_ground?(aiCheck)
+        next true if type == :ELECTRIC && user.ground?(aiCheck)
       },
     }
 
     @effects[:status_immunity] = proc { |battler, newStatus, yawn, user, showMessages, selfInflicted, move, ignoreStatus|
-      if (newStatus == :SLEEP || yawn) && battler.on_ground?
+      if (newStatus == :SLEEP || yawn) && battler.ground?
         @battle.pbDisplay(_INTL("{1} can't sleep on the electrified field!", battler.pbThis)) if showMessages
         next true
       end

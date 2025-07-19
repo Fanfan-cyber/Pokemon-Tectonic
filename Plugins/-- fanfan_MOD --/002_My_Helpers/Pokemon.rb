@@ -11,12 +11,12 @@ class Pokemon
     @used_by_player = false
   end
 
-  def regenerate_unique_id(digits = 8)
-    @unique_id = generate_unique_id(digits)
-  end
-
   def unique_id
     @unique_id ||= generate_unique_id
+  end
+
+  def regenerate_unique_id(digits = 8)
+    @unique_id = generate_unique_id(digits)
   end
 
   def level_moves

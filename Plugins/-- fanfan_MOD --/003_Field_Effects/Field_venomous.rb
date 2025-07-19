@@ -11,16 +11,16 @@ class PokeBattle_Battle::Field_venomous < PokeBattle_Battle::Field
 
     @multipliers = {
       [:base_damage_multiplier, 1.3] => proc { |user, target, numTargets, move, type, power, mults, aiCheck|
-        next true if user.on_ground?(aiCheck) && type == :POISON
+        next true if user.ground?(aiCheck) && type == :POISON
       },
     }
 
     @effects[:EOR_field_battler] = proc { |battler|
-      battler.applyPoison if !battler.pbHasType?(:POISON) && battler.on_ground? && battler.canPoison?(nil, false)
+      battler.applyPoison if !battler.pbHasType?(:POISON) && battler.ground? && battler.canPoison?(nil, false)
     }
 
     @effects[:block_berry] = proc { |battler|
-      next true if !battler.pbHasType?(:POISON) && battler.on_ground?
+      next true if !battler.pbHasType?(:POISON) && battler.ground?
     }
 
   end

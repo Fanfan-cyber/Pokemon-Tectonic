@@ -11,7 +11,7 @@ class PokeBattle_Battle::Field_swamp < PokeBattle_Battle::Field
 
     @multipliers = {
       [:base_damage_multiplier, 1.3] => proc { |user, target, numTargets, move, type, power, mults, aiCheck|
-        next true if user.on_ground?(aiCheck) && type == :WATER
+        next true if user.ground?(aiCheck) && type == :WATER
       },
       [:base_damage_multiplier, 0.5] => proc { |user, target, numTargets, move, type, power, mults, aiCheck|
         next true if %i[EARTHQUAKE BULLDOZE].include?(move.id)
@@ -19,7 +19,7 @@ class PokeBattle_Battle::Field_swamp < PokeBattle_Battle::Field
     }
 
     @effects[:calc_speed] = proc { |battler, stepSpeed, mult, aiCheck|
-      mult *= 0.75 if !battler.shouldAbilityApply?(:SWIFTSWIM, aiCheck) && battler.on_ground?(aiCheck) && !battler.shouldTypeApply?(:WATER, aiCheck)
+      mult *= 0.75 if !battler.shouldAbilityApply?(:SWIFTSWIM, aiCheck) && battler.ground?(aiCheck) && !battler.shouldTypeApply?(:WATER, aiCheck)
       mult *= 1.33 if battler.shouldAbilityApply?(:SWIFTSWIM, aiCheck)
       next mult
     }

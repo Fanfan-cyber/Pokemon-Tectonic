@@ -13,15 +13,15 @@ class PokeBattle_Battle::Field_grassy < PokeBattle_Battle::Field
 
     @multipliers = {
       [:base_damage_multiplier, 1.3] => proc { |user, target, numTargets, move, type, power, mults, aiCheck|
-        next true if type == :GRASS && user.on_ground?(aiCheck)
+        next true if type == :GRASS && user.ground?(aiCheck)
       },
       [:final_damage_multiplier, 0.5, _INTL("The grass softened the attack!")] => proc { |user, target, numTargets, move, type, power, mults, aiCheck|
-        next true if %i[EARTHQUAKE BULLDOZE].include?(move.id) && target.on_ground?(aiCheck)
+        next true if %i[EARTHQUAKE BULLDOZE].include?(move.id) && target.ground?(aiCheck)
       },
     }
 
     @effects[:EOR_field_battler] = proc { |battler|
-      battler.applyFractionalHealing(1 / 16.0) if battler.on_ground?
+      battler.applyFractionalHealing(1 / 16.0) if battler.ground?
     }
 
   end

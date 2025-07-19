@@ -12,10 +12,13 @@
 尝试增加自定义属性克制的密码
 工具中增加任一只御三家换其他御三家的功能
 
+代欧奇希斯的多技能组需要特性的支持
+达摩狒狒的第二特性
+
 提交用于构造的队伍
 =end
 
-MOD_VERSION = "0.3.5"
+MOD_VERSION = "0.3.6"
 
 CHANGE_LOG = <<-LOGGER
 #==============================================================================#
@@ -130,12 +133,15 @@ alien1，获得1只代欧奇希斯（4徽章）
 psyduck10，获得1只10级的我最喜欢的死鸭子
 pokeball5，获得5个精灵球
 candyxl700，获得700个经验糖果XL（7徽章）
+
 speedup/disablespeedup，开启/关闭战斗加速功能
 inversebattle/noinversebattle，开启/关闭反转对战模式
+
 # 以下密码均会使游戏难度增加
 shuffledisplay/noshuffledisplay，随机化/正常化属性克制提示
 zeroexp/disablezeroexp，开启/关闭无经验模式
 monoabil/disablemonoabil，开启/关闭单特性模式
+
 # 以下密码均会使游戏难度减小
 disablerevive/battlerevive，关闭（1徽章）/开启濒死复活机制
 customtribethresh，开启自由部族模式
@@ -143,6 +149,10 @@ rocket/norocket，开启/关闭火箭队模式
 customabil/nocustomabil，开启/关闭特性自选模式
 doublebattle/disabledouble，开启/关闭全双打模式
 disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
+
+0.3.6
+1.修复了在检查精灵有几个属性时不计算额外的第三属性的Bug
+2.
 
 0.3.5
 1.雪拉比的第一特性由自然回复改为Chrono Revert
@@ -194,7 +204,6 @@ disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
 47.将Verdant的伤害加成量由50%改为30%
 48.修复了Gild在击倒对手时不会正确发动的Bug
 49.修复了Cash Flow在击倒对手时不会正确发动的Bug
-50.
 
 0.3.4
 1.修复了大量翻译的问题
