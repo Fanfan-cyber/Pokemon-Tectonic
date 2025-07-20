@@ -69,6 +69,10 @@ Flags = EclipseSynergy
 Name = Apricorn Armor
 Description = Takes 40% less damage from attacks by Pokémon who have a non-volatile status condition.
 #-------------------------------
+[ARCANE]
+Name = Arcane
+Description = Increases Sp. Atk by 30%.
+#-------------------------------
 [ARCANEFINALE]
 Name = Arcane Finale
 Description = Turns to Finale Form when only unfainted on team. Ability becomes Synchronize.
@@ -156,6 +160,10 @@ Description = Sets a Reflect for 4 turns upon entering the battle.
 Name = Battle-Hardened
 Description = Raises Defense and Sp. Def by three steps when its HP is lowered below half.
 #-------------------------------
+[BEAMING]
+Name = Beaming
+Description = Boosts power of light-based moves by 30%.
+#-------------------------------
 [BEGUILING]
 Name = Beguiling
 Description = Special attacks against the Pokémon have a 30% chance to dizzy the attacker.
@@ -190,6 +198,10 @@ Description = Its special attacks reduce the target's Sp. Def.
 [BLADEBRAINED]
 Name = Bladebrained
 Description = Boosts the power of blade moves by 30%. Blade moves ignore the target's modified Defense and Sp. Def.
+#-------------------------------
+[BLINDING]
+Name = Blinding
+Description = After using a light move, lowers each foe's Sp. Def.
 #-------------------------------
 [BLINDINGLIGHT]
 Name = Blinding Light
@@ -1252,6 +1264,10 @@ Flags = MoonglowSynergy
 Name = Moth Burglar
 Description = Hits opponent with Thief when withdrawn from battle.
 #-------------------------------
+[MULTITASKER]
+Name = Multitasker
+Description = The Pokemon's Psychic-type attacks become spread and deal 20% more damage.
+#-------------------------------
 [MUPROTOCOL]
 Name = MU Protocol
 Description = Immune to the type of the memory disc it holds.
@@ -1502,7 +1518,7 @@ Description = Releases a hazard layer of Spikes when hit by an attack.
 #-------------------------------
 [RADIATE]
 Name = Radiate
-Description = Increases Sp. Atk by 30%.
+Description = Boosts power of light-based moves by 50%.
 #-------------------------------
 [RAINPRISM]
 Name = Rain Prism

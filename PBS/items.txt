@@ -178,6 +178,15 @@ FieldUse = OnPokemon
 Flags = EvolutionItem
 Description = A peculiar apple that can make a certain species of Pokémon evolve. It's exceptionally tart.
 #-------------------------------
+[SYRUPYAPPLE]
+Name = Syrupy Apple
+NamePlural = Syrupy Apples
+Pocket = 1
+Price = 2000
+FieldUse = OnPokemon
+Flags = EvolutionItem
+Description = A peculiar apple that can make a certain species of Pokémon evolve. It's exceptionally syrupy.
+#-------------------------------
 [HELIXFOSSIL]
 Name = Helix Fossil
 NamePlural = Helix Fossils

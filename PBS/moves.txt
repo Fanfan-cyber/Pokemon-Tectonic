@@ -445,7 +445,7 @@ Accuracy = 100
 TotalPP = 10
 Target = NearOther
 FunctionCode = TypeDependsOnUserSpecialItem
-Flags = CanProtect
+Flags = CanProtect,Light
 Description = The user releases countless shots of light. Its type varies with the kind of Plate the user is holding.
 #-------------------------------
 [LASTRESORT]
@@ -910,7 +910,7 @@ TotalPP = 12
 Target = Ally
 Priority = 3
 FunctionCode = RedirectAllMovesToTarget
-Flags = CanProtect,CanMagicCoat,Uninvocable
+Flags = CanProtect,CanMagicCoat,Uninvocable,Light
 Description = The user shines a spotlight on the target so that only it will be attacked during the turn.
 #-------------------------------
 [STOCKPILE]
@@ -1056,7 +1056,7 @@ Accuracy = 100
 TotalPP = 5
 Target = NearOther
 FunctionCode = TypeDependsOnUserSpecialItem
-Flags = CanProtect
+Flags = CanProtect,Light
 Description = The user fires a beam of light at its target. The type changes depending on the Drive the user holds.
 #-------------------------------
 [TEETERDANCE]
@@ -1673,9 +1673,9 @@ Accuracy = 100
 TotalPP = 12
 Target = NearOther
 FunctionCode = Flinch
-Flags = CanProtect,Blade,Wind
+Flags = CanProtect
 EffectChance = 40
-Description = The user attacks with a blade of air that slices even the sky. It has a 40% chance to flinch the target.
+Description = The user attacks with air that slices even the sky. It has a 40% chance to flinch the target.
 #-------------------------------
 [BEAKBLAST]
 Name = Beak Blast
@@ -2423,7 +2423,7 @@ Accuracy = 100
 TotalPP = 15
 Target = NearOther
 FunctionCode = Basic
-Flags = CanProtect
+Flags = CanProtect,Light
 Description = The user attacks with a ray of light that sparkles as if it were made of gemstones.
 #-------------------------------
 [PRISMATICLASER]
@@ -2761,7 +2761,7 @@ Accuracy = 100
 TotalPP = 12
 Target = NearOther
 FunctionCode = Dizzy
-Flags = CanProtect
+Flags = CanProtect,Light
 EffectChance = 30
 Description = The user attacks with a beam of light. It has a 30% chance to dizzy.
 #-------------------------------
@@ -2834,7 +2834,7 @@ Accuracy = 0
 TotalPP = 15
 Target = User
 FunctionCode = RaiseUserSpAtk5
-Flags = CanSnatch
+Flags = CanSnatch,Light
 Description = The user stares at flashing lights to focus its mind, raising its Sp. Atk stat by five steps.
 #-------------------------------
 [UTURN]
@@ -2896,7 +2896,7 @@ Accuracy = 100
 TotalPP = 12
 Target = NearOther
 FunctionCode = Dizzy
-Flags = CanProtect,CanMagicCoat
+Flags = CanProtect,CanMagicCoat,Light
 Description = The target is exposed to a sinister ray, causing it to become dizzy.
 #-------------------------------
 [DESTINYBOND]
@@ -2955,7 +2955,7 @@ Accuracy = 100
 TotalPP = 5
 Target = NearOther
 FunctionCode = IgnoreTargetAbility
-Flags = CanProtect
+Flags = CanProtect,Light
 Description = The user emits a sinister ray. This move can be used on the target regardless of its Abilities.
 #-------------------------------
 [NIGHTMARE]
@@ -3206,7 +3206,7 @@ Accuracy = 100
 TotalPP = 5
 Target = NearOther
 FunctionCode = AttackTwoTurnsLater
-Flags = Foretold
+Flags = Foretold,Light
 Description = Two turns after this move is used, the user blasts the target with a concentrated bundle of light.
 #-------------------------------
 [DOUBLEIRONBASH]
@@ -3231,7 +3231,7 @@ Accuracy = 100
 TotalPP = 15
 Target = NearOther
 FunctionCode = LowerTargetSpDef1
-Flags = CanProtect,Pulse
+Flags = CanProtect,Light
 EffectChance = 20
 Description = The user gathers all its light energy and releases it at once. It has a 20% chance to lower Sp. Def.
 #-------------------------------
@@ -3448,7 +3448,7 @@ Accuracy = 100
 TotalPP = 5
 Target = NearOther
 FunctionCode = IgnoreTargetAbility
-Flags = CanProtect
+Flags = CanProtect,Light
 Description = The user slams into the target with the force of a meteor. Can't be stopped by the target's Ability.
 #-------------------------------
 [SWORDSDANCE]
@@ -4050,7 +4050,7 @@ TotalPP = 10
 Target = AllNearFoes
 FunctionCode = Basic
 Flags = CanProtect,Pulse
-Description = The user attacks opposing Pokémon with countless beams of light that glow a deep and brilliant blue.
+Description = The user attacks opposing Pokémon with a pulse of water which glows a deep and brilliant blue.
 #-------------------------------
 [RAINSTORM]
 Name = Rainstorm
@@ -5170,7 +5170,7 @@ Accuracy = 0
 TotalPP = 15
 Target = UserSide
 FunctionCode = StartWeakenSpecialDamageAgainstUserSide5
-Flags = CanSnatch
+Flags = CanSnatch,Light
 Description = A wondrous wall of light is put up to suppress damage from special attacks for five turns.
 #-------------------------------
 [LUNARDANCE]
@@ -5193,7 +5193,7 @@ Accuracy = 100
 TotalPP = 5
 Target = NearOther
 FunctionCode = LowerTargetSpDef2
-Flags = CanProtect
+Flags = CanProtect,Light
 EffectChance = 100
 Description = The user lets loose a damaging burst of light. It also lowers the target's Sp. Def by two steps.
 #-------------------------------
@@ -5266,7 +5266,7 @@ Accuracy = 100
 TotalPP = 15
 Target = NearOther
 FunctionCode = Dizzy
-Flags = CanProtect
+Flags = CanProtect,Light
 EffectChance = 30
 Description = The target is attacked with a peculiar ray. It has a 30% chance to dizzy.
 #-------------------------------
@@ -5362,7 +5362,7 @@ Accuracy = 0
 TotalPP = 15
 Target = UserSide
 FunctionCode = StartWeakenPhysicalDamageAgainstUserSide5
-Flags = CanSnatch
+Flags = CanSnatch,Light
 Description = A wondrous wall of light is put up to suppress damage from physical attacks for five turns.
 #-------------------------------
 [REST]
@@ -6210,7 +6210,7 @@ Accuracy = 100
 TotalPP = 5
 Target = NearOther
 FunctionCode = IgnoreTargetAbility
-Flags = CanProtect
+Flags = CanProtect,Light
 Description = The user attacks with a pillar of dark light. This ignores their ability.
 #-------------------------------
 [PURSUIT]
@@ -6411,7 +6411,7 @@ Accuracy = 100
 TotalPP = 10
 Target = AllNearFoes
 FunctionCode = LowerTargetSpAtk1
-Flags = CanProtect
+Flags = CanProtect,Light
 EffectChance = 10
 Description = The user emits a powerful damaging flash. It has a 10% chance to lower Sp. Atk.
 #-------------------------------
@@ -6502,7 +6502,7 @@ Accuracy = 100
 TotalPP = 5
 Target = NearOther
 FunctionCode = RecoilHalfOfDamageDealt
-Flags = CanProtect
+Flags = CanProtect,Light
 Description = Fires a powerful beam of light drawn from the Eternal Flower. The user also takes 50% recoil.
 #-------------------------------
 [MOONBLAST]
@@ -6514,7 +6514,7 @@ Accuracy = 100
 TotalPP = 15
 Target = NearOther
 FunctionCode = LowerTargetSpAtk1
-Flags = CanProtect
+Flags = CanProtect,Light
 EffectChance = 20
 Description = The user attacks by borrowing the power of the moon. It has a 20% chance to lower Sp. Atk.
 #-------------------------------

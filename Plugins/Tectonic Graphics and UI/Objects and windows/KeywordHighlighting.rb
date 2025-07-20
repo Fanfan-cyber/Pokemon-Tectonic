@@ -55,6 +55,7 @@ def battleKeywordsImportant
         "disable",
         "maximizes",
         "maximize",
+        "minimizes",
         "minimize",
         "minimizing",
         "aqua ring",

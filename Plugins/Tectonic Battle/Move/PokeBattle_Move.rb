@@ -72,18 +72,16 @@ class PokeBattle_Move
     # About the move
     #=============================================================================
     def pbTarget(user)
-        targetData = GameData::Target.get(@target)
-
-        ret = @battle.apply_field_effect(:target_expand, user, self, targetData)
-        return GameData::Target.get(:AllNearFoes) if ret
-
-        if damagingMove? && targetData.can_target_one_foe? && user.effectActive?(:FlareWitch)
-          return GameData::Target.get(:AllNearFoes)
-        else
-          return targetData
-        end
+      targetData = GameData::Target.get(@target)
+      # Effects that make things spread
+      if damagingMove? && targetData.can_target_one_foe?
+        return GameData::Target.get(:AllNearFoes) if @battle.apply_field_effect(:target_expand, user, self, targetData)
+        return GameData::Target.get(:AllNearFoes) if user.effectActive?(:FlareWitch)
+        return GameData::Target.get(:AllNearFoes) if @calcType == :PSYCHIC && user.hasActiveAbility?(:MULTITASKER)
+      end
+      return targetData
     end
-  
+
     def total_pp
       return @total_pp if @total_pp && @total_pp>0   # Usually undefined
       return @realMove.total_pp if @realMove
@@ -148,6 +146,7 @@ class PokeBattle_Move
     def bladeMove?;             return @flags.include?("Blade"); end
     def windMove?;              return @flags.include?("Wind"); end
     def kickingMove?;           return @flags.include?("Kicking"); end
+    def lightMove?;             return @flags.include?("Light"); end
     def foretoldMove?;          return @flags.include?("Foretold"); end
     def empoweredMove?;         return @flags.include?("Empowered"); end
 

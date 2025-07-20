@@ -232,6 +232,24 @@ BattleHandlers::DamageCalcUserAbility.add(:IRONHEEL,
 
 BattleHandlers::DamageCalcUserAbility.copy(:IRONHEEL, :HEAVYDUTYHOOVES)
 
+BattleHandlers::DamageCalcUserAbility.add(:BEAMING,
+  proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck|
+    if move.lightMove?
+      mults[:base_damage_multiplier] *= 1.3
+      user.aiLearnsAbility(ability) unless aiCheck
+    end
+  }
+)
+
+BattleHandlers::DamageCalcUserAbility.add(:RADIATE,
+  proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck|
+    if move.lightMove?
+      mults[:base_damage_multiplier] *= 1.5
+      user.aiLearnsAbility(ability) unless aiCheck
+    end
+  }
+)
+
 BattleHandlers::DamageCalcUserAbility.add(:BADOMEN,
   proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck, backfire|
     if move.foretoldMove? || backfire
@@ -348,6 +366,15 @@ BattleHandlers::DamageCalcUserAbility.add(:ERUDITE,
   proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck, backfire|
     if type == :PSYCHIC || backfire
       mults[:base_damage_multiplier] *= 1.5
+      user.aiLearnsAbility(ability) unless aiCheck
+    end
+  }
+)
+
+BattleHandlers::DamageCalcUserAbility.add(:MULTITASKER,
+  proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck|
+    if type == :PSYCHIC
+      mults[:attack_multiplier] *= 1.2
       user.aiLearnsAbility(ability) unless aiCheck
     end
   }

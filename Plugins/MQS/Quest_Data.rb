@@ -540,7 +540,7 @@ module QuestModule
   }
 
   QUEST_LEGEND_DRAGON_ISLE = {
-    :Name => _INTL("Isle of Dragons"),
+    :Name => _INTL("To Train Your Dragons"),
     :QuestGiver => _INTL("Dragon Hatcher"),
     :Stage1 => _INTL("Bring one of every egg to him."),
     :Stage2 => _INTL("Explore the isle."),
