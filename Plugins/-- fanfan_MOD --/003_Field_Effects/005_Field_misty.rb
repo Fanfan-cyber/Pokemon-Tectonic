@@ -26,7 +26,14 @@ class PokeBattle_Battle::Field_misty < PokeBattle_Battle::Field
 
   end
 end
-
+=begin
+PokeBattle_Battle::Field.register(:misty, {
+  :trainer_name => [],
+  :environment  => [],
+  :map_id       => [],
+  :edge_type    => [:FAIRY],
+})
+=end
 # 自然之力变为月亮之力
 # 秘密之力的附加效果变为使目标特攻减少2阶
 # 地面上的精灵受到的龙系技能伤害减少50%

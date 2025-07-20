@@ -53,6 +53,38 @@ class PokeBattle_Battle::Field
                 %i[ICE]],
   }.freeze
 
+  @@field_data = {}
+  def self.register(field, data)
+    field = field.to_s.downcase.to_sym
+    @@field_data[field] = data
+    define_method("is_#{field}?") do # define is_xxx? Field instance method
+      @id == field
+    end
+    PokeBattle_Battle.class_eval do # define is_xxx? Battle instance method
+      define_method("is_#{field}?") do
+        @current_field.public_send("is_#{field}?")
+      end
+    end
+  end
+
+  def self.field_data
+    @@field_data
+  end
+
+  def self.print_field_effect_manual
+    field_count = 0
+    File.open("field_effect_manual.txt", "wb") do |file|
+      @@field_data.each_value do |data|
+        next unless data[:description]
+        field_count += 1
+        file.write("### Field #{field_count.to_digits}\r\n")
+        file.write(data[:description])
+        file.write("\r\n\r\n")
+      end
+      file.write("Total: #{field_count}")
+    end
+  end
+
   def initialize(battle)
     @battle                    = battle
     @effects                   = {}

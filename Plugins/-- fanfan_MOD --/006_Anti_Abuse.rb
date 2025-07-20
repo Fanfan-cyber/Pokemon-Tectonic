@@ -73,8 +73,9 @@ module AntiAbuse
     file.close
     return unless is_chinese?
     file = File.open("release_version_mod.txt", "wb")
-    file.write(CHANGE_LOG.gsub("\n", "\r\n"))
+    file.write(CHANGE_LOG)
     file.close
+    PokeBattle_Battle::Field.print_field_effect_manual
   end
 
   def self.apply_anti_abuse

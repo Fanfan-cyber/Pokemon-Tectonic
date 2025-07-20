@@ -26,7 +26,14 @@ class PokeBattle_Battle::Field_grassy < PokeBattle_Battle::Field
 
   end
 end
-
+=begin
+PokeBattle_Battle::Field.register(:grassy, {
+  :trainer_name => [],
+  :environment  => [],
+  :map_id       => [],
+  :edge_type    => [:GRASS],
+})
+=end
 # 自然之力变为能量球
 # 秘密之力的附加效果变为使目标睡眠
 # 地面上的精灵的草系技能威力增加30%

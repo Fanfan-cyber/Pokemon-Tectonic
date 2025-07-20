@@ -26,7 +26,14 @@ class PokeBattle_Battle::Field_psychic < PokeBattle_Battle::Field
 
   end
 end
-
+=begin
+PokeBattle_Battle::Field.register(:psychic, {
+  :trainer_name => [],
+  :environment  => [],
+  :map_id       => [],
+  :edge_type    => [:PSYCHIC],
+})
+=end
 # 自然之力变为精神强念
 # 秘密之力的附加效果变为使目标速度减少2阶
 # 地面上的精灵的超能系技能威力增加30%
