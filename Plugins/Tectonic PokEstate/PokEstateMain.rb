@@ -555,6 +555,12 @@ class PokEstate
 		elsif cmdEvolve > -1 && modifyCommand == cmdEvolve
 			newspecies = pokemon.check_evolution_on_level_up(true)
 			return true if newspecies.nil?
+      if newspecies.is_a?(Array)
+          names = newspecies.map { |species| GameData::Species.get(species).name }
+          choose = pbMessage(_INTL("Which do you want to evolve to?"), names, -1)
+          return true if choose == -1
+          newspecies = newspecies[choose]
+      end
 			pbFadeOutInWithMusic do
 				evo = PokemonEvolutionScene.new
 				evo.pbStartScreen(pokemon, newspecies)

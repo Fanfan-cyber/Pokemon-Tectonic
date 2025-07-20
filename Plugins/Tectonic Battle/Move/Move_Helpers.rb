@@ -74,8 +74,8 @@ class PokeBattle_Move
 
     # Returns whether the item was removed
     # Can pass a block to overwrite the removal message and do other effects at the same time
-    def knockOffItems(remover, victim, ability: nil, firstItemOnly: false, validItemProc: nil)
-        return false unless canKnockOffItems?(remover, victim)
+    def knockOffItems(remover, victim, ignoreTargetFainted = false, ability: nil, firstItemOnly: false, validItemProc: nil)
+        return false unless canKnockOffItems?(remover, victim, false, ignoreTargetFainted)
         battle.pbShowAbilitySplash(remover, ability) if ability
         if victim.hasActiveAbility?(:STICKYHOLD)
             battle.pbShowAbilitySplash(victim, :STICKYHOLD) if remover.opposes?(victim)

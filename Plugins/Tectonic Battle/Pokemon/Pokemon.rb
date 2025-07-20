@@ -1405,12 +1405,14 @@ class Pokemon
         return nil if egg?
         return nil if hasItem?(:EVERSTONE)
         return nil if hasItem?(:EVIOLITE)
+        evo_species = []
         species_data.get_evolutions(true).each do |evo| # [new_species, method, parameter, boolean]
             next if evo[3] # Prevolution
             ret = yield self, evo[0], evo[1], evo[2] # pkmn, new_species, method, parameter
-            return ret if ret
+            evo_species << ret if ret
         end
-        return nil
+        return nil if evo_species.empty?
+        return evo_species.size == 1 ? evo_species[0] : evo_species 
     end
 
     #=============================================================================

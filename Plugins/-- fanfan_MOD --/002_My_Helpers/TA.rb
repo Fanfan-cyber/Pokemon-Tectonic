@@ -57,17 +57,17 @@ module TA
       each_party_pkmn do |pkmn|
         return pkmn if pkmn&.match_criteria?(species: species, form: form, shiny: shiny)
       end
-      return
+      return nil
     when :pc
       each_pc_pkmn do |pkmn|
         return pkmn if pkmn&.match_criteria?(species: species, form: form, shiny: shiny)
       end
-      return
+      return nil
     when :all
       each_available_pkmn do |pkmn|
         return pkmn if pkmn&.match_criteria?(species: species, form: form, shiny: shiny)
       end
-      return
+      return nil
     end
   end
 

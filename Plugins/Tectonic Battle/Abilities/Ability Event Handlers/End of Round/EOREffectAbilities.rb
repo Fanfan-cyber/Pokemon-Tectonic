@@ -53,7 +53,7 @@ BattleHandlers::EOREffectAbility.add(:SPEEDBOOST,
   proc { |ability, battler, _battle|
       # A Pokémon's turnCount is 0 if it became active after the beginning of a
       # round
-      battler.tryRaiseStat(:SPEED, battler, ability: ability, increment: 2) if battler.turnCount > 0
+      battler.tryRaiseStat(:SPEED, battler, ability: ability, increment: 1) if battler.turnCount > 0
   }
 )
 
@@ -96,7 +96,6 @@ BattleHandlers::EOREffectAbility.add(:IGNITIONCYCLE,
               battler.applyFractionalDamage(1.0 / 8.0, false)
               battle.pbDisplay(_INTL("{1}'s inner fire flared up!", battler.pbThis))
           end
-          TA.set(:disable_step_counter, false)
       else
           battle.pbDisplay(_INTL("{1} finally cooled off!", battler.pbThis))
           battler.steps[:SPEED] = 0

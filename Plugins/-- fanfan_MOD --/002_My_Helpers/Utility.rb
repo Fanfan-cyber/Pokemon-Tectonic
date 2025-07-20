@@ -8,7 +8,7 @@ end
 
 def has_species_pc?(species, form = -1)
   pbEachPokemon do |pkmn, _box|
-    return true if pkmn.isSpecies?(species) && (form < 0 || pkmn.form == form)
+    return pkmn if pkmn.isSpecies?(species) && (form < 0 || pkmn.form == form)
   end
   return false
 end
@@ -148,7 +148,7 @@ end
 
 def pbChooseMoveFromListEX(message, input_ids, must_choose = false)
   names = []
-  ids  = []
+  ids   = []
   input_ids.each do |id|
     if id.is_a?(PokeBattle_Move) || id.is_a?(Pokemon::Move)
       names.push(id.name)
@@ -281,6 +281,20 @@ def random_choose_from_list(list_name, use_weight = true)
   selected_list.each do |i|
     current_weight += i[:weight]
     return i[:name] if random_value < current_weight
+  end
+end
+
+def weighted_random(items, weights)
+  if weights.is_a?(Numeric)
+    rand < weights / 100.0 ? items.first : items.last
+  elsif weights.is_a?(Array)
+    total = weights.sum.to_f
+    target = rand * total
+    cumulative = 0
+    weights.each_with_index do |weight, i|
+      cumulative += weight
+      return items[i] if cumulative >= target
+    end
   end
 end
 

@@ -1,8 +1,8 @@
 SPECIES_ABILITY_DATA = {
-  #[:MEW, 0]        => { :fixed => %i[], :changeable => %i[ABOVEITALL], },
+  #[:MEW, 0]       => { :fixed => %i[], :changeable => %i[ABOVEITALL], },
 
-  [:ARCHEN, 0]      => { :fixed => %i[], :changeable => %i[DEFEATIST ANCESTRALSUMMONS], },
-  [:ARCHEOPS, 0]    => { :fixed => %i[], :changeable => %i[DEFEATIST ANCESTRALSUMMONS], },
+  [:ARCHEN, 0]     => { :fixed => %i[], :changeable => %i[DEFEATIST ANCESTRALSUMMONS], },
+  [:ARCHEOPS, 0]   => { :fixed => %i[], :changeable => %i[DEFEATIST ANCESTRALSUMMONS], },
 
   [:BIDOOF, 0]     => { :fixed => %i[], :changeable => %i[SIMPLE UNAWARE], },
   [:BIBAREL, 0]    => { :fixed => %i[], :changeable => %i[SIMPLE UNAWARE], },
@@ -41,12 +41,21 @@ SPECIES_ABILITY_DATA = {
 
   [:MAGIKARP, 0]   => { :fixed => %i[], :changeable => %i[MULTISCALE SWIFTSWIM], },
 
-  [:MEOWTH, 0]     => { :fixed => %i[], :changeable => %i[GILD ALLTHATGLITTERS], },
-  [:PERSIAN, 0]    => { :fixed => %i[], :changeable => %i[GILD ALLTHATGLITTERS], },
+  [:MCASCOON, 0]   => { :fixed => %i[], :changeable => %i[FLAMEBODY MULTISCALE], },
+
+  [:MSILCOON, 0]   => { :fixed => %i[], :changeable => %i[SUDDENCHILL MULTISCALE], },
+
+  [:MEOWTH, 0]     => { :fixed => %i[], :changeable => %i[CASHFLOW ALLTHATGLITTERS], },
+  [:PERSIAN, 0]    => { :fixed => %i[], :changeable => %i[CASHFLOW ALLTHATGLITTERS], },
 
   [:PORYGON, 0]    => { :fixed => %i[], :changeable => %i[DOWNLOAD2 BACKUP], },
   [:PORYGON2, 0]   => { :fixed => %i[], :changeable => %i[DOWNLOAD2 BACKUP], },
   [:PORYGONZ, 0]   => { :fixed => %i[], :changeable => %i[DOWNLOAD2 BACKUP], },
+
+  [:ROCKRUFF, 0]   => { :fixed => %i[], :changeable => %i[VITALSPIRIT TOUGHCLAWS], },
+  [:LYCANROC, 0]   => { :fixed => %i[], :changeable => %i[LYCANTHROPE TOUGHCLAWS], },
+  [:LYCANROC, 1]   => { :fixed => %i[], :changeable => %i[NOGUARD TOUGHCLAWS], },
+  [:LYCANROC, 2]   => { :fixed => %i[], :changeable => %i[LYCANTHROPE TOUGHCLAWS], },
 
   [:SALANDIT, 0]   => { :fixed => %i[], :changeable => %i[BACKFIRE DOMINEERING], },
   [:SALAZZLE, 0]   => { :fixed => %i[], :changeable => %i[BACKFIRE DOMINEERING], },

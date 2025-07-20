@@ -433,6 +433,10 @@ class PokeBattle_Battle
     #=============================================================================
     # Weather helper methods
     #=============================================================================
+    def weather?
+        return pbWeather != :None
+    end
+
     def sunny?
         return %i[Sunshine HarshSun].include?(pbWeather)
     end

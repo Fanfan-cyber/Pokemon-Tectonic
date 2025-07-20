@@ -1838,6 +1838,19 @@ Flags = CanProtect
 Description = The user generates an intense magnetic connection between it and the target, striking it without fail.
 Animation = METALCLAW
 #-------------------------------
+[MAGNETWAVE]
+Name = Magnet Wave
+Type = STEEL
+Category = Special
+Power = 40
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+FunctionCode = Invalid
+Flags = CanProtect
+EffectChance = 20
+Description = The target is hit by a wave of magnetic energy. It has a 20% chance to lower their Speed.
+#-------------------------------
 [MIRRORSHOT]
 Name = Mirror Shot
 Type = STEEL

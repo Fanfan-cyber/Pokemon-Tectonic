@@ -33,6 +33,10 @@ class Array
     any? { |element| element.is_a?(Array) }
   end
 
+  def pure?
+    none? { |element| element.is_a?(Array) }
+  end
+
   def dup?
     length != uniq.length
   end

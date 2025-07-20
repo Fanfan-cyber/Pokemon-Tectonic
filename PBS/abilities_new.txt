@@ -69,6 +69,10 @@ Flags = EclipseSynergy
 Name = Apricorn Armor
 Description = Takes 40% less damage from attacks by Pokémon who have a non-volatile status condition.
 #-------------------------------
+[ARCANE]
+Name = Arcane
+Description = Increases Sp. Atk by 30%.
+#-------------------------------
 [ARCANEFINALE]
 Name = Arcane Finale
 Description = Turns to Finale Form when only unfainted on team. Ability becomes Synchronize.
@@ -156,6 +160,10 @@ Description = Sets a Reflect for 4 turns upon entering the battle.
 Name = Battle-Hardened
 Description = Raises Defense and Sp. Def by three steps when its HP is lowered below half.
 #-------------------------------
+[BEAMING]
+Name = Beaming
+Description = Boosts power of light-based moves by 30%.
+#-------------------------------
 [BEGUILING]
 Name = Beguiling
 Description = Special attacks against the Pokémon have a 30% chance to dizzy the attacker.
@@ -190,6 +198,10 @@ Description = Its special attacks reduce the target's Sp. Def.
 [BLADEBRAINED]
 Name = Bladebrained
 Description = Boosts the power of blade moves by 30%. Blade moves ignore the target's modified Defense and Sp. Def.
+#-------------------------------
+[BLINDING]
+Name = Blinding
+Description = After using a light move, lowers each foe's Sp. Def.
 #-------------------------------
 [BLINDINGLIGHT]
 Name = Blinding Light
@@ -484,7 +496,7 @@ Description = Speed is doubled on the first turn.
 #-------------------------------
 [DYNAMO]
 Name = Dynamo
-Description = Whenever it uses a status move, becomes energy charged, doubling the power of its next Electric-type attack.
+Description = Whenever it uses a status move, becomes energized, doubling the power of its next Electric-type attack.
 #-------------------------------
 [EARSPLITTING]
 Name = Ear-Splitting
@@ -615,6 +627,10 @@ Description = Double the Pokémon's Speed if any enemy is below half health.
 Name = Ferrofluid
 Description = Takes 30% less damage in a rainstorm.
 Flags = RainstormSynergy
+#-------------------------------
+[FIERYGLOW]
+Name = Fiery Glow
+Description = The Pokémon is also Fire-type.
 #-------------------------------
 [FIERYSPIRIT]
 Name = Fiery Spirit
@@ -801,7 +817,11 @@ Description = Eats pinch berries earlier than normal. Gets a random pinch berry 
 #-------------------------------
 [GRAVITAS]
 Name = Gravitas
-Description = Upon entry, intensifies gravity for five turns.
+Description = Upon entry, intensifies gravity for four turns.
+#-------------------------------
+[GRAVITYWELL]
+Name = Gravity Well
+Description = Intensifies gravity for four turns when hit by an attack.
 #-------------------------------
 [GRIPSTRENGTH]
 Name = Grip Strength
@@ -1209,7 +1229,7 @@ Flags = SunshineSynergy
 #-------------------------------
 [MISTFORM]
 Name = Mist Form
-Description = Slips past hazards. Takes 50% less damage if it switched in this turn.
+Description = Slips past hazards. Takes one third less damage if it switched in this turn.
 Flags = HazardImmunity
 #-------------------------------
 [MOISTSKIN]
@@ -1243,6 +1263,10 @@ Flags = MoonglowSynergy
 [MOTHBURGLAR]
 Name = Moth Burglar
 Description = Hits opponent with Thief when withdrawn from battle.
+#-------------------------------
+[MULTITASKER]
+Name = Multitasker
+Description = The Pokemon's Psychic-type attacks become spread and deal 20% more damage.
 #-------------------------------
 [MUPROTOCOL]
 Name = MU Protocol
@@ -1330,6 +1354,10 @@ Description = Sets a Tailwind for four turns upon entering the battle, increasin
 Name = Optimized Alloy
 Description = Prevents stat steps from being lowered (except when self-inflicted). The Pokémon's weight is doubled.
 Flags = OtherStatDropImmunity
+#-------------------------------
+[OTHERWORLDLY]
+Name = Otherworldly
+Description = The Pokémon is also Fairy-type.
 #-------------------------------
 [OUTRIDER]
 Name = Outrider
@@ -1490,7 +1518,7 @@ Description = Releases a hazard layer of Spikes when hit by an attack.
 #-------------------------------
 [RADIATE]
 Name = Radiate
-Description = Increases Sp. Atk by 30%.
+Description = Boosts power of light-based moves by 50%.
 #-------------------------------
 [RAINPRISM]
 Name = Rain Prism
@@ -1992,7 +2020,7 @@ Description = Flinching moves always activate their random effects.
 #-------------------------------
 [TESLACOILS]
 Name = Tesla Coils
-Description = Becomes energy charged upon entry, doubling the power of its next Electric-type attack.
+Description = Becomes energized upon entry, doubling the power of its next Electric-type attack.
 #-------------------------------
 [THIEFSDIVERSION]
 Name = Thief's Diversion
@@ -2000,7 +2028,7 @@ Description = By sacrificing a held item the Pokémon didn't start with, it can 
 #-------------------------------
 [THUNDERSTRUCK]
 Name = Thunderstruck
-Description = Becomes energy charged when hit by an attack, doubling the power of its next Electric-type attack.
+Description = Becomes energized when hit by an attack, doubling the power of its next Electric-type attack.
 #-------------------------------
 [TIMEINTERLOPER]
 Name = Time Interloper

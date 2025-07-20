@@ -595,11 +595,11 @@ BattleHandlers::AbilityOnSwitchIn.add(:ONTHEWIND,
 BattleHandlers::AbilityOnSwitchIn.add(:GRAVITAS,
   proc { |ability, battler, battle, aiCheck|
       if aiCheck
-          next getGravityEffectScore(battler, 5)
+          next getGravityEffectScore(battler, 4)
       else
           battle.pbShowAbilitySplash(battler, ability)
           battle.pbAnimation(:GRAVITY, battler, nil, 0)
-          battle.field.applyEffect(:Gravity, 5)
+          battle.field.applyEffect(:Gravity, 4)
           battle.pbHideAbilitySplash(battler)
       end
   }
@@ -1204,3 +1204,5 @@ BattleHandlers::AbilityOnSwitchIn.add(:CASHOUT,
       end
   }
 )
+
+BattleHandlers::AbilityOnSwitchIn.copy(:CASHOUT, :CASHFLOW)

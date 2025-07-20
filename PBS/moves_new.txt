@@ -160,8 +160,8 @@ Accuracy = 100
 TotalPP = 30
 Target = AllNearFoes
 FunctionCode = LowerTargetSpAtk2
-Flags = CanProtect,CanMagicCoat
-Description = The user dazzles nearby foes with light or sound. Their Sp. Atk is lowered by two steps.
+Flags = CanProtect,CanMagicCoat,Light
+Description = The user dazzles nearby foes with light. Their Sp. Atk is lowered by two steps.
 Animation = FLASH
 #-------------------------------
 [DIFFUSEPULSE]
@@ -402,7 +402,7 @@ TotalPP = 20
 Target = NearOther
 FunctionCode = Basic
 Flags = CanProtect,Pulse
-Description = The user shoots a pulse of uncharged particles at the target.
+Description = The user shoots a pulse of neutral particles at the target.
 Animation = STOREDPOWER
 #-------------------------------
 [PRANK]
@@ -567,7 +567,7 @@ Accuracy = 0
 TotalPP = 15
 Target = AllNearFoes
 FunctionCode = HitTwoToFiveTimesAlwaysHits
-Flags = CanProtect
+Flags = CanProtect,Light
 Description = A barrage of star-shaped rays are shot at the opposing team that multi-hits two to five times. Can't miss and skips protections.
 Animation = SWIFT
 #-------------------------------
@@ -721,7 +721,7 @@ TotalPP = 15
 Target = User
 FunctionCode = RaiseUserAtkDef2SetUserTypesToRock
 Flags = CanSnatch
-Description = The user flexes its rocky skin, raising its Attack and Defense by two steps and gaining the Rock type.
+Description = The user flexes its rocky skin, raising its Attack and Defense by two steps and gaining the Rock-type.
 Animation = BULKUP
 #-------------------------------
 [BULWARK]
@@ -990,7 +990,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = RecoilQuarterOfDamageDealt
 Flags = CanProtect
-Description = A reckless charge attack from the air. The user also takes 25% recoil.
+Description = A reckless rushing attack from the air. The user also takes 25% recoil.
 Animation = BRAVEBIRD
 #-------------------------------
 [BLUSTER]
@@ -1020,6 +1020,21 @@ Flags = CanProtect,Wind
 EffectChance = 20
 Description = The user whips up a cold north wind to attack the target. It has a 20% chance to frostbite.
 #-------------------------------
+[CLASSICALPHYSICS]
+Name = Classical Physics
+Type = FLYING
+Category = Physical
+Power = 60
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+Priority = 1
+FunctionCode = DoubleDamageGravity
+Flags = CanProtect
+EffectChance = 100
+Description = An apple falls from high up to strike the foe. Always goes first. Deals double damage in intense Gravity.
+Animation = GRAVAPPLE
+#-------------------------------
 [COLDFRONT]
 Name = Cold Front
 Type = FLYING
@@ -1044,7 +1059,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = TwoTurnAttackInvulnerableInSky
 Flags = CanProtect
-Description = The user soars up high, becoming invulnerable, then strikes on the second turn by dive bombing the target.
+Description = The user soars up high, charging and becoming invulnerable, then dive bombs the target on the second turn.
 Animation = FLY
 #-------------------------------
 [DIVININGTALON]
@@ -1169,9 +1184,9 @@ Accuracy = 100
 TotalPP = 12
 Target = NearOther
 FunctionCode = Flinch
-Flags = CanProtect,Wind
+Flags = CanProtect
 EffectChance = 30
-Description = The user strikes the target with a sudden wind. It has a 40% chance to flinch the target.
+Description = The user strikes the target with a dart of air. It has a 40% chance to flinch the target.
 #-------------------------------
 [STRAFE]
 Name = Strafe
@@ -1290,7 +1305,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = TwoTurnAttackRechargeSkippedIfTargetLeaves
 Flags = CanProtect,Biting,Uninvocable
-Description = Grips the target with its entire mouth. The user can't attack next turn unless the target faints or switches out.
+Description = Grips the target with its entire mouth. The user is exhausted on the next turn unless the target faints or switches out.
 #-------------------------------
 [DISSOLUTION]
 Name = Dissolution
@@ -1667,7 +1682,7 @@ TotalPP = 5
 Target = NearAlly
 FunctionCode = TwoTurnMoveHealTargetHalfOfTotalHP
 Flags = CanProtect,CanMagicCoat
-Description = The user shapes primal clay to heal a nearby ally for their max HP. This can overheal. The user must recharge next turn.
+Description = The user shapes primal clay to heal a nearby ally for their max HP. This can overheal. The user is exhausted on the next turn.
 Animation = HEALPULSE
 #-------------------------------
 [PULVERIZERCHORD]
@@ -1824,7 +1839,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = TwoTurnAttackInvulnerableUnderground
 Flags = CanProtect
-Description = The user burrows deep, becoming invulnerable, then attacks with devastating power on the second turn.
+Description = The user burrows deep, charging and becoming invulnerable, then attacks with devastating power on the second turn.
 #-------------------------------
 #		ROCK MOVES
 #-------------------------------
@@ -1883,13 +1898,26 @@ Description = Protects the user from damage this turn. The user will counter wit
 Name = Crystal Gleam
 Type = ROCK
 Category = Special
-Power = 60
+Power = 65
 Accuracy = 100
 TotalPP = 15
 Target = NearOther
 FunctionCode = Basic
+Flags = CanProtect,Light
+Description = The user attacks with the bright glint of crystals.
+#-------------------------------
+[DIAMONDBOLT]
+Name = Diamond Bolt
+Type = ROCK
+Category = Special
+Power = 60
+Accuracy = 100
+TotalPP = 12
+Target = NearOther
+FunctionCode = Basic
 Flags = CanProtect,CanRandomCrit
-Description = The user attacks with the bright glint of crystals. Can random critical hit.
+Description = The user shoots a spike of diamond to strike the target. Can random critical hit.
+Animation = DIAMONDFORCE
 #-------------------------------
 [DIAMONDFIELD]
 Name = Diamond Field
@@ -1899,7 +1927,7 @@ Accuracy = 0
 TotalPP = 20
 Target = UserSide
 FunctionCode = StartPreventCriticalHitsAndRandomEffectsAgainstUserSide10
-Flags = CanSnatch
+Flags = CanSnatch,Light
 Description = A diamond-tough force-field protects the user's side for 5 turns from critical hits, and reduces move damage taken.
 Animation = LIGHTSCREEN
 #-------------------------------
@@ -1937,7 +1965,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = DoubleDamageGemConsumed
 Flags = CanProtect,Pulse
-Description = The user harms the target with gemlike light. Deals double damage if the user has used a gem this battle.
+Description = The user harms the target with a pulse of power. Deals double damage if the user has used a gem this battle.
 Animation = POWERGEM
 #-------------------------------
 [GRANITEHEAD]
@@ -1950,7 +1978,7 @@ TotalPP = 12
 Target = NearOther
 FunctionCode = RecoilThirdOfDamageDealt
 Flags = CanProtect
-Description = The user charges into the target with its stony body. The user also takes 33% recoil.
+Description = The user rushes into the target with its stony body. The user also takes 33% recoil.
 Animation = HEADSMASH
 #-------------------------------
 [GRINDSTONE]
@@ -2002,7 +2030,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = Icebreaker
 Flags = CanProtect
-Description = The user sweeps away hazards afflicting your side while charging. User also takes 33% recoil.
+Description = The user sweeps away hazards afflicting your side while lunging forward. User also takes 33% recoil.
 Animation = HEADSMASH
 #-------------------------------
 [INVITESANDSTORM]
@@ -2225,8 +2253,8 @@ Accuracy = 100
 TotalPP = 12
 Target = AllNearFoes
 FunctionCode = DoubleDamageFaster
-Flags = CanProtect
-Description = The user emits a wave of green energy to strike near foes. Deals double damage to those slower than the user.
+Flags = CanProtect,Light
+Description = The user emits a wave of green light to strike near foes. Deals double damage to those slower than the user.
 Animation = FLASH
 #-------------------------------
 #		BUG MOVES
@@ -2268,7 +2296,7 @@ TotalPP = 10
 Target = NearOther
 Priority = 1
 FunctionCode = Basic
-Flags = CanProtect
+Flags = CanProtect,Light
 Description = The user shoots out a quick flash of bioluminescence to damage the target. This move always goes first.
 Animation = SIGNALBEAM
 #-------------------------------
@@ -2397,7 +2425,7 @@ Accuracy = 100
 TotalPP = 25
 Target = NearOther
 FunctionCode = Flinch
-Flags = CanProtect
+Flags = CanProtect,Light
 EffectChance = 20
 Description = The user attacks with small beams of light. It has a 20% chance to make the target flinch.
 Animation = SIGNALBEAM
@@ -2411,7 +2439,7 @@ Accuracy = 100
 TotalPP = 12
 Target = NearOther
 FunctionCode = Flinch
-Flags = CanProtect
+Flags = CanProtect,Light
 EffectChance = 40
 Description = The user attacks with a blinding flash of bioluminscence. It has a 40% chance to make the target flinch.
 Animation = SIGNALBEAM
@@ -2825,18 +2853,6 @@ Flags = CanProtect
 Description = Spectral hands reach from the ground to trip the target. The heavier the target, the greater the damage.
 Animation = CRUSHGRIP
 #-------------------------------
-[HONEYSLATHER]
-Name = Honey Slather
-Type = GHOST
-Category = Status
-Accuracy = 0
-TotalPP = 5
-Target = User
-FunctionCode = HealUserFullHPBindsTarget
-Flags = CanSnatch
-Description = The user uses honey to fully restore their HP. However, this lures swarming insects, trapping and damaging the user for three turns.
-Animation = RECOVER
-#-------------------------------
 [MACHINATE]
 Name = Machinate
 Type = GHOST
@@ -3126,7 +3142,7 @@ Target = NearOther
 Priority = 1
 FunctionCode = SwitchOutUserIfMissesDamagingMove
 Flags = CanProtect
-Description = A reckless charge that forces the user to switch out if it misses. Always goes first.
+Description = A reckless maneuver that forces the user to switch out if it misses. Always goes first.
 Animation = SMARTSTRIKE
 #-------------------------------
 [EVERHONE]
@@ -3260,6 +3276,20 @@ Flags = CanProtect,CanRandomCrit
 Description = The target is pierced with a pointed metal javelin. Can random critical hit.
 Animation = SPIKECANNON
 #-------------------------------
+[LUSTER]
+Name = Luster
+Type = STEEL
+Category = Special
+Power = 40
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+FunctionCode = LowerTargetSpd1
+Flags = CanProtect
+EffectChance = 20
+Description = The user attacks with reflected light. It has a 20% chance to lower Sp. Def.
+Animation = FLASHCANNON
+#-------------------------------
 [MAGNETIZE]
 Name = Magnetize
 Type = STEEL
@@ -3272,19 +3302,6 @@ FunctionCode = BindTarget3
 Flags = CanProtect
 Description = The user strikes the target while magnetizing it, trapping and damaging it for three turns.
 Animation = MAGNETBOMB
-#-------------------------------
-[MAGNETWAVE]
-Name = Magnet Wave
-Type = STEEL
-Category = Special
-Power = 40
-Accuracy = 100
-TotalPP = 30
-Target = NearOther
-FunctionCode = LowerTargetSpd1
-Flags = CanProtect
-EffectChance = 20
-Description = The target is hit by a wave of magnetic energy. It has a 20% chance to lower their Speed.
 #-------------------------------
 [MIRRORSHIELD]
 Name = Mirror Shield
@@ -3332,7 +3349,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = TwoTurnAttack
 Flags = CanProtect,Uninvocable
-Description = The user shoots a massive metal object at the target. The user must rest on the next turn to regain its energy.
+Description = The user shoots a massive metal object at the target. The user is exhausted on the next turn.
 Animation = BEHEMOTHBASH
 #-------------------------------
 [REFURBISH]
@@ -3382,7 +3399,7 @@ Accuracy = 100
 TotalPP = 10
 Target = NearOther
 FunctionCode = LowerTargetSpDef1
-Flags = CanProtect
+Flags = CanProtect,Light
 EffectChance = 30
 Description = The user looses a flash of energy from its polished body. It has a 30% chance to lower Sp. Def.
 Animation = MIRRORSHOT
@@ -3552,8 +3569,8 @@ Accuracy = 100
 TotalPP = 5
 Target = NearOther
 FunctionCode = TwoTurnAttackChargeStartSunshine5
-Flags = CanProtect
-Description = Summons sunshine for five turns on the first turn, then overwhelms the foe with fiery light on the second.
+Flags = CanProtect,Light
+Description = Charges by summoning sunshine for five turns, then overwhelms the foe with fiery light on the second turn.
 Animation = FIREBLAST
 #-------------------------------
 [BLAZINGSPEED]
@@ -3567,7 +3584,7 @@ Target = NearOther
 Priority = 2
 FunctionCode = Basic
 Flags = CanProtect
-Description = The user charges the target at blazing-fast speed. This attack always goes before any other move.
+Description = The user rushes the target at blazing-fast speed. This attack always goes before any other move.
 Animation = FLAMECHARGE
 #-------------------------------
 [CRIMSONSTORM]
@@ -3771,7 +3788,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = TwoTurnAttackInvulnerableInSkyRecoilQuarterOfDamageDealt
 Flags = CanProtect
-Description = The user launches up high, becoming invulnerable, then explodes down on the second turn, taking 25% recoil.
+Description = The user launches up high, charging and becoming invulnerable, then explodes down on the second turn, taking 25% recoil.
 Animation = FLY
 #-------------------------------
 [LIKEWILDFIRE]
@@ -3796,7 +3813,7 @@ Accuracy = 100
 TotalPP = 10
 Target = NearFoe
 FunctionCode = StartSunshine8
-Flags = CanProtect
+Flags = CanProtect,Light
 Description = The user attacks with fire that can be seen in multiple places, then summons sunshine for eight turns.
 Animation = HEATWAVE
 #-------------------------------
@@ -3967,7 +3984,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = TwoTurnAttackChargeStartRainstorm5
 Flags = CanProtect
-Description = Summons rainstorm for five turns on the first turn, then overwhelms the foe with water on the second.
+Description = Charges by summoning rainstorm for five turns, then overwhelms the foe with water on the second turn.
 Animation = SURF
 #-------------------------------
 [ASCRYSTAL]
@@ -4044,7 +4061,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = TwoTurnAttackInvulnerableUnderwater
 Flags = CanProtect
-Description = The user dives deep on the first turn, becoming invulnerable, then rises and strikes with explosive strength on the second turn.
+Description = The user dives deep on the first turn, charging and becoming invulnerable, then rises and strikes with explosive strength on the second.
 Animation = DIVE
 #-------------------------------
 [DRAGBENEATH]
@@ -4505,21 +4522,6 @@ FunctionCode = ReviveGrassTypePartyMemberToFullHP
 Description = Restores a fainted Grass-type party member to full HP. Only one use per battle.
 Animation = GRASSYTERRAIN
 #-------------------------------
-[CLASSICALPHYSICS]
-Name = Classical Physics
-Type = GRASS
-Category = Special
-Power = 60
-Accuracy = 100
-TotalPP = 10
-Target = NearOther
-Priority = 1
-FunctionCode = DoubleDamageGravity
-Flags = CanProtect
-EffectChance = 100
-Description = An apple falls from high up to strike the foe. Always goes first. Deals double damage in intense Gravity.
-Animation = GRAVAPPLE
-#-------------------------------
 [COCODROP]
 Name = Coco Drop
 Type = GRASS
@@ -4594,7 +4596,7 @@ Accuracy = 100
 TotalPP = 15
 Target = NearOther
 FunctionCode = Dizzy
-Flags = CanProtect
+Flags = CanProtect,Light
 EffectChance = 30
 Description = The target is disoriented by an explosive seed. It has a 30% chance to dizzy.
 Animation = SEEDBOMB
@@ -5149,7 +5151,7 @@ Accuracy = 100
 TotalPP = 20
 Target = NearOther
 FunctionCode = RaiseUserSpDef2
-Flags = CanProtect
+Flags = CanProtect,Light
 EffectChance = 100
 Description = Cloaking itself in light energy, the user shocks the target, raising the user's Sp. Def by two steps.
 Animation = DISCHARGE
@@ -5173,7 +5175,7 @@ TotalPP = 12
 Target = NearOther
 FunctionCode = Numb
 Flags = CanProtect,CanMagicCoat
-Description = A weak electric charge is launched to numb the target.
+Description = A weak electric jolt is launched to numb the target.
 #-------------------------------
 [PHOTONEDGE]
 Name = Photon Edge
@@ -5184,7 +5186,7 @@ Accuracy = 100
 TotalPP = 15
 Target = NearOther
 FunctionCode = Numb
-Flags = CanProtect,CanRandomCrit
+Flags = CanProtect,CanRandomCrit,Light
 EffectChance = 50
 Description = The user slices with claws of light that have a 50% chance to numb. Can random critical hit.
 #-------------------------------
@@ -5830,7 +5832,7 @@ TotalPP = 5
 Target = NearOther
 Priority = 1
 FunctionCode = LowerTargetAtk1
-Flags = CanProtect
+Flags = CanProtect,Light
 EffectChance = 100
 Description = An aurora borealis flashes brightly at the target, lowering their Attack. Always goes first.
 Animation = AURORABEAM
@@ -5869,7 +5871,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = SleepTargetTwoTurnAttack
 Flags = CanProtect,Uninvocable
-Description = The target is put to sleep via a deep freeze. The user must rest on the next turn to regain its energy.
+Description = The target is put to sleep via a deep freeze. The user is exhausted on the next turn.
 Animation = GLACIATE
 #-------------------------------
 [DIAMONDDUST]
@@ -6454,7 +6456,7 @@ Accuracy = 100
 TotalPP = 15
 Target = NearOther
 FunctionCode = LowerTargetHighestStat1
-Flags = CanProtect
+Flags = CanProtect,Light
 EffectChance = 20
 Description = The shine from scales damages the target. This has a 20% chance to reduce the higher of the target's Attack or Sp. Atk.
 Animation = DAZZLINGGLEAM
@@ -6493,7 +6495,7 @@ Accuracy = 0
 TotalPP = 5
 Target = User
 FunctionCode = TwoTurnChangeUserAmpharosForm
-Description = The user channels insane amounts of energy the first turn, then transforms on the second turn.
+Description = The user charges up insane amounts of energy the first turn, then transforms on the second turn.
 Animation = DAZZLINGGLEAM
 #-------------------------------
 [TRIPLETHREAT]
@@ -7091,7 +7093,7 @@ Target = NearOther
 FunctionCode = LowerTargetSpDef2
 Flags = CanProtect,Pulse
 EffectChance = 100
-Description = The user pulses powerful dark light to expose the target's motives. This lowers their Sp. Def by two steps.
+Description = The user pulses powerful darkness to expose the target's motives. This lowers their Sp. Def by two steps.
 Animation = DARKPULSE
 #-------------------------------
 [VERMINCLOUD]
@@ -7105,7 +7107,7 @@ Target = NearOther
 Priority = 4
 FunctionCode = TwoTurnAttackInvulnerableInSky
 Flags = CanProtect
-Description = The user transforms into a cloud of vermin, becoming invulnerable to attacks on the first turn. On the second turn it ambushes the target.
+Description = The user transforms into a cloud of vermin, charging and becoming invulnerable. On the second turn it ambushes the target.
 Animation = FLY
 #-------------------------------
 [WETWORK]
@@ -7315,7 +7317,7 @@ TotalPP = 10
 Target = NearOther
 Priority = 1
 FunctionCode = Basic
-Flags = CanProtect
+Flags = CanProtect,Light
 Description = The user flashes colorful light to damage the target. This move always goes first.
 Animation = DAZZLINGGLEAM
 #-------------------------------
@@ -7344,6 +7346,18 @@ FunctionCode = HeartRhythm
 Flags = CanProtect,Sound
 Description = Power increases by 20 each time it's used in succession. User heals for half of damage dealt.
 Animation = ROUND
+#-------------------------------
+[HONEYSLATHER]
+Name = Honey Slather
+Type = FAIRY
+Category = Status
+Accuracy = 0
+TotalPP = 5
+Target = User
+FunctionCode = HealUserFullHPBindsTarget
+Flags = CanSnatch
+Description = The user uses honey to fully restore their HP. However, this lures swarming insects, trapping and damaging the user for three turns.
+Animation = RECOVER
 #-------------------------------
 [HUMBLE]
 Name = Humble
@@ -7597,7 +7611,7 @@ Accuracy = 100
 TotalPP = 10
 Target = NearFoe
 FunctionCode = StartMoonglow8
-Flags = CanProtect
+Flags = CanProtect,Light
 Description = Strikes the target with lunar light, then summons moonglow for eight turns.
 Animation = DAZZLINGGLEAM
 #-------------------------------
