@@ -413,12 +413,12 @@ class PokeBattle_Battler
   end
 
   def underground?
-    return true semiInvulnerable_underground?
+    return true if semiInvulnerable_underground?
     return false
   end
 
   def underunderwater?
-    return true semiInvulnerable_underwater?
+    return true if semiInvulnerable_underwater?
     return false
   end
 

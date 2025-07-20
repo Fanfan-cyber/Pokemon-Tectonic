@@ -17341,7 +17341,7 @@ But if they were after Regidrago specifically, and Yezera’s with them… maybe
 She should be the last person to pull this kind of stunt.
 她应该是去阻止对方的人。
 It is. It’s your problem now, and I know you aren’t gonna like that, but it is.
-但现在，这是你的问题了，我知道你可能不太高兴，\但是这是事实。
+但现在，这是你的问题了，我知道你可能不太高兴，但是这是事实。
 This is bigger than just one legendary Pokémon.
 这不仅仅是一个传说中的精灵这么简单。
 Remember what I said about the big open secret?
@@ -17479,7 +17479,7 @@ A cheap LCD TV. The logo of a local news broadcaster has been burned into the to
 The Makyan Rangers are hiding something.
 马凯亚的护林员们还在隐瞒。
 I mean -- they're always hiding something. They're former Chasm for crying out loud! But, this... this is huge.
-我是说...他们总在隐瞒，他们以前是裂隙队的队员，\但是...这...这个太重要了。
+我是说...他们总在隐瞒，他们以前是裂隙队的队员，但是...这...这个太重要了。
 They've been moving gear in and out of certain areas. Casaba Island... Highland Lake... Gigalith's Guts...
 他们一直在某些地方搬运设备...甜瓜岛...云上湖...怪岩肠道...
 What could they be doing there? Are they hiding something?
@@ -49047,7 +49047,7 @@ The strength is becoming a curse!
 The effects of the weather disappeared.
 天气的影响消失了。
 All stat changes were eliminated!
-取消了所有的能力变化！
+所有的能力等级都被消除了！
 {1} gobbles up the scattered coins!
 {1}吞下了散落的金钱！
 Which item should {1} drop?
@@ -49059,7 +49059,7 @@ Which form should it take?
 {1} takes on a new style!
 {1}使用了新风格！
 Transcending time and space, a cost-free switch!
-超越时间和空间，自由的切换！
+超越时间和空间，自由的替换！
 {1} can switch out regardless!
 {1}可以自由进行替换！
 Each Pokémon in your party got Exp. Points!
@@ -49067,7 +49067,7 @@ Each Pokémon in your party got Exp. Points!
 Your party Pokémon in waiting also got Exp. Points!
 队伍中未出场的精灵也可以获得经验！
 {1} gained 0 experience.
-{1}获得了0点经验。
+{1}获得了0经验。
 {1} gained only {3} Exp. Points due to the level cap at level {2}.
 {1}只获得了{3}经验值，因为等级上限是{2}。
 {1} got a Hot Streak boosted {2} Exp. Points!
@@ -49882,8 +49882,14 @@ It'll last the whole battle!
 {1}的{2}增加了{3}级！
 {1}'s stat changes were recovered!
 {1}的能力等级被清除了！
+{1}'s positive stat changes were eliminated!
+{1}的增加的能力等级被清除了！
 {1}'s negative stat changes were eliminated!
 {1}的减小的能力等级被清除了！
+{1}'s {2} changes was recovered!
+{1}的{2}恢复了！
+{1}'s {2} changes were recovered!
+{1}的{2}恢复了！
 {1} moves at doubled speed thanks to its {2}!
 {1}因为{2}速度翻倍了！
 It'll skip its next two moves

@@ -890,7 +890,7 @@ class PokeBattle_Battler
         clear_step_counter
     end
     
-    def pbResetLoweredStatSteps(showMessage = false) # didn't use it
+    def pbResetLoweredStatSteps(showMessage = false) # Didn't use it
         anyReset = false
         GameData::Stat.each_battle { |s|
             next unless @steps[s.id] < 0
@@ -899,5 +899,38 @@ class PokeBattle_Battler
             anyReset = true
         }
         @battle.pbDisplay(_INTL("{1}'s negative stat changes were eliminated!", pbThis)) if showMessage && anyReset
+    end
+
+    def pbResetRaisedStatSteps(showMessage = false) # Didn't use it
+        anyReset = false
+        GameData::Stat.each_battle { |s|
+            next unless @steps[s.id] > 0
+            @steps[s.id] = 0
+            clear_step_counter(s.id)
+            anyReset = true
+        }
+        @battle.pbDisplay(_INTL("{1}'s positive stat changes were eliminated!", pbThis)) if showMessage && anyReset
+    end
+
+    def pbResetSpecificStatSteps(stats, showMessage = false) # Didn't use it
+        return unless stats
+        stats = [stats] unless stats.is_a?(Array)
+        anyReset = false
+        stats.each { |stat|
+            next if @steps[stat] == 0
+            @steps[stat] = 0
+            clear_step_counter(stat)
+            anyReset = true
+        }
+        if showMessage && anyReset
+            reset_count = stats.size
+            message = if reset_count == 1
+                _INTL("{1}'s {2} changes was recovered!", pbThis, GameData::Stat.get(stats.first).name)
+            else
+                stat_names = stats.map { |s| GameData::Stat.get(s).name }.join(', ')
+                _INTL("{1}'s {2} changes were recovered!", pbThis, stat_names)
+            end
+            @battle.pbDisplay(message)
+        end
     end
 end
