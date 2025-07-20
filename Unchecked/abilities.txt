@@ -1,0 +1,4608 @@
+
+#-------------------------------
+[SUCTIONCUPS]
+Name = 吸盘
+Description = 用吸盘牢牢贴在地面上，让替换宝可梦的招式和道具无效。
+Score = 1
+Flags = DisableSwitchOut
+#-------------------------------
+[SYNCHRONIZE]
+Name = 同步
+Description = 将自己的中毒、麻痹或灼伤状态传染给对手。
+Score = 1
+Flags =
+#-------------------------------
+[EARLYBIRD]
+Name = 早起
+Description = 即使变为睡眠状态，也能以2倍的速度提早醒来。
+Score = 1
+Flags =
+#-------------------------------
+[TRUANT]
+Name = 懒惰
+Description = 如果使出招式，下一回合就会休息。
+Score = -1
+Flags = Banned
+#-------------------------------
+[FORECAST]
+Name = 阴晴不定
+Description = 受天气的影响，会变为水属性、火属性或冰属性中的某一个。
+Score = 0
+Flags = Banned
+#-------------------------------
+[LIQUIDOOZE]
+Name = 污泥浆
+Description = 吸收了污泥浆的对手会因强烈的恶臭而受到伤害，减少HP。在废土、污水面，伤害翻倍。
+Score = 1
+Flags =
+#-------------------------------
+[GLUTTONY]
+Name = 贪吃鬼
+Description = 原本HP变得很少时才会吃树果，在HP还有一半时就会把它吃掉。无论是哪种树果，食用后，都会回复最大HP的1/3。
+Score = 3
+Flags =
+#-------------------------------
+[UNBURDEN]
+Name = 轻装
+Description = 失去所持有的道具时，速度会提高。
+Score = 4
+Flags =
+#-------------------------------
+[SIMPLE]
+Name = 单纯
+Description = 能力变化会变为平时的2倍。
+Score = 7
+Flags =
+#-------------------------------
+[SKILLLINK]
+Name = 连续攻击
+Description = 如果使用连续招式，总是能使出最高次数。
+Score = 4
+Flags =
+#-------------------------------
+[KLUTZ]
+Name = 笨拙
+Description = 无法使用持有的道具。
+Score = -1
+Flags = Banned
+#-------------------------------
+[UNAWARE]
+Name = 纯朴
+Description = 可以无视对手能力的变化，进行攻击。
+Score = 6
+Flags = IgnoreTargetStateAll
+#-------------------------------
+[TINTEDLENS]
+Name = 有色眼镜
+Description = 可以将效果不好的招式以通常的威力使出。
+Score = 5
+Flags =
+#-------------------------------
+[MULTITYPE]
+Name = 多属性
+Description = 自己的属性会根据持有的石板或Ｚ纯晶的属性而改变。在新世界，无视携带道具，出场和回合结束时都会随机变换属性(包括???属性)。
+Score = 7
+Flags = Banned
+#-------------------------------
+[PICKPOCKET]
+Name = 顺手牵羊
+Description = 盗取接触到自己的对手的道具。
+Score = 1
+Flags =
+#-------------------------------
+[CONTRARY]
+Name = 唱反调
+Description = 能力的变化发生逆转，原本提高时会降低，而原本降低时会提高。
+Score = 6
+Flags =
+#-------------------------------
+[UNNERVE]
+Name = 紧张感
+Description = 让对手紧张，使其无法食用树果。
+Score = 0
+Flags =
+#-------------------------------
+[IMPOSTER]
+Name = 变身者
+Description = 变身为当前面对的宝可梦。
+Score = 5
+Flags = Banned
+#-------------------------------
+[ZENMODE]
+Name = 达摩模式
+Description = HP变为一半以下时，样子会改变。
+Score = 2
+Flags = Banned
+#-------------------------------
+[AROMAVEIL]
+Name = 芳香幕
+Description = 可以防住向自己和同伴发出的心灵攻击。
+Score = 3
+Flags = ImmunityLimittheir
+#-------------------------------
+[CHEEKPOUCH]
+Name = 颊囊
+Description = 无论是哪种树果，食用后，HP都会回复。
+Score = 1
+Flags = Banned
+#-------------------------------
+[SYMBIOSIS]
+Name = 共生
+Description = 同伴使用道具时，会把自己持有的道具传递给同伴。
+Score = 0
+Flags = Banned
+#-------------------------------
+[SCHOOLING]
+Name = 鱼群
+Description = HP多的时候会聚起来变强。HP剩余量变少时，群体会分崩离析。在水面、水下、污水面，总是群聚形态。当处于群聚形态时，获得特性结实的效果。
+Score = 6
+Flags = Banned,ReduceDamageInFull
+#-------------------------------
+[AGGLOMERATTO]
+Name = 鼠群
+Description = HP多的时候会聚起来变强。HP剩余量变少时，群体会分崩离析。当处于群聚形态时，获得特性结实的效果。
+Score = 6
+Flags = Banned,ReduceDamageInFull
+#-------------------------------
+[DISGUISE]
+Name = 画皮
+Description = 通过画皮覆盖住身体，可以防住1次攻击。
+Score = 5
+Flags = Banned
+#-------------------------------
+[BATTLEBOND]
+Name = 牵绊变身
+Description = 打倒对手时，与训练家的牵绊会增强，变为牵绊形态。
+Score = 0
+Flags = Banned
+#-------------------------------
+[POWERCONSTRUCT]
+Name = 群聚变形
+Description = HP变为一半时，细胞们会赶来支援，变为完全体形态。
+Score = 2
+Flags = Banned
+#-------------------------------
+[RECEIVER]
+Name = 接球手
+Description = 继承被打倒的同伴的特性，变为相同的特性。
+Score = 1
+Flags = Banned
+#-------------------------------
+[PROTEAN]
+Name = 变幻自如
+Description = 变为与自己使出的招式相同的属性。
+Score = 6
+Flags = ChangeSelfType
+#-------------------------------
+[LIBERO]
+Name = 自由者
+Description = 变为与自己使出的招式相同的属性。
+Score = 6
+Flags = ChangeSelfType
+#-------------------------------
+[BALLFETCH]
+Name = 捡球
+Description = 没有携带道具时，会拾取第1个投出后捕捉失败的精灵球。
+Score = 0
+Flags = Banned
+#-------------------------------
+[GULPMISSILE]
+Name = 一口导弹
+Description = 冲浪或潜水时会叼来猎物。受到伤害时，会吐出猎物进行攻击。
+Score = 0
+Flags = Banned
+#-------------------------------
+[RIPEN]
+Name = 熟成
+Description = 使树果成熟，效果变为2倍。
+Score = 2
+Flags = Ripen
+#-------------------------------
+[ICEFACE]
+Name = 结冻头
+Description = 头部的冰会代替自己承受攻击，但是样子会改变。下雪时，冰会恢复原状。
+Score = 3
+Flags = Banned
+#-------------------------------
+[HUNGERSWITCH]
+Name = 饱了又饿
+Description = 每回合结束时会在满腹花纹与空腹花纹之间交替改变样子。
+Score = 0
+Flags = Banned
+#-------------------------------
+[CUDCHEW]
+Name = 反刍
+Description = 吃了树果后，会在下一回合结束时从胃反刍出来再吃1次。
+Score = 1
+Flags =
+#-------------------------------
+[GUARDDOG]
+Name = 看门犬
+Description = 受到威吓时，攻击会提高。让替换宝可梦的招式和道具无效。
+Score = 5
+Flags = DisableSwitchOut,ImmunityIntimidate
+#-------------------------------
+[OPPORTUNIST]
+Name = 跟风
+Description = 对手的能力提高时，自己也会趁机同样地提高能力。
+Score = 4
+Flags =
+#-------------------------------
+[ZEROTOHERO]
+Name = 全能变身
+Description = 回到同行队伍后，会变为全能形态。
+Score = 5
+Flags = Banned
+#-------------------------------
+[EMBODYASPECT]
+Name = 面影辉映
+Description = 将回忆映于心中，让碧草面具发出光辉，提高自己的速度。
+Score = 6
+Flags = Banned,StateUpInSwitchIn
+#-------------------------------
+[EMBODYASPECT_1]
+Name = 面影辉映
+Description = 将回忆映于心中，让水井面具发出光辉，提高自己的特防。
+Score = 6
+Flags = Banned,StateUpInSwitchIn
+#-------------------------------
+[EMBODYASPECT_2]
+Name = 面影辉映
+Description = 将回忆映于心中，让火灶面具发出光辉，提高自己的攻击。
+Score = 6
+Flags = Banned,StateUpInSwitchIn
+#-------------------------------
+[EMBODYASPECT_3]
+Name = 面影辉映
+Description = 将回忆映于心中，让础石面具发出光辉，提高自己的防御。
+Score = 6
+Flags = Banned,StateUpInSwitchIn
+#-------------------------------
+[TERASHIFT]
+Name = 太晶变形
+Description = 出场时，会吸收周围的能量，变为太晶形态。
+Score = 0
+Flags = Banned
+#-------------------------------
+
+
+
+#-------------------------------
+# 攻击效果
+#-------------------------------
+[GROWINGTOOTH]
+Name = 长牙
+Description = 使用啃咬类招式造成伤害之后，攻击会提高。
+Score = 4
+Flags = StateUpAfterMove
+#-------------------------------
+[LEECHINGFANGS]
+Name = 吸血獠牙
+Description = 使用啃咬类招式攻击时，将吸取对手1/8的HP。
+Score = 4
+Flags = HealAfterMove
+#-------------------------------
+[NOSFERATU]
+Name = 吸血鬼
+Description = 使用接触类招式攻击对手时，伤害增加20%，且自身恢复造成伤害的50%的HP。
+Score = 5
+Flags = DamageUp,HealAfterMove
+#-------------------------------
+[ENERGYSIPHON]
+Name = 生命汲取
+Description = 自身恢复造成伤害的25%的HP。
+Score = 4
+Flags = DamageUp,HealAfterMove
+#-------------------------------
+[ABSORBANT]
+Name = 汲取
+Description = 使用吸取类招式恢复的HP增加50%，并在造成伤害之后对其施放寄生种子。
+Score = 4
+Flags = SufferTargetWithSeed
+#-------------------------------
+[PYROSHELLS]
+Name = 烈焰爆弹
+Description = 使用波动类招式造成伤害之后，施放一次50威力的爆发。
+Score = 6
+Flags = CallMoveAfterMove
+#-------------------------------
+[VOLCANORAGE]
+Name = 火山之怒
+Description = 使用火属性招式造成伤害之后，施放一次50威力的喷火。
+Score = 6
+Flags = CallMoveAfterMove
+#-------------------------------
+[GLACIALRAGE]
+Name = 冰川之怒
+Description = 使用冰属性招式造成伤害之后，施放一次50威力的暴风雪。
+Score = 6
+Flags = CallMoveAfterMove
+#-------------------------------
+[HIGHTIDE]
+Name = 涨潮
+Description = 使用水属性招式造成伤害之后，施放一次50威力的冲浪。
+Score = 6
+Flags = CallMoveAfterMove
+#-------------------------------
+[THUNDERCALL]
+Name = 雷鸣
+Description = 使用电属性招式造成伤害之后，向对方随机宝可梦施放一次24威力的天罚。
+Score = 6
+Flags = CallMoveAfterMove
+#-------------------------------
+[AFTERSHOCK]
+Name = 余震
+Description = 使用攻击招式造成伤害之后，施放一次级数4-7的震级。
+Score = 7
+Flags = CallMoveAfterMove
+#-------------------------------
+[FUNGALINFECTION]
+Name = 真菌感染
+Description = 使用接触类攻击招式造成伤害之后，会对目标施放寄生种子。
+Score = 6
+Flags = CallMoveAfterMove,SufferTargetWithSeed
+#-------------------------------
+[TWOSTEP]
+Name = 两步舞
+Description = 使用舞类招式之后，向对方随机宝可梦施放一次50威力的觉醒之舞。
+Score = 5
+Flags = CallMoveAfterMove
+#-------------------------------
+[BLADEDANCE]
+Name = 剑之舞
+Description = 使用舞类招式之后，向对方随机宝可梦施放一次50威力的叶刃。
+Score = 5
+Flags = CallMoveAfterMove
+#-------------------------------
+
+
+
+#-------------------------------
+# 攻击附加异常状态
+#-------------------------------
+[STENCH]
+Name = 恶臭
+Description = 通过释放臭臭的气味，在攻击的时候，10%的概率会使对手畏缩。在废土、污水面，触发几率翻倍。
+Score = 1
+Flags = SufferTargetWithFlinch
+#-------------------------------
+[TOXICCHAIN]
+Name = 毒锁链
+Description = 凭借含有毒素的锁链的力量，30%的概率让被招式击中的对手陷入剧毒状态。在废土，毒属性招式的威力增加30%。
+Score = 3
+Flags = SufferTargetWithPoison
+#-------------------------------
+[POISONPUPPETEER]
+Name = 毒傀儡
+Description = 因桃歹郎的招式而陷入中毒状态的对手同时也会陷入混乱状态。在废土，出场时命中提高1级。
+Score = 2
+Flags = SufferTargetWithConfuse
+#-------------------------------
+[NEUROTOXIN]
+Name = 神经毒素
+Description = 因招式而陷入中毒状态的对手，攻击、防御和速度会下降。在废土，出场时命中提高1级。
+Score = 3
+Flags =
+#-------------------------------
+[ENTRANCE]
+Name = 迷人
+Description = 因招式而陷入混乱状态的对手同时也会陷入着迷状态。
+Score = 2
+Flags = SufferTargetWithAttrack
+#-------------------------------
+[POISONPOINT]
+Name = 毒刺
+Description = 使用或受到接触类招式攻击时，都有30%的概率使对手中毒。在废土，触发几率翻倍。
+Score = 4
+Flags = SufferTargetWithPoison
+#-------------------------------
+[POISONTOUCH]
+Name = 毒手
+Description = 使用或受到接触类招式攻击时，都有30%的概率使对手中毒。在废土，触发几率翻倍。
+Score = 4
+Flags = SufferTargetWithPoison
+#-------------------------------
+[FLAMEBODY]
+Name = 火焰之躯
+Description = 使用或受到接触类招式攻击时，都有30%的概率使对手烧伤。在燃烧场地，免疫回合结束时的灼烧伤害。在水下，受到水压的伤害翻倍。
+Score = 4
+Flags = SufferTargetWithBurn,FasterEggHatching
+#-------------------------------
+[STATIC]
+Name = 静电
+Description = 使用或受到接触类招式攻击时，都有30%的概率使对手麻痹。在短路场地，触发几率翻倍。
+Score = 4
+Flags = SufferTargetWithParalyze
+#-------------------------------
+[FREEZINGPOINT]
+Name = 冰点
+Description = 使用或受到接触类招式攻击时，都有30%的概率使对手冻伤。
+Score = 3
+Flags = SufferTargetWithFrostbite
+#-------------------------------
+[DAMP]
+Name = 湿气
+Description = 使用或受到接触类招式攻击时，都会使对手变成水属性。无效化自爆等爆炸类的招式。
+Score = 5
+Flags = ChangeTargetType
+#-------------------------------
+[LOUDBANG]
+Name = 大吵大闹
+Description = 声音类攻击招式造成伤害时，有50%概率使对手混乱。
+Score = 3
+Flags = SufferTargetWithConfuse
+#-------------------------------
+[SOLENOGLYPHS]
+Name = 剧毒之牙
+Description = 啃咬类招式造成伤害时，有50%概率使对手中剧毒。
+Score = 3
+Flags = SufferTargetWithPoison
+#-------------------------------
+[POISONOUSGIANTJAW]
+Name = 猛毒巨颚
+Description = 啃咬类招式的威力增加30%。啃咬类招式造成伤害时，有50%概率使对手中毒。
+Score = 6
+Flags = SufferTargetWithPoison
+#-------------------------------
+[FLAMINGJAWS]
+Name = 灼热之牙
+Description = 啃咬类招式造成伤害时，有50%概率使对手烧伤。
+Score = 3
+Flags = SufferTargetWithBurn
+#-------------------------------
+[FLAMINGMAW]
+Name = 灼烧巨颚
+Description = 啃咬类招式的威力增加30%。啃咬类招式造成伤害时，有50%概率使对手烧伤。
+Score = 6
+Flags = DamageUp,SufferTargetWithBurn
+#-------------------------------
+[SHOCKINGJAWS]
+Name = 麻痹之牙
+Description = 啃咬类招式造成伤害时，有50%概率使对手麻痹。
+Score = 3
+Flags = SufferTargetWithParalyze
+#-------------------------------
+[SHOCKINGMAW]
+Name = 麻痹巨颚
+Description = 啃咬类招式的威力增加30%。啃咬类招式造成伤害时，有50%概率使对手麻痹。
+Score = 6
+Flags = DamageUp,SufferTargetWithParalyze
+#-------------------------------
+[STUNSHOCK]
+Name = 眩晕冲击
+Description = 攻击招式造成伤害时，有60%概率使对手麻痹或者中毒。
+Score = 6
+Flags = SufferTargetWithParalyze,SufferTargetWithPoison
+#-------------------------------
+[ARCFLASH]
+Name = 电弧闪光
+Description = 受到招式攻击时，50%概率使对手烧伤。使用招式造成伤害时，50%概率使对手麻痹。
+Score = 6
+Flags = SufferTargetWithBurn,SufferTargetWithParalyze
+#-------------------------------
+
+
+
+#-------------------------------
+# 攻击附加能力降低
+#-------------------------------
+[WHIPLASH]
+Name = 鞭打
+Description = 物理攻击招式造成伤害时，会降低对手防御。
+Score = 4
+Flags =
+#-------------------------------
+
+
+
+#-------------------------------
+# 异常状态下能力变化
+#-------------------------------
+[TANGLEDFEET]
+Name = 蹒跚
+Description = 变为异常状态或混乱时，对手的招式的命中率减少25%。在马戏篷，出场时闪避提高，异常状态下会心+1。在镜技场，出场时闪避提高。
+Score = 5
+Flags =
+#-------------------------------
+[STEADFAST]
+Name = 不屈之心
+Description = 每次畏缩时，不屈之心就会燃起，速度也会提高。在白沙海滩，攻击时忽略目标的闪避能力提高和自身的命中能力降低，除非目标拥有特性纯朴。
+Score = 2
+Flags =
+#-------------------------------
+
+
+
+#-------------------------------
+# 免疫异常状态
+#-------------------------------
+[LIMBER]
+Name = 柔软
+Description = 因为身体柔软，不会变为麻痹状态。反伤减少50%。
+Score = 2
+Flags = ImmunityParalyze
+#-------------------------------
+[OBLIVIOUS]
+Name = 迟钝
+Description = 因为感觉迟钝，不会变为着迷和被挑衅状态。免疫威吓和恐吓。
+Score = 5
+Flags = ImmunityIntimidate,ImmunityDishearten
+#-------------------------------
+[INSOMNIA]
+Name = 不眠
+Description = 因为是不会睡觉的体质，所以不会变为睡眠、瞌睡状态。
+Score = 2
+Flags = ImmunitySleep
+#-------------------------------
+[OWNTEMPO]
+Name = 我行我素
+Description = 因为我行我素，不会变为混乱状态。免疫威吓和恐吓。在白沙海滩，攻击时忽略目标的闪避能力提高和自身的命中能力降低，除非目标拥有特性纯朴。
+Score = 5
+Flags = ImmunityConfuse,ImmunityIntimidate,ImmunityDishearten
+#-------------------------------
+[INNERFOCUS]
+Name = 精神力
+Description = 免疫畏缩、威吓和恐吓。招式真气弹必定能命中（除非目标不在场地上）。在白沙海滩，免疫混乱。
+Score = 5
+Flags = ImmunityFlinch,ImmunityIntimidate,ImmunityDishearten
+#-------------------------------
+[SWEETVEIL]
+Name = 甜幕
+Description = 我方的宝可梦不会变为睡眠、瞌睡状态。
+Score = 2
+Flags = ImmunitySleep
+#-------------------------------
+[SHIELDSDOWN]
+Name = 界限盾壳
+Description = HP变为一半时，壳会坏掉，变得有攻击性。形态变化前，免疫异常状态。
+Score = 3
+Flags = Banned,ImmunityStatus
+#-------------------------------
+[COMATOSE]
+Name = 绝对睡眠
+Description = 总是半梦半醒的状态，绝对不会醒来。可以就这么睡着进行攻击。
+Score = 5
+Flags = ImmunityStatus
+#-------------------------------
+[PURIFYINGSALT]
+Name = 洁净之盐
+Description = 因洁净的盐而不会陷入异常状态。受到的幽灵属性招式的攻击力减少50%。
+Score = 5
+Flags = ImmunityStatus,ReduceTakenDamage
+#-------------------------------
+[DISCIPLINE]
+Name = 节制
+Description = 自身的招式不会因道具讲究围巾、讲究眼镜和讲究头带或者特性一猩一意和贤者之力而锁定。免疫混乱和威吓。在白沙海滩，攻击时忽略目标的闪避能力提高和自身的命中能力降低，除非目标拥有特性纯朴。
+Score = 8
+Flags = ImmunityConfuse,ImmunityIntimidate
+#-------------------------------
+
+
+#-------------------------------
+# 治愈异常状态
+#-------------------------------
+[NATURALCURE]
+Name = 自然回复
+Description = 回到同行队伍后，异常状态就会被治愈。
+Score = 2
+Flags = CureStatus
+#-------------------------------
+[SHEDSKIN]
+Name = 蜕皮
+Description = 通过蜕去身上的皮，有时会治愈异常状态。在龙穴，回合结束时生效，且恢复自身1/4最大HP，提高双攻、速度，降低双防。
+Score = 2
+Flags = CureStatus
+#-------------------------------
+[HEALER]
+Name = 治愈之心
+Description = 有时会治愈自身或同伴的异常状态。
+Score = 3
+Flags = CureStatus
+#-------------------------------
+[CARETAKER]
+Name = 护士
+Description = 有时会治愈自身或同伴的异常状态。我方队友（不包括自己）受到的伤害减少50%。
+Score = 6
+Flags = CureStatus,Friendguard
+#-------------------------------
+[VITALSPIRIT]
+Name = 干劲
+Description = 通过激发出干劲，不会变为睡眠、瞌睡状态。使用格斗属性的招式后，可以治愈自己的异常状态。
+Score = 3
+Flags = CureStatus,ImmunitySleep
+#-------------------------------
+
+
+
+
+#-------------------------------
+# 免疫能力降低
+#-------------------------------
+[CLEARBODY]
+Name = 恒净之躯
+Description = 不会因为对手的招式或特性而被降低能力。
+Score = 4
+Flags = ImmunityStateDown
+#-------------------------------
+[WHITESMOKE]
+Name = 白色烟雾
+Description = 被白色烟雾保护着，不会被对手降低能力。
+Score = 4
+Flags = ImmunityStateDown
+#-------------------------------
+[FULLMETALBODY]
+Name = 金属防护
+Description = 不会因为对手的招式或特性而被降低能力。
+Score = 4
+Flags = ImmunityStateDown
+#-------------------------------
+[MIRRORARMOR]
+Name = 镜甲
+Description = 只反弹自己受到的能力降低效果。在镜技场，出场时闪避会提高。在童话场地，出场时双防会提高。
+Score = 3
+Flags = ImmunityStateDown
+#-------------------------------
+[FLOWERVEIL]
+Name = 花幕
+Description = 我方的宝可梦能力不会降低，也不会变为异常状态。在花园，自己和同伴受到的招式伤害减少25%。
+Score = 6
+Flags = ImmunityStateDown,ImmunityStatus
+#-------------------------------
+[JUNGLESGUARD]
+Name = 丛林守护
+Description = 我方的宝可梦能力不会降低，也不会变为异常状态。在花园，自己和同伴受到的招式伤害减少25%。
+Score = 6
+Flags = ImmunityStateDown,ImmunityStatus
+#-------------------------------
+
+
+
+
+#-------------------------------
+# 命中率相关
+#-------------------------------
+[NOGUARD]
+Name = 无防守
+Description = 由于无防守战术，双方使出的招式都必定会击中（即使目标不在场地上）。
+Score = 3
+Flags = AlwaysHit
+#-------------------------------
+[SIGHTINGSYSTEM]
+Name = 瞄准系统
+Description = 招式必定会命中目标（即使目标不在场地上）。如果招式的命中少于80，那么行动顺序会变为最后。
+Score = 8
+Flags = AlwaysHit,PriorityDown
+#-------------------------------
+[DEADEYE]
+Name = 死眼
+Description = 招式必定能命中（即使目标不在场地上）。弓箭类和波动类招式攻击对手防御和特防中较低的那项。
+Score = 8
+Flags = AlwaysHit,DamageUp
+#-------------------------------
+[ARTILLERY]
+Name = 炮手
+Description = 波动类招式必定能命中（除非目标不在场地上），并且可以攻击所有对手。
+Score = 6
+Flags = AlwaysHit,HitAllTargets
+#-------------------------------
+[SUPERSCOPE]
+Name = 超能瞄准器
+Description = 波动类招式必定能命中（除非目标不在场地上），并且可以攻击所有对手。波动和波导类招式的威力增加30%。
+Score = 8
+Flags = AlwaysHit,HitAllTargets,DamageUp
+#-------------------------------
+[FATALPRECISION]
+Name = 绝佳精度
+Description = 效果绝佳的招式必定命中（除非目标不在场地上），且威力增加20%。
+Score = 7
+Flags = AlwaysHit,DamageUp
+#-------------------------------
+[SWEEPINGEDGE]
+Name = 横扫
+Description = 切割类招式必定能命中（除非目标不在场地上），并且可以攻击所有对手。
+Score = 6
+Flags = AlwaysHit,HitAllTargets
+#-------------------------------
+[QIGONG]
+Name = 气功
+Description = 招式必定能命中（除非目标不在场地上）。不会变为睡眠、瞌睡状态。使用格斗属性的招式后，可以治愈自己的异常状态。如果打倒对手，本来使用招式后下一回合自己无法动弹的状态将解除。
+Score = 8
+Flags = AlwaysHit,DamageUp,CureStatus,ImmunitySleep,Rampage
+#-------------------------------
+[ROUNDHOUSE]
+Name = 回旋踢
+Description = 踢击类招式必定会命中目标（除非目标不在场地上），且攻击对手防御和特防中较低的那项。
+Score = 6
+Flags = AlwaysHit,DamageUp
+#-------------------------------
+
+
+#-------------------------------
+[VICTORYSTAR]
+Name = 胜利之星
+Description = 自己和同伴的命中率增加20%。在星光战场、新世界，自身和同伴的招式的伤害增加50%。
+Score = 3
+Flags = AccuracyUp
+#-------------------------------
+[KEENEYE]
+Name = 锐利目光
+Description = 自身的命中能力等级不能被降低，招式命中率增加20%。使用招式时，无视对手的闪避能力等级的提高。在镜技场，出场时命中提高并获得磨砺状态。
+Score = 3
+Flags = ImmunityAccuracyDown,AccuracyUp,IgnoreTargetAccUp
+#-------------------------------
+[COMPOUNDEYES]
+Name = 复眼
+Description = 因为拥有复眼，招式的命中率增加30%。在镜技场，出场时命中提高并获得磨砺状态。
+Score = 3
+Flags = AccuracyUp
+#-------------------------------
+[ILLUMINATE]
+Name = 发光
+Description = 通过让周围变亮来保持命中率不会被降低。命中率增加20%。变得容易遇到野生的宝可梦。在镜技场，出场时降低对手命中。在星光战场，出场时特攻大幅提高。
+Score = 3
+Flags = ImmunityAccuracyDown,AccuracyUp
+#-------------------------------
+
+#-------------------------------
+[ALTALCURNIA]
+Name = 甲贺忍流
+Description = 自身HP高于75%时，对手招式的命中率下降30%。
+Score = 4
+Flags =
+#-------------------------------
+
+
+#-------------------------------
+[HYPNOTIST]
+Name = 催眠大师
+Description = 招式催眠术的命中率提高为90%。
+Score = 2
+Flags = Hypnotist
+#-------------------------------
+[LULLABY]
+Name = 摇篮曲
+Description = 招式唱歌的命中率提高为90%。
+Score = 2
+Flags =
+#-------------------------------
+
+
+
+#-------------------------------
+# 束缚相关
+#-------------------------------
+[SHADOWTAG]
+Name = 踩影
+Description = 踩住对手的影子使其无法逃走或替换。无法影响拥有幽灵属性或者特性踩影、狂乱幻影的宝可梦。
+Score = 7
+Flags = AddTrap
+#-------------------------------
+[SALTCIRCLE]
+Name = 盐环
+Description = 使对手无法逃走或替换。无法影响拥有幽灵属性或者相同特性的宝可梦。
+Score = 7
+Flags = AddTrap
+#-------------------------------
+[ARENATRAP]
+Name = 沙穴
+Description = 使不处于飞空状态的对手无法逃走或替换。无法影响拥有幽灵属性的宝可梦。
+Score = 6
+Flags = AddTrap
+#-------------------------------
+[MAGNETPULL]
+Name = 磁力
+Description = 用磁力吸住钢属性的宝可梦，使其无法逃走或替换。无法影响拥有幽灵属性的宝可梦。
+Score = 1
+Flags = AddTrap
+#-------------------------------
+[GRIPPINCER]
+Name = 钳制
+Description = 使用接触类招式造成伤害时，50%使对手陷入3回合的束缚状态，无法逃跑且每回合扣除最大HP的1/8。对因该宝可梦而陷入束缚状态的对手施放的招式必定命中（除非目标不在场地上）且忽略防御等级的提高。
+Score = 5
+Flags = AddTrap,AlwaysHit,IgnoreTargetDefUp
+#-------------------------------
+[GRAPPLER]
+Name = 摔跤手
+Description = 束缚状态的持续时间增加1个回合，且每回合额外扣除最大HP的6%。
+Score = 1
+Flags = TrapUp
+#-------------------------------
+
+
+
+
+
+#-------------------------------
+# 被攻击效果
+#-------------------------------
+[IRONBARBS]
+Name = 铁刺
+Description = 受到攻击时，接触到自己的对手扣除HP最大值的1/8。
+Score = 2
+Flags =
+#-------------------------------
+[ROUGHSKIN]
+Name = 粗糙皮肤
+Description = 受到攻击时，接触到自己的对手扣除HP最大值的1/8。
+Score = 2
+Flags =
+#-------------------------------
+[SHARPEDGES]
+Name = 尖刺
+Description = 受到攻击时，接触到自己的对手扣除HP最大值的1/6。
+Score = 2
+Flags =
+#-------------------------------
+[PARASITICSPORES]
+Name = 寄生孢子
+Description = 受到攻击时，接触到自己的非幽灵属性的对手扣除HP最大值的1/8。
+Score = 2
+Flags =
+#-------------------------------
+
+#-------------------------------
+[EFFECTSPORE]
+Name = 孢子
+Description = 受到接触类招式攻击时，30%的概率让对手变为中毒、麻痹或睡眠状态。在森林场地、废土，触发几率翻倍。
+Score = 3
+Flags = SufferTargetWithPoison,SufferTargetWithParalyze,SufferTargetWithSleep
+#-------------------------------
+[CUTECHARM]
+Name = 迷人之躯
+Description = 使用或受到接触类招式攻击时，都有50%的概率使对手陷入着迷。着迷的对手对该宝可梦进行攻击时，攻击力减少50%。
+Score = 4
+Flags = SufferTargetWithAttrack,ReduceTakenDamage
+#-------------------------------
+[PURELOVE]
+Name = 纯真的爱
+Description = 使用或受到接触类招式攻击时，100%的概率让对手着迷。对着迷的对手使用攻击招式造成伤害时，自身回复造成伤害的25%。
+Score = 6
+Flags = SufferTargetWithAttrack,HealAfterMove
+#-------------------------------
+[CURSEDBODY]
+Name = 诅咒之躯
+Description = 受到攻击时，30%的概率把对手的招式变为定身法状态。在神圣场地，无效。
+Score = 2
+Flags = SufferTargetWithDisable
+#-------------------------------
+[PERISHBODY]
+Name = 灭亡之躯
+Description = 受到接触类招式攻击时，施放一次灭亡之歌。在神圣场地，无效。
+Score = 2
+Flags = CallMoveAfterBeHit
+#-------------------------------
+[SPITEFUL]
+Name = 恶意
+Description = 受到接触类招式攻击时，减少对手招式的1点PP。在神圣场地，无效。
+Score = 2
+Flags = ReduceTargetPP
+#-------------------------------
+[MAGICALDUST]
+Name = 魔法粉尘
+Description = 受到接触类招式攻击时，给对手添加超能力属性。在童话场地，出场时特防会提高。
+Score = 2
+Flags = CallMoveAfterBeHit,ChangeTargetType
+#-------------------------------
+[CLAPTRAP]
+Name = 夹子陷阱
+Description = 受到接触类招式攻击时，向对手施放一次50威力的捕兽夹。
+Score = 3
+Flags = CallMoveAfterBeHit
+#-------------------------------
+[COLDREBOUND]
+Name = 冰风反制
+Description = 受到接触类招式攻击时，向对手施放一次冰冻之风。
+Score = 4
+Flags = CallMoveAfterBeHit
+#-------------------------------
+[WANDERINGSPIRIT]
+Name = 游魂
+Description = 与使用接触类招式攻击自己的宝可梦互换特性。
+Score = 2
+Flags = Banned
+#-------------------------------
+[MUMMY]
+Name = 木乃伊
+Description = 被对手接触到后，会将对手变为木乃伊。
+Score = 1
+Flags = Banned
+#-------------------------------
+[LINGERINGAROMA]
+Name = 甩不掉的气味
+Description = 被对手接触到后，甩不掉的气味会沾上对手。
+Score = 1
+Flags = Banned
+#-------------------------------
+
+
+#-------------------------------
+[WEAKARMOR]
+Name = 碎裂铠甲
+Description = 如果因物理招式受到伤害，防御会降低，速度会大幅提高。
+Score = 2
+Flags = StateUpAfterBeHit
+#-------------------------------
+[RATTLED]
+Name = 胆怯
+Description = 受到恶属性、幽灵属性、虫属性的招式攻击，被威吓或者自身畏缩时，速度会提高。
+Score = 2
+Flags = StateUpAfterBeHit
+#-------------------------------
+[STEAMENGINE]
+Name = 蒸汽机
+Description = 受到水属性或火属性招式攻击时，速度会巨幅提高。在燃烧场地、过热场地，出场时，速度巨幅提高。
+Score = 6
+Flags = StateUpAfterBeHit,FasterEggHatching
+#-------------------------------
+[THERMALEXCHANGE]
+Name = 热交换
+Description = 受到火属性招式攻击时，攻击会提高，且免疫烧伤。在燃烧场地、过热场地、龙穴，若在地面上，回合结束时攻击提高。
+Score = 3
+Flags = ImmunityBurn,StateUpAfterBeHit
+#-------------------------------
+[INFLATABLE]
+Name = 充气
+Description = 受到火属性或飞行属性的招式攻击时，防御和特防会提高。
+Score = 2
+Flags = StateUpAfterBeHit
+#-------------------------------
+[AEROELASTIC]
+Name = 充气气球
+Description = 从地面浮起，从而不会受到地面属性招式的攻击。受到火属性或飞行属性的招式攻击时，防御和特防会提高。
+Score = 6
+Flags = StateUpAfterBeHit,DamageUp,AddTypeImmunity
+#-------------------------------
+[FURNACE]
+Name = 熔炉
+Description = 受到岩石属性的招式攻击时，速度就会大幅提高。
+Score = 2
+Flags = StateUpAfterBeHit
+#-------------------------------
+[VITALITY]
+Name = 生命力
+Description = 受到攻击时，特防会提高。要害被击中时，特防会变为最大。
+Score = 5
+Flags = StateUpAfterBeHit
+#-------------------------------
+[STAMINA]
+Name = 持久力
+Description = 受到攻击时，防御会提高。要害被击中时，防御会变为最大。
+Score = 5
+Flags = StateUpAfterBeHit
+#-------------------------------
+[ANGERPOINT]
+Name = 愤怒穴位
+Description = 受到攻击时，攻击会提高。要害被击中时，攻击会变为最大。
+Score = 6
+Flags = StateUpAfterBeHit
+#-------------------------------
+[TIPPINGPOINT]
+Name = 临界点
+Description = 受到攻击时，特攻会提高。要害被击中时，特攻会变为最大。
+Score = 6
+Flags = StateUpAfterBeHit
+#-------------------------------
+
+#-------------------------------
+[GOOEY]
+Name = 黏滑
+Description = 对于用攻击接触到自己的对手，会降低其速度。在沼泽场地、污水面，效果翻倍。在废土，同时使目标中毒。
+Score = 2
+Flags = TargetStateDownAfterBeHit
+#-------------------------------
+[SUPERHOTGOO]
+Name = 超烫粘液
+Description = 对于用攻击接触到自己的对手，会降低其速度并使其烧伤。在沼泽场地、污水面，效果翻倍。在废土，同时使目标中毒。
+Score = 4
+Flags = TargetStateDownAfterBeHit,SufferTargetWithBurn
+#-------------------------------
+[TANGLINGHAIR]
+Name = 卷发
+Description = 对于用攻击接触到自己的对手，会降低其速度。
+Score = 2
+Flags = TargetStateDownAfterBeHit
+#-------------------------------
+[COTTONDOWN]
+Name = 棉絮
+Description = 受到攻击后撒下棉絮，降低除自己和拥有特性棉絮的宝可梦以外的所有宝可梦的速度。在青草场地，效果翻倍。
+Score = 2
+Flags = TargetStateDownAfterBeHit
+#-------------------------------
+
+#-------------------------------
+[ELECTROMORPHOSIS]
+Name = 电力转换
+Description = 受到伤害时，会变为充电状态。
+Score = 1
+Flags = GetCharge
+#-------------------------------
+
+
+#-------------------------------
+[INNARDSOUT]
+Name = 飞出的内在物
+Description = 被对手打倒的时候，会给予对手相当于HP剩余量的伤害。
+Score = 3
+Flags =
+#-------------------------------
+[AFTERMATH]
+Name = 引爆
+Description = 变为濒死时，会对接触到自己的对手造成伤害。在蚀雾场地，伤害翻倍。
+Score = 2
+Flags =
+#-------------------------------
+[HAUNTEDSPIRIT]
+Name = 冤魂缠身
+Description = 被对手打倒的时候，对手将陷入诅咒状态，每回合扣除最大HP的1/4。在神圣场地，无效。
+Score = 2
+Flags = SufferTargetWithCurse
+#-------------------------------
+[GUILTTRIP]
+Name = 内疚感
+Description = 被对手打倒的时候，对手的攻击和特攻将大幅下降。在神圣场地，无效。
+Score = 2
+Flags =
+#-------------------------------
+[ILLWILL]
+Name = 憎恶
+Description = 被对手打倒的时候，对手刚使用的招式的PP变为0。在神圣场地，无效。
+Score = 2
+Flags = ReduceTargetPP
+#-------------------------------
+
+#-------------------------------
+[TOXICDEBRIS]
+Name = 毒满地
+Description = 受到物理招式的伤害时，会在对手场地散布毒菱。
+Score = 3
+Flags = AddHazards
+#-------------------------------
+[LOOSEROCKS]
+Name = 岩石脱落
+Description = 受到接触类招式攻击时，会在对手场地散布隐形岩。
+Score = 4
+Flags = AddHazards
+#-------------------------------
+[SCRAPYARD]
+Name = 撒菱
+Description = 受到接触类招式攻击时，会在对手场地散布撒菱。
+Score = 3
+Flags = AddHazards
+#-------------------------------
+[LOOSEQUILLS]
+Name = 钉刺脱落
+Description = 受到接触类招式攻击时，会在对手场地散布撒菱。
+Score = 3
+Flags = AddHazards
+#-------------------------------
+
+#-------------------------------
+[COLORCHANGE]
+Name = 变色
+Description = 改变自己的属性，用以免疫或抵抗即将从对手处受到的攻击招式。在镜技场，出场时闪避提高。
+Score = 8
+Flags =
+#-------------------------------
+
+#-------------------------------
+[SHALLOWGRAVE]
+Name = 薄葬
+Description = 每场战斗1次，即将因对手的攻击招式而陷入濒死时，免疫这次濒死并且回复25%HP。
+Score = 6
+Flags =
+#-------------------------------
+
+#-------------------------------
+[SOULLINKER]
+Name = 灵魂链接
+Description = 自己受到招式伤害时，对手也会受到等额的伤害。
+Score = 8
+Flags =
+#-------------------------------
+[SOULLINKER2]
+Name = 灵魂链接2
+Description = 自己受到的攻击伤害将平分给场上的所有宝可梦，此伤害不会致死。（未使用）
+Score = 8
+Flags = Banned
+#-------------------------------
+
+
+#-------------------------------
+# 被攻击减伤
+#-------------------------------
+[STURDY]
+Name = 结实
+Description = 即使受到对手的招式攻击，也不会被一击打倒。一击必杀的招式也没有效果。
+Score = 6
+Flags = ReduceDamageInFull
+#-------------------------------
+
+#-------------------------------
+[PRIMALARMOR]
+Name = 原始装甲
+Description = 受到效果绝佳的攻击时，受到的伤害减少50%（无法被破格）。在洞窟，减少坍塌伤害。在童话场地，出场时防御会提高。
+Score = 7
+Flags = ReduceTakenDamage
+#-------------------------------
+[PRISMARMOR]
+Name = 棱镜装甲
+Description = 受到效果绝佳的攻击时，受到的伤害减少35%（无法被破格）。在暗晶洞窟、彩虹场地、水晶洞窟，受到的伤害减少25%。在洞窟，减少坍塌伤害。在镜技场，出场时闪避提高。在童话场地，出场时防御会提高。
+Score = 5
+Flags = ReduceTakenDamage
+#-------------------------------
+[FILTER]
+Name = 过滤
+Description = 受到效果绝佳的攻击时，受到的伤害减少35%。在洞窟，减少坍塌伤害。
+Score = 4
+Flags = ReduceTakenDamage
+#-------------------------------
+[SOLIDROCK]
+Name = 坚硬岩石
+Description = 受到效果绝佳的攻击时，受到的伤害减少35%。在洞窟，减少坍塌伤害。
+Score = 4
+Flags = ReduceTakenDamage
+#-------------------------------
+[FLAMESHIELD]
+Name = 火焰护盾
+Description = 受到效果绝佳的攻击时，受到的伤害减少35%。在洞窟，减少坍塌伤害。
+Score = 4
+Flags = ReduceTakenDamage
+#-------------------------------
+[PERMAFROST]
+Name = 永冻装甲
+Description = 受到效果绝佳的攻击时，受到的伤害减少25%。在洞窟，减少坍塌伤害。在童话场地，出场时防御会提高。
+Score = 3
+Flags = ReduceTakenDamage
+#-------------------------------
+[THICKSKIN]
+Name = 厚实的毛皮
+Description = 受到效果绝佳的攻击时，受到的伤害减少25%。在洞窟，减少坍塌伤害。
+Score = 3
+Flags = ReduceTakenDamage
+#-------------------------------
+
+#-------------------------------
+[ICESCALES]
+Name = 冰鳞
+Description = 由于有冰鳞的守护，受到的特殊攻击伤害会减少50%。在镜技场，出场时闪避大幅提高。
+Score = 6
+Flags = ReduceTakenDamage
+#-------------------------------
+[FIRESCALES]
+Name = 火鳞
+Description = 由于有火鳞的守护，受到的特殊攻击伤害会减少50%。
+Score = 6
+Flags = ReduceTakenDamage
+#-------------------------------
+[PRISMSCALES]
+Name = 棱镜鳞片
+Description = 受到的特殊攻击伤害减少30%。在镜技场，出场时闪避大幅提高。
+Score = 3
+Flags = ReduceTakenDamage
+#-------------------------------
+[OVERCOAT]
+Name = 防尘
+Description = 不会受到沙暴的伤害。不会受到粉末类招式的攻击。受到的特殊攻击伤害减少20%。
+Score = 6
+Flags = ReduceTakenDamage
+#-------------------------------
+[LEADCOAT]
+Name = 铅衣
+Description = 受到的物理攻击伤害减少40%，但是速度降低10%。
+Score = 4
+Flags = ReduceTakenDamage
+#-------------------------------
+[CHROMECOAT]
+Name = 铬衣
+Description = 受到的特殊攻击伤害减少40%，但是速度降低10%。
+Score = 4
+Flags = ReduceTakenDamage
+#-------------------------------
+[MAGMAARMOR]
+Name = 熔岩铠甲
+Description = 免疫冰冻或冻伤状态。受到的水、冰属性招式的伤害减少30%。在燃烧场地，免疫回合结束时的灼烧伤害。在龙穴，出场时双防会提高，且免疫火属性招式。在水下，受到水压的伤害翻倍。
+Score = 4
+Flags = ReduceTakenDamage,ImmunityFrozen,FasterEggHatching
+#-------------------------------
+[MAGMADRAKESHELL]
+Name = 龙炎熔甲
+Description = 出场时，若自身没有龙属性，那么获得龙属性。免疫冰冻或冻伤状态。受到的水、冰属性招式的伤害减少30%。在燃烧场地，免疫回合结束时的灼烧伤害。在龙穴，出场时双防会提高，且免疫火属性招式。在水下，受到水压的伤害翻倍。
+Score = 7
+Flags = AddExtraType,ReduceTakenDamage,ImmunityFrozen
+#-------------------------------
+[WATERCOMPACTION]
+Name = 遇水凝固
+Description = 受水属性招式攻击时，防御大幅提高，受到水属性招式的伤害减少50%。出场时，若在薄雾场地、蚀雾场地，防御大幅提高。在沼泽场地、水面、水下、污水面，回合结束时，防御大幅提高。在白沙海滩，特防也大幅提高。
+Score = 4
+Flags = ReduceTakenDamage
+#-------------------------------
+[FOSSILIZED]
+Name = 化石
+Description = 受到的岩石属性的招式的伤害减少50%。岩石属性的招式的威力增加20%。
+Score = 3
+Flags = ReduceTakenDamage,DamageUp
+#-------------------------------
+[NOCTURNAL]
+Name = 夜猫子
+Description = 恶属性招式的威力增加25%。受到的恶属性或妖精属性的招式的伤害减少25%。
+Score = 3
+Flags = ReduceTakenDamage,DamageUp
+#-------------------------------
+[MIDNIGHTVIGIL]
+Name = 夜行主宰
+Description = 恶属性招式的威力增加25%。受到的恶属性或妖精属性的招式的伤害减少25%。因为是不会睡觉的体质，所以不会变为睡眠、瞌睡状态。
+Score = 5
+Flags = ReduceTakenDamage,DamageUp,ImmunitySleep
+#-------------------------------
+[RAWWOOD]
+Name = 原木
+Description = 草属性招式的威力增加20%。受到的草属性的招式的伤害减少50%。
+Score = 3
+Flags = ReduceTakenDamage,DamageUp
+#-------------------------------
+[IMMUNITY]
+Name = 免疫
+Description = 因为体内拥有免疫能力，不会变为中毒状态。受到的毒属性招式的伤害减少50%。
+Score = 3
+Flags = ReduceTakenDamage,ImmunityPoison
+#-------------------------------
+[FLUFFY]
+Name = 毛茸茸
+Description = 会将对手所给予的接触类招式的伤害减半，但受到的火属性招式的伤害会变为2倍。在燃烧场地，回合结束时的灼烧伤害翻倍。
+Score = 5
+Flags = ReduceTakenDamage
+#-------------------------------
+[FLUFFIEST]
+Name = 超级毛茸茸
+Description = 会将对手所给予的接触类招式的伤害减少到1/4，但受到的火属性招式的伤害会变为4倍。在燃烧场地，回合结束时的灼烧伤害翻倍。
+Score = 7
+Flags = ReduceTakenDamage
+#-------------------------------
+[LIQUIFIED]
+Name = 液化
+Description = 会将对手所给予的接触类招式的伤害减半，但受到的水属性招式的伤害会变为2倍。
+Score = 5
+Flags = ReduceTakenDamage
+#-------------------------------
+[PUNKROCK]
+Name = 庞克摇滚
+Description = 声音类招式的攻击力增加30%。受到的声音类招式伤害会减半。
+Score = 5
+Flags = ReduceTakenDamage,DamageUp
+#-------------------------------
+
+#-------------------------------
+[ARCTICFUR]
+Name = 极地毛皮
+Description = 使受到的招式的威力减少35%。
+Score = 6
+Flags = ReduceTakenDamage
+#-------------------------------
+[NEONWALL]
+Name = 彩虹壁障
+Description = 使受到的招式的威力减少35%。
+Score = 6
+Flags = ReduceTakenDamage
+#-------------------------------
+[TERASTALTREASURE]
+Name = 太晶权能
+Description = 使受到的招式的伤害减少40%，但是速度降低20%。
+Score = 6
+Flags = ReduceTakenDamage
+#-------------------------------
+[EXPLOPROOFARMOR]
+Name = 防爆装甲
+Description = 使受到的招式的伤害减少40%，但是速度降低20%。
+Score = 6
+Flags = ReduceTakenDamage
+#-------------------------------
+[THICKFAT]
+Name = 厚脂肪
+Description = 被厚厚的脂肪保护着，使受到的火属性和冰属性的招式的威力减少50%。
+Score = 4
+Flags = ReduceTakenDamage
+#-------------------------------
+[REALISM]
+Name = 现实主义
+Description = 使受到的幽灵属性和妖精属性的招式的威力减少50%。
+Score = 2
+Flags = ReduceTakenDamage
+#-------------------------------
+[TROPICALHIDE]
+Name = 热带风情
+Description = 使受到的草属性和水属性的招式的威力减少50%。
+Score = 2
+Flags = ReduceTakenDamage
+#-------------------------------
+[HEATPROOF]
+Name = 耐热
+Description = 使受到的火属性的招式的威力减少50%。回合结束时的烧伤伤害减半。在燃烧场地，免疫回合结束时的灼烧伤害。
+Score = 3
+Flags = ReduceTakenDamage
+#-------------------------------
+
+#-------------------------------
+[TERASHELL]
+Name = 太晶甲壳
+Description = 甲壳蕴藏着全部属性的力量，会将自己HP全满时受到的伤害全都变为效果不好（无法被破格）。在镜技场，出场时闪避提高。在童话场地，出场时双防会提高。
+Score = 6
+Flags = ReduceDamageInFull
+#-------------------------------
+[TERAFORMZERO]
+Name = 归零化境
+Description = 出场时，会将天气和场地还原成默认情况。甲壳蕴藏着全部属性的力量，会将自己HP全满时受到的伤害全都变为效果不好（无法被破格）。
+Score = 8
+Flags = AddOrBlockWeather,AddOrBlockTerrain,ReduceDamageInFull
+#-------------------------------
+
+#-------------------------------
+[FRIENDGUARD]
+Name = 友情防守
+Description = 我方队友（不包括自己）受到的伤害减少50%。
+Score = 4
+Flags = Friendguard
+#-------------------------------
+
+#-------------------------------
+[STALL]
+Name = 慢出
+Description = 受到招式攻击时，若自身还未行动，则受到的招式伤害减少30%。
+Score = 3
+Flags = ReduceTakenDamage
+#-------------------------------
+
+
+#-------------------------------
+# 被攻击满血减伤
+#-------------------------------
+[MULTISCALE]
+Name = 多重鳞片
+Description = HP全满时，受到的伤害会变少。在龙穴，无效化自身龙属性弱点。
+Score = 5
+Flags = ReduceDamageInFull
+#-------------------------------
+[CREAMSHIELD]
+Name = 奶油护盾
+Description = 奶油像盾牌一样包裹着自己，HP全满时，受到的伤害会变少。
+Score = 5
+Flags = ReduceDamageInFull
+#-------------------------------
+[SHADOWSHIELD]
+Name = 幻影防守
+Description = HP全满时，受到的伤害会变少（无法被破格）。在暗晶洞窟、星光战场、新世界，受到的伤害减少25%。
+Score = 6
+Flags = ReduceDamageInFull
+#-------------------------------
+
+
+#-------------------------------
+# 会心率增加
+#-------------------------------
+[AMBUSH]
+Name = 伏击
+Description = 出场的第一个回合，使用的招式必定命中要害。
+Score = 3
+Flags =
+#-------------------------------
+[MERCILESS]
+Name = 不仁不义
+Description = 攻击处于中毒、麻痹状态或者速度能力等级小于0的对手时，或在腐蚀场地、蚀雾场地、废土、污水面，必定会击中要害。
+Score = 4
+Flags = Merciless
+#-------------------------------
+[VENOMOUSCRUELTY]
+Name = 剧毒残虐
+Description = 出场时，会在对手场地散布毒菱。攻击处于中毒、麻痹状态或者速度能力等级小于0的对手时，或在腐蚀场地、蚀雾场地、废土、污水面，必定会击中要害。
+Score = 8
+Flags = AddHazards,Merciless
+#-------------------------------
+
+#-------------------------------
+[HYPERCUTTER]
+Name = 怪力钳
+Description = 因为拥有以力量自豪的钳子，不会被对手降低攻击和特攻。会心+1。
+Score = 3
+Flags =
+#-------------------------------
+[SUPERLUCK]
+Name = 超幸运
+Description = 因为拥有超幸运，攻击容易击中对手的要害，会心+1。
+Score = 2
+Flags =
+#-------------------------------
+[HEAVENASUNDER]
+Name = 天国破碎
+Description = 亚空裂斩总是能击中对手的要害。会心+1。
+Score = 3
+Flags =
+#-------------------------------
+[TEMPCRITICAL]
+Name = TEMP会心
+Description = 在故障场地，若招式使用者即时速度大于目标，则会心+1。
+Score = 2
+Flags = Banned
+#-------------------------------
+[TEMPCRITICAL2]
+Name = TEMP会心2
+Description = 在镜技场，会心的能力等级附加以下计算结果：自身的命中能力提高+自身的闪避能力提高+目标的命中能力降低+目标的闪避能力降低。
+Score = 2
+Flags = Banned
+#-------------------------------
+
+
+
+#-------------------------------
+# 免疫会心
+#-------------------------------
+[SHELLARMOR]
+Name = 硬壳盔甲
+Description = 被坚硬的壳保护着，对手的攻击不会击中要害。受到的伤害减少20%。在洞窟，减少坍塌伤害。在童话场地，出场时防御会提高。
+Score = 5
+Flags = DisableCrital,ReduceTakenDamage
+#-------------------------------
+[BATTLEARMOR]
+Name = 战斗盔甲
+Description = 被坚硬的甲壳守护着，不会被对手的攻击击中要害。受到的伤害减少20%。在洞窟，减少坍塌伤害。在童话场地，出场时防御会提高。
+Score = 5
+Flags = DisableCrital,ReduceTakenDamage
+#-------------------------------
+[BADLUCK]
+Name = 厄运
+Description = 对方的所有宝可梦的攻击都不能击中要害，命中率减少5%，造成的伤害减少15%。
+Score = 7
+Flags = DisableCrital,ReduceTakenDamage
+#-------------------------------
+
+
+
+#-------------------------------
+# 添加STAB
+#-------------------------------
+[MYSTICPOWER]
+Name = 神秘之力
+Description = 所有招式获得STAB。
+Score = 7
+Flags = AddSTAB
+#-------------------------------
+[ARCANEFORCE]
+Name = 奥术之力
+Description = 所有招式获得STAB。效果绝佳的攻击，威力增加10%。
+Score = 7
+Flags = AddSTAB,DamageUp
+#-------------------------------
+[LUNARECLIPSE]
+Name = 月食
+Description = 妖精和恶属性招式获得STAB。催眠术命中率提高为90%。
+Score = 5
+Flags = AddSTAB,Hypnotist
+#-------------------------------
+[SOLARFLARE]
+Name = 耀斑
+Description = 火属性招式获得STAB。一般属性招式变为火属性，威力增加10%，在燃烧场地，招式威力额外增加30%。招式气象球、日光束、日光刃和生长获得与晴朗天气下一样的效果。在燃烧场地，免疫回合结束时的灼烧伤害。
+Score = 6
+Flags = AddSTAB,ChangeMoveType,DamageUp,Chloroplast
+#-------------------------------
+[AMPHIBIOUS]
+Name = 两栖
+Description = 水属性招式获得STAB。
+Score = 3
+Flags = AddSTAB
+#-------------------------------
+[AURORABOREALIS]
+Name = 北极光
+Description = 冰属性招式获得STAB。
+Score = 3
+Flags = AddSTAB
+#-------------------------------
+[MOONSPIRIT]
+Name = 月之灵
+Description = 妖精和恶属性招式获得STAB。月光回复量固定为最大HP的75%。
+Score = 5
+Flags = AddSTAB
+#-------------------------------
+
+
+
+
+#-------------------------------
+# 添加额外属性
+#-------------------------------
+[PHANTOM]
+Name = 幽灵
+Description = 出场时，若自身没有幽灵属性，那么获得幽灵属性。
+Score = 4
+Flags = AddExtraType
+#-------------------------------
+[GROUNDED]
+Name = 接地
+Description = 出场时，若自身没有地面属性，那么获得地面属性。
+Score = 4
+Flags = AddExtraType
+#-------------------------------
+[HALFDRAKE]
+Name = 半龙
+Description = 出场时，若自身没有龙属性，那么获得龙属性。
+Score = 4
+Flags = AddExtraType
+#-------------------------------
+[DRACOFORTIS]
+Name = 龙魄钢躯
+Description = 出场时，若自身没有龙属性，那么获得龙属性。即使受到对手的招式攻击，也不会被一击打倒。一击必杀的招式也没有效果。
+Score = 8
+Flags = AddExtraType,ReduceDamageInFull
+#-------------------------------
+[DRAGONFLY]
+Name = 蜻蜓
+Description = 出场时，若自身没有龙属性，那么获得龙属性。从地面浮起，从而不会受到地面属性招式的攻击。
+Score = 6
+Flags = AddExtraType,AddTypeImmunity
+#-------------------------------
+[METALLIC]
+Name = 金属化
+Description = 出场时，若自身没有钢属性，那么获得钢属性。
+Score = 4
+Flags = AddExtraType
+#-------------------------------
+[AQUATIC]
+Name = 水生
+Description = 出场时，若自身没有水属性，那么获得水属性。
+Score = 4
+Flags = AddExtraType
+#-------------------------------
+
+
+#-------------------------------
+# 满血时优先度+1
+#-------------------------------
+[GALEWINGS]
+Name = 疾风之翼
+Description = HP全满或在高山、雪山且天气为乱流时，飞行属性的招式可以率先使出。
+Score = 6
+Flags = PriorityUpInFull
+#-------------------------------
+[FLAMINGSOUL]
+Name = 燃烧之魂
+Description = HP全满时，火属性的招式可以率先使出。
+Score = 6
+Flags = PriorityUpInFull
+#-------------------------------
+[FROZENSOUL]
+Name = 冻结之魂
+Description = HP全满时，冰属性的招式可以率先使出。
+Score = 6
+Flags = PriorityUpInFull
+#-------------------------------
+[VOLTRUSH]
+Name = 伏特冲刺
+Description = HP全满时，电属性的招式可以率先使出。
+Score = 6
+Flags = PriorityUpInFull
+#-------------------------------
+[EARLYGRAVE]
+Name = 早逝
+Description = HP全满时，幽灵属性的招式可以率先使出。
+Score = 6
+Flags = PriorityUpInFull
+#-------------------------------
+[BLITZBOXER]
+Name = 闪击拳手
+Description = HP全满时，格斗属性的招式可以率先使出。
+Score = 6
+Flags = PriorityUpInFull
+#-------------------------------
+[STYGIANRUSH]
+Name = 阴暗狂潮
+Description = HP全满时，恶属性的招式可以率先使出。
+Score = 6
+Flags = PriorityUpInFull
+#-------------------------------
+[TIDALRUSH]
+Name = 潮汐涌动
+Description = HP全满时，水属性的招式可以率先使出。
+Score = 6
+Flags = PriorityUpInFull
+#-------------------------------
+[CUTEANTECEDENCE]
+Name = 可爱先行
+Description = HP全满时，妖精属性的招式可以率先使出。
+Score = 6
+Flags = PriorityUpInFull
+#-------------------------------
+
+
+#-------------------------------
+# 优先度变化
+#-------------------------------
+[QUICKDRAW]
+Name = 速击
+Description = 30%的概率能比对手先一步行动。
+Score = 5
+Flags = PriorityUp1
+#-------------------------------
+
+#-------------------------------
+[TRIAGE]
+Name = 先行治疗
+Description = 使用回复招式时，优先度+3。
+Score = 8
+Flags = PriorityUp1
+#-------------------------------
+[PRANKSTER]
+Name = 恶作剧之心
+Description = 使用变化招式时，优先度+1。
+Score = 8
+Flags = PriorityUp1
+#-------------------------------
+[OPPORTUNIST2]
+Name = 机会主义者
+Description = 如果对手的HP少于50%，那么目标是单体的招式的优先度+1。
+Score = 4
+Flags = PriorityUp1
+#-------------------------------
+[PERFECTIONIST]
+Name = 完美主义者
+Description = 招式威力<=50，会心+1。招式威力<=25，优先度+1。
+Score = 5
+Flags = PriorityUp1
+#-------------------------------
+[ONTHEPROWL]
+Name = 潜行猎杀
+Description = 出场的第一个回合，若招式的优先度>=0, 则优先度+1，否则优先度变为0。
+Score = 8
+Flags = PriorityUp1
+#-------------------------------
+[COILUP]
+Name = 蓄势待发
+Description = 出场的第一个回合，使用啃咬类招式时，优先度+1。
+Score = 8
+Flags = PriorityUp1
+#-------------------------------
+[CUTTHROAT]
+Name = 先制切割
+Description = 出场的第一个回合，使用切割类招式时，优先度+1。
+Score = 8
+Flags = PriorityUp1
+#-------------------------------
+
+#-------------------------------
+[MYCELIUMMIGHT]
+Name = 菌丝之力
+Description = 使用变化招式时，不受对手的属性、特性、场地、天气、替身等妨碍。在沼泽场地，每回合结束时物防提高1级。
+Score = 8
+Flags =
+#-------------------------------
+
+
+#-------------------------------
+# 无效化先制招式
+#-------------------------------
+[QUEENLYMAJESTY]
+Name = 女王的威严
+Description = 向对手施加威慑力，使其无法对我方使出先制招式。在童话场地，招式伤害增加50%。
+Score = 6
+Flags = BlockPriorityUp2
+#-------------------------------
+[DAZZLING]
+Name = 鲜艳之躯
+Description = 让对手吓一跳，使其无法对我方使出先制招式。
+Score = 6
+Flags = BlockPriorityUp2
+#-------------------------------
+[PRISMATICWARD]
+Name = 虹光屏障
+Description = 让对手吓一跳，使其无法对我方使出先制招式。受到效果绝佳的攻击时，受到的伤害减少35%。在洞窟，减少坍塌伤害。
+Score = 8
+Flags = BlockPriorityUp2,ReduceTakenDamage
+#-------------------------------
+[SURPRISE]
+Name = Surprise!
+Description = 让对手吓一跳，使其无法对我方使出先制招式。
+Score = 6
+Flags = BlockPriorityUp2
+#-------------------------------
+[ARMORTAIL]
+Name = 尾甲
+Description = 包裹头部的神秘尾巴使对手无法对我方使出先制招式。在童话场地，出场时双防会提高。
+Score = 6
+Flags = BlockPriorityUp2
+#-------------------------------
+
+
+
+#-------------------------------
+# 招式威力增加
+#-------------------------------
+[ELECTROCYTES]
+Name = 电细胞
+Description = 电属性招式的威力增加25%。
+Score = 3
+Flags = DamageUp
+#-------------------------------
+[ELECTRICBURST]
+Name = 电力爆发
+Description = 电属性招式的威力增加35%，但是会受到10%的反伤。
+Score = 4
+Flags = DamageUp
+#-------------------------------
+[INFERNALRAGE]
+Name = 地狱怒火
+Description = 火属性招式的威力增加35%，但是会受到5%的反伤。
+Score = 4
+Flags = DamageUp
+#-------------------------------
+[LEVITATE]
+Name = 飘浮
+Description = 从地面浮起，从而不会受到地面属性招式的攻击。飞行属性招式的威力增加25%。
+Score = 4
+Flags = DamageUp,AddTypeImmunity
+#-------------------------------
+[ANTARCTICBIRD]
+Name = 极地之鸟
+Description = 冰和飞行属性的招式的威力增加30%。
+Score = 4
+Flags = DamageUp
+#-------------------------------
+
+#-------------------------------
+[TOUGHCLAWS]
+Name = 硬爪
+Description = 接触到对手的招式的威力增加30%。
+Score = 5
+Flags = DamageUp
+#-------------------------------
+[BIGPECKS]
+Name = 健壮胸肌
+Description = 接触到对手的招式的威力增加30%。
+Score = 5
+Flags = DamageUp
+#-------------------------------
+[SHARPNESS]
+Name = 锋锐
+Description = 切割类招式的威力增加30%。
+Score = 5
+Flags = DamageUp
+#-------------------------------
+[POWEREDGE]
+Name = 强力切割
+Description = 切割类招式攻击对手特防，且威力增加30%。
+Score = 5
+Flags = DamageUp
+#-------------------------------
+[MYSTICBLADES]
+Name = 神秘之刃
+Description = 切割类招式视为特殊攻击招式，且威力增加30%。
+Score = 7
+Flags = DamageUp,ChangeMoveCategory
+#-------------------------------
+[PONYPOWER]
+Name = 小马神力
+Description = 切割类招式视为特殊攻击招式，且威力增加60%。
+Score = 8
+Flags = DamageUp,ChangeMoveCategory
+#-------------------------------
+[BLADEMASTER]
+Name = 剑圣
+Description = 切割类招式的威力增加30%，必定能命中（除非目标不在场地上），并且可以攻击所有对手。
+Score = 8
+Flags = DamageUp,AlwaysHit,HitAllTargets
+#-------------------------------
+[STRONGJAW]
+Name = 强壮之颚
+Description = 因为颚部强壮，啃咬类招式的威力增加30%。
+Score = 5
+Flags = DamageUp
+#-------------------------------
+[MEGALAUNCHER]
+Name = 超级发射器
+Description = 波动和波导类招式的威力增加30%。
+Score = 5
+Flags = DamageUp
+#-------------------------------
+[MASTERHAND]
+Name = 主宰之手
+Description = 波动和波导类招式的威力增加30%。如果打倒对手，本来使用招式后下一回合自己无法动弹的状态将解除。
+Score = 8
+Flags = DamageUp,Rampage
+#-------------------------------
+[CANNONFIRE]
+Name = 加农炮
+Description = 球和弹类招式的威力增加50%。
+Score = 4
+Flags = DamageUp
+#-------------------------------
+[LIQUIDVOICE]
+Name = 湿润之声
+Description = 声音类招式的威力增加20%，若原属性是普通，则变成水属性，当在冰冻场地，则变为冰属性。
+Score = 3
+Flags = DamageUp,ChangeMoveType
+#-------------------------------
+[BANSHEE]
+Name = 报丧女妖
+Description = 声音类招式的威力增加20%，若原属性是普通，则变成幽灵属性。
+Score = 3
+Flags = DamageUp,ChangeMoveType
+#-------------------------------
+[SANDSONG]
+Name = 沙之歌
+Description = 声音类招式的威力增加20%，若原属性是普通，则变成地面属性。
+Score = 3
+Flags = DamageUp,ChangeMoveType
+#-------------------------------
+[VOICETUNING]
+Name = 炽热之音
+Description = 一般属性或者声音类招式变为火属性。
+Score = 3
+Flags = ChangeMoveType
+#-------------------------------
+[IRONFIST]
+Name = 铁拳
+Description = 拳类招式的威力增加30%。
+Score = 4
+Flags = DamageUp
+#-------------------------------
+[ATOMICPUNCH]
+Name = 原子飞拳
+Description = 钢属性招式的攻击力增加50%。在工厂，效果翻倍。在短路场地，钢属性招式附加电属性。拳类招式的威力增加30%。
+Score = 8
+Flags = DamageUp
+#-------------------------------
+[POWERFISTS]
+Name = 精神之拳
+Description = 拳类招式攻击对手的特防，且威力增加30%。
+Score = 5
+Flags = DamageUp,ChangeMoveCategory
+#-------------------------------
+[MAGICALFISTS]
+Name = 魔力之拳
+Description = 拳类招式使用自身的特攻来计算伤害，且威力增加30%。
+Score = 5
+Flags = DamageUp,ChangeMoveCategory
+#-------------------------------
+[GIANTWINGS]
+Name = 巨翼
+Description = 空气类、风类和翅膀类招式的威力增加25%。
+Score = 3
+Flags = DamageUp
+#-------------------------------
+[IMPOSINGWINGS]
+Name = 强力之翼
+Description = 从地面浮起，从而不会受到地面属性招式的攻击。飞行属性招式的威力增加25%。空气类、风类和翅膀类招式的威力增加25%。
+Score = 6
+Flags = DamageUp,AddTypeImmunity
+#-------------------------------
+[MIGHTYHORN]
+Name = 巨角
+Description = 角钻类招式的威力增加30%。
+Score = 3
+Flags = DamageUp
+#-------------------------------
+[ENERGYHORNS]
+Name = 能量之角
+Description = 角钻类招式视为特殊攻击招式，且威力增加30%。
+Score = 5
+Flags = DamageUp,ChangeMoveCategory
+#-------------------------------
+[STRIKER]
+Name = 踢击者
+Description = 踢击类招式的威力增加30%。
+Score = 3
+Flags = DamageUp
+#-------------------------------
+[SUPERSLAMMER]
+Name = 巨锤
+Description = 棒锤类和冲撞类招式的威力增加30%。
+Score = 2
+Flags = DamageUp
+#-------------------------------
+[COMBATSPECIALIST]
+Name = 搏击专家
+Description = 拳类和踢击类招式的威力增加30%。
+Score = 3
+Flags = DamageUp
+#-------------------------------
+[ARCHER]
+Name = 弓手
+Description = 弓箭类招式的威力增加30%。
+Score = 2
+Flags = DamageUp
+#-------------------------------
+
+#-------------------------------
+[HIGHERRANK]
+Name = 先手制胜
+Description = 优先度>0的招式的威力增加20%。
+Score = 2
+Flags = DamageUp
+#-------------------------------
+
+
+#-------------------------------
+[TECHNICIAN]
+Name = 技术高手
+Description = 威力<=60的招式，使用时威力增加50%。在工厂，威力的阈值提高到80。
+Score = 6
+Flags = DamageUp
+#-------------------------------
+[RECKLESS]
+Name = 舍身
+Description = 自己会因反作用力受伤的招式，其威力增加20%。
+Score = 4
+Flags = DamageUp
+#-------------------------------
+[SHEERFORCE]
+Name = 强行
+Description = 招式的追加效果消失，但因此招式的威力增加30%。
+Score = 6
+Flags = DamageUp
+#-------------------------------
+[ANALYTIC]
+Name = 分析
+Description = 如果在最后使出招式，招式的威力增加30%。
+Score = 2
+Flags = DamageUp
+#-------------------------------
+[RIVALRY]
+Name = 斗争心
+Description = 攻击时，若对手性别与自身相同，则招式的威增加25%。被攻击时，若对手性别与自身不同，则对手招式的威力减少25%。若自身或对手无性别，则不生效。
+Score = 3
+Flags = DamageUp
+#-------------------------------
+[FIELDEXPLORER]
+Name = 野外探险家
+Description = HM（居合斩、飞翔、冲浪、怪力、潮旋、攀瀑、碎岩、潜水和攀岩）的威力增加50%。
+Score = 3
+Flags = DamageUp
+#-------------------------------
+[COSMICDAZE]
+Name = 混乱迷宫
+Description = 招式念力的威力增加100%。攻击处于混乱状态的对手时，招式的伤害增加100%。
+Score = 6
+Flags = DamageUp
+#-------------------------------
+[SUBDUE]
+Name = 压制
+Description = 会造成自身能力下降的招式的威力增加100%。
+Score = 2
+Flags = DamageUp
+#-------------------------------
+
+#-------------------------------
+[TOXICBOOST]
+Name = 中毒激升
+Description = 变为中毒状态或在腐蚀场地、废土、污水面时，物理招式的威力增加50%。
+Score = 4
+Flags = DamageUp
+#-------------------------------
+[FLAREBOOST]
+Name = 受热激升
+Description = 变为烧伤状态或在燃烧场地时，特殊招式的威力增加50%。在燃烧场地，免疫回合结束时的灼烧伤害。
+Score = 4
+Flags = DamageUp
+#-------------------------------
+
+
+#-------------------------------
+# BS相关
+#-------------------------------
+[SLOWSTART]
+Name = 慢启动
+Description = 在5回合内，攻击和速度减半。在电气场地，只需要一半的回合数来启动。
+Score = -1
+Flags = Banned
+#-------------------------------
+[DEFEATIST]
+Name = 软弱
+Description = HP减少到1/3以下时，会变得软弱，攻击和特攻会减半。
+Score = -1
+Flags = Banned
+#-------------------------------
+[TABLETSOFRUIN]
+Name = 灾祸之简
+Description = 以能呼唤灾厄的简的力量降低除自己以外的宝可梦25%的攻击。在新世界，效果提高到1/3。
+Score = 8
+Flags = RuinSeries
+#-------------------------------
+[VESSELOFRUIN]
+Name = 灾祸之鼎
+Description = 以能呼唤灾厄的鼎的力量降低除自己以外的宝可梦25%的特攻。在新世界，效果提高到1/3。
+Score = 8
+Flags = RuinSeries
+#-------------------------------
+[SWORDOFRUIN]
+Name = 灾祸之剑
+Description = 以能呼唤灾厄的剑的力量降低除自己以外的宝可梦25%的防御。在新世界，效果提高到1/3。
+Score = 8
+Flags = RuinSeries
+#-------------------------------
+[BEADSOFRUIN]
+Name = 灾祸之玉
+Description = 以能呼唤灾厄的勾玉的力量降低除自己以外的宝可梦25%的特防。在新世界，效果提高到1/3。
+Score = 8
+Flags = RuinSeries
+#-------------------------------
+[GUTS]
+Name = 毅力
+Description = 变为异常状态时，攻击增加50%。
+Score = 6
+Flags =
+#-------------------------------
+[RAGEPOINT]
+Name = 暴怒穴位
+Description = 变为异常状态时，攻击增加50%。自身使用招式造成会心时，攻击会提高。
+Score = 7
+Flags =
+#-------------------------------
+[DETERMINATION]
+Name = 决心
+Description = 变为异常状态时，特攻增加50%。
+Score = 6
+Flags =
+#-------------------------------
+[MARVELSCALE]
+Name = 神奇鳞片
+Description = 变为异常状态时或在薄雾场地、彩虹场地、童话场地、龙穴、星光战场，防御增加50%。
+Score = 6
+Flags =
+#-------------------------------
+[QUICKFEET]
+Name = 飞毛腿
+Description = 变为异常状态时，速度增加50%。
+Score = 6
+Flags =
+#-------------------------------
+[FURCOAT]
+Name = 毛皮大衣
+Description = 翻倍自己的防御，来减少对手给予的物理攻击的伤害。
+Score = 7
+Flags = ReduceTakenDamage
+#-------------------------------
+[HEAVYMETAL]
+Name = 重金属
+Description = 自身的防御和特防增加20%，且重量会变为2倍。
+Score = 3
+Flags = ReduceTakenDamage
+#-------------------------------
+#[TORMENTED]
+#Name = 苦修
+#Description = 特攻增加50%，但命中率会减少20%。
+#Score = 1
+#Flags = DamageUp
+#-------------------------------
+[HUGEPOWER]
+Name = 大力士
+Description = 攻击变为2倍。
+Score = 8
+Flags = DamageUp
+#-------------------------------
+[PUREPOWER]
+Name = 瑜伽之力
+Description = 因瑜伽的力量，攻击变为2倍。在白沙海滩，攻击时忽略目标的闪避能力提高和自身的命中能力降低，除非目标拥有特性纯朴。在精神场地，效果变成特攻翻倍。
+Score = 8
+Flags = DamageUp
+#-------------------------------
+[GORILLATACTICS]
+Name = 一猩一意
+Description = 攻击增加50%，但是只能使出一开始所选的招式。
+Score = 5
+Flags = DamageUp
+#-------------------------------
+[GENIUS]
+Name = 天才
+Description = 特攻增加50%。
+Score = 7
+Flags = DamageUp
+#-------------------------------
+[MAJESTICBIRD]
+Name = 巨鸟
+Description = 特攻增加50%。
+Score = 7
+Flags = DamageUp
+#-------------------------------
+[SAGEPOWER]
+Name = 贤者之力
+Description = 特攻增加50%，但是只能使出一开始所选的招式。
+Score = 5
+Flags = DamageUp
+#-------------------------------
+[FELINEPROWESS]
+Name = 猫的本能
+Description = 特攻变为2倍。
+Score = 8
+Flags = DamageUp
+#-------------------------------
+# BS相关 END
+#-------------------------------
+
+
+
+#-------------------------------
+# 招式攻击力增加
+#-------------------------------
+[HUSTLE]
+Name = 活力
+Description = 攻击力增加40%，但命中率会减少10%。
+Score = 6
+Flags = DamageUp
+#-------------------------------
+[MINUS]
+Name = 负电
+Description = 出场的伙伴之间如果有正电或负电特性的宝可梦或在短路场地，招式的攻击力会翻倍。
+Score = 2
+Flags = DamageUp
+#-------------------------------
+[PLUS]
+Name = 正电
+Description = 出场的伙伴之间如果有正电或负电特性的宝可梦或在短路场地，招式的攻击力会翻倍。
+Score = 2
+Flags = DamageUp
+#-------------------------------
+[ILLUSION]
+Name = 幻觉
+Description = 假扮成同行队伍中的最后一个宝可梦出场，迷惑对手。自身处于变身状态时，攻击力增加30%。在镜技场，出场时闪避大幅提高。
+Score = 2
+Flags = Banned,DamageUp
+#-------------------------------
+
+#-------------------------------
+[EXPLOITWEAKNESS]
+Name = 弱点看破
+Description = 攻击处于异常状态的对手时，招式的攻击力增加25%。
+Score = 3
+Flags = DamageUp
+#-------------------------------
+[STAKEOUT]
+Name = 蹲守
+Description = 对替换出场的对手施放的招式的攻击力翻倍。
+Score = 2
+Flags = DamageUp
+#-------------------------------
+
+#-------------------------------
+[OVERGROW]
+Name = 茂盛
+Description = 草属性招式的攻击力增加20%。HP<=1/3时，草属性招式的攻击力再增加30%。在花园，草属性招式的攻击力额外增加30%(第4阶)，50%(第5阶)。
+Score = 3
+Flags = DamageUp
+#-------------------------------
+[FORESTRAGE]
+Name = 森林暴怒
+Description = 草属性招式的攻击力增加30%。HP<=1/3时，草属性招式的攻击力再增加50%。在花园，草属性招式的攻击力额外增加30%(第4阶)，50%(第5阶)。
+Score = 4
+Flags = DamageUp
+#-------------------------------
+[BLAZE]
+Name = 猛火
+Description = 火属性招式的攻击力增加20%。HP<=1/3时，火属性招式的攻击力再增加30%。
+Score = 3
+Flags = DamageUp
+#-------------------------------
+[HELLBLAZE]
+Name = 地狱怒焰
+Description = 火属性招式的攻击力增加30%。HP<=1/3时，火属性招式的攻击力再增加50%。
+Score = 4
+Flags = DamageUp
+#-------------------------------
+[TORRENT]
+Name = 激流
+Description = 水属性招式的攻击力增加20%。HP<=1/3时，水属性招式的攻击力再增加30%。
+Score = 3
+Flags = DamageUp
+#-------------------------------
+[RIPTIDE]
+Name = 大激流
+Description = 水属性招式的攻击力增加30%。HP<=1/3时，水属性招式的攻击力再增加30%。
+Score = 4
+Flags = DamageUp
+#-------------------------------
+[SWARM]
+Name = 虫之预感
+Description = 虫属性招式的攻击力增加20%。HP<=1/3时，虫属性招式的攻击力再增加30%。在花园，虫属性招式的攻击力额外增加30%(第3-4阶)，50%(第5阶)。
+Score = 3
+Flags = DamageUp
+#-------------------------------
+[FLIGHT]
+Name = 群鸟
+Description = 飞行属性招式的攻击力增加20%。HP<=1/3时，飞行属性招式的攻击力再增加30%。
+Score = 3
+Flags = DamageUp
+#-------------------------------
+[AERIALIST]
+Name = 高空杂技
+Description = 从地面浮起，从而不会受到地面属性招式的攻击。飞行属性招式的攻击力增加20%、威力增加25%。HP<=1/3时，飞行属性招式的攻击力再增加30%。
+Score = 6
+Flags = DamageUp,AddTypeImmunity
+#-------------------------------
+[SHORTCIRCUIT]
+Name = 短路
+Description = 电属性招式的攻击力增加20%。HP<=1/3时，电属性招式的攻击力再增加30%。
+Score = 3
+Flags = DamageUp
+#-------------------------------
+[PERFECTFROZEN]
+Name = 完美冻结
+Description = 冰属性招式的攻击力增加20%。HP<=1/3时，冰属性招式的攻击力再增加30%。
+Score = 3
+Flags = DamageUp
+#-------------------------------
+[PSYCHICMIND]
+Name = 灵思
+Description = 超能力属性招式的攻击力增加20%。HP<=1/3时，超能力属性招式的攻击力再增加30%。
+Score = 3
+Flags = DamageUp
+#-------------------------------
+[VENGEANCE]
+Name = 复仇
+Description = 幽灵属性招式的攻击力增加20%。HP<=1/3时，幽灵属性招式的攻击力再增加30%。
+Score = 3
+Flags = DamageUp
+#-------------------------------
+[VENGEFULSPIRIT]
+Name = 复仇之魂
+Description = 幽灵属性招式的攻击力提高20%。HP<=1/3时，幽灵属性招式的攻击力再增加30%。自己被打倒时，对手将陷入诅咒状态，每回合扣除最大HP的1/4，在神圣场地，该效果无效。
+Score = 5
+Flags = DamageUp,SufferTargetWithCurse
+#-------------------------------
+[LATENTDRAGON]
+Name = 潜龙
+Description = 龙属性招式的攻击力增加20%。HP<=1/3时，龙属性招式的攻击力再增加30%。
+Score = 3
+Flags = DamageUp
+#-------------------------------
+[FIGHTER]
+Name = 斗士
+Description = 格斗属性招式的攻击力增加20%。HP<=1/3时，格斗属性招式的攻击力再增加30%。
+Score = 3
+Flags = DamageUp
+#-------------------------------
+[EARTHBOUND]
+Name = 大地联接
+Description = 地面属性招式的攻击力增加20%。HP<=1/3时，地面属性招式的攻击力再增加30%。
+Score = 3
+Flags = DamageUp
+#-------------------------------
+[ROCKHARDWILL]
+Name = 坚岩意志
+Description = 岩石属性招式的攻击力增加20%。HP<=1/3时，岩石属性招式的攻击力再增加30%。
+Score = 3
+Flags = DamageUp
+#-------------------------------
+
+#-------------------------------
+[WATERBUBBLE]
+Name = 水泡
+Description = 水属性招式的攻击力翻倍。受到的火属性招式的伤害减少50%。免疫烧伤。在燃烧场地，免疫回合结束时的灼烧伤害。
+Score = 7
+Flags = DamageUp,ReduceTakenDamage,ImmunityBurn
+#-------------------------------
+[TRANSISTOR]
+Name = 电晶体
+Description = 电属性招式的攻击力增加50%。在电气场地、工厂，效果翻倍。
+Score = 7
+Flags = DamageUp
+#-------------------------------
+[DRAGONSMAW]
+Name = 龙颚
+Description = 龙属性招式的攻击力增加50%。在龙穴，效果翻倍。
+Score = 7
+Flags = DamageUp
+#-------------------------------
+[ROCKYPAYLOAD]
+Name = 搬岩
+Description = 岩石属性或者投掷类型的招式的攻击力增加50%。在岩石场地，岩石属性招式的攻击力额外增加50%。
+Score = 7
+Flags = DamageUp
+#-------------------------------
+[STEELWORKER]
+Name = 钢能力者
+Description = 钢属性招式的攻击力增加50%。在工厂，效果翻倍。在短路场地，钢属性招式附加电属性。
+Score = 7
+Flags = DamageUp
+#-------------------------------
+[COMBUSTION]
+Name = 爆燃
+Description = 火属性招式的攻击力增加50%。
+Score = 7
+Flags = DamageUp
+#-------------------------------
+[SCHOLAR]
+Name = 学者
+Description = 超能力属性招式的攻击力增加50%。
+Score = 7
+Flags = DamageUp
+#-------------------------------
+
+#-------------------------------
+[EQUINOX]
+Name = 二分
+Description = 攻击、特攻总是与两者中最高的那项相等。
+Score = 8
+Flags = ChangeMoveCalc
+#-------------------------------
+[JUGGERNAUT]
+Name = 巨兽
+Description = 使用接触类招式时，攻击力增加防御的20%。不会变为麻痹状态。
+Score = 6
+Flags = ChangeMoveCalc,ImmunityParalyze
+#-------------------------------
+[IRONGIANT]
+Name = 钢铁巨人
+Description = 使用接触类招式时，攻击力增加防御的20%。不会变为麻痹状态。使受到的火属性的招式的威力减少50%。在燃烧场地，免疫回合结束时的灼烧伤害。
+Score = 8
+Flags = ChangeMoveCalc,ImmunityParalyze
+#-------------------------------
+[SPEEDFORCE]
+Name = 速度之力
+Description = 使用接触类招式时，攻击力增加速度的20%。
+Score = 7
+Flags = ChangeMoveCalc
+#-------------------------------
+[TERMINALVELOCITY]
+Name = 终极速度
+Description = 使用特攻招式时，攻击力增加速度的20%。
+Score = 7
+Flags = ChangeMoveCalc
+#-------------------------------
+[MOMENTUM]
+Name = 气势
+Description = 使用接触类招式时，使用速度作为攻击力来计算招式的伤害。
+Score = 8
+Flags = ChangeMoveCalc
+#-------------------------------
+[IMPULSE]
+Name = 脉冲
+Description = 使用非接触类招式时，使用速度作为攻击力来计算招式的伤害。
+Score = 8
+Flags = ChangeMoveCalc
+#-------------------------------
+[ANCIENTIDOL]
+Name = 古代神像
+Description = 分别使用防御、特防作为攻击、特攻来计算招式的伤害。
+Score = 7
+Flags = ChangeMoveCalc
+#-------------------------------
+[POWERCORE]
+Name = 动力核心
+Description = 使用招式时，物攻招式的攻击力增加防御的20%，特攻招式的攻击力增加特防的20%。
+Score = 7
+Flags = ChangeMoveCalc
+#-------------------------------
+
+
+
+#-------------------------------
+# 招式伤害增加
+#-------------------------------
+[ADAPTABILITY]
+Name = 适应力
+Description = 与自身同属性的招式伤害增加100%，而不是50%。
+Score = 7
+Flags = DamageUp
+#-------------------------------
+[SNIPER]
+Name = 狙击手
+Description = 击中要害时，伤害增加50%。
+Score = 3
+Flags = DamageUp
+#-------------------------------
+[BATTERY]
+Name = 蓄电池
+Description = 我方的特殊招式的伤害增加30%。在短路场地，效果翻倍。
+Score = 5
+Flags = DamageUp
+#-------------------------------
+[NEUROFORCE]
+Name = 脑核之力
+Description = 效果绝佳的攻击，伤害增加25%。
+Score = 4
+Flags = DamageUp
+#-------------------------------
+[WINGEDKING]
+Name = 翼之王
+Description = 效果绝佳的攻击，伤害增加33%。
+Score = 4
+Flags = DamageUp
+#-------------------------------
+[IRONSERPENT]
+Name = 钢铁大蛇
+Description = 效果绝佳的攻击，伤害增加33%。
+Score = 4
+Flags = DamageUp
+#-------------------------------
+[POWERSPOT]
+Name = 能量点
+Description = 己方队友（不包括自己）的招式伤害增加30%。
+Score = 2
+Flags =
+#-------------------------------
+[AVENGER]
+Name = 复仇者
+Description = 如果上一回合有队友倒下，那么这个回合使用的第一个招式的伤害增加50%。
+Score = 3
+Flags =
+#-------------------------------
+[BLOODPRICE]
+Name = 血的代价
+Description = 使用招式进行攻击时，伤害增加30%，但是招式使用成功后，将扣除自身最大HP的1/10。
+Score = 5
+Flags = DamageUp
+#-------------------------------
+[RHYTHMIC]
+Name = 韵律
+Description = 连续使出相同招式时，每多1次，伤害就增加10%。伤害数值最大是50%。不再使出相同招式时，伤害增加就会复原。
+Score = 3
+Flags = DamageUp
+#-------------------------------
+
+#-------------------------------
+[STEELYSPIRIT]
+Name = 钢之意志
+Description = 自身和队友的钢属性招式的伤害增加30%。
+Score = 5
+Flags = DamageUp
+#-------------------------------
+[PIXIEPOWER]
+Name = 妖精之力
+Description = 自身和队友的妖精属性招式的伤害增加30%。自身招式的命中率增加20%。在童话场地，招式伤害增加50%。
+Score = 7
+Flags = DamageUp,AccuracyUp
+#-------------------------------
+[AIRBORNE]
+Name = 天空之意志
+Description = 自身和队友的飞行属性招式的伤害增加30%。
+Score = 5
+Flags = DamageUp
+#-------------------------------
+[LONGREACH]
+Name = 远隔
+Description = 可以不接触对手就使出所有的招式。非接触类物理招式的伤害增加20%。在岩石场地、森林场地，招式的命中率减少10%。在高山、雪山，所有招式伤害增加50%。
+Score = 6
+Flags = DamageUp
+#-------------------------------
+[AMPLIFIER]
+Name = 扩音器
+Description = 声音类招式的伤害增加30%，并且可以攻击所有对手。
+Score = 6
+Flags = DamageUp,HitAllTargets
+#-------------------------------
+[BASSBOOSTED]
+Name = 贝斯爆发
+Description = 声音类招式的攻击力增加30%，伤害增加30%，且可以攻击所有对手。受到的声音类招式伤害会减半。
+Score = 7
+Flags = DamageUp,HitAllTargets,ReduceTakenDamage
+#-------------------------------
+[SLUDGYMIX]
+Name = 剧毒摇滚
+Description = 声音类招式的攻击力增加30%。受到的声音类招式伤害会减半。一般属性的招式会变为毒属性，招式威力增加10%。在沼泽场地、腐蚀场地、蚀雾场地、废土、污水面，招式威力额外增加30%。
+Score = 8
+Flags = ReduceTakenDamage,DamageUp,ChangeMoveType
+#-------------------------------
+[MINDCRUSH]
+Name = 心灵粉碎
+Description = 啃咬类招式用自己的特攻来计算伤害，并且伤害增加30%。
+Score = 6
+Flags = DamageUp,ChangeMoveCalc
+#-------------------------------
+[MEGABITE]
+Name = 超级啃咬
+Description = 啃咬类招式用自己的特攻来计算伤害，并且伤害增加30%。
+Score = 6
+Flags = DamageUp,ChangeMoveCalc
+#-------------------------------
+
+#-------------------------------
+[PRETTYPRINCESS]
+Name = 美丽公主
+Description = 若对手的某项能力等级小于0，那么对其施放的招式的伤害增加50%。
+Score = 6
+Flags = DamageUp
+#-------------------------------
+[FAEHUNTER]
+Name = 猎精灵者
+Description = 若对手是妖精属性宝可梦，那么对其施放的招式的伤害增加50%。
+Score = 3
+Flags = DamageUp
+#-------------------------------
+[LUMBERJACK]
+Name = 伐木者
+Description = 若对手是草属性宝可梦，那么对其施放的招式的伤害增加50%。
+Score = 3
+Flags = DamageUp
+#-------------------------------
+
+
+#-------------------------------
+[NPCPOKEDMG1]
+Name = NPC增伤1
+Description = NPC宝可梦的招式的伤害增加10%，只有NPC宝可梦有效。
+Score = 0
+Flags = Banned
+#-------------------------------
+[NPCPOKEDMG2]
+Name = NPC增伤2
+Description = NPC宝可梦的招式的伤害增加20%，只有NPC宝可梦有效。
+Score = 0
+Flags = Banned
+#-------------------------------
+[NPCPOKEDMG3]
+Name = NPC增伤3
+Description = NPC宝可梦的招式的伤害增加50%，只有NPC宝可梦有效。
+Score = 0
+Flags = Banned
+#-------------------------------
+
+
+
+
+#-------------------------------
+# 招式属性免疫
+#-------------------------------
+[NORMALIMMUNITY]
+Name = 一般无效化
+Description = 受到一般属性的招式攻击时，不会受到伤害，而是会提高随机一项能力。
+Score = 4
+Flags = AddTypeImmunity,Immune_NORMAL
+#-------------------------------
+[NEUTRALIZEFORCE]
+Name = 化劲
+Description = 受到格斗属性的招式攻击时，不会受到伤害，而是会提高防御。
+Score = 4
+Flags = AddTypeImmunity,Immune_FIGHTING
+#-------------------------------
+[AERODYNAMICS]
+Name = 气动
+Description = 受到飞行属性的招式攻击时，不会受到伤害，而是会提高速度。
+Score = 4
+Flags = AddTypeImmunity,Immune_FLYING
+#-------------------------------
+[POISONENGULF]
+Name = 毒吸收
+Description = 受到毒属性的招式攻击时，不会受到伤害，而是会得到回复。在腐蚀场地、废土，若在场地上，则回合结束时恢复1/8。
+Score = 4
+Flags = AddTypeImmunity,Immune_POISON
+#-------------------------------
+[EARTHEATER]
+Name = 食土
+Description = 受到地面属性的招式攻击时，不会受到伤害，而是会得到回复。在沙漠场地、洞窟，回合结束时恢复1/8。
+Score = 4
+Flags = AddTypeImmunity,Immune_GROUND
+#-------------------------------
+[MOUNTAINEER]
+Name = 登山者
+Description = 受到岩石属性的招式攻击时，不会受到伤害。免疫隐形岩的伤害。在洞窟，免疫坍塌伤害。
+Score = 4
+Flags = AddTypeImmunity,Immune_ROCK
+#-------------------------------
+[BUGEATER]
+Name = 食虫
+Description = 受到虫属性的招式攻击时，不会受到伤害，而是会得到回复。
+Score = 4
+Flags = AddTypeImmunity,Immune_BUG
+#-------------------------------
+[EXORCISE]
+Name = 驱鬼
+Description = 受到幽灵属性的招式攻击时，不会受到伤害，而是会提高特防。
+Score = 4
+Flags = AddTypeImmunity,Immune_GHOST
+#-------------------------------
+[COMBINATION]
+Name = 组合强化
+Description = 受到钢属性的招式攻击时，不会受到伤害，而是会提高攻击。
+Score = 4
+Flags = AddTypeImmunity,Immune_STEEL
+#-------------------------------
+[WELLBAKEDBODY]
+Name = 焦香之躯
+Description = 受到火属性的招式攻击时，不会受到伤害，而是会大幅提高防御。在燃烧场地，免疫回合结束时的灼烧伤害。
+Score = 4
+Flags = AddTypeImmunity,Immune_FIRE
+#-------------------------------
+[FLASHFIRE]
+Name = 引火
+Description = 受到火属性的招式攻击时，吸收火焰，自己使出的火属性招式会变强。在燃烧场地，回合结束时，获得火属性招式增强且免疫灼烧伤害。
+Score = 4
+Flags = AddTypeImmunity,Immune_FIRE
+#-------------------------------
+[FLAMECOAT]
+Name = 灼烧领域
+Description = 若场地不是水下，回合结束时，在场的宝可梦损失最大HP的1/8，除非有火属性或者火属性免疫特性。受到火属性的招式攻击时，吸收火焰，自己使出的火属性招式会变强。在燃烧场地，回合结束时，获得火属性招式增强且免疫灼烧伤害。
+Score = 6
+Flags = AddTypeImmunity,Immune_FIRE
+#-------------------------------
+[WATERABSORB]
+Name = 储水
+Description = 受到水属性的招式攻击时，不会受到伤害，而是会得到回复。在水面、水下，回合结束时回复1/16。
+Score = 4
+Flags = AddTypeImmunity,Immune_WATER
+#-------------------------------
+[STORMDRAIN]
+Name = 引水
+Description = 将水属性的招式引到自己身上，不会受到伤害，而是会提高特攻。
+Score = 5
+Flags = AddTypeImmunity,Immune_WATER
+#-------------------------------
+[DRYSKIN]
+Name = 干燥皮肤
+Description = 下雨和受到水属性招式时，HP回复。晴朗和受到火属性招式时，HP减少。在薄雾场地、沼泽场地，非雨非晴朗天气，回合结束时额外回复1/16。在水面、水下，回合结束时额外回复1/16。
+Score = 5
+Flags = AddTypeImmunity,Immune_WATER
+#-------------------------------
+[EVAPORATE]
+Name = 蒸发
+Description = 受到水属性的招式攻击时，不会受到伤害，而是会施放一次白雾。
+Score = 5
+Flags = AddTypeImmunity,Immune_WATER
+#-------------------------------
+[SAPSIPPER]
+Name = 食草
+Description = 受到草属性的招式攻击时，不会受到伤害，而是会提高双攻中较高的那项。在森林场地，回合结束时恢复1/16。
+Score = 4
+Flags = AddTypeImmunity,Immune_GRASS
+#-------------------------------
+[VOLTABSORB]
+Name = 蓄电
+Description = 受到电属性的招式攻击时，不会受到伤害，而是会得到回复。在短路场地，回合结束时恢复1/16。
+Score = 4
+Flags = AddTypeImmunity,Immune_ELECTRIC
+#-------------------------------
+[LIGHTNINGROD]
+Name = 避雷针
+Description = 将电属性的招式吸引到自己身上，不会受到伤害，而是会提高特攻。
+Score = 5
+Flags = AddTypeImmunity,Immune_ELECTRIC
+#-------------------------------
+[MOTORDRIVE]
+Name = 电气引擎
+Description = 受到电属性的招式攻击时，不会受到伤害，而是速度会提高。在电气场地，回合结束时速度也会提高。在短路场地，效果翻倍。
+Score = 4
+Flags = AddTypeImmunity,Immune_ELECTRIC
+#-------------------------------
+[ATHEIST]
+Name = 无神论者
+Description = 受到超能力属性的招式攻击时，不会受到伤害，而是会提高特防。
+Score = 4
+Flags = AddTypeImmunity,Immune_PSYCHIC
+#-------------------------------
+[ICEDEW]
+Name = 冰露
+Description = 受到冰属性的招式攻击时，不会受到伤害，而是会提高双攻中较高的那项。
+Score = 4
+Flags = AddTypeImmunity,Immune_ICE
+#-------------------------------
+[DRAGONSLAYER]
+Name = 屠龙者
+Description = 受到龙属性的招式攻击时，不会受到伤害，而是会提高双攻中较高的那项。若对手是龙属性宝可梦，那么对其施放的招式的伤害增加50%。
+Score = 5
+Flags = AddTypeImmunity,DamageUp,Immune_DRAGON
+#-------------------------------
+[JUSTIFIED]
+Name = 正义之心
+Description = 受到恶属性的招式攻击时，不会受到伤害，而是会提高攻击。在神圣场地，效果翻倍。
+Score = 4
+Flags = AddTypeImmunity,Immune_DARK
+#-------------------------------
+[FAIRYSLAYER]
+Name = 妖精杀手
+Description = 受到妖精属性的招式攻击时，不会受到伤害，而是会提高攻击。
+Score = 4
+Flags = AddTypeImmunity,Immune_FAIRY
+#-------------------------------
+
+
+#-------------------------------
+# 招式类型免疫
+#-------------------------------
+[SOUNDPROOF]
+Name = 隔音
+Description = 通过屏蔽声音，不受到声音类的招式的攻击。
+Score = 3
+Flags = AddFormImmunity
+#-------------------------------
+[SYNTHESIZER]
+Name = 声音合成器
+Description = 受到声音类的招式攻击时，不会受到伤害，而是会得到回复。
+Score = 4
+Flags = AddFormImmunity
+#-------------------------------
+[NOISECANCEL]
+Name = 除噪
+Description = 自身和同伴不会受到声音类的招式的攻击。
+Score = 4
+Flags = AddFormImmunity
+#-------------------------------
+[BULLETPROOF]
+Name = 防弹
+Description = 可以防住对手的球和弹类招式。在洞窟，免疫坍塌伤害。
+Score = 2
+Flags = AddFormImmunity
+#-------------------------------
+[GOODASGOLD]
+Name = 黄金之躯
+Description = 不会氧化的坚固黄金身躯不会受到对手的变化招式的影响。
+Score = 8
+Flags = AddFormImmunity
+#-------------------------------
+[MAGICBOUNCE]
+Name = 魔法镜
+Description = 可以不受到由对手使出的变化招式影响，并将其反弹。在镜技场，出场和每次触发时，闪避会提高。在童话场地，出场时特防会提高。
+Score = 6
+Flags = AddFormImmunity
+#-------------------------------
+[WEATHERCONTROL]
+Name = 天气掌控
+Description = 无效化对方宝可梦施展的风类或天气类招式。
+Score = 5
+Flags = AddFormImmunity
+#-------------------------------
+[ANTICIPATION]
+Name = 危险预知
+Description = 可以察觉到对手拥有的危险招式。一场战斗一次，免疫一次效果绝佳的招式的伤害。在精神场地，出场时特攻大幅提高。
+Score = 2
+Flags = AddFormImmunity
+#-------------------------------
+
+
+#-------------------------------
+# 天气相关
+#-------------------------------
+[CLOUDNINE]
+Name = 无关天气
+Description = 任何天气的影响都会消失。在彩虹场地，回合结束时，随机提高一项能力。
+Score = 5
+Flags = AddOrBlockWeather
+#-------------------------------
+[AIRLOCK]
+Name = 气闸
+Description = 所有天气的影响都会消失。在彩虹场地，回合结束时，随机提高一项能力。
+Score = 5
+Flags = AddOrBlockWeather
+#-------------------------------
+
+#-------------------------------
+[CATASTROPHE]
+Name = 灾变
+Description = 晴朗天气时，不再减少，而是增加水属性招式的伤害。下雨天气时，不再减少，而是增加火属性招式的伤害。
+Score = 4
+Flags =
+#-------------------------------
+
+#-------------------------------
+# Weather-Sandstorm
+#-------------------------------
+[SANDSTREAM]
+Name = 扬沙
+Description = 出场时，会把天气变为沙暴。沙暴天气或在沙漠场地，特防增加50%（不能叠加）。不会受到沙暴的伤害。
+Score = 7
+Flags = AddOrBlockWeather
+#-------------------------------
+[SANDVEIL]
+Name = 沙隐
+Description = 沙暴天气或在沙漠场地、白沙海滩，闪避率提高25%。在白沙海滩，攻击时忽略目标的闪避能力提高和自身的命中能力降低，除非目标拥有特性纯朴。沙暴天气或在沙漠场地，特防增加50%（不能叠加）。不会受到沙暴的伤害。在镜技场，出场时闪避提高。
+Score = 3
+Flags =
+#-------------------------------
+[SANDRUSH]
+Name = 拨沙
+Description = 沙暴天气或在沙漠场地、白沙海滩，速度增加50%。沙暴天气或在沙漠场地，特防增加50%（不能叠加）。不会受到沙暴的伤害。
+Score = 3
+Flags =
+#-------------------------------
+[SANDFORCE]
+Name = 沙之力
+Description = 沙暴天气或在沙漠场地、白沙海滩，招式威力提高30%。沙暴天气或在沙漠场地，特防增加50%（不能叠加）。不会受到沙暴的伤害。
+Score = 4
+Flags =
+#-------------------------------
+[CLAYFORM]
+Name = 粘土形态
+Description = 沙暴天气或在沙漠场地、白沙海滩，每回合恢复1/8最大HP。沙暴天气或在沙漠场地，特防增加50%（不能叠加）。不会受到沙暴的伤害。
+Score = 3
+Flags =
+#-------------------------------
+[SANDSPIT]
+Name = 吐沙
+Description = 受到攻击时，会刮起沙暴，在沙漠场地、白沙海滩，同时也会降低攻击者命中。沙暴天气或在沙漠场地，特防增加50%（不能叠加）。不会受到沙暴的伤害。
+Score = 3
+Flags = AddOrBlockWeather
+#-------------------------------
+[DUNETERROR]
+Name = 恐怖沙丘
+Description = 受到攻击时，会刮起沙暴，在沙漠场地、白沙海滩，同时也会降低攻击者命中。沙暴天气时，受到的招式伤害减少30%。地面属性招式的伤害增加20%。沙暴天气或在沙漠场地，特防增加50%（不能叠加）。不会受到沙暴的伤害。
+Score = 8
+Flags = AddOrBlockWeather,DamageUp
+#-------------------------------
+[SANDGUARD]
+Name = 沙尘防护
+Description = 沙暴天气或在沙漠场地、白沙海滩，无效化对方的先制招式，受到的特殊招式的伤害减少50%。沙暴天气或在沙漠场地，特防增加50%（不能叠加）。不会受到沙暴的伤害。
+Score = 5
+Flags =
+#-------------------------------
+[DESERTCLOAK]
+Name = 沙幕
+Description = 沙暴天气或在沙漠场地、白沙海滩，自身和队友能力不会降低，也不会变为异常状态。沙暴天气或在沙漠场地，自身的特防增加50%（不能叠加）。不会受到沙暴的伤害。
+Score = 4
+Flags = ImmunityStatus,ImmunityStateDown
+#-------------------------------
+
+#-------------------------------
+# Weather-Hail
+#-------------------------------
+[SNOWWARNING]
+Name = 降雪
+Description = 出场时，会将天气变为下雪。下雪天气或在冰冻场地、雪山，防御增加50%（不能叠加）。
+Score = 7
+Flags = AddOrBlockWeather
+#-------------------------------
+[SNOWCLOAK]
+Name = 雪隐
+Description = 下雪天气或在冰冻场地、雪山，闪避率提高25%，且防御增加50%（不能叠加）。在镜技场，出场时闪避提高。
+Score = 3
+Flags =
+#-------------------------------
+[SLUSHRUSH]
+Name = 拨雪
+Description = 下雪天气或在冰冻场地、雪山，速度提高50%，且防御增加50%（不能叠加）。
+Score = 3
+Flags = Slushrush
+#-------------------------------
+[SNOWFORCE]
+Name = 雪之力
+Description = 下雪天气或在冰冻场地、雪山，招式威力提高30%，且防御增加50%（不能叠加）。
+Score = 4
+Flags = Snowforce
+#-------------------------------
+[BLIZZARDSURGE]
+Name = 雪暴之锋
+Description = 下雪天气或在冰冻场地、雪山，速度提高50%，招式威力提高30%，且防御增加50%（不能叠加）。
+Score = 7
+Flags = Slushrush,Snowforce
+#-------------------------------
+[ICEBODY]
+Name = 冰冻之躯
+Description = 下雪天气或在冰冻场地、雪山，会缓缓回复HP，且防御增加50%（不能叠加）。在燃烧场地，回合结束时的灼烧伤害翻倍。
+Score = 3
+Flags =
+#-------------------------------
+[CHRISTMASSPIRIT]
+Name = 圣诞精神
+Description = 下雪天气或在冰冻场地、雪山，受到的招式的伤害减少50%，且防御增加50%（不能叠加）。
+Score = 3
+Flags =
+#-------------------------------
+[CRYOPROFICIENCY]
+Name = 冰冻精通
+Description = 受到攻击时，会将天气变为下雪。下雪天气或在冰冻场地、雪山，防御增加50%（不能叠加）。使用或受到接触类招式攻击时，都有30%的概率使对手冻伤。
+Score = 7
+Flags = AddOrBlockWeather,SufferTargetWithFrostbite
+#-------------------------------
+
+#-------------------------------
+# Weather-Sun/HarshSun
+#-------------------------------
+[DROUGHT]
+Name = 日照
+Description = 出场时，会将天气变为晴朗。
+Score = 7
+Flags = AddOrBlockWeather
+#-------------------------------
+[SUNVEIL]
+Name = 晴隐
+Description = 晴朗天气时，闪避率会提高。在镜技场，出场时闪避提高。
+Score = 3
+Flags =
+#-------------------------------
+[CHLOROPHYLL]
+Name = 叶绿素
+Description = 晴朗天气或在花园4-5阶时，速度增加50%。
+Score = 3
+Flags =
+#-------------------------------
+[SOLARPOWER]
+Name = 太阳之力
+Description = 晴朗天气时，招式威力提高30%。
+Score = 4
+Flags =
+#-------------------------------
+[SYNTHESIZE]
+Name = 光合作用
+Description = 晴朗天气时，每回合恢复最大HP的1/8。
+Score = 3
+Flags =
+#-------------------------------
+[LEAFGUARD]
+Name = 叶子防守
+Description = 晴朗天气或在森林场地、花园2-5阶时，不会变为异常状态。在燃烧场地，回合结束时的灼烧伤害翻倍。
+Score = 4
+Flags = ImmunityStatus
+#-------------------------------
+[SUNBASKING]
+Name = 日光浴
+Description = 晴朗天气时，无效化对方的先制招式，受到的物理招式的伤害减少50%。
+Score = 5
+Flags =
+#-------------------------------
+[CHLOROPLAST]
+Name = 叶绿体
+Description = 招式气象球、日光束、日光刃和生长获得与晴朗天气下一样的效果。
+Score = 3
+Flags = Chloroplast
+#-------------------------------
+[FLOWERGIFT]
+Name = 花之礼
+Description = 晴朗天气或在花园时，己方所有宝可梦攻击与特防提高50%。在燃烧场地，回合结束时的灼烧伤害翻倍。
+Score = 3
+Flags =
+#-------------------------------
+[PROTOSYNTHESIS]
+Name = 古代活性
+Description = 携带着驱劲能量或天气为晴朗时，数值最高的能力会提高。
+Score = 5
+Flags =
+#-------------------------------
+[SUNWORSHIP]
+Name = 太阳信仰
+Description = 晴朗天气时，数值最高的能力的能力等级会提高。
+Score = 3
+Flags =
+#-------------------------------
+[HARVEST]
+Name = 收获
+Description = 可以多次制作出已被使用掉的树果。晴朗天气或在花园2-5阶时，收获率为100%。
+Score = 3
+Flags = Harvest
+#-------------------------------
+[BIGLEAVES]
+Name = 大叶子
+Description = 晴朗天气时，速度增加50%，招式威力增加30%，不会变为异常状态。招式气象球、日光束、日光刃和生长获得与晴朗天气下一样的效果。可以多次制作被用掉的树果。在燃烧场地，回合结束时的灼烧伤害翻倍。
+Score = 8
+Flags = Harvest,ImmunityStatus,Chloroplast
+#-------------------------------
+[ORICHALCUMPULSE]
+Name = 绯红脉动
+Description = 出场时，会将天气变为晴朗。日照强烈时，会通过古代的脉动攻击提高1/3。
+Score = 8
+Flags = AddOrBlockWeather
+#-------------------------------
+[DESOLATELAND]
+Name = 终结之地
+Description = 变为不会受到水属性攻击的天气。在燃烧场地，免疫回合结束时的灼烧伤害。
+Score = 8
+Flags = AddOrBlockWeather
+#-------------------------------
+
+#-------------------------------
+# Weather-Rain/HeavyRain
+#-------------------------------
+[DRIZZLE]
+Name = 降雨
+Description = 出场时，会将天气变为下雨。
+Score = 7
+Flags = AddOrBlockWeather
+#-------------------------------
+[RAINVEIL]
+Name = 雨隐
+Description = 下雨天气时，闪避率会提高。在镜技场，出场时闪避提高。
+Score = 3
+Flags =
+#-------------------------------
+[SWIFTSWIM]
+Name = 悠游自如
+Description = 下雨天气或在水面、水下、污水面时，速度会增加50%。
+Score = 3
+Flags = Swiftswim
+#-------------------------------
+[RAINFORCE]
+Name = 雨之力
+Description = 下雨天气时，招式威力提高30%。
+Score = 4
+Flags =
+#-------------------------------
+[RAINDISH]
+Name = 雨盘
+Description = 下雨天气时，会缓缓回复HP。
+Score = 3
+Flags =
+#-------------------------------
+[HYDRATION]
+Name = 湿润之躯
+Description = 下雨天气或在水面、水下时，异常状态会治愈。
+Score = 3
+Flags = CureStatus
+#-------------------------------
+[PURIFYINGWATERS]
+Name = 净化之源
+Description = 下雨天气或在水面、水下时，异常状态会治愈。出场时，施放水流环，每回合回复最大HP的1/16。免疫烧伤。
+Score = 5
+Flags = CallMoveInSwitchIn,ImmunityBurn,CureStatus
+#-------------------------------
+[SEABORNE]
+Name = 沧海的王子
+Description = 出场时，会将天气变为下雨。下雨天气或在水面、水下、污水面时，速度会增加50%。
+Score = 8
+Flags = AddOrBlockWeather,Swiftswim
+#-------------------------------
+[BREAKWATER]
+Name = 防波堤
+Description = 下雨天气或在水面、水下、污水面时，速度会增加50%。受到招式攻击时，若自身还未行动，则受到的招式伤害减少30%。
+Score = 5
+Flags = ReduceTakenDamage,Swiftswim
+#-------------------------------
+[SEAGUARDIAN]
+Name = 海洋守护者
+Description = 下雨天气或在水面、水下、污水面时，数值最高的能力的能力等级会提高。
+Score = 3
+Flags =
+#-------------------------------
+[PRIMORDIALSEA]
+Name = 始源之海
+Description = 变为不会受到火属性攻击的天气。在燃烧场地，免疫回合结束时的灼烧伤害。
+Score = 8
+Flags = AddOrBlockWeather
+#-------------------------------
+
+#-------------------------------
+# Weather-StrongWinds
+#-------------------------------
+[DELTASTREAM]
+Name = 德尔塔气流
+Description = 变为令飞行属性的弱点消失的天气。
+Score = 8
+Flags = AddOrBlockWeather
+#-------------------------------
+[WINDPOWER]
+Name = 风力发电
+Description = 乱流天气时，或当天气转变为乱流时，特攻提高1级。受到风的招式攻击时，会变为充电状态。
+Score = 1
+Flags = GetCharge
+#-------------------------------
+[WINDRIDER]
+Name = 乘风
+Description = 乱流天气时，或当天气转变为乱流时，攻击提高1级。吹起了顺风或受到风的招式攻击时，不会受到伤害，而是会提高攻击。
+Score = 3
+Flags = AddFormImmunity
+#-------------------------------
+
+
+#-------------------------------
+# 属性皮肤
+#-------------------------------
+[NORMALIZE]
+Name = 一般皮肤
+Description = 非一般属性的招式，会变为一般属性，招式威力增加10%，且该招式忽略属性抵抗。在彩虹场地、故障场地、神圣场地、反转场地，招式威力额外增加30%。
+Score = 7
+Flags = ChangeMoveType
+#-------------------------------
+[FIGHTITE]
+Name = 格斗皮肤
+Description = 一般属性的招式会变为格斗属性，招式威力增加10%。在马戏篷、白沙海滩，招式威力额外增加30%。
+Score = 5
+Flags = ChangeMoveType
+#-------------------------------
+[AERILATE]
+Name = 飞行皮肤
+Description = 一般属性的招式会变为飞行属性，招式威力增加10%。在高山、雪山，招式威力额外增加30%。
+Score = 5
+Flags = ChangeMoveType
+#-------------------------------
+[INTOXICATE]
+Name = 剧毒皮肤
+Description = 一般属性的招式会变为毒属性，招式威力增加10%。在沼泽场地、腐蚀场地、蚀雾场地、废土、污水面，招式威力额外增加30%。
+Score = 5
+Flags = ChangeMoveType
+#-------------------------------
+[TECTONIZE]
+Name = 大地皮肤
+Description = 一般属性的招式会变为地面属性，招式威力增加10%。在沙漠场地、白沙海滩，招式威力额外增加30%。
+Score = 5
+Flags = ChangeMoveType
+#-------------------------------
+[MINERALIZE]
+Name = 岩石皮肤
+Description = 一般属性的招式会变为岩石属性，招式威力增加10%。在岩石场地、洞窟、岩石洞窟、高山、雪山，招式威力额外增加30%。
+Score = 5
+Flags = ChangeMoveType
+#-------------------------------
+[POLLINATE]
+Name = 玉虫皮肤
+Description = 一般属性的招式会变为虫属性，招式威力增加10%。在森林场地、花园，招式威力额外增加30%。
+Score = 5
+Flags = ChangeMoveType
+#-------------------------------
+[SPECTRALIZE]
+Name = 幽灵皮肤
+Description = 一般属性的招式会变为幽灵属性，招式威力增加10%。在暗晶洞窟，招式威力额外增加30%。
+Score = 5
+Flags = ChangeMoveType
+#-------------------------------
+[STEELIZE]
+Name = 钢铁皮肤
+Description = 一般属性的招式会变为钢属性，招式威力增加10%。在工厂、短路场地、童话场地，招式威力额外增加30%。
+Score = 5
+Flags = ChangeMoveType
+#-------------------------------
+[FIREIZE]
+Name = 火炎皮肤
+Description = 一般属性的招式会变为火属性，招式威力增加10%。在燃烧场地、龙穴，招式威力额外增加30%。
+Score = 5
+Flags = ChangeMoveType
+#-------------------------------
+[HYDRATE]
+Name = 流水皮肤
+Description = 一般属性的招式会变为水属性，招式威力增加10%。在沼泽场地、水面、水下、污水面，招式威力额外增加30%。
+Score = 5
+Flags = ChangeMoveType
+#-------------------------------
+[GRASSAZE]
+Name = 青草皮肤
+Description = 一般属性的招式会变为草属性，招式威力增加10%。在青草场地、森林场地、花园，招式威力额外增加30%。
+Score = 5
+Flags = ChangeMoveType
+#-------------------------------
+[GALVANIZE]
+Name = 电气皮肤
+Description = 一般属性的招式会变为电属性，招式威力增加10%。在电气场地、工厂、短路场地，招式威力额外增加30%。
+Score = 5
+Flags = ChangeMoveType
+#-------------------------------
+[PSYCHICIZE]
+Name = 超能力皮肤
+Description = 一般属性的招式会变为超能力属性，招式威力增加10%。在棋盘、故障场地、神圣场地、星光战场、精神场地，招式威力额外增加30%。
+Score = 5
+Flags = ChangeMoveType
+#-------------------------------
+[ENLIGHTENED]
+Name = 启迪
+Description = 一般属性的招式会变为超能力属性，招式威力增加10%。在棋盘、故障场地、星光战场，招式威力额外增加30%。免疫畏缩、威吓和恐吓。招式真气弹必定能命中（除非目标不在场地上）。在白沙海滩，免疫混乱。
+Score = 8
+Flags = ChangeMoveType,ImmunityFlinch,ImmunityIntimidate,ImmunityDishearten
+#-------------------------------
+[REFRIGERATE]
+Name = 冰冻皮肤
+Description = 一般属性的招式会变为冰属性，招式威力增加10%。在冰冻场地、雪山、镜技场，招式威力额外增加30%。
+Score = 5
+Flags = ChangeMoveType
+#-------------------------------
+[REFRIGERATOR]
+Name = 冰箱
+Description = 一般属性的招式会变为冰属性，招式威力增加10%，在冰冻场地、雪山、镜技场，招式威力额外增加30%。命中率不会被降低。命中率增加20%。在镜技场，出场时降低敌方命中。在星光战场，出场时特攻大幅提高。
+Score = 6
+Flags = ChangeMoveType,ImmunityAccuracyDown,AccuracyUp
+#-------------------------------
+[DRAGONIZE]
+Name = 猛龙皮肤
+Description = 一般属性的招式会变为龙属性，招式威力增加10%。在彩虹场地、水晶洞窟、神圣场地、童话场地、龙穴，招式威力额外增加30%。
+Score = 5
+Flags = ChangeMoveType
+#-------------------------------
+[DARKIZE]
+Name = 凶恶皮肤
+Description = 一般属性的招式会变为恶属性，招式威力增加10%。在暗晶洞窟、星光战场、新世界，招式威力额外增加30%。
+Score = 5
+Flags = ChangeMoveType
+#-------------------------------
+[PIXILATE]
+Name = 妖精皮肤
+Description = 一般属性的招式会变为妖精属性，招式威力增加10%。在薄雾场地、彩虹场地、神圣场地、童话场地、星光战场，招式威力额外增加30%。
+Score = 5
+Flags = ChangeMoveType
+#-------------------------------
+[TWINKLETOES]
+Name = 轻盈舞步
+Description = 一般属性的招式会变为妖精属性，招式威力增加10%。在薄雾场地、彩虹场地、神圣场地、童话场地、星光战场，招式威力额外增加30%。踢击类招式的威力增加30%。
+Score = 6
+Flags = ChangeMoveType,DamageUp
+#-------------------------------
+
+#-------------------------------
+[CRYSTALLIZE]
+Name = 晶体化
+Description = 岩石属性的招式会变为冰属性，招式威力增加10%。
+Score = 3
+Flags = ChangeMoveType
+#-------------------------------
+
+
+
+#-------------------------------
+# HP恢复
+#-------------------------------
+[PUREHEART]
+Name = 纯洁
+Description = 每回合恢复最大HP的1/16。
+Score = 3
+Flags =
+#-------------------------------
+[SELFHEAL]
+Name = 自愈
+Description = 每回合恢复最大HP的1/16。
+Score = 3
+Flags =
+#-------------------------------
+[FATREGROWTH]
+Name = 脂肪再生
+Description = 每回合恢复最大HP的1/16。被厚厚的脂肪保护着，使受到的火属性和冰属性的招式的威力减少50%。
+Score = 6
+Flags = ReduceTakenDamage
+#-------------------------------
+[APPLEPIE]
+Name = 苹果派
+Description = 每回合恢复最大HP的1/16。使树果成熟，效果变为2倍。
+Score = 5
+Flags = Ripen
+#-------------------------------
+[SELFREPAIR]
+Name = 自我修复
+Description = 每回合恢复最大HP的1/16。回到同行队伍后，异常状态就会被治愈。
+Score = 4
+Flags = CureStatus
+#-------------------------------
+[HONEYGATHER]
+Name = 采蜜
+Description = 每回合恢复最大HP的1/16。战斗结束时，有时候会捡来甜甜蜜。
+Score = 3
+Flags =
+#-------------------------------
+[POISONHEAL]
+Name = 毒疗
+Description = 变为中毒状态时，HP不会减少，反而会恢复最大HP的1/8。在腐蚀场地、废土、污水面，若在场地上，则回合结束时恢复1/8。
+Score = 5
+Flags =
+#-------------------------------
+[REGENERATOR]
+Name = 再生力
+Description = 退回同行队伍后，HP会回复30%。
+Score = 3
+Flags = Regenerator
+#-------------------------------
+[NATURALRECOVERY]
+Name = 自然恢复
+Description = 回到同行队伍后，异常状态就会被治愈，且HP会回复30%。
+Score = 4
+Flags = CureStatus,Regenerator
+#-------------------------------
+
+
+#-------------------------------
+# 睡眠状态相关
+#-------------------------------
+[SWEETDREAMS]
+Name = 美梦
+Description = 处于睡眠状态时，每回合恢复最大HP的1/8。免疫梦魇。
+Score = 2
+Flags = SweetDreams
+#-------------------------------
+[BADDREAMS]
+Name = 梦魇
+Description = 每回合对处于睡眠状态的对手其最大HP1/4的伤害。
+Score = 2
+Flags =
+#-------------------------------
+[PEACEFULSLUMBER]
+Name = 安宁美梦
+Description = 每回合恢复最大HP的1/16。处于睡眠状态时，每回合恢复最大HP的1/8。免疫梦魇。
+Score = 4
+Flags = SweetDreams
+#-------------------------------
+[DREAMCATCHER]
+Name = 捕梦人
+Description = 若场上有睡眠状态的宝可梦，则招式威力翻倍。
+Score = 3
+Flags =
+#-------------------------------
+
+
+
+#-------------------------------
+# 场地相关
+#-------------------------------
+[ELECTRICSURGE]
+Name = 电气制造者
+Description = 出场时，会布下电气场地。
+Score = 7
+Flags = AddOrBlockTerrain
+#-------------------------------
+[HADRONENGINE]
+Name = 强子引擎
+Description = 出场时，会布下电气场地。处于电气场地时，特攻增加1/3。
+Score = 8
+Flags = AddOrBlockTerrain
+#-------------------------------
+[SURGESURFER]
+Name = 冲浪之尾
+Description = 在电气场地、短路场地、水面、水下、污水面时，速度会增加50%。
+Score = 3
+Flags =
+#-------------------------------
+[QUARKDRIVE]
+Name = 夸克充能
+Description = 携带着驱劲能量或在电气场地上时，数值最高的能力会提高。
+Score = 4
+Flags =
+#-------------------------------
+[GENERATOR]
+Name = 发电机
+Description = 出场时，若场地是电气场地，则变为充电状态。
+Score = 1
+Flags = GetCharge
+#-------------------------------
+
+#-------------------------------
+[PSYCHICSURGE]
+Name = 精神制造者
+Description = 出场时，会布下精神场地。
+Score = 7
+Flags = AddOrBlockTerrain
+#-------------------------------
+
+#-------------------------------
+[MISTYSURGE]
+Name = 薄雾制造者
+Description = 出场时，会布下薄雾场地。
+Score = 7
+Flags = AddOrBlockTerrain
+#-------------------------------
+
+#-------------------------------
+[GRASSYSURGE]
+Name = 青草制造者
+Description = 出场时，会布下青草场地。
+Score = 7
+Flags = AddOrBlockTerrain
+#-------------------------------
+[SEEDSOWER]
+Name = 掉出种子
+Description = 受到攻击时，会将脚下变成青草场地。若因此生成青草场地，则施放一次治愈铃声，治愈我方全员的异常状态。
+Score = 4
+Flags = AddOrBlockTerrain
+#-------------------------------
+[GRASSPELT]
+Name = 草之毛皮
+Description = 在青草场地、森林场地时，防御会增加50%。在燃烧场地，回合结束时的灼烧伤害翻倍。
+Score = 3
+Flags =
+#-------------------------------
+[FLOURISH]
+Name = 繁花似锦
+Description = 在青草场地、森林场地时，招式的威力增加30%。在燃烧场地，回合结束时的灼烧伤害翻倍。
+Score = 3
+Flags =
+#-------------------------------
+[FLORALSANCTUM]
+Name = 繁花圣域
+Description = 出场时，会布下青草场地。在青草场地、森林场地时，招式的威力增加30%。在燃烧场地，回合结束时的灼烧伤害翻倍。
+Score = 8
+Flags = AddOrBlockTerrain
+#-------------------------------
+[SEAWEED]
+Name = 海草
+Description = 在青草场地、森林场地时，受到的火属性招式的伤害减半。使用草属性招式攻击火属性宝可梦时，造成的伤害翻倍。
+Score = 3
+Flags =
+#-------------------------------
+
+#-------------------------------
+[INVERSION]
+Name = 反转制造者
+Description = 出场时，会布下持续3回合的反转场地。
+Score = 7
+Flags =
+#-------------------------------
+
+#-------------------------------
+[LAWNMOWER]
+Name = 割草机
+Description = 出场时，移除场地效果。如果移除成功，则数值最高的能力的能力等级会提高。
+Score = 2
+Flags = AddOrBlockTerrain
+#-------------------------------
+
+
+
+#-------------------------------
+# 气场相关
+#-------------------------------
+[DARKAURA]
+Name = 暗黑气场
+Description = 全体的恶属性招式变强。
+Score = 3
+Flags = AddAura
+#-------------------------------
+[FAIRYAURA]
+Name = 妖精气场
+Description = 全体的妖精属性招式变强。在童话场地，使用招式时必中。
+Score = 3
+Flags = AddAura
+#-------------------------------
+[AURABREAK]
+Name = 气场破坏
+Description = 让气场的效果发生逆转，降低威力。
+Score = 0
+Flags = AddAura
+#-------------------------------
+
+
+
+#-------------------------------
+# 对方倒下时
+#-------------------------------
+[MOXIE]
+Name = 自信过度
+Description = 如果打倒对手，就会充满自信，攻击会提高。
+Score = 6
+Flags = StateUpAfterKO
+#-------------------------------
+[HUBRIS]
+Name = 自负
+Description = 如果打倒对手，就会充满自信，特攻会提高。
+Score = 6
+Flags = StateUpAfterKO
+#-------------------------------
+[ADRENALINERUSH]
+Name = 兴奋激发
+Description = 如果打倒对手，就会充满自信，速度会提高。
+Score = 6
+Flags = StateUpAfterKO
+#-------------------------------
+[PRETENTIOUS]
+Name = 自命不凡
+Description = 如果打倒对手，就会充满自信，会心会提高。
+Score = 6
+Flags = StateUpAfterKO
+#-------------------------------
+[WAYOFSWIFTNESS]
+Name = 迅捷之道
+Description = 如果打倒对手，就会充满自信，会心会提高。下雨天气或在水面、水下、污水面时，速度会增加50%。
+Score = 8
+Flags = StateUpAfterKO,Swiftswim
+#-------------------------------
+[SOULHEART]
+Name = 魂心
+Description = 当有宝可梦变为濒死状态时，特攻会提高，在薄雾场地、彩虹场地、童话场地，特防也会提高。
+Score = 8
+Flags = StateUpAfterKO
+#-------------------------------
+[BEASTBOOST]
+Name = 异兽提升
+Description = 打倒对手的时候，自己最高的那项能力会提高。
+Score = 6
+Flags = StateUpAfterKO
+#-------------------------------
+[CHILLINGNEIGH]
+Name = 苍白嘶鸣
+Description = 打倒对手时会用冰冷的声音嘶鸣并提高攻击。
+Score = 6
+Flags = StateUpAfterKO
+#-------------------------------
+[GRIMNEIGH]
+Name = 漆黑嘶鸣
+Description = 打倒对手时会用恐怖的声音嘶鸣并提高特攻。
+Score = 6
+Flags = StateUpAfterKO
+#-------------------------------
+[ASONECHILLINGNEIGH]
+Name = 人马一体
+Description = 兼备蕾冠王的紧张感和雪暴马的苍白嘶鸣这两种特性。
+Score = 8
+Flags = StateUpAfterKO
+#-------------------------------
+[ASONEGRIMNEIGH]
+Name = 人马一体
+Description = 兼备蕾冠王的紧张感和灵幽马的漆黑嘶鸣这两种特性。
+Score = 8
+Flags = StateUpAfterKO
+#-------------------------------
+[CROWNEDKING]
+Name = 加冕为王
+Description = 兼备蕾冠王的紧张感、灵幽马的漆黑嘶鸣和雪暴马的苍白嘶鸣这三种特性。
+Score = 8
+Flags = StateUpAfterKO
+#-------------------------------
+
+#-------------------------------
+[PREDATOR]
+Name = 掠食者
+Description = 如果打倒对手，就会回复最大HP的1/4。
+Score = 6
+Flags = HealAfterKO
+#-------------------------------
+[SOULEATER]
+Name = 噬魂
+Description = 如果打倒对手，就会回复最大HP的1/4。
+Score = 6
+Flags = HealAfterKO
+#-------------------------------
+[SCAVENGER]
+Name = 清道夫
+Description = 如果打倒对手，就会回复最大HP的1/4。
+Score = 6
+Flags = HealAfterKO
+#-------------------------------
+[MAGMAEATER]
+Name = 熔岩吞噬者
+Description = 火属性招式可以对岩石属性宝可梦造成效果绝佳的伤害。如果打倒对手，就会回复最大HP的1/4。
+Score = 8
+Flags = HealAfterKO,ChangeTypeResistance
+#-------------------------------
+[HUNTERSHORN]
+Name = 猎手之角
+Description = 角钻类招式的威力增加30%。如果打倒对手，就会回复最大HP的1/4。
+Score = 8
+Flags = DamageUp,HealAfterKO
+#-------------------------------
+[JAWSOFCARNAGE]
+Name = 屠杀之颚
+Description = 如果打倒对手，若使用的招式是啃咬类的，则回复最大HP的1/2，否则回复最大HP的1/4。
+Score = 6
+Flags = HealAfterKO
+#-------------------------------
+
+#-------------------------------
+[RAMPAGE]
+Name = 暴走
+Description = 如果打倒对手，本来使用招式后下一回合自己无法动弹的状态将解除。
+Score = 3
+Flags = Rampage
+#-------------------------------
+
+#-------------------------------
+[SWIFTWIND]
+Name = 疾风迅雷
+Description = 若主动使用攻击招式打倒除自己外的任意宝可梦，则该招式额外向对方随机宝可梦施展一次。
+Score = 8
+Flags =
+#-------------------------------
+
+
+
+#-------------------------------
+# 能力降低时的能力变化
+#-------------------------------
+[DEFIANT]
+Name = 不服输
+Description = 如果能力被降低，那么攻击就会大幅提高。
+Score = 3
+Flags =
+#-------------------------------
+[COMPETITIVE]
+Name = 好胜
+Description = 如果能力被降低，那么特攻就会大幅提高。
+Score = 3
+Flags =
+#-------------------------------
+[RUNAWAY]
+Name = 逃跑
+Description = 如果能力被降低，那么速度就会提高。一定能从野生宝可梦那儿逃走。
+Score = 2
+Flags =
+#-------------------------------
+[TACTICALRETREAT]
+Name = 战术性撤退
+Description = 如果能力被降低，那么就会退回到同行队伍中。
+Score = 0
+Flags = EmergencyExit
+#-------------------------------
+[QUEENSMOURNING]
+Name = 女王的哀思
+Description = 如果己方宝可梦的能力被降低，那么它的特攻和特防就会提高。在童话场地，招式伤害增加50%。
+Score = 5
+Flags =
+#-------------------------------
+[KINGSWRATH]
+Name = 王者的愤怒
+Description = 如果己方宝可梦的能力被降低，那么它的攻击和防御就会提高。在童话场地，招式伤害增加50%。
+Score = 5
+Flags =
+#-------------------------------
+
+
+
+
+#-------------------------------
+# 出场时能力变化
+#-------------------------------
+[INTIMIDATE]
+Name = 威吓
+Description = 出场时威吓对手，让其退缩，降低对手的攻击。
+Score = 4
+Flags =
+#-------------------------------
+[DISHEARTEN]
+Name = 恐吓
+Description = 出场时恐吓对手，降低对手的特攻。
+Score = 4
+Flags =
+#-------------------------------
+[TERRIFY]
+Name = 恐吓+
+Description = 出场时恐吓对手，大幅降低对手的特攻。
+Score = 6
+Flags =
+#-------------------------------
+[FEARMONGER]
+Name = 恐惧制造者
+Description = 出场时恐吓对手，降低对手的攻击和特攻。使用接触类招式时，10%概率使对手麻痹。
+Score = 7
+Flags = SufferTargetWithParalyze
+#-------------------------------
+#[SUPERSWEETSYRUP]
+#Name = 甘露之蜜
+#Description = 首次出场时，会散发出甜腻的蜜的香味来降低对手的闪避率。
+#Score = 1
+#Flags =
+#-------------------------------
+
+#-------------------------------
+[MAJESTICMOTH]
+Name = 大蛾子
+Description = 出场时，数值最高的能力的能力等级会提高。
+Score = 3
+Flags =
+#-------------------------------
+[GREATERSPIRIT]
+Name = 伟大的灵魂
+Description = 出场时，数值最高的能力的能力等级会提高。
+Score = 3
+Flags =
+#-------------------------------
+[INTREPIDSWORD]
+Name = 不挠之剑
+Description = 出场时，攻击会提高。
+Score = 3
+Flags = StateUpInSwitchIn
+#-------------------------------
+[CROWNEDSWORD]
+Name = 剑之王
+Description = 出场时，攻击会提高。受到攻击时，攻击会提高。要害被击中时，攻击会变为最大。
+Score = 8
+Flags = StateUpAfterBeHit,StateUpInSwitchIn
+#-------------------------------
+[BERSERKDNA]
+Name = 基因暴走
+Description = 出场时，攻击、特攻中更高的那项会大幅提高，但是会陷入混乱。
+Score = 8
+Flags = StateUpInSwitchIn
+#-------------------------------
+[ECTOPLASM]
+Name = 灵质
+Description = 出场时，攻击、特攻中更高的那项会提高。
+Score = 3
+Flags = StateUpInSwitchIn
+#-------------------------------
+[DAUNTLESSSHIELD]
+Name = 不屈之盾
+Description = 出场时，防御会提高。
+Score = 3
+Flags = StateUpInSwitchIn
+#-------------------------------
+[CROWNEDSHIELD]
+Name = 盾之王
+Description = 出场时，防御会提高。受到攻击时，防御会提高。要害被击中时，防御会变为最大。
+Score = 8
+Flags = StateUpAfterBeHit,StateUpInSwitchIn
+#-------------------------------
+[DOWNLOAD]
+Name = 下载
+Description = 比较对手的防御和特防，根据较低的那项能力相应地提高自己的攻击或特攻。在工厂时，效果翻倍。
+Score = 3
+Flags = StateUpInSwitchIn
+#-------------------------------
+[HOLYGUARD]
+Name = 神圣守护
+Description = 比较对手的攻击和特攻，根据较高的那项能力相应地提高自己的防御或特防。在神圣场地时，效果翻倍。
+Score = 4
+Flags = StateUpInSwitchIn
+#-------------------------------
+[COMMANDER]
+Name = 发号施令
+Description = 出场时，若我方当中有吃吼霸，就会进入其口中，并从其口中发出指令。
+Score = 2
+Flags = Banned
+#-------------------------------
+[MAGICIAN]
+Name = 魔术师
+Description = 夺走被自己的招式击中的对手的道具。在童话场地，出场时特攻会提高。
+Score = 1
+Flags =
+#-------------------------------
+[STANCECHANGE]
+Name = 战斗切换
+Description = 如果使出攻击招式，会变为刀剑形态，如果使出招式“王者盾牌”，会变为盾牌形态。在童话场地，出场时防御会提高。
+Score = 3
+Flags = Banned
+#-------------------------------
+
+#-------------------------------
+[COSTAR]
+Name = 同台共演
+Description = 出场时，复制同伴的能力变化。
+Score = 3
+Flags =
+#-------------------------------
+[CURIOUSMEDICINE]
+Name = 怪药
+Description = 出场时会从贝壳撒药，将我方的能力变化复原。
+Score = 1
+Flags =
+#-------------------------------
+
+
+
+#-------------------------------
+# 出场时场地效果
+#-------------------------------
+[DISARRAY]
+Name = 混沌
+Description = 出场时，施放持续3个回合的戏法空间。不具有反戏法空间的效果。
+Score = 8
+Flags =
+#-------------------------------
+[AIRBLOWER]
+Name = 鼓风
+Description = 出场时，吹起持续3个回合的顺风。
+Score = 7
+Flags =
+#-------------------------------
+[SPIDERLAIR]
+Name = 蛛穴
+Description = 出场时，在对方场地施放一个持续5个回合的黏黏网。
+Score = 7
+Flags =
+#-------------------------------
+[PASTELVEIL]
+Name = 粉彩护幕
+Description = 出场时，施放持续5个回合的神秘守护。自己和同伴都不会陷入中毒的异常状态。
+Score = 4
+Flags =
+#-------------------------------
+[GRAVITYWELL]
+Name = 引力井
+Description = 出场时，施放持续5个回合的重力。
+Score = 5
+Flags =
+#-------------------------------
+[AURORA]
+Name = 极光
+Description = 出场时，布下持续3个回合的极光幕。
+Score = 8
+Flags =
+#-------------------------------
+[PICKUP]
+Name = 捡拾
+Description = 出场时，去除己方场地上的钉子、毒钉、隐形岩、黏黏网和寄生种子。有时会捡来对手用过的道具，冒险过程中也会捡到。
+Score = 4
+Flags = RemoveHazards
+#-------------------------------
+[SCREENCLEANER]
+Name = 除障
+Description = 出场时，去除对方场地上光墙、反射壁和极光幕。
+Score = 3
+Flags =
+#-------------------------------
+[WATCHYOURSTEP]
+Name = 注意脚下
+Description = 出场时，会在对手场地散布2层撒菱。
+Score = 7
+Flags = AddHazards
+#-------------------------------
+
+
+
+
+#-------------------------------
+# 出场时施放招式
+#-------------------------------
+[COWARD]
+Name = 胆小鬼
+Description = 首次出场时，施放一次守住。
+Score = 3
+Flags = CallMoveInSwitchIn
+#-------------------------------
+[JUMPSCARE]
+Name = 突发惊吓
+Description = 首次出场时，施放一次惊吓，有时会使对手畏缩。
+Score = 2
+Flags = CallMoveInSwitchIn
+#-------------------------------
+[WATERVEIL]
+Name = 水幕
+Description = 将水幕裹在身上，每回合回复最大HP的1/16，且不会变为烧伤状态。在燃烧场地，免疫回合结束时的灼烧伤害。在水面、水下，回合结束会治愈自身异常状态。
+Score = 3
+Flags = CallMoveInSwitchIn,ImmunityBurn
+#-------------------------------
+[DUSTCLOUD]
+Name = 尘云
+Description = 出场时，向对方随机宝可梦施放一次泼沙，降低其命中率。
+Score = 2
+Flags = CallMoveInSwitchIn
+#-------------------------------
+[CHEAPTACTICS]
+Name = 简单战术
+Description = 出场时，向对方随机宝可梦施放一次抓。
+Score = 1
+Flags = CallMoveInSwitchIn
+#-------------------------------
+[TELEKINETIC]
+Name = 遥感
+Description = 出场时，向对方随机宝可梦施放一次意念移物，使其在3回合内容易被攻击命中。
+Score = 1
+Flags = CallMoveInSwitchIn
+#-------------------------------
+[FOREWARN]
+Name = 预知梦
+Description = 出场时，读取1个对手拥有的招式，并且施放一次50威力的预知未来，2回合后，向对手发送一团念力进行攻击。在精神场地，速度翻倍。
+Score = 2
+Flags = CallMoveInSwitchIn
+#-------------------------------
+[SOOTHINGAROMA]
+Name = 舒缓香气
+Description = 出场时，施放一次芳香治疗，治愈我方全员的异常状态。
+Score = 3
+Flags = CallMoveInSwitchIn,CureStatus
+#-------------------------------
+[MONKEYBUSINESS]
+Name = 恶作剧
+Description = 出场时，向对方随机宝可梦施放一次挠痒，降低其攻击和防御。
+Score = 1
+Flags = CallMoveInSwitchIn
+#-------------------------------
+[TRICKSTER]
+Name = 捣蛋鬼
+Description = 出场时，向对方随机宝可梦施放一次定身法，使其在4回合内无法使用之前使出的招式。
+Score = 1
+Flags = SufferTargetWithDisable,CallMoveInSwitchIn
+#-------------------------------
+[DOOMBRINGER]
+Name = 破灭使者
+Description = 出场时，施放一次破灭之愿，2回合后，会用无数道光束攻击对手。
+Score = 3
+Flags = CallMoveInSwitchIn
+#-------------------------------
+[WISHMAKER]
+Name = 造愿者
+Description = 出场时，施放一次祈愿，在下一回合回复自己或是替换出场的宝可梦最大HP的一半，该效果一场战斗只能触发3次。
+Score = 4
+Flags = CallMoveInSwitchIn
+#-------------------------------
+[SUPPRESS]
+Name = 抑制
+Description = 出场时，向对方随机宝可梦施放一次无理取闹，使其不能连续2次使出相同招式。
+Score = 3
+Flags = CallMoveInSwitchIn
+#-------------------------------
+[CHANGEOFHEART]
+Name = 心灵变幻
+Description = 出场时，向对方随机宝可梦施放一次心灵互换，互换自己和它之间的能力变化。
+Score = 7
+Flags = CallMoveInSwitchIn
+#-------------------------------
+[FRISK]
+Name = 察觉
+Description = 出场时，可以察觉对手的道具。在2回合内无效化对手的道具。
+Score = 4
+Flags = CallMoveInSwitchIn,DisableItems
+#-------------------------------
+[GLEAMEYES]
+Name = 闪烁之眼
+Description = 出场时，降低对手的特攻，察觉对手的道具。在2回合内无效化对手的道具。
+Score = 6
+Flags = CallMoveInSwitchIn,DisableItems
+#-------------------------------
+[POWDERBURST]
+Name = 粉尘爆发
+Description = 出场时，向对方随机宝可梦施放一次粉尘，若其使用火招式，则会爆炸并给予伤害。
+Score = 3
+Flags = CallMoveInSwitchIn
+#-------------------------------
+[MONSTERMASH]
+Name = 怪物狂欢
+Description = 出场时，向对方随机宝可梦施放一次万圣夜，使其被追加幽灵属性。
+Score = 3
+Flags = CallMoveInSwitchIn,ChangeTargetType
+#-------------------------------
+[PHANTOMTHIEF]
+Name = 幻影偷盗
+Description = 出场时，向对方随机宝可梦施放一次40威力的暗影偷盗，会夺取对手的能力提高再攻击。
+Score = 7
+Flags = CallMoveInSwitchIn
+#-------------------------------
+[WEBSPINNER]
+Name = 吐丝
+Description = 出场时，向对方随机宝可梦施放一次吐丝，大幅降低其速度。
+Score = 3
+Flags = CallMoveInSwitchIn
+#-------------------------------
+[WINDRAGE]
+Name = 风怒
+Description = 出场时，向对方随机宝可梦施放一次清除浓雾，降低其闪避率，并移除对手的反射壁或光墙等。
+Score = 5
+Flags = CallMoveInSwitchIn
+#-------------------------------
+[TARTOSS]
+Name = 沥青喷吐
+Description = 出场时，向对方随机宝可梦施放一次沥青射击，降低其速度，并使其弱点变为火。
+Score = 3
+Flags = CallMoveInSwitchIn
+#-------------------------------
+[REJECTION]
+Name = 否决
+Description = 出场时，向对方随机宝可梦施放一次延后，将其行动顺序放到最后。
+Score = 3
+Flags = CallMoveInSwitchIn
+#-------------------------------
+[LOWBLOW]
+Name = 卑鄙手段
+Description = 出场时，向对方随机宝可梦施放一次佯攻，解除其守护效果。
+Score = 3
+Flags = CallMoveInSwitchIn
+#-------------------------------
+[HOTCOALS]
+Name = 热炭
+Description = 出场时，在对方场地设置一个陷阱，使对方下一个出场的宝可梦陷入烧伤。
+Score = 3
+Flags = CallMoveInSwitchIn
+#-------------------------------
+[DRACOMORALE]
+Name = 龙之鼓舞
+Description = 出场时，施放一次龙声鼓舞，让我方的招式变得容易击中要害。对龙属性的鼓舞效果会更强。
+Score = 6
+Flags = CallMoveInSwitchIn
+#-------------------------------
+[WILDFIRE]
+Name = 野火
+Description = 出场时，向对方随机宝可梦施放一次火焰旋涡。将对手困在激烈的火焰旋涡中，在4~5回合内进行攻击。
+Score = 4
+Flags = CallMoveInSwitchIn
+#-------------------------------
+[POSEIDONSDOMINION]
+Name = 海神领域
+Description = 出场时，向对方随机宝可梦施放一次潮旋。将对手困在激烈的水流旋涡中，在4~5回合内进行攻击。
+Score = 4
+Flags = CallMoveInSwitchIn
+#-------------------------------
+[DEFENCEROLL]
+Name = 防卫卷
+Description = 出场时，施放一次变圆。将身体蜷曲变圆，从而提高自己的防御。
+Score = 3
+Flags = CallMoveInSwitchIn
+#-------------------------------
+
+
+
+
+#-------------------------------
+# 出场时其他效果
+#-------------------------------
+[PRESSURE]
+Name = 压迫感
+Description = 出场时，移除对方所有宝可梦的能力提高。给予对手压迫感，大量减少其使用招式的PP。
+Score = 8
+Flags =
+#-------------------------------
+[HOSPITALITY]
+Name = 款待
+Description = 出场时款待同伴，回复其少量HP。
+Score = 3
+Flags =
+#-------------------------------
+[TRACE]
+Name = 复制
+Description = 出场时，复制对手的特性，变为与之相同的特性。
+Score = 0
+Flags = Banned
+#-------------------------------
+[SUPREMEOVERLORD]
+Name = 大将
+Description = 出场时，攻击和特攻会按照目前被打倒的同伴数量逐渐提高，被打倒越多，提高越多。
+Score = 3
+Flags =
+#-------------------------------
+[VIOLENTRUSH]
+Name = 暴力猛冲
+Description = 出场的第一个回合，速度增加50%，攻击增加20%。
+Score = 4
+Flags =
+#-------------------------------
+[RAPIDRESPONSE]
+Name = 快速反应
+Description = 出场的第一个回合，速度增加50%，特攻增加20%。
+Score = 4
+Flags =
+#-------------------------------
+[READIEDACTION]
+Name = 准备就绪
+Description = 出场的第一个回合，攻击和特攻增加100%。
+Score = 5
+Flags =
+#-------------------------------
+[SHOWDOWNMODE]
+Name = 决战模式
+Description = 出场的第一个回合，速度增加50%，攻击增加20%，使用的招式必定命中要害。
+Score = 7
+Flags =
+#-------------------------------
+[GALLANTRY]
+Name = 英勇
+Description = 出场时，获得一个护盾，将第一次受到的伤害降为1。
+Score = 7
+Flags = CallMoveInSwitchIn
+#-------------------------------
+
+
+
+
+#-------------------------------
+# 修改属性抗性
+#-------------------------------
+[CORROSION]
+Name = 腐蚀
+Description = 可使钢、毒属性的宝可梦中毒。毒属性招式可以击中钢属性宝可梦，造成效果绝佳的伤害。在腐蚀场地、蚀雾场地，招式威力增加30%。在废土，使用招式有10%使目标烧伤、中毒、麻痹、冰冻。
+Score = 7
+Flags = ChangeTypeResistance
+#-------------------------------
+[MOLTENDOWN]
+Name = 熔融
+Description = 火属性招式可以对岩石属性宝可梦造成效果绝佳的伤害。
+Score = 4
+Flags = ChangeTypeResistance
+#-------------------------------
+[OVERCHARGE]
+Name = 过载
+Description = 电属性招式可以对电属性宝可梦造成效果绝佳的伤害。可以麻痹电属性宝可梦。
+Score = 5
+Flags = ChangeTypeResistance
+#-------------------------------
+
+
+#-------------------------------
+[MINDSEYE]
+Name = 心眼
+Description = 一般属性和格斗属性的招式可以击中幽灵属性的宝可梦。无视对手的闪避率的变化，且命中率不会被降低。
+Score = 6
+Flags = ChangeTypeResistance,ImmunityAccuracyDown
+#-------------------------------
+[SCRAPPY]
+Name = 胆量
+Description = 一般属性和格斗属性的招式可以击中幽灵属性的宝可梦，造成一般的伤害。免疫威吓和恐吓。
+Score = 7
+Flags = ChangeTypeResistance,ImmunityIntimidate,ImmunityDishearten
+#-------------------------------
+[PHANTOMPAIN]
+Name = 幻痛
+Description = 幽灵属性招式可以击中一般属性宝可梦，造成一般的伤害
+Score = 5
+Flags = ChangeTypeResistance
+#-------------------------------
+[BONEZONE]
+Name = 骨区
+Description = 骨头类招式无视属性免疫和特性免疫，效果不好时伤害翻倍。
+Score = 3
+Flags = ChangeTypeResistance
+#-------------------------------
+
+#-------------------------------
+[OVERWHELM]
+Name = 充溢
+Description = 龙属性招式可以击中妖精属性宝可梦，造成一般的伤害。免疫威吓和恐吓。
+Score = 7
+Flags = ChangeTypeResistance,ImmunityIntimidate,ImmunityDishearten
+#-------------------------------
+[GROUNDSHOCK]
+Name = 大地震击
+Description = 电属性招式可以击中地面属性宝可梦，造成不是很有效的伤害。电磁波可以对地面属性宝可梦生效。
+Score = 5
+Flags = ChangeTypeResistance
+#-------------------------------
+
+#-------------------------------
+[GIFTEDMIND]
+Name = 天赋异禀
+Description = 无效化自身超能力属性弱点。变化类招式必定能命中（除非目标不在场地上）。
+Score = 7
+Flags = ChangeTypeResistance
+#-------------------------------
+
+
+
+
+
+#-------------------------------
+# 替换
+#-------------------------------
+[WIMPOUT]
+Name = 跃跃欲逃
+Description = HP变为一半时，会慌慌张张逃走，退回同行队伍中。
+Score = 0
+Flags = EmergencyExit
+#-------------------------------
+[EMERGENCYEXIT]
+Name = 危险回避
+Description = HP变为一半时，为了回避危险，会退回到同行队伍中。
+Score = 0
+Flags = EmergencyExit
+#-------------------------------
+
+
+#-------------------------------
+# 招式追加效果概率
+#-------------------------------
+[SHIELDDUST]
+Name = 鳞粉
+Description = 被鳞粉守护着，不会受到招式的追加效果影响。出场时，不受脚下陷阱等的影响。
+Score = 7
+Flags =
+#-------------------------------
+[SERENEGRACE]
+Name = 天恩
+Description = 托天恩的福，招式的追加效果容易出现。
+Score = 3
+Flags =
+#-------------------------------
+[PYROMANCY]
+Name = 火卜
+Description = 火属性招式使对手烧伤的概率提高4倍。
+Score = 1
+Flags =
+#-------------------------------
+[PRECISEFIST]
+Name = 精准之拳
+Description = 拳类招式的会心+1，追加效果触发概率提高4倍。
+Score = 3
+Flags = Precisefist
+#-------------------------------
+[WAYOFPRECISION]
+Name = 精准之道
+Description = 拳类招式的会心+1，追加效果触发概率提高4倍。免疫畏缩、威吓和恐吓。招式真气弹必定能命中（除非目标不在场地上）。在白沙海滩，免疫混乱。
+Score = 8
+Flags = ImmunityFlinch,ImmunityIntimidate,ImmunityDishearten,Precisefist
+#-------------------------------
+
+
+
+#-------------------------------
+# 魔法防守
+#-------------------------------
+[MAGICGUARD]
+Name = 魔法防守
+Description = 不会受到攻击以外的伤害。在童话场地，出场时特防会提高。
+Score = 8
+Flags = MagicGuard
+#-------------------------------
+[IMPENETRABLE]
+Name = 密闭
+Description = 不会受到攻击以外的伤害。
+Score = 8
+Flags = MagicGuard
+#-------------------------------
+[IMMOVABLEOBJECT]
+Name = 不动堡垒
+Description = 不会受到攻击以外的伤害。即使受到对手的招式攻击，也不会被一击打倒。一击必杀的招式也没有效果。
+Score = 8
+Flags = MagicGuard,ReduceDamageInFull
+#-------------------------------
+
+
+
+#-------------------------------
+# 连击
+#-------------------------------
+[PARENTALBOND]
+Name = 亲子爱
+Description = 对于攻击单体的招式，可以攻击2次，第二次造成25%伤害。招式的固定伤害也会衰减。
+Score = 8
+Flags = MultiAttack
+#-------------------------------
+[HYPERAGGRESSIVE]
+Name = 咄咄逼人
+Description = 对于攻击单体的招式，可以攻击2次，第二次造成25%伤害。招式的固定伤害也会衰减。
+Score = 8
+Flags = MultiAttack
+#-------------------------------
+[RAGINGGODDESS]
+Name = 愤怒女神
+Description = 对于攻击单体的招式，可以攻击2次，第二次造成25%伤害。招式的固定伤害也会衰减。如果打倒对手，本来使用招式后下一回合自己无法动弹的状态将解除。
+Score = 8
+Flags = MultiAttack,Rampage
+#-------------------------------
+[FRENZIEDPHANTOM]
+Name = 狂乱幻影
+Description = 对于攻击单体的招式，可以攻击2次，第二次造成25%伤害。招式的固定伤害也会衰减。踩住对手的影子使其无法逃走或替换。无法影响拥有幽灵属性或者踩影、狂乱幻影的宝可梦。
+Score = 8
+Flags = MultiAttack,AddTrap
+#-------------------------------
+[MULTIHEADED]
+Name = 多头
+Description = 对于攻击单体的招式，每多一个头，攻击次数增加一次（非多头宝可梦该次数为2），最大次数为5。按顺序，每次攻击伤害为100%、20%、10%、10%和10%。招式的固定伤害也会衰减。
+Score = 8
+Flags = MultiAttack
+#-------------------------------
+[RAGINGBOXER]
+Name = 暴怒拳手
+Description = 对于攻击单体的拳类招式，可以攻击2次，第二次造成40%伤害。招式的固定伤害也会衰减。
+Score = 8
+Flags = MultiAttack
+#-------------------------------
+[DUALWIELD]
+Name = 双持
+Description = 对于攻击单体的波动类和切割类招式，可以攻击2次，每次都造成70%伤害。招式的固定伤害也会衰减。
+Score = 8
+Flags = MultiAttack
+#-------------------------------
+[PRIMALMAW]
+Name = 原始之颚
+Description = 对于攻击单体的啃咬类招式，可以攻击2次，第二次造成40%伤害。招式的固定伤害也会衰减。
+Score = 8
+Flags = MultiAttack
+#-------------------------------
+[DEVOURER]
+Name = 吞噬者
+Description = 啃咬类招式的威力增加30%。对于攻击单体的啃咬类招式，可以攻击2次，第二次造成40%伤害。招式的固定伤害也会衰减。
+Score = 8
+Flags = DamageUp,MultiAttack
+#-------------------------------
+
+
+#-------------------------------
+# 破格
+#-------------------------------
+[MOLDBREAKER]
+Name = 破格
+Description = 可以不受对手特性的干扰，向对手使出招式。
+Score = 5
+Flags = MoldBreak
+#-------------------------------
+[TURBOBLAZE]
+Name = 涡轮火焰
+Description = 可以不受对手特性的干扰，向对手使出招式。出场时，若自身没有火属性，那么获得火属性。
+Score = 6
+Flags = MoldBreak,AddExtraType
+#-------------------------------
+[TERAVOLT]
+Name = 兆级电压
+Description = 可以不受对手特性的干扰，向对手使出招式。出场时，若自身没有电属性，那么获得电属性。
+Score = 6
+Flags = MoldBreak,AddExtraType
+#-------------------------------
+[NEUTRALIZINGGAS2]
+Name = 化学变化气体
+Description = 自身和队友获得破格效果。自身和队友的特性慢启动、软弱、懒惰失效。
+Score = 7
+Flags = MoldBreak
+#-------------------------------
+[EXPLOSION]
+Name = E.X.P.L.O.S.I.O.N.
+Description = 可以不受对手特性的干扰，向对手使出招式。使用大爆炸、自爆、薄雾炸裂时，其类型变成特殊、伤害增加100%，该效果只对慧慧有效。
+Score = 6
+Flags = Banned,MoldBreak
+#-------------------------------
+
+
+#-------------------------------
+# 无视吸引
+#-------------------------------
+[PROPELLERTAIL]
+Name = 螺旋尾鳍
+Description = 能无视具有吸引对手招式效果的特性或招式的影响。在水面、水下，速度翻倍。
+Score = 3
+Flags = Stalwart
+#-------------------------------
+[STALWART]
+Name = 坚毅
+Description = 能无视具有吸引对手招式效果的特性或招式的影响。
+Score = 3
+Flags = Stalwart
+#-------------------------------
+
+
+
+
+
+#-------------------------------
+# 血少强化
+#-------------------------------
+[ANGERSHELL]
+Name = 愤怒甲壳
+Description = 因被对手攻击而HP变为一半时，会因愤怒降低防御和特防，但攻击、特攻、速度会大幅提高。
+Score = 3
+Flags = StateUpInHalf
+#-------------------------------
+[BERSERK]
+Name = 怒火冲天
+Description = 因对手的攻击而HP变为一半时，特攻会提高。
+Score = 3
+Flags = StateUpInHalf
+#-------------------------------
+[FORTIFICATION]
+Name = 临时强化
+Description = 因对手的攻击而HP变为一半时，提高防御和特防。
+Score = 3
+Flags = StateUpInHalf
+#-------------------------------
+[VENGEFUL]
+Name = 复仇心切
+Description = 因对手的攻击而HP变为一半时，攻击和速度会提高。
+Score = 3
+Flags = StateUpInHalf
+#-------------------------------
+[TERMINATOR]
+Name = 终结者
+Description = 因对手的攻击而HP变为一半时，攻击会提高。
+Score = 3
+Flags = StateUpInHalf
+#-------------------------------
+
+
+
+
+#-------------------------------
+# 免疫反伤
+#-------------------------------
+[ROCKHEAD]
+Name = 坚硬脑袋
+Description = 即使使出会受反作用力伤害的招式，HP也不会减少。在洞窟，免疫坍塌伤害。
+Score = 3
+Flags = IgnoreRecoil
+#-------------------------------
+[STEELBARREL]
+Name = 钢铁脑袋
+Description = 即使使出会受反作用力伤害的招式，HP也不会减少。在洞窟，免疫坍塌伤害。
+Score = 3
+Flags = IgnoreRecoil
+#-------------------------------
+
+
+#-------------------------------
+# 回合结束时能力变化
+#-------------------------------
+[MOODY]
+Name = 心情不定
+Description = 回合结束时，能力中的某项会大幅提高，而某项会降低。
+Score = 6
+Flags = StateUpInTurnEnd
+#-------------------------------
+[SPEEDBOOST]
+Name = 加速
+Description = 回合结束时，速度会提高。
+Score = 7
+Flags = StateUpInTurnEnd
+#-------------------------------
+[POWEROFALCHEMY]
+Name = 化学之力
+Description = 回合结束时，随机提高一项能力。在童话场地，出场时双防会提高。
+Score = 5
+Flags = StateUpInTurnEnd
+#-------------------------------
+
+
+
+#-------------------------------
+# 招式分类改变
+#-------------------------------
+[TAEKKYEON]
+Name = 领舞
+Description = 所有招式都被当做舞类招式。
+Score = 6
+Flags =
+#-------------------------------
+
+
+#-------------------------------
+# 道具无法被夺走
+#-------------------------------
+[STICKYHOLD]
+Name = 黏着
+Description = 因为道具是粘在黏性身体上的，所以不会被对手夺走。
+Score = 0
+Flags = Stickyhold
+#-------------------------------
+[SUPERSWEETSYRUP]
+Name = 甘露之蜜
+Description = 受到接触类招式攻击时，在2回合内无效化对手的道具。因为道具是粘在黏性身体上的，所以不会被对手夺走。
+Score = 3
+Flags = Stickyhold,DisableItems
+#-------------------------------
+
+
+#-------------------------------
+# 穿透
+#-------------------------------
+[UNSEENFIST]
+Name = 无形拳
+Description = 如果使出的是接触到对手的招式，就可以无视守护效果进行攻击，也能穿透特性英勇产生的护盾并使之无效。
+Score = 6
+Flags = IgnoreTargetProtect
+#-------------------------------
+[FINALBLOW]
+Name = 最终一击
+Description = 效果绝佳的招式必定命中（除非目标不在场地上），且威力增加20%。如果使出的是接触到对手的招式，就可以无视守护效果进行攻击，也能穿透特性英勇产生的护盾并使之无效。
+Score = 8
+Flags = IgnoreTargetProtect,AlwaysHit,DamageUp
+#-------------------------------
+[INFILTRATOR]
+Name = 穿透
+Description = 可以穿透对手的壁障或替身进行攻击。也能穿透特性英勇产生的护盾并使之无效。
+Score = 3
+Flags = IgnoreTargetScreenSubtitle
+#-------------------------------
+[MARINEAPEX]
+Name = 海洋之巅
+Description = 可以穿透对手的壁障或替身进行攻击。也能穿透特性英勇产生的护盾并使之无效。若对手是水属性宝可梦，那么对其施放的招式的伤害增加50%。
+Score = 5
+Flags = IgnoreTargetScreenSubtitle,DamageUp
+#-------------------------------
+
+
+#-------------------------------
+# 无效化特性
+#-------------------------------
+[WONDERSKIN]
+Name = 奇迹皮肤
+Description = 受到招式攻击时，招式使用者自身的伤害改变类特性和多次攻击类特性不会生效。
+Score = 8
+Flags = BlockDmgUpAndMultiAttack
+#-------------------------------
+[FORTKNOX]
+Name = 要塞
+Description = 受到招式攻击时，招式使用者自身的伤害改变类特性和多次攻击类特性不会生效。
+Score = 8
+Flags = BlockDmgUpAndMultiAttack
+#-------------------------------
+[PRIMANDPROPER]
+Name = 循规蹈矩
+Description = 受到招式攻击时，招式使用者自身的伤害改变类特性和多次攻击类特性不会生效。使用或受到接触类招式攻击时，都有50%的概率使对手陷入着迷。着迷的对手对该宝可梦进行攻击时，攻击力减少50%。
+Score = 8
+Flags = SufferTargetWithAttrack,ReduceTakenDamage,BlockDmgUpAndMultiAttack
+#-------------------------------
+
+
+
+#-------------------------------
+# 特殊
+#-------------------------------
+[ACCELERATE]
+Name = 快速蓄能
+Description = 需要蓄能的招式现在可以立即使出（强力香草的效果）。
+Score = 7
+Flags =
+#-------------------------------
+[TOXICSPILL]
+Name = 剧毒扩散
+Description = 场上的宝可梦，若没有毒属性或该特性，则回合结束时损失最大HP的1/8。
+Score = 4
+Flags =
+#-------------------------------
+[TRASHHEAP]
+Name = 垃圾堆
+Description = 场上的宝可梦，若没有毒属性或该特性，则回合结束时损失最大HP的1/8。可使钢、毒属性的宝可梦中毒。毒属性招式可以击中钢属性宝可梦，造成效果绝佳的伤害。在腐蚀场地、蚀雾场地，招式威力增加30%。在废土，使用招式有10%使目标烧伤、中毒、麻痹、冰冻。
+Score = 8
+Flags = ChangeTypeResistance
+#-------------------------------
+[PERMANENCE]
+Name = 不治
+Description = 对手无法恢复HP。
+Score = 7
+Flags =
+#-------------------------------
+[DANCER]
+Name = 舞者
+Description = 有谁使出舞类招式时，自己会接着使出该招式。在马戏篷，主动使用舞类招式时特攻、速度会提高。
+Score = 3
+Flags =
+#-------------------------------
+[PARROTING]
+Name = 鹦鹉学舌
+Description = 有谁使出声音类招式时，自己会接着使出该招式。在马戏篷，主动使用声音类招式时特攻、速度会提高。
+Score = 3
+Flags =
+#-------------------------------
+[SHARINGISCARING]
+Name = 分享至上
+Description = 场地上所有宝可梦共享所有的能力变化，该变化不受其他特性的影响。
+Score = 5
+Flags =
+#-------------------------------
+[LIGHTMETAL]
+Name = 轻金属
+Description = 自身的速度增加30%，且重量会减半。
+Score = 2
+Flags =
+#-------------------------------
+[RKSSYSTEM]
+Name = AR系统
+Description = 根据持有的存储碟，自己的属性会改变。在故障场地，无视携带道具，变成???属性。在新世界，无视携带道具，出场和回合结束时都会随机变换属性(包括???属性)。
+Score = 2
+Flags = Banned
+#-------------------------------
+[MIMICRY]
+Name = 拟态
+Description = 宝可梦的属性会根据场地的状态而变化。在新世界，出场和回合结束时都会随机变换属性(包括???属性)。
+Score = 0
+Flags = Banned
+#-------------------------------
+[TELEPATHY]
+Name = 心灵感应
+Description = 读取我方的攻击，并闪避其招式伤害。在精神场地，速度翻倍。
+Score = 5
+Flags =
+#-------------------------------
+[WONDERGUARD]
+Name = 神奇守护
+Description = 不可思议的力量，只有效果绝佳的招式才能击中。该特性只对脱壳忍者有效。
+Score = 8
+Flags = Banned,WonderGuard
+#-------------------------------
+[MANCHANEGRA]
+Name = 黑斑
+Description = 对方的所有宝可梦，回合结束时损失最大HP的1/16。
+Score = 4
+Flags =
+#-------------------------------
+#[NEUTRALIZINGGAS]
+#Name = 化学变化气体
+#Description = 特性为化学变化气体的宝可梦在场时，场上所有宝可梦的四个特性效果都会消失或者无法生效。
+#Score = 8
+#Flags = Banned
+#-------------------------------
+[TAG]
+Name = 打上标记
+Description = 对方的宝可梦即将进行切换时，对其施放一次20威力的追打。
+Score = 5
+Flags =
+#-------------------------------
+[RETRIEVER]
+Name = 回收利用
+Description = 切换离场时，找回之前使用掉的或者被拍落的道具。
+Score = 2
+Flags =
+#-------------------------------
+
+
+
+#-------------------------------
+# custome
+#-------------------------------
+[MACROPHYLLA]
+Name = 叶藻转换
+Description = 变为与自己使出的招式相同的属性。
+Score = 6
+Flags = ChangeSelfType
+#-------------------------------
+[SACREDPOWER]
+Name = 神圣之力
+Description = 使用的特攻招式的攻击力翻倍。
+Score = 8
+Flags = DamageUp
+#-------------------------------
+[FLAMESPIRIT]
+Name = 炎之魂
+Description = 使用招式造成伤害时，30%的概率使对手烧伤。
+Score = 4
+Flags = SufferTargetWithBurn
+#-------------------------------
+[PURIFICATION]
+Name = 净化
+Description = 受到毒属性的招式攻击时，不会受到伤害，而是会得到回复。
+Score = 4
+Flags = AddTypeImmunity,Immune_POISON
+#-------------------------------
+[CONQUEROR]
+Name = 征服者
+Description = 效果绝佳的招式的伤害翻倍。
+Score = 6
+Flags = DamageUp
+#-------------------------------
+[DRACONICAURA]
+Name = 龙之气息
+Description = 受到妖精属性的招式攻击时，不会受到伤害，而是会提高特攻。使用招式攻击妖精属性的宝可梦时，必定能命中（除非目标不在场地上）。
+Score = 6
+Flags = AddTypeImmunity,Immune_FAIRY
+#-------------------------------
+[ICYSOUL]
+Name = 冰霜之魄
+Description = 下雪天气时，特攻招式的攻击力增加50%。
+Score = 3
+Flags = DamageUp
+#-------------------------------
+[BELLOFSTORMS]
+Name = 风暴之铃
+Description = 出场时，会将天气变为下雨。从地面浮起，从而不会受到地面属性招式的攻击。
+Score = 8
+Flags = AddOrBlockWeather,AddTypeImmunity
