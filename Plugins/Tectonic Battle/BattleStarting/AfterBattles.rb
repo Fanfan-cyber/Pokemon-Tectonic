@@ -47,7 +47,13 @@ def pbAfterBattle(decision,canLose)
       next if !pkmn || (pkmn.hp==0 && !Settings::CHECK_EVOLUTION_FOR_FAINTED_POKEMON)
       next if currentLevels[i] && pkmn.level==currentLevels[i]
       newSpecies = pkmn.check_evolution_on_level_up
-      next if !newSpecies
+      next if newspecies.nil?
+      if newspecies.is_a?(Array)
+          names = newspecies.map { |species| GameData::Species.get(species).name }
+          choose = pbMessage(_INTL("Which do you want to evolve to?"), names, -1)
+          next if choose == -1
+          newspecies = newspecies[choose]
+      end
       evo = PokemonEvolutionScene.new
       evo.pbStartScreen(pkmn,newSpecies)
       evo.pbEvolution
