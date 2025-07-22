@@ -78,7 +78,7 @@ BattleHandlers::HPHealItem.add(:CADOBERRY,
   proc { |item, battler, battle, forced, filchedFrom, filchingAbility, items_to_skip|
       next false unless battler.canHeal?
       next false if !forced && !battler.canConsumePinchBerry?(true)
-      healFromBerry(battler, 1.0 / 3.0, item, forced, filchedFrom, filchingAbility, items_to_skip: items_to_skip)
+      healFromBerry(battler, 1.0 / 2.0, item, forced, filchedFrom, filchingAbility, items_to_skip: items_to_skip)
       next true
   }
 )
@@ -87,7 +87,7 @@ BattleHandlers::HPHealItem.add(:SITRUSBERRY,
   proc { |item, battler, battle, forced, filchedFrom, filchingAbility, items_to_skip|
       next false unless battler.canHeal?
       next false if !forced && !battler.canConsumePinchBerry?(false)
-      healFromBerry(battler, 1.0 / 4.0, item, forced, filchedFrom, filchingAbility, items_to_skip: items_to_skip)
+      healFromBerry(battler, battler.hp > battler.totalhp / 4 ? 1.0 / 4.0 : 1.0 / 3.0, item, forced, filchedFrom, filchingAbility, items_to_skip: items_to_skip)
       next true
   }
 )

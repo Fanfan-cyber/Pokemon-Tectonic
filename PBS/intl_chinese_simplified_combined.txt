@@ -38121,9 +38121,9 @@ It may be held by a Pokémon to restore a move's PP by 10.
 It may be held by a Pokémon to recover from any status problem.
 让精灵携带后，可以治愈所有异常状态。
 If held by a Pokémon, it heals its HP by 25% at half health.
-让精灵携带后，可以回复少量HP。
+让精灵携带后，当HP小于50%时，可以回复25%HP。
 It may be held by a Pokémon to heal the user by 33% in a pinch (below 25% HP).
-让精灵携带后，低血量时可恢复33%HP。
+让精灵携带后，当HP小于25%时，可回复33%HP。
 Weakens a supereffective Fire-type attack against the holding Pokémon.
 让精灵携带后，在受到效果拔群的火属性技能攻击时，能令其威力减弱。
 Weakens a supereffective Water-type attack against the holding Pokémon.
@@ -38441,7 +38441,7 @@ Damages attackers for 1/3rd of their HP when they hit the holder with physical a
 Damages attackers for 1/3rd of their HP when they hit the holder with special attacks.
 当攻击者用特殊攻击击中携带者时，会对其造成1/3HP的伤害。
 If held by a Pokémon, it heals its HP by 50% at half health.
-携带后危机时刻恢复50%HP。
+携带后，当HP小于50%时，回复50%HP。
 Halves the damage from one supereffective Fairy-type attack. Holder heals 1/16th HP each turn.
 携带后每回合恢复1/16HP，可减小一次妖精属性攻击的伤害。
 Halves the damage from one supereffective Fire-type attack. Holder heals 1/16th HP each turn.
@@ -57134,6 +57134,10 @@ Powers up Grass-type moves of itself and its allies by 30%.
 自身和队友的草属性技能的威力增加30%。
 A capsule that allows a Pokémon to switch to another Ability. Only used in Mono Ability Mode.
 仅在单特性模式下可用，能将精灵的现有特性变为另一种特性的胶囊。
+It may be held by a Pokémon to heal the user by 50% in a pinch (below 25% HP).
+让精灵携带后，当HP小于25%时，可回复50%HP。
+If held by a Pokémon, it heals its HP by 25% at half health, or 33% in a pinch.
+让精灵携带后，吃下时，若当前HP大于25%，则回复25%HP，反之，则回复33%HP，。
 An item to be held by a Pokémon. The user gets three abilities, but its stats are cut by 10%.
 一种可以携带的物品。携带者获得3个特性，但其能力会减小10%。
 and
