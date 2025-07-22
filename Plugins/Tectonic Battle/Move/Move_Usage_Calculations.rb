@@ -64,7 +64,8 @@ class PokeBattle_Move
             ret = Effectiveness::NORMAL_EFFECTIVE_ONE
         end
 
-        ret = @battle.apply_inverse(ret)
+        new_ret = @battle&.apply_inverse(ret)
+        ret = new_ret if new_ret
 
         ret_type = @battle&.apply_field_effect(:move_second_type_on_calc, ret, moveType, defType, user, target)
         if ret_type && GameData::Type.exists?(ret_type)
