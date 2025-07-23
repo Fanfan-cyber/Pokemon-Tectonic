@@ -82,9 +82,13 @@ module GameData
   
       # @return [String] the translated description of this move
       def description
-        return pbGetMessageFromHash(MessageTypes::MoveDescriptions, @real_description)
+        return MOVE_DATA[@id]&.[](:desc)&.call || pbGetMessageFromHash(MessageTypes::MoveDescriptions, @real_description)
       end
-  
+
+      def function_code
+        return MOVE_DATA[@id]&.[](:function_code) || @function_code
+      end
+
       def physical?
         return false if @base_damage == 0
         return @category == 0

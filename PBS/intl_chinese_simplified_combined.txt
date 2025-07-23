@@ -34058,7 +34058,7 @@ The target is hit with wings of steel. It has a 30% chance to raise the user's D
 The user slams into the target with the force of a meteor. Can't be stopped by the target's Ability.
 以流星般的气势猛撞对手，可无视对手的特性并进行攻击。
 A frenetic dance to uplift the fighting spirit. It raises the user's Attack stat by four steps.
-激烈地跳起战舞增加气势。增加自己的攻击4级。
+激烈地跳起战舞增加气势，自己物攻增加4级。
 The user attacks with a secret power. Its added effects vary depending on the user's environment.
 根据使用场所不同，该技能的追加效果也会有所变化。
 The target is razed by a fiery explosion. The user is exhausted on the next turn.
@@ -57140,6 +57140,8 @@ Powers up Grass-type moves of itself and its allies by 30%.
 自身和队友的草属性技能的威力增加30%。
 A capsule that allows a Pokémon to switch to another Ability. Only used in Mono Ability Mode.
 仅在单特性模式下可用，能将精灵的现有特性变为另一种特性的胶囊。
+A frenetic dance to uplift the fighting spirit. It raises the user's Attack s
+激烈地跳起战舞增加气势，自己物攻增加3级。
 It may be held by a Pokémon to heal the user by 50% in a pinch (below 25% HP).
 让精灵携带后，当HP小于25%时，可回复50%HP。
 If held by a Pokémon, it heals its HP by 25% at half health, or 33% in a pinch.
