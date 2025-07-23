@@ -249,7 +249,7 @@ existingIndex)
         commands[cmdAdaptiveAI = commands.length]   = _INTL("Adaptive AI") if TA.get(:adaptiveai) || $DEBUG
         commands[cmdDeleteMove = commands.length]   = _INTL("Delete Move") if @pkmn.numMoves > 1
         commands[cmdEvolve = commands.length]       = _INTL("Evolve") if newspecies
-        commands[cmdExtraMoves = commands.length]   = _INTL("Extra Moves") if @pkmn.isSpecies?(:DEOXYS)
+        commands[cmdExtraMoves = commands.length]   = _INTL("Extra Moves") if @pkmn.isSpecies?(:DEOXYS) && @pkmn.hasAbility?(:UNIDENTIFIED)
         commands[cmdOpenAR = commands.length]       = _INTL("Open AR") if TA.get(:customabil) && !$Trainer.ability_recorder.empty?
         commands[cmdRename = commands.length]       = _INTL("Rename")
         commands[cmdSetGender = commands.length]    = _INTL("Set Gender")
