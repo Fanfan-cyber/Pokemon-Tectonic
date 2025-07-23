@@ -40703,7 +40703,7 @@ Doubles Sp. Def in hail.
 During hail, it restores its HP by half the damage it deals with attacks.
 冰雹天气时，恢复攻击造成的伤害的一半HP。
 Each turn, raises Speed by three steps and loses 1/8th max HP. If Speed was maxed, instead Speed and HP are reset.
-每回合速度增加3级，但会损失1/8HP，当速度到达最大等级后，将速度和HP将会恢复。
+每回合结束时，速度增加3级，HP减少1/8，如果速度已达到最大等级，重置速度并回复全部HP。
 Boosts Sp. Atk by 30% in moonglow.
 在月辉下增加30%的特攻。
 Raises Speed by four steps when a stat is lowered by a foe.
@@ -57124,6 +57124,8 @@ Raises Attack by 2 steps after knocking out any Pokémon.
 打倒对手后，物攻增加2级。
 Raises Sp. Atk by 2 steps after knocking out any Pokémon.
 打倒对手后，特攻增加2级。
+Each turn, raises Speed by 4 steps and loses 1/8th max HP. If Speed was maxed, instead Speed and HP are reset.
+每回合结束时，速度增加4级，HP减少1/8，如果速度已达到最大等级，重置速度并回复全部HP。
 Copies opponents' species' legal Abilities.
 复制对手精灵的物种合法特性。
 It changes secondary type to that of the pulse moves it's about to use.

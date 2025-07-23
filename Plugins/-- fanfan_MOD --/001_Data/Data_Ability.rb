@@ -11,6 +11,7 @@ ABILITY_DATA = {
   :GYRESPINNER   => { :desc => proc { _INTL("Upon entry, traps each opponent in a whirlpool for one turn.") }, },
   :HEROICFINALE  => { :desc => proc { _INTL("Turns to Finale Form when only unfainted on team. Ignores the condition of a perfect battle.") }, },
   :HUBRIS        => { :desc => proc { _INTL("Raises Sp. Atk by 2 steps after knocking out any Pokémon.") }, },
+  :IGNITIONCYCLE => { :desc => proc { _INTL("Each turn, raises Speed by 4 steps and loses 1/8th max HP. If Speed was maxed, instead Speed and HP are reset.") }, },
   :ILLUSION      => { :desc => proc { _INTL("Comes out disguised as the Pokémon in back. Boosts move power by 20% in disguise.") }, },
   :MOXIE         => { :desc => proc { _INTL("Raises Attack by 2 steps after knocking out any Pokémon.") }, },
   :PLURIPOTENCE  => { :desc => proc { _INTL("Copies opponents' species' legal Abilities.") }, },

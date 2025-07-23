@@ -91,16 +91,15 @@ BattleHandlers::EOREffectAbility.add(:IGNITIONCYCLE,
   proc { |ability, battler, battle|
       battle.pbShowAbilitySplash(battler, ability)
       if !battler.statStepAtMax?(:SPEED)
-          if battler.tryRaiseStat(:SPEED, battler, increment: 3)
+          if battler.tryRaiseStat(:SPEED, battler, increment: 4)
               battler.applyFractionalDamage(1.0 / 8.0, false)
               battle.pbDisplay(_INTL("{1}'s inner fire flared up!", battler.pbThis))
           end
       else
           battle.pbDisplay(_INTL("{1} finally cooled off!", battler.pbThis))
-          battler.steps[:SPEED] = 0
+          battler.pbResetSpecificStatSteps(:SPEED, false)
           battler.pbRecoverHP(battler.totalhp - battler.hp)
       end
-
       battle.pbHideAbilitySplash(battler)
   }
 )

@@ -913,7 +913,7 @@ class PokeBattle_Battler
         @battle.pbDisplay(_INTL("{1}'s positive stat changes were eliminated!", pbThis)) if showMessage && anyReset
     end
 
-    def pbResetSpecificStatSteps(stats, showMessage = false) # Didn't use it
+    def pbResetSpecificStatSteps(stats, showMessage = false)
         return unless stats
         stats = [stats] unless stats.is_a?(Array)
         anyReset = false
