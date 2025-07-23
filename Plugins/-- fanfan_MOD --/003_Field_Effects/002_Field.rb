@@ -196,48 +196,4 @@ class PokeBattle_Battle::Field
   def is_base?
     @id == :Base
   end
-
-  def is_electric?
-    @id == :Electric
-  end
-
-  def is_grassy?
-    @id == :Grassy
-  end
-
-  def is_misty?
-    @id == :Misty
-  end
-
-  def is_psychic?
-    @id == :Psychic
-  end
-
-  def is_burning?
-    @id == :Burning
-  end
-
-  def is_cursed?
-    @id == :Cursed
-  end
-
-  def is_sandy?
-    @id == :Sandy
-  end
-
-  def is_venomous?
-    @id == :Venomous
-  end
-
-  def is_ravine?
-    @id == :Ravine
-  end
-
-  def is_swamp?
-    @id == :Swamp
-  end
-
-  def is_frozen?
-    @id == :Frozen
-  end
 end

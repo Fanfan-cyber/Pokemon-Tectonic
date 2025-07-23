@@ -3,7 +3,7 @@ module GameData
       attr_reader :id
       attr_reader :id_number
       attr_reader :real_name
-      attr_reader :function_code
+      #attr_reader :function_code
       attr_reader :base_damage
       attr_reader :type
       attr_reader :category
