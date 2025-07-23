@@ -1831,7 +1831,7 @@ If your Pokemon attacks the same target with the same attack, the damage will al
 That means that if you're able to crunch the numbers, you can figure out how many attacks it'll take to knock out an opposing Pokemon!
 所以你可以计算出需要多少招，才能击败对方的精灵!
 Critical hits are the exception to this, of course.
-如果击中要害了另说。
+如果命中要害了另说。
 The TV shows a Dragon-tamer breaking up with a Lady in what seems like a staged moment.
 电视上正在播出一位驯龙师和一位女士闹分手的剧情。
 It seems like Ribombee is helping organize the books!
@@ -31061,7 +31061,7 @@ Double-Edge
 Echoed Voice
 回声
 Encore
-再来一次
+鼓掌
 Endeavor
 蛮干
 Endure
@@ -33516,7 +33516,7 @@ A reckless, life-risking tackle. The user also takes 33% recoil.
 The user attacks the foe with an echoing voice. If this move is used every turn, it does greater damage.
 用回声攻击对手。如果每回合都有精灵接着使用该技能，威力就会增加。
 The user compels the target to keep using only the move it last used for three turns.
-让对手接受再来一次，连续3次使出最后使用的技能。
+强制让对手连续3次使用最后一次使用的技能。
 An attack move that cuts down the target's HP to equal the user's HP.
 给予伤害，使对手的HP变得和自己的HP一样。
 The user endures any attack with at least 1 HP. It always fails if it is used in succession.
@@ -33612,7 +33612,7 @@ The foe is forced to switch out to a random ally. Always goes last.
 The user attacks with a song. Others can join in the Round and make the attack do greater damage.
 用歌声攻击对手。队友还可以接着使出轮唱技能，威力也会增加。
 Hard, pointed, and sharp claws rake the target to inflict damage. Can random critical hit.
-用坚硬且无比锐利的爪子抓对手进行攻击。容易击中要害。
+用坚硬且无比锐利的爪子抓对手进行攻击。容易命中要害。
 The user's earsplitting screech reduces the target's Defense stat by four steps.
 发出不由自主想要捂起耳朵的刺耳声，从而低对手的防御4级。
 The user blows up to inflict damage on all Pokémon in battle. The user faints upon using this move.
@@ -33630,7 +33630,7 @@ The user charges to raise its Defense by four steps in the first turn, then rams
 The user slacks off, restoring its own HP by up to half of its max HP.
 使用者偷懒，恢复自身最多一半的最大HP。
 The target is attacked with a slash of claws or blades. Can random critical hit.
-用爪子或镰刀等劈开对手进行攻击。容易击中要害。
+用爪子或镰刀等劈开对手进行攻击。容易命中要害。
 While it is asleep, the user randomly uses one of the moves it knows.
 从自己已学会的技能中任意使出1个。只能在自己睡觉时使用。
 This attack inflicts double damage on a numbed foe. It also cures the target's numbing, however.
@@ -33726,7 +33726,7 @@ The target is attacked with a shock wave. It has a 30% chance to numb.
 The target is attacked with a knee kick from a jump. If it misses, the user is hurt instead.
 跳起后用膝盖撞对手进行攻击。如果撞偏则自己会受到伤害。
 The target is attacked with a sharp chop. Can random critical hit.
-用锐利的手刀劈向对手进行攻击。容易击中要害。
+用锐利的手刀劈向对手进行攻击。容易命中要害。
 A powerful low kick that makes the foe fall over. It inflicts greater damage on heavier foes.
 用力踢对手的脚，使其摔倒进行攻击。对手越重，威力越大。
 The user attacks the target's legs swiftly, reducing the target's Speed stat by two steps.
@@ -33752,7 +33752,7 @@ The user cuts with its long horn. The odd power contained in it does physical da
 The user attacks with a strong punch. It has a 20% chance to lower Defense.
 能够粉碎岩石的拳头攻击对手。20%的概率减小对手的防御。
 The user strikes the target with a fierce blow. This attack always results in a critical hit.
-向对手使出强烈的一击。攻击必定会击中要害。
+向对手使出强烈的一击。攻击必定会命中要害。
 The user grabs the target and recklessly dives for the ground. The user also takes 33% recoil.
 将对手连同自己一起摔向地面进行攻击。自己也会受到33%伤害。
 The user attacks the target with great power. This lowers the user's Attack and Defense by two steps.
@@ -33766,7 +33766,7 @@ The user nimbly strikes the foe. Doubles in damage if the user has no item when 
 The user confounds the foe with speed, then slashes. Can't miss and skips protections.
 以敏捷的动作戏弄对手后进行切斩。攻击必定会命中，且无视保护类效果。
 A vortex of air is shot at the target to inflict damage. Can random critical hit.
-发射空气旋涡进行攻击。容易击中要害。
+发射空气旋涡进行攻击。容易命中要害。
 The user attacks with a blade of air that slices even the sky. It has a 40% chance to flinch the target.
 用连天空也能劈开的空气之刃进行攻击。40%概率会使对手畏缩。
 The user heats up its beak before attacking. Physically attacking in this time results in a burn.
@@ -33784,7 +33784,7 @@ The user whips up a wind to blow away the target's protective screens. Also remo
 The user soars upward and drops at high speeds. This lowers the user's Defense and Sp. Def by two steps.
 使用者向上飞翔然后高速下落。这会使使用者的物防和特防减小2级。
 A corkscrewing attack with the sharp beak acting as a drill. Can random critical hit.
-一边旋转，一边将尖喙刺入对手进行攻击，更容易击中要害。
+一边旋转，一边将尖喙刺入对手进行攻击，更容易命中要害。
 The user slams the target with its wings. The target is hit twice in a row.
 将翅膀撞向对手进行攻击。连续2次给予伤害。
 The user covers the target's body with a mass of down that lowers its Attack stat by five steps.
@@ -33852,7 +33852,7 @@ The user strikes everything around it by stomping on the ground. It reduces hit 
 The user burrows, charging and becoming invulnerable, then attacks on the second turn.
 第一回合蓄力钻地进入无敌状态，下一回合发动攻击。
 The user crashes into its target while rotating its body like a drill. Can random critical hit.
-像钢钻一样，一边旋转身体一边撞击对手。容易击中要害。
+像钢钻一样，一边旋转身体一边撞击对手。容易命中要害。
 The user makes the ground under the foe erupt with power. It has a 20% chance to lower Sp. Def.
 向对手脚下释放出大地之力。20%概率减小对手的特防。
 The user sets off an earthquake that strikes every Pokémon around it and underground.
@@ -33960,7 +33960,7 @@ The user stares at flashing lights to focus its mind, raising its Sp. Atk stat b
 After making its attack, the user rushes back to switch places with a party Pokémon in waiting.
 在攻击之后急速返回，和后备精灵进行替换。
 The user slashes at the foe by crossing its scythes or claws. Can random critical hit.
-将镰刀或爪子像剪刀般地交叉，顺势劈开对手。容易击中要害。
+将镰刀或爪子像剪刀般地交叉，顺势劈开对手。容易命中要害。
 The user attacks the target while shouting in a startling fashion. It has a 40% chance to flinch.
 用尖叫声等突然惊吓对手进行攻击。40%的概率时会使对手畏缩。
 The user attacks by sending a frightful amount of small ghosts at opposing Pokémon.
@@ -33994,7 +33994,7 @@ The user hurls a shadowy blob at the target. It has a 20% chance to lower Sp. De
 The user beats the target with a bone containing a spirit. This lowers their Defense by three steps.
 用附有灵魂的骨头殴打对手进行攻击。减小对手防御3级。
 The user slashes with a sharp claw made from shadows. Can random critical hit.
-以影子做成的锐爪，劈开对手。容易击中要害。
+以影子做成的锐爪，劈开对手。容易命中要害。
 The user disappears, charging and becoming invulnerable, then strikes on the second turn. It hits even if the foe protects itself.
 第一回合消失进入无敌状态，下一回合攻击。可无视对手的保护。
 The user throws a punch from the shadows. The punch lands without fail.
@@ -34168,7 +34168,7 @@ The user immerses the target in superheated steam. This has a 30% chance to burn
 It swamps the area with a giant wave, hitting every battler nearby and underwater. Has a 10% chance to waterlog.
 用巨浪淹没场地，击中附近的每个精灵以及水下的精灵。有10%的概率使目标浸水。
 Strikes the target thrice, with mastery of the Water style. Always results in a critical hit.
-将水之流派修炼至大成的仿若行云流水般的3次连击。必定会击中要害。
+将水之流派修炼至大成的仿若行云流水般的3次连击。必定会命中要害。
 The user lunges at the target and has a 40% chance to make it flinch.
 猛扑攻击目标。有40%概率使对手畏缩。
 The target is blasted with a forceful shot of water. Can random critical hit.
@@ -34208,9 +34208,9 @@ The user lays roots that restore 1/8th HP on every turn. Because it is rooted, i
 Restores HP and heals non-volatile status conditions of itself and its ally.
 恢复自身与队友的HP并回复异常状态。
 The user attacks by pelting the target with leaves. Can random critical hit.
-将叶片打向对手，进行攻击。容易击中要害。
+将叶片打向对手，进行攻击。容易命中要害。
 The user handles a sharp leaf like a sword and attacks by slashing. Can random critical hit.
-像用剑一般操纵叶片切斩对手进行攻击。容易击中要害。
+像用剑一般操纵叶片切斩对手进行攻击。容易命中要害。
 A storm of sharp leaves is whipped up. Lowers the user's Sp. Atk by four steps.
 用尖尖的叶片向对手卷起风暴。使用之后因为反作用力自己的特攻减小4级。
 A seed is planted on the target, causing it to become leeched.
@@ -34222,7 +34222,7 @@ The user attacks by scattering petals in a rampage for two turns.
 The user violently whirls its vines, tentacles, or the like to lash the target.
 使用者猛烈地旋转其藤蔓、触手等来抽打目标。
 Sharp-edged leaves are launched to slash at the opposing team. Can random critical hit.
-飞出叶片，切斩对手进行攻击。容易击中要害。
+飞出叶片，切斩对手进行攻击。容易命中要害。
 The user generates a shock wave from within its body. This lower's the target's Sp. Def.
 从身体里产生冲击波。减小对手的特防。
 The user charges, then attacks on the second turn. Charges instantly in sunshine.
@@ -34350,7 +34350,7 @@ The target is hit by a strong telekinetic force. It has a 20% chance to lower Sp
 The user bites the target using psychic capabilities. Also breaks any screens protecting the target's side.
 使用者用超能力咬住目标。同时破坏目标一侧的任何屏障类效果。
 The user tears at the target with blades formed by psychic power. Can random critical hit.
-用实体化的心之利刃劈开对手。容易击中要害。
+用实体化的心之利刃劈开对手。容易命中要害。
 Using its psychic power of suggestion, the user transfers its non-volatile status condition to the target.
 用精神暗示将自身的异常状态转移给目标。
 The user hypnotizes itself into copying any stat change made by the target.
@@ -34378,7 +34378,7 @@ A blizzard strikes all near foes. Can't miss in hail. 30% chance to frostbite.
 Charges up, then on the second turn, the user strikes with electrified ice. It has a 30% chance to numb.
 第一回合蓄力，下一回合用带电冰晶攻击。有30%概率使对手麻痹。
 The user blows a cold breath on the target. This attack always results in a critical hit.
-将冰冷的气息吹向对手进行攻击。必定会击中要害。
+将冰冷的气息吹向对手进行攻击。必定会命中要害。
 The user attacks by hurling a blizzard-cloaked icicle lance at opposing Pokémon.
 向对手投掷掀起暴风雪的冰矛进行攻击。
 The user attacks by blowing freezing cold air at all near foes. This attack reduces the targets' Speed by two steps.
@@ -34436,7 +34436,7 @@ The most powerful attack of the original form. The user is exhausted on the next
 The user blasts the target with power that distorts even time. The user is exhausted on the next turn.
 释放扭曲时空的力量轰击目标。下一回合将陷入僵直状态。
 The user tears the target along with the space around it. Can random critical hit.
-将对手连同周围的空间一起撕裂并给予伤害。容易击中要害。
+将对手连同周围的空间一起撕裂并给予伤害。容易命中要害。
 A small tornado hits the target. It has a 30% chance to make targets flinch.
 小型龙卷风击中目标。有30%的概率使对手畏缩。
 If the target has already taken some damage in the same turn, this attack's power is doubled.
@@ -34486,7 +34486,7 @@ The user pins the target with a dark, arresting look. The target becomes trapped
 The user faints in order to lower the target's Attack and Sp. Atk by five steps.
 使用者濒死，使目标的双攻减小5级。
 The user slashes the target the instant an opportunity arises. Can random critical hit.
-抓住瞬间的空隙切斩对手。能够随机击中要害。
+抓住瞬间的空隙切斩对手。能够随机命中要害。
 Protects the user from damage this turn. It also lowers the Defense of physical attackers by four steps.
 完全抵挡对手的攻击。一旦触碰，物防就会减小4级。
 The user lowers the target's Attack and Sp. Atk by two steps. Then, the user switches out.
@@ -34518,7 +34518,7 @@ All stat step changes affecting the target turn topsy-turvy and become the oppos
 The user torments and enrages the foe, making it incapable of using the same move twice in a row.
 折磨对手，令其不能连续2次使出相同技能。
 The user strikes with a fierce blow of Dark Mastery. It always results in a critical hit.
-将恶之流派修炼至大成的猛烈一击。必定会击中要害。
+将恶之流派修炼至大成的猛烈一击。必定会命中要害。
 The user raises the Defense and Sp. Def stats of an ally Pokémon by two steps using a mysterious aroma.
 使用者使用神秘的香气，使队友的双防增加2级。
 The user stares with its baby-doll eyes, which lowers the target's Attack stat by three steps. Always goes first.
@@ -34618,7 +34618,7 @@ A lullaby is sung in a calming voice that puts the target with half its HP or le
 The target is struck by a pulse of negative energy. This resets the target's stat changes.
 目标被负能量脉冲击中。这会重置目标的能力变化。
 The target is cut by a clean slice. Can random critical hit, and does so twice as often.
-干净利落地斩击对手，极其容易击中要害。
+干净利落地斩击对手，极其容易命中要害。
 The user shoots a pulse of neutral particles at the target.
 向目标发射中性粒子脉冲。
 The user pranks the target, surprising it and reducing its Sp. Atk and Sp. Def by two steps.
@@ -34704,7 +34704,7 @@ The user attacks with a burst of inner energy. Lowers the user's Sp. Atk by four
 The user holds fast with its teammates, raise its Defense by three steps, and its allies' by one.
 使用者与队友紧密配合，自身的物防增加3级，其队友的物防增加1级。
 The user shoots three arrows made of Aura with extreme precision. Can random critical hit.
-以极高的精度射出三支气场制成的箭。容易击中要害。
+以极高的精度射出三支气场制成的箭。容易命中要害。
 The user manifests a bolt of pure courage. This has a 10% chance of raising the user's Sp. Atk.
 迸发了纯粹的勇气波。10%概率增加自己的特攻。
 The user relentlessly rampages with its whip-like hands for two turns. Each hit will always be a critical hit.
@@ -34852,7 +34852,7 @@ The user attacks with the bright glint of crystals. Can random critical hit.
 A diamond-tough force-field protects the user's side for 5 turns from critical hits, and reduces move damage taken.
 释放金刚石般坚韧的立场，在5回合内保护自身与队友不会被集中要害，且减小受到的技能伤害。
 The user calls up spikes of diamond. Can random critical hit.
-召唤出钻石尖刺。容易击中要害。
+召唤出钻石尖刺。容易命中要害。
 The user weakens the target's bones, making them fracture. They deal 33% less damage.
 使用者削弱目标的骨骼，使其破碎。它们造成的伤害减小33%。
 The user harms the target with gemlike light. Deals double damage if the user has used a gem this battle.
@@ -34968,7 +34968,7 @@ Disables the target's last used move for four turns, then reduces a relevant sta
 The user attacks with bitter emotion. This lowers the target's Attack and Sp. Atk by two steps if in hail.
 使用者怀着痛苦的情感发动攻击，如果处于冰雹天气，这将使目标的物攻和特攻减小2级。
 The user causes a glitch in reality. This attack always results in a critical hit.
-对现实进行干扰，必定击中要害。
+对现实进行干扰，必定命中要害。
 The user loses 25% of their max HP to curse the target, damaging their HP by 25% each turn.
 损失自身25%HP来诅咒对方，使其每回合损失25%HP。
 The user makes a dreadful bell noise, harming all near battlers with visions of impending doom.
@@ -35224,7 +35224,7 @@ The user rams the target while splashing up a lot of water. This has a 30% chanc
 The user wields tidal power to grab at the target. This has a 10% chance to waterlog.
 使用者运用潮汐之力抓住目标。有10%的概率使目标浸水。
 The user uses a jet of water like a sword and attacks by slashing. Can random critical hit.
-利用水流的力量形成剑刃形状向对手发起攻击，容易击中要害。
+利用水流的力量形成剑刃形状向对手发起攻击，容易命中要害。
 The target is doused with water in order to waterlog it.
 目标被大量水浇湿，从而使其浸水。
 The user crashes into the target with the force of a large wave. This has a 30% chance to lower Defense.
@@ -35320,7 +35320,7 @@ Restores a fainted party member to 1 HP. Only one use per battle.
 The user breaks down all insulation to send a barrage of electricity to rampage for two turns.
 使用者破坏所有绝缘体，发送一阵电力进行连续2回合的狂暴攻击。
 The user harnesses a blade of lightning and slices at the target. Can random critical hit.
-使用闪电刃向对手劈去。容易击中要害。
+使用闪电刃向对手劈去。容易命中要害。
 The user lets out an electric roar, raising the user's Speed by four steps.
 发出一声电吼，增加自己的速度4级。
 The user attacks with courage. Sets a Spikes hazard layer if Full. If Hangry, deals double damage and is Dark-type.
@@ -35348,7 +35348,7 @@ The user finds the highest base power move among your able party members, and us
 A weak electric jolt is launched to numb the target.
 释放微弱电流，使对手麻痹。
 The user slices with claws of light that have a 50% chance to numb. Can random critical hit.
-利用光之爪进行斩击，50%概率使对手麻痹。容易击中要害。
+利用光之爪进行斩击，50%概率使对手麻痹。容易命中要害。
 Protects the user's side from status moves this turn. It disables any moves blocked for three turns.
 保护自身和队友此回合免疫变化技能，此回合阻挡成功的技能，将在3回合内无法使用。
 The target is struck with an electric current and multi-hit two to five times. Has a 10% chance to numb.
@@ -35428,7 +35428,7 @@ After making its attack to the targets psyche, the user teleports back to switch
 The user overloads its mind to rampage for two turns.
 使用者过载心智，连续2回合陷入狂暴。
 The user cuts using scissor-like blades of psychic energy. Can random critical hit.
-运用精神能量凝聚成的剑刃劈向对手。容易击中要害。
+运用精神能量凝聚成的剑刃劈向对手。容易命中要害。
 The user manifests a piercing bolt of psychic energy. It has a 50% chance to lower Sp. Def.
 凝聚出一物品有穿透性的精神能量束，50%概率减小对手的特防。
 The user sends waves of cosmic energy to overwhelm the target's senses. Multi-hits two to five times.
@@ -35516,7 +35516,7 @@ The user saps all the target's heat with a frigid touch, frostbiting it.
 Drains the heat from the target. The user's HP is restored by 50% the damage dealt.
 从对手处吸走热量进行攻击。回复造成伤害的50%HP。
 The user hunts with its allies. The more party Pokémon, the more damage. Can random critical hit.
-与队友们一同狩猎，队伍中携带越多的精灵，则威力越高。容易击中要害。
+与队友们一同狩猎，队伍中携带越多的精灵，则威力越高。容易命中要害。
 Invokes the aspects of many dragons, striking with a physical move and a special move.
 显现多条真龙的面貌，随机使用特定技能池中的1个物理类和1个特殊类技能。
 The user attacks fueled by ire. Deals double damage if it's a critical hit.
@@ -35606,7 +35606,7 @@ A punch that inflicts double the damage if the user has been hurt by the foe in 
 For the rest of the round, the healing of all damaged Pokémon is reversed.
 在本回合剩余时间内，所有受过伤的精灵的恢复效果反转。
 The user prepares a precise cut. Always a critical hit, but lowers the user's Speed.
-进行一次精准的攻击，必定会击中要害，但也会减小自己的速度。
+进行一次精准的攻击，必定会命中要害，但也会减小自己的速度。
 The target is dragged viciously through water. This has a 30% chance to waterlog.
 目标被凶狠地拖过水面。有30%的概率使目标浸水。
 The user emits a wave of anxious feelings which overwhelms all nearby Pokémon, taking 50% recoil.
@@ -35620,7 +35620,7 @@ The user chomps hard, cutting the target's HP by 50%, and the user's HP is resto
 Damages the target's life force directly. During moonglow, the target also becomes frostbitten.
 直接伤害对手，在月辉期间，对手还会陷入冻伤状态。
 The user tries to surprise-attack the target. Cannot miss in moonglow. Can random critical hit.
-突袭对手发起攻击。在月辉下该技能时必定命中，而且更容易击中要害。
+突袭对手发起攻击。在月辉下该技能时必定命中，而且更容易命中要害。
 The user attacks and steals the foe's held Berry or Gem. It can't steal if the user holds an item.
 窃取对手携带的树果或宝石。如果自身携带物品，就无法窃取。
 The user entangles the target's mind with dark thoughts, leeching it.
@@ -35634,7 +35634,7 @@ The user steals the target's stat boosts, and then attacks. Goes last.
 The user slashes all around them, creating deep scars. This lowers each target's Attack.
 在对方周围砍来砍去，留下深深的伤疤。减小对方全体的攻击。
 The user hacks at the target with great violence. Can random critical hit.
-猛烈地砍击对手，容易击中要害。
+猛烈地砍击对手，容易命中要害。
 Explodes, dealing an extra 30 base power to all foes for each Spikes hazard layer underneath them. The user faints.
 自身爆炸，对每个脚下有菱的敌人造成额外30点基础威力的伤害。使用者濒死。
 The user assists an ally by boosting the power and Accuracy of its next attack by 50%.
@@ -35686,7 +35686,7 @@ The user chucks a party favor which explodes in the target's face.
 Power increases by 20 each time it's used in succession. User heals for half of damage dealt.
 每次连续使用威力都会增加20。同时回复自己造成伤害的一半HP。
 The user attempts to humble the target, guaranteeing a critical hit on foes with boosted stats.
-先礼后兵，对增加能力的精灵必定击中要害。
+先礼后兵，对增加能力的精灵必定命中要害。
 The user hopes for bad luck, jinxing the target. Attacks against them crit and pierce protection.
 使用者祈求厄运，使目标陷入不幸。对目标的攻击会命中要害并穿透保护。
 The user wields an exaggerated power to strike the target. Lowers the user's Attack by four steps.
@@ -35736,7 +35736,7 @@ Two turns after this move is used, the target is struck by a well-planned attack
 The user attacks with simple determination and rampages for two turns.
 以纯粹意志狂暴攻击，持续2回合。
 The target is attacked with a slash of claws or blades, always critting.
-用爪子或镰刀等劈开对手进行攻击。必定击中要害。
+用爪子或镰刀等劈开对手进行攻击。必定命中要害。
 The user gleams with light, lowering each foe's Sp. Atk by two steps and raising its own Sp. Atk by two steps.
 自身闪烁光芒，大幅度减小所有对手特攻，并大幅度增加自身的特攻。
 The user prepares to defend itself. It'll survive the next three hits which would faint it.
@@ -35766,7 +35766,7 @@ All near foes are forced to switch out, and the user becomes Flying-type.
 A move that only the avatar of Rayquaza can use. All enemies struck lose their flinch immunity.
 只有烈空坐化身才可以使用的技能，所有被击中的对手都将失去畏缩免疫的效果。
 The user slashes all near foes with with poisonous blades or edges. Will be critical against poisoned targets.
-使用含有剧毒的刀刃砍击附近所有对手，对已经中毒的目标必定击中要害。
+使用含有剧毒的刀刃砍击附近所有对手，对已经中毒的目标必定命中要害。
 It swamps the area around the user with a giant sludge wave, poisoning everyone struck.
 使用大量的污泥淹没周围的区域，使所有被击中的对手中毒。
 The user sets Grey Mist for 8 turns, gives themselves a Black Sludge, and becomes Poison-type.
@@ -37775,7 +37775,7 @@ An item to be held by a Pokémon. It raises Sp. Def by 50% but prevents the use 
 An item to be held by a Pokémon. It raises Defense by 50% but prevents the use of status moves.
 携带该物品的精灵的物防增加50%，但是无法使用变化技能。
 An item to be held by a Pokémon. Its Attack and Sp. Atk raise by four steps if hit by a move it's weak to.
-被针对弱点时，物攻和特攻就会大幅增加。
+被针对弱点时，双攻就会增加4级。
 When held, it boosts Speed by two steps when intimidated, fascinated, or frustrated once per battle.
 使用后会容易呼唤伙伴，但使用后会消失。携带后，在受到威吓、震慑或阻挠时速度会增加。
 Damages attackers for 1/8th of their HP when they hit the holder with physical attacks.
@@ -38171,7 +38171,7 @@ If held by a Pokémon, it raises its Sp. Atk by two steps in a pinch.
 If held by a Pokémon, it raises its Sp. Def by two steps in a pinch.
 让精灵携带后，危机时，自己的特防就会增加。
 If held by a Pokémon, it raises its critical-hit ratio in a pinch.
-让精灵携带后，危机时，攻击会变得容易击中要害。
+让精灵携带后，危机时，攻击会变得容易命中要害。
 If held by a Pokémon, it raises one of its stats by three steps in a pinch.
 让精灵携带后，危机时，某一项能力就会大幅增加。
 If held by a Pokémon, it restores its HP if it is hit by any supereffective attack.
@@ -40087,7 +40087,7 @@ Steals the held item of a Pokémon it hits.
 Boosts the power of pulse moves by 50%.
 脉冲类技能的威力会增加50%。
 Its attacks are critical against poisoned targets.
-攻击中毒状态的对手时，必定会击中要害。
+攻击中毒状态的对手时，必定会命中要害。
 Bounces back stat-lowering effects.
 反弹受到的能力减小效果。
 Grants immunity to Electric-type moves and boosts Speed when hit by one.
@@ -40335,7 +40335,7 @@ Can hold two different items, if both are Berries.
 Boosts Defense by 25%. The Pokémon cannot be flinched.
 物防增加25%，且不会畏缩。
 Its attacks are critical against frostbitten targets.
-攻击陷入冻伤的对手时必定会击中要害。
+攻击陷入冻伤的对手时必定会命中要害。
 Causes hail to deal double damage and increase Defense of Ice-types by 2.0x instead of 1.5x.
 使冰雹造成的伤害翻倍，并且使冰属性的物防增加效果从1.5倍变为2倍。
 Its special attacks reduce the target's Sp. Def.
@@ -40397,7 +40397,7 @@ It changes form to match the move it selected.
 Boosts Sp. Atk and Speed by 30% in rainstorm.
 雨天时，特攻和速度增加30%。
 Sets a Lucky Chant upon entering the battle, protecting from critical hits for 10 turns.
-进入战斗后，10回合内保护自己不会被击中要害。
+进入战斗后，10回合内保护自己不会被命中要害。
 Can hold two items, but drops one when swapping out.
 可以携带两个物品，但在交换精灵时会随机掉落其中一个。
 Boosts Sp. Atk by 75%, but the Pokémon becomes frostbitten after attacking.
@@ -40469,7 +40469,7 @@ Reduces the damage of each hit against it by an amount equal to its level.
 Immune to Dragon-type moves. Deals double damage to Dragon-types.
 免疫龙属性技能，且对龙属性造成双倍伤害。
 Upon entry during eclipse, lowers foe's Attack and Sp. Atk by two steps.
-在日食入场时，减小对手的物攻和特攻2级。
+在日食入场时，让对手的双攻减小2级。
 Raises Sp. Atk by two steps whenever any battler falls asleep.
 每当有一只精灵在战斗中陷入睡眠，大幅度增加自身特攻。
 If an attack lowers its HP to half or less, the attacker becomes drowsy.
@@ -40527,7 +40527,7 @@ Upon entry, lowers the foe's Sp. Atk stat by two steps.
 Can hold two different items, if one is clothing and the other is not.
 在携带衣物类物品时，可额外携带一个非衣物类物品。
 Raises all of its stats whenever it knocks out a Pokémon with a critical hit.
-每次击中要害击败敌方时，所有能力增加1级。
+每次命中要害击败敌方时，所有能力增加1级。
 After attacking any foe, the Pokémon immediately uses Rest.
 击败对手后立即使用睡觉。
 Takes half damage from Ice- and Flying-type attacks.
@@ -40709,7 +40709,7 @@ Boosts Sp. Atk by 30% in moonglow.
 Raises Speed by four steps when a stat is lowered by a foe.
 对手减小自己能力时，极大幅度增加速度。
 Prevents stat steps from being lowered (except when self-inflicted). Protects from critical hits.
-不会被其他精灵减小能力等级，也不会被击中要害。
+不会被其他精灵减小能力等级，也不会被命中要害。
 Special attacks against the Pokémon raise its Speed by two steps but lower its Sp. Def.
 受到特殊技能攻击时，大幅度增加自身的速度，但特防会减小。
 Its same-type attack bonus is based on its party members rather than itself.
@@ -40765,7 +40765,7 @@ Cannot take damage or be switched out. Hears Perish Song upon entering, ensuring
 Deals 30% more damage when it's slower than the target.
 速度比对方慢时，额外造成30%伤害。
 Protected from critical hits. Can't be burned or frostbitten.
-不会被击中要害，免疫烧伤、冻伤。
+不会被命中要害，免疫烧伤、冻伤。
 At the end of each turn, heals self by 1/20 and a party member by the amount the Pokémon was healed.
 回合结束时恢复1/20HP，队伍内其他精灵额外为其提供治疗量。
 Doubled Speed if any enemy has a non-volatile status condition.
@@ -40861,7 +40861,7 @@ Boosts Speed by 50% in moonglow. Can't miss during moonglow.
 In moonglow, Attack is boosted by 50%, but the Pokémon is hurt for 1/10th HP each turn.
 在月辉下，物攻增加50%，但每回合受到1/10HP的伤害。
 During moonglow, Speed is boosted by 50% and twice as likely to crit.
-在月辉下，速度增加50%，击中要害概率增加两倍。
+在月辉下，速度增加50%，命中要害概率增加两倍。
 Deals no damage to a target while they are using a status move.
 在对方使用变化类技能时，无法对其造成伤害。
 Traps foes whose Attack is less than its.
@@ -40909,7 +40909,7 @@ After fainting from exploding, revives after six turns.
 The Pokémon's hits deal half damage unless they are critical.
 如果没有命中要害，自身造成的伤害减半。
 Maximizes the frequency of multi-hit moves. Always deals critical hits.
-连续类技能总是能使出最大次数，且必定击中要害。
+连续类技能总是能使出最大次数，且必定命中要害。
 At the end of each of its turns, Speed is lowered but every other stat is raised.
 每个回合结束时，速度会减小，但其他所有能力都会增加。
 While the Pokémon is below half health, its attacks leech those hit.
@@ -40987,7 +40987,7 @@ Pokémon that swap in for this have their non-volatile status conditions healed,
 When hit with a physical move, hits back instantly with Leafage.
 受到物理攻击时，会立刻以树叶反击。
 Critical hits lower all of the victim's stats.
-击中要害时，减小其全能力。
+命中要害时，减小其全能力。
 Immune to Dark-type and Bug-type moves.
 免疫恶属性和虫属性技能。
 Spread moves deal 25% more damage instead of 25% less.
@@ -41027,7 +41027,7 @@ Upon entry, traps each opponent in a sand tomb for two turns.
 Special moves have a 30% chance to waterlog targets.
 特殊技能有30%的概率使目标浸水。
 Changes the weather to ring eclipse, which heralds the total ring eclipse. Lingers for 3 turns after leaving.
-将天气变为环形日食，并预示着环形日全食的到来。离场后天气持续3回合。
+将天气变为日环食，并预示着日全环食的到来。离场后天气持续3回合。
 Powers up Poison-type moves by 50%.
 毒属性技能的威力增加50%。
 Boosts all of the Pokémon's move damage by 25% during eclipse.
@@ -41149,7 +41149,7 @@ Prevents its stats from being lowered by more than one step at a time.
 Ignores Abilities that would affect its moves. Dizzies opponents that it hits below half health.
 无视会影响到它技能的特性，如果攻击后对手的HP低于一半，对手将陷入混乱。
 Changes the weather to Blood Moon, which heralds the Full Blood Moon. Lingers for 3 turns after leaving.
-将天气改变为血月，离场后依然能持续3回合。
+将天气改变为血月，并预示着血全月的到来。离场后天气持续3回合。
 The Pokémon benefits twice as much from style points.
 让风格点数的加成加倍。
 Upon entry, creates a Trick Room for four turns, inverting the effect of Speed.
@@ -41235,7 +41235,7 @@ Prevents half the self-damage from recoil and Self-Destruct/Explosion.
 If an attacker would activate a random added effect on the Pokémon, that effect is placed on the attacker instead.
 在受到攻击并触发技能的附加效果时，该附加效果由对方承受。
 Blocks random added effects of attacks taken, and prevents critical hits.
-不会受到技能附加效果影响，也不会被击中要害。
+不会受到技能附加效果影响，也不会被命中要害。
 Moves that use stats other than the default deal 50% more damage.
 使用非技能本身默认的进攻端能力时，技能威力增加50%。
 Takes 20% less damage from neutrally effective attacks.
@@ -41261,7 +41261,7 @@ Takes 40% less damage while using a status move.
 At the end of each turn, itself and each ally heals for 1/16th of their HP.
 每回合结束时，该精灵和每个队友会恢复其最大生命值的1/16。
 The Pokémon's attacks are always critical if there is an active Room.
-若场地存在空间，则总能击中要害。
+若场地存在空间，则总能命中要害。
 Double Sp. Def in eclipse.
 日食天气时，特防翻倍。
 Boosts Speed by 50% in rainstorm. Can't miss during rainstorm.
@@ -41329,7 +41329,7 @@ Adapts the move's type to maximize effectiveness while accounting for the immuni
 Adapts the move's type to maximize damage against the target.
 调整技能的类型，以对目标造成绝对最大伤害。
 When the Pokémon faints, it rewinds itself to 3 turns ago.
-当精灵失去意识时，它会回到3回合前的状态。
+当精灵濒死时，它会回到3回合前的状态。
 The targets cannot avoid facing the attack by the Pokémon.
 目标必须面对该精灵的攻击。
 Changes to a random Pokémon at the end of each turn.
@@ -45789,37 +45789,37 @@ There are no active totems to warp to.
 Basic Strategy
 战斗策略
 How do I win battles?
-如何获胜
+如何获胜？
 Acquiring Pokémon
 获取精灵
 How do I get more Pokémon?
-获得精灵
+获得精灵？
 Moves
 技能
 What are moves and what are the differences between them?
-技能
+技能？
 Type Matchups
 属性对比
 When and how are types better or worse against one another?
-属性克制
+属性克制？
 Type Chart
 属性图表
 How were type matchups changes compared to canon?
-与正作的区别
+与正作的区别？
 Stats
 能力
 What are stats, and how do they affect battles?
-什么是能力值
+什么是能力值？
 Abilities
 特性
 How do abilities work?
-特性相关
+特性相关？
 What are held items and how to use them?
-物品携带相关
+物品携带相关？
 Status Conditions
 异常状态
 What are the Conditions a Pokémon can be afflicted with?
-异常状态
+异常状态？
 Volatile Statuses
 非稳定类异常
 What are the Volatile Statuses a Pokémon can be afflicted with?
@@ -45827,15 +45827,15 @@ What are the Volatile Statuses a Pokémon can be afflicted with?
 Critical Hits
 命中要害
 What are critical hits and when do they happen?
-打出更高伤害
+打出更高伤害？
 Trainers
 训练师
 How do enemy Trainers work?
-NPC训练师
+NPC训练师？
 What are avatars and what do they do?
-什么是化身
+什么是化身？
 What does the MasterDex do and how should I use it?
-图鉴有什么用
+图鉴有什么用？
 Weathers
 天气
 What are weathers, and what does each do?
@@ -45843,29 +45843,29 @@ What are weathers, and what does each do?
 Tribes
 部族
 What are Tribes and what do they do?
-什么是部族
+什么是部族？
 Winning Battles
 赢得战斗
 You win a battle when all enemy Pokémon faint: reach 0 health points. You lose a battle if any of your Pokémon faints. Fainted Pokémon will revive in several turns.
-当你使所有敌方精灵失去意识：达到0生命点时，你赢得战斗。如果你的任何精灵失去意识，你就输掉战斗。失去意识的精灵将在10个回合后复活。
+当你使所有敌方精灵濒死：HP达到0时，你赢得战斗。如果你的任何精灵濒死，你就输掉战斗。濒死的精灵将在10个回合后复活。
 1. Have as many Pokémon as you can. 2. Level up your Pokémon as much as you can. 3. Abuse type matchups. 4. Start battles with healthy Pokémon.
-多抓精灵，多升级，多用不同属性，用满HP精灵开 始战斗。
+多抓精灵，多升级，多用不同属性，用满HP精灵开始战斗。
 Team Size
-团队规模
+队伍规模
 You can have a maximum of 6 Pokémon with you at any time. This is known as your 'Team'. You can store extra Pokémon using the PC in any PokéCenter.
 队伍最多拥有6只精灵，其他精灵则储存在精灵中心的电脑中。
 Levels
 等级
 Each Pokémon has a level from 1 to 70. A Pokémon's level determines its stats as well as what moves it could learn. Reaching high enough levels also unlocks Evolution.
-精灵的等级从1 到10不等，等级决定了它可以学习的技能和能否进化。
+精灵的等级从1到70不等，等级决定了它可以学习的技能和能否进化。
 Types are strong or weak against other types. Having a variety of different types on your team helps you take advantage of these relationships.
-不同属性之间有克制关系，一只队伍 中含有不同属性可以更方便处理各种情况。
+不同属性之间有克制关系，一只队伍中含有不同属性可以更方便处理各种情况。
 Healing your Pokémon
 治疗精灵
 Pokémon are healed after a trainer battle. You can heal your Pokémon at PokéCenters between battles. You can often use the Aid Kit instead to save on traveling time.
 训练师战斗后，精灵会恢复健康。你可以在战斗之间的精灵中心治疗你的精灵。你通常也可以使用急救包来节省旅行时间。
 Who goes first?
-先后手
+先后手？
 In battle, the Pokémon with the higher speed stat gets to use their move first. Some moves modify this. Speed ties are decided randomly.
 战斗中，速度能力更高的精灵可以率先行动，但有些技能可以改变顺序，速度相等时随机决定先后。
 Attacking vs Status
@@ -45899,21 +45899,21 @@ Pokémon deal 50% more damage with moves the share a type with them. For example
 Learning Moves
 学习技能
 Pokémon learn new moves as they level up. They can also learn moves from the 'Move Tutors' who sit in the left side of every PokéCenter.
-精灵在升级过程中可以学到新技能 ，还可以在精灵中心左侧的NPC处回忆或学到其他精灵的技能。
+精灵在升级过程中可以学到新技能，还可以在精灵中心左侧的NPC处回忆技能或学到其他精灵的技能。
 Base Power
 基础威力
 Moves with higher Base Power deal more damage. Some moves deal variable Base Power depending on the situation. Status moves have no base power.
 基础威力越高的技能伤害越高，有些技能的基础威力会发生改变，变化类技能没有威力。
 Accuracy is a move's chance of hitting. Most moves have 100% accuracy. Some effects can raise accuracy to let you use low-accuracy moves consistently.
-大多数技能的命中 率都是100%，游戏中同时有增加命中的方式，确保低命中的技能也能产生效果。
+大多数技能的命中率都是100%，游戏中同时有增加命中的方式，确保低命中的技能也能产生效果。
 Power Points
 PP
 Power Points, or PP, is a number which limits how many times a move can be used. Healing at a PokéCenter, after a trainer battle or with the Aid Kit restores PP.
 技能点数（PP）是一个限制技能使用次数的数字。在精灵中心治疗、训练师战斗后或使用急救包可以恢复PP。
 Each Pokémon has type weakness and type resistances based on its own type. eg. Water deals double damage to Fire, and Fire deals half damage to Water.
-每种精灵都有基于自身属性的弱点 和抗性，如火弱水，水抗火。
+每种精灵都有基于自身属性的弱点和抗性，如火弱水，水抗火。
 Type Combinations
-双/多属性
+属性组合
 When a Pokémon has two types, its type weaknesses and resistances multiply. A Pokémon can be double weak or double resistant, or immune even though one of their types is weak.
 当精灵有两种属性时，它的弱点和抗性就会相互叠加，因此有可能会有非常克制或非常惧怕的属性。
 Normal Effective
@@ -45943,7 +45943,7 @@ Ineffective moves deal no damage at all. This can happen if one of a Pokémon's 
 Looking Up Matchups
 对战情况
 The 5th and 6th pages of a MasterDex entry show that Pokémon's type matchups. Open the MasterDex in battle to check matchups if you're not sure.
-大师图鉴的第5、6 页显示了精灵的属性相关，不确定的话可以在战斗中打开图鉴查看。
+大师图鉴的第5、6页显示了精灵的属性相关，不确定的话可以在战斗中打开图鉴查看。
 Psychic vs Steel
 超能和钢
 Psychic is now Super-Effective vs Steel. Think of magicians bending spoons.
@@ -45963,13 +45963,13 @@ Grass now resists Fairy and Ghost. Think of incense warding off magic.
 Ice resistances
 冰属性抗性
 Ice now resists Flying and Ground. Ice is Super-Effective against those types, so it's only natural!
-冰属性现在可以抵抗飞行和地面属性 ，本身冰属性就克制它们，能抵抗一 下也正常。
+冰属性现在可以抵抗飞行和地面属性，本身冰属性就克制它们，能抵抗一下也正常。
 Other changes
 其它改动
 Rock resists Ice. Fairy resists Dragon. Fairy is neutral against Fire. Bug resists Psychic.
-岩石属性可以抵抗冰属性，妖精属性不再免疫龙属性， 火属性抵抗妖精属性，虫属性可以抵 抗超能属性。
+岩石属性可以抵抗冰属性，妖精属性不再免疫龙属性，火属性抵抗妖精属性，虫属性可以抵抗超能属性。
 Why Get More?
-需培养更多
+需培养更多？
 Having choices of Pokémon is important when facing challenges. A team of six is a bare minimum--it's best to catch more and pull them from the PC as needed.
 每种精灵都有根据自己的属性确定的弱点，因此在应对特定对手时，最好更改队伍配置。
 Methods of Aquiring
@@ -45979,15 +45979,15 @@ The three main methods of acquiring Pokémon are using DexNav, catching them fro
 Catching Basics
 捕捉常识
 Wild Pokémon will attack you if you walk through patches of grass, dark ground in caves, or other wild terrain. You can catch these Pokémon by throwing Poké Balls at them.
-在草丛、洞穴中的黑色地板或者其他特殊地形时，就会遇到野生精灵， 可以通过向它们扔精灵球的方式将其捕获。
+在草丛、洞穴中的黑色地板或者其他特殊地形时，就会遇到野生精灵，可以通过向它们扔精灵球的方式将其捕获。
 Increase Catch Chance pt. 1
 捕获率 上
 Catching a Pokémon isn't guaranteed. It's easier to catch Pokémon when their health has been lowered by your attacks, or when they have a status ailment.
-当野生精灵的HP被减小，或者受到异常状态影响后 ，就能更轻松地捉住它们了。
+当野生精灵的HP被减小，或者受到异常状态影响后，就能更轻松地捉住它们了。
 Increase Catch Chance pt. 2
 捕获率 下
 Every time a Pokémon breaks out of a ball, it'll be slightly easier to catch for the rest of the battle. You can check what your current catch chance is in the Poké Ball menu.
-每当精灵从球里出来，它的捕捉率都会进一步增加， 而且可以在精灵球的菜单中查看捕捉概率。
+每当精灵从球里出来，它的捕捉率都会进一步增加，而且可以在精灵球的菜单中查看捕捉概率。
 Finding Wild Pokémon
 寻找野生精灵
 Use the DexNav to get information on which Pokémon are available where you are.
@@ -45995,11 +45995,11 @@ Use the DexNav to get information on which Pokémon are available where you are.
 Trades
 交换
 Throughout the world there will be people offering trades for Pokémon. Usually they want a different Pokémon, but sometimes they want money.
-世界各地都会有愿意交换精灵的人 ，只要将打算交换的精灵放在箱子中，就可以与他们交换了。
+世界各地都会有愿意交换精灵的人，只要将打算交换的精灵放在箱子中，就可以与他们交换了。
 What are Stats?
-什么是能力值
+什么是能力值？
 Stats, short for Statistics, are the numbers which determine how your Pokémon performs in battle.
-能力值决定着你的精灵在战斗中的 能力表现，以数字形式展示。
+能力值决定着你的精灵在战斗中的能力表现，以数字形式展示。
 Checking Stats
 查看能力值
 Check your Pokémon's stats by looking at the second page of their summary screen, accessible through the Pokémon menu in the pause menu.
@@ -46015,29 +46015,29 @@ Every species of Pokémon have base stats, which affect every Pokémon of that s
 Style Points
 风格点
 Style Points are numbers which you can customize to change your Pokémon's stats. Style Points show as blue numbers on the stat page of the summary.
-风格点是一种可以自定义精灵属性的玩法，在精灵界面的信息当中， 会以蓝色字体显示出来。
+风格点是一种可以自定义精灵属性的玩法，在精灵界面的信息当中，会以蓝色字体显示出来。
 Leveling and Evolution
 等级与进化
 Your Pokémon's stats will increase every time they level up. When Pokémon evolve, their stats change (almost always they increase).
-精灵每次升级时，能力值都会增加 ，进化时增加的更多。
+精灵每次升级时，能力值都会增加，进化时增加的更多。
 Accuracy and Evasion
 命中和回避
 Accuracy and Evasion are two stats which are only active in battle, starting at 100% each. They are only modified by in-battle changing effects.
-命中和回避属性只在战斗中有效，初始均为100%，只会被战斗中的效果修正。
+命中和回避能力等级只在战斗中有效，初始均为100%，只会被战斗中的效果改变。
 Stat Steps
 能力等级
 Effects can modify a Pokémon's stats during battle. These are called 'stat steps'. Stat steps multiply or divide the Pokémon's listed stat value.
 你可以在战斗中使用变化类技能增加精灵的能力等级，或减小对手的能力等级。
 Bounds of Stat Steps
-统计升降范围
+能力等级升降范围
 Stat steps start at 0, and can increase up to +12 (4x) and down to -12 (.25x). Stat steps are usually reset if you swap the Pokémon out or it faints.
-能力等级从0开始，可以增加到+12（4倍）和减小到-12（0.25倍）。如果交换精灵或它失去意识，能力等级通常会重置。
+能力等级从0开始，可以增加到+12（4倍）和减小到-12（0.25倍）。除了自然恢复外，如果交换精灵或它濒死，能力等级通常也会重置。
 Checking Stat Steps
 检查当前升降
 You can check the current stat steps of each Pokémon on the battlefield using the Info button. It lists the numerical step as well as resultant multiplier.
 你可以使用战斗中的信息功能，查看战场中的情况，以及精灵的能力值状态。
 What are abilities?
-特性是什么
+特性是什么？
 Abilities are special powers that Pokémon can have based on their species. Most Pokémon can have 2 possible abilities. All abilities activate in battle or in the field.
 特性是精灵根据其种类可以拥有的特殊能力。大多数精灵可以有2种可能的特性。所有特性在战斗或野外都会激活。
 Ability Effects
@@ -46059,7 +46059,7 @@ Many abilities only do things under certain circumstances. Building around Weath
 Effect Of Evolution
 进化的影响
 A Pokémon's ability tends to stay the same when evolving, but can change. When this happens, the game will alert you.
-精灵的特性在进化时通常是不变的 ，但也有特殊情况 ，在发生变化时游戏会给予提示。
+精灵的特性在进化时通常是不变的，但也有特殊情况，在发生变化时游戏会给予提示。
 Defeating Abilities
 击败类特性
 An enemy Trainer's ability too much? Abilities like Neutralizing Gas, and moves like Gastro Acid, can suppress abilities in battle.
@@ -46069,29 +46069,31 @@ Swapping Abilities
 Moves like Skill Swap can be used to give a new ability to Pokémon during battle, enabling unique and creative team synergies.
 某些技能和效果可以和对方交换特性，比如技能特性互换。
 What are Held Items?
-携带物品
+携带物品？
 Held items are items which you can give your Pokémon to benefit them during battle. They can increase their damage, heal them, or other things.
 可以通过携带一些可以在战斗中使用的物品，增加精灵战斗中的表现。
 Equipping an item
 携带一个物品
 You can give a Pokémon an item from your bag, or through the summary screen. Not all items do an effect when held, so read carefully.
-你可以通过背包或精灵菜单给它们携带物品，并不是所有物品携带后都对战斗有所帮助， 请仔细阅读。
+你可以通过背包或精灵菜单给它们携带物品，并不是所有物品携带后都对战斗有所帮助，请仔细阅读。
 Berries
 树果
 Berries are a common held item. During battles, Pokémon will eat the berry to get a benefit. Get berries by picking from Berry Trees.
 树果是一种很常见的携带物品，精灵于战斗中会在合适的时候吃掉树果。
 Sitrus and Amwi Berry
 文柚果和净馨果
+Sitrus and Cado Berry
+文柚果和净馨果
 Sitrus Berry and Cado Berry are common berries which heal your Pokémon when at low health. If in doubt about what item to give a Pokémon, give them one of these.
-文柚果和味美果可以在精灵体力较少时触发，并恢复它们的HP，如果不知道该携带些什 么，可以选择它们。
+文柚果和味美果可以在精灵体力较少时触发，并恢复它们的HP，如果不知道该携带些什么，可以选择它们。
 Rematerializer
 重塑打印机
 In Pokémon Tectonic, the Rematerializer regenerates held items which are consumed in battle. You'll never run out of berries!
-在游戏中，重塑打印机可 以将战斗中消耗的物品再生，因此永远不用担心会把树果用完。
+在游戏中，重塑打印机可以将战斗中消耗的物品再生，因此永远不用担心会把树果用完。
 Wild Held Items
 野生携带物品
 Wild Pokémon can be found holding items. These items sometimes have held effects, but often don't.
-野生精灵也会携带物品，这些物品通常没有携带效果 ，但部分未必。
+野生精灵也会携带物品，这些物品通常没有携带效果，但部分未必。
 Getting More
 获得物品
 You will find more held items on the ground when traveling, or as gifts from people, or as the reward for defeating Avatars, or as purchasable items in shops.
@@ -46099,7 +46101,7 @@ You will find more held items on the ground when traveling, or as gifts from peo
 What are Status Conditions?
 异常状态
 Status Conditions are ailments a Pokémon can have which hurt or restrict them. They remain after swapping out, and even between battles.
-精灵可能在战斗中被异常状态干扰 ，即便离开战场异常状态也不会消失。
+精灵可能在战斗中被异常状态干扰，即便离开战场异常状态也不会消失。
 Healing Status Conditions
 治愈异常状态
 Status Conditions are removed when you heal at the PokéCenter, after a trainer battle or when you use the Aid Kit.
@@ -46113,7 +46115,7 @@ When burned, a Pokémon's Attack is reduced by 33%, and loses 1/8th HP every tur
 Frostbite
 冻伤
 When frostbitten, a Pokémon's Sp. Atk is reduced by 33%, and loses 1/8th HP every turn. Ice- and Flying-types do the most frostbiting. Ice is immune.
-被冻伤的精灵特攻减小33%，每回合损失1/8HP， 冰属性与飞行属性最擅长冻伤对手，冰属性免疫冻伤。
+被冻伤的精灵特攻减小33%，每回合损失1/8HP，冰属性与飞行属性最擅长冻伤对手，冰属性免疫冻伤。
 When poisoned, a Pokémon loses 1/12th HP every turn. This doubles every 2 turns. Poison- and Grass-types do the most poisoning. Poison/Steel are immune.
 中毒时，精灵每回合损失1/12的HP。每两回合翻倍。毒属性和草属性最容易造成中毒。毒/钢属性免疫。
 When numbed, a Pokémon's Speed is halved, and it deals 25% less damage. Electric- and Fighting-types do the most numbing. Electric is immune.
@@ -46181,33 +46183,33 @@ Grounded
 A grounded Pokémon loses their immunity to ground moves (from being Flying-type or having a Levitate ability).
 落地的精灵会失去对地面属性技能的免疫（无论是因为飞行属性还是拥有漂浮特性）。
 What are Critical Hits?
-什么是命中要害
+什么是命中要害？
 A critical hit deals 50% more damage than a regular hit. Certain moves are able to randomly critical hit.
-击中要害造成的伤害比普通命中多50%。某些技能能够随机击中要害。
+命中要害造成的伤害比普通命中多50%。某些技能能够随机命中要害。
 How common are Critical Hits?
-命中要害的概率
+命中要害的概率？
 For moves that can random crit, the chance is 1/8. This chance can be raised by abilities, items, or special effects.
-对于能够随机击中要害的技能，其命中要害率为1/8。这个概率可以通过特性、物品或特殊效果增加。
+对于能够随机命中要害的技能，其命中要害率为1/8。这个概率可以通过特性、物品或特殊效果增加。
 Other Effects
 其他影响
 Critical hits ignore stat steps (on the user or the target) that would lower their damage. They also ignore protective screens like Reflect and Light Screen.
 命中要害的一击不会受到能力减小的影响，也不会受到反射壁和光墙等技能的影响。
 Preventing Criticals
-防止被击中要害
+防止被命中要害
 Certain abilities prevent critical hits against that Pokémon. The Lucky Chant effect protects their side from critical hits.
 某些特性可以防止对该精灵的命中要害。幸运咒语的效果可以保护其所在的一方免受命中要害。
 Guaranteed Criticals
-确保击中要害
+确保命中要害
 Some moves or abilities are not random, but guarantee a critical hit under certain conditions. Otherwise, these act the same as random critical hits.
-有些技能或特性可以在某些条件下可以保证击中要害， 一般情况下则是概 率击中。
+有些技能或特性可以在某些条件下可以保证命中要害，一般情况下则是概 率击中。
 What are Tribes?
-部族
+部族？
 Every Pokémon has 1-3 Tribes, decided by their species. Have 5 Pokémon of a shared Tribe on your team, and your entire team will receive that Tribe's bonus in battle!
-每种精灵都有最多三个部族，如果队伍中有五只来自同一部族的精灵 ，将会得到全队奖励。
+每种精灵都有最多3个部族，如果队伍中有5只来自同一部族的精灵 ，将会得到全队奖励。
 Tribal Bonus
 部族奖励
 Tribal Bonuses are not identical: each Tribe provides a unique boon. With careful team composition, you can have 2 or even 3 Tribal Bonuses active at once!
-每个部族提供的奖励各不相同，通过精心搭配你的队伍 ，可以同时激活多个部族的效果！
+每个部族提供的奖励各不相同，通过精心搭配你的队伍，可以同时激活多个部族的效果！
 Are they important?
 部族重要性
 Tribes are not required in any way to complete the game. They are simply an alternative team-building challenge to play with, like Single Type runs.
@@ -46215,7 +46217,7 @@ Tribes are not required in any way to complete the game. They are simply an alte
 What are Enemy Trainers?
 敌对训练师
 Enemy Trainers are the Pokémon Trainers you will battle throughout the game. Some block your path forwards (like Gym Leaders), others are optional.
-敌对训练师是在游戏过程中的主要对 手，他们有时会阻挡你前进的道路， 而有些可以绕开。
+敌对训练师是在游戏过程中的主要对手，他们有时会阻挡你前进的道路， 而有些可以绕开。
 Detecting Trainers
 发现训练师
 Trainers are people who have a companion Pokémon next to them. If a person doesn't have that, they either aren't a Trainer, or are an inactive one.
@@ -46231,19 +46233,19 @@ If you defeat a Trainer but have not 'perfected' the fight, it doesn't count as 
 Perfecting Fights
 完胜
 If you defeat a Trainer without any of your Pokémon fainting, you've 'perfected' the fight. They will leave forever and drop experience candy as a reward.
-如果在击败训练师时没有精灵昏倒 ，即被视为“完胜”，之后这个训练 家便会永远离开，并掉落经验糖果作为奖励。
+如果在击败训练师时没有精灵昏倒，即被视为“完胜”，之后这个训练家便会永远离开，并掉落经验糖果作为奖励。
 Enemy Teams
 对手队伍
 Enemy Trainers have their own teams of Pokémon with their own moves and held items. It's important to pay attention to these possibilities to win battles.
-敌对训练师都拥有自己的精灵队伍 ，有自己的技能搭配和物品携带，如果想在战斗中获胜 ，就要注意这些内容。
+敌对训练师都拥有自己的精灵队伍，有自己的技能搭配和物品携带，如果想在战斗中获胜，就要注意这些内容。
 Differences
 差异
 The typical trainer has 3 Pokémon, but Gym Leaders will have more. Trainers with more Pokémon also have more move variety and more items on their Pokémon.
-一般的训练师都只有三只精灵，但道馆馆主的精灵数量更多。
+一般的训练师都只有3只精灵，但道馆馆主的精灵数量更多。
 Pro Trainers
 精英训练师
 Pro Trainers are special Trainers, noted by their grey hair and black clothes. Their teams are always 6 Pokémon, all with items, and built around a Tribal Bonus. They're hard!
-精英训练师是一种特殊的训练师，以灰色头发和黑色衣服为标志，他们都拥有六只精灵， 且围绕部族组建队伍。
+精英训练师是一种特殊的训练师，以灰色头发和黑色衣服为标志，他们都拥有六只精灵，且围绕部族组建队伍。
 Trainer Behaviour
 训练师行为
 Individual Trainers will always react to the same in-battle circumstances the same way. You can learn how to beat or even perfect a Trainer through trial and error.
@@ -46251,7 +46253,7 @@ Individual Trainers will always react to the same in-battle circumstances the sa
 What are Avatars?
 化身
 Avatars are powerful enemy Pokémon with unique properties that you will fight and destroy during your adventure. They cannot be caught.
-化身是拥有独特能力的强大精灵， 你可以在冒险过程 中与它们战斗，它们无法被捕捉。
+化身是拥有独特能力的强大精灵， 你可以在冒险过程中与它们战斗，它们无法被捕捉。
 Avatars are Healthy
 生命值
 Avatars have at least two health bars, which means they have a lot of health. Much more than double the normal amount!
@@ -46299,7 +46301,7 @@ When an Avatar is destroyed, every Pokémon on your team is given experience, ev
 Legendary Avatars
 传说化身
 Legendary Avatars are unique. You fight them with 3 Pokémon, they have 3 HP bars, and they have more moves with more smarts about how to use them.
-传说化身是独一无二的，与它们战斗时同时使用3只精灵，它们拥有3 个HP条，更多技能和已经设定好的行动方式。
+传说化身是独一无二的，与它们战斗时同时使用3只精灵，它们拥有3个HP条，更多技能和已经设定好的行动方式。
 What is the MasterDex?
 大师图鉴
 The MasterDex is an advanced encyclopedia about the 900+ Pokémon available in this game.
@@ -46307,7 +46309,7 @@ The MasterDex is an advanced encyclopedia about the 900+ Pokémon available in t
 Single MasterDex
 单个图鉴
 Access the MasterDex entry of a single Pokémon when looking at a Pokémon in the summary or the PC, or by using the Dex button in battles.
-在菜单、精灵中 心中查看精灵时 ，都可以快速访问其图鉴项目。
+在菜单、精灵中 心中查看精灵时，都可以快速访问其图鉴项目。
 Full MasterDex
 全图鉴
 Access the full MasterDex from your pause menu, or by pressing D when using the Dex button in battles (while it's waiting for you to select a battler).
@@ -46315,7 +46317,7 @@ Access the full MasterDex from your pause menu, or by pressing D when using the 
 Searching
 搜索
 When in the MasterDex, you can press your Special keybind (default Shift or Z) to open the first search page. There's dozens of searches to experiment with!
-进入大师图鉴后，可以按下特殊键（ 默认为Z），即可打开第一个搜索界面，此界面支持中文搜索，但无法显示部分打字法输入界面。
+进入大师图鉴后，可以按下特殊键（默认为Z），即可打开第一个搜索界面，此界面支持中文搜索，但无法显示部分打字法输入界面。
 Combining Searches
 组合搜索
 You can begin a search while you're already looking at the results of a search. This will narrow down from what you were already looking at.
@@ -46323,11 +46325,11 @@ You can begin a search while you're already looking at the results of a search. 
 Storing Searches
 搜索结果
 When you hold CTRL while closing out of a search, it will close the MasterDex and store the search for the next time you open it.
-在关闭搜索时按住CTRL键，将关闭 图鉴并储存搜索结果，以便下次打开使用。
+在关闭搜索时按住CTRL键，将关闭图鉴并储存搜索结果，以便下次打开使用。
 Quick Navigation
 快速翻阅
 Press A to go up a page at a time, or S to go down a page. Use the number keys (1-9) to quickly go to one of the tab's of a Pokémon's MasterDex entry.
-使用图鉴时可以通过按A键向上翻一 页，或按S键向下翻一页，使用数字键可以快速进入搜索精灵的项目。
+使用图鉴时可以通过按A键向上翻一页，或按S键向下翻一页，使用数字键可以快速进入搜索精灵的项目。
 Move Details
 技能细节
 Press the Use key (defaults to C) on the level up learnset or tutor moves tabs to begin scrolling the lists, and viewing details about individual moves.
@@ -46361,9 +46363,9 @@ Moonglow flinches all Pokémon every 4 turns. Fairy and Dark-types are immune to
 Weather Downsides
 天气负面影响
 Each weather has both an upside and a downside. There are items and abilities that make your Pokémon immune to these downsides regardless of type.
-每种天气都有自己的优点和缺点，有些物品和特性可以使精灵免受这些不利因素。
+每种天气都有自己的利处和不利处，除了属性外，某些物品和跟天气有协同作用的特性可以使精灵免受这些不利因素。
 Weather Areas
-天气预报
+天气区域
 Certain areas in the game experience intense weather. That weather will also be present in the battles of that area. Simple daily weather will not do this.
 游戏中的某些区域会出现强烈的天气 ，这些天气也会影响战斗。
 Weather Synergies
@@ -46941,7 +46943,7 @@ Reset
 {1}'s gender couldn't be changed.
 无法改变{1}的性别。
 {1} is fainted, can't change status.
-{1}失去意识，无法改变状态。
+{1}濒死，无法改变状态。
 <<[>>Cure<<]>>
 <<[>>治愈<<]>>
 Set {1}'s status.
@@ -48695,7 +48697,7 @@ Your Super Effective attacks become Not Very Effective.
 O Agonal Ecstasies, Spare Us Not Our Agonies
 行至终末须尽欢，今生苦短莫为难。
 When enemy Pokémon faint, they deal a quarter of their HP as damage to their last attacker.
-当敌方精灵失去意识时，它们会对最后的攻击者造成其HP四分之一的伤害。
+当敌方精灵濒死时，它们会对最后的攻击者造成其HP四分之一的伤害。
 {1} takes its vengeance!
 {1}进行报复！
 I chose a move!
@@ -48703,9 +48705,9 @@ I chose a move!
 You chose a move!
 你选择了一个技能！
 My Pokémon fainted!
-我的精灵失去意识了！
+我的精灵濒死了！
 Your Pokémon fainted!
-你的精灵失去意识了！
+你的精灵濒死了！
 I sent out a Pokémon!
 我派出了一只精灵！
 You sent out a Pokémon!
@@ -49385,7 +49387,7 @@ The skyline is still dominated by a planet!
 The nightmarish moon is unaffected!
 血月仍然透露着妖冶！
 The Total Ring Eclipse arrives!
-日环食降临了！
+日全环食降临了！
 The Total Eclipse arrives!
 日全食来临了！
 {1} is severely panicked!
@@ -49395,7 +49397,7 @@ The Total Eclipse arrives!
 But no one was panicked.
 但是没人感到惊慌。
 The Full Blood Moon rises!
-血月就此出现！
+血全月就此出现！
 The Full Moon rises!
 满月就此出现！
 {1} is moonstruck! It'll flinch this turn!
@@ -49409,9 +49411,9 @@ The Total Eclipse is approaching.
 The Full Moon is approaching.
 满月即将来临。
 The Total Ring Eclipse is approaching.
-日环食即将来临。
+日全环食即将来临。
 The Full Blood Moon is approaching.
-血月即将来临。
+血全月即将来临。
 {1} absorbs the suffering from the hailstorm.
 {1}受到了冰雹的伤害。
 {1} absorbs the suffering from the sandstorm
@@ -50233,19 +50235,19 @@ It's pain becomes golden coins!
 {1} can use items again!
 {1}可以使用物品了！
 {1} received an encore!
-{1}被要求再来一次！
+{1}被鼓掌了！
 It will repeat its move for the next {1} turns!
 它将在接下来的{1}回合重复它的技能！
 {1}'s encore ended!
-{1}的再来一次状态解除了！
+{1}的鼓掌状态解除了！
 {1}'s critical hit chance was doubled!
-{1}击中要害的概率翻倍了！
+{1}命中要害的概率翻倍了！
 {1}'s critical hit chance was quadrupled!
-{1}击中要害的概率增加了四倍！
+{1}命中要害的概率增加了四倍！
 {1}'s is now 8 times more likely to get a crticial hit!
-{1}击中要害的概率增加到了八倍！
+{1}命中要害的概率增加到了八倍！
 {1}'s is now 16 times more likely to get a crticial hit!
-{1}击中要害的概率增加到了十六倍！
+{1}命中要害的概率增加到了十六倍！
 Also, critical hits are now possible on all of {1}'s attacks!
 此外，{1}的所有攻击现在都有可能命中要害！
 {1} is tightening its focus!
@@ -50623,7 +50625,7 @@ The healing wish came true for {1}!
 {1} is now blessed!
 {1}现在被祝福了!
 They'll be protected from critical hits for {1} more turns!
-它们将在接下来的{1}回合内不会被击中要害！
+它们将在接下来的{1}回合内不会被命中要害！
 {1}'s Lucky Chant was broken!
 {1}的幸运咒语停止了！
 {1} is no longer protected by Lucky Chant.
@@ -50647,7 +50649,7 @@ They'll be protected from status ailments for {1} more turns!
 {1} is protected by a diamond sheen!
 {1}受到了钻石光泽的保护！
 They can't be crit and take less damage for {1} more turns!
-它们在接下来的{1}回合内不会被击中要害，并且受到的伤害会减小！
+它们在接下来的{1}回合内不会被命中要害，并且受到的伤害会减小！
 {1}'s Diamond Field was removed!
 {1}的钻石场地被破坏了！
 {1} is no longer protected by Diamond Field.
@@ -51117,7 +51119,7 @@ Near the avatar, immunities are resistances!
 The Empowered attack pierced the immunity!
 增强后的攻击无视免疫！
 {1} prevents the hit from being critical!
-{1}阻止了这次攻击击中要害！
+{1}阻止了这次攻击命中要害！
 {1}'s {2} protects it from a random added effect!
 {1}的{2}保护它免受附加效果的影响！
 Given status #{statusApplying} is not valid.
@@ -51595,7 +51597,7 @@ But it failed, since {1} is already taunted!
 But it failed, since the target's healing is already blocked!
 但是它失败了，因为目标的治愈已被封锁！
 But it failed, since {1} is already locked into an encore!
-但它失败了，因为{1}已经被锁定在再来一次了！
+但它失败了，因为{1}已经被鼓掌锁定了！
 But it failed, since {1} can't be locked into {2}!
 但是它失败了，因为{1}无法锁定在{2}上！
 But it failed, since {1} is setting a Shell Trap!
@@ -52853,7 +52855,7 @@ Want to escape from here and return to {1}?
 It has no effect on Pokémon other than Shaymin.
 对谢米之外的精灵无影响。
 This can't be used on the fainted Pokémon.
-这个不能用于失去意识的精灵。
+这个不能用于濒死的精灵。
 {1} changed Forme!
 {1}改变了形态！
 It has no effect on Pokémon other than Tornadus, Thundurus, Landorus, or Enamorus.
@@ -52871,7 +52873,7 @@ It cannot be fused with itself.
 It cannot be fused with an Egg.
 它不能与蛋融合。
 It cannot be fused with that fainted Pokémon.
-它不能与那只失去意识的精灵融合。
+它不能与那只濒死的精灵融合。
 It cannot be fused with that Pokémon.
 它不能与那只精灵融合。
 You have no room to separate the Pokémon.
@@ -53281,7 +53283,7 @@ The game has detected that the battery is low. You should save soon to avoid los
 You have no more Pokémon that can fight!<<1>>
 你没有更多可以战斗的精灵了！<<1>>
 You blacked out!
-你失去意识了！
+你濒死了！
 The repellent's effect wore off! Would you like to use another one?
 除虫喷雾的效果消失了， 要使用下一个吗？
 The repellent's effect wore off!
@@ -54271,7 +54273,7 @@ Fully heal
 {1} was fully healed.
 {1}被完全治愈了。
 Make fainted
-使其失去意识
+使其濒死
 Level/stats...
 等级/状态...
 Set level
@@ -55627,7 +55629,7 @@ There's no shame in letting a Pokémon fall in order to get a safe switch to ano
 While they may seem drastic, moves such as Healing Wish or Explosion can turn the tide of a match in a single turn.
 虽然它们看起来很极端，但像治愈愿望或自爆这样的技能可以在1回合内扭转比赛的局面。
 Fainting the user can, if used with finesse, be an advantage – think of them as the ultimate U-Turn.
-如果使用得当，让使用者失去意识可以是一个优势——把它们当作终极的极速折返。
+如果使用得当，让使用者濒死可以是一个优势——把它们当作终极的极速折返。
 The Corviknight stares at you intently.
 钢铠鸦正在盯着你。
 You get the sense that you've failed some sort of test.
@@ -60588,7 +60590,7 @@ Electrify
 Embargoed
 禁运
 Encore Turns
-再来一次回合
+鼓掌回合
 Must Use
 必须使用
 Endure
@@ -61116,7 +61118,7 @@ Money Dropped
 Unwavering Valor
 坚定不移的勇气
 Faint Healing
-失去意识时恢复
+濒死时恢复
 [33]
 Crowning Achievement
 加冕

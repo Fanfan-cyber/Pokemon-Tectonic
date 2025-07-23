@@ -41,11 +41,6 @@ class PokeBattle_Battler
   end
 
   def update_step_counter(stat, increment, raised = true)
-    if TA.get(:disable_step_counter)
-      TA.set(:disable_step_counter, false)
-      @battle.pbDisplay(_INTL("It won't restore naturally!"))
-      return
-    end
     step_counter = tracker_get(:step_counter)
     step_counter[stat] = [] unless step_counter[stat]
     step_counter[stat] << [raised ? increment : -increment, Settings::STEP_RECOVERY_TURN]

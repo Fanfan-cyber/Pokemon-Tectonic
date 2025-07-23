@@ -246,7 +246,7 @@ class PokeBattle_Battle
                 end
                 pbCommonAnimation("Eclipse")
                 anyAffected = false
-                debuff = primevalVariant ? ALL_STATS_3 : ALL_STATS_2
+                debuff = primevalVariant ? ALL_STATS_4 : ALL_STATS_3
                 priority.each do |b|
                     next if b.fainted?
                     next unless b.debuffedByEclipse?
@@ -255,9 +255,7 @@ class PokeBattle_Battle
                     else
                         pbDisplay(_INTL("{1} is panicked!", b.pbThis))
                     end
-                    TA.set(:disable_step_counter, true)
                     b.pbLowerMultipleStatSteps(debuff, showFailMsg: true)
-                    TA.set(:disable_step_counter, false)
                     anyAffected = true
                 end
                 pbDisplay(_INTL("But no one was panicked.")) if showWeatherMessages && !anyAffected

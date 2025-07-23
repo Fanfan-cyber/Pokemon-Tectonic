@@ -91,7 +91,6 @@ BattleHandlers::EOREffectAbility.add(:IGNITIONCYCLE,
   proc { |ability, battler, battle|
       battle.pbShowAbilitySplash(battler, ability)
       if !battler.statStepAtMax?(:SPEED)
-          TA.set(:disable_step_counter, true)
           if battler.tryRaiseStat(:SPEED, battler, increment: 3)
               battler.applyFractionalDamage(1.0 / 8.0, false)
               battle.pbDisplay(_INTL("{1}'s inner fire flared up!", battler.pbThis))
