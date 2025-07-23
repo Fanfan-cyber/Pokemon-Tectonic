@@ -27,6 +27,7 @@ class PokeBattle_Move_EmpoweredTailwind < PokeBattle_Move_StartUserSideDoubleSpe
 
     def pbEffectGeneral(user)
         user.pbOwnSide.applyEffect(:EmpoweredTailwind, @battle.get_tailwind_duration(@tailwindDuration, user))
+        transformType(user, :FLYING)
     end
 
     def getEffectScore(user, _target)

@@ -42,7 +42,7 @@ BattleHandlers::TypeCalcAbility.add(:FIERYGLOW,
 
 BattleHandlers::TypeCalcAbility.add(:OTHERWORLDLY,
     proc { |ability, battler, types|
-        types.push(:BUG)
+        types.push(:FAIRY)
         next types
     }
 )
