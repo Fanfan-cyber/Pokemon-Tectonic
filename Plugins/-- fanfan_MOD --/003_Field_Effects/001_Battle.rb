@@ -354,50 +354,6 @@ class PokeBattle_Battle
     @current_field.is_base?
   end
 
-  def is_electric_field?
-    @current_field.is_electric?
-  end
-
-  def is_grassy_field?
-    @current_field.is_grassy?
-  end
-
-  def is_misty_field?
-    @current_field.is_misty?
-  end
-
-  def is_psychic_field?
-    @current_field.is_psychic?
-  end
-
-  def is_burning_field?
-    @current_field.is_burning?
-  end
-
-  def is_cursed_field?
-    @current_field.is_cursed?
-  end
-
-  def is_sandy_field?
-    @current_field.is_sandy?
-  end
-
-  def is_venomous_field?
-    @current_field.is_venomous?
-  end
-
-  def is_ravine?
-    @current_field.is_ravine?
-  end
-
-  def is_swamp?
-    @current_field.is_swamp?
-  end
-
-  def is_frozen_field?
-    @current_field.is_frozen?
-  end
-
   def get_tailwind_duration(orig_turn = 4, user = nil)
     ret = apply_field_effect(:tailwind_duration, user)
     orig_turn += ret if ret
