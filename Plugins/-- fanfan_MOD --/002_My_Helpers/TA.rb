@@ -113,8 +113,8 @@ module TA
     GameData::Species.each do |species|
       next if BLACK_LIST_PKMN.include?(species.id)
       next if species.mega_stone
-      next if species.flags.include?("Legendary")
-      next if species.flags.include?("Test")
+      next if species.isLegendary?
+      next if species.isTest?
       @@pkmn_pool.push(species.id)
     end
     @@pkmn_pool
