@@ -96,9 +96,13 @@
 [Map76]
 [Map77]
 [Map78]
+Many of the species researched here are hard to find in the wild.
+Many of the species researched here are hard to find in the wild.
 ...
 ...
 [Map79]
+Need I remind you--knowledge is its own reward.
+Need I remind you--knowledge is its own reward.
 [Map80]
 [Map81]
 [Map82]
@@ -108,6 +112,8 @@
 [Map86]
 [Map87]
 [Map88]
+I can't help but think it's that avatar to blame.
+I can't help but think it's that avatar to blame.
 [Map89]
 [Map90]
 [Map91]
@@ -258,6 +264,8 @@
 [Map214]
 ...
 ...
+Don't even think about challenging the Dreadnaught until you've acquired every other Makyan badge.
+Don't even think about challenging the Dreadnaught until you've acquired every other Makyan badge.
 [Map215]
 [Map216]
 ...
@@ -514,8 +522,20 @@
 [Map446]
 [Map447]
 [1]
+Dipplin
+Dipplin
+Hydrapple
+Hydrapple
 [2]
+Candy Apple
+Candy Apple
+Apple Hydra
+Apple Hydra
 [3]
+The head sticking out belongs to the fore-wyrm, while the tail belongs to the core-wyrm. The two share one apple and help each other out.
+The head sticking out belongs to the fore-wyrm, while the tail belongs to the core-wyrm. The two share one apple and help each other out.
+Seven syrpents live inside an apple made of syrup. The syrpent in the center is the commander.
+Seven syrpents live inside an apple made of syrup. The syrpent in the center is the commander.
 [4]
 A
 A
@@ -578,12 +598,60 @@ Z
 10%
 10%
 [5]
+Diamond Bolt
+Diamond Bolt
+Luster
+Luster
 [6]
+The user attacks with air that slices even the sky. It has a 40% chance to flinch the target.
+The user attacks with air that slices even the sky. It has a 40% chance to flinch the target.
+The user attacks opposing Pokémon with a pulse of water which glows a deep and brilliant blue.
+The user attacks opposing Pokémon with a pulse of water which glows a deep and brilliant blue.
+The user dazzles nearby foes with light. Their Sp. Atk is lowered by two steps.
+The user dazzles nearby foes with light. Their Sp. Atk is lowered by two steps.
+The user flexes its rocky skin, raising its Attack and Defense by two steps and gaining the Rock-type.
+The user flexes its rocky skin, raising its Attack and Defense by two steps and gaining the Rock-type.
+The user strikes the target with a dart of air. It has a 40% chance to flinch the target.
+The user strikes the target with a dart of air. It has a 40% chance to flinch the target.
+The user attacks with the bright glint of crystals.
+The user attacks with the bright glint of crystals.
+The user shoots a spike of diamond to strike the target. Can random critical hit.
+The user shoots a spike of diamond to strike the target. Can random critical hit.
+The user harms the target with a pulse of power. Deals double damage if the user has used a gem this battle.
+The user harms the target with a pulse of power. Deals double damage if the user has used a gem this battle.
+The user emits a wave of green light to strike near foes. Deals double damage to those slower than the user.
+The user emits a wave of green light to strike near foes. Deals double damage to those slower than the user.
+The user attacks with reflected light. It has a 20% chance to lower Sp. Def.
+The user attacks with reflected light. It has a 20% chance to lower Sp. Def.
+The user pulses powerful darkness to expose the target's motives. This lowers their Sp. Def by two steps.
+The user pulses powerful darkness to expose the target's motives. This lowers their Sp. Def by two steps.
 [7]
+Syrupy Apple
+Syrupy Apple
 [8]
+Syrupy Apples
+Syrupy Apples
 [9]
+A peculiar apple that can make a certain species of Pokémon evolve. It's exceptionally syrupy.
+A peculiar apple that can make a certain species of Pokémon evolve. It's exceptionally syrupy.
 [10]
+Arcane
+Arcane
+Beaming
+Beaming
+Blinding
+Blinding
+Multitasker
+Multitasker
 [11]
+Boosts power of light-based moves by 30%.
+Boosts power of light-based moves by 30%.
+After using a light move, lowers each foe's Sp. Def.
+After using a light move, lowers each foe's Sp. Def.
+The Pokemon's Psychic-type attacks become spread and deal 20% more damage.
+The Pokemon's Psychic-type attacks become spread and deal 20% more damage.
+Boosts power of light-based moves by 50%.
+Boosts power of light-based moves by 50%.
 [12]
 [14]
 Brickbat
@@ -1249,6 +1317,8 @@ HM {1}
 {1} TRs
 {1} HMs
 {1} HMs
+Light
+Light
 {1} ({2})
 {1} ({2})
 HP
@@ -1297,6 +1367,8 @@ ${1}
 \wm#{tutorialMessage}\wtnp<<[>>#{tutorialMessageDuration}<<]>><<1>>
 x{1:03d}
 x{1:03d}
+Sitrus and Cado Berry
+Sitrus and Cado Berry
 x{1: 3d}
 x{1: 3d}
 x{1: 2d}
@@ -1367,6 +1439,12 @@ E
 ...!
 \ss#{msg}\<<1>>
 \ss#{msg}\<<1>>
+{1}'s positive stat changes were eliminated!
+{1}'s positive stat changes were eliminated!
+{1}'s {2} changes was recovered!
+{1}'s {2} changes was recovered!
+{1}'s {2} changes were recovered!
+{1}'s {2} changes were recovered!
 {1}<<1>>
 {1}<<1>>
 {1}
@@ -1395,6 +1473,8 @@ E
 \wm{1}\me<<[>>Slots win<<]>>\wtnp<<[>>80<<]>><<1>>
 \cl\l[2]\op\wu<ac>{1}</ac>\wtnp[{2}]
 \cl\l[2]\op\wu<ac>{1}</ac>\wtnp[{2}]
+To Train Your Dragons
+To Train Your Dragons
 \wm\<ac>\c<<[>>2<<]>>{1}</c><<n>>{2}</ac>\wtnp<<[>>{3}<<]>>
 \wm\<ac>\c<<[>>2<<]>>{1}</c><<n>>{2}</ac>\wtnp<<[>>{3}<<]>>
 <u>{1}</u>
@@ -1405,8 +1485,248 @@ E
 1111111
 2222222
 2222222
+Raises Attack by 2 steps after knocking out any Pokémon.
+Raises Attack by 2 steps after knocking out any Pokémon.
+Raises Sp. Atk by 2 steps after knocking out any Pokémon.
+Raises Sp. Atk by 2 steps after knocking out any Pokémon.
+Each turn, raises Speed by 4 steps and loses 1/8th max HP. If Speed was maxed, instead Speed and HP are reset.
+Each turn, raises Speed by 4 steps and loses 1/8th max HP. If Speed was maxed, instead Speed and HP are reset.
+It may be held by a Pokémon to heal the user by 50% in a pinch (below 25% HP).
+It may be held by a Pokémon to heal the user by 50% in a pinch (below 25% HP).
+If held by a Pokémon, it heals its HP by 25% at half health, or 33% in a pinch.
+If held by a Pokémon, it heals its HP by 25% at half health, or 33% in a pinch.
+A frenetic dance to uplift the fighting spirit. It raises the user's Attack stat by three steps.
+A frenetic dance to uplift the fighting spirit. It raises the user's Attack stat by three steps.
 GF
 GF
+Example Field
+Example Field
+The Example field is activated!
+The Example field is activated!
+The Example field is working!
+The Example field is working!
+The Example field disappeared!
+The Example field disappeared!
+The field softened the attack!
+The field softened the attack!
+Boom!
+Boom!
+The {1} made it rain!
+The {1} made it rain!
+{1} gained power from the {2}!
+{1} gained power from the {2}!
+{1}'s HP was restored by the {2}!
+{1}'s HP was restored by the {2}!
+{1} was protected by the {2}!
+{1} was protected by the {2}!
+The new weather can't start!
+The new weather can't start!
+Focus and relax to the sound of crashing waves...
+Focus and relax to the sound of crashing waves...
+The shore recedes from the battlefield!
+The shore recedes from the battlefield!
+Sand mixed into the attack!
+Sand mixed into the attack!
+...And with pure focus!
+...And with pure focus!
+The sand strengthened the atttack!
+The sand strengthened the atttack!
+The salty sea strengthened the attack!
+The salty sea strengthened the attack!
+Time for crab!
+Time for crab!
+A shining shell on the beach!
+A shining shell on the beach!
+Surf's up!
+Surf's up!
+...And with full focus...
+...And with full focus...
+...And with focus...
+...And with focus...
+The attack stirred up the ash on the ground!
+The attack stirred up the ash on the ground!
+{1} was protected from confusion!
+{1} was protected from confusion!
+{1} was protected from confusion because of its focus!
+{1} was protected from confusion because of its focus!
+The cave echoes dully...
+The cave echoes dully...
+The cavern strengthened the attack!
+The cavern strengthened the attack!
+...Piled on!
+...Piled on!
+ECHO-Echo-echo!
+ECHO-Echo-echo!
+The cavern froze over!
+The cavern froze over!
+The cave was littered with crystals!
+The cave was littered with crystals!
+The cave was corrupted!
+The cave was corrupted!
+The flame ignited the cave!
+The flame ignited the cave!
+The cave choked out the air!
+The cave choked out the air!
+The streets are busy...
+The streets are busy...
+The street is cleared!
+The street is cleared!
+In the cracks and the walls!
+In the cracks and the walls!
+The hustle and bustle of the city!
+The hustle and bustle of the city!
+All kinds of pollution strengthened the attack!
+All kinds of pollution strengthened the attack!
+The right tool for the job!
+The right tool for the job!
+This is no place for fairytales...
+This is no place for fairytales...
+An overwhelming first impression!
+An overwhelming first impression!
+A crowd is gathering!
+A crowd is gathering!
+Working 9 to 5 for this!
+Working 9 to 5 for this!
+The city smog is suffocating!
+The city smog is suffocating!
+Careful on the street!
+Careful on the street!
+The power of science is amazing!
+The power of science is amazing!
+The criminal ran into a backalley!
+The criminal ran into a backalley!
+The city is no place for a family!
+The city is no place for a family!
+{1} Big Pecks raise its Defense!
+{1} Big Pecks raise its Defense!
+The early bird catches the worm!
+The early bird catches the worm!
+{1} is picking up Speed!!
+{1} is picking up Speed!!
+The busy city is rattling!
+The busy city is rattling!
+Free Wifi!
+Free Wifi!
+Just a routine inspection.
+Just a routine inspection.
+The field is abound with trees.
+The field is abound with trees.
+The trees disappear from the battlefield!
+The trees disappear from the battlefield!
+The forestry strengthened the attack!
+The forestry strengthened the attack!
+The attack spreads through the forest!
+The attack spreads through the forest!
+A tree slammed down!
+A tree slammed down!
+They're coming out of the woodwork!
+They're coming out of the woodwork!
+Gossamer and arbor strengthened the attack!
+Gossamer and arbor strengthened the attack!
+The apple did not fall far from the tree.
+The apple did not fall far from the tree.
+The forest softened the attack...
+The forest softened the attack...
+{1} can't sleep in the {2}!
+{1} can't sleep in the {2}!
+Icy
+Icy
+The field is covered in ice.
+The field is covered in ice.
+The ice melted from the field!
+The ice melted from the field!
+The cold strengthened the attack!
+The cold strengthened the attack!
+The cold softened the attack...
+The cold softened the attack...
+The ice melted away!
+The ice melted away!
+{1} was frozen by the pure malice!
+{1} was frozen by the pure malice!
+Volcanic
+Volcanic
+The field is molten.
+The field is molten.
+The flames were snuffed out!
+The flames were snuffed out!
+The flames spread from the attack!
+The flames spread from the attack!
+The target was knocked into the flames!
+The target was knocked into the flames!
+The blaze amplified the attack!
+The blaze amplified the attack!
+The blaze softened the attack...
+The blaze softened the attack...
+{1}'s Ice Face melted in the heat!
+{1}'s Ice Face melted in the heat!
+{1} was burned by the volcanic field!
+{1} was burned by the volcanic field!
+{1} is being boosted by the flames!
+{1} is being boosted by the flames!
+{1} is exchanging the flames for power!
+{1} is exchanging the flames for power!
+{1} gained power from the volcanic field!
+{1} gained power from the volcanic field!
+{1} cannot be frozen in the volcanic field!
+{1} cannot be frozen in the volcanic field!
+The intense heat of the volcanic field prevents hail from forming!
+The intense heat of the volcanic field prevents hail from forming!
+Volcanictop
+Volcanictop
+The mountain top is superheated.
+The mountain top is superheated.
+The attack was super-heated!
+The attack was super-heated!
+The extreme heat softened the attack...
+The extreme heat softened the attack...
+The field super-heated the attack!
+The field super-heated the attack!
+The field powers up the attack!
+The field powers up the attack!
+The field powers up the flaming attacks!
+The field powers up the flaming attacks!
+The heat is powerning the steam engine!
+The heat is powerning the steam engine!
+Steam shot up from the field!
+Steam shot up from the field!
+The volcano is going to erupt!
+The volcano is going to erupt!
+{1} collapsed from the volcanic heat!
+{1} collapsed from the volcanic heat!
+The Desolate Land causes the volcano to erupt!
+The Desolate Land causes the volcano to erupt!
+The volcano erupts!
+The volcano erupts!
+protective move
+protective move
+Fire typing
+Fire typing
+{1} is immune to the eruption! ({2})
+{1} is immune to the eruption! ({2})
+The sticky tar intensifies the heat!
+The sticky tar intensifies the heat!
+{1} is hurt by the eruption!
+{1} is hurt by the eruption!
+{1} woke up due to the eruption!
+{1} woke up due to the eruption!
+The eruption removed all hazards from the field!
+The eruption removed all hazards from the field!
+{1}'s Leech Seed burned away in the eruption!
+{1}'s Leech Seed burned away in the eruption!
+{1}'s Flash Fire activated!
+{1}'s Flash Fire activated!
+{1}'s Magma Armor hardened!
+{1}'s Magma Armor hardened!
+{1}'s Flare Boost activated!
+{1}'s Flare Boost activated!
+{1}'s Fire type was restored!
+{1}'s Fire type was restored!
+The hail melted away.
+The hail melted away.
+{1} was badly poisoned by the volcanic gases!
+{1} was badly poisoned by the volcanic gases!
+Searing flames engulfed {1}!
+Searing flames engulfed {1}!
 [27]
 [28]
 [29]
@@ -1415,4 +1735,6 @@ GF
 [32]
 [33]
 [34]
+Reach Frostflow Farms Center without acquiring the Surf Board.
+Reach Frostflow Farms Center without acquiring the Surf Board.
 [1313]
