@@ -242,6 +242,18 @@ GameData::Move.get(@effects[:GorillaTactics]).name)
             end
         end
 
+        # Legendary Banned
+        if Settings::LEGENDARY_BANNED && pbOwnedByPlayer? && @pokemon.species_data.isLegendary?
+            if aiCheck
+                echoln("\t\t[AI FAILURE CHECK] #{pbThis} rejects the move #{move.id} due to it being predicted to refuse to move (Legendary Banned)")
+                return false
+            else
+                @battle.pbDisplay(_INTL("A flicker of pity passes through {1}'s eyes, it has no desire to lower itself to this battle!", pbThis(true)))
+                onMoveFailed(move)
+                return false
+            end
+        end
+
         # Pacifist
         if hasActiveAbility?(:PACIFIST)
             if aiCheck

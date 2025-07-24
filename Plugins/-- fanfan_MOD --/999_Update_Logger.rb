@@ -20,7 +20,7 @@
 提交用于构造的队伍
 =end
 
-MOD_VERSION = "0.3.6"
+MOD_VERSION = "0.3.7"
 
 CHANGE_LOG = <<-LOGGER
 #==============================================================================#
@@ -152,6 +152,10 @@ customabil/nocustomabil，开启/关闭特性自选模式
 doublebattle/disabledouble，开启/关闭全双打模式
 disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
 
+0.3.7
+1.现在所有传说精灵均已被Ban，无法用于战斗
+2.
+
 0.3.6
 1.修复了在检查精灵有几个属性时不计算额外的第三属性的Bug
 2.现在在启动游戏时，会自动生成包含所有场地效果的文本说明文件
@@ -181,7 +185,6 @@ disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
 26.现在艾路雷朵的Heroic Finale的不完美完胜效果在化身战中不再生效
 27.修复了休闲模式获胜也会判定为完胜的Bug
 28.修复了休闲模式获胜也会增加胜场计数的Bug
-29.
 
 0.3.5
 1.雪拉比的第一特性由自然回复改为Chrono Revert

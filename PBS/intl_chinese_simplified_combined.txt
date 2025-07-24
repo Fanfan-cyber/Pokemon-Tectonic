@@ -35352,7 +35352,7 @@ The user dances with the speed of lightning, raising its Sp. Atk by two steps an
 The user slams down into the target with electricity. It has a 10% chance to numb.
 使用者用电流猛击目标。有10%的概率使目标麻痹。
 The user lays an electrical hazard which hurts foes that switch into battle. It deals double damage in rainstorm.
-使用者布置一个电击陷阱，对替换入场的敌方造成伤害。在暴雨天气中伤害加倍。
+使用者布置一个带电陷阱，对替换入场的敌方造成伤害。在暴雨天气中伤害加倍。
 The user dances to encourage its ally. Their attacks this turn will be critical hits.
 跳起舞蹈鼓励队友，使其此回合的攻击必定命中要害。
 Cloaking itself in light energy, the user shocks the target, raising the user's Sp. Def by two steps.
@@ -41321,7 +41321,7 @@ During hail, immune to Fire- and Electric-type moves.
 Restores HP based on damage taken by others from hail.
 根据其他精灵因冰雹所受的伤害回复HP。
 Lays an electrical hazard around the opponent when its HP is lowered below half.
-当其HP降至一半以下时，在对手周围布置电击陷阱。
+当其HP降至一半以下时，在对手周围布置带电陷阱。
 After knocking out any Pokémon, raises its Sp. Atk and Sp. Def.
 打倒对手时，特攻和特防增加1级。
 The random added effects of moves by all battlers always activate.
@@ -50168,6 +50168,8 @@ The effects of the {1} prevent status moves from being used!
 {1}仍然连接着{2}！
 {1} refuses to battle!
 {1}拒绝战斗！
+A flicker of pity passes through {1}'s eyes, it has no desire to lower itself to this battle!
+{1}的眼中闪过一丝怜悯，它不愿参与这场战斗！
 {1} is loafing around!
 {1}在闲逛！
 {1} would have flinched, but it's immune now!
