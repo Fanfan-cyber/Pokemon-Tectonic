@@ -5,6 +5,7 @@ module RocketMode
     battle.pbParty(1).each_with_index do |pkmn, i|
       next if !pkmn || pkmn.egg? || has_species?(pkmn.species, pkmn.form)
       battle.peer.pbOnLeavingBattle(battle, pkmn, battle.usedInBattle[1][i], true)
+      next if pkmn.species_data.isLegendary? && !$DEBUG
       can_choose << pkmn
     end
     return if can_choose.empty?

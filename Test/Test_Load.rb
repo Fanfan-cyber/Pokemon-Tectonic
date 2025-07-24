@@ -1,4 +1,4 @@
-# This is a newly created file.
+puts "Load successfully!"
 
 class Trainer
 end
