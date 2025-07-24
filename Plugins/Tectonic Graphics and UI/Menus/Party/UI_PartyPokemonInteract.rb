@@ -360,17 +360,17 @@ existingIndex)
         elsif cmdDeleteMove >= 0 && modifyCommand == cmdDeleteMove
             moveDeletion(@pkmn)
         elsif cmdEvolve >= 0 && modifyCommand == cmdEvolve
-            newspecies = @pkmn.check_evolution_on_level_up(true)
-            return false if newspecies.nil?
-            if newspecies.is_a?(Array)
-                names = newspecies.map { |species| GameData::Species.get(species).name }
+            newSpecies = @pkmn.check_evolution_on_level_up(true)
+            return false if newSpecies.nil?
+            if newSpecies.is_a?(Array)
+                names = newSpecies.map { |species| GameData::Species.get(species).name }
                 choose = pbMessage(_INTL("Which do you want to evolve to?"), names, -1)
                 return false if choose == -1
-                newspecies = newspecies[choose]
+                newSpecies = newSpecies[choose]
             end
             pbFadeOutInWithMusic do
                 evo = PokemonEvolutionScene.new
-                evo.pbStartScreen(@pkmn, newspecies)
+                evo.pbStartScreen(@pkmn, newSpecies)
                 evo.pbEvolution
                 evo.pbEndScreen
                 @partyScene.pbRefresh
