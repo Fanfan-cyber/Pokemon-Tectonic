@@ -2564,6 +2564,7 @@ Pokemon = BARBARACLE,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,20,5,0,20,5
 Pokemon = FLORGES,70
+    Form = 2 # Orange Flower Form
     Moves = SYNTHESIS,CALMMIND,MOONBLAST,GIGADRAIN
     AbilityIndex = 1 # Sentry
     Item = LEFTOVERS

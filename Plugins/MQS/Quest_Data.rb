@@ -340,7 +340,9 @@ module QuestModule
     :Location1 => _INTL("Grouz"),
     :Location2 => _INTL("Hollowed Layer"),
     :Location3 => _INTL("Grouz"),
-    :QuestDescription => _INTL("Dr. Hekata gave you a call mysteriously, asking to meet her in her home of Grouz. What could she want of you?"),
+    :QuestDescription1 => _INTL("Dr. Hekata gave you a call mysteriously, asking to meet her in her home of Grouz. What could she want of you?"),
+    :QuestDescription2 => _INTL("Dr. Hekata heard of your dealings in the Chamber of Regigigas, and wants you to return there to find a magical artifact."),
+    :QuestDescription3 => _INTL("You've found the Primal Clay, the artifact that Dr. Hekata was interested in. Return to her house to show it to her."),
   }
 
   QUEST_LEGEND_REGIROCK = {
