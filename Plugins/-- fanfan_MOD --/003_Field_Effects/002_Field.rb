@@ -9,7 +9,7 @@ class PokeBattle_Battle::Field
   FIELD_DURATION_EXPANDED = 3
   INFINITE_FIELD_DURATION = -1
 
-  ACTIVATE_VARIETY_FIELD_SETTING   = true
+  ACTIVATE_VARIETY_FIELD_SETTING   = false
   OPPOSING_ADVANTAGEOUS_TYPE_FIELD = true
 
   BASE_KEYS = %i[set_field_battler_universal].freeze

@@ -1,7 +1,7 @@
 class PokeBattle_Battle::Field_base < PokeBattle_Battle::Field
   def initialize(battle, duration = PokeBattle_Battle::Field::INFINITE_FIELD_DURATION, *args)
     super(battle)
-    @id       = :Base
+    @id       = :base
     @name     = _INTL("Base")
     @duration = duration
 

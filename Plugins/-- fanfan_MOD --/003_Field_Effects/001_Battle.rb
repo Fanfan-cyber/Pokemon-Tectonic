@@ -106,57 +106,6 @@ class PokeBattle_Battle
     return creatable_field.include?(field_id)
   end
 
-  def create_new_field(id, *args)
-    duration = args[0]
-    return if try_create_zero_duration_field?(duration)
-
-    formatted_name = id.to_s.downcase.gsub(/_/, '')
-    field_class_name = "PokeBattle_Battle::Field_#{formatted_name}"
-    return if try_create_base_field?(field_class_name) && !can_create_base_field? 
-
-    if has_field? && try_create_current_field?(field_class_name)
-      return if is_infinite_field?
-      if try_create_infinite_field?(args[0])
-        remove_field(remove_all: true)
-        set_field_duration(PokeBattle_Battle::Field::INFINITE_FIELD_DURATION)
-        add_field(@current_field)
-        pbDisplay(_INTL("The field will exist forever!"))
-        #echoln("[Field set] #{field_name} was set! [#{stacked_fields_stat}]")
-      else
-        if duration && duration > PokeBattle_Battle::Field::FIELD_DURATION_EXPANDED
-          add_field_duration(PokeBattle_Battle::Field::FIELD_DURATION_EXPANDED)
-        else
-          add_field_duration(duration || PokeBattle_Battle::Field::FIELD_DURATION_EXPANDED)
-        end
-        pbDisplay(_INTL("The field has already existed!"))
-        pbDisplay(_INTL("The field duration expanded to {1}!", field_duration))
-      end
-      return
-    end
-
-    return unless Object.const_defined?(field_class_name)
-    new_field = Object.const_get(field_class_name).new(self, *args)
-
-    end_field if has_field?
-
-    remove_field(remove_all: true) if try_create_infinite_field?(args[0])
-
-    removed_field = remove_field(new_field, ignore_infinite: false)
-
-    add_field(new_field)
-    set_current_field(new_field)
-
-    add_field_duration(removed_field.duration) if removed_field
-
-    set_fieldback if has_field?
-    field_announcement(:start) if has_field?
-    #echoln("[Field set] #{field_name} was set! [#{stacked_fields_stat}]") if has_field?
-
-    apply_field_effect(:set_field_battle)
-    eachBattler { |battler| apply_field_effect(:set_field_battler_universal, battler) }
-    eachBattler { |battler| apply_field_effect(:set_field_battler, battler) }
-  end
-
   # if you wanna some abilities/items/moves or something else to create a new field, use this method
   def create_new_field(field_id, duration = Battle::Field::DEFAULT_FIELD_DURATION, bg_change: true)
     return unless field_id
@@ -217,6 +166,57 @@ class PokeBattle_Battle
     eachBattler { |battler| apply_field_effect(:set_field_battler, battler) }
 
     return new_field
+  end
+
+  def create_new_field(id, *args)
+    duration = args[0]
+    return if try_create_zero_duration_field?(duration)
+
+    formatted_name = id.to_s.downcase.gsub(/_/, '')
+    field_class_name = "PokeBattle_Battle::Field_#{formatted_name}"
+    return if try_create_base_field?(field_class_name) && !can_create_base_field? 
+
+    if has_field? && try_create_current_field?(field_class_name)
+      return if is_infinite_field?
+      if try_create_infinite_field?(args[0])
+        remove_field(remove_all: true)
+        set_field_duration(PokeBattle_Battle::Field::INFINITE_FIELD_DURATION)
+        add_field(@current_field)
+        pbDisplay(_INTL("The field will exist forever!"))
+        #echoln("[Field set] #{field_name} was set! [#{stacked_fields_stat}]")
+      else
+        if duration && duration > PokeBattle_Battle::Field::FIELD_DURATION_EXPANDED
+          add_field_duration(PokeBattle_Battle::Field::FIELD_DURATION_EXPANDED)
+        else
+          add_field_duration(duration || PokeBattle_Battle::Field::FIELD_DURATION_EXPANDED)
+        end
+        pbDisplay(_INTL("The field has already existed!"))
+        pbDisplay(_INTL("The field duration expanded to {1}!", field_duration))
+      end
+      return
+    end
+
+    return unless Object.const_defined?(field_class_name)
+    new_field = Object.const_get(field_class_name).new(self, *args)
+
+    end_field if has_field?
+
+    remove_field(remove_all: true) if try_create_infinite_field?(args[0])
+
+    removed_field = remove_field(new_field, ignore_infinite: false)
+
+    add_field(new_field)
+    set_current_field(new_field)
+
+    add_field_duration(removed_field.duration) if removed_field
+
+    set_fieldback if has_field?
+    field_announcement(:start) if has_field?
+    #echoln("[Field set] #{field_name} was set! [#{stacked_fields_stat}]") if has_field?
+
+    apply_field_effect(:set_field_battle)
+    eachBattler { |battler| apply_field_effect(:set_field_battler_universal, battler) }
+    eachBattler { |battler| apply_field_effect(:set_field_battler, battler) }
   end
 
   def end_of_round_field_process
@@ -492,20 +492,20 @@ class PokeBattle_Battler
 end
 
 class PokeBattle_Scene
-  def set_fieldback(set_environment = false)
-    if set_environment
+  def set_fieldback(set_original = false)
+    if set_original
       @sprites["battle_bg"].setBitmap(@original_battleBG)
       @sprites["base_0"].setBitmap(@original_playerBase)
       @sprites["base_1"].setBitmap(@original_enemyBase)
     else
-      field_name = @battle.current_field.fieldback
-      return if !field_name || field_name.empty?
+      field_id = @battle.current_field.id
       root = "Graphics/Fieldbacks"
-      battle_bg_path = "#{root}/#{field_name}_battlebg.png"
-      return if !safeExists?(battle_bg_path)
-      @sprites["battle_bg"].setBitmap(battle_bg_path)
-      @sprites["base_0"].setBitmap("#{root}/#{field_name + "_playerbase.png"}")
-      @sprites["base_1"].setBitmap("#{root}/#{field_name + "_enemybase.png"}")
+      battle_bg  = "#{root}/#{field_id}_battlebg.png"
+      playerbase = "#{root}/#{field_id}_playerbase.png"
+      enemybase  = "#{root}/#{field_id}_enemybase.png"
+      @sprites["battle_bg"].setBitmap(battle_bg) if FileTest.exist?(battle_bg)
+      @sprites["base_0"].setBitmap(playerbase) if FileTest.exist?(playerbase)
+      @sprites["base_1"].setBitmap(enemybase) if FileTest.exist?(enemybase)
     end
   end
 end
