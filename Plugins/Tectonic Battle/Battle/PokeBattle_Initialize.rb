@@ -171,8 +171,7 @@ class PokeBattle_Battle
         end
         BattleHandlers.loadDataDependentHandlers
 
-        @stacked_fields = []
-        create_base_field
+        initialize_field
 
         # System for learning the player's abilities
         ai_update_abilities

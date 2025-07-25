@@ -3,13 +3,14 @@ class PokeBattle_Battle::Field
   attr_reader :duration, :effects, :field_announcement, :fieldback, :id, :name   
   attr_reader :multipliers, :strengthened_message, :weakened_message
   attr_reader :nature_power_change, :secret_power_effect, :tailwind_duration, :inverse_battle
-  attr_reader :always_online
+  attr_reader :creatable_field, :always_online
 
   DEFAULT_FIELD_DURATION  = 5
   FIELD_DURATION_EXPANDED = 3
   INFINITE_FIELD_DURATION = -1
 
-  OPPOSING_ADVANTAGEOUS_TYPE_FIELD = false
+  ACTIVATE_VARIETY_FIELD_SETTING   = true
+  OPPOSING_ADVANTAGEOUS_TYPE_FIELD = true
 
   BASE_KEYS = %i[set_field_battler_universal].freeze
 
@@ -87,11 +88,13 @@ class PokeBattle_Battle::Field
 
   def initialize(battle)
     @battle                    = battle
+    @duration                  = duration
     @effects                   = {}
     @field_announcement        = []
     @multipliers               = {}
     @base_strengthened_message = _INTL("The field strengthened the attack")
     @base_weakened_message     = _INTL("The field weakened the attack")
+    @creatable_field           = []
     @always_online             = []
 
     @effects[:calc_damage] = proc { |user, target, numTargets, move, type, power, mults, aiCheck|

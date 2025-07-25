@@ -1,65 +1,109 @@
-def set_field(new_field = nil) # used for event
-  $field = new_field
+def set_field(new_field = nil, duration = Battle::Field::INFINITE_FIELD_DURATION) # used for event
+  $field = [new_field, duration]
 end
 
 def default_field
   $field
 end
 
-class PokeBattle_Battle
-  attr_reader :stacked_fields
-  attr_reader :current_field
+def clear_default_field
+  $field = nil
+end
 
-  def create_base_field
-    create_new_field(:Base)
+def all_fields_data
+  PokeBattle_Battle::Field.field_data
+end
+
+def all_fields
+  PokeBattle_Battle::Field.field_data.keys
+end
+
+class PokeBattle_Battle
+  attr_reader :stacked_fields # all field layers
+  attr_reader :current_field  # the topmost field
+
+  def initialize_field
+    @stacked_fields = []
+    create_base_field
   end
 
-  def set_test_field(test_field = :misty, duration = 30)
+  def create_base_field
+    create_new_field(:base, PokeBattle_Battle::Field::INFINITE_FIELD_DURATION)
+  end
+
+  def initialize_default_field
+    set_default_field
+    apply_field_effect(:begin_battle)
+  end
+
+  def set_test_field(test_field = :misty, duration = 10)
     create_new_field(test_field, duration)
   end
 
   def set_default_field
     if debugControl
       set_test_field
-      return
-    end
-
-    duration = PokeBattle_Battle::Field::INFINITE_FIELD_DURATION
-    if default_field
-      create_new_field(default_field, duration)
-      set_field # clear $field
+    elsif default_field
+      field = create_new_field(default_field[0], default_field[1])
+      clear_default_field # clear $field
+      field
     elsif TA.get(:inversebattle)
-      create_new_field(:inverse, -1)
-    else
-      all_fields_data.each do |field, data| # trainer field
-        next if !trainerBattle?
-        trainer_field = @opponent.map(&:name) & data[1]
-        next if trainer_field.empty?
-        create_new_field(field, duration)
-        return
-      end
-
-      all_fields_data.each do |field, data| # map field
-        next if !data[0].include?($game_map.map_id)
-        create_new_field(field, duration)
-        return
-      end
-
-      return if !PokeBattle_Battle::Field::OPPOSING_ADVANTAGEOUS_TYPE_FIELD
-      opposing_types = party2_able_pkmn_types.dup
-      opposing_advantageous_types = trainerBattle? ? opposing_types.most_elements : opposing_types
-
-      advantageous_fields = []
-      all_fields_data.each do |field, data| # type field
-        type_fields = opposing_advantageous_types & data[2]
-        next if type_fields.empty?
-        advantageous_fields << field
-      end
-
-      advantageous_fields = all_fields if advantageous_fields.empty?
-
-      create_new_field(advantageous_fields.sample, duration)
+      create_new_field(:inverse, PokeBattle_Battle::Field::INFINITE_FIELD_DURATION)
+    elsif PokeBattle_Battle::Field::ACTIVATE_VARIETY_FIELD_SETTING
+      apply_variety_field_setting
     end
+  end
+
+  def apply_variety_field_setting
+    duration = PokeBattle_Battle::Field::INFINITE_FIELD_DURATION
+    trainer_battle = trainerBattle?
+    if trainer_battle && (fields = suitable_trainer_fields).any?
+      return create_new_field(fields.sample, duration)
+    end
+    if (fields = suitable_map_fields).any?
+      return create_new_field(fields.sample, duration)
+    end
+    return unless PokeBattle_Battle::Field::OPPOSING_ADVANTAGEOUS_TYPE_FIELD
+    apply_type_based_field(duration, trainer_battle)
+  end
+
+  def suitable_trainer_fields
+    valid_fields = []
+    opponent_names = @opponent.map(&:name)
+    all_fields_data.each do |field, data|
+      next if (data[:trainer_name] & opponent_names).empty?
+      valid_fields << field
+    end
+    valid_fields
+  end
+
+  def suitable_map_fields
+    valid_fields = []
+    current_map_id = $game_map.map_id
+    all_fields_data.each do |field, data|
+      next unless data[:map_id].include?(current_map_id)
+      valid_fields << field
+    end
+    valid_fields
+  end
+
+  def apply_type_based_field(duration = PokeBattle_Battle::Field::INFINITE_FIELD_DURATION, trainer_battle = false)
+    opposing_types = party2_able_pkmn_types.clone
+    opposing_advantageous_types = trainer_battle ? opposing_types.most_elements : opposing_types
+    type_fields = []
+    all_fields_data.each do |field, data|
+      next if (data[:edge_type] & opposing_advantageous_types).empty?
+      type_fields << field
+    end
+    type_fields = all_fields if type_fields.empty?
+    create_new_field(type_fields.sample, duration)
+  end
+
+  def can_create_field?(field_id)
+    return true unless has_field?
+    creatable_field = @current_field.creatable_field
+    return true if creatable_field.empty?
+    return creatable_field.include?(field_id)
   end
 
   def create_new_field(id, *args)
@@ -111,6 +155,68 @@ class PokeBattle_Battle
     apply_field_effect(:set_field_battle)
     eachBattler { |battler| apply_field_effect(:set_field_battler_universal, battler) }
     eachBattler { |battler| apply_field_effect(:set_field_battler, battler) }
+  end
+
+  # if you wanna some abilities/items/moves or something else to create a new field, use this method
+  def create_new_field(field_id, duration = Battle::Field::DEFAULT_FIELD_DURATION, bg_change: true)
+    return unless field_id
+    return if try_create_zero_duration_field?(duration)
+    formatted_field_id = field_id.to_s.downcase.to_sym
+    return unless can_create_field?(formatted_field_id)
+    field_class_name = "Battle::Field_#{formatted_field_id}"
+    return if try_create_base_field?(field_class_name) && !can_create_base_field? # create Base only once
+ 
+    # already exists a field, then try to create a new field
+    if has_field? && try_create_current_field?(field_class_name) # new field is the same as the current field
+      return if is_infinite?
+      if try_create_infinite_field?(duration)
+        remove_field(remove_all: true)
+        set_field_duration(Battle::Field::INFINITE_FIELD_DURATION)
+        add_field(@current_field)
+        pbDisplay(_INTL("The field will exist forever!")) if Battle::Field::ANNOUNCE_FIELD_DURATION_INFINITE
+        #echoln("[Field set] #{field_name} was set! [#{stacked_fields_stat}]")
+      else
+        expand_duration = Battle::Field::FIELD_DURATION_EXPANDED
+        if duration > expand_duration # expand field duration
+          add_field_duration(expand_duration)
+        else
+          add_field_duration(duration)
+        end
+        pbDisplay(_INTL("The field has already existed!")) if Battle::Field::ANNOUNCE_FIELD_EXISTED
+        pbDisplay(_INTL("The field duration expanded to {1}!", field_duration)) if Battle::Field::ANNOUNCE_FIELD_DURATION_EXPAND
+      end
+      return
+    end
+
+    return unless Object.const_defined?(field_class_name)
+    new_field = Object.const_get(field_class_name).new(self, duration) # create the new field
+
+    removed_field = nil
+    if has_field?
+      end_field
+      if try_create_infinite_field?(duration)
+        remove_field(remove_all: true)
+      else
+        removed_field = remove_field(remove_field: new_field, ignore_infinite: false) # remove the same field in field layers
+      end
+    end
+
+    add_field(new_field)
+    set_current_field(new_field)
+    add_field_duration(removed_field.duration) if removed_field # add the removed field duration
+
+    # Base cant trigger
+    if has_field?
+      set_fieldback(bg_change)
+      field_announcement(:start)
+      #echoln("[Field set] #{field_name} was set! [#{stacked_fields_stat}]")
+    end
+
+    apply_field_effect(:set_field_battle)
+    eachBattler { |battler| apply_field_effect(:set_field_battler_universal, battler) }
+    eachBattler { |battler| apply_field_effect(:set_field_battler, battler) }
+
+    return new_field
   end
 
   def end_of_round_field_process
@@ -291,14 +397,6 @@ class PokeBattle_Battle
       message = @current_field.field_announcement[2]
       pbDisplay(message) if message && !message.empty?
     end
-  end
-
-  def all_fields
-    PokeBattle_Battle::Field::DEFAULT_FIELD.keys
-  end
-
-  def all_fields_data
-    PokeBattle_Battle::Field::DEFAULT_FIELD
   end
 
   def field_id

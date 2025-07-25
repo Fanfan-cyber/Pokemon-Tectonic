@@ -412,7 +412,7 @@ class PokeBattle_Battle
         when :Bloodmoon   then pbDisplay(_INTL("The moon is taken by a nightmare."))
         end
 
-        set_default_field
+        initialize_default_field
 
         # Change avatars for auto-testing
         if @autoTesting
@@ -427,8 +427,6 @@ class PokeBattle_Battle
                 autoTestingBattlerSpeciesChange(b)
             end
         end
-
-        apply_field_effect(:begin_battle)
 
         # Abilities upon entering battle
         pbOnActiveAll
