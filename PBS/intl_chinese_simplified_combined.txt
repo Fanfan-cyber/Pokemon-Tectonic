@@ -40963,7 +40963,7 @@ Takes no damage from non-volatile status conditions.
 Sets screens for two more turns.
 使屏障类效果延长2回合。
 Attacks against the Pokémon deal 50% more damage, but the attacker takes 100% recoil.
-伤害增加50%，但会受到100%的反伤。
+受到的伤害增加50%，但攻击者会受到100%的反伤。
 During eclipse, immune to non-volatile status conditions and stat reductions.
 日食时，免疫稳定型异常和能力等级减小效果。
 At the first chance, copies an opponent's species' legal Abilities.
