@@ -12,6 +12,11 @@ class PokeBattle_Battle::Field
   ACTIVATE_VARIETY_FIELD_SETTING   = false
   OPPOSING_ADVANTAGEOUS_TYPE_FIELD = true
 
+  ANNOUNCE_FIELD_EXISTED           = true
+  ANNOUNCE_FIELD_DURATION          = true
+  ANNOUNCE_FIELD_DURATION_INFINITE = true
+  ANNOUNCE_FIELD_DURATION_EXPAND   = true
+
   BASE_KEYS = %i[set_field_battler_universal].freeze
 
   PARADOX_KEYS = %i[begin_battle set_field_battle set_field_battler set_field_battler_universal
@@ -155,19 +160,19 @@ class PokeBattle_Battle::Field
     @effects[key]&.call(*args)
   end
 
-  def add_duration(amount = 0)
+  def add_duration(amount = 1)
     return if infinite?
     @duration += amount
     #echoln("[Field duration change] #{@name}'s duration is now #{@duration}!")
   end
 
-  def reduce_duration(amount = 0)
+  def reduce_duration(amount = 1)
     return if infinite?
     @duration -= amount
     #echoln("[Field duration change] #{@name}'s duration is now #{@duration}!")
   end
 
-  def set_duration(amount = 0)
+  def set_duration(amount = 5)
     @duration = amount
     #echoln("[Field duration change] #{@name}'s duration is now #{@duration}!")
   end
@@ -197,6 +202,6 @@ class PokeBattle_Battle::Field
   end
 
   def is_base?
-    @id == :Base
+    @id == :base
   end
 end
