@@ -183,12 +183,18 @@ def pbChangeLevel(pkmn, newlevel, scene = nil)
       
       # Check for evolution
       while true
-        newspecies = pkmn.check_evolution_on_level_up
-        break unless newspecies
+        newSpecies = pkmn.check_evolution_on_level_up
+        break if newSpecies.nil?
+        if newSpecies.is_a?(Array)
+            names = newSpecies.map { |species| GameData::Species.get(species).name }
+            choose = pbMessage(_INTL("Which do you want to evolve to?"), names, -1)
+            break if choose == -1
+            newSpecies = newSpecies[choose]
+        end
         evolutionSuccess = false
         pbFadeOutInWithMusic do
             evo = PokemonEvolutionScene.new
-            evo.pbStartScreen(pkmn, newspecies)
+            evo.pbStartScreen(pkmn, newSpecies)
             evolutionSuccess = true if evo.pbEvolution
             evo.pbEndScreen
             scene&.pbRefresh
@@ -701,12 +707,18 @@ def pbEXPAdditionItem(pkmn, exp, item, scene = nil, oneAtATime = false)
 
     # Check for evolution
     while true
-      newspecies = pkmn.check_evolution_on_level_up
-      break unless newspecies
+      newSpecies = pkmn.check_evolution_on_level_up
+      break if newSpecies.nil?
+      if newSpecies.is_a?(Array)
+          names = newSpecies.map { |species| GameData::Species.get(species).name }
+          choose = pbMessage(_INTL("Which do you want to evolve to?"), names, -1)
+          break if choose == -1
+          newSpecies = newSpecies[choose]
+      end
       evolutionSuccess = false
       pbFadeOutInWithMusic do
           evo = PokemonEvolutionScene.new
-          evo.pbStartScreen(pkmn, newspecies)
+          evo.pbStartScreen(pkmn, newSpecies)
           evolutionSuccess = true if evo.pbEvolution
           evo.pbEndScreen
           scene&.pbRefresh

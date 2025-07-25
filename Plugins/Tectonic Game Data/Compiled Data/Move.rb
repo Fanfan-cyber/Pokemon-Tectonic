@@ -3,7 +3,7 @@ module GameData
       attr_reader :id
       attr_reader :id_number
       attr_reader :real_name
-      attr_reader :function_code
+      #attr_reader :function_code
       attr_reader :base_damage
       attr_reader :type
       attr_reader :category
@@ -82,9 +82,13 @@ module GameData
   
       # @return [String] the translated description of this move
       def description
-        return pbGetMessageFromHash(MessageTypes::MoveDescriptions, @real_description)
+        return MOVE_DATA[@id]&.[](:desc)&.call || pbGetMessageFromHash(MessageTypes::MoveDescriptions, @real_description)
       end
-  
+
+      def function_code(real = true)
+        return real ? (MOVE_DATA[@id]&.[](:function_code) || @function_code) : @function_code
+      end
+
       def physical?
         return false if @base_damage == 0
         return @category == 0
@@ -424,7 +428,7 @@ module Compiler
     f.write("TotalPP = #{move.total_pp}\r\n")
     f.write("Target = #{move.target}\r\n")
     f.write("Priority = #{move.priority}\r\n") if move.priority != 0
-    f.write("FunctionCode = #{move.function_code}\r\n")
+    f.write("FunctionCode = #{move.function_code(false)}\r\n")
     f.write("Flags = #{move.flags.join(',')}\r\n") if move.flags.length > 0
     f.write("EffectChance = #{move.effect_chance}\r\n") if move.effect_chance > 0
     f.write("Description = #{move.real_description}\r\n")

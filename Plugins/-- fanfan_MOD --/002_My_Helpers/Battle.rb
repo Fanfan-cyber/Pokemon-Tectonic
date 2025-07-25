@@ -51,6 +51,7 @@ class PokeBattle_Battle
   end
 
   def ignore_perfect?
+    return false unless trainerBattle?
     return true if TA.get(:disableperfect)
     if $Trainer.able_pokemon_count == 1
       able_pokemon = $Trainer.first_able_pokemon

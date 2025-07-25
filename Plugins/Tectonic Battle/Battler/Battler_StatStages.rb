@@ -1,6 +1,7 @@
 ALL_STATS_1 = [:ATTACK, 1, :SPECIAL_ATTACK, 1, :DEFENSE, 1, :SPECIAL_DEFENSE, 1, :SPEED, 1].freeze
 ALL_STATS_2 = [:ATTACK, 2, :SPECIAL_ATTACK, 2, :DEFENSE, 2, :SPECIAL_DEFENSE, 2, :SPEED, 2].freeze
 ALL_STATS_3 = [:ATTACK, 3, :SPECIAL_ATTACK, 3, :DEFENSE, 3, :SPECIAL_DEFENSE, 3, :SPEED, 3].freeze
+ALL_STATS_4 = [:ATTACK, 4, :SPECIAL_ATTACK, 4, :DEFENSE, 4, :SPECIAL_DEFENSE, 4, :SPEED, 4].freeze
 ATTACKING_STATS_1 = [:ATTACK, 1, :SPECIAL_ATTACK, 1].freeze
 ATTACKING_STATS_2 = [:ATTACK, 2, :SPECIAL_ATTACK, 2].freeze
 ATTACKING_STATS_3 = [:ATTACK, 3, :SPECIAL_ATTACK, 3].freeze
@@ -912,7 +913,7 @@ class PokeBattle_Battler
         @battle.pbDisplay(_INTL("{1}'s positive stat changes were eliminated!", pbThis)) if showMessage && anyReset
     end
 
-    def pbResetSpecificStatSteps(stats, showMessage = false) # Didn't use it
+    def pbResetSpecificStatSteps(stats, showMessage = false)
         return unless stats
         stats = [stats] unless stats.is_a?(Array)
         anyReset = false

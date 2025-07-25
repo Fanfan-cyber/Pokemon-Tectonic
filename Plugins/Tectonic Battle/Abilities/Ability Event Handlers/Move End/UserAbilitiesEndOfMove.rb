@@ -8,8 +8,7 @@ BattleHandlers::UserAbilityEndOfMove.add(:MOXIE,
       numFainted = 0
       targets.each { |b| numFainted += 1 if b.damageState.fainted }
       next if numFainted == 0
-      TA.set(:disable_step_counter, true)
-      user.tryRaiseStat(:ATTACK, user, increment: numFainted, ability: ability)
+      user.tryRaiseStat(:ATTACK, user, increment: numFainted * 2, ability: ability)
   }
 )
 
@@ -19,8 +18,7 @@ BattleHandlers::UserAbilityEndOfMove.add(:HUBRIS,
       numFainted = 0
       targets.each { |b| numFainted += 1 if b.damageState.fainted }
       next if numFainted == 0
-      TA.set(:disable_step_counter, true)
-      user.tryRaiseStat(:SPECIAL_ATTACK, user, increment: numFainted, ability: ability)
+      user.tryRaiseStat(:SPECIAL_ATTACK, user, increment: numFainted * 2, ability: ability)
   }
 )
 
@@ -34,7 +32,6 @@ BattleHandlers::UserAbilityEndOfMove.add(:FOLLOWTHROUGH,
       numFainted = 0
       targets.each { |b| numFainted += 1 if b.damageState.fainted }
       next if numFainted == 0
-      TA.set(:disable_step_counter, true)
       user.tryRaiseStat(:SPEED, user, increment: numFainted * 2, ability: ability)
   }
 )
@@ -45,7 +42,6 @@ BattleHandlers::UserAbilityEndOfMove.add(:OUTRIDER,
       numFainted = 0
       targets.each { |b| numFainted += 1 if b.damageState.fainted }
       next if numFainted == 0
-      TA.set(:disable_step_counter, true)
       user.pbRaiseMultipleStatSteps([:ATTACK, numFainted, :SPEED, numFainted], user, ability: ability)
   }
 )
@@ -56,7 +52,6 @@ BattleHandlers::UserAbilityEndOfMove.add(:OVERCHARGE,
       numFainted = 0
       targets.each { |b| numFainted += 1 if b.damageState.fainted }
       next if numFainted == 0
-      TA.set(:disable_step_counter, true)
       user.pbRaiseMultipleStatSteps([:SPECIAL_ATTACK, numFainted, :SPEED, numFainted], user, ability: ability)
   }
 )
@@ -67,7 +62,6 @@ BattleHandlers::UserAbilityEndOfMove.add(:DOMINATING,
       numFainted = 0
       targets.each { |b| numFainted += 1 if b.damageState.fainted }
       next if numFainted == 0
-      TA.set(:disable_step_counter, true)
       user.pbRaiseMultipleStatSteps([:ATTACK, numFainted, :DEFENSE, numFainted], user, ability: ability)
   }
 )
@@ -78,7 +72,6 @@ BattleHandlers::UserAbilityEndOfMove.add(:WISEHUNTER,
       numFainted = 0
       targets.each { |b| numFainted += 1 if b.damageState.fainted }
       next if numFainted == 0
-      TA.set(:disable_step_counter, true)
       user.pbRaiseMultipleStatSteps([:SPECIAL_ATTACK, numFainted, :SPECIAL_DEFENSE, numFainted], user, ability: ability)
   }
 )
@@ -127,7 +120,7 @@ BattleHandlers::UserAbilityEndOfMove.add(:JOYOUSSORROW,
   }
 )
 
-BattleHandlers::UserAbilityEndOfMove.add(:BEASTBOOST,
+BattleHandlers::UserAbilityEndOfMove.add(:BEASTBOOST, # Cut
   proc { |ability, user, targets, _move, battle, _switchedBattlers|
       next if battle.pbAllFainted?(user.idxOpposingSide)
       numFainted = 0
@@ -139,7 +132,6 @@ BattleHandlers::UserAbilityEndOfMove.add(:BEASTBOOST,
       GameData::Stat.each_main_battle do |s|
           next if userStats[s.id] < highestStatValue
           stat = s.id
-          TA.set(:disable_step_counter, true)
           user.tryRaiseStat(stat, user, increment: numFainted, ability: ability)
           break
       end
@@ -153,8 +145,7 @@ BattleHandlers::UserAbilityEndOfMove.add(:ASONEICE,
       targets.each { |b| numFainted += 1 if b.damageState.fainted }
       next if numFainted == 0 || !user.pbCanRaiseStatStep?(:ATTACK, user) || user.fainted?
       battle.pbShowAbilitySplash(user, :CHILLINGNEIGH)
-      TA.set(:disable_step_counter, true)
-      user.pbRaiseStatStep(:ATTACK, numFainted, user)
+      user.pbRaiseStatStep(:ATTACK, numFainted * 2, user)
       battle.pbHideAbilitySplash(user)
   }
 )
@@ -166,8 +157,7 @@ BattleHandlers::UserAbilityEndOfMove.add(:ASONEGHOST,
       targets.each { |b| numFainted += 1 if b.damageState.fainted }
       next if numFainted == 0 || !user.pbCanRaiseStatStep?(:ATTACK, user) || user.fainted?
       battle.pbShowAbilitySplash(user, :GRIMNEIGH)
-      TA.set(:disable_step_counter, true)
-      user.pbRaiseStatStep(:SPECIAL_ATTACK, numFainted, user)
+      user.pbRaiseStatStep(:SPECIAL_ATTACK, numFainted * 2, user)
       battle.pbHideAbilitySplash(user)
   }
 )

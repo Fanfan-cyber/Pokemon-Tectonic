@@ -249,7 +249,7 @@ existingIndex)
         commands[cmdAdaptiveAI = commands.length]   = _INTL("Adaptive AI") if TA.get(:adaptiveai) || $DEBUG
         commands[cmdDeleteMove = commands.length]   = _INTL("Delete Move") if @pkmn.numMoves > 1
         commands[cmdEvolve = commands.length]       = _INTL("Evolve") if newspecies
-        commands[cmdExtraMoves = commands.length]   = _INTL("Extra Moves") if @pkmn.isSpecies?(:DEOXYS)
+        commands[cmdExtraMoves = commands.length]   = _INTL("Extra Moves") if @pkmn.isSpecies?(:DEOXYS) && @pkmn.hasAbility?(:UNIDENTIFIED)
         commands[cmdOpenAR = commands.length]       = _INTL("Open AR") if TA.get(:customabil) && !$Trainer.ability_recorder.empty?
         commands[cmdRename = commands.length]       = _INTL("Rename")
         commands[cmdSetGender = commands.length]    = _INTL("Set Gender")
@@ -360,17 +360,17 @@ existingIndex)
         elsif cmdDeleteMove >= 0 && modifyCommand == cmdDeleteMove
             moveDeletion(@pkmn)
         elsif cmdEvolve >= 0 && modifyCommand == cmdEvolve
-            newspecies = @pkmn.check_evolution_on_level_up(true)
-            return false if newspecies.nil?
-            if newspecies.is_a?(Array)
-                names = newspecies.map { |species| GameData::Species.get(species).name }
+            newSpecies = @pkmn.check_evolution_on_level_up(true)
+            return false if newSpecies.nil?
+            if newSpecies.is_a?(Array)
+                names = newSpecies.map { |species| GameData::Species.get(species).name }
                 choose = pbMessage(_INTL("Which do you want to evolve to?"), names, -1)
                 return false if choose == -1
-                newspecies = newspecies[choose]
+                newSpecies = newSpecies[choose]
             end
             pbFadeOutInWithMusic do
                 evo = PokemonEvolutionScene.new
-                evo.pbStartScreen(@pkmn, newspecies)
+                evo.pbStartScreen(@pkmn, newSpecies)
                 evo.pbEvolution
                 evo.pbEndScreen
                 @partyScene.pbRefresh

@@ -3092,5 +3092,6 @@ Name = Ominous Egg
 NamePlural = Ominous Eggs
 Pocket = 8
 Price = 0
+FieldUse = Direct
 Flags = KeyItem,SkipPocketMessage
 Description = A vessel for negative emotions. Perfectly defeat enough trainers to earn its rewards.

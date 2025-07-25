@@ -897,6 +897,7 @@ def farmVendor
 	pubStock = %i[
 		SWEETAPPLE
 		TARTAPPLE
+		SYRUPYAPPLE
 		MOOMOOMILK
 	]
 	setPrice(:MOOMOOMILK,800)
