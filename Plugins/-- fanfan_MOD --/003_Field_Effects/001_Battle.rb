@@ -71,7 +71,7 @@ class PokeBattle_Battle
     valid_fields = []
     opponent_names = @opponent.map(&:name)
     all_fields_data.each do |field, data|
-      next if (data[:trainer_name] & opponent_names).empty?
+      next unless data[:trainer_name] && (data[:trainer_name] & opponent_names).any?
       valid_fields << field
     end
     valid_fields
@@ -81,7 +81,7 @@ class PokeBattle_Battle
     valid_fields = []
     current_map_id = $game_map.map_id
     all_fields_data.each do |field, data|
-      next unless data[:map_id].include?(current_map_id)
+      next unless data[:map_id] && data[:map_id].include?(current_map_id)
       valid_fields << field
     end
     valid_fields
@@ -91,7 +91,7 @@ class PokeBattle_Battle
     opposing_advantageous_types = party2_able_pkmn_types.most_elements
     type_fields = []
     all_fields_data.each do |field, data|
-      next if (data[:edge_type] & opposing_advantageous_types).empty?
+      next unless data[:edge_type] && (data[:edge_type] & opposing_advantageous_types).any?
       type_fields << field
     end
     type_fields = all_fields if type_fields.empty?

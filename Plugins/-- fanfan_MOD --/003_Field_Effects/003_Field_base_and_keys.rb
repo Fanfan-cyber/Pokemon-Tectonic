@@ -39,3 +39,11 @@ class PokeBattle_Battle::Field_base < PokeBattle_Battle::Field
 
   end
 end
+
+PokeBattle_Battle::Field.register(:base, {
+  :special      => true,
+  :trainer_name => [],
+  :map_id       => [],
+  :edge_type    => [],
+  :description  => ""
+})

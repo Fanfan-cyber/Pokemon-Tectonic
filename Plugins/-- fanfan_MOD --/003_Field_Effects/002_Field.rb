@@ -9,7 +9,7 @@ class PokeBattle_Battle::Field
   FIELD_DURATION_EXPANDED = 3
   INFINITE_FIELD_DURATION = -1
 
-  ACTIVATE_VARIETY_FIELD_SETTING   = false
+  ACTIVATE_VARIETY_FIELD_SETTING   = true
   OPPOSING_ADVANTAGEOUS_TYPE_FIELD = true
 
   ANNOUNCE_FIELD_EXISTED           = true
@@ -62,7 +62,6 @@ class PokeBattle_Battle::Field
   @@field_data = {}
   def self.register(field, data)
     field = field.to_s.downcase.to_sym
-    @@field_data[field] = data
     define_method("is_#{field}?") do # define is_xxx? Field instance method
       @id == field
     end
@@ -71,6 +70,8 @@ class PokeBattle_Battle::Field
         @current_field.public_send("is_#{field}?")
       end
     end
+    return if data[:special]
+    @@field_data[field] = data
   end
 
   def self.field_data
@@ -81,11 +82,12 @@ class PokeBattle_Battle::Field
     field_count = 0
     File.open("field_effect_manual.txt", "wb") do |file|
       @@field_data.each_value do |data|
-        next unless data[:description]
+        next unless data[:description] && !data[:description].empty?
         field_count += 1
         file.write("### Field #{field_count.to_digits}\r\n")
         file.write(data[:description])
         file.write("\r\n\r\n")
+        data.delete(:description)
       end
       file.write("Total: #{field_count}")
     end
