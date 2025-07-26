@@ -226,15 +226,28 @@ class PokeBattle_Battle
   end
 
   def remove_current_field # unused
-    return unless has_field?
+    return unless can_remove_field?
     remove_field(-1)
     end_field_process
   end
 
+  def can_remove_field?
+    return false unless has_field?
+    return true
+  end
+
   def transfer_current_field(field_id, duration = Battle::Field::DEFAULT_FIELD_DURATION) # unused
     return unless has_field?
+    return unless can_create_field?(field_id)
     remove_field(-1)
     create_new_field(field_id, duration)
+  end
+
+  def can_create_field?(field_id) # to-do: expand this method
+    return true unless has_field?
+    creatable_field = @current_field.creatable_field
+    return true if creatable_field.empty?
+    return creatable_field.include?(field_id)
   end
 
   def remove_field(field: nil, ignore_infinite: true, remove_all: false)
@@ -322,13 +335,6 @@ class PokeBattle_Battle
 
   def try_create_current_field?(field_id)
     field_id == @current_field.id
-  end
-
-  def can_create_field?(field_id) # can expand this method
-    return true unless has_field?
-    creatable_field = @current_field.creatable_field
-    return true if creatable_field.empty?
-    return creatable_field.include?(field_id)
   end
 
   def has_base? # unused
@@ -451,8 +457,8 @@ class PokeBattle_Battler
 end
 
 class PokeBattle_Scene
-  def set_fieldback(set_original = false)
-    if set_original
+  def set_fieldback(set_backdrop = false)
+    unless set_backdrop
       @sprites["battle_bg"].setBitmap(@original_battleBG)
       @sprites["base_0"].setBitmap(@original_playerBase)
       @sprites["base_1"].setBitmap(@original_enemyBase)
