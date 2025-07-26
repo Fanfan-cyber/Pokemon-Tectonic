@@ -39728,7 +39728,7 @@ Spectrum Vision
 Spinesplode
 棘刺
 Spintensity
-空间强度
+自旋
 Stability
 坚定不移
 Staggering Slaps
@@ -41147,7 +41147,7 @@ The Pokémon and its allies' moves are twice as likely to be critical.
 Leaves two hazard layers of Spikes after it self-destructs.
 自爆后会留下两层菱。
 Speed is raised each turn. Speed is reset when hit, but the attacker takes 1/8th HP damage for each step lost.
-每回合增加速度，被攻击后减小速度，速度每次减小给对手造成1/8HP伤害。
+每回合速度增加1级，被攻击时自身的速度能力等级还原，每还原1级速度，攻击者就受到1/8HP的伤害。
 Can't be afflicted with any non-volatile status condition.
 不会陷入任何稳定类异常状态。
 Has a 30% chance to dizzy targets when using physical moves.

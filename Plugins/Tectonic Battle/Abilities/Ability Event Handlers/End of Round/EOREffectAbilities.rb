@@ -97,7 +97,7 @@ BattleHandlers::EOREffectAbility.add(:IGNITIONCYCLE,
           end
       else
           battle.pbDisplay(_INTL("{1} finally cooled off!", battler.pbThis))
-          battler.pbResetSpecificStatSteps(:SPEED, false)
+          battler.pbResetSpecificStatSteps(:SPEED)
           battler.pbRecoverHP(battler.totalhp - battler.hp)
       end
       battle.pbHideAbilitySplash(battler)
