@@ -35,6 +35,8 @@ class PokeBattle_Battle::Field_base < PokeBattle_Battle::Field
     :switch_in
     :tailwind_duration
     :target_expand
+    
+    end_field_battler_universal
 =end
 
   end

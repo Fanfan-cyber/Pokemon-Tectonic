@@ -141,7 +141,7 @@ class PokeBattle_Battle::Field
 
     @effects[:secret_power_effect] = proc { |user, targets, move| next @secret_power_effect }
 
-    @effects[:set_field_battler_universal] = proc { |battler| battler.pbItemHPHealCheck }
+    @effects[:end_field_battler_universal] = proc { |battler| battler.pbItemHPHealCheck }
 
     @effects[:tailwind_duration] = proc { |battler| next @tailwind_duration }
 
@@ -183,7 +183,7 @@ class PokeBattle_Battle::Field
     @id == another_field.id
   end
 
-  def is_on_top?
+  def top?
     self == @battle.top_field
   end
 

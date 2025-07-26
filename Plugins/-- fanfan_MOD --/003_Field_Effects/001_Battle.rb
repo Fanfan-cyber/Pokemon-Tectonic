@@ -159,16 +159,25 @@ class PokeBattle_Battle
     field_announcement(:start)
     #echoln("[Field set] #{field_name} was set! [#{stacked_fields_stat}]")
 
-    apply_field_effect(:set_field_battle)
-    eachBattler { |battler| apply_field_effect(:set_field_battler_universal, battler) }
-    eachBattler { |battler| apply_field_effect(:set_field_battler, battler) }
+    field_set_effect
   end
 
   def end_current_field
     return unless has_field?
     field_announcement(:end)
 
+    field_end_effect
+  end
+
+  def field_set_effect
+    apply_field_effect(:set_field_battle)
+    eachBattler { |battler| apply_field_effect(:set_field_battler_universal, battler) }
+    eachBattler { |battler| apply_field_effect(:set_field_battler, battler) }
+  end
+
+  def field_end_effect
     apply_field_effect(:end_field_battle)
+    eachBattler { |battler| apply_field_effect(:end_field_battler_universal, battler) }
     eachBattler { |battler| apply_field_effect(:end_field_battler, battler) }
   end
 
@@ -204,10 +213,7 @@ class PokeBattle_Battle
   def set_base_field
     set_current_field(base_field)
     set_fieldback
-
-    apply_field_effect(:set_field_battle)
-    eachBattler { |battler| apply_field_effect(:set_field_battler_universal, battler) }
-    eachBattler { |battler| apply_field_effect(:set_field_battler, battler) }
+    #echoln("[Field set] #{field_name} was set! [#{stacked_fields_stat}]")
   end
 
   def set_top_field
@@ -216,9 +222,19 @@ class PokeBattle_Battle
     field_announcement(:start)
     #echoln("[Field set] #{field_name} was set! [#{stacked_fields_stat}]") if has_field?
 
-    apply_field_effect(:set_field_battle)
-    eachBattler { |battler| apply_field_effect(:set_field_battler_universal, battler) }
-    eachBattler { |battler| apply_field_effect(:set_field_battler, battler) }
+    field_set_effect
+  end
+
+  def remove_current_field # unused
+    return unless has_field?
+    remove_field(-1)
+    end_field_process
+  end
+
+  def transfer_current_field(field_id, duration = Battle::Field::DEFAULT_FIELD_DURATION) # unused
+    return unless has_field?
+    remove_field(-1)
+    create_new_field(field_id, duration)
   end
 
   def remove_field(field: nil, ignore_infinite: true, remove_all: false)
@@ -256,37 +272,35 @@ class PokeBattle_Battle
     end
   end
 
-  def field_announcement(announcement_type)
-    case announcement_type
+  def field_announcement(type)
+    message = @current_field.field_announcement[type]
+    case type
     when :start
-      message = @current_field.field_announcement[0]
       pbDisplay(message) if message && !message.empty?
       if infinite_field?
-        pbDisplay(_INTL("The field will exist forever!"))
+        pbDisplay(_INTL("The field will exist forever!")) if PokeBattle_Battle::Field::ANNOUNCE_FIELD_DURATION_INFINITE
       else
-        pbDisplay(_INTL("The field will last for {1} more turns!", field_duration))
+        pbDisplay(_INTL("The field will last for {1} more turns!", field_duration)) if PokeBattle_Battle::Field::ANNOUNCE_FIELD_DURATION
       end
     when :continue
-      message = @current_field.field_announcement[1] || @current_field.field_announcement[0]
+      message = @current_field.field_announcement[:start] if !message || message.empty?
       pbDisplay(message) if message && !message.empty?
-      pbDisplay(_INTL("The field will last for {1} more turns!", field_duration)) if !infinite_field?
+      pbDisplay(_INTL("The field will last for {1} more turns!", field_duration)) if !infinite_field? && PokeBattle_Battle::Field::ANNOUNCE_FIELD_DURATION
     when :end
-      message = @current_field.field_announcement[2]
       pbDisplay(message) if message && !message.empty?
     end
   end
 
   def apply_field_effect(key, *args, apply_all: false)
     if apply_all
-      @stacked_fields.each { |field| field.apply_field_effect(key, *args) if !PokeBattle_Battle::Field::PARADOX_KEYS.include?(key) }
+        @stacked_fields.each do |field|
+          next if field.top? # remove top field
+          next if PokeBattle_Battle::Field::PARADOX_KEYS.include?(key) # only top field will trigger paradox keys
+          next unless field.always_online.include?(key) # always online keys always trigger
+          field.apply_field_effect(key, *args)
+        end
     else
-      @stacked_fields.each do |field|
-        next if PokeBattle_Battle::Field::PARADOX_KEYS.include?(key)
-        next if !field.always_online.include?(key)
-        next if field.is_on_top?
-        field.apply_field_effect(key, *args)
-      end
-      @current_field.apply_field_effect(key, *args)
+      @current_field.apply_field_effect(key, *args) # top field triggers here
     end
   end
 
@@ -343,12 +357,6 @@ class PokeBattle_Battle
 
   def set_current_field(new_field)
     @current_field = new_field
-  end
-
-  def remove_current_field # unused
-    return if !has_field?
-    remove_field(-1)
-    end_field_process
   end
 
   def add_field(new_field)
