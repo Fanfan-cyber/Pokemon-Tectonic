@@ -174,7 +174,7 @@ class PokeBattle_Battle::Field
     #echoln("[Field duration change] #{@name}'s duration is now #{@duration}!")
   end
 
-  def set_duration(amount = 5)
+  def set_duration(amount = DEFAULT_FIELD_DURATION)
     @duration = amount
     #echoln("[Field duration change] #{@name}'s duration is now #{@duration}!")
   end
@@ -188,11 +188,11 @@ class PokeBattle_Battle::Field
   end
 
   def default_duration?
-    @duration == 5
+    @duration == DEFAULT_FIELD_DURATION
   end
 
   def infinite?
-    @duration == -1
+    @duration == INFINITE_FIELD_DURATION
   end
 
   def end?
@@ -201,9 +201,5 @@ class PokeBattle_Battle::Field
 
   def is_field?(field)
     @id == field
-  end
-
-  def is_base?
-    @id == :base
   end
 end

@@ -98,22 +98,16 @@ class PokeBattle_Battle
     create_new_field(type_fields.sample, duration)
   end
 
-  def can_create_field?(field_id)
-    return true unless has_field?
-    creatable_field = @current_field.creatable_field
-    return true if creatable_field.empty?
-    return creatable_field.include?(field_id)
-  end
-
   def create_new_field(field_id, duration = Battle::Field::DEFAULT_FIELD_DURATION)
     return if try_create_zero_duration_field?(duration)
     formatted_field_id = field_id.to_s.downcase.to_sym
     field_class_name = "PokeBattle_Battle::Field_#{formatted_field_id}"
-    return if try_create_base_field?(field_class_name) && !can_create_base_field? # create base only once
+    return if try_create_base_field?(formatted_field_id) && !can_create_base_field? # create base only once
+    return unless Object.const_defined?(field_class_name)
 
     # already exists fields, try to create a new field
     if has_field?
-      if try_create_current_field?(field_class_name) # try to create the same field
+      if try_create_current_field?(formatted_field_id) # try to create the same field
         return if infinite_field? # return if already infinite
         if try_create_infinite_field?(duration) # try to create a infinite field
           remove_field(remove_all: true) # remove all fields from field layers, except base
@@ -126,61 +120,61 @@ class PokeBattle_Battle
           pbDisplay(_INTL("The field has already existed!")) if PokeBattle_Battle::Field::ANNOUNCE_FIELD_EXISTED
           pbDisplay(_INTL("Its duration expanded to {1}!", field_duration)) if PokeBattle_Battle::Field::ANNOUNCE_FIELD_DURATION_EXPAND
         end
-        return # return nil because it didn't create new field
+        return # return nil because actually it didn't create a new field
       else # try to create a different field
-        return unless can_create_field?(formatted_field_id)
+
       end
     end
 
     # create new field
-    return unless Object.const_defined?(field_class_name)
-    new_field = Object.const_get(field_class_name).new(self, *args)
+    return unless can_create_field?(formatted_field_id)
 
-    end_field if has_field?
+    end_current_field
 
-    remove_field(remove_all: true) if try_create_infinite_field?(duration)
+    new_field = Object.const_get(field_class_name).new(self, duration) # create the new field
+    removed_field = remove_same_field(new_field, duration) # remove the same field
 
-    removed_field = remove_field(new_field, ignore_infinite: false)
-
+    # add the new field to field layers
     add_field(new_field)
     set_current_field(new_field)
+    add_field_duration(removed_field.duration) if removed_field # add duration of the removed field 
+    start_new_field
+    new_field
+  end
 
-    add_field_duration(removed_field.duration) if removed_field
+  def remove_same_field(field, duration = PokeBattle_Battle::Field::INFINITE_FIELD_DURATION)
+    return unless has_field?
+    removed_field = nil
+    if try_create_infinite_field?(duration)
+      remove_field(remove_all: true) # remove all fields from field layers, except base
+    else
+      removed_field = remove_field(field: field, ignore_infinite: false) # remove the same field in field layers
+    end
+    removed_field
+  end
 
-    set_fieldback if has_field?
-    field_announcement(:start) if has_field?
-    #echoln("[Field set] #{field_name} was set! [#{stacked_fields_stat}]") if has_field?
+  def start_new_field
+    return unless has_field?
+    set_fieldback
+    field_announcement(:start)
+    #echoln("[Field set] #{field_name} was set! [#{stacked_fields_stat}]")
 
     apply_field_effect(:set_field_battle)
     eachBattler { |battler| apply_field_effect(:set_field_battler_universal, battler) }
     eachBattler { |battler| apply_field_effect(:set_field_battler, battler) }
   end
-=begin
-    return unless Object.const_defined?(field_class_name)
-    new_field = Object.const_get(field_class_name).new(self, duration) # create the new field
-    removed_field = nil
-    if has_field?
-      end_field
-      if try_create_infinite_field?(duration)
-        remove_field(remove_all: true)
-      else
-        removed_field = remove_field(remove_field: new_field, ignore_infinite: false) # remove the same field in field layers
-      end
-    end
-    add_field(new_field)
-    set_current_field(new_field)
-    add_field_duration(removed_field.duration) if removed_field # add the removed field duration
-    if has_field? # Base cant trigger
-      set_fieldback(bg_change)
-      field_announcement(:start)
-    end
-    apply_field_effect(:set_field_battle)
-    eachBattler { |battler| apply_field_effect(:set_field_battler_universal, battler) }
-    eachBattler { |battler| apply_field_effect(:set_field_battler, battler) }
-    return new_field
-=end
+
+  def end_current_field
+    return unless has_field?
+    field_announcement(:end)
+
+    apply_field_effect(:end_field_battle)
+    eachBattler { |battler| apply_field_effect(:end_field_battler, battler) }
+  end
+
   def end_of_round_field_process
     return unless has_field?
+
     apply_field_effect(:EOR_field_battle)
     eachBattler do |battler|
       apply_field_effect(:EOR_field_battler, battler)
@@ -188,7 +182,7 @@ class PokeBattle_Battle
     end
 
     field_duration_countdown
-    remove_field
+    remove_field # remove expired fields
 
     end_field_process
   end
@@ -198,11 +192,11 @@ class PokeBattle_Battle
       if top_field_unchanged?
         field_announcement(:continue)
       else
-        end_field
+        end_current_field
         set_top_field
       end
     else
-      end_field
+      end_current_field
       set_base_field
     end
   end
@@ -220,7 +214,6 @@ class PokeBattle_Battle
     set_current_field(top_field)
     set_fieldback
     field_announcement(:start)
-
     #echoln("[Field set] #{field_name} was set! [#{stacked_fields_stat}]") if has_field?
 
     apply_field_effect(:set_field_battle)
@@ -228,114 +221,38 @@ class PokeBattle_Battle
     eachBattler { |battler| apply_field_effect(:set_field_battler, battler) }
   end
 
-  def end_field
-    field_announcement(:end)
-
-    apply_field_effect(:end_field_battle)
-    eachBattler { |battler| apply_field_effect(:end_field_battler, battler) }
-  end
-
-  def try_create_zero_duration_field?(duration)
-    duration == 0
-  end
-
-  def try_create_infinite_field?(duration)
-    duration == PokeBattle_Battle::Field::INFINITE_FIELD_DURATION
-  end
-
-  def can_create_base_field?
-    @stacked_fields.empty?
-  end
-
-  def try_create_base_field?(field_class_name)
-    field_class_name == "PokeBattle_Battle::Field_base"
-  end
-
-  def try_create_current_field?(field_class_name)
-    field_class_name == @current_field.class.to_s
-  end
-
-  def add_field(new_field)
-    @stacked_fields.push(new_field)
-  end
-
-  def add_field_duration(amount = 1)
-    @current_field.add_duration(amount)
-  end
-
-  def reduce_field_duration(amount = 1)
-    @current_field.reduce_duration(amount)
-  end
-
-  def set_field_duration(amount = 5)
-    @current_field.set_duration(amount)
-  end
-
-  def field_duration_countdown
-    @stacked_fields.each { |field| field.reduce_duration(1) if !field.infinite? }
-  end
-
-  def remove_field(remove_fields = nil, ignore_infinite: true, remove_all: false)
+  def remove_field(field: nil, ignore_infinite: true, remove_all: false)
     return unless has_field?
 
-    if remove_fields && ignore_infinite
-      return @stacked_fields.delete_at(remove_fields) if remove_fields.is_a?(Integer)
-      return @stacked_fields.delete(remove_fields)
-    end
-
-    removed_field = nil
-    if remove_fields
-      @stacked_fields.delete_if do |field|
-        if !field.infinite? && field == remove_fields
-          removed_field = field
-          true
-        end
-      end
-      return removed_field
-    end
-
-    if remove_all
-      @stacked_fields.keep_if(&:is_base?)
-      #echoln("[Field remove] All fields were removed!")
-    else
-      @stacked_fields.delete_if(&:end?)
-      if stacked_fields_stat.empty?
-        #echoln("[Field remove] All ended fields were removed!")
+    if field.is_a?(Integer)
+      return @stacked_fields.delete_at(field)
+    elsif field.is_a?(PokeBattle_Battle::Field)
+      if ignore_infinite
+        return @stacked_fields.delete(field)
       else
-        #echoln("[Field remove] All ended fields were removed! [#{stacked_fields_stat}]")
+        removed_field = nil
+        @stacked_fields.delete_if do |f|
+          if !f.infinite? && f == field
+            removed_field = f
+            true
+          end
+        end
+        return removed_field
       end
-    end
-  end
-
-  def set_current_field(new_field)
-    @current_field = new_field
-  end
-
-  def end_current_field # unused
-    return if !has_field?
-    remove_field(-1)
-    end_field_process
-  end
-
-  def set_fieldback
-    if has_field?
-      @scene.set_fieldback
     else
-      @scene.set_fieldback(true)
-    end
-  end
-
-  def apply_field_effect(key, *args, apply_all: false)
-    if apply_all
-      @stacked_fields.each { |field| field.apply_field_effect(key, *args) if !PokeBattle_Battle::Field::PARADOX_KEYS.include?(key) }
-    else
-      @stacked_fields.each do |field|
-        next if PokeBattle_Battle::Field::PARADOX_KEYS.include?(key)
-        next if !field.always_online.include?(key)
-        next if field.is_on_top?
-        field.apply_field_effect(key, *args)
+      if remove_all
+        @stacked_fields.keep_if(&:is_base?)
+        #echoln("[Field remove] All fields were removed!")
+      else
+        @stacked_fields.delete_if(&:end?)
+=begin
+        unless has_field?
+          echoln("[Field remove] All ended fields were removed!")
+        else
+          echoln("[Field remove] All ended fields were removed! [#{stacked_fields_stat}]")
+        end
+=end
       end
-      @current_field.apply_field_effect(key, *args)
     end
   end
 
@@ -359,6 +276,105 @@ class PokeBattle_Battle
     end
   end
 
+  def apply_field_effect(key, *args, apply_all: false)
+    if apply_all
+      @stacked_fields.each { |field| field.apply_field_effect(key, *args) if !PokeBattle_Battle::Field::PARADOX_KEYS.include?(key) }
+    else
+      @stacked_fields.each do |field|
+        next if PokeBattle_Battle::Field::PARADOX_KEYS.include?(key)
+        next if !field.always_online.include?(key)
+        next if field.is_on_top?
+        field.apply_field_effect(key, *args)
+      end
+      @current_field.apply_field_effect(key, *args)
+    end
+  end
+
+  def try_create_zero_duration_field?(duration)
+    duration == 0
+  end
+
+  def try_create_infinite_field?(duration)
+    duration == PokeBattle_Battle::Field::INFINITE_FIELD_DURATION
+  end
+
+  def can_create_base_field?
+    @stacked_fields.empty?
+  end
+
+  def try_create_base_field?(field_id)
+    field_id == :base
+  end
+
+  def try_create_current_field?(field_id)
+    field_id == @current_field.id
+  end
+
+  def can_create_field?(field_id) # can expand this method
+    return true unless has_field?
+    creatable_field = @current_field.creatable_field
+    return true if creatable_field.empty?
+    return creatable_field.include?(field_id)
+  end
+
+  def has_base? # unused
+    base_field&.is_base?
+  end
+
+  def has_field?
+    @stacked_fields.length >= 2
+  end
+  alias has_top_field? has_field?
+  alias existing_field? has_field?
+
+  def infinite_field?
+    has_field? && @current_field.infinite?
+  end
+
+  def top_field_unchanged?
+    @current_field == top_field
+  end
+
+  # used for checking if a field is a specific field
+  # you can use is_xxx? as well, for example is_electric?
+  def is_field?(field_id)
+    @current_field.is_field?(field_id)
+  end
+
+  def set_current_field(new_field)
+    @current_field = new_field
+  end
+
+  def remove_current_field # unused
+    return if !has_field?
+    remove_field(-1)
+    end_field_process
+  end
+
+  def add_field(new_field)
+    @stacked_fields.push(new_field)
+  end
+
+  def add_field_duration(amount = 1)
+    @current_field.add_duration(amount)
+  end
+
+  def reduce_field_duration(amount = 1)
+    @current_field.reduce_duration(amount)
+  end
+
+  def set_field_duration(amount = PokeBattle_Battle::Field::DEFAULT_FIELD_DURATION)
+    @current_field.set_duration(amount)
+  end
+
+  def field_duration_countdown
+    @stacked_fields.each { |field| field.reduce_duration }
+  end
+
+  def set_fieldback
+    @scene.set_fieldback(has_field?)
+  end
+
   def field_id
     @current_field.id
   end
@@ -375,22 +391,9 @@ class PokeBattle_Battle
     @stacked_fields[0]
   end
 
-  def has_base? # unused
-    base_field&.is_base?
-  end
-
   def top_field
     @stacked_fields[-1]
   end
-
-  def top_field_unchanged?
-    @current_field == top_field
-  end
-
-  def has_field?
-    @stacked_fields.length >= 2
-  end
-  alias has_top_field? has_field?
 
   def stacked_fields_name # unused
     @stacked_fields.map(&:name)[1..-1].join(", ")
@@ -398,16 +401,6 @@ class PokeBattle_Battle
 
   def stacked_fields_stat
     @stacked_fields.map { |field| [field.name, field.duration] }[1..-1].join(", ")
-  end
-
-  def infinite_field?
-    has_field? && @current_field.infinite?
-  end
-
-  # used for checking if a field is a specific field
-  # you can use is_xxx? as well, for example is_electric?
-  def is_field?(field_id)
-    @current_field.is_field?(field_id)
   end
 
   def get_tailwind_duration(orig_turn = 4, user = nil)
