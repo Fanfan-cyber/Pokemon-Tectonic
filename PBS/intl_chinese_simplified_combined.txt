@@ -32075,7 +32075,7 @@ Payback
 Photon Geyser
 光子喷涌
 Pursuit
-追打
+追击
 Quash
 延后
 Snarl
@@ -59120,67 +59120,67 @@ Your team members take one third less damage from sources that aren't attacks.
 全员受到的非攻击伤害减小33%。
 1
 Your team members deal 20% more move damage after their first turn.
-全员从自身上场的第2回合开始，技能造成的伤害增加20%。
+全员从自身出场的第2回合开始，技能造成的伤害增加20%。
 2
 Your team deal 20% more move damage on their first turn out.
-全员第1回合技能造成的伤害增加20%。
+全员出场的第1回合技能造成的伤害增加20%。
 3
 Your team's 'Not Very Effective' or 'Barely Effective' moves deal 50% more damage.
-全员在使用被抵抗的技能时，增加50%伤害。
+全员在使用被抵抗的技能时，伤害增加50%。
 4
 Your team members heal for 1/10th HP when swapping out. Your Aid Kit heals for 25% more.
-交换精灵时，恢复10%HP，急救包的效果增加25%。
+全员在进行替换时，回复10%HP，急救包的效果增加25%。
 5
 Your team takes 20% less move damage on the turns they enter.
-全员刚上场的回合受到的技能伤害减小20%。
+全员出场的回合受到的技能伤害减小20%。
 6
 Enemy trainers majorly overestimate how much damage their moves do.
 对方训练师会严重高估技能造成的伤害。
 7
 Your team members' moves have a +30% chance to activate their moves' additional effects.
-技能触发附加效果的概率增加30%。
+全员技能发动附加效果的概率增加30%。
 8
 Your team takes 10% less move damage.
-全员减小10%受到的技能伤害。
+全员受到的技能伤害减小10%。
 9
 You gain 10% more money from battles. If you have more than $100,000, your team gets a boost to Attack, Defense, Sp. Atk, and Sp. Def (before modifiers). This bonus scales with the level cap and is currently {b1}.
-战斗得金钱加10%。拥有的金钱超100,000，双攻和双防会增加。与等级上限相关，目前{b1}。
+玩家战斗获得额外10%金钱，拥有超100000金钱时，双攻和双防增加，与等级上限相关，目前{b1}。
 10
 Your team members gain 10% more EXP in battles. They also get a small boost to Attack, Defense, Sp. Atk, and Sp. Def (before modifiers). This bonus scales with the level cap and is currently {b}.
-战斗获得额外10%经验，小幅度增加双攻和双防。与等级上限相关，目前为{b}。
+全员战斗获得额外10%经验，双攻和双防小幅度增加，与等级上限相关，目前为{b}。
 11
 Whenever a member of your team uses a status move, they'll deal 25% more move damage next turn.
-精灵使用变化类技能后，下回合技能造成的伤害增加25%。
+全员在使用变化类技能后，下回合技能造成的伤害增加25%。
 12
 Your team members take 15% less move damage if they're using a status move this turn.
-精灵使用变化类技能的回合，减小15%受到的技能伤害。
+全员在使用变化类技能的回合，受到的技能伤害减小15%。
 13
 Your team has 30% increased Sp. Def. Foes can't lower your team's Sp. Def.
-全员获得30%额外特防，且特防不会减小。
+全员获得特防增加30%，且特防不会减小。
 14
 Your team members berries heal them for 25% more (multiplicative) and their gem-boosted attacks deal 25% more damage (multiplicative).
-携带树果的效果增加25%，宝石造成的伤害增加25%。
+全员携带的树果的效果增加25%，宝石造成的伤害增加25%。
 15
 Your able party members and battlers heal for 1/10th HP whenever a foe faints.
-对方失去战斗力时，恢复10%HP。
+全员在对方失去战斗力时，恢复10%HP。
 16
 Your team has 30% increased Defense. Foes can't lower your team's Defense.
 全员的物防增加30%，且物防不会减小。
 17
 Enemy Pokemon's chance to activate their additional effects against your team members is halved.
-对方技能造成额外效果的概率减半。
+对手技能发动附加效果的概率减半。
 18
 Your team has 15% increased Speed.
-使用攻击技能的回合，减小15%受到的伤害。
+全员速度增加15%。
 19
 Your Pokemon deal 15% more damage to targets that haven’t moved yet this turn. Your priority attacks and priority status moves have doubled PP.
-对于还没有行动的对手的伤害增加15%。先制技能需要多消耗1点PP。
+全员对于还没有行动的对手的伤害增加15%，先制技能需要多消耗1点PP。
 20
 Ignore the first time each battle that one of your team members would flinch or get a non-volatile status condition.
 每场战斗免疫1次异常状态或畏缩。
 21
 Your team members take 15% less move damage if they're using an attack this turn.
-全员“效果拔群”的技能增加15%伤害。
+全员如果本回合使用了攻击技能，那么受到的伤害减小15%。
 22
 This tribe exists to test the PBS extensions system
 此部族用于测试PBS扩展系统。

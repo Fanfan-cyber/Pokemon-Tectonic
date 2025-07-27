@@ -44,6 +44,8 @@ class PokemonDataBox < SpriteWrapper
 		@hpBars		  = []
 		@overhealBars = []
 		@numHPBars = 1
+    @sideSize  = sideSize
+    @onPlayerSide = ((@battler.index%2)==0)
 		if @battler.boss
 			@numHPBars = GameData::Avatar.get_from_pokemon(@battler.pokemon).num_health_bars
 		end
@@ -451,6 +453,9 @@ class PokemonDataBox < SpriteWrapper
 		  pbDrawNumber(self.hp,@hpNumbers.bitmap,54,2,1)
 		  pbDrawNumber(-1,@hpNumbers.bitmap,54,2)   # / char
 		  pbDrawNumber(@battler.totalhp,@hpNumbers.bitmap,70,2)
+   elsif @sideSize <= 2 && !@onPlayerSide
+      percent = 100 * self.hp / @battler.totalhp
+      pbDrawNumber(percent,@hpNumbers.bitmap,78,0)
 		end
 		
 		updateHealthBars
