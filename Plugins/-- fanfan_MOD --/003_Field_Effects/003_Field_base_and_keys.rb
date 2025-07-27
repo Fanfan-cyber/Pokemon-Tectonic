@@ -1,9 +1,8 @@
 class PokeBattle_Battle::Field_base < PokeBattle_Battle::Field
   def initialize(battle, duration = PokeBattle_Battle::Field::INFINITE_FIELD_DURATION, *args)
-    super(battle)
+    super
     @id       = :base
     @name     = _INTL("Base")
-    @duration = duration
 
 =begin
     :accuracy_modify
@@ -18,6 +17,7 @@ class PokeBattle_Battle::Field_base < PokeBattle_Battle::Field
     :calc_speed
     :end_field_battle
     :end_field_battler
+    :end_field_battler_universal
     :end_of_move
     :end_of_move_universal
     :EOR_field_battle
@@ -35,8 +35,6 @@ class PokeBattle_Battle::Field_base < PokeBattle_Battle::Field
     :switch_in
     :tailwind_duration
     :target_expand
-    
-    end_field_battler_universal
 =end
 
   end

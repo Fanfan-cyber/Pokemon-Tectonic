@@ -31511,7 +31511,7 @@ Silver Wind
 Steamroller
 疯狂滚压
 Sticky Web
-粘粘网
+黏黏网
 String Shot
 吐丝
 Struggle Bug
@@ -40299,7 +40299,7 @@ After using a wind move, raises the Pokémon's Defense and Sp. Def. Caps out at 
 Protects the Pokémon from recoil damage. The Pokémon doesn't trigger items, abilities, or effects of targets it hits.
 免疫反伤伤害，同时不会触发被击中目标的物品、特性或技能效果。
 Slips past all types of Spikes hazards. Deals 50% more damage to targets that switched in this turn.
-避开所有类型的尖刺陷阱，对这一回合替换上场的目标造成的伤害增加50%。
+避开所有陷阱，对这一回合替换上场的目标造成的伤害增加50%。
 HP-fraction-based damage effects deal 50% more damage to opponents.
 基于HP造成的伤害增加50%。
 When another Pokémon faints, consumes their item, ability, and stat steps.
@@ -55957,7 +55957,7 @@ Can't warp to any shards because they're all collected already!
 \ss\wm"We await you, o slayer..."
 \ss\wm"我们在等你..."
 \wmThe victor is \PN!\me[Bug catching 1st]
-\wm胜利者是 \PN!\me[Bug catching 1st]
+\wm胜利者是\PN！\me[Bug catching 1st]
 The waiting room for tournament entrants is ahead.
 比赛选手的等候室在前方。
 Once you enter, you will not be able to interact with your team in any way until the tournament is complete.
@@ -61356,9 +61356,9 @@ Sea of Fire Turns
 Swamp Turns
 沼泽回合
 Spikes
-尖刺陷阱
+菱
 Spikes Removed
-尖刺移除
+菱移除
 Poison Spikes
 毒菱
 Flame Spikes
@@ -61372,7 +61372,7 @@ Feather Ward
 Live Wire
 带电导线
 Sticky Web
-粘粘网
+黏黏网
 Misdirecting Fog
 迷惑之雾
 Primal Forest

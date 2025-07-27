@@ -9,7 +9,7 @@ class PokeBattle_Battle::Field
   FIELD_DURATION_EXPANDED = 3
   INFINITE_FIELD_DURATION = -1
 
-  ACTIVATE_VARIETY_FIELD_SETTING   = true
+  ACTIVATE_VARIETY_FIELD_SETTING   = false
   OPPOSING_ADVANTAGEOUS_TYPE_FIELD = true
 
   ANNOUNCE_FIELD_EXISTED           = true
@@ -93,7 +93,7 @@ class PokeBattle_Battle::Field
     end
   end
 
-  def initialize(battle)
+  def initialize(battle, duration)
     @battle                    = battle
     @duration                  = duration
     @effects                   = {}
@@ -146,6 +146,8 @@ class PokeBattle_Battle::Field
     @effects[:tailwind_duration] = proc { |battler| next @tailwind_duration }
 
     @effects[:inverse_battle] = proc { next @inverse_battle }
+    
+    yield if block_given?
   end
 
   def self.method_missing(method_name, *args, &block)
