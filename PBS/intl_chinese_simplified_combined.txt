@@ -40771,7 +40771,7 @@ Special moves have a 30% chance to poison targets.
 Takes 30% less damage until it uses an attack.
 在攻击之前受到的伤害减小。
 At the beginning of each turn, gives clues about a foe's plan.
-每个回合开始前，提供对手的行动方案。
+每个回合开始前，提供一个对手的行动线索。
 Boosts the power of kicking moves by 30%.
 踢类技能伤害增加30%。
 Causes sandstorm to deal double damage and increase Sp. Def of Rock-types by 2.0x instead of 1.5x.
@@ -40943,7 +40943,7 @@ Doubles Sp. Def. The Pokémon takes double damage from Psychic-type moves.
 Immune to Flying-type moves and deals 50% more damage with them.
 免疫飞行属性技能，并且使用飞行属性技能时伤害增加50%。
 After fainting from exploding, revives after six turns.
-因自爆而濒死后，6回合后会苏醒。
+因自爆类技能而濒死时，6回合后会重新苏醒。
 The Pokémon's hits deal half damage unless they are critical.
 如果没有命中要害，自身造成的伤害减半。
 Maximizes the frequency of multi-hit moves. Always deals critical hits.
@@ -41149,7 +41149,7 @@ Leaves two hazard layers of Spikes after it self-destructs.
 Speed is raised each turn. Speed is reset when hit, but the attacker takes 1/8th HP damage for each step lost.
 每回合速度增加1级，被攻击时自身的速度能力等级还原，每还原1级速度，攻击者就受到1/8HP的伤害。
 Can't be afflicted with any non-volatile status condition.
-不会陷入任何稳定类异常状态。
+不会陷入任何稳定性异常状态。
 Has a 30% chance to dizzy targets when using physical moves.
 使用物理技能时有30%的概率混乱对手。
 Prevents stat steps from being lowered (except when self-inflicted). Immune to weather downsides.
@@ -45861,9 +45861,9 @@ Status Conditions
 What are the Conditions a Pokémon can be afflicted with?
 异常状态？
 Volatile Statuses
-非稳定类异常
+非稳定性异常
 What are the Volatile Statuses a Pokémon can be afflicted with?
-精灵可能受到哪些非稳定类异常的影响？
+精灵可能受到哪些非稳定性异常的影响？
 Critical Hits
 命中要害
 What are critical hits and when do they happen?
@@ -46169,9 +46169,9 @@ When leeched, a Pokémon loses 1/12th HP every turn, and its opponent(s) split t
 A rarer status that causes a Pokémon to be unable to do anything for 2 turns. Psychic- and Grass-types put Pokémon to sleep the most often.
 睡眠的精灵在2回合内无法行动，超能属性和草属性精灵擅长让对手睡眠。
 What are Volatile Statuses?
-什么是非稳定类异常？
+什么是非稳定性异常？
 Volatile Status Conditions are similar to Status Conditions, except they will go away if the Pokémon switches out.
-非稳定类异常与异常状态类似，但如果精灵切换出去，它们就会消失。
+非稳定性异常与异常状态类似，但如果精灵切换出去，它们就会消失。
 Jinx
 不幸
 When jinxed, a Pokémon cannot Protect itself, and all attacks against it are guaranteed critical hits. Jinx wears off after 3 turns. Fairy-types do the most jinxing.
@@ -49801,7 +49801,7 @@ Told to recover a negative amount
 {1} fainted!
 {1}倒下了！
 {1} fell to the ground!
-{1}倒在了地上！
+{1}落在了地上！
 {1}'s scattered its {2} when fainting.
 {1}在倒下时分散了它的{2}。
 But there was no one to revive!
@@ -50815,18 +50815,22 @@ A rock lands on the ground around {1}.
 Each rock on the ground around {1} was absorbed!
 {1}周围的每一块石头都被吸收了！
 {1} recovered all the way to full health!
-{1}完全恢复至满HP！
-{1} is regrowing.
-{1}正在恢复中。
+{1}完全恢复了！
+The opposing {1} recovered all the way to full health!
+对方的{1}完全恢复了！
+{1} is regrowing!
+{1}正在恢复中！
+The opposing {1} is regrowing!
+对方的{1}正在恢复中！
 {1} remembers its fears!
 {1}记起了它的恐惧！
 {1} coins were scattered to the ground!
 {1}枚金钱散落在地面上！
 {1} remembers its honor!
 {1}记起了它的荣耀！
-{1} was restored to full health!
+{1} recovered to full health!
 {1}恢复到了满状态！
-The opposing {1} was restored to full health!
+The opposing {1} recovered to full health!
 对方的{1}恢复到了满状态！
 {1} is reviving!
 {1}正在复活！
@@ -53321,7 +53325,7 @@ The game has detected that the battery is low. You should save soon to avoid los
 {1} survived the burn.\<<n>>The burn faded away!<<1>>
 {1}撑住了灼烧。\<<n>>灼烧消失了!<<1>>
 {1} fainted...
-{1}倒下了......
+{1}倒下了...
 {1} survived the poisoning.\<<n>>The poison faded away!<<1>>
 {1}撑住了中毒。\<<n>>中毒消失了！<<1>>
 {1} survived the frostbite.\<<n>>The frostbite faded away!<<1>>

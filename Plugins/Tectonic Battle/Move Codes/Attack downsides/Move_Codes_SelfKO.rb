@@ -1,5 +1,5 @@
 #===============================================================================
-# User faints, even if the move does nothing else. (Explosion, Self-Destruct)
+# User faints, even if the move does nothing else. (Explosion, Self-Destruct, Swarm Burst)
 #===============================================================================
 class PokeBattle_Move_UserFaintsExplosive < PokeBattle_Move
     def worksWithNoTargets?; return true; end
@@ -29,19 +29,7 @@ class PokeBattle_Move_UserFaintsExplosive < PokeBattle_Move
             end
             user.pbReduceHP(reduction, false)
             @battle.pbHideAbilitySplash(user) if unbreakable
-            if user.hasActiveAbility?(:PERENNIALPAYLOAD, true)
-                @battle.pbShowAbilitySplash(user, :PERENNIALPAYLOAD)
-                healing_turn = 6
-                @battle.pbDisplay(_INTL("{1} will revive in {2} turns!", user.pbThis, healing_turn))
-                if user.pbOwnSide.effectActive?(:PerennialPayload)
-                    user.pbOwnSide.effects[:PerennialPayload][user.pokemonIndex] = healing_turn + 1
-                else
-                    user.pbOwnSide.effects[:PerennialPayload] = {
-                        user.pokemonIndex => healing_turn + 1,
-                    }
-                end
-                @battle.pbHideAbilitySplash(user)
-            end
+            user.apply_PerennialPayload
         end
         user.pbItemHPHealCheck
     end

@@ -19,10 +19,13 @@
 概率被击特性死亡必发
 截图自动导出队伍
 谜拟丘第二个特性突破
+加强具甲武者
 锦标赛存档机制 Once you enter, you will not be able to int
 神兽不受限密码
 放开限制6只的也能复制
 修复各类改变特性的效果 firstAbility
+复活也会恢复PP
+鬼蝉
 =end
 
 MOD_VERSION = "0.3.7"
@@ -168,7 +171,9 @@ disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
 8.修复了同命不会生效的Bug
 9.修复了AI在面对Relentless Pursuit时的异常行为
 10.现在在单打和双打对战中，会显示对手的精灵当前HP的百分比了
-11.
+11.现在Perennial Payload的提示文本会明确显示出是哪一方的精灵
+12.现在只要是因为爆炸类技能濒死，Perennial Payload就都会发动
+13.
 
 0.3.6
 1.修复了在检查精灵有几个属性时不计算额外的第三属性的Bug
