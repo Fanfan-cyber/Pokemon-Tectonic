@@ -714,6 +714,7 @@ BattleHandlers::TargetAbilityOnHit.add(:PERENNIALPAYLOAD,
     proc { |ability, user, target, move, battle, aiCheck, aiNumHits|
         next unless move.function.include?("UserFaintsExplosive")
         next unless target.fainted?
+        #next unless target.hp > target.totalhp / 2.0
         if aiCheck
             next 30 # prefer to kill
         else

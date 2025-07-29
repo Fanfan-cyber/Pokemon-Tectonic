@@ -1130,7 +1130,7 @@ GameData::BattleEffect.register_effect(:Battler, {
             statArray.push(battler.countEffect(:StockpileSpDef) * 2)
         end
 
-        battler.pbLowerMultipleStatSteps(statArray, battler)
+        #battler.pbLowerMultipleStatSteps(statArray, battler)
     end,
     :sub_effects => %i[StockpileDef StockpileSpDef],
 })
