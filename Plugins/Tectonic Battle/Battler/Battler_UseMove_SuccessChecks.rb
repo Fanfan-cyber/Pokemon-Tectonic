@@ -243,7 +243,7 @@ GameData::Move.get(@effects[:GorillaTactics]).name)
         end
 
         # Legendary Banned
-        if Settings::LEGENDARY_BANNED && pbOwnedByPlayer? && @pokemon.species_data.isLegendary?
+        if Settings::LEGENDARY_BANNED && pbOwnedByPlayer? && @pokemon.species_data.isLegendary? && !$DEBUG
             if aiCheck
                 echoln("\t\t[AI FAILURE CHECK] #{pbThis} rejects the move #{move.id} due to it being predicted to refuse to move (Legendary Banned)")
                 return false

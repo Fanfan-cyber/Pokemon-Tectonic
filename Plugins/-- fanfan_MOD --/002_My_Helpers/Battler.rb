@@ -6,11 +6,11 @@ class PokeBattle_Battler
   end
 
   def unique_id
-    @pokemon.unique_id
+    @pokemon&.unique_id
   end
 
   def owner_side_all_fainted?
-    @battle.pbParty(@index).all?(&:fainted?)
+    @battle.pbParty(@index).compact.all?(&:fainted?)
   end
 
   def mono_type?

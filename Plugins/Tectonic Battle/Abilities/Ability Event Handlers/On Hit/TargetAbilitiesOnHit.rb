@@ -305,7 +305,7 @@ BattleHandlers::TargetAbilityOnHit.add(:SPINTENSITY,
         oldStep = target.steps[:SPEED]
         user.applyFractionalDamage(oldStep / 8.0)
         battle.pbCommonAnimation("StatDown", target)
-        target.steps[:SPEED] = 0
+        target.pbResetSpecificStatSteps(:SPEED)
         battle.pbHideAbilitySplash(target)
     }
 )
@@ -707,6 +707,18 @@ BattleHandlers::TargetAbilityOnHit.add(:QUILLERINSTINCT,
         battle.pbShowAbilitySplash(target, ability)
         target.pbOpposingSide.incrementEffect(:Spikes)
         battle.pbHideAbilitySplash(target)
+    }
+)
+
+BattleHandlers::TargetAbilityOnHit.add(:PERENNIALPAYLOAD,
+    proc { |ability, user, target, move, battle, aiCheck, aiNumHits|
+        next unless move.function.include?("UserFaintsExplosive")
+        next unless target.fainted?
+        if aiCheck
+            next 30 # prefer to kill
+        else
+            target.apply_PerennialPayload
+        end
     }
 )
 

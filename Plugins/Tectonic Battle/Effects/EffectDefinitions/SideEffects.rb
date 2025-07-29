@@ -679,10 +679,18 @@ GameData::BattleEffect.register_effect(:Side, {
                     # Revive the pokemon
                     pkmn.heal_HP
                     pkmn.heal_status
-                    battle.pbDisplay(_INTL("{1} recovered all the way to full health!", pkmn.name))
+                    if side.index == 0
+                        battle.pbDisplay(_INTL("{1} recovered all the way to full health!", pkmn.name))
+                    else
+                        battle.pbDisplay(_INTL("The opposing {1} recovered all the way to full health!", pkmn.name))
+                    end
                     value[key] = nil
-                else
-                    battle.pbDisplay(_INTL("{1} is regrowing.", pkmn.name))
+                elsif value[key] == 1
+                    if side.index == 0
+                        battle.pbDisplay(_INTL("{1} is regrowing!", pkmn.name))
+                    else
+                        battle.pbDisplay(_INTL("The opposing {1} is regrowing!", pkmn.name))
+                    end
                 end
             end
         end
@@ -690,6 +698,7 @@ GameData::BattleEffect.register_effect(:Side, {
     end,
 })
 
+                
 GameData::BattleEffect.register_effect(:Side, {
     :id => :Traumatized,
     :real_name => "Traumatized",
@@ -764,9 +773,9 @@ GameData::BattleEffect.register_effect(:Side, {
                     pkmn.heal_HP
                     pkmn.heal_status
                     if side.index == 0
-                        battle.pbDisplay(_INTL("{1} was restored to full health!", pkmn.name))
+                        battle.pbDisplay(_INTL("{1} recovered to full health!", pkmn.name))
                     else
-                        battle.pbDisplay(_INTL("The opposing {1} was restored to full health!", pkmn.name))
+                        battle.pbDisplay(_INTL("The opposing {1} recovered to full health!", pkmn.name))
                     end
                     value[key] = nil
                 elsif value[key] == 1

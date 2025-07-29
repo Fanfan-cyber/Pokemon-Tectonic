@@ -47,7 +47,7 @@ class PokeBattle_Battle
   end
 
   def field_battlers_id
-    @battlers.compact.map { |b| b.unique_id }
+    @battlers.map { |b| b&.unique_id }.compact
   end
 
   def ignore_perfect?

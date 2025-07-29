@@ -31511,7 +31511,7 @@ Silver Wind
 Steamroller
 疯狂滚压
 Sticky Web
-粘粘网
+黏黏网
 String Shot
 吐丝
 Struggle Bug
@@ -32075,7 +32075,7 @@ Payback
 Photon Geyser
 光子喷涌
 Pursuit
-追打
+追击
 Quash
 延后
 Snarl
@@ -39728,7 +39728,7 @@ Spectrum Vision
 Spinesplode
 棘刺
 Spintensity
-空间强度
+自旋
 Stability
 坚定不移
 Staggering Slaps
@@ -40299,7 +40299,7 @@ After using a wind move, raises the Pokémon's Defense and Sp. Def. Caps out at 
 Protects the Pokémon from recoil damage. The Pokémon doesn't trigger items, abilities, or effects of targets it hits.
 免疫反伤伤害，同时不会触发被击中目标的物品、特性或技能效果。
 Slips past all types of Spikes hazards. Deals 50% more damage to targets that switched in this turn.
-避开所有类型的尖刺陷阱，对这一回合替换上场的目标造成的伤害增加50%。
+避开所有陷阱，对这一回合替换上场的目标造成的伤害增加50%。
 HP-fraction-based damage effects deal 50% more damage to opponents.
 基于HP造成的伤害增加50%。
 When another Pokémon faints, consumes their item, ability, and stat steps.
@@ -40771,7 +40771,7 @@ Special moves have a 30% chance to poison targets.
 Takes 30% less damage until it uses an attack.
 在攻击之前受到的伤害减小。
 At the beginning of each turn, gives clues about a foe's plan.
-每个回合开始前，提供对手的行动方案。
+每个回合开始前，提供一个对手的行动线索。
 Boosts the power of kicking moves by 30%.
 踢类技能伤害增加30%。
 Causes sandstorm to deal double damage and increase Sp. Def of Rock-types by 2.0x instead of 1.5x.
@@ -40943,7 +40943,7 @@ Doubles Sp. Def. The Pokémon takes double damage from Psychic-type moves.
 Immune to Flying-type moves and deals 50% more damage with them.
 免疫飞行属性技能，并且使用飞行属性技能时伤害增加50%。
 After fainting from exploding, revives after six turns.
-因自爆而濒死后，6回合后会苏醒。
+因自爆类技能而濒死时，6回合后会重新苏醒。
 The Pokémon's hits deal half damage unless they are critical.
 如果没有命中要害，自身造成的伤害减半。
 Maximizes the frequency of multi-hit moves. Always deals critical hits.
@@ -40963,7 +40963,7 @@ Takes no damage from non-volatile status conditions.
 Sets screens for two more turns.
 使屏障类效果延长2回合。
 Attacks against the Pokémon deal 50% more damage, but the attacker takes 100% recoil.
-伤害增加50%，但会受到100%的反伤。
+受到的伤害增加50%，但攻击者会受到100%的反伤。
 During eclipse, immune to non-volatile status conditions and stat reductions.
 日食时，免疫稳定型异常和能力等级减小效果。
 At the first chance, copies an opponent's species' legal Abilities.
@@ -41147,9 +41147,9 @@ The Pokémon and its allies' moves are twice as likely to be critical.
 Leaves two hazard layers of Spikes after it self-destructs.
 自爆后会留下两层菱。
 Speed is raised each turn. Speed is reset when hit, but the attacker takes 1/8th HP damage for each step lost.
-每回合增加速度，被攻击后减小速度，速度每次减小给对手造成1/8HP伤害。
+每回合速度增加1级，被攻击时自身的速度能力等级还原，每还原1级速度，攻击者就受到1/8HP的伤害。
 Can't be afflicted with any non-volatile status condition.
-不会陷入任何稳定类异常状态。
+不会陷入任何稳定性异常状态。
 Has a 30% chance to dizzy targets when using physical moves.
 使用物理技能时有30%的概率混乱对手。
 Prevents stat steps from being lowered (except when self-inflicted). Immune to weather downsides.
@@ -45861,9 +45861,9 @@ Status Conditions
 What are the Conditions a Pokémon can be afflicted with?
 异常状态？
 Volatile Statuses
-非稳定类异常
+非稳定性异常
 What are the Volatile Statuses a Pokémon can be afflicted with?
-精灵可能受到哪些非稳定类异常的影响？
+精灵可能受到哪些非稳定性异常的影响？
 Critical Hits
 命中要害
 What are critical hits and when do they happen?
@@ -46169,9 +46169,9 @@ When leeched, a Pokémon loses 1/12th HP every turn, and its opponent(s) split t
 A rarer status that causes a Pokémon to be unable to do anything for 2 turns. Psychic- and Grass-types put Pokémon to sleep the most often.
 睡眠的精灵在2回合内无法行动，超能属性和草属性精灵擅长让对手睡眠。
 What are Volatile Statuses?
-什么是非稳定类异常？
+什么是非稳定性异常？
 Volatile Status Conditions are similar to Status Conditions, except they will go away if the Pokémon switches out.
-非稳定类异常与异常状态类似，但如果精灵切换出去，它们就会消失。
+非稳定性异常与异常状态类似，但如果精灵切换出去，它们就会消失。
 Jinx
 不幸
 When jinxed, a Pokémon cannot Protect itself, and all attacks against it are guaranteed critical hits. Jinx wears off after 3 turns. Fairy-types do the most jinxing.
@@ -46473,7 +46473,7 @@ Register
 There is no Pokémon.
 这里没有精灵。
 The {1} can't be held.
-{1}不能被保留。
+{1}不能被携带。
 Toss out how many {1}?
 要扔掉多少个{1}？
 Is it OK to throw away {1} {2}?
@@ -49801,7 +49801,7 @@ Told to recover a negative amount
 {1} fainted!
 {1}倒下了！
 {1} fell to the ground!
-{1}倒在了地上！
+{1}落在了地上！
 {1}'s scattered its {2} when fainting.
 {1}在倒下时分散了它的{2}。
 But there was no one to revive!
@@ -50815,18 +50815,22 @@ A rock lands on the ground around {1}.
 Each rock on the ground around {1} was absorbed!
 {1}周围的每一块石头都被吸收了！
 {1} recovered all the way to full health!
-{1}完全恢复至满HP！
-{1} is regrowing.
-{1}正在恢复中。
+{1}完全恢复了！
+The opposing {1} recovered all the way to full health!
+对方的{1}完全恢复了！
+{1} is regrowing!
+{1}正在恢复中！
+The opposing {1} is regrowing!
+对方的{1}正在恢复中！
 {1} remembers its fears!
 {1}记起了它的恐惧！
 {1} coins were scattered to the ground!
 {1}枚金钱散落在地面上！
 {1} remembers its honor!
 {1}记起了它的荣耀！
-{1} was restored to full health!
+{1} recovered to full health!
 {1}恢复到了满状态！
-The opposing {1} was restored to full health!
+The opposing {1} recovered to full health!
 对方的{1}恢复到了满状态！
 {1} is reviving!
 {1}正在复活！
@@ -53321,7 +53325,7 @@ The game has detected that the battery is low. You should save soon to avoid los
 {1} survived the burn.\<<n>>The burn faded away!<<1>>
 {1}撑住了灼烧。\<<n>>灼烧消失了!<<1>>
 {1} fainted...
-{1}倒下了......
+{1}倒下了...
 {1} survived the poisoning.\<<n>>The poison faded away!<<1>>
 {1}撑住了中毒。\<<n>>中毒消失了！<<1>>
 {1} survived the frostbite.\<<n>>The frostbite faded away!<<1>>
@@ -55957,7 +55961,7 @@ Can't warp to any shards because they're all collected already!
 \ss\wm"We await you, o slayer..."
 \ss\wm"我们在等你..."
 \wmThe victor is \PN!\me[Bug catching 1st]
-\wm胜利者是 \PN!\me[Bug catching 1st]
+\wm胜利者是\PN！\me[Bug catching 1st]
 The waiting room for tournament entrants is ahead.
 比赛选手的等候室在前方。
 Once you enter, you will not be able to interact with your team in any way until the tournament is complete.
@@ -59120,67 +59124,67 @@ Your team members take one third less damage from sources that aren't attacks.
 全员受到的非攻击伤害减小33%。
 1
 Your team members deal 20% more move damage after their first turn.
-全员从自身上场的第2回合开始，技能造成的伤害增加20%。
+全员从自身出场的第2回合开始，技能造成的伤害增加20%。
 2
 Your team deal 20% more move damage on their first turn out.
-全员第1回合技能造成的伤害增加20%。
+全员出场的第1回合技能造成的伤害增加20%。
 3
 Your team's 'Not Very Effective' or 'Barely Effective' moves deal 50% more damage.
-全员在使用被抵抗的技能时，增加50%伤害。
+全员在使用被抵抗的技能时，伤害增加50%。
 4
 Your team members heal for 1/10th HP when swapping out. Your Aid Kit heals for 25% more.
-交换精灵时，恢复10%HP，急救包的效果增加25%。
+全员在进行替换时，回复10%HP，急救包的效果增加25%。
 5
 Your team takes 20% less move damage on the turns they enter.
-全员刚上场的回合受到的技能伤害减小20%。
+全员出场的回合受到的技能伤害减小20%。
 6
 Enemy trainers majorly overestimate how much damage their moves do.
 对方训练师会严重高估技能造成的伤害。
 7
 Your team members' moves have a +30% chance to activate their moves' additional effects.
-技能触发附加效果的概率增加30%。
+全员技能发动附加效果的概率增加30%。
 8
 Your team takes 10% less move damage.
-全员减小10%受到的技能伤害。
+全员受到的技能伤害减小10%。
 9
 You gain 10% more money from battles. If you have more than $100,000, your team gets a boost to Attack, Defense, Sp. Atk, and Sp. Def (before modifiers). This bonus scales with the level cap and is currently {b1}.
-战斗得金钱加10%。拥有的金钱超100,000，双攻和双防会增加。与等级上限相关，目前{b1}。
+玩家战斗获得额外10%金钱，拥有超100000金钱时，双攻和双防增加，与等级上限相关，目前{b1}。
 10
 Your team members gain 10% more EXP in battles. They also get a small boost to Attack, Defense, Sp. Atk, and Sp. Def (before modifiers). This bonus scales with the level cap and is currently {b}.
-战斗获得额外10%经验，小幅度增加双攻和双防。与等级上限相关，目前为{b}。
+全员战斗获得额外10%经验，双攻和双防小幅度增加，与等级上限相关，目前为{b}。
 11
 Whenever a member of your team uses a status move, they'll deal 25% more move damage next turn.
-精灵使用变化类技能后，下回合技能造成的伤害增加25%。
+全员在使用变化类技能后，下回合技能造成的伤害增加25%。
 12
 Your team members take 15% less move damage if they're using a status move this turn.
-精灵使用变化类技能的回合，减小15%受到的技能伤害。
+全员在使用变化类技能的回合，受到的技能伤害减小15%。
 13
 Your team has 30% increased Sp. Def. Foes can't lower your team's Sp. Def.
-全员获得30%额外特防，且特防不会减小。
+全员获得特防增加30%，且特防不会减小。
 14
 Your team members berries heal them for 25% more (multiplicative) and their gem-boosted attacks deal 25% more damage (multiplicative).
-携带树果的效果增加25%，宝石造成的伤害增加25%。
+全员携带的树果的效果增加25%，宝石造成的伤害增加25%。
 15
 Your able party members and battlers heal for 1/10th HP whenever a foe faints.
-对方失去战斗力时，恢复10%HP。
+全员在对方失去战斗力时，恢复10%HP。
 16
 Your team has 30% increased Defense. Foes can't lower your team's Defense.
 全员的物防增加30%，且物防不会减小。
 17
 Enemy Pokemon's chance to activate their additional effects against your team members is halved.
-对方技能造成额外效果的概率减半。
+对手技能发动附加效果的概率减半。
 18
 Your team has 15% increased Speed.
-使用攻击技能的回合，减小15%受到的伤害。
+全员速度增加15%。
 19
 Your Pokemon deal 15% more damage to targets that haven’t moved yet this turn. Your priority attacks and priority status moves have doubled PP.
-对于还没有行动的对手的伤害增加15%。先制技能需要多消耗1点PP。
+全员对于还没有行动的对手的伤害增加15%，先制技能需要多消耗1点PP。
 20
 Ignore the first time each battle that one of your team members would flinch or get a non-volatile status condition.
 每场战斗免疫1次异常状态或畏缩。
 21
 Your team members take 15% less move damage if they're using an attack this turn.
-全员“效果拔群”的技能增加15%伤害。
+全员如果本回合使用了攻击技能，那么受到的伤害减小15%。
 22
 This tribe exists to test the PBS extensions system
 此部族用于测试PBS扩展系统。
@@ -61356,9 +61360,9 @@ Sea of Fire Turns
 Swamp Turns
 沼泽回合
 Spikes
-尖刺陷阱
+菱
 Spikes Removed
-尖刺移除
+菱移除
 Poison Spikes
 毒菱
 Flame Spikes
@@ -61372,7 +61376,7 @@ Feather Ward
 Live Wire
 带电导线
 Sticky Web
-粘粘网
+黏黏网
 Misdirecting Fog
 迷惑之雾
 Primal Forest

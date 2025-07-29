@@ -3,13 +3,19 @@ class PokeBattle_Battle::Field
   attr_reader :duration, :effects, :field_announcement, :fieldback, :id, :name   
   attr_reader :multipliers, :strengthened_message, :weakened_message
   attr_reader :nature_power_change, :secret_power_effect, :tailwind_duration, :inverse_battle
-  attr_reader :always_online
+  attr_reader :creatable_field, :always_online
 
   DEFAULT_FIELD_DURATION  = 5
   FIELD_DURATION_EXPANDED = 3
   INFINITE_FIELD_DURATION = -1
 
-  OPPOSING_ADVANTAGEOUS_TYPE_FIELD = false
+  ACTIVATE_VARIETY_FIELD_SETTING   = false
+  OPPOSING_ADVANTAGEOUS_TYPE_FIELD = true
+
+  ANNOUNCE_FIELD_EXISTED           = true
+  ANNOUNCE_FIELD_DURATION          = true
+  ANNOUNCE_FIELD_DURATION_INFINITE = true
+  ANNOUNCE_FIELD_DURATION_EXPAND   = true
 
   BASE_KEYS = %i[set_field_battler_universal].freeze
 
@@ -56,7 +62,6 @@ class PokeBattle_Battle::Field
   @@field_data = {}
   def self.register(field, data)
     field = field.to_s.downcase.to_sym
-    @@field_data[field] = data
     define_method("is_#{field}?") do # define is_xxx? Field instance method
       @id == field
     end
@@ -65,6 +70,8 @@ class PokeBattle_Battle::Field
         @current_field.public_send("is_#{field}?")
       end
     end
+    return if data[:special]
+    @@field_data[field] = data
   end
 
   def self.field_data
@@ -75,23 +82,26 @@ class PokeBattle_Battle::Field
     field_count = 0
     File.open("field_effect_manual.txt", "wb") do |file|
       @@field_data.each_value do |data|
-        next unless data[:description]
+        next unless data[:description] && !data[:description].empty?
         field_count += 1
         file.write("### Field #{field_count.to_digits}\r\n")
         file.write(data[:description])
         file.write("\r\n\r\n")
+        data.delete(:description)
       end
       file.write("Total: #{field_count}")
     end
   end
 
-  def initialize(battle)
+  def initialize(battle, duration)
     @battle                    = battle
+    @duration                  = duration
     @effects                   = {}
     @field_announcement        = []
     @multipliers               = {}
     @base_strengthened_message = _INTL("The field strengthened the attack")
     @base_weakened_message     = _INTL("The field weakened the attack")
+    @creatable_field           = []
     @always_online             = []
 
     @effects[:calc_damage] = proc { |user, target, numTargets, move, type, power, mults, aiCheck|
@@ -131,11 +141,13 @@ class PokeBattle_Battle::Field
 
     @effects[:secret_power_effect] = proc { |user, targets, move| next @secret_power_effect }
 
-    @effects[:set_field_battler_universal] = proc { |battler| battler.pbItemHPHealCheck }
+    @effects[:end_field_battler_universal] = proc { |battler| battler.pbItemHPHealCheck }
 
     @effects[:tailwind_duration] = proc { |battler| next @tailwind_duration }
 
     @effects[:inverse_battle] = proc { next @inverse_battle }
+    
+    yield if block_given?
   end
 
   def self.method_missing(method_name, *args, &block)
@@ -152,19 +164,19 @@ class PokeBattle_Battle::Field
     @effects[key]&.call(*args)
   end
 
-  def add_duration(amount = 0)
+  def add_duration(amount = 1)
     return if infinite?
     @duration += amount
     #echoln("[Field duration change] #{@name}'s duration is now #{@duration}!")
   end
 
-  def reduce_duration(amount = 0)
+  def reduce_duration(amount = 1)
     return if infinite?
     @duration -= amount
     #echoln("[Field duration change] #{@name}'s duration is now #{@duration}!")
   end
 
-  def set_duration(amount = 0)
+  def set_duration(amount = DEFAULT_FIELD_DURATION)
     @duration = amount
     #echoln("[Field duration change] #{@name}'s duration is now #{@duration}!")
   end
@@ -173,16 +185,16 @@ class PokeBattle_Battle::Field
     @id == another_field.id
   end
 
-  def is_on_top?
+  def top?
     self == @battle.top_field
   end
 
   def default_duration?
-    @duration == 5
+    @duration == DEFAULT_FIELD_DURATION
   end
 
   def infinite?
-    @duration == -1
+    @duration == INFINITE_FIELD_DURATION
   end
 
   def end?
@@ -191,9 +203,5 @@ class PokeBattle_Battle::Field
 
   def is_field?(field)
     @id == field
-  end
-
-  def is_base?
-    @id == :Base
   end
 end

@@ -162,11 +162,7 @@ class PokeBattle_Battle::Field_example < PokeBattle_Battle::Field
 
   end
 end
-=begin
+
 PokeBattle_Battle::Field.register(:example, {
-  :trainer_name => [],
-  :environment  => [:grass, ], # please delete :grass otherwise Example field will be activated when the backdrop/environment is grass, it also accepts "grass"/"GrAss"/:GrasS etc.
-  :map_id       => [],
-  :edge_type    => [],
+  :special => true,
 })
-=end

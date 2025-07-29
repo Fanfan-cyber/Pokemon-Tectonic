@@ -379,6 +379,21 @@ class PokeBattle_Battler
         end
     end
 
+    def apply_PerennialPayload
+        return unless hasActiveAbility?(:PERENNIALPAYLOAD, true)
+        @battle.pbShowAbilitySplash(self, :PERENNIALPAYLOAD)
+        healing_turn = 6
+        @battle.pbDisplay(_INTL("{1} will revive in {2} turns!", pbThis, healing_turn))
+        if pbOwnSide.effectActive?(:PerennialPayload)
+            pbOwnSide.effects[:PerennialPayload][self.pokemonIndex] = healing_turn + 1
+        else
+            pbOwnSide.effects[:PerennialPayload] = {
+                self.pokemonIndex => healing_turn + 1,
+            }
+        end
+        @battle.pbHideAbilitySplash(self)
+    end
+
     def can_faint_healing?
         if !@battle.trainerBattle? || TA.get(:disablerevive) || battle_tracker_get(:faint_healing_triggered)
             if !TA.get(:disableperfect) && pbOwnedByPlayer? && (isSpecies?(:GARDEVOIR) && !$Trainer.has_species?(:GALLADE) ||
