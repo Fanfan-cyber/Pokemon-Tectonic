@@ -772,6 +772,7 @@ GameData::BattleEffect.register_effect(:Side, {
                     # Revive the pokemon
                     pkmn.heal_HP
                     pkmn.heal_status
+                    pkmn.heal_PP
                     if side.index == 0
                         battle.pbDisplay(_INTL("{1} recovered to full health!", pkmn.name))
                     else

@@ -32437,7 +32437,7 @@ Crystal Gleam
 Diamond Bolt
 钻石闪电
 Diamond Field
-钻石场地
+钻石场
 Diamond Force
 钻石尖刺
 Embrittle
@@ -34868,7 +34868,7 @@ The user attacks with the bright glint of crystals.
 The user shoots a spike of diamond to strike the target. Can random critical hit.
 使用者射出一枚钻石尖刺攻击目标，有可能随机命中要害。
 A diamond-tough force-field protects the user's side for 5 turns from critical hits, and reduces move damage taken.
-释放金刚石般坚韧的立场，在5回合内保护自身与队友不会被集中要害，且减小受到的技能伤害。
+释放金刚石般坚韧的立场，在5回合内保护自身与队友不会被命中要害，且减小受到的技能伤害。
 The user calls up spikes of diamond. Can random critical hit.
 召唤出钻石尖刺。容易命中要害。
 The user weakens the target's bones, making them fracture. They deal 33% less damage.
@@ -37879,9 +37879,9 @@ A single-use item to be held by a Pokémon. It allows the immediate use of a mov
 A single-use item to be held by a Pokémon. It allows user to skip the recharging turn of an exhausting move.
 携带它的精灵仅有1次机会可以跳过1次使用技能后的恢复回合。
 A held item. When a foe raises their stats, the herb is consumed to copy the increase.
-携带后对手属性获得强化时，消耗香草并复制它的强化。
+携带后当对手增加能力等级时，消耗香草并复制它的强化。
 A held item. When a foe raises their stats, the herb is consumed to reset their stats.
-一种携带物品。当对手增加能力值时，草药会被消耗并重置对手的能力等级。
+一种携带物品。当对手增加能力等级时，香草会被消耗并重置对手的能力等级。
 An item to be held by a Pokémon. Ensures a random additional effect activates once per battle.
 一种精灵携带的物品。确保每场战斗中随机附加效果触发1次。
 An item to be held by a Pokémon. Ensures a less than full accuracy move lands once per battle.
@@ -41299,7 +41299,7 @@ Takes 40% less damage while using a status move.
 At the end of each turn, itself and each ally heals for 1/16th of their HP.
 每回合结束时，该精灵和每个队友会恢复其最大生命值的1/16。
 The Pokémon's attacks are always critical if there is an active Room.
-若场地存在空间，则总能命中要害。
+若场上存在空间，则总能命中要害。
 Double Sp. Def in eclipse.
 日食天气时，特防翻倍。
 Boosts Speed by 50% in rainstorm. Can't miss during rainstorm.
@@ -46231,7 +46231,7 @@ For moves that can random crit, the chance is 1/8. This chance can be raised by 
 Other Effects
 其他影响
 Critical hits ignore stat steps (on the user or the target) that would lower their damage. They also ignore protective screens like Reflect and Light Screen.
-命中要害的一击不会受到能力减小的影响，也不会受到反射壁和光墙等技能的影响。
+命中要害的一击不会受到能力等级导致的伤害减小的影响，也不会受到反射壁和光墙等技能的影响。
 Preventing Criticals
 防止被命中要害
 Certain abilities prevent critical hits against that Pokémon. The Lucky Chant effect protects their side from critical hits.
@@ -50185,7 +50185,7 @@ A flicker of pity passes through {1}'s eyes, it has no desire to lower itself to
 But the empowered attack pierces through!
 但是强大的攻击穿透了它！
 Actually, {1} partially pierces through!
-{1}居然穿透了一部分
+{1}居然穿透了一部分！
 {1} was ignored, and failed to protect {2}!
 {1}被忽略了，无法保护{2}！
 {1} shielded itself from the {2}!
@@ -50691,9 +50691,9 @@ They'll be protected from status ailments for {1} more turns!
 They can't be crit and take less damage for {1} more turns!
 它们在接下来的{1}回合内不会被命中要害，并且受到的伤害会减小！
 {1}'s Diamond Field was removed!
-{1}的钻石场地被破坏了！
+{1}的钻石场被破坏了！
 {1} is no longer protected by Diamond Field.
-{1}不再受钻石场地保护！
+{1}不再受钻石场保护！
 {1} became determined to survive!
 {1}决心要活下去！
 They'll take half damage from sources that aren't attacks for {1} more turns!
@@ -51711,7 +51711,7 @@ But it failed, since there is no active room!
 But it failed, since there is no active weather!
 但它失败了，因为在场没有天气！
 But it failed, since a Diamond Field is already present!
-但是失败了，因为钻石场地已经存在了！
+但是失败了，因为钻石场已经存在了！
 But it failed, since it's not Hailing!
 但是它失败了，因为没有下冰雹！
 But it failed, since Aurora Veil is already active!
@@ -61326,7 +61326,7 @@ Echoed Voice Used
 Round Singers
 轮唱歌手
 Reflect
-反射
+反射壁
 Light Screen
 光墙
 Aurora Veil
@@ -61340,13 +61340,13 @@ Mist
 Safeguard
 神秘守护
 Diamond Field
-钻石场地
+钻石场
 Natural Protection
 自然防护
 Crafty Shield
-狡猾的盾牌
+戏法防守
 Mat Block
-垫子阻挡
+掀榻榻米
 Quick Guard
 快速防护
 Wide Guard
@@ -61358,7 +61358,7 @@ Rainbow Turns
 Sea of Fire Turns
 火海
 Swamp Turns
-沼泽回合
+沼泽
 Spikes
 菱
 Spikes Removed
@@ -61386,15 +61386,15 @@ Cruel Cocoon
 Turbulent Sky
 动荡之空
 Last Round Fainted
-最后回合濒死
+上一回合濒死
 Spent Tyrannical Immunity
-耗尽的暴君免疫
+已用的暴君免疫
 Tailwind Turns
 顺风回合
 Primeval Tailwind
 原初顺风
 Items Supressed
-物品被压制
+物品被消除
 Bulwark
 壁垒
 Eroded Rocks
