@@ -854,8 +854,6 @@ Weight = 430.0
 #-------------------------------
 [GROUDON,1]
 FormName = Primal
-Type1 = GROUND
-Type2 = FIRE
 BaseStats = 100,180,160,90,150,90
 Abilities = DESOLATELAND
 Height = 5.0

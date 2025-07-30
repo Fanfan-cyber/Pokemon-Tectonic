@@ -439,8 +439,6 @@ GameData::BattleEffect.register_effect(:Battler, {
 GameData::BattleEffect.register_effect(:Battler, {
     :id => :HealBlock,
     :real_name => "Healing Blocked",
-    :type => :Integer,
-    :ticks_down => true,
     :baton_passed => true,
     :is_mental => true,
     :apply_proc => proc do |battle, battler, _value|
@@ -448,9 +446,6 @@ GameData::BattleEffect.register_effect(:Battler, {
     end,
     :disable_proc => proc do |battle, battler|
         battle.pbDisplay(_INTL("{1} broke free of the Heal Block!", battler.pbThis))
-    end,
-    :expire_proc => proc do |battle, battler|
-        battle.pbDisplay(_INTL("{1} can use healing again!", battler.pbThis))
     end,
 })
 
@@ -605,11 +600,6 @@ GameData::BattleEffect.register_effect(:Battler, {
 
 GameData::BattleEffect.register_effect(:Battler, {
     :id => :Instructed,
-    :real_name => "Instructed",
-})
-
-GameData::BattleEffect.register_effect(:Battler, {
-    :id => :SuddenTurn,
     :real_name => "Instructed",
 })
 

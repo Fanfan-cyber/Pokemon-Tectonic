@@ -604,23 +604,6 @@ BattleHandlers::UserAbilityEndOfMove.add(:HYBRIDFIGHTER,
   }
 )
 
-BattleHandlers::UserAbilityEndOfMove.add(:SUDDENTURN,
-  proc { |ability, user, targets, move, battle, switchedBattlers|
-    next if battle.futureSight
-    next unless move.damagingMove?
-    next unless user.firstTurn?
-    next if user.effectActive?(:SuddenTurn)
-    hitAnything = false
-    targets.each do |b|
-      next if b.damageState.unaffected
-      hitAnything = true
-      break
-    end
-    next unless hitAnything
-    battle.forceUseMove(user, :RAPIDSPIN, moveUsageEffect: :SuddenTurn, ability: ability)
-  }
-)
-
 BattleHandlers::UserAbilityEndOfMove.add(:OFFENSIVE,
   proc { |ability, user, targets, move, battle, switchedBattlers|
     next if battle.futureSight

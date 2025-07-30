@@ -262,9 +262,15 @@ class PokeBattle_Battler
         # Stance Change
         if isSpecies?(:AEGISLASH) && hasAbility?(:STANCECHANGE)
             if move.damagingMove?
-                pbChangeForm(1, _INTL("{1} changed to Blade Forme!", pbThis))
+                if @form != 1
+                    @battle.pbCommonAnimation("StanceAttack", self)
+                    pbChangeForm(1, _INTL("{1} changed to Blade Forme!", pbThis))
+                end
             elsif move.id == :KINGSSHIELD
-                pbChangeForm(0, _INTL("{1} changed to Shield Forme!", pbThis))
+                if @form != 0
+                    @battle.pbCommonAnimation("StanceProtect", self)
+                    pbChangeForm(0, _INTL("{1} changed to Shield Forme!", pbThis))
+                end
             end
         end
 

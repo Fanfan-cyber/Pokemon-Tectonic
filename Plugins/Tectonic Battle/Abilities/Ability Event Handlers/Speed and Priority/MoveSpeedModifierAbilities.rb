@@ -64,6 +64,17 @@ BattleHandlers::MoveSpeedModifierAbility.add(:HOPPINGMAD,
     }
 )
 
+BattleHandlers::MoveSpeedModifierAbility.add(:CELERITAS,
+    proc { |ability, battler, move, battle, mult, aiCheck|
+        next unless (aiCheck && move.nil?) || move.lightMove?
+        if aiCheck
+            next mult * 2.0
+        else
+            battler.applyEffect(:MoveSpeedDoubled,ability)
+        end
+    }
+)
+
 # Create the 2nd half of every ability above
 # Actually incorporate the doubled speed in the speed calculations
 BattleHandlers::MoveSpeedModifierAbility.eachKey do |abilityID|

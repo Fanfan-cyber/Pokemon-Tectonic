@@ -2776,15 +2776,6 @@ Price = 0
 Flags = KeyItem,SkipPocketMessage
 Description = It would be a delicious treat if you were a Pokémon.
 #-------------------------------
-[PRIMALCLAY]
-Name = Primal Clay
-NamePlural = Primal Clay
-Pocket = 8
-Price = 0
-FieldUse = OnPokemon
-Flags = KeyItem
-Description = A lump of ancient clay. It glows with a soft golden color.
-#-------------------------------
 [OMNIDRIVE]
 Name = OmniDrive
 NamePlural = OmniDrives
@@ -3095,3 +3086,29 @@ Price = 0
 FieldUse = Direct
 Flags = KeyItem,SkipPocketMessage
 Description = A vessel for negative emotions. Perfectly defeat enough trainers to earn its rewards.
+#-------------------------------
+[SMARTPHONE]
+Name = Smart Phone
+NamePlural = Smart Phones
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = A smart phone. Use it to take selfies.
+#-------------------------------
+[PRIMALBEAD]
+Name = Primal Bead
+NamePlural = Primal Bead
+Pocket = 1
+Price = 0
+Consumable = true
+Flags = KeyItem
+Description = A drop of ancient clay. Use it to summon a Pokemon from a resonating totem.
+#-------------------------------
+[PRIMALCLAY]
+Name = Primal Clay
+NamePlural = Primal Clay
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = A lump of ancient clay. Allows you to summon any number of Pokemon from resonating totems.

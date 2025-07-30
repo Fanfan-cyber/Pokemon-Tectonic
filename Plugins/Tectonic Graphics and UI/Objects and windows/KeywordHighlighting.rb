@@ -55,6 +55,7 @@ def battleKeywordsImportant
         "disable",
         "maximizes",
         "maximize",
+        "minimized",
         "minimizes",
         "minimize",
         "minimizing",

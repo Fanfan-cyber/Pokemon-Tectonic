@@ -495,16 +495,16 @@ GameData::BattleEffect.register_effect(:Side, {
     :type => :Integer,
     :ticks_down => true,
     :apply_proc => proc do |battle, _side, teamName, _value|
-        teamName[0] = teamName[0].downcase
+        teamName = teamName.downcase
         battle.pbDisplay(_INTL("A fog covered {1}!", teamName))
     end,
     :disable_proc => proc do |battle, _side, teamName|
-        teamName[0] = teamName[0].downcase
+        teamName = teamName.downcase
         battle.pbDisplay(_INTL("The fog on {1}'s side was dispelled!", teamName))
     end,
     :expire_proc => proc do |battle, _side, teamName|
-        teamName[0] = teamName[0].downcase
-        battle.pbDisplay(_INTL("The Swamp on {1}'s side dissipated.", teamName))
+        teamName = teamName.downcase
+        battle.pbDisplay(_INTL("The fog on {1}'s side dissipated.", teamName))
     end,
 })
 
@@ -514,15 +514,15 @@ GameData::BattleEffect.register_effect(:Side, {
     :type => :Integer,
     :ticks_down => true,
     :apply_proc => proc do |battle, _side, teamName, _value|
-        teamName[0] = teamName[0].downcase
+        teamName = teamName.downcase
         battle.pbDisplay(_INTL("A primal forest surrounded {1}!", teamName))
     end,
     :disable_proc => proc do |battle, _side, teamName|
-        teamName[0] = teamName[0].downcase
+        teamName = teamName.downcase
         battle.pbDisplay(_INTL("The primal forest on {1}'s side was removed!", teamName))
     end,
     :expire_proc => proc do |battle, _side, teamName|
-        teamName[0] = teamName[0].downcase
+        teamName = teamName.downcase
         battle.pbDisplay(_INTL("The primal forest on {1}'s side shriveled up.", teamName))
     end,
 })
@@ -533,15 +533,14 @@ GameData::BattleEffect.register_effect(:Side, {
     :type => :Integer,
     :ticks_down => true,
     :apply_proc => proc do |battle, _side, teamName, _value|
-        teamName[0] = teamName[0].downcase
-        battle.pbDisplay(_INTL("{1} was enclosed in a cocoon of scales!", teamName[0]))
+        battle.pbDisplay(_INTL("{1} was enclosed in a cocoon of scales!", teamName))
     end,
     :disable_proc => proc do |battle, _side, teamName|
-        teamName[0] = teamName[0].downcase
+        teamName = teamName.downcase
         battle.pbDisplay(_INTL("The cocoon enclosing {1}'s side was removed!", teamName))
     end,
     :expire_proc => proc do |battle, _side, teamName|
-        teamName[0] = teamName[0].downcase
+        teamName = teamName.downcase
         battle.pbDisplay(_INTL("The cocoon enclosing {1}'s side dried up.", teamName))
     end,
     :eor_proc => proc do |battle, side, _teamName, value|
@@ -562,15 +561,15 @@ GameData::BattleEffect.register_effect(:Side, {
     :type => :Integer,
     :ticks_down => true,
     :apply_proc => proc do |battle, _side, teamName, _value|
-        teamName[0] = teamName[0].downcase
-        battle.pbDisplay(_INTL("A turbulent sky appeared above {1}!", teamName[0]))
+        teamName = teamName.downcase
+        battle.pbDisplay(_INTL("A turbulent sky appeared above {1}!", teamName))
     end,
     :disable_proc => proc do |battle, _side, teamName|
-        teamName[0] = teamName[0].downcase
+        teamName = teamName.downcase
         battle.pbDisplay(_INTL("The turbulent sky above {1}'s side was calmed!", teamName))
     end,
     :expire_proc => proc do |battle, _side, teamName|
-        teamName[0] = teamName[0].downcase
+        teamName = teamName.downcase
         battle.pbDisplay(_INTL("The turbulent sky above {1}'s side calmed down.", teamName))
     end,
 })

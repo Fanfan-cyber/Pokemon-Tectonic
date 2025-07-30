@@ -14,6 +14,10 @@ Name = Acid Rain
 Description = At the end of each turn in rainstorm, each Pokémon not immune to rainstorm has their Defense and Sp. Def lowered.
 Flags = RainstormSynergy
 #-------------------------------
+[ADAPTED]
+Name = Adapted
+Description = Powers up moves of the same type by 33%.
+#-------------------------------
 [ADAPTIVESKIN]
 Name = Adaptive Skin
 Description = After being hit, the Pokémon raises either Defense or Sp. Def based on the attack's category. Caps out at +4.
@@ -94,10 +98,6 @@ Description = Sound-based attacks turn Ice-type and are boosted by 30%.
 [ARMORPIERCING]
 Name = Armor Piercing
 Description = Deals double damage against Pokémon that have raised defenses or that are protected by a screen.
-#-------------------------------
-[AROMATIC]
-Name = Aromatic
-Description = Uses Aromatherapy if an attack lowers its HP to half or below.
 #-------------------------------
 [ASSAULTSPINES]
 Name = Assault Spines
@@ -272,6 +272,10 @@ Description = Prevents itself and allies from being poisoned, leeched, or waterl
 [CASHOUT]
 Name = Cash Out
 Description = Upon entry, consumes scattered coins to heal for 1/10th the amount consumed. This can overheal.
+#-------------------------------
+[CELERITAS]
+Name = Celeritas
+Description = The Pokémon's Speed is doubled while using light-based moves.
 #-------------------------------
 [CHALLENGER]
 Name = Challenger
@@ -542,6 +546,11 @@ Description = Eclipse counts down twice as quickly.
 [ERUDITE]
 Name = Erudite
 Description = Powers up Psychic-type moves by 50%.
+#-------------------------------
+[EVENTHORIZON]
+Name = Event Horizon
+Description = Changes the weather to star storm, which increases its damage over time. Lingers for 3 turns after leaving.
+Flags = SandstormSynergy
 #-------------------------------
 [EXCAVATOR]
 Name = Excavator
@@ -879,6 +888,11 @@ Description = Immune to Fairy-type moves and restores 25% of max HP if hit by on
 [HEARTOFJUSTICE]
 Name = Heart of Justice
 Description = Immune to Dark-type moves, and boosts Attack and Sp. Atk when hit by one.
+#-------------------------------
+[HEATDEATH]
+Name = Heat Death
+Description = Changes the weather to ice age, which damages and prevents healing. Lingers for 3 turns after leaving.
+Flags = HailSynergy
 #-------------------------------
 [HEATSAVOR]
 Name = Heat Savor
@@ -1500,6 +1514,10 @@ Description = Special moves against the Pokémon have a 30% chance to leech the 
 Name = Pure Energy
 Description = Raises the Pokémon's Sp. Atk by 50%, including Style Values and other bonuses.
 #-------------------------------
+[PUREFORCE]
+Name = Pure Force
+Description = Raises the Pokémon's Attack by 50%, including Style Values and other bonuses.
+#-------------------------------
 [PURERAGE]
 Name = Pure Rage
 Description = The Pokémon's Dragon-type hits deal additional damage equal to half the Pokémon's level.
@@ -1586,7 +1604,7 @@ Description = Immune to Dark-type and Bug-type moves.
 #-------------------------------
 [RESONANT]
 Name = Resonant
-Description = Spread moves deal 25% more damage instead of 25% less.
+Description = Spread moves hitting multiple targets deal 50% more damage.
 #-------------------------------
 [ROAST]
 Name = Roast
@@ -1636,6 +1654,11 @@ Flags = RainstormSynergy
 [SANDBURST]
 Name = Sand Burst
 Description = Summons a sandstorm for four turns when hit by an attack.
+Flags = SandstormSynergy
+#-------------------------------
+[SANDSHROUD]
+Name = Sand Shroud
+Description = Takes 30% less damage in a sandstorm.
 Flags = SandstormSynergy
 #-------------------------------
 [SANDSMACABRE]
@@ -1949,7 +1972,7 @@ Description = Special moves against the Pokémon have a 30% chance to frostbite 
 #-------------------------------
 [SUDDENTURN]
 Name = Sudden Turn
-Description = Uses Rapid Spin after its first attack to clear hazards, raise Speed, and deal damage.
+Description = Uses Rapid Spin if an attack lowers its HP to half or below.
 #-------------------------------
 [SUMMITSPIRIT]
 Name = Summit Spirit
@@ -2134,10 +2157,6 @@ Description = Takes 20% less damage from neutrally effective attacks.
 Name = Unidentified
 Description = The Pokémon is Mutant-type.
 Flags = Immutable
-#-------------------------------
-[UNNERVE]
-Name = Unnerve
-Description = Makes the foe nervous and unable to eat Berries or Leftovers.
 #-------------------------------
 [VANDAL]
 Name = Vandal

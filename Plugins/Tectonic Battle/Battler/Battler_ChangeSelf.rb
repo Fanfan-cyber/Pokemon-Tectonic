@@ -560,6 +560,7 @@ class PokeBattle_Battler
                 if @form != newForm
                     showMyAbilitySplash(:FORECAST, true)
                     hideMyAbilitySplash
+                    @battle.pbCommonAnimation("Forecast", self)
                     pbChangeForm(newForm, _INTL("{1} transformed!", pbThis))
                 end
             else
@@ -574,6 +575,7 @@ class PokeBattle_Battler
                 if @form != newForm
                     showMyAbilitySplash(:FLOWERGIFT, true)
                     hideMyAbilitySplash
+                    @battle.pbCommonAnimation("Forecast", self)
                     pbChangeForm(newForm, _INTL("{1} transformed!", pbThis))
                 end
             else
@@ -609,13 +611,15 @@ class PokeBattle_Battler
                 if form >= 7
                     newForm = @form - 7
                     showMyAbilitySplash(:SHIELDSDOWN, true)
-                    pbChangeForm(newForm, _INTL("{1} deactivated!", getAbilityName(:SHIELDSDOWN)))
                     hideMyAbilitySplash
+                    @battle.pbCommonAnimation("ShieldsUp", self)
+                    pbChangeForm(newForm, _INTL("{1} deactivated!", getAbilityName(:SHIELDSDOWN)))
                 end
             else # Turn into Core form
                 if form < 7
                     showMyAbilitySplash(:SHIELDSDOWN, true)
                     hideMyAbilitySplash
+                    @battle.pbCommonAnimation("ShieldsDown", self)
                     pbChangeForm(@form + 7, _INTL("{1} activated!", getAbilityName(:SHIELDSDOWN)))
                 end
             end
@@ -626,11 +630,13 @@ class PokeBattle_Battler
                 if @form != 1
                     showMyAbilitySplash(:SCHOOLING, true)
                     hideMyAbilitySplash
+                    @battle.pbCommonAnimation("SchoolForm", self)
                     pbChangeForm(1, _INTL("{1} formed a school!", pbThis))
                 end
             elsif @form != 0
                 showMyAbilitySplash(:SCHOOLING, true)
                 hideMyAbilitySplash
+                @battle.pbCommonAnimation("SchoolForm", self)
                 pbChangeForm(0, _INTL("{1} stopped schooling!", pbThis))
             end
         end

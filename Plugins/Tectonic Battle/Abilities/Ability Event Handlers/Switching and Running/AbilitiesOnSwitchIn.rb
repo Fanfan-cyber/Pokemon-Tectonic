@@ -79,6 +79,18 @@ BattleHandlers::AbilityOnSwitchIn.add(:STYGIANNIGHT,
   }
 )
 
+BattleHandlers::AbilityOnSwitchIn.add(:EVENTHORIZON,
+  proc { |ability, battler, battle, aiCheck|
+      pbBattleWeatherAbility(ability, :StarStorm, battler, battle, false, true, aiCheck, baseDuration: -1)
+  }
+)
+
+BattleHandlers::AbilityOnSwitchIn.add(:HEATDEATH,
+  proc { |ability, battler, battle, aiCheck|
+      pbBattleWeatherAbility(ability, :IceAge, battler, battle, false, true, aiCheck, baseDuration: -1)
+  }
+)
+
 #######################################################
 # Entry debuff abilities
 #######################################################
@@ -373,6 +385,15 @@ BattleHandlers::AbilityOnSwitchIn.add(:HOPPINGMAD,
   }
 )
 
+BattleHandlers::AbilityOnSwitchIn.add(:CELERITAS,
+  proc { |ability, battler, battle, aiCheck|
+      next 0 if aiCheck
+      battle.pbShowAbilitySplash(battler, ability)
+      battle.pbDisplay(_INTL("{1} is shining with light speed!", battler.pbThis))
+      battle.pbHideAbilitySplash(battler)
+  }
+)
+
 ##########################################
 # Screen setting abilities
 ##########################################
@@ -651,7 +672,7 @@ BattleHandlers::AbilityOnSwitchIn.add(:ASSISTANT,
 BattleHandlers::AbilityOnSwitchIn.add(:SUDDENTURN,
   proc { |ability, battler, battle, aiCheck|
     if aiCheck
-      next battle.forceUseMove(battler, :RAPIDSPIN, ability: ability, aiCheck: true)
+      next battle.forceUseMove(battler, :RAPIDSPIN, ability: ability, aiCheck: true) / 2
     else
       next 0
     end

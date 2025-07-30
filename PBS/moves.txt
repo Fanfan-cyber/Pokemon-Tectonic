@@ -687,7 +687,6 @@ TotalPP = 10
 Target = AllNearFoes
 FunctionCode = ChangeUserMeloettaForm
 Flags = CanProtect,Sound
-EffectChance = 10
 Description = An ancient song appeals to the hearts of those listening. Switches Meloetta's form.
 #-------------------------------
 [RETALIATE]
@@ -772,19 +771,6 @@ FunctionCode = RaiseUserAtk3
 Flags = CanSnatch
 Description = The user's edges become sharper, raising its Attack stat by three steps.
 #-------------------------------
-[SHOUT]
-Name = Shout
-Type = NORMAL
-Category = Special
-Power = 40
-Accuracy = 100
-TotalPP = 10
-Target = NearOther
-Priority = 1
-FunctionCode = Basic
-Flags = CanProtect,Sound
-Description = The user shouts with force at the target. This move always hits first.
-#-------------------------------
 [SIMPLEBEAM]
 Name = Simple Beam
 Type = NORMAL
@@ -806,18 +792,6 @@ Target = NearOther
 FunctionCode = ReplaceMoveWithTargetLastMoveUsed
 Flags = Uninvocable
 Description = It enables the user to permanently learn the move last used by the foe. Once used, Sketch disappears.
-#-------------------------------
-[SKULLBASH]
-Name = Skull Bash
-Type = NORMAL
-Category = Physical
-Power = 140
-Accuracy = 100
-TotalPP = 10
-Target = NearOther
-FunctionCode = TwoTurnAttackChargeRaiseUserDef1
-Flags = CanProtect
-Description = The user charges to raise its Defense by four steps in the first turn, then rams the foe on the second.
 #-------------------------------
 [SLACKOFF]
 Name = Slack Off
@@ -1065,7 +1039,7 @@ Type = NORMAL
 Category = Status
 Accuracy = 100
 TotalPP = 15
-Target = AllNearOthers
+Target = AllNearFoes
 FunctionCode = Dizzy
 Flags = CanProtect,Dance
 Description = The user performs a wobbly dance that dizzies the Pokémon around it.
@@ -1551,19 +1525,6 @@ FunctionCode = DoesPhysicalDamage
 Flags = CanProtect,Blade
 Description = The user cuts with its long horn. The odd power contained in it does physical damage to the foe.
 #-------------------------------
-[SMASH]
-Name = Smash
-Type = FIGHTING
-Category = Physical
-Power = 40
-Accuracy = 100
-TotalPP = 12
-Target = NearOther
-FunctionCode = LowerTargetDef1
-Flags = CanProtect,Punch
-EffectChance = 20
-Description = The user attacks with a strong punch. It has a 20% chance to lower Defense.
-#-------------------------------
 [STORMTHROW]
 Name = Storm Throw
 Type = FIGHTING
@@ -1894,18 +1855,6 @@ FunctionCode = SwitchOutTargetStatusMove
 Flags = CanMagicCoat,Wind
 Description = The foe is forced to switch out to a random ally. Always goes last.
 #-------------------------------
-[WINGCRASH]
-Name = Wing Crash
-Type = FLYING
-Category = Physical
-Power = 55
-Accuracy = 100
-TotalPP = 30
-Target = NearOther
-FunctionCode = RecoilFifthOfDamageDealt
-Flags = CanProtect
-Description = The target is struck with large, imposing wings. The user also takes 20% recoil.
-#-------------------------------
 #		POISON MOVES
 #-------------------------------
 [ACID]
@@ -2101,10 +2050,9 @@ Power = 95
 Accuracy = 100
 TotalPP = 10
 Target = AllNearOthers
-FunctionCode = Poison
+FunctionCode = Basic
 Flags = CanProtect
-EffectChance = 10
-Description = It swamps the area around the user with a giant sludge wave. It has a 10% chance to poison.
+Description = It swamps the area around the user with a giant wave of toxic sludge.
 #-------------------------------
 [SMOG]
 Name = Smog
@@ -2460,19 +2408,6 @@ Target = User
 FunctionCode = RaiseUserSpd4
 Flags = CanSnatch
 Description = The user polishes its body to reduce drag, raising its Speed by four steps.
-#-------------------------------
-[ROCKROLL]
-Name = Rock Roll
-Type = ROCK
-Category = Physical
-Power = 30
-Accuracy = 100
-TotalPP = 30
-Target = NearOther
-FunctionCode = RockRoll
-Flags = CanProtect
-Description = The user rolls into the target. Its power doubles if it hits in succession.
-Animation = ROLLOUT
 #-------------------------------
 [ROCKTHROW]
 Name = Rock Throw
@@ -3376,8 +3311,8 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = RaiseUserAtk1
 Flags = CanProtect,Punch
-EffectChance = 10
-Description = The target is hit with a hard punch fired like a meteor. It has a 10% chance to raise Attack.
+EffectChance = 20
+Description = The target is hit with a hard punch fired like a meteor. It has a 20% chance to raise Attack.
 #-------------------------------
 [SHIFTGEAR]
 Name = Shift Gear
@@ -3389,17 +3324,6 @@ Target = User
 FunctionCode = RaiseUserAtkSpd2
 Flags = CanSnatch
 Description = The user rotates its gears, raising its Attack and Speed by two steps.
-#-------------------------------
-[SMARTHORN]
-Name = Smart Horn
-Type = STEEL
-Category = Physical
-Power = 70
-Accuracy = 0
-TotalPP = 10
-Target = NearOther
-FunctionCode = AlwaysHits
-Description = The user stabs the target with a sharp horn. Can't miss and skips protections.
 #-------------------------------
 [SPIKECANNON]
 Name = Spike Cannon
@@ -3869,16 +3793,6 @@ FunctionCode = UsedAfterUserTakesPhysicalDamage
 Flags = CanProtect,Uninvocable
 Description = The user rigs its shell to explode. If it is hit by a physical move this turn, the shell detonates and hurts all near foes.
 #-------------------------------
-[SUNSHINE]
-Name = Sunshine
-Type = FIRE
-Category = Status
-Accuracy = 0
-TotalPP = 10
-Target = BothSides
-FunctionCode = StartSunshine6
-Description = Summons sunshine for six turns, boosting Fire-type attacks and hindering most others.
-#-------------------------------
 [VCREATE]
 Name = V-create
 Type = FIRE
@@ -3928,8 +3842,8 @@ TotalPP = 25
 Target = AllNearFoes
 FunctionCode = LowerTargetSpd1
 Flags = CanProtect
-EffectChance = 10
-Description = A spray of bubbles is jetted at all near foes. This has a 10% chance to lower their Speed.
+EffectChance = 20
+Description = A spray of bubbles is jetted at all near foes. This has a 20% chance to lower their Speed.
 #-------------------------------
 [BUBBLEBEAM]
 Name = Bubble Beam
@@ -4051,16 +3965,6 @@ Target = AllNearFoes
 FunctionCode = Basic
 Flags = CanProtect,Pulse
 Description = The user attacks opposing Pokémon with a pulse of water which glows a deep and brilliant blue.
-#-------------------------------
-[RAINSTORM]
-Name = Rainstorm
-Type = WATER
-Category = Status
-Accuracy = 0
-TotalPP = 10
-Target = BothSides
-FunctionCode = StartRainstorm6
-Description = Summons rainstorm for six turns, boosting Water-type attacks and hindering most others.
 #-------------------------------
 [RAZORSHELL]
 Name = Razor Shell
@@ -4544,18 +4448,6 @@ FunctionCode = TwoTurnAttackOneTurnInSun
 Flags = CanProtect
 Description = The user charges, then attacks on the second turn. Charges instantly in sunshine.
 #-------------------------------
-[SOLARGLIDE]
-Name = Solar Glide
-Type = GRASS
-Category = Physical
-Power = 70
-Accuracy = 100
-TotalPP = 15
-Target = NearOther
-FunctionCode = IncreasedPriorityInSunshine
-Flags = CanProtect
-Description = Attacks by gliding on the ground. This move always goes first in sunshine.
-#-------------------------------
 [SPIKYSHIELD]
 Name = Spiky Shield
 Type = GRASS
@@ -4687,19 +4579,6 @@ FunctionCode = RaiseUserSpAtk2
 Flags = CanProtect
 EffectChance = 100
 Description = The user fires a concentrated bundle of electricity, raising the user's Sp. Atk stat by two steps.
-#-------------------------------
-[DISCHARGE]
-Name = Discharge
-Type = ELECTRIC
-Category = Special
-Power = 80
-Accuracy = 100
-TotalPP = 12
-Target = AllNearOthers
-FunctionCode = Numb
-Flags = CanProtect
-EffectChance = 30
-Description = A flare of electricity is loosed to strike the area around the user. It has a 30% chance to numb.
 #-------------------------------
 [EERIEIMPULSE]
 Name = Eerie Impulse
@@ -5021,18 +4900,6 @@ FunctionCode = RaiseUserDefSpDef2
 Flags = CanSnatch
 Description = The user absorbs a mystical power from space to raise its Defense and Sp. Def by two steps.
 #-------------------------------
-[DREAMABSORB]
-Name = Dream Absorb
-Type = PSYCHIC
-Category = Special
-Power = 60
-Accuracy = 100
-TotalPP = 12
-Target = NearOther
-FunctionCode = HealUserByHalfOfDamageDoneDoubleDamageIfTargetAsleep
-Flags = CanProtect
-Description = The user's HP is restored by 50% of the damage dealt. Power doubles if the foe is asleep.
-#-------------------------------
 [EERIESPELL]
 Name = Eerie Spell
 Type = PSYCHIC
@@ -5044,20 +4911,6 @@ Target = NearOther
 FunctionCode = LowerPPOfTargetLastMoveBy4
 Flags = CanProtect,Sound
 Description = The user casts a horrible spell on the opponent. This removes 4 PP from their last used move.
-#-------------------------------
-[ESPERDIVE]
-Name = Esper Dive
-Type = PSYCHIC
-Category = Physical
-Power = 80
-Accuracy = 100
-TotalPP = 10
-Target = NearOther
-FunctionCode = RaiseUserSpd2
-Flags = CanProtect
-EffectChance = 100
-Description = The user slashes the target with aura-enriched wings. This boosts the user's Speed by two steps.
-Animation = SKYATTACK
 #-------------------------------
 [FREEZINGGLARE]
 Name = Freezing Glare
@@ -5184,19 +5037,6 @@ FunctionCode = UserFaintsHealAndCureReplacementRestorePP
 Flags = CanSnatch,Dance
 Description = The user faints. In return, the Pokémon taking its place will have its non-volatile status conditions and HP fully restored.
 #-------------------------------
-[LUSTERPURGE]
-Name = Luster Purge
-Type = PSYCHIC
-Category = Special
-Power = 70
-Accuracy = 100
-TotalPP = 5
-Target = NearOther
-FunctionCode = LowerTargetSpDef2
-Flags = CanProtect,Light
-EffectChance = 100
-Description = The user lets loose a damaging burst of light. It also lowers the target's Sp. Def by two steps.
-#-------------------------------
 [MAGICCOAT]
 Name = Magic Coat
 Type = PSYCHIC
@@ -5221,19 +5061,6 @@ Priority = -5
 FunctionCode = CounterSpecialDamage
 Flags = CanProtect,Uninvocable
 Description = A retaliation move that counters any special attack, inflicting double the damage taken.
-#-------------------------------
-[MISTBALL]
-Name = Mist Ball
-Type = PSYCHIC
-Category = Special
-Power = 70
-Accuracy = 100
-TotalPP = 5
-Target = NearOther
-FunctionCode = LowerTargetSpAtk2
-Flags = CanProtect
-EffectChance = 100
-Description = A mistlike flurry of down envelops and damages the target. It also lowers the target's Sp. Atk by two steps.
 #-------------------------------
 [POWERSPLIT]
 Name = Power Split
@@ -5634,18 +5461,6 @@ FunctionCode = Frostbite
 Flags = CanProtect,Wind
 EffectChance = 10
 Description = The user attacks with a chilling gust of powdery snow. It has a 10% chance to frostbite.
-#-------------------------------
-[SNOWBALL]
-Name = Snowball
-Type = ICE
-Category = Physical
-Power = 30
-Accuracy = 100
-TotalPP = 30
-Target = NearOther
-FunctionCode = IceBall
-Flags = CanProtect
-Description = The user rolls into the target. Its power doubles if it hits in succession.
 #-------------------------------
 #		DRAGON MOVES
 #-------------------------------
@@ -6406,14 +6221,14 @@ Description = The user protects itself and its allies from status moves with a m
 Name = Dazzling Gleam
 Type = FAIRY
 Category = Special
-Power = 70
+Power = 60
 Accuracy = 100
 TotalPP = 10
 Target = AllNearFoes
 FunctionCode = LowerTargetSpAtk1
 Flags = CanProtect,Light
-EffectChance = 10
-Description = The user emits a powerful damaging flash. It has a 10% chance to lower Sp. Atk.
+EffectChance = 40
+Description = The user emits a powerful damaging flash. It has a 40% chance to lower Sp. Atk.
 #-------------------------------
 [DECORATE]
 Name = Decorate

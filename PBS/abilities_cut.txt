@@ -52,6 +52,10 @@ Description = Slips past hazards. On the first turn, its attacks are always crit
 Name = Arena Trap
 Description = Prevents the foe from fleeing unless it is airborne.
 #-------------------------------
+[AROMATIC]
+Name = Aromatic
+Description = Uses Aromatherapy if an attack lowers its HP to half or below.
+#-------------------------------
 [AROMAVEIL]
 Name = Aroma Veil
 Description = Protects against attacks that limit move choices.
@@ -1093,6 +1097,11 @@ Description = Transforms into Midnight Form at the Full Moon. Ability becomes No
 [WHIRLER]
 Name = Whirler
 Description = Upon entry, traps each opponent in a whirlpool for two turns.
+#-------------------------------
+[WHITESMOKE]
+Name = White Smoke
+Description = Prevents stat steps from being lowered (except when self-inflicted).
+Flags = OtherStatDropImmunity
 #-------------------------------
 [WILLBREAK]
 Name = Bizarre
