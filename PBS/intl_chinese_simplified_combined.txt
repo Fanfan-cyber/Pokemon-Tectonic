@@ -41348,14 +41348,18 @@ Takes half damage from Dragon-, Fairy-, and Ghost-type attacks. Positive stat st
 受到的龙属性、妖精属性和幽灵属性攻击的伤害减半。增加的能力等级即使替换离场也会依旧保留。
 When the Pokémon's level is 25 or higher, it transforms into a member of its family depending on the type of the move it is about to use.
 当精灵等级达到25级或以上时，它会根据即将使用的技能的属性变为其家族的成员。
+Turns the held item of a Pokémon it hits into coins. Consumes coins to heal for 1/10th the amount consumed when its HP becomes half or less. This can overheal.
+攻击时，把对手的物品变为金钱并散落在场上，当HP小于一半时，消耗场上的金钱，回复消耗金钱量的10%的HP，可过量回复。
 Turns the held item of a Pokémon it hits into coins. Upon entry, consumes coins to heal for 1/10th the amount consumed. This can overheal.
-将被击中的精灵的物品转化为金钱，金钱会散落在场上。出场时，消耗场上金钱，回复消耗金钱量的10%的HP，可过量回复。
+将被击中的精灵的物品转化为金钱，金钱会散落在场上。出场时，消耗场上的金钱，回复消耗金钱量的10%的HP，可过量回复。
 When knocks out any foe, it reverses its own timeline, changes to its initial state upon entering the battle.
 当打倒对手时，回溯时间，将自身回溯到刚进入战斗时的状态。
 Boosts both one offending and defending stat by one step according to the foe's defenses and offenses.
 出场时，根据对手的双攻和双防，自适应增加自身的某项攻击和防御。
 The power of its moves is increased by 20% every time it takes damage during Last Gasp.
 在残喘时每受到一次攻击，技能的威力就增加20%。
+Attacks switching opponents with Pursuit if the Pokémon's HP is greater than 50%.
+如果HP大于一半，那么就会自动使用追击攻击进行替换的对手。
 Attacks switching opponents with Pursuit.
 自动使用追击攻击进行替换的对手。
 Adapts the move's type to ensure it is super-effective against the target.
@@ -46631,7 +46635,7 @@ L
 XL
 特大
 Full
-全屏
+全
 Dark Mode
 夜间模式
 Whether or not user interface elements use a darker color scheme.
@@ -57164,6 +57168,8 @@ When the Pokémon eats a Berry, it restores 25% of its max health.
 当精灵吃下一颗树果时，会回复最大生命值的25%。
 Raises Attack by 2 steps after knocking out any Pokémon.
 打倒对手后，物攻增加2级。
+After fainting from exploding, revives after six turns, but requires above 50% HP if caused by others.
+因自身的自爆类技能而濒死时，6回合后会重新苏醒，若是因其他精灵的自爆类技能而濒死，则需濒死前自身的HP在50%以上时才能苏醒。
 Halves move damage when HP is greater than 50%.
 半血以上时，双攻减半。
 It changes secondary type to that of the dance moves it's about to use.
@@ -57192,6 +57198,8 @@ Speed is raised by one step at the end of each of its turns.
 回合结束时，速度增加1级。
 The user's Speed is doubled while using kicking moves. Every third kicking hit must be a crit.
 使用踢类技能时速度翻倍，并且每第3次使用的踢类技能的攻击必定会命中对手的要害。
+The Pokémon is Mutant-type. If the Pokémon is Deoxys, it will have multiple movesets.
+此精灵将视为基因属性，如果此精灵是代欧奇希斯时，代欧奇希斯获得多套技能组。
 Powers up Grass-type moves of itself and its allies by 30%.
 自身和队友的草属性技能的威力增加30%。
 A capsule that allows a Pokémon to switch to another Ability. Only used in Mono Ability Mode.

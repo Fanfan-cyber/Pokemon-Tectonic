@@ -187,7 +187,7 @@ class PokeBattle_AI
                 PBDebug.log("[STAY-IN RATING] #{battler.pbThis} (#{battler.index}) has an opponent that can force swaps (+10)")
             end
 
-            if b.hasActiveAbilityAI?([:RELENTLESSPURSUIT, :FORCEDENGAGEMENT])
+            if b.hasActiveAbilityAI?(:RELENTLESSPURSUIT) && b.hp >= b.totalhp / 2 || b.hasActiveAbilityAI?(:FORCEDENGAGEMENT)
                 stayInRating += 100 
                 PBDebug.log("[STAY-IN RATING] #{battler.pbThis} (#{battler.index}) has an opponent that can target it with Relentless Pursuit/Forced Engagement (+100)")
             end

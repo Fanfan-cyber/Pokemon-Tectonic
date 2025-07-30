@@ -25,6 +25,7 @@ class PokeBattle_Battle
         @switching = true
         pbPriority.each do |b|
             next unless b.hasActiveAbility?(:RELENTLESSPURSUIT)
+            next unless b.hp >= b.totalhp / 2
             next if b.fainted? || !b.opposes?(idxSwitcher) # Shouldn't hit an ally
             forceUseMove(b, :PURSUIT, idxSwitcher, ability: :RELENTLESSPURSUIT)
             return if @decision > 0 || @battlers[idxSwitcher].fainted?

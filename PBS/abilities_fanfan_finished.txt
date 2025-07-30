@@ -19,7 +19,7 @@ Flags = Immutable
 #-------------------------------
 [CASHFLOW]
 Name = Cash Flow
-Description = Turns the held item of a Pokémon it hits into coins. Upon entry, consumes coins to heal for 1/10th the amount consumed. This can overheal.
+Description = Turns the held item of a Pokémon it hits into coins. Consumes coins to heal for 1/10th the amount consumed when its HP becomes half or less. This can overheal.
 #-------------------------------
 [CHRONOREVERT]
 Name = Chrono Revert
@@ -36,4 +36,4 @@ Flags = Immutable
 #-------------------------------
 [RELENTLESSPURSUIT]
 Name = Relentless Pursuit
-Description = Attacks switching opponents with Pursuit.
+Description = Attacks switching opponents with Pursuit if the Pokémon's HP is greater than 50%.

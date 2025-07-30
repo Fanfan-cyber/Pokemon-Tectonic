@@ -83,3 +83,18 @@ BattleHandlers::AbilityOnHPDroppedBelowHalf.add(:WIRECUTTER,
       next false
   }
 )
+
+BattleHandlers::AbilityOnHPDroppedBelowHalf.add(:CASHFLOW,
+  proc { |ability, battler, battle|
+      next unless battler.pbOwnSide.effectActive?(:PayDay)
+      maxCoinsCanHealFrom = battler.maxOverhealingPossible * CASHOUT_HEALING_DIVISOR
+      coinsToConsume = [battler.pbOwnSide.countEffect(:PayDay),maxCoinsCanHealFrom].min
+      healingAmt = coinsToConsume / CASHOUT_HEALING_DIVISOR
+      battle.pbShowAbilitySplash(battler, ability)
+      healingMessage = _INTL("{1} gobbles up the scattered coins!",battler.pbThis)
+      battler.pbRecoverHP(healingAmt, true, true, true, healingMessage, canOverheal: true)
+      battler.pbOwnSide.effects[:PayDay] -= coinsToConsume
+      battle.pbHideAbilitySplash(battler)
+      next false
+  }
+)

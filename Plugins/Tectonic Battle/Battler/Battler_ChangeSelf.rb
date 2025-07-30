@@ -154,7 +154,7 @@ class PokeBattle_Battler
 
         # Cap the healing
         healthCap = @totalhp
-        healthCap *= 2 if canOverheal
+        healthCap *= 3 if canOverheal
         maxHeal = healthCap - @hp
         amt = maxHeal if amt > maxHeal
         amt = 1 if amt < 1 && @hp < @totalhp

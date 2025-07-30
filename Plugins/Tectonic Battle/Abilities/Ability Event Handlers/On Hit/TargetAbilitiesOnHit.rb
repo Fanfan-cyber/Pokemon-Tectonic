@@ -514,7 +514,7 @@ BattleHandlers::TargetAbilityOnHit.add(:BACKWASH,
 BattleHandlers::TargetAbilityOnHit.add(:CURSEDTAIL,
     proc { |ability, user, target, move, battle, aiCheck, aiNumHits|
         next if user.fainted?
-        next unless move.physicalMove?
+        #next unless move.physicalMove?
         next if user.effectActive?(:Curse)
         warned = user.battle_tracker_get(:warned)
         if aiCheck
@@ -714,9 +714,9 @@ BattleHandlers::TargetAbilityOnHit.add(:PERENNIALPAYLOAD,
     proc { |ability, user, target, move, battle, aiCheck, aiNumHits|
         next unless move.function.include?("UserFaintsExplosive")
         next unless target.fainted?
-        #next unless target.hp > target.totalhp / 2.0
+        next unless target.hp > target.totalhp / 2.0
         if aiCheck
-            next 30 # prefer to kill
+            next -10
         else
             target.apply_PerennialPayload
         end
