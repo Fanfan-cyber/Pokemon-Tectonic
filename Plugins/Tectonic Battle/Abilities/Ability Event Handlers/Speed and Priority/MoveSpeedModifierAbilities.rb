@@ -68,7 +68,7 @@ BattleHandlers::MoveSpeedModifierAbility.add(:CELERITAS,
     proc { |ability, battler, move, battle, mult, aiCheck|
         next unless (aiCheck && move.nil?) || move.lightMove?
         if aiCheck
-            next mult * 2.0
+            next mult * (battler.hasLightMove? ? 2.0 : 1.0)
         else
             battler.applyEffect(:MoveSpeedDoubled,ability)
         end

@@ -208,6 +208,14 @@ class PokeBattle_Battler
         return false
     end
 
+    def hasLightMove?
+        eachAIKnownMove do |m|
+            next unless m.lightMove?
+            return true
+        end
+        return false
+    end
+
     def hasStatusPunishMove?
         return pbHasMoveFunction?("DoubleDamageTargetStatused") # Hex, Cruelty
     end
