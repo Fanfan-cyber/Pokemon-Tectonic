@@ -42,7 +42,6 @@ module Settings
   ITEM_CLAUSE          = false
   BATTLE_NO_MONEY_LOSS = true
   COPY_PLAYER_TRIBE    = false
-  LEGENDARY_BANNED     = true
 
   DEFAULT_ITEMS = %i[SITRUSBERRY]
   UNRECOVERABLE = %i[LEPPABERRY]

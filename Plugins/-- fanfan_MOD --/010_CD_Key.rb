@@ -140,6 +140,8 @@ CDKey.register_other_key(:shuffledisplay, true)
 CDKey.register_other_key([:noshuffledisplay, :shuffledisplay], false)
 CDKey.register_other_key(:disablerevive, true) { next $Trainer&.checkBadge(1) }
 CDKey.register_other_key([:battlerevive, :disablerevive], false)
+CDKey.register_other_key(:enablelegendary, true)
+CDKey.register_other_key([:disablelegendary, :enablelegendary], false)
 
 #CDKey.register_other_key(:adaptiveai, true)
 #CDKey.register_other_key(:whosyourdaddy, true)

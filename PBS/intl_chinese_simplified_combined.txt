@@ -53417,7 +53417,7 @@ LEARNED
 Teach which Pokémon?
 要教哪只精灵？
 Screenshot saved to folder {1}<<1>>
-截图已保存到文件夹{1}<<1>>
+截图已保存到文件夹{1}。<<1>>
 There's no more room for Pokémon!<<1>>
 没有更多空间放置精灵了！<<1>>
 The Pokémon Boxes are full and can't accept any more!

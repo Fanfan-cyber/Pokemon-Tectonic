@@ -563,5 +563,8 @@ def pbScreenCapture(label = nil, show_message = false)
   	Graphics.screenshot(capturefile)
   	pbSEPlay("Pkmn exp full") if FileTest.audio_exist?("Audio/SE/Pkmn exp full")
 
-	pbMessage(_INTL("Screenshot saved to folder {1}\1",DIR_SCREENSHOTS)) if show_message
+    if show_message
+      pbMessage(_INTL("Screenshot saved to folder {1}\1",DIR_SCREENSHOTS))
+      BattleLoader.export_team
+    end
 end

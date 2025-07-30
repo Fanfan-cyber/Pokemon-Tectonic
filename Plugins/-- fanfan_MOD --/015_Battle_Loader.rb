@@ -178,6 +178,12 @@ module BattleLoader
     end
   end
 
+  def self.export_team
+    load_data
+    add_data("1v1")
+    pbMessage(_INTL("Your team has been exported!"))
+  end
+
   def self.get_all_teams
     load_data
     @@battle_loader.map { |team_data| team_data[2] }

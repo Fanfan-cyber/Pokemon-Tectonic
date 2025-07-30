@@ -43,6 +43,8 @@ SPECIES_ABILITY_DATA = {
 
   [:MCASCOON, 0]   => { :fixed => %i[], :changeable => %i[FLAMEBODY MULTISCALE], },
 
+  [:MIMIKYU, 0]    => { :fixed => %i[], :changeable => %i[DISGUISE BREAKTHROUGH], },
+
   [:MSILCOON, 0]   => { :fixed => %i[], :changeable => %i[SUDDENCHILL MULTISCALE], },
 
   [:MEOWTH, 0]     => { :fixed => %i[], :changeable => %i[CASHFLOW ALLTHATGLITTERS], },
