@@ -50,9 +50,9 @@ class PokeBattle_Battle
     @battlers.map { |b| b&.unique_id }.compact
   end
 
-  def ignore_perfect?
+  def ignore_perfect?(casual = true)
     return false unless trainerBattle?
-    return true if TA.get(:disableperfect)
+    return true if TA.get(:disableperfect) && casual
     if $Trainer.able_pokemon_count == 1
       able_pokemon = $Trainer.first_able_pokemon
       return true if able_pokemon.isSpecies?(%i[GARDEVOIR GALLADE]) && able_pokemon.form == 1

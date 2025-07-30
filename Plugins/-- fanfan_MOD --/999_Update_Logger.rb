@@ -204,7 +204,7 @@ disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
 18.修复了在加载游戏时，但是中途却选择退出时，导致游戏崩溃的Bug
 19.为谜拟Q增加了第二特性Break Through
 20.谜拟Q的破损形态的第一特性由画皮改为Vengeance
-21.修改了UNIDENTIFIED的描述
+21.修改了Unidentified的描述
 22.现在可以通过输入密码enablelegendary让传说精灵可以在战斗中使用
 23.现在可以通过输入密码disablelegendary让传说精灵不再允许在战斗中使用
 24.现在在打赢关键剧情战斗的自动截图时，在截图完成后会自动导出玩家的队伍
@@ -225,11 +225,13 @@ disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
 39.将过量回复的上限由2倍精灵的最大HP改为3倍
 40.现在Cash Flow只有在自身的HP低于一半时才会吃掉场上的金钱
 41.修复了Cash Out在发动时可能会显示不正确的特性名字的Bug
-42.现在原子吐息是光类技能
+42.现在Atomic Breath是光类技能
 43.修复了AI会错误的计算Celeritas的精灵使用非光类技能时的速度的Bug
 44.为古月鸟增加了第二特性Delayed Reaction
 45.为弱丁鱼增加了第二特性威吓
-46.
+46.修复了沙奈朵的Arcane Finale的不完美完胜效果失效的Bug
+47.修复了艾路雷朵的Heroic Finale的不完美完胜效果失效的Bug
+48.修复了Perennial Payload被攻击时不会发动的Bug
 
 0.3.6
 1.修复了在检查精灵有几个属性时不计算额外的第三属性的Bug

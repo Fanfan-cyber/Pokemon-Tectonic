@@ -714,12 +714,9 @@ BattleHandlers::TargetAbilityOnHit.add(:PERENNIALPAYLOAD,
     proc { |ability, user, target, move, battle, aiCheck, aiNumHits|
         next unless move.function.include?("UserFaintsExplosive")
         next unless target.fainted?
-        next unless target.hp > target.totalhp / 2.0
-        if aiCheck
-            next -10
-        else
-            target.apply_PerennialPayload
-        end
+        next unless target.damageState.hpLost >= target.totalhp / 2.0
+        next -10 if aiCheck
+        target.apply_PerennialPayload
     }
 )
 

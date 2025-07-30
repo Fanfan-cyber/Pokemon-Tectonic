@@ -56085,7 +56085,7 @@ Can't warp to any shards because they're all collected already!
 \wmThe victor is \PN!\me[Bug catching 1st]
 \wm胜利者是\PN！\me[Bug catching 1st]
 The game has been updated, you must take on the challenge from scratch!
-随着游戏的更细，锦标赛的内容发生了变化，你必须从头开始挑战！
+随着游戏的更新，锦标赛的内容发生了变化，你必须从头开始挑战！
 The waiting room for tournament entrants is ahead.
 比赛选手的等候室在前方。
 Once you enter, you will not be able to interact with your team in any way until the tournament is complete.
