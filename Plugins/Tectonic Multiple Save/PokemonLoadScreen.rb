@@ -135,10 +135,12 @@ class PokemonLoadScreen
                     file.movePanel(1)
                     @scene.pbEndScene unless file.staymenu
                     file.endScene
-                    AntiAbuse.kill_all_cheats
-                    CDKey.clear_unused_code
-                    TA.each_available_pkmn { |pkmn| pkmn.set_used_by_player }
-                    return unless file.staymenu
+                    unless file.staymenu
+                        CDKey.clear_unused_code
+                        AntiAbuse.kill_all_cheats
+                        TA.each_available_pkmn { |pkmn| pkmn.set_used_by_player }
+                        return
+                    end
                 end
             when cmd_new_game
                 @scene.pbEndScene

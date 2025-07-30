@@ -62,7 +62,8 @@ def pbStartOver(_gameover = false)
     end
     pbEraseEscapePoint
 
-    leaveTournament
+    #leaveTournament
+    tournamentHealing
 end
 
 def blackOut

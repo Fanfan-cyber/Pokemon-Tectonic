@@ -131,14 +131,14 @@ CDKey.register_other_key(:doublebattle, true)
 CDKey.register_other_key([:disabledouble, :doublebattle], false)
 CDKey.register_other_key(:inversebattle, true)
 CDKey.register_other_key([:noinversebattle, :inversebattle], false)
-CDKey.register_other_key(:disableperfect, true) { next $Trainer.badge_count >= 1 }
+CDKey.register_other_key(:disableperfect, true) { next $Trainer&.checkBadge(1) }
 CDKey.register_other_key([:enableperfect, :disableperfect], false)
 
 CDKey.register_other_key(:speedup, true)
 CDKey.register_other_key([:disablespeedup, :speedup], false)
 CDKey.register_other_key(:shuffledisplay, true)
 CDKey.register_other_key([:noshuffledisplay, :shuffledisplay], false)
-CDKey.register_other_key(:disablerevive, true) { next $Trainer.badge_count >= 1 }
+CDKey.register_other_key(:disablerevive, true) { next $Trainer&.checkBadge(1) }
 CDKey.register_other_key([:battlerevive, :disablerevive], false)
 
 #CDKey.register_other_key(:adaptiveai, true)
@@ -149,10 +149,10 @@ CDKey.register_other_key([:battlerevive, :disablerevive], false)
 
 CDKey.register_pkmn_key(:hyena1,    { :PIKACHU => 1  })
 CDKey.register_pkmn_key(:psyduck10, { :PORYGON => 10 })
-CDKey.register_pkmn_key(:alien1,    { :DEOXYS  => 1  }) { next $Trainer.badge_count >= 4 }
+CDKey.register_pkmn_key(:alien1,    { :DEOXYS  => 1  }) { next $Trainer&.checkBadge(4) }
 
 CDKey.register_item_key(:pokeball5,  { :POKEBALL   => 5   })
-CDKey.register_item_key(:candyxl700, { :EXPCANDYXL => 700 }) { next $Trainer.badge_count >= 7 }
+CDKey.register_item_key(:candyxl700, { :EXPCANDYXL => 700 }) { next $Trainer&.checkBadge(7) }
 
 CDKey.register_item_key(:stylingkit,   { :STYLINGKIT   => 1 })
 CDKey.register_item_key(:boxlink,      { :BOXLINK      => 1 })

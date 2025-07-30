@@ -65,7 +65,11 @@ class Player < Trainer
     def badge_count
       return @badges.count { |badge| badge == true }
     end
-  
+
+    def checkBadge(amount)
+      badge_count >= amount
+    end
+
     #=============================================================================
   
     # (see Pokedex#seen?)
