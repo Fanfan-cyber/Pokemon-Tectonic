@@ -4979,19 +4979,6 @@ FunctionCode = TargetActsNextBoostsTheirDamage
 Description = The user assists an ally's next move, boosting its power by 50% and letting it move right after the user.
 Animation = HELPINGHAND
 #-------------------------------
-[ATOMICBREATH]
-Name = Atomic Breath
-Type = ELECTRIC
-Category = Special
-Power = 140
-Accuracy = 100
-TotalPP = 10
-Target = NearOther,Light
-FunctionCode = TwoTurnAttackCanChooseOne
-Flags = CanProtect
-Description = The user charges, can used instantly for half of its power.
-Animation = HYPERBEAM
-#-------------------------------
 [ARCLAMP]
 Name = Arc Lamp
 Type = ELECTRIC
@@ -5005,6 +4992,19 @@ Flags = CanProtect,Light
 EffectChance = 30
 Description = A flare of electricity creates a bright light, damaging all nearby battlers.
 Animation = FLASH
+#-------------------------------
+[ATOMICBREATH]
+Name = Atomic Breath
+Type = ELECTRIC
+Category = Special
+Power = 140
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = TwoTurnAttackCanChooseOne
+Flags = CanProtect
+Description = The user charges, can used instantly for half of its power.
+Animation = HYPERBEAM
 #-------------------------------
 [BADENDING]
 Name = Bad Ending

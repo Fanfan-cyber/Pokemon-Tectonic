@@ -37,9 +37,9 @@ class PokeBattle_Battle
             }
         end
 
-        pbEORHealing(priority)
-
         pbEORWeather(priority)
+
+        pbEORHealing(priority)
 
         pbEORStatusDamage(priority)
 

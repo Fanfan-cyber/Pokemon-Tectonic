@@ -12,6 +12,10 @@ SPECIES_ABILITY_DATA = {
 
   [:CELEBI, 0]      => { :fixed => %i[], :changeable => %i[CHRONOREVERT TIMESKIP], },
 
+  [:CRAMORANT, 0]   => { :fixed => %i[], :changeable => %i[GULPMISSILE DELAYEDREACTION], },
+  [:CRAMORANT, 1]   => { :fixed => %i[], :changeable => %i[GULPMISSILE DELAYEDREACTION], },
+  [:CRAMORANT, 2]   => { :fixed => %i[], :changeable => %i[GULPMISSILE DELAYEDREACTION], },
+
   [:DARUMAKA, 0]    => { :fixed => %i[], :changeable => %i[EXTREMEPOWER TOUGH], },
   [:DARMANITAN, 0]  => { :fixed => %i[], :changeable => %i[EXTREMEPOWER TOUGH], },
   [:DARMANITAN, 1]  => { :fixed => %i[], :changeable => %i[EXTREMEPOWER TOUGH], },
@@ -78,6 +82,9 @@ SPECIES_ABILITY_DATA = {
 
   [:WIMPOD, 0]      => { :fixed => %i[], :changeable => %i[WIMPOUT SELECTIVESCUTES], },
   [:GOLISOPOD, 0]   => { :fixed => %i[], :changeable => %i[EMERGENCYEXIT SELECTIVESCUTES], },
+
+  [:WISHIWASHI, 0]  => { :fixed => %i[], :changeable => %i[SCHOOLING INTIMIDATION], },
+  [:WISHIWASHI, 1]  => { :fixed => %i[], :changeable => %i[SCHOOLING INTIMIDATION], },
 
   [:ZORUA, 0]       => { :fixed => %i[], :changeable => %i[ILLUSION RELENTLESSPURSUIT], },
   [:ZOROARK, 0]     => { :fixed => %i[], :changeable => %i[ILLUSION RELENTLESSPURSUIT], },
