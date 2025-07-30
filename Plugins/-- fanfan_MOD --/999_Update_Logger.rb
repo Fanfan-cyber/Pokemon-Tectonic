@@ -1,6 +1,5 @@
 =begin
 提交用于构造的队伍
-
 module Enumerable
   def reservoir_sample
     # 初始化蓄水池变量
@@ -48,6 +47,7 @@ end
 修改所有异常菱可以共存
 存在满血复活的技能 草蛋
 自动编译
+图鉴中可以直接添加精灵
 =end
 
 MOD_VERSION = "0.3.7"

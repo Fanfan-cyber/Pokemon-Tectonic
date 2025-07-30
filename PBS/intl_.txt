@@ -2885,8 +2885,8 @@ If you manage to beat one of them in battle, I'll bring my team out of retiremen
 If you manage to beat one of them in battle, I'll bring my team out of retirement for one last fight.
 I've heard the news. A Trainer beating any of the Former Champions makes waves in our circles.
 I've heard the news. A Trainer beating any of the Former Champions makes waves in our circles.
-I've got a promise to keep \PN. Got my team back from a cushy retirement -- no small task!
-I've got a promise to keep \PN. Got my team back from a cushy retirement -- no small task!
+I've got a promise to keep, \PN. Got my team back from a cushy retirement -- no small task!
+I've got a promise to keep, \PN. Got my team back from a cushy retirement -- no small task!
 Wouldn't want to keep them waiting for too long. Fancy to give us one last skirmish?
 Wouldn't want to keep them waiting for too long.  Fancy to give us one last skirmish?
 I'm as antsy as a Durant. Get ready soon!
@@ -2963,14 +2963,6 @@ At least you seem like it.
 At least you seem like it. 
 If you aren't, you better get used to it fast if you want to do well at the Tournament.
 If you aren't, you better get used to it fast if you want to do well at the Tournament.
-I always look forward to battling here each year.
-I always look forward to battling here each year.
-Your team is so exciting to see! I'll be looking out for you.
-Your team is so exciting to see! I'll be looking out for you.
-A fun battle! I hope we can do that again.
-A fun battle! I hope we can do that again.
-You should come around again, I'm itching for a rematch.
-You should come around again, I'm itching for a rematch.
 Hey hey, how's it hanging?
 Hey hey, how's it hanging?
 After taking that slamming I gotta go hit the routes for some training.
@@ -2979,6 +2971,14 @@ But for now, I'm just a part of the crowd. Maybe you'll fight me again during th
 But for now, I'm just a part of the crowd. Maybe you'll fight me again during the Tournament.
 What about The Bench? Ah, I wouldn't worry. The Bench calls to people. Someone will answer The Bench eventually.
 What about The Bench? Ah, I wouldn't worry. The Bench calls to people. Someone will answer The Bench eventually.
+I always look forward to battling here each year.
+I always look forward to battling here each year.
+Your team is so exciting to see! I'll be looking out for you.
+Your team is so exciting to see! I'll be looking out for you.
+A fun battle! I hope we can do that again.
+A fun battle! I hope we can do that again.
+You should come around again, I'm itching for a rematch.
+You should come around again, I'm itching for a rematch.
 Hey, 'miring my team?
 Hey, 'miring my team?
 Of course you are. You're looking at the current ruler of The Bench.
@@ -7168,10 +7168,6 @@ And we still haven’t finished our talk.
 And we still haven’t finished our talk.
 Some loose paper displaying the LuxTech logo.
 Some loose paper displaying the LuxTech logo.
-Leaving through -- oh. You -- you’re looking for something down here.
-Leaving through -- oh. You -- you’re looking for something down here.
-Come back and, uh, I’ll still be... around.
-Come back and, uh, I’ll still be... around.
 So you lead with \pfp, hmm?
 So you lead with \pfp, hmm?
 Tell me – would you tell me about them?
@@ -7198,36 +7194,10 @@ I rarely get to use my true team – my, uh, friends give me teams to train.
 I rarely get to use my true team – my, uh, friends give me teams to train.
 My Togekiss, Artemisia, gets used more for flying than – oh, I’m – excuse me. Let’s keep moving.
 My Togekiss, Artemisia, gets used more for flying than – oh, I’m – excuse me. Let’s keep moving.
-Another avatar... so strange. They aren’t spirits – not like Ghost-types.
-Another avatar... so strange. They aren’t spirits – not like Ghost-types.
-I’ve never found an avatar of a man-made Pokémon, but there are avatars of fossil Pokémon.
-I’ve never found an avatar of a man-made Pokémon, but there are avatars of fossil Pokémon.
-Almost as if... hmm.
-Almost as if... hmm.
-What do you think they are?
-What do you think they are?
-Oh – uh, I’m sorry, I’m not used to getting responses.
-Oh – uh, I’m sorry, I’m not used to getting responses.
-I mostly talk to Pokémon.
-I mostly talk to Pokémon.
-Please excuse my rambling, I – but you’re right. Nobody knows.
-Please excuse my rambling, I – but you’re right.  Nobody knows.
-Oh – I suppose – sorry, I’m used to talking to Pokémon.
-Oh – I suppose – sorry, I’m used to talking to Pokémon.
-I’m not used to my rambling being – I mean, I’m sorry.
-I’m not used to my rambling being – I mean, I’m sorry.
-You said illusions? And yet they... hmm...
-You said illusions? And yet they... hmm... 
-Oh – you – I’m sorry, excuse my ramblings. I usually talk to, um, Pokémon.
-Oh – you – I’m sorry, excuse my ramblings. I usually talk to, um, Pokémon.
-And they don’t – I mean – ignore me.
-And they don’t – I mean – ignore me.
-But you have a good hypothesis, I think. Except... hmm...
-But you have a good hypothesis, I think. Except...  hmm...
-Oh – I didn’t – sorry. Excuse me, I forgot that you – I mean, I’m used to talking to Pokémon.
-Oh – I didn’t – sorry. Excuse me, I forgot that you – I mean, I’m used to talking to Pokémon.
-I’m – I’m not used to… whatever. Forget I said anything.
-I’m – I’m not used to… whatever. Forget I said anything.
+Leaving through -- oh. You -- you’re looking for something down here.
+Leaving through -- oh. You -- you’re looking for something down here.
+Come back and, uh, I’ll still be... around.
+Come back and, uh, I’ll still be... around.
 Were you down here for this – whatever all this is?
 Were you down here for this – whatever all this is?
 That Linoone dragged it down here.
@@ -7264,6 +7234,36 @@ I – I haven’t talked to someone in... a little while, and you’re… I don�
  I – I haven’t talked to someone in... a little while, and you’re… I don’t know why but you’re easy to – I’m sorry.
 I should go.
 I should go.
+Another avatar... so strange. They aren’t spirits – not like Ghost-types.
+Another avatar... so strange. They aren’t spirits – not like Ghost-types.
+I’ve never found an avatar of a man-made Pokémon, but there are avatars of fossil Pokémon.
+I’ve never found an avatar of a man-made Pokémon, but there are avatars of fossil Pokémon.
+Almost as if... hmm.
+Almost as if... hmm.
+What do you think they are?
+What do you think they are?
+Oh – uh, I’m sorry, I’m not used to getting responses.
+Oh – uh, I’m sorry, I’m not used to getting responses.
+I mostly talk to Pokémon.
+I mostly talk to Pokémon.
+Please excuse my rambling, I – but you’re right. Nobody knows.
+Please excuse my rambling, I – but you’re right.  Nobody knows.
+Oh – I suppose – sorry, I’m used to talking to Pokémon.
+Oh – I suppose – sorry, I’m used to talking to Pokémon.
+I’m not used to my rambling being – I mean, I’m sorry.
+I’m not used to my rambling being – I mean, I’m sorry.
+You said illusions? And yet they... hmm...
+You said illusions? And yet they... hmm... 
+Oh – you – I’m sorry, excuse my ramblings. I usually talk to, um, Pokémon.
+Oh – you – I’m sorry, excuse my ramblings. I usually talk to, um, Pokémon.
+And they don’t – I mean – ignore me.
+And they don’t – I mean – ignore me.
+But you have a good hypothesis, I think. Except... hmm...
+But you have a good hypothesis, I think. Except...  hmm...
+Oh – I didn’t – sorry. Excuse me, I forgot that you – I mean, I’m used to talking to Pokémon.
+Oh – I didn’t – sorry. Excuse me, I forgot that you – I mean, I’m used to talking to Pokémon.
+I’m – I’m not used to… whatever. Forget I said anything.
+I’m – I’m not used to… whatever. Forget I said anything.
 Stay out.
 Stay out.
 Enter.
@@ -7318,6 +7318,10 @@ It's my favorite.
 It's my favorite.
 I'm just training it.
 I'm just training it.
+Tell her.
+Tell her.
+Don't tell her.
+Don't tell her.
 I don't know.
 I don't know.
 Illusions.
@@ -7326,10 +7330,6 @@ Myths made real.
 Myths made real.
 I don't care.
 I don't care.
-Tell her.
-Tell her.
-Don't tell her.
-Don't tell her.
 [Map121]
 You might be able to tell, but a certain Nurse aid in training is feeling a bit wild today...
 You might be able to tell, but a certain Nurse aid in training is feeling a bit wild today...
@@ -8458,16 +8458,6 @@ Use a Moomoo Milk
 Use a Full Restore
 Use a Full Restore
 [Map130]
-South: Lingering Delta
-South: Lingering Delta
-West: Eleig Stretch
-West: Eleig Stretch
-East: Sandstone Estuary
-East: Sandstone Estuary
-North: Split Peaks
-North: Split Peaks
-Down: Circuit Cave
-Down: Circuit Cave
 I have had it up to HERE with this Darumaka of mine.
 I have had it up to HERE with this Darumaka of mine.
 I've swam across this entire river using nothing but my sheer force of will.
@@ -8496,16 +8486,16 @@ It'll give me a lot of time with my thoughts.
 It'll give me a lot of time with my thoughts.
 Not entirely sure that's a good thing.
 Not entirely sure that's a good thing.
-I saw a Pokemon hold a key in its mouth. It looked pretty important, hope whoever lost it had a spare.
-I saw a Pokemon hold a key in its mouth. It looked pretty important, hope whoever lost it had a spare.
-Seaking! We must depart to look for this key! Dive!
-Seaking! We must depart to look for this key! Dive!
-I think about that key a lot. What if it leads to treasure?
-I think about that key a lot. What if it leads to treasure?
-Like, imagine if there's a chest somewhere around here! Or some secret door! Keys open up so many doors!
-Like, imagine if there's a chest somewhere around here! Or some secret door! Keys open up so many doors!
-Uhhh, literally and figuratively, I guess.
-Uhhh, literally and figuratively, I guess.
+South: Lingering Delta
+South: Lingering Delta
+West: Eleig Stretch
+West: Eleig Stretch
+East: Sandstone Estuary
+East: Sandstone Estuary
+North: Split Peaks
+North: Split Peaks
+Down: Circuit Cave
+Down: Circuit Cave
 I swam here from Prizca!
 I swam here from Prizca!
 Time to swim back!
@@ -8516,14 +8506,16 @@ My power is growing! I feel like I can swim forever!
 My power is growing! I feel like I can swim forever! 
 One day, I'll be able to swim from one side of Makya to the other.
 One day, I'll be able to swim from one side of Makya to the other.
-Just a hop and a skip to the north, a legendary Avatar has been causing a commotion.
-Just a hop and a skip to the north, a legendary Avatar has been causing a commotion.
-How exciting!
-How exciting!
-Onwards, to ever greater victories!
-Onwards, to ever greater victories!
-Whoever takes out that Virizion will be a legend in their own right!
-Whoever takes out that Virizion will be a legend in their own right!
+I saw a Pokemon hold a key in its mouth. It looked pretty important, hope whoever lost it had a spare.
+I saw a Pokemon hold a key in its mouth. It looked pretty important, hope whoever lost it had a spare.
+Seaking! We must depart to look for this key! Dive!
+Seaking! We must depart to look for this key! Dive!
+I think about that key a lot. What if it leads to treasure?
+I think about that key a lot. What if it leads to treasure?
+Like, imagine if there's a chest somewhere around here! Or some secret door! Keys open up so many doors!
+Like, imagine if there's a chest somewhere around here! Or some secret door! Keys open up so many doors!
+Uhhh, literally and figuratively, I guess.
+Uhhh, literally and figuratively, I guess.
 Hey y'all, FireStar9 here with another advanced battling vlog!
 Hey y'all, FireStar9 here with another advanced battling vlog!
 I've in the Canal Desert, where a random Avatar of Maractus is growing a bunch of cacti.
@@ -8536,6 +8528,14 @@ That Trainer really proved their worth. Let's look at the replays to see how the
 That Trainer really proved their worth. Let's look at the replays to see how they did it!
 I'd like to take a moment to thank our sponsor, Emma's Empolorium!
 I'd like to take a moment to thank our sponsor, Emma's Empolorium! 
+Just a hop and a skip to the north, a legendary Avatar has been causing a commotion.
+Just a hop and a skip to the north, a legendary Avatar has been causing a commotion.
+How exciting!
+How exciting!
+Onwards, to ever greater victories!
+Onwards, to ever greater victories!
+Whoever takes out that Virizion will be a legend in their own right!
+Whoever takes out that Virizion will be a legend in their own right!
 Whoaaaa there Trainer, slow down.
 Whoaaaa there Trainer, slow down.
 What a showin' pardner.
@@ -14351,14 +14351,6 @@ No thanks.
 I'll take it.
 I'll take it.
 [Map217]
-It's the bottom of a conveyor belt. It'd be impossible to climb up.
-It's the bottom of a conveyor belt. It'd be impossible to climb up.
-For most of Sweetrock's history, we've relied on Clefable teleportation to get cargo from the factory to the docks.
-For most of Sweetrock's history, we've relied on Clefable teleportation to get cargo from the factory to the docks.
-We got these conveyor belts installed a few years back, so the cliffside isn't an issue anymore.
-We got these conveyor belts installed a few years back, so the cliffside isn't an issue anymore.
-We still have to rely on teleportation to get in and out of the harbor, though.
-We still have to rely on teleportation to get in and out of the harbor, though.
 Looks like the Trainer ahead is moving to block you from going any further.
 Looks like the Trainer ahead is moving to block you from going any further.
 Do you want to approach them? It looks like a tough fight.
@@ -14733,18 +14725,26 @@ If it isn’t, then, uh, I’ll give you a run for your money, ‘kay?
 If it isn’t, then, uh, I’ll give you a run for your money, ‘kay?
 Toodles. And don’t you dare follow – I’m playing hard to get, so respect it. Hah!
 Toodles. And don’t you dare follow – I’m playing hard to get, so respect it. Hah!
-More than a million years ago, a meteor struck this area of Makya, plowing through a large mountain to the west.
-More than a million years ago, a meteor struck this area of Makya, plowing through a large mountain to the west.
-That large mountain became two smaller mountains, which we now know as Split Peaks.
-That large mountain became two smaller mountains, which we now know as Split Peaks.
-The impact site itself would fill with water and become Sweetrock Harbor.
-The impact site itself would fill with water and become Sweetrock Harbor.
+For most of Sweetrock's history, we've relied on Clefable teleportation to get cargo from the factory to the docks.
+For most of Sweetrock's history, we've relied on Clefable teleportation to get cargo from the factory to the docks.
+We got these conveyor belts installed a few years back, so the cliffside isn't an issue anymore.
+We got these conveyor belts installed a few years back, so the cliffside isn't an issue anymore.
+We still have to rely on teleportation to get in and out of the harbor, though.
+We still have to rely on teleportation to get in and out of the harbor, though.
+It's the bottom of a conveyor belt. It'd be impossible to climb up.
+It's the bottom of a conveyor belt. It'd be impossible to climb up.
 The ocean to the east brings calming winds.
 The ocean to the east brings calming winds.
 But why? We might explain it with ocean currents, or weather patterns.
 But why? We might explain it with ocean currents, or weather patterns.
 But what makes the winds here calming? Of that, I am not so sure.
 But what makes the winds here calming? Of that, I am not so sure.
+More than a million years ago, a meteor struck this area of Makya, plowing through a large mountain to the west.
+More than a million years ago, a meteor struck this area of Makya, plowing through a large mountain to the west.
+That large mountain became two smaller mountains, which we now know as Split Peaks.
+That large mountain became two smaller mountains, which we now know as Split Peaks.
+The impact site itself would fill with water and become Sweetrock Harbor.
+The impact site itself would fill with water and become Sweetrock Harbor.
 I really want to know who that was in the weird outfit.
 I really want to know who that was in the weird outfit.
 Well, regardless, thanks for kicking them out of town.
@@ -14753,26 +14753,26 @@ I'm a firefighter, so I'm used to dealing with issues...
 I'm a firefighter, so I'm used to dealing with issues...
 But "Cultist with a Regirock" is outside of my job description.
 But "Cultist with a Regirock" is outside of my job description.
-Artisan Orbs
-Artisan Orbs
-Sweetrock Elementary School
-Sweetrock Elementary School
-"In loving memory of Mrs. and Mr. Diakos."
-"In loving memory of Mrs. and Mr. Diakos."
 I've been biking across the entire region over the past few months.
 I've been biking across the entire region over the past few months.
 Crossing the Split Peaks was by far the hardest part.
 Crossing the Split Peaks was by far the hardest part.
 The view from these cliffs, and the feeling that I've finally accomplished my goal, made it all worth it.
 The view from these cliffs, and the feeling that I've finally accomplished my goal, made it all worth it.
+"In loving memory of Mrs. and Mr. Diakos."
+"In loving memory of Mrs. and Mr. Diakos."
+Sweetrock Elementary School
+Sweetrock Elementary School
+Artisan Orbs
+Artisan Orbs
 West: Split Peaks
 West: Split Peaks
 South: Sandstone Estuary
 South: Sandstone Estuary
-"Sweetrock Harbor, satisfying the world's sweettooth!"
-"Sweetrock Harbor, satisfying the world's sweettooth!"
-"A sister city of Canalave!"
-"A sister city of Canalave!"
+Sweetrock Candy is sent all over the world, but more than 30% ends up in the Galar Region.
+Sweetrock Candy is sent all over the world, but more than 30% ends up in the Galar Region.
+Those people love their candy.
+Those people love their candy.
 I work at Sweetrock Candy factory, like many in town.
 I work at Sweetrock Candy factory, like many in town.
 That said, I rarely get to see Victoire, the manager and gym leader.
@@ -14791,14 +14791,10 @@ You gotta tell me what she's like as a trainer.
 You gotta tell me what she's like as a trainer.
 My curiosity's grown too big!
 My curiosity's grown too big!
-Sweetrock Candy is sent all over the world, but more than 30% ends up in the Galar Region.
-Sweetrock Candy is sent all over the world, but more than 30% ends up in the Galar Region.
-Those people love their candy.
-Those people love their candy.
-Shh... don't give away my hiding spot!
-Shh... don't give away my hiding spot!
-Is it... is it safe to come out now?
-Is it... is it safe to come out now?
+"Sweetrock Harbor, satisfying the world's sweettooth!"
+"Sweetrock Harbor, satisfying the world's sweettooth!"
+"A sister city of Canalave!"
+"A sister city of Canalave!"
 How goes your journey, young master?
 How goes your journey, young master?
 I've purchased a Clefable teleportation license, and reserved this pier for our use.
@@ -14807,6 +14803,20 @@ We can travel to and from any of our usual locations.
 We can travel to and from any of our usual locations.
 Where will we be heading?
 Where will we be heading?
+Shh... don't give away my hiding spot!
+Shh... don't give away my hiding spot!
+Is it... is it safe to come out now?
+Is it... is it safe to come out now?
+What was once a printed notice has been covered entirely by a poster advertising the EXP-EZ Dispenser.
+What was once a printed notice has been covered entirely by a poster advertising the EXP-EZ Dispenser.
+Sweetrock Candy Outlet
+Sweetrock Candy Outlet
+Sweetrock Harbor Gym
+Sweetrock Harbor Gym
+Leader: Victoire
+Leader: Victoire
+The Candy Queen!
+The Candy Queen!
 Have you slid down the conveyer belts?
 Have you slid down the conveyer belts?
 Preeeety sure we're not allowed to, but its crazy fun.
@@ -14835,28 +14845,18 @@ She as quirky as they say? I don't know why I bother asking. I'll be finding out
 She as quirky as they say? I don't know why I bother asking. I'll be finding out soon myself.
 The 7th badge... oh so sweet will it taste!
 The 7th badge... oh so sweet will it taste!
-Sweetrock Harbor Gym
-Sweetrock Harbor Gym
-Leader: Victoire
-Leader: Victoire
-The Candy Queen!
-The Candy Queen!
-Sweetrock Candy Outlet
-Sweetrock Candy Outlet
-What was once a printed notice has been covered entirely by a poster advertising the EXP-EZ Dispenser.
-What was once a printed notice has been covered entirely by a poster advertising the EXP-EZ Dispenser.
-Sweetrock Lighthouse
-Sweetrock Lighthouse
 Today's a good day for gaming.
 Today's a good day for gaming.
+Sweetrock Lighthouse
+Sweetrock Lighthouse
 Berry Greenhouse
 Berry Greenhouse
+I'm gaming over here!
+I'm gaming over here!
 I love to slide down the conveyor belt. But, my dad doesn't let me.
 I love to slide down the conveyor belt. But, my dad doesn't let me.
 I have to stay by the school until he gets off work so I don't get into trouble.
 I have to stay by the school until he gets off work so I don't get into trouble.
-I'm gaming over here!
-I'm gaming over here!
 No.
 No.
 Yes.
@@ -16420,14 +16420,16 @@ Impressive.
 I gotta talk to Tamarind.
 I gotta talk to Tamarind.
 [Map258]
+Alessa's House
+Alessa's House
 Feeling nostalgic?
 Feeling nostalgic?
 That's just the effect Whitebloom has on people.
 That's just the effect Whitebloom has on people.
 You seem like you'd enjoy a souvenir. You know, to remember the town by.
 You seem like you'd enjoy a souvenir. You know, to remember the town by.
-Alessa's House
-Alessa's House
+Pokemon Lab
+Pokemon Lab
 …Are you bored yet?
 …Are you bored yet?
 Of battling, I mean.
@@ -16658,16 +16660,16 @@ And then we’ll settle things the only way we know how. It’s only right to gi
 And then we’ll settle things the only way we know how. It’s only right to give you one last fight.
 Goodbye, \PN.
 Goodbye, \PN.
-Pokemon Lab
-Pokemon Lab
+Oh? An item was left behind.
+Oh? An item was left behind.
 "Whitebloom Town, where adventure is always near!"
 "Whitebloom Town, where adventure is always near!"
 The door seems to be locked shut.
 The door seems to be locked shut.
-Yezera's House
-Yezera's House
 Herbert's Herbs
 Herbert's Herbs
+Yezera's House
+Yezera's House
 Wren's House
 Wren's House
 When I saw Yezera again, I couldn't believe my eyes.
@@ -18068,6 +18070,10 @@ No thanks.
 I'll buy.
 I'll buy.
 [Map300]
+The PC is turned off.
+The PC is turned off.
+With how quiet the gym is, you think it'd stand out as rude if you tried to turn it on.
+With how quiet the gym is, you think it'd stand out as rude if you tried to turn it on.
 Yo, champ in the making!
 Yo, champ in the making!
 Samorn might not look like it, but she was one of Team Chasm's top battlers.
@@ -18084,16 +18090,6 @@ Hoho! It's rare to see Samorn so lively.
 Hoho! It's rare to see Samorn so lively.
 Watching you two go at it was inspiring.
 Watching you two go at it was inspiring.
-The PC is turned off.
-The PC is turned off.
-With how quiet the gym is, you think it'd stand out as rude if you tried to turn it on.
-With how quiet the gym is, you think it'd stand out as rude if you tried to turn it on.
-Among the books on history, a scrapbook stands out.
-Among the books on history, a scrapbook stands out.
-The title is "Memories of Hoenn."
-The title is "Memories of Hoenn."
-A cute sticker of a Trapinch dominates the front cover.
-A cute sticker of a Trapinch dominates the front cover.
 Sorry, am I in your way?
 Sorry, am I in your way?
 Wait, of course I am, I'm a trainer!
@@ -18104,16 +18100,26 @@ You might be even stronger than them!
 You might be even stronger than them!
 I've got to stay here and continue my studies.
 I've got to stay here and continue my studies.
+Among the books on history, a scrapbook stands out.
+Among the books on history, a scrapbook stands out.
+The title is "Memories of Hoenn."
+The title is "Memories of Hoenn."
+A cute sticker of a Trapinch dominates the front cover.
+A cute sticker of a Trapinch dominates the front cover.
 Beakers of chemicals line the shelves.
 Beakers of chemicals line the shelves.
 The majority appear to be weak acids.
 The majority appear to be weak acids.
+Ceremonial iron swords.
+Ceremonial iron swords.
+They were dated to 1800 years ago!
+They were dated to 1800 years ago!
 Ah, \PN! I won’t waste your time by offering something hot to drink.
 Ah, \PN! I won’t waste your time by offering something hot to drink.
 You’ve got a fight on your mind, don’t you?
 You’ve got a fight on your mind, don’t you?
 Good evening. Can I get you something? Tea? Coffee?
- Good evening. Can I get you something? Tea?  Coffee?
+Good evening. Can I get you something? Tea?  Coffee?
 You’ve almost certainly wasted enough time here already, though.
 You’ve almost certainly wasted enough time here already, though.
 Do you get nervous before facing a gym leader?
@@ -18194,10 +18200,6 @@ Thank you, \PN. I think I’ll take a short break. You’re the last challenger 
 Thank you, \PN. I think I’ll take a short break. You’re the last challenger I expected to see before the championship anyways.
 You’re always welcome to stop by my home, though!
 You’re always welcome to stop by my home, though!
-Ceremonial iron swords.
-Ceremonial iron swords.
-They were dated to 1800 years ago!
-They were dated to 1800 years ago!
 A fossil of an aquatic plant.
 A fossil of an aquatic plant.
 A plaque lists a very long scientific name for it. Your eyes glaze over as you try and read it.
@@ -18206,6 +18208,10 @@ A simple plaque simply states "Armaldo Fossil".
 A simple plaque simply states "Armaldo Fossil".
 The rest of the description plate probably hasn't been manufactured yet.
 The rest of the description plate probably hasn't been manufactured yet.
+A trash can made of some sort of tropical wood.
+A trash can made of some sort of tropical wood.
+It's totally empty.
+It's totally empty.
 The Armaldo fossil behind me was just unpacked.
 The Armaldo fossil behind me was just unpacked.
 I have to protect it from ruffians like you!
@@ -18218,10 +18224,8 @@ Tata!
 Tata!
 I'll be keeping my one good eye on you.
 I'll be keeping my one good eye on you.
-A trash can made of some sort of tropical wood.
-A trash can made of some sort of tropical wood.
-It's totally empty.
-It's totally empty.
+Notes on the chalkboard describe a timeline of the Makyan monarchy, starting from 2800 years ago.
+Notes on the chalkboard describe a timeline of the Makyan monarchy, starting from 2800 years ago.
 You'll have to get through me to fight grandma!
 You'll have to get through me to fight grandma!
 Guess I'll go bother the scientists at the dig site again.
@@ -18230,8 +18234,6 @@ You might have beaten me, but grandma's a lot stronger than me.
 You might have beaten me, but grandma's a lot stronger than me.
 You must be pretty strong if you're challenging grandma.
 You must be pretty strong if you're challenging grandma.
-Notes on the chalkboard describe a timeline of the Makyan monarchy, starting from 2800 years ago.
-Notes on the chalkboard describe a timeline of the Makyan monarchy, starting from 2800 years ago.
 3 Shieldon fossils.
 3 Shieldon fossils.
 One is intact, but the other two are in very poor quality.
@@ -30062,8 +30064,8 @@ Apparently, it can detect the innate qualities of leadership. According to legen
 Apparently, it can detect the innate qualities of leadership. According to legend, whoever it recognizes is destined to become king.
 In the past, rather than using perfume, royal ladies carried a Spritzee that would waft a fragrance they liked.
 In the past, rather than using perfume, royal ladies carried a Spritzee that would waft a fragrance they liked.
-Its scent is so overpowering that, unless a Trainer happens to really enjoy the smell, he or she will have a hard time walking alongside it.
-Its scent is so overpowering that, unless a Trainer happens to really enjoy the smell, he or she will have a hard time walking alongside it.
+Its scent is so overpowering that, unless a Trainer happens to really enjoy the smell, they will have a hard time walking alongside it.
+Its scent is so overpowering that, unless a Trainer happens to really enjoy the smell, they will have a hard time walking alongside it.
 It uses both white and black magic. It harvests the flowers that grow on witches who regularly walk between life and death.
 It uses both white and black magic. It harvests the flowers that grow on witches who regularly walk between life and death.
 Because it eats nothing but sweets, its fur is as sticky sweet as cotton candy.
@@ -31176,14 +31178,10 @@ Self-Destruct
 Self-Destruct
 Sharpen
 Sharpen
-Shout
-Shout
 Simple Beam
 Simple Beam
 Sketch
 Sketch
-Skull Bash
-Skull Bash
 Slack Off
 Slack Off
 Slash
@@ -31308,8 +31306,6 @@ Sacred Sword
 Sacred Sword
 Secret Sword
 Secret Sword
-Smash
-Smash
 Storm Throw
 Storm Throw
 Submission
@@ -31364,8 +31360,6 @@ Tailwind
 Tailwind
 Whirlwind
 Whirlwind
-Wing Crash
-Wing Crash
 Acid
 Acid
 Acid Spray
@@ -31456,8 +31450,6 @@ Rock Blast
 Rock Blast
 Rock Polish
 Rock Polish
-Rock Roll
-Rock Roll
 Rock Throw
 Rock Throw
 Rock Tomb
@@ -31610,8 +31602,6 @@ Meteor Mash
 Meteor Mash
 Shift Gear
 Shift Gear
-Smart Horn
-Smart Horn
 Spike Cannon
 Spike Cannon
 Steel Beam
@@ -31686,8 +31676,6 @@ Searing Shot
 Searing Shot
 Shell Trap
 Shell Trap
-Sunshine
-Sunshine
 V-create
 V-create
 Aqua Jet
@@ -31716,8 +31704,6 @@ Liquidation
 Liquidation
 Origin Pulse
 Origin Pulse
-Rainstorm
-Rainstorm
 Razor Shell
 Razor Shell
 Scald
@@ -31798,8 +31784,6 @@ Seed Flare
 Seed Flare
 Solar Beam
 Solar Beam
-Solar Glide
-Solar Glide
 Spiky Shield
 Spiky Shield
 Spore
@@ -31822,8 +31806,6 @@ Charge
 Charge
 Charge Beam
 Charge Beam
-Discharge
-Discharge
 Eerie Impulse
 Eerie Impulse
 Electro Ball
@@ -31876,12 +31858,8 @@ Calm Mind
 Calm Mind
 Cosmic Power
 Cosmic Power
-Dream Absorb
-Dream Absorb
 Eerie Spell
 Eerie Spell
-Esper Dive
-Esper Dive
 Freezing Glare
 Freezing Glare
 Future Sight
@@ -31904,14 +31882,10 @@ Light Screen
 Light Screen
 Lunar Dance
 Lunar Dance
-Luster Purge
-Luster Purge
 Magic Coat
 Magic Coat
 Mirror Coat
 Mirror Coat
-Mist Ball
-Mist Ball
 Power Split
 Power Split
 Power Trick
@@ -31978,8 +31952,6 @@ Icy Wind
 Icy Wind
 Powder Snow
 Powder Snow
-Snowball
-Snowball
 Breaking Swipe
 Breaking Swipe
 Clangorous Soul
@@ -32224,6 +32196,8 @@ Scheme
 Scheme
 Season's End
 Season's End
+Shout
+Shout
 Smirk
 Smirk
 Stellarate
@@ -32284,6 +32258,8 @@ Scythe Kick
 Scythe Kick
 Secret Technique
 Secret Technique
+Smash
+Smash
 Stand Together
 Stand Together
 Threefold Volley
@@ -32332,6 +32308,8 @@ Volley
 Volley
 Wind Tunnel
 Wind Tunnel
+Wing Crash
+Wing Crash
 Acid Ball
 Acid Ball
 Acid Bath
@@ -32384,8 +32362,8 @@ Devouring Dust
 Devouring Dust
 Dust Devil
 Dust Devil
-Dustmach Pulse
-Dustmach Pulse
+Dust Storm
+Dust Storm
 Earthsplitter
 Earthsplitter
 Erode
@@ -32472,6 +32450,8 @@ Rockapult
 Rockapult
 Rock Out
 Rock Out
+Rock Roll
+Rock Roll
 Rolling Boulder
 Rolling Boulder
 Shatter Shot
@@ -32520,8 +32500,6 @@ Manyneedle
 Manyneedle
 Natural Protection
 Natural Protection
-Noise Order
-Noise Order
 Patient Blade
 Patient Blade
 Rake
@@ -32676,6 +32654,8 @@ Slag
 Slag
 Slay
 Slay
+Smart Horn
+Smart Horn
 Take Shelter
 Take Shelter
 Vanguard
@@ -32740,6 +32720,8 @@ Smolder Rave
 Smolder Rave
 Store Fuel
 Store Fuel
+Sunshine
+Sunshine
 Tar Volley
 Tar Volley
 Tephra Cannon
@@ -32792,6 +32774,8 @@ Mending Spring
 Mending Spring
 Pressure Burst
 Pressure Burst
+Rainstorm
+Rainstorm
 Ramming Speed
 Ramming Speed
 Rip Tide
@@ -32882,6 +32866,8 @@ Sharing Smiles
 Sharing Smiles
 Sinister Spines
 Sinister Spines
+Solar Glide
+Solar Glide
 Symbiosis
 Symbiosis
 Tera Drain
@@ -32896,6 +32882,8 @@ Whip Kick
 Whip Kick
 Amp Up
 Amp Up
+Arc Lamp
+Arc Lamp
 Atomic Breath
 Atomic Breath
 Bad Ending
@@ -32924,6 +32912,8 @@ Joke Jolt
 Joke Jolt
 Jolt
 Jolt
+Laser Beam
+Laser Beam
 Lightning Dance
 Lightning Dance
 Lightning Slam
@@ -32974,12 +32964,16 @@ Core Collapse
 Core Collapse
 Demon's Kiss
 Demon's Kiss
+Dream Absorb
+Dream Absorb
 Dream Feast
 Dream Feast
 Eclipse
 Eclipse
 Energy Trick
 Energy Trick
+Esper Dive
+Esper Dive
 Exploit
 Exploit
 Genotheosis
@@ -33096,6 +33090,8 @@ Shiver Dance
 Shiver Dance
 Shiver Squirm
 Shiver Squirm
+Snowball
+Snowball
 Snow Spill
 Snow Spill
 Snowy Sorrows
@@ -33130,6 +33126,8 @@ Guttural Roar
 Guttural Roar
 Heliopause
 Heliopause
+Jet Speed
+Jet Speed
 Loom Over
 Loom Over
 Occultation
@@ -33296,6 +33294,8 @@ Mishap
 Mishap
 Mist Burst
 Mist Burst
+Misty Mirage
+Misty Mirage
 Moonglow
 Moonglow
 Morningstar
@@ -33633,14 +33633,10 @@ The user blows up to inflict damage on all Pokémon in battle. The user faints u
 The user blows up to inflict damage on all Pokémon in battle. The user faints upon using this move.
 The user's edges become sharper, raising its Attack stat by three steps.
 The user's edges become sharper, raising its Attack stat by three steps.
-The user shouts with force at the target. This move always hits first.
-The user shouts with force at the target. This move always hits first.
 The user shoots a mysterious beam that changes the target's Ability to Simple.
 The user shoots a mysterious beam that changes the target's Ability to Simple.
 It enables the user to permanently learn the move last used by the foe. Once used, Sketch disappears.
 It enables the user to permanently learn the move last used by the foe. Once used, Sketch disappears.
-The user charges to raise its Defense by four steps in the first turn, then rams the foe on the second.
-The user charges to raise its Defense by four steps in the first turn, then rams the foe on the second.
 The user slacks off, restoring its own HP by up to half of its max HP.
 The user slacks off, restoring its own HP by up to half of its max HP.
 The target is attacked with a slash of claws or blades. Can random critical hit.
@@ -33763,8 +33759,6 @@ The user attacks by slicing with its long horns. Ignores the target's stat step 
 The user attacks by slicing with its long horns. Ignores the target's stat step changes.
 The user cuts with its long horn. The odd power contained in it does physical damage to the foe.
 The user cuts with its long horn. The odd power contained in it does physical damage to the foe.
-The user attacks with a strong punch. It has a 20% chance to lower Defense.
-The user attacks with a strong punch. It has a 20% chance to lower Defense.
 The user strikes the target with a fierce blow. This attack always results in a critical hit.
 The user strikes the target with a fierce blow. This attack always results in a critical hit.
 The user grabs the target and recklessly dives for the ground. The user also takes 33% recoil.
@@ -33817,8 +33811,6 @@ Restores the user's HP by up to half of its max HP. User loses Flying-type this 
 Restores the user's HP by up to half of its max HP. User loses Flying-type this turn.
 The user whips up a turbulent whirlwind that ups the Speed of all party Pokémon for four turns.
 The user whips up a turbulent whirlwind that ups the Speed of all party Pokémon for four turns.
-The target is struck with large, imposing wings. The user also takes 20% recoil.
-The target is struck with large, imposing wings. The user also takes 20% recoil.
 The foe is attacked with a spray of harsh acid. It has a 20% chance to lower Sp. Def.
 The foe is attacked with a spray of harsh acid. It has a 20% chance to lower Sp. Def.
 The user spits fluid that works to melt the target. This reduces the target's Sp. Def stat by four steps.
@@ -33849,8 +33841,8 @@ Inflicts physical or special damage, whichever will be more effective. This has 
 Inflicts physical or special damage, whichever will be more effective. This has a 25% chance to poison.
 Unsanitary sludge is hurled at the target. It has a 30% chance to poison.
 Unsanitary sludge is hurled at the target. It has a 30% chance to poison.
-It swamps the area around the user with a giant sludge wave. It has a 10% chance to poison.
-It swamps the area around the user with a giant sludge wave. It has a 10% chance to poison.
+It swamps the area around the user with a giant wave of toxic sludge.
+It swamps the area around the user with a giant wave of toxic sludge.
 The target is attacked with an emission of filthy gases. It has a 30% chance to poison.
 The target is attacked with an emission of filthy gases. It has a 30% chance to poison.
 The user shoots poisonous threads to poison the target and lowers the target's Speed stat by four steps.
@@ -33909,8 +33901,6 @@ The user hurls hard rocks at the target. The target is multi-hit two to five tim
 The user hurls hard rocks at the target. The target is multi-hit two to five times in quick succession.
 The user polishes its body to reduce drag, raising its Speed by four steps.
 The user polishes its body to reduce drag, raising its Speed by four steps.
-The user rolls into the target. Its power doubles if it hits in succession.
-The user rolls into the target. Its power doubles if it hits in succession.
 The user picks up and throws a small rock at the target to attack.
 The user picks up and throws a small rock at the target to attack.
 Boulders are hurled at the target. It also lowers the target's Speed by two steps.
@@ -34059,12 +34049,10 @@ The target is raked with steel claws. It has a 20% chance to raise Attack.
 The target is raked with steel claws. It has a 20% chance to raise Attack.
 A horrible sound like scraping metal reduces the target's Sp. Def stat by four steps.
 A horrible sound like scraping metal reduces the target's Sp. Def stat by four steps.
-The target is hit with a hard punch fired like a meteor. It has a 10% chance to raise Attack.
-The target is hit with a hard punch fired like a meteor. It has a 10% chance to raise Attack.
+The target is hit with a hard punch fired like a meteor. It has a 20% chance to raise Attack.
+The target is hit with a hard punch fired like a meteor. It has a 20% chance to raise Attack.
 The user rotates its gears, raising its Attack and Speed by two steps.
 The user rotates its gears, raising its Attack and Speed by two steps.
-The user stabs the target with a sharp horn. Can't miss and skips protections.
-The user stabs the target with a sharp horn. Can't miss and skips protections.
 Fires a beam of steel that it collected from its entire body. The user loses half its current HP.
 Fires a beam of steel that it collected from its entire body. The user loses half its current HP.
 The target is hit with wings of steel. It has a 30% chance to raise the user's Defense.
@@ -34137,14 +34125,12 @@ An inferno of scarlet flames torches everything around the user. It has a 30% ch
 An inferno of scarlet flames torches everything around the user. It has a 30% chance to burn.
 The user rigs its shell to explode. If it is hit by a physical move this turn, the shell detonates and hurts all near foes.
 The user rigs its shell to explode. If it is hit by a physical move this turn, the shell detonates and hurts all near foes.
-Summons sunshine for six turns, boosting Fire-type attacks and hindering most others.
-Summons sunshine for six turns, boosting Fire-type attacks and hindering most others.
 With a fiery forehead, the user hurls itself at the foe. Lowers the user's Defense, Sp. Def, and Speed by two steps.
 With a fiery forehead, the user hurls itself at the foe. Lowers the user's Defense, Sp. Def, and Speed by two steps.
 If the target's HP is half or less, this attack will hit with double the power.
 If the target's HP is half or less, this attack will hit with double the power.
-A spray of bubbles is jetted at all near foes. This has a 10% chance to lower their Speed.
-A spray of bubbles is jetted at all near foes. This has a 10% chance to lower their Speed.
+A spray of bubbles is jetted at all near foes. This has a 20% chance to lower their Speed.
+A spray of bubbles is jetted at all near foes. This has a 20% chance to lower their Speed.
 A spray of bubbles is forcefully ejected at the target. It also lowers the foe's Speed stat.
 A spray of bubbles is forcefully ejected at the target. It also lowers the foe's Speed stat.
 The user clamps onto the target, trapping and damaging it for three turns.
@@ -34163,8 +34149,6 @@ Slams into the target using an aquatic blast with a 20% chance to lower Defense.
 Slams into the target using an aquatic blast with a 20% chance to lower Defense.
 The user attacks opposing Pokémon with a pulse of water which glows a deep and brilliant blue.
 The user attacks opposing Pokémon with a pulse of water which glows a deep and brilliant blue.
-Summons rainstorm for six turns, boosting Water-type attacks and hindering most others.
-Summons rainstorm for six turns, boosting Water-type attacks and hindering most others.
 The user cuts the foe with sharp shells. It has a 50% chance to lower Defense.
 The user cuts the foe with sharp shells. It has a 50% chance to lower Defense.
 The user shoots boiling hot water at its target. This has a 30% chance to burn.
@@ -34241,8 +34225,6 @@ The user generates a shock wave from within its body. This lower's the target's 
 The user generates a shock wave from within its body. This lower's the target's Sp. Def.
 The user charges, then attacks on the second turn. Charges instantly in sunshine.
 The user charges, then attacks on the second turn. Charges instantly in sunshine.
-Attacks by gliding on the ground. This move always goes first in sunshine.
-Attacks by gliding on the ground. This move always goes first in sunshine.
 Protects the user from attacks. Physical attackers take 1/8th HP damage.
 Protects the user from attacks. Physical attackers take 1/8th HP damage.
 The user scatters bursts of spores that induce sleep. Only one use per battle.
@@ -34265,8 +34247,6 @@ The user becomes energized, doubling the power of its next Electric-type attack.
 The user becomes energized, doubling the power of its next Electric-type attack. Also raises the user's Defense and Sp. Def.
 The user fires a concentrated bundle of electricity, raising the user's Sp. Atk stat by two steps.
 The user fires a concentrated bundle of electricity, raising the user's Sp. Atk stat by two steps.
-A flare of electricity is loosed to strike the area around the user. It has a 30% chance to numb.
-A flare of electricity is loosed to strike the area around the user. It has a 30% chance to numb.
 The user's body generates an eerie impulse. Lowers the target's Sp. Atk stat by four steps.
 The user's body generates an eerie impulse. Lowers the target's Sp. Atk stat by four steps.
 The user hurls an electric orb at the foe. It does more damage the faster the user is.
@@ -34317,12 +34297,8 @@ The user quietly focuses its mind to raise its Sp. Atk and Sp. Def by two steps.
 The user quietly focuses its mind to raise its Sp. Atk and Sp. Def by two steps.
 The user absorbs a mystical power from space to raise its Defense and Sp. Def by two steps.
 The user absorbs a mystical power from space to raise its Defense and Sp. Def by two steps.
-The user's HP is restored by 50% of the damage dealt. Power doubles if the foe is asleep.
-The user's HP is restored by 50% of the damage dealt. Power doubles if the foe is asleep.
 The user casts a horrible spell on the opponent. This removes 4 PP from their last used move.
 The user casts a horrible spell on the opponent. This removes 4 PP from their last used move.
-The user slashes the target with aura-enriched wings. This boosts the user's Speed by two steps.
-The user slashes the target with aura-enriched wings. This boosts the user's Speed by two steps.
 The user shoots its psychic power from its eyes to attack. It has a 20% chance to frostbite.
 The user shoots its psychic power from its eyes to attack. It has a 20% chance to frostbite.
 Two turns after this move is used, a hunk of psychic energy attacks the target.
@@ -34345,14 +34321,10 @@ A wondrous wall of light is put up to suppress damage from special attacks for f
 A wondrous wall of light is put up to suppress damage from special attacks for five turns.
 The user faints. In return, the Pokémon taking its place will have its non-volatile status conditions and HP fully restored.
 The user faints. In return, the Pokémon taking its place will have its non-volatile status conditions and HP fully restored.
-The user lets loose a damaging burst of light. It also lowers the target's Sp. Def by two steps.
-The user lets loose a damaging burst of light. It also lowers the target's Sp. Def by two steps.
 Until end of turn, reflects status moves that target the user or create hazards around it.
 Until end of turn, reflects status moves that target the user or create hazards around it.
 A retaliation move that counters any special attack, inflicting double the damage taken.
 A retaliation move that counters any special attack, inflicting double the damage taken.
-A mistlike flurry of down envelops and damages the target. It also lowers the target's Sp. Atk by two steps.
-A mistlike flurry of down envelops and damages the target. It also lowers the target's Sp. Atk by two steps.
 The user employs psychic power to average its unmodified Attack and Sp. Atk stats with those of the target.
 The user employs psychic power to average its unmodified Attack and Sp. Atk stats with those of the target.
 The user employs psychic power to switch its unmodified Attack with its unmodified Defense.
@@ -34541,8 +34513,8 @@ The user gazes charmingly at the target. The target's Attack is lowered by four 
 The user gazes charmingly at the target. The target's Attack is lowered by four steps.
 The user protects itself and its allies from status moves with a mysterious power.
 The user protects itself and its allies from status moves with a mysterious power.
-The user emits a powerful damaging flash. It has a 10% chance to lower Sp. Atk.
-The user emits a powerful damaging flash. It has a 10% chance to lower Sp. Atk.
+The user emits a powerful damaging flash. It has a 40% chance to lower Sp. Atk.
+The user emits a powerful damaging flash. It has a 40% chance to lower Sp. Atk.
 The user decorates the target, raising their Attack and Sp. Atk by five steps.
 The user decorates the target, raising their Attack and Sp. Atk by five steps.
 The user does emotional damage to foes. This attack never misses and skips protections.
@@ -34631,8 +34603,8 @@ A lullaby is sung in a calming voice that puts the target with half its HP or le
 A lullaby is sung in a calming voice that puts the target with half its HP or less left into a deep sleep.
 The target is struck by a pulse of negative energy. This resets the target's stat changes.
 The target is struck by a pulse of negative energy. This resets the target's stat changes.
-The target is cut by a clean slice. Can random critical hit, and does so twice as often.
-The target is cut by a clean slice. Can random critical hit, and does so twice as often.
+All foes are cut by a wide and clean slice. Can random critical hit, and does so twice as often.
+All foes are cut by a wide and clean slice. Can random critical hit, and does so twice as often.
 The user shoots a pulse of neutral particles at the target.
 The user shoots a pulse of neutral particles at the target.
 The user pranks the target, surprising it and reducing its Sp. Atk and Sp. Def by two steps.
@@ -34657,6 +34629,8 @@ The user schemes to raise its Attack and Sp. Atk by two steps. During moonglow, 
 The user schemes to raise its Attack and Sp. Atk by two steps. During moonglow, also raises Speed by two steps.
 The user strikes while inviting the power of seasons. The user changes form to the next season.
 The user strikes while inviting the power of seasons. The user changes form to the next season.
+The user shouts with force at the target. This move always hits first.
+The user shouts with force at the target. This move always hits first.
 The user smirks with confidence. The Sp. Def of nearby enemies is reduced.
 The user smirks with confidence. The Sp. Def of nearby enemies is reduced.
 A barrage of star-shaped rays are shot at the opposing team that multi-hits two to five times. Can't miss and skips protections.
@@ -34715,12 +34689,14 @@ The user kicks the target with a powerful, arcing technique.
 The user kicks the target with a powerful, arcing technique.
 The user attacks with a burst of inner energy. Lowers the user's Sp. Atk by four steps.
 The user attacks with a burst of inner energy. Lowers the user's Sp. Atk by four steps.
+The user attacks with a strong punch. It has a 20% chance to lower Defense.
+The user attacks with a strong punch. It has a 20% chance to lower Defense.
 The user holds fast with its teammates, raise its Defense by three steps, and its allies' by one.
 The user holds fast with its teammates, raise its Defense by three steps, and its allies' by one.
 The user shoots three arrows made of Aura with extreme precision. Can random critical hit.
 The user shoots three arrows made of Aura with extreme precision. Can random critical hit.
-The user manifests a bolt of pure courage. This has a 10% chance of raising the user's Sp. Atk.
-The user manifests a bolt of pure courage. This has a 10% chance of raising the user's Sp. Atk.
+The user manifests a bolt of pure courage. This has a 20% chance of raising the user's Sp. Atk.
+The user manifests a bolt of pure courage. This has a 20% chance of raising the user's Sp. Atk.
 The user relentlessly rampages with its whip-like hands for two turns. Each hit will always be a critical hit.
 The user relentlessly rampages with its whip-like hands for two turns. Each hit will always be a critical hit.
 A reckless rushing attack from the air. The user also takes 25% recoil.
@@ -34763,6 +34739,8 @@ The user gets all the party Pokémon to attack the foe with aerial projectiles.
 The user gets all the party Pokémon to attack the foe with aerial projectiles.
 Wind rapidly spins the target in place to multi-hit two to five times.
 Wind rapidly spins the target in place to multi-hit two to five times.
+The target is struck with large, imposing wings. The user also takes 20% recoil.
+The target is struck with large, imposing wings. The user also takes 20% recoil.
 The user lobs harsh acid at the target. It has a 20% chance to lower Sp. Def.
 The user lobs harsh acid at the target. It has a 20% chance to lower Sp. Def.
 The user and target bathe in acid. Lowers the user's Defense and Sp. Def by two steps.
@@ -34823,8 +34801,8 @@ Attacks by blasting dirt and debris at the target. This move always goes first i
 Attacks by blasting dirt and debris at the target. This move always goes first in sandstorm.
 Energy is sent through a conduit, erupting under the target. This move is also Psychic-type.
 Energy is sent through a conduit, erupting under the target. This move is also Psychic-type.
-The user rides onto the field on a huge wave of mud, damaging all nearby and raising their own Speed.
-The user rides onto the field on a huge wave of mud, damaging all nearby and raising their own Speed.
+The user propels itself forward with a wave of mud which also slams into the target. The user's speed is raised.
+The user propels itself forward with a wave of mud which also slams into the target. The user's speed is raised.
 The user attacks by hurling a blob of mud. It has a 20% chance to reduce the target's Speed.
 The user attacks by hurling a blob of mud. It has a 20% chance to reduce the target's Speed.
 The user attacks while balled up. This counts as a usage of Fury Cutter, Rock Roll, or Snowball.
@@ -34903,6 +34881,8 @@ The user throws a large rock at the target. If it misses, the user's Accuracy is
 The user throws a large rock at the target. If it misses, the user's Accuracy is raised.
 The user dances wildly while churning rocks towards the target. This raises the user's Attack by two steps.
 The user dances wildly while churning rocks towards the target. This raises the user's Attack by two steps.
+The user rolls into the target. Its power doubles if it hits in succession.
+The user rolls into the target. Its power doubles if it hits in succession.
 If this move misses, the target is forced to switch out. Always goes last.
 If this move misses, the target is forced to switch out. Always goes last.
 The user grinds stone into shrapnel and sprays it at the target. This has a 50% chance to fracture it.
@@ -34951,8 +34931,6 @@ The foe is stabbed once by each of the user's stingers.
 The foe is stabbed once by each of the user's stingers.
 The user makes a plea for survival, halving the damage their side takes from non-attack sources for 8 turns.
 The user makes a plea for survival, halving the damage their side takes from non-attack sources for 8 turns.
-The user calls out its underlings to annoy the target with buzzing sounds, dizzying it.
-The user calls out its underlings to annoy the target with buzzing sounds, dizzying it.
 The user prepares its weapons, raising Attack by six steps but lowering Speed by six steps.
 The user prepares its weapons, raising Attack by six steps but lowering Speed by six steps.
 The user rakes the target with sharp claws.
@@ -35047,8 +35025,8 @@ The user slashes with gusto, inspiring its allies to follow up by using Slash on
 The user slashes with gusto, inspiring its allies to follow up by using Slash on the target.
 The user uses gunpowder to rocket at its foe. It has a 30% chance to raise its Speed.
 The user uses gunpowder to rocket at its foe. It has a 30% chance to raise its Speed.
-The user becomes a pain train. It has a 10% chance to raise the user's Speed.
-The user becomes a pain train. It has a 10% chance to raise the user's Speed.
+The user becomes a pain train. It has a 20% chance to raise the user's Speed.
+The user becomes a pain train. It has a 20% chance to raise the user's Speed.
 A reckless maneuver that forces the user to switch out if it misses. Always goes first.
 A reckless maneuver that forces the user to switch out if it misses. Always goes first.
 Inflicts physical or special damage, whichever deals more. Then, raises Attack or Sp. Atk, whichever wasn't used.
@@ -35103,6 +35081,8 @@ The user sprays mining waste at the target. It has a 30% chance to poison.
 The user sprays mining waste at the target. It has a 30% chance to poison.
 The user slashes at the target with a steel blade. Super effective versus Dragon-types.
 The user slashes at the target with a steel blade. Super effective versus Dragon-types.
+The user stabs the target with a sharp horn. Can't miss and skips protections.
+The user stabs the target with a sharp horn. Can't miss and skips protections.
 The user heals itself for half of their max HP, and extends the current weather by one turn.
 The user heals itself for half of their max HP, and extends the current weather by one turn.
 The user enters a protective stance, raising its Sp. Atk and Defense by two steps.
@@ -35167,6 +35147,8 @@ Cloaked in flames, the user dances wildly, raising its Sp. Atk by two steps.
 Cloaked in flames, the user dances wildly, raising its Sp. Atk by two steps.
 The user conserves for future attacks. This raises its Sp. Atk, Sp. Def, and Accuracy by two steps.
 The user conserves for future attacks. This raises its Sp. Atk, Sp. Def, and Accuracy by two steps.
+Summons sunshine for six turns, boosting Fire-type attacks and hindering most others.
+Summons sunshine for six turns, boosting Fire-type attacks and hindering most others.
 The user attacks twice with tar globs. If two targets, the hits spread. Reduces targets' Speed.
 The user attacks twice with tar globs. If two targets, the hits spread. Reduces targets' Speed.
 The user launches volcanic debris, dealing damage and setting a hazard layer of burning spikes around the target.
@@ -35219,6 +35201,8 @@ The user opens a spring to blast the target, also forming an Aqua Ring around th
 The user opens a spring to blast the target, also forming an Aqua Ring around themselves, healing 10% HP per turn.
 Attacks with pressurized water. Deals 50% more damage if the user has been hurt by the foe in the same turn.
 Attacks with pressurized water. Deals 50% more damage if the user has been hurt by the foe in the same turn.
+Summons rainstorm for six turns, boosting Water-type attacks and hindering most others.
+Summons rainstorm for six turns, boosting Water-type attacks and hindering most others.
 The user rams its sharp face right into the target. Lowers the user's Speed by three steps.
 The user rams its sharp face right into the target. Lowers the user's Speed by three steps.
 The user crashes into the target on a ripping current. This waterlogs the target.
@@ -35267,10 +35251,10 @@ The user drops some heads from high up. The taller the user compared to the targ
 The user drops some heads from high up. The taller the user compared to the target, the greater the damage.
 The user flicks its thorns, dealing damage and setting a hazard layer of poison spikes around the target.
 The user flicks its thorns, dealing damage and setting a hazard layer of poison spikes around the target.
-The user attacks with the bursting power of nature. It has a 10% chance to raise user's Sp. Atk.
-The user attacks with the bursting power of nature. It has a 10% chance to raise user's Sp. Atk.
-The user fires a small bolt of energy at the target. It has a 10% chance to raise user's Sp. Atk.
-The user fires a small bolt of energy at the target. It has a 10% chance to raise user's Sp. Atk.
+The user attacks with the bursting power of nature. It has a 20% chance to raise user's Sp. Atk.
+The user attacks with the bursting power of nature. It has a 20% chance to raise user's Sp. Atk.
+The user fires a small bolt of energy at the target. It has a 20% chance to raise user's Sp. Atk.
+The user fires a small bolt of energy at the target. It has a 20% chance to raise user's Sp. Atk.
 The target is disoriented by an explosive seed. It has a 30% chance to dizzy.
 The target is disoriented by an explosive seed. It has a 30% chance to dizzy.
 Round objects are hurled at the target to strike three times in a row.
@@ -35305,6 +35289,8 @@ A parasitic seed leeches the target and reduces both its Attack and Sp. Atk.
 A parasitic seed leeches the target and reduces both its Attack and Sp. Atk.
 The user and the target each share their highest stat step with the other.
 The user and the target each share their highest stat step with the other.
+Attacks by gliding on the ground. This move always goes first in sunshine.
+Attacks by gliding on the ground. This move always goes first in sunshine.
 The user calms itself and its teammates, raise its Sp. Def by three steps, and its allies' by one.
 The user calms itself and its teammates, raise its Sp. Def by three steps, and its allies' by one.
 A nutrient-draining attack. The user's HP is restored by 75% of the damage dealt.
@@ -35319,6 +35305,8 @@ The user whips their legs into the target like a plant. This has a 10% chance of
 The user whips their legs into the target like a plant. This has a 10% chance of leeching.
 The user assists an ally's next move, boosting its power by 50% and letting it move right after the user.
 The user assists an ally's next move, boosting its power by 50% and letting it move right after the user.
+A flare of electricity creates a bright light, damaging all nearby battlers.
+A flare of electricity creates a bright light, damaging all nearby battlers.
 The user charges, can used instantly for half of its power.
 The user charges, can used instantly for half of its power.
 For the rest of the round, the target's healing is reversed. Always goes first.
@@ -35347,6 +35335,8 @@ The target is pranked by an electric jolt. They are taunted and unable to use st
 The target is pranked by an electric jolt. They are taunted and unable to use status moves for three turns.
 The user strikes the enemy while coated with electricity. It has a 10% chance to numb.
 The user strikes the enemy while coated with electricity. It has a 10% chance to numb.
+Electricity is generated to beam intense light directly at the target. This has a 30% chance to numb.
+Electricity is generated to beam intense light directly at the target. This has a 30% chance to numb.
 The user dances with the speed of lightning, raising its Sp. Atk by two steps and Speed by one.
 The user dances with the speed of lightning, raising its Sp. Atk by two steps and Speed by one.
 The user slams down into the target with electricity. It has a 10% chance to numb.
@@ -35397,12 +35387,16 @@ Astral energy explodes around the target. This move always goes first. The user 
 Astral energy explodes around the target. This move always goes first. The user also takes 50% recoil.
 By sacrificing half its total HP, the user makes the target fall asleep.
 By sacrificing half its total HP, the user makes the target fall asleep.
+The user's HP is restored by 50% of the damage dealt. Power doubles if the foe is asleep.
+The user's HP is restored by 50% of the damage dealt. Power doubles if the foe is asleep.
 Doubles in power if the foe is asleep. The user's HP is restored by 50% the damage dealt. This can overheal.
 Doubles in power if the foe is asleep. The user's HP is restored by 50% the damage dealt. This can overheal.
 Summons eclipse for six turns, boosting Psychic-type attacks and heralding the total eclipse.
 Summons eclipse for six turns, boosting Psychic-type attacks and heralding the total eclipse.
 The user employs psychic power to switch its unmodified Sp. Atk with its unmodified Sp. Def.
 The user employs psychic power to switch its unmodified Sp. Atk with its unmodified Sp. Def.
+The user slashes the target with aura-enriched wings. This boosts the user's Speed by two steps.
+The user slashes the target with aura-enriched wings. This boosts the user's Speed by two steps.
 The user psychically exploits weak points in the target's mind. Can random critical hit, and does so twice as often.
 The user psychically exploits weak points in the target's mind. Can random critical hit, and does so twice as often.
 The user psychically modifies its own genes, transforming into either Overmatter form or Overmind form.
@@ -35419,8 +35413,8 @@ The user psychically alters the target's brain to forget. This move disables the
 The user psychically alters the target's brain to forget. This move disables the target's last move.
 The user syncs its mind with its teammates, raising its Sp. Atk by three steps, and its allies' by one.
 The user syncs its mind with its teammates, raising its Sp. Atk by three steps, and its allies' by one.
-The target is hit by a weak telekinetic force. It has a 10% chance to lower the target's Sp. Def.
-The target is hit by a weak telekinetic force. It has a 10% chance to lower the target's Sp. Def.
+The target is hit by a weak telekinetic force. It has a 20% chance to lower the target's Sp. Def.
+The target is hit by a weak telekinetic force. It has a 20% chance to lower the target's Sp. Def.
 The user spends 50% HP to create a Substitute. If successful, the user's Speed is raised by four steps.
 The user spends 50% HP to create a Substitute. If successful, the user's Speed is raised by four steps.
 The user creates an odd area for eight turns in which Pokémon's offensive and defensive stats are swapped.
@@ -35553,6 +35547,8 @@ The user shakes the target with a deep, rumbling roar. This attack does physical
 The user shakes the target with a deep, rumbling roar. This attack does physical damage.
 Protects the user from attacks. If an eclipse is active, extends it by one turn. Fails if used in succession.
 Protects the user from attacks. If an eclipse is active, extends it by one turn. Fails if used in succession.
+The user flies high up into the air at supersonic speeds, charging and becoming invulnerable. It does more damage the faster the user is.
+The user flies high up into the air at supersonic speeds, charging and becoming invulnerable. It does more damage the faster the user is.
 The user looms over the target with awful menace, lowering their highest stat by four steps.
 The user looms over the target with awful menace, lowering their highest stat by four steps.
 Attacks all near others with dragon energy. Power increases by 50% in eclipse.
@@ -35581,8 +35577,8 @@ Darkness rolls over the field, damaging all other Pokémon and setting Grey Mist
 Darkness rolls over the field, damaging all other Pokémon and setting Grey Mist for 5 turns.
 The user insults the target using a compliment. Their Attack and Sp. Atk are raised by three steps, but they hurt themselves in confusion.
 The user insults the target using a compliment. Their Attack and Sp. Atk are raised by three steps, but they hurt themselves in confusion.
-Damages all near foes by summoning a miniature black hole. Gravity is intensified for five turns.
-Damages all near foes by summoning a miniature black hole. Gravity is intensified for five turns.
+Bites a hole in reality, creating a black hole to damage all near foes. Gravity is intensified for five turns.
+Bites a hole in reality, creating a black hole to damage all near foes. Gravity is intensified for five turns.
 The user removes the energy and light around the target. Super effective vs Electric-types.
 The user removes the energy and light around the target. Super effective vs Electric-types.
 This attack deals 50% more damage if the target has any raised or lowered stat steps.
@@ -35719,6 +35715,8 @@ The user causes the target to trip and fall. This has a 50% chance of jinxing th
 The user causes the target to trip and fall. This has a 50% chance of jinxing them.
 Attacks nearby foes with a misty explosion. User is damaged for 50% of their current HP.
 Attacks nearby foes with a misty explosion. User is damaged for 50% of their current HP.
+The user disappears in a cloud of mist, charging and becoming invulnerable. On the next turn, the target becomes Jinxed and Frostbitten.
+The user disappears in a cloud of mist, charging and becoming invulnerable. On the next turn, the target becomes Jinxed and Frostbitten.
 Summons moonglow for six turns, boosting Fairy-type attacks and heralding the Full Moon.
 Summons moonglow for six turns, boosting Fairy-type attacks and heralding the Full Moon.
 The user invokes forbidden celestial powers to smite the target.
@@ -36616,8 +36614,6 @@ Battle Report
 Battle Report
 Milk Bone Treat
 Milk Bone Treat
-Primal Clay
-Primal Clay
 OmniDrive
 OmniDrive
 Ancient Sea Water
@@ -36690,6 +36686,12 @@ VIP Card
 VIP Card
 Ominous Egg
 Ominous Egg
+Smart Phone
+Smart Phone
+Primal Bead
+Primal Bead
+Primal Clay
+Primal Clay
 Choice Crown
 Choice Crown
 Zenith Band
@@ -37495,8 +37497,6 @@ Battle Reports
 Battle Reports
 Milk Bone Treats
 Milk Bone Treats
-Primal Clay
-Primal Clay
 OmniDrives
 OmniDrives
 Ancient Sea Water
@@ -37569,6 +37569,12 @@ VIP Cards
 VIP Cards
 Ominous Eggs
 Ominous Eggs
+Smart Phones
+Smart Phones
+Primal Bead
+Primal Bead
+Primal Clay
+Primal Clay
 Choice Crowns
 Choice Crowns
 Zenith Bands
@@ -38368,8 +38374,6 @@ A detailed report on how to improve as a trainer. If you decide to read it, your
 A detailed report on how to improve as a trainer. If you decide to read it, your level cap will be raised by 5.
 It would be a delicious treat if you were a Pokémon.
 It would be a delicious treat if you were a Pokémon.
-A lump of ancient clay. It glows with a soft golden color.
-A lump of ancient clay. It glows with a soft golden color.
 A mysterious data storage device. Plug it into any PC to unlock The Omnitutor.
 A mysterious data storage device. Plug it into any PC to unlock The Omnitutor.
 A vial of shimmering ocean water. It makes a certain Pokémon evolve.
@@ -38442,6 +38446,12 @@ A glamorous steel card. While holding it, all vendors cost 10% less and Pokécen
 A glamorous steel card. While holding it, all vendors cost 10% less and Pokécenter Marts have extra items.
 A vessel for negative emotions. Perfectly defeat enough trainers to earn its rewards.
 A vessel for negative emotions. Perfectly defeat enough trainers to earn its rewards.
+A smart phone. Use it to take selfies.
+A smart phone. Use it to take selfies.
+A drop of ancient clay. Use it to summon a Pokemon from a resonating totem.
+A drop of ancient clay. Use it to summon a Pokemon from a resonating totem.
+A lump of ancient clay. Allows you to summon any number of Pokemon from resonating totems.
+A lump of ancient clay. Allows you to summon any number of Pokemon from resonating totems.
 Held item which ups Attacking stats and Speed by 50%, but allows the use of only one move.
 Held item which ups Attacking stats and Speed by 50%, but allows the use of only one move.
 Held item which doubles Attack, but allows the use of only one move.
@@ -38549,8 +38559,6 @@ User heals 1/16th HP every turn. Will sacrifice itself to cure the user of statu
 An item to test the PBS Extensions feature. It can be sold to shops for $1.
 An item to test the PBS Extensions feature. It can be sold to shops for $1.
 [10]
-Adapted
-Adapted
 Air Lock
 Air Lock
 Analytic
@@ -38739,8 +38747,6 @@ Prism Armor
 Prism Armor
 Protean
 Protean
-Pure Force
-Pure Force
 Rain Dish
 Rain Dish
 Reckless
@@ -38757,8 +38763,6 @@ Rough Skin
 Rough Skin
 Sand Rush
 Sand Rush
-Sand Shroud
-Sand Shroud
 Sand Stream
 Sand Stream
 Sap Sipper
@@ -38839,6 +38843,8 @@ Unaware
 Unaware
 Unburden
 Unburden
+Unnerve
+Unnerve
 Unseen Fist
 Unseen Fist
 Victory Star
@@ -38855,8 +38861,6 @@ Water Bubble
 Water Bubble
 Weak Armor
 Weak Armor
-White Smoke
-White Smoke
 Wimp Out
 Wimp Out
 Wonder Guard
@@ -38867,6 +38871,8 @@ Accumulation
 Accumulation
 Acid Rain
 Acid Rain
+Adapted
+Adapted
 Adaptive Skin
 Adaptive Skin
 Adrenaline Rush
@@ -38905,8 +38911,6 @@ Arctic Ariette
 Arctic Ariette
 Armor Piercing
 Armor Piercing
-Aromatic
-Aromatic
 Assault Spines
 Assault Spines
 Assistant
@@ -38991,6 +38995,8 @@ Candy Veil
 Candy Veil
 Cash Out
 Cash Out
+Celeritas
+Celeritas
 Challenger
 Challenger
 Chilled Body
@@ -39119,6 +39125,8 @@ Ephemerate
 Ephemerate
 Erudite
 Erudite
+Event Horizon
+Event Horizon
 Excavator
 Excavator
 Exorcist
@@ -39281,6 +39289,8 @@ Heartless
 Heartless
 Heart of Justice
 Heart of Justice
+Heat Death
+Heat Death
 Heat Savor
 Heat Savor
 Heat Veil
@@ -39569,6 +39579,8 @@ Punisher
 Punisher
 Pure Energy
 Pure Energy
+Pure Force
+Pure Force
 Pure Rage
 Pure Rage
 Puzzling
@@ -39635,6 +39647,8 @@ Safe Passage
 Safe Passage
 Sand Burst
 Sand Burst
+Sand Shroud
+Sand Shroud
 Sands Macabre
 Sands Macabre
 Sand Sniper
@@ -39867,8 +39881,6 @@ Unfazed
 Unfazed
 Unidentified
 Unidentified
-Unnerve
-Unnerve
 Vandal
 Vandal
 Vengeance
@@ -39974,8 +39986,6 @@ Thunderstorm
 Test Ability
 Test Ability
 [11]
-Powers up moves of the same type by 33%.
-Powers up moves of the same type by 33%.
 Suppresses the effects of weather.
 Suppresses the effects of weather.
 Boosts move power when the Pokémon moves last by 30%.
@@ -40164,8 +40174,6 @@ The Pokémon receives 25% less move damage from super-effective attacks.
 The Pokémon receives 25% less move damage from super-effective attacks.
 It changes type to that of the move it's about to use.
 It changes type to that of the move it's about to use.
-Raises the Pokémon's Attack by 50%, including Style Values and other bonuses.
-Raises the Pokémon's Attack by 50%, including Style Values and other bonuses.
 Heals 1/8th of its max HP each turn if in rainstorm.
 Heals 1/8th of its max HP each turn if in rainstorm.
 Powers up moves that have recoil damage by 30%.
@@ -40180,8 +40188,6 @@ Protects the Pokémon from recoil damage.
 Protects the Pokémon from recoil damage.
 Doubles the Pokémon's Speed in a sandstorm.
 Doubles the Pokémon's Speed in a sandstorm.
-Takes 30% less damage in a sandstorm.
-Takes 30% less damage in a sandstorm.
 Summons a sandstorm for 4 turns when it enters battle.
 Summons a sandstorm for 4 turns when it enters battle.
 Immune to Grass-type moves, and raises Attack and Sp. Atk when hit by one.
@@ -40262,6 +40268,8 @@ Ignores modified Defense and Sp. Def while attacking, and ignores modified Attac
 Ignores modified Defense and Sp. Def while attacking, and ignores modified Attack and Sp. Atk while being attacked.
 Doubles the Pokémon's Speed if its held item is consumed or lost.
 Doubles the Pokémon's Speed if its held item is consumed or lost.
+Makes the foe nervous and unable to eat Berries or Leftovers.
+Makes the foe nervous and unable to eat Berries or Leftovers.
 Physical moves negate all protection effects.
 Physical moves negate all protection effects.
 Doubles the Accuracy, critical hit rate, and chance to activate random added effects for its allies and itself.
@@ -40288,6 +40296,8 @@ The Pokémon gains twice as many stats from leveling up.
 The Pokémon gains twice as many stats from leveling up.
 At the end of each turn in rainstorm, each Pokémon not immune to rainstorm has their Defense and Sp. Def lowered.
 At the end of each turn in rainstorm, each Pokémon not immune to rainstorm has their Defense and Sp. Def lowered.
+Powers up moves of the same type by 33%.
+Powers up moves of the same type by 33%.
 After being hit, the Pokémon raises either Defense or Sp. Def based on the attack's category. Caps out at +4.
 After being hit, the Pokémon raises either Defense or Sp. Def based on the attack's category. Caps out at +4.
 Raises Speed by four steps when its HP is lowered below half.
@@ -40326,8 +40336,6 @@ Sound-based attacks turn Ice-type and are boosted by 30%.
 Sound-based attacks turn Ice-type and are boosted by 30%.
 Deals double damage against Pokémon that have raised defenses or that are protected by a screen.
 Deals double damage against Pokémon that have raised defenses or that are protected by a screen.
-Uses Aromatherapy if an attack lowers its HP to half or below.
-Uses Aromatherapy if an attack lowers its HP to half or below.
 Doubles Sp. Def, but the Pokémon can't use status moves.
 Doubles Sp. Def, but the Pokémon can't use status moves.
 Uses Assist upon entry, using a random move known by a party member.
@@ -40412,6 +40420,8 @@ Prevents itself and allies from being poisoned, leeched, or waterlogged.
 Prevents itself and allies from being poisoned, leeched, or waterlogged.
 Upon entry, consumes scattered coins to heal for 1/10th the amount consumed. This can overheal.
 Upon entry, consumes scattered coins to heal for 1/10th the amount consumed. This can overheal.
+The Pokémon's Speed is doubled while using light-based moves.
+The Pokémon's Speed is doubled while using light-based moves.
 Immune to Fighting-type moves, and raises Attack and Sp. Atk if hit by one.
 Immune to Fighting-type moves, and raises Attack and Sp. Atk if hit by one.
 Physical moves against the Pokémon have a 30% chance to frostbite the attacker.
@@ -40540,6 +40550,8 @@ Eclipse counts down twice as quickly.
 Eclipse counts down twice as quickly.
 Powers up Psychic-type moves by 50%.
 Powers up Psychic-type moves by 50%.
+Changes the weather to star storm, which increases its damage over time. Lingers for 3 turns after leaving.
+Changes the weather to star storm, which increases its damage over time. Lingers for 3 turns after leaving.
 Dig and Undermine deal 50% more damage.
 Dig and Undermine deal 50% more damage.
 Takes half damage from Psychic- and Ghost-type attacks.
@@ -40700,6 +40712,8 @@ Immune to Fairy-type moves and restores 25% of max HP if hit by one. This can ov
 Immune to Fairy-type moves and restores 25% of max HP if hit by one. This can overheal.
 Immune to Dark-type moves, and boosts Attack and Sp. Atk when hit by one.
 Immune to Dark-type moves, and boosts Attack and Sp. Atk when hit by one.
+Changes the weather to ice age, which damages and prevents healing. Lingers for 3 turns after leaving.
+Changes the weather to ice age, which damages and prevents healing. Lingers for 3 turns after leaving.
 Heals by 1/8th of its max HP each turn if in sunshine.
 Heals by 1/8th of its max HP each turn if in sunshine.
 Doubles the Pokémon's Sp. Def in sunshine.
@@ -40988,6 +41002,8 @@ Special moves against the Pokémon have a 30% chance to leech the attacker.
 Special moves against the Pokémon have a 30% chance to leech the attacker.
 Raises the Pokémon's Sp. Atk by 50%, including Style Values and other bonuses.
 Raises the Pokémon's Sp. Atk by 50%, including Style Values and other bonuses.
+Raises the Pokémon's Attack by 50%, including Style Values and other bonuses.
+Raises the Pokémon's Attack by 50%, including Style Values and other bonuses.
 The Pokémon's Dragon-type hits deal additional damage equal to half the Pokémon's level.
 The Pokémon's Dragon-type hits deal additional damage equal to half the Pokémon's level.
 Upon entry, creates a Puzzle Room for four turns, swapping unmodified Attack and Sp. Atk.
@@ -41028,8 +41044,8 @@ Critical hits lower all of the victim's stats.
 Critical hits lower all of the victim's stats.
 Immune to Dark-type and Bug-type moves.
 Immune to Dark-type and Bug-type moves.
-Spread moves deal 25% more damage instead of 25% less.
-Spread moves deal 25% more damage instead of 25% less.
+Spread moves hitting multiple targets deal 50% more damage.
+Spread moves hitting multiple targets deal 50% more damage.
 When the Pokémon eats a Berry, it raises its Attack and Sp. Atk by two steps.
 When the Pokémon eats a Berry, it raises its Attack and Sp. Atk by two steps.
 Heals 1/8th of its max HP each turn during sandstorm.
@@ -41054,6 +41070,8 @@ Doubles Defense in rainstorm.
 Doubles Defense in rainstorm.
 Summons a sandstorm for four turns when hit by an attack.
 Summons a sandstorm for four turns when hit by an attack.
+Takes 30% less damage in a sandstorm.
+Takes 30% less damage in a sandstorm.
 When it attacks from underground in sandstorm, it'll transform into Reaper form.
 When it attacks from underground in sandstorm, it'll transform into Reaper form.
 Boosts the Pokémon's Speed by 50% in sandstorm. Can't miss during sandstorm.
@@ -41196,8 +41214,8 @@ Powers up Ice-type moves by 50%.
 Powers up Ice-type moves by 50%.
 Special moves against the Pokémon have a 30% chance to frostbite the attacker.
 Special moves against the Pokémon have a 30% chance to frostbite the attacker.
-Uses Rapid Spin after its first attack to clear hazards, raise Speed, and deal damage.
-Uses Rapid Spin after its first attack to clear hazards, raise Speed, and deal damage.
+Uses Rapid Spin if an attack lowers its HP to half or below.
+Uses Rapid Spin if an attack lowers its HP to half or below.
 Boosts Sp. Atk by 30% in hail.
 Boosts Sp. Atk by 30% in hail.
 At the end of each turn in sunshine, each Pokémon not immune to sunshine has their Defense and Sp. Def lowered.
@@ -41280,8 +41298,6 @@ Takes 20% less damage from neutrally effective attacks.
 Takes 20% less damage from neutrally effective attacks.
 The Pokémon is Mutant-type.
 The Pokémon is Mutant-type.
-Makes the foe nervous and unable to eat Berries or Leftovers.
-Makes the foe nervous and unable to eat Berries or Leftovers.
 Deals 30% more damage to targets that have an item. After attacking a foe, destroys their clothing items.
 Deals 30% more damage to targets that have an item. After attacking a foe, destroys their clothing items.
 After an attack reduces its HP to half or less, deals 1/4 of the attacker's HP back to the attacker.
@@ -41348,16 +41364,16 @@ Takes half damage from Dragon-, Fairy-, and Ghost-type attacks. Positive stat st
 Takes half damage from Dragon-, Fairy-, and Ghost-type attacks. Positive stat steps remain after switching.
 When the Pokémon's level is 25 or higher, it transforms into a member of its family depending on the type of the move it is about to use.
 When the Pokémon's level is 25 or higher, it transforms into a member of its family depending on the type of the move it is about to use.
-Turns the held item of a Pokémon it hits into coins. Upon entry, consumes coins to heal for 1/10th the amount consumed. This can overheal.
-Turns the held item of a Pokémon it hits into coins. Upon entry, consumes coins to heal for 1/10th the amount consumed. This can overheal.
+Turns the held item of a Pokémon it hits into coins. Consumes coins to heal for 1/10th the amount consumed when its HP becomes half or less. This can overheal.
+Turns the held item of a Pokémon it hits into coins. Consumes coins to heal for 1/10th the amount consumed when its HP becomes half or less. This can overheal.
 When knocks out any foe, it reverses its own timeline, changes to its initial state upon entering the battle.
 When knocks out any foe, it reverses its own timeline, changes to its initial state upon entering the battle.
 Boosts both one offending and defending stat by one step according to the foe's defenses and offenses.
 Boosts both one offending and defending stat by one step according to the foe's defenses and offenses.
 The power of its moves is increased by 20% every time it takes damage during Last Gasp.
 The power of its moves is increased by 20% every time it takes damage during Last Gasp.
-Attacks switching opponents with Pursuit.
-Attacks switching opponents with Pursuit.
+Attacks switching opponents with Pursuit if the Pokémon's HP is greater than 50%.
+Attacks switching opponents with Pursuit if the Pokémon's HP is greater than 50%.
 Adapts the move's type to ensure it is super-effective against the target.
 Adapts the move's type to ensure it is super-effective against the target.
 Adapts the move's type to ensure it is truly super-effective against the target.
@@ -44850,6 +44866,10 @@ Ring Eclipse
 Ring Eclipse
 Blood Moon
 Blood Moon
+Star Storm
+Star Storm
+Ice Age
+Ice Age
 Red
 Red
 Blue
@@ -45084,8 +45104,8 @@ Accuracy
 Accuracy
 Acc
 Acc
-Evasiveness
-Evasiveness
+Evasion
+Evasion
 Eva
 Eva
 Sleep
@@ -45788,18 +45808,22 @@ If you wish, you can turn this off in the options.
 \wm#{tutorialMessage}\wtnp<<[>>#{tutorialMessageDuration}<<]>><<1>>
 x{1:03d}
 x{1:03d}
-By the power of the Primal Clay, a {1} was created!
-By the power of the Primal Clay, a {1} was created!
+A {1} was created!
+A {1} was created!
 The chosen waypoint is somehow invalid.
 The chosen waypoint is somehow invalid.
 Removing access.
 Removing access.
 The totem pulses with the frequency of {1}.
 The totem pulses with the frequency of {1}.
-Use the {1} to summon {2}?
-Use the {1} to summon {2}?
+\i[{1}]Activate the {2} to summon {3}?
+\i[{1}]Activate the {2} to summon {3}?
 The totem returns to its original state.
 The totem returns to its original state.
+\i[{1}]Expend the {2} to summon {3}?
+\i[{1}]Expend the {2} to summon {3}?
+The {1} was consumed in the summoning.
+The {1} was consumed in the summoning.
 You sense an powerful presence trying to manifest on this spot.
 You sense an powerful presence trying to manifest on this spot.
 However, you seem to lack a way to interact with it.
@@ -45808,8 +45832,6 @@ An Avatar Totem is partially manifested on this spot.
 An Avatar Totem is partially manifested on this spot.
 It pulses with the frequency of {1}.
 It pulses with the frequency of {1}.
-Use the Primal Clay to summon {1}?
-Use the Primal Clay to summon {1}?
 The summoning spot exhausted its energy.
 The summoning spot exhausted its energy.
 A mystical Avatar Totem. You sense it has some purpose, long lost to time.
@@ -48674,6 +48696,10 @@ The Visitation of the Illusive Inevitable: Landfall
 The Visitation of the Illusive Inevitable: Landfall
 Yezera won't leave the battle early. This is a true fight!
 Yezera won't leave the battle early. This is a true fight!
+Cruel Cocoon is continually active on the opposing side.
+Cruel Cocoon is continually active on the opposing side.
+Misdirecting Fog is continually active on the opposing side.
+Misdirecting Fog is continually active on the opposing side.
 In Our Equality, Disparity; from Injustice Settled Scales
 In Our Equality, Disparity; from Injustice Settled Scales
 Bence and Zoé are using 5 battlers each. This is a big battle!
@@ -48716,6 +48742,8 @@ Pyres raised<<n>>Here we meet<<n>>Spirits razed<<n>>Reduced to meat
 Pyres raised<<n>>Here we meet<<n>>Spirits razed<<n>>Reduced to meat
 Status conditions affect your Pokémon twice as much!<<n>>Foes ignore the Status Clause!
 Status conditions affect your Pokémon twice as much!<<n>>Foes ignore the Status Clause!
+Turbulent Sky is continually active on the opposing side.
+Turbulent Sky is continually active on the opposing side.
 Shall Our Truth Lay Asunder Thy Masque and Thee?
 Shall Our Truth Lay Asunder Thy Masque and Thee?
 Whenever an enemy Pokémon enters at full health, it forms a substitute.
@@ -48740,6 +48768,8 @@ When enemy Pokémon faint, they deal a quarter of their HP as damage to their la
 When enemy Pokémon faint, they deal a quarter of their HP as damage to their last attacker.
 {1} takes its vengeance!
 {1} takes its vengeance!
+Primal Forest is continually active on the opposing side.
+Primal Forest is continually active on the opposing side.
 I chose a move!
 I chose a move!
 You chose a move!
@@ -48984,6 +49014,8 @@ But there were already pointed stones floating around {1}!
 But there were already pointed stones floating around {1}!
 But a live wire already sits near {1}!
 But a live wire already sits near {1}!
+{1} gobbles up the scattered coins!
+{1} gobbles up the scattered coins!
 {1}'s transforms with exposure to the Full Moon!
 {1}'s transforms with exposure to the Full Moon!
 {1} was shielded from {2} by {3}'s huge size!
@@ -49052,6 +49084,8 @@ But a live wire already sits near {1}!
 {1} refuses to fight!
 {1} is hopping mad!
 {1} is hopping mad!
+{1} is shining with light speed!
+{1} is shining with light speed!
 The strength is becoming a curse!
 The strength is becoming a curse!
 {1} is synchronizing data!
@@ -49090,8 +49124,6 @@ The effects of the weather disappeared.
 The effects of the weather disappeared.
 All stat changes were eliminated!
 All stat changes were eliminated!
-{1} gobbles up the scattered coins!
-{1} gobbles up the scattered coins!
 Which item should {1} drop?
 Which item should {1} drop?
 {1} dropped its {2}!
@@ -49214,6 +49246,10 @@ A planetary ring dominates the skyline.
 A planetary ring dominates the skyline.
 The moon is taken by a nightmare.
 The moon is taken by a nightmare.
+Stardust churns all around.
+Stardust churns all around.
+An ice age is here.
+An ice age is here.
 You can skip the battle and treat it as a win by FORFEIT!
 You can skip the battle and treat it as a win by FORFEIT!
 You have to win the battle PERFECTLY, or you LOSE!
@@ -49356,6 +49392,10 @@ The planetary ring tightens its grip!
 The planetary ring tightens its grip!
 The nightmarish moon is unending!
 The nightmarish moon is unending!
+The star storm continues!
+The star storm continues!
+The ice age may go on forever!
+The ice age may go on forever!
 The sun is shining in the sky!
 The sun is shining in the sky!
 A rainstorm covers the sky!
@@ -49378,6 +49418,10 @@ A planetary ring dominates the sky!
 A planetary ring dominates the sky!
 A nightmare possessed the moon!
 A nightmare possessed the moon!
+Stardust is churning around!
+Stardust is churning around!
+An ice age began!
+An ice age began!
 The sunshine faded.
 The sunshine faded.
 The rainstorm stopped.
@@ -49400,6 +49444,10 @@ The planetary ring flew off!
 The planetary ring flew off!
 The nightmare is purged from the moon!
 The nightmare is purged from the moon!
+The star storm ceases!
+The star storm ceases!
+The ice age makes way!
+The ice age makes way!
 The harsh sunlight began to fade!
 The harsh sunlight began to fade!
 The heavy rain began to lift!
@@ -49410,6 +49458,10 @@ The planetary ring begins to lose its grip!
 The planetary ring begins to lose its grip!
 The nightmare moon begins to retreat!
 The nightmare moon begins to retreat!
+The barrage of stardust shows signs of stopping!
+The barrage of stardust shows signs of stopping!
+The ice age begins to end!
+The ice age begins to end!
 The {1} would be extended, but it's already indefinite!
 The {1} would be extended, but it's already indefinite!
 The {1} extends by a turn!
@@ -49426,6 +49478,14 @@ The skyline is still dominated by a planet!
 The skyline is still dominated by a planet!
 The nightmarish moon is unaffected!
 The nightmarish moon is unaffected!
+The star storm is unstoppable!
+The star storm is unstoppable!
+The ice age is still in control!
+The ice age is still in control!
+The stardust expands! Its damage has doubled!
+The stardust expands! Its damage has doubled!
+The stardust expands yet again!
+The stardust expands yet again!
 The Total Ring Eclipse arrives!
 The Total Ring Eclipse arrives!
 The Total Eclipse arrives!
@@ -49458,10 +49518,26 @@ The Full Blood Moon is approaching.
 {1} absorbs the suffering from the hailstorm.
 {1} absorbs the suffering from the sandstorm
 {1} absorbs the suffering from the sandstorm
+{1} is shredded by gigantic particles of iron stardust!
+{1} is shredded by gigantic particles of iron stardust!
+{1} is buffeted by gigantic particles of stardust!
+{1} is buffeted by gigantic particles of stardust!
+{1} is shredded by large particles of iron stardust!
+{1} is shredded by large particles of iron stardust!
+{1} is buffeted by large particles of stardust!
+{1} is buffeted by large particles of stardust!
+{1} is shredded by iron stardust!
+{1} is shredded by iron stardust!
+{1} is buffeted by stardust!
+{1} is buffeted by stardust!
 {1} is shredded by the iron-infused sandstorm!
 {1} is shredded by the iron-infused sandstorm!
 {1} is buffeted by the sandstorm!
 {1} is buffeted by the sandstorm!
+{1} is pummeled by the bitterly cold shards of ice!
+{1} is pummeled by the bitterly cold shards of ice!
+{1} is buffeted by shards of ice!
+{1} is buffeted by shards of ice!
 {1} is pummeled by the bitterly cold hail!
 {1} is pummeled by the bitterly cold hail!
 {1} is buffeted by the hail!
@@ -50166,6 +50242,8 @@ The effects of the {1} prevent status moves from being used!
 {1} must recharge!
 {1} is still attached to {2}!
 {1} is still attached to {2}!
+A flicker of pity passes through {1}'s eyes, it has no desire to lower itself to this battle!
+A flicker of pity passes through {1}'s eyes, it has no desire to lower itself to this battle!
 {1} refuses to battle!
 {1} refuses to battle!
 {1} is loafing around!
@@ -50298,8 +50376,6 @@ Also, critical hits are now possible on all of {1}'s attacks!
 {1} was prevented from healing!
 {1} broke free of the Heal Block!
 {1} broke free of the Heal Block!
-{1} can use healing again!
-{1} can use healing again!
 {1}'s illusion wore off!
 {1}'s illusion wore off!
 {1}'s shared moves were sealed!
@@ -50768,8 +50844,8 @@ A fog covered {1}!
 A fog covered {1}!
 The fog on {1}'s side was dispelled!
 The fog on {1}'s side was dispelled!
-The Swamp on {1}'s side dissipated.
-The Swamp on {1}'s side dissipated.
+The fog on {1}'s side dissipated.
+The fog on {1}'s side dissipated.
 A primal forest surrounded {1}!
 A primal forest surrounded {1}!
 The primal forest on {1}'s side was removed!
@@ -50814,18 +50890,22 @@ Each rock on the ground around {1} was absorbed!
 Each rock on the ground around {1} was absorbed!
 {1} recovered all the way to full health!
 {1} recovered all the way to full health!
-{1} is regrowing.
-{1} is regrowing.
+The opposing {1} recovered all the way to full health!
+The opposing {1} recovered all the way to full health!
+{1} is regrowing!
+{1} is regrowing!
+The opposing {1} is regrowing!
+The opposing {1} is regrowing!
 {1} remembers its fears!
 {1} remembers its fears!
 {1} coins were scattered to the ground!
 {1} coins were scattered to the ground!
 {1} remembers its honor!
 {1} remembers its honor!
-{1} was restored to full health!
-{1} was restored to full health!
-The opposing {1} was restored to full health!
-The opposing {1} was restored to full health!
+{1} recovered to full health!
+{1} recovered to full health!
+The opposing {1} recovered to full health!
+The opposing {1} recovered to full health!
 {1} is reviving!
 {1} is reviving!
 The opposing {1} is reviving!
@@ -51526,6 +51606,8 @@ But it failed, since the target is already marked for death!
 {1}'s wings start glowing!
 {1} flew up high!
 {1} flew up high!
+{1} disappears into mist!
+{1} disappears into mist!
 {1} burrowed its way under the ground!
 {1} burrowed its way under the ground!
 The ground rumbles violently underneath {1}!
@@ -51632,8 +51714,6 @@ But it failed, since the target can't be disabled!
 But it failed, since the target can't be disabled!
 But it failed, since {1} is already taunted!
 But it failed, since {1} is already taunted!
-But it failed, since the target's healing is already blocked!
-But it failed, since the target's healing is already blocked!
 But it failed, since {1} is already locked into an encore!
 But it failed, since {1} is already locked into an encore!
 But it failed, since {1} can't be locked into {2}!
@@ -51690,6 +51770,48 @@ But it failed, since {1} is not Ice-type!
 {1}'s {2} barely saves it!
 {1} resists the recoil!
 {1} resists the recoil!
+Does more damage the more HP the user has left. Affected by Overhealing.
+Does more damage the more HP the user has left. Affected by Overhealing.
+Range 65-195
+Range 65-195
+<u>50% HP:</u> 65 BP
+<u>50% HP:</u> 65 BP
+<u>75% HP:</u> 95 BP
+<u>75% HP:</u> 95 BP
+<u>100% HP:</u> 130 BP
+<u>100% HP:</u> 130 BP
+<u>125% HP:</u> 160 BP
+<u>125% HP:</u> 160 BP
+<u>150% HP:</u> 195 BP
+<u>150% HP:</u> 195 BP
+Does more damage the slower the user is compared to the target. Range 40-150
+Does more damage the slower the user is compared to the target. Range 40-150
+<u>1/2 of the target's speed:</u> 50 BP
+<u>1/2 of the target's speed:</u> 50 BP
+<u>1/3 of the target's speed:</u> 75 BP
+<u>1/3 of the target's speed:</u> 75 BP
+<u>1/4 of the target's speed:</u> 100 BP
+<u>1/4 of the target's speed:</u> 100 BP
+<u>1/5 of the target's speed:</u> 125 BP
+<u>1/5 of the target's speed:</u> 125 BP
+<u>1/6 of the target's speed:</u> 150 BP
+<u>1/6 of the target's speed:</u> 150 BP
+Does more damage the lower the user's HP is. Range 25-200
+Does more damage the lower the user's HP is. Range 25-200
+<u>100% HP:</u> 25 BP
+<u>100% HP:</u> 25 BP
+<u>50% HP:</u> 50 BP
+<u>50% HP:</u> 50 BP
+<u>30% HP:</u> 70 BP
+<u>30% HP:</u> 70 BP
+<u>20% HP:</u> 100 BP
+<u>20% HP:</u> 100 BP
+<u>15% HP:</u> 120 BP
+<u>15% HP:</u> 120 BP
+<u>10% HP:</u> 165 BP
+<u>10% HP:</u> 165 BP
+<u>7.5% HP:</u> 200 BP
+<u>7.5% HP:</u> 200 BP
 {1} coins were used in the attack!
 {1} coins were used in the attack!
 There were no coins to use in the attack...
@@ -52544,10 +52666,10 @@ Editing your team is not allowed at the moment.
 Editing your team is not allowed at the moment.
 \se[Voltorb Flip level up]Ring ring...
 \se[Voltorb Flip level up]Ring ring...
-...It's {1}. Pick up the phone?
-...It's {1}. Pick up the phone?
-\se[Voltorb Flip mark]Click.
-\se[Voltorb Flip mark]Click.
+\i[SMARTPHONE]...It's {1}. Pick up the phone?
+\i[SMARTPHONE]...It's {1}. Pick up the phone?
+\i[SMARTPHONE]\se[Voltorb Flip mark]Click.
+\i[SMARTPHONE]\se[Voltorb Flip mark]Click.
 You no longer feel pumped up.
 You no longer feel pumped up.
 You've currently completed {1} percent of the Dex.
@@ -54702,6 +54824,12 @@ Check all trainer and avatar battles to find illegal elements.
 Check all trainer and avatar battles to find illegal elements.
 Any legality errors written into the console.
 Any legality errors written into the console.
+Analyze move availability
+Analyze move availability
+See the earliest available level of each move.
+See the earliest available level of each move.
+Move learn level analysis written to Analysis/move_levels.txt
+Move learn level analysis written to Analysis/move_levels.txt
 Test Wild Battle
 Test Wild Battle
 Start a single battle against a wild Pokémon. You choose the species/level.
@@ -55956,6 +56084,8 @@ Can't warp to any shards because they're all collected already!
 \ss\wm"We await you, o slayer..."
 \wmThe victor is \PN!\me[Bug catching 1st]
 \wmThe victor is \PN!\me[Bug catching 1st]
+The game has been updated, you must take on the challenge from scratch!
+The game has been updated, you must take on the challenge from scratch!
 The waiting room for tournament entrants is ahead.
 The waiting room for tournament entrants is ahead.
 Once you enter, you will not be able to interact with your team in any way until the tournament is complete.
@@ -55986,6 +56116,24 @@ Odds are displayed for the grand final, gathered from a spectator poll.
 Odds are displayed for the grand final, gathered from a spectator poll.
 Only 20 percent of respondents expect you to win against your brother.
 Only 20 percent of respondents expect you to win against your brother.
+third
+third
+fourth
+fourth
+fifth
+fifth
+sixth
+sixth
+seventh
+seventh
+eighth
+eighth
+nineth
+nineth
+tenth
+tenth
+eleventh
+eleventh
 Odds are displayed for the {1} round matches, gathered from a spectator poll.
 Odds are displayed for the {1} round matches, gathered from a spectator poll.
 {1} percent of respondents expect you to win against {2}.
@@ -57174,6 +57322,8 @@ Each turn, raises Speed by 4 steps and loses 1/8th max HP. If Speed was maxed, i
 Each turn, raises Speed by 4 steps and loses 1/8th max HP. If Speed was maxed, instead Speed and HP are reset.
 Comes out disguised as the Pokémon in back. Boosts move power by 20% in disguise.
 Comes out disguised as the Pokémon in back. Boosts move power by 20% in disguise.
+After fainting from exploding, revives after six turns, but requires above 50% HP if caused by others.
+After fainting from exploding, revives after six turns, but requires above 50% HP if caused by others.
 Copies opponents' species' legal Abilities.
 Copies opponents' species' legal Abilities.
 It changes secondary type to that of the pulse moves it's about to use.
@@ -57186,6 +57336,8 @@ Speed is raised by one step at the end of each of its turns.
 Speed is raised by one step at the end of each of its turns.
 The user's Speed is doubled while using kicking moves. Every third kicking hit must be a crit.
 The user's Speed is doubled while using kicking moves. Every third kicking hit must be a crit.
+The Pokémon is Mutant-type. If the Pokémon is Deoxys, it will have multiple movesets.
+The Pokémon is Mutant-type. If the Pokémon is Deoxys, it will have multiple movesets.
 Powers up Grass-type moves of itself and its allies by 30%.
 Powers up Grass-type moves of itself and its allies by 30%.
 A capsule that allows a Pokémon to switch to another Ability. Only used in Mono Ability Mode.
@@ -57238,8 +57390,8 @@ The field will exist forever!
 The field will exist forever!
 The field has already existed!
 The field has already existed!
-The field duration expanded to {1}!
-The field duration expanded to {1}!
+Its duration expanded to {1}!
+Its duration expanded to {1}!
 The field will last for {1} more turns!
 The field will last for {1} more turns!
 The field strengthened the attack
@@ -58750,16 +58902,16 @@ It's my favorite.
 It's my favorite.
 I'm just training it.
 I'm just training it.
+Tell her.
+Tell her.
+Don't tell her.
+Don't tell her.
 Illusions.
 Illusions.
 Myths made real.
 Myths made real.
 I don't care.
 I don't care.
-Tell her.
-Tell her.
-Don't tell her.
-Don't tell her.
 Yes, please.
 Yes, please.
 No, I'll go myself.

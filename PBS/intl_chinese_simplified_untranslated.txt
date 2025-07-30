@@ -221,10 +221,6 @@
 ...
 [Map188]
 [Map189]
-\PN…
-\PN…
-…
-…
 ...
 ...
 [Map190]
@@ -1363,10 +1359,32 @@ E
 {1}: {2} ({3}\%)
 \ts[]<c3=4C0D0D,FFFFFF22><b><outln2><ac><fs={1}>\w[]\wu\l[12]{2}</fs></ac></outln2></b></c3>\wt[{3}]
 \ts[]<c3=4C0D0D,FFFFFF22><b><outln2><ac><fs={1}>\w[]\wu\l[12]{2}</fs></ac></outln2></b></c3>\wt[{3}]
-...!
-...!
 \ss#{msg}\<<1>>
 \ss#{msg}\<<1>>
+<u>50% HP:</u> 65 BP
+<u>50% HP:</u> 65 BP
+<u>75% HP:</u> 95 BP
+<u>75% HP:</u> 95 BP
+<u>100% HP:</u> 130 BP
+<u>100% HP:</u> 130 BP
+<u>125% HP:</u> 160 BP
+<u>125% HP:</u> 160 BP
+<u>150% HP:</u> 195 BP
+<u>150% HP:</u> 195 BP
+<u>100% HP:</u> 25 BP
+<u>100% HP:</u> 25 BP
+<u>50% HP:</u> 50 BP
+<u>50% HP:</u> 50 BP
+<u>30% HP:</u> 70 BP
+<u>30% HP:</u> 70 BP
+<u>20% HP:</u> 100 BP
+<u>20% HP:</u> 100 BP
+<u>15% HP:</u> 120 BP
+<u>15% HP:</u> 120 BP
+<u>10% HP:</u> 165 BP
+<u>10% HP:</u> 165 BP
+<u>7.5% HP:</u> 200 BP
+<u>7.5% HP:</u> 200 BP
 {1}<<1>>
 {1}<<1>>
 {1}
