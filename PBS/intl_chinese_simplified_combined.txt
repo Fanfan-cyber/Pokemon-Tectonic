@@ -55354,6 +55354,8 @@ Add one Pokémon of each species to storage.
 将每种精灵各一只添加到存储中。
 What level?
 多少级？
+Include the Legendary?
+包括传说精灵吗？
 Clear Storage Boxes
 清空存储箱
 Remove all Pokémon in storage.

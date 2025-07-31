@@ -60,12 +60,13 @@ DebugMenuCommands.register("addpokemon", {
     }
   })
 
-  def fill_storage_boxes(level = 50)
+  def fill_storage_boxes(level = 50, legendary = true)
       added = 0
       box_qty = $PokemonStorage.maxPokemon(0)
       completed = true
       GameData::Species.each do |species_data|
-        #next if species_data.isTest?
+        next if species_data.isTest?
+        next if species_data.isLegendary? && !legendary
         sp = species_data.species
         f = species_data.form
         # Record each form of each species as seen and owned
@@ -108,7 +109,8 @@ DebugMenuCommands.register("addpokemon", {
       params.setRange(1, 70)
       params.setDefaultValue(50)
       level = pbMessageChooseNumber(_INTL("What level?"), params)
-      fill_storage_boxes(level)
+      legendary = pbConfirmMessage(_INTL("Include the Legendary?"))
+      fill_storage_boxes(level, legendary)
     }
   })
 

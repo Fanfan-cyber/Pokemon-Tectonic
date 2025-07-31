@@ -48,9 +48,10 @@ end
 存在满血复活的技能 草蛋
 自动编译
 图鉴中可以直接添加精灵
+脱壳忍者 G.达摩狒狒 坚盾剑怪 霏欧娜特性
 =end
 
-MOD_VERSION = "0.3.7"
+MOD_VERSION = "0.3.8"
 
 CHANGE_LOG = <<-LOGGER
 #==============================================================================#
@@ -183,6 +184,13 @@ customabil/nocustomabil，开启/关闭特性自选模式
 doublebattle/disabledouble，开启/关闭全双打模式
 disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
 
+0.3.8
+1.修复了沙奈朵的Arcane Finale的不完美完胜效果失效的Bug
+2.修复了艾路雷朵的Heroic Finale的不完美完胜效果失效的Bug
+3.修复了Perennial Payload被攻击时不会发动的Bug
+4.修复了当精灵濒死时Cash Flow也会发动的Bug
+5.
+
 0.3.7
 1.现在所有传说精灵均已被Ban，无法用于战斗
 2.修改了大量中文的翻译
@@ -229,9 +237,6 @@ disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
 43.修复了AI会错误的计算Celeritas的精灵使用非光类技能时的速度的Bug
 44.为古月鸟增加了第二特性Delayed Reaction
 45.为弱丁鱼增加了第二特性威吓
-46.修复了沙奈朵的Arcane Finale的不完美完胜效果失效的Bug
-47.修复了艾路雷朵的Heroic Finale的不完美完胜效果失效的Bug
-48.修复了Perennial Payload被攻击时不会发动的Bug
 
 0.3.6
 1.修复了在检查精灵有几个属性时不计算额外的第三属性的Bug
