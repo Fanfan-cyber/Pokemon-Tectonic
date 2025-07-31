@@ -75,7 +75,7 @@ end
 #===============================================================================
 class PokeBattle_Move_StartWeakenDamageAgainstUserSideIfInHail5 < PokeBattle_Move
     def pbMoveFailed?(user, _targets, show_message)
-        if @battle.pbWeather != :Hail
+        unless @battle.icy?
             @battle.pbDisplay(_INTL("But it failed, since it's not Hailing!")) if show_message
             return true
         end

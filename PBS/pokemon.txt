@@ -1490,7 +1490,7 @@ Kind = Scratch Cat
 Pokedex = It's impulsive, selfish, and fickle. It's very popular with some Trainers who like giving it the attention it needs.
 Generation = 7
 WildItemUncommon = PEARL
-Evolutions = APERSIAN,Level,31
+Evolutions = APERSIAN,Item,ALOLANWREATH
 #-------------------------------
 [APERSIAN]
 Name = A. Persian
@@ -1531,7 +1531,7 @@ Kind = Scratch Cat
 Pokedex = These daring Pokémon have coins on their foreheads. Darker coins are harder, and harder coins garner more respect among Meowth.
 Generation = 8
 WildItemUncommon = PEARL
-Evolutions = PERRSERKER,Level,31
+Evolutions = PERRSERKER,Item,GALARICAWREATH
 #-------------------------------
 [PERRSERKER]
 Name = Perrserker
@@ -2206,7 +2206,7 @@ Weight = 24.0
 Kind = Unique Horn
 Pokedex = This Pokémon will look into your eyes and read the contents of your heart. If it finds evil there, it promptly hides away.
 Generation = 8
-Evolutions = GRAPIDASH,Level,34
+Evolutions = GRAPIDASH,Item,GALARICAWREATH
 #-------------------------------
 [GRAPIDASH]
 Name = G. Rapidash
@@ -2462,7 +2462,7 @@ Kind = Wild Duck
 Pokedex = The stalks of leeks are thicker and longer in the Galar region. Farfetch'd that adapted to these stalks took on a unique form.
 Generation = 8
 WildItemUncommon = STRENGTHHERB
-Evolutions = SIRFETCHD,Level,35
+Evolutions = SIRFETCHD,Item,GALARICAWREATH
 #-------------------------------
 [SIRFETCHD]
 Name = Sirfetch'd
@@ -17704,7 +17704,7 @@ Kind = Bugle Beak
 Pokedex = It can bend the tip of its beak to produce over a hundred different cries at will.
 Generation = 7
 WildItemUncommon = RAWSTBERRY
-Evolutions = TOUCANNON,Level,34
+Evolutions = TOUCANNON,Item,ALOLANWREATH
 #-------------------------------
 [TOUCANNON]
 Name = Toucannon
@@ -17907,7 +17907,7 @@ Kind = Bee Fly
 Pokedex = Cutiefly is able to detect the aura of living things, which it uses to find flowers. Cutiefly tend to gather around beings feeling strong emotions.
 Generation = 7
 WildItemUncommon = HONEY
-Evolutions = RIBOMBEE,Level,34
+Evolutions = RIBOMBEE,Item,ALOLANWREATH
 #-------------------------------
 [RIBOMBEE]
 Name = Ribombee
@@ -18132,7 +18132,7 @@ Kind = Sickle Grass
 Pokedex = When the sun rises, Fomantis spreads its four leaves and bathes in the sunlight. The tip of its head has a pleasant aroma.
 Generation = 7
 WildItemUncommon = MIRACLESEED
-Evolutions = LURANTIS,Level,37
+Evolutions = LURANTIS,Item,ALOLANWREATH
 #-------------------------------
 [LURANTIS]
 Name = Lurantis
@@ -18217,7 +18217,7 @@ Weight = 4.8
 Kind = Toxic Lizard
 Pokedex = The males will do whatever the females tell them. They give the females most of their food.
 Generation = 7
-Evolutions = SALAZZLE,Level,30
+Evolutions = SALAZZLE,Item,ALOLANWREATH
 #-------------------------------
 [SALAZZLE]
 Name = Salazzle
@@ -19738,7 +19738,7 @@ Weight = 2.2
 Kind = Flowering
 Pokedex = It whirls around in the wind while singing a joyous song. This delightful display has charmed many into raising this Pokémon.
 Generation = 8
-Evolutions = ELDEGOSS,Level,28
+Evolutions = ELDEGOSS,Item,GALARICAWREATH
 #-------------------------------
 [ELDEGOSS]
 Name = Eldegoss
@@ -20463,7 +20463,7 @@ Kind = Serene
 Pokedex = Using the braids on its head, it pummels foes to get them to quiet down. One blow from those braids would knock out a professional boxer.
 Generation = 8
 WildItemUncommon = FAIRYFEATHER
-Evolutions = HATTERENE,Level,38
+Evolutions = HATTERENE,Item,GALARICAWREATH
 #-------------------------------
 [HATTERENE]
 Name = Hatterene
@@ -20524,7 +20524,7 @@ Weight = 12.5
 Kind = Devious
 Pokedex = With sly cunning, it tries to lure people into the woods. Some believe it to have the power to make crops grow.
 Generation = 8
-Evolutions = GRIMMSNARL,Level,38
+Evolutions = GRIMMSNARL,Item,GALARICAWREATH
 #-------------------------------
 [GRIMMSNARL]
 Name = Grimmsnarl
