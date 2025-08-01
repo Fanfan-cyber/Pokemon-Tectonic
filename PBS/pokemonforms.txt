@@ -847,15 +847,13 @@ Pokedex = Legend says that by using its power to see all events from past to fut
 #-------------------------------
 [KYOGRE,1]
 FormName = Primal
-BaseStats = 100,150,90,90,180,160
-Abilities = PRIMORDIALSEA
+BaseStats = 100,100,90,90,150,140
 Height = 9.8
 Weight = 430.0
 #-------------------------------
 [GROUDON,1]
 FormName = Primal
-BaseStats = 100,180,160,90,150,90
-Abilities = DESOLATELAND
+BaseStats = 100,150,140,90,100,90
 Height = 5.0
 Weight = 999.7
 #-------------------------------
@@ -863,8 +861,7 @@ Weight = 999.7
 FormName = Delta
 MegaMove = DRAGONASCENT
 MegaMessage = 1
-BaseStats = 105,180,100,115,180,100
-Abilities = DELTASTREAM
+BaseStats = 105,150,90,95,150,90
 Height = 10.8
 Weight = 392.0
 #-------------------------------

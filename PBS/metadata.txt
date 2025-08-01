@@ -251,6 +251,7 @@ Environment = Forest
 Outdoor = false
 ShowArea = true
 Bicycle = true
+MapPosition = 0,14,9
 BattleBack = wcave
 #-------------------------------
 [032]

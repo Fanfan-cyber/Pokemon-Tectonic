@@ -1844,6 +1844,10 @@ Description = After using a sound move, raises the Pokémon's Defense and Sp. De
 Name = Space Interloper
 Description = Attacks hit twice for half damage, drain 25% of damage dealt and become special.
 #-------------------------------
+[SPACIALDISTORTION]
+Name = Spacial Distortion
+Description = Your attacks become spread.
+#-------------------------------
 [SPARESCALES]
 Name = Spare Scales
 Description = Raises defenses after using a Grass-, Ground-, or Steel-type move. Caps out at +4.
@@ -2027,6 +2031,10 @@ Description = Draws in attacks from enemies with below half health.
 [TEAMPLAYER]
 Name = Team Player
 Description = Deals 25% more move damage for each ally in battle.
+#-------------------------------
+[TEMPORALDISTORTION]
+Name = Temporal Distortion
+Description = Every 3 turns it gets to move twice.
 #-------------------------------
 [TENDERIZE]
 Name = Tenderize

@@ -78,6 +78,7 @@ class PokeBattle_Move
         return GameData::Target.get(:AllNearFoes) if @battle.apply_field_effect(:target_expand, user, self, targetData)
         return GameData::Target.get(:AllNearFoes) if user.effectActive?(:FlareWitch)
         return GameData::Target.get(:AllNearFoes) if @calcType == :PSYCHIC && user.hasActiveAbility?(:MULTITASKER)
+        return GameData::Target.get(:AllNearFoes) if user.hasActiveAbility?(:SPACIALDISTORTION)
       end
       return targetData
     end

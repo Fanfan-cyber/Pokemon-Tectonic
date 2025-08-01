@@ -660,6 +660,10 @@ module GameData
         def canTutorAny?
             return @flags.include?("TutorAny")
         end
+
+        def isUltraBeast?
+            return @flags.include?("UltraBeast")
+        end
     end
 end
 

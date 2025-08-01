@@ -116,7 +116,7 @@ class PokeBattle_Battler
 
         val += @effects[:ExtraTurns]
         val += 1 if effectActive?(:GreaterGlories)
-        val += 1 if hasActiveAbility?(:HEAVENSCROWN) && @battle.totalEclipse?
+        val += 1 if effectActive?(:TemporalDistortion)
         return val
     end
 
