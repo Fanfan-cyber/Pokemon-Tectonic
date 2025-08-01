@@ -292,7 +292,7 @@ class PokeBattle_Move_StealSpAtk1 < PokeBattle_TargetStatDownMove
 end
 
 #===============================================================================
-# User and the target copies eachothers highest stat steps. (Sharing Smiles)
+# User and the target copies each others highest stat steps. (Sharing Smiles)
 #===============================================================================
 class PokeBattle_Move_SharingSmiles < PokeBattle_Move
     def ignoresSubstitute?(_user); return true; end

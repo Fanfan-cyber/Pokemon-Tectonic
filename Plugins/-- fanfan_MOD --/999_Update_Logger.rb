@@ -48,7 +48,8 @@ end
 存在满血复活的技能 草蛋
 自动编译
 图鉴中可以直接添加精灵
-脱壳忍者 G.达摩狒狒 坚盾剑怪 霏欧娜特性
+删除不合法技能/特性/物品
+脱壳忍者 G.达摩狒狒 霏欧娜特性
 =end
 
 MOD_VERSION = "0.3.8"
@@ -189,7 +190,12 @@ disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
 2.修复了艾路雷朵的Heroic Finale的不完美完胜效果失效的Bug
 3.修复了Perennial Payload被攻击时不会发动的Bug
 4.修复了当精灵濒死时Cash Flow也会发动的Bug
-5.
+5.修改了大量中文的翻译
+6.为独剑鞘增加了第二特性Absolute Defense
+7.为双剑鞘增加了第二特性Absolute Defense
+8.为坚盾剑怪增加了第二特性Absolute Defense
+9.为坚盾剑怪的剑形态增加了第二特性金属防护
+10.
 
 0.3.7
 1.现在所有传说精灵均已被Ban，无法用于战斗

@@ -23,6 +23,7 @@ SPECIES_ABILITY_DATA = {
   [:DITTO, 0]       => { :fixed => %i[], :changeable => %i[IMPOSTER REALIST], },
 
   [:EEVEE, 0]       => { :fixed => %i[], :changeable => %i[ADAPTED BIOENGINEERING], },
+  [:GIGANTEON, 0]   => { :fixed => %i[], :changeable => %i[ULTRAADAPTED GARGANTUAN], },
 
   [:FOONGUS, 0]     => { :fixed => %i[], :changeable => %i[REGENERATOR BURDENED], },
   [:AMOONGUSS, 0]   => { :fixed => %i[], :changeable => %i[REGENERATOR BURDENED], },
@@ -31,11 +32,14 @@ SPECIES_ABILITY_DATA = {
   [:GDARMANITAN, 0] => { :fixed => %i[], :changeable => %i[GORILLATACTICS PHASESHIFT], },
   [:GDARMANITAN, 1] => { :fixed => %i[], :changeable => %i[GORILLATACTICS PHASESHIFT], },
 
-  [:GIGANTEON, 0]   => { :fixed => %i[], :changeable => %i[ULTRAADAPTED GARGANTUAN], },
-
   [:HAPPINY, 0]     => { :fixed => %i[], :changeable => %i[SERENEGRACE CURIOUSMEDICINE], },
   [:CHANSEY, 0]     => { :fixed => %i[], :changeable => %i[SERENEGRACE CURIOUSMEDICINE], },
   [:BLISSEY, 0]     => { :fixed => %i[], :changeable => %i[SERENEGRACE CURIOUSMEDICINE], },
+
+  [:HONEDGE, 0]     => { :fixed => %i[], :changeable => %i[FULLMETALBODY ABSOLUTEDEFENSE], },
+  [:DOUBLADE, 0]    => { :fixed => %i[], :changeable => %i[FULLMETALBODY ABSOLUTEDEFENSE], },
+  [:AEGISLASH, 0]   => { :fixed => %i[], :changeable => %i[STANCECHANGE ABSOLUTEDEFENSE], },
+  [:AEGISLASH, 1]   => { :fixed => %i[], :changeable => %i[STANCECHANGE FULLMETALBODY], },
 
   [:HORSEA, 0]      => { :fixed => %i[], :changeable => %i[SNIPER GYRESPINNER], },
   [:SEADRA, 0]      => { :fixed => %i[], :changeable => %i[SNIPER GYRESPINNER], },

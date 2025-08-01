@@ -24,3 +24,9 @@ BattleHandlers::MoveBlockingAbility.add(:DECONTAMINATION,
         next %i[BUG POISON].include?(move.calcType) && battle.moonGlowing?
     }
 )
+
+BattleHandlers::MoveBlockingAbility.add(:ABSOLUTEDEFENSE,
+    proc { |ability, bearer, user, _targets, move, _battle, aiCheck|
+        next move.pbTarget(user).num_targets > 1 && bearer.opposes?(user)
+    }
+)

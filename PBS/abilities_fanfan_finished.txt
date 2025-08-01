@@ -1,5 +1,9 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
+[ABSOLUTEDEFENSE]
+Name = Absolute Defense
+Description = Protects the Pokémon and its allies from spread moves. Defense increased by 20%.
+#-------------------------------
 [ANCESTRALSUMMONS]
 Name = Ancestral Summons
 Description = Switches out if its HP becomes half or less. The replacement Pokémon's ​​first hit must be a crit​​ and if it's Doduo or Dodrio, it will use Fly​​ immediately.

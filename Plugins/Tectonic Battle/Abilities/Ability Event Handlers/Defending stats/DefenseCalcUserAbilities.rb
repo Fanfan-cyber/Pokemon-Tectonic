@@ -46,3 +46,10 @@ BattleHandlers::DefenseCalcUserAbility.add(:SAFEPASSAGE,
         next defenseMult
     }
 )
+
+BattleHandlers::DefenseCalcUserAbility.add(:ABSOLUTEDEFENSE,
+    proc { |ability, _user, battle, defenseMult|
+        defenseMult *= 1.2
+        next defenseMult
+    }
+)
