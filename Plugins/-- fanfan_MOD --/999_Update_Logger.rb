@@ -195,7 +195,8 @@ disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
 7.为双剑鞘增加了第二特性Absolute Defense
 8.为坚盾剑怪增加了第二特性Absolute Defense
 9.为坚盾剑怪的剑形态增加了第二特性金属防护
-10.
+10.修复了使用究极球会使游戏崩溃的Bug
+11.
 
 0.3.7
 1.现在所有传说精灵均已被Ban，无法用于战斗

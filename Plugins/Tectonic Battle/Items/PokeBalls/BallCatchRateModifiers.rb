@@ -127,7 +127,7 @@ BallHandlers::ModifyCatchRate.add(:DREAMBALL, proc { |_ball, catchRate, _battle,
 })
 
 BallHandlers::ModifyCatchRate.add(:BEASTBALL, proc { |_ball, catchRate, _battle, battler|
-    catchRate *= 5 if battler.pokemon.isUltraBeast?
+    catchRate *= 5 if battler.pokemon.species_data.isUltraBeast?
     next catchRate
 })
 
