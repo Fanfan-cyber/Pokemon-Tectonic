@@ -139,6 +139,7 @@ class PokeBattle_Battler
         end
     end
 
+    MAX_CAP_RATIO = 3
     def pbRecoverHP(amt, anim = true, anyAnim = true, showMessage = true, customMessage = nil, canOverheal: false, items_to_skip: [], aiCheck: false)
         if @battle.autoTesting
             anim = false
@@ -154,7 +155,7 @@ class PokeBattle_Battler
 
         # Cap the healing
         healthCap = @totalhp
-        healthCap *= 3 if canOverheal
+        healthCap *= MAX_CAP_RATIO if canOverheal
         maxHeal = healthCap - @hp
         amt = maxHeal if amt > maxHeal
         amt = 1 if amt < 1 && @hp < @totalhp

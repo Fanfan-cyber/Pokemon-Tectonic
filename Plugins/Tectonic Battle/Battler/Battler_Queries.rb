@@ -902,7 +902,7 @@ class PokeBattle_Battler
     end
 
     def maxOverhealingPossible
-        return (@totalhp * 2) - @hp  
+        return (@totalhp * MAX_CAP_RATIO) - @hp  
     end
 
     def overhealed?
