@@ -45235,15 +45235,15 @@ Yes
 No
 否
 \l[4]Pokemon {1} in {2} has move {3} in its move list. That move has been cut from the game or is not legal to learn. Removing now.
-\l[4]在{2}中的精灵{1}的技能列表中有{3}。这个技能已从游戏中移除或无法学习。正在删除该技能。
+\l[4]在{2}中的精灵{1}的技能列表中有{3}。这个技能已从游戏中移除或无法学习。已删除该技能。
 \l[4]Pokemon {1} in {2} has move {3} in its move list. That move is not legal for its species. Removing now.
-\l[4]在{2}中的精灵{1}的技能列表中有{3}。这个技能对于它的种族是非法的。正在删除该技能。
+\l[4]在{2}中的精灵{1}的技能列表中有{3}。这个技能对于它的种族是非法的。已删除该技能。
 \l[4]Pokemon {1} in {2} has no ability. Switching to {3}.
 \l[4]在{2}中的精灵{1}没有特性。正在切换到{3}。
 \l[4]Pokemon {1} in {2} has ability {3}. That ability is not legal for its species. Switching to {4}.
 \l[4]在{2}中的精灵{1}有特性{3}。这个特性对于它的种族是非法的。正在切换到{4}。
 \l[4]Pokemon {1} in {2} has item {3}. That item has been cut from the game or is not legal to own. Removing now.
-\l[4]在{2}中的精灵{1}携带{3}。这个物品已从游戏中移除或无法携带。正在删除该物品。
+\l[4]在{2}中的精灵{1}携带{3}。这个物品已从游戏中移除或无法携带。已删除该物品。
 An error occured while checking for the legality of your party.
 在检查队伍合法性时出现错误。
 Save downgraded to version {1}

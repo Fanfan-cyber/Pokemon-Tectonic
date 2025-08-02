@@ -65,6 +65,7 @@ end
       end
   
       # Find and fix illegal abilities
+=begin
       unless pokemon.species_data.legalAbilities.include?(pokemon.ability_id)
         if pokemon.ability.nil?
           pokemon.recalculateAbilityFromIndex
@@ -78,6 +79,13 @@ end
         end
         anyPokemonChanged = true
       end
+=end
+        if pokemon.ability.nil?
+          pokemon.recalculateAbilityFromIndex
+          newAbilityName = pokemon.ability.name
+          pbMessage(_INTL("\\l[4]Pokemon {1} in {2} has no ability. Switching to {3}.", name, location, newAbilityName)) unless skipLegalityMessages?
+          anyPokemonChanged = true
+        end
   
       # Check and remove illegal items
       pokemon.items.clone.each do |item|

@@ -9,13 +9,17 @@ module SaveData
     validate file_path => String
     save_data = get_data_from_file(file_path)
     save_data = to_hash_format(save_data) if save_data.is_a?(Array)
+    save_data[:mod_version] = "0.0.1" unless save_data[:mod_version]
+    outdated = PluginManager.compare_versions(save_data[:mod_version], MOD_VERSION) < 0
     # Updating to a new version
-    if convert && !save_data.empty? && PluginManager.compare_versions(save_data[:game_version], Settings::GAME_VERSION) < 0
+    #if convert && !save_data.empty? && PluginManager.compare_versions(save_data[:game_version], Settings::GAME_VERSION) < 0
+    if convert && !save_data.empty? && outdated
+      save_data[:mod_version] = MOD_VERSION
       if run_conversions(save_data, file_path)
         encrypted_data = [Zlib::Deflate.deflate(Marshal.dump(save_data))].pack("m")
         File.open(file_path, "wb") { |file| file.write(encrypted_data) }
       end
-      if removeIllegalElementsFromAllPokemon(save_data)
+      if removeIllegalElementsFromAllPokemon(save_data) || outdated
         encrypted_data = [Zlib::Deflate.deflate(Marshal.dump(save_data))].pack("m")
         File.open(file_path, "wb") { |file| file.write(encrypted_data) }
       end
@@ -53,6 +57,7 @@ module SaveData
     echoln '' if conversions_to_run.length > 0
     save_data[:essentials_version] = Essentials::VERSION
     save_data[:game_version] = Settings::GAME_VERSION
+    save_data[:mod_version] = MOD_VERSION
     return true
   end
 end

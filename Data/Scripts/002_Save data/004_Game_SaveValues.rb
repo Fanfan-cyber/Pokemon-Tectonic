@@ -124,3 +124,11 @@ SaveData.register(:game_version) do
   load_value { |value| $game_version = value }
   new_game_value { Settings::GAME_VERSION }
 end
+
+SaveData.register(:mod_version) do
+  load_in_bootup
+  ensure_class :String
+  save_value { MOD_VERSION }
+  load_value { |value| $mod_version = value }
+  new_game_value { MOD_VERSION }
+end
