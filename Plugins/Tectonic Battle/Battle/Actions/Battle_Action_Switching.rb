@@ -73,7 +73,7 @@ class PokeBattle_Battle
     def pbIsTrapped?(idxBattler, partyScene = nil)
         battler = @battlers[idxBattler]
         
-        if battler.effectActive?(:LastGasp)
+        if battler.effectActive?(:LastGasp) && !battler.tracker_get(:attacked_last_gasp)
             partyScene.pbDisplay(_INTL("{1} can't be switched out!", battler.pbThis)) if partyScene
             return true
         end
@@ -90,6 +90,7 @@ class PokeBattle_Battle
         # Other certain trapping effects
         battler.eachEffectAllLocations(true) do |_effect, _value, data|
             next unless data.trapping?
+            next if battler.tracker_get(:attacked_last_gasp)
             partyScene.pbDisplay(_INTL("{1} can't be switched out!", battler.pbThis)) if partyScene
             return true
         end

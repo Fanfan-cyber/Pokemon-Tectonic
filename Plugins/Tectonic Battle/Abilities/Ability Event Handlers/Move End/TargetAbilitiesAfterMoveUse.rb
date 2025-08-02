@@ -82,7 +82,9 @@ BattleHandlers::TargetAbilityAfterMoveUse.add(:PLASMAGLOBE,
 BattleHandlers::TargetAbilityAfterMoveUse.add(:ABOVEITALL,
   proc { |ability, target, user, move, _switched, battle|
       next if target.fainted?
-      next unless target.damageState.totalHPLost > 0
+      LastGasp = target.effectActive?(:LastGasp) && move.damagingMove?
+      next unless target.damageState.totalHPLost > 0 || LastGasp
+      target.tracker_set(:attacked_last_gasp, true) if LastGasp
       battle.forceUseMove(target, :PARTINGSHOT, user.index, ability: ability)
   }
 )
