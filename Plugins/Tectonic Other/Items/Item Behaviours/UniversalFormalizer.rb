@@ -3,7 +3,7 @@ ItemHandlers::UseOnPokemon.add(:UNIVERSALFORMALIZER,proc { |item,pkmn,scene|
 	species_data = GameData::Species.get_species_form(species,0) # get base form for the formalizer list
 	valid_forms = species_data.formalizer.clone
 	valid_forms.delete(pkmn.form)
-	if valid_forms.length > 0
+	if valid_forms.length > 0 && species != :DEOXYS
 		possibleForms = valid_forms
 		possibleFormNames = valid_forms.map { |form|
 			form_data = GameData::Species.get_species_form(species,form)
