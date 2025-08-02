@@ -875,6 +875,18 @@ FunctionCode = Invalid
 Flags = CanProtect,Kicking
 Description = The user jumps up high, then strikes with a kick. If the kick misses, the user hurts itself.
 #-------------------------------
+[LOWKICK]
+Name = Low Kick
+Type = FIGHTING
+Category = Physical
+Power = 1
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = Invalid
+Flags = CanProtect,Kicking
+Description = A powerful low kick that makes the foe fall over. It inflicts greater damage on heavier foes.
+#-------------------------------
 [REVENGE]
 Name = Revenge
 Type = FIGHTING

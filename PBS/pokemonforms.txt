@@ -156,6 +156,7 @@ FormName = Heat
 Type1 = ELECTRIC
 Type2 = FIRE
 Abilities = LEVITATE,HAUNTED
+FormMove = OVERHEAT
 Pokedex = This Rotom has possessed a convection microwave oven that uses a special motor. It also has a flair for manipulating flames.
 #-------------------------------
 [ROTOM,2]
@@ -163,6 +164,7 @@ FormName = Wash
 Type1 = ELECTRIC
 Type2 = WATER
 Abilities = LEVITATE,HAUNTED
+FormMove = HYDROPUMP
 Pokedex = This form of Rotom enjoys coming up with water-based pranks. Be careful with it if you don't want your room flooded.
 #-------------------------------
 [ROTOM,3]
@@ -170,6 +172,7 @@ FormName = Frost
 Type1 = ELECTRIC
 Type2 = ICE
 Abilities = LEVITATE,HAUNTED
+FormMove = BLIZZARD
 Pokedex = Rotom assumes this form when it takes over a refrigerator powered by a special motor. It battles by spewing cold air.
 #-------------------------------
 [ROTOM,4]
@@ -177,6 +180,7 @@ FormName = Fan
 Type1 = ELECTRIC
 Type2 = FLYING
 Abilities = MOTORDRIVE,HAUNTED
+FormMove = AIRSLASH
 Pokedex = In this form, Rotom applies its new power over wind to its love of pranks. It will happily blow away any important documents it can find.
 #-------------------------------
 [ROTOM,5]
@@ -184,6 +188,7 @@ FormName = Mow
 Type1 = ELECTRIC
 Type2 = GRASS
 Abilities = LEVITATE,HAUNTED
+FormMove = LEAFSTORM
 Pokedex = This is Rotom after it's seized control of a lawn mower that has a special motor. As it mows down grass, it scatters the clippings everywhere.
 #-------------------------------
 [GIRATINA,1]
@@ -747,6 +752,7 @@ FormName = Dusk Mane
 Type1 = ROCK
 Type2 = STEEL
 BaseStats = 95,155,125,75,115,110
+FormMove = SUNSTEELSTRIKE
 Height = 3.8
 Weight = 460.0
 Pokedex = This is Necrozma's form while it's absorbing the power of Solgaleo, making it extremely ferocious and impossible to control.
@@ -756,6 +762,7 @@ FormName = Dawn Wings
 Type1 = ROCK
 Type2 = GHOST
 BaseStats = 95,115,110,75,155,125
+FormMove = MOONGEISTBEAM
 Height = 4.2
 Weight = 350.0
 Pokedex = Lunala no longer has a will of its own. Now under the control of Necrozma, it continuously expels all of its energy.
@@ -806,6 +813,7 @@ Type1 = FAIRY
 Type2 = STEEL
 BaseStats = 90,170,115,150,80,115
 Moves = 1,BEHEMOTHBLADE
+FormMove = BEHEMOTHBLADE
 Weight = 355.0
 Pokedex = Able to cut down anything with a single strike, it became known as the Fairy King's Sword, and it inspired awe in friend and foe alike.
 #-------------------------------
@@ -815,6 +823,7 @@ Type1 = FIGHTING
 Type2 = STEEL
 BaseStats = 90,130,145,130,80,145
 Moves = 1,BEHEMOTHBASH
+FormMove = BEHEMOTHBASH
 Weight = 785.0
 Pokedex = Now that it's equipped with its shield, it can shrug off impressive blows, including the attacks of Dynamax Pokémon.
 #-------------------------------
@@ -823,6 +832,7 @@ FormName = Rapid Strike
 Type1 = FIGHTING
 Type2 = WATER
 Moves = 0,SURGINGSTRIKES,1,AQUAJET,1,SURGINGSTRIKES
+FormMove = SURGINGSTRIKES
 Pokedex = This form of Urshifu is a strong believer in defeating foes by raining many blows down on them. Its strikes are nonstop, flowing like a river.
 #-------------------------------
 [CALYREX,1]

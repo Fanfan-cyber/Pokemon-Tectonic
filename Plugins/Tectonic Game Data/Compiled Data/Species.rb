@@ -22,6 +22,7 @@ module GameData
         attr_reader :catch_rate
         attr_reader :happiness
         attr_reader :moves
+        attr_reader :form_move
         attr_reader :tutor_moves
         attr_reader :egg_moves # To maintain some backwards compatibility
         attr_reader :line_moves
@@ -42,11 +43,14 @@ module GameData
         attr_reader :notes
         attr_accessor :earliest_available
         attr_reader :flags
+        attr_reader :formalizer
 
         DATA = {}
         DATA_FILENAME = "species.dat"
 
         BASE_DATA = {} # Data that hasn't been extended
+
+        FORM_SPECIFIC_MOVES = {}
 
         extend ClassMethods
         include InstanceMethods
@@ -78,6 +82,7 @@ module GameData
               "Rareness"          => [0, "u"],
               "Happiness"         => [0, "u"],
               "Moves"             => [0, "*ue", nil, :Move],
+              "FormMove"          => [0, "e", :Move],
               "TutorMoves"        => [0, "*e", :Move],
               "EggMoves"          => [0, "*e", :Move],
               "LineMoves"         => [0, "*e", :Move],
@@ -91,6 +96,7 @@ module GameData
               "Weight"            => [0, "f"],
               "Generation"        => [0, "i"],
               "Flags"             => [0, "*s"],
+              "Formalizer"        => [0, "*i"],
               "BattlerPlayerX"    => [0, "i"],
               "BattlerPlayerY"    => [0, "i"],
               "BattlerEnemyX"     => [0, "i"],
@@ -156,6 +162,7 @@ module GameData
             @catch_rate            = hash[:catch_rate]            || 255
             @happiness             = hash[:happiness]             || DEFAULT_BASE_HAPPINESS
             @moves                 = hash[:moves]                 || []
+            @form_move             = hash[:form_move]
             @tutor_moves           = hash[:tutor_moves]           || []
             @tutor_moves.uniq!
             @tutor_moves.sort_by! { |a| a.to_s }
@@ -181,6 +188,7 @@ module GameData
             @tribes                = hash[:tribes]                || []
             @defined_in_extension  = hash[:defined_in_extension]  || false
             @flags                 = hash[:flags]                 || []
+            @formalizer            = hash[:formalizer]            || []
 
             legalityChecks
         end
@@ -521,44 +529,11 @@ module GameData
         end
 
         def get_form_specific_move
-            formMoves = form_specific_moves
-            return nil if formMoves.empty?
-            return formMoves[@form] || nil
+            return @form_move
         end
 
         def form_specific_moves
-            if @species == :ROTOM
-                return [
-                    nil,
-                    :OVERHEAT,    # Heat, Microwave
-                    :HYDROPUMP,   # Wash, Washing Machine
-                    :BLIZZARD,    # Frost, Refrigerator
-                    :AIRSLASH,    # Fan
-                    :LEAFSTORM, # Mow, Lawnmower
-                ]
-            elsif @species == :URSHIFU
-                return %i[
-                    WICKEDBLOW
-                    SURGINGSTRIKES
-                ]
-            elsif @species == :NECROZMA
-                return [
-                    nil,
-                    :SUNSTEELSTRIKE, # Dusk Mane (with Solgaleo) (form 1)
-                    :MOONGEISTBEAM, # Dawn Wings (with Lunala) (form 2)
-                ]
-            elsif @species == :ZAMAZENTA
-                return [
-                    nil,
-                    :BEHEMOTHBASH
-                ]
-            elsif @species == :ZACIAN
-                return [
-                    nil,
-                    :BEHEMOTHBLADE
-                ]
-            end
-            return []
+            return FORM_SPECIFIC_MOVES[@species]
         end
 
         def available_by?(level)
@@ -768,6 +743,7 @@ module Compiler
                       :catch_rate            => contents["Rareness"],
                       :happiness             => contents["Happiness"],
                       :moves                 => contents["Moves"],
+                      :form_move             => contents["FormMove"],
                       :tutor_moves           => contents["TutorMoves"],
                       :line_moves            => contents["LineMoves"],
                       :abilities             => contents["Abilities"],
@@ -781,6 +757,7 @@ module Compiler
                       :weight                => contents["Weight"],
                       :generation            => contents["Generation"],
                       :flags                 => contents["Flags"],
+                      :formalizer            => contents["Formalizer"],
                       :notes                 => contents["Notes"],
                       :tribes                => contents["Tribes"],
                       :defined_in_extension  => !baseFile,
@@ -975,6 +952,7 @@ module Compiler
                     :catch_rate            => contents["Rareness"] || base_data.catch_rate,
                     :happiness             => contents["Happiness"] || base_data.happiness,
                     :moves                 => moves,
+                    :form_move             => contents["FormMove"], # intentionally does not inherit from base form if absent
                     :tutor_moves           => contents["TutorMoves"] || base_data.tutor_moves.clone,
                     :line_moves            => contents["LineMoves"] || base_data.line_moves.clone,
                     :abilities             => contents["Abilities"] || base_data.abilities.clone,
@@ -1020,6 +998,10 @@ module Compiler
             species.evolutions.each do |evo|
                 all_evos[evo[0]] = [species.species, evo[1], evo[2], true] if !evo[3] && !all_evos[evo[0]]
             end
+            if GameData::Species::FORM_SPECIFIC_MOVES[species.species].nil?
+                GameData::Species::FORM_SPECIFIC_MOVES[species.species] = []
+            end
+            GameData::Species::FORM_SPECIFIC_MOVES[species.species][species.form] = species.form_move
         end
         GameData::Species.each do |species|   # Distribute prevolutions
             next if species.form == 0 # Looking at alternate forms only
@@ -1162,6 +1144,7 @@ module Compiler
         f.write(format("Happiness = %d\r\n", species.happiness)) unless species.happiness == GameData::Species::DEFAULT_BASE_HAPPINESS
         f.write(format("Abilities = %s\r\n", species.abilities.join(","))) if species.abilities.length > 0
         f.write(format("Moves = %s\r\n", species.non_inherited_level_moves.join(","))) if species.non_inherited_level_moves.length > 0
+        f.write(format("FormMove = %s\r\n", species.form_move)) if species.form_move
         f.write(format("TutorMoves = %s\r\n", species.non_inherited_tutor_moves.join(","))) if species.non_inherited_tutor_moves.length > 0
         f.write(format("LineMoves = %s\r\n", species.non_inherited_line_moves.join(","))) if species.non_inherited_line_moves.length > 0
         f.write(format("Tribes = %s\r\n", species.tribes(true).join(","))) if species.tribes(true).length > 0
@@ -1175,6 +1158,7 @@ module Compiler
         end
         f.write(format("Generation = %d\r\n", species.generation)) if species.generation != 0
         f.write(format("Flags = %s\r\n", species.flags.join(","))) if !species.flags.empty?
+        f.write(format("Formalizer = %s\r\n", species.formalizer.join(","))) if !species.formalizer.empty?
         f.write(format("WildItemCommon = %s\r\n", species.wild_item_common)) if species.wild_item_common
         f.write(format("WildItemUncommon = %s\r\n", species.wild_item_uncommon)) if species.wild_item_uncommon
         f.write(format("WildItemRare = %s\r\n", species.wild_item_rare)) if species.wild_item_rare
@@ -1250,6 +1234,7 @@ module Compiler
         if species.non_inherited_level_moves.length > 0 && species.non_inherited_level_moves != base_species.non_inherited_level_moves
             f.write(format("Moves = %s\r\n", species.non_inherited_level_moves.join(",")))
         end
+        f.write(format("FormMove = %s\r\n", species.form_move)) if species.form_move
         f.write(format("StepsToHatch = %d\r\n", species.hatch_steps)) if species.hatch_steps != base_species.hatch_steps
         f.write(format("Height = %.1f\r\n", species.height / 10.0)) if species.height != base_species.height
         f.write(format("Weight = %.1f\r\n", species.weight / 10.0)) if species.weight != base_species.weight

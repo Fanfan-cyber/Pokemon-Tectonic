@@ -1391,18 +1391,6 @@ FunctionCode = Basic
 Flags = CanProtect,CanRandomCrit
 Description = The target is attacked with a sharp chop. Can random critical hit.
 #-------------------------------
-[LOWKICK]
-Name = Low Kick
-Type = FIGHTING
-Category = Physical
-Power = 1
-Accuracy = 100
-TotalPP = 15
-Target = NearOther
-FunctionCode = ScalesTargetsWeight
-Flags = CanProtect,Kicking
-Description = A powerful low kick that makes the foe fall over. It inflicts greater damage on heavier foes.
-#-------------------------------
 [LOWSWEEP]
 Name = Low Sweep
 Type = FIGHTING
@@ -4267,7 +4255,7 @@ Type = GRASS
 Category = Special
 Power = 1
 Accuracy = 100
-TotalPP = 20
+TotalPP = 15
 Target = NearOther
 FunctionCode = ScalesTargetsWeight
 Flags = CanProtect

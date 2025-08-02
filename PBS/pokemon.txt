@@ -10531,6 +10531,7 @@ Pokedex = DNA from a space virus mutated and became a Pokémon. It appears where
 FormName = Normal
 Generation = 3
 Flags = Legendary
+Formalizer = 0,1,2,3
 #-------------------------------
 [TURTWIG]
 Name = Turtwig
@@ -11885,6 +11886,7 @@ Kind = Plasma
 Pokedex = Its body is composed of plasma. It is known to infiltrate electronic devices and wreak havoc.
 FormName = Rotom
 Generation = 4
+Formalizer = 0,1,2,3,4,5
 #-------------------------------
 [UXIE]
 Name = Uxie
@@ -13607,6 +13609,7 @@ Kind = Blazing
 Pokedex = Its internal fire burns at 2,500 degrees Fahrenheit, making enough power that it can destroy a dump truck with one punch.
 FormName = Standard Mode
 Generation = 5
+Formalizer = 0,1
 #-------------------------------
 [GDARUMAKA]
 Name = G. Darumaka
@@ -13647,6 +13650,7 @@ Kind = Blazing
 Pokedex = Though it has a gentle disposition, it's also very strong. It will quickly freeze the snowball on its head before going for a headbutt.
 FormName = Standard Mode
 Generation = 8
+Formalizer = 0,1
 #-------------------------------
 [MARACTUS]
 Name = Maractus
@@ -14362,6 +14366,7 @@ Kind = Season
 Pokedex = The turning of the seasons changes the color and scent of this Pokémon's fur. People use it to mark the seasons.
 FormName = Spring
 Generation = 5
+Formalizer = 0,1,2,3
 Evolutions = SAWSBUCK,Level,36
 #-------------------------------
 [SAWSBUCK]
@@ -14382,6 +14387,7 @@ Kind = Season
 Pokedex = They migrate according to the seasons, so some people call Sawsbuck the harbingers of spring.
 FormName = Spring
 Generation = 5
+Formalizer = 0,1,2,3
 #-------------------------------
 [EMOLGA]
 Name = Emolga
@@ -15839,6 +15845,7 @@ Pokedex = Its melodies are sung with a special vocalization method that can cont
 FormName = Aria
 Generation = 5
 Flags = Legendary
+Formalizer = 0,1
 WildItemCommon = STARPIECE
 WildItemUncommon = STARPIECE
 WildItemRare = STARPIECE
@@ -17449,8 +17456,8 @@ Name = Volcanion
 Type1 = FIRE
 Type2 = WATER
 # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-BaseStats = 100,70,120,80,130,130
-# Total = 630
+BaseStats = 95,65,115,75,125,125
+# Total = 600
 GenderRate = Genderless
 BaseEXP = 270
 Rareness = 5
@@ -17884,6 +17891,7 @@ Kind = Dancing
 Pokedex = It wins the hearts of its enemies with its passionate dancing and then uses the opening it creates to burn them up with blazing flames.
 FormName = Baile Style
 Generation = 7
+Formalizer = 0,1,2,3
 WildItemUncommon = HONEY
 #-------------------------------
 [CUTIEFLY]
@@ -17966,6 +17974,7 @@ Kind = Wolf
 Pokedex = The sharp rocks in its mane can cut like knives. Lycanroc wears its prey down by degrees before finishing them off.
 FormName = Midday
 Generation = 7
+Formalizer = 0,2
 #-------------------------------
 [WISHIWASHI]
 Name = Wishiwashi
@@ -18922,8 +18931,8 @@ Name = Solgaleo
 Type1 = PSYCHIC
 Type2 = STEEL
 # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-BaseStats = 135,135,105,95,115,90
-# Total = 675
+BaseStats = 125,125,95,85,105,85
+# Total = 620
 GenderRate = Genderless
 BaseEXP = 306
 Rareness = 5
@@ -18944,8 +18953,8 @@ Name = Lunala
 Type1 = PSYCHIC
 Type2 = GHOST
 # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-BaseStats = 135,115,90,95,135,105
-# Total = 675
+BaseStats = 125,105,85,85,125,95
+# Total = 620
 GenderRate = Genderless
 BaseEXP = 306
 Rareness = 5
@@ -19330,8 +19339,8 @@ Evolutions = MELMETAL,Level,44
 Name = Melmetal
 Type1 = STEEL
 # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-BaseStats = 135,145,145,35,80,65
-# Total = 605
+BaseStats = 130,145,145,35,80,65
+# Total = 600
 GenderRate = Genderless
 BaseEXP = 270
 Rareness = 5
@@ -21028,8 +21037,8 @@ Generation = 8
 Name = Zacian
 Type1 = FAIRY
 # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-BaseStats = 90,130,115,140,80,115
-# Total = 670
+BaseStats = 85,120,105,130,75,105
+# Total = 620
 GenderRate = Genderless
 BaseEXP = 335
 Rareness = 5
@@ -21051,8 +21060,8 @@ Flags = Legendary
 Name = Zamazenta
 Type1 = FIGHTING
 # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-BaseStats = 90,130,115,140,80,115
-# Total = 670
+BaseStats = 85,120,105,130,75,105
+# Total = 620
 GenderRate = Genderless
 BaseEXP = 335
 Rareness = 5
@@ -21075,8 +21084,8 @@ Name = Eternatus
 Type1 = POISON
 Type2 = DRAGON
 # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-BaseStats = 140,85,95,130,145,95
-# Total = 690
+BaseStats = 130,75,85,115,130,85
+# Total = 620
 GenderRate = Genderless
 BaseEXP = 345
 Rareness = 5
@@ -21127,6 +21136,7 @@ Rareness = 5
 Happiness = 50
 Abilities = UNSEENFIST
 Moves = 0,WICKEDBLOW,1,PAYBACK,1,WICKEDBLOW
+FormMove = WICKEDBLOW
 LineMoves = ASSURANCE,AURASPHERE,BEATUP,BODYPRESS,CRUNCH,DARKPULSE,DRAINPUNCH,FLING,FOCUSBLAST,FOULPLAY,GIGAIMPACT,HOLDBACK,IRONDEFENSE,LASHOUT,MOONGLOW,PAYBACK,POISONJAB,RAINSTORM,ROCKTOMB,SNARL,STONEEDGE,TAUNT,THROATCHOP
 StepsToHatch = 31096
 Height = 1.9
@@ -21136,6 +21146,7 @@ Pokedex = Inhabiting the mountains of a distant region, this Pokémon races acro
 FormName = Single Strike
 Generation = 8
 Flags = Legendary
+Formalizer = 0,1
 #-------------------------------
 [ZARUDE]
 Name = Zarude

@@ -8207,11 +8207,11 @@ Pokemon = FEAROW,70
 [TAPU_KOKO,Tapu Koko]
 Flags = NoPerfect
 Pokemon = AMAROWAK,70
-    Moves = SHADOWBONE,FLAREBLITZ,STAMPDOWN,WILLOWISP
+    Moves = SHADOWBONE,FLAREBLITZ,STAMPDOWN,LIGHTNINGSLAM
     AbilityIndex = 0 # Sealing Body
-    Item = SALACBERRY
+    Item = PASSHOBERRY
 Pokemon = DODRIO,70
-    Moves = BRAVEBIRD,BEDROCKBREAKER,CLOUDBREAK,HIGHJUMPKICK
+    Moves = BRAVEBIRD,BEDROCKBREAKER,QUICKATTACK,SCYTHEKICK
     AbilityIndex = 0 # Fluster Flock
     Item = PERSIMBERRY
 Pokemon = KOMMOO,70
@@ -8220,16 +8220,25 @@ Pokemon = KOMMOO,70
     Item = LEFTOVERS
 Pokemon = VIKAVOLT,70
     Moves = DIELECTRICBREAKDOWN,BUGBUZZ,ENERGYBALL,BIOFLASH
-    AbilityIndex = 0 # Emergency Power
-    Item = CADOBERRY
+    AbilityIndex = 1 # Levitate
 Pokemon = LYCANROC,70
     Form = 2 # Dusk Form
-    Moves = BEDROCKBREAKER,MORNINGSTAR,ACCELEROCK,CLOSECOMBAT
+    Moves = BEDROCKBREAKER,HUMBLE,ACCELEROCK,CLOSECOMBAT
     AbilityIndex = 0 # Tough Claws
-    Item = SKILLHERB
+    Item = ROCKGEM
 Pokemon = ARAICHU,70
-    Moves = DETACHMENT,HYDROPUMP,VOLTTACKLE,PIERCINGDOUBT
+    Moves = DETACHMENT,HARBORBREAKER,VOLTTACKLE,PIERCINGDOUBT
     AbilityIndex = 1 # Surf's Up
+#-------------------------------
+[TAPU_KOKO,Tapu Koko,1]
+ExtendsVersion = 0
+Policies = CURSE_STORM_TOTEM
+Pokemon = VIKAVOLT,70
+    Moves = THUNDERBOLT,BUGBUZZ,ENERGYBALL,BIOFLASH
+    Item = CHARTIBERRY
+Pokemon = LYCANROC,70
+    Moves = BEDROCKBREAKER,HUMBLE,STOMPINGTANTRUM,CLOSECOMBAT
+Pokemon = ARAICHU,70
     Item = WATERGEM
 #-------------------------------
 [WILDPARTY_LELE,of Life]
@@ -8253,30 +8262,38 @@ Pokemon = MIMIKYU,70
 #-------------------------------
 [TAPU_LELE,Tapu Lele]
 Flags = NoPerfect
-Pokemon = FLORGES,70
-    Moves = LIGHTOFRUIN,ENERGYBALL,FRENZYPLANT,PSYCHIC
-    AbilityIndex = 1 # Sentry
-    Item = SALACBERRY
 Pokemon = ADUGTRIO,70
-    Moves = HAIRCURL,SANDBLASTING,ENCHANTEDARROW,PROTECT
+    Moves = HAIRCURL,SANDBLASTING,MIASMA,STEALTHROCK
     AbilityIndex = 1 # Fascinate
-    Item = SITRUSBERRY
+    Item = OCCABERRY
+Pokemon = FLORGES,70
+    Moves = LIGHTOFRUIN,MOONBLAST,GIGADRAIN,PSYCHIC
+    AbilityIndex = 0 # Clover Song
+    Item = FAIRYGEM
+Pokemon = KOMALA,70
+    Moves = FACADE,SLACKOFF,MASSDESTRUCTION,DETACHMENT
+    AbilityIndex = 0 # Comatose
 Pokemon = SLOWKING,70
-    Moves = SCALD,PSYCHIC,DISARMINGSHOT,SLACKOFF
+    Moves = SCALD,PIERCINGDOUBT,DISARMINGSHOT,SLACKOFF
     AbilityIndex = 1 # Realist
     Item = LEFTOVERS
-Pokemon = LIEPARD,70
-    Moves = HEARTSTOPPER,PSYCHICFANGS,HYPOTHERMIATE,ENCORE
-    AbilityIndex = 0 # Dauntless
-    Item = LUMBERRY
-Pokemon = DUSTOX,70
-    Moves = MIASMA,LEECHLIFE,UTURN,MINDSAP
-    AbilityIndex = 0 # Vandal
-    Item = LUCKHERB
-Pokemon = KECLEON,70
-    Moves = BODYPRESS,WARDPRESS,RECOVER,IRONDEFENSE
-    AbilityIndex = 0 # Adaptive Skin
-    Item = LEFTOVERS
+Pokemon = TROPIUS,70
+    Moves = LEECHSEED,RECYCLE,SYNTHESIS,COLDFRONT
+    AbilityIndex = 1 # Berry Bunch
+    Item = CADOBERRY,OCCABERRY
+Pokemon = ARAQUANID,70
+    Moves = LIQUIDATION,FRIGIDJEALOUSY,LEECHLIFE,GIGADRAIN
+    AbilityIndex = 1 # Water Bubble
+#-------------------------------
+[TAPU_LELE,Tapu Lele,1]
+ExtendsVersion = 0
+Policies = CURSE_FLUTTER_TOTEM
+Pokemon = KOMALA,70
+    Item = NORMALGEM
+Pokemon = TROPIUS,70
+    Item = CADOBERRY,LEPPABERRY
+Pokemon = ARAQUANID,70
+    Item = KEBIABERRY
 #-------------------------------
 [WILDPARTY_BULU,of Abundance]
 Flags = NoPerfect
@@ -8292,37 +8309,46 @@ Pokemon = DECIDUEYE,70
     Moves = SPIRITSHACKLE,SIXFEETUNDER,BRAVEBIRD,LEAFBLADE
     AbilityIndex = 1 # Siphon Sniper
     Item = MENTALHERB
-Pokemon = TAUROS,70
-    Moves = THRASH,RAGINGFURY,OUTRAGE,HARBORBREAKER
-    AbilityIndex = 0 # Wreak Havoc
-    Item = SITRUSBERRY
-#-------------------------------
-[TAPU_BULU,Tapu Bulu]
-Flags = NoPerfect
-Pokemon = AEXEGGUTOR,70
-    Moves = DRAGONHAMMER,COCODROP,DRAGONDANCE,SEERSTRIKE
-    AbilityIndex = 0 # Realist
-    Item = DRAGONGEM
-Pokemon = TROPIUS,70
-    Moves = LEECHSEED,PROTECT,SYNTHESIS,COLDFRONT
-    AbilityIndex = 1 # Berry Bunch
-    Item = SITRUSBERRY,YACHEBERRY
 Pokemon = SNORLAX,70
     Moves = MEGAPUNCH,BEDFELLOWS,KNOCKOFF,HEAVYSLAM
     AbilityIndex = 1 # Thick Fat
     Item = LEFTOVERS
+#-------------------------------
+[TAPU_BULU,Tapu Bulu]
+Flags = NoPerfect
+Pokemon = TAUROS,70
+    Moves = THRASH,RAGINGFURY,DIELECTRICBREAKDOWN,PETALDANCE
+    AbilityIndex = 0 # Wreak Havoc
+Pokemon = HAWLUCHA,70
+    Moves = ACROBATICS,CLOSECOMBAT,SWORDSDANCE,XSCISSOR
+    AbilityIndex = 1 # Unburden
+    Item = WHITEHERB
+Pokemon = AEXEGGUTOR,70
+    Moves = DRAGONHAMMER,COCODROP,DRAGONDANCE,EARTHQUAKE
+    AbilityIndex = 0 # Realist
 Pokemon = APERSIAN,70
-    Moves = STAREDOWN,PARTINGSHOT,TAUNT,FOULPLAY
+    Moves = FOULPLAY,HALTINGCOLD,THUNDERBOLT,GLIMMERPULSE
     AbilityIndex = 0 # Fur Coat
-    Item = LEFTOVERS
+    Item = DARKGEM
 Pokemon = CRABOMINABLE,70
-    Moves = CLOSECOMBAT,ICEHAMMER,DRAINPUNCH,ADAMANTINEPRESS
+    Moves = CLOSECOMBAT,ICEHAMMER,KNOCKOFF,EARTHQUAKE
     AbilityIndex = 0 # Survivalist
-    Item = SALACBERRY
-Pokemon = DHELMISE,70
-    Moves = WEIGHANCHOR,EARTHQUAKE,VIMRIPPER,POWERWHIP
-    AbilityIndex = 0 # Rust & Wrack
-    Item = OCCABERRY
+    Item = CUSTAPBERRY
+Pokemon = METAGROSS,70
+    Moves = HEAVYSLAM,AGILITY,BODYPRESS,ZENHEADBUTT
+    AbilityIndex = 1 # Optimized Alloy
+    Item = KEEBERRY
+#-------------------------------
+[TAPU_BULU,Tapu Bulu,1]
+ExtendsVersion = 0
+Policies = CURSE_WILD_TOTEM
+Pokemon = TAUROS,70
+    Item = NORMALGEM
+Pokemon = AEXEGGUTOR,70
+    AbilityIndex = 1 # Unburden
+    Item = WHITEHERB
+Pokemon = APERSIAN,70
+    Moves = LASHOUT,HALTINGCOLD,THUNDERBOLT,GLIMMERPULSE
 #-------------------------------
 [WILDPARTY_FINI,of Hope]
 Flags = NoPerfect
@@ -8345,30 +8371,37 @@ Pokemon = BARBARACLE,70
 #-------------------------------
 [TAPU_FINI,Tapu Fini]
 Flags = NoPerfect
-Pokemon = CORSOLA,70
-    Moves = NATURALPROTECTION,RECOVER,POWERGEM,MOONBLAST
-    AbilityIndex = 0 # Persistent Growth
-    Item = LEFTOVERS
-Pokemon = SHIINOTIC,70
-    Moves = SPORE,SUPERSTITION,GIGADRAIN,SWEETSELENE
-    AbilityIndex = 1 # Torpor Sap
-    Item = BIGROOT
+Pokemon = TOXAPEX,70
+    Moves = KNOCKOFF,SCALD,POISONSPIKES,RECOVER
+    AbilityIndex = 1 # Regenerator
+    Item = BLACKSLUDGE
 Pokemon = ANINETALES,70
     Moves = FRIGIDJEALOUSY,MOONBLAST,BAR,PIERCINGDOUBT
     AbilityIndex = 1 # Sudden Chill
-    Item = OCCABERRY
-Pokemon = TOXAPEX,70
-    Moves = KNOCKOFF,PROTECT,POISONGAS,RECOVER
-    AbilityIndex = 1 # Regenerator
-    Item = BLACKSLUDGE
 Pokemon = PALOSSAND,70
-    Moves = SUFFOCATE,PULVERIZERCHORD,SURF,SHOREUP
+    Moves = HEX,SCORCHINGSANDS,STEALTHROCK,SHOREUP
     AbilityIndex = 0 # Grit
-    Item = KASIBBERRY
+    Item = LEFTOVERS
 Pokemon = GOLISOPOD,70
-    Moves = FIRSTIMPRESSION,LEECHLIFE,DRAGBENEATH,SWORDSDANCE
+    Moves = FIRSTIMPRESSION,LEECHLIFE,DRAGBENEATH,ADAMANTINEPRESS
     AbilityIndex = 0 # Emergency Exit
     Item = BUGGEM
+Pokemon = ABSOLUS,70
+    Moves = SEVER,MINDSAP,FUTURESIGHT,DOOMDESIRE
+    AbilityIndex = 0 # Bad Omen
+Pokemon = DRAGALGE,70
+    Moves = POISONSPIKES,RECOVER,SHORTCIRCUIT,DRAGONTAIL
+    AbilityIndex = 0 # Deterrent
+    Item = ROWAPBERRY
+#-------------------------------
+[TAPU_FINI,Tapu Fini,1]
+ExtendsVersion = 0
+Policies = CURSE_FOG_TOTEM
+Pokemon = ANINETALES,70
+    Moves = LOOMINGWINTER,MOONBLAST,BAR,PIERCINGDOUBT
+    Item = OCCABERRY
+Pokemon = ABSOLUS,70
+    Item = SITRUSBERRY
 #-------------------------------
 [WILDPACK,Solar]
 Policies = SUN_TEAM

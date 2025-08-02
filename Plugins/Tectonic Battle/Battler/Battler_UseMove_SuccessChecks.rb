@@ -309,6 +309,7 @@ GameData::Move.get(@effects[:GorillaTactics]).name)
                     pbOwnSide.applyEffect(:TyrannicalImmunity)
                 elsif hasActiveItem?(:COURAGEBADGE)
                     @battle.pbDisplay(_INTL("{1} would have flinched, but it holds a Courage Badge!", pbThis))
+                    aiLearnsItem(:COURAGEBADGE)
                 else
                     @battle.pbDisplay(_INTL("{1} flinched and couldn't move!", pbThis))
                     eachActiveAbility do |ability|
