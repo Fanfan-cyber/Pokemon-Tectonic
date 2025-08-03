@@ -13,7 +13,7 @@ Events.onTrainerPartyLoad += proc { |_sender, e|
   trainer = e[0]
   next unless trainer
   next if trainer.trainer_type == :ABSOL
-  if trainer.party.length < 6
+  if trainer.party.length < 6 || TA.get(:copywhatever)
     pkmn = $Trainer.party_random_pkmn(false, true, false, TA.get(:copied_mon, []))
     trainer.party << pkmn if pkmn
   end
