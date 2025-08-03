@@ -360,6 +360,7 @@ GameData::BattleEffect.register_effect(:Side, {
     :type => :Integer,
     :maximum => 2,
     :is_spike => true,
+    :is_hazard => true,
     :status_applying_hazard => {
         :status => :POISON,
         :absorb_proc => proc do |pokemonOrBattler|
@@ -386,6 +387,7 @@ GameData::BattleEffect.register_effect(:Side, {
     :type => :Integer,
     :maximum => 2,
     :is_spike => true,
+    :is_hazard => true,
     :status_applying_hazard => {
         :status => :BURN,
         :absorb_proc => proc do |pokemonOrBattler|

@@ -31261,7 +31261,7 @@ Close Combat
 Coaching
 指导
 Counter
-双倍奉还
+返拳
 Cross Chop
 十字劈
 Double Kick
@@ -33580,7 +33580,7 @@ The user releases countless shots of light. Its type varies with the kind of Pla
 This move can be used only after the user has used all the other moves it knows in the battle.
 当战斗中已学会的技能全部使用过后，才能开始使用珍藏的技能。
 The user leers at nearby foes with sharp eyes. Their Defense stat is reduced by two steps.
-用犀利的眼神使其害怕，从而减小对方的物防2级。
+用犀利的眼神使其害怕，从而使对方的物防减小2级。
 The user chants an incantation, preventing the foe from landing critical hits for 10 turns.
 向天许愿，从而在10回合内不会被对手的攻击打中要害。
 The user tries to cut ahead of the foe to steal and use the foe's intended move with greater power.
@@ -33854,7 +33854,7 @@ The user drenches the foe in a special poisonous liquid. Its power doubles if th
 The user throws the bone it holds. The bone loops to hit the target twice, coming and going.
 用手中的骨头投掷对手，来回连续2次给予伤害。
 The user strikes everything around it by stomping on the ground. It reduces hit Pokémon's Speed.
-用力踩踏地面并攻击自己周围所有的精灵。减小对方的速度。
+用力踩踏地面攻击自己周围所有的精灵，使被击中的精灵的速度减小1级。
 The user burrows, charging and becoming invulnerable, then attacks on the second turn.
 第1回合蓄力钻地进入无敌状态，下1回合发动攻击。
 The user crashes into its target while rotating its body like a drill. Can random critical hit.
@@ -35068,7 +35068,7 @@ The user launches a fist with extreme force. This attack is popular with childre
 The user crushes the target in its metallic vises, breaking any screens protecting the target's side.
 使用金属面罩压碎对方，打破对方的所有屏障类技能。
 The user looses a flash of energy from its polished body. It has a 30% chance to lower Sp. Def.
-打磨自己的身体，从而释放出能量闪光，30%概率减小对方特防。
+打磨自己的身体，从而释放出能量闪光，30%概率使对方的特防减小1级。
 Protects the user from damage this turn. It also lowers the Sp. Atk of special attackers by two steps.
 防住对手攻击的同时，大幅度减小对自己使用特殊攻击的对手的特攻。
 The user hurls a metal ball at the target.
@@ -35136,9 +35136,9 @@ The user roars with the force of a volcano, raising the Attack of itself by thre
 The user attacks with fire that can be seen in multiple places, then summons sunshine for eight turns.
 发动多重火焰攻击后，开启持续8回合的晴天。
 A lance of fire pierces the target from above, lowering their Sp. Atk. Can random critical hit, and does so twice as often.
-使用一柄火矛从上方刺穿目标，减小对方的特攻，极其容易命中要害。
+使用一柄火矛从上方刺穿目标，使对方的特攻减小1级，极其容易命中要害。
 The user explodes itself into the target. The target is harmed, but also their Speed is raised.
-向火箭一样冲向对手然后爆炸，但会增加对方的速度。
+向火箭一样冲向对手然后爆炸，但会使对方的速度增加1级。
 Protects the user from attacks. Also burns any attacker who specially attacks the user.
 防住对手攻击的同时，让攻击到自己的对手陷入烧伤状态。
 The user attacks with heat, creating an obscuring wall of haze. The user takes 33% less damage this turn.
@@ -35362,7 +35362,7 @@ This move creates a directional magnetic field which reduces damage from attacks
 Turns the foe's power against it, dealing damage using the target's Sp. Atk stat.
 将对手的力量反制，使用目标的特攻属性造成伤害。
 An electrified cloud zaps the target, lowering their Speed. This has a 50% chance to flinch.
-通过积雨云内的电荷电击目标，减小对方的速度，50%概率使其畏缩。
+通过积雨云内的电荷电击目标，使对方的速度减小1级，50%概率使其畏缩。
 The user charges, then attacks on the second turn. Charges instantly in rainstorm.
 第1回合开始冲锋积蓄能量，第2回合发动攻击，如果处于暴雨天则可以瞬间完成冲锋。
 The user creates an electric fueled cage, trapping and damaging it for three turns.
@@ -35452,13 +35452,13 @@ The user perfectly predicts the target's future location, then strikes. It lands
 The user peruses its kingly stores of knowledge, selecting three random non-Psychic attacks. You choose which one it uses.
 浏览自身的知识宝库，随机出现三种超能属性攻击技能，并选择其中一种使用。
 The user dazzles the target with celestial visions that lowers its Sp. Atk stat by five steps.
-利用天象视觉混乱目标，减小对方特攻5级。
+利用天象视觉混乱目标，使对方的特攻减小5级。
 The user takes control of the target's mind to unleash an attack on it. Can random critical hit.
 使用者控制目标的大脑对其发动攻击。可能随机命中要害。
 The user imparts knowledge on its ally Pokémon, raising their Sp. Atk and Sp. Def stats by two steps.
 向队友传递知识，大幅度增加目标的特攻和特防。
 An aurora borealis flashes brightly at the target, lowering their Attack. Always goes first.
-利用极光的闪烁减小对方的攻击，必定先一步出手。
+利用极光的闪烁，使对方的物攻减小1级，必定先一步出手。
 The user lowers the target's body temperature, afflicting it with frostbite.
 减小对手的体温，使其陷入冻伤。
 The user grabs the target in a chilly embrace. It has a 10% chance to frostbite.
@@ -40285,7 +40285,7 @@ When the Pokémon is hit by an attack, the Pokémon and the attacker switch abil
 Immune to Water-type moves and restores 25% of max HP when hit by one.
 免疫水属性技能，被水属性技能攻击时，恢复1/4的HP。
 Weakens incoming Fire-type moves, and doubles Water-type damage.
-减小受到的火属性技能的威力，水属性技能威力翻倍。
+受到的火属性技能的伤害减半，自身使用的水属性技能的威力翻倍。
 Physical attacks against the Pokémon raise its Speed by two steps but lower its Defense.
 如果因物理技能受到伤害，防御会减小，速度会大幅增加。
 Cowardly switches out if its HP becomes half or less.
@@ -40383,7 +40383,7 @@ Its attacks are critical against frostbitten targets.
 Causes hail to deal double damage and increase Defense of Ice-types by 2.0x instead of 1.5x.
 使冰雹造成的伤害翻倍，并且使冰属性的物防增加效果从1.5倍变为2倍。
 Its special attacks reduce the target's Sp. Def.
-特殊攻击减小对方的特防。
+特殊类攻击会使目标的特防减小1级。
 Boosts the power of blade moves by 30%. Blade moves ignore the target's modified Defense and Sp. Def.
 增加切割类技能的威力30%，并且切割类技能无视目标增加或者减小的双防。
 After using a light move, lowers each foe's Sp. Def.
@@ -41119,7 +41119,7 @@ Powers up Fighting-type moves by 50%.
 Flying-type attacks have a 40% chance to numb.
 飞行属性的攻击有40%概率使对方麻痹。
 Special moves against it lower the attacker's Speed and Sp. Atk.
-被特殊技能攻击时，减小对方的速度和特攻。
+被特殊类技能攻击时，使对方的速度和特攻减小1级。
 The Pokémon and other battlers don't benefit from same-type attacking bonus.
 全部精灵失去本属性加成。
 Boosts Speed by 50% in rainstorm. Doubles random added effect chance in rainstorm.
@@ -41127,11 +41127,11 @@ Boosts Speed by 50% in rainstorm. Doubles random added effect chance in rainstor
 Doubles critical hit chance. Restores HP for half the damage it does with critical hits.
 将命中要害率翻倍。用命中要害造成的伤害的一半恢复HP。
 At the end of each round, lowers other waterlogged Pokémon's Attack and Sp. Atk by two steps.
-在每回合结束时，减小其他处于浸水状态的精灵的双攻2级。
+在每回合结束时，使其他处于浸水状态的精灵的双攻减小2级。
 On the first turn, its attacks leech the target.
 第1回合的攻击会寄生对手。
 After using a sound move, lowers one of each foe's Attack and Sp. Atk, whichever is higher.
-使用声音类技能后，减小每个对手较高的物攻或特攻1级。
+使用声音类技能后，使每个对手较高的物攻或特攻减小1级。
 Whenever a foe fails or misses, they take 1/8th HP damage.
 对手的技能失败或没命中时，将受到1/8最大HP的伤害。
 Boosts Attack by 30% in hail.
@@ -41173,7 +41173,7 @@ Can't be afflicted with any non-volatile status condition.
 Has a 30% chance to dizzy targets when using physical moves.
 使用物理技能时有30%的概率混乱对手。
 Prevents stat steps from being lowered (except when self-inflicted). Immune to weather downsides.
-防止能力等级减小效果（自身造成的除外）。免疫天气的负面效果。
+防止能力等级被对方减小。免疫天气的负面效果。
 Doubles critical hit chance for each Speed step up. All moves can random critical hit.
 每有1级增加的速度能力等级，命中要害率翻倍。所有技能都有概率随机命中要害。
 Sets a Light Screen for 4 turns upon entering the battle.
@@ -41181,7 +41181,7 @@ Sets a Light Screen for 4 turns upon entering the battle.
 During eclipse, its moves can't miss and always activate their random effects.
 日食天气时必定命中，且必定触发额外效果。
 Takes 50% less damage from Water-type moves. Raises Speed by four steps when hit by one.
-减小受到的水属性技能伤害，当被同一技能命中后，速度增加4级。
+受到的水属性技能伤害减小50%。被水属性技能攻击时，速度增加4级。
 Immune to Steel-type moves and restores 25% of max HP if hit by one.
 免疫钢属性技能，并且受到钢属性技能攻击时会恢复最大HP的25%。
 Fly and Dive Bomb deal 50% more damage.
@@ -48487,7 +48487,7 @@ The two moves have become one! It's a combined move!
 But it failed, since {1} can't gain the status and the weather can't be set!
 但它失败了，因为{1}无法获得该状态，且天气也无法设置！
 But it failed, since the opposing side already has {1} layers of {2} spikes!
-但它失败了，因为对方场上已经有{1}层{2}尖刺！
+但它失败了，因为对方场上已经有{1}层{2}！
 {1}'s stats can't be changed further!
 {1}的能力不能再改变了！
 But it failed, since there are no valid choices in your party!
@@ -61002,9 +61002,9 @@ Energy Expended
 Choice Locked
 选择锁定
 Counter Damage
-反击伤害
+返拳伤害
 Counter Target
-反击目标
+返拳目标
 Curse-Warned
 诅咒警告
 Cursed

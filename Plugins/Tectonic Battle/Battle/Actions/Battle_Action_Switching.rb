@@ -605,8 +605,19 @@ class PokeBattle_Battle
         # Status applying spike hazards
         # Checked seperately so can absorb spikes even if they normally would be immune
         unless battler.airborne?(aiCheck)
+            status_hazard = []
+            statuses = []
             battler.pbOwnSide.eachEffect(true) do |effect, _value, data|
                 next unless data.is_status_hazard?
+                status_hazard << [effect, data]
+                hazardInfo = data.status_applying_hazard
+                st = hazardInfo[:status]
+                next unless battler.pbOwnSide.countEffect(effect) >= 2
+                next unless battler.pbCanInflictStatus?(st, nil, false)
+                statuses << st 
+            end
+            st = statuses.sample
+            status_hazard.each do |effect, data|
                 hazardInfo = data.status_applying_hazard
                 status = hazardInfo[:status]
 
@@ -619,11 +630,10 @@ class PokeBattle_Battle
                         battler.pbOwnSide.disableEffect(effect)
                         pbDisplay(_INTL("{1} absorbed the {2}!", battler.pbThis, data.name))
                     end
-                elsif   battler.pbCanInflictStatus?(status, nil, false) &&
-                        !battler.immuneToHazards?(aiCheck) &&
-                        !battler.shouldAbilityApply?(:AFTERIMAGE,aiCheck)
-                    # Apply status
-                    if battler.pbOwnSide.countEffect(effect) >= 2
+                elsif !battler.immuneToHazards?(aiCheck) && !battler.shouldAbilityApply?(:AFTERIMAGE,aiCheck)
+                    spikes_count = battler.pbOwnSide.countEffect(effect)
+                    # Apply status 
+                    if st == status
                         if aiCheck
                             statusAfflictionScore = -2 * getStatusSettingEffectScore(status, nil, battler, ignoreCheck: true)
                             statusAfflictionScore = (statusAfflictionScore / PokeBattle_AI::EFFECT_SCORE_TO_SWITCH_SCORE_CONVERSION_RATIO).ceil
@@ -632,8 +642,10 @@ class PokeBattle_Battle
                         else
                             battler.pbInflictStatus(status)
                         end
-                    elsif battler.takesIndirectDamage?(false,aiCheck) # Damage
-                        thinStatusSpikesDamageFraction = 1.0 / 16.0
+                    end
+                    # Apply damage
+                    if battler.takesIndirectDamage?(false,aiCheck)
+                        thinStatusSpikesDamageFraction = spikes_count * 1.0 / 16.0
                         if aiCheck
                             statusSpikesDamage = battler.applyFractionalDamage(thinStatusSpikesDamageFraction, aiCheck: true)
                             hazardDamagePredicted += statusSpikesDamage

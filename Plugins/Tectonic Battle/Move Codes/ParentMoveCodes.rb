@@ -1143,11 +1143,13 @@ class PokeBattle_StatusSpikeMove < PokeBattle_Move
     def addSpikeLayer(side, _teamLabel)
         side.incrementEffect(@spikeEffect)
 
+=begin
         side.eachEffect(true) do |effect, _value, data|
             next unless data.is_status_hazard?
             next if effect == @spikeEffect
             side.disableEffect(effect)
         end
+=end
     end
 
     def getEffectScore(user, target)

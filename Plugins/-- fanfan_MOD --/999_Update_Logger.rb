@@ -186,7 +186,19 @@ disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
 29.G.达摩狒狒的达摩模式形态的第二特性由一猩一意改为精神力
 30.为霏欧纳增加了第二特性水泡
 31.为玛纳霏增加了第二特性水泡
-32.修改所有异常菱可以共存
+32.修复了Poison Spikes不被视为是陷阱的Bug
+33.修复了Flame Spikes不被视为是陷阱的Bug
+34.现在Poison Spikes、Flame Spikes和Frost Spikes可以共存
+35.现在Poison Spikes的伤害与Poison Spikes的层数有关，层数越多，伤害越高
+36.现在Poison Spikes会检查是否会陷入异常，然后应用伤害
+37.现在Flame Spikes的伤害与Poison Spikes的层数有关，层数越多，伤害越高
+38.现在Flame Spikes会检查是否会陷入异常，然后应用伤害
+39.现在Frost Spikes的伤害与Poison Spikes的层数有关，层数越多，伤害越高
+40.现在Frost Spikes会检查是否会陷入异常，然后应用伤害
+41.现在当同时存在多种会让精灵陷入异常状态的Spikes时，会自适应让精灵陷入某一种异常状态
+42.
+
+增加锦标赛队伍 翻译
 
 0.3.7
 1.现在所有传说精灵均已被Ban，无法用于战斗

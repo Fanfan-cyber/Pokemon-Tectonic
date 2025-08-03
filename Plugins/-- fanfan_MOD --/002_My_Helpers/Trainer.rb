@@ -33,6 +33,12 @@ class Trainer
     pokemon_party.count { |pkmn| pkmn.species == :GIGANTEON }
   end
 
+  def all_tribes?
+    return true if eevee_count >= 5
+    return true if eevee_count == 4 && pokemon_party.any? { |pkmn| pkmn.hasItem?(:WILDCARD) }
+    return false
+  end
+
   def each_egg
     @party.each_with_index { |pkmn, index| yield pkmn, index if pkmn && pkmn.egg? }
   end
