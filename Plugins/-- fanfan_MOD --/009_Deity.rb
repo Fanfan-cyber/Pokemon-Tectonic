@@ -56,7 +56,7 @@ class TribalBonus
   alias deity_update_tribe_count updateTribeCount
   def updateTribeCount
     deity_update_tribe_count
-    add_all_tribes if @trainer.is_player? && TA.get(:alltribes)
+    add_all_tribes if (@trainer.is_player? && TA.get(:alltribes)) || (!@trainer.is_player? && @trainer.eevee_count == 5)
     copy_player_tribes if !@trainer.is_player? && $Trainer && !TA.get(:notribecopy) && Settings::COPY_PLAYER_TRIBE
   end
 

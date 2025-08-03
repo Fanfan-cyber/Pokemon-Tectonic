@@ -29,6 +29,10 @@ class Trainer
     pokemon_party.count(&:fainted?)
   end
 
+  def eevee_count
+    pokemon_party.count { |pkmn| pkmn.species == :GIGANTEON }
+  end
+
   def each_egg
     @party.each_with_index { |pkmn, index| yield pkmn, index if pkmn && pkmn.egg? }
   end

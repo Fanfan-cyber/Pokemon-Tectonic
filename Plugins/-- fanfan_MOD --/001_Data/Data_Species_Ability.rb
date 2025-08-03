@@ -28,9 +28,9 @@ SPECIES_ABILITY_DATA = {
   [:FOONGUS, 0]     => { :fixed => %i[], :changeable => %i[REGENERATOR BURDENED], },
   [:AMOONGUSS, 0]   => { :fixed => %i[], :changeable => %i[REGENERATOR BURDENED], },
 
-  [:GDARUMAKA, 0]   => { :fixed => %i[], :changeable => %i[GORILLATACTICS PHASESHIFT], },
-  [:GDARMANITAN, 0] => { :fixed => %i[], :changeable => %i[GORILLATACTICS PHASESHIFT], },
-  [:GDARMANITAN, 1] => { :fixed => %i[], :changeable => %i[GORILLATACTICS PHASESHIFT], },
+  [:GDARUMAKA, 0]   => { :fixed => %i[], :changeable => %i[GORILLATACTICS INNERFOCUS], },
+  [:GDARMANITAN, 0] => { :fixed => %i[], :changeable => %i[GORILLATACTICS INNERFOCUS], },
+  [:GDARMANITAN, 1] => { :fixed => %i[], :changeable => %i[INNERFOCUS PHASESHIFT], },
 
   [:HAPPINY, 0]     => { :fixed => %i[], :changeable => %i[SERENEGRACE CURIOUSMEDICINE], },
   [:CHANSEY, 0]     => { :fixed => %i[], :changeable => %i[SERENEGRACE CURIOUSMEDICINE], },
@@ -66,6 +66,9 @@ SPECIES_ABILITY_DATA = {
 
   [:MEOWTH, 0]      => { :fixed => %i[], :changeable => %i[CASHFLOW ALLTHATGLITTERS], },
   [:PERSIAN, 0]     => { :fixed => %i[], :changeable => %i[CASHFLOW ALLTHATGLITTERS], },
+
+  [:PHIONE, 0]      => { :fixed => %i[], :changeable => %i[OVERFLOWINGHEART WATERBUBBLE], },
+  [:MANAPHY, 0]     => { :fixed => %i[], :changeable => %i[OVERFLOWINGHEART WATERBUBBLE], },
 
   [:PORYGON, 0]     => { :fixed => %i[], :changeable => %i[DOWNLOAD2 BACKUP], },
   [:PORYGON2, 0]    => { :fixed => %i[], :changeable => %i[DOWNLOAD2 BACKUP], },

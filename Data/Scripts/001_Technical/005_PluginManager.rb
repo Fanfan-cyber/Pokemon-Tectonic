@@ -676,6 +676,7 @@ module PluginManager
   def self.needCompiling?(order, plugins)
     # fixed actions
     return false if !$DEBUG || safeExists?("Game.rgssad")
+    return true
     return true if !safeExists?("Data/PluginScripts.rxdata")
     return true if !safeExists?("Data/PBSExtensions.rxdata")
     return true if !safeExists?("Data/GraphicsExtensions.rxdata")

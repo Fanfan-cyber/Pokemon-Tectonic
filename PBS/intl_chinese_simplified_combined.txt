@@ -34432,7 +34432,7 @@ The user gets all the party Pokémon to attack the foe with punches and kicks.
 The target is bitten with viciously sharp fangs. It has a 20% chance to lower Defense.
 目标被锐利的尖牙咬中。有20%的概率减小目标的物防。
 The user swings its body around violently to inflict damage on everything in its vicinity.
-用自己的身体狂舞挥打，给周围全体造成伤害。
+用自己的身体狂舞挥打，给周围全部精灵造成伤害。
 The user slashes its shell blade, leaving a hazard layer of Spikes under the target if none have already been placed.
 使用者挥动其壳刃，如果目标下方还没有菱，则会留下一层菱。
 The user tells the target a secret, lowering its Sp. Atk by three steps. Always goes first.
@@ -34756,7 +34756,7 @@ The user partially dissolves, raising its Sp. Def stat by five steps.
 The user steals blood, lowering the target's Attack. If so, raises the user's Attack.
 偷取对方的血液，减小其攻击，如果成功了，同时增加自身的攻击。
 A Grey Mist covers the battlefield. For five turns, stats are reset at the end of each turn.
-在接下来的5个回合内，每回合结束时全体精灵的能力变回原点。
+在接下来的5个回合内，每回合结束时全部精灵的能力会变回原点。
 The user attacks while slathered in grime. This poisons the user.
 在身上涂满污垢后进行攻击。同时，也会使自己中毒。
 The user uses venom that turns the target's body against it. Super effective vs Fighting-types.
@@ -34870,7 +34870,7 @@ The user calls all rocks to join it, summoning sandstorm for five turns and layi
 The user drops a single piece of solid bedrock on the target, fracturing them.
 使用者向目标投掷一块坚固的基岩，使其破碎。
 The user and its allies are protected from spread moves this turn, and enemies can only target the user. Fails if used in succession.
-本回合内，自己及队友受到全体攻击的效果不会生效，对手只能攻击自己，如果连续使用则会失效。
+本回合内，自身和队友不会受到可以攻击到多个目标的技能的攻击，且对手只能攻击自己，如果连续使用则会失效。
 The user afflicts the target by turning their skin into stone. This has a 30% chance to fracture it.
 使用者将目标的皮肤变成石头，使其痛苦。有30%的概率使其破碎。
 The user slams itself into the target with absurd force, taking 50% recoil.
@@ -35114,7 +35114,7 @@ The user lays a hazard layer of burning spikes on the foe's side. One layer hurt
 The user targets the opponents soft spots with a fiery strike. Its power doubles if the target is burned.
 以烈焰打击对手的弱点。如果其处于烧伤状态，威力翻倍。
 Raises Sp. Atk by three steps. Until switch out, the user's attacks spread to hit all nearby foes.
-增加自己的特攻3级，在被替换下场前，所有技能都会波及到对方全体。
+增加自己的特攻3级，在被替换下场前，所有技能都会波及到对方全部精灵。
 The user dances rapidly, emitting tropical heat. Any frostbitten Pokémon will be healed by this heat.
 进行快速的舞动，散发出热带能量，治愈所有精灵的冻伤。
 The user shoots the target with a small bolt of fire. This move always goes first.
@@ -35574,7 +35574,7 @@ The Pokémon blots out the sky, summoning eclipse for eight turns and lowering e
 The user roots itself, then strikes at the target with serpentine strength. This has a 30% chance to leech.
 声援自己并蛇行攻击对方，有30%概率使其被寄生。
 Darkness rolls over the field, damaging all other Pokémon and setting Grey Mist for 5 turns.
-黑暗笼罩整个场地，对全体精灵造成伤害，设置持续5回合的灰雾。
+黑暗笼罩整个场地，对全部精灵造成伤害，设置持续5回合的灰雾。
 The user insults the target using a compliment. Their Attack and Sp. Atk are raised by three steps, but they hurt themselves in confusion.
 使用者用赞美来侮辱目标，让目标的双攻增加3级，但目标会因混乱而伤害自己。
 Bites a hole in reality, creating a black hole to damage all near foes. Gravity is intensified for five turns.
@@ -35642,7 +35642,7 @@ The user demands tribute from the target. Money is earned after the battle.
 The user steals the target's stat boosts, and then attacks. Goes last.
 先偷取对手的能力增加效果，然后再后手攻击。
 The user slashes all around them, creating deep scars. This lowers each target's Attack.
-在对方周围砍来砍去，留下深深的伤疤。减小对方全体的攻击。
+在对方周围砍来砍去，留下深深的伤疤。使对方全部精灵的物攻减小1级。
 The user hacks at the target with great violence. Can random critical hit.
 猛烈地砍击对手，容易命中要害。
 Explodes, dealing an extra 30 base power to all foes for each Spikes hazard layer underneath them. The user faints.
@@ -35756,7 +35756,7 @@ The user gleams with light, lowering each foe's Sp. Atk by two steps and raising
 The user prepares to defend itself. It'll survive the next three hits which would faint it.
 专心保护自身，接下来3回合内不会倒下。
 The user growls fiercly, lowering each foe's Attack by two steps and raising its own Attack by two steps.
-发出凶猛的咆哮，大幅度减小全体对手的攻击，并大幅度增加自身的攻击。
+发出凶猛的咆哮，使全部对手的物攻减小2级，自身的物攻增加2级。
 The user copies and gains the first ability of each foe.
 使用者复制并获得每个敌方的第一个特性。
 The user yawns, making all near foes drowsy. They'll fall asleep at end of turn next.
@@ -35912,7 +35912,7 @@ The user torments all near foes, preventing them from repeating moves. The user 
 The user raises their Sp. Atk by four steps and becomes Fairy-type.
 增加自身特攻4级，并使自身变为妖精属性。
 Summons moonglow for 5 turns, raises the Defense and Sp. Def of all allies, and user becomes Fairy-type.
-开启持续5回合的月辉，全体队友的双防增加1级，自身变为妖精属性。
+开启持续5回合的月辉，全部精灵的双防增加1级，自身变为妖精属性。
 The user creates a Puzzle Room for 8 turns, raises its Attack and Sp. Atk, and becomes Fairy-type.
 开启持续8回合的迷惑空间，双攻增加1级，自身变为妖精属性。
 This move exists just to showcase the PBS Extensions system.
@@ -37877,9 +37877,9 @@ An item to be held by a Pokémon. Lowered stats on the holder are also applied t
 An item to be held by a Pokémon. Doubles the Speed of the holder's move once per battle.
 给精灵携带后第一次出招时都会使速度翻倍。
 An item to be held by a Pokémon. Boosts the power of a physical move by 33% once per battle.
-一种精灵携带的物品。每场战斗中一次增加物理技能的威力33%。
+一种精灵携带的物品。每场战斗中一次增加物理类技能的威力33%。
 An item to be held by a Pokémon. Boosts the power of a special move by 33% once per battle.
-一种精灵携带的物品。每场战斗中一次增加特殊技能的威力33%。
+一种精灵携带的物品。每场战斗中一次增加特殊类技能的威力33%。
 A single-use item to be held by a Pokémon. It allows the immediate use of a move that charges up first.
 携带它的精灵仅有1次机会可以在第1回合使用需要蓄力的技能。
 A single-use item to be held by a Pokémon. It allows user to skip the recharging turn of an exhausting move.
@@ -37893,19 +37893,19 @@ An item to be held by a Pokémon. Ensures a random additional effect activates o
 An item to be held by a Pokémon. Ensures a less than full accuracy move lands once per battle.
 携带后确保一次命中不满的技能必定命中。
 A held item. It boosts the power of moves by 30%, but at the cost of 10% HP on each hit.
-携带后，虽然每次攻击时HP少量减小，但技能的威力会增加。
+携带后，虽然每次攻击时HP减小10%，但技能的威力会增加30%。
 A well-worn belt that boosts the holder's supereffective moves by 20%.
-用惯了的黑色带子。携带后，效果拔群时的技能威力就会少量增加。
+用惯了的黑色带子。携带后，效果拔群时的技能威力就会增加20%。
 A held item. Boosts a move used consecutively by 20% more each time. This resets if another move is used.
-携带后，连续使用相同技能时，威力就会增加。不再使用相同技能时，威力就会复原。
+携带后，连续使用相同技能时，威力就会增加20%。不再使用相同技能时，威力就会复原。
 An item to be held by a Pokémon. It is a headband that boosts the power of physical moves by 10%.
-力如泉涌的头带。携带后，物理技能的威力就会少量增加。
+力如泉涌的头带。携带后，物理类技能的威力就会增加10%。
 An item to be held by a Pokémon. It is a thick pair of glasses that boosts the power of special moves by 10%.
-装着很厚镜片的眼镜。携带后，特殊技能的威力就会少量增加。
+装着很厚镜片的眼镜。携带后，特殊类技能的威力就会增加10%。
 An item to be held by a Pokémon. They are boots that boost Speed by 10%.
-携带后，速度小幅度增加。
+携带后，速度增加10%。
 A held item. Doubles the holder's critical-hit chance.
-携带后，打出致命一击的概率增加。
+携带后，打出命中要害的概率翻倍。
 A held item. It is a magnifying lens that boosts the Accuracy of moves by 35%.
 一种携带物品。它是一个放大镜，能将技能的命中率增加35%。
 An item to be held by a Pokémon. It is tremendously heavy and makes the holder move slower than usual.
@@ -37917,7 +37917,7 @@ An item to be held by a Pokémon. A bizarre orb that inflicts burn on the holder
 An item to be held by a Pokémon. A bizarre orb that inflicts frostbite on the holder at the end of a turn.
 触碰后会放出寒气的神奇宝珠。携带后，在战斗时会变成冻伤状态。
 An item to be held by a Pokémon. A bizarre orb that inflicts poison on the holder at the end of a turn.
-触碰后会放出毒的神奇宝珠。携带后，在战斗时会变成剧毒状态。
+触碰后会放出剧毒的神奇宝珠。携带后，在战斗时会变成中毒状态。
 A held item that damages the holder on every turn. It may latch on to Pokémon that attacks the holder.
 携带后，每回合都会受到伤害。有时也会附着到碰到自己的对手身上。
 An item to be held by a Pokémon. When the holder's stats are lowered, it will be switched out of battle.
@@ -40029,7 +40029,7 @@ Upon entry, clears the stat changes of other Pokémon.
 Repeats another Pokémon's dance move immediately.
 有谁使用跳舞技能时，自己也能就这么接着使用跳舞技能。
 Powers up each Pokémon's Dark-type moves.
-全体的恶属性技能变强。
+全部精灵的恶属性技能变强。
 Raises Defense when the Pokémon enters a battle.
 出场时，物防增加1级。
 Halves move damage when HP becomes half or less.
@@ -40055,7 +40055,7 @@ Heals 1/8 HP in rainstorm, 1/4 when hit by Water-type moves. Loses 1/8 in sunshi
 Switches out if its HP becomes half or less.
 HP变为一半时，会慌慌张张逃走，退回同行队伍中。
 Powers up each Pokémon's Fairy-type moves.
-全体的妖精属性技能变强。
+全部精灵的妖精属性技能变强。
 Reduces damage from super-effective attacks by 25%.
 受到效果拔群的攻击时，伤害减小25%。
 Physical moves against the Pokémon have a 30% chance to burn the attacker.
@@ -40893,7 +40893,7 @@ When hit in moonglow, steals the attacker's item, or knocks it away.
 Hits opponent with Thief when withdrawn from battle.
 在战斗中被收回时，会用小偷攻击对手。
 The Pokemon's Psychic-type attacks become spread and deal 20% more damage.
-该精灵的超能属性技能会攻击到敌方全体，并且伤害增加20%。
+该精灵的超能属性技能会攻击到敌方全部精灵，并且伤害增加20%。
 Immune to the type of the memory disc it holds.
 对存储盘相同的属性免疫。
 It changes type to that of the move it's about to use. This works only once each time the Pokémon enters battle.
@@ -40941,7 +40941,7 @@ After knocking out any Pokémon, raises its Attack and Speed.
 After knocking out any Pokémon, raises its Sp. Atk and Speed.
 打倒对手时，特攻和速度增加1级。
 Copies the unmodified stats of the Pokémon it switches in to replace.
-复制其要替换的精灵的能力。
+替换上场时，复制被替换的精灵的能力。
 Boosts Sp. Atk by 30%, but lowers Sp. Atk after using a special move.
 特攻增加30%，但使用特殊技能后特攻会减小1级。
 Boosts Sp. Atk by 30% in rainstorm.
@@ -41121,7 +41121,7 @@ Flying-type attacks have a 40% chance to numb.
 Special moves against it lower the attacker's Speed and Sp. Atk.
 被特殊技能攻击时，减小对方的速度和特攻。
 The Pokémon and other battlers don't benefit from same-type attacking bonus.
-全体失去本属性技能加成。
+全部精灵失去本属性加成。
 Boosts Speed by 50% in rainstorm. Doubles random added effect chance in rainstorm.
 在暴雨天气中，速度增加50%，技能的附加效果的触发概率翻倍。
 Doubles critical hit chance. Restores HP for half the damage it does with critical hits.
@@ -45129,7 +45129,7 @@ Leeched
 Waterlogged
 浸水
 All
-全体
+全部
 Each
 每个
 One
@@ -45139,35 +45139,35 @@ User
 Error
 错误
 Near Ally
-附近的队友
+附近队友
 User or Near Ally
-自身或附近的队友
+自身或附近队友
 User and Allies
 自身和队友
 Us
 我方
 Near Foe
-附近的对手
+附近对手
 Random Near Foe
-随机附近的对手
+随机附近对手
 Random
 随机
 Closest Near Foe
-临近的对手
+附近对手
 Closer
 近方
 All Near Foes
-所有附近的对手
+所有附近对手
 Foe
 对手
 All Foes
 全部对手
 Near Other
-附近全部
+附近
 All Near Others
-所有
+附近全部
 All Battlers
-全体
+全部
 User Side
 己方
 Side
@@ -45177,7 +45177,7 @@ Foe Side
 Both Sides
 双方
 User Or Near Other
-自身或临近
+自身或附近
 Ally
 队友
 User Or Other
@@ -47951,7 +47951,7 @@ You have an active search. What would you like to do?
 Added every species on the current list!
 已添加当前列表上的所有种类！
 Added {1}
-已添加{1}
+已添加{1}。
 Unable to start Avatar battle.
 无法开始化身战斗。
 Marked as owned every species on current list.
@@ -50179,7 +50179,7 @@ The Water-type attack evaporated in the harsh sunlight!
 {1} was blocked by the quarantine!
 {1}被拦了下来！
 Hit each 1 time!
-击中了全体1次！
+击中了全部1次！
 Hit each {1} times!
 击中了全体{1}次！
 Hit 1 time!
@@ -50665,19 +50665,19 @@ The polarized area was dispelled!
 The polarized area fell away.
 极化空间消失了。
 An insightful area appeared! Everyone gets a 5th move!
-洞察空间出现了，全体获得了第五个技能！
+洞察空间出现了，全部精灵获得了第5个技能！
 The insightful area was dispelled!
 洞察空间被驱散了！
 The insightful area fell away.
 洞察空间消失了。
 An emotional area appeared! Everyone gets an ability every turn!
-出现了一个情感空间！所有精灵每个回合都会获得一个特性！
+出现了一个情感空间！全部精灵每个回合都会获得一个特性！
 The emotional area was dispelled!
 情感空间被驱散了！
 The emotional area fell away.
 情感空间消失了。
 A willful area appeared! Everyone takes 30 less damage on hits!
-意志空间出现了，全体受到的伤害减小30！
+意志空间出现了，全部精灵受到的伤害减小30！
 The willful area was dispelled!
 意志空间被驱散了！
 The willful area fell away.
@@ -51401,7 +51401,7 @@ An Invalid move is being instanced. This shouldn't happen!
 But nothing happened!
 但什么都没发生！
 But it failed, since everyone has heard the song already!
-但是它失败了，因为全体都已听过这首歌了！
+但是它失败了，因为全部精灵都已听过这首歌了！
 Which form should {1} take?
 {1}应该变成什么形态？
 {1} has already transformed!
