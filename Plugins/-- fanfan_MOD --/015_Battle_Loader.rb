@@ -105,10 +105,20 @@ module BattleLoader
         else
           loop do
             battle_mode = [_INTL("Team"), _INTL("Random Team"), _INTL("Random Pokémon Team"), _INTL("Cancel")]
+            battle_mode.insert(3, _INTL("Copy Team")) if $DEBUG
             mode_chosen = pbMessage(_INTL("What do you want to do?"), battle_mode, -1)
             case mode_chosen
-            when -1, 3 # Cancel
+            when -1, 4 # Cancel
               break
+            when 3 # Copy Team
+              break unless $DEBUG
+              names = @@battle_loader.map { |team_info| "#{team_info[0]} #{team_info[1]}" }
+              index = pbMessage(_INTL("Which team do you want to copy?"), names, -1)
+              if index >= 0
+                team_data = @@battle_loader[index]
+                $Trainer.party = team_data[2].map{ |pkmn| pkmn.clone_pkmn(true, true) }
+                pbMessage(_INTL("Copied the party of {1}.", team_data[1]))
+              end
             when 0 # Team
               names = @@battle_loader.map { |team_info| "#{team_info[0]} #{team_info[1]}" }
               index = pbMessage(_INTL("Which team do you want to challenge?"), names, -1)
@@ -218,9 +228,10 @@ module BattleLoader
       results = pbTrainerBattle(trainer_type, trainer.real_name, nil, false, 0, true)
       results ? TA.increase(:battle_victory) : TA.increase(:battle_defeat)
     rescue
-      pbMessage(_INTL("An error occurred.\nPlease try again!"))
+      start_battle(rule, team)
+    ensure
+      TA.set(:battle_loader, false) 
     end
-    TA.set(:battle_loader, false)
   end
 end
 
