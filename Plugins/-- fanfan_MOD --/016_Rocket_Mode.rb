@@ -11,7 +11,7 @@ module RocketMode
     return if can_choose.empty?
     if pbConfirmMessage(_INTL("Do you want to take a Pokémon from the opposing party?"))
       data         = pbChoosePkmnFromListEX(_INTL("Which Pokémon do you want to take?"), can_choose, true)
-      pkmn         = data[0].clone_pkmn
+      pkmn         = data[0].clone_pkmn(true, true)
       pkmn.level   = getLevelCap - 5
       pkmn.ability = nil
       pkmn.reset_moves

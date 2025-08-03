@@ -3,8 +3,8 @@ class Pokemon
     @used_by_player
   end
 
-  def set_used_by_player
-    @used_by_player = true
+  def set_used_by_player(used_by_player = true)
+    @used_by_player = used_by_player
   end
 
   def unset_used_by_player

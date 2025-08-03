@@ -1521,13 +1521,14 @@ class Pokemon
         return ret
     end
 
-    def clone_pkmn(all_new = true)
+    def clone_pkmn(all_new = true, used_by_player = false)
         ret = Marshal.load(Marshal.dump(self))
         if all_new
             ret.name = nil
             ret.owner = Owner.new(0, "", 2, 2)
             ret.regeneratePersonalID
         end
+        ret.set_used_by_player(used_by_player)
         ret
     end
 

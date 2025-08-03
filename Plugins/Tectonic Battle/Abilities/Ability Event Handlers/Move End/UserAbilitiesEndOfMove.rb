@@ -186,7 +186,7 @@ BattleHandlers::UserAbilityEndOfMove.add(:CHRONOREVERT,
       battle.pbHideAbilitySplash(user)
       party = battle.pbParty(user.index)
       user_pokemon_index = user.pokemonIndex
-      new_pokemon = user.battle_tracker_get(:chrono_revert).clone_pkmn(false)
+      new_pokemon = user.battle_tracker_get(:chrono_revert).clone_pkmn(false, true)
       party[user_pokemon_index] = new_pokemon
       user.replace_pokemon(new_pokemon)
       user.pbInitialize(new_pokemon, user_pokemon_index, false)

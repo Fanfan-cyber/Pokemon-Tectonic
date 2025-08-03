@@ -14,11 +14,8 @@ Events.onTrainerPartyLoad += proc { |_sender, e|
   next unless trainer
   next if trainer.trainer_type == :ABSOL
   if trainer.party.length < 6
-    pkmn = $Trainer.party_random_pkmn(false, true, TA.get(:copied_mon, []))
-    if pkmn
-      pkmn.unset_used_by_player
-      trainer.party << pkmn
-    end
+    pkmn = $Trainer.party_random_pkmn(false, true, false, TA.get(:copied_mon, []))
+    trainer.party << pkmn if pkmn
   end
   trainer.party.shuffle! if trainer.trainer_type == :LEADER_Lambert
 }
