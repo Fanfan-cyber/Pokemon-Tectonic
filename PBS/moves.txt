@@ -1165,14 +1165,13 @@ Description = The user yawns, making the target drowsy. They'll fall asleep at e
 Name = Arm Thrust
 Type = FIGHTING
 Category = Physical
-Power = 20
+Power = 25
 Accuracy = 100
 TotalPP = 15
 Target = NearOther
-FunctionCode = HitTwoToFiveTimesNumb
+FunctionCode = HitTwoToFiveTimes
 Flags = CanProtect
-EffectChance = 10
-Description = The user looses a flurry of open-palmed arm thrusts that multi-hit two to five times. Has a 10% chance to numb.
+Description = The user looses a flurry of open-palmed arm thrusts that multi-hit two to five times.
 #-------------------------------
 [AURASPHERE]
 Name = Aura Sphere
@@ -1637,7 +1636,7 @@ Target = NearOther
 Priority = -3
 FunctionCode = BurnAttackerBeforeUserActs
 Flags = CanProtect,Uninvocable
-Description = The user heats up its beak before attacking. Physically attacking in this time results in a burn.
+Description = The user heats up its beak before attacking. If hit by a foe's physical move, burns the attacker.
 #-------------------------------
 [BLEAKWINDSTORM]
 Name = Bleakwind Storm
@@ -3551,7 +3550,7 @@ Accuracy = 100
 TotalPP = 15
 Target = NearOther
 FunctionCode = BindTarget3
-Flags = CanProtect
+Flags = CanProtect,Wind
 Description = The user engulfs the target in fierce flames, trapping and damaging it for three turns.
 #-------------------------------
 [FLAMECHARGE]
@@ -3779,7 +3778,7 @@ Target = AllNearFoes
 Priority = -3
 FunctionCode = UsedAfterUserTakesPhysicalDamage
 Flags = CanProtect,Uninvocable
-Description = The user rigs its shell to explode. If it is hit by a physical move this turn, the shell detonates and hurts all near foes.
+Description = The user rigs its shell to explode. If hit by a foe's physical move, the shell detonates and hurts all near foes.
 #-------------------------------
 [VCREATE]
 Name = V-create
@@ -4338,7 +4337,7 @@ Accuracy = 100
 TotalPP = 5
 Target = NearOther
 FunctionCode = LowerUserSpAtk4
-Flags = CanProtect
+Flags = CanProtect,Wind
 Description = A storm of sharp leaves is whipped up. Lowers the user's Sp. Atk by four steps.
 #-------------------------------
 [LEECHSEED]
@@ -5576,7 +5575,7 @@ Description = The user uses its body like a hammer to attack the target and infl
 Name = Dragon Pulse
 Type = DRAGON
 Category = Special
-Power = 95
+Power = 100
 Accuracy = 100
 TotalPP = 15
 Target = NearOther

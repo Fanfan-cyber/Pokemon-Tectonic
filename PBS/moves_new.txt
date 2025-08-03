@@ -3098,7 +3098,7 @@ Animation = PHANTOMFORCE
 Name = Vim Ripper
 Type = GHOST
 Category = Physical
-Power = 85
+Power = 90
 Accuracy = 100
 TotalPP = 12
 Target = NearOther
@@ -3408,6 +3408,20 @@ Flags = CanProtect,Punch
 Description = The user launches a fist with extreme force. This attack is popular with children.
 Animation = BULLETPUNCH
 #-------------------------------
+[SHARDSURGE]
+Name = Shard Surge
+Type = STEEL
+Category = Special
+Power = 100
+Accuracy = 100
+TotalPP = 12
+Target = NearOther
+Priority = -3
+FunctionCode = SetupSpikesBeforeUserActs
+Flags = CanProtect,Uninvocable
+Description = The user lines up shards before attacking. If hit by a foe's special move, lays a hazard layer of Spikes at their feet.
+Animation = POWERGEM
+#-------------------------------
 [SHATTERVISE]
 Name = Shatter Vise
 Type = STEEL
@@ -3636,7 +3650,7 @@ Accuracy = 100
 TotalPP = 12
 Target = NearOther
 FunctionCode = BindTarget3
-Flags = CanProtect
+Flags = CanProtect,Wind
 Description = The foe is engulfed in a firestorm, trapping and damaging it for three turns.
 Animation = FIRESPIN
 #-------------------------------
@@ -4539,8 +4553,8 @@ Accuracy = 100
 TotalPP = 12
 Target = NearOther
 FunctionCode = LowerUserDefSpDef2
-Flags = CanProtect
-Description = The user sheds its leaves to attack. This lowers the user's Defense and Sp. Def by two steps.
+Flags = CanProtect,Wind
+Description = The user uses wind to blast its leaves at the target. This lowers the user's Defense and Sp. Def by two steps.
 Animation = LEAFTORNADO
 #-------------------------------
 [BLADESOFGRASS]
@@ -4697,7 +4711,7 @@ Target = AllNearFoes
 Priority = -3
 FunctionCode = UsedAfterUserTakesSpecialDamage
 Flags = CanProtect,Uninvocable,Blade
-Description = The user hides its blade. If it is hit by a special move, it unsheathes it quickly, slashing all near foes.
+Description = The user hides its blade. If hit by a foe's special move, it unsheathes it quickly, slashing all near foes.
 Animation = CAMOUFLAGE
 #-------------------------------
 [MISTLETOE]
@@ -6515,7 +6529,7 @@ Animation = ACIDSPRAY
 Name = Guttural Roar
 Type = DRAGON
 Category = Special
-Power = 85
+Power = 90
 Accuracy = 100
 TotalPP = 10
 Target = NearOther
@@ -7795,12 +7809,24 @@ Animation = TRANSFORM
 #-------------------------------
 #		FLEX MOVES
 #-------------------------------
+[FIGHTINGCHANCE]
+Name = Fighting Chance
+Type = FLEX
+Category = Adaptive
+Power = 110
+Accuracy = 50
+TotalPP = 15
+Target = NearOther
+FunctionCode = RaiseUserAccIfMisses
+Flags = CanProtect
+Description = The user makes an risky, difficult attack. If it misses, the user's Accuracy is raised.
+#-------------------------------
 [LONGSHOT]
 Name = Long Shot
 Type = FLEX
 Category = Adaptive
-Power = 110
-Accuracy = 70
+Power = 90
+Accuracy = 80
 TotalPP = 25
 Target = NearOther
 FunctionCode = Basic

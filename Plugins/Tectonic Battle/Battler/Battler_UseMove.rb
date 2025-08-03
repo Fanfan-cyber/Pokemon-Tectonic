@@ -732,6 +732,19 @@ class PokeBattle_Battler
             @battle.forceUseMove(b, moveID, preTarget, false, usageMessage, moveUsageEffect: :Instructed)
         end
         if moveSucceeded
+            # Killjoy
+            if move.danceMove?
+                killjoy = @battle.pbCheckGlobalAbility(:KILLJOY)
+                if killjoy
+                    killjoy.showMyAbilitySplash(:KILLJOY)
+                    if user.takesIndirectDamage?(true)
+                        battle.pbDisplay(_INTL("{1} was punished for its joy!", user.pbThis))
+                        user.applyFractionalDamage(1.0 / 4.0)
+                    end
+                    killjoy.hideMyAbilitySplash
+                end
+            end
+
             # Dancer
             if !effectActive?(:Dancer) && move.danceMove?
                 dancers = []
