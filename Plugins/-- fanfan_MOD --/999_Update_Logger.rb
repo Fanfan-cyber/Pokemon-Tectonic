@@ -18,9 +18,10 @@
 修复各类改变特性的效果 firstAbility
 存在满血复活的技能 草蛋
 增加锦标赛队伍
+01里放入锦标赛截图
 =end
 
-MOD_VERSION = "0.3.8"
+MOD_VERSION = "0.3.9"
 
 CHANGE_LOG = <<-LOGGER
 #==============================================================================#
@@ -155,6 +156,9 @@ customabil/nocustomabil，开启/关闭特性自选模式
 doublebattle/disabledouble，开启/关闭全双打模式
 disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
 
+0.3.9
+1.
+
 0.3.8
 1.修复了沙奈朵的Arcane Finale的不完美完胜效果失效的Bug
 2.修复了艾路雷朵的Heroic Finale的不完美完胜效果失效的Bug
@@ -199,7 +203,7 @@ disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
 41.现在当同时存在多种会让精灵陷入异常状态的Spikes时，会自适应让精灵陷入某一种异常状态
 42.修复了Flex属性的技能不会自动和精灵的第一属性同步的Bug
 43.因为Visual Studio Code无响应，所以不再同步更新整体中文的翻译文本
-44.
+44.现在下载的01 Earthquake压缩包的Screenshots文件夹中包含了0.3.7锦标赛的所有对手的队伍截图
 
 0.3.7
 1.现在所有传说精灵均已被Ban，无法用于战斗
