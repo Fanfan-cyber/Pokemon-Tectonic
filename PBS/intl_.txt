@@ -6383,8 +6383,8 @@ Log Off
 Log Off
 Bluepoint Grotto
 Bluepoint Grotto
-Németh Apartments
-Németh Apartments
+Novo Apartments
+Novo Apartments
 Sewers
 Sewers
 Go Back
@@ -13558,12 +13558,18 @@ No
 Yes
 Yes
 [Map212]
-Down the stairs, \PN. See red or whatever it is you do.
-Down the stairs, \PN. See red or whatever it is you do.
 Leaving through -- oh. You -- you’re looking for something down here.
 Leaving through -- oh. You -- you’re looking for something down here.
 Come back and, uh, I’ll still be... around.
 Come back and, uh, I’ll still be... around.
+Down the stairs, \PN. See red or whatever it is you do.
+Down the stairs, \PN. See red or whatever it is you do.
+...
+...
+The statue is motionless, yet you feel something, elsewhere, rumble.
+The statue is motionless, yet you feel something, elsewhere, rumble. 
+You listen more closely, but there is nothing more. Silence.
+You listen more closely, but there is nothing more.  Silence.
 Samorn? Don’t worry about that bastard.
 Samorn? Don’t worry about that bastard.
 C’mon, let’s get you out of here. We can take care of this.
@@ -13572,6 +13578,12 @@ Go deal with the issue – you’re the better duelist. He’s down in the lower
 Go deal with the issue – you’re the better duelist.  He’s down in the lower area causing havoc.
 You take care of that, I’ll help Samorn. Move it, Slowpoke.
 You take care of that, I’ll help Samorn. Move it, Slowpoke.
+These ruins are old, but not as old as the mountain itself.
+These ruins are old, but not as old as the mountain itself. 
+Whoever they were, they must have dug extensive tunnels with pre-industrial technology.
+Whoever they were, they must have dug extensive tunnels with pre-industrial technology. 
+Either that, or something powerful created an entire mountain on top of them.
+Either that, or something powerful created an entire mountain on top of them.
 Oh, it’s you.
 Oh, it’s you.
 As you might’ve heard, you’re too late.
@@ -13688,12 +13700,8 @@ Had a Hymnus to try out against you, too. Shame.
 Had a Hymnus to try out against you, too. Shame.
 …Bye, \PN. I’ll see you around. Good luck… saving the world, or whatever you’re doing.
 …Bye, \PN. I’ll see you around. Good luck… saving the world, or whatever you’re doing.
-These ruins are old, but not as old as the mountain itself.
-These ruins are old, but not as old as the mountain itself. 
-Whoever they were, they must have dug extensive tunnels with pre-industrial technology.
-Whoever they were, they must have dug extensive tunnels with pre-industrial technology. 
-Either that, or something powerful created an entire mountain on top of them.
-Either that, or something powerful created an entire mountain on top of them.
+Samorn’s Flygon is flitting anxiously, stirring up dust.
+Samorn’s Flygon is flitting anxiously, stirring up dust.
 Wheewie, this whole Regigigas thing-y going on here is a whole kerfluffle and a half!
 Wheewie, this whole Regigigas thing-y going on here is a whole kerfluffle and a half!
 Whatever's behind this, I'm sure it's booo-ring! Imma go grab a beer and watch some pro wrestling.
@@ -13702,8 +13710,6 @@ Sheezy, ain't you a little battlin' freak! Would've ran me and my squad broke in
 Sheezy, ain't you a little battlin' freak! Would've ran me and my squad broke in the ol' days.
 Regi this, Regi that. How about some of these folk Regidrago touch some grass?
 Regi this, Regi that. How about some of these folk Regidrago touch some grass?
-Samorn’s Flygon is flitting anxiously, stirring up dust.
-Samorn’s Flygon is flitting anxiously, stirring up dust.
 I still remember seeing these statues for the first time.
 I still remember seeing these statues for the first time.
 The mystery they present, the implications it has for Makyan history...
@@ -13736,8 +13742,6 @@ Yeah.
 Yeah.
 No.
 No.
-...
-...
 That's not true.
 That's not true.
 Then stop it.
@@ -18013,8 +18017,8 @@ Great battling, kid. Don't think the rest of the family'll fold to you, though.
 Great battling, kid. Don't think the rest of the family'll fold to you, though.
 Great battling kid. Wonder if you can take on the rest of us thought.
 Great battling kid. Wonder if you can take on the rest of us thought.
-I'm not a huge fan of the snow, but I agreed to come here as part of an agreement.
-I'm not a huge fan of the snow, but I agreed to come here as part of an agreement.
+I'm not a huge fan of the snow, but I agreed to come here.
+I'm not a huge fan of the snow, but I agreed to come here.
 It's only fair, since I chose last year's spot--sunny Alola.
 It's only fair, since I chose last year's spot--sunny Alola.
 Life is about compromise.
@@ -18251,6 +18255,10 @@ On second thought…
 Let’s do this.
 Let’s do this.
 [Map301]
+The door is securely locked.
+The door is securely locked.
+A sign reads "Email Me"
+A sign reads "Email Me"
 This place is too dangerous for you, kid. Those avatars'll send you packing -- if I don't first!
 This place is too dangerous for you, kid. Those avatars'll send you packing -- if I don't first!
 But my team was perfectly geometrically balanced between line, sphere, and triangle!
@@ -18259,10 +18267,8 @@ But my team was perfectly geometrically balanced between line, sphere, and trian
 ...Huh? What do you mean, "type?"
 My battle ferret! My anger sphere! My delightful tiny triangle being! How dare you -- you scoundrel!
 My battle ferret! My anger sphere! My delightful tiny triangle being! How dare you -- you scoundrel!
-The door is securely locked.
-The door is securely locked.
-A sign reads "Email Me"
-A sign reads "Email Me"
+The door seems to be locked.
+The door seems to be locked.
 I heard the Cave of Hatching has a lot of strong trainers.
 I heard the Cave of Hatching has a lot of strong trainers.
 I wonder how you stack up?
@@ -18275,20 +18281,18 @@ Look at this pretty egg-shaped stone!
 Look at this pretty egg-shaped stone!
 My friend got it from the Cave of Hatching and gave it to me!
 My friend got it from the Cave of Hatching and gave it to me!
-The door seems to be locked.
-The door seems to be locked.
-They say it's too dangerous out here now. Well, I'll show them! I'll beat all of you!
-They say it's too dangerous out here now. Well, I'll show them! I'll beat all of you!
-Hey, could ya... could ya beat those giant Pokemon for me? So I can come out here to play again?
-Hey, could ya... could ya beat those giant Pokemon for me? So I can come out here to play again?
-Dammit! I can't even crush you! And you're like a baby compared to those big see-through things!
-Dammit! I can't even crush you! And you're like a baby compared to those big see-through things!
 I sensed this region's distress from across the seas, and you -- you are at the heart of its plight!
 I sensed this region's distress from across the seas, and you -- you are at the heart of its plight!
 Such shining purpose! My role in your path is over. I wonder: is it carved by force of will, or merely force alone?
 Such shining purpose! My role in your path is over. I wonder: is it carved by force of will, or merely force alone?
 Perhaps I have misread the flow of the aether. Your role may be entirely different after all.
 Perhaps I have misread the flow of the aether. Your role may be entirely different after all.
+They say it's too dangerous out here now. Well, I'll show them! I'll beat all of you!
+They say it's too dangerous out here now. Well, I'll show them! I'll beat all of you!
+Hey, could ya... could ya beat those giant Pokemon for me? So I can come out here to play again?
+Hey, could ya... could ya beat those giant Pokemon for me? So I can come out here to play again?
+Dammit! I can't even crush you! And you're like a baby compared to those big see-through things!
+Dammit! I can't even crush you! And you're like a baby compared to those big see-through things!
 South: Gigalith's Guts
 South: Gigalith's Guts
 North: Eleig River Crossing
@@ -18297,6 +18301,22 @@ West: Svait
 West: Svait
 East: LuxTech Campus
 East: LuxTech Campus
+Hey, hey, take a chance on me, won't you?
+Hey, hey, take a chance on me, won't you?
+I'm an old hand at gamblin'. Been doin' it most of my days.
+I'm an old hand at gamblin'. Been doin' it most of my days.
+I'll share my ways with your Pokemon.
+I'll share my ways with your Pokemon.
+Teach em' how to take a chance on a powerful move.
+Teach em' how to take a chance on a powerful move.
+Teach 'em to push on through till they get that big hit.
+Teach 'em to push on through till they get that big hit.
+Sound like a deal?
+Sound like a deal?
+Yes! I knew I was due for a win!
+Yes! I knew I was due for a win!
+Hey, hey, not the result I wanted... but I'll keep on tryin'.
+Hey, hey, not the result I wanted... but I'll keep on tryin'.
 Helena's House
 Helena's House
 Come to Makya, they said. You'll be a huge hit, they said. Now I'm battling to make ends meet!
@@ -18333,10 +18353,10 @@ Being, ya know...
 Being, ya know...
 Grounded...
 Grounded...
-No
-No
 Yes
 Yes
+No
+No
 [Map302]
 \PN! Go around the other way! Pincer maneuver, right?
 \PN! Go around the other way! Pincer maneuver, right?
@@ -23061,8 +23081,8 @@ Never leave home without your Clear Smog. It's like magic!
 [Map395]
 There's a tourist family causing all kinds of chaos in the west part of town.
 There's a tourist family causing all kinds of chaos in the west part of town.
-They're offering evolution stones for anyone who can beat them all in a battle.
-They're offering evolution stones for anyone who can beat them all in a battle.
+They're offering evolution items for anyone who can beat them all in a battle.
+They're offering evolution items for anyone who can beat them all in a battle.
 I wish they would just pack up and go home.
 I wish they would just pack up and go home.
 All the noise is giving me a headache.
@@ -31284,8 +31304,6 @@ High Jump Kick
 High Jump Kick
 Karate Chop
 Karate Chop
-Low Kick
-Low Kick
 Low Sweep
 Low Sweep
 Mach Punch
@@ -32638,6 +32656,8 @@ Refurbish
 Refurbish
 Rocket Punch
 Rocket Punch
+Shard Surge
+Shard Surge
 Shatter Vise
 Shatter Vise
 Shine Shot
@@ -33320,6 +33340,8 @@ Waxing Light
 Waxing Light
 Mutate
 Mutate
+Fighting Chance
+Fighting Chance
 Long Shot
 Long Shot
 Multi-Strike
@@ -33699,8 +33721,8 @@ The user is roused, raising its Attack and Sp. Atk by two steps.
 The user is roused, raising its Attack and Sp. Atk by two steps.
 The user yawns, making the target drowsy. They'll fall asleep at end of the next turn.
 The user yawns, making the target drowsy. They'll fall asleep at end of the next turn.
-The user looses a flurry of open-palmed arm thrusts that multi-hit two to five times. Has a 10% chance to numb.
-The user looses a flurry of open-palmed arm thrusts that multi-hit two to five times. Has a 10% chance to numb.
+The user looses a flurry of open-palmed arm thrusts that multi-hit two to five times.
+The user looses a flurry of open-palmed arm thrusts that multi-hit two to five times.
 The user looses a blast of aura from deep within its body. Can't miss and skips protections.
 The user looses a blast of aura from deep within its body. Can't miss and skips protections.
 The user slams into the opponent, dealing damage based on the user's Defense stat.
@@ -33737,8 +33759,6 @@ The target is attacked with a knee kick from a jump. If it misses, the user is h
 The target is attacked with a knee kick from a jump. If it misses, the user is hurt instead.
 The target is attacked with a sharp chop. Can random critical hit.
 The target is attacked with a sharp chop. Can random critical hit.
-A powerful low kick that makes the foe fall over. It inflicts greater damage on heavier foes.
-A powerful low kick that makes the foe fall over. It inflicts greater damage on heavier foes.
 The user attacks the target's legs swiftly, reducing the target's Speed stat by two steps.
 The user attacks the target's legs swiftly, reducing the target's Speed stat by two steps.
 The user throws a punch at blinding speed. It is certain to strike first.
@@ -33777,8 +33797,8 @@ A vortex of air is shot at the target to inflict damage. Can random critical hit
 A vortex of air is shot at the target to inflict damage. Can random critical hit.
 The user attacks with air that slices even the sky. It has a 40% chance to flinch the target.
 The user attacks with air that slices even the sky. It has a 40% chance to flinch the target.
-The user heats up its beak before attacking. Physically attacking in this time results in a burn.
-The user heats up its beak before attacking. Physically attacking in this time results in a burn.
+The user heats up its beak before attacking. If hit by a foe's physical move, burns the attacker.
+The user heats up its beak before attacking. If hit by a foe's physical move, burns the attacker.
 The user attacks foes with savagely cold winds. It has a 30% chance to frostbite.
 The user attacks foes with savagely cold winds. It has a 30% chance to frostbite.
 The user bounces up high, charging and becoming invulnerable, then drops on the foe on the second turn. It has a 30% chance to numb.
@@ -34123,8 +34143,8 @@ The target is razed with a mystical fire of great intensity. Burns the target.
 The target is razed with a mystical fire of great intensity. Burns the target.
 An inferno of scarlet flames torches everything around the user. It has a 30% chance to burn.
 An inferno of scarlet flames torches everything around the user. It has a 30% chance to burn.
-The user rigs its shell to explode. If it is hit by a physical move this turn, the shell detonates and hurts all near foes.
-The user rigs its shell to explode. If it is hit by a physical move this turn, the shell detonates and hurts all near foes.
+The user rigs its shell to explode. If hit by a foe's physical move, the shell detonates and hurts all near foes.
+The user rigs its shell to explode. If hit by a foe's physical move, the shell detonates and hurts all near foes.
 With a fiery forehead, the user hurls itself at the foe. Lowers the user's Defense, Sp. Def, and Speed by two steps.
 With a fiery forehead, the user hurls itself at the foe. Lowers the user's Defense, Sp. Def, and Speed by two steps.
 If the target's HP is half or less, this attack will hit with double the power.
@@ -35065,6 +35085,8 @@ The user economizes half of its weight, healing based on the weight lost.
 The user economizes half of its weight, healing based on the weight lost.
 The user launches a fist with extreme force. This attack is popular with children.
 The user launches a fist with extreme force. This attack is popular with children.
+The user lines up shards before attacking. If hit by a foe's special move, lays a hazard layer of Spikes at their feet.
+The user lines up shards before attacking. If hit by a foe's special move, lays a hazard layer of Spikes at their feet.
 The user crushes the target in its metallic vises, breaking any screens protecting the target's side.
 The user crushes the target in its metallic vises, breaking any screens protecting the target's side.
 The user looses a flash of energy from its polished body. It has a 30% chance to lower Sp. Def.
@@ -35239,8 +35261,8 @@ The user rides a wave, then crashes into the target. Has a 30% chance to cause a
 The user rides a wave, then crashes into the target. Has a 30% chance to cause a flinch.
 The user applies anesthetic substances, numbing the target.
 The user applies anesthetic substances, numbing the target.
-The user sheds its leaves to attack. This lowers the user's Defense and Sp. Def by two steps.
-The user sheds its leaves to attack. This lowers the user's Defense and Sp. Def by two steps.
+The user uses wind to blast its leaves at the target. This lowers the user's Defense and Sp. Def by two steps.
+The user uses wind to blast its leaves at the target. This lowers the user's Defense and Sp. Def by two steps.
 The user gracefully slashes the target three times. The next time this move is used, it will hit one extra time.
 The user gracefully slashes the target three times. The next time this move is used, it will hit one extra time.
 Flowers blooms with intensity, damaging the target and raising the user's Sp. Atk by two steps.
@@ -35261,8 +35283,8 @@ Round objects are hurled at the target to strike three times in a row.
 Round objects are hurled at the target to strike three times in a row.
 The user attacks the target with the power of a warding charm. Super effective vs Ghost-types.
 The user attacks the target with the power of a warding charm. Super effective vs Ghost-types.
-The user hides its blade. If it is hit by a special move, it unsheathes it quickly, slashing all near foes.
-The user hides its blade. If it is hit by a special move, it unsheathes it quickly, slashing all near foes.
+The user hides its blade. If hit by a foe's special move, it unsheathes it quickly, slashing all near foes.
+The user hides its blade. If hit by a foe's special move, it unsheathes it quickly, slashing all near foes.
 The user uses their feet to pierce the foe. This has a 10% chance of leeching the target.
 The user uses their feet to pierce the foe. This has a 10% chance of leeching the target.
 The user eats decaying leaves, restoring its HP by 50% and raising its Speed.
@@ -35741,6 +35763,8 @@ Strikes the target with lunar light, then summons moonglow for eight turns.
 Strikes the target with lunar light, then summons moonglow for eight turns.
 The user mutates its genetic code, transforming into any of its 3 other forms. Only useable as Deoxys Normal.
 The user mutates its genetic code, transforming into any of its 3 other forms. Only useable as Deoxys Normal.
+The user makes an risky, difficult attack. If it misses, the user's Accuracy is raised.
+The user makes an risky, difficult attack. If it misses, the user's Accuracy is raised.
 The user makes a foolhardy, roundabout attack. It misses much of the time.
 The user makes a foolhardy, roundabout attack. It misses much of the time.
 The target is multi-hit two to five times.
@@ -39735,6 +39759,8 @@ Sound Barrier
 Sound Barrier
 Space Interloper
 Space Interloper
+Spacial Distortion
+Spacial Distortion
 Spare Scales
 Spare Scales
 Spectrum Vision
@@ -39819,6 +39845,8 @@ Tantalizing
 Tantalizing
 Team Player
 Team Player
+Temporal Distortion
+Temporal Distortion
 Tenderize
 Tenderize
 Territorial
@@ -39939,6 +39967,8 @@ Primeval Regenerator
 Primeval Regenerator
 Primeval Slow Start
 Primeval Slow Start
+Absolute Defense
+Absolute Defense
 Ancestral Summons
 Ancestral Summons
 Backfire
@@ -39953,8 +39983,6 @@ Chrono Revert
 Chrono Revert
 Download 2
 Download 2
-Last Light
-Last Light
 Relentless Pursuit
 Relentless Pursuit
 Adaptive AI v1
@@ -40802,8 +40830,8 @@ Physical moves against the Pokémon have a 30% chance to leech the attacker.
 Physical moves against the Pokémon have a 30% chance to leech the attacker.
 Rather than take recoil damage, it swaps out, and its replacement takes that damage.
 Rather than take recoil damage, it swaps out, and its replacement takes that damage.
-Pokémon can't dance or use sound-based moves.
-Pokémon can't dance or use sound-based moves.
+Pokémon can't raise their stats. Pokémon that dance take damage equal to 1/4th their HP.
+Pokémon can't raise their stats. Pokémon that dance take damage equal to 1/4th their HP.
 Uses Snatch upon entry, stealing self-targeting status moves.
 Uses Snatch upon entry, stealing self-targeting status moves.
 Boosts the power of punching moves by 50%.
@@ -41158,6 +41186,8 @@ After using a sound move, raises the Pokémon's Defense and Sp. Def. Caps out at
 After using a sound move, raises the Pokémon's Defense and Sp. Def. Caps out at +4.
 Attacks hit twice for half damage, drain 25% of damage dealt and become special.
 Attacks hit twice for half damage, drain 25% of damage dealt and become special.
+Your attacks become spread.
+Your attacks become spread.
 Raises defenses after using a Grass-, Ground-, or Steel-type move. Caps out at +4.
 Raises defenses after using a Grass-, Ground-, or Steel-type move. Caps out at +4.
 The Pokémon and its allies' moves are twice as likely to be critical.
@@ -41238,6 +41268,8 @@ Draws in attacks from enemies with below half health.
 Draws in attacks from enemies with below half health.
 Deals 25% more move damage for each ally in battle.
 Deals 25% more move damage for each ally in battle.
+Every 3 turns it gets to move twice.
+Every 3 turns it gets to move twice.
 At the end of each round, lowers other numbed Pokémon's Defense and Sp. Def by two steps.
 At the end of each round, lowers other numbed Pokémon's Defense and Sp. Def by two steps.
 Boosts damage by 20% if there is a weather. Immune to weather downsides.
@@ -41356,6 +41388,8 @@ Heals for 1/4th of its HP at the end of every turn.
 Heals for 1/4th of its HP at the end of every turn.
 Attack and Speed are halved.
 Attack and Speed are halved.
+Protects the Pokémon and its allies from spread moves. Defense increased by 20%.
+Protects the Pokémon and its allies from spread moves. Defense increased by 20%.
 Switches out if its HP becomes half or less. The replacement Pokémon's ​​first hit must be a crit​​ and if it's Doduo or Dodrio, it will use Fly​​ immediately.
 Switches out if its HP becomes half or less. The replacement Pokémon's ​​first hit must be a crit​​ and if it's Doduo or Dodrio, it will use Fly​​ immediately.
 When hitting a target that has an ability with an offensive damage-modifying effect, the Pokémon ignores the conditions and triggers the effect.
@@ -41370,8 +41404,6 @@ When knocks out any foe, it reverses its own timeline, changes to its initial st
 When knocks out any foe, it reverses its own timeline, changes to its initial state upon entering the battle.
 Boosts both one offending and defending stat by one step according to the foe's defenses and offenses.
 Boosts both one offending and defending stat by one step according to the foe's defenses and offenses.
-The power of its moves is increased by 20% every time it takes damage during Last Gasp.
-The power of its moves is increased by 20% every time it takes damage during Last Gasp.
 Attacks switching opponents with Pursuit if the Pokémon's HP is greater than 50%.
 Attacks switching opponents with Pursuit if the Pokémon's HP is greater than 50%.
 Adapts the move's type to ensure it is super-effective against the target.
@@ -45244,6 +45276,12 @@ An error occured while checking for the legality of your party.
 An error occured while checking for the legality of your party.
 Save downgraded to version {1}
 Save downgraded to version {1}
+your party
+your party
+storage box #{i}
+storage box #{i}
+the Time Capsule
+the Time Capsule
 Your name?
 Your name?
 Enter {1}'s name.
@@ -49054,8 +49092,8 @@ But a live wire already sits near {1}!
 {1} is hungry for destruction!
 {1} is honorable! Status moves lose priority!
 {1} is honorable! Status moves lose priority!
-{1} is a killjoy! No one is allowed to dance or make sound!
-{1} is a killjoy! No one is allowed to dance or make sound!
+{1} is a killjoy! Stats can't be raised!
+{1} is a killjoy! Stats can't be raised!
 {1} is a bad influence! Healing is reversed!
 {1} is a bad influence! Healing is reversed!
 {1} is interfering! No one gets same-type damage bonus!
@@ -49254,8 +49292,6 @@ You can skip the battle and treat it as a win by FORFEIT!
 You can skip the battle and treat it as a win by FORFEIT!
 You have to win the battle PERFECTLY, or you LOSE!
 You have to win the battle PERFECTLY, or you LOSE!
-{1} is blessed by the shattered sky!
-{1} is blessed by the shattered sky!
 Time is dancing to {1}'s tune! This turn is being skipped!
 Time is dancing to {1}'s tune! This turn is being skipped!
 {1} will arrive next turn!
@@ -49666,6 +49702,8 @@ But {1} can't be switched out!
 But {1} can't be switched out!
 {1} changes its cloak to fit its next move!
 {1} changes its cloak to fit its next move!
+{1} takes control of time itself!
+{1} takes control of time itself!
 {1} cannot use any of its moves, and will Struggle if it fights. Go ahead?
 {1} cannot use any of its moves, and will Struggle if it fights. Go ahead?
 {1} must use {2} if it fights. Go ahead?
@@ -49936,8 +49974,6 @@ But {1} hold's tightly onto its {2}!
 {1} can't have its type changed!
 {1} is unaffected!
 {1} is unaffected!
-{1} was one step closer to death!
-{1} was one step closer to death!
 nthTurnThisRound checks for turns 1 or above!
 nthTurnThisRound checks for turns 1 or above!
 #{@name} isn't an avatar, but something is requesting its Phase Lower Health Bound!
@@ -49946,6 +49982,8 @@ nthTurnThisRound checks for turns 1 or above!
 #{@name} isn't an avatar, but something is requesting its Health Per Phase!
 {1}'s healing is reversed!
 {1}'s healing is reversed!
+{1}'s {2} prevents {3} from raising its {4}!
+{1}'s {2} prevents {3} from raising its {4}!
 {1}'s {2} won't go any higher!
 {1}'s {2} won't go any higher!
 It'll last the whole battle!
@@ -50190,6 +50228,8 @@ Hit {1} times!
 {1}'s destiny is bonded with {2}!
 {1} used the move instructed by {2}!
 {1} used the move instructed by {2}!
+{1} was punished for its joy!
+{1} was punished for its joy!
 The {1} majorly strengthened {2}'s power!
 The {1} majorly strengthened {2}'s power!
 The {1} strengthened {2}'s power!
@@ -50320,6 +50360,8 @@ The ring of water restored {1}'s HP!
 The ring of water restored {1}'s HP!
 {1} started heating up its beak!
 {1} started heating up its beak!
+{1} lines up metal shards!
+{1} lines up metal shards!
 {1} rapidly cooled the air!
 {1} rapidly cooled the air!
 {1} lost its Fire-Type!
@@ -55354,6 +55396,8 @@ Add one Pokémon of each species to storage.
 Add one Pokémon of each species to storage.
 What level?
 What level?
+Include the Legendary?
+Include the Legendary?
 Clear Storage Boxes
 Clear Storage Boxes
 Remove all Pokémon in storage.
@@ -57156,6 +57200,10 @@ Random Team
 Random Team
 Random Pokémon Team
 Random Pokémon Team
+Copy Team
+Copy Team
+Which team do you want to copy?
+Which team do you want to copy?
 Which team do you want to challenge?
 Which team do you want to challenge?
 Do you want to use other battle rules?
@@ -57166,8 +57214,6 @@ Your team has been exported!
 Your team has been exported!
 Team {1} has been deleted!
 Team {1} has been deleted!
-An error occurred.<<n>>Please try again!
-An error occurred.<<n>>Please try again!
 Do you want to take a Pokémon from the opposing party?
 Do you want to take a Pokémon from the opposing party?
 Which Pokémon do you want to take?
@@ -58452,8 +58498,6 @@ Undefined Incidents
 Undefined Incidents
 Bluepoint Grotto
 Bluepoint Grotto
-Németh Apartments
-Németh Apartments
 Sewers
 Sewers
 Go Back
@@ -60977,6 +61021,8 @@ Aqua Ring
 Aqua Ring
 Beak Blast
 Beak Blast
+Shard Surge
+Shard Surge
 Condensate
 Condensate
 Bide Turns
