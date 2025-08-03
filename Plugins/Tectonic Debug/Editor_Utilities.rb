@@ -117,14 +117,14 @@ def pbGetLegalMoves(species)
   # the list sorting between numerical and alphabetical.
   def pbChooseSpeciesList(default = nil)
     commands = []
-    GameData::Species.each { |s| commands.push([s.id_number, s.real_name, s.id]) if s.form == 0 }
+    GameData::Species.each { |s| commands.push([s.id_number, s.name, s.id]) if s.form == 0 }
     return pbChooseList(commands, default, nil, -1)
   end
   
   def pbChooseSpeciesFormList(default = nil)
     commands = []
     GameData::Species.each do |s|
-      name = (s.form == 0) ? s.real_name : sprintf("%s_%d", s.real_name, s.form)
+      name = (s.form == 0) ? s.name : sprintf("%s_%d", s.name, s.form)
       commands.push([s.id_number, name, s.id])
     end
     return pbChooseList(commands, default, nil, -1)
@@ -136,7 +136,7 @@ def pbGetLegalMoves(species)
   # between numerical and alphabetical.
   def pbChooseMoveList(default = nil)
     commands = []
-    GameData::Move.each { |i| commands.push([i.id_number, i.real_name, i.id]) }
+    GameData::Move.each { |i| commands.push([i.id_number, i.name, i.id]) unless i.cut || i.zmove }
     return pbChooseList(commands, default, nil, -1)
   end
   
@@ -189,7 +189,7 @@ def pbGetLegalMoves(species)
   # between numerical and alphabetical.
   def pbChooseItemList(default = nil)
     commands = []
-    GameData::Item.each { |i| commands.push([i.id_number, i.name, i.id]) }
+    GameData::Item.each { |i| commands.push([i.id_number, i.name, i.id]) unless i.cut }
     return pbChooseList(commands, default, nil, -1)
   end
   
