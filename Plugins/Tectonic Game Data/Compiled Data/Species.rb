@@ -533,7 +533,7 @@ module GameData
         end
 
         def form_specific_moves
-            return FORM_SPECIFIC_MOVES[@species]
+            return FORM_SPECIFIC_MOVES[@species] || []
         end
 
         def available_by?(level)

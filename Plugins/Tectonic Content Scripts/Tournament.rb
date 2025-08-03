@@ -23,6 +23,10 @@ POOL_2 = [
     [:LEADER_Bence_2,"Bence",2,3,10],
 ]
 
+POOL_3 = [
+
+]
+
 CHAMPION = [:TRAINER_Zain,"Zain",2,3,11]
 
 FINAL_ROUND = 10
@@ -80,7 +84,7 @@ class RandomTournament
     end
 
     def prepMatches()
-        @matches = POOL_1.shuffle + POOL_2.shuffle + [CHAMPION]
+        @matches = POOL_1.shuffle + POOL_2.shuffle + POOL_3.shuffle + [CHAMPION]
     end
 
     def winMatch()
@@ -130,7 +134,9 @@ def tournamentBattle()
 end
 
 def nextOpponentName()
-    return $PokemonGlobal.tournament.nextMatch()[1]
+    trainer = $PokemonGlobal.tournament.nextMatch
+    trainer_data = GameData::Trainer.get(trainer[0], trainer[1], trainer[2])
+    return trainer_data.name
 end
 
 def winTournamentMatch()

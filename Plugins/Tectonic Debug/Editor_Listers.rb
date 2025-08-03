@@ -671,14 +671,15 @@ class TrainerBattleLister
       @ids.push(true)
     end
     for t in cmds
+      trainer = GameData::Trainer.get(t[1], t[2], t[3])
       if t[3] > 0
         @commands.push(_INTL("{1} {2} ({3}) x{4}",
-           GameData::TrainerType.get(t[1]).name, t[2], t[3],
-           GameData::Trainer.get(t[1], t[2], t[3]).pokemon.length))
+           GameData::TrainerType.get(t[1]).name, trainer.name, t[3],
+           trainer.pokemon.length))
       else
         @commands.push(_INTL("{1} {2} x{3}",
-           GameData::TrainerType.get(t[1]).name, t[2],
-           GameData::Trainer.get(t[1], t[2], t[3]).pokemon.length))
+           GameData::TrainerType.get(t[1]).name, trainer.name,
+           trainer.pokemon.length))
       end
       @ids.push([t[1], t[2], t[3]])
     end
@@ -718,7 +719,7 @@ class TrainerBattleLister
         realTrainer = tr_data.to_trainer
         realTrainer.party.each_with_index do |pkmn, i|
           text += "\r\n" if i > 0
-          text += sprintf("%s Lv.%d", pkmn.species_data.real_name, pkmn.level)
+          text += sprintf("%s Lv.%d", pkmn.species_data.name, pkmn.level)
         end
       end
     end
