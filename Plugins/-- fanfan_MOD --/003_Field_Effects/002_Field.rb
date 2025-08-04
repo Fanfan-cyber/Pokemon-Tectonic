@@ -61,17 +61,17 @@ class PokeBattle_Battle::Field
 
   @@field_data = {}
   def self.register(field, data)
-    field = field.to_s.downcase.to_sym
-    define_method("is_#{field}?") do # define is_xxx? Field instance method
-      @id == field
-    end
+    field_id = field.to_s.downcase.to_sym
+
+    define_method("is_#{field_id}?") { @id == field_id } # define is_xxx? Field instance method
+
     PokeBattle_Battle.class_eval do # define is_xxx? Battle instance method
-      define_method("is_#{field}?") do
-        @current_field.public_send("is_#{field}?")
+      define_method("is_#{field_id}?") do
+        @current_field.public_send("is_#{field_id}?")
       end
     end
-    return if data[:special]
-    @@field_data[field] = data
+
+    @@field_data[field_id] = data unless data[:special] # don't register special field
   end
 
   def self.field_data

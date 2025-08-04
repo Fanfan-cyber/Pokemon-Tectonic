@@ -5347,9 +5347,9 @@ I've gotta scrounge up some more Eevee Tickets and visit that pub in Prizca East
 Then, I'll be able to call myself a true fan!
 这样就能算是合格的死忠粉了吧！
 DO YOU LIKE GALARIAN ZIGZAGOON?
-你 喜 欢 伽 勒 尔蛇 纹 熊 吗 ？
+你 喜 欢 伽 勒 尔 蛇 纹 熊 吗 ？
 GO LOUD GO OFF GALARIAN ZIGZAGOOOOOOOOOOOOOOOOOOOOON!
-伽 勒 尔 蛇 纹 熊天 下 第 一 ！！！
+伽 勒 尔 蛇 纹 熊 天 下 第 一 ！！！
 [Map71]
 I gained a lot of weight living on my own, with no parents to stop me from binging ice cream.
 一个人生活的时候，就没有父母来阻止我狂炫冰淇淋了，所以体重增加了很多。
@@ -28040,7 +28040,7 @@ Sword Blade
 Big Blade
 大刀
 Bash Buffalo
-头槌牛
+狂牛冲击
 Eaglet
 雏鹰
 Valiant
@@ -32447,7 +32447,7 @@ Grind Stone
 Hard Place
 碰壁打击
 Headbang
-头槌
+甩头重击
 Icebreaker
 冰川开拓
 Invite Sandstorm
@@ -32633,7 +32633,7 @@ Fragmentation
 Hair Curl
 卷发盘绕
 Helmbutt
-头槌
+战盔猛击
 Impaling Spike
 刺钉
 Iron Arrow
@@ -41497,7 +41497,7 @@ Mutant
 基因
 20
 Flex
-可变
+自由
 [14]
 Tester
 测试者
@@ -48779,7 +48779,7 @@ You were spared from spikes this turn!
 Pyres raised<<n>>Here we meet<<n>>Spirits razed<<n>>Reduced to meat
 粉身碎骨浑不怕，要留清白在人间。
 Status conditions affect your Pokémon twice as much!<<n>>Foes ignore the Status Clause!
-异常状态对你的精灵影响加倍！<<n>>敌方无视全状态睡眠条款！
+异常状态对你精灵的影响加倍！<<n>>敌方无视异常条款！
 Turbulent Sky is continually active on the opposing side.
 动荡之空在对方场上持续生效。
 Shall Our Truth Lay Asunder Thy Masque and Thee?
