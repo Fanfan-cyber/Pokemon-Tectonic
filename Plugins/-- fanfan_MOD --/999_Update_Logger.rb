@@ -157,7 +157,9 @@ doublebattle/disabledouble，开启/关闭全双打模式
 disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
 
 0.3.9
-1.
+1.修复了锦标赛中Lambert的队伍异常的Bug
+2.现在游戏如果检测到玩家作弊，将会直接删除玩家的所有存档、清空所有成就，以及埋葬时间胶囊里的所有精灵
+3.
 
 0.3.8
 1.修复了沙奈朵的Arcane Finale的不完美完胜效果失效的Bug
@@ -194,15 +196,15 @@ disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
 32.修复了Poison Spikes不被视为是陷阱的Bug
 33.修复了Flame Spikes不被视为是陷阱的Bug
 34.现在Poison Spikes、Flame Spikes和Frost Spikes可以共存
-35.现在Poison Spikes的伤害与Poison Spikes的层数有关，层数越多，伤害越高
-36.现在Poison Spikes会检查是否会陷入异常，然后应用伤害
-37.现在Flame Spikes的伤害与Poison Spikes的层数有关，层数越多，伤害越高
-38.现在Flame Spikes会检查是否会陷入异常，然后应用伤害
-39.现在Frost Spikes的伤害与Poison Spikes的层数有关，层数越多，伤害越高
-40.现在Frost Spikes会检查是否会陷入异常，然后应用伤害
+35.现在Poison Spikes的伤害与Poison Spikes的层数有关，层数越大，伤害越大
+36.现在Poison Spikes会先检查是否会陷入异常，然后再应用伤害
+37.现在Flame Spikes的伤害与Flame Spikes的层数有关，层数越大，伤害越大
+38.现在Flame Spikes会先检查是否会陷入异常，然后再应用伤害
+39.现在Frost Spikes的伤害与Frost Spikes的层数有关，层数越大，伤害越大
+40.现在Frost Spikes会先检查是否会陷入异常，然后再应用伤害
 41.现在当同时存在多种会让精灵陷入异常状态的Spikes时，会自适应让精灵陷入某一种异常状态
 42.修复了Flex属性的技能不会自动和精灵的第一属性同步的Bug
-43.因为Visual Studio Code无响应，所以不再同步更新整体中文的翻译文本
+43.因为Visual Studio Code无响应，所以不再同步更新正体中文的翻译文本
 44.现在下载的01 Earthquake压缩包的Screenshots文件夹中包含了0.3.7锦标赛的所有对手的队伍截图
 
 0.3.7

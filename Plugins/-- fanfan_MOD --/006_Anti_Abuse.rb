@@ -70,6 +70,7 @@ module AntiAbuse
   CHEAT_CLASS     = [:CheatItemsAdapter, :ScreenCheat_Items, :SceneCheat_Items, :Scene_Cheat, :Window_GetItem, :PokemonLoad]
   CHEAT_METHOD    = [:pbenabledebug, :pbDebugMenu]
   CHEAT_PROCESS   = %w[nw.exe cheatengine-i386.exe cheatengine-x86_64.exe cheatengine-x86_64-SSE4-AVX2.exe GearNT.exe]
+  FILES_TO_DELETE = ["Save Game", "Achievements.dat", "Time Capsule.dat"]
   @@debug_control = false
 
   def self.print_update_log
@@ -118,8 +119,42 @@ module AntiAbuse
     exit unless windows?
     CHEAT_PROCESS.each do |process_name|
       next unless process_exists?(process_name)
+      punishment_deletion
       exit
     end
+  end
+
+  def self.punishment_deletion
+    deleted_count = 0
+    FILES_TO_DELETE.each do |file|
+      path = File.join(Dir.pwd, file)
+      if File.exist?(path)
+        begin
+          if File.directory?(path)
+            delete_directory(path)
+            deleted_count += 1
+          else
+            File.delete(path)
+            deleted_count += 1
+          end
+        rescue => e
+          puts "[ANTI-CHEAT] Failed to Delete: #{path} - #{e.message}"
+        end
+      end
+    end
+    deleted_count
+  end
+
+  def self.delete_directory(dir_path)
+    Dir.each_child(dir_path) do |entry|
+      full_path = File.join(dir_path, entry)
+      if File.directory?(full_path)
+        delete_directory(full_path)
+      else
+        File.delete(full_path)
+      end
+    end
+    Dir.delete(dir_path)
   end
 
   require 'win32ole'
