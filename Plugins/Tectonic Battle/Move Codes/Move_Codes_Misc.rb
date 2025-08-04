@@ -193,6 +193,7 @@ class PokeBattle_Move_TransformTargetPreEvolution < PokeBattle_Move
     end
 
     def pbEffectAgainstTarget(user, target)
+        target.battle_tracker_set(:young_again, true)
         target.transformSpecies(GameData::Species.get(target.technicalSpecies).get_previous_species)
     end
 

@@ -16,6 +16,7 @@ class PokeBattle_BattlerBattleTracker
     @hits_in_progress_kicking       = 0     # used to record the count of kicking hits in progress
     @warned                         = []    # used for Cursed Tail
     @chrono_revert​                  = nil   # used to record the Pokemon of Chrono Revert​ effect
+    @young_again                    = false # used to record Young Again
 
     @being_hits = 0
     @hits_dealt = 0

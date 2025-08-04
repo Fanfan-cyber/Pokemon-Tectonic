@@ -406,6 +406,13 @@ class PokeBattle_Battle
         return false
     end
 
+    def apply_young_again(battler)
+        return unless battler.battle_tracker_get(:young_again)
+        battler.transformSpeciesEX(GameData::Species.get(battler.technicalSpecies).get_previous_species, nil, false, false, false) do |battler|
+            pbDisplay(_INTL("{1} remembered the happy hours of childhood!", battler.pbThis))
+        end
+    end
+
     def apply_inverse(effectiveness)
         return effectiveness if !should_inverse? || effectiveness == Effectiveness::NORMAL_EFFECTIVE_ONE
         return Effectiveness::SUPER_EFFECTIVE_ONE if effectiveness < Effectiveness::NORMAL_EFFECTIVE_ONE
@@ -420,6 +427,7 @@ class PokeBattle_Battle
         battled_battlers.push(battler.unique_id) unless battled_battlers.include?(battler.unique_id)
         apply_field_effect(:switch_in, battler)
         battler.battle_tracker_set(:chrono_revert, battler.pokemon.clone_pkmn(false, true))
+        apply_young_again(battler)
 
         # Trigger enter the field curses
         curses.each do |curse|

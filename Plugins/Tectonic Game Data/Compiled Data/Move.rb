@@ -8,7 +8,7 @@ module GameData
       attr_reader :type
       attr_reader :category
       attr_reader :accuracy
-      attr_reader :total_pp
+      #attr_reader :total_pp
       attr_reader :effect_chance
       attr_reader :target
       attr_reader :priority
@@ -87,6 +87,10 @@ module GameData
 
       def function_code(real = true)
         return real ? (MOVE_DATA[@id]&.[](:function_code) || @function_code) : @function_code
+      end
+
+      def total_pp(real = true)
+        return real ? (MOVE_DATA[@id]&.[](:total_pp) || @total_pp) : @total_pp
       end
 
       def physical?
@@ -425,7 +429,7 @@ module Compiler
     f.write("Category = #{category}\r\n")
     f.write("Power = #{move.base_damage}\r\n") if move.base_damage > 0
     f.write("Accuracy = #{move.accuracy}\r\n")
-    f.write("TotalPP = #{move.total_pp}\r\n")
+    f.write("TotalPP = #{move.total_pp(false)}\r\n")
     f.write("Target = #{move.target}\r\n")
     f.write("Priority = #{move.priority}\r\n") if move.priority != 0
     f.write("FunctionCode = #{move.function_code(false)}\r\n")

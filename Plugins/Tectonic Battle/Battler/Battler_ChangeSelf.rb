@@ -717,7 +717,7 @@ class PokeBattle_Battler
         @battle.pbDisplay(_INTL("{1} transformed into {2}!", pbThis, newSpeciesData.name))
 
         lost_abilities = abilities - newSpeciesData.legalAbilities
-        setAbility(legalAbilities)
+        setAbility(newSpeciesData.legalAbilities)
         # newAbility = legalAbilities[@pokemon.ability_index] || legalAbilities[0]
         # replaceAbility(newAbility) unless hasAbility?(newAbility)
 

@@ -17,7 +17,7 @@ Events.onTrainerPartyLoad += proc { |_sender, e|
     pkmn = $Trainer.party_random_pkmn(false, true, false, TA.get(:copied_mon, []))
     trainer.party << pkmn if pkmn
   end
-  trainer.party.shuffle! if trainer.trainer_type.to_s.inclede?("LEADER_Lambert")
+  trainer.party.shuffle! if trainer.trainer_type.to_s.include?("LEADER_Lambert")
 }
 
 Events.onTrainerPartyLoad += proc { |_sender, e|

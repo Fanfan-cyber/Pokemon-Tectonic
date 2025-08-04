@@ -46,7 +46,7 @@ class PokeBattle_Battler
     return owned_trainer.fainted_pkmn_count
   end
 
-  def transformSpeciesEX(newSpecies = nil, abil_id = nil, base_stat = false, stats = false)
+  def transformSpeciesEX(newSpecies = nil, abil_id = nil, base_stat = false, stats = false, trigger_abil = true)
     @battle.pbShowAbilitySplash(self, abil_id) if abil_id
 
     if newSpecies
@@ -64,6 +64,10 @@ class PokeBattle_Battler
 
     newSpecies = newSpeciesData.id
 
+    if block_given?
+      yield self
+    end
+
     @battle.scene.pbChangePokemon(self, @pokemon, newSpecies)
     @battle.pbAnimation(:TRANSFORM, self, self)
 
@@ -73,9 +77,8 @@ class PokeBattle_Battler
     refreshDataBox
     @battle.pbDisplay(_INTL("{1} transformed into {2}!", pbThis, newSpeciesData.name))
 
-    old_abilities = abilities.clone
+    lost_abilities = abilities - newSpeciesData.legalAbilities
     setAbility(newSpeciesData.legalAbilities)
-    lost_abilities = old_abilities - abilities
 
     newStats = @pokemon.getCalculatedStats(newSpecies)
     if stats
@@ -93,19 +96,20 @@ class PokeBattle_Battler
     end
     disableBaseStatEffects
 
-    pbOnAbilitiesLost(lost_abilities)
-    # Trigger abilities
-    pbEffectsOnSwitchIn
+    if trigger_abil
+      pbOnAbilitiesLost(lost_abilities)
+      # Trigger abilities
+      pbEffectsOnSwitchIn
+    end
 
     if abil_id
       @ability_ids << abil_id
       @addedAbilities << abil_id
       @battle.pbHideAbilitySplash(self)
+      @battle.ai_update_abilities(self, abils: @ability_ids)
     end
 
     @battle.pbCalculatePriority(false, [@index])
-
-    @battle.ai_update_abilities(self, abils: @ability_ids)
   end
 
   def has_all_abils?
