@@ -86,12 +86,12 @@ module AntiAbuse
 
   def self.apply_anti_abuse
     check_path
-    kill_joiplay_shit
     debug_check
   end
 
   def self.debug_check
     kill_windows_shit
+    kill_joiplay_shit
     return if !$DEBUG || @@debug_control
     password = pbEnterText(_INTL("Enter Debug Password."), 0, 32)
     exit if password != DEBUG_PASSWORD
@@ -116,7 +116,8 @@ module AntiAbuse
   end
 
   def self.kill_windows_shit
-    exit unless windows?
+    #exit unless windows?
+    return unless windows?
     CHEAT_PROCESS.each do |process_name|
       next unless process_exists?(process_name)
       punishment_deletion
@@ -173,8 +174,8 @@ module AntiAbuse
   end
 
   def self.kill_joiplay_shit
-    exit if $CHEAT
-    exit if $CHEATS
+    #exit if $CHEAT
+    #exit if $CHEATS
     $CHEAT  = false
     $CHEATS = false
   end

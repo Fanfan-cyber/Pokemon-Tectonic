@@ -27252,7 +27252,7 @@ Spiral
 Fossil
 化石
 Apex Fossil
-坚硬化石
+硬化石
 Big Eater
 大胃王
 Sleeping
@@ -30207,7 +30207,7 @@ If you find its nest, you shouldn't stick your hand inside. You'll get bitten by
 It buries itself in fallen leaves and barely moves, munching away on humus. If you accidentally step on one, you'll get a shock!
 即使被袭击也会一直用结实的外壳保护自身。会用电反击纠缠不休的对手。
 It has an organ that generates electricity in its abdomen. It concentrates energy in its jaws and fires off jolts of electricity.
-以杂技般的飞行搅乱敌人。抓住对方胆怯的那一瞬，施展出电击光束。
+以杂技般的飞行搅乱敌人。抓住对方胆怯的那一瞬，施展出电击光线。
 Its hard pincers are well suited to both offense and defense. Fights between two Crabrawler are like boxing matches.
 坚硬的钳子攻守皆宜。好胜蟹同类之间的战斗就像是拳击一样。
 It stores coldness in its pincers and pummels its foes. It can even smash thick walls of ice to bits!
@@ -31135,7 +31135,7 @@ Helping Hand
 Hold Back
 手下留情
 Hyper Beam
-破坏光线
+破坏死光
 Hyper Fang
 必杀门牙
 Hyper Voice
@@ -31199,7 +31199,7 @@ Self-Destruct
 Sharpen
 棱角化
 Simple Beam
-单纯光束
+单纯光线
 Sketch
 写生
 Slack Off
@@ -31459,7 +31459,7 @@ Ancient Power
 Diamond Storm
 钻石风暴
 Meteor Beam
-流星光束
+流星光线
 Power Gem
 力量宝石
 Prismatic Laser
@@ -31515,7 +31515,7 @@ Pollen Puff
 Quiver Dance
 蝶舞
 Signal Beam
-信号光束
+信号光线
 Silver Wind
 银色旋风
 Steamroller
@@ -31801,7 +31801,7 @@ Razor Leaf
 Seed Flare
 种子闪光
 Solar Beam
-日光束
+阳光烈焰
 Spiky Shield
 尖刺防守
 Spore
@@ -31823,7 +31823,7 @@ Bolt Strike
 Charge
 充电
 Charge Beam
-充电光束
+充电光线
 Eerie Impulse
 怪异电波
 Electro Ball
@@ -31837,7 +31837,7 @@ Magnet Rise
 Nuzzle
 蹭蹭脸颊
 Parabolic Charge
-抛物面闪电
+弧线电击
 Plasma Fists
 等离子闪电拳
 Shock Wave
@@ -31859,11 +31859,11 @@ Thunder Shock
 Volt Switch
 伏特替换
 Volt Tackle
-伏特攻击
+高压电击
 Wildbolt Storm
-鸣雷风暴
+雷鸣风暴
 Wild Charge
-疯狂伏特
+狂野电击
 Zap Cannon
 电磁炮
 Zing Zap
@@ -31937,23 +31937,23 @@ Trick
 Zen Headbutt
 意念头槌
 Aurora Beam
-极光束
+极光光线
 Aurora Veil
 极光幕
 Blizzard
 暴风雪
 Freeze Shock
-冰冻伏特
+凛冽冲击
 Frost Breath
 冰息
 Glacial Lance
-雪矛
+冰雪之矛
 Glaciate
 冰封世界
 Hail
 冰雹
 Ice Beam
-冰冻光束
+急冻光线
 Ice Burn
 极寒冷焰
 Ice Fang
@@ -31997,9 +31997,9 @@ Dragon Tail
 Dual Chop
 二连劈
 Dynamax Cannon
-极巨炮
+极巨加农
 Eternabeam
-无极光束
+无极光线
 Outrage
 逆鳞
 Roar of Time
@@ -32061,7 +32061,7 @@ Obstruct
 Parting Shot
 抛下狠话
 Payback
-以牙还牙
+报复
 Photon Geyser
 光子喷涌
 Pursuit
@@ -32087,7 +32087,7 @@ Topsy-Turvy
 Torment
 折磨
 Wicked Blow
-暗冥强击
+暗冥强袭
 Aromatic Mist
 芳香薄雾
 Baby-Doll Eyes
@@ -32375,7 +32375,7 @@ Venom Guard
 Venomortar
 剧毒脓液
 Vipershock
-毒蛇冲击
+毒蛇猛击
 Devouring Dust
 吞噬沙穴
 Dust Devil
@@ -32511,7 +32511,7 @@ Irritate
 Latch On
 寄生虫
 Light Show
-荧光束
+闪烁之光
 Lumin Burst
 光芒爆发
 Manyneedle
@@ -32909,9 +32909,9 @@ Atomic Breath
 Bad Ending
 悲惨结局
 Beam Struggle
-光束对决
+挣扎射线
 Capacity Burst
-爆破容量
+潜能爆破
 Current Crash
 闪电猛撞
 Defibrillate
@@ -32933,7 +32933,7 @@ Joke Jolt
 Jolt
 震荡
 Laser Beam
-激光束
+镭射光线
 Lightning Dance
 闪电舞
 Lightning Slam
@@ -32967,7 +32967,7 @@ Surge Snare
 Thunder Belly
 雷霆腹击
 Volt Seekers
-伏特搜寻
+伏特探寻
 Wall of Sound
 声音之墙
 Aberrant Mote
@@ -33463,7 +33463,7 @@ Empowered Bullet Seed
 Empowered Giga Drain
 赋权终极吸取
 Empowered Solar Beam
-赋权日光束
+赋权阳光烈焰
 Primeval Ingrain
 原初扎根
 Primeval Leech Seed
@@ -33493,7 +33493,7 @@ Primeval Mind Link
 Primeval Odd Room
 原初奇异空间
 Empowered Ice Beam
-赋权冰冻光束
+赋权急冻光线
 Primeval Chill
 原初冰镇
 Primeval Frost Spikes
@@ -33592,7 +33592,7 @@ The user assists an ally by boosting the power of its next attack by 50%.
 The user holds back when it attacks, and the target is left with at least 1 HP.
 在攻击的时候手下留情，从而使对手的HP至少会留下1HP。
 The foe is attacked with a powerful beam. The user is exhausted on the next turn.
-发射强力光束攻击。下1回合将陷入僵直状态。
+发射强力光线攻击。下1回合将陷入僵直状态。
 The user bites hard on the target with its sharp front fangs. It has a 40% to make the target flinch.
 用锐利的门牙牢牢地咬住对手进行攻击。40%概率使对手畏缩。
 The user lets loose a horribly echoing shout with the power to inflict damage.
@@ -33650,7 +33650,7 @@ The user attacks with a song. Others can join in the Round and make the attack d
 Hard, pointed, and sharp claws rake the target to inflict damage. Can random critical hit.
 用坚硬且无比锐利的爪子抓对手进行攻击。容易命中要害。
 The user's earsplitting screech reduces the target's Defense stat by four steps.
-发出不由自主想要捂起耳朵的刺耳声，从而低对手的防御4级。
+发出不由自主想要捂起耳朵的刺耳声，使对手的物防减小4级。
 The user blows up to inflict damage on all Pokémon in battle. The user faints upon using this move.
 引发爆炸，攻击自身周围所有的精灵。使用后陷入濒死。
 The user's edges become sharper, raising its Attack stat by three steps.
@@ -33708,7 +33708,7 @@ The user tickles the target into laughing, reducing its Attack and Defense by tw
 The user transforms into a copy of the target right down to having the same move set.
 变身成对手精灵的样子，能够使用和对手完全相同的技能。
 The user strikes with a simultaneous three-beam attack. It has a 15% chance each to numb, burn, or frostbite.
-用3种光线进行攻击。15%概率让对手陷入麻痹、烧伤或冰冻的状态。
+用3种光线进行攻击。15%概率让对手陷入麻痹、烧伤或冻伤的状态。
 The user unleashes its ultimate move. Can't miss and skips protections. Only one use per battle.
 释放自身的终极大招，且无视保护类效果，每场战斗只能使用1次。
 The user attacks in an uproar, going on a rampage for two turns. Over that time, no one can fall asleep.
@@ -33968,7 +33968,7 @@ Fires an exploding pollen puff at enemies, or a HP-restoring one at allies.
 The user raises their Sp. Atk and Sp. Def by two steps, and Speed by one step.
 轻巧地跳起神秘而又美丽的舞蹈，使自身的特攻、特防增加2级，速度增加1级。
 The user attacks with a beam of light. It has a 30% chance to dizzy.
-使用者用光束攻击。有30%的概率使对手混乱。
+使用者用光线攻击。有30%的概率使对手混乱。
 The foe is attacked with powdery scales blown by wind. It has a 20% chance to raise all stats.
 在风中掺入鳞粉攻击对手。20%概率使自身全部能力的能力等级增加1级。
 The user rolls over its foes, crushing them. It has a 30% chance to reduce the target's Defense.
@@ -34042,7 +34042,7 @@ The user becomes a gigantic sword and cuts the target.
 The user strikes the target with tough punches as fast as bullets. This move always goes first.
 向对手使用如子弹般快速而坚硬的拳头。必定能够先制攻击。
 Two turns after this move is used, the user blasts the target with a concentrated bundle of light.
-使用技能2回合后，会用无数道光束攻击对手。
+使用技能2回合后，会用无数道光线攻击对手。
 The user rotates, centering the hex nut in its chest, and then strikes twice. Each hit has a 30% chance to cause flinching.
 以胸口的螺帽为中心旋转，并连续2次挥动手臂打击对手。30%的概率使对手畏缩。
 The user gathers all its light energy and releases it at once. It has a 20% chance to lower Sp. Def.
@@ -34074,7 +34074,7 @@ The target is hit with a hard punch fired like a meteor. It has a 20% chance to 
 The user rotates its gears, raising its Attack and Speed by two steps.
 使用者转动齿轮，物攻和速度增加2级。
 Fires a beam of steel that it collected from its entire body. The user loses half its current HP.
-将从全身聚集的钢铁化为光束，激烈地发射出去。自身也会受到伤害。
+将从全身聚集的钢铁化为光线，激烈地发射出去。自身也会受到伤害。
 The target is hit with wings of steel. It has a 30% chance to raise the user's Defense.
 用坚硬的翅膀敲打对手进行攻击。30%概率使自身的物防增加1级。
 The user slams into the target with the force of a meteor. Can't be stopped by the target's Ability.
@@ -34266,7 +34266,7 @@ The user launches at its foe, surrounding itself with lightning. It has a 30% ch
 The user becomes energized, doubling the power of its next Electric-type attack. Also raises the user's Defense and Sp. Def.
 进入充电状态，使下次电属性技能的威力翻倍，同时自身的双防增加1级。
 The user fires a concentrated bundle of electricity, raising the user's Sp. Atk stat by two steps.
-向对手发射电击光束。由于蓄满电流，增加自身的特攻2级。
+向对手发射电击光线。由于蓄满电流，增加自身的特攻2级。
 The user's body generates an eerie impulse. Lowers the target's Sp. Atk stat by four steps.
 从身体放射出怪异电波，让对手沐浴其中，从而减小其特攻4级。
 The user hurls an electric orb at the foe. It does more damage the faster the user is.
@@ -34376,11 +34376,11 @@ The user catches the target off guard and swaps its held item with its own.
 The user focuses its willpower to its head and attacks the foe. It has a 40% chance to make the target flinch.
 将思念的力量集中在前额进行攻击。40%的概率使对手畏缩。
 The target is hit with a rainbow-colored beam. It has a 30% chance to lower Attack.
-向对手发射虹色光束进行攻击。30%概率减小对手的攻击。
+向对手发射虹色光线进行攻击。30%概率减小对手的攻击。
 This move reduces damage from attacks for five turns. This can be used only in hail.
 此技能在5回合内减小受到的攻击伤害。只能在冰雹天气下使用。
 A blizzard strikes all near foes. Can't miss in hail. 30% chance to frostbite.
-将猛烈的暴风雪刮向对手进行攻击。30%概率让对手陷入冰冻状态。
+将猛烈的暴风雪刮向对手进行攻击。30%概率让对手陷入冻伤状态。
 Charges up, then on the second turn, the user strikes with electrified ice. It has a 30% chance to numb.
 第1回合蓄力，下1回合用带电冰晶攻击。有30%概率使对手麻痹。
 The user blows a cold breath on the target. This attack always results in a critical hit.
@@ -34388,19 +34388,19 @@ The user blows a cold breath on the target. This attack always results in a crit
 The user attacks by hurling a blizzard-cloaked icicle lance at opposing Pokémon.
 向对手投掷掀起暴风雪的冰矛进行攻击。
 The user attacks by blowing freezing cold air at all near foes. This attack reduces the targets' Speed by two steps.
-将冰冻的冷气吹向对手进行攻击。大幅度减小对手的速度。
+将冰冷的冷气吹向对手进行攻击，使对手的速度减小2级。
 Summons hail for six turns. Damages non-Ice, non-Ghost-types every turn.
 召唤持续6回合的冰雹。每回合对非冰属性、非幽灵属性精灵造成伤害。
 The target is struck with an icy-cold beam of energy. It has a 10% chance to frostbite.
-向对手发射冰冻光束进行攻击。10%概率让对手陷入冰冻状态。
+向对手发射急冻光线进行攻击。10%概率让对手陷入冻伤状态。
 Charges up, then on the second turn, an ultracold, freezing wind surrounds the foe. It has a 30% chance to burn.
 第1回合蓄力，下1回合用极寒冻风包围对手。30%概率造成烧伤。
 The user bites with cold-infused fangs. It has a 10% chance to flinch and a 10% chance to frostbite.
-用藏有冷气的牙齿咬住对手。10%概率使对手畏缩或陷入冰冻状态。
+用藏有冷气的牙齿咬住对手。10%概率使对手畏缩或陷入冻伤状态。
 The user swings and hits with its strong, heavy fist. Lowers the user's Speed by two steps.
 用强壮沉重的拳头挥舞击打。大幅度减小了自身的速度。
 The target is punched with an icy fist. It has a 10% chance to frostbite.
-用充满寒气的拳头攻击对手。10%概率让对手陷入冰冻状态。
+用充满寒气的拳头攻击对手。10%概率让对手陷入冻伤状态。
 The user flash freezes chunks of ice and hurls them at the target. This move always goes first.
 瞬间制作冰块，快速地扔向对手。必定能够先制攻击。
 The user launches sharp icicles at the target. It multi-hits two to five times.
@@ -34436,7 +34436,7 @@ The user forces the target to switch out, to be replaced at random. Always goes 
 The user attacks its target by hitting it with brutal strikes. The target is hit twice in a row.
 用身体坚硬的部分拍打对手进行攻击。连续2次给予伤害。
 The user unleashes a strong beam from its core.
-从核心放出光束进行攻击。
+从核心放出光线进行攻击。
 The most powerful attack of the original form. The user is exhausted on the next turn.
 原始形态的最强攻击。下1回合将陷入僵直状态。
 The user blasts the target with power that distorts even time. The user is exhausted on the next turn.
@@ -34530,7 +34530,7 @@ The user raises the Defense and Sp. Def stats of an ally Pokémon by two steps u
 The user stares with its baby-doll eyes, which lowers the target's Attack stat by three steps. Always goes first.
 用圆瞳凝视对手，从而减小其攻击3级。必定能够先制攻击。
 The user gazes charmingly at the target. The target's Attack is lowered by four steps.
-撅起小嘴，在对手面前装可爱。减小对手的攻击4级。
+撅起小嘴，在对手面前装可爱。减小对手的物攻4级。
 The user protects itself and its allies from status moves with a mysterious power.
 使用神奇的力量防住攻击我方的变化技能。
 The user emits a powerful damaging flash. It has a 40% chance to lower Sp. Atk.
@@ -34546,7 +34546,7 @@ By locking down the battlefield, the user traps all Pokémon during the next tur
 The user stirs up a fairy wind and strikes the target with it.
 使用者掀起妖精之风并攻击目标。
 The user unleashes a strong beam. Lowers the user's Sp. Atk by four steps.
-放出强力光束后，自身的特攻会减小4级。
+放出强力光线后，自身的特攻会减小4级。
 The user charges with energy and raises all of its stats by three steps on the next turn.
 积蓄能量，下1回合所有能力增加3级。
 Fires a powerful beam of light drawn from the Eternal Flower. The user also takes 50% recoil.
@@ -34944,7 +34944,7 @@ The user applies a painful chemical to the target with a smack. It has a 10% cha
 Small bugs swarm the target, causing it to become leeched.
 小虫子蜂拥而至，使对手陷入寄生状态。
 The user attacks with small beams of light. It has a 20% chance to make the target flinch.
-使用者用小光束攻击目标。有20%的概率使目标畏缩。
+使用者用小光线攻击目标。有20%的概率使目标畏缩。
 The user attacks with a blinding flash of bioluminscence. It has a 40% chance to make the target flinch.
 使用者用耀眼的生物发光攻击目标。有40%的概率使目标畏缩。
 The foe is stabbed once by each of the user's stingers.
@@ -35510,7 +35510,7 @@ The user freezes the target in place, dealing damage and minimizing their Speed 
 For the rest of the round, the target's healing is reversed.
 在本回合剩余时间内，目标的恢复效果反转。
 The user picks up an iceberg and slams it into the target. Lowers the user's Attack by four steps.
-抬起一座冰山并撞向对方，但会减小自身攻击4级。
+抬起一座冰山并撞向对方，但会减小自身物攻4级。
 The user slashes the target with ice like a sword. It has a 30% chance to lower Defense.
 像用剑一样挥动冰刃斩向对手，有30%概率使对手的物防减小1级。
 Protects the user from attacks. Also frostbites any attacker who physically attacks the user.
@@ -35588,7 +35588,7 @@ The user attacks with overwhelming power, ignoring positive stat changes and abi
 The user charges up insane amounts of energy the first turn, then transforms on the second turn.
 第1回合积蓄巨量能量，下1回合完成形态转换。
 The user strikes with a simultaneous three-beam attack. It has a 20% chance each to numb, burn, or frostbite.
-同时发出三道光束攻击，20%概率使对手麻痹、烧伤或冻伤。
+同时发出三道光线攻击，20%概率使对手麻痹、烧伤或冻伤。
 The user throws a royal fit to rampage for two turns. Raises Speed if a target is knocked out by this move.
 使用者发泄愤怒，连续两回合陷入狂暴。如果此技能打倒目标，则速度增加1级。
 The Pokémon blots out the sky, summoning eclipse for eight turns and lowering each opponent's Attack by two steps.
@@ -35856,7 +35856,7 @@ The user focuses intently, making every future attack critical. The user becomes
 The user creates a Polarized Room for 8 turns, raises its Defense and Sp. Def, and becomes Steel-type.
 开启持续8回合的极化空间，双防增加1级，自身变为钢属性。
 The user raises their Attack by four steps and becomes Steel-type.
-增加自身攻击4级，并使自身变为钢属性。
+增加自身物攻4级，并使自身变为钢属性。
 The user cloaks itself in fire and charges at the foe, burning it. The user also takes 33% recoil.
 将自身包裹在火焰中，冲向对手并用火焰燃烧它，但自身会受到33%的反伤。
 The user attacks by breathing a special, hot fire. This lowers the target's Sp. Atk stat by six steps.
@@ -35912,7 +35912,7 @@ The user summons an allied Abra, raises the Sp. Atk stat of itself and its allie
 The user creates an Odd Room for 8 turns, raises its Speed, and becomes Psychic-type.
 使用者创造出一个持续8回合的奇异空间，速度增加1级，并变成超能力属性。
 The target is struck with an absolute zero beam of energy, frostbiting it.
-以温度极低的光束攻击对手，并使其冻伤。
+以温度极低的光线攻击对手，并使其冻伤。
 The user inflicts frostbite on all nearby foes. User becomes an Ice-type.
 对附近所有对手造成冻伤，并使自身变为冰属性。
 The user lays 2 hazard layers of frozen spikes at the foe's feet, and becomes Ice-type.
@@ -36177,7 +36177,7 @@ Focus Sash
 Flame Orb
 火焰宝珠
 Frost Orb
-冰冻宝珠
+冰霜宝珠
 Poison Orb
 剧毒宝珠
 Sticky Barb
@@ -37060,7 +37060,7 @@ Focus Sashes
 Flame Orbs
 火焰宝珠
 Frost Orbs
-冰冻宝珠
+冰霜宝珠
 Poison Orbs
 剧毒宝珠
 Sticky Barbs
@@ -37851,9 +37851,9 @@ An item to be held by a Pokémon. The comforting chime of this bell makes it gai
 An item to be held by a Pokémon. It prevents wild Pokémon encounters if the holder is the first one in the party.
 携带后不容易遇到野生精灵。
 Held item which ups Attack by 40%, but allows the use of only one move.
-会增加攻击的威力，但只能使用相同的技能。
+携带后，物攻增加40%，但只能使用相同的技能。
 Held item which ups Sp. Atk by 40%, but allows the use of only one move.
-会增加特攻的威力，但只能使用相同的技能。
+携带后，特攻增加40%，但只能使用相同的技能。
 Held item which boosts Speed by 40% but allows the use of only one move.
 有点讲究的围巾。虽然携带后速度会增加，但只能使用相同的技能。
 Held item which boosts move damage by 25%, but lowers the user's Speed by 15%.
@@ -38161,7 +38161,7 @@ It may be held by a Pokémon to recover from poison.
 It may be held by a Pokémon to recover from a burn.
 让精灵携带后，可以治愈烧伤。
 It may be held by a Pokémon to recover from a frostbite.
-让精灵携带后，可以治愈冰冻。
+让精灵携带后，可以治愈冻伤。
 It may be held by a Pokémon to recover from being dizzy.
 让精灵携带后，可以治愈混乱。
 It may be held by a Pokémon to recover from being leeched.
@@ -39876,7 +39876,7 @@ Toxic Attitude
 Toxin Tax
 毒药剂
 Tractor Beam
-牵引光束
+牵引光线
 Trapper
 捕猎
 Traumatizing
@@ -39910,7 +39910,7 @@ Unfazed
 Unidentified
 身份不明
 Vandal
-破坏份子
+暴徒
 Vengeance
 复仇心
 Venomdetta
@@ -40249,7 +40249,7 @@ Doubles the critical hit chance of random crit moves. Powers up critical hits by
 Summons a hail for 4 turns when it enters battle.
 出场时，开启4回合的冰雹。
 In sunshine, Sp. Atk is boosted by 50%, but the Pokémon is hurt for 1/10th HP each turn.
-晴朗天气时，特攻增加50%，而每回合HP会减小。
+晴朗天气时，特攻增加50%，而每回合HP会减小10%。
 Boosts Sp. Atk each time a Pokémon faints.
 每当有精灵变为濒死状态时，特攻增加1级。
 Speed is raised by two steps at the end of each of its turns.
@@ -40331,7 +40331,7 @@ After being hit, the Pokémon raises either Defense or Sp. Def based on the atta
 Raises Speed by four steps when its HP is lowered below half.
 HP降到一半以下时，速度增加4级。
 Grants immunity to Flying-type moves and raises Speed if hit by one.
-不会受到飞行属性技能的伤害，而是会增加攻击。
+免疫飞行属性技能，被飞行属性技能攻击时，速度增加1级。
 After using a wind move, raises the Pokémon's Defense and Sp. Def. Caps out at +4.
 使用风类技能后，精灵的双防增加1级。上限为+4。
 Protects the Pokémon from recoil damage. The Pokémon doesn't trigger items, abilities, or effects of targets it hits.
@@ -48469,7 +48469,7 @@ Party Pokemon
 Caught Pokemon
 已捕获的精灵
 Which sort
-哪种排序
+哪种排序？
 Value must be provided when applying effect #{effectData.name} (it's not a boolean)
 应用效果#{effectData.name}时必须提供值（它不是一个布尔值）
 Value #{value} provided to apply for effect #{effectData.name} is invalid
@@ -48711,7 +48711,7 @@ Move, call, step, stop.<<n>>Rend, rive, dare, halt.<<n>>Claw, cull, dive, hold.<
 Your Pokémon cannot use moves on every 4th turn.
 你的精灵每到第4回合无法使用技能。
 The freeze will arrive next turn.
-冰冻将在下1回合到来。
+寒冷将在下1回合到来。
 Forevers Traversed yet Ever No Better
 前路已尽无处走，笑谈归去再从头。
 Your Pokémon lose 10 levels for this fight. EXP goes to the Dispenser.
@@ -51009,7 +51009,7 @@ The opposing {1} is reviving!
 {1}'s {2} let it move first!
 {1}的{2}让它优先使用技能！
 {1}'s {2} unchilled it!
-{1}的{2}治愈了冰冻！
+{1}的{2}治愈了寒冷！
 {1}'s {2} cured its numb!
 {1}的{2}治愈了麻痹！
 {1}'s {2} woke it up!
@@ -51947,7 +51947,7 @@ Which item should {1} fling?
 <u>Burn</u>: Burn Orb
 <u>Burn</u>: 火焰宝珠
 <u>Frostbite</u>: Frost Orb
-<u>Frostbite</u>: 冰冻宝珠
+<u>Frostbite</u>: 冰霜宝珠
 <u>Leech</u>: Big Root, Binding Band
 <u>Leech</u>: 大根茎，紧绑束带
 <u>Waterlog</u>: Water Balloon
@@ -56057,7 +56057,7 @@ Well, at least I'll be known for being a unique individual.
 I must confess, you're like a puzzle I just can't solve. Kudos for the mind games!
 我必须承认，你就像我解不开的谜题，必须为你的聪明才智点赞！
 Ouch! That defeat hit harder than a Hyper Beam.
-诶哟，这一击比破坏光线还猛！
+诶哟，这一击比破坏死光还猛！
 Defeat stings like a Poison Jab to the heart. Time to reevaluate my strategy and lick my wounds.
 失败就像毒刺一样伤着我的心，是时候舔舔伤口，重置战略了。
 You've shown me the true meaning of humiliation. Frankly, it does stink.
@@ -57395,7 +57395,7 @@ It may be held by a Pokémon to heal the user by 50% in a pinch (below 25% HP).
 An item to be held by a Pokémon. The user gets three abilities, but its stats are cut by 10%.
 一种可以携带的物品。携带者获得3个特性，但其能力会减小10%。
 If held by a Pokémon, it heals its HP by 25% at half health, or 33% in a pinch.
-让精灵携带后，吃下时，若当前HP大于25%，则回复25%HP，反之，则回复33%HP，。
+让精灵携带后，吃下时，若当前HP大于25%，则回复25%HP，反之，则回复33%HP。
 A frenetic dance to uplift the fighting spirit. It raises the user's Attack stat by three steps.
 激烈地跳起战舞增加气势，自身物攻增加3级。
 and
