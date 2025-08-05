@@ -8240,7 +8240,7 @@ The damage was enough to send me packing. Later that day I heard that Victoire w
 I bet that battle was a real carnival!
 那一定是一场令人热血沸腾的激战！
 If an avatar takes enough damage, it might retaliate with a special kind of move.
-当一个化身受到足够多的伤害后，就会使用一种极其特殊的技能。
+当一个化身受到足够多的伤害后，就会使用1种极其特殊的技能。
 Not only is the move powerful, it changes the typing of the avatar itself!
 这种技能拥有强大的威力，能够帮助它们恢复伤势，还可以改变它们自身的属性！
 Make sure your team isn't caught off guard by a sudden matchup reversal.
@@ -8260,9 +8260,9 @@ He fought them, but won't tell me where at, the coward.
 Though, maybe he's right to not get others involved.
 不过话说回来，如果是真的，为了不牵扯进他人而保密也可以理解。
 He's got three badges, and even then he failed to make a dent.
-但我还是觉得他在吹牛，他也不过只拿到了三枚徽章而已。
+但我还是觉得他在吹牛，他也不过只拿到了3枚徽章而已。
 During my field studies, I noticed that the avatars rarely attacked the same Pokemon over and over.
-通过对数据的研究，我发现化身很少连续攻击同一只精灵。
+通过对数据的研究，我发现化身很少连续攻击同1只精灵。
 They seemed to have a regular rhythm of switching who they were being aggressive against.
 它们似乎在按照一种固定的节奏，切换它们攻击的对象。
 Holding back to avoid being too lethal? Or something else?
@@ -8273,7 +8273,7 @@ Apparently a lot of stinky flowers bloomed nearby after it appeared. Gross!
 在它出现之后，附近开出了很多散发着臭味的花！
 [Map128]
 Accessorize! Every Pokémon NEEDS an item!
-装饰起来！每只精灵都需要一个物品！
+装饰起来！每只精灵都需要1个物品！
 If you can’t decide, give them Leftovers or a shiny new Gem and watch them strut their stuff.
 如果你拿不定主意，给它们剩饭或闪亮的新宝石，然后看它们大显身手。
 There are dozens and dozens of items to pick from, so I’m sure you can find something to match your Pokémon!
@@ -33702,7 +33702,7 @@ The user fires a beam of light at its target. The type changes depending on the 
 The user performs a wobbly dance that dizzies the Pokémon around it.
 摇摇晃晃地跳起舞蹈，让自身周围的精灵陷入混乱状态。
 The user rampages and attacks for two turns.
-使用者陷入暴走状态，连续攻击两回合。
+使用者陷入暴走状态，连续攻击2回合。
 The user tickles the target into laughing, reducing its Attack and Defense by two steps.
 使用者挠痒目标使其大笑，减小其物攻和物防2级。
 The user transforms into a copy of the target right down to having the same move set.
@@ -34832,7 +34832,7 @@ The user shapes primal clay to heal a nearby ally for their max HP. This can ove
 The user hits a pitch that turns earth and stone to dust, damaging its foes.
 使用能够将泥土和石头化为粉尘的音调，对对手造成伤害。
 The user hits the target with each of its heads from underground. Strikes three times.
-从地下用每个头部攻击对手，连续攻击三次。
+从地下用每个头部攻击对手，连续攻击3次。
 The user causes the earth to rumble, striking every Pokémon around it and underground.
 使大地颤动，攻击周围以及地下的所有精灵。
 The user blasts the target with highly pressurized sand. Can random critical hit.
@@ -35280,7 +35280,7 @@ The user fires a small bolt of energy at the target. It has a 20% chance to rais
 The target is disoriented by an explosive seed. It has a 30% chance to dizzy.
 目标被爆炸种子弄得晕头转向。有30%的概率使目标混乱。
 Round objects are hurled at the target to strike three times in a row.
-向目标投掷圆形物体，连续攻击三次。
+向目标投掷圆形物体，连续攻击3次。
 The user attacks the target with the power of a warding charm. Super effective vs Ghost-types.
 使用辟邪符的力量攻击对手。对幽灵属性精灵效果拔群。
 The user hides its blade. If hit by a foe's special move, it unsheathes it quickly, slashing all near foes.
@@ -38810,7 +38810,7 @@ Shields Down
 Simple
 单纯
 Skill Link
-连续攻击
+多段攻击
 Slow Start
 慢启动
 Slush Rush
@@ -39348,7 +39348,7 @@ Hybrid Fighter
 Hyper Speed
 最高速
 Ice Block
-冰塊
+冰块
 Ice Mirror
 魔镜冰晶
 Ice Queen
@@ -40239,7 +40239,7 @@ Immune to non-volatile status conditions while it has its shell. Below half HP, 
 Stat changes in the Pokémon are doubled.
 该精灵的能力等级变化翻倍。
 Maximizes the frequency of multi-hit moves.
-连续类技能总是能使用最大次数。
+多段攻击类技能总是能使用最大次数。
 Halves Attack and Speed for 3 turns.
 在3回合内，物攻和速度减半。
 Doubles the Pokémon's Speed stat in a hail.
@@ -40775,7 +40775,7 @@ Punches, Kicks, and Bites combo together to create special effects.
 Doubles Speed. Dashes to avoid hazards when entering.
 速度翻倍，进入战斗时免疫陷阱。
 It can avoid being knocked out by using its face. The face then melts.
-可以避免被打倒，之后就会融化。
+可以避免濒死，之后冰块就会融化。
 Doubles Sp. Def in hail.
 冰雹天气下特防翻倍。
 During hail, it restores its HP by half the damage it deals with attacks.
@@ -40857,7 +40857,7 @@ Boosts Speed by 50%, but the Pokémon is hurt for 1/10th HP each turn.
 Protected against critical hits. Heals 1/12th HP every turn if hit by an attack.
 不会被命中要害。被攻击后每回合回复1/12HP。
 Multi-hit moves can hit up to twice as many times.
-连续攻击类技能最多可以打出原先最大次数的两倍的次数。
+多段攻击类技能最多可以打出原先最大次数的两倍的次数。
 Copies the Ability of the Pokémon it switches in to replace.
 复制它要替换的精灵的特性。
 Boosts power of sound-based moves by 30%.
@@ -40989,7 +40989,7 @@ After fainting from exploding, revives after six turns.
 The Pokémon's hits deal half damage unless they are critical.
 如果没有命中要害，自身造成的伤害减半。
 Maximizes the frequency of multi-hit moves. Always deals critical hits.
-连续类技能总是能使用最大次数，且必定命中要害。
+多段攻击类技能总是会使用出最大次数，且必定命中要害。
 At the end of each of its turns, Speed is lowered but every other stat is raised.
 每个回合结束时，速度会减小，但其他所有能力都会增加。
 While the Pokémon is below half health, its attacks leech those hit.

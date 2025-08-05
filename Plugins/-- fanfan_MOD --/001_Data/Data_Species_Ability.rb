@@ -25,6 +25,9 @@ SPECIES_ABILITY_DATA = {
   [:EEVEE, 0]       => { :fixed => %i[], :changeable => %i[ADAPTED BIOENGINEERING], },
   [:GIGANTEON, 0]   => { :fixed => %i[], :changeable => %i[ULTRAADAPTED GARGANTUAN], },
 
+  [:EISCUE, 0]      => { :fixed => %i[], :changeable => %i[ICEBLOCK BURDENED], },
+  [:EISCUE, 1]      => { :fixed => %i[], :changeable => %i[ICEBLOCK BITTER], },
+
   [:FOONGUS, 0]     => { :fixed => %i[], :changeable => %i[REGENERATOR BURDENED], },
   [:AMOONGUSS, 0]   => { :fixed => %i[], :changeable => %i[REGENERATOR BURDENED], },
 
