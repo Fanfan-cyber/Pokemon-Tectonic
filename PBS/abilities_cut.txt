@@ -507,6 +507,10 @@ Description = Summons moonglow for four turns when hit by an attack.
 Name = Luring
 Description = Its attacks are critical against dizzy targets.
 #-------------------------------
+[MAGICSHIELD]
+Name = Magic Shield
+Description = Negates enemy status moves that target the Pokémon or create hazards around it.
+#-------------------------------
 [MAGMAARMOR]
 Name = Magma Armor
 Description = Prevents the Pokémon from becoming frozen.
@@ -1057,6 +1061,11 @@ Description = Moves can be used regardless of Abilities.
 [UNCONCERNED]
 Name = Unconcerned
 Description = Takes 20% less damage from neutrally effective attacks.
+#-------------------------------
+[UNCONQUERABLE]
+Name = Unconquerable
+Description = Blocks random added effects of attacks taken, and prevents critical hits.
+Flags = CritImmunity
 #-------------------------------
 [VARIETY]
 Name = Variety

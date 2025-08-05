@@ -350,7 +350,7 @@ Description = Changes to the form of your choosing after switching out.
 #-------------------------------
 [COTTONDECOY]
 Name = Cotton Decoy
-Description = Upon entry, creates a substitute from 1/4th of its HP.
+Description = Upon entry, creates a Substitute from 1/4th of its HP.
 #-------------------------------
 [COUNTERFLOW]
 Name = Counter Flow
@@ -965,6 +965,10 @@ Name = Hyper Speed
 Description = Doubles Speed. Dashes to avoid hazards when entering.
 Flags = HazardImmunity
 #-------------------------------
+[IAIJUTSU]
+Name = Iaijutsu
+Description = Doubles the power of blade moves on the first turn.
+#-------------------------------
 [ICEBLOCK]
 Name = Ice Block
 Description = It can avoid being knocked out by using its face. The face then melts.
@@ -1179,10 +1183,6 @@ Flags = MoonglowSynergy
 [MAESTRO]
 Name = Maestro
 Description = The Pokémon's Speed is doubled while using Sound-based moves.
-#-------------------------------
-[MAGICSHIELD]
-Name = Magic Shield
-Description = Negates enemy status moves that target the Pokémon or create hazards around it.
 #-------------------------------
 [MAGNETTRAP]
 Name = Magnet Trap
@@ -1597,6 +1597,10 @@ Description = When hit with a physical move, hits back instantly with Leafage.
 [RENDINGCLAWS]
 Name = Rending Claws
 Description = Critical hits lower all of the victim's stats.
+#-------------------------------
+[REPETITION]
+Name = Repetition
+Description = "Two to five" multi-hit moves hit an additional time.
 #-------------------------------
 [RESOLUTE]
 Name = Resolute
@@ -2148,11 +2152,6 @@ Description = Powers up Ice-type moves by 50%.
 Name = Uncanny Luck
 Description = If an attacker would activate a random added effect on the Pokémon, that effect is placed on the attacker instead.
 #-------------------------------
-[UNCONQUERABLE]
-Name = Unconquerable
-Description = Blocks random added effects of attacks taken, and prevents critical hits.
-Flags = CritImmunity
-#-------------------------------
 [UNCONVENTIONAL]
 Name = Unconventional
 Description = Moves that use stats other than the default deal 50% more damage.
@@ -2201,6 +2200,10 @@ Description = At the end of each turn, itself and each ally heals for 1/16th of 
 [WALLNINJA]
 Name = Wall Ninja
 Description = The Pokémon's attacks are always critical if there is an active Room.
+#-------------------------------
+[WARDING]
+Name = Warding
+Description = Negates enemy status moves that target the Pokémon or create hazards around it.
 #-------------------------------
 [WARPINGEFFECT]
 Name = Warping Effect

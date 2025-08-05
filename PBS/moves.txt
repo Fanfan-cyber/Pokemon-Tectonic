@@ -1717,7 +1717,7 @@ Description = The user soars upward and drops at high speeds. This lowers the us
 Name = Drill Peck
 Type = FLYING
 Category = Physical
-Power = 80
+Power = 90
 Accuracy = 100
 TotalPP = 15
 Target = NearOther
@@ -2131,9 +2131,9 @@ Description = The user burrows, charging and becoming invulnerable, then attacks
 Name = Drill Run
 Type = GROUND
 Category = Physical
-Power = 80
+Power = 90
 Accuracy = 100
-TotalPP = 10
+TotalPP = 15
 Target = NearOther
 FunctionCode = Basic
 Flags = CanProtect,CanRandomCrit
@@ -4432,7 +4432,7 @@ Accuracy = 100
 TotalPP = 10
 Target = NearOther
 FunctionCode = TwoTurnAttackOneTurnInSun
-Flags = CanProtect
+Flags = CanProtect,Light
 Description = The user charges, then attacks on the second turn. Charges instantly in sunshine.
 #-------------------------------
 [SPIKYSHIELD]
@@ -4807,7 +4807,7 @@ Animation = THUNDER
 Name = Wild Charge
 Type = ELECTRIC
 Category = Physical
-Power = 90
+Power = 80
 Accuracy = 100
 TotalPP = 12
 Target = NearOther
@@ -4989,7 +4989,7 @@ Accuracy = 0
 TotalPP = 5
 Target = NearOther
 FunctionCode = RemoveProtectionsBypassSubstituteAlwaysHits
-Description = Using a hyperspace hole, the user appears next to the target and strikes. Skips and destroys protections and substitutes. Always hits.
+Description = Using a hyperspace hole, the user appears next to the target and strikes. Can't miss, skips Substitutes and destroys protections.
 #-------------------------------
 [INSTRUCT]
 Name = Instruct
@@ -5246,7 +5246,7 @@ Accuracy = 100
 TotalPP = 15
 Target = NearOther
 FunctionCode = LowerTargetAtk1
-Flags = CanProtect
+Flags = CanProtect,Light
 EffectChance = 30
 Description = The target is hit with a rainbow-colored beam. It has a 30% chance to lower Attack.
 #-------------------------------
@@ -5258,7 +5258,7 @@ Accuracy = 0
 TotalPP = 15
 Target = UserSide
 FunctionCode = StartWeakenDamageAgainstUserSideIfInHail5
-Flags = CanSnatch
+Flags = CanSnatch,Light
 Description = This move reduces damage from attacks for five turns. This can be used only in hail.
 #-------------------------------
 [BLIZZARD]
@@ -5705,7 +5705,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = HitOncePerUserTeamMemberPhysical
 Flags = CanProtect
-Description = The user gets all the party Pokémon to attack the foe with punches and kicks.
+Description = Hits once for each party Pokemon. Deals more damage based on their Attack.
 #-------------------------------
 [BITE]
 Name = Bite
@@ -5895,7 +5895,7 @@ Accuracy = 0
 TotalPP = 5
 Target = NearOther
 FunctionCode = HyperspaceFury
-Description = Unleashes a barrage of many-armed attacks, skipping and destroying protections. Always hits. Lowers the user's Defense by two steps.
+Description = Unleashes a barrage of attacks. Can't miss, skips Substitutes and destroys protections. Lowers the user's Defense by two steps.
 #-------------------------------
 [JAWLOCK]
 Name = Jaw Lock
@@ -6237,7 +6237,7 @@ TotalPP = 12
 Target = AllNearFoes
 FunctionCode = AlwaysHits
 Flags = Sound
-Description = The user does emotional damage to foes. This attack never misses and skips protections.
+Description = The user does emotional damage to foes. Can't miss and skips protections.
 #-------------------------------
 [DRAININGKISS]
 Name = Draining Kiss

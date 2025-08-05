@@ -231,7 +231,7 @@ Pokemon = CHARIZARD,70
 [CAMPER,Nexx]
 Pokemon = CRYOGONAL,70
     Moves = ICENINEWALL,CHILL,FROSTSPIKES,HYPOTHERMIATE
-    AbilityIndex = 1 # Magic Bounce
+    AbilityIndex = 1 # Warding
     Item = FOCUSSASH
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,0,0,20,0,10
@@ -1225,7 +1225,7 @@ Pokemon = SCARODON,70
 [JOGGER,Atticus]
 Pokemon = RUBARIOR,70
     Moves = FOULPLAY,SWEETSELENE,STEALTHROCK,WILLOWISP
-    AbilityIndex = 0 # Magic Shield
+    AbilityIndex = 0 # Warding
     Item = LEFTOVERS
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,0,10,0,0,20
@@ -2286,7 +2286,7 @@ Pokemon = MMUSHARNA,70
     EV = 20,20,0,0,20,10
 Pokemon = CARBINK,70
     Moves = WARDPRESS,HEALBELL,AMNESIA,RECOVER
-    AbilityIndex = 0 # Clear Body
+    AbilityIndex = 0 # Magic Bounce
     Item = EVIOLITE
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,0,10,0,0,20
@@ -2406,7 +2406,7 @@ Pokemon = SNEASLER,70
     EV = 0,15,15,20,15,0
 Pokemon = ATLACROSS,70
     Moves = ARMTHRUST,PINMISSILE,ROCKBLAST,DEEPBREATHING
-    AbilityIndex = 0 # Skill Link
+    AbilityIndex = 0 # Repetition
     Item = SCOPELENS
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,20,0,3,20,7
@@ -2535,7 +2535,7 @@ Pokemon = BASCULEGION,70
 [COLLECTOR,Finnegan]
 Pokemon = MINUN,70
     Moves = NUZZLE,VOLTSWITCH,GRASSKNOT,SIGNALBEAM
-    AbilityIndex = 1 # Magic Shield
+    AbilityIndex = 1 # Warding
     Item = ENERGYLOCK
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,10,0,20,10,0

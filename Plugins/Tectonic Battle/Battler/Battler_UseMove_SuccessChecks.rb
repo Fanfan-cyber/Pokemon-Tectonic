@@ -437,11 +437,11 @@ animationName, show_message) do
                 end
                 return false
             end
-            if target.hasActiveAbility?(:MAGICSHIELD) && !@battle.moldBreaker
+            if target.hasActiveAbility?(:WARDING) && !@battle.moldBreaker
                 unless aiCheck
                     target.damageState.protected = true
                     if show_message
-                        @battle.pbShowAbilitySplash(target, :MAGICSHIELD)
+                        @battle.pbShowAbilitySplash(target, :WARDING)
                         @battle.pbDisplay(_INTL("{1} shielded itself from the {2}!", target.pbThis, move.name))
                         @battle.pbHideAbilitySplash(target)
                     end

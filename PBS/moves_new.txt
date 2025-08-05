@@ -1008,7 +1008,7 @@ Description = The user relentlessly rampages with its whip-like hands for two tu
 Name = Air Strike
 Type = FLYING
 Category = Physical
-Power = 90
+Power = 80
 Accuracy = 100
 TotalPP = 15
 Target = NearOther
@@ -1208,7 +1208,7 @@ TotalPP = 12
 Target = NearOther
 FunctionCode = Flinch
 Flags = CanProtect
-EffectChance = 30
+EffectChance = 40
 Description = The user strikes the target with a dart of air. It has a 40% chance to flinch the target.
 #-------------------------------
 [STRAFE]
@@ -1248,7 +1248,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = HitOncePerUserTeamMemberSpecial
 Flags = CanProtect
-Description = The user gets all the party Pokémon to attack the foe with aerial projectiles.
+Description = Hits once for each party Pokemon. Deals more damage based on their Sp. Atk.
 #-------------------------------
 [WINDTUNNEL]
 Name = Wind Tunnel
@@ -1677,7 +1677,7 @@ Target = NearOther
 FunctionCode = RaiseUserSpd1
 Flags = CanProtect
 EffectChance = 100
-Description = The user propels itself forward with a wave of mud which also slams into the target. The user's speed is raised.
+Description = The user propels itself forward with a wave of mud which also slams into the target. The user's Speed is raised.
 Animation = MUDBOMB
 #-------------------------------
 [MUDSLING]
@@ -1969,9 +1969,9 @@ Animation = LIGHTSCREEN
 Name = Diamond Force
 Type = ROCK
 Category = Special
-Power = 85
+Power = 90
 Accuracy = 100
-TotalPP = 12
+TotalPP = 15
 Target = NearOther
 FunctionCode = Basic
 Flags = CanProtect,CanRandomCrit
@@ -2235,7 +2235,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = RemoveScreensSubstituteProtections
 Flags = Blade
-Description = The user slams the target with a rocky blade. Destroys screens, substitute, and protection on the target.
+Description = The user slams the target with a rocky blade. Destroys screens, Substitutes, and protections on the target.
 Animation = ROCKSMASH
 #-------------------------------
 [SINGINGSTONE]
@@ -2835,7 +2835,7 @@ TotalPP = 10
 Target = UserOrNearOther
 FunctionCode = UserOrTargetMakesSubstitute25
 Flags = CanProtect,CanMagicCoat
-Description = The user forces itself or the target to make a substitute by turning it into a doll.
+Description = The user forces itself or the target to make a Substitute by turning it into a doll.
 #-------------------------------
 [DRIFTOFF]
 Name = Drift Off
@@ -6404,8 +6404,8 @@ Accuracy = 100
 TotalPP = 10
 Target = NearOther
 FunctionCode = HitOncePerUserTeamMemberPhysical
-Flags = CanProtect,CanRandomCrit
-Description = The user hunts with its allies. The more party Pokémon, the more damage. Can random critical hit.
+Flags = CanProtect
+Description = Hits once for each party Pokemon. Deals more damage based on their Attack.
 Animation = ICEPUNCH
 #-------------------------------
 #		DRAGON MOVES
@@ -6560,7 +6560,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = TwoTurnAttackInvulnerableScalesFaster
 Flags = CanProtect
-Description = The user flies high up into the air at supersonic speeds, charging and becoming invulnerable. It does more damage the faster the user is.
+Description = The user flies high up into the air at supersonic speeds, charging and becoming invulnerable. It greatly increases in power the faster the user is.
 Animation = FLY
 #-------------------------------
 [LOOMOVER]
@@ -7431,7 +7431,7 @@ TotalPP = 12
 Target = AllNearFoes
 FunctionCode = AlwaysHits
 Flags = Sound
-Description = An enchanting outcry. This attack never misses and skips protections.
+Description = An enchanting outcry. Can't miss and skips protections.
 Animation = SING
 #-------------------------------
 [FLORALGRAMARYE]

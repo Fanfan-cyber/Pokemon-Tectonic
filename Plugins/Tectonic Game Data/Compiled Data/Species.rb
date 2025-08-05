@@ -51,6 +51,7 @@ module GameData
         BASE_DATA = {} # Data that hasn't been extended
 
         FORM_SPECIFIC_MOVES = {}
+        FORM_SPECIFIC_MOVES_DATA_FILENAME = "species_form_specific_moves.dat"
 
         extend ClassMethods
         include InstanceMethods
@@ -638,6 +639,16 @@ module GameData
 
         def isUltraBeast?
             return @flags.include?("UltraBeast")
+        end
+
+        def self.load
+            super
+            const_set(:FORM_SPECIFIC_MOVES, load_data("Data/#{self::FORM_SPECIFIC_MOVES_DATA_FILENAME}"))
+        end
+    
+        def self.save
+            super
+            save_data(self::FORM_SPECIFIC_MOVES, "Data/#{self::FORM_SPECIFIC_MOVES_DATA_FILENAME}")
         end
     end
 end
