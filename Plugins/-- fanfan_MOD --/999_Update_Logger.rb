@@ -22,7 +22,7 @@
 =end
 
 MOD_VERSION  = "0.3.9"
-VERSION_NAME = ["Genesis Dawn", "初光"]
+VERSION_NAME = ["Genesis Dawn", "初光伊临"]
 
 CHANGE_LOG = <<-LOGGER
 #==============================================================================#
@@ -160,7 +160,7 @@ customabil/nocustomabil，开启/关闭特性自选模式
 doublebattle/disabledouble，开启/关闭全双打模式
 disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
 
-0.3.9 初光
+0.3.9 Genesis Dawn / 初光伊临
 1.修复了锦标赛中Lambert的队伍发生异常的Bug
 2.现在游戏如果检测到玩家作弊，将会直接删除玩家的所有存档、清空所有成就，以及清除时间胶囊里的所有精灵
 3.将全状态睡眠条款更名为异常条款
@@ -176,7 +176,10 @@ disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
 13.为冰砌鹅的酷脸形态增加了第二特性Bitter
 14.现在每个版本更新，它都会有一个很酷的独一无二的版本名了
 15.修复了自然回复的文本没有说明会回复10%的HP的Bug
-16.
+16.修复了Backfire对Multitasker不生效的Bug
+17.修复了Backfire对Radiate不生效的Bug
+18.修复了Backfire对Beaming不生效的Bug
+19.
 
 0.3.8
 1.修复了沙奈朵的Arcane Finale的不完美完胜效果失效的Bug
