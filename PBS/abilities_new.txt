@@ -731,10 +731,6 @@ Description = Raises Attack and Sp. Atk by two steps when hit by a not-very-effe
 Name = Foreman
 Description = Doubles the Pokémon's Speed in Rooms.
 #-------------------------------
-[FORTIFIED]
-Name = Fortified
-Description = Take 30% less damage from attacks on turns when it hasn't moved yet.
-#-------------------------------
 [FREERIDE]
 Name = Free Ride
 Description = Raises other allies' Speed by two steps upon entering the battle.
@@ -1579,7 +1575,7 @@ Description = Before using a status move against a single foe, lowers their Sp. 
 #-------------------------------
 [REFRACTIVE]
 Name = Refractive
-Description = Pulse moves change the Pokémon's secondary type and their power is boosted by 30%.
+Description = Light moves change the Pokémon's secondary type and their power is boosted by 30%.
 #-------------------------------
 [REFRESHMENTS]
 Name = Refreshments
@@ -2051,7 +2047,7 @@ Flags = AllWeatherSynergy
 #-------------------------------
 [TERRORIZE]
 Name = Terrorize
-Description = Flinching moves always activate their random effects.
+Description = Flinching moves always activate their random effects. However, the Pokemon deals 10% less move damage.
 #-------------------------------
 [TESLACOILS]
 Name = Tesla Coils

@@ -31,7 +31,7 @@ BattleHandlers::UserAbilityStartOfMove.add(:SHIFTINGFIST,
 
 BattleHandlers::UserAbilityStartOfMove.add(:REFRACTIVE,
   proc { |ability, user, targets, move, battle|
-    moveUseTypeChangeAbility(ability, user, move, battle, true) if move.pulseMove?
+    moveUseTypeChangeAbility(ability, user, move, battle, true) if move.lightMove?
   }
 )
 

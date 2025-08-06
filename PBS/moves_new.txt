@@ -567,7 +567,7 @@ TotalPP = 25
 Target = AllNearFoes
 FunctionCode = LowerTargetSpDef2
 Flags = CanProtect,CanMagicCoat
-Description = The user smirks with confidence. The Sp. Def of nearby enemies is reduced.
+Description = The user smirks with confidence. The Sp. Def of nearby enemies is lowered.
 Animation = SCARYFACE
 #-------------------------------
 [STELLARATE]
@@ -2491,6 +2491,18 @@ EffectChance = 40
 Description = The user attacks with a blinding flash of bioluminscence. It has a 40% chance to make the target flinch.
 Animation = SIGNALBEAM
 #-------------------------------
+[LURINGLIGHT]
+Name = Luring Light
+Type = BUG
+Category = Status
+Accuracy = 0
+TotalPP = 5
+Target = User
+Priority = 2
+FunctionCode = RedirectAllMovesToUserLowerFoesAtkSpAtk1
+Flags = Uninvocable
+Description = All foes have their Attack and Sp. Atk lowered. They can only target the user this turn.
+#-------------------------------
 [MANYNEEDLE]
 Name = Manyneedle
 Type = BUG
@@ -2975,20 +2987,6 @@ FunctionCode = MoveDisablesSelf
 Flags = CanProtect
 Description = The user buries the target with somber force. Then, this move is disabled.
 Animation = SHADOWPUNCH
-#-------------------------------
-[SOULEATER]
-Name = Soul Eater
-Type = GHOST
-Category = Special
-Power = 65
-Accuracy = 100
-TotalPP = 15
-Target = NearOther
-FunctionCode = UserHealsByHalfOfDamageDoneLowerTargetSpDef1
-Flags = CanProtect
-EffectChance = 100
-Description = The user absorbs the target's soul, lowering its Sp. Def and draining its life in the process.
-Animation = NIGHTSHADE
 #-------------------------------
 [SPECTRALTONGUE]
 Name = Spectral Tongue
@@ -5380,6 +5378,20 @@ Flags = CanProtect
 Description = The user charges, then attacks on the second turn. Charges instantly in rainstorm.
 Animation = WILDCHARGE
 #-------------------------------
+[STUNNINGDISPLAY]
+Name = Stunning Display
+Type = ELECTRIC
+Category = Special
+Power = 60
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = Numb
+Flags = CanProtect,Light
+EffectChance = 100
+Description = The user erupts with powerful yellow light to damage and numb the target.
+Animation = FLASH
+#-------------------------------
 [SURGESNARE]
 Name = Surge Snare
 Type = ELECTRIC
@@ -7247,20 +7259,6 @@ FunctionCode = Leech
 Flags = CanProtect,Sound
 EffectChance = 20
 Description = The user bullies the target, causing mental damage. This has a 20% chance to leech.
-#-------------------------------
-[ULTRAVIOLETPULSE]
-Name = Ultraviolet Pulse
-Type = DARK
-Category = Special
-Power = 105
-Accuracy = 100
-TotalPP = 10
-Target = NearOther
-FunctionCode = LowerTargetSpDef2
-Flags = CanProtect,Pulse
-EffectChance = 100
-Description = The user pulses powerful darkness to expose the target's motives. This lowers their Sp. Def by two steps.
-Animation = DARKPULSE
 #-------------------------------
 [VERMINCLOUD]
 Name = Vermin Cloud
