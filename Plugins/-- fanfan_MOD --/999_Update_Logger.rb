@@ -183,7 +183,9 @@ disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
 20.将中文翻译的“能攻击到多个目标的技能”统一为扩散类技能（Spread Moves）
 21.修复了Rugged被AI检查时也会出现文本提示的Bug
 22.现在因为烧尽的攻击而濒死的精灵所携带的树果或者宝石也会被烧掉了
-23.
+23.现在Cash Flow的精灵在自身HP处于一半以下时也会吃掉场上的金钱
+24.现在AI能够精确计算Cash Flow的分数了
+25.
 
 0.3.8
 1.修复了沙奈朵的Arcane Finale的不完美完胜效果失效的Bug

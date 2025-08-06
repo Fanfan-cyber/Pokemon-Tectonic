@@ -32647,7 +32647,7 @@ Magnetize
 Mirror Shield
 镜面护盾
 Plunder
-掠夺之剑
+掠夺
 Polarized Room
 极化空间
 Rail Cannon
@@ -32921,7 +32921,7 @@ Dielectric Breakdown
 Electroslash
 雷电斩
 From the Blue
-自蓝天
+迅击
 Gut Check
 意志考验
 Healthy Cheer
@@ -40339,7 +40339,7 @@ Protects the Pokémon from recoil damage. The Pokémon doesn't trigger items, ab
 Slips past all types of Spikes hazards. Deals 50% more damage to targets that switched in this turn.
 避开所有陷阱，对这1回合替换上场的目标造成的伤害增加50%。
 HP-fraction-based damage effects deal 50% more damage to opponents.
-基于HP造成的伤害增加50%。
+让对手基于HP百分比造成伤害的效果（如烧伤）的伤害增加50%。
 When another Pokémon faints, consumes their item, ability, and stat steps.
 其他精灵失去战斗力时，消除在场的所有物品、特性和能力变化。
 Can hold two different items, if both are Gems.
@@ -45637,9 +45637,9 @@ Item
 Species
 物种
 OT
-初训家
+主人
 ID No.
-ID
+ID No.
 Marks
 标记
 RENTAL
@@ -49031,7 +49031,7 @@ For {1} to have two items, only one can be Clothing!
 Ripples of time shimmer around {1}!
 时间的涟漪在{1}周身闪动！
 {1} turned {2}'s {3} into gold!
-{1}将{2}的{3}变成了金子！
+{1}将{2}的{3}变成了金钱！
 But {1} is already energized...
 但{1}已能量充盈...
 {1}'s fur is standing sharp! {2} is hurt!

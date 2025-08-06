@@ -70,7 +70,10 @@ class PokeBattle_Battler
         echoln("\t\t[EFFECT SCORING] #{pbThis} scores the value of healing #{healingAmount} HP (#{healingPercentage} percent) at #{healingScore}")
         return healingScore
     end
-    
+
+    def getCashFlowEffectScore(multiplier)
+        hasActiveAbility?(:CASHFLOW) ? getHealingEffectScore(calcMoney(multiplier) / CASHOUT_HEALING_DIVISOR) : 0
+    end
 
     ###############################################################################
     # Understanding the battler's moves
