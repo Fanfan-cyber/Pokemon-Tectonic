@@ -4727,7 +4727,7 @@ Togekiss with her?
 Well, I do the same thing as her, only I get paid for it.
 嗯，我要做的跟她差不太多，只不过我有工资拿。
 So, uh, care to make this training session a little less boring?
-所以，你是否能让这次训练，不那么无聊呢?
+所以，你是否能让这次训练，不那么无聊呢？
 Ah, no pressure. Just figured a duel might make it a bit more fun.
 啊，不要有压力，我只是觉得这样开场帅一点。
 Ah, just a good ol’ fight.
@@ -5249,7 +5249,7 @@ I can't leave my post, so blocking the gym entrance is my only leverage.
 I'm plopping down here until a challenger like yourself grabs me a <imp>Fresh Water</imp>.
 我只能等在这里，期盼着那些...训练师带来的<imp>美味之水</imp>。
 There are <imp>vending machines</imp> in all PokéCenters and Ranger Stations.
-所有精灵中心和护林员站都有<imp>自动售货机</imp>。
+所有精灵中心和护林员哨站都有<imp>自动售货机</imp>。
 I hope you won't find this cruel. The suffering I'm about to inflict is strictly necessary.
 我希望你不会觉得这残忍，因为这些是必须承受之痛。
 ...Noted. Please avail yourself of this teleporter. Taking the long way may subject any afflicted Pokemon to undue injury.
@@ -31701,7 +31701,7 @@ Aqua Jet
 Brine
 盐水
 Bubble
-泡沫
+泡泡
 Bubble Beam
 泡沫光线
 Clamp
@@ -33690,7 +33690,7 @@ The user consumes its Stockpile to heal for 50% max HP per stack. This can overh
 Star-shaped rays are shot at the opposing team. Can't miss and skips protections.
 发射星形的光攻击对手。攻击必定会命中，且无视保护类效果。
 A physical attack in which the user slams into the target with its whole body.
-用整个身体猛撞对手的物理攻击。
+用整个身体猛撞对手的物理类攻击。
 A full-body attack for slamming into the foe. The user also takes 25% recoil.
 全身撞击式攻击。使用者会承受25%反伤。
 The user gets teary eyed. This lowers the target's Attack and Sp. Atk stats by two steps.
@@ -33736,7 +33736,7 @@ The user fights the foe up close without guarding itself. This lowers the user D
 The user coaches its ally Pokémon, raising their Attack and Defense by two steps.
 使用者指导其队友，队友的物攻和物防增加2级。
 A retaliation move that counters any physical attack, inflicting double the damage taken.
-从对手那里受到物理攻击的伤害将以2倍返还给同一个对手。
+从对手那里受到物理类攻击的伤害将以2倍返还给同一个对手。
 The user delivers a chop with its forearms crossed. Can random critical hit.
 使用者交叉前臂进行斩击。有可能随机命中要害。
 The target is quickly kicked twice in succession using both feet.
@@ -33778,7 +33778,7 @@ The user protects itself and its allies from priority moves. It always fails if 
 The user attacks by slicing with its long horns. Ignores the target's stat step changes.
 用长角切斩对手进行攻击。无视对手的能力变化，直接给予伤害。
 The user cuts with its long horn. The odd power contained in it does physical damage to the foe.
-用长角切斩对手进行攻击。角上拥有的神奇力量将给予物理伤害。
+用长角切斩对手进行攻击。角上拥有的神奇力量将给予物理类伤害。
 The user strikes the target with a fierce blow. This attack always results in a critical hit.
 向对手使用强烈的一击。攻击必定会命中要害。
 The user grabs the target and recklessly dives for the ground. The user also takes 33% recoil.
@@ -34338,13 +34338,13 @@ Using a hyperspace hole, the user appears next to the target and strikes. Skips 
 The user instructs the target to use the target's last move again.
 向对手下达指示，让其再次使用刚才的技能。
 A wondrous wall of light is put up to suppress damage from special attacks for five turns.
-在5回合内使用神奇的墙，减弱从对手那受到的特殊攻击的伤害。
+在5回合内使用神奇的墙，减弱从对手那受到的特殊类攻击的伤害。
 The user faints. In return, the Pokémon taking its place will have its non-volatile status conditions and HP fully restored.
 使用者陷入濒死，替换上场的精灵会完全恢复HP并回复异常状态。
 Until end of turn, reflects status moves that target the user or create hazards around it.
 当对手使用会变成异常状态的技能或陷阱等时，会将对手的技能反射回去。
 A retaliation move that counters any special attack, inflicting double the damage taken.
-从对手那里受到特殊攻击的伤害将以2倍返还给同一个对手。
+从对手那里受到特殊类攻击的伤害将以2倍返还给同一个对手。
 The user employs psychic power to average its unmodified Attack and Sp. Atk stats with those of the target.
 使用者运用超能力，使其基础双攻与目标的相等。
 The user employs psychic power to switch its unmodified Attack with its unmodified Defense.
@@ -34364,7 +34364,7 @@ The user hypnotizes itself into copying any stat change made by the target.
 Cloaking itself in psychic energy, the user slams into the target, raising the user's Defense by two steps.
 将自身隐藏在精神能量中，猛烈撞击目标，同时使自身的物防增加2级。
 A wondrous wall of light is put up to suppress damage from physical attacks for five turns.
-在5回合内使用神奇的墙，减弱从对手那受到的物理攻击的伤害。
+在5回合内使用神奇的墙，减弱从对手那受到的物理类攻击的伤害。
 The user goes to sleep to fully restore their HP and heal any non-volatile status conditions.
 通过睡眠完全恢复HP并回复所有异常状态。
 The user mimics the target completely, copying the target's natural Ability.
@@ -35050,7 +35050,7 @@ The user becomes a pain train. It has a 20% chance to raise the user's Speed.
 A reckless maneuver that forces the user to switch out if it misses. Always goes first.
 鲁莽的突袭技能，未命中时强制替换自身。必定先制攻击。
 Inflicts physical or special damage, whichever deals more. Then, raises Attack or Sp. Atk, whichever wasn't used.
-是造成物理还是特殊伤害，以伤害更高者为准，然后增加未使用的物攻或特攻1级。
+是造成物理还是特殊类伤害，以伤害更高者为准，然后增加未使用的物攻或特攻1级。
 Conductive materials ensnare the target, trapping and damaging it for three turns.
 巨大的磁铁从四面八方袭向对手，将其束缚并在接下来的3回合内受到伤害。
 The user lays a hazard of sharp feathers around the foe. It hurts foes that switch into battle.
@@ -35074,7 +35074,7 @@ The user attacks with reflected light. It has a 20% chance to lower Sp. Def.
 The user strikes the target while magnetizing it, trapping and damaging it for three turns.
 击打对手并使其磁化，将其束缚并在接下来的3回合内受到伤害。
 Protects the user from attacks. Special attackers take 1/8th HP damage.
-防住对手攻击的同时，削减对自身使用特殊攻击的对手的体力。
+防住对手攻击的同时，削减对自身使用特殊类攻击的对手的体力。
 The user attacks the target with a sword. If it faints, tons of money is earned after the battle.
 使用剑对对手进行攻击，若对手被打败，则在战斗结束后获得大量金钱奖励。
 The user creates a high quality area for eight turns in which super-effective deals 25% more, and not very effective deals 25% less.
@@ -35092,7 +35092,7 @@ The user crushes the target in its metallic vises, breaking any screens protecti
 The user looses a flash of energy from its polished body. It has a 30% chance to lower Sp. Def.
 打磨自身的身体，从而释放出能量闪光，30%概率使对方的特防减小1级。
 Protects the user from damage this turn. It also lowers the Sp. Atk of special attackers by two steps.
-防住对手攻击的同时，大幅度减小对自身使用特殊攻击的对手的特攻。
+防住对手攻击的同时，大幅度减小对自身使用特殊类攻击的对手的特攻。
 The user hurls a metal ball at the target.
 向对手投掷金属球。
 The user shoots shards of its own body at the target. The user loses 10% of its max HP.
@@ -35110,7 +35110,7 @@ The user heals itself for half of their max HP, and extends the current weather 
 The user enters a protective stance, raising its Sp. Atk and Defense by two steps.
 使用者进入防御姿态，特攻和物防增加2级。
 The user prepares its dual cannons. Until switch out, each special attack hits twice.
-准备好它的双重大炮，在下场前每次特殊攻击都会攻击2次。
+准备好它的双重大炮，在下场前每次特殊类攻击都会攻击2次。
 The user drags the target into the water with a heavy anchor. They become waterlogged.
 使用者用重锚将目标拖入水中。目标会陷入浸水。
 Welds heavy steel onto the target, giving it the Steel type and reducing its Speed by four steps.
@@ -35464,7 +35464,7 @@ The user manifests a piercing bolt of psychic energy. It has a 50% chance to low
 The user sends waves of cosmic energy to overwhelm the target's senses. Multi-hits two to five times.
 使用者发送宇宙能量波来压倒目标的感官。连续攻击2-5次。
 Protects the user from damage this turn. It also lowers the Sp. Def of special attackers by four steps.
-防住对手攻击的同时，减小对自身发动特殊攻击的对手特防4级。
+防住对手攻击的同时，减小对自身发动特殊类攻击的对手特防4级。
 The user does an arcane dance to summon a Pearl Of Wisdom to hold. The Pearl boosts all stats by 20% and can be flung for huge damage.
 使用者进行神秘舞蹈，召唤出一颗智慧之珠来携带。这颗珠子可以提升所有能力20%，并且可以投掷造成巨大伤害。
 The target is scrutinized, damaging their psyche. Can random critical hit.
@@ -35566,7 +35566,7 @@ The user inspires a sudden dread in the target, damaging it. This move always go
 The user spits venom at the target. It has a 30% chance to poison.
 向对手喷射毒液。30%概率使对手中毒。
 The user shakes the target with a deep, rumbling roar. This attack does physical damage.
-使用低沉的吼声震慑目标，造成物理伤害。
+使用低沉的吼声震慑目标，造成物理类伤害。
 Protects the user from attacks. If an eclipse is active, extends it by one turn. Fails if used in succession.
 保护使用者免受攻击。如果处于日食状态，将其延长1回合。连续使用会失败。
 The user flies high up into the air at supersonic speeds, charging and becoming invulnerable. It does more damage the faster the user is.
@@ -38489,13 +38489,13 @@ An item to be held by a Pokémon. The holder will endure one potential KO attack
 An item to be held by a Pokémon. The holder's defenses are raised 50% but it can't use status moves.
 携带后防御增加50%，但只能使用一种技能。
 The holder's Defense is raised 50%, and it harms those who use special attacks against it for 1/6th HP.
-携带者的防御增加50%，对其使用特殊攻击的人额外造成1/6HP的伤害。
+携带者的防御增加50%，对其使用特殊类攻击的人额外造成1/6HP的伤害。
 The holder's Sp. Def is raised 50%, and it harms those who use physical attacks against it for 1/6th HP.
-携带者的特防增加50%，对其使用物理攻击的人额外造成1/6HP的伤害。
+携带者的特防增加50%，对其使用物理类攻击的人额外造成1/6HP的伤害。
 Damages attackers for 1/3rd of their HP when they hit the holder with physical attacks.
-当攻击者用物理攻击击中携带者时，会对其造成1/3HP的伤害。
+当攻击者用物理类攻击击中携带者时，会对其造成1/3HP的伤害。
 Damages attackers for 1/3rd of their HP when they hit the holder with special attacks.
-当攻击者用特殊攻击击中携带者时，会对其造成1/3HP的伤害。
+当攻击者用特殊类攻击击中携带者时，会对其造成1/3HP的伤害。
 If held by a Pokémon, it heals its HP by 50% at half health.
 携带后，当HP小于50%时，回复50%HP。
 Halves the damage from one supereffective Fairy-type attack. Holder heals 1/16th HP each turn.
@@ -40077,7 +40077,7 @@ Summons rainstorm for 4 turns when it enters battle.
 Turns the weather to sunshine for 4 turns when it enters battle.
 出场时，将天气变为晴朗，持续4回合。
 Heals 1/8 HP in rainstorm, 1/4 when hit by Water-type moves. Loses 1/8 in sunshine, takes 25% more from Fire-type moves.
-暴雨天每回合恢复1/8HP，受水攻恢复25%HP。晴天每回合损失1/8HP，受火攻损失25%HP。
+雨天/晴天时，每回合回复/损失1/8HP。被水属性技能攻击时，回复25%HP。被火属性技能攻击时，受到的伤害增加25%。
 Switches out if its HP becomes half or less.
 HP变为一半时，会慌慌张张逃走，退回同行队伍中。
 Powers up each Pokémon's Fairy-type moves.
@@ -40089,23 +40089,23 @@ Physical moves against the Pokémon have a 30% chance to burn the attacker.
 In sunshine boosts its and allies' Attack and Sp. Def by 50%.
 晴天时，自身和队友的物攻和特防增加50%。
 Protects Grass-type allies from non-volatile status conditions or stat reductions (except self-inflicted).
-保护草属性队友免受稳定型异常或能力等级减小效果的影响（自我造成的除外）。
+保护草属性队友免受稳定型异常或其他精灵的能力等级减小效果的影响。
 Doubles Defense. The Pokémon takes double damage from Fire-type moves.
 防御能力翻倍，但受到火属性技能攻击时，受到双倍伤害。
 Castform transforms with the weather.
 属性会随着天气而变化。
 Reduces damage done to allies by 25%.
-可以减小我方的伤害。
+使队友受到的伤害减小25%。
 Doubles the Pokémon's Defense.
 物防翻倍。
 The user's Speed is doubled while using Flying-type moves.
 使用飞行属性技能时速度翻倍。
 Normal-type moves become Electric-type and power up by 30%.
-一般属性的技能会变为电属性。威力会少量增加。
+一般属性的技能会变为电属性，并且威力增加30%。
 Will eat berries normally eaten at 25% HP (in a pinch) at 50% instead.
 会在HP一半时就吃掉原本HP在1/4时才会吃掉的树果。
 Physical moves against it lower the attacker's Speed and Attack.
-对于用物理类技能攻击自身的对手，会减小其速度和物攻1级。
+对于用物理类技能攻击自身的对手，会使其速度和物攻减小1级。
 Boosts Attack by 50% but the user is locked into the first move they use.
 虽然攻击会增加，但是只能使用一开始所选的技能。
 Boosts Sp. Atk after knocking out any Pokémon.
@@ -40121,9 +40121,9 @@ Boosts move damage by 50%, but lowers Accuracy by 20%.
 Heals non-volatile status conditions each turn if in rainstorm.
 雨天时，每回合回复稳定型异常。
 Heals 1/8th of its max HP each turn in a hail.
-冰雹时，每回合恢复1/8的HP。
+冰雹时，每回合回复1/8的HP。
 Doubles the Pokémon's Sp. Def.
-精灵的特防翻倍。
+特防翻倍。
 Comes out disguised as the Pokémon in back.
 出场时伪装成后排的精灵。
 It transforms itself into the Pokémon it is facing.
@@ -40397,7 +40397,7 @@ Raises Defense and Sp. Def by three steps when its HP is lowered below half.
 Boosts power of light-based moves by 30%.
 光类技能的威力增加30%。
 Special attacks against the Pokémon have a 30% chance to dizzy the attacker.
-受到特殊攻击后有30%概率使对手陷入混乱。
+受到特殊类攻击后有30%概率使对手陷入混乱。
 After using a sound move, all foes are tormented.
 声音类技能会对敌方全员施加折磨状态。
 Can hold two different items, if both are Berries.
@@ -40433,7 +40433,7 @@ If an attack lowers its HP to half or less, lowers all of the attacker's stats.
 Boosts the power of wind-based moves by 30%.
 风类技能威力增加30%。
 Its attacks are always physical attacks.
-所有攻击都是物理攻击。
+所有攻击都是物理类攻击。
 Takes 30% less move damage from Pokémon that are shorter than it.
 如果身高比对手高，受到的伤害减小30%。
 Self-destructing at full health leaves it at 1 HP.
@@ -40481,7 +40481,7 @@ Immune to Ice-type moves, and raises Attack and Sp. Atk if hit by one.
 When hit with a physical move, traps and damages the attacker for three turns.
 当被物理类技能击中时，会在3回合内让攻击者被困住并持续受到伤害。
 Using or being hit by a physical move leaves a rock on the field. Status moves collect them, healing by 1/4th each.
-使用物理类技能攻击或被物理攻击命中时，将留下一块石头。能力发生变化时将拾起石块，每块恢复25%HP。
+使用物理类技能攻击或被物理类攻击命中时，将留下一块石头。能力发生变化时将拾起石块，每块恢复25%HP。
 Changes to the form of your choosing after switching out.
 替换后可以选择一个形态并变成那个形态。
 Upon entry, creates a substitute from 1/4th of its HP.
@@ -40827,7 +40827,7 @@ Ignores Abilities that would affect its moves or activate after hitting the targ
 If an attack lowers the Pokémon's HP to half or less, the attacker becomes jinxed.
 被攻击到HP低于一半时，使攻击者陷入不幸状态。
 Physical moves against the Pokémon have a 30% chance to leech the attacker.
-受到物理攻击时，30%概率令对方受到伤害。
+受到物理类攻击时，30%概率令对方受到伤害。
 Rather than take recoil damage, it swaps out, and its replacement takes that damage.
 不会受到反伤，而是替换出其它精灵代替它承受反伤。
 Pokémon can't raise their stats. Pokémon that dance take damage equal to 1/4th their HP.
@@ -40925,7 +40925,7 @@ Immune to the type of the memory disc it holds.
 It changes type to that of the move it's about to use. This works only once each time the Pokémon enters battle.
 每次战斗生效一次，根据即将使用的技能改变自身的属性。
 Boosts the power of punching moves by 30%, and makes them special when that would be more effective.
-拳类技能威力增加30%，并在更有效的情况下，转化为特殊攻击。
+拳类技能威力增加30%，并在更有效的情况下，转化为特殊类攻击。
 Attackers lose 1/10th of their HP. If the Pokémon is below half health, attackers lose 1/5th instead.
 攻击者会减小1/10HP。若自身HP低于一半，攻击者将减小1/5HP。
 Special moves have a 30% chance to numb targets.
@@ -40947,7 +40947,7 @@ Deals no damage to a target while they are using a status move.
 Traps foes whose Attack is less than its.
 困住物攻低于自身的对手。
 Reduces each other Pokémon's HP by 1/12th at the end of each turn.
-回合结束时，减小对手1/12HP。
+回合结束时，减小其他精灵1/12HP。
 Physical moves have a 30% chance to numb targets.
 物理类技能有30%的概率麻痹对手。
 Boosts the Accuracy of its allies and itself by 50%.
@@ -40995,7 +40995,7 @@ At the end of each of its turns, Speed is lowered but every other stat is raised
 While the Pokémon is below half health, its attacks leech those hit.
 半血时攻击将会寄生对手。
 Special attacks against the Pokémon have a 30% chance to cause numbing.
-受到特殊攻击时30%概率麻痹对手。
+受到特殊类攻击时30%概率麻痹对手。
 Whenever a foe raises their stats, the Pokémon follows suit.
 对手增加能力时，自身能力也跟着增加。
 The Pokémon's moves deal 50% more damage if they're a different type than last.
@@ -41013,13 +41013,13 @@ At the first chance, copies an opponent's species' legal Abilities.
 Immune to Poison-type moves and restores 25% of max HP if hit by one.
 免疫毒属性技能，被毒属性技能攻击时，恢复1/4的HP。
 Special attacks against the Pokémon have a 30% chance to poison the attacker.
-受到特殊攻击后有30%概率使对手陷入中毒。
+受到特殊类攻击后有30%概率使对手陷入中毒。
 Upon entry, creates a Polarized Room for four turns, exaggerating type matchups.
 出场时，创建一个持续4回合的极化空间。
 Upon switch out, lowers the foe's Attack and Sp. Atk stat by insulting them.
 离场时，通过辱骂对手使其双攻减小1级。
 Its physical attacks go last but force the target to switch out after use.
-使用物理攻击会后出手，但能让对手强制替换。
+使用物理类攻击会后出手，但能让对手强制替换。
 Has a 30% chance to leech targets when using physical moves.
 使用物理类技能时有30%的概率寄生对手。
 Right before the Pokémon is attacked, the attacker's stat changes are reset.
@@ -41067,7 +41067,7 @@ Upon entry during sunshine, heals the lowest HP ally or self by 33%.
 Pokémon that swap in for this have their non-volatile status conditions healed, and take 30% less damage that turn.
 替换该精灵上场的精灵会回复其稳定型异常，并且在那1回合受到的伤害减小30%。
 When hit with a physical move, hits back instantly with Leafage.
-受到物理攻击时，会立刻以树叶反击。
+受到物理类攻击时，会立刻以树叶反击。
 Critical hits lower all of the victim's stats.
 命中要害时，减小其全能力。
 Immune to Dark-type and Bug-type moves.
@@ -41137,7 +41137,7 @@ Its attacks are critical against numbed targets.
 Doubles the critical hit chance of random crit moves. The Pokémon's Speed is doubled while using them.
 将随机命中要害技能的命中要害率翻倍。使用这些技能时，精灵的速度翻倍。
 Its physical attacks reduce the target's Defense.
-物理伤害会减小对手的防御。
+物理类伤害会减小对手的防御。
 Punching moves change the Pokémon's secondary type and their power is boosted by 30%.
 拳类技能会改变精灵的附加属性，并且威力增加30%。
 Powers up Fighting-type moves by 50%.
@@ -41243,7 +41243,7 @@ Upon entry, creates a Trick Room for four turns, inverting the effect of Speed.
 Powers up Ice-type moves by 50%.
 冰属性技能的威力增加50%。
 Special moves against the Pokémon have a 30% chance to frostbite the attacker.
-受到特殊攻击后有30%概率使对手陷入冻伤。
+受到特殊类攻击后有30%概率使对手陷入冻伤。
 Uses Rapid Spin if an attack lowers its HP to half or below.
 当受到攻击使HP减小到一半或以下时，使用高速旋转。
 Boosts Sp. Atk by 30% in hail.
@@ -45979,11 +45979,11 @@ Attacking moves are split into Physical moves, and Special moves. Each of these 
 Physical Moves
 物理类技能
 Physical moves are notated by the symbol of a smashing fist. Their damage is based on the Attack (Atk) stat of the attacker and the Defense (Def) stat of the target.
-物理伤害以爆炸符号表示，其伤害基于攻击者的物攻和承受者的物防进行计算。
+物理类伤害以爆炸符号表示，其伤害基于攻击者的物攻和承受者的物防进行计算。
 Special Moves
 特殊类技能
 Special moves are notated by the symbol of a splash. Their damage is based on the Special Attack (Sp. Atk) of the attacker and the Special Defense (Sp. Def) of the target.
-物理伤害以涟漪符号表示，其伤害基于攻击者的特攻和承受者的特防进行计算。
+物理类伤害以涟漪符号表示，其伤害基于攻击者的特攻和承受者的特防进行计算。
 Targeting
 技能目标
 Most moves target only a single Pokémon, but many can target multiple Pokémon at once. Some moves differ in how far they can target in the bigger battle styles (doubles, triples).
@@ -50053,11 +50053,11 @@ It'll last the whole battle!
 It'll skip its next two moves
 它将跳过接下来的两次行动
 Its physical damage is reduced by a third
-其物理伤害减小1/3
+其物理类伤害减小1/3
 The poison will worsen over time
 毒性会随着时间的推移而增加
 Its special damage is reduced by a third
-其特殊伤害减小1/3
+其特殊类伤害减小1/3
 Its Speed is halved, and it'll deal less damage
 其速度减半，造成的伤害减小
 Its ability is suppressed, and it'll take more damage
@@ -51213,9 +51213,9 @@ Its base power was adjusted to {1}!
 Its base power was adjusted to {1} against {2}!
 其威力对{2}调整为{1}！
 It became physical!
-它变成物理攻击了！
+它变成物理类攻击了！
 It became special!
-它变成特殊攻击了！
+它变成特殊类攻击了！
 {1}'s attack is dampened a lot by the dreary rain.
 {1}的攻击受到了雨水的拖累。
 {1}'s attack is dampened by the rain.
@@ -52945,9 +52945,9 @@ You used your last {1}.
 {1} can't learn {2}.
 {1}不能学习{2}。
 You used an {1}.
-你使用了一个{1}。
+你使用了{1}。
 You used a {1}.
-你使用了一个{1}。
+你使用了{1}。
 How many {1} do you want to use?
 要使用多少个{1} ?
 {1} Exp. Points were stored in the EXP-EZ Dispenser.
@@ -53315,7 +53315,7 @@ PRECISE ATTACK
 FIERCE ATTACK
 猛烈攻击
 SPECIAL ATTACK
-特殊攻击
+特殊类攻击
 Choose a command.
 选择一个指令。
 You study each other's movements...
@@ -53337,7 +53337,7 @@ You evade the opponent's attack!
 The opponent pierces through your defenses!
 对方穿透了你的防御！
 Your special attacks collide!
-你的特殊攻击发生了碰撞！
+你的特殊类攻击发生了碰撞！
 Something pinged in the wall!<<n>>{1} confirmed!
 墙壁里有东西发出声响！<<n>>{1}已确认！
 The wall collapsed!

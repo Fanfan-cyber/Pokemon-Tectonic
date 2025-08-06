@@ -42,8 +42,8 @@ class PokeBattle_Move
         return (user.boss? || target.boss?) && damagingMove? && (empoweredMove? || AVATARS_REGULAR_ATTACKS_PIERCE_IMMUNITIES)
     end
 
-    def canRemoveItem?(user, target, item, checkingForAI: false)
-        return false unless canKnockOffItems?(user, target, checkingForAI)
+    def canRemoveItem?(user, target, item, ignoreTargetFainted = false, checkingForAI: false)
+        return false unless canKnockOffItems?(user, target, checkingForAI, ignoreTargetFainted)
         return !target.unlosableItem?(item)
     end
 

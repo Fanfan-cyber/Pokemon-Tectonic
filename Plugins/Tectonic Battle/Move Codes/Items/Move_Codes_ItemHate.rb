@@ -127,7 +127,7 @@ class PokeBattle_Move_DestroysBerriesGems < PokeBattle_Move
     def pbEffectWhenDealingDamage(user, target)
         return unless canIncinerateTargetsItem?(target)
         target.eachItemWithName do |item, itemName|
-            next unless canRemoveItem?(user, target, item)
+            next unless canRemoveItem?(user, target, item, true)
             itemData = GameData::Item.get(item)
             next unless itemData.is_berry? || itemData.is_gem?
             target.removeItem(item)

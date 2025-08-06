@@ -181,7 +181,9 @@ disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
 18.修复了Backfire对Beaming不生效的Bug
 19.将中文翻译的“能使目标畏缩的技能”统一为畏缩类技能（Flinching Moves）
 20.将中文翻译的“能攻击到多个目标的技能”统一为扩散类技能（Spread Moves）
-21.
+21.修复了Rugged被AI检查时也会出现文本提示的Bug
+22.现在因为烧尽的攻击而濒死的精灵所携带的树果或者宝石也会被烧掉了
+23.
 
 0.3.8
 1.修复了沙奈朵的Arcane Finale的不完美完胜效果失效的Bug

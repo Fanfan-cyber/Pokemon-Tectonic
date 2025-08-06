@@ -518,7 +518,7 @@ class PokeBattle_Battle
                         end
                     # Rugged
                     elsif battler.shouldAbilityApply?(:RUGGED,aiCheck)
-                            pbDisplay(_INTL("{1} resists the pointed stones!", battler.pbThis))  
+                            pbDisplay(_INTL("{1} resists the pointed stones!", battler.pbThis)) unless aiCheck
                     else # Takes damage
                         if aiCheck
                             stealthRocksDamage = battler.applyFractionalDamage(getTypedHazardHPRatio, aiCheck: true)
