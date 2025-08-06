@@ -34576,7 +34576,7 @@ The user dances and shows off their many lights at the target, dizzying and dama
 The user engages the target in a head-to-head fight. The damage is based on the target's Attack rather than their Defense.
 与对方正面交锋，基于对方的物攻计算此技能的伤害。
 The user concentrates to stabilize its mood. It raises the user's Sp. Def by three steps.
-集中精神来稳定自身情绪，增加自身特防3级。
+集中精神来稳定自身情绪，使自身的特防增加3级。
 The user attacks with the full force of The Market. Money is earned after the battle.
 使用者全力进行攻击。战斗结束后获得金钱。
 The user thrashes while infused with elements. It has a 15% chance each to poison, waterlog or leech.
@@ -34584,11 +34584,11 @@ The user thrashes while infused with elements. It has a 15% chance each to poiso
 A tremendous strike that clears any active weather.
 用巨大的冲击力清空目前的天气。
 The user stimulates its brain by planning. It raises the user's Sp. Atk by three steps.
-通过规划刺激自身的大脑，增加自身特攻3级。
+通过规划刺激自身的大脑，使自身的特攻增加3级。
 The user chooses between the three most recent moves used by the opposing team, and uses that move themselves.
 从对方最近使用的三个技能中选择一个，并使用此技能。
 The user curls up to conceal weak spots and raise both of its Defense and Sp. Def by two steps.
-使用者蜷缩起来隐藏弱点，并增加自身的双防2级。
+使用者蜷缩起来，使自身的双防增加2级。
 The user dazzles nearby foes with light. Their Sp. Atk is lowered by two steps.
 使用者以光芒眩惑周围敌人，使其特攻减小2级。
 The user shoots a pulse of diffuse energy at the target.
@@ -37963,7 +37963,7 @@ Consumed to heal for one third of max HP when the Pokémon uses a pulse move. Th
 A held item. The holder is protected from the negative effects of weather.
 携带它的精灵将不受各种天气的影响。
 A held item. It changes the holder's type in battle. You can change which type between battles.
-携带后可以在战斗中改变属性。
+携带后，可以改变精灵在战斗中的属性。可以在战斗外切换。
 A set of memory discs, one for each type. If held by a Silvally, you can change its type between battles.
 一套记忆光盘，每种类型各一个。如果由银伴战兽携带，可以在非战斗期间更换其属性。
 A tablet that boosts same-type moves by 20%. If held by Arceus, you can change its type between battles.
@@ -40029,7 +40029,7 @@ Reduces a sleeping foe's HP by 1/8th at the end of a round.
 Powers up ally Pokémon's special moves by 30%.
 会增加我方的特殊类技能30%的威力。
 Raises Attack and Sp. Atk by two steps when its HP is lowered below half.
-当HP低于一半时，增加双攻2级。
+当HP低于一半时，双攻增加2级。
 When the Pokémon eats a Berry, it restores 33% of its max health.
 无论是哪种树果，食用后，都会回复33%最大HP。
 Boosts Attack after knocking out any Pokémon.
@@ -40219,7 +40219,7 @@ Doubles the Pokémon's Speed in a sandstorm.
 Summons a sandstorm for 4 turns when it enters battle.
 出场时，会把天气变为沙暴。
 Immune to Grass-type moves, and raises Attack and Sp. Atk when hit by one.
-免疫草属性技能，被草属性技能击中时增加双攻1级。
+免疫草属性技能，被草属性技能击中时双攻增加1级。
 Forms a powerful school while it has a lot of HP.
 HP多的时候会聚起来变强。
 Doubles the likelihood of the user's random added effects activating.
@@ -40477,7 +40477,7 @@ Can hold two items, but drops one when swapping out.
 Boosts Sp. Atk by 75%, but the Pokémon becomes frostbitten after attacking.
 特攻增加75%，但攻击后会陷入冻伤状态。
 Immune to Ice-type moves, and raises Attack and Sp. Atk if hit by one.
-免疫冰属性技能，被冰属性技能击中时增加双攻1级。
+免疫冰属性技能，被冰属性技能击中时双攻增加1级。
 When hit with a physical move, traps and damages the attacker for three turns.
 当被物理类技能击中时，会在3回合内让攻击者被困住并持续受到伤害。
 Using or being hit by a physical move leaves a rock on the field. Status moves collect them, healing by 1/4th each.
@@ -40633,7 +40633,7 @@ Restores 1/8 HP in sunshine, 1/4 when hit by Fire-type moves. Loses 1/8 in rains
 At the end of every turn, each Pokémon takes 1/8th HP damage. This is treated as Fire-type.
 回合结束时，每只精灵受到1/8最大HP的火属性伤害。
 Immune to Fire-type moves, and raises Attack and Sp. Atk if hit by one.
-免疫火属性技能，被火属性技能击中时增加双攻1级。
+免疫火属性技能，被火属性技能击中时双攻增加1级。
 Powers up priority moves by 30%.
 先制技能威力增加30%。
 Upon entry, summons Natural Protection for 4 turns.
@@ -40653,15 +40653,15 @@ Upon entry, summons a Cruel Cocoon on the Pokémon's side for 6 turns.
 Hits opponent with Gust when withdrawn from battle.
 离开战斗时，使用起风攻击对手。
 Grants immunity to Bug-type moves, and raises Attack and Sp. Atk when hit by one.
-免疫虫属性技能，被虫属性技能击中时增加双攻1级。
+免疫虫属性技能，被虫属性技能击中时双攻增加1级。
 Upon entry, summons a Misdirecting Fog on the Pokémon's side for 6 turns.
 进入战斗后，召唤持续6回合的迷惑之雾。
 Raises Speed by two steps after knocking out any Pokémon.
 打倒对手时，速度增加2级。
 Immune to Psychic-type moves, and raises Attack and Sp. Atk if hit by one.
-免疫超能属性技能，被超能属性技能击中时增加双攻1级。
+免疫超能属性技能，被超能属性技能击中时双攻增加1级。
 Raises Attack and Sp. Atk by two steps when hit by a not-very-effective move.
-被效果不佳的技能击中时，增加双攻2级。
+被效果不佳的技能击中时，双攻增加2级。
 Doubles the Pokémon's Speed in Rooms.
 当存在空间类效果时，精灵的速度翻倍。
 Take 30% less damage from attacks on turns when it hasn't moved yet.
@@ -40739,7 +40739,7 @@ Doubles Sp. Atk, but the Pokémon becomes dizzy after attacking.
 Immune to Fairy-type moves and restores 25% of max HP if hit by one. This can overheal.
 免疫妖精属性技能，被妖精属性技能攻击时，恢复1/4的HP。可以过量回复。
 Immune to Dark-type moves, and boosts Attack and Sp. Atk when hit by one.
-免疫恶属性技能，被恶属性技能击中时增加双攻1级。
+免疫恶属性技能，被恶属性技能击中时双攻增加1级。
 Changes the weather to ice age, which damages and prevents healing. Lingers for 3 turns after leaving.
 将天气变为冰河时代，天气会造成伤害并且阻止精灵回复，离场后持续3回合。
 Heals by 1/8th of its max HP each turn if in sunshine.
@@ -41035,7 +41035,7 @@ Raises the Pokémon's Attack by 50%, including Style Values and other bonuses.
 The Pokémon's Dragon-type hits deal additional damage equal to half the Pokémon's level.
 精灵的龙属性攻击会造成额外伤害，数值等于精灵等级的一半。
 Upon entry, creates a Puzzle Room for four turns, swapping unmodified Attack and Sp. Atk.
-出场时，创建一个持续4回合的迷惑空间，交换基础双攻。
+出场时，创建一个持续4回合的迷惑空间，场上的精灵会交换自身的基础双攻。
 Both deals and takes double damage on its first full turn out in battle.
 第1回合时，造成和受到的伤害翻倍。
 Releases a hazard layer of Spikes when hit by an attack.
@@ -46223,7 +46223,7 @@ Waterlog
 When waterlogged, a Pokémon's Speed is halved, and it takes 25% more attack damage. Water- and Dark-types do the most waterlogging. Water is immune.
 当精灵浸水时，其速度减半，并且受到的攻击伤害增加25%。水属性和恶属性精灵最容易使其他精灵浸水。水属性精灵免疫浸水。
 When dizzied, a Pokémon takes 25% more attack damage, and its ability doesn't function. Psychic- and Fairy-types do the most dizzying.
-被混乱的精灵攻击伤害增加25%，但特性会失效，超能属性和妖精属性最擅长混乱对手。
+混乱的精灵被攻击时伤害增加25%，且特性会失效，超能属性和妖精属性最擅长混乱对手。
 When leeched, a Pokémon loses 1/12th HP every turn, and its opponent(s) split that health. Bug- and Dark-types do the most leeching. Grass is immune.
 被寄生时，精灵每回合损失1/12的HP，其对手平分这些HP。虫属性和恶属性最容易造成寄生。草属性免疫。
 A rarer status that causes a Pokémon to be unable to do anything for 2 turns. Psychic- and Grass-types put Pokémon to sleep the most often.
@@ -50055,13 +50055,13 @@ It'll skip its next two moves
 Its physical damage is reduced by a third
 其物理伤害减小1/3
 The poison will worsen over time
-毒性会随时间推移而增加
+毒性会随着时间的推移而增加
 Its special damage is reduced by a third
 其特殊伤害减小1/3
 Its Speed is halved, and it'll deal less damage
-其速度减半，伤害减小
+其速度减半，造成的伤害减小
 Its ability is suppressed, and it'll take more damage
-其特性失效，伤害增加
+其特性失效，受到的伤害增加
 Its HP will be siphoned by the opposing side
 其HP会被吸走
 Its Speed is halved, and it'll take more damage
@@ -57354,6 +57354,8 @@ When the Pokémon eats a Berry, it restores 25% of its max health.
 当精灵吃下一颗树果时，会回复最大生命值的25%。
 Raises Attack by 2 steps after knocking out any Pokémon.
 打倒对手后，物攻增加2级。
+Heals all non-volatile status conditions and 10% of max HP when it switches out.
+离场时，回复稳定性异常和10%HP。
 Halves move damage when HP is greater than 50%.
 半血以上时，双攻减半。
 It changes secondary type to that of the dance moves it's about to use.

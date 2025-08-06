@@ -14,6 +14,7 @@ ABILITY_DATA = {
   :IGNITIONCYCLE    => { :desc => proc { _INTL("Each turn, raises Speed by 4 steps and loses 1/8th max HP. If Speed was maxed, instead Speed and HP are reset.") }, },
   :ILLUSION         => { :desc => proc { _INTL("Comes out disguised as the Pokémon in back. Boosts move power by 20% in disguise.") }, },
   :MOXIE            => { :desc => proc { _INTL("Raises Attack by 2 steps after knocking out any Pokémon.") }, },
+  :NATURALCURE      => { :desc => proc { _INTL("Heals all non-volatile status conditions and 10% of max HP when it switches out.") }, },
   :PERENNIALPAYLOAD => { :desc => proc { _INTL("After fainting from exploding, revives after six turns, but requires above 50% HP if caused by others.") }, },
   :PLURIPOTENCE     => { :desc => proc { _INTL("Copies opponents' species' legal Abilities.") }, },
   :REFRACTIVE       => { :desc => proc { _INTL("It changes secondary type to that of the pulse moves it's about to use.") }, },
