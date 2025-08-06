@@ -2547,7 +2547,7 @@ Pokemon = FERALIGATR,70
     EV = 10,20,0,3,20,17
 Pokemon = MLILLIGANT,70
     Moves = DRAGBENEATH,GLACIALRAM,PLAYROUGH,ICESHARD
-    AbilityIndex = 0 # Tangling Hair
+    AbilityIndex = 0 # Sudden Chill
     Item = STRIKEVEST
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,18,10,12,18,0

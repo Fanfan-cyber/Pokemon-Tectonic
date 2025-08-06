@@ -4648,9 +4648,9 @@ Accuracy = 100
 TotalPP = 15
 Target = NearOther
 FunctionCode = RaiseUserSpAtk1
-Flags = CanProtect
+Flags = CanProtect,Pulse
 EffectChance = 20
-Description = The user attacks with the bursting power of nature. It has a 20% chance to raise user's Sp. Atk.
+Description = The user attacks with the essence of life. It has a 20% chance to raise user's Sp. Atk.
 Animation = ENERGYBALL
 #-------------------------------
 [ESSENCEARROW]
@@ -4662,9 +4662,9 @@ Accuracy = 100
 TotalPP = 30
 Target = NearOther
 FunctionCode = RaiseUserSpAtk1
-Flags = CanProtect
+Flags = CanProtect,Pulse
 EffectChance = 20
-Description = The user fires a small bolt of energy at the target. It has a 20% chance to raise user's Sp. Atk.
+Description = The user fires a bolt of life energy at the target. It has a 20% chance to raise user's Sp. Atk.
 Animation = ENERGYBALL
 #-------------------------------
 [FLASHSEED]
