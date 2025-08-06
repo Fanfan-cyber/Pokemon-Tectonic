@@ -1776,7 +1776,7 @@ Pokemon = URSALUNA,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 0,20,20,0,20,10
 Pokemon = HUNTAIL,70
-    Moves = MASSDESTRUCTION,GEYSER,BLACKOUT,PSYCHIC
+    Moves = MASSDESTRUCTION,GEYSER,BLACKOUT,ICEBEAM
     AbilityIndex = 1 # Illuminance
     Item = CHOICESCARF
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
