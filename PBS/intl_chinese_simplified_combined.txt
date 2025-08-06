@@ -33601,8 +33601,8 @@ The user releases countless shots of light. Its type varies with the kind of Pla
 向对手放出无数的光弹。属性会根据自身携带的石板不同而改变。
 This move can be used only after the user has used all the other moves it knows in the battle.
 当战斗中已学会的技能全部使用过后，才能开始使用珍藏的技能。
-The user leers at nearby foes with sharp eyes. Their Defense stat is reduced by two steps.
-用犀利的眼神使其害怕，从而使对方的物防减小2级。
+The user leers at nearby foes with sharp eyes. Their Defense stat is lowered by two steps.
+用犀利的眼神使对手害怕，从而使对方的物防减小2级。
 The user chants an incantation, preventing the foe from landing critical hits for 10 turns.
 向天许愿，从而在10回合内不会被对手的攻击打中要害。
 The user tries to cut ahead of the foe to steal and use the foe's intended move with greater power.
@@ -33938,7 +33938,7 @@ The user stabs the foe with sharpened stones from below.
 Pours sticky tar over the target, lowering its Speed by six steps and making it weak to Fire.
 泼洒黏糊糊的沥青，使对手的速度减小6级，并增加火属性弱点。
 The user and its allies are protected from spread moves for a turn. Always fails if used in succession.
-在1回合内防住攻击我方全员的攻击，连续使用则会失败。
+在1回合内防住对方的扩散类技能的攻击，连续使用则会失败。
 The user bites the target. If the target is holding a Berry, the user eats it and gains its effect.
 咬住进行攻击。当对手携带树果时，可以食用并获得其效果。
 The user vibrates its wings to make a damaging sound wave. It has a 20% chance to lower Sp. Def.
@@ -33977,7 +33977,7 @@ Weaves a sticky net around the opposing team, a hazard which lowers their Speed 
 在对方队伍周围编织一张黏黏网，替换进入的对手的速度会减小2级。
 The foe is bound with silk blown from the user's mouth. This silk reduces the target's Speed by four steps.
 用口中吐出的丝缠绕对手，从而使对手的速度减小4级。
-While resisting, the user attacks the opposing Pokémon. The targets' Sp. Atk is reduced by two steps.
+While resisting, the user attacks the opposing Pokémon. The targets' Sp. Atk is lowered by two steps.
 抵抗并攻击对手，使对手的特攻减小2级。
 The user stares at flashing lights to focus its mind, raising its Sp. Atk stat by five steps.
 凝视闪烁的光芒，集中自身的精神，从而使特攻增加5级。
@@ -34644,15 +34644,15 @@ The user attacks the target with stored power. Has 10 more base power for each r
 The user attacks by splaying its body wide. Its power doubles if Curl Up was used previously.
 舒展身体进行攻击。如果之前使用了卷曲，则威力翻倍。
 The user brings down a ruinous power on the target. This has a 20% chance of lowering all the target's stats.
-向对手施加毁灭能量，伤害对手，20%概率减小对手全属性。
+向对手施加毁灭能量，伤害对手，有20%的概率使对手全部能力的能力等级减小1级。
 The user schemes to raise its Attack and Sp. Atk by two steps. During moonglow, also raises Speed by two steps.
 让自身的双攻增加2级。月辉天气时，还大幅度能增加速度。
 The user strikes while inviting the power of seasons. The user changes form to the next season.
 一边进行攻击，一边召唤季节的力量，并改变自身的形态。
 The user shouts with force at the target. This move always hits first.
 朝对手大声喊叫，必定能够先制攻击。
-The user smirks with confidence. The Sp. Def of nearby enemies is reduced.
-自信地咧嘴一笑，使对方的特防减小。
+The user smirks with confidence. The Sp. Def of nearby enemies is lowered.
+自信地咧嘴一笑，使对方的特防减小1级。
 A barrage of star-shaped rays are shot at the opposing team that multi-hits two to five times. Can't miss and skips protections.
 一束星形光线射向对方队伍，连续攻击2-5次。必定命中且无视保护。
 The user attacks and steals items from all near foes. Items stolen from wild Pokémon are stored.
@@ -34664,11 +34664,11 @@ The user causes the air around the target to explode. The move's type is changed
 The user conjures up the past, transforming the target into their previous evolutionary form.
 召唤出过去影像，使对方变为进化前的形态。
 The user forms their excitement into a lash with a 10% chance of raising the user's Sp. Atk.
-扭曲对手的气场并造成伤害。10%概率减小对手的防御。
+扭曲对手的气场并造成伤害，有10%的概率使对手的物防减小1级。
 Enables random critical hits for the user, doubles its critical hit chance, and raises its Attack and Defense by two steps.
 使用者变得可以随机命中要害且命中要害概率翻倍，同时物攻和物防增加2级。
 The user contorts the target's chi with an energy pulse, damaging it and lowering its Sp. Def.
-使用者用能量脉冲扭曲目标的气，造成伤害并减小其特防1级。
+使用者用能量脉冲扭曲目标的气，造成伤害并使其特防减小1级。
 Aura deep within the user's body is spurred to pulse outward. Can't miss and skips protections.
 使用者体内深处的气场被激发向外射出。必定命中且无视保护。
 The target is barred by rules which prevent it from using off-type moves for three more turns.
@@ -34890,7 +34890,7 @@ The user calls all rocks to join it, summoning sandstorm for five turns and layi
 The user drops a single piece of solid bedrock on the target, fracturing them.
 使用者向目标投掷一块坚固的基岩，使其破碎。
 The user and its allies are protected from spread moves this turn, and enemies can only target the user. Fails if used in succession.
-本回合内，自身和队友不会受到可以攻击到多个目标的技能的攻击，且对手只能攻击自身，如果连续使用则会失效。
+本回合内，不会受到扩散类技能的攻击，且对手只能攻击自身，如果连续使用则会失效。
 The user afflicts the target by turning their skin into stone. This has a 30% chance to fracture it.
 使用者将目标的皮肤变成石头，使其痛苦。有30%的概率使其破碎。
 The user slams itself into the target with absurd force, taking 50% recoil.
@@ -34976,7 +34976,7 @@ The user sucks the target's life. The user's HP is restored by 50% the damage de
 The user calls out its underlings to pummel the target. Skips and destroys protections.
 呼唤下属对目标进行猛烈攻击，且无视保护类效果。
 The user summons bugs to terrorize the target, trapping and damaging it for three turns.
-召唤虫子将对手包围起来，对方无法进行替换，且持续受到3回合伤害。
+召唤虫子恐吓对手，让对方无法进行替换，且持续受到3回合伤害。
 The user amps itself up for performance, raising its Sp. Atk and Speed by two steps.
 使用者为表演振作起来，增加特攻和速度2级。
 Disables the target's last used move for four turns, then reduces a relevant stat on them by four steps.
@@ -39852,7 +39852,7 @@ Tenderize
 Territorial
 领地意识
 Terrorize
-恐怖威吓
+恐怖主义
 Tesla Coils
 特斯拉线圈
 Thief's Diversion
@@ -40695,7 +40695,7 @@ Random added effects of wind-based moves are +50% more likely to occur.
 Boosts the power of wind-based moves by 50%.
 风类技能威力增加50%。
 Completely protects allies from foes' spread moves.
-保护队友不受对手的多目标类技能的伤害。
+保护队友不受对手的扩散类技能的攻击。
 Pokémon that swap in for this have their Speed raised and their PP fully restored.
 进入战斗时，创造一个持续10回合的保护罩，保护自身不受负面状态影响。
 Turns the held item of a Pokémon it hits into gold coins for you to take.
@@ -41060,8 +41060,8 @@ After knocking out any Pokémon, regenerates its previously-used item.
 打倒对手时，再生自身之前使用的物品。
 Before using a status move against a single foe, lowers their Sp. Def by two steps.
 对单个对手使用变化类技能前，大幅度减小其特防。
-Pulse moves change the Pokémon's secondary type and their power is boosted by 30%.
-脉冲类技能会改变精灵的附加属性，并且威力增加30%。
+Light moves change the Pokémon's secondary type and their power is boosted by 30%.
+光类技能会改变精灵的附加属性，并且威力增加30%。
 Upon entry during sunshine, heals the lowest HP ally or self by 33%.
 在阳光下出场时，为HP最低的队友或自身回复33%的HP。
 Pokémon that swap in for this have their non-volatile status conditions healed, and take 30% less damage that turn.
@@ -41073,7 +41073,7 @@ Critical hits lower all of the victim's stats.
 Immune to Dark-type and Bug-type moves.
 免疫恶属性和虫属性技能。
 Spread moves hitting multiple targets deal 50% more damage.
-多目标类技能命中多个目标时伤害增加50%。
+扩散类技能命中多个目标时伤害增加50%。
 When the Pokémon eats a Berry, it raises its Attack and Sp. Atk by two steps.
 吃下树果时，双攻增加2级。
 Heals 1/8th of its max HP each turn during sandstorm.
@@ -41274,8 +41274,8 @@ At the end of each round, lowers other numbed Pokémon's Defense and Sp. Def by 
 回合结束时，其他被麻痹的精灵双防减小2级。
 Boosts damage by 20% if there is a weather. Immune to weather downsides.
 在天气下增加20%的伤害。免疫天气的不利影响。
-Flinching moves always activate their random effects.
-能使目标畏缩的技能总会触发其附加效果。
+Flinching moves always activate their random effects. However, the Pokemon deals 10% less move damage.
+畏缩类技能总会触发其附加效果，但是精灵造成的伤害减小10%。
 Becomes energized upon entry, doubling the power of its next Electric-type attack.
 出场时，进入充电状态，下次电属性技能威力翻倍。
 By sacrificing a held item the Pokémon didn't start with, it can negate one attack against it.
@@ -41389,7 +41389,7 @@ Heals for 1/4th of its HP at the end of every turn.
 Attack and Speed are halved.
 物攻和速度减半。
 Protects the Pokémon and its allies from spread moves. Defense increased by 20%.
-使对方的可以攻击到多个目标的技能使用失败。物防增加20%。
+使对方的扩散类技能使用失败。物防增加20%。
 Switches out if its HP becomes half or less. The replacement Pokémon's ​​first hit must be a crit​​ and if it's Doduo or Dodrio, it will use Fly​​ immediately.
 HP低于一半时，会返回队伍，替换上场的精灵的第一次攻击必定会命中对手的要害，如果替换的精灵是嘟嘟或者嘟嘟利，还会立刻使用飞天。
 When hitting a target that has an ability with an offensive damage-modifying effect, the Pokémon ignores the conditions and triggers the effect.
@@ -57376,8 +57376,8 @@ After fainting from exploding, revives after six turns, but requires above 50% H
 因自身的自爆类技能而濒死时，6回合后会重新苏醒，若是因其他精灵的自爆类技能而濒死，则需濒死前自身的HP在50%以上时才能苏醒。
 Copies opponents' species' legal Abilities.
 复制对手精灵的物种合法特性。
-It changes secondary type to that of the pulse moves it's about to use.
-将附加属性变为即将使用的脉冲类技能的属性。
+It changes secondary type to that of the light moves it's about to use.
+将附加属性变为即将使用的光类技能的属性。
 Upon entry, traps each opponent in a sand tomb for one turn.
 出场时，将对手困在沙尘中1回合。
 It changes secondary type to that of the punching moves it's about to use.

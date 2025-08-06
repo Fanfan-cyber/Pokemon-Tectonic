@@ -17,7 +17,7 @@ ABILITY_DATA = {
   :NATURALCURE      => { :desc => proc { _INTL("Heals all non-volatile status conditions and 10% of max HP when it switches out.") }, },
   :PERENNIALPAYLOAD => { :desc => proc { _INTL("After fainting from exploding, revives after six turns, but requires above 50% HP if caused by others.") }, },
   :PLURIPOTENCE     => { :desc => proc { _INTL("Copies opponents' species' legal Abilities.") }, },
-  :REFRACTIVE       => { :desc => proc { _INTL("It changes secondary type to that of the pulse moves it's about to use.") }, },
+  :REFRACTIVE       => { :desc => proc { _INTL("It changes secondary type to that of the light moves it's about to use.") }, },
   :SAPPER           => { :desc => proc { _INTL("Upon entry, traps each opponent in a sand tomb for one turn.") }, },
   :SHIFTINGFIST     => { :desc => proc { _INTL("It changes secondary type to that of the punching moves it's about to use.") }, },
   :SPEEDBOOST       => { :desc => proc { _INTL("Speed is raised by one step at the end of each of its turns.") }, },

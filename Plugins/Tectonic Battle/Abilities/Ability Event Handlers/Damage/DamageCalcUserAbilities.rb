@@ -62,8 +62,8 @@ BattleHandlers::DamageCalcUserAbility.add(:MEGALAUNCHER,
 
 =begin
 BattleHandlers::DamageCalcUserAbility.add(:REFRACTIVE,
-  proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck|
-    if move.lightMove?
+  proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck, backfire|
+    if move.lightMove? || backfire
       mults[:base_damage_multiplier] *= 1.3
       user.aiLearnsAbility(ability) unless aiCheck
     end
@@ -831,7 +831,7 @@ BattleHandlers::DamageCalcUserAbility.add(:SLINKY,
 )
 
 BattleHandlers::DamageCalcUserAbility.add(:TERRORIZE,
-  proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck|
+  proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck, backfire|
     mults[:base_damage_multiplier] *= 0.9
     user.aiLearnsAbility(ability) unless aiCheck
   }
