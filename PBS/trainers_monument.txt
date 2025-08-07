@@ -1281,7 +1281,7 @@ Pokemon = VOLCARONA,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,0,0,20,0,20
 Pokemon = ARBOK,70
-    Moves = POISONJAB,SUCKERPUNCH,OVERHEAT,VENOMGUARD
+    Moves = POISONJAB,SUCKERPUNCH,FLAMETHROWER,VENOMGUARD
     AbilityIndex = 1 # Constrictor
     Item = LEFTOVERS
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -1357,7 +1357,7 @@ Pokemon = ROSERADE,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 5,20,0,20,20,5
 Pokemon = RHYPERIOR,70
-    Moves = EARTHQUAKE,ADAMANTINEPRESS,LEAFSTORM,OVERHEAT
+    Moves = EARTHQUAKE,ADAMANTINEPRESS,LEAFSTORM,FLAMETHROWER
     AbilityIndex = 1 # Hard As
     Item = ASSAULTVEST
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def

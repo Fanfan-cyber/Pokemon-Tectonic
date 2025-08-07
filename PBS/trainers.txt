@@ -7472,7 +7472,7 @@ Pokemon = HGOODRA,60
 #-------------------------------
 [POKEMONRANGER_M,Alastar]
 Pokemon = ARBOK,60
-    Moves = GLARE,POISONJAB,THROATCHOP,OVERHEAT
+    Moves = GLARE,POISONJAB,THROATCHOP,FLAMETHROWER
     AbilityIndex = 0 # Intimidate
 Pokemon = FARIGIRAF,60
     Moves = PIERCINGDOUBT,FOULPLAY,HUMBLE,FLASHCANNON
