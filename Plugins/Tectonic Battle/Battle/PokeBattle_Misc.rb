@@ -29,6 +29,10 @@ class PokeBattle_Battle
         return pbSideSize(0) == 1 && pbSideSize(1) == 1
     end
 
+    def doubleBattle?
+        trainerBattle? && pbSideSize(0) == 2 && pbSideSize(1) == 2
+    end
+
     def pbSideSize(index)
         return @sideSizes[index % 2]
     end

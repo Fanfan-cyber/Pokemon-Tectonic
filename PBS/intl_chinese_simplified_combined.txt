@@ -33562,11 +33562,11 @@ The user dances to compel the target to mimic it, making the target's Ability th
 The user explodes to inflict damage on those around it. The user faints upon using this move.
 引发大爆炸，攻击自身周围所有的精灵。使用后自身会陷入濒死。
 The user rushes the target at blinding speed. This attack always goes before any other move.
-以肉眼难辨的速度突袭对手。必定先制攻击。
+以肉眼难辨的速度突袭对手。
 Doubles its power if the user has a non-volatile status condition. Ignores damage reduction from Burn or Frostbite.
 使用者处于异常状态时威力翻倍，无视烧伤/冻伤的伤害减小效果。
 An attack that hits first and makes the target flinch. It only works the first turn the user is in battle.
-进行先制攻击，使对手畏缩。要在出场后立刻使用才能成功。
+进行攻击并使对手畏缩。要在出场后立刻使用才能成功。
 The user flails about aimlessly to attack. It becomes more powerful the less HP the user has.
 抓狂般乱打进行攻击。自身的HP越少，技能的威力越大。
 Enables random critical hits for the user, and quadruples its critical hit chance.
@@ -33628,7 +33628,7 @@ The target is physically pounded with a long tail or a foreleg, etc.
 It enables the user to evade all attacks. It fails if used in succession.
 完全抵挡对手的攻击。连续使用则容易失败。
 The user lunges at the target at a speed that makes it almost invisible. It is sure to strike first.
-以迅雷不及掩耳之势扑向对手。必定能够先制攻击。
+以迅雷不及掩耳之势扑向对手。
 A spin attack that can also eliminate trapping and hazards afflicting your side. Also raises the user's Speed.
 一种旋转攻击，可以消除对我方的束缚和陷阱类效果。同时让使用者的速度增加1级。
 Restoring its own cells, the user restores its own HP by half of its max HP.
@@ -33762,7 +33762,7 @@ The target is attacked with a sharp chop. Can random critical hit.
 The user attacks the target's legs swiftly, reducing the target's Speed stat by two steps.
 以敏捷的动作瞄准对手的脚进行攻击。让对手的速度减小2级。
 The user throws a punch at blinding speed. It is certain to strike first.
-以迅雷不及掩耳之势出拳。必定能够先制攻击。
+以迅雷不及掩耳之势出拳。
 The user protects itself and allies from damaging moves. It only works the first turn the user is in battle.
 将掀起来的榻榻米当作盾牌，防住自身和队友免受技能伤害。只有进入战斗的第1回合可用。
 Attacks wildly with swords or fists. The user is exhausted on the next turn.
@@ -33788,7 +33788,7 @@ The user attacks the target with great power. This lowers the user's Attack and 
 The user kicks the target with lightning-like movement. It lowers the target's Defense by two steps.
 以雷电般的动作戏耍对手的同时使用脚踢。让对手的物防减小2级。
 The user whirls its fists to send a wave of pure vacuum at the target. This move always goes first.
-挥动拳头，掀起真空波。必定能够先制攻击。
+挥动拳头，掀起真空波。
 The user nimbly strikes the foe. Doubles in damage if the user has no item when the move starts.
 轻巧地攻击对手。自身没有携带物品时，会给予较大的伤害。
 The user confounds the foe with speed, then slashes. Can't miss and skips protections.
@@ -34024,7 +34024,7 @@ The user disappears, charging and becoming invulnerable, then strikes on the sec
 The user throws a punch from the shadows. The punch lands without fail.
 使用混影之拳。攻击必定会命中。
 The user extends its shadow and attacks the target from behind. This move always goes first.
-伸长影子，从对手的背后进行攻击。必定能够先制攻击。
+伸长影子，从对手的背后进行攻击。
 The user hides in the target's shadow, steals the target's stat boosts, and then attacks.
 潜入对手的影子进行攻击。会夺取对手增加的能力等级。
 The user attacks while also stitching the target's shadow to the ground to trap it.
@@ -34040,7 +34040,7 @@ The user becomes a gigantic shield and slams into the target.
 The user becomes a gigantic sword and cuts the target.
 变身为巨大的剑，挥斩对手。
 The user strikes the target with tough punches as fast as bullets. This move always goes first.
-向对手使用如子弹般快速而坚硬的拳头。必定能够先制攻击。
+向对手使用如子弹般快速而坚硬的拳头。
 Two turns after this move is used, the user blasts the target with a concentrated bundle of light.
 使用技能2回合后，会用无数道光线攻击对手。
 The user rotates, centering the hex nut in its chest, and then strikes twice. Each hit has a 30% chance to cause flinching.
@@ -34402,7 +34402,7 @@ The user swings and hits with its strong, heavy fist. Lowers the user's Speed by
 The target is punched with an icy fist. It has a 10% chance to frostbite.
 用充满寒气的拳头攻击对手。10%概率让对手陷入冻伤状态。
 The user flash freezes chunks of ice and hurls them at the target. This move always goes first.
-瞬间制作冰块，快速地扔向对手。必定能够先制攻击。
+瞬间制作冰块，快速地扔向对手。
 The user launches sharp icicles at the target. It multi-hits two to five times.
 使用者向目标发射锐利的冰柱。它会连续攻击2-5次。
 The user attacks with a gust of chilled air. It also lowers the targets' Speed stat by two steps.
@@ -34528,7 +34528,7 @@ The user strikes with a fierce blow of Dark Mastery. It always results in a crit
 The user raises the Defense and Sp. Def stats of an ally Pokémon by two steps using a mysterious aroma.
 使用者使用神秘的香气，使队友的双防增加2级。
 The user stares with its baby-doll eyes, which lowers the target's Attack stat by three steps. Always goes first.
-用圆瞳凝视对手，从而减小其攻击3级。必定能够先制攻击。
+用圆瞳凝视对手，从而减小其攻击3级。
 The user gazes charmingly at the target. The target's Attack is lowered by four steps.
 撅起小嘴，在对手面前装可爱。减小对手的物攻4级。
 The user protects itself and its allies from status moves with a mysterious power.
@@ -34650,7 +34650,7 @@ The user schemes to raise its Attack and Sp. Atk by two steps. During moonglow, 
 The user strikes while inviting the power of seasons. The user changes form to the next season.
 一边进行攻击，一边召唤季节的力量，并改变自身的形态。
 The user shouts with force at the target. This move always hits first.
-朝对手大声喊叫，必定能够先制攻击。
+朝对手大声喊叫。
 The user smirks with confidence. The Sp. Def of nearby enemies is lowered.
 自信地咧嘴一笑，使对方的特防减小1级。
 A barrage of star-shaped rays are shot at the opposing team that multi-hits two to five times. Can't miss and skips protections.
@@ -34788,7 +34788,7 @@ The user attacks with a pitch black fog. All of the target's stat changes are re
 The user stabs the opponent with a toxin-infused limb. It has a 10% chance to poison.
 注入毒素的肢体刺向对手。10%概率让对手陷入中毒状态。
 The user shoots the target with a dart made of poison. This move always goes first.
-使用毒药制成的飞镖攻击对手，必定能够先制攻击。。
+使用毒药制成的飞镖攻击对手。
 The user lays a hazard layer of poison spikes on the foe's side. One layer hurts switched in foes, two layers poisons.
 使用者在对手一侧放置一层毒菱。一层会使替换进入的对手受伤，两层会使对手中毒。
 The user attacks with cloying slime, rendering the target's item sticky and unusable.
@@ -34818,7 +34818,7 @@ The user whips up dirt at supersonic speeds, damaging everything around it.
 The user cracks the earth under the target with a massive strike. Lowers the user's Attack by four steps.
 以强大的一击打破地面，重创对手。但会使自身的物攻减小4级。
 Attacks by blasting dirt and debris at the target. This move always goes first in sandstorm.
-通过向目标喷射泥土和碎片进行攻击。在沙暴天气下必定能够先制攻击。。
+通过向目标喷射泥土和碎片进行攻击。
 Energy is sent through a conduit, erupting under the target. This move is also Psychic-type.
 能量以地脉为媒介，在对手下方爆发。这个技能也是超能属性的。
 The user propels itself forward with a wave of mud which also slams into the target. The user's speed is raised.
@@ -34924,7 +34924,7 @@ The user injects the target with an extremely painful bio-chemical. It has a 10%
 The user makes the target have an allergic reaction. This reduces their Speed by three steps.
 让对手发生过敏反应，使其速度减小3级。
 The user shoots out a quick flash of bioluminescence to damage the target. This move always goes first.
-使用者快速发射生物荧光攻击目标。必定能够先制攻击。
+使用者快速发射生物荧光攻击目标。
 The user crushes the target with a hardened carapace. It has a 30% chance to lower the target's Defense stat.
 使用者用坚硬的甲壳碾压目标。有30%的概率使目标的物防减小1级。
 The user attacks with a horrible clattering noise. It has a 20% chance to lower Sp. Def.
@@ -35048,7 +35048,7 @@ The user uses gunpowder to rocket at its foe. It has a 30% chance to raise its S
 The user becomes a pain train. It has a 20% chance to raise the user's Speed.
 使用者化身痛击列车。有20%的概率使速度增加1级。
 A reckless maneuver that forces the user to switch out if it misses. Always goes first.
-鲁莽的突袭技能，未命中时强制替换自身。必定先制攻击。
+鲁莽的突袭技能，未命中时强制替换自身。
 Inflicts physical or special damage, whichever deals more. Then, raises Attack or Sp. Atk, whichever wasn't used.
 是造成物理还是特殊类伤害，以伤害更高者为准，然后增加未使用的物攻或特攻1级。
 Conductive materials ensnare the target, trapping and damaging it for three turns.
@@ -35120,7 +35120,7 @@ The user ponders ancient wisdom, selecting three random status moves. You choose
 Charges by summoning sunshine for five turns, then overwhelms the foe with fiery light on the second turn.
 第1回合开启持续5回合的晴天，下1回合用灼热光芒压制对手。
 The user rushes the target at blazing-fast speed. This attack always goes before any other move.
-以极速突袭目标。此技能必定先制攻击。
+以极速突袭目标。
 The foe is engulfed in a firestorm, trapping and damaging it for three turns.
 对手被卷进火焰风暴中，被束缚并受到持续3回合的伤害。
 The target is dried out and loses Water-type. Then, it bursts into flame from the heat.
@@ -35140,7 +35140,7 @@ Raises Sp. Atk by three steps. Until switch out, the user's attacks spread to hi
 The user dances rapidly, emitting tropical heat. Any frostbitten Pokémon will be healed by this heat.
 进行快速的舞动，散发出热带能量，治愈所有精灵的冻伤。
 The user shoots the target with a small bolt of fire. This move always goes first.
-使用小火苗射击目标，必定能够先制攻击。
+使用小火苗射击目标，
 The user sets the target on fire, inflicting a burn.
 点燃对手，造成烧伤状态。
 If the target has a non-volatile status condition, this deals double damage and heals every battler's non-volatile status condition.
@@ -35214,7 +35214,7 @@ The user propels a geyser of water at the target. This lowers the user's Sp. Atk
 The user crashes into the target like a tsunami. The user also takes 33% recoil.
 像海啸一样向对手俯冲。自身也会受到33%的伤害。
 The user swims at the target at blinding speed. This attack always goes before any other move.
-以惊人的速度向对手游泳，必定先制攻击。
+以惊人的速度向对手游泳。
 The target is immersed in water. This has a 30% chance to waterlog.
 使目标被水淹没。有30%的概率使目标水浸。
 The user waterlogs the target, then welcomes in rainstorm for eight turns.
@@ -35312,7 +35312,7 @@ A parasitic seed leeches the target and reduces both its Attack and Sp. Atk.
 The user and the target each share their highest stat step with the other.
 与目标分享双方的最高能力变化等级。
 Attacks by gliding on the ground. This move always goes first in sunshine.
-通过在地面滑行进行攻击。在阳光下必定能够先制攻击。
+通过在地面滑行进行攻击。
 The user calms itself and its teammates, raise its Sp. Def by three steps, and its allies' by one.
 使用者安抚自身和队友，自身的特防增加3级，其队友的特防增加1级。
 A nutrient-draining attack. The user's HP is restored by 75% of the damage dealt.
@@ -35406,7 +35406,7 @@ The user slows the target's mind with a psychically infused blow. This has a 30%
 Splits off a section of the target's psyche. Disables their last used move for 5 turns.
 分裂目标的心灵，使其最后使用的技能在5回合内无法使用。
 Astral energy explodes around the target. This move always goes first. The user also takes 50% recoil.
-对手周围爆发出星体能量。必定能够先制攻击。但会受到50%的反伤。
+在对手周围爆发出星体能量进行攻击，会受到50%的反伤。
 By sacrificing half its total HP, the user makes the target fall asleep.
 使用者牺牲自身一半的最大HP，使目标陷入睡眠。
 The user's HP is restored by 50% of the damage dealt. Power doubles if the foe is asleep.
@@ -35426,7 +35426,7 @@ The user psychically modifies its own genes, transforming into either Overmatter
 The user dizzies the target, then welcomes in eclipse for eight turns.
 使用者使目标混乱，然后召唤8回合的日食。
 The user encourages the target to attack right after the user. Always goes first.
-鼓励对手在其之后立即发起攻击，必定能够先制攻击。
+鼓励对手在其之后立即发起攻击。
 The user conjures a giant fist to crush the target, trapping and damaging it for three turns.
 召唤出巨大的拳头来碾压对手，将其束缚并在接下来的3回合内受到伤害。
 The user grabs the target with a conjured hand, trapping and damaging it for three turns.
@@ -35446,7 +35446,7 @@ Lands without fail and lowers the user's Defense and Speed.
 This move raises all the user's stats by two steps. Can only be used while asleep.
 增加自身的所有能力值，但只能在睡眠中使用。
 The user employs hypnotic suggestion to make a dizzy target fall into a deep sleep.
-利用催眠暗示让晕眩的对手陷入沉睡。
+利用催眠暗示，让一个处于混乱的目标陷入睡眠。
 Unveiling its ears, the released psychic power causes the user to rampage and multi-hit two to five times for two turns.
 展开耳朵，释放出的超能力使使用者在连续2回合中陷入狂暴状态，每次连续攻击2-5次。
 Psychic energy assaults the foe and darkens the sky, summoning eclipse for 8 turns.
@@ -35562,7 +35562,7 @@ Exhales magical fumes with a 30% chance to burn or frostbite the target dependin
 Doubles target ally's Attack and Speed. However, if the user faints, so too does that ally.
 让队友的攻击和速度翻倍。但是如果自身倒下，那么队友也会倒下。
 The user inspires a sudden dread in the target, damaging it. This move always goes first.
-使对方突然感到恐惧，并造成伤害，必定能够先制攻击。
+使对方突然感到恐惧，并造成伤害。
 The user spits venom at the target. It has a 30% chance to poison.
 向对手喷射毒液。30%概率使对手中毒。
 The user shakes the target with a deep, rumbling roar. This attack does physical damage.
@@ -35686,7 +35686,7 @@ The user submerges the target in water, then bludgeons them repeatedly. This has
 The user sings with reckless abandon, annoying the target. There's a 30% chance they become dizzy.
 肆无忌惮地唱歌，袭扰对方，30%概率使其混乱。
 The user smacks the target and steals its item while it is stunned. Items stolen from wild Pokémon are stored.
-使用者拍打目标并趁其晕眩时偷走它的物品。从野生精灵那里偷来的物品将被储存起来。
+使用者拍打目标并偷走它的物品。从野生精灵那里偷来的物品将会被储存起来。
 The target is lulled to sleep. Can only be used during a Full Moon.
 使对手陷入睡眠状态。只有在满月期间才能使用。
 The target is pranked with a huge bucket of water. This has a 50% chance to waterlog it.
@@ -35712,7 +35712,7 @@ The user makes a fool out of the target. This has a 50% chance of jinxing them.
 The user plays with the target with unneccessary force. It has a 50% chance to lower Attack.
 使用者强行和目标玩耍，有50%概率减小目标的物攻1级。
 The user flashes colorful light to damage the target. This move always goes first.
-使用闪烁的七彩光芒攻击对手，必定能够先制攻击。
+使用闪烁的七彩光芒攻击对手。
 The user chucks a party favor which explodes in the target's face.
 扔出派对小礼物，使其在对方脸上爆炸。
 Power increases by 20 each time it's used in succession. User heals for half of damage dealt.
@@ -35726,7 +35726,7 @@ The user hopes for bad luck, jinxing the target. Attacks against them crit and p
 The user wields an exaggerated power to strike the target. Lowers the user's Attack by four steps.
 施展极其强大的力量打击对手。而自身的攻击会减小4级。
 The target is taunted by a deceptive look. It can't use status moves this or next turn. This move always goes first.
-利用欺骗眼神挑衅对手，使其本回合和下回合无法使用变化技能。必定能够先制攻击。
+利用欺骗眼神挑衅对手，使其本回合和下回合无法使用变化技能。
 The user leeches the target, then welcomes in moonglow for eight turns.
 使用者吸取目标的HP，然后召唤8回合的月辉。
 Enables random critical hits for the user, doubles its critical hit chance, and raises its Sp. Atk and Sp. Def by two steps.
@@ -35842,7 +35842,7 @@ The user applies a damaging curse to all nearby foes. User becomes a Ghost-type.
 Attackers against the user suffer recoil for the rest of the battle. User becomes Ghost-type.
 对使用者发动攻击的精灵在接下来的战斗中会受到反噬伤害。使用者变为幽灵属性。
 The user strikes the target with 3 punches like bullets. This move always goes first.
-连续三拳像子弹一样打向对手，必定能够先制攻击。
+连续三拳像子弹一样打向对手。
 The user becomes a pain train. This raises the user's Speed by 2 steps.
 使用者成为痛苦的火车头。这会使使用者的速度增加2级。
 The target is raked with steel claws twice. The user raises its attack after each hit.
@@ -38231,7 +38231,7 @@ If held by a Pokémon, it restores its HP if it is hit by any supereffective att
 If held by a Pokémon, it raises its Accuracy by four steps in a pinch.
 如果精灵携带它，在危急时刻会增加4级命中率。
 If held by a Pokémon, it gets to move first just once in a pinch.
-让精灵携带后，危机时，行动仅会变快1次。
+让精灵携带后，危机时，行动会变快1次。
 If held by a Pokémon and a physical attack hits it, the attacker takes 25% HP damage.
 让精灵携带后，在受到物理类技能攻击时，能给予对手伤害。
 If held by a Pokémon and a special attack hits it, the attacker takes 25% HP damage.
@@ -40261,7 +40261,7 @@ Changes between Blade and Shield Forme with attacks and King's Shield.
 Physical attacks against the Pokémon have a 30% chance to cause numbing.
 有30%概率让使用物理类技能攻击自身的对手麻痹。
 Powers up Steel-type moves by 50%.
-钢属性的技能威力增加50%。
+钢属性技能的威力增加50%。
 Powers up Steel-type moves of itself and its allies by 50%.
 自身和队友的钢属性技能的威力增加50%。
 Boosts the power of biting moves by 50%.
@@ -40325,7 +40325,7 @@ The Pokémon gains twice as many stats from leveling up.
 At the end of each turn in rainstorm, each Pokémon not immune to rainstorm has their Defense and Sp. Def lowered.
 在暴雨的每个回合结束时，每个不免疫暴雨的负面效果的精灵的双防减小1级。
 Powers up moves of the same type by 33%.
-本属性的技能威力增加33%。
+本属性技能的威力增加33%。
 After being hit, the Pokémon raises either Defense or Sp. Def based on the attack's category. Caps out at +4.
 被攻击击中后，精灵会根据攻击的类别增加双防中的一项。上限为+4。
 Raises Speed by four steps when its HP is lowered below half.
@@ -40566,6 +40566,8 @@ Repeats another Pokémon's sound and pulse moves immediately at 50% power.
 立即以50%的威力重复另一只精灵的声音类或者脉冲类技能。
 The Pokémon and its allies are protected from flinching, Intimidate, Fascinate, and Frustrate.
 自身及其队友受到保护，不会受到畏缩、威吓、震慑和阻挠的影响。
+Boosts the power of pulse moves by 30%.
+脉冲类技能的威力增加30%，治愈脉冲的回复效果增加30%。
 Uses Lightning Dance if an attack lowers its HP to half or below.
 被攻击使自身HP降到一半或更低，会使用闪电舞。
 Upon entry, creates an Emotion Room for four turns, switching Abilities every turn.
@@ -41311,7 +41313,7 @@ Boosts the power of sound moves by 30%. Sound moves ignore the target's modified
 Powers up Ground-type moves by 50%.
 地面属性技能的威力增加50%。
 Powers up moves of the same type by 50%.
-与自身同属性的技能威力会增加50%。
+本属性技能的威力增加50%。
 Takes half damage from Dark- and Bug-type moves.
 受到恶、虫属性技能攻击伤害减半。
 Before using a status move against a single foe, lowers their Defense by two steps.
@@ -51007,7 +51009,7 @@ The opposing {1} is reviving!
 {1}'s {2} was transferred to {3}!
 {1}的{2}转移到了{3}！
 {1}'s {2} let it move first!
-{1}的{2}让它优先使用技能！
+{1}的{2}让它率先使用技能！
 {1}'s {2} unchilled it!
 {1}的{2}治愈了寒冷！
 {1}'s {2} cured its numb!
@@ -53391,7 +53393,7 @@ Opponent has an illegal card, "{1}".
 Choosing the starting player...
 正在选择先手玩家...
 {1} will go first.
-{1}将先手。
+{1}将率先行动。
 {1} is making a move...
 {1}正在行动...
 {1} can't move somehow...

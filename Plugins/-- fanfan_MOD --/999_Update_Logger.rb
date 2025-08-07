@@ -185,7 +185,9 @@ disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
 22.现在因为烧尽的攻击而濒死的精灵所携带的树果或者宝石也会被烧掉了
 23.现在Cash Flow的精灵在自身HP处于一半以下时也会吃掉场上的金钱
 24.现在AI能够精确计算Cash Flow的分数了
-25.
+25.修复了Backfire对Emanation不生效的Bug
+26.修复了当精灵同时拥有Adapted和Ultra Adapted时，Ultra Adapted不会生效的Bug
+27.
 
 0.3.8
 1.修复了沙奈朵的Arcane Finale的不完美完胜效果失效的Bug

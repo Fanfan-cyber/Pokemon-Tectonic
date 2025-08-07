@@ -61,8 +61,8 @@ BattleHandlers::DamageCalcUserAbility.add(:MEGALAUNCHER,
 )
 
 BattleHandlers::DamageCalcUserAbility.add(:EMANATION,
-  proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck|
-    if move.pulseMove?
+  proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck, backfire|
+    if move.pulseMove? || backfire
       mults[:base_damage_multiplier] *= 1.3
       user.aiLearnsAbility(ability) unless aiCheck
     end
@@ -162,6 +162,7 @@ BattleHandlers::DamageCalcUserAbility.add(:KNUCKLEDUSTER,
     end
   }
 )
+
 =begin
 BattleHandlers::DamageCalcUserAbility.add(:SHIFTINGFIST,
   proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck, backfire|
@@ -172,6 +173,7 @@ BattleHandlers::DamageCalcUserAbility.add(:SHIFTINGFIST,
   }
 )
 =end
+
 BattleHandlers::DamageCalcUserAbility.add(:BRISK,
   proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck, backfire|
     if move.windMove? || backfire
@@ -324,14 +326,7 @@ BattleHandlers::DamageCalcUserAbility.add(:LIMINAL,
   }
 )
 
-BattleHandlers::DamageCalcUserAbility.add(:AFTERIMAGE,
-  proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck, backfire|
-    if target.effectActive?(:SwitchedIn) || backfire
-      mults[:attack_multiplier] *= 1.5
-      user.aiLearnsAbility(ability) unless aiCheck
-    end
-  }
-)
+BattleHandlers::DamageCalcUserAbility.copy(:LIMINAL, :AFTERIMAGE)
 
 BattleHandlers::DamageCalcUserAbility.add(:QUARRELSOME,
   proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck, backfire|
