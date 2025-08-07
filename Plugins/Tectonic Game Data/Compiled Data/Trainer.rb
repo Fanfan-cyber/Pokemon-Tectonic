@@ -138,6 +138,7 @@ module GameData
             trainerName = "#{@trainer_type} #{@real_name}"
             speciesData = GameData::Species.get_species_form(partyEntry[:species],partyEntry[:form] || 0)
             illegal_moves = []
+            hasStatusMove = false
             partyEntry[:moves]&.each do |moveID|
                 moveData = GameData::Move.get(moveID)
                 begin
@@ -152,13 +153,21 @@ module GameData
                     pbPrintException($!)
                     illegal_moves << moveID
                 end
+
+                hasStatusMove = true if moveData.status?
             end
             partyEntry[:moves]&.remove(illegal_moves)
 
+            statusBlockItem = false
             partyEntry[:item]&.each do |itemID|
                 itemData = GameData::Item.get(itemID)
                 next if itemData.legal?(true)
+                statusBlockItem = true if itemData.is_no_status_use?
                 raise _INTL("Illegal item #{itemID} assigned to a party member of trainer #{trainerName}!")
+            end
+
+            if hasStatusMove && statusBlockItem
+              echoln(_INTL("WARNING: Trainer #{trainerName}'s #{speciesData.species} knows a status move despite holding a status move blocking item."))
             end
         end
       end

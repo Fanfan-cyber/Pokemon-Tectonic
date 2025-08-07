@@ -1653,6 +1653,17 @@ Flags = CanProtect
 Description = Attacks by blasting dirt and debris at the target. This move always goes first in sandstorm.
 Animation = SANDATTACK
 #-------------------------------
+[GROUNDING]
+Name = Grounding
+Type = GROUND
+Category = Status
+Accuracy = 0
+TotalPP = 6
+Target = User
+FunctionCode = RaiseUserAtkSpDefAcc2
+Flags = CanSnatch
+Description = The user stabilizes its stance. This raises its Attack, Sp. Def, and Accuracy by two steps.
+#-------------------------------
 [LEYLINEBURST]
 Name = Leyline Burst
 Type = GROUND
@@ -3625,6 +3636,17 @@ Flags = CanProtect,Light
 Description = Charges by summoning sunshine for five turns, then overwhelms the foe with fiery light on the second turn.
 Animation = FIREBLAST
 #-------------------------------
+[BIRDSEYEVIEW]
+Name = Bird's-Eye View
+Type = FIRE
+Category = Status
+Accuracy = 0
+TotalPP = 6
+Target = User
+FunctionCode = RaiseUserSpAtkDefAcc2
+Flags = CanSnatch
+Description = The user takes an aerial look at the field. This raises its Sp. Atk, Defense, and Accuracy by two steps.
+#-------------------------------
 [BLAZINGSPEED]
 Name = Blazing Speed
 Type = FIRE
@@ -3751,6 +3773,17 @@ Flags = CanProtect,Dance
 EffectChance = 100
 Description = The user dances rapidly, emitting tropical heat. Any frostbitten Pokémon will be healed by this heat.
 Animation = HEATWAVE
+#-------------------------------
+[HOLDFIRE]
+Name = Hold Fire
+Type = FIRE
+Category = Status
+Accuracy = 0
+TotalPP = 6
+Target = User
+FunctionCode = RaiseUserSpAtkSpDefAcc2
+Flags = CanSnatch
+Description = The user pauses to plan its ranged attacks. This raises its Sp. Atk, Sp. Def, and Accuracy by two steps.
 #-------------------------------
 [HOTSHOT]
 Name = Hot Shot
@@ -3934,17 +3967,6 @@ Flags = CanProtect,Dance
 EffectChance = 100
 Description = Cloaked in flames, the user dances wildly, raising its Sp. Atk by two steps.
 Animation = FIERYDANCE
-#-------------------------------
-[STOREFUEL]
-Name = Store Fuel
-Type = FIRE
-Category = Status
-Accuracy = 0
-TotalPP = 6
-Target = User
-FunctionCode = RaiseUserSpAtkSpDefAcc2
-Flags = CanSnatch
-Description = The user conserves for future attacks. This raises its Sp. Atk, Sp. Def, and Accuracy by two steps.
 #-------------------------------
 [SUNSHINE]
 Name = Sunshine
@@ -4639,9 +4661,9 @@ Accuracy = 100
 TotalPP = 15
 Target = NearOther
 FunctionCode = RaiseUserSpAtk1
-Flags = CanProtect
+Flags = CanProtect,Pulse
 EffectChance = 20
-Description = The user attacks with the bursting power of nature. It has a 20% chance to raise user's Sp. Atk.
+Description = The user attacks with the essence of life. It has a 20% chance to raise user's Sp. Atk.
 Animation = ENERGYBALL
 #-------------------------------
 [ESSENCEARROW]
@@ -4653,9 +4675,9 @@ Accuracy = 100
 TotalPP = 30
 Target = NearOther
 FunctionCode = RaiseUserSpAtk1
-Flags = CanProtect
+Flags = CanProtect,Pulse
 EffectChance = 20
-Description = The user fires a small bolt of energy at the target. It has a 20% chance to raise user's Sp. Atk.
+Description = The user fires a bolt of life energy at the target. It has a 20% chance to raise user's Sp. Atk.
 Animation = ENERGYBALL
 #-------------------------------
 [FLASHSEED]
@@ -5539,7 +5561,7 @@ Animation = LOVELYKISS
 [DREAMABSORB]
 Name = Dream Absorb
 Type = PSYCHIC
-Category = Special
+Category = Adaptive
 Power = 60
 Accuracy = 100
 TotalPP = 12
@@ -5552,8 +5574,8 @@ Animation = DREAMEATER
 [DREAMFEAST]
 Name = Dream Feast
 Type = PSYCHIC
-Category = Physical
-Power = 60
+Category = Adaptive
+Power = 75
 Accuracy = 100
 TotalPP = 12
 Target = NearOther
@@ -5706,7 +5728,7 @@ Accuracy = 100
 TotalPP = 30
 Target = NearOther
 FunctionCode = LowerTargetSpDef1
-Flags = CanProtect
+Flags = CanProtect,Pulse
 EffectChance = 20
 Description = The target is hit by a weak telekinetic force. It has a 20% chance to lower the target's Sp. Def.
 Animation = CONFUSION
@@ -5870,7 +5892,7 @@ Accuracy = 100
 TotalPP = 15
 Target = NearOther
 FunctionCode = HitTwoToFiveTimes
-Flags = CanProtect
+Flags = CanProtect,Pulse
 Description = The user sends waves of cosmic energy to overwhelm the target's senses. Multi-hits two to five times.
 Animation = CONFUSION
 #-------------------------------
@@ -7121,14 +7143,12 @@ Animation = THIEF
 [PLANTDOUBT]
 Name = Plant Doubt
 Type = DARK
-Category = Special
-Power = 20
+Category = Status
 Accuracy = 100
-TotalPP = 15
+TotalPP = 10
 Target = NearOther
 FunctionCode = Leech
-Flags = CanProtect,Sound
-EffectChance = 100
+Flags = CanProtect,CanMagicCoat,Sound
 Description = The user entangles the target's mind with dark thoughts, leeching it.
 #-------------------------------
 [PROFANE]
