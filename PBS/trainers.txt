@@ -5904,9 +5904,9 @@ Pokemon = INDEEDEE,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,0,20,20
 Pokemon = PERSIAN,70
-    Moves = FAKEOUT,CHACHING,SWORDSDANCE,AERIALACE
+    Moves = FAKEOUT,CHACHING,SWORDSDANCE,PLAYROUGH
     AbilityIndex = 1 # All That Glitters
-    Item = NORMALGEM,FLYINGGEM
+    Item = NORMALGEM,FAIRYGEM
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 0,20,0,20,20,10
 Pokemon = MIMIKYU,70
