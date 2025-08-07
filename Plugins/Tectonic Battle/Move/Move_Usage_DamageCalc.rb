@@ -372,23 +372,31 @@ class PokeBattle_Move
         multipliers[:final_damage_multiplier] *= calc_stab(user, checkingForAI) if stabActive?(user, type, checkingForAI)
 
         # R.O.W.E.
-        offe = 0
-        user.ownerParty.each do |partyMember|
-            next unless partyMember
-            next if partyMember.fainted?
-            next if partyMember.personalID == user.personalID
-            next unless type && partyMember.hasType?(type)
-            offe += partyMember.mono_type? ? Settings::ROWE_STAB_OFF_MONO : Settings::ROWE_STAB_OFF
+        if type
+            offe = 0
+            user.ownerParty.each do |partyMember|
+                next unless partyMember 
+                next if partyMember.fainted?
+                next if partyMember.unique_id == user.unique_id
+                if partyMember.hasItem?(:CRYSTALVEIL)
+                    offe += Settings::ROWE_STAB_OFF_MONO if partyMember.itemTypeChosen == type
+                elsif partyMember.hasType?(type)
+                    offe += partyMember.mono_type? ? Settings::ROWE_STAB_OFF_MONO : Settings::ROWE_STAB_OFF
+                end
+            end
+            defe = 0
+            target.ownerParty.each do |partyMember|
+                next unless partyMember 
+                next if partyMember.fainted?
+                next if partyMember.unique_id == target.unique_id
+                if partyMember.hasItem?(:CRYSTALVEIL)
+                    defe += Settings::ROWE_STAB_DEF_MONO if partyMember.itemTypeChosen == type
+                elsif partyMember.hasType?(type)
+                    defe += partyMember.mono_type? ? Settings::ROWE_STAB_DEF_MONO : Settings::ROWE_STAB_DEF
+                end
+            end
+            multipliers[:base_damage_multiplier] *= (1.0 + (offe - defe) * 0.01)
         end
-        defe = 0
-        target.ownerParty.each do |partyMember|
-            next unless partyMember
-            next if partyMember.fainted?
-            next if partyMember.personalID == target.personalID
-            next unless type && partyMember.hasType?(type)
-            defe += partyMember.mono_type? ? Settings::ROWE_STAB_DEF_MONO : Settings::ROWE_STAB_DEF
-        end
-        multipliers[:base_damage_multiplier] *= (offe - defe) * 0.01 + 1.0
 
         # Type effectiveness
         typeMod = target.typeMod(type,target,self,checkingForAI)

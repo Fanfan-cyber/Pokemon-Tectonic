@@ -187,7 +187,8 @@ disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
 24.现在AI能够精确计算Cash Flow的分数了
 25.修复了Backfire对Emanation不生效的Bug
 26.修复了当精灵同时拥有Adapted和Ultra Adapted时，Ultra Adapted不会生效的Bug
-27.
+27.现在当精灵携带了Crystal Veil时，Stab会使用面纱的属性进行计算
+28.
 
 0.3.8
 1.修复了沙奈朵的Arcane Finale的不完美完胜效果失效的Bug
