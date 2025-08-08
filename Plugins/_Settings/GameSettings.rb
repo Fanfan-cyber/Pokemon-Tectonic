@@ -302,7 +302,7 @@ module Settings
       ["English", "english.dat"],
       ["Español", "spanish.dat"],
       ["Simplified Chinese", "chinese_simplified.dat"],
-      ["Traditional Chinese", "chinese_traditional.dat"],
+      #["Traditional Chinese", "chinese_traditional.dat"],
     ]
   
     #=============================================================================

@@ -21,14 +21,14 @@
 01里放入锦标赛截图
 =end
 
-MOD_VERSION  = "0.3.9"
-VERSION_NAME = ["Genesis Dawn", "初光伊临"]
+MOD_VERSION  = "0.4.0"
+VERSION_NAME = ["Resonance of Terra Nova", "伊甸序启"]
 
 CHANGE_LOG = <<-LOGGER
 #==============================================================================#
 Pokémon TectoQuake
 by Fanfan
-#{MOD_VERSION}
+#{MOD_VERSION} #{get_version_name}
 #==============================================================================#
 以下部分记录了此游戏相对于官方游戏的所有更改，但是只会记录可能会影响到玩家的更改，
 一些内部的和玩家无关的代码整理优化等，则不会记录在内。
@@ -160,6 +160,11 @@ customabil/nocustomabil，开启/关闭特性自选模式
 doublebattle/disabledouble，开启/关闭全双打模式
 disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
 
+0.4.0 Resonance of Terra Nova / 伊甸序启
+1.现在自动生成的文档中将会直接显示游戏的版本名
+2.现在游戏将不再提供正体中文语言
+3.
+
 0.3.9 Genesis Dawn / 初光伊临
 1.修复了锦标赛中Lambert的队伍发生异常的Bug
 2.现在游戏如果检测到玩家作弊，将会直接删除玩家的所有存档、清空所有成就，以及清除时间胶囊里的所有精灵
@@ -191,7 +196,6 @@ disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
 28.修复了Backfire对Evenhanded不生效的Bug
 29.现在能力等级自然恢复机制只有在精灵的能力等级可以被恢复时才会应用
 30.删除了下载的01 Earthquake压缩包的Screenshots文件夹中包含的0.3.7锦标赛的所有对手的队伍截图
-31.
 
 0.3.8
 1.修复了沙奈朵的Arcane Finale的不完美完胜效果失效的Bug
