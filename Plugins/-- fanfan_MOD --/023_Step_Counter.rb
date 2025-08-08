@@ -11,9 +11,14 @@ class PokeBattle_Battle
         next if counters.empty? # [[increment1, remaining1], [increment2, remaining2], [increment3, remaining3], ...]
         counters.each do |counter| # [increment1, remaining1]
           counter[1] -= 1
-          if counter[1] == 0
+          next unless counter[1] == 0
+          recoverable = counter[0] < 0 && !b.statStepAtMax?(stat) ||
+                        counter[0] > 0 && !b.statStepAtMin?(stat)
+          if recoverable
             b.steps[stat] -= counter[0]
             stat_changes[stat] += counter[0]
+          else
+            counter[1] += 1
           end
         end
         counters.reject! { |counter| counter[1] == 0 }

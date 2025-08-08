@@ -385,8 +385,8 @@ BattleHandlers::DamageCalcUserAbility.add(:MULTITASKER,
 )
 
 BattleHandlers::DamageCalcUserAbility.add(:EVENHANDED,
-  proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck|
-    if type == :FIGHTING
+  proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck, backfire|
+    if type == :FIGHTING || backfire
       mults[:attack_multiplier] *= 1.35
       user.aiLearnsAbility(ability) unless aiCheck
     end
