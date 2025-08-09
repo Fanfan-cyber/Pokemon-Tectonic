@@ -163,7 +163,9 @@ disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
 0.4.0 Resonance of Terra Nova / 伊甸序启
 1.现在自动生成的文档中将会直接显示游戏的版本名
 2.现在游戏将不再提供正体中文语言
-3.
+3.修复了Bed Time可以无限制使用的Bug
+4.修改了大量中文的翻译
+5.
 
 0.3.9 Genesis Dawn / 初光伊临
 1.修复了锦标赛中Lambert的队伍发生异常的Bug

@@ -11476,7 +11476,7 @@ So, this is goodbye. And, well, you know what that means.
 We’ll just be regular friends.
 我们只能做普通的朋友了。
 I’m gonna see you again, I know, but… we had like an arc together! We had an arc, and now it’s over. *sniff*
-我知道我会再见到你的，但是...我们本应一起冒险的故事，\一起为了正义而奋斗的故事，现在要结束了。*哭泣*
+我知道我会再见到你的，但是...我们本应一起冒险的故事，一起为了正义而奋斗的故事，现在要结束了。*哭泣*
 Aww, don’t tempt me. But, um, I kinda had my Pokémon tussle with Tamarind back there and they need to rest for now.
 哎呀，不要妄图诱惑我，我的精灵刚刚才和塔玛琳打了一架，它们现在需要休息。
 Maybe someday? Jeanne wants to kick your ass.
@@ -15435,7 +15435,7 @@ You notice a particularly large book with the title "1,000 Friends: A Kid's Guid
 Another child? Leave at once! If you don't, we won't hesitate to attack with our powerful Pokemon!
 又一个孩子？立刻离开！否则，我们将毫不犹豫地用我们强大的精灵攻击你
 A Type: Null is restrained against the wall.
-一只个属性：空被束缚在墙上。
+一只属性：空被束缚在墙上。
 It's hard to read its expression, but it's easy to see its pain through its helmet.
 虽然很难读懂它的表情，但能透过头盔看到它的痛苦。
 You spot a Pokeball nested under the Pokemon. It's probably the ball it was caught with.
@@ -30680,7 +30680,7 @@ Incarnate
 Kyurem
 酋雷姆
 Aria
-咏叹调
+歌声
 Genesect
 盖诺赛克特
 Meadow Pattern
@@ -30700,7 +30700,7 @@ Neutral Mode
 50%
 50%
 Hoopa Confined
-被束缚的胡帕
+被拘束的胡帕
 Baile Style
 芭蕾风格
 Midday
@@ -30718,9 +30718,9 @@ Ice Face
 Full Belly
 饱腹
 Hero of Many Battles
-战斗的英雄
+战斗英雄
 Single Strike
-单次打击
+一击流
 B
 B
 C
@@ -30954,7 +30954,7 @@ Active Mode
 Complete
 完整
 Unbound
-无束缚
+解放
 Pom-Pom Style
 绒球风格
 Pa'u Style
@@ -30968,41 +30968,41 @@ Dusk
 School
 学校
 Type: Fighting
-类型：格斗
+属性：格斗
 Type: Flying
-类型：飞行
+属性：飞行
 Type: Poison
-类型：毒
+属性：毒
 Type: Ground
-类型：地面
+属性：地面
 Type: Rock
-类型：岩石
+属性：岩石
 Type: Bug
-类型：虫
+属性：虫
 Type: Ghost
-类型：幽灵
+属性：幽灵
 Type: Steel
-类型：钢
+属性：钢
 Type: Unknown
-类型：未知
+属性：未知
 Type: Fire
-类型：火
+属性：火
 Type: Water
-类型：水
+属性：水
 Type: Grass
-类型：草
+属性：草
 Type: Electric
-类型：电
+属性：电
 Type: Psychic
-类型：超能
+属性：超能
 Type: Ice
-类型：冰
+属性：冰
 Type: Dragon
-类型：龙
+属性：龙
 Type: Dark
-类型：恶
+属性：恶
 Type: Fairy
-类型：妖精
+属性：妖精
 Red
 红色
 Orange
@@ -32851,7 +32851,7 @@ Cruel Whipblade
 Energy Ball
 能量球
 Essence Arrow
-能量束
+能量箭
 Flash Seed
 闪光种子
 Head Throw
@@ -33632,7 +33632,7 @@ It enables the user to evade all attacks. It fails if used in succession.
 The user lunges at the target at a speed that makes it almost invisible. It is sure to strike first.
 以迅雷不及掩耳之势扑向对手。
 A spin attack that can also eliminate trapping and hazards afflicting your side. Also raises the user's Speed.
-一种旋转攻击，可以消除对我方的束缚和陷阱类效果。同时让使用者的速度增加1级。
+一种旋转攻击，可以消除对我方的束缚和陷阱，同时让使用者的速度增加1级。
 Restoring its own cells, the user restores its own HP by half of its max HP.
 让全身的细胞获得再生，回复一半HP。
 The user recycles a held item that has been used in battle so it can be used again.
@@ -33958,7 +33958,7 @@ The user calls out its underlings to heal it. The user regains 60% of its max HP
 The user summons bugs to swarm the target, trapping and damaging it for three turns.
 在3回合内死缠烂打地进行攻击。在此期间对手将无法逃走。
 The user drains the target's blood. The user's HP is restored by 50% of the damage dealt.
-使用者吸取目标的血液。使用者恢复造成伤害的50%的HP。
+使用者吸取目标的血液。使用者回复造成伤害的50%的HP。
 The user makes a lunge at the target, attacking with full force. This lowers the target's Attack.
 使用者向目标猛扑，全力攻击。这会减小目标的物攻。
 Using its tough and impressive horn, the user rams into the target with no letup.
@@ -35730,7 +35730,7 @@ The user wields an exaggerated power to strike the target. Lowers the user's Att
 The target is taunted by a deceptive look. It can't use status moves this or next turn. This move always goes first.
 利用欺骗眼神挑衅对手，使其本回合和下回合无法使用变化技能。
 The user leeches the target, then welcomes in moonglow for eight turns.
-使用者吸取目标的HP，然后召唤8回合的月辉。
+使用者寄生目标，然后召唤8回合的月辉。
 Enables random critical hits for the user, doubles its critical hit chance, and raises its Sp. Atk and Sp. Def by two steps.
 使用者变得可以随机命中要害且命中要害概率翻倍，同时特攻和特防增加2级。
 The user causes an accident, damaging the target. This has a 30% chance of jinxing them.
@@ -45287,8 +45287,8 @@ Save downgraded to version {1}
 存档降级到版本{1}
 your party
 你的队伍
-storage box #{i}
-电脑箱子#{i}
+storage box {1}
+电脑箱子{1}
 the Time Capsule
 时间胶囊
 Your name?

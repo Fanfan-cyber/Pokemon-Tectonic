@@ -23,7 +23,7 @@ def eachPokemonInSave(save_data)
   for i in -1...storage.maxBoxes
     for j in 0...storage.maxPokemon(i)
       pokemon = storage.boxes[i][j]
-      yield pokemon,_INTL("storage box #{i}") if pokemon
+      yield pokemon, _INTL("storage box {1}", i) if pokemon
     end
   end
 
