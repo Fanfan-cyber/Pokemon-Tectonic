@@ -31297,7 +31297,7 @@ Flying Press
 Focus Blast
 真气弹
 Focus Punch
-真气拳
+集中拳
 Force Palm
 发劲
 High Jump Kick
@@ -32043,7 +32043,7 @@ Howl
 Hyperspace Fury
 异次元猛攻
 Jaw Lock
-紧咬不放
+颚锁
 Knock Off
 拍落
 Lash Out
@@ -34324,7 +34324,7 @@ The user shoots its psychic power from its eyes to attack. It has a 20% chance t
 Two turns after this move is used, a hunk of psychic energy attacks the target.
 在使用技能2回合后，向对手发送一团念力进行攻击。
 The user employs psychic power to average its unmodified Defense and Sp. Def stats with those of its target.
-使用者运用超能力，使其基础双防与目标的相等。
+使用者运用超能力，使其与目标的基础双防平分。
 The user faints. In return, the Pokémon taking its place will have its HP restored and non-volatile status conditions cured.
 使用者陷入濒死，替换上场的精灵会恢复HP并回复异常状态。
 The user emits a healing pulse which restores the target's HP by half of its max HP.
@@ -34508,7 +34508,7 @@ The user suppresses the target and makes its move go last.
 The user yells as if it is ranting about something, lowering the target's Sp. Atk by two steps.
 没完没了地大声斥责，从而大幅度减小对手的特攻。
 The user steals the effects of any healing or stat-changing move the foe attempts to use.
-将对手打算使用的回复技能或能力变化技能夺为己用。
+将对手打算使用的回复技能或能力变化类技能夺为己用。
 This move enables the user to attack first. It fails if the target is not readying an attack, however.
 可以比对手先攻击。对手使用的技能如果不是攻击技能则会失败。
 The user trades held items with the target faster than the eye can follow.
@@ -34532,7 +34532,7 @@ The user stares with its baby-doll eyes, which lowers the target's Attack stat b
 The user gazes charmingly at the target. The target's Attack is lowered by four steps.
 撅起小嘴，在对手面前装可爱。减小对手的物攻4级。
 The user protects itself and its allies from status moves with a mysterious power.
-使用神奇的力量防住攻击我方的变化技能。
+使用神奇的力量防住攻击我方的变化类技能。
 The user emits a powerful damaging flash. It has a 40% chance to lower Sp. Atk.
 使用者发出一道强大的闪光造成伤害。有40%的概率使特攻减小1级。
 The user decorates the target, raising their Attack and Sp. Atk by five steps.
@@ -35116,7 +35116,7 @@ The user drags the target into the water with a heavy anchor. They become waterl
 Welds heavy steel onto the target, giving it the Steel type and reducing its Speed by four steps.
 将重型钢材焊在目标身上，使其获得钢属性并减小速度4级。
 The user ponders ancient wisdom, selecting three random status moves. You choose which one it uses.
-思考古代的智慧，随机从三个变化技能中选择一个进行使用。
+思考古代的智慧，随机从三个变化类技能中选择一个进行使用。
 Charges by summoning sunshine for five turns, then overwhelms the foe with fiery light on the second turn.
 第1回合开启持续5回合的晴天，下1回合用灼热光芒压制对手。
 The user takes an aerial look at the field. This raises its Sp. Atk, Defense, and Accuracy by two steps.
@@ -35358,7 +35358,7 @@ The user dances to restore an ally by half of their max HP. They're cured of any
 Deals 50% more damage if faster than the target. Lowers the user's Speed.
 如果自身速度快于对手，则威力增加50%。但使用后会减小自身的速度。
 The target is pranked by an electric jolt. They are taunted and unable to use status moves for three turns.
-对手受到恶作剧电击，使其受到挑衅效果，在3回合内无法使用变化技能。
+对手受到恶作剧电击，使其受到挑衅效果，在3回合内无法使用变化类技能。
 The user strikes the enemy while coated with electricity. It has a 10% chance to numb.
 带着电光撞向对手。10%概率让对手陷入麻痹状态。
 Electricity is generated to beam intense light directly at the target. This has a 30% chance to numb.
@@ -35380,7 +35380,7 @@ A weak electric jolt is launched to numb the target.
 The user slices with claws of light that have a 50% chance to numb. Can random critical hit.
 利用光之爪进行斩击，50%概率使对手麻痹。容易命中要害。
 Protects the user's side from status moves this turn. It disables any moves blocked for three turns.
-保护自身和队友此回合免疫变化技能，此回合阻挡成功的技能，将在3回合内无法使用。
+保护自身和队友此回合免疫变化类技能，此回合阻挡成功的技能，将在3回合内无法使用。
 The target is struck with an electric current and multi-hit two to five times. Has a 10% chance to numb.
 目标被电流击中，连续攻击2-5次。有10%的概率使目标麻痹。
 This move creates a directional magnetic field which reduces damage from attacks with 100 or more base power for five turns.
@@ -35728,7 +35728,7 @@ The user hopes for bad luck, jinxing the target. Attacks against them crit and p
 The user wields an exaggerated power to strike the target. Lowers the user's Attack by four steps.
 施展极其强大的力量打击对手。而自身的攻击会减小4级。
 The target is taunted by a deceptive look. It can't use status moves this or next turn. This move always goes first.
-利用欺骗眼神挑衅对手，使其本回合和下回合无法使用变化技能。
+利用欺骗眼神挑衅对手，使其本回合和下回合无法使用变化类技能。
 The user leeches the target, then welcomes in moonglow for eight turns.
 使用者寄生目标，然后召唤8回合的月辉。
 Enables random critical hits for the user, doubles its critical hit chance, and raises its Sp. Atk and Sp. Def by two steps.
@@ -37825,9 +37825,9 @@ A held item. In battles, it sets the holder's base Sp. Atk stat to 120.
 A very light stone. It reduces the weight of a Pokémon when held.
 一块轻石头，携带后可以减轻精灵的重量。
 An item to be held by a Pokémon. It raises Sp. Def by 50% but prevents the use of status moves.
-携带该物品的精灵的特防增加50%，但是无法使用变化技能。
+携带该物品的精灵的特防增加50%，但是无法使用变化类技能。
 An item to be held by a Pokémon. It raises Defense by 50% but prevents the use of status moves.
-携带该物品的精灵的物防增加50%，但是无法使用变化技能。
+携带该物品的精灵的物防增加50%，但是无法使用变化类技能。
 An item to be held by a Pokémon. Its Attack and Sp. Atk raise by four steps if hit by a move it's weak to.
 被针对弱点时，双攻就会增加4级。
 When held, it boosts Speed by two steps when intimidated, fascinated, or frustrated once per battle.
@@ -39624,7 +39624,7 @@ Rain Prism
 Ram Prow
 威风凛凛
 Rattle 'Em
-震耳欲聋
+震魂咆哮​
 Razor's Edge
 刀锐利刃
 Realist
@@ -40153,7 +40153,7 @@ Immune to non-volatile status conditions while in sunshine.
 Immune to Ground-type moves. Immune to grounded hazards.
 免疫地面属性技能。免疫地面上的各种陷阱。
 Reflects enemy status moves that target the Pokémon or create hazards around it.
-可以不受到由对手使用的变化技能或者陷阱的影响，并将其反弹。
+可以不受到由对手使用的变化类技能或者陷阱的影响，并将其反弹。
 The Pokémon only takes damage from attacks.
 不会受到攻击以外的伤害。
 Steals the held item of a Pokémon it hits.
@@ -40551,7 +40551,7 @@ Immune to Dragon-type moves. Deals double damage to Dragon-types.
 Upon entry during eclipse, lowers foe's Attack and Sp. Atk by two steps.
 在日食入场时，让对手的双攻减小2级。
 Raises Sp. Atk by two steps whenever any battler falls asleep.
-每当有一只精灵在战斗中陷入睡眠，大幅度增加自身特攻。
+每当有一只精灵在战斗中陷入睡眠，自身的特攻增加2级。
 If an attack lowers its HP to half or less, the attacker becomes drowsy.
 如果攻击将对手的HP削减到一半或更低，使其进入瞌睡状态。
 Move damage that's decreased by rainstorm is decreased twice as much.
@@ -40563,11 +40563,11 @@ Speed is doubled on the first turn.
 Whenever it uses a status move, becomes energized, doubling the power of its next Electric-type attack.
 使用变化类技能时会进入充电状态，下次电属性技能威力翻倍。
 Boosts power of the Pokémon's sound-based moves by 50%.
-精灵声音类技能的威力增加50%。
+声音类技能的威力增加50%。
 In sandstorm, the Pokémon's Attack is boosted by 30%.
 在沙暴中，精灵的物攻增加30%。
 If its stats would be changed, instead they're changed half as much in the opposite direction (rounded up).
-当能力发生变化时，会朝相反方向变化一半（四舍五入）。
+当能力等级改变时，会朝相反方向变化一半。
 Repeats another Pokémon's sound and pulse moves immediately at 50% power.
 立即以50%的威力重复另一只精灵的声音类或者脉冲类技能。
 The Pokémon and its allies are protected from flinching, Intimidate, Fascinate, and Frustrate.
@@ -40907,7 +40907,7 @@ Boosts the Pokémon's Speed by 50% in sandstorm or hail.
 Boosts Attack by 50% if it used a special move last turn, or boosts Sp. Atk if physical.
 在上回合使用特殊类技能后增加攻击，使用物理类技能后增加特攻。
 Using a status move in moonglow extends the weather by a turn.
-在月辉下使用变化技能会增加1回合天气。
+在月辉下使用变化类技能会增加1回合天气。
 Powers up the Pokémon's Dark-type moves by 50% in sunshine.
 在阳光下，精灵的恶系技能威力增加50%。
 Slips past hazards. Takes one third less damage if it switched in this turn.
@@ -41133,13 +41133,13 @@ Upon entry during sandstorm, lowers foe's Attack and Sp. Atk by two steps.
 Moves used on the Pokémon are disabled for two turns.
 对此精灵使用的技能将失效两回合。
 When targeted by a status move, the offending Pokémon becomes poisoned.
-对手对自身使用变化技能后会陷入中毒状态。
+对手对自身使用变化类技能后会陷入中毒状态。
 Special moves have a 30% chance to leech targets.
 特殊类技能30%概率使对方被寄生。
 Boosts one defending stat by two steps according to the foe's Attack and Sp. Atk.
 根据对手的双攻，增加物防或者特防2级。
 Takes 25% less damage while using a status move.
-在使用变化技能时受到的伤害减小25%。
+在使用变化类技能时受到的伤害减小25%。
 Boosts Attack by 20% in hail, or 40% if also below half health.
 在冰雹天气中，物攻增加20%，若同时生命值低于一半则增加40%。
 Its attacks are critical against numbed targets.
@@ -41357,7 +41357,7 @@ At the end of each turn, itself and each ally heals for 1/16th of their HP.
 The Pokémon's attacks are always critical if there is an active Room.
 若场上存在空间，则总能命中要害。
 Negates enemy status moves that target the Pokémon or create hazards around it.
-可以使对手的以自身为目标或在其周围布置阱陷的变化技能无效。
+可以使对手的以该精灵为目标或在该精灵周围布置陷阱的变化类技能无效。
 Double Sp. Def in eclipse.
 日食天气时，特防翻倍。
 Boosts Speed by 50% in rainstorm. Can't miss during rainstorm.
@@ -44758,7 +44758,7 @@ Light
 Move {1} is defined as a Status move with a non-zero base damage.<<n>>{2}
 技能{1}被定义为具有非零基础伤害的状态技能。<<n>>{2}
 Warning: Move {1} was defined as a Damaging move but had a base damage of 0. Changing it to a Status move.<<n>>{2}
-警告：技能{1}被定义为伤害技能，但基础伤害为0。正在将其更改为状态技能。<<n>>{2}
+警告：技能{1}被定义为伤害类技能，但基础伤害为0。正在将其更改为状态技能。<<n>>{2}
 Move ID '{1}' is used twice.<<n>>{2}
 技能ID'{1}'被重复使用了。<<n>>{2}
 A class for the move function code #{moveFunction} given for move #{move_hash<<[>>:id<<]>>}<<n>>does not exist!<<n>>{1}
@@ -45796,7 +45796,7 @@ These have no effect on battle. They're just for fun!
 To customize your stats, adjust Style Points in any PokéCenter.
 要定制你的能力风格，可以在任何精灵中心调整风格点数。
 Stats can be changed during battle by 'stat steps'.
-战斗中可通过“变化技能”改变能力等级。
+战斗中可通过“变化类技能”改变能力等级。
 A step is a small change! At +1 steps, only 25% is added to the stat.
 每1级的变化都很小，+1时只有25%的属性加成。
 Check the Info menu to see the active steps and their effects on the battlers.
@@ -49100,7 +49100,7 @@ But a live wire already sits near {1}!
 {1} is hungry for destruction!
 {1}渴望毁灭！
 {1} is honorable! Status moves lose priority!
-{1}气宇轩昂！变化技能失去了先制度！
+{1}气宇轩昂！变化类技能失去了先制度！
 {1} is a killjoy! Stats can't be raised!
 {1}是个扫兴鬼！没有精灵可以增加能力等级！
 {1} is a bad influence! Healing is reversed!
@@ -49724,7 +49724,7 @@ Items can't be used here.
 Your foe was <imp>ambushed</imp>! You get a free turn!
 你的对手被<imp>击溃</imp>了！你获得了自由的回合！
 {1} predicts that {2} will use a status move!
-{1}预测到{2}将会使用变化技能！
+{1}预测到{2}将会使用变化类技能！
 {1} predicts that {2} will use an attack!
 {1}预测到{2}将发起攻击！
 {1} predicts that {2} will switch out!
@@ -50282,7 +50282,7 @@ The {1} weakened the damage to {2}!
 {1} can't use {2} after being barred!
 {1}不能使用{2}，因为被禁止了！
 The effects of the {1} prevent status moves from being used!
-{1}使得变化技能无法使用！
+{1}使得变化类技能无法使用！
 {1} cannot use moves of their own types!
 {1}不能使用自身属性的技能！
 {1} can't use the same type twice in a row due to the turbulent sky!
@@ -50350,7 +50350,7 @@ The bubble barrier bursts, harming {1}!
 {1} took its attacker down with it!
 {1}和对手同归于尽了！
 {1} copies {2}'s stat increases with its {3}!
-{1}复制{2}的能力变化随着{3}增加！
+{1}用{3}复制了{2}的能力等级增加！
 {1} resets {2}'s stats with its {3}!
 {1}用{3}重置了{2}的状态！
 Battle effect #{@id} defines increment proc when its not an integer.
@@ -50566,7 +50566,7 @@ No moves barred! {1} can use off-type moves again!
 {1} was freed from the tentacle hold!
 {1}成功挣脱了！
 {1} is considered to have chosen a status move this turn.
-{1}被视为选择了变化技能。
+{1}被视为选择了变化类技能。
 {1} is considered to have chosen an attacking move this turn.
 {1}被视为选择了攻击技能。
 {1} is considered to have transformed its type this turn.
@@ -51190,7 +51190,7 @@ Style Points are numbers which have an effect on your Pokemon's stats.
 Pokemon start with 10 Style Points in each of their stats.
 精灵的每个属性都从10风格点数开始。
 To add Style Points to a stat, you have to remove them from another.
-要为一个属性增加风格点数，你必须从另一个属性中移除它们。
+要为一项能力增加风格点数，你必须从另一项能力中移除它们。
 Investing into Attack and Sp. Atk is extra efficient: they go up at the same time!
 投资于双攻特别有效：它们会同时增加！
 Each stat's Style Points value can go as low as 0, and can go as high as 20.
@@ -61119,7 +61119,7 @@ Must Use
 Endure
 忍耐
 Fight Forever
-永远战斗
+永恒战斗
 First Pledge
 首次承诺
 Flinch
@@ -61129,27 +61129,27 @@ Crit Chance Up
 Focus Punch
 集中拳
 Follow Me
-跟随我
+看我嘛
 Ability Surpressed
 特性被压制
 Gem Consumed
 宝石被消耗
 Empowering Herb Consumed
-力量草药被消耗
+力量香草被消耗
 Skill Herb Consumed
-技能草药被消耗
+技巧香草被消耗
 Luck Herb Consumed
-幸运草药被消耗
+幸运香草被消耗
 Mirror Herb Consumed
-镜像草药被消耗
+镜面香草被消耗
 Mirror Herb Copied Stats
-镜像草药复制了属性
+镜面香草复制了能力等级
 Paradox Herb Consumed
-悖论草药被消耗
+矛盾香草被消耗
 Grudge
-怨恨
+怨念
 Healing Blocked
-治疗被阻止
+回复禁止
 Helping Hand
 助力
 Lucky Cheer
@@ -61157,17 +61157,17 @@ Lucky Cheer
 Spotting
 发现
 Recharging
-充电
+僵直
 Attached
 附加
 Attached To
 附加到
 Illusion
-幻象
+幻觉
 Moves Imprisoned
-技能被囚禁
+技能被封印
 Ingrained
-根深蒂固
+扎根
 Evil Roots
 邪恶之根
 Deeply Ingrained
@@ -61325,11 +61325,11 @@ Drowsy
 Choice Locking
 选择锁定
 Stats Raised
-属性增加
+能力等级增加
 Stats Dropped
-属性减小
+能力等级减小
 Burning Jealousy
-燃烧的嫉妒
+妒火
 Jaw Lock
 颚锁
 Jaw Locker

@@ -253,7 +253,8 @@ user.pbThis(true)))
                 @battle.pbCommonAnimation("UseItem", opp)
                 @battle.pbDisplay(_INTL("{1} resets {2}'s stats with its {3}!", opp.pbThis, user.pbThis(false), getItemName(:PARADOXHERB)))
                 @battle.pbAnimation(:REFRESH, user, nil)
-                user.resetStatSteps
+                #user.resetStatSteps
+                user.pbResetStatSteps
                 opp.consumeItem(:PARADOXHERB)
                 opp.disableEffect(:ParadoxHerbConsumed)
             end

@@ -198,6 +198,8 @@ class PokeBattle_Battle
     end
 
     def pbCommandPhase
+        ai_update_items
+
         @scene.pbBeginCommandPhase
 
         # Reset choices if commands can be shown
@@ -301,6 +303,8 @@ class PokeBattle_Battle
     end
 
     def pbExtraCommandPhase(is_pre_switch = false)
+        ai_update_items
+
         @scene.pbBeginCommandPhase
         # Reset choices if commands can be shown
         @battlers.each_with_index do |b, i|

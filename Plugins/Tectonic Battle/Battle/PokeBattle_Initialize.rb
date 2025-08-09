@@ -190,15 +190,7 @@ class PokeBattle_Battle
         ai_update_moves
 
         # System for learning the player's items
-        @knownItems = {}
-        echoln("===PARTY 1 KNOWN ITEMS===")
-        @party1.each do |pokemon|
-            initializeKnownItems(pokemon)
-        end
-        echoln("===PARTY 2 KNOWN ITEMS===")
-        @party2.each do |pokemon|
-            initializeKnownItems(pokemon)
-        end
+        ai_update_items
 
         # Set all moves to their max PP
         # and apply tribal bonuses to max PP
@@ -228,11 +220,23 @@ class PokeBattle_Battle
         end
     end
 
+    def ai_update_items
+        @knownItems = {}
+        echoln("===PARTY 1 KNOWN ITEMS===")
+        @party1.each do |pokemon|
+            initializeKnownItems(pokemon)
+        end
+        echoln("===PARTY 2 KNOWN ITEMS===")
+        @party2.each do |pokemon|
+            initializeKnownItems(pokemon)
+        end
+    end
+
     def initializeKnownItems(pokemon)
         knownItemsArray = []
         @knownItems[pokemon.personalID] = knownItemsArray
         pokemon.items.each do |item|
-            next # TO DO
+            #next # TO DO
             knownItemsArray.push(item)
             echoln("Pokémon #{pokemon.name}'s item #{getItemName(item)} is known by the AI")
         end

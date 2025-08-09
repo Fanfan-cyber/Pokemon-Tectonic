@@ -165,7 +165,9 @@ disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
 2.现在游戏将不再提供正体中文语言
 3.修复了Bed Time可以无限制使用的Bug
 4.修改了大量中文的翻译
-5.
+5.现在AI会知道玩家的所有精灵携带的所有物品了
+6.修复了Paradox Herb和能力等级自然恢复异常互动的Bug
+7.
 
 0.3.9 Genesis Dawn / 初光伊临
 1.修复了锦标赛中Lambert的队伍发生异常的Bug
