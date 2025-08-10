@@ -216,8 +216,8 @@ class PokeBattle_Battle
         moves.each do |move|
             # next if !pokemon.boss? && aiAutoKnowsMove?(move,pokemon)
             @knownMoves[pokemon.personalID].push(move.id)
-            echoln("Pokémon #{pokemon.name}'s move #{move.name} is known by the AI")
         end
+        echoln("[MOVE UPDATE] #{pokemon.name} => #{moves.map(&:name)}")
     end
 
     def ai_update_items
@@ -238,8 +238,8 @@ class PokeBattle_Battle
         pokemon.items.each do |item|
             #next # TO DO
             knownItemsArray.push(item)
-            echoln("Pokémon #{pokemon.name}'s item #{getItemName(item)} is known by the AI")
         end
+        echoln("[ITEM UPDATE] #{pokemon.name} => #{pokemon.items.map { |item| getItemName(item) }}")
     end
 
     def aiAutoKnowsMove?(move,pokemon)
