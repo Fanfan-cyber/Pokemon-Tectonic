@@ -314,9 +314,9 @@ class PokeBattle_Battle
         rescue NoMethodError, StandardError
             pbMessage(_INTL("\\wmA major error has occured! Please screen-shot the following error message and share it in our bug channel."))
             pbPrintException($!)
-            pbMessage(_INTL("\\wmRather than crashing, we will give the victory to you."))
-            pbMessage(_INTL("\\wmPlease don't abuse this functionality."))
-            @decision = 1
+            #pbMessage(_INTL("\\wmRather than crashing, we will give the victory to you."))
+            #pbMessage(_INTL("\\wmPlease don't abuse this functionality."))
+            @decision = 2
             @scene.pbEndBattle(@decision)
         end
 

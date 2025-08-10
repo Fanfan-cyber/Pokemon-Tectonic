@@ -198,9 +198,30 @@ BattleHandlers::AbilityOnSwitchIn.add(:AURABREAK,
 
 BattleHandlers::AbilityOnSwitchIn.add(:COMATOSE,
   proc { |ability, battler, battle, aiCheck|
-      next 0 if aiCheck
+      snoozefest = battler.hasActiveAbility?(:SNOOZEFEST)
+      if snoozefest
+          score = 0
+          battlers = []
+          battler.eachOther do |b|
+              next unless b.canSleep?(battler, false)
+              next if b.effectActive?(:Yawn)
+              if b.opposes?(battler.index)
+                  score += getSleepEffectScore(battler, b) - 60
+              else
+                  score -= getSleepEffectScore(battler, b) - 60 
+              end
+              battlers << b
+          end
+          next score if aiCheck
+      else
+          next 0 if aiCheck
+      end
       battle.pbShowAbilitySplash(battler, ability)
       battle.pbDisplay(_INTL("{1} is drowsing!", battler.pbThis))
+      if snoozefest && battlers.any?
+          battle.pbShowAbilitySplash(battler, :SNOOZEFEST)
+          battlers.each { |b| b.applyEffect(:Yawn, 2) }
+      end
       battle.pbHideAbilitySplash(battler)
   }
 )

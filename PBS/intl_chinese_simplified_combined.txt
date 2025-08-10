@@ -33530,7 +33530,7 @@ The user helps the target and makes it use its move right after the user.
 The user hurriedly and randomly uses a move among those known by other Pokémon in the party.
 向我方紧急求助，从我方精灵已学会的技能中随机使用1个。
 The user maximizes its Attack stat in exchange for HP equal to half its max HP.
-将自身的HP减小到最大HP的一半，从而使自身的物攻增加到最大。
+将自身的HP减小最大HP的一半，从而使自身的物攻增加到最大。
 The user passes its held item to the target when the target isn't holding an item.
 当对手未携带物品时，能够将自身携带的物品交给对手。
 The user endures attacks for two turns, then strikes back to cause double the damage taken.
@@ -39752,7 +39752,7 @@ Sluggish
 Slumbering Drake
 睡鸭
 Snoozefest
-狂欢派对
+睡眠派对
 Snow Shroud
 雪蔽
 Solar Cell

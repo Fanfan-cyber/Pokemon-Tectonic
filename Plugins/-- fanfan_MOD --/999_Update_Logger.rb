@@ -19,10 +19,11 @@
 存在满血复活的技能 草蛋
 增加锦标赛队伍
 重修AI学习系统（不再需要学习）
+重修电脑盒子代码，以及图片显示代码
 =end
 
 MOD_VERSION  = "0.4.0"
-VERSION_NAME = ["Resonance of Terra Nova", "伊甸序启"]
+VERSION_NAME = ["Resonance of Terra Nova", "望新序启"]
 
 CHANGE_LOG = <<-LOGGER
 #==============================================================================#
@@ -160,14 +161,16 @@ customabil/nocustomabil，开启/关闭特性自选模式
 doublebattle/disabledouble，开启/关闭全双打模式
 disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
 
-0.4.0 Resonance of Terra Nova / 伊甸序启
+0.4.0 Resonance of Terra Nova / 望新序启
 1.现在自动生成的文档中将会直接显示游戏的版本名
 2.现在游戏将不再提供正体中文语言
 3.修复了Bed Time可以无限制使用的Bug
 4.修改了大量中文的翻译
 5.现在AI会知道玩家的所有精灵携带的所有物品了
 6.修复了Paradox Herb和能力等级自然恢复异常互动的Bug
-7.
+7.现在Snoozefest回合绝对睡眠正确互动了
+8.现在如果在战斗中发生了使游戏崩溃的Bug，补偿机制将不会再把胜利判给玩家
+9.
 
 0.3.9 Genesis Dawn / 初光伊临
 1.修复了锦标赛中Lambert的队伍发生异常的Bug
