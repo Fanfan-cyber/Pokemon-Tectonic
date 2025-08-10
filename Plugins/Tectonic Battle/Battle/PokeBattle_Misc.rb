@@ -278,6 +278,7 @@ class PokeBattle_Battle
 
     # If given an array, returns true if the AI knows of ANY of the listed abilities
     def aiKnowsAbility?(pokemon,checkAbility)
+        return true
         knownAbilitiesOfMon = @knownAbilities[pokemon.unique_id]
         return false if knownAbilitiesOfMon.nil?
         if checkAbility.is_a?(Array)
@@ -291,6 +292,7 @@ class PokeBattle_Battle
     end
 
     def aiLearnsItem(battler, item)
+        return # dont need to learn anymore
         return unless battler.pbOwnedByPlayer?
         return if @knownItems[battler.pokemon.personalID].include?(item)
         @knownItems[battler.pokemon.personalID].push(item)
@@ -299,6 +301,7 @@ class PokeBattle_Battle
 
     # If given an array, returns true if the AI knows of ANY of the listed abilities
     def aiKnowsItem?(pokemon,checkItem)
+        return true
         knownItemsOfMon = @knownItems[pokemon.personalID]
         return false if knownItemsOfMon.nil?
         if checkItem.is_a?(Array)
@@ -338,7 +341,7 @@ class PokeBattle_Battle
     end
 
     def predictable?(predictor,idxBattler)
-        return false unless predictor.ownersPolicies.include?(:PREDICTS_PLAYER)
+        return false unless predictor.ownersPolicies.include?(:PREDICTS_PLAYER) || Settings::AI_PREDICT
         return false unless @battlers[idxBattler].pbOwnedByPlayer?
         return false unless @predictedActions[idxBattler]
         return true

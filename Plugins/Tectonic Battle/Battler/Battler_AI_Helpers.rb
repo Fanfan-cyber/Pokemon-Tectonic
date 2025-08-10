@@ -96,7 +96,7 @@ class PokeBattle_Battler
         knownMoveIDs = @battle.aiKnownMoves(@pokemon)
         getMoves.each do |move|
             next unless move
-            next if pbOwnedByPlayer? && !knownMoveIDs.include?(move.id)
+            #next if pbOwnedByPlayer? && !knownMoveIDs.include?(move.id)
             yield move
         end
     end
@@ -106,7 +106,7 @@ class PokeBattle_Battler
         knownMoveIDs = @battle.aiKnownMoves(@pokemon)
         getMoves.each_with_index do |move, index|
             next unless move
-            next if pbOwnedByPlayer? && !knownMoveIDs.include?(move.id)
+            #next if pbOwnedByPlayer? && !knownMoveIDs.include?(move.id)
             yield move, index
         end
     end
@@ -119,6 +119,7 @@ class PokeBattle_Battler
     end
 
     def aiKnowsIllusion?
+        return true
         return aiKnowsAbility?(:ILLUSION) || aiKnowsAbility?(:INCOGNITO)
     end
 
@@ -475,6 +476,7 @@ class PokeBattle_Battler
     end
 
     def aiKnowsAbility?(checkAbility)
+        return true
         return true unless pbOwnedByPlayer?
         return true if hasActiveItemAI?(:FRAGILELOCKET)
         if checkAbility.is_a?(Array)
@@ -509,6 +511,7 @@ class PokeBattle_Battler
     end
 
     def aiKnowsItem?(checkItem)
+        return true
         return true unless pbOwnedByPlayer?
         if checkItem.is_a?(Array)
             checkItem.each do |specificItem|
@@ -615,7 +618,7 @@ class PokeBattle_Battler
             yield b
         end
 
-        if ownersPolicies.include?(:EQ_PROTECT)
+        if ownersPolicies.include?(:EQ_PROTECT) || Settings::AI_PREDICT
             eachAlly(true) do |b|
                 next unless b.canChooseFullSpreadMove?(categoryOnly)
                 yield b

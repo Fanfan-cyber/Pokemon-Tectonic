@@ -51240,21 +51240,21 @@ But it failed, since {1} didn't choose to use a move!
 But it failed, since {1} already move this turn!
 但它失败了，因为{1}已经在这1回合行动了！
 It's hyper effective on {1}!
-对{1}非常有效！
+对{1}效果绝佳！
 It's hyper effective!
-非常有效！
+效果绝佳！
 It's super effective on {1}!
-对{1}很有效！
+对{1}效果拔群！
 It's super effective!
-很有效！
+效果拔群！
 It's barely effective on {1}...
-对{1}不太有效...
-It's barely effective...
-不太有效...
-It's not very effective on {1}...
 对{1}效果极差...
-It's not very effective...
+It's barely effective...
 效果极差...
+It's not very effective on {1}...
+对{1}效果不佳...
+It's not very effective...
+效果不佳...
 The substitute took damage for {1}!
 替身承受伤害保护了{1}！
 on {1}
@@ -51434,7 +51434,7 @@ But it failed, since the user is already transformed!
 But it failed, since {1} is also transformed!
 但它失败了，因为{1}也已经变身了！
 But it failed, since {1} is disguised by an Illusion!
-但它失败了，因为{1}用幻觉伪装了！
+但它失败了，因为{1}用幻觉进行了伪装！
 But it failed, since the target didn't choose to use a move!
 但它失败了，因为目标没有选择使用技能！
 But it failed, since the target chose to use a status move!
@@ -57402,7 +57402,7 @@ Upon entry, traps each opponent in a whirlpool for one turn.
 Each turn, raises Speed by 4 steps and loses 1/8th max HP. If Speed was maxed, instead Speed and HP are reset.
 每回合结束时，速度增加4级，HP减小1/8，如果速度已达到最大等级，重置速度并回复全部HP。
 Comes out disguised as the Pokémon in back. Boosts move power by 20% in disguise.
-出场时伪装成后排的精灵，处于伪装状态时技能威力增加20%。
+出场时伪装成队友，处于伪装状态时技能威力增加20%。
 Heals all non-volatile status conditions and 10% of max HP when it switches out.
 离场时，回复稳定性异常和10%HP。
 After fainting from exploding, revives after six turns, but requires above 50% HP if caused by others.

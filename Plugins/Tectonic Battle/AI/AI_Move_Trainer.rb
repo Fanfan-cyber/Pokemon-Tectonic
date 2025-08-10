@@ -114,7 +114,7 @@ class PokeBattle_AI
                         totalScore += score
                         killInfo = targetKillInfo
                     else
-                        next if policies.include?(:EQ_PROTECT) && b.canChooseProtect?
+                        next if (policies.include?(:EQ_PROTECT) || Settings::AI_PREDICT) && b.canChooseProtect?
                         totalScore -= score
                     end
                 else

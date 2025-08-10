@@ -42,6 +42,7 @@ module Settings
   ITEM_CLAUSE          = false
   BATTLE_NO_MONEY_LOSS = true
   COPY_PLAYER_TRIBE    = false
+  AI_PREDICT           = true
 
   DEFAULT_ITEMS = %i[SITRUSBERRY]
   UNRECOVERABLE = %i[LEPPABERRY]
