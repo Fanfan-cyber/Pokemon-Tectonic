@@ -252,13 +252,11 @@ module PokemonDataBase
 
       pkmn.forget_all_moves
       legal_moves = species_data.learnable_moves.shuffle
-      4.times do
-        legal_moves.each do |move|
-          move_data = GameData::Move.get(move)
-          next if move_data.base_damage < LOWEST_MOVE_POWER
-          pkmn.learn_move(move_data)
-          break
-        end
+      legal_moves.each do |move|
+        move_data = GameData::Move.get(move)
+        next if move_data.base_damage < LOWEST_MOVE_POWER
+        pkmn.learn_move(move_data)
+        break if pkmn.moves.size == Pokemon::MAX_MOVES
       end
       pkmn.calc_stats
       @@pkmn_data << pkmn

@@ -178,7 +178,8 @@ disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
 18.修复了Warrior的中文描述错误的Bug
 19.修复了腹鼓的中文描述错误的Bug
 20.修复了Invite Moonglow的中文描述错误的Bug
-21.
+21.修复了战斗模拟器中随机生成的精灵技能不足4个的Bug
+22.
 
 0.3.9 Genesis Dawn / 初光伊临
 1.修复了锦标赛中Lambert的队伍发生异常的Bug
