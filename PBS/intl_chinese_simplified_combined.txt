@@ -8309,11 +8309,11 @@ First, you should restore your Pokémon to full health.
 We hope you excel!
 祝您一路顺风！
 Offensive Pokémon need offensive moves.
-攻击型精灵需要攻击技能。
+攻击型精灵需要伤害类技能。
 Most of the time you’ve got more moves than types.
 大多数时候，你的技能比属性多。
 That means you’re going to want some attacking moves that complement the moves that match your types.
-这意味着你需要一些攻击技能来补充与属性匹配的技能。
+这意味着你需要一些伤害类技能来补充与属性匹配的技能。
 Think long and hard about those.
 仔细考虑这些。
 A Normal-type might want a Dark or Ground move.
@@ -32293,7 +32293,7 @@ Boreal Wind
 Classical Physics
 惊吓苹果
 Cold Front
-严冬之风
+冷锋
 Dive Bomb
 俯冲轰击
 Divining Talon
@@ -34510,7 +34510,7 @@ The user yells as if it is ranting about something, lowering the target's Sp. At
 The user steals the effects of any healing or stat-changing move the foe attempts to use.
 将对手打算使用的回复技能或能力变化类技能夺为己用。
 This move enables the user to attack first. It fails if the target is not readying an attack, however.
-可以比对手先攻击。对手使用的技能如果不是攻击技能则会失败。
+可以比对手先攻击。对手使用的技能如果不是伤害类技能则会失败。
 The user trades held items with the target faster than the eye can follow.
 用一闪而过的速度交换自身和对手的携带物。
 The target is taunted into a rage that prevents it from using status moves for three more turns.
@@ -35478,7 +35478,7 @@ The target is scrutinized, damaging their psyche. Can random critical hit.
 The user perfectly predicts the target's future location, then strikes. It lands without fail.
 完美地预测出对手的位置并发起攻击。攻击必定会命中。
 The user peruses its kingly stores of knowledge, selecting three random non-Psychic attacks. You choose which one it uses.
-浏览自身的知识宝库，随机出现三种超能属性攻击技能，并选择其中一种使用。
+浏览自身的知识宝库，随机出现三种超能属性伤害类技能，并选择其中一种使用。
 The user dazzles the target with celestial visions that lowers its Sp. Atk stat by five steps.
 利用天象视觉混乱目标，使对方的特攻减小5级。
 The user takes control of the target's mind to unleash an attack on it. Can random critical hit.
@@ -37881,7 +37881,7 @@ A Pokémon held item that doubles the duration of multiturn trapping attacks.
 A band that doubles the damage dealt each turn by binding moves when held.
 能增强绑紧技能的束带。携带后，绑紧技能的威力会变强。
 A held item. It makes multi-hit attacks consistently hit 4 or 5 times.
-一种携带物品。它使多次攻击技能稳定命中4到5次。
+一种携带物品。它使多次伤害类技能稳定命中4到5次。
 An item to be held by a Pokémon. The user gets both of its legal abilities, but its stats are cut by 10%.
 一种携带物品。使用者可以同时拥有两个合法特性，但能力值减小10%。
 A held item. The holder recovers 30% more HP from draining moves, Ingrain, Aqua Ring, and leech.
@@ -39750,7 +39750,7 @@ Slipstream
 Sluggish
 呆滞迟缓
 Slumbering Drake
-睡鸭
+睡龙
 Snoozefest
 睡眠派对
 Snow Shroud
@@ -40245,7 +40245,7 @@ Immune to non-volatile status conditions while it has its shell. Below half HP, 
 Stat changes in the Pokémon are doubled.
 该精灵的能力等级变化翻倍。
 Maximizes the frequency of "two to five" multi-hit moves.
-使多段攻击类技能总是使出最大次数。
+使多段伤害类技能总是使出最大次数。
 Halves Attack and Speed for 3 turns.
 在3回合内，物攻和速度减半。
 Doubles the Pokémon's Speed stat in a hail.
@@ -40615,7 +40615,7 @@ Can hold two different items, if one is clothing and the other is not.
 Raises all of its stats whenever it knocks out a Pokémon with a critical hit.
 每次命中要害打倒敌方时，所有能力增加1级。
 After attacking any foe, the Pokémon immediately uses Rest.
-打倒对手后立即使用睡觉。
+攻击任何对手后立即使用睡觉。
 Takes half damage from Ice- and Flying-type attacks.
 受到冰、飞行属性攻击时，伤害减半。
 When attacked with a special move, inflicts 1/8th max HP damage on the attacker.
@@ -40867,7 +40867,7 @@ Boosts Speed by 50%, but the Pokémon is hurt for 1/10th HP each turn.
 Protected against critical hits. Heals 1/12th HP every turn if hit by an attack.
 不会被命中要害。被攻击后每回合回复1/12HP。
 Multi-hit moves can hit up to twice as many times.
-多段攻击类技能最多可以打出原先最大次数的两倍的次数。
+多段伤害类技能最多可以打出原先最大次数的两倍的次数。
 Copies the Ability of the Pokémon it switches in to replace.
 复制它要替换的精灵的特性。
 Boosts power of sound-based moves by 30%.
@@ -40997,7 +40997,7 @@ After fainting from exploding, revives after six turns.
 The Pokémon's hits deal half damage unless they are critical.
 如果没有命中要害，自身造成的伤害减半。
 Maximizes the frequency of multi-hit moves. Always deals critical hits.
-多段攻击类技能总是会使用出最大次数，且必定命中要害。
+多段伤害类技能总是会使用出最大次数，且必定命中要害。
 At the end of each of its turns, Speed is lowered but every other stat is raised.
 每个回合结束时，速度会减小，但其他所有能力都会增加。
 While the Pokémon is below half health, its attacks leech those hit.
@@ -41079,7 +41079,7 @@ When hit with a physical move, hits back instantly with Leafage.
 Critical hits lower all of the victim's stats.
 命中要害时，减小其全能力。
 "Two to five" multi-hit moves hit an additional time.
-多段攻击类技能会在原先的基础上多攻击1次。
+多段伤害类技能会在原先的基础上多攻击1次。
 Immune to Dark-type and Bug-type moves.
 免疫恶属性和虫属性技能。
 Spread moves hitting multiple targets deal 50% more damage.
@@ -41181,7 +41181,7 @@ Attack is boosted by 50% if a Tailwind is blowing.
 The Pokémon is also Bug-type, but its Speed is halved.
 同时被视为虫属性，但速度减半。
 Falls asleep upon entry, but raises all of its stats by two steps.
-进入战斗后会直接睡觉，但全能力大幅度增加。
+进入战斗后会直接睡眠，但全能力大幅度增加。
 Whenever the Pokémon falls asleep, each other battler becomes drowsy.
 此精灵睡眠时，其他精灵也会陷入瞌睡。
 The Pokémon takes 30% less move damage in hail.
@@ -45980,11 +45980,11 @@ In battle, the Pokémon with the higher speed stat gets to use their move first.
 Attacking vs Status
 攻击与变化
 Attacking moves deal damage. Status moves do not. Status moves are notated by a Yin/Yang symbol (White and Black intermixing).
-攻击类技能会造成伤害，但变化类技能不会，通常带有强化或削弱效果。
+伤害类技能会造成伤害，但变化类技能不会，通常带有强化或削弱效果。
 Physical vs Special
 物理和特殊
 Attacking moves are split into Physical moves, and Special moves. Each of these categories uses different stats to determine how much damage is dealt to the target.
-攻击技能分为物理特殊两类，每种都会以不同属性，决定对目标造成的伤害程度。
+伤害类技能分为物理特殊两类，每种都会以不同属性，决定对目标造成的伤害程度。
 Physical Moves
 物理类技能
 Physical moves are notated by the symbol of a smashing fist. Their damage is based on the Attack (Atk) stat of the attacker and the Defense (Def) stat of the target.
@@ -50568,7 +50568,7 @@ No moves barred! {1} can use off-type moves again!
 {1} is considered to have chosen a status move this turn.
 {1}被视为选择了变化类技能。
 {1} is considered to have chosen an attacking move this turn.
-{1}被视为选择了攻击技能。
+{1}被视为选择了伤害类技能。
 {1} is considered to have transformed its type this turn.
 {1}被认为在这1回合改变了属性。
 {1} is no longer flinch immune!
@@ -55864,7 +55864,7 @@ If you have a weather or a Room to set up, get to it.
 If you don't have a clear, clean gameplan, ruin your opponent's.
 如果你没有一个清晰、干净的游戏计划，那就破坏对手的。
 A dedicated lead's worst fear is usually a strong multi-hitting move. Neither Sturdy nor Sash can help them there.
-一个专注的首发精灵最害怕的通常是强力的多段攻击技能。坚固和披带都无法帮助他们。
+一个专注的首发精灵最害怕的通常是强力的多段伤害类技能。坚固和披带都无法帮助他们。
 As opposed to simply trading hazards, outspeeding and KOing a lead before it gets going can give you an early advantage.
 与简单地交换场地不利因素相比，在首发精灵开始行动之前，通过速度优势将其打倒可以给你带来早期优势。
 Each Pokémon's utility is defined by the opponent.
@@ -59388,7 +59388,7 @@ Whenever a member of your team uses a status move, they'll deal 25% more move da
 全员在使用变化类技能后，下回合技能造成的伤害增加25%。
 12
 Your team members take 15% less move damage if they're using a status move this turn.
-全员在使用变化类技能的回合，受到的技能伤害减小15%。
+全员如果本回合选择使用变化类技能，那么受到的技能伤害减小15%。
 13
 Your team has 30% increased Sp. Def. Foes can't lower your team's Sp. Def.
 全员获得特防增加30%，且特防不会减小。
@@ -59415,7 +59415,7 @@ Ignore the first time each battle that one of your team members would flinch or 
 每场战斗免疫1次异常状态或畏缩。
 21
 Your team members take 15% less move damage if they're using an attack this turn.
-全员如果本回合使用了攻击技能，那么受到的伤害减小15%。
+全员如果本回合选择使用伤害类技能，那么受到的技能伤害减小15%。
 22
 This tribe exists to test the PBS extensions system
 此部族用于测试PBS扩展系统。

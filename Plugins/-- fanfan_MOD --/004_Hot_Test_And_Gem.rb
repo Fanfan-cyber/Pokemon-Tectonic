@@ -1,6 +1,25 @@
+# mkxp-z extra libraries
+# macOS version of mkxp-z has the standard libraries located elsewhere but they're in load path by default.
+$:.push File.join(Dir.pwd, "Library/stdlib") unless System.platform[/macOS/]
+# Fix loading of rbconfig gem.
+$:.push File.join(Dir.pwd, "Library/stdlib/x64-mingw32") if System.platform[/Windows/]
+$:.push File.join(Dir.pwd, "Library/stdlib/x86_64-linux") if System.platform[/Linux/]
+$:.push File.join(Dir.pwd, "../Resources/Ruby/3.1.0/x86_64-darwin") if System.platform[/macOS/]
+# Add external gems to load path.
+#$:.push File.join(Dir.pwd, "Library/gems")
+
+# JoiPlay RPG Maker Plugin 1.20.51 completely broke require so we have to use require_relative instead.
+def gem(name)
+  if $joiplay
+    require File.expand_path("../Library/gems/" + name + ".rb", __FILE__)
+  else
+    require name
+  end
+end
+
 module LoadGem
   def self.load_gem
-    require './Data/gems/chinese_pinyin-1.1.0/lib/chinese_pinyin'
+    require "./Library/gems/chinese_pinyin-1.1.0/lib/chinese_pinyin"
   end
 end
 
@@ -22,23 +41,11 @@ module Input
 end
 
 module HotTest
-  FILENAME = './Test_Content.rb'
   def self.load_refresh
     begin
       Dir["./Test/**/*.rb"].each { |file| load File.expand_path(file) }
-      load FILENAME
+      load "./Test_Script.rb"
       pbMessage(_INTL("Reloaded successfully!"))
-    rescue LoadError
-      begin
-        File.open(FILENAME, 'wb') do |file|
-          file.write("# This is a newly created file.\r\n")
-        end
-        load FILENAME
-        pbMessage(_INTL("File was not found, but it has been created and loaded."))
-      rescue => e
-        pbMessage(_INTL("Failed to create or load the file.\n({1})", e.message))
-      ensure
-      end
     rescue => e
       pbMessage(_INTL("Failed to reload: An error occurred.\n({1})", e.message))
     ensure

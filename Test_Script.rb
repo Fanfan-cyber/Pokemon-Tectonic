@@ -1,5 +1,3 @@
-# This is a newly created file.
-
 class Trainer
 
 end
