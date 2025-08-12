@@ -18,8 +18,8 @@
 增加锦标赛主题队伍，通关队伍的挑战功能
 =end
 
-MOD_VERSION  = "0.4.0"
-VERSION_NAME = ["Resonance of Terra Nova", "望新序启"]
+MOD_VERSION  = "0.4.1"
+VERSION_NAME = ["Celestial Covenant", "星约夜临​"]
 
 CHANGE_LOG = <<-LOGGER
 #==============================================================================#
@@ -159,6 +159,9 @@ customabil/nocustomabil，开启/关闭特性自选模式
 doublebattle/disabledouble，开启/关闭全双打模式
 disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
 
+0.4.1 Celestial Covenant / 星约夜临​
+1.
+
 0.4.0 Resonance of Terra Nova / 望新序启
 1.现在自动生成的文档中将会直接显示游戏的版本名
 2.现在游戏将不再提供正体中文语言
@@ -188,7 +191,6 @@ disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
 26.现在可以通过输入密码revengeplus开启新版复仇机制，新版复仇机制在原有的复仇机制下增加了新的效果，现在因队友濒死而替换上场的精灵的第一个回合，技能威力和速度增加25%
 27.现在可以通过输入密码norevengeplus关闭新版复仇机制
 28.修复了Pin Down不生效的Bug
-29.
 
 0.3.9 Genesis Dawn / 初光伊临
 1.修复了锦标赛中Lambert的队伍发生异常的Bug
