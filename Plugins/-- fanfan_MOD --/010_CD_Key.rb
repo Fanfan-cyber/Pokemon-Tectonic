@@ -146,6 +146,8 @@ CDKey.register_other_key(:copywhatever, true)
 CDKey.register_other_key([:nocopywhatever, :copywhatever], false)
 CDKey.register_other_key(:stupidai, true)
 CDKey.register_other_key([:smartai, :stupidai], false)
+CDKey.register_other_key(:revengeplus, true)
+CDKey.register_other_key([:norevengeplus, :revengeplus], false)
 
 #CDKey.register_other_key(:adaptiveai, true)
 #CDKey.register_other_key(:whosyourdaddy, true)

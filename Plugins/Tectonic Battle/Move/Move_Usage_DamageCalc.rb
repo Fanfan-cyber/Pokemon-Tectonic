@@ -518,6 +518,8 @@ class PokeBattle_Move
         if @battle.tracker_get(:revenge)[user.unique_id] == target.unique_id
             multipliers[:base_damage_multiplier] *= (Settings::REVENGE_MECHANICS * 0.01 + 1.0)
         end
+        # Revenge Mechanics Plus
+        multipliers[:base_damage_multiplier] *= (Settings::REVENGE_MECHANICS_PLUS * 0.01 + 1.0) if TA.get(:revengeplus) && user.pbOwnSide.faintLastRound? && user.firstTurn?
 
         # Bigger Side Punishment
         if user.bigger_side?

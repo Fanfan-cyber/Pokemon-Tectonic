@@ -340,6 +340,9 @@ class PokeBattle_Battler
         # Stampede tribe
         speedMult *= 1.15 if hasTribeBonus?(:STAMPEDE)
 
+        # Revenge Mechanics Plus
+        speedMult *= (Settings::REVENGE_MECHANICS_PLUS * 0.01 + 1.0) if TA.get(:revengeplus) && pbOwnSide.faintLastRound? && firstTurn?
+
         # Calculation
         return [(speed * speedMult).round, 1].max
     end
