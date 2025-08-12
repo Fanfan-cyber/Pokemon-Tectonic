@@ -179,7 +179,11 @@ disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
 19.修复了腹鼓的中文描述错误的Bug
 20.修复了Invite Moonglow的中文描述错误的Bug
 21.修复了战斗模拟器中随机生成的精灵技能不足4个的Bug
-22.
+22.修复了Dreamy Haze的中文描述错误的Bug
+23.修复了投掷的中文描述错误的Bug
+24.现在可以通过输入密码stupidai开启AI弱化，开启后NPC在操作时将不会再预测玩家的行为，在配置较低的设备上这将可以减少玩家操作之前的等待时间
+25.现在可以通过输入密码smartai关闭AI弱化，即使用常规AI
+26.
 
 0.3.9 Genesis Dawn / 初光伊临
 1.修复了锦标赛中Lambert的队伍发生异常的Bug

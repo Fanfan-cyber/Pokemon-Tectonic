@@ -412,7 +412,7 @@ class PokeBattle_Battle
             anyCanPredict = false
             if @opponent
                 @opponent.each do |opposingTrainer|
-                    next unless opposingTrainer.policies.include?(:PREDICTS_PLAYER) || Settings::AI_PREDICT
+                    next unless opposingTrainer.policies.include?(:PREDICTS_PLAYER) || Settings::AI_PREDICT && !TA.get(:stupidai)
                     anyCanPredict = true
                     break
                 end

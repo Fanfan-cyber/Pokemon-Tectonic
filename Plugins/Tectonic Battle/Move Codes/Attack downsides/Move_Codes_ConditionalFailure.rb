@@ -27,7 +27,7 @@ class PokeBattle_Move_FailsIfTargetActed < PokeBattle_Move
     end
 
     def pbFailsAgainstTargetAI?(user, target)
-        if user.ownersPolicies.include?(:PREDICTS_PLAYER) || Settings::AI_PREDICT
+        if user.ownersPolicies.include?(:PREDICTS_PLAYER) || Settings::AI_PREDICT && !TA.get(:stupidai)
             return !@battle.aiPredictsAttack?(user,target.index)
         else
             return true unless target.hasDamagingAttack?

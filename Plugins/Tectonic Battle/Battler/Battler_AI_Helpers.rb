@@ -618,7 +618,7 @@ class PokeBattle_Battler
             yield b
         end
 
-        if ownersPolicies.include?(:EQ_PROTECT) || Settings::AI_PREDICT
+        if ownersPolicies.include?(:EQ_PROTECT) || Settings::AI_PREDICT && !TA.get(:stupidai)
             eachAlly(true) do |b|
                 next unless b.canChooseFullSpreadMove?(categoryOnly)
                 yield b

@@ -341,7 +341,7 @@ class PokeBattle_Battle
     end
 
     def predictable?(predictor,idxBattler)
-        return false unless predictor.ownersPolicies.include?(:PREDICTS_PLAYER) || Settings::AI_PREDICT
+        return false unless predictor.ownersPolicies.include?(:PREDICTS_PLAYER) || Settings::AI_PREDICT && !TA.get(:stupidai)
         return false unless @battlers[idxBattler].pbOwnedByPlayer?
         return false unless @predictedActions[idxBattler]
         return true

@@ -34328,7 +34328,7 @@ The user employs psychic power to average its unmodified Defense and Sp. Def sta
 The user faints. In return, the Pokémon taking its place will have its HP restored and non-volatile status conditions cured.
 使用者陷入濒死，替换上场的精灵会恢复HP并回复异常状态。
 The user emits a healing pulse which restores the target's HP by half of its max HP.
-使用者发出1个治疗脉冲，恢复目标最大HP的一半。
+使用者发出1个治疗脉冲，回复目标最大HP的一半。
 The user unleashes a vicious blow after a cute act. It has a 50% chance to cause flinching.
 以可爱的动作使对手疏忽，乘机给出强烈的一击。50%的概率使对手畏缩。
 The user employs its psychic power to switch stat step changes with the target.
@@ -34472,7 +34472,7 @@ The user draws up to the foe disarmingly, then throws a sucker punch. Can't miss
 The user transforms its wrath into a fire-like aura to attack. It has a 50% chance to make the target flinch.
 将愤怒转化为火焰般的气场进行攻击。50%的概率会使对手畏缩。
 The user throws its held item at the target. Some items deal more damage or have extra effects.
-快速投掷携带的物品进行攻击。根据物品不同，威力和效果会改变。
+使用者投掷携带的物品进行攻击。某些物品会造成更大的伤害或拥有额外的附加效果。
 Turns the foe's power against it, dealing damage using the target's Attack stat.
 利用对手的力量进行攻击。正和自身战斗的对手，其攻击越高，伤害越大。
 The user sharpens its claws to raise its Attack and Accuracy by three steps.
@@ -35936,7 +35936,7 @@ The user summons an allied Poochyena, raises the Attack stat of itself and its a
 The user torments all near foes, preventing them from repeating moves. The user becomes Dark-type.
 折磨附近所有对手，阻止它们重复使用技能，并使自身变为恶属性。
 The user raises their Sp. Atk by four steps and becomes Fairy-type.
-增加自身特攻4级，并使自身变为妖精属性。
+自身特攻增加4级，并使自身变为妖精属性。
 Summons moonglow for 5 turns, raises the Defense and Sp. Def of all allies, and user becomes Fairy-type.
 开启持续5回合的月辉，全部精灵的双防增加1级，自身变为妖精属性。
 The user creates a Puzzle Room for 8 turns, raises its Attack and Sp. Atk, and becomes Fairy-type.
@@ -40111,7 +40111,7 @@ Normal-type moves become Electric-type and power up by 30%.
 Will eat berries normally eaten at 25% HP (in a pinch) at 50% instead.
 会在HP一半时就吃掉原本HP在1/4时才会吃掉的树果。
 Physical moves against it lower the attacker's Speed and Attack.
-对于用物理类技能攻击自身的对手，会使其速度和物攻减小1级。
+被物理类技能攻击时，使攻击者的速度和物攻减小1级。
 Boosts Attack by 50% but the user is locked into the first move they use.
 虽然攻击会增加，但是只能使用一开始所选的技能。
 Boosts Sp. Atk after knocking out any Pokémon.
@@ -40553,7 +40553,7 @@ Upon entry during eclipse, lowers foe's Attack and Sp. Atk by two steps.
 Raises Sp. Atk by two steps whenever any battler falls asleep.
 每当有一只精灵在战斗中陷入睡眠，自身的特攻增加2级。
 If an attack lowers its HP to half or less, the attacker becomes drowsy.
-如果攻击将对手的HP削减到一半或更低，使其进入瞌睡状态。
+被攻击使HP减小到一半以下时，使攻击者陷入瞌睡状态。
 Move damage that's decreased by rainstorm is decreased twice as much.
 暴雨天减小技能伤害的效果加倍。
 Creates Grey Mist for three turns when entering the battlefield.
@@ -41155,7 +41155,7 @@ Powers up Fighting-type moves by 50%.
 Flying-type attacks have a 40% chance to numb.
 飞行属性的攻击有40%概率使对方麻痹。
 Special moves against it lower the attacker's Speed and Sp. Atk.
-被特殊类技能攻击时，使对方的速度和特攻减小1级。
+被特殊类技能攻击时，使攻击者的速度和特攻减小1级。
 The Pokémon and other battlers don't benefit from same-type attacking bonus.
 全部精灵失去本属性加成。
 Boosts Speed by 50% in rainstorm. Doubles random added effect chance in rainstorm.
