@@ -2743,6 +2743,8 @@ I'm having a lot of fun with your Pokemon.
 I'm having a lot of fun with your Pokemon. 
 I hope my Vulpix is having fun with you.
 I hope my Vulpix is having fun with you.
+Room 102\nCurrent Residents: Iseul, Galina
+Room 102\nCurrent Residents: Iseul, Galina
 Hey, you're a Trainer right? Please, I need your help.
 Hey, you're a Trainer right? Please, I need your help.
 My Growlithe got spooked when I was taking it for a walk.
@@ -2765,16 +2767,16 @@ You saved Growlithe! Thank you thank you thank you!
 You saved Growlithe! Thank you thank you thank you!
 I have a gift for you, as thanks for saving my Pokemon!
 I have a gift for you, as thanks for saving my Pokemon!
-Trainers are amazing, aren't they Growlithe! Don't you want to become big and strong just like their Pokemon?
-Trainers are amazing, aren't they Growlithe! Don't you want to become big and strong just like their Pokemon?
+Trainers are amazing, aren't they Growlithe!
+Trainers are amazing, aren't they Growlithe!
+Don't you want to become big and strong just like their Pokemon?
+Don't you want to become big and strong just like their Pokemon?
 Yeah! One day, I'll grow just as strong as you! I'll help people just like you did.
 Yeah! One day, I'll grow just as strong as you! I'll help people just like you did.
 Maybe the Rangers that are stationed here will help me get stronger!
 Maybe the Rangers that are stationed here will help me get stronger!
 They fought tons of battles back when Team Chasm was around. They must be total vets!
 They fought tons of battles back when Team Chasm was around. They must be total vets!
-Room 102\nCurrent Residents: Iseul, Galina
-Room 102\nCurrent Residents: Iseul, Galina
 Room 104\nCurrent Residents: Manuel, Anja
 Room 104\nCurrent Residents: Manuel, Anja
 No
@@ -6931,10 +6933,10 @@ If not, forgive this flight of fancy wasting your time. Remember: SHE came up wi
 If not, forgive this flight of fancy wasting your time.  Remember: SHE came up with the idea.
 Hmm… maybe this trip was worth more than that changeling imagines.
 Hmm… maybe this trip was worth more than that changeling imagines.
-If you ever find yourself in the urban expanse with naught to do, find me.
-If you ever find yourself in the urban expanse with naught to do, find me.
-I’ll be at the riverside, like as not. I have plans involving you and yours.
-I’ll be at the riverside, like as not. I have plans involving you and yours.
+If you ever find yourself in the <imp>urban expanse</imp> with naught to do, find me.
+If you ever find yourself in the <imp>urban expanse</imp> with naught to do, find me.
+I’ll be in the <imp>business sector</imp>, like as not. I have plans involving you and yours.
+I’ll be in the <imp>business sector</imp>, like as not. I have plans involving you and yours.
 Whoa! Is all well?
 Whoa! Is all well?
 Here – I suppose I can spare some supplies. Let us get your team in shape, shall we?
@@ -6947,6 +6949,8 @@ Have you made ready?
 Have you made ready?
 If you ever find yourself in the <imp>urban expanse</imp> of Prizca with naught to do, find me.
 If you ever find yourself in the <imp>urban expanse</imp> of Prizca with naught to do, find me.
+I’ll be at the riverside, like as not. I have plans involving you and yours.
+I’ll be at the riverside, like as not. I have plans involving you and yours.
 Why are you here?
 Why are you here?
 Can I help?
@@ -29692,8 +29696,8 @@ Stealthily, it sneaks up on its target, striking from behind before its victim h
 Stealthily, it sneaks up on its target, striking from behind before its victim has a chance to react.
 It's good at finding berries and gathers them from all over. It's kind enough to share them with friends.
 It's good at finding berries and gathers them from all over. It's kind enough to share them with friends.
-Ill tempered, it fights by swinging its barbed tail around wildly. The leaf growing on its head is very bitter.
-Ill tempered, it fights by swinging its barbed tail around wildly. The leaf growing on its head is very bitter.
+Ill tempered, it fights by swinging its barbed tail around wildly. The leaf growing on its head is very COLDBLOODED.
+Ill tempered, it fights by swinging its barbed tail around wildly. The leaf growing on its head is very COLDBLOODED.
 This Pokémon lives in caves in volcanoes. The fire within the tuft on its head can reach 600 degrees Fahrenheit.
 This Pokémon lives in caves in volcanoes. The fire within the tuft on its head can reach 600 degrees Fahrenheit.
 When it gets excited, embers rise from its head and tail and it gets hot. For some reason, it loves sweets.
@@ -31604,8 +31608,6 @@ Iron Defense
 Iron Defense
 Iron Head
 Iron Head
-Iron Tail
-Iron Tail
 King's Shield
 King's Shield
 Laser Focus
@@ -31732,8 +31734,6 @@ Snipe Shot
 Snipe Shot
 Sparkling Aria
 Sparkling Aria
-Splash
-Splash
 Steam Eruption
 Steam Eruption
 Surf
@@ -31766,6 +31766,8 @@ Cotton Spore
 Cotton Spore
 Drum Beating
 Drum Beating
+Energy Ball
+Energy Ball
 Frenzy Plant
 Frenzy Plant
 Giga Drain
@@ -32142,8 +32144,6 @@ Cha-ching
 Cha-ching
 Chaos Wheel
 Chaos Wheel
-Cloudbreak
-Cloudbreak
 Concentrate
 Concentrate
 Cross Examine
@@ -32154,8 +32154,6 @@ Dazzle
 Dazzle
 Diffuse Pulse
 Diffuse Pulse
-Dissipation
-Dissipation
 Drainage
 Drainage
 Elemental Fang
@@ -32176,6 +32174,8 @@ Heaven's Eyes
 Heaven's Eyes
 Hone Sight
 Hone Sight
+Horizon Slice
+Horizon Slice
 Lather
 Lather
 Launder
@@ -32270,8 +32270,6 @@ Righteous Kick
 Righteous Kick
 Scuffle
 Scuffle
-Scythe Kick
-Scythe Kick
 Secret Technique
 Secret Technique
 Smash
@@ -32284,8 +32282,12 @@ Valor Bolt
 Valor Bolt
 Whip Trance
 Whip Trance
+Whirlwind Kick
+Whirlwind Kick
 Air Strike
 Air Strike
+Bird's-Eye View
+Bird's-Eye View
 Bluster
 Bluster
 Boreal Wind
@@ -32348,8 +32350,6 @@ Honorless Sting
 Honorless Sting
 Miasma
 Miasma
-Murky Fog
-Murky Fog
 Nasty Nip
 Nasty Nip
 Poison Dart
@@ -32614,8 +32614,6 @@ All For One
 All For One
 Bullet Charge
 Bullet Charge
-Bullet Train
-Bullet Train
 Cavalry Charge
 Cavalry Charge
 Everhone
@@ -32648,6 +32646,10 @@ Plunder
 Plunder
 Polarized Room
 Polarized Room
+Powder Bomb
+Powder Bomb
+Power Hammer
+Power Hammer
 Rail Cannon
 Rail Cannon
 Refurbish
@@ -32688,8 +32690,6 @@ Discovered Power
 Discovered Power
 Absolute Radiance
 Absolute Radiance
-Bird's-Eye View
-Bird's-Eye View
 Blazing Speed
 Blazing Speed
 Crimson Storm
@@ -32820,6 +32820,8 @@ Tide Pull
 Tide Pull
 Torrent Scythe
 Torrent Scythe
+Wakeful Tide
+Wakeful Tide
 Waterlog
 Waterlog
 Wavebreak
@@ -32848,8 +32850,6 @@ Creeping Strike
 Creeping Strike
 Cruel Whipblade
 Cruel Whipblade
-Energy Ball
-Energy Ball
 Essence Arrow
 Essence Arrow
 Flash Seed
@@ -33002,6 +33002,8 @@ Exploit
 Exploit
 Genotheosis
 Genotheosis
+Hundred-Hand Clap
+Hundred-Hand Clap
 Invite Eclipse
 Invite Eclipse
 Kickstart
@@ -33042,14 +33044,14 @@ Psypierce
 Psypierce
 Pulsar
 Pulsar
+Quasar crush
+Quasar crush
 Reverb Ward
 Reverb Ward
 Rhythmic Ritual
 Rhythmic Ritual
 Scrutinize
 Scrutinize
-Seer Strike
-Seer Strike
 Selective Memory
 Selective Memory
 Star Dance
@@ -33362,6 +33364,8 @@ Primeval Growl
 Primeval Growl
 Primeval Role Play
 Primeval Role Play
+Primeval Work Up
+Primeval Work Up
 Primeval Yawn
 Primeval Yawn
 Empowered Brick Break
@@ -33424,8 +33428,6 @@ Primeval Destiny Bond
 Primeval Destiny Bond
 Empowered Bullet Punch
 Empowered Bullet Punch
-Empowered Bullet Train
-Empowered Bullet Train
 Empowered Metal Claw
 Empowered Metal Claw
 Empowered Meteor Mash
@@ -33689,8 +33691,8 @@ The user generates odd sound waves from its body. The target becomes dizzy.
 The user generates odd sound waves from its body. The target becomes dizzy.
 The user consumes its Stockpile to heal for 50% max HP per stack. This can overheal.
 The user consumes its Stockpile to heal for 50% max HP per stack. This can overheal.
-Star-shaped rays are shot at the opposing team. Can't miss and skips protections.
-Star-shaped rays are shot at the opposing team. Can't miss and skips protections.
+Star-shaped rays are shot at the target. Can't miss and skips protections.
+Star-shaped rays are shot at the target. Can't miss and skips protections.
 A physical attack in which the user slams into the target with its whole body.
 A physical attack in which the user slams into the target with its whole body.
 A full-body attack for slamming into the foe. The user also takes 25% recoil.
@@ -33859,8 +33861,8 @@ The user hits the target with its tail. Can random critical hit.
 The user hits the target with its tail. Can random critical hit.
 The user heals the target's non-volatile status condition. If so, it also restores the user's own HP.
 The user heals the target's non-volatile status condition. If so, it also restores the user's own HP.
-Inflicts physical or special damage, whichever will be more effective. This has a 25% chance to poison.
-Inflicts physical or special damage, whichever will be more effective. This has a 25% chance to poison.
+Inflicts physical or special damage, whichever will be more effective. This has a 30% chance to poison.
+Inflicts physical or special damage, whichever will be more effective. This has a 30% chance to poison.
 Unsanitary sludge is hurled at the target. It has a 30% chance to poison.
 Unsanitary sludge is hurled at the target. It has a 30% chance to poison.
 It swamps the area around the user with a giant wave of toxic sludge.
@@ -33885,8 +33887,8 @@ The user makes the ground under the foe erupt with power. It has a 20% chance to
 The user makes the ground under the foe erupt with power. It has a 20% chance to lower Sp. Def.
 The user sets off an earthquake that strikes every Pokémon around it and underground.
 The user sets off an earthquake that strikes every Pokémon around it and underground.
-Gravity is intensified for five turns, forcing Pokémon down from the air and doubling all move Accuracy.
-Gravity is intensified for five turns, forcing Pokémon down from the air and doubling all move Accuracy.
+Gravity is intensified for five turns, grounding all Pokémon, doubling their weight, and doubling all move Accuracy.
+Gravity is intensified for five turns, grounding all Pokémon, doubling their weight, and doubling all move Accuracy.
 The user gathers the energy of the land and focuses that power on foes to damage them.
 The user gathers the energy of the land and focuses that power on foes to damage them.
 The user attacks by shooting a beam of mud at the target. It also reduces the target's Speed by two steps.
@@ -34053,14 +34055,12 @@ The user attacks by grinding two of its steel gears against the target.
 The user attacks by grinding two of its steel gears against the target.
 The user tackles the target with a high-speed spin. The slower the user, the greater the damage.
 The user tackles the target with a high-speed spin. The slower the user, the greater the damage.
-The user slams into the foe with its heavy body. The heavier the user, the greater the damage.
-The user slams into the foe with its heavy body. The heavier the user, the greater the damage.
+The user slams into the opposing side with its heavy body. The heavier the user, the greater the damage.
+The user slams into the opposing side with its heavy body. The heavier the user, the greater the damage.
 The user hardens its body's surface like iron, raising its Defense stat by four steps.
 The user hardens its body's surface like iron, raising its Defense stat by four steps.
 The foe slams the target with its steel-hard head. It has a 40% chance to make the target flinch.
 The foe slams the target with its steel-hard head. It has a 40% chance to make the target flinch.
-The target is slammed with a steel-hard tail.
-The target is slammed with a steel-hard tail.
 Protects the user from damage this turn. It also lowers the Attack of physical attackers by two steps.
 Protects the user from damage this turn. It also lowers the Attack of physical attackers by two steps.
 The user focuses intensely. For the next three turns, its attacks will be guaranteed critical hits.
@@ -34117,12 +34117,12 @@ The target is scorched with an intense blast of fire. It has a 10% chance to bur
 The target is scorched with an intense blast of fire. It has a 10% chance to burn.
 The user cloaks itself in fire and rushes at the target. It has a 20% chance to burn.
 The user cloaks itself in fire and rushes at the target. It has a 20% chance to burn.
-The user runs at the foe while on fire. The user also takes 33% recoil. This has a 10% chance to burn.
-The user runs at the foe while on fire. The user also takes 33% recoil. This has a 10% chance to burn.
+The user runs at the foe while on fire. The user also takes 33% recoil.
+The user runs at the foe while on fire. The user also takes 33% recoil.
 The user brings down a giant flame. It does more damage if influenced by an enormous thunderbolt.
 The user brings down a giant flame. It does more damage if influenced by an enormous thunderbolt.
-The user slams the foe with its flaming body. The heavier the user is, the greater the damage.
-The user slams the foe with its flaming body. The heavier the user is, the greater the damage.
+The user slams the opposing side with its flaming body. The heavier the user is, the greater the damage.
+The user slams the opposing side with its flaming body. The heavier the user is, the greater the damage.
 The user attacks by exhaling hot breath on the opposing team. It has a 30% chance to burn.
 The user attacks by exhaling hot breath on the opposing team. It has a 30% chance to burn.
 The user attacks the foe with fire. The target's held Berry or Gem becomes burnt up and unusable.
@@ -34151,8 +34151,8 @@ With a fiery forehead, the user hurls itself at the foe. Lowers the user's Defen
 With a fiery forehead, the user hurls itself at the foe. Lowers the user's Defense, Sp. Def, and Speed by two steps.
 If the target's HP is half or less, this attack will hit with double the power.
 If the target's HP is half or less, this attack will hit with double the power.
-A spray of bubbles is jetted at all near foes. This has a 20% chance to lower their Speed.
-A spray of bubbles is jetted at all near foes. This has a 20% chance to lower their Speed.
+A spray of bubbles is jetted at the target. This has a 20% chance to lower their Speed.
+A spray of bubbles is jetted at the target. This has a 20% chance to lower their Speed.
 A spray of bubbles is forcefully ejected at the target. It also lowers the foe's Speed stat.
 A spray of bubbles is forcefully ejected at the target. It also lowers the foe's Speed stat.
 The user clamps onto the target, trapping and damaging it for three turns.
@@ -34181,8 +34181,6 @@ The target is struck with a supersonic water blast. Can random critical hit.
 The target is struck with a supersonic water blast. Can random critical hit.
 The user bursts into song, emitting many bubbles. Any burning Pokémon will be healed by these bubbles.
 The user bursts into song, emitting many bubbles. Any burning Pokémon will be healed by these bubbles.
-The user just flops and splashes around to no effect at all...
-The user just flops and splashes around to no effect at all...
 The user immerses the target in superheated steam. This has a 30% chance to burn.
 The user immerses the target in superheated steam. This has a 30% chance to burn.
 It swamps the area with a giant wave, hitting every battler nearby and underwater. Has a 10% chance to waterlog.
@@ -34215,6 +34213,8 @@ The user releases cotton-like spores that cling to the foe, reducing their Speed
 The user releases cotton-like spores that cling to the foe, reducing their Speed by four steps.
 The user controls the drum's roots to attack the target. This also lowers the target's Speed stat by two steps.
 The user controls the drum's roots to attack the target. This also lowers the target's Speed stat by two steps.
+The user attacks with the essence of life. It has a 20% chance to raise user's Sp. Atk.
+The user attacks with the essence of life. It has a 20% chance to raise user's Sp. Atk.
 The user slams the target with an enormous tree. The user is exhausted on the next turn.
 The user slams the target with an enormous tree. The user is exhausted on the next turn.
 The user snares the target with grass and trips it. The heavier the target, the greater the damage.
@@ -34299,8 +34299,8 @@ The target is punched with an electrified fist. It has a 10% chance to numb.
 The target is punched with an electrified fist. It has a 10% chance to numb.
 A jolt of electricity is hurled at the foe to inflict damage. It has a 10% chance to numb.
 A jolt of electricity is hurled at the foe to inflict damage. It has a 10% chance to numb.
-The user lunges at the foe while electrified. The user also takes 33% recoil. This has a 10% chance to numb.
-The user lunges at the foe while electrified. The user also takes 33% recoil. This has a 10% chance to numb.
+The user lunges at the foe while electrified. The user also takes 33% recoil.
+The user lunges at the foe while electrified. The user also takes 33% recoil.
 The user savagely attacks foes with lightning and wind. It has a 30% chance to numb.
 The user savagely attacks foes with lightning and wind. It has a 30% chance to numb.
 The user shrouds itself in electricity and smashes into its foe. The user also takes 25% recoil.
@@ -34329,8 +34329,8 @@ The user faints. In return, the Pokémon taking its place will have its HP resto
 The user faints. In return, the Pokémon taking its place will have its HP restored and non-volatile status conditions cured.
 The user emits a healing pulse which restores the target's HP by half of its max HP.
 The user emits a healing pulse which restores the target's HP by half of its max HP.
-The user unleashes a vicious blow after a cute act. It has a 50% chance to cause flinching.
-The user unleashes a vicious blow after a cute act. It has a 50% chance to cause flinching.
+The user unleashes a vicious blow after a cute act. It has a 40% chance to cause flinching.
+The user unleashes a vicious blow after a cute act. It has a 40% chance to cause flinching.
 The user employs its psychic power to switch stat step changes with the target.
 The user employs its psychic power to switch stat step changes with the target.
 Using a hyperspace hole, the user appears next to the target and strikes. Can't miss, skips Substitutes and destroys protections.
@@ -34379,8 +34379,8 @@ The target is hit with a rainbow-colored beam. It has a 30% chance to lower Atta
 The target is hit with a rainbow-colored beam. It has a 30% chance to lower Attack.
 This move reduces damage from attacks for five turns. This can be used only in hail.
 This move reduces damage from attacks for five turns. This can be used only in hail.
-A blizzard strikes all near foes. Can't miss in hail. 30% chance to frostbite.
-A blizzard strikes all near foes. Can't miss in hail. 30% chance to frostbite.
+A blizzard strikes all near foes. Can't miss in hail. It has a 30% chance to frostbite.
+A blizzard strikes all near foes. Can't miss in hail. It has a 30% chance to frostbite.
 Charges up, then on the second turn, the user strikes with electrified ice. It has a 30% chance to numb.
 Charges up, then on the second turn, the user strikes with electrified ice. It has a 30% chance to numb.
 The user blows a cold breath on the target. This attack always results in a critical hit.
@@ -34443,8 +34443,8 @@ The user blasts the target with power that distorts even time. The user is exhau
 The user blasts the target with power that distorts even time. The user is exhausted on the next turn.
 The user tears the target along with the space around it. Can random critical hit.
 The user tears the target along with the space around it. Can random critical hit.
-A small tornado hits the target. It has a 30% chance to make targets flinch.
-A small tornado hits the target. It has a 30% chance to make targets flinch.
+A small tornado hits the target. It has a 40% chance to make targets flinch.
+A small tornado hits the target. It has a 40% chance to make targets flinch.
 If the target has already taken some damage in the same turn, this attack's power is doubled.
 If the target has already taken some damage in the same turn, this attack's power is doubled.
 Hits once for each party Pokemon. Deals more damage based on their Attack.
@@ -34537,8 +34537,8 @@ The user emits a powerful damaging flash. It has a 40% chance to lower Sp. Atk.
 The user emits a powerful damaging flash. It has a 40% chance to lower Sp. Atk.
 The user decorates the target, raising their Attack and Sp. Atk by five steps.
 The user decorates the target, raising their Attack and Sp. Atk by five steps.
-The user does emotional damage to foes. Can't miss and skips protections.
-The user does emotional damage to foes. Can't miss and skips protections.
+The user does emotional damage to the target. Can't miss and skips protections.
+The user does emotional damage to the target. Can't miss and skips protections.
 The user steals the target's HP with a kiss. The user's HP is restored by 75% of the damage dealt.
 The user steals the target's HP with a kiss. The user's HP is restored by 75% of the damage dealt.
 By locking down the battlefield, the user traps all Pokémon during the next turn.
@@ -34581,8 +34581,6 @@ The user attacks with the full force of The Market. Money is earned after the ba
 The user attacks with the full force of The Market. Money is earned after the battle.
 The user thrashes while infused with elements. It has a 15% chance each to poison, waterlog or leech.
 The user thrashes while infused with elements. It has a 15% chance each to poison, waterlog or leech.
-A tremendous strike that clears any active weather.
-A tremendous strike that clears any active weather.
 The user stimulates its brain by planning. It raises the user's Sp. Atk by three steps.
 The user stimulates its brain by planning. It raises the user's Sp. Atk by three steps.
 The user chooses between the three most recent moves used by the opposing team, and uses that move themselves.
@@ -34593,8 +34591,6 @@ The user dazzles nearby foes with light. Their Sp. Atk is lowered by two steps.
 The user dazzles nearby foes with light. Their Sp. Atk is lowered by two steps.
 The user shoots a pulse of diffuse energy at the target.
 The user shoots a pulse of diffuse energy at the target.
-An unusual shockwave that breaks down all active Rooms.
-An unusual shockwave that breaks down all active Rooms.
 This attack inflicts double damage on a waterlogged foe. It also cures the target's waterlogging, however.
 This attack inflicts double damage on a waterlogged foe. It also cures the target's waterlogging, however.
 The user chooses between Fire Fang, Thunder Fang, or Ice Fang to use this turn.
@@ -34613,6 +34609,8 @@ The user's eyes glow with divine judgement, numbing the target and reducing both
 The user's eyes glow with divine judgement, numbing the target and reducing both its Attack and Sp. Atk.
 The user focuses its aim to raise its Sp. Atk and Accuracy by three steps.
 The user focuses its aim to raise its Sp. Atk and Accuracy by three steps.
+The user slashes broadly, cleanly slicing all nearby battlers.
+The user slashes broadly, cleanly slicing all nearby battlers.
 The user cleans the target aggressively with soapy water. It has a 50% chance to waterlog.
 The user cleans the target aggressively with soapy water. It has a 50% chance to waterlog.
 The user spins the target with a cleansing vortex. It has a 30% chance to waterlog.
@@ -34623,8 +34621,8 @@ A lullaby is sung in a calming voice that puts the target with half its HP or le
 A lullaby is sung in a calming voice that puts the target with half its HP or less left into a deep sleep.
 The target is struck by a pulse of negative energy. This resets the target's stat changes.
 The target is struck by a pulse of negative energy. This resets the target's stat changes.
-All foes are cut by a wide and clean slice. Can random critical hit, and does so twice as often.
-All foes are cut by a wide and clean slice. Can random critical hit, and does so twice as often.
+The target is cut by a piercing slash. Can random critical hit, and does so twice as often.
+The target is cut by a piercing slash. Can random critical hit, and does so twice as often.
 The user shoots a pulse of neutral particles at the target.
 The user shoots a pulse of neutral particles at the target.
 The user pranks the target, surprising it and reducing its Sp. Atk and Sp. Def by two steps.
@@ -34653,8 +34651,8 @@ The user shouts with force at the target. This move always hits first.
 The user shouts with force at the target. This move always hits first.
 The user smirks with confidence. The Sp. Def of nearby enemies is lowered.
 The user smirks with confidence. The Sp. Def of nearby enemies is lowered.
-A barrage of star-shaped rays are shot at the opposing team that multi-hits two to five times. Can't miss and skips protections.
-A barrage of star-shaped rays are shot at the opposing team that multi-hits two to five times. Can't miss and skips protections.
+A barrage of star-shaped rays are shot at the target, to multi-hit two to five times. Can't miss and skips protections.
+A barrage of star-shaped rays are shot at the target, to multi-hit two to five times. Can't miss and skips protections.
 The user attacks and steals items from all near foes. Items stolen from wild Pokémon are stored.
 The user attacks and steals items from all near foes. Items stolen from wild Pokémon are stored.
 The user flings the dirty oil on its fur. It transfers any non-volatile status condition to the target.
@@ -34663,8 +34661,8 @@ The user causes the air around the target to explode. The move's type is changed
 The user causes the air around the target to explode. The move's type is changed based on the active weather.
 The user conjures up the past, transforming the target into their previous evolutionary form.
 The user conjures up the past, transforming the target into their previous evolutionary form.
-The user forms their excitement into a lash with a 10% chance of raising the user's Sp. Atk.
-The user forms their excitement into a lash with a 10% chance of raising the user's Sp. Atk.
+The user forms their excitement into a lash with a 20% chance of raising the user's Sp. Atk.
+The user forms their excitement into a lash with a 20% chance of raising the user's Sp. Atk.
 Enables random critical hits for the user, doubles its critical hit chance, and raises its Attack and Defense by two steps.
 Enables random critical hits for the user, doubles its critical hit chance, and raises its Attack and Defense by two steps.
 The user contorts the target's chi with an energy pulse, damaging it and lowering its Sp. Def.
@@ -34705,8 +34703,6 @@ A kick that can also eliminate trapping and hazards afflicting your side. Also r
 A kick that can also eliminate trapping and hazards afflicting your side. Also raises user's Speed.
 The user grabs the target, slamming both of them into the ground. The user takes 20% recoil.
 The user grabs the target, slamming both of them into the ground. The user takes 20% recoil.
-The user kicks the target with a powerful, arcing technique.
-The user kicks the target with a powerful, arcing technique.
 The user attacks with a burst of inner energy. Lowers the user's Sp. Atk by four steps.
 The user attacks with a burst of inner energy. Lowers the user's Sp. Atk by four steps.
 The user attacks with a strong punch. It has a 20% chance to lower Defense.
@@ -34719,8 +34715,12 @@ The user manifests a bolt of pure courage. This has a 20% chance of raising the 
 The user manifests a bolt of pure courage. This has a 20% chance of raising the user's Sp. Atk.
 The user relentlessly rampages with its whip-like hands for two turns. Each hit will always be a critical hit.
 The user relentlessly rampages with its whip-like hands for two turns. Each hit will always be a critical hit.
+The user kicks while rotating at high speed, dashing across the battlefield to deal damage to all nearby battlers.
+The user kicks while rotating at high speed, dashing across the battlefield to deal damage to all nearby battlers.
 A reckless rushing attack from the air. The user also takes 25% recoil.
 A reckless rushing attack from the air. The user also takes 25% recoil.
+The user takes an aerial look at the field. This raises its Sp. Atk, Defense, and Accuracy by two steps.
+The user takes an aerial look at the field. This raises its Sp. Atk, Defense, and Accuracy by two steps.
 The user fires a stormy gust at the target. This also raises the user's Sp. Atk by two steps.
 The user fires a stormy gust at the target. This also raises the user's Sp. Atk by two steps.
 The user whips up a cold north wind to attack the target. It has a 20% chance to frostbite.
@@ -34783,8 +34783,6 @@ The user uses venom that turns the target's body against it. Super effective vs 
 The user uses venom that turns the target's body against it. Super effective vs Fighting-types.
 The user envelops the target in a foul wind. It has a 30% chance to poison.
 The user envelops the target in a foul wind. It has a 30% chance to poison.
-The user attacks with a pitch black fog. All of the target's stat changes are returned to normal.
-The user attacks with a pitch black fog. All of the target's stat changes are returned to normal.
 The user stabs the opponent with a toxin-infused limb. It has a 10% chance to poison.
 The user stabs the opponent with a toxin-infused limb. It has a 10% chance to poison.
 The user shoots the target with a dart made of poison. This move always goes first.
@@ -34943,8 +34941,8 @@ The user emits an aroma that raises the target's three weakest stats.
 The user emits an aroma that raises the target's three weakest stats.
 The user applies a painful chemical to the target with a smack. It has a 10% chance to poison.
 The user applies a painful chemical to the target with a smack. It has a 10% chance to poison.
-The user attacks with small beams of light. It has a 20% chance to make the target flinch.
-The user attacks with small beams of light. It has a 20% chance to make the target flinch.
+The user attacks with small beams of light. It has a 40% chance to make the target flinch.
+The user attacks with small beams of light. It has a 40% chance to make the target flinch.
 The user attacks with a blinding flash of bioluminscence. It has a 40% chance to make the target flinch.
 The user attacks with a blinding flash of bioluminscence. It has a 40% chance to make the target flinch.
 All foes have their Attack and Sp. Atk lowered. They can only target the user this turn.
@@ -35045,8 +35043,6 @@ The user slashes with gusto, inspiring its allies to follow up by using Slash on
 The user slashes with gusto, inspiring its allies to follow up by using Slash on the target.
 The user uses gunpowder to rocket at its foe. It has a 30% chance to raise its Speed.
 The user uses gunpowder to rocket at its foe. It has a 30% chance to raise its Speed.
-The user becomes a pain train. It has a 20% chance to raise the user's Speed.
-The user becomes a pain train. It has a 20% chance to raise the user's Speed.
 A reckless maneuver that forces the user to switch out if it misses. Always goes first.
 A reckless maneuver that forces the user to switch out if it misses. Always goes first.
 Inflicts physical or special damage, whichever deals more. Then, raises Attack or Sp. Atk, whichever wasn't used.
@@ -35061,8 +35057,8 @@ The user uses explosive force to shoot shards of its own body at the target. The
 The user uses explosive force to shoot shards of its own body at the target. The user loses 10% of its max HP.
 The user curls its metal hair around the target, trapping and damaging it for three turns.
 The user curls its metal hair around the target, trapping and damaging it for three turns.
-The user headbutts the target with a metal head. It has a 20% chance to make the target flinch.
-The user headbutts the target with a metal head. It has a 20% chance to make the target flinch.
+The user headbutts the target with a metal head. It has a 40% chance to make the target flinch.
+The user headbutts the target with a metal head. It has a 40% chance to make the target flinch.
 A large spike is shot at the target. If this causes the target to faint, a hazard layer of Spikes is set on the ground beneath them.
 A large spike is shot at the target. If this causes the target to faint, a hazard layer of Spikes is set on the ground beneath them.
 The target is pierced with a sharp iron arrow. Can random critical hit.
@@ -35079,6 +35075,10 @@ The user attacks the target with a sword. If it faints, tons of money is earned 
 The user attacks the target with a sword. If it faints, tons of money is earned after the battle.
 The user creates a high quality area for eight turns in which super-effective deals 25% more, and not very effective deals 25% less.
 The user creates a high quality area for eight turns in which super-effective deals 25% more, and not very effective deals 25% less.
+The user creates an explosion from powdered metal, inflicting damage to all nearby battlers.
+The user creates an explosion from powdered metal, inflicting damage to all nearby battlers.
+The user strikes with a full-force hammer blow.
+The user strikes with a full-force hammer blow.
 The user shoots a massive metal object at the target. The user is exhausted on the next turn.
 The user shoots a massive metal object at the target. The user is exhausted on the next turn.
 The user economizes half of its weight, healing based on the weight lost.
@@ -35119,8 +35119,6 @@ The user ponders ancient wisdom, selecting three random status moves. You choose
 The user ponders ancient wisdom, selecting three random status moves. You choose which one it uses.
 Charges by summoning sunshine for five turns, then overwhelms the foe with fiery light on the second turn.
 Charges by summoning sunshine for five turns, then overwhelms the foe with fiery light on the second turn.
-The user takes an aerial look at the field. This raises its Sp. Atk, Defense, and Accuracy by two steps.
-The user takes an aerial look at the field. This raises its Sp. Atk, Defense, and Accuracy by two steps.
 The user rushes the target at blazing-fast speed. This attack always goes before any other move.
 The user rushes the target at blazing-fast speed. This attack always goes before any other move.
 The foe is engulfed in a firestorm, trapping and damaging it for three turns.
@@ -35149,8 +35147,8 @@ The user sets the target on fire, inflicting a burn.
 The user sets the target on fire, inflicting a burn.
 If the target has a non-volatile status condition, this deals double damage and heals every battler's non-volatile status condition.
 If the target has a non-volatile status condition, this deals double damage and heals every battler's non-volatile status condition.
-The user cloaks itself in a fierce blaze and attacks. It has a 10% chance to raise Speed.
-The user cloaks itself in a fierce blaze and attacks. It has a 10% chance to raise Speed.
+The user cloaks itself in a fierce blaze and attacks. It has a 20% chance to raise Speed.
+The user cloaks itself in a fierce blaze and attacks. It has a 20% chance to raise Speed.
 The user burns the target, then welcomes in sunshine for eight turns.
 The user burns the target, then welcomes in sunshine for eight turns.
 The user warms up its body and attacks the target. It has a 10% chance to burn.
@@ -35251,6 +35249,8 @@ The user wields tidal power to grab at the target. This has a 10% chance to wate
 The user wields tidal power to grab at the target. This has a 10% chance to waterlog.
 The user uses a jet of water like a sword and attacks by slashing. Can random critical hit.
 The user uses a jet of water like a sword and attacks by slashing. Can random critical hit.
+The user charges and cures itself of non-volatile status conditions by sleeping on the first turn, then wakes to unleash the tides.
+The user charges and cures itself of non-volatile status conditions by sleeping on the first turn, then wakes to unleash the tides.
 The target is doused with water in order to waterlog it.
 The target is doused with water in order to waterlog it.
 The user crashes into the target with the force of a large wave. This has a 30% chance to lower Defense.
@@ -35261,8 +35261,8 @@ The user's song heals the non-volatile status conditions of all the party Pokém
 The user's song heals the non-volatile status conditions of all the party Pokémon, and forms an Aqua Ring around itself, healing 10% HP per turn.
 The target is inundated with a wave of seaweater. This has a 30% chance to waterlog.
 The target is inundated with a wave of seaweater. This has a 30% chance to waterlog.
-The user rides a wave, then crashes into the target. Has a 30% chance to cause a flinch.
-The user rides a wave, then crashes into the target. Has a 30% chance to cause a flinch.
+The user rides a wave, then crashes into the target. Has a 40% chance to cause a flinch.
+The user rides a wave, then crashes into the target. Has a 40% chance to cause a flinch.
 The user applies anesthetic substances, numbing the target.
 The user applies anesthetic substances, numbing the target.
 The user uses wind to blast its leaves at the target. This lowers the user's Defense and Sp. Def by two steps.
@@ -35277,8 +35277,6 @@ The user drops some heads from high up. The taller the user compared to the targ
 The user drops some heads from high up. The taller the user compared to the target, the greater the damage.
 The user flicks its thorns, dealing damage and setting a hazard layer of poison spikes around the target.
 The user flicks its thorns, dealing damage and setting a hazard layer of poison spikes around the target.
-The user attacks with the essence of life. It has a 20% chance to raise user's Sp. Atk.
-The user attacks with the essence of life. It has a 20% chance to raise user's Sp. Atk.
 The user fires a bolt of life energy at the target. It has a 20% chance to raise user's Sp. Atk.
 The user fires a bolt of life energy at the target. It has a 20% chance to raise user's Sp. Atk.
 The target is disoriented by an explosive seed. It has a 30% chance to dizzy.
@@ -35429,6 +35427,8 @@ The user psychically exploits weak points in the target's mind. Can random criti
 The user psychically exploits weak points in the target's mind. Can random critical hit, and does so twice as often.
 The user psychically modifies its own genes, transforming into either Overmatter form or Overmind form.
 The user psychically modifies its own genes, transforming into either Overmatter form or Overmind form.
+The user claps with the power of a hundred hands, psionically striking all nearby battlers.
+The user claps with the power of a hundred hands, psionically striking all nearby battlers.
 The user dizzies the target, then welcomes in eclipse for eight turns.
 The user dizzies the target, then welcomes in eclipse for eight turns.
 The user encourages the target to attack right after the user. Always goes first.
@@ -35469,14 +35469,14 @@ The user manifests a piercing bolt of psychic energy. It has a 50% chance to low
 The user manifests a piercing bolt of psychic energy. It has a 50% chance to lower Sp. Def.
 The user sends waves of cosmic energy to overwhelm the target's senses. Multi-hits two to five times.
 The user sends waves of cosmic energy to overwhelm the target's senses. Multi-hits two to five times.
+Charges with astral power and boosts its Attack by two steps on one turn, then attacks on the second turn.
+Charges with astral power and boosts its Attack by two steps on one turn, then attacks on the second turn.
 Protects the user from damage this turn. It also lowers the Sp. Def of special attackers by four steps.
 Protects the user from damage this turn. It also lowers the Sp. Def of special attackers by four steps.
 The user does an arcane dance to summon a Pearl Of Wisdom to hold. The Pearl boosts all stats by 20% and can be flung for huge damage.
 The user does an arcane dance to summon a Pearl Of Wisdom to hold. The Pearl boosts all stats by 20% and can be flung for huge damage.
 The target is scrutinized, damaging their psyche. Can random critical hit.
 The target is scrutinized, damaging their psyche. Can random critical hit.
-The user perfectly predicts the target's future location, then strikes. It lands without fail.
-The user perfectly predicts the target's future location, then strikes. It lands without fail.
 The user peruses its kingly stores of knowledge, selecting three random non-Psychic attacks. You choose which one it uses.
 The user peruses its kingly stores of knowledge, selecting three random non-Psychic attacks. You choose which one it uses.
 The user dazzles the target with celestial visions that lowers its Sp. Atk stat by five steps.
@@ -35577,16 +35577,16 @@ The user flies high up into the air at supersonic speeds, charging and becoming 
 The user flies high up into the air at supersonic speeds, charging and becoming invulnerable. It greatly increases in power the faster the user is.
 The user looms over the target with awful menace, lowering their highest stat by four steps.
 The user looms over the target with awful menace, lowering their highest stat by four steps.
-Attacks all near others with dragon energy. Power increases by 50% in eclipse.
-Attacks all near others with dragon energy. Power increases by 50% in eclipse.
+Attacks all foes with hidden draconic energy. Power increases by 50% in eclipse.
+Attacks all foes with hidden draconic energy. Power increases by 50% in eclipse.
 The user shreds through the opponent's defenses, ignoring positive stat changes and abilities.
 The user shreds through the opponent's defenses, ignoring positive stat changes and abilities.
 The user makes an offering, then multi-hits two to five times. Money is earned for each hit.
 The user makes an offering, then multi-hits two to five times. Money is earned for each hit.
 The shine from scales damages the target. This has a 20% chance to reduce the higher of the target's Attack or Sp. Atk.
 The shine from scales damages the target. This has a 20% chance to reduce the higher of the target's Attack or Sp. Atk.
-The user whips up a tornado to tear at the target. It has a 30% chance to make them flinch.
-The user whips up a tornado to tear at the target. It has a 30% chance to make them flinch.
+The user whips up a tornado to tear at the target. It has a 40% chance to make them flinch.
+The user whips up a tornado to tear at the target. It has a 40% chance to make them flinch.
 The user attacks with overwhelming power, ignoring positive stat changes and abilities.
 The user attacks with overwhelming power, ignoring positive stat changes and abilities.
 The user charges up insane amounts of energy the first turn, then transforms on the second turn.
@@ -35635,8 +35635,8 @@ The user raises all of their stats by two steps. Fails unless a foe is below hal
 The user raises all of their stats by two steps. Fails unless a foe is below half health.
 The user attacks with dark illusions. This also lowers the target's Defense stat by two steps.
 The user attacks with dark illusions. This also lowers the target's Defense stat by two steps.
-The target is confronted with painful words. It has a 30% chance to make the target flinch.
-The target is confronted with painful words. It has a 30% chance to make the target flinch.
+The target is confronted with painful words. It has a 40% chance to make the target flinch.
+The target is confronted with painful words. It has a 40% chance to make the target flinch.
 A punch that inflicts double the damage if the user has been hurt by the foe in the same turn.
 A punch that inflicts double the damage if the user has been hurt by the foe in the same turn.
 For the rest of the round, the healing of all damaged Pokémon is reversed.
@@ -35785,6 +35785,8 @@ The user growls fiercly, lowering each foe's Attack by two steps and raising its
 The user growls fiercly, lowering each foe's Attack by two steps and raising its own Attack by two steps.
 The user copies and gains the first ability of each foe.
 The user copies and gains the first ability of each foe.
+The user is roused, giving it the ability to use an extra move each turn.
+The user is roused, giving it the ability to use an extra move each turn.
 The user yawns, making all near foes drowsy. They'll fall asleep at end of turn next.
 The user yawns, making all near foes drowsy. They'll fall asleep at end of turn next.
 The user attacks with a swift chop, destroying barriers, and reducing the target's defense by five steps.
@@ -35821,8 +35823,8 @@ The user restores 1/8th of its HP, but begins eroding. At the end of each turn, 
 The user restores 1/8th of its HP, but begins eroding. At the end of each turn, its Defense and Sp. Def are lowered and its Attack and Sp. Atk are raised. User becomes Ground-type.
 The user lays 3 hazard layers of spikes at the foe's feet, and becomes Ground-type.
 The user lays 3 hazard layers of spikes at the foe's feet, and becomes Ground-type.
-A move that only the avatar of Groudon can use. For the rest of the battle, gravity is intensified and Pokemon have their weight doubled.
-A move that only the avatar of Groudon can use. For the rest of the battle, gravity is intensified and Pokemon have their weight doubled.
+A move that only the avatar of Groudon can use. Gravity is intensified for the rest of the battle.
+A move that only the avatar of Groudon can use. Gravity is intensified for the rest of the battle.
 The user attacks with a prehistoric power which raises all its stats.
 The user attacks with a prehistoric power which raises all its stats.
 The user attacks with a sparkling gem-like ray, dizzying the target.
@@ -35845,8 +35847,6 @@ Attackers against the user suffer recoil for the rest of the battle. User become
 Attackers against the user suffer recoil for the rest of the battle. User becomes Ghost-type.
 The user strikes the target with 3 punches like bullets. This move always goes first.
 The user strikes the target with 3 punches like bullets. This move always goes first.
-The user becomes a pain train. This raises the user's Speed by 2 steps.
-The user becomes a pain train. This raises the user's Speed by 2 steps.
 The target is raked with steel claws twice. The user raises its attack after each hit.
 The target is raked with steel claws twice. The user raises its attack after each hit.
 The target is obliterated by a meteoric strike, which raises the user's attack by two steps.
@@ -38977,8 +38977,6 @@ Berry Bunch
 Berry Bunch
 Big Boss
 Big Boss
-Cold-blooded
-Cold-blooded
 Bitter Cold
 Bitter Cold
 Bizarre
@@ -38995,6 +38993,8 @@ Bottom Feeder
 Bottom Feeder
 Boulder Nest
 Boulder Nest
+Bounce Back
+Bounce Back
 Brain Scramble
 Brain Scramble
 Breaking Wave
@@ -39017,6 +39017,8 @@ Burn Out
 Burn Out
 Burn Skill
 Burn Skill
+Caffeine Rush
+Caffeine Rush
 Candy Veil
 Candy Veil
 Cash Out
@@ -39047,6 +39049,8 @@ Clover Song
 Clover Song
 Clumsy Kinesis
 Clumsy Kinesis
+Cold-blooded
+Cold-blooded
 Cold Calculation
 Cold Calculation
 Cold Reception
@@ -39335,6 +39339,8 @@ Heroic Finale
 Heroic Finale
 High-rise
 High-rise
+Hive Mind
+Hive Mind
 Holiday Cheer
 Holiday Cheer
 Honorable
@@ -39577,6 +39583,10 @@ Petty
 Petty
 Phase Shift
 Phase Shift
+Pin Down
+Pin Down
+Pit Fighter
+Pit Fighter
 Placidity
 Placidity
 Planar Veil
@@ -39659,6 +39669,8 @@ Rock Body
 Rock Body
 Rock Climber
 Rock Climber
+Rolling Blows
+Rolling Blows
 Rooted
 Rooted
 Royal Majesty
@@ -39685,8 +39697,6 @@ Sand Sniper
 Sand Sniper
 Sandworn Auger
 Sandworn Auger
-Pit Fighter
-Pit Fighter
 Saturater
 Saturater
 Saturnal Sky
@@ -39793,6 +39803,8 @@ Steel Absorb
 Steel Absorb
 Steep Flying
 Steep Flying
+Stern
+Stern
 Sticky Fingers
 Sticky Fingers
 Sticky Mold
@@ -40410,8 +40422,6 @@ Can hold two different items, if both are Berries.
 Can hold two different items, if both are Berries.
 Boosts Defense by 25%. The Pokémon cannot be flinched.
 Boosts Defense by 25%. The Pokémon cannot be flinched.
-Its attacks are critical against frostbitten targets.
-Its attacks are critical against frostbitten targets.
 Causes hail to deal double damage and increase Defense of Ice-types by 2.0x instead of 1.5x.
 Causes hail to deal double damage and increase Defense of Ice-types by 2.0x instead of 1.5x.
 Its special attacks reduce the target's Sp. Def.
@@ -40428,6 +40438,8 @@ Heals from trapping damage it deals. Takes 25% less damage from Pokémon that ar
 Heals from trapping damage it deals. Takes 25% less damage from Pokémon that are trapped.
 Lays a hazard of levitating stones around the opponent when its HP is lowered below half.
 Lays a hazard of levitating stones around the opponent when its HP is lowered below half.
+When hit with an attack, uses Pain Split on the attacker if its HP is lower than the attacker.
+When hit with an attack, uses Pain Split on the attacker if its HP is lower than the attacker.
 Has a 30% chance to dizzy targets when using special moves.
 Has a 30% chance to dizzy targets when using special moves.
 Slips past hazards. On the first turn, its attacks are always critical.
@@ -40450,6 +40462,8 @@ Has a 30% chance to burn targets when using physical moves.
 Has a 30% chance to burn targets when using physical moves.
 Has a 30% chance to burn targets when using special moves.
 Has a 30% chance to burn targets when using special moves.
+During hail, the Pokémon's Speed is boosted by 50% and twice as likely to crit.
+During hail, the Pokémon's Speed is boosted by 50% and twice as likely to crit.
 Prevents itself and allies from being poisoned, leeched, or waterlogged.
 Prevents itself and allies from being poisoned, leeched, or waterlogged.
 Upon entry, consumes scattered coins to heal for 1/10th the amount consumed. This can overheal.
@@ -40480,12 +40494,14 @@ Sets a Lucky Chant upon entering the battle, protecting from critical hits for 1
 Sets a Lucky Chant upon entering the battle, protecting from critical hits for 10 turns.
 Can hold two items, but drops one when swapping out.
 Can hold two items, but drops one when swapping out.
+Its attacks are critical against frostbitten targets.
+Its attacks are critical against frostbitten targets.
 Boosts Sp. Atk by 75%, but the Pokémon becomes frostbitten after attacking.
 Boosts Sp. Atk by 75%, but the Pokémon becomes frostbitten after attacking.
 Immune to Ice-type moves, and raises Attack and Sp. Atk if hit by one.
 Immune to Ice-type moves, and raises Attack and Sp. Atk if hit by one.
-When hit with a physical move, traps and damages the attacker for three turns.
-When hit with a physical move, traps and damages the attacker for three turns.
+When hit with a physical move, traps and damages the attacker for three turns. Fails on turns the user switched in.
+When hit with a physical move, traps and damages the attacker for three turns. Fails on turns the user switched in.
 Using or being hit by a physical move leaves a rock on the field. Status moves collect them, healing by 1/4th each.
 Using or being hit by a physical move leaves a rock on the field. Status moves collect them, healing by 1/4th each.
 Changes to the form of your choosing after switching out.
@@ -40720,8 +40736,8 @@ Upon entry, intensifies gravity for four turns.
 Upon entry, intensifies gravity for four turns.
 Intensifies gravity for four turns when hit by an attack.
 Intensifies gravity for four turns when hit by an attack.
-Moves that bind the opponent deal 50% more damage (on the initial hit).
-Moves that bind the opponent deal 50% more damage (on the initial hit).
+Moves that trap and damage the opponent for three turns deal 50% more damage on the initial hit.
+Moves that trap and damage the opponent for three turns deal 50% more damage on the initial hit.
 Boosts Sp. Def by two steps when hit by an attack.
 Boosts Sp. Def by two steps when hit by an attack.
 Raises Attack whenever any Pokémon uses a dance move.
@@ -40766,6 +40782,8 @@ Turns to Finale Form when only unfainted on team. Ability becomes Inner Focus.
 Turns to Finale Form when only unfainted on team. Ability becomes Inner Focus.
 The Pokémon and its allies are immune to weather downsides.
 The Pokémon and its allies are immune to weather downsides.
+Powers up Bug-type moves of itself and its allies by 50%.
+Powers up Bug-type moves of itself and its allies by 50%.
 When entering battle, heals self and allies for 25% of their max health.
 When entering battle, heals self and allies for 25% of their max health.
 Lowers priority of status moves used by any Pokémon.
@@ -40884,8 +40902,8 @@ Transforms into Midnight Form at the Full Moon. Ability becomes No Guard.
 Transforms into Midnight Form at the Full Moon. Ability becomes No Guard.
 The Pokémon's Speed is doubled while using Sound-based moves.
 The Pokémon's Speed is doubled while using Sound-based moves.
-Traps foes whose Sp. Atk is less than its.
-Traps foes whose Sp. Atk is less than its.
+When hit with a special move, traps and damages the attacker for three turns. Fails on turns the user switched in.
+When hit with a special move, traps and damages the attacker for three turns. Fails on turns the user switched in.
 If an attack lowers the Pokémon's HP to half or less, the attacker becomes cursed.
 If an attack lowers the Pokémon's HP to half or less, the attacker becomes cursed.
 When attacking during moonglow, uses the target's Attack and Sp. Atk instead of its own.
@@ -40952,8 +40970,8 @@ During moonglow, Speed is boosted by 50% and twice as likely to crit.
 During moonglow, Speed is boosted by 50% and twice as likely to crit.
 Deals no damage to a target while they are using a status move.
 Deals no damage to a target while they are using a status move.
-Traps foes whose Attack is less than its.
-Traps foes whose Attack is less than its.
+Traps foes when they are below half health.
+Traps foes when they are below half health.
 Reduces each other Pokémon's HP by 1/12th at the end of each turn.
 Reduces each other Pokémon's HP by 1/12th at the end of each turn.
 Physical moves have a 30% chance to numb targets.
@@ -41008,6 +41026,10 @@ Whenever a foe raises their stats, the Pokémon follows suit.
 Whenever a foe raises their stats, the Pokémon follows suit.
 The Pokémon's moves deal 50% more damage if they're a different type than last.
 The Pokémon's moves deal 50% more damage if they're a different type than last.
+The user's moves cannot miss against trapped targets.
+The user's moves cannot miss against trapped targets.
+Deals 30% more damage to trapped foes.
+Deals 30% more damage to trapped foes.
 Takes no damage from non-volatile status conditions.
 Takes no damage from non-volatile status conditions.
 Sets screens for two more turns.
@@ -41090,6 +41112,8 @@ Heals 1/8th of its max HP each turn during sandstorm.
 Heals 1/8th of its max HP each turn during sandstorm.
 Immune to Rock-type moves and to Stealth Rock, and raises Speed whenever one would hit it.
 Immune to Rock-type moves and to Stealth Rock, and raises Speed whenever one would hit it.
+Takes 50% less damage while performing a move which charges up or exhausts the user.
+Takes 50% less damage while performing a move which charges up or exhausts the user.
 Gets 50% more healing from all sources.
 Gets 50% more healing from all sources.
 Makes foes unable to use priority moves.
@@ -41116,8 +41140,6 @@ Boosts the Pokémon's Speed by 50% in sandstorm. Can't miss during sandstorm.
 Boosts the Pokémon's Speed by 50% in sandstorm. Can't miss during sandstorm.
 During sandstorm, the Pokémon's Speed is boosted by 50% and twice as likely to crit.
 During sandstorm, the Pokémon's Speed is boosted by 50% and twice as likely to crit.
-Upon entry, traps each opponent in a sand tomb for two turns.
-Upon entry, traps each opponent in a sand tomb for two turns.
 Special moves have a 30% chance to waterlog targets.
 Special moves have a 30% chance to waterlog targets.
 Changes the weather to ring eclipse, which heralds the total ring eclipse. Lingers for 3 turns after leaving.
@@ -41224,6 +41246,8 @@ Immune to Steel-type moves and restores 25% of max HP if hit by one.
 Immune to Steel-type moves and restores 25% of max HP if hit by one.
 Fly and Dive Bomb deal 50% more damage.
 Fly and Dive Bomb deal 50% more damage.
+Its attacks are critical against waterlogged targets.
+Its attacks are critical against waterlogged targets.
 Can hold a second item by stealing it.
 Can hold a second item by stealing it.
 If an attack lowers its HP to half or less, leeches the attacker.
@@ -45287,8 +45311,8 @@ Save downgraded to version {1}
 Save downgraded to version {1}
 your party
 your party
-storage box #{i}
-storage box #{i}
+storage box {1}
+storage box {1}
 the Time Capsule
 the Time Capsule
 Your name?
@@ -48469,6 +48493,12 @@ Multi Target
 Multi Target
 No Target
 No Target
+Which multi-target?
+Which multi-target?
+Foes Only
+Foes Only
+Targets Allies
+Targets Allies
 Not Signature
 Not Signature
 Move learnable by?
@@ -48965,8 +48995,6 @@ It doesn't affect {1}...
 {1} is pained by its dreams!
 {1} transformed!
 {1} transformed!
-{1} luxuriated in its fine clothing.
-{1} luxuriated in its fine clothing.
 {1}'s inner fire flared up!
 {1}'s inner fire flared up!
 {1} finally cooled off!
@@ -48975,24 +49003,26 @@ It doesn't affect {1}...
 {1} grows one size bigger!
 {1} is fully grown!
 {1} is fully grown!
-{1} also heals {2}!
-{1} also heals {2}!
 {1} is hurt by the noxious presence!
 {1} is hurt by the noxious presence!
 {1} is splashed with fire!
 {1} is splashed with fire!
 {1} has restructured!
 {1} has restructured!
-Healing
-Healing
-Where to direct power?
-Where to direct power?
 {1} harvested one {2}!
 {1} harvested one {2}!
 {1} withdrew another {2}!
 {1} withdrew another {2}!
 {1} was delivered one {2}!
 {1} was delivered one {2}!
+{1} also heals {2}!
+{1} also heals {2}!
+{1} luxuriated in its fine clothing.
+{1} luxuriated in its fine clothing.
+Healing
+Healing
+Where to direct power?
+Where to direct power?
 {1} incorporates hail into its body.
 {1} incorporates hail into its body.
 {1} soaks up the rain.
@@ -49147,8 +49177,6 @@ The strength is becoming a curse!
 {1} mended {2} with soothing sounds!
 {1} became trapped in the vortex!
 {1} became trapped in the vortex!
-{1} became trapped in the sand!
-{1} became trapped in the sand!
 {1} regrew one {2}!
 {1} regrew one {2}!
 {1} is Mutant-type!
@@ -50543,10 +50571,18 @@ No moves barred! {1} can use off-type moves again!
 {1} is being constricted!
 {1} was freed from constriction!
 {1} was freed from constriction!
-{1} is no longer constricted by {2}.
-{1} is no longer constricted by {2}.
+{1} is no longer constricted.
+{1} is no longer constricted.
 {1} is hurt by constriction!
 {1} is hurt by constriction!
+{1} is being magnetized!
+{1} is being magnetized!
+{1} was freed from the magnet trap!
+{1} was freed from the magnet trap!
+{1} is no longer magnetized.
+{1} is no longer magnetized.
+{1} is hurt by the magnet trap!
+{1} is hurt by the magnet trap!
 {1} gained the {2} type!
 {1} gained the {2} type!
 {1} is unburdened of its item. Its Speed doubled!
@@ -50669,20 +50705,16 @@ It'll deal a third less move damage for the next {1} turns!
 {1} is frozen into a sculpture! It won't be able to move this turn!
 Gravity intensified!
 Gravity intensified!
-Everyone is twice as accurate!
-Everyone is twice as accurate!
+Everyone is twice as accurate and weighs twice as much!
+Everyone is twice as accurate and weighs twice as much!
 {1} couldn't stay airborne because of gravity!
 {1} couldn't stay airborne because of gravity!
 Gravity was forced back to normal!
 Gravity was forced back to normal!
 Gravity returned to normal.
 Gravity returned to normal.
-Gravity was extremely warped!
-Gravity was extremely warped!
-Everyone is twice as accurate and weighs twice as much!
-Everyone is twice as accurate and weighs twice as much!
-The warped gravity was forced back to normal!
-The warped gravity was forced back to normal!
+This will last for the rest of the battle!
+This will last for the rest of the battle!
 A deluge of ions showers the battlefield!
 A deluge of ions showers the battlefield!
 Gas nullified all abilities!
@@ -51649,6 +51681,8 @@ But it failed, since the target is already marked for death!
 {1} became cloaked in a freezing light!
 {1} became cloaked in freezing air!
 {1} became cloaked in freezing air!
+{1} takes a curative nap!
+{1} takes a curative nap!
 {1} is overflowing with power!
 {1} is overflowing with power!
 {1} is overflowing with space power!
@@ -57111,10 +57145,6 @@ failure
 <u>Reward</u>: {1}
 Reloaded successfully!
 Reloaded successfully!
-File was not found, but it has been created and loaded.
-File was not found, but it has been created and loaded.
-Failed to create or load the file.<<n>>({1})
-Failed to create or load the file.<<n>>({1})
 Failed to reload: An error occurred.<<n>>({1})
 Failed to reload: An error occurred.<<n>>({1})
 Enter Debug Password.
@@ -61306,6 +61336,8 @@ Trapped By
 Trapped By
 Constricted Turns
 Constricted Turns
+Magnet Trap Turns
+Magnet Trap Turns
 Not Slacking Off
 Not Slacking Off
 Two Turn Attack
@@ -61490,8 +61522,8 @@ Fusion Flare
 Fusion Flare
 Gravity Turns
 Gravity Turns
-Warped Core
-Warped Core
+Intense Gravity
+Intense Gravity
 Ion Deluge
 Ion Deluge
 Hard Worker
@@ -62049,6 +62081,8 @@ Striker
 Striker
 Super Nerd
 Super Nerd
+Surfer
+Surfer
 Suspicious Man
 Suspicious Man
 Swimmer

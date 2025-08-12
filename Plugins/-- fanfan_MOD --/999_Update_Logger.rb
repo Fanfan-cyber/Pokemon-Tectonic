@@ -187,7 +187,8 @@ disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
 25.现在可以通过输入密码smartai关闭AI弱化，即使用常规AI
 26.现在可以通过输入密码revengeplus开启新版复仇机制，新版复仇机制在原有的复仇机制下增加了新的效果，现在因队友濒死而替换上场的精灵的第一个回合，技能威力和速度增加25%
 27.现在可以通过输入密码norevengeplus关闭新版复仇机制
-28.
+28.修复了Pin Down不生效的Bug
+29.
 
 0.3.9 Genesis Dawn / 初光伊临
 1.修复了锦标赛中Lambert的队伍发生异常的Bug

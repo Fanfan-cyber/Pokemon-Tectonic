@@ -26,7 +26,7 @@ SPECIES_ABILITY_DATA = {
   [:GIGANTEON, 0]   => { :fixed => %i[], :changeable => %i[ULTRAADAPTED GARGANTUAN], },
 
   [:EISCUE, 0]      => { :fixed => %i[], :changeable => %i[ICEBLOCK BURDENED], },
-  [:EISCUE, 1]      => { :fixed => %i[], :changeable => %i[ICEBLOCK BITTER], },
+  [:EISCUE, 1]      => { :fixed => %i[], :changeable => %i[ICEBLOCK COLDBLOODED], },
 
   [:FOONGUS, 0]     => { :fixed => %i[], :changeable => %i[REGENERATOR BURDENED], },
   [:AMOONGUSS, 0]   => { :fixed => %i[], :changeable => %i[REGENERATOR BURDENED], },
@@ -44,9 +44,9 @@ SPECIES_ABILITY_DATA = {
   [:AEGISLASH, 0]   => { :fixed => %i[], :changeable => %i[STANCECHANGE ABSOLUTEDEFENSE], },
   [:AEGISLASH, 1]   => { :fixed => %i[], :changeable => %i[STANCECHANGE FULLMETALBODY], },
 
-  [:HORSEA, 0]      => { :fixed => %i[], :changeable => %i[SNIPER GYRESPINNER], },
-  [:SEADRA, 0]      => { :fixed => %i[], :changeable => %i[SNIPER GYRESPINNER], },
-  [:KINGDRA, 0]     => { :fixed => %i[], :changeable => %i[SNIPER GYRESPINNER], },
+  [:HORSEA, 0]      => { :fixed => %i[], :changeable => %i[SNIPER STERN], },
+  [:SEADRA, 0]      => { :fixed => %i[], :changeable => %i[SNIPER STERN], },
+  [:KINGDRA, 0]     => { :fixed => %i[], :changeable => %i[SNIPER STERN], },
 
   [:KANGASKHAN, 0]  => { :fixed => %i[], :changeable => %i[INNERFOCUS VITALSPIRIT], },
   [:TEAMUJIN, 0]    => { :fixed => %i[], :changeable => %i[INNERFOCUS VITALSPIRIT], },
