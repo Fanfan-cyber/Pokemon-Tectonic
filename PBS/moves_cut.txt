@@ -1259,6 +1259,19 @@ Flags = CanProtect,Sound
 EffectChance = 30
 Description = The user creates distorted guitar sounds to attack the target. It has a 30% chance to dizzy.
 #-------------------------------
+[MURKYFOG]
+Name = Murky Fog
+Type = POISON
+Category = Special
+Power = 85
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = Invalid
+Flags = CanProtect
+Description = The user attacks with a pitch black fog. All of the target's stat changes are returned to normal.
+Animation = SMOKESCREEN
+#-------------------------------
 [POISONPOWDER]
 Name = Poison Powder
 Type = POISON
@@ -1930,6 +1943,18 @@ FunctionCode = Invalid
 Flags = CanSnatch
 Description = The user engages its gears to raise the Attack and Sp. Atk of allies with the Plus or Minus Ability.
 #-------------------------------
+[IRONTAIL]
+Name = Iron Tail
+Type = STEEL
+Category = Physical
+Power = 115
+Accuracy = 80
+TotalPP = 12
+Target = NearOther
+FunctionCode = Invalid
+Flags = CanProtect
+Description = The target is slammed with a steel-hard tail.
+#-------------------------------
 [JOUST]
 Name = Joust
 Type = STEEL
@@ -2283,6 +2308,16 @@ Target = NearOther
 FunctionCode = Invalid
 Flags = CanProtect,CanMagicCoat
 Description = The user shoots a torrent of water at the target and changes the target's type to Water.
+#-------------------------------
+[SPLASH]
+Name = Splash
+Type = WATER
+Category = Status
+Accuracy = 0
+TotalPP = 30
+Target = User
+FunctionCode = Invalid
+Description = The user just flops and splashes around to no effect at all...
 #-------------------------------
 [TIDALKINESIS]
 Name = Tidalkinesis
