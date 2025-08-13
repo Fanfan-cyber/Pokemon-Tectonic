@@ -34494,7 +34494,7 @@ The user faints in order to lower the target's Attack and Sp. Atk by five steps.
 The user slashes the target the instant an opportunity arises. Can random critical hit.
 抓住瞬间的空隙切斩对手。能够随机命中要害。
 Protects the user from damage this turn. It also lowers the Defense of physical attackers by four steps.
-完全抵挡对手的攻击。一旦触碰，物防就会减小4级。
+完全抵挡对手的攻击。一旦被攻击，就会使攻击者的物防减小4级。
 The user lowers the target's Attack and Sp. Atk by two steps. Then, the user switches out.
 使用者减小目标的双攻2级，然后进行替换。
 If the user moves after the target, this attack's power will be doubled.
@@ -34508,7 +34508,7 @@ The user suppresses the target and makes its move go last.
 The user yells as if it is ranting about something, lowering the target's Sp. Atk by two steps.
 没完没了地大声斥责，从而大幅度减小对手的特攻。
 The user steals the effects of any healing or stat-changing move the foe attempts to use.
-将对手打算使用的回复技能或能力变化类技能夺为己用。
+将对手打算使用的回复类技能或能力等级改变类技能夺为己用。
 This move enables the user to attack first. It fails if the target is not readying an attack, however.
 可以比对手先攻击。对手使用的技能如果不是伤害类技能则会失败。
 The user trades held items with the target faster than the eye can follow.
@@ -35174,7 +35174,7 @@ Summons sunshine for six turns, boosting Fire-type attacks and hindering most ot
 The user attacks twice with tar globs. If two targets, the hits spread. Reduces targets' Speed.
 发射黏稠的沥青攻击2次。如果有2个目标，攻击就会扩散并减小它们的速度。
 The user launches volcanic debris, dealing damage and setting a hazard layer of burning spikes around the target.
-使用者发射火山碎片，造成伤害并在目标周围设置焰菱。
+使用者发射火山碎片，造成伤害并在目标的场上设置焰菱。
 The user surrounds the target with fire which also destroys any clothing items it's holding.
 使用者用火焰包围目标，同时摧毁目标携带的任何衣物类物品。
 A distinguished attack that motivates nearby allies to follow, letting them act immediately after.
@@ -35192,7 +35192,7 @@ The user jumps out of the water to attack. Has a 20% chance to reduce Defense.
 The user creates numerous bubbles to explode against the target. Multi-hits two to five times.
 使用者制造许多气泡来对目标爆炸。连续攻击2-5次。
 The user creates a bubble to shield their ally. The next time they're hit, 50% of the move damage is instead dealt back as recoil.
-制造1个气泡保护队友，下1次被命中后，将50%的伤害反弹给对方。
+制造1个气泡保护队友，当处于气泡保护下的队友被攻击时，气泡会破裂，使受到的伤害减小50%，然后攻击者也会受到同等的伤害。
 A blast of bubbles is shot at the target. It has a 20% chance to lower the target's Speed stat.
 一串泡泡射向对手。20%概率减小对手的速度。
 The user dives deep on the first turn, charging and becoming invulnerable, then rises and strikes with explosive strength on the second.
@@ -38471,7 +38471,7 @@ A radiant wing. It radiates misery, but you feel peaceful holding it. Returning 
 A glamorous steel card. While holding it, all vendors cost 10% less and Pokécenter Marts have extra items.
 一张华丽的钢制卡片。携带它时，所有商店的费用减小10%，并且精灵中心商店会有额外的物品。
 A vessel for negative emotions. Perfectly defeat enough trainers to earn its rewards.
-一种承载负面情绪的容器。完美打倒足够的训练师以获得奖励。
+一种承载负面情绪的容器。完胜足够多的训练师就可以获得奖励。
 A smart phone. Use it to take selfies.
 智能手机。可用于自拍。
 A drop of ancient clay. Use it to summon a Pokemon from a resonating totem.
@@ -40671,7 +40671,7 @@ On the first turn, its attacks frostbite the target.
 Attacks this Pokémon uses that don't share a type with it are boosted by 30%.
 使用非本属性技能时，威力增加30%。
 Grows at the end of each turn, slowing down but improving other stats.
-每回合结束时长大，变成速度更低，但其他能力增加的形态。
+每回合结束时长大，变成速度更小，但其他能力更大的形态。
 Doubles Attack, but the Pokémon becomes dizzy after attacking.
 物攻翻倍，但是攻击后会使自身陷入混乱。
 Upon entry, summons a Cruel Cocoon on the Pokémon's side for 6 turns.
@@ -40859,7 +40859,7 @@ Physical moves against the Pokémon have a 30% chance to leech the attacker.
 Rather than take recoil damage, it swaps out, and its replacement takes that damage.
 不会受到反伤，而是替换出其它精灵代替它承受反伤。
 Pokémon can't raise their stats. Pokémon that dance take damage equal to 1/4th their HP.
-所有精灵无法增加能力等级。使用舞蹈类技能的精灵会受到其HP四分之一的伤害。
+所有精灵无法增加能力等级。使用舞蹈类技能的精灵会受到其最大HP四分之一的伤害。
 Uses Snatch upon entry, stealing self-targeting status moves.
 进入战斗后立即使用抢夺。
 Boosts the power of punching moves by 50%.
@@ -41347,7 +41347,7 @@ Powers up Ground-type moves by 50%.
 Powers up moves of the same type by 50%.
 本属性技能的威力增加50%。
 Takes half damage from Dark- and Bug-type moves.
-受到恶、虫属性技能攻击伤害减半。
+受到恶属性和虫属性技能的攻击时，伤害减半。
 Before using a status move against a single foe, lowers their Defense by two steps.
 对单个对手使用变化类技能前，使其物防减小2级。
 Moves ignore Abilities that would affect its moves or activate after hitting the target, and immunities due to typing.
@@ -47051,6 +47051,8 @@ Set Title
 设置称号
 Set Trait
 设置性情
+Former Champion Team
+前冠军队伍
 Swap Ball
 交换球
 {1}'s nickname?
@@ -57259,6 +57261,10 @@ Your Victory count is {1}!<<n>>Your Defeat count is {2}!
 你的胜利计数是{1}！<<n>>你的失败计数是{2}！
 There aren't any teams in the Battle Loader!
 战斗模拟器中没有任何队伍！
+Former Champion
+前冠军
+All Teams
+所有队伍
 Team
 队伍
 Random Team
@@ -57279,6 +57285,8 @@ Your team has been exported!
 你的队伍已导出！
 Team {1} has been deleted!
 队伍{1}已被删除！
+The team can't be deleted!
+改队伍无法被删除！
 Do you want to take a Pokémon from the opposing party?
 你想从对方队伍中带走一只精灵吗？
 Which Pokémon do you want to take?
