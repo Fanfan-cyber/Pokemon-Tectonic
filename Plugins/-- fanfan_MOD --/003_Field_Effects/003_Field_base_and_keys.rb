@@ -1,8 +1,18 @@
 class PokeBattle_Battle::Field_base < PokeBattle_Battle::Field
-  def initialize(battle, duration = PokeBattle_Battle::Field::INFINITE_FIELD_DURATION, *args)
+  def initialize(battle, duration = PokeBattle_Battle::Field::INFINITE_FIELD_DURATION)
     super
-    @id       = :base
-    @name     = _INTL("Base")
+    @id   = :base
+    @name = _INTL("Base")
+  end
+end
+
+PokeBattle_Battle::Field.register(:base, {
+  :special      => true,
+  :trainer_name => [],
+  :map_id       => [],
+  :edge_type    => [],
+  :description  => ""
+})
 
 =begin
     :accuracy_modify
@@ -35,15 +45,8 @@ class PokeBattle_Battle::Field_base < PokeBattle_Battle::Field
     :switch_in
     :tailwind_duration
     :target_expand
+    
+    :no_recharging
+    :change_effectiveness
+    :block_weather
 =end
-
-  end
-end
-
-PokeBattle_Battle::Field.register(:base, {
-  :special      => true,
-  :trainer_name => [],
-  :map_id       => [],
-  :edge_type    => [],
-  :description  => ""
-})

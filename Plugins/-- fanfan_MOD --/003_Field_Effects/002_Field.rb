@@ -21,9 +21,7 @@ class PokeBattle_Battle::Field
                    end_field_battle end_field_battler].freeze
 
   @@field_data = {}
-  def self.register(field, data)
-    field_id = field.to_s.downcase.to_sym
-
+  def self.register(field_id, data)
     define_method("is_#{field_id}?") { @id == field_id } # define is_xxx? Field instance method
 
     PokeBattle_Battle.class_eval do # define is_xxx? Battle instance method

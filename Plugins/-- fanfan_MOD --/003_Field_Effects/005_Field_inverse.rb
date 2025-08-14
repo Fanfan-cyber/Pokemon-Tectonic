@@ -1,5 +1,5 @@
 class PokeBattle_Battle::Field_inverse < PokeBattle_Battle::Field
-  def initialize(battle, duration = PokeBattle_Battle::Field::DEFAULT_FIELD_DURATION, *args)
+  def initialize(battle, duration = PokeBattle_Battle::Field::INFINITE_FIELD_DURATION)
     super
     @id                 = :inverse
     @name               = _INTL("Inverse Field")
@@ -11,12 +11,8 @@ class PokeBattle_Battle::Field_inverse < PokeBattle_Battle::Field
 end
 
 PokeBattle_Battle::Field.register(:inverse, {
-  :trainer_name => [],
-  :environment  => [],
-  :map_id       => [],
-  :edge_type    => [],
   :description  => <<-DESC
 #-------------------- 反转场地 / Inverse Field [IF] --------------------#
-# 属性克制发生发转
+# 属性克制发生反转
 DESC
 })
