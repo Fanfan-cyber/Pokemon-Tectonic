@@ -290,7 +290,7 @@ class PokeBattle_Battler
         speed = statAfterStep(:SPEED, step)
         speedMult = 1.0
 
-        ret = @battle.apply_field_effect(:calc_speed, self, speed, speedMult, aiCheck)
+        ret = @battle.apply_field_effect(:modify_speed, self, speed, speedMult, aiCheck)
         speedMult = ret if ret
 
         unless aiCheck
@@ -352,7 +352,7 @@ class PokeBattle_Battler
 
         if move
             targets = pbFindTargets(@battle.choices[@index][3], move, self)
-            ret = @battle.apply_field_effect(:speed_modify, self, targets, move, aiCheck)
+            ret = @battle.apply_field_effect(:modify_speed_2, self, targets, move, aiCheck)
             @field_speed_modifier = ret
             aiSpeedMult *= ret if ret && aiCheck
         end

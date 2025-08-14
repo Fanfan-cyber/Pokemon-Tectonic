@@ -7,7 +7,7 @@ class PokeBattle_Move
     def pbBaseType(user)
         ret = @type
 
-        ret_type = @battle.apply_field_effect(:base_type_change, user, self)
+        ret_type = @battle.apply_field_effect(:modify_move_base_type, user, type, self)
         ret = ret_type if ret_type
 
         if ret
@@ -67,12 +67,11 @@ class PokeBattle_Move
         new_ret = @battle&.apply_inverse(ret)
         ret = new_ret if new_ret
 
-        ret_type = @battle&.apply_field_effect(:move_second_type_on_calc, ret, moveType, defType, user, target)
+        ret_type = @battle&.apply_field_effect(:add_move_second_type, self, ret, moveType, defType, user, target)
         if ret_type && GameData::Type.exists?(ret_type)
             ret_eff = Effectiveness.calculate_one(ret_type, defType)
             ret *= @battle.apply_inverse(ret_eff).to_f / Effectiveness::NORMAL_EFFECTIVE_ONE
         end
-
         return ret
     end
 
@@ -177,7 +176,7 @@ class PokeBattle_Move
     def pbCalcAccuracyModifiers(user, target, modifiers, aiCheck = false, aiType = nil)
         typeToUse = aiCheck ? aiType : @calcType
 
-        @battle.apply_field_effect(:accuracy_modify, user, target, self, modifiers, typeToUse, aiCheck)
+        @battle.apply_field_effect(:modify_accuracy, user, target, self, modifiers, typeToUse, aiCheck)
 
         # Ability effects that alter accuracy calculation
         user.eachAbilityShouldApply(aiCheck) do |ability|

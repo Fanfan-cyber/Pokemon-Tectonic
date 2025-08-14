@@ -454,7 +454,7 @@ class PokemonDataBox < SpriteWrapper
 		  pbDrawNumber(-1,@hpNumbers.bitmap,54,2)   # / char
 		  pbDrawNumber(@battler.totalhp,@hpNumbers.bitmap,70,2)
    elsif @battler.battle.trainerBattle? && @sideSize <= 2 && !@onPlayerSide
-      percent = 100 * self.hp / @battler.totalhp
+      percent = (100 * self.hp / @battler.totalhp).ceil
       pbDrawNumber(percent,@hpNumbers.bitmap,78,0)
 		end
 		

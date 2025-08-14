@@ -15,16 +15,12 @@ PokeBattle_Battle::Field.register(:base, {
 })
 
 =begin
-    :accuracy_modify
-    :base_type_change
+    :add_move_second_type
     :begin_battle
     :block_berry
     :block_gem
     :block_heal
     :block_leftovers
-    :block_move
-    :calc_damage
-    :calc_speed
     :end_field_battle
     :end_field_battler
     :end_field_battler_universal
@@ -32,20 +28,24 @@ PokeBattle_Battle::Field.register(:base, {
     :end_of_move_universal
     :EOR_field_battle
     :EOR_field_battler
-    :move_priority_change
-    :move_second_type_on_calc
-    :nature_power_change
+    :modify_accuracy
+    :modify_damage
+    :modify_move_base_type
+    :modify_nature_power
+    :modify_priority
+    :modify_secret_power_effect
+    :modify_speed
+    :modify_speed_2
     :no_charging
-    :secret_power_effect
     :set_field_battle
     :set_field_battler
     :set_field_battler_universal
-    :speed_modify
+    :spread_move_target
     :status_immunity
     :switch_in
     :tailwind_duration
-    :target_expand
-    
+
+    :block_move
     :no_recharging
     :change_effectiveness
     :block_weather

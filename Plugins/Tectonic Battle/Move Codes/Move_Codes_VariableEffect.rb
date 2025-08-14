@@ -5,7 +5,7 @@ class PokeBattle_Move_EffectDependsOnEnvironment < PokeBattle_Move
     def flinchingMove?; return [6, 10, 12].include?(@secretPower); end
 
     def pbOnStartUse(_user, _targets)
-        ret = @battle.apply_field_effect(:secret_power_effect, _user, _targets, self)
+        ret = @battle.apply_field_effect(:modify_secret_power_effect, _user, _targets, self)
         if ret
             @secretPower = ret
             return
@@ -112,7 +112,7 @@ class PokeBattle_Move_UseMoveDependingOnEnvironment < PokeBattle_Move
     def callsAnotherMove?; return true; end
 
     def calculateNaturePower
-        ret = @battle.apply_field_effect(:nature_power_change, self)
+        ret = @battle.apply_field_effect(:modify_nature_power, self)
         return ret if ret && GameData::Move.exists?(ret)
 
         npMove = :RUIN

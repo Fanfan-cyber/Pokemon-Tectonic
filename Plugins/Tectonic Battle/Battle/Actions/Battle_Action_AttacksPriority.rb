@@ -258,8 +258,8 @@ class PokeBattle_Battle
     def getMovePriority(move, user, targets, aiCheck = false)
         priority = move.priority
 
-        ret = apply_field_effect(:move_priority_change, move, user, targets, aiCheck)
-        priority += ret if ret
+        ret = apply_field_effect(:modify_priority, move, user, targets, priority, aiCheck)
+        priority = ret if ret
 
         priority -= 1 if pbCheckGlobalAbility(:HONORABLE) && move.statusMove?
         user.eachAbilityShouldApply(aiCheck) do |ability|

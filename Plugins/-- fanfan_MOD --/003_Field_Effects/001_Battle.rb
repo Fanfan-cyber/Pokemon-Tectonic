@@ -415,7 +415,7 @@ class PokeBattle_Battle
   end
 
   def get_tailwind_duration(orig_turn = 4, user = nil)
-    ret = apply_field_effect(:tailwind_duration, user)
+    ret = apply_field_effect(:tailwind_duration, orig_turn, user)
     orig_turn += ret if ret
     orig_turn
   end

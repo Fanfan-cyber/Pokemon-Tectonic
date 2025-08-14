@@ -75,7 +75,7 @@ class PokeBattle_Move
       targetData = GameData::Target.get(@target)
       # Effects that make things spread
       if damagingMove? && targetData.can_target_one_foe?
-        return GameData::Target.get(:AllNearFoes) if @battle.apply_field_effect(:target_expand, user, self, targetData)
+        return GameData::Target.get(:AllNearFoes) if @battle.apply_field_effect(:spread_move_target, user, self, @calcType, targetData)
         return GameData::Target.get(:AllNearFoes) if user.effectActive?(:FlareWitch)
         return GameData::Target.get(:AllNearFoes) if @calcType == :PSYCHIC && user.hasActiveAbility?(:MULTITASKER)
         return GameData::Target.get(:AllNearFoes) if @calcType == :FIGHTING && user.hasActiveAbility?(:EVENHANDED)

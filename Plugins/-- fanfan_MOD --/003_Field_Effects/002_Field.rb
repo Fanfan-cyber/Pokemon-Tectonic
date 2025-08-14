@@ -1,7 +1,7 @@
 class PokeBattle_Battle::Field
   attr_reader :battle, :id, :name, :duration, :effects, :field_announcement
   attr_reader :multipliers, :strengthened_message, :weakened_message
-  attr_reader :nature_power_change, :secret_power_effect, :tailwind_duration, :inverse_battle
+  attr_reader :modify_nature_power, :modify_secret_power_effect, :tailwind_duration, :inverse_battle
   attr_reader :creatable_field, :always_online
 
   DEFAULT_FIELD_DURATION  = 5
@@ -17,7 +17,7 @@ class PokeBattle_Battle::Field
   ANNOUNCE_FIELD_DURATION_EXPAND   = true
 
   PARADOX_KEYS = %i[begin_battle set_field_battle set_field_battler set_field_battler_universal
-                   nature_power_change secret_power_effect tailwind_duration inverse_battle
+                   modify_nature_power modify_secret_power_effect tailwind_duration inverse_battle
                    end_field_battle end_field_battler].freeze
 
   @@field_data = {}
@@ -63,7 +63,7 @@ class PokeBattle_Battle::Field
     @creatable_field           = []
     @always_online             = []
 
-    @effects[:calc_damage] = proc { |user, target, numTargets, move, type, power, mults, aiCheck|
+    @effects[:modify_damage] = proc { |user, target, numTargets, move, type, power, mults, aiCheck|
       @multipliers.each do |mult_data, calc_proc|
         mult = mult_data[1]
         next if mult == 1.0
@@ -103,10 +103,10 @@ class PokeBattle_Battle::Field
 
     @effects[:end_field_battler_universal] = proc { |battler| battler.pbItemHPHealCheck }
 
-    @effects[:nature_power_change] = proc { |_move                 | next @nature_power_change }
-    @effects[:secret_power_effect] = proc { |_user, _targets, _move| next @secret_power_effect }
-    @effects[:tailwind_duration]   = proc { |_user                 | next @tailwind_duration }
-    @effects[:inverse_battle]      = proc {                          next @inverse_battle }
+    @effects[:modify_nature_power]        = proc { |_move                 | next @modify_nature_power }
+    @effects[:modify_secret_power_effect] = proc { |_user, _targets, _move| next @modify_secret_power_effect }
+    @effects[:tailwind_duration]          = proc { |_orig_turn, _user     | next @tailwind_duration }
+    @effects[:inverse_battle]             = proc {                          next @inverse_battle }
     
     yield if block_given?
   end
