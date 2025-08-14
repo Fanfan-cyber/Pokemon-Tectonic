@@ -31874,8 +31874,6 @@ Amnesia
 Amnesia
 Calm Mind
 Calm Mind
-Cosmic Power
-Cosmic Power
 Eerie Spell
 Eerie Spell
 Freezing Glare
@@ -33152,6 +33150,8 @@ Guttural Roar
 Guttural Roar
 Heliopause
 Heliopause
+Hiss
+Hiss
 Jet Speed
 Jet Speed
 Loom Over
@@ -33162,8 +33162,6 @@ Rend
 Rend
 Sacred Lots
 Sacred Lots
-Scale Glint
-Scale Glint
 Scour
 Scour
 Shred
@@ -34315,8 +34313,6 @@ The user temporarily empties its mind to forget its concerns. It raises the user
 The user temporarily empties its mind to forget its concerns. It raises the user's Sp. Def by four steps.
 The user quietly focuses its mind to raise its Sp. Atk and Sp. Def by two steps.
 The user quietly focuses its mind to raise its Sp. Atk and Sp. Def by two steps.
-The user absorbs a mystical power from space to raise its Defense and Sp. Def by two steps.
-The user absorbs a mystical power from space to raise its Defense and Sp. Def by two steps.
 The user casts a horrible spell on the opponent. This removes 4 PP from their last used move.
 The user casts a horrible spell on the opponent. This removes 4 PP from their last used move.
 The user shoots its psychic power from its eyes to attack. It has a 20% chance to frostbite.
@@ -34585,8 +34581,8 @@ The user stimulates its brain by planning. It raises the user's Sp. Atk by three
 The user stimulates its brain by planning. It raises the user's Sp. Atk by three steps.
 The user chooses between the three most recent moves used by the opposing team, and uses that move themselves.
 The user chooses between the three most recent moves used by the opposing team, and uses that move themselves.
-The user curls up to conceal weak spots and raise both of its Defense and Sp. Def by two steps.
-The user curls up to conceal weak spots and raise both of its Defense and Sp. Def by two steps.
+The user curls up to conceal weak spots and raise both of its Defense and Sp. Def.
+The user curls up to conceal weak spots and raise both of its Defense and Sp. Def.
 The user dazzles nearby foes with light. Their Sp. Atk is lowered by two steps.
 The user dazzles nearby foes with light. Their Sp. Atk is lowered by two steps.
 The user shoots a pulse of diffuse energy at the target.
@@ -35573,6 +35569,8 @@ The user shakes the target with a deep, rumbling roar. This attack does physical
 The user shakes the target with a deep, rumbling roar. This attack does physical damage.
 Protects the user from attacks. If an eclipse is active, extends it by one turn. Fails if used in succession.
 Protects the user from attacks. If an eclipse is active, extends it by one turn. Fails if used in succession.
+The target is harmed by a malevolent sound. This has a 20% chance to reduce the higher of the target's Attack or Sp. Atk.
+The target is harmed by a malevolent sound. This has a 20% chance to reduce the higher of the target's Attack or Sp. Atk.
 The user flies high up into the air at supersonic speeds, charging and becoming invulnerable. It greatly increases in power the faster the user is.
 The user flies high up into the air at supersonic speeds, charging and becoming invulnerable. It greatly increases in power the faster the user is.
 The user looms over the target with awful menace, lowering their highest stat by four steps.
@@ -35583,8 +35581,6 @@ The user shreds through the opponent's defenses, ignoring positive stat changes 
 The user shreds through the opponent's defenses, ignoring positive stat changes and abilities.
 The user makes an offering, then multi-hits two to five times. Money is earned for each hit.
 The user makes an offering, then multi-hits two to five times. Money is earned for each hit.
-The shine from scales damages the target. This has a 20% chance to reduce the higher of the target's Attack or Sp. Atk.
-The shine from scales damages the target. This has a 20% chance to reduce the higher of the target's Attack or Sp. Atk.
 The user whips up a tornado to tear at the target. It has a 40% chance to make them flinch.
 The user whips up a tornado to tear at the target. It has a 40% chance to make them flinch.
 The user attacks with overwhelming power, ignoring positive stat changes and abilities.
@@ -38899,14 +38895,10 @@ Acid Rain
 Acid Rain
 Adapted
 Adapted
-Adaptive Skin
-Adaptive Skin
 Adrenaline Rush
 Adrenaline Rush
 Aerodynamic
 Aerodynamic
-Aeroshell
-Aeroshell
 Afrotection
 Afrotection
 Afterimage
@@ -39023,6 +39015,8 @@ Candy Veil
 Candy Veil
 Cash Out
 Cash Out
+Celebration
+Celebration
 Celeritas
 Celeritas
 Challenger
@@ -39055,6 +39049,8 @@ Cold Calculation
 Cold Calculation
 Cold Reception
 Cold Reception
+Color Collector
+Color Collector
 Constrictor
 Constrictor
 Core Provenance
@@ -39205,8 +39201,6 @@ Fiery Glow
 Fiery Glow
 Fiery Spirit
 Fiery Spirit
-Fiesta
-Fiesta
 Fighting Vigor
 Fighting Vigor
 Filthy
@@ -39771,8 +39765,6 @@ Solo Nocturne
 Solo Nocturne
 Sopping
 Sopping
-Sound Barrier
-Sound Barrier
 Space Interloper
 Space Interloper
 Spacial Distortion
@@ -39951,6 +39943,8 @@ Waterfall Conditioning
 Waterfall Conditioning
 Weathered
 Weathered
+Well Rounded
+Well Rounded
 Well Suited
 Well Suited
 White Knight
@@ -40344,14 +40338,10 @@ At the end of each turn in rainstorm, each Pokémon not immune to rainstorm has 
 At the end of each turn in rainstorm, each Pokémon not immune to rainstorm has their Defense and Sp. Def lowered.
 Powers up moves of the same type by 33%.
 Powers up moves of the same type by 33%.
-After being hit, the Pokémon raises either Defense or Sp. Def based on the attack's category. Caps out at +4.
-After being hit, the Pokémon raises either Defense or Sp. Def based on the attack's category. Caps out at +4.
 Raises Speed by four steps when its HP is lowered below half.
 Raises Speed by four steps when its HP is lowered below half.
 Grants immunity to Flying-type moves and raises Speed if hit by one.
 Grants immunity to Flying-type moves and raises Speed if hit by one.
-After using a wind move, raises the Pokémon's Defense and Sp. Def. Caps out at +4.
-After using a wind move, raises the Pokémon's Defense and Sp. Def. Caps out at +4.
 Protects the Pokémon from recoil damage. The Pokémon doesn't trigger items, abilities, or effects of targets it hits.
 Protects the Pokémon from recoil damage. The Pokémon doesn't trigger items, abilities, or effects of targets it hits.
 Slips past all types of Spikes hazards. Deals 50% more damage to targets that switched in this turn.
@@ -40468,6 +40458,8 @@ Prevents itself and allies from being poisoned, leeched, or waterlogged.
 Prevents itself and allies from being poisoned, leeched, or waterlogged.
 Upon entry, consumes scattered coins to heal for 1/10th the amount consumed. This can overheal.
 Upon entry, consumes scattered coins to heal for 1/10th the amount consumed. This can overheal.
+Heals by 1/5th HP whenever any Pokémon uses a dance move. Can overheal.
+Heals by 1/5th HP whenever any Pokémon uses a dance move. Can overheal.
 The Pokémon's Speed is doubled while using light-based moves.
 The Pokémon's Speed is doubled while using light-based moves.
 Immune to Fighting-type moves, and raises Attack and Sp. Atk if hit by one.
@@ -40500,6 +40492,8 @@ Boosts Sp. Atk by 75%, but the Pokémon becomes frostbitten after attacking.
 Boosts Sp. Atk by 75%, but the Pokémon becomes frostbitten after attacking.
 Immune to Ice-type moves, and raises Attack and Sp. Atk if hit by one.
 Immune to Ice-type moves, and raises Attack and Sp. Atk if hit by one.
+When hit with an attack, gains that attack's type.
+When hit with an attack, gains that attack's type.
 When hit with a physical move, traps and damages the attacker for three turns. Fails on turns the user switched in.
 When hit with a physical move, traps and damages the attacker for three turns. Fails on turns the user switched in.
 Using or being hit by a physical move leaves a rock on the field. Status moves collect them, healing by 1/4th each.
@@ -40648,8 +40642,6 @@ The Pokémon is also Fire-type.
 The Pokémon is also Fire-type.
 Special moves against the Pokémon have a 30% chance to burn the attacker.
 Special moves against the Pokémon have a 30% chance to burn the attacker.
-Heals by 1/8th HP whenever any Pokémon uses a dance or sound move.
-Heals by 1/8th HP whenever any Pokémon uses a dance or sound move.
 Heals 1/16th HP every turn. Protected from being numbed or waterlogged.
 Heals 1/16th HP every turn. Protected from being numbed or waterlogged.
 Immune to Poison-type moves, and boosts Defense and Sp. Def when hit by one.
@@ -40740,8 +40732,8 @@ Moves that trap and damage the opponent for three turns deal 50% more damage on 
 Moves that trap and damage the opponent for three turns deal 50% more damage on the initial hit.
 Boosts Sp. Def by two steps when hit by an attack.
 Boosts Sp. Def by two steps when hit by an attack.
-Raises Attack whenever any Pokémon uses a dance move.
-Raises Attack whenever any Pokémon uses a dance move.
+Raises Attack and Sp. Atk whenever any Pokémon uses a dance move.
+Raises Attack and Sp. Atk whenever any Pokémon uses a dance move.
 Heals 1/16th HP every turn. Protected from being poisoned.
 Heals 1/16th HP every turn. Protected from being poisoned.
 Upon entry, traps each opponent in a whirlpool for two turns.
@@ -41214,14 +41206,12 @@ Doubles Defense in moonglow.
 Doubles Defense in moonglow.
 Physical attacks against the Pokémon have a 30% chance to waterlog the attacker.
 Physical attacks against the Pokémon have a 30% chance to waterlog the attacker.
-After using a sound move, raises the Pokémon's Defense and Sp. Def. Caps out at +4.
-After using a sound move, raises the Pokémon's Defense and Sp. Def. Caps out at +4.
 Attacks hit twice for half damage, drain 25% of damage dealt and become special.
 Attacks hit twice for half damage, drain 25% of damage dealt and become special.
 Your attacks become spread.
 Your attacks become spread.
-Raises defenses after using a Grass-, Ground-, or Steel-type move. Caps out at +4.
-Raises defenses after using a Grass-, Ground-, or Steel-type move. Caps out at +4.
+The Pokemon is healed for 1/5th HP after using a Grass-, Ground-, or Steel-type move. Can overheal.
+The Pokemon is healed for 1/5th HP after using a Grass-, Ground-, or Steel-type move. Can overheal.
 The Pokémon and its allies' moves are twice as likely to be critical.
 The Pokémon and its allies' moves are twice as likely to be critical.
 Leaves two hazard layers of Spikes after it self-destructs.
@@ -41388,6 +41378,8 @@ Boosts Speed by 50% in rainstorm. Can't miss during rainstorm.
 Boosts Speed by 50% in rainstorm. Can't miss during rainstorm.
 Immune to weather downsides, and takes 20% less damage from attacks during weather.
 Immune to weather downsides, and takes 20% less damage from attacks during weather.
+Powers up all tagged moves by 20%.
+Powers up all tagged moves by 20%.
 Takes 50% less damage from not-very-effective or barely-effective attacks.
 Takes 50% less damage from not-very-effective or barely-effective attacks.
 Draws in moves from foes with base power 100 or more. Takes 15% less move damage.
@@ -49073,6 +49065,8 @@ Ripples of time shimmer around {1}!
 Ripples of time shimmer around {1}!
 {1} turned {2}'s {3} into gold!
 {1} turned {2}'s {3} into gold!
+{1} gathered up material.
+{1} gathered up material.
 But {1} is already energized...
 But {1} is already energized...
 {1}'s fur is standing sharp! {2} is hurt!
@@ -49085,6 +49079,8 @@ But {1} is already energized...
 {1} catches the full force of {2}'s Speed!
 {1} was warned not to attack {2} again!
 {1} was warned not to attack {2} again!
+{1} collected the {2} type!
+{1} collected the {2} type!
 {1} ate {2}'s {3}!
 {1} ate {2}'s {3}!
 {1} is the team's finale!
@@ -57239,6 +57235,10 @@ Do you want to put {1} in the Time Capsule?
 Do you want to put {1} in the Time Capsule?
 {1} is in the Time Capsule now!
 {1} is in the Time Capsule now!
+Team {1} has been deleted!
+Team {1} has been deleted!
+The team can't be deleted!
+The team can't be deleted!
 Do you want to add the opposing team to the Battle Loader?
 Do you want to add the opposing team to the Battle Loader?
 Which battle rule do you want to use?
@@ -57259,12 +57259,14 @@ Your Victory count is {1}!<<n>>Your Defeat count is {2}!
 Your Victory count is {1}!<<n>>Your Defeat count is {2}!
 There aren't any teams in the Battle Loader!
 There aren't any teams in the Battle Loader!
-Team
-Team
+All Teams
+All Teams
 Random Team
 Random Team
 Random Pokémon Team
 Random Pokémon Team
+Former Champion Team
+Former Champion Team
 Copy Team
 Copy Team
 Which team do you want to copy?
@@ -57273,12 +57275,12 @@ Which team do you want to challenge?
 Which team do you want to challenge?
 Do you want to use other battle rules?
 Do you want to use other battle rules?
+You can't challenge Former Champion Team, because you don't have 8 badges!
+You can't challenge Former Champion Team, because you don't have 8 badges!
 Which battle rule do you want?
 Which battle rule do you want?
 Your team has been exported!
 Your team has been exported!
-Team {1} has been deleted!
-Team {1} has been deleted!
 Do you want to take a Pokémon from the opposing party?
 Do you want to take a Pokémon from the opposing party?
 Which Pokémon do you want to take?
@@ -57515,328 +57517,12 @@ The field weakened the attack
 {1} on {2}!
 Base
 Base
-Example Field
-Example Field
-The Example field is activated!
-The Example field is activated!
-The Example field is working!
-The Example field is working!
-The Example field disappeared!
-The Example field disappeared!
-The field softened the attack!
-The field softened the attack!
-Boom!
-Boom!
-The {1} made it rain!
-The {1} made it rain!
-{1} gained power from the {2}!
-{1} gained power from the {2}!
-{1}'s HP was restored by the {2}!
-{1}'s HP was restored by the {2}!
-{1} was protected by the {2}!
-{1} was protected by the {2}!
-The new weather can't start!
-The new weather can't start!
-Focus and relax to the sound of crashing waves...
-Focus and relax to the sound of crashing waves...
-The shore recedes from the battlefield!
-The shore recedes from the battlefield!
-Sand mixed into the attack!
-Sand mixed into the attack!
-...And with pure focus!
-...And with pure focus!
-The sand strengthened the atttack!
-The sand strengthened the atttack!
-The salty sea strengthened the attack!
-The salty sea strengthened the attack!
-Time for crab!
-Time for crab!
-A shining shell on the beach!
-A shining shell on the beach!
-Surf's up!
-Surf's up!
-...And with full focus...
-...And with full focus...
-...And with focus...
-...And with focus...
-The attack stirred up the ash on the ground!
-The attack stirred up the ash on the ground!
-{1} was protected from confusion!
-{1} was protected from confusion!
-{1} was protected from confusion because of its focus!
-{1} was protected from confusion because of its focus!
-Burning Field
-Burning Field
-The field was covered by intense flames!
-The field was covered by intense flames!
-The flames disappeared from the field!
-The flames disappeared from the field!
-{1} can't sleep on the burning field!
-{1} can't sleep on the burning field!
-The cave echoes dully...
-The cave echoes dully...
-The cavern strengthened the attack!
-The cavern strengthened the attack!
-...Piled on!
-...Piled on!
-ECHO-Echo-echo!
-ECHO-Echo-echo!
-The cavern froze over!
-The cavern froze over!
-The cave was littered with crystals!
-The cave was littered with crystals!
-The cave was corrupted!
-The cave was corrupted!
-The flame ignited the cave!
-The flame ignited the cave!
-The cave choked out the air!
-The cave choked out the air!
-The streets are busy...
-The streets are busy...
-The street is cleared!
-The street is cleared!
-In the cracks and the walls!
-In the cracks and the walls!
-The hustle and bustle of the city!
-The hustle and bustle of the city!
-All kinds of pollution strengthened the attack!
-All kinds of pollution strengthened the attack!
-The right tool for the job!
-The right tool for the job!
-This is no place for fairytales...
-This is no place for fairytales...
-An overwhelming first impression!
-An overwhelming first impression!
-A crowd is gathering!
-A crowd is gathering!
-Working 9 to 5 for this!
-Working 9 to 5 for this!
-The city smog is suffocating!
-The city smog is suffocating!
-Careful on the street!
-Careful on the street!
-The power of science is amazing!
-The power of science is amazing!
-The criminal ran into a backalley!
-The criminal ran into a backalley!
-The city is no place for a family!
-The city is no place for a family!
-{1} Big Pecks raise its Defense!
-{1} Big Pecks raise its Defense!
-The early bird catches the worm!
-The early bird catches the worm!
-{1} is picking up Speed!!
-{1} is picking up Speed!!
-The busy city is rattling!
-The busy city is rattling!
-Free Wifi!
-Free Wifi!
-Just a routine inspection.
-Just a routine inspection.
-Cursed Field
-Cursed Field
-The field was cursed by evil spirits!
-The field was cursed by evil spirits!
-The spirits disappeared from the field!
-The spirits disappeared from the field!
-Electric Field
-Electric Field
-The field is hyper-charged!
-The field is hyper-charged!
-An electric current is running across the field!
-An electric current is running across the field!
-The electric current disappeared from the field!
-The electric current disappeared from the field!
-{1} can't sleep on the electrified field!
-{1} can't sleep on the electrified field!
-The field is abound with trees.
-The field is abound with trees.
-The trees disappear from the battlefield!
-The trees disappear from the battlefield!
-The forestry strengthened the attack!
-The forestry strengthened the attack!
-The attack spreads through the forest!
-The attack spreads through the forest!
-A tree slammed down!
-A tree slammed down!
-They're coming out of the woodwork!
-They're coming out of the woodwork!
-Gossamer and arbor strengthened the attack!
-Gossamer and arbor strengthened the attack!
-The apple did not fall far from the tree.
-The apple did not fall far from the tree.
-The forest softened the attack...
-The forest softened the attack...
-{1} can't sleep in the {2}!
-{1} can't sleep in the {2}!
-Frozen Field
-Frozen Field
-The field was covered by a layer of sliding ice!
-The field was covered by a layer of sliding ice!
-The ice disappeared from the field!
-The ice disappeared from the field!
-{1} slipped!
-{1} slipped!
-It hurt itself!
-It hurt itself!
-Grassy Field
-Grassy Field
-The field is in full bloom!
-The field is in full bloom!
-Grass is covering the field!
-Grass is covering the field!
-The grass disappeared from the field!
-The grass disappeared from the field!
-The grass softened the attack!
-The grass softened the attack!
-Icy
-Icy
-The field is covered in ice.
-The field is covered in ice.
-The ice melted from the field!
-The ice melted from the field!
-The cold strengthened the attack!
-The cold strengthened the attack!
-The cold softened the attack...
-The cold softened the attack...
-The ice melted away!
-The ice melted away!
-{1} was frozen by the pure malice!
-{1} was frozen by the pure malice!
 Inverse Field
 Inverse Field
 !trats elttaB
 !trats elttaB
 The field recovered to normal!
 The field recovered to normal!
-Misty Field
-Misty Field
-Mist settles on the field!
-Mist settles on the field!
-Mist is swirling about the field!
-Mist is swirling about the field!
-The mist disappeared from the field!
-The mist disappeared from the field!
-{1} is protected by the misty field!
-{1} is protected by the misty field!
-Psychic Field
-Psychic Field
-The field became mysterious!
-The field became mysterious!
-The field is weird!
-The field is weird!
-The weirdness disappeared from the field!
-The weirdness disappeared from the field!
-{1} is protected by the psychic field!
-{1} is protected by the psychic field!
-Ravine
-Ravine
-The field was become an ravine!
-The field was become an ravine!
-The cliff disappeared from the field!
-The cliff disappeared from the field!
-Sandy Field
-Sandy Field
-The field was covered by a layer of quicksand!
-The field was covered by a layer of quicksand!
-The quicksand disappeared from the field!
-The quicksand disappeared from the field!
-Swamp
-Swamp
-The field was taken by a swamp!
-The field was taken by a swamp!
-The swamp disappeared from the field!
-The swamp disappeared from the field!
-Venomous Field
-Venomous Field
-The field was covered by a venomous sludge!
-The field was covered by a venomous sludge!
-The sludge disappeared from the field!
-The sludge disappeared from the field!
-Volcanic
-Volcanic
-The field is molten.
-The field is molten.
-The flames were snuffed out!
-The flames were snuffed out!
-The flames spread from the attack!
-The flames spread from the attack!
-The target was knocked into the flames!
-The target was knocked into the flames!
-The blaze amplified the attack!
-The blaze amplified the attack!
-The blaze softened the attack...
-The blaze softened the attack...
-{1}'s Ice Face melted in the heat!
-{1}'s Ice Face melted in the heat!
-{1} was burned by the volcanic field!
-{1} was burned by the volcanic field!
-{1} is being boosted by the flames!
-{1} is being boosted by the flames!
-{1} is exchanging the flames for power!
-{1} is exchanging the flames for power!
-{1} gained power from the volcanic field!
-{1} gained power from the volcanic field!
-{1} cannot be frozen in the volcanic field!
-{1} cannot be frozen in the volcanic field!
-The intense heat of the volcanic field prevents hail from forming!
-The intense heat of the volcanic field prevents hail from forming!
-Volcanictop
-Volcanictop
-The mountain top is superheated.
-The mountain top is superheated.
-The attack was super-heated!
-The attack was super-heated!
-The extreme heat softened the attack...
-The extreme heat softened the attack...
-The field super-heated the attack!
-The field super-heated the attack!
-The field powers up the attack!
-The field powers up the attack!
-The field powers up the flaming attacks!
-The field powers up the flaming attacks!
-The heat is powerning the steam engine!
-The heat is powerning the steam engine!
-Steam shot up from the field!
-Steam shot up from the field!
-The volcano is going to erupt!
-The volcano is going to erupt!
-{1} collapsed from the volcanic heat!
-{1} collapsed from the volcanic heat!
-The Desolate Land causes the volcano to erupt!
-The Desolate Land causes the volcano to erupt!
-The volcano erupts!
-The volcano erupts!
-protective move
-protective move
-Fire typing
-Fire typing
-{1} is immune to the eruption! ({2})
-{1} is immune to the eruption! ({2})
-The sticky tar intensifies the heat!
-The sticky tar intensifies the heat!
-{1} is hurt by the eruption!
-{1} is hurt by the eruption!
-{1} woke up due to the eruption!
-{1} woke up due to the eruption!
-The eruption removed all hazards from the field!
-The eruption removed all hazards from the field!
-{1}'s Leech Seed burned away in the eruption!
-{1}'s Leech Seed burned away in the eruption!
-{1}'s Flash Fire activated!
-{1}'s Flash Fire activated!
-{1}'s Magma Armor hardened!
-{1}'s Magma Armor hardened!
-{1}'s Flare Boost activated!
-{1}'s Flare Boost activated!
-{1}'s Fire type was restored!
-{1}'s Fire type was restored!
-The hail melted away.
-The hail melted away.
-{1} was badly poisoned by the volcanic gases!
-{1} was badly poisoned by the volcanic gases!
-Searing flames engulfed {1}!
-Searing flames engulfed {1}!
 No.
 No.
 Why are you down here?
@@ -61506,6 +61192,8 @@ Refuge
 Refuge
 Frozen Sculpture
 Frozen Sculpture
+Collecting Colors
+Collecting Colors
 Temporal Shift Receiver
 Temporal Shift Receiver
 Ancestral Summons Receiver

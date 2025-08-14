@@ -31874,8 +31874,6 @@ Amnesia
 瞬间失忆
 Calm Mind
 冥想
-Cosmic Power
-宇宙力量
 Eerie Spell
 诡异咒语
 Freezing Glare
@@ -33152,6 +33150,8 @@ Guttural Roar
 喉咙咆哮
 Heliopause
 日鞘
+Hiss
+嘶嘶声
 Jet Speed
 喷射加速
 Loom Over
@@ -33162,8 +33162,6 @@ Rend
 撕碎
 Sacred Lots
 神圣命签
-Scale Glint
-闪鳞
 Scour
 冲蚀
 Shred
@@ -33690,7 +33688,7 @@ The user chomps hard on the target with its sharp front fangs. It cuts the targe
 The user generates odd sound waves from its body. The target becomes dizzy.
 从身体发出特殊的音波，从而使对手混乱。
 The user consumes its Stockpile to heal for 50% max HP per stack. This can overheal.
-消耗蓄力囤积的力量，每层回复50%最大HP，可过量回复。
+消耗蓄力囤积的力量，每层回复50%最大HP，可以过量回复。
 Star-shaped rays are shot at the target. Can't miss and skips protections.
 发出星形射线攻击目标，攻击必定会命中，且无视保护类效果。
 A physical attack in which the user slams into the target with its whole body.
@@ -34315,8 +34313,6 @@ The user temporarily empties its mind to forget its concerns. It raises the user
 将头脑清空，瞬间忘记某事，从而增加自身的特防4级。
 The user quietly focuses its mind to raise its Sp. Atk and Sp. Def by two steps.
 使用者静静地集中精神，增加特攻和特防2级。
-The user absorbs a mystical power from space to raise its Defense and Sp. Def by two steps.
-使用者吸收来自太空的神秘力量，增加双防2级。
 The user casts a horrible spell on the opponent. This removes 4 PP from their last used move.
 用强大的精神力量攻击。让对手最后使用的技能减小4PP。
 The user shoots its psychic power from its eyes to attack. It has a 20% chance to frostbite.
@@ -34585,8 +34581,8 @@ The user stimulates its brain by planning. It raises the user's Sp. Atk by three
 通过规划刺激自身的大脑，使自身的特攻增加3级。
 The user chooses between the three most recent moves used by the opposing team, and uses that move themselves.
 从对方最近使用的3个技能中选择1个，并使用此技能。
-The user curls up to conceal weak spots and raise both of its Defense and Sp. Def by two steps.
-使用者蜷缩起来，使自身的双防增加2级。
+The user curls up to conceal weak spots and raise both of its Defense and Sp. Def.
+使用者蜷缩身体，使自身的双防增加1级。
 The user dazzles nearby foes with light. Their Sp. Atk is lowered by two steps.
 使用者以光芒眩惑周围敌人，使其特攻减小2级。
 The user shoots a pulse of diffuse energy at the target.
@@ -34828,7 +34824,7 @@ The user attacks by hurling a blob of mud. It has a 20% chance to reduce the tar
 The user attacks while balled up. This counts as a usage of Fury Cutter, Rock Roll, or Snowball.
 在攻击时卷成一团。将计入连斩，岩石滚动，或雪球的使用次数。
 The user shapes primal clay to heal a nearby ally for their max HP. This can overheal. The user is exhausted on the next turn.
-用原初黏土为队友恢复全部HP，可过量回复。下1回合将陷入僵直状态。
+用原初黏土为队友恢复全部HP，可以过量回复。下1回合将陷入僵直状态。
 The user hits a pitch that turns earth and stone to dust, damaging its foes.
 使用能够将泥土和石头化为粉尘的音调，对对手造成伤害。
 The user hits the target with each of its heads from underground. Strikes three times.
@@ -34946,7 +34942,7 @@ The user attacks with small beams of light. It has a 40% chance to make the targ
 The user attacks with a blinding flash of bioluminscence. It has a 40% chance to make the target flinch.
 使用者用耀眼的生物发光攻击目标。有40%的概率使目标畏缩。
 All foes have their Attack and Sp. Atk lowered. They can only target the user this turn.
-让所有敌人的物攻和特攻减小1级。本回合它们只能以使用者为目标使用技能。
+让所有敌人的双攻减小1级。本回合它们只能以使用者为目标使用技能。
 The foe is stabbed once by each of the user's stingers.
 身上的每一根刺都会刺击对方1次。
 The user makes a plea for survival, halving the damage their side takes from non-attack sources for 8 turns.
@@ -35573,6 +35569,8 @@ The user shakes the target with a deep, rumbling roar. This attack does physical
 使用低沉的吼声震慑目标，造成物理类伤害。
 Protects the user from attacks. If an eclipse is active, extends it by one turn. Fails if used in succession.
 保护使用者免受攻击。如果处于日食状态，将其增加1回合。连续使用会失败。
+The target is harmed by a malevolent sound. This has a 20% chance to reduce the higher of the target's Attack or Sp. Atk.
+让目标被恶意的声音伤害，有20%的概率使目标较高的一项攻击减小1级。
 The user flies high up into the air at supersonic speeds, charging and becoming invulnerable. It greatly increases in power the faster the user is.
 使用者以超音速飞到高空，进行蓄力并变得无敌。速度越大，威力越大。
 The user looms over the target with awful menace, lowering their highest stat by four steps.
@@ -35583,8 +35581,6 @@ The user shreds through the opponent's defenses, ignoring positive stat changes 
 破坏对手的防御，无视其特性和增加的能力等级。
 The user makes an offering, then multi-hits two to five times. Money is earned for each hit.
 使用者连续攻击2-5次。每次攻击都会获得金钱。
-The shine from scales damages the target. This has a 20% chance to reduce the higher of the target's Attack or Sp. Atk.
-使用鳞片的光芒对目标造成伤害，有20%的概率减小目标较高的物攻或特攻1级。
 The user whips up a tornado to tear at the target. It has a 40% chance to make them flinch.
 使用者卷起龙卷风撕裂目标，有40%的概率使目标畏缩。
 The user attacks with overwhelming power, ignoring positive stat changes and abilities.
@@ -35840,7 +35836,7 @@ The user restores 1/8th of its HP, summons an allied Combee, and becomes Bug-typ
 The user sharply boosts their Sp. Atk, Sp. Def, and Speed, and becomes Bug-type.
 增加自身的特攻、特防和速度，并使自身变为虫属性。
 Nearby foes are bound with silk, sharply lowering their Speed, Atk., and Sp. Atk User also becomes Bug-type.
-用丝线捆绑附近的对手，大幅度减小其速度、攻击和特攻，并使自身变为虫属性。
+用丝线捆绑附近的对手，大幅度减小其速度、双攻，并使自身变为虫属性。
 The user applies a damaging curse to all nearby foes. User becomes a Ghost-type.
 诅咒附近的所有对手，并使自身变为幽灵属性。
 Attackers against the user suffer recoil for the rest of the battle. User becomes Ghost-type.
@@ -35868,7 +35864,7 @@ The user lays 2 hazard layers of flaming spikes at the foe's feet, and becomes F
 The user inflicts burns on all nearby foes. User becomes a Fire-type.
 使附近的所有对手烧伤，并使自身变为火属性。
 The user summons sunshine for 5 turns, boosts its Atk. and Sp. Atk, and becomes Fire-type.
-召唤持续5回合的晴天，增加自身的攻击和特攻，并使自身变为火属性。
+召唤持续5回合的晴天，增加自身的双攻，并使自身变为火属性。
 A spray of bubbles is forcefully ejected at all nearby foes, lowering their Speed by 3 steps.
 一股气泡强力喷射向所有附近的敌方，使其速度减小3级。
 It swamps the area with a giant wave, hitting every battler nearby and underwater.
@@ -37959,9 +37955,9 @@ Raises Speed by two steps when the Pokémon uses a wind move the first time each
 Raises Speed by two steps when the Pokémon uses a kicking move the first time each battle.
 首次使用踢类技能时，速度增加2级。
 Consumed to heal for one third of max HP when the Pokémon uses a punching move. This can overheal.
-使用拳类技能时消耗道具，回复最大HP的1/3，可过量回复。
+使用拳类技能时消耗道具，回复最大HP的1/3，可以过量回复。
 Consumed to heal for one third of max HP when the Pokémon uses a pulse move. This can overheal.
-使用脉冲类技能时消耗道具，回复最大HP的1/3，可过量回复。
+使用脉冲类技能时消耗道具，回复最大HP的1/3，可以过量回复。
 A held item. The holder is protected from the negative effects of weather.
 携带它的精灵将不受各种天气的影响。
 A held item. It changes the holder's type in battle. You can change which type between battles.
@@ -38899,14 +38895,10 @@ Acid Rain
 酸雨
 Adapted
 适应之力
-Adaptive Skin
-适应性皮肤
 Adrenaline Rush
 激素飙升
 Aerodynamic
 乘风
-Aeroshell
-气流外壳
 Afrotection
 安全防护
 Afterimage
@@ -39023,6 +39015,8 @@ Candy Veil
 糖果幕
 Cash Out
 兑现
+Celebration
+庆祝
 Celeritas
 迅捷
 Challenger
@@ -39055,6 +39049,8 @@ Cold Calculation
 冷静
 Cold Reception
 冷遇
+Color Collector
+色彩收集者
 Constrictor
 蟒蛇
 Core Provenance
@@ -39205,8 +39201,6 @@ Fiery Glow
 炽烈辉光
 Fiery Spirit
 炽热精神
-Fiesta
-节日庆典
 Fighting Vigor
 斗志昂扬
 Filthy
@@ -39771,8 +39765,6 @@ Solo Nocturne
 夜曲独奏
 Sopping
 湿透
-Sound Barrier
-声障
 Space Interloper
 空间闯入者
 Spacial Distortion
@@ -39951,6 +39943,8 @@ Waterfall Conditioning
 瀑布调节
 Weathered
 饱经风霜
+Well Rounded
+全面发展
 Well Suited
 超级适配
 White Knight
@@ -40033,7 +40027,7 @@ Test Ability
 测试特性
 [11]
 Suppresses the effects of weather.
-所有天气的影响都会消失。
+使天气的影响消失。
 Boosts move power when the Pokémon moves last by 30%.
 如果在最后使用技能，技能的威力会增加。
 Possesses two Abilities: Unnerve and Grim Neigh.
@@ -40077,7 +40071,7 @@ Powers up each Pokémon's Dark-type moves.
 Raises Defense when the Pokémon enters a battle.
 出场时，物防增加1级。
 Halves move damage when HP becomes half or less.
-HP减半时，会变得软弱，攻击和特攻会减半。
+HP减半时，会变得软弱，双攻会减半。
 Raises Attack by four steps when a stat is lowered by a foe.
 如果能力被减小，物攻增加2级。
 Changes the weather to Strong Winds, which remove Flying-type's weaknesses. Lingers for 3 turns after leaving.
@@ -40344,14 +40338,10 @@ At the end of each turn in rainstorm, each Pokémon not immune to rainstorm has 
 在暴雨的每个回合结束时，每个不免疫暴雨的负面效果的精灵的双防减小1级。
 Powers up moves of the same type by 33%.
 本属性技能的威力增加33%。
-After being hit, the Pokémon raises either Defense or Sp. Def based on the attack's category. Caps out at +4.
-被攻击击中后，精灵会根据攻击的类别增加双防中的一项。上限为+4。
 Raises Speed by four steps when its HP is lowered below half.
 HP降到一半以下时，速度增加4级。
 Grants immunity to Flying-type moves and raises Speed if hit by one.
 免疫飞行属性技能，被飞行属性技能攻击时，速度增加1级。
-After using a wind move, raises the Pokémon's Defense and Sp. Def. Caps out at +4.
-使用风类技能后，精灵的双防增加1级。上限为+4。
 Protects the Pokémon from recoil damage. The Pokémon doesn't trigger items, abilities, or effects of targets it hits.
 免疫反伤伤害，同时不会触发被击中目标的物品、特性或技能效果。
 Slips past all types of Spikes hazards. Deals 50% more damage to targets that switched in this turn.
@@ -40468,6 +40458,8 @@ Prevents itself and allies from being poisoned, leeched, or waterlogged.
 自身和队友不会陷入中毒、寄生、或者浸水。
 Upon entry, consumes scattered coins to heal for 1/10th the amount consumed. This can overheal.
 出场时，消耗场上的金钱进行回复，回复量为消耗的金钱量的10%。可以过量回复。
+Heals by 1/5th HP whenever any Pokémon uses a dance move. Can overheal.
+每当有精灵使用舞蹈类技能时，回复自身最大HP的1/5，可以过量回复。
 The Pokémon's Speed is doubled while using light-based moves.
 使用光类技能时，速度翻倍。
 Immune to Fighting-type moves, and raises Attack and Sp. Atk if hit by one.
@@ -40500,6 +40492,8 @@ Boosts Sp. Atk by 75%, but the Pokémon becomes frostbitten after attacking.
 特攻增加75%，但攻击后会陷入冻伤状态。
 Immune to Ice-type moves, and raises Attack and Sp. Atk if hit by one.
 免疫冰属性技能，被冰属性技能击中时双攻增加1级。
+When hit with an attack, gains that attack's type.
+被攻击时，自身获得该攻击的属性。
 When hit with a physical move, traps and damages the attacker for three turns. Fails on turns the user switched in.
 被物理类技能攻击时，会在3回合内让攻击者被困住并持续受到伤害。自身替换出场的回合不会发动。
 Using or being hit by a physical move leaves a rock on the field. Status moves collect them, healing by 1/4th each.
@@ -40648,8 +40642,6 @@ The Pokémon is also Fire-type.
 该精灵视为具有火属性。
 Special moves against the Pokémon have a 30% chance to burn the attacker.
 受到特殊类技能攻击时，有30%概率使对方烧伤。
-Heals by 1/8th HP whenever any Pokémon uses a dance or sound move.
-任何精灵使用舞蹈或声音技能时，恢复1/8最大HP。
 Heals 1/16th HP every turn. Protected from being numbed or waterlogged.
 每回合恢复1/16的HP，并且不会陷入麻痹和浸水。
 Immune to Poison-type moves, and boosts Defense and Sp. Def when hit by one.
@@ -40740,8 +40732,8 @@ Moves that trap and damage the opponent for three turns deal 50% more damage on 
 束缚类技能第1次命中时，伤害增加50%。
 Boosts Sp. Def by two steps when hit by an attack.
 受到攻击时，特防增加2级。
-Raises Attack whenever any Pokémon uses a dance move.
-任何精灵使用舞蹈类技能时都会使物攻增加1级。
+Raises Attack and Sp. Atk whenever any Pokémon uses a dance move.
+每当有精灵使用舞蹈类技能时，双攻增加1级。
 Heals 1/16th HP every turn. Protected from being poisoned.
 每回合恢复1/16HP，并且不会陷入中毒。
 Upon entry, traps each opponent in a whirlpool for two turns.
@@ -41214,14 +41206,12 @@ Doubles Defense in moonglow.
 在月辉下防御翻倍。
 Physical attacks against the Pokémon have a 30% chance to waterlog the attacker.
 被物理类技能攻击时，有30%的概率使攻击者浸水。
-After using a sound move, raises the Pokémon's Defense and Sp. Def. Caps out at +4.
-使用声音类技能后，精灵的双防增加1级。上限为+4。
 Attacks hit twice for half damage, drain 25% of damage dealt and become special.
 攻击分为2次，吸取25%的伤害，并变成特殊类技能。
 Your attacks become spread.
 精灵的攻击变为能够攻击到对手全部的精灵。
-Raises defenses after using a Grass-, Ground-, or Steel-type move. Caps out at +4.
-使用草属性、地面属性或钢属性技能后，防御增加1级。上限为+4。
+The Pokemon is healed for 1/5th HP after using a Grass-, Ground-, or Steel-type move. Can overheal.
+使用草属性、地面属性或者钢属性技能后，回复1/5最大HP，可以过量回复。
 The Pokémon and its allies' moves are twice as likely to be critical.
 该精灵和其队友的技能的命中要害率翻倍。
 Leaves two hazard layers of Spikes after it self-destructs.
@@ -41388,6 +41378,8 @@ Boosts Speed by 50% in rainstorm. Can't miss during rainstorm.
 在暴雨天气中，速度增加50%，且攻击必定命中。
 Immune to weather downsides, and takes 20% less damage from attacks during weather.
 免疫天气的负面效果，在天气变化时减小受到的伤害。
+Powers up all tagged moves by 20%.
+所有具有标签的技能的威力增加20%。
 Takes 50% less damage from not-very-effective or barely-effective attacks.
 受到效果不佳的技能攻击时，减小受到的伤害。
 Draws in moves from foes with base power 100 or more. Takes 15% less move damage.
@@ -41433,7 +41425,7 @@ Takes half damage from Dragon-, Fairy-, and Ghost-type attacks. Positive stat st
 When the Pokémon's level is 25 or higher, it transforms into a member of its family depending on the type of the move it is about to use.
 当精灵等级达到25级或以上时，它会根据即将使用的技能的属性变为其家族的成员。
 Turns the held item of a Pokémon it hits into coins. Consumes coins to heal for 1/10th the amount consumed when its HP becomes half or less. This can overheal.
-攻击时，把对手的物品变为金钱并散落在场上，当HP小于一半时，消耗场上的金钱，回复消耗金钱量的10%的HP，可过量回复。
+攻击时，把对手的物品变为金钱并散落在场上，当HP小于一半时，消耗场上的金钱，回复消耗金钱量的10%的HP，可以过量回复。
 When knocks out any foe, it reverses its own timeline, changes to its initial state upon entering the battle.
 当打倒对手时，回溯时间，将自身回溯到刚进入战斗时的状态。
 Boosts both one offending and defending stat by one step according to the foe's defenses and offenses.
@@ -47051,8 +47043,6 @@ Set Title
 设置称号
 Set Trait
 设置性情
-Former Champion Team
-前冠军队伍
 Swap Ball
 交换球
 {1}'s nickname?
@@ -49075,6 +49065,8 @@ Ripples of time shimmer around {1}!
 时间的涟漪在{1}周身闪动！
 {1} turned {2}'s {3} into gold!
 {1}将{2}的{3}变成了金钱！
+{1} gathered up material.
+{1}收集了材料。
 But {1} is already energized...
 但{1}已能量充盈...
 {1}'s fur is standing sharp! {2} is hurt!
@@ -49087,6 +49079,8 @@ But {1} is already energized...
 {1}承受了{2}的全速冲击!
 {1} was warned not to attack {2} again!
 {1}被警告不要再攻击{2}！
+{1} collected the {2} type!
+{1}收集了{2}属性！
 {1} ate {2}'s {3}!
 {1}吃掉了{2}的{3}！
 {1} is the team's finale!
@@ -50730,7 +50724,7 @@ The tricky area was dispelled!
 The tricky area fell away.
 戏法空间消失了！
 A puzzling area appeared! Attack and Sp. Atk are swapped!
-出现了迷惑空间！攻击和特攻能力互换了！
+出现了迷惑空间！双攻能力互换了！
 The puzzling area was dispelled!
 迷惑空间消失了！
 The puzzling area fell away.
@@ -56064,7 +56058,7 @@ Tapu Bulu's ability "Wild Totem" creates a "Primal Forest" upon entry that only 
 Whenever a Pokémon on its side is hit by an offensive attack, it becomes enraged.
 每当其同侧的精灵被攻击命中时，它会陷入狂暴状态。
 Thereby, its defense stats are both lowered by 1 step and its attack stats are both raised by 1 step.
-这会使其减小自身的防御和特防， 但增加自身的攻击和特攻。
+这会使其减小自身的双防， 但增加自身的双攻。
 Tapu Fini's ability "Fog Totem" creates a "Misdirecting Fog" upon entry that only affects its side and lasts for 6 turns.
 卡璞·鳍鳍的特性“迷雾图腾”，会在进入战斗时制造1个持续6回合，且只影响己方的“迷惑之雾”。
 Whenever a foe finishes attacking a Pokémon on its side, the attacker is forced to switch out of battle.
@@ -57241,6 +57235,10 @@ Do you want to put {1} in the Time Capsule?
 你想要把{1}放到时间胶囊里吗？
 {1} is in the Time Capsule now!
 {1}被放进了时间胶囊中！
+Team {1} has been deleted!
+队伍{1}已被删除！
+The team can't be deleted!
+改队伍无法被删除！
 Do you want to add the opposing team to the Battle Loader?
 你想要将对方的队伍加入到战斗模拟器中吗？
 Which battle rule do you want to use?
@@ -57261,16 +57259,14 @@ Your Victory count is {1}!<<n>>Your Defeat count is {2}!
 你的胜利计数是{1}！<<n>>你的失败计数是{2}！
 There aren't any teams in the Battle Loader!
 战斗模拟器中没有任何队伍！
-Former Champion
-前冠军
 All Teams
 所有队伍
-Team
-队伍
 Random Team
 随机队伍
 Random Pokémon Team
 随机精灵的队伍
+Former Champion Team
+前冠军队伍
 Copy Team
 复制队伍
 Which team do you want to copy?
@@ -57279,14 +57275,12 @@ Which team do you want to challenge?
 你想要挑战哪1个队伍？
 Do you want to use other battle rules?
 你想使用其他战斗规则吗？
+You can't challenge Former Champion Team, because you don't have 8 badges!
+你无法挑战前冠军队，因为你没有集齐8个徽章！
 Which battle rule do you want?
 你想使用哪种战斗规则？
 Your team has been exported!
 你的队伍已导出！
-Team {1} has been deleted!
-队伍{1}已被删除！
-The team can't be deleted!
-改队伍无法被删除！
 Do you want to take a Pokémon from the opposing party?
 你想从对方队伍中带走一只精灵吗？
 Which Pokémon do you want to take?
@@ -57523,328 +57517,12 @@ The field weakened the attack
 {1}对{2}！
 Base
 基础
-Example Field
-示例场地
-The Example field is activated!
-示例场地已启动！
-The Example field is working!
-示例场地生效中！
-The Example field disappeared!
-示例场地消失了！
-The field softened the attack!
-场地削弱了攻击！
-Boom!
-砰！
-The {1} made it rain!
-{1}唤来了降雨！
-{1} gained power from the {2}!
-{1}因{2}而获得了力量！
-{1}'s HP was restored by the {2}!
-{1}的HP因{2}而回复！
-{1} was protected by the {2}!
-{1}因{2}而受到了保护！
-The new weather can't start!
-新的天气无法开始！
-Focus and relax to the sound of crashing waves...
-伴着海浪拍岸的声响专注而放松...
-The shore recedes from the battlefield!
-海岸线从战场退去！
-Sand mixed into the attack!
-沙粒混入攻击！
-...And with pure focus!
-...并伴随着纯粹的专注！
-The sand strengthened the atttack!
-沙粒强化了攻击！
-The salty sea strengthened the attack!
-咸咸的海水增强了攻击！
-Time for crab!
-螃蟹时间到！
-A shining shell on the beach!
-海滩上闪耀的贝壳！
-Surf's up!
-冲浪来啦！
-...And with full focus...
-...并以全部专注...
-...And with focus...
-...并带着专注...
-The attack stirred up the ash on the ground!
-攻击搅动了地上的灰烬！
-{1} was protected from confusion!
-{1}免受混乱影响！
-{1} was protected from confusion because of its focus!
-{1}因专注而免受混乱！
-Burning Field
-烈焰场地
-The field was covered by intense flames!
-场地被熊熊烈火覆盖！
-The flames disappeared from the field!
-场地上的火焰消失了！
-{1} can't sleep on the burning field!
-{1}无法在燃烧的场地上入睡！
-The cave echoes dully...
-洞穴发出沉闷回声...
-The cavern strengthened the attack!
-洞窟增强了攻击！
-...Piled on!
-...层层叠加！
-ECHO-Echo-echo!
-回声——回声——回声！
-The cavern froze over!
-洞窟冻结了！
-The cave was littered with crystals!
-洞穴布满水晶！
-The cave was corrupted!
-洞穴被污染了！
-The flame ignited the cave!
-火焰点燃了洞窟！
-The cave choked out the air!
-洞穴令空气窒息！
-The streets are busy...
-街道繁忙...
-The street is cleared!
-街道已清空！
-In the cracks and the walls!
-在裂缝与墙壁之间！
-The hustle and bustle of the city!
-城市的熙攘喧嚣！
-All kinds of pollution strengthened the attack!
-各类污染增强了攻击！
-The right tool for the job!
-干活的趁手工具！
-This is no place for fairytales...
-这可不是讲童话的地方...
-An overwhelming first impression!
-震撼的第一印象！
-A crowd is gathering!
-人群正在聚集！
-Working 9 to 5 for this!
-朝九晚五就为这一刻！
-The city smog is suffocating!
-城市雾霾令人窒息！
-Careful on the street!
-街上小心！
-The power of science is amazing!
-科学的力量真惊人！
-The criminal ran into a backalley!
-罪犯逃进了后巷！
-The city is no place for a family!
-城市可不是家庭待的地方！
-{1} Big Pecks raise its Defense!
-{1}的强壮胸肌提升了防御！
-The early bird catches the worm!
-早起的鸟儿有虫吃！
-{1} is picking up Speed!!
-{1}正在提速！！
-The busy city is rattling!
-繁忙的城市在震颤！
-Free Wifi!
-免费Wi-Fi！
-Just a routine inspection.
-只是例行检查。
-Cursed Field
-诅咒场地
-The field was cursed by evil spirits!
-场地被邪恶的幽灵诅咒了！
-The spirits disappeared from the field!
-场地上的幽灵消失了！
-Electric Field
-电气场地
-The field is hyper-charged!
-场地超负荷充电！
-An electric current is running across the field!
-一股电流正在场地中流动！
-The electric current disappeared from the field!
-场地上的电流消失了！
-{1} can't sleep on the electrified field!
-{1}无法在电气场地上入睡！
-The field is abound with trees.
-场地上树木繁茂。
-The trees disappear from the battlefield!
-树木从战场上消失了！
-The forestry strengthened the attack!
-森林之力强化了攻击！
-The attack spreads through the forest!
-攻击在森林中蔓延开来！
-A tree slammed down!
-一棵大树轰然倒下！
-They're coming out of the woodwork!
-它们蜂拥而出！
-Gossamer and arbor strengthened the attack!
-蛛丝与树影共同强化了攻击！
-The apple did not fall far from the tree.
-苹果确实没落在离树远的地方。
-The forest softened the attack...
-森林削弱了攻击...
-{1} can't sleep in the {2}!
-{1}无法在{2}中入睡！
-Frozen Field
-冰冻场地
-The field was covered by a layer of sliding ice!
-场地被一层滑冰覆盖！
-The ice disappeared from the field!
-场地上的冰消失了！
-{1} slipped!
-{1}滑倒了！
-It hurt itself!
-它伤害到了自身！
-Grassy Field
-青草场地
-The field is in full bloom!
-场地繁花盛开！
-Grass is covering the field!
-草地覆盖了整个场地！
-The grass disappeared from the field!
-场地上的草地消失了！
-The grass softened the attack!
-青草缓和了攻击！
-Icy
-冰封
-The field is covered in ice.
-场地被冰层覆盖。
-The ice melted from the field!
-场地上的冰融化了！
-The cold strengthened the attack!
-寒冷强化了攻击！
-The cold softened the attack...
-寒冷削弱了攻击...
-The ice melted away!
-冰层彻底消融！
-{1} was frozen by the pure malice!
-{1}被纯粹的恶意冻结！
 Inverse Field
 反转场地
 !trats elttaB
 ！始开斗战
 The field recovered to normal!
 场地恢复了正常！
-Misty Field
-薄雾场地
-Mist settles on the field!
-薄雾笼罩了场地！
-Mist is swirling about the field!
-薄雾在场地中盘旋！
-The mist disappeared from the field!
-场地上的薄雾消失了！
-{1} is protected by the misty field!
-{1}受到薄雾场地的保护！
-Psychic Field
-精神场地
-The field became mysterious!
-场地变得神秘起来！
-The field is weird!
-场地变得诡异！
-The weirdness disappeared from the field!
-场地上的诡异消失了！
-{1} is protected by the psychic field!
-{1}受到精神场地的保护！
-Ravine
-峡谷
-The field was become an ravine!
-场地变成了1个峡谷！
-The cliff disappeared from the field!
-场地上的悬崖消失了！
-Sandy Field
-沙地场地
-The field was covered by a layer of quicksand!
-场地被一层流沙覆盖！
-The quicksand disappeared from the field!
-场地上的流沙消失了！
-Swamp
-沼泽
-The field was taken by a swamp!
-场地被一片沼泽占据了！
-The swamp disappeared from the field!
-场地上的沼泽消失了！
-Venomous Field
-毒液场地
-The field was covered by a venomous sludge!
-场地被一层有毒的污泥覆盖！
-The sludge disappeared from the field!
-场地上的污泥消失了！
-Volcanic
-火山
-The field is molten.
-场地炽热熔融。
-The flames were snuffed out!
-火焰被扑灭了！
-The flames spread from the attack!
-攻击让火焰蔓延！
-The target was knocked into the flames!
-目标被击入烈焰！
-The blaze amplified the attack!
-烈焰增幅了攻击！
-The blaze softened the attack...
-烈焰削弱了攻击...
-{1}'s Ice Face melted in the heat!
-{1}的冰块面孔在酷热中融化！
-{1} was burned by the volcanic field!
-{1}被火山场地灼伤！
-{1} is being boosted by the flames!
-{1}正被火焰强化！
-{1} is exchanging the flames for power!
-{1}正以火焰换取力量！
-{1} gained power from the volcanic field!
-{1}从火山场地获得力量！
-{1} cannot be frozen in the volcanic field!
-{1}在火山场地无法被冻结！
-The intense heat of the volcanic field prevents hail from forming!
-火山场地的炽烈高温令冰雹无法生成！
-Volcanictop
-火山顶
-The mountain top is superheated.
-山顶处于超高温状态。
-The attack was super-heated!
-攻击被超高温强化！
-The extreme heat softened the attack...
-极端高温削弱了攻击...
-The field super-heated the attack!
-场地使攻击过热！
-The field powers up the attack!
-场地为攻击充能！
-The field powers up the flaming attacks!
-场地强化火焰系攻击！
-The heat is powerning the steam engine!
-高温正驱动蒸汽机！
-Steam shot up from the field!
-蒸汽从场地喷涌而出！
-The volcano is going to erupt!
-火山即将喷发！
-{1} collapsed from the volcanic heat!
-{1}因火山高温而倒下！
-The Desolate Land causes the volcano to erupt!
-荒芜大地引发火山爆发！
-The volcano erupts!
-火山喷发了！
-protective move
-防御招式
-Fire typing
-火属性
-{1} is immune to the eruption! ({2})
-{1}对喷发免疫！（{2}）
-The sticky tar intensifies the heat!
-粘稠的沥青加剧了高温！
-{1} is hurt by the eruption!
-{1}被喷发所伤！
-{1} woke up due to the eruption!
-{1}因喷发而惊醒！
-The eruption removed all hazards from the field!
-喷发清除了场上所有隐形岩！
-{1}'s Leech Seed burned away in the eruption!
-{1}的寄生种子在喷发中被烧毁！
-{1}'s Flash Fire activated!
-{1}的引火激活了！
-{1}'s Magma Armor hardened!
-{1}的熔岩铠甲变硬了！
-{1}'s Flare Boost activated!
-{1}的受热激升激活了！
-{1}'s Fire type was restored!
-{1}的火属性已恢复！
-The hail melted away.
-冰雹融化了。
-{1} was badly poisoned by the volcanic gases!
-{1}被火山气体严重中毒了！
-Searing flames engulfed {1}!
-灼热烈焰吞噬了{1}！
 No.
 不管。
 Why are you down here?
@@ -61514,6 +61192,8 @@ Refuge
 避难所
 Frozen Sculpture
 冰冻雕塑
+Collecting Colors
+收集色彩
 Temporal Shift Receiver
 时间转移接收器
 Ancestral Summons Receiver
