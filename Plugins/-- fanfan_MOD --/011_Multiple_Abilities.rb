@@ -46,7 +46,7 @@ class PokeBattle_Battle
       abils = [abils].compact unless abils.is_a?(Array)
       @knownAbilities[battler.unique_id] = []
       @knownAbilities[battler.unique_id].concat(abils)
-      echoln("[ABILITY UPDATE] #{battler.name} => #{@knownAbilities[pokemon.unique_id].map { |abil_id| getAbilityName(abil_id) }}")
+      echoln("[ABILITY UPDATE] #{battler.name} => #{@knownAbilities[battler.unique_id].map { |abil_id| getAbilityName(abil_id) }}")
     else
       echoln("===AI KNOWN ABILITIES===")
       @knownAbilities = {}

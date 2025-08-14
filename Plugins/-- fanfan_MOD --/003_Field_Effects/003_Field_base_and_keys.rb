@@ -45,6 +45,7 @@ PokeBattle_Battle::Field.register(:base, {
     :switch_in
     :tailwind_duration
 
+    # to-do
     :block_move
     :no_recharging
     :change_effectiveness
