@@ -1,6 +1,6 @@
 class PokeBattle_Battle::Field_electric < PokeBattle_Battle::Field
   def initialize(battle, duration = PokeBattle_Battle::Field::DEFAULT_FIELD_DURATION, *args)
-    super(battle)
+    super
     @id                  = :Electric
     @name                = _INTL("Electric Field")
     @duration            = duration

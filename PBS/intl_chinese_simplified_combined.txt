@@ -48814,9 +48814,9 @@ After your Pokémon attack, the attacking stat that was used is lowered by 4 ste
 Gored Upon the Horns of the Dilemma - Boredom or the Path of Thorns?
 四面群山皆囹圄，何方归去见青天？
 Your side gains spikes each turn, except if removed that turn.
-除非被清除掉 不然每回合都会获得陷阱。
+除非被清除掉，不然每回合都会被设置菱。
 You were spared from spikes this turn!
-此回合将不会被秒杀！
+此回合将不会再设置菱！
 Pyres raised<<n>>Here we meet<<n>>Spirits razed<<n>>Reduced to meat
 粉身碎骨浑不怕，要留清白在人间。
 Status conditions affect your Pokémon twice as much!<<n>>Foes ignore the Status Clause!

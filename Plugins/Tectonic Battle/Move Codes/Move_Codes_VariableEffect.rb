@@ -5,14 +5,13 @@ class PokeBattle_Move_EffectDependsOnEnvironment < PokeBattle_Move
     def flinchingMove?; return [6, 10, 12].include?(@secretPower); end
 
     def pbOnStartUse(_user, _targets)
-        @secretPower = 0 # Body Slam, numb
-
         ret = @battle.apply_field_effect(:secret_power_effect, _user, _targets, self)
         if ret
             @secretPower = ret
             return
         end
 
+        @secretPower = 0 # Body Slam, numb
         case @battle.environment
         when :Grass, :TallGrass, :Forest, :ForestGrass
             @secretPower = 2    # (Same as Grassy Terrain)
@@ -113,11 +112,10 @@ class PokeBattle_Move_UseMoveDependingOnEnvironment < PokeBattle_Move
     def callsAnotherMove?; return true; end
 
     def calculateNaturePower
-        npMove = :RUIN
-
         ret = @battle.apply_field_effect(:nature_power_change, self)
         return ret if ret && GameData::Move.exists?(ret)
 
+        npMove = :RUIN
         case @battle.environment
         when :Grass, :TallGrass, :Forest, :ForestGrass
             npMove = :ENERGYBALL if GameData::Move.exists?(:ENERGYBALL)

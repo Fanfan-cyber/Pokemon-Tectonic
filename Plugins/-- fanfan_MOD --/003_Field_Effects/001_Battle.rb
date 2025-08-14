@@ -1,4 +1,4 @@
-def set_field(new_field = nil, duration = Battle::Field::INFINITE_FIELD_DURATION) # used for event
+def set_field(new_field = nil, duration = PokeBattle_Battle::Field::INFINITE_FIELD_DURATION) # used for event
   $field = [new_field, duration]
 end
 
@@ -98,7 +98,7 @@ class PokeBattle_Battle
     create_new_field(type_fields.sample, duration)
   end
 
-  def create_new_field(field_id, duration = Battle::Field::DEFAULT_FIELD_DURATION)
+  def create_new_field(field_id, duration = Battle::Field::DEFAULT_FIELD_DURATION, transfer = false)
     return if try_create_zero_duration_field?(duration)
     formatted_field_id = field_id.to_s.downcase.to_sym
     field_class_name = "PokeBattle_Battle::Field_#{formatted_field_id}"
@@ -130,6 +130,7 @@ class PokeBattle_Battle
     return unless can_create_field?(formatted_field_id)
 
     end_current_field
+    remove_field(-1) if transfer # transfer to another field, remove the current one
 
     new_field = Object.const_get(field_class_name).new(self, duration) # create the new field
     removed_field = remove_same_field(new_field, duration) # remove the same field
@@ -139,7 +140,7 @@ class PokeBattle_Battle
     set_current_field(new_field)
     add_field_duration(removed_field.duration) if removed_field # add duration of the removed field 
     start_new_field
-    new_field
+    new_field # return the new field
   end
 
   def remove_same_field(field, duration = PokeBattle_Battle::Field::INFINITE_FIELD_DURATION)
@@ -150,7 +151,7 @@ class PokeBattle_Battle
     else
       removed_field = remove_field(field: field, ignore_infinite: false) # remove the same field in field layers
     end
-    removed_field
+    removed_field # return the removed field
   end
 
   def start_new_field
@@ -236,11 +237,10 @@ class PokeBattle_Battle
     return true
   end
 
-  def transfer_current_field(field_id, duration = Battle::Field::DEFAULT_FIELD_DURATION) # unused
+  def transfer_current_field(field_id, duration = PokeBattle_Battle::Field::INFINITE_FIELD_DURATION) # unused
     return unless has_field?
     return unless can_create_field?(field_id)
-    remove_field(-1)
-    create_new_field(field_id, duration)
+    create_new_field(field_id, duration, true)
   end
 
   def can_create_field?(field_id) # to-do: expand this method
@@ -305,16 +305,13 @@ class PokeBattle_Battle
   end
 
   def apply_field_effect(key, *args, apply_all: false)
-    if apply_all
-        @stacked_fields.each do |field|
-          next if field.top? # remove top field
-          next if PokeBattle_Battle::Field::PARADOX_KEYS.include?(key) # only top field will trigger paradox keys
-          next unless field.always_online.include?(key) # always online keys always trigger
-          field.apply_field_effect(key, *args)
-        end
-    else
-      @current_field.apply_field_effect(key, *args) # top field triggers here
+    @stacked_fields.each do |field|
+      next if field == @current_field # remove top field, same field only trigger once
+      next if PokeBattle_Battle::Field::PARADOX_KEYS.include?(key) # only top field will trigger paradox keys
+      next unless field.always_online.include?(key) || apply_all # always online keys always trigger
+      field.apply_field_effect(key, *args)
     end
+    @current_field.apply_field_effect(key, *args) # top field triggers
   end
 
   def try_create_zero_duration_field?(duration)
@@ -463,7 +460,7 @@ class PokeBattle_Scene
       @sprites["base_0"].setBitmap(@original_playerBase)
       @sprites["base_1"].setBitmap(@original_enemyBase)
     else
-      field_id = @battle.current_field.id
+      field_id = @battle.field_id
       root = "Graphics/Fieldbacks"
       battle_bg  = "#{root}/#{field_id}_battlebg.png"
       playerbase = "#{root}/#{field_id}_playerbase.png"

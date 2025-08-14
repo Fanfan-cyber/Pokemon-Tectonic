@@ -618,11 +618,7 @@ BattleHandlers::AbilityOnSwitchIn.add(:CLOVERSONG,
 
 BattleHandlers::AbilityOnSwitchIn.add(:ONTHEWIND,
   proc { |ability, battler, battle, aiCheck|
-
-      tailwind_duration = 4
-      ret = battle.apply_field_effect(:tailwind_duration, battler)
-      tailwind_duration += ret if ret
-
+      tailwind_duration = battle.get_tailwind_duration(4, battler)
       if aiCheck
           next getTailwindEffectScore(battler, tailwind_duration)
       else
