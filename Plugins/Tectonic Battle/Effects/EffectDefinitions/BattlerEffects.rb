@@ -2288,6 +2288,12 @@ GameData::BattleEffect.register_effect(:Battler, {
 })
 
 GameData::BattleEffect.register_effect(:Battler, {
+    :id => :ColorCollector,
+    :real_name => "Collecting Colors",
+    :type => :Array,
+})
+
+GameData::BattleEffect.register_effect(:Battler, {
     :id => :TemporalShiftReceiver,
     :real_name => "Temporal Shift Receiver",
     :resets_eor => true,

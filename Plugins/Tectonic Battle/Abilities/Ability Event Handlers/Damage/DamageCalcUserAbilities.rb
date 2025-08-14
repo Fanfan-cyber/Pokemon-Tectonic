@@ -261,6 +261,15 @@ BattleHandlers::DamageCalcUserAbility.add(:RADIATE,
   }
 )
 
+BattleHandlers::DamageCalcUserAbility.add(:WELLROUNDED,
+  proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck|
+    if move.tagged?
+      mults[:base_damage_multiplier] *= 1.2
+      user.aiLearnsAbility(ability) unless aiCheck
+    end
+  }
+)
+
 BattleHandlers::DamageCalcUserAbility.add(:BADOMEN,
   proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck, backfire|
     if move.foretoldMove? || backfire
