@@ -286,6 +286,7 @@ BattleHandlers::TargetAbilityOnHit.add(:SPINTENSITY,
         user.applyFractionalDamage(oldStep / 8.0)
         battle.pbCommonAnimation("StatDown", target)
         target.pbResetSpecificStatSteps(:SPEED)
+        target.applyFractionalDamage(oldStep / 16.0)
         battle.pbHideAbilitySplash(target)
     }
 )

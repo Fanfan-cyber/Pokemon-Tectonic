@@ -9,11 +9,10 @@
 加入猜属性小游戏来获取经验糖果
 加入猜属性克制小游戏来获取经验糖果
 战斗模拟器可以准确记录塔罗牌效果
-概率被击特性死亡必发
+被击概率特性死亡必发
 工具中增加任一只御三家换其他御三家的功能
 修复各类改变特性的效果 firstAbility
 存在满血复活的技能 草蛋
-增加锦标赛主题队伍，通关队伍的挑战功能
 调整里增加喜欢，不喜欢
 魔女第二特性
 嘟嘟利特性
@@ -21,8 +20,8 @@
 精灵检测可以看大于6只精灵的情况
 =end
 
-MOD_VERSION  = "0.4.1"
-VERSION_NAME = ["Celestial Covenant", "星约夜临​"]
+MOD_VERSION  = "0.4.2"
+VERSION_NAME = ["​​Sidus Coniungens", "星织初络"]
 
 CHANGE_LOG = <<-LOGGER
 #==============================================================================#
@@ -161,6 +160,12 @@ rocket/norocket，开启/关闭火箭队模式
 customabil/nocustomabil，开启/关闭特性自选模式
 doublebattle/disabledouble，开启/关闭全双打模式
 disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
+
+0.4.2​​ Sidus Coniungens / 星织初络​
+1.现在Spintensity被攻击时自身也会受到攻击者受到的伤害的一半的伤害
+2.修改了大量中文的翻译
+3.在战斗模拟器中增加了一些“前冠军”队伍
+4.
 
 0.4.1 Celestial Covenant / 星约夜临​
 1.重修了战斗模拟器的加载逻辑，现在战斗模拟器只会在必要时才重新加载队伍的数据
@@ -492,8 +497,8 @@ disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
 79.现在Backfire会有入场提示了
 80.修复了强行的效果和特性的描述文本不符的Bug
 81.现在使用导航获取精灵需要消耗球或者金钱（300）
-82.始祖小鸟的第二特性由Perfectionist改为ANCESTRALSUMMONS
-83.始祖大鸟的第二特性由Perfectionist改为ANCESTRALSUMMONS
+82.始祖小鸟的第二特性由Perfectionist改为Ancestral Summons
+83.始祖大鸟的第二特性由Perfectionist改为Ancestral Summons
 84.现在化身在转换阶段时的清除能力等级将会同时清除所有能力等级，而不仅仅是下降的能力等级
 85.现在Spectral Thief被偷取的能力等级会自然恢复
 86.现在Scam被偷取的能力等级会自然恢复
@@ -508,7 +513,7 @@ disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
 95.现在对手的精灵在应用等级随动机制时，精灵如果达到了进化型的最低可获得等级，那么就会变成进化型的精灵
 96.现在在化身战时，化身精灵一方的队伍规模视为和玩家方一致
 97.脱壳忍者的第一特性由神奇守护改为Last Gasp
-98.脱壳忍者的第二特性由Last Gasp改为LASTLIGHT
+98.脱壳忍者的第二特性由Last Gasp改为Last Light
 99.修复了在回合结束Drifting Mist的效果触发时使游戏崩溃的Bug
 100.现在可以在Modify里自由设置精灵的性情
 101.现在开始界面将不再显示Player Survey选项
