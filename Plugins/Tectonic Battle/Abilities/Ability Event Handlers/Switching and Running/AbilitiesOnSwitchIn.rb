@@ -1225,3 +1225,22 @@ BattleHandlers::AbilityOnSwitchIn.add(:CASHOUT,
       end
   }
 )
+
+BattleHandlers::AbilityOnSwitchIn.add(:DARKSCALECLOUD,
+  proc { |ability, battler, battle, aiCheck|
+      if aiCheck
+          score = 0
+          battler.eachOpposing do |b|
+              score += 10 if b.canPoison?(battler, false)
+          end
+          battler.eachAlly do |b|
+              score -= 10 if b.canPoison?(battler, false)
+          end
+          next score
+      else
+          battle.pbShowAbilitySplash(battler, ability)
+          battle.pbDisplay(_INTL("Toxic dust filled the air!"))
+          battle.pbHideAbilitySplash(battler)
+      end
+  }
+)

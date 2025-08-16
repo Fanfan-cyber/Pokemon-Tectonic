@@ -41,6 +41,7 @@ class PokeBattle_BattlerTracker
     @step_counter         = {}    # used to count Stat Steps remaining turns
     @flinched_by_moonglow = false # used for Moonglow Flinch effect
     @attacked_last_gasp   = false # used for record if attacked during Last Gasp
+    @darkscale_cloud_turn = 0     # used to count turns stays in Darks caleCloud
   end
 end
 

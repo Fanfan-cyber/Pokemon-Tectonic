@@ -16,12 +16,14 @@ BattleHandlers::UserAbilityOnHit.add(:INTOXICATE,
   }
 )
 
+=begin
 BattleHandlers::UserAbilityOnHit.add(:DARKSCALECLOUD,
   proc { |ability, user, target, move, battle, aiCheck, aiNumHits|
     next unless user.belowHalfHealth?
     randomStatusProcUserAbility(ability, :POISON, 100, user, target, move, battle, aiCheck, aiNumHits)
   }
 )
+=end
 
 #########################################
 # Burn abilities

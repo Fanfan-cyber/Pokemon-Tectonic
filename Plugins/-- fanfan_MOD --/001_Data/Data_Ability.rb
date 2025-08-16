@@ -5,6 +5,7 @@ ABILITY_DATA = {
   :CHILLINGNEIGH    => { :desc => proc { _INTL("Raises Attack by 2 steps after knocking out any Pokémon.") }, },
   :DEFEATIST        => { :desc => proc { _INTL("Halves move damage when HP is greater than 50%.") }, },
   :DISCOLIGHTS      => { :desc => proc { _INTL("It changes secondary type to that of the dance moves it's about to use.") }, },
+  :DARKSCALECLOUD   => { :desc => proc { _INTL("Upon entry, spreads poisonous dust which poisons any Pokémon stay in for 2 turns. When any Pokémon are poisoned, boosts Defense by 2 steps.") }, },
   :EMOTIONAURA      => { :desc => proc { _INTL("Upon entry, creates an Emotion Room for 4 turns, adding an ability every turn.") }, },
   :EXTRASCOOP       => { :desc => proc { _INTL("Upon entry, the Pokémon heals itself for 1/5th max HP. This can overheal.") }, },
   :GRIMNEIGH        => { :desc => proc { _INTL("Raises Sp. Atk by 2 steps after knocking out any Pokémon.") }, },

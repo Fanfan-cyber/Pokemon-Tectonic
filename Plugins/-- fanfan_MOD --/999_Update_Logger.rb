@@ -176,7 +176,8 @@ disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
 13.皮超的第二特性由Break Through改为Unbound
 14.皮卡超的第二特性由Break Through改为Unbound
 15.雷超的第二特性由Break Through改为Unbound
-16.
+16.现在Darkscale Cloud的效果为“出场时，散播有毒粉尘。在粉尘中2回合的精灵会中毒。有精灵因有毒粉尘中毒时，物防增加2级。”
+17.
 
 0.4.1 Celestial Covenant / 星约夜临​
 1.重修了战斗模拟器的加载逻辑，现在战斗模拟器只会在必要时才重新加载队伍的数据

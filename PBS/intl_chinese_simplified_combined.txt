@@ -57425,6 +57425,12 @@ Halves move damage when HP is greater than 50%.
 当HP大于50%时，双攻减半。
 It changes secondary type to that of the dance moves it's about to use.
 将附加属性变为即将使用的舞蹈类技能的属性。
+Upon entry, spreads poisonous dust which poisons any Pokémon stay in for 2 turns. When any Pokémon are poisoned, boosts Defense by 2 steps.
+出场时，散播有毒粉尘。在粉尘中2回合的精灵会中毒。有精灵因有毒粉尘中毒时，物防增加2级。
+{1} inhaled too much toxic dust!
+{1}吸入了太多的有毒粉尘！
+Toxic dust filled the air!
+有毒粉尘弥漫在空气中！
 Upon entry, creates an Emotion Room for 4 turns, adding an ability every turn.
 出场时，开启1个持续4回合的情感空间，所有精灵每回合随机获得1个特性。
 Upon entry, the Pokémon heals itself for 1/5th max HP. This can overheal.
