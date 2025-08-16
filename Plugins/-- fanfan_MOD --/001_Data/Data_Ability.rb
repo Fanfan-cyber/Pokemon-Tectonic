@@ -21,6 +21,7 @@ ABILITY_DATA = {
   :SAPPER           => { :desc => proc { _INTL("Upon entry, traps each opponent in a sand tomb for one turn.") }, },
   :SHIFTINGFIST     => { :desc => proc { _INTL("It changes secondary type to that of the punching moves it's about to use.") }, },
   :SPEEDBOOST       => { :desc => proc { _INTL("Speed is raised by one step at the end of each of its turns.") }, },
+  :SPINTENSITY      => { :desc => proc { _INTL("Speed is raised each turn. Speed is reset when hit, but the attacker takes 1/8th HP damage for each step lost. The Pokémon takes 1/16th.") }, },
   :SWIFTSTOMPS      => { :desc => proc { _INTL("The user's Speed is doubled while using kicking moves. Every third kicking hit must be a crit.") }, },
   :UNIDENTIFIED     => { :desc => proc { _INTL("The Pokémon is Mutant-type. If the Pokémon is Deoxys, it will have multiple movesets.") }, },
   :VERDANT          => { :desc => proc { _INTL("Powers up Grass-type moves of itself and its allies by 30%.") }, },
