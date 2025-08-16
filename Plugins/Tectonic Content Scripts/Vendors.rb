@@ -19,11 +19,13 @@ end
 
 def basicPokeMart
     setPrice(:SITRUSBERRY,2000)
+    setPrice(:ABILITYCAPSULE,200)
     pbPokemonMart(martStock)
 end
 
 def rangerMart
     setPrice(:SITRUSBERRY,2000)
+    setPrice(:ABILITYCAPSULE,200)
     if vipCardActive?
         message = _INTL("You a big shot, huh? Well, we're here to supply you.")
     else

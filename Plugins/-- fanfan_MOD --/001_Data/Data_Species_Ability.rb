@@ -22,6 +22,9 @@ SPECIES_ABILITY_DATA = {
 
   [:DITTO, 0]       => { :fixed => %i[], :changeable => %i[IMPOSTER REALIST], },
 
+  [:DODUO, 0]       => { :fixed => %i[], :changeable => %i[FLUSTERFLOCK SPEEDBOOST], },
+  [:DODRIO, 0]      => { :fixed => %i[], :changeable => %i[FLUSTERFLOCK SPEEDBOOST], },
+
   [:EEVEE, 0]       => { :fixed => %i[], :changeable => %i[ADAPTED BIOENGINEERING], },
   [:GIGANTEON, 0]   => { :fixed => %i[], :changeable => %i[ULTRAADAPTED GARGANTUAN], },
 
