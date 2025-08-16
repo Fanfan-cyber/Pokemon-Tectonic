@@ -73,6 +73,10 @@ SPECIES_ABILITY_DATA = {
   [:PHIONE, 0]      => { :fixed => %i[], :changeable => %i[OVERFLOWINGHEART WATERBUBBLE], },
   [:MANAPHY, 0]     => { :fixed => %i[], :changeable => %i[OVERFLOWINGHEART WATERBUBBLE], },
 
+  [:PICHU, 0]       => { :fixed => %i[], :changeable => %i[EXTREMEVOLTAGE UNBOUND], },
+  [:PIKACHU, 0]     => { :fixed => %i[], :changeable => %i[EXTREMEVOLTAGE UNBOUND], },
+  [:RAICHU, 0]      => { :fixed => %i[], :changeable => %i[EXTREMEVOLTAGE UNBOUND], },
+
   [:PORYGON, 0]     => { :fixed => %i[], :changeable => %i[DOWNLOAD2 BACKUP], },
   [:PORYGON2, 0]    => { :fixed => %i[], :changeable => %i[DOWNLOAD2 BACKUP], },
   [:PORYGONZ, 0]    => { :fixed => %i[], :changeable => %i[DOWNLOAD2 BACKUP], },

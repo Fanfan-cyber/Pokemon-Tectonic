@@ -1206,15 +1206,6 @@ BattleHandlers::AbilityOnSwitchIn.add(:LASTGASP,
   }
 )
 
-BattleHandlers::AbilityOnSwitchIn.add(:UNBOUND,
-  proc { |ability, battler, battle, aiCheck|
-      next 0 if aiCheck
-      battle.pbShowAbilitySplash(battler, ability)
-      battle.pbDisplay(_INTL("{1} overpowers type immunities!", battler.pbThis))
-      battle.pbHideAbilitySplash(battler)
-  }
-)
-
 CASHOUT_HEALING_DIVISOR = 10
 
 BattleHandlers::AbilityOnSwitchIn.add(:CASHOUT,

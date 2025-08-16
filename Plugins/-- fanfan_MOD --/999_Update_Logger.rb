@@ -173,7 +173,10 @@ disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
 10.修复了在战斗模拟器中删除队伍失败时出现的文本中的错别字
 11.现在战斗模拟器中的精灵也会执行合法性检查
 12.现在战斗模拟器中随机生成的精灵必定会有4个技能
-13.
+13.皮超的第二特性由Break Through改为Unbound
+14.皮卡超的第二特性由Break Through改为Unbound
+15.雷超的第二特性由Break Through改为Unbound
+16.
 
 0.4.1 Celestial Covenant / 星约夜临​
 1.重修了战斗模拟器的加载逻辑，现在战斗模拟器只会在必要时才重新加载队伍的数据
