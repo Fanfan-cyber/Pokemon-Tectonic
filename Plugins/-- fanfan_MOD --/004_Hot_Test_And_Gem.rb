@@ -51,4 +51,44 @@ module HotTest
     ensure
     end
   end
+
+  def self.load_custom_type_chart
+    custom_path = "./Custom_Type_Chart.rb"
+    unless File.exist?(custom_path)
+      File.open(custom_path, "w") do |file|
+        file.write(<<~DEFAULT_CHART)
+          CUSTOM_TYPE_CHART = {
+            :BUG      => { :Weaknesses => %i[FIRE FLYING ROCK],                  :Resistances => %i[FIGHTING GRASS GROUND PSYCHIC],                        :Immunities => %i[], },
+            :DARK     => { :Weaknesses => %i[BUG FAIRY FIGHTING],                :Resistances => %i[DARK GHOST],                                           :Immunities => %i[PSYCHIC], },
+            :DRAGON   => { :Weaknesses => %i[DRAGON FAIRY ICE],                  :Resistances => %i[ELECTRIC FIRE GRASS WATER],                            :Immunities => %i[], },
+            :ELECTRIC => { :Weaknesses => %i[GROUND],                            :Resistances => %i[ELECTRIC FLYING STEEL],                                :Immunities => %i[], },
+            :FAIRY    => { :Weaknesses => %i[BUG POISON STEEL],                  :Resistances => %i[DARK DRAGON FIGHTING],                                 :Immunities => %i[], },
+            :FIGHTING => { :Weaknesses => %i[FAIRY FLYING PSYCHIC],              :Resistances => %i[BUG DARK ROCK],                                        :Immunities => %i[], },
+            :FIRE     => { :Weaknesses => %i[GROUND ROCK WATER],                 :Resistances => %i[BUG FIRE GRASS ICE STEEL],                             :Immunities => %i[], },
+            :FLYING   => { :Weaknesses => %i[ELECTRIC ICE ROCK],                 :Resistances => %i[BUG FIGHTING GRASS],                                   :Immunities => %i[GROUND], },
+            :GHOST    => { :Weaknesses => %i[DARK GHOST],                        :Resistances => %i[BUG POISON],                                           :Immunities => %i[FIGHTING NORMAL], },
+            :GRASS    => { :Weaknesses => %i[BUG FIRE FLYING ICE POISON],        :Resistances => %i[ELECTRIC FAIRY GHOST GRASS GROUND WATER],              :Immunities => %i[], },
+            :GROUND   => { :Weaknesses => %i[ICE GRASS WATER ],                  :Resistances => %i[POISON ROCK],                                          :Immunities => %i[ELECTRIC], },
+            :ICE      => { :Weaknesses => %i[FIGHTING FIRE ROCK STEEL],          :Resistances => %i[FLYING GROUND ICE],                                    :Immunities => %i[], },
+            :MUTANT   => { :Weaknesses => %i[DRAGON NORMAL],                     :Resistances => %i[ELECTRIC DARK FIGHTING GHOST POISON ROCK],             :Immunities => %i[FIRE ICE], },
+            :NORMAL   => { :Weaknesses => %i[FIGHTING],                          :Resistances => %i[],                                                     :Immunities => %i[GHOST], },
+            :POISON   => { :Weaknesses => %i[GROUND PSYCHIC],                    :Resistances => %i[BUG FAIRY FIGHTING GRASS POISON],                      :Immunities => %i[], },
+            :PSYCHIC  => { :Weaknesses => %i[BUG DARK GHOST],                    :Resistances => %i[FIGHTING PSYCHIC STEEL],                               :Immunities => %i[], },
+            :ROCK     => { :Weaknesses => %i[FIGHTING GRASS GROUND STEEL WATER], :Resistances => %i[FIRE FLYING ICE NORMAL POISON],                        :Immunities => %i[], },
+            :STEEL    => { :Weaknesses => %i[FIGHTING FIRE GROUND PSYCHIC],      :Resistances => %i[BUG DRAGON FAIRY FLYING GRASS ICE NORMAL ROCK STEEL],  :Immunities => %i[POISON], },
+            :WATER    => { :Weaknesses => %i[ELECTRIC GRASS POISON],             :Resistances => %i[FIRE ICE STEEL WATER],                                 :Immunities => %i[], },
+          }.freeze
+        DEFAULT_CHART
+      end
+      pbMessage(_INTL("Created default Type Chart. You can modify the file and input the code again to apply."))
+    end
+    begin
+      load "./Custom_Type_Chart.rb"
+      pbMessage(_INTL("New Coustom Type Chart reloaded successfully!"))
+    rescue => e
+      pbMessage(_INTL("Failed to reload: An error occurred.\n({1})", e.message))
+    ensure
+    end
+  end
 end
+

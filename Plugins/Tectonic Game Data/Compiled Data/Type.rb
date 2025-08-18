@@ -5,9 +5,9 @@ module GameData
       attr_reader :real_name
       attr_reader :special_type
       attr_reader :pseudo_type
-      attr_reader :weaknesses
-      attr_reader :resistances
-      attr_reader :immunities
+      #attr_reader :weaknesses
+      #attr_reader :resistances
+      #attr_reader :immunities
       attr_reader :color
       attr_reader :dark_color
   
@@ -52,15 +52,27 @@ module GameData
       def name
         return pbGetMessage(MessageTypes::Types, @id_number)
       end
-  
+
+      def weaknesses
+        TA.get(:customtypechart) ? CUSTOM_TYPE_CHART[@id][:Weaknesses] : @weaknesses 
+      end
+
+      def resistances
+        TA.get(:customtypechart) ? CUSTOM_TYPE_CHART[@id][:Resistances] : @resistances
+      end
+
+      def immunities
+        TA.get(:customtypechart) ? CUSTOM_TYPE_CHART[@id][:Immunities] : @immunities
+      end
+
       def physical?; return !@special_type; end
       def special?;  return @special_type; end
   
       def effectiveness(other_type)
         return Effectiveness::NORMAL_EFFECTIVE_ONE if !other_type
-        return Effectiveness::SUPER_EFFECTIVE_ONE if @weaknesses.include?(other_type)
-        return Effectiveness::NOT_VERY_EFFECTIVE_ONE if @resistances.include?(other_type)
-        return Effectiveness::INEFFECTIVE if @immunities.include?(other_type)
+        return Effectiveness::SUPER_EFFECTIVE_ONE if weaknesses.include?(other_type)
+        return Effectiveness::NOT_VERY_EFFECTIVE_ONE if resistances.include?(other_type)
+        return Effectiveness::INEFFECTIVE if immunities.include?(other_type)
         return Effectiveness::NORMAL_EFFECTIVE_ONE
       end
     end

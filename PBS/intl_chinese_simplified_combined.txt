@@ -44519,6 +44519,10 @@ Guess what happened the other day. I missed catching \TE again.\mMaybe I'm not v
 猜猜前几天发生了什么。我又没抓到\TE。\m也许我不太擅长这个。
 [23]
 [24]
+Created default Type Chart. You can modify the file and input the code again to apply.
+已创建默认的属性克制表，你可以进行修改，修改完成后再次使用该密码应用修改。
+New Coustom Type Chart reloaded successfully!
+新的自定义属性克制表已加载成功！
 the Battle Loader
 战斗模拟器
 Bill
