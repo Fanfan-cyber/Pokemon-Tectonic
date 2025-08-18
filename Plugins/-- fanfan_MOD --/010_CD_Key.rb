@@ -77,7 +77,6 @@ module CDKey
       if ret
         if text == :customtypechart
           HotTest.load_custom_type_chart
-          TA.set(:customtypechart, true)
         elsif text == :customtribethresh
           params = ChooseNumberParams.new
           params.setRange(1, 5)

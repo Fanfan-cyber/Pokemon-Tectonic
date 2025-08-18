@@ -54,15 +54,15 @@ module GameData
       end
 
       def weaknesses
-        TA.get(:customtypechart) ? CUSTOM_TYPE_CHART[@id][:Weaknesses] : @weaknesses 
+        TA.get(:customtypechart) ? TA.get(:customtypechart)[@id][:Weaknesses] : @weaknesses 
       end
 
       def resistances
-        TA.get(:customtypechart) ? CUSTOM_TYPE_CHART[@id][:Resistances] : @resistances
+        TA.get(:customtypechart) ? TA.get(:customtypechart)[@id][:Resistances] : @resistances
       end
 
       def immunities
-        TA.get(:customtypechart) ? CUSTOM_TYPE_CHART[@id][:Immunities] : @immunities
+        TA.get(:customtypechart) ? TA.get(:customtypechart)[@id][:Immunities] : @immunities
       end
 
       def physical?; return !@special_type; end

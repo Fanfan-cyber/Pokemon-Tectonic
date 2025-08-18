@@ -84,6 +84,7 @@ module HotTest
     end
     begin
       load "./Custom_Type_Chart.rb"
+      TA.set(:customtypechart, CUSTOM_TYPE_CHART)
       pbMessage(_INTL("New Coustom Type Chart reloaded successfully!"))
     rescue => e
       pbMessage(_INTL("Failed to reload: An error occurred.\n({1})", e.message))
