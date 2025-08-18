@@ -84,7 +84,11 @@ module HotTest
         end
         pbMessage(_INTL("Created default Type Chart. You can modify the file and input the code again to apply."))
       else
-        load "./Custom_Type_Chart.rb"
+        content = File.read(custom_path).chomp
+        raise unless content.lines.count == 21
+        raise unless content.start_with?("CUSTOM_TYPE_CHART = {")
+        raise unless content.end_with?("}.freeze")
+        load custom_path
         TA.set(:customtypechart, CUSTOM_TYPE_CHART)
         pbMessage(_INTL("New Coustom Type Chart reloaded successfully!"))
       end
