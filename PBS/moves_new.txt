@@ -1299,7 +1299,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = LowerUserDefSpDef2
 Flags = CanProtect
-Description = The user and target bathe in acid. Lowers the user's Defense and Sp. Def by two steps.
+Description = The user and target bathe in acid. This lowers the user's Defense and Sp. Def by two steps.
 Animation = ACIDDOWNPOUR
 #-------------------------------
 [BLIGHT]
@@ -1622,7 +1622,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = LowerUserAtk4
 Flags = CanProtect
-Description = The user cracks the earth under the target with a massive strike. Lowers the user's Attack by four steps.
+Description = The user cracks the earth under the target with a massive strike. This lowers the user's Attack by four steps.
 Animation = FISSURE
 #-------------------------------
 [ERODE]
@@ -2484,7 +2484,7 @@ TotalPP = 5
 Target = User
 Priority = 2
 FunctionCode = RedirectAllMovesToUserLowerFoesAtkSpAtk1
-Flags = Uninvocable
+Flags = Uninvocable,Light
 Description = All foes have their Attack and Sp. Atk lowered. They can only target the user this turn.
 #-------------------------------
 [MANYNEEDLE]
@@ -2521,7 +2521,7 @@ TotalPP = 12
 Target = User
 FunctionCode = Trade6SpdForAtk
 Flags = CanSnatch,Blade
-Description = The user prepares its weapons, raising Attack by six steps but lowering Speed by six steps.
+Description = The user prepares its weapons. This raises the user's Attack by six steps but lowers Speed by six steps.
 Animation = SWORDSDANCE
 #-------------------------------
 [RAKE]
@@ -2574,7 +2574,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = CantMissLowerUserSpeedSpDef1
 Flags = CanProtect,Wind
-Description = The user sheds a huge volley of scales at the target. Lands without fail and lowers the user's Sp. Def and Speed.
+Description = The user sheds a huge volley of scales at the target. Lands without fail. This lowers the user's Sp. Def and Speed.
 Animation = SILVERWIND
 #-------------------------------
 [SEDATINGDUST]
@@ -2586,7 +2586,7 @@ TotalPP = 3
 Target = NearOther
 FunctionCode = SleepTargetIfSlowerThanUserMinUserSpeed
 Flags = CanProtect,CanMagicCoat
-Description = If the user is faster than the target, puts the target to sleep, then minimizes the user's Speed stat.
+Description = If the user is faster than the target, puts the target to sleep, then minimizes the user's Speed.
 Animation = POISONPOWDER
 #-------------------------------
 [SKEWER]
@@ -2599,7 +2599,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = LowerUserAtk4
 Flags = CanProtect
-Description = The user stabs through the target using tremendous force. Lowers the user's Attack by four steps.
+Description = The user stabs through the target using tremendous force. This lowers the user's Attack by four steps.
 Animation = FELLSTINGER
 #-------------------------------
 [SMUSH]
@@ -3736,14 +3736,14 @@ Description = Raises Sp. Atk by three steps. Until switch out, the user's attack
 Name = Hearthfire Hula
 Type = FIRE
 Category = Special
-Power = 80
+Power = 95
 Accuracy = 100
 TotalPP = 10
 Target = AllNearOthers
 FunctionCode = CureTargetFrostbite
-Flags = CanProtect,Dance
+Flags = CanProtect,Dance,HalfDamageToAllies
 EffectChance = 100
-Description = The user dances rapidly, emitting tropical heat. Any frostbitten Pokémon will be healed by this heat.
+Description = The user dances with great heat. Pokémon hit by this are cured of frostbite. Deals 50% less damage to allies.
 Animation = HEATWAVE
 #-------------------------------
 [HOLDFIRE]
@@ -4321,7 +4321,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = LowerUserSpd3
 Flags = CanProtect
-Description = The user rams its sharp face right into the target. Lowers the user's Speed by three steps.
+Description = The user rams its sharp face right into the target. This lowers the user's Speed by three steps.
 Animation = LIQUIDATION
 #-------------------------------
 [RIPTIDE]
@@ -5164,7 +5164,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = InertiaShock
 Flags = CanProtect
-Description = Deals 50% more damage if faster than the target. Lowers the user's Speed.
+Description = Deals 50% more damage if faster than the target. This lowers the user's Speed.
 Animation = VOLTTACKLE
 #-------------------------------
 [JOKEJOLT]
@@ -5761,7 +5761,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = CantMissLowerUserSpeedDef1
 Flags = CanProtect
-Description = Lands without fail and lowers the user's Defense and Speed.
+Description = The user perfectly predicts the target's future location, then strikes. Lands without fail. This lowers the user's Defense and Speed.
 #-------------------------------
 [ONEIROMANCY]
 Name = Oneiromancy
@@ -6197,7 +6197,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = LowerUserAtk4
 Flags = CanProtect
-Description = The user picks up an iceberg and slams it into the target. Lowers the user's Attack by four steps.
+Description = The user picks up an iceberg and slams it into the target. This lowers the user's Attack by four steps.
 Animation = AVALANCHE
 #-------------------------------
 [ICECALIBUR]
@@ -6323,7 +6323,7 @@ TotalPP = 12
 Target = User
 FunctionCode = RaiseUserSpAtk1Speed2LowerUserSpDef1
 Flags = CanSnatch
-Description = The user sheds excess covering, raising Sp. Atk and Speed by three steps, but lowering Sp. Def by two steps.
+Description = The user sheds excess covering. This raises the user's Sp. Atk and Speed by three steps, but lowers Sp. Def by two steps.
 #-------------------------------
 [SHIVERDANCE]
 Name = Shiver Dance
@@ -6782,6 +6782,7 @@ Accuracy = 0
 TotalPP = 5
 Target = AllNearFoes
 FunctionCode = StartGravity5
+Flags = CanProtect
 Description = Bites a hole in reality, creating a black hole to damage all near foes. Gravity is intensified for five turns.
 Animation = BLACKHOLEECLIPSE
 #-------------------------------
@@ -7029,7 +7030,7 @@ TotalPP = 12
 Target = NearOther
 FunctionCode = AlwaysCritialLowerUserSpeed1
 Flags = CanProtect,Blade
-Description = The user prepares a precise cut. Always a critical hit, but lowers the user's Speed.
+Description = The user prepares a precise cut. Always a critical hit. This lowers the user's Speed.
 Animation = NIGHTSLASH
 #-------------------------------
 [KEELHAUL]
@@ -7165,13 +7166,14 @@ Animation = SNARL
 Name = Royal Tribute
 Type = DARK
 Category = Special
-Power = 90
+Power = 70
 Accuracy = 100
 TotalPP = 15
 Target = NearOther
-FunctionCode = AddMoneyGainedFromBattle
+FunctionCode = DoubleDamageMoneyTargetStatused
 Flags = CanProtect
-Description = The user demands tribute from the target. Money is earned after the battle.
+EffectChance = 100
+Description = The user demands tribute from the target. Money is earned after the battle. This deals double damage and makes double the money if the target has a non-volatile status condition.
 Animation = PAYDAY
 #-------------------------------
 [SCAM]
@@ -7574,7 +7576,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = LowerUserAtk4
 Flags = CanProtect
-Description = The user wields an exaggerated power to strike the target. Lowers the user's Attack by four steps.
+Description = The user wields an exaggerated power to strike the target. This lowers the user's Attack by four steps.
 Animation = TWINKLETACKLE
 #-------------------------------
 [INNOCENTMASQUE]

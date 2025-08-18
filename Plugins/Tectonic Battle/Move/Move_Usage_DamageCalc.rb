@@ -134,6 +134,7 @@ class PokeBattle_Move
         return true if user.shouldAbilityApply?(:UNAWARE, aiCheck)
         return true if user.shouldAbilityApply?(:BLADEBRAINED, aiCheck) && bladeMove?
         return true if user.shouldAbilityApply?(:TUNEDOUT, aiCheck) && soundMove?
+        return true if empoweredMove?
         return false
     end
 
@@ -585,6 +586,8 @@ class PokeBattle_Move
             multipliers[:final_damage_multiplier] *= 0.75
             multipliers[:final_damage_multiplier] *= 1.5 if user.shouldAbilityApply?(:RESONANT,aiCheck)
         end
+
+        multipliers[:final_damage_multiplier] *= 0.5 if !user.opposes?(target) && halfDamageToAllies?
 
         # Battler properites
         multipliers[:base_damage_multiplier] *= user.dmgMult

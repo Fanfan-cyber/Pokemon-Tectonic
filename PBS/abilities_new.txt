@@ -611,6 +611,10 @@ Flags = EclipseSynergy
 Name = Fae Veil
 Description = Prevents itself and allies from being burned, frostbitten, or numbed.
 #-------------------------------
+[FALSEFRONT]
+Name = False Front
+Description = Upon entry, gains your choice of Fighting-, Dark-, or Fairy-type.
+#-------------------------------
 [FASCINATE]
 Name = Fascinate
 Description = Upon entry, lowers the foe's Sp. Atk stat by two steps.
@@ -847,7 +851,7 @@ Description = Moves that trap and damage the opponent for three turns deal 50% m
 #-------------------------------
 [GRIT]
 Name = Grit
-Description = Boosts Sp. Def by two steps when hit by an attack.
+Description = Raises Sp. Def when hit by an attack.
 #-------------------------------
 [GROOVY]
 Name = Groovy
@@ -1063,7 +1067,7 @@ Description = Special moves have a 30% chance to poison targets.
 #-------------------------------
 [INTROVERT]
 Name = Introvert
-Description = Takes 30% less damage until it uses an attack.
+Description = Takes 30% less damage until the first time it uses an attacking move.
 #-------------------------------
 [INVESTIGATOR]
 Name = Investigator
