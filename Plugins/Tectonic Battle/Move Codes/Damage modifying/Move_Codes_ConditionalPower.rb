@@ -588,8 +588,15 @@ class PokeBattle_Move_DoubleDamageMoneyTargetStatused < PokeBattle_Move
     end
     
     def pbAdditionalEffect(user, target)
+        user.generateMoney(getMoneyMultiplier(target))
+    end
+
+    def getMoneyMultiplier(target)
         money = 8
         money *= 2 if target.pbHasAnyStatus?
-        user.generateMoney(money)
+    end
+
+    def getEffectScore(user, target)
+        return user.getCashFlowEffectScore(getMoneyMultiplier(target))
     end
 end
