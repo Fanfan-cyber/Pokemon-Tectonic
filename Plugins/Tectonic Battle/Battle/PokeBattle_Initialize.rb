@@ -210,6 +210,7 @@ class PokeBattle_Battle
     end
 
     def initializeKnownMoves(pokemon, extra = false)
+        return unless pokemon
         @knownMoves[pokemon.personalID] = []
         return if pokemon.fainted?
         moves = extra ? pokemon.moves_for_dexyos[pokemon.form] : pokemon.moves
@@ -233,6 +234,7 @@ class PokeBattle_Battle
     end
 
     def initializeKnownItems(pokemon)
+        return unless pokemon
         knownItemsArray = []
         @knownItems[pokemon.personalID] = knownItemsArray
         pokemon.items.each do |item|
