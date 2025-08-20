@@ -2211,6 +2211,12 @@ GameData::BattleEffect.register_effect(:Battler, {
 })
 
 GameData::BattleEffect.register_effect(:Battler, {
+    :id => :Summond,
+    :real_name => "Summond",
+    :trapping => true,
+})
+
+GameData::BattleEffect.register_effect(:Battler, {
     :id => :LastGasp,
     :real_name => "Last Gasp",
     :trapping => true,

@@ -313,25 +313,29 @@ module PokemonDataBase
       next if species_data.isTest?
       next if species_data.base_stat_total < LOWEST_PKMN_BST
       pkmn = Pokemon.new(species_data.id, 1)
-
-      pkmn.forget_all_moves
-      legal_moves = species_data.learnable_moves.shuffle
-      legal_moves.each do |move|
-        move_data = GameData::Move.get(move)
-        next if move_data.base_damage < LOWEST_MOVE_POWER
-        pkmn.learn_move(move_data)
-        break if pkmn.moves.size == Pokemon::MAX_MOVES
-      end
-      if pkmn.moves.size == 0
-        legal_moves.each do |move|
-          move_data = GameData::Move.get(move)
-          pkmn.learn_move(move_data)
-          break if pkmn.moves.size == Pokemon::MAX_MOVES
-        end
-      end
+      learn_random_moves(pkmn, species_data)
       pkmn.calc_stats
       @@pkmn_data << pkmn
       return pkmn
+    end
+  end
+
+  def self.learn_random_moves(pkmn, species_data = nil)
+    pkmn.forget_all_moves
+    species_data = GameData::Species.get(pkmn.species) unless species_data
+    legal_moves = species_data.learnable_moves.shuffle
+    legal_moves.each do |move|
+      move_data = GameData::Move.get(move)
+      next if move_data.base_damage < LOWEST_MOVE_POWER
+      pkmn.learn_move(move_data)
+      break if pkmn.moves.size == Pokemon::MAX_MOVES
+    end
+    if pkmn.moves.size == 0
+      legal_moves.each do |move|
+        move_data = GameData::Move.get(move)
+        pkmn.learn_move(move_data)
+        break if pkmn.moves.size == Pokemon::MAX_MOVES
+      end
     end
   end
 

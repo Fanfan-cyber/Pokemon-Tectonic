@@ -73,7 +73,7 @@ class PokeBattle_Battle
     def pbIsTrapped?(idxBattler, partyScene = nil)
         battler = @battlers[idxBattler]
         
-        if battler.effectActive?(:LastGasp) && !battler.tracker_get(:attacked_last_gasp)
+        if battler.effectActive?(:LastGasp) && !battler.tracker_get(:attacked_last_gasp) || battler.effectActive?(:Summond)
             partyScene.pbDisplay(_INTL("{1} can't be switched out!", battler.pbThis)) if partyScene
             return true
         end

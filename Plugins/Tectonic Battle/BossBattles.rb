@@ -555,6 +555,7 @@ class PokeBattle_Battle
         @scene.animateIntroNewAvatar(battlerIndexNew)
         pbOnActiveOne(newBattler)
         pbCalculatePriority
+        return newBattler
     end
 
     def summonAvatarBattler(species, level, version = 0, sideIndex = 1)

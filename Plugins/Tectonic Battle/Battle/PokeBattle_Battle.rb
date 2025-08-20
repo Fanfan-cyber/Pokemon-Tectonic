@@ -124,6 +124,7 @@ class PokeBattle_Battle
         ret = []
         eachInTeamFromBattlerIndex(idxBattler) { |pkmn, i|
             break if pkmn.boss?
+            break if pkmn.instance_variable_get("@#{:Summond}")
             ret[partyOrders[i] - idxStart] = pkmn
         }
         return ret
