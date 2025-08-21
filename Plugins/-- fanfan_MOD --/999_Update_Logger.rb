@@ -190,7 +190,10 @@ disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
 25.优化了加载自定义属性克制表的代码，现在无法再通过加载自定义属性克制表来注入恶意代码进而修改游戏了
 26.现在AI会正确计算Royal Tribute和Cash Flow互动时的分数了
 27.修复了在和野生精灵的多打战斗时，如果捕捉了某一只野生的精灵，就会使游戏崩溃的Bug
-28.
+28.修复了Gauss Aftershock不生效的Bug
+29.铁火辉夜的第一特性由Auto-Pilot改为Auto-Pilot 2
+30.修复了Caffeine Rush的中文描述错误的Bug
+31.
 
 0.4.1 Celestial Covenant / 星约夜临​
 1.重修了战斗模拟器的加载逻辑，现在战斗模拟器只会在必要时才重新加载队伍的数据

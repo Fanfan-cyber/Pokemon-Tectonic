@@ -206,6 +206,27 @@ GameData::BattleEffect.register_effect(:Position, {
 })
 
 GameData::BattleEffect.register_effect(:Position, {
+    :id => :GaussAftershock,
+    :real_name => "Gauss Aftershock",
+    :type => :PartyPosition,
+    :swaps_with_battlers => true,
+    :entry_proc => proc do |battle, _index, position, battler|
+        sourceMaker = battle.pbThisEx(battler.index, position.effects[:GaussAftershock])
+        battle.pbDisplay(_INTL("{1} was energized by the aftershock!", sourceMaker, battler.pbThis(true)))
+        battler.tryRaiseStat(:SPEED, battler, showFailMsg: true)
+        anyPPRestored = false
+        battler.pokemon.moves.each_with_index do |m, i|
+            next if m.total_pp <= 0 || m.pp == m.total_pp
+            m.pp = m.total_pp
+            battler.moves[i].pp = m.total_pp
+            anyPPRestored = true
+        end
+        battle.pbDisplay(_INTL("{1}'s PP was restored!", sourceMaker, battler.pbThis(true))) if anyPPRestored
+        position.disableEffect(:GaussAftershock)
+    end,
+})
+
+GameData::BattleEffect.register_effect(:Position, {
     :id => :StormTrail,
     :real_name => "Storm Trail",
     :type => :PartyPosition,

@@ -32689,7 +32689,7 @@ Discovered Power
 Absolute Radiance
 耀世光辉
 Blazing Speed
-燎原烈火
+迅火之势
 Crimson Storm
 绯红风暴
 Dry Heat
@@ -32705,7 +32705,7 @@ Flame Spikes
 Flare Up
 骤燃
 Flare Witch
-烈火魔法
+火焰女巫
 Hearthfire Hula
 炉火草裙舞
 Hold Fire
@@ -38938,9 +38938,11 @@ Astral Harvest
 Aurora Prism
 极光棱镜
 Auto-Pilot
-自主作战
+自动寻航
+Auto-Pilot 2
+自动寻航2
 Auto-Structure
-自主构建
+自动重构
 Autumnal
 秋落
 Backwash
@@ -39008,7 +39010,7 @@ Burdened
 Burn Out
 燃烧殆尽
 Burn Skill
-烈火技法
+灼热技法
 Caffeine Rush
 咖啡因冲刺
 Candy Veil
@@ -40449,11 +40451,11 @@ Self-destructing at full health leaves it at 1 HP.
 Receives 33% less move damage, but the Pokémon is hurt for 1/10th HP each turn.
 受到的技能伤害减小33%，但每回合减小10%的最大HP。
 Has a 30% chance to burn targets when using physical moves.
-使用物理类技能时，30%概率使对方烧伤。
+使用物理类技能时，有30%概率使对方烧伤。
 Has a 30% chance to burn targets when using special moves.
-使用特殊类技能时，30%概率使对方烧伤。
+使用特殊类技能时，有30%概率使对方烧伤。
 During hail, the Pokémon's Speed is boosted by 50% and twice as likely to crit.
-冰雹时，速度增加0%，且命中要害率翻倍。
+冰雹时，速度增加50%，且命中要害率翻倍。
 Prevents itself and allies from being poisoned, leeched, or waterlogged.
 自身和队友不会陷入中毒、寄生、或者浸水。
 Upon entry, consumes scattered coins to heal for 1/10th the amount consumed. This can overheal.

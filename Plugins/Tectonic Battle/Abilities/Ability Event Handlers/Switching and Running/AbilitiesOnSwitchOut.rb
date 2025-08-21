@@ -52,6 +52,13 @@ BattleHandlers::AbilityOnSwitchOut.add(:POORCONDUCT,
   }
 )
 
+BattleHandlers::AbilityOnSwitchOut.add(:GAUSSAFTERSHOCK,
+  proc { |ability, battler, battle, endOfBattle|
+      next if endOfBattle
+      battler.position.applyEffect(:GaussAftershock, battler.pokemonIndex)
+  }
+)
+
 BattleHandlers::AbilityOnSwitchOut.add(:STORMTRAIL,
   proc { |ability, battler, battle, endOfBattle|
       next if endOfBattle
