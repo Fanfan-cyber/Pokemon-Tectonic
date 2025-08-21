@@ -30,7 +30,7 @@ class PokeBattle_Battle
     end
 
     def doubleBattle?
-        trainerBattle? && pbSideSize(0) == 2 && pbSideSize(1) == 2
+        trainerBattle? && (pbSideSize(0) == 2 || pbSideSize(1) == 2)
     end
 
     def pbSideSize(index)

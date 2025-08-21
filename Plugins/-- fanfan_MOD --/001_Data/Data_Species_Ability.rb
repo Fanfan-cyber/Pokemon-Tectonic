@@ -12,6 +12,8 @@ SPECIES_ABILITY_DATA = {
 
   [:CELEBI, 0]      => { :fixed => %i[], :changeable => %i[CHRONOREVERT TIMESKIP], },
 
+  [:CELESTEELA, 0] => { :fixed => %i[], :changeable => %i[AUTOPILOT2], },
+
   [:CRAMORANT, 0]   => { :fixed => %i[], :changeable => %i[GULPMISSILE DELAYEDREACTION], },
   [:CRAMORANT, 1]   => { :fixed => %i[], :changeable => %i[GULPMISSILE DELAYEDREACTION], },
   [:CRAMORANT, 2]   => { :fixed => %i[], :changeable => %i[GULPMISSILE DELAYEDREACTION], },

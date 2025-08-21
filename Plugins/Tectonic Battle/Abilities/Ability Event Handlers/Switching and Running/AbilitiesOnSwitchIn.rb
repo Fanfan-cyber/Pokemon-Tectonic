@@ -1293,3 +1293,16 @@ BattleHandlers::AbilityOnSwitchIn.add(:FALSEFRONT,
       battler.hideMyAbilitySplash
   }
 )
+
+BattleHandlers::AbilityOnSwitchIn.add(:AUTOPILOT2,
+  proc { |ability, battler, battle, aiCheck|
+      next 0 if aiCheck
+      next unless battle.trainerBattle? && battle.pbSideSize(battler.index % 2) == 1
+      summoned_pokemon = battle.tracker_get(:summoned_pokemon)
+      next if summoned_pokemon.include?(battler.unique_id)
+      battle.pbShowAbilitySplash(battler, ability)
+      battle.pbDisplay(_INTL("Another {1} will arrive in 5 turns!", battler.name))
+      summoned_pokemon[battler.unique_id] = [5, battler.pokemon, battler.index % 2, battler.name]
+      battle.pbHideAbilitySplash(battler)
+  }
+)

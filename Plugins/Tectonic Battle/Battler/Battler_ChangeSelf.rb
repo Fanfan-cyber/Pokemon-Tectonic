@@ -396,6 +396,10 @@ class PokeBattle_Battler
     end
 
     def can_faint_healing?
+        if effectActive?(:Summond) && pbOwnedByPlayer?
+            @battle.decision = 2
+            return false
+        end
         if !@battle.trainerBattle? || TA.get(:disablerevive) || battle_tracker_get(:faint_healing_triggered)
             if !TA.get(:disableperfect) && pbOwnedByPlayer? && (isSpecies?(:GARDEVOIR) && !$Trainer.has_species?(:GALLADE) ||
                                                                 isSpecies?(:GALLADE) && !$Trainer.has_species?(:GARDEVOIR) ||

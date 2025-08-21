@@ -116,6 +116,19 @@ class PokeBattle_Battle
             end
         end
 
+        summoned_pokemon = tracker_get(:summoned_pokemon)
+        if summoned_pokemon.any?
+            need_delete = []
+            summoned_pokemon.each do |unique_id, data| # unique_id => [turn, pokemon, side, name]
+                data[0] -= 1 if data[0] > 0
+                if data[0] == 0 
+                    call_battler(data[1], data[1].level, data[2], _INTL("The {1} arrived!", data[3]))
+                    need_delete << unique_id
+                end
+            end
+            need_delete.each { |unique_id| summoned_pokemon.delete(unique_id) }
+        end
+
         # Switch Pokémon in if possible
         pbEORSwitch
 

@@ -1,11 +1,11 @@
 class PokeBattle_Battle
-  def call_battler(species, level, sideIndex = 0, pokemon = nil, random = false, summonMessage = nil)
-    return unless trainerBattle? && singleBattle?
+  def call_battler(species = nil, level = 10, sideIndex = 0, summonMessage = nil)
+    return unless trainerBattle? && pbSideSize(sideIndex) == 1
 
     summonMessage ||= _INTL("A new ally was summoned!")
     pbDisplay(summonMessage)
 
-    newPokemon = generatePokemon(species, level, true, sideIndex, pokemon, random)
+    newPokemon = generatePokemon(species, level, sideIndex)
 
     # Put the pokemon into the party
     partyIndex = pbParty(sideIndex).length
@@ -30,36 +30,20 @@ class PokeBattle_Battle
     pkmn.calc_stats
   end
 
-  def generatePokemon(species, level, summon = false, sideIndex = 0, pokemon = nil, random = false)
-    if pokemon
-      newPokemon = pokemon.clone_pkmn(true, sideIndex == 0)
-    elsif random
-      newPokemon = PokemonDataBase.create_pkmn
-      setPokemonProperties(newPokemon, level, sideIndex, false)
-    else
-      newPokemon = Pokemon.new(species, level)
+  def generatePokemon(species = nil, level = 10, sideIndex = 0)
+    if species.is_a?(PokeBattle_Battler)
+      newPokemon = species.pokemon.clone_pkmn(true, sideIndex == 0)
+    elsif species.is_a?(Pokemon)
+      newPokemon = species.clone_pkmn(true, sideIndex == 0)
+    elsif species.is_a?(Symbol)
+      newPokemon = Pokemon.new(species)
       setPokemonProperties(newPokemon, level, sideIndex)
+    else
+      newPokemon = PokemonDataBase.create_pkmn.clone_pkmn(true)
+      setPokemonProperties(newPokemon, level, sideIndex, false)
     end
     newPokemon.instance_variable_set("@#{:Summond}", true)
-
-    # Add the form name to the end of their name
-    # If the pokemon's form was specified in its species id
-    speciesForm = GameData::Species.get(newPokemon.species)
-    newPokemon.name += " " + speciesForm.form_name if speciesForm.form != 0
-
-    # Set the pokemon's starting health if its a low-level summon
-    if summon
-      if level >= SUMMON_MAX_HEALTH_LEVEL
-        healthPercent = 1.0
-      elsif level <= SUMMON_MIN_HEALTH_LEVEL
-        healthPercent = 0.4
-      else
-        healthPercent = 0.4 + 0.6 * (level - SUMMON_MIN_HEALTH_LEVEL) / (SUMMON_MAX_HEALTH_LEVEL - SUMMON_MIN_HEALTH_LEVEL).to_f
-        echoln("Summoning #{species} at health fraction #{healthPercent}")
-      end
-      newPokemon.hp = (newPokemon.totalhp * healthPercent).ceil
-    end
-
+    newPokemon.heal
     return newPokemon
   end
 end

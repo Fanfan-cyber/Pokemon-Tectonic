@@ -8,6 +8,10 @@ Description = Protects the Pokémon and its allies from spread moves. Defense in
 Name = Ancestral Summons
 Description = Switches out if its HP becomes half or less. The replacement Pokémon's ​​first hit must be a crit​​ and if it's Doduo or Dodrio, it will use Fly​​ immediately.
 #-------------------------------
+[AUTOPILOT2]
+Name = Auto-Pilot 2
+Description = Upon entry, calls an ally, the ally will arrive in 5 turns.
+#-------------------------------
 [BACKFIRE]
 Name = Backfire
 Description = When hitting a target that has an ability with an offensive damage-modifying effect, the Pokémon ignores the conditions and triggers the effect.

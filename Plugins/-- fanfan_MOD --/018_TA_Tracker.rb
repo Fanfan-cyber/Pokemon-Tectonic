@@ -4,6 +4,7 @@ class PokeBattle_BattleTracker
     @battled_battlers = [] # used for Switch Healing
     @turn_switched    = {} # used to record the turnCount when a Pokemon switches out
     @revenge          = {} # used for Revenge mechanics
+    @summoned_pokemon = {} # used to record the Pokemon that will be summoned
   end
 end
 
