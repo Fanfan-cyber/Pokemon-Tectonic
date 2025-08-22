@@ -165,7 +165,7 @@ disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
 0.4.2​​ Sidus Coniungens / 星织初络​
 1.现在Spintensity被攻击时自身也会受到攻击者受到的伤害的一半的伤害
 2.修改了大量中文的翻译
-3.在战斗模拟器中增加了一些“前冠军”队伍
+3.在战斗模拟器中增加了大量“前冠军”队伍
 4.修复了不服输的中文描述错误的Bug
 5.修复了好胜的中文描述错误的Bug
 6.修复了战斗指南中关于烧伤每回合损失HP错误的Bug
@@ -193,7 +193,8 @@ disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
 28.修复了Gauss Aftershock不生效的Bug
 29.铁火辉夜的第一特性由Auto-Pilot改为Auto-Pilot 2
 30.修复了Caffeine Rush的中文描述错误的Bug
-31.
+31.将Game.ini加入了游戏的完整压缩包中
+32.
 
 0.4.1 Celestial Covenant / 星约夜临​
 1.重修了战斗模拟器的加载逻辑，现在战斗模拟器只会在必要时才重新加载队伍的数据
