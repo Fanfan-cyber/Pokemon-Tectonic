@@ -88,6 +88,7 @@ BattleHandlers::AbilityOnHPDroppedBelowHalf.add(:CASHFLOW,
   proc { |ability, battler, battle|
       next if battler.fainted?
       next unless battler.pbOwnSide.effectActive?(:PayDay)
+      next unless battler.canHeal?(true)
       maxCoinsCanHealFrom = battler.maxOverhealingPossible * CASHOUT_HEALING_DIVISOR
       coinsToConsume = [battler.pbOwnSide.countEffect(:PayDay), maxCoinsCanHealFrom].min
       healingAmt = coinsToConsume / CASHOUT_HEALING_DIVISOR

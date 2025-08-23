@@ -1,6 +1,7 @@
 BattleHandlers::AbilityOnSwitchOut.add(:REGENERATOR,
   proc { |ability, battler, battle, endOfBattle|
       next if endOfBattle
+      next unless battler.canHeal?
       battler.pbRecoverHP(battler.totalhp / 4.0, false, false, false)
   }
 )
@@ -19,10 +20,8 @@ BattleHandlers::AbilityOnSwitchOut.add(:NATURALCURE,
 BattleHandlers::AbilityOnSwitchOut.add(:NATURALCURE,
   proc { |ability, battler, battle, endOfBattle|
       next if endOfBattle
-      battler.aiLearnsAbility(ability)
-      battler.pbRecoverHP(battler.totalhp / 10.0, false, false, false)
+      battler.pbRecoverHP(battler.totalhp / 10.0, false, false, false) if battler.canHeal?
       battler.pbCureStatus(false) if battler.pbHasAnyStatus?
-      
   }
 )
 

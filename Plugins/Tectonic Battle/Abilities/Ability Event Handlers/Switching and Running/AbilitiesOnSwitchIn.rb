@@ -1229,6 +1229,7 @@ CASHOUT_HEALING_DIVISOR = 10
 BattleHandlers::AbilityOnSwitchIn.add(:CASHOUT,
   proc { |ability, battler, battle, aiCheck|
       next unless battler.pbOwnSide.effectActive?(:PayDay)
+      next unless battler.canHeal?(true)
       maxCoinsCanHealFrom = battler.maxOverhealingPossible * CASHOUT_HEALING_DIVISOR
       coinsToConsume = [battler.pbOwnSide.countEffect(:PayDay),maxCoinsCanHealFrom].min
       healingAmt = coinsToConsume / CASHOUT_HEALING_DIVISOR

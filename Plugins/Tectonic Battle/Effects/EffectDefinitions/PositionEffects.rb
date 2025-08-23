@@ -72,7 +72,7 @@ GameData::BattleEffect.register_effect(:Position, {
     :entry_proc => proc do |battle, _index, position, battler|
         battle.pbCommonAnimation("HealingWish", battler)
         healingMessage = _INTL("The healing wish came true for {1}!", battler.pbThis(true))
-        battler.pbRecoverHP(battler.totalhp, true, true, true, healingMessage)
+        battler.pbRecoverHP(battler.totalhp, true, true, true, healingMessage) if battler.canHeal?
         battler.pbCureStatus(false)
         position.disableEffect(:HealingWish)
     end,
@@ -85,7 +85,7 @@ GameData::BattleEffect.register_effect(:Position, {
     :entry_proc => proc do |battle, _index, position, battler|
         battle.pbCommonAnimation("LunarDance", battler)
         healingMessage = _INTL("The healing wish came true for {1}!", battler.pbThis(true))
-        battler.pbRecoverHP(battler.totalhp, true, true, true, healingMessage)
+        battler.pbRecoverHP(battler.totalhp, true, true, true, healingMessage) if battler.canHeal?
         battler.pbCureStatus(false)
         battler.eachMove { |m| m.pp = m.total_pp }
         position.disableEffect(:LunarDance)

@@ -403,6 +403,7 @@ class PokeBattle_Battle
         if hailDamage > 0
             priority.each do |b|
                 next unless b.hasActiveAbility?(:WINTERSWAGES)
+                next unless b.canHeal?
                 pbShowAbilitySplash(b, :WINTERSWAGES)
                 healingMessage = _INTL("{1} absorbs the suffering from the hailstorm.", b.pbThis)
                 b.pbRecoverHP(hailDamage, true, true, true, healingMessage)
@@ -413,6 +414,7 @@ class PokeBattle_Battle
         if sandstormDamage > 0
             priority.each do |b|
                 next unless b.hasActiveAbility?(:DESERTSCAVENGER)
+                next unless b.canHeal?
                 pbShowAbilitySplash(b, :DESERTSCAVENGER)
                 healingMessage = _INTL("{1} absorbs the suffering from the sandstorm", b.pbThis)
                 b.pbRecoverHP(sandstormDamage, true, true, true, healingMessage)

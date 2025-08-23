@@ -46,7 +46,7 @@ class PokeBattle_Battler
         @battle.tracker_get(:turn_switched)[unique_id] = @battle.turnCount
 
         # Switch Healing Switch part
-        pbRecoverHP(@totalhp * Settings::SWITCH_HEALING_AMT / 100.0, false, false, false) unless fainted?
+        pbRecoverHP(@totalhp * Settings::SWITCH_HEALING_AMT / 100.0, false, false, false) if canHeal?
 
         eachActiveAbility do |ability|
             BattleHandlers.triggerAbilityOnSwitchOut(ability, self, @battle, false)
@@ -54,7 +54,7 @@ class PokeBattle_Battler
         position.applyEffect(:PassingAbility, @pokemonIndex) if abilityActive?
         position.applyEffect(:PassingStats, @pokemonIndex)
         # Caretaker bonus
-        pbRecoverHP(@totalhp / 10.0, false, false, false) if hasTribeBonus?(:CARETAKER) && !fainted?
+        pbRecoverHP(@totalhp / 10.0, false, false, false) if hasTribeBonus?(:CARETAKER) && canHeal?
         # Reset form
         @battle.peer.pbOnLeavingBattle(@battle, @pokemon, @battle.usedInBattle[idxOwnSide][@index / 2])
         # Treat self as fainted

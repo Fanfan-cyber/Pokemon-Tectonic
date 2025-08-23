@@ -479,16 +479,16 @@ class PokeBattle_Battler
 
     def canHeal?(overheal = false)
         return false if fainted?
-
-        ret = @battle.apply_field_effect(:block_heal, self, overheal)
-        return false if ret
-
         if overheal
-            return false if @hp >= @totalhp * 2
+            return false if @hp >= @totalhp * MAX_CAP_RATIO
         else
             return false if @hp >= @totalhp
         end
         return false if effectActive?(:HealBlock)
+
+        ret = @battle.apply_field_effect(:block_heal, self, overheal)
+        return false if ret
+
         return true
     end
 
