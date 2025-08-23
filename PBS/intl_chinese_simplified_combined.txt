@@ -38948,7 +38948,7 @@ Autumnal
 Backwash
 回流
 Bad Influence
-毒奶
+不良影响
 Bad Luck
 坏运气
 Bad Omen
@@ -39092,7 +39092,7 @@ Delayed Reaction
 Desert Armor
 沙漠甲胄
 Desert Scavenger
-镀金旅团
+沙漠清道夫
 Desert Spirit
 沙漠灵体
 Desiccate
@@ -39966,7 +39966,7 @@ Live Wire
 Wise Hunter
 心愿猎手
 Wish Maker
-心愿塑造
+许愿者
 Worldquake
 全球震颤
 Wrath Instinct
@@ -51270,7 +51270,7 @@ It became special!
 {1} is distracted by the shining sun.
 {1}被阳光照得心烦意乱。
 But it failed, since everyone else already acted this turn!
-但是失败了， 因为其他精灵都已经行动过了！
+但是失败了，因为其他精灵都已经行动过了！
 But it failed, since {1} didn't choose to use a move!
 但它失败了，因为{1}没有选择使用技能！
 But it failed, since {1} already move this turn!
@@ -55916,7 +55916,7 @@ In the same match, an Aegislash may be far less valuable – be willing to sacri
 There's no shame in letting a Pokémon fall in order to get a safe switch to another.
 为了安全地切换到另一只精灵，让一只精灵倒下并没有什么可耻的。
 While they may seem drastic, moves such as Healing Wish or Explosion can turn the tide of a match in a single turn.
-虽然它们看起来很极端，但像治愈愿望或自爆这样的技能可以在1回合内扭转比赛的局面。
+虽然它们看起来很极端，但像治愈之愿或自爆这样的技能可以在1回合内扭转比赛的局面。
 Fainting the user can, if used with finesse, be an advantage – think of them as the ultimate U-Turn.
 如果使用得当，让使用者濒死可以是1个优势——把它们当作终极的极速折返。
 The Corviknight stares at you intently.
@@ -57423,6 +57423,8 @@ lowered {1} recovered by {2}
 2222222
 Turns to Finale Form when only unfainted on team. Ignores the condition of a perfect battle.
 当队伍只剩下自身后，将变为终结形态。若在终结形态取得了胜利，依然视为完胜。
+Consumes coins to heal for 1/10th the amount consumed when its HP becomes half or less. This can overheal.
+当HP小于一半时，消耗场上的金钱，回复消耗金钱量的10%的HP，可以过量回复。
 When the Pokémon eats a Berry, it restores 25% of its max health.
 当精灵吃下一颗树果时，会回复最大生命值的25%。
 Raises Attack by 2 steps after knocking out any Pokémon.
@@ -61265,15 +61267,15 @@ Foretold Move User Party Index
 Incoming Move Type
 即将到来的技能类型
 Healing Wish
-治愈愿望
+治愈之愿
 Lunar Dance
-月之舞
+新月舞
 Turns Till Wish
 愿望前的回合
 Wish Heal Amount
 愿望治疗量
 Wish Maker
-愿望制造者
+许愿者
 PassingAbility
 传递特性
 PassingStats

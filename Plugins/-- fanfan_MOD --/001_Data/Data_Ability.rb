@@ -1,6 +1,7 @@
 ABILITY_DATA = {
  #:ABOVEITALL        => { :desc => proc { _INTL("1111111") }, :details => proc { _INTL("2222222") }, },
   :ARCANEFINALE     => { :desc => proc { _INTL("Turns to Finale Form when only unfainted on team. Ignores the condition of a perfect battle.") }, },
+  :CASHFLOW         => { :desc => proc { _INTL("Consumes coins to heal for 1/10th the amount consumed when its HP becomes half or less. This can overheal.") }, },
   :CHEEKPOUCH       => { :desc => proc { _INTL("When the Pokémon eats a Berry, it restores 25% of its max health.") }, },
   :CHILLINGNEIGH    => { :desc => proc { _INTL("Raises Attack by 2 steps after knocking out any Pokémon.") }, },
   :DEFEATIST        => { :desc => proc { _INTL("Halves move damage when HP is greater than 50%.") }, },

@@ -139,7 +139,7 @@ class PokeBattle_Battler
         end
     end
 
-    MAX_CAP_RATIO = 3
+    MAX_CAP_RATIO = 5
     def pbRecoverHP(amt, anim = true, anyAnim = true, showMessage = true, customMessage = nil, canOverheal: false, items_to_skip: [], aiCheck: false)
         if @battle.autoTesting
             anim = false

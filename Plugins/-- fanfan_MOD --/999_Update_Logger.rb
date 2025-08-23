@@ -194,7 +194,23 @@ disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
 29.铁火辉夜的第一特性由Auto-Pilot改为Auto-Pilot 2
 30.修复了Caffeine Rush的中文描述错误的Bug
 31.将Game.ini加入了游戏的完整压缩包中
-32.
+32.修复了在某些情况下无法正确检查精灵是否可以回复HP的Bug
+33.修复了Cash Out的特性条可能会异常显示的Bug
+34.修复了Cash Flow的特性条可能会异常显示的Bug
+35.现在Ignition Cycle不再可以无视条件回复HP了
+36.现在再生力不再可以无视条件回复HP了
+37.现在自然恢复不再可以无视条件回复HP了
+38.现在Desert Scavenger不再可以无视条件回复HP了
+39.现在Winter's Wages不再可以无视条件回复HP了
+40.现在痛苦平分不再可以无视条件回复HP了
+41.修复了当精灵的HP大于精灵的最大HP时，同时场上有Bad Influence时，替换精灵会使游戏崩溃的Bug
+42.现在Caretaker不再可以无视条件回复HP了
+43.现在替换回血机制不再可以无视条件回复HP了
+44.现在治愈之愿不再可以无视条件回复HP了
+45.现在新月舞不再可以无视条件回复HP了
+46.将过量回复的上限由3倍精灵的最大HP改为5倍
+47.现在Cash Flow不再可以将对手的物品变为金钱
+48.
 
 0.4.1 Celestial Covenant / 星约夜临​
 1.重修了战斗模拟器的加载逻辑，现在战斗模拟器只会在必要时才重新加载队伍的数据
