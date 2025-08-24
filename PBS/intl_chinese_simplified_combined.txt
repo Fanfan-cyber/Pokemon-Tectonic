@@ -44775,6 +44775,8 @@ Blade
 切割
 Wind
 风
+Multi
+多
 Kick
 踢
 Light
@@ -57251,6 +57253,10 @@ Do you want to add the opposing team to the Battle Loader?
 你想要将对方的队伍加入到战斗模拟器中吗？
 Which battle rule do you want to use?
 你想要使用哪1个对战规则？
+Would you like to give it a Curse Effect?
+你想要给这个队伍设置塔罗牌效果吗？
+Which Curse Effect do you want?
+你想要哪一个塔罗牌效果？
 Would you like to give it a name?
 要起1个名字吗？
 Which default name do you want to use?

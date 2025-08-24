@@ -3,6 +3,8 @@ Events.onTrainerPartyLoad += proc { |_sender, e|
   trainer = e[0]
   next unless trainer
   trainer.name = TA.get(:name)
+  trainer.policies.clear
+  trainer.policies.concat(TA.get(:curse))
   trainer.party.clear
   TA.get(:team).each { |pkmn| trainer.party << pkmn.clone_pkmn }
 }
