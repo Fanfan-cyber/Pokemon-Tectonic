@@ -1056,6 +1056,14 @@ No
 Yes
 Yes
 [Map7]
+The murkrow silently stares at you, a grim look in its eyes.
+The murkrow silently stares at you, a grim look in its eyes.
+West: Velenz
+West: Velenz
+North: Svait
+North: Svait
+South: The Shelf
+South: The Shelf
 The Growlithe is cowering from everything.
 The Growlithe is cowering from everything.
 You notice a tag on its collar. Though it's moving around, you can just make out what's written on it.
@@ -1074,14 +1082,6 @@ You should return the Growlithe to its owner.
 You should return the Growlithe to its owner.
 According to the tag on its collar, the owner lives in Novo Apartments.
 According to the tag on its collar, the owner lives in Novo Apartments.
-West: Velenz
-West: Velenz
-North: Svait
-North: Svait
-South: The Shelf
-South: The Shelf
-The murkrow silently stares at you, a grim look in its eyes.
-The murkrow silently stares at you, a grim look in its eyes.
 You want to know how my makeup stays fresh with all this ash?
 You want to know how my makeup stays fresh with all this ash?
 The truth is that I am... a beast of the forest, come to take your soul!
@@ -1132,6 +1132,12 @@ Anyways, my side of the bargain...
 Anyways, my side of the bargain...
 Suppose I'll get outta yer hair now.
 Suppose I'll get outta yer hair now.
+The true self can only be found by exploring the world, and beating the crap out of random people you find on the way!
+The true self can only be found by exploring the world, and beating the crap out of random people you find on the way!
+After that thrashing I'm gonna have to self-actualize extra-violently to make up! See ya in Kalos!
+After that thrashing I'm gonna have to self-actualize extra-violently to make up! See ya in Kalos!
+Ah, a fellow seeker of enlightenment. Best of luck!
+Ah, a fellow seeker of enlightenment. Best of luck!
 This is a premiere Bug-type training ground! Samorn told me herself!
 This is a premiere Bug-type training ground! Samorn told me herself!
 Maybe I'm the worm...
@@ -1142,12 +1148,6 @@ Samorn trains Dragon-types as well! How cool is that!
 Samorn trains Dragon-types as well! How cool is that!
 Not as cool as bugs though.
 Not as cool as bugs though.
-The true self can only be found by exploring the world, and beating the crap out of random people you find on the way!
-The true self can only be found by exploring the world, and beating the crap out of random people you find on the way!
-After that thrashing I'm gonna have to self-actualize extra-violently to make up! See ya in Kalos!
-After that thrashing I'm gonna have to self-actualize extra-violently to make up! See ya in Kalos!
-Ah, a fellow seeker of enlightenment. Best of luck!
-Ah, a fellow seeker of enlightenment. Best of luck!
 I saw a band of troubadours in that cave beyond the fence.
 I saw a band of troubadours in that cave beyond the fence.
 Do you know anything about them?
@@ -1163,18 +1163,6 @@ No
 Yes
 Yes
 [Map8]
-My cousin and I like to hang out here. Take in the cool atmosphere and the night sky.
-My cousin and I like to hang out here. Take in the cool atmosphere and the night sky.
-We still battle people, but like... in a chill way...
-We still battle people, but like... in a chill way...
-I'm gonna leave now. Don't like your vibes.
-I'm gonna leave now. Don't like your vibes.
-Can you feel the energy given off by those evolution stones?
-Can you feel the energy given off by those evolution stones?
-It's doing wonders for my stress.
-It's doing wonders for my stress.
-Is life worth living if you can't take time to be transfixed by the beauty of nature?
-Is life worth living if you can't take time to be transfixed by the beauty of nature?
 Hey there. Miss me?
 Hey there. Miss me?
 I finally got here – all thanks to you. I have to say, you don’t look a mite worse for wear considering how much wilderness you trekked through.
@@ -1261,6 +1249,30 @@ Something like a Fire or Sun Stone would clash, and a Leaf or Dusk Stone is more
 Something like a Fire or Sun Stone would clash, and a Leaf or Dusk Stone is more of what they already have.
 I promise it’s a good cause.
 I promise it’s a good cause.
+My cousin and I like to hang out here. Take in the cool atmosphere and the night sky.
+My cousin and I like to hang out here. Take in the cool atmosphere and the night sky.
+We still battle people, but like... in a chill way...
+We still battle people, but like... in a chill way...
+I'm gonna leave now. Don't like your vibes.
+I'm gonna leave now. Don't like your vibes.
+Can you feel the energy given off by those evolution stones?
+Can you feel the energy given off by those evolution stones?
+It's doing wonders for my stress.
+It's doing wonders for my stress.
+Is life worth living if you can't take time to be transfixed by the beauty of nature?
+Is life worth living if you can't take time to be transfixed by the beauty of nature?
+A notice about the Makyan Regional Tournament has been hastily scribbled over.
+A notice about the Makyan Regional Tournament has been hastily scribbled over.
+A note added below reads "Not Taking Challengers"
+A note added below reads "Not Taking Challengers"
+Velenz Gym
+Velenz Gym
+Leader: Rafael
+Leader: Rafael
+...
+...
+It seems like the Gym Leader was supposed to write a title here, but the space has been left blank.
+It seems like the Gym Leader was supposed to write a title here, but the space has been left blank.
 Improper planning ruined this place. I just know it.
 Improper planning ruined this place. I just know it.
 Founding a town over a cave system? In a swamp?
@@ -1277,18 +1289,12 @@ Hm, I didn't expect you to say no.
 Hm, I didn't expect you to say no.
 The math... I must have miscalculated...
 The math... I must have miscalculated...
-Velenz Gym
-Velenz Gym
-Leader: Rafael
-Leader: Rafael
-...
-...
-It seems like the Gym Leader was supposed to write a title here, but the space has been left blank.
-It seems like the Gym Leader was supposed to write a title here, but the space has been left blank.
-A notice about the Makyan Regional Tournament has been hastily scribbled over.
-A notice about the Makyan Regional Tournament has been hastily scribbled over.
-A note added below reads "Not Taking Challengers"
-A note added below reads "Not Taking Challengers"
+Temporary Velenz Ranger Outpost
+Temporary Velenz Ranger Outpost
+"Velenz, proud home of-"
+"Velenz, proud home of-"
+Claw marks on the sign render the text unreadable.
+Claw marks on the sign render the text unreadable.
 Don't tell the others, but I'm getting bored of waiting.
 Don't tell the others, but I'm getting bored of waiting.
 Well, might as well battle you before <i>they</i> arrive.
@@ -1305,12 +1311,6 @@ That mansion near the menagerie must have something to do with the light I saw.
 That mansion near the menagerie must have something to do with the light I saw.
 My cousin says I'm paranoid, but I definitely saw the place glowing last night.
 My cousin says I'm paranoid, but I definitely saw the place glowing last night.
-"Velenz, proud home of-"
-"Velenz, proud home of-"
-Claw marks on the sign render the text unreadable.
-Claw marks on the sign render the text unreadable.
-Temporary Velenz Ranger Outpost
-Temporary Velenz Ranger Outpost
 I thought this place was supposed to be scary.
 I thought this place was supposed to be scary.
 Just seems peaceful to me.
@@ -1327,6 +1327,10 @@ Got some rare things on sale, stranger!
 Got some rare things on sale, stranger!
 Come back anytime.
 Come back anytime.
+East: Repora Forest
+East: Repora Forest
+South: Barren Crater
+South: Barren Crater
 No earthlings allowed: that's the rule.
 No earthlings allowed: that's the rule.
 By the power of the Moon Stone, I will punish you!
@@ -1339,34 +1343,6 @@ I haven't been a real sailor since they scuttled my ship.
 I haven't been a real sailor since they scuttled my ship.
 I just like the clothes.
 I just like the clothes.
-East: Repora Forest
-East: Repora Forest
-South: Barren Crater
-South: Barren Crater
-There's supposed to be a gym leader around here, but he's not keen on taking challengers.
-There's supposed to be a gym leader around here, but he's not keen on taking challengers.
-He lives <imp>underground</imp> like some hermit.
-He lives <imp>underground</imp> like some hermit.
-Even locked himself up to make it harder to get in.
-Even locked himself up to make it harder to get in.
-Apparently the <imp>lock combination code</imp> is somewhere in the town.
-Apparently the <imp>lock combination code</imp> is somewhere in the town.
-This is all a bit too mental for me right now, so I'm taking a break.
-This is all a bit too mental for me right now, so I'm taking a break.
-A small handmade sign. It lists an eight-digit code in a big, blocky style.
-A small handmade sign. It lists an eight-digit code in a big, blocky style.
-Rafael may have a layer of earth protecting him from the surface, but it doesn't protect him from my astral projection.
-Rafael may have a layer of earth protecting him from the surface, but it doesn't protect him from my astral projection.
-I've been watching his battles with some fervor. I wish to grasp the essence of his strategy.
-I've been watching his battles with some fervor. I wish to grasp the essence of his strategy.
-It is, at its core, about dancing.
-It is, at its core, about dancing.
-His Oricorio and Alolan Marowak both gain power from dancing done by their allies.
-His Oricorio and Alolan Marowak both gain power from dancing done by their allies.
-If one was feeling particularly devilish, one could aquire a Hattrem.
-If one was feeling particularly devilish, one could aquire a Hattrem.
-That witch has a special ability which can prevent Pokemon from utilizing dance.
-That witch has a special ability which can prevent Pokemon from utilizing dance.
 Hey again. Bet you didn't expect to see me in a place like this, eh?
 Hey again. Bet you didn't expect to see me in a place like this, eh?
 I'm good at battling, less so at cryptic riddles and haunted towns.
@@ -1399,6 +1375,30 @@ You unlocked Rafael's front door?! That sure saves me the time and frustration.
 You unlocked Rafael's front door?! That sure saves me the time and frustration.
 Much appreciated, fellow trainer! Off I go!
 Much appreciated, fellow trainer! Off I go!
+Rafael may have a layer of earth protecting him from the surface, but it doesn't protect him from my astral projection.
+Rafael may have a layer of earth protecting him from the surface, but it doesn't protect him from my astral projection.
+I've been watching his battles with some fervor. I wish to grasp the essence of his strategy.
+I've been watching his battles with some fervor. I wish to grasp the essence of his strategy.
+It is, at its core, about dancing.
+It is, at its core, about dancing.
+His Oricorio and Alolan Marowak both gain power from dancing done by their allies.
+His Oricorio and Alolan Marowak both gain power from dancing done by their allies.
+If one was feeling particularly devilish, one could aquire a Hattrem.
+If one was feeling particularly devilish, one could aquire a Hattrem.
+That witch has a special ability which can prevent Pokemon from utilizing dance.
+That witch has a special ability which can prevent Pokemon from utilizing dance.
+There's supposed to be a gym leader around here, but he's not keen on taking challengers.
+There's supposed to be a gym leader around here, but he's not keen on taking challengers.
+He lives <imp>underground</imp> like some hermit.
+He lives <imp>underground</imp> like some hermit.
+Even locked himself up to make it harder to get in.
+Even locked himself up to make it harder to get in.
+Apparently the <imp>lock combination code</imp> is somewhere in the town.
+Apparently the <imp>lock combination code</imp> is somewhere in the town.
+This is all a bit too mental for me right now, so I'm taking a break.
+This is all a bit too mental for me right now, so I'm taking a break.
+A small handmade sign. It lists an eight-digit code in a big, blocky style.
+A small handmade sign. It lists an eight-digit code in a big, blocky style.
 Why are you here?
 Why are you here?
 Is this going somewhere?
@@ -8918,22 +8918,30 @@ Perhaps your victories will end up here, one day.
 Spend enough time here and it begins to feel like a forum.
 Spend enough time here and it begins to feel like a forum.
 [Map136]
-West: Bluepoint Beach
-West: Bluepoint Beach
-Northeast: Scenic Path
-Northeast: Scenic Path
-A third label has been poorly masked with white paint.
-A third label has been poorly masked with white paint.
-The door is securely locked.
-The door is securely locked.
 Welcome to Casaba Villa, the best resort town in Makya.
 Welcome to Casaba Villa, the best resort town in Makya.
 My fiancé and I visit here at least once a month.
 My fiancé and I visit here at least once a month.
 Oh, I'd introduce you to her, but she's enjoying herself at Bluepoint Beach at the moment.
 Oh, I'd introduce you to her, but she's enjoying herself at Bluepoint Beach at the moment.
+The door is securely locked.
+The door is securely locked.
+West: Bluepoint Beach
+West: Bluepoint Beach
+Northeast: Scenic Path
+Northeast: Scenic Path
+A third label has been poorly masked with white paint.
+A third label has been poorly masked with white paint.
 Lambert's House
 Lambert's House
+I've summered here for 20 years.
+I've summered here for 20 years.
+I must say it really went to the dogs once Team Chasm started moving in.
+I must say it really went to the dogs once Team Chasm started moving in.
+I especially don't like the gym leader they stationed here.
+I especially don't like the gym leader they stationed here.
+Before all this, he was a bartender at some establishment for roustabouts.
+Before all this, he was a bartender at some establishment for roustabouts.
 Hey, kiddo. What’s goin’ on? I heard you’re following me.
 Hey, kiddo. What’s goin’ on? I heard you’re following me.
 Well, go right ahead. Not gonna get a Beedrill in my bonnet over some kid toddling after me.
@@ -8952,22 +8960,14 @@ Too bad. If you can’t beat that gym, you don’t deserve to even be in this co
 Too bad. If you can’t beat that gym, you don’t deserve to even be in this competition. Bye!
 You’ve always needed my help. Fine -- prove me wrong. We’ll talk again.
 You’ve always needed my help. Fine -- prove me wrong. We’ll talk again.
-I've summered here for 20 years.
-I've summered here for 20 years.
-I must say it really went to the dogs once Team Chasm started moving in.
-I must say it really went to the dogs once Team Chasm started moving in.
-I especially don't like the gym leader they stationed here.
-I especially don't like the gym leader they stationed here.
-Before all this, he was a bartender at some establishment for roustabouts.
-Before all this, he was a bartender at some establishment for roustabouts.
-"Casaba Villa, Makya's #1 Vacation Spot"
-"Casaba Villa, Makya's #1 Vacation Spot"
 I volunteer at the PokeCenter here sometimes.
 I volunteer at the PokeCenter here sometimes.
 So many trainers come in with Numbed Pokemon after battling Lambert.
 So many trainers come in with Numbed Pokemon after battling Lambert.
 Apparently a lot of new trainers struggle with that status, as it halves the Pokemon's speed and reduces the damage they do.
 Apparently a lot of new trainers struggle with that status, as it halves the Pokemon's speed and reduces the damage they do.
+"Casaba Villa, Makya's #1 Vacation Spot"
+"Casaba Villa, Makya's #1 Vacation Spot"
 Greetings!
 Greetings!
 If appearances are to be believed, you seem to be a fine trainer.
@@ -8990,8 +8990,6 @@ You can <imp>perfect</imp> my team all you want, and I'll <imp>stay right here</
 You can <imp>perfect</imp> my team all you want, and I'll <imp>stay right here</imp>.
 If you would indeed like to battle me, and the team I've assembled to take down Lambert, just ask.
 If you would indeed like to battle me, and the team I've assembled to take down Lambert, just ask.
-The berry plant is growing.
-The berry plant is growing.
 Skipping Tamarind cutscene.
 Skipping Tamarind cutscene.
 Morning, \PN, I'm <imp>Professor Tamarind</imp>.
@@ -9034,6 +9032,14 @@ Well, keep it in mind.
 Well, keep it in mind.
 See ya, kid.
 See ya, kid.
+The berry plant is growing.
+The berry plant is growing.
+Casaba Villa Gym
+Casaba Villa Gym
+Leader: Lambert
+Leader: Lambert
+Fighting dirty for over a decade.
+Fighting dirty for over a decade.
 Hey!
 Hey!
 I'm bored and want to have fun. Let's play hide and seek!
@@ -9044,22 +9050,8 @@ If you can find me, I'll give the TMs to you.
 If you can find me, I'll give the TMs to you.
 I'll be somewhere on the route to the foreclosed tunnel. Smell ya later!
 I'll be somewhere on the route to the foreclosed tunnel. Smell ya later!
-Casaba Villa Gym
-Casaba Villa Gym
-Leader: Lambert
-Leader: Lambert
-Fighting dirty for over a decade.
-Fighting dirty for over a decade.
-Hey, \PN. I heard you beat Lambert.
-Hey, \PN. I heard you beat Lambert.
-Guessing you’re gonna head for the <imp>mainland</imp> now?
-Guessing you’re gonna head for the <imp>mainland</imp> now?
-Well, before you go, meet me at the dock, 'kay?
-Well, before you go, meet me at the dock, 'kay?
-Got something to say. Thanks.
-Got something to say. Thanks.
-She hung up...
-She hung up...
+Closed while Lambert participates in the Makya Championship Tournament.
+Closed while Lambert participates in the Makya Championship Tournament.
 Be careful outside the Villa, you don't want to end up as another incident in the newspapers.
 Be careful outside the Villa, you don't want to end up as another incident in the newspapers.
 No, I'm not talking about wild Pokemon.
@@ -9072,8 +9064,30 @@ I for one can't wait for the whole thing to blow over, so I can read again about
 I for one can't wait for the whole thing to blow over, so I can read again about things of real interest.
 Like the stock market.
 Like the stock market.
-Closed while Lambert participates in the Makya Championship Tournament.
-Closed while Lambert participates in the Makya Championship Tournament.
+Hey, \PN. I heard you beat Lambert.
+Hey, \PN. I heard you beat Lambert.
+Guessing you’re gonna head for the <imp>mainland</imp> now?
+Guessing you’re gonna head for the <imp>mainland</imp> now?
+Well, before you go, meet me at the dock, 'kay?
+Well, before you go, meet me at the dock, 'kay?
+Got something to say. Thanks.
+Got something to say. Thanks.
+She hung up...
+She hung up...
+Lambert has some interesting choices of Pokemon.
+Lambert has some interesting choices of Pokemon.
+His prized Riolu was a gift from Victoire, another gym leader. Sangfroid, he calls her.
+His prized Riolu was a gift from Victoire, another gym leader. Sangfroid, he calls her.
+A beautiful name, in my opinion!
+A beautiful name, in my opinion!
+I believe Lambert also has a Croagunk. Or.... two of them?
+I believe Lambert also has a Croagunk. Or.... two of them?
+I'm not sure, but I swear I saw a sparring match, where the two seemed identical...
+I'm not sure, but I swear I saw a sparring match, where the two seemed identical...
+That was a fun game of hide and seek!
+That was a fun game of hide and seek!
+I've learned that if I offer stolen goods to people, they'll let me do whatever I want!
+I've learned that if I offer stolen goods to people, they'll let me do whatever I want!
 You keen to take me up on my offer?
 You keen to take me up on my offer?
 Understood.
@@ -9094,30 +9108,10 @@ As a fellow competitor, I have nothing to say but to congratulate you on your vi
 As a fellow competitor, I have nothing to say but to congratulate you on your victory over Lambert.
 I'll take this as the cue to go make my attempt as well. Wish me luck!
 I'll take this as the cue to go make my attempt as well. Wish me luck!
-That was a fun game of hide and seek!
-That was a fun game of hide and seek!
-I've learned that if I offer stolen goods to people, they'll let me do whatever I want!
-I've learned that if I offer stolen goods to people, they'll let me do whatever I want!
-Lambert has some interesting choices of Pokemon.
-Lambert has some interesting choices of Pokemon.
-His prized Riolu was a gift from Victoire, another gym leader. Sangfroid, he calls her.
-His prized Riolu was a gift from Victoire, another gym leader. Sangfroid, he calls her.
-A beautiful name, in my opinion!
-A beautiful name, in my opinion!
-I believe Lambert also has a Croagunk. Or.... two of them?
-I believe Lambert also has a Croagunk. Or.... two of them?
-I'm not sure, but I swear I saw a sparring match, where the two seemed identical...
-I'm not sure, but I swear I saw a sparring match, where the two seemed identical...
-As a fisher, you learn to pick up on small inconsistencies around you.
-As a fisher, you learn to pick up on small inconsistencies around you.
-Take for example that bush behind me. I bet something's going on with it.
-Take for example that bush behind me. I bet something's going on with it.
-Would you look at that! Found yourself something nice.
-Would you look at that! Found yourself something nice.
-Keep an eye out for those sort of things. Don't be afraid to poke around a bit.
-Keep an eye out for those sort of things. Don't be afraid to poke around a bit.
-You never know what you might find...
-You never know what you might find...
+You haven't completed what you need to on the island yet!
+You haven't completed what you need to on the island yet!
+Would you like to leave Casaba Villa and go to the Mainland?
+Would you like to leave Casaba Villa and go to the Mainland?
 Oh, you just got a MasterDex? They're pretty neat.
 Oh, you just got a MasterDex? They're pretty neat.
 Of all its features, the DexNav is my favorite.
@@ -9128,10 +9122,30 @@ Once you've caught one, you can also use it to find more of that same species!
 Once you've caught one, you can also use it to find more of that same species!
 Isn't technology amazing?
 Isn't technology amazing?
-You haven't completed what you need to on the island yet!
-You haven't completed what you need to on the island yet!
-Would you like to leave Casaba Villa and go to the Mainland?
-Would you like to leave Casaba Villa and go to the Mainland?
+As a fisher, you learn to pick up on small inconsistencies around you.
+As a fisher, you learn to pick up on small inconsistencies around you.
+Take for example that bush behind me. I bet something's going on with it.
+Take for example that bush behind me. I bet something's going on with it.
+Would you look at that! Found yourself something nice.
+Would you look at that! Found yourself something nice.
+Keep an eye out for those sort of things. Don't be afraid to poke around a bit.
+Keep an eye out for those sort of things. Don't be afraid to poke around a bit.
+You never know what you might find...
+You never know what you might find...
+Lambert, the gym leader, came running through here earlier.
+Lambert, the gym leader, came running through here earlier.
+He put a rock behind him to block it off, for some reason.
+He put a rock behind him to block it off, for some reason.
+You need to get through?
+You need to get through?
+Well...there's an abandoned tunnel up to the north.
+Well...there's an abandoned tunnel up to the north.
+You can probably find something to blow this rock up if you go there.
+You can probably find something to blow this rock up if you go there.
+Oh hey, you cleared out that rock!
+Oh hey, you cleared out that rock!
+Who knew explosives could be so useful?
+Who knew explosives could be so useful?
 Oh, so it is you!
 Oh, so it is you!
 Forgive my doppelganger – a Ditto that stalks me incessantly, claiming to be the real deal.
@@ -9164,20 +9178,6 @@ I dare not leave her alone, claiming to be me, so off I go!
 I dare not leave her alone, claiming to be me, so off I go!
 Fare you well, traveler!
 Fare you well, traveler!
-Lambert, the gym leader, came running through here earlier.
-Lambert, the gym leader, came running through here earlier.
-He put a rock behind him to block it off, for some reason.
-He put a rock behind him to block it off, for some reason.
-You need to get through?
-You need to get through?
-Well...there's an abandoned tunnel up to the north.
-Well...there's an abandoned tunnel up to the north.
-You can probably find something to blow this rock up if you go there.
-You can probably find something to blow this rock up if you go there.
-Oh hey, you cleared out that rock!
-Oh hey, you cleared out that rock!
-Who knew explosives could be so useful?
-Who knew explosives could be so useful?
 We'll see.
 We'll see.
 ...
@@ -12777,8 +12777,6 @@ You may have bested me in battle, but you'll still struggle against Noel.
 You may have bested me in battle, but you'll still struggle against Noel.
 Leave me be, you nincompoop.
 Leave me be, you nincompoop.
-It's a beautifully carved ice sculpture of an Alakazam.
-It's a beautifully carved ice sculpture of an Alakazam.
 Hey, sorry champ, but Noel's policy here is that everybody's gotta move through the gym counter-clockwise.
 Hey, sorry champ, but Noel's policy here is that everybody's gotta move through the gym counter-clockwise.
 I'm assuming its got some artsy-fartsy reason.
@@ -12787,6 +12785,8 @@ So, come on over this way, yeah?
 So, come on over this way, yeah?
 Yo.
 Yo.
+It's a beautifully carved ice sculpture of an Alakazam.
+It's a beautifully carved ice sculpture of an Alakazam.
 Ugh.... nothing to do but crash at home, I guess.
 Ugh.... nothing to do but crash at home, I guess.
 An inspiring battle, fit for feature in my next sculpture!
@@ -12807,6 +12807,8 @@ Cause, like...
 Cause, like...
 The ice...
 The ice...
+It's a beautifully carved ice sculpture of an Espeon.
+It's a beautifully carved ice sculpture of an Espeon.
 Noel is, in every sense of the word, and artist.
 Noel is, in every sense of the word, and artist.
 He'll come if you take out the Trainers here.
@@ -12815,8 +12817,14 @@ Wow! Top class art.
 Wow! Top class art.
 You bring your medium to a new level.
 You bring your medium to a new level.
-It's a beautifully carved ice sculpture of an Espeon.
-It's a beautifully carved ice sculpture of an Espeon.
+Ugh, way to ruin the vibes.
+Ugh, way to ruin the vibes.
+That was pretty cool, I guess.
+That was pretty cool, I guess.
+You're just here for the badge right?
+You're just here for the badge right?
+Heh, poser.
+Heh, poser.
 You doing good? Down for a rematch?
 You doing good? Down for a rematch?
 How’re you? Holding up? Good.
@@ -12885,14 +12893,6 @@ Maybe it’s common for you, but for me… my life got a whole lot easier.
 Maybe it’s common for you, but for me… my life got a whole lot easier.
 So chill. You deserve it.
 So chill. You deserve it.
-Ugh, way to ruin the vibes.
-Ugh, way to ruin the vibes.
-That was pretty cool, I guess.
-That was pretty cool, I guess.
-You're just here for the badge right?
-You're just here for the badge right?
-Heh, poser.
-Heh, poser.
 I sparkled and shone... but you much moreso.
 I sparkled and shone... but you much moreso.
 A rare defeat.
@@ -18009,16 +18009,8 @@ Good.
 Please, don't.
 Please, don't.
 [Map295]
-How'd you get in here?
-How'd you get in here?
-Doesn't matter. I came here to do some SICK TRICKS.
-Doesn't matter. I came here to do some SICK TRICKS.
-I'll start with beating you!
-I'll start with beating you!
-I was lookin' forward to hittin' some slopes. I'm gonna do that now.
-I was lookin' forward to hittin' some slopes. I'm gonna do that now.
-Great battling, kid. Don't think the rest of the family'll fold to you, though.
-Great battling, kid. Don't think the rest of the family'll fold to you, though.
+What do you think you're doing? You're on the wrong side here, go back!
+What do you think you're doing? You're on the wrong side here, go back!
 Great battling kid. Wonder if you can take on the rest of us thought.
 Great battling kid. Wonder if you can take on the rest of us thought.
 I'm not a huge fan of the snow, but I agreed to come here.
@@ -18027,10 +18019,22 @@ It's only fair, since I chose last year's spot--sunny Alola.
 It's only fair, since I chose last year's spot--sunny Alola.
 Life is about compromise.
 Life is about compromise.
+How'd you get in here?
+How'd you get in here?
+Doesn't matter. I came here to do some SICK TRICKS.
+Doesn't matter. I came here to do some SICK TRICKS.
+I'll start with beating you!
+I'll start with beating you!
+I was lookin' forward to hittin' some slopes. I'm gonna do that now.
+I was lookin' forward to hittin' some slopes. I'm gonna do that now.
 Whew, you have me beat. I think I'll go for a run.
 Whew, you have me beat. I think I'll go for a run.
+Great battling, kid. Don't think the rest of the family'll fold to you, though.
+Great battling, kid. Don't think the rest of the family'll fold to you, though.
 Well, you got me.
 Well, you got me. 
+Look at you, phasing through the walls. Who are you, Danny Phantom?
+Look at you, phasing through the walls. Who are you, Danny Phantom?
 [Map296]
 [Map297]
 [Map298]
@@ -19990,14 +19994,6 @@ Congratulations, Champion!
 Congratulations, Champion!
 Take a victory lap around the grounds, you deserve it.
 Take a victory lap around the grounds, you deserve it.
-Hello.
-Hello.
-I am here to watch my dear wife's matches on these large televisions.
-I am here to watch my dear wife's matches on these large televisions.
-I hope they will be quite enjoyable!
-I hope they will be quite enjoyable!
-\wmYou decide not to interrupt the couple while they are talking.
-\wmYou decide not to interrupt the couple while they are talking.
 I have to nab one of those ultrawide TVs for myself.
 I have to nab one of those ultrawide TVs for myself.
 One Stop Tech probably has a few in stock. I picked up a few TMs from them earlier and they seem to have a good inventory.
@@ -20006,6 +20002,14 @@ Um, if you're champion now...
 Um, if you're champion now...
 Could you buy me one of those TVs?
 Could you buy me one of those TVs?
+Hello.
+Hello.
+I am here to watch my dear wife's matches on these large televisions.
+I am here to watch my dear wife's matches on these large televisions.
+I hope they will be quite enjoyable!
+I hope they will be quite enjoyable!
+\wmYou decide not to interrupt the couple while they are talking.
+\wmYou decide not to interrupt the couple while they are talking.
 A replay is playing of a match from the first round.
 A replay is playing of a match from the first round.
 A Tyranitar can be seen dealing a major blow to a Toucannon.
@@ -21536,8 +21540,8 @@ I hope you enjoy yourself at our little soiree.
 I hope you enjoy yourself at our little soiree.
 Trainers should just learn to surf with their Pokemon, like they used to.
 Trainers should just learn to surf with their Pokemon, like they used to.
-Me and my Feraligatr were quite the pair...
-Me and my Feraligatr were quite the pair...
+My Feraligatr and I were quite the pair...
+My Feraligatr and I were quite the pair...
 Nasty business, that thing with the bridge. Good thing I have a boat...
 Nasty business, that thing with the bridge. Good thing I have a boat...
 This piece was sculpted by Noel, the Gym Leader on the eastern half of Prizca.
@@ -21987,14 +21991,6 @@ You can also talk to the locals for advice.
 You can also talk to the locals for advice.
 We wish you the best of luck.
 We wish you the best of luck.
-You want a quick and easy start for a team?
-You want a quick and easy start for a team?
-Try weathers. Set ‘em down, watch ‘em go.
-Try weathers. Set ‘em down, watch ‘em go.
-As long as you can manage keeping ‘em up for the match, you can bulldoze most unprepared teams.
-As long as you can manage keeping ‘em up for the match, you can bulldoze most unprepared teams.
-Plus, they give you an easy way to shut down the competition’s weathers – just override that sucker with your own.
-Plus, they give you an easy way to shut down the competition’s weathers – just override that sucker with your own.
 Oh! This bush has a hidden switch.
 Oh! This bush has a hidden switch.
 Press the hidden switch?
@@ -22003,30 +21999,20 @@ You leave the hidden switch alone.
 You leave the hidden switch alone.
 You sense that a small hole has opened up somewhere!
 You sense that a small hole has opened up somewhere!
+You want a quick and easy start for a team?
+You want a quick and easy start for a team?
+Try weathers. Set ‘em down, watch ‘em go.
+Try weathers. Set ‘em down, watch ‘em go.
+As long as you can manage keeping ‘em up for the match, you can bulldoze most unprepared teams.
+As long as you can manage keeping ‘em up for the match, you can bulldoze most unprepared teams.
+Plus, they give you an easy way to shut down the competition’s weathers – just override that sucker with your own.
+Plus, they give you an easy way to shut down the competition’s weathers – just override that sucker with your own.
 The Battle Monument
 The Battle Monument
 "The heroes of the past tower over us still."
 "The heroes of the past tower over us still."
 A small logo at the bottom right identifies Bogdan Concrete as the company hired for this project.
 A small logo at the bottom right identifies Bogdan Concrete as the company hired for this project.
-The peeps on the TV are saying that the Avatar Crisis is over now.
-The peeps on the TV are saying that the Avatar Crisis is over now.
-I bet you ain't got much to spend your time on, therefore.
-I bet you ain't got much to spend your time on, therefore.
-Wanna just keep fighting me? I collected a ton of different Pokemon during this journey, so I have a lot of teams I want to try out.
-Wanna just keep fighting me? I collected a ton of different Pokemon during this journey, so I have a lot of teams I want to try out.
-Ooh, to spice it up, I should switch to different teams between battles. A surprise every time!
-Ooh, to spice it up, I should switch to different teams between battles. A surprise every time!
-Yeah, I really love the sound of that.
-Yeah, I really love the sound of that.
-Plus, I've stocked up on enough medicine at this point to afford healing up your team between bouts.
-Plus, I've stocked up on enough medicine at this point to afford healing up your team between bouts.
-Lame.
-Lame.
-And here I put so much effort into preparing all these different parties...
-And here I put so much effort into preparing all these different parties...
-Let's get into it!
-Let's get into it!
 Hey...
 Hey...
 Could I interest you in a Shiny Charm?
@@ -22047,6 +22033,24 @@ Which... it looks like you don't have.
 Which... it looks like you don't have.
 Well, the offer stands.
 Well, the offer stands.
+The peeps on the TV are saying that the Avatar Crisis is over now.
+The peeps on the TV are saying that the Avatar Crisis is over now.
+I bet you ain't got much to spend your time on, therefore.
+I bet you ain't got much to spend your time on, therefore.
+Wanna just keep fighting me? I collected a ton of different Pokemon during this journey, so I have a lot of teams I want to try out.
+Wanna just keep fighting me? I collected a ton of different Pokemon during this journey, so I have a lot of teams I want to try out.
+Ooh, to spice it up, I should switch to different teams between battles. A surprise every time!
+Ooh, to spice it up, I should switch to different teams between battles. A surprise every time!
+Yeah, I really love the sound of that.
+Yeah, I really love the sound of that.
+Plus, I've stocked up on enough medicine at this point to afford healing up your team between bouts.
+Plus, I've stocked up on enough medicine at this point to afford healing up your team between bouts.
+Lame.
+Lame.
+And here I put so much effort into preparing all these different parties...
+And here I put so much effort into preparing all these different parties...
+Let's get into it!
+Let's get into it!
 Pick your moves well! It’s not just about hitting hard.
 Pick your moves well! It’s not just about hitting hard. 
 A momentum move like Volt Switch can get a fast Pokémon out before it gets hit or let a slow defensive one take a hit for an ally while switching.
@@ -29464,8 +29468,8 @@ Bagon is a solitary Pokémon that doesn't form groups with others of its kind. I
 Bagon is a solitary Pokémon that doesn't form groups with others of its kind. It also has a head hard enough to cleave a boulder in one strike.
 Shelgon ignores its hunger entirely, never eating any food. Apparently, Shelgon will evolve once all its energy stores are used up.
 Shelgon ignores its hunger entirely, never eating any food. Apparently, Shelgon will evolve once all its energy stores are used up.
-While basking in the joy of flight generally keeps this Pokémon in high spirits, Salamence turns into an uncontrollable menace if something angers it.
-While basking in the joy of flight generally keeps this Pokémon in high spirits, Salamence turns into an uncontrollable menace if something angers it.
+While basking in the joy of flight generally keeps this Pokémon in high spirits, it turns into an uncontrollable menace if something angers it.
+While basking in the joy of flight generally keeps this Pokémon in high spirits, it turns into an uncontrollable menace if something angers it.
 From its rear, Beldum emits a magnetic force that rapidly pulls opponents in. They get skewered on Beldum's sharp claws.
 From its rear, Beldum emits a magnetic force that rapidly pulls opponents in. They get skewered on Beldum's sharp claws.
 Using magnetic forces to stay aloft, this Pokémon flies at high speeds, weaving through harsh mountain terrain in pursuit of prey.
@@ -31764,8 +31768,6 @@ Cotton Guard
 Cotton Guard
 Cotton Spore
 Cotton Spore
-Drum Beating
-Drum Beating
 Energy Ball
 Energy Ball
 Frenzy Plant
@@ -31932,6 +31934,8 @@ Skill Swap
 Skill Swap
 Trick
 Trick
+Trick Room
+Trick Room
 Zen Headbutt
 Zen Headbutt
 Aurora Beam
@@ -32152,6 +32156,8 @@ Dazzle
 Dazzle
 Diffuse Pulse
 Diffuse Pulse
+Discombobulate
+Discombobulate
 Drainage
 Drainage
 Elemental Fang
@@ -32206,8 +32212,6 @@ Rough & Tumble
 Rough & Tumble
 Ruin
 Ruin
-Scheme
-Scheme
 Season's End
 Season's End
 Shout
@@ -32856,6 +32860,8 @@ Head Throw
 Head Throw
 Holly Charm
 Holly Charm
+Kick Drum
+Kick Drum
 Masquerblade
 Masquerblade
 Mistletoe
@@ -32864,6 +32870,8 @@ Mulch Meal
 Mulch Meal
 Mystery Seed
 Mystery Seed
+Odd Bloom
+Odd Bloom
 Petal Tempest
 Petal Tempest
 Poison Ivy
@@ -32950,6 +32958,8 @@ Numb
 Numb
 Photon Edge
 Photon Edge
+Polar Charge
+Polar Charge
 Quarantine
 Quarantine
 Rapid Hertz
@@ -33246,6 +33256,8 @@ Scam
 Scam
 Scarring Swing
 Scarring Swing
+Scheme
+Scheme
 Sever
 Sever
 Spiky Burst
@@ -33733,8 +33745,8 @@ The user attacks with a swift chop. It also breaks any screens protecting the ta
 The user attacks with a swift chop. It also breaks any screens protecting the target's side.
 The user tenses its muscles to bulk up, raising its Attack and Defense by two steps.
 The user tenses its muscles to bulk up, raising its Attack and Defense by two steps.
-The user fights the foe up close without guarding itself. This lowers the user Defense and Sp. Def by two steps.
-The user fights the foe up close without guarding itself. This lowers the user Defense and Sp. Def by two steps.
+The user fights the foe up close without guarding itself. This lowers the user's Defense and Sp. Def by two steps.
+The user fights the foe up close without guarding itself. This lowers the user's Defense and Sp. Def by two steps.
 The user coaches its ally Pokémon, raising their Attack and Defense by two steps.
 The user coaches its ally Pokémon, raising their Attack and Defense by two steps.
 A retaliation move that counters any physical attack, inflicting double the damage taken.
@@ -34023,8 +34035,8 @@ The user slashes with a sharp claw made from shadows. Can random critical hit.
 The user slashes with a sharp claw made from shadows. Can random critical hit.
 The user disappears, charging and becoming invulnerable, then strikes on the second turn. It hits even if the foe protects itself.
 The user disappears, charging and becoming invulnerable, then strikes on the second turn. It hits even if the foe protects itself.
-The user throws a punch from the shadows. The punch lands without fail.
-The user throws a punch from the shadows. The punch lands without fail.
+The user throws a punch from the shadows. Lands without fail.
+The user throws a punch from the shadows. Lands without fail.
 The user extends its shadow and attacks the target from behind. This move always goes first.
 The user extends its shadow and attacks the target from behind. This move always goes first.
 The user hides in the target's shadow, steals the target's stat boosts, and then attacks.
@@ -34133,8 +34145,8 @@ The user attacks everything by causing its own head to explode. The user also ta
 The user attacks everything by causing its own head to explode. The user also takes 50% recoil.
 The user attacks by breathing a special, hot fire. This also lowers the target's Sp. Atk stat by two steps.
 The user attacks by breathing a special, hot fire. This also lowers the target's Sp. Atk stat by two steps.
-The user attacks the target at full power. Lowers the user's Sp. Atk by four steps.
-The user attacks the target at full power. Lowers the user's Sp. Atk by four steps.
+The user attacks the target at full power. This lowers the user's Sp. Atk by four steps.
+The user attacks the target at full power. This lowers the user's Sp. Atk by four steps.
 Attacks by igniting a small stone and launching it as a fiery ball.
 Attacks by igniting a small stone and launching it as a fiery ball.
 The user rampages and attacks while spewing flames for two turns.
@@ -34145,8 +34157,8 @@ An inferno of scarlet flames torches everything around the user. It has a 30% ch
 An inferno of scarlet flames torches everything around the user. It has a 30% chance to burn.
 The user rigs its shell to explode. If hit by a foe's physical move, the shell detonates and hurts all near foes.
 The user rigs its shell to explode. If hit by a foe's physical move, the shell detonates and hurts all near foes.
-With a fiery forehead, the user hurls itself at the foe. Lowers the user's Defense, Sp. Def, and Speed by two steps.
-With a fiery forehead, the user hurls itself at the foe. Lowers the user's Defense, Sp. Def, and Speed by two steps.
+With a fiery forehead, the user hurls itself at the foe. This lowers the user's Defense, Sp. Def, and Speed by two steps.
+With a fiery forehead, the user hurls itself at the foe. This lowers the user's Defense, Sp. Def, and Speed by two steps.
 If the target's HP is half or less, this attack will hit with double the power.
 If the target's HP is half or less, this attack will hit with double the power.
 A spray of bubbles is jetted at the target. This has a 20% chance to lower their Speed.
@@ -34173,12 +34185,12 @@ The user cuts the foe with sharp shells. It has a 50% chance to lower Defense.
 The user cuts the foe with sharp shells. It has a 50% chance to lower Defense.
 The user shoots boiling hot water at its target. This has a 30% chance to burn.
 The user shoots boiling hot water at its target. This has a 30% chance to burn.
-The user breaks its shell, lowering its Defense and Sp. Def by two steps but raising Attack, Sp. Atk and Speed by three steps.
-The user breaks its shell, lowering its Defense and Sp. Def by two steps but raising Attack, Sp. Atk and Speed by three steps.
+The user breaks its shell. This raises the user's Attack, Sp. Atk and Speed by three steps, but lowers Defense and Sp. Def by two steps.
+The user breaks its shell. This raises the user's Attack, Sp. Atk and Speed by three steps, but lowers Defense and Sp. Def by two steps.
 The target is struck with a supersonic water blast. Can random critical hit.
 The target is struck with a supersonic water blast. Can random critical hit.
-The user bursts into song, emitting many bubbles. Any burning Pokémon will be healed by these bubbles.
-The user bursts into song, emitting many bubbles. Any burning Pokémon will be healed by these bubbles.
+The user bursts into a bubbly song. Pokémon hit by this are cured of burn. Deals 50% less damage to allies.
+The user bursts into a bubbly song. Pokémon hit by this are cured of burn. Deals 50% less damage to allies.
 The user immerses the target in superheated steam. This has a 30% chance to burn.
 The user immerses the target in superheated steam. This has a 30% chance to burn.
 It swamps the area with a giant wave, hitting every battler nearby and underwater. Has a 10% chance to waterlog.
@@ -34209,8 +34221,6 @@ The user protects itself by wrapping its body in soft cotton, raising its Defens
 The user protects itself by wrapping its body in soft cotton, raising its Defense stat by five steps.
 The user releases cotton-like spores that cling to the foe, reducing their Speed by four steps.
 The user releases cotton-like spores that cling to the foe, reducing their Speed by four steps.
-The user controls the drum's roots to attack the target. This also lowers the target's Speed stat by two steps.
-The user controls the drum's roots to attack the target. This also lowers the target's Speed stat by two steps.
 The user attacks with the essence of life. It has a 20% chance to raise user's Sp. Atk.
 The user attacks with the essence of life. It has a 20% chance to raise user's Sp. Atk.
 The user slams the target with an enormous tree. The user is exhausted on the next turn.
@@ -34227,8 +34237,8 @@ The user attacks by pelting the target with leaves. Can random critical hit.
 The user attacks by pelting the target with leaves. Can random critical hit.
 The user handles a sharp leaf like a sword and attacks by slashing. Can random critical hit.
 The user handles a sharp leaf like a sword and attacks by slashing. Can random critical hit.
-A storm of sharp leaves is whipped up. Lowers the user's Sp. Atk by four steps.
-A storm of sharp leaves is whipped up. Lowers the user's Sp. Atk by four steps.
+A storm of sharp leaves is whipped up. This lowers the user's Sp. Atk by four steps.
+A storm of sharp leaves is whipped up. This lowers the user's Sp. Atk by four steps.
 A seed is planted on the target, causing it to become leeched.
 A seed is planted on the target, causing it to become leeched.
 The user scatters leaves that chase the target. Can't miss and skips protections.
@@ -34369,6 +34379,8 @@ The user employs its psychic power to exchange Abilities with the target.
 The user employs its psychic power to exchange Abilities with the target.
 The user catches the target off guard and swaps its held item with its own.
 The user catches the target off guard and swaps its held item with its own.
+The user creates a bizarre area in which slower Pokémon get to move first for four turns.
+The user creates a bizarre area in which slower Pokémon get to move first for four turns.
 The user focuses its willpower to its head and attacks the foe. It has a 40% chance to make the target flinch.
 The user focuses its willpower to its head and attacks the foe. It has a 40% chance to make the target flinch.
 The target is hit with a rainbow-colored beam. It has a 30% chance to lower Attack.
@@ -34393,8 +34405,8 @@ Charges up, then on the second turn, an ultracold, freezing wind surrounds the f
 Charges up, then on the second turn, an ultracold, freezing wind surrounds the foe. It has a 30% chance to burn.
 The user bites with cold-infused fangs. It has a 10% chance to flinch and a 10% chance to frostbite.
 The user bites with cold-infused fangs. It has a 10% chance to flinch and a 10% chance to frostbite.
-The user swings and hits with its strong, heavy fist. Lowers the user's Speed by two steps.
-The user swings and hits with its strong, heavy fist. Lowers the user's Speed by two steps.
+The user swings and hits with its strong, heavy fist. This lowers the user's Speed by two steps.
+The user swings and hits with its strong, heavy fist. This lowers the user's Speed by two steps.
 The target is punched with an icy fist. It has a 10% chance to frostbite.
 The target is punched with an icy fist. It has a 10% chance to frostbite.
 The user flash freezes chunks of ice and hurls them at the target. This move always goes first.
@@ -34411,8 +34423,8 @@ The user raises all its stats by two steps, at the cost of 33% of its max HP.
 The user raises all its stats by two steps, at the cost of 33% of its max HP.
 If the target has already moved this turn, the effect of its Ability is negated.
 If the target has already moved this turn, the effect of its Ability is negated.
-Comets are summoned down from the sky. Lowers the user's Sp. Atk by four steps.
-Comets are summoned down from the sky. Lowers the user's Sp. Atk by four steps.
+Comets are summoned down from the sky. This lowers the user's Sp. Atk by four steps.
+Comets are summoned down from the sky. This lowers the user's Sp. Atk by four steps.
 The user exhales a mighty gust that inflicts damage. It has a 30% chance to numb.
 The user exhales a mighty gust that inflicts damage. It has a 30% chance to numb.
 The user slashes the target with huge, sharp claws.
@@ -34541,8 +34553,8 @@ By locking down the battlefield, the user traps all Pokémon during the next tur
 By locking down the battlefield, the user traps all Pokémon during the next turn.
 The user stirs up a fairy wind and strikes the target with it.
 The user stirs up a fairy wind and strikes the target with it.
-The user unleashes a strong beam. Lowers the user's Sp. Atk by four steps.
-The user unleashes a strong beam. Lowers the user's Sp. Atk by four steps.
+The user unleashes a strong beam. This lowers the user's Sp. Atk by four steps.
+The user unleashes a strong beam. This lowers the user's Sp. Atk by four steps.
 The user charges with energy and raises all of its stats by three steps on the next turn.
 The user charges with energy and raises all of its stats by three steps on the next turn.
 Fires a powerful beam of light drawn from the Eternal Flower. The user also takes 50% recoil.
@@ -34587,6 +34599,8 @@ The user dazzles nearby foes with light. Their Sp. Atk is lowered by two steps.
 The user dazzles nearby foes with light. Their Sp. Atk is lowered by two steps.
 The user shoots a pulse of diffuse energy at the target.
 The user shoots a pulse of diffuse energy at the target.
+Alters the reality of the area to damage a foe. Puzzle Room is created for five turns.
+Alters the reality of the area to damage a foe. Puzzle Room is created for five turns.
 This attack inflicts double damage on a waterlogged foe. It also cures the target's waterlogging, however.
 This attack inflicts double damage on a waterlogged foe. It also cures the target's waterlogging, however.
 The user chooses between Fire Fang, Thunder Fang, or Ice Fang to use this turn.
@@ -34639,8 +34653,6 @@ The user attacks by splaying its body wide. Its power doubles if Curl Up was use
 The user attacks by splaying its body wide. Its power doubles if Curl Up was used previously.
 The user brings down a ruinous power on the target. This has a 20% chance of lowering all the target's stats.
 The user brings down a ruinous power on the target. This has a 20% chance of lowering all the target's stats.
-The user schemes to raise its Attack and Sp. Atk by two steps. During moonglow, also raises Speed by two steps.
-The user schemes to raise its Attack and Sp. Atk by two steps. During moonglow, also raises Speed by two steps.
 The user strikes while inviting the power of seasons. The user changes form to the next season.
 The user strikes while inviting the power of seasons. The user changes form to the next season.
 The user shouts with force at the target. This move always hits first.
@@ -34759,8 +34771,8 @@ The target is struck with large, imposing wings. The user also takes 20% recoil.
 The target is struck with large, imposing wings. The user also takes 20% recoil.
 The user lobs harsh acid at the target. It has a 20% chance to lower Sp. Def.
 The user lobs harsh acid at the target. It has a 20% chance to lower Sp. Def.
-The user and target bathe in acid. Lowers the user's Defense and Sp. Def by two steps.
-The user and target bathe in acid. Lowers the user's Defense and Sp. Def by two steps.
+The user and target bathe in acid. This lowers the user's Defense and Sp. Def by two steps.
+The user and target bathe in acid. This lowers the user's Defense and Sp. Def by two steps.
 The user infects the target with a touch and also destroys any Herbs it's holding.
 The user infects the target with a touch and also destroys any Herbs it's holding.
 The user strikes with an acidic punch that destroys Gems and Berries.
@@ -34809,8 +34821,8 @@ The user whips up a hot desert twister to attack the target. It has a 20% chance
 The user whips up a hot desert twister to attack the target. It has a 20% chance to burn.
 The user whips up dirt at supersonic speeds, damaging everything around it.
 The user whips up dirt at supersonic speeds, damaging everything around it.
-The user cracks the earth under the target with a massive strike. Lowers the user's Attack by four steps.
-The user cracks the earth under the target with a massive strike. Lowers the user's Attack by four steps.
+The user cracks the earth under the target with a massive strike. This lowers the user's Attack by four steps.
+The user cracks the earth under the target with a massive strike. This lowers the user's Attack by four steps.
 Attacks by blasting dirt and debris at the target. This move always goes first in sandstorm.
 Attacks by blasting dirt and debris at the target. This move always goes first in sandstorm.
 The user stabilizes its stance. This raises its Attack, Sp. Def, and Accuracy by two steps.
@@ -34869,8 +34881,8 @@ The user weakens the target's bones, making them fracture. They deal 33% less da
 The user weakens the target's bones, making them fracture. They deal 33% less damage.
 The user harms the target with a pulse of power. Deals double damage if the user has used a gem this battle.
 The user harms the target with a pulse of power. Deals double damage if the user has used a gem this battle.
-The user rushes into the target with its stony body. The user also takes 33% recoil.
-The user rushes into the target with its stony body. The user also takes 33% recoil.
+The user rushes into the target with its stony body. The user also takes 25% recoil.
+The user rushes into the target with its stony body. The user also takes 25% recoil.
 The user scratches the target with rough rocks. If in sandstorm, the target's Defense is lowered by three steps.
 The user scratches the target with rough rocks. If in sandstorm, the target's Defense is lowered by three steps.
 The user slams the target into a nearby hard object. Increases power the higher the Defense of any ally.
@@ -34947,20 +34959,20 @@ The foe is stabbed once by each of the user's stingers.
 The foe is stabbed once by each of the user's stingers.
 The user makes a plea for survival, halving the damage their side takes from non-attack sources for 8 turns.
 The user makes a plea for survival, halving the damage their side takes from non-attack sources for 8 turns.
-The user prepares its weapons, raising Attack by six steps but lowering Speed by six steps.
-The user prepares its weapons, raising Attack by six steps but lowering Speed by six steps.
+The user prepares its weapons. This raises the user's Attack by six steps but lowers Speed by six steps.
+The user prepares its weapons. This raises the user's Attack by six steps but lowers Speed by six steps.
 The user rakes the target with sharp claws.
 The user rakes the target with sharp claws.
 The user bites, claws, and stings the target while rolling. It has a 20% chance each to poison, waterlog, or leech.
 The user bites, claws, and stings the target while rolling. It has a 20% chance each to poison, waterlog, or leech.
 The target is plastered with irritating scales, damaging it and changing its type to Bug.
 The target is plastered with irritating scales, damaging it and changing its type to Bug.
-The user sheds a huge volley of scales at the target. Lands without fail and lowers the user's Sp. Def and Speed.
-The user sheds a huge volley of scales at the target. Lands without fail and lowers the user's Sp. Def and Speed.
-If the user is faster than the target, puts the target to sleep, then minimizes the user's Speed stat.
-If the user is faster than the target, puts the target to sleep, then minimizes the user's Speed stat.
-The user stabs through the target using tremendous force. Lowers the user's Attack by four steps.
-The user stabs through the target using tremendous force. Lowers the user's Attack by four steps.
+The user sheds a huge volley of scales at the target. Lands without fail. This lowers the user's Sp. Def and Speed.
+The user sheds a huge volley of scales at the target. Lands without fail. This lowers the user's Sp. Def and Speed.
+If the user is faster than the target, puts the target to sleep, then minimizes the user's Speed.
+If the user is faster than the target, puts the target to sleep, then minimizes the user's Speed.
+The user stabs through the target using tremendous force. This lowers the user's Attack by four steps.
+The user stabs through the target using tremendous force. This lowers the user's Attack by four steps.
 Avenging bugs everywhere, the user crushes the target. It has a 20% chance to lower their Defense stat.
 Avenging bugs everywhere, the user crushes the target. It has a 20% chance to lower their Defense stat.
 The user stabs the target, injecting a painful chemical. It has a 30% chance to poison.
@@ -35133,8 +35145,8 @@ The user targets the opponents soft spots with a fiery strike. Its power doubles
 The user targets the opponents soft spots with a fiery strike. Its power doubles if the target is burned.
 Raises Sp. Atk by three steps. Until switch out, the user's attacks spread to hit all nearby foes.
 Raises Sp. Atk by three steps. Until switch out, the user's attacks spread to hit all nearby foes.
-The user dances rapidly, emitting tropical heat. Any frostbitten Pokémon will be healed by this heat.
-The user dances rapidly, emitting tropical heat. Any frostbitten Pokémon will be healed by this heat.
+The user dances with great heat. Pokémon hit by this are cured of frostbite. Deals 50% less damage to allies.
+The user dances with great heat. Pokémon hit by this are cured of frostbite. Deals 50% less damage to allies.
 The user pauses to plan its ranged attacks. This raises its Sp. Atk, Sp. Def, and Accuracy by two steps.
 The user pauses to plan its ranged attacks. This raises its Sp. Atk, Sp. Def, and Accuracy by two steps.
 The user shoots the target with a small bolt of fire. This move always goes first.
@@ -35223,8 +35235,8 @@ Attacks with pressurized water. Deals 50% more damage if the user has been hurt 
 Attacks with pressurized water. Deals 50% more damage if the user has been hurt by the foe in the same turn.
 Summons rainstorm for six turns, boosting Water-type attacks and hindering most others.
 Summons rainstorm for six turns, boosting Water-type attacks and hindering most others.
-The user rams its sharp face right into the target. Lowers the user's Speed by three steps.
-The user rams its sharp face right into the target. Lowers the user's Speed by three steps.
+The user rams its sharp face right into the target. This lowers the user's Speed by three steps.
+The user rams its sharp face right into the target. This lowers the user's Speed by three steps.
 The user crashes into the target on a ripping current. This waterlogs the target.
 The user crashes into the target on a ripping current. This waterlogs the target.
 The user rips the target, lowering their Defense by two steps. After attacking, the user switches out.
@@ -35281,6 +35293,8 @@ Round objects are hurled at the target to strike three times in a row.
 Round objects are hurled at the target to strike three times in a row.
 The user attacks the target with the power of a warding charm. Super effective vs Ghost-types.
 The user attacks the target with the power of a warding charm. Super effective vs Ghost-types.
+The user keeps time for the team while attacking. Raises user's and allies' Speed and Accuracy. Counts as a Sound and Kick move.
+The user keeps time for the team while attacking. Raises user's and allies' Speed and Accuracy. Counts as a Sound and Kick move.
 The user hides its blade. If hit by a foe's special move, it unsheathes it quickly, slashing all near foes.
 The user hides its blade. If hit by a foe's special move, it unsheathes it quickly, slashing all near foes.
 The user uses their feet to pierce the foe. This has a 10% chance of leeching the target.
@@ -35289,6 +35303,8 @@ The user eats decaying leaves, restoring its HP by 50% and raising its Speed.
 The user eats decaying leaves, restoring its HP by 50% and raising its Speed.
 The target eats a strange seed. They become numbed if faster than the user, or leeched if slower.
 The target eats a strange seed. They become numbed if faster than the user, or leeched if slower.
+Creates an odd flower to throw and damage a foe. Odd Room is created for five turns.
+Creates an odd flower to throw and damage a foe. Odd Room is created for five turns.
 The user stirs up a violent petal tempest and attacks everything around it.
 The user stirs up a violent petal tempest and attacks everything around it.
 The target is irritated by allergenic plants, poisoning it.
@@ -35349,8 +35365,8 @@ The user attacks with courage. Sets a Spikes hazard layer if Full. If Hangry, de
 The user attacks with courage. Sets a Spikes hazard layer if Full. If Hangry, deals double damage and is Dark-type.
 The user dances to restore an ally by half of their max HP. They're cured of any non-volatile status conditions.
 The user dances to restore an ally by half of their max HP. They're cured of any non-volatile status conditions.
-Deals 50% more damage if faster than the target. Lowers the user's Speed.
-Deals 50% more damage if faster than the target. Lowers the user's Speed.
+Deals 50% more damage if faster than the target. This lowers the user's Speed.
+Deals 50% more damage if faster than the target. This lowers the user's Speed.
 The target is pranked by an electric jolt. They are taunted and unable to use status moves for three turns.
 The target is pranked by an electric jolt. They are taunted and unable to use status moves for three turns.
 The user strikes the enemy while coated with electricity. It has a 10% chance to numb.
@@ -35373,6 +35389,8 @@ A weak electric jolt is launched to numb the target.
 A weak electric jolt is launched to numb the target.
 The user slices with claws of light that have a 50% chance to numb. Can random critical hit.
 The user slices with claws of light that have a 50% chance to numb. Can random critical hit.
+Sends a pulse to flip the charges of those nearby to damage a foe. Polarized Room is created for five turns.
+Sends a pulse to flip the charges of those nearby to damage a foe. Polarized Room is created for five turns.
 Protects the user's side from status moves this turn. It disables any moves blocked for three turns.
 Protects the user's side from status moves this turn. It disables any moves blocked for three turns.
 The target is struck with an electric current and multi-hit two to five times. Has a 10% chance to numb.
@@ -35433,8 +35451,8 @@ The user conjures a giant fist to crush the target, trapping and damaging it for
 The user conjures a giant fist to crush the target, trapping and damaging it for three turns.
 The user grabs the target with a conjured hand, trapping and damaging it for three turns.
 The user grabs the target with a conjured hand, trapping and damaging it for three turns.
-The user psychically alters the target's brain to forget. This move disables the target's last move.
-The user psychically alters the target's brain to forget. This move disables the target's last move.
+The user psychically alters the target's brain to forget. This move disables the target's last move for 5 turns.
+The user psychically alters the target's brain to forget. This move disables the target's last move for 5 turns.
 The user syncs its mind with its teammates, raising its Sp. Atk by three steps, and its allies' by one.
 The user syncs its mind with its teammates, raising its Sp. Atk by three steps, and its allies' by one.
 The target is hit by a weak telekinetic force. It has a 20% chance to lower the target's Sp. Def.
@@ -35443,8 +35461,8 @@ The user spends 50% HP to create a Substitute. If successful, the user's Speed i
 The user spends 50% HP to create a Substitute. If successful, the user's Speed is raised by four steps.
 The user creates an odd area for eight turns in which Pokémon's offensive and defensive stats are swapped.
 The user creates an odd area for eight turns in which Pokémon's offensive and defensive stats are swapped.
-Lands without fail and lowers the user's Defense and Speed.
-Lands without fail and lowers the user's Defense and Speed.
+The user perfectly predicts the target's future location, then strikes. Lands without fail. This lowers the user's Defense and Speed.
+The user perfectly predicts the target's future location, then strikes. Lands without fail. This lowers the user's Defense and Speed.
 This move raises all the user's stats by two steps. Can only be used while asleep.
 This move raises all the user's stats by two steps. Can only be used while asleep.
 The user employs hypnotic suggestion to make a dizzy target fall into a deep sleep.
@@ -35511,8 +35529,8 @@ The user freezes the target in place, dealing damage and minimizing their Speed 
 The user freezes the target in place, dealing damage and minimizing their Speed and Evasion.
 For the rest of the round, the target's healing is reversed.
 For the rest of the round, the target's healing is reversed.
-The user picks up an iceberg and slams it into the target. Lowers the user's Attack by four steps.
-The user picks up an iceberg and slams it into the target. Lowers the user's Attack by four steps.
+The user picks up an iceberg and slams it into the target. This lowers the user's Attack by four steps.
+The user picks up an iceberg and slams it into the target. This lowers the user's Attack by four steps.
 The user slashes the target with ice like a sword. It has a 30% chance to lower Defense.
 The user slashes the target with ice like a sword. It has a 30% chance to lower Defense.
 Protects the user from attacks. Also frostbites any attacker who physically attacks the user.
@@ -35531,8 +35549,8 @@ Two turns after this move is used, extreme winter cold attacks the target.
 Two turns after this move is used, extreme winter cold attacks the target.
 The user throws an exploding package at enemies, or one filled with healing treats at allies.
 The user throws an exploding package at enemies, or one filled with healing treats at allies.
-The user sheds excess covering, raising Sp. Atk and Speed by three steps, but lowering Sp. Def by two steps.
-The user sheds excess covering, raising Sp. Atk and Speed by three steps, but lowering Sp. Def by two steps.
+The user sheds excess covering. This raises the user's Sp. Atk and Speed by three steps, but lowers Sp. Def by two steps.
+The user sheds excess covering. This raises the user's Sp. Atk and Speed by three steps, but lowers Sp. Def by two steps.
 The user raises their Attack and Defense by two steps, and Speed by one step.
 The user raises their Attack and Defense by two steps, and Speed by one step.
 The user flips, flaps, fumbles, then flounders. It becomes more powerful the less HP the user has.
@@ -35605,8 +35623,8 @@ The user removes the energy and light around the target. Super effective vs Elec
 The user removes the energy and light around the target. Super effective vs Electric-types.
 This attack deals 50% more damage if the target has any raised or lowered stat steps.
 This attack deals 50% more damage if the target has any raised or lowered stat steps.
-The user sacrifices their ally to cover all near foes in total darkness. They become drowsy.
-The user sacrifices their ally to cover all near foes in total darkness. They become drowsy.
+The user sacrifices their ally to cover all near foes in total darkness, making them drowsy. Fails if the user has no ally.
+The user sacrifices their ally to cover all near foes in total darkness, making them drowsy. Fails if the user has no ally.
 Deftly sets a hazard layer of damaging Spikes around the foe, then switches out.
 Deftly sets a hazard layer of damaging Spikes around the foe, then switches out.
 If the target is the last able member of their party, this attack's power is doubled.
@@ -35637,8 +35655,8 @@ A punch that inflicts double the damage if the user has been hurt by the foe in 
 A punch that inflicts double the damage if the user has been hurt by the foe in the same turn.
 For the rest of the round, the healing of all damaged Pokémon is reversed.
 For the rest of the round, the healing of all damaged Pokémon is reversed.
-The user prepares a precise cut. Always a critical hit, but lowers the user's Speed.
-The user prepares a precise cut. Always a critical hit, but lowers the user's Speed.
+The user prepares a precise cut. Always a critical hit. This lowers the user's Speed.
+The user prepares a precise cut. Always a critical hit. This lowers the user's Speed.
 The target is dragged viciously through water. This has a 30% chance to waterlog.
 The target is dragged viciously through water. This has a 30% chance to waterlog.
 The user emits a wave of anxious feelings which overwhelms all nearby Pokémon, taking 50% recoil.
@@ -35659,12 +35677,14 @@ The user entangles the target's mind with dark thoughts, leeching it.
 The user entangles the target's mind with dark thoughts, leeching it.
 The user invades deep into the target's mind, leeching it.
 The user invades deep into the target's mind, leeching it.
-The user demands tribute from the target. Money is earned after the battle.
-The user demands tribute from the target. Money is earned after the battle.
+The user demands tribute from the target. Money is earned after the battle. This deals double damage and makes double the money if the target has a non-volatile status condition.
+The user demands tribute from the target. Money is earned after the battle. This deals double damage and makes double the money if the target has a non-volatile status condition.
 The user steals the target's stat boosts, and then attacks. Goes last.
 The user steals the target's stat boosts, and then attacks. Goes last.
 The user slashes all around them, creating deep scars. This lowers each target's Attack.
 The user slashes all around them, creating deep scars. This lowers each target's Attack.
+The user schemes to raise its Attack and Sp. Atk by two steps. During moonglow, also raises Speed by two steps.
+The user schemes to raise its Attack and Sp. Atk by two steps. During moonglow, also raises Speed by two steps.
 The user hacks at the target with great violence. Can random critical hit.
 The user hacks at the target with great violence. Can random critical hit.
 Explodes, dealing an extra 30 base power to all foes for each Spikes hazard layer underneath them. The user faints.
@@ -35713,16 +35733,16 @@ The user flashes colorful light to damage the target. This move always goes firs
 The user flashes colorful light to damage the target. This move always goes first.
 The user chucks a party favor which explodes in the target's face.
 The user chucks a party favor which explodes in the target's face.
-Power increases by 20 each time it's used in succession. User heals for half of damage dealt.
-Power increases by 20 each time it's used in succession. User heals for half of damage dealt.
+Makes everyone's hearts beat together. Others can join in the Round and make the attack do greater damage.
+Makes everyone's hearts beat together. Others can join in the Round and make the attack do greater damage.
 The user uses honey to fully restore their HP. However, this lures swarming insects, trapping and damaging the user for three turns.
 The user uses honey to fully restore their HP. However, this lures swarming insects, trapping and damaging the user for three turns.
 The user attempts to humble the target, guaranteeing a critical hit on foes with boosted stats.
 The user attempts to humble the target, guaranteeing a critical hit on foes with boosted stats.
 The user hopes for bad luck, jinxing the target. Attacks against them crit and pierce protection.
 The user hopes for bad luck, jinxing the target. Attacks against them crit and pierce protection.
-The user wields an exaggerated power to strike the target. Lowers the user's Attack by four steps.
-The user wields an exaggerated power to strike the target. Lowers the user's Attack by four steps.
+The user wields an exaggerated power to strike the target. This lowers the user's Attack by four steps.
+The user wields an exaggerated power to strike the target. This lowers the user's Attack by four steps.
 The target is taunted by a deceptive look. It can't use status moves this or next turn. This move always goes first.
 The target is taunted by a deceptive look. It can't use status moves this or next turn. This move always goes first.
 The user leeches the target, then welcomes in moonglow for eight turns.
@@ -35773,170 +35793,170 @@ The user attacks with simple determination and rampages for two turns.
 The user attacks with simple determination and rampages for two turns.
 The target is attacked with a slash of claws or blades, always critting.
 The target is attacked with a slash of claws or blades, always critting.
-The user gleams with light, lowering each foe's Sp. Atk by two steps and raising its own Sp. Atk by two steps.
-The user gleams with light, lowering each foe's Sp. Atk by two steps and raising its own Sp. Atk by two steps.
+The user gleams with light. This lowers each foe's Sp. Atk by two steps and raises its own Sp. Atk by two steps.
+The user gleams with light. This lowers each foe's Sp. Atk by two steps and raises its own Sp. Atk by two steps.
 The user prepares to defend itself. It'll survive the next three hits which would faint it.
 The user prepares to defend itself. It'll survive the next three hits which would faint it.
-The user growls fiercly, lowering each foe's Attack by two steps and raising its own Attack by two steps.
-The user growls fiercly, lowering each foe's Attack by two steps and raising its own Attack by two steps.
+The user growls fiercly. This lowers each foe's Attack by two steps and raises its own Attack by two steps.
+The user growls fiercly. This lowers each foe's Attack by two steps and raises its own Attack by two steps.
 The user copies and gains the first ability of each foe.
 The user copies and gains the first ability of each foe.
 The user is roused, giving it the ability to use an extra move each turn.
 The user is roused, giving it the ability to use an extra move each turn.
-The user yawns, making all near foes drowsy. They'll fall asleep at end of turn next.
-The user yawns, making all near foes drowsy. They'll fall asleep at end of turn next.
-The user attacks with a swift chop, destroying barriers, and reducing the target's defense by five steps.
-The user attacks with a swift chop, destroying barriers, and reducing the target's defense by five steps.
-The user boosts its Attack and Defense, gains a lot of weight, and becomes Fighting-type.
-The user boosts its Attack and Defense, gains a lot of weight, and becomes Fighting-type.
-The user raises their Speed by 4 steps, quadruples their critical hit chance, and becomes Fighting-type.
-The user raises their Speed by 4 steps, quadruples their critical hit chance, and becomes Fighting-type.
-The user takes 50% less attack damage for 3 turns, and becomes Fighting-type.
-The user takes 50% less attack damage for 3 turns, and becomes Fighting-type.
-The user summons an allied Tyrogue, raises the Defense of itself and its allies by 2 steps, and becomes Fighting-type.
-The user summons an allied Tyrogue, raises the Defense of itself and its allies by 2 steps, and becomes Fighting-type.
+The user yawns, making all near foes drowsy. They'll fall asleep at the end of the next turn.
+The user yawns, making all near foes drowsy. They'll fall asleep at the end of the next turn.
+The user attacks with a swift chop, destroying barriers. This lowers the target's Defense by five steps.
+The user attacks with a swift chop, destroying barriers. This lowers the target's Defense by five steps.
+The user raises its Attack and Defense by two steps, gains a lot of weight. User becomes Fighting-type.
+The user raises its Attack and Defense by two steps, gains a lot of weight. User becomes Fighting-type.
+The user raises its Speed by two steps and quadruples its critical hit chance. User becomes Fighting-type.
+The user raises its Speed by two steps and quadruples its critical hit chance. User becomes Fighting-type.
+The user takes 50% less attack damage for 3 turns. User becomes Fighting-type.
+The user takes 50% less attack damage for 3 turns. User becomes Fighting-type.
+The user summons an allied Tyrogue. This raises its Defense by three steps, and its allies' by one. User becomes Fighting-type.
+The user summons an allied Tyrogue. This raises its Defense by three steps, and its allies' by one. User becomes Fighting-type.
 The user tucks in its wings and charges from a low altitude. The user also takes 33% recoil.
 The user tucks in its wings and charges from a low altitude. The user also takes 33% recoil.
 The user sets a powerful tailwind for 6 turns, which also increases move damage by 30%. User becomes Flying-type.
 The user sets a powerful tailwind for 6 turns, which also increases move damage by 30%. User becomes Flying-type.
-All near foes are forced to switch out, and the user becomes Flying-type.
-All near foes are forced to switch out, and the user becomes Flying-type.
+All near foes are forced to switch out. User becomes Flying-type.
+All near foes are forced to switch out. User becomes Flying-type.
 A move that only the avatar of Rayquaza can use. All enemies struck lose their flinch immunity.
 A move that only the avatar of Rayquaza can use. All enemies struck lose their flinch immunity.
 The user slashes all near foes with with poisonous blades or edges. Will be critical against poisoned targets.
 The user slashes all near foes with with poisonous blades or edges. Will be critical against poisoned targets.
 It swamps the area around the user with a giant sludge wave, poisoning everyone struck.
 It swamps the area around the user with a giant sludge wave, poisoning everyone struck.
-The user sets Grey Mist for 8 turns, gives themselves a Black Sludge, and becomes Poison-type.
-The user sets Grey Mist for 8 turns, gives themselves a Black Sludge, and becomes Poison-type.
-A cloud of poison gas is sprayed at all nearby foes, poisoning them. User becomes a Poison-type.
-A cloud of poison gas is sprayed at all nearby foes, poisoning them. User becomes a Poison-type.
-The user lays 2 hazard layers of poisonous spikes at the foe's feet, and becomes Poison-type.
-The user lays 2 hazard layers of poisonous spikes at the foe's feet, and becomes Poison-type.
-The user intensifies gravity for five turns, damages all enemies for 1/4th of their max HP, and becomes Ground-type.
-The user intensifies gravity for five turns, damages all enemies for 1/4th of their max HP, and becomes Ground-type.
-The user restores 1/8th of its HP, but begins eroding. At the end of each turn, its Defense and Sp. Def are lowered and its Attack and Sp. Atk are raised. User becomes Ground-type.
-The user restores 1/8th of its HP, but begins eroding. At the end of each turn, its Defense and Sp. Def are lowered and its Attack and Sp. Atk are raised. User becomes Ground-type.
-The user lays 3 hazard layers of spikes at the foe's feet, and becomes Ground-type.
-The user lays 3 hazard layers of spikes at the foe's feet, and becomes Ground-type.
+The user sets Grey Mist for 8 turns and gives themselves a Black Sludge. User becomes Poison-type.
+The user sets Grey Mist for 8 turns and gives themselves a Black Sludge. User becomes Poison-type.
+A cloud of poison gas is sprayed at all nearby foes, poisoning them. User becomes Poison-type.
+A cloud of poison gas is sprayed at all nearby foes, poisoning them. User becomes Poison-type.
+The user lays 2 hazard layers of poison spikes on the foe's side. User becomes Poison-type.
+The user lays 2 hazard layers of poison spikes on the foe's side. User becomes Poison-type.
+The user intensifies Gravity for five turns and damages all enemies for 1/4th of their max HP. User becomes Ground-type.
+The user intensifies Gravity for five turns and damages all enemies for 1/4th of their max HP. User becomes Ground-type.
+The user restores 1/8th of its HP. Raises its attacking-, but lowers defensive stats at the end of each turn. User becomes Ground-type.
+The user restores 1/8th of its HP. Raises its attacking-, but lowers defensive stats at the end of each turn. User becomes Ground-type.
+The user lays 3 hazard layers of Spikes on the foe's side. User becomes Ground-type.
+The user lays 3 hazard layers of Spikes on the foe's side. User becomes Ground-type.
 A move that only the avatar of Groudon can use. Gravity is intensified for the rest of the battle.
 A move that only the avatar of Groudon can use. Gravity is intensified for the rest of the battle.
 The user attacks with a prehistoric power which raises all its stats.
 The user attacks with a prehistoric power which raises all its stats.
 The user attacks with a sparkling gem-like ray, dizzying the target.
 The user attacks with a sparkling gem-like ray, dizzying the target.
-Boulders are hurled at all near enemies, harshly lowering their Speed by preventing their movement.
-Boulders are hurled at all near enemies, harshly lowering their Speed by preventing their movement.
-The user raises its Speed by six steps, gains a Rock Gem, and becomes Rock-type.
-The user raises its Speed by six steps, gains a Rock Gem, and becomes Rock-type.
-The user summons a sandstorm for 5 turns, boosts its Def. and Sp. Def, and becomes Rock-type.
-The user summons a sandstorm for 5 turns, boosts its Def. and Sp. Def, and becomes Rock-type.
-The user restores 1/8th of its HP, summons an allied Combee, and becomes Bug-type.
-The user restores 1/8th of its HP, summons an allied Combee, and becomes Bug-type.
-The user sharply boosts their Sp. Atk, Sp. Def, and Speed, and becomes Bug-type.
-The user sharply boosts their Sp. Atk, Sp. Def, and Speed, and becomes Bug-type.
-Nearby foes are bound with silk, sharply lowering their Speed, Atk., and Sp. Atk User also becomes Bug-type.
-Nearby foes are bound with silk, sharply lowering their Speed, Atk., and Sp. Atk User also becomes Bug-type.
-The user applies a damaging curse to all nearby foes. User becomes a Ghost-type.
-The user applies a damaging curse to all nearby foes. User becomes a Ghost-type.
+Boulders are hurled at all near enemies, preventing their movement. This lowers their Speed by four steps.
+Boulders are hurled at all near enemies, preventing their movement. This lowers their Speed by four steps.
+The user raises its Speed by six steps and gains a Rock Gem. User becomes Rock-type.
+The user raises its Speed by six steps and gains a Rock Gem. User becomes Rock-type.
+The user summons sandstorm for five turns. This raises its Defense and Sp. Def. User becomes Rock-type.
+The user summons sandstorm for five turns. This raises its Defense and Sp. Def. User becomes Rock-type.
+The user restores 1/8th of its HP and summons an allied Combee. User becomes Bug-type.
+The user restores 1/8th of its HP and summons an allied Combee. User becomes Bug-type.
+The user raises its Sp. Atk, Sp. Def, and Speed by two steps. User becomes Bug-type.
+The user raises its Sp. Atk, Sp. Def, and Speed by two steps. User becomes Bug-type.
+Nearby foes are bound with silk. This lowers their Attack, Sp. Atk and Speed by two steps. User becomes Bug-type.
+Nearby foes are bound with silk. This lowers their Attack, Sp. Atk and Speed by two steps. User becomes Bug-type.
+The user applies a damaging curse to all nearby foes. User becomes Ghost-type.
+The user applies a damaging curse to all nearby foes. User becomes Ghost-type.
 Attackers against the user suffer recoil for the rest of the battle. User becomes Ghost-type.
 Attackers against the user suffer recoil for the rest of the battle. User becomes Ghost-type.
 The user strikes the target with 3 punches like bullets. This move always goes first.
 The user strikes the target with 3 punches like bullets. This move always goes first.
-The target is raked with steel claws twice. The user raises its attack after each hit.
-The target is raked with steel claws twice. The user raises its attack after each hit.
-The target is obliterated by a meteoric strike, which raises the user's attack by two steps.
-The target is obliterated by a meteoric strike, which raises the user's attack by two steps.
-The user sharply boosts its Defense, gains the ability Filter, and becomes Steel-type.
-The user sharply boosts its Defense, gains the ability Filter, and becomes Steel-type.
-The user focuses intently, making every future attack critical. The user becomes a Steel-type.
-The user focuses intently, making every future attack critical. The user becomes a Steel-type.
-The user creates a Polarized Room for 8 turns, raises its Defense and Sp. Def, and becomes Steel-type.
-The user creates a Polarized Room for 8 turns, raises its Defense and Sp. Def, and becomes Steel-type.
-The user raises their Attack by four steps and becomes Steel-type.
-The user raises their Attack by four steps and becomes Steel-type.
+The target is raked with steel claws twice. This raises the user's Attack after each hit.
+The target is raked with steel claws twice. This raises the user's Attack after each hit.
+The target is obliterated by a meteoric strike. This raises the user's Attack by two steps.
+The target is obliterated by a meteoric strike. This raises the user's Attack by two steps.
+The user raises its Defense by four steps and gains the ability Filter. User becomes Steel-type.
+The user raises its Defense by four steps and gains the ability Filter. User becomes Steel-type.
+The user focuses intently, making every future attack critical. User becomes Steel-type.
+The user focuses intently, making every future attack critical. User becomes Steel-type.
+The user creates a Polarized Room for eight turns. This raises its Defense and Sp. Def. User becomes Steel-type.
+The user creates a Polarized Room for eight turns. This raises its Defense and Sp. Def. User becomes Steel-type.
+A frenetic dance to uplift the fighting spirit. This raises the user's Attack by four steps. User becomes Steel-type.
+A frenetic dance to uplift the fighting spirit. This raises the user's Attack by four steps. User becomes Steel-type.
 The user cloaks itself in fire and charges at the foe, burning it. The user also takes 33% recoil.
 The user cloaks itself in fire and charges at the foe, burning it. The user also takes 33% recoil.
-The user attacks by breathing a special, hot fire. This lowers the target's Sp. Atk stat by six steps.
-The user attacks by breathing a special, hot fire. This lowers the target's Sp. Atk stat by six steps.
-The user lays 2 hazard layers of flaming spikes at the foe's feet, and becomes Fire-type.
-The user lays 2 hazard layers of flaming spikes at the foe's feet, and becomes Fire-type.
-The user inflicts burns on all nearby foes. User becomes a Fire-type.
-The user inflicts burns on all nearby foes. User becomes a Fire-type.
-The user summons sunshine for 5 turns, boosts its Atk. and Sp. Atk, and becomes Fire-type.
-The user summons sunshine for 5 turns, boosts its Atk. and Sp. Atk, and becomes Fire-type.
-A spray of bubbles is forcefully ejected at all nearby foes, lowering their Speed by 3 steps.
-A spray of bubbles is forcefully ejected at all nearby foes, lowering their Speed by 3 steps.
+The user attacks by breathing a special, hot fire. This lowers the target's Sp. Atk by six steps.
+The user attacks by breathing a special, hot fire. This lowers the target's Sp. Atk by six steps.
+The user lays 2 hazard layers of burning spikes on the foe's side. User becomes Fire-type.
+The user lays 2 hazard layers of burning spikes on the foe's side. User becomes Fire-type.
+The user inflicts burns on all nearby foes. User becomes Fire-type.
+The user inflicts burns on all nearby foes. User becomes Fire-type.
+The user summons sunshine for five turns. This raises its Attack and Sp. Atk. User becomes Fire-type.
+The user summons sunshine for five turns. This raises its Attack and Sp. Atk. User becomes Fire-type.
+A spray of bubbles is forcefully ejected at all nearby foes. This lowers their Speed by 3 steps.
+A spray of bubbles is forcefully ejected at all nearby foes. This lowers their Speed by 3 steps.
 It swamps the area with a giant wave, hitting every battler nearby and underwater.
 It swamps the area with a giant wave, hitting every battler nearby and underwater.
 The user TODO, boosts its Atk. and Sp. Def, and becomes a Water-type.
 The user TODO, boosts its Atk. and Sp. Def, and becomes a Water-type.
-The user summons rainstorm for 5 turns, surrounds itself with healing water, and becomes Water-type.
-The user summons rainstorm for 5 turns, surrounds itself with healing water, and becomes Water-type.
-The user inflicts waterlog on all nearby foes. User becomes a Water-type.
-The user inflicts waterlog on all nearby foes. User becomes a Water-type.
+The user summons rainstorm for five turns and surrounds itself with Aqua Ring. User becomes Water-type.
+The user summons rainstorm for five turns and surrounds itself with Aqua Ring. User becomes Water-type.
+The user inflicts waterlog on all nearby foes. User becomes Water-type.
+The user inflicts waterlog on all nearby foes. User becomes Water-type.
 A move that only the avatar of Kyogre can use. The user commands a Luvdisc avatar and a Remoraid avatar to join it.
 A move that only the avatar of Kyogre can use. The user commands a Luvdisc avatar and a Remoraid avatar to join it.
 The user forcefully shoots 6 seeds in rapid succession, spread among nearby enemies.
 The user forcefully shoots 6 seeds in rapid succession, spread among nearby enemies.
 A nutrient-draining attack. The user's HP is restored by all the damage taken by the target.
 A nutrient-draining attack. The user's HP is restored by all the damage taken by the target.
-A two-turn attack. The user gathers light, then blasts all near foes on the second turn.
-A two-turn attack. The user gathers light, then blasts all near foes on the second turn.
-The user embeds its roots to heal by 1/4th every turn for four turns, and becomes Grass-type.
-The user embeds its roots to heal by 1/4th every turn for four turns, and becomes Grass-type.
-Plants seeds on all near foes, draining HP each turn. User becomes Grass-type.
-Plants seeds on all near foes, draining HP each turn. User becomes Grass-type.
-The user scatters bursts of spores to induce sleep on all foes, and then becomes Grass-type.
-The user scatters bursts of spores to induce sleep on all foes, and then becomes Grass-type.
-The user summons an allied Gossifleur, raises the Sp. Def itself and its allies by 2 steps, and becomes Grass-type.
-The user summons an allied Gossifleur, raises the Sp. Def itself and its allies by 2 steps, and becomes Grass-type.
+The user charges by gathering light, then blasts all near foes on the second turn.
+The user charges by gathering light, then blasts all near foes on the second turn.
+The user embeds its roots to heal by 1/4th every turn for four turns. User becomes Grass-type.
+The user embeds its roots to heal by 1/4th every turn for four turns. User becomes Grass-type.
+The user inflicts leech on all nearby foes. User becomes Grass-type.
+The user inflicts leech on all nearby foes. User becomes Grass-type.
+The user scatters bursts of spores to induce sleep on all foes. User becomes Grass-type.
+The user scatters bursts of spores to induce sleep on all foes. User becomes Grass-type.
+The user summons an allied Gossifleur. This raises its Sp. Def by three steps, and its allies' by one. User becomes Grass-type.
+The user summons an allied Gossifleur. This raises its Sp. Def by three steps, and its allies' by one. User becomes Grass-type.
 A powerful electric blast is let loose on the target, numbing it.
 A powerful electric blast is let loose on the target, numbing it.
-The user raises its Sp. Atk and Speed by two steps, and becomes Electric-type.
-The user raises its Sp. Atk and Speed by two steps, and becomes Electric-type.
-The user inflicts numb on all nearby foes. User becomes an Electric-type.
-The user inflicts numb on all nearby foes. User becomes an Electric-type.
-The user sharply boosts its Sp. Def, gains the ability Unaware, and becomes Psychic-type.
-The user sharply boosts its Sp. Def, gains the ability Unaware, and becomes Psychic-type.
-The user raises its Sp. Atk and Sp. Def, maximizes its Accuracy, and becomes Psychic-type.
-The user raises its Sp. Atk and Sp. Def, maximizes its Accuracy, and becomes Psychic-type.
-Summons eclipse for 5 turns, resets lowered stats, and user becomes Psychic-type.
-Summons eclipse for 5 turns, resets lowered stats, and user becomes Psychic-type.
-Bounces back status moves for the next 3 turns, and user becomes Psychic-type.
-Bounces back status moves for the next 3 turns, and user becomes Psychic-type.
-The user summons an allied Abra, raises the Sp. Atk stat of itself and its allies, and becomes Psychic-type.
-The user summons an allied Abra, raises the Sp. Atk stat of itself and its allies, and becomes Psychic-type.
-The user creates an Odd Room for 8 turns, raises its Speed, and becomes Psychic-type.
-The user creates an Odd Room for 8 turns, raises its Speed, and becomes Psychic-type.
+The user raises its Sp. Atk and Speed by two steps. User becomes Electric-type.
+The user raises its Sp. Atk and Speed by two steps. User becomes Electric-type.
+The user inflicts numb on all nearby foes. User becomes Electric-type.
+The user inflicts numb on all nearby foes. User becomes Electric-type.
+The user raises its Sp. Def by four steps and gains the ability Unaware. User becomes Psychic-type.
+The user raises its Sp. Def by four steps and gains the ability Unaware. User becomes Psychic-type.
+The user raises its Sp. Atk and Sp. Def by two steps and maximizes its Accuracy. User becomes Psychic-type.
+The user raises its Sp. Atk and Sp. Def by two steps and maximizes its Accuracy. User becomes Psychic-type.
+The user summons eclipse for five turns. This raises ist Attack and Sp. Atk. User becomes Psychic-type.
+The user summons eclipse for five turns. This raises ist Attack and Sp. Atk. User becomes Psychic-type.
+Bounces back status moves for the next 3 turns. User becomes Psychic-type.
+Bounces back status moves for the next 3 turns. User becomes Psychic-type.
+The user summons an allied Abra. This raises its Sp. Atk by three steps, and its allies' by one. User becomes Psychic-type.
+The user summons an allied Abra. This raises its Sp. Atk by three steps, and its allies' by one. User becomes Psychic-type.
+The user creates an Odd Room for eight turns. This raises its Speed. User becomes Psychic-type.
+The user creates an Odd Room for eight turns. This raises its Speed. User becomes Psychic-type.
 The target is struck with an absolute zero beam of energy, frostbiting it.
 The target is struck with an absolute zero beam of energy, frostbiting it.
 The user inflicts frostbite on all nearby foes. User becomes an Ice-type.
 The user inflicts frostbite on all nearby foes. User becomes an Ice-type.
-The user lays 2 hazard layers of frozen spikes at the foe's feet, and becomes Ice-type.
-The user lays 2 hazard layers of frozen spikes at the foe's feet, and becomes Ice-type.
-The user summons a hail storm for 5 turns, reduces the speed of all enemies by two steps, and becomes Ice-type.
-The user summons a hail storm for 5 turns, reduces the speed of all enemies by two steps, and becomes Ice-type.
-The user sharply boosts their Attack, Defense, and Speed, and becomes Ice-type.
-The user sharply boosts their Attack, Defense, and Speed, and becomes Ice-type.
+The user lays 2 hazard layers of frozen spikes on the foe's side. User becomes Ice-type.
+The user lays 2 hazard layers of frozen spikes on the foe's side. User becomes Ice-type.
+The user summons hail for five turns. This lowers every foe's Speed by two steps. User becomes Ice-type.
+The user summons hail for five turns. This lowers every foe's Speed by two steps. User becomes Ice-type.
+The user raises its Attack, Defense, and Speed by two steps. User becomes Ice-type.
+The user raises its Attack, Defense, and Speed by two steps. User becomes Ice-type.
 The user crushes all near foes with evil intent. This deals double damage to targets with a non-volatile status condition.
 The user crushes all near foes with evil intent. This deals double damage to targets with a non-volatile status condition.
 The user exhales a mighty gust that inflicts damage and numbs the target.
 The user exhales a mighty gust that inflicts damage and numbs the target.
-The user raises its Attack and Speed by two steps, and becomes Dragon-type.
-The user raises its Attack and Speed by two steps, and becomes Dragon-type.
-The user harshly lowers each near foes best stat, and becomes Dragon-type.
-The user harshly lowers each near foes best stat, and becomes Dragon-type.
-The user summons an allied Poochyena, raises the Attack stat of itself and its allies, and becomes Dark-type.
-The user summons an allied Poochyena, raises the Attack stat of itself and its allies, and becomes Dark-type.
-The user torments all near foes, preventing them from repeating moves. The user becomes Dark-type.
-The user torments all near foes, preventing them from repeating moves. The user becomes Dark-type.
-The user raises their Sp. Atk by four steps and becomes Fairy-type.
-The user raises their Sp. Atk by four steps and becomes Fairy-type.
-Summons moonglow for 5 turns, raises the Defense and Sp. Def of all allies, and user becomes Fairy-type.
-Summons moonglow for 5 turns, raises the Defense and Sp. Def of all allies, and user becomes Fairy-type.
-The user creates a Puzzle Room for 8 turns, raises its Attack and Sp. Atk, and becomes Fairy-type.
-The user creates a Puzzle Room for 8 turns, raises its Attack and Sp. Atk, and becomes Fairy-type.
+The user raises its Attack and Speed by two steps. User becomes Dragon-type.
+The user raises its Attack and Speed by two steps. User becomes Dragon-type.
+The user lowers each near foe's highest stat by four steps. User becomes Dragon-type.
+The user lowers each near foe's highest stat by four steps. User becomes Dragon-type.
+The user summons an allied Poochyena. This raises its Attack by three steps, and its allies' by one. User becomes Dark-type.
+The user summons an allied Poochyena. This raises its Attack by three steps, and its allies' by one. User becomes Dark-type.
+The user torments all near foes, preventing them from repeating moves. User becomes Dark-type.
+The user torments all near foes, preventing them from repeating moves. User becomes Dark-type.
+The user raises its Sp. Atk by four steps. User becomes Fairy-type.
+The user raises its Sp. Atk by four steps. User becomes Fairy-type.
+The user summons moonglow for five turns. This raises the Defense and Sp. Def of all allies. User becomes Fairy-type.
+The user summons moonglow for five turns. This raises the Defense and Sp. Def of all allies. User becomes Fairy-type.
+The user creates a Puzzle Room for eight turns. This raises its Attack and Sp. Atk. User becomes Fairy-type.
+The user creates a Puzzle Room for eight turns. This raises its Attack and Sp. Atk. User becomes Fairy-type.
 This move exists just to showcase the PBS Extensions system.
 This move exists just to showcase the PBS Extensions system.
 [7]
@@ -37842,8 +37862,8 @@ An item to be held by a Pokémon. It enables the holder to flee from any wild Po
 An item to be held by a Pokémon. It enables the holder to flee from any wild Pokémon without fail.
 An item to be held by a Pokémon. It is an egg filled with happiness that earns extra Exp. Points in battle.
 An item to be held by a Pokémon. It is an egg filled with happiness that earns extra Exp. Points in battle.
-A held item. After the weilder enters a battle, money generated in that battle is increased by 50%.
-A held item. After the weilder enters a battle, money generated in that battle is increased by 50%.
+A held item. If the wielder enters a battle, money generated in that battle is increased by 50%.
+A held item. If the wielder enters a battle, money generated in that battle is increased by 50%.
 An item to be held by a Pokémon. The comforting chime of this bell makes it gain happiness twice as fast.
 An item to be held by a Pokémon. The comforting chime of this bell makes it gain happiness twice as fast.
 An item to be held by a Pokémon. It prevents wild Pokémon encounters if the holder is the first one in the party.
@@ -37880,8 +37900,8 @@ A held item. It makes multi-hit attacks consistently hit 4 or 5 times.
 A held item. It makes multi-hit attacks consistently hit 4 or 5 times.
 An item to be held by a Pokémon. The user gets both of its legal abilities, but its stats are cut by 10%.
 An item to be held by a Pokémon. The user gets both of its legal abilities, but its stats are cut by 10%.
-A held item. The holder recovers 30% more HP from draining moves, Ingrain, Aqua Ring, and leech.
-A held item. The holder recovers 30% more HP from draining moves, Ingrain, Aqua Ring, and leech.
+A held item. The holder recovers 30% more HP from draining moves, Aqua Ring, and leech.
+A held item. The holder recovers 30% more HP from draining moves, Aqua Ring, and leech.
 A held item that gradually restores the HP of Poison-type Pokémon. It inflicts damage on all other types.
 A held item that gradually restores the HP of Poison-type Pokémon. It inflicts damage on all other types.
 A held item. The holder's HP is restored by 1/16th at the end of each turn.
@@ -38929,6 +38949,8 @@ Arctic Ariette
 Arctic Ariette
 Armor Piercing
 Armor Piercing
+Aromatic
+Aromatic
 Assault Spines
 Assault Spines
 Assistant
@@ -38967,12 +38989,8 @@ Bellower
 Bellower
 Berry Bunch
 Berry Bunch
-Big Boss
-Big Boss
 Bitter Cold
 Bitter Cold
-Bizarre
-Bizarre
 Bladebrained
 Bladebrained
 Blinding
@@ -39007,14 +39025,14 @@ Burdened
 Burdened
 Burn Out
 Burn Out
-Burn Skill
-Burn Skill
 Caffeine Rush
 Caffeine Rush
 Candy Veil
 Candy Veil
 Cash Out
 Cash Out
+Castellan
+Castellan
 Celebration
 Celebration
 Celeritas
@@ -39031,6 +39049,8 @@ Chronic Cold
 Chronic Cold
 City Razer
 City Razer
+Claustrophobia
+Claustrophobia
 Clean Freak
 Clean Freak
 Clingy
@@ -39077,6 +39097,8 @@ Dauntless
 Dauntless
 Dawnfall
 Dawnfall
+Deadbeat
+Deadbeat
 Debris Field
 Debris Field
 Decontamination
@@ -39165,8 +39187,6 @@ Exotherm Engine
 Exotherm Engine
 Expertise
 Expertise
-Extorter
-Extorter
 Extra Scoop
 Extra Scoop
 Extreme Power
@@ -39177,6 +39197,8 @@ Extremophile
 Extremophile
 Fae Veil
 Fae Veil
+False Front
+False Front
 Fascinate
 Fascinate
 Fashionable
@@ -39331,6 +39353,8 @@ Herding
 Herding
 Heroic Finale
 Heroic Finale
+High Judge
+High Judge
 High-rise
 High-rise
 Hive Mind
@@ -39453,6 +39477,8 @@ Lycanthrope
 Lycanthrope
 Maestro
 Maestro
+Magma Trail
+Magma Trail
 Magnet Trap
 Magnet Trap
 Malice
@@ -39481,6 +39507,8 @@ Midnight Sun
 Midnight Sun
 Mist Form
 Mist Form
+Mist Trail
+Mist Trail
 Moist Skin
 Moist Skin
 Monkey Mischief
@@ -39601,8 +39629,6 @@ Poor Conduct
 Poor Conduct
 Power Lifter
 Power Lifter
-Predation
-Predation
 Pressure Valve
 Pressure Valve
 Puff Up
@@ -39657,6 +39683,8 @@ Resolute
 Resolute
 Resonant
 Resonant
+Roaring Flame
+Roaring Flame
 Roast
 Roast
 Rock Body
@@ -39807,6 +39835,8 @@ Stormbringer
 Stormbringer
 Storm Totem
 Storm Totem
+Storm Trail
+Storm Trail
 Straight Ahead
 Straight Ahead
 Stratagem
@@ -39823,8 +39853,6 @@ Stygian Night
 Stygian Night
 Stylish
 Stylish
-Subspace Schism
-Subspace Schism
 Sub Zero
 Sub Zero
 Sudden Chill
@@ -39983,6 +40011,8 @@ Absolute Defense
 Absolute Defense
 Ancestral Summons
 Ancestral Summons
+Auto-Pilot 2
+Auto-Pilot 2
 Backfire
 Backfire
 Backup
@@ -40068,26 +40098,26 @@ Repeats another Pokémon's dance move immediately.
 Repeats another Pokémon's dance move immediately.
 Powers up each Pokémon's Dark-type moves.
 Powers up each Pokémon's Dark-type moves.
-Raises Defense when the Pokémon enters a battle.
-Raises Defense when the Pokémon enters a battle.
+Raises Defense upon entry.
+Raises Defense upon entry.
 Halves move damage when HP becomes half or less.
 Halves move damage when HP becomes half or less.
 Raises Attack by four steps when a stat is lowered by a foe.
 Raises Attack by four steps when a stat is lowered by a foe.
 Changes the weather to Strong Winds, which remove Flying-type's weaknesses. Lingers for 3 turns after leaving.
 Changes the weather to Strong Winds, which remove Flying-type's weaknesses. Lingers for 3 turns after leaving.
-Changes the weather to Harsh Sunlight, which nullifies Water-type moves. Lingers for 3 turns after leaving.
-Changes the weather to Harsh Sunlight, which nullifies Water-type moves. Lingers for 3 turns after leaving.
+Changes the weather to Harsh Sunlight, which debuffs most attacks and prevents them from critting. Lingers for 3 turns after leaving.
+Changes the weather to Harsh Sunlight, which debuffs most attacks and prevents them from critting. Lingers for 3 turns after leaving.
 Its shroud protects it from an attack just once.
 Its shroud protects it from an attack just once.
 Boosts either Attack or Sp. Atk by two steps according to the foe's defenses.
 Boosts either Attack or Sp. Atk by two steps according to the foe's defenses.
 Powers up Dragon-type moves by 50%.
 Powers up Dragon-type moves by 50%.
-Summons rainstorm for 4 turns when it enters battle.
-Summons rainstorm for 4 turns when it enters battle.
-Turns the weather to sunshine for 4 turns when it enters battle.
-Turns the weather to sunshine for 4 turns when it enters battle.
+Summons rainstorm for 4 turns upon entry.
+Summons rainstorm for 4 turns upon entry.
+Turns the weather to sunshine for 4 turns upon entry.
+Turns the weather to sunshine for 4 turns upon entry.
 Heals 1/8 HP in rainstorm, 1/4 when hit by Water-type moves. Loses 1/8 in sunshine, takes 25% more from Fire-type moves.
 Heals 1/8 HP in rainstorm, 1/4 when hit by Water-type moves. Loses 1/8 in sunshine, takes 25% more from Fire-type moves.
 Switches out if its HP becomes half or less.
@@ -40148,8 +40178,8 @@ The Pokémon is protected from flinching, Intimidate, Fascinate, and Frustrate.
 The Pokémon is protected from flinching, Intimidate, Fascinate, and Frustrate.
 Upon entry, lowers the foe's Attack stat by two steps.
 Upon entry, lowers the foe's Attack stat by two steps.
-Raises Attack when the Pokémon enters a battle.
-Raises Attack when the Pokémon enters a battle.
+Raises Attack upon entry.
+Raises Attack upon entry.
 Physical moves against it inflict 1/8th max HP damage to the foe.
 Physical moves against it inflict 1/8th max HP damage to the foe.
 Boosts the power of punching moves by 30%.
@@ -40208,8 +40238,8 @@ Gives priority to status moves, but makes Dark-types immune to them.
 Gives priority to status moves, but makes Dark-types immune to them.
 The Pokémon raises the foe's PP usage.
 The Pokémon raises the foe's PP usage.
-Changes the weather to Heavy Rain, which nullifies Fire-type moves. Lingers for 3 turns after leaving.
-Changes the weather to Heavy Rain, which nullifies Fire-type moves. Lingers for 3 turns after leaving.
+Changes the weather to Heavy Rain, which debuffs most attacks and prevents their random added effects. Lingers for 3 turns after leaving.
+Changes the weather to Heavy Rain, which debuffs most attacks and prevents their random added effects. Lingers for 3 turns after leaving.
 The Pokémon receives 25% less move damage from super-effective attacks.
 The Pokémon receives 25% less move damage from super-effective attacks.
 It changes type to that of the move it's about to use.
@@ -40228,8 +40258,8 @@ Protects the Pokémon from recoil damage.
 Protects the Pokémon from recoil damage.
 Doubles the Pokémon's Speed in a sandstorm.
 Doubles the Pokémon's Speed in a sandstorm.
-Summons a sandstorm for 4 turns when it enters battle.
-Summons a sandstorm for 4 turns when it enters battle.
+Summons a sandstorm for 4 turns upon entry.
+Summons a sandstorm for 4 turns upon entry.
 Immune to Grass-type moves, and raises Attack and Sp. Atk when hit by one.
 Immune to Grass-type moves, and raises Attack and Sp. Atk when hit by one.
 Forms a powerful school while it has a lot of HP.
@@ -40258,16 +40288,16 @@ Doubles the Pokémon's Speed stat in a hail.
 Doubles the Pokémon's Speed stat in a hail.
 Doubles the critical hit chance of random crit moves. Powers up critical hits by another 50%.
 Doubles the critical hit chance of random crit moves. Powers up critical hits by another 50%.
-Summons a hail for 4 turns when it enters battle.
-Summons a hail for 4 turns when it enters battle.
+Summons a hailstorm for 4 turns upon entry.
+Summons a hailstorm for 4 turns upon entry.
 In sunshine, Sp. Atk is boosted by 50%, but the Pokémon is hurt for 1/10th HP each turn.
 In sunshine, Sp. Atk is boosted by 50%, but the Pokémon is hurt for 1/10th HP each turn.
 Boosts Sp. Atk each time a Pokémon faints.
 Boosts Sp. Atk each time a Pokémon faints.
 Speed is raised by two steps at the end of each of its turns.
 Speed is raised by two steps at the end of each of its turns.
-Boosts Defense by two steps when hit by an attack.
-Boosts Defense by two steps when hit by an attack.
+Raises Defense when hit by an attack.
+Raises Defense when hit by an attack.
 Changes between Blade and Shield Forme with attacks and King's Shield.
 Changes between Blade and Shield Forme with attacks and King's Shield.
 Physical attacks against the Pokémon have a 30% chance to cause numbing.
@@ -40372,6 +40402,8 @@ Sound-based attacks turn Ice-type and are boosted by 30%.
 Sound-based attacks turn Ice-type and are boosted by 30%.
 Deals double damage against Pokémon that have raised defenses or that are protected by a screen.
 Deals double damage against Pokémon that have raised defenses or that are protected by a screen.
+Uses Aromatherapy if an attack lowers its HP to half or below.
+Uses Aromatherapy if an attack lowers its HP to half or below.
 Doubles Sp. Def, but the Pokémon can't use status moves.
 Doubles Sp. Def, but the Pokémon can't use status moves.
 Uses Assist upon entry, using a random move known by a party member.
@@ -40398,8 +40430,8 @@ Deals more damage to targets the faster it is than them. Up to a 50% bonus at do
 Deals more damage to targets the faster it is than them. Up to a 50% bonus at double Speed.
 Your Poké Balls are 50% more effective.
 Your Poké Balls are 50% more effective.
-Sets a Reflect for 4 turns upon entering the battle.
-Sets a Reflect for 4 turns upon entering the battle.
+Sets a Reflect for 4 turns upon entry.
+Sets a Reflect for 4 turns upon entry.
 Raises Defense and Sp. Def by three steps when its HP is lowered below half.
 Raises Defense and Sp. Def by three steps when its HP is lowered below half.
 Boosts power of light-based moves by 30%.
@@ -40410,12 +40442,8 @@ After using a sound move, all foes are tormented.
 After using a sound move, all foes are tormented.
 Can hold two different items, if both are Berries.
 Can hold two different items, if both are Berries.
-Boosts Defense by 25%. The Pokémon cannot be flinched.
-Boosts Defense by 25%. The Pokémon cannot be flinched.
 Causes hail to deal double damage and increase Defense of Ice-types by 2.0x instead of 1.5x.
 Causes hail to deal double damage and increase Defense of Ice-types by 2.0x instead of 1.5x.
-Its special attacks reduce the target's Sp. Def.
-Its special attacks reduce the target's Sp. Def.
 Boosts the power of blade moves by 30%. Blade moves ignore the target's modified Defense and Sp. Def.
 Boosts the power of blade moves by 30%. Blade moves ignore the target's modified Defense and Sp. Def.
 After using a light move, lowers each foe's Sp. Def.
@@ -40450,14 +40478,14 @@ Receives 33% less move damage, but the Pokémon is hurt for 1/10th HP each turn.
 Receives 33% less move damage, but the Pokémon is hurt for 1/10th HP each turn.
 Has a 30% chance to burn targets when using physical moves.
 Has a 30% chance to burn targets when using physical moves.
-Has a 30% chance to burn targets when using special moves.
-Has a 30% chance to burn targets when using special moves.
 During hail, the Pokémon's Speed is boosted by 50% and twice as likely to crit.
 During hail, the Pokémon's Speed is boosted by 50% and twice as likely to crit.
 Prevents itself and allies from being poisoned, leeched, or waterlogged.
 Prevents itself and allies from being poisoned, leeched, or waterlogged.
 Upon entry, consumes scattered coins to heal for 1/10th the amount consumed. This can overheal.
 Upon entry, consumes scattered coins to heal for 1/10th the amount consumed. This can overheal.
+Boosts Attack and Sp. Atk by 30% in rooms.
+Boosts Attack and Sp. Atk by 30% in rooms.
 Heals by 1/5th HP whenever any Pokémon uses a dance move. Can overheal.
 Heals by 1/5th HP whenever any Pokémon uses a dance move. Can overheal.
 The Pokémon's Speed is doubled while using light-based moves.
@@ -40474,6 +40502,8 @@ Physical moves have a 30% chance to frostbite targets.
 Physical moves have a 30% chance to frostbite targets.
 After knocking out any Pokémon with Waterfall, transforms into its Rampage form. Ability becomes Juggernaut.
 After knocking out any Pokémon with Waterfall, transforms into its Rampage form. Ability becomes Juggernaut.
+If there is an active Room, enemies which swap in take Psychic-type damage equal to 1/6th their HP.
+If there is an active Room, enemies which swap in take Psychic-type damage equal to 1/6th their HP.
 Boosts move damage by 50% while it has a non-volatile status condition. It suffers double effect from such status conditions.
 Boosts move damage by 50% while it has a non-volatile status condition. It suffers double effect from such status conditions.
 Traps foes with non-volatile status conditions.
@@ -40482,8 +40512,8 @@ It changes form to match the move it selected.
 It changes form to match the move it selected.
 Boosts Sp. Atk and Speed by 30% in rainstorm.
 Boosts Sp. Atk and Speed by 30% in rainstorm.
-Sets a Lucky Chant upon entering the battle, protecting from critical hits for 10 turns.
-Sets a Lucky Chant upon entering the battle, protecting from critical hits for 10 turns.
+Sets a Lucky Chant upon entry, protecting from critical hits for 10 turns.
+Sets a Lucky Chant upon entry, protecting from critical hits for 10 turns.
 Can hold two items, but drops one when swapping out.
 Can hold two items, but drops one when swapping out.
 Its attacks are critical against frostbitten targets.
@@ -40520,6 +40550,8 @@ Boosts Attack and Sp. Atk after knocking out any Pokémon.
 Boosts Attack and Sp. Atk after knocking out any Pokémon.
 On the first turn, its attacks burn the target.
 On the first turn, its attacks burn the target.
+Has a 30% chance to leech targets when using physical moves.
+Has a 30% chance to leech targets when using physical moves.
 Immune to non-volatile status conditions due to its hard shell. Boosts Sp. Atk and Speed by 30% in sandstorm.
 Immune to non-volatile status conditions due to its hard shell. Boosts Sp. Atk and Speed by 30% in sandstorm.
 Prevents Bug- or Poison-type moves during moonglow.
@@ -40566,8 +40598,8 @@ If an attack lowers its HP to half or less, the attacker becomes drowsy.
 If an attack lowers its HP to half or less, the attacker becomes drowsy.
 Move damage that's decreased by rainstorm is decreased twice as much.
 Move damage that's decreased by rainstorm is decreased twice as much.
-Creates Grey Mist for three turns when entering the battlefield.
-Creates Grey Mist for three turns when entering the battlefield.
+Creates Grey Mist for three turns upon entry.
+Creates Grey Mist for three turns upon entry.
 Speed is doubled on the first turn.
 Speed is doubled on the first turn.
 Whenever it uses a status move, becomes energized, doubling the power of its next Electric-type attack.
@@ -40606,8 +40638,6 @@ Takes half damage from Psychic- and Ghost-type attacks.
 Takes half damage from Psychic- and Ghost-type attacks.
 Boosts Speed by 50% but the Pokémon is locked into the first move they use.
 Boosts Speed by 50% but the Pokémon is locked into the first move they use.
-At low health, eats other battlers' low-health triggered berries.
-At low health, eats other battlers' low-health triggered berries.
 Upon entry, the Pokémon heals itself for 1/4th max HP. This can overheal.
 Upon entry, the Pokémon heals itself for 1/4th max HP. This can overheal.
 Increases Attack by 50%, but the Pokémon is hurt for 1/10th HP each turn.
@@ -40618,6 +40648,8 @@ Heals by 1/8th of its max HP each turn if in eclipse.
 Heals by 1/8th of its max HP each turn if in eclipse.
 Prevents itself and allies from being burned, frostbitten, or numbed.
 Prevents itself and allies from being burned, frostbitten, or numbed.
+Upon entry, gains your choice of Fighting-, Dark-, or Fairy-type.
+Upon entry, gains your choice of Fighting-, Dark-, or Fairy-type.
 Upon entry, lowers the foe's Sp. Atk stat by two steps.
 Upon entry, lowers the foe's Sp. Atk stat by two steps.
 Can hold two different items, if one is clothing and the other is not.
@@ -40682,8 +40714,8 @@ Raises Attack and Sp. Atk by two steps when hit by a not-very-effective move.
 Raises Attack and Sp. Atk by two steps when hit by a not-very-effective move.
 Doubles the Pokémon's Speed in Rooms.
 Doubles the Pokémon's Speed in Rooms.
-Raises other allies' Speed by two steps upon entering the battle.
-Raises other allies' Speed by two steps upon entering the battle.
+Raises other allies' Speed by two steps upon entry.
+Raises other allies' Speed by two steps upon entry.
 The Pokémon changes type to that of the move it's about to use. However, it's 20% less accurate.
 The Pokémon changes type to that of the move it's about to use. However, it's 20% less accurate.
 Counts as every tribe.
@@ -40730,16 +40762,16 @@ Intensifies gravity for four turns when hit by an attack.
 Intensifies gravity for four turns when hit by an attack.
 Moves that trap and damage the opponent for three turns deal 50% more damage on the initial hit.
 Moves that trap and damage the opponent for three turns deal 50% more damage on the initial hit.
-Boosts Sp. Def by two steps when hit by an attack.
-Boosts Sp. Def by two steps when hit by an attack.
+Raises Sp. Def when hit by an attack.
+Raises Sp. Def when hit by an attack.
 Raises Attack and Sp. Atk whenever any Pokémon uses a dance move.
 Raises Attack and Sp. Atk whenever any Pokémon uses a dance move.
 Heals 1/16th HP every turn. Protected from being poisoned.
 Heals 1/16th HP every turn. Protected from being poisoned.
 Upon entry, traps each opponent in a whirlpool for two turns.
 Upon entry, traps each opponent in a whirlpool for two turns.
-Summons eclipse for four turns when it enters battle.
-Summons eclipse for four turns when it enters battle.
+Summons eclipse for four turns upon entry.
+Summons eclipse for four turns upon entry.
 If an attack lowers the Pokémon's HP to half or less, the attacker becomes fractured.
 If an attack lowers the Pokémon's HP to half or less, the attacker becomes fractured.
 Deals 30% more move damage to Pokémon that are taller than it.
@@ -40772,12 +40804,14 @@ Wild Pokémon are more likely to appear in pairs and to be species you've never 
 Wild Pokémon are more likely to appear in pairs and to be species you've never caught before.
 Turns to Finale Form when only unfainted on team. Ability becomes Inner Focus.
 Turns to Finale Form when only unfainted on team. Ability becomes Inner Focus.
+Has Judgment as its 5th move.
+Has Judgment as its 5th move.
 The Pokémon and its allies are immune to weather downsides.
 The Pokémon and its allies are immune to weather downsides.
 Powers up Bug-type moves of itself and its allies by 50%.
 Powers up Bug-type moves of itself and its allies by 50%.
-When entering battle, heals self and allies for 25% of their max health.
-When entering battle, heals self and allies for 25% of their max health.
+Upon entry, heals self and allies for 25% of their max health.
+Upon entry, heals self and allies for 25% of their max health.
 Lowers priority of status moves used by any Pokémon.
 Lowers priority of status moves used by any Pokémon.
 Powers up recoil and sound moves by 30%.
@@ -40790,8 +40824,8 @@ When hit by a move with 95 or more base power, hits back instantly with Nuzzle.
 When hit by a move with 95 or more base power, hits back instantly with Nuzzle.
 Punches, Kicks, and Bites combo together to create special effects.
 Punches, Kicks, and Bites combo together to create special effects.
-Doubles Speed. Dashes to avoid hazards when entering.
-Doubles Speed. Dashes to avoid hazards when entering.
+Doubles Speed. Dashes to avoid hazards upon entry.
+Doubles Speed. Dashes to avoid hazards upon entry.
 Doubles the power of blade moves on the first turn.
 Doubles the power of blade moves on the first turn.
 It can avoid being knocked out by using its face. The face then melts.
@@ -40830,8 +40864,8 @@ Upon entry, creates an Insight Room for four turns, giving everyone a fifth move
 Upon entry, creates an Insight Room for four turns, giving everyone a fifth move.
 Special moves have a 30% chance to poison targets.
 Special moves have a 30% chance to poison targets.
-Takes 30% less damage until it uses an attack.
-Takes 30% less damage until it uses an attack.
+Takes 30% less damage until the first time it uses an attacking move.
+Takes 30% less damage until the first time it uses an attacking move.
 At the beginning of each turn, gives clues about a foe's plan.
 At the beginning of each turn, gives clues about a foe's plan.
 Boosts the power of kicking moves by 30%.
@@ -40858,8 +40892,8 @@ Boosts the power of punching moves by 50%.
 Boosts the power of punching moves by 50%.
 At end of turn, regenerates its previously-used berry.
 At end of turn, regenerates its previously-used berry.
-Cannot take damage or be switched out. Hears Perish Song upon entering, ensuring its demise.
-Cannot take damage or be switched out. Hears Perish Song upon entering, ensuring its demise.
+Cannot take damage or be switched out. Hears Perish Song upon entry, ensuring its demise.
+Cannot take damage or be switched out. Hears Perish Song upon entry, ensuring its demise.
 Deals 30% more damage when it's slower than the target.
 Deals 30% more damage when it's slower than the target.
 Protected from critical hits. Can't be burned or frostbitten.
@@ -40894,6 +40928,8 @@ Transforms into Midnight Form at the Full Moon. Ability becomes No Guard.
 Transforms into Midnight Form at the Full Moon. Ability becomes No Guard.
 The Pokémon's Speed is doubled while using Sound-based moves.
 The Pokémon's Speed is doubled while using Sound-based moves.
+Pokémon that swap in for this have their Attack and Sp. Atk raised.
+Pokémon that swap in for this have their Attack and Sp. Atk raised.
 When hit with a special move, traps and damages the attacker for three turns. Fails on turns the user switched in.
 When hit with a special move, traps and damages the attacker for three turns. Fails on turns the user switched in.
 If an attack lowers the Pokémon's HP to half or less, the attacker becomes cursed.
@@ -40922,6 +40958,8 @@ Powers up the Pokémon's Dark-type moves by 50% in sunshine.
 Powers up the Pokémon's Dark-type moves by 50% in sunshine.
 Slips past hazards. Takes one third less damage if it switched in this turn.
 Slips past hazards. Takes one third less damage if it switched in this turn.
+Pokémon that swap in for this have their Defense and Sp. Defense raised.
+Pokémon that swap in for this have their Defense and Sp. Defense raised.
 If an attack lowers its HP to half or less, waterlogs the attacker.
 If an attack lowers its HP to half or less, waterlogs the attacker.
 When hit by another Pokémon, destroys one of their items.
@@ -40930,8 +40968,8 @@ Heals 1/8th of its max HP each turn if in moonglow.
 Heals 1/8th of its max HP each turn if in moonglow.
 The Pokémon and its allies take 25% less move damage during moonglow.
 The Pokémon and its allies take 25% less move damage during moonglow.
-Summons moonglow for four turns when it enters battle.
-Summons moonglow for four turns when it enters battle.
+Summons moonglow for four turns upon entry.
+Summons moonglow for four turns upon entry.
 When hit in moonglow, steals the attacker's item, or knocks it away.
 When hit in moonglow, steals the attacker's item, or knocks it away.
 Hits opponent with Thief when withdrawn from battle.
@@ -40974,8 +41012,8 @@ Upon entry, creates an Odd Room for four turns, swapping offensive and defensive
 Upon entry, creates an Odd Room for four turns, swapping offensive and defensive stats.
 On the first turn, its attacks cause the target to flinch.
 On the first turn, its attacks cause the target to flinch.
-Sets a Tailwind for four turns upon entering the battle, increasing Speed.
-Sets a Tailwind for four turns upon entering the battle, increasing Speed.
+Sets a Tailwind for four turns upon entry, increasing Speed.
+Sets a Tailwind for four turns upon entry, increasing Speed.
 Prevents stat steps from being lowered (except when self-inflicted). The Pokémon's weight is doubled.
 Prevents stat steps from being lowered (except when self-inflicted). The Pokémon's weight is doubled.
 The Pokémon is also Fairy-type.
@@ -41042,8 +41080,6 @@ Upon switch out, lowers the foe's Attack and Sp. Atk stat by insulting them.
 Upon switch out, lowers the foe's Attack and Sp. Atk stat by insulting them.
 Its physical attacks go last but force the target to switch out after use.
 Its physical attacks go last but force the target to switch out after use.
-Has a 30% chance to leech targets when using physical moves.
-Has a 30% chance to leech targets when using physical moves.
 Right before the Pokémon is attacked, the attacker's stat changes are reset.
 Right before the Pokémon is attacked, the attacker's stat changes are reset.
 Deals 25% more damage per stockpile.
@@ -41098,6 +41134,8 @@ Immune to Dark-type and Bug-type moves.
 Immune to Dark-type and Bug-type moves.
 Spread moves hitting multiple targets deal 50% more damage.
 Spread moves hitting multiple targets deal 50% more damage.
+Has a 30% chance to burn targets when using special moves.
+Has a 30% chance to burn targets when using special moves.
 When the Pokémon eats a Berry, it raises its Attack and Sp. Atk by two steps.
 When the Pokémon eats a Berry, it raises its Attack and Sp. Atk by two steps.
 Heals 1/8th of its max HP each turn during sandstorm.
@@ -41226,8 +41264,8 @@ Prevents stat steps from being lowered (except when self-inflicted). Immune to w
 Prevents stat steps from being lowered (except when self-inflicted). Immune to weather downsides.
 Doubles critical hit chance for each Speed step up. All moves can random critical hit.
 Doubles critical hit chance for each Speed step up. All moves can random critical hit.
-Sets a Light Screen for 4 turns upon entering the battle.
-Sets a Light Screen for 4 turns upon entering the battle.
+Sets a Light Screen for 4 turns upon entry.
+Sets a Light Screen for 4 turns upon entry.
 During eclipse, its moves can't miss and always activate their random effects.
 During eclipse, its moves can't miss and always activate their random effects.
 Takes 50% less damage from Water-type moves. Raises Speed by four steps when hit by one.
@@ -41248,6 +41286,8 @@ Summons rainstorm for four turns when hit by an attack.
 Summons rainstorm for four turns when hit by an attack.
 Upon entry, summons a Turbulent Sky on the Pokémon's side for 6 turns.
 Upon entry, summons a Turbulent Sky on the Pokémon's side for 6 turns.
+Pokémon that swap in for this have their Speed raised.
+Pokémon that swap in for this have their Speed raised.
 Ignores Abilities that would affect its moves. Its attacks can't be redirected to new targets.
 Ignores Abilities that would affect its moves. Its attacks can't be redirected to new targets.
 Makes foes stressed and unable to use their items.
@@ -41262,8 +41302,6 @@ Changes the weather to Blood Moon, which heralds the Full Blood Moon. Lingers fo
 Changes the weather to Blood Moon, which heralds the Full Blood Moon. Lingers for 3 turns after leaving.
 The Pokémon benefits twice as much from style points.
 The Pokémon benefits twice as much from style points.
-Upon entry, creates a Trick Room for four turns, inverting the effect of Speed.
-Upon entry, creates a Trick Room for four turns, inverting the effect of Speed.
 Powers up Ice-type moves by 50%.
 Powers up Ice-type moves by 50%.
 Special moves against the Pokémon have a 30% chance to frostbite the attacker.
@@ -41418,6 +41456,8 @@ Protects the Pokémon and its allies from spread moves. Defense increased by 20%
 Protects the Pokémon and its allies from spread moves. Defense increased by 20%.
 Switches out if its HP becomes half or less. The replacement Pokémon's ​​first hit must be a crit​​ and if it's Doduo or Dodrio, it will use Fly​​ immediately.
 Switches out if its HP becomes half or less. The replacement Pokémon's ​​first hit must be a crit​​ and if it's Doduo or Dodrio, it will use Fly​​ immediately.
+Upon entry, calls an ally, the ally will arrive in 5 turns.
+Upon entry, calls an ally, the ally will arrive in 5 turns.
 When hitting a target that has an ability with an offensive damage-modifying effect, the Pokémon ignores the conditions and triggers the effect.
 When hitting a target that has an ability with an offensive damage-modifying effect, the Pokémon ignores the conditions and triggers the effect.
 Takes half damage from Dragon-, Fairy-, and Ghost-type attacks. Positive stat steps remain after switching.
@@ -44771,6 +44811,8 @@ Kick
 Kick
 Light
 Light
+Multi
+Multi
 Move {1} is defined as a Status move with a non-zero base damage.<<n>>{2}
 Move {1} is defined as a Status move with a non-zero base damage.<<r>><<n>>{2}
 Warning: Move {1} was defined as a Damaging move but had a base damage of 0. Changing it to a Status move.<<n>>{2}
@@ -49101,6 +49143,8 @@ But a live wire already sits near {1}!
 {1}'s {2} cannot be lowered!
 {1} was attacked on sight!
 {1} was attacked on sight!
+The walls close in on {1}!
+The walls close in on {1}!
 {1} breaks the mold and overpowers type immunities!
 {1} breaks the mold and overpowers type immunities!
 {1} breaks the mold!
@@ -49159,6 +49203,10 @@ But a live wire already sits near {1}!
 {1} is hopping mad!
 {1} is shining with light speed!
 {1} is shining with light speed!
+{1} is ferocious!
+{1} is ferocious!
+{1} tricks the eye!
+{1} tricks the eye!
 The strength is becoming a curse!
 The strength is becoming a curse!
 {1} is synchronizing data!
@@ -49195,6 +49243,12 @@ The effects of the weather disappeared.
 The effects of the weather disappeared.
 All stat changes were eliminated!
 All stat changes were eliminated!
+Toxic dust filled the air!
+Toxic dust filled the air!
+Which type should {1} fake?
+Which type should {1} fake?
+Another {1} will arrive in 5 turns!
+Another {1} will arrive in 5 turns!
 Which item should {1} drop?
 Which item should {1} drop?
 {1} dropped its {2}!
@@ -49765,10 +49819,14 @@ You can't catch Avatars!
 You can't catch Avatars!
 {1} was overwhelmed with emotion!
 {1} was overwhelmed with emotion!
+{1} inhaled too much toxic dust!
+{1} inhaled too much toxic dust!
 {1}'s status is healed!
 {1}'s status is healed!
 The opposing {1}'s status is healed!
 The opposing {1}'s status is healed!
+The {1} arrived!
+The {1} arrived!
 {1} slurped up venom leaking from {2}.
 {1} slurped up venom leaking from {2}.
 {1} absorbs the damage from the poison.
@@ -50239,10 +50297,6 @@ But, {1} cannot use {2}!
 {1} snatched {2}'s move!
 {1} was forced into battle!
 {1} was forced into battle!
-The Fire-type attack fizzled out in the heavy rain!
-The Fire-type attack fizzled out in the heavy rain!
-The Water-type attack evaporated in the harsh sunlight!
-The Water-type attack evaporated in the harsh sunlight!
 {1} shielded its side from the {2}!
 {1} shielded its side from the {2}!
 {1} was blocked by the quarantine!
@@ -50787,6 +50841,12 @@ The healing wish came true for {1}!
 {1} was energized by the aftershock!
 {1}'s PP was restored!
 {1}'s PP was restored!
+{1} was powered up by the trail of stormy energy left by {2}!
+{1} was powered up by the trail of stormy energy left by {2}!
+{1} was enwrapped by the trail of mist left by {2}!
+{1} was enwrapped by the trail of mist left by {2}!
+{1} was enraged by the trail of magma left by {2}!
+{1} was enraged by the trail of magma left by {2}!
 {1} gets a free turn!
 {1} gets a free turn!
 {1} tears through the sky!
@@ -51319,6 +51379,14 @@ The Empowered attack pierced the immunity!
 The Empowered attack pierced the immunity!
 {1} prevents the hit from being critical!
 {1} prevents the hit from being critical!
+The harsh sunlight prevents the hit from being critical!
+The harsh sunlight prevents the hit from being critical!
+The blessing around {1} prevented the hit from being critical!
+The blessing around {1} prevented the hit from being critical!
+The sheen around {1} prevented the hit from being critical!
+The sheen around {1} prevented the hit from being critical!
+The heavy rain prevents a random added effect!
+The heavy rain prevents a random added effect!
 {1}'s {2} protects it from a random added effect!
 {1}'s {2} protects it from a random added effect!
 Given status #{statusApplying} is not valid.
@@ -51755,6 +51823,8 @@ But it failed, since {1} can't have its type changed and its Speed can't be lowe
 But it failed, since {1} can't have its type changed and its Speed can't be lowered!
 Form effects:
 Form effects:
+<u>No Machine</u>: Numb
+<u>No Machine</u>: Numb
 <u>Heat</u>: Burn
 <u>Heat</u>: Burn
 <u>Wash</u>: Waterlog
@@ -52095,8 +52165,8 @@ But it failed, since {1} is already giving a dragon ride!
 {1} calls out to the pack!
 {1} joins with an ally!
 {1} joins with an ally!
-{1} gathers an new mind!
-{1} gathers an new mind!
+{1} gathers a new mind!
+{1} gathers a new mind!
 {1} connects with their friend!
 {1} connects with their friend!
 But it failed, since {1} can't be burned or gain Fire-type!
@@ -56953,8 +57023,8 @@ To Train Your Dragons
 To Train Your Dragons
 Dragon Hatcher
 Dragon Hatcher
-Bring one of every egg to him.
-Bring one of every egg to him.
+Fully evolve every Dragon Egg.
+Fully evolve every Dragon Egg.
 Explore the isle.
 Explore the isle.
 Samorn's House
@@ -57143,6 +57213,10 @@ Reloaded successfully!
 Reloaded successfully!
 Failed to reload: An error occurred.<<n>>({1})
 Failed to reload: An error occurred.<<n>>({1})
+Created default Type Chart. You can modify the file and input the code again to apply.
+Created default Type Chart. You can modify the file and input the code again to apply.
+New Coustom Type Chart reloaded successfully!
+New Coustom Type Chart reloaded successfully!
 Enter Debug Password.
 Enter Debug Password.
 This mod was created by Fanfan.<<n>>If you paid for it, you've been duped!
@@ -57279,8 +57353,14 @@ You can't challenge Former Champion Team, because you don't have 8 badges!
 You can't challenge Former Champion Team, because you don't have 8 badges!
 Which battle rule do you want?
 Which battle rule do you want?
+Would you like to give it a Curse Effect?
+Would you like to give it a Curse Effect?
+Which Curse Effect do you want?
+Which Curse Effect do you want?
 Your team has been exported!
 Your team has been exported!
+the Battle Loader
+the Battle Loader
 Do you want to take a Pokémon from the opposing party?
 Do you want to take a Pokémon from the opposing party?
 Which Pokémon do you want to take?
@@ -57409,12 +57489,16 @@ lowered {1} recovered by {2}
 lowered {1} recovered by {2}
 {1}'s {2}.
 {1}'s {2}.
+A new ally was summoned!
+A new ally was summoned!
 1111111
 1111111
 2222222
 2222222
 Turns to Finale Form when only unfainted on team. Ignores the condition of a perfect battle.
 Turns to Finale Form when only unfainted on team. Ignores the condition of a perfect battle.
+Consumes coins to heal for 1/10th the amount consumed when its HP becomes half or less. This can overheal.
+Consumes coins to heal for 1/10th the amount consumed when its HP becomes half or less. This can overheal.
 When the Pokémon eats a Berry, it restores 25% of its max health.
 When the Pokémon eats a Berry, it restores 25% of its max health.
 Raises Attack by 2 steps after knocking out any Pokémon.
@@ -57423,6 +57507,8 @@ Halves move damage when HP is greater than 50%.
 Halves move damage when HP is greater than 50%.
 It changes secondary type to that of the dance moves it's about to use.
 It changes secondary type to that of the dance moves it's about to use.
+Upon entry, spreads poisonous dust which poisons any Pokémon stay in for 2 turns. When any Pokémon are poisoned, boosts Defense by 2 steps.
+Upon entry, spreads poisonous dust which poisons any Pokémon stay in for 2 turns. When any Pokémon are poisoned, boosts Defense by 2 steps.
 Upon entry, creates an Emotion Room for 4 turns, adding an ability every turn.
 Upon entry, creates an Emotion Room for 4 turns, adding an ability every turn.
 Upon entry, the Pokémon heals itself for 1/5th max HP. This can overheal.
@@ -57449,6 +57535,8 @@ It changes secondary type to that of the punching moves it's about to use.
 It changes secondary type to that of the punching moves it's about to use.
 Speed is raised by one step at the end of each of its turns.
 Speed is raised by one step at the end of each of its turns.
+Speed is raised each turn. Speed is reset when hit, but the attacker takes 1/8th HP damage for each step lost. The Pokémon takes 1/16th.
+Speed is raised each turn. Speed is reset when hit, but the attacker takes 1/8th HP damage for each step lost. The Pokémon takes 1/16th.
 The user's Speed is doubled while using kicking moves. Every third kicking hit must be a crit.
 The user's Speed is doubled while using kicking moves. Every third kicking hit must be a crit.
 The Pokémon is Mutant-type. If the Pokémon is Deoxys, it will have multiple movesets.
@@ -60810,6 +60898,8 @@ Pharoah's Curse
 Pharoah's Curse
 Dancer
 Dancer
+Echo
+Echo
 MartialDiscipline
 MartialDiscipline
 Curled Up
@@ -61132,8 +61222,6 @@ Flare Witch
 Flare Witch
 Halving Damage Turns
 Halving Damage Turns
-Echo
-Echo
 Eroding
 Eroding
 Total Focus
@@ -61160,8 +61248,8 @@ Baneful Bunker
 Baneful Bunker
 Red-Hot Retreat
 Red-Hot Retreat
-Icicle Armor
-Icicle Armor
+Ice-Nine Wall
+Ice-Nine Wall
 Spiky Shield
 Spiky Shield
 Mirror Shield
@@ -61182,6 +61270,8 @@ Chewing Berry
 Chewing Berry
 Auto-Pilot
 Auto-Pilot
+Summond
+Summond
 Last Gasp
 Last Gasp
 Jinxed
@@ -61268,6 +61358,12 @@ Kickback Amount
 Kickback Amount
 Gauss Aftershock
 Gauss Aftershock
+Storm Trail
+Storm Trail
+Mist Trail
+Mist Trail
+Magma Trail
+Magma Trail
 Temporal Shift
 Temporal Shift
 Ancestral Summons
@@ -61755,6 +61851,8 @@ Seeker
 Seeker
 Shadow
 Shadow
+Swimmer
+Swimmer
 Sis and Bro
 Sis and Bro
 Skier
@@ -61773,8 +61871,6 @@ Surfer
 Surfer
 Suspicious Man
 Suspicious Man
-Swimmer
-Swimmer
 Guardian Deity
 Guardian Deity
 Teacher

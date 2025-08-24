@@ -1056,6 +1056,14 @@ No
 Yes
 换
 [Map7]
+The murkrow silently stares at you, a grim look in its eyes.
+黑暗鸦静静地注视着你，眼神中没有一丝光亮。
+West: Velenz
+西：夜幽市
+North: Svait
+北：霜皑镇
+South: The Shelf
+南：潺流坡
 The Growlithe is cowering from everything.
 卡蒂狗好像很害怕。
 You notice a tag on its collar. Though it's moving around, you can just make out what's written on it.
@@ -1074,14 +1082,6 @@ You should return the Growlithe to its owner.
 该把卡蒂狗还给它的主人了。
 According to the tag on its collar, the owner lives in Novo Apartments.
 根据项圈上的标签，它的主人住在望新公寓。
-West: Velenz
-西：夜幽市
-North: Svait
-北：霜皑镇
-South: The Shelf
-南：潺流坡
-The murkrow silently stares at you, a grim look in its eyes.
-黑暗鸦静静地注视着你，眼神中没有一丝光亮。
 You want to know how my makeup stays fresh with all this ash?
 你想知道在这种环境怎么保持妆容的吗？
 The truth is that I am... a beast of the forest, come to take your soul!
@@ -1132,6 +1132,12 @@ Anyways, my side of the bargain...
 总之，我之前说的...
 Suppose I'll get outta yer hair now.
 现在我该走了。
+The true self can only be found by exploring the world, and beating the crap out of random people you find on the way!
+只有通过探索世界，痛殴路上的训练师，才能实现真正的自我！
+After that thrashing I'm gonna have to self-actualize extra-violently to make up! See ya in Kalos!
+在挨了那顿揍之后，我要更加暴力地去弥补自我的实现！我们在卡洛斯再见！
+Ah, a fellow seeker of enlightenment. Best of luck!
+啊，一位追求觉悟的同道！祝你好运!
 This is a premiere Bug-type training ground! Samorn told me herself!
 塞蒙告诉我说，这里非常适合训练虫属性精灵！
 Maybe I'm the worm...
@@ -1142,12 +1148,6 @@ Samorn trains Dragon-types as well! How cool is that!
 塞蒙竟然同时训练龙属性！这真是太酷啦！
 Not as cool as bugs though.
 但龙怎么能跟虫比！
-The true self can only be found by exploring the world, and beating the crap out of random people you find on the way!
-只有通过探索世界，痛殴路上的训练师，才能实现真正的自我！
-After that thrashing I'm gonna have to self-actualize extra-violently to make up! See ya in Kalos!
-在挨了那顿揍之后，我要更加暴力地去弥补自我的实现！我们在卡洛斯再见！
-Ah, a fellow seeker of enlightenment. Best of luck!
-啊，一位追求觉悟的同道！祝你好运!
 I saw a band of troubadours in that cave beyond the fence.
 我看到一些穿着奇怪的演员进到那个被围着栅栏的洞里了。
 Do you know anything about them?
@@ -1163,18 +1163,6 @@ No
 Yes
 找到了
 [Map8]
-My cousin and I like to hang out here. Take in the cool atmosphere and the night sky.
-我和表弟常在这儿发呆，感受清凉夜风和星空。
-We still battle people, but like... in a chill way...
-我们也会对战，不过...主打1个佛系...
-I'm gonna leave now. Don't like your vibes.
-我要走了。你气场好怪。
-Can you feel the energy given off by those evolution stones?
-能感受到进化石散发的能量吗？
-It's doing wonders for my stress.
-对缓解焦虑有奇效。
-Is life worth living if you can't take time to be transfixed by the beauty of nature?
-如果连驻足感受自然之美的时间都没有，活着还有啥意思？
 Hey there. Miss me?
 嘿，想我了吗？
 I finally got here – all thanks to you. I have to say, you don’t look a mite worse for wear considering how much wilderness you trekked through.
@@ -1261,6 +1249,30 @@ Something like a Fire or Sun Stone would clash, and a Leaf or Dusk Stone is more
 而火之石、日之石这些就跟这里的气氛相冲了，至于叶之石或暗之石...貌似它们已经有了。
 I promise it’s a good cause.
 我相信自身的判断没错。
+My cousin and I like to hang out here. Take in the cool atmosphere and the night sky.
+我和表弟常在这儿发呆，感受清凉夜风和星空。
+We still battle people, but like... in a chill way...
+我们也会对战，不过...主打1个佛系...
+I'm gonna leave now. Don't like your vibes.
+我要走了。你气场好怪。
+Can you feel the energy given off by those evolution stones?
+能感受到进化石散发的能量吗？
+It's doing wonders for my stress.
+对缓解焦虑有奇效。
+Is life worth living if you can't take time to be transfixed by the beauty of nature?
+如果连驻足感受自然之美的时间都没有，活着还有啥意思？
+A notice about the Makyan Regional Tournament has been hastily scribbled over.
+一张关于马凯亚锦标赛的通知，被潦草地涂抹后扔掉了。
+A note added below reads "Not Taking Challengers"
+下面增加了一行注释："不接受挑战者"
+Velenz Gym
+夜幽道馆
+Leader: Rafael
+馆主：拉斐尔
+...
+...
+It seems like the Gym Leader was supposed to write a title here, but the space has been left blank.
+按照惯例，馆主应该在最后一行写些什么，但这里被空出来了。
 Improper planning ruined this place. I just know it.
 规划不善毁了这里，我早该料到。
 Founding a town over a cave system? In a swamp?
@@ -1277,18 +1289,12 @@ Hm, I didn't expect you to say no.
 啧，没想到你会拒绝。
 The math... I must have miscalculated...
 计算...出了偏差...
-Velenz Gym
-夜幽道馆
-Leader: Rafael
-馆主：拉斐尔
-...
-...
-It seems like the Gym Leader was supposed to write a title here, but the space has been left blank.
-按照惯例，馆主应该在最后一行写些什么，但这里被空出来了。
-A notice about the Makyan Regional Tournament has been hastily scribbled over.
-一张关于马凯亚锦标赛的通知，被潦草地涂抹后扔掉了。
-A note added below reads "Not Taking Challengers"
-下面增加了一行注释："不接受挑战者"
+Temporary Velenz Ranger Outpost
+夜幽市临时护林员哨站
+"Velenz, proud home of-"
+"夜幽市，我骄傲的故..."
+Claw marks on the sign render the text unreadable.
+上面的字迹被爪痕破坏得难以识别。
 Don't tell the others, but I'm getting bored of waiting.
 别告诉其他人，但我等得有点无聊了。
 Well, might as well battle you before <i>they</i> arrive.
@@ -1305,12 +1311,6 @@ That mansion near the menagerie must have something to do with the light I saw.
 那座靠近动物园的豪宅一定和我看到的光有关。
 My cousin says I'm paranoid, but I definitely saw the place glowing last night.
 我表弟说我多疑，但我昨晚确实看到那地方在发光。
-"Velenz, proud home of-"
-"夜幽市，我骄傲的故..."
-Claw marks on the sign render the text unreadable.
-上面的字迹被爪痕破坏得难以识别。
-Temporary Velenz Ranger Outpost
-夜幽市临时护林员哨站
 I thought this place was supposed to be scary.
 我以为这地方会很可怕。
 Just seems peaceful to me.
@@ -1327,6 +1327,10 @@ Got some rare things on sale, stranger!
 陌生人，我这里有东西要卖！
 Come back anytime.
 随时再来哦。
+East: Repora Forest
+东：枯槁森林
+South: Barren Crater
+南：荒莽火山
 No earthlings allowed: that's the rule.
 地球人禁止入内：这是规矩。
 By the power of the Moon Stone, I will punish you!
@@ -1339,34 +1343,6 @@ I haven't been a real sailor since they scuttled my ship.
 自从他们凿沉了我的船，我就不算真正的船员了。
 I just like the clothes.
 我只是喜欢这身衣服。
-East: Repora Forest
-东：枯槁森林
-South: Barren Crater
-南：荒莽火山
-There's supposed to be a gym leader around here, but he's not keen on taking challengers.
-据说这里有一位道馆馆主，但他并不喜欢接受挑战。
-He lives <imp>underground</imp> like some hermit.
-他就跟个隐士似的住在<imp>地下</imp>某处。
-Even locked himself up to make it harder to get in.
-为了不被外人打扰，甚至把自身锁了起来。
-Apparently the <imp>lock combination code</imp> is somewhere in the town.
-而那把锁的<imp>密码</imp>，就在这座废弃城市的某个地方。
-This is all a bit too mental for me right now, so I'm taking a break.
-但这周围的一切让我有些神经过敏，我得休息一会儿了。
-A small handmade sign. It lists an eight-digit code in a big, blocky style.
-1个手工制作的小牌子，其中内嵌了1个八位数的密码锁。
-Rafael may have a layer of earth protecting him from the surface, but it doesn't protect him from my astral projection.
-拉斐尔可能觉得在地底可以安然无恙，但这并不能保护他不受我的探测。
-I've been watching his battles with some fervor. I wish to grasp the essence of his strategy.
-我一直在关注着他的战斗，希望自身能掌握他的精髓。
-It is, at its core, about dancing.
-他的对策核心是舞蹈。
-His Oricorio and Alolan Marowak both gain power from dancing done by their allies.
-他的花舞鸟跟阿罗拉嘎啦嘎啦，都能从队友的舞蹈中汲取力量。
-If one was feeling particularly devilish, one could aquire a Hattrem.
-如果1个人觉得自身特别邪恶，就能得到1个提布莉姆。
-That witch has a special ability which can prevent Pokemon from utilizing dance.
-而这种精灵有一种特殊能力，可以阻止精灵使用舞蹈。
 Hey again. Bet you didn't expect to see me in a place like this, eh?
 又见面了。没想到会在这儿见到我吧？
 I'm good at battling, less so at cryptic riddles and haunted towns.
@@ -1399,6 +1375,30 @@ You unlocked Rafael's front door?! That sure saves me the time and frustration.
 你打开了拉斐尔家的前门？！这可省了我不少时间和麻烦。
 Much appreciated, fellow trainer! Off I go!
 非常感谢，训练师朋友！我走啦！
+Rafael may have a layer of earth protecting him from the surface, but it doesn't protect him from my astral projection.
+拉斐尔可能觉得在地底可以安然无恙，但这并不能保护他不受我的探测。
+I've been watching his battles with some fervor. I wish to grasp the essence of his strategy.
+我一直在关注着他的战斗，希望自身能掌握他的精髓。
+It is, at its core, about dancing.
+他的对策核心是舞蹈。
+His Oricorio and Alolan Marowak both gain power from dancing done by their allies.
+他的花舞鸟跟阿罗拉嘎啦嘎啦，都能从队友的舞蹈中汲取力量。
+If one was feeling particularly devilish, one could aquire a Hattrem.
+如果1个人觉得自身特别邪恶，就能得到1个提布莉姆。
+That witch has a special ability which can prevent Pokemon from utilizing dance.
+而这种精灵有一种特殊能力，可以阻止精灵使用舞蹈。
+There's supposed to be a gym leader around here, but he's not keen on taking challengers.
+据说这里有一位道馆馆主，但他并不喜欢接受挑战。
+He lives <imp>underground</imp> like some hermit.
+他就跟个隐士似的住在<imp>地下</imp>某处。
+Even locked himself up to make it harder to get in.
+为了不被外人打扰，甚至把自身锁了起来。
+Apparently the <imp>lock combination code</imp> is somewhere in the town.
+而那把锁的<imp>密码</imp>，就在这座废弃城市的某个地方。
+This is all a bit too mental for me right now, so I'm taking a break.
+但这周围的一切让我有些神经过敏，我得休息一会儿了。
+A small handmade sign. It lists an eight-digit code in a big, blocky style.
+1个手工制作的小牌子，其中内嵌了1个八位数的密码锁。
 Why are you here?
 你为什么在这？
 Is this going somewhere?
@@ -1444,7 +1444,7 @@ I'm training for my doctorate in Pokemon Biology.
 "Do some field work!", they said. "It'll look great on your CV!', they said.
 他们都说，“去实地调研吧！这会让你的简历看起来更棒！”
 Now here I am, battling the Raikou down there every day to prevent a rampage.
-所以我才来到这里，为了防止雷皇暴走，每天都在与它进行对战。
+所以我才来到这里，为了阻止雷皇暴走，每天都在与它进行对战。
 Can't say I'm learning nothing though...
 基本什么都没学到...
 Phew... Glad that's over. I've had enough battling to last a lifetime.
@@ -2832,7 +2832,7 @@ Now I know that The Bench might be a bit intimidating for ya, so I've sweetened 
 Heard it goes for a pretty penny, so it might be worth taking me on. Wanna go at it?
 看起来价格不菲哦，你就不想试试吗？
 I've been stationed here to help in case of injury.
-我被派到这里是为了防止有人受伤。
+我被派到这里是为了阻止有人受伤。
 Oh, I'm finally getting paged!
 哦，有人呼叫我了！
 ...
@@ -8918,22 +8918,30 @@ Perhaps your victories will end up here, one day.
 Spend enough time here and it begins to feel like a forum.
 在这里待的时间足够久后，就越来越觉得它像个祭坛。
 [Map136]
-West: Bluepoint Beach
-西：蓝莹海滩
-Northeast: Scenic Path
-东北：景致小径
-A third label has been poorly masked with white paint.
-第三行被人用白色油漆涂掉了。
-The door is securely locked.
-门上锁了。
 Welcome to Casaba Villa, the best resort town in Makya.
 欢迎来到甜瓜度假村，这里是马凯亚最棒的景区！
 My fiancé and I visit here at least once a month.
 我每个月都会跟未婚妻一起，来这里住两天。
 Oh, I'd introduce you to her, but she's enjoying herself at Bluepoint Beach at the moment.
 她现在去蓝莹海滩享受阳光了，回头我可以向你介绍她。
+The door is securely locked.
+门上锁了。
+West: Bluepoint Beach
+西：蓝莹海滩
+Northeast: Scenic Path
+东北：景致小径
+A third label has been poorly masked with white paint.
+第三行被人用白色油漆涂掉了。
 Lambert's House
 兰伯特家
+I've summered here for 20 years.
+我已经在这儿度过了20个夏天。
+I must say it really went to the dogs once Team Chasm started moving in.
+从裂隙队接管这里开始，真是一年不如一年。
+I especially don't like the gym leader they stationed here.
+尤其是他们派来的那个道馆馆主！
+Before all this, he was a bartender at some establishment for roustabouts.
+要知道他之前可是个流浪汉酒吧的调酒师！
 Hey, kiddo. What’s goin’ on? I heard you’re following me.
 哟，小鬼，咋回事？听说我后面有个跟屁虫啊！
 Well, go right ahead. Not gonna get a Beedrill in my bonnet over some kid toddling after me.
@@ -8952,22 +8960,14 @@ Too bad. If you can’t beat that gym, you don’t deserve to even be in this co
 菜就多练，连那个道馆都打不过，还妄图能超过我？再见！
 You’ve always needed my help. Fine -- prove me wrong. We’ll talk again.
 哼，早晚你会发现，没有了我的帮助你什么都做不到，争取一会儿不要哭着求我哟！
-I've summered here for 20 years.
-我已经在这儿度过了20个夏天。
-I must say it really went to the dogs once Team Chasm started moving in.
-从裂隙队接管这里开始，真是一年不如一年。
-I especially don't like the gym leader they stationed here.
-尤其是他们派来的那个道馆馆主！
-Before all this, he was a bartender at some establishment for roustabouts.
-要知道他之前可是个流浪汉酒吧的调酒师！
-"Casaba Villa, Makya's #1 Vacation Spot"
-"欢迎来到在马凯亚地区遥遥领先的--甜瓜度假村"
 I volunteer at the PokeCenter here sometimes.
 我有时会在这里的精灵中心当志愿者。
 So many trainers come in with Numbed Pokemon after battling Lambert.
 有很多训练师都会在跟兰伯特对战后，带着被麻痹的精灵前来求助。
 Apparently a lot of new trainers struggle with that status, as it halves the Pokemon's speed and reduces the damage they do.
 很多新手训练师都对这种异常状态非常苦恼，因为它不仅会让精灵的速度减半，还会减小所造成的伤害。
+"Casaba Villa, Makya's #1 Vacation Spot"
+"欢迎来到在马凯亚地区遥遥领先的--甜瓜度假村"
 Greetings!
 您好！
 If appearances are to be believed, you seem to be a fine trainer.
@@ -8990,8 +8990,6 @@ You can <imp>perfect</imp> my team all you want, and I'll <imp>stay right here</
 就算你真能赐予我<imp>完败</imp>，我也会做好<imp>下1次对决的准备</imp>。
 If you would indeed like to battle me, and the team I've assembled to take down Lambert, just ask.
 只要你有空了，可以随时来找我！
-The berry plant is growing.
-树果还在生长中。
 Skipping Tamarind cutscene.
 跳过塔玛琳的开篇剧情。
 Morning, \PN, I'm <imp>Professor Tamarind</imp>.
@@ -9034,6 +9032,14 @@ Well, keep it in mind.
 当然，这不是要求，是交易。
 See ya, kid.
 再见了，小孩儿。
+The berry plant is growing.
+树果还在生长中。
+Casaba Villa Gym
+甜瓜道馆
+Leader: Lambert
+馆主：兰伯特
+Fighting dirty for over a decade.
+数十年如一日，以肮脏形态出击。
 Hey!
 嘿
 I'm bored and want to have fun. Let's play hide and seek!
@@ -9044,22 +9050,8 @@ If you can find me, I'll give the TMs to you.
 只要你能找到我，它们就是你的了。
 I'll be somewhere on the route to the foreclosed tunnel. Smell ya later!
 我会藏在城镇北边的某个地方，快来找我吧！
-Casaba Villa Gym
-甜瓜道馆
-Leader: Lambert
-馆主：兰伯特
-Fighting dirty for over a decade.
-数十年如一日，以肮脏形态出击。
-Hey, \PN. I heard you beat Lambert.
-嘿，\PN，你已经打赢兰伯特了？
-Guessing you’re gonna head for the <imp>mainland</imp> now?
-是前往<imp>大陆</imp>的时候了对吧？
-Well, before you go, meet me at the dock, 'kay?
-走之前先来码头见一面怎么样？
-Got something to say. Thanks.
-我有事跟你说。
-She hung up...
-挂断了...
+Closed while Lambert participates in the Makya Championship Tournament.
+马凯亚锦标赛期间暂时闭馆。
 Be careful outside the Villa, you don't want to end up as another incident in the newspapers.
 在镇子外要小心一些，你也不想成为报纸头条上的受害者吧？
 No, I'm not talking about wild Pokemon.
@@ -9072,8 +9064,30 @@ I for one can't wait for the whole thing to blow over, so I can read again about
 希望这热度赶紧消退吧，我更想在报纸上看些有用的东西。
 Like the stock market.
 比如说股市预测什么的。
-Closed while Lambert participates in the Makya Championship Tournament.
-马凯亚锦标赛期间暂时闭馆。
+Hey, \PN. I heard you beat Lambert.
+嘿，\PN，你已经打赢兰伯特了？
+Guessing you’re gonna head for the <imp>mainland</imp> now?
+是前往<imp>大陆</imp>的时候了对吧？
+Well, before you go, meet me at the dock, 'kay?
+走之前先来码头见一面怎么样？
+Got something to say. Thanks.
+我有事跟你说。
+She hung up...
+挂断了...
+Lambert has some interesting choices of Pokemon.
+兰伯特有一些很有趣的精灵。
+His prized Riolu was a gift from Victoire, another gym leader. Sangfroid, he calls her.
+比如说另一位道馆馆主维克托送给他的那只利欧路，它的名字是“静静”。
+A beautiful name, in my opinion!
+真是个可爱的名字啊！
+I believe Lambert also has a Croagunk. Or.... two of them?
+除此之外，兰伯特还有一只...或者说两只不良蛙？
+I'm not sure, but I swear I saw a sparring match, where the two seemed identical...
+谁知道呢，反正我是看到过他拿出两只不良蛙的比赛...
+That was a fun game of hide and seek!
+真好玩，真好玩！
+I've learned that if I offer stolen goods to people, they'll let me do whatever I want!
+我明白了，只要把偷来的东西作为奖励，就能让别人听我的！
 You keen to take me up on my offer?
 要来一场对决吗？
 Understood.
@@ -9094,30 +9108,10 @@ As a fellow competitor, I have nothing to say but to congratulate you on your vi
 作为竞争对手，我只能祝贺你战胜兰伯特。
 I'll take this as the cue to go make my attempt as well. Wish me luck!
 我也会以此为契机，继续加油的！
-That was a fun game of hide and seek!
-真好玩，真好玩！
-I've learned that if I offer stolen goods to people, they'll let me do whatever I want!
-我明白了，只要把偷来的东西作为奖励，就能让别人听我的！
-Lambert has some interesting choices of Pokemon.
-兰伯特有一些很有趣的精灵。
-His prized Riolu was a gift from Victoire, another gym leader. Sangfroid, he calls her.
-比如说另一位道馆馆主维克托送给他的那只利欧路，它的名字是“静静”。
-A beautiful name, in my opinion!
-真是个可爱的名字啊！
-I believe Lambert also has a Croagunk. Or.... two of them?
-除此之外，兰伯特还有一只...或者说两只不良蛙？
-I'm not sure, but I swear I saw a sparring match, where the two seemed identical...
-谁知道呢，反正我是看到过他拿出两只不良蛙的比赛...
-As a fisher, you learn to pick up on small inconsistencies around you.
-作为一名合格的钓鱼佬，必须要着重锻炼自身的观察力。
-Take for example that bush behind me. I bet something's going on with it.
-就比如说后面那个草丛，我一眼就看出它不对劲！
-Would you look at that! Found yourself something nice.
-看吧！你找到东西了！
-Keep an eye out for those sort of things. Don't be afraid to poke around a bit.
-所以要学会眼观六路耳听八方，不要嫌累，嫌麻烦。
-You never know what you might find...
-谁知道下1次会找到些什么...
+You haven't completed what you need to on the island yet!
+先处理完这座岛上的事情再出发吧！
+Would you like to leave Casaba Villa and go to the Mainland?
+要离开甜瓜岛前往大陆吗？
 Oh, you just got a MasterDex? They're pretty neat.
 哦，你拿到大师图鉴了？
 Of all its features, the DexNav is my favorite.
@@ -9128,10 +9122,30 @@ Once you've caught one, you can also use it to find more of that same species!
 而且还能帮助我们捕捉更多已经抓过的精灵！
 Isn't technology amazing?
 这就是科技的力量！
-You haven't completed what you need to on the island yet!
-先处理完这座岛上的事情再出发吧！
-Would you like to leave Casaba Villa and go to the Mainland?
-要离开甜瓜岛前往大陆吗？
+As a fisher, you learn to pick up on small inconsistencies around you.
+作为一名合格的钓鱼佬，必须要着重锻炼自身的观察力。
+Take for example that bush behind me. I bet something's going on with it.
+就比如说后面那个草丛，我一眼就看出它不对劲！
+Would you look at that! Found yourself something nice.
+看吧！你找到东西了！
+Keep an eye out for those sort of things. Don't be afraid to poke around a bit.
+所以要学会眼观六路耳听八方，不要嫌累，嫌麻烦。
+You never know what you might find...
+谁知道下1次会找到些什么...
+Lambert, the gym leader, came running through here earlier.
+兰伯特馆主刚刚去西边了，
+He put a rock behind him to block it off, for some reason.
+而且还故意用石头堵住了路...谁知道他到底怎么想的。
+You need to get through?
+你要去海滩那边？
+Well...there's an abandoned tunnel up to the north.
+嗯...北边有1个废弃的隧道，
+You can probably find something to blow this rock up if you go there.
+那里或许能找到一些可以炸开这块石头的东西。
+Oh hey, you cleared out that rock!
+哦，你把石头处理掉了！
+Who knew explosives could be so useful?
+这炸药竟然这么猛？
 Oh, so it is you!
 哦，你来了！
 Forgive my doppelganger – a Ditto that stalks me incessantly, claiming to be the real deal.
@@ -9164,20 +9178,6 @@ I dare not leave her alone, claiming to be me, so off I go!
 我不可能放任另1个自身在外游荡，所以我必须跟上去！
 Fare you well, traveler!
 最后祝你好运，旅行者！
-Lambert, the gym leader, came running through here earlier.
-兰伯特馆主刚刚去西边了，
-He put a rock behind him to block it off, for some reason.
-而且还故意用石头堵住了路...谁知道他到底怎么想的。
-You need to get through?
-你要去海滩那边？
-Well...there's an abandoned tunnel up to the north.
-嗯...北边有1个废弃的隧道，
-You can probably find something to blow this rock up if you go there.
-那里或许能找到一些可以炸开这块石头的东西。
-Oh hey, you cleared out that rock!
-哦，你把石头处理掉了！
-Who knew explosives could be so useful?
-这炸药竟然这么猛？
 We'll see.
 走着瞧
 ...
@@ -11711,7 +11711,7 @@ A Durant swarm came through here the other day.
 No clue how—Durant don't live 'round these parts.
 不知道怎么搞的——杜兰特不生活在这一带。
 Had to catch all of 'em to stop 'em eatin' our crops.
-不得不把它们全部抓起来，防止它们吃掉我们的庄稼。
+不得不把它们全部抓起来，阻止它们吃掉我们的庄稼。
 Ya interested in takin' one?
 你有兴趣抓一只吗？
 I hope ya wouldn't mind giving me a Grass-type in return. Gotta regrow those crops, ya know.
@@ -12777,8 +12777,6 @@ You may have bested me in battle, but you'll still struggle against Noel.
 你的确战胜了我，但仍难与诺埃尔抗衡。
 Leave me be, you nincompoop.
 离我远点，你这个蠢货。
-It's a beautifully carved ice sculpture of an Alakazam.
-一座栩栩如生的胡地冰雕。
 Hey, sorry champ, but Noel's policy here is that everybody's gotta move through the gym counter-clockwise.
 嘿，抱歉了冠军，诺埃尔最新的规定是，每个人都必须顺时针穿过道馆。
 I'm assuming its got some artsy-fartsy reason.
@@ -12787,6 +12785,8 @@ So, come on over this way, yeah?
 过来这边，好吗？
 Yo.
 哼哼。
+It's a beautifully carved ice sculpture of an Alakazam.
+一座栩栩如生的胡地冰雕。
 Ugh.... nothing to do but crash at home, I guess.
 唉...除了在家里情绪崩溃，我好像什么都做不到。
 An inspiring battle, fit for feature in my next sculpture!
@@ -12807,6 +12807,8 @@ Cause, like...
 就好像...
 The ice...
 这冰雕...
+It's a beautifully carved ice sculpture of an Espeon.
+一座栩栩如生的太阳伊布冰雕。
 Noel is, in every sense of the word, and artist.
 诺艾尔在各种意义上都是一位艺术家。
 He'll come if you take out the Trainers here.
@@ -12815,8 +12817,14 @@ Wow! Top class art.
 哇！顶级的艺术水准。
 You bring your medium to a new level.
 你的创作水平成长到了新高度。
-It's a beautifully carved ice sculpture of an Espeon.
-一座栩栩如生的太阳伊布冰雕。
+Ugh, way to ruin the vibes.
+唉，真是破坏气氛。
+That was pretty cool, I guess.
+嗯，这很酷。
+You're just here for the badge right?
+你是来拿徽章的吧？
+Heh, poser.
+呵，装腔作势。
 You doing good? Down for a rematch?
 你做得不错嘛？要再来一场吗？
 How’re you? Holding up? Good.
@@ -12885,14 +12893,6 @@ Maybe it’s common for you, but for me… my life got a whole lot easier.
 也许对你来说很平常，但它改变了我...让我的生活轻松了很多。
 So chill. You deserve it.
 所以放轻松，这是你应得的。
-Ugh, way to ruin the vibes.
-唉，真是破坏气氛。
-That was pretty cool, I guess.
-嗯，这很酷。
-You're just here for the badge right?
-你是来拿徽章的吧？
-Heh, poser.
-呵，装腔作势。
 I sparkled and shone... but you much moreso.
 我熠熠生辉...但你更加耀眼。
 A rare defeat.
@@ -18009,16 +18009,8 @@ Good.
 Please, don't.
 不要
 [Map295]
-How'd you get in here?
-你怎么进来的？
-Doesn't matter. I came here to do some SICK TRICKS.
-无所谓了，反正我也打算炫一下技！
-I'll start with beating you!
-我会打败你！
-I was lookin' forward to hittin' some slopes. I'm gonna do that now.
-我一直想试试滑雪运动，现在终于有机会了。
-Great battling, kid. Don't think the rest of the family'll fold to you, though.
-很不错的实力，孩子，不过我不认为你能赢下我的家人。
+What do you think you're doing? You're on the wrong side here, go back!
+你在干什么？你走错边了，快回去！
 Great battling kid. Wonder if you can take on the rest of us thought.
 很不错的实力，孩子，要不要去挑战我的家人？
 I'm not a huge fan of the snow, but I agreed to come here.
@@ -18027,10 +18019,22 @@ It's only fair, since I chose last year's spot--sunny Alola.
 去年我做主去了阿罗拉，今年就该听其他人的愿望了。
 Life is about compromise.
 妥协才是生活的本质。
+How'd you get in here?
+你怎么进来的？
+Doesn't matter. I came here to do some SICK TRICKS.
+无所谓了，反正我也打算炫一下技！
+I'll start with beating you!
+我会打败你！
+I was lookin' forward to hittin' some slopes. I'm gonna do that now.
+我一直想试试滑雪运动，现在终于有机会了。
 Whew, you have me beat. I think I'll go for a run.
 哇，你打赢了，我要去跑步了。
+Great battling, kid. Don't think the rest of the family'll fold to you, though.
+很不错的实力，孩子，不过我不认为你能赢下我的家人。
 Well, you got me.
 好吧，你赢了。
+Look at you, phasing through the walls. Who are you, Danny Phantom?
+看看你，穿墙而过。你以为你是幻影丹尼吗？
 [Map296]
 [Map297]
 [Map298]
@@ -19990,14 +19994,6 @@ Congratulations, Champion!
 恭喜，新的冠军！
 Take a victory lap around the grounds, you deserve it.
 请尽请地享受和庆祝，这场来之不易的胜利吧。
-Hello.
-你好。
-I am here to watch my dear wife's matches on these large televisions.
-我来这里是为了在这些大屏幕的电视上观看我老伴比赛的。
-I hope they will be quite enjoyable!
-这种观感比在家里爽多了！
-\wmYou decide not to interrupt the couple while they are talking.
-\wm还是不要打扰他们老两口了。
 I have to nab one of those ultrawide TVs for myself.
 我想买一台超宽屏电视了。
 One Stop Tech probably has a few in stock. I picked up a few TMs from them earlier and they seem to have a good inventory.
@@ -20006,6 +20002,14 @@ Um, if you're champion now...
 呃...既然你都是冠军了...
 Could you buy me one of those TVs?
 能给我买一台这样的电视吗？
+Hello.
+你好。
+I am here to watch my dear wife's matches on these large televisions.
+我来这里是为了在这些大屏幕的电视上观看我老伴比赛的。
+I hope they will be quite enjoyable!
+这种观感比在家里爽多了！
+\wmYou decide not to interrupt the couple while they are talking.
+\wm还是不要打扰他们老两口了。
 A replay is playing of a match from the first round.
 这里正在重播第一轮的比赛。
 A Tyranitar can be seen dealing a major blow to a Toucannon.
@@ -21536,8 +21540,8 @@ I hope you enjoy yourself at our little soiree.
 我希望你在这个小聚会上玩得开心。
 Trainers should just learn to surf with their Pokemon, like they used to.
 训练师们应该学会跟他们的精灵们一起冲浪，就像以前那样。
-Me and my Feraligatr were quite the pair...
-我和我的大力鳄就是彼此最好的搭档...
+My Feraligatr and I were quite the pair...
+我的大力鳄和我曾经是相当出色的组合...
 Nasty business, that thing with the bridge. Good thing I have a boat...
 过不了桥可太难受了，还好我自身有艘船...
 This piece was sculpted by Noel, the Gym Leader on the eastern half of Prizca.
@@ -21577,7 +21581,7 @@ Thank you, let's get it traded.
 You trade over the Porygon. It enters the computer, and a buzzing sound is heard as a Shedinja flies out.
 你交换了多边兽。它进入电脑，随后一阵嗡嗡声响起，一只脱壳忍者飞了出来。
 You catch it to prevent it from causing any other trouble.
-你抓住了它，防止它再惹麻烦。
+你抓住了它，阻止它再惹麻烦。
 What the- it was actually a bug in there? Well damn, okay. You can keep it I guess, the computer is working perfectly.
 什么——里面真的有只虫子？好吧，该死。你可以留着它，电脑现在运行得很完美。
 Thank you for this!
@@ -21987,14 +21991,6 @@ You can also talk to the locals for advice.
 你也可以向当地人请教。
 We wish you the best of luck.
 我们祝你好运。
-You want a quick and easy start for a team?
-你想快速组建一支队伍吗？
-Try weathers. Set ‘em down, watch ‘em go.
-试试天气队。设置天气，然后看它们发挥。
-As long as you can manage keeping ‘em up for the match, you can bulldoze most unprepared teams.
-只要你能在比赛中保持天气效果，你就能碾压大多数没有准备的队伍。
-Plus, they give you an easy way to shut down the competition’s weathers – just override that sucker with your own.
-而且，它们还能让你轻松压制对手的天气——只需用你自身的天气覆盖它。
 Oh! This bush has a hidden switch.
 哦！这里面有个隐藏开关。
 Press the hidden switch?
@@ -22003,30 +21999,20 @@ You leave the hidden switch alone.
 你没有理会这个开关。
 You sense that a small hole has opened up somewhere!
 你能察觉到，某个地方出现了1个小洞！
+You want a quick and easy start for a team?
+你想快速组建一支队伍吗？
+Try weathers. Set ‘em down, watch ‘em go.
+试试天气队。设置天气，然后看它们发挥。
+As long as you can manage keeping ‘em up for the match, you can bulldoze most unprepared teams.
+只要你能在比赛中保持天气效果，你就能碾压大多数没有准备的队伍。
+Plus, they give you an easy way to shut down the competition’s weathers – just override that sucker with your own.
+而且，它们还能让你轻松压制对手的天气——只需用你自身的天气覆盖它。
 The Battle Monument
 对战纪念碑
 "The heroes of the past tower over us still."
 “过去的英雄依然屹立。”
 A small logo at the bottom right identifies Bogdan Concrete as the company hired for this project.
 从右下方的小标志可以得知，建设这里的公司是博登浇筑。
-The peeps on the TV are saying that the Avatar Crisis is over now.
-电视上的人说，化身危机现在已经结束了。
-I bet you ain't got much to spend your time on, therefore.
-我猜你现在没什么事可做了。
-Wanna just keep fighting me? I collected a ton of different Pokemon during this journey, so I have a lot of teams I want to try out.
-想继续和我对战吗？我在这次旅程中收集了很多不同的精灵，所以有很多队伍想试试。
-Ooh, to spice it up, I should switch to different teams between battles. A surprise every time!
-哦，为了增加趣味性，我应该在每场对战之间换不同的队伍。每次都有惊喜！
-Yeah, I really love the sound of that.
-是的，我真的很喜欢这个主意。
-Plus, I've stocked up on enough medicine at this point to afford healing up your team between bouts.
-而且，我现在已经储备了足够的药品，可以在每场对战之间治疗你的队伍。
-Lame.
-无聊。
-And here I put so much effort into preparing all these different parties...
-我还花了这么多精力准备这些不同的队伍......
-Let's get into it!
-让我们开始吧！
 Hey...
 嘿...
 Could I interest you in a Shiny Charm?
@@ -22047,6 +22033,24 @@ Which... it looks like you don't have.
 这...看起来你点数不够。
 Well, the offer stands.
 不过这提议依然有效。
+The peeps on the TV are saying that the Avatar Crisis is over now.
+电视上的人说，化身危机现在已经结束了。
+I bet you ain't got much to spend your time on, therefore.
+我猜你现在没什么事可做了。
+Wanna just keep fighting me? I collected a ton of different Pokemon during this journey, so I have a lot of teams I want to try out.
+想继续和我对战吗？我在这次旅程中收集了很多不同的精灵，所以有很多队伍想试试。
+Ooh, to spice it up, I should switch to different teams between battles. A surprise every time!
+哦，为了增加趣味性，我应该在每场对战之间换不同的队伍。每次都有惊喜！
+Yeah, I really love the sound of that.
+是的，我真的很喜欢这个主意。
+Plus, I've stocked up on enough medicine at this point to afford healing up your team between bouts.
+而且，我现在已经储备了足够的药品，可以在每场对战之间治疗你的队伍。
+Lame.
+无聊。
+And here I put so much effort into preparing all these different parties...
+我还花了这么多精力准备这些不同的队伍......
+Let's get into it!
+让我们开始吧！
 Pick your moves well! It’s not just about hitting hard.
 Pick your moves well! It’s not just about hitting hard.
 A momentum move like Volt Switch can get a fast Pokémon out before it gets hit or let a slow defensive one take a hit for an ally while switching.
@@ -28703,7 +28707,7 @@ The stalks of leeks are thicker and longer in the Galar region. Farfetch'd that 
 After deflecting attacks with its hard leaf shield, it strikes back with its sharp leek stalk. The leek stalk is both weapon and food.
 只有经历过无数战斗的大葱鸭才能进化成这个样子。当大葱枯萎了就会离开战场。
 By alternately raising and lowering its two heads, it balances itself to be more stable while running.
-2个脑袋从来不会同时睡眠。为了防止在睡眠时受到敌人袭击，所以它们会轮流望风。
+2个脑袋从来不会同时睡眠。为了阻止在睡眠时受到敌人袭击，所以它们会轮流望风。
 It collects data and plans three times as wisely, but it may think too much and fall into a state of immobility.
 3个脑袋朝着不同方向时，就是它在进行警戒的证明。不小心靠近的话就会被鸟嘴啄。
 Seel hunts in the frigid sea underneath sheets of ice. When it needs to breathe, it breaks through the ice with the sharply protruding section of its head.
@@ -28713,7 +28717,7 @@ It sunbathes on the beach after meals. The rise in its body temperature helps it
 Its main source of food is the slimy industrial waste of factories. This Pokémon's numbers have been decreasing in recent years.
 诞生于海底的污泥。在干净的地方，它就会因体内的细菌无法增长而死去。
 Their food sources have decreased, and their numbers have declined sharply. Sludge ponds are being built to prevent their extinction.
-食物变少数量也会急剧减小。为了防止它灭绝，人们开始了制造人工污泥池。
+食物变少数量也会急剧减小。为了阻止它灭绝，人们开始了制造人工污泥池。
 A Grimer, which had been brought in to solve a problem with garbage, developed over time into this form.
 为了解决垃圾问题，人们把它带到了阿罗拉。它能美美地吃光任何垃圾。
 The garbage it eats causes continuous chemical changes in its body, which produce its exceedingly vivid coloration.
@@ -29205,7 +29209,7 @@ It evolved after experiencing numerous fights. While crossing its arms, it lets 
 It lives among the tall grass and in forests. It repels attacks by raising up the spikes on its rear.
 会用尾部的刺剥开树皮，以渗出的树汁为食。有着吸盘的脚即使在玻璃上也不会打滑。
 It drinks dew that collects on its silk and waits for evolution. Its hard cocoon repels attacks.
-等待进化的时候，为了防止掉落，会将丝线缠在树枝上支撑身体。能从小洞观察外面的情况。
+等待进化的时候，为了阻止掉落，会将丝线缠在树枝上支撑身体。能从小洞观察外面的情况。
 It has an aggressive nature. It stabs prey with its long, narrow mouth to drain the prey's fluids.
 非常喜欢甜甜花粉的精灵。如果把开着花的花盆放在窗边，它就一定会飞过来采集花粉。
 It never forgets any attack it endured while in the cocoon. After evolution, it seeks payback.
@@ -29464,8 +29468,8 @@ Bagon is a solitary Pokémon that doesn't form groups with others of its kind. I
 每当见到飞在天空上的鸟精灵，它就会羡慕到用头槌把周围的东西砸得粉碎。
 Shelgon ignores its hunger entirely, never eating any food. Apparently, Shelgon will evolve once all its energy stores are used up.
 体内的细胞正处于千变万化的时期。坚硬的壳与骨头的成分相同。
-While basking in the joy of flight generally keeps this Pokémon in high spirits, Salamence turns into an uncontrollable menace if something angers it.
-因为不断强烈地祈求着，结果身体的细胞发生了突然变异。终于得到了心心念念的翅膀。
+While basking in the joy of flight generally keeps this Pokémon in high spirits, it turns into an uncontrollable menace if something angers it.
+飞行的喜悦通常会让这只精灵心情大好，但一旦被激怒，它就会变成无法控制的祸害。
 From its rear, Beldum emits a magnetic force that rapidly pulls opponents in. They get skewered on Beldum's sharp claws.
 如果把它惹恼，不仅会大闹一番，还会放出强大的磁力，所以会把机械类的东西都破坏掉。
 Using magnetic forces to stay aloft, this Pokémon flies at high speeds, weaving through harsh mountain terrain in pursuit of prey.
@@ -31764,8 +31768,6 @@ Cotton Guard
 棉花防守
 Cotton Spore
 棉孢子
-Drum Beating
-鼓击
 Energy Ball
 能量球
 Frenzy Plant
@@ -31932,6 +31934,8 @@ Skill Swap
 特性互换
 Trick
 戏法
+Trick Room
+戏法空间
 Zen Headbutt
 意念头槌
 Aurora Beam
@@ -32152,6 +32156,8 @@ Dazzle
 眩光
 Diffuse Pulse
 弥散脉冲
+Discombobulate
+迷惑
 Drainage
 排水
 Elemental Fang
@@ -32206,8 +32212,6 @@ Rough & Tumble
 崎岖翻滚
 Ruin
 毁灭之力
-Scheme
-密谋
 Season's End
 季末
 Shout
@@ -32856,6 +32860,8 @@ Head Throw
 头部抛投
 Holly Charm
 冬青符咒
+Kick Drum
+踢鼓
 Masquerblade
 化妆舞会
 Mistletoe
@@ -32864,6 +32870,8 @@ Mulch Meal
 吃腐叶
 Mystery Seed
 神秘种子
+Odd Bloom
+奇异之花
 Petal Tempest
 花瓣风暴
 Poison Ivy
@@ -32950,6 +32958,8 @@ Numb
 电荷
 Photon Edge
 光爪斩
+Polar Charge
+极光充电
 Quarantine
 隔离
 Rapid Hertz
@@ -33246,6 +33256,8 @@ Scam
 后发制人
 Scarring Swing
 创伤挥砍
+Scheme
+密谋
 Sever
 切裂
 Spiky Burst
@@ -33733,8 +33745,8 @@ The user attacks with a swift chop. It also breaks any screens protecting the ta
 将手刀猛烈地挥下攻击对手，还可以破坏目标的所有屏障类效果。
 The user tenses its muscles to bulk up, raising its Attack and Defense by two steps.
 使用者紧绷肌肉以增强体力，物攻和物防增加2级。
-The user fights the foe up close without guarding itself. This lowers the user Defense and Sp. Def by two steps.
-使用者不设防备地与对手近身搏斗。这会使使用者的双防减小2级。
+The user fights the foe up close without guarding itself. This lowers the user's Defense and Sp. Def by two steps.
+使用者与目标不设防的近身搏斗。物防和特防减小2级。
 The user coaches its ally Pokémon, raising their Attack and Defense by two steps.
 使用者指导其队友，队友的物攻和物防增加2级。
 A retaliation move that counters any physical attack, inflicting double the damage taken.
@@ -34023,8 +34035,8 @@ The user slashes with a sharp claw made from shadows. Can random critical hit.
 以影子做成的锐爪，劈开对手。容易命中要害。
 The user disappears, charging and becoming invulnerable, then strikes on the second turn. It hits even if the foe protects itself.
 第1回合消失进入无敌状态，下1回合攻击。可无视对手的保护。
-The user throws a punch from the shadows. The punch lands without fail.
-使用混影之拳。攻击必定会命中。
+The user throws a punch from the shadows. Lands without fail.
+使用者从暗影中出拳。攻击必定会命中。
 The user extends its shadow and attacks the target from behind. This move always goes first.
 伸长影子，从对手的背后进行攻击。
 The user hides in the target's shadow, steals the target's stat boosts, and then attacks.
@@ -34062,7 +34074,7 @@ The foe slams the target with its steel-hard head. It has a 40% chance to make t
 Protects the user from damage this turn. It also lowers the Attack of physical attackers by two steps.
 防住对手攻击的同时，自身变为防御姿态。大幅减小所使用物理类技能攻击自身的对手的物攻2级。
 The user focuses intensely. For the next three turns, its attacks will be guaranteed critical hits.
-使用者集中精力。在接下来的3回合中，其攻击将必定命中要害。
+使用者集中精力。在接下来的3回合中，其攻击将必定会命中要害。
 The user retaliates with much greater power against the target that last inflicted damage on it.
 使用技能前，将最后受到的技能的伤害大力返还给对手。
 The target is raked with steel claws. It has a 20% chance to raise Attack.
@@ -34133,8 +34145,8 @@ The user attacks everything by causing its own head to explode. The user also ta
 使用者通过让自身的头部爆炸来攻击一切。使用者也会承受50%的反害。
 The user attacks by breathing a special, hot fire. This also lowers the target's Sp. Atk stat by two steps.
 从口中喷出特别灼热的火焰进行攻击。大幅度减小对手的特攻。
-The user attacks the target at full power. Lowers the user's Sp. Atk by four steps.
-使用全部力量攻击对手。使用之后会因为反作用力，自身的特攻减小4级。
+The user attacks the target at full power. This lowers the user's Sp. Atk by four steps.
+使用者全力攻击目标。特攻减小4级。
 Attacks by igniting a small stone and launching it as a fiery ball.
 点燃小石子，形成火球攻击对手。
 The user rampages and attacks while spewing flames for two turns.
@@ -34145,8 +34157,8 @@ An inferno of scarlet flames torches everything around the user. It has a 30% ch
 用熊熊烈火攻击自身周围所有的精灵。30%概率让对手陷入烧伤状态。
 The user rigs its shell to explode. If hit by a foe's physical move, the shell detonates and hurts all near foes.
 使用者将外壳设置为爆炸装置。若被对手的物理类技能攻击，外壳会爆炸并伤害附近的所有对手。
-With a fiery forehead, the user hurls itself at the foe. Lowers the user's Defense, Sp. Def, and Speed by two steps.
-使用者用燃烧的额头向对手冲去，这会使使用者的双防和速度减小2级。
+With a fiery forehead, the user hurls itself at the foe. This lowers the user's Defense, Sp. Def, and Speed by two steps.
+使用者额头发热，向目标发起冲锋。物防、特防和速度减小2级。
 If the target's HP is half or less, this attack will hit with double the power.
 当对手的HP在一半以下时，技能威力会变成2倍。
 A spray of bubbles is jetted at the target. This has a 20% chance to lower their Speed.
@@ -34173,12 +34185,12 @@ The user cuts the foe with sharp shells. It has a 50% chance to lower Defense.
 用锐利的贝壳切斩对手进行攻击。有50%概率使对手的物防减小1级。
 The user shoots boiling hot water at its target. This has a 30% chance to burn.
 向对手喷射煮得翻滚的开水进行攻击。有30%概率让对手陷入烧伤状态。
-The user breaks its shell, lowering its Defense and Sp. Def by two steps but raising Attack, Sp. Atk and Speed by three steps.
-使用者打破其壳体，双防减小2级，但双攻和速度增加3级。
+The user breaks its shell. This raises the user's Attack, Sp. Atk and Speed by three steps, but lowers Defense and Sp. Def by two steps.
+使用者打破外壳。物攻、特攻和速度增加3级，但物防和特防减小2级。
 The target is struck with a supersonic water blast. Can random critical hit.
 目标被超音速水柱击中。可能随机命中要害。
-The user bursts into song, emitting many bubbles. Any burning Pokémon will be healed by these bubbles.
-使用者放声歌唱，释放出许多气泡。任何处于烧伤的精灵都会被这些气泡治愈。
+The user bursts into a bubbly song. Pokémon hit by this are cured of burn. Deals 50% less damage to allies.
+使用者唱起泡泡歌。被命中的精灵会回复烧伤。对队友造成的伤害减半。
 The user immerses the target in superheated steam. This has a 30% chance to burn.
 将滚烫的蒸汽喷向对手。有30%概率让对手烧伤。
 It swamps the area with a giant wave, hitting every battler nearby and underwater. Has a 10% chance to waterlog.
@@ -34209,8 +34221,6 @@ The user protects itself by wrapping its body in soft cotton, raising its Defens
 用软绵绵的绒毛包裹住自身的身体进行守护。增加自身的防御5级。
 The user releases cotton-like spores that cling to the foe, reducing their Speed by four steps.
 将棉花般柔软的孢子紧贴对手，从而减小对手的速度4级。
-The user controls the drum's roots to attack the target. This also lowers the target's Speed stat by two steps.
-用鼓点来控制鼓的根部进行攻击，从而大幅度减小对手的速度。
 The user attacks with the essence of life. It has a 20% chance to raise user's Sp. Atk.
 使用者用生命精华发起攻击。有20%的概率让使用者的特攻增加1级。
 The user slams the target with an enormous tree. The user is exhausted on the next turn.
@@ -34227,8 +34237,8 @@ The user attacks by pelting the target with leaves. Can random critical hit.
 将叶片打向对手，进行攻击。容易命中要害。
 The user handles a sharp leaf like a sword and attacks by slashing. Can random critical hit.
 像用剑一般操纵叶片切斩对手进行攻击。容易命中要害。
-A storm of sharp leaves is whipped up. Lowers the user's Sp. Atk by four steps.
-用尖尖的叶片向对手卷起风暴。使用之后因为反作用力自身的特攻减小4级。
+A storm of sharp leaves is whipped up. This lowers the user's Sp. Atk by four steps.
+让一阵锐利的叶子风暴席卷而来。特攻减小4级。
 A seed is planted on the target, causing it to become leeched.
 植入寄生种子后，让对手陷入寄生状态。
 The user scatters leaves that chase the target. Can't miss and skips protections.
@@ -34369,6 +34379,8 @@ The user employs its psychic power to exchange Abilities with the target.
 利用超能力互换自身和对手的特性。
 The user catches the target off guard and swaps its held item with its own.
 抓住对手的空隙，交换自身和对手的携带物。
+The user creates a bizarre area in which slower Pokémon get to move first for four turns.
+使用者开启一个奇异的区域。4回合内速度慢的精灵先行动。
 The user focuses its willpower to its head and attacks the foe. It has a 40% chance to make the target flinch.
 将思念的力量集中在前额进行攻击。40%的概率使对手畏缩。
 The target is hit with a rainbow-colored beam. It has a 30% chance to lower Attack.
@@ -34393,8 +34405,8 @@ Charges up, then on the second turn, an ultracold, freezing wind surrounds the f
 第1回合蓄力，下1回合用极寒冻风包围对手。30%概率造成烧伤。
 The user bites with cold-infused fangs. It has a 10% chance to flinch and a 10% chance to frostbite.
 用藏有冷气的牙齿咬住对手。10%概率使对手畏缩或陷入冻伤状态。
-The user swings and hits with its strong, heavy fist. Lowers the user's Speed by two steps.
-用强壮沉重的拳头挥舞击打。大幅度减小了自身的速度。
+The user swings and hits with its strong, heavy fist. This lowers the user's Speed by two steps.
+使用者用强壮而沉重的拳头挥击。速度减小2级。
 The target is punched with an icy fist. It has a 10% chance to frostbite.
 用充满寒气的拳头攻击对手。10%概率让对手陷入冻伤状态。
 The user flash freezes chunks of ice and hurls them at the target. This move always goes first.
@@ -34411,8 +34423,8 @@ The user raises all its stats by two steps, at the cost of 33% of its max HP.
 使用者的所有能力等级增加2级，但是HP减小最大HP的33%。
 If the target has already moved this turn, the effect of its Ability is negated.
 攻击时，若目标已经行动过，则消除对手特性效果。
-Comets are summoned down from the sky. Lowers the user's Sp. Atk by four steps.
-从天空中向对手落下陨石。使用之后因为反作用力，自身的特攻会减小4级。
+Comets are summoned down from the sky. This lowers the user's Sp. Atk by four steps.
+使用者召唤天上的彗星。特攻减小4级。
 The user exhales a mighty gust that inflicts damage. It has a 30% chance to numb.
 强烈的气息吹向对手进行攻击。30%概率让对手陷入麻痹状态。
 The user slashes the target with huge, sharp claws.
@@ -34541,8 +34553,8 @@ By locking down the battlefield, the user traps all Pokémon during the next tur
 通过封锁战场，使用者在下1回合会束缚所有精灵。
 The user stirs up a fairy wind and strikes the target with it.
 使用者掀起妖精之风并攻击目标。
-The user unleashes a strong beam. Lowers the user's Sp. Atk by four steps.
-放出强力光线后，自身的特攻会减小4级。
+The user unleashes a strong beam. This lowers the user's Sp. Atk by four steps.
+使用者释放强光。特攻减小4级。
 The user charges with energy and raises all of its stats by three steps on the next turn.
 积蓄能量，下1回合所有能力增加3级。
 Fires a powerful beam of light drawn from the Eternal Flower. The user also takes 50% recoil.
@@ -34587,6 +34599,8 @@ The user dazzles nearby foes with light. Their Sp. Atk is lowered by two steps.
 使用者以光芒眩惑周围敌人，使其特攻减小2级。
 The user shoots a pulse of diffuse energy at the target.
 向对手发射一束普通的能量。
+Alters the reality of the area to damage a foe. Puzzle Room is created for five turns.
+使用者改变区域的现实来伤害目标。开启5回合的迷惑空间。
 This attack inflicts double damage on a waterlogged foe. It also cures the target's waterlogging, however.
 这个攻击对处于进水状态的对手造成双倍伤害。不过，它也会治愈目标的浸水状态。
 The user chooses between Fire Fang, Thunder Fang, or Ice Fang to use this turn.
@@ -34639,8 +34653,6 @@ The user attacks by splaying its body wide. Its power doubles if Curl Up was use
 舒展身体进行攻击。如果之前使用了卷曲，则威力翻倍。
 The user brings down a ruinous power on the target. This has a 20% chance of lowering all the target's stats.
 向对手施加毁灭能量，伤害对手，有20%的概率使对手全部能力的能力等级减小1级。
-The user schemes to raise its Attack and Sp. Atk by two steps. During moonglow, also raises Speed by two steps.
-让自身的双攻增加2级。月辉天气时，还大幅度能增加速度。
 The user strikes while inviting the power of seasons. The user changes form to the next season.
 一边进行攻击，一边召唤季节的力量，并改变自身的形态。
 The user shouts with force at the target. This move always hits first.
@@ -34710,7 +34722,7 @@ The user shoots three arrows made of Aura with extreme precision. Can random cri
 The user manifests a bolt of pure courage. This has a 20% chance of raising the user's Sp. Atk.
 使用者凝聚出纯粹勇气的能量。有20%的概率使特攻增加1级。
 The user relentlessly rampages with its whip-like hands for two turns. Each hit will always be a critical hit.
-使用者用鞭子一样的手无情地连续2回合进行狂暴攻击。每次攻击必定命中要害。
+使用者用鞭子一样的手无情地连续2回合进行狂暴攻击。每次攻击必定会命中要害。
 The user kicks while rotating at high speed, dashing across the battlefield to deal damage to all nearby battlers.
 使用者高速旋转着踢击，横扫战场，对所有附近的精灵造成伤害。
 A reckless rushing attack from the air. The user also takes 25% recoil.
@@ -34728,7 +34740,7 @@ The user propels a gale-force wind at the target. It has a 10% chance to frostbi
 The user soars up high, charging and becoming invulnerable, then dive bombs the target on the second turn.
 第1回合升空蓄力进入无敌状态，下1回合俯冲突袭目标。
 The opponent is shredded by talons. This attack always results in a critical hit, but applies Jinx to the user.
-用利爪撕裂对手。这次攻击必定命中要害，但自身会陷入不幸。
+用利爪撕裂对手。这次攻击必定会命中要害，但自身会陷入不幸。
 The user sends a chilly wind towards the target. This has a 10% chance to frostbite.
 向对方吹出寒风，10%概率使其冻伤。
 A high pitched screech lowers the target's Defense, Sp. Def, and Evasion by three steps. Can't miss and skips protections.
@@ -34759,8 +34771,8 @@ The target is struck with large, imposing wings. The user also takes 20% recoil.
 大大地展开美丽的翅膀，将其撞向对手进行攻击。承受20%的反伤。
 The user lobs harsh acid at the target. It has a 20% chance to lower Sp. Def.
 使用者向目标投掷强酸。有20%的概率减小目标的特防。
-The user and target bathe in acid. Lowers the user's Defense and Sp. Def by two steps.
-将使用者和目标浸泡在酸液中，这会使使用者的双防减小2级。
+The user and target bathe in acid. This lowers the user's Defense and Sp. Def by two steps.
+使用者让自身和目标被酸液包围。物防和特防减小2级。
 The user infects the target with a touch and also destroys any Herbs it's holding.
 在触碰的过程中感染对方，并破坏其身上携带的香草类物品。
 The user strikes with an acidic punch that destroys Gems and Berries.
@@ -34809,8 +34821,8 @@ The user whips up a hot desert twister to attack the target. It has a 20% chance
 激起炽热的沙漠旋风攻击对手，20%概率使其烧伤。
 The user whips up dirt at supersonic speeds, damaging everything around it.
 搅动起一阵尘沙，对周围的一切造成伤害。
-The user cracks the earth under the target with a massive strike. Lowers the user's Attack by four steps.
-以强大的一击打破地面，重创对手。但会使自身的物攻减小4级。
+The user cracks the earth under the target with a massive strike. This lowers the user's Attack by four steps.
+使用者重击目标脚下的地面。物攻减小4级。
 Attacks by blasting dirt and debris at the target. This move always goes first in sandstorm.
 通过向目标喷射泥土和碎片进行攻击。
 The user stabilizes its stance. This raises its Attack, Sp. Def, and Accuracy by two steps.
@@ -34869,8 +34881,8 @@ The user weakens the target's bones, making them fracture. They deal 33% less da
 使用者削弱目标的骨骼，使其破碎。它们造成的伤害减小33%。
 The user harms the target with a pulse of power. Deals double damage if the user has used a gem this battle.
 使用者以力量脉冲伤害目标，若使用者已使用过宝石则造成双倍伤害。
-The user rushes into the target with its stony body. The user also takes 33% recoil.
-用岩石身躯冲撞目标。使用者承受33%反伤。
+The user rushes into the target with its stony body. The user also takes 25% recoil.
+使用者用石质身躯猛撞目标。自身受到25%的反伤。
 The user scratches the target with rough rocks. If in sandstorm, the target's Defense is lowered by three steps.
 用粗糙的岩石划伤对方，如果处于沙暴天气中，还会使对方的防御减小3级。
 The user slams the target into a nearby hard object. Increases power the higher the Defense of any ally.
@@ -34947,20 +34959,20 @@ The foe is stabbed once by each of the user's stingers.
 身上的每一根刺都会刺击对方1次。
 The user makes a plea for survival, halving the damage their side takes from non-attack sources for 8 turns.
 使我方队伍在8回合内受到的非攻击类伤害减半。
-The user prepares its weapons, raising Attack by six steps but lowering Speed by six steps.
-精心打磨自身的武器，增加自身的物攻6级，但是速度减小6级。
+The user prepares its weapons. This raises the user's Attack by six steps but lowers Speed by six steps.
+使用者准备武器。物攻增加6级，但速度减小6级。
 The user rakes the target with sharp claws.
 用锐利的爪子刮击对手。
 The user bites, claws, and stings the target while rolling. It has a 20% chance each to poison, waterlog, or leech.
 使用者在滚动时用咬、抓和刺攻击目标。每种异常——中毒、浸水或寄生——都有20%的概率发生。
 The target is plastered with irritating scales, damaging it and changing its type to Bug.
 身上覆盖刺激性鳞片，对其造成伤害，并将对方变为虫属性。
-The user sheds a huge volley of scales at the target. Lands without fail and lowers the user's Sp. Def and Speed.
-使用者向目标发射大量鳞片。攻击必定会命中，但是自身的特防和速度会减小1级。
-If the user is faster than the target, puts the target to sleep, then minimizes the user's Speed stat.
-若自身的速度高于对手，则会使对手陷入睡眠状态，并最小化自身的速度。
-The user stabs through the target using tremendous force. Lowers the user's Attack by four steps.
-使用者以巨大的力量刺穿目标。使用者的物攻会减小4级。
+The user sheds a huge volley of scales at the target. Lands without fail. This lowers the user's Sp. Def and Speed.
+使用者向目标抛洒大量鳞片。攻击必定会命中。特防和速度减小1级。
+If the user is faster than the target, puts the target to sleep, then minimizes the user's Speed.
+若使用者速度高于目标，使目标陷入睡眠，然后会使自身的速度最小化。
+The user stabs through the target using tremendous force. This lowers the user's Attack by four steps.
+使用者用巨力刺穿目标。物攻减小4级。
 Avenging bugs everywhere, the user crushes the target. It has a 20% chance to lower their Defense stat.
 为无处不在的虫子复仇，由20%概率使对手的物防减小1级。
 The user stabs the target, injecting a painful chemical. It has a 30% chance to poison.
@@ -34980,7 +34992,7 @@ Disables the target's last used move for four turns, then reduces a relevant sta
 The user attacks with bitter emotion. This lowers the target's Attack and Sp. Atk by two steps if in hail.
 使用者怀着痛苦的情感发动攻击，如果处于冰雹天气，这将使目标的双攻减小2级。
 The user causes a glitch in reality. This attack always results in a critical hit.
-对现实进行干扰，必定命中要害。
+对现实进行干扰，必定会命中要害。
 The user loses 25% of their max HP to curse the target, damaging their HP by 25% each turn.
 损失自身25%HP来诅咒对方，使其每回合损失25%HP。
 The user makes a dreadful bell noise, harming all near battlers with visions of impending doom.
@@ -35048,7 +35060,7 @@ Conductive materials ensnare the target, trapping and damaging it for three turn
 The user lays a hazard of sharp feathers around the foe. It hurts foes that switch into battle.
 使用者在对手周围放置锐利的羽毛陷阱。它会伤害替换进入战斗的对手。
 The user dislodges a blast of thin projectiles. This attack always results in a critical hit, but applies Fracture to the user.
-使用者发射一束细小的弹丸。这次攻击必定命中要害，但会使自身陷入破碎。
+使用者发射一束细小的弹丸。这次攻击必定会命中要害，但会使自身陷入破碎。
 The user uses explosive force to shoot shards of its own body at the target. The user loses 10% of its max HP.
 使用者用爆炸将自身的身体碎片射向目标。使用者失去最大HP的10%。
 The user curls its metal hair around the target, trapping and damaging it for three turns.
@@ -35133,8 +35145,8 @@ The user targets the opponents soft spots with a fiery strike. Its power doubles
 以烈焰打击对手的弱点。如果其处于烧伤状态，威力翻倍。
 Raises Sp. Atk by three steps. Until switch out, the user's attacks spread to hit all nearby foes.
 增加自身的特攻3级，在被替换下场前，所有技能都会波及到对方全部精灵。
-The user dances rapidly, emitting tropical heat. Any frostbitten Pokémon will be healed by this heat.
-进行快速的舞动，散发出热带能量，治愈所有精灵的冻伤。
+The user dances with great heat. Pokémon hit by this are cured of frostbite. Deals 50% less damage to allies.
+使用者跳起炽热之舞。被命中的精灵会回复冻伤。对队友造成的伤害减半。
 The user pauses to plan its ranged attacks. This raises its Sp. Atk, Sp. Def, and Accuracy by two steps.
 使用者暂停以规划远程攻击。特攻、特防和命中率增加2级。
 The user shoots the target with a small bolt of fire. This move always goes first.
@@ -35223,8 +35235,8 @@ Attacks with pressurized water. Deals 50% more damage if the user has been hurt 
 使用加压水枪进行攻击，如果此回合内被对方攻击过，则伤害增加50%。
 Summons rainstorm for six turns, boosting Water-type attacks and hindering most others.
 召唤持续6回合的暴雨，提升水属性攻击并阻碍大多数其他攻击。
-The user rams its sharp face right into the target. Lowers the user's Speed by three steps.
-将锐利的尖牙深深地扎向对手，但这会减小自身的速度3级。
+The user rams its sharp face right into the target. This lowers the user's Speed by three steps.
+使用者用锐利的面部猛撞目标。速度减小3级。
 The user crashes into the target on a ripping current. This waterlogs the target.
 使用者在撕裂的水流中撞击目标。这会使目标浸水。
 The user rips the target, lowering their Defense by two steps. After attacking, the user switches out.
@@ -35281,6 +35293,8 @@ Round objects are hurled at the target to strike three times in a row.
 向目标投掷圆形物体，连续攻击3次。
 The user attacks the target with the power of a warding charm. Super effective vs Ghost-types.
 使用辟邪符的力量攻击对手。对幽灵属性精灵效果拔群。
+The user keeps time for the team while attacking. Raises user's and allies' Speed and Accuracy. Counts as a Sound and Kick move.
+使用者在攻击时为队伍把握节奏。使自身和队友的速度与命中率增加1级。同时视为声音类和踢类技能。
 The user hides its blade. If hit by a foe's special move, it unsheathes it quickly, slashing all near foes.
 使用者先将刀刃隐藏起来。若被对手的特殊类技能攻击，会迅速拔刀砍击附近的所有对手。
 The user uses their feet to pierce the foe. This has a 10% chance of leeching the target.
@@ -35289,6 +35303,8 @@ The user eats decaying leaves, restoring its HP by 50% and raising its Speed.
 吞下腐烂的树叶，回复自身50%的HP并增加速度。
 The target eats a strange seed. They become numbed if faster than the user, or leeched if slower.
 让对手食用一颗奇怪的种子，如果其速度比自身快，它会麻痹，否则它会被寄生。
+Creates an odd flower to throw and damage a foe. Odd Room is created for five turns.
+使用者造出一朵奇异的花并投向目标。开启5回合的奇异空间。
 The user stirs up a violent petal tempest and attacks everything around it.
 挑起一场猛烈的花瓣风暴，攻击它周围的一切。
 The target is irritated by allergenic plants, poisoning it.
@@ -35349,8 +35365,8 @@ The user attacks with courage. Sets a Spikes hazard layer if Full. If Hangry, de
 使用者勇敢地发起攻击。如果状态为饱腹，则设置菱。如果状态为饥饿，则造成双倍伤害并变为暗属性。
 The user dances to restore an ally by half of their max HP. They're cured of any non-volatile status conditions.
 通过舞蹈为队友回复50%的最大HP，并回复异常状态。
-Deals 50% more damage if faster than the target. Lowers the user's Speed.
-如果自身速度快于对手，则威力增加50%。但使用后会减小自身的速度。
+Deals 50% more damage if faster than the target. This lowers the user's Speed.
+若速度高于目标，伤害增加50%。速度减小1级。
 The target is pranked by an electric jolt. They are taunted and unable to use status moves for three turns.
 对手受到恶作剧电击，使其受到挑衅效果，在3回合内无法使用变化类技能。
 The user strikes the enemy while coated with electricity. It has a 10% chance to numb.
@@ -35364,7 +35380,7 @@ The user slams down into the target with electricity. It has a 10% chance to num
 The user lays an electrical hazard which hurts foes that switch into battle. It deals double damage in rainstorm.
 使用者布置1个带电陷阱，对替换入场的敌方造成伤害。在暴雨天气中伤害翻倍。
 The user dances to encourage its ally. Their attacks this turn will be critical hits.
-跳起舞蹈鼓励队友，使其此回合的攻击必定命中要害。
+跳起舞蹈鼓励队友，使其此回合的攻击必定会命中要害。
 Cloaking itself in light energy, the user shocks the target, raising the user's Sp. Def by two steps.
 将自身隐藏在光能中，并用震荡波攻击对方，同时大幅度增加自身的特防。
 The user finds the highest base power move among your able party members, and uses it.
@@ -35373,6 +35389,8 @@ A weak electric jolt is launched to numb the target.
 释放微弱电流，使对手麻痹。
 The user slices with claws of light that have a 50% chance to numb. Can random critical hit.
 利用光之爪进行斩击，50%概率使对手麻痹。容易命中要害。
+Sends a pulse to flip the charges of those nearby to damage a foe. Polarized Room is created for five turns.
+使用者发出脉冲反转周围的电荷来攻击目标。开启5回合的极化空间。
 Protects the user's side from status moves this turn. It disables any moves blocked for three turns.
 保护自身和队友此回合免疫变化类技能，此回合阻挡成功的技能，将在3回合内无法使用。
 The target is struck with an electric current and multi-hit two to five times. Has a 10% chance to numb.
@@ -35433,8 +35451,8 @@ The user conjures a giant fist to crush the target, trapping and damaging it for
 召唤出巨大的拳头来碾压对手，将其束缚并在接下来的3回合内受到伤害。
 The user grabs the target with a conjured hand, trapping and damaging it for three turns.
 用召唤出的手抓住对手，将其束缚并在接下来的3回合内受到伤害。
-The user psychically alters the target's brain to forget. This move disables the target's last move.
-使用者通过心灵感应改变目标的大脑使其遗忘。此技能将禁用目标的上1个技能。
+The user psychically alters the target's brain to forget. This move disables the target's last move for 5 turns.
+使用者以心灵之力改变目标大脑使其遗忘。使目标最后使用的技能无法使用5回合。
 The user syncs its mind with its teammates, raising its Sp. Atk by three steps, and its allies' by one.
 使用者与队友同步思维，自身的特攻增加3级，其队友的特攻增加1级。
 The target is hit by a weak telekinetic force. It has a 20% chance to lower the target's Sp. Def.
@@ -35443,8 +35461,8 @@ The user spends 50% HP to create a Substitute. If successful, the user's Speed i
 使用者消耗50%的HP来制造1个替身。如果成功，使用者的速度将增加4级。
 The user creates an odd area for eight turns in which Pokémon's offensive and defensive stats are swapped.
 使用者创造出1个持续8回合的离奇空间，在这个空间中，精灵的物攻和物防、特攻和特防会互换。
-Lands without fail and lowers the user's Defense and Speed.
-必定命中对手，但会使自身的物防和速度减小1级。
+The user perfectly predicts the target's future location, then strikes. Lands without fail. This lowers the user's Defense and Speed.
+使用者精准预判目标的未来位置后攻击。攻击必定会命中。物防和速度减小1级。
 This move raises all the user's stats by two steps. Can only be used while asleep.
 增加自身的所有能力值，但只能在睡眠中使用。
 The user employs hypnotic suggestion to make a dizzy target fall into a deep sleep.
@@ -35454,7 +35472,7 @@ Unveiling its ears, the released psychic power causes the user to rampage and mu
 Psychic energy assaults the foe and darkens the sky, summoning eclipse for 8 turns.
 用精神能量攻击对手，使天空变暗，并召唤持续8个回合的日食。
 Pierces the mind of the target, inflicting doubt in their abilities, guaranteeing a critical hit on foes with boosted stats.
-穿透目标的心智，在其能力上制造怀疑，对有能力等级增加的目标必定命中要害。
+穿透目标的心智，在其能力上制造怀疑，对有能力等级增加的目标必定会命中要害。
 After making its attack to the targets psyche, the user teleports back to switch places with a party Pokémon.
 对目标的心智发动攻击后，使用者进行传送，与队伍中的精灵交换位置。
 The user overloads its mind to rampage for two turns.
@@ -35511,8 +35529,8 @@ The user freezes the target in place, dealing damage and minimizing their Speed 
 使用者将目标冻结在原地，造成伤害并使其速度和回避率的能力等级最小化。
 For the rest of the round, the target's healing is reversed.
 在本回合剩余时间内，目标的恢复效果反转。
-The user picks up an iceberg and slams it into the target. Lowers the user's Attack by four steps.
-抬起一座冰山并撞向对方，但会减小自身物攻4级。
+The user picks up an iceberg and slams it into the target. This lowers the user's Attack by four steps.
+使用者抓起冰山撞向目标。物攻减小4级。
 The user slashes the target with ice like a sword. It has a 30% chance to lower Defense.
 像用剑一样挥动冰刃斩向对手，有30%概率使对手的物防减小1级。
 Protects the user from attacks. Also frostbites any attacker who physically attacks the user.
@@ -35531,8 +35549,8 @@ Two turns after this move is used, extreme winter cold attacks the target.
 在两回合后，极寒之气将席卷对手。
 The user throws an exploding package at enemies, or one filled with healing treats at allies.
 向对手投掷爆炸包裹，或者向队友投掷治疗包裹。
-The user sheds excess covering, raising Sp. Atk and Speed by three steps, but lowering Sp. Def by two steps.
-褪去羽毛，大幅度减小自身特防，但特攻和速度增加3级。
+The user sheds excess covering. This raises the user's Sp. Atk and Speed by three steps, but lowers Sp. Def by two steps.
+使用者褪去多余覆盖物。特攻和速度增加3级，但特防减小2级。
 The user raises their Attack and Defense by two steps, and Speed by one step.
 有节奏地颤抖，自身的物攻、物防增加2级，速度增加1级。
 The user flips, flaps, fumbles, then flounders. It becomes more powerful the less HP the user has.
@@ -35605,8 +35623,8 @@ The user removes the energy and light around the target. Super effective vs Elec
 移除对手周围的能量和光芒。对电属性精灵效果拔群。
 This attack deals 50% more damage if the target has any raised or lowered stat steps.
 如果目标有任何增加或减小的能力等级，此攻击伤害增加50%。
-The user sacrifices their ally to cover all near foes in total darkness. They become drowsy.
-使用者牺牲自身的队友，将所有附近的敌人笼罩在完全的黑暗中，使它们陷入瞌睡。
+The user sacrifices their ally to cover all near foes in total darkness, making them drowsy. Fails if the user has no ally.
+使用者牺牲队友将附近目标笼罩在黑暗中使其陷入瞌睡。若没有队友则失败。
 Deftly sets a hazard layer of damaging Spikes around the foe, then switches out.
 巧妙地在对手周围设置一层菱，然后替换出去。
 If the target is the last able member of their party, this attack's power is doubled.
@@ -35637,8 +35655,8 @@ A punch that inflicts double the damage if the user has been hurt by the foe in 
 如果自身在同1回合中被对手伤害，那么这一拳会造成双倍的伤害。
 For the rest of the round, the healing of all damaged Pokémon is reversed.
 在本回合剩余时间内，所有受过伤的精灵的恢复效果反转。
-The user prepares a precise cut. Always a critical hit, but lowers the user's Speed.
-进行1次精准的攻击，必定会命中要害，但也会使自身的速度减小1级。
+The user prepares a precise cut. Always a critical hit. This lowers the user's Speed.
+使用者使用1次精准斩击。必定会命中要害。速度减小1级。
 The target is dragged viciously through water. This has a 30% chance to waterlog.
 目标被凶狠地拖过水面。有30%的概率使目标浸水。
 The user emits a wave of anxious feelings which overwhelms all nearby Pokémon, taking 50% recoil.
@@ -35659,12 +35677,14 @@ The user entangles the target's mind with dark thoughts, leeching it.
 使对手的思维被邪恶念头所缠绕，同时让其陷入寄生状态。
 The user invades deep into the target's mind, leeching it.
 深深侵入对手的大脑并造成寄生。
-The user demands tribute from the target. Money is earned after the battle.
-使用者向目标索要贡品。战斗结束后获得金钱。
+The user demands tribute from the target. Money is earned after the battle. This deals double damage and makes double the money if the target has a non-volatile status condition.
+使用者向目标索取贡品。战斗后获得金钱。若目标有稳定性异常状态，伤害和金钱翻倍。
 The user steals the target's stat boosts, and then attacks. Goes last.
 先偷取对手增加的能力等级，然后攻击。
 The user slashes all around them, creating deep scars. This lowers each target's Attack.
 在对方周围砍来砍去，留下深深的伤疤。使对方全部精灵的物攻减小1级。
+The user schemes to raise its Attack and Sp. Atk by two steps. During moonglow, also raises Speed by two steps.
+让自身的双攻增加2级。月辉天气时，还大幅度能增加速度。
 The user hacks at the target with great violence. Can random critical hit.
 猛烈地砍击对手，容易命中要害。
 Explodes, dealing an extra 30 base power to all foes for each Spikes hazard layer underneath them. The user faints.
@@ -35713,16 +35733,16 @@ The user flashes colorful light to damage the target. This move always goes firs
 使用闪烁的七彩光芒攻击对手。
 The user chucks a party favor which explodes in the target's face.
 扔出派对小礼物，使其在对方脸上爆炸。
-Power increases by 20 each time it's used in succession. User heals for half of damage dealt.
-每次连续使用威力都会增加20。同时回复自身造成伤害的一半HP。
+Makes everyone's hearts beat together. Others can join in the Round and make the attack do greater damage.
+让所有人的心跳同步。其他精灵可加入轮唱，使伤害获得增加。
 The user uses honey to fully restore their HP. However, this lures swarming insects, trapping and damaging the user for three turns.
 使用蜂蜜完全恢复自身的HP，但同时会引诱成群的昆虫，使自身3回合内无法交换，且受到伤害。
 The user attempts to humble the target, guaranteeing a critical hit on foes with boosted stats.
-先礼后兵，对增加能力的精灵必定命中要害。
+先礼后兵，对增加能力的精灵必定会命中要害。
 The user hopes for bad luck, jinxing the target. Attacks against them crit and pierce protection.
 使用者祈求厄运，使目标陷入不幸。对目标的攻击会命中要害并穿透保护。
-The user wields an exaggerated power to strike the target. Lowers the user's Attack by four steps.
-施展极其强大的力量打击对手。而自身的攻击会减小4级。
+The user wields an exaggerated power to strike the target. This lowers the user's Attack by four steps.
+使用者以夸张的力量攻击目标。物攻减小4级。
 The target is taunted by a deceptive look. It can't use status moves this or next turn. This move always goes first.
 利用欺骗眼神挑衅对手，使其本回合和下回合无法使用变化类技能。
 The user leeches the target, then welcomes in moonglow for eight turns.
@@ -35772,171 +35792,171 @@ Two turns after this move is used, the target is struck by a well-planned attack
 The user attacks with simple determination and rampages for two turns.
 以纯粹意志狂暴攻击，持续2回合。
 The target is attacked with a slash of claws or blades, always critting.
-用爪子或镰刀等劈开对手进行攻击。必定命中要害。
-The user gleams with light, lowering each foe's Sp. Atk by two steps and raising its own Sp. Atk by two steps.
-自身闪烁光芒，大幅度减小所有对手特攻，并大幅度增加自身的特攻。
+用爪子或镰刀等劈开对手进行攻击。必定会命中要害。
+The user gleams with light. This lowers each foe's Sp. Atk by two steps and raises its own Sp. Atk by two steps.
+使用者闪耀光芒。使每个目标的特攻减小2级，自身的特攻增加2级。
 The user prepares to defend itself. It'll survive the next three hits which would faint it.
 专心保护自身，接下来3回合内不会倒下。
-The user growls fiercly, lowering each foe's Attack by two steps and raising its own Attack by two steps.
-发出凶猛的咆哮，使全部对手的物攻减小2级，自身的物攻增加2级。
+The user growls fiercly. This lowers each foe's Attack by two steps and raises its own Attack by two steps.
+使用者发出凶猛的咆哮。使每个目标的物攻减小2级，自身的物攻增加2级。
 The user copies and gains the first ability of each foe.
 使用者复制并获得每个敌方的第1个特性。
 The user is roused, giving it the ability to use an extra move each turn.
 使用者被唤醒，每回合可多使用1次技能。
-The user yawns, making all near foes drowsy. They'll fall asleep at end of turn next.
-打1个大大的哈欠，使靠近的对手在下1回合睡眠。
-The user attacks with a swift chop, destroying barriers, and reducing the target's defense by five steps.
-以迅雷不及掩耳之势进行攻击，破坏对方的保护类效果，并使其物防减小5级。
-The user boosts its Attack and Defense, gains a lot of weight, and becomes Fighting-type.
-使自身的攻击和物防增加1级，大幅度增加自身的体重，并使自身变为格斗属性。
-The user raises their Speed by 4 steps, quadruples their critical hit chance, and becomes Fighting-type.
-增加自身速度4级，自身命中要害的概率增加四倍，并使自身变为格斗属性。
-The user takes 50% less attack damage for 3 turns, and becomes Fighting-type.
-3回合内受到的攻击伤害减小50%，并使自身变为格斗属性。
-The user summons an allied Tyrogue, raises the Defense of itself and its allies by 2 steps, and becomes Fighting-type.
-使用者召唤1个盟友巴尔郎，并且增加自身和队友的物防两级，然后变为格斗属性。
+The user yawns, making all near foes drowsy. They'll fall asleep at the end of the next turn.
+使用者打哈欠，使附近目标陷入瞌睡。
+The user attacks with a swift chop, destroying barriers. This lowers the target's Defense by five steps.
+使用者以迅捷的斩击破坏屏障类效果。使目标的物防减小5级。
+The user raises its Attack and Defense by two steps, gains a lot of weight. User becomes Fighting-type.
+使用者物攻和物防增加2级，体重增加。变为格斗属性。
+The user raises its Speed by two steps and quadruples its critical hit chance. User becomes Fighting-type.
+使用者的速度增加2级，命中要害率翻4倍。变为格斗属性。
+The user takes 50% less attack damage for 3 turns. User becomes Fighting-type.
+使用者3回合内受到的攻击伤害减小50%。变为格斗属性。
+The user summons an allied Tyrogue. This raises its Defense by three steps, and its allies' by one. User becomes Fighting-type.
+使用者召唤队友巴尔郎。自身的物防增加3级，队友的物防增加1级。变为格斗属性。
 The user tucks in its wings and charges from a low altitude. The user also takes 33% recoil.
 收拢翅膀，通过低空飞行突击对手。自身也会受到33%伤害。
 The user sets a powerful tailwind for 6 turns, which also increases move damage by 30%. User becomes Flying-type.
 开启持续6回合的强力顺风，该顺风会使技能的威力增加30%。自身变为飞行属性。
-All near foes are forced to switch out, and the user becomes Flying-type.
-使所有靠近自身的对手换出，并使自身变为飞行属性。
+All near foes are forced to switch out. User becomes Flying-type.
+使用者迫使所有附近的目标退场。变为飞行属性。
 A move that only the avatar of Rayquaza can use. All enemies struck lose their flinch immunity.
 只有烈空坐化身才可以使用的技能，所有被击中的对手都将失去畏缩免疫的效果。
 The user slashes all near foes with with poisonous blades or edges. Will be critical against poisoned targets.
-使用含有剧毒的刀刃砍击附近所有对手，对已经中毒的目标必定命中要害。
+使用含有剧毒的刀刃砍击附近所有对手，对已经中毒的目标必定会命中要害。
 It swamps the area around the user with a giant sludge wave, poisoning everyone struck.
 使用大量的污泥淹没周围的区域，使所有被击中的对手中毒。
-The user sets Grey Mist for 8 turns, gives themselves a Black Sludge, and becomes Poison-type.
-使用者设置灰雾持续8回合，给自身1个黑色污泥，并变成毒属性。
-A cloud of poison gas is sprayed at all nearby foes, poisoning them. User becomes a Poison-type.
-向附近所有对手喷射毒气云，使其中毒，并使自身变为毒属性。
-The user lays 2 hazard layers of poisonous spikes at the foe's feet, and becomes Poison-type.
-在对手场地铺设2层毒菱，自身变为毒属性。
-The user intensifies gravity for five turns, damages all enemies for 1/4th of their max HP, and becomes Ground-type.
-增加5回合内的重力，对所有对手造成25%最大HP的伤害，并使自身变为地面属性。
-The user restores 1/8th of its HP, but begins eroding. At the end of each turn, its Defense and Sp. Def are lowered and its Attack and Sp. Atk are raised. User becomes Ground-type.
-回复1/8HP，每回合结束时，双防减小1级，双攻增加1级，自身变为地面属性。
-The user lays 3 hazard layers of spikes at the foe's feet, and becomes Ground-type.
-在对手场地铺设3层隐型岩，自身变为地面属性。
+The user sets Grey Mist for 8 turns and gives themselves a Black Sludge. User becomes Poison-type.
+使用者开启持续8回合的灰雾，并给自身一个黑色污泥。变为毒属性。
+A cloud of poison gas is sprayed at all nearby foes, poisoning them. User becomes Poison-type.
+向所有附近目标喷洒毒气云使其中毒。变为毒属性。
+The user lays 2 hazard layers of poison spikes on the foe's side. User becomes Poison-type.
+在目标场上设置2层毒菱。变为毒属性。
+The user intensifies Gravity for five turns and damages all enemies for 1/4th of their max HP. User becomes Ground-type.
+在5回合内使重力增强，并使所有目标受到其最大HP四分之一的伤害。变为地面属性。
+The user restores 1/8th of its HP. Raises its attacking-, but lowers defensive stats at the end of each turn. User becomes Ground-type.
+恢复自身HP的八分之一。每回合结束时，双攻增加1级，双防减小1级。变为地面属性。
+The user lays 3 hazard layers of Spikes on the foe's side. User becomes Ground-type.
+在目标场上设置3层菱。变为地面属性。
 A move that only the avatar of Groudon can use. Gravity is intensified for the rest of the battle.
 只有固拉多的化身才能使用的技能。本场战斗的重力增强。
 The user attacks with a prehistoric power which raises all its stats.
 使用史前之力进行攻击，并使自身全部能力的能力等级增加1级。
 The user attacks with a sparkling gem-like ray, dizzying the target.
 使用闪闪发光的宝石射线攻击对手，并使其混乱。
-Boulders are hurled at all near enemies, harshly lowering their Speed by preventing their movement.
-向所有靠近的对手投掷巨石，通过阻止它们的行动来大幅度减小其速度。
-The user raises its Speed by six steps, gains a Rock Gem, and becomes Rock-type.
-速度增加6级，获得岩石宝石，自身变为岩石属性。
-The user summons a sandstorm for 5 turns, boosts its Def. and Sp. Def, and becomes Rock-type.
-召唤持续5回合的沙暴，自身的双防增加1级，并使自身变为岩石属性。
-The user restores 1/8th of its HP, summons an allied Combee, and becomes Bug-type.
-使用者恢复自身1/8的HP，召唤一只队友的蜂女王，并变为虫属性。
-The user sharply boosts their Sp. Atk, Sp. Def, and Speed, and becomes Bug-type.
-增加自身的特攻、特防和速度，并使自身变为虫属性。
-Nearby foes are bound with silk, sharply lowering their Speed, Atk., and Sp. Atk User also becomes Bug-type.
-用丝线捆绑附近的对手，大幅度减小其速度、双攻，并使自身变为虫属性。
-The user applies a damaging curse to all nearby foes. User becomes a Ghost-type.
-诅咒附近的所有对手，并使自身变为幽灵属性。
+Boulders are hurled at all near enemies, preventing their movement. This lowers their Speed by four steps.
+将巨石投向所有附近目标，阻止其行动，并使目标的速度减小4级。
+The user raises its Speed by six steps and gains a Rock Gem. User becomes Rock-type.
+使用者的速度增加6级，并获得岩石宝石。变为岩石属性。
+The user summons sandstorm for five turns. This raises its Defense and Sp. Def. User becomes Rock-type.
+开启持续5回合的沙暴。物防和特防增加1级。变为岩石属性。
+The user restores 1/8th of its HP and summons an allied Combee. User becomes Bug-type.
+恢复自身HP的八分之一，并召唤三蜜蜂。变为虫属性。
+The user raises its Sp. Atk, Sp. Def, and Speed by two steps. User becomes Bug-type.
+使用者特攻、特防和速度增加2级。变为虫属性。
+Nearby foes are bound with silk. This lowers their Attack, Sp. Atk and Speed by two steps. User becomes Bug-type.
+捆绑附近的目标。使目标的物攻、特攻和速度减小2级。变为虫属性。
+The user applies a damaging curse to all nearby foes. User becomes Ghost-type.
+使用者对所有附近的目标施加伤害诅咒。变为幽灵属性。
 Attackers against the user suffer recoil for the rest of the battle. User becomes Ghost-type.
 对使用者发动攻击的精灵在接下来的战斗中会受到反噬伤害。使用者变为幽灵属性。
 The user strikes the target with 3 punches like bullets. This move always goes first.
 连续三拳像子弹一样打向对手。
-The target is raked with steel claws twice. The user raises its attack after each hit.
-使用钢爪攻击对手2次，每次命中都会增加自身攻击。
-The target is obliterated by a meteoric strike, which raises the user's attack by two steps.
-使用流星一击湮没对手，并大幅度增加自身攻击。
-The user sharply boosts its Defense, gains the ability Filter, and becomes Steel-type.
-自身的物防增加2级，同时将特性变为过滤，并使自身变为钢属性。
-The user focuses intently, making every future attack critical. The user becomes a Steel-type.
-全神贯注，使自身所有攻击都可以命中要害，同时使自身变为钢属性。
-The user creates a Polarized Room for 8 turns, raises its Defense and Sp. Def, and becomes Steel-type.
-开启持续8回合的极化空间，双防增加1级，自身变为钢属性。
-The user raises their Attack by four steps and becomes Steel-type.
-增加自身物攻4级，并使自身变为钢属性。
+The target is raked with steel claws twice. This raises the user's Attack after each hit.
+使目标被钢爪撕裂2次。每次命中后使用者的物攻增加1级。
+The target is obliterated by a meteoric strike. This raises the user's Attack by two steps.
+使用陨石撞击消灭目标。使用者的攻击增加2级。
+The user raises its Defense by four steps and gains the ability Filter. User becomes Steel-type.
+使用者的物防增加4级，并获得过滤特性。变为钢属性。
+The user focuses intently, making every future attack critical. User becomes Steel-type.
+使用者专注集中，使之后的每次攻击都必定会命中要害。变为钢属性。
+The user creates a Polarized Room for eight turns. This raises its Defense and Sp. Def. User becomes Steel-type.
+使用者开启持续8回合的极化空间。物防和特防增加1级。变为钢属性。
+A frenetic dance to uplift the fighting spirit. This raises the user's Attack by four steps. User becomes Steel-type.
+使用狂热的舞蹈振奋战斗精神。物攻增加4级。变为钢属性。
 The user cloaks itself in fire and charges at the foe, burning it. The user also takes 33% recoil.
 将自身包裹在火焰中，冲向对手并用火焰燃烧它，但自身会受到33%的反伤。
-The user attacks by breathing a special, hot fire. This lowers the target's Sp. Atk stat by six steps.
-通过呼出特殊的高温火焰攻击对手，并减小其特攻6级。
-The user lays 2 hazard layers of flaming spikes at the foe's feet, and becomes Fire-type.
-在对手场地铺设2层焰菱，自身变为火属性。
-The user inflicts burns on all nearby foes. User becomes a Fire-type.
-使附近的所有对手烧伤，并使自身变为火属性。
-The user summons sunshine for 5 turns, boosts its Atk. and Sp. Atk, and becomes Fire-type.
-召唤持续5回合的晴天，增加自身的双攻，并使自身变为火属性。
-A spray of bubbles is forcefully ejected at all nearby foes, lowering their Speed by 3 steps.
-一股气泡强力喷射向所有附近的敌方，使其速度减小3级。
+The user attacks by breathing a special, hot fire. This lowers the target's Sp. Atk by six steps.
+使用者通过喷出特殊的炽热火焰进行攻击。目标的特攻减小6级。
+The user lays 2 hazard layers of burning spikes on the foe's side. User becomes Fire-type.
+在目标场上设置2层焰菱。变为火属性。
+The user inflicts burns on all nearby foes. User becomes Fire-type.
+使所有附近的目标烧伤。变为火属性。
+The user summons sunshine for five turns. This raises its Attack and Sp. Atk. User becomes Fire-type.
+开启持续5回合的晴天。双攻增加1级。变为火属性。
+A spray of bubbles is forcefully ejected at all nearby foes. This lowers their Speed by 3 steps.
+向所有附近的目标强力喷射气泡。使目标的速度减小3级。
 It swamps the area with a giant wave, hitting every battler nearby and underwater.
 利用大浪攻击自身周围所有的精灵。
 The user TODO, boosts its Atk. and Sp. Def, and becomes a Water-type.
 增加自身的攻击和特防，并使自身变为水属性。
-The user summons rainstorm for 5 turns, surrounds itself with healing water, and becomes Water-type.
-召唤持续5回合的雨天，同时给自身1个水流环，并使自身变为水属性。
-The user inflicts waterlog on all nearby foes. User becomes a Water-type.
-使用者使所有附近的敌方浸水。使用者变为水属性。
+The user summons rainstorm for five turns and surrounds itself with Aqua Ring. User becomes Water-type.
+开启持续5回合雨天，并让自身被水流环包围。变为水属性。
+The user inflicts waterlog on all nearby foes. User becomes Water-type.
+使所有附近的目标陷入浸水。变为水属性。
 A move that only the avatar of Kyogre can use. The user commands a Luvdisc avatar and a Remoraid avatar to join it.
 只有盖欧卡化身才可以使用的技能，召唤1个爱心鱼化身和1个铁炮鱼化身协助作战。
 The user forcefully shoots 6 seeds in rapid succession, spread among nearby enemies.
 连续射出六粒种子，并散播给附近的对手。
 A nutrient-draining attack. The user's HP is restored by all the damage taken by the target.
 一种吸取养分的攻击。使用者的HP通过目标所受到的全部伤害得到恢复。
-A two-turn attack. The user gathers light, then blasts all near foes on the second turn.
-第1回合凝聚光能，并在第2回合轰击所有附近的对手。
-The user embeds its roots to heal by 1/4th every turn for four turns, and becomes Grass-type.
-深深扎根，4回合内每回合恢复自身1/4HP，并使自身变为草属性。
-Plants seeds on all near foes, draining HP each turn. User becomes Grass-type.
-给附近的所有对手种上种子，每回合恢复HP，并使自身变为草属性。
-The user scatters bursts of spores to induce sleep on all foes, and then becomes Grass-type.
-使用者散播孢子爆发使所有敌人陷入睡眠，然后变成草系。
-The user summons an allied Gossifleur, raises the Sp. Def itself and its allies by 2 steps, and becomes Grass-type.
-使用者召唤1个盟友幼绵绵，并且增加自身和队友的特防两级，然后变为草属性。
+The user charges by gathering light, then blasts all near foes on the second turn.
+第1回合凝聚光线，第2回合攻击所有附近的目标。
+The user embeds its roots to heal by 1/4th every turn for four turns. User becomes Grass-type.
+将根牢牢扎入地面，4回合内每回合恢复四分之一HP。变为草属性。
+The user inflicts leech on all nearby foes. User becomes Grass-type.
+使所有附近的目标陷入寄生。变为草属性。
+The user scatters bursts of spores to induce sleep on all foes. User becomes Grass-type.
+散播孢子爆发，使所有目标陷入睡眠。变为草属性。
+The user summons an allied Gossifleur. This raises its Sp. Def by three steps, and its allies' by one. User becomes Grass-type.
+召唤队友幼棉棉。自身的特防增加3级，队友的特防增加1级。变为草属性。
 A powerful electric blast is let loose on the target, numbing it.
 使用强大的电流攻击对手，并使其麻痹。
-The user raises its Sp. Atk and Speed by two steps, and becomes Electric-type.
-大幅度增加自身的特攻和速度，并使自身变为电属性。
-The user inflicts numb on all nearby foes. User becomes an Electric-type.
-使附近所有对手麻痹，并使自身变为电属性。
-The user sharply boosts its Sp. Def, gains the ability Unaware, and becomes Psychic-type.
-大幅度增加自身特防，同时将特性变为纯朴，并使自身变为超能属性。
-The user raises its Sp. Atk and Sp. Def, maximizes its Accuracy, and becomes Psychic-type.
-增加自身的特攻特防，同时将自身命中增加至最大，并使自身变为超能属性。
-Summons eclipse for 5 turns, resets lowered stats, and user becomes Psychic-type.
-召唤持续5回合的日食，使自身被减小的属性恢复正常，并变为超能属性。
-Bounces back status moves for the next 3 turns, and user becomes Psychic-type.
-接下来3回合反弹状态类技能，使用者变成超能属性。
-The user summons an allied Abra, raises the Sp. Atk stat of itself and its allies, and becomes Psychic-type.
-召唤1个凯西一同战斗，同时增加自身和队友的特攻，并使自身变为超能属性。
-The user creates an Odd Room for 8 turns, raises its Speed, and becomes Psychic-type.
-使用者创造出1个持续8回合的奇异空间，速度增加1级，并变成超能力属性。
+The user raises its Sp. Atk and Speed by two steps. User becomes Electric-type.
+特攻和速度增加2级。变为电属性。
+The user inflicts numb on all nearby foes. User becomes Electric-type.
+使所有附近的目标陷入麻痹。变为电属性。
+The user raises its Sp. Def by four steps and gains the ability Unaware. User becomes Psychic-type.
+特防增加4级，并获得纯朴特性。变为超能属性。
+The user raises its Sp. Atk and Sp. Def by two steps and maximizes its Accuracy. User becomes Psychic-type.
+特攻和特防增加2级，最大化命中率。变为超能属性。
+The user summons eclipse for five turns. This raises ist Attack and Sp. Atk. User becomes Psychic-type.
+开启持续5回合的日食。双攻增加1级。变为超能属性。
+Bounces back status moves for the next 3 turns. User becomes Psychic-type.
+在3回合内反弹变化类技能。变为超能属性。
+The user summons an allied Abra. This raises its Sp. Atk by three steps, and its allies' by one. User becomes Psychic-type.
+召唤队友凯西。自身的特攻增加3级，队友的特攻增加1级。变为超能属性。
+The user creates an Odd Room for eight turns. This raises its Speed. User becomes Psychic-type.
+开启持续8回合的奇异空间。速度增加1级。变为超能属性。
 The target is struck with an absolute zero beam of energy, frostbiting it.
 以温度极低的光线攻击对手，并使其冻伤。
 The user inflicts frostbite on all nearby foes. User becomes an Ice-type.
 对附近所有对手造成冻伤，并使自身变为冰属性。
-The user lays 2 hazard layers of frozen spikes at the foe's feet, and becomes Ice-type.
-在对手场地铺设2层冰菱，自身变为冰属性。
-The user summons a hail storm for 5 turns, reduces the speed of all enemies by two steps, and becomes Ice-type.
-召唤持续5回合的冰雹，大幅度减小所有对手速度，并使自身变为冰属性。
-The user sharply boosts their Attack, Defense, and Speed, and becomes Ice-type.
-使自身的物攻、物防和速度增加2级，并使自身变为冰属性。
+The user lays 2 hazard layers of frozen spikes on the foe's side. User becomes Ice-type.
+在对手场上设置2层冰菱。变为冰属性。
+The user summons hail for five turns. This lowers every foe's Speed by two steps. User becomes Ice-type.
+开启持续5回合的冰雹。所有对手的速度减小2级。变为冰属性。
+The user raises its Attack, Defense, and Speed by two steps. User becomes Ice-type.
+物攻、物防和速度增加2级。变为冰属性。
 The user crushes all near foes with evil intent. This deals double damage to targets with a non-volatile status condition.
 用恶意碾压周围所有对手，对异常状态目标造成双倍伤害。
 The user exhales a mighty gust that inflicts damage and numbs the target.
 呼出强大的气流攻击对方，并使其麻痹。
-The user raises its Attack and Speed by two steps, and becomes Dragon-type.
-大幅度增加自身的攻击和速度，并使自身变为龙属性。
-The user harshly lowers each near foes best stat, and becomes Dragon-type.
-大幅度减小附近对手最高的能力值，并使自身变为龙属性。
-The user summons an allied Poochyena, raises the Attack stat of itself and its allies, and becomes Dark-type.
-召唤1个土狼犬一同战斗，同时增加自身和队友的攻击，并使自身变为恶属性。
-The user torments all near foes, preventing them from repeating moves. The user becomes Dark-type.
-折磨附近所有对手，阻止它们重复使用技能，并使自身变为恶属性。
-The user raises their Sp. Atk by four steps and becomes Fairy-type.
-自身特攻增加4级，并使自身变为妖精属性。
-Summons moonglow for 5 turns, raises the Defense and Sp. Def of all allies, and user becomes Fairy-type.
-开启持续5回合的月辉，全部精灵的双防增加1级，自身变为妖精属性。
-The user creates a Puzzle Room for 8 turns, raises its Attack and Sp. Atk, and becomes Fairy-type.
-开启持续8回合的迷惑空间，双攻增加1级，自身变为妖精属性。
+The user raises its Attack and Speed by two steps. User becomes Dragon-type.
+物攻和速度增加2级。变为龙属性。
+The user lowers each near foe's highest stat by four steps. User becomes Dragon-type.
+使所有附近的目标最高的一项能力的能力等级减小1级。变为龙属性。
+The user summons an allied Poochyena. This raises its Attack by three steps, and its allies' by one. User becomes Dark-type.
+召唤队友土狼犬。自身的物攻增加3级，队友的物攻增加1级。变为恶属性。
+The user torments all near foes, preventing them from repeating moves. User becomes Dark-type.
+折磨所有附近的目标，使其无法连续使用同一个技能。变为恶属性。
+The user raises its Sp. Atk by four steps. User becomes Fairy-type.
+特攻增加4级。变为妖精属性。
+The user summons moonglow for five turns. This raises the Defense and Sp. Def of all allies. User becomes Fairy-type.
+开启持续5回合月辉。所有队友的物防和特防增加1级。变为妖精属性。
+The user creates a Puzzle Room for eight turns. This raises its Attack and Sp. Atk. User becomes Fairy-type.
+开启持续8回合迷惑空间。物攻和特攻增加1级。变为妖精属性。
 This move exists just to showcase the PBS Extensions system.
 这个技能只是为了展示PBS扩展系统。
 [7]
@@ -37815,9 +37835,9 @@ An item to be held by a Pokémon. The holder will float in the air until hit. On
 When held by a Pokémon who can still evolve, reduces move damage taken by 33%. Prevents evolution.
 被还能进化的精灵携带时，会减小33%受到的技能伤害。
 A held item. In battles, it sets the holder's base Attack stat to 120.
-一件可以携带的物品。在战斗中，将携带者的攻击种族设为120。
+一种携带物品。在战斗中，将携带者的攻击种族设为120。
 A held item. In battles, it sets the holder's base Sp. Atk stat to 120.
-一件可以携带的物品。在战斗中，将携带者的特攻种族设为120。
+一种携带物品。在战斗中，将携带者的特攻种族设为120。
 A very light stone. It reduces the weight of a Pokémon when held.
 一块轻石头，携带后可以减轻精灵的重量。
 An item to be held by a Pokémon. It raises Sp. Def by 50% but prevents the use of status moves.
@@ -37842,8 +37862,8 @@ An item to be held by a Pokémon. It enables the holder to flee from any wild Po
 必定能从遇到的野生精灵面前逃走。
 An item to be held by a Pokémon. It is an egg filled with happiness that earns extra Exp. Points in battle.
 携带的精灵能得到稍微更多的经验值。
-A held item. After the weilder enters a battle, money generated in that battle is increased by 50%.
-一种携带的物品。携带者进入战斗后，该场战斗中获得的金钱增加50%。
+A held item. If the wielder enters a battle, money generated in that battle is increased by 50%.
+一种携带物品。携带者进入战斗时，该战斗获得的钱增加50%。
 An item to be held by a Pokémon. The comforting chime of this bell makes it gain happiness twice as fast.
 携带后精灵显得很安稳，变得容易和训练师亲密。
 An item to be held by a Pokémon. It prevents wild Pokémon encounters if the holder is the first one in the party.
@@ -37877,19 +37897,19 @@ A Pokémon held item that doubles the duration of multiturn trapping attacks.
 A band that doubles the damage dealt each turn by binding moves when held.
 能增强绑紧技能的束带。携带后，绑紧技能的威力会变强。
 A held item. It makes multi-hit attacks consistently hit 4 or 5 times.
-一种携带物品。它使多次伤害类技能稳定命中4到5次。
+一种携带物品。它使多段攻击类技能可以稳定命中4到5次。
 An item to be held by a Pokémon. The user gets both of its legal abilities, but its stats are cut by 10%.
 一种携带物品。使用者可以同时拥有2个合法特性，但能力值减小10%。
-A held item. The holder recovers 30% more HP from draining moves, Ingrain, Aqua Ring, and leech.
-携带后，吸取HP的技能可以比平时更多地回复自身的HP。
+A held item. The holder recovers 30% more HP from draining moves, Aqua Ring, and leech.
+一种携带物品。携带者通过吸取招式、水流环和寄生恢复的HP增加30%。
 A held item that gradually restores the HP of Poison-type Pokémon. It inflicts damage on all other types.
 携带后，毒属性的精灵会缓缓回复HP。其他属性的话，HP则会减小。
 A held item. The holder's HP is restored by 1/16th at the end of each turn.
-携带后，战斗中体力缓缓回复。
+一种携带物品。携带后，每回合结束时回复1/16HP。
 An item to be held by a Pokémon. The holder restores 1/5th HP of the damage it deals with moves.
 一种携带物品。会使携带者通过技能造成伤害时回复伤害的1/5的HP。
 A held item. At half health, the holder breaks the balloon and gains an Aqua Ring.
-携带后，当自身HP不满时，被击破后获得水流环。
+一种携带物品。携带后，HP在一半以下时，被击后获得水流环。
 An item to be held by a Pokémon. It snaps the holder out of a variety of mental warping effects.
 携带它的精灵着迷时会得到治愈。
 An item to be held by a Pokémon. It restores any lowered stat in battle.
@@ -37907,19 +37927,19 @@ A single-use item to be held by a Pokémon. It allows the immediate use of a mov
 A single-use item to be held by a Pokémon. It allows user to skip the recharging turn of an exhausting move.
 携带它的精灵仅有1次机会可以跳过1次使用技能后的恢复回合。
 A held item. When a foe raises their stats, the herb is consumed to copy the increase.
-携带后当对手增加能力等级时，消耗香草并复制它的强化。
+一种携带物品。携带后当对手增加能力等级时，复制对手的能力等级。
 A held item. When a foe raises their stats, the herb is consumed to reset their stats.
-一种携带物品。当对手增加能力等级时，香草会被消耗并重置对手的能力等级。
+一种携带物品。当对手增加能力等级时，重置对手的能力等级。
 An item to be held by a Pokémon. Ensures a random additional effect activates once per battle.
 一种精灵携带的物品。确保每场战斗中随机附加效果触发1次。
 An item to be held by a Pokémon. Ensures a less than full accuracy move lands once per battle.
 携带后确保1次命中不满的技能必定命中。
 A held item. It boosts the power of moves by 30%, but at the cost of 10% HP on each hit.
-携带后，虽然每次攻击时HP减小10%，但技能的威力会增加30%。
+一种携带物品。携带后，虽然每次攻击时HP减小10%，但技能的威力会增加30%。
 A well-worn belt that boosts the holder's supereffective moves by 20%.
 用惯了的黑色带子。携带后，效果拔群时的技能威力就会增加20%。
 A held item. Boosts a move used consecutively by 20% more each time. This resets if another move is used.
-携带后，连续使用相同技能时，威力就会增加20%。不再使用相同技能时，威力就会复原。
+一种携带物品。携带后，连续使用相同技能时，威力就会增加20%。
 An item to be held by a Pokémon. It is a headband that boosts the power of physical moves by 10%.
 力如泉涌的头带。携带后，物理类技能的威力就会增加10%。
 An item to be held by a Pokémon. It is a thick pair of glasses that boosts the power of special moves by 10%.
@@ -37927,9 +37947,9 @@ An item to be held by a Pokémon. It is a thick pair of glasses that boosts the 
 An item to be held by a Pokémon. They are boots that boost Speed by 10%.
 携带后，速度增加10%。
 A held item. Doubles the holder's critical-hit chance.
-携带后，打出命中要害的概率翻倍。
+一种携带物品。携带后，命中要害的概率翻倍。
 A held item. It is a magnifying lens that boosts the Accuracy of moves by 35%.
-一种携带物品。它是1个放大镜，能将技能的命中率增加35%。
+一种携带物品。能将技能的命中率增加35%。
 An item to be held by a Pokémon. It is tremendously heavy and makes the holder move slower than usual.
 非常沉重的某种尾巴。携带后，行动会比平时更加迟缓。
 An item to be held by a Pokémon. If it has full HP, the holder will endure one potential KO attack, leaving 1 HP.
@@ -37959,9 +37979,9 @@ Consumed to heal for one third of max HP when the Pokémon uses a punching move.
 Consumed to heal for one third of max HP when the Pokémon uses a pulse move. This can overheal.
 使用脉冲类技能时消耗道具，回复最大HP的1/3，可以过量回复。
 A held item. The holder is protected from the negative effects of weather.
-携带它的精灵将不受各种天气的影响。
+一种携带物品。携带它的精灵将不受各种天气的影响。
 A held item. It changes the holder's type in battle. You can change which type between battles.
-携带后，可以改变精灵在战斗中的属性。可以在战斗外切换。
+一种携带物品。携带后，可以改变精灵在战斗中的属性。可以在战斗外切换。
 A set of memory discs, one for each type. If held by a Silvally, you can change its type between battles.
 一套记忆光盘，每种类型各1个。如果由银伴战兽携带，可以在非战斗期间更换其属性。
 A tablet that boosts same-type moves by 20%. If held by Arceus, you can change its type between battles.
@@ -37969,7 +37989,7 @@ A tablet that boosts same-type moves by 20%. If held by Arceus, you can change i
 An item to be held by a Pokémon. It counts as a member of every tribe.
 携带后可以看作任何1个部族。
 A held item. The holder doesn't trigger items, abilities, or effects of targets it hits.
-携带它的精灵不会触发其攻击对象的物品、特性或者效果。
+一种携带物品。携带它的精灵不会触发目标的物品、特性或者效果。
 A held item. The holder is protected from the random added effects and takes 10% less move damage.
 一种携带物品。携带者免受随机追加效果的影响，并减小10%的技能伤害。
 A held item. The holder is protected from flinching.
@@ -38545,7 +38565,7 @@ Boosts the power of a Steel move by 50% once per battle. Holder heals 1/16th HP 
 Boosts the power of a Fairy move by 50% once per battle. Holder heals 1/16th HP each round.
 每回合恢复1/16HP，使1次妖精属性技能的威力增加50%。
 A held item. Restores any lowered stats, then heals the holder by 50% HP.
-携带后，恢复被减小的能力等级，并恢复50%HP。
+一种携带物品。携带后，恢复被减小的能力等级，并恢复50%HP。
 While held, terrains set by the holder do not expire.
 携带后，制造的场地不会失效。
 An item to be held by a Pokémon. The holder floats in the air, making Ground attacks miss.
@@ -38563,13 +38583,13 @@ The user summons Sandstorm for twice as long. The holder will endure one potenti
 The user summons Hail for twice as long. The holder will endure one potential KO.
 使开启的冰雹的持续时间翻倍，且免疫1次致命伤害。
 A held item. When the holder faints, a random other party member is fully revived.
-携带者倒下时，会复活一名队友。
+一种携带物品。携带者倒下时，会随机复活1名队友。
 A held item. It boosts the power of moves by 30%. The user heals for a third of all move damage they deal.
-携带后增加30%技能威力，并恢复技能伤害1/3HP。
+一种携带物品。携带后技能威力增加30%，并回复技能伤害的1/3HP。
 A held item. In battles, it sets the holder's base Attack and base Defense stats to 120.
-携带后，物攻和物防的能力值将增加到120。
+一种携带物品。携带后，物攻和物防的能力值将增加到120。
 A held item. In battles, it sets the holder's base Sp. Atk and base Sp. Def stats to 120.
-携带后，特攻和特防的能力值将增加到120。
+一种携带物品。携带后，特攻和特防的能力值将增加到120。
 An ancient scroll that makes the user that boosts the holder's supereffective moves by 20%.
 携带者的效果拔群的技能威力增加20%。
 The holder's HP is restored by 1/8th each turn, and takes a third less damage at full HP. The holder won't drop it.
@@ -38929,6 +38949,8 @@ Arctic Ariette
 冰霜之歌
 Armor Piercing
 穿甲
+Aromatic
+芳香烃
 Assault Spines
 骨质刺甲
 Assistant
@@ -38939,8 +38961,6 @@ Aurora Prism
 极光棱镜
 Auto-Pilot
 自动寻航
-Auto-Pilot 2
-自动寻航2
 Auto-Structure
 自动重构
 Autumnal
@@ -38969,12 +38989,8 @@ Bellower
 咆哮者
 Berry Bunch
 树果狂
-Big Boss
-大头目
 Bitter Cold
 严寒
-Bizarre
-奇异
 Bladebrained
 刃脑
 Blinding
@@ -39009,14 +39025,14 @@ Burdened
 沉重负担
 Burn Out
 燃烧殆尽
-Burn Skill
-灼热技法
 Caffeine Rush
 咖啡因冲刺
 Candy Veil
 糖果幕
 Cash Out
 兑现
+Castellan
+城主
 Celebration
 庆祝
 Celeritas
@@ -39033,6 +39049,8 @@ Chronic Cold
 慢性感冒
 City Razer
 毁灭者
+Claustrophobia
+幽闭恐惧
 Clean Freak
 洁癖
 Clingy
@@ -39079,6 +39097,8 @@ Dauntless
 勇往直前
 Dawnfall
 黎明降临
+Deadbeat
+懒汉
 Debris Field
 瓦砾场
 Decontamination
@@ -39167,8 +39187,6 @@ Exotherm Engine
 放热式引擎
 Expertise
 一技之长
-Extorter
-敲诈者
 Extra Scoop
 再来一勺
 Extreme Power
@@ -39179,6 +39197,8 @@ Extremophile
 极限爱好者
 Fae Veil
 妖精幕
+False Front
+假面
 Fascinate
 震慑
 Fashionable
@@ -39333,6 +39353,8 @@ Herding
 放牧
 Heroic Finale
 压轴英雄
+High Judge
+审判
 High-rise
 高层
 Hive Mind
@@ -39455,6 +39477,8 @@ Lycanthrope
 狼人
 Maestro
 音乐家
+Magma Trail
+岩浆之迹
 Magnet Trap
 磁力陷阱
 Malice
@@ -39483,6 +39507,8 @@ Midnight Sun
 极昼
 Mist Form
 雾形态
+Mist Trail
+薄雾之迹
 Moist Skin
 湿润皮肤
 Monkey Mischief
@@ -39603,8 +39629,6 @@ Poor Conduct
 行为不端
 Power Lifter
 动能增加
-Predation
-掠食者
 Pressure Valve
 压力阀
 Puff Up
@@ -39659,6 +39683,8 @@ Resolute
 坚决
 Resonant
 共振
+Roaring Flame
+咆哮烈焰
 Roast
 烘焙
 Rock Body
@@ -39809,6 +39835,8 @@ Stormbringer
 风暴使者
 Storm Totem
 暴风图腾
+Storm Trail
+风暴之迹
 Straight Ahead
 一路向前
 Stratagem
@@ -39825,8 +39853,6 @@ Stygian Night
 幽冥之夜
 Stylish
 时髦
-Subspace Schism
-亚空间分裂
 Sub Zero
 极端零度
 Sudden Chill
@@ -39985,6 +40011,8 @@ Absolute Defense
 绝对防御
 Ancestral Summons
 背水飞援
+Auto-Pilot 2
+自动寻航2
 Backfire
 反噬
 Backup
@@ -40070,7 +40098,7 @@ Repeats another Pokémon's dance move immediately.
 有谁使用跳舞技能时，自身也能就这么接着使用跳舞技能。
 Powers up each Pokémon's Dark-type moves.
 全部精灵的恶属性技能变强。
-Raises Defense when the Pokémon enters a battle.
+Raises Defense upon entry.
 出场时，物防增加1级。
 Halves move damage when HP becomes half or less.
 HP减半时，会变得软弱，双攻会减半。
@@ -40078,18 +40106,18 @@ Raises Attack by four steps when a stat is lowered by a foe.
 如果能力被减小，物攻增加4级。
 Changes the weather to Strong Winds, which remove Flying-type's weaknesses. Lingers for 3 turns after leaving.
 将天气变为强风，消除飞行属性的弱点，离场后持续3回合。
-Changes the weather to Harsh Sunlight, which nullifies Water-type moves. Lingers for 3 turns after leaving.
-将天气变为大晴天，使水属性技能失效，离场后持续3回合。
+Changes the weather to Harsh Sunlight, which debuffs most attacks and prevents them from critting. Lingers for 3 turns after leaving.
+将天气变为大晴天，减小大多数攻击的威力并阻止命中要害。离场后持续3回合。
 Its shroud protects it from an attack just once.
 通过画皮覆盖住身体，可以防住1次攻击。
 Boosts either Attack or Sp. Atk by two steps according to the foe's defenses.
 根据对手的物防或者特防，物攻或特攻增加2级。
 Powers up Dragon-type moves by 50%.
 龙属性的技能威力增加50%。
-Summons rainstorm for 4 turns when it enters battle.
-出场时，召唤持续4回合的暴雨。
-Turns the weather to sunshine for 4 turns when it enters battle.
-出场时，将天气变为晴朗，持续4回合。
+Summons rainstorm for 4 turns upon entry.
+出场时，将天气变为雨天，持续4回合。
+Turns the weather to sunshine for 4 turns upon entry.
+出场时，将天气变为晴天，持续4回合。
 Heals 1/8 HP in rainstorm, 1/4 when hit by Water-type moves. Loses 1/8 in sunshine, takes 25% more from Fire-type moves.
 雨天/晴天时，每回合回复/损失1/8HP。被水属性技能攻击时，回复25%HP。被火属性技能攻击时，受到的伤害增加25%。
 Switches out if its HP becomes half or less.
@@ -40150,8 +40178,8 @@ The Pokémon is protected from flinching, Intimidate, Fascinate, and Frustrate.
 不会畏缩，不受威吓、震慑和阻挠的影响。
 Upon entry, lowers the foe's Attack stat by two steps.
 出场时威吓对手，让其退缩，减小对手2级物攻。
-Raises Attack when the Pokémon enters a battle.
-进入战斗时，物攻增加1级。
+Raises Attack upon entry.
+出场时，物攻增加1级。
 Physical moves against it inflict 1/8th max HP damage to the foe.
 受到攻击时，用粗糙的皮肤弄伤使用物理类技能攻击自身的对手1/8HP。
 Boosts the power of punching moves by 30%.
@@ -40165,7 +40193,7 @@ Reflects enemy status moves that target the Pokémon or create hazards around it
 The Pokémon only takes damage from attacks.
 不会受到攻击以外的伤害。
 Steals the held item of a Pokémon it hits.
-夺走被自身的技能击中的对手的物品。
+夺走被自身的技能命中的对手的物品。
 Boosts the power of pulse moves by 50%.
 脉冲类技能的威力会增加50%。
 Its attacks are critical against poisoned targets.
@@ -40210,8 +40238,8 @@ Gives priority to status moves, but makes Dark-types immune to them.
 使变化类技能先制度加1，但是恶属性的精灵会免疫受加成的技能。
 The Pokémon raises the foe's PP usage.
 给予对手压迫感，大量减小其使用技能的PP。
-Changes the weather to Heavy Rain, which nullifies Fire-type moves. Lingers for 3 turns after leaving.
-将天气变为大雨天，使火属性技能失效，离场后持续3回合。
+Changes the weather to Heavy Rain, which debuffs most attacks and prevents their random added effects. Lingers for 3 turns after leaving.
+将天气变为大雨天，减小大多数攻击的威力并阻止其随机附加效果。离场后持续3回合。
 The Pokémon receives 25% less move damage from super-effective attacks.
 精灵从效果拔群的攻击中受到的技能伤害减小25%。
 It changes type to that of the move it's about to use.
@@ -40230,8 +40258,8 @@ Protects the Pokémon from recoil damage.
 不会受到反伤的伤害。
 Doubles the Pokémon's Speed in a sandstorm.
 沙暴天气时，速度翻倍。
-Summons a sandstorm for 4 turns when it enters battle.
-出场时，会把天气变为沙暴。
+Summons a sandstorm for 4 turns upon entry.
+出场时，将天气变为沙暴，持续4回合。
 Immune to Grass-type moves, and raises Attack and Sp. Atk when hit by one.
 免疫草属性技能，被草属性技能击中时双攻增加1级。
 Forms a powerful school while it has a lot of HP.
@@ -40260,16 +40288,16 @@ Doubles the Pokémon's Speed stat in a hail.
 冰雹时，速度翻倍。
 Doubles the critical hit chance of random crit moves. Powers up critical hits by another 50%.
 将随机命中要害技能的命中要害率翻倍。使命中要害的威力再增加50%。
-Summons a hail for 4 turns when it enters battle.
-出场时，开启4回合的冰雹。
+Summons a hailstorm for 4 turns upon entry.
+出场时，将天气变为冰雹，持续4回合。
 In sunshine, Sp. Atk is boosted by 50%, but the Pokémon is hurt for 1/10th HP each turn.
 晴朗天气时，特攻增加50%，而每回合HP会减小10%。
 Boosts Sp. Atk each time a Pokémon faints.
 每当有精灵变为濒死状态时，特攻增加1级。
 Speed is raised by two steps at the end of each of its turns.
 回合结束时，速度增加2级。
-Boosts Defense by two steps when hit by an attack.
-受到攻击时，物防增加2级。
+Raises Defense when hit by an attack.
+被击时，物防增加1级。
 Changes between Blade and Shield Forme with attacks and King's Shield.
 随着使用攻击和王者盾牌技能，在刀剑与盾牌形态之间改变。
 Physical attacks against the Pokémon have a 30% chance to cause numbing.
@@ -40374,6 +40402,8 @@ Sound-based attacks turn Ice-type and are boosted by 30%.
 声音类技能变成冰属性，并且威力增加30%。
 Deals double damage against Pokémon that have raised defenses or that are protected by a screen.
 对于增加了防御或受到屏障保护的精灵造成双倍伤害。
+Uses Aromatherapy if an attack lowers its HP to half or below.
+当被攻击使HP减小到一半或以下时，使用芳香治疗。
 Doubles Sp. Def, but the Pokémon can't use status moves.
 特防翻倍，但无法使用变化类技能。
 Uses Assist upon entry, using a random move known by a party member.
@@ -40400,8 +40430,8 @@ Deals more damage to targets the faster it is than them. Up to a 50% bonus at do
 速度越快造成的伤害越高，速度为对方的两倍时，增加50%伤害。
 Your Poké Balls are 50% more effective.
 所有精灵球的捕捉率增加50%。
-Sets a Reflect for 4 turns upon entering the battle.
-入场时，制造持续4回合的反射壁。
+Sets a Reflect for 4 turns upon entry.
+出场时，开启反射壁，持续4回合。
 Raises Defense and Sp. Def by three steps when its HP is lowered below half.
 当HP低于一半时，双防增加3级。
 Boosts power of light-based moves by 30%.
@@ -40412,12 +40442,8 @@ After using a sound move, all foes are tormented.
 声音类技能会对敌方全员施加折磨状态。
 Can hold two different items, if both are Berries.
 可同时携带2个树果类物品。
-Boosts Defense by 25%. The Pokémon cannot be flinched.
-物防增加25%，且不会畏缩。
 Causes hail to deal double damage and increase Defense of Ice-types by 2.0x instead of 1.5x.
 使冰雹造成的伤害翻倍，并且使冰属性的物防增加效果从1.5倍变为2倍。
-Its special attacks reduce the target's Sp. Def.
-特殊类攻击会使目标的特防减小1级。
 Boosts the power of blade moves by 30%. Blade moves ignore the target's modified Defense and Sp. Def.
 增加切割类技能的威力30%，并且切割类技能无视目标增加或者减小的双防。
 After using a light move, lowers each foe's Sp. Def.
@@ -40452,14 +40478,14 @@ Receives 33% less move damage, but the Pokémon is hurt for 1/10th HP each turn.
 受到的技能伤害减小33%，但每回合减小10%的最大HP。
 Has a 30% chance to burn targets when using physical moves.
 使用物理类技能时，有30%概率使对方烧伤。
-Has a 30% chance to burn targets when using special moves.
-使用特殊类技能时，有30%概率使对方烧伤。
 During hail, the Pokémon's Speed is boosted by 50% and twice as likely to crit.
 冰雹时，速度增加50%，且命中要害率翻倍。
 Prevents itself and allies from being poisoned, leeched, or waterlogged.
 自身和队友不会陷入中毒、寄生、或者浸水。
 Upon entry, consumes scattered coins to heal for 1/10th the amount consumed. This can overheal.
 出场时，消耗场上的金钱进行回复，回复量为消耗的金钱量的10%。可以过量回复。
+Boosts Attack and Sp. Atk by 30% in rooms.
+存在空间类效果时，双攻增加30%。
 Heals by 1/5th HP whenever any Pokémon uses a dance move. Can overheal.
 每当有精灵使用舞蹈类技能时，回复自身最大HP的1/5，可以过量回复。
 The Pokémon's Speed is doubled while using light-based moves.
@@ -40476,6 +40502,8 @@ Physical moves have a 30% chance to frostbite targets.
 使用物理类技能时，30%概率使对方冻伤。
 After knocking out any Pokémon with Waterfall, transforms into its Rampage form. Ability becomes Juggernaut.
 当使用攀瀑打倒对手时，会变成暴走形态，特性变为破格。
+If there is an active Room, enemies which swap in take Psychic-type damage equal to 1/6th their HP.
+存在空间类效果时，替换上场的对手会受到超能属性的伤害（基础比例为1/6）。
 Boosts move damage by 50% while it has a non-volatile status condition. It suffers double effect from such status conditions.
 处于稳定型异常时，技能伤害增加50%，但是它会受到该异常的双倍效果。
 Traps foes with non-volatile status conditions.
@@ -40484,8 +40512,8 @@ It changes form to match the move it selected.
 根据使用的技能切换自身的状态。
 Boosts Sp. Atk and Speed by 30% in rainstorm.
 雨天时，特攻和速度增加30%。
-Sets a Lucky Chant upon entering the battle, protecting from critical hits for 10 turns.
-进入战斗后，10回合内保护自身不会被命中要害。
+Sets a Lucky Chant upon entry, protecting from critical hits for 10 turns.
+出场时，开启幸运咒语，10回合内阻止被命中要害。
 Can hold two items, but drops one when swapping out.
 可以携带2个物品，但在交换精灵时会随机掉落其中1个。
 Its attacks are critical against frostbitten targets.
@@ -40522,6 +40550,8 @@ Boosts Attack and Sp. Atk after knocking out any Pokémon.
 打倒对手时，双攻增加1级。
 On the first turn, its attacks burn the target.
 第1回合的攻击会使对方烧伤。
+Has a 30% chance to leech targets when using physical moves.
+使用物理类技能时有30%的概率寄生对手。
 Immune to non-volatile status conditions due to its hard shell. Boosts Sp. Atk and Speed by 30% in sandstorm.
 免疫稳定型异常，在沙暴中，特攻和速度增加30%。
 Prevents Bug- or Poison-type moves during moonglow.
@@ -40568,8 +40598,8 @@ If an attack lowers its HP to half or less, the attacker becomes drowsy.
 被攻击使HP减小到一半以下时，使攻击者陷入瞌睡状态。
 Move damage that's decreased by rainstorm is decreased twice as much.
 暴雨天减小技能伤害的效果翻倍。
-Creates Grey Mist for three turns when entering the battlefield.
-进入战场时，制造持续3回合的灰雾。
+Creates Grey Mist for three turns upon entry.
+出场时，开启灰雾，持续3回合。
 Speed is doubled on the first turn.
 出场的第1回合速度翻倍。
 Whenever it uses a status move, becomes energized, doubling the power of its next Electric-type attack.
@@ -40608,8 +40638,6 @@ Takes half damage from Psychic- and Ghost-type attacks.
 受到的超能、幽灵属性攻击伤害减半。
 Boosts Speed by 50% but the Pokémon is locked into the first move they use.
 速度增加50%，但该精灵会被锁定在它使用的第1个技能中。
-At low health, eats other battlers' low-health triggered berries.
-在低HP的时，会吃掉其他精灵的低HP触发的树果。
 Upon entry, the Pokémon heals itself for 1/4th max HP. This can overheal.
 出场时，回复25%最大HP，且可以过量回复。
 Increases Attack by 50%, but the Pokémon is hurt for 1/10th HP each turn.
@@ -40620,6 +40648,8 @@ Heals by 1/8th of its max HP each turn if in eclipse.
 日食时，每回合回复1/8最大HP。
 Prevents itself and allies from being burned, frostbitten, or numbed.
 自身和队友不会被烧伤、冻伤或麻痹。
+Upon entry, gains your choice of Fighting-, Dark-, or Fairy-type.
+出场时，获得格斗、恶或妖精属性（自选）。
 Upon entry, lowers the foe's Sp. Atk stat by two steps.
 出场时，使对方的特攻减小2级。
 Can hold two different items, if one is clothing and the other is not.
@@ -40684,8 +40714,8 @@ Raises Attack and Sp. Atk by two steps when hit by a not-very-effective move.
 被效果不佳的技能击中时，双攻增加2级。
 Doubles the Pokémon's Speed in Rooms.
 当存在空间类效果时，精灵的速度翻倍。
-Raises other allies' Speed by two steps upon entering the battle.
-进入战斗后，队友的速度大幅度增加。
+Raises other allies' Speed by two steps upon entry.
+出场时，使队友的速度增加2级。
 The Pokémon changes type to that of the move it's about to use. However, it's 20% less accurate.
 会根据即将使用的技能改变属性，但命中率减小20%。
 Counts as every tribe.
@@ -40732,22 +40762,22 @@ Intensifies gravity for four turns when hit by an attack.
 受到攻击时，开启持续4回合的重力。
 Moves that trap and damage the opponent for three turns deal 50% more damage on the initial hit.
 束缚类技能第1次命中时，伤害增加50%。
-Boosts Sp. Def by two steps when hit by an attack.
-受到攻击时，特防增加2级。
+Raises Sp. Def when hit by an attack.
+被击时，特防增加1级。
 Raises Attack and Sp. Atk whenever any Pokémon uses a dance move.
 每当有精灵使用舞蹈类技能时，双攻增加1级。
 Heals 1/16th HP every turn. Protected from being poisoned.
 每回合恢复1/16HP，并且不会陷入中毒。
 Upon entry, traps each opponent in a whirlpool for two turns.
 进入战斗后，将所有对手困在潮漩中两回合。
-Summons eclipse for four turns when it enters battle.
-进入战斗后召唤持续4回合的日食天气。
+Summons eclipse for four turns upon entry.
+出场时，召唤日食或月食，持续4回合。
 If an attack lowers the Pokémon's HP to half or less, the attacker becomes fractured.
 被攻击到HP低于一半时，使攻击者陷入破碎状态。
 Deals 30% more move damage to Pokémon that are taller than it.
 对身高更高的精灵额外造成30%技能伤害。
 Its attacks are critical against burned targets.
-攻击烧伤状态的对手时必定命中要害。
+攻击烧伤状态的对手时必定会命中要害。
 When this Pokémon gains a non-volatile status condition, its Speed is raised by three steps.
 当陷入稳定型异常时，速度增加3级。
 The Pokémon is also Ghost-type.
@@ -40774,12 +40804,14 @@ Wild Pokémon are more likely to appear in pairs and to be species you've never 
 更容易使未捕捉过的野生的精灵成对出现。
 Turns to Finale Form when only unfainted on team. Ability becomes Inner Focus.
 当队伍只剩下自身后，将变为终结形态，特性更改为精神力。
+Has Judgment as its 5th move.
+自动获得技能制裁光砾。
 The Pokémon and its allies are immune to weather downsides.
 自身与队友不受天气的不利因素影响。
 Powers up Bug-type moves of itself and its allies by 50%.
 自身及队友的虫属性技能的威力增加50%。
-When entering battle, heals self and allies for 25% of their max health.
-进入战斗时，治疗自身和队友25%最大HP。
+Upon entry, heals self and allies for 25% of their max health.
+出场时，回复自身和队友最大HP的25%。
 Lowers priority of status moves used by any Pokémon.
 减小其他精灵使用变化类技能的先制度。
 Powers up recoil and sound moves by 30%.
@@ -40792,8 +40824,8 @@ When hit by a move with 95 or more base power, hits back instantly with Nuzzle.
 当被95基础威力以上的技能击中后，立即用蹭蹭脸颊予以还击。
 Punches, Kicks, and Bites combo together to create special effects.
 拳、脚、牙类技能组合在一起，将产生特殊效果。
-Doubles Speed. Dashes to avoid hazards when entering.
-速度翻倍，进入战斗时免疫陷阱。
+Doubles Speed. Dashes to avoid hazards upon entry.
+速度翻倍。免疫场上的陷阱。
 Doubles the power of blade moves on the first turn.
 出场的第一回合使用的切割类技能的威力翻倍。
 It can avoid being knocked out by using its face. The face then melts.
@@ -40832,8 +40864,8 @@ Upon entry, creates an Insight Room for four turns, giving everyone a fifth move
 出场时，开启1个持续4回合的洞察空间，所有精灵获得第5个技能。
 Special moves have a 30% chance to poison targets.
 特殊类技能有30%概率让对手中毒。
-Takes 30% less damage until it uses an attack.
-在攻击之前受到的伤害减小。
+Takes 30% less damage until the first time it uses an attacking move.
+直到第一次使用攻击技能之前，受到的伤害减小30%。
 At the beginning of each turn, gives clues about a foe's plan.
 每个回合开始前，提供1个对手的行动线索。
 Boosts the power of kicking moves by 30%.
@@ -40860,8 +40892,8 @@ Boosts the power of punching moves by 50%.
 拳类技能威力增加30%。
 At end of turn, regenerates its previously-used berry.
 回合结束时，使之前的树果再生。
-Cannot take damage or be switched out. Hears Perish Song upon entering, ensuring its demise.
-不会受到伤害且不能被替换下场，入场时会立即听到灭亡之歌。
+Cannot take damage or be switched out. Hears Perish Song upon entry, ensuring its demise.
+不会受到伤害且无法替换下场。出场时，听到灭亡之歌。
 Deals 30% more damage when it's slower than the target.
 速度比对方慢时，额外造成30%伤害。
 Protected from critical hits. Can't be burned or frostbitten.
@@ -40896,6 +40928,8 @@ Transforms into Midnight Form at the Full Moon. Ability becomes No Guard.
 在满月时会化身黑夜形态。特性变为无防守。
 The Pokémon's Speed is doubled while using Sound-based moves.
 使用声音类技能时，该精灵的速度翻倍。
+Pokémon that swap in for this have their Attack and Sp. Atk raised.
+替换该精灵上场的精灵，物攻和特攻增加1级。
 When hit with a special move, traps and damages the attacker for three turns. Fails on turns the user switched in.
 被特殊类技能攻击时，会在3回合内让攻击者被束缚并持续受到伤害。自身替换出场的回合不会发动。
 If an attack lowers the Pokémon's HP to half or less, the attacker becomes cursed.
@@ -40924,6 +40958,8 @@ Powers up the Pokémon's Dark-type moves by 50% in sunshine.
 在阳光下，精灵的恶系技能威力增加50%。
 Slips past hazards. Takes one third less damage if it switched in this turn.
 无视场地上的陷阱。替换上场的回合受到的伤害减小1/3。
+Pokémon that swap in for this have their Defense and Sp. Defense raised.
+替换该精灵上场的精灵，物防和特防增加1级。
 If an attack lowers its HP to half or less, waterlogs the attacker.
 被攻击到HP低于一半时，使攻击者陷入浸水状态。
 When hit by another Pokémon, destroys one of their items.
@@ -40932,8 +40968,8 @@ Heals 1/8th of its max HP each turn if in moonglow.
 在月辉下每回合回复1/8的HP。
 The Pokémon and its allies take 25% less move damage during moonglow.
 在月辉下，该精灵及其队友受到的技能伤害减小25%。
-Summons moonglow for four turns when it enters battle.
-进入战斗后，召唤持续4回合的月辉。
+Summons moonglow for four turns upon entry.
+出场时，开启月辉，持续4回合。
 When hit in moonglow, steals the attacker's item, or knocks it away.
 当在月辉下被攻击时，能够偷走对手的物品或将其拍落。
 Hits opponent with Thief when withdrawn from battle.
@@ -40976,8 +41012,8 @@ Upon entry, creates an Odd Room for four turns, swapping offensive and defensive
 出场时，开启1个持续4回合的奇异空间，交换物攻和物防，特攻和特防。。
 On the first turn, its attacks cause the target to flinch.
 出场的第1回合的攻击会使对手畏缩。
-Sets a Tailwind for four turns upon entering the battle, increasing Speed.
-进入战斗后创造持续4回合的顺风。
+Sets a Tailwind for four turns upon entry, increasing Speed.
+出场时，开启顺风，持续4回合。
 Prevents stat steps from being lowered (except when self-inflicted). The Pokémon's weight is doubled.
 能力等级不会被其他精灵减小，并且使体重翻倍。
 The Pokémon is also Fairy-type.
@@ -41009,7 +41045,7 @@ After fainting from exploding, revives after six turns.
 The Pokémon's hits deal half damage unless they are critical.
 如果没有命中要害，自身造成的伤害减半。
 Maximizes the frequency of multi-hit moves. Always deals critical hits.
-多段伤害类技能总是会使用出最大次数，且必定命中要害。
+多段伤害类技能总是会使用出最大次数，且必定会命中要害。
 At the end of each of its turns, Speed is lowered but every other stat is raised.
 每个回合结束时，速度会减小，但其他所有能力都会增加。
 While the Pokémon is below half health, its attacks leech those hit.
@@ -41044,8 +41080,6 @@ Upon switch out, lowers the foe's Attack and Sp. Atk stat by insulting them.
 离场时，通过辱骂对手使其双攻减小1级。
 Its physical attacks go last but force the target to switch out after use.
 使用物理类攻击会后出手，但能让对手强制替换。
-Has a 30% chance to leech targets when using physical moves.
-使用物理类技能时有30%的概率寄生对手。
 Right before the Pokémon is attacked, the attacker's stat changes are reset.
 受到攻击前，重置对手的攻击能力变化。
 Deals 25% more damage per stockpile.
@@ -41100,6 +41134,8 @@ Immune to Dark-type and Bug-type moves.
 免疫恶属性和虫属性技能。
 Spread moves hitting multiple targets deal 50% more damage.
 扩散类技能命中多个目标时，伤害增加50%。
+Has a 30% chance to burn targets when using special moves.
+使用特殊类技能时，有30%概率使对方烧伤。
 When the Pokémon eats a Berry, it raises its Attack and Sp. Atk by two steps.
 吃下树果时，双攻增加2级。
 Heals 1/8th of its max HP each turn during sandstorm.
@@ -41115,7 +41151,7 @@ Makes foes unable to use priority moves.
 Immune to Fighting-type and Rock-type moves. Prevents Stealth Rock damage.
 免疫格斗属性和岩石属性技能。不受隐型岩伤害。
 Protected from random added effects. Takes 30% less damage from moves with random added effects.
-免疫技能附加效果，受到带附加效果的技能伤害减小。
+免疫技能的附加效果，受到的有附加效果的技能的伤害减小30%。
 All Pokémon deal 40% more move damage.
 所有精灵增加40%技能伤害。
 Can't be numbed, waterlogged, trapped, or have its Speed lowered.
@@ -41225,11 +41261,11 @@ Can't be afflicted with any non-volatile status condition.
 Has a 30% chance to dizzy targets when using physical moves.
 使用物理类技能时有30%的概率混乱对手。
 Prevents stat steps from being lowered (except when self-inflicted). Immune to weather downsides.
-防止能力等级被对方减小。免疫天气的负面效果。
+阻止能力等级被对方减小。免疫天气的负面效果。
 Doubles critical hit chance for each Speed step up. All moves can random critical hit.
 每有1级增加的速度能力等级，命中要害率翻倍。所有技能都有概率随机命中要害。
-Sets a Light Screen for 4 turns upon entering the battle.
-进入战斗后释放持续4回合的光墙。
+Sets a Light Screen for 4 turns upon entry.
+出场时，开启光墙，持续4回合。
 During eclipse, its moves can't miss and always activate their random effects.
 日食天气时必定命中，且必定触发额外效果。
 Takes 50% less damage from Water-type moves. Raises Speed by four steps when hit by one.
@@ -41250,6 +41286,8 @@ Summons rainstorm for four turns when hit by an attack.
 受到攻击时，召唤持续4回合的暴雨。
 Upon entry, summons a Turbulent Sky on the Pokémon's side for 6 turns.
 进入战斗后，制造1个持续6回合的动荡之空。
+Pokémon that swap in for this have their Speed raised.
+替换该精灵上场的精灵，速度增加1级。
 Ignores Abilities that would affect its moves. Its attacks can't be redirected to new targets.
 无视会影响到它技能的特性，且必定攻击选定的对手。
 Makes foes stressed and unable to use their items.
@@ -41264,8 +41302,6 @@ Changes the weather to Blood Moon, which heralds the Full Blood Moon. Lingers fo
 将天气改变为血月，并预示着血全月的到来。离场后天气持续3回合。
 The Pokémon benefits twice as much from style points.
 让风格点数的加成翻倍。
-Upon entry, creates a Trick Room for four turns, inverting the effect of Speed.
-出场时，开启1个持续4回合的戏法空间，反转场上精灵的速度。
 Powers up Ice-type moves by 50%.
 冰属性技能的威力增加50%。
 Special moves against the Pokémon have a 30% chance to frostbite the attacker.
@@ -41420,6 +41456,8 @@ Protects the Pokémon and its allies from spread moves. Defense increased by 20%
 使对方的扩散类技能使用失败。物防增加20%。
 Switches out if its HP becomes half or less. The replacement Pokémon's ​​first hit must be a crit​​ and if it's Doduo or Dodrio, it will use Fly​​ immediately.
 HP低于一半时，会返回队伍，替换上场的精灵的第1次攻击必定会命中要害，如果替换的精灵是嘟嘟或者嘟嘟利，还会立刻使用飞天。
+Upon entry, calls an ally, the ally will arrive in 5 turns.
+出场时，召唤队友，队友将在5回合后到达。
 When hitting a target that has an ability with an offensive damage-modifying effect, the Pokémon ignores the conditions and triggers the effect.
 当攻击的对手具有它自身在攻击时改变伤害的效果的特性时（如猛火），无视那个特性的发动条件并为自身触发该效果。
 Takes half damage from Dragon-, Fairy-, and Ghost-type attacks. Positive stat steps remain after switching.
@@ -44521,12 +44559,6 @@ Guess what happened the other day. I missed catching \TE again.\mMaybe I'm not v
 猜猜前几天发生了什么。我又没抓到\TE。\m也许我不太擅长这个。
 [23]
 [24]
-Created default Type Chart. You can modify the file and input the code again to apply.
-已创建默认的属性克制表，你可以进行修改，修改完成后再次使用该密码应用修改。
-New Coustom Type Chart reloaded successfully!
-新的自定义属性克制表已加载成功！
-the Battle Loader
-战斗模拟器
 Bill
 比尔
 Items
@@ -44775,12 +44807,12 @@ Blade
 切割
 Wind
 风
-Multi
-多
 Kick
 踢
 Light
 光
+Multi
+多
 Move {1} is defined as a Status move with a non-zero base damage.<<n>>{2}
 技能{1}被定义为具有非零基础伤害的状态技能。<<n>>{2}
 Warning: Move {1} was defined as a Damaging move but had a base damage of 0. Changing it to a Status move.<<n>>{2}
@@ -46328,9 +46360,9 @@ Other Effects
 Critical hits ignore stat steps (on the user or the target) that would lower their damage. They also ignore protective screens like Reflect and Light Screen.
 命中要害的一击不会受到能力等级导致的伤害减小的影响，也不会受到屏障类效果的影响。
 Preventing Criticals
-防止被命中要害
+阻止被命中要害
 Certain abilities prevent critical hits against that Pokémon. The Lucky Chant effect protects their side from critical hits.
-某些特性可以防止对该精灵的命中要害。幸运咒语的效果可以保护其所在的一方免受命中要害。
+某些特性可以阻止对该精灵的命中要害。幸运咒语的效果可以保护其所在的一方免受命中要害。
 Guaranteed Criticals
 确保命中要害
 Some moves or abilities are not random, but guarantee a critical hit under certain conditions. Otherwise, these act the same as random critical hits.
@@ -49111,6 +49143,8 @@ But a live wire already sits near {1}!
 {1}的{2}不能被减小了！
 {1} was attacked on sight!
 {1}立即受到了攻击！
+The walls close in on {1}!
+墙壁向{1}逼近！
 {1} breaks the mold and overpowers type immunities!
 {1}打破了常规并且无视属性免疫！
 {1} breaks the mold!
@@ -49169,6 +49203,10 @@ But a live wire already sits near {1}!
 {1}暴跳如雷！
 {1} is shining with light speed!
 {1}闪耀着光速般的光芒！
+{1} is ferocious!
+{1}凶猛地咆哮着！
+{1} tricks the eye!
+{1}迷惑了视线！
 The strength is becoming a curse!
 力量正在被反噬！
 {1} is synchronizing data!
@@ -49205,6 +49243,12 @@ The effects of the weather disappeared.
 天气的影响消失了。
 All stat changes were eliminated!
 所有的能力等级都被消除了！
+Toxic dust filled the air!
+有毒粉尘弥漫在空气中！
+Which type should {1} fake?
+{1}应该伪装成哪种类型？
+Another {1} will arrive in 5 turns!
+另一{1}将在5回合后到达！
 Which item should {1} drop?
 {1}应该丢弃哪个物品？
 {1} dropped its {2}!
@@ -49775,10 +49819,14 @@ You can't catch Avatars!
 你不能抓化身！
 {1} was overwhelmed with emotion!
 {1}感慨万千！
+{1} inhaled too much toxic dust!
+{1}吸入了太多的有毒粉尘！
 {1}'s status is healed!
 {1}的异常状态被治愈了！
 The opposing {1}'s status is healed!
 对方的{1}的异常状态被治愈了！
+The {1} arrived!
+{1}到达了！
 {1} slurped up venom leaking from {2}.
 {1}吸干了从{2}渗出的毒液。
 {1} absorbs the damage from the poison.
@@ -50249,10 +50297,6 @@ But, {1} cannot use {2}!
 {1}抢夺了{2}的技能！
 {1} was forced into battle!
 {1}被迫进入战斗！
-The Fire-type attack fizzled out in the heavy rain!
-火属性攻击在大雨中消耗殆尽！
-The Water-type attack evaporated in the harsh sunlight!
-水属性攻击在阳光中蒸发殆尽！
 {1} shielded its side from the {2}!
 {1}挡住了{2}周围的攻击！
 {1} was blocked by the quarantine!
@@ -50797,6 +50841,12 @@ The healing wish came true for {1}!
 {1}被余震激发了！
 {1}'s PP was restored!
 {1}的PP恢复了!
+{1} was powered up by the trail of stormy energy left by {2}!
+{2}留下的风暴能量增强了{1}！
+{1} was enwrapped by the trail of mist left by {2}!
+{2}留下的薄雾能量增强了{1}！
+{1} was enraged by the trail of magma left by {2}!
+{2}留下的岩浆能量增强了{1}！
 {1} gets a free turn!
 {1}获得了1个免费的行动次数！
 {1} tears through the sky!
@@ -51298,7 +51348,7 @@ The substitute took damage for {1}!
 on {1}
 对{1}的
 It was a guaranteed critical hit{1}!
-这是1次{1}必定命中要害的攻击！
+这是1次{1}必定会命中要害的攻击！
 A critical hit{1}!
 命中{1}要害！
 {1}'s substitute faded!
@@ -51329,6 +51379,14 @@ The Empowered attack pierced the immunity!
 增强后的攻击无视免疫！
 {1} prevents the hit from being critical!
 {1}阻止了这次攻击命中要害！
+The harsh sunlight prevents the hit from being critical!
+强烈的阳光阻止了这次攻击命中要害！
+The blessing around {1} prevented the hit from being critical!
+环绕{1}的祝福阻止了这次攻击命中要害！
+The sheen around {1} prevented the hit from being critical!
+环绕{1}的光芒阻止了这次攻击命中要害！
+The heavy rain prevents a random added effect!
+大雨阻止了随机附加效果的触发！
 {1}'s {2} protects it from a random added effect!
 {1}的{2}保护它免受附加效果的影响！
 Given status #{statusApplying} is not valid.
@@ -51765,6 +51823,8 @@ But it failed, since {1} can't have its type changed and its Speed can't be lowe
 但它失败了，因为{1}的属性无法被改变且其速度无法被减小！
 Form effects:
 形态效果：
+<u>No Machine</u>: Numb
+<u>没有机器</u>: 麻痹
 <u>Heat</u>: Burn
 <u>加热</u>: 烧伤
 <u>Wash</u>: Waterlog
@@ -52105,8 +52165,8 @@ But it failed, since {1} is already giving a dragon ride!
 {1}呼唤着队友！
 {1} joins with an ally!
 {1}与队友结合！
-{1} gathers an new mind!
-{1}聚集了新的思维！
+{1} gathers a new mind!
+{1}凝聚了新的意志！
 {1} connects with their friend!
 {1}与朋友连接！
 But it failed, since {1} can't be burned or gain Fire-type!
@@ -56963,8 +57023,8 @@ To Train Your Dragons
 驯龙之道
 Dragon Hatcher
 育龙者
-Bring one of every egg to him.
-把每种蛋都带给他1个。
+Fully evolve every Dragon Egg.
+完全进化所有龙蛋。
 Explore the isle.
 探索岛屿。
 Samorn's House
@@ -57153,6 +57213,10 @@ Reloaded successfully!
 成功重加载！
 Failed to reload: An error occurred.<<n>>({1})
 重新加载失败：发生错误。<<n>>({1})
+Created default Type Chart. You can modify the file and input the code again to apply.
+已创建默认的属性克制表，你可以进行修改，修改完成后再次使用该密码应用修改。
+New Coustom Type Chart reloaded successfully!
+新的自定义属性克制表已加载成功！
 Enter Debug Password.
 输入调试密码。
 This mod was created by Fanfan.<<n>>If you paid for it, you've been duped!
@@ -57253,10 +57317,6 @@ Do you want to add the opposing team to the Battle Loader?
 你想要将对方的队伍加入到战斗模拟器中吗？
 Which battle rule do you want to use?
 你想要使用哪1个对战规则？
-Would you like to give it a Curse Effect?
-你想要给这个队伍设置塔罗牌效果吗？
-Which Curse Effect do you want?
-你想要哪一个塔罗牌效果？
 Would you like to give it a name?
 要起1个名字吗？
 Which default name do you want to use?
@@ -57293,8 +57353,14 @@ You can't challenge Former Champion Team, because you don't have 8 badges!
 你无法挑战前冠军队，因为你没有集齐8个徽章！
 Which battle rule do you want?
 你想使用哪种战斗规则？
+Would you like to give it a Curse Effect?
+你想要给这个队伍设置塔罗牌效果吗？
+Which Curse Effect do you want?
+你想要哪一个塔罗牌效果？
 Your team has been exported!
 你的队伍已导出！
+the Battle Loader
+战斗模拟器
 Do you want to take a Pokémon from the opposing party?
 你想从对方队伍中带走一只精灵吗？
 Which Pokémon do you want to take?
@@ -57423,6 +57489,8 @@ lowered {1} recovered by {2}
 减小的{1}恢复了{2}级
 {1}'s {2}.
 {1}的{2}。
+A new ally was summoned!
+新的队友被召唤了！
 1111111
 1111111
 2222222
@@ -57441,10 +57509,6 @@ It changes secondary type to that of the dance moves it's about to use.
 将附加属性变为即将使用的舞蹈类技能的属性。
 Upon entry, spreads poisonous dust which poisons any Pokémon stay in for 2 turns. When any Pokémon are poisoned, boosts Defense by 2 steps.
 出场时，散播有毒粉尘。在粉尘中2回合的精灵会中毒。有精灵因有毒粉尘中毒时，物防增加2级。
-{1} inhaled too much toxic dust!
-{1}吸入了太多的有毒粉尘！
-Toxic dust filled the air!
-有毒粉尘弥漫在空气中！
 Upon entry, creates an Emotion Room for 4 turns, adding an ability every turn.
 出场时，开启1个持续4回合的情感空间，所有精灵每回合随机获得1个特性。
 Upon entry, the Pokémon heals itself for 1/5th max HP. This can overheal.
@@ -60834,6 +60898,8 @@ Pharoah's Curse
 法老的诅咒
 Dancer
 舞者
+Echo
+回音
 MartialDiscipline
 武术纪律
 Curled Up
@@ -61156,8 +61222,6 @@ Flare Witch
 烈火魔法
 Halving Damage Turns
 减半伤害
-Echo
-回音
 Eroding
 侵蚀
 Total Focus
@@ -61184,8 +61248,8 @@ Baneful Bunker
 有害掩体
 Red-Hot Retreat
 炽热撤退
-Icicle Armor
-冰柱盔甲
+Ice-Nine Wall
+冰墙
 Spiky Shield
 尖刺防守
 Mirror Shield
@@ -61206,6 +61270,8 @@ Chewing Berry
 咀嚼果实
 Auto-Pilot
 自主作战
+Summond
+召唤
 Last Gasp
 残喘
 Jinxed
@@ -61292,6 +61358,12 @@ Kickback Amount
 回击量
 Gauss Aftershock
 高斯余震
+Storm Trail
+风暴之迹
+Mist Trail
+薄雾之迹
+Magma Trail
+岩浆之迹
 Temporal Shift
 时间转移
 Ancestral Summons
@@ -61779,6 +61851,8 @@ Seeker
 探索者
 Shadow
 暗影
+Swimmer
+游泳者
 Sis and Bro
 姐妹与兄弟
 Skier
@@ -61797,8 +61871,6 @@ Surfer
 冲浪者
 Suspicious Man
 可疑男子
-Swimmer
-游泳者
 Guardian Deity
 守护神
 Teacher

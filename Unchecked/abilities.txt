@@ -69,7 +69,7 @@ Flags = Banned
 [UNAWARE]
 Name = 纯朴
 Description = 可以无视对手能力的变化，进行攻击。
-Score = 6
+Score = 8
 Flags = IgnoreTargetStateAll
 #-------------------------------
 [TINTEDLENS]
@@ -428,7 +428,7 @@ Flags = ChangeTargetType
 #-------------------------------
 [LOUDBANG]
 Name = 大吵大闹
-Description = 声音类攻击招式造成伤害时，有50%概率使对手混乱。
+Description = 声音类或者声音属性攻击招式造成伤害时，有50%概率使对手混乱。
 Score = 3
 Flags = SufferTargetWithConfuse
 #-------------------------------
@@ -1081,7 +1081,7 @@ Flags = AddHazards
 Name = 变色
 Description = 改变自己的属性，用以免疫或抵抗即将从对手处受到的攻击招式。在镜技场，出场时闪避提高。
 Score = 8
-Flags =
+Flags = ChangeSelfType
 #-------------------------------
 
 #-------------------------------
@@ -1266,7 +1266,7 @@ Flags = ReduceTakenDamage
 #-------------------------------
 [PUNKROCK]
 Name = 庞克摇滚
-Description = 声音类招式的攻击力增加30%。受到的声音类招式伤害会减半。
+Description = 声音类或者声音属性招式的攻击力增加30%。受到的声音类或者声音属性招式伤害会减半。
 Score = 5
 Flags = ReduceTakenDamage,DamageUp
 #-------------------------------
@@ -1679,13 +1679,13 @@ Flags =
 [QUEENLYMAJESTY]
 Name = 女王的威严
 Description = 向对手施加威慑力，使其无法对我方使出先制招式。在童话场地，招式伤害增加50%。
-Score = 6
+Score = 8
 Flags = BlockPriorityUp2
 #-------------------------------
 [DAZZLING]
 Name = 鲜艳之躯
 Description = 让对手吓一跳，使其无法对我方使出先制招式。
-Score = 6
+Score = 8
 Flags = BlockPriorityUp2
 #-------------------------------
 [PRISMATICWARD]
@@ -1697,13 +1697,13 @@ Flags = BlockPriorityUp2,ReduceTakenDamage
 [SURPRISE]
 Name = Surprise!
 Description = 让对手吓一跳，使其无法对我方使出先制招式。
-Score = 6
+Score = 8
 Flags = BlockPriorityUp2
 #-------------------------------
 [ARMORTAIL]
 Name = 尾甲
 Description = 包裹头部的神秘尾巴使对手无法对我方使出先制招式。在童话场地，出场时双防会提高。
-Score = 6
+Score = 8
 Flags = BlockPriorityUp2
 #-------------------------------
 
@@ -1812,25 +1812,25 @@ Flags = DamageUp
 #-------------------------------
 [LIQUIDVOICE]
 Name = 湿润之声
-Description = 声音类招式的威力增加20%，若原属性是普通，则变成水属性，当在冰冻场地，则变为冰属性。
+Description = 声音类或者声音属性招式的威力增加20%，若原属性是普通，则变成水属性，当在冰冻场地，则变为冰属性。
 Score = 3
 Flags = DamageUp,ChangeMoveType
 #-------------------------------
 [BANSHEE]
 Name = 报丧女妖
-Description = 声音类招式的威力增加20%，若原属性是普通，则变成幽灵属性。
+Description = 声音类或者声音属性招式的威力增加20%，若原属性是普通，则变成幽灵属性。
 Score = 3
 Flags = DamageUp,ChangeMoveType
 #-------------------------------
 [SANDSONG]
 Name = 沙之歌
-Description = 声音类招式的威力增加20%，若原属性是普通，则变成地面属性。
+Description = 声音类或者声音属性招式的威力增加20%，若原属性是普通，则变成地面属性。
 Score = 3
 Flags = DamageUp,ChangeMoveType
 #-------------------------------
 [VOICETUNING]
 Name = 炽热之音
-Description = 一般属性或者声音类招式变为火属性。
+Description = 一般属性、声音类或者声音属性招式变为火属性。
 Score = 3
 Flags = ChangeMoveType
 #-------------------------------
@@ -2422,7 +2422,7 @@ Flags =
 #-------------------------------
 [BLOODPRICE]
 Name = 血的代价
-Description = 使用招式进行攻击时，伤害增加30%，但是招式使用成功后，将扣除自身最大HP的1/10。
+Description = 主动使用招式进行攻击时，伤害增加30%，但是招式使用成功后，将扣除自身最大HP的1/10。
 Score = 5
 Flags = DamageUp
 #-------------------------------
@@ -2460,19 +2460,19 @@ Flags = DamageUp
 #-------------------------------
 [AMPLIFIER]
 Name = 扩音器
-Description = 声音类招式的伤害增加30%，并且可以攻击所有对手。
+Description = 声音类或者声音属性招式的伤害增加30%，并且可以攻击所有对手。
 Score = 6
 Flags = DamageUp,HitAllTargets
 #-------------------------------
 [BASSBOOSTED]
 Name = 贝斯爆发
-Description = 声音类招式的攻击力增加30%，伤害增加30%，且可以攻击所有对手。受到的声音类招式伤害会减半。
+Description = 声音类或者声音属性招式的攻击力增加30%，伤害增加30%，且可以攻击所有对手。受到的声音类或者声音属性招式伤害会减半。
 Score = 7
 Flags = DamageUp,HitAllTargets,ReduceTakenDamage
 #-------------------------------
 [SLUDGYMIX]
 Name = 剧毒摇滚
-Description = 声音类招式的攻击力增加30%。受到的声音类招式伤害会减半。一般属性的招式会变为毒属性，招式威力增加10%。在沼泽场地、腐蚀场地、蚀雾场地、废土、污水面，招式威力额外增加30%。
+Description = 声音类或者声音属性招式的攻击力增加30%。受到的声音类或者声音属性招式伤害会减半。一般属性的招式会变为毒属性，招式威力增加10%。在沼泽场地、腐蚀场地、蚀雾场地、废土、污水面，招式威力额外增加30%。
 Score = 8
 Flags = ReduceTakenDamage,DamageUp,ChangeMoveType
 #-------------------------------
@@ -2693,21 +2693,21 @@ Flags = AddTypeImmunity,Immune_FAIRY
 #-------------------------------
 [SOUNDPROOF]
 Name = 隔音
-Description = 通过屏蔽声音，不受到声音类的招式的攻击。
+Description = 通过屏蔽声音，不受到声音类或者声音属性的招式的攻击。
 Score = 3
-Flags = AddFormImmunity
+Flags = AddFormImmunity,AddTypeImmunity,Immune_SOUND
 #-------------------------------
 [SYNTHESIZER]
 Name = 声音合成器
-Description = 受到声音类的招式攻击时，不会受到伤害，而是会得到回复。
+Description = 受到声音类或者声音属性的招式攻击时，不会受到伤害，而是会得到回复。
 Score = 4
-Flags = AddFormImmunity
+Flags = AddFormImmunity,AddTypeImmunity,Immune_SOUND
 #-------------------------------
 [NOISECANCEL]
 Name = 除噪
-Description = 自身和同伴不会受到声音类的招式的攻击。
+Description = 自身和同伴不会受到声音类或者声音属性的招式的攻击。
 Score = 4
-Flags = AddFormImmunity
+Flags = AddFormImmunity,AddTypeImmunity,Immune_SOUND
 #-------------------------------
 [BULLETPROOF]
 Name = 防弹
@@ -2958,7 +2958,7 @@ Flags = Harvest,ImmunityStatus,Chloroplast
 #-------------------------------
 [ORICHALCUMPULSE]
 Name = 绯红脉动
-Description = 出场时，会将天气变为晴朗。日照强烈时，会通过古代的脉动攻击提高1/3。
+Description = 出场时，会将天气变为晴朗。日照强烈时，会通过古代的脉动双攻提高1/3。
 Score = 8
 Flags = AddOrBlockWeather
 #-------------------------------
@@ -3302,7 +3302,7 @@ Flags = AddOrBlockTerrain
 #-------------------------------
 [HADRONENGINE]
 Name = 强子引擎
-Description = 出场时，会布下电气场地。处于电气场地时，特攻增加1/3。
+Description = 出场时，会布下电气场地。处于电气场地时，双攻增加1/3。
 Score = 8
 Flags = AddOrBlockTerrain
 #-------------------------------
@@ -3426,8 +3426,8 @@ Flags = AddAura
 #-------------------------------
 [MOXIE]
 Name = 自信过度
-Description = 如果打倒对手，就会充满自信，攻击会提高。
-Score = 6
+Description = 如果打倒对手，就会充满自信，攻击会提高，每次出场只会生效一次。
+Score = 4
 Flags = StateUpAfterKO
 #-------------------------------
 [HUBRIS]
@@ -4067,7 +4067,7 @@ Flags = ChangeTypeResistance,ImmunityIntimidate,ImmunityDishearten
 #-------------------------------
 [PHANTOMPAIN]
 Name = 幻痛
-Description = 幽灵属性招式可以击中一般属性宝可梦，造成一般的伤害
+Description = 幽灵属性招式可以击中一般属性宝可梦，造成一般的伤害。
 Score = 5
 Flags = ChangeTypeResistance
 #-------------------------------
@@ -4132,8 +4132,8 @@ Flags =
 #-------------------------------
 [SERENEGRACE]
 Name = 天恩
-Description = 托天恩的福，招式的追加效果容易出现。
-Score = 3
+Description = 托天恩的福，招式的追加效果容易出现。招式威力会减少。
+Score = 2
 Flags =
 #-------------------------------
 [PYROMANCY]
@@ -4489,7 +4489,7 @@ Flags =
 #-------------------------------
 [PARROTING]
 Name = 鹦鹉学舌
-Description = 有谁使出声音类招式时，自己会接着使出该招式。在马戏篷，主动使用声音类招式时特攻、速度会提高。
+Description = 有谁使出声音类或者声音属性招式时，自己会接着使出该招式。在马戏篷，主动使用声音类或者声音属性招式时特攻、速度会提高。
 Score = 3
 Flags =
 #-------------------------------
@@ -4559,50 +4559,320 @@ Flags =
 #-------------------------------
 # custome
 #-------------------------------
-[MACROPHYLLA]
-Name = 叶藻转换
-Description = 变为与自己使出的招式相同的属性。
-Score = 6
-Flags = ChangeSelfType
-#-------------------------------
-[SACREDPOWER]
-Name = 神圣之力
-Description = 使用的特攻招式的攻击力翻倍。
+[NEUTRALIZINGGAS]
+Name = 化学变化气体
+Description = 特性为化学变化气体的宝可梦在场时，场上所有宝可梦的特性效果都会消失或者无法生效。
 Score = 8
+Flags = Banned
+#-------------------------------
+[ASONEICE]
+Name = 人马一体
+Description = 兼备蕾冠王的紧张感和雪暴马的苍白嘶鸣这两种特性。
+Score = 8
+Flags = StateUpAfterKO,Banned
+#-------------------------------
+[ASONEGHOST]
+Name = 人马一体
+Description = 兼备蕾冠王的紧张感和灵幽马的漆黑嘶鸣这两种特性。
+Score = 8
+Flags = StateUpAfterKO,Banned
+#-------------------------------
+[CHARISMA]
+Name = 魅力
+Description = 如果打倒对手，就会充满自信，特攻会提高，每次出场只会生效一次。
+Score = 4
+Flags = StateUpAfterKO
+#-------------------------------
+[CACOPHONY]
+Name = 杂音
+Description = 受到声音属性的招式攻击时，不会受到伤害，而是会提高特攻。
+Score = 4
+Flags = AddTypeImmunity,Immune_SOUND
+#-------------------------------
+[VIRTUOSO]
+Name = 美德
+Description = 提高声音属性招式的威力。
+Score = 7
 Flags = DamageUp
 #-------------------------------
-[FLAMESPIRIT]
-Name = 炎之魂
-Description = 使用招式造成伤害时，30%的概率使对手烧伤。
+[NOBILITY]
+Name = 贵族
+Description = 向对手施加威慑力，使其无法对我方使出先制招式。
+Score = 8
+Flags = BlockPriorityUp2
+#-------------------------------
+[CONDUCTOR]
+Name = 导体
+Description = 电属性招式可以击中地面属性宝可梦，造成一般的伤害。电属性招式攻击电属性宝可梦时，也造成一般的伤害。
+Score = 6
+Flags = ChangeTypeResistance
+#-------------------------------
+[BLACKLIGHT]
+Name = 黑光
+Description = 光属性的招式会变为恶属性。威力会少量提高。
+Score = 5
+Flags = ChangeMoveType
+#-------------------------------
+[WHITEOUT]
+Name = 白光
+Description = 恶属性的招式会变为光属性。威力会少量提高。
+Score = 5
+Flags = ChangeMoveType
+#-------------------------------
+[NAIVETY]
+Name = 幼稚
+Description = 如果你有这种特性，就去改变它。
+Score = -1
+Flags = Banned
+#-------------------------------
+[STARSTRUCK]
+Name = 追星
+Description = HP减少的时候，宇宙属性的招式威力会提高。
+Score = 2
+Flags = DamageUp
+#-------------------------------
+[IRRADIATE]
+Name = 辐照
+Description = HP减少的时候，光属性的招式威力会提高。
+Score = 2
+Flags = DamageUp
+#-------------------------------
+[MAESTRO]
+Name = 音乐大师
+Description = HP减少的时候，声音属性的招式威力会提高。
+Score = 2
+Flags = DamageUp
+#-------------------------------
+[UNBREAKABLE]
+Name = 牢不可破
+Description = 不会受到防御降低的效果。
+Score = 2
+Flags =
+#-------------------------------
+[INTUITION]
+Name = 直觉
+Description = 不会受到特攻降低的效果。
+Score = 2
+Flags =
+#-------------------------------
+[ETHEREAL]
+Name = 缥缈
+Description = 为该宝可梦抵挡一次接触类招式的攻击。
 Score = 4
+Flags = Banned
+#-------------------------------
+[SHARPSHOOTER]
+Name = 神枪手
+Description = 所有非接触类招式必定命中（除非目标不在场地上）。
+Score = 6
+Flags = AlwaysHit
+#-------------------------------
+[ICYVEINS]
+Name = 冰冷血脉
+Description = 下雪天气时，提高冰属性和水属性招式的威力。防御增加50%（不能叠加）。
+Score = 2
+Flags =
+#-------------------------------
+[POUNCE]
+Name = 猛扑
+Description = 出场的第一个回合，使用招式时，优先度+1。
+Score = 8
+Flags = PriorityUp1
+#-------------------------------
+[LEADERSHIP]
+Name = 领导力
+Description = 出场的第一个回合，使用招式时，优先度+1。
+Score = 8
+Flags = PriorityUp1
+#-------------------------------
+[DARKMATTER]
+Name = 暗物质
+Description = 普通属性的招式会变为宇宙属性。威力会少量提高。
+Score = 5
+Flags = ChangeMoveType
+#-------------------------------
+[WINTERGIFT]
+Name = 冬季礼物
+Description = 下雪天气时，提高所有在场宝可梦的防御和特防。
+Score = 3
+Flags =
+#-------------------------------
+[TORMENTED]
+Name = 苦修
+Description = 特攻提高，但命中会减少。
+Score = 5
+Flags = DamageUp
+#-------------------------------
+[ARSONIST]
+Name = 纵火者
+Description = 提升火属性招式的威力。
+Score = 7
+Flags = DamageUp
+#-------------------------------
+[ASTRALMAJESTY]
+Name = 星体的威严
+Description = 减半来自光属性和龙属性招式的伤害。
+Score = 2
+Flags = ReduceTakenDamage
+#-------------------------------
+[SPELLCASTER]
+Name = 施法者
+Description = HP减少的时候，超能力属性的招式威力会提高。
+Score = 2
+Flags = DamageUp
+#-------------------------------
+[ATTUNEMENT]
+Name = 调谐
+Description = 变为异常状态时，特攻会提高。
+Score = 6
+Flags =
+#-------------------------------
+[NEBULACLOUD]
+Name = 星云
+Description = 我方宇宙属性的宝可梦能力不会降低，也不会变为异常状态。
+Score = 4
+Flags = ImmunityStateDown,ImmunityStatus
+#-------------------------------
+[LIGHTAURA]
+Name = 光气场
+Description = 全体的光属性招式变强。
+Score = 3
+Flags = AddAura
+#-------------------------------
+[LIGHTBULB]
+Name = 光球
+Description = 减半来自恶属性招式的伤害，翻倍自己的光属性招式的伤害。
+Score = 6
+Flags = DamageUp,ReduceTakenDamage
+#-------------------------------
+[TERRORIZE]
+Name = 恫吓
+Description = 减半来自虫属性招式的伤害，翻倍自己的超能力属性招式的伤害。
+Score = 6
+Flags = DamageUp,ReduceTakenDamage
+#-------------------------------
+[ANTIGRAVITY]
+Name = 反引力
+Description = 声音属性和地面属性的招式可以击中宇宙属性宝可梦，造成一般的伤害。
+Score = 5
+Flags = ChangeTypeResistance
+#-------------------------------
+[PACKEDSNOW]
+Name = 积雪
+Description = 下雪天气时，减半受到的效果绝佳招式的伤害。防御增加50%（不能叠加）。
+Score = 2
+Flags =
+#-------------------------------
+[HIVEMIND]
+Name = 蜂巢意识
+Description = 提高虫属性招式的威力。
+Score = 7
+Flags = DamageUp
+#-------------------------------
+[OPAQUENESS]
+Name = 不透明
+Description = 受到光属性的招式攻击时，不会受到伤害。
+Score = 4
+Flags = AddTypeImmunity,Immune_LIGHT
+#-------------------------------
+[PRECISION]
+Name = 精确
+Description = 招式的命中得到提高。
+Score = 3
+Flags = AccuracyUp
+#-------------------------------
+[IRREDEEMABLE]
+Name = 不可救药
+Description = 减半来自光属性和妖精属性招式的伤害。
+Score = 2
+Flags = ReduceTakenDamage
+#-------------------------------
+[BONECOLLECTOR]
+Name = 拾骨者
+Description = 提高地面属性招式的威力。
+Score = 7
+Flags = DamageUp
+#-------------------------------
+[SCORCHSCALE]
+Name = 灼烧鳞片
+Description = 被先制接触类招式击中时，会使攻击者陷入灼烧状态。
+Score = 1
 Flags = SufferTargetWithBurn
 #-------------------------------
-[PURIFICATION]
-Name = 净化
-Description = 受到毒属性的招式攻击时，不会受到伤害，而是会得到回复。
+[HIVEBODY]
+Name = 蜂巢之躯
+Description = 接触类招式概率使目标进入纠缠不休状态。
+Score = 2
+Flags = AddTrap
+#-------------------------------
+[REQUIEM]
+Name = 安魂曲
+Description = 提高恶属性招式的威力。
+Score = 7
+Flags = DamageUp
+#-------------------------------
+[AFFECTION]
+Name = 喜爱
+Description = 提高妖精属性招式的威力。
+Score = 7
+Flags = DamageUp
+#-------------------------------
+[COMETSTORM]
+Name = 彗星风暴
+Description = 受到岩石属性的招式攻击时，不会受到伤害，而是会提高特攻和速度。
 Score = 4
-Flags = AddTypeImmunity,Immune_POISON
+Flags = AddTypeImmunity,Immune_ROCK
 #-------------------------------
-[CONQUEROR]
-Name = 征服者
-Description = 效果绝佳的招式的伤害翻倍。
-Score = 6
+[MAELSTROM]
+Name = 漩涡
+Description = 使对手无法逃走或替换。无法影响拥有幽灵属性的宝可梦。被对手的接触类招式攻击到时，概率使对手陷入潮旋状态。
+Score = 7
+Flags = AddTrap
+#-------------------------------
+[HAUNTED]
+Name = 鬼魅
+Description = 提高幽灵属性招式的威力。
+Score = 7
 Flags = DamageUp
 #-------------------------------
-[DRACONICAURA]
-Name = 龙之气息
-Description = 受到妖精属性的招式攻击时，不会受到伤害，而是会提高特攻。使用招式攻击妖精属性的宝可梦时，必定能命中（除非目标不在场地上）。
+[REAPER]
+Name = 收割者
+Description = 如果打倒对手，就会回复最大HP的20%。
 Score = 6
-Flags = AddTypeImmunity,Immune_FAIRY
+Flags = HealAfterKO
 #-------------------------------
-[ICYSOUL]
-Name = 冰霜之魄
-Description = 下雪天气时，特攻招式的攻击力增加50%。
+[TELEFACE]
+Name = 电视头
+Description = 头部的电视会代替自己承受物理攻击，但是样子会改变。在电气场地时，电视会恢复原状。
 Score = 3
-Flags = DamageUp
+Flags = Banned
 #-------------------------------
-[BELLOFSTORMS]
-Name = 风暴之铃
-Description = 出场时，会将天气变为下雨。从地面浮起，从而不会受到地面属性招式的攻击。
-Score = 8
-Flags = AddOrBlockWeather,AddTypeImmunity
+[DARKSWARM]
+Name = 黑暗蜂群
+Description = HP多的时候会聚起来变强。HP剩余量变少时，群体会分崩离析。
+Score = 2
+Flags = Banned
+#-------------------------------
+[SYMPHONY]
+Name = 交响乐
+Description = HP多的时候会聚起来变强。HP剩余量变少时，群体会分崩离析。
+Score = 2
+Flags = Banned
+#-------------------------------
+[DESTRUCTIVECORE]
+Name = 界限核心
+Description = HP变为一半时，壳会坏掉，变得有攻击性。形态变化前，免疫异常状态。
+Score = 3
+Flags = Banned,ImmunityStatus
+#-------------------------------
+[WINDFURY]
+Name = 风之毛皮
+Description = 风类招式的威力增加30%。减半受到的风类招式的伤害。
+Score = 6
+Flags = DamageUp,ReduceTakenDamage
+#-------------------------------
+[REGROWTH]
+Name = 再生长
+Description = 回合结束时，若自身某项能力等级小于0，那么该能力会得到提高，否则恢复最大HP的1/16。
+Score = 7
+Flags = StateUpInTurnEnd
