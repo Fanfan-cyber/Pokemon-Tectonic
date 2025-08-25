@@ -12507,6 +12507,16 @@ CAUTION: Deadly magma ahead!
 注意：请远离岩浆。
 Red lines of graffiti criss-cross the word "magma". The word "lava" is written beneath.
 “岩浆”这2个字是用纵横交错的红色线条组成的，用以警示来此的冒险者。
+The grass here is full of soot! Useful for growing plants and Grass-types.
+这里的植物上满是火山灰！不过它们是利于植物生长的对草属性的精灵也是同理。
+All this sand is starting to get in my clothes...
+所有的沙子都想往我的衣服里面钻......
+Have you meet the Soot Collector? He makes the coolest instruments!
+你见过收集火山灰的人吗？他能把这些制作成非常酷的乐器！
+The natural soot here is perfect for my Bellossom!
+这边的纯天然火山灰对我的美丽花很有用！
+The stuff near factories usually have chemicals in them, so I can't use those.
+但工厂附近的那些通常含有些杂七杂八的化学物质，所以我不敢随便用那些。
 You one of them Casaba folk?
 你是从甜瓜度假区来的吗？
 Whewie, what a fight.
@@ -12519,16 +12529,6 @@ Gotta get those battlin' bones out while I can.
 我必须锻炼到能够随时随地进行对战！
 Could never do that too much while on the ranch.
 在牧场时我可从来没战斗过这么多次。
-The grass here is full of soot! Useful for growing plants and Grass-types.
-这里的植物上满是火山灰！不过它们是利于植物生长的对草属性的精灵也是同理。
-All this sand is starting to get in my clothes...
-所有的沙子都想往我的衣服里面钻......
-Have you meet the Soot Collector? He makes the coolest instruments!
-你见过收集火山灰的人吗？他能把这些制作成非常酷的乐器！
-The natural soot here is perfect for my Bellossom!
-这边的纯天然火山灰对我的美丽花很有用！
-The stuff near factories usually have chemicals in them, so I can't use those.
-但工厂附近的那些通常含有些杂七杂八的化学物质，所以我不敢随便用那些。
 A tattered and locked door.
 一扇上锁的破门。
 A letter tacked to the door reads "Moved to Kalos. Not dealing with lava."
@@ -34296,7 +34296,7 @@ The user strikes the target with a quick jolt of electricity. Can't miss and ski
 The user throws an electrical tackle at the target. It has a 30% chance to numb.
 用电光冲撞攻击目标。30%概率使对手麻痹。
 Can't miss in rainstorm. It has a 30% chance to numb. Can hit targets flying high up.
-向对手劈下暴雷进行攻击。暴雨天时必定命中，有30%概率让对手陷入麻痹，无法攻击高空中的目标。
+向对手劈下暴雷进行攻击。雨天时，攻击必定会命中，有30%概率让对手陷入麻痹，无法攻击高空中的目标。
 A strong electric blast is loosed at the target. It has a 10% chance to numb.
 向对手发出强力电击进行攻击。有10%概率让对手陷入麻痹。
 The user throws a cage of electricity around the target, trapping and damaging it for three turns.
@@ -35228,13 +35228,13 @@ The user swims at the target at blinding speed. This attack always goes before a
 The target is immersed in water. This has a 30% chance to waterlog.
 使目标被水淹没。有30%的概率使目标水浸。
 The user waterlogs the target, then welcomes in rainstorm for eight turns.
-使用者使目标浸水，然后召唤8回合的暴雨。
+使用者使目标浸水，然后开启8回合的雨天。
 The user opens a spring to blast the target, also forming an Aqua Ring around themselves, healing 10% HP per turn.
 打开一眼泉水攻击对手，同时给自身1个水流环，每回合恢复10%HP。
 Attacks with pressurized water. Deals 50% more damage if the user has been hurt by the foe in the same turn.
 使用加压水枪进行攻击，如果此回合内被对方攻击过，则伤害增加50%。
 Summons rainstorm for six turns, boosting Water-type attacks and hindering most others.
-召唤持续6回合的暴雨，提升水属性攻击并阻碍大多数其他攻击。
+开启持续6回合的雨天，提升水属性攻击并阻碍大多数其他攻击。
 The user rams its sharp face right into the target. This lowers the user's Speed by three steps.
 使用者用锐利的面部猛撞目标。速度减小3级。
 The user crashes into the target on a ripping current. This waterlogs the target.
@@ -35242,7 +35242,7 @@ The user crashes into the target on a ripping current. This waterlogs the target
 The user rips the target, lowering their Defense by two steps. After attacking, the user switches out.
 造成伤害，并使对手物防减小2级。在攻击之后急速返回，和后备精灵进行替换。
 Strikes the target with harbor waters, then summons rainstorm for eight turns.
-使用港湾中的海水攻击对方，并召唤持续8回合的暴雨。
+使用港湾中的海水攻击对方，并开启持续8回合的雨天。
 The user rests in a riverbed, restoring its HP by half of max, and forming an Aqua Ring around themselves, healing 10% HP per turn.
 在河床附近休息，恢复一半的最大HP，并给自身1个水流环，每回合恢复10%HP。
 The user attacks with a wave of murky water, which hits all near foes and lowers their Speed by two steps.
@@ -35378,7 +35378,7 @@ The user dances with the speed of lightning, raising its Sp. Atk by two steps an
 The user slams down into the target with electricity. It has a 10% chance to numb.
 使用者用电流猛击目标。有10%的概率使目标麻痹。
 The user lays an electrical hazard which hurts foes that switch into battle. It deals double damage in rainstorm.
-使用者布置1个带电陷阱，对替换入场的敌方造成伤害。在暴雨天气中伤害翻倍。
+使用者布置1个带电陷阱，对替换入场的敌方造成伤害。在雨天中伤害翻倍。
 The user dances to encourage its ally. Their attacks this turn will be critical hits.
 跳起舞蹈鼓励队友，使其此回合的攻击必定会命中要害。
 Cloaking itself in light energy, the user shocks the target, raising the user's Sp. Def by two steps.
@@ -35402,7 +35402,7 @@ Turns the foe's power against it, dealing damage using the target's Sp. Atk stat
 An electrified cloud zaps the target, lowering their Speed. This has a 50% chance to flinch.
 通过积雨云内的电荷电击目标，使对方的速度减小1级，50%概率使其畏缩。
 The user charges, then attacks on the second turn. Charges instantly in rainstorm.
-第1回合开始冲锋积蓄能量，第2回合发动攻击，如果处于暴雨天则可以瞬间完成冲锋。
+第1回合开始冲锋积蓄能量，第2回合发动攻击，如果处于雨天则可以瞬间完成冲锋。
 The user erupts with powerful yellow light to damage and numb the target.
 使用者爆发出强大的黄光，对目标造成伤害并使其麻痹。
 The user creates an electric fueled cage, trapping and damaging it for three turns.
@@ -37863,7 +37863,7 @@ An item to be held by a Pokémon. It enables the holder to flee from any wild Po
 An item to be held by a Pokémon. It is an egg filled with happiness that earns extra Exp. Points in battle.
 携带的精灵能得到稍微更多的经验值。
 A held item. If the wielder enters a battle, money generated in that battle is increased by 50%.
-一种携带物品。携带者进入战斗时，该战斗获得的钱增加50%。
+一种携带物品。携带者出场后，该场战斗胜利获得的金钱增加50%。
 An item to be held by a Pokémon. The comforting chime of this bell makes it gain happiness twice as fast.
 携带后精灵显得很安稳，变得容易和训练师亲密。
 An item to be held by a Pokémon. It prevents wild Pokémon encounters if the holder is the first one in the party.
@@ -37879,7 +37879,7 @@ Held item which boosts move damage by 25%, but lowers the user's Speed by 15%.
 A Pokémon held item. When the holder summons sunshine, it lasts twice as long.
 携带它的精灵使用大晴天的话，晴天的持续时间会翻倍。
 A Pokémon held item. When the holder summons rainstorm, it lasts twice as long.
-携带它的精灵使用倾盆大雨的话，暴雨的持续时间会翻倍。
+携带它的精灵使用倾盆大雨的话，雨天的持续时间会翻倍。
 A Pokémon held item. When the holder summons a sandstorm, it lasts twice as long.
 携带它的精灵使用沙暴的话，沙暴的持续时间会翻倍。
 A Pokémon held item. When the holder summons hail, it lasts twice as long.
@@ -40245,7 +40245,7 @@ The Pokémon receives 25% less move damage from super-effective attacks.
 It changes type to that of the move it's about to use.
 变为与自身将要使用的技能相同的属性。
 Heals 1/8th of its max HP each turn if in rainstorm.
-暴雨天气时，会回复1/8HP。
+雨天时，会回复1/8HP。
 Powers up moves that have recoil damage by 30%.
 反伤类技能威力增加30%。
 Restores 25% of max HP when withdrawn from battle.
@@ -40257,7 +40257,7 @@ Its type matches the memory disc it holds.
 Protects the Pokémon from recoil damage.
 不会受到反伤的伤害。
 Doubles the Pokémon's Speed in a sandstorm.
-沙暴天气时，速度翻倍。
+沙暴时，速度翻倍。
 Summons a sandstorm for 4 turns upon entry.
 出场时，将天气变为沙暴，持续4回合。
 Immune to Grass-type moves, and raises Attack and Sp. Atk when hit by one.
@@ -40265,7 +40265,7 @@ Immune to Grass-type moves, and raises Attack and Sp. Atk when hit by one.
 Forms a powerful school while it has a lot of HP.
 HP多的时候会聚起来变强。
 Doubles the likelihood of the user's random added effects activating.
-托天恩的福，技能的追加效果容易出现。
+托天恩的福，技能的追加效果更加容易出现。
 Resists damage while its HP is full.
 HP全满时，受到的伤害会变少。
 Traps the foe.
@@ -40291,7 +40291,7 @@ Doubles the critical hit chance of random crit moves. Powers up critical hits by
 Summons a hailstorm for 4 turns upon entry.
 出场时，将天气变为冰雹，持续4回合。
 In sunshine, Sp. Atk is boosted by 50%, but the Pokémon is hurt for 1/10th HP each turn.
-晴朗天气时，特攻增加50%，而每回合HP会减小10%。
+晴天时，特攻增加50%，而每回合HP会减小10%。
 Boosts Sp. Atk each time a Pokémon faints.
 每当有精灵变为濒死状态时，特攻增加1级。
 Speed is raised by two steps at the end of each of its turns.
@@ -40313,7 +40313,7 @@ It can't be knocked out with one hit.
 Quadruples the critical hit chance of random crit moves.
 将随机命中要害的命中要害率变为4倍。
 Doubles the Pokémon's Speed in rainstorm.
-暴雨天气时，速度翻倍。
+雨天时，速度翻倍。
 When the Pokémon is given a non-volatile status condition by another Pokémon, that Pokemon also gets that condition.
 当被另一只精灵赋予稳定型异常时，那只精灵也会陷入该异常。
 Physical moves against it lower the attacker's Speed by three steps.
@@ -40365,7 +40365,7 @@ After being attacked, uses Parting Shot to switch out.
 The Pokémon gains twice as many stats from leveling up.
 精灵从升级中获得的能力增加翻倍。
 At the end of each turn in rainstorm, each Pokémon not immune to rainstorm has their Defense and Sp. Def lowered.
-在暴雨的每个回合结束时，每个不免疫暴雨的负面效果的精灵的双防减小1级。
+在雨天的每个回合结束时，每个不免疫雨天的负面效果的精灵的双防减小1级。
 Powers up moves of the same type by 33%.
 本属性技能的威力增加33%。
 Raises Speed by four steps when its HP is lowered below half.
@@ -40395,7 +40395,7 @@ Increases Sp. Atk by 30%.
 Turns to Finale Form when only unfainted on team. Ability becomes Synchronize.
 当队伍只剩下自身后，将变为终结形态，特性更改为同步。
 Inflicts 1/6th max HP damage to the foe when damaged during rainstorm.
-在暴雨天受到攻击时，对手会扣除1/6的HP。
+在雨天受到攻击时，对手会扣除1/6的HP。
 Boosts the Pokémon's Attack by 50%, but its attacks cannot faint the target.
 物攻增加50%，但它的攻击不会使对手濒死。
 Sound-based attacks turn Ice-type and are boosted by 30%.
@@ -40597,7 +40597,7 @@ Raises Sp. Atk by two steps whenever any battler falls asleep.
 If an attack lowers its HP to half or less, the attacker becomes drowsy.
 被攻击使HP减小到一半以下时，使攻击者陷入瞌睡状态。
 Move damage that's decreased by rainstorm is decreased twice as much.
-暴雨天减小技能伤害的效果翻倍。
+雨天减小技能伤害的效果翻倍。
 Creates Grey Mist for three turns upon entry.
 出场时，开启灰雾，持续3回合。
 Speed is doubled on the first turn.
@@ -40679,7 +40679,7 @@ Heals 1/16th HP every turn. Protected from being numbed or waterlogged.
 Immune to Poison-type moves, and boosts Defense and Sp. Def when hit by one.
 免疫毒属性技能，被毒属性技能击中时增加双防1级。
 Restores 1/8 HP in sunshine, 1/4 when hit by Fire-type moves. Loses 1/8 in rainstorm, takes 25% more from Water-type moves.
-晴天每回合恢复1/8HP，受火攻恢复25%HP。暴雨天每回合损失1/8HP，受水攻损失25%HP。
+晴天每回合恢复1/8HP，受火攻恢复25%HP。雨天每回合损失1/8HP，受水攻损失25%HP。
 At the end of every turn, each Pokémon takes 1/8th HP damage. This is treated as Fire-type.
 回合结束时，每只精灵受到1/8最大HP的火属性伤害。
 Immune to Fire-type moves, and raises Attack and Sp. Atk if hit by one.
@@ -40687,7 +40687,7 @@ Immune to Fire-type moves, and raises Attack and Sp. Atk if hit by one.
 Powers up priority moves by 30%.
 先制技能威力增加30%。
 Upon entry, summons Natural Protection for 4 turns.
-进入战斗后，召唤1个持续4回合的自然防护。
+出场时，开启持续4回合的自然防护。
 Flying-type attacks have a 40% chance to burn.
 飞行属性的攻击有40%概率使对方烧伤。
 On the first turn, its attacks frostbite the target.
@@ -40699,13 +40699,13 @@ Grows at the end of each turn, slowing down but improving other stats.
 Doubles Attack, but the Pokémon becomes dizzy after attacking.
 物攻翻倍，但是攻击后会使自身陷入混乱。
 Upon entry, summons a Cruel Cocoon on the Pokémon's side for 6 turns.
-进入战斗后，召唤1个持续6回合的残酷之茧。
+出场时，开启持续6回合的残酷之茧。
 Hits opponent with Gust when withdrawn from battle.
 离开战斗时，使用起风攻击对手。
 Grants immunity to Bug-type moves, and raises Attack and Sp. Atk when hit by one.
 免疫虫属性技能，被虫属性技能击中时双攻增加1级。
 Upon entry, summons a Misdirecting Fog on the Pokémon's side for 6 turns.
-进入战斗后，召唤持续6回合的迷惑之雾。
+出场时，开启持续6回合的迷惑之雾。
 Raises Speed by two steps after knocking out any Pokémon.
 打倒对手时，速度增加2级。
 Immune to Psychic-type moves, and raises Attack and Sp. Atk if hit by one.
@@ -40731,7 +40731,7 @@ Summons a hail for four turns when hit by an attack.
 Flying-type attacks have a 40% chance to frostbite.
 飞行属性的攻击有40%概率使对方冻伤。
 Upon entry, lowers the foe's Speed stat by two steps.
-进入战斗后，使对手的速度减小2级。
+出场时，使对手的速度减小2级。
 Boosts Attack by 30%, but lowers Attack after using a physical move.
 物攻增加30%，但使用物理类技能后会使物攻减小1级。
 Immune to Fire-type and Ice-type moves.
@@ -40745,7 +40745,7 @@ Boosts the power of wind-based moves by 50%.
 Completely protects allies from foes' spread moves.
 保护队友不受对手的扩散类技能的攻击。
 Pokémon that swap in for this have their Speed raised and their PP fully restored.
-进入战斗时，创造1个持续10回合的保护罩，保护自身不受负面状态影响。
+出场时，开启持续10回合的保护罩，保护自身不受负面状态影响。
 Turns the held item of a Pokémon it hits into gold coins for you to take.
 将被击中的精灵的物品转化为金钱，金钱会散落在场上。
 Immune to Fire-type moves and raises Defense and Sp. Def if hit by one.
@@ -40769,9 +40769,9 @@ Raises Attack and Sp. Atk whenever any Pokémon uses a dance move.
 Heals 1/16th HP every turn. Protected from being poisoned.
 每回合恢复1/16HP，并且不会陷入中毒。
 Upon entry, traps each opponent in a whirlpool for two turns.
-进入战斗后，将所有对手困在潮漩中两回合。
+出场时，将所有对手困在潮漩中2回合。
 Summons eclipse for four turns upon entry.
-出场时，召唤日食或月食，持续4回合。
+出场时，开启日食或月食，持续4回合。
 If an attack lowers the Pokémon's HP to half or less, the attacker becomes fractured.
 被攻击到HP低于一半时，使攻击者陷入破碎状态。
 Deals 30% more move damage to Pokémon that are taller than it.
@@ -40887,7 +40887,7 @@ Rather than take recoil damage, it swaps out, and its replacement takes that dam
 Pokémon can't raise their stats. Pokémon that dance take damage equal to 1/4th their HP.
 所有精灵无法增加能力等级。使用舞蹈类技能的精灵会受到其最大HP四分之一的伤害。
 Uses Snatch upon entry, stealing self-targeting status moves.
-进入战斗后立即使用抢夺。
+出场时，使用抢夺。
 Boosts the power of punching moves by 50%.
 拳类技能威力增加30%。
 At end of turn, regenerates its previously-used berry.
@@ -40915,13 +40915,13 @@ Multi-hit moves can hit up to twice as many times.
 Copies the Ability of the Pokémon it switches in to replace.
 复制它要替换的精灵的特性。
 Boosts power of sound-based moves by 30%.
-增加声音技能30%的威力。
+声音类技能威力增加30%。
 When hit while asleep, hits back instantly with Snore.
 如果睡眠时被击中，会立即用鼾声还击。
 Summons moonglow for four turns when hit by an attack.
-受到攻击后召唤持续4回合的月辉。
+被攻时，开启持续4回合的月辉。
 Boosts Attack by 30% in moonglow.
-在月辉下增加30%的攻击。
+月辉时，物攻增加30%。
 At end of turn, heals 1/12th HP if holding a clothing item.
 在回合结束时，若携带衣物类物品，则回复1/12的HP。
 Transforms into Midnight Form at the Full Moon. Ability becomes No Guard.
@@ -41027,7 +41027,7 @@ Copies the unmodified stats of the Pokémon it switches in to replace.
 Boosts Sp. Atk by 30%, but lowers Sp. Atk after using a special move.
 特攻增加30%，但使用特殊类技能后特攻会减小1级。
 Boosts Sp. Atk by 30% in rainstorm.
-在暴雨中增加30%的特攻。
+在雨天时，特攻增加30%。
 Heals the Pokémon's non-volatile status conditions each turn if in sunshine.
 晴天时，每回合回复稳定型异常。
 The Pokémon refuses to fight. However, it gathers extra candy when trainers flee.
@@ -41101,7 +41101,7 @@ Releases a hazard layer of Spikes when hit by an attack.
 Boosts power of light-based moves by 50%.
 光类技能的威力增加50%。
 Powers up Fairy-type moves by 50% in rainstorm.
-在暴雨天气时，妖精属性技能的威力增加50%。
+在雨天时，妖精属性技能的威力增加50%。
 Ignores screens, Substitute, and Abilities that would affect its moves.
 无视对手的屏障类效果、替身以及会影响到自身的技能的特性。
 Moves that can flinch are 50% more likely. Deals 50% more damage to Pokémon with flinch immunity.
@@ -41161,7 +41161,7 @@ The Pokémon is also Steel-type, but it takes 15% more damage from moves.
 Doubles Defense in rainstorm.
 在雨天时，物防翻倍。
 Summons a sandstorm for four turns when hit by an attack.
-受到攻击后召唤持续4回合的沙暴。
+被击时，开启持续4回合的沙暴。
 Takes 30% less damage in a sandstorm.
 在沙暴中受到的伤害减小30%。
 When it attacks from underground in sandstorm, it'll transform into Reaper form.
@@ -41211,7 +41211,7 @@ Special moves against it lower the attacker's Speed and Sp. Atk.
 The Pokémon and other battlers don't benefit from same-type attacking bonus.
 全部精灵失去本属性加成。
 Boosts Speed by 50% in rainstorm. Doubles random added effect chance in rainstorm.
-在暴雨天气中，速度增加50%，技能的附加效果的触发概率翻倍。
+在雨天时，速度增加50%，技能的附加效果的触发概率翻倍。
 Doubles critical hit chance. Restores HP for half the damage it does with critical hits.
 将命中要害率翻倍。用命中要害造成的伤害的一半恢复HP。
 At the end of each round, lowers other waterlogged Pokémon's Attack and Sp. Atk by two steps.
@@ -41233,7 +41233,7 @@ Attack is boosted by 50% if a Tailwind is blowing.
 The Pokémon is also Bug-type, but its Speed is halved.
 同时被视为虫属性，但速度减半。
 Falls asleep upon entry, but raises all of its stats by two steps.
-进入战斗后会直接睡眠，使自身全部能力的能力等级增加2级。
+出场时，会直接睡眠，使自身全部能力的能力等级增加2级。
 Whenever the Pokémon falls asleep, each other battler becomes drowsy.
 陷入睡眠时，其他精灵也会陷入瞌睡。
 The Pokémon takes 30% less move damage in hail.
@@ -41283,9 +41283,9 @@ If an attack lowers its HP to half or less, leeches the attacker.
 Prevents half the self-damage from recoil. Powers up moves that have recoil damage by 20%.
 增加具有反伤效果的技能的威力20%，并且技能的反伤伤害减半。
 Summons rainstorm for four turns when hit by an attack.
-受到攻击时，召唤持续4回合的暴雨。
+受到攻击时，开启持续4回合的雨天。
 Upon entry, summons a Turbulent Sky on the Pokémon's side for 6 turns.
-进入战斗后，制造1个持续6回合的动荡之空。
+出场时，开启持续6回合的动荡之空。
 Pokémon that swap in for this have their Speed raised.
 替换该精灵上场的精灵，速度增加1级。
 Ignores Abilities that would affect its moves. Its attacks can't be redirected to new targets.
@@ -41315,7 +41315,7 @@ At the end of each turn in sunshine, each Pokémon not immune to sunshine has th
 Boosts the Pokémon's Attack by 30% in sunshine.
 在阳光下，精灵的物攻增加30%。
 Summons eclipse for four turns when hit by an attack.
-受到攻击后，召唤持续4回合的日食。
+被击时，开启持续4回合的日食。
 Powers up Water-type moves by 50%.
 水属性技能的威力增加50%。
 It avoids hazards and can't be knocked out with one hit.
@@ -41413,7 +41413,7 @@ Negates enemy status moves that target the Pokémon or create hazards around it.
 Double Sp. Def in eclipse.
 日食天气时，特防翻倍。
 Boosts Speed by 50% in rainstorm. Can't miss during rainstorm.
-在暴雨天气中，速度增加50%，且攻击必定命中。
+在雨天中，速度增加50%，且攻击必定命中。
 Immune to weather downsides, and takes 20% less damage from attacks during weather.
 免疫天气的负面效果，在天气变化时减小受到的伤害。
 Powers up all tagged moves by 20%.
@@ -41425,7 +41425,7 @@ Draws in moves from foes with base power 100 or more. Takes 15% less move damage
 Uses Power Split upon entry or when hit by a move.
 进入战斗或被命中时，使用力量平分。
 Upon entry, summons a Primal Forest on the Pokémon's side for 6 turns.
-进入战斗时，召唤持续6回合的原始之森。
+出场时，开启持续6回合的原始之森。
 Upon entry, creates a Willful Room for four turns, reducing all hits by 30 damage.
 出场时，开启1个持续4回合的意愿空间，减小所有攻击30点伤害。
 During hail, immune to Fire- and Electric-type moves.
@@ -41467,7 +41467,7 @@ When the Pokémon's level is 25 or higher, it transforms into a member of its fa
 Turns the held item of a Pokémon it hits into coins. Consumes coins to heal for 1/10th the amount consumed when its HP becomes half or less. This can overheal.
 攻击时，把对手的物品变为金钱并散落在场上，当HP小于一半时，消耗场上的金钱，回复消耗金钱量的10%的HP，可以过量回复。
 When knocks out any foe, it reverses its own timeline, changes to its initial state upon entering the battle.
-当打倒对手时，回溯时间，将自身回溯到刚进入战斗时的状态。
+当打倒对手时，回溯时间，将自身回溯到刚出场时的状态。
 Boosts both one offending and defending stat by one step according to the foe's defenses and offenses.
 出场时，根据对手的双攻和双防，自适应增加自身的某项攻击和防御。
 Attacks switching opponents with Pursuit if the Pokémon's HP is greater than 50%.
@@ -44952,9 +44952,9 @@ Sandstorm
 Hail
 冰雹
 Harsh Sun
-烈日
+大晴天
 Heavy Rain
-暴雨
+大雨天
 Strong Winds
 强风
 Eclipse
@@ -46510,13 +46510,13 @@ Weathers are special states that effect the entire battlefield and help or hinde
 Weather Duration
 天气持续时间
 Weathers last a certain number of turns. The length differs depending on what move or ability summoned the weather. The duration can be extended by certain items.
-天气会持续一定的回合数，持续时间长短取决于召唤天气的技能或特性，部分物品可以增加持续时间。
+天气会持续一定的回合数，持续时间长短取决于开启天气的技能或特性，部分物品可以增加持续时间。
 Sunshine
 晴天
 Sunshine lowers attack damage by 15%. Fire and Grass-type moves/Pokémon are immune to this. Fire-type attacks are boosted by 30%.
-阳光会减小15%的攻击伤害。火属性和草属性的技能/精灵免疫此效果。火属性攻击的威力会增加30%。
+晴天会减小15%的攻击伤害。火属性和草属性的技能/精灵免疫此效果。火属性攻击的威力会增加30%。
 Rainstorm lowers attack damage by 15%. Water and Electric-type moves/Pokémon are immune to this. Water-type attacks are boosted by 30%.
-暴雨会减小15%的攻击伤害。水属性和电属性的技能/精灵免疫此效果。水属性攻击的威力会增加30%。
+雨天会减小15%的攻击伤害。水属性和电属性的技能/精灵免疫此效果。水属性攻击的威力会增加30%。
 Sandstorm deals damage to all Pokémon at the end of each turn. Rock and Ground-types are immune to this. Additionally, Rock-types get +50% Special Defense.
 沙暴中每回合结束时对所有精灵造成伤害，但岩石属性和地面属性免疫此效果，且岩石属性特防增加50%。
 Hail deals damage to all Pokémon at the end of each turn. Ice and Ghost-types are immune to this. Additionally, Ice-types get +50% Defense.
@@ -48832,7 +48832,7 @@ Enemy attacks always activate their additional effects.
 A Litany of Lullabies, Seldom Sung
 曲终收拨当心画，四弦一声如裂帛。
 Your Pokémon gain the "Perish Song" status when they enter battle.
-你的精灵在进入战斗时会获得“灭亡之歌”状态。
+你的精灵在出场时会获得“灭亡之歌”状态。
 Eternity in our clutches. Ouroboros ever-yearning.
 永恒尽在掌握。衔尾蛇永世渴求。
 Enemy Pokemon recycle consumed items at end of turn. Stolen items turn to dust.
@@ -54008,7 +54008,7 @@ The bright sunlight doesn't seem to bother {1} at all.
 {1} sent a ring-shaped cloud of spores into the air!
 {1}将一团团孢子送入风中！
 {1} is stretched out its body and is relaxing in the sunshine.
-{1}正伸展着身体， 在阳光下悠闲地晒着太阳。
+{1}正伸展着身体，在阳光下悠闲地晒着太阳。
 {1} is giving off a floral scent.
 {1}正散发着花香。
 {1} seems to be happy about the great weather!
@@ -54038,7 +54038,7 @@ The bright sunshine seems to bothering {1}.
 {1} is starting to sweat.
 {1}身上在冒汗。
 {1} seems a little uncomfortable in this weather.
-{1}看起来在现在这天气中 有些不太舒服。
+{1}看起来在现在这天气中有些不太舒服。
 {1} looks a little overheated.
 {1}看起来快热晕了。
 {1} seems very hot...
@@ -54060,7 +54060,7 @@ The bright sunshine seems to bothering {1}.
 {1} is moving around happily!
 {1}正在开心地散步！
 Whoa! {1} suddenly started dancing in happiness!
-哇！ {1} 突然兴奋地手舞足蹈起来！
+哇！{1}突然兴奋地手舞足蹈起来！
 {1} is steadily keeping up with {2}!
 {1}正在稳步追赶 {2}！
 {1} is happy skipping about.
@@ -54120,7 +54120,7 @@ It looks like {1} wants to dance with {2}!
 It looks like {1} will fight just about anyone right now!
 {1}看起来想跟任何人交手！
 {1} is growling in a way that sounds almost like speech...
-{1}在咆哮， 但又好像是在说话...
+{1}在咆哮，但又好像是在说话...
 {1} is looking down steadily.
 {1}正在稳稳地向下看去。
 {1} is sniffing around.
@@ -54178,7 +54178,7 @@ It looks like {1} will fight just about anyone right now!
 ...{1} noticed that {2}'s shoes are a bit dirty.
 ...{1}注意到{2}的鞋子脏了。
 Seems {1} ate something strange, it's making an odd face...
-{1}好像吃了什么奇怪的东西， 表情变得很古怪...
+{1}好像吃了什么奇怪的东西，表情变得很古怪...
 {1} seems to be smelling something good.
 {1}似乎闻到了什么好味道。
 {1} noticed that {2}' Bag has a little dirt on it...
@@ -54210,7 +54210,7 @@ Seems {1} ate something strange, it's making an odd face...
 {1} is still feeling great!
 {1}感觉还不错！
 {1} stretched out its body and is relaxing.
-{1}正在伸展身体， 放松自身。
+{1}正在伸展身体，放松自身。
 {1} is doing its' best to keep up with {2}.
 {1}正在竭尽全力追赶{2}的脚步。
 {1} is happily cuddling up to {2}!
@@ -56112,25 +56112,25 @@ Stop Reading
 Which section would you like to read?
 要阅读哪一部分？
 Tapu Lele's ability "Flutter Totem" creates a "Cruel Cocoon" upon entry that only affects its side and lasts for 6 turns.
-卡璞·蝶蝶的特性“翩翩图腾”，会在进入战斗时制造1个持续6回合，且只影响己方的“残酷之茧”。
+卡璞·蝶蝶的特性“翩翩图腾”，会在出场时开启持续6回合，且只影响己方的“残酷之茧”。
 At the end of each turn, it heals Pokémon on its side by 1/8th of their max HP.
 在每个回合结束时，它会恢复其同侧精灵最大HP的1/8。
 However, they also lose 1 PP from each of their moves. Cruel indeed.
 但这也会让所有技能的PP减小，这就是其残酷的地方。
 Tapu Koko's ability "Storm Totem" creates a "Turbulent Sky" upon entry that only affects its side and lasts for 6 turns.
-卡璞·鸣鸣的特性“暴风图腾”，会在进入战斗时制造1个持续6回合，且只影响己方的“动荡之空”。
+卡璞·鸣鸣的特性“暴风图腾”，会在出场时开启持续6回合，且只影响己方的“动荡之空”。
 Pokémon on its side get a 30% move damage boost, but they are prevented from using moves that are the same type as the move they most recently used.
 其同侧的精灵获得30%的技能伤害增加，但他们无法使用与最近使用的技能相同属性的技能。
 Or, to state it another way, they can't use the same move type twice in a row.
 只要上回合使用了某种属性的技能，下回合同属性就会被禁止。
 Tapu Bulu's ability "Wild Totem" creates a "Primal Forest" upon entry that only affects its side and lasts for 6 turns.
-卡璞·哞哞的特性“荒野图腾”，会在进入战斗时制造1个持续6回合，且只影响己方的“原始之森”。
+卡璞·哞哞的特性“荒野图腾”，会在出场时开启持续6回合，且只影响己方的“原始之森”。
 Whenever a Pokémon on its side is hit by an offensive attack, it becomes enraged.
 每当其同侧的精灵被攻击命中时，它会陷入狂暴状态。
 Thereby, its defense stats are both lowered by 1 step and its attack stats are both raised by 1 step.
 这会使其减小自身的双防， 但增加自身的双攻。
 Tapu Fini's ability "Fog Totem" creates a "Misdirecting Fog" upon entry that only affects its side and lasts for 6 turns.
-卡璞·鳍鳍的特性“迷雾图腾”，会在进入战斗时制造1个持续6回合，且只影响己方的“迷惑之雾”。
+卡璞·鳍鳍的特性“迷雾图腾”，会在出场时开启持续6回合，且只影响己方的“迷惑之雾”。
 Whenever a foe finishes attacking a Pokémon on its side, the attacker is forced to switch out of battle.
 每当敌方攻击其同侧的精灵后，攻击者会被迫替换出战斗。
 Unlike moves such as Roar or Whirlwind, however, the trainer has enough time to select the replacement themselves.
@@ -56140,7 +56140,7 @@ You put down the book.
 Think you can handle whatever strategy I'm hiding?
 你觉得你能处理好我隐藏起来的策略？
 Ah, my dear friend \PN, care for another battle?
-啊，我亲爱的 \PN，要再来一场战斗吗？
+啊，我亲爱的\PN，要再来一场战斗吗？
 Hey there, \PN! How about a friendly Pokémon showdown?
 就在这里，\PN！来一场友谊赛怎样？
 The time has come for us to engage in yet another thrilling battle!
