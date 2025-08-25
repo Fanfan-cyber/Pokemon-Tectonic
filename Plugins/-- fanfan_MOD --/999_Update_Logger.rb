@@ -18,8 +18,8 @@
 一点想法
 =end
 
-MOD_VERSION  = "0.4.2"
-VERSION_NAME = ["​​Sidus Coniungens", "星织初络"]
+MOD_VERSION  = "0.4.3"
+VERSION_NAME = ["Pivot of Fate", "命途枢转"]
 
 CHANGE_LOG = <<-LOGGER
 #==============================================================================#
@@ -163,6 +163,9 @@ customabil/nocustomabil，开启/关闭特性自选模式
 doublebattle/disabledouble，开启/关闭全双打模式
 disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
 
+0.4.3 Pivot of Fate / 命途枢转
+1.
+
 0.4.2​​ Sidus Coniungens / 星织初络​
 1.现在Spintensity被攻击时自身也会受到攻击者受到的伤害的一半的伤害
 2.修改了大量中文的翻译
@@ -214,7 +217,6 @@ disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
 48.现在战斗模拟器中的战斗将不会再随机出现塔罗牌效果
 49.现在战斗模拟器会准确记录下对手的塔罗牌效果
 50.现在战斗模拟器在导出队伍时可以自由选择指定一个塔罗牌效果
-51.
 
 0.4.1 Celestial Covenant / 星约夜临​
 1.重修了战斗模拟器的加载逻辑，现在战斗模拟器只会在必要时才重新加载队伍的数据
