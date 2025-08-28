@@ -36,6 +36,15 @@ module TA
         yield(key, value)
       end
     end
+
+    def get_mode
+      mode = []
+      each do |code, value|
+        next unless value.is_a?(TrueClass)
+        mode << code.to_s
+      end
+      mode
+    end
   end
 
   def self.get(var, default = nil)
@@ -48,6 +57,10 @@ module TA
 
   def self.increase(var, increment = 1)
     $Trainer&.increase_ta(var, increment)
+  end
+
+  def self.get_mode
+    $Trainer&.check_ta.get_mode
   end
 
   def self.find_pkmn(species: nil, form: 0, shiny: false, place: :party)
