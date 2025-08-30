@@ -326,6 +326,15 @@ def statStepsValueScore(battler)
     return score
 end
 
+def getExchangeItemEffectScore(user, target)
+    if user.hasActiveItemAI?(%i[FLAMEORB FROSTORB POISONORB STICKYBARB IRONBALL])
+        return 150
+    elsif user.hasActiveItemAI?(GameData::Item.getByFlag("ChoiceLocking"))
+        return 120
+    end
+    return 0
+end
+
 def getMultiStatUpEffectScore(statUpArray, user, target, fakeStepModifier: 0, evaluateThreat: true)
     echoln("\t\t[EFFECT SCORING] Scoring the effect of raising stats #{statUpArray.to_s} on target #{target.pbThis(true)}")
     
@@ -391,7 +400,7 @@ def getMultiStatUpEffectScore(statUpArray, user, target, fakeStepModifier: 0, ev
                 stepTotal += 1
                 stepTotal = 9 if stepTotal > 9
                 statIncreaseAmount -= 1
-                totalIncrease += increase.to_f * [0,1,1,0.9,0.9,0.8,0.8,0.7,0.6,0.5][stepTotal]
+                totalIncrease += increase.to_f * ([0,1,1,0.9,0.9,0.8,0.8,0.7,0.6,0.5][stepTotal] || 0)
             end
         end
         if %i[DEFENSE SPECIAL_DEFENSE].include?(statSymbol)
@@ -399,7 +408,7 @@ def getMultiStatUpEffectScore(statUpArray, user, target, fakeStepModifier: 0, ev
                 stepTotal += 1
                 stepTotal = 7 if stepTotal > 7
                 statIncreaseAmount -= 1
-                totalIncrease += increase.to_f * [0,1,1,0.9,0.9,0.6,0.4,0.3][stepTotal]
+                totalIncrease += increase.to_f * ([0,1,1,0.9,0.9,0.6,0.4,0.3][stepTotal] || 0)
             end
         end
         if statSymbol == :SPEED
@@ -410,11 +419,11 @@ def getMultiStatUpEffectScore(statUpArray, user, target, fakeStepModifier: 0, ev
                 stepTotal = 6 if stepTotal > 6
                 statIncreaseAmount -= 1
                 if sTier == 2
-                    totalIncrease += increase.to_f * [0,1.1,0.9,0.5,0.4,0.1,0.1][stepTotal] # FAST, first 2 enable outspeeding all, rest unnneeded
+                    totalIncrease += increase.to_f * ([0,1.1,0.9,0.5,0.4,0.1,0.1][stepTotal] || 0) # FAST, first 2 enable outspeeding all, rest unnneeded
                 elsif sTier == 1
-                    totalIncrease += increase.to_f * [0,1,1.1,1,1,0.5,0.2][stepTotal] # AVERAGE, first 2 are good, next 4 enable outspeeding all
+                    totalIncrease += increase.to_f * ([0,1,1.1,1,1,0.5,0.2][stepTotal] || 0) # AVERAGE, first 2 are good, next 4 enable outspeeding all
                 else
-                    totalIncrease += increase.to_f * [0,0.3,0.3,0.5,0.7,1,0.5][stepTotal] # SLOW, speed low value unless in large quantity
+                    totalIncrease += increase.to_f * ([0,0.3,0.3,0.5,0.7,1,0.5][stepTotal] || 0) # SLOW, speed low value unless in large quantity
                 end
             end
         end

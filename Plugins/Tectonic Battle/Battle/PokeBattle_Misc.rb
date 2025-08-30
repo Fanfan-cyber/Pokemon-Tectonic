@@ -121,8 +121,8 @@ class PokeBattle_Battle
                 pbDisplaySlower(_INTL("{1} wiped the slate clean.", b.pbThis)) if showMessages
                 b.pbCureStatus
                 b.pbCureStatus # Duplicated intentionally
-                #b.pbResetLoweredStatSteps(true)
-                b.pbResetStatSteps(true)
+                b.pbResetLoweredStatSteps(true)
+                b.disableLoweredBaseStatEffects
                 b.resetAbilities
                 b.eachEffect(true) do |effect, _value, data|
                     next unless data.avatars_purge || data.is_mental?
@@ -374,13 +374,12 @@ class PokeBattle_Battle
         return true
     end
 
-    def typeEffectivenessMult(typeMod)
-        mult = typeMod / Effectiveness::NORMAL_EFFECTIVE.to_f
+    def typeEffectivenessMult(mult)
         mult = Math.log(mult, 2) + 1 if mult >= 4 # TectoQuake 2/4/8/16/32 etc => 2/3/4/5/6 etc
         if @field.effectActive?(:PolarizedRoom)
-            if Effectiveness.super_effective?(typeMod)
+            if Effectiveness.super_effective?(mult)
                 mult *= 1.25
-            elsif Effectiveness.not_very_effective?(typeMod)
+            elsif Effectiveness.not_very_effective?(mult)
                 mult *= 0.75
             end
         end

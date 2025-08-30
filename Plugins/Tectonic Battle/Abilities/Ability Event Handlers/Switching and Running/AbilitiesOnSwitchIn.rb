@@ -81,13 +81,13 @@ BattleHandlers::AbilityOnSwitchIn.add(:STYGIANNIGHT,
 
 BattleHandlers::AbilityOnSwitchIn.add(:EVENTHORIZON,
   proc { |ability, battler, battle, aiCheck|
-      pbBattleWeatherAbility(ability, :StarStorm, battler, battle, false, true, aiCheck, baseDuration: -1)
+      pbBattleWeatherAbility(ability, :StarStorm, battler, battle, true, true, aiCheck, baseDuration: -1)
   }
 )
 
 BattleHandlers::AbilityOnSwitchIn.add(:HEATDEATH,
   proc { |ability, battler, battle, aiCheck|
-      pbBattleWeatherAbility(ability, :IceAge, battler, battle, false, true, aiCheck, baseDuration: -1)
+      pbBattleWeatherAbility(ability, :IceAge, battler, battle, true, true, aiCheck, baseDuration: -1)
   }
 )
 
@@ -1221,6 +1221,26 @@ BattleHandlers::AbilityOnSwitchIn.add(:LASTGASP,
     battler.applyEffect(:LastGasp)
     battler.applyEffect(:PerishSong, 3)
     battler.hideMyAbilitySplash
+  }
+)
+
+=begin
+BattleHandlers::AbilityOnSwitchIn.add(:UNBOUND,
+  proc { |ability, battler, battle, aiCheck|
+      next 0 if aiCheck
+      battle.pbShowAbilitySplash(battler, ability)
+      battle.pbDisplay(_INTL("{1} overpowers type immunities!", battler.pbThis))
+      battle.pbHideAbilitySplash(battler)
+  }
+)
+=end
+
+BattleHandlers::AbilityOnSwitchIn.add(:ROOMLOCK,
+  proc { |ability, battler, battle, aiCheck|
+      next 0 if aiCheck
+      battle.pbShowAbilitySplash(battler, ability)
+      battle.pbDisplay(_INTL("{1} prevents rooms from decaying!", battler.pbThis))
+      battle.pbHideAbilitySplash(battler)
   }
 )
 

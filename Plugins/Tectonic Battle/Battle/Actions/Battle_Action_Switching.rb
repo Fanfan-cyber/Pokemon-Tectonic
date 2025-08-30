@@ -382,21 +382,18 @@ class PokeBattle_Battle
     end
 
 =begin
-    def getTypedHazardHPRatio(hazardType, type1, type2 = nil, type3 = nil, ratio: 0.125)
-        typeMod = Effectiveness.calculate(hazardType, type1, type2, type3)
+    def getTypedHazardHPRatio(hazardType, battler, ratio: 0.125)
+        typeMod = Effectiveness.calculate(hazardType, battler.pbTypes(true))
         effectivenessMult = typeEffectivenessMult(typeMod)
         return effectivenessMult * ratio
     end
 =end
 
-    def getTypedHazardHPRatio(hazardType, type1, type2 = nil, type3 = nil, ratio: 0.125)
-        typeMods = [Effectiveness::NORMAL_EFFECTIVE_ONE] * 3
-        [type1, type2, type3].uniq.each_with_index do |calc_type, i|
-            next unless calc_type
-            ret_eff = Effectiveness.calculate_one(hazardType, calc_type)
-            typeMods[i] = apply_inverse(ret_eff)
+    def getTypedHazardHPRatio(hazardType, battler, ratio: 0.125)
+        typeMod = 1.0
+        battler.pbTypes(true).each do |calc_type|
+            typeMods *= apply_inverse(Effectiveness.calculate_one(hazardType, calc_type))
         end
-        typeMod = typeMods.reduce(1.0, :*)
         effectivenessMult = typeEffectivenessMult(typeMod)
         return effectivenessMult * ratio
     end
@@ -414,9 +411,9 @@ class PokeBattle_Battle
     end
 
     def apply_inverse(effectiveness)
-        return effectiveness if !should_inverse? || effectiveness == Effectiveness::NORMAL_EFFECTIVE_ONE
-        return Effectiveness::SUPER_EFFECTIVE_ONE if effectiveness < Effectiveness::NORMAL_EFFECTIVE_ONE
-        return Effectiveness::NOT_VERY_EFFECTIVE_ONE
+        return effectiveness if !should_inverse? || effectiveness == Effectiveness::NORMAL_EFFECTIVE
+        return Effectiveness::SUPER_EFFECTIVE if effectiveness < Effectiveness::NORMAL_EFFECTIVE
+        return Effectiveness::NOT_VERY_EFFECTIVE
     end
 
     # Called when a Pokémon switches in (entry effects, entry hazards).
@@ -502,8 +499,7 @@ class PokeBattle_Battle
         unless battler.immuneToHazards?(aiCheck)
             # Stealth Rock
             if battler.pbOwnSide.effectActive?(:StealthRock) && battler.takesIndirectDamage?(false,aiCheck)
-                bTypes = battler.pbTypes(true)
-                getTypedHazardHPRatio = getTypedHazardHPRatio(:ROCK, bTypes[0], bTypes[1], bTypes[2])
+                getTypedHazardHPRatio = getTypedHazardHPRatio(:ROCK, battler)
                 if getTypedHazardHPRatio > 0
                     # Rock Climber
                     if battler.shouldAbilityApply?(:ROCKCLIMBER,aiCheck)
@@ -536,8 +532,7 @@ class PokeBattle_Battle
 
             # Feather Ward
             if battler.pbOwnSide.effectActive?(:FeatherWard) && battler.takesIndirectDamage?(false,aiCheck)
-                bTypes = battler.pbTypes(true)
-                getTypedHazardHPRatio = getTypedHazardHPRatio(:STEEL, bTypes[0], bTypes[1], bTypes[2])
+                getTypedHazardHPRatio = getTypedHazardHPRatio(:STEEL, battler)
                 if getTypedHazardHPRatio > 0
                     if aiCheck
                         featherWardDamage = battler.applyFractionalDamage(getTypedHazardHPRatio, aiCheck: true)
@@ -590,10 +585,9 @@ class PokeBattle_Battle
 
                 # Live Wire
                 if battler.pbOwnSide.effectActive?(:LiveWire) && battler.takesIndirectDamage?(false,aiCheck)
-                    bTypes = battler.pbTypes(true)
                     liveWireRation = 1.0/12.0
                     liveWireRation *= 2 if rainy?
-                    getTypedHazardHPRatio = getTypedHazardHPRatio(:ELECTRIC, bTypes[0], bTypes[1], bTypes[2], ratio: liveWireRation)
+                    getTypedHazardHPRatio = getTypedHazardHPRatio(:ELECTRIC, battler, ratio: liveWireRation)
                     if getTypedHazardHPRatio > 0
                         if aiCheck
                             liveWireDamage = battler.applyFractionalDamage(getTypedHazardHPRatio, aiCheck: true)
