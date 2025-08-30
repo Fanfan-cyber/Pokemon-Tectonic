@@ -5062,7 +5062,7 @@ Accuracy = 100
 TotalPP = 10
 Target = NearOther
 FunctionCode = TwoTurnAttackCanChooseOne
-Flags = CanProtect
+Flags = CanProtect,ForceSignature
 Description = The user charges, can used instantly for half of its power.
 Animation = HYPERBEAM
 #-------------------------------

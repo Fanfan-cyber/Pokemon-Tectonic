@@ -195,7 +195,7 @@ def guess_effective(off_type = nil) # to-do def_types
     defensive_types_name << defensive_type[1]
   end
   # calc_effective
-  effective = Effectiveness.calculate(offensive_type_id, defensive_types_id[0], defensive_types_id[1], defensive_types_id[2]) / Effectiveness::NORMAL_EFFECTIVE.to_f
+  effective = Effectiveness.calculate(offensive_type_id, [defensive_types_id[0], defensive_types_id[1], defensive_types_id[2]])
 
   effective_option = ["0", "0.125", "0.25", "0.5", "1", "2", "4", "8"]
   index = pbMessage(_INTL("Do you know the effectiveness?\n{1} => {2}", offensive_type_name, defensive_types_name.join(", ")), effective_option, -1)
@@ -304,15 +304,13 @@ def calc_best_offense_types(target)
 
   GameData::Type.each do |offense_type|
     next if offense_type.pseudo_type
-    calc_type     = offense_type.id
-    type_matchups = Array.new(3, Effectiveness::NORMAL_EFFECTIVE_ONE)
+    calc_type = offense_type.id
 
-    defense_types.each_with_index do |defense_type, i|
-      type_matchup     = Effectiveness.calculate_one(calc_type, defense_type)
-      type_matchups[i] = type_matchup
+    effective = 1.0
+    defense_types.each do |defense_type|
+      effective *= target.Effectiveness.calculate_one(calc_type, defense_type)
     end
 
-    effective = type_matchups.reduce(1.0, :*)
     next if Effectiveness.ineffective?(effective)
     offense_types[effective] << calc_type
   end

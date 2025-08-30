@@ -715,7 +715,7 @@ BattleHandlers::TargetAbilityOnHit.add(:BACKWASH,
 BattleHandlers::TargetAbilityOnHit.add(:CURSEDTAIL,
     proc { |ability, user, target, move, battle, aiCheck, aiNumHits|
         next if user.fainted?
-        #next unless move.physicalMove?
+        next unless move.physicalMove?
         next if user.effectActive?(:Curse)
         warned = user.battle_tracker_get(:warned)
         if aiCheck

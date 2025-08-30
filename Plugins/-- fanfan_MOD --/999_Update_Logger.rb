@@ -164,7 +164,17 @@ doublebattle/disabledouble，开启/关闭全双打模式
 disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
 
 0.4.3 Pivot of Fate / 命途枢转
-1.
+1.修改了大量中文的翻译
+2.修复了Backfire对Pit Fighter不生效的Bug
+3.修复了Backfire对Hive Mind不生效的Bug
+4.修复了Backfire对Well Rounded不生效的Bug
+5.修复了在Circuit Cave中与化身莫鲁贝可触发战斗时会导致游戏崩溃的Bug
+6.修复了如果精灵携带了原初自我激励就会使游戏崩溃的Bug
+7.现在化身在转换阶段时的清除能力等级将只会清除下降的能力等级
+8.现在Atomic Breath必定会被标记为专属技能
+9.现在Cursed Tail只会在被物理类技能攻击时才会发动
+10.现在游戏在进行伤害计算时支持无限多的属性
+11.
 
 0.4.2​​ Sidus Coniungens / 星织初络​
 1.现在Spintensity被攻击时自身也会受到攻击者受到的伤害的一半的伤害

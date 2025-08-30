@@ -262,8 +262,8 @@ BattleHandlers::DamageCalcUserAbility.add(:RADIATE,
 )
 
 BattleHandlers::DamageCalcUserAbility.add(:WELLROUNDED,
-  proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck|
-    if move.tagged?
+  proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck, backfire|
+    if move.tagged? || backfire
       mults[:base_damage_multiplier] *= 1.2
       user.aiLearnsAbility(ability) unless aiCheck
     end
@@ -860,8 +860,8 @@ BattleHandlers::DamageCalcUserAbility.add(:TERRORIZE,
 )
 
 BattleHandlers::DamageCalcUserAbility.add(:PITFIGHTER,
-  proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck|
-    if target.trapped?
+  proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck, backfire|
+    if target.trapped? || backfire
       mults[:base_damage_multiplier] *= 1.3
       user.aiLearnsAbility(ability) unless aiCheck
     end
@@ -869,8 +869,8 @@ BattleHandlers::DamageCalcUserAbility.add(:PITFIGHTER,
 )
 
 BattleHandlers::DamageCalcUserAbility.add(:HIVEMIND,
-  proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck|
-    if type == :BUG
+  proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck, backfire|
+    if type == :BUG || backfire
       mults[:base_damage_multiplier] *= 1.5
       user.aiLearnsAbility(ability) unless aiCheck
     end
