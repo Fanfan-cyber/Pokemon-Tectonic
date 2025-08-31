@@ -45774,9 +45774,9 @@ Sp. Def
 Ability
 特性
 Main Ability is disabled.
-主特性现在不可用。
+自选特性现在不可用。
 {1} doesn't have Main Ability.
-{1}没有主特性。
+{1}没有自选特性。
 {1} (USE: Check more)
 {1} (C：查看更多)
 No. of Ribbons:
@@ -46214,11 +46214,11 @@ Abilities do a wide variety of different things. Understanding your team's abili
 Checking Abilities
 查看特性
 Check your Pokémon's summary to see what main ability they have. Use the MasterDex to read about the abilities of enemy Pokémon during battle.
-查看你的精灵的摘要，看看它们的主特性是什么。在战斗中使用大师图鉴了解敌方精灵的特性。
+查看你的精灵的概览，看看它们的特性是什么。在战斗中使用大师图鉴了解敌方精灵的特性。
 Choosing Abilities
 选择特性
 A Pokémon's default main ability is one of the two its species can have, randomly chosen when you get it. You can use Ability Capsules to swap to the other.
-精灵的默认主特性是其种类可以拥有的两种特性之一，在你获得它时随机选择。你可以使用特性胶囊来切换到另一种。
+精灵的默认自选特性是其种类可以拥有的两种特性之一，在你获得它时随机选择。你可以使用特性胶囊来切换到另一种。
 Conditional Abilities
 条件限制特性
 Many abilities only do things under certain circumstances. Building around Weather and Room-synergy abilities is a common strategy.
@@ -46572,7 +46572,7 @@ Max. HP<r>#{hpDif >= 0 ? '+' : ''}{1}<<n>>物攻<r>#{attackDif >= 0 ? '+' : ''}{
 Max. HP<r>{1}<<n>>Attack<r>{2}<<n>>Defense<r>{3}<<n>>Sp. Atk<r>{4}<<n>>Sp. Def<r>{5}<<n>>Speed<r>{6}
 Max. HP<r>{1}<<n>>物攻<r>{2}<<n>>物防<r>{3}<<n>>特攻<r>{4}<<n>>特防<r>{5}<<n>>速度<r>{6}
 {1}'s main ability was changed to {2}.
-{1}的主特性被改为{2}。
+{1}的自选特性被改为{2}。
 {1}'s ability now is <imp>{2}</imp>!
 {1}的特性现在是<imp>{2}</imp>！
 {1}'s abilities now are <imp>{2}</imp> and <imp>{3}</imp>!
@@ -57255,6 +57255,8 @@ This ability has not been implemented.
 这个特性还没有完成。
 Ability Recorder recorded {1}'s {2}!
 特性记录器记录下了{1}的{2}！
+The Ability Recorder recorded {1} {2}.
+特性记录器当前记录了{1}个{2}。
 You can't open Dimension D now!
 你现在不能打开维度空间!
 You don't have any Pokémon in Dimension D!
@@ -57568,11 +57570,11 @@ Game Freak
 There aren't any abilities in the list!
 列表中没有任何特性！
 Change {1}'s main ability to {2}?
-将{1}的主要特性改为{2}？
+将{1}的自选特性改为{2}？
 {1}'s main ability now is {2}.
-{1}的主要特性现在是{2}。
+{1}的自选特性现在是{2}。
 {1}'s main ability did't change.
-{1}的主特性没有改变。
+{1}的自选特性没有改变。
 Do you know the effectiveness?<<n>>{1} => {2}
 你知道效果吗？<<n>>{1} => {2}
 Congratulations, you got it right!

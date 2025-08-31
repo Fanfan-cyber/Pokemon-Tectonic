@@ -106,10 +106,11 @@ def change_ability_choose_from_list(pkmn, ability_list)
   new_ability_data = pbChooseAbilityFromListEX(_INTL("Choose an ability."), ability_list)
   new_ability = new_ability_data[0]
   return false unless new_ability
-  unless new_ability == pkmn.ability_id
+  unless pkmn.hasAbility?(new_ability)
     ability_data = GameData::Ability.get(new_ability)
     new_ability_name = ability_data.name
     pbMessage(ability_data.description)
+    yield new_ability, new_ability_name if block_given?
     if pbConfirmMessage(_INTL("Change {1}'s main ability to {2}?", pkmn.name, new_ability_name))
       pkmn.ability = new_ability
       pbMessage(_INTL("{1}'s main ability now is {2}.", pkmn.name, new_ability_name))
