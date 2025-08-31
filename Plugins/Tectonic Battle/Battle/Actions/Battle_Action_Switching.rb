@@ -392,7 +392,7 @@ class PokeBattle_Battle
     def getTypedHazardHPRatio(hazardType, battler, ratio: 0.125)
         typeMod = 1.0
         battler.pbTypes(true).each do |calc_type|
-            typeMods *= apply_inverse(Effectiveness.calculate_one(hazardType, calc_type))
+            typeMod *= apply_inverse(Effectiveness.calculate_one(hazardType, calc_type))
         end
         effectivenessMult = typeEffectivenessMult(typeMod)
         return effectivenessMult * ratio
