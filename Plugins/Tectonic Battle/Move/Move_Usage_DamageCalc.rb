@@ -270,13 +270,13 @@ class PokeBattle_Move
             damageIncrease *= 2 if target.hasActiveAbility?(:CLEANFREAK)
             multipliers[:final_damage_multiplier] *= (1.0 + damageIncrease)
         end
-=end
         if user.dizzy?
             damageIncrease = (1.0/4.0)
             damageIncrease = (1.0/3.0) if user.boss? && AVATAR_DILUTED_STATUS_CONDITIONS
             damageIncrease *= 2 if user.hasActiveAbility?(:CLEANFREAK)
             multipliers[:final_damage_multiplier] *= (1.0 + damageIncrease)
         end
+=end
         # Waterlog
         if target.waterlogged? && !target.shouldAbilityApply?([:MARVELSKIN,:MARVELSCALE],checkingForAI)
             damageIncrease = (1.0/4.0)
