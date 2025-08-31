@@ -34086,7 +34086,7 @@ The target is hit with a hard punch fired like a meteor. It has a 20% chance to 
 The user rotates its gears, raising its Attack and Speed by two steps.
 使用者转动齿轮，物攻和速度增加2级。
 Fires a beam of steel that it collected from its entire body. The user loses half its current HP.
-将从全身聚集的钢铁化为光线，激烈地发射出去。自身也会受到伤害。
+将从全身聚集的钢铁化为光线，激烈地发射出去。自身会受到当前50%HP的反伤。
 The target is hit with wings of steel. It has a 30% chance to raise the user's Defense.
 用坚硬的翅膀敲打对手进行攻击。30%概率使自身的物防增加1级。
 The user slams into the target with the force of a meteor. Can't be stopped by the target's Ability.

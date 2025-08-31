@@ -417,7 +417,8 @@ class PokeBattle_Battler
     def apply_faint_healing
         return unless can_faint_healing?
         battle_tracker_set(:faint_healing_triggered, true)
-        healing_turn = TA.get(:doublebattle) ? Settings::FAINT_HEALING_TURN_DOULBE : Settings::FAINT_HEALING_TURN
+        #healing_turn = TA.get(:doublebattle) ? Settings::FAINT_HEALING_TURN_DOULBE : Settings::FAINT_HEALING_TURN
+        healing_turn = @battle.singleBattle? ? Settings::FAINT_HEALING_TURN : Settings::FAINT_HEALING_TURN_DOULBE
         @battle.pbDisplay(_INTL("{1} will revive in {2} turns!", pbThis, healing_turn))
         if pbOwnSide.effectActive?(:FaintHealing)
             pbOwnSide.effects[:FaintHealing][@pokemonIndex] = healing_turn + 1
