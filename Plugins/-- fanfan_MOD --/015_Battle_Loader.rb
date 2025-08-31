@@ -235,6 +235,15 @@ module BattleLoader
             curse_index = pbMessage(_INTL("Which Curse Effect do you want?"), curses, -1)
             curse << curses[curse_index].to_sym if curse_index >= 0
           end
+          if pbConfirmMessage(_INTL("Would you like to give it a Custom Effect?"))
+            curses = []
+            get_custom_effect.each_key do |policy|
+              policy = policy.to_s
+              curses.push(policy)
+            end
+            curse_index = pbMessage(_INTL("Which Custom Effect do you want?"), curses, -1)
+            curse << curses[curse_index].to_sym if curse_index >= 0
+          end
           add_data(rules[ret], name, nil, curse)
           pbMessage(_INTL("Your team has been exported!"))
         end
@@ -253,6 +262,10 @@ module BattleLoader
         end
       end
     end
+  end
+
+  def self.get_custom_effect
+    { :CUSTOM_INFINITE_SCREEN => _INTL("The Screen Effects will never end during this battle!"), }
   end
 
   def self.export_team

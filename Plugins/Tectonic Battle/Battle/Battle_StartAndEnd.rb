@@ -406,6 +406,18 @@ class PokeBattle_Battle
                 end
             end
         end
+        # Custom Effect apply if at all
+        if @opponent
+            effects_data = BattleLoader.get_custom_effect
+            @opponent.each do |opponent|
+                opponent.policies.each do |policy|
+                    policy_s = policy.to_s
+                    next unless policy_s.start_with?("CUSTOM_")
+                    tracker_get(:custom_effect) << policy
+                    pbDisplay(effects_data[policy])
+                end
+            end
+        end
         # Weather announcement
         weather_data = GameData::BattleWeather.try_get(@field.weather)
         pbCommonAnimation(weather_data.animation) if weather_data

@@ -1925,7 +1925,7 @@ Use that cookie to heal your Pokemon of any status condition -- even those that 
 Dizzy and Leech both have their uses, though some cases are better than others!
 混乱和寄生都有各自的用处，在某些情况下起到逆转战局的效果！
 Dizzy Pokemon have their abilities surpressed and take extra damage!
-混乱状态下精灵会失去其特性，还将受到更高的伤害！
+混乱状态下精灵会失去其特性！
 Leeched Pokemon have their health stolen by their opponent! In a double battle, the healing is split between both opponents.
 而处于寄生状态的精灵将会被吸走自身的HP！如果是双打对战，这部分HP会平均分给2个对手。
 The atmosphere here is nice.
@@ -33052,7 +33052,7 @@ Psypierce
 精神穿透
 Pulsar
 动能脉冲
-Quasar crush
+Quasar Crush
 类星体粉碎
 Reverb Ward
 回音结界
@@ -33560,7 +33560,7 @@ The user changes its type to make itself resistant to the type of the attack the
 The user approaches the target, then steals their item. Items stolen from wild Pokémon are stored.
 一边可爱地撒娇，一边靠近对手进行攻击，还能夺取对手携带的物品。
 The target is hit with rhythmically launched punches that have a 30% chance to dizzy.
-目标被有节奏的拳击击中，有30%的概率使其混乱。
+用节奏的拳击攻击目标，有30%的概率使其混乱。
 A reckless, life-risking tackle. The user also takes 33% recoil.
 拼命地猛撞向对手进行攻击。自身也会受到33%伤害。
 The user attacks the foe with an echoing voice. If this move is used every turn, it does greater damage.
@@ -33698,7 +33698,7 @@ The user spends 25% HP to create a doll to protect it from move damage, addition
 The user chomps hard on the target with its sharp front fangs. It cuts the target's HP to half.
 用锐利的门牙猛烈地咬住对手进行攻击。对手的HP减半。
 The user generates odd sound waves from its body. The target becomes dizzy.
-从身体发出特殊的音波，从而使对手混乱。
+从身体发出特殊的音波，从而使对手陷入混乱。
 The user consumes its Stockpile to heal for 50% max HP per stack. This can overheal.
 消耗蓄力囤积的力量，每层回复50%最大HP，可以过量回复。
 Star-shaped rays are shot at the target. Can't miss and skips protections.
@@ -33758,7 +33758,7 @@ The target is quickly kicked twice in succession using both feet.
 An energy-draining punch. The user's HP is restored by 33% of the damage dealt.
 用拳头吸取对手的力量。可以回复给予对手伤害的三分之一HP。
 The user punches the target with full, concentrated power. It dizzies the target if it hits.
-使用浑身力气出拳进行攻击。必定会使对手混乱。
+使用浑身力气出拳进行攻击。必定会使对手陷入混乱。
 The user risks all to attack the foe. The user faints but does damage equal to its HP.
 拼命攻击对手。虽然自身陷入濒死，但会给予对手和自身目前HP等量的伤害。
 The user dives down onto the target from the sky. This move is also Flying-type.
@@ -33820,7 +33820,7 @@ The user bounces up high, charging and becoming invulnerable, then drops on the 
 The user tucks in its wings and strikes from a low altitude. The user also takes 33% recoil.
 收拢翅膀低空突袭。使用者会承受33%反伤。
 The user attacks using a sound wave based on words it has learned. It also dizzies the target.
-用非常烦人的，喋喋不休的音波攻击对手。使对手混乱。
+用非常烦人的，喋喋不休的音波攻击对手。使对手陷入混乱。
 The user whips up a wind to blow away the target's protective screens. Also removes hazards on both sides.
 用强风吹开对手的屏障类效果，同时也会移除双方场上的陷阱。
 The user soars upward and drops at high speeds. This lowers the user's Defense and Sp. Def by two steps.
@@ -33982,7 +33982,7 @@ Fires an exploding pollen puff at enemies, or a HP-restoring one at allies.
 The user raises their Sp. Atk and Sp. Def by two steps, and Speed by one step.
 轻巧地跳起神秘而又美丽的舞蹈，使自身的特攻、特防增加2级，速度增加1级。
 The user attacks with a beam of light. It has a 30% chance to dizzy.
-使用者用光线攻击。有30%的概率使对手混乱。
+使用者用光线攻击。有30%的概率使对手陷入混乱。
 The foe is attacked with powdery scales blown by wind. It has a 20% chance to raise all stats.
 在风中掺入鳞粉攻击对手，有20%概率使自身全部能力的能力等级增加1级。
 The user rolls over its foes, crushing them. It has a 30% chance to reduce the target's Defense.
@@ -34004,7 +34004,7 @@ The user attacks the target while shouting in a startling fashion. It has a 40% 
 The user attacks by sending a frightful amount of small ghosts at opposing Pokémon.
 用大量的小灵体向对手发起攻击。
 The target is exposed to a sinister ray, causing it to become dizzy.
-发出怪异的光，扰乱对手。使对手混乱。
+发出怪异的光，扰乱对手。使对手陷入混乱。
 When this move is used, if the user faints, the foe that landed the knockout hit also faints.
 使用技能后，当受到对手攻击陷入濒死时，对手也会一同濒死。连续使用则会失败。
 For five turns, this move prevents the target from using the move it last used.
@@ -34202,9 +34202,9 @@ The user lunges at the target and has a 40% chance to make it flinch.
 The target is blasted with a forceful shot of water. Can random critical hit.
 目标被强力水柱击中。可能随机命中要害。
 A column of water strikes the target. When combined with its fire equivalent, it makes a rainbow.
-用水柱进行攻击。如果和火组合，威力就会增加，天空中会挂上彩虹。
+用水柱进行攻击。如果和火组合，会生成彩虹。
 The user attacks the target with a pulsing blast of water. It has a 30% chance to dizzy.
-使用者用脉动的水柱攻击目标。有30%的概率使对手混乱。
+使用者用脉动的水柱攻击目标。有30%的概率使对手陷入混乱。
 The user multi-hits the target two to five times with throwing stars. This move always goes first.
 使用者用飞镖连续攻击目标2-5次。
 The user spouts water to damage the foe. Weakens in damage as the user loses HP. Weakest at half HP.
@@ -34356,7 +34356,7 @@ The user employs psychic power to average its unmodified Attack and Sp. Atk stat
 The user employs psychic power to switch its unmodified Attack with its unmodified Defense.
 使用者运用超能力，交换其基础物攻和物防。
 The target is attacked with a peculiar ray. It has a 30% chance to dizzy.
-目标被一道奇特的射线攻击。有30%的概率使对手混乱。
+目标被一道奇特的射线攻击。有30%的概率使对手陷入混乱。
 The target is hit by a strong telekinetic force. It has a 20% chance to lower Sp. Def.
 向对手发送强大的念力进行攻击。20%概率减小对手的特防。
 The user bites the target using psychic capabilities. Also breaks any screens protecting the target's side.
@@ -34570,7 +34570,7 @@ Attacks the target and breaks its spirit. Lowers the target's Sp. Atk by two ste
 The user attacks foes with love and hate. It has a 30% chance to lower both Attack and Sp. Atk.
 使用者用爱与恨攻击敌人，有30%的概率减小目标的双攻1级。
 The user kisses the target with a sweet, angelic cuteness that dizzies the target.
-像天使般可爱地亲吻对手，从而使对手混乱。
+像天使般可爱地亲吻对手，从而使对手陷入混乱。
 The user attacks the target by dancing very hard.
 通过激烈的舞蹈发动攻击。
 An attack empowered by the might of a lazy king. It skips and destroys protections.
@@ -34580,7 +34580,7 @@ The user steadies its eyes, mind, and body in order to maximize its Accuracy.
 The user and the target both fall asleep, fully restoring their HP and healing any non-volatile status conditions.
 使双方陷入睡眠，完全恢复HP并回复所有异常状态。
 The user dances and shows off their many lights at the target, dizzying and damaging them.
-使用者对目标展示其众多的灯光并跳舞，使目标混乱并受到伤害。
+使用者对目标展示其众多的灯光并跳舞，使目标陷入混乱并受到伤害。
 The user engages the target in a head-to-head fight. The damage is based on the target's Attack rather than their Defense.
 与对方正面交锋，基于对方的物攻计算此技能的伤害。
 The user concentrates to stabilize its mood. It raises the user's Sp. Def by three steps.
@@ -34802,7 +34802,7 @@ The user attacks with cloying slime, rendering the target's item sticky and unus
 Attacks with energy from jealousy. All opposing Pokémon with stat boosts get poisoned.
 用嫉妒的能量攻击对手。会让在该回合内能力有所增加的精灵陷入中毒状态。
 The user gives off a terrible stench towards the target. It has a 30% chance to dizzy.
-使用者向目标释放恶臭。有30%的概率使对手混乱。
+使用者向目标释放恶臭。有30%的概率使对手陷入混乱。
 The foe is forced to switch out by a stinky cloud, then the user also switches. Always goes last.
 对手被臭云强迫替换，随后使用者也会替换。总是最后行动。
 The user chomps with venomous teeth. The user's HP is restored by 33% of the damage dealt.
@@ -35288,7 +35288,7 @@ The user flicks its thorns, dealing damage and setting a hazard layer of poison 
 The user fires a bolt of life energy at the target. It has a 20% chance to raise user's Sp. Atk.
 使用者向目标发射生命能量光束。有20%的概率让使用者的特攻增加1级。
 The target is disoriented by an explosive seed. It has a 30% chance to dizzy.
-目标被爆炸种子弄得晕头转向。有30%的概率使目标混乱。
+目标被爆炸种子弄得晕头转向。有30%的概率使目标陷入混乱。
 Round objects are hurled at the target to strike three times in a row.
 向目标投掷圆形物体，连续攻击3次。
 The user attacks the target with the power of a warding charm. Super effective vs Ghost-types.
@@ -35444,7 +35444,7 @@ The user psychically modifies its own genes, transforming into either Overmatter
 The user claps with the power of a hundred hands, psionically striking all nearby battlers.
 使用者以百手之力拍击，灵力会冲击所有附近的精灵。
 The user dizzies the target, then welcomes in eclipse for eight turns.
-使用者使目标混乱，然后召唤8回合的日食。
+使用者使目标陷入混乱，然后召唤8回合的日食。
 The user encourages the target to attack right after the user. Always goes first.
 鼓励对手在其之后立即发起攻击。
 The user conjures a giant fist to crush the target, trapping and damaging it for three turns.
@@ -35702,7 +35702,7 @@ The user transforms into a cloud of vermin, charging and becoming invulnerable. 
 The user submerges the target in water, then bludgeons them repeatedly. This has a 10% chance to waterlog.
 使用者将目标浸入水中，然后反复殴打目标。有10%的概率使目标浸水。
 The user sings with reckless abandon, annoying the target. There's a 30% chance they become dizzy.
-肆无忌惮地唱歌，袭扰对方，30%概率使其混乱。
+肆无忌惮地唱歌，袭扰对方，30%概率使其陷入混乱。
 The user smacks the target and steals its item while it is stunned. Items stolen from wild Pokémon are stored.
 使用者拍打目标并偷走它的物品。从野生精灵那里偷来的物品将会被储存起来。
 The target is lulled to sleep. Can only be used during a Full Moon.
@@ -35844,7 +35844,7 @@ A move that only the avatar of Groudon can use. Gravity is intensified for the r
 The user attacks with a prehistoric power which raises all its stats.
 使用史前之力进行攻击，并使自身全部能力的能力等级增加1级。
 The user attacks with a sparkling gem-like ray, dizzying the target.
-使用闪闪发光的宝石射线攻击对手，并使其混乱。
+使用闪闪发光的宝石射线攻击对手，并使其陷入混乱。
 Boulders are hurled at all near enemies, preventing their movement. This lowers their Speed by four steps.
 将巨石投向所有附近目标，阻止其行动，并使目标的速度减小4级。
 The user raises its Speed by six steps and gains a Rock Gem. User becomes Rock-type.
@@ -38171,21 +38171,21 @@ A mentally disrupting Poké Ball that disables the Pokémon's last used move for
 A ball whose striking appearance makes it popular despite its poor performance.
 一种性能不佳，但外表很受欢迎的球。
 It may be held by a Pokémon to recover from numbing.
-让精灵携带后，可以治愈麻痹。
+让精灵携带后，可以回复麻痹。
 It may be held by a Pokémon to recover from sleep.
-让精灵携带后，可以治愈睡眠。
+让精灵携带后，可以回复睡眠。
 It may be held by a Pokémon to recover from poison.
-让精灵携带后，可以治愈中毒。
+让精灵携带后，可以回复中毒。
 It may be held by a Pokémon to recover from a burn.
-让精灵携带后，可以治愈烧伤。
+让精灵携带后，可以回复烧伤。
 It may be held by a Pokémon to recover from a frostbite.
-让精灵携带后，可以治愈冻伤。
+让精灵携带后，可以回复冻伤。
 It may be held by a Pokémon to recover from being dizzy.
-让精灵携带后，可以治愈混乱。
+让精灵携带后，可以回复混乱。
 It may be held by a Pokémon to recover from being leeched.
-让精灵携带后，可以治愈寄生。
+让精灵携带后，可以回复寄生。
 It may be held by a Pokémon to recover from being waterlogged.
-精灵携带后可以从浸水状态中恢复。
+让精灵携带后，可以回复浸水。
 It may be held by a Pokémon to restore a move's PP by 10.
 让精灵携带后，可以回复10PP。
 It may be held by a Pokémon to recover from any status problem.
@@ -39176,7 +39176,7 @@ Ephemerate
 Erudite
 博识
 Evenhanded
-中庸
+不偏不倚
 Event Horizon
 事件视界
 Excavator
@@ -39538,7 +39538,7 @@ Nerve Number
 Nesting
 造巢
 Neurotoxin
-神经毒剂
+神经毒素
 Night Life
 夜生活
 Night Owl
@@ -40437,7 +40437,7 @@ Raises Defense and Sp. Def by three steps when its HP is lowered below half.
 Boosts power of light-based moves by 30%.
 光类技能的威力增加30%。
 Special attacks against the Pokémon have a 30% chance to dizzy the attacker.
-受到特殊类攻击后有30%概率使对手陷入混乱。
+受到特殊类攻击后，有30%概率使对手陷入混乱。
 After using a sound move, all foes are tormented.
 声音类技能会对敌方全员施加折磨状态。
 Can hold two different items, if both are Berries.
@@ -40459,7 +40459,7 @@ HP低于一半时，在对手周围放置隐型岩。
 When hit with an attack, uses Pain Split on the attacker if its HP is lower than the attacker.
 被攻击时，若其HP低于攻击者，则会对攻击者使用痛苦平分。
 Has a 30% chance to dizzy targets when using special moves.
-使用特殊类技能时，有30%概率使对手混乱。
+使用特殊类技能时，有30%概率使对手陷入混乱。
 Slips past hazards. On the first turn, its attacks are always critical.
 无视陷阱，出场的第1回合必定会击中对手的要害。
 Moves ignore immunities due to typing.
@@ -40579,7 +40579,7 @@ It can avoid being knocked out by sacrificing its held item.
 On the first turn, its attacks numb the target.
 出场的第1回合的攻击会使目标麻痹。
 Physical attacks against the Pokémon have a 30% chance to dizzy the attacker.
-使用物理类技能时有30%概率使对方混乱。
+使用物理类技能时，有30%概率使对方陷入混乱。
 After knocking out any Pokémon, raises its Attack and Defense.
 打倒对手时，物攻和物防增加1级。
 Reduces move damage taken by 50% when HP is full. Can't be dizzied.
@@ -40989,7 +40989,7 @@ Special moves have a 30% chance to numb targets.
 Heals 1/12th HP per turn if there's a weather. Immune to weather downsides.
 如果有天气，每回合回复1/12HP。不会受到天气的负面影响。
 While the Pokémon is unfainted (in battle or switched out), poisoned foes also suffer from dizzy.
-如果此精灵未倒下，中毒的对手会同时陷入混乱。
+如果此精灵未濒死，处于中毒的对手会同时视为处于混乱。
 Doubles Speed in moonglow.
 在月辉下速度翻倍。
 Boosts Speed by 50% in moonglow. Can't miss during moonglow.
@@ -41259,7 +41259,7 @@ Speed is raised each turn. Speed is reset when hit, but the attacker takes 1/8th
 Can't be afflicted with any non-volatile status condition.
 不会陷入任何稳定性异常状态。
 Has a 30% chance to dizzy targets when using physical moves.
-使用物理类技能时有30%的概率混乱对手。
+使用物理类技能时，有30%的概率使对手陷入混乱。
 Prevents stat steps from being lowered (except when self-inflicted). Immune to weather downsides.
 阻止能力等级被对方减小。免疫天气的负面效果。
 Doubles critical hit chance for each Speed step up. All moves can random critical hit.
@@ -45774,9 +45774,9 @@ Sp. Def
 Ability
 特性
 Main Ability is disabled.
-主特性现在不可用。
+自选特性现在不可用。
 {1} doesn't have Main Ability.
-{1}没有主特性。
+{1}没有自选特性。
 {1} (USE: Check more)
 {1} (C：查看更多)
 No. of Ribbons:
@@ -46214,11 +46214,11 @@ Abilities do a wide variety of different things. Understanding your team's abili
 Checking Abilities
 查看特性
 Check your Pokémon's summary to see what main ability they have. Use the MasterDex to read about the abilities of enemy Pokémon during battle.
-查看你的精灵的摘要，看看它们的主特性是什么。在战斗中使用大师图鉴了解敌方精灵的特性。
+查看你的精灵的概览，看看它们的特性是什么。在战斗中使用大师图鉴了解敌方精灵的特性。
 Choosing Abilities
 选择特性
 A Pokémon's default main ability is one of the two its species can have, randomly chosen when you get it. You can use Ability Capsules to swap to the other.
-精灵的默认主特性是其种类可以拥有的两种特性之一，在你获得它时随机选择。你可以使用特性胶囊来切换到另一种。
+精灵的默认自选特性是其种类可以拥有的两种特性之一，在你获得它时随机选择。你可以使用特性胶囊来切换到另一种。
 Conditional Abilities
 条件限制特性
 Many abilities only do things under certain circumstances. Building around Weather and Room-synergy abilities is a common strategy.
@@ -46290,7 +46290,7 @@ Waterlog
 When waterlogged, a Pokémon's Speed is halved, and it takes 25% more attack damage. Water- and Dark-types do the most waterlogging. Water is immune.
 当精灵浸水时，其速度减半，并且受到的攻击伤害增加25%。水属性和恶属性精灵最容易使其他精灵浸水。水属性精灵免疫浸水。
 When dizzied, a Pokémon takes 25% more attack damage, and its ability doesn't function. Psychic- and Fairy-types do the most dizzying.
-混乱的精灵攻击时伤害增加25%，但特性会失效，超能属性和妖精属性最擅长混乱对手。
+混乱的精灵特性会失效，超能属性和妖精属性最擅长混乱对手。
 When leeched, a Pokémon loses 1/12th HP every turn, and its opponent(s) split that health. Bug- and Dark-types do the most leeching. Grass is immune.
 被寄生时，精灵每回合损失1/12的HP，其对手平分这些HP。虫属性和恶属性最容易造成寄生。草属性免疫。
 A rarer status that causes a Pokémon to be unable to do anything for 2 turns. Psychic- and Grass-types put Pokémon to sleep the most often.
@@ -46572,7 +46572,7 @@ Max. HP<r>#{hpDif >= 0 ? '+' : ''}{1}<<n>>物攻<r>#{attackDif >= 0 ? '+' : ''}{
 Max. HP<r>{1}<<n>>Attack<r>{2}<<n>>Defense<r>{3}<<n>>Sp. Atk<r>{4}<<n>>Sp. Def<r>{5}<<n>>Speed<r>{6}
 Max. HP<r>{1}<<n>>物攻<r>{2}<<n>>物防<r>{3}<<n>>特攻<r>{4}<<n>>特防<r>{5}<<n>>速度<r>{6}
 {1}'s main ability was changed to {2}.
-{1}的主特性被改为{2}。
+{1}的自选特性被改为{2}。
 {1}'s ability now is <imp>{2}</imp>!
 {1}的特性现在是<imp>{2}</imp>！
 {1}'s abilities now are <imp>{2}</imp> and <imp>{3}</imp>!
@@ -48766,19 +48766,19 @@ Boss using struggle!
 Escorted by, Enthroned upon, Ensconced within this Empty Eminence
 欲戴王冠承其重，供奉虚空护身周。
 An Avatar has been inserted into Yezera's party!
-叶泽拉的队伍中增加了 1个化身！
+叶泽拉的队伍中增加了1个化身！
 TODO
 待办事项
 The battle begins with sunshine. The effects of sunshine are doubled.
-战斗开始时引发了晴天。 阳光的效果会翻倍。
+战斗开始时引发了晴天。阳光的效果会翻倍。
 The battle begins with rainstorm. The effects of rainstorm are doubled.
-战斗开始时引发了雨天。 雨天的效果会翻倍。
+战斗开始时引发了雨天。雨天的效果会翻倍。
 The battle begins with hail. The effects of hail are doubled.
-战斗开始时引发了冰雹。 冰雹的效果会翻倍。
+战斗开始时引发了冰雹。冰雹的效果会翻倍。
 A Sky Scoured of Star and Sun
 扫日抚星筑新宙，一洗苍穹再归晴。
 The battle begins with sandstorm. The effects of sandstorm are doubled.
-战斗开始时引发了沙暴。 沙暴的效果会翻倍
+战斗开始时引发了沙暴。沙暴的效果会翻倍
 Move, call, step, stop.<<n>>Rend, rive, dare, halt.<<n>>Claw, cull, dive, hold.<<n>>Fend, flee, fail, fall.
 移动，呼唤，迈步，停止。<<n>>撕裂，劈开，敢于，停止。<<n>>抓，扑杀，俯冲，抓住。<<n>>防御，逃跑，失败，跌倒。
 Your Pokémon cannot use moves on every 4th turn.
@@ -48818,13 +48818,13 @@ Bence and Zoé are using 5 battlers each. This is a big battle!
 A Fool's Errand
 愚人自怜不自知，焚躯为烬行君令。
 Yezera and Shadow Mavis are using 6 battlers each. This is a huge battle!
-叶泽拉和影子梅维斯各使用6只战斗精灵。 这将是一场规模巨大的战斗!
+叶泽拉和影子梅维斯各使用6只战斗精灵。这将是一场规模巨大的战斗!
 Singular Hypocrisy, Repeated Sixfold
 满城笑靥皆伪面，无心善待无心迎。
 Despite making you use 4, Nora is using 6 battlers!
-尽管她让你使用4只精灵， 但诺拉自身用的是6只！
+尽管她让你使用4只精灵，但诺拉自身用的是6只！
 Spirit Guardian Sonya is using 12 battlers. This is a huge battle!
-灵魂守护者索尼娅有12个精灵， 这是一场巨大的战斗！
+灵魂守护者索尼娅有12只精灵，这是一场巨大的战斗！
 Determinism I Defer to Thee, Free Will I Freely Give. Let Thy Die Remain Uncast.
 覆命之志随心动，斩破轮回与浊清。
 Enemy attacks always activate their additional effects.
@@ -48836,9 +48836,9 @@ Your Pokémon gain the "Perish Song" status when they enter battle.
 Eternity in our clutches. Ouroboros ever-yearning.
 永恒尽在掌握。衔尾蛇永世渴求。
 Enemy Pokemon recycle consumed items at end of turn. Stolen items turn to dust.
-敌方精灵在回合结束时回收消耗的物品。被盗的物品会消失。
+敌方精灵在回合结束时会回收消耗的物品。被盗的物品会消失。
 The battle begins with sandstorm. The foe has extra sandstorm abilities!
-战斗从沙暴中开始， 对方拥有了额外的沙暴特性！
+战斗从沙暴中开始，对方拥有了额外的沙暴特性！
 Every Beat Betrays the Beast's Burden
 钿头银篦击节碎，血色罗裙翻酒污。
 After your Pokémon attack, the attacking stat that was used is lowered by 4 steps.
@@ -48872,13 +48872,13 @@ Neutral attacks against your Pokémon are instead Super Effective.
 Thy Inimitability, Incapable Imposture. My Immanence, Inconceivable Immaculacy.
 君生高洁涤凡尘，妾意灼灼不敢言。
 Your Super Effective attacks become Not Very Effective.
-你的精灵使用效果拔群攻击时， 会被视作效果不佳攻击。
+你的精灵的效果拔群的攻击，会被视为效果不佳。
 O Agonal Ecstasies, Spare Us Not Our Agonies
 行至终末须尽欢，今生苦短莫为难。
 When enemy Pokémon faint, they deal a quarter of their HP as damage to their last attacker.
 当敌方精灵濒死时，它们会对最后的攻击者造成其HP四分之一的伤害。
 {1} takes its vengeance!
-{1}进行报复！
+{1}进行了报复！
 Primal Forest is continually active on the opposing side.
 原始之森在对方场上持续生效。
 I chose a move!
@@ -50144,17 +50144,17 @@ It'll last the whole battle!
 It'll skip its next two moves
 它将跳过接下来的2次行动
 Its physical damage is reduced by a third
-其物理类伤害减小1/3
+它的物理类伤害减小1/3
 The poison will worsen over time
-毒性会随着时间的推移而增加
+毒性会随着回合的进行而增加
 Its special damage is reduced by a third
-其特殊类伤害减小1/3
+它的特殊类伤害减小1/3
 Its Speed is halved, and it'll deal less damage
-其速度减半，造成的伤害减小
+它的速度减半，造成的伤害减小
 Its ability is suppressed, and it'll take more damage
-其特性失效，受到的伤害增加
+它的特性失效了
 Its HP will be siphoned by the opposing side
-其HP会被吸走
+它的HP会被吸走
 Its Speed is halved, and it'll take more damage
 它的速度减半，并且会受到更多伤害
 {1} is already asleep!
@@ -52766,7 +52766,7 @@ Badge {1} Team
 Use the Battle Report immediately?
 立即使用战斗报告吗？
 First, you should restore your Pokémon to full health.
-现在让你的精灵已经恢复活力吧。
+首先，你应该让你的精灵恢复活力。
 I'll take your Pokémon for a few seconds.
 请允许我暂时拿走您的精灵。
 Let's get your Pokémon patched up.
@@ -57255,6 +57255,8 @@ This ability has not been implemented.
 这个特性还没有完成。
 Ability Recorder recorded {1}'s {2}!
 特性记录器记录下了{1}的{2}！
+The Ability Recorder recorded {1} {2}.
+特性记录器当前记录了{1}个{2}。
 You can't open Dimension D now!
 你现在不能打开维度空间!
 You don't have any Pokémon in Dimension D!
@@ -57357,6 +57359,12 @@ Would you like to give it a Curse Effect?
 你想要给这个队伍设置塔罗牌效果吗？
 Which Curse Effect do you want?
 你想要哪一个塔罗牌效果？
+Would you like to give it a Custom Effect?
+你想要给这个队伍设置自定义效果吗？
+Which Custom Effect do you want?
+你想要哪一个自定义效果？
+The Screen Effects will never end during this battle!
+在这场战斗中，屏障类效果永远不会结束！
 Your team has been exported!
 你的队伍已导出！
 the Battle Loader
@@ -57568,11 +57576,11 @@ Game Freak
 There aren't any abilities in the list!
 列表中没有任何特性！
 Change {1}'s main ability to {2}?
-将{1}的主要特性改为{2}？
+将{1}的自选特性改为{2}？
 {1}'s main ability now is {2}.
-{1}的主要特性现在是{2}。
+{1}的自选特性现在是{2}。
 {1}'s main ability did't change.
-{1}的主特性没有改变。
+{1}的自选特性没有改变。
 Do you know the effectiveness?<<n>>{1} => {2}
 你知道效果吗？<<n>>{1} => {2}
 Congratulations, you got it right!
@@ -61105,7 +61113,7 @@ Transformed
 Transformed Into
 变形为
 Trapping Turns
-陷阱回合
+束缚回合
 Trapping Move
 陷阱技能
 Trapped By
@@ -61189,7 +61197,7 @@ Rock Roll Count
 Heart Rhythm Count
 心跳节奏计数
 Stunning Curl
-混乱卷曲
+震慑蜷曲
 Venom Guard
 毒液守卫
 Root Shelter

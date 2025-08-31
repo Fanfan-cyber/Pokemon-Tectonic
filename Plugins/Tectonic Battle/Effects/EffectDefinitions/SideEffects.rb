@@ -28,7 +28,9 @@ GameData::BattleEffect.register_effect(:Side, {
     :id => :Reflect,
     :real_name => "Reflect",
     :type => :Integer,
-    :ticks_down => true,
+    :ticks_down_proc => proc do |battle, value|
+        next !battle.tracker_get(:custom_effect).include?(:CUSTOM_INFINITE_SCREEN)
+    end,
     :is_screen => true,
     :apply_proc => proc do |battle, _side, teamName, value|
         battle.pbDisplay(_INTL("{1}'s Defense is raised! This will last for {2} more turns!", teamName, value - 1))
@@ -45,7 +47,9 @@ GameData::BattleEffect.register_effect(:Side, {
     :id => :LightScreen,
     :real_name => "Light Screen",
     :type => :Integer,
-    :ticks_down => true,
+    :ticks_down_proc => proc do |battle, value|
+        next !battle.tracker_get(:custom_effect).include?(:CUSTOM_INFINITE_SCREEN)
+    end,
     :is_screen => true,
     :apply_proc => proc do |battle, _side, teamName, value|
         battle.pbDisplay(_INTL("{1}'s Sp. Def is raised! This will last for {2} more turns!", teamName, value - 1))
@@ -62,7 +66,9 @@ GameData::BattleEffect.register_effect(:Side, {
     :id => :AuroraVeil,
     :real_name => "Aurora Veil",
     :type => :Integer,
-    :ticks_down => true,
+    :ticks_down_proc => proc do |battle, value|
+        next !battle.tracker_get(:custom_effect).include?(:CUSTOM_INFINITE_SCREEN)
+    end,
     :is_screen => true,
     :apply_proc => proc do |battle, _side, teamName, value|
         battle.pbDisplay(_INTL("{1}'s Defense and Sp. Def are raised! This will last for {2} more turns!",
@@ -80,7 +86,9 @@ GameData::BattleEffect.register_effect(:Side, {
     :id => :RepulsionField,
     :real_name => "Repulsion Field",
     :type => :Integer,
-    :ticks_down => true,
+    :ticks_down_proc => proc do |battle, value|
+        next !battle.tracker_get(:custom_effect).include?(:CUSTOM_INFINITE_SCREEN)
+    end,
     :is_screen => true,
     :apply_proc => proc do |battle, _side, teamName, value|
         battle.pbDisplay(_INTL("{1} takes less damage from moves with 100+ base power! This will last for {2} more turns!",

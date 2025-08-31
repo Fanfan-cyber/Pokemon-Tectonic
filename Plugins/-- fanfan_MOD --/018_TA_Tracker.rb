@@ -5,6 +5,7 @@ class PokeBattle_BattleTracker
     @turn_switched    = {} # used to record the turnCount when a Pokemon switches out
     @revenge          = {} # used for Revenge mechanics
     @summoned_pokemon = {} # used to record the Pokemon that will be summoned
+    @custom_effect    = [] # used to record the Custom Effect for the Battle Loader
   end
 end
 

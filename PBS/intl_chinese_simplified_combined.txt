@@ -57359,6 +57359,12 @@ Would you like to give it a Curse Effect?
 你想要给这个队伍设置塔罗牌效果吗？
 Which Curse Effect do you want?
 你想要哪一个塔罗牌效果？
+Would you like to give it a Custom Effect?
+你想要给这个队伍设置自定义效果吗？
+Which Custom Effect do you want?
+你想要哪一个自定义效果？
+The Screen Effects will never end during this battle!
+在这场战斗中，屏障类效果永远不会结束！
 Your team has been exported!
 你的队伍已导出！
 the Battle Loader
@@ -61107,7 +61113,7 @@ Transformed
 Transformed Into
 变形为
 Trapping Turns
-陷阱回合
+束缚回合
 Trapping Move
 陷阱技能
 Trapped By
