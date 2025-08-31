@@ -35,6 +35,21 @@ class PokeBattle_Battle
             }
         end
 
+        if darkscale_cloud = pbCheckGlobalAbility(:DARKSCALECLOUD)
+            priority.each do |b|
+                next if b.hasActiveAbility?(:DARKSCALECLOUD)
+                if b.tracker_get(:darkscale_cloud_turn) < 1
+                    b.tracker_increment(:darkscale_cloud_turn)
+                else
+                    unless b.poisoned?
+                        pbDisplay(_INTL("{1} inhaled too much toxic dust!", b.pbThis))
+                        b.applyPoison(nil)
+                        darkscale_cloud.tryRaiseStat(:DEFENSE, darkscale_cloud, ability: :DARKSCALECLOUD, increment: 2)
+                    end
+                end
+            end
+        end
+
         pbEORWeather(priority)
 
         pbEORHealing(priority)
@@ -65,21 +80,6 @@ class PokeBattle_Battle
         end
 
         processTriggersEOR(priority)
-
-        if darkscale_cloud = pbCheckGlobalAbility(:DARKSCALECLOUD)
-            priority.each do |b|
-                next if b.hasActiveAbility?(:DARKSCALECLOUD)
-                if b.tracker_get(:darkscale_cloud_turn) < 1
-                    b.tracker_increment(:darkscale_cloud_turn)
-                else
-                    if b.canPoison?(nil, false)
-                        pbDisplay(_INTL("{1} inhaled too much toxic dust!", b.pbThis))
-                        b.applyPoison(nil)
-                        darkscale_cloud.tryRaiseStat(:DEFENSE, darkscale_cloud, ability: :DARKSCALECLOUD, increment: 2)
-                    end
-                end
-            end
-        end
 
         end_of_round_field_process
 

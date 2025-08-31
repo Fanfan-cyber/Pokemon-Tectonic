@@ -48766,19 +48766,19 @@ Boss using struggle!
 Escorted by, Enthroned upon, Ensconced within this Empty Eminence
 欲戴王冠承其重，供奉虚空护身周。
 An Avatar has been inserted into Yezera's party!
-叶泽拉的队伍中增加了 1个化身！
+叶泽拉的队伍中增加了1个化身！
 TODO
 待办事项
 The battle begins with sunshine. The effects of sunshine are doubled.
-战斗开始时引发了晴天。 阳光的效果会翻倍。
+战斗开始时引发了晴天。阳光的效果会翻倍。
 The battle begins with rainstorm. The effects of rainstorm are doubled.
-战斗开始时引发了雨天。 雨天的效果会翻倍。
+战斗开始时引发了雨天。雨天的效果会翻倍。
 The battle begins with hail. The effects of hail are doubled.
-战斗开始时引发了冰雹。 冰雹的效果会翻倍。
+战斗开始时引发了冰雹。冰雹的效果会翻倍。
 A Sky Scoured of Star and Sun
 扫日抚星筑新宙，一洗苍穹再归晴。
 The battle begins with sandstorm. The effects of sandstorm are doubled.
-战斗开始时引发了沙暴。 沙暴的效果会翻倍
+战斗开始时引发了沙暴。沙暴的效果会翻倍
 Move, call, step, stop.<<n>>Rend, rive, dare, halt.<<n>>Claw, cull, dive, hold.<<n>>Fend, flee, fail, fall.
 移动，呼唤，迈步，停止。<<n>>撕裂，劈开，敢于，停止。<<n>>抓，扑杀，俯冲，抓住。<<n>>防御，逃跑，失败，跌倒。
 Your Pokémon cannot use moves on every 4th turn.
@@ -48818,13 +48818,13 @@ Bence and Zoé are using 5 battlers each. This is a big battle!
 A Fool's Errand
 愚人自怜不自知，焚躯为烬行君令。
 Yezera and Shadow Mavis are using 6 battlers each. This is a huge battle!
-叶泽拉和影子梅维斯各使用6只战斗精灵。 这将是一场规模巨大的战斗!
+叶泽拉和影子梅维斯各使用6只战斗精灵。这将是一场规模巨大的战斗!
 Singular Hypocrisy, Repeated Sixfold
 满城笑靥皆伪面，无心善待无心迎。
 Despite making you use 4, Nora is using 6 battlers!
-尽管她让你使用4只精灵， 但诺拉自身用的是6只！
+尽管她让你使用4只精灵，但诺拉自身用的是6只！
 Spirit Guardian Sonya is using 12 battlers. This is a huge battle!
-灵魂守护者索尼娅有12个精灵， 这是一场巨大的战斗！
+灵魂守护者索尼娅有12只精灵，这是一场巨大的战斗！
 Determinism I Defer to Thee, Free Will I Freely Give. Let Thy Die Remain Uncast.
 覆命之志随心动，斩破轮回与浊清。
 Enemy attacks always activate their additional effects.
@@ -48836,9 +48836,9 @@ Your Pokémon gain the "Perish Song" status when they enter battle.
 Eternity in our clutches. Ouroboros ever-yearning.
 永恒尽在掌握。衔尾蛇永世渴求。
 Enemy Pokemon recycle consumed items at end of turn. Stolen items turn to dust.
-敌方精灵在回合结束时回收消耗的物品。被盗的物品会消失。
+敌方精灵在回合结束时会回收消耗的物品。被盗的物品会消失。
 The battle begins with sandstorm. The foe has extra sandstorm abilities!
-战斗从沙暴中开始， 对方拥有了额外的沙暴特性！
+战斗从沙暴中开始，对方拥有了额外的沙暴特性！
 Every Beat Betrays the Beast's Burden
 钿头银篦击节碎，血色罗裙翻酒污。
 After your Pokémon attack, the attacking stat that was used is lowered by 4 steps.
@@ -48872,13 +48872,13 @@ Neutral attacks against your Pokémon are instead Super Effective.
 Thy Inimitability, Incapable Imposture. My Immanence, Inconceivable Immaculacy.
 君生高洁涤凡尘，妾意灼灼不敢言。
 Your Super Effective attacks become Not Very Effective.
-你的精灵使用效果拔群攻击时， 会被视作效果不佳攻击。
+你的精灵的效果拔群的攻击，会被视为效果不佳。
 O Agonal Ecstasies, Spare Us Not Our Agonies
 行至终末须尽欢，今生苦短莫为难。
 When enemy Pokémon faint, they deal a quarter of their HP as damage to their last attacker.
 当敌方精灵濒死时，它们会对最后的攻击者造成其HP四分之一的伤害。
 {1} takes its vengeance!
-{1}进行报复！
+{1}进行了报复！
 Primal Forest is continually active on the opposing side.
 原始之森在对方场上持续生效。
 I chose a move!
