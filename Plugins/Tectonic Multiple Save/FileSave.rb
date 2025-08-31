@@ -4,7 +4,7 @@ $current_save_file_name = nil
 # Some methods for checking save file
 module FileSave
     # Set name of folder
-    DIR_SAVE_GAME = "Save Game"
+    DIR_SAVE_GAME = "Saves"
 
     # Set name of file for saving:
     # Ex: Game1,Game2,etc

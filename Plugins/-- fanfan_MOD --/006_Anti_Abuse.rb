@@ -70,7 +70,7 @@ module AntiAbuse
   CHEAT_CLASS     = [:CheatItemsAdapter, :ScreenCheat_Items, :SceneCheat_Items, :Scene_Cheat, :Window_GetItem, :PokemonLoad]
   CHEAT_METHOD    = [:pbenabledebug, :pbDebugMenu]
   CHEAT_PROCESS   = %w[nw.exe cheatengine-i386.exe cheatengine-x86_64.exe cheatengine-x86_64-SSE4-AVX2.exe GearNT.exe]
-  FILES_TO_DELETE = ["Save Game", "Achievements.dat", "Time Capsule.dat"]
+  FILES_TO_DELETE = ["Save Game", "Saves", "Achievements.dat", "Time Capsule.dat"]
   @@debug_control = false
 
   def self.print_update_log

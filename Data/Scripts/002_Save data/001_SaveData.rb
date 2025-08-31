@@ -5,11 +5,15 @@
 # @see SaveData.register_conversion
 module SaveData
   # Contains the file path of the save file.
+=begin
   FILE_PATH = if File.directory?(System.data_directory)
                 System.data_directory + '/Game.rxdata'
               else
                 './Game.rxdata'
               end
+=end
+  FILE_PATH = './Saves/Game.rxdata'
+
 
   # @return [Boolean] whether the save file exists
   def self.exists?
