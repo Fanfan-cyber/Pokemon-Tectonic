@@ -59183,10 +59183,10 @@ Your team members heal for 1/10th HP when swapping out. Your Aid Kit heals for 2
 Your team takes 20% less move damage on the turns they enter.
 全员出场的回合受到的技能伤害减小20%。
 6
-Enemy trainers majorly overestimate how much damage their moves do.
-对方训练师会严重高估技能造成的伤害。
+Your team deals 15% more move damage with attacks that don't share a type with their species.
+全员的非本属性技能伤害增加15%。
 7
-Your team members' moves have a +30% chance to activate their moves' additional effects.
+Your team members' moves have a +30% chance to activate their additional effects.
 全员技能发动附加效果的概率增加30%。
 8
 Your team takes 10% less move damage.

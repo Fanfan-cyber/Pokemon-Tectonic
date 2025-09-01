@@ -257,10 +257,6 @@ module GameData
             return pbGetMessageFromHash(MessageTypes::Kinds, @real_category) || "" 
         end
 
-        def types
-            [@type1, @type2].uniq
-        end
-
         # @return [String] the translated Pokédex entry of this species
         def pokedex_entry
             return pbGetMessageFromHash(MessageTypes::Entries, @real_pokedex_entry) || "" 
@@ -639,6 +635,10 @@ module GameData
 
         def isUltraBeast?
             return @flags.include?("UltraBeast")
+        end
+
+        def types
+            [@type1, @type2].uniq
         end
 
         def hasType?(type)
