@@ -337,6 +337,7 @@ class Pokemon
     #   should be healed)
     def heal_PP(move_index = -1)
         return if egg?
+        heal_pp_extra_moves(move_index)
         if move_index >= 0
             @moves[move_index].pp = @moves[move_index].total_pp
         else

@@ -86,6 +86,18 @@ class Pokemon
     end
   end
 
+  def heal_pp_extra_moves(move_index = -1)
+    moves_for_dexyos.each_value do |moves|
+      moves.each_with_index do |move, index|
+        if move_index >= 0
+          move.pp = move.total_pp if index == move_index
+        else
+          move.pp = move.total_pp
+        end
+      end
+    end
+  end
+
   def numExtraMoves(form)
     moves_for_dexyos[form].length
   end
