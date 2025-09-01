@@ -67,6 +67,7 @@ module HotTest
               :FAIRY    => { :Weaknesses => %i[BUG POISON STEEL],                  :Resistances => %i[DARK DRAGON FIGHTING],                                 :Immunities => %i[], },
               :FIGHTING => { :Weaknesses => %i[FAIRY FLYING PSYCHIC],              :Resistances => %i[BUG DARK ROCK],                                        :Immunities => %i[], },
               :FIRE     => { :Weaknesses => %i[GROUND ROCK WATER],                 :Resistances => %i[BUG FIRE GRASS ICE STEEL],                             :Immunities => %i[], },
+              :FLEX     => { :Weaknesses => %i[],                                  :Resistances => %i[],                                                     :Immunities => %i[], },
               :FLYING   => { :Weaknesses => %i[ELECTRIC ICE ROCK],                 :Resistances => %i[BUG FIGHTING GRASS],                                   :Immunities => %i[GROUND], },
               :GHOST    => { :Weaknesses => %i[DARK GHOST],                        :Resistances => %i[BUG POISON],                                           :Immunities => %i[FIGHTING NORMAL], },
               :GRASS    => { :Weaknesses => %i[BUG FIRE FLYING ICE POISON],        :Resistances => %i[ELECTRIC FAIRY GHOST GRASS GROUND WATER],              :Immunities => %i[], },
@@ -76,6 +77,7 @@ module HotTest
               :NORMAL   => { :Weaknesses => %i[FIGHTING],                          :Resistances => %i[],                                                     :Immunities => %i[GHOST], },
               :POISON   => { :Weaknesses => %i[GROUND PSYCHIC],                    :Resistances => %i[BUG FAIRY FIGHTING GRASS POISON],                      :Immunities => %i[], },
               :PSYCHIC  => { :Weaknesses => %i[BUG DARK GHOST],                    :Resistances => %i[FIGHTING PSYCHIC STEEL],                               :Immunities => %i[], },
+              :QMARKS   => { :Weaknesses => %i[],                                  :Resistances => %i[],                                                     :Immunities => %i[], }, 
               :ROCK     => { :Weaknesses => %i[FIGHTING GRASS GROUND STEEL WATER], :Resistances => %i[FIRE FLYING ICE NORMAL POISON],                        :Immunities => %i[], },
               :STEEL    => { :Weaknesses => %i[FIGHTING FIRE GROUND PSYCHIC],      :Resistances => %i[BUG DRAGON FAIRY FLYING GRASS ICE NORMAL ROCK STEEL],  :Immunities => %i[POISON], },
               :WATER    => { :Weaknesses => %i[ELECTRIC GRASS POISON],             :Resistances => %i[FIRE ICE STEEL WATER],                                 :Immunities => %i[], },
@@ -85,7 +87,7 @@ module HotTest
         pbMessage(_INTL("Created default Type Chart. You can modify the file and input the code again to apply."))
       else
         content = File.read(custom_path).chomp
-        raise unless content.lines.count == 21
+        raise unless content.lines.count == 23
         raise unless content.start_with?("CUSTOM_TYPE_CHART = {")
         raise unless content.end_with?("}.freeze")
         load custom_path
