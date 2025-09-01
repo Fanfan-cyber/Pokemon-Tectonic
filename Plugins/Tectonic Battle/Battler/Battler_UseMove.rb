@@ -711,7 +711,7 @@ class PokeBattle_Battler
         end
         if moveSucceeded
             # Killjoy
-            if move.danceMove?
+            if move.danceMove? || move.soundMove?
                 killjoy = @battle.pbCheckGlobalAbility(:KILLJOY)
                 if killjoy
                     killjoy.showMyAbilitySplash(:KILLJOY)

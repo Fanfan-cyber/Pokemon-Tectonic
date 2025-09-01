@@ -96,9 +96,17 @@ class PokeBattle_Battler
         validateStat(stat)
         return false if fainted?
         killjoy = @battle.pbCheckGlobalAbility(:KILLJOY)
-        if killjoy
+        if killjoy && killjoy.index != self.index
             if showFailMsg
+                killjoy.showMyAbilitySplash(:KILLJOY)
                 @battle.pbDisplay(_INTL("{1}'s {2} prevents {3} from raising its {4}!", killjoy.pbThis, getAbilityName(:KILLJOY), pbThis(true), GameData::Stat.get(stat).name))
+                killjoy.hideMyAbilitySplash
+                if move && (move.danceMove? || move.soundMove?)
+                    if self.takesIndirectDamage?(true)
+                        @battle.pbDisplay(_INTL("{1} was punished for its joy!", self.pbThis))
+                        self.applyFractionalDamage(1.0 / 4.0)
+                    end
+                end
             end
             return false
         end

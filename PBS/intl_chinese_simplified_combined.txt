@@ -57523,7 +57523,7 @@ Upon entry, the Pokémon heals itself for 1/5th max HP. This can overheal.
 出场时，精灵会恢复最大生命值的1/5。可以过量回复。
 Raises Sp. Atk by 2 steps after knocking out any Pokémon.
 打倒对手后，特攻增加2级。
-Upon entry, traps each opponent in a whirlpool for one turn.
+Upon entry, traps each opponent in a whirlpool for 1 turn.
 出场时，将所有对手困在潮漩中1回合。
 Each turn, raises Speed by 4 steps and loses 1/8th max HP. If Speed was maxed, instead Speed and HP are reset.
 每回合结束时，速度增加4级，HP减小1/8，如果速度已达到最大等级，重置速度并回复全部HP。
@@ -57537,18 +57537,20 @@ Copies opponents' species' legal Abilities.
 复制对手精灵的物种合法特性。
 It changes secondary type to that of the light moves it's about to use.
 将附加属性变为即将使用的光类技能的属性。
-Upon entry, traps each opponent in a sand tomb for one turn.
+Upon entry, traps each opponent in a sand tomb for 1 turn.
 出场时，将对手困在沙尘中1回合。
 It changes secondary type to that of the punching moves it's about to use.
 将附加属性变为即将使用的拳类技能的属性。
-Speed is raised by one step at the end of each of its turns.
+Speed is raised by 1 step at the end of each of its turns.
 回合结束时，速度增加1级。
 Speed is raised each turn. Speed is reset when hit, but the attacker takes 1/8th HP damage for each step lost. The Pokémon takes 1/16th.
 每回合速度增加1级，被攻击时自身的速度能力等级还原，每还原1级速度，攻击者就受到1/8HP的伤害，自身受到1/16HP的伤害。
 The user's Speed is doubled while using kicking moves. Every third kicking hit must be a crit.
 使用踢类技能时速度翻倍，并且每第3次使用的踢类技能的攻击必定会命中要害。
 The Pokémon is Mutant-type. If the Pokémon is Deoxys, it will have multiple movesets.
-此精灵将视为基因属性，如果此精灵是代欧奇希斯时，代欧奇希斯获得多套技能组。
+此精灵视为基因属性，如果此精灵是代欧奇希斯，还会获得多套技能组。
+Pokémon can't raise their stats. Pokémon that use dance or sound moves take damage equal to 1/4th their HP.
+所有精灵无法增加能力等级。使用舞蹈类或者声音类技能的精灵会受到其最大HP四分之一的伤害。
 Powers up Grass-type moves of itself and its allies by 30%.
 自身和队友的草属性技能的威力增加30%。
 A capsule that allows a Pokémon to switch to another Ability. Only used in Mono Ability Mode.
