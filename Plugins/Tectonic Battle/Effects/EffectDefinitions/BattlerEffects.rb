@@ -1393,6 +1393,7 @@ GameData::BattleEffect.register_effect(:Battler, {
                 next unless opp.hasActiveAbility?(:BOTTOMFEEDER)
                 #next unless battler.pointsAt?(:TrappingUser, opp)
                 next unless point_battler_index == opp.index
+                next unless opp.canHeal?
                 opp.showMyAbilitySplash(:BOTTOMFEEDER)
                 opp.pbRecoverHPFromDrain(damage, battler)
                 opp.hideMyAbilitySplash
