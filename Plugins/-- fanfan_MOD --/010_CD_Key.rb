@@ -83,6 +83,12 @@ module CDKey
           params.setDefaultValue(5)
           newthresh = pbMessageChooseNumber(_INTL("Set new Tribe threshold."), params)
           TA.set(:customtribethresh, newthresh)
+        elsif text == :customrevivalturn
+          params = ChooseNumberParams.new
+          params.setRange(1, 99)
+          params.setDefaultValue(10)
+          newturns = pbMessageChooseNumber(_INTL("Set new Revival Turns."), params)
+          TA.set(:customrevivalturn, newturns)
         end
       else
         pbMessage(_INTL("You can't use the code now!"))
@@ -121,6 +127,7 @@ CDKey.register_other_key([:disablenotribecopy, :notribecopy], false)
 
 CDKey.register_other_key(:customtypechart)
 CDKey.register_other_key(:customtribethresh)
+CDKey.register_other_key(:customrevivalturn)
 
 CDKey.register_other_key(:rocket, true)
 CDKey.register_other_key([:norocket, :rocket], false)

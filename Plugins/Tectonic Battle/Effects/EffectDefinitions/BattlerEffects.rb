@@ -970,7 +970,7 @@ GameData::BattleEffect.register_effect(:Battler, {
             battler.pbReduceHP(battler.hp)
         end
         if battler.hasActiveAbility?(:REAPWHATYOUSOW, true) &&
-                battler.countsAs?(:MAROMATISSE) &&
+                battler.isSpecies?(:MAROMATISSE) &&
                 battler.form == 0
             battler.showMyAbilitySplash(:REAPWHATYOUSOW)
             battler.hp = battler.totalhp

@@ -89,6 +89,7 @@ by Fanfan
 部族系统，每一只精灵有它所属的部族，同一队伍的部族数达到5个时将获得额外的效果
 时间胶囊功能，玩家可以将精灵放入时间胶囊中，时间胶囊中的精灵可以在所有存档之间存取
 自定义属性克制表，你可以自定义各个属性之间的克制关系，自定义修改的属性克制表将会跟随存档，使用密码customtypechart，首次输入时，会自动生成一个保存有默认的属性克制表的Custom_Type_Chart.rb文件，只需修改该文件，修改完成后再次使用该密码应用修改，如果想要恢复默认的属性克制表，只需把游戏文件夹里的Custom_Type_Chart.rb删除，然后再使用一次该密码
+自定义复活回合数，你可以自定义濒死复活机制的复活回合数（单打），使用密码customrevivalturn开启
 全双打模式，开启全双打模式后，所有战斗都会变成双打，并且濒死复活机制的复活回合数变为7回合，使用密码doublebattle开启
 火箭队模式，和训练师的对战胜利时，可以从对手的队伍中抢走一只精灵，使用密码rocket开启
 特性自选模式，玩家可以用特性记录器中记录的特性来修改自己的精灵的特性，使用密码customabil开启
@@ -157,6 +158,7 @@ stupidai/smartai，开启/关闭AI弱化
 disablerevive/battlerevive，关闭（1徽章）/开启濒死复活机制
 enablelegendary/disablelegendary，开启/关闭在战斗中允许使用传说精灵
 customtribethresh，开启自由部族模式
+customrevivalturn，使用自定义的濒死复活机制的复活回合数（单打）
 rocket/norocket，开启/关闭火箭队模式
 customabil/nocustomabil，开启/关闭特性自选模式
 doublebattle/disabledouble，开启/关闭全双打模式
@@ -199,7 +201,10 @@ disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
 34.修复了Scavenger无法增加会触发宝石效果的技能的伤害的Bug
 35.修复了Deceiver会增加会触发宝石效果的技能的伤害的Bug
 36.修复了在使用自定义属性克制表时，如果使用未知图腾，就会使游戏崩溃的Bug
-37.
+37.单打的濒死复活机制的复活回合数由12回合改为10回合
+38.现在可以通过输入密码customrevivalturn来自定义设置单打的濒死复活机制的复活回合数
+39.修复了其他精灵在获得了Reap What You Sow的同时变身成M.芳香精时，如果因为灭亡之歌而濒死，就会使游戏崩溃的Bug
+40.
 
 删除无效的塔罗牌效果
 修改压迫感（不能连续2次对其使用同一种属性的技能）

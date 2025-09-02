@@ -38231,33 +38231,33 @@ Weakens a supereffective Fairy-type attack against the holding Pokémon.
 Weakens a Normal-type attack against the holding Pokémon.
 让精灵携带后，在受到一般属性技能攻击时，能令其威力减弱。
 If held by a Pokémon, it raises its Attack by two steps in a pinch.
-让精灵携带后，危机时，自身的物攻就会增加。
+让精灵携带后，危机时，自身的物攻增加2级。
 If held by a Pokémon, it raises its Defense by two steps in a pinch.
-让精灵携带后，危机时，自身的物防就会增加。
+让精灵携带后，危机时，自身的物防增加2级。
 If held by a Pokémon, it raises its Speed by two steps in a pinch.
-让精灵携带后，危机时，自身的速度就会增加。
+让精灵携带后，危机时，自身的速度增加2级。
 If held by a Pokémon, it raises its Sp. Atk by two steps in a pinch.
-让精灵携带后，危机时，自身的特攻就会增加。
+让精灵携带后，危机时，自身的特攻增加2级。
 If held by a Pokémon, it raises its Sp. Def by two steps in a pinch.
-让精灵携带后，危机时，自身的特防就会增加。
+让精灵携带后，危机时，自身的特防增加2级。
 If held by a Pokémon, it raises its critical-hit ratio in a pinch.
 让精灵携带后，危机时，攻击会变得容易命中要害。
 If held by a Pokémon, it raises one of its stats by three steps in a pinch.
 让精灵携带后，危机时，某一项能力就会增加3级。
 If held by a Pokémon, it restores its HP if it is hit by any supereffective attack.
-让精灵携带后，在受到效果拔群的技能攻击时，可以回复HP。
+让精灵携带后，在受到效果拔群的攻击时，可以回复HP。
 If held by a Pokémon, it raises its Accuracy by four steps in a pinch.
 如果精灵携带它，在危急时刻会增加4级命中率。
 If held by a Pokémon, it gets to move first just once in a pinch.
 让精灵携带后，危机时，行动会变快1次。
 If held by a Pokémon and a physical attack hits it, the attacker takes 25% HP damage.
-让精灵携带后，在受到物理类技能攻击时，能给予对手伤害。
+让精灵携带后，在受到物理类技能攻击时，对手会受到25%HP伤害。
 If held by a Pokémon and a special attack hits it, the attacker takes 25% HP damage.
-让精灵携带后，在受到特殊类技能攻击时，能给予对手伤害。
+让精灵携带后，在受到特殊类技能攻击时，对手会受到25%HP伤害。
 If held by a Pokémon, this Berry will increase the holder's Defense by four steps if it's hit with a physical move.
-让精灵携带后，在受到物理类技能攻击时，自身的物防就会增加。
+让精灵携带后，在受到物理类技能攻击时，自身的物防增加4级。
 If held by a Pokémon, this Berry will increase the holder's Sp. Def by four steps if it's hit with a special move.
-让精灵携带后，在受到特殊类技能攻击时，自身的特防就会增加。
+让精灵携带后，在受到特殊类技能攻击时，自身的特防增加4级。
 A folding Bicycle that enables much faster movement than the Running Shoes.
 能比跑步鞋跑得还快的折叠式自行车。
 A very convenient map that can be viewed anytime. It even shows your present location.
@@ -57245,6 +57245,8 @@ You can't use the code now!
 你现在无法使用这个密码！
 Set new Tribe threshold.
 设置新的部落效果触发阈值。
+Set new Revival Turns.
+设置新的濒死复活机制的复活回合数（单打）。
 Please enter a valid code!
 请输入1个有效的密码！
 The Pokémon don't have any abilities.
