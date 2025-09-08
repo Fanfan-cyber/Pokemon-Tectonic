@@ -515,7 +515,7 @@ Not this again.
 Pokemon Tectonic has features to help you make sense of its open world, and its many mechanical changes.
 《口袋妖怪 地震》中新添加了很多系统，也同时包含很多帮助信息。
 The <imp>What Next?</imp> feature tells you what to do to progress the main story, if you forgot or got lost.
-比如<imp>下一步</imp>功能， 如果你忘记任务或迷路了，这个功能会告诉你如何推进主线。
+比如<imp>下一步</imp>功能，如果你忘记任务或迷路了，这个功能会告诉你如何推进主线。
 It can be found in the <imp>Game State</imp> menu.
 你可以在<imp>状态</imp>菜单里找到它。
 The <imp>Battle Guide</imp> explains the battle mechanics as well as battling strategy.
@@ -539,7 +539,7 @@ Ah, right. Mavis's youngest child, right?
 Well, thank you for your family's past, uh... patronage. I'll set about arrangements on the double.
 嗯，感谢你们家族过去的...支持，我马上着手安排。
 Mom isn't happy. She's sick of us leeching off of the company's success. 'Prove yourselves', she said.
-妈妈最近很不高兴。她不想让我们再依附公司的成功了。 她要我们证明自身的价值。
+妈妈最近很不高兴。她不想让我们再依附公司的成功了。她要我们证明自身的价值。
 So now your brother's got it in his head to become a Champion. That'll show her, right?
 所以现在你哥哥一心要成为冠军，或许这样就能让她刮目相看？
 Not if you become Champion first.
@@ -5153,7 +5153,7 @@ A whole team of fish couldn't possibly lose to a Fire- type gym!
 I totally forgot that Poison is strong against Water.
 但我忘了现在毒克水！
 What, do you miss the lick of flames and bite of acid? Shall we duel once more?
-什么，你怀念火焰的舔舐和酸液的咬噬了？ 那就让我们再决斗一场吧！
+什么，你怀念火焰的舔舐和酸液的咬噬了？那就让我们再决斗一场吧！
 Congratulations on reaching me!
 恭喜你来到我的面前！
 And congratulations to all your Pokémon! Especially the ones that are on fire!
@@ -46382,7 +46382,7 @@ Tribes are not required in any way to complete the game. They are simply an alte
 What are Enemy Trainers?
 敌对训练师
 Enemy Trainers are the Pokémon Trainers you will battle throughout the game. Some block your path forwards (like Gym Leaders), others are optional.
-敌对训练师是在游戏过程中的主要对手，他们有时会阻挡你前进的道路， 而有些可以绕开。
+敌对训练师是在游戏过程中的主要对手，他们有时会阻挡你前进的道路，而有些可以绕开。
 Detecting Trainers
 发现训练师
 Trainers are people who have a companion Pokémon next to them. If a person doesn't have that, they either aren't a Trainer, or are an inactive one.
@@ -46418,7 +46418,7 @@ Individual Trainers will always react to the same in-battle circumstances the sa
 What are Avatars?
 化身
 Avatars are powerful enemy Pokémon with unique properties that you will fight and destroy during your adventure. They cannot be caught.
-化身是拥有独特能力的强大精灵， 你可以在冒险过程中与它们战斗，它们无法被捕捉。
+化身是拥有独特能力的强大精灵，你可以在冒险过程中与它们战斗，它们无法被捕捉。
 Avatars are Healthy
 生命值
 Avatars have at least two health bars, which means they have a lot of health. Much more than double the normal amount!
@@ -46926,7 +46926,7 @@ Move to Bag
 The message will be lost. Is that OK?
 信息将会丢失，确定吗？
 The Mail was returned to the Bag with its message erased.
-邮件被放进背包， 同时信息已被删除。
+邮件被放进背包，同时信息已被删除。
 The Bag is full.
 背包满了。
 \se[PC open]{1} booted up the PC.
@@ -47490,7 +47490,7 @@ Time:
 The save file is corrupt. A backup will be loaded.
 存档文件已损坏，请加载备份。
 The save file is corrupt, or is incompatible with this game.
-存档文件已损坏， 或与现有游戏版本不兼容。
+存档文件已损坏，或与现有游戏版本不兼容。
 Do you want to delete the save file and start anew?
 要删除存档并重新开始吗？
 No save file was found.
@@ -47584,7 +47584,7 @@ Cant load this save file
 Do you want to delete this save file?
 你想要删除这个存档文件吗？
 A recoverable error has occured. Please report the following to a programmer.
-发生了1个可恢复的错误， 请向芳芳反馈情况。
+发生了1个可恢复的错误，请向芳芳反馈情况。
 ERROR: Cannot find location to teleport you back to.
 错误：无法找到你要传送的位置。
 Bringing you to the fallback return position.
@@ -48036,7 +48036,7 @@ Filters
 Sorts
 种类
 Attempted to do a combined search, but no matching Pokémon were found.
-尝试进行组合搜索， 但未找到匹配的精灵。
+尝试进行组合搜索，但未找到匹配的精灵。
 An unknown error has occured.
 发生了1个未知错误。
 Press Z or SHIFT to search.
@@ -48716,7 +48716,7 @@ The air around {1} turns dark and distorted.
 {1} is flying erratically. It looks unstable!
 {1}在无规律地飞行。它看起来很不稳定！
 The avatar swaps machines!
-化身交换器！
+化身使用了另一个电器！
 {1} is jealous of {2}'s good fortune!
 {1}嫉妒{2}的好运！
 {1} shuns the cave's darkness!
@@ -48806,7 +48806,7 @@ Enemy Pokémon all have an extra type.
 The Visitation of the Illusive Inevitable: Landfall
 万恶尽行终受戮，凡躯岂敢蒙上苍。
 Yezera won't leave the battle early. This is a true fight!
-叶泽拉不会提前离开战斗。 这将是一场真正的对决!
+叶泽拉不会提前离开战斗。这将是一场真正的对决!
 Cruel Cocoon is continually active on the opposing side.
 残酷之茧在对方场上持续生效。
 Misdirecting Fog is continually active on the opposing side.
@@ -48930,7 +48930,7 @@ They don't call it the Bite Pokémon for nothing! You're stuck here with ME now!
 Agnes! Rip 'em up! This is OUR arena now!
 艾格尼丝，解决他们！这里是我们的战场！
 Ever been punched by a bird before? Not as funny as it sounds.
-你以前被鸟揍过吗？ 这可没有听起来那么好笑。
+你以前被鸟揍过吗？这可没有听起来那么好笑。
 *hiss* Fine. Go, 1 Second! Don't leave him hanging!
 *嘶嘶声*好吧，上吧，一秒！别让它闲下来！
 Oh, come ON! Turnabout's fair play, I guess...
@@ -48952,13 +48952,13 @@ NO! My friend! What have you done to my light?!
 The light! My friend's light! I NEED IT!
 那些光！我的朋友的光！我-需-要-它！
 Got me on the ropes, huh? Well it ain't over till it's over.
-把我逼上绝路了？ 这还没到结束的时候呢。
+把我逼上绝路了？这还没到结束的时候呢。
 Hah. Oldest trick in the book.
 哈，书上的老把戏。
 Saw through my trick, did ya?
 你看穿我的把戏了？
 Mystified? I've got plenty of tricks up my sleeve.
-不理解？ 我有的是办法。
+不理解？我有的是办法。
 ...Hope I've kept you entertained..
 希望我给你们带来了乐趣...
 What do you think? A little gaudy? Let me tell you: it's more than a pretty face.
@@ -49006,7 +49006,7 @@ Sleep. Rest, and awake in a new world.
 The same simple pivot, again and again...I'm bored.
 同样简单的支点，1次又1次... 真无趣...
 I suppose it would never work on you, would it? Speak my language, read me like a book.
-我觉得这对你应该没用吧？ 用我的语言，来读懂我吧。
+我觉得这对你应该没用吧？用我的语言，来读懂我吧。
 Really? That's it? Get back up. That can't be all you've got.
 就这样？怎么可能？站起来，你不可能就这点能耐。
 I guess the power of friendship only goes so far.
@@ -49930,7 +49930,7 @@ PA: You have no Safari Balls left! Game over!
 {1} is watching carefully!
 {1}正在仔细观察你！
 \w[]\wm\c[12]\l[3]You feel the pull of the nearby Avatar Totem. Would you like it to revive you?
-\w[]\wm\c[12]\l[3]你感觉到了附近的化身图腾在吸引着你， 要利用它的力量复活自身吗？
+\w[]\wm\c[12]\l[3]你感觉到了附近的化身图腾在吸引着你，要利用它的力量复活自身吗？
 \w[]\wm\c[12]\l[3]By the power of the Avatar Totem, your team is revived.
 \w[]\wm\c[12]\l[3]借助化身图腾的力量你的队伍获得了重生。
 An error has occured. Unable to spawn player at Avatar Totem. Attempting backup spawn at healing spot.
@@ -53628,7 +53628,7 @@ You have no more Pokémon that can fight!<<1>>
 You blacked out!
 你濒死了！
 The repellent's effect wore off! Would you like to use another one?
-除虫喷雾的效果消失了， 要使用下1个吗？
+除虫喷雾的效果消失了，要使用下1个吗？
 The repellent's effect wore off!
 除虫喷雾的效果消失了！
 Your flame would go out if you surfed now!
@@ -53986,7 +53986,7 @@ The sand can't slow {1} down!
 {1} is enjoying the weather.
 {1}很享受这种天气。
 {1} is coated in sand, but doesn't seem to mind.
-{1}身上沾满了沙子， 但并不介意。
+{1}身上沾满了沙子，但并不介意。
 {1} seems unbothered by the sandstorm.
 {1}对沙尘暴漠不关心。
 The sand doesn't slow {1} down.
@@ -56004,7 +56004,7 @@ Treason
 <i><b>I will swat you from the sky.</b></i>
 <i><b>我会让你摔个粉身碎骨。</b></i>
 <i>Let this act as a lesson in humility, worm!</i>
-<i>让我们把这当做一堂谦逊之课吧， 虫豸！</i>
+<i>让我们把这当做一堂谦逊之课吧，虫豸！</i>
 <i>What!!?</i>
 <i>什么？</i>
 <i>How... how could you?</i>
@@ -56072,7 +56072,7 @@ So, cough it up.
 My safety comes first. En garde!
 安全第一，守卫！
 Don't you know who I am? I can't keep risking my head every day!
-你不知道我是谁？ 我不能每天都拿自身的脑袋冒险！
+你不知道我是谁？我不能每天都拿自身的脑袋冒险！
 Tch, don't have one? They sell them in the castle courtyard. Diego's something or another.
 没有？城堡那边有卖啊！那个叫迭戈的。
 \wm<i>The mention of a certain someone manifests a ball of light...</i>
@@ -56128,7 +56128,7 @@ Tapu Bulu's ability "Wild Totem" creates a "Primal Forest" upon entry that only 
 Whenever a Pokémon on its side is hit by an offensive attack, it becomes enraged.
 每当其同侧的精灵被攻击命中时，它会陷入狂暴状态。
 Thereby, its defense stats are both lowered by 1 step and its attack stats are both raised by 1 step.
-这会使其减小自身的双防， 但增加自身的双攻。
+这会使其减小自身的双防，但增加自身的双攻。
 Tapu Fini's ability "Fog Totem" creates a "Misdirecting Fog" upon entry that only affects its side and lasts for 6 turns.
 卡璞·鳍鳍的特性“迷雾图腾”，会在出场时开启持续6回合，且只影响己方的“迷惑之雾”。
 Whenever a foe finishes attacking a Pokémon on its side, the attacker is forced to switch out of battle.
@@ -56168,7 +56168,7 @@ Get ready to unravel the enigma of my team. Will it be a treat or a trick?
 Warning! Battling me may cause trembling, excessive sweating, and a memorable defeat.
 警告！与我交手可能 会导致浑身颤抖，出汗过度和三天三夜睡不着觉的情况。
 No point in saying much. I've come to expect this sort of performance from you.
-多说无益， 我一直期待着你这样的对手。
+多说无益，我一直期待着你这样的对手。
 Haha, you got me this time! But I'll be back with a vengeance!
 哈哈，被你说中了！不过，我会回来报仇的！
 You've mastered the art of surprise attacks! I bow down to your wacky brilliance.
@@ -56216,7 +56216,7 @@ Looks like you're still a worthy rival!
 Well, that was a close call! My heart was pounding with each move.
 真是千钧一发啊！每一步都让我心脏狂跳。
 I gave it my all, but luck wasn't on my side. At least I'm gonna blame that one on luck.
-我全力以赴了， 但运气不在我这边，至少这把就是运气的事。
+我全力以赴了，但运气不在我这边，至少这把就是运气的事。
 A loss? How unexpected! It's not like I meticulously planned for this scenario.
 输了？真是...出乎意料！这不是我精心策划的结果。
 Well, at least I lost in style.
@@ -56256,9 +56256,9 @@ Can't warp to any shards because they're all collected already!
 \wmThe words of a poem appear in your mind.
 \wm一首诗的字句出现在脑海中。
 \ss\wm"Watchful eye, a towering sight."
-\ss\wm"警惕的目光， 高耸的视线。"
+\ss\wm"警惕的目光，高耸的视线。"
 \ss\wm"Budding hope, with 3-fold might."
-\ss\wm"希望的萌芽， 三倍的威力。"
+\ss\wm"希望的萌芽，三倍的威力。"
 \ss\wm"We await you, o slayer..."
 \ss\wm"我们在等你..."
 \wmThe victor is \PN!\me[Bug catching 1st]
@@ -59230,7 +59230,7 @@ Your Pokemon deal 15% more damage to targets that haven’t moved yet this turn.
 Ignore the first time each battle that one of your team members would flinch or get a non-volatile status condition.
 每场战斗免疫1次异常状态或畏缩。
 21
-Your team members take 15% less move damage if they're using an attack this turn.
+Your team members take 15% less move damage if they choose an attack this turn.
 全员如果本回合选择使用伤害类技能，那么受到的技能伤害减小15%。
 22
 This tribe exists to test the PBS extensions system
