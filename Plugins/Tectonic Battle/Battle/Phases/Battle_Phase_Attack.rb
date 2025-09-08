@@ -114,6 +114,14 @@ class PokeBattle_Battle
             next unless newForm
             next if b.form == newForm
             pbShowAbilitySplash(b, :CLOAKING)
+            case newForm
+                when 0
+                    @scene.pbCommonAnimation("BurmyPlant", b)
+                when 1
+                    @scene.pbCommonAnimation("BurmySandy", b)
+                when 2
+                    @scene.pbCommonAnimation("BurmyTrash", b)
+            end
             b.pbChangeForm(newForm,_INTL("{1} changes its cloak to fit its next move!",b.pbThis))
             pbHideAbilitySplash(b)
         end
@@ -214,7 +222,6 @@ class PokeBattle_Battle
             if @choices[i][0] != :UseMove && @choices[i][0] != :Shift && @choices[i][0] != :SwitchOut
                 b.disableEffect(:DestinyBond)
             end
-            b.disableEffect(:Rage) unless pbChoseMoveFunctionCode?(i, "093") # Rage
             b.applyEffect(:ChoseAttack) if b.usingAttackThisTurn?
             b.applyEffect(:ChoseStatus) if b.usingStatusThisTurn?
             b.lastRoundHighestTypeModFromFoe = -1

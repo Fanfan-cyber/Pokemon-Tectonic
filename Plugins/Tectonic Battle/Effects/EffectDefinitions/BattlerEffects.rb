@@ -249,8 +249,9 @@ GameData::BattleEffect.register_effect(:Battler, {
     :eor_proc => proc do |battle, battler, _value|
         if battler.takesIndirectDamage?
             battle.pbDisplay(_INTL("{1} is afflicted by the curse!", battler.pbThis))
+            pharaohsCurse = battler.effectActive?(:PharaohsCurse)
             curseDamage = battler.applyFractionalDamage(CURSE_DAMAGE_FRACTION, false)
-            if battler.effectActive?(:PharaohsCurse)
+            if pharaohsCurse
                 moneyEarned = curseDamage * 10
                 moneyEarned = (battle.moneyMult * moneyEarned).floor
                 battler.pbOpposingSide.incrementEffect(:PayDay, moneyEarned)
@@ -1111,11 +1112,6 @@ GameData::BattleEffect.register_effect(:Battler, {
 })
 
 GameData::BattleEffect.register_effect(:Battler, {
-    :id => :Rage,
-    :real_name => "Rage",
-})
-
-GameData::BattleEffect.register_effect(:Battler, {
     :id => :Roost,
     :real_name => "Roosting",
     :resets_eor	=> true,
@@ -1386,17 +1382,21 @@ GameData::BattleEffect.register_effect(:Battler, {
         if battler.takesIndirectDamage?
             fraction = trappingDamageFraction(battler)
             battle.pbDisplay(_INTL("{1} is hurt by {2}!", battler.pbThis, moveName))
-            point_battler_index = battler.getBattlerPointsTo(:TrappingUser).index
-            damage = battler.applyFractionalDamage(fraction)
 
+            bottomFeeders = []
             battler.eachOpposing do |opp|
                 next unless opp.hasActiveAbility?(:BOTTOMFEEDER)
-                #next unless battler.pointsAt?(:TrappingUser, opp)
-                next unless point_battler_index == opp.index
+                next unless battler.pointsAt?(:TrappingUser, opp)
                 next unless opp.canHeal?
-                opp.showMyAbilitySplash(:BOTTOMFEEDER)
-                opp.pbRecoverHPFromDrain(damage, battler)
-                opp.hideMyAbilitySplash
+                bottomFeeders.push(opp)
+            end
+
+            damage = battler.applyFractionalDamage(fraction)
+
+            bottomFeeders.each do |feeder|
+                feeder.showMyAbilitySplash(:BOTTOMFEEDER)
+                feeder.pbRecoverHPFromDrain(damage, battler)
+                feeder.hideMyAbilitySplash
             end
         end
     end,

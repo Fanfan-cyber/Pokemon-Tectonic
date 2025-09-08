@@ -1315,6 +1315,16 @@ BattleHandlers::AbilityOnSwitchIn.add(:FALSEFRONT,
   }
 )
 
+BattleHandlers::AbilityOnSwitchIn.add(:DISTORTEDGRAVITY,
+  proc { |ability, battler, battle, aiCheck|
+      next unless battle.gravityIntensified?
+      next 0 if aiCheck
+      battle.pbShowAbilitySplash(battler, ability)
+      battle.pbDisplay(_INTL("{1} twists the dimensions!", battler.pbThis))
+      battle.pbHideAbilitySplash(battler)
+  }
+)
+
 BattleHandlers::AbilityOnSwitchIn.add(:AUTOPILOT2,
   proc { |ability, battler, battle, aiCheck|
       next 0 if aiCheck
