@@ -98,6 +98,10 @@ module AbilityRecorder
     abils = $Trainer.ability_recorder
     abils_recorded = []
     battler.legalAbilities.each do |abil|
+      ability_data = GameData::Ability.try_get(abil)
+      next unless ability_data
+      next if ability_data.cut || ability_data.primeval
+      next if ability_data.is_uncopyable_ability?
       #next if abils.has?(abil)
       abils << abil
       abils_recorded << abil
@@ -108,11 +112,15 @@ module AbilityRecorder
     battle.pbDisplay(_INTL("Ability Recorder recorded {1}'s {2}!", battler.pbThis(true), abilities_names.quick_join))
   end
 
+  @@check_legality = false
   def self.check_legality
+    return if @@check_legality
+    @@check_legality = true
     $Trainer.ability_recorder.reject! do |abil|
       ability_data = GameData::Ability.try_get(abil)
       next true unless ability_data
-      next true if ability_data.cut
+      next true if ability_data.cut || ability_data.primeval
+      next true if ability_data.is_uncopyable_ability?
       next false
     end
   end

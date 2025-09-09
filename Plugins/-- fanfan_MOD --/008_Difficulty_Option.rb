@@ -58,7 +58,8 @@ Events.onTrainerPartyLoad += proc { |_sender, e|
   trainer = e[0]
   next unless trainer
   trainer.party.each do |pkmn|
-    pkmn.items.concat(Settings::DEFAULT_ITEMS) unless pkmn.hasItem?
+    next if pkmn.hasItem?
+    pkmn.items.concat(Settings::DEFAULT_ITEMS)
   end
 }
 

@@ -5,12 +5,12 @@ module SaveData
     Marshal.restore(Zlib::Inflate.inflate(encrypted_data.unpack("m")[0]))
   end
 
-  def self.read_from_file(file_path,convert=false)
+  def self.read_from_file(file_path, convert = false)
     validate file_path => String
     save_data = get_data_from_file(file_path)
     save_data = to_hash_format(save_data) if save_data.is_a?(Array)
     save_data[:mod_version] = "0.0.1" unless save_data[:mod_version]
-    outdated = PluginManager.compare_versions(save_data[:mod_version], MOD_VERSION) < 0
+    outdated = (PluginManager.compare_versions(save_data[:mod_version], MOD_VERSION) < 0 || $DEBUG)
     # Updating to a new version
     #if convert && !save_data.empty? && PluginManager.compare_versions(save_data[:game_version], Settings::GAME_VERSION) < 0
     if convert && !save_data.empty? && outdated

@@ -148,7 +148,7 @@ module BattleLoader
               index = pbMessage(_INTL("Which team do you want to copy?"), names, -1)
               if index >= 0
                 team_data = @@battle_loader[index]
-                $Trainer.party = team_data[2].map{ |pkmn| pkmn.clone_pkmn(true, true) }
+                $Trainer.party = team_data[2].map { |pkmn| pkmn.clone_pkmn(true, true) }
                 pbMessage(_INTL("Copied the party of {1}.", team_data[1]))
               end
             when 3 # Former Champion Team
