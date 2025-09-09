@@ -48768,7 +48768,7 @@ Escorted by, Enthroned upon, Ensconced within this Empty Eminence
 An Avatar has been inserted into Yezera's party!
 叶泽拉的队伍中增加了1个化身！
 TODO
-待办事项
+待完成
 The battle begins with sunshine. The effects of sunshine are doubled.
 战斗开始时引发了晴天。阳光的效果会翻倍。
 The battle begins with rainstorm. The effects of rainstorm are doubled.
@@ -50988,7 +50988,7 @@ The fog on {1}'s side was dispelled!
 The fog on {1}'s side dissipated.
 {1}场地的雾气消散了。
 A primal forest surrounded {1}!
-原始之森环绕着 {1}！
+原始之森环绕着{1}！
 The primal forest on {1}'s side was removed!
 {1}这边的原始之森消失了！
 The primal forest on {1}'s side shriveled up.
@@ -53428,9 +53428,9 @@ Oh, a strange item was left behind!
 Oh, some strange items were left behind!
 留下了一些奇怪的东西！
 \db[Items/TAROTAMULET_active]You turn the Tarot Amulet to its front face. It is now active.\wtnp[{1}]
-\db[Items/TAROTAMULET_active]你将塔罗护身符翻到正面。它现在处于激活状态。\wtnp[{1}]
+\db[Items/TAROTAMULET_active]你将塔罗护身符翻到正面，它现在处于激活状态。\wtnp[{1}]
 \db[Items/TAROTAMULET]You turn the Tarot Amulet to its back face. It is now disabled.\wtnp[{1}]
-\db[Items/TAROTAMULET]你将塔罗护身符翻到背面。它现在处于禁用状态。\wtnp[{1}]
+\db[Items/TAROTAMULET]你将塔罗护身符翻到背面，它现在处于禁用状态。\wtnp[{1}]
 Which form shall the Pokémon take?
 精灵将采取哪种形态？
 {1} swapped to {2}!
