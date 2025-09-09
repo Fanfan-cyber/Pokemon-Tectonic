@@ -353,6 +353,10 @@ class BattleInfoDisplay < SpriteWrapper
             battlerEffects.push(_INTL("A: {1}", getAbilityName(abilityID)))
         end
 
+        if battler.hp < battler.totalhp / 3
+            battlerEffects.push(_INTL("Danger: {1}", (battler.hpFraction * 100).floor(1)))
+        end
+
         # List status counts
         battler.getStatuses.each do |status|
             statusCount = battler.getStatusCount(status)

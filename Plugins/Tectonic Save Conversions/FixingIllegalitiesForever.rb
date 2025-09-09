@@ -64,7 +64,7 @@ end
         pokemon.remove_first_move(moveID)
         anyPokemonChanged = true
       end
-  
+
       # Find and fix illegal abilities
 =begin
       unless pokemon.species_data.legalAbilities.include?(pokemon.ability_id)
@@ -86,8 +86,16 @@ end
           newAbilityName = pokemon.ability.name
           pbMessage(_INTL("\\l[4]Pokemon {1} in {2} has no ability. Switching to {3}.", name, location, newAbilityName)) unless skipLegalityMessages? || source
           anyPokemonChanged = true
+        else
+          if pokemon.ability.cut || pokemon.ability.primeval || (pokemon.ability.is_uncopyable_ability? && !pokemon.species_abilities.include?(pokemon.ability_id))
+            oldAbilityName = pokemon.ability.name
+            pokemon.recalculateAbilityFromIndex
+            newAbilityName = pokemon.ability.name
+            pbMessage(_INTL("\\l[4]Pokemon {1} in {2} has ability {3}. That ability is not legal for its species. Switching to {4}.", name, location, oldAbilityName, newAbilityName)) unless skipLegalityMessages? || source
+            anyPokemonChanged = true
+          end
         end
-  
+
       # Check and remove illegal items
       pokemon.items.clone.each do |item|
         itemData = GameData::Item.get(item)

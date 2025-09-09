@@ -160,6 +160,8 @@ module BattleLoader
                   rule  = teams[index][0]
                   team  = teams[index][2]
                   curse = teams[index][4]
+                  INVALID_CURSE.each { |c| curse.delete(c) }
+                  curse << get_random_curse if curse.empty?
                   #rules = ["1v1", "2v2", "1v2", "2v1"]
                   #rules.reject! {|other_rule| other_rule == rule }
                   #ret = pbMessage(_INTL("Do you want to use other battle rules?"), rules, -1)
@@ -319,7 +321,6 @@ module BattleLoader
 
   def self.start_battle(rule, team, curse = [])
     INVALID_CURSE.each { |c| curse.delete(c) }
-    curse << get_random_curse if curse.empty?
     setBattleRule(rule)
     TA.set(:battle_loader, true)
     TA.set(:team, team)
