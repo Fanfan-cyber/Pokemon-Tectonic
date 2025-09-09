@@ -15,7 +15,7 @@ module GameData
         attr_reader :pokedex_form
         attr_reader :type1
         attr_reader :type2
-        attr_reader :base_stats
+        #attr_reader :base_stats
         attr_reader :base_exp
         attr_reader :growth_rate
         attr_reader :gender_ratio
@@ -262,8 +262,12 @@ module GameData
             return pbGetMessageFromHash(MessageTypes::Entries, @real_pokedex_entry) || "" 
         end
 
+        def base_stats(real = true)
+            return real ? (SPECIES_STATS_DATA[[@species, @form]] || @base_stats) : @base_stats
+        end
+
         def base_stat_total
-            return @base_stats.values.sum
+            return base_stats.values.sum
         end
 
         def apply_metrics_to_sprite(sprite, index, shadow = false)
@@ -1157,8 +1161,8 @@ module Compiler
         total = 0
         GameData::Stat.each_main do |s|
             next if s.pbs_order < 0
-            stats_array[s.pbs_order] = species.base_stats[s.id]
-            total += species.base_stats[s.id]
+            stats_array[s.pbs_order] = species.base_stats(false)[s.id]
+            total += species.base_stats(false)[s.id]
         end
         f.write(format("# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def\r\n", total))
         f.write(format("BaseStats = %s\r\n", stats_array.join(",")))
@@ -1250,12 +1254,12 @@ module Compiler
         base_species_total = 0
         GameData::Stat.each_main do |s|
             next if s.pbs_order < 0
-            stats_array[s.pbs_order] = species.base_stats[s.id]
-            total += species.base_stats[s.id]
-            base_species_total += base_species.base_stats[s.id]
+            stats_array[s.pbs_order] = species.base_stats(false)[s.id]
+            total += species.base_stats(false)[s.id]
+            base_species_total += base_species.base_stats(false)[s.id]
         end
-        f.write(format("BaseStats = %s\r\n", stats_array.join(","))) if species.base_stats != base_species.base_stats
-        f.write(format("# Total = %s\r\n", total)) if species.base_stats != base_species.base_stats
+        f.write(format("BaseStats = %s\r\n", stats_array.join(","))) if species.base_stats(false) != base_species.base_stats(false)
+        f.write(format("# Total = %s\r\n", total)) if species.base_stats(false) != base_species.base_stats(false)
         f.write(format("BaseEXP = %d\r\n", species.base_exp)) if species.base_exp != base_species.base_exp
         f.write(format("Rareness = %d\r\n", species.catch_rate)) if species.catch_rate != base_species.catch_rate
         f.write(format("Happiness = %d\r\n", species.happiness)) if species.happiness != base_species.happiness

@@ -24,8 +24,8 @@
 进化检查特性（不再继承前进化型的特性）
 =end
 
-MOD_VERSION  = "0.4.3"
-VERSION_NAME = ["Pivot of Fate", "命途枢转"]
+MOD_VERSION  = "0.4.4"
+VERSION_NAME = ["Echoes of Destiny", "余烬回响"]
 
 CHANGE_LOG = <<-LOGGER
 #==============================================================================#
@@ -170,6 +170,9 @@ rocket/norocket，开启/关闭火箭队模式
 customabil/nocustomabil，开启/关闭特性自选模式
 doublebattle/disabledouble，开启/关闭全双打模式
 disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
+
+0.4.4 Echoes of Destiny / 余烬回响
+1.
 
 0.4.3 Pivot of Fate / 命途枢转
 1.修改了大量中文的翻译

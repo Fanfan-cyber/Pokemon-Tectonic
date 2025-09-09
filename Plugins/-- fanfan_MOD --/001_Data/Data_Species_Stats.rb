@@ -1,0 +1,3 @@
+SPECIES_STATS_DATA = {
+  #[:HOOH, 0] => { :HP => 76, :ATTACK => 105, :DEFENSE => 90, :SPECIAL_ATTACK => 100, :SPECIAL_DEFENSE => 154, :SPEED => 75, },
+}.freeze
