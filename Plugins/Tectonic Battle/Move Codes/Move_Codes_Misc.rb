@@ -301,7 +301,8 @@ class PokeBattle_Move_TargetUsesItsLastUsedMoveAgain < PokeBattle_Move
                           targetMove.function == "UsedAfterUserTakesPhysicalDamage" ||   # Shell Trap
                           targetMove.function == "UsedAfterUserTakesSpecialDamage" ||   # Masquerblade
                           targetMove.function == "BurnAttackerBeforeUserActs" ||     # Beak Blast
-                          targetMove.function == "FrostbiteAttackerBeforeUserActs")   # Condensate
+                          targetMove.function == "FrostbiteAttackerBeforeUserActs" ||    # Cold Snap
+                          targetMove.function == "SetupSpikesBeforeUserActs")   # Shard Surge
             @battle.pbDisplay(_INTL("But it failed, since {1} is focusing!", target.pbThis(true))) if show_message
             return true
         end
@@ -438,6 +439,47 @@ class PokeBattle_Move_ChangeUserDeoxusChoiceOfForm < PokeBattle_Move
 
     def getEffectScore(_user, _target)
         return 100
+    end
+end
+
+#===============================================================================
+# Ignores all abilities that alter this move's success or damage.
+# Transforms Necrozma into its Ultra form before attacking.
+# (Light That Burns the Sky)
+#===============================================================================
+class PokeBattle_Move_IgnoreTargetAbilityChangeUserNecrozmaForm < PokeBattle_Move
+    def pbMoveFailed?(user, _targets, show_message)
+        if !user.countsAs?(:NECROZMA)
+            @battle.pbDisplay(_INTL("But {1} can't use the move!", user.pbThis(true))) if show_message
+            return true
+        end 
+        return false
+    end 
+
+    def pbChangeUsageCounters(user, specialUsage)
+        super
+        @battle.moldBreaker = true unless specialUsage
+    end
+
+    def pbDisplayUseMessage(user, _targets = [])
+        @battle.pbDisplayBrief(_INTL("{1} used Light That Burns the Sky!", user.pbThis))
+    end
+
+    def pbDisplayChargeMessage(user)
+        if user.form == 1
+            @battle.pbCommonAnimation("UltraBurst", user)
+            user.pbChangeForm(3, _INTL("Bright lights bursts out of {1}!", user.pbThis))
+        elsif user.form == 2
+            @battle.pbCommonAnimation("UltraBurst", user)
+            user.pbChangeForm(4, _INTL("Bright lights bursts out of {1}", user.pbThis))
+        end 
+    end
+
+    def getEffectScore(user, _target)
+        score = super
+        score += 100
+        score += 50 if user.firstTurn?
+        return score
     end
 end
 

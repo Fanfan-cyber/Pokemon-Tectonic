@@ -238,19 +238,9 @@ MultipleForms.register(:ROTOM,{
   }
 })
 
-MultipleForms.register(:GIRATINA,{
-  "getForm" => proc { |pkmn|
-    maps = [49,50,51,72,73]   # Map IDs for Origin Forme
-    if pkmn.hasItem?(:GRISEOUSORB) || ($game_map && maps.include?($game_map.map_id))
-      next 1
-    end
-    next 0
-  }
-})
-
 MultipleForms.register(:ARCEUS,{
   "getForm" => proc { |pkmn|
-    next nil unless pkmn.hasAbility?(:MULTITYPE)
+    next 0 unless pkmn.hasAbility?(:MULTITYPE)
     next 0 unless pkmn.hasItem?(:PRISMATICPLATE)
     next GameData::Type.get(pkmn.itemTypeChosen).id_number
   }
@@ -312,9 +302,9 @@ MultipleForms.register(:GENESECT,{
   }
 })
 
-MultipleForms.register(:GRENINJA,{
+MultipleForms.register(:CRAMORANT,{
   "getFormOnLeavingBattle" => proc { |pkmn,battle,usedInBattle,endBattle|
-    next 1 if pkmn.form == 2 && (pkmn.fainted? || endBattle)
+    next 0
   }
 })
 
@@ -351,7 +341,7 @@ MultipleForms.register(:XERNEAS,{
 
 MultipleForms.register(:ZYGARDE,{
   "getFormOnLeavingBattle" => proc { |pkmn,battle,usedInBattle,endBattle|
-    next pkmn.form-2 if pkmn.form>=2 && (pkmn.fainted? || endBattle)
+    next 3 if pkmn.form==2 && (pkmn.fainted? || endBattle)
   }
 })
 
@@ -370,7 +360,7 @@ MultipleForms.register(:WISHIWASHI,{
 
 MultipleForms.register(:SILVALLY,{
   "getForm" => proc { |pkmn|
-    next nil unless pkmn.hasAbility?(:RKSSYSTEM)
+    next 0 unless pkmn.hasAbility?(:RKSSYSTEM)
     next 0 unless pkmn.hasItem?(:MEMORYSET)
     next GameData::Type.get(pkmn.itemTypeChosen).id_number
   }

@@ -75,10 +75,13 @@ class PokeBattle_Move
         targetData = GameData::Target.get(@target)
         # Effects that make things spread
         if damagingMove? && targetData.can_target_one_foe?
-          return GameData::Target.get(:AllNearFoes) if user.effectActive?(:FlareWitch)
-          return GameData::Target.get(:AllNearFoes) if @calcType == :PSYCHIC && user.hasActiveAbility?(:MULTITASKER)
-          return GameData::Target.get(:AllNearFoes) if @calcType == :FIGHTING && user.hasActiveAbility?(:EVENHANDED)
-          return GameData::Target.get(:AllNearFoes) if user.hasActiveAbility?(:SPACIALDISTORTION)
+          allNearFoesData = GameData::Target.get(:AllNearFoes)
+          return allNearFoesData if user.effectActive?(:FlareWitch)
+          return allNearFoesData if @calcType == :PSYCHIC && user.hasActiveAbility?(:MULTITASKER)
+          return allNearFoesData if @calcType == :FIGHTING && user.hasActiveAbility?(:EVENHANDED)
+          return allNearFoesData if user.hasActiveAbility?(:SPACIALDISTORTION)
+          return allNearFoesData if @calcType == :DRAGON && user.hasActiveAbility?(:VICIOUSCYCLE)
+          return allNearFoesData if @calcType == :NORMAL && user.hasActiveAbility?(:HORDETACTICS)
         end
         return targetData
     end
@@ -139,15 +142,33 @@ class PokeBattle_Move
     def canMirrorMove?;         return @flags.include?("CanMirrorMove"); end
     def canRandomCrit?;         return @flags.include?("CanRandomCrit"); end
     def doubleCritChance?;      return @flags.include?("DoubleCritChance"); end
-    def bitingMove?;            return @flags.include?("Biting"); end
+    def halfDamageToAllies?;    return @flags.include?("HalfDamageToAllies"); end
+
     def punchingMove?;          return @flags.include?("Punch"); end
-    def soundMove?;             return @flags.include?("Sound"); end
-    def pulseMove?;             return @flags.include?("Pulse"); end
-    def danceMove?;             return @flags.include?("Dance"); end
+    def kickingMove?;           return @flags.include?("Kick"); end
+    def bitingMove?;            return @flags.include?("Biting"); end
     def bladeMove?;             return @flags.include?("Blade"); end
+    
+    def soundMove?;             return @flags.include?("Sound"); end
     def windMove?;              return @flags.include?("Wind"); end
-    def kickingMove?;           return @flags.include?("Kicking"); end
     def lightMove?;             return @flags.include?("Light"); end
+    def pulseMove?;             return @flags.include?("Pulse"); end
+    
+    def danceMove?;             return @flags.include?("Dance"); end
+
+    def tagged?
+      return true if punchingMove?
+      return true if kickingMove?
+      return true if bitingMove?
+      return true if bladeMove?
+
+      return true if windMove?
+      return true if windMove?
+      return true if lightMove?
+      return true if pulseMove?
+      return false
+    end
+
     def foretoldMove?;          return @flags.include?("Foretold"); end
     def empoweredMove?;         return @flags.include?("Empowered"); end
 

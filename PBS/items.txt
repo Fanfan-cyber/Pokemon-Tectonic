@@ -552,7 +552,7 @@ Name = Amulet Coin
 NamePlural = Amulet Coins
 Pocket = 5
 Price = 10000
-Description = A held item. After the weilder enters a battle, money generated in that battle is increased by 50%.
+Description = A held item. If the wielder enters a battle, money and coins generated in that battle are increased by 50%.
 #-------------------------------
 [SOOTHEBELL]
 Name = Soothe Bell
@@ -694,7 +694,7 @@ Name = Big Root
 NamePlural = Big Roots
 Pocket = 5
 Price = 4000
-Description = A held item. The holder recovers 30% more HP from draining moves, Ingrain, Aqua Ring, and leech.
+Description = A held item. The holder recovers 30% more HP from draining moves, Aqua Ring, and leech.
 #-------------------------------
 [BLACKSLUDGE]
 Name = Black Sludge
@@ -763,7 +763,7 @@ NamePlural = Strength Herbs
 Pocket = 5
 Price = 4000
 Flags = Herb
-Description = An item to be held by a Pokémon. Boosts the power of a physical move by 33% once per battle.
+Description = A held item. Boosts the power of a special move by 15% and makes it physical, once per battle.
 #-------------------------------
 [INTELLECTHERB]
 Name = Intellect Herb
@@ -771,7 +771,7 @@ NamePlural = Intellect Herbs
 Pocket = 5
 Price = 4000
 Flags = Herb
-Description = An item to be held by a Pokémon. Boosts the power of a special move by 33% once per battle.
+Description = A held item. Boosts the power of a physical move by 15% and makes it special, once per battle.
 #-------------------------------
 [POWERHERB]
 Name = Power Herb
@@ -1078,6 +1078,33 @@ NamePlural = Griseous Orbs
 Pocket = 5
 Price = 10000
 Description = A glowing orb to be held by Giratina. It boosts the power of Dragon- and Ghost-type moves.
+#-------------------------------
+[ADAMANTCRYSTAL]
+Name = Adamant Crystal
+NamePlural = Adamant Crystals
+Pocket = 8
+Price = 0
+FieldUse = OnPokemon
+Flags = KeyItem
+Description = When used on Dialga, this large, glowing gem wells with power and allows the Pokémon to change form.
+#-------------------------------
+[LUSTROUSGLOBE]
+Name = Lustrous Globe
+NamePlural = Lustrous Globes
+Pocket = 8
+Price = 0
+FieldUse = OnPokemon
+Flags = KeyItem
+Description = When used on Palkia, this large, glowing orb wells with power and allows the Pokémon to change form.
+#-------------------------------
+[GRISEOUSCORE]
+Name = Griseous Core
+NamePlural = Griseous Cores
+Pocket = 8
+Price = 0
+FieldUse = OnPokemon
+Flags = KeyItem
+Description = When used on Giratina, this large, glowing gem wells with power and allows the Pokémon to change form.
 #-------------------------------
 [DOUSEDRIVE]
 Name = Douse Drive

@@ -468,12 +468,18 @@ module GameData
             inherited_moves.each do |moveID|
                 nonInheritedTutorMoves.delete(moveID)
             end
+            GameData::Move.staple_moves do |moveID|
+                nonInheritedTutorMoves.delete(moveID)
+            end
             return nonInheritedTutorMoves
         end
 
         def non_inherited_line_moves
             nonInheritedLineMoves = (@line_moves || @egg_moves).clone
             inherited_moves.each do |moveID|
+                nonInheritedLineMoves.delete(moveID)
+            end
+            GameData::Move.staple_moves.each do |moveID|
                 nonInheritedLineMoves.delete(moveID)
             end
             return nonInheritedLineMoves
@@ -492,6 +498,9 @@ module GameData
         def recalculate_learnable_moves
             @learnableMoves = []
 
+            if !@flags.include?("NoStaples")
+              @learnableMoves.concat(GameData::Move.staple_moves)
+            end
             @learnableMoves.concat(inherited_tutor_moves)
             @learnableMoves.concat(@tutor_moves)
             @learnableMoves.concat(@line_moves || @egg_moves)
@@ -611,6 +620,12 @@ module GameData
             return @flags.include?("UltraBeast")
         end
 
+        def hasType?(type)
+            return true if @type1 == type
+            return true if @type2 == type
+            return false
+        end
+
         def self.load
             super
             const_set(:FORM_SPECIFIC_MOVES, load_data("Data/#{self::FORM_SPECIFIC_MOVES_DATA_FILENAME}"))
@@ -696,6 +711,15 @@ module Compiler
                             move_array.sort! { |a, b| (a[0] == b[0]) ? a[2] <=> b[2] : a[0] <=> b [0] }
                             move_array.each { |arr| arr.pop }
                             contents[key] = move_array
+
+                            levelUpSet = []
+                            move_array.each do |levelUpEntry|
+                                if levelUpSet.include?(levelUpEntry[1])
+                                    echoln("WARNING: Level up learnset of species #{species_symbol} contains duplicate value #{levelUpEntry[1]}")
+                                else
+                                    levelUpSet.push(levelUpEntry[1])
+                                end
+                            end
                         when "TutorMoves", "EggMoves", "LineMoves", "Abilities", "HiddenAbility"
                             contents[key] = [contents[key]] unless contents[key].is_a?(Array)
                             contents[key].compact!
@@ -1087,14 +1111,35 @@ module Compiler
     # Save Pokémon data to PBS file
     #=============================================================================
     def write_pokemon
+        form_map = Hash.new # used for pokemon_server generation
         File.open("PBS/pokemon.txt", "wb") do |f|
             add_PBS_header_to_file(f)
             GameData::Species.each_base do |species|
-                next if species.form != 0
                 next if species.defined_in_extension
+                if (!form_map.key?(species.species))
+                    form_map[species.species] = [species]
+                end
+                if species.form != 0
+                    form_map[species.species].push(species) # push whole form data for later use
+                    next   
+                end
                 pbSetWindowText(_INTL("Writing species {1}...", species.id_number))
                 Graphics.update if species.id_number % 50 == 0
                 write_species(f, species)
+            end
+        end
+        # load server banlist
+        banlist = File.readlines("PBS/pokemon_server_banlist.txt", encoding: "bom|utf-8").map(&:chomp)
+        File.open("PBS/pokemon_server.txt", "wb") do |f|
+            GameData::Species.each_base do |species|
+                if (species.species == :REGIGIGAS)
+                end
+                next if banlist.include?(species.species.to_s)
+                next if species.form != 0
+                next if species.defined_in_extension
+                pbSetWindowText(_INTL("Writing species {1} for server...", species.id_number))
+                Graphics.update if species.id_number % 50 == 0
+                write_species_server(f, species, form_map[species.species])
             end
         end
         pbSetWindowText(nil)
@@ -1165,6 +1210,24 @@ module Compiler
         end
     end
 
+    def write_species_server(f, species, forms)
+        form_list = [0]
+        all_abilities = species.abilities.clone
+        all_moves = species.learnable_moves.clone
+        forms.each do |form|
+            next if form.form == 0
+            form_list.append(form.form)
+            all_abilities.concat(form.abilities)
+            all_moves.concat(form.learnable_moves)
+        end
+        all_abilities.uniq!
+        all_moves.uniq!
+        f.write(format("[%s]\r\n", species.species))
+        f.write(format("forms = %s\r\n", form_list.join(",")))
+        f.write(format("gender_ratio = %s\r\n", species.gender_ratio))
+        f.write(format("abilities = %s\r\n", all_abilities.join(","))) if all_abilities.length > 0
+        f.write(format("moves = %s\r\n\r\n", all_moves.join(",")))
+    end
     #=============================================================================
     # Save Pokémon forms data to PBS file
     #=============================================================================
@@ -1201,11 +1264,16 @@ module Compiler
             f.write(format("Type2 = %s\r\n", species.type2)) if species.type2 != species.type1
         end
         stats_array = []
+        total = 0
+        base_species_total = 0
         GameData::Stat.each_main do |s|
             next if s.pbs_order < 0
             stats_array[s.pbs_order] = species.base_stats[s.id]
+            total += species.base_stats[s.id]
+            base_species_total += base_species.base_stats[s.id]
         end
         f.write(format("BaseStats = %s\r\n", stats_array.join(","))) if species.base_stats != base_species.base_stats
+        f.write(format("# Total = %s\r\n", total)) if species.base_stats != base_species.base_stats
         f.write(format("BaseEXP = %d\r\n", species.base_exp)) if species.base_exp != base_species.base_exp
         f.write(format("Rareness = %d\r\n", species.catch_rate)) if species.catch_rate != base_species.catch_rate
         f.write(format("Happiness = %d\r\n", species.happiness)) if species.happiness != base_species.happiness

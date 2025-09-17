@@ -45,28 +45,25 @@ class PokeBattle_Move
         ret = Effectiveness.calculate_one(moveType, defType)
         # Ring Target
         if target&.hasActiveItem?(:RINGTARGET) && Effectiveness.ineffective_type?(moveType, defType)
-            ret = Effectiveness::NORMAL_EFFECTIVE_ONE
+            ret = Effectiveness::NORMAL_EFFECTIVE
         end
         # Delta Stream's weather
         if @battle&.pbWeather == :StrongWinds && (defType == :FLYING && Effectiveness.super_effective_type?(moveType, defType))
-            ret = Effectiveness::NORMAL_EFFECTIVE_ONE
+            ret = Effectiveness::NORMAL_EFFECTIVE
         end
         # Grounded Flying-type Pokémon become susceptible to Ground moves
-        ret = Effectiveness::NORMAL_EFFECTIVE_ONE if !target&.airborne? && (defType == :FLYING && moveType == :GROUND)
+        ret = Effectiveness::NORMAL_EFFECTIVE if !target&.airborne? && (defType == :FLYING && moveType == :GROUND)
         # Inured
         ret /= 2 if target&.effectActive?(:Inured) && Effectiveness.super_effective_type?(moveType, defType)
         # Break Through
         if user&.hasActiveAbility?(:BREAKTHROUGH) && Effectiveness.ineffective_type?(moveType, defType)
-            ret = Effectiveness::NORMAL_EFFECTIVE_ONE
+            ret = Effectiveness::NORMAL_EFFECTIVE
         end
         return ret
     end
 
     def pbCalcTypeMod(moveType, user, target, uiOnlyCheck = false)
         return Effectiveness::NORMAL_EFFECTIVE unless moveType
-        if moveType == :GROUND && target.pbHasType?(:FLYING) && target.hasActiveItem?(:IRONBALL)
-            return Effectiveness::NORMAL_EFFECTIVE
-        end
 
         # Determine types
         tTypes = target.pbTypes(true, uiOnlyCheck)
@@ -74,15 +71,11 @@ class PokeBattle_Move
         immunityPierced = false
 
         # Get effectivenesses
-        typeMods = [Effectiveness::NORMAL_EFFECTIVE_ONE] * 3 # 3 types max
-        tTypes.each_with_index do |type, i|
-            newTypeMod = pbCalcTypeModSingle(moveType, type, user, target)
-            typeMods[i] = newTypeMod
-        end
-
-        # Multiply all effectivenesses together
         ret = 1
-        typeMods.each { |m| ret *= m }
+        tTypes.each do |type|
+            next if moveType == :GROUND && type == :FLYING && target.hasActiveItem?(:IRONBALL)
+            ret *= pbCalcTypeModSingle(moveType, type, user, target)
+        end
 
         # Partially pierce immunities
         if inherentImmunitiesPierced?(user, target)
@@ -208,14 +201,6 @@ class PokeBattle_Move
 
     # Returns whether the attack is critical, and whether it was forced to be so
     def pbIsCritical?(user, target, checkingForAI = false)
-        if critsPrevented?(user, target)
-            if checkingForAI
-                return false
-            else
-                return [false, false]
-            end
-        end
-
         allowedToRandomCrit = allowedToRandomCrit?(user, target)
 
         crit = false
@@ -231,21 +216,9 @@ class PokeBattle_Move
             end
         end
 
-        # Critical prevention effects
-        if crit
-            unless @battle.moldBreaker
-                target.eachActiveAbility do |ability|
-                    next unless BattleHandlers.triggerCriticalPreventTargetAbility(ability, user, target, @battle)
-                    unless checkingForAI
-                        battle.pbShowAbilitySplash(target, ability)
-                        battle.pbDisplay(_INTL("{1} prevents the hit from being critical!", target.pbThis))
-                        battle.pbHideAbilitySplash(target)
-                    end
-                    crit = false
-                    forced = true
-                    break
-                end
-            end
+        if crit && critsPrevented?(user, target, checkingForAI)
+            crit = false
+            forced = true
         end
 
         if checkingForAI
@@ -304,9 +277,44 @@ class PokeBattle_Move
         return c
     end
 
-    def critsPrevented?(user, target)
-        return true if target.pbOwnSide.effectActive?(:LuckyChant)
-        return true if target.pbOwnSide.effectActive?(:DiamondField) && !(user && user.hasActiveAbility?(:INFILTRATOR))
+    def critsPrevented?(user, target, checkingForAI = false)
+        # Critical prevention abilities
+        unless @battle.moldBreaker
+            target.eachActiveAbility do |ability|
+                next unless BattleHandlers.triggerCriticalPreventTargetAbility(ability, user, target, @battle)
+                unless checkingForAI
+                    battle.pbShowAbilitySplash(target, ability)
+                    battle.pbDisplay(_INTL("{1} prevents the hit from being critical!", target.pbThis))
+                    battle.pbHideAbilitySplash(target)
+                end
+                return true
+            end
+        end
+
+        # Hearsh Sunlight
+        if @battle.pbWeather == :HarshSun && applySunDebuff?(user, @calcType, checkingForAI)
+            unless checkingForAI
+                battle.pbDisplay(_INTL("The harsh sunlight prevents the hit from being critical!", target.pbThis))
+            end
+            return true
+        end
+
+        # Lucky Chant
+        if target.pbOwnSide.effectActive?(:LuckyChant)
+            unless checkingForAI
+                battle.pbDisplay(_INTL("The blessing around {1} prevented the hit from being critical!", target.pbTeam(true)))
+            end
+            return true
+        end
+
+        # Diamond Field
+        if target.pbOwnSide.effectActive?(:DiamondField) && !(user && user.hasActiveAbility?(:INFILTRATOR))
+            unless checkingForAI
+                battle.pbDisplay(_INTL("The sheen around {1} prevented the hit from being critical!", target.pbTeam(true)))
+            end
+            return true
+        end
+
         return true if pbCriticalOverride(user, target) < 0
         return false
     end
@@ -326,7 +334,7 @@ class PokeBattle_Move
         return true if canRandomCrit?  
         return true if user.effectActive?(:RaisedCritChance)
         return true if user.hasActiveAbility?(GameData::Ability.getByFlag("EnablesRandomCrits")) 
-        return false 
+        return false
     end
 
     #=============================================================================
@@ -360,6 +368,12 @@ class PokeBattle_Move
 showMessages)
                 return false
             end
+        end
+        if @battle.pbWeather == :HeavyRain && applyRainDebuff?(user, @calcType, aiCheck)
+            if showMessages
+                battle.pbDisplay(_INTL("The heavy rain prevents a random added effect!"))
+            end
+            return false
         end
         if target.shouldItemApply?(:COVERTCLOAK, aiCheck) && user.opposes?(target)
             if showMessages

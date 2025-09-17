@@ -5,6 +5,7 @@ class PokeBattle_Move_DisableTargetUsingSameMoveConsecutively < PokeBattle_Move
     def ignoresSubstitute?(_user); return true; end
 
     def pbFailsAgainstTarget?(user, target, show_message)
+        return if damagingMove?
         if target.effectActive?(:Torment)
             if show_message
                 @battle.pbDisplay(_INTL("But it failed, since {1} is already tormented!", target.pbThis(true)))
@@ -618,7 +619,7 @@ class PokeBattle_Move_HitsTargetInSkyGroundsTarget < PokeBattle_Move
     def hitsFlyingTargets?; return true; end
 
     def pbCalcTypeModSingle(moveType, defType, user=nil, target=nil)
-        return Effectiveness::NORMAL_EFFECTIVE_ONE if moveType == :GROUND && defType == :FLYING
+        return Effectiveness::NORMAL_EFFECTIVE if moveType == :GROUND && defType == :FLYING
         return super
     end
 

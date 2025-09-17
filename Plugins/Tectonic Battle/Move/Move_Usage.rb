@@ -41,6 +41,8 @@ class PokeBattle_Move
     def calculateCategoryOverride(user, targets)
         return selectBestCategory(user, targets[0]) if punchingMove? && user.hasActiveAbility?(:MYSTICFIST)
         return selectBestCategory(user, targets[0]) if rampagingMove? && user.hasActiveAbility?(:WREAKHAVOC)
+        return 0 if specialMove? && user.hasActiveItem?(:STRENGTHHERB)
+        return 1 if physicalMove? && user.hasActiveItem?(:INTELLECTHERB)
         return selectBestCategory(user) if adaptiveMove?
         return 0 if @category == 1 && user.hasActiveAbility?(:BRUTEFORCE)
         return 1 if @category == 0 && user.hasActiveAbility?(%i[TIMEINTERLOPER SPACEINTERLOPER])
@@ -445,7 +447,7 @@ target.pbThis(true)))
                     oldHP = b.hp + b.damageState.hpLost
                 end
                 PBDebug.log("[Move damage] #{b.pbThis} lost #{b.damageState.hpLost} HP (#{oldHP}=>#{b.hp})")
-                effectiveness = b.damageState.typeMod / Effectiveness::NORMAL_EFFECTIVE
+                effectiveness = b.damageState.typeMod
                 animArray.push([b, oldHP, effectiveness])
             end
             if animArray.length > 0

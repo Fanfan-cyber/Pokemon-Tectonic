@@ -681,6 +681,17 @@ FunctionCode = Invalid
 Flags = CanProtect
 Description = The target is slammed with a long tail, vines, etc., to inflict damage.
 #-------------------------------
+[SLEEPTALK]
+Name = Sleep Talk
+Type = NORMAL
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+FunctionCode = Invalid
+Flags = Sound
+Description = While it is asleep, the user randomly uses one of the moves it knows.
+#-------------------------------
 [SMOKESCREEN]
 Name = Smokescreen
 Type = NORMAL
@@ -1258,6 +1269,19 @@ FunctionCode = Invalid
 Flags = CanProtect,Sound
 EffectChance = 30
 Description = The user creates distorted guitar sounds to attack the target. It has a 30% chance to dizzy.
+#-------------------------------
+[MURKYFOG]
+Name = Murky Fog
+Type = POISON
+Category = Special
+Power = 85
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = Invalid
+Flags = CanProtect
+Description = The user attacks with a pitch black fog. All of the target's stat changes are returned to normal.
+Animation = SMOKESCREEN
 #-------------------------------
 [POISONPOWDER]
 Name = Poison Powder
@@ -1930,6 +1954,18 @@ FunctionCode = Invalid
 Flags = CanSnatch
 Description = The user engages its gears to raise the Attack and Sp. Atk of allies with the Plus or Minus Ability.
 #-------------------------------
+[IRONTAIL]
+Name = Iron Tail
+Type = STEEL
+Category = Physical
+Power = 115
+Accuracy = 80
+TotalPP = 12
+Target = NearOther
+FunctionCode = Invalid
+Flags = CanProtect
+Description = The target is slammed with a steel-hard tail.
+#-------------------------------
 [JOUST]
 Name = Joust
 Type = STEEL
@@ -2187,6 +2223,20 @@ FunctionCode = Invalid
 Flags = CanProtect,CanRandomCrit
 Description = The target is hammered with a large pincer. Can random critical hit.
 #-------------------------------
+[HYPERJET]
+Name = Hyper Jet
+Type = WATER
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+Priority = 2
+FunctionCode = Invalid
+Flags = CanProtect
+Description = The user swims at the target at blinding speed. This attack always goes before any other move.
+Animation = AQUAJET
+#-------------------------------
 [INVITERAIN]
 Name = Invite Rain
 Type = WATER
@@ -2284,6 +2334,16 @@ FunctionCode = Invalid
 Flags = CanProtect,CanMagicCoat
 Description = The user shoots a torrent of water at the target and changes the target's type to Water.
 #-------------------------------
+[SPLASH]
+Name = Splash
+Type = WATER
+Category = Status
+Accuracy = 0
+TotalPP = 30
+Target = User
+FunctionCode = Invalid
+Description = The user just flops and splashes around to no effect at all...
+#-------------------------------
 [TIDALKINESIS]
 Name = Tidalkinesis
 Type = WATER
@@ -2380,6 +2440,19 @@ Target = User
 FunctionCode = Invalid
 Flags = CanSnatch
 Description = The user spends 25% HP to lay down evil roots. This curses all foes. The user becomes trapped, but heals by 1/8th HP every turn.
+#-------------------------------
+[DRUMBEATING]
+Name = Drum Beating
+Type = GRASS
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = Invalid
+Flags = CanProtect
+EffectChance = 100
+Description = The user controls the drum's roots to attack the target. This also lowers the target's Speed stat by two steps.
 #-------------------------------
 [FORESTSCURSE]
 Name = Forest's Curse
@@ -2875,6 +2948,17 @@ EffectChance = 100
 Description = The user questions the existence of the target, dealing psychic damage and dizzying them.
 Animation = AMNESIA
 #-------------------------------
+[COSMICPOWER]
+Name = Cosmic Power
+Type = PSYCHIC
+Category = Status
+Accuracy = 0
+TotalPP = 3
+Target = User
+FunctionCode = Invalid
+Flags = CanSnatch
+Description = The user absorbs a mystical power from space to raise its Defense and Sp. Def by two steps.
+#-------------------------------
 [DREAMEATER]
 Name = Dream Eater
 Type = PSYCHIC
@@ -3188,17 +3272,6 @@ Priority = -6
 FunctionCode = Invalid
 Description = The user switches out to a party Pokémon in waiting. Always goes last.
 #-------------------------------
-[TRICKROOM]
-Name = Trick Room
-Type = PSYCHIC
-Category = Status
-Accuracy = 0
-TotalPP = 5
-Target = BothSides
-Priority = -7
-FunctionCode = Invalid
-Description = The user creates a bizarre area in which slower Pokémon get to move first for five turns.
-#-------------------------------
 [TWINBEAM]
 Name = Twin Beam
 Type = PSYCHIC
@@ -3423,6 +3496,20 @@ Flags = CanProtect
 EffectChance = 20
 Description = The user tackles the foe while exhibiting overwhelming menace. It may also make the target flinch.
 #-------------------------------
+[SCALEGLINT]
+Name = Scale Glint
+Type = DRAGON
+Category = Special
+Power = 40
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = Invalid
+Flags = CanProtect,Light
+EffectChance = 20
+Description = The shine from scales damages the target. This has a 20% chance to reduce the higher of the target's Attack or Sp. Atk.
+Animation = DAZZLINGGLEAM
+#-------------------------------
 [SCALESHOT]
 Name = Scale Shot
 Type = DRAGON
@@ -3593,6 +3680,16 @@ FunctionCode = Invalid
 Flags = CanProtect,Blade
 Description = The user attacks the target with just force. Guaranteed critical hit on foes with boosted stats.
 Animation = PLAYROUGH
+#-------------------------------
+[FAIRYLOCK]
+Name = Fairy Lock
+Type = FAIRY
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = BothSides
+FunctionCode = Invalid
+Description = By locking down the battlefield, the user traps all Pokémon during the next turn.
 #-------------------------------
 [FAIRYTERRAIN]
 Name = Fairy Terrain

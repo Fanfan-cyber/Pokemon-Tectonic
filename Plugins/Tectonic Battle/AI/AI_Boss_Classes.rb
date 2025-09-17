@@ -362,14 +362,13 @@ class PokeBattle_AI_GENESECT < PokeBattle_AI_Boss
                 next unless b
                 type1 = b.type1
                 type2 = b.type2
-                weakToElectric += 1 if Effectiveness.super_effective?(Effectiveness.calculate(:ELECTRIC, type1,
-type2))
+                weakToElectric += 1 if Effectiveness.super_effective?(Effectiveness.calculate(:ELECTRIC, [type1, type2]))
                 maxValue = weakToElectric if weakToElectric > maxValue
-                weakToFire += 1 if Effectiveness.super_effective?(Effectiveness.calculate(:FIRE, type1, type2))
+                weakToFire += 1 if Effectiveness.super_effective?(Effectiveness.calculate(:FIRE, [type1, type2]))
                 maxValue = weakToFire if weakToFire > maxValue
-                weakToIce += 1 if Effectiveness.super_effective?(Effectiveness.calculate(:ICE, type1, type2))
+                weakToIce += 1 if Effectiveness.super_effective?(Effectiveness.calculate(:ICE, [type1, type2]))
                 maxValue = weakToIce if weakToIce > maxValue
-                weakToWater += 1 if Effectiveness.super_effective?(Effectiveness.calculate(:WATER, type1, type2))
+                weakToWater += 1 if Effectiveness.super_effective?(Effectiveness.calculate(:WATER, [type1, type2]))
                 maxValue = weakToWater if weakToWater > maxValue
             end
 
@@ -1062,6 +1061,23 @@ class PokeBattle_AI_TOXTRICITY < PokeBattle_AI_Boss
             },
             :warning => proc { |_move, user, targets, _battle|
                 _INTL("{1} is gearing up for a big release!",user.pbThis)
+            },
+        })
+    end
+end
+
+class PokeBattle_AI_SIGILYPH < PokeBattle_AI_Boss
+    def initialize(user, battle)
+        super
+        secondMoveEveryTurn(:DISCOURAGE)
+        everyThreeTurns(:EMPOWEREDFUTURESIGHT)
+
+        @warnedIFFMove.add(:POLARIZEDROOM, {
+            :condition => proc { |_move, _user, _target, battle|
+                next !battle.roomActive?
+            },
+            :warning => proc { |_move, user, targets, _battle|
+                _INTL("{1} yearns for a high-quality room!",user.pbThis)
             },
         })
     end

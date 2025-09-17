@@ -167,8 +167,7 @@ BattleHandlers::EOREffectAbility.add(:FIREFESTIVAL,
     battle.eachBattler do |b|
       if b.takesIndirectDamage?(true)
         battle.pbDisplay(_INTL("{1} is splashed with fire!", b.pbThis))
-        bTypes = b.pbTypes(true)
-        damageFraction = battle.getTypedHazardHPRatio(:FIRE, bTypes[0], bTypes[1], bTypes[2])
+        damageFraction = battle.getTypedHazardHPRatio(:FIRE, b)
         b.applyFractionalDamage(damageFraction, false)
       end
     end
@@ -196,6 +195,21 @@ BattleHandlers::EOREffectAbility.add(:AUTOSTRUCTURE,
     battler.applyEffect(:BaseSpeed,currentStats[:SPECIAL_DEFENSE])
 
     battle.pbDisplay(_INTL("{1} has restructured!", battler.pbThis))
+    battler.hideMyAbilitySplash
+  }
+)
+
+BattleHandlers::EOREffectAbility.add(:DISTORTEDGRAVITY,
+  proc { |ability, battler, battle|
+  next unless battle.gravityIntensified? 
+  battler.showMyAbilitySplash(ability)
+    battle.eachOtherSideBattler do |b|
+      if b.takesIndirectDamage?(true)
+        battle.pbDisplay(_INTL("{1} is crushed by the distorted gravity!", b.pbThis))
+        damageFraction = 1.0 / 16.0
+        b.applyFractionalDamage(damageFraction, false)
+      end
+    end
     battler.hideMyAbilitySplash
   }
 )

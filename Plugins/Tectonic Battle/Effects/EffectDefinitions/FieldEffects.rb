@@ -29,10 +29,12 @@ GameData::BattleEffect.register_effect(:Field, {
     :id => :Gravity,
     :real_name => "Gravity Turns",
     :type => :Integer,
-    :ticks_down => true,
+    :ticks_down_proc => proc do |battle, value|
+        next !battle.pbCheckGlobalAbility(:DISTORTEDGRAVITY)
+    end,
     :apply_proc => proc do |battle, _value|
         battle.pbDisplay(_INTL("Gravity intensified!"))
-        battle.pbDisplay(_INTL("Everyone is twice as accurate!"))
+        battle.pbDisplay(_INTL("Everyone is twice as accurate and weighs twice as much!"))
         battle.eachBattler do |b|
             showMessage = false
             if b.inTwoTurnSkyAttack?
@@ -59,10 +61,11 @@ GameData::BattleEffect.register_effect(:Field, {
 
 GameData::BattleEffect.register_effect(:Field, {
     :id => :WarpingCore,
-    :real_name => "Warped Core",
+    :real_name => "Intense Gravity",
     :apply_proc => proc do |battle, _value|
-        battle.pbDisplay(_INTL("Gravity was extremely warped!"))
+        battle.pbDisplay(_INTL("Gravity intensified!"))
         battle.pbDisplay(_INTL("Everyone is twice as accurate and weighs twice as much!"))
+        battle.pbDisplay(_INTL("This will last for the rest of the battle!"))
         battle.eachBattler do |b|
             showMessage = false
             if b.inTwoTurnSkyAttack?
@@ -80,7 +83,7 @@ GameData::BattleEffect.register_effect(:Field, {
         end
     end,
     :disable_proc => proc do |battle, _battler|
-        battle.pbDisplay(_INTL("The warped gravity was forced back to normal!"))
+        battle.pbDisplay(_INTL("Gravity was forced back to normal!"))
     end,
 })
 
@@ -113,7 +116,9 @@ GameData::BattleEffect.register_effect(:Field, {
     :id => :TrickRoom,
     :real_name => "Trick Room",
     :type => :Integer,
-    :ticks_down => true,
+    :ticks_down_proc => proc do |battle, value|
+        next !battle.pbCheckGlobalAbility(:ROOMLOCK)
+    end,
     :is_room => true,
     :apply_proc => proc do |battle, _value|
         battle.pbDisplay(_INTL("A tricky area appeared! Speed functions in reverse!"))
@@ -130,7 +135,9 @@ GameData::BattleEffect.register_effect(:Field, {
     :id => :PuzzleRoom,
     :real_name => "Puzzle Room",
     :type => :Integer,
-    :ticks_down => true,
+    :ticks_down_proc => proc do |battle, value|
+        next !battle.pbCheckGlobalAbility(:ROOMLOCK)
+    end,
     :is_room => true,
     :apply_proc => proc do |battle, _value|
         battle.pbDisplay(_INTL("A puzzling area appeared! Attack and Sp. Atk are swapped!"))
@@ -147,7 +154,9 @@ GameData::BattleEffect.register_effect(:Field, {
     :id => :OddRoom,
     :real_name => "Odd Room",
     :type => :Integer,
-    :ticks_down => true,
+    :ticks_down_proc => proc do |battle, value|
+        next !battle.pbCheckGlobalAbility(:ROOMLOCK)
+    end,
     :is_room => true,
     :apply_proc => proc do |battle, _value|
         battle.pbDisplay(_INTL("An odd area appeared! Offensive and Defensive stats are swapped!"))
@@ -164,7 +173,9 @@ GameData::BattleEffect.register_effect(:Field, {
     :id => :PolarizedRoom,
     :real_name => "Polarized Room",
     :type => :Integer,
-    :ticks_down => true,
+    :ticks_down_proc => proc do |battle, value|
+        next !battle.pbCheckGlobalAbility(:ROOMLOCK)
+    end,
     :is_room => true,
     :apply_proc => proc do |battle, _value|
         battle.pbDisplay(_INTL("A polarized area appeared! Type effectiveness is exaggerated!"))
@@ -181,7 +192,9 @@ GameData::BattleEffect.register_effect(:Field, {
     :id => :InsightRoom,
     :real_name => "Insight Room",
     :type => :Integer,
-    :ticks_down => true,
+    :ticks_down_proc => proc do |battle, value|
+        next !battle.pbCheckGlobalAbility(:ROOMLOCK)
+    end,
     :is_room => true,
     :apply_proc => proc do |battle, _value|
         battle.pbDisplay(_INTL("An insightful area appeared! Everyone gets a 5th move!"))
@@ -204,7 +217,9 @@ GameData::BattleEffect.register_effect(:Field, {
     :id => :EmotionRoom,
     :real_name => "Emotion Room",
     :type => :Integer,
-    :ticks_down => true,
+    :ticks_down_proc => proc do |battle, value|
+        next !battle.pbCheckGlobalAbility(:ROOMLOCK)
+    end,
     :is_room => true,
     :apply_proc => proc do |battle, _value|
         battle.pbDisplay(_INTL("An emotional area appeared! Everyone switches ability every turn!"))
@@ -221,7 +236,9 @@ GameData::BattleEffect.register_effect(:Field, {
     :id => :WillfulRoom,
     :real_name => "Willful Room",
     :type => :Integer,
-    :ticks_down => true,
+    :ticks_down_proc => proc do |battle, value|
+        next !battle.pbCheckGlobalAbility(:ROOMLOCK)
+    end,
     :is_room => true,
     :apply_proc => proc do |battle, _value|
         battle.pbDisplay(_INTL("A willful area appeared! Everyone takes 30 less damage on hits!"))

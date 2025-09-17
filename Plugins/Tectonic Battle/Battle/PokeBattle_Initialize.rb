@@ -208,6 +208,7 @@ class PokeBattle_Battle
     end
 
     def initializeKnownMoves(pokemon)
+        return if is_online? # known moves system not necessary for cable club battles and leaks teams
         knownMovesArray = []
         @knownMoves[pokemon.personalID] = knownMovesArray
         pokemon.moves.each do |move|
@@ -229,6 +230,8 @@ class PokeBattle_Battle
 
     def aiAutoKnowsMove?(move,pokemon)
         autoKnow = getBattleMoveInstanceFromID(move.id).aiAutoKnows?(pokemon)
+        autoKnowTypes = [:FLEX]
+        return true if autoKnowTypes.include?(move.type)
         return true if !autoKnow.nil? && autoKnow
         return false if !autoKnow.nil? && !autoKnow
         return false unless pokemon.likelyHasSTAB?(move.type) # Don't know off-type moves
@@ -247,13 +250,15 @@ class PokeBattle_Battle
     end
 
     def setMaxPPsForTrainer(trainer,includeMults)
-        pp_mult = 1
-        if includeMults
-            pp_mult *= 2.0 if trainer.tribalBonus.hasTribeBonus?(:TACTICIAN)
-        end
-
         trainer.party.each do |pokemon|
             pokemon.moves.each do |move|
+                pp_mult = 1
+                if includeMults
+                    if trainer.tribalBonus.hasTribeBonus?(:TACTICIAN) && move.priority > 0
+                        pp_mult *= 2.0
+                    end
+                end
+
                 move.pp_mult = pp_mult
                 move.restore_pp
             end

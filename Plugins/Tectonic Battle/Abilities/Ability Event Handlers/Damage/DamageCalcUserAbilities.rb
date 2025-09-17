@@ -257,6 +257,15 @@ BattleHandlers::DamageCalcUserAbility.add(:RADIATE,
   }
 )
 
+BattleHandlers::DamageCalcUserAbility.add(:WELLROUNDED,
+  proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck|
+    if move.tagged?
+      mults[:base_damage_multiplier] *= 1.2
+      user.aiLearnsAbility(ability) unless aiCheck
+    end
+  }
+)
+
 BattleHandlers::DamageCalcUserAbility.add(:BADOMEN,
   proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck|
     if move.foretoldMove?
@@ -850,5 +859,33 @@ BattleHandlers::DamageCalcUserAbility.add(:TERRORIZE,
   proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck|
     mults[:base_damage_multiplier] *= 0.9
     user.aiLearnsAbility(ability) unless aiCheck
+  }
+)
+
+BattleHandlers::DamageCalcUserAbility.add(:PITFIGHTER,
+  proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck|
+    if target.trapped?
+      mults[:base_damage_multiplier] *= 1.3
+      user.aiLearnsAbility(ability) unless aiCheck
+    end
+  }
+)
+
+BattleHandlers::DamageCalcUserAbility.add(:HIVEMIND,
+  proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck|
+    if type == :BUG
+      mults[:base_damage_multiplier] *= 1.5
+      user.aiLearnsAbility(ability) unless aiCheck
+    end
+  }
+)
+
+BattleHandlers::DamageCalcUserAbility.add(:TANGLINGVINES,
+  proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck|
+    if target.pointsAt?(:TanglingVines, user)
+      mults[:base_damage_multiplier] *= 1.3
+      user.battle.pbDisplay(_INTL("The tangling vines strengthened the hit!"))
+      user.aiLearnsAbility(ability) unless aiCheck
+    end
   }
 )

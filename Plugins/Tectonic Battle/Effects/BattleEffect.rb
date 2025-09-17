@@ -49,9 +49,6 @@ module GameData
         # Only used for Battler effects
         attr_reader :avatars_purge
 
-        # If it ticks down at end of round. Only used for integers
-        attr_reader :ticks_down
-
         # When battlers swap position, the effect changes value to point to the correct battler
         # Only used for :Position type effects
         attr_reader :swaps_with_battlers
@@ -71,6 +68,9 @@ module GameData
 
         # Bespoke information for type applying spikes
         attr_reader :status_applying_hazard
+
+        # Whether the effect marks the move as being copied
+        attr_reader :copied_move_marker
 
         # Effects an AI battlers willingness to stay in
         attr_reader :stay_in_rating_proc
@@ -105,6 +105,11 @@ module GameData
         # Fury Cutter, etc.
         def snowballing_move_counter?
             return @snowballing_move_counter
+        end
+
+        # For Dancer, etc.
+        def copied_move_marker?
+            return @copied_move_marker
         end
 
         # Reflect, etc.
@@ -210,6 +215,7 @@ module GameData
 
             @ticks_down             = hash[:ticks_down] || false
             @tick_amount            = hash[:tick_amount] || 1
+            @ticks_down_proc        = hash[:ticks_down_proc]
 
             # Called when the battler is initialized
             @initialize_proc        = hash[:initialize_proc]
@@ -261,11 +267,13 @@ module GameData
 
             @status_applying_hazard = hash[:status_applying_hazard]
 
-            @is_room	= hash[:is_room] || false
+            @is_room	            = hash[:is_room] || false
             @is_screen				= hash[:is_screen] || false
             @is_hazard				= hash[:is_hazard] || false
             @is_mental				= hash[:is_mental] || false
             @is_spike				= hash[:is_spike] || false
+
+            @copied_move_marker     = hash[:copied_move_marker] || false
 
             @avatars_purge = hash[:avatars_purge] || false
 
@@ -282,7 +290,7 @@ module GameData
             if @type != :Integer
                 raise _INTL("Battle effect #{@id} defines increment proc when its not an integer.") if @increment_proc
                 raise _INTL("Battle effect #{@id} defines expire proc when its not an integer.") if @expire_proc
-                raise _INTL("Battle effect #{@id} is set to down down, but its not an integer.") if @ticks_down
+                raise _INTL("Battle effect #{@id} is set to down down, but its not an integer.") if @ticks_down || @ticks_down_proc
                 raise _INTL("Battle effect #{@id} was given a maximum, but its not an integer.") unless @maximum.nil?
             end
             if @entry_proc && @location != :Position && @location != :Side
@@ -377,6 +385,11 @@ module GameData
                 return "ERROR"
             end
             return ""
+        end
+
+        def ticks_down?(battle, value)
+            return @ticks_down_proc.call(battle, value) if @ticks_down_proc
+            return @ticks_down
         end
 
         ### Methods dealing with the effect when a battler is initialized

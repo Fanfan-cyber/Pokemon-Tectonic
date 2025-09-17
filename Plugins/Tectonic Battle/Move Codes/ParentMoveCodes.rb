@@ -502,7 +502,7 @@ class PokeBattle_FixedDamageMove < PokeBattle_Move
 
     def pbCalcTypeModSingle(moveType, defType, user=nil, target=nil)
         ret = super
-        ret = Effectiveness::NORMAL_EFFECTIVE_ONE unless Effectiveness.ineffective?(ret)
+        ret = Effectiveness::NORMAL_EFFECTIVE unless Effectiveness.ineffective?(ret)
         return ret
     end
 
@@ -1027,10 +1027,11 @@ class PokeBattle_RoomMove < PokeBattle_Move
     def initialize(battle, move)
         super
         @roomEffect = nil
+        @duration = nil
     end
 
     def pbEffectGeneral(user)
-        @battle.pbStartRoom(@roomEffect, user)
+        @battle.pbStartRoom(@roomEffect, user, duration: @duration)
     end
 
     def getEffectScore(user, _target)
@@ -1117,7 +1118,7 @@ class PokeBattle_StatusSpikeMove < PokeBattle_Move
         if user.pbOpposingSide.effectAtMax?(@spikeEffect)
             maximum = @spikeData.maximum
             if show_message
-                @battle.pbDisplay(_INTL("But it failed, since the opposing side already has {1} layers of {2} spikes!", maximum, @spikeData.name))
+                @battle.pbDisplay(_INTL("But it failed, since the opposing side already has {1} layers of {2}!", maximum, @spikeData.name))
             end
             return true
         end
@@ -1492,8 +1493,9 @@ end
 class PokeBattle_TypeSuperMove < PokeBattle_Move
     def pbCalcTypeModSingle(moveType, defType, user=nil, target=nil)
         effectiveness = super
+        return Effectiveness::NORMAL_EFFECTIVE if defType == @typeNeutral
         return effectiveness if Effectiveness.ineffective?(effectiveness)
-        return Effectiveness::SUPER_EFFECTIVE_ONE if defType == @typeHated
+        return Effectiveness::SUPER_EFFECTIVE if defType == @typeHated
         return effectiveness
     end
 end

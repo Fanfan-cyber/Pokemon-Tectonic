@@ -264,7 +264,8 @@ class PokeBattle_Battle
                     else
                         pbDisplay(_INTL("{1} is panicked!", b.pbThis))
                     end
-                    b.pbLowerMultipleStatSteps(debuff, showFailMsg: true)
+                    multi_stats_lowered = b.pbLowerMultipleStatSteps(debuff, showFailMsg: true)
+                    b.pbItemStatRestoreCheck if multi_stats_lowered
                     anyAffected = true
                 end
                 pbDisplay(_INTL("But no one was panicked.")) if showWeatherMessages && !anyAffected
@@ -284,7 +285,7 @@ class PokeBattle_Battle
                         pbDisplay(_INTL("The Full Moon rises!"))
                     end
                 end
-                pbAnimation(:Moonglow, @battlers[0], [])
+                pbCommonAnimation("Moonglow")
                 anyAffected = false
                 priority.each do |b|
                     next if b.fainted?

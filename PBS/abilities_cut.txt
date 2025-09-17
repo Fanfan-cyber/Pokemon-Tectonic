@@ -12,9 +12,17 @@ Description = Powers up Steel-type moves by 50%.
 Name = Adaptability
 Description = Powers up moves of the same type.
 #-------------------------------
+[ADAPTIVESKIN]
+Name = Adaptive Skin
+Description = After being attacked, gains resistance to that move's type but loses other adaptive resistances.
+#-------------------------------
 [AERILATE]
 Name = Aerilate
 Description = Normal-type moves become Flying-type and power up by 30%.
+#-------------------------------
+[AEROSHELL]
+Name = Aeroshell
+Description = After using a wind move, raises the Pokémon's Defense and Sp. Def. Caps out at +4.
 #-------------------------------
 [AFTERMATH]
 Name = Aftermath
@@ -51,10 +59,6 @@ Description = Slips past hazards. On the first turn, its attacks are always crit
 [ARENATRAP]
 Name = Arena Trap
 Description = Prevents the foe from fleeing unless it is airborne.
-#-------------------------------
-[AROMATIC]
-Name = Aromatic
-Description = Uses Aromatherapy if an attack lowers its HP to half or below.
 #-------------------------------
 [AROMAVEIL]
 Name = Aroma Veil
@@ -94,9 +98,18 @@ Description = Boosts its best stat each time it deals a KO.
 Name = Belligerent
 Description = Boosts Attack and Sp. Atk by three steps when a stat is lowered by a foe.
 #-------------------------------
+[BIGBOSS]
+Name = Big Boss
+Description = Boosts Defense by 25%. The Pokémon cannot be flinched.
+Flags = FlinchImmunity
+#-------------------------------
 [BIGPECKS]
 Name = Big Pecks
 Description = Protects from Def-lowering or Sp. Def-lowering.
+#-------------------------------
+[BIZARRE]
+Name = Bizarre
+Description = Its special attacks reduce the target's Sp. Def.
 #-------------------------------
 [BLADETRAINED]
 Name = Blade Trained
@@ -121,6 +134,10 @@ Description = Protects the Pokémon from some ball and bomb moves.
 [BURNHEAL]
 Name = Burn Heal
 Description = Restores 1/12th HP each turn if burned. Ignores burn physical damage reduction.
+#-------------------------------
+[BURNSKILL]
+Name = Burn Skill
+Description = Has a 30% chance to burn targets when using special moves.
 #-------------------------------
 [BURROWER]
 Name = Burrower
@@ -264,6 +281,10 @@ Description = Boosts one defending stat by two steps according to the foe's atta
 Name = Exo-Adaption
 Description = User heals by 25% after taking a special attack.
 #-------------------------------
+[EXTORTER]
+Name = Extorter
+Description = At low health, eats other battlers' low-health triggered berries.
+#-------------------------------
 [EXTREMEENERGY]
 Name = Extreme Voltage
 Description = Increases Sp. Atk by 50%, but the Pokémon is hurt for 1/10th HP each turn.
@@ -275,6 +296,10 @@ Description = Turns the ground into Fairy Terrain for 5 turns when entering batt
 [FAUXLIAGE]
 Name = Fauxliage
 Description = Gain priority with Grass-type moves.
+#-------------------------------
+[FIESTA]
+Name = Fiesta
+Description = Heals by 1/8th HP whenever any Pokémon uses a dance or sound move.
 #-------------------------------
 [FLAREBOOST]
 Name = Flare Boost
@@ -307,6 +332,11 @@ Description = The Pokémon can check a foe's held item. Makes wild Pokémon have
 [FROSTHEAL]
 Name = Frost Heal
 Description = Restores 1/12th HP each turn if frostbitten. Ignores frostbite special damage reduction.
+#-------------------------------
+[FROSTPITALITY]
+Name = Frostpitality
+Description = Traps the foe during hail.
+Flags = HailSynergy
 #-------------------------------
 [FROSTSONG]
 Name = Arctic Ariette
@@ -446,6 +476,10 @@ Description = Can hold two items, but drops one when swapping out.
 [KLUTZ]
 Name = Klutz
 Description = The Pokémon can't use any held items.
+#-------------------------------
+[LATEBLOOMER]
+Name = Late Bloomer
+Description = Deals 30% more damage when it's slower than the target.
 #-------------------------------
 [LEGSTRENGTH]
 Name = Leg Strength
@@ -695,6 +729,10 @@ Description = Raises the Pokémon's Attack by 50%, including Style Values and ot
 Name = Pre-Charged
 Description = Becomes charged upon entry, doubling the power of its next Electric-type attack.
 #-------------------------------
+[PREDATION]
+Name = Predation
+Description = Has a 30% chance to leech targets when using physical moves.
+#-------------------------------
 [PROPELLERTAIL]
 Name = Propeller Tail
 Description = Ignores effects changing the target of a move.
@@ -908,6 +946,10 @@ Description = Reduces damage from super-effective attacks by 25%.
 Name = Soul Read
 Description = Double damage to targets who don't share a type with their last-used move.
 #-------------------------------
+[SOUNDBARRIER]
+Name = Sound Barrier
+Description = After using a sound move, raises the Pokémon's Defense and Sp. Def. Caps out at +4.
+#-------------------------------
 [SOUNDPROOF]
 Name = Soundproof
 Description = Gives full immunity to all sound-based moves.
@@ -954,6 +996,10 @@ Description = Draws in Water-type moves, is immune to them, and boosts Sp. Atk w
 Name = Stout
 Description = Immune to weather downsides, and 20% less damage from attacks during weather.
 Flags = AllWeatherSynergy
+#-------------------------------
+[SUBSPACESCHISM]
+Name = Subspace Schism
+Description = Upon entry, creates a Trick Room for four turns, inverting the effect of Speed.
 #-------------------------------
 [SUCTIONCUPS]
 Name = Suction Cups

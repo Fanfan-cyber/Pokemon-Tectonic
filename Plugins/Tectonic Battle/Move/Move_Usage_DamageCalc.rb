@@ -134,6 +134,7 @@ class PokeBattle_Move
         return true if user.shouldAbilityApply?(:UNAWARE, aiCheck)
         return true if user.shouldAbilityApply?(:BLADEBRAINED, aiCheck) && bladeMove?
         return true if user.shouldAbilityApply?(:TUNEDOUT, aiCheck) && soundMove?
+        return true if empoweredMove?
         return false
     end
 
@@ -181,7 +182,7 @@ class PokeBattle_Move
         weather = @battle.pbWeather
         case weather
         when :Sunshine, :HarshSun
-            if type == :FIRE
+            if type == :FIRE || (type == :GRASS && weather == :HarshSun)
                 damageBonus = weather == :HarshSun ? 0.5 : 0.3
                 damageBonus *= 2 if @battle.curseActive?(:CURSE_BOOSTED_SUN)
                 multipliers[:final_damage_multiplier] *= (1 + damageBonus)
@@ -192,7 +193,7 @@ class PokeBattle_Move
                 multipliers[:final_damage_multiplier] *= (1 - damageReduction)
             end
         when :Rainstorm, :HeavyRain
-            if type == :WATER
+            if type == :WATER || (type == :ELECTRIC && weather == :HeavyRain)
                 damageBonus = weather == :HeavyRain ? 0.5 : 0.3
                 damageBonus *= 2 if @battle.curseActive?(:CURSE_BOOSTED_RAIN)
                 multipliers[:final_damage_multiplier] *= (1 + damageBonus)
@@ -299,6 +300,19 @@ class PokeBattle_Move
                     multipliers[:final_damage_multiplier] *= 3 / 4.0
                 else
                     multipliers[:final_damage_multiplier] *= 2 / 3.0
+                end
+            end
+        else
+            if !checkingForAI &&  
+                (target.pbOwnSide.effectActive?(:Reflect) ||
+                target.pbOwnSide.effectActive?(:LightScreen) ||
+                target.pbOwnSide.effectActive?(:AuroraVeil) ||
+                target.pbOwnSide.effectActive?(:DiamondField))
+                GameData::Ability.each do |ability_data|
+                next unless ability_data.flags&.include?("IgnoreScreens")
+                if user.hasAbility?(ability_data.id)
+                user.aiLearnsAbility(ability_data.id)
+                end
                 end
             end
 
@@ -409,7 +423,12 @@ class PokeBattle_Move
         # Mystic tribe
         if user.hasTribeBonus?(:MYSTIC) && user.lastRoundMoveCategory == 2 # Status
             multipliers[:final_damage_multiplier] *= 1.25
-        end    
+        end
+
+        # Deceiver tribe
+        if user.hasTribeBonus?(:DECEIVER) && user.species_data
+            multipliers[:final_damage_multiplier] *= 1.15 unless user.species_data.hasType?(type)
+        end
 
         # Scavenger tribe
         if user.hasTribeBonus?(:SCAVENGER)
@@ -522,6 +541,8 @@ class PokeBattle_Move
             multipliers[:final_damage_multiplier] *= 0.75
             multipliers[:final_damage_multiplier] *= 1.5 if user.shouldAbilityApply?(:RESONANT,aiCheck)
         end
+
+        multipliers[:final_damage_multiplier] *= 0.5 if !user.opposes?(target) && halfDamageToAllies?
 
         # Battler properites
         multipliers[:base_damage_multiplier] *= user.dmgMult
