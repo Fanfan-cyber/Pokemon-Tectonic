@@ -48645,7 +48645,7 @@ The two moves have become one! It's a combined move!
 {1}在等待{2}的行动...
 But it failed, since {1} can't gain the status and the weather can't be set!
 但它失败了，因为{1}无法获得该状态，且天气也无法设置！
-But it failed, since the opposing side already has {1} layers of {2} spikes!
+But it failed, since the opposing side already has {1} layers of {2}!
 但它失败了，因为对方场上已经有{1}层{2}！
 {1}'s stats can't be changed further!
 {1}的能力不能再改变了！

@@ -53,8 +53,8 @@ SPECIES_ABILITY_DATA = {
   [:SEADRA, 0]      => { :fixed => %i[], :changeable => %i[SNIPER STERN], },
   [:KINGDRA, 0]     => { :fixed => %i[], :changeable => %i[SNIPER STERN], },
 
-  [:KANGASKHAN, 0]  => { :fixed => %i[], :changeable => %i[INNERFOCUS VITALSPIRIT], },
-  [:TEAMUJIN, 0]    => { :fixed => %i[], :changeable => %i[INNERFOCUS VITALSPIRIT], },
+  #[:KANGASKHAN, 0]  => { :fixed => %i[], :changeable => %i[INNERFOCUS VITALSPIRIT], },
+  #[:TEAMUJIN, 0]    => { :fixed => %i[], :changeable => %i[INNERFOCUS VITALSPIRIT], },
 
   [:LILLIPUP, 0]    => { :fixed => %i[], :changeable => %i[BREAKTHROUGH INTIMIDATE], },
   [:HERDIER, 0]     => { :fixed => %i[], :changeable => %i[BREAKTHROUGH INTIMIDATE], },

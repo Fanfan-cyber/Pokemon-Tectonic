@@ -176,7 +176,9 @@ disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
 2.在战斗模拟器中增加了一些“前冠军”队伍
 3.游戏现在具有黑名单系统，处于黑名单中的玩家无法游玩游戏
 4.修复了当吵闹被精灵非常规使用时，会使精灵陷入吵闹的Bug
-5.
+5.修复了Backfire对Tangling Vines不生效的Bug
+6.修复了当Tangling Vines发动时，会异常显示文本的Bug
+7.
 
 0.4.3 Pivot of Fate / 命途枢转
 1.修改了大量中文的翻译

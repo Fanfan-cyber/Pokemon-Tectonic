@@ -878,10 +878,10 @@ BattleHandlers::DamageCalcUserAbility.add(:HIVEMIND,
 )
 
 BattleHandlers::DamageCalcUserAbility.add(:TANGLINGVINES,
-  proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck|
-    if target.pointsAt?(:TanglingVines, user)
+  proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck, backfire|
+    if target.pointsAt?(:TanglingVines, user) || backfire
       mults[:base_damage_multiplier] *= 1.3
-      user.battle.pbDisplay(_INTL("The tangling vines strengthened the hit!"))
+      #user.battle.pbDisplay(_INTL("The tangling vines strengthened the hit!"))
       user.aiLearnsAbility(ability) unless aiCheck
     end
   }
