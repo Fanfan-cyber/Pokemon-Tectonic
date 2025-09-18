@@ -26,6 +26,7 @@ ABILITY_DATA = {
   :SPEEDBOOST       => { :desc => proc { _INTL("Speed is raised by 1 step at the end of each of its turns.") }, },
   :SPINTENSITY      => { :desc => proc { _INTL("Speed is raised each turn. Speed is reset when hit, but the attacker takes 1/8th HP damage for each step lost. The Pokémon takes 1/16th.") }, },
   :SWIFTSTOMPS      => { :desc => proc { _INTL("The user's Speed is doubled while using kicking moves. Every third kicking hit must be a crit.") }, },
+  :THUNDERSTORM     => { :desc => proc { _INTL("Charges after using every 2 damaging moves in sandstorm, doubling the power of its next Electric-type move.") }, },
   :UNIDENTIFIED     => { :desc => proc { _INTL("The Pokémon is Mutant-type. If the Pokémon is Deoxys, it will have multiple movesets.") }, },
   :VERDANT          => { :desc => proc { _INTL("Powers up Grass-type moves of itself and its allies by 30%.") }, },
 }.freeze

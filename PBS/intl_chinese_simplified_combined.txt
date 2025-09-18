@@ -34284,7 +34284,7 @@ Attacks with an electrified beak. Deals 50% more damage unless the target has mo
 The user launches at its foe, surrounding itself with lightning. It has a 30% chance to numb.
 缠绕雷电冲向对手。有30%概率使对手麻痹。
 The user becomes energized, doubling the power of its next Electric-type attack. Also raises the user's Defense and Sp. Def.
-进入充电状态，使下次电属性技能的威力翻倍，同时自身的双防增加1级。
+进入能量充盈状态，使下次电属性技能的威力翻倍，同时自身的双防增加1级。
 The user fires a concentrated bundle of electricity, raising the user's Sp. Atk stat by two steps.
 向对手发射电击光线。由于蓄满电流，增加自身的特攻2级。
 The user's body generates an eerie impulse. Lowers the target's Sp. Atk stat by four steps.
@@ -40649,7 +40649,7 @@ Creates Grey Mist for three turns upon entry.
 Speed is doubled on the first turn.
 出场的第1回合速度翻倍。
 Whenever it uses a status move, becomes energized, doubling the power of its next Electric-type attack.
-使用变化类技能时会进入充电状态，下次电属性技能威力翻倍。
+使用变化类技能时，进入能量充盈状态，下次电属性技能威力翻倍。
 Boosts power of the Pokémon's sound-based moves by 50%.
 声音类技能的威力增加50%。
 In sandstorm, the Pokémon's Attack is boosted by 30%.
@@ -41391,11 +41391,11 @@ Boosts damage by 20% if there is a weather. Immune to weather downsides.
 Flinching moves always activate their random effects. However, the Pokemon deals 10% less move damage.
 畏缩类技能总会触发其附加效果，但是精灵造成的伤害减小10%。
 Becomes energized upon entry, doubling the power of its next Electric-type attack.
-出场时，进入充电状态，下次电属性技能威力翻倍。
+出场时，进入能量充盈状态，下次电属性技能威力翻倍。
 By sacrificing a held item the Pokémon didn't start with, it can negate one attack against it.
 通过牺牲1个精灵入场时未携带的物品，它可以抵消1次针对它的攻击。
 Becomes energized when hit by an attack, doubling the power of its next Electric-type attack.
-受到攻击时，进入充电状态，下次电属性技能威力翻倍。
+受到攻击时，进入能量充盈状态，下次电属性技能威力翻倍。
 Its attacks have priority, deal 25% less damage and become special.
 可以率先发起攻击，伤害减小25%，并变成特殊类技能。
 Between each turn there's another turn where no one moves.
@@ -41549,7 +41549,9 @@ The user adds the type of whatever dance move they use.
 Immune to Bug-type moves and raises Speed if hit by one.
 对虫属性技能免疫，被虫属性技能攻击时，速度增加1级。
 Once per switch-in, Charges in sandstorm, doubling the power of its next Electric-type move.
-使用技能后，如果天气为沙暴，会立刻使自身进入充电状态。（每次出场只会发动1次）
+使用技能后，如果天气为沙暴，会使自身进入能量充盈状态。（每次出场只会发动1次）
+Charges after using every 2 damaging moves in sandstorm, doubling the power of its next Electric-type move.
+沙暴时，每使用两次伤害类技能，就会使自身进入能量充盈状态。
 This ability exists just to showcase the PBS Extensions system.
 这个特性只是为了展示PBS扩展系统。
 [12]
@@ -61501,7 +61503,7 @@ Temporal Shift Receiver
 Ancestral Summons Receiver
 背水飞援接收者
 Thunderstorm
-雷暴
+沙之暴充
 Amulet Coin
 护符金钱
 Fairy Lock

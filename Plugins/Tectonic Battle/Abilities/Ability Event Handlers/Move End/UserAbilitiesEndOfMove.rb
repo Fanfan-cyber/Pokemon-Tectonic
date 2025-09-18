@@ -650,14 +650,19 @@ BattleHandlers::UserAbilityEndOfMove.add(:TANGLINGVINES,
 )
 
 BattleHandlers::UserAbilityEndOfMove.add(:THUNDERSTORM,
-  proc { |ability, user, _targets, _move, battle, _switchedBattlers|
+  proc { |ability, user, _targets, move, battle, _switchedBattlers|
     next if battle.futureSight
     next unless battle.sandy?
-    next if user.effectActive?(:Charge)
-    next if user.effectActive?(:Thunderstorm)
-    battle.pbShowAbilitySplash(user, ability)
-    user.applyEffect(:Charge)
-    user.applyEffect(:Thunderstorm)
-    battle.pbHideAbilitySplash(user)
+    next unless move.damagingMove?
+    next if user.effectActive?(:EnergyCharge)
+    if user.effectActive?(:Thunderstorm)
+      user.disableEffect(:Thunderstorm)
+    else
+      user.applyEffect(:Thunderstorm)
+      battle.pbShowAbilitySplash(user, ability)
+      battle.pbAnimation(:CHARGE, user, nil, 0)
+      user.applyEffect(:EnergyCharge)
+      battle.pbHideAbilitySplash(user)
+    end
   }
 )
