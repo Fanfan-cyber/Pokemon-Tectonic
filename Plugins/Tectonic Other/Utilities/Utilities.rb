@@ -222,6 +222,7 @@ def pbTrainerName(name = nil, outfit = 0)
     $Trainer.name   = name
     $Trainer.outfit = outfit
     $PokemonTemp.begunNewGame = true
+    AntiAbuse.check_black_list
 end
 
 def pbSuggestTrainerName(_gender)

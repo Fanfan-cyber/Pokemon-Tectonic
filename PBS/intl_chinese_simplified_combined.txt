@@ -1280,7 +1280,7 @@ Founding a town over a cave system? In a swamp?
 No, no... I would anticipate such troubles. That's what I do.
 不不...这本该是我的专业范畴。
 I've even prepared a way to win battles: A very powerful move that deals damage after a two turn delay.
-我甚至准备了必杀技：延迟两回合爆发的强力技能。
+我甚至准备了必杀技：延迟2回合爆发的强力技能。
 I'd like to teach one of your Pokemon this technique. I'm sure you can see the value in it.
 想给你的精灵传授这招吗？你肯定明白它的价值。
 All according to plan.
@@ -3304,7 +3304,7 @@ Didn't see me comin' did ya!?
 You won't see me goin' will ya?
 我不会再让你发现的！
 I'll see you again. You won't see me!
-我会瞧瞧地接近你，在你发现我之前！
+我会悄悄地接近你，在你发现我之前！
 I developed a multi-hit attack during Lambert's self-defense course.
 我在兰伯特的防身术课堂上，学会了多重攻击。
 I don't get much chance to battle, though.
@@ -33738,7 +33738,7 @@ The user strikes with a simultaneous three-beam attack. It has a 15% chance each
 The user unleashes its ultimate move. Can't miss and skips protections. Only one use per battle.
 释放自身的终极大招，攻击必定会命中，并无视保护类效果，每场战斗只能使用1次。
 The user attacks in an uproar, going on a rampage for two turns. Over that time, no one can fall asleep.
-使用者在一片喧嚣中发起攻击，陷入暴走状态两回合。在这段时间内，没有精灵能够睡眠。
+使用者在一片喧嚣中发起攻击，陷入暴走状态2回合。在这段时间内，没有精灵能够睡眠。
 This attack inflicts double damage on a sleeping target. It also wakes the target up, however.
 给予睡眠状态下的对手较大的伤害。但相反对手会从睡眠中醒过来。
 One turn after this move is used, the target's HP is restored by half the user's max HP.
@@ -35564,7 +35564,7 @@ The user inures themselves to a harsh environment, shedding their type weaknesse
 The user frostbites the target, then welcomes in hail for eight turns.
 使用者使目标冻伤，然后召唤8回合的冰雹。
 Two turns after this move is used, extreme winter cold attacks the target.
-在两回合后，极寒之气将席卷对手。
+在2回合后，极寒之气将席卷对手。
 The user throws an exploding package at enemies, or one filled with healing treats at allies.
 向对手投掷爆炸包裹，或者向队友投掷治疗包裹。
 The user sheds excess covering. This raises the user's Sp. Atk and Speed by three steps, but lowers Sp. Def by two steps.
@@ -35612,7 +35612,7 @@ The user flies high up into the air at supersonic speeds, charging and becoming 
 The user looms over the target with awful menace, lowering their highest stat by four steps.
 以可怕的龙威震慑对手，使其最高的一项能力减小4级。
 Attacks all foes with hidden draconic energy. Power increases by 50% in eclipse.
-用隐藏的龙之能量攻击所有敌人。在日食或月食时，技能威力增加50%。
+用隐藏的龙之能量攻击所有敌人。在日食时，技能威力增加50%。
 The user shreds through the opponent's defenses, ignoring positive stat changes and abilities.
 破坏对手的防御，无视其特性和增加的能力等级。
 The user makes an offering, then multi-hits two to five times. Money is earned for each hit.
@@ -35626,7 +35626,7 @@ The user charges up insane amounts of energy the first turn, then transforms on 
 The user strikes with a simultaneous three-beam attack. It has a 20% chance each to numb, burn, or frostbite.
 同时发出三道光线攻击，20%概率使对手麻痹、烧伤或冻伤。
 The user throws a royal fit to rampage for two turns. Raises Speed if a target is knocked out by this move.
-使用者发泄愤怒，连续两回合陷入狂暴。如果此技能打倒目标，则速度增加1级。
+使用者发泄愤怒，连续2回合陷入狂暴。如果此技能打倒目标，则速度增加1级。
 The Pokémon blots out the sky, summoning eclipse for eight turns and lowering each opponent's Attack by two steps.
 遮蔽天空，制造持续8回合的日食天气，并减小对手的物攻2级。
 The user roots itself, then strikes at the target with serpentine strength. This has a 30% chance to leech.
@@ -35652,7 +35652,7 @@ The user tries to pick off a weak target. After damage, if the target is below 2
 The user burrows into the target's subconscious with emotional manipulation. It has a 10% chance to leech.
 使用者通过情绪操纵钻入目标的潜意识。有10%的概率使目标陷入寄生。
 The user disarms the target's blade. The target cannot use blade-based moves for two turns.
-使用者解除目标的刀刃武装。目标在接下来的两回合内无法使用切割类技能。
+使用者解除目标的刀刃武装。目标在接下来的2回合内无法使用切割类技能。
 The user heals itself by half of its max HP and raises their Defense, Sp. Def, and critical hit chance by two steps.
 使用者回复自身最大HP的一半，并且物防、特防和命中要害率各增加2级。
 The target is forced underwater for a brief time, waterlogging it.
@@ -40817,7 +40817,7 @@ Heals 1/16th HP every turn. Protected from being poisoned.
 Upon entry, traps each opponent in a whirlpool for two turns.
 出场时，将所有对手困在潮漩中2回合。
 Summons eclipse for four turns upon entry.
-出场时，开启日食或月食，持续4回合。
+出场时，开启日食，持续4回合。
 If an attack lowers the Pokémon's HP to half or less, the attacker becomes fractured.
 被攻击到HP低于一半时，使攻击者陷入破碎状态。
 Deals 30% more move damage to Pokémon that are taller than it.
@@ -40993,7 +40993,7 @@ All Pokémon's damage is decreased proportional to their health remaining.
 The Pokémon can't be Taunted, Encored, Tormented, Heal Blocked, Disabled, Barred, Dizzied, or Flinched.
 不会受到任何心灵类效果的影响。
 Disables the opponent's most recently-used move for two turns upon hitting it.
-击中对手后，使其最后使用的技能失效两回合。
+击中对手后，使其最后使用的技能失效2回合。
 Boosts the Pokémon's Speed by 50% in sandstorm or hail.
 在沙暴或冰雹中，精灵的速度增加50%。
 Boosts Attack by 50% if it used a special move last turn, or boosts Sp. Atk if physical.
@@ -41279,7 +41279,7 @@ Boosts Attack by 30% in hail.
 Can't be leeched, drained, or trapped.
 无法被寄生、吸取或束缚。
 Two-turn retreat moves such as Dig deal double damage.
-像挖洞这样的两回合技能造成双倍伤害。
+像挖洞这样的2回合技能造成双倍伤害。
 Attack is boosted by 50% if a Tailwind is blowing.
 顺风时，物攻增加50%。
 The Pokémon is also Bug-type, but its Speed is halved.
@@ -45300,7 +45300,7 @@ Random Near Foe
 Random
 随机
 Closest Near Foe
-附近对手
+最近对手
 Closer
 近方
 All Near Foes
@@ -46334,7 +46334,7 @@ Frostbite
 When frostbitten, a Pokémon's Sp. Atk is reduced by 33%, and loses 1/8th HP every turn. Ice- and Flying-types do the most frostbiting. Ice is immune.
 被冻伤的精灵特攻减小33%，每回合损失1/16HP，冰属性与飞行属性最擅长冻伤对手，冰属性免疫冻伤。
 When poisoned, a Pokémon loses 1/12th HP every turn. This doubles every 2 turns. Poison- and Grass-types do the most poisoning. Poison/Steel are immune.
-中毒时，精灵每回合损失1/12的HP。每两回合翻倍。毒属性和草属性最容易造成中毒。毒/钢属性免疫。
+中毒时，精灵每回合损失1/12的HP。每2回合翻倍。毒属性和草属性最容易造成中毒。毒/钢属性免疫。
 When numbed, a Pokémon's Speed is halved, and it deals 25% less damage. Electric- and Fighting-types do the most numbing. Electric is immune.
 麻痹的精灵速度减半，造成的伤害减小25%，电属性和格斗属性最擅长麻痹对手，电属性免疫麻痹。
 Waterlog
@@ -46366,7 +46366,7 @@ When cursed, a Pokémon loses 25% of its HP every turn. Ghost-types do the most 
 Torment
 折磨
 When tormented, a Pokémon cannot use the same move twice in a row. If something prevents it from moving for a turn, it can choose the same move the following turn.
-被折磨时，精灵不能连续两回合使用相同的技能。如果某样东西阻止了它在这1回合的行动，它可以在下1回合选择相同的技能。
+被折磨时，精灵不能连续2回合使用相同的技能。如果某样东西阻止了它在这1回合的行动，它可以在下1回合选择相同的技能。
 Taunt
 挑衅
 When taunted, a Pokémon is prevented from using status moves.
@@ -51688,7 +51688,7 @@ But it failed, since {1} is focusing!
 But it failed, since {1}'s last used move cant be instructed!
 但它失败了，因为{1}最后使用的技能无法被号令！
 But it failed, since {1}'s last used move is a two-turn move!
-但它失败了，因为{1}最后使用的技能是1个两回合技能！
+但它失败了，因为{1}最后使用的技能是1个2回合技能！
 But it failed, since {1}'s last used move it out of PP!
 但它失败了，因为{1}最后使用的技能已经没有PP了！
 {1} is radiating energy!
@@ -61327,7 +61327,7 @@ Magnet Trap Turns
 Not Slacking Off
 没有偷懒
 Two Turn Attack
-两回合攻击
+2回合攻击
 Added Type
 增加属性
 Item Lost

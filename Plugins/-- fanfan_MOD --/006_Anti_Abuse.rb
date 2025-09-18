@@ -64,13 +64,14 @@ end
 
 module AntiAbuse
   DEBUG_PASSWORD  = "12138"
-  GAME_OFFICIAL   = %w[宝可饭堂 pokefans 地震啦！！！ 493645591]
+  GAME_OFFICIAL   = %w[宝可饭堂 pokefans 地震啦！！！ 493645591].freeze
   GO_SOURCE_CHECK = false
   OFFICIAL_SITE   = "https://bbs.pokefans.xyz/threads/598/"
-  CHEAT_CLASS     = [:CheatItemsAdapter, :ScreenCheat_Items, :SceneCheat_Items, :Scene_Cheat, :Window_GetItem, :PokemonLoad]
+  CHEAT_CLASS     = [:CheatItemsAdapter, :ScreenCheat_Items, :SceneCheat_Items, :Scene_Cheat, :Window_GetItem, :PokemonLoad].freeze
   CHEAT_METHOD    = [:pbenabledebug, :pbDebugMenu]
-  CHEAT_PROCESS   = %w[nw.exe cheatengine-i386.exe cheatengine-x86_64.exe cheatengine-x86_64-SSE4-AVX2.exe GearNT.exe]
-  FILES_TO_DELETE = ["Save Game", "Saves", "Achievements.dat", "Time Capsule.dat"]
+  CHEAT_PROCESS   = %w[nw.exe cheatengine-i386.exe cheatengine-x86_64.exe cheatengine-x86_64-SSE4-AVX2.exe GearNT.exe].freeze
+  FILES_TO_DELETE = ["Save Game", "Saves", "Achievements.dat", "Time Capsule.dat"].freeze
+  BLACK_NAME      = %w[咸肉 咸鱼腌制奥义].freeze
   @@debug_control = false
 
   def self.print_update_log
@@ -203,5 +204,11 @@ module AntiAbuse
 
   def self.windows?
     [/win/i, /mingw/i, /mswin/i].any? { |regex| regex.match?(RUBY_PLATFORM) }
+  end
+
+  def self.check_black_list
+    return unless BLACK_NAME.include?($Trainer.name)
+    punishment_deletion
+    exit
   end
 end

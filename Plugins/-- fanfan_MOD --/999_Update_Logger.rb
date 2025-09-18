@@ -172,7 +172,11 @@ doublebattle/disabledouble，开启/关闭全双打模式
 disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
 
 0.4.4 Echoes of Destiny / 余烬回响
-1.
+1.修改了大量中文的翻译
+2.在战斗模拟器中增加了一些“前冠军”队伍
+3.游戏现在具有黑名单系统，处于黑名单中的玩家无法游玩游戏
+4.修复了当吵闹被精灵非常规使用时，会使精灵陷入吵闹的Bug
+5.
 
 0.4.3 Pivot of Fate / 命途枢转
 1.修改了大量中文的翻译

@@ -201,6 +201,7 @@ class PokeBattle_Battle
             #       turn counter if it's already locked into Petal Dance.
             oldCurrentMove = forcedMoveUser.currentMove
             oldOutrageTurns = forcedMoveUser.effects[:Outrage]
+            oldUproarTurns = forcedMoveUser.effects[:Uproar]
             forcedMoveUser.effects[:Outrage] += 1 if forcedMoveUser.effectActive?(:Outrage)
         end
 
@@ -231,6 +232,7 @@ class PokeBattle_Battle
 
         forcedMoveUser.lastRoundMoved = oldLastRoundMoved
         if specialUsage
+            forcedMoveUser.effects[:Uproar] = oldUproarTurns
             forcedMoveUser.effects[:Outrage] = oldOutrageTurns
             forcedMoveUser.currentMove = oldCurrentMove
         end
