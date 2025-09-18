@@ -851,9 +851,9 @@ class PokemonSummary_Scene
                 ability_desc = _INTL("{1} doesn't have Main Ability.", @pokemon.name)
             end
             #textpos.push([_INTL("{1} (USE: Check more)", ability_name), 138, 278, 0, ability_base, ability_shadow])
-            drawFormattedTextEx(overlay, 8, 250, 480, _INTL("{1} (USE: Check more)", ability_name), base, shadow)
+            drawFormattedTextEx(overlay, 8, 250, Graphics.width, _INTL("{1} (USE)", ability_name), base, shadow)
             abilityDescription = addBattleKeywordHighlighting(ability_desc)
-            drawFormattedTextEx(overlay, 12, 286, 450, abilityDescription, ability_base, ability_shadow)
+            drawFormattedTextEx(overlay, 12, 286, Graphics.width, abilityDescription, ability_base, ability_shadow)
         end
 
         # Draw all text

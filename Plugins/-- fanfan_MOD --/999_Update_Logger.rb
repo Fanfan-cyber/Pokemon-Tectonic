@@ -178,7 +178,10 @@ disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
 4.修复了当吵闹被精灵非常规使用时，会使精灵陷入吵闹的Bug
 5.修复了Backfire对Tangling Vines不生效的Bug
 6.修复了当Tangling Vines发动时，会异常显示文本的Bug
-7.
+7.现在电脑中将不会再显示“Visit Cable Club”选项
+8.现在精灵的概览界面的特性描述部分将会以整个游戏的宽度进行分行
+9.修改了精灵的概览界面的特性部分的提示文本
+10.
 
 0.4.3 Pivot of Fate / 命途枢转
 1.修改了大量中文的翻译
