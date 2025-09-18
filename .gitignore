@@ -26,6 +26,8 @@ towersingleteams.rxdata
 towersingle.rxdata
 Data/PBSExtensions.rxdata
 Data/GraphicsExtensions.rxdata
+server.log
+.idea/
 !Library/gems/**
 release_version_mod.txt
 field_effect_manual.txt

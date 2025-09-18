@@ -362,6 +362,28 @@ BattleHandlers::UserAbilityEndOfMove.add(:TORPORSAP,
   }
 )
 
+BattleHandlers::UserAbilityEndOfMove.add(:VICIOUSCYCLE,
+  proc { |ability, user, targets, move, battle, _switchedBattlers, aiCheck|
+      next if battle.futureSight
+      next unless move.damagingMove?
+      next unless move.calcType == :DRAGON
+      # AI learns ability if move spreads or drain happens
+      user.aiLearnsAbility(ability) if ( !aiCheck && ( targets.size() > 1 || user.hp != user.totalhp) )
+      user.pbRecoverHPFromMultiDrain(targets, 0.33, ability: ability)
+  }
+)
+
+BattleHandlers::UserAbilityEndOfMove.add(:HORDETACTICS,
+  proc { |ability, user, targets, move, battle, _switchedBattlers, aiCheck|
+      next if battle.futureSight
+      next unless move.damagingMove?
+      next unless move.calcType == :NORMAL
+      # AI learns ability if move spreads or drain happens
+      user.aiLearnsAbility(ability) if ( !aiCheck && ( targets.size() > 1 || user.hp != user.totalhp) )
+      user.pbRecoverHPFromMultiDrain(targets, 0.33, ability: ability)
+  }
+)
+
 BattleHandlers::UserAbilityEndOfMove.add(:ETERNALWINTER,
   proc { |ability, user, targets, _move, battle, _switchedBattlers|
       next if battle.pbAllFainted?(user.idxOpposingSide)
@@ -612,6 +634,18 @@ BattleHandlers::UserAbilityEndOfMove.add(:BLINDING,
         b.tryLowerStat(:SPECIAL_DEFENSE, user, increment: 1, showFailMsg: true)
       end
       battle.pbHideAbilitySplash(user)
+  }
+)
+
+BattleHandlers::UserAbilityEndOfMove.add(:TANGLINGVINES,
+  proc { |ability, user, targets, move, battle, _switchedBattlers|
+    next unless move.damagingMove?
+    targets.each do |b|
+      next if b.fainted?
+      if b.pointsAt?(:TanglingVines, user)
+        b.disableEffect(:TanglingVines)
+      end
+    end
   }
 )
 
