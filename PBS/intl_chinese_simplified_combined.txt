@@ -40579,7 +40579,7 @@ Upon entry, creates a Substitute from 1/4th of its HP.
 When hit with a special move, hits back instantly with Breach.
 被特殊类技能击中时，会立即使用潮汐一击进行反击。
 When a foe hits the Pokémon with a physical move, they are warned. If they do it again, they become cursed.
-对手对精灵使用物理技能时会受到警告。若再次攻击，对手将被诅咒。
+对手对精灵使用物理类技能时会受到警告。若再次攻击，对手将被诅咒。
 Immune to Dragon-type, Fairy-type and Ghost-type attacks.
 免疫龙属性、妖精属性和幽灵属性技能。
 When this Pokémon gains a non-volatile status condition, its Attack is raised by three steps.
@@ -40595,7 +40595,7 @@ Boosts Attack and Sp. Atk after knocking out any Pokémon.
 On the first turn, its attacks burn the target.
 第1回合的攻击会使对方烧伤。
 Has a 30% chance to leech targets when using physical moves.
-使用物理类技能时有30%的概率寄生对手。
+使用物理类技能时，有30%的概率寄生对手。
 Immune to non-volatile status conditions due to its hard shell. Boosts Sp. Atk and Speed by 30% in sandstorm.
 免疫稳定型异常，在沙暴中，特攻和速度增加30%。
 Prevents Bug- or Poison-type moves during moonglow.
@@ -41239,7 +41239,7 @@ Moves used on the Pokémon are disabled for two turns.
 When targeted by a status move, the offending Pokémon becomes poisoned.
 对手对自身使用变化类技能后会陷入中毒状态。
 Special moves have a 30% chance to leech targets.
-特殊类技能30%概率使对方被寄生。
+使用特殊类技能时，有30%的概率寄生对手。
 Boosts one defending stat by two steps according to the foe's Attack and Sp. Atk.
 根据对手的双攻，增加物防或者特防2级。
 Takes 25% less damage while using a status move.
