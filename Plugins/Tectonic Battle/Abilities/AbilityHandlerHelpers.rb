@@ -13,6 +13,11 @@ move.name))
     return true
 end
 
+def applyEffectDurationModifiers(value, user)
+    return (value.to_f * 1.5).floor if user.hasTribeBonus?(:SERENE)
+    return value
+end
+
 # For abilities that grant immunity to moves of a particular type, and raises
 # one of the ability's bearer's stats instead.
 def pbBattleMoveImmunityStatAbility(ability, user, target, move, moveType, immuneType, stat, increment, battle, showMessages, aiCheck = false)
@@ -100,6 +105,7 @@ end
 
 def entryTrappingAbility(ability, battler, battle, trappingMove, trappingDuration: 1, aiCheck: false, &block)
     trappingDuration *= 2 if battler.shouldItemApply?(:GRIPCLAW,aiCheck )
+    trappingDuration = (trappingDuration.to_f * 1.5).floor if battler.hasTribeBonus?(:SERENE)
 
     score = 0
     battle.pbShowAbilitySplash(battler, ability) unless aiCheck

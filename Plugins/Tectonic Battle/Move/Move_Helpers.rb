@@ -369,5 +369,5 @@ class PokeBattle_Move
             user.pbHeldItemTriggerCheck
             target.pbHeldItemTriggerCheck
         end  
-    end
+    end  
 end
