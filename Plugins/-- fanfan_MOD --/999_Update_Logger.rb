@@ -32,6 +32,7 @@ Options和error和Achievement移到主目录下
 AI钉子优先级太高
 塔罗牌的天气不像在地图那里那样会无限刷新
 日食和月辉的塔罗牌
+满月刀加强
 =end
 
 MOD_VERSION  = "0.4.4"

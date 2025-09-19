@@ -28410,7 +28410,7 @@ Ice Tea
 Calm
 宁静
 Serene
-肃静
+平静
 Silent
 寂静
 Bulk Up
@@ -59408,8 +59408,8 @@ Your able party members and battlers heal for 1/10th HP whenever a foe faints.
 Your team has 30% increased Defense. Foes can't lower your team's Defense.
 全员的物防增加30%，且物防不会减小。
 17
-Enemy Pokemon's chance to activate their additional effects against your team members is halved.
-对手技能发动附加效果的概率减半。
+Effects placed by your Pokemon last 50% longer (rounded down).
+全员开启的各种效果的持续时间增加50%。
 18
 Your team has 15% increased Speed.
 全员速度增加15%。
