@@ -643,3 +643,13 @@ BattleHandlers::UserAbilityEndOfMove.add(:FRIGHTENINGFANGS,
       end
   }
 )
+
+BattleHandlers::UserAbilityEndOfMove.add(:ACTIONSTAR,
+  proc { |ability, user, targets, move, battle, _switchedBattlers| 
+    next unless targets.any? { |t| (move.pbCalcTypeMod(move.calcType, user, t, true) >= 2.0) && !(t.damageState.unaffected)} #Any of the targets have received a SE hit 
+    next if user.effectActive?(:ActionStar)
+    battle.pbShowAbilitySplash(user, ability)
+    user.applyEffect(:ActionStar)
+    battle.pbHideAbilitySplash(user)
+  }
+)

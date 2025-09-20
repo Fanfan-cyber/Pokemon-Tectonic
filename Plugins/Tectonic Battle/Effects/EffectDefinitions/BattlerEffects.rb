@@ -2476,3 +2476,11 @@ GameData::BattleEffect.register_effect(:Battler, {
     :id => :NoTimeSkip,
     :real_name => "No Time Skip",
 })
+
+GameData::BattleEffect.register_effect(:Battler, {
+    :id => :ActionStar,
+    :real_name => "Action Star",
+    :apply_proc => proc do |battle, battler, _value|
+        battle.pbDisplay(_INTL("The spotlight will boost {1}'s next Normal-type attack!", battler.pbThis))
+    end,
+})

@@ -900,3 +900,17 @@ BattleHandlers::DamageCalcUserAbility.add(:TANGLINGVINES,
     end
   }
 )
+
+BattleHandlers::DamageCalcUserAbility.add(:ACTIONSTAR,
+  proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck|
+    next unless user.effectActive?(:ActionStar)
+    next unless move.damagingMove?
+    next unless move.calcType == :NORMAL
+    mults[:base_damage_multiplier] *= 1.3
+    unless aiCheck
+      user.battle.pbDisplay(_INTL("The spotlight strengthened the hit!"))
+      user.aiLearnsAbility(ability)
+      user.disableEffect(:ActionStar)
+    end
+  }
+)
