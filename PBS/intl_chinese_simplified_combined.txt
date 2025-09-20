@@ -41020,6 +41020,8 @@ When hit in moonglow, steals the attacker's item, or knocks it away.
 当在月辉下被攻击时，能够偷走对手的物品或将其拍落。
 Hits opponent with Thief when switched out.
 离场时，用小偷攻击对手。
+Hits opponent with Covet when switched out.
+离场时，用渴望攻击对手。
 The Pokemon's Psychic-type attacks become spread and deal 35% more damage.
 该精灵的超能属性技能变为扩散攻击，并且伤害增加35%。
 Immune to the type of the memory disc it holds.

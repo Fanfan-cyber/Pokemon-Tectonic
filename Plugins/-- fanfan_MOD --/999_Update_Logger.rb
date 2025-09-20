@@ -197,7 +197,8 @@ disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
 12.将具有束缚效果的技能标准化为“束缚类技能”
 13.将在精灵出场时会受到负面效果影响的效果标准化为“陷阱类效果”
 14.修复了Backfire对Reluctant Warrior不生效的Bug
-15.
+15.修复了Remanent Voltage在发动时会使游戏崩溃的Bug
+16.
 
 0.4.3 Pivot of Fate / 命途枢转
 1.修改了大量中文的翻译
