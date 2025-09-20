@@ -29491,7 +29491,7 @@ The fifth of the titans, built to commemorate an era of electricity. It is as in
 The first of the titans, built to commemorate an era when dragons ruled. It is as terrifying as an apex predator.
 有一种未经证实的学术说法认为它手臂的形状是古代龙精灵的头。
 The creator of the titans, who shaped the primal clay in the golden age. Its creative powers are boundless.
-世间流传着这样的传说，据说它拖动了用绳捆绑的大陆。
+世间流传着这样的传说，据说它拖动了用绳束缚的大陆。
 Latias is highly sensitive to the emotions of people. If it senses any hostility, this Pokémon ruffles the feathers all over its body and cries shrilly to intimidate them.
 拉帝亚斯对人类的情绪极为敏感，如果它感知到任何敌意，它就会全身的羽毛竖起，并发出尖锐的叫声来威慑对方。
 Latios has the ability to make others see an image of what it has seen or imagines in its head. This Pokémon is intelligent and understands human speech.
@@ -35874,7 +35874,7 @@ The user restores 1/8th of its HP and summons an allied Combee. User becomes Bug
 The user raises its Sp. Atk, Sp. Def, and Speed by two steps. User becomes Bug-type.
 使用者特攻、特防和速度增加2级。变为虫属性。
 Nearby foes are bound with silk. This lowers their Attack, Sp. Atk and Speed by two steps. User becomes Bug-type.
-捆绑附近的目标。使目标的物攻、特攻和速度减小2级。变为虫属性。
+束缚附近的目标。使目标的物攻、特攻和速度减小2级。变为虫属性。
 The user applies a damaging curse to all nearby foes. User becomes Ghost-type.
 使用者对所有附近的目标施加伤害诅咒。变为幽灵属性。
 Attackers against the user suffer recoil for the rest of the battle. User becomes Ghost-type.
@@ -37921,11 +37921,11 @@ A Pokémon held item. When the holder summons moonglow, it lasts twice as long.
 An item to be held by a Pokémon. Protective screens will be effective for 3 more turns.
 当携带它的精灵使用具有屏障类效果的技能时，效果的持续时间增加3回合。
 An item to be held by a Pokémon. It doubles the duration of Rooms created by the holder.
-一种携的物品。携带者创造的空间效果持续时间翻倍。
+一种携的物品。携带者开启的空间效果持续时间翻倍。
 A Pokémon held item that doubles the duration of multiturn trapping attacks.
-携带后，绑紧以及紧束等会持续造成伤害的技能的回合数会增加。
+携带后，束缚类技能的束缚效果的持续时间翻倍。
 A band that doubles the damage dealt each turn by binding moves when held.
-能增强绑紧技能的束带。携带后，绑紧技能的威力会变强。
+能增强束缚类技能的束带。携带后，束缚效果的伤害翻倍。
 A held item. It makes multi-hit attacks consistently hit 4 or 5 times.
 一种携带物品。它使多段攻击类技能可以稳定命中4到5次。
 An item to be held by a Pokémon. The user gets both of its legal abilities, but its stats are cut by 10%.
@@ -40603,7 +40603,7 @@ Prevents Bug- or Poison-type moves during moonglow.
 Boosts Attack by 50%, but physical moves deal 25% damage back as recoil.
 物攻增加50%，但使用物理类技能时会造成25%的反伤。
 Foes aren't released from its trapping moves even when the Pokémon leaves the field.
-此精灵离场，敌人也不会脱离陷阱类技能的影响。
+此精灵离场，敌人也不会脱离束缚类技能的影响。
 33% of all move damage taken by the Pokémon is instead taken at the end of the next turn.
 精灵受到的所有技能伤害的33%会在下1回合结束时再承受。
 Doubles the Pokémon's Defense in a sandstorm.
@@ -61321,11 +61321,11 @@ Transformed Into
 Trapping Turns
 束缚回合
 Trapping Move
-陷阱技能
+束缚类技能
 Trapped By
 被束缚
 Constricted Turns
-被捆绑回合数
+被束缚回合数
 Magnet Trap Turns
 磁力陷阱回合
 Not Slacking Off

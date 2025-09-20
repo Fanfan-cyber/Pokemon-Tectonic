@@ -878,8 +878,8 @@ BattleHandlers::DamageCalcUserAbility.add(:HIVEMIND,
 )
 
 BattleHandlers::DamageCalcUserAbility.add(:RELUCTANTWARRIOR,
-  proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck|
-    if user.belowHalfHealth?
+  proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck, backfire|
+    if user.belowHalfHealth? || backfire
       mults[:attack_multiplier] *= 1.3
 	  user.aiLearnsAbility(ability) unless aiCheck
     end
