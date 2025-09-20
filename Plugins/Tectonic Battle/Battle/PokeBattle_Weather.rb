@@ -34,7 +34,7 @@ class PokeBattle_Battle
         oldWeather = @field.weather
 
         resetExisting = @field.weather == newWeather
-        endWeather unless resetExisting
+        endWeather(newWeather == :None) unless resetExisting
 
         # Set the new weather and duration
         @field.weather = newWeather
@@ -86,6 +86,12 @@ class PokeBattle_Battle
         pbHideAbilitySplash(user) if user && ability
 
         triggerWeatherChangeDialogue(oldWeather, @field.weather) unless resetExisting
+
+        battlers.each do |b|
+            b.eachActiveAbility do |ability|
+                BattleHandlers.triggerWeatherChangedAbility(ability, oldWeather, b, self)
+            end
+        end
     end
 
     def displayResetWeatherMessage
@@ -121,7 +127,7 @@ class PokeBattle_Battle
         end
     end
 
-    def endWeather
+    def endWeather(affectAbilities=true)
         return if @field.weather == :None
         case @field.weather
         when :Sunshine      then pbDisplay(_INTL("The sunshine faded."))
@@ -143,6 +149,13 @@ class PokeBattle_Battle
         @field.weatherDuration = 0
         @field.resetSpecialEffect
         triggerWeatherChangeDialogue(oldWeather, :None)
+        if affectAbilities
+            battlers.each do |b|
+                b.eachActiveAbility do |ability|
+                    BattleHandlers.triggerWeatherChangedAbility(ability, oldWeather, b, self)
+                end
+            end
+        end
     end
 
     PRIMORDIAL_WEATHER_LINGER_TURNS = 4
