@@ -650,7 +650,7 @@ BattleHandlers::UserAbilityEndOfMove.add(:ACTIONSTAR,
 
     ability_proc = false
     targets.each do |b| 
-      next unless b.damageState.unaffected
+      next if b.damageState.unaffected
       next unless Effectiveness.super_effective?(b.damageState.typeMod)
       ability_proc = true
       break
