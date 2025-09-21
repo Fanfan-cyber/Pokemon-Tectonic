@@ -354,7 +354,7 @@ BattleHandlers::TargetAbilityOnHit.add(:MAGNETTRAP,
         next if user.effectActive?(:Magnetized)
         next if target.effectActive?(:SwitchedIn)
         battle.pbShowAbilitySplash(target, ability)
-        user.applyEffect(:Magnetized, applyEffectDurationModifiers(3, battler))
+        user.applyEffect(:Magnetized, applyEffectDurationModifiers(3, target))
         user.pointAt(:TrappingUser, target)
         battle.pbHideAbilitySplash(target)
   }
