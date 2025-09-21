@@ -339,7 +339,7 @@ BattleHandlers::TargetAbilityOnHit.add(:CONSTRICTOR,
         next if user.effectActive?(:Constricted)
         next if target.effectActive?(:SwitchedIn)
         battle.pbShowAbilitySplash(target, ability)
-        user.applyEffect(:Constricted, applyEffectDurationModifiers(3, battler))
+        user.applyEffect(:Constricted, applyEffectDurationModifiers(3, target))
         user.pointAt(:TrappingUser, target)
         battle.pbHideAbilitySplash(target)
   }
