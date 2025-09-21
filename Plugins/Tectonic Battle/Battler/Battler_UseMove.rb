@@ -866,6 +866,13 @@ class PokeBattle_Battler
             @battle.pbDisplay(_INTL("{1} lands a flashy hit!", user.pbThis))
             user.disableEffect(:ActionStar)
         end
+        #Tangling Vines proc message
+        targets.each do |t|
+            if t.pointsAt?(:TanglingVines, user)
+                user.battle.pbDisplay(_INTL("The tangling vines strengthened the hit!"))
+                break #Only trigger once, even if multiple targets are affected
+            end
+        end
         # Messages about missed target(s) (relevant for multi-target moves only)
         unless move.pbRepeatHit?
             targets.each do |b|
