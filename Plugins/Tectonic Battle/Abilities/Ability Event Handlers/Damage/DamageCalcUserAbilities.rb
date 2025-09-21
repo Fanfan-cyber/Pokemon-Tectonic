@@ -285,8 +285,8 @@ BattleHandlers::DamageCalcUserAbility.add(:GORGING,
 )
 
 BattleHandlers::DamageCalcUserAbility.add(:EXPERTISE,
-if Effectiveness.super_effective?(typeModToCheck(user.battle, type, user, target, move, aiCheck))
   proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck|
+    if Effectiveness.super_effective?(typeModToCheck(user.battle, type, user, target, move, aiCheck))
       mults[:final_damage_multiplier] *= 1.3
       user.aiLearnsAbility(ability) unless aiCheck
     end
@@ -905,7 +905,7 @@ BattleHandlers::DamageCalcUserAbility.add(:ACTIONSTAR,
   proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck|
     next unless user.effectActive?(:ActionStar)
     next unless move.damagingMove?
-    next unless move.calcType == :NORMAL
+    next unless type == :NORMAL
     mults[:base_damage_multiplier] *= 1.3
     user.aiLearnsAbility(ability) unless aiCheck
   }
