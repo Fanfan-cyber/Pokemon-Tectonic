@@ -36,7 +36,7 @@ Description = Slips past all types of Spikes hazards. Deals 50% more damage to t
 #-------------------------------
 [AGGRAVATE]
 Name = Aggravate
-Description = HP-fraction-based damage effects deal 50% more damage to opponents.
+Description = HP-fraction-based damage effects deal 35% more damage to opponents.
 #-------------------------------
 [ALLCONSUMING]
 Name = All-Consuming
@@ -518,10 +518,6 @@ Description = Boosts power of the Pokémon's sound-based moves by 50%.
 Name = Earthshaker
 Description = In sandstorm, the Pokémon's Attack is boosted by 30%.
 Flags = SandstormSynergy
-#-------------------------------
-[ECCENTRIC]
-Name = Eccentric
-Description = If its stats would be changed, instead they're changed half as much in the opposite direction (rounded up).
 #-------------------------------
 [ECHO]
 Name = Echo
@@ -1074,6 +1070,10 @@ Description = Special moves have a 30% chance to poison targets.
 [INTROVERT]
 Name = Introvert
 Description = Takes 30% less damage until the first time it uses an attacking move.
+#-------------------------------
+[INVERSION]
+Name = Inversion
+Description = If its stats would be changed, instead they're changed half as much in the opposite direction (rounded up).
 #-------------------------------
 [INVESTIGATOR]
 Name = Investigator
@@ -2219,6 +2219,10 @@ Description = Takes 20% less damage from neutrally effective attacks.
 Name = Unidentified
 Description = The Pokémon is Mutant-type.
 Flags = Immutable
+#-------------------------------
+[UPSIDEDOWN]
+Name = Upside Down
+Description = Uses Topsy Turvy on itself at the end of every turn.
 #-------------------------------
 [VANDAL]
 Name = Vandal

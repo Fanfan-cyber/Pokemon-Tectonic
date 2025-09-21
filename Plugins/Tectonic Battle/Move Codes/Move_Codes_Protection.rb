@@ -376,7 +376,7 @@ class PokeBattle_Move_ProtectUserFromStatusMovesDisableBlockedMoves3 < PokeBattl
     def getEffectScore(user, target)
         score = super
         user.eachPredictedTargeter(2) do |b|
-            score += getDisableEffectScore(target, applyEffectDurationModifiers(3))
+            score += getDisableEffectScore(target, applyEffectDurationModifiers(3, user))
         end
         return score
     end

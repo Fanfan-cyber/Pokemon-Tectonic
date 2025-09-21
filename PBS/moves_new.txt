@@ -6994,18 +6994,6 @@ Flags = CanProtect
 EffectChance = 100
 Description = The user disarms the target's blade. The target cannot use blade-based moves for two turns.
 #-------------------------------
-[DIVINATION]
-Name = Divination
-Type = DARK
-Category = Status
-Accuracy = 0
-TotalPP = 5
-Target = User
-FunctionCode = HealUserHalfOfTotalHPRaiseDefSpDefCriticalHitRate1
-Flags = CanSnatch
-Description = The user heals itself by half of its max HP and raises their Defense, Sp. Def, and critical hit chance by two steps.
-Animation = COSMICPOWER
-#-------------------------------
 [DROWN]
 Name = Drown
 Type = DARK
@@ -7865,7 +7853,7 @@ Type = FAIRY
 Category = Special
 Power = 1
 Accuracy = 100
-TotalPP = 5
+TotalPP = 15
 Target = NearOther
 FunctionCode = ScalesSlowerThanTarget
 Flags = CanProtect

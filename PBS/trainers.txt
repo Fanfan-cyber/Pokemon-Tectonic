@@ -686,7 +686,7 @@ Pokemon = BRAIXEN,26
     Moves = FIRESPIN,PSYBEAM,EERIEIMPULSE,WILLOWISP
     AbilityIndex = 1 # Fascinate
 Pokemon = QUILLADIN,26
-    Moves = BULKUP,FORCEPALM,RAZORLEAF,LEECHSEED
+    Moves = SPIKYSHIELD,FORCEPALM,RAZORLEAF,LEECHSEED
     AbilityIndex = 1 # Aggravate
     Item = SITRUSBERRY
 #-------------------------------
@@ -1227,7 +1227,7 @@ Pokemon = KLEAVOR,70
     AbilityIndex = 0 # Swordplay
     Item = CHOICESCARF
 Pokemon = ABSOLUS,70
-    Moves = DIVINATION,PLANTDOUBT,INFINITEFORCE,FLAMETHROWER
+    Moves = MINDSAP,PLANTDOUBT,INFINITEFORCE,FLAMETHROWER
     AbilityIndex = 1 # Vengeance
     Item = LEFTOVERS
 Pokemon = ALAKAZAM,70
@@ -2972,7 +2972,7 @@ Pokemon = DONPHAN,45
     EV = 0,20,20,0,20,10
 Pokemon = SERPERIOR,45
     Moves = GALLINGSPIT,AUTUMNBLAST,SYNTHESIS,PETRIFY
-    AbilityIndex = 1 # Eccentric
+    AbilityIndex = 1 # Victory Molt
     Item = LEFTOVERS
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,10,0,20,10,0
@@ -3203,7 +3203,7 @@ Pokemon = SWANNA,56
 #-------------------------------
 [HIKER2,Rhys]
 Pokemon = CHESNAUGHT,57
-    Moves = BULKUP,SYNTHESIS,LEAFBLADE,SACREDSWORD
+    Moves = SPIKYSHIELD,SYNTHESIS,LEAFBLADE,SACREDSWORD
     AbilityIndex = 0 # Intimidate
     Item = LEFTOVERS
 Pokemon = NOCTOWL,57
@@ -5587,7 +5587,7 @@ Pokemon = GOLURK,65
     Item = GROUNDGEM
 #-------------------------------
 [FORMERCHAMP_Elise,Elise]
-Policies = PRESERVE_LAST_POKEMON,HAIL_TEAM
+Policies = HAIL_TEAM
 Flags = NoPerfect
 Pokemon = FROSLASS,70
     Moves = SNOWYSORROWS,AURORAVEIL,HAIL,FRIGIDJEALOUSY
@@ -5973,7 +5973,7 @@ Pokemon = GARDEVOIR,70
     Item = DEATHORB
 #-------------------------------
 [FORMERCHAMP_Elise,Elise,1]
-Policies = PRESERVE_LAST_POKEMON,HAIL_TEAM
+Policies = HAIL_TEAM
 Flags = NoPerfect
 Pokemon = FROSLASS,70
     Moves = SNOWYSORROWS,AURORAVEIL,HAIL,DESTINYBOND
@@ -6262,7 +6262,7 @@ Pokemon = SENSIBELLE,70
     EV = 20,0,10,0,0,20
 Pokemon = SERPERIOR,70
     Moves = LEAFSTORM,DRACOMETEOR,THUNDERBOLT,PETRIFY
-    AbilityIndex = 1 # Eccentric
+    AbilityIndex = 1 # Victory Molt
     Item = SITRUSBERRY
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,10,10,20,10,0
@@ -6371,7 +6371,7 @@ Pokemon = HYMNUS,70
     Item = LEFTOVERS
 Pokemon = SERPERIOR,70
     Moves = AUTUMNBLAST,SYNTHESIS,THUNDERBOLT,PETRIFY
-    AbilityIndex = 1 # Eccentric
+    AbilityIndex = 1 # Victory Molt
     Item = YACHEBERRY
 #-------------------------------
 [ANOTHERPOSSIBLEZAIN,Zain,1]
@@ -7623,7 +7623,7 @@ Pokemon = MILOTIC,59
 Policies = ECLIPSE_TEAM
 Pokemon = LURANTIS,59
     Moves = SCALESTORM,LEAFSTORM,WEATHERBURST,ECLIPSE
-    AbilityIndex = 0 # Contrary
+    AbilityIndex = 0 # Inversion
 Pokemon = TOUCANNON,59
     Moves = BEAKBLAST,ROOST,FLAREUP,WEATHERBURST
     AbilityIndex = 0 # Nesting
@@ -8107,7 +8107,7 @@ Flags = NoPerfect,PlayerTeam:SpeedyTurtle496
 Pokemon = TOGEKISS,70
     AbilityIndex = 1 # Serene Grace
 Pokemon = SERPERIOR,70
-    AbilityIndex = 1 # Eccentric
+    AbilityIndex = 1 # Victory Molt
 Pokemon = DRAGONITE,70
     AbilityIndex = 1 # Multiscale
 Pokemon = CINDERACE,70

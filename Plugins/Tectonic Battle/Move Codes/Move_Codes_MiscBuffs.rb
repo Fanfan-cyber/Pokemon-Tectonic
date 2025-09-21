@@ -96,7 +96,7 @@ end
 #===============================================================================
 class PokeBattle_Move_EnsureCriticalHits3 < PokeBattle_Move
     def pbEffectGeneral(user)
-        user.applyEffect(:LaserFocus, applyEffectDurationModifiers(4))
+        user.applyEffect(:LaserFocus, applyEffectDurationModifiers(4, user))
         @battle.pbDisplay(_INTL("{1} concentrated intensely!", user.pbThis))
     end
 
