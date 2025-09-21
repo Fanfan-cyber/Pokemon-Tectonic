@@ -401,11 +401,13 @@ class PokeBattle_Battler
             return false
         end
         if !@battle.trainerBattle? || TA.get(:disablerevive) || battle_tracker_get(:faint_healing_triggered)
+=begin
             if !TA.get(:disableperfect) && pbOwnedByPlayer? && (isSpecies?(:GARDEVOIR) && !$Trainer.has_species?(:GALLADE) ||
                                                                 isSpecies?(:GALLADE) && !$Trainer.has_species?(:GARDEVOIR) ||
                                                                 !isSpecies?(%i[GARDEVOIR GALLADE]) && !$Trainer.has_species?(%i[GARDEVOIR GALLADE]))
                 @battle.decision = 2
             end
+=end
             return false
         end
         return false if owner_side_all_fainted?
