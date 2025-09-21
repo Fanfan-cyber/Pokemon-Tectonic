@@ -401,15 +401,6 @@ BattleHandlers::AbilityOnSwitchIn.add(:LIGHTTRICK,
   }
 )
 
-BattleHandlers::AbilityOnSwitchIn.add(:ACTIONSTAR,
-  proc { |ability, battler, battle, aiCheck|
-    next 0 if aiCheck
-    battle.pbShowAbilitySplash(battler, ability)
-    battle.pbDisplay(_INTL("{1} is in the spotlight!", battler.pbThis))
-    battle.pbHideAbilitySplash(battler)
-  }
-)
-
 ##########################################
 # Screen setting abilities
 ##########################################
