@@ -12,7 +12,7 @@ LOYAL,5,Loyal,"Your team members gain 10% more EXP in battles. They also get a s
 MYSTIC,5,Mystic,"Whenever a member of your team uses a status move, they'll deal 25% more move damage next turn."
 NOBLE,5,Noble,"Your team members take 15% less move damage if they're using a status move this turn."
 RADIANT,5,Radiant,"Your team has 30% increased Sp. Def. Foes can't lower your team's Sp. Def."
-SCAVENGER,5,Scavenger,"Your team members berries heal them for 25% more (multiplicative) and their gem-boosted attacks deal 25% more damage (multiplicative)."
+SCAVENGER,5,Scavenger,"Your team members berries heal them for 50% more (multiplicative) and their gem-boosted attacks deal 25% more damage (multiplicative)."
 SCOURGE,5,Scourge,"Your able party members and battlers heal for 1/10th HP whenever a foe faints."
 SCRAPPER,5,Scrapper,"Your team has 30% increased Defense. Foes can't lower your team's Defense."
 SERENE,5,Serene,"Effects placed by your Pokemon last 50% longer (rounded down)."
