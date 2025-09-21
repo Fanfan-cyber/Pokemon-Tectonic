@@ -861,6 +861,7 @@ class PokeBattle_Battler
             next unless b.damageState.bubbleBarrier > 0
             @battle.pbDisplay(_INTL("The bubble surrounding {1} reduced the damage!", b.pbThis))
         end
+        #Action Star proc message
         if user.effectActive?(:ActionStar) && move.damagingMove? && move.calcType == :NORMAL
             @battle.pbDisplay(_INTL("{1} lands a flashy hit!", user.pbThis))
             user.disableEffect(:ActionStar)
