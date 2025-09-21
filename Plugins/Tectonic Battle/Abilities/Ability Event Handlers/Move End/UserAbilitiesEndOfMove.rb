@@ -643,3 +643,22 @@ BattleHandlers::UserAbilityEndOfMove.add(:FRIGHTENINGFANGS,
       end
   }
 )
+
+BattleHandlers::UserAbilityEndOfMove.add(:ACTIONSTAR,
+  proc { |ability, user, targets, move, battle, _switchedBattlers|
+    next if user.effectActive?(:ActionStar)
+
+    ability_proc = false
+    targets.each do |b| 
+      next if b.damageState.unaffected
+      next unless Effectiveness.super_effective?(b.damageState.typeMod)
+      ability_proc = true
+      break
+    end
+    next unless ability_proc
+    
+    battle.pbShowAbilitySplash(user, ability)
+    user.applyEffect(:ActionStar)
+    battle.pbHideAbilitySplash(user)
+  }
+)

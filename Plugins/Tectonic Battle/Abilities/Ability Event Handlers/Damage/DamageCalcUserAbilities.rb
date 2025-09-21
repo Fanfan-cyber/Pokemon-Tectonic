@@ -900,3 +900,13 @@ BattleHandlers::DamageCalcUserAbility.add(:TANGLINGVINES,
     end
   }
 )
+
+BattleHandlers::DamageCalcUserAbility.add(:ACTIONSTAR,
+  proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck|
+    next unless user.effectActive?(:ActionStar)
+    next unless move.damagingMove?
+    next unless type == :NORMAL
+    mults[:base_damage_multiplier] *= 1.3
+    user.aiLearnsAbility(ability) unless aiCheck
+  }
+)
