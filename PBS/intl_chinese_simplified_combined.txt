@@ -38441,7 +38441,7 @@ Proof of ownership for the house you bought in Prizca East.
 A small vial of gleaming powder. Can be used once to ensure the next wild Pokémon you find is shiny.
 一小瓶闪闪发光的粉末。可使用1次，下1次找到的精灵必定闪光。
 Infinitely mutating alien DNA. It allows a Pokémon with two abilities to switch abilities when used.
-无限变异的外星DNA。它可以让拥有两种特性的精灵切换能力。
+无限变异的外星DNA。它可以让拥有两种特性的精灵切换特性。
 A device which creates then launches regular Poké Balls, never running out.
 它是一种能制造并发射普通精灵球的装置，永远不会用完。
 A hi-tech recording device which creates a Battle Report by analyzing the results of momentous battles.
@@ -38882,7 +38882,7 @@ Speed Boost
 Stamina
 持久力
 Stance Change
-战斗切换
+战姿切换
 Static
 静电
 Steelworker
@@ -40553,7 +40553,7 @@ Boosts move damage by 50% while it has a non-volatile status condition. It suffe
 Traps foes with non-volatile status conditions.
 束缚处于稳定型异常的对手。
 It changes form to match the move it selected.
-根据使用的技能切换自身的状态。
+根据使用的技能改变自身的形态。
 Boosts Sp. Atk and Speed by 30% in rainstorm.
 雨天时，特攻和速度增加30%。
 Sets a Lucky Chant upon entry, protecting from critical hits for 10 turns.
@@ -41419,7 +41419,7 @@ Traps the foe during eclipse.
 Takes 30% less damage from Pokémon that are trapped.
 从被束缚的精灵那里受到的伤害减小30%。
 Foes whose stats are lowered by the Pokémon keep those lowered stats even after switching.
-被它减小能力的对手被切换后，也依然保留被减小的能力。
+被它减小能力等级的对手被替换后，也依然保留被减小的能力等级。
 The Pokémon's Speed is doubled while using recoil moves.
 使用反伤类技能时，该精灵的速度翻倍。
 Boosts the power of sound moves by 30%. Sound moves ignore the target's modified Defense and Sp. Def.
@@ -46356,7 +46356,7 @@ A rarer status that causes a Pokémon to be unable to do anything for 2 turns. P
 What are Volatile Statuses?
 什么是非稳定性异常？
 Volatile Status Conditions are similar to Status Conditions, except they will go away if the Pokémon switches out.
-非稳定性异常与异常状态类似，但如果精灵切换出去，它们就会消失。
+非稳定性异常与异常状态类似，但如果精灵替换出去，它们就会消失。
 Jinx
 不幸
 When jinxed, a Pokémon cannot Protect itself, and all attacks against it are guaranteed critical hits. Jinx wears off after 3 turns. Fairy-types do the most jinxing.
@@ -46388,7 +46388,7 @@ When barred, a Pokémon cannot use moves that don't share a type with themselves
 Trapping
 束缚
 When trapped, a Pokémon cannot switch out of battle. Includes manually switching, being forced out, or using a move like U-Turn.
-被束缚时，精灵无法退出战斗。包括手动切换、被迫退出或使用像急速折返这样的技能。
+被束缚时，精灵无法退出战斗。包括手动替换、被迫退出或使用像急速折返这样的技能。
 Substitute
 替身
 A substitute blocks attacks and status effects. It has HP equal to the amount of HP it took to create it. Sound tag moves ignore substitute.
@@ -46452,7 +46452,7 @@ Trainers will challenge you if they see you within 4 tiles of them. Avoid them b
 How to win?
 如何获胜？
 If you defeat a Trainer but have not 'perfected' the fight, it doesn't count as a win. Frequently using Switch is the key to winning, as switching also restores some HP.
-如果你打倒了1个训练师但没有“完美”地完成战斗，这不算作胜利。频繁使用切换是获胜的关键，因为切换还可以恢复一些HP（10%）。
+如果你打倒了1个训练师但没有“完美”地完成战斗，这不算作胜利。频繁使用替换是获胜的关键，因为替换还可以回复一些HP（10%）。
 Perfecting Fights
 完胜
 If you defeat a Trainer without any of your Pokémon fainting, you've 'perfected' the fight. They will leave forever and drop experience candy as a reward.
@@ -46510,7 +46510,7 @@ Attack Choice
 Avatars usually only have a few moves to choose from. They usually alternate between their moves on successive attacks.
 化身的技能数量是有限的，通常会连续或交替使用这些技能。
 Target Choice
-搜索
+目标选择
 A targeting reticle shows which of your battlers the Avatar wants to attack. It will switch to another battler, however, if their attack is made impossible.
 1个瞄准框显示化身想要攻击你的哪个精灵。然而，如果他们的攻击变得不可能，它会切换到另1个精灵。
 Empowered Moves

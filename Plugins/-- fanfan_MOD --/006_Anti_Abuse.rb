@@ -71,7 +71,7 @@ module AntiAbuse
   CHEAT_METHOD    = [:pbenabledebug, :pbDebugMenu]
   CHEAT_PROCESS   = %w[nw.exe cheatengine-i386.exe cheatengine-x86_64.exe cheatengine-x86_64-SSE4-AVX2.exe GearNT.exe].freeze
   FILES_TO_DELETE = ["Save Game", "Saves", "Achievements.dat", "Time Capsule.dat"].freeze
-  BLACK_NAME      = %w[咸肉 咸鱼腌制奥义].freeze
+  BLACK_NAME      = %w[咸肉 咸鱼腌制奥义 太水了].freeze
   @@debug_control = false
 
   def self.print_update_log

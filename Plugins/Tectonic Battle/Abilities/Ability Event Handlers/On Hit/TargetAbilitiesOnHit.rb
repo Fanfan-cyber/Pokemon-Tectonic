@@ -725,6 +725,7 @@ BattleHandlers::TargetAbilityOnHit.add(:BACKWASH,
 #########################################
 # Other punishment random triggers
 #########################################
+=begin
 BattleHandlers::TargetAbilityOnHit.add(:CURSEDTAIL,
     proc { |ability, user, target, move, battle, aiCheck, aiNumHits|
         next if user.fainted?
@@ -747,29 +748,27 @@ BattleHandlers::TargetAbilityOnHit.add(:CURSEDTAIL,
         battle.pbHideAbilitySplash(target)
     }
 )
+=end
 
 BattleHandlers::TargetAbilityOnHit.add(:CURSEDTAIL,
     proc { |ability, user, target, move, battle, aiCheck, aiNumHits|
         next if user.fainted?
         next unless move.physicalMove?
         next if user.effectActive?(:Curse)
-        warned = user.battle_tracker_get(:warned)
+        warned_battlers = user.battle_tracker_get(:warned)
+        warned = warned_battlers.include?(target.unique_id)
         if aiCheck
-            #if user.effectActive?(:PhysCurseWarned) || aiNumHits > 1
-            if warned.include?(target.unique_id) || aiNumHits > 1
+            if warned || aiNumHits > 1
                 next -30
             else
                 next -10
             end
         end
         battle.pbShowAbilitySplash(target, ability)
-        #if user.effectActive?(:PhysCurseWarned)
-        if warned.include?(target.unique_id)
+        if warned
             user.applyEffect(:Curse)
-            #user.disableEffect(:PhysCurseWarned)
         else
-            #user.applyEffect(:PhysCurseWarned)
-            warned << target.unique_id
+            warned_battlers << target.unique_id
             battle.pbDisplay(_INTL("{1} was warned not to attack {2} again!", user.pbThis, target.pbThis(true)))
         end
         battle.pbHideAbilitySplash(target)
