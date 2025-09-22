@@ -783,3 +783,32 @@ class PokeBattle_Move_JinxTarget < PokeBattle_Move
         return getJinxEffectScore(user, target)
     end
 end
+
+class PokeBattle_Move_ApplyReducingSyrupToTarget < PokeBattle_Move
+    def pbFailsAgainstTarget?(user, target, show_message)
+        return false if damagingMove?
+        if target.effectActive?(:ReducingSyrup)
+            @battle.pbDisplay(_INTL("But it failed, since {1} is already covered in syrup!", target.pbThis(true))) if show_message
+            return true
+        end
+        return false
+    end
+
+    def pbEffectAgainstTarget(user, target)
+        return if damagingMove?
+        target.applyEffect(:ReducingSyrup, applyEffectDurationModifiers(3, user))
+    end
+
+    def pbAdditionalEffect(user, target)
+        return if target.damageState.substitute
+        return if target.effectActive?(:ReducingSyrup)
+        target.applyEffect(:ReducingSyrup, applyEffectDurationModifiers(3, user))
+    end
+
+    def getEffectScore(user, target)
+        return 0 if target.effectActive?(:ReducingSyrup)
+        return 40
+    end
+end
+
+    
