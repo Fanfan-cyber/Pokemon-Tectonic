@@ -129,7 +129,7 @@ class PokemonBag_Scene
       bitmapWidth = @pocket_unselected_bitmap.bitmap.width
       bitmapHeight = @pocket_unselected_bitmap.bitmap.height
       @sprites["pocketicon"].bitmap.blt(6,6,@pocket_unselected_bitmap.bitmap,Rect.new(0,0,bitmapWidth/2,bitmapHeight))
-      @sprites["pocketicon"].bitmap.blt(6,6+bitmapHeight+2,@pocket_unselected_bitmap.bitmap,Rect.new(bitmapWidth/2,0,bitmapWidth/2,bitmapHeight))
+      @sprites["pocketicon"].bitmap.blt(6,6+bitmapHeight,@pocket_unselected_bitmap.bitmap,Rect.new(bitmapWidth/2,0,bitmapWidth/2,bitmapHeight))
       if @choosing && @filterlist
         for i in 1...@bag.pockets.length
           if @filterlist[i].length == 0
