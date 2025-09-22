@@ -2492,8 +2492,9 @@ GameData::BattleEffect.register_effect(:Battler, {
     :ticks_down => true,
     :baton_passed => true,
     :avatars_purge => true,
-    :apply_proc => proc do |battle, battler, _value|
+    :apply_proc => proc do |battle, battler, value|
         battle.pbDisplay(_INTL("{1} was covered in a sticky syrup!", battler.pbThis))
+        battle.pbDisplay(_INTL("It'll last for {1} more turns!", value-1))
     end,
     :disable_proc => proc do |battle, battler|
         battle.pbDisplay(_INTL("{1} got rid of the sticky syrup!", battler.pbThis))
