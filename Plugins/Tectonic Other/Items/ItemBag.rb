@@ -42,17 +42,20 @@ class PokemonBag
     def reassignPockets
       hashOfAllItems = {}
       for i in 0..PokemonBag.numPockets
+        if @pockets[i]
           @pockets[i].each do |item_element|
-              itemID = item_element[0]
-              next unless GameData::Item.try_get(itemID)
-              itemCount = item_element[1]
-              if hashOfAllItems.has_key?(itemID)
-                  hashOfAllItems[itemID] += itemCount
-              else
-                  hashOfAllItems[itemID] = itemCount
-              end
+            itemID = item_element[0]
+            next unless GameData::Item.try_get(itemID)
+            itemCount = item_element[1]
+            if hashOfAllItems.has_key?(itemID)
+                hashOfAllItems[itemID] += itemCount
+            else
+                hashOfAllItems[itemID] = itemCount
+            end
           end
-          @pockets[i] = []
+        end
+        @pockets[i] = []
+        @choices[i] = 0
       end
   
       hashOfAllItems.each do |key, value|
