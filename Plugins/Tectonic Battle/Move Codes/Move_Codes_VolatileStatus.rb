@@ -767,19 +767,51 @@ class PokeBattle_Move_JinxTarget < PokeBattle_Move
         end
         return false
     end
-
+    
     def pbEffectAgainstTarget(user, target)
         return if damagingMove?
         target.applyEffect(:Jinxed, applyEffectDurationModifiers(DEFAULT_JINX_DURATION, user))
     end
-
+    
     def pbAdditionalEffect(user, target)
         return if target.damageState.substitute
         return if target.effectActive?(:Jinxed)
         target.applyEffect(:Jinxed, applyEffectDurationModifiers(DEFAULT_JINX_DURATION, user))
     end
-
+    
     def getEffectScore(user, target)
         return getJinxEffectScore(user, target)
     end
 end
+
+#===============================================================================
+# User applies the Reducing Syrup effect for 3 turns
+#===============================================================================
+class PokeBattle_Move_ApplyReducingSyrupToTarget < PokeBattle_Move
+    def pbFailsAgainstTarget?(user, target, show_message)
+        return false if damagingMove?
+        if target.effectActive?(:ReducingSyrup)
+            @battle.pbDisplay(_INTL("But it failed, since {1} is already covered in syrup!", target.pbThis(true))) if show_message
+            return true
+        end
+        return false
+    end
+
+    def pbEffectAgainstTarget(user, target)
+        return if damagingMove?
+        target.applyEffect(:ReducingSyrup, applyEffectDurationModifiers(3, user))
+    end
+
+    def pbAdditionalEffect(user, target)
+        return if target.damageState.substitute
+        return if target.effectActive?(:ReducingSyrup)
+        target.applyEffect(:ReducingSyrup, applyEffectDurationModifiers(3, user))
+    end
+
+    def getEffectScore(user, target)
+        return 0 if target.effectActive?(:ReducingSyrup)
+        return getMultiStatDownEffectScore([target.highestStat, 2], user, target) * 1.45 # 100% on first turn, 30% on second, 15% on third
+    end
+end
+
+    
