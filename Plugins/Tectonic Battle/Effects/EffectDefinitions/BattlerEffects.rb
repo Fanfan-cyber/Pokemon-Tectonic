@@ -2499,9 +2499,10 @@ GameData::BattleEffect.register_effect(:Battler, {
         battle.pbDisplay(_INTL("{1} got rid of the sticky syrup!", battler.pbThis))
     end,
     :expire_proc => proc do |battle, battler|
-        battle.pbDisplay(_INTL("The sticky syrup around {1} disappeared!", battler.pbThis))
+        battle.pbDisplay(_INTL("The sticky syrup around {1} disappeared!", battler.pbThis(true)))
     end,
-    :eor_proc => proc do |_battle, battler, _value|
+    :eor_proc => proc do |battle, battler, _value|
+        battle.pbDisplay(_INTL("The sticky syrup reduced {1}'s highest stat!", battler.pbThis(true)))
         battler.pbLowerStatStep(battler.highestStat, 2)
         battler.pbItemStatRestoreCheck
     end,
