@@ -934,7 +934,8 @@ BattleHandlers::TargetAbilityOnHit.copy(:MULTISCALE,:DOMINEERING,:SHADOWSHIELD)
 BattleHandlers::TargetAbilityOnHit.add(:COLORCOLLECTOR,
     proc { |ability, user, target, move, battle, aiCheck, aiNumHits|
         next if target.fainted?
-
+        next -10 if aiCheck
+        
         type = move.calcType
 
         next if target.pbHasType?(type)
