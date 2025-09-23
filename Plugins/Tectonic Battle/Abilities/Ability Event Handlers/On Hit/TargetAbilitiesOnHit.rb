@@ -54,7 +54,7 @@ BattleHandlers::TargetAbilityOnHit.add(:GRAVITYWELL,
         else
             battle.pbShowAbilitySplash(target, ability)
             battle.pbAnimation(:GRAVITY, target, nil, 0)
-            battle.field.applyEffect(:Gravity, applyEffectDurationModifiers(4, battler))
+            battle.field.applyEffect(:Gravity, applyEffectDurationModifiers(4, target))
             battle.pbHideAbilitySplash(target)
         end
     }
