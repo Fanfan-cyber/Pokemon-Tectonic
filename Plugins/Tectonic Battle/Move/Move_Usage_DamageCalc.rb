@@ -369,8 +369,10 @@ class PokeBattle_Move
             stab = 1.5
             if user.shouldAbilityApply?(:ADAPTED,checkingForAI)
                 stab *= 4.0/3.0
+                user.aiLearnsAbility(:ADAPTED)
             elsif user.shouldAbilityApply?(:ULTRAADAPTED,checkingForAI)
                 stab *= 3.0/2.0
+                user.aiLearnsAbility(:ULTRAADAPTED)
             end
             multipliers[:final_damage_multiplier] *= stab
         end
