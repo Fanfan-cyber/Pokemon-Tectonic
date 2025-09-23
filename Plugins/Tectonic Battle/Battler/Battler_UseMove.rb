@@ -896,6 +896,18 @@ class PokeBattle_Battler
             next unless b.damageState.bubbleBarrier > 0
             @battle.pbDisplay(_INTL("The bubble surrounding {1} reduced the damage!", b.pbThis))
         end
+        #Action Star proc message
+        if user.effectActive?(:ActionStar) && move.damagingMove? && move.calcType == :NORMAL
+            @battle.pbDisplay(_INTL("{1} lands a flashy hit!", user.pbThis))
+            user.disableEffect(:ActionStar)
+        end
+        #Tangling Vines proc message
+        targets.each do |t|
+            if t.pointsAt?(:TanglingVines, user)
+                user.battle.pbDisplay(_INTL("The tangling vines strengthened the hit!"))
+                break #Only trigger once, even if multiple targets are affected
+            end
+        end
         # Messages about missed target(s) (relevant for multi-target moves only)
         unless move.pbRepeatHit?
             targets.each do |b|

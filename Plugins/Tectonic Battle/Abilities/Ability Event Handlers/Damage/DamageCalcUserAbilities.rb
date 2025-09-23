@@ -36,7 +36,7 @@ BattleHandlers::DamageCalcUserAbility.add(:ANALYTIC,
 BattleHandlers::DamageCalcUserAbility.add(:DEFEATIST,
   proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck, backfire|
     if !user.belowHalfHealth? || backfire
-      mults[:attack_multiplier] /= 2
+      mults[:attack_multiplier] *= 0.5
       user.aiLearnsAbility(ability) unless aiCheck
     end
   }
@@ -45,7 +45,7 @@ BattleHandlers::DamageCalcUserAbility.add(:DEFEATIST,
 BattleHandlers::DamageCalcUserAbility.add(:PERFECTIONIST,
   proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck, backfire|
     if !target.damageState.critical || backfire # TODO: Ai check
-      mults[:final_damage_multiplier] /= 2
+      mults[:final_damage_multiplier] *= 0.5
       user.aiLearnsAbility(ability) unless aiCheck
     end
   }
@@ -302,7 +302,7 @@ BattleHandlers::DamageCalcUserAbility.copy(:EXPERTISE,:NEUROFORCE)
 BattleHandlers::DamageCalcUserAbility.add(:TINTEDLENS,
   proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck, backfire|
     if Effectiveness.resistant?(typeModToCheck(user.battle, type, user, target, move, aiCheck)) || backfire
-      mults[:final_damage_multiplier] *= 2
+      mults[:final_damage_multiplier] *= 2.0
       user.aiLearnsAbility(ability) unless aiCheck
     end
   }
@@ -320,7 +320,7 @@ BattleHandlers::DamageCalcUserAbility.add(:SNIPER,
 BattleHandlers::DamageCalcUserAbility.add(:STAKEOUT,
   proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck, backfire|
     if target.effectActive?(:SwitchedIn) || backfire
-      mults[:attack_multiplier] *= 2
+      mults[:attack_multiplier] *= 2.0
       user.aiLearnsAbility(ability) unless aiCheck
     end
   }
@@ -495,7 +495,7 @@ BattleHandlers::DamageCalcUserAbility.add(:UNCANNYCOLD,
 BattleHandlers::DamageCalcUserAbility.add(:WATERBUBBLE,
   proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck, backfire|
     if type == :WATER || backfire
-      mults[:attack_multiplier] *= 2
+      mults[:attack_multiplier] *= 2.0
       user.aiLearnsAbility(ability) unless aiCheck
     end
   }
@@ -663,7 +663,7 @@ BattleHandlers::DamageCalcUserAbility.add(:SPACEINTERLOPER,
 
 BattleHandlers::DamageCalcUserAbility.add(:TIMEINTERLOPER,
   proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck, backfire|
-      mults[:attack_multiplier] *= 3.0 / 4.0
+      mults[:attack_multiplier] *= 0.75
       user.aiLearnsAbility(ability) unless aiCheck
   }
 )
@@ -881,7 +881,7 @@ BattleHandlers::DamageCalcUserAbility.add(:RELUCTANTWARRIOR,
   proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck, backfire|
     if user.belowHalfHealth? || backfire
       mults[:attack_multiplier] *= 1.3
-	  user.aiLearnsAbility(ability) unless aiCheck
+	    user.aiLearnsAbility(ability) unless aiCheck
     end
   }
 )
@@ -890,10 +890,16 @@ BattleHandlers::DamageCalcUserAbility.add(:TANGLINGVINES,
   proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck, backfire|
     if target.pointsAt?(:TanglingVines, user) || backfire
       mults[:base_damage_multiplier] *= 1.3
-      unless aiCheck
-        #user.battle.pbDisplay(_INTL("The tangling vines strengthened the hit!"))
-        user.aiLearnsAbility(ability)
-      end
+      user.aiLearnsAbility(ability) unless aiCheck
+    end
+  }
+)
+
+BattleHandlers::DamageCalcUserAbility.add(:ACTIONSTAR,
+  proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck, backfire|
+    if user.effectActive?(:ActionStar) && move.damagingMove? && type == :NORMAL || backfire
+      mults[:base_damage_multiplier] *= 1.3
+      user.aiLearnsAbility(ability) unless aiCheck
     end
   }
 )

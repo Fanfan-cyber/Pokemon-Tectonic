@@ -568,7 +568,7 @@ Flags = RainstormSynergy
 #-------------------------------
 [SYNCHRONIZE]
 Name = Synchronize
-Description = When the Pokémon is given a non-volatile status condition by another Pokémon, that Pokemon also gets that condition.
+Description = When the Pokémon is given a non-volatile status condition by another Pokémon, that Pokémon also gets that condition.
 #-------------------------------
 [TANGLINGHAIR]
 Name = Tangling Hair

@@ -14,6 +14,10 @@ Name = Acid Rain
 Description = At the end of each turn in rainstorm, each Pokémon not immune to rainstorm has their Defense and Sp. Def lowered.
 Flags = RainstormSynergy
 #-------------------------------
+[ACTIONSTAR]
+Name = Action Star
+Description = After landing a super-effective or hyper-effective hit, deals 30% more damage on its next Normal-type move.
+#-------------------------------
 [ADAPTED]
 Name = Adapted
 Description = Powers up moves of the same type by 33%.

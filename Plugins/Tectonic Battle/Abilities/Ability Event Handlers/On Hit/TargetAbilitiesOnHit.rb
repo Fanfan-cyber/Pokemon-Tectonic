@@ -54,7 +54,7 @@ BattleHandlers::TargetAbilityOnHit.add(:GRAVITYWELL,
         else
             battle.pbShowAbilitySplash(target, ability)
             battle.pbAnimation(:GRAVITY, target, nil, 0)
-            battle.field.applyEffect(:Gravity, applyEffectDurationModifiers(4, battler))
+            battle.field.applyEffect(:Gravity, applyEffectDurationModifiers(4, target))
             battle.pbHideAbilitySplash(target)
         end
     }
@@ -341,7 +341,7 @@ BattleHandlers::TargetAbilityOnHit.add(:CONSTRICTOR,
         next if user.effectActive?(:Constricted)
         next if target.effectActive?(:SwitchedIn)
         battle.pbShowAbilitySplash(target, ability)
-        user.applyEffect(:Constricted, applyEffectDurationModifiers(3, battler))
+        user.applyEffect(:Constricted, applyEffectDurationModifiers(3, target))
         user.pointAt(:TrappingUser, target)
         battle.pbHideAbilitySplash(target)
   }
@@ -356,7 +356,7 @@ BattleHandlers::TargetAbilityOnHit.add(:MAGNETTRAP,
         next if user.effectActive?(:Magnetized)
         next if target.effectActive?(:SwitchedIn)
         battle.pbShowAbilitySplash(target, ability)
-        user.applyEffect(:Magnetized, applyEffectDurationModifiers(3, battler))
+        user.applyEffect(:Magnetized, applyEffectDurationModifiers(3, target))
         user.pointAt(:TrappingUser, target)
         battle.pbHideAbilitySplash(target)
   }
@@ -973,7 +973,8 @@ BattleHandlers::TargetAbilityOnHit.copy(:MULTISCALE,:DOMINEERING,:SHADOWSHIELD)
 BattleHandlers::TargetAbilityOnHit.add(:COLORCOLLECTOR,
     proc { |ability, user, target, move, battle, aiCheck, aiNumHits|
         next if target.fainted?
-
+        next -10 if aiCheck
+        
         type = move.calcType
 
         next if target.pbHasType?(type)

@@ -2470,7 +2470,7 @@ Pokemon = BUNEARY,70
 Pokemon = WOOLOO,70
     AbilityIndex = 0 # Fluffy
 Pokemon = BUNEARY,70
-    AbilityIndex = 0 # Unafraid
+    AbilityIndex = 0 # Action Star
 Pokemon = PIKACHU,70
     AbilityIndex = 1 # Break Through
 Pokemon = BUNEARY,70
@@ -3856,8 +3856,8 @@ Pokemon = KROKOROK,30
     Moves = FINALIZE,MUDSHOT,RISINGPOWER,BRUTALSWING
     AbilityIndex = 0 # Tough
 Pokemon = LOPUNNY,30
-    Moves = HAREHEROICS,PUMMEL,DROPKICK,QUICKATTACK
-    AbilityIndex = 0 # Unafraid
+    Moves = HAREHEROICS,FROLIC,DROPKICK,BULLETCHARGE
+    AbilityIndex = 0 # Action Star
 #-------------------------------
 [SKIER_F2,Valeriya]
 Pokemon = ALCREMIE,30
