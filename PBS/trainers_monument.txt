@@ -1640,7 +1640,7 @@ Pokemon = TOGEDEMARU,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 15,20,0,10,20,5
 Pokemon = HAEROBIC,70
-    Moves = EXTREMESPEED,UTURN,CLOSECOMBAT,ICEPUNCH
+    Moves = EXTREMESPEED,UTURN,CLOSECOMBAT,GLACIALRAM
     AbilityIndex = 1 # Stubborn
     Item = FIGHTINGGEM
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -2458,7 +2458,7 @@ Pokemon = TOWERPODA,70
 #-------------------------------
 [REPORTER2,Sabine]
 Pokemon = HAEROBIC,70
-    Moves = EXTREMESPEED,PLAYROUGH,CLOSECOMBAT,FAKEOUT
+    Moves = EXTREMESPEED,ICEBERGBASH,CLOSECOMBAT,FAKEOUT
     AbilityIndex = 1 # Stubborn
     Item = FOCUSSASH
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def

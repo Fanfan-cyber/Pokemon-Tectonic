@@ -3856,7 +3856,7 @@ Pokemon = KROKOROK,30
     Moves = FINALIZE,MUDSHOT,RISINGPOWER,BRUTALSWING
     AbilityIndex = 0 # Tough
 Pokemon = LOPUNNY,30
-    Moves = HAREHEROICS,FROLIC,DROPKICK,BULLETCHARGE
+    Moves = HAREHEROICS,ICEPUNCH,DROPKICK,NIGHTSLASH
     AbilityIndex = 0 # Action Star
 #-------------------------------
 [SKIER_F2,Valeriya]
