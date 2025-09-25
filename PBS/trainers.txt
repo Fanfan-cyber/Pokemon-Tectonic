@@ -1481,7 +1481,7 @@ Pokemon = SHEDINJA,28
 #-------------------------------
 [POKEMONRANGER_M,Ivan]
 Pokemon = MTANGELA,27
-    Moves = GLARE,ANCIENTPOWER,RAZORLEAF,SLUDGE
+    Moves = GLARE,ANCIENTPOWER,NATUREPOWER,SLUDGE
     AbilityIndex = 0 # Petrifying
     Item = SITRUSBERRY
 Pokemon = CORVISQUIRE,28
@@ -5718,7 +5718,7 @@ Pokemon = DRACOZOLT,70
 Flags = NoPerfect
 Pokemon = GALVANTULA,70
     Name = Dr. Silk
-    Moves = STICKYWEB,SCALESTORM,VOLTSWITCH,THUNDER
+    Moves = STICKYWEB,BUGBUZZ,VOLTSWITCH,THUNDER
     AbilityIndex = 0 # Ocular
     Item = FOCUSSASH
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -5941,9 +5941,9 @@ Pokemon = INDEEDEE,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,0,20,20
 Pokemon = PERSIAN,70
-    Moves = FAKEOUT,CHACHING,SWORDSDANCE,AERIALACE
+    Moves = FAKEOUT,CHACHING,SWORDSDANCE,PLAYROUGH
     AbilityIndex = 1 # All That Glitters
-    Item = NORMALGEM,FLYINGGEM
+    Item = NORMALGEM,FAIRYGEM
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 0,20,0,20,20,10
 Pokemon = MIMIKYU,70
@@ -6392,7 +6392,7 @@ Pokemon = SPIRITOMB,70
     AbilityIndex = 1 # Oddity
     Item = REINFORCINGROD
 Pokemon = LEDIAN,70
-    Moves = XSCISSOR,SUPERPOWER,KNOCKOFF,ACROBATICS
+    Moves = LUNGE,SUPERPOWER,KNOCKOFF,ACROBATICS
     AbilityIndex = 1 # Star Guardian
 Pokemon = COMFEY,70
     Moves = DRAININGKISS,GIGADRAIN,TAILWIND
@@ -7303,7 +7303,7 @@ Pokemon = AVALUGG,56
     AbilityIndex = 1 # Bitter Cold
     Item = LIGHTCLAY
 Pokemon = CRAMORANT,57
-    Moves = SURF,SKYFALL,WEATHERBURST,SUPERPOWER
+    Moves = SURF,SKYFALL,WEATHERBURST,THROATCHOP
     AbilityIndex = 0 # Gulp Missile
 Pokemon = MMANTINE,58
     Moves = WEATHERBURST,TOXICTASTE,IRONHEAD,AGONIZE
@@ -7509,7 +7509,7 @@ Pokemon = HGOODRA,60
 #-------------------------------
 [POKEMONRANGER_M,Alastar]
 Pokemon = ARBOK,60
-    Moves = GLARE,POISONJAB,THROATCHOP,OVERHEAT
+    Moves = GLARE,POISONJAB,THROATCHOP,FLAMETHROWER
     AbilityIndex = 0 # Intimidate
 Pokemon = FARIGIRAF,60
     Moves = PIERCINGDOUBT,FOULPLAY,HUMBLE,FLASHCANNON
@@ -7629,7 +7629,7 @@ Pokemon = TOUCANNON,59
     AbilityIndex = 0 # Nesting
     Item = ROCKYHELMET
 Pokemon = DRAGALGE,59
-    Moves = CROSSPOISON,CALAMITOUSSLASH,DRAGONTAIL,RECOVER
+    Moves = ACIDBREACH,CALAMITOUSSLASH,DRAGONTAIL,RECOVER
     AbilityIndex = 0 # Deterrent
     Item = BLACKSLUDGE
 Pokemon = VENOMOTH,59
@@ -8368,7 +8368,7 @@ Policies = CURSE_WILD_TOTEM
 Pokemon = TAUROS,70
     Item = NORMALGEM
 Pokemon = AEXEGGUTOR,70
-    Moves = DRAGONHAMMER,BULLETSEED,DRAGONDANCE,ARMTHRUST
+    Moves = DRAGONHAMMER,BULLETSEED,DRAGONDANCE,ROCKBLAST
     AbilityIndex = 1 # Skill Link
     Item = WHITEHERB
 Pokemon = APERSIAN,70
