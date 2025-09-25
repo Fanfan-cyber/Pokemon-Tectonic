@@ -948,8 +948,7 @@ class PokeBattle_Battler
             if !user.poisoned?
                 # Secretion Secret
                 targets.each do |target|
-                    next if battle.choices[user.index][2].foretoldMove?
-                    next if target.damageState.unaffected
+                    next if target.damageState.unaffected || move.foretoldMove?
                     next unless target.hasActiveAbility?(:SECRETIONSECRET) && user.opposes?(target)
                     battle.pbShowAbilitySplash(target, :SECRETIONSECRET)
                     user.applyPoison(target, nil) if user.canPoison?(target, true)
