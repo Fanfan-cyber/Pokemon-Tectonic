@@ -5718,7 +5718,7 @@ Pokemon = DRACOZOLT,70
 Flags = NoPerfect
 Pokemon = GALVANTULA,70
     Name = Dr. Silk
-    Moves = STICKYWEB,SCALESTORM,VOLTSWITCH,THUNDER
+    Moves = STICKYWEB,BUGBUZZ,VOLTSWITCH,THUNDER
     AbilityIndex = 0 # Ocular
     Item = FOCUSSASH
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
