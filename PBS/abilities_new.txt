@@ -14,6 +14,10 @@ Name = Acid Rain
 Description = At the end of each turn in rainstorm, each Pokémon not immune to rainstorm has their Defense and Sp. Def lowered.
 Flags = RainstormSynergy
 #-------------------------------
+[ACTIONSTAR]
+Name = Action Star
+Description = After landing a super-effective or hyper-effective hit, deals 30% more damage on its next Normal-type move.
+#-------------------------------
 [ADAPTED]
 Name = Adapted
 Description = Powers up moves of the same type by 33%.
@@ -36,7 +40,7 @@ Description = Slips past all types of Spikes hazards. Deals 50% more damage to t
 #-------------------------------
 [AGGRAVATE]
 Name = Aggravate
-Description = HP-fraction-based damage effects deal 50% more damage to opponents.
+Description = HP-fraction-based damage effects deal 35% more damage to opponents.
 #-------------------------------
 [ALLCONSUMING]
 Name = All-Consuming
@@ -51,10 +55,6 @@ Flags = MultipleItems
 Name = Anarchic
 Description = Doubles Speed in eclipse.
 Flags = EclipseSynergy
-#-------------------------------
-[ANCESTRALDANCE]
-Name = Ancestral Dance
-Description = Raises Defense and Sp. Def whenever any Pokémon uses a dance move. Caps out at +4.
 #-------------------------------
 [APPREHENSIVE]
 Name = Apprehensive
@@ -150,7 +150,7 @@ Description = Your Poké Balls are 50% more effective.
 #-------------------------------
 [BARRIERMAKER]
 Name = Barrier Maker
-Description = Sets a Reflect for 4 turns upon entry.
+Description = Sets a Reflect for four turns upon entry.
 #-------------------------------
 [BATTLEHARDENED]
 Name = Battle-Hardened
@@ -318,10 +318,6 @@ Description = It changes form to match the move it selected.
 Name = Cloudburst
 Description = Boosts Sp. Atk and Speed by 30% in rainstorm.
 Flags = RainstormSynergy
-#-------------------------------
-[CLOVERSONG]
-Name = Clover Song
-Description = Sets a Lucky Chant upon entry, protecting from critical hits for 10 turns.
 #-------------------------------
 [CLUMSYKINESIS]
 Name = Clumsy Kinesis
@@ -527,10 +523,6 @@ Name = Earthshaker
 Description = In sandstorm, the Pokémon's Attack is boosted by 30%.
 Flags = SandstormSynergy
 #-------------------------------
-[ECCENTRIC]
-Name = Eccentric
-Description = If its stats would be changed, instead they're changed half as much in the opposite direction (rounded up).
-#-------------------------------
 [ECHO]
 Name = Echo
 Description = Repeats another Pokémon's sound and pulse moves immediately at 50% power.
@@ -573,7 +565,7 @@ Description = The Pokemon's Fighting-type attacks become spread and deal 35% mor
 #-------------------------------
 [EVENTHORIZON]
 Name = Event Horizon
-Description = Changes the weather to star storm, which increases its damage over time. Lingers for 3 turns after leaving.
+Description = Changes the weather to star storm, which increases its damage over time. Lingers for three turns after leaving.
 Flags = SandstormSynergy
 #-------------------------------
 [EXCAVATOR]
@@ -679,7 +671,7 @@ Description = Immune to Poison-type moves, and boosts Defense and Sp. Def when h
 #-------------------------------
 [FINESUGAR]
 Name = Fine Sugar
-Description = Restores 1/8 HP in sunshine, 1/4 when hit by Fire-type moves. Loses 1/8 in rainstorm, takes 25% more from Water-type moves.
+Description = Restores 1/8th HP in sunshine, 1/4th when hit by Fire-type moves. Loses 1/8th in rainstorm, takes 25% more from Water-type moves.
 Flags = SunshineSynergy
 #-------------------------------
 [FIREFESTIVAL]
@@ -696,7 +688,7 @@ Description = Powers up priority moves by 30%.
 #-------------------------------
 [FITTOSURVIVE]
 Name = Fit to Survive
-Description = Upon entry, summons Natural Protection for 4 turns.
+Description = Upon entry, summons Natural Protection for four turns.
 #-------------------------------
 [FLAMEWINGS]
 Name = Flame Wings
@@ -721,7 +713,7 @@ Description = Doubles Attack, but the Pokémon becomes dizzy after attacking.
 #-------------------------------
 [FLUTTERTOTEM]
 Name = Flutter Totem
-Description = Upon entry, summons a Cruel Cocoon on the Pokémon's side for 6 turns.
+Description = Upon entry, summons a Cruel Cocoon on the Pokémon's side for six turns.
 #-------------------------------
 [FLYBY]
 Name = Fly By
@@ -733,7 +725,7 @@ Description = Grants immunity to Bug-type moves, and raises Attack and Sp. Atk w
 #-------------------------------
 [FOGTOTEM]
 Name = Fog Totem
-Description = Upon entry, summons a Misdirecting Fog on the Pokémon's side for 6 turns.
+Description = Upon entry, summons a Misdirecting Fog on the Pokémon's side for six turns.
 #-------------------------------
 [FOLLOWTHROUGH]
 Name = Follow Through
@@ -763,6 +755,10 @@ Description = The Pokémon changes type to that of the move it's about to use. H
 Name = Friend to All
 Description = Counts as every tribe.
 Flags = Immutable
+#-------------------------------
+[FRIGHTENINGFANGS]
+Name = Frightening Fangs
+Description = After using a Bite move, lowers the target's highest attacking stat by 2 steps.
 #-------------------------------
 [FRIGIDREFLECTION]
 Name = Frigid Reflection
@@ -902,7 +898,7 @@ Description = Immune to Dark-type moves, and boosts Attack and Sp. Atk when hit 
 #-------------------------------
 [HEATDEATH]
 Name = Heat Death
-Description = Changes the weather to ice age, which damages and prevents healing. Lingers for 3 turns after leaving.
+Description = Changes the weather to ice age, which damages and prevents healing. Lingers for three turns after leaving.
 Flags = HailSynergy
 #-------------------------------
 [HEATSAVOR]
@@ -1063,6 +1059,10 @@ Name = Inner Light
 Description = Summons sunshine for four turns when hit by an attack.
 Flags = SunshineSynergy
 #-------------------------------
+[INSECTCOLLECTOR]
+Name = Insect Collector
+Description = Hits opponent with Covet when switched out.
+#-------------------------------
 [INSIGHTAURA]
 Name = Insight Aura
 Description = Upon entry, creates an Insight Room for four turns, giving everyone a fifth move.
@@ -1075,9 +1075,17 @@ Description = Special moves have a 30% chance to poison targets.
 Name = Introvert
 Description = Takes 30% less damage until the first time it uses an attacking move.
 #-------------------------------
+[INVERSION]
+Name = Inversion
+Description = If its stats would be changed, instead they're changed half as much in the opposite direction (rounded up).
+#-------------------------------
 [INVESTIGATOR]
 Name = Investigator
 Description = At the beginning of each turn, gives clues about a foe's plan.
+#-------------------------------
+[IONIZEDALLOY]
+Name = Ionized Alloy
+Description = The Pokémon gains the Electric type in a rainstorm.
 #-------------------------------
 [IRONHEEL]
 Name = Iron Heel
@@ -1141,7 +1149,7 @@ Flags = CritImmunity
 #-------------------------------
 [LIFELINE]
 Name = Lifeline
-Description = At the end of each turn, heals self by 1/20 and a party member by the amount the Pokémon was healed.
+Description = At the end of each turn, heals self by 1/20th and a party member by the amount the Pokémon was healed.
 #-------------------------------
 [LIGHTTRICK]
 Name = Light Trick
@@ -1301,9 +1309,9 @@ Name = Moonlighter
 Description = When hit in moonglow, steals the attacker's item, or knocks it away.
 Flags = MoonglowSynergy
 #-------------------------------
-[MOTHBURGLAR]
-Name = Moth Burglar
-Description = Hits opponent with Thief when switched out.
+[MULTIHEADED]
+Name = Multiheaded
+Description = While the Pokémon is below half health, takes 33% less damage from attacks.
 #-------------------------------
 [MULTITASKER]
 Name = Multitasker
@@ -1630,9 +1638,13 @@ Flags = SunshineSynergy
 Name = Refuge
 Description = Pokémon that swap in for this have their non-volatile status conditions healed, and take 30% less damage that turn.
 #-------------------------------
-[RELUCTANTBLADE]
-Name = Reluctant Blade
-Description = When hit with a physical move, hits back instantly with Leafage.
+[RELUCTANTWARRIOR]
+Name = Reluctant Warrior
+Description = Below half health, it has a doubled crit chance and has +30% attack.
+#-------------------------------
+[REMANENTVOLTAGE]
+Name = Remanent Voltage
+Description = The Pokémon can use Electric-type moves when recharging from an exhausting move, but cannot switch out during them.
 #-------------------------------
 [RENDINGCLAWS]
 Name = Rending Claws
@@ -1738,7 +1750,7 @@ Description = Special moves have a 30% chance to waterlog targets.
 #-------------------------------
 [SATURNALSKY]
 Name = Saturnal Sky
-Description = Changes the weather to ring eclipse, which heralds the total ring eclipse. Lingers for 3 turns after leaving.
+Description = Changes the weather to ring eclipse, which heralds the total ring eclipse. Lingers for three turns after leaving.
 Flags = EclipseSynergy
 #-------------------------------
 [SCALDINGSMOKE]
@@ -1932,7 +1944,7 @@ Flags = EnablesRandomCrits
 #-------------------------------
 [STARGUARDIAN]
 Name = Star Guardian
-Description = Sets a Light Screen for 4 turns upon entry.
+Description = Sets a Light Screen for four turns upon entry.
 #-------------------------------
 [STARSALIGN]
 Name = Stars Align
@@ -1975,7 +1987,7 @@ Flags = RainstormSynergy
 #-------------------------------
 [STORMTOTEM]
 Name = Storm Totem
-Description = Upon entry, summons a Turbulent Sky on the Pokémon's side for 6 turns.
+Description = Upon entry, summons a Turbulent Sky on the Pokémon's side for six turns.
 #-------------------------------
 [STORMTRAIL]
 Name = Storm Trail
@@ -2010,7 +2022,7 @@ Flags = MoldBreaking
 #-------------------------------
 [STYGIANNIGHT]
 Name = Stygian Night
-Description = Changes the weather to Blood Moon, which heralds the Full Blood Moon. Lingers for 3 turns after leaving.
+Description = Changes the weather to Blood Moon, which heralds the Full Blood Moon. Lingers for three turns after leaving.
 Flags = MoonglowSynergy
 #-------------------------------
 [STYLISH]
@@ -2090,7 +2102,7 @@ Description = Deals 25% more move damage for each ally in battle.
 #-------------------------------
 [TEMPORALDISTORTION]
 Name = Temporal Distortion
-Description = Every 3 turns it gets to move twice.
+Description = Every three turns it gets to move twice.
 #-------------------------------
 [TENDERIZE]
 Name = Tenderize
@@ -2149,11 +2161,6 @@ Description = Powers up Poison-type moves of itself and its allies by 50%.
 [TOXINTAX]
 Name = Toxin Tax
 Description = Heals based on the damage other battlers take from being poisoned.
-#-------------------------------
-[TRACTORBEAM]
-Name = Tractor Beam
-Description = Traps the foe during eclipse.
-Flags = EclipseSynergy
 #-------------------------------
 [TRAPPER]
 Name = Trapper
@@ -2217,13 +2224,17 @@ Name = Unidentified
 Description = The Pokémon is Mutant-type.
 Flags = Immutable
 #-------------------------------
+[UPSIDEDOWN]
+Name = Upside Down
+Description = Uses Topsy Turvy on itself at the end of every turn.
+#-------------------------------
 [VANDAL]
 Name = Vandal
 Description = Deals 30% more damage to targets that have an item. After attacking a foe, destroys their clothing items.
 #-------------------------------
 [VENGEANCE]
 Name = Vengeance
-Description = After an attack reduces its HP to half or less, deals 1/4 of the attacker's HP back to the attacker.
+Description = After an attack reduces its HP to half or less, deals 1/4th of the attacker's HP back to the attacker.
 #-------------------------------
 [VENOMDETTA]
 Name = Venomdetta
@@ -2252,6 +2263,11 @@ Description = Takes 40% less damage while using a status move.
 [VITALRHYTHM]
 Name = Vital Rhythm
 Description = At the end of each turn, itself and each ally heals for 1/16th of their HP.
+#-------------------------------
+[VOIDWARRANTY]
+Name = Void Warranty
+Description = Changes into another form of your choosing when its HP is lowered below half.
+Flags = Uncopyable
 #-------------------------------
 [WALLNINJA]
 Name = Wall Ninja
@@ -2298,7 +2314,7 @@ Description = Uses Power Split upon entry or when hit by a move.
 #-------------------------------
 [WILDTOTEM]
 Name = Wild Totem
-Description = Upon entry, summons a Primal Forest on the Pokémon's side for 6 turns.
+Description = Upon entry, summons a Primal Forest on the Pokémon's side for six turns.
 #-------------------------------
 [WILLAURA]
 Name = Will Aura

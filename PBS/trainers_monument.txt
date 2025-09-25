@@ -281,7 +281,7 @@ Pokemon = SAWSBUCK,70
     EV = 5,20,5,20,20,0
 Pokemon = LURANTIS,70
     Moves = SUPERPOWER,LEAFSTORM,STRAFE,POLLENPUFF
-    AbilityIndex = 0 # Contrary
+    AbilityIndex = 0 # Inversion
     Item = ASSAULTVEST
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,0,20,20
@@ -931,7 +931,7 @@ Pokemon = CINDERACE,70
     EV = 10,20,0,20,20,0
 Pokemon = SERPERIOR,70
     Moves = LEAFSTORM,DRACOMETEOR,THUNDERBOLT,PETRIFY
-    AbilityIndex = 1 # Eccentric
+    AbilityIndex = 1 # Victory Molt
     Item = CHOICESCARF
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,10,0,0,10,20
@@ -950,7 +950,7 @@ Pokemon = GARDEVOIR,70
 Pokemon = ROTOM,70
     Form = 4 # Fan Form
     Moves = MACHINATE,VOLTSWITCH,DEFOG,WILLOWISP
-    AbilityIndex = 0 # Motor Drive
+    AbilityIndex = 1 # Haunted
     Item = SITRUSBERRY
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,0,20,10,0,0
@@ -1155,7 +1155,7 @@ Pokemon = PINCURCHIN,70
     EV = 20,20,10,0,20,0
 Pokemon = SERPERIOR,70
     Moves = DRACOMETEOR,LEAFSTORM,FACADE,THUNDERBOLT
-    AbilityIndex = 1 # Eccentric
+    AbilityIndex = 1 # Victory Molt
     Item = STRIKEVEST
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,20,0,20,0
@@ -1210,7 +1210,7 @@ Pokemon = INFERNAPE,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 0,20,10,20,20,0
 Pokemon = NIDOKING,70
-    Moves = POISONJAB,EARTHSPLITTER,BEDROCKBREAKER,BRICKBREAK
+    Moves = POISONJAB,EARTHSPLITTER,SUCKERPUNCH,REND
     AbilityIndex = 1 # Stressful
     Item = STRIKEVEST
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -1237,7 +1237,7 @@ Pokemon = JUMPLUFF,70
     EV = 10,20,0,20,20,0
 Pokemon = SERPERIOR,70
     Moves = LEAFSTORM,DRACOMETEOR,THUNDERBOLT,SYNTHESIS
-    AbilityIndex = 1 # Eccentric
+    AbilityIndex = 1 # Victory Molt
     Item = LEFTOVERS
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,10,0,0,10,20
@@ -1423,7 +1423,7 @@ Pokemon = FALINKS,70
 Pokemon = ROTOM,70
     Form = 2 # Wash Form
     Moves = MACHINATE,VOLTSWITCH,NUMB,DEFOG
-    AbilityIndex = 0 # Levitate
+    AbilityIndex = 1 # Haunted
     Item = LEFTOVERS
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,0,15,0,0,15
@@ -1756,7 +1756,7 @@ Pokemon = CRADILY,70
     EV = 20,20,10,0,20,0
 Pokemon = EELEKTROSS,70
     Moves = POISONJAB,ELECTROSLASH,NUMB,BRICKBREAK
-    AbilityIndex = 0 # Levitate
+    AbilityIndex = 1 # Frustrate
     Item = UTILITYUMBRELLA
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,10,0,20,10
@@ -2374,7 +2374,7 @@ Pokemon = MGIGALITH,70
     EV = 20,20,0,0,20,10
 Pokemon = EELEKTROSS,70
     Moves = WATERFALL,POISONJAB,ELECTROSLASH,KNOCKOFF
-    AbilityIndex = 0 # Levitate
+    AbilityIndex = 1 # Frustrate
     Item = LEFTOVERS
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,10,0,20,10

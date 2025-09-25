@@ -418,6 +418,17 @@ class PokeBattle_AI_DARKRAI < PokeBattle_AI_Boss
     end
 end
 
+class PokeBattle_AI_DIANCIE < PokeBattle_AI_Boss
+    def initialize(user, battle)
+        super
+        @beforePhaseChange.push(proc { |user, _battle|
+            if user.avatarPhase == 1
+                battle.forceUseMove(user, :GEMFORGEDOATH, user.index)
+            end
+        })
+    end
+end
+
 ##################################################
 # Route Avatars
 ##################################################

@@ -1232,6 +1232,18 @@ Target = AllNearOthers
 FunctionCode = Invalid
 Description = The user surrounds everything around it with highly acidic gas and melts away items they hold.
 #-------------------------------
+[DEVOURWHOLE]
+Name = Devour Whole
+Type = POISON
+Category = Physical
+Power = 130
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = Invalid
+Flags = CanProtect,Biting,Uninvocable
+Description = Grips the target with its entire mouth. The user is exhausted on the next turn unless the target faints or switches out.
+#-------------------------------
 [DIRECLAW]
 Name = Dire Claw
 Type = POISON
@@ -3272,6 +3284,17 @@ Priority = -6
 FunctionCode = Invalid
 Description = The user switches out to a party Pokémon in waiting. Always goes last.
 #-------------------------------
+[TRICK]
+Name = Trick
+Type = PSYCHIC
+Category = Status
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = Invalid
+Flags = CanProtect
+Description = The user catches the target off guard and swaps its held item with its own.
+#-------------------------------
 [TWINBEAM]
 Name = Twin Beam
 Type = PSYCHIC
@@ -3558,6 +3581,18 @@ Priority = -1
 FunctionCode = Invalid
 Flags = CanProtect,CanMagicCoat
 Description = Targets are dragged into a world of total darkness that makes them sleep. This move always goes last.
+#-------------------------------
+[DIVINATION]
+Name = Divination
+Type = DARK
+Category = Status
+Accuracy = 0
+TotalPP = 5
+Target = User
+FunctionCode = Invalid
+Flags = CanSnatch
+Description = The user heals itself by half of its max HP and raises their Defense, Sp. Def, and critical hit chance by two steps.
+Animation = COSMICPOWER
 #-------------------------------
 [EMBARGO]
 Name = Embargo

@@ -626,3 +626,39 @@ BattleHandlers::UserAbilityEndOfMove.add(:TANGLINGVINES,
     end
   }
 )
+
+BattleHandlers::UserAbilityEndOfMove.add(:FRIGHTENINGFANGS,
+  proc { |ability, user, targets, move, battle, _switchedBattlers|
+      next if battle.futureSight
+      next unless move.bitingMove?
+      targets.each do |b|
+          next if b.fainted?
+          battle.pbShowAbilitySplash(user, ability)
+          if b.pbAttack > b.pbSpAtk
+          b.pbLowerMultipleStatSteps([:ATTACK,2], user, move: self)
+          else
+          b.pbLowerMultipleStatSteps([:SPECIAL_ATTACK,2], user, move: self)
+          end
+      battle.pbHideAbilitySplash(user)
+      end
+  }
+)
+
+BattleHandlers::UserAbilityEndOfMove.add(:ACTIONSTAR,
+  proc { |ability, user, targets, move, battle, _switchedBattlers|
+    next if user.effectActive?(:ActionStar)
+
+    ability_proc = false
+    targets.each do |b| 
+      next if b.damageState.unaffected
+      next unless Effectiveness.super_effective?(b.damageState.typeMod)
+      ability_proc = true
+      break
+    end
+    next unless ability_proc
+    
+    battle.pbShowAbilitySplash(user, ability)
+    user.applyEffect(:ActionStar)
+    battle.pbHideAbilitySplash(user)
+  }
+)

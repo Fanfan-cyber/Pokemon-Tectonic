@@ -609,6 +609,17 @@ Flags = CanProtect
 Description = The user causes the air around the target to explode. The move's type is changed based on the active weather.
 Animation = WEATHERBALL
 #-------------------------------
+[WISHINGWELL]
+Name = Wishing Well
+Type = NORMAL
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = UserSide
+FunctionCode = WishingWellScalesWithMoney
+Description = The user throws away up to 1000 scattered coins to bless its side, blocking random added effects and healing for 1/16th HP each turn. Lasts one turn per 100 coins.
+Animation = PAYDAY
+#-------------------------------
 [YOUNGAGAIN]
 Name = Young Again
 Type = NORMAL
@@ -704,7 +715,7 @@ Name = Breakdance
 Type = FIGHTING
 Category = Status
 Accuracy = 0
-TotalPP = 15
+TotalPP = 6
 Target = User
 FunctionCode = RaiseUserWorstStat4SecondWorstStat2
 Flags = CanSnatch,Dance
@@ -1354,18 +1365,6 @@ Target = NearOther
 FunctionCode = DestroysBerriesGems
 Flags = CanProtect,Punch
 Description = The user strikes with an acidic punch that destroys Gems and Berries.
-#-------------------------------
-[DEVOURWHOLE]
-Name = Devour Whole
-Type = POISON
-Category = Physical
-Power = 130
-Accuracy = 100
-TotalPP = 5
-Target = NearOther
-FunctionCode = TwoTurnAttackRechargeSkippedIfTargetLeaves
-Flags = CanProtect,Biting,Uninvocable
-Description = Grips the target with its entire mouth. The user is exhausted on the next turn unless the target faints or switches out.
 #-------------------------------
 [DISSOLUTION]
 Name = Dissolution
@@ -2487,6 +2486,19 @@ FunctionCode = Flinch
 Flags = CanProtect,Light
 EffectChance = 40
 Description = The user attacks with small beams of light. It has a 40% chance to make the target flinch.
+Animation = SIGNALBEAM
+#-------------------------------
+[LUMINACHAIN]
+Name = Lumina Chain
+Type = BUG
+Category = Special
+Power = 120
+Accuracy = 100
+TotalPP = 10
+Target = ClosestNearFoe
+FunctionCode = Rampage
+Flags = CanProtect,Light
+Description = The user emits rapid bursts of light and rampages for two turns.
 Animation = SIGNALBEAM
 #-------------------------------
 [LUMINBURST]
@@ -5311,6 +5323,18 @@ EffectChance = 100
 Description = Cloaking itself in light energy, the user shocks the target, raising the user's Sp. Def by two steps.
 Animation = DISCHARGE
 #-------------------------------
+[MAGNETICCOIL]
+Name = Magnetic Coil
+Type = ELECTRIC
+Category = Status
+Accuracy = 0
+TotalPP = 6
+Target = User
+FunctionCode = RaiseUserAtkSpDef2MagnetRise
+Flags = CanSnatch
+Description = The user coils its body to generate an electric field, levitating for five turns and raising its Attack and Sp. Def by two steps.
+Animation = COIL
+#-------------------------------
 [METAFORM]
 Name = Metaform
 Type = ELECTRIC
@@ -6697,6 +6721,17 @@ Flags = CanProtect
 Description = Attacks all foes with hidden draconic energy. Power increases by 50% in eclipse.
 Animation = DRAGONPULSE
 #-------------------------------
+[REDUCINGSYRUP]
+Name = Reducing Syrup
+Type = DRAGON
+Category = Status
+Accuracy = 0
+TotalPP = 12
+Target = NearOther
+FunctionCode = ApplyReducingSyrupToTarget
+Flags = CanMagicCoat
+Description = The user sprays the target with a sticky syrup. For the next three turns, the target's highest stat will be reduced by two steps.
+#-------------------------------
 [REND]
 Name = Rend
 Type = DRAGON
@@ -6956,18 +6991,6 @@ FunctionCode = DisableTargetBladeMoves3
 Flags = CanProtect
 EffectChance = 100
 Description = The user disarms the target's blade. The target cannot use blade-based moves for two turns.
-#-------------------------------
-[DIVINATION]
-Name = Divination
-Type = DARK
-Category = Status
-Accuracy = 0
-TotalPP = 5
-Target = User
-FunctionCode = HealUserHalfOfTotalHPRaiseDefSpDefCriticalHitRate1
-Flags = CanSnatch
-Description = The user heals itself by half of its max HP and raises their Defense, Sp. Def, and critical hit chance by two steps.
-Animation = COSMICPOWER
 #-------------------------------
 [DROWN]
 Name = Drown
@@ -7568,6 +7591,19 @@ EffectChance = 50
 Description = The user plays with the target with unneccessary force. It has a 50% chance to lower Attack.
 Animation = PLAYROUGH
 #-------------------------------
+[GEMFORGEDOATH]
+Name = Gemforged Oath
+Type = FAIRY
+Category = Status
+Accuracy = 0
+TotalPP = 1
+Target = User
+Priority = 6
+FunctionCode = GrantUserCrystalCaliburnChangeUserDiancieForm
+Flags = CanProtect,Blade
+Description = The user draws the Crystal Caliburn, which empowers Light and Blade moves and transforms the holder into Royal form.
+Animation = DAZZLINGGLEAM
+#-------------------------------
 [GLAMOURFLASH]
 Name = Glamour Flash
 Type = FAIRY
@@ -7815,7 +7851,7 @@ Type = FAIRY
 Category = Special
 Power = 1
 Accuracy = 100
-TotalPP = 5
+TotalPP = 15
 Target = NearOther
 FunctionCode = ScalesSlowerThanTarget
 Flags = CanProtect

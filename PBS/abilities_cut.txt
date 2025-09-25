@@ -36,6 +36,10 @@ Description = Rather than take recoil damage, it swaps out, and its replacement 
 Name = Aloof
 Description = Reduces move damage taken by 50% when HP is full. Can't be dizzied.
 #-------------------------------
+[ANCESTRALDANCE]
+Name = Ancestral Dance
+Description = Raises Defense and Sp. Def whenever any Pokémon uses a dance move. Caps out at +4.
+#-------------------------------
 [ANGERPOINT]
 Name = Anger Point
 Description = The Pokémon is angered when it takes a critical hit, and that maxes its Attack stat.
@@ -158,6 +162,10 @@ Description = Ignores screens, Substitute, and Abilities that would affect its m
 [CLOUDNINE]
 Name = Cloud Nine
 Description = Eliminates the effects of weather.
+#-------------------------------
+[CLOVERSONG]
+Name = Clover Song
+Description = Sets a Lucky Chant upon entry, protecting from critical hits for 10 turns.
 #-------------------------------
 [COLDPROOF]
 Name = Cold Proof
@@ -799,6 +807,10 @@ Flags = Uncopyable
 Name = Refrigerate
 Description = Normal-type moves become Ice-type and power up by 30%.
 #-------------------------------
+[RELUCTANTBLADE]
+Name = Reluctant Blade
+Description = When hit with a physical move, hits back instantly with Leafage.
+#-------------------------------
 [RESONANCE]
 Name = Planar Veil
 Description = Sets screens for twice as long during eclipse.
@@ -1091,6 +1103,11 @@ Description = Powers up Poison-type moves of itself and its allies by 50%.
 Name = Trace
 Description = The Pokémon copies a foe's Ability.
 Flags = Uncopyable
+#-------------------------------
+[TRACTORBEAM]
+Name = Tractor Beam
+Description = Traps the foe during eclipse.
+Flags = EclipseSynergy
 #-------------------------------
 [TRICKSTER]
 Name = Trickster

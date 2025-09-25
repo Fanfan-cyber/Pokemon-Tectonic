@@ -3164,7 +3164,7 @@ Type = STEEL
 Category = Physical
 Power = 1
 Accuracy = 100
-TotalPP = 5
+TotalPP = 15
 Target = NearOther
 FunctionCode = ScalesSlowerThanTarget
 Flags = CanProtect
@@ -5154,17 +5154,6 @@ Target = NearOther
 FunctionCode = UserTargetSwapAbilities
 Flags = CanProtect
 Description = The user employs its psychic power to exchange Abilities with the target.
-#-------------------------------
-[TRICK]
-Name = Trick
-Type = PSYCHIC
-Category = Status
-Accuracy = 100
-TotalPP = 10
-Target = NearOther
-FunctionCode = SwapItems
-Flags = CanProtect
-Description = The user catches the target off guard and swaps its held item with its own.
 #-------------------------------
 [TRICKROOM]
 Name = Trick Room
