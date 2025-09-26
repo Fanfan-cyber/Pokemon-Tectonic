@@ -229,7 +229,7 @@ class PokemonBag_Scene
           Graphics.update unless openPocketImmediately
           Input.update
 
-          if Input.trigger?(Input::LEFT)
+          if Input.trigger?(Input::LEFT) || Input.repeat?(Input::LEFT)
             loop do
               newpocket = (newpocket==1) ? PokemonBag.numPockets : newpocket-1
               break if !@choosing || newpocket==itemwindow.pocket
@@ -239,7 +239,7 @@ class PokemonBag_Scene
                 break if @bag.pockets[newpocket].length > 0
               end
             end
-          elsif Input.trigger?(Input::RIGHT)
+          elsif Input.trigger?(Input::RIGHT) || Input.repeat?(Input::RIGHT)
             loop do
               newpocket = (newpocket==PokemonBag.numPockets) ? 1 : newpocket+1
               break if !@choosing || newpocket==itemwindow.pocket
@@ -249,14 +249,14 @@ class PokemonBag_Scene
                 break if @bag.pockets[newpocket].length > 0
               end
             end
-          elsif Input.trigger?(Input::UP)
+          elsif Input.trigger?(Input::UP) || Input.repeat?(Input::UP)
             pocketCandidate = newpocket >= 9 ? newpocket - 8 : newpocket + 8
             if @filterlist
               newpocket = pocketCandidate if @filterlist[pocketCandidate].length > 0
             else
               newpocket = pocketCandidate
             end
-          elsif Input.trigger?(Input::DOWN)
+          elsif Input.trigger?(Input::DOWN) || Input.repeat?(Input::DOWN)
             pocketCandidate = newpocket < 9 ? newpocket + 8 : newpocket - 8
             if @filterlist
               newpocket = pocketCandidate if @filterlist[pocketCandidate].length > 0
