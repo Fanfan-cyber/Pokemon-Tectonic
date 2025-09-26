@@ -5519,7 +5519,7 @@ Accuracy = 0
 TotalPP = 1
 Target = User
 FunctionCode = UseAllOtherSoundMoves
-Flags = Sound
+Flags = Sound,Uninvocable
 Description = The user rocks out by using each Sound-based move they know. Only one use per battle.
 Animation = UPROAR
 #-------------------------------
