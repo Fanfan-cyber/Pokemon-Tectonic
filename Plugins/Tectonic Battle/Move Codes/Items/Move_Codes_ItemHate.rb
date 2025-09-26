@@ -17,6 +17,7 @@ class PokeBattle_Move_RemovesTargetItem < PokeBattle_Move
         return 0 unless canKnockOffItems?(user, target, true)
         score = 0
         target.eachItem do |itemID|
+            next if target.unlosableItem?(itemID)
             score += 50
         end
         target.eachAIKnownItem do |itemID|

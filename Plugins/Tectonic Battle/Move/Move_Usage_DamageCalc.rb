@@ -386,6 +386,8 @@ class PokeBattle_Move
         stab = user.mono_type? ? 1.5 : 1.25
         stab *= 4.0 / 3.0 if user.shouldAbilityApply?(:ADAPTED, checkingForAI)
         stab *= 3.0 / 2.0 if user.shouldAbilityApply?(:ULTRAADAPTED, checkingForAI)
+        #user.aiLearnsAbility(:ADAPTED)
+        #user.aiLearnsAbility(:ULTRAADAPTED)
         stab
     end
 
