@@ -29,8 +29,7 @@ class PokemonBag_Scene
           end
         end
         lastpocket = (resetpocket) ? 1 : (startingPocket || @bag.lastpocket)
-        if (@filterlist && @filterlist[lastpocket].length==0) ||
-           (!@filterlist && @bag.pockets[lastpocket].length==0)
+        if (@filterlist && @filterlist[lastpocket].length==0)
           for i in 1...@bag.pockets.length
             if @filterlist && @filterlist[i].length>0
               lastpocket = i; break
@@ -233,21 +232,13 @@ class PokemonBag_Scene
             loop do
               newpocket = (newpocket==1) ? PokemonBag.numPockets : newpocket-1
               break if !@choosing || newpocket==itemwindow.pocket
-              if @filterlist
-                break if @filterlist[newpocket].length > 0
-              else
-                break if @bag.pockets[newpocket].length > 0
-              end
+              break if !@filterlist || @filterlist[newpocket].length > 0
             end
           elsif Input.trigger?(Input::RIGHT) || Input.repeat?(Input::RIGHT)
             loop do
               newpocket = (newpocket==PokemonBag.numPockets) ? 1 : newpocket+1
               break if !@choosing || newpocket==itemwindow.pocket
-              if @filterlist
-                break if @filterlist[newpocket].length > 0
-              else
-                break if @bag.pockets[newpocket].length > 0
-              end
+              break if !@filterlist || @filterlist[newpocket].length > 0
             end
           elsif Input.trigger?(Input::UP) || Input.repeat?(Input::UP)
             pocketCandidate = newpocket >= 9 ? newpocket - 8 : newpocket + 8
