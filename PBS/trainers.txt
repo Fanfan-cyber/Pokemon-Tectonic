@@ -7777,7 +7777,7 @@ Pokemon = SHIINOTIC,60
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,10,0,20,10
 Pokemon = CINCCINO,60
-    Moves = FIREWORKS,STELLARATE,BUBBLEBARRAGE,WINDTUNNEL
+    Moves = RAPIDHERTZ,STELLARATE,BUBBLEBARRAGE,WINDTUNNEL
     AbilityIndex = 1 # Fluffy
     Item = LOADEDDICE
 #-------------------------------
